@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "fuga",
-    "Type": "commodi",
-    "Description": "Organized tertiary neural-net",
+    "DisplayType": "qui",
+    "Type": "numquam",
+    "Description": "Re-contextualized multi-state capacity",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 668
       }
     }
   }

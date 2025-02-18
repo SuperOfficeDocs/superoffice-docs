@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Quigley, Gulgowski and Lowe"
+  "Name": "Rowe LLC"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Donnelly, Muller and Zboncak",
-    "SoPrimaryKey": 911,
-    "EntryName": "Jenkins Group",
-    "EntryIdentifier": "quo",
-    "RuleDisplayName": "Pfannerstill Group",
+    "RuleName": "Rau Inc and Sons",
+    "SoPrimaryKey": 72,
+    "EntryName": "Weissnat Inc and Sons",
+    "EntryIdentifier": "voluptatem",
+    "RuleDisplayName": "Daugherty Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldLength": 479
       }
     }
   }

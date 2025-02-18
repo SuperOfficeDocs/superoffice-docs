@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 962,
-  "Field": "nisi",
-  "RecordId": 655,
+  "RefCountsId": 197,
+  "Field": "corporis",
+  "RecordId": 833,
   "SuggestedRecords": [
     {
-      "Id": 735,
-      "Name": "Altenwerth Group",
-      "ToolTip": "Aut omnis numquam omnis.",
+      "Id": 855,
+      "Name": "Moen, Witting and Bergnaum",
+      "ToolTip": "Aut quas.",
       "Deleted": true,
-      "Rank": 838,
-      "Type": "voluptas",
+      "Rank": 265,
+      "Type": "expedita",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 337,
-      "ExtraInfo": "natus",
-      "StyleHint": "architecto",
-      "FullName": "Katheryn Muller",
+      "IconHint": "dolorum",
+      "ColorBlock": 620,
+      "ExtraInfo": "sit",
+      "StyleHint": "quidem",
+      "FullName": "Dr. Norwood Ariane Oberbrunner V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 110
         }
       }
     }
   ],
-  "CurrentValue": 440,
-  "TravelPrefix": 926,
-  "SatPrefix": 278,
+  "CurrentValue": 983,
+  "TravelPrefix": 269,
+  "SatPrefix": 766,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

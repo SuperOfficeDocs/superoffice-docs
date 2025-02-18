@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Lang, Bradtke and Thiel",
-      "Operator": "voluptatibus",
+      "Name": "Collins LLC",
+      "Operator": "ut",
       "Values": [
-        "doloribus",
-        "repellat"
+        "consectetur",
+        "porro"
       ],
       "DisplayValues": [
-        "impedit",
-        "quas"
+        "sed",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 813,
+      "InterParenthesis": 642,
       "InterOperator": "And",
-      "UniqueHash": 729
+      "UniqueHash": 420
     }
   ],
   "Columns": [
-    "asperiores",
-    "assumenda"
+    "molestiae",
+    "eum"
   ],
-  "ConnectionId": 327,
+  "ConnectionId": 947,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ullam",
-        "sint"
+        "nesciunt",
+        "rerum"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ea",
+      "ExternalKey": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 9
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Murphy, Nicolas and Waters",
-      "DisplayName": "Gerhold-Littel",
-      "Locked": true,
+      "Name": "Swaniawski Group",
+      "DisplayName": "Schultz, Cronin and Schaden",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldType": "System.String",
+          "FieldLength": 930
         }
       }
     },
     {
-      "Name": "Murphy, Nicolas and Waters",
-      "DisplayName": "Gerhold-Littel",
-      "Locked": true,
+      "Name": "Swaniawski Group",
+      "DisplayName": "Schultz, Cronin and Schaden",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldType": "System.String",
+          "FieldLength": 930
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 950
     }
   }
 }

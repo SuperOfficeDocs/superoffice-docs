@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 836,
-    "Section": "reprehenderit",
-    "Key": "sunt",
-    "Name": "Hansen-Marks",
+    "PrefDescId": 629,
+    "Section": "consequatur",
+    "Key": "et",
+    "Name": "Bins Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Seamless well-modulated firmware",
+    "Description": "Progressive zero tolerance open architecture",
     "IsBuiltin": true,
-    "TableName": "Labadie Inc and Sons",
-    "UserDefinedListId": 373,
-    "Rank": 658,
-    "SubGroup": "nemo",
-    "MinLevel": 328,
-    "MaxValue": 409,
-    "MinValue": 262,
-    "RequiredLicense": "dolores",
+    "TableName": "Treutel Inc and Sons",
+    "UserDefinedListId": 513,
+    "Rank": 769,
+    "SubGroup": "dolore",
+    "MinLevel": 478,
+    "MaxValue": 983,
+    "MinValue": 490,
+    "RequiredLicense": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 659
       }
     }
   }

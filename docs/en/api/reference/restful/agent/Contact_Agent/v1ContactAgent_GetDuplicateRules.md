@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Strosin, Hane and Kshlerin",
-    "DisplayName": "Considine-Oberbrunner",
-    "DisplayTooltip": "tenetur",
+    "Name": "Braun, Runolfsdottir and Klein",
+    "DisplayName": "Wisozk-Tremblay",
+    "DisplayTooltip": "eius",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 380
       }
     }
   },
   {
-    "Name": "Strosin, Hane and Kshlerin",
-    "DisplayName": "Considine-Oberbrunner",
-    "DisplayTooltip": "tenetur",
+    "Name": "Braun, Runolfsdottir and Klein",
+    "DisplayName": "Wisozk-Tremblay",
+    "DisplayTooltip": "eius",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldLength": 380
       }
     }
   }

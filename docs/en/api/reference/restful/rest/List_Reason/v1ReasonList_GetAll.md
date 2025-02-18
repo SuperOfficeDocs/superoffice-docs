@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Schamberger, Boyer and Balistreri",
-    "Tooltip": "eius",
+    "Id": 938,
+    "Name": "Gusikowski Group",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 803,
-    "Rank": 731,
+    "UdListDefinitionId": 284,
+    "Rank": 618,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 389
+        "FieldType": "System.Int32",
+        "FieldLength": 847
       }
     }
   }

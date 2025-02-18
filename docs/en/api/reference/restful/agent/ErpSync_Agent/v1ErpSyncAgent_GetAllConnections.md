@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 971,
-    "ErpConnectorId": 253,
-    "DisplayName": "Wilkinson-Cummings",
-    "DisplayDescription": "Object-based explicit success",
+    "ErpConnectionId": 467,
+    "ErpConnectorId": 782,
+    "DisplayName": "Bogisich, Hickle and Botsford",
+    "DisplayDescription": "Focused contextually-based secured line",
     "Active": false,
-    "ConnectionId": "et",
-    "MostRecentTimestamp": "voluptatem",
+    "ConnectionId": "dolores",
+    "MostRecentTimestamp": "est",
     "ConfigFields": {
-      "ConfigFields1": "ut",
-      "ConfigFields2": "recusandae"
+      "ConfigFields1": "ex",
+      "ConfigFields2": "non"
     },
     "Deleted": false,
-    "AllAccess": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      621,
-      57
+      19,
+      196
     ],
     "AssociateAccessIds": [
-      883,
-      57
+      387,
+      780
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 657
       }
     }
   }

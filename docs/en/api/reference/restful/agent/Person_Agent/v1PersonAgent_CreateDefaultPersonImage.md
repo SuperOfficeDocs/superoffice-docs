@@ -66,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 984,
+  "PersonId": 860,
   "ImageData": "GIF89....File contents as raw bytes..."
 }
 ```

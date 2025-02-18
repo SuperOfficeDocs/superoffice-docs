@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 447,
-  "Caption": "at",
-  "Description": "Digitized needs-based policy",
-  "ChartName": "Hamill-Brown",
-  "ChartId": "enim",
+  "DashboardTileId": 454,
+  "Caption": "et",
+  "Description": "Implemented multimedia solution",
+  "ChartName": "Haley Group",
+  "ChartId": "architecto",
   "IsDefault": true,
-  "AssociateId": 306,
-  "GroupId": 228,
-  "SelectionId": 123,
-  "Config": "est",
+  "AssociateId": 622,
+  "GroupId": 264,
+  "SelectionId": 515,
+  "Config": "fugit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schumm-Gleichner",
-      "Description": "Pre-emptive web-enabled system engine",
+      "Name": "Ritchie Group",
+      "Description": "Distributed transitional benchmark",
       "Type": "Boolean",
-      "ListName": "Stanton, Monahan and O'Conner",
+      "ListName": "Ullrich, Stroman and Mayert",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "perspiciatis",
-      "DefaultDataOption": true,
+      "Value": "molestias",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 823
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 930,
+      "VisibleId": 382,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     },
     {
-      "VisibleId": 930,
+      "VisibleId": 382,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 620
     }
   }
 }

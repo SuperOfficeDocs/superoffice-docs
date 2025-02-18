@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 462,
-  "ERPProductKey": "ea",
-  "ERPPriceListKey": "ratione",
-  "Name": "Wisozk LLC",
-  "Description": "Mandatory radical benchmark",
-  "Code": "ut",
-  "PriceUnit": "commodi",
-  "QuantityUnit": "et",
+  "ProductId": 797,
+  "ERPProductKey": "adipisci",
+  "ERPPriceListKey": "aut",
+  "Name": "Berge Inc and Sons",
+  "Description": "Streamlined interactive success",
+  "Code": "corrupti",
+  "PriceUnit": "qui",
+  "QuantityUnit": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "DefaultSubscriptionQuantity": 19916.57,
-  "ItemNumber": "438352",
+  "SubscriptionUnit": "sed",
+  "DefaultSubscriptionQuantity": 21784.433999999997,
+  "ItemNumber": "1320844",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "repellat",
-  "VAT": 24793.074,
-  "VATInfo": "sit",
-  "UnitCost": 11874.725999999999,
-  "UnitMinimumPrice": 9182.619999999999,
-  "UnitListPrice": 25780.284,
-  "InAssortment": false,
-  "Supplier": "odio",
-  "SupplierCode": "dolor",
-  "Rights": "inventore",
-  "Rule": "porro",
+  "ProductFamilyKey": "optio",
+  "ProductTypeKey": "sunt",
+  "VAT": 15801.627999999999,
+  "VATInfo": "minima",
+  "UnitCost": 1745.638,
+  "UnitMinimumPrice": 1187.786,
+  "UnitListPrice": 23404.712,
+  "InAssortment": true,
+  "Supplier": "quis",
+  "SupplierCode": "nemo",
+  "Rights": "eos",
+  "Rule": "iste",
   "ExtraInfo": [
     {
-      "Name": "Crona, Walter and Grant",
-      "Value": "consequatur",
+      "Name": "Kuvalis LLC",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 344
         }
       }
     },
     {
-      "Name": "Crona, Walter and Grant",
-      "Value": "consequatur",
+      "Name": "Kuvalis LLC",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 344
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptate",
-  "ExtraField1": "velit",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "libero",
-  "ExtraField4": "corporis",
-  "ExtraField5": "dolor",
-  "InStock": 20054.466,
+  "RawExtraInfo": "consequatur",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "in",
+  "ExtraField3": "modi",
+  "ExtraField4": "est",
+  "ExtraField5": "et",
+  "InStock": 24291.634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 757
     }
   }
 }

@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 760,
-  "WorkflowStepId": 475,
-  "WorkflowId": 859,
-  "Rank": 40,
+  "WorkflowWaitForActionId": 834,
+  "WorkflowStepId": 696,
+  "WorkflowId": 430,
+  "Rank": 383,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Goyette, Emard and Rosenbaum",
-      "Description": "Grass-roots fault-tolerant encryption",
-      "Rank": 486,
+      "Name": "McKenzie, Ferry and Crooks",
+      "Description": "Progressive systematic attitude",
+      "Rank": 410,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Goyette, Emard and Rosenbaum",
-      "Description": "Grass-roots fault-tolerant encryption",
-      "Rank": 486,
+      "Name": "McKenzie, Ferry and Crooks",
+      "Description": "Progressive systematic attitude",
+      "Rank": 410,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 200,
-  "WorkflowStepId": 492,
-  "WorkflowId": 268,
-  "Rank": 499,
+  "WorkflowWaitForActionId": 564,
+  "WorkflowStepId": 188,
+  "WorkflowId": 260,
+  "Rank": 953,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Hyatt-Eichmann",
-      "Description": "User-centric motivating encoding",
-      "Rank": 518,
+      "Name": "Kassulke-Roberts",
+      "Description": "De-engineered regional core",
+      "Rank": 951,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hyatt-Eichmann",
-      "Description": "User-centric motivating encoding",
-      "Rank": 518,
+      "Name": "Kassulke-Roberts",
+      "Description": "De-engineered regional core",
+      "Rank": 951,
       "Restrictions": [
         {},
         {}
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

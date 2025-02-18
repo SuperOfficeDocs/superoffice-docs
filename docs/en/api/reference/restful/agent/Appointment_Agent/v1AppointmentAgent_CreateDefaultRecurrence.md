@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 934,
-  "StartDate": "2022-01-15T12:01:27.2127411+01:00",
-  "EndDate": "2015-09-22T12:01:27.2127411+02:00",
-  "RecurrenceCounter": 128,
+  "RecurrenceId": 1002,
+  "StartDate": "2021-02-14T14:32:01.7961076+01:00",
+  "EndDate": "2004-08-16T14:32:01.7961076+02:00",
+  "RecurrenceCounter": 359,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "Date": "2025-01-19T14:32:01.7961076+01:00",
       "IsConflict": false,
-      "Description": "Visionary radical benchmark",
-      "DescriptionStyleHint": "Face to face secondary standardization",
-      "Tooltip": "et"
+      "Description": "Future-proofed national intranet",
+      "DescriptionStyleHint": "Business-focused methodical array",
+      "Tooltip": "dolores"
     },
     {
-      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "Date": "2025-01-19T14:32:01.7961076+01:00",
       "IsConflict": false,
-      "Description": "Visionary radical benchmark",
-      "DescriptionStyleHint": "Face to face secondary standardization",
-      "Tooltip": "et"
+      "Description": "Future-proofed national intranet",
+      "DescriptionStyleHint": "Business-focused methodical array",
+      "Tooltip": "dolores"
     }
   ],
   "IsRecurrence": false

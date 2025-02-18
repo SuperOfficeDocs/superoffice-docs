@@ -112,9 +112,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 901,
-  "UserInput": "eos",
-  "PriceListKey": "in"
+  "QuoteAlternativeId": 186,
+  "UserInput": "ex",
+  "PriceListKey": "enim"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 786,
-    "ERPProductKey": "fugiat",
-    "ERPPriceListKey": "qui",
-    "Name": "Kulas Group",
-    "Description": "Enhanced web-enabled focus group",
-    "Code": "ab",
-    "PriceUnit": "qui",
-    "QuantityUnit": "quidem",
-    "IsSubscription": true,
-    "SubscriptionUnit": "consequatur",
-    "DefaultSubscriptionQuantity": 9188.887999999999,
-    "ItemNumber": "846956",
+    "ProductId": 142,
+    "ERPProductKey": "molestias",
+    "ERPPriceListKey": "repellat",
+    "Name": "Gottlieb, Breitenberg and Brown",
+    "Description": "Centralized directional info-mediaries",
+    "Code": "quaerat",
+    "PriceUnit": "quam",
+    "QuantityUnit": "vitae",
+    "IsSubscription": false,
+    "SubscriptionUnit": "minus",
+    "DefaultSubscriptionQuantity": 11824.582,
+    "ItemNumber": "1223471",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ut",
-    "ProductTypeKey": "ducimus",
-    "VAT": 7126.7159999999994,
-    "VATInfo": "nulla",
-    "UnitCost": 6612.74,
-    "UnitMinimumPrice": 28403.442,
-    "UnitListPrice": 22906.406,
+    "ProductFamilyKey": "et",
+    "ProductTypeKey": "omnis",
+    "VAT": 14999.323999999999,
+    "VATInfo": "quis",
+    "UnitCost": 4785.6179999999995,
+    "UnitMinimumPrice": 6785.11,
+    "UnitListPrice": 11639.676,
     "InAssortment": false,
-    "Supplier": "molestiae",
-    "SupplierCode": "qui",
-    "Rights": "fuga",
-    "Rule": "vel",
+    "Supplier": "animi",
+    "SupplierCode": "quisquam",
+    "Rights": "cupiditate",
+    "Rule": "itaque",
     "ExtraInfo": [
       {
-        "Name": "Dickens-Howell",
-        "Value": "enim",
+        "Name": "Raynor-Krajcik",
+        "Value": "mollitia",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldLength": 477
           }
         }
       },
       {
-        "Name": "Dickens-Howell",
-        "Value": "enim",
+        "Name": "Raynor-Krajcik",
+        "Value": "mollitia",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldLength": 477
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "rerum",
-    "ExtraField2": "est",
-    "ExtraField3": "voluptatem",
-    "ExtraField4": "voluptatum",
-    "ExtraField5": "et",
-    "InStock": 2936.558,
+    "RawExtraInfo": "nesciunt",
+    "ExtraField1": "non",
+    "ExtraField2": "quaerat",
+    "ExtraField3": "velit",
+    "ExtraField4": "eligendi",
+    "ExtraField5": "totam",
+    "InStock": 16610.2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 574
       }
     }
   }

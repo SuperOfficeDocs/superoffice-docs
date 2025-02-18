@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 509,
-  "AssociateId": 802,
-  "Block": "aspernatur",
-  "Registered": "2007-09-07T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 316,
-  "Updated": "2006-06-08T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 980,
-  "UpdatedCount": 502,
+  "ShipmentMessageBlockId": 693,
+  "AssociateId": 314,
+  "Block": "laboriosam",
+  "Registered": "2023-07-31T14:32:03.202412+02:00",
+  "RegisteredAssociateId": 305,
+  "Updated": "2011-04-18T14:32:03.202412+02:00",
+  "UpdatedAssociateId": 430,
+  "UpdatedCount": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 233
     }
   }
 }

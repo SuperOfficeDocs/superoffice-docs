@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "qui",
-  "PluginId": 636
+  "LanguageCode": "ex",
+  "PluginId": 153
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 949,
-  "Name": "Cruickshank, Jakubowski and Ward",
-  "Tooltip": "ut",
-  "SaveInDb": 988,
-  "Filename": "voluptate",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 326,
+  "Name": "Huel-Upton",
+  "Tooltip": "voluptate",
+  "SaveInDb": 77,
+  "Filename": "harum",
+  "DefaultOref": "dicta",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 729,
-  "IntentId": 842,
+  "AutoeventId": 271,
+  "IntentId": 687,
   "IsDefaultPublished": false,
-  "Rank": 942,
-  "LoadTemplateFromPlugin": 653,
-  "MimeType": "doloremque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 341,
+  "Rank": 840,
+  "LoadTemplateFromPlugin": 786,
+  "MimeType": "placeat",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 963,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "edwin@wilkinsonkuvalis.name",
-  "IncludeSignature": false,
+  "EmailSubject": "kristy@conroy.us",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "liliane_hermiston@okeefekassulke.us",
+  "SenderEmailAddress": "eliseo@nader.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 936
     }
   }
 }

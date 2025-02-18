@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 4,
+  "EjMessageId": 72,
   "Ticket": null,
-  "CreatedAt": "2005-02-03T12:01:28.5565847+01:00",
+  "CreatedAt": "2014-09-19T14:32:04.2178019+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "labore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "occaecati",
-  "TimeSpent": 490,
-  "Body": "dolores",
-  "HtmlBody": "illum",
-  "EmailHeader": "otho@hagenes.com",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "ab",
+  "MessageId": "temporibus",
+  "TimeSpent": 781,
+  "Body": "alias",
+  "HtmlBody": "et",
+  "EmailHeader": "davonte@stanton.uk",
+  "DebugInfo": "ipsum",
+  "MailSorter": "minima",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "deserunt",
+  "SearchTitle": "veniam",
   "MessageHeaders": [
     {
-      "Id": 280,
-      "Name": "Kling-Medhurst",
-      "Value": "et",
+      "Id": 689,
+      "Name": "Brekke, Stark and Rogahn",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldType": "System.String",
+          "FieldLength": 663
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "omnis",
-  "Sentiment": 77,
-  "SentimentConfidence": 845,
+  "Important": true,
+  "Language": "animi",
+  "Sentiment": 858,
+  "SentimentConfidence": 513,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 220,
-      "Name": "Satterfield, Dare and Sauer",
-      "ContentType": "et",
-      "AttSize": 803,
-      "InlineImage": true,
-      "ContentId": "odio",
-      "AuthKey": "vitae",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 519,
+      "Name": "Bins, Hegmann and McCullough",
+      "ContentType": "quam",
+      "AttSize": 53,
+      "InlineImage": false,
+      "ContentId": "sit",
+      "AuthKey": "aspernatur",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldLength": 102
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "ullam",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "minus"
+    "CustomFields1": "nisi",
+    "CustomFields2": "modi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldLength": 573
     }
   }
 }

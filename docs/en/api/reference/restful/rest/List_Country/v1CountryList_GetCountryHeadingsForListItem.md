@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Wunsch, Fay and Blick",
-    "ToolTip": "Officiis tempora.",
-    "Deleted": false,
-    "Rank": 653,
-    "Type": "nostrum",
-    "ColorBlock": 887,
-    "IconHint": "ut",
+    "Id": 374,
+    "Name": "Murazik, Konopelski and Wuckert",
+    "ToolTip": "Doloremque ut non illo quae et sed.",
+    "Deleted": true,
+    "Rank": 508,
+    "Type": "totam",
+    "ColorBlock": 343,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2002-12-30T12:01:33.4801008+01:00",
+    "LastChanged": "2021-01-02T14:32:12.552084+01:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Becker-Dietrich",
-        "ToolTip": "Officiis nobis necessitatibus porro.",
+        "Id": 629,
+        "Name": "Ernser-Kozey",
+        "ToolTip": "Totam et debitis officia optio praesentium aliquid nemo.",
         "Deleted": false,
-        "Rank": 118,
-        "Type": "voluptatem",
-        "ColorBlock": 159,
-        "IconHint": "ullam",
+        "Rank": 595,
+        "Type": "placeat",
+        "ColorBlock": 849,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2008-11-23T12:01:33.4801008+01:00",
+        "LastChanged": "2001-11-27T14:32:12.552084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Mr. Gino Beier DDS",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Everett Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Jerry Kling",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "velit",
+    "Hidden": true,
+    "FullName": "Marielle Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 444
       }
     }
   }

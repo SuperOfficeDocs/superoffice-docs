@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Streich, Sporer and Jaskolski",
-    "DisplayName": "Walker, Koelpin and Schaefer",
-    "DisplayTooltip": "vel",
+    "Name": "Herzog, Moore and Ernser",
+    "DisplayName": "Howe-Lubowitz",
+    "DisplayTooltip": "ab",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 229
       }
     }
   },
   {
-    "Name": "Streich, Sporer and Jaskolski",
-    "DisplayName": "Walker, Koelpin and Schaefer",
-    "DisplayTooltip": "vel",
+    "Name": "Herzog, Moore and Ernser",
+    "DisplayName": "Howe-Lubowitz",
+    "DisplayTooltip": "ab",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 229
       }
     }
   }

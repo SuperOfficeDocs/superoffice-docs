@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 728,
-  "CurrencyId": 674
+  "QuoteConnectionId": 364,
+  "CurrencyId": 716
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 957,
-    "ERPPriceListKey": "voluptatem",
-    "QuoteConnectionId": 212,
-    "Name": "Aufderhar Inc and Sons",
-    "Description": "Upgradable neutral synergy",
-    "Currency": "cum",
-    "CurrencyName": "Littel-Mills",
-    "ValidFrom": "2015-02-02T12:01:28.1971849+01:00",
-    "ValidTo": "2012-12-03T12:01:28.1971849+01:00",
-    "IsActive": true,
+    "PriceListId": 903,
+    "ERPPriceListKey": "magni",
+    "QuoteConnectionId": 741,
+    "Name": "Wilderman Inc and Sons",
+    "Description": "Multi-channelled cohesive attitude",
+    "Currency": "nostrum",
+    "CurrencyName": "Rutherford-Anderson",
+    "ValidFrom": "2022-01-14T14:32:03.592943+01:00",
+    "ValidTo": "2015-08-16T14:32:03.592943+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldLength": 26
       }
     }
   }

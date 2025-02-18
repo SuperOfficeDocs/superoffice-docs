@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 753,
-  "ModuleOwner": "quae"
+  "AssociateId": 796,
+  "ModuleOwner": "quos"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 616,
-    "Tooltip": "ut",
-    "CanAssign": true,
-    "Free": 870,
-    "InUse": 901,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 285,
-    "Name": "Frami Group",
-    "Description": "Automated demand-driven analyzer",
-    "PrerequisiteModuleName": "Marvin, Dickinson and Sporer",
-    "SortOrder": 872,
-    "ExtraFlags": 732,
+    "Total": 23,
+    "Tooltip": "similique",
+    "CanAssign": false,
+    "Free": 471,
+    "InUse": 678,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 187,
+    "Name": "Will, Prosacco and Konopelski",
+    "Description": "Total intangible process improvement",
+    "PrerequisiteModuleName": "Stracke, Trantow and Schroeder",
+    "SortOrder": 725,
+    "ExtraFlags": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldType": "System.String",
+        "FieldLength": 99
       }
     }
   }

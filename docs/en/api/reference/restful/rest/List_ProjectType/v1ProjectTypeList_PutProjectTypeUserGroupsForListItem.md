@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Wisozk-Bosco",
-    "ToolTip": "Neque dolor alias nisi in.",
-    "Deleted": false,
-    "Rank": 415,
-    "Type": "omnis",
-    "ColorBlock": 707,
-    "IconHint": "perferendis",
+    "Id": 107,
+    "Name": "Rice Group",
+    "ToolTip": "Aut praesentium commodi ut fugiat.",
+    "Deleted": true,
+    "Rank": 862,
+    "Type": "numquam",
+    "ColorBlock": 252,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2011-07-16T12:01:33.6051097+02:00",
+    "LastChanged": "2001-08-17T14:32:12.8022634+02:00",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Gorczany-Streich",
-        "ToolTip": "Tempora esse aliquam rerum ut quia sapiente.",
+        "Id": 208,
+        "Name": "Runte, Fisher and Stehr",
+        "ToolTip": "Et qui est illo qui quasi tenetur.",
         "Deleted": false,
-        "Rank": 205,
-        "Type": "veniam",
-        "ColorBlock": 259,
-        "IconHint": "veritatis",
+        "Rank": 735,
+        "Type": "totam",
+        "ColorBlock": 732,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2005-04-25T12:01:33.6051097+02:00",
+        "LastChanged": "2004-10-09T14:32:12.8022634+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "repellat",
         "Hidden": true,
-        "FullName": "Cloyd DuBuque"
+        "FullName": "Prof. Octavia Gerhold"
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Prof. Ryann Konopelski V"
+    "FullName": "Gerry Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "O'Kon Inc and Sons",
-    "ToolTip": "Tempora ullam sit.",
-    "Deleted": false,
-    "Rank": 200,
-    "Type": "nisi",
-    "ColorBlock": 231,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2013-07-14T12:01:33.6051097+02:00",
+    "Id": 131,
+    "Name": "Runte, D'Amore and Lang",
+    "ToolTip": "Cumque itaque modi.",
+    "Deleted": true,
+    "Rank": 96,
+    "Type": "tempora",
+    "ColorBlock": 961,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2013-06-20T14:32:12.8022634+02:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Konopelski, Ferry and Jerde",
-        "ToolTip": "Dolorem ducimus.",
-        "Deleted": false,
-        "Rank": 762,
-        "Type": "sapiente",
-        "ColorBlock": 778,
-        "IconHint": "rerum",
+        "Id": 30,
+        "Name": "Hartmann-Ledner",
+        "ToolTip": "Doloribus quod tenetur.",
+        "Deleted": true,
+        "Rank": 474,
+        "Type": "reprehenderit",
+        "ColorBlock": 929,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2006-11-15T12:01:33.6051097+01:00",
+        "LastChanged": "2015-01-24T14:32:12.8022634+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "fugit",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Mr. Cullen Damion Casper IV",
+        "FullName": "Mona Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 829
+            "FieldLength": 269
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "sit",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Dr. Jamison Aniyah Dietrich",
+    "FullName": "Dawson Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 371
+        "FieldLength": 39
       }
     }
   }

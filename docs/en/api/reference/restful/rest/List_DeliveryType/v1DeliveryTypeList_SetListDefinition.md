@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Armstrong Group",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 843,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 287,
+  "Name": "Hettinger LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 124,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Purdy, Thiel and Swift",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 175,
-  "IsCustomList": false,
+  "Id": 241,
+  "Name": "Tillman, Rempel and Bogisich",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 256,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldType": "System.String",
+      "FieldLength": 272
     }
   }
 }

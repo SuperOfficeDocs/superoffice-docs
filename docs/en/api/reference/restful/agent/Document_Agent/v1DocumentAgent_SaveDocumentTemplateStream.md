@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 120,
+  "DocumentTemplateId": 913,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "placeat",
-  "PluginId": 378
+  "LanguageCode": "error",
+  "PluginId": 810
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Runolfsson LLC",
-  "Description": "Triple-buffered executive initiative",
-  "ExternalReference": "quo",
-  "MimeType": "ut",
-  "PluginId": 20
+  "Name": "Hoppe-Huel",
+  "Description": "Innovative static project",
+  "ExternalReference": "repudiandae",
+  "MimeType": "similique",
+  "PluginId": 901
 }
 ```

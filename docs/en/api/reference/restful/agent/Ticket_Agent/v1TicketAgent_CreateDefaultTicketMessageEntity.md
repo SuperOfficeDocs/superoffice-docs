@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 749,
+  "EjMessageId": 286,
   "Ticket": null,
-  "CreatedAt": "2023-04-01T12:01:28.3534468+02:00",
+  "CreatedAt": "2021-04-09T14:32:04.0303478+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "iste",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "odio",
-  "TimeSpent": 653,
-  "Body": "voluptatem",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "annie_price@farrellgulgowski.biz",
-  "DebugInfo": "necessitatibus",
-  "MailSorter": "eos",
+  "MessageId": "quod",
+  "TimeSpent": 820,
+  "Body": "labore",
+  "HtmlBody": "nihil",
+  "EmailHeader": "jaeden_nitzsche@wildermansauer.name",
+  "DebugInfo": "laboriosam",
+  "MailSorter": "explicabo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "in",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 54,
-      "Name": "Gibson-Braun",
-      "Value": "nulla",
+      "Id": 750,
+      "Name": "Konopelski-Bednar",
+      "Value": "nobis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldType": "System.Int32",
+          "FieldLength": 894
         }
       }
     }
   ],
   "Important": true,
-  "Language": "explicabo",
-  "Sentiment": 788,
-  "SentimentConfidence": 63,
+  "Language": "impedit",
+  "Sentiment": 97,
+  "SentimentConfidence": 325,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 490,
-      "Name": "King, Crist and Bogisich",
-      "ContentType": "eius",
-      "AttSize": 794,
+      "AttachmentId": 884,
+      "Name": "Collier, Howell and Bednar",
+      "ContentType": "dolorem",
+      "AttSize": 673,
       "InlineImage": false,
-      "ContentId": "nam",
-      "AuthKey": "delectus",
-      "IsSafeFileExtension": true,
+      "ContentId": "blanditiis",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldLength": 372
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "et"
+    "CustomFields1": "rerum",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 578
     }
   }
 }

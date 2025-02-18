@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Russel-Hand",
+  "Name": "Hayes Inc and Sons",
   "AssociateIds": [
-    423,
-    402
+    844,
+    833
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Hahn LLC",
-    "AssociateId": 710,
-    "DetailsTable": 195,
-    "DetailsRecord": 172,
+    "Id": 597,
+    "Name": "Hauck LLC",
+    "AssociateId": 891,
+    "DetailsTable": 398,
+    "DetailsRecord": 799,
     "IsSystemTask": true,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "neque",
-      "ParameterObject2": "et"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "dolorem"
     },
-    "LastStarted": "2022-04-01T12:01:27.3533761+02:00",
-    "Created": "2000-01-17T12:01:27.3533761+01:00",
-    "StartCount": 199,
-    "DatabaseSerialNumber": "718894",
-    "Context": "nulla",
-    "Result": "officiis",
+    "LastStarted": "2002-05-29T14:32:02.0462229+02:00",
+    "Created": "2023-02-22T14:32:02.0462229+01:00",
+    "StartCount": 43,
+    "DatabaseSerialNumber": "572717",
+    "Context": "deleniti",
+    "Result": "aliquid",
     "State": "All",
-    "Description": "Integrated leading edge complexity",
-    "Response": "sapiente",
-    "Request": "aspernatur",
-    "ProgressDescription": "Mandatory value-added collaboration",
-    "ProgressPercent": 272,
-    "FileName": "Bartell Group",
+    "Description": "Expanded coherent monitoring",
+    "Response": "adipisci",
+    "Request": "temporibus",
+    "ProgressDescription": "Extended zero tolerance leverage",
+    "ProgressPercent": 718,
+    "FileName": "Erdman, Abbott and Renner",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldType": "System.String",
+        "FieldLength": 739
       }
     }
   }

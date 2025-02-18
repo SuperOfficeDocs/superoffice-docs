@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lueilwitz-Stanton",
+  "TableName": "Witting Group",
   "Columns": [
-    "velit",
-    "eveniet"
+    "enim",
+    "quaerat"
   ],
   "Keys": [
-    "odit",
-    "enim"
+    "et",
+    "officiis"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "nihil",
-  "Inserts": 329,
-  "Updates": 279,
-  "Deletes": 350,
+  "Success": true,
+  "Message": "debitis",
+  "Inserts": 547,
+  "Updates": 395,
+  "Deletes": 409,
   "RowStatus": [
     {
-      "PrimaryKey": 112,
+      "PrimaryKey": 545,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptatem",
-        "quasi"
+        "eos",
+        "repellat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 831
         }
       }
     },
     {
-      "PrimaryKey": 112,
+      "PrimaryKey": 545,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptatem",
-        "quasi"
+        "eos",
+        "repellat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldLength": 831
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 280
     }
   }
 }

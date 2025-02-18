@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 708,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 77,
-  "ERPProductKey": "aut",
+  "QuoteLineId": 971,
+  "ERPQuoteLineKey": "voluptatem",
+  "QuoteAlternativeId": 655,
+  "ERPProductKey": "temporibus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22893.87,
-  "DeliveredQuantity": 7104.7779999999993,
-  "Rank": 299,
-  "Name": "Satterfield, Brakus and Runolfsson",
-  "Description": "Exclusive systematic moratorium",
-  "Code": "ut",
-  "QuantityUnit": "totam",
-  "PriceUnit": "maiores",
-  "ItemNumber": "700203",
+  "Quantity": 6700.492,
+  "DeliveredQuantity": 2438.252,
+  "Rank": 732,
+  "Name": "Corwin, Morar and Pollich",
+  "Description": "Phased fault-tolerant success",
+  "Code": "delectus",
+  "QuantityUnit": "voluptatum",
+  "PriceUnit": "sit",
+  "ItemNumber": "1552948",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "harum",
-  "Supplier": "dicta",
-  "SupplierCode": "ut",
-  "Thumbnail": "esse",
-  "VATInfo": "voluptatem",
-  "VAT": 811.706,
-  "UnitCost": 7292.818,
-  "UnitMinimumPrice": 5876.25,
-  "UnitListPrice": 21552.518,
+  "ProductFamilyKey": "velit",
+  "ProductTypeKey": "itaque",
+  "Supplier": "accusamus",
+  "SupplierCode": "distinctio",
+  "Thumbnail": "quia",
+  "VATInfo": "voluptatum",
+  "VAT": 8787.735999999999,
+  "UnitCost": 19064.122,
+  "UnitMinimumPrice": 16306.202,
+  "UnitListPrice": 6816.45,
   "ExtraInfo": [
     {
-      "Name": "Dickens-Jacobs",
-      "Value": "voluptatem",
+      "Name": "Franecki-Fay",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 863
+          "FieldType": "System.Int32",
+          "FieldLength": 899
         }
       }
     },
     {
-      "Name": "Dickens-Jacobs",
-      "Value": "voluptatem",
+      "Name": "Franecki-Fay",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 863
+          "FieldType": "System.Int32",
+          "FieldLength": 899
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
+  "RawExtraInfo": "quam",
   "IsSubscription": false,
-  "SubscriptionUnit": "saepe",
-  "SubscriptionQuantity": 16522.448,
-  "SubscriptionStart": "2003-01-28T12:01:28.2128113+01:00",
-  "ERPDiscountPercent": 17857.532,
-  "ERPDiscountAmount": 22655.685999999998,
-  "DiscountPercent": 2265.882,
-  "DiscountAmount": 26795.7,
+  "SubscriptionUnit": "deserunt",
+  "SubscriptionQuantity": 12244.538,
+  "SubscriptionStart": "1999-03-22T14:32:03.6085662+01:00",
+  "ERPDiscountPercent": 25278.844,
+  "ERPDiscountAmount": 7183.128,
+  "DiscountPercent": 18468.662,
+  "DiscountAmount": 28381.504,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18863.546,
-  "EarningAmount": 11570.728,
-  "SubTotal": 19825.684,
-  "TotalPrice": 9411.402,
-  "Rights": "ut",
-  "Rule": "nam",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "quia",
-  "ExtraField3": "a",
-  "ExtraField4": "vitae",
-  "ExtraField5": "optio",
+  "EarningPercent": 10094.614,
+  "EarningAmount": 6076.826,
+  "SubTotal": 19186.347999999998,
+  "TotalPrice": 7606.218,
+  "Rights": "nemo",
+  "Rule": "quaerat",
+  "ExtraField1": "autem",
+  "ExtraField2": "itaque",
+  "ExtraField3": "quam",
+  "ExtraField4": "aperiam",
+  "ExtraField5": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 849
     }
   }
 }

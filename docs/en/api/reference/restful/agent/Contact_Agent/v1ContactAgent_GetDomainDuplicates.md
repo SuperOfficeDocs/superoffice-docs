@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "quae"
+  "Domain": "quisquam"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Treutel-Moen",
-    "SoPrimaryKey": 60,
-    "EntryName": "Doyle, Lemke and Bartoletti",
-    "EntryIdentifier": "provident",
-    "RuleDisplayName": "Rath, Johnson and Prosacco",
+    "RuleName": "Stamm-Mohr",
+    "SoPrimaryKey": 667,
+    "EntryName": "Gulgowski, Marquardt and DuBuque",
+    "EntryIdentifier": "earum",
+    "RuleDisplayName": "Hayes, Gerlach and Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldLength": 680
       }
     }
   }

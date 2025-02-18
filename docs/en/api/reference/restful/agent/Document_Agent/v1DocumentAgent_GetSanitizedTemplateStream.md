@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Howe-Fisher",
-  "AllowPersonal": false,
-  "UiCulture": "quibusdam"
+  "TemplateName": "Lueilwitz, Schmeler and Satterfield",
+  "AllowPersonal": true,
+  "UiCulture": "ratione"
 }
 ```
 

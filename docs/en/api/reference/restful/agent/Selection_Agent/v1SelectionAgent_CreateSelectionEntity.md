@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Cormier Group"
+  "TargetTableName": "Bechtelar LLC"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile didactic alliance",
-  "Postit": "saepe",
+  "Description": "Proactive real-time parallelism",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 847,
-  "IncludePerson": 249,
+  "GroupIdx": 41,
+  "IncludePerson": 576,
   "MemberCount": 99.99,
-  "Name": "Schumm-Schneider",
-  "PostitTextId": 686,
-  "CreatedDate": "1998-01-28T12:01:28.2909425+01:00",
-  "SelectionId": 787,
-  "SoundEx": "totam",
-  "Source": 731,
-  "TextId": 124,
-  "UpdatedDate": "2023-08-28T12:01:28.2909425+02:00",
-  "UpdatedCount": 363,
-  "Visibility": 958,
+  "Name": "Hane, Beahan and Brakus",
+  "PostitTextId": 506,
+  "CreatedDate": "2009-11-08T14:32:03.8741324+01:00",
+  "SelectionId": 722,
+  "SoundEx": "consequuntur",
+  "Source": 139,
+  "TextId": 454,
+  "UpdatedDate": "2024-09-06T14:32:03.8741324+02:00",
+  "UpdatedCount": 269,
+  "Visibility": 781,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 884,
-  "TargetTableName": "Brown, Heller and Wilderman",
+  "TargetTableNumber": 738,
+  "TargetTableName": "Lynch Group",
   "Completed": false,
-  "LeftSelectionId": 237,
-  "RightSelectionId": 599,
+  "LeftSelectionId": 752,
+  "RightSelectionId": 51,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roberts, Hodkiewicz and Purdy",
-  "ShadowProviderName": "Waelchi, Simonis and Reinger",
-  "ChartKey": "facilis",
-  "LastLoaded": "2001-08-03T12:01:28.2909425+02:00",
-  "LastLoadedBy": 36,
+  "MainProviderName": "Jewess LLC",
+  "ShadowProviderName": "Hartmann, Becker and Berge",
+  "ChartKey": "rem",
+  "LastLoaded": "2003-06-12T14:32:03.8741324+02:00",
+  "LastLoadedBy": 366,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-02-02T12:01:28.2909425+01:00",
-  "LastMembershipChangeBy": 968,
+  "LastMembershipChange": "2004-06-17T14:32:03.8741324+02:00",
+  "LastMembershipChangeBy": 256,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Huel Group",
-  "DashboardTileDefinitionId": 646,
+  "MainHeading": "veniam",
+  "MemberTabHeading": "quae",
+  "MailingsProviderName": "Lang-Mohr",
+  "DashboardTileDefinitionId": 313,
   "VisibleFor": [
     {
-      "VisibleId": 183,
+      "VisibleId": 444,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 115
         }
       }
     },
     {
-      "VisibleId": 183,
+      "VisibleId": 444,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 115
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 373
     }
   }
 }

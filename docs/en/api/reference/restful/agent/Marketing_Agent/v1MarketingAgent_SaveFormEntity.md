@@ -111,32 +111,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 95,
-  "FormKey": "totam",
-  "Name": "Ryan-O'Hara",
-  "Description": "Organic mission-critical monitoring",
-  "Config": "veritatis",
-  "FolderId": 342,
-  "ScriptId": 635,
-  "ResponseShipmentId": 755,
+  "FormId": 622,
+  "FormKey": "occaecati",
+  "Name": "Spencer-Blanda",
+  "Description": "Streamlined next generation task-force",
+  "Config": "totam",
+  "FolderId": 957,
+  "ScriptId": 550,
+  "ResponseShipmentId": 803,
   "Active": false,
-  "Expires": "2016-01-20T12:01:27.9940463+01:00",
-  "MaxSubmits": 665,
+  "Expires": "2005-02-04T14:32:03.202412+01:00",
+  "MaxSubmits": 788,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 206,
+  "Recipe": "ad",
+  "GroupId": 825,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-05-05T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2017-05-16T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 574,
-  "UpdatedCount": 629,
+  "Registered": "2015-06-30T14:32:03.202412+02:00",
+  "RegisteredAssociateId": 976,
+  "Updated": "2008-08-30T14:32:03.202412+02:00",
+  "UpdatedAssociateId": 960,
+  "UpdatedCount": 911,
   "EmailFlows": [
-    383,
-    403
+    309,
+    966
   ],
-  "FolderName": "Hermiston-Jast"
+  "FolderName": "Koelpin, Feil and Ryan"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 743,
-  "FormKey": "voluptas",
-  "Name": "Cartwright, Blanda and Heathcote",
-  "Description": "Exclusive incremental extranet",
-  "Config": "ut",
-  "FolderId": 866,
-  "ScriptId": 842,
-  "ResponseShipmentId": 804,
-  "Active": false,
-  "Expires": "2013-03-08T12:01:27.9940463+01:00",
-  "MaxSubmits": 237,
+  "FormId": 997,
+  "FormKey": "aut",
+  "Name": "Dach Inc and Sons",
+  "Description": "Organic well-modulated solution",
+  "Config": "eligendi",
+  "FolderId": 324,
+  "ScriptId": 115,
+  "ResponseShipmentId": 711,
+  "Active": true,
+  "Expires": "1999-12-21T14:32:03.202412+01:00",
+  "MaxSubmits": 247,
   "Type": "Normal",
-  "Recipe": "facilis",
-  "GroupId": 688,
-  "NewTicket": true,
+  "Recipe": "repellat",
+  "GroupId": 372,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2003-05-11T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 732,
-  "Updated": "2021-01-06T12:01:27.9940463+01:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 862,
+  "Registered": "2020-10-03T14:32:03.202412+02:00",
+  "RegisteredAssociateId": 286,
+  "Updated": "2009-05-27T14:32:03.202412+02:00",
+  "UpdatedAssociateId": 717,
+  "UpdatedCount": 282,
   "EmailFlows": [
-    780,
-    631
+    473,
+    360
   ],
-  "FolderName": "O'Conner Group",
+  "FolderName": "Brakus LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 169
     }
   }
 }

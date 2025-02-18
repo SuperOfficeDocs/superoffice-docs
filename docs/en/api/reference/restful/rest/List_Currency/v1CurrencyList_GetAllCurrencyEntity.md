@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 810,
-    "Name": "Thiel, Mante and Nader",
-    "Tooltip": "commodi",
-    "Rank": 371,
-    "Rate": 2707.776,
-    "Units": 21364.478,
-    "Deleted": false,
+    "CurrencyId": 362,
+    "Name": "Schinner, Kuhlman and Von",
+    "Tooltip": "qui",
+    "Rank": 434,
+    "Rate": 13435.457999999999,
+    "Units": 29114.86,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldLength": 781
       }
     }
   }

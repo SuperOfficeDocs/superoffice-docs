@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686
+  "Id": 960
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Hills, Bernier and Ruecker",
-  "AssociateId": 93,
-  "DetailsTable": 233,
-  "DetailsRecord": 656,
-  "IsSystemTask": false,
+  "Id": 207,
+  "Name": "McGlynn, Douglas and Schmidt",
+  "AssociateId": 825,
+  "DetailsTable": 636,
+  "DetailsRecord": 36,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "veritatis",
-    "ParameterObject2": "dolores"
+    "ParameterObject1": "quasi",
+    "ParameterObject2": "explicabo"
   },
-  "LastStarted": "2024-07-03T12:01:27.3377499+02:00",
-  "Created": "2020-03-02T12:01:27.3377499+01:00",
-  "StartCount": 751,
-  "DatabaseSerialNumber": "1023876",
-  "Context": "quaerat",
-  "Result": "qui",
+  "LastStarted": "2010-06-28T14:32:02.0462229+02:00",
+  "Created": "2016-06-30T14:32:02.0462229+02:00",
+  "StartCount": 325,
+  "DatabaseSerialNumber": "1678547",
+  "Context": "ad",
+  "Result": "dolor",
   "State": "All",
-  "Description": "Synergistic web-enabled customer loyalty",
-  "Response": "sapiente",
-  "Request": "quos",
-  "ProgressDescription": "Digitized content-based definition",
-  "ProgressPercent": 853,
-  "FileName": "Sawayn Inc and Sons",
+  "Description": "Polarised global framework",
+  "Response": "unde",
+  "Request": "nisi",
+  "ProgressDescription": "Multi-channelled incremental implementation",
+  "ProgressPercent": 611,
+  "FileName": "Lemke-Fahey",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldType": "System.Int32",
+      "FieldLength": 58
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 799,
-  "Name": "Mante, Schmidt and Adams",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 630,
-  "UdListDefinitionId": 524
+  "HeadingId": 213,
+  "Name": "Tillman, Lind and Pagac",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "Rank": 746,
+  "UdListDefinitionId": 505
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 639,
-  "Name": "Breitenberg-McKenzie",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 896,
-  "UdListDefinitionId": 111,
+  "HeadingId": 428,
+  "Name": "Walsh, Lang and Fay",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 966,
+  "UdListDefinitionId": 194,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldType": "System.String",
+      "FieldLength": 742
     }
   }
 }

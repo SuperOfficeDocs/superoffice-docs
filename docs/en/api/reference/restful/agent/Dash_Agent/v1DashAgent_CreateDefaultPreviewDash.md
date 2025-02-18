@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 913,
-  "Name": "Abbott, Ratke and Kunde",
-  "Description": "Open-architected neutral synergy",
-  "OwnedByFullName": "Mr. Sheldon Skiles MD",
-  "Registered": "2015-01-07T12:01:27.5565162+01:00",
+  "DashboardId": 358,
+  "Name": "Gorczany Inc and Sons",
+  "Description": "Monitored logistical challenge",
+  "OwnedByFullName": "Darien Torp",
+  "Registered": "2020-09-25T14:32:02.5773534+02:00",
   "Tiles": [
     {
-      "Name": "Dicki, Rau and Price",
+      "Name": "Considine Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldLength": 914
         }
       }
     },
     {
-      "Name": "Dicki, Rau and Price",
+      "Name": "Considine Inc and Sons",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldLength": 914
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

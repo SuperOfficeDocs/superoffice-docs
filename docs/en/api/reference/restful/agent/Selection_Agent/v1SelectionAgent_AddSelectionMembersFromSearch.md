@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 210,
-  "StorageKey": "culpa"
+  "SelectionId": 623,
+  "StorageKey": "qui"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-712
+272
 ```

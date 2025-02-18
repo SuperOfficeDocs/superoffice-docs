@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bernier-Hilpert"
+  "TableName": "Greenfelder-Cummings"
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "velit",
-  "Inserts": 18,
-  "Updates": 984,
-  "Deletes": 199,
+  "Success": true,
+  "Message": "fugit",
+  "Inserts": 155,
+  "Updates": 340,
+  "Deletes": 147,
   "RowStatus": [
     {
-      "PrimaryKey": 908,
+      "PrimaryKey": 768,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloribus",
-        "aut"
+        "impedit",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldLength": 373
         }
       }
     },
     {
-      "PrimaryKey": 908,
+      "PrimaryKey": 768,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloribus",
-        "aut"
+        "impedit",
+        "dolores"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldLength": 373
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   }
 }

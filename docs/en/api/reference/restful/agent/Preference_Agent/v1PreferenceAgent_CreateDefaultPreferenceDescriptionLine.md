@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 288,
-  "PrefDescId": 223,
-  "PrefValue": "est",
-  "PrefShowValue": "fugit",
-  "Description": "Open-source holistic open system",
-  "IsBuiltin": false,
+  "PrefDescLineId": 132,
+  "PrefDescId": 231,
+  "PrefValue": "et",
+  "PrefShowValue": "nesciunt",
+  "Description": "Configurable coherent toolset",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 610
     }
   }
 }

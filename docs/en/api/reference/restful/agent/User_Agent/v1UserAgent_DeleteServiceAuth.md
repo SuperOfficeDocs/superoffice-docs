@@ -27,7 +27,7 @@ Deletes the ServiceAuth
 | ServiceAuthId | int32 | **Required** The id of the ServiceAuth to be deleted. |
 
 ```http
-POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=957
+POST /api/v1/Agents/User/DeleteServiceAuth?ServiceAuthId=185
 ```
 
 

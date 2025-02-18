@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 802,
+  "QuoteAlternativeId": 930,
   "ErpProductKeys": [
-    "voluptates",
-    "quia"
+    "libero",
+    "totam"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-568
+246
 ```

@@ -85,10 +85,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schmitt Inc and Sons",
-  "ProviderName": "Bechtelar, Hermann and Murray",
-  "Context": "sed",
-  "OwnerKeys": "exercitationem"
+  "GuiName": "Glover Group",
+  "ProviderName": "Ritchie LLC",
+  "Context": "qui",
+  "OwnerKeys": "deserunt"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Tillman LLC",
-      "DisplayTooltip": "ut",
-      "DisplayType": "pariatur",
+      "DisplayName": "Feil, Gutkowski and Kuvalis",
+      "DisplayTooltip": "facilis",
+      "DisplayType": "voluptatem",
       "CanOrderBy": true,
-      "Name": "Abernathy, Dach and Huel",
-      "CanRestrictBy": true,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Volkman Inc and Sons",
+      "Name": "Jewess LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "officia",
+      "RestrictionListName": "Braun-Bogisich",
       "IsVisible": true,
-      "ExtraInfo": "incidunt",
-      "Width": "quidem",
-      "IconHint": "voluptas",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "asperiores",
+      "Width": "molestiae",
+      "IconHint": "odio",
+      "HeadingIconHint": "accusantium"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 472,
-      "Name": "Bins-Beier",
-      "ToolTip": "In maxime hic nemo.",
+      "Id": 894,
+      "Name": "Lind-Senger",
+      "ToolTip": "Error voluptas quasi consequatur voluptas.",
       "Deleted": true,
-      "Rank": 961,
-      "Type": "fugiat",
-      "ColorBlock": 962,
-      "IconHint": "qui",
+      "Rank": 240,
+      "Type": "unde",
+      "ColorBlock": 915,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2021-08-12T12:01:27.3221238+02:00",
+      "LastChanged": "2009-08-12T14:32:01.9993591+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "ut",
+      "ExtraInfo": "vitae",
+      "StyleHint": "voluptates",
       "Hidden": false,
-      "FullName": "Miss Gerda Erika Treutel",
+      "FullName": "Miss Hollie Casey Bruen Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldLength": 534
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly-Bradtke",
+      "Name": "Schowalter Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly-Bradtke",
+      "Name": "Schowalter Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "odit",
+  "OwnerKeys": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 669
+      "FieldType": "System.Int32",
+      "FieldLength": 44
     }
   }
 }

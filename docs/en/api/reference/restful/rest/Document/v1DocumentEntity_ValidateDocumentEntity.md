@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 680,
+  "DocumentId": 760,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "eos",
-  "Name": "Hammes LLC",
-  "OurRef": "omnis",
-  "YourRef": "dolor",
-  "CreatedDate": "2013-02-23T12:01:32.9019357+01:00",
-  "UpdatedDate": "1999-08-25T12:01:32.9019357+02:00",
-  "Description": "Decentralized web-enabled neural-net",
+  "Attention": "quia",
+  "Header": "inventore",
+  "Name": "Deckow, Brakus and Wolf",
+  "OurRef": "quo",
+  "YourRef": "quaerat",
+  "CreatedDate": "2013-12-02T14:32:11.4898248+01:00",
+  "UpdatedDate": "2018-07-22T14:32:11.4898248+02:00",
+  "Description": "Ameliorated homogeneous implementation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-11-16T12:01:32.9019357+01:00",
-  "ExternalRef": "ratione",
+  "Date": "2017-11-04T14:32:11.4898248+01:00",
+  "ExternalRef": "eaque",
   "Completed": "Completed",
-  "ActiveLinks": 510,
+  "ActiveLinks": 366,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan, Osinski and Russel",
-      "Id": 440,
-      "Description": "Vision-oriented contextually-based archive",
-      "ExtraInfo": "aut",
-      "LinkId": 924
+      "EntityName": "Mann-Schinner",
+      "Id": 445,
+      "Description": "Front-line secondary analyzer",
+      "ExtraInfo": "quas",
+      "LinkId": 828
     },
     {
-      "EntityName": "Durgan, Osinski and Russel",
-      "Id": 440,
-      "Description": "Vision-oriented contextually-based archive",
-      "ExtraInfo": "aut",
-      "LinkId": 924
+      "EntityName": "Mann-Schinner",
+      "Id": 445,
+      "Description": "Front-line secondary analyzer",
+      "ExtraInfo": "quas",
+      "LinkId": 828
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 301,
-  "Snum": 493,
+  "SuggestedDocumentId": 910,
+  "Snum": 857,
   "UserDefinedFields": {
-    "SuperOffice:1": "Iva Bailey",
-    "SuperOffice:2": "343230595"
+    "SuperOffice:1": "1047013199",
+    "SuperOffice:2": "1601716791"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "dolor"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2008-08-09T12:01:32.9019357+02:00",
-  "PublishTo": "2024-02-28T12:01:32.9019357+01:00",
-  "PublishFrom": "2015-02-12T12:01:32.9019357+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2023-10-12T14:32:11.4898248+02:00",
+  "PublishTo": "2018-06-08T14:32:11.4898248+02:00",
+  "PublishFrom": "2019-09-09T14:32:11.4898248+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 299,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "totam"
+      "DisplayValue": "qui"
     },
     {
-      "VisibleId": 299,
+      "VisibleId": 681,
       "Visibility": "All",
-      "DisplayValue": "totam"
+      "DisplayValue": "qui"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "deleniti",
-  "2": "rem"
+  "1": "aut",
+  "2": "est"
 }
 ```

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "repellendus",
+  "CRMScriptUniqueId": "id",
   "EventData": null
 }
 ```
@@ -110,34 +110,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "eveniet"
+    "InputValues1": "voluptates",
+    "InputValues2": "blanditiis"
   },
-  "BlockExecution": true,
-  "NavigateTo": "ut",
-  "Message": "esse",
-  "ShowDialog": "earum",
+  "BlockExecution": false,
+  "NavigateTo": "dolorem",
+  "Message": "voluptatum",
+  "ShowDialog": "temporibus",
   "OutputValues": {
-    "OutputValues1": "quam",
-    "OutputValues2": "assumenda"
+    "OutputValues1": "doloremque",
+    "OutputValues2": "laudantium"
   },
   "StateValues": {
-    "StateValues1": "rem",
-    "StateValues2": "expedita"
+    "StateValues1": "voluptatem",
+    "StateValues2": "neque"
   },
-  "Exception": "aut",
+  "Exception": "doloremque",
   "ParserValues": {
-    "ParserValues1": "distinctio",
-    "ParserValues2": "ipsum"
+    "ParserValues1": "saepe",
+    "ParserValues2": "est"
   },
   "CgiVariables": {
-    "CgiVariables1": "tempora",
-    "CgiVariables2": "quia"
+    "CgiVariables1": "aperiam",
+    "CgiVariables2": "laborum"
   },
-  "CgiContent": "a",
+  "CgiContent": "sit",
   "Headers": {
-    "Headers1": "commodi",
-    "Headers2": "deleniti"
+    "Headers1": "qui",
+    "Headers2": "aut"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 869
     }
   }
 }

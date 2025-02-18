@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Schimmel, Johnston and Kilback",
-  "Tooltip": "doloremque",
+  "Id": 448,
+  "Name": "Leannon-Abbott",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 667,
+  "Rank": 115,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   },
   "_Links": {

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Shanahan, Moen and Boehm",
-  "IncludeStandard": true
+  "TableName": "Sanford Inc and Sons",
+  "IncludeStandard": false
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Purdy Group",
-    "DisplayName": "Bartell, Wolff and Treutel",
-    "Description": "Future-proofed optimal collaboration",
-    "ShortLabel": "aut",
-    "HideLabel": false,
-    "HideField": false,
+    "FieldName": "Christiansen-Turcotte",
+    "DisplayName": "Runolfsdottir Group",
+    "Description": "Monitored foreground portal",
+    "ShortLabel": "ab",
+    "HideLabel": true,
+    "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 403,
-    "TemplateVariableName": "Prosacco LLC"
+    "IsDisplayField": false,
+    "Rank": 747,
+    "TemplateVariableName": "White, Stiedemann and Prohaska"
   }
 ]
 ```

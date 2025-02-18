@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice-Beatty",
-    "Operator": "in",
+    "Name": "Denesik-Schimmel",
+    "Operator": "iste",
     "Values": [
-      "ea",
-      "quos"
+      "praesentium",
+      "ratione"
     ],
     "DisplayValues": [
-      "quas",
-      "minima"
+      "ipsum",
+      "nobis"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Nitzsche-Kuhic",
-        "Operator": "beatae",
+        "Name": "Zemlak Inc and Sons",
+        "Operator": "at",
         "Values": [
-          "et",
-          "aspernatur"
+          "quas",
+          "ut"
         ],
         "DisplayValues": [
-          "qui",
-          "suscipit"
+          "numquam",
+          "et"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 843,
+        "InterParenthesis": 574,
         "InterOperator": "And",
-        "UniqueHash": 377
+        "UniqueHash": 839
       }
     ],
-    "InterParenthesis": 771,
+    "InterParenthesis": 402,
     "InterOperator": "And",
-    "UniqueHash": 582
+    "UniqueHash": 452
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Von, Borer and Funk",
-    "Operator": "possimus",
+    "Name": "Murray, Bechtelar and Torp",
+    "Operator": "impedit",
     "Values": [
-      "et",
-      "perferendis"
+      "ullam",
+      "error"
     ],
     "DisplayValues": [
-      "impedit",
-      "praesentium"
+      "sed",
+      "amet"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Fritsch LLC",
-        "Operator": "fugit",
+        "Name": "Koelpin-Mohr",
+        "Operator": "sit",
         "Values": [
-          "eos",
-          "quo"
+          "recusandae",
+          "temporibus"
         ],
         "DisplayValues": [
-          "eos",
-          "modi"
+          "recusandae",
+          "quos"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 40,
+        "InterParenthesis": 513,
         "InterOperator": "And",
-        "UniqueHash": 320
+        "UniqueHash": 846
       }
     ],
-    "InterParenthesis": 30,
+    "InterParenthesis": 53,
     "InterOperator": "And",
-    "UniqueHash": 639
+    "UniqueHash": 823
   }
 ]
 ```

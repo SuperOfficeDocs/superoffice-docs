@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    589,
-    957
+    663,
+    926
   ],
-  "TargetTableNumber": 630
+  "TargetTableNumber": 540
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized well-modulated focus group",
-  "Postit": "velit",
+  "Description": "Inverse incremental architecture",
+  "Postit": "quidem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 532,
-  "IncludePerson": 331,
+  "GroupIdx": 576,
+  "IncludePerson": 393,
   "MemberCount": 99.99,
-  "Name": "Flatley Inc and Sons",
-  "PostitTextId": 906,
-  "CreatedDate": "2008-01-11T12:01:28.3065684+01:00",
-  "SelectionId": 32,
-  "SoundEx": "distinctio",
-  "Source": 787,
-  "TextId": 352,
-  "UpdatedDate": "2001-10-11T12:01:28.3065684+02:00",
-  "UpdatedCount": 170,
-  "Visibility": 977,
+  "Name": "Willms, Skiles and Cormier",
+  "PostitTextId": 828,
+  "CreatedDate": "2012-01-24T14:32:03.920995+01:00",
+  "SelectionId": 671,
+  "SoundEx": "ullam",
+  "Source": 85,
+  "TextId": 235,
+  "UpdatedDate": "2009-01-12T14:32:03.920995+01:00",
+  "UpdatedCount": 236,
+  "Visibility": 450,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 456,
-  "TargetTableName": "Wolff-Stroman",
-  "Completed": false,
-  "LeftSelectionId": 474,
-  "RightSelectionId": 59,
+  "CompanyUnique": false,
+  "TargetTableNumber": 667,
+  "TargetTableName": "Davis-Fay",
+  "Completed": true,
+  "LeftSelectionId": 593,
+  "RightSelectionId": 601,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ryan Group",
-  "ShadowProviderName": "Hane, Bechtelar and Hahn",
-  "ChartKey": "aliquid",
-  "LastLoaded": "2021-08-21T12:01:28.3065684+02:00",
-  "LastLoadedBy": 320,
+  "MainProviderName": "Kiehn Inc and Sons",
+  "ShadowProviderName": "Harris, McClure and Metz",
+  "ChartKey": "corporis",
+  "LastLoaded": "2012-10-19T14:32:03.920995+02:00",
+  "LastLoadedBy": 120,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-03T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 526,
+  "LastMembershipChange": "2018-12-04T14:32:03.920995+01:00",
+  "LastMembershipChangeBy": 540,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Mills LLC",
-  "DashboardTileDefinitionId": 683,
+  "MainHeading": "ipsum",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Leuschke, Goldner and Denesik",
+  "DashboardTileDefinitionId": 913,
   "VisibleFor": [
     {
-      "VisibleId": 166,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 256
         }
       }
     },
     {
-      "VisibleId": 166,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 256
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=538
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=417
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 130,
-  "FormId": 232,
-  "WhenSubmitted": "2014-03-09T12:01:27.9940463+01:00",
-  "ContactId": 111,
-  "PersonId": 597,
-  "EmailAddress": "horacio@kris.uk",
-  "ResponseShipmentAddrId": 718,
-  "Response": "aut",
+  "FormSubmissionId": 592,
+  "FormId": 952,
+  "WhenSubmitted": "2015-02-16T14:32:03.2180287+01:00",
+  "ContactId": 773,
+  "PersonId": 904,
+  "EmailAddress": "kristofer.bergnaum@sporer.name",
+  "ResponseShipmentAddrId": 690,
+  "Response": "quis",
   "Status": "EmailVerification",
-  "ProcessingLog": "aut",
+  "ProcessingLog": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldType": "System.Int32",
+      "FieldLength": 471
     }
   }
 }

@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eius",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eius",
+    "path": "non",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eius",
+  "SaleText": "facilis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-05-22T12:01:33.1832049+02:00",
-  "Amount": 5816.704,
-  "SaleId": 518,
-  "Earning": 12517.196,
-  "EarningPercent": 1156.446,
-  "Heading": "doloremque",
-  "Number": "893273",
-  "Probability": 200,
-  "CreatedDate": "2015-09-03T12:01:33.1832049+02:00",
-  "UpdatedDate": "2019-12-20T12:01:33.1832049+01:00",
+  "Saledate": "2006-05-21T14:32:12.0053335+02:00",
+  "Amount": 23254.28,
+  "SaleId": 23,
+  "Earning": 3983.314,
+  "EarningPercent": 37.608,
+  "Heading": "non",
+  "Number": "629214",
+  "Probability": 849,
+  "CreatedDate": "2009-04-05T14:32:12.0053335+02:00",
+  "UpdatedDate": "2018-03-16T14:32:12.0053335+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 573,
+  "ActiveLinks": 361,
   "Links": [
     {
-      "EntityName": "Marks Inc and Sons",
-      "Id": 172,
-      "Description": "Digitized 5th generation adapter",
-      "ExtraInfo": "voluptate",
-      "LinkId": 11,
+      "EntityName": "Waelchi Inc and Sons",
+      "Id": 855,
+      "Description": "Phased asynchronous benchmark",
+      "ExtraInfo": "facere",
+      "LinkId": 643,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 719
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2022-10-20T14:32:12.0053335+02:00",
+  "Postit": "expedita",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2008-12-30T14:32:12.0053335+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Gusikowski-Zemlak",
+      "Comment": "ut",
+      "StakeholderRoleId": 585,
+      "CountryId": 225,
+      "PersonId": 145,
+      "EmailDescription": "dana_hermann@feeneychamplin.name",
+      "EmailId": 591,
+      "EmailAddress": "tommie_langworth@huels.info",
+      "PhoneId": 18,
+      "ContactName": "Wilderman-Stracke",
+      "ContactId": 522,
+      "SaleId": 263,
+      "Mrmrs": "ipsam",
+      "Firstname": "Joshuah",
+      "MiddleName": "Yundt-Haley",
+      "Lastname": "Mante",
+      "SaleStakeholderId": 858,
+      "Rank": 57,
+      "Phone": "138-494-6478 x4961",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldLength": 998
         }
       }
     }
   ],
-  "NextDueDate": "2023-11-30T12:01:33.1832049+01:00",
-  "Postit": "ut",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1999-01-24T12:01:33.1832049+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Stehr, Adams and Koelpin",
-      "Comment": "ut",
-      "StakeholderRoleId": 306,
-      "CountryId": 342,
-      "PersonId": 896,
-      "EmailDescription": "marie@breitenbergdickens.com",
-      "EmailId": 960,
-      "EmailAddress": "uriel.boehm@little.com",
-      "PhoneId": 979,
-      "ContactName": "Halvorson-Harvey",
-      "ContactId": 355,
-      "SaleId": 257,
-      "Mrmrs": "temporibus",
-      "Firstname": "Ross",
-      "MiddleName": "Conroy Inc and Sons",
-      "Lastname": "Cummerata",
-      "SaleStakeholderId": 277,
-      "Rank": 149,
-      "Phone": "383.936.7831 x2017",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 327
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 225,
+  "ActiveErpLinks": 203,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "957400007"
+    "SuperOffice:1": "1933176382",
+    "SuperOffice:2": "1253940947"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "vel",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2014-02-02T12:01:33.1832049+01:00",
-  "PublishTo": "2000-12-10T12:01:33.1832049+01:00",
-  "PublishFrom": "2003-08-31T12:01:33.1832049+02:00",
+  "PublishEventDate": "2019-03-16T14:32:12.0053335+01:00",
+  "PublishTo": "2008-10-14T14:32:12.0053335+02:00",
+  "PublishFrom": "2022-02-23T14:32:12.0053335+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 456,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 268
         }
       }
     },
     {
-      "VisibleId": 456,
+      "VisibleId": 343,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 268
         }
       }
     }
@@ -305,13 +305,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -113,18 +113,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "neque",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 944,
-  "DashboardId": 159,
-  "Height": 132,
-  "Width": 329,
-  "Rank": 563,
+  "DashboardTileId": 11,
+  "DashboardId": 361,
+  "Height": 541,
+  "Width": 751,
+  "Rank": 363,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   },
   "_Links": {

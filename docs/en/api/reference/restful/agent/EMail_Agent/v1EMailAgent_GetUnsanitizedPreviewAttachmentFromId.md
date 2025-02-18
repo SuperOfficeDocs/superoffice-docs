@@ -93,10 +93,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 841,
-  "AttachmentId": "amet",
-  "AttachmentType": "minima",
-  "AttachmentFilename": "sit"
+  "MailItemId": 915,
+  "AttachmentId": "sit",
+  "AttachmentType": "suscipit",
+  "AttachmentFilename": "sed"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group even-keeled installation",
-  "Filename": "dignissimos",
-  "Size": 159,
-  "Type": "ratione",
-  "Encoding": "occaecati",
-  "Id": "omnis",
-  "Disposition": "blanditiis",
+  "Description": "User-centric bandwidth-monitored artificial intelligence",
+  "Filename": "dolore",
+  "Size": 556,
+  "Type": "sed",
+  "Encoding": "culpa",
+  "Id": "voluptatibus",
+  "Disposition": "vitae",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 257
+      "FieldLength": 572
     }
   }
 }

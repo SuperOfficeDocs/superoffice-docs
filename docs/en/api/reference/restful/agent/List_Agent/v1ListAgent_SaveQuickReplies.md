@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 847,
-      "Name": "Morar Inc and Sons",
-      "HtmlBody": "dolor"
+      "QuickReplyId": 252,
+      "Name": "Dickinson-Borer",
+      "HtmlBody": "minus"
     },
     {
-      "QuickReplyId": 847,
-      "Name": "Morar Inc and Sons",
-      "HtmlBody": "dolor"
+      "QuickReplyId": 252,
+      "Name": "Dickinson-Borer",
+      "HtmlBody": "minus"
     }
   ]
 }

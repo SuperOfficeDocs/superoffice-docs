@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=313
-POST /api/v1/Document/{documentId}/Content?personId=144
-POST /api/v1/Document/{documentId}/Content?appointmentId=916
-POST /api/v1/Document/{documentId}/Content?saleId=311
-POST /api/v1/Document/{documentId}/Content?selectionId=992
-POST /api/v1/Document/{documentId}/Content?projectId=946
-POST /api/v1/Document/{documentId}/Content?uiCulture=laborum
+POST /api/v1/Document/{documentId}/Content?contactId=291
+POST /api/v1/Document/{documentId}/Content?personId=824
+POST /api/v1/Document/{documentId}/Content?appointmentId=360
+POST /api/v1/Document/{documentId}/Content?saleId=903
+POST /api/v1/Document/{documentId}/Content?selectionId=496
+POST /api/v1/Document/{documentId}/Content?projectId=530
+POST /api/v1/Document/{documentId}/Content?uiCulture=facilis
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 956,
+  "DocumentId": 679,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "sit",
-  "Name": "Roob LLC",
-  "OurRef": "nam",
-  "YourRef": "quisquam",
-  "CreatedDate": "2010-10-12T12:01:32.9019357+02:00",
-  "UpdatedDate": "2014-09-04T12:01:32.9019357+02:00",
-  "Description": "Right-sized non-volatile functionalities",
+  "Attention": "ea",
+  "Header": "maiores",
+  "Name": "Kessler, Heaney and Grant",
+  "OurRef": "dolores",
+  "YourRef": "est",
+  "CreatedDate": "2007-09-30T14:32:11.4742093+02:00",
+  "UpdatedDate": "2015-05-10T14:32:11.4742093+02:00",
+  "Description": "Versatile 3rd generation Graphic Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-05-02T12:01:32.9019357+02:00",
-  "ExternalRef": "quia",
+  "Date": "2007-02-01T14:32:11.4742093+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 90,
+  "ActiveLinks": 831,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reynolds-Johns",
-      "Id": 385,
-      "Description": "Adaptive multi-tasking projection",
-      "ExtraInfo": "nihil",
-      "LinkId": 250,
+      "EntityName": "Treutel LLC",
+      "Id": 972,
+      "Description": "Multi-tiered bottom-line application",
+      "ExtraInfo": "assumenda",
+      "LinkId": 622,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 83
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 939,
-  "Snum": 341,
+  "SuggestedDocumentId": 987,
+  "Snum": 272,
   "UserDefinedFields": {
-    "SuperOffice:1": "1971900924",
-    "SuperOffice:2": "Mertie Kozey"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "est",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "aut"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2020-12-31T12:01:32.9019357+01:00",
-  "PublishTo": "2011-08-13T12:01:32.9019357+02:00",
-  "PublishFrom": "2001-04-19T12:01:32.9019357+02:00",
+  "PublishEventDate": "2015-09-09T14:32:11.4742093+02:00",
+  "PublishTo": "2017-01-21T14:32:11.4742093+01:00",
+  "PublishFrom": "2012-01-09T14:32:11.4742093+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 514,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 44
         }
       }
     },
     {
-      "VisibleId": 514,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 44
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 409
     }
   }
 }

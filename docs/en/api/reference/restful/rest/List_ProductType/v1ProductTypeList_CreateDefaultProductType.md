@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 692,
-  "Name": "Mayer, Osinski and Kovacek",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "UdListDefinitionId": 475,
-  "Rank": 364,
+  "Id": 337,
+  "Name": "Leffler LLC",
+  "Tooltip": "repellat",
+  "Deleted": false,
+  "UdListDefinitionId": 88,
+  "Rank": 700,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 909
     }
   }
 }

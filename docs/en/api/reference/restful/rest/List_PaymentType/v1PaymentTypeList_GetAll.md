@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Considine-Fay",
-    "Tooltip": "deserunt",
+    "Id": 82,
+    "Name": "Ankunding, Harber and Botsford",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "UdListDefinitionId": 941,
-    "Rank": 909,
+    "UdListDefinitionId": 386,
+    "Rank": 178,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 374
       }
     }
   }

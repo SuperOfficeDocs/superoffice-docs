@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 804,
-    "Name": "Gislason, Turner and Macejkovic",
-    "ToolTip": "Fugiat nostrum qui doloremque cum.",
+    "Id": 879,
+    "Name": "Kling-Carroll",
+    "ToolTip": "Mollitia eum aut tempore porro quidem consequuntur.",
     "Deleted": false,
-    "Rank": 652,
-    "Type": "nesciunt",
-    "ColorBlock": 816,
-    "IconHint": "quidem",
+    "Rank": 448,
+    "Type": "eaque",
+    "ColorBlock": 490,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2021-06-15T12:01:33.4801008+02:00",
+    "LastChanged": "2007-08-07T14:32:12.5677057+02:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Abshire Group",
-        "ToolTip": "Molestiae modi et natus incidunt accusamus qui voluptatem.",
+        "Id": 855,
+        "Name": "Hauck-Tremblay",
+        "ToolTip": "Omnis dolorem aspernatur rem.",
         "Deleted": false,
-        "Rank": 804,
-        "Type": "excepturi",
-        "ColorBlock": 165,
-        "IconHint": "ipsam",
+        "Rank": 165,
+        "Type": "necessitatibus",
+        "ColorBlock": 355,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2015-10-31T12:01:33.4801008+01:00",
+        "LastChanged": "2004-08-01T14:32:12.5677057+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "hic",
+        "ExtraInfo": "est",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Vicky Bahringer"
+        "FullName": "Ted Runte"
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "aut",
+    "ExtraInfo": "perferendis",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Fern Kunze"
+    "FullName": "Kameron Weissnat"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Rohan Inc and Sons",
-    "ToolTip": "Et qui optio cupiditate deserunt et.",
+    "Id": 691,
+    "Name": "Moore, Raynor and Jones",
+    "ToolTip": "Qui velit qui accusantium deleniti ut id.",
     "Deleted": true,
-    "Rank": 611,
-    "Type": "numquam",
-    "ColorBlock": 218,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2006-09-05T12:01:33.4801008+02:00",
+    "Rank": 203,
+    "Type": "temporibus",
+    "ColorBlock": 654,
+    "IconHint": "rem",
+    "Selected": false,
+    "LastChanged": "2002-06-07T14:32:12.5677057+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Marks Inc and Sons",
-        "ToolTip": "Alias itaque.",
+        "Id": 226,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Quas repellat ratione.",
         "Deleted": false,
-        "Rank": 22,
-        "Type": "ex",
-        "ColorBlock": 775,
-        "IconHint": "asperiores",
+        "Rank": 658,
+        "Type": "quidem",
+        "ColorBlock": 860,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2007-07-26T12:01:33.4801008+02:00",
+        "LastChanged": "2016-02-02T14:32:12.5677057+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Floyd Bogisich",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Miss Darlene Sauer DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 829
+            "FieldType": "System.Int32",
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Tristin Jast",
+    "ExtraInfo": "ab",
+    "StyleHint": "quas",
+    "Hidden": true,
+    "FullName": "Ian Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

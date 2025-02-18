@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Christiansen LLC",
-  "DeviceName": "Ortiz, Willms and Langosh",
-  "DeviceIdentifier": "odit"
+  "ApplicationName": "Bergnaum, Bruen and Bauch",
+  "DeviceName": "Moore LLC",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ex",
-  "Value": "consequatur",
-  "RecordId": 71,
-  "CreatedDate": "2006-07-10T12:01:27.9002891+02:00",
-  "UpdatedDate": "2005-05-02T12:01:27.9002891+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "id",
-  "TableName": "Vandervort-Lang",
+  "Key": "quisquam",
+  "Value": "dignissimos",
+  "RecordId": 492,
+  "CreatedDate": "2013-07-26T14:32:03.0303748+02:00",
+  "UpdatedDate": "2015-02-07T14:32:03.0303748+01:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "illo",
+  "TableName": "Armstrong-Runolfsson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 393
     }
   }
 }

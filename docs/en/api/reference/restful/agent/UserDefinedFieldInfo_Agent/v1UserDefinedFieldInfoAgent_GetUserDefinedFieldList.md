@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 568,
-    "ColumnId": 862,
-    "FieldDefault": "nobis",
-    "FieldHeight": 298,
-    "FieldLabel": "et",
-    "FieldLeft": 426,
-    "FieldTop": 31,
+    "UDefFieldId": 961,
+    "ColumnId": 471,
+    "FieldDefault": "cupiditate",
+    "FieldHeight": 128,
+    "FieldLabel": "impedit",
+    "FieldLeft": 155,
+    "FieldTop": 330,
     "FieldType": "Checkbox",
-    "FieldWidth": 841,
-    "FormatMask": "voluptas",
+    "FieldWidth": 278,
+    "FormatMask": "fugiat",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 92,
-    "LabelLeft": 648,
-    "LabelTop": 814,
-    "LabelWidth": 592,
-    "LastVersionId": 220,
-    "ListTableId": 190,
+    "IsIndexed": false,
+    "LabelHeight": 695,
+    "LabelLeft": 211,
+    "LabelTop": 201,
+    "LabelWidth": 264,
+    "LastVersionId": 600,
+    "ListTableId": 44,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 594,
-    "ProgId": "eius",
+    "Page1LineNo": 772,
+    "ProgId": "illo",
     "IsReadOnly": false,
-    "ShortLabel": "nisi",
-    "TabOrder": 484,
-    "TextLength": 812,
-    "Tooltip": "itaque",
-    "UdefIdentity": 436,
-    "UDListDefinitionId": 8,
+    "ShortLabel": "incidunt",
+    "TabOrder": 223,
+    "TextLength": 99,
+    "Tooltip": "in",
+    "UdefIdentity": 636,
+    "UDListDefinitionId": 146,
     "Justification": "Center",
-    "Version": 741,
-    "TemplateVariableName": "Fay, Grady and Hane",
+    "Version": 626,
+    "TemplateVariableName": "Lowe, Gorczany and Lynch",
     "HasBeenPublished": false,
-    "MdoListName": "Price Group",
+    "MdoListName": "Ratke-Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 325
       }
     }
   }

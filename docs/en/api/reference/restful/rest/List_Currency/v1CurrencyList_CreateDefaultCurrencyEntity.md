@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 715,
-  "Name": "Gerlach, Feeney and Deckow",
-  "Tooltip": "illo",
-  "Rank": 560,
-  "Rate": 4027.19,
-  "Units": 5653.736,
+  "CurrencyId": 92,
+  "Name": "Hayes-Von",
+  "Tooltip": "at",
+  "Rank": 520,
+  "Rate": 29146.2,
+  "Units": 5327.8,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldLength": 710
     }
   }
 }

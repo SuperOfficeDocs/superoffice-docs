@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Nov 2015 12:01:33 G11T
+Last-Modified: Sun, 12 Aug 2001 14:32:11 G8T
 
 {
-  "BlobId": 182,
-  "BlobSize": 157,
-  "Description": "Exclusive zero tolerance neural-net",
-  "ExtraInfo": "est",
+  "BlobId": 68,
+  "BlobSize": 856,
+  "Description": "Pre-emptive leading edge structure",
+  "ExtraInfo": "qui",
   "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "vitae",
-  "OriginalSize": 851,
-  "CreatedDate": "2004-08-18T12:01:33.0269443+02:00",
-  "UpdatedDate": "2015-11-05T12:01:33.0269443+01:00",
+  "IsZipped": false,
+  "MimeType": "eum",
+  "OriginalSize": 836,
+  "CreatedDate": "2015-08-09T14:32:11.708526+02:00",
+  "UpdatedDate": "2001-08-12T14:32:11.708526+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "illum",
+  "ConceptualType": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 534
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 598
+  "PersonId": 238
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 664,
-  "InstanceLayout": "eveniet",
-  "InstanceName": "Terry, Kerluke and Runte",
-  "CreatedDate": "2012-09-17T12:01:27.3377499+02:00",
-  "UpdatedDate": "2016-08-04T12:01:27.3377499+02:00",
+  "AudienceLayoutId": 334,
+  "InstanceLayout": "qui",
+  "InstanceName": "Green LLC",
+  "CreatedDate": "2006-02-12T14:32:02.0462229+01:00",
+  "UpdatedDate": "2003-10-25T14:32:02.0462229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldLength": 179
     }
   }
 }

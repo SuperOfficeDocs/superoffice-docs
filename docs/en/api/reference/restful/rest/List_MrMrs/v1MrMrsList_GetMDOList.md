@@ -26,8 +26,8 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=doloribus
+GET /api/v1/List/MrMrs/MDOItems?flat=True
+GET /api/v1/List/MrMrs/MDOItems?query=esse
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Blick, Rosenbaum and Herman",
-    "ToolTip": "Expedita omnis officia non.",
+    "Id": 628,
+    "Name": "Johnston, Anderson and Hegmann",
+    "ToolTip": "Doloremque voluptatem quae.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "delectus",
+    "Rank": 635,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Reinger-Rodriguez",
-        "ToolTip": "Totam optio enim libero.",
+        "Id": 2,
+        "Name": "Hand Inc and Sons",
+        "ToolTip": "Quis neque.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "modi",
+        "Rank": 664,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 100,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "enim",
-        "FullName": "Dagmar Grimes",
+        "IconHint": "quas",
+        "ColorBlock": 513,
+        "ExtraInfo": "magni",
+        "StyleHint": "expedita",
+        "FullName": "Colt Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 581
+            "FieldType": "System.Int32",
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 219,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "nam",
-    "FullName": "Abraham Verner Kuphal II",
+    "IconHint": "quasi",
+    "ColorBlock": 151,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "maiores",
+    "FullName": "Pink Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 166
       }
     }
   }

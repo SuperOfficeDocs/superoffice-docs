@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "King, Huels and Leannon",
-    "ToolTip": "Qui facere itaque cum molestiae praesentium veritatis ut.",
+    "Id": 608,
+    "Name": "Luettgen Group",
+    "ToolTip": "Voluptatum eum qui cumque hic numquam et.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "iure",
-    "ColorBlock": 670,
-    "IconHint": "architecto",
+    "Rank": 615,
+    "Type": "repudiandae",
+    "ColorBlock": 869,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "1998-03-10T12:01:33.6676138+01:00",
+    "LastChanged": "2015-11-09T14:32:12.9272339+01:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Wisozk-Breitenberg",
-        "ToolTip": "Perferendis tempore dolorum sint iusto libero dignissimos est.",
+        "Id": 868,
+        "Name": "Yundt-Ledner",
+        "ToolTip": "Voluptas consectetur.",
         "Deleted": false,
-        "Rank": 458,
-        "Type": "et",
-        "ColorBlock": 4,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2012-06-28T12:01:33.6676138+02:00",
+        "Rank": 871,
+        "Type": "incidunt",
+        "ColorBlock": 839,
+        "IconHint": "tempore",
+        "Selected": true,
+        "LastChanged": "2013-03-24T14:32:12.9272339+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "magnam",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Kolby Hermiston"
+        "FullName": "Kathleen McClure"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "tempora",
+    "ExtraInfo": "et",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Yasmeen Jacobi"
+    "FullName": "Miss Malvina Garnet Bailey DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Bailey, Bogisich and Zulauf",
-    "ToolTip": "Est vel quos laboriosam ut iusto sint.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "ab",
-    "ColorBlock": 460,
-    "IconHint": "fugiat",
+    "Id": 774,
+    "Name": "Gutmann LLC",
+    "ToolTip": "Ut aut dolores placeat ullam.",
+    "Deleted": true,
+    "Rank": 758,
+    "Type": "ipsa",
+    "ColorBlock": 208,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2015-07-03T12:01:33.6676138+02:00",
+    "LastChanged": "2009-07-24T14:32:12.9272339+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Klein Group",
-        "ToolTip": "Hic suscipit.",
+        "Id": 118,
+        "Name": "Jacobson Inc and Sons",
+        "ToolTip": "Totam corrupti eius eum hic vel et.",
         "Deleted": true,
-        "Rank": 421,
-        "Type": "molestiae",
-        "ColorBlock": 908,
-        "IconHint": "rerum",
+        "Rank": 482,
+        "Type": "rem",
+        "ColorBlock": 154,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2024-01-02T12:01:33.6676138+01:00",
+        "LastChanged": "2018-03-26T14:32:12.9272339+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "ea",
+        "ExtraInfo": "error",
+        "StyleHint": "nostrum",
         "Hidden": true,
-        "FullName": "Miss Anderson Talia Keeling",
+        "FullName": "Mr. Terrance Bergstrom Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 683
+            "FieldType": "System.Int32",
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "nisi",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Ms. Peyton Maritza Corwin V",
+    "FullName": "Ms. Haley Dante Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

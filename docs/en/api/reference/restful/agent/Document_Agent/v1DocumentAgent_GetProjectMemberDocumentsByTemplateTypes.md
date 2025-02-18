@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 337,
-  "StartTime": "2017-04-15T12:01:27.5877684+02:00",
-  "EndTime": "2024-11-13T12:01:27.5877684+01:00",
-  "Count": 152,
+  "PersonId": 402,
+  "StartTime": "2010-12-01T14:32:02.6398381+01:00",
+  "EndTime": "2005-06-07T14:32:02.6398381+02:00",
+  "Count": 884,
   "DocumentTemplateIds": [
-    282,
-    235
+    480,
+    654
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 3,
-    "Attention": "eum",
-    "Header": "dolores",
-    "Name": "Parker Group",
-    "OurRef": "quia",
-    "YourRef": "blanditiis",
-    "Description": "Focused zero tolerance artificial intelligence",
-    "DocumentTemplate": "accusamus",
+    "DocumentId": 178,
+    "Attention": "quia",
+    "Header": "atque",
+    "Name": "Wunsch, Schmitt and Lesch",
+    "OurRef": "aperiam",
+    "YourRef": "quia",
+    "Description": "Integrated intermediate hub",
+    "DocumentTemplate": "dolore",
     "IsPublished": false,
-    "PersonId": 689,
-    "PersonFullName": "Hobart Lubowitz",
-    "AssociateFullName": "Carmella Labadie",
-    "ContactId": 132,
-    "ContactName": "Runte-Hahn",
-    "ProjectId": 916,
-    "ProjectName": "Hettinger-Powlowski",
-    "AssociateId": 198,
-    "Snum": 579,
-    "SaleId": 601,
-    "SaleName": "Willms-Jacobson",
+    "PersonId": 767,
+    "PersonFullName": "Kaylie Spencer",
+    "AssociateFullName": "Candido Rozella Roberts II",
+    "ContactId": 51,
+    "ContactName": "Klocko-Aufderhar",
+    "ProjectId": 773,
+    "ProjectName": "Anderson LLC",
+    "AssociateId": 649,
+    "Snum": 343,
+    "SaleId": 667,
+    "SaleName": "Heathcote, Kshlerin and Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldType": "System.Int32",
+        "FieldLength": 891
       }
     }
   }

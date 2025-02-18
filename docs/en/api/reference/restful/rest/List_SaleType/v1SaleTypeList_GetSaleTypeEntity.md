@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 698,
-  "Name": "Shields Inc and Sons",
-  "Tooltip": "nostrum",
-  "Rank": 716,
+  "SaleTypeId": 517,
+  "Name": "Nader, Franecki and Emmerich",
+  "Tooltip": "consequatur",
+  "Rank": 939,
   "DurationUnit": "Century",
-  "SaleDuration": 804,
-  "SaleTypeCatId": 449,
+  "SaleDuration": 215,
+  "SaleTypeCatId": 920,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 508,
-  "QuoteLinesTemplate": 696,
-  "ConfirmationLinesTemplate": 128,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 903,
+  "QuoteLinesTemplate": 633,
+  "ConfirmationLinesTemplate": 255,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 720,
-  "MinEarningPercent": 708,
-  "GroupQuoteLinesBy": 464,
-  "SortGroupLinesBy": 967,
+  "MaxDiscountPercent": 925,
+  "MinEarningPercent": 512,
+  "GroupQuoteLinesBy": 549,
+  "SortGroupLinesBy": 575,
   "Stages": [
     {
-      "Id": 408,
-      "Name": "Jaskolski Inc and Sons",
-      "ToolTip": "Rerum esse iusto suscipit.",
+      "Id": 60,
+      "Name": "Mraz-Towne",
+      "ToolTip": "Deserunt cumque debitis eaque exercitationem nobis.",
       "Deleted": true,
-      "Rank": 932,
-      "Type": "vel",
-      "ColorBlock": 215,
-      "IconHint": "eum",
+      "Rank": 872,
+      "Type": "dolor",
+      "ColorBlock": 238,
+      "IconHint": "nam",
       "Selected": false,
-      "LastChanged": "2019-03-20T12:01:33.6519877+01:00",
+      "LastChanged": "2018-04-30T14:32:12.9116131+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "temporibus",
-      "StyleHint": "sed",
-      "Hidden": false,
-      "FullName": "Mrs. Claire Botsford",
+      "ExtraInfo": "accusantium",
+      "StyleHint": "voluptatem",
+      "Hidden": true,
+      "FullName": "Dwight Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldLength": 259
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

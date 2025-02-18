@@ -116,47 +116,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 75,
-  "Name": "Mohr, Kertzmann and Keebler",
-  "Tooltip": "animi",
-  "Rank": 880,
+  "SaleTypeId": 357,
+  "Name": "Will LLC",
+  "Tooltip": "est",
+  "Rank": 398,
   "DurationUnit": "Century",
-  "SaleDuration": 721,
-  "SaleTypeCatId": 455,
+  "SaleDuration": 845,
+  "SaleTypeCatId": 341,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 638,
-  "QuoteLinesTemplate": 229,
-  "ConfirmationLinesTemplate": 694,
+  "DefaultQuoteValidity": 566,
+  "QuoteLinesTemplate": 347,
+  "ConfirmationLinesTemplate": 83,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 901,
-  "MinEarningPercent": 11,
-  "GroupQuoteLinesBy": 190,
-  "SortGroupLinesBy": 936,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 913,
+  "MinEarningPercent": 640,
+  "GroupQuoteLinesBy": 794,
+  "SortGroupLinesBy": 713,
   "Stages": [
     {
-      "Id": 927,
-      "Name": "Ebert Group",
-      "ToolTip": "Mollitia debitis dolores ut aperiam.",
+      "Id": 841,
+      "Name": "Cassin-Lockman",
+      "ToolTip": "Molestiae dolores sed autem voluptatem architecto aut qui.",
       "Deleted": false,
-      "Rank": 774,
-      "Type": "repellendus",
-      "ColorBlock": 889,
-      "IconHint": "provident",
+      "Rank": 157,
+      "Type": "praesentium",
+      "ColorBlock": 397,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2014-08-26T12:01:33.6519877+02:00",
+      "LastChanged": "2011-12-07T14:32:12.9116131+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "voluptate",
+      "StyleHint": "quis",
       "Hidden": false,
-      "FullName": "Casey Kuhlman"
+      "FullName": "Dr. Lionel Junior Deckow II"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 104,
-  "Name": "Kirlin-Collier",
-  "Tooltip": "officia",
-  "Rank": 111,
+  "SaleTypeId": 923,
+  "Name": "Hettinger, Cummerata and Murphy",
+  "Tooltip": "tenetur",
+  "Rank": 930,
   "DurationUnit": "Century",
-  "SaleDuration": 349,
-  "SaleTypeCatId": 509,
-  "Deleted": true,
-  "HasGuide": false,
+  "SaleDuration": 177,
+  "SaleTypeCatId": 690,
+  "Deleted": false,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 983,
-  "QuoteLinesTemplate": 556,
-  "ConfirmationLinesTemplate": 664,
-  "MaxDiscountPercentSet": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 197,
+  "QuoteLinesTemplate": 453,
+  "ConfirmationLinesTemplate": 802,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 808,
-  "MinEarningPercent": 230,
-  "GroupQuoteLinesBy": 974,
-  "SortGroupLinesBy": 374,
+  "MaxDiscountPercent": 476,
+  "MinEarningPercent": 650,
+  "GroupQuoteLinesBy": 492,
+  "SortGroupLinesBy": 863,
   "Stages": [
     {
-      "Id": 423,
-      "Name": "Cormier, Balistreri and Wolf",
-      "ToolTip": "In vel explicabo.",
+      "Id": 540,
+      "Name": "Macejkovic-Wehner",
+      "ToolTip": "Quam porro quisquam.",
       "Deleted": false,
-      "Rank": 565,
-      "Type": "aliquid",
-      "ColorBlock": 350,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "1997-12-11T12:01:33.6519877+01:00",
+      "Rank": 415,
+      "Type": "et",
+      "ColorBlock": 476,
+      "IconHint": "earum",
+      "Selected": false,
+      "LastChanged": "2016-03-16T14:32:12.9116131+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "nulla",
-      "Hidden": false,
-      "FullName": "Miss Wyatt Schuppe II",
+      "ExtraInfo": "expedita",
+      "StyleHint": "ex",
+      "Hidden": true,
+      "FullName": "Jermain Rippin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 179
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 324
     }
   }
 }

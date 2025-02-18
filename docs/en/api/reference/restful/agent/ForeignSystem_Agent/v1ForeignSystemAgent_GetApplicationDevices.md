@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hodkiewicz-Moen"
+  "ApplicationName": "Reilly-Wisoky"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 451,
-    "Name": "Quitzon-Schuppe",
-    "CreatedDate": "2015-01-05T12:01:27.9002891+01:00",
-    "UpdatedDate": "2008-02-24T12:01:27.9002891+01:00",
-    "AssociateFullName": "Prof. Otha Buckridge MD",
-    "CreatedBy": "molestiae",
-    "UpdatedBy": "pariatur",
-    "DeviceIdentifier": "sit",
-    "ForeignAppId": 762,
+    "ForeignDeviceId": 248,
+    "Name": "Walsh, Bruen and Kertzmann",
+    "CreatedDate": "2019-12-27T14:32:03.0303748+01:00",
+    "UpdatedDate": "2013-03-22T14:32:03.0303748+01:00",
+    "AssociateFullName": "Ms. Danny Gleason I",
+    "CreatedBy": "non",
+    "UpdatedBy": "aliquid",
+    "DeviceIdentifier": "earum",
+    "ForeignAppId": 437,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 920
       }
     }
   }

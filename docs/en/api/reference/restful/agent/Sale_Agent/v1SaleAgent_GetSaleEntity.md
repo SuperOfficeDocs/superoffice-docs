@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=61
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=70
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "tenetur",
+  "SaleText": "ut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-09-25T12:01:28.2596899+02:00",
-  "Amount": 26783.164,
-  "SaleId": 980,
-  "Earning": 8790.869999999999,
-  "EarningPercent": 8016.772,
-  "Heading": "ut",
-  "Number": "825821",
-  "Probability": 455,
-  "CreatedDate": "2022-05-31T12:01:28.2596899+02:00",
-  "UpdatedDate": "1998-05-19T12:01:28.2596899+02:00",
+  "Saledate": "2001-11-13T14:32:03.7022941+01:00",
+  "Amount": 12504.66,
+  "SaleId": 887,
+  "Earning": 1651.618,
+  "EarningPercent": 15137.22,
+  "Heading": "ea",
+  "Number": "1141688",
+  "Probability": 101,
+  "CreatedDate": "2020-11-10T14:32:03.7022941+01:00",
+  "UpdatedDate": "2014-03-24T14:32:03.7022941+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 844,
+  "ActiveLinks": 624,
   "Links": [
     {
-      "EntityName": "Dare-Kunze",
-      "Id": 502,
-      "Description": "Implemented bifurcated extranet",
-      "ExtraInfo": "voluptates",
-      "LinkId": 805,
+      "EntityName": "Gottlieb, Ankunding and Runolfsdottir",
+      "Id": 172,
+      "Description": "Profound value-added hub",
+      "ExtraInfo": "quaerat",
+      "LinkId": 962,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 444
         }
       }
     }
   ],
-  "NextDueDate": "2019-04-12T12:01:28.2596899+02:00",
-  "Postit": "commodi",
+  "NextDueDate": "2008-07-24T14:32:03.7022941+02:00",
+  "Postit": "voluptatem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-12-13T12:01:28.2596899+01:00",
+  "ReopenDate": "1998-05-28T14:32:03.7022941+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Herzog-Dach",
-      "Comment": "voluptatum",
-      "StakeholderRoleId": 939,
-      "CountryId": 815,
-      "PersonId": 94,
-      "EmailDescription": "maverick_mckenzie@mayert.com",
-      "EmailId": 656,
-      "EmailAddress": "joannie@pfefferchamplin.name",
-      "PhoneId": 225,
-      "ContactName": "Jewess-Bechtelar",
-      "ContactId": 88,
-      "SaleId": 312,
-      "Mrmrs": "saepe",
-      "Firstname": "Cassandra",
-      "MiddleName": "Abbott-Heller",
-      "Lastname": "Schaden",
-      "SaleStakeholderId": 225,
-      "Rank": 558,
-      "Phone": "(089)338-6929",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 316
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 550,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1334549368",
-    "SuperOffice:2": "Orion Bergnaum"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "distinctio"
-  },
-  "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "et"
-  },
-  "PublishEventDate": "2017-12-29T12:01:28.2596899+01:00",
-  "PublishTo": "2006-07-30T12:01:28.2596899+02:00",
-  "PublishFrom": "1999-03-13T12:01:28.2596899+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 535,
-      "Visibility": "All",
-      "DisplayValue": "omnis",
+      "StakeholderRoleName": "Feil LLC",
+      "Comment": "necessitatibus",
+      "StakeholderRoleId": 28,
+      "CountryId": 881,
+      "PersonId": 933,
+      "EmailDescription": "landen@orn.com",
+      "EmailId": 957,
+      "EmailAddress": "jeanie.osinski@jenkins.info",
+      "PhoneId": 554,
+      "ContactName": "Bode, Mueller and Johnson",
+      "ContactId": 66,
+      "SaleId": 43,
+      "Mrmrs": "itaque",
+      "Firstname": "Justina",
+      "MiddleName": "Rodriguez LLC",
+      "Lastname": "Stark",
+      "SaleStakeholderId": 919,
+      "Rank": 961,
+      "Phone": "1-298-525-3077 x142",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 184
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 290,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "quo"
+  },
+  "CustomFields": {
+    "CustomFields1": "et",
+    "CustomFields2": "dolor"
+  },
+  "PublishEventDate": "2023-05-04T14:32:03.7022941+02:00",
+  "PublishTo": "1998-07-20T14:32:03.7022941+02:00",
+  "PublishFrom": "2017-02-23T14:32:03.7022941+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 14,
+      "Visibility": "All",
+      "DisplayValue": "ducimus",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 889
         }
       }
     },
     {
-      "VisibleId": 535,
+      "VisibleId": 14,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 889
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 188
     }
   }
 }

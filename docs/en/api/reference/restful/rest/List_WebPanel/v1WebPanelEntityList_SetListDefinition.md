@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Shields-Kuvalis",
-  "Tooltip": "minus",
+  "Id": 174,
+  "Name": "Barton-Pacocha",
+  "Tooltip": "eaque",
   "Deleted": true,
-  "Rank": 690,
-  "IsCustomList": true,
+  "Rank": 845,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Mayert-Grant",
-  "Tooltip": "non",
+  "Id": 451,
+  "Name": "Runolfsdottir Inc and Sons",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 201,
+  "Rank": 218,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officia",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 478
     }
   }
 }

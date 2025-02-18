@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Nader LLC",
-    "ToolTip": "Qui libero molestias occaecati hic nisi autem omnis.",
+    "Id": 402,
+    "Name": "Rosenbaum, Grady and Pfannerstill",
+    "ToolTip": "Quasi officiis amet dolores.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "et",
-    "ColorBlock": 226,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2022-06-09T12:01:33.4332226+02:00",
+    "Rank": 438,
+    "Type": "voluptate",
+    "ColorBlock": 757,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2014-05-22T14:32:12.4895996+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Emmerich Inc and Sons",
-        "ToolTip": "Debitis voluptatum.",
+        "Id": 644,
+        "Name": "Maggio-Denesik",
+        "ToolTip": "Officiis aut eum porro.",
         "Deleted": true,
-        "Rank": 152,
-        "Type": "rerum",
-        "ColorBlock": 39,
-        "IconHint": "unde",
+        "Rank": 77,
+        "Type": "maxime",
+        "ColorBlock": 244,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2021-01-22T12:01:33.4332226+01:00",
+        "LastChanged": "2010-07-18T14:32:12.4895996+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "corporis",
-        "Hidden": false,
-        "FullName": "Dr. Larry Keith Daugherty V",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Anita Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldType": "System.Int32",
+            "FieldLength": 713
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "amet",
+    "ExtraInfo": "nobis",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Shanie Schmidt",
+    "FullName": "Dr. Laurel Gussie Carter IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldType": "System.Int32",
+        "FieldLength": 742
       }
     }
   }

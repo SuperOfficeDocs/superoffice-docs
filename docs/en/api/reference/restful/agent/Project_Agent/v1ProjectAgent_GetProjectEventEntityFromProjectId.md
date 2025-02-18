@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 471
+  "ProjectId": 4
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "explicabo",
-  "SignOffText": "adipisci",
-  "SignOnConfirmationText": "quod",
-  "SignOnText": "mollitia",
-  "EventDate": "2017-08-30T12:01:28.1503067+02:00",
-  "Enabled": true,
-  "CreatedDate": "1999-01-08T12:01:28.1503067+01:00",
+  "SignOffConfirmationText": "at",
+  "SignOffText": "iusto",
+  "SignOnConfirmationText": "amet",
+  "SignOnText": "veritatis",
+  "EventDate": "2002-11-22T14:32:03.4992229+01:00",
+  "Enabled": false,
+  "CreatedDate": "2023-02-22T14:32:03.4992229+01:00",
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 395,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 170,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 842,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 925,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2011-02-27T12:01:28.1503067+01:00",
+  "UpdatedDate": "2010-07-24T14:32:03.4992229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 404,
-  "Id": 600,
-  "PublishFrom": "2025-01-13T12:01:28.1503067+01:00",
+  "ProjectId": 521,
+  "Id": 273,
+  "PublishFrom": "2016-01-17T14:32:03.4992229+01:00",
   "PublishType": "External",
-  "PublishTo": "2023-11-14T12:01:28.1503067+01:00",
+  "PublishTo": "2004-07-27T14:32:03.4992229+02:00",
   "VisibleForCategories": [
     {
-      "Id": 49,
-      "Name": "Marks-Wunsch",
-      "ToolTip": "Explicabo omnis.",
-      "Deleted": false,
-      "Rank": 418,
-      "Type": "quas",
+      "Id": 164,
+      "Name": "Dickinson-Blick",
+      "ToolTip": "Voluptates placeat nam dolore excepturi accusantium non reiciendis.",
+      "Deleted": true,
+      "Rank": 707,
+      "Type": "ratione",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "libero",
-      "ColorBlock": 857,
-      "ExtraInfo": "sed",
-      "StyleHint": "blanditiis",
-      "FullName": "Prof. Adolfo Schneider Sr.",
+      "IconHint": "repellat",
+      "ColorBlock": 697,
+      "ExtraInfo": "nulla",
+      "StyleHint": "nihil",
+      "FullName": "Ruthie Gorczany",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 161
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 304,
-      "Name": "Klein LLC",
-      "ToolTip": "Distinctio molestias.",
+      "Id": 510,
+      "Name": "Gibson, Mitchell and Kerluke",
+      "ToolTip": "Quis voluptatibus recusandae magnam saepe magni fugit doloremque.",
       "Deleted": false,
-      "Rank": 978,
-      "Type": "repellat",
+      "Rank": 877,
+      "Type": "repellendus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 614,
-      "ExtraInfo": "et",
-      "StyleHint": "et",
-      "FullName": "Elwyn Gerry Mann MD",
+      "IconHint": "aut",
+      "ColorBlock": 974,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "ut",
+      "FullName": "Elwin Stokes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 433,
+  "IsVisibleForCategories": true,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 330,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 348
     }
   }
 }

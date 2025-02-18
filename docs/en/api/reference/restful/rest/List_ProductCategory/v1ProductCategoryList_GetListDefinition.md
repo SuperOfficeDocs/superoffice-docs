@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Gottlieb Group",
-  "Tooltip": "rerum",
+  "Id": 472,
+  "Name": "Zieme, Hickle and Gerlach",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 34,
+  "Rank": 592,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

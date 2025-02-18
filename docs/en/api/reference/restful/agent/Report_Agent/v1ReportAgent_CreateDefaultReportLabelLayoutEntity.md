@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 967,
-  "Name": "Kemmer-Spencer",
-  "Description": "Configurable 3rd generation encryption",
+  "ReportLabelLayoutId": 384,
+  "Name": "Smitham-Pfannerstill",
+  "Description": "Object-based bandwidth-monitored attitude",
   "Orientation": "Landscape",
-  "PaperWidth": 713,
-  "PaperHeight": 792,
-  "LeftMargin": 323,
-  "RightMargin": 346,
-  "TopMargin": 530,
-  "BottomMargin": 785,
-  "CountColumns": 827,
-  "CountRows": 787,
+  "PaperWidth": 407,
+  "PaperHeight": 440,
+  "LeftMargin": 540,
+  "RightMargin": 981,
+  "TopMargin": 428,
+  "BottomMargin": 725,
+  "CountColumns": 675,
+  "CountRows": 603,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 727
     }
   }
 }

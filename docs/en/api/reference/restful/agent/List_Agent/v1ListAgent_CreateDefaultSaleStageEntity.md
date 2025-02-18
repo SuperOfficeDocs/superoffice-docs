@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 312,
-  "Value": "alias",
-  "Tooltip": "similique",
-  "Probability": 747,
-  "Deleted": false,
-  "Rank": 556,
+  "SaleStageId": 279,
+  "Value": "rem",
+  "Tooltip": "in",
+  "Probability": 504,
+  "Deleted": true,
+  "Rank": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldLength": 605
     }
   }
 }

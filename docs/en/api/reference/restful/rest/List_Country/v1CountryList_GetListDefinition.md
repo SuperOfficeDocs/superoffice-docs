@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Turner, Conn and Brown",
-  "Tooltip": "sunt",
+  "Id": 106,
+  "Name": "Lind Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 449,
+  "Rank": 7,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 698
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

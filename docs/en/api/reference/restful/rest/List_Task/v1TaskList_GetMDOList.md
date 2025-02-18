@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=quae
+GET /api/v1/List/Task/MDOItems?query=rerum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Reynolds-Dach",
-    "ToolTip": "Et odio quasi eligendi nesciunt et inventore at.",
+    "Id": 923,
+    "Name": "Cassin-Brown",
+    "ToolTip": "Qui cumque possimus expedita soluta vitae molestiae.",
     "Deleted": true,
-    "Rank": 772,
-    "Type": "architecto",
+    "Rank": 258,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Schuppe, Marquardt and Spencer",
-        "ToolTip": "Non qui autem voluptatum consequatur non.",
+        "Id": 564,
+        "Name": "Wintheiser Group",
+        "ToolTip": "Et similique facere omnis.",
         "Deleted": false,
-        "Rank": 713,
-        "Type": "qui",
+        "Rank": 805,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 641,
-        "ExtraInfo": "eaque",
-        "StyleHint": "repellendus",
-        "FullName": "Mrs. Izabella Scottie Crooks",
+        "IconHint": "a",
+        "ColorBlock": 946,
+        "ExtraInfo": "occaecati",
+        "StyleHint": "accusantium",
+        "FullName": "Lue Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 591
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 596,
-    "ExtraInfo": "enim",
-    "StyleHint": "doloremque",
-    "FullName": "Miss Lorenza Cronin V",
+    "IconHint": "inventore",
+    "ColorBlock": 886,
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "ex",
+    "FullName": "Mrs. Jazmin Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 908
       }
     }
   }

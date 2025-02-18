@@ -26,7 +26,7 @@ Gets a TicketEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=597
+POST /api/v1/Agents/Ticket/GetTicketEntity?ticketEntityId=105
 POST /api/v1/Agents/Ticket/GetTicketEntity?$select=name,department,category/id
 ```
 
@@ -124,7 +124,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -134,21 +134,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 514,
-  "Title": "esse",
-  "CreatedAt": "2001-02-27T12:01:28.4159512+01:00",
-  "LastChanged": "2017-01-03T12:01:28.4159512+01:00",
-  "ReadByOwner": "2002-03-10T12:01:28.4159512+01:00",
-  "ReadByCustomer": "2002-06-30T12:01:28.4159512+02:00",
-  "FirstReadByOwner": "2022-01-29T12:01:28.4159512+01:00",
-  "FirstReadByUser": "2014-03-10T12:01:28.4159512+01:00",
-  "Activate": "2020-09-30T12:01:28.4159512+02:00",
-  "ClosedAt": "2018-03-24T12:01:28.4159512+01:00",
-  "RepliedAt": "2008-08-04T12:01:28.4159512+02:00",
-  "AlertTimeout": "2001-02-08T12:01:28.4159512+01:00",
-  "Deadline": "2005-09-18T12:01:28.4159512+02:00",
+  "TicketId": 504,
+  "Title": "temporibus",
+  "CreatedAt": "1998-07-21T14:32:04.0459663+02:00",
+  "LastChanged": "2001-02-15T14:32:04.0459663+01:00",
+  "ReadByOwner": "1999-06-20T14:32:04.0459663+02:00",
+  "ReadByCustomer": "2003-03-27T14:32:04.0459663+01:00",
+  "FirstReadByOwner": "1998-03-05T14:32:04.0459663+01:00",
+  "FirstReadByUser": "2001-10-16T14:32:04.0459663+02:00",
+  "Activate": "2003-07-05T14:32:04.0459663+02:00",
+  "ClosedAt": "2021-04-04T14:32:04.0459663+02:00",
+  "RepliedAt": "2013-07-06T14:32:04.0459663+02:00",
+  "AlertTimeout": "2017-04-14T14:32:04.0459663+02:00",
+  "Deadline": "2015-12-15T14:32:04.0459663+01:00",
   "CreatedBy": null,
-  "Author": "ratione",
+  "Author": "est",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -159,163 +159,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quod",
-      "PersonId": 284,
-      "Mrmrs": "aperiam",
-      "Firstname": "Hortense",
-      "Lastname": "Auer",
-      "MiddleName": "Beier-Kuvalis",
-      "Title": "est",
-      "Description": "Upgradable static knowledge base",
-      "Email": "chelsey@kertzmann.name",
-      "FullName": "Alexzander Lindgren",
-      "DirectPhone": "702-323-5825 x25745",
-      "FormalName": "Lubowitz LLC",
-      "CountryId": 611,
-      "ContactId": 322,
-      "ContactName": "Bartoletti-Beier",
-      "Retired": 427,
-      "Rank": 93,
-      "ActiveInterests": 132,
+      "Position": "ratione",
+      "PersonId": 496,
+      "Mrmrs": "cumque",
+      "Firstname": "Kayden",
+      "Lastname": "Marvin",
+      "MiddleName": "Keebler Inc and Sons",
+      "Title": "magni",
+      "Description": "Future-proofed reciprocal data-warehouse",
+      "Email": "mabel@haucksporer.us",
+      "FullName": "Tom Quitzon III",
+      "DirectPhone": "(373)843-7499 x557",
+      "FormalName": "Auer, Heathcote and O'Conner",
+      "CountryId": 322,
+      "ContactId": 232,
+      "ContactName": "Flatley LLC",
+      "Retired": 178,
+      "Rank": 231,
+      "ActiveInterests": 447,
       "ContactDepartment": "",
-      "ContactCountryId": 747,
-      "ContactOrgNr": "1045606",
-      "FaxPhone": "353-713-1838",
-      "MobilePhone": "1-043-084-3993",
-      "ContactPhone": "314-327-3747",
-      "AssociateName": "Koepp, Kuvalis and Friesen",
-      "AssociateId": 238,
-      "UsePersonAddress": false,
-      "ContactFax": "quia",
-      "Kanafname": "quae",
-      "Kanalname": "dolorem",
-      "Post1": "id",
-      "Post2": "ullam",
-      "Post3": "laudantium",
-      "EmailName": "ova@hilpert.name",
-      "ContactFullName": "Rylee Stroman",
-      "ActiveErpLinks": 256,
-      "TicketPriorityId": 252,
-      "SupportLanguageId": 582,
-      "SupportAssociateId": 307,
+      "ContactCountryId": 502,
+      "ContactOrgNr": "1794382",
+      "FaxPhone": "1-519-684-5840 x92707",
+      "MobilePhone": "412.166.0214 x5630",
+      "ContactPhone": "1-931-988-4598 x772",
+      "AssociateName": "Johnston LLC",
+      "AssociateId": 648,
+      "UsePersonAddress": true,
+      "ContactFax": "dolor",
+      "Kanafname": "et",
+      "Kanalname": "est",
+      "Post1": "sunt",
+      "Post2": "sunt",
+      "Post3": "et",
+      "EmailName": "dolores_mclaughlin@turcottelowe.com",
+      "ContactFullName": "Lacey Kerluke V",
+      "ActiveErpLinks": 186,
+      "TicketPriorityId": 52,
+      "SupportLanguageId": 186,
+      "SupportAssociateId": 296,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1059665",
+      "PersonNumber": "269394",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 203
         }
       }
     }
   ],
-  "AlertLevel": 491,
-  "ConnectId": 666,
+  "AlertLevel": 304,
+  "ConnectId": 717,
   "ReadStatus": "Green",
-  "TimeToReply": 573,
-  "RealTimeToReply": 444,
-  "TimeToClose": 126,
-  "RealTimeToClose": 868,
-  "TimeSpentInternally": 34,
-  "TimeSpentExternally": 44,
-  "TimeSpentQueue": 133,
-  "RealTimeSpentInternally": 609,
-  "RealTimeSpentExternally": 534,
-  "RealTimeSpentQueue": 520,
-  "TimeSpent": 988,
+  "TimeToReply": 343,
+  "RealTimeToReply": 688,
+  "TimeToClose": 222,
+  "RealTimeToClose": 548,
+  "TimeSpentInternally": 720,
+  "TimeSpentExternally": 732,
+  "TimeSpentQueue": 721,
+  "RealTimeSpentInternally": 650,
+  "RealTimeSpentExternally": 750,
+  "RealTimeSpentQueue": 591,
+  "TimeSpent": 710,
   "HasAttachment": false,
-  "NumReplies": 760,
-  "NumMessages": 655,
-  "FromAddress": "aut",
+  "NumReplies": 992,
+  "NumMessages": 595,
+  "FromAddress": "unde",
   "Messages": [
     {
-      "TicketMessageId": 810,
-      "CreatedAt": "2007-04-06T12:01:28.4784544+02:00",
+      "TicketMessageId": 174,
+      "CreatedAt": "1999-06-07T14:32:04.061589+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "facilis",
-      "PersonId": 340,
-      "PersonFullName": "Miss Geraldine Cronin",
-      "ContactId": 686,
-      "ContactName": "Hane Inc and Sons",
+      "Author": "officiis",
+      "PersonId": 998,
+      "PersonFullName": "Merle Lueilwitz II",
+      "ContactId": 65,
+      "ContactName": "Cruickshank Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 357,
-      "EmailHeader": "amber@keelingmueller.co.uk",
+      "NumAttachments": 546,
+      "EmailHeader": "luciano.blanda@west.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "dignissimos",
-      "Sentiment": 467,
-      "SentimentConfidence": 944,
-      "CreatedBy": 964,
-      "ChangedAt": "2007-11-11T12:01:28.4784544+01:00",
+      "Language": "labore",
+      "Sentiment": 271,
+      "SentimentConfidence": 477,
+      "CreatedBy": 623,
+      "ChangedAt": "2016-09-11T14:32:04.061589+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldLength": 920
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 823,
-      "Name": "Blick LLC",
-      "ToolTip": "Exercitationem error fugit.",
+      "Id": 662,
+      "Name": "Vandervort-Bernhard",
+      "ToolTip": "Accusamus dolor et iusto soluta dicta.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 796
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     },
     {
-      "Id": 823,
-      "Name": "Blick LLC",
-      "ToolTip": "Exercitationem error fugit.",
+      "Id": 662,
+      "Name": "Vandervort-Bernhard",
+      "ToolTip": "Accusamus dolor et iusto soluta dicta.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 796
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
   ],
-  "Language": "illo",
-  "Sentiment": 204,
-  "SentimentConfidence": 516,
-  "SuggestedCategoryId": 123,
+  "Language": "sit",
+  "Sentiment": 636,
+  "SentimentConfidence": 526,
+  "SuggestedCategoryId": 472,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 719,
-  "IconHint": "dicta",
+  "OrigHumanCategoryId": 944,
+  "IconHint": "repellat",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 94,
+  "ActiveStatusMonitorId": 716,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "animi"
+    "CustomFields1": "tempora",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 665
     }
   }
 }

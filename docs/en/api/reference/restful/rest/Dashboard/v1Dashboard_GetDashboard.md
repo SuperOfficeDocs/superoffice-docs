@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 951,
-  "AssociateId": 177,
-  "Caption": "quod",
+  "DashboardId": 308,
+  "AssociateId": 873,
+  "Caption": "ipsam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 907,
-      "Caption": "ratione",
-      "Description": "Digitized real-time moratorium",
-      "ChartName": "Rice, Jaskolski and Kling",
-      "ChartId": "dolorem",
+      "DashboardTileId": 106,
+      "Caption": "sed",
+      "Description": "Progressive transitional model",
+      "ChartName": "Jerde, Wilkinson and Thompson",
+      "ChartId": "ipsam",
       "IsDefault": false,
-      "AssociateId": 673,
-      "GroupId": 554,
-      "SelectionId": 495,
-      "Config": "qui",
+      "AssociateId": 399,
+      "GroupId": 662,
+      "SelectionId": 376,
+      "Config": "maiores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 96
+          "FieldLength": 836
         }
       }
     }
@@ -127,8 +127,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   },
   "_Links": {

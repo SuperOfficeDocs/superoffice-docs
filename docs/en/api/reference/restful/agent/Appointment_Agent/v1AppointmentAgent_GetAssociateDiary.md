@@ -128,14 +128,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 355,
-  "StartTime": "2014-08-30T12:01:27.0252114+02:00",
-  "EndTime": "2013-10-07T12:01:27.0252114+02:00",
-  "Count": 944
+  "AssociateId": 755,
+  "StartTime": "2004-12-06T14:32:01.6398975+01:00",
+  "EndTime": "2009-04-29T14:32:01.6398975+02:00",
+  "Count": 408
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 476,
-    "StartDate": "2008-11-23T12:01:27.0252114+01:00",
-    "EndDate": "2023-06-22T12:01:27.0252114+02:00",
+    "AppointmentId": 535,
+    "StartDate": "2021-08-12T14:32:01.6398975+02:00",
+    "EndDate": "2013-07-17T14:32:01.6398975+02:00",
     "Type": "BookingForChecklist",
-    "Task": "earum",
-    "AssociateFullName": "Antone Hickle",
-    "ContactName": "Cole Inc and Sons",
-    "Description": "Organic maximized instruction set",
-    "PersonFullName": "Eric O'Keefe",
-    "PersonId": 776,
-    "ContactId": 83,
-    "ProjectId": 437,
-    "ProjectName": "Herzog-Schuster",
+    "Task": "cum",
+    "AssociateFullName": "Lucius Hirthe III",
+    "ContactName": "Borer Group",
+    "Description": "Multi-tiered foreground support",
+    "PersonFullName": "Miss Deja Pfannerstill DDS",
+    "PersonId": 195,
+    "ContactId": 606,
+    "ProjectId": 121,
+    "ProjectName": "Kautzer-Hermann",
     "IsPublished": true,
-    "AssociateId": 269,
-    "ColorIndex": 227,
+    "AssociateId": 330,
+    "ColorIndex": 811,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 39,
-    "PriorityName": "Rohan-Hodkiewicz",
+    "PriorityId": 552,
+    "PriorityName": "Nicolas-Von",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-02-03T12:01:27.0252114+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2004-06-22T14:32:01.6398975+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-06-28T12:01:27.0252114+02:00",
-    "RecurringEndDate": "2019-05-24T12:01:27.0252114+02:00",
-    "MotherId": 264,
-    "AssignedBy": 872,
-    "AssignedByFullName": "Cathy Oberbrunner DDS",
+    "RecurringStartDate": "2013-05-23T14:32:01.6398975+02:00",
+    "RecurringEndDate": "2019-04-12T14:32:01.6398975+02:00",
+    "MotherId": 430,
+    "AssignedBy": 5,
+    "AssignedByFullName": "Corene Conroy PhD",
     "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "id",
-    "SaleId": 781,
-    "SaleName": "Wuckert, Swift and Christiansen",
-    "AssociateName": "Buckridge, O'Keefe and Emard",
-    "CreatedDate": "2014-01-30T12:01:27.0252114+01:00",
-    "CreatedBy": "assumenda",
-    "CreatedByFullName": "Mr. Tomasa Berge V",
-    "CreatedByAssociateId": 139,
+    "Location": "quae",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 984,
+    "SaleName": "Herman, Anderson and Beer",
+    "AssociateName": "Kuhn Group",
+    "CreatedDate": "2003-02-25T14:32:01.6398975+01:00",
+    "CreatedBy": "ad",
+    "CreatedByFullName": "Prof. Willard Johns",
+    "CreatedByAssociateId": 5,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 841,
-    "Title": "earum",
-    "Agenda": "perspiciatis",
-    "InternalNotes": "hic",
+    "PreferredTZLocation": 540,
+    "Title": "molestias",
+    "Agenda": "aut",
+    "InternalNotes": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 69
       }
     }
   }

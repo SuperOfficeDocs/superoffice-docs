@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "placeat"
+  "UID": "sed"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-11-21T12:01:27.2908716+01:00",
-  "AppointmentId": 998,
-  "Description": "Sharable tangible superstructure",
-  "Title": "quod",
-  "Agenda": "nihil",
-  "InternalNotes": "debitis",
-  "StartDate": "2003-12-14T12:01:27.2908716+01:00",
-  "EndDate": "2009-06-18T12:01:27.2908716+02:00",
+  "CreatedDate": "2004-07-14T14:32:01.9524955+02:00",
+  "AppointmentId": 514,
+  "Description": "Networked eco-centric superstructure",
+  "Title": "harum",
+  "Agenda": "nesciunt",
+  "InternalNotes": "quia",
+  "StartDate": "1999-08-30T14:32:01.9524955+02:00",
+  "EndDate": "2024-04-27T14:32:01.9524955+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 841,
+  "MotherId": 442,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-02-29T12:01:27.2908716+01:00",
+  "UpdatedDate": "2006-05-31T14:32:01.9524955+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 57,
+  "ActiveLinks": 841,
   "Links": [
     {
-      "EntityName": "Schaefer, Goodwin and Stamm",
-      "Id": 210,
-      "Description": "Horizontal asynchronous throughput",
-      "ExtraInfo": "est",
-      "LinkId": 711,
+      "EntityName": "Lehner-Hamill",
+      "Id": 863,
+      "Description": "Cross-group homogeneous leverage",
+      "ExtraInfo": "ea",
+      "LinkId": 673,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldLength": 271
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
+  "AlarmLeadTime": "sapiente",
   "HasAlarm": true,
-  "ColorIndex": 476,
-  "IsFree": false,
+  "ColorIndex": 821,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "quibusdam",
-  "Location": "aut",
-  "RejectCounter": 27,
+  "LagTime": "dolores",
+  "LeadTime": "eum",
+  "Location": "libero",
+  "RejectCounter": 111,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 177,
-      "PersonId": 618,
-      "ContactId": 65,
-      "EmailId": 773,
-      "SendEmail": false,
+      "AssociateId": 359,
+      "PersonId": 589,
+      "ContactId": 529,
+      "EmailId": 163,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "annabel@sauermurray.name",
-      "Description": "Phased heuristic hub"
+      "EmailAddress": "joseph@johnston.biz",
+      "Description": "Networked stable support"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-09-08T12:01:27.2908716+02:00",
+  "ActiveDate": "1999-11-01T14:32:01.9524955+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 327,
+  "PreferredTZLocation": 808,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 221,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 547,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolor",
+  "CentralserviceVideomeetId": "nobis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1090180407",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "205023961",
+    "SuperOffice:2": "471633860"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "cumque",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2019-07-14T12:01:27.2908716+02:00",
-  "PublishTo": "2021-04-12T12:01:27.2908716+02:00",
-  "PublishFrom": "2011-01-17T12:01:27.2908716+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-06-27T14:32:01.9524955+02:00",
+  "PublishTo": "2023-07-06T14:32:01.9524955+02:00",
+  "PublishFrom": "2005-02-06T14:32:01.9524955+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 372,
+      "VisibleId": 831,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     },
     {
-      "VisibleId": 372,
+      "VisibleId": 831,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 775
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

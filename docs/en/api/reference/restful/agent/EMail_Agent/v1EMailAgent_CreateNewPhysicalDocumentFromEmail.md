@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 23,
-  "EmailItemId": 220
+  "DocumentId": 903,
+  "EmailItemId": 458
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 657,
+  "DocumentId": 963,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officiis",
-  "Header": "praesentium",
-  "Name": "Leffler Inc and Sons",
-  "OurRef": "officia",
-  "YourRef": "rerum",
-  "CreatedDate": "2017-02-17T12:01:27.7909064+01:00",
-  "UpdatedDate": "2016-10-29T12:01:27.7909064+02:00",
-  "Description": "Open-source composite access",
+  "Attention": "repellat",
+  "Header": "et",
+  "Name": "Jacobs, Kutch and Veum",
+  "OurRef": "fugit",
+  "YourRef": "doloremque",
+  "CreatedDate": "2023-06-04T14:32:02.8429175+02:00",
+  "UpdatedDate": "2019-10-10T14:32:02.8429175+02:00",
+  "Description": "Universal discrete website",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-08-06T12:01:27.7909064+02:00",
-  "ExternalRef": "voluptate",
+  "Date": "2010-12-06T14:32:02.8429175+01:00",
+  "ExternalRef": "vel",
   "Completed": "Completed",
-  "ActiveLinks": 740,
+  "ActiveLinks": 468,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan Group",
-      "Id": 483,
-      "Description": "User-friendly national protocol",
+      "EntityName": "Jacobi LLC",
+      "Id": 287,
+      "Description": "Networked motivating capacity",
       "ExtraInfo": "laboriosam",
-      "LinkId": 910,
+      "LinkId": 309,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 761,
-  "Snum": 578,
+  "SuggestedDocumentId": 542,
+  "Snum": 685,
   "UserDefinedFields": {
-    "SuperOffice:1": "1717334276",
-    "SuperOffice:2": "615039089"
+    "SuperOffice:1": "Jerrell Greg Cummings II",
+    "SuperOffice:2": "Mr. Constance Kulas MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "commodi"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "id",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2004-09-06T12:01:27.8065326+02:00",
-  "PublishTo": "2009-06-01T12:01:27.8065326+02:00",
-  "PublishFrom": "2013-05-21T12:01:27.8065326+02:00",
+  "PublishEventDate": "2024-07-10T14:32:02.8429175+02:00",
+  "PublishTo": "2014-08-11T14:32:02.8429175+02:00",
+  "PublishFrom": "2006-06-05T14:32:02.8429175+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 866,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     },
     {
-      "VisibleId": 866,
+      "VisibleId": 300,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldType": "System.String",
+          "FieldLength": 513
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 575
     }
   }
 }

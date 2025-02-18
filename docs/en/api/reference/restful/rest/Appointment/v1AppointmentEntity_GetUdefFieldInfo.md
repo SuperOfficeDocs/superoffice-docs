@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 6,
-  "ColumnId": 575,
-  "FieldDefault": "soluta",
-  "FieldHeight": 247,
-  "FieldLabel": "a",
-  "FieldLeft": 580,
-  "FieldTop": 711,
+  "UDefFieldId": 231,
+  "ColumnId": 436,
+  "FieldDefault": "labore",
+  "FieldHeight": 298,
+  "FieldLabel": "eos",
+  "FieldLeft": 1001,
+  "FieldTop": 772,
   "FieldType": "Checkbox",
-  "FieldWidth": 241,
-  "FormatMask": "sequi",
+  "FieldWidth": 701,
+  "FormatMask": "fugit",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 592,
-  "LabelLeft": 850,
-  "LabelTop": 628,
-  "LabelWidth": 656,
-  "LastVersionId": 104,
-  "ListTableId": 138,
-  "IsMandatory": false,
+  "LabelHeight": 78,
+  "LabelLeft": 441,
+  "LabelTop": 677,
+  "LabelWidth": 779,
+  "LastVersionId": 866,
+  "ListTableId": 460,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 261,
-  "ProgId": "inventore",
+  "Page1LineNo": 602,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 850,
+  "ShortLabel": "quod",
+  "TabOrder": 173,
   "TextLength": 35,
-  "Tooltip": "harum",
-  "UdefIdentity": 931,
-  "UDListDefinitionId": 541,
+  "Tooltip": "velit",
+  "UdefIdentity": 287,
+  "UDListDefinitionId": 213,
   "Justification": "Center",
-  "Version": 974,
-  "TemplateVariableName": "Farrell LLC",
+  "Version": 406,
+  "TemplateVariableName": "Green, Kautzer and Prosacco",
   "HasBeenPublished": false,
-  "MdoListName": "Conn, Hettinger and Bednar",
+  "MdoListName": "Weimann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

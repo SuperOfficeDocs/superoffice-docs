@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=molestias
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=modi
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Maggio-Prohaska",
-    "ToolTip": "Et et nemo sit dolorem ut sint.",
-    "Deleted": true,
-    "Rank": 434,
-    "Type": "ut",
-    "ColorBlock": 577,
-    "IconHint": "aliquid",
-    "Selected": true,
-    "LastChanged": "2005-04-06T12:01:33.5269792+02:00",
+    "Id": 867,
+    "Name": "Bernhard, Toy and Lang",
+    "ToolTip": "Quis est in dolore repellendus iste.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "quod",
+    "ColorBlock": 441,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2008-01-15T14:32:12.6614341+01:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Adams Group",
-        "ToolTip": "Cumque asperiores veniam sapiente.",
+        "Id": 957,
+        "Name": "Nader Group",
+        "ToolTip": "Dolorum vero dignissimos expedita et aut aut repellendus.",
         "Deleted": false,
-        "Rank": 855,
-        "Type": "non",
-        "ColorBlock": 304,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2008-10-11T12:01:33.5269792+02:00",
+        "Rank": 125,
+        "Type": "dolor",
+        "ColorBlock": 404,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2018-06-06T14:32:12.6614341+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ea",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Fabian Grimes",
+        "FullName": "Brando Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "enim",
+    "ExtraInfo": "hic",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Leone Glover",
+    "FullName": "Clare Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

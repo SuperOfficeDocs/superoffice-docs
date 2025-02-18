@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Schulist-Barton",
-  "Tooltip": "consequuntur",
-  "Deleted": false,
-  "Rank": 422,
+  "Id": 512,
+  "Name": "Doyle Inc and Sons",
+  "Tooltip": "commodi",
+  "Deleted": true,
+  "Rank": 337,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
-  "InUseByUserDefinedFields": true
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 444,
-  "Name": "Schroeder-Bahringer",
-  "Tooltip": "fugit",
+  "Id": 80,
+  "Name": "Moen-Boehm",
+  "Tooltip": "quam",
   "Deleted": false,
-  "Rank": 99,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 554,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repellat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 656
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Smitham Group",
-    "ToolTip": "Ipsam quasi tenetur voluptates ea eaque.",
-    "Deleted": true,
-    "Rank": 257,
-    "Type": "quam",
-    "ColorBlock": 798,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2010-10-02T12:01:33.5269792+02:00",
+    "Id": 666,
+    "Name": "Thompson LLC",
+    "ToolTip": "Molestiae voluptatem ea illo distinctio nemo.",
+    "Deleted": false,
+    "Rank": 118,
+    "Type": "dicta",
+    "ColorBlock": 811,
+    "IconHint": "minima",
+    "Selected": false,
+    "LastChanged": "2024-10-30T14:32:12.6614341+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Abernathy, Wintheiser and Abshire",
-        "ToolTip": "Voluptas magni magnam ex ut inventore esse.",
+        "Id": 594,
+        "Name": "Smith-Stroman",
+        "ToolTip": "Occaecati aut repellendus et occaecati ut quos.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "non",
-        "ColorBlock": 141,
-        "IconHint": "voluptates",
+        "Rank": 42,
+        "Type": "quia",
+        "ColorBlock": 728,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2004-07-01T12:01:33.5269792+02:00",
+        "LastChanged": "2009-06-24T14:32:12.6614341+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "sequi",
+        "ExtraInfo": "quas",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Gracie Funk"
+        "FullName": "Jarrett Emard"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "nihil",
+    "ExtraInfo": "quia",
+    "StyleHint": "beatae",
     "Hidden": false,
-    "FullName": "Kaia McGlynn"
+    "FullName": "Antonio Herzog"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Satterfield, Stroman and Schaden",
-    "ToolTip": "Doloremque voluptatum voluptatem et iste tenetur a sit.",
-    "Deleted": true,
-    "Rank": 583,
-    "Type": "nisi",
-    "ColorBlock": 469,
-    "IconHint": "nobis",
+    "Id": 53,
+    "Name": "Beer-Zemlak",
+    "ToolTip": "Voluptatem consectetur.",
+    "Deleted": false,
+    "Rank": 821,
+    "Type": "cupiditate",
+    "ColorBlock": 753,
+    "IconHint": "maiores",
     "Selected": true,
-    "LastChanged": "2010-01-30T12:01:33.5269792+01:00",
+    "LastChanged": "2016-12-21T14:32:12.6614341+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Heathcote-Bogan",
-        "ToolTip": "Deleniti velit illum quaerat.",
+        "Id": 308,
+        "Name": "Nicolas, McKenzie and Goodwin",
+        "ToolTip": "Et consequatur omnis.",
         "Deleted": true,
-        "Rank": 273,
-        "Type": "magnam",
-        "ColorBlock": 159,
-        "IconHint": "rem",
+        "Rank": 558,
+        "Type": "saepe",
+        "ColorBlock": 308,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2003-01-18T12:01:33.5269792+01:00",
+        "LastChanged": "2015-04-19T14:32:12.6614341+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
+        "ExtraInfo": "aut",
         "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Miss Linwood Boyer V",
+        "FullName": "Miss Hayden Dietrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Lonie Gulgowski",
+    "FullName": "Gregg Kirlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

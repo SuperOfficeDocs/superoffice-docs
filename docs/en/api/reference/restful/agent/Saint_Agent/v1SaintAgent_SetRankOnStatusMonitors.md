@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "vero",
+  "Type": "molestiae",
   "ItemsIds": [
-    969,
-    548
+    16,
+    645
   ]
 }
 ```

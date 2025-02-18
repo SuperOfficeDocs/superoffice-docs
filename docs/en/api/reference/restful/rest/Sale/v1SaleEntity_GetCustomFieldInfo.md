@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Heathcote Group",
-  "DisplayName": "Kuhic Group",
-  "Description": "Ergonomic optimizing support",
-  "ShortLabel": "rerum",
-  "HideLabel": true,
-  "HideField": true,
+  "FieldName": "Pfeffer, Howell and Aufderhar",
+  "DisplayName": "Schuppe-Funk",
+  "Description": "Implemented contextually-based extranet",
+  "ShortLabel": "eveniet",
+  "HideLabel": false,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 973,
-  "TemplateVariableName": "Morar Group"
+  "Rank": 650,
+  "TemplateVariableName": "White-Runolfsson"
 }
 ```

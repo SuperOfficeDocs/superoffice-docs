@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 812
+  "ReplyTemplateId": 354
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Littel-Bernier",
-  "Description": "Cross-group user-facing archive",
-  "OwnedByFullName": "Belle Marvin",
-  "Updated": "2005-05-14T12:01:27.5565162+02:00",
-  "Body": "corrupti",
+  "Name": "Corkery LLC",
+  "Description": "Customer-focused incremental installation",
+  "OwnedByFullName": "Dr. Ashlee Flatley",
+  "Updated": "2016-10-08T14:32:02.561731+02:00",
+  "Body": "pariatur",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 276
+      "FieldLength": 62
     }
   }
 }

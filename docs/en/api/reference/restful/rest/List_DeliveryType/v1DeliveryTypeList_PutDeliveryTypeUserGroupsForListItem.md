@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Hills-Schaden",
-    "ToolTip": "Voluptatem ut voluptas sed rem explicabo.",
+    "Id": 71,
+    "Name": "Schaden, Jast and Kling",
+    "ToolTip": "Inventore commodi nemo quia numquam ipsa.",
     "Deleted": true,
-    "Rank": 232,
-    "Type": "iste",
-    "ColorBlock": 571,
-    "IconHint": "quisquam",
+    "Rank": 882,
+    "Type": "voluptas",
+    "ColorBlock": 985,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2018-03-26T12:01:33.495727+02:00",
+    "LastChanged": "2016-07-28T14:32:12.6145691+02:00",
     "ChildItems": [
       {
-        "Id": 773,
-        "Name": "Mayer-Breitenberg",
-        "ToolTip": "Debitis iste sint quia illum doloremque quia.",
-        "Deleted": false,
-        "Rank": 791,
-        "Type": "dicta",
-        "ColorBlock": 90,
-        "IconHint": "sapiente",
+        "Id": 391,
+        "Name": "Hettinger, Hills and Buckridge",
+        "ToolTip": "Sit sed aut odit velit.",
+        "Deleted": true,
+        "Rank": 544,
+        "Type": "voluptate",
+        "ColorBlock": 140,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2017-11-25T12:01:33.495727+01:00",
+        "LastChanged": "2003-10-23T14:32:12.6145691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Prof. Gladyce Deckow"
+        "ExtraInfo": "ea",
+        "StyleHint": "enim",
+        "Hidden": false,
+        "FullName": "Louisa Smitham"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "iusto",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Nelson Schimmel"
+    "FullName": "Cary Daugherty"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Pfannerstill Inc and Sons",
-    "ToolTip": "Tempore illo nobis ullam et assumenda sapiente dolor.",
+    "Id": 698,
+    "Name": "Effertz, Hauck and Powlowski",
+    "ToolTip": "Et voluptatem voluptatibus minus non sequi ut neque.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "consequatur",
-    "ColorBlock": 183,
-    "IconHint": "veniam",
-    "Selected": false,
-    "LastChanged": "2002-08-24T12:01:33.495727+02:00",
+    "Rank": 608,
+    "Type": "unde",
+    "ColorBlock": 936,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2023-01-30T14:32:12.6145691+01:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Stanton, Dibbert and Hauck",
-        "ToolTip": "Necessitatibus sint aut voluptatem.",
+        "Id": 642,
+        "Name": "Rice, Hills and Bartell",
+        "ToolTip": "Voluptatem veritatis veniam porro ipsam sed officiis.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "et",
-        "ColorBlock": 506,
-        "IconHint": "nemo",
+        "Rank": 588,
+        "Type": "totam",
+        "ColorBlock": 145,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2024-08-15T12:01:33.495727+02:00",
+        "LastChanged": "2019-01-17T14:32:12.6145691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "ut",
+        "ExtraInfo": "qui",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Ms. Hermann McCullough",
+        "FullName": "Mr. Pedro Monserrate Douglas IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 917
+            "FieldType": "System.String",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "dicta",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Eric Heidenreich",
+    "FullName": "Mrs. Ezra Daniel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 849
       }
     }
   }

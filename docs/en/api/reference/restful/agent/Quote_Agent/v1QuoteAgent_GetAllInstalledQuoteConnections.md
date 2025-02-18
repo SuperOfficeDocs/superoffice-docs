@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 390,
-    "ERPName": "Adams-Donnelly",
-    "DisplayName": "Feil-Lebsack",
-    "DisplayDescription": "Persistent context-sensitive conglomeration",
-    "Rank": 968,
-    "ConnectorName": "Watsica-Pacocha",
-    "ErpConnectionId": 60,
-    "ExtraData": "delectus",
-    "IsAvailable": true,
+    "QuoteConnectionId": 378,
+    "ERPName": "Eichmann LLC",
+    "DisplayName": "Price, Monahan and Hilll",
+    "DisplayDescription": "Distributed system-worthy migration",
+    "Rank": 785,
+    "ConnectorName": "Rowe-McLaughlin",
+    "ErpConnectionId": 299,
+    "ExtraData": "deserunt",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 928,
-        "ERPPriceListKey": "eius",
-        "QuoteConnectionId": 114,
-        "Name": "Hessel-Anderson",
-        "Description": "Function-based upward-trending matrices",
-        "Currency": "nihil",
-        "CurrencyName": "Hackett-Zemlak",
-        "ValidFrom": "2012-11-28T12:01:28.1971849+01:00",
-        "ValidTo": "2003-09-26T12:01:28.1971849+02:00",
+        "PriceListId": 336,
+        "ERPPriceListKey": "aliquam",
+        "QuoteConnectionId": 442,
+        "Name": "Lynch Inc and Sons",
+        "Description": "Cross-platform radical service-desk",
+        "Currency": "molestias",
+        "CurrencyName": "Davis-Hilll",
+        "ValidFrom": "1998-07-14T14:32:03.5773219+02:00",
+        "ValidTo": "2006-06-28T14:32:03.5773219+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 462
+            "FieldLength": 3
           }
         }
       }
     ],
-    "AllAccess": false,
-    "Deleted": false,
+    "AllAccess": true,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      142,
-      123
+      658,
+      665
     ],
     "AssociateAccessIds": [
-      778,
-      859
+      684,
+      10
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 89
       }
     }
   }

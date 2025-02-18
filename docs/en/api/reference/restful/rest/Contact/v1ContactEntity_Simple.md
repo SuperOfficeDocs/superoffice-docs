@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 20,
-  "Name": "Schimmel Inc and Sons",
-  "OrgNr": "1371992",
+  "ContactId": 347,
+  "Name": "Rutherford, Dach and Runolfsdottir",
+  "OrgNr": "1504725",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "facilis",
-  "DirectPhone": "1-870-167-7860",
-  "AssociateId": 760,
-  "CountryId": 750,
-  "EmailAddress": "rupert.yundt@halvorson.info",
-  "Kananame": "blanditiis",
-  "EmailAddressName": "nya.okuneva@jerde.info",
+  "City": "iusto",
+  "DirectPhone": "(704)445-9437 x7248",
+  "AssociateId": 680,
+  "CountryId": 769,
+  "EmailAddress": "judy@lang.us",
+  "Kananame": "voluptatibus",
+  "EmailAddressName": "assunta.kertzmann@considine.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Jaquan Orn",
+  "AssociateFullName": "Howell Lehner",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "quia",
-  "FullName": "Josianne Conn",
+  "FormattedAddress": "nihil",
+  "FullName": "Dr. Madilyn Marks",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 359,
-  "Number1": "119959",
-  "Number2": "1446367",
+  "ActiveErpLinks": 786,
+  "Number1": "158506",
+  "Number2": "1336004",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 408
     }
   }
 }

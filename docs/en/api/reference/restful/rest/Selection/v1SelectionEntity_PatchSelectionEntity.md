@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented global utilisation",
-  "Postit": "blanditiis",
+  "Description": "Visionary intangible leverage",
+  "Postit": "veniam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 310,
-  "IncludePerson": 680,
+  "GroupIdx": 552,
+  "IncludePerson": 146,
   "MemberCount": 99.99,
-  "Name": "Connelly, O'Hara and Greenfelder",
-  "PostitTextId": 792,
-  "CreatedDate": "2007-04-23T12:01:33.1988321+02:00",
-  "SelectionId": 870,
-  "SoundEx": "dolor",
-  "Source": 940,
-  "TextId": 934,
-  "UpdatedDate": "2005-06-23T12:01:33.1988321+02:00",
-  "UpdatedCount": 200,
-  "Visibility": 417,
+  "Name": "Lockman, Stehr and Murazik",
+  "PostitTextId": 303,
+  "CreatedDate": "2007-03-12T14:32:12.0521982+01:00",
+  "SelectionId": 967,
+  "SoundEx": "ducimus",
+  "Source": 169,
+  "TextId": 355,
+  "UpdatedDate": "2017-07-30T14:32:12.0521982+02:00",
+  "UpdatedCount": 381,
+  "Visibility": 584,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 476,
-  "TargetTableName": "Jones Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 351,
-  "RightSelectionId": 140,
+  "TargetTableNumber": 748,
+  "TargetTableName": "Gottlieb-Jones",
+  "Completed": false,
+  "LeftSelectionId": 53,
+  "RightSelectionId": 832,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Carter-Jewess",
-  "ShadowProviderName": "Ritchie, Schuppe and Feest",
-  "ChartKey": "odio",
-  "LastLoaded": "2021-06-25T12:01:33.1988321+02:00",
-  "LastLoadedBy": 222,
+  "MainProviderName": "Oberbrunner, Nienow and Jones",
+  "ShadowProviderName": "Keeling Inc and Sons",
+  "ChartKey": "blanditiis",
+  "LastLoaded": "1999-12-13T14:32:12.0521982+01:00",
+  "LastLoadedBy": 35,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-02-02T12:01:33.2144574+01:00",
-  "LastMembershipChangeBy": 333,
+  "LastMembershipChange": "2022-11-29T14:32:12.0521982+01:00",
+  "LastMembershipChangeBy": 338,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Jacobi-Beier",
-  "DashboardTileDefinitionId": 967,
+  "MainHeading": "ea",
+  "MemberTabHeading": "nemo",
+  "MailingsProviderName": "Crooks, Marks and Anderson",
+  "DashboardTileDefinitionId": 677,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 380,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldLength": 99
         }
       }
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 380,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldLength": 99
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   },
   "_Links": {

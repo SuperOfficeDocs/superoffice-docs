@@ -94,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2016-03-07T12:01:27.4783858+01:00",
+  "ActivityStartTime": "2001-09-12T14:32:02.2961659+02:00",
   "ContactCategories": [
-    289,
-    82
+    103,
+    149
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 546,
+    "ContactId": 523,
     "Department": "",
-    "OrgNr": "540848",
-    "Name": "Weissnat LLC",
+    "OrgNr": "625246",
+    "Name": "Botsford-Kreiger",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Kaya O'Hara",
+    "AssociateFullName": "Giovanni Morissette",
     "Action": "ActivityCompleted",
-    "ActionTime": "2014-10-18T12:01:27.4783858+02:00",
+    "ActionTime": "2023-06-30T14:32:02.2961659+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Krajcik-Kiehn",
-    "ActionId": 284,
-    "PersonId": 37,
-    "ActivityPersonId": 568,
-    "AssociateId": 725,
+    "ActivityPersonName": "Blick, Johnson and Lehner",
+    "ActionId": 805,
+    "PersonId": 320,
+    "ActivityPersonId": 338,
+    "AssociateId": 606,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Johnson LLC",
-  "Tooltip": "tempore",
+  "Id": 36,
+  "Name": "Ortiz LLC",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 439,
-  "IsCustomList": true,
+  "Rank": 776,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "hic",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Murazik, Mayert and Hodkiewicz",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "Rank": 570,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 743,
+  "Name": "Crist LLC",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 620,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 178
     }
   }
 }

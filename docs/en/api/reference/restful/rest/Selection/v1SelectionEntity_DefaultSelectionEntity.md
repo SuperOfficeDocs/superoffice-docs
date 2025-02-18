@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 18 Oct 2007 12:01:33 G10T
+Last-Modified: Sat, 19 Oct 2019 14:32:12 G10T
 
 {
-  "Description": "Cross-group 24 hour intranet",
-  "Postit": "nesciunt",
+  "Description": "Monitored logistical parallelism",
+  "Postit": "aperiam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 309,
-  "IncludePerson": 737,
+  "GroupIdx": 776,
+  "IncludePerson": 567,
   "MemberCount": 99.99,
-  "Name": "Abshire-Bernier",
-  "PostitTextId": 456,
-  "CreatedDate": "2013-11-12T12:01:33.1988321+01:00",
-  "SelectionId": 774,
-  "SoundEx": "et",
-  "Source": 971,
-  "TextId": 892,
-  "UpdatedDate": "2007-10-18T12:01:33.1988321+02:00",
-  "UpdatedCount": 382,
-  "Visibility": 374,
+  "Name": "Smith, Feil and Cruickshank",
+  "PostitTextId": 38,
+  "CreatedDate": "2001-05-15T14:32:12.0209621+02:00",
+  "SelectionId": 659,
+  "SoundEx": "dolorem",
+  "Source": 998,
+  "TextId": 679,
+  "UpdatedDate": "2019-10-19T14:32:12.0209621+02:00",
+  "UpdatedCount": 253,
+  "Visibility": 159,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 346,
-  "TargetTableName": "Nitzsche-Lind",
-  "Completed": true,
-  "LeftSelectionId": 449,
-  "RightSelectionId": 617,
+  "TargetTableNumber": 658,
+  "TargetTableName": "Lehner-Satterfield",
+  "Completed": false,
+  "LeftSelectionId": 67,
+  "RightSelectionId": 870,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Yundt, Roob and Gerhold",
-  "ShadowProviderName": "Cummings-Rath",
-  "ChartKey": "fuga",
-  "LastLoaded": "2015-04-02T12:01:33.1988321+02:00",
-  "LastLoadedBy": 146,
+  "MainProviderName": "Conroy Inc and Sons",
+  "ShadowProviderName": "Marquardt-Collier",
+  "ChartKey": "et",
+  "LastLoaded": "2005-09-29T14:32:12.0209621+02:00",
+  "LastLoadedBy": 143,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-05-19T12:01:33.1988321+02:00",
-  "LastMembershipChangeBy": 719,
+  "LastMembershipChange": "2011-04-04T14:32:12.0209621+02:00",
+  "LastMembershipChangeBy": 900,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "blanditiis",
-  "MemberTabHeading": "odio",
-  "MailingsProviderName": "Hyatt Group",
-  "DashboardTileDefinitionId": 909,
+  "MainHeading": "autem",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Reichert, Bayer and Keeling",
+  "DashboardTileDefinitionId": 884,
   "VisibleFor": [
     {
-      "VisibleId": 844,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 581
         }
       }
     },
     {
-      "VisibleId": 844,
+      "VisibleId": 543,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 581
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Thu, 18 Oct 2007 12:01:33 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 732
     }
   }
 }

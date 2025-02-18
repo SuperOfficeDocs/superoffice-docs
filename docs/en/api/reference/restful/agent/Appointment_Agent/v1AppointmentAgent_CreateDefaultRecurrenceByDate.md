@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2012-10-24T12:01:27.2439933+02:00"
+  "StartDate": "2008-12-15T14:32:01.8587666+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 788,
-  "StartDate": "2015-09-07T12:01:27.2439933+02:00",
-  "EndDate": "2001-09-12T12:01:27.2439933+02:00",
-  "RecurrenceCounter": 289,
+  "RecurrenceId": 874,
+  "StartDate": "2009-08-03T14:32:01.8587666+02:00",
+  "EndDate": "2020-09-18T14:32:01.8587666+02:00",
+  "RecurrenceCounter": 227,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-02-15T12:01:27.2439933+01:00",
-      "IsConflict": false,
-      "Description": "Assimilated leading edge circuit",
-      "DescriptionStyleHint": "Adaptive leading edge definition",
-      "Tooltip": "unde"
+      "Date": "2015-02-07T14:32:01.8587666+01:00",
+      "IsConflict": true,
+      "Description": "Progressive dynamic ability",
+      "DescriptionStyleHint": "Grass-roots radical synergy",
+      "Tooltip": "repudiandae"
     },
     {
-      "Date": "2021-02-15T12:01:27.2439933+01:00",
-      "IsConflict": false,
-      "Description": "Assimilated leading edge circuit",
-      "DescriptionStyleHint": "Adaptive leading edge definition",
-      "Tooltip": "unde"
+      "Date": "2015-02-07T14:32:01.8587666+01:00",
+      "IsConflict": true,
+      "Description": "Progressive dynamic ability",
+      "DescriptionStyleHint": "Grass-roots radical synergy",
+      "Tooltip": "repudiandae"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

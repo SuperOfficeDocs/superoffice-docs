@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Lemke Inc and Sons"
+  "EntityName": "Altenwerth LLC"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 969,
-  "DashboardId": 717,
-  "Height": 292,
-  "Width": 832,
-  "Rank": 500,
+  "DashboardTileId": 426,
+  "DashboardId": 253,
+  "Height": 806,
+  "Width": 851,
+  "Rank": 89,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

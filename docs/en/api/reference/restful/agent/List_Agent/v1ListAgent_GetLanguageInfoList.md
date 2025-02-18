@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 204,
-    "LCID": 564,
-    "EnglishName": "Farrell, Hayes and Nienow",
-    "NativeName": "Collier Group",
-    "ThreeLetterISOLanguageName": "Olson-Hoppe",
-    "TwoLetterISOLanguageName": "Raynor-Jakubowski",
+    "LanguageInfoId": 303,
+    "LCID": 145,
+    "EnglishName": "Shields, Fay and O'Connell",
+    "NativeName": "Little, Gorczany and Koelpin",
+    "ThreeLetterISOLanguageName": "Walker-Kreiger",
+    "TwoLetterISOLanguageName": "Rohan, Satterfield and Hackett",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 240
       }
     }
   }

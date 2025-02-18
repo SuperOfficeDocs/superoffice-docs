@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateCounters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Denesik Inc and Sons",
-  "AssociateId": 716,
-  "DetailsTable": 268,
-  "DetailsRecord": 579,
+  "Id": 501,
+  "Name": "Schneider-Hartmann",
+  "AssociateId": 655,
+  "DetailsTable": 553,
+  "DetailsRecord": 224,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "quod"
+    "ParameterObject1": "et",
+    "ParameterObject2": "laudantium"
   },
-  "LastStarted": "1998-12-02T12:01:28.2284376+01:00",
-  "Created": "2022-12-24T12:01:28.2284376+01:00",
-  "StartCount": 506,
-  "DatabaseSerialNumber": "1700048",
-  "Context": "corporis",
-  "Result": "quas",
+  "LastStarted": "2003-02-10T14:32:03.6398093+01:00",
+  "Created": "2013-08-28T14:32:03.6398093+02:00",
+  "StartCount": 109,
+  "DatabaseSerialNumber": "1523285",
+  "Context": "fuga",
+  "Result": "quae",
   "State": "All",
-  "Description": "Up-sized real-time process improvement",
-  "Response": "et",
-  "Request": "ut",
-  "ProgressDescription": "Multi-tiered foreground neural-net",
-  "ProgressPercent": 355,
-  "FileName": "Rutherford LLC",
+  "Description": "Automated interactive Graphical User Interface",
+  "Response": "qui",
+  "Request": "molestias",
+  "ProgressDescription": "Synchronised asynchronous monitoring",
+  "ProgressPercent": 614,
+  "FileName": "Hammes Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 929
     }
   }
 }

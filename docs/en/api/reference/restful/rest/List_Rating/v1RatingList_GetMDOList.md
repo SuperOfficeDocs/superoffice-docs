@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=ut
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=cumque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Ratke, Quitzon and Crist",
-    "ToolTip": "Nisi voluptates nobis consectetur aut voluptatem qui.",
+    "Id": 325,
+    "Name": "Grant Inc and Sons",
+    "ToolTip": "Iusto consequuntur.",
     "Deleted": false,
-    "Rank": 645,
-    "Type": "corrupti",
+    "Rank": 616,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Senger, Gerlach and Hills",
-        "ToolTip": "Itaque officia voluptate porro iusto est repellendus.",
+        "Id": 873,
+        "Name": "Carter, Cole and Feeney",
+        "ToolTip": "Occaecati nisi accusantium voluptatem.",
         "Deleted": false,
-        "Rank": 108,
-        "Type": "aut",
+        "Rank": 90,
+        "Type": "odit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 565,
-        "ExtraInfo": "impedit",
-        "StyleHint": "sit",
-        "FullName": "Einar Eric Cummings II",
+        "IconHint": "quae",
+        "ColorBlock": 424,
+        "ExtraInfo": "vel",
+        "StyleHint": "natus",
+        "FullName": "Jarvis Gleason Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 449
+            "FieldLength": 613
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 596,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "sunt",
-    "FullName": "Rosario Stacey Schimmel Jr.",
+    "IconHint": "aperiam",
+    "ColorBlock": 269,
+    "ExtraInfo": "neque",
+    "StyleHint": "sequi",
+    "FullName": "Frank Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 973
       }
     }
   }

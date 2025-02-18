@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 257,
-  "ColumnId": 696,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 271,
-  "FieldLabel": "quia",
-  "FieldLeft": 271,
-  "FieldTop": 238,
+  "UDefFieldId": 605,
+  "ColumnId": 633,
+  "FieldDefault": "accusamus",
+  "FieldHeight": 282,
+  "FieldLabel": "perspiciatis",
+  "FieldLeft": 433,
+  "FieldTop": 921,
   "FieldType": "Checkbox",
-  "FieldWidth": 431,
-  "FormatMask": "rerum",
+  "FieldWidth": 502,
+  "FormatMask": "quibusdam",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 274,
-  "LabelLeft": 25,
-  "LabelTop": 991,
-  "LabelWidth": 406,
-  "LastVersionId": 511,
-  "ListTableId": 734,
+  "LabelHeight": 860,
+  "LabelLeft": 656,
+  "LabelTop": 864,
+  "LabelWidth": 595,
+  "LastVersionId": 281,
+  "ListTableId": 934,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 671,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsam",
-  "TabOrder": 943,
-  "TextLength": 12,
-  "Tooltip": "doloribus",
-  "UdefIdentity": 771,
-  "UDListDefinitionId": 79,
+  "Page1LineNo": 869,
+  "ProgId": "doloribus",
+  "IsReadOnly": false,
+  "ShortLabel": "occaecati",
+  "TabOrder": 37,
+  "TextLength": 994,
+  "Tooltip": "aut",
+  "UdefIdentity": 999,
+  "UDListDefinitionId": 763,
   "Justification": "Center",
-  "Version": 321,
-  "TemplateVariableName": "Kuphal-Altenwerth",
+  "Version": 142,
+  "TemplateVariableName": "Beahan, Bednar and Hammes",
   "HasBeenPublished": false,
-  "MdoListName": "Stokes, Funk and Mann",
+  "MdoListName": "Little Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 308
     }
   }
 }

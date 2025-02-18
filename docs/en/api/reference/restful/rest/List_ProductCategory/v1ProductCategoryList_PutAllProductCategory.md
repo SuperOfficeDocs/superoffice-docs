@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Aufderhar-Turcotte",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 741,
-    "Rank": 388
+    "Id": 401,
+    "Name": "Blick LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "UdListDefinitionId": 79,
+    "Rank": 770
   },
   {
-    "Id": 32,
-    "Name": "Aufderhar-Turcotte",
-    "Tooltip": "sint",
-    "Deleted": false,
-    "UdListDefinitionId": 741,
-    "Rank": 388
+    "Id": 401,
+    "Name": "Blick LLC",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "UdListDefinitionId": 79,
+    "Rank": 770
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Labadie, Schroeder and Botsford",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 45,
-    "Rank": 835,
+    "Id": 591,
+    "Name": "Kuhlman-Spencer",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "UdListDefinitionId": 139,
+    "Rank": 270,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldType": "System.Int32",
+        "FieldLength": 669
       }
     }
   }

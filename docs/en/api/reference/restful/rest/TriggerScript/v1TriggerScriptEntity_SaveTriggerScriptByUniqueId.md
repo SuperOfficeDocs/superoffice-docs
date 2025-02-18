@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 310,
-  "Name": "Wilkinson, Hand and Medhurst",
+  "ScreenChooserId": 574,
+  "Name": "Torphy, Haley and Schmeler",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "totam",
-  "Registered": "2001-02-28T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 295,
-  "Updated": "1998-01-24T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 945
+  "Enabled": true,
+  "UniqueIdentifier": "consequatur",
+  "Source": "magnam",
+  "Registered": "1998-09-16T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 3,
+  "Updated": "2017-12-18T14:32:12.2240348+01:00",
+  "UpdatedAssociateId": 602
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 24,
-  "Name": "Grant Inc and Sons",
+  "ScreenChooserId": 837,
+  "Name": "Windler LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "facilis",
-  "Registered": "2016-06-29T12:01:33.308214+02:00",
-  "RegisteredAssociateId": 767,
-  "Updated": "2010-10-20T12:01:33.308214+02:00",
-  "UpdatedAssociateId": 878,
+  "Enabled": true,
+  "UniqueIdentifier": "nam",
+  "Source": "harum",
+  "Registered": "2000-07-05T14:32:12.2396559+02:00",
+  "RegisteredAssociateId": 258,
+  "Updated": "2007-07-27T14:32:12.2396559+02:00",
+  "UpdatedAssociateId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 464
     }
   }
 }

@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 783,
-  "Name": "Bode-Brekke",
-  "Tooltip": "ipsam",
-  "Rank": 819,
+  "ProjTypeId": 976,
+  "Name": "Deckow-Bradtke",
+  "Tooltip": "beatae",
+  "Rank": 61,
   "DurationUnit": "Century",
-  "ProjectDuration": 184,
-  "Deleted": false,
+  "ProjectDuration": 941,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 756,
-      "Name": "Carter, Nicolas and Fay",
-      "ToolTip": "Atque laborum sed eaque eius est enim sunt.",
+      "Id": 103,
+      "Name": "Casper, Yundt and Weber",
+      "ToolTip": "Alias eligendi vel aut harum.",
       "Deleted": false,
-      "Rank": 588,
-      "Type": "sit",
-      "ColorBlock": 146,
-      "IconHint": "dignissimos",
-      "Selected": false,
-      "LastChanged": "2016-11-27T12:01:27.97842+01:00",
+      "Rank": 536,
+      "Type": "nesciunt",
+      "ColorBlock": 507,
+      "IconHint": "veritatis",
+      "Selected": true,
+      "LastChanged": "2014-11-20T14:32:03.1867546+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "repellendus",
-      "Hidden": true,
-      "FullName": "Gloria Sauer"
+      "ExtraInfo": "tempore",
+      "StyleHint": "quis",
+      "Hidden": false,
+      "FullName": "Al Harvey"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 874,
-  "Name": "Nitzsche, Lueilwitz and McGlynn",
-  "Tooltip": "vitae",
-  "Rank": 187,
+  "ProjTypeId": 246,
+  "Name": "Tromp Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 237,
   "DurationUnit": "Century",
-  "ProjectDuration": 45,
+  "ProjectDuration": 401,
   "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 676,
-      "Name": "Schumm-Doyle",
-      "ToolTip": "Et rerum accusantium.",
-      "Deleted": false,
-      "Rank": 829,
-      "Type": "est",
-      "ColorBlock": 391,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "2016-10-26T12:01:27.97842+02:00",
+      "Id": 710,
+      "Name": "Reichert, Carter and Shields",
+      "ToolTip": "Ducimus architecto sequi.",
+      "Deleted": true,
+      "Rank": 687,
+      "Type": "nobis",
+      "ColorBlock": 757,
+      "IconHint": "exercitationem",
+      "Selected": true,
+      "LastChanged": "2016-11-01T14:32:03.1867546+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "odit",
-      "Hidden": true,
-      "FullName": "Orville Beier DVM",
+      "ExtraInfo": "nobis",
+      "StyleHint": "quod",
+      "Hidden": false,
+      "FullName": "Melany Kuhn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 352
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 169
     }
   }
 }

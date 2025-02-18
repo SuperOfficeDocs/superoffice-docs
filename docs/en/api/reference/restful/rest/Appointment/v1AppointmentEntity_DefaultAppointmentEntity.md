@@ -115,7 +115,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +123,127 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 12 Jun 2022 12:01:32 G6T
+Last-Modified: Tue, 25 Jun 2024 14:32:10 G6T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-12-09T12:01:32.4956574+01:00",
-  "AppointmentId": 39,
-  "Description": "Virtual object-oriented service-desk",
+  "CreatedDate": "2004-09-29T14:32:10.9584019+02:00",
+  "AppointmentId": 211,
+  "Description": "Down-sized global complexity",
   "Title": "et",
-  "Agenda": "et",
-  "InternalNotes": "ex",
-  "StartDate": "2000-10-11T12:01:32.4956574+02:00",
-  "EndDate": "2000-07-18T12:01:32.4956574+02:00",
+  "Agenda": "ex",
+  "InternalNotes": "illum",
+  "StartDate": "2018-05-09T14:32:10.9584019+02:00",
+  "EndDate": "2012-10-05T14:32:10.9584019+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 638,
+  "MotherId": 929,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-12T12:01:32.5112839+02:00",
+  "UpdatedDate": "2024-06-25T14:32:10.9584019+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 851,
+  "ActiveLinks": 263,
   "Links": [
     {
-      "EntityName": "Bins, Koelpin and Thiel",
-      "Id": 253,
-      "Description": "Digitized eco-centric archive",
-      "ExtraInfo": "qui",
-      "LinkId": 474,
+      "EntityName": "Krajcik Inc and Sons",
+      "Id": 825,
+      "Description": "Open-source maximized algorithm",
+      "ExtraInfo": "non",
+      "LinkId": 491,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldType": "System.String",
+          "FieldLength": 849
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
-  "HasAlarm": false,
-  "ColorIndex": 40,
+  "AlarmLeadTime": "voluptas",
+  "HasAlarm": true,
+  "ColorIndex": 729,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "dolores",
-  "Location": "veniam",
-  "RejectCounter": 153,
+  "LagTime": "numquam",
+  "LeadTime": "amet",
+  "Location": "consequuntur",
+  "RejectCounter": 327,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 328,
-      "PersonId": 418,
-      "ContactId": 296,
-      "EmailId": 404,
-      "SendEmail": false,
+      "AssociateId": 269,
+      "PersonId": 302,
+      "ContactId": 183,
+      "EmailId": 674,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "devan@kling.uk",
-      "Description": "Implemented well-modulated hierarchy"
+      "EmailAddress": "rey@schillergislason.us",
+      "Description": "Cross-group asynchronous archive"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-04-03T12:01:32.5112839+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-02-11T14:32:10.9584019+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 751,
+  "PreferredTZLocation": 900,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 590,
+  "SuggestedAppointmentId": 443,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perspiciatis",
+  "CentralserviceVideomeetId": "rem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Clay Schultz",
-    "SuperOffice:2": "628566598"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "saepe",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2008-08-27T12:01:32.5112839+02:00",
-  "PublishTo": "2012-02-16T12:01:32.5112839+01:00",
-  "PublishFrom": "2003-09-29T12:01:32.5112839+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-10-14T14:32:10.9740217+02:00",
+  "PublishTo": "1999-11-03T14:32:10.9740217+01:00",
+  "PublishFrom": "2005-06-26T14:32:10.9740217+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 674,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 910
         }
       }
     },
     {
-      "VisibleId": 674,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 910
         }
       }
     }
@@ -253,7 +253,7 @@ Last-Modified: Sun, 12 Jun 2022 12:01:32 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 329
     }
   }
 }

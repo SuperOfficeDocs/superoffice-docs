@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 939,
-  "Name": "Jenkins, O'Conner and Christiansen",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "Rank": 838,
+  "WebPanelId": 547,
+  "Name": "Ortiz, Hackett and Wuckert",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 646,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Kling Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Baumbach Group",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorum",
-  "Icon": 109,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "provident",
+  "Icon": 748,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   }
 }

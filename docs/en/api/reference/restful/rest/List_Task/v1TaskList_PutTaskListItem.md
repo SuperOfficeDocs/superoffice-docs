@@ -98,16 +98,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 37,
-  "Value": "voluptas",
+  "TaskListItemId": 779,
+  "Value": "tenetur",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "et",
-  "Deleted": false,
-  "IntentId": 702,
-  "Rank": 215,
-  "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "IntentId": 956,
+  "Rank": 175,
+  "IsDefaultAlldayEvent": true,
+  "IsDefaultFree": true,
   "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
@@ -121,14 +121,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 928,
-  "Value": "ex",
+  "TaskListItemId": 918,
+  "Value": "labore",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "IntentId": 92,
-  "Rank": 778,
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "IntentId": 974,
+  "Rank": 288,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

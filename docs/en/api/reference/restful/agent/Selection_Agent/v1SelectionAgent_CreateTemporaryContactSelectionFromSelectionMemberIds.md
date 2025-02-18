@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 696,
+  "SelectionId": 187,
   "SelectionMemberIds": [
-    55,
-    609
+    788,
+    643
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic human-resource orchestration",
-  "Postit": "recusandae",
+  "Description": "Virtual zero tolerance toolset",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 147,
-  "IncludePerson": 275,
+  "GroupIdx": 515,
+  "IncludePerson": 630,
   "MemberCount": 99.99,
-  "Name": "Balistreri Group",
-  "PostitTextId": 336,
-  "CreatedDate": "2006-09-30T12:01:28.3065684+02:00",
-  "SelectionId": 756,
-  "SoundEx": "et",
-  "Source": 516,
-  "TextId": 373,
-  "UpdatedDate": "2016-09-10T12:01:28.3065684+02:00",
-  "UpdatedCount": 974,
-  "Visibility": 642,
+  "Name": "Kilback-Krajcik",
+  "PostitTextId": 970,
+  "CreatedDate": "2024-10-16T14:32:03.9053758+02:00",
+  "SelectionId": 198,
+  "SoundEx": "odit",
+  "Source": 826,
+  "TextId": 922,
+  "UpdatedDate": "2024-08-05T14:32:03.9053758+02:00",
+  "UpdatedCount": 179,
+  "Visibility": 200,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 650,
-  "TargetTableName": "Keebler Group",
-  "Completed": true,
-  "LeftSelectionId": 902,
-  "RightSelectionId": 890,
+  "CompanyUnique": false,
+  "TargetTableNumber": 571,
+  "TargetTableName": "McCullough Group",
+  "Completed": false,
+  "LeftSelectionId": 862,
+  "RightSelectionId": 564,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cummerata-Shanahan",
-  "ShadowProviderName": "Haag-O'Keefe",
-  "ChartKey": "laboriosam",
-  "LastLoaded": "1999-06-26T12:01:28.3065684+02:00",
-  "LastLoadedBy": 126,
+  "MainProviderName": "Kilback, Weber and Breitenberg",
+  "ShadowProviderName": "King, Gibson and Rippin",
+  "ChartKey": "vel",
+  "LastLoaded": "2000-10-26T14:32:03.9053758+02:00",
+  "LastLoadedBy": 51,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-02-16T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 149,
+  "LastMembershipChange": "2013-10-01T14:32:03.9053758+02:00",
+  "LastMembershipChangeBy": 558,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Prosacco, Lowe and Gerlach",
-  "DashboardTileDefinitionId": 368,
+  "MainHeading": "officia",
+  "MemberTabHeading": "eius",
+  "MailingsProviderName": "Greenholt, Crona and Krajcik",
+  "DashboardTileDefinitionId": 763,
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 415
     }
   }
 }

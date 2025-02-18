@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 938,
-  "Name": "Howell, Keeling and Gislason",
-  "Tooltip": "recusandae",
+  "Id": 111,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 740,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 736,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugiat",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Douglas-Nicolas",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 865,
+  "Id": 184,
+  "Name": "Little LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 42,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 757
+      "FieldLength": 356
     }
   }
 }

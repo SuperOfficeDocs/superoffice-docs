@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 150,
-    "Name": "Cormier-Hartmann",
-    "Tooltip": "qui",
+    "HeadingId": 408,
+    "Name": "Weissnat LLC",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 323,
-    "UdListDefinitionId": 499
+    "Rank": 46,
+    "UdListDefinitionId": 117
   },
   {
-    "HeadingId": 150,
-    "Name": "Cormier-Hartmann",
-    "Tooltip": "qui",
+    "HeadingId": 408,
+    "Name": "Weissnat LLC",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 323,
-    "UdListDefinitionId": 499
+    "Rank": 46,
+    "UdListDefinitionId": 117
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 60,
-    "Name": "Skiles Group",
-    "Tooltip": "quod",
+    "HeadingId": 149,
+    "Name": "Raynor Inc and Sons",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 188,
-    "UdListDefinitionId": 118,
+    "Rank": 94,
+    "UdListDefinitionId": 429,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldType": "System.Int32",
+        "FieldLength": 615
       }
     }
   }

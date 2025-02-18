@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Cummings-Moore",
-    "ToolTip": "In rerum explicabo.",
-    "Deleted": false,
-    "Rank": 207,
-    "Type": "eius",
-    "ColorBlock": 857,
-    "IconHint": "autem",
+    "Id": 20,
+    "Name": "D'Amore LLC",
+    "ToolTip": "Pariatur omnis pariatur dolorum pariatur.",
+    "Deleted": true,
+    "Rank": 690,
+    "Type": "et",
+    "ColorBlock": 616,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2021-06-15T12:01:33.5894836+02:00",
+    "LastChanged": "2020-12-12T14:32:12.7710204+01:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Koelpin, Anderson and Lynch",
-        "ToolTip": "Facere mollitia corrupti.",
+        "Id": 340,
+        "Name": "Doyle-Fadel",
+        "ToolTip": "Eaque et praesentium placeat itaque dignissimos aut.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "provident",
-        "ColorBlock": 99,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2017-11-14T12:01:33.5894836+01:00",
+        "Rank": 749,
+        "Type": "nesciunt",
+        "ColorBlock": 620,
+        "IconHint": "animi",
+        "Selected": false,
+        "LastChanged": "2020-07-01T14:32:12.7710204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "expedita",
+        "ExtraInfo": "eius",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Dereck Jewess"
+        "FullName": "Miss Clemmie Kemmer"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "eaque",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Judah Cassin"
+    "FullName": "Mrs. Laury Rice"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Gusikowski Group",
-    "ToolTip": "Ut doloribus molestiae quam enim mollitia.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "et",
-    "ColorBlock": 346,
-    "IconHint": "illo",
-    "Selected": false,
-    "LastChanged": "1999-03-30T12:01:33.5894836+02:00",
+    "Id": 219,
+    "Name": "Price-Armstrong",
+    "ToolTip": "Sapiente placeat error beatae sequi non reiciendis est.",
+    "Deleted": false,
+    "Rank": 156,
+    "Type": "unde",
+    "ColorBlock": 507,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "1998-11-20T14:32:12.7710204+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Keebler, Bergnaum and Bode",
-        "ToolTip": "Earum recusandae.",
+        "Id": 336,
+        "Name": "Cruickshank LLC",
+        "ToolTip": "Quidem consectetur consequuntur ut doloribus sint.",
         "Deleted": false,
-        "Rank": 379,
-        "Type": "sed",
-        "ColorBlock": 30,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2013-10-05T12:01:33.5894836+02:00",
+        "Rank": 200,
+        "Type": "quas",
+        "ColorBlock": 984,
+        "IconHint": "fugit",
+        "Selected": true,
+        "LastChanged": "2024-03-11T14:32:12.7710204+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Neil Stiedemann",
+        "ExtraInfo": "culpa",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Miss Rodrigo Damien Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 696
+            "FieldLength": 304
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "officia",
+    "ExtraInfo": "nisi",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Mr. Cara Schiller",
+    "FullName": "Sadye Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldLength": 239
       }
     }
   }

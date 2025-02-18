@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 27
+  "TargetDimensionId": 446
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 418,
+    "TargetAssignmentInfoId": 382,
     "Values": [
-      175,
-      681
+      336,
+      674
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 322,
-    "DimensionListItemDisplayName": "Armstrong-Auer",
+    "DimensionListItem": 275,
+    "DimensionListItemDisplayName": "Spencer, White and Effertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldType": "System.Int32",
+        "FieldLength": 822
       }
     }
   }

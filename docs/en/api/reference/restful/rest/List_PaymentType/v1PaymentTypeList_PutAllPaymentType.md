@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Larkin, Kihn and Beer",
-    "Tooltip": "assumenda",
-    "Deleted": true,
-    "UdListDefinitionId": 237,
-    "Rank": 215
+    "Id": 663,
+    "Name": "Ernser-Williamson",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 76,
+    "Rank": 586
   },
   {
-    "Id": 145,
-    "Name": "Larkin, Kihn and Beer",
-    "Tooltip": "assumenda",
-    "Deleted": true,
-    "UdListDefinitionId": 237,
-    "Rank": 215
+    "Id": 663,
+    "Name": "Ernser-Williamson",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 76,
+    "Rank": 586
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 683,
-    "Name": "Harber, Kihn and West",
-    "Tooltip": "distinctio",
+    "Id": 324,
+    "Name": "Morissette, Bosco and Stokes",
+    "Tooltip": "quos",
     "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 746,
+    "UdListDefinitionId": 681,
+    "Rank": 477,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

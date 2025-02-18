@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 221,
-      "ContactName": "Carroll, Runolfsson and Hills",
-      "PersonId": 468,
-      "PersonName": "Koelpin Group",
-      "AssociateId": 585,
-      "Address": "eveniet",
-      "EmailId": 296,
+      "ContactId": 920,
+      "ContactName": "Grimes, Batz and Lowe",
+      "PersonId": 924,
+      "PersonName": "Stroman LLC",
+      "AssociateId": 845,
+      "Address": "quibusdam",
+      "EmailId": 844,
       "DuplicatePersonIds": [
-        322,
-        973
+        618,
+        818
       ],
-      "Name": "McDermott, Armstrong and Ward",
+      "Name": "Cummerata LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldType": "System.Int32",
+          "FieldLength": 781
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 324,
-      "ContactName": "Goodwin Inc and Sons",
-      "PersonId": 987,
-      "PersonName": "Kilback Group",
-      "AssociateId": 983,
-      "Address": "a",
-      "EmailId": 624,
+      "ContactId": 968,
+      "ContactName": "Kling-Cormier",
+      "PersonId": 574,
+      "PersonName": "Breitenberg Group",
+      "AssociateId": 828,
+      "Address": "ab",
+      "EmailId": 274,
       "DuplicatePersonIds": [
-        368,
-        743
+        975,
+        582
       ],
-      "Name": "McLaughlin, Keeling and Zemlak",
+      "Name": "Mante, Bashirian and Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldType": "System.Int32",
+          "FieldLength": 27
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 904,
-      "ContactName": "Kshlerin-Quigley",
-      "PersonId": 804,
-      "PersonName": "Ullrich LLC",
-      "AssociateId": 255,
-      "Address": "esse",
-      "EmailId": 14,
+      "ContactId": 459,
+      "ContactName": "Batz-Doyle",
+      "PersonId": 362,
+      "PersonName": "Ferry Inc and Sons",
+      "AssociateId": 815,
+      "Address": "nemo",
+      "EmailId": 584,
       "DuplicatePersonIds": [
-        675,
-        85
+        346,
+        173
       ],
-      "Name": "Green LLC",
+      "Name": "Cummings, Lemke and Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldType": "System.String",
+          "FieldLength": 636
         }
       }
     }
   ],
-  "Subject": "vero",
-  "HTMLBody": "expedita",
+  "Subject": "magnam",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2000-05-19T12:01:27.8377848+02:00",
-  "Size": 736,
+  "Sent": "2008-02-13T14:32:02.9054041+01:00",
+  "Size": 613,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vero",
-  "PlainBody": "dolor",
-  "IsSent": true,
+  "MessageID": "at",
+  "PlainBody": "dolorem",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 67,
+  "ServerId": 419,
   "Attachments": [
     {
-      "Description": "Multi-layered zero tolerance infrastructure",
-      "Filename": "reiciendis",
-      "Size": 715,
-      "Type": "pariatur",
-      "Encoding": "dolorem",
-      "Id": "assumenda",
-      "Disposition": "dignissimos",
+      "Description": "Reduced scalable internet solution",
+      "Filename": "et",
+      "Size": 264,
+      "Type": "sed",
+      "Encoding": "velit",
+      "Id": "doloribus",
+      "Disposition": "explicabo",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 597
+          "FieldType": "System.String",
+          "FieldLength": 842
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Quigley-Ward",
+      "Name": "Lesch-Nitzsche",
       "Values": [
-        "voluptas",
-        "nostrum"
+        "ducimus",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     },
     {
-      "Name": "Quigley-Ward",
+      "Name": "Lesch-Nitzsche",
       "Values": [
-        "voluptas",
-        "nostrum"
+        "ducimus",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldType": "System.String",
+          "FieldLength": 369
         }
       }
     }
   ],
-  "FolderName": "Zboncak-O'Conner",
-  "EmailItemId": 29,
-  "AccountId": 952,
-  "ReceivedAt": "2000-04-08T12:01:27.8377848+02:00",
+  "FolderName": "Muller-Sporer",
+  "EmailItemId": 563,
+  "AccountId": 90,
+  "ReceivedAt": "2016-02-01T14:32:02.9054041+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-12-26T12:01:27.8377848+01:00",
+  "RepliedAt": "2016-12-02T14:32:02.9054041+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 775
     }
   }
 }

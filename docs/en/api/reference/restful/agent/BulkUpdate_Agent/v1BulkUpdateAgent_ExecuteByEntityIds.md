@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "nulla",
-      "ValueType": "maiores",
+      "IsActive": false,
+      "Key": "est",
+      "ValueType": "quis",
       "Mandatory": true,
-      "EncodedDisplayName": "Baumbach LLC",
-      "EncodedDisplayDescription": "Front-line interactive forecast",
-      "IconHint": "inventore",
+      "EncodedDisplayName": "Lind, Schmidt and Lueilwitz",
+      "EncodedDisplayDescription": "Streamlined encompassing implementation",
+      "IconHint": "possimus",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "nemo",
-      "EncodedDataCaptionDescription": "Configurable attitude-oriented throughput",
-      "CurrentOperationType": "totam",
+      "EncodedDataCaption": "consequatur",
+      "EncodedDataCaptionDescription": "Business-focused dedicated functionalities",
+      "CurrentOperationType": "quo",
       "Values": [
-        "et",
-        "dolorem"
+        "voluptate",
+        "est"
       ],
       "DisplayValues": [
-        "sunt",
-        "maxime"
+        "voluptatem",
+        "totam"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Koch Group",
-  "Context": "fuga",
-  "Ids": "asperiores"
+  "TableName": "Gutkowski Group",
+  "Context": "quibusdam",
+  "Ids": "ut"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-262
+193
 ```

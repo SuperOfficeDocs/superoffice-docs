@@ -1,14 +1,14 @@
 ---
-uid: database-whats-new-10.5.2.332
-title: What's new in version 10.5.2.332
-description: What's new in database version 10.5.2.332.
+uid: database-whats-new-10.5.2.416
+title: What's new in version 10.5.2.416
+description: What's new in database version 10.5.2.416.
 so.generated: true
 keywords: database
 so.topic: reference
 so.envir: onsite, online
 ---
 
-# Released database changes in version 10.5.2.332
+# Released database changes in version 10.5.2.416
 
 ## SuperOffice
 

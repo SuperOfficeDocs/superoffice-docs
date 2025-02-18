@@ -659,7 +659,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/streetAddress/addressId,mailingAddr/contact/LastDoBySale,mailingAddr/person/supportAssociate,mailingAddr/person/personAssociateFullName,mailingAddr/person/personPager/formattedNumber
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingDeleted,mailingAddr/contact/searchPhone/formattedNumber,mailingAddr/person/title,associate/portraitThumbnail,emailFlow/workflowAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

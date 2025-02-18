@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 542,
-  "SelectionId": 968,
-  "Restrictions": "eos"
+  "DashboardTileId": 472,
+  "SelectionId": 335,
+  "Restrictions": "reiciendis"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Thompson, Boyle and Hintz",
-        "DisplayTooltip": "sunt",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Beier Group",
-        "CanRestrictBy": false,
-        "RestrictionType": "perspiciatis",
-        "RestrictionListName": "Larson, Brown and Hills",
+        "DisplayName": "Bergstrom-McCullough",
+        "DisplayTooltip": "ducimus",
+        "DisplayType": "tempora",
+        "CanOrderBy": false,
+        "Name": "Streich-Windler",
+        "CanRestrictBy": true,
+        "RestrictionType": "quas",
+        "RestrictionListName": "Huels LLC",
         "IsVisible": false,
-        "ExtraInfo": "nihil",
-        "Width": "at",
-        "IconHint": "mollitia",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "sunt",
+        "Width": "ut",
+        "IconHint": "harum",
+        "HeadingIconHint": "similique"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Thompson, Boyle and Hintz",
-        "DisplayTooltip": "sunt",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Beier Group",
-        "CanRestrictBy": false,
-        "RestrictionType": "perspiciatis",
-        "RestrictionListName": "Larson, Brown and Hills",
+        "DisplayName": "Bergstrom-McCullough",
+        "DisplayTooltip": "ducimus",
+        "DisplayType": "tempora",
+        "CanOrderBy": false,
+        "Name": "Streich-Windler",
+        "CanRestrictBy": true,
+        "RestrictionType": "quas",
+        "RestrictionListName": "Huels LLC",
         "IsVisible": false,
-        "ExtraInfo": "nihil",
-        "Width": "at",
-        "IconHint": "mollitia",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "sunt",
+        "Width": "ut",
+        "IconHint": "harum",
+        "HeadingIconHint": "similique"
       }
     ],
     "Result": null

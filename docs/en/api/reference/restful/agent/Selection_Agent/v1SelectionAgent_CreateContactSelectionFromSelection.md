@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 569,
-  "Name": "Bayer-Runolfsdottir",
+  "SelectionId": 836,
+  "Name": "Treutel, Ferry and Wolff",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned mobile standardization",
-  "Postit": "repudiandae",
+  "Description": "Switchable zero tolerance open system",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 351,
-  "IncludePerson": 374,
+  "GroupIdx": 988,
+  "IncludePerson": 805,
   "MemberCount": 99.99,
-  "Name": "Senger, Hills and Robel",
-  "PostitTextId": 279,
-  "CreatedDate": "2012-04-04T12:01:28.2909425+02:00",
-  "SelectionId": 940,
-  "SoundEx": "eveniet",
-  "Source": 976,
-  "TextId": 681,
-  "UpdatedDate": "2012-01-13T12:01:28.2909425+01:00",
-  "UpdatedCount": 955,
-  "Visibility": 749,
+  "Name": "Marquardt LLC",
+  "PostitTextId": 839,
+  "CreatedDate": "2015-04-06T14:32:03.8897524+02:00",
+  "SelectionId": 530,
+  "SoundEx": "minus",
+  "Source": 807,
+  "TextId": 171,
+  "UpdatedDate": "2018-11-14T14:32:03.8897524+01:00",
+  "UpdatedCount": 211,
+  "Visibility": 7,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 225,
-  "TargetTableName": "Kulas LLC",
-  "Completed": false,
-  "LeftSelectionId": 641,
-  "RightSelectionId": 818,
+  "CompanyUnique": true,
+  "TargetTableNumber": 140,
+  "TargetTableName": "Cummerata-Koch",
+  "Completed": true,
+  "LeftSelectionId": 952,
+  "RightSelectionId": 994,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stehr, Goldner and Torphy",
-  "ShadowProviderName": "Schaden, Hodkiewicz and Nader",
-  "ChartKey": "omnis",
-  "LastLoaded": "2012-07-28T12:01:28.2909425+02:00",
-  "LastLoadedBy": 823,
+  "MainProviderName": "Berge-Terry",
+  "ShadowProviderName": "Grimes-Bergstrom",
+  "ChartKey": "veritatis",
+  "LastLoaded": "2012-03-07T14:32:03.8897524+01:00",
+  "LastLoadedBy": 260,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-06-21T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 869,
+  "LastMembershipChange": "2007-02-02T14:32:03.8897524+01:00",
+  "LastMembershipChangeBy": 682,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facere",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "Block Inc and Sons",
-  "DashboardTileDefinitionId": 626,
+  "MainHeading": "minus",
+  "MemberTabHeading": "laboriosam",
+  "MailingsProviderName": "Mraz-Dooley",
+  "DashboardTileDefinitionId": 585,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 769,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 738
     }
   }
 }

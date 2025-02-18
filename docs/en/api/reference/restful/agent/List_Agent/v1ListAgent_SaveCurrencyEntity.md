@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 609,
-  "Name": "Kirlin, Roberts and Heaney",
-  "Tooltip": "tenetur",
-  "Rank": 883,
-  "Rate": 2971.0319999999997,
-  "Units": 12498.392,
+  "CurrencyId": 917,
+  "Name": "Cormier, Schowalter and Bernier",
+  "Tooltip": "facilis",
+  "Rank": 22,
+  "Rate": 8652.974,
+  "Units": 23138.322,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 918,
-  "Name": "Murphy Inc and Sons",
-  "Tooltip": "dolorem",
-  "Rank": 715,
-  "Rate": 8327.038,
-  "Units": 21652.806,
+  "CurrencyId": 659,
+  "Name": "O'Keefe, Crist and Funk",
+  "Tooltip": "optio",
+  "Rank": 78,
+  "Rate": 13683.044,
+  "Units": 3108.928,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 821
+      "FieldLength": 959
     }
   }
 }

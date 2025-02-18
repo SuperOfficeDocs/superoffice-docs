@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Vandervort-Fisher"
+  "Name": "Bruen-Nienow"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Lueilwitz Group",
-  "Tooltip": "molestiae",
+  "Id": 508,
+  "Name": "Moen-Collins",
+  "Tooltip": "nemo",
   "Deleted": true,
-  "Rank": 937,
+  "Rank": 656,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "enim",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "modi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 563
     }
   }
 }

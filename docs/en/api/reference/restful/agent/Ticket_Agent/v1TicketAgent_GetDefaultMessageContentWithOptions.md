@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 357,
+  "TicketId": 528,
   "MessageActionType": "Forward",
-  "TicketMessageId": 529,
-  "TicketTypeId": 750,
+  "TicketMessageId": 853,
+  "TicketTypeId": 719,
   "ExcludeSignature": false
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "omnis",
+  "Body": "illo",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 58,
-      "Name": "Larson-Nikolaus",
-      "ContentType": "nostrum",
-      "AttSize": 994,
-      "InlineImage": true,
-      "ContentId": "modi",
-      "AuthKey": "accusantium",
+      "AttachmentId": 247,
+      "Name": "Bartell LLC",
+      "ContentType": "ab",
+      "AttSize": 861,
+      "InlineImage": false,
+      "ContentId": "quasi",
+      "AuthKey": "nostrum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldLength": 376
         }
       }
     }

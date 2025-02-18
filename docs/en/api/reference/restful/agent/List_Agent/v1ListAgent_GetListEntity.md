@@ -26,7 +26,7 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=776
+POST /api/v1/Agents/List/GetListEntity?listEntityId=130
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 72,
-  "Name": "Kessler-Dooley",
-  "Tooltip": "facilis",
+  "Id": 666,
+  "Name": "Wunsch, Feil and Wuckert",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 716,
+  "Rank": 302,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "officia",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 47
     }
   }
 }

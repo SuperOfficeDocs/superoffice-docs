@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Hammes Inc and Sons",
-    "ToolTip": "Facere fugiat eligendi autem sed at.",
+    "Id": 945,
+    "Name": "Bergstrom Inc and Sons",
+    "ToolTip": "Vel libero ut et error similique rerum quia.",
     "Deleted": false,
-    "Rank": 436,
-    "Type": "ea",
-    "ColorBlock": 450,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2004-05-05T12:01:33.4332226+02:00",
+    "Rank": 493,
+    "Type": "consequuntur",
+    "ColorBlock": 489,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2021-07-23T14:32:12.4739768+02:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Jerde LLC",
-        "ToolTip": "Et consequatur.",
-        "Deleted": true,
-        "Rank": 453,
-        "Type": "itaque",
-        "ColorBlock": 350,
-        "IconHint": "nostrum",
+        "Id": 480,
+        "Name": "Wuckert Inc and Sons",
+        "ToolTip": "Adipisci et sint et doloremque pariatur.",
+        "Deleted": false,
+        "Rank": 704,
+        "Type": "porro",
+        "ColorBlock": 870,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2002-10-26T12:01:33.4332226+02:00",
+        "LastChanged": "2014-08-06T14:32:12.4739768+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "in",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Tyreek Pfeffer",
+        "FullName": "Dario Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "id",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Quentin Kihn Jr.",
+    "FullName": "Randall Romaine Dietrich I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldLength": 162
       }
     }
   }

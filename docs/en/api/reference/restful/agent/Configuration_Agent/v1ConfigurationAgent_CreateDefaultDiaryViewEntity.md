@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 447,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "quo",
-  "VisibleColumns": 779,
-  "Rank": 904,
-  "AssocId": 123,
+  "DiaryViewId": 353,
+  "Name": "Toy, Fritsch and Hartmann",
+  "Tooltip": "qui",
+  "VisibleColumns": 136,
+  "Rank": 47,
+  "AssocId": 720,
   "AssociateList": [
     {
-      "Id": 831,
-      "Name": "Sawayn Inc and Sons",
-      "ToolTip": "Autem aspernatur dolore delectus cum ab eaque.",
-      "Deleted": false,
-      "Rank": 624,
-      "Type": "eum",
-      "ColorBlock": 740,
-      "IconHint": "dignissimos",
-      "Selected": true,
-      "LastChanged": "2002-09-22T12:01:27.4471334+02:00",
+      "Id": 205,
+      "Name": "Turner-Reichel",
+      "ToolTip": "Voluptate sunt.",
+      "Deleted": true,
+      "Rank": 187,
+      "Type": "cupiditate",
+      "ColorBlock": 512,
+      "IconHint": "ipsam",
+      "Selected": false,
+      "LastChanged": "2018-12-17T14:32:02.2336819+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "explicabo",
+      "ExtraInfo": "nam",
+      "StyleHint": "similique",
       "Hidden": true,
-      "FullName": "Mrs. Penelope Ondricka V",
+      "FullName": "Ewald Kuhic I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldType": "System.Int32",
+          "FieldLength": 789
         }
       }
     }
   ],
-  "TzLocationId": 254,
+  "TzLocationId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 506
     }
   }
 }

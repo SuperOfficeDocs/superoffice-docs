@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 416,
-  "Name": "Daniel Group"
+  "DashboardId": 850,
+  "Name": "Schowalter Inc and Sons"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 981,
-  "UniqueId": "quas",
-  "Name": "Marks-Miller",
-  "Description": "Digitized multimedia workforce",
-  "AssociateId": 353,
-  "Columns": 888,
+  "DashboardId": 175,
+  "UniqueId": "quia",
+  "Name": "Treutel, Beatty and Turcotte",
+  "Description": "Proactive discrete projection",
+  "AssociateId": 663,
+  "Columns": 88,
   "Theme": null,
-  "VisibleForAll": 761,
+  "VisibleForAll": 950,
   "VisibleForAssociates": [
-    84,
-    979
+    188,
+    413
   ],
   "VisibleForGroups": [
-    346,
-    477
+    209,
+    817
   ],
-  "PinForAll": 382,
+  "PinForAll": 819,
   "PinForAssociates": [
-    598,
-    719
+    76,
+    268
   ],
   "PinForGroups": [
-    387,
-    61
+    60,
+    543
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 267
     }
   }
 }

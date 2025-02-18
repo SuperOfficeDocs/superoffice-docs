@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ortiz LLC",
-  "UsergroupId": 874,
+  "UdListDefinitionName": "Bayer LLC",
+  "UsergroupId": 111,
   "ListItemsID": [
-    684,
-    225
+    240,
+    73
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

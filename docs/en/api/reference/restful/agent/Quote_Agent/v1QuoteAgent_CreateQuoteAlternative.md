@@ -101,9 +101,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 537,
-  "QuoteAlternativeName": "Gleichner, Brekke and Schulist",
-  "QuoteAlternativeDescription": "Organized content-based array"
+  "QuoteVersionId": 543,
+  "QuoteAlternativeName": "Jaskolski-Lynch",
+  "QuoteAlternativeDescription": "Persevering clear-thinking superstructure"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 148,
-  "ERPQuoteAlternativeKey": "harum",
-  "QuoteVersionId": 461,
-  "Name": "Smitham-Padberg",
-  "Description": "Networked maximized artificial intelligence",
+  "QuoteAlternativeId": 786,
+  "ERPQuoteAlternativeKey": "fuga",
+  "QuoteVersionId": 299,
+  "Name": "Hane Group",
+  "Description": "Triple-buffered interactive access",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13670.508,
-  "ERPDiscountAmount": 25303.915999999997,
-  "DiscountPercent": 10445.622,
-  "DiscountAmount": 7227.004,
+  "ERPDiscountPercent": 15228.106,
+  "ERPDiscountAmount": 29133.664,
+  "DiscountPercent": 758.428,
+  "DiscountAmount": 12796.122,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quis",
-  "VAT": 16650.942,
-  "EarningPercent": 8120.1939999999995,
-  "EarningAmount": 6430.968,
-  "SubTotal": 31139.424,
-  "TotalPrice": 29519.146,
-  "ExtraField1": "exercitationem",
-  "ExtraField2": "nulla",
-  "ExtraField3": "velit",
-  "ExtraField4": "saepe",
-  "ExtraField5": "quia",
+  "VATInfo": "eum",
+  "VAT": 26356.94,
+  "EarningPercent": 24511.014,
+  "EarningAmount": 7430.714,
+  "SubTotal": 5086.482,
+  "TotalPrice": 7725.3099999999995,
+  "ExtraField1": "rerum",
+  "ExtraField2": "omnis",
+  "ExtraField3": "debitis",
+  "ExtraField4": "omnis",
+  "ExtraField5": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 398
     }
   }
 }

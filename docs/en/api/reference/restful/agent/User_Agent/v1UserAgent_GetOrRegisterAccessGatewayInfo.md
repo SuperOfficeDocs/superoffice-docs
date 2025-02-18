@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "quis"
+  "RedirectUri": "provident"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "ut",
-  "RedirectUri": "natus",
+  "ClientId": "quasi",
+  "RedirectUri": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldLength": 1000
     }
   }
 }

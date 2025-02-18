@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 873,
+  "AssociateId": 514,
   "Type": "AnonymousAssociate",
-  "PersonId": 702,
-  "UserName": "Frami Inc and Sons"
+  "PersonId": 685,
+  "UserName": "Dach-Grimes"
 }
 ```
 

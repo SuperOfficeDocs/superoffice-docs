@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Brakus Inc and Sons",
-    "ToolTip": "Tempore fuga eaque dolores autem eos.",
-    "Deleted": true,
-    "Rank": 754,
-    "Type": "nemo",
-    "ColorBlock": 571,
-    "IconHint": "beatae",
-    "Selected": true,
-    "LastChanged": "2007-05-31T12:01:33.5269792+02:00",
+    "Id": 744,
+    "Name": "Stamm, Rogahn and Wilkinson",
+    "ToolTip": "Consequatur quibusdam.",
+    "Deleted": false,
+    "Rank": 722,
+    "Type": "sunt",
+    "ColorBlock": 991,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2008-10-23T14:32:12.6614341+02:00",
     "ChildItems": [
       {
-        "Id": 883,
-        "Name": "Berge-Howell",
-        "ToolTip": "Provident provident itaque at quia incidunt.",
-        "Deleted": false,
-        "Rank": 174,
-        "Type": "est",
-        "ColorBlock": 759,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2018-09-16T12:01:33.5269792+02:00",
+        "Id": 493,
+        "Name": "Wolff, Becker and Goyette",
+        "ToolTip": "Exercitationem quia temporibus est laborum et sed esse.",
+        "Deleted": true,
+        "Rank": 76,
+        "Type": "rerum",
+        "ColorBlock": 889,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2020-11-04T14:32:12.6614341+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ipsum",
-        "Hidden": true,
-        "FullName": "Immanuel Bashirian",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Nick Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 288
+            "FieldLength": 387
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "odio",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Sandrine Kreiger",
+    "FullName": "Mr. Fidel Dickinson Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 862
       }
     }
   }

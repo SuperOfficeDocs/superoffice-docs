@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 638,
-    "Name": "Towne-Towne",
-    "Tooltip": "laborum",
+    "HeadingId": 459,
+    "Name": "Kub-Douglas",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 122,
-    "UdListDefinitionId": 586,
+    "Rank": 750,
+    "UdListDefinitionId": 973,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 977
       }
     }
   }

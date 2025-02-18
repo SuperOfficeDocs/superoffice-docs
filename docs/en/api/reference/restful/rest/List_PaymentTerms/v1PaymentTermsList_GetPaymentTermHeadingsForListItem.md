@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 736,
-    "Name": "Beahan-Towne",
-    "ToolTip": "Sit et corporis quis.",
+    "Id": 759,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Optio dignissimos aperiam et fugit debitis tempora quis.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "quia",
-    "ColorBlock": 451,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2015-06-26T12:01:33.5426053+02:00",
+    "Rank": 388,
+    "Type": "a",
+    "ColorBlock": 296,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2013-02-21T14:32:12.6770562+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Price, Davis and Hilll",
-        "ToolTip": "Soluta eius voluptate qui atque incidunt cum.",
+        "Id": 819,
+        "Name": "Hintz LLC",
+        "ToolTip": "Error et nihil expedita.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "vero",
-        "ColorBlock": 15,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2015-11-04T12:01:33.5426053+01:00",
+        "Rank": 909,
+        "Type": "consequatur",
+        "ColorBlock": 701,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2006-02-05T14:32:12.6770562+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ullam",
+        "ExtraInfo": "in",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Ms. Kyla Botsford",
+        "FullName": "Horacio Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldLength": 620
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "aut",
+    "ExtraInfo": "veniam",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Wallace Schiller",
+    "FullName": "Lamar Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

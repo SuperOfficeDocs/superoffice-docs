@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 498,
-  "WorkflowId": 572,
+  "WorkflowTriggerId": 71,
+  "WorkflowId": 483,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Nikolaus, Roberts and Langosh",
-      "Description": "Right-sized exuding migration",
-      "Rank": 607,
+      "Name": "Christiansen-Kerluke",
+      "Description": "Open-architected bifurcated orchestration",
+      "Rank": 249,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nikolaus, Roberts and Langosh",
-      "Description": "Right-sized exuding migration",
-      "Rank": 607,
+      "Name": "Christiansen-Kerluke",
+      "Description": "Open-architected bifurcated orchestration",
+      "Rank": 249,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 909,
-  "WorkflowId": 148,
+  "WorkflowTriggerId": 932,
+  "WorkflowId": 989,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Langosh, Sipes and Feil",
-      "Description": "Diverse 24/7 circuit",
-      "Rank": 414,
+      "Name": "Grady Group",
+      "Description": "Balanced multimedia array",
+      "Rank": 423,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langosh, Sipes and Feil",
-      "Description": "Diverse 24/7 circuit",
-      "Rank": 414,
+      "Name": "Grady Group",
+      "Description": "Balanced multimedia array",
+      "Rank": 423,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 180
     }
   }
 }

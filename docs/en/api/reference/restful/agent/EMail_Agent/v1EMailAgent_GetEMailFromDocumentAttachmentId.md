@@ -102,16 +102,16 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 562,
+  "DocId": 332,
   "AttachmentIds": [
-    "distinctio",
-    "quod"
+    "optio",
+    "et"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 621,
-      "ContactName": "Kertzmann, Schumm and Steuber",
-      "PersonId": 74,
-      "PersonName": "Abernathy Group",
-      "AssociateId": 382,
-      "Address": "et",
-      "EmailId": 96,
+      "ContactId": 723,
+      "ContactName": "Quitzon-Quitzon",
+      "PersonId": 425,
+      "PersonName": "Nienow-Funk",
+      "AssociateId": 674,
+      "Address": "necessitatibus",
+      "EmailId": 2,
       "DuplicatePersonIds": [
-        935,
-        3
+        525,
+        770
       ],
-      "Name": "Dickens-Bashirian",
+      "Name": "Rice-Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 473
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 301,
-      "ContactName": "Jones, Zulauf and Schimmel",
-      "PersonId": 479,
-      "PersonName": "Champlin, Crooks and Senger",
-      "AssociateId": 805,
-      "Address": "aspernatur",
-      "EmailId": 722,
+      "ContactId": 536,
+      "ContactName": "Beahan Group",
+      "PersonId": 294,
+      "PersonName": "Lakin, Rippin and Wunsch",
+      "AssociateId": 494,
+      "Address": "non",
+      "EmailId": 961,
       "DuplicatePersonIds": [
-        140,
-        995
+        392,
+        913
       ],
-      "Name": "McKenzie, Ruecker and Hermiston",
+      "Name": "Kuphal, Mills and Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 460
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 371,
-      "ContactName": "Green-Stanton",
-      "PersonId": 381,
-      "PersonName": "Baumbach, Hamill and Orn",
-      "AssociateId": 444,
-      "Address": "eaque",
-      "EmailId": 494,
+      "ContactId": 778,
+      "ContactName": "Bradtke-Hansen",
+      "PersonId": 132,
+      "PersonName": "Kirlin Inc and Sons",
+      "AssociateId": 721,
+      "Address": "esse",
+      "EmailId": 587,
       "DuplicatePersonIds": [
-        580,
-        972
+        344,
+        528
       ],
-      "Name": "Rice Inc and Sons",
+      "Name": "Welch-Pagac",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 524
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "quo",
+  "Subject": "aut",
+  "HTMLBody": "rerum",
   "From": null,
-  "Sent": "2009-07-27T12:01:27.8377848+02:00",
-  "Size": 447,
+  "Sent": "2023-04-11T14:32:02.921025+02:00",
+  "Size": 140,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "rerum",
-  "IsSent": false,
+  "MessageID": "quaerat",
+  "PlainBody": "similique",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 626,
+  "ServerId": 228,
   "Attachments": [
     {
-      "Description": "Customizable uniform neural-net",
-      "Filename": "sint",
-      "Size": 129,
-      "Type": "temporibus",
-      "Encoding": "rem",
-      "Id": "culpa",
-      "Disposition": "voluptate",
+      "Description": "Networked zero defect function",
+      "Filename": "molestias",
+      "Size": 563,
+      "Type": "ducimus",
+      "Encoding": "veniam",
+      "Id": "rerum",
+      "Disposition": "omnis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 577
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Harvey Group",
+      "Name": "Moore, O'Reilly and Feeney",
       "Values": [
-        "sint",
-        "cupiditate"
+        "iusto",
+        "iste"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     },
     {
-      "Name": "Harvey Group",
+      "Name": "Moore, O'Reilly and Feeney",
       "Values": [
-        "sint",
-        "cupiditate"
+        "iusto",
+        "iste"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "FolderName": "Donnelly-Larkin",
-  "EmailItemId": 265,
-  "AccountId": 812,
-  "ReceivedAt": "1999-11-07T12:01:27.8377848+01:00",
+  "FolderName": "Cummerata, Emmerich and Leuschke",
+  "EmailItemId": 802,
+  "AccountId": 71,
+  "ReceivedAt": "2018-05-25T14:32:02.921025+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-05-06T12:01:27.8377848+02:00",
+  "RepliedAt": "2020-11-22T14:32:02.921025+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   }
 }

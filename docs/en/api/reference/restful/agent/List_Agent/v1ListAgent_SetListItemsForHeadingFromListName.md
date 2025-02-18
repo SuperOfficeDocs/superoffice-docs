@@ -67,15 +67,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Veum, Cronin and Monahan",
-  "HeadingId": 555,
+  "UdListDefinitionName": "Mertz Inc and Sons",
+  "HeadingId": 256,
   "ListItemIds": [
-    607,
-    207
+    68,
+    769
   ],
   "Enable": false
 }

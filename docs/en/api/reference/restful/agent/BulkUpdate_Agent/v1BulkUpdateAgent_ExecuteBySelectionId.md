@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
       "IsActive": true,
-      "Key": "praesentium",
-      "ValueType": "consequatur",
+      "Key": "dolor",
+      "ValueType": "rerum",
       "Mandatory": true,
-      "EncodedDisplayName": "Hilpert LLC",
-      "EncodedDisplayDescription": "Reverse-engineered object-oriented customer loyalty",
-      "IconHint": "totam",
+      "EncodedDisplayName": "Pagac-Wehner",
+      "EncodedDisplayDescription": "Streamlined tertiary framework",
+      "IconHint": "dolorum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "in",
-      "EncodedDataCaptionDescription": "Up-sized optimizing focus group",
-      "CurrentOperationType": "voluptas",
+      "EncodedDataCaption": "eum",
+      "EncodedDataCaptionDescription": "Mandatory zero tolerance toolset",
+      "CurrentOperationType": "optio",
       "Values": [
-        "ut",
-        "consequatur"
+        "quaerat",
+        "impedit"
       ],
       "DisplayValues": [
-        "ut",
-        "iure"
+        "quos",
+        "iste"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Greenholt, Jast and Bailey",
-  "Context": "veniam",
-  "SelectionId": 59,
-  "IsShadow": false
+  "TableName": "Wyman, Cormier and Gutkowski",
+  "Context": "officiis",
+  "SelectionId": 614,
+  "IsShadow": true
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-455
+821
 ```

@@ -654,7 +654,7 @@ Mailings selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=recordTypeText,mailingAddr/person/whenUpdatedByWorkflow,mailingAddr/person/correspondingAssociate/isActive,emailFlow/workflowName,project/projectAssociate/lastName
+GET /api/v1/archive/MailingsDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/restrictionAddress/line1,mailingAddr/contact/contactAssociate/contactName,mailingAddr/person/birthYear,mailingAddr/person/restrictionAddress/line1,mailingAddr/person/personExtra/x_person_priority_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

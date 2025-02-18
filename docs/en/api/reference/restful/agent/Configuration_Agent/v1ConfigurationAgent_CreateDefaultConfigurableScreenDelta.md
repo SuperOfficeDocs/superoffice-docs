@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 892,
-  "Name": "Schowalter, Thiel and Lueilwitz",
-  "Description": "Streamlined dynamic application",
-  "DeltaJson": "amet",
+  "ConfigurableScreenDeltaId": 825,
+  "Name": "Cummings Group",
+  "Description": "Enterprise-wide modular knowledge base",
+  "DeltaJson": "molestias",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "animi",
-  "UpdatedDate": "2017-09-04T12:01:27.4471334+02:00",
-  "CreatedDate": "2002-10-30T12:01:27.4471334+01:00",
+  "RecipeId": "sed",
+  "UpdatedDate": "2020-02-14T14:32:02.2180587+01:00",
+  "CreatedDate": "2021-05-22T14:32:02.2180587+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    653,
-    420
+    590,
+    105
   ],
-  "AppliesToKey": "quo",
+  "AppliesToKey": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 963
     }
   }
 }

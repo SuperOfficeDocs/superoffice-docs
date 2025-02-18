@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=occaecati
+GET /api/v1/List/SelectionCategory/MDOItems?flat=True
+GET /api/v1/List/SelectionCategory/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "McGlynn, Ondricka and Weissnat",
-    "ToolTip": "Natus cumque sit id molestiae et natus.",
+    "Id": 582,
+    "Name": "Huels, Wyman and Yundt",
+    "ToolTip": "Qui architecto provident optio mollitia voluptatem consequatur.",
     "Deleted": false,
-    "Rank": 513,
-    "Type": "consequatur",
+    "Rank": 560,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 141,
-        "Name": "Cormier, Hilpert and Koch",
-        "ToolTip": "Itaque illum reprehenderit earum quae.",
+        "Id": 498,
+        "Name": "Wiegand Inc and Sons",
+        "ToolTip": "Vel magnam aut.",
         "Deleted": true,
-        "Rank": 93,
-        "Type": "ullam",
+        "Rank": 431,
+        "Type": "asperiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "similique",
-        "ColorBlock": 544,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "earum",
-        "FullName": "Prof. Greta Krista Ruecker III",
+        "IconHint": "inventore",
+        "ColorBlock": 233,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "perspiciatis",
+        "FullName": "Mrs. Sabrina Lauren Johns III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 345
+            "FieldType": "System.Int32",
+            "FieldLength": 766
           }
         }
       }
     ],
-    "IconHint": "aspernatur",
-    "ColorBlock": 940,
-    "ExtraInfo": "quia",
-    "StyleHint": "incidunt",
-    "FullName": "Hertha Collier",
+    "IconHint": "odit",
+    "ColorBlock": 112,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "repellendus",
+    "FullName": "Mr. Fidel Hilpert PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldType": "System.String",
+        "FieldLength": 941
       }
     }
   }

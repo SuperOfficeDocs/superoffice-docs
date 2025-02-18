@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 184,
-  "TopicId": 812,
+  "ChatSessionId": 456,
+  "TopicId": 298,
   "User": null,
   "Person": null,
-  "CustomerAlias": "illo",
-  "CustomerHost": "sequi",
-  "CustomerName": "Corwin-Aufderhar",
-  "CustomerEmail": "tre_daniel@runte.name",
-  "CustomerPhone": "1-305-100-2166 x0559",
+  "CustomerAlias": "aut",
+  "CustomerHost": "aut",
+  "CustomerName": "Kassulke, Littel and Dare",
+  "CustomerEmail": "maverick@prosacco.co.uk",
+  "CustomerPhone": "(679)496-2031 x26188",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Rosenbaum, Morar and Walker",
+  "CustomerCompanyName": "Raynor, Emard and Bruen",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "aut",
-  "WhenRequested": "2016-09-05T12:01:32.7144227+02:00",
-  "WhenStarted": "2019-02-21T12:01:32.7144227+01:00",
-  "WhenEnded": "2020-04-16T12:01:32.7144227+02:00",
-  "WhenIdle": "2013-01-21T12:01:32.7144227+01:00",
-  "WhenFetched": "2010-03-27T12:01:32.7144227+01:00",
-  "SessionKey": "architecto",
-  "InitialQueuePos": 733,
-  "AlertLevel": 370,
-  "Rank": 847,
+  "FirstMessage": "ut",
+  "LastMessage": "ut",
+  "WhenRequested": "2020-02-07T14:32:11.1614786+01:00",
+  "WhenStarted": "2024-11-07T14:32:11.1614786+01:00",
+  "WhenEnded": "2003-06-26T14:32:11.1614786+02:00",
+  "WhenIdle": "2015-07-14T14:32:11.1614786+02:00",
+  "WhenFetched": "2017-02-13T14:32:11.1614786+01:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 270,
+  "AlertLevel": 23,
+  "Rank": 858,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 611,
+  "Rating": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 385
     }
   }
 }

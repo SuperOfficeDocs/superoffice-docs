@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "reprehenderit",
+  "odata.nextLink": "veniam",
   "value": [
     {
-      "PrimaryKey": 8774,
-      "EntityName": "person",
-      "personId": 8774,
-      "fullName": "Colin Herzog"
+      "PrimaryKey": 6953,
+      "EntityName": "sale",
+      "saleId": 6953,
+      "contactId": 9697,
+      "name": "Nolan, Hoppe and Treutel"
     },
     {
-      "PrimaryKey": 7573,
-      "EntityName": "person",
-      "personId": 7573,
-      "fullName": "Carroll O'Hara"
+      "PrimaryKey": 4037,
+      "EntityName": "sale",
+      "saleId": 4037,
+      "contactId": 204,
+      "name": "Gutmann LLC"
     }
   ]
 }

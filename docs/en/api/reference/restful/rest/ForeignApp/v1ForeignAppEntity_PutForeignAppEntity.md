@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 406,
-  "Name": "Haley-Pagac",
-  "CreatedDate": "2023-02-28T12:01:32.9175621+01:00",
-  "UpdatedDate": "2004-07-18T12:01:32.9175621+02:00",
+  "ForeignAppId": 574,
+  "Name": "Corwin LLC",
+  "CreatedDate": "2003-01-09T14:32:11.5054468+01:00",
+  "UpdatedDate": "2016-10-16T14:32:11.5054468+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 749,
-      "Name": "Bode Inc and Sons",
-      "CreatedDate": "2021-11-06T12:01:32.9175621+01:00",
-      "UpdatedDate": "2020-05-25T12:01:32.9175621+02:00",
-      "AssociateFullName": "Amber Ferne McDermott III",
-      "CreatedBy": "temporibus",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "iure",
-      "ForeignAppId": 317
+      "ForeignDeviceId": 615,
+      "Name": "Bednar, Prosacco and Oberbrunner",
+      "CreatedDate": "2004-05-07T14:32:11.5054468+02:00",
+      "UpdatedDate": "2017-08-21T14:32:11.5054468+02:00",
+      "AssociateFullName": "Floyd Brown",
+      "CreatedBy": "debitis",
+      "UpdatedBy": "nisi",
+      "DeviceIdentifier": "minima",
+      "ForeignAppId": 363
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 570,
-  "Name": "D'Amore Group",
-  "CreatedDate": "2019-06-27T12:01:32.9175621+02:00",
-  "UpdatedDate": "2010-01-01T12:01:32.9175621+01:00",
+  "ForeignAppId": 994,
+  "Name": "Schmidt, Ankunding and Rogahn",
+  "CreatedDate": "2006-06-25T14:32:11.5054468+02:00",
+  "UpdatedDate": "2020-04-20T14:32:11.5054468+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 577,
-      "Name": "Mraz Inc and Sons",
-      "CreatedDate": "2003-09-21T12:01:32.9175621+02:00",
-      "UpdatedDate": "1997-12-02T12:01:32.9175621+01:00",
-      "AssociateFullName": "Esperanza Schroeder Jr.",
-      "CreatedBy": "ipsa",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "numquam",
-      "ForeignAppId": 140,
+      "ForeignDeviceId": 311,
+      "Name": "Zieme, Jerde and Blick",
+      "CreatedDate": "2016-07-08T14:32:11.5054468+02:00",
+      "UpdatedDate": "2007-07-02T14:32:11.5054468+02:00",
+      "AssociateFullName": "Ms. Betty Flatley",
+      "CreatedBy": "soluta",
+      "UpdatedBy": "unde",
+      "DeviceIdentifier": "saepe",
+      "ForeignAppId": 991,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldLength": 881
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 194
     }
   },
   "_Links": {

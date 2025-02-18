@@ -77,16 +77,16 @@ OK
 POST /api/v1/Agents/List/SaveRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 696,
-  "Name": "Gleichner, Macejkovic and Rodriguez",
-  "Tooltip": "natus",
-  "PassiveText": "consequatur",
+  "ReldefId": 455,
+  "Name": "Flatley-Buckridge",
+  "Tooltip": "accusantium",
+  "PassiveText": "earum",
   "Deleted": false,
-  "Rank": 532,
+  "Rank": 708,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 381,
-  "Name": "Johnston Group",
-  "Tooltip": "quaerat",
-  "PassiveText": "reiciendis",
+  "ReldefId": 37,
+  "Name": "Mueller, Welch and Lowe",
+  "Tooltip": "pariatur",
+  "PassiveText": "ratione",
   "Deleted": true,
-  "Rank": 917,
+  "Rank": 241,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 435,
-    "Name": "Borer, Will and Eichmann",
-    "Tooltip": "unde",
+    "HeadingId": 647,
+    "Name": "Bode-Heaney",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 897,
-    "UdListDefinitionId": 971
+    "Rank": 97,
+    "UdListDefinitionId": 832
   },
   {
-    "HeadingId": 435,
-    "Name": "Borer, Will and Eichmann",
-    "Tooltip": "unde",
+    "HeadingId": 647,
+    "Name": "Bode-Heaney",
+    "Tooltip": "assumenda",
     "Deleted": false,
-    "Rank": 897,
-    "UdListDefinitionId": 971
+    "Rank": 97,
+    "UdListDefinitionId": 832
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 357,
-    "Name": "Mertz-Lang",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 866,
-    "UdListDefinitionId": 944,
+    "HeadingId": 346,
+    "Name": "Gleason LLC",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "Rank": 706,
+    "UdListDefinitionId": 741,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 507
+        "FieldLength": 119
       }
     }
   }

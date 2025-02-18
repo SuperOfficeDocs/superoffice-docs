@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Kiehn Group",
-  "Tooltip": "natus",
+  "Id": 100,
+  "Name": "Lebsack-Lockman",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 209,
-  "Rank": 303,
+  "UdListDefinitionId": 489,
+  "Rank": 776,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldLength": 933
     }
   }
 }

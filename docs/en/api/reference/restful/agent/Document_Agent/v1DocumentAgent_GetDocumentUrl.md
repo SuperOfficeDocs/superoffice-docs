@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 684,
-  "VersionId": "mollitia",
-  "WriteableUrl": false
+  "DocumentId": 319,
+  "VersionId": "et",
+  "WriteableUrl": true
 }
 ```
 

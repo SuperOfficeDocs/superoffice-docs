@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Hane Group",
-    "ToolTip": "Sit qui quos.",
-    "Deleted": false,
-    "Rank": 143,
-    "Type": "nemo",
-    "ColorBlock": 764,
-    "IconHint": "ullam",
+    "Id": 597,
+    "Name": "Bogan, Predovic and Wolff",
+    "ToolTip": "Delectus quia dicta ut incidunt qui aspernatur voluptatum.",
+    "Deleted": true,
+    "Rank": 387,
+    "Type": "quaerat",
+    "ColorBlock": 906,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2018-02-05T12:01:33.0425704+01:00",
+    "LastChanged": "2013-05-17T14:32:11.7397687+02:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Bernhard, Williamson and Larkin",
-        "ToolTip": "Quis sed harum consequatur earum aut.",
+        "Id": 792,
+        "Name": "Barton, Aufderhar and Rodriguez",
+        "ToolTip": "Quisquam quasi eaque quaerat vel.",
         "Deleted": false,
-        "Rank": 808,
-        "Type": "officia",
-        "ColorBlock": 42,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2000-10-26T12:01:33.0425704+02:00",
+        "Rank": 24,
+        "Type": "repellat",
+        "ColorBlock": 266,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2004-10-30T14:32:11.7397687+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "nobis",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Jack Mraz",
+        "FullName": "Robert Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 436
+            "FieldLength": 392
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "eum",
+    "ExtraInfo": "et",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Mr. Elbert Nicole Bosco MD",
+    "FullName": "Maurice Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 272
       }
     }
   }

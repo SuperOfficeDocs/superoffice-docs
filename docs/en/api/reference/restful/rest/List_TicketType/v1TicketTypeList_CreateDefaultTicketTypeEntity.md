@@ -83,22 +83,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 960,
-  "Name": "Klein-Price",
-  "Rank": 815,
-  "Tooltip": "necessitatibus",
-  "Icon": "officiis",
-  "DefaultTicketStatus": 314,
+  "TicketTypeId": 577,
+  "Name": "Emmerich Group",
+  "Rank": 526,
+  "Tooltip": "quia",
+  "Icon": "cumque",
+  "DefaultTicketStatus": 910,
   "TicketStatuses": [
-    71,
-    518
+    893,
+    129
   ],
-  "DefaultTicketPriority": 773,
+  "DefaultTicketPriority": 737,
   "TicketPriorities": [
-    906,
-    461
+    730,
+    468
   ],
-  "ReplyTemplate": 324,
+  "ReplyTemplate": 297,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    197,
-    860
+    676,
+    174
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

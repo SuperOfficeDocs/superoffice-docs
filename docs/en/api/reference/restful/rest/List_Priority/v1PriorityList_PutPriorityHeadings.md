@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 424,
-    "Name": "Lindgren-Greenfelder",
-    "Tooltip": "temporibus",
+    "HeadingId": 455,
+    "Name": "Prohaska-Gorczany",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 142,
-    "UdListDefinitionId": 956
+    "Rank": 836,
+    "UdListDefinitionId": 885
   },
   {
-    "HeadingId": 424,
-    "Name": "Lindgren-Greenfelder",
-    "Tooltip": "temporibus",
+    "HeadingId": 455,
+    "Name": "Prohaska-Gorczany",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 142,
-    "UdListDefinitionId": 956
+    "Rank": 836,
+    "UdListDefinitionId": 885
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 790,
-    "Name": "Kohler Group",
-    "Tooltip": "enim",
-    "Deleted": true,
-    "Rank": 645,
-    "UdListDefinitionId": 831,
+    "HeadingId": 764,
+    "Name": "Bosco Group",
+    "Tooltip": "ducimus",
+    "Deleted": false,
+    "Rank": 819,
+    "UdListDefinitionId": 145,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldType": "System.Int32",
+        "FieldLength": 725
       }
     }
   }

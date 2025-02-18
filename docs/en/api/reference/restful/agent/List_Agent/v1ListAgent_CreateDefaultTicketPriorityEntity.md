@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 111,
-  "Name": "Nader-Legros",
+  "TicketPriorityId": 375,
+  "Name": "Welch LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 419,
+  "SortOrder": 777,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 991,
-  "MonStart": "2010-11-02T12:01:27.97842+01:00",
-  "MonStop": "2013-09-20T12:01:27.97842+02:00",
-  "TueStart": "2008-05-01T12:01:27.97842+02:00",
-  "TueStop": "1998-03-07T12:01:27.97842+01:00",
-  "WedStart": "2013-04-01T12:01:27.97842+02:00",
-  "WedStop": "2001-04-23T12:01:27.97842+02:00",
-  "ThuStart": "2008-07-19T12:01:27.97842+02:00",
-  "ThuStop": "2010-01-13T12:01:27.97842+01:00",
-  "FriStart": "2006-02-17T12:01:27.97842+01:00",
-  "FriStop": "2024-06-14T12:01:27.97842+02:00",
-  "SatStart": "2017-04-16T12:01:27.97842+02:00",
-  "SatStop": "2005-03-30T12:01:27.97842+02:00",
-  "SunStart": "2014-03-06T12:01:27.97842+01:00",
-  "SunStop": "2016-04-13T12:01:27.97842+02:00",
+  "Deadline": 746,
+  "MonStart": "2022-11-20T14:32:03.1867546+01:00",
+  "MonStop": "2018-11-27T14:32:03.1867546+01:00",
+  "TueStart": "2000-01-05T14:32:03.1867546+01:00",
+  "TueStop": "2020-12-17T14:32:03.1867546+01:00",
+  "WedStart": "1998-11-30T14:32:03.1867546+01:00",
+  "WedStop": "2001-10-11T14:32:03.1867546+02:00",
+  "ThuStart": "2018-05-26T14:32:03.1867546+02:00",
+  "ThuStop": "2019-10-05T14:32:03.1867546+02:00",
+  "FriStart": "1998-04-08T14:32:03.1867546+02:00",
+  "FriStop": "2018-03-22T14:32:03.1867546+01:00",
+  "SatStart": "2016-11-01T14:32:03.1867546+01:00",
+  "SatStop": "2017-09-19T14:32:03.1867546+02:00",
+  "SunStart": "2000-01-27T14:32:03.1867546+01:00",
+  "SunStop": "2001-09-29T14:32:03.1867546+02:00",
   "NonDates": [
-    "deserunt",
-    "nostrum"
+    "quisquam",
+    "quia"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 1000,
-      "AlertLevel": 478,
-      "AlertTimeout": 169,
-      "Action": 557,
-      "DelegateTo": 121,
-      "ScriptId": 170,
-      "EmailTo": "rashawn_gorczany@bashirian.us",
-      "SmsTo": "aliquam",
-      "ReplyTemplateIdCustomer": 115,
-      "ReplyTemplateIdUser": 960,
-      "ReplyTemplateIdCatmast": 34,
-      "ReplyTemplateIdEmail": 568,
-      "RtiCustomerSms": 422,
-      "ReplyTemplateIdUserSms": 359,
-      "ReplyTemplateIdCatmastSms": 754,
-      "ReplyTemplateIdSms": 679,
+      "TicketAlertId": 673,
+      "AlertLevel": 525,
+      "AlertTimeout": 467,
+      "Action": 258,
+      "DelegateTo": 879,
+      "ScriptId": 222,
+      "EmailTo": "kianna.kassulke@borer.biz",
+      "SmsTo": "itaque",
+      "ReplyTemplateIdCustomer": 584,
+      "ReplyTemplateIdUser": 819,
+      "ReplyTemplateIdCatmast": 846,
+      "ReplyTemplateIdEmail": 203,
+      "RtiCustomerSms": 734,
+      "ReplyTemplateIdUserSms": 425,
+      "ReplyTemplateIdCatmastSms": 655,
+      "ReplyTemplateIdSms": 339,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 74
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

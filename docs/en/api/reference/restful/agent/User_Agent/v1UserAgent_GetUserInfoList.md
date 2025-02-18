@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Deleted": false,
-    "UserInfoId": 545,
-    "UserName": "Friesen, Gutmann and Larkin",
-    "PersonId": 576,
-    "Rank": 860,
-    "Tooltip": "aut",
-    "UserGroupId": 408,
-    "EjUserId": 256,
+    "Deleted": true,
+    "UserInfoId": 805,
+    "UserName": "Kovacek, D'Amore and Wisozk",
+    "PersonId": 664,
+    "Rank": 498,
+    "Tooltip": "optio",
+    "UserGroupId": 545,
+    "EjUserId": 999,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "voluptatem",
-      "voluptate"
+      "ex",
+      "autem"
     ],
     "CanLogon": true,
-    "RoleName": "Kozey-Bradtke",
+    "RoleName": "Kuhn Group",
     "RoleTooltip": "porro",
-    "UserGroupName": "Pollich, Herman and Gleichner",
-    "UserGroupTooltip": "ipsum",
+    "UserGroupName": "Hickle Inc and Sons",
+    "UserGroupTooltip": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

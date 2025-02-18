@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,13 +78,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform zero defect superstructure",
-  "Filename": "et",
-  "Size": 586,
-  "Type": "non",
-  "Encoding": "ipsam",
-  "Id": "sed",
-  "Disposition": "consequatur",
+  "Description": "Networked coherent secured line",
+  "Filename": "beatae",
+  "Size": 948,
+  "Type": "rerum",
+  "Encoding": "autem",
+  "Id": "doloribus",
+  "Disposition": "aut",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 494
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Howe-Mertz",
-    "ToolTip": "Excepturi ut ea ut.",
+    "Id": 193,
+    "Name": "Koch, Bashirian and Kihn",
+    "ToolTip": "Ut facilis ab quis minus alias dolor.",
     "Deleted": true,
-    "Rank": 777,
-    "Type": "molestiae",
-    "ColorBlock": 873,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2016-01-19T12:01:33.495727+01:00",
+    "Rank": 716,
+    "Type": "eligendi",
+    "ColorBlock": 420,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2024-09-06T14:32:12.5989482+02:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Bashirian LLC",
-        "ToolTip": "Eum suscipit porro rerum qui est cupiditate asperiores.",
+        "Id": 591,
+        "Name": "D'Amore LLC",
+        "ToolTip": "Nisi qui vero repellendus iure libero.",
         "Deleted": false,
-        "Rank": 762,
-        "Type": "repellendus",
-        "ColorBlock": 136,
-        "IconHint": "non",
+        "Rank": 764,
+        "Type": "aut",
+        "ColorBlock": 347,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2017-11-18T12:01:33.495727+01:00",
+        "LastChanged": "2000-03-19T14:32:12.5989482+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Dr. Gisselle Junior Wehner"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Dana Farrell"
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "magni",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Tony Raynor DVM"
+    "FullName": "Gino Farrell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Crist Group",
-    "ToolTip": "Fuga et deserunt necessitatibus.",
+    "Id": 377,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Veniam delectus perspiciatis nulla voluptatem itaque aperiam.",
     "Deleted": false,
-    "Rank": 132,
-    "Type": "harum",
-    "ColorBlock": 594,
-    "IconHint": "facere",
+    "Rank": 277,
+    "Type": "qui",
+    "ColorBlock": 660,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2023-08-24T12:01:33.495727+02:00",
+    "LastChanged": "2000-08-30T14:32:12.5989482+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Sunt qui nostrum fugiat.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "laboriosam",
-        "ColorBlock": 222,
-        "IconHint": "porro",
+        "Id": 248,
+        "Name": "Hintz, Grimes and Rohan",
+        "ToolTip": "Corrupti harum nihil dicta.",
+        "Deleted": true,
+        "Rank": 722,
+        "Type": "sunt",
+        "ColorBlock": 568,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2015-08-08T12:01:33.495727+02:00",
+        "LastChanged": "2021-11-15T14:32:12.5989482+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "impedit",
+        "ExtraInfo": "odit",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Mrs. Nella Kendrick Price PhD",
+        "FullName": "Prof. Anabelle Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 712
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "minima",
+    "ExtraInfo": "quia",
+    "StyleHint": "vel",
     "Hidden": true,
-    "FullName": "Marley Monahan",
+    "FullName": "Hilma Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 898
       }
     }
   }

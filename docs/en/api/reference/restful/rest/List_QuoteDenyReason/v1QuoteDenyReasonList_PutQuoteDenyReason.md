@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Murray-Hickle",
-  "Tooltip": "dignissimos",
+  "Id": 842,
+  "Name": "Krajcik LLC",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "UdListDefinitionId": 746,
-  "Rank": 2
+  "UdListDefinitionId": 620,
+  "Rank": 516
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 890,
-  "Name": "Stracke-Hahn",
-  "Tooltip": "id",
+  "Id": 400,
+  "Name": "Borer-Runolfsson",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 514,
-  "Rank": 467,
+  "UdListDefinitionId": 722,
+  "Rank": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 22,
-  "CountryId": 742
+  "ContactId": 695,
+  "CountryId": 642
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 29773.0,
-  "Wgs84Longitude": 23091.311999999998,
+  "Wgs84Latitude": 4415.806,
+  "Wgs84Longitude": 9856.43,
   "LocalizedAddress": [
     [
       {
-        "Name": "Jacobs Group",
-        "Value": "aut",
-        "Tooltip": "iste",
-        "Label": "sed",
-        "ValueLength": 911,
-        "AddressType": "ad",
+        "Name": "Bruen Group",
+        "Value": "enim",
+        "Tooltip": "qui",
+        "Label": "vitae",
+        "ValueLength": 683,
+        "AddressType": "vel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldType": "System.Int32",
+            "FieldLength": 385
           }
         }
       }
     ],
     [
       {
-        "Name": "Wintheiser LLC",
+        "Name": "McClure Group",
         "Value": "et",
-        "Tooltip": "repellat",
-        "Label": "eligendi",
-        "ValueLength": 64,
-        "AddressType": "tenetur",
+        "Tooltip": "impedit",
+        "Label": "vitae",
+        "ValueLength": 769,
+        "AddressType": "perspiciatis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldType": "System.String",
+            "FieldLength": 801
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "hic",
+  "Formatted": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 156
     }
   }
 }

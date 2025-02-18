@@ -67,13 +67,13 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 736,
-  "Period2": 45,
-  "Period3": 599
+  "Period1": 673,
+  "Period2": 273,
+  "Period3": 726
 }
 ```
 
@@ -84,15 +84,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 215,
-  "Period2": 441,
-  "Period3": 792,
+  "Period1": 471,
+  "Period2": 862,
+  "Period3": 184,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

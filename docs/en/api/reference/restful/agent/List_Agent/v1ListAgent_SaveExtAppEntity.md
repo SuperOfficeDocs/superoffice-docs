@@ -105,18 +105,18 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 410,
-  "Name": "Block-Kautzer",
-  "Tooltip": "qui",
+  "ExtAppId": 282,
+  "Name": "O'Connell, McKenzie and Zieme",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 416,
-  "Filename": "labore",
-  "Parameters": "a",
-  "Workdir": "inventore",
+  "Rank": 114,
+  "Filename": "distinctio",
+  "Parameters": "quam",
+  "Workdir": "reprehenderit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 584,
-  "WaitToFinish": true,
+  "Icon": 950,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "adipisci"
+  "Path": "rerum"
 }
 ```
 
@@ -141,14 +141,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 364,
-  "Name": "Schuster-Runte",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 680,
-  "Filename": "voluptatem",
-  "Parameters": "repudiandae",
-  "Workdir": "quaerat",
+  "ExtAppId": 806,
+  "Name": "Reichel, Morissette and Ondricka",
+  "Tooltip": "deleniti",
+  "Deleted": false,
+  "Rank": 826,
+  "Filename": "magni",
+  "Parameters": "nostrum",
+  "Workdir": "reiciendis",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -157,18 +157,18 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 402,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 161,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "corrupti",
+  "Path": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

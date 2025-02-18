@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cormier, Gutmann and Hirthe",
-  "HeadingId": 86
+  "UdListDefinitionName": "Pfannerstill-Mayer",
+  "HeadingId": 663
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Kulas-Grant",
-    "ToolTip": "Rerum quibusdam perspiciatis.",
+    "Id": 945,
+    "Name": "Gulgowski-Macejkovic",
+    "ToolTip": "Ea veniam provident voluptatum magni molestias.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "qui",
-    "ColorBlock": 443,
-    "IconHint": "excepturi",
+    "Rank": 636,
+    "Type": "quo",
+    "ColorBlock": 806,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-05-09T12:01:27.9471677+02:00",
+    "LastChanged": "2012-04-26T14:32:03.124104+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Pouros, Welch and Mohr",
-        "ToolTip": "Illum qui quia explicabo voluptatibus.",
-        "Deleted": true,
-        "Rank": 910,
-        "Type": "consectetur",
-        "ColorBlock": 507,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "1998-03-24T12:01:27.9471677+01:00",
+        "Id": 948,
+        "Name": "Sporer, Kirlin and Littel",
+        "ToolTip": "Ea voluptas ab sequi et.",
+        "Deleted": false,
+        "Rank": 11,
+        "Type": "labore",
+        "ColorBlock": 33,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "1998-11-09T14:32:03.124104+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Devin Crist",
+        "ExtraInfo": "eos",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Marjory Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldType": "System.Int32",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Miss Maximillia Genesis Turcotte MD",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "dignissimos",
+    "Hidden": true,
+    "FullName": "Rebeka Charley Frami Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldType": "System.Int32",
+        "FieldLength": 912
       }
     }
   }

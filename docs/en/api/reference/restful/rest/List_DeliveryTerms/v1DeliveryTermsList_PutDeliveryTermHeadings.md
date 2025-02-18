@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "Bernhard-Macejkovic",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 8,
-    "UdListDefinitionId": 954
+    "HeadingId": 123,
+    "Name": "Pfannerstill, Feeney and Corwin",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "Rank": 845,
+    "UdListDefinitionId": 198
   },
   {
-    "HeadingId": 705,
-    "Name": "Bernhard-Macejkovic",
-    "Tooltip": "minus",
-    "Deleted": true,
-    "Rank": 8,
-    "UdListDefinitionId": 954
+    "HeadingId": 123,
+    "Name": "Pfannerstill, Feeney and Corwin",
+    "Tooltip": "neque",
+    "Deleted": false,
+    "Rank": 845,
+    "UdListDefinitionId": 198
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 122,
-    "Name": "Parisian LLC",
-    "Tooltip": "repudiandae",
+    "HeadingId": 24,
+    "Name": "Ortiz LLC",
+    "Tooltip": "impedit",
     "Deleted": false,
-    "Rank": 499,
-    "UdListDefinitionId": 425,
+    "Rank": 211,
+    "UdListDefinitionId": 775,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 581
       }
     }
   }

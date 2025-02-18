@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Schuppe, Feest and Rau",
-    "ToolTip": "Dolorem deleniti deleniti earum in doloribus aperiam.",
+    "Id": 462,
+    "Name": "Rohan Group",
+    "ToolTip": "Qui quod qui enim hic.",
     "Deleted": false,
-    "Rank": 603,
-    "Type": "qui",
-    "ColorBlock": 367,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2025-01-02T12:01:33.5738574+01:00",
+    "Rank": 987,
+    "Type": "et",
+    "ColorBlock": 893,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2005-07-06T14:32:12.7408353+02:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Barrows, Dooley and Bednar",
-        "ToolTip": "Cumque quo est velit ut.",
-        "Deleted": true,
-        "Rank": 477,
-        "Type": "veritatis",
-        "ColorBlock": 361,
-        "IconHint": "blanditiis",
-        "Selected": false,
-        "LastChanged": "2023-05-04T12:01:33.5738574+02:00",
+        "Id": 830,
+        "Name": "Hyatt-Ritchie",
+        "ToolTip": "Et asperiores non et velit amet est.",
+        "Deleted": false,
+        "Rank": 165,
+        "Type": "reprehenderit",
+        "ColorBlock": 177,
+        "IconHint": "excepturi",
+        "Selected": true,
+        "LastChanged": "2015-02-01T14:32:12.7408353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "exercitationem",
-        "Hidden": true,
-        "FullName": "Dr. Eliezer Hilll",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Mr. Guy Eleanore Harber II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Waino Lambert Schmeler Jr.",
+    "ExtraInfo": "iure",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Ms. Emil Denesik V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 570
       }
     }
   }

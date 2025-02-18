@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 600,
-  "ColumnId": 503,
-  "FieldDefault": "beatae",
-  "FieldHeight": 780,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 40,
-  "FieldTop": 794,
+  "UDefFieldId": 703,
+  "ColumnId": 174,
+  "FieldDefault": "odit",
+  "FieldHeight": 928,
+  "FieldLabel": "dolores",
+  "FieldLeft": 182,
+  "FieldTop": 474,
   "FieldType": "Checkbox",
-  "FieldWidth": 491,
-  "FormatMask": "ad",
-  "HideLabel": true,
+  "FieldWidth": 955,
+  "FormatMask": "sint",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 472,
-  "LabelLeft": 778,
-  "LabelTop": 506,
-  "LabelWidth": 364,
-  "LastVersionId": 990,
-  "ListTableId": 114,
-  "IsMandatory": false,
+  "LabelHeight": 163,
+  "LabelLeft": 547,
+  "LabelTop": 112,
+  "LabelWidth": 874,
+  "LastVersionId": 679,
+  "ListTableId": 169,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 150,
-  "ProgId": "delectus",
-  "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 373,
-  "TextLength": 294,
-  "Tooltip": "aut",
-  "UdefIdentity": 652,
-  "UDListDefinitionId": 995,
+  "Page1LineNo": 218,
+  "ProgId": "dolorum",
+  "IsReadOnly": true,
+  "ShortLabel": "quae",
+  "TabOrder": 497,
+  "TextLength": 802,
+  "Tooltip": "et",
+  "UdefIdentity": 233,
+  "UDListDefinitionId": 29,
   "Justification": "Center",
-  "Version": 972,
-  "TemplateVariableName": "Koepp-Schroeder",
-  "HasBeenPublished": true,
-  "MdoListName": "Grimes-Keeling",
+  "Version": 883,
+  "TemplateVariableName": "Wuckert, Muller and Larson",
+  "HasBeenPublished": false,
+  "MdoListName": "Hintz, Dooley and Keebler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 670
     }
   }
 }

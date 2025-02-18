@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Hamill, Stanton and O'Keefe",
-    "ToolTip": "Porro provident ex autem sit ratione aut.",
+    "Id": 8,
+    "Name": "Willms LLC",
+    "ToolTip": "Totam nihil repellendus et quia.",
     "Deleted": false,
-    "Rank": 253,
-    "Type": "pariatur",
-    "ColorBlock": 88,
-    "IconHint": "deleniti",
+    "Rank": 322,
+    "Type": "quis",
+    "ColorBlock": 25,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2024-11-28T12:01:33.6363617+01:00",
+    "LastChanged": "2005-04-30T14:32:12.8803697+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Schiller Group",
-        "ToolTip": "Vero nisi.",
+        "Id": 505,
+        "Name": "Stokes, Denesik and Yost",
+        "ToolTip": "Suscipit deleniti mollitia alias ut amet quia enim.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "voluptas",
-        "ColorBlock": 427,
-        "IconHint": "ut",
+        "Rank": 476,
+        "Type": "sed",
+        "ColorBlock": 415,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2010-04-06T12:01:33.6363617+02:00",
+        "LastChanged": "2000-09-29T14:32:12.8803697+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "expedita",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Prof. Hilma Ericka Senger",
+        "FullName": "Cortney Dino Conn MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldType": "System.String",
+            "FieldLength": 976
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "dolor",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Emelie Anita Strosin V",
+    "FullName": "Mrs. Emmie Jayne Rath DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 675
       }
     }
   }

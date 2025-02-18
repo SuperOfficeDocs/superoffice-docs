@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Cremin LLC",
-    "ToolTip": "Aliquam est quisquam.",
+    "Id": 222,
+    "Name": "Price, Hodkiewicz and Pfannerstill",
+    "ToolTip": "Et laudantium.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "adipisci",
-    "ColorBlock": 306,
-    "IconHint": "sunt",
+    "Rank": 654,
+    "Type": "voluptatem",
+    "ColorBlock": 409,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2017-02-21T12:01:33.5269792+01:00",
+    "LastChanged": "2016-03-27T14:32:12.6458125+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "O'Kon LLC",
-        "ToolTip": "Ducimus et iure commodi dolor.",
-        "Deleted": false,
-        "Rank": 280,
-        "Type": "porro",
-        "ColorBlock": 473,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2010-10-09T12:01:33.5269792+02:00",
+        "Id": 534,
+        "Name": "Parker LLC",
+        "ToolTip": "Eos id repellat quo dignissimos quia saepe.",
+        "Deleted": true,
+        "Rank": 258,
+        "Type": "inventore",
+        "ColorBlock": 181,
+        "IconHint": "harum",
+        "Selected": true,
+        "LastChanged": "2024-07-28T14:32:12.6458125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolor",
+        "ExtraInfo": "minus",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Sophia Kihn"
+        "FullName": "Ms. Marilie Karelle Goldner Jr."
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Percy Wilkinson III"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Zena Schuppe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Illo qui voluptas at temporibus quidem necessitatibus commodi.",
-    "Deleted": true,
-    "Rank": 437,
-    "Type": "consequatur",
-    "ColorBlock": 144,
-    "IconHint": "totam",
+    "Id": 251,
+    "Name": "Gislason, Veum and Goodwin",
+    "ToolTip": "Vel ut dolorem deserunt minima nesciunt eos nemo.",
+    "Deleted": false,
+    "Rank": 461,
+    "Type": "quis",
+    "ColorBlock": 170,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2000-05-20T12:01:33.5269792+02:00",
+    "LastChanged": "2013-08-03T14:32:12.6458125+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Dicki, Grant and Walker",
-        "ToolTip": "Distinctio veritatis iure voluptas distinctio porro.",
+        "Id": 874,
+        "Name": "Schuster, Tromp and DuBuque",
+        "ToolTip": "Dolorum sed.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "molestias",
-        "ColorBlock": 337,
-        "IconHint": "earum",
+        "Rank": 781,
+        "Type": "aliquam",
+        "ColorBlock": 843,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2002-12-27T12:01:33.5269792+01:00",
+        "LastChanged": "2000-03-29T14:32:12.6458125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "nulla",
+        "ExtraInfo": "inventore",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Dr. Amara Gorczany",
+        "FullName": "Filomena Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldType": "System.String",
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "at",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "placeat",
     "Hidden": false,
-    "FullName": "Mckenna Reilly",
+    "FullName": "Mazie Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 66
       }
     }
   }

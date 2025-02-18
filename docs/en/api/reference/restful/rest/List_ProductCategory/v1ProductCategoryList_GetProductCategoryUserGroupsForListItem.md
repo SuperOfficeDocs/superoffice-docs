@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 832,
-    "Name": "Runolfsson-Emard",
-    "ToolTip": "Quod natus qui aperiam consequatur id rem et.",
+    "Id": 903,
+    "Name": "Hoeger Inc and Sons",
+    "ToolTip": "Occaecati laboriosam enim provident rerum ullam voluptatum.",
     "Deleted": true,
-    "Rank": 631,
-    "Type": "amet",
-    "ColorBlock": 444,
-    "IconHint": "iure",
-    "Selected": true,
-    "LastChanged": "2000-01-10T12:01:33.5738574+01:00",
+    "Rank": 429,
+    "Type": "fugit",
+    "ColorBlock": 318,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2015-12-20T14:32:12.7408353+01:00",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Fisher, Beier and Botsford",
-        "ToolTip": "Corporis tempora beatae a nam consequatur quod eveniet.",
+        "Id": 582,
+        "Name": "Trantow-Tremblay",
+        "ToolTip": "Aut eligendi quod qui molestiae suscipit.",
         "Deleted": false,
-        "Rank": 780,
-        "Type": "laboriosam",
-        "ColorBlock": 538,
-        "IconHint": "velit",
+        "Rank": 396,
+        "Type": "quia",
+        "ColorBlock": 701,
+        "IconHint": "quia",
         "Selected": true,
-        "LastChanged": "2013-12-03T12:01:33.5738574+01:00",
+        "LastChanged": "2021-06-17T14:32:12.7408353+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "non",
+        "ExtraInfo": "a",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Anastacio Murphy",
+        "FullName": "Dr. Constantin Ryan Conn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 244
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "velit",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "natus",
     "Hidden": true,
-    "FullName": "Lawrence Runolfsson",
+    "FullName": "Myles Reichel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 285
+        "FieldLength": 119
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 219,
-  "Select": "incidunt"
+  "SelectionId": 122,
+  "Select": "iusto"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "D'Amore-Langosh",
-    "PrimaryKey": 641,
+    "EntityName": "Wunsch, Stokes and Champlin",
+    "PrimaryKey": 971,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "explicabo",
-        "TooltipHint": "facere",
-        "LinkHint": "voluptas"
+        "DisplayValue": "sunt",
+        "TooltipHint": "quia",
+        "LinkHint": "accusantium"
       }
     },
-    "LinkHint": "nihil",
-    "StyleHint": "est",
+    "LinkHint": "mollitia",
+    "StyleHint": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

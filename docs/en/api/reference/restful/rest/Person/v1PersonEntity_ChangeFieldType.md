@@ -30,7 +30,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 755,
-  "ColumnId": 399,
-  "FieldDefault": "saepe",
-  "FieldHeight": 11,
-  "FieldLabel": "aut",
-  "FieldLeft": 397,
-  "FieldTop": 115,
+  "UDefFieldId": 957,
+  "ColumnId": 66,
+  "FieldDefault": "esse",
+  "FieldHeight": 1001,
+  "FieldLabel": "similique",
+  "FieldLeft": 837,
+  "FieldTop": 856,
   "FieldType": "Checkbox",
-  "FieldWidth": 113,
-  "FormatMask": "omnis",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 900,
-  "LabelLeft": 46,
-  "LabelTop": 115,
-  "LabelWidth": 538,
-  "LastVersionId": 517,
-  "ListTableId": 516,
+  "FieldWidth": 57,
+  "FormatMask": "laudantium",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 220,
+  "LabelLeft": 972,
+  "LabelTop": 176,
+  "LabelWidth": 887,
+  "LastVersionId": 29,
+  "ListTableId": 632,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 704,
-  "ProgId": "omnis",
+  "Page1LineNo": 274,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "ab",
-  "TabOrder": 515,
-  "TextLength": 594,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 524,
-  "UDListDefinitionId": 291,
+  "ShortLabel": "rerum",
+  "TabOrder": 900,
+  "TextLength": 656,
+  "Tooltip": "sunt",
+  "UdefIdentity": 276,
+  "UDListDefinitionId": 779,
   "Justification": "Center",
-  "Version": 595,
-  "TemplateVariableName": "Wilkinson, Davis and Hirthe",
+  "Version": 405,
+  "TemplateVariableName": "Ullrich LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Lowe-Lubowitz",
+  "MdoListName": "Yost Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 448
     }
   }
 }

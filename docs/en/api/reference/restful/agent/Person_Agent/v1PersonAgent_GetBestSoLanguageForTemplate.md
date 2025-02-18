@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Person/GetBestSoLanguageForTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 625,
-  "TemplateId": 681
+  "PersonId": 251,
+  "TemplateId": 403
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"deleniti"
+"suscipit"
 ```

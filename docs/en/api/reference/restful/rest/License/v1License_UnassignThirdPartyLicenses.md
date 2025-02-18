@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 887,
-    "Tooltip": "a",
-    "CanAssign": false,
-    "Free": 780,
-    "InUse": 876,
+    "Total": 859,
+    "Tooltip": "incidunt",
+    "CanAssign": true,
+    "Free": 989,
+    "InUse": 964,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 931,
-    "Name": "Halvorson, Gutmann and DuBuque",
-    "Description": "Customizable scalable website",
-    "PrerequisiteModuleName": "Wintheiser-Cartwright",
-    "SortOrder": 688,
-    "ExtraFlags": 899,
+    "ModuleLicenseId": 800,
+    "Name": "Thiel-Gutmann",
+    "Description": "Devolved contextually-based toolset",
+    "PrerequisiteModuleName": "Daniel Group",
+    "SortOrder": 613,
+    "ExtraFlags": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldLength": 585
       }
     }
   }

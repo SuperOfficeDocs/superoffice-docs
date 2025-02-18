@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "qui",
+  "Provider": "facere",
   "Restrictions": [
     {
-      "Name": "Goldner, Ratke and Stark",
-      "Operator": "illo",
+      "Name": "Schaden Inc and Sons",
+      "Operator": "dolor",
       "Values": [
-        "sint",
-        "veniam"
+        "pariatur",
+        "numquam"
       ],
       "DisplayValues": [
-        "id",
-        "repudiandae"
+        "exercitationem",
+        "provident"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 219,
+      "InterParenthesis": 489,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 505
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  835,
-  316
+  140,
+  43
 ]
 ```

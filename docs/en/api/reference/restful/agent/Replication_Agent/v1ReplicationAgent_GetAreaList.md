@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 46,
-    "Name": "McDermott Inc and Sons",
-    "MaxDataAge": 505,
-    "NumberOfUsers": 535,
-    "NumberOfLogins": 35,
-    "FreetextEnabeled": true,
+    "AreaId": 776,
+    "Name": "Bechtelar Inc and Sons",
+    "MaxDataAge": 777,
+    "NumberOfUsers": 606,
+    "NumberOfLogins": 802,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 591
       }
     }
   }

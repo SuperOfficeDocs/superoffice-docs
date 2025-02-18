@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 981,
-    "Name": "Kovacek-Wintheiser",
-    "Tooltip": "iste",
-    "Rank": 171,
+    "SaleTypeId": 201,
+    "Name": "Wilderman Inc and Sons",
+    "Tooltip": "voluptate",
+    "Rank": 213,
     "DurationUnit": "Century",
-    "SaleDuration": 162,
-    "SaleTypeCatId": 111,
+    "SaleDuration": 900,
+    "SaleTypeCatId": 350,
     "Deleted": false,
-    "HasGuide": false,
-    "HasStakeholders": false,
+    "HasGuide": true,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 272,
-    "QuoteLinesTemplate": 868,
-    "ConfirmationLinesTemplate": 881,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 467,
+    "QuoteLinesTemplate": 633,
+    "ConfirmationLinesTemplate": 845,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 945,
-    "MinEarningPercent": 878,
-    "GroupQuoteLinesBy": 784,
-    "SortGroupLinesBy": 129,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 923,
+    "MinEarningPercent": 508,
+    "GroupQuoteLinesBy": 529,
+    "SortGroupLinesBy": 533,
     "Stages": [
       {
-        "Id": 259,
-        "Name": "Bernhard, Becker and Homenick",
-        "ToolTip": "Explicabo delectus iusto consequatur placeat.",
-        "Deleted": false,
-        "Rank": 691,
-        "Type": "est",
-        "ColorBlock": 36,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "2010-01-15T12:01:33.6519877+01:00",
+        "Id": 697,
+        "Name": "Leffler-Runte",
+        "ToolTip": "Exercitationem quis maiores voluptatem ea assumenda laborum.",
+        "Deleted": true,
+        "Rank": 694,
+        "Type": "qui",
+        "ColorBlock": 850,
+        "IconHint": "illo",
+        "Selected": true,
+        "LastChanged": "2008-02-21T14:32:12.8959913+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "nulla",
+        "ExtraInfo": "eaque",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Virgil Kuhic",
+        "FullName": "Kallie Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 222
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldLength": 217
       }
     }
   }

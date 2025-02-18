@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 855,
-    "DisplayName": "Fisher, Rolfson and Bechtelar",
-    "OngoingChats": 206,
-    "Present": false,
+    "UserId": 145,
+    "DisplayName": "Reinger-Raynor",
+    "OngoingChats": 607,
+    "Present": true,
     "ChatTopics": [
-      162,
-      893
+      513,
+      725
     ]
   },
   {
-    "UserId": 855,
-    "DisplayName": "Fisher, Rolfson and Bechtelar",
-    "OngoingChats": 206,
-    "Present": false,
+    "UserId": 145,
+    "DisplayName": "Reinger-Raynor",
+    "OngoingChats": 607,
+    "Present": true,
     "ChatTopics": [
-      162,
-      893
+      513,
+      725
     ]
   }
 ]

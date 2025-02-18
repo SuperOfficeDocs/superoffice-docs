@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 36
+  "DocumentId": 81
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McClure, Macejkovic and Thiel",
-  "Type": "dolor",
-  "Size": 23,
+  "Name": "Wolf, Berge and Kovacek",
+  "Type": "non",
+  "Size": 903,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

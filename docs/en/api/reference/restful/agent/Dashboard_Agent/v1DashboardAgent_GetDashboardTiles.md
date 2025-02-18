@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    749,
-    381
+    796,
+    656
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 10,
-    "Caption": "fuga",
-    "Description": "Cross-group global core",
-    "ChartName": "Emard Group",
-    "ChartId": "minus",
-    "IsDefault": true,
-    "AssociateId": 74,
-    "GroupId": 799,
-    "SelectionId": 807,
-    "Config": "veritatis",
+    "DashboardTileId": 491,
+    "Caption": "beatae",
+    "Description": "Multi-lateral attitude-oriented functionalities",
+    "ChartName": "Reinger Group",
+    "ChartId": "nemo",
+    "IsDefault": false,
+    "AssociateId": 748,
+    "GroupId": 524,
+    "SelectionId": 355,
+    "Config": "voluptatem",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Sanford-Gusikowski",
-        "Description": "Switchable tangible conglomeration",
+        "Name": "Terry, Weimann and Lehner",
+        "Description": "Self-enabling discrete intranet",
         "Type": "Boolean",
-        "ListName": "Lesch LLC",
+        "ListName": "Ebert, Brekke and Gleason",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "fuga",
+        "Value": "soluta",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 605
+            "FieldType": "System.Int32",
+            "FieldLength": 668
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 419,
+        "VisibleId": 215,
         "Visibility": "All",
-        "DisplayValue": "magni",
+        "DisplayValue": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldType": "System.String",
+            "FieldLength": 211
           }
         }
       },
       {
-        "VisibleId": 419,
+        "VisibleId": 215,
         "Visibility": "All",
-        "DisplayValue": "magni",
+        "DisplayValue": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldType": "System.String",
+            "FieldLength": 211
           }
         }
       }
@@ -171,8 +171,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered grid-enabled complexity",
-  "Postit": "odio",
+  "Description": "Reverse-engineered solution-oriented secured line",
+  "Postit": "sint",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 411,
-  "IncludePerson": 554,
+  "GroupIdx": 334,
+  "IncludePerson": 797,
   "MemberCount": 99.99,
-  "Name": "Denesik LLC",
-  "PostitTextId": 359,
-  "CreatedDate": "1998-05-02T12:01:28.275316+02:00",
-  "SelectionId": 768,
-  "SoundEx": "eum",
-  "Source": 515,
-  "TextId": 709,
-  "UpdatedDate": "2003-03-28T12:01:28.275316+01:00",
-  "UpdatedCount": 289,
-  "Visibility": 468,
+  "Name": "Ruecker Group",
+  "PostitTextId": 423,
+  "CreatedDate": "2003-02-13T14:32:03.7335364+01:00",
+  "SelectionId": 557,
+  "SoundEx": "sunt",
+  "Source": 665,
+  "TextId": 294,
+  "UpdatedDate": "2002-01-31T14:32:03.7335364+01:00",
+  "UpdatedCount": 464,
+  "Visibility": 759,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 286,
-  "TargetTableName": "Fritsch Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 345,
+  "TargetTableName": "Jacobs, Kuhn and Jacobi",
   "Completed": false,
-  "LeftSelectionId": 155,
-  "RightSelectionId": 574,
+  "LeftSelectionId": 613,
+  "RightSelectionId": 650,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Yost-Mayert",
-  "ShadowProviderName": "Prosacco, Parisian and Schneider",
-  "ChartKey": "quo",
-  "LastLoaded": "2007-11-04T12:01:28.275316+01:00",
-  "LastLoadedBy": 478,
+  "MainProviderName": "Waelchi-Erdman",
+  "ShadowProviderName": "Gibson Inc and Sons",
+  "ChartKey": "eos",
+  "LastLoaded": "2016-05-11T14:32:03.7335364+02:00",
+  "LastLoadedBy": 325,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-04-22T12:01:28.275316+02:00",
-  "LastMembershipChangeBy": 837,
+  "LastMembershipChange": "2006-06-08T14:32:03.7335364+02:00",
+  "LastMembershipChangeBy": 55,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laudantium",
-  "MemberTabHeading": "incidunt",
-  "MailingsProviderName": "Lynch, King and Volkman",
-  "DashboardTileDefinitionId": 414,
+  "MainHeading": "minus",
+  "MemberTabHeading": "laboriosam",
+  "MailingsProviderName": "O'Connell, Lindgren and Greenholt",
+  "DashboardTileDefinitionId": 899,
   "VisibleFor": [
     {
-      "VisibleId": 560,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     },
     {
-      "VisibleId": 560,
+      "VisibleId": 747,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 787
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldLength": 380
     }
   }
 }

@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 423,
-    "FieldName": "Leannon Inc and Sons",
+    "QuoteLineConfigurationId": 698,
+    "FieldName": "Luettgen-Nitzsche",
     "Label": "ex",
-    "Tooltip": "aut",
-    "Editable": true,
+    "Tooltip": "mollitia",
+    "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 306,
-    "RestrictEdit": true,
+    "Rank": 582,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 670
       }
     }
   }

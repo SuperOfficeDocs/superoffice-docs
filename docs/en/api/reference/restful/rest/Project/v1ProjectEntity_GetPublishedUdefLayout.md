@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 428,
-    "ColumnId": 72,
-    "FieldDefault": "ad",
-    "FieldHeight": 793,
-    "FieldLabel": "sed",
-    "FieldLeft": 4,
-    "FieldTop": 994,
+    "UDefFieldId": 557,
+    "ColumnId": 777,
+    "FieldDefault": "quia",
+    "FieldHeight": 574,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 556,
+    "FieldTop": 421,
     "FieldType": "Checkbox",
-    "FieldWidth": 157,
-    "FormatMask": "laborum",
-    "HideLabel": true,
+    "FieldWidth": 282,
+    "FormatMask": "qui",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 170,
-    "LabelLeft": 173,
-    "LabelTop": 455,
-    "LabelWidth": 207,
-    "LastVersionId": 629,
-    "ListTableId": 196,
+    "LabelHeight": 635,
+    "LabelLeft": 275,
+    "LabelTop": 497,
+    "LabelWidth": 900,
+    "LastVersionId": 649,
+    "ListTableId": 54,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 377,
-    "ProgId": "minus",
+    "Page1LineNo": 283,
+    "ProgId": "dolor",
     "IsReadOnly": false,
-    "ShortLabel": "quo",
-    "TabOrder": 992,
-    "TextLength": 79,
-    "Tooltip": "veniam",
-    "UdefIdentity": 708,
-    "UDListDefinitionId": 82,
+    "ShortLabel": "sapiente",
+    "TabOrder": 241,
+    "TextLength": 73,
+    "Tooltip": "recusandae",
+    "UdefIdentity": 970,
+    "UDListDefinitionId": 367,
     "Justification": "Center",
-    "Version": 950,
-    "TemplateVariableName": "Daniel Group",
+    "Version": 117,
+    "TemplateVariableName": "Wolf, Pollich and Rice",
     "HasBeenPublished": false,
-    "MdoListName": "Kub-Kilback",
+    "MdoListName": "Nienow-Swaniawski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 35
       }
     }
   }

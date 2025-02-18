@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 583,
-  "Name": "Cassin, Daniel and Torphy",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 968,
-  "UdListDefinitionId": 930
+  "HeadingId": 442,
+  "Name": "Hyatt Group",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 472,
+  "UdListDefinitionId": 400
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 761,
-  "Name": "Conn Group",
-  "Tooltip": "quos",
+  "HeadingId": 403,
+  "Name": "Frami, Kreiger and Jerde",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 638,
-  "UdListDefinitionId": 963,
+  "Rank": 921,
+  "UdListDefinitionId": 324,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 310
     }
   }
 }

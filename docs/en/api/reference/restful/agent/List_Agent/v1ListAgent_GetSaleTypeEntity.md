@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=259
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=470
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 530,
-  "Name": "Davis, Conroy and Corwin",
-  "Tooltip": "aut",
-  "Rank": 880,
+  "SaleTypeId": 634,
+  "Name": "Wunsch Group",
+  "Tooltip": "itaque",
+  "Rank": 992,
   "DurationUnit": "Century",
-  "SaleDuration": 179,
-  "SaleTypeCatId": 693,
-  "Deleted": true,
+  "SaleDuration": 288,
+  "SaleTypeCatId": 849,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 784,
-  "QuoteLinesTemplate": 718,
-  "ConfirmationLinesTemplate": 370,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 124,
-  "MinEarningPercent": 150,
-  "GroupQuoteLinesBy": 170,
-  "SortGroupLinesBy": 30,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 790,
+  "QuoteLinesTemplate": 433,
+  "ConfirmationLinesTemplate": 837,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 678,
+  "MinEarningPercent": 331,
+  "GroupQuoteLinesBy": 569,
+  "SortGroupLinesBy": 91,
   "Stages": [
     {
-      "Id": 425,
-      "Name": "Welch, Ernser and Davis",
-      "ToolTip": "Odit consequatur et et.",
-      "Deleted": false,
-      "Rank": 994,
-      "Type": "soluta",
-      "ColorBlock": 236,
-      "IconHint": "maiores",
-      "Selected": true,
-      "LastChanged": "2011-04-12T12:01:27.9315414+02:00",
+      "Id": 413,
+      "Name": "Hegmann-Sporer",
+      "ToolTip": "Sed pariatur.",
+      "Deleted": true,
+      "Rank": 693,
+      "Type": "nostrum",
+      "ColorBlock": 108,
+      "IconHint": "consequatur",
+      "Selected": false,
+      "LastChanged": "2023-06-05T14:32:03.0928623+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "deserunt",
+      "ExtraInfo": "et",
+      "StyleHint": "modi",
       "Hidden": true,
-      "FullName": "Shane Mayer",
+      "FullName": "Mr. Dorris Marco Goldner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 369
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 176
     }
   }
 }

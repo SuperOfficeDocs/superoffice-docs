@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "neque",
-  "ProgramName": "Ullrich, Stiedemann and Klein",
-  "Action": "amet",
-  "ExtraParameters": "accusantium"
+  "Language": "natus",
+  "ProgramName": "Emmerich, Dooley and Halvorson",
+  "Action": "mollitia",
+  "ExtraParameters": "voluptatibus"
 }
 ```
 

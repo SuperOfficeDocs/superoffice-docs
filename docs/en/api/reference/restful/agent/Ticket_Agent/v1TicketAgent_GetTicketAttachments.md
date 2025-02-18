@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 332
+  "TicketEntityId": 133
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 329,
-    "Name": "Greenfelder-Schneider",
-    "ContentType": "et",
-    "AttSize": 993,
-    "InlineImage": true,
-    "ContentId": "illum",
-    "AuthKey": "veniam",
+    "AttachmentId": 151,
+    "Name": "Roberts-Schroeder",
+    "ContentType": "sit",
+    "AttSize": 652,
+    "InlineImage": false,
+    "ContentId": "amet",
+    "AuthKey": "similique",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldLength": 636
       }
     }
   }

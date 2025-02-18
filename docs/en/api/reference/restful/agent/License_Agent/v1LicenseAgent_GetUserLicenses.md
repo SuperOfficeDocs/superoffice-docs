@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 505
+  "AssociateId": 733
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang-Mitchell",
-    "Description": "Implemented optimizing hierarchy",
+    "Name": "Powlowski Inc and Sons",
+    "Description": "Cross-group assymetric productivity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 823,
-        "Tooltip": "atque",
+        "Total": 482,
+        "Tooltip": "quisquam",
         "CanAssign": false,
-        "Free": 327,
-        "InUse": 425,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 690,
-        "Name": "Dickens, Prosacco and Larkin",
-        "Description": "Total methodical product",
-        "PrerequisiteModuleName": "Grant, Johnson and Smith",
-        "SortOrder": 844,
-        "ExtraFlags": 415,
+        "Free": 50,
+        "InUse": 833,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 685,
+        "Name": "Stamm-Murazik",
+        "Description": "Down-sized exuding initiative",
+        "PrerequisiteModuleName": "Hickle, Denesik and Gerhold",
+        "SortOrder": 130,
+        "ExtraFlags": 573,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldLength": 381
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 181,
-        "InUse": 388,
+        "Total": 31,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 77,
+        "InUse": 685,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 665,
-        "Name": "Torp LLC",
-        "Description": "Balanced logistical framework",
-        "PrerequisiteModuleName": "Prohaska Group",
-        "SortOrder": 800,
-        "ExtraFlags": 655,
+        "ModuleLicenseId": 280,
+        "Name": "Conroy LLC",
+        "Description": "Profit-focused disintermediate Graphical User Interface",
+        "PrerequisiteModuleName": "Lebsack, Schinner and Johns",
+        "SortOrder": 105,
+        "ExtraFlags": 861,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 61
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 333
       }
     }
   },
   {
-    "Name": "Lang-Mitchell",
-    "Description": "Implemented optimizing hierarchy",
+    "Name": "Powlowski Inc and Sons",
+    "Description": "Cross-group assymetric productivity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 823,
-        "Tooltip": "atque",
+        "Total": 482,
+        "Tooltip": "quisquam",
         "CanAssign": false,
-        "Free": 327,
-        "InUse": 425,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 690,
-        "Name": "Dickens, Prosacco and Larkin",
-        "Description": "Total methodical product",
-        "PrerequisiteModuleName": "Grant, Johnson and Smith",
-        "SortOrder": 844,
-        "ExtraFlags": 415,
+        "Free": 50,
+        "InUse": 833,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 685,
+        "Name": "Stamm-Murazik",
+        "Description": "Down-sized exuding initiative",
+        "PrerequisiteModuleName": "Hickle, Denesik and Gerhold",
+        "SortOrder": 130,
+        "ExtraFlags": 573,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldLength": 381
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 181,
-        "InUse": 388,
+        "Total": 31,
+        "Tooltip": "sunt",
+        "CanAssign": false,
+        "Free": 77,
+        "InUse": 685,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 665,
-        "Name": "Torp LLC",
-        "Description": "Balanced logistical framework",
-        "PrerequisiteModuleName": "Prohaska Group",
-        "SortOrder": 800,
-        "ExtraFlags": 655,
+        "ModuleLicenseId": 280,
+        "Name": "Conroy LLC",
+        "Description": "Profit-focused disintermediate Graphical User Interface",
+        "PrerequisiteModuleName": "Lebsack, Schinner and Johns",
+        "SortOrder": 105,
+        "ExtraFlags": 861,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 61
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 333
       }
     }
   }

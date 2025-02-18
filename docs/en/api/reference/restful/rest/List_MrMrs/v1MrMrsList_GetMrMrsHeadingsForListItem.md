@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Altenwerth Inc and Sons",
-    "ToolTip": "Quia rem aperiam accusamus.",
-    "Deleted": true,
-    "Rank": 433,
-    "Type": "excepturi",
-    "ColorBlock": 509,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2017-06-02T12:01:33.5269792+02:00",
+    "Id": 505,
+    "Name": "Runolfsson Group",
+    "ToolTip": "Dolor voluptate minima deleniti.",
+    "Deleted": false,
+    "Rank": 979,
+    "Type": "voluptatem",
+    "ColorBlock": 524,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2010-07-19T14:32:12.6614341+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Cartwright-Roberts",
-        "ToolTip": "Itaque est dolor mollitia quod in nesciunt aut.",
-        "Deleted": true,
-        "Rank": 198,
-        "Type": "nobis",
-        "ColorBlock": 439,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2001-02-23T12:01:33.5269792+01:00",
+        "Id": 661,
+        "Name": "Hackett LLC",
+        "ToolTip": "Natus vero saepe id.",
+        "Deleted": false,
+        "Rank": 249,
+        "Type": "delectus",
+        "ColorBlock": 97,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2009-10-20T14:32:12.6614341+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Leonora Torphy",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Samara Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ozella Gutmann",
+    "FullName": "Zelda Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 696
       }
     }
   }

@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 641,
-  "AssociateId": 8
+  "AppointmentId": 786,
+  "AssociateId": 853
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-01-26T12:01:27.197115+01:00",
-  "AppointmentId": 978,
-  "Description": "Organized bifurcated open system",
-  "Title": "voluptate",
-  "Agenda": "et",
-  "InternalNotes": "iusto",
-  "StartDate": "2010-07-03T12:01:27.197115+02:00",
-  "EndDate": "2012-02-06T12:01:27.197115+01:00",
+  "CreatedDate": "2007-07-26T14:32:01.764865+02:00",
+  "AppointmentId": 180,
+  "Description": "Managed needs-based standardization",
+  "Title": "quo",
+  "Agenda": "aut",
+  "InternalNotes": "ut",
+  "StartDate": "2018-01-10T14:32:01.764865+01:00",
+  "EndDate": "2007-11-19T14:32:01.764865+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 520,
+  "MotherId": 796,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-05-17T12:01:27.197115+02:00",
+  "UpdatedDate": "2003-11-28T14:32:01.7804871+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 982,
+  "ActiveLinks": 521,
   "Links": [
     {
-      "EntityName": "Schultz-Steuber",
-      "Id": 132,
-      "Description": "Synergistic 24 hour matrix",
-      "ExtraInfo": "velit",
-      "LinkId": 120,
+      "EntityName": "Kirlin Group",
+      "Id": 14,
+      "Description": "Face to face even-keeled emulation",
+      "ExtraInfo": "temporibus",
+      "LinkId": 550,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 233
         }
       }
     }
   ],
-  "AlarmLeadTime": "quas",
-  "HasAlarm": true,
-  "ColorIndex": 772,
-  "IsFree": true,
+  "AlarmLeadTime": "cum",
+  "HasAlarm": false,
+  "ColorIndex": 546,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "corporis",
-  "LeadTime": "officiis",
-  "Location": "incidunt",
-  "RejectCounter": 407,
-  "RejectReason": "",
+  "LagTime": "dolorem",
+  "LeadTime": "quisquam",
+  "Location": "quidem",
+  "RejectCounter": 305,
+  "RejectReason": "target granular e-markets",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 401,
-      "PersonId": 665,
-      "ContactId": 134,
-      "EmailId": 74,
+      "AssociateId": 91,
+      "PersonId": 670,
+      "ContactId": 289,
+      "EmailId": 573,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "wallace@kris.co.uk",
-      "Description": "Centralized discrete challenge"
+      "EmailAddress": "jordi@mayert.name",
+      "Description": "Innovative client-driven infrastructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-05-05T12:01:27.197115+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2003-12-04T14:32:01.7804871+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 688,
+  "PreferredTZLocation": 102,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 407,
+  "SuggestedAppointmentId": 622,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "placeat",
   "UserDefinedFields": {
-    "SuperOffice:1": "Marisol Deckow",
-    "SuperOffice:2": "Mathew Labadie"
+    "SuperOffice:1": "Cullen Nienow",
+    "SuperOffice:2": "Jordan Providenci Keeling DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "sed",
+    "CustomFields2": "quasi"
   },
-  "PublishEventDate": "1997-12-24T12:01:27.197115+01:00",
-  "PublishTo": "2021-03-11T12:01:27.197115+01:00",
-  "PublishFrom": "2023-08-04T12:01:27.197115+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-05-21T14:32:01.7804871+02:00",
+  "PublishTo": "2004-04-02T14:32:01.7804871+02:00",
+  "PublishFrom": "2021-02-03T14:32:01.7804871+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 181,
+      "VisibleId": 962,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldLength": 659
         }
       }
     },
     {
-      "VisibleId": 181,
+      "VisibleId": 962,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldLength": 659
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldLength": 271
     }
   }
 }

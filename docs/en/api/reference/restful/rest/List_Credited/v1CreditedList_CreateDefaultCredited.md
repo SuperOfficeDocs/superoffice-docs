@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Klocko Inc and Sons",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 389,
-  "Rank": 216,
+  "Id": 229,
+  "Name": "Herzog Inc and Sons",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "UdListDefinitionId": 187,
+  "Rank": 593,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 751
     }
   }
 }

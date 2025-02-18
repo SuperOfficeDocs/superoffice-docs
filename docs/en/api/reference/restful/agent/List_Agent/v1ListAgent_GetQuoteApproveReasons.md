@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Value": "odit",
-    "Tooltip": "quaerat",
+    "Id": 56,
+    "Value": "exercitationem",
+    "Tooltip": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   },
   {
-    "Id": 871,
-    "Value": "odit",
-    "Tooltip": "quaerat",
+    "Id": 56,
+    "Value": "exercitationem",
+    "Tooltip": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   }

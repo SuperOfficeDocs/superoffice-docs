@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 893,
-  "Name": "Medhurst, Koch and Dare",
-  "Tooltip": "quibusdam",
-  "SaveInDb": 938,
-  "Filename": "repellat",
-  "DefaultOref": "officiis",
+  "DocumentTemplateId": 506,
+  "Name": "Konopelski Group",
+  "Tooltip": "et",
+  "SaveInDb": 889,
+  "Filename": "ipsum",
+  "DefaultOref": "ut",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 36,
-  "IntentId": 37,
-  "IsDefaultPublished": false,
-  "Rank": 877,
-  "LoadTemplateFromPlugin": 768,
-  "MimeType": "et",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 66,
+  "AutoeventId": 870,
+  "IntentId": 114,
+  "IsDefaultPublished": true,
+  "Rank": 935,
+  "LoadTemplateFromPlugin": 285,
+  "MimeType": "tempora",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 75,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "elouise@schaden.us",
+  "EmailSubject": "jevon.smith@hamill.info",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "geovanni.balistreri@luettgengoodwin.biz",
+  "SenderEmailAddress": "richmond@crooks.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 583,
-  "Name": "Zboncak-Pagac",
-  "Tooltip": "et",
-  "SaveInDb": 173,
-  "Filename": "sed",
-  "DefaultOref": "dolorem",
+  "DocumentTemplateId": 169,
+  "Name": "Murray Group",
+  "Tooltip": "minima",
+  "SaveInDb": 765,
+  "Filename": "fugit",
+  "DefaultOref": "eum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 74,
-  "IntentId": 491,
-  "IsDefaultPublished": false,
-  "Rank": 199,
-  "LoadTemplateFromPlugin": 620,
-  "MimeType": "tempore",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 238,
+  "AutoeventId": 340,
+  "IntentId": 514,
+  "IsDefaultPublished": true,
+  "Rank": 803,
+  "LoadTemplateFromPlugin": 676,
+  "MimeType": "ratione",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 608,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "giovanny@hoppe.info",
-  "IncludeSignature": false,
+  "EmailSubject": "izabella.hickle@cummerata.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "bertha@hand.name",
+  "SenderEmailAddress": "shanie.batz@bashirian.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 396
     }
   }
 }

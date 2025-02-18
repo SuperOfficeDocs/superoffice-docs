@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 563,
+  "HierarchyId": 593,
   "Domain": "Dashboards",
-  "Name": "Willms-Johnson",
-  "Fullname": "maxime",
-  "ParentId": 299,
+  "Name": "Volkman LLC",
+  "Fullname": "asperiores",
+  "ParentId": 813,
   "Children": [
     {
-      "HierarchyId": 486,
+      "HierarchyId": 404,
       "Domain": "Dashboards",
-      "Name": "Orn Inc and Sons",
-      "Fullname": "omnis",
-      "ParentId": 323,
+      "Name": "Stroman, Dickinson and Cole",
+      "Fullname": "ex",
+      "ParentId": 721,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-10-15T12:01:32.933188+02:00",
-      "RegisteredAssociateId": 872,
-      "Updated": "2023-12-28T12:01:32.933188+01:00",
-      "UpdatedAssociateId": 198,
+      "Registered": "2021-03-22T14:32:11.5366892+01:00",
+      "RegisteredAssociateId": 571,
+      "Updated": "2018-02-26T14:32:11.5366892+01:00",
+      "UpdatedAssociateId": 905,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 30
         }
       }
     }
   ],
-  "Registered": "2008-07-04T12:01:32.933188+02:00",
-  "RegisteredAssociateId": 347,
-  "Updated": "2002-08-24T12:01:32.933188+02:00",
-  "UpdatedAssociateId": 792,
+  "Registered": "2015-09-30T14:32:11.5366892+02:00",
+  "RegisteredAssociateId": 50,
+  "Updated": "2008-05-20T14:32:11.5366892+02:00",
+  "UpdatedAssociateId": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 593
     }
   }
 }

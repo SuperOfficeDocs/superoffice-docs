@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Weissnat Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 913,
+  "Name": "Hessel Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 482,
-  "Rank": 528,
+  "UdListDefinitionId": 931,
+  "Rank": 368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 383
     }
   }
 }

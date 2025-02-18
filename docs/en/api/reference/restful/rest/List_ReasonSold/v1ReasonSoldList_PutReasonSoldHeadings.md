@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 235,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 440,
-    "UdListDefinitionId": 921
+    "HeadingId": 564,
+    "Name": "Feest Inc and Sons",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 425,
+    "UdListDefinitionId": 545
   },
   {
-    "HeadingId": 235,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 440,
-    "UdListDefinitionId": 921
+    "HeadingId": 564,
+    "Name": "Feest Inc and Sons",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 425,
+    "UdListDefinitionId": 545
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Ondricka LLC",
-    "Tooltip": "iste",
+    "HeadingId": 514,
+    "Name": "Dickens, Orn and Murphy",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 807,
-    "UdListDefinitionId": 678,
+    "Rank": 394,
+    "UdListDefinitionId": 615,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 380
       }
     }
   }

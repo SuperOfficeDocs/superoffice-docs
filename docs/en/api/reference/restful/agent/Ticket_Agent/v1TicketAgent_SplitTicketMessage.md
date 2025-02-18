@@ -133,7 +133,7 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "NewTicketEntity": null,
   "NewTicketMessage": null,
   "TransferAttachmentsIds": [
-    480,
-    862
+    2,
+    620
   ]
 }
 ```
@@ -154,21 +154,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 53,
-  "Title": "ut",
-  "CreatedAt": "2015-03-25T12:01:28.5253326+01:00",
-  "LastChanged": "2024-08-18T12:01:28.5253326+02:00",
-  "ReadByOwner": "2024-10-06T12:01:28.5253326+02:00",
-  "ReadByCustomer": "2010-10-20T12:01:28.5253326+02:00",
-  "FirstReadByOwner": "2023-08-14T12:01:28.5253326+02:00",
-  "FirstReadByUser": "2014-05-07T12:01:28.5253326+02:00",
-  "Activate": "2023-10-17T12:01:28.5253326+02:00",
-  "ClosedAt": "2012-03-02T12:01:28.5253326+01:00",
-  "RepliedAt": "2016-12-12T12:01:28.5253326+01:00",
-  "AlertTimeout": "2024-06-15T12:01:28.5253326+02:00",
-  "Deadline": "2016-06-14T12:01:28.5253326+02:00",
+  "TicketId": 67,
+  "Title": "laborum",
+  "CreatedAt": "2004-08-07T14:32:04.1553163+02:00",
+  "LastChanged": "2021-06-09T14:32:04.1553163+02:00",
+  "ReadByOwner": "1999-07-14T14:32:04.1553163+02:00",
+  "ReadByCustomer": "2023-06-30T14:32:04.1553163+02:00",
+  "FirstReadByOwner": "1998-11-06T14:32:04.1553163+01:00",
+  "FirstReadByUser": "2007-07-15T14:32:04.1553163+02:00",
+  "Activate": "2016-09-13T14:32:04.1553163+02:00",
+  "ClosedAt": "2023-11-03T14:32:04.1553163+01:00",
+  "RepliedAt": "2005-09-29T14:32:04.1553163+02:00",
+  "AlertTimeout": "2008-10-04T14:32:04.1553163+02:00",
+  "Deadline": "2008-02-28T14:32:04.1553163+01:00",
   "CreatedBy": null,
-  "Author": "accusantium",
+  "Author": "odio",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -179,163 +179,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ex",
-      "PersonId": 488,
-      "Mrmrs": "ut",
-      "Firstname": "Johathan",
-      "Lastname": "Feeney",
-      "MiddleName": "Aufderhar-Douglas",
-      "Title": "assumenda",
-      "Description": "Upgradable systematic encryption",
-      "Email": "thomas_farrell@krisbogisich.biz",
-      "FullName": "Mrs. Renee Jayme Reilly Jr.",
-      "DirectPhone": "013.736.3660",
-      "FormalName": "Rath-Hackett",
-      "CountryId": 53,
-      "ContactId": 991,
-      "ContactName": "Dare, Beer and Dickinson",
-      "Retired": 498,
-      "Rank": 288,
-      "ActiveInterests": 52,
+      "Position": "sit",
+      "PersonId": 30,
+      "Mrmrs": "et",
+      "Firstname": "Dayna",
+      "Lastname": "Kiehn",
+      "MiddleName": "Herman Group",
+      "Title": "qui",
+      "Description": "Polarised empowering initiative",
+      "Email": "felipa@boehmbeatty.biz",
+      "FullName": "Augustine Okuneva",
+      "DirectPhone": "1-401-531-8517 x242",
+      "FormalName": "Connelly LLC",
+      "CountryId": 125,
+      "ContactId": 662,
+      "ContactName": "Corwin Inc and Sons",
+      "Retired": 117,
+      "Rank": 40,
+      "ActiveInterests": 432,
       "ContactDepartment": "",
-      "ContactCountryId": 718,
-      "ContactOrgNr": "591036",
-      "FaxPhone": "(897)684-5285",
-      "MobilePhone": "1-475-488-2950",
-      "ContactPhone": "1-489-918-9168 x041",
-      "AssociateName": "Blanda Inc and Sons",
-      "AssociateId": 504,
+      "ContactCountryId": 982,
+      "ContactOrgNr": "1248322",
+      "FaxPhone": "(229)555-9155",
+      "MobilePhone": "(652)767-6215",
+      "ContactPhone": "(953)554-0773 x371",
+      "AssociateName": "McLaughlin LLC",
+      "AssociateId": 714,
       "UsePersonAddress": false,
-      "ContactFax": "iure",
-      "Kanafname": "temporibus",
-      "Kanalname": "ut",
-      "Post1": "quibusdam",
-      "Post2": "quam",
-      "Post3": "aut",
-      "EmailName": "kyle@windler.ca",
-      "ContactFullName": "Miss Yolanda Monahan DVM",
-      "ActiveErpLinks": 284,
-      "TicketPriorityId": 817,
-      "SupportLanguageId": 680,
-      "SupportAssociateId": 615,
+      "ContactFax": "sit",
+      "Kanafname": "delectus",
+      "Kanalname": "repellat",
+      "Post1": "reprehenderit",
+      "Post2": "fugit",
+      "Post3": "nihil",
+      "EmailName": "cristian@muller.us",
+      "ContactFullName": "Kaleb Adela Rau I",
+      "ActiveErpLinks": 237,
+      "TicketPriorityId": 751,
+      "SupportLanguageId": 816,
+      "SupportAssociateId": 227,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "893924",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 643
-        }
-      }
-    }
-  ],
-  "AlertLevel": 652,
-  "ConnectId": 271,
-  "ReadStatus": "Green",
-  "TimeToReply": 288,
-  "RealTimeToReply": 182,
-  "TimeToClose": 832,
-  "RealTimeToClose": 346,
-  "TimeSpentInternally": 63,
-  "TimeSpentExternally": 898,
-  "TimeSpentQueue": 46,
-  "RealTimeSpentInternally": 249,
-  "RealTimeSpentExternally": 177,
-  "RealTimeSpentQueue": 975,
-  "TimeSpent": 770,
-  "HasAttachment": false,
-  "NumReplies": 587,
-  "NumMessages": 999,
-  "FromAddress": "et",
-  "Messages": [
-    {
-      "TicketMessageId": 589,
-      "CreatedAt": "2002-02-20T12:01:28.5253326+01:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "incidunt",
-      "PersonId": 480,
-      "PersonFullName": "Willis Rowe",
-      "ContactId": 416,
-      "ContactName": "Schuster, Kohler and Greenholt",
-      "ContactDepartment": "",
-      "NumAttachments": 337,
-      "EmailHeader": "osvaldo@pacocha.co.uk",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "tempore",
-      "Sentiment": 524,
-      "SentimentConfidence": 91,
-      "CreatedBy": 869,
-      "ChangedAt": "1998-04-18T12:01:28.5253326+02:00",
-      "Badge": "Comment",
+      "PersonNumber": "1017038",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 159
+          "FieldLength": 307
+        }
+      }
+    }
+  ],
+  "AlertLevel": 164,
+  "ConnectId": 307,
+  "ReadStatus": "Green",
+  "TimeToReply": 509,
+  "RealTimeToReply": 453,
+  "TimeToClose": 156,
+  "RealTimeToClose": 424,
+  "TimeSpentInternally": 105,
+  "TimeSpentExternally": 794,
+  "TimeSpentQueue": 891,
+  "RealTimeSpentInternally": 892,
+  "RealTimeSpentExternally": 490,
+  "RealTimeSpentQueue": 230,
+  "TimeSpent": 377,
+  "HasAttachment": true,
+  "NumReplies": 459,
+  "NumMessages": 999,
+  "FromAddress": "culpa",
+  "Messages": [
+    {
+      "TicketMessageId": 143,
+      "CreatedAt": "2002-02-20T14:32:04.1553163+01:00",
+      "Slevel": "External",
+      "Important": true,
+      "Author": "dicta",
+      "PersonId": 561,
+      "PersonFullName": "Mrs. Ilene Ansley Witting PhD",
+      "ContactId": 685,
+      "ContactName": "Runolfsson Inc and Sons",
+      "ContactDepartment": "",
+      "NumAttachments": 387,
+      "EmailHeader": "ahmad_witting@hegmann.uk",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "blanditiis",
+      "Sentiment": 321,
+      "SentimentConfidence": 596,
+      "CreatedBy": 146,
+      "ChangedAt": "2008-05-22T14:32:04.1553163+02:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 353
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 513,
-      "Name": "Keebler, Durgan and Ratke",
-      "ToolTip": "Cumque aut repellat omnis omnis.",
+      "Id": 761,
+      "Name": "Cummerata Inc and Sons",
+      "ToolTip": "Perferendis velit a.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 973
         }
       }
     },
     {
-      "Id": 513,
-      "Name": "Keebler, Durgan and Ratke",
-      "ToolTip": "Cumque aut repellat omnis omnis.",
+      "Id": 761,
+      "Name": "Cummerata Inc and Sons",
+      "ToolTip": "Perferendis velit a.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 973
         }
       }
     }
   ],
-  "Language": "est",
-  "Sentiment": 612,
-  "SentimentConfidence": 559,
-  "SuggestedCategoryId": 80,
+  "Language": "possimus",
+  "Sentiment": 489,
+  "SentimentConfidence": 758,
+  "SuggestedCategoryId": 835,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 190,
-  "IconHint": "ipsam",
+  "OrigHumanCategoryId": 92,
+  "IconHint": "aut",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 344,
+  "ActiveStatusMonitorId": 357,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "reiciendis"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "quo"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "quibusdam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 122
     }
   }
 }

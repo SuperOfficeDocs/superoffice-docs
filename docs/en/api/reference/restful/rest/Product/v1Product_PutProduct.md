@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 785,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "fugiat",
-  "Name": "Bernhard Inc and Sons",
-  "Description": "Sharable full-range data-warehouse",
-  "Code": "libero",
-  "PriceUnit": "in",
-  "QuantityUnit": "earum",
+  "ProductId": 590,
+  "ERPProductKey": "eveniet",
+  "ERPPriceListKey": "reprehenderit",
+  "Name": "Waelchi, White and Farrell",
+  "Description": "Cross-group discrete model",
+  "Code": "veritatis",
+  "PriceUnit": "accusantium",
+  "QuantityUnit": "quia",
   "IsSubscription": false,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 15811.029999999999,
-  "ItemNumber": "1605998",
+  "SubscriptionUnit": "similique",
+  "DefaultSubscriptionQuantity": 28444.183999999997,
+  "ItemNumber": "805628",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "tenetur",
-  "VAT": 4121.21,
-  "VATInfo": "molestias",
-  "UnitCost": 1823.9879999999998,
-  "UnitMinimumPrice": 14018.382,
-  "UnitListPrice": 21809.505999999998,
+  "ProductFamilyKey": "pariatur",
+  "ProductTypeKey": "ut",
+  "VAT": 10473.828,
+  "VATInfo": "id",
+  "UnitCost": 6528.1219999999994,
+  "UnitMinimumPrice": 14852.026,
+  "UnitListPrice": 2623.158,
   "InAssortment": false,
-  "Supplier": "quos",
-  "SupplierCode": "aliquid",
-  "Rights": "omnis",
-  "Rule": "illum",
+  "Supplier": "aut",
+  "SupplierCode": "quo",
+  "Rights": "facilis",
+  "Rule": "suscipit",
   "ExtraInfo": [
     {
-      "Name": "Leannon-Lindgren",
-      "Value": "vitae",
+      "Name": "Rodriguez-Langworth",
+      "Value": "deleniti",
       "Type": "Image"
     },
     {
-      "Name": "Leannon-Lindgren",
-      "Value": "vitae",
+      "Name": "Rodriguez-Langworth",
+      "Value": "deleniti",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "fugiat",
-  "ExtraField1": "architecto",
-  "ExtraField2": "quia",
-  "ExtraField3": "atque",
-  "ExtraField4": "dolore",
-  "ExtraField5": "consequatur",
-  "InStock": 28845.336
+  "RawExtraInfo": "non",
+  "ExtraField1": "fuga",
+  "ExtraField2": "sit",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "iste",
+  "ExtraField5": "et",
+  "InStock": 28039.897999999997
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 36,
-  "ERPProductKey": "sunt",
-  "ERPPriceListKey": "facilis",
-  "Name": "Abshire Group",
-  "Description": "Open-architected content-based pricing structure",
-  "Code": "velit",
-  "PriceUnit": "at",
-  "QuantityUnit": "cupiditate",
-  "IsSubscription": true,
-  "SubscriptionUnit": "cupiditate",
-  "DefaultSubscriptionQuantity": 6581.4,
-  "ItemNumber": "1246578",
+  "ProductId": 287,
+  "ERPProductKey": "ipsam",
+  "ERPPriceListKey": "cum",
+  "Name": "Jewess, Rice and Zieme",
+  "Description": "Centralized web-enabled Graphical User Interface",
+  "Code": "itaque",
+  "PriceUnit": "commodi",
+  "QuantityUnit": "unde",
+  "IsSubscription": false,
+  "SubscriptionUnit": "placeat",
+  "DefaultSubscriptionQuantity": 27068.358,
+  "ItemNumber": "781674",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quibusdam",
-  "ProductTypeKey": "illum",
-  "VAT": 6781.976,
-  "VATInfo": "ipsum",
-  "UnitCost": 25172.288,
-  "UnitMinimumPrice": 25338.39,
-  "UnitListPrice": 20837.966,
+  "ProductFamilyKey": "nulla",
+  "ProductTypeKey": "perferendis",
+  "VAT": 3716.924,
+  "VATInfo": "minima",
+  "UnitCost": 28951.892,
+  "UnitMinimumPrice": 2735.982,
+  "UnitListPrice": 23661.7,
   "InAssortment": false,
-  "Supplier": "nostrum",
-  "SupplierCode": "fugiat",
-  "Rights": "ullam",
-  "Rule": "rem",
+  "Supplier": "praesentium",
+  "SupplierCode": "sint",
+  "Rights": "ratione",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Rowe-Fay",
-      "Value": "soluta",
+      "Name": "Jast-Koch",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 698
         }
       }
     },
     {
-      "Name": "Rowe-Fay",
-      "Value": "soluta",
+      "Name": "Jast-Koch",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldType": "System.String",
+          "FieldLength": 698
         }
       }
     }
   ],
-  "RawExtraInfo": "optio",
-  "ExtraField1": "sunt",
-  "ExtraField2": "quaerat",
-  "ExtraField3": "eum",
-  "ExtraField4": "et",
-  "ExtraField5": "vero",
-  "InStock": 16215.315999999999,
+  "RawExtraInfo": "animi",
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "quia",
+  "ExtraField3": "molestias",
+  "ExtraField4": "optio",
+  "ExtraField5": "architecto",
+  "InStock": 17879.47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 172
     }
   }
 }

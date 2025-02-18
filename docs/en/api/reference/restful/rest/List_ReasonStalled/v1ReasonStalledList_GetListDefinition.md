@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Braun, Cronin and Zboncak",
-  "Tooltip": "et",
+  "Id": 37,
+  "Name": "Aufderhar Inc and Sons",
+  "Tooltip": "quasi",
   "Deleted": true,
-  "Rank": 603,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 849,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "reiciendis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   },
   "_Links": {

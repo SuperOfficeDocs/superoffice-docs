@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 235,
-    "Name": "Turner, Metz and Kirlin",
-    "Tooltip": "rem",
-    "Rank": 405,
-    "Key": "id",
-    "MailTemplateId": 95,
-    "Deleted": true,
+    "ConsentSourceId": 807,
+    "Name": "Hamill-Satterfield",
+    "Tooltip": "et",
+    "Rank": 859,
+    "Key": "qui",
+    "MailTemplateId": 315,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 862
       }
     }
   }

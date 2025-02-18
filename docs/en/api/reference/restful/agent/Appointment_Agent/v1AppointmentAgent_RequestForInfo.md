@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 740,
-  "Channel": "sed",
-  "Regarding": "molestias",
-  "ContactName": "Dach-Tillman",
-  "PersonFirstname": "Herminio",
-  "PersonLastname": "Keebler",
-  "EmailAddress": "delbert_hudson@friesen.co.uk",
-  "PhoneNumber": "952071"
+  "AssociateIdForNewContact": 385,
+  "Channel": "hic",
+  "Regarding": "in",
+  "ContactName": "Wiegand Group",
+  "PersonFirstname": "Geovany",
+  "PersonLastname": "Blanda",
+  "EmailAddress": "rachelle_wolff@schoen.biz",
+  "PhoneNumber": "790636"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 902,
-      "Name": "Rosenbaum Inc and Sons",
-      "OrgNr": "363397",
-      "Department": "",
+      "ContactId": 69,
+      "Name": "Kuhlman-Rutherford",
+      "OrgNr": "1302291",
+      "Department": "brand mission-critical e-commerce",
       "URL": "http://www.example.com/",
-      "City": "alias",
-      "DirectPhone": "1-449-341-7574 x247",
-      "AssociateId": 611,
-      "CountryId": 379,
-      "EmailAddress": "maida_morissette@predovic.info",
-      "Kananame": "et",
-      "EmailAddressName": "elody_marquardt@brown.biz",
+      "City": "rerum",
+      "DirectPhone": "1-899-871-2211 x6174",
+      "AssociateId": 633,
+      "CountryId": 5,
+      "EmailAddress": "elisa@luettgenkessler.com",
+      "Kananame": "sit",
+      "EmailAddressName": "andre@carroll.com",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Khalil Hansen",
+      "AssociateFullName": "Coby Greenfelder",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "rerum",
-      "FullName": "Geovanni Adams",
+      "FormattedAddress": "blanditiis",
+      "FullName": "Mrs. Lupe Prosacco",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 592,
-      "Number1": "1344292",
-      "Number2": "273717",
+      "ActiveErpLinks": 214,
+      "Number1": "1220519",
+      "Number2": "569216",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 687
+          "FieldLength": 780
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 655
     }
   }
 }

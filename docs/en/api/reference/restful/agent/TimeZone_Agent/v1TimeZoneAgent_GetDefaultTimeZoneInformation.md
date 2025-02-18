@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 52,
-  "TZLocationId": 624,
-  "LocationCode": "delectus",
-  "Description": "Versatile analyzing toolset",
+  "PreferenceId": 859,
+  "TZLocationId": 268,
+  "LocationCode": "sunt",
+  "Description": "Persevering incremental flexibility",
   "Country": "Sokovia",
-  "Bias": 552
+  "Bias": 60
 }
 ```

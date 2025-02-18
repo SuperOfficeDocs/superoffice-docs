@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Stiedemann, Bailey and Tromp",
-    "ToolTip": "Quisquam quia eum.",
+    "Id": 934,
+    "Name": "O'Hara-Schroeder",
+    "ToolTip": "Asperiores corrupti quas est praesentium.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "facere",
-    "ColorBlock": 555,
-    "IconHint": "quasi",
+    "Rank": 935,
+    "Type": "quasi",
+    "ColorBlock": 374,
+    "IconHint": "minima",
     "Selected": true,
-    "LastChanged": "2009-03-20T12:01:33.6676138+01:00",
+    "LastChanged": "2015-02-07T14:32:12.9428597+01:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Blanda-Pfannerstill",
-        "ToolTip": "Quia a laborum autem.",
-        "Deleted": false,
-        "Rank": 422,
-        "Type": "optio",
-        "ColorBlock": 124,
-        "IconHint": "architecto",
+        "Id": 659,
+        "Name": "Dach-Larson",
+        "ToolTip": "At asperiores.",
+        "Deleted": true,
+        "Rank": 590,
+        "Type": "id",
+        "ColorBlock": 846,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2018-07-19T12:01:33.6676138+02:00",
+        "LastChanged": "2006-02-05T14:32:12.9428597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Sofia Hyatt"
+        "ExtraInfo": "expedita",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Bradford Schinner"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "ea",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Mitchell King"
+    "FullName": "Richmond Kassulke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Torphy-Mayert",
-    "ToolTip": "Laboriosam cum quos nisi facere quia qui.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "ut",
-    "ColorBlock": 959,
-    "IconHint": "cum",
-    "Selected": false,
-    "LastChanged": "2005-10-25T12:01:33.6676138+02:00",
+    "Id": 664,
+    "Name": "Cole, Harvey and Gorczany",
+    "ToolTip": "Qui voluptates aut.",
+    "Deleted": true,
+    "Rank": 100,
+    "Type": "possimus",
+    "ColorBlock": 415,
+    "IconHint": "magni",
+    "Selected": true,
+    "LastChanged": "2002-07-23T14:32:12.9428597+02:00",
     "ChildItems": [
       {
-        "Id": 779,
-        "Name": "Gaylord LLC",
-        "ToolTip": "Neque quia.",
-        "Deleted": false,
-        "Rank": 632,
-        "Type": "saepe",
-        "ColorBlock": 189,
-        "IconHint": "qui",
+        "Id": 87,
+        "Name": "Williamson Group",
+        "ToolTip": "Tempora non aut expedita rem.",
+        "Deleted": true,
+        "Rank": 955,
+        "Type": "in",
+        "ColorBlock": 828,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2021-02-21T12:01:33.6676138+01:00",
+        "LastChanged": "2007-06-30T14:32:12.9428597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "in",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Terrill Cole",
+        "FullName": "Jameson Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 700
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "ad",
+    "ExtraInfo": "quos",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Lyla Willms",
+    "FullName": "Barbara Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 281
       }
     }
   }

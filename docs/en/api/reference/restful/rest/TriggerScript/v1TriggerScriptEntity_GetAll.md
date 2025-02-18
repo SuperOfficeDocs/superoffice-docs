@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/TriggerScript?$select=name,department,category/id
 GET /api/v1/TriggerScript?$filter=name begins 'S'
 GET /api/v1/TriggerScript?$orderBy=name asc
-GET /api/v1/TriggerScript?$entities=provident
-GET /api/v1/TriggerScript?$top=161
-GET /api/v1/TriggerScript?$skip=861
+GET /api/v1/TriggerScript?$entities=eos
+GET /api/v1/TriggerScript?$top=460
+GET /api/v1/TriggerScript?$skip=583
 GET /api/v1/TriggerScript?$mode=Full
 GET /api/v1/TriggerScript?$options=GrandTotal=true
-GET /api/v1/TriggerScript?$context=omnis
+GET /api/v1/TriggerScript?$context=dignissimos
 GET /api/v1/TriggerScript?$format=JSON
-GET /api/v1/TriggerScript?$jsonSafe=True
+GET /api/v1/TriggerScript?$jsonSafe=False
 GET /api/v1/TriggerScript?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "eligendi",
+  "odata.nextLink": "saepe",
   "value": [
     {
-      "PrimaryKey": 6926,
-      "EntityName": "person",
-      "personId": 6926,
-      "fullName": "Eldora Cummerata"
+      "PrimaryKey": 1569,
+      "EntityName": "sale",
+      "saleId": 1569,
+      "contactId": 802,
+      "name": "Veum-Shanahan"
     },
     {
-      "PrimaryKey": 4737,
-      "EntityName": "person",
-      "personId": 4737,
-      "fullName": "Porter Strosin V"
+      "PrimaryKey": 5620,
+      "EntityName": "sale",
+      "saleId": 5620,
+      "contactId": 3101,
+      "name": "Goldner, Pollich and Pollich"
     }
   ]
 }

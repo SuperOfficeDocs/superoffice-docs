@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 500,
+  "ErpConnectionId": 648,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 477,
+  "ErpConnectionId": 437,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 71,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Schultz, Farrell and Ritchie",
-      "CrmDisplayTooltip": "odio",
-      "ErpFieldKey": "sit",
+      "ErpFieldId": 8,
+      "CrmFieldKey": "voluptate",
+      "CrmDisplayName": "Lueilwitz, Monahan and Bailey",
+      "CrmDisplayTooltip": "maiores",
+      "ErpFieldKey": "quisquam",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Durgan-Emmerich",
-      "ErpDisplayTooltip": "nostrum",
+      "ErpDisplayName": "Wolff Group",
+      "ErpDisplayTooltip": "reiciendis",
       "SyncToCrm": false,
       "SyncToErp": true,
       "ShowInGui": false,
-      "ShowInSearch": false,
+      "ShowInSearch": true,
       "AlreadyMapped": true,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "a",
+      "ListReference": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldType": "System.Int32",
+          "FieldLength": 392
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 624
     }
   }
 }

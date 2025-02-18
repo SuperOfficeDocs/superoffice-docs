@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Kertzmann Group",
-    "ToolTip": "Est accusamus sit eveniet libero cumque.",
-    "Deleted": true,
-    "Rank": 415,
-    "Type": "libero",
-    "ColorBlock": 213,
-    "IconHint": "voluptas",
+    "Id": 437,
+    "Name": "Skiles, Upton and Towne",
+    "ToolTip": "Ipsum optio.",
+    "Deleted": false,
+    "Rank": 278,
+    "Type": "accusamus",
+    "ColorBlock": 390,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2000-01-25T12:01:33.5582313+01:00",
+    "LastChanged": "1998-11-23T14:32:12.7082989+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Hyatt-Walker",
-        "ToolTip": "Vel facilis culpa accusamus corporis nisi in nesciunt.",
-        "Deleted": false,
-        "Rank": 440,
-        "Type": "adipisci",
-        "ColorBlock": 173,
-        "IconHint": "et",
+        "Id": 840,
+        "Name": "Mertz Inc and Sons",
+        "ToolTip": "Atque recusandae asperiores.",
+        "Deleted": true,
+        "Rank": 277,
+        "Type": "ipsam",
+        "ColorBlock": 380,
+        "IconHint": "eius",
         "Selected": true,
-        "LastChanged": "2001-02-06T12:01:33.5582313+01:00",
+        "LastChanged": "1998-12-14T14:32:12.7082989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptate",
+        "StyleHint": "eius",
         "Hidden": true,
-        "FullName": "Mrs. Janae Brekke DDS"
+        "FullName": "Maybell Walter"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Mackenzie Zulauf"
+    "ExtraInfo": "voluptate",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Felton Hartmann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Konopelski, Hamill and Shanahan",
-    "ToolTip": "Aliquam voluptatem qui et.",
+    "Id": 978,
+    "Name": "Gibson, Howe and Adams",
+    "ToolTip": "Numquam eveniet nesciunt.",
     "Deleted": false,
-    "Rank": 275,
-    "Type": "nulla",
-    "ColorBlock": 570,
-    "IconHint": "laboriosam",
+    "Rank": 599,
+    "Type": "laborum",
+    "ColorBlock": 734,
+    "IconHint": "commodi",
     "Selected": true,
-    "LastChanged": "1997-11-07T12:01:33.5582313+01:00",
+    "LastChanged": "2012-12-08T14:32:12.7082989+01:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Rempel-Roberts",
-        "ToolTip": "Culpa aliquid perspiciatis nisi.",
+        "Id": 808,
+        "Name": "Pollich Inc and Sons",
+        "ToolTip": "Velit aut reiciendis sunt et ut voluptatum.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "iusto",
-        "ColorBlock": 602,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2023-05-05T12:01:33.5582313+02:00",
+        "Rank": 333,
+        "Type": "provident",
+        "ColorBlock": 635,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "2022-02-15T14:32:12.7082989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Juanita Hayes",
+        "ExtraInfo": "cumque",
+        "StyleHint": "mollitia",
+        "Hidden": true,
+        "FullName": "Leland Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 475
+            "FieldType": "System.Int32",
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "deserunt",
-    "Hidden": false,
-    "FullName": "Selena Hilpert",
+    "ExtraInfo": "eos",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Miss Roosevelt Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 706
       }
     }
   }

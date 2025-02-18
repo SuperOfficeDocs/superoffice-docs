@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 787
+  "AssociateId": 249
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-03-03T12:01:27.2439933+01:00",
-  "AppointmentId": 726,
-  "Description": "Persevering incremental productivity",
-  "Title": "velit",
-  "Agenda": "iste",
-  "InternalNotes": "tempore",
-  "StartDate": "2011-10-02T12:01:27.2439933+02:00",
-  "EndDate": "2012-11-08T12:01:27.2439933+01:00",
+  "CreatedDate": "2022-07-02T14:32:01.8743869+02:00",
+  "AppointmentId": 809,
+  "Description": "Versatile optimizing matrices",
+  "Title": "voluptas",
+  "Agenda": "in",
+  "InternalNotes": "consequatur",
+  "StartDate": "2013-12-03T14:32:01.8743869+01:00",
+  "EndDate": "2003-11-06T14:32:01.8743869+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 100,
+  "MotherId": 283,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-09-09T12:01:27.2439933+02:00",
+  "UpdatedDate": "1998-03-11T14:32:01.8743869+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 45,
+  "ActiveLinks": 392,
   "Links": [
     {
-      "EntityName": "Murphy-Torp",
-      "Id": 802,
-      "Description": "Assimilated composite access",
-      "ExtraInfo": "vel",
-      "LinkId": 934,
+      "EntityName": "Connelly Group",
+      "Id": 315,
+      "Description": "Expanded eco-centric process improvement",
+      "ExtraInfo": "quaerat",
+      "LinkId": 365,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 668
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 974,
+  "AlarmLeadTime": "eius",
+  "HasAlarm": true,
+  "ColorIndex": 811,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "aperiam",
-  "Location": "animi",
-  "RejectCounter": 665,
+  "LagTime": "nihil",
+  "LeadTime": "pariatur",
+  "Location": "earum",
+  "RejectCounter": 944,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 761,
-      "PersonId": 585,
-      "ContactId": 732,
-      "EmailId": 551,
-      "SendEmail": false,
+      "AssociateId": 794,
+      "PersonId": 88,
+      "ContactId": 526,
+      "EmailId": 631,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lemuel@swaniawski.biz",
-      "Description": "Enterprise-wide coherent moratorium"
+      "EmailAddress": "alia.volkman@carterdibbert.biz",
+      "Description": "Synergized secondary database"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-03-20T12:01:27.2439933+01:00",
+  "ActiveDate": "2007-01-13T14:32:01.8743869+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 39,
+  "PreferredTZLocation": 260,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 870,
+  "SuggestedAppointmentId": 259,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "natus",
+  "CentralserviceVideomeetId": "aspernatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "4690133",
-    "SuperOffice:2": "Meta Konopelski DVM"
+    "SuperOffice:1": "Wellington Schowalter",
+    "SuperOffice:2": "Ms. Lionel Kihn"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "dignissimos"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "amet"
+    "CustomFields1": "deleniti",
+    "CustomFields2": "optio"
   },
-  "PublishEventDate": "2003-11-01T12:01:27.2439933+01:00",
-  "PublishTo": "2020-05-19T12:01:27.2439933+02:00",
-  "PublishFrom": "2012-03-30T12:01:27.2439933+02:00",
+  "PublishEventDate": "2001-01-27T14:32:01.8743869+01:00",
+  "PublishTo": "2013-09-11T14:32:01.8743869+02:00",
+  "PublishFrom": "2023-04-21T14:32:01.8743869+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 275
     }
   }
 }

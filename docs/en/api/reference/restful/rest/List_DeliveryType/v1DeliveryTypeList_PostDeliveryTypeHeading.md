@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 652,
-  "Name": "Predovic Group",
-  "Tooltip": "nam",
+  "HeadingId": 699,
+  "Name": "Medhurst Inc and Sons",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 467,
-  "UdListDefinitionId": 935
+  "Rank": 352,
+  "UdListDefinitionId": 70
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Cronin-Kunze",
-  "Tooltip": "at",
-  "Deleted": true,
-  "Rank": 481,
-  "UdListDefinitionId": 256,
+  "HeadingId": 348,
+  "Name": "Funk Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 68,
+  "UdListDefinitionId": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 653
     }
   }
 }

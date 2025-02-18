@@ -114,24 +114,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 892,
-  "SourcePersonId": 264,
-  "DestinationContactId": 968,
-  "DestinationPersonId": 94,
-  "RelationId": 387,
-  "Comment": "suscipit",
-  "RelationDefinitionId": 959,
-  "Reversed": 631,
-  "UpdatedDate": "2010-04-01T12:01:32.8394314+02:00",
-  "CreatedDate": "2024-09-07T12:01:32.8394314+02:00",
+  "SourceContactId": 693,
+  "SourcePersonId": 17,
+  "DestinationContactId": 366,
+  "DestinationPersonId": 980,
+  "RelationId": 693,
+  "Comment": "illo",
+  "RelationDefinitionId": 70,
+  "Reversed": 93,
+  "UpdatedDate": "2004-10-20T14:32:11.3645567+02:00",
+  "CreatedDate": "2015-01-19T14:32:11.3645567+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Murray Inc and Sons",
-  "SourcePersonName": "Reichel-Gislason",
-  "DestinationContactName": "Schowalter Inc and Sons",
-  "DestinationPersonName": "Tromp-Lockman",
-  "ActiveText": "ut",
-  "PassiveText": "reiciendis"
+  "SourceContactName": "Kutch-Christiansen",
+  "SourcePersonName": "Effertz-Jakubowski",
+  "DestinationContactName": "Cummings Inc and Sons",
+  "DestinationPersonName": "Paucek Group",
+  "ActiveText": "sed",
+  "PassiveText": "fuga"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 744,
-  "SourcePersonId": 481,
-  "DestinationContactId": 182,
-  "DestinationPersonId": 773,
-  "RelationId": 457,
-  "Comment": "ut",
-  "RelationDefinitionId": 224,
-  "Reversed": 295,
-  "UpdatedDate": "2013-08-20T12:01:32.8394314+02:00",
-  "CreatedDate": "2021-05-21T12:01:32.8394314+02:00",
+  "SourceContactId": 211,
+  "SourcePersonId": 429,
+  "DestinationContactId": 988,
+  "DestinationPersonId": 978,
+  "RelationId": 405,
+  "Comment": "eaque",
+  "RelationDefinitionId": 37,
+  "Reversed": 501,
+  "UpdatedDate": "2008-11-21T14:32:11.3801851+01:00",
+  "CreatedDate": "2021-05-08T14:32:11.3801851+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hauck LLC",
-  "SourcePersonName": "Balistreri, Bayer and Bergstrom",
-  "DestinationContactName": "White-Dach",
-  "DestinationPersonName": "Koepp LLC",
-  "ActiveText": "iure",
-  "PassiveText": "odit",
+  "SourceContactName": "Sanford, Terry and Nolan",
+  "SourcePersonName": "Stracke, Cartwright and Klein",
+  "DestinationContactName": "Gulgowski Inc and Sons",
+  "DestinationPersonName": "Breitenberg Group",
+  "ActiveText": "magni",
+  "PassiveText": "ipsum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   },
   "_Links": {

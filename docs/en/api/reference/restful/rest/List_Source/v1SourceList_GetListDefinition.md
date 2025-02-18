@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 570,
-  "Name": "Ferry, Gorczany and Crona",
-  "Tooltip": "quasi",
+  "Id": 227,
+  "Name": "Schultz, Mante and Thompson",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "Rank": 53,
+  "Rank": 461,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 361
     }
   },
   "_Links": {

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 558,
-  "Name": "Stroman, Buckridge and Wolff",
-  "CurrencyId": 837,
-  "EnglishName": "Renner Group",
+  "CountryId": 549,
+  "Name": "Quitzon-Lemke",
+  "CurrencyId": 114,
+  "EnglishName": "Rohan-Russel",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Future-proofed homogeneous open system",
-  "OrgNrText": "1640859",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "enim",
-  "ZipPrefix": "delectus",
-  "DomainName": "Bartoletti, Kulas and Adams",
-  "AddressLayoutId": 913,
-  "DomesticAddressLayoutId": 76,
-  "ForeignAddressLayoutId": 424,
-  "Rank": 429,
-  "Tooltip": "aliquid",
+  "ImageDescription": "Customer-focused motivating standardization",
+  "OrgNrText": "667572",
+  "InterAreaPrefix": "itaque",
+  "DialInPrefix": "nostrum",
+  "ZipPrefix": "sed",
+  "DomainName": "Halvorson Inc and Sons",
+  "AddressLayoutId": 298,
+  "DomesticAddressLayoutId": 943,
+  "ForeignAddressLayoutId": 582,
+  "Rank": 915,
+  "Tooltip": "sit",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

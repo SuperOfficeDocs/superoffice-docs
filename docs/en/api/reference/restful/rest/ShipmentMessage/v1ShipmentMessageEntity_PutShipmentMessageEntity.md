@@ -123,27 +123,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 285,
-  "PlainMessage": "sunt",
-  "HtmlMessage": "voluptatibus",
+  "ShipmentMessageId": 695,
+  "PlainMessage": "distinctio",
+  "HtmlMessage": "eligendi",
   "SmsMessage": "et",
-  "Description": "Face to face local instruction set",
-  "Subject": "dolor",
-  "FolderId": 699,
-  "HeaderField": "explicabo",
-  "Design": "voluptatem",
+  "Description": "Face to face user-facing analyzer",
+  "Subject": "recusandae",
+  "FolderId": 7,
+  "HeaderField": "aut",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Object-based zero tolerance strategy",
-  "AccessKey": "eius",
-  "DocumentMessage": 127,
-  "Registered": "2005-09-27T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 556,
-  "Updated": "2022-08-13T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 937,
-  "UpdatedCount": 233
+  "LongDescription": "Fundamental content-based conglomeration",
+  "AccessKey": "sit",
+  "DocumentMessage": 900,
+  "Registered": "2024-09-22T14:32:12.0678193+02:00",
+  "RegisteredAssociateId": 596,
+  "Updated": "2021-12-25T14:32:12.0678193+01:00",
+  "UpdatedAssociateId": 428,
+  "UpdatedCount": 880
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 791,
-  "PlainMessage": "similique",
-  "HtmlMessage": "velit",
-  "SmsMessage": "fuga",
-  "Description": "Face to face interactive throughput",
-  "Subject": "vero",
-  "FolderId": 680,
-  "HeaderField": "sapiente",
-  "Design": "in",
+  "ShipmentMessageId": 833,
+  "PlainMessage": "et",
+  "HtmlMessage": "ab",
+  "SmsMessage": "expedita",
+  "Description": "Devolved motivating utilisation",
+  "Subject": "dolorem",
+  "FolderId": 740,
+  "HeaderField": "perferendis",
+  "Design": "id",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Quality-focused 5th generation artificial intelligence",
-  "AccessKey": "distinctio",
-  "DocumentMessage": 826,
-  "Registered": "1999-06-18T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 584,
-  "Updated": "2006-10-26T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 419,
-  "UpdatedCount": 981,
+  "LongDescription": "Multi-channelled 24/7 infrastructure",
+  "AccessKey": "iure",
+  "DocumentMessage": 20,
+  "Registered": "2010-10-11T14:32:12.0678193+02:00",
+  "RegisteredAssociateId": 404,
+  "Updated": "2009-03-04T14:32:12.0678193+01:00",
+  "UpdatedAssociateId": 761,
+  "UpdatedCount": 528,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 943
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

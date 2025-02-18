@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 9,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "blanditiis",
-  "Name": "Murphy LLC",
-  "Description": "Multi-channelled zero administration utilisation",
-  "Code": "quisquam",
+  "ProductId": 563,
+  "ERPProductKey": "dolore",
+  "ERPPriceListKey": "sint",
+  "Name": "Senger-Fritsch",
+  "Description": "Persistent tertiary internet solution",
+  "Code": "explicabo",
   "PriceUnit": "labore",
-  "QuantityUnit": "quibusdam",
+  "QuantityUnit": "mollitia",
   "IsSubscription": false,
-  "SubscriptionUnit": "eaque",
-  "DefaultSubscriptionQuantity": 25178.556,
-  "ItemNumber": "639056",
+  "SubscriptionUnit": "quidem",
+  "DefaultSubscriptionQuantity": 29870.154,
+  "ItemNumber": "833981",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "sed",
-  "VAT": 2889.548,
-  "VATInfo": "culpa",
-  "UnitCost": 435.626,
-  "UnitMinimumPrice": 16773.167999999998,
-  "UnitListPrice": 30152.214,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "possimus",
+  "VAT": 2106.048,
+  "VATInfo": "enim",
+  "UnitCost": 27419.365999999998,
+  "UnitMinimumPrice": 9881.502,
+  "UnitListPrice": 5481.366,
   "InAssortment": false,
-  "Supplier": "non",
-  "SupplierCode": "illo",
-  "Rights": "quis",
-  "Rule": "suscipit",
+  "Supplier": "quia",
+  "SupplierCode": "qui",
+  "Rights": "ducimus",
+  "Rule": "temporibus",
   "ExtraInfo": [
     {
-      "Name": "Mayer, Littel and Satterfield",
-      "Value": "quas",
+      "Name": "Steuber, Bartoletti and Orn",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldLength": 74
         }
       }
     },
     {
-      "Name": "Mayer, Littel and Satterfield",
-      "Value": "quas",
+      "Name": "Steuber, Bartoletti and Orn",
+      "Value": "neque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldLength": 74
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "cumque",
-  "ExtraField2": "tempore",
-  "ExtraField3": "praesentium",
-  "ExtraField4": "quae",
-  "ExtraField5": "quod",
-  "InStock": 2974.1659999999997,
+  "RawExtraInfo": "iusto",
+  "ExtraField1": "quam",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "sunt",
+  "ExtraField4": "unde",
+  "ExtraField5": "quae",
+  "InStock": 9276.64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldLength": 609
     }
   }
 }

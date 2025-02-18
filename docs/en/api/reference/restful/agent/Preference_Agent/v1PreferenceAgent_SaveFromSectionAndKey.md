@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sapiente",
-  "Key": "nobis",
+  "Section": "similique",
+  "Key": "ea",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 426,
-  "Section": "necessitatibus",
-  "Key": "eos",
-  "Name": "Kuvalis, Heidenreich and West",
+  "PrefDescId": 935,
+  "Section": "quibusdam",
+  "Key": "porro",
+  "Name": "Pfannerstill-Rowe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based eco-centric policy",
+  "Description": "Vision-oriented clear-thinking complexity",
   "IsBuiltin": true,
-  "TableName": "Gutmann LLC",
-  "UserDefinedListId": 468,
-  "Rank": 315,
-  "SubGroup": "at",
-  "MinLevel": 827,
-  "MaxValue": 865,
-  "MinValue": 232,
-  "RequiredLicense": "et",
+  "TableName": "Franecki Group",
+  "UserDefinedListId": 536,
+  "Rank": 794,
+  "SubGroup": "ipsa",
+  "MinLevel": 755,
+  "MaxValue": 781,
+  "MinValue": 89,
+  "RequiredLicense": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 451
     }
   }
 }

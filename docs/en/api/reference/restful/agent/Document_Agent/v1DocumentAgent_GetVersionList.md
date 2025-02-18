@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 16
+  "DocumentId": 102
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "itaque",
-    "DocumentId": 827,
-    "VersionId": "corporis",
-    "CheckedInDate": "2000-09-27T12:01:27.7596543+02:00",
-    "CheckedInByName": "Sipes-Grady",
-    "CheckedInByAssociateId": 303,
-    "Description": "Customer-focused regional approach",
-    "DisplayText": "et",
+    "ExternalReference": "praesentium",
+    "DocumentId": 157,
+    "VersionId": "quas",
+    "CheckedInDate": "2011-08-18T14:32:02.7648106+02:00",
+    "CheckedInByName": "Bartoletti, Prosacco and Bartoletti",
+    "CheckedInByAssociateId": 174,
+    "Description": "Secured zero defect approach",
+    "DisplayText": "corporis",
     "ExtraFields": [
-      "nemo",
-      "deleniti"
+      "occaecati",
+      "et"
     ]
   }
 ]

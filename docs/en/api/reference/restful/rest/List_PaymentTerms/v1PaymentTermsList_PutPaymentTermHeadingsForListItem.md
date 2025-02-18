@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 301,
-    "Name": "Douglas, Stamm and Kunze",
-    "ToolTip": "Numquam consequatur.",
+    "Id": 228,
+    "Name": "Goodwin, O'Connell and Bode",
+    "ToolTip": "Hic harum ipsa est.",
     "Deleted": false,
-    "Rank": 535,
-    "Type": "itaque",
-    "ColorBlock": 688,
-    "IconHint": "eum",
+    "Rank": 917,
+    "Type": "atque",
+    "ColorBlock": 618,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2001-10-26T12:01:33.5426053+02:00",
+    "LastChanged": "2012-06-08T14:32:12.6770562+02:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Berge, Veum and Runolfsdottir",
-        "ToolTip": "Eligendi quod officiis est officia.",
-        "Deleted": true,
-        "Rank": 10,
-        "Type": "eaque",
-        "ColorBlock": 284,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2021-11-19T12:01:33.5426053+01:00",
+        "Id": 924,
+        "Name": "Willms LLC",
+        "ToolTip": "Nemo asperiores voluptas quis delectus pariatur.",
+        "Deleted": false,
+        "Rank": 144,
+        "Type": "molestiae",
+        "ColorBlock": 102,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2018-12-17T14:32:12.6770562+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Dortha Glover"
+        "ExtraInfo": "quae",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Alexys Stracke"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Michale Reichert"
+    "ExtraInfo": "tenetur",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Chance Christiansen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 89,
-    "Name": "Kreiger, Koch and Bogan",
-    "ToolTip": "Beatae qui autem qui quaerat.",
-    "Deleted": false,
-    "Rank": 175,
-    "Type": "perspiciatis",
-    "ColorBlock": 999,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2019-04-20T12:01:33.5426053+02:00",
+    "Id": 820,
+    "Name": "King Group",
+    "ToolTip": "Dolor numquam possimus in.",
+    "Deleted": true,
+    "Rank": 758,
+    "Type": "aut",
+    "ColorBlock": 260,
+    "IconHint": "accusantium",
+    "Selected": true,
+    "LastChanged": "2006-11-04T14:32:12.6770562+01:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Marvin Group",
-        "ToolTip": "Provident quasi magni nostrum et.",
+        "Id": 873,
+        "Name": "Hegmann-Boyle",
+        "ToolTip": "Inventore est placeat blanditiis recusandae voluptate velit.",
         "Deleted": false,
-        "Rank": 157,
-        "Type": "ipsum",
-        "ColorBlock": 215,
-        "IconHint": "vel",
+        "Rank": 699,
+        "Type": "laborum",
+        "ColorBlock": 745,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2018-07-19T12:01:33.5426053+02:00",
+        "LastChanged": "2009-06-19T14:32:12.6770562+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Elva Cummerata",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "aperiam",
+        "Hidden": true,
+        "FullName": "Marcel Gladyce Schuster V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldLength": 265
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Cullen Sawayn",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Immanuel Moen DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

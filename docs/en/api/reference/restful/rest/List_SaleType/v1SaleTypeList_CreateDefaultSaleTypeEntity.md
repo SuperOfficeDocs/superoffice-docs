@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 949,
-  "Name": "Cruickshank-Klocko",
-  "Tooltip": "provident",
-  "Rank": 262,
+  "SaleTypeId": 34,
+  "Name": "Rowe, Baumbach and Murphy",
+  "Tooltip": "fuga",
+  "Rank": 440,
   "DurationUnit": "Century",
-  "SaleDuration": 764,
-  "SaleTypeCatId": 969,
-  "Deleted": true,
+  "SaleDuration": 521,
+  "SaleTypeCatId": 475,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 262,
-  "QuoteLinesTemplate": 445,
-  "ConfirmationLinesTemplate": 101,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 840,
+  "QuoteLinesTemplate": 844,
+  "ConfirmationLinesTemplate": 237,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 424,
-  "MinEarningPercent": 876,
-  "GroupQuoteLinesBy": 897,
-  "SortGroupLinesBy": 894,
+  "MaxDiscountPercent": 404,
+  "MinEarningPercent": 621,
+  "GroupQuoteLinesBy": 489,
+  "SortGroupLinesBy": 715,
   "Stages": [
     {
-      "Id": 579,
-      "Name": "Stark Group",
-      "ToolTip": "Quia esse id illo.",
+      "Id": 434,
+      "Name": "Zemlak Group",
+      "ToolTip": "Earum at nobis.",
       "Deleted": false,
-      "Rank": 998,
-      "Type": "aut",
-      "ColorBlock": 137,
-      "IconHint": "maiores",
+      "Rank": 677,
+      "Type": "sit",
+      "ColorBlock": 706,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2007-09-06T12:01:33.6519877+02:00",
+      "LastChanged": "2001-02-22T14:32:12.8959913+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "quos",
-      "Hidden": true,
-      "FullName": "Earnest Medhurst",
+      "ExtraInfo": "cum",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Godfrey Johnson Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldType": "System.String",
+          "FieldLength": 782
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 965
     }
   }
 }

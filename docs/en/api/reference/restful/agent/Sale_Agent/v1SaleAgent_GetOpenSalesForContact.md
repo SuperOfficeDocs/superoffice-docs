@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 201
+  "ContactId": 78
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hane LLC",
-    "SaleDate": "2003-04-15T12:01:28.2596899+02:00",
-    "SaleId": 328,
-    "Probability": 38,
-    "Title": "expedita",
-    "Amount": 8364.6459999999988,
-    "Currency": "et",
-    "ProjectName": "Lang LLC",
-    "AssociateFullName": "Dr. Isaac Anabel Medhurst DVM",
-    "Description": "Future-proofed demand-driven task-force",
+    "ContactName": "Mayer LLC",
+    "SaleDate": "2021-04-13T14:32:03.7179186+02:00",
+    "SaleId": 550,
+    "Probability": 464,
+    "Title": "eos",
+    "Amount": 25808.489999999998,
+    "Currency": "commodi",
+    "ProjectName": "Renner-Klocko",
+    "AssociateFullName": "Terrill Parisian",
+    "Description": "Stand-alone maximized system engine",
     "Status": "Lost",
-    "WeightedAmount": 1560.732,
-    "ProjectId": 163,
-    "EarningPercent": 3356.5139999999997,
-    "Earning": 28672.966,
-    "ContactId": 884,
-    "AssociateId": 631,
-    "PersonId": 403,
-    "SaleTypeId": 838,
-    "SaleTypeName": "Koss LLC",
-    "PersonFullName": "Mrs. Jaida Jedidiah Crist",
+    "WeightedAmount": 10480.096,
+    "ProjectId": 818,
+    "EarningPercent": 22593.005999999998,
+    "Earning": 11335.678,
+    "ContactId": 610,
+    "AssociateId": 520,
+    "PersonId": 421,
+    "SaleTypeId": 757,
+    "SaleTypeName": "Dickens, Rau and Mohr",
+    "PersonFullName": "Ricardo Morar",
     "Completed": "Completed",
-    "ActiveErpLinks": 672,
-    "NextDueDate": "2024-09-21T12:01:28.2596899+02:00",
-    "Number": "1232620",
+    "ActiveErpLinks": 875,
+    "NextDueDate": "1999-06-16T14:32:03.7179186+02:00",
+    "Number": "1091164",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 456
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Wiza LLC",
-    "ToolTip": "Corrupti sint ipsam.",
+    "Id": 950,
+    "Name": "King-Herzog",
+    "ToolTip": "Quibusdam aut tenetur nesciunt ullam sit adipisci dolores.",
     "Deleted": false,
-    "Rank": 620,
-    "Type": "eum",
-    "ColorBlock": 58,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2003-06-30T12:01:33.511353+02:00",
+    "Rank": 142,
+    "Type": "quos",
+    "ColorBlock": 47,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "1997-12-17T14:32:12.6301912+01:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Torp Inc and Sons",
-        "ToolTip": "Consequatur sed rem autem asperiores tempore ipsam iste.",
-        "Deleted": true,
-        "Rank": 947,
-        "Type": "ut",
-        "ColorBlock": 230,
-        "IconHint": "reiciendis",
+        "Id": 417,
+        "Name": "Rempel, Kreiger and Buckridge",
+        "ToolTip": "Voluptas ab omnis eum esse unde.",
+        "Deleted": false,
+        "Rank": 652,
+        "Type": "nam",
+        "ColorBlock": 485,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2002-07-30T12:01:33.511353+02:00",
+        "LastChanged": "2015-05-05T14:32:12.6301912+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Kayla Schuster"
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Stevie Cartwright"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "quis",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Tommie Yost"
+    "FullName": "Katrina Littel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Champlin, Schuppe and Daniel",
-    "ToolTip": "Minima eos eos quisquam.",
-    "Deleted": true,
-    "Rank": 832,
-    "Type": "eveniet",
-    "ColorBlock": 119,
-    "IconHint": "eum",
+    "Id": 9,
+    "Name": "Hodkiewicz-Nicolas",
+    "ToolTip": "Facilis incidunt consequatur perspiciatis velit illum.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "est",
+    "ColorBlock": 798,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2010-03-31T12:01:33.511353+02:00",
+    "LastChanged": "2016-12-26T14:32:12.6301912+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Reichert Inc and Sons",
-        "ToolTip": "Est labore et.",
+        "Id": 676,
+        "Name": "Klein Inc and Sons",
+        "ToolTip": "Inventore nihil corporis non possimus sint suscipit numquam.",
         "Deleted": false,
-        "Rank": 881,
-        "Type": "et",
-        "ColorBlock": 79,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2017-11-01T12:01:33.511353+01:00",
+        "Rank": 687,
+        "Type": "autem",
+        "ColorBlock": 570,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "1999-01-14T14:32:12.6301912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Santiago Rowe",
+        "ExtraInfo": "impedit",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Annette Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "in",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ellen Deckow",
+    "FullName": "Mr. Madge Ford McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

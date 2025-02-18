@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 297,
-  "ColumnId": 323,
-  "FieldDefault": "quos",
-  "FieldHeight": 468,
-  "FieldLabel": "asperiores",
-  "FieldLeft": 670,
-  "FieldTop": 326,
+  "UDefFieldId": 747,
+  "ColumnId": 504,
+  "FieldDefault": "et",
+  "FieldHeight": 671,
+  "FieldLabel": "eum",
+  "FieldLeft": 655,
+  "FieldTop": 23,
   "FieldType": "Checkbox",
-  "FieldWidth": 30,
-  "FormatMask": "accusamus",
-  "HideLabel": true,
+  "FieldWidth": 791,
+  "FormatMask": "consequatur",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 891,
-  "LabelLeft": 916,
-  "LabelTop": 606,
-  "LabelWidth": 679,
-  "LastVersionId": 189,
-  "ListTableId": 897,
+  "LabelHeight": 876,
+  "LabelLeft": 521,
+  "LabelTop": 588,
+  "LabelWidth": 308,
+  "LastVersionId": 163,
+  "ListTableId": 865,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 721,
-  "ProgId": "deserunt",
+  "Page1LineNo": 287,
+  "ProgId": "expedita",
   "IsReadOnly": false,
-  "ShortLabel": "eveniet",
-  "TabOrder": 206,
-  "TextLength": 742,
-  "Tooltip": "temporibus",
-  "UdefIdentity": 655,
-  "UDListDefinitionId": 468,
+  "ShortLabel": "ipsam",
+  "TabOrder": 763,
+  "TextLength": 926,
+  "Tooltip": "rerum",
+  "UdefIdentity": 727,
+  "UDListDefinitionId": 983,
   "Justification": "Center",
-  "Version": 67,
-  "TemplateVariableName": "Gleason, Moore and Bode",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobi, Boehm and Shanahan",
+  "Version": 468,
+  "TemplateVariableName": "Schmeler Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Parker Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

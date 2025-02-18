@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Murray, Botsford and Rolfson",
-    "Tooltip": "laudantium",
+    "Id": 351,
+    "Name": "Swaniawski-Larson",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 540,
-    "Rank": 945
+    "UdListDefinitionId": 579,
+    "Rank": 285
   },
   {
-    "Id": 737,
-    "Name": "Murray, Botsford and Rolfson",
-    "Tooltip": "laudantium",
+    "Id": 351,
+    "Name": "Swaniawski-Larson",
+    "Tooltip": "quae",
     "Deleted": false,
-    "UdListDefinitionId": 540,
-    "Rank": 945
+    "UdListDefinitionId": 579,
+    "Rank": 285
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 19,
-    "Name": "Mante, Reinger and Harber",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 244,
-    "Rank": 36,
+    "Id": 720,
+    "Name": "Hyatt-Brown",
+    "Tooltip": "maiores",
+    "Deleted": true,
+    "UdListDefinitionId": 876,
+    "Rank": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

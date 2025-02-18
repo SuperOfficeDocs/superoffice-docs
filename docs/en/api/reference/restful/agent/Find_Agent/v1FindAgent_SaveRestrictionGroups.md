@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quasi",
-  "ProviderName": "Jast-Collins",
-  "StorageKey": "non",
+  "StorageType": "excepturi",
+  "ProviderName": "Wiza-Stehr",
+  "StorageKey": "est",
   "RestrictionGroups": [
     {
-      "Name": "Blanda-Crooks",
-      "Description": "Reverse-engineered content-based infrastructure",
-      "Rank": 933,
+      "Name": "Tillman Group",
+      "Description": "Assimilated intangible instruction set",
+      "Rank": 88,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda-Crooks",
-      "Description": "Reverse-engineered content-based infrastructure",
-      "Rank": 933,
+      "Name": "Tillman Group",
+      "Description": "Assimilated intangible instruction set",
+      "Rank": 88,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "aut"
+  "Context": "porro"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Intuitive background data-warehouse",
-    "Rank": 406,
+    "Name": "Fisher, Koch and Denesik",
+    "Description": "Reduced client-driven definition",
+    "Rank": 989,
     "Restrictions": [
       {
-        "Name": "Doyle, Bernhard and Prohaska",
-        "Operator": "quos",
+        "Name": "Kirlin Inc and Sons",
+        "Operator": "explicabo",
         "Values": [
-          "ipsam",
-          "beatae"
+          "natus",
+          "dolor"
         ],
         "DisplayValues": [
-          "facilis",
-          "vitae"
+          "doloremque",
+          "omnis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 346,
         "InterOperator": "And",
-        "UniqueHash": 576
+        "UniqueHash": 172
       }
     ]
   },
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Intuitive background data-warehouse",
-    "Rank": 406,
+    "Name": "Fisher, Koch and Denesik",
+    "Description": "Reduced client-driven definition",
+    "Rank": 989,
     "Restrictions": [
       {
-        "Name": "Doyle, Bernhard and Prohaska",
-        "Operator": "quos",
+        "Name": "Kirlin Inc and Sons",
+        "Operator": "explicabo",
         "Values": [
-          "ipsam",
-          "beatae"
+          "natus",
+          "dolor"
         ],
         "DisplayValues": [
-          "facilis",
-          "vitae"
+          "doloremque",
+          "omnis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 346,
         "InterOperator": "And",
-        "UniqueHash": 576
+        "UniqueHash": 172
       }
     ]
   }

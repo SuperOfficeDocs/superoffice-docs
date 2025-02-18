@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 500,
-  "ColumnId": 869,
-  "FieldDefault": "rerum",
-  "FieldHeight": 9,
-  "FieldLabel": "sequi",
-  "FieldLeft": 192,
-  "FieldTop": 412,
+  "UDefFieldId": 125,
+  "ColumnId": 231,
+  "FieldDefault": "quia",
+  "FieldHeight": 146,
+  "FieldLabel": "velit",
+  "FieldLeft": 794,
+  "FieldTop": 914,
   "FieldType": "Checkbox",
-  "FieldWidth": 91,
-  "FormatMask": "dolores",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 372,
-  "LabelLeft": 848,
-  "LabelTop": 961,
-  "LabelWidth": 912,
-  "LastVersionId": 100,
-  "ListTableId": 479,
+  "FieldWidth": 552,
+  "FormatMask": "eos",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 16,
+  "LabelLeft": 344,
+  "LabelTop": 67,
+  "LabelWidth": 662,
+  "LastVersionId": 452,
+  "ListTableId": 951,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 135,
-  "ProgId": "omnis",
+  "Page1LineNo": 401,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "beatae",
-  "TabOrder": 880,
-  "TextLength": 177,
-  "Tooltip": "rerum",
-  "UdefIdentity": 272,
-  "UDListDefinitionId": 170,
+  "ShortLabel": "minus",
+  "TabOrder": 764,
+  "TextLength": 845,
+  "Tooltip": "repudiandae",
+  "UdefIdentity": 916,
+  "UDListDefinitionId": 595,
   "Justification": "Center",
-  "Version": 441,
-  "TemplateVariableName": "Rice, Mertz and Bayer",
-  "HasBeenPublished": true,
-  "MdoListName": "Volkman-Renner",
+  "Version": 980,
+  "TemplateVariableName": "Zieme-Goldner",
+  "HasBeenPublished": false,
+  "MdoListName": "Hudson LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldLength": 416
     }
   }
 }

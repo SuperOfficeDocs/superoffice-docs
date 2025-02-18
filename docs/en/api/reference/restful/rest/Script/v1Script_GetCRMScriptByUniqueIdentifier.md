@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Hyatt, Pacocha and Eichmann",
-  "Description": "Switchable encompassing database",
-  "IncludeId": "perferendis",
-  "Source": "adipisci",
-  "Registered": "2016-08-13T12:01:33.3550923+02:00",
-  "RegisteredBy": "vel",
-  "Updated": "2004-06-08T12:01:33.3550923+02:00",
-  "UpdatedBy": "recusandae",
-  "Path": "dolor",
+  "UniqueIdentifier": "corrupti",
+  "Name": "Daugherty-Schmidt",
+  "Description": "Progressive discrete contingency",
+  "IncludeId": "aliquam",
+  "Source": "optio",
+  "Registered": "2019-07-28T14:32:12.3490058+02:00",
+  "RegisteredBy": "ut",
+  "Updated": "2007-06-12T14:32:12.3490058+02:00",
+  "UpdatedBy": "autem",
+  "Path": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   }
 }

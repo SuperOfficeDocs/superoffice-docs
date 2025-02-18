@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 563,
-  "Name": "Streich-Barrows",
-  "Tooltip": "ea",
-  "Rank": 641,
-  "Key": "eum",
-  "Deleted": false,
+  "LegalBaseId": 23,
+  "Name": "Kunde Group",
+  "Tooltip": "reprehenderit",
+  "Rank": 258,
+  "Key": "dicta",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

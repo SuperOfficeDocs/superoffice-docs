@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 121,
-  "DestinationContactId": 857,
-  "MergeIdenticalPersons": true,
+  "SourceContactId": 185,
+  "DestinationContactId": 625,
+  "MergeIdenticalPersons": false,
   "ReplaceEmptyFieldsOnDestination": true
 }
 ```

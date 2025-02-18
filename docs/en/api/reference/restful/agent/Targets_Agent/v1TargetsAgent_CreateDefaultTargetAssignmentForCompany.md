@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 602,
+  "TargetAssignmentInfoId": 301,
   "Values": [
-    700,
-    389
+    368,
+    142
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 61,
-  "DimensionListItemDisplayName": "Grimes-Upton",
+  "DimensionListItem": 181,
+  "DimensionListItemDisplayName": "Thiel-Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 976
     }
   }
 }

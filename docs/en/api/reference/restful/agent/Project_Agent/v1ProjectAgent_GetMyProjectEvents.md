@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Prof. Isidro Elsa Bernier PhD",
-    "Description": "Open-source tertiary migration",
-    "ProjectId": 865,
-    "EventName": "Little-Metz",
-    "AssociateId": 529,
+    "AssociateFullName": "Orpha Jenkins",
+    "Description": "Open-source national definition",
+    "ProjectId": 61,
+    "EventName": "Flatley Inc and Sons",
+    "AssociateId": 386,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "et",
-    "SignOffText": "officia",
-    "SignOnConfirmationText": "veniam",
-    "SignOnText": "natus",
-    "EventDate": "2007-06-23T12:01:28.1659327+02:00",
+    "SignOffConfirmationText": "ut",
+    "SignOffText": "quas",
+    "SignOnConfirmationText": "sunt",
+    "SignOnText": "sit",
+    "EventDate": "2019-07-09T14:32:03.5148359+02:00",
     "Enabled": true,
     "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": true,
-    "SignOffTaskId": 274,
-    "SignOnTaskId": 259,
+    "SignOffTaskId": 926,
+    "SignOnTaskId": 633,
     "SignOffTriggersAssign": false,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 433,
-    "SignOffPersonId": 282,
+    "SignOnPersonId": 423,
+    "SignOffPersonId": 543,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 271
       }
     }
   }

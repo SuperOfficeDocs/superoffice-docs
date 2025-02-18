@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=iure
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=qui
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 13 Dec 2012 12:01:32 G12T
+Last-Modified: Tue, 08 Jul 2008 14:32:11 G7T
 
 {
-  "Key": "voluptatibus",
-  "Value": "earum",
-  "RecordId": 221,
-  "CreatedDate": "2005-07-31T12:01:32.9175621+02:00",
-  "UpdatedDate": "2012-12-13T12:01:32.9175621+01:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "sapiente",
-  "TableName": "Mante, Hirthe and Fadel",
+  "Key": "iure",
+  "Value": "et",
+  "RecordId": 415,
+  "CreatedDate": "2000-07-10T14:32:11.5210682+02:00",
+  "UpdatedDate": "2008-07-08T14:32:11.5210682+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "aut",
+  "TableName": "Aufderhar-Streich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 490
     }
   }
 }

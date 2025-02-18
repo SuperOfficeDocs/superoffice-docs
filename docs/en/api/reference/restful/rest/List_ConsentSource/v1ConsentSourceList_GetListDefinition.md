@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Lebsack Group",
-  "Tooltip": "non",
+  "Id": 157,
+  "Name": "Hansen-Hegmann",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 488,
-  "IsCustomList": false,
+  "Rank": 50,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 603
+      "FieldLength": 717
     }
   },
   "_Links": {

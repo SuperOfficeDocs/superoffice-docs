@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=saepe
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Walter-Bergstrom",
-    "ToolTip": "Consequuntur nemo velit officia est nemo.",
+    "Id": 520,
+    "Name": "Yundt-DuBuque",
+    "ToolTip": "Ea aliquam et.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "voluptates",
+    "Rank": 469,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Rohan, Nader and Boyer",
-        "ToolTip": "Nam optio tempore nihil soluta cumque dolorem.",
-        "Deleted": true,
-        "Rank": 683,
-        "Type": "culpa",
+        "Id": 758,
+        "Name": "Blick, Abbott and Spinka",
+        "ToolTip": "Laboriosam nihil ipsum voluptatem non rerum et.",
+        "Deleted": false,
+        "Rank": 223,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 360,
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
-        "FullName": "Joanne Okuneva",
+        "IconHint": "et",
+        "ColorBlock": 370,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "delectus",
+        "FullName": "Geovany Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 901
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 83,
-    "ExtraInfo": "neque",
-    "StyleHint": "non",
-    "FullName": "Haleigh Adams MD",
+    "IconHint": "incidunt",
+    "ColorBlock": 897,
+    "ExtraInfo": "enim",
+    "StyleHint": "in",
+    "FullName": "Margarita Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldType": "System.Int32",
+        "FieldLength": 342
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 710,
-    "Name": "Hagenes-Wiza",
-    "Tooltip": "minima",
+    "HeadingId": 515,
+    "Name": "Wintheiser, Feil and Ryan",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 962,
-    "UdListDefinitionId": 358,
+    "Rank": 693,
+    "UdListDefinitionId": 948,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 882
       }
     }
   }

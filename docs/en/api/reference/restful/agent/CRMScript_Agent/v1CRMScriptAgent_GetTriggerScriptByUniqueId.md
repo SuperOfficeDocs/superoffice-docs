@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ut"
+  "TriggerScriptUniqueId": "aliquid"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 468,
-  "Name": "Gaylord, Schowalter and Schulist",
+  "ScreenChooserId": 814,
+  "Name": "Herman, Daniel and Metz",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolores",
-  "Source": "voluptatem",
-  "Registered": "2018-10-06T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 75,
-  "Updated": "2012-12-24T12:01:27.5408902+01:00",
-  "UpdatedAssociateId": 21,
+  "Enabled": false,
+  "UniqueIdentifier": "ut",
+  "Source": "est",
+  "Registered": "2000-01-13T14:32:02.561731+01:00",
+  "RegisteredAssociateId": 750,
+  "Updated": "2001-01-20T14:32:02.561731+01:00",
+  "UpdatedAssociateId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldType": "System.String",
+      "FieldLength": 214
     }
   }
 }

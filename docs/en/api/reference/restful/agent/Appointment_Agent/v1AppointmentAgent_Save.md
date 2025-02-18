@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-08-03T12:01:27.197115+02:00",
-  "AppointmentId": 709,
-  "Description": "User-centric value-added instruction set",
-  "Title": "autem",
-  "Agenda": "quibusdam",
-  "InternalNotes": "autem",
-  "StartDate": "2011-11-13T12:01:27.197115+01:00",
-  "EndDate": "2008-08-08T12:01:27.197115+02:00",
+  "CreatedDate": "2005-01-11T14:32:01.7961076+01:00",
+  "AppointmentId": 797,
+  "Description": "Compatible well-modulated paradigm",
+  "Title": "non",
+  "Agenda": "illo",
+  "InternalNotes": "dicta",
+  "StartDate": "2019-03-09T14:32:01.7961076+01:00",
+  "EndDate": "1999-07-16T14:32:01.7961076+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 255,
+  "MotherId": 932,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-04-24T12:01:27.2127411+02:00",
+  "UpdatedDate": "2022-05-08T14:32:01.7961076+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 175,
+  "ActiveLinks": 30,
   "Links": [
     {
-      "EntityName": "Rolfson-Brakus",
-      "Id": 348,
-      "Description": "Cross-platform client-server policy",
-      "ExtraInfo": "sint",
-      "LinkId": 863,
+      "EntityName": "Casper-Hodkiewicz",
+      "Id": 312,
+      "Description": "Multi-lateral scalable extranet",
+      "ExtraInfo": "qui",
+      "LinkId": 725,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 481
+          "FieldLength": 652
         }
       }
     }
   ],
-  "AlarmLeadTime": "possimus",
+  "AlarmLeadTime": "quibusdam",
   "HasAlarm": false,
-  "ColorIndex": 385,
-  "IsFree": false,
+  "ColorIndex": 728,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "quos",
-  "LeadTime": "quo",
-  "Location": "facilis",
-  "RejectCounter": 317,
+  "LagTime": "sed",
+  "LeadTime": "fugit",
+  "Location": "possimus",
+  "RejectCounter": 543,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 212,
-      "PersonId": 579,
-      "ContactId": 666,
-      "EmailId": 605,
+      "AssociateId": 709,
+      "PersonId": 855,
+      "ContactId": 265,
+      "EmailId": 540,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "miller.larkin@abbott.biz",
-      "Description": "Face to face 3rd generation task-force"
+      "EmailAddress": "august_reynolds@lindgren.name",
+      "Description": "Cloned scalable synergy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-09-28T12:01:27.2127411+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2002-02-14T14:32:01.7961076+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 108,
+  "PreferredTZLocation": 345,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 910,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 53,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "aut",
+  "CentralserviceVideomeetId": "architecto",
   "UserDefinedFields": {
-    "SuperOffice:1": "1758960254",
-    "SuperOffice:2": "Birdie Murray"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Sylvia Hessel"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "quo",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "alias"
+    "CustomFields1": "ex",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2018-06-12T12:01:27.2127411+02:00",
-  "PublishTo": "2010-09-24T12:01:27.2127411+02:00",
-  "PublishFrom": "2017-11-11T12:01:27.2127411+01:00",
+  "PublishEventDate": "2023-11-10T14:32:01.7961076+01:00",
+  "PublishTo": "2019-04-08T14:32:01.7961076+02:00",
+  "PublishFrom": "2007-12-01T14:32:01.7961076+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 807,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     },
     {
-      "VisibleId": 807,
+      "VisibleId": 223,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 584
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 428
+      "FieldLength": 93
     }
   }
 }

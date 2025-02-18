@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Hettinger-Jast",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 486,
+    "Id": 102,
+    "Name": "Reinger Group",
+    "Tooltip": "sint",
+    "Deleted": true,
+    "Rank": 582,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "sint",
-    "InUseByUserDefinedFields": true,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "qui",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 145
       }
     }
   }

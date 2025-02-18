@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-05-09T12:01:32.667545+02:00",
-  "AppointmentId": 912,
-  "Description": "Cross-group assymetric matrix",
-  "Title": "neque",
-  "Agenda": "adipisci",
-  "InternalNotes": "eius",
-  "StartDate": "2015-03-31T12:01:32.667545+02:00",
-  "EndDate": "2016-02-10T12:01:32.667545+01:00",
+  "CreatedDate": "2022-04-22T14:32:11.0677502+02:00",
+  "AppointmentId": 914,
+  "Description": "Decentralized methodical parallelism",
+  "Title": "quaerat",
+  "Agenda": "et",
+  "InternalNotes": "deserunt",
+  "StartDate": "2023-09-20T14:32:11.0677502+02:00",
+  "EndDate": "2017-03-09T14:32:11.0677502+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 694,
+  "MotherId": 834,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-12-16T12:01:32.667545+01:00",
+  "UpdatedDate": "2008-04-20T14:32:11.0677502+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 265,
+  "ActiveLinks": 528,
   "Links": [
     {
-      "EntityName": "Koelpin-Dare",
-      "Id": 741,
-      "Description": "Cloned encompassing help-desk",
+      "EntityName": "Marvin LLC",
+      "Id": 684,
+      "Description": "Decentralized dedicated concept",
       "ExtraInfo": "fuga",
-      "LinkId": 536
+      "LinkId": 557
     },
     {
-      "EntityName": "Koelpin-Dare",
-      "Id": 741,
-      "Description": "Cloned encompassing help-desk",
+      "EntityName": "Marvin LLC",
+      "Id": 684,
+      "Description": "Decentralized dedicated concept",
       "ExtraInfo": "fuga",
-      "LinkId": 536
+      "LinkId": 557
     }
   ],
-  "AlarmLeadTime": "enim",
+  "AlarmLeadTime": "aliquam",
   "HasAlarm": false,
-  "ColorIndex": 905,
-  "IsFree": false,
+  "ColorIndex": 438,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "aut",
-  "Location": "sit",
-  "RejectCounter": 793,
-  "RejectReason": "architect transparent metrics",
+  "LagTime": "et",
+  "LeadTime": "est",
+  "Location": "nulla",
+  "RejectCounter": 261,
+  "RejectReason": "matrix cross-platform networks",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 482,
-      "PersonId": 501,
-      "ContactId": 209,
-      "EmailId": 318,
+      "AssociateId": 192,
+      "PersonId": 3,
+      "ContactId": 784,
+      "EmailId": 636,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "regan_durgan@hermann.co.uk",
-      "Description": "Front-line reciprocal system engine"
+      "EmailAddress": "verlie@moen.com",
+      "Description": "Profound neutral standardization"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-11-10T12:01:32.667545+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2021-07-02T14:32:11.0677502+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 21,
+  "PreferredTZLocation": 663,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 381,
+  "SuggestedAppointmentId": 60,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "officia",
+  "CentralserviceVideomeetId": "nesciunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "Edmund Stiedemann PhD",
-    "SuperOffice:2": "Miss Allene Cade Swift III"
+    "SuperOffice:1": "1156279432",
+    "SuperOffice:2": "Mrs. Manuel Cole V"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "dolores"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "1998-04-06T12:01:32.667545+02:00",
-  "PublishTo": "2020-11-03T12:01:32.667545+01:00",
-  "PublishFrom": "2023-11-17T12:01:32.667545+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2018-07-29T14:32:11.0677502+02:00",
+  "PublishTo": "2022-02-15T14:32:11.0677502+01:00",
+  "PublishFrom": "2007-11-07T14:32:11.0677502+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 943,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "adipisci"
     },
     {
-      "VisibleId": 943,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "adipisci"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "quae",
-  "2": "corporis"
+  "1": "eligendi",
+  "2": "ducimus"
 }
 ```

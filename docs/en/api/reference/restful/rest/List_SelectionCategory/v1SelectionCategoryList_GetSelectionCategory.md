@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Bahringer-Witting",
-  "Tooltip": "saepe",
+  "Id": 515,
+  "Name": "Braun Group",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "UdListDefinitionId": 121,
-  "Rank": 951,
+  "UdListDefinitionId": 965,
+  "Rank": 217,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

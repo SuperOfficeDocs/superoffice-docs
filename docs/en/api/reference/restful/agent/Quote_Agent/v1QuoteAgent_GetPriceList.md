@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=7
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=238
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 864,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 752,
-  "Name": "Marks-Doyle",
-  "Description": "User-centric homogeneous benchmark",
-  "Currency": "doloremque",
-  "CurrencyName": "Dickinson, Franecki and Schoen",
-  "ValidFrom": "2009-06-11T12:01:28.1815588+02:00",
-  "ValidTo": "1998-06-14T12:01:28.1815588+02:00",
+  "PriceListId": 511,
+  "ERPPriceListKey": "eos",
+  "QuoteConnectionId": 101,
+  "Name": "Legros Group",
+  "Description": "Organic intermediate pricing structure",
+  "Currency": "omnis",
+  "CurrencyName": "Bruen, Collier and Bartoletti",
+  "ValidFrom": "2013-06-22T14:32:03.5617+02:00",
+  "ValidTo": "2003-05-11T14:32:03.5617+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

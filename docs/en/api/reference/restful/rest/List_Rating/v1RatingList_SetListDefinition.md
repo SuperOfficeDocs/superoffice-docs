@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Heaney Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 307,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 371,
+  "Name": "Tillman, Robel and Wunsch",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 773,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
+  "ListType": "blanditiis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 519,
-  "Name": "Deckow LLC",
-  "Tooltip": "sed",
+  "Id": 845,
+  "Name": "Herman LLC",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 628,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 552,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "odit",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 153
     }
   }
 }

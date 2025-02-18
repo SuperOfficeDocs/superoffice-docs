@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Johnson Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 994,
+  "Name": "Nader Inc and Sons",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 10,
+  "Rank": 889,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Borer, Wehner and Block",
-  "Tooltip": "aliquam",
+  "Id": 7,
+  "Name": "Kassulke Inc and Sons",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "Rank": 26,
+  "Rank": 5,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

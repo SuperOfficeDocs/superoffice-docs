@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=velit
-GET /api/v1/ForeignApp?$top=506
-GET /api/v1/ForeignApp?$skip=746
+GET /api/v1/ForeignApp?$entities=illum
+GET /api/v1/ForeignApp?$top=520
+GET /api/v1/ForeignApp?$skip=991
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=nihil
+GET /api/v1/ForeignApp?$context=molestiae
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=True
 GET /api/v1/ForeignApp?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "qui",
   "value": [
     {
-      "PrimaryKey": 9132,
-      "EntityName": "person",
-      "personId": 9132,
-      "fullName": "Danny Schmitt Sr."
+      "PrimaryKey": 2993,
+      "EntityName": "sale",
+      "saleId": 2993,
+      "contactId": 3267,
+      "name": "Kuvalis-Kreiger"
     },
     {
-      "PrimaryKey": 5788,
-      "EntityName": "person",
-      "personId": 5788,
-      "fullName": "Dr. Lesley Gerhard Weissnat"
+      "PrimaryKey": 6060,
+      "EntityName": "sale",
+      "saleId": 6060,
+      "contactId": 25,
+      "name": "Schuster-Kohler"
     }
   ]
 }

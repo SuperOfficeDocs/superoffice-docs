@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Name": "Rolfson Group",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 265,
-  "IsCustomList": false,
+  "Id": 650,
+  "Name": "Russel Inc and Sons",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 72,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "iure",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 343,
-  "Name": "Barton-Swaniawski",
-  "Tooltip": "assumenda",
+  "Id": 756,
+  "Name": "Weissnat-Abshire",
+  "Tooltip": "dolores",
   "Deleted": true,
-  "Rank": 237,
-  "IsCustomList": false,
+  "Rank": 416,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolores",
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 571,
+  "AssociateId": 419,
   "Type": "AnonymousAssociate",
-  "PersonId": 72,
-  "UserName": "Harvey-Gleason"
+  "PersonId": 873,
+  "UserName": "Balistreri-Kassulke"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Weissnat, Lowe and Leannon"
+"Weber, Schneider and Osinski"
 ```

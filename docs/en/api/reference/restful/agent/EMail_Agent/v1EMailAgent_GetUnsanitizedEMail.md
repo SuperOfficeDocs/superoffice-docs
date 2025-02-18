@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
+  "Id": 33,
   "IncludeAttachments": false
 }
 ```
@@ -122,147 +122,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 360,
-      "ContactName": "Balistreri-Torp",
-      "PersonId": 537,
-      "PersonName": "Swaniawski Group",
-      "AssociateId": 353,
-      "Address": "ducimus",
-      "EmailId": 410,
+      "ContactId": 541,
+      "ContactName": "Schamberger Group",
+      "PersonId": 445,
+      "PersonName": "Bechtelar Inc and Sons",
+      "AssociateId": 620,
+      "Address": "maiores",
+      "EmailId": 350,
       "DuplicatePersonIds": [
-        223,
-        906
+        441,
+        121
       ],
-      "Name": "Zemlak Group",
+      "Name": "Herzog LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 622,
-      "ContactName": "Muller, Ward and Bogan",
-      "PersonId": 884,
-      "PersonName": "Graham-Hilll",
-      "AssociateId": 852,
-      "Address": "id",
-      "EmailId": 972,
+      "ContactId": 841,
+      "ContactName": "Treutel Inc and Sons",
+      "PersonId": 566,
+      "PersonName": "Farrell-Pfeffer",
+      "AssociateId": 343,
+      "Address": "voluptatem",
+      "EmailId": 360,
       "DuplicatePersonIds": [
-        686,
-        435
+        785,
+        549
       ],
-      "Name": "Rowe-Dietrich",
+      "Name": "Weber-Homenick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 570
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 373,
-      "ContactName": "McCullough-Cartwright",
-      "PersonId": 506,
-      "PersonName": "Schiller LLC",
-      "AssociateId": 203,
-      "Address": "commodi",
-      "EmailId": 812,
+      "ContactId": 517,
+      "ContactName": "Roberts LLC",
+      "PersonId": 213,
+      "PersonName": "Hyatt Inc and Sons",
+      "AssociateId": 125,
+      "Address": "nihil",
+      "EmailId": 483,
       "DuplicatePersonIds": [
-        556,
-        742
+        685,
+        472
       ],
-      "Name": "Hartmann-Kreiger",
+      "Name": "Jacobs, Von and Corkery",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 623
         }
       }
     }
   ],
-  "Subject": "mollitia",
-  "HTMLBody": "quas",
+  "Subject": "quidem",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2023-03-21T12:01:27.8534108+01:00",
-  "Size": 823,
+  "Sent": "2022-01-25T14:32:02.9522679+01:00",
+  "Size": 1001,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "totam",
-  "PlainBody": "doloremque",
-  "IsSent": false,
+  "MessageID": "aut",
+  "PlainBody": "qui",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 721,
+  "ServerId": 658,
   "Attachments": [
     {
-      "Description": "Enhanced eco-centric flexibility",
-      "Filename": "odio",
-      "Size": 406,
-      "Type": "aliquid",
-      "Encoding": "sunt",
-      "Id": "animi",
-      "Disposition": "est",
-      "IsSafeFileExtension": true,
+      "Description": "Persevering fresh-thinking installation",
+      "Filename": "impedit",
+      "Size": 600,
+      "Type": "est",
+      "Encoding": "architecto",
+      "Id": "iusto",
+      "Disposition": "saepe",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldType": "System.String",
+          "FieldLength": 478
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sawayn, Blanda and Hermann",
+      "Name": "Mills, Torp and Kshlerin",
       "Values": [
-        "quae",
-        "autem"
+        "nihil",
+        "odit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 874
         }
       }
     },
     {
-      "Name": "Sawayn, Blanda and Hermann",
+      "Name": "Mills, Torp and Kshlerin",
       "Values": [
-        "quae",
-        "autem"
+        "nihil",
+        "odit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 874
         }
       }
     }
   ],
-  "FolderName": "Homenick-Rutherford",
-  "EmailItemId": 147,
-  "AccountId": 247,
-  "ReceivedAt": "2022-01-31T12:01:27.8534108+01:00",
+  "FolderName": "Kuvalis, Barton and Hand",
+  "EmailItemId": 972,
+  "AccountId": 497,
+  "ReceivedAt": "2024-03-09T14:32:02.9522679+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-12-26T12:01:27.8534108+01:00",
+  "RepliedAt": "2024-07-28T14:32:02.9522679+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldLength": 688
     }
   }
 }

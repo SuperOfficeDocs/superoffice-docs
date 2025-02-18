@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    507,
-    595
+    721,
+    567
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 704,
-    "ContactName": "Klocko-Runte",
-    "PersonId": 45,
-    "PersonName": "D'Amore-Hermiston",
-    "AssociateId": 859,
+    "ContactId": 943,
+    "ContactName": "Romaguera Inc and Sons",
+    "PersonId": 56,
+    "PersonName": "Abernathy Group",
+    "AssociateId": 997,
     "Address": "ut",
-    "EmailId": 995,
+    "EmailId": 234,
     "DuplicatePersonIds": [
-      180,
-      551
+      100,
+      374
     ],
-    "Name": "Rodriguez Inc and Sons",
+    "Name": "Klein, Greenholt and Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldType": "System.String",
+        "FieldLength": 578
       }
     }
   }

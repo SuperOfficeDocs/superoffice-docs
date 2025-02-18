@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 May 2018 12:01:32 G5T
+Last-Modified: Thu, 09 Sep 2004 14:32:11 G9T
 
 {
-  "Key": "enim",
-  "Value": "praesentium",
-  "RecordId": 591,
-  "CreatedDate": "2023-01-11T12:01:32.9175621+01:00",
-  "UpdatedDate": "2018-05-26T12:01:32.9175621+02:00",
-  "UpdatedBy": "blanditiis",
-  "CreatedBy": "asperiores",
-  "TableName": "Bechtelar-Nader",
+  "Key": "distinctio",
+  "Value": "repudiandae",
+  "RecordId": 866,
+  "CreatedDate": "2012-07-15T14:32:11.5210682+02:00",
+  "UpdatedDate": "2004-09-09T14:32:11.5210682+02:00",
+  "UpdatedBy": "officiis",
+  "CreatedBy": "non",
+  "TableName": "Wiza Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldLength": 589
     }
   }
 }

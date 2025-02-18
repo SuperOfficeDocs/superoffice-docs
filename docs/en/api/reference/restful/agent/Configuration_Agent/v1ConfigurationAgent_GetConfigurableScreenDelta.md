@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=470
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=406
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 468,
-  "Name": "VonRueden-Beatty",
-  "Description": "Reverse-engineered didactic success",
-  "DeltaJson": "facilis",
+  "ConfigurableScreenDeltaId": 510,
+  "Name": "Dooley, Breitenberg and Beatty",
+  "Description": "Streamlined tertiary task-force",
+  "DeltaJson": "sed",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "necessitatibus",
-  "UpdatedDate": "2014-10-09T12:01:27.4471334+02:00",
-  "CreatedDate": "2001-10-06T12:01:27.4471334+02:00",
+  "RecipeId": "vero",
+  "UpdatedDate": "2015-06-05T14:32:02.2336819+02:00",
+  "CreatedDate": "2000-02-02T14:32:02.2336819+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    930,
-    675
+    446,
+    739
   ],
-  "AppliesToKey": "eum",
+  "AppliesToKey": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 729
     }
   }
 }

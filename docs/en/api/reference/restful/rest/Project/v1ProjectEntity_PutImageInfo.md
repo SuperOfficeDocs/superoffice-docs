@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=567
+PUT /api/v1/Project/{id}/ImageInfo?projectId=561
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 822,
-  "BlobSize": 807,
-  "Description": "De-engineered analyzing hub",
-  "ExtraInfo": "doloribus",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 60,
-  "CreatedDate": "2005-04-07T12:01:33.0269443+02:00",
-  "UpdatedDate": "2025-01-19T12:01:33.0269443+01:00",
+  "BlobId": 553,
+  "BlobSize": 863,
+  "Description": "Visionary methodical architecture",
+  "ExtraInfo": "necessitatibus",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "ullam",
+  "OriginalSize": 674,
+  "CreatedDate": "2015-08-02T14:32:11.708526+02:00",
+  "UpdatedDate": "2006-05-09T14:32:11.708526+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero"
+  "ConceptualType": "consequuntur"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 687,
-  "BlobSize": 647,
-  "Description": "Versatile methodical conglomeration",
-  "ExtraInfo": "similique",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 651,
-  "CreatedDate": "2002-06-01T12:01:33.0269443+02:00",
-  "UpdatedDate": "2023-12-06T12:01:33.0269443+01:00",
+  "BlobId": 849,
+  "BlobSize": 7,
+  "Description": "Customizable tertiary portal",
+  "ExtraInfo": "ipsam",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "qui",
+  "OriginalSize": 117,
+  "CreatedDate": "2013-01-13T14:32:11.7241465+01:00",
+  "UpdatedDate": "2016-01-01T14:32:11.7241465+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

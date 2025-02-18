@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "eldridge@berge.co.uk",
-  "Counts": 344,
-  "Code": 818,
-  "Reason": ""
+  "EmailAddress": "guy@damore.com",
+  "Counts": 626,
+  "Code": 768,
+  "Reason": "streamline magnetic mindshare"
 }
 ```
 

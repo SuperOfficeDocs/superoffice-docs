@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "inventore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "inventore",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 733,
-  "Name": "Halvorson-Lehner",
-  "Description": "Secured 5th generation neural-net",
-  "WelcomeMessage": "expedita",
+  "ChatTopicId": 116,
+  "Name": "Predovic LLC",
+  "Description": "Quality-focused composite toolset",
+  "WelcomeMessage": "dolores",
   "Language": null,
-  "LastAccept": "2017-01-08T12:01:32.7613009+01:00",
-  "SecondsPrAccept": 839,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2005-02-10T14:32:11.2239698+01:00",
+  "SecondsPrAccept": 499,
+  "AlertRecipient": "alias",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "doloremque",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 700,
-  "WarnManagerNewChatMinutes": 821,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "sunt",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "soluta",
+  "WarnNewChatMinutes": 448,
+  "WarnManagerNewChatMinutes": 277,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 112,
-  "WarnManagerChatMessageMinutes": 827,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 985,
-  "OfflineFormQueueLength": 371,
+  "WarnChatMessageMinutes": 249,
+  "WarnManagerChatMessageMinutes": 956,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 661,
+  "OfflineFormQueueLength": 628,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "saepe",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 386
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 123,
-  "MinDate": "2017-08-23T12:01:27.7752804+02:00",
-  "MaxDate": "2015-04-22T12:01:27.7752804+02:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 433,
+  "MinDate": "2014-04-27T14:32:02.7960532+02:00",
+  "MaxDate": "2010-11-01T14:32:02.7960532+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 623,
-  "NumDocumentsAlreadyMigrated": 180,
+  "NumDocumentsOmitted": 222,
+  "NumDocumentsAlreadyMigrated": 978,
   "Documents": [
     {
-      "DocumentId": 547,
-      "ContactId": 907,
-      "PersonId": 542,
-      "SaleId": 805,
-      "ProjectId": 603,
-      "DocTmplId": 496,
-      "AssociateId": 124,
-      "UserGroupId": 846,
-      "VisibleForId": 137
+      "DocumentId": 190,
+      "ContactId": 407,
+      "PersonId": 415,
+      "SaleId": 78,
+      "ProjectId": 924,
+      "DocTmplId": 904,
+      "AssociateId": 135,
+      "UserGroupId": 574,
+      "VisibleForId": 775
     }
   ],
   "Associates": [
     {
-      "AssociateId": 154,
-      "EmailAddress": "celine@yundtbailey.us"
+      "AssociateId": 574,
+      "EmailAddress": "jamie@goodwin.com"
     },
     {
-      "AssociateId": 154,
-      "EmailAddress": "celine@yundtbailey.us"
+      "AssociateId": 574,
+      "EmailAddress": "jamie@goodwin.com"
     }
   ]
 }

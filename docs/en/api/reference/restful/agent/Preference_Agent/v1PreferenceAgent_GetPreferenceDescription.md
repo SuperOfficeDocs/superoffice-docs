@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=865
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=327
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 8,
-  "Section": "quaerat",
-  "Key": "ut",
-  "Name": "Mueller LLC",
+  "PrefDescId": 572,
+  "Section": "facere",
+  "Key": "fugit",
+  "Name": "Dietrich-Leannon",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Mandatory mission-critical contingency",
-  "IsBuiltin": false,
-  "TableName": "Boyle-Anderson",
-  "UserDefinedListId": 770,
-  "Rank": 824,
-  "SubGroup": "possimus",
-  "MinLevel": 103,
-  "MaxValue": 291,
-  "MinValue": 783,
-  "RequiredLicense": "dolorem",
+  "Description": "Grass-roots leading edge moratorium",
+  "IsBuiltin": true,
+  "TableName": "Kihn-Volkman",
+  "UserDefinedListId": 671,
+  "Rank": 204,
+  "SubGroup": "et",
+  "MinLevel": 669,
+  "MaxValue": 637,
+  "MinValue": 74,
+  "RequiredLicense": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldType": "System.Int32",
+      "FieldLength": 890
     }
   }
 }

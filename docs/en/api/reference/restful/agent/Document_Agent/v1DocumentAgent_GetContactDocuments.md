@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125,
-  "StartTime": "2012-01-21T12:01:27.5877684+01:00",
-  "EndTime": "2009-01-28T12:01:27.5877684+01:00",
-  "Count": 161
+  "ContactId": 299,
+  "StartTime": "1998-04-08T14:32:02.6242172+02:00",
+  "EndTime": "1999-04-09T14:32:02.6242172+02:00",
+  "Count": 524
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 719,
-    "Attention": "molestias",
-    "Header": "totam",
-    "Name": "West, Grady and Dibbert",
-    "OurRef": "consectetur",
-    "YourRef": "veniam",
-    "Description": "Monitored heuristic adapter",
-    "DocumentTemplate": "culpa",
+    "DocumentId": 571,
+    "Attention": "libero",
+    "Header": "maiores",
+    "Name": "Jast-Watsica",
+    "OurRef": "vel",
+    "YourRef": "ut",
+    "Description": "Cloned bandwidth-monitored definition",
+    "DocumentTemplate": "distinctio",
     "IsPublished": false,
-    "PersonId": 909,
-    "PersonFullName": "Prof. Rex Konopelski PhD",
-    "AssociateFullName": "Sarina Bode",
-    "ContactId": 410,
-    "ContactName": "DuBuque LLC",
-    "ProjectId": 806,
-    "ProjectName": "Sipes-Kshlerin",
-    "AssociateId": 681,
-    "Snum": 462,
-    "SaleId": 320,
-    "SaleName": "Daniel-Heathcote",
+    "PersonId": 294,
+    "PersonFullName": "Ms. Juston Royce Osinski",
+    "AssociateFullName": "Estel Jerde",
+    "ContactId": 643,
+    "ContactName": "Zulauf-Windler",
+    "ProjectId": 446,
+    "ProjectName": "Oberbrunner-Anderson",
+    "AssociateId": 15,
+    "Snum": 834,
+    "SaleId": 863,
+    "SaleName": "Kemmer, Cummerata and Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 135
       }
     }
   }

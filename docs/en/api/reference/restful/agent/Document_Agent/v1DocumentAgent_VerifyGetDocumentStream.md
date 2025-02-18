@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Document/VerifyGetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 305
+  "DocumentId": 212
 }
 ```
 

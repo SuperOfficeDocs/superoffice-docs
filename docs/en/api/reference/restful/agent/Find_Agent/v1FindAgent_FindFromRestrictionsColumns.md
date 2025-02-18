@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Green-Schulist",
-      "Operator": "distinctio",
+      "Name": "Price Group",
+      "Operator": "modi",
       "Values": [
-        "nemo",
-        "omnis"
+        "harum",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "corrupti",
-        "dolor"
+        "qui",
+        "dolores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 505,
+      "InterParenthesis": 669,
       "InterOperator": "And",
-      "UniqueHash": 225
+      "UniqueHash": 914
     }
   ],
-  "ProviderName": "Dickinson Group",
+  "ProviderName": "Kuvalis LLC",
   "DesiredColumns": [
-    "sed",
-    "possimus"
+    "totam",
+    "ut"
   ],
-  "PageSize": 461,
-  "PageNumber": 709
+  "PageSize": 376,
+  "PageNumber": 104
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "White-Veum",
-      "DisplayTooltip": "ut",
-      "DisplayType": "voluptas",
+      "DisplayName": "Graham, Pouros and Moore",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "hic",
       "CanOrderBy": false,
-      "Name": "Predovic, Grimes and Goodwin",
-      "CanRestrictBy": false,
-      "RestrictionType": "doloribus",
-      "RestrictionListName": "Zemlak LLC",
-      "IsVisible": true,
-      "ExtraInfo": "natus",
-      "Width": "eius",
-      "IconHint": "impedit",
-      "HeadingIconHint": "dicta"
+      "Name": "Schultz Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "assumenda",
+      "RestrictionListName": "Maggio LLC",
+      "IsVisible": false,
+      "ExtraInfo": "explicabo",
+      "Width": "sit",
+      "IconHint": "sapiente",
+      "HeadingIconHint": "excepturi"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lynch, Fadel and Gottlieb",
-      "PrimaryKey": 210,
+      "EntityName": "Hyatt-Yundt",
+      "PrimaryKey": 855,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nostrum",
-          "TooltipHint": "temporibus",
-          "LinkHint": "numquam"
+          "DisplayValue": "reiciendis",
+          "TooltipHint": "sit",
+          "LinkHint": "hic"
         }
       },
-      "LinkHint": "quos",
-      "StyleHint": "quo",
+      "LinkHint": "voluptatem",
+      "StyleHint": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldLength": 617
         }
       }
     }
   ],
-  "RowCount": 870,
+  "RowCount": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

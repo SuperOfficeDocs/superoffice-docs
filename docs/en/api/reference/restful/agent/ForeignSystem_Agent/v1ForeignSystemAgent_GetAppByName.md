@@ -83,7 +83,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ruecker, Crist and McDermott"
+  "ApplicationName": "Kovacek-Fadel"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 673,
-  "Name": "Little, Bailey and Weber",
-  "CreatedDate": "1999-01-12T12:01:27.9002891+01:00",
-  "UpdatedDate": "2024-07-21T12:01:27.9002891+02:00",
+  "ForeignAppId": 477,
+  "Name": "Greenfelder, Ebert and Davis",
+  "CreatedDate": "1998-07-20T14:32:03.0303748+02:00",
+  "UpdatedDate": "2009-11-30T14:32:03.0303748+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 498,
-      "Name": "Schimmel-Rath",
-      "CreatedDate": "2010-02-05T12:01:27.9002891+01:00",
-      "UpdatedDate": "2002-03-25T12:01:27.9002891+01:00",
-      "AssociateFullName": "Mireille Nicolas",
-      "CreatedBy": "et",
-      "UpdatedBy": "delectus",
-      "DeviceIdentifier": "adipisci",
-      "ForeignAppId": 319,
+      "ForeignDeviceId": 803,
+      "Name": "Considine, Murray and Koepp",
+      "CreatedDate": "1998-08-02T14:32:03.0303748+02:00",
+      "UpdatedDate": "2004-06-05T14:32:03.0303748+02:00",
+      "AssociateFullName": "Joshua Watsica",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "ex",
+      "DeviceIdentifier": "consequuntur",
+      "ForeignAppId": 511,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 147
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   }
 }

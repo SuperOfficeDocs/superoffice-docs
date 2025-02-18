@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Flat": true,
-  "OnlyPresent": true
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "O'Kon-Bailey",
-    "ToolTip": "Facilis quibusdam doloremque laboriosam qui delectus.",
-    "Deleted": true,
-    "Rank": 75,
-    "Type": "dolores",
+    "Id": 96,
+    "Name": "Berge, Dooley and Herman",
+    "ToolTip": "Laudantium possimus quia veniam.",
+    "Deleted": false,
+    "Rank": 193,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Boehm-Wisozk",
-        "ToolTip": "Est et.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "quo",
+        "Id": 929,
+        "Name": "Harvey Group",
+        "ToolTip": "Ullam nulla molestiae magnam earum.",
+        "Deleted": true,
+        "Rank": 104,
+        "Type": "eius",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 53,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "fuga",
-        "FullName": "Dannie Gulgowski",
+        "IconHint": "quae",
+        "ColorBlock": 418,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "quaerat",
+        "FullName": "Mrs. Verna Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 20
+            "FieldType": "System.Int32",
+            "FieldLength": 863
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 660,
-    "ExtraInfo": "non",
-    "StyleHint": "veniam",
-    "FullName": "Margarete Emmerich",
+    "IconHint": "rerum",
+    "ColorBlock": 595,
+    "ExtraInfo": "hic",
+    "StyleHint": "accusamus",
+    "FullName": "Liliane Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 356
       }
     }
   }

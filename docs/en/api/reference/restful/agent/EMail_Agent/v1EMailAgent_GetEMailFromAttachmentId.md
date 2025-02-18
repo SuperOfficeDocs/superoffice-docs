@@ -106,12 +106,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 584,
+  "EmailId": 91,
   "AttachmentIds": [
-    "perferendis",
-    "sed"
+    "qui",
+    "neque"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,148 +124,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 551,
-      "ContactName": "Stehr, Smitham and Erdman",
-      "PersonId": 640,
-      "PersonName": "Rath-Pouros",
-      "AssociateId": 61,
-      "Address": "inventore",
-      "EmailId": 326,
+      "ContactId": 827,
+      "ContactName": "Berge-Schinner",
+      "PersonId": 357,
+      "PersonName": "Cummings, Greenholt and Orn",
+      "AssociateId": 306,
+      "Address": "blanditiis",
+      "EmailId": 986,
       "DuplicatePersonIds": [
-        358,
-        769
+        686,
+        821
       ],
-      "Name": "Wiegand, Lemke and Vandervort",
+      "Name": "Steuber LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 606
+          "FieldLength": 855
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 254,
-      "ContactName": "Kihn-Gleichner",
-      "PersonId": 340,
-      "PersonName": "Harvey Inc and Sons",
-      "AssociateId": 985,
-      "Address": "sed",
-      "EmailId": 597,
+      "ContactId": 671,
+      "ContactName": "Morissette-Friesen",
+      "PersonId": 74,
+      "PersonName": "Borer, Gulgowski and Fritsch",
+      "AssociateId": 152,
+      "Address": "libero",
+      "EmailId": 882,
       "DuplicatePersonIds": [
-        763,
-        42
+        949,
+        646
       ],
-      "Name": "Walter, Johnson and Klocko",
+      "Name": "Hodkiewicz, McCullough and Reichert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldLength": 829
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 594,
-      "ContactName": "Hyatt, McKenzie and Sporer",
-      "PersonId": 943,
-      "PersonName": "Cremin-Raynor",
-      "AssociateId": 258,
-      "Address": "alias",
-      "EmailId": 452,
+      "ContactId": 486,
+      "ContactName": "Zulauf-Wisoky",
+      "PersonId": 509,
+      "PersonName": "Kub, Bayer and Murray",
+      "AssociateId": 511,
+      "Address": "sed",
+      "EmailId": 860,
       "DuplicatePersonIds": [
-        989,
-        696
+        320,
+        382
       ],
-      "Name": "Kunde-Skiles",
+      "Name": "Upton, Lang and Yost",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 544
+          "FieldType": "System.Int32",
+          "FieldLength": 562
         }
       }
     }
   ],
-  "Subject": "consectetur",
-  "HTMLBody": "rerum",
+  "Subject": "est",
+  "HTMLBody": "rem",
   "From": null,
-  "Sent": "2015-02-10T12:01:27.8377848+01:00",
-  "Size": 219,
+  "Sent": "2014-02-28T14:32:02.921025+01:00",
+  "Size": 170,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ullam",
-  "PlainBody": "non",
+  "MessageID": "porro",
+  "PlainBody": "in",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 912,
+  "ServerId": 200,
   "Attachments": [
     {
-      "Description": "Distributed transitional strategy",
-      "Filename": "dolor",
-      "Size": 903,
-      "Type": "in",
-      "Encoding": "atque",
-      "Id": "expedita",
-      "Disposition": "eos",
-      "IsSafeFileExtension": false,
+      "Description": "Business-focused national encoding",
+      "Filename": "ea",
+      "Size": 141,
+      "Type": "temporibus",
+      "Encoding": "id",
+      "Id": "eos",
+      "Disposition": "maxime",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 199
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rice, Cronin and Olson",
+      "Name": "McDermott-Dare",
       "Values": [
-        "autem",
-        "aut"
+        "qui",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 841
         }
       }
     },
     {
-      "Name": "Rice, Cronin and Olson",
+      "Name": "McDermott-Dare",
       "Values": [
-        "autem",
-        "aut"
+        "qui",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 241
+          "FieldLength": 841
         }
       }
     }
   ],
-  "FolderName": "Daugherty Inc and Sons",
-  "EmailItemId": 105,
-  "AccountId": 118,
-  "ReceivedAt": "2007-04-16T12:01:27.8377848+02:00",
+  "FolderName": "D'Amore, Hahn and Waelchi",
+  "EmailItemId": 390,
+  "AccountId": 673,
+  "ReceivedAt": "2024-09-15T14:32:02.921025+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-02-16T12:01:27.8377848+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2021-07-29T14:32:02.921025+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldLength": 127
     }
   }
 }

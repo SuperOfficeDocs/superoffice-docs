@@ -82,7 +82,7 @@ ListEntity found.
 GET /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Friesen-Bednar",
-  "Tooltip": "voluptas",
+  "Id": 967,
+  "Name": "VonRueden-Kuvalis",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 927,
+  "Rank": 971,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aperiam",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 807
     }
   },
   "_Links": {

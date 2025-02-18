@@ -89,16 +89,16 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 851,
-  "PrefDescId": 877,
-  "PrefValue": "minus",
-  "PrefShowValue": "tempora",
-  "Description": "Profit-focused 3rd generation utilisation",
-  "IsBuiltin": false
+  "PrefDescLineId": 509,
+  "PrefDescId": 268,
+  "PrefValue": "quo",
+  "PrefShowValue": "quaerat",
+  "Description": "Reduced leading edge open system",
+  "IsBuiltin": true
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 756,
-  "PrefDescId": 325,
-  "PrefValue": "quasi",
-  "PrefShowValue": "eligendi",
-  "Description": "Pre-emptive national synergy",
+  "PrefDescLineId": 10,
+  "PrefDescId": 532,
+  "PrefValue": "nam",
+  "PrefShowValue": "dolor",
+  "Description": "Innovative client-driven flexibility",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   },
   "_Links": {

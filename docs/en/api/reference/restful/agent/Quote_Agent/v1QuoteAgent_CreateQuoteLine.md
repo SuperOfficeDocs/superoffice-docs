@@ -126,8 +126,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 550,
-  "ERPProductKey": "quia"
+  "QuoteAlternativeId": 365,
+  "ERPProductKey": "sunt"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 654,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 358,
-  "ERPProductKey": "inventore",
+  "QuoteLineId": 22,
+  "ERPQuoteLineKey": "unde",
+  "QuoteAlternativeId": 801,
+  "ERPProductKey": "odio",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12767.916,
-  "DeliveredQuantity": 13469.931999999999,
-  "Rank": 491,
-  "Name": "Schowalter, Keeling and Hauck",
-  "Description": "Adaptive 24 hour definition",
-  "Code": "ullam",
-  "QuantityUnit": "magnam",
-  "PriceUnit": "neque",
-  "ItemNumber": "1153938",
+  "Quantity": 8399.119999999999,
+  "DeliveredQuantity": 1811.452,
+  "Rank": 928,
+  "Name": "Huel Inc and Sons",
+  "Description": "Organized homogeneous database",
+  "Code": "nihil",
+  "QuantityUnit": "ea",
+  "PriceUnit": "ipsam",
+  "ItemNumber": "958442",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "qui",
-  "Supplier": "eos",
-  "SupplierCode": "dicta",
-  "Thumbnail": "deleniti",
-  "VATInfo": "assumenda",
-  "VAT": 28685.502,
-  "UnitCost": 2529.138,
-  "UnitMinimumPrice": 103.422,
-  "UnitListPrice": 28738.78,
+  "ProductFamilyKey": "rerum",
+  "ProductTypeKey": "porro",
+  "Supplier": "qui",
+  "SupplierCode": "velit",
+  "Thumbnail": "impedit",
+  "VATInfo": "odit",
+  "VAT": 21574.456,
+  "UnitCost": 29478.404,
+  "UnitMinimumPrice": 5750.8899999999994,
+  "UnitListPrice": 27077.76,
   "ExtraInfo": [
     {
-      "Name": "Grant-Huel",
-      "Value": "adipisci",
+      "Name": "Renner, Graham and Schultz",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     },
     {
-      "Name": "Grant-Huel",
-      "Value": "adipisci",
+      "Name": "Renner, Graham and Schultz",
+      "Value": "laboriosam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "IsSubscription": true,
-  "SubscriptionUnit": "nihil",
-  "SubscriptionQuantity": 7449.518,
-  "SubscriptionStart": "2011-12-17T12:01:28.2128113+01:00",
-  "ERPDiscountPercent": 13353.974,
-  "ERPDiscountAmount": 4641.454,
-  "DiscountPercent": 23244.878,
-  "DiscountAmount": 14889.634,
+  "RawExtraInfo": "eos",
+  "IsSubscription": false,
+  "SubscriptionUnit": "veniam",
+  "SubscriptionQuantity": 24670.847999999998,
+  "SubscriptionStart": "2005-03-18T14:32:03.6085662+01:00",
+  "ERPDiscountPercent": 15538.372,
+  "ERPDiscountAmount": 13322.634,
+  "DiscountPercent": 23812.131999999998,
+  "DiscountAmount": 3513.214,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21875.32,
-  "EarningAmount": 24761.734,
-  "SubTotal": 1802.05,
-  "TotalPrice": 3137.134,
-  "Rights": "officiis",
-  "Rule": "consectetur",
-  "ExtraField1": "est",
-  "ExtraField2": "illum",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "impedit",
-  "ExtraField5": "tempore",
+  "EarningPercent": 10574.116,
+  "EarningAmount": 6014.146,
+  "SubTotal": 12780.452,
+  "TotalPrice": 17086.568,
+  "Rights": "numquam",
+  "Rule": "aperiam",
+  "ExtraField1": "sit",
+  "ExtraField2": "fuga",
+  "ExtraField3": "aliquid",
+  "ExtraField4": "maxime",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldType": "System.Int32",
+      "FieldLength": 238
     }
   }
 }

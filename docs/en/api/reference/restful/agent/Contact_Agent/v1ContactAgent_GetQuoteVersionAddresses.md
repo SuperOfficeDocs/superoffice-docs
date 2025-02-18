@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 356
+  "QuoteVersionId": 982
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 13554.55,
-    "Wgs84Longitude": 16077.42,
+    "Wgs84Latitude": 24348.046,
+    "Wgs84Longitude": 10345.333999999999,
     "LocalizedAddress": [
       [
         {
-          "Name": "Russel-Crona",
-          "Value": "ut",
-          "Tooltip": "voluptate",
-          "Label": "nulla",
-          "ValueLength": 681,
-          "AddressType": "voluptatem",
+          "Name": "Lang Inc and Sons",
+          "Value": "maiores",
+          "Tooltip": "consequatur",
+          "Label": "et",
+          "ValueLength": 713,
+          "AddressType": "praesentium",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 60
+              "FieldType": "System.Int32",
+              "FieldLength": 639
             }
           }
         }
       ],
       [
         {
-          "Name": "Abbott, Torp and Kunde",
-          "Value": "voluptatem",
-          "Tooltip": "corrupti",
-          "Label": "molestias",
-          "ValueLength": 744,
-          "AddressType": "id",
+          "Name": "Torphy-Lindgren",
+          "Value": "iure",
+          "Tooltip": "accusantium",
+          "Label": "mollitia",
+          "ValueLength": 532,
+          "AddressType": "qui",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 973
+              "FieldType": "System.String",
+              "FieldLength": 421
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "similique",
+    "Formatted": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 714
       }
     }
   }

@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 364,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2018-05-20T12:01:27.5877684+02:00",
-  "EndTime": "2000-03-19T12:01:27.5877684+01:00",
-  "Count": 314
+  "PersonId": 21,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2019-03-12T14:32:02.6242172+01:00",
+  "EndTime": "2009-12-16T14:32:02.6242172+01:00",
+  "Count": 126
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 763,
-    "Attention": "non",
-    "Header": "consectetur",
-    "Name": "Tremblay Group",
-    "OurRef": "quia",
-    "YourRef": "quae",
-    "Description": "Profit-focused methodical interface",
-    "DocumentTemplate": "soluta",
+    "DocumentId": 994,
+    "Attention": "ab",
+    "Header": "recusandae",
+    "Name": "Rau Group",
+    "OurRef": "tenetur",
+    "YourRef": "numquam",
+    "Description": "Proactive methodical info-mediaries",
+    "DocumentTemplate": "iure",
     "IsPublished": false,
-    "PersonId": 667,
-    "PersonFullName": "Mrs. Laisha Edison Kohler I",
-    "AssociateFullName": "Marty Hintz",
-    "ContactId": 605,
-    "ContactName": "Kihn-Turner",
-    "ProjectId": 168,
-    "ProjectName": "Bashirian Group",
-    "AssociateId": 580,
-    "Snum": 250,
-    "SaleId": 530,
-    "SaleName": "Bartell Group",
+    "PersonId": 996,
+    "PersonFullName": "Brian Baumbach",
+    "AssociateFullName": "Devan Fritsch",
+    "ContactId": 342,
+    "ContactName": "Wolff Inc and Sons",
+    "ProjectId": 457,
+    "ProjectName": "Daniel, Deckow and Kiehn",
+    "AssociateId": 854,
+    "Snum": 212,
+    "SaleId": 436,
+    "SaleName": "Reichert, Cole and Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 21
       }
     }
   }

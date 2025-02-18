@@ -760,7 +760,7 @@ Shadow contact provider for the static quoteline prov ider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/version/quote/sale/person/birthYear,alternative/version/quote/sale/person/correspondingAssociate/associateDbId,alternative/version/quote/sale/contact/contactNoMail,alternative/version/quote/sale/contact/email/emailHasBounced,alternative/version/quote/sale/project/saintTicketCategory
+GET /api/v1/archive/QuoteLineShadowStaticSelectionV2?$select=alternative/totalPriceIncVAT,alternative/version/quote/sale/person/birthYear,alternative/version/quote/sale/person/personAssociate/isLocation,alternative/version/quote/sale/contact/contactExtra/x_contact_integer,alternative/version/quote/sale/saleUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

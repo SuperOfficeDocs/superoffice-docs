@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Schroeder Group",
-    "ToolTip": "Magnam ipsa deserunt soluta.",
+    "Id": 575,
+    "Name": "Cremin Inc and Sons",
+    "ToolTip": "Et ipsam ratione minus.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "nulla",
-    "ColorBlock": 153,
-    "IconHint": "qui",
+    "Rank": 717,
+    "Type": "voluptatem",
+    "ColorBlock": 560,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1999-04-16T12:01:33.6207356+02:00",
+    "LastChanged": "2016-05-23T14:32:12.8491274+02:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Stoltenberg LLC",
-        "ToolTip": "Rem praesentium est hic.",
+        "Id": 234,
+        "Name": "Haag Group",
+        "ToolTip": "Qui eveniet excepturi voluptatem illo.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "quia",
-        "ColorBlock": 825,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2024-09-30T12:01:33.6207356+02:00",
+        "Rank": 176,
+        "Type": "odio",
+        "ColorBlock": 540,
+        "IconHint": "facilis",
+        "Selected": false,
+        "LastChanged": "2012-10-22T14:32:12.8491274+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "aut",
+        "ExtraInfo": "et",
+        "StyleHint": "eius",
         "Hidden": true,
-        "FullName": "Francisca Beatty",
+        "FullName": "Mr. Anibal Sallie Lockman DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "illum",
+    "ExtraInfo": "aut",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Prof. Earlene Wanda Kemmer DVM",
+    "FullName": "Rhianna Keyshawn Kuphal I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldType": "System.Int32",
+        "FieldLength": 708
       }
     }
   }

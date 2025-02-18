@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 995
+  "ContactId": 906
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22430.038,
-  "Wgs84Longitude": 18446.724,
+  "Wgs84Latitude": 12717.771999999999,
+  "Wgs84Longitude": 5073.946,
   "LocalizedAddress": [
     [
       {
-        "Name": "Rohan LLC",
-        "Value": "tempore",
-        "Tooltip": "cupiditate",
-        "Label": "quod",
-        "ValueLength": 519,
-        "AddressType": "laudantium",
+        "Name": "Towne, Spencer and Mraz",
+        "Value": "similique",
+        "Tooltip": "maxime",
+        "Label": "temporibus",
+        "ValueLength": 855,
+        "AddressType": "voluptas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldType": "System.String",
+            "FieldLength": 537
           }
         }
       }
     ],
     [
       {
-        "Name": "Klocko, Nader and Huel",
-        "Value": "natus",
-        "Tooltip": "molestiae",
-        "Label": "recusandae",
-        "ValueLength": 762,
-        "AddressType": "autem",
+        "Name": "Bailey, Hermiston and Feest",
+        "Value": "est",
+        "Tooltip": "incidunt",
+        "Label": "et",
+        "ValueLength": 884,
+        "AddressType": "fugit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldType": "System.String",
+            "FieldLength": 124
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aliquid",
+  "Formatted": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldLength": 270
     }
   }
 }

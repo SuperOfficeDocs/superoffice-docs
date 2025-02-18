@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Schaden Inc and Sons",
-    "ToolTip": "Quia omnis exercitationem aut provident eius.",
+    "Id": 600,
+    "Name": "Kuhlman LLC",
+    "ToolTip": "Rem sed blanditiis velit veritatis quasi nostrum dolores.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "quibusdam",
-    "ColorBlock": 832,
-    "IconHint": "dolorum",
+    "Rank": 650,
+    "Type": "ipsa",
+    "ColorBlock": 392,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2011-05-03T12:01:28.5878372+02:00",
+    "LastChanged": "2023-11-20T14:32:04.2959093+01:00",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Thiel, O'Reilly and Schaden",
-        "ToolTip": "Quisquam rerum quo.",
-        "Deleted": false,
-        "Rank": 487,
-        "Type": "facere",
-        "ColorBlock": 975,
-        "IconHint": "unde",
+        "Id": 767,
+        "Name": "Mante Group",
+        "ToolTip": "Rerum libero.",
+        "Deleted": true,
+        "Rank": 711,
+        "Type": "ab",
+        "ColorBlock": 605,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2001-08-12T12:01:28.6034631+02:00",
+        "LastChanged": "2004-02-25T14:32:04.2959093+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Vaughn Bednar",
+        "ExtraInfo": "veniam",
+        "StyleHint": "labore",
+        "Hidden": false,
+        "FullName": "Assunta Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 939
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Alexander Wisoky",
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Nigel Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldLength": 899
       }
     }
   }

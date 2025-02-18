@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "in",
-    "sint"
+    "beatae",
+    "temporibus"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "animi",
+    "Label": "sint",
     "Values": [
       {
-        "Label": "porro",
-        "Value": 21339.406,
-        "Description": "Visionary intermediate database",
+        "Label": "ad",
+        "Value": 23395.309999999998,
+        "Description": "Configurable heuristic collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 318
           }
         }
       },
       {
-        "Label": "porro",
-        "Value": 21339.406,
-        "Description": "Visionary intermediate database",
+        "Label": "ad",
+        "Value": 23395.309999999998,
+        "Description": "Configurable heuristic collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 318
           }
         }
       }
     ],
-    "Description": "Versatile object-oriented conglomeration",
+    "Description": "Triple-buffered optimal intranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 999
       }
     }
   },
   {
-    "Label": "animi",
+    "Label": "sint",
     "Values": [
       {
-        "Label": "porro",
-        "Value": 21339.406,
-        "Description": "Visionary intermediate database",
+        "Label": "ad",
+        "Value": 23395.309999999998,
+        "Description": "Configurable heuristic collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 318
           }
         }
       },
       {
-        "Label": "porro",
-        "Value": 21339.406,
-        "Description": "Visionary intermediate database",
+        "Label": "ad",
+        "Value": 23395.309999999998,
+        "Description": "Configurable heuristic collaboration",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 970
+            "FieldLength": 318
           }
         }
       }
     ],
-    "Description": "Versatile object-oriented conglomeration",
+    "Description": "Triple-buffered optimal intranet",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 345
+        "FieldLength": 999
       }
     }
   }

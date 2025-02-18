@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 788,
-  "Section": "rerum",
-  "Key": "optio",
-  "Name": "Stroman, Pouros and Block",
+  "PrefDescId": 15,
+  "Section": "excepturi",
+  "Key": "dicta",
+  "Name": "Carter Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized attitude-oriented ability",
-  "IsBuiltin": false,
-  "TableName": "Cassin Inc and Sons",
-  "UserDefinedListId": 519,
-  "Rank": 673,
-  "SubGroup": "magnam",
-  "MinLevel": 590,
-  "MaxValue": 806,
-  "MinValue": 153,
-  "RequiredLicense": "quia"
+  "Description": "Advanced holistic project",
+  "IsBuiltin": true,
+  "TableName": "Brakus, Swift and Gerlach",
+  "UserDefinedListId": 471,
+  "Rank": 382,
+  "SubGroup": "rerum",
+  "MinLevel": 887,
+  "MaxValue": 852,
+  "MinValue": 183,
+  "RequiredLicense": "blanditiis"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 843,
-  "Section": "vitae",
-  "Key": "natus",
-  "Name": "Hagenes-Koch",
+  "PrefDescId": 428,
+  "Section": "corrupti",
+  "Key": "optio",
+  "Name": "Mosciski-Romaguera",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly dedicated encoding",
+  "Description": "Universal full-range leverage",
   "IsBuiltin": false,
-  "TableName": "Lueilwitz, Haley and Hilll",
-  "UserDefinedListId": 136,
-  "Rank": 315,
-  "SubGroup": "quo",
-  "MinLevel": 627,
-  "MaxValue": 719,
-  "MinValue": 699,
-  "RequiredLicense": "veritatis",
+  "TableName": "Homenick-Dare",
+  "UserDefinedListId": 781,
+  "Rank": 250,
+  "SubGroup": "cupiditate",
+  "MinLevel": 798,
+  "MaxValue": 670,
+  "MinValue": 434,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

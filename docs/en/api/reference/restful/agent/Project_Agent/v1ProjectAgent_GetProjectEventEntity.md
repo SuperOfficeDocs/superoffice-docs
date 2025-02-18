@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=526
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=586
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -106,79 +106,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "odio",
-  "SignOffText": "quis",
-  "SignOnConfirmationText": "consequatur",
-  "SignOnText": "dolorum",
-  "EventDate": "2019-07-20T12:01:28.1503067+02:00",
-  "Enabled": false,
-  "CreatedDate": "2004-08-25T12:01:28.1503067+02:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 115,
-  "SignOffTriggersAssign": true,
+  "SignOffConfirmationText": "harum",
+  "SignOffText": "ad",
+  "SignOnConfirmationText": "perferendis",
+  "SignOnText": "officiis",
+  "EventDate": "2007-06-28T14:32:03.4992229+02:00",
+  "Enabled": true,
+  "CreatedDate": "2005-08-06T14:32:03.4992229+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 326,
+  "SignOffTriggersAssign": false,
   "SignOn": true,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 309,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2018-04-11T12:01:28.1503067+02:00",
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 899,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2002-08-30T14:32:03.4992229+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 918,
-  "Id": 72,
-  "PublishFrom": "2012-03-03T12:01:28.1503067+01:00",
+  "ProjectId": 262,
+  "Id": 581,
+  "PublishFrom": "2001-05-28T14:32:03.4992229+02:00",
   "PublishType": "External",
-  "PublishTo": "2008-06-21T12:01:28.1503067+02:00",
+  "PublishTo": "2004-08-23T14:32:03.4992229+02:00",
   "VisibleForCategories": [
     {
-      "Id": 908,
-      "Name": "Halvorson-Quigley",
-      "ToolTip": "Quod harum et repudiandae facere officiis repudiandae quo.",
-      "Deleted": false,
-      "Rank": 686,
-      "Type": "hic",
+      "Id": 202,
+      "Name": "Muller LLC",
+      "ToolTip": "Exercitationem enim doloribus ut illum in voluptatem rerum.",
+      "Deleted": true,
+      "Rank": 507,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nobis",
-      "ColorBlock": 27,
-      "ExtraInfo": "excepturi",
-      "StyleHint": "cum",
-      "FullName": "Unique O'Keefe",
+      "IconHint": "qui",
+      "ColorBlock": 432,
+      "ExtraInfo": "aliquid",
+      "StyleHint": "qui",
+      "FullName": "Diana Shakira Robel IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 652,
-      "Name": "Stanton-Runolfsson",
-      "ToolTip": "Est porro ea provident nisi.",
-      "Deleted": false,
-      "Rank": 448,
-      "Type": "praesentium",
+      "Id": 952,
+      "Name": "Trantow LLC",
+      "ToolTip": "Sed sit voluptates.",
+      "Deleted": true,
+      "Rank": 733,
+      "Type": "accusantium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 912,
-      "ExtraInfo": "qui",
-      "StyleHint": "placeat",
-      "FullName": "Maudie Wolf",
+      "IconHint": "alias",
+      "ColorBlock": 316,
+      "ExtraInfo": "dicta",
+      "StyleHint": "laudantium",
+      "FullName": "Antonio Stiedemann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 866
+          "FieldLength": 124
         }
       }
     }
@@ -186,14 +186,14 @@ Content-Type: application/json; charset=utf-8
   "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 140,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 39,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 672
     }
   }
 }

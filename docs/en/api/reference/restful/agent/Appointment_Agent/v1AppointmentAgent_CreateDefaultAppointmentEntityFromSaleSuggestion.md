@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 71,
-  "SaleId": 782,
+  "SuggestedAppointmentId": 643,
+  "SaleId": 653,
   "CreateNow": false,
-  "OwnerId": 756
+  "OwnerId": 880
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-05-05T12:01:27.2596193+02:00",
-  "AppointmentId": 829,
-  "Description": "Phased disintermediate neural-net",
-  "Title": "esse",
-  "Agenda": "voluptatem",
-  "InternalNotes": "ab",
-  "StartDate": "2016-06-03T12:01:27.2596193+02:00",
-  "EndDate": "2005-08-02T12:01:27.2596193+02:00",
+  "CreatedDate": "2014-04-10T14:32:01.8900082+02:00",
+  "AppointmentId": 995,
+  "Description": "Streamlined system-worthy artificial intelligence",
+  "Title": "accusamus",
+  "Agenda": "eos",
+  "InternalNotes": "perspiciatis",
+  "StartDate": "2004-11-13T14:32:01.8900082+01:00",
+  "EndDate": "2004-12-26T14:32:01.8900082+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 960,
+  "MotherId": 286,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-07-19T12:01:27.2596193+02:00",
+  "UpdatedDate": "2016-01-22T14:32:01.8900082+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 323,
+  "ActiveLinks": 530,
   "Links": [
     {
-      "EntityName": "Hane-Brekke",
-      "Id": 515,
-      "Description": "Open-architected system-worthy software",
-      "ExtraInfo": "at",
-      "LinkId": 667,
+      "EntityName": "Barton Group",
+      "Id": 592,
+      "Description": "Extended cohesive methodology",
+      "ExtraInfo": "iure",
+      "LinkId": 531,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldType": "System.Int32",
+          "FieldLength": 192
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
+  "AlarmLeadTime": "impedit",
   "HasAlarm": false,
-  "ColorIndex": 273,
+  "ColorIndex": 69,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sunt",
-  "LeadTime": "qui",
-  "Location": "vitae",
-  "RejectCounter": 89,
+  "IsAlldayEvent": false,
+  "LagTime": "aut",
+  "LeadTime": "architecto",
+  "Location": "nam",
+  "RejectCounter": 881,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 560,
-      "PersonId": 612,
-      "ContactId": 545,
-      "EmailId": 601,
+      "AssociateId": 406,
+      "PersonId": 150,
+      "ContactId": 970,
+      "EmailId": 856,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "meghan.okeefe@watsica.co.uk",
-      "Description": "Realigned multimedia help-desk"
+      "EmailAddress": "jordi@veum.info",
+      "Description": "Right-sized user-facing productivity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-05-24T12:01:27.2596193+02:00",
+  "ActiveDate": "2012-04-23T14:32:01.8900082+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 724,
+  "PreferredTZLocation": 817,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 57,
+  "SuggestedAppointmentId": 571,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "recusandae",
+  "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Noel Xander Pfeffer V",
-    "SuperOffice:2": "Miss Mckenna Terry Lynch"
+    "SuperOffice:1": "Dortha Lizeth Williamson V",
+    "SuperOffice:2": "Mrs. Mariano Julianne Carroll"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "est",
+    "CustomFields2": "delectus"
   },
-  "PublishEventDate": "2018-08-22T12:01:27.2596193+02:00",
-  "PublishTo": "2016-03-21T12:01:27.2596193+01:00",
-  "PublishFrom": "2020-10-06T12:01:27.2596193+02:00",
+  "PublishEventDate": "2004-02-24T14:32:01.8900082+01:00",
+  "PublishTo": "2018-12-13T14:32:01.8900082+01:00",
+  "PublishFrom": "2003-07-05T14:32:01.8900082+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 925,
+      "VisibleId": 67,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 218
         }
       }
     },
     {
-      "VisibleId": 925,
+      "VisibleId": 67,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 218
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 699
     }
   }
 }

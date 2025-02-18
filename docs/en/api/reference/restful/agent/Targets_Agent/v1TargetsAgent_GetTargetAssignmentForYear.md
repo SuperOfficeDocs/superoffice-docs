@@ -88,10 +88,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 79,
+  "TargetYear": 367,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 639
+  "Id": 405
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 536,
+  "TargetAssignmentInfoId": 475,
   "Values": [
-    794,
-    619
+    581,
+    328
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 324,
-  "DimensionListItemDisplayName": "Stoltenberg, Crona and Walsh",
+  "DimensionListItem": 577,
+  "DimensionListItemDisplayName": "Boyer LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 675
     }
   }
 }

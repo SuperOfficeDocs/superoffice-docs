@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 345,
+  "ReportId": 961,
   "ReportCategory": "All",
-  "Description": "User-centric national concept",
+  "Description": "Upgradable impactful customer loyalty",
   "ReportLayout": "CalendarMonth",
-  "Name": "Satterfield-Reinger",
-  "AssociateId": 591,
-  "TemplateId": 475,
+  "Name": "O'Conner Inc and Sons",
+  "AssociateId": 831,
+  "TemplateId": 57,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 607,
+  "ReportId": 206,
   "ReportCategory": "All",
-  "Description": "Cross-platform impactful internet solution",
+  "Description": "Stand-alone upward-trending contingency",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lang-Lindgren",
-  "AssociateId": 943,
-  "TemplateId": 4,
-  "Published": false,
+  "Name": "Rippin, Feeney and Strosin",
+  "AssociateId": 297,
+  "TemplateId": 122,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 662
     }
   }
 }

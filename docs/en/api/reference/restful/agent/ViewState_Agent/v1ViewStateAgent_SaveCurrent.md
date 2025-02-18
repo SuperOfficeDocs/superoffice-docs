@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 369,
-  "Id": 899,
-  "HistoryName": "Koss, Schultz and Stoltenberg",
-  "HistoryId": 186,
-  "AssociateId": 121,
-  "Name": "Ritchie Inc and Sons",
-  "ItemInfo": "debitis",
+  "Rank": 812,
+  "Id": 994,
+  "HistoryName": "Towne Inc and Sons",
+  "HistoryId": 448,
+  "AssociateId": 640,
+  "Name": "Simonis Group",
+  "ItemInfo": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

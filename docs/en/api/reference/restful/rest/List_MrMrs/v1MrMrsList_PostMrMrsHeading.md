@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 384,
-  "Name": "Fay-O'Conner",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 992,
-  "UdListDefinitionId": 668
+  "HeadingId": 606,
+  "Name": "Lindgren-Glover",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 203,
+  "UdListDefinitionId": 648
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 79,
-  "Name": "Murray, Jewess and West",
-  "Tooltip": "vel",
+  "HeadingId": 251,
+  "Name": "Gulgowski, King and Shields",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 539,
-  "UdListDefinitionId": 283,
+  "Rank": 228,
+  "UdListDefinitionId": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 741
     }
   }
 }

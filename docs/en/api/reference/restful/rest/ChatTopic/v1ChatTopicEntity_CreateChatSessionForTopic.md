@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 578,
-  "TopicId": 848,
+  "ChatSessionId": 40,
+  "TopicId": 769,
   "User": null,
   "Person": null,
-  "CustomerAlias": "asperiores",
-  "CustomerHost": "eum",
-  "CustomerName": "Renner, Macejkovic and Schamberger",
-  "CustomerEmail": "bertha_schultz@mcclure.ca",
-  "CustomerPhone": "498.348.0755",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Heller, Pfannerstill and Prohaska",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "fugit",
+  "CustomerName": "Corwin Inc and Sons",
+  "CustomerEmail": "cara@howequitzon.uk",
+  "CustomerPhone": "789-298-9590 x735",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Rice, Hirthe and Runte",
   "Status": "Closed",
-  "FirstMessage": "repudiandae",
-  "LastMessage": "a",
-  "WhenRequested": "2021-06-06T12:01:32.7769271+02:00",
-  "WhenStarted": "2018-11-08T12:01:32.7769271+01:00",
-  "WhenEnded": "2017-08-02T12:01:32.7769271+02:00",
-  "WhenIdle": "2006-07-18T12:01:32.7769271+02:00",
-  "WhenFetched": "2020-04-04T12:01:32.7769271+02:00",
-  "SessionKey": "ad",
-  "InitialQueuePos": 91,
-  "AlertLevel": 16,
-  "Rank": 158,
+  "FirstMessage": "quia",
+  "LastMessage": "ipsa",
+  "WhenRequested": "2021-07-12T14:32:11.2552076+02:00",
+  "WhenStarted": "2009-08-23T14:32:11.2552076+02:00",
+  "WhenEnded": "2007-05-24T14:32:11.2552076+02:00",
+  "WhenIdle": "2001-07-05T14:32:11.2552076+02:00",
+  "WhenFetched": "2018-12-15T14:32:11.2552076+01:00",
+  "SessionKey": "fuga",
+  "InitialQueuePos": 446,
+  "AlertLevel": 515,
+  "Rank": 28,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 210,
+  "ChatbotIsActive": true,
+  "Rating": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

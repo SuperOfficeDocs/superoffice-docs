@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 797
+  "UdListDefinitionId": 140
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 598,
-  "Name": "Renner-Wintheiser",
-  "Tooltip": "qui",
+  "HeadingId": 135,
+  "Name": "Ondricka-Medhurst",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 222,
-  "UdListDefinitionId": 144,
+  "Rank": 873,
+  "UdListDefinitionId": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 187
+      "FieldLength": 153
     }
   }
 }

@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 116,
+  "TargetYear": 130,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 297,
-  "DimensionId": 281
+  "Id": 877,
+  "DimensionId": 455
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 508,
+  "TargetAssignmentInfoId": 655,
   "Values": [
-    387,
-    589
+    78,
+    341
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 739,
-  "DimensionListItemDisplayName": "Rath LLC",
+  "DimensionListItem": 14,
+  "DimensionListItemDisplayName": "Wolff Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 44
     }
   }
 }

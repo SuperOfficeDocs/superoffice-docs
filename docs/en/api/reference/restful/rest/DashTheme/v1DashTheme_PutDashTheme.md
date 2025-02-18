@@ -93,12 +93,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 61,
-  "Name": "Lebsack Inc and Sons",
-  "Config": "animi",
-  "Rank": 55,
-  "Client": "consectetur",
-  "Style": "consequuntur"
+  "DashboardThemeId": 207,
+  "Name": "Smitham Inc and Sons",
+  "Config": "asperiores",
+  "Rank": 663,
+  "Client": "officiis",
+  "Style": "reprehenderit"
 }
 ```
 
@@ -109,23 +109,23 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 705,
-  "Name": "Adams, Wisoky and Pacocha",
-  "Config": "dolor",
-  "Rank": 161,
-  "Client": "aut",
-  "Style": "amet",
+  "DashboardThemeId": 415,
+  "Name": "Gorczany, Quigley and Bogisich",
+  "Config": "nisi",
+  "Rank": 135,
+  "Client": "modi",
+  "Style": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 378
+      "FieldLength": 589
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

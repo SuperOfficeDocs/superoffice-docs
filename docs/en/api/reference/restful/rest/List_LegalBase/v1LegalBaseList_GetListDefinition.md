@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Leuschke LLC",
-  "Tooltip": "qui",
+  "Id": 327,
+  "Name": "Hills Group",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 818,
+  "Rank": 81,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

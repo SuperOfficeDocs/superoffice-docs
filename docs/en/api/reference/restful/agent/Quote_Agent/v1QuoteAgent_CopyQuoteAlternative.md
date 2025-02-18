@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 824,
-  "QuoteAlternativeId": 783,
-  "QuoteAlternativeName": "Wyman, Ledner and Cruickshank"
+  "QuoteVersionId": 622,
+  "QuoteAlternativeId": 611,
+  "QuoteAlternativeName": "Lebsack-Dicki"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 23,
-  "ERPQuoteAlternativeKey": "doloremque",
-  "QuoteVersionId": 98,
-  "Name": "Goodwin Inc and Sons",
-  "Description": "Multi-layered modular flexibility",
+  "QuoteAlternativeId": 354,
+  "ERPQuoteAlternativeKey": "distinctio",
+  "QuoteVersionId": 654,
+  "Name": "Zemlak Inc and Sons",
+  "Description": "Up-sized disintermediate moderator",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10122.82,
-  "ERPDiscountAmount": 12423.176,
-  "DiscountPercent": 26839.576,
-  "DiscountAmount": 20740.811999999998,
+  "ERPDiscountPercent": 10724.547999999999,
+  "ERPDiscountAmount": 26848.978,
+  "DiscountPercent": 31164.496,
+  "DiscountAmount": 11489.243999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "reprehenderit",
-  "VAT": 858.716,
-  "EarningPercent": 14077.928,
-  "EarningAmount": 27294.005999999998,
-  "SubTotal": 15582.248,
-  "TotalPrice": 3184.144,
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "iusto",
-  "ExtraField4": "sed",
-  "ExtraField5": "impedit",
+  "VATInfo": "omnis",
+  "VAT": 30352.789999999997,
+  "EarningPercent": 10470.694,
+  "EarningAmount": 25933.85,
+  "SubTotal": 11326.276,
+  "TotalPrice": 25730.14,
+  "ExtraField1": "fugit",
+  "ExtraField2": "eos",
+  "ExtraField3": "laboriosam",
+  "ExtraField4": "aut",
+  "ExtraField5": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 927
     }
   }
 }

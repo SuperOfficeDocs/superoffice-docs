@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "ut",
-    "quia"
+    "sint",
+    "repellat"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfeffer Group",
-    "Delimiter": "qui",
-    "Flags": "sunt",
-    "TotalItems": 281,
-    "UnreadItems": 954,
-    "Subscribed": true,
-    "EmailFolderId": 936,
+    "Name": "Bednar LLC",
+    "Delimiter": "aliquid",
+    "Flags": "nihil",
+    "TotalItems": 42,
+    "UnreadItems": 225,
+    "Subscribed": false,
+    "EmailFolderId": 997,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 255
       }
     }
   }

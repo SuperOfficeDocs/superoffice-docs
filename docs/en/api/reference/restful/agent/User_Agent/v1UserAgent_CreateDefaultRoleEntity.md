@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 741,
-  "Name": "Hills, Baumbach and Bogan",
-  "Tooltip": "sit",
+  "RoleId": 45,
+  "Name": "Halvorson, Denesik and Maggio",
+  "Tooltip": "totam",
   "RoleType": "Anonymous",
-  "Deleted": 69,
-  "Rank": 668,
-  "Created": "2015-06-15T12:01:28.5722109+02:00",
-  "UseCategories": 800,
+  "Deleted": 347,
+  "Rank": 65,
+  "Created": "2011-01-09T14:32:04.2646686+01:00",
+  "UseCategories": 604,
   "CreatedBy": null,
-  "Updated": "2023-06-14T12:01:28.5722109+02:00",
+  "Updated": "2009-01-10T14:32:04.2646686+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 14
     }
   }
 }

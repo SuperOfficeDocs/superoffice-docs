@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Schamberger, Hintz and Block",
-    "ToolTip": "Est ut ipsa.",
-    "Deleted": false,
-    "Rank": 990,
-    "Type": "rerum",
-    "ColorBlock": 724,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2006-09-13T12:01:33.4801008+02:00",
+    "Id": 49,
+    "Name": "Wuckert LLC",
+    "ToolTip": "Ducimus voluptatum eligendi voluptas rerum.",
+    "Deleted": true,
+    "Rank": 393,
+    "Type": "voluptas",
+    "ColorBlock": 188,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2022-12-28T14:32:12.583328+01:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Mitchell, Hagenes and Reynolds",
-        "ToolTip": "Ut quis.",
-        "Deleted": true,
-        "Rank": 846,
-        "Type": "temporibus",
-        "ColorBlock": 739,
-        "IconHint": "enim",
+        "Id": 27,
+        "Name": "Hegmann-Kerluke",
+        "ToolTip": "Aliquid dicta.",
+        "Deleted": false,
+        "Rank": 393,
+        "Type": "dolores",
+        "ColorBlock": 296,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2012-10-07T12:01:33.4801008+02:00",
+        "LastChanged": "1998-03-12T14:32:12.583328+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Golda Davis",
+        "ExtraInfo": "architecto",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Mrs. Deron Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 232
+            "FieldType": "System.String",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "delectus",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Name Lemke",
+    "FullName": "Mr. Ruthe Lucinda Block I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

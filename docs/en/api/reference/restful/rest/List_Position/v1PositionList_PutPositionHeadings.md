@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 342,
-    "Name": "Padberg-Kub",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 320,
-    "UdListDefinitionId": 936
+    "HeadingId": 741,
+    "Name": "Homenick-Hegmann",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 91,
+    "UdListDefinitionId": 34
   },
   {
-    "HeadingId": 342,
-    "Name": "Padberg-Kub",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 320,
-    "UdListDefinitionId": 936
+    "HeadingId": 741,
+    "Name": "Homenick-Hegmann",
+    "Tooltip": "animi",
+    "Deleted": true,
+    "Rank": 91,
+    "UdListDefinitionId": 34
   }
 ]
 ```
@@ -106,17 +106,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Bergnaum, Daugherty and Gleason",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 427,
+    "HeadingId": 591,
+    "Name": "Quitzon LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 456,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 495
       }
     }

@@ -26,8 +26,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=True
-GET /api/v1/List/LegalBase/MDOItems?query=iste
+GET /api/v1/List/LegalBase/MDOItems?flat=False
+GET /api/v1/List/LegalBase/MDOItems?query=sunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "White LLC",
-    "ToolTip": "Occaecati magni perspiciatis qui odio dolorem esse eos.",
+    "Id": 196,
+    "Name": "Ziemann Group",
+    "ToolTip": "Molestias laborum ipsum corporis est.",
     "Deleted": false,
-    "Rank": 254,
-    "Type": "reprehenderit",
+    "Rank": 860,
+    "Type": "enim",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Feil LLC",
-        "ToolTip": "Molestias voluptatum reiciendis aut ea recusandae sit tempora.",
-        "Deleted": false,
-        "Rank": 828,
-        "Type": "molestiae",
+        "Id": 354,
+        "Name": "Cassin, Kirlin and Nicolas",
+        "ToolTip": "Explicabo quidem sit sint minima aut.",
+        "Deleted": true,
+        "Rank": 738,
+        "Type": "quis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 2,
-        "ExtraInfo": "magnam",
-        "StyleHint": "eaque",
-        "FullName": "Antonina Beier",
+        "IconHint": "perferendis",
+        "ColorBlock": 718,
+        "ExtraInfo": "aut",
+        "StyleHint": "deleniti",
+        "FullName": "Miss Petra Ebert DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 134
+            "FieldType": "System.Int32",
+            "FieldLength": 736
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 539,
-    "ExtraInfo": "molestias",
-    "StyleHint": "eum",
-    "FullName": "Clotilde Reichert",
+    "IconHint": "quidem",
+    "ColorBlock": 333,
+    "ExtraInfo": "excepturi",
+    "StyleHint": "necessitatibus",
+    "FullName": "Jamar Felicia Green DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldType": "System.String",
+        "FieldLength": 745
       }
     }
   }

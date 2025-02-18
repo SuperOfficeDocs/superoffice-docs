@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Johnson, Ondricka and Buckridge",
-    "ToolTip": "Quos excepturi similique at corrupti enim et.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "quis",
-    "ColorBlock": 47,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2009-07-30T12:01:33.4175965+02:00",
+    "Id": 282,
+    "Name": "Kshlerin-Trantow",
+    "ToolTip": "Sapiente ullam quis dolores velit aut.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "aut",
+    "ColorBlock": 554,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2007-02-04T14:32:12.4427319+01:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Paucek-Schmidt",
-        "ToolTip": "Omnis ut amet laborum corrupti qui.",
+        "Id": 460,
+        "Name": "Quigley, Watsica and Ernser",
+        "ToolTip": "Nesciunt culpa et.",
         "Deleted": true,
-        "Rank": 240,
-        "Type": "tempore",
-        "ColorBlock": 747,
-        "IconHint": "totam",
+        "Rank": 75,
+        "Type": "et",
+        "ColorBlock": 212,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2010-12-21T12:01:33.4175965+01:00",
+        "LastChanged": "2015-01-04T14:32:12.4427319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Lily Kunde",
+        "ExtraInfo": "provident",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Deion Schroeder Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 457
+            "FieldType": "System.Int32",
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "accusamus",
-    "Hidden": false,
-    "FullName": "Watson Breitenberg",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "laboriosam",
+    "Hidden": true,
+    "FullName": "Halie Funk",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 657
       }
     }
   }

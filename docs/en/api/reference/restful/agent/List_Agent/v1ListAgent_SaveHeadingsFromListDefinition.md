@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
+  "Id": 851,
   "Entities": [
     {
-      "HeadingId": 419,
-      "Name": "Walsh, Hilpert and Collins",
-      "Tooltip": "cupiditate",
+      "HeadingId": 462,
+      "Name": "Powlowski, Ryan and Strosin",
+      "Tooltip": "cumque",
       "Deleted": true,
-      "Rank": 587,
-      "UdListDefinitionId": 959
+      "Rank": 355,
+      "UdListDefinitionId": 943
     },
     {
-      "HeadingId": 419,
-      "Name": "Walsh, Hilpert and Collins",
-      "Tooltip": "cupiditate",
+      "HeadingId": 462,
+      "Name": "Powlowski, Ryan and Strosin",
+      "Tooltip": "cumque",
       "Deleted": true,
-      "Rank": 587,
-      "UdListDefinitionId": 959
+      "Rank": 355,
+      "UdListDefinitionId": 943
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 834,
-    "Name": "Barton LLC",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 70,
-    "UdListDefinitionId": 371,
+    "HeadingId": 165,
+    "Name": "Schumm, Weimann and Johnson",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 284,
+    "UdListDefinitionId": 605,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 683
       }
     }
   }

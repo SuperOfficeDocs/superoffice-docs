@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Cartwright LLC",
-  "Tooltip": "deserunt",
+  "Id": 736,
+  "Name": "Smith-Kuphal",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 699,
-  "Rank": 186,
+  "UdListDefinitionId": 316,
+  "Rank": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

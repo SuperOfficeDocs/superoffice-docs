@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 528,
-  "Restrictions": "sunt"
+  "DashboardTileId": 862,
+  "Restrictions": "et"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "White, Wisoky and Parker",
-        "DisplayTooltip": "voluptatum",
-        "DisplayType": "enim",
-        "CanOrderBy": false,
-        "Name": "Corwin, Bode and Wisozk",
-        "CanRestrictBy": false,
-        "RestrictionType": "assumenda",
-        "RestrictionListName": "Denesik LLC",
-        "IsVisible": true,
-        "ExtraInfo": "optio",
-        "Width": "eum",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "voluptatem"
+        "DisplayName": "Marks Group",
+        "DisplayTooltip": "quaerat",
+        "DisplayType": "soluta",
+        "CanOrderBy": true,
+        "Name": "Heaney Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "aut",
+        "RestrictionListName": "Abbott, Hoeger and Hirthe",
+        "IsVisible": false,
+        "ExtraInfo": "qui",
+        "Width": "omnis",
+        "IconHint": "magni",
+        "HeadingIconHint": "id"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "White, Wisoky and Parker",
-        "DisplayTooltip": "voluptatum",
-        "DisplayType": "enim",
-        "CanOrderBy": false,
-        "Name": "Corwin, Bode and Wisozk",
-        "CanRestrictBy": false,
-        "RestrictionType": "assumenda",
-        "RestrictionListName": "Denesik LLC",
-        "IsVisible": true,
-        "ExtraInfo": "optio",
-        "Width": "eum",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "voluptatem"
+        "DisplayName": "Marks Group",
+        "DisplayTooltip": "quaerat",
+        "DisplayType": "soluta",
+        "CanOrderBy": true,
+        "Name": "Heaney Inc and Sons",
+        "CanRestrictBy": true,
+        "RestrictionType": "aut",
+        "RestrictionListName": "Abbott, Hoeger and Hirthe",
+        "IsVisible": false,
+        "ExtraInfo": "qui",
+        "Width": "omnis",
+        "IconHint": "magni",
+        "HeadingIconHint": "id"
       }
     ],
     "Result": null

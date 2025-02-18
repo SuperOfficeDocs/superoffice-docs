@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "blanditiis",
-  "Value": "tempora",
-  "RecordId": 576,
-  "CreatedDate": "2003-12-09T12:01:32.9175621+01:00",
-  "UpdatedDate": "2004-01-10T12:01:32.9175621+01:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "consequuntur",
-  "TableName": "Rutherford, Ziemann and Cormier"
+  "Key": "beatae",
+  "Value": "voluptatem",
+  "RecordId": 214,
+  "CreatedDate": "2006-09-09T14:32:11.5210682+02:00",
+  "UpdatedDate": "2015-04-09T14:32:11.5210682+02:00",
+  "UpdatedBy": "modi",
+  "CreatedBy": "dolorum",
+  "TableName": "Mertz, Wiza and Wuckert"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "quasi",
-  "RecordId": 822,
-  "CreatedDate": "2020-09-23T12:01:32.9175621+02:00",
-  "UpdatedDate": "2003-05-04T12:01:32.9175621+02:00",
-  "UpdatedBy": "nobis",
-  "CreatedBy": "architecto",
-  "TableName": "Crooks LLC",
+  "Key": "aliquid",
+  "Value": "asperiores",
+  "RecordId": 19,
+  "CreatedDate": "2002-12-03T14:32:11.5210682+01:00",
+  "UpdatedDate": "2011-01-08T14:32:11.5210682+01:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "ab",
+  "TableName": "Thompson, Paucek and Botsford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

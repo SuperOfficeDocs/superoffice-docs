@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fay-Roberts",
-  "DeviceName": "Wiegand LLC",
-  "DeviceIdentifier": "ut",
-  "TableName": "Wisozk-Hammes",
-  "RecordId": 852
+  "ApplicationName": "Murphy, Corwin and Ward",
+  "DeviceName": "Ferry, Herman and Stehr",
+  "DeviceIdentifier": "tempore",
+  "TableName": "Haley, Gerlach and Bayer",
+  "RecordId": 117
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ipsum",
-    "Value": "porro",
-    "RecordId": 956,
-    "CreatedDate": "2017-04-27T12:01:27.9002891+02:00",
-    "UpdatedDate": "2015-10-11T12:01:27.9002891+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "laboriosam",
-    "TableName": "Roob, Hilpert and Nitzsche",
+    "Key": "ipsam",
+    "Value": "illum",
+    "RecordId": 314,
+    "CreatedDate": "2011-01-02T14:32:03.0459963+01:00",
+    "UpdatedDate": "2002-04-24T14:32:03.0459963+02:00",
+    "UpdatedBy": "voluptatem",
+    "CreatedBy": "recusandae",
+    "TableName": "Marquardt, Shanahan and Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldType": "System.String",
+        "FieldLength": 875
       }
     }
   }

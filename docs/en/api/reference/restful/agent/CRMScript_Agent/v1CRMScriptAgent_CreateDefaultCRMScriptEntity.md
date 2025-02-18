@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 296,
-  "UniqueIdentifier": "vel",
-  "Name": "Romaguera-Bednar",
-  "Description": "Vision-oriented value-added matrices",
-  "IncludeId": "quia",
-  "AccessKey": "eius",
-  "HierarchyId": 272,
-  "Source": "rerum",
-  "SourceCode": "perferendis",
+  "EjscriptId": 837,
+  "UniqueIdentifier": "eius",
+  "Name": "Lindgren LLC",
+  "Description": "Implemented value-added moratorium",
+  "IncludeId": "quis",
+  "AccessKey": "voluptas",
+  "HierarchyId": 440,
+  "Source": "quod",
+  "SourceCode": "magnam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 613,
+  "HtmlOutput": 784,
   "Includes": [
-    289,
-    983
+    827,
+    598
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 998,
-      "LineNumberTo": 874,
-      "Delta": 665,
-      "IncludeId": "vero",
+      "LineNumberFrom": 216,
+      "LineNumberTo": 690,
+      "Delta": 289,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "aliquid",
-        "consectetur"
+        "sed",
+        "perferendis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldType": "System.String",
+          "FieldLength": 347
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-05-15T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 15,
-  "Updated": "1999-01-17T12:01:27.5408902+01:00",
-  "UpdatedAssociateId": 88,
+  "Registered": "2006-08-26T14:32:02.5304886+02:00",
+  "RegisteredAssociateId": 766,
+  "Updated": "2020-11-07T14:32:02.5304886+01:00",
+  "UpdatedAssociateId": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 462
     }
   }
 }

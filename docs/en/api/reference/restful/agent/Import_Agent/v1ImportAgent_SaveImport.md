@@ -79,32 +79,32 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "veritatis",
-        "dolorum"
+        "eos",
+        "nostrum"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "illo"
+      "ExternalKey": "magnam"
     },
     {
       "Values": [
-        "veritatis",
-        "dolorum"
+        "eos",
+        "nostrum"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "illo"
+      "ExternalKey": "magnam"
     }
   ],
   "ColumnDefinition": [
-    "nihil",
-    "ut"
+    "illum",
+    "nisi"
   ],
   "CreateSelection": false,
-  "Culture": "libero",
-  "Context": "tempora"
+  "Culture": "suscipit",
+  "Context": "enim"
 }
 ```
 
@@ -115,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  685,
-  859
+  710,
+  322
 ]
 ```

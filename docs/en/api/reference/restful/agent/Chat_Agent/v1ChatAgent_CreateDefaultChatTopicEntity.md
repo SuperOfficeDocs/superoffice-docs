@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 261,
-  "Name": "Stoltenberg, Considine and McClure",
-  "Description": "Proactive 3rd generation website",
-  "WelcomeMessage": "voluptates",
+  "ChatTopicId": 588,
+  "Name": "Bergnaum, Ankunding and Terry",
+  "Description": "Reduced explicit circuit",
+  "WelcomeMessage": "non",
   "Language": null,
-  "LastAccept": "2018-12-13T12:01:27.3846286+01:00",
-  "SecondsPrAccept": 214,
-  "AlertRecipient": "totam",
+  "LastAccept": "2007-04-17T14:32:02.1087086+02:00",
+  "SecondsPrAccept": 487,
+  "AlertRecipient": "odit",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "ratione",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 529,
-  "WarnManagerNewChatMinutes": 711,
+  "BadgeHeader": "mollitia",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 840,
+  "WarnManagerNewChatMinutes": 98,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 417,
-  "WarnManagerChatMessageMinutes": 543,
+  "WarnChatMessageMinutes": 665,
+  "WarnManagerChatMessageMinutes": 34,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 463,
-  "OfflineFormQueueLength": 333,
+  "OfflineFormTimeLimit": 721,
+  "OfflineFormQueueLength": 121,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "occaecati",
+  "WidgetRatingText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 91
+      "FieldType": "System.Int32",
+      "FieldLength": 385
     }
   }
 }

@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 990
+  "Count": 822
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dach, Conroy and Huel",
-    "SaleDate": "2002-12-16T12:01:28.2596899+01:00",
-    "SaleId": 752,
-    "Probability": 878,
-    "Title": "molestiae",
-    "Amount": 18572.084,
-    "Currency": "quae",
-    "ProjectName": "Mayert, Anderson and Witting",
-    "AssociateFullName": "Jedediah Bogan",
-    "Description": "Up-sized static productivity",
+    "ContactName": "Hayes-McKenzie",
+    "SaleDate": "2010-09-12T14:32:03.7022941+02:00",
+    "SaleId": 805,
+    "Probability": 458,
+    "Title": "corrupti",
+    "Amount": 9213.96,
+    "Currency": "quis",
+    "ProjectName": "Rath, Botsford and Ernser",
+    "AssociateFullName": "Olen Mills",
+    "Description": "Digitized cohesive time-frame",
     "Status": "Lost",
-    "WeightedAmount": 15171.694,
-    "ProjectId": 10,
-    "EarningPercent": 20928.852,
-    "Earning": 28447.318,
-    "ContactId": 263,
-    "AssociateId": 467,
-    "PersonId": 554,
-    "SaleTypeId": 742,
-    "SaleTypeName": "Nitzsche-Reynolds",
-    "PersonFullName": "Ted Graham",
+    "WeightedAmount": 22918.942,
+    "ProjectId": 751,
+    "EarningPercent": 8314.502,
+    "Earning": 24862.022,
+    "ContactId": 788,
+    "AssociateId": 218,
+    "PersonId": 133,
+    "SaleTypeId": 215,
+    "SaleTypeName": "Schmidt Group",
+    "PersonFullName": "Marion Blanda",
     "Completed": "Completed",
-    "ActiveErpLinks": 232,
-    "NextDueDate": "2015-10-01T12:01:28.2596899+02:00",
-    "Number": "972533",
+    "ActiveErpLinks": 350,
+    "NextDueDate": "2012-05-31T14:32:03.7022941+02:00",
+    "Number": "621891",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   }

@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "vero"
+  "FileContent": "quaerat"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 921,
-      "NumberOfLicensesFree": 578,
-      "NumberOfLicensesAdded": 751,
-      "NumberOfLicensesNewTotal": 655,
-      "NumberOfLicensesNewFree": 235,
-      "NumberOfLicensesTotal": 141
+      "NumberOfLicensesInUse": 187,
+      "NumberOfLicensesFree": 709,
+      "NumberOfLicensesAdded": 27,
+      "NumberOfLicensesNewTotal": 360,
+      "NumberOfLicensesNewFree": 912,
+      "NumberOfLicensesTotal": 971
     }
   ],
-  "AccumulatedNextCheckDate": "2002-10-01T12:01:27.9159153+02:00"
+  "AccumulatedNextCheckDate": "2004-06-10T14:32:03.0459963+02:00"
 }
 ```

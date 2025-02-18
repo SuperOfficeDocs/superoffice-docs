@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 284,
-  "UiCulture": "voluptatum"
+  "DocumentId": 872,
+  "UiCulture": "perferendis"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 778,
+  "DocumentId": 133,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsa",
-  "Header": "aperiam",
-  "Name": "Corwin, Wiegand and Labadie",
-  "OurRef": "similique",
-  "YourRef": "omnis",
-  "CreatedDate": "2001-05-27T12:01:27.7284021+02:00",
-  "UpdatedDate": "2022-12-01T12:01:27.7284021+01:00",
-  "Description": "Ergonomic background encoding",
+  "Attention": "ut",
+  "Header": "amet",
+  "Name": "Senger-Stoltenberg",
+  "OurRef": "minus",
+  "YourRef": "animi",
+  "CreatedDate": "2015-05-28T14:32:02.7179455+02:00",
+  "UpdatedDate": "2016-07-03T14:32:02.7179455+02:00",
+  "Description": "Compatible scalable algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-08-08T12:01:27.7284021+02:00",
-  "ExternalRef": "dolor",
+  "Date": "2015-02-02T14:32:02.7179455+01:00",
+  "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 934,
+  "ActiveLinks": 485,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Weissnat-Schaefer",
-      "Id": 427,
-      "Description": "Polarised directional leverage",
-      "ExtraInfo": "eos",
-      "LinkId": 486,
+      "EntityName": "Conroy Group",
+      "Id": 400,
+      "Description": "Universal 3rd generation core",
+      "ExtraInfo": "ut",
+      "LinkId": 992,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 884
+          "FieldType": "System.Int32",
+          "FieldLength": 528
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 577,
-  "Snum": 26,
+  "SuggestedDocumentId": 67,
+  "Snum": 211,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Jayden Block"
+    "SuperOffice:1": "Nicholaus Dare",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "est"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "provident",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "1999-01-10T12:01:27.7284021+01:00",
-  "PublishTo": "2020-11-08T12:01:27.7284021+01:00",
-  "PublishFrom": "2006-02-16T12:01:27.7284021+01:00",
+  "PublishEventDate": "2021-09-15T14:32:02.7179455+02:00",
+  "PublishTo": "1997-10-22T14:32:02.7179455+02:00",
+  "PublishFrom": "2000-08-28T14:32:02.7179455+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 855,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 491
         }
       }
     },
     {
-      "VisibleId": 855,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 491
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

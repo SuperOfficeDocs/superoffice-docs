@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Klein LLC",
-    "Tooltip": "itaque",
+    "Id": 217,
+    "Name": "Kunze LLC",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 303,
-    "Rank": 587,
+    "UdListDefinitionId": 963,
+    "Rank": 430,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 195
       }
     }
   }

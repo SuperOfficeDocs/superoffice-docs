@@ -1123,7 +1123,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/salefavourites?$select=type,person/personExtra/x_person_user_relation,contact/contactExtra/x_contact_default_integer,associate/lastName,project/projectAssociate/contactId
+GET /api/v1/archive/salefavourites?$select=person/mrMrs,person/personAddress/zip,contact/email/emailId,contact/email/emailBounceCount,associate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

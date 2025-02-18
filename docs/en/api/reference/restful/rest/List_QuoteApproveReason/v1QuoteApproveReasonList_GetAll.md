@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Thompson, Okuneva and Goodwin",
-    "Tooltip": "saepe",
+    "Id": 144,
+    "Name": "Harris-Brakus",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "UdListDefinitionId": 284,
-    "Rank": 109,
+    "UdListDefinitionId": 869,
+    "Rank": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldLength": 185
       }
     }
   }

@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 405,
-  "ERPPriceListKey": "perferendis",
-  "QuoteConnectionId": 314,
-  "Name": "McLaughlin, Kling and Hoppe",
-  "Description": "Programmable global matrices",
-  "Currency": "ut",
-  "CurrencyName": "Hessel LLC",
-  "ValidFrom": "2013-07-06T12:01:33.5582313+02:00",
-  "ValidTo": "2009-12-22T12:01:33.5582313+01:00",
+  "PriceListId": 807,
+  "ERPPriceListKey": "ut",
+  "QuoteConnectionId": 995,
+  "Name": "Lind Inc and Sons",
+  "Description": "Future-proofed object-oriented capability",
+  "Currency": "sapiente",
+  "CurrencyName": "Veum Inc and Sons",
+  "ValidFrom": "2013-02-18T14:32:12.72392+01:00",
+  "ValidTo": "2014-07-07T14:32:12.72392+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 918
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

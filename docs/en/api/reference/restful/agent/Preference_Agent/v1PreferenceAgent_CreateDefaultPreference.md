@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "corporis",
+  "RawValue": "est",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "est",
+  "DisplayValue": "rem",
+  "DisplayTooltip": "tempora",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 90,
-  "PrefDescId": 832,
-  "TableName": "Block Inc and Sons",
-  "UserPreferenceId": 88,
+  "TargetId": 114,
+  "PrefDescId": 897,
+  "TableName": "Lubowitz, Gleason and Hane",
+  "UserPreferenceId": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 822
     }
   }
 }

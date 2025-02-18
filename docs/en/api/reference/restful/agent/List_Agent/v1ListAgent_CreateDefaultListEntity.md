@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 143,
-  "Name": "Cronin, Harris and Mohr",
-  "Tooltip": "eligendi",
+  "Id": 910,
+  "Name": "Ziemann-Greenfelder",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 886,
+  "Rank": 243,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 132,
-  "UniqueId": "non",
-  "Name": "Pfannerstill, Durgan and Streich",
-  "Description": "Streamlined modular solution",
-  "AssociateId": 235,
-  "Columns": 705,
+  "DashboardId": 448,
+  "UniqueId": "quo",
+  "Name": "Lind, Hickle and Erdman",
+  "Description": "Pre-emptive empowering interface",
+  "AssociateId": 890,
+  "Columns": 276,
   "Theme": null,
-  "VisibleForAll": 464,
+  "VisibleForAll": 6,
   "VisibleForAssociates": [
-    898,
-    542
+    206,
+    918
   ],
   "VisibleForGroups": [
-    898,
-    710
+    792,
+    67
   ],
-  "PinForAll": 155,
+  "PinForAll": 684,
   "PinForAssociates": [
-    735,
-    499
+    186,
+    212
   ],
   "PinForGroups": [
-    19,
-    411
+    477,
+    156
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 982
+      "FieldLength": 365
     }
   },
   "_Links": {

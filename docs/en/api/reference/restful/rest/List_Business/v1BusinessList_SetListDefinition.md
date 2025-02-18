@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 431,
-  "Name": "Herman, Metz and Dooley",
-  "Tooltip": "et",
+  "Id": 288,
+  "Name": "Dickinson LLC",
+  "Tooltip": "cupiditate",
   "Deleted": true,
-  "Rank": 115,
+  "Rank": 495,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "ex",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 298,
-  "Name": "Walker, Kohler and Purdy",
-  "Tooltip": "autem",
+  "Id": 433,
+  "Name": "Block Inc and Sons",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 895,
-  "IsCustomList": false,
+  "Rank": 406,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsum",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 933
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 123,
-    "Name": "Thiel LLC",
-    "Description": "Pre-emptive full-range alliance",
+    "ProjectId": 107,
+    "Name": "Walter, Will and Moen",
+    "Description": "Synchronised client-driven budgetary management",
     "URL": "http://www.example.com/",
-    "Type": "pariatur",
-    "AssociateId": 735,
-    "AssociateFullName": "Elise Hermiston",
-    "TypeId": 267,
-    "Updated": "1998-03-10T12:01:28.1659327+01:00",
-    "StatusId": 498,
-    "Status": "repellat",
-    "TextId": 204,
-    "PublishTo": "2019-02-01T12:01:28.1659327+01:00",
-    "PublishFrom": "2018-08-30T12:01:28.1659327+02:00",
+    "Type": "repudiandae",
+    "AssociateId": 152,
+    "AssociateFullName": "Miss Eden Howell IV",
+    "TypeId": 930,
+    "Updated": "2007-06-09T14:32:03.5148359+02:00",
+    "StatusId": 174,
+    "Status": "iusto",
+    "TextId": 69,
+    "PublishTo": "2013-02-23T14:32:03.5148359+01:00",
+    "PublishFrom": "2000-02-21T14:32:03.5148359+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1331069",
-    "ActiveErpLinks": 633,
+    "ProjectNumber": "1131333",
+    "ActiveErpLinks": 702,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 38
       }
     }
   }

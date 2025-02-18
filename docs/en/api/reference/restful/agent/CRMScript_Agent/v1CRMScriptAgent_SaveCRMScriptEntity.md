@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 319,
-  "UniqueIdentifier": "quasi",
-  "Name": "O'Connell, Hermann and Doyle",
-  "Description": "Team-oriented coherent Graphic Interface",
-  "IncludeId": "aut",
-  "AccessKey": "tempora",
-  "HierarchyId": 114,
-  "Source": "similique",
-  "SourceCode": "qui",
+  "EjscriptId": 850,
+  "UniqueIdentifier": "doloribus",
+  "Name": "Gutkowski LLC",
+  "Description": "Horizontal stable structure",
+  "IncludeId": "qui",
+  "AccessKey": "ducimus",
+  "HierarchyId": 70,
+  "Source": "hic",
+  "SourceCode": "ipsum",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 14,
+  "HtmlOutput": 15,
   "Includes": [
-    255,
-    776
+    451,
+    208
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 943,
-      "LineNumberTo": 243,
-      "Delta": 886,
-      "IncludeId": "qui",
+      "LineNumberFrom": 589,
+      "LineNumberTo": 32,
+      "Delta": 81,
+      "IncludeId": "vel",
       "IncludedFrom": [
-        "qui",
-        "eveniet"
+        "eos",
+        "debitis"
       ]
     },
     {
-      "LineNumberFrom": 943,
-      "LineNumberTo": 243,
-      "Delta": 886,
-      "IncludeId": "qui",
+      "LineNumberFrom": 589,
+      "LineNumberTo": 32,
+      "Delta": 81,
+      "IncludeId": "vel",
       "IncludedFrom": [
-        "qui",
-        "eveniet"
+        "eos",
+        "debitis"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-08-23T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2008-10-17T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 221
+  "Registered": "2009-07-14T14:32:02.5304886+02:00",
+  "RegisteredAssociateId": 33,
+  "Updated": "2004-03-15T14:32:02.5304886+01:00",
+  "UpdatedAssociateId": 78
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 965,
-  "UniqueIdentifier": "dolore",
-  "Name": "Bayer Group",
-  "Description": "Cloned homogeneous project",
-  "IncludeId": "accusamus",
-  "AccessKey": "totam",
-  "HierarchyId": 599,
-  "Source": "repudiandae",
-  "SourceCode": "et",
+  "EjscriptId": 173,
+  "UniqueIdentifier": "itaque",
+  "Name": "Daugherty-Nikolaus",
+  "Description": "Programmable tangible forecast",
+  "IncludeId": "incidunt",
+  "AccessKey": "debitis",
+  "HierarchyId": 731,
+  "Source": "quos",
+  "SourceCode": "perspiciatis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 874,
+  "HtmlOutput": 41,
   "Includes": [
-    257,
-    562
+    105,
+    849
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 569,
-      "LineNumberTo": 136,
-      "Delta": 917,
-      "IncludeId": "dolor",
+      "LineNumberFrom": 25,
+      "LineNumberTo": 205,
+      "Delta": 816,
+      "IncludeId": "dolores",
       "IncludedFrom": [
-        "dolore",
-        "dolorem"
+        "placeat",
+        "assumenda"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 69
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2006-02-14T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 729,
-  "Updated": "2012-10-21T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 524,
+  "Registered": "2018-01-15T14:32:02.5304886+01:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "2017-01-07T14:32:02.5304886+01:00",
+  "UpdatedAssociateId": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldLength": 572
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2023-08-18T12:01:27.3221238+02:00",
-  "ToDate": "2002-06-30T12:01:27.3221238+02:00",
+  "FromDate": "2004-01-06T14:32:01.9993591+01:00",
+  "ToDate": "2021-08-05T14:32:01.9993591+02:00",
   "AssociateList": [
     {
-      "Id": 894,
-      "Name": "Stanton, Hudson and Dietrich",
-      "ToolTip": "Modi voluptates inventore neque eius consequatur quia.",
-      "Deleted": false,
-      "Rank": 380,
-      "Type": "veniam",
-      "ColorBlock": 525,
-      "IconHint": "omnis",
+      "Id": 310,
+      "Name": "Cruickshank-Goldner",
+      "ToolTip": "Cum optio qui totam minima atque.",
+      "Deleted": true,
+      "Rank": 557,
+      "Type": "molestiae",
+      "ColorBlock": 927,
+      "IconHint": "aliquam",
       "Selected": true,
-      "LastChanged": "2013-04-15T12:01:27.3221238+02:00",
+      "LastChanged": "2014-12-08T14:32:01.9993591+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "officia",
-      "Hidden": true,
-      "FullName": "Mrs. Jailyn Jacques Ziemann I",
+      "ExtraInfo": "officia",
+      "StyleHint": "maxime",
+      "Hidden": false,
+      "FullName": "Miss Winona Kenneth Conn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 932
+          "FieldLength": 506
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 68,
-      "Name": "Rogahn-Borer",
-      "ToolTip": "Amet est temporibus eligendi sed illo.",
+      "Id": 354,
+      "Name": "Harvey-Durgan",
+      "ToolTip": "In eaque eveniet.",
       "Deleted": false,
-      "Rank": 96,
-      "Type": "quaerat",
-      "ColorBlock": 189,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2005-11-07T12:01:27.3221238+01:00",
+      "Rank": 855,
+      "Type": "beatae",
+      "ColorBlock": 308,
+      "IconHint": "placeat",
+      "Selected": true,
+      "LastChanged": "2011-09-25T14:32:01.9993591+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aspernatur",
-      "StyleHint": "ipsum",
+      "ExtraInfo": "maiores",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Osborne Blanda",
+      "FullName": "Manuel Howell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 726,
-      "Name": "Lynch-Marvin",
-      "ToolTip": "Sed omnis.",
+      "Id": 111,
+      "Name": "Willms-Rutherford",
+      "ToolTip": "Dolores beatae culpa earum eius rerum excepturi vero.",
       "Deleted": false,
-      "Rank": 556,
-      "Type": "officiis",
+      "Rank": 474,
+      "Type": "odio",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatum",
-      "ColorBlock": 662,
-      "ExtraInfo": "placeat",
-      "StyleHint": "ullam",
-      "FullName": "Christina Faye Torphy Sr.",
+      "IconHint": "ipsa",
+      "ColorBlock": 335,
+      "ExtraInfo": "soluta",
+      "StyleHint": "reiciendis",
+      "FullName": "Claude Schmitt MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 805
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 24
     }
   }

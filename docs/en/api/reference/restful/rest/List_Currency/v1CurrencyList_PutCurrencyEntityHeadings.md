@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Macejkovic Group",
-    "Tooltip": "corporis",
+    "HeadingId": 478,
+    "Name": "Dare-Smith",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 880
+    "Rank": 691,
+    "UdListDefinitionId": 616
   },
   {
-    "HeadingId": 446,
-    "Name": "Macejkovic Group",
-    "Tooltip": "corporis",
+    "HeadingId": 478,
+    "Name": "Dare-Smith",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 880
+    "Rank": 691,
+    "UdListDefinitionId": 616
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 528,
-    "Name": "DuBuque-Boyle",
-    "Tooltip": "qui",
+    "HeadingId": 807,
+    "Name": "Bergnaum Inc and Sons",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 699,
+    "Rank": 759,
+    "UdListDefinitionId": 404,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 516
       }
     }
   }

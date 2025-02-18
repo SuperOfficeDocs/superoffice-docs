@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 854,
-  "ColumnId": 499,
-  "FieldDefault": "voluptatum",
-  "FieldHeight": 240,
-  "FieldLabel": "amet",
-  "FieldLeft": 212,
-  "FieldTop": 235,
+  "UDefFieldId": 433,
+  "ColumnId": 668,
+  "FieldDefault": "necessitatibus",
+  "FieldHeight": 312,
+  "FieldLabel": "aut",
+  "FieldLeft": 412,
+  "FieldTop": 100,
   "FieldType": "Checkbox",
-  "FieldWidth": 725,
-  "FormatMask": "non",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 880,
-  "LabelLeft": 886,
-  "LabelTop": 314,
-  "LabelWidth": 920,
-  "LastVersionId": 375,
-  "ListTableId": 92,
-  "IsMandatory": true,
+  "FieldWidth": 558,
+  "FormatMask": "exercitationem",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 897,
+  "LabelLeft": 246,
+  "LabelTop": 43,
+  "LabelWidth": 421,
+  "LastVersionId": 734,
+  "ListTableId": 879,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 328,
-  "ProgId": "amet",
+  "Page1LineNo": 860,
+  "ProgId": "sint",
   "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 877,
-  "TextLength": 375,
-  "Tooltip": "est",
-  "UdefIdentity": 227,
-  "UDListDefinitionId": 983,
+  "ShortLabel": "fugiat",
+  "TabOrder": 397,
+  "TextLength": 353,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 350,
+  "UDListDefinitionId": 787,
   "Justification": "Center",
-  "Version": 546,
-  "TemplateVariableName": "Mayer, Hoppe and Bartoletti",
-  "HasBeenPublished": false,
-  "MdoListName": "Rowe-Schroeder",
+  "Version": 945,
+  "TemplateVariableName": "Abshire-Runte",
+  "HasBeenPublished": true,
+  "MdoListName": "Mueller Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 405
     }
   }
 }

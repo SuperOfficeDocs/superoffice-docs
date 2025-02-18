@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 110,
-  "Caption": "est",
-  "Description": "Business-focused optimizing middleware",
-  "ChartName": "Osinski-Lemke",
-  "ChartId": "nemo",
+  "DashboardTileId": 449,
+  "Caption": "ut",
+  "Description": "Synergized actuating access",
+  "ChartName": "Jacobson-Kunze",
+  "ChartId": "qui",
   "IsDefault": false,
-  "AssociateId": 925,
-  "GroupId": 292,
-  "SelectionId": 110,
-  "Config": "quaerat",
+  "AssociateId": 823,
+  "GroupId": 230,
+  "SelectionId": 369,
+  "Config": "eum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Zboncak, Smitham and Buckridge",
-      "Description": "Up-sized mission-critical migration",
+      "Name": "Lang-Jacobson",
+      "Description": "Fully-configurable secondary moderator",
       "Type": "Boolean",
-      "ListName": "Schaefer-Corwin",
+      "ListName": "Thiel, Treutel and Doyle",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptatem",
+      "Value": "corporis",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 246
+          "FieldType": "System.String",
+          "FieldLength": 212
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 318,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 872
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 318,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 156
+          "FieldLength": 872
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 41
     }
   },
   "_Links": {

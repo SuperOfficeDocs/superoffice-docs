@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mills-Kassulke",
-  "DeviceName": "Leuschke, Bernier and Block",
-  "DeviceIdentifier": "aspernatur"
+  "ApplicationName": "Bins, Bergnaum and Armstrong",
+  "DeviceName": "Kuhn-Zboncak",
+  "DeviceIdentifier": "ea"
 }
 ```
 

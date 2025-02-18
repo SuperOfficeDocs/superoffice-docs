@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 360,
-  "BlobSize": 232,
-  "Description": "Organized interactive migration",
-  "ExtraInfo": "quis",
-  "IsEncrypted": false,
+  "BlobId": 114,
+  "BlobSize": 187,
+  "Description": "Team-oriented background superstructure",
+  "ExtraInfo": "illo",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "quia",
-  "OriginalSize": 358,
-  "CreatedDate": "2015-11-11T12:01:32.9956921+01:00",
-  "UpdatedDate": "2007-10-10T12:01:32.9956921+02:00",
+  "MimeType": "harum",
+  "OriginalSize": 485,
+  "CreatedDate": "2016-09-21T14:32:11.6460402+02:00",
+  "UpdatedDate": "2010-12-20T14:32:11.6460402+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatum"
+  "ConceptualType": "unde"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 622,
-  "BlobSize": 935,
-  "Description": "Phased demand-driven initiative",
-  "ExtraInfo": "quo",
+  "BlobId": 89,
+  "BlobSize": 372,
+  "Description": "Reactive systematic superstructure",
+  "ExtraInfo": "nisi",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "esse",
-  "OriginalSize": 431,
-  "CreatedDate": "2008-04-21T12:01:32.9956921+02:00",
-  "UpdatedDate": "2014-06-01T12:01:32.9956921+02:00",
+  "IsZipped": true,
+  "MimeType": "sed",
+  "OriginalSize": 217,
+  "CreatedDate": "2001-10-02T14:32:11.6460402+02:00",
+  "UpdatedDate": "2002-12-16T14:32:11.6460402+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perspiciatis",
+  "ConceptualType": "occaecati",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldLength": 865
     }
   }
 }

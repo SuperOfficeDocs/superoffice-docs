@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 418,
+  "SelectionId": 42,
   "Criteria": [
     {
-      "Name": "Rodriguez, Reichel and Moen",
-      "Operator": "eveniet",
+      "Name": "Grady-Kuvalis",
+      "Operator": "magni",
       "Values": [
-        "officiis",
-        "sed"
+        "provident",
+        "eligendi"
       ],
       "DisplayValues": [
-        "sequi",
-        "sed"
+        "itaque",
+        "molestiae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 506,
+      "InterParenthesis": 479,
       "InterOperator": "And",
-      "UniqueHash": 836
+      "UniqueHash": 507
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collier, Langworth and Schowalter",
-    "Operator": "qui",
+    "Name": "Block, Conn and Huels",
+    "Operator": "tempore",
     "Values": [
-      "hic",
-      "incidunt"
-    ],
-    "DisplayValues": [
-      "cumque",
+      "est",
       "in"
     ],
+    "DisplayValues": [
+      "quam",
+      "corporis"
+    ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisozk-Murazik",
-        "Operator": "molestias",
+        "Name": "Sipes-Fay",
+        "Operator": "aut",
         "Values": [
-          "est",
-          "ipsum"
+          "ut",
+          "consectetur"
         ],
         "DisplayValues": [
-          "sed",
-          "quis"
+          "amet",
+          "optio"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 705,
+        "InterParenthesis": 47,
         "InterOperator": "And",
-        "UniqueHash": 89
+        "UniqueHash": 333
       }
     ],
-    "InterParenthesis": 37,
+    "InterParenthesis": 920,
     "InterOperator": "And",
-    "UniqueHash": 503
+    "UniqueHash": 908
   }
 ]
 ```

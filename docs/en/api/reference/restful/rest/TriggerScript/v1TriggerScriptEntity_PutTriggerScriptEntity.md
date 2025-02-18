@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 71,
-  "Name": "Beier, Herman and Stehr",
+  "ScreenChooserId": 783,
+  "Name": "Cartwright, Cummings and Walsh",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "natus",
-  "Registered": "2013-04-20T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "2017-10-15T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 843
+  "Enabled": true,
+  "UniqueIdentifier": "facilis",
+  "Source": "iure",
+  "Registered": "2017-04-11T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 136,
+  "Updated": "2022-04-20T14:32:12.2240348+02:00",
+  "UpdatedAssociateId": 433
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 489,
-  "Name": "Mueller LLC",
+  "ScreenChooserId": 154,
+  "Name": "Parisian-Rutherford",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "qui",
-  "Registered": "2000-09-06T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 662,
-  "Updated": "2012-03-05T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 793,
+  "UniqueIdentifier": "autem",
+  "Source": "placeat",
+  "Registered": "2003-05-24T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 179,
+  "Updated": "2011-05-09T14:32:12.2240348+02:00",
+  "UpdatedAssociateId": 126,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 997
     }
   },
   "_Links": {

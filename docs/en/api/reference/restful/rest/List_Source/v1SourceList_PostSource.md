@@ -77,12 +77,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "Name": "Hermann Group",
-  "Tooltip": "quasi",
+  "Id": 281,
+  "Name": "Hills, Keebler and Tromp",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "UdListDefinitionId": 137,
-  "Rank": 969
+  "UdListDefinitionId": 320,
+  "Rank": 890
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Mayert-Wehner",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 390,
-  "Rank": 790,
+  "Id": 2,
+  "Name": "Swift LLC",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 180,
+  "Rank": 107,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 113
     }
   }
 }

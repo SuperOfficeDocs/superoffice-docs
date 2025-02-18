@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 415,
-  "TopicId": 399,
+  "ChatSessionId": 10,
+  "TopicId": 808,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eius",
-  "CustomerHost": "sunt",
-  "CustomerName": "Hermiston, Cruickshank and Effertz",
-  "CustomerEmail": "ramon@wolf.name",
-  "CustomerPhone": "667-358-9383 x733",
+  "CustomerAlias": "perspiciatis",
+  "CustomerHost": "magni",
+  "CustomerName": "Halvorson, Blick and Eichmann",
+  "CustomerEmail": "bonita@renner.name",
+  "CustomerPhone": "1-124-204-2841 x93038",
   "CustomerConsented": false,
-  "CustomerCompanyName": "O'Kon-Schultz",
+  "CustomerCompanyName": "Schamberger Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "maiores",
-  "WhenRequested": "2003-03-01T12:01:27.3690022+01:00",
-  "WhenStarted": "2004-10-25T12:01:27.3690022+02:00",
-  "WhenEnded": "2011-09-25T12:01:27.3690022+02:00",
-  "WhenIdle": "2022-04-24T12:01:27.3690022+02:00",
-  "WhenFetched": "2001-05-16T12:01:27.3690022+02:00",
-  "SessionKey": "assumenda",
-  "InitialQueuePos": 661,
-  "AlertLevel": 489,
-  "Rank": 383,
+  "FirstMessage": "suscipit",
+  "LastMessage": "possimus",
+  "WhenRequested": "2006-01-07T14:32:02.0930892+01:00",
+  "WhenStarted": "2023-10-29T14:32:02.0930892+01:00",
+  "WhenEnded": "2007-12-21T14:32:02.0930892+01:00",
+  "WhenIdle": "2017-07-24T14:32:02.0930892+02:00",
+  "WhenFetched": "2010-06-10T14:32:02.0930892+02:00",
+  "SessionKey": "labore",
+  "InitialQueuePos": 641,
+  "AlertLevel": 737,
+  "Rank": 8,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 139
+  "Rating": 345
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 942,
-  "TopicId": 500,
+  "ChatSessionId": 571,
+  "TopicId": 109,
   "User": null,
   "Person": null,
-  "CustomerAlias": "inventore",
-  "CustomerHost": "delectus",
-  "CustomerName": "Crona, Wehner and Kautzer",
-  "CustomerEmail": "quinn.auer@bartoletti.com",
-  "CustomerPhone": "(000)279-0521 x87146",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hauck-Beatty",
+  "CustomerAlias": "omnis",
+  "CustomerHost": "vel",
+  "CustomerName": "Ortiz, Quigley and Wuckert",
+  "CustomerEmail": "johan@feeney.name",
+  "CustomerPhone": "214.989.9542 x321",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Rohan, Weber and Runolfsdottir",
   "Status": "Closed",
-  "FirstMessage": "voluptates",
-  "LastMessage": "aut",
-  "WhenRequested": "1999-08-03T12:01:27.3846286+02:00",
-  "WhenStarted": "2017-03-19T12:01:27.3846286+01:00",
-  "WhenEnded": "2009-04-19T12:01:27.3846286+02:00",
-  "WhenIdle": "2001-02-18T12:01:27.3846286+01:00",
-  "WhenFetched": "2005-04-10T12:01:27.3846286+02:00",
-  "SessionKey": "aliquid",
-  "InitialQueuePos": 26,
-  "AlertLevel": 995,
-  "Rank": 635,
+  "FirstMessage": "eum",
+  "LastMessage": "odit",
+  "WhenRequested": "2004-10-18T14:32:02.1087086+02:00",
+  "WhenStarted": "2003-05-29T14:32:02.1087086+02:00",
+  "WhenEnded": "2007-03-09T14:32:02.1087086+01:00",
+  "WhenIdle": "2017-06-05T14:32:02.1087086+02:00",
+  "WhenFetched": "2011-08-28T14:32:02.1087086+02:00",
+  "SessionKey": "earum",
+  "InitialQueuePos": 784,
+  "AlertLevel": 931,
+  "Rank": 607,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 119,
+  "ChatbotIsActive": false,
+  "Rating": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 167
     }
   }
 }

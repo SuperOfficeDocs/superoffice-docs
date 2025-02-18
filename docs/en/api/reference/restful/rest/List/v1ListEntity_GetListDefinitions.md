@@ -25,7 +25,7 @@ Get a list of the lists - built-in and user-defined.
 | includeDeleted | bool |  Include deleted items in result? |
 
 ```http
-GET /api/v1/List?includeDeleted=True
+GET /api/v1/List?includeDeleted=False
 ```
 
 
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Beahan Inc and Sons",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "Rank": 751,
+    "Id": 828,
+    "Name": "Hauck-Pacocha",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "Rank": 937,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "veniam",
-    "InUseByUserDefinedFields": false,
+    "ListType": "quo",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldLength": 966
       }
     }
   }

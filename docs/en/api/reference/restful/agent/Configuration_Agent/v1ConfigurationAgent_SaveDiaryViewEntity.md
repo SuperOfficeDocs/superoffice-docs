@@ -81,35 +81,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 242,
-  "Name": "Gleichner, Lindgren and Harber",
-  "Tooltip": "sunt",
-  "VisibleColumns": 923,
-  "Rank": 155,
-  "AssocId": 589,
+  "DiaryViewId": 502,
+  "Name": "Grady, Carter and Kilback",
+  "Tooltip": "culpa",
+  "VisibleColumns": 118,
+  "Rank": 19,
+  "AssocId": 905,
   "AssociateList": [
     {
-      "Id": 315,
-      "Name": "Paucek, Hudson and Veum",
-      "ToolTip": "Incidunt modi sunt architecto.",
-      "Deleted": false,
-      "Rank": 258,
-      "Type": "doloribus",
-      "ColorBlock": 318,
-      "IconHint": "eveniet",
+      "Id": 66,
+      "Name": "Lakin-Rath",
+      "ToolTip": "Iure dolores.",
+      "Deleted": true,
+      "Rank": 844,
+      "Type": "voluptate",
+      "ColorBlock": 516,
+      "IconHint": "enim",
       "Selected": false,
-      "LastChanged": "2014-11-22T12:01:27.4471334+01:00",
+      "LastChanged": "1998-02-25T14:32:02.2336819+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "iste",
+      "ExtraInfo": "similique",
+      "StyleHint": "assumenda",
       "Hidden": false,
-      "FullName": "Prof. Briana Jacky Cremin"
+      "FullName": "Mr. Jedidiah Kamryn Botsford V"
     }
   ],
-  "TzLocationId": 314
+  "TzLocationId": 600
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 923,
-  "Name": "Windler Inc and Sons",
-  "Tooltip": "a",
-  "VisibleColumns": 493,
-  "Rank": 696,
-  "AssocId": 685,
+  "DiaryViewId": 41,
+  "Name": "Schulist LLC",
+  "Tooltip": "iusto",
+  "VisibleColumns": 545,
+  "Rank": 649,
+  "AssocId": 242,
   "AssociateList": [
     {
-      "Id": 775,
-      "Name": "McCullough Inc and Sons",
-      "ToolTip": "Sequi eligendi incidunt quis voluptatibus fugit in.",
-      "Deleted": false,
-      "Rank": 260,
-      "Type": "accusantium",
-      "ColorBlock": 406,
-      "IconHint": "sit",
-      "Selected": true,
-      "LastChanged": "2019-07-10T12:01:27.4471334+02:00",
+      "Id": 462,
+      "Name": "Kertzmann Inc and Sons",
+      "ToolTip": "Non excepturi harum rerum qui asperiores est est.",
+      "Deleted": true,
+      "Rank": 609,
+      "Type": "possimus",
+      "ColorBlock": 635,
+      "IconHint": "totam",
+      "Selected": false,
+      "LastChanged": "2006-07-14T14:32:02.2336819+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "quam",
-      "Hidden": false,
-      "FullName": "Garth Rodriguez",
+      "ExtraInfo": "eos",
+      "StyleHint": "sed",
+      "Hidden": true,
+      "FullName": "Ms. Wilbert Murray Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 703
         }
       }
     }
   ],
-  "TzLocationId": 835,
+  "TzLocationId": 97,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

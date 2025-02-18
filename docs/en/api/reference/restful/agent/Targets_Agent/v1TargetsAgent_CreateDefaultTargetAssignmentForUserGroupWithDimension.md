@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 340,
-  "TargetDimensionId": 324
+  "UserGroupId": 881,
+  "TargetDimensionId": 856
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 843,
+    "TargetAssignmentInfoId": 909,
     "Values": [
-      819,
-      189
+      631,
+      970
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 810,
-    "DimensionListItemDisplayName": "Turcotte-Hoppe",
+    "DimensionListItem": 260,
+    "DimensionListItemDisplayName": "Kohler, Reinger and Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 919
       }
     }
   }

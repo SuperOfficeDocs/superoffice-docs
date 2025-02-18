@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Gislason Group",
-  "Tooltip": "officia",
+  "Id": 817,
+  "Name": "Bergstrom Group",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 239,
+  "Rank": 660,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "error",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Gleason Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 443,
+  "Name": "Bogan Group",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 712,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "Rank": 108,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 239
     }
   }
 }

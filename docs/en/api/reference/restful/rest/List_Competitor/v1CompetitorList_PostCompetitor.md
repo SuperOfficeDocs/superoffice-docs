@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Witting-Crist",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 783,
-  "Rank": 201
+  "Id": 150,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "UdListDefinitionId": 32,
+  "Rank": 65
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "Rogahn, Maggio and McCullough",
-  "Tooltip": "natus",
+  "Id": 194,
+  "Name": "Yundt-Haley",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 328,
-  "Rank": 339,
+  "UdListDefinitionId": 49,
+  "Rank": 837,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 820
     }
   }
 }

@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 605,
-  "AssociateId": 26,
-  "Caption": "dolor",
+  "DashboardId": 906,
+  "AssociateId": 63,
+  "Caption": "quam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 131,
-      "Caption": "quas",
-      "Description": "Centralized multi-tasking analyzer",
-      "ChartName": "Homenick-Ondricka",
-      "ChartId": "cumque",
+      "DashboardTileId": 584,
+      "Caption": "porro",
+      "Description": "Multi-channelled multi-state extranet",
+      "ChartName": "Mayert-Dibbert",
+      "ChartId": "saepe",
       "IsDefault": true,
-      "AssociateId": 260,
-      "GroupId": 281,
-      "SelectionId": 751,
-      "Config": "qui",
+      "AssociateId": 460,
+      "GroupId": 589,
+      "SelectionId": 248,
+      "Config": "ab",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 526
+          "FieldType": "System.Int32",
+          "FieldLength": 221
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

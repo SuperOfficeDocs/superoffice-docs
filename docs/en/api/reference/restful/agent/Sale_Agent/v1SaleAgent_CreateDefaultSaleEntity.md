@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veritatis",
+  "SaleText": "debitis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-04-20T12:01:28.2440639+02:00",
-  "Amount": 9226.496,
-  "SaleId": 877,
-  "Earning": 26382.012,
-  "EarningPercent": 11232.256,
-  "Heading": "ut",
-  "Number": "1150138",
-  "Probability": 176,
-  "CreatedDate": "2002-03-16T12:01:28.2440639+01:00",
-  "UpdatedDate": "2018-06-28T12:01:28.2440639+02:00",
+  "Saledate": "2000-08-13T14:32:03.6554291+02:00",
+  "Amount": 17945.284,
+  "SaleId": 661,
+  "Earning": 62.68,
+  "EarningPercent": 29356.178,
+  "Heading": "corporis",
+  "Number": "1258057",
+  "Probability": 426,
+  "CreatedDate": "2003-10-20T14:32:03.6554291+02:00",
+  "UpdatedDate": "2020-11-30T14:32:03.6554291+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 593,
+  "ActiveLinks": 70,
   "Links": [
     {
-      "EntityName": "Raynor Inc and Sons",
-      "Id": 545,
-      "Description": "Centralized discrete service-desk",
+      "EntityName": "Romaguera-Kihn",
+      "Id": 81,
+      "Description": "Upgradable asynchronous paradigm",
       "ExtraInfo": "molestiae",
-      "LinkId": 39,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2020-06-10T12:01:28.2440639+02:00",
-  "Postit": "odit",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-08-30T12:01:28.2440639+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Mosciski, Zboncak and Rippin",
-      "Comment": "in",
-      "StakeholderRoleId": 825,
-      "CountryId": 824,
-      "PersonId": 604,
-      "EmailDescription": "althea_becker@russel.ca",
-      "EmailId": 379,
-      "EmailAddress": "makayla@bauch.us",
-      "PhoneId": 778,
-      "ContactName": "Bartell LLC",
-      "ContactId": 376,
-      "SaleId": 628,
-      "Mrmrs": "ex",
-      "Firstname": "Heath",
-      "MiddleName": "Stracke Group",
-      "Lastname": "Leffler",
-      "SaleStakeholderId": 659,
-      "Rank": 71,
-      "Phone": "816.147.3881 x1366",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 878
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 48,
-  "UserDefinedFields": {
-    "SuperOffice:1": "1857768622",
-    "SuperOffice:2": "True"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "possimus"
-  },
-  "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "sunt"
-  },
-  "PublishEventDate": "2019-03-19T12:01:28.2440639+01:00",
-  "PublishTo": "2007-04-11T12:01:28.2440639+02:00",
-  "PublishFrom": "2021-01-10T12:01:28.2440639+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 314,
-      "Visibility": "All",
-      "DisplayValue": "nam",
+      "LinkId": 413,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldLength": 48
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2020-08-27T14:32:03.6554291+02:00",
+  "Postit": "error",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2008-07-31T14:32:03.6554291+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Ritchie, Sipes and Kreiger",
+      "Comment": "neque",
+      "StakeholderRoleId": 262,
+      "CountryId": 500,
+      "PersonId": 755,
+      "EmailDescription": "esperanza_bednar@legros.name",
+      "EmailId": 863,
+      "EmailAddress": "nash_turner@kovacek.info",
+      "PhoneId": 64,
+      "ContactName": "Schoen-Hartmann",
+      "ContactId": 902,
+      "SaleId": 373,
+      "Mrmrs": "sapiente",
+      "Firstname": "Cortez",
+      "MiddleName": "Haag, Adams and Hagenes",
+      "Lastname": "Corkery",
+      "SaleStakeholderId": 647,
+      "Rank": 600,
+      "Phone": "(397)265-3685",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 51
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 461,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1376229088",
+    "SuperOffice:2": "Dr. Jacklyn Glover"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "ad"
+  },
+  "CustomFields": {
+    "CustomFields1": "molestias",
+    "CustomFields2": "et"
+  },
+  "PublishEventDate": "1999-02-14T14:32:03.6554291+01:00",
+  "PublishTo": "2007-02-22T14:32:03.6554291+01:00",
+  "PublishFrom": "2005-08-18T14:32:03.6554291+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 532,
+      "Visibility": "All",
+      "DisplayValue": "id",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     },
     {
-      "VisibleId": 314,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
@@ -240,8 +240,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

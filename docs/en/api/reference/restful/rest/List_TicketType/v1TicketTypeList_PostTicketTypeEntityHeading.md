@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 533,
-  "Name": "Kuhn, Lemke and Parisian",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 116,
-  "UdListDefinitionId": 488
+  "HeadingId": 812,
+  "Name": "Larson LLC",
+  "Tooltip": "minus",
+  "Deleted": true,
+  "Rank": 135,
+  "UdListDefinitionId": 853
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 618,
-  "Name": "Funk Group",
-  "Tooltip": "quibusdam",
+  "HeadingId": 963,
+  "Name": "Rippin Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 831,
-  "UdListDefinitionId": 328,
+  "Rank": 584,
+  "UdListDefinitionId": 514,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 418
     }
   }
 }

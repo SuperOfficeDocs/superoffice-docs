@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 392,
-    "Comment": "aperiam",
-    "Registered": "2009-10-09T12:01:32.9800661+02:00",
-    "RegisteredAssociateId": 466,
-    "Updated": "2011-07-09T12:01:32.9800661+02:00",
-    "UpdatedAssociateId": 153,
-    "LegalBaseId": 200,
-    "LegalBaseKey": "nemo",
-    "LegalBaseName": "Marks LLC",
-    "ConsentPurposeId": 916,
-    "ConsentPurposeKey": "qui",
-    "ConsentPurposeName": "Conn-Gerlach",
-    "ConsentSourceId": 894,
-    "ConsentSourceKey": "pariatur",
-    "ConsentSourceName": "Kuvalis Inc and Sons",
+    "ConsentPersonId": 44,
+    "Comment": "quia",
+    "Registered": "2019-11-08T14:32:11.6304179+01:00",
+    "RegisteredAssociateId": 455,
+    "Updated": "2016-03-28T14:32:11.6304179+02:00",
+    "UpdatedAssociateId": 771,
+    "LegalBaseId": 588,
+    "LegalBaseKey": "cumque",
+    "LegalBaseName": "Schroeder, Robel and Block",
+    "ConsentPurposeId": 765,
+    "ConsentPurposeKey": "voluptate",
+    "ConsentPurposeName": "Paucek-Labadie",
+    "ConsentSourceId": 921,
+    "ConsentSourceKey": "nobis",
+    "ConsentSourceName": "Effertz, Kub and Ankunding",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldLength": 668
       }
     }
   }

@@ -93,18 +93,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 732,
-  "Name": "Johnson, Satterfield and Homenick",
-  "ConsentText": "vero",
-  "FormText": "illo",
-  "Key": "quibusdam",
-  "Tooltip": "animi",
-  "Active": 453,
-  "UpdatedDate": "2015-07-22T12:01:33.448849+02:00",
+  "ConsentPurposeId": 682,
+  "Name": "Greenfelder Inc and Sons",
+  "ConsentText": "nesciunt",
+  "FormText": "accusamus",
+  "Key": "velit",
+  "Tooltip": "voluptatum",
+  "Active": 322,
+  "UpdatedDate": "2024-10-12T14:32:12.5052197+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 967,
-  "PrivacyStatementDesc": "optio",
+  "Deleted": false,
+  "Rank": 22,
+  "PrivacyStatementDesc": "quidem",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 916,
-  "Name": "Becker, Schmitt and Batz",
-  "ConsentText": "voluptate",
-  "FormText": "id",
-  "Key": "qui",
-  "Tooltip": "saepe",
-  "Active": 450,
-  "UpdatedDate": "2024-09-06T12:01:33.448849+02:00",
+  "ConsentPurposeId": 744,
+  "Name": "Batz-Hoeger",
+  "ConsentText": "unde",
+  "FormText": "tenetur",
+  "Key": "molestias",
+  "Tooltip": "et",
+  "Active": 816,
+  "UpdatedDate": "2022-04-02T14:32:12.5208411+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 762,
-  "PrivacyStatementDesc": "ab",
+  "Rank": 499,
+  "PrivacyStatementDesc": "labore",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldType": "System.Int32",
+      "FieldLength": 772
     }
   }
 }

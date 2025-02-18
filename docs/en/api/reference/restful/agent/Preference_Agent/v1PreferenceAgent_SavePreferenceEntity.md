@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ullam",
+  "RawValue": "dolor",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "libero",
+  "DisplayValue": "et",
+  "DisplayTooltip": "enim",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 107,
-  "PrefDescId": 606,
-  "TableName": "Volkman Group",
-  "UserPreferenceId": 843,
+  "TargetId": 68,
+  "PrefDescId": 672,
+  "TableName": "Walter-Weissnat",
+  "UserPreferenceId": 619,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 440
     }
   }
 }

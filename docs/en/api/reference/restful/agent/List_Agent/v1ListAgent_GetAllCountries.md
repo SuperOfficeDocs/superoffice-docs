@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 895,
-    "Name": "Grant-Lynch",
-    "CurrencyId": 242,
-    "EnglishName": "Hudson-Robel",
+    "CountryId": 784,
+    "Name": "Botsford Inc and Sons",
+    "CurrencyId": 629,
+    "EnglishName": "Wiza, Welch and Kozey",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-tiered national forecast",
-    "OrgNrText": "796815",
-    "InterAreaPrefix": "aspernatur",
-    "DialInPrefix": "eos",
-    "ZipPrefix": "magni",
-    "DomainName": "Hartmann Inc and Sons",
-    "AddressLayoutId": 212,
-    "DomesticAddressLayoutId": 247,
-    "ForeignAddressLayoutId": 348,
-    "Rank": 453,
-    "Tooltip": "sit",
+    "ImageDescription": "Proactive logistical definition",
+    "OrgNrText": "602331",
+    "InterAreaPrefix": "rerum",
+    "DialInPrefix": "sed",
+    "ZipPrefix": "eius",
+    "DomainName": "Sporer Inc and Sons",
+    "AddressLayoutId": 994,
+    "DomesticAddressLayoutId": 462,
+    "ForeignAddressLayoutId": 417,
+    "Rank": 696,
+    "Tooltip": "magnam",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

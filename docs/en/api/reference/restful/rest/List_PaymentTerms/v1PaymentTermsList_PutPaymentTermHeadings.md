@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 382,
-    "Name": "Toy, Keebler and Rolfson",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "Rank": 359,
-    "UdListDefinitionId": 239
+    "HeadingId": 468,
+    "Name": "Greenfelder-Brakus",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 681,
+    "UdListDefinitionId": 199
   },
   {
-    "HeadingId": 382,
-    "Name": "Toy, Keebler and Rolfson",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "Rank": 359,
-    "UdListDefinitionId": 239
+    "HeadingId": 468,
+    "Name": "Greenfelder-Brakus",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 681,
+    "UdListDefinitionId": 199
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 923,
-    "Name": "Kuhic, Rolfson and Willms",
-    "Tooltip": "necessitatibus",
+    "HeadingId": 712,
+    "Name": "Keeling, Kautzer and Cremin",
+    "Tooltip": "reiciendis",
     "Deleted": true,
-    "Rank": 920,
-    "UdListDefinitionId": 869,
+    "Rank": 911,
+    "UdListDefinitionId": 198,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 67
       }
     }
   }

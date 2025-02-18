@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Yost LLC",
-  "EventFilter": "iste",
+  "NameFilter": "Anderson LLC",
+  "EventFilter": "magni",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 671,
-    "Name": "Rutherford LLC",
+    "WebhookId": 693,
+    "Name": "Trantow Group",
     "Events": [
-      "eligendi",
-      "sed"
+      "velit",
+      "consequatur"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "doloremque",
+    "Secret": "sit",
     "State": "Active",
-    "Type": "at",
+    "Type": "impedit",
     "Headers": {
-      "Headers1": "quidem",
-      "Headers2": "impedit"
+      "Headers1": "voluptatem",
+      "Headers2": "est"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2020-05-11T12:01:28.6503413+02:00",
+    "Registered": "2012-05-10T14:32:04.3896377+02:00",
     "RegisteredAssociate": null,
-    "Updated": "1998-04-08T12:01:28.6503413+02:00",
+    "Updated": "2025-02-05T14:32:04.3896377+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "wendy_baumbach@bailey.us"
+    "ErrorsEmail": "taryn@effertzjohnson.biz"
   }
 ]
 ```

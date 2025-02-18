@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    183,
-    407
+    706,
+    861
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 827,
-    "UniqueId": "aut",
-    "Name": "O'Kon-Kerluke",
-    "Description": "Automated grid-enabled service-desk",
-    "AssociateId": 678,
-    "Columns": 948,
+    "DashboardId": 756,
+    "UniqueId": "repellat",
+    "Name": "Reilly-Collier",
+    "Description": "Total demand-driven moderator",
+    "AssociateId": 909,
+    "Columns": 86,
     "Theme": null,
-    "VisibleForAll": 533,
+    "VisibleForAll": 779,
     "VisibleForAssociates": [
-      66,
-      789
+      157,
+      718
     ],
     "VisibleForGroups": [
-      972,
-      706
+      667,
+      246
     ],
-    "PinForAll": 732,
+    "PinForAll": 90,
     "PinForAssociates": [
-      676,
-      975
+      963,
+      605
     ],
     "PinForGroups": [
-      487,
-      577
+      67,
+      430
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 485
       }
     }
   }

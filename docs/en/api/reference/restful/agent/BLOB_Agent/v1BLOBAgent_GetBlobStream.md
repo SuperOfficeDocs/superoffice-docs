@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobEntityId": 292
+  "BlobEntityId": 263
 }
 ```
 

@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brakus-Ledner",
+  "TableName": "Hartmann-Bode",
   "RecordIds": [
-    828,
-    260
+    574,
+    55
   ],
-  "AssociateId": 343,
-  "ExtraInfo": "non"
+  "AssociateId": 85,
+  "ExtraInfo": "ad"
 }
 ```
 

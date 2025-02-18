@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Batz, Walsh and Mayert",
+  "TableName": "Gottlieb, Ondricka and Cole",
   "RecordIds": [
-    269,
-    709
+    370,
+    838
   ],
-  "AssociateId": 620
+  "AssociateId": 265
 }
 ```
 

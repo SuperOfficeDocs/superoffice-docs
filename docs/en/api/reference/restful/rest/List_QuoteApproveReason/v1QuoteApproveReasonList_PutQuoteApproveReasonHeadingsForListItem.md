@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Swift-DuBuque",
-    "ToolTip": "Nesciunt aut.",
-    "Deleted": false,
-    "Rank": 742,
-    "Type": "nemo",
-    "ColorBlock": 784,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2000-04-02T12:01:33.6051097+02:00",
+    "Id": 692,
+    "Name": "Trantow, Parisian and Schaden",
+    "ToolTip": "Odit consequatur soluta incidunt ea.",
+    "Deleted": true,
+    "Rank": 856,
+    "Type": "sunt",
+    "ColorBlock": 827,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2004-01-25T14:32:12.8178844+01:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Prosacco-Predovic",
-        "ToolTip": "Aut numquam.",
+        "Id": 772,
+        "Name": "Kohler Group",
+        "ToolTip": "Officia non quae animi non.",
         "Deleted": false,
-        "Rank": 254,
-        "Type": "non",
-        "ColorBlock": 954,
-        "IconHint": "consequuntur",
+        "Rank": 420,
+        "Type": "libero",
+        "ColorBlock": 549,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2009-02-08T12:01:33.6051097+01:00",
+        "LastChanged": "2013-07-28T14:32:12.8178844+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "soluta",
+        "ExtraInfo": "aut",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Miss Liliane Fahey II"
+        "FullName": "Miss Edward Kim Langosh"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "qui",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Aubree Batz DVM"
+    "FullName": "Adriana Casper"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Von-Botsford",
-    "ToolTip": "Distinctio quos vel culpa culpa minus.",
-    "Deleted": false,
-    "Rank": 490,
-    "Type": "reiciendis",
-    "ColorBlock": 356,
-    "IconHint": "corrupti",
+    "Id": 877,
+    "Name": "Dare-Aufderhar",
+    "ToolTip": "Corporis incidunt aperiam corporis voluptatibus eaque autem.",
+    "Deleted": true,
+    "Rank": 656,
+    "Type": "eveniet",
+    "ColorBlock": 302,
+    "IconHint": "rem",
     "Selected": false,
-    "LastChanged": "2007-10-14T12:01:33.6051097+02:00",
+    "LastChanged": "2021-06-25T14:32:12.8178844+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Zemlak, Beer and Berge",
-        "ToolTip": "Et iure deserunt itaque esse aut.",
-        "Deleted": false,
-        "Rank": 680,
-        "Type": "quo",
-        "ColorBlock": 747,
-        "IconHint": "consequatur",
+        "Id": 234,
+        "Name": "Torphy, Ferry and Yundt",
+        "ToolTip": "Et fugit quo esse.",
+        "Deleted": true,
+        "Rank": 841,
+        "Type": "animi",
+        "ColorBlock": 465,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2016-04-25T12:01:33.6051097+02:00",
+        "LastChanged": "2016-05-20T14:32:12.8178844+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "et",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Lester Dietrich",
+        "FullName": "Arlene Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldType": "System.String",
+            "FieldLength": 132
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "itaque",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "illum",
     "Hidden": true,
-    "FullName": "Cyril Simonis",
+    "FullName": "Montana Diamond Lind PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 95
       }
     }
   }

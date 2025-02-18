@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 329,
-  "Name": "Lang, Will and Funk",
-  "Description": "Multi-layered attitude-oriented challenge",
-  "DeltaJson": "quia",
+  "ConfigurableScreenDeltaId": 936,
+  "Name": "Stehr-Anderson",
+  "Description": "Re-contextualized bottom-line productivity",
+  "DeltaJson": "non",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "voluptas",
-  "UpdatedDate": "2019-03-14T12:01:27.4471334+01:00",
-  "CreatedDate": "2002-10-10T12:01:27.4471334+02:00",
+  "RecipeId": "quis",
+  "UpdatedDate": "2016-03-05T14:32:02.2180587+01:00",
+  "CreatedDate": "2014-04-10T14:32:02.2180587+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    267,
-    731
+    698,
+    203
   ],
-  "AppliesToKey": "labore"
+  "AppliesToKey": "quae"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 537,
-  "Name": "Will-Rolfson",
-  "Description": "Centralized coherent infrastructure",
-  "DeltaJson": "labore",
+  "ConfigurableScreenDeltaId": 759,
+  "Name": "Jerde, Kihn and Hilll",
+  "Description": "Operative solution-oriented definition",
+  "DeltaJson": "vero",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2008-09-08T12:01:27.4471334+02:00",
-  "CreatedDate": "2020-07-01T12:01:27.4471334+02:00",
+  "RecipeId": "velit",
+  "UpdatedDate": "1998-10-19T14:32:02.2180587+02:00",
+  "CreatedDate": "2018-10-03T14:32:02.2180587+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    803,
-    980
+    88,
+    283
   ],
-  "AppliesToKey": "quidem",
+  "AppliesToKey": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 881
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

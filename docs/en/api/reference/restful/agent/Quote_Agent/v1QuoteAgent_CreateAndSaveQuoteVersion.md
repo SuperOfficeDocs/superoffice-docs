@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 571
+  "QuoteVersionId": 751
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 112,
-  "ERPQuoteVersionKey": "consectetur",
-  "QuoteId": 13,
-  "Description": "Balanced neutral interface",
-  "Number": "235835",
+  "QuoteVersionId": 387,
+  "ERPQuoteVersionKey": "quam",
+  "QuoteId": 341,
+  "Description": "Fundamental foreground neural-net",
+  "Number": "1050657",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 45,
-  "SentDate": "2020-12-02T12:01:28.1815588+01:00",
-  "FollowupId": 76,
-  "ExpirationDate": "2017-09-22T12:01:28.1815588+02:00",
-  "DeliveryCountryId": 462,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 14,
+  "LikelyQuoteAlternativeId": 804,
+  "SentDate": "2021-02-27T14:32:03.5460782+01:00",
+  "FollowupId": 285,
+  "ExpirationDate": "2020-09-17T14:32:03.5460782+02:00",
+  "DeliveryCountryId": 263,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 255,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "perferendis",
-  "ERPPaymentTypeKey": "non",
-  "ERPDeliveryTermsKey": "sit",
-  "ERPDeliveryTypeKey": "omnis",
-  "Rank": 826,
-  "ApprovedBy": 164,
-  "ApprovedText": "sed",
-  "ApprovedRegisteredBy": 879,
-  "ApprovedRegisteredDate": "2011-02-17T12:01:28.1815588+01:00",
-  "ExtraField1": "qui",
-  "ExtraField2": "laboriosam",
-  "ExtraField3": "nemo",
-  "ExtraField4": "hic",
-  "ExtraField5": "laudantium",
-  "LastRecalculated": "2020-11-03T12:01:28.1815588+01:00",
-  "Updated": "2022-08-05T12:01:28.1815588+02:00",
-  "UpdatedAssociateId": 523,
-  "Registered": "2017-06-21T12:01:28.1815588+02:00",
-  "RegisteredAssociateId": 666,
-  "RequestAssociateId": 828,
-  "RequestComment": "eligendi",
+  "ERPPaymentTermsKey": "commodi",
+  "ERPPaymentTypeKey": "vitae",
+  "ERPDeliveryTermsKey": "aspernatur",
+  "ERPDeliveryTypeKey": "aut",
+  "Rank": 364,
+  "ApprovedBy": 304,
+  "ApprovedText": "doloremque",
+  "ApprovedRegisteredBy": 438,
+  "ApprovedRegisteredDate": "2006-05-03T14:32:03.5460782+02:00",
+  "ExtraField1": "nam",
+  "ExtraField2": "ut",
+  "ExtraField3": "ea",
+  "ExtraField4": "voluptatibus",
+  "ExtraField5": "quo",
+  "LastRecalculated": "2011-12-19T14:32:03.5460782+01:00",
+  "Updated": "1998-06-26T14:32:03.5460782+02:00",
+  "UpdatedAssociateId": 273,
+  "Registered": "2016-01-05T14:32:03.5460782+01:00",
+  "RegisteredAssociateId": 959,
+  "RequestAssociateId": 37,
+  "RequestComment": "quis",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 495,
-      "ERPQuoteAlternativeKey": "praesentium",
-      "QuoteVersionId": 124,
-      "Name": "Schowalter Inc and Sons",
-      "Description": "Right-sized motivating infrastructure",
+      "QuoteAlternativeId": 451,
+      "ERPQuoteAlternativeKey": "sint",
+      "QuoteVersionId": 723,
+      "Name": "Donnelly, Friesen and Predovic",
+      "Description": "Business-focused disintermediate initiative",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16904.796,
-      "ERPDiscountAmount": 6797.646,
-      "DiscountPercent": 9862.698,
-      "DiscountAmount": 7690.8359999999993,
+      "ERPDiscountPercent": 19537.356,
+      "ERPDiscountAmount": 26996.275999999998,
+      "DiscountPercent": 17472.05,
+      "DiscountAmount": 3585.296,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "dolorem",
-      "VAT": 24075.388,
-      "EarningPercent": 10752.753999999999,
-      "EarningAmount": 29469.002,
-      "SubTotal": 21649.672,
-      "TotalPrice": 24699.054,
-      "ExtraField1": "eaque",
-      "ExtraField2": "ratione",
-      "ExtraField3": "et",
-      "ExtraField4": "eligendi",
-      "ExtraField5": "atque",
+      "VATInfo": "possimus",
+      "VAT": 2720.312,
+      "EarningPercent": 24078.522,
+      "EarningAmount": 18230.478,
+      "SubTotal": 2159.326,
+      "TotalPrice": 31189.568,
+      "ExtraField1": "error",
+      "ExtraField2": "illo",
+      "ExtraField3": "itaque",
+      "ExtraField4": "delectus",
+      "ExtraField5": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldLength": 406
     }
   }
 }

@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 337,
-  "ModuleOwner": "quos",
+  "AssociateId": 656,
+  "ModuleOwner": "dolorem",
   "ModuleLicenseNames": [
-    "Price-Nikolaus",
-    "McDermott LLC"
+    "Ritchie, Romaguera and Swift",
+    "Carroll, Gulgowski and Swift"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 124,
-    "Tooltip": "quia",
-    "CanAssign": false,
-    "Free": 481,
-    "InUse": 135,
+    "Total": 142,
+    "Tooltip": "odio",
+    "CanAssign": true,
+    "Free": 469,
+    "InUse": 768,
     "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 795,
-    "Name": "Stroman, Lind and Emmerich",
-    "Description": "Visionary bottom-line array",
-    "PrerequisiteModuleName": "Denesik-Rolfson",
-    "SortOrder": 335,
-    "ExtraFlags": 248,
+    "ModuleLicenseId": 597,
+    "Name": "Windler, Beahan and Altenwerth",
+    "Description": "Integrated 5th generation artificial intelligence",
+    "PrerequisiteModuleName": "Schaefer, Lebsack and Schmidt",
+    "SortOrder": 355,
+    "ExtraFlags": 308,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 300
       }
     }
   }

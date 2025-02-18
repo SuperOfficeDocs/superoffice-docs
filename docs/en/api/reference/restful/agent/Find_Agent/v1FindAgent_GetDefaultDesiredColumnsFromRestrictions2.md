@@ -173,8 +173,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Osinski-Rogahn",
-  "Restrictions": "a"
+  "ProviderName": "Howe, Okuneva and Herzog",
+  "Restrictions": "qui"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McDermott, Huels and Cruickshank",
-    "DisplayTooltip": "possimus",
-    "DisplayType": "et",
+    "DisplayName": "Thompson Inc and Sons",
+    "DisplayTooltip": "numquam",
+    "DisplayType": "qui",
     "CanOrderBy": false,
-    "Name": "Wolff, Friesen and Ritchie",
+    "Name": "Ortiz LLC",
     "CanRestrictBy": false,
-    "RestrictionType": "modi",
-    "RestrictionListName": "Veum, Green and Ryan",
+    "RestrictionType": "soluta",
+    "RestrictionListName": "Mraz, Johnson and Okuneva",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "voluptates",
-    "IconHint": "laboriosam",
-    "HeadingIconHint": "et"
+    "ExtraInfo": "eos",
+    "Width": "ea",
+    "IconHint": "numquam",
+    "HeadingIconHint": "qui"
   }
 ]
 ```

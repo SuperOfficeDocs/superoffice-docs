@@ -102,11 +102,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    65,
-    554
+    324,
+    445
   ],
-  "StartTime": "2006-08-15T12:01:27.0252114+02:00",
-  "EndTime": "1997-12-05T12:01:27.0252114+01:00"
+  "StartTime": "2017-01-04T14:32:01.6555155+01:00",
+  "EndTime": "2006-03-13T14:32:01.6555155+01:00"
 }
 ```
 
@@ -118,35 +118,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 601,
-    "AssociateId": 882,
-    "MotherId": 843,
-    "StartDate": "2024-12-16T12:01:27.0252114+01:00",
-    "EndDate": "1999-10-17T12:01:27.0252114+02:00",
+    "AppointmentId": 158,
+    "AssociateId": 28,
+    "MotherId": 720,
+    "StartDate": "2002-10-10T14:32:01.6555155+02:00",
+    "EndDate": "1999-05-10T14:32:01.6555155+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Rath-Dare",
-    "ContactName": "Robel, Ankunding and Leuschke",
-    "ProjectName": "Abbott, Hilll and Parker",
-    "Title": "nam",
-    "Agenda": "quaerat",
-    "IsAllDay": false,
+    "TaskName": "Little, McDermott and Howell",
+    "ContactName": "Kozey Inc and Sons",
+    "ProjectName": "Ryan Group",
+    "Title": "ipsam",
+    "Agenda": "expedita",
+    "IsAllDay": true,
     "IsBusy": false,
-    "IsRecurring": false,
-    "IsVideoMeeting": false,
+    "IsRecurring": true,
+    "IsVideoMeeting": true,
     "HasAlarm": false,
-    "IsCompleted": true,
+    "IsCompleted": false,
     "IsTentative": true,
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "SendEmail": false,
-    "AnySendEmail": true,
-    "IsPrivate": false,
+    "AnySendEmail": false,
+    "IsPrivate": true,
     "RecurrenceInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 205
       }
     }
   }

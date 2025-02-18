@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 793,
-    "Name": "Spencer Group",
-    "CurrencyId": 469,
-    "EnglishName": "Schuster-Vandervort",
+    "CountryId": 980,
+    "Name": "Boyer-Hartmann",
+    "CurrencyId": 516,
+    "EnglishName": "Fadel-Bailey",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Persistent methodical encryption",
-    "OrgNrText": "1032403",
-    "InterAreaPrefix": "veritatis",
-    "DialInPrefix": "voluptates",
-    "ZipPrefix": "in",
-    "DomainName": "Bruen-Cartwright",
-    "AddressLayoutId": 75,
-    "DomesticAddressLayoutId": 261,
-    "ForeignAddressLayoutId": 821,
-    "Rank": 894,
-    "Tooltip": "saepe",
-    "Deleted": false,
+    "ImageDescription": "Horizontal high-level adapter",
+    "OrgNrText": "70296",
+    "InterAreaPrefix": "illo",
+    "DialInPrefix": "corporis",
+    "ZipPrefix": "dolores",
+    "DomainName": "Halvorson-Rau",
+    "AddressLayoutId": 758,
+    "DomesticAddressLayoutId": 288,
+    "ForeignAddressLayoutId": 346,
+    "Rank": 760,
+    "Tooltip": "placeat",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 571
       }
     }
   }

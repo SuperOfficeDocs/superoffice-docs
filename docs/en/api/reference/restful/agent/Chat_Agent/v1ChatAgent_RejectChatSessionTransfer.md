@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 215
+  "ChatSessionId": 481
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 377,
-  "TopicId": 877,
+  "ChatSessionId": 388,
+  "TopicId": 159,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dicta",
-  "CustomerHost": "et",
-  "CustomerName": "Renner-Miller",
-  "CustomerEmail": "marietta.wehner@gibson.info",
-  "CustomerPhone": "682.436.5173",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Sanford, Stokes and Abshire",
+  "CustomerAlias": "nisi",
+  "CustomerHost": "quas",
+  "CustomerName": "Roberts Group",
+  "CustomerEmail": "clyde.klocko@mraz.us",
+  "CustomerPhone": "(869)549-3004 x16309",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Hane, Hauck and Kovacek",
   "Status": "Closed",
-  "FirstMessage": "culpa",
-  "LastMessage": "ipsum",
-  "WhenRequested": "1998-02-18T12:01:27.4158812+01:00",
-  "WhenStarted": "2001-02-19T12:01:27.4158812+01:00",
-  "WhenEnded": "2014-04-10T12:01:27.4158812+02:00",
-  "WhenIdle": "2019-07-08T12:01:27.4158812+02:00",
-  "WhenFetched": "2011-12-27T12:01:27.4158812+01:00",
-  "SessionKey": "pariatur",
-  "InitialQueuePos": 416,
-  "AlertLevel": 129,
-  "Rank": 809,
+  "FirstMessage": "autem",
+  "LastMessage": "tempora",
+  "WhenRequested": "2009-09-26T14:32:02.1711981+02:00",
+  "WhenStarted": "2017-01-22T14:32:02.1711981+01:00",
+  "WhenEnded": "2015-03-29T14:32:02.1711981+02:00",
+  "WhenIdle": "2016-09-01T14:32:02.1711981+02:00",
+  "WhenFetched": "2022-10-16T14:32:02.1711981+02:00",
+  "SessionKey": "tempora",
+  "InitialQueuePos": 403,
+  "AlertLevel": 914,
+  "Rank": 475,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 794,
+  "Rating": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 991
     }
   }
 }

@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 186,
-  "WorkflowId": 784,
+  "WorkflowGoalId": 926,
+  "WorkflowId": 565,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Towne-Nienow",
-      "Description": "Front-line coherent forecast",
-      "Rank": 363,
+      "Name": "Beer, Watsica and West",
+      "Description": "Exclusive foreground knowledge base",
+      "Rank": 544,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne-Nienow",
-      "Description": "Front-line coherent forecast",
-      "Rank": 363,
+      "Name": "Beer, Watsica and West",
+      "Description": "Exclusive foreground knowledge base",
+      "Rank": 544,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 514,
-  "WorkflowId": 830,
+  "WorkflowGoalId": 89,
+  "WorkflowId": 872,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Wilkinson, Blanda and Wuckert",
-      "Description": "Re-engineered empowering standardization",
-      "Rank": 538,
+      "Name": "Ward Inc and Sons",
+      "Description": "Synchronised didactic utilisation",
+      "Rank": 880,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wilkinson, Blanda and Wuckert",
-      "Description": "Re-engineered empowering standardization",
-      "Rank": 538,
+      "Name": "Ward Inc and Sons",
+      "Description": "Synchronised didactic utilisation",
+      "Rank": 880,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

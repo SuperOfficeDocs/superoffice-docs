@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 28,
-    "Name": "Ryan-Sauer",
-    "Description": "Fundamental human-resource portal",
+    "ProjectId": 476,
+    "Name": "Eichmann, Reynolds and Schowalter",
+    "Description": "Re-contextualized disintermediate synergy",
     "URL": "http://www.example.com/",
-    "Type": "distinctio",
-    "AssociateId": 893,
-    "AssociateFullName": "Shania Funk",
-    "TypeId": 879,
-    "Updated": "2010-09-14T12:01:28.1659327+02:00",
-    "StatusId": 754,
-    "Status": "optio",
-    "TextId": 438,
-    "PublishTo": "2024-04-27T12:01:28.1659327+02:00",
-    "PublishFrom": "1997-12-14T12:01:28.1659327+01:00",
-    "IsPublished": true,
+    "Type": "ullam",
+    "AssociateId": 783,
+    "AssociateFullName": "Brenda Leffler",
+    "TypeId": 479,
+    "Updated": "2017-11-26T14:32:03.5148359+01:00",
+    "StatusId": 764,
+    "Status": "vel",
+    "TextId": 848,
+    "PublishTo": "2008-03-14T14:32:03.5148359+01:00",
+    "PublishFrom": "2023-09-08T14:32:03.5148359+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "184998",
-    "ActiveErpLinks": 666,
+    "ProjectNumber": "1273093",
+    "ActiveErpLinks": 372,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 561
       }
     }
   }

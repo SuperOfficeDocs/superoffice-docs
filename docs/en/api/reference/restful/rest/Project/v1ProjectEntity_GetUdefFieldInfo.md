@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 930,
-  "ColumnId": 2,
-  "FieldDefault": "magni",
-  "FieldHeight": 389,
-  "FieldLabel": "fugit",
-  "FieldLeft": 459,
-  "FieldTop": 161,
+  "UDefFieldId": 131,
+  "ColumnId": 676,
+  "FieldDefault": "unde",
+  "FieldHeight": 53,
+  "FieldLabel": "totam",
+  "FieldLeft": 393,
+  "FieldTop": 36,
   "FieldType": "Checkbox",
-  "FieldWidth": 844,
-  "FormatMask": "necessitatibus",
+  "FieldWidth": 191,
+  "FormatMask": "non",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 719,
-  "LabelLeft": 898,
-  "LabelTop": 845,
-  "LabelWidth": 755,
-  "LastVersionId": 639,
-  "ListTableId": 766,
+  "IsIndexed": true,
+  "LabelHeight": 109,
+  "LabelLeft": 166,
+  "LabelTop": 177,
+  "LabelWidth": 950,
+  "LastVersionId": 629,
+  "ListTableId": 207,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "quisquam",
-  "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 284,
-  "TextLength": 977,
-  "Tooltip": "vel",
-  "UdefIdentity": 268,
-  "UDListDefinitionId": 955,
+  "Page1LineNo": 592,
+  "ProgId": "ullam",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptas",
+  "TabOrder": 853,
+  "TextLength": 890,
+  "Tooltip": "vitae",
+  "UdefIdentity": 79,
+  "UDListDefinitionId": 261,
   "Justification": "Center",
-  "Version": 540,
-  "TemplateVariableName": "Quigley-Corwin",
+  "Version": 726,
+  "TemplateVariableName": "Balistreri LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Kris Group",
+  "MdoListName": "DuBuque, Rutherford and Roberts",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 750
     }
   }
 }

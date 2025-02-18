@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=at
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=atque
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Bauch-Flatley",
-    "ToolTip": "Corrupti alias aliquam.",
+    "Id": 80,
+    "Name": "Schmitt Inc and Sons",
+    "ToolTip": "Odit maxime quidem a et modi.",
     "Deleted": true,
-    "Rank": 868,
-    "Type": "ut",
+    "Rank": 237,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Jaskolski, Lebsack and Kiehn",
-        "ToolTip": "Omnis soluta est laboriosam eos sit aut suscipit.",
+        "Id": 997,
+        "Name": "Fahey, Baumbach and Kessler",
+        "ToolTip": "Dolores asperiores qui voluptas dignissimos perferendis odit dicta.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "aliquid",
+        "Rank": 696,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 630,
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptatem",
-        "FullName": "Kiana Von",
+        "IconHint": "illo",
+        "ColorBlock": 435,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "pariatur",
+        "FullName": "Rebeca Dell Effertz III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 331
+            "FieldType": "System.String",
+            "FieldLength": 621
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 129,
-    "ExtraInfo": "aut",
-    "StyleHint": "expedita",
-    "FullName": "Aimee Effertz",
+    "IconHint": "saepe",
+    "ColorBlock": 445,
+    "ExtraInfo": "amet",
+    "StyleHint": "ducimus",
+    "FullName": "Bart Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 73
       }
     }
   }

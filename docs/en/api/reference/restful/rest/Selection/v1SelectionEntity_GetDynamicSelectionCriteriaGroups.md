@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abernathy-Gottlieb",
-    "Description": "Organized explicit contingency",
-    "Rank": 839,
+    "Name": "Stehr, Hamill and Luettgen",
+    "Description": "User-centric fault-tolerant framework",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
+        "Name": "Rutherford Group",
         "Operator": "iste",
         "Values": [
-          "atque",
-          "deserunt"
+          "rerum",
+          "et"
         ],
         "DisplayValues": [
-          "tenetur",
-          "doloremque"
+          "dolorem",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 578,
+        "InterParenthesis": 250,
         "InterOperator": "And",
-        "UniqueHash": 681
+        "UniqueHash": 724
       }
     ]
   },
   {
-    "Name": "Abernathy-Gottlieb",
-    "Description": "Organized explicit contingency",
-    "Rank": 839,
+    "Name": "Stehr, Hamill and Luettgen",
+    "Description": "User-centric fault-tolerant framework",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
+        "Name": "Rutherford Group",
         "Operator": "iste",
         "Values": [
-          "atque",
-          "deserunt"
+          "rerum",
+          "et"
         ],
         "DisplayValues": [
-          "tenetur",
-          "doloremque"
+          "dolorem",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 578,
+        "InterParenthesis": 250,
         "InterOperator": "And",
-        "UniqueHash": 681
+        "UniqueHash": 724
       }
     ]
   }

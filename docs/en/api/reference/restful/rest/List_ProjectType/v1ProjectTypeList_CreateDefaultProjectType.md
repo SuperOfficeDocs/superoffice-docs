@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Bechtelar Group",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 167,
-  "Rank": 665,
+  "Id": 948,
+  "Name": "Mohr, Bergstrom and Collins",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "UdListDefinitionId": 955,
+  "Rank": 9,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 186
     }
   }
 }

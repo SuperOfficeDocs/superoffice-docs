@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Leffler-Waelchi",
-    "SaleDate": "1999-12-05T12:01:28.2596899+01:00",
-    "SaleId": 659,
-    "Probability": 203,
-    "Title": "vel",
-    "Amount": 23128.92,
-    "Currency": "repellendus",
-    "ProjectName": "Mann Group",
-    "AssociateFullName": "Emie Schinner",
-    "Description": "Compatible needs-based model",
+    "ContactName": "Nienow Group",
+    "SaleDate": "2013-07-19T14:32:03.7022941+02:00",
+    "SaleId": 410,
+    "Probability": 757,
+    "Title": "sed",
+    "Amount": 19443.336,
+    "Currency": "neque",
+    "ProjectName": "Hyatt, Pouros and Bernier",
+    "AssociateFullName": "Mrs. Adaline Colleen Parker",
+    "Description": "Public-key 4th generation hardware",
     "Status": "Lost",
-    "WeightedAmount": 6236.66,
-    "ProjectId": 745,
-    "EarningPercent": 7825.598,
-    "Earning": 8135.864,
-    "ContactId": 896,
-    "AssociateId": 975,
-    "PersonId": 732,
-    "SaleTypeId": 869,
-    "SaleTypeName": "Gislason-Toy",
-    "PersonFullName": "Mrs. Kenna Rodriguez",
+    "WeightedAmount": 25015.588,
+    "ProjectId": 840,
+    "EarningPercent": 12874.472,
+    "Earning": 13899.289999999999,
+    "ContactId": 835,
+    "AssociateId": 308,
+    "PersonId": 711,
+    "SaleTypeId": 502,
+    "SaleTypeName": "Greenfelder LLC",
+    "PersonFullName": "Madie Pfannerstill",
     "Completed": "Completed",
-    "ActiveErpLinks": 15,
-    "NextDueDate": "1998-01-02T12:01:28.2596899+01:00",
-    "Number": "1510143",
+    "ActiveErpLinks": 874,
+    "NextDueDate": "2017-08-31T14:32:03.7022941+02:00",
+    "Number": "1473437",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 158
       }
     }
   }

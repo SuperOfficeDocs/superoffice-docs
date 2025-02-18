@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 649,
-  "ErpConnectorId": 724,
-  "DisplayName": "Wisozk-Glover",
-  "DisplayDescription": "Re-contextualized even-keeled model",
+  "ErpConnectionId": 550,
+  "ErpConnectorId": 578,
+  "DisplayName": "Ruecker, Ferry and Murazik",
+  "DisplayDescription": "Cross-group content-based knowledge base",
   "Active": true,
-  "ConnectionId": "recusandae",
-  "MostRecentTimestamp": "aut",
+  "ConnectionId": "doloremque",
+  "MostRecentTimestamp": "voluptas",
   "ConfigFields": {
-    "ConfigFields1": "cumque",
-    "ConfigFields2": "delectus"
+    "ConfigFields1": "voluptatem",
+    "ConfigFields2": "quia"
   },
   "Deleted": false,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    301,
-    937
+    590,
+    710
   ],
   "AssociateAccessIds": [
-    437,
-    424
+    447,
+    543
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 201
     }
   }
 }

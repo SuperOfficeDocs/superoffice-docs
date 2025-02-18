@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 142,
-    "Name": "Wiegand, Adams and Boyer",
+    "TicketStatusId": 601,
+    "Name": "Kovacek Group",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": false,
+    "NoEmailReopen": true,
+    "IsDefault": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 74
       }
     }
   }

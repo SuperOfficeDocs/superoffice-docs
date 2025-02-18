@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Johnson LLC",
-  "Tooltip": "blanditiis",
+  "Id": 766,
+  "Name": "Hamill-Tremblay",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 62,
-  "Rank": 64,
+  "UdListDefinitionId": 146,
+  "Rank": 904,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

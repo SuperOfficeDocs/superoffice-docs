@@ -69,7 +69,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 970,
-  "Name": "Shields-Cassin",
+  "ScreenChooserId": 796,
+  "Name": "Kirlin Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "facilis",
-  "Source": "dolorum",
-  "Registered": "2020-03-17T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 640,
-  "Updated": "2016-06-17T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 980,
+  "Enabled": true,
+  "UniqueIdentifier": "iste",
+  "Source": "tempora",
+  "Registered": "2009-02-10T14:32:12.2240348+01:00",
+  "RegisteredAssociateId": 815,
+  "Updated": "2022-07-25T14:32:12.2240348+02:00",
+  "UpdatedAssociateId": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 41
+      "FieldLength": 139
     }
   }
 }

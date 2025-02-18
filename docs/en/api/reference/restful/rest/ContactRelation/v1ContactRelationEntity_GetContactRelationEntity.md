@@ -99,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 13 Jul 2001 12:01:32 G7T
+Last-Modified: Mon, 11 Jul 2011 14:32:11 G7T
 
 {
-  "SourceContactId": 837,
-  "SourcePersonId": 925,
-  "DestinationContactId": 645,
-  "DestinationPersonId": 427,
-  "RelationId": 246,
-  "Comment": "possimus",
-  "RelationDefinitionId": 809,
-  "Reversed": 268,
-  "UpdatedDate": "2001-07-13T12:01:32.8394314+02:00",
-  "CreatedDate": "1999-01-25T12:01:32.8394314+01:00",
+  "SourceContactId": 403,
+  "SourcePersonId": 340,
+  "DestinationContactId": 328,
+  "DestinationPersonId": 514,
+  "RelationId": 521,
+  "Comment": "veritatis",
+  "RelationDefinitionId": 647,
+  "Reversed": 53,
+  "UpdatedDate": "2011-07-11T14:32:11.3815336+02:00",
+  "CreatedDate": "2019-08-07T14:32:11.3815336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Deckow-Johns",
-  "SourcePersonName": "Hahn, Powlowski and Roberts",
-  "DestinationContactName": "Senger-Jacobson",
-  "DestinationPersonName": "Gislason-Boyle",
-  "ActiveText": "ut",
-  "PassiveText": "aut",
+  "SourceContactName": "Spinka-Rau",
+  "SourcePersonName": "Wyman LLC",
+  "DestinationContactName": "Lockman-Rau",
+  "DestinationPersonName": "Stracke-Aufderhar",
+  "ActiveText": "consequuntur",
+  "PassiveText": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldLength": 301
     }
   },
   "_Links": {

@@ -87,12 +87,12 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "cora_rolfson@padberg.co.uk",
-  "Subject": "est",
-  "TemplateLanguage": "qui"
+  "EmailBody": "janice@wiegand.name",
+  "Subject": "ut",
+  "TemplateLanguage": "expedita"
 }
 ```
 
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 62
     }
   }
 }

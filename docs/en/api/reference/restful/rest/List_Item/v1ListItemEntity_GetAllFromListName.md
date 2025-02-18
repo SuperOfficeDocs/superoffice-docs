@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 195,
-    "Name": "O'Kon, Bradtke and Bogan",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "UdListDefinitionId": 211,
-    "Rank": 418,
+    "Id": 344,
+    "Name": "Kshlerin-Morar",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 478,
+    "Rank": 531,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 940
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

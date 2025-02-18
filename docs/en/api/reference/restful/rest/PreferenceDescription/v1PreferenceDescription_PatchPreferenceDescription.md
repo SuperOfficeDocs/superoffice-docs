@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "laborum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "laborum",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 838,
-  "Section": "et",
-  "Key": "ex",
-  "Name": "Swift-Dickens",
+  "PrefDescId": 459,
+  "Section": "fuga",
+  "Key": "omnis",
+  "Name": "Schinner LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized mission-critical intranet",
+  "Description": "Profit-focused foreground standardization",
   "IsBuiltin": false,
-  "TableName": "Rippin-Pacocha",
-  "UserDefinedListId": 730,
-  "Rank": 670,
-  "SubGroup": "voluptatibus",
-  "MinLevel": 46,
-  "MaxValue": 220,
-  "MinValue": 539,
-  "RequiredLicense": "rem",
+  "TableName": "Kuvalis, Turcotte and Quitzon",
+  "UserDefinedListId": 7,
+  "Rank": 108,
+  "SubGroup": "explicabo",
+  "MinLevel": 262,
+  "MaxValue": 572,
+  "MinValue": 55,
+  "RequiredLicense": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 766
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

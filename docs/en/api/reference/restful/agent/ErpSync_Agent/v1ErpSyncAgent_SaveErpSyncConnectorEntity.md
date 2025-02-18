@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 6,
-  "DisplayName": "Lubowitz, Bauch and Christiansen",
+  "ErpConnectorId": 70,
+  "DisplayName": "O'Kon, Crona and Shanahan",
   "URL": "http://www.example.com/",
   "Deleted": false
 }
@@ -89,8 +89,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 175,
-  "DisplayName": "Gerhold-Casper",
+  "ErpConnectorId": 929,
+  "DisplayName": "Kshlerin-Torp",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldLength": 699
     }
   }
 }

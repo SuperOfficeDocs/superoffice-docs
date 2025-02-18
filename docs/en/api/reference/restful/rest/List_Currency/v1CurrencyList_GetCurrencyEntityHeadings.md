@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Harris, Turcotte and Wolff",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 936,
+    "HeadingId": 375,
+    "Name": "Pacocha, Kutch and Gulgowski",
+    "Tooltip": "eveniet",
+    "Deleted": true,
+    "Rank": 993,
+    "UdListDefinitionId": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldType": "System.String",
+        "FieldLength": 534
       }
     }
   }

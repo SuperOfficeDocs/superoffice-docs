@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Jaskolski-Hudson",
-  "StorageKey": "et",
+  "StorageType": "et",
+  "ProviderName": "Weissnat Group",
+  "StorageKey": "aliquid",
   "ExtraRestrictions": [
     {
-      "Name": "Abshire LLC",
-      "Operator": "odit",
+      "Name": "Mueller-West",
+      "Operator": "inventore",
       "Values": [
-        "voluptatem",
-        "nam"
+        "in",
+        "hic"
       ],
       "DisplayValues": [
-        "dolorum",
-        "dolor"
+        "expedita",
+        "error"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 175,
+      "InterParenthesis": 759,
       "InterOperator": "And",
-      "UniqueHash": 366
+      "UniqueHash": 765
     }
   ],
   "OrderBy": [
     {
-      "Name": "Donnelly, Gutmann and Koss",
+      "Name": "Steuber Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Donnelly, Gutmann and Koss",
+      "Name": "Steuber Group",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "eum",
-    "quia"
+    "quod",
+    "praesentium"
   ],
-  "PageSize": 851,
-  "PageNumber": 561
+  "PageSize": 846,
+  "PageNumber": 312
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kilback, O'Kon and Waters",
-      "DisplayTooltip": "odio",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Ritchie, Ruecker and Brekke",
+      "DisplayName": "Balistreri, Turcotte and Skiles",
+      "DisplayTooltip": "unde",
+      "DisplayType": "nihil",
+      "CanOrderBy": false,
+      "Name": "Casper, Bergnaum and Hirthe",
       "CanRestrictBy": false,
-      "RestrictionType": "unde",
-      "RestrictionListName": "Nikolaus LLC",
+      "RestrictionType": "quasi",
+      "RestrictionListName": "Wehner, Littel and Stamm",
       "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "incidunt",
-      "IconHint": "omnis",
-      "HeadingIconHint": "ad"
+      "ExtraInfo": "voluptas",
+      "Width": "ratione",
+      "IconHint": "ipsum",
+      "HeadingIconHint": "veritatis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Buckridge, Swaniawski and Swaniawski",
-      "PrimaryKey": 253,
+      "EntityName": "Kemmer-Stehr",
+      "PrimaryKey": 49,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veritatis",
-          "TooltipHint": "ex",
-          "LinkHint": "delectus"
+          "DisplayValue": "aut",
+          "TooltipHint": "rem",
+          "LinkHint": "repellat"
         }
       },
-      "LinkHint": "possimus",
-      "StyleHint": "aliquid",
+      "LinkHint": "corporis",
+      "StyleHint": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 347
         }
       }
     }
   ],
-  "RowCount": 271,
+  "RowCount": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   }
 }

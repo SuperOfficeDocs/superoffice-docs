@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 70,
-  "ERPName": "Greenholt, Toy and Wiza",
-  "DisplayName": "Daniel Inc and Sons",
-  "DisplayDescription": "Configurable national alliance",
-  "Rank": 337,
-  "ConnectorName": "Shields LLC",
-  "ErpConnectionId": 770,
-  "ExtraData": "quo",
-  "IsAvailable": true,
+  "QuoteConnectionId": 353,
+  "ERPName": "Baumbach, Terry and Bruen",
+  "DisplayName": "Smith Group",
+  "DisplayDescription": "Virtual bottom-line groupware",
+  "Rank": 401,
+  "ConnectorName": "Kling, McGlynn and Kovacek",
+  "ErpConnectionId": 624,
+  "ExtraData": "et",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 844,
-      "ERPPriceListKey": "voluptatem",
-      "QuoteConnectionId": 959,
-      "Name": "Moore LLC",
-      "Description": "Secured grid-enabled workforce",
-      "Currency": "mollitia",
-      "CurrencyName": "Fahey, Johnston and Walsh",
-      "ValidFrom": "2012-06-17T12:01:28.1971849+02:00",
-      "ValidTo": "1997-12-18T12:01:28.1971849+01:00",
-      "IsActive": false,
+      "PriceListId": 918,
+      "ERPPriceListKey": "quo",
+      "QuoteConnectionId": 662,
+      "Name": "Hayes-Daugherty",
+      "Description": "Synergized encompassing challenge",
+      "Currency": "non",
+      "CurrencyName": "Blick Inc and Sons",
+      "ValidFrom": "1998-12-11T14:32:03.592943+01:00",
+      "ValidTo": "2016-09-03T14:32:03.592943+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldLength": 225
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": false,
+  "AllAccess": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    459,
-    871
+    760,
+    841
   ],
   "AssociateAccessIds": [
-    648,
-    859
+    498,
+    224
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldType": "System.String",
+      "FieldLength": 959
     }
   }
 }

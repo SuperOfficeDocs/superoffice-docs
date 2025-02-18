@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Wyman LLC",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 791,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 992,
+  "Name": "Lynch, Wisozk and Dickinson",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 377,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iusto",
+  "ListType": "officia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 631
+      "FieldLength": 104
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

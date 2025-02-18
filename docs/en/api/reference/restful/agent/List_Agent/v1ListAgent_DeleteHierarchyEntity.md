@@ -25,7 +25,7 @@ Deletes the HierarchyEntity
 | HierarchyEntityId | int32 | **Required** The id of the HierarchyEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=743
+POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=560
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/List/DeleteHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

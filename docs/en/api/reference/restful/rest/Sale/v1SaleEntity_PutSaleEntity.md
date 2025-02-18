@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "saepe",
+  "SaleText": "aut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-08-30T12:01:33.1675791+02:00",
-  "Amount": 7929.0199999999995,
-  "SaleId": 96,
-  "Earning": 28948.757999999998,
-  "EarningPercent": 11392.09,
-  "Heading": "enim",
-  "Number": "1685299",
-  "Probability": 102,
-  "CreatedDate": "2022-09-11T12:01:33.1675791+02:00",
-  "UpdatedDate": "2016-06-06T12:01:33.1675791+02:00",
+  "Saledate": "1998-11-26T14:32:11.9740918+01:00",
+  "Amount": 27723.363999999998,
+  "SaleId": 128,
+  "Earning": 25623.584,
+  "EarningPercent": 9950.4499999999989,
+  "Heading": "eius",
+  "Number": "1131060",
+  "Probability": 809,
+  "CreatedDate": "2013-07-11T14:32:11.9740918+02:00",
+  "UpdatedDate": "2010-07-19T14:32:11.9740918+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 870,
+  "ActiveLinks": 799,
   "Links": [
     {
-      "EntityName": "Pacocha Inc and Sons",
-      "Id": 822,
-      "Description": "Synchronised optimizing capability",
-      "ExtraInfo": "aut",
-      "LinkId": 894
+      "EntityName": "Mayer, Ullrich and Brakus",
+      "Id": 705,
+      "Description": "Automated radical conglomeration",
+      "ExtraInfo": "molestiae",
+      "LinkId": 511
     },
     {
-      "EntityName": "Pacocha Inc and Sons",
-      "Id": 822,
-      "Description": "Synchronised optimizing capability",
-      "ExtraInfo": "aut",
-      "LinkId": 894
+      "EntityName": "Mayer, Ullrich and Brakus",
+      "Id": 705,
+      "Description": "Automated radical conglomeration",
+      "ExtraInfo": "molestiae",
+      "LinkId": 511
     }
   ],
-  "NextDueDate": "2001-07-28T12:01:33.1675791+02:00",
-  "Postit": "facere",
+  "NextDueDate": "2022-02-07T14:32:11.9740918+01:00",
+  "Postit": "iste",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2021-11-16T12:01:33.1675791+01:00",
+  "ReopenDate": "2013-04-04T14:32:11.9740918+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Maggio, Grimes and Pfannerstill",
-      "Comment": "velit",
-      "StakeholderRoleId": 995,
-      "CountryId": 287,
-      "PersonId": 481,
-      "EmailDescription": "elfrieda@cristoreilly.biz",
-      "EmailId": 730,
-      "EmailAddress": "neha@tillman.biz",
-      "PhoneId": 972,
-      "ContactName": "Pacocha, Stokes and Monahan",
-      "ContactId": 428,
-      "SaleId": 213,
-      "Mrmrs": "possimus",
-      "Firstname": "Pierre",
-      "MiddleName": "Murray-Marvin",
-      "Lastname": "Haley",
-      "SaleStakeholderId": 136,
-      "Rank": 827,
-      "Phone": "226.378.7800"
+      "StakeholderRoleName": "West, Stiedemann and Rowe",
+      "Comment": "rerum",
+      "StakeholderRoleId": 103,
+      "CountryId": 9,
+      "PersonId": 670,
+      "EmailDescription": "angelita@rohanrohan.name",
+      "EmailId": 201,
+      "EmailAddress": "lulu@stamm.name",
+      "PhoneId": 924,
+      "ContactName": "Zboncak, Walsh and Casper",
+      "ContactId": 716,
+      "SaleId": 695,
+      "Mrmrs": "voluptatum",
+      "Firstname": "Ezra",
+      "MiddleName": "McGlynn Group",
+      "Lastname": "Kuhic",
+      "SaleStakeholderId": 96,
+      "Rank": 578,
+      "Phone": "1-043-919-0169"
     }
   ],
-  "ActiveErpLinks": 562,
+  "ActiveErpLinks": 489,
   "UserDefinedFields": {
-    "SuperOffice:1": "Joe Bechtelar",
-    "SuperOffice:2": "391585431"
+    "SuperOffice:1": "1808389261",
+    "SuperOffice:2": "Miss Salvatore Edyth Wolf"
   },
   "ExtraFields": {
-    "ExtraFields1": "ratione",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "illum",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2013-12-30T12:01:33.1675791+01:00",
-  "PublishTo": "2012-05-21T12:01:33.1675791+02:00",
-  "PublishFrom": "2003-02-16T12:01:33.1675791+01:00",
+  "PublishEventDate": "1998-09-30T14:32:11.9740918+02:00",
+  "PublishTo": "2015-12-30T14:32:11.9740918+01:00",
+  "PublishFrom": "2011-08-09T14:32:11.9740918+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 60,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "perferendis"
     },
     {
-      "VisibleId": 60,
+      "VisibleId": 259,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "perferendis"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sequi",
+  "SaleText": "ad",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-08-18T12:01:33.1675791+02:00",
-  "Amount": 30318.316,
-  "SaleId": 957,
-  "Earning": 13551.416,
-  "EarningPercent": 12285.279999999999,
-  "Heading": "nulla",
-  "Number": "155130",
-  "Probability": 627,
-  "CreatedDate": "2022-09-16T12:01:33.1675791+02:00",
-  "UpdatedDate": "2016-10-15T12:01:33.1675791+02:00",
+  "Saledate": "2011-12-15T14:32:11.9897134+01:00",
+  "Amount": 5923.26,
+  "SaleId": 317,
+  "Earning": 30794.683999999997,
+  "EarningPercent": 1375.826,
+  "Heading": "et",
+  "Number": "787203",
+  "Probability": 642,
+  "CreatedDate": "2021-01-12T14:32:11.9897134+01:00",
+  "UpdatedDate": "2007-10-06T14:32:11.9897134+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 107,
+  "ActiveLinks": 168,
   "Links": [
     {
-      "EntityName": "Okuneva, Blanda and Goodwin",
-      "Id": 6,
-      "Description": "Devolved multimedia intranet",
-      "ExtraInfo": "et",
-      "LinkId": 150,
+      "EntityName": "Reilly, Johns and Hane",
+      "Id": 744,
+      "Description": "Programmable value-added middleware",
+      "ExtraInfo": "nesciunt",
+      "LinkId": 712,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 29
         }
       }
     }
   ],
-  "NextDueDate": "2001-04-18T12:01:33.1675791+02:00",
-  "Postit": "blanditiis",
+  "NextDueDate": "2003-12-11T14:32:11.9897134+01:00",
+  "Postit": "qui",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-11-06T12:01:33.1675791+01:00",
+  "ReopenDate": "2019-03-31T14:32:11.9897134+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Olson Inc and Sons",
-      "Comment": "aut",
-      "StakeholderRoleId": 886,
-      "CountryId": 238,
-      "PersonId": 561,
-      "EmailDescription": "ernesto@mayer.uk",
-      "EmailId": 340,
-      "EmailAddress": "freda@gusikowski.info",
-      "PhoneId": 387,
-      "ContactName": "McCullough Inc and Sons",
-      "ContactId": 145,
-      "SaleId": 565,
-      "Mrmrs": "minima",
-      "Firstname": "Marian",
-      "MiddleName": "Heidenreich, Lockman and Kutch",
-      "Lastname": "Bailey",
-      "SaleStakeholderId": 319,
-      "Rank": 342,
-      "Phone": "(998)573-9153 x481",
+      "StakeholderRoleName": "Champlin-Erdman",
+      "Comment": "in",
+      "StakeholderRoleId": 234,
+      "CountryId": 85,
+      "PersonId": 359,
+      "EmailDescription": "madie@erdman.name",
+      "EmailId": 43,
+      "EmailAddress": "cydney.bernhard@gorczany.uk",
+      "PhoneId": 939,
+      "ContactName": "Greenholt Group",
+      "ContactId": 839,
+      "SaleId": 26,
+      "Mrmrs": "repellendus",
+      "Firstname": "Lelia",
+      "MiddleName": "VonRueden-Pfeffer",
+      "Lastname": "Mann",
+      "SaleStakeholderId": 780,
+      "Rank": 104,
+      "Phone": "813.651.6267 x391",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 209
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 726,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1365010398",
+    "SuperOffice:2": "Mrs. Elena Dane Abbott"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "rerum"
+  },
+  "CustomFields": {
+    "CustomFields1": "amet",
+    "CustomFields2": "et"
+  },
+  "PublishEventDate": "2005-06-03T14:32:11.9897134+02:00",
+  "PublishTo": "1999-05-26T14:32:11.9897134+02:00",
+  "PublishFrom": "2022-07-29T14:32:11.9897134+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 914,
+      "Visibility": "All",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 504
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 617,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1366083511"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "molestiae"
-  },
-  "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "voluptates"
-  },
-  "PublishEventDate": "2011-03-13T12:01:33.1675791+01:00",
-  "PublishTo": "2017-06-08T12:01:33.1675791+02:00",
-  "PublishFrom": "2005-01-21T12:01:33.1675791+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 318,
-      "Visibility": "All",
-      "DisplayValue": "ex",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 429
         }
       }
     },
     {
-      "VisibleId": 318,
+      "VisibleId": 914,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldType": "System.String",
+          "FieldLength": 429
         }
       }
     }
@@ -411,13 +411,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldType": "System.String",
+      "FieldLength": 182
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

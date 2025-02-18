@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "omnis"
+  "Section": "quo"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 119,
-    "Section": "cum",
-    "Key": "dolores",
-    "Name": "Hilpert Group",
+    "PrefDescId": 529,
+    "Section": "eligendi",
+    "Key": "officiis",
+    "Name": "Ryan LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Polarised client-driven strategy",
-    "IsBuiltin": true,
-    "TableName": "Marquardt, Kilback and Parisian",
-    "UserDefinedListId": 221,
-    "Rank": 807,
-    "SubGroup": "ut",
-    "MinLevel": 309,
-    "MaxValue": 961,
-    "MinValue": 181,
-    "RequiredLicense": "facere",
+    "Description": "Multi-lateral attitude-oriented secured line",
+    "IsBuiltin": false,
+    "TableName": "Reichert LLC",
+    "UserDefinedListId": 917,
+    "Rank": 239,
+    "SubGroup": "veritatis",
+    "MinLevel": 341,
+    "MaxValue": 862,
+    "MinValue": 894,
+    "RequiredLicense": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

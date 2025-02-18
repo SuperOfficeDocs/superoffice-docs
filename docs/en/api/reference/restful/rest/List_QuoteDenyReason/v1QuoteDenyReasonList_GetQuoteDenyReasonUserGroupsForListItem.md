@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Powlowski, Fisher and Boehm",
-    "ToolTip": "Asperiores cupiditate.",
+    "Id": 230,
+    "Name": "Ondricka-Roberts",
+    "ToolTip": "Nam ut.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "voluptate",
-    "ColorBlock": 182,
-    "IconHint": "et",
+    "Rank": 785,
+    "Type": "dolorem",
+    "ColorBlock": 24,
+    "IconHint": "quisquam",
     "Selected": true,
-    "LastChanged": "1999-05-18T12:01:33.6207356+02:00",
+    "LastChanged": "2024-10-21T14:32:12.833512+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Shanahan-Kautzer",
-        "ToolTip": "Eveniet consequatur placeat dolor mollitia eaque voluptates fugit.",
-        "Deleted": false,
-        "Rank": 460,
-        "Type": "qui",
-        "ColorBlock": 666,
-        "IconHint": "accusantium",
+        "Id": 783,
+        "Name": "Hand-Baumbach",
+        "ToolTip": "Illum accusantium debitis eveniet consequuntur.",
+        "Deleted": true,
+        "Rank": 684,
+        "Type": "quidem",
+        "ColorBlock": 143,
+        "IconHint": "in",
         "Selected": true,
-        "LastChanged": "2008-06-20T12:01:33.6207356+02:00",
+        "LastChanged": "2003-01-06T14:32:12.833512+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Jeffery Williamson Sr.",
+        "ExtraInfo": "quo",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Raphaelle Camylle Koepp MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 463
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "neque",
+    "ExtraInfo": "sint",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Miss Nicolette Deven Bode",
+    "FullName": "Adrianna Huels MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 496
       }
     }
   }

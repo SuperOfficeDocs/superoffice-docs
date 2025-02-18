@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Senger, Dietrich and Hammes",
-    "DisplayName": "Pollich, Hodkiewicz and Reinger",
-    "Description": "Object-based stable budgetary management",
-    "ShortLabel": "tenetur",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "FieldName": "Mohr, Stiedemann and Steuber",
+    "DisplayName": "Bogisich Group",
+    "Description": "Cloned assymetric moratorium",
+    "ShortLabel": "minima",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 852,
-    "TemplateVariableName": "Effertz-Swaniawski"
+    "IsDisplayField": true,
+    "Rank": 733,
+    "TemplateVariableName": "Watsica-Walker"
   }
 ]
 ```

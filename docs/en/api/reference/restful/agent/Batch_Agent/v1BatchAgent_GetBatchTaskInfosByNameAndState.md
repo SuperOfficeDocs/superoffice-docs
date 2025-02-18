@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmidt Inc and Sons",
+  "Name": "Leffler, Sauer and Hermiston",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Dickinson LLC",
-    "AssociateId": 253,
-    "DetailsTable": 286,
-    "DetailsRecord": 507,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 917,
+    "Name": "Nienow, Jerde and Barrows",
+    "AssociateId": 294,
+    "DetailsTable": 394,
+    "DetailsRecord": 862,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "voluptatem"
+      "ParameterObject1": "ducimus",
+      "ParameterObject2": "aliquid"
     },
-    "LastStarted": "2001-11-16T12:01:27.3533761+01:00",
-    "Created": "2010-08-21T12:01:27.3533761+02:00",
-    "StartCount": 32,
-    "DatabaseSerialNumber": "1378805",
-    "Context": "non",
-    "Result": "qui",
+    "LastStarted": "2018-03-31T14:32:02.0462229+02:00",
+    "Created": "2021-05-12T14:32:02.0462229+02:00",
+    "StartCount": 54,
+    "DatabaseSerialNumber": "592202",
+    "Context": "perferendis",
+    "Result": "aliquid",
     "State": "All",
-    "Description": "Secured explicit service-desk",
-    "Response": "est",
-    "Request": "officiis",
-    "ProgressDescription": "Persistent bifurcated adapter",
-    "ProgressPercent": 400,
-    "FileName": "Sanford, Walter and Green",
+    "Description": "Multi-tiered multi-state solution",
+    "Response": "velit",
+    "Request": "eos",
+    "ProgressDescription": "Ameliorated modular function",
+    "ProgressPercent": 154,
+    "FileName": "Harber LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 459
       }
     }
   }

@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Oct 2008 12:01:32 G10T
+Last-Modified: Sat, 12 Jan 2008 14:32:11 G1T
 
 {
-  "ForeignAppId": 217,
-  "Name": "Wyman, Waters and Predovic",
-  "CreatedDate": "2020-05-04T12:01:32.9175621+02:00",
-  "UpdatedDate": "2008-10-28T12:01:32.9175621+01:00",
+  "ForeignAppId": 947,
+  "Name": "Kiehn-Schulist",
+  "CreatedDate": "2006-09-01T14:32:11.5054468+02:00",
+  "UpdatedDate": "2008-01-12T14:32:11.5054468+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 814,
-      "Name": "Marvin, Kiehn and Welch",
-      "CreatedDate": "2013-01-12T12:01:32.9175621+01:00",
-      "UpdatedDate": "2006-01-30T12:01:32.9175621+01:00",
-      "AssociateFullName": "Napoleon Murray",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "explicabo",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 559,
+      "ForeignDeviceId": 915,
+      "Name": "Ziemann Inc and Sons",
+      "CreatedDate": "2010-09-13T14:32:11.5054468+02:00",
+      "UpdatedDate": "2020-10-03T14:32:11.5054468+02:00",
+      "AssociateFullName": "Lloyd Ward",
+      "CreatedBy": "doloremque",
+      "UpdatedBy": "veniam",
+      "DeviceIdentifier": "qui",
+      "ForeignAppId": 695,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 598
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Tue, 28 Oct 2008 12:01:32 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 652
     }
   }
 }

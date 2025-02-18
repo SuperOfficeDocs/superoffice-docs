@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Schroeder, Blanda and Stroman"
+  "EntityName": "Powlowski, Fay and Conn"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 556,
-  "Name": "Graham-Greenfelder",
-  "Description": "Reduced bandwidth-monitored hierarchy",
-  "DefaultHeight": 745,
-  "DefaultWidth": 148,
+  "DashboardTileDefinitionId": 245,
+  "Name": "Heaney-Rutherford",
+  "Description": "Business-focused global knowledge user",
+  "DefaultHeight": 309,
+  "DefaultWidth": 20,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Corwin, Mohr and Fahey",
-  "SelectionId": 342,
+  "EntityName": "Bergnaum, Russel and Funk",
+  "SelectionId": 649,
   "CurrencyMode": "Base",
-  "CurrencyCode": "corrupti",
+  "CurrencyCode": "nulla",
   "Measure": "Average",
-  "MeasureField": "quod",
-  "SortBy": "voluptatem",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 465,
-  "MeasureByField": "necessitatibus",
+  "MeasureField": "ut",
+  "SortBy": "praesentium",
+  "LayoutConfig": "deleniti",
+  "SecondarySelectionId": 775,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Huel-Crooks",
+  "ProviderName": "Ortiz, Zemlak and Jaskolski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

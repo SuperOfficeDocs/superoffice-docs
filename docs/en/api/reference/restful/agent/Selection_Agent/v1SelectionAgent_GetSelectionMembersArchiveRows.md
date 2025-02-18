@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 770,
-  "Select": "cum"
+  "SelectionId": 795,
+  "Select": "fuga"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kris, Hilll and Hammes",
-    "PrimaryKey": 654,
+    "EntityName": "Beahan-Barton",
+    "PrimaryKey": 519,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dicta",
-        "TooltipHint": "vitae",
-        "LinkHint": "cumque"
+        "DisplayValue": "accusamus",
+        "TooltipHint": "earum",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "repellendus",
-    "StyleHint": "recusandae",
+    "LinkHint": "soluta",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldType": "System.String",
+        "FieldLength": 272
       }
     }
   }

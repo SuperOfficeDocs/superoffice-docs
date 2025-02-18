@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2012-12-17T12:01:27.5877684+01:00",
-  "ToDate": "2019-05-09T12:01:27.5877684+02:00",
-  "SearchTerm": "dolor"
+  "FromDate": "1998-01-23T14:32:02.6242172+01:00",
+  "ToDate": "2019-03-19T14:32:02.6242172+01:00",
+  "SearchTerm": "nobis"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 948,
-    "AssocId": 954,
-    "Timestamp": "2007-12-30T12:01:27.5877684+01:00",
-    "ViewState": "non",
-    "AggregateCount": 724,
-    "AggregateBin": 597,
-    "Version": 197,
+    "WebAppUsageId": 121,
+    "AssocId": 613,
+    "Timestamp": "2011-04-28T14:32:02.6242172+02:00",
+    "ViewState": "aut",
+    "AggregateCount": 146,
+    "AggregateBin": 111,
+    "Version": 598,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

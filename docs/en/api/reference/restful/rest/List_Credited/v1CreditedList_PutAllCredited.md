@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Weissnat, Okuneva and Pagac",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 558
+    "Id": 363,
+    "Name": "Walter, Armstrong and Abshire",
+    "Tooltip": "iure",
+    "Deleted": true,
+    "UdListDefinitionId": 421,
+    "Rank": 751
   },
   {
-    "Id": 493,
-    "Name": "Weissnat, Okuneva and Pagac",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 558
+    "Id": 363,
+    "Name": "Walter, Armstrong and Abshire",
+    "Tooltip": "iure",
+    "Deleted": true,
+    "UdListDefinitionId": 421,
+    "Rank": 751
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Wolff Inc and Sons",
-    "Tooltip": "rerum",
-    "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 987,
+    "Id": 72,
+    "Name": "Hills LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 369,
+    "Rank": 851,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 552
       }
     }
   }

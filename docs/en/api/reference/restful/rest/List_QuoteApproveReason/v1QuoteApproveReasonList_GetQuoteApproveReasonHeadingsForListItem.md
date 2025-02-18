@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Cremin Group",
-    "ToolTip": "A qui iure.",
+    "Id": 500,
+    "Name": "Hammes-Lockman",
+    "ToolTip": "Sint dolorum a voluptatem dolores.",
     "Deleted": false,
-    "Rank": 15,
-    "Type": "et",
-    "ColorBlock": 739,
-    "IconHint": "et",
+    "Rank": 489,
+    "Type": "modi",
+    "ColorBlock": 883,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-09-13T12:01:33.6051097+02:00",
+    "LastChanged": "2016-09-08T14:32:12.8178844+02:00",
     "ChildItems": [
       {
-        "Id": 896,
-        "Name": "Weber-Hodkiewicz",
-        "ToolTip": "Quo minus.",
-        "Deleted": false,
-        "Rank": 190,
-        "Type": "magni",
-        "ColorBlock": 974,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "1998-08-07T12:01:33.6051097+02:00",
+        "Id": 818,
+        "Name": "Dietrich, Dare and Labadie",
+        "ToolTip": "Fugit rerum quia.",
+        "Deleted": true,
+        "Rank": 355,
+        "Type": "voluptas",
+        "ColorBlock": 56,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "1998-12-29T14:32:12.8178844+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "neque",
-        "Hidden": false,
-        "FullName": "Bart Wilderman",
+        "ExtraInfo": "dolor",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Mayra Antwon Parker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 232
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "distinctio",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Miss Kirk Gibson MD",
+    "FullName": "Odessa Homenick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 899
       }
     }
   }

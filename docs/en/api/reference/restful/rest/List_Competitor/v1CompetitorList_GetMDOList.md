@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=consequuntur
+GET /api/v1/List/Competitor/MDOItems?query=odit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Cartwright Inc and Sons",
-    "ToolTip": "Eius quidem deserunt.",
+    "Id": 824,
+    "Name": "McClure Group",
+    "ToolTip": "At distinctio quae ab molestias ad.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "voluptatibus",
+    "Rank": 600,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Kertzmann, Murazik and Stehr",
-        "ToolTip": "Et ab minima maxime minima quis eum mollitia.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "maxime",
+        "Id": 584,
+        "Name": "Nikolaus-Parisian",
+        "ToolTip": "Natus esse quisquam eum.",
+        "Deleted": true,
+        "Rank": 750,
+        "Type": "eum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 933,
-        "ExtraInfo": "id",
-        "StyleHint": "porro",
-        "FullName": "Miss Nona Destin Stokes MD",
+        "IconHint": "ratione",
+        "ColorBlock": 17,
+        "ExtraInfo": "non",
+        "StyleHint": "doloremque",
+        "FullName": "Trenton Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 467
+            "FieldType": "System.Int32",
+            "FieldLength": 903
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 731,
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "FullName": "Melvina Glover",
+    "IconHint": "praesentium",
+    "ColorBlock": 692,
+    "ExtraInfo": "est",
+    "StyleHint": "ut",
+    "FullName": "Reina Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 793
       }
     }
   }

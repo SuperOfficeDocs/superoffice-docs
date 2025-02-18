@@ -98,15 +98,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 291,
+  "Id": 861,
+  "Name": "Pagac, Conroy and Dickinson",
+  "Tooltip": "unde",
+  "Deleted": false,
+  "Rank": 440,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "ListType": "atque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Name": "Kub-Thompson",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 553,
-  "IsCustomList": true,
+  "Id": 291,
+  "Name": "Kautzer, Bayer and Schneider",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 542,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldLength": 522
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 577
+  "PersonId": 208
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 873,
-    "Comment": "aut",
-    "Registered": "2021-01-28T12:01:28.0878022+01:00",
-    "RegisteredAssociateId": 430,
-    "Updated": "2019-03-30T12:01:28.0878022+01:00",
-    "UpdatedAssociateId": 284,
-    "LegalBaseId": 926,
-    "LegalBaseKey": "tempore",
-    "LegalBaseName": "Conn Inc and Sons",
-    "ConsentPurposeId": 756,
-    "ConsentPurposeKey": "praesentium",
-    "ConsentPurposeName": "Padberg Group",
-    "ConsentSourceId": 289,
-    "ConsentSourceKey": "saepe",
-    "ConsentSourceName": "Senger, Leffler and Dach",
+    "ConsentPersonId": 668,
+    "Comment": "nihil",
+    "Registered": "1998-02-02T14:32:03.3742158+01:00",
+    "RegisteredAssociateId": 817,
+    "Updated": "2010-04-15T14:32:03.3742158+02:00",
+    "UpdatedAssociateId": 58,
+    "LegalBaseId": 575,
+    "LegalBaseKey": "nemo",
+    "LegalBaseName": "Nader-Fisher",
+    "ConsentPurposeId": 270,
+    "ConsentPurposeKey": "dolores",
+    "ConsentPurposeName": "Lemke Group",
+    "ConsentSourceId": 663,
+    "ConsentSourceKey": "nostrum",
+    "ConsentSourceName": "Bergnaum, Hoppe and Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 405
       }
     }
   }

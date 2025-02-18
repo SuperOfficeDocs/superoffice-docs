@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 314,
-  "Name": "Heller-Cummerata"
+  "SelectionId": 54,
+  "Name": "Kshlerin Group"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive directional conglomeration",
-  "Postit": "corrupti",
+  "Description": "Quality-focused methodical Graphic Interface",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 897,
-  "IncludePerson": 495,
+  "GroupIdx": 876,
+  "IncludePerson": 517,
   "MemberCount": 99.99,
-  "Name": "Pfannerstill, Nitzsche and Schaefer",
-  "PostitTextId": 454,
-  "CreatedDate": "2000-04-08T12:01:28.3065684+02:00",
-  "SelectionId": 863,
-  "SoundEx": "natus",
-  "Source": 881,
-  "TextId": 6,
-  "UpdatedDate": "2010-05-11T12:01:28.3065684+02:00",
-  "UpdatedCount": 254,
-  "Visibility": 261,
+  "Name": "Cassin-Connelly",
+  "PostitTextId": 554,
+  "CreatedDate": "2000-02-06T14:32:03.920995+01:00",
+  "SelectionId": 614,
+  "SoundEx": "id",
+  "Source": 897,
+  "TextId": 534,
+  "UpdatedDate": "2024-07-02T14:32:03.920995+02:00",
+  "UpdatedCount": 28,
+  "Visibility": 859,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 655,
-  "TargetTableName": "Pfannerstill Group",
+  "TargetTableNumber": 916,
+  "TargetTableName": "Gibson Group",
   "Completed": false,
-  "LeftSelectionId": 270,
-  "RightSelectionId": 477,
+  "LeftSelectionId": 410,
+  "RightSelectionId": 651,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Terry-Lang",
-  "ShadowProviderName": "Bernhard, Veum and Russel",
-  "ChartKey": "pariatur",
-  "LastLoaded": "2021-05-06T12:01:28.3065684+02:00",
-  "LastLoadedBy": 889,
+  "MainProviderName": "Denesik-Langosh",
+  "ShadowProviderName": "Upton, Purdy and Carter",
+  "ChartKey": "autem",
+  "LastLoaded": "2009-06-26T14:32:03.920995+02:00",
+  "LastLoadedBy": 887,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-09-10T12:01:28.3065684+02:00",
-  "LastMembershipChangeBy": 501,
+  "LastMembershipChange": "2000-11-29T14:32:03.920995+01:00",
+  "LastMembershipChangeBy": 851,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nesciunt",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "McDermott, Brakus and Pfeffer",
-  "DashboardTileDefinitionId": 609,
+  "MainHeading": "ut",
+  "MemberTabHeading": "quidem",
+  "MailingsProviderName": "Gibson Inc and Sons",
+  "DashboardTileDefinitionId": 551,
   "VisibleFor": [
     {
-      "VisibleId": 866,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 125
         }
       }
     },
     {
-      "VisibleId": 866,
+      "VisibleId": 448,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 125
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

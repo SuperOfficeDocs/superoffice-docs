@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Renner, Predovic and Hodkiewicz",
-    "ToolTip": "Est porro doloremque repellendus magnam voluptates dolorum perspiciatis.",
+    "Id": 541,
+    "Name": "Leannon-Kertzmann",
+    "ToolTip": "Voluptatem voluptatem culpa labore quis veniam voluptates.",
     "Deleted": false,
-    "Rank": 593,
-    "Type": "sunt",
-    "ColorBlock": 980,
-    "IconHint": "ut",
+    "Rank": 675,
+    "Type": "eos",
+    "ColorBlock": 739,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2001-01-07T12:01:33.448849+01:00",
+    "LastChanged": "2022-06-11T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Howell-Bogisich",
-        "ToolTip": "Consequatur maxime nobis omnis harum quia minus ad.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "deleniti",
-        "ColorBlock": 339,
-        "IconHint": "eos",
+        "Id": 167,
+        "Name": "Jast, Prosacco and Pollich",
+        "ToolTip": "Aut et voluptas.",
+        "Deleted": true,
+        "Rank": 583,
+        "Type": "dolorem",
+        "ColorBlock": 815,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2024-05-01T12:01:33.448849+02:00",
+        "LastChanged": "2023-08-24T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "et",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Miss Loraine Carrie Stoltenberg",
+        "FullName": "Dana Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 68
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Miss Merlin Ramon Ward",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Mrs. Dell Josiah Gibson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldLength": 181
       }
     }
   }

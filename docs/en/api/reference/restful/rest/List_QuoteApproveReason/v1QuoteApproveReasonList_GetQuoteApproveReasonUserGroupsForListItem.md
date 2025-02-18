@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Parisian, Schinner and Glover",
-    "ToolTip": "At voluptatem aliquam non possimus.",
-    "Deleted": false,
-    "Rank": 177,
-    "Type": "tempore",
-    "ColorBlock": 269,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2010-08-15T12:01:33.6051097+02:00",
+    "Id": 370,
+    "Name": "Corwin-Heidenreich",
+    "ToolTip": "Similique nesciunt ducimus voluptates.",
+    "Deleted": true,
+    "Rank": 914,
+    "Type": "corporis",
+    "ColorBlock": 607,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2022-08-31T14:32:12.8178844+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Towne-Rath",
-        "ToolTip": "Consequatur dolorem autem consequatur ut possimus autem sit.",
-        "Deleted": false,
-        "Rank": 49,
-        "Type": "rerum",
-        "ColorBlock": 701,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2006-05-05T12:01:33.6051097+02:00",
+        "Id": 353,
+        "Name": "Von LLC",
+        "ToolTip": "Odio velit.",
+        "Deleted": true,
+        "Rank": 825,
+        "Type": "et",
+        "ColorBlock": 546,
+        "IconHint": "deserunt",
+        "Selected": false,
+        "LastChanged": "2022-09-10T14:32:12.8178844+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Prof. Leola Breitenberg",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Lauryn Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldType": "System.String",
+            "FieldLength": 45
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "harum",
+    "ExtraInfo": "sint",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Ford Harvey",
+    "FullName": "Mr. Elenora Miller PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 834,
+  "DocId": 778,
   "AttachmentIds": [
-    "eius",
-    "officia"
+    "porro",
+    "quae"
   ],
   "IncludeAttachments": true
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 980,
-      "ContactName": "Hintz-Davis",
-      "PersonId": 576,
-      "PersonName": "Larkin, Bernier and Wyman",
-      "AssociateId": 761,
-      "Address": "est",
-      "EmailId": 611,
+      "ContactId": 726,
+      "ContactName": "Pacocha, Rippin and Morissette",
+      "PersonId": 218,
+      "PersonName": "Lind Group",
+      "AssociateId": 207,
+      "Address": "vitae",
+      "EmailId": 504,
       "DuplicatePersonIds": [
-        924,
-        509
+        32,
+        788
       ],
-      "Name": "Green-Kunde",
+      "Name": "Upton, Dicki and Mante",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 876
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 322,
-      "ContactName": "Mann, Hickle and Wisozk",
-      "PersonId": 990,
-      "PersonName": "Moore, Grady and Franecki",
-      "AssociateId": 427,
-      "Address": "tempore",
-      "EmailId": 443,
+      "ContactId": 818,
+      "ContactName": "Baumbach-Rowe",
+      "PersonId": 367,
+      "PersonName": "Feest-Roob",
+      "AssociateId": 885,
+      "Address": "velit",
+      "EmailId": 858,
       "DuplicatePersonIds": [
-        789,
-        1002
+        6,
+        498
       ],
-      "Name": "Weber-Paucek",
+      "Name": "Kshlerin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 404
+          "FieldLength": 7
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 30,
-      "ContactName": "D'Amore LLC",
-      "PersonId": 894,
-      "PersonName": "Gleichner, Cole and Stracke",
-      "AssociateId": 249,
-      "Address": "praesentium",
-      "EmailId": 586,
+      "ContactId": 357,
+      "ContactName": "Hickle-Rodriguez",
+      "PersonId": 439,
+      "PersonName": "Boehm, Will and D'Amore",
+      "AssociateId": 810,
+      "Address": "porro",
+      "EmailId": 474,
       "DuplicatePersonIds": [
-        850,
-        677
+        920,
+        534
       ],
-      "Name": "Hudson-Beahan",
+      "Name": "Wilkinson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 96
+          "FieldType": "System.Int32",
+          "FieldLength": 171
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "provident",
+  "Subject": "non",
+  "HTMLBody": "illum",
   "From": null,
-  "Sent": "2003-06-30T12:01:27.8377848+02:00",
-  "Size": 666,
+  "Sent": "2016-07-02T14:32:02.9366456+02:00",
+  "Size": 724,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "laboriosam",
-  "PlainBody": "quidem",
+  "MessageID": "sunt",
+  "PlainBody": "dignissimos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 64,
+  "ServerId": 450,
   "Attachments": [
     {
-      "Description": "Innovative human-resource projection",
-      "Filename": "eveniet",
-      "Size": 221,
-      "Type": "voluptates",
-      "Encoding": "dolorem",
-      "Id": "soluta",
-      "Disposition": "veniam",
-      "IsSafeFileExtension": true,
+      "Description": "Grass-roots non-volatile installation",
+      "Filename": "magnam",
+      "Size": 491,
+      "Type": "velit",
+      "Encoding": "distinctio",
+      "Id": "sunt",
+      "Disposition": "facere",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 310
+          "FieldLength": 483
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Zulauf Group",
+      "Name": "Steuber, Lowe and Boyle",
       "Values": [
-        "quaerat",
-        "possimus"
+        "aspernatur",
+        "labore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 231
         }
       }
     },
     {
-      "Name": "Zulauf Group",
+      "Name": "Steuber, Lowe and Boyle",
       "Values": [
-        "quaerat",
-        "possimus"
+        "aspernatur",
+        "labore"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 231
         }
       }
     }
   ],
-  "FolderName": "Smith LLC",
-  "EmailItemId": 238,
-  "AccountId": 809,
-  "ReceivedAt": "2020-10-25T12:01:27.8377848+01:00",
+  "FolderName": "Orn, Gislason and Romaguera",
+  "EmailItemId": 757,
+  "AccountId": 24,
+  "ReceivedAt": "2018-12-08T14:32:02.9366456+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-01-13T12:01:27.8377848+01:00",
+  "RepliedAt": "2022-08-31T14:32:02.9366456+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 792
     }
   }
 }

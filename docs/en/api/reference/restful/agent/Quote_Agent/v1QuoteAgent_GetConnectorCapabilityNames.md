@@ -72,7 +72,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 333
+  "QuoteConnectionId": 567
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "illo",
-  "et"
+  "voluptatem",
+  "aut"
 ]
 ```

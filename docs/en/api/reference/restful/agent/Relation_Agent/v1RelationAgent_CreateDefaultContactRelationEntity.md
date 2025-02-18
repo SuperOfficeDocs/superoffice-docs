@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 578,
-  "SourcePersonId": 811,
-  "DestinationContactId": 143,
-  "DestinationPersonId": 829,
-  "RelationId": 934,
-  "Comment": "est",
-  "RelationDefinitionId": 354,
-  "Reversed": 361,
-  "UpdatedDate": "2002-02-04T12:01:28.2128113+01:00",
-  "CreatedDate": "2014-02-21T12:01:28.2128113+01:00",
+  "SourceContactId": 565,
+  "SourcePersonId": 636,
+  "DestinationContactId": 588,
+  "DestinationPersonId": 358,
+  "RelationId": 586,
+  "Comment": "dolor",
+  "RelationDefinitionId": 226,
+  "Reversed": 3,
+  "UpdatedDate": "2003-05-01T14:32:03.6085662+02:00",
+  "CreatedDate": "2019-10-03T14:32:03.6085662+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Prohaska Group",
-  "SourcePersonName": "Fahey LLC",
-  "DestinationContactName": "Jenkins Group",
-  "DestinationPersonName": "Monahan-Nolan",
-  "ActiveText": "amet",
-  "PassiveText": "dolores",
+  "SourceContactName": "Gislason, Fahey and Beahan",
+  "SourcePersonName": "Kassulke-Gleichner",
+  "DestinationContactName": "Friesen LLC",
+  "DestinationPersonName": "Keebler Inc and Sons",
+  "ActiveText": "temporibus",
+  "PassiveText": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 270
     }
   }
 }

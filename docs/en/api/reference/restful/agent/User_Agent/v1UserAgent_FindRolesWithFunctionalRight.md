@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Daugherty, Wiza and Borer"
+  "FunctionalRightName": "Weimann, Runolfsson and Harvey"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Powlowski Inc and Sons",
-    "ToolTip": "Mollitia fugit reprehenderit voluptatem ratione qui.",
+    "Id": 787,
+    "Name": "Dickens Inc and Sons",
+    "ToolTip": "Sunt qui.",
     "Deleted": false,
-    "Rank": 252,
-    "Type": "ea",
+    "Rank": 775,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 338,
-        "Name": "Johnston-Hilll",
-        "ToolTip": "Saepe qui qui sed.",
+        "Id": 375,
+        "Name": "Dietrich Inc and Sons",
+        "ToolTip": "Mollitia consequatur in ea in.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "ipsum",
+        "Rank": 572,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 826,
-        "ExtraInfo": "dolores",
-        "StyleHint": "aut",
-        "FullName": "Giuseppe Boyer",
+        "IconHint": "quia",
+        "ColorBlock": 588,
+        "ExtraInfo": "delectus",
+        "StyleHint": "id",
+        "FullName": "Xavier Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldType": "System.Int32",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "IconHint": "magni",
+    "IconHint": "doloremque",
     "ColorBlock": 316,
-    "ExtraInfo": "eligendi",
-    "StyleHint": "eos",
-    "FullName": "Denis Lance Pfeffer Jr.",
+    "ExtraInfo": "a",
+    "StyleHint": "libero",
+    "FullName": "Verdie Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldType": "System.String",
+        "FieldLength": 849
       }
     }
   }

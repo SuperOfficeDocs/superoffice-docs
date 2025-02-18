@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 418,
-  "Year": 925,
-  "TargetDimensionId": 87
+  "UserGroupId": 416,
+  "Year": 258,
+  "TargetDimensionId": 635
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 831,
+    "TargetAssignmentInfoId": 794,
     "Values": [
-      7,
-      847
+      175,
+      522
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 215,
-    "DimensionListItemDisplayName": "Connelly, Dooley and Moore",
+    "DimensionListItem": 914,
+    "DimensionListItemDisplayName": "Mitchell, Schroeder and Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldType": "System.Int32",
+        "FieldLength": 244
       }
     }
   }

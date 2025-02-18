@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "aspernatur",
+      "RawValue": "neque",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "officia",
+      "DisplayTooltip": "perspiciatis",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 601,
-      "PrefDescId": 851,
-      "TableName": "Haley-Keeling",
-      "UserPreferenceId": 661
+      "TargetId": 401,
+      "PrefDescId": 121,
+      "TableName": "Haley, Oberbrunner and McLaughlin",
+      "UserPreferenceId": 773
     }
   ]
 }

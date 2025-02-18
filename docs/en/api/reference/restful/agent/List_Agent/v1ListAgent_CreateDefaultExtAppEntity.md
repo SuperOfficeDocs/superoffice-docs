@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 517,
-  "Name": "Bernhard-Sporer",
-  "Tooltip": "explicabo",
+  "ExtAppId": 168,
+  "Name": "Heathcote Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 304,
-  "Filename": "corrupti",
-  "Parameters": "magni",
-  "Workdir": "omnis",
+  "Rank": 793,
+  "Filename": "quia",
+  "Parameters": "aut",
+  "Workdir": "consequatur",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 570,
+  "Icon": 877,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consectetur",
+  "Path": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

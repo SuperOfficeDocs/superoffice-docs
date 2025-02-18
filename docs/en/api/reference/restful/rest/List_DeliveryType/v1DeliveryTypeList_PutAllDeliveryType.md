@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Nader-Ritchie",
-    "Tooltip": "totam",
+    "Id": 345,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 998,
-    "Rank": 840
+    "UdListDefinitionId": 296,
+    "Rank": 864
   },
   {
-    "Id": 694,
-    "Name": "Nader-Ritchie",
-    "Tooltip": "totam",
+    "Id": 345,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 998,
-    "Rank": 840
+    "UdListDefinitionId": 296,
+    "Rank": 864
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Wiza Group",
-    "Tooltip": "praesentium",
+    "Id": 240,
+    "Name": "Trantow, Hagenes and Hagenes",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 88,
-    "Rank": 324,
+    "UdListDefinitionId": 272,
+    "Rank": 2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 160
       }
     }
   }

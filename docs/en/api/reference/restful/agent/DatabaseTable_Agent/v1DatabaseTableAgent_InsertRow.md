@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kohler, Weber and Donnelly",
+  "TableName": "Becker-Zemlak",
   "Values": {
-    "Values1": "consectetur",
-    "Values2": "molestiae"
+    "Values1": "harum",
+    "Values2": "et"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-288
+806
 ```

@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 261,
-  "Name": "Batz, Erdman and Waelchi",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 519,
-  "UdListDefinitionId": 304
+  "HeadingId": 31,
+  "Name": "Rice, McLaughlin and Berge",
+  "Tooltip": "odit",
+  "Deleted": false,
+  "Rank": 930,
+  "UdListDefinitionId": 239
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 802,
-  "Name": "Schamberger Group",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "Rank": 759,
-  "UdListDefinitionId": 165,
+  "HeadingId": 66,
+  "Name": "Kautzer, Armstrong and Feest",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 605,
+  "UdListDefinitionId": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldType": "System.String",
+      "FieldLength": 242
     }
   }
 }

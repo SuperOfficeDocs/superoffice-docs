@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermiston Group",
-  "AdditionalInfo": "accusantium",
+  "Name": "Satterfield-Veum",
+  "AdditionalInfo": "voluptatem",
   "SelectableMDOList": [
     {
-      "Id": 637,
-      "Name": "Adams LLC",
-      "ToolTip": "Veritatis sit dicta culpa dicta sed veniam deleniti.",
+      "Id": 50,
+      "Name": "Marquardt, Wisozk and Mayert",
+      "ToolTip": "Numquam ut sint aliquam ad nisi necessitatibus molestiae.",
       "Deleted": true,
-      "Rank": 30,
-      "Type": "temporibus",
-      "ColorBlock": 380,
-      "IconHint": "quasi",
-      "Selected": true,
-      "LastChanged": "2009-11-27T12:01:28.0096725+01:00",
+      "Rank": 234,
+      "Type": "similique",
+      "ColorBlock": 508,
+      "IconHint": "adipisci",
+      "Selected": false,
+      "LastChanged": "2019-06-26T14:32:03.23365+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "iusto",
+      "ExtraInfo": "illo",
+      "StyleHint": "illo",
       "Hidden": false,
-      "FullName": "Russel Beer"
+      "FullName": "Georgette Ritchie"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Goldner-Quitzon",
-    "ToolTip": "Magnam quae omnis et libero.",
+    "Id": 347,
+    "Name": "Corkery LLC",
+    "ToolTip": "Sit est laborum sit non facilis.",
     "Deleted": true,
-    "Rank": 393,
-    "Type": "enim",
-    "ColorBlock": 193,
-    "IconHint": "eligendi",
+    "Rank": 697,
+    "Type": "quia",
+    "ColorBlock": 566,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "1998-08-07T12:01:28.0096725+02:00",
+    "LastChanged": "2023-12-02T14:32:03.23365+01:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Barrows, Thiel and Kirlin",
-        "ToolTip": "Ad qui eligendi qui quod porro.",
-        "Deleted": true,
-        "Rank": 423,
-        "Type": "ullam",
-        "ColorBlock": 246,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2018-05-11T12:01:28.0096725+02:00",
+        "Id": 212,
+        "Name": "Stiedemann, Emard and Zulauf",
+        "ToolTip": "Et non.",
+        "Deleted": false,
+        "Rank": 198,
+        "Type": "expedita",
+        "ColorBlock": 502,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2011-05-12T14:32:03.23365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "officia",
+        "ExtraInfo": "sunt",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Dudley Smitham",
+        "FullName": "Clotilde Kunze",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 285
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "ea",
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Guillermo Romaguera",
+    "FullName": "Mr. Neva Huels V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

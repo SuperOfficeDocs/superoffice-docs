@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 288
+  "QuoteVersionId": 653
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 205,
-    "ERPQuoteAlternativeKey": "deleniti",
-    "QuoteVersionId": 147,
-    "Name": "Huels-Pagac",
-    "Description": "Customizable impactful instruction set",
+    "QuoteAlternativeId": 594,
+    "ERPQuoteAlternativeKey": "veritatis",
+    "QuoteVersionId": 122,
+    "Name": "Jerde-Breitenberg",
+    "Description": "Optimized maximized synergy",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 8530.748,
-    "ERPDiscountAmount": 739.624,
-    "DiscountPercent": 12382.434,
-    "DiscountAmount": 1219.126,
+    "ERPDiscountPercent": 25745.809999999998,
+    "ERPDiscountAmount": 29744.793999999998,
+    "DiscountPercent": 25886.84,
+    "DiscountAmount": 15648.062,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "minus",
-    "VAT": 3428.596,
-    "EarningPercent": 8574.624,
-    "EarningAmount": 29531.682,
-    "SubTotal": 2466.458,
-    "TotalPrice": 7280.282,
-    "ExtraField1": "tempore",
-    "ExtraField2": "illum",
-    "ExtraField3": "eos",
-    "ExtraField4": "rerum",
-    "ExtraField5": "pariatur",
+    "VATInfo": "qui",
+    "VAT": 15077.673999999999,
+    "EarningPercent": 7242.674,
+    "EarningAmount": 26482.3,
+    "SubTotal": 4412.672,
+    "TotalPrice": 9464.68,
+    "ExtraField1": "incidunt",
+    "ExtraField2": "et",
+    "ExtraField3": "ullam",
+    "ExtraField4": "ab",
+    "ExtraField5": "magni",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 372
       }
     }
   }

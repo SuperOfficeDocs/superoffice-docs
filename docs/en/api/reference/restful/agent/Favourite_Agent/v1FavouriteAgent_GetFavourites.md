@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Zulauf, Sipes and Keeling",
-  "AssociateId": 211
+  "TableName": "Kihn Group",
+  "AssociateId": 943
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Douglas-Ward",
-    "RecordId": 553,
-    "AssociateId": 729,
-    "ExtraInfo": "saepe",
-    "Rank": 792,
+    "TableName": "Fadel-Toy",
+    "RecordId": 897,
+    "AssociateId": 608,
+    "ExtraInfo": "quo",
+    "Rank": 760,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 707
+        "FieldType": "System.Int32",
+        "FieldLength": 302
       }
     }
   }

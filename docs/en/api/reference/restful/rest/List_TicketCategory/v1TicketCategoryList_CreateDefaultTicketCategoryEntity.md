@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 339,
-  "ParentId": 310,
-  "Name": "Parisian, Beier and Watsica",
-  "Fullname": "repellat",
-  "CategoryMaster": 566,
+  "TicketCategoryId": 152,
+  "ParentId": 275,
+  "Name": "Pagac, Johns and Bradtke",
+  "Fullname": "nostrum",
+  "CategoryMaster": 157,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Bartoletti-Zemlak",
+  "ExternalName": "Hamill, Schmidt and Stanton",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 32,
-  "ReplyTemplate": 366,
-  "NotificationEmail": "webster@senger.com",
+  "AssignmentLag": 203,
+  "ReplyTemplate": 141,
+  "NotificationEmail": "donny@okeefe.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 931,
+  "EffectiveReplyTemplateId": 81,
   "ExtraFields": {
     "ExtraFields1": "quia",
-    "ExtraFields2": "mollitia"
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "nam"
+    "CustomFields1": "eius",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldLength": 700
     }
   }
 }

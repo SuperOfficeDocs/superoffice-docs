@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 274,
+  "ErpConnectionId": 280,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 314,
-      "CrmFieldKey": "veritatis",
-      "CrmDisplayName": "Berge Inc and Sons",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "expedita",
+      "ErpFieldId": 820,
+      "CrmFieldKey": "voluptatem",
+      "CrmDisplayName": "Paucek, Beatty and Pacocha",
+      "CrmDisplayTooltip": "vel",
+      "ErpFieldKey": "tempore",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Fritsch Inc and Sons",
-      "ErpDisplayTooltip": "ullam",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Lynch Group",
+      "ErpDisplayTooltip": "error",
+      "SyncToCrm": false,
       "SyncToErp": true,
       "ShowInGui": false,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "quod",
+      "ListReference": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 25
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldLength": 456
     }
   }
 }

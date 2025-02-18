@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/SystemEvent?$select=name,department,category/id
 GET /api/v1/SystemEvent?$filter=name begins 'S'
 GET /api/v1/SystemEvent?$orderBy=name asc
-GET /api/v1/SystemEvent?$entities=iure
-GET /api/v1/SystemEvent?$top=969
-GET /api/v1/SystemEvent?$skip=51
+GET /api/v1/SystemEvent?$entities=impedit
+GET /api/v1/SystemEvent?$top=706
+GET /api/v1/SystemEvent?$skip=82
 GET /api/v1/SystemEvent?$mode=Full
 GET /api/v1/SystemEvent?$options=GrandTotal=true
-GET /api/v1/SystemEvent?$context=et
+GET /api/v1/SystemEvent?$context=repellendus
 GET /api/v1/SystemEvent?$format=JSON
 GET /api/v1/SystemEvent?$jsonSafe=False
 GET /api/v1/SystemEvent?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nihil",
+  "odata.nextLink": "cum",
   "value": [
     {
-      "PrimaryKey": 4664,
-      "EntityName": "person",
-      "personId": 4664,
-      "fullName": "Marcelo Bruen"
+      "PrimaryKey": 9001,
+      "EntityName": "sale",
+      "saleId": 9001,
+      "contactId": 3566,
+      "name": "Windler LLC"
     },
     {
-      "PrimaryKey": 6309,
-      "EntityName": "person",
-      "personId": 6309,
-      "fullName": "Miss Mia Cleo Dietrich"
+      "PrimaryKey": 409,
+      "EntityName": "sale",
+      "saleId": 409,
+      "contactId": 9711,
+      "name": "Stehr Group"
     }
   ]
 }

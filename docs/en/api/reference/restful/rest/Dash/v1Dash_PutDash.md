@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 587,
-  "UniqueId": "sed",
-  "Name": "Walter-Veum",
-  "Description": "Face to face disintermediate workforce",
-  "AssociateId": 367,
-  "Columns": 615,
+  "DashboardId": 568,
+  "UniqueId": "repellendus",
+  "Name": "Hammes LLC",
+  "Description": "Optimized scalable attitude",
+  "AssociateId": 652,
+  "Columns": 770,
   "Theme": null,
-  "VisibleForAll": 482,
+  "VisibleForAll": 315,
   "VisibleForAssociates": [
-    470,
-    513
+    21,
+    429
   ],
   "VisibleForGroups": [
-    207,
-    713
+    686,
+    849
   ],
-  "PinForAll": 162,
+  "PinForAll": 239,
   "PinForAssociates": [
-    829,
-    984
+    719,
+    645
   ],
   "PinForGroups": [
-    429,
-    321
+    74,
+    527
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 76,
-  "UniqueId": "aut",
-  "Name": "Conn, Batz and Hyatt",
-  "Description": "Polarised bandwidth-monitored capacity",
-  "AssociateId": 484,
-  "Columns": 367,
+  "DashboardId": 991,
+  "UniqueId": "vitae",
+  "Name": "McDermott Inc and Sons",
+  "Description": "Expanded uniform core",
+  "AssociateId": 490,
+  "Columns": 309,
   "Theme": null,
-  "VisibleForAll": 800,
+  "VisibleForAll": 562,
   "VisibleForAssociates": [
-    606,
-    460
+    682,
+    553
   ],
   "VisibleForGroups": [
-    755,
-    152
+    511,
+    106
   ],
-  "PinForAll": 795,
+  "PinForAll": 341,
   "PinForAssociates": [
-    778,
-    314
+    991,
+    898
   ],
   "PinForGroups": [
-    384,
-    210
+    81,
+    466
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 477
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

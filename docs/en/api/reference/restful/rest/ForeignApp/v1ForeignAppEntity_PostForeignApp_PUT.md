@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 112,
-  "Name": "Parisian, Leuschke and Wilderman",
-  "CreatedDate": "2005-04-13T12:01:32.9019357+02:00",
-  "UpdatedDate": "2011-10-27T12:01:32.9019357+02:00",
+  "ForeignAppId": 569,
+  "Name": "Fay, Bauch and Glover",
+  "CreatedDate": "2020-10-01T14:32:11.4898248+02:00",
+  "UpdatedDate": "2014-12-20T14:32:11.4898248+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 449,
-      "Name": "Bruen-Conn",
-      "CreatedDate": "2019-04-14T12:01:32.9019357+02:00",
-      "UpdatedDate": "2018-09-16T12:01:32.9019357+02:00",
-      "AssociateFullName": "Fannie Wunsch",
-      "CreatedBy": "iusto",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "sint",
-      "ForeignAppId": 527,
+      "ForeignDeviceId": 455,
+      "Name": "Reichel Inc and Sons",
+      "CreatedDate": "2005-02-10T14:32:11.5054468+01:00",
+      "UpdatedDate": "2013-01-07T14:32:11.5054468+01:00",
+      "AssociateFullName": "Clotilde Koepp",
+      "CreatedBy": "sit",
+      "UpdatedBy": "rerum",
+      "DeviceIdentifier": "mollitia",
+      "ForeignAppId": 864,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldType": "System.String",
+          "FieldLength": 320
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 914
     }
   }
 }

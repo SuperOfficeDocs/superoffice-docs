@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 593,
-      "ContactName": "Jenkins Inc and Sons",
-      "PersonId": 177,
-      "PersonName": "Farrell-Dooley",
-      "AssociateId": 778,
-      "Address": "dignissimos",
-      "EmailId": 745,
+      "ContactId": 412,
+      "ContactName": "Bernhard-Kuhlman",
+      "PersonId": 20,
+      "PersonName": "Reinger, Mosciski and Harber",
+      "AssociateId": 716,
+      "Address": "ipsum",
+      "EmailId": 70,
       "DuplicatePersonIds": [
-        797,
-        751
+        569,
+        207
       ],
-      "Name": "Lynch-Gleason",
+      "Name": "Beatty-Abernathy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldType": "System.Int32",
+          "FieldLength": 553
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 969,
-      "ContactName": "Abernathy, Bogisich and Cronin",
-      "PersonId": 78,
-      "PersonName": "Spencer, Sawayn and Price",
-      "AssociateId": 860,
-      "Address": "dolores",
-      "EmailId": 238,
+      "ContactId": 16,
+      "ContactName": "Dooley-Abbott",
+      "PersonId": 549,
+      "PersonName": "Schmitt-Hermiston",
+      "AssociateId": 204,
+      "Address": "corporis",
+      "EmailId": 157,
       "DuplicatePersonIds": [
-        108,
-        988
+        157,
+        651
       ],
-      "Name": "Spinka LLC",
+      "Name": "Stehr, Shanahan and Klein",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 541
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 786,
-      "ContactName": "Mills Group",
-      "PersonId": 132,
-      "PersonName": "Gutkowski LLC",
-      "AssociateId": 93,
-      "Address": "facilis",
-      "EmailId": 732,
+      "ContactId": 911,
+      "ContactName": "Ritchie-Kassulke",
+      "PersonId": 742,
+      "PersonName": "Torp Group",
+      "AssociateId": 668,
+      "Address": "dignissimos",
+      "EmailId": 794,
       "DuplicatePersonIds": [
-        87,
-        38
+        62,
+        15
       ],
-      "Name": "Jacobi Group",
+      "Name": "Okuneva, Cronin and Ratke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldLength": 34
         }
       }
     }
   ],
-  "Subject": "quis",
-  "HTMLBody": "fugiat",
+  "Subject": "porro",
+  "HTMLBody": "non",
   "From": null,
-  "Sent": "2011-09-05T12:01:27.7752804+02:00",
-  "Size": 710,
+  "Sent": "2022-06-15T14:32:02.7960532+02:00",
+  "Size": 353,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "corporis",
-  "PlainBody": "cumque",
-  "IsSent": false,
+  "MessageID": "sint",
+  "PlainBody": "ad",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 426,
+  "ServerId": 302,
   "Attachments": [
     {
-      "Description": "Optional tangible capacity",
-      "Filename": "cumque",
-      "Size": 958,
-      "Type": "sed",
-      "Encoding": "sed",
-      "Id": "quo",
-      "Disposition": "alias",
-      "IsSafeFileExtension": false,
+      "Description": "Sharable human-resource workforce",
+      "Filename": "labore",
+      "Size": 325,
+      "Type": "maxime",
+      "Encoding": "doloribus",
+      "Id": "ex",
+      "Disposition": "asperiores",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 782
+          "FieldType": "System.Int32",
+          "FieldLength": 65
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Tromp LLC",
+      "Name": "Leannon-Cummings",
       "Values": [
-        "quo",
-        "qui"
+        "aut",
+        "temporibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     },
     {
-      "Name": "Tromp LLC",
+      "Name": "Leannon-Cummings",
       "Values": [
-        "quo",
-        "qui"
+        "aut",
+        "temporibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 404
         }
       }
     }
   ],
-  "FolderName": "Hamill, Daniel and Wilkinson",
-  "EmailItemId": 88,
-  "AccountId": 30,
-  "ReceivedAt": "2015-01-03T12:01:27.7752804+01:00",
+  "FolderName": "Armstrong-Waelchi",
+  "EmailItemId": 249,
+  "AccountId": 890,
+  "ReceivedAt": "2019-05-27T14:32:02.7960532+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-07-10T12:01:27.7752804+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2003-04-19T14:32:02.7960532+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldLength": 599
     }
   }
 }

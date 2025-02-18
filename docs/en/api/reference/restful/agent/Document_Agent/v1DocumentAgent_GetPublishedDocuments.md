@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    503,
-    755
+    82,
+    628
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 267,
-    "Attention": "unde",
-    "Header": "et",
-    "Name": "Ondricka-Carroll",
-    "OurRef": "ipsum",
-    "YourRef": "est",
-    "Description": "Exclusive composite internet solution",
-    "DocumentTemplate": "odio",
-    "IsPublished": true,
-    "PersonId": 157,
-    "PersonFullName": "Erin Auer",
-    "AssociateFullName": "Jordi Davis",
-    "ContactId": 908,
-    "ContactName": "Daugherty LLC",
-    "ProjectId": 968,
-    "ProjectName": "Carroll, Bernhard and Rippin",
-    "AssociateId": 913,
-    "Snum": 765,
-    "SaleId": 816,
-    "SaleName": "Pfeffer Inc and Sons",
+    "DocumentId": 683,
+    "Attention": "veniam",
+    "Header": "aut",
+    "Name": "Sporer-Kling",
+    "OurRef": "itaque",
+    "YourRef": "nesciunt",
+    "Description": "De-engineered reciprocal function",
+    "DocumentTemplate": "et",
+    "IsPublished": false,
+    "PersonId": 152,
+    "PersonFullName": "Ms. Laurianne Abdullah McKenzie",
+    "AssociateFullName": "Madalyn Graham",
+    "ContactId": 915,
+    "ContactName": "Gutmann, Wuckert and Cassin",
+    "ProjectId": 588,
+    "ProjectName": "Hauck, Conroy and Quitzon",
+    "AssociateId": 393,
+    "Snum": 53,
+    "SaleId": 390,
+    "SaleName": "Metz-Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldType": "System.Int32",
+        "FieldLength": 237
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 214,
-  "Year": 623,
+  "TargetGroupId": 52,
+  "Year": 370,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 352,
+      "TargetAssignmentInfoId": 827,
       "Values": [
-        264,
-        720
+        151,
+        158
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 719,
-      "DimensionListItemDisplayName": "O'Reilly Group",
+      "DimensionListItem": 560,
+      "DimensionListItemDisplayName": "Prosacco-Nienow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 313
+          "FieldType": "System.Int32",
+          "FieldLength": 261
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 689
     }
   }
 }

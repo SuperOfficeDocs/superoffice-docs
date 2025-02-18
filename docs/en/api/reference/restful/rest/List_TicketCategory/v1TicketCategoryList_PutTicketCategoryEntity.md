@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 55,
-  "ParentId": 843,
-  "Name": "Smith, Herzog and Lind",
-  "Fullname": "vitae",
-  "CategoryMaster": 321,
+  "TicketCategoryId": 473,
+  "ParentId": 313,
+  "Name": "Gaylord Inc and Sons",
+  "Fullname": "enim",
+  "CategoryMaster": 709,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hermann-Hand",
+  "ExternalName": "Abbott-Corkery",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 65,
-  "ReplyTemplate": 357,
-  "NotificationEmail": "malachi@dicki.biz",
+  "AssignmentLag": 447,
+  "ReplyTemplate": 341,
+  "NotificationEmail": "junius.collier@anderson.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 235,
+  "EffectiveReplyTemplateId": 805,
   "ExtraFields": {
-    "ExtraFields1": "harum",
-    "ExtraFields2": "ad"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "officia",
+    "CustomFields2": "sed"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 414,
-  "ParentId": 594,
-  "Name": "Kub-Collier",
-  "Fullname": "et",
-  "CategoryMaster": 354,
+  "TicketCategoryId": 281,
+  "ParentId": 945,
+  "Name": "Leannon Inc and Sons",
+  "Fullname": "ex",
+  "CategoryMaster": 926,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Littel, Johnson and Hauck",
+  "ExternalName": "Boyer-Schoen",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 813,
-  "ReplyTemplate": 519,
-  "NotificationEmail": "lemuel_kuhic@bogisichconnelly.info",
+  "AssignmentLag": 178,
+  "ReplyTemplate": 132,
+  "NotificationEmail": "janelle@purdy.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 29,
+  "EffectiveReplyTemplateId": 901,
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "quibusdam",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "cum"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldLength": 381
     }
   }
 }

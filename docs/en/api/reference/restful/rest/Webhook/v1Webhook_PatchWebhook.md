@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "corporis",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "corporis",
+    "path": "et",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 290,
-  "Name": "Feest Inc and Sons",
+  "WebhookId": 368,
+  "Name": "Toy-Jacobi",
   "Events": [
-    "nihil",
-    "doloribus"
+    "laudantium",
+    "molestiae"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "vitae",
+  "Secret": "rerum",
   "State": "Active",
-  "Type": "deserunt",
+  "Type": "ipsum",
   "Headers": {
-    "Headers1": "numquam",
-    "Headers2": "ullam"
+    "Headers1": "consequuntur",
+    "Headers2": "facilis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2008-08-08T12:01:33.4019705+02:00",
+  "Registered": "2009-05-20T14:32:12.4271136+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-08-07T12:01:33.4019705+02:00",
+  "Updated": "1998-07-15T14:32:12.4271136+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "dane@lind.info",
+  "ErrorsEmail": "shane.gusikowski@schimmel.info",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

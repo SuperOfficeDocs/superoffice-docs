@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 152,
-    "Name": "Schroeder Group",
+    "TicketPriorityId": 252,
+    "Name": "Beer LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 770,
+    "SortOrder": 840,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 978,
-    "MonStart": "2003-10-26T12:01:33.6832402+01:00",
-    "MonStop": "2018-07-26T12:01:33.6832402+02:00",
-    "TueStart": "2004-11-02T12:01:33.6832402+01:00",
-    "TueStop": "2010-11-07T12:01:33.6832402+01:00",
-    "WedStart": "2024-10-13T12:01:33.6832402+02:00",
-    "WedStop": "2016-03-03T12:01:33.6832402+01:00",
-    "ThuStart": "2022-05-07T12:01:33.6832402+02:00",
-    "ThuStop": "2013-02-09T12:01:33.6832402+01:00",
-    "FriStart": "2014-09-20T12:01:33.6832402+02:00",
-    "FriStop": "2011-08-05T12:01:33.6832402+02:00",
-    "SatStart": "2014-06-23T12:01:33.6832402+02:00",
-    "SatStop": "2002-10-01T12:01:33.6832402+02:00",
-    "SunStart": "2021-01-18T12:01:33.6832402+01:00",
-    "SunStop": "2022-03-15T12:01:33.6832402+01:00",
+    "Deadline": 600,
+    "MonStart": "2006-01-16T14:32:12.9741031+01:00",
+    "MonStop": "2022-05-12T14:32:12.9741031+02:00",
+    "TueStart": "2014-08-23T14:32:12.9741031+02:00",
+    "TueStop": "2013-08-23T14:32:12.9741031+02:00",
+    "WedStart": "1997-11-24T14:32:12.9741031+01:00",
+    "WedStop": "2014-03-22T14:32:12.9741031+01:00",
+    "ThuStart": "2000-10-22T14:32:12.9741031+02:00",
+    "ThuStop": "2017-02-25T14:32:12.9741031+01:00",
+    "FriStart": "2003-07-05T14:32:12.9741031+02:00",
+    "FriStop": "2006-02-21T14:32:12.9741031+01:00",
+    "SatStart": "2018-07-27T14:32:12.9741031+02:00",
+    "SatStop": "2018-02-20T14:32:12.9741031+01:00",
+    "SunStart": "2011-07-01T14:32:12.9741031+02:00",
+    "SunStop": "2022-01-24T14:32:12.9741031+01:00",
     "NonDates": [
-      "reiciendis",
-      "maxime"
+      "minus",
+      "ipsa"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 166,
-        "AlertLevel": 705,
-        "AlertTimeout": 711,
-        "Action": 765,
-        "DelegateTo": 448,
-        "ScriptId": 216,
-        "EmailTo": "olga@sanford.uk",
-        "SmsTo": "velit",
-        "ReplyTemplateIdCustomer": 526,
-        "ReplyTemplateIdUser": 14,
-        "ReplyTemplateIdCatmast": 370,
-        "ReplyTemplateIdEmail": 398,
-        "RtiCustomerSms": 108,
-        "ReplyTemplateIdUserSms": 808,
-        "ReplyTemplateIdCatmastSms": 3,
-        "ReplyTemplateIdSms": 401,
+        "TicketAlertId": 30,
+        "AlertLevel": 509,
+        "AlertTimeout": 659,
+        "Action": 10,
+        "DelegateTo": 323,
+        "ScriptId": 204,
+        "EmailTo": "hope@simonislakin.biz",
+        "SmsTo": "est",
+        "ReplyTemplateIdCustomer": 495,
+        "ReplyTemplateIdUser": 725,
+        "ReplyTemplateIdCatmast": 472,
+        "ReplyTemplateIdEmail": 264,
+        "RtiCustomerSms": 477,
+        "ReplyTemplateIdUserSms": 352,
+        "ReplyTemplateIdCatmastSms": 384,
+        "ReplyTemplateIdSms": 483,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 814
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 427,
-  "UdListDefinitionName": "Kub LLC",
+  "Id": 293,
+  "UdListDefinitionName": "Cummerata LLC",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Murphy Inc and Sons",
-  "Tooltip": "doloribus",
+  "Id": 364,
+  "Name": "Wintheiser, Bednar and Gusikowski",
+  "Tooltip": "aut",
   "Deleted": true,
-  "UdListDefinitionId": 752,
-  "Rank": 119,
+  "UdListDefinitionId": 561,
+  "Rank": 150,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldLength": 110
     }
   }
 }

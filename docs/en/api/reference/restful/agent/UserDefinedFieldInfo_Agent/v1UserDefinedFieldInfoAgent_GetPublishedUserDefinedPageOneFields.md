@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 293
+  "UserGroupId": 484
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 339,
-    "ColumnId": 955,
-    "FieldDefault": "ullam",
-    "FieldHeight": 157,
-    "FieldLabel": "rem",
-    "FieldLeft": 824,
-    "FieldTop": 866,
+    "UDefFieldId": 330,
+    "ColumnId": 812,
+    "FieldDefault": "explicabo",
+    "FieldHeight": 586,
+    "FieldLabel": "velit",
+    "FieldLeft": 313,
+    "FieldTop": 181,
     "FieldType": "Checkbox",
-    "FieldWidth": 837,
-    "FormatMask": "atque",
-    "HideLabel": true,
+    "FieldWidth": 789,
+    "FormatMask": "ipsam",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 106,
-    "LabelLeft": 590,
-    "LabelTop": 337,
-    "LabelWidth": 304,
-    "LastVersionId": 710,
-    "ListTableId": 554,
-    "IsMandatory": true,
+    "LabelHeight": 389,
+    "LabelLeft": 802,
+    "LabelTop": 55,
+    "LabelWidth": 995,
+    "LastVersionId": 131,
+    "ListTableId": 455,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 841,
-    "ProgId": "ut",
-    "IsReadOnly": true,
-    "ShortLabel": "quas",
-    "TabOrder": 288,
-    "TextLength": 549,
-    "Tooltip": "ipsam",
-    "UdefIdentity": 280,
-    "UDListDefinitionId": 714,
+    "Page1LineNo": 400,
+    "ProgId": "veniam",
+    "IsReadOnly": false,
+    "ShortLabel": "similique",
+    "TabOrder": 590,
+    "TextLength": 749,
+    "Tooltip": "rerum",
+    "UdefIdentity": 698,
+    "UDListDefinitionId": 308,
     "Justification": "Center",
-    "Version": 622,
-    "TemplateVariableName": "Crona-Pollich",
-    "HasBeenPublished": true,
-    "MdoListName": "Tromp-Jerde",
+    "Version": 972,
+    "TemplateVariableName": "Carroll LLC",
+    "HasBeenPublished": false,
+    "MdoListName": "Fay LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 961
       }
     }
   }

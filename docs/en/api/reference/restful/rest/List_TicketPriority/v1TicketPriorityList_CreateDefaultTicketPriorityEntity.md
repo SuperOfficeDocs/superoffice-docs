@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 916,
-  "Name": "Donnelly, Jenkins and Kerluke",
+  "TicketPriorityId": 268,
+  "Name": "Larson-Walter",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 333,
+  "SortOrder": 31,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 814,
-  "MonStart": "2011-08-24T12:01:33.6832402+02:00",
-  "MonStop": "2002-03-19T12:01:33.6832402+01:00",
-  "TueStart": "2015-12-02T12:01:33.6832402+01:00",
-  "TueStop": "2016-03-07T12:01:33.6832402+01:00",
-  "WedStart": "2000-11-03T12:01:33.6832402+01:00",
-  "WedStop": "2024-06-20T12:01:33.6832402+02:00",
-  "ThuStart": "2014-06-04T12:01:33.6832402+02:00",
-  "ThuStop": "2008-11-30T12:01:33.6832402+01:00",
-  "FriStart": "2021-09-28T12:01:33.6832402+02:00",
-  "FriStop": "2024-03-28T12:01:33.6832402+01:00",
-  "SatStart": "2007-04-07T12:01:33.6832402+02:00",
-  "SatStop": "2012-07-22T12:01:33.6832402+02:00",
-  "SunStart": "2016-12-16T12:01:33.6832402+01:00",
-  "SunStop": "1997-11-24T12:01:33.6832402+01:00",
+  "Deadline": 840,
+  "MonStart": "2012-01-15T14:32:12.9741031+01:00",
+  "MonStop": "2013-01-05T14:32:12.9741031+01:00",
+  "TueStart": "1999-11-08T14:32:12.9741031+01:00",
+  "TueStop": "2023-12-06T14:32:12.9741031+01:00",
+  "WedStart": "2016-12-01T14:32:12.9741031+01:00",
+  "WedStop": "2014-01-08T14:32:12.9741031+01:00",
+  "ThuStart": "2022-01-09T14:32:12.9741031+01:00",
+  "ThuStop": "2022-07-08T14:32:12.9741031+02:00",
+  "FriStart": "2004-09-16T14:32:12.9741031+02:00",
+  "FriStop": "2024-01-13T14:32:12.9741031+01:00",
+  "SatStart": "1998-11-21T14:32:12.9741031+01:00",
+  "SatStop": "1999-08-26T14:32:12.9741031+02:00",
+  "SunStart": "2006-01-09T14:32:12.9741031+01:00",
+  "SunStop": "2004-10-05T14:32:12.9741031+02:00",
   "NonDates": [
-    "quos",
-    "rerum"
+    "velit",
+    "et"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 102,
-      "AlertLevel": 482,
-      "AlertTimeout": 18,
-      "Action": 235,
-      "DelegateTo": 7,
-      "ScriptId": 611,
-      "EmailTo": "lavina_schowalter@smith.uk",
-      "SmsTo": "rerum",
-      "ReplyTemplateIdCustomer": 67,
-      "ReplyTemplateIdUser": 216,
-      "ReplyTemplateIdCatmast": 555,
-      "ReplyTemplateIdEmail": 526,
-      "RtiCustomerSms": 792,
-      "ReplyTemplateIdUserSms": 195,
-      "ReplyTemplateIdCatmastSms": 292,
-      "ReplyTemplateIdSms": 42,
+      "TicketAlertId": 660,
+      "AlertLevel": 979,
+      "AlertTimeout": 809,
+      "Action": 502,
+      "DelegateTo": 679,
+      "ScriptId": 900,
+      "EmailTo": "jaren.bauch@hudson.co.uk",
+      "SmsTo": "temporibus",
+      "ReplyTemplateIdCustomer": 813,
+      "ReplyTemplateIdUser": 836,
+      "ReplyTemplateIdCatmast": 78,
+      "ReplyTemplateIdEmail": 54,
+      "RtiCustomerSms": 999,
+      "ReplyTemplateIdUserSms": 807,
+      "ReplyTemplateIdCatmastSms": 971,
+      "ReplyTemplateIdSms": 691,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 953
+          "FieldLength": 654
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 41
     }
   }
 }

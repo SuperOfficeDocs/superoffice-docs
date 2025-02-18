@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Luettgen-Hauck",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "UdListDefinitionId": 304,
-  "Rank": 297,
+  "Id": 738,
+  "Name": "Lubowitz Group",
+  "Tooltip": "harum",
+  "Deleted": false,
+  "UdListDefinitionId": 275,
+  "Rank": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldType": "System.Int32",
+      "FieldLength": 530
     }
   }
 }

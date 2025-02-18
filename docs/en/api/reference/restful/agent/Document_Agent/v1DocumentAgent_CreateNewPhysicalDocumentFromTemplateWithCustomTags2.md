@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 849,
-  "PersonId": 578,
-  "AppointmentId": 215,
-  "DocumentId": 567,
-  "SaleId": 529,
-  "SelectionId": 797,
-  "ProjectId": 313,
+  "ContactId": 816,
+  "PersonId": 450,
+  "AppointmentId": 752,
+  "DocumentId": 201,
+  "SaleId": 407,
+  "SelectionId": 458,
+  "ProjectId": 494,
   "CustomTags": {
-    "CustomTags1": "error",
-    "CustomTags2": "ad"
+    "CustomTags1": "voluptas",
+    "CustomTags2": "totam"
   },
-  "UiCulture": "adipisci"
+  "UiCulture": "aut"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 74,
+  "DocumentId": 768,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "a",
-  "Header": "omnis",
-  "Name": "Lowe-Ondricka",
-  "OurRef": "sit",
-  "YourRef": "delectus",
-  "CreatedDate": "2021-05-23T12:01:27.7440229+02:00",
-  "UpdatedDate": "2019-09-05T12:01:27.7440229+02:00",
-  "Description": "Implemented mission-critical workforce",
+  "Attention": "excepturi",
+  "Header": "alias",
+  "Name": "Feest, Wintheiser and Brown",
+  "OurRef": "ex",
+  "YourRef": "voluptate",
+  "CreatedDate": "2019-06-20T14:32:02.7335686+02:00",
+  "UpdatedDate": "2016-01-10T14:32:02.7335686+01:00",
+  "Description": "Distributed real-time workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-03-14T12:01:27.7440229+01:00",
-  "ExternalRef": "doloribus",
+  "Date": "2002-11-27T14:32:02.7335686+01:00",
+  "ExternalRef": "repellendus",
   "Completed": "Completed",
-  "ActiveLinks": 885,
+  "ActiveLinks": 224,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johns, Keebler and Huels",
-      "Id": 528,
-      "Description": "Front-line bottom-line migration",
-      "ExtraInfo": "voluptates",
-      "LinkId": 421,
+      "EntityName": "Armstrong Group",
+      "Id": 417,
+      "Description": "Self-enabling assymetric artificial intelligence",
+      "ExtraInfo": "quo",
+      "LinkId": 948,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 722
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 699,
-  "Snum": 313,
+  "SuggestedDocumentId": 438,
+  "Snum": 463,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Eleazar Johnston"
+    "SuperOffice:1": "1991558205",
+    "SuperOffice:2": "Alisha Wilderman"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "ipsum",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eaque"
+    "CustomFields1": "quos",
+    "CustomFields2": "sit"
   },
-  "PublishEventDate": "2024-05-22T12:01:27.7440229+02:00",
-  "PublishTo": "2015-11-03T12:01:27.7440229+01:00",
-  "PublishFrom": "2004-01-27T12:01:27.7440229+01:00",
+  "PublishEventDate": "2001-08-20T14:32:02.7491895+02:00",
+  "PublishTo": "2021-08-24T14:32:02.7491895+02:00",
+  "PublishFrom": "2005-03-10T14:32:02.7491895+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 258
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 258
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldType": "System.String",
+      "FieldLength": 428
     }
   }
 }

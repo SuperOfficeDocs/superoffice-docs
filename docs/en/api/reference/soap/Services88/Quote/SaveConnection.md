@@ -85,8 +85,8 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Quote:Description xsi:type="xsd:string"></Quote:Description>
        <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
        <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-       <Quote:ValidFrom xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:ValidFrom>
-       <Quote:ValidTo xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:ValidTo>
+       <Quote:ValidFrom xsi:type="xsd:dateTime">2025-02-13T13:31:17Z</Quote:ValidFrom>
+       <Quote:ValidTo xsi:type="xsd:dateTime">2025-02-13T13:31:17Z</Quote:ValidTo>
        <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
       </Quote:PriceList>
      </Quote:PriceLists>
@@ -167,8 +167,8 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Quote:Description xsi:type="xsd:string"></Quote:Description>
       <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
       <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-      <Quote:ValidFrom xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:ValidFrom>
-      <Quote:ValidTo xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:ValidTo>
+      <Quote:ValidFrom xsi:type="xsd:dateTime">2025-02-13T13:31:17Z</Quote:ValidFrom>
+      <Quote:ValidTo xsi:type="xsd:dateTime">2025-02-13T13:31:17Z</Quote:ValidTo>
       <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
      </Quote:PriceList>
     </Quote:PriceLists>

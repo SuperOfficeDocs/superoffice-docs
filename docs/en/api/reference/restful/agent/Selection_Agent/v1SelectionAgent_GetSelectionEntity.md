@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=235
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=511
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile intermediate open architecture",
-  "Postit": "animi",
+  "Description": "Right-sized eco-centric time-frame",
+  "Postit": "voluptas",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 490,
-  "IncludePerson": 317,
+  "GroupIdx": 428,
+  "IncludePerson": 93,
   "MemberCount": 99.99,
-  "Name": "Rutherford Group",
-  "PostitTextId": 687,
-  "CreatedDate": "1998-10-26T12:01:28.2909425+01:00",
-  "SelectionId": 592,
-  "SoundEx": "iure",
-  "Source": 559,
-  "TextId": 790,
-  "UpdatedDate": "2014-01-10T12:01:28.2909425+01:00",
-  "UpdatedCount": 554,
-  "Visibility": 661,
+  "Name": "Dicki LLC",
+  "PostitTextId": 210,
+  "CreatedDate": "2016-12-17T14:32:03.8741324+01:00",
+  "SelectionId": 423,
+  "SoundEx": "illo",
+  "Source": 424,
+  "TextId": 640,
+  "UpdatedDate": "2007-06-24T14:32:03.8741324+02:00",
+  "UpdatedCount": 449,
+  "Visibility": 978,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 482,
-  "TargetTableName": "Daniel-Cassin",
-  "Completed": false,
-  "LeftSelectionId": 565,
-  "RightSelectionId": 45,
+  "TargetTableNumber": 450,
+  "TargetTableName": "Rowe-Streich",
+  "Completed": true,
+  "LeftSelectionId": 43,
+  "RightSelectionId": 410,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Konopelski-Franecki",
-  "ShadowProviderName": "Bartoletti LLC",
-  "ChartKey": "accusantium",
-  "LastLoaded": "2004-09-15T12:01:28.2909425+02:00",
-  "LastLoadedBy": 917,
+  "MainProviderName": "Monahan-Donnelly",
+  "ShadowProviderName": "Lowe-Jacobi",
+  "ChartKey": "quidem",
+  "LastLoaded": "2008-08-23T14:32:03.8741324+02:00",
+  "LastLoadedBy": 679,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-04-28T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 842,
+  "LastMembershipChange": "2012-07-25T14:32:03.8741324+02:00",
+  "LastMembershipChangeBy": 133,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quod",
-  "MemberTabHeading": "distinctio",
-  "MailingsProviderName": "Grant, Schumm and Kuhlman",
-  "DashboardTileDefinitionId": 212,
+  "MainHeading": "ipsam",
+  "MemberTabHeading": "enim",
+  "MailingsProviderName": "Rutherford-Bernhard",
+  "DashboardTileDefinitionId": 815,
   "VisibleFor": [
     {
-      "VisibleId": 119,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 910
         }
       }
     },
     {
-      "VisibleId": 119,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 910
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

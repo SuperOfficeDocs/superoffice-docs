@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 84,
-    "Name": "Steuber, Nitzsche and Nader",
-    "Tooltip": "delectus",
+    "HeadingId": 977,
+    "Name": "Brakus, Romaguera and Hermiston",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 748,
-    "UdListDefinitionId": 538
+    "Rank": 369,
+    "UdListDefinitionId": 314
   },
   {
-    "HeadingId": 84,
-    "Name": "Steuber, Nitzsche and Nader",
-    "Tooltip": "delectus",
+    "HeadingId": 977,
+    "Name": "Brakus, Romaguera and Hermiston",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 748,
-    "UdListDefinitionId": 538
+    "Rank": 369,
+    "UdListDefinitionId": 314
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 726,
-    "Name": "Johns-Hodkiewicz",
-    "Tooltip": "recusandae",
+    "HeadingId": 589,
+    "Name": "Emard Group",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 647,
-    "UdListDefinitionId": 949,
+    "Rank": 15,
+    "UdListDefinitionId": 975,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 90
+        "FieldLength": 135
       }
     }
   }

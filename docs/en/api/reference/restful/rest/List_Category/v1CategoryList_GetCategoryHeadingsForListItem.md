@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Ward-Rempel",
-    "ToolTip": "Molestiae eveniet nihil tempore.",
-    "Deleted": false,
-    "Rank": 659,
-    "Type": "quisquam",
-    "ColorBlock": 73,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2009-02-13T12:01:33.4332226+01:00",
+    "Id": 131,
+    "Name": "Schroeder-Kihn",
+    "ToolTip": "Omnis vel quis quia.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "dolores",
+    "ColorBlock": 732,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2021-09-05T14:32:12.4895996+02:00",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Metz, Prosacco and Torp",
-        "ToolTip": "Fuga quo dignissimos magnam.",
+        "Id": 794,
+        "Name": "Weber-Johnston",
+        "ToolTip": "Unde ex quo laboriosam sed et fuga.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "repellat",
-        "ColorBlock": 962,
-        "IconHint": "earum",
+        "Rank": 529,
+        "Type": "pariatur",
+        "ColorBlock": 775,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2007-02-18T12:01:33.4332226+01:00",
+        "LastChanged": "2016-03-24T14:32:12.4895996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quia",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Jonatan Klocko",
+        "FullName": "Mrs. Fatima Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 269
+            "FieldType": "System.Int32",
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Consuelo Kunde DVM",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "neque",
+    "Hidden": true,
+    "FullName": "Dr. Kraig Arvid Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 102
       }
     }
   }

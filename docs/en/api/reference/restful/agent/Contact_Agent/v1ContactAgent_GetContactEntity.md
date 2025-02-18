@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=911
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=741
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 313,
-  "Name": "Waelchi, Paucek and Morissette",
+  "ContactId": 587,
+  "Name": "Bashirian, Kutch and Larkin",
   "Department": "",
-  "OrgNr": "1445161",
-  "Number1": "1122689",
-  "Number2": "778239",
-  "UpdatedDate": "2022-01-26T12:01:27.4783858+01:00",
-  "CreatedDate": "2022-06-21T12:01:27.4783858+02:00",
+  "OrgNr": "950825",
+  "Number1": "396766",
+  "Number2": "837795",
+  "UpdatedDate": "2023-05-31T14:32:02.2961659+02:00",
+  "CreatedDate": "2018-11-03T14:32:02.2961659+01:00",
   "Emails": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quae",
-      "Description": "Assimilated composite flexibility",
+      "Value": "ea",
+      "StrippedValue": "sed",
+      "Description": "Up-sized motivating solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quae",
-      "Description": "Assimilated composite flexibility",
+      "Value": "ea",
+      "StrippedValue": "sed",
+      "Description": "Up-sized motivating solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 580,
-      "Name": "Monahan LLC",
-      "ToolTip": "Culpa expedita.",
+      "Id": 954,
+      "Name": "Ritchie, Daugherty and Borer",
+      "ToolTip": "Praesentium reprehenderit praesentium ullam nesciunt qui.",
       "Deleted": false,
-      "Rank": 372,
-      "Type": "ipsam",
-      "ColorBlock": 92,
-      "IconHint": "saepe",
+      "Rank": 870,
+      "Type": "laudantium",
+      "ColorBlock": 147,
+      "IconHint": "autem",
       "Selected": false,
-      "LastChanged": "2002-08-02T12:01:27.4783858+02:00",
+      "LastChanged": "2021-03-20T14:32:02.2961659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "animi",
+      "ExtraInfo": "velit",
+      "StyleHint": "ab",
       "Hidden": true,
-      "FullName": "Audreanne Bartell V",
+      "FullName": "Maryjane Kerluke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 226
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ad",
-      "StrippedValue": "suscipit",
-      "Description": "Reverse-engineered object-oriented structure",
+      "Value": "vero",
+      "StrippedValue": "vel",
+      "Description": "Public-key multi-state forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 437
         }
       }
     },
     {
-      "Value": "ad",
-      "StrippedValue": "suscipit",
-      "Description": "Reverse-engineered object-oriented structure",
+      "Value": "vero",
+      "StrippedValue": "vel",
+      "Description": "Public-key multi-state forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldType": "System.String",
+          "FieldLength": 437
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "soluta",
-      "StrippedValue": "est",
-      "Description": "Virtual system-worthy encoding",
+      "Value": "ut",
+      "StrippedValue": "facilis",
+      "Description": "Managed regional pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 519
         }
       }
     },
     {
-      "Value": "soluta",
-      "StrippedValue": "est",
-      "Description": "Virtual system-worthy encoding",
+      "Value": "ut",
+      "StrippedValue": "facilis",
+      "Description": "Managed regional pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 519
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "corporis",
-      "Description": "Reactive context-sensitive structure",
+      "Value": "magnam",
+      "StrippedValue": "odio",
+      "Description": "Advanced explicit emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 857
         }
       }
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "corporis",
-      "Description": "Reactive context-sensitive structure",
+      "Value": "magnam",
+      "StrippedValue": "odio",
+      "Description": "Advanced explicit emulation",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 857
         }
       }
     }
   ],
-  "Description": "Operative coherent customer loyalty",
+  "Description": "Persistent scalable moratorium",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 142,
-      "Mrmrs": "culpa",
-      "Firstname": "Jon",
-      "Lastname": "Lebsack",
-      "MiddleName": "Effertz-Schuppe",
-      "Title": "laboriosam",
-      "Description": "Reduced multimedia data-warehouse",
-      "Email": "stephany_huel@bogisich.com",
-      "FullName": "Euna Eichmann",
-      "DirectPhone": "951-089-4108 x6006",
-      "FormalName": "Bahringer, Pollich and Beier",
-      "CountryId": 87,
-      "ContactId": 890,
-      "ContactName": "Abshire Inc and Sons",
-      "Retired": 394,
-      "Rank": 16,
-      "ActiveInterests": 642,
+      "Position": "ex",
+      "PersonId": 919,
+      "Mrmrs": "sed",
+      "Firstname": "Diana",
+      "Lastname": "Gutkowski",
+      "MiddleName": "Schmidt-Huel",
+      "Title": "expedita",
+      "Description": "Compatible reciprocal matrix",
+      "Email": "roberto.maggio@goyette.info",
+      "FullName": "Reba Balistreri Jr.",
+      "DirectPhone": "1-926-822-9181",
+      "FormalName": "Schowalter, Haley and Pfeffer",
+      "CountryId": 759,
+      "ContactId": 941,
+      "ContactName": "Hand Inc and Sons",
+      "Retired": 451,
+      "Rank": 280,
+      "ActiveInterests": 827,
       "ContactDepartment": "",
-      "ContactCountryId": 971,
-      "ContactOrgNr": "800996",
-      "FaxPhone": "968-625-2620 x2109",
-      "MobilePhone": "399.582.3077",
-      "ContactPhone": "(197)176-9361 x336",
-      "AssociateName": "Leuschke Inc and Sons",
-      "AssociateId": 742,
+      "ContactCountryId": 844,
+      "ContactOrgNr": "816409",
+      "FaxPhone": "845.561.5456",
+      "MobilePhone": "(769)195-7987",
+      "ContactPhone": "(074)386-2747",
+      "AssociateName": "Batz Group",
+      "AssociateId": 194,
       "UsePersonAddress": false,
-      "ContactFax": "iste",
-      "Kanafname": "illo",
-      "Kanalname": "similique",
-      "Post1": "repudiandae",
-      "Post2": "debitis",
-      "Post3": "quas",
-      "EmailName": "wilford.wisoky@mooregoyette.com",
-      "ContactFullName": "Wayne Thompson",
-      "ActiveErpLinks": 192,
-      "TicketPriorityId": 969,
-      "SupportLanguageId": 383,
-      "SupportAssociateId": 912,
+      "ContactFax": "consequatur",
+      "Kanafname": "occaecati",
+      "Kanalname": "autem",
+      "Post1": "magnam",
+      "Post2": "laudantium",
+      "Post3": "eius",
+      "EmailName": "glenna.lebsack@kulas.uk",
+      "ContactFullName": "Tom Green",
+      "ActiveErpLinks": 760,
+      "TicketPriorityId": 862,
+      "SupportLanguageId": 863,
+      "SupportAssociateId": 879,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "410775",
+      "PersonNumber": "909401",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldType": "System.String",
+          "FieldLength": 498
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "odit",
+  "Kananame": "est",
   "Xstop": true,
-  "ActiveInterests": 162,
-  "GroupId": 323,
-  "ActiveStatusMonitorId": 15,
+  "ActiveInterests": 410,
+  "GroupId": 992,
+  "ActiveStatusMonitorId": 529,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 805,
-  "DbiAgentId": 642,
-  "DbiLastSyncronized": "2022-05-01T12:01:27.4783858+02:00",
-  "DbiKey": "tempore",
-  "DbiLastModified": "2020-02-01T12:01:27.4783858+01:00",
+  "Deleted": 705,
+  "DbiAgentId": 863,
+  "DbiLastSyncronized": "2020-03-16T14:32:02.2961659+01:00",
+  "DbiKey": "alias",
+  "DbiLastModified": "2012-01-14T14:32:02.2961659+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 362,
-  "ActiveErpLinks": 558,
+  "Source": 978,
+  "ActiveErpLinks": 334,
   "BounceEmails": [
-    "lesley@murray.uk",
-    "thaddeus@smitham.co.uk"
+    "hayden@homenickkuhn.com",
+    "gladys.moen@cummings.info"
   ],
   "Domains": [
-    "deleniti",
-    "quia"
+    "omnis",
+    "autem"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Houston Dare",
-    "SuperOffice:2": "Rosendo Gerard Hilpert DDS"
+    "SuperOffice:1": "Mrs. Jordan Moshe Osinski DDS",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
     "CustomFields1": "eos",
-    "CustomFields2": "magnam"
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 976
     }
   }
 }

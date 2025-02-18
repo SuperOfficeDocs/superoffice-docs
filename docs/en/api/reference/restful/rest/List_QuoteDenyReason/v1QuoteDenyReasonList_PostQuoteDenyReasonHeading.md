@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 824,
-  "Name": "Watsica Group",
-  "Tooltip": "ut",
+  "HeadingId": 631,
+  "Name": "Hilll-Heaney",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 810,
-  "UdListDefinitionId": 331
+  "Rank": 751,
+  "UdListDefinitionId": 153
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 422,
-  "Name": "Corwin Inc and Sons",
-  "Tooltip": "dolores",
+  "HeadingId": 742,
+  "Name": "Bins Group",
+  "Tooltip": "neque",
   "Deleted": false,
-  "Rank": 926,
-  "UdListDefinitionId": 412,
+  "Rank": 664,
+  "UdListDefinitionId": 278,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 324
+      "FieldType": "System.Int32",
+      "FieldLength": 939
     }
   }
 }

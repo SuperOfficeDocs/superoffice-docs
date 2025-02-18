@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 211,
-  "TopicId": 279,
+  "ChatSessionId": 825,
+  "TopicId": 311,
   "User": null,
   "Person": null,
-  "CustomerAlias": "facere",
-  "CustomerHost": "nemo",
-  "CustomerName": "Kassulke-Rau",
-  "CustomerEmail": "jovan_green@wilkinson.biz",
-  "CustomerPhone": "848.913.5577 x53902",
+  "CustomerAlias": "repellat",
+  "CustomerHost": "perferendis",
+  "CustomerName": "Upton, Lind and Pouros",
+  "CustomerEmail": "estella@wisoky.uk",
+  "CustomerPhone": "(975)508-1461 x21855",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rath-Rau",
+  "CustomerCompanyName": "Lindgren, Ziemann and Wilkinson",
   "Status": "Closed",
-  "FirstMessage": "adipisci",
-  "LastMessage": "cum",
-  "WhenRequested": "2015-06-14T12:01:32.6831706+02:00",
-  "WhenStarted": "2015-06-06T12:01:32.6831706+02:00",
-  "WhenEnded": "2012-11-19T12:01:32.6831706+01:00",
-  "WhenIdle": "2001-03-17T12:01:32.6831706+01:00",
-  "WhenFetched": "2009-06-01T12:01:32.6831706+02:00",
-  "SessionKey": "mollitia",
-  "InitialQueuePos": 711,
-  "AlertLevel": 277,
-  "Rank": 740,
+  "FirstMessage": "ut",
+  "LastMessage": "nemo",
+  "WhenRequested": "2024-04-21T14:32:11.0833739+02:00",
+  "WhenStarted": "2014-06-27T14:32:11.0833739+02:00",
+  "WhenEnded": "2017-11-01T14:32:11.0833739+01:00",
+  "WhenIdle": "2017-11-22T14:32:11.0833739+01:00",
+  "WhenFetched": "2011-02-22T14:32:11.0833739+01:00",
+  "SessionKey": "similique",
+  "InitialQueuePos": 987,
+  "AlertLevel": 587,
+  "Rank": 756,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 444,
+  "ChatbotIsActive": true,
+  "Rating": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 943
     }
   }
 }

@@ -107,31 +107,31 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 149,
-  "Name": "Wintheiser, VonRueden and Harris",
-  "Tooltip": "porro",
+  "WebPanelId": 865,
+  "Name": "O'Hara-Berge",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 680,
+  "Rank": 348,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Donnelly-O'Kon",
+  "WindowName": "Roob, Kozey and Stark",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 233,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "modi",
+  "Icon": 922,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 596,
-  "Name": "Rau, Stanton and Bartoletti",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 143,
+  "WebPanelId": 671,
+  "Name": "Daugherty, Hagenes and Hackett",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 887,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Ferry Group",
+  "ShowInStatusBar": true,
+  "WindowName": "Walsh-Boyer",
   "Url": "http://www.example.com/",
-  "ProgId": "nesciunt",
-  "Icon": 220,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "autem",
+  "Icon": 656,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 603
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 456,
-  "StartTime": "2020-02-29T12:01:27.5877684+01:00",
-  "EndTime": "2009-01-31T12:01:27.5877684+01:00",
-  "Count": 723,
-  "DocumentTemplateId": 824
+  "PersonId": 910,
+  "StartTime": "2022-10-08T14:32:02.6398381+02:00",
+  "EndTime": "2010-11-19T14:32:02.6398381+01:00",
+  "Count": 328,
+  "DocumentTemplateId": 226
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 318,
-    "Attention": "atque",
-    "Header": "molestias",
-    "Name": "Baumbach LLC",
-    "OurRef": "fugit",
-    "YourRef": "animi",
-    "Description": "Synchronised heuristic protocol",
-    "DocumentTemplate": "consequatur",
+    "DocumentId": 243,
+    "Attention": "distinctio",
+    "Header": "quasi",
+    "Name": "Armstrong-Pollich",
+    "OurRef": "aspernatur",
+    "YourRef": "et",
+    "Description": "Focused solution-oriented application",
+    "DocumentTemplate": "nostrum",
     "IsPublished": false,
-    "PersonId": 278,
-    "PersonFullName": "Prof. Dane Cleve Bosco",
-    "AssociateFullName": "Prof. Johnpaul Jones MD",
-    "ContactId": 78,
-    "ContactName": "King, Schaden and Hudson",
-    "ProjectId": 847,
-    "ProjectName": "Bechtelar, Kris and Nolan",
-    "AssociateId": 446,
-    "Snum": 853,
-    "SaleId": 449,
-    "SaleName": "Sawayn-Volkman",
+    "PersonId": 656,
+    "PersonFullName": "Blaze Hamill",
+    "AssociateFullName": "Thelma Kessler",
+    "ContactId": 663,
+    "ContactName": "Mosciski, Gibson and Powlowski",
+    "ProjectId": 827,
+    "ProjectName": "Greenholt Group",
+    "AssociateId": 537,
+    "Snum": 466,
+    "SaleId": 441,
+    "SaleName": "Kulas Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 121
       }
     }
   }

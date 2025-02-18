@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 360,
-  "Name": "Stokes, Tremblay and Green"
+  "DashTileId": 408,
+  "Name": "Cormier, Rath and Raynor"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 819,
-  "DashboardId": 795,
-  "Height": 718,
-  "Width": 102,
-  "Rank": 580,
+  "DashboardTileId": 896,
+  "DashboardId": 821,
+  "Height": 690,
+  "Width": 239,
+  "Rank": 282,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 7
     }
   }
 }

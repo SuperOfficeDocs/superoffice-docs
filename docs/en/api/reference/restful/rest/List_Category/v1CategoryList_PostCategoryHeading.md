@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 915,
-  "Name": "Boehm Group",
-  "Tooltip": "et",
+  "HeadingId": 13,
+  "Name": "Schiller Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 285,
-  "UdListDefinitionId": 201
+  "Rank": 203,
+  "UdListDefinitionId": 773
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 533,
-  "Name": "McCullough Group",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 730,
-  "UdListDefinitionId": 548,
+  "HeadingId": 6,
+  "Name": "Windler, Ebert and Gutmann",
+  "Tooltip": "minima",
+  "Deleted": false,
+  "Rank": 601,
+  "UdListDefinitionId": 439,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

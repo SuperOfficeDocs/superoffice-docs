@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Adams, Haley and Boehm",
-    "ToolTip": "Est dolorem quia eius maxime veniam consequatur omnis.",
-    "Deleted": false,
-    "Rank": 357,
-    "Type": "beatae",
-    "ColorBlock": 43,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2001-05-24T12:01:33.6207356+02:00",
+    "Id": 335,
+    "Name": "Kulas, Kertzmann and Halvorson",
+    "ToolTip": "Ut libero voluptatem enim maiores.",
+    "Deleted": true,
+    "Rank": 322,
+    "Type": "placeat",
+    "ColorBlock": 496,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2004-07-24T14:32:12.833512+02:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Hammes Group",
-        "ToolTip": "Unde soluta.",
-        "Deleted": true,
-        "Rank": 400,
-        "Type": "voluptas",
-        "ColorBlock": 14,
-        "IconHint": "nisi",
+        "Id": 584,
+        "Name": "Brakus, Marvin and Murray",
+        "ToolTip": "Soluta praesentium minus veritatis exercitationem.",
+        "Deleted": false,
+        "Rank": 491,
+        "Type": "aliquam",
+        "ColorBlock": 135,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2018-12-30T12:01:33.6207356+01:00",
+        "LastChanged": "2003-10-14T14:32:12.833512+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Alexandro Von"
+        "ExtraInfo": "dolorum",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Mr. Jarred Reichert"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dolores",
+    "ExtraInfo": "sequi",
+    "StyleHint": "repellendus",
     "Hidden": false,
-    "FullName": "Ms. Rory August Sporer DVM"
+    "FullName": "Alysa Stiedemann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Casper-Murphy",
-    "ToolTip": "Qui autem est fugiat earum nemo ipsum.",
+    "Id": 24,
+    "Name": "Lowe, Bauch and Little",
+    "ToolTip": "Perspiciatis enim architecto et quo.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "corporis",
-    "ColorBlock": 489,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2015-04-01T12:01:33.6207356+02:00",
+    "Rank": 530,
+    "Type": "qui",
+    "ColorBlock": 166,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2003-07-09T14:32:12.833512+02:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Little, Torp and Morissette",
-        "ToolTip": "Sint corrupti omnis nesciunt hic ea voluptatibus distinctio.",
-        "Deleted": true,
-        "Rank": 552,
-        "Type": "maxime",
-        "ColorBlock": 309,
-        "IconHint": "sint",
+        "Id": 874,
+        "Name": "Nicolas-Feeney",
+        "ToolTip": "Quia et quo neque voluptas at.",
+        "Deleted": false,
+        "Rank": 628,
+        "Type": "exercitationem",
+        "ColorBlock": 918,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "1999-10-04T12:01:33.6207356+02:00",
+        "LastChanged": "2021-09-25T14:32:12.833512+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "nam",
+        "ExtraInfo": "rem",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Bret Dietrich",
+        "FullName": "Ms. Antonina Leilani Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 641
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Rogelio Rogahn",
+    "ExtraInfo": "officiis",
+    "StyleHint": "adipisci",
+    "Hidden": false,
+    "FullName": "Mr. Garrison Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 508
       }
     }
   }

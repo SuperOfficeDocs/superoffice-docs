@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 352,
-  "DefaultValue": "et",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "atque",
-  "PromptUser": false,
+  "ErpFieldId": 404,
+  "DefaultValue": "modi",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "debitis",
+  "PromptUser": true,
   "Mandatory": true,
-  "ErpFieldKey": "porro",
+  "ErpFieldKey": "rerum",
   "FieldType": "Checkbox",
-  "ListName": "Cummerata-Stehr",
+  "ListName": "Rau Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 53
     }
   }
 }

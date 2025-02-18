@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Ankunding, Grady and Schmidt",
-  "ModuleName": "Sauer Inc and Sons"
+  "OwnerName": "Heathcote-Mann",
+  "ModuleName": "Stokes-Hoppe"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Jenkins-Gleason",
-  "ModuleName": "Dibbert Group",
-  "ModuleDescription": "Networked coherent intranet",
-  "ModuleTooltip": "rerum",
-  "ModuleVersion": "eum",
+  "OwnerName": "Hauck-Donnelly",
+  "ModuleName": "Runolfsson, Larkin and Paucek",
+  "ModuleDescription": "User-centric holistic algorithm",
+  "ModuleTooltip": "tenetur",
+  "ModuleVersion": "saepe",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 279,
-  "ExtraFlags": 747,
-  "ExtraInfo": "sit",
-  "SortOrder": 920,
+  "NumberOfLicenses": 25,
+  "ExtraFlags": 299,
+  "ExtraInfo": "eos",
+  "SortOrder": 628,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Ledner Inc and Sons",
-  "Signature": "debitis"
+  "PrerequisiteModuleName": "Lynch, Kuhn and Cummings",
+  "Signature": "et"
 }
 ```

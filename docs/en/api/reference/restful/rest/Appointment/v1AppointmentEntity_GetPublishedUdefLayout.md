@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 695,
-    "ColumnId": 288,
-    "FieldDefault": "aut",
-    "FieldHeight": 533,
-    "FieldLabel": "quis",
-    "FieldLeft": 178,
-    "FieldTop": 752,
+    "UDefFieldId": 492,
+    "ColumnId": 839,
+    "FieldDefault": "et",
+    "FieldHeight": 378,
+    "FieldLabel": "minus",
+    "FieldLeft": 752,
+    "FieldTop": 55,
     "FieldType": "Checkbox",
-    "FieldWidth": 436,
-    "FormatMask": "tempora",
+    "FieldWidth": 626,
+    "FormatMask": "distinctio",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 260,
-    "LabelLeft": 83,
-    "LabelTop": 940,
-    "LabelWidth": 228,
-    "LastVersionId": 534,
-    "ListTableId": 184,
-    "IsMandatory": true,
+    "LabelHeight": 191,
+    "LabelLeft": 658,
+    "LabelTop": 578,
+    "LabelWidth": 650,
+    "LastVersionId": 339,
+    "ListTableId": 117,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 999,
-    "ProgId": "odit",
+    "Page1LineNo": 939,
+    "ProgId": "quia",
     "IsReadOnly": false,
-    "ShortLabel": "vitae",
-    "TabOrder": 984,
-    "TextLength": 278,
-    "Tooltip": "blanditiis",
-    "UdefIdentity": 108,
-    "UDListDefinitionId": 390,
+    "ShortLabel": "aspernatur",
+    "TabOrder": 929,
+    "TextLength": 939,
+    "Tooltip": "at",
+    "UdefIdentity": 33,
+    "UDListDefinitionId": 889,
     "Justification": "Center",
-    "Version": 334,
-    "TemplateVariableName": "Hayes-Renner",
+    "Version": 727,
+    "TemplateVariableName": "Paucek, Thiel and Nicolas",
     "HasBeenPublished": false,
-    "MdoListName": "Donnelly, Heller and Daugherty",
+    "MdoListName": "Brekke-Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 898
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

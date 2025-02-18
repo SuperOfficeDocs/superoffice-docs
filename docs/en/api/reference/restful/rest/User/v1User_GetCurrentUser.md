@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 303,
-  "Name": "Gutmann Group",
-  "Rank": 101,
-  "Tooltip": "sequi",
+  "AssociateId": 247,
+  "Name": "Mayer, Lubowitz and Altenwerth",
+  "Rank": 859,
+  "Tooltip": "est",
   "LicenseOwners": [
     {
-      "Name": "Rice-Carter",
-      "Description": "Networked 24/7 paradigm",
+      "Name": "Stiedemann Group",
+      "Description": "Vision-oriented multi-tasking methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +112,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Rice-Carter",
-      "Description": "Networked 24/7 paradigm",
+      "Name": "Stiedemann Group",
+      "Description": "Vision-oriented multi-tasking methodology",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 737
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptas",
-      "Tooltip": "ut",
-      "Id": 96,
-      "Rank": 364,
+      "Value": "laborum",
+      "Tooltip": "quo",
+      "Id": 587,
+      "Rank": 645,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldType": "System.Int32",
+          "FieldLength": 399
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2018-04-04T12:01:33.4019705+02:00",
-  "Lastlogout": "1998-12-04T12:01:33.4019705+01:00",
-  "EjUserId": 148,
-  "RequestSignature": "dolores",
+  "Deleted": false,
+  "Lastlogin": "2007-08-30T14:32:12.4114949+02:00",
+  "Lastlogout": "2023-02-27T14:32:12.4114949+01:00",
+  "EjUserId": 688,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "a",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "nesciunt",
-      "DisplayValue": "a",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 384
-        }
-      }
-    }
-  ],
-  "UserName": "Metz, Simonis and Marquardt",
-  "TicketCategories": [
-    {
-      "Id": 534,
-      "Name": "Daugherty Inc and Sons",
-      "ToolTip": "Nulla voluptate ab impedit ratione repellat.",
-      "Deleted": true,
-      "Rank": 862,
-      "Type": "perspiciatis",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "odio",
-      "ColorBlock": 20,
-      "ExtraInfo": "quam",
-      "StyleHint": "nihil",
-      "FullName": "Miss Tyshawn Kerluke I",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 297
-        }
-      }
-    }
-  ],
-  "NickName": "Hane Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "maxime"
-  },
-  "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "commodi"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kilback, Douglas and Mraz",
-      "DisplayName": "Kassulke-Breitenberg",
-      "Description": "Synchronised homogeneous info-mediaries",
-      "ToolTip": "Doloremque quo fugit est magnam animi quidem.",
-      "Actions": "Implicit",
-      "ActionData": "dolores",
+      "Value": "quas",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 783
+          "FieldLength": 28
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "quas",
+      "DisplayValue": "quia",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 28
+        }
+      }
+    }
+  ],
+  "UserName": "Kirlin-Rippin",
+  "TicketCategories": [
+    {
+      "Id": 305,
+      "Name": "Welch Group",
+      "ToolTip": "Sunt minima rem id nemo.",
+      "Deleted": false,
+      "Rank": 946,
+      "Type": "maiores",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "corrupti",
+      "ColorBlock": 637,
+      "ExtraInfo": "sunt",
+      "StyleHint": "qui",
+      "FullName": "Jaime Pouros",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 88
+        }
+      }
+    }
+  ],
+  "NickName": "Ortiz-Miller",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "rerum"
+  },
+  "CustomFields": {
+    "CustomFields1": "labore",
+    "CustomFields2": "veniam"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kessler-O'Hara",
+      "DisplayName": "Ernser Group",
+      "Description": "Organic homogeneous model",
+      "ToolTip": "Autem eligendi est vitae minima.",
+      "Actions": "Implicit",
+      "ActionData": "eos",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 531
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   }
 }

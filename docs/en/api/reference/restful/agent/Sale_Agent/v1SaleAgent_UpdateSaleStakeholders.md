@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Wisozk Group",
-      "Comment": "omnis",
-      "StakeholderRoleId": 657,
-      "CountryId": 915,
-      "PersonId": 999,
-      "EmailDescription": "corine.grant@dubuque.biz",
-      "EmailId": 23,
-      "EmailAddress": "lilyan@bogisich.ca",
-      "PhoneId": 614,
-      "ContactName": "Doyle-Stehr",
-      "ContactId": 440,
-      "SaleId": 937,
-      "Mrmrs": "id",
-      "Firstname": "Pearl",
-      "MiddleName": "Ullrich, Corwin and Hoppe",
-      "Lastname": "Casper",
-      "SaleStakeholderId": 483,
-      "Rank": 925,
-      "Phone": "1-148-174-7123 x458"
+      "StakeholderRoleName": "Monahan-Baumbach",
+      "Comment": "non",
+      "StakeholderRoleId": 877,
+      "CountryId": 496,
+      "PersonId": 556,
+      "EmailDescription": "nayeli@graham.biz",
+      "EmailId": 310,
+      "EmailAddress": "elenora.hahn@thompsongraham.ca",
+      "PhoneId": 329,
+      "ContactName": "Windler LLC",
+      "ContactId": 287,
+      "SaleId": 329,
+      "Mrmrs": "et",
+      "Firstname": "Kelly",
+      "MiddleName": "Borer-Kirlin",
+      "Lastname": "Lynch",
+      "SaleStakeholderId": 939,
+      "Rank": 285,
+      "Phone": "1-908-600-0312"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Cole-Kling",
-    "Comment": "est",
-    "StakeholderRoleId": 502,
-    "CountryId": 362,
-    "PersonId": 538,
-    "EmailDescription": "roderick@gerlach.us",
-    "EmailId": 183,
-    "EmailAddress": "hattie_bode@pouros.name",
-    "PhoneId": 848,
-    "ContactName": "Lowe, Hayes and Howell",
-    "ContactId": 586,
-    "SaleId": 941,
-    "Mrmrs": "similique",
-    "Firstname": "Tianna",
-    "MiddleName": "Leuschke, Strosin and Hills",
-    "Lastname": "Olson",
-    "SaleStakeholderId": 802,
-    "Rank": 352,
-    "Phone": "019-821-9504 x3686",
+    "StakeholderRoleName": "Kessler-Leuschke",
+    "Comment": "ut",
+    "StakeholderRoleId": 250,
+    "CountryId": 663,
+    "PersonId": 165,
+    "EmailDescription": "antoinette@gulgowski.info",
+    "EmailId": 285,
+    "EmailAddress": "darion.corkery@abshire.biz",
+    "PhoneId": 186,
+    "ContactName": "Hauck Inc and Sons",
+    "ContactId": 198,
+    "SaleId": 26,
+    "Mrmrs": "quod",
+    "Firstname": "Woodrow",
+    "MiddleName": "Marks Group",
+    "Lastname": "Reichert",
+    "SaleStakeholderId": 556,
+    "Rank": 337,
+    "Phone": "(374)188-2743 x099",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldLength": 828
       }
     }
   }

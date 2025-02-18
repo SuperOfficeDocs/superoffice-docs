@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Streich LLC",
+  "ProviderName": "Klocko-Kihn",
   "Restrictions": [
     {
-      "Name": "Weissnat, Lang and Hand",
-      "Operator": "veniam",
+      "Name": "Ondricka, Pagac and Feil",
+      "Operator": "blanditiis",
       "Values": [
-        "assumenda",
-        "voluptatem"
+        "asperiores",
+        "impedit"
       ],
       "DisplayValues": [
-        "sed",
-        "aut"
+        "voluptatem",
+        "consectetur"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 603,
+      "InterParenthesis": 851,
       "InterOperator": "And",
-      "UniqueHash": 893
+      "UniqueHash": 943
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Dibbert, Hamill and Greenholt",
-    "DisplayTooltip": "voluptas",
-    "DisplayType": "ut",
+    "DisplayName": "Simonis, Batz and Miller",
+    "DisplayTooltip": "veritatis",
+    "DisplayType": "ea",
     "CanOrderBy": false,
-    "Name": "Schinner Inc and Sons",
+    "Name": "Kunze Group",
     "CanRestrictBy": true,
-    "RestrictionType": "at",
-    "RestrictionListName": "Mitchell-Block",
-    "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "suscipit",
-    "IconHint": "distinctio",
-    "HeadingIconHint": "assumenda"
+    "RestrictionType": "vero",
+    "RestrictionListName": "Hayes, McClure and Olson",
+    "IsVisible": true,
+    "ExtraInfo": "et",
+    "Width": "hic",
+    "IconHint": "ut",
+    "HeadingIconHint": "nisi"
   }
 ]
 ```

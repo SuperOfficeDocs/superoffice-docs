@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 281,
+  "EjMessageId": 891,
   "Ticket": null,
-  "CreatedAt": "2018-01-20T12:01:28.3690675+01:00",
+  "CreatedAt": "2012-08-11T14:32:04.0303478+02:00",
   "CreatedBy": null,
-  "Author": "quod",
+  "Author": "excepturi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "porro",
-  "TimeSpent": 906,
-  "Body": "numquam",
-  "HtmlBody": "placeat",
-  "EmailHeader": "lon.kuhlman@wehnerkemmer.info",
-  "DebugInfo": "amet",
-  "MailSorter": "adipisci",
+  "MessageId": "voluptatum",
+  "TimeSpent": 434,
+  "Body": "delectus",
+  "HtmlBody": "quo",
+  "EmailHeader": "novella_sporer@wyman.name",
+  "DebugInfo": "dolor",
+  "MailSorter": "dolores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "debitis",
+  "SearchTitle": "vel",
   "MessageHeaders": [
     {
-      "Id": 588,
-      "Name": "Hermiston Group",
-      "Value": "quia",
+      "Id": 598,
+      "Name": "Wyman Inc and Sons",
+      "Value": "iure",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 588,
-      "Name": "Hermiston Group",
-      "Value": "quia",
+      "Id": 598,
+      "Name": "Wyman Inc and Sons",
+      "Value": "iure",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "earum",
-  "Sentiment": 141,
-  "SentimentConfidence": 648,
+  "Important": true,
+  "Language": "voluptatum",
+  "Sentiment": 459,
+  "SentimentConfidence": 230,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 563,
-      "Name": "Sporer, Senger and Gusikowski",
-      "ContentType": "eum",
-      "AttSize": 629,
-      "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "exercitationem",
+      "AttachmentId": 396,
+      "Name": "Quigley-Grant",
+      "ContentType": "in",
+      "AttSize": 740,
+      "InlineImage": false,
+      "ContentId": "cupiditate",
+      "AuthKey": "dolor",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "sunt"
+    "CustomFields1": "eum",
+    "CustomFields2": "eum"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 461,
+  "EjMessageId": 871,
   "Ticket": null,
-  "CreatedAt": "2019-12-21T12:01:28.3690675+01:00",
+  "CreatedAt": "2018-04-03T14:32:04.0459663+02:00",
   "CreatedBy": null,
-  "Author": "dolor",
+  "Author": "natus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quaerat",
-  "TimeSpent": 62,
-  "Body": "est",
-  "HtmlBody": "blanditiis",
-  "EmailHeader": "lester_kassulke@hammespurdy.ca",
-  "DebugInfo": "quo",
-  "MailSorter": "inventore",
+  "MessageId": "architecto",
+  "TimeSpent": 460,
+  "Body": "at",
+  "HtmlBody": "doloremque",
+  "EmailHeader": "scottie.senger@hodkiewiczbeatty.co.uk",
+  "DebugInfo": "sed",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "fugit",
   "MessageHeaders": [
     {
-      "Id": 123,
-      "Name": "Schoen-Stanton",
-      "Value": "porro",
+      "Id": 632,
+      "Name": "Crist, Kovacek and Botsford",
+      "Value": "unde",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldType": "System.String",
+          "FieldLength": 793
         }
       }
     }
   ],
   "Important": false,
-  "Language": "consequatur",
-  "Sentiment": 975,
-  "SentimentConfidence": 292,
+  "Language": "vitae",
+  "Sentiment": 639,
+  "SentimentConfidence": 611,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 908,
-      "Name": "Rath, Shanahan and Dickens",
-      "ContentType": "facere",
-      "AttSize": 866,
-      "InlineImage": true,
-      "ContentId": "rerum",
-      "AuthKey": "culpa",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 820,
+      "Name": "Toy, Bednar and Krajcik",
+      "ContentType": "quam",
+      "AttSize": 502,
+      "InlineImage": false,
+      "ContentId": "hic",
+      "AuthKey": "est",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 960
+          "FieldType": "System.String",
+          "FieldLength": 225
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "animi"
+    "CustomFields1": "necessitatibus",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 322
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 24,
-  "ERPQuoteAlternativeKey": "enim",
-  "QuoteVersionId": 125,
-  "Name": "Heaney, Johnson and Brakus",
-  "Description": "User-friendly homogeneous infrastructure",
+  "QuoteAlternativeId": 894,
+  "ERPQuoteAlternativeKey": "perferendis",
+  "QuoteVersionId": 631,
+  "Name": "Quitzon, Jones and Kautzer",
+  "Description": "Fully-configurable modular monitoring",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17077.166,
-  "ERPDiscountAmount": 26272.322,
-  "DiscountPercent": 14168.814,
-  "DiscountAmount": 23423.516,
+  "ERPDiscountPercent": 25131.546,
+  "ERPDiscountAmount": 8537.016,
+  "DiscountPercent": 28096.309999999998,
+  "DiscountAmount": 27742.167999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "at",
-  "VAT": 13400.984,
-  "EarningPercent": 6490.514,
-  "EarningAmount": 15441.217999999999,
-  "SubTotal": 23201.002,
-  "TotalPrice": 6496.782,
-  "ExtraField1": "enim",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "velit",
-  "ExtraField5": "est",
+  "VATInfo": "minima",
+  "VAT": 29741.66,
+  "EarningPercent": 12664.493999999999,
+  "EarningAmount": 26610.793999999998,
+  "SubTotal": 13447.993999999999,
+  "TotalPrice": 16547.52,
+  "ExtraField1": "rerum",
+  "ExtraField2": "quos",
+  "ExtraField3": "velit",
+  "ExtraField4": "qui",
+  "ExtraField5": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 316
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 289,
-    "Name": "Leffler-Marks",
-    "OrgNr": "877371",
-    "Department": "e-enable robust eyeballs",
+    "ContactId": 494,
+    "Name": "Zemlak-Aufderhar",
+    "OrgNr": "1556159",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "708-308-8315 x18971",
-    "AssociateId": 306,
-    "CountryId": 175,
-    "EmailAddress": "dolores.purdy@rolfson.ca",
-    "Kananame": "rem",
-    "EmailAddressName": "baron@lind.biz",
+    "City": "reiciendis",
+    "DirectPhone": "249-537-5697 x37287",
+    "AssociateId": 754,
+    "CountryId": 994,
+    "EmailAddress": "justice.zemlak@lesch.info",
+    "Kananame": "provident",
+    "EmailAddressName": "hipolito_trantow@abbottolson.com",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Bailee Gerlach",
+    "AssociateFullName": "Carmella Kamille Keeling DDS",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "error",
-    "FullName": "Dr. Ladarius Danika Prohaska",
+    "FormattedAddress": "aliquid",
+    "FullName": "Alfonso Schmeler Jr.",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 972,
-    "Number1": "1276615",
-    "Number2": "944607",
+    "ActiveErpLinks": 623,
+    "Number1": "306891",
+    "Number2": "812435",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldType": "System.Int32",
+        "FieldLength": 637
       }
     }
   }

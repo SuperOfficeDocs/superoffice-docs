@@ -77,32 +77,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 503,
-  "LabelLayoutId": 130,
-  "Filename": "in",
-  "Language": "voluptatem",
-  "FileType": "et",
+  "ReportId": 232,
+  "LabelLayoutId": 744,
+  "Filename": "rerum",
+  "Language": "quia",
+  "FileType": "nihil",
   "Restrictions": [
     {
-      "Name": "Larkin, Romaguera and Hyatt",
-      "Operator": "temporibus",
+      "Name": "Mills Inc and Sons",
+      "Operator": "amet",
       "Values": [
-        "occaecati",
-        "corrupti"
+        "rerum",
+        "in"
       ],
       "DisplayValues": [
-        "vel",
-        "suscipit"
+        "id",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 664,
+      "InterParenthesis": 666,
       "InterOperator": "And",
-      "UniqueHash": 781
+      "UniqueHash": 97
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"voluptas"
 ```

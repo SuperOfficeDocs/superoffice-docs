@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320,
-  "Name": "Pfeffer Group",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "UdListDefinitionId": 239,
-  "Rank": 165,
+  "Id": 648,
+  "Name": "Gulgowski, Brakus and Greenfelder",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "UdListDefinitionId": 188,
+  "Rank": 570,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 688
     }
   }
 }

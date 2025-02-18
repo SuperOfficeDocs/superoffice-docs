@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 804,
+    "TargetDimensionId": 600,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "dolor",
-    "DimensionListName": "Frami Group",
-    "DimensionListId": 185,
-    "DimensionListLabel": "qui",
+    "DimensionListField": "quia",
+    "DimensionListName": "King-Rice",
+    "DimensionListId": 277,
+    "DimensionListLabel": "rerum",
     "SelectedDimensions": [
-      700,
-      858
+      506,
+      799
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldLength": 787
       }
     }
   }

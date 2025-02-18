@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 633
+  "QuoteVersionId": 500
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 652,
-  "ERPQuoteVersionKey": "id",
-  "QuoteId": 528,
-  "Description": "Open-source bifurcated capability",
-  "Number": "1259211",
+  "QuoteVersionId": 900,
+  "ERPQuoteVersionKey": "quod",
+  "QuoteId": 130,
+  "Description": "Self-enabling impactful service-desk",
+  "Number": "1678539",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 400,
-  "SentDate": "2002-06-10T12:01:28.1815588+02:00",
-  "FollowupId": 650,
-  "ExpirationDate": "2017-03-20T12:01:28.1815588+01:00",
-  "DeliveryCountryId": 194,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 828,
+  "LikelyQuoteAlternativeId": 820,
+  "SentDate": "2023-10-29T14:32:03.5460782+01:00",
+  "FollowupId": 404,
+  "ExpirationDate": "2000-05-25T14:32:03.5460782+02:00",
+  "DeliveryCountryId": 230,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 508,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "incidunt",
-  "ERPPaymentTypeKey": "similique",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "laboriosam",
-  "Rank": 741,
-  "ApprovedBy": 161,
-  "ApprovedText": "aliquam",
-  "ApprovedRegisteredBy": 914,
-  "ApprovedRegisteredDate": "2001-12-27T12:01:28.1815588+01:00",
-  "ExtraField1": "nesciunt",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "totam",
-  "ExtraField4": "ut",
-  "ExtraField5": "distinctio",
-  "LastRecalculated": "2000-05-09T12:01:28.1815588+02:00",
-  "Updated": "2013-04-12T12:01:28.1815588+02:00",
-  "UpdatedAssociateId": 25,
-  "Registered": "2019-02-01T12:01:28.1815588+01:00",
-  "RegisteredAssociateId": 349,
-  "RequestAssociateId": 656,
-  "RequestComment": "temporibus",
+  "ERPPaymentTermsKey": "molestiae",
+  "ERPPaymentTypeKey": "est",
+  "ERPDeliveryTermsKey": "totam",
+  "ERPDeliveryTypeKey": "omnis",
+  "Rank": 598,
+  "ApprovedBy": 368,
+  "ApprovedText": "non",
+  "ApprovedRegisteredBy": 519,
+  "ApprovedRegisteredDate": "2020-05-22T14:32:03.5460782+02:00",
+  "ExtraField1": "soluta",
+  "ExtraField2": "quia",
+  "ExtraField3": "qui",
+  "ExtraField4": "ducimus",
+  "ExtraField5": "minima",
+  "LastRecalculated": "2024-05-05T14:32:03.5460782+02:00",
+  "Updated": "2019-05-01T14:32:03.5460782+02:00",
+  "UpdatedAssociateId": 451,
+  "Registered": "1999-01-24T14:32:03.5460782+01:00",
+  "RegisteredAssociateId": 723,
+  "RequestAssociateId": 844,
+  "RequestComment": "dolorem",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 363,
-      "ERPQuoteAlternativeKey": "harum",
-      "QuoteVersionId": 611,
-      "Name": "Oberbrunner, Bernier and Sipes",
-      "Description": "Progressive exuding encoding",
+      "QuoteAlternativeId": 874,
+      "ERPQuoteAlternativeKey": "explicabo",
+      "QuoteVersionId": 787,
+      "Name": "Feeney-Hahn",
+      "Description": "Ameliorated upward-trending functionalities",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 13162.8,
-      "ERPDiscountAmount": 4989.3279999999995,
-      "DiscountPercent": 17334.154,
-      "DiscountAmount": 21815.773999999998,
+      "ERPDiscountPercent": 12949.688,
+      "ERPDiscountAmount": 426.224,
+      "DiscountPercent": 30550.232,
+      "DiscountAmount": 17412.504,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 24366.85,
-      "EarningPercent": 20345.928,
-      "EarningAmount": 22035.154,
-      "SubTotal": 2294.0879999999997,
-      "TotalPrice": 20794.09,
-      "ExtraField1": "ut",
-      "ExtraField2": "molestiae",
-      "ExtraField3": "aut",
-      "ExtraField4": "a",
-      "ExtraField5": "dolores",
+      "VATInfo": "sint",
+      "VAT": 28638.492,
+      "EarningPercent": 14037.186,
+      "EarningAmount": 25037.525999999998,
+      "SubTotal": 4049.1279999999997,
+      "TotalPrice": 29393.786,
+      "ExtraField1": "aut",
+      "ExtraField2": "quibusdam",
+      "ExtraField3": "repellat",
+      "ExtraField4": "hic",
+      "ExtraField5": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldLength": 975
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

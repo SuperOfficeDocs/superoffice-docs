@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 598,
-  "ColumnId": 735,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 431,
-  "FieldLabel": "hic",
-  "FieldLeft": 626,
-  "FieldTop": 862,
+  "UDefFieldId": 361,
+  "ColumnId": 110,
+  "FieldDefault": "asperiores",
+  "FieldHeight": 625,
+  "FieldLabel": "maxime",
+  "FieldLeft": 463,
+  "FieldTop": 359,
   "FieldType": "Checkbox",
-  "FieldWidth": 525,
-  "FormatMask": "id",
-  "HideLabel": true,
+  "FieldWidth": 708,
+  "FormatMask": "rerum",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 417,
-  "LabelLeft": 821,
-  "LabelTop": 813,
-  "LabelWidth": 657,
-  "LastVersionId": 671,
-  "ListTableId": 393,
-  "IsMandatory": false,
+  "LabelHeight": 635,
+  "LabelLeft": 28,
+  "LabelTop": 81,
+  "LabelWidth": 281,
+  "LastVersionId": 639,
+  "ListTableId": 261,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 887,
-  "ProgId": "rerum",
-  "IsReadOnly": true,
-  "ShortLabel": "autem",
-  "TabOrder": 184,
-  "TextLength": 450,
-  "Tooltip": "sed",
-  "UdefIdentity": 563,
-  "UDListDefinitionId": 202,
+  "Page1LineNo": 359,
+  "ProgId": "magnam",
+  "IsReadOnly": false,
+  "ShortLabel": "vero",
+  "TabOrder": 403,
+  "TextLength": 847,
+  "Tooltip": "sint",
+  "UdefIdentity": 820,
+  "UDListDefinitionId": 405,
   "Justification": "Center",
-  "Version": 310,
-  "TemplateVariableName": "Renner-Hegmann",
-  "HasBeenPublished": true,
-  "MdoListName": "Mayert, Feest and Brakus",
+  "Version": 363,
+  "TemplateVariableName": "Wilderman, Schmitt and Strosin",
+  "HasBeenPublished": false,
+  "MdoListName": "Green, Fisher and Grimes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 832
     }
   }
 }

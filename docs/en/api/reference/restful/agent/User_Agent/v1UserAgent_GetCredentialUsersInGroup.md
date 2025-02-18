@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "numquam",
-  "GroupName": "Ratke, Kutch and Volkman"
+  "Type": "sit",
+  "GroupName": "Bruen, Rolfson and Lueilwitz"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "ipsam",
-    "eaque"
+    "accusamus",
+    "quidem"
   ],
   "Users": [
     {
-      "Value": "rerum",
-      "DisplayValue": "quis",
+      "Value": "quibusdam",
+      "DisplayValue": "ex",
       "Columns": [
-        "et",
-        "dolore"
+        "explicabo",
+        "minus"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     },
     {
-      "Value": "rerum",
-      "DisplayValue": "quis",
+      "Value": "quibusdam",
+      "DisplayValue": "ex",
       "Columns": [
-        "et",
-        "dolore"
+        "explicabo",
+        "minus"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldType": "System.Int32",
+          "FieldLength": 224
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 227
     }
   }
 }

@@ -71,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 799,
+  "ProductId": 181,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

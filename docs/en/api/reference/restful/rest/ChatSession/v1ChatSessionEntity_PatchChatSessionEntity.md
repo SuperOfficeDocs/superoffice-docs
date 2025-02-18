@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 499,
-  "TopicId": 621,
+  "ChatSessionId": 21,
+  "TopicId": 805,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eligendi",
-  "CustomerHost": "necessitatibus",
-  "CustomerName": "Ondricka LLC",
-  "CustomerEmail": "river@lindgren.info",
-  "CustomerPhone": "175-973-2489 x23884",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Lehner, Dickinson and Hegmann",
+  "CustomerAlias": "provident",
+  "CustomerHost": "voluptate",
+  "CustomerName": "Orn LLC",
+  "CustomerEmail": "coralie@ferryeffertz.com",
+  "CustomerPhone": "1-477-769-3204",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Veum-Reynolds",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "exercitationem",
-  "WhenRequested": "2021-03-22T12:01:32.7144227+01:00",
-  "WhenStarted": "2020-01-30T12:01:32.7144227+01:00",
-  "WhenEnded": "2015-03-28T12:01:32.7144227+01:00",
-  "WhenIdle": "2009-06-29T12:01:32.7144227+02:00",
-  "WhenFetched": "2005-06-12T12:01:32.7144227+02:00",
-  "SessionKey": "blanditiis",
-  "InitialQueuePos": 662,
-  "AlertLevel": 162,
-  "Rank": 922,
+  "FirstMessage": "aperiam",
+  "LastMessage": "et",
+  "WhenRequested": "2021-04-07T14:32:11.130235+02:00",
+  "WhenStarted": "2000-01-18T14:32:11.130235+01:00",
+  "WhenEnded": "2008-01-13T14:32:11.130235+01:00",
+  "WhenIdle": "2007-04-02T14:32:11.130235+02:00",
+  "WhenFetched": "2003-09-04T14:32:11.130235+02:00",
+  "SessionKey": "velit",
+  "InitialQueuePos": 224,
+  "AlertLevel": 766,
+  "Rank": 815,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 697,
+  "ChatbotIsActive": true,
+  "Rating": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 501
     }
   },
   "_Links": {

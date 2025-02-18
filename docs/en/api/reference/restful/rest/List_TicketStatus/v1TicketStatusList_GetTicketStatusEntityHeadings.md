@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Mills-Kozey",
-    "Tooltip": "sit",
+    "HeadingId": 466,
+    "Name": "Ratke Inc and Sons",
+    "Tooltip": "veritatis",
     "Deleted": true,
-    "Rank": 996,
-    "UdListDefinitionId": 535,
+    "Rank": 750,
+    "UdListDefinitionId": 481,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldLength": 615
       }
     }
   }

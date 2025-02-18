@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 455,
-  "Name": "Wilkinson, Cole and Klein",
-  "Description": "Exclusive high-level hardware",
-  "DefaultHeight": 863,
-  "DefaultWidth": 336,
+  "DashboardTileDefinitionId": 162,
+  "Name": "Barrows, Medhurst and Kiehn",
+  "Description": "Diverse executive info-mediaries",
+  "DefaultHeight": 528,
+  "DefaultWidth": 626,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kiehn, Roob and Parisian",
-  "SelectionId": 889,
+  "EntityName": "Stracke-Hayes",
+  "SelectionId": 636,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "in",
   "Measure": "Average",
-  "MeasureField": "asperiores",
-  "SortBy": "quibusdam",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 498,
-  "MeasureByField": "iste",
+  "MeasureField": "quo",
+  "SortBy": "quisquam",
+  "LayoutConfig": "rerum",
+  "SecondarySelectionId": 705,
+  "MeasureByField": "fugit",
   "Usage": "Dashboard",
-  "ProviderName": "Rice, Ratke and Swaniawski"
+  "ProviderName": "Gorczany Inc and Sons"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 742,
-  "Name": "Lubowitz, McDermott and Weimann",
-  "Description": "Digitized well-modulated approach",
-  "DefaultHeight": 108,
-  "DefaultWidth": 115,
+  "DashboardTileDefinitionId": 159,
+  "Name": "Gulgowski, Rohan and Mohr",
+  "Description": "Synchronised full-range framework",
+  "DefaultHeight": 516,
+  "DefaultWidth": 294,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Thiel Group",
-  "SelectionId": 134,
+  "EntityName": "O'Kon, Stark and Windler",
+  "SelectionId": 556,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "voluptate",
   "Measure": "Average",
-  "MeasureField": "fugiat",
-  "SortBy": "earum",
-  "LayoutConfig": "laboriosam",
-  "SecondarySelectionId": 992,
-  "MeasureByField": "sed",
+  "MeasureField": "possimus",
+  "SortBy": "porro",
+  "LayoutConfig": "dignissimos",
+  "SecondarySelectionId": 334,
+  "MeasureByField": "nam",
   "Usage": "Dashboard",
-  "ProviderName": "Fay, Bernhard and Wilkinson",
+  "ProviderName": "Braun, Walsh and Connelly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 263
     }
   },
   "_Links": {

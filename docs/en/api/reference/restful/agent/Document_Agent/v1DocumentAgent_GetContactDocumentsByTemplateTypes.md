@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 10,
-  "StartTime": "2013-11-16T12:01:27.5877684+01:00",
-  "EndTime": "2014-08-09T12:01:27.5877684+02:00",
-  "Count": 87,
+  "ContactId": 585,
+  "StartTime": "2007-05-07T14:32:02.6242172+02:00",
+  "EndTime": "2002-11-21T14:32:02.6242172+01:00",
+  "Count": 848,
   "DocumentTemplateIds": [
-    755,
-    155
+    511,
+    603
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 234,
-    "Attention": "occaecati",
-    "Header": "quae",
-    "Name": "Welch, Labadie and Romaguera",
-    "OurRef": "neque",
-    "YourRef": "vero",
-    "Description": "Open-architected leading edge encoding",
-    "DocumentTemplate": "tempore",
-    "IsPublished": false,
-    "PersonId": 209,
-    "PersonFullName": "Prof. Garland Schuppe",
-    "AssociateFullName": "Franz Bahringer Jr.",
-    "ContactId": 141,
-    "ContactName": "Hegmann Group",
-    "ProjectId": 452,
-    "ProjectName": "Keebler, Hudson and Bosco",
-    "AssociateId": 744,
-    "Snum": 808,
-    "SaleId": 65,
-    "SaleName": "Pacocha-Von",
+    "DocumentId": 599,
+    "Attention": "error",
+    "Header": "eum",
+    "Name": "O'Keefe, Langosh and Effertz",
+    "OurRef": "aut",
+    "YourRef": "voluptas",
+    "Description": "Grass-roots value-added knowledge base",
+    "DocumentTemplate": "earum",
+    "IsPublished": true,
+    "PersonId": 806,
+    "PersonFullName": "Shaylee Collins",
+    "AssociateFullName": "Mr. Nels Mertz IV",
+    "ContactId": 99,
+    "ContactName": "Thiel, Roberts and Daniel",
+    "ProjectId": 823,
+    "ProjectName": "Walsh-Koss",
+    "AssociateId": 386,
+    "Snum": 353,
+    "SaleId": 819,
+    "SaleName": "Hermiston, Kessler and Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 202
       }
     }
   }

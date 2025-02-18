@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Tromp-Sanford",
-  "DeviceName": "Weissnat, Bogisich and Walter",
+  "ApplicationName": "Lang Inc and Sons",
+  "DeviceName": "Williamson Group",
   "DeviceIdentifier": "dolore"
 }
 ```
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "neque",
-  "Value": "magnam",
-  "RecordId": 32,
-  "CreatedDate": "2002-06-19T12:01:27.9002891+02:00",
-  "UpdatedDate": "2023-10-26T12:01:27.9002891+02:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "eius",
-  "TableName": "Johnson-Connelly",
+  "Key": "ea",
+  "Value": "qui",
+  "RecordId": 252,
+  "CreatedDate": "2001-07-24T14:32:03.0303748+02:00",
+  "UpdatedDate": "2003-12-05T14:32:03.0303748+01:00",
+  "UpdatedBy": "occaecati",
+  "CreatedBy": "natus",
+  "TableName": "Jenkins LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Smitham, Fadel and Dietrich",
-  "AssociateId": 340,
-  "DetailsTable": 58,
-  "DetailsRecord": 17,
+  "Id": 845,
+  "Name": "Beahan-Fritsch",
+  "AssociateId": 160,
+  "DetailsTable": 584,
+  "DetailsRecord": 335,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "neque"
+    "ParameterObject1": "eligendi",
+    "ParameterObject2": "ut"
   },
-  "LastStarted": "2002-03-13T12:01:27.3533761+01:00",
-  "Created": "2020-10-08T12:01:27.3533761+02:00",
-  "StartCount": 223,
-  "DatabaseSerialNumber": "421448",
-  "Context": "et",
-  "Result": "temporibus",
+  "LastStarted": "2010-04-24T14:32:02.0462229+02:00",
+  "Created": "1997-11-26T14:32:02.0462229+01:00",
+  "StartCount": 935,
+  "DatabaseSerialNumber": "1079224",
+  "Context": "qui",
+  "Result": "eveniet",
   "State": "All",
-  "Description": "Stand-alone mission-critical hierarchy",
-  "Response": "aspernatur",
-  "Request": "illum",
-  "ProgressDescription": "Enhanced cohesive structure",
-  "ProgressPercent": 186,
-  "FileName": "Legros LLC",
+  "Description": "Re-engineered directional attitude",
+  "Response": "quos",
+  "Request": "et",
+  "ProgressDescription": "Synergized motivating Graphical User Interface",
+  "ProgressPercent": 243,
+  "FileName": "Schulist LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 26
     }
   }
 }

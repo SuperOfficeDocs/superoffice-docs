@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "deserunt",
+    "Id": 297,
+    "Name": "Spinka, Moen and Bailey",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 673
+    "UdListDefinitionId": 419,
+    "Rank": 410
   },
   {
-    "Id": 98,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "deserunt",
+    "Id": 297,
+    "Name": "Spinka, Moen and Bailey",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 673
+    "UdListDefinitionId": 419,
+    "Rank": 410
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Wuckert-Legros",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "UdListDefinitionId": 723,
-    "Rank": 145,
+    "Id": 481,
+    "Name": "Ernser Group",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "UdListDefinitionId": 298,
+    "Rank": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 918
       }
     }
   }

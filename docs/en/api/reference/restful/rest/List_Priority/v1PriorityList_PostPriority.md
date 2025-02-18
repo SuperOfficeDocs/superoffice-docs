@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Roberts, Vandervort and Turner",
-  "Tooltip": "ad",
+  "Id": 262,
+  "Name": "Runolfsson Inc and Sons",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "UdListDefinitionId": 629,
-  "Rank": 989
+  "UdListDefinitionId": 368,
+  "Rank": 295
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Sporer LLC",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 867,
+  "Id": 508,
+  "Name": "Harris-Frami",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "UdListDefinitionId": 145,
+  "Rank": 859,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldLength": 207
     }
   }
 }

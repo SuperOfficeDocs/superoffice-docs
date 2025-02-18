@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 374,
-  "Name": "Runte LLC",
-  "CreatedDate": "2024-06-26T12:01:27.9002891+02:00",
-  "UpdatedDate": "2005-12-19T12:01:27.9002891+01:00",
+  "ForeignAppId": 34,
+  "Name": "Shields-Ernser",
+  "CreatedDate": "2013-01-13T14:32:03.0147529+01:00",
+  "UpdatedDate": "2002-11-11T14:32:03.0147529+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 25,
-      "Name": "Hagenes-Mueller",
-      "CreatedDate": "2005-12-02T12:01:27.9002891+01:00",
-      "UpdatedDate": "2000-02-07T12:01:27.9002891+01:00",
-      "AssociateFullName": "Anabelle Sawayn",
+      "ForeignDeviceId": 216,
+      "Name": "Toy, Pouros and Hintz",
+      "CreatedDate": "2001-07-09T14:32:03.0147529+02:00",
+      "UpdatedDate": "1998-05-01T14:32:03.0147529+02:00",
+      "AssociateFullName": "Courtney Torphy",
       "CreatedBy": "sunt",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "sapiente",
-      "ForeignAppId": 704,
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "velit",
+      "ForeignAppId": 790,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 434
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 667
     }
   }
 }

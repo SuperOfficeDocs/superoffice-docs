@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 24 Aug 2008 12:01:32 G8T
+Last-Modified: Sat, 17 Mar 2007 14:32:11 G3T
 
 {
-  "DocumentId": 352,
+  "DocumentId": 678,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "rem",
-  "Name": "Gaylord Group",
-  "OurRef": "voluptatem",
-  "YourRef": "quisquam",
-  "CreatedDate": "2013-05-02T12:01:32.8550575+02:00",
-  "UpdatedDate": "2008-08-24T12:01:32.8550575+02:00",
-  "Description": "Team-oriented dedicated time-frame",
+  "Attention": "qui",
+  "Header": "delectus",
+  "Name": "Greenfelder, Schmidt and Greenfelder",
+  "OurRef": "cumque",
+  "YourRef": "et",
+  "CreatedDate": "2022-11-16T14:32:11.3960655+01:00",
+  "UpdatedDate": "2007-03-17T14:32:11.3960655+01:00",
+  "Description": "Progressive grid-enabled instruction set",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-01-14T12:01:32.8550575+01:00",
-  "ExternalRef": "et",
+  "Date": "2020-02-21T14:32:11.3960655+01:00",
+  "ExternalRef": "mollitia",
   "Completed": "Completed",
-  "ActiveLinks": 162,
+  "ActiveLinks": 679,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reichel, Schowalter and Leffler",
-      "Id": 92,
-      "Description": "Open-source client-server capability",
-      "ExtraInfo": "qui",
-      "LinkId": 960,
+      "EntityName": "McKenzie, Gutkowski and Mitchell",
+      "Id": 393,
+      "Description": "Ameliorated real-time initiative",
+      "ExtraInfo": "commodi",
+      "LinkId": 213,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 397,
-  "Snum": 831,
+  "SuggestedDocumentId": 233,
+  "Snum": 560,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1124487089"
+    "SuperOffice:1": "Prof. Linnie Alisha Swaniawski Sr.",
+    "SuperOffice:2": "Terrence Effertz"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "sequi",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "suscipit"
   },
-  "PublishEventDate": "2008-10-01T12:01:32.8550575+02:00",
-  "PublishTo": "2002-12-16T12:01:32.8550575+01:00",
-  "PublishFrom": "2001-11-10T12:01:32.8550575+01:00",
+  "PublishEventDate": "2020-06-23T14:32:11.4117283+02:00",
+  "PublishTo": "2004-10-19T14:32:11.4117283+02:00",
+  "PublishFrom": "2000-08-05T14:32:11.4117283+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 201,
+      "VisibleId": 406,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     },
     {
-      "VisibleId": 201,
+      "VisibleId": 406,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sun, 24 Aug 2008 12:01:32 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 298
     }
   }
 }

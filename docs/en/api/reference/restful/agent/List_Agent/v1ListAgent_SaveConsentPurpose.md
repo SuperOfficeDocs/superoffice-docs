@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 599,
-  "Name": "Hane Group",
-  "ConsentText": "ducimus",
-  "FormText": "autem",
-  "Key": "explicabo",
-  "Tooltip": "sapiente",
-  "Active": 87,
-  "UpdatedDate": "2022-09-06T12:01:27.9940463+02:00",
+  "ConsentPurposeId": 4,
+  "Name": "Welch, Sporer and Mayer",
+  "ConsentText": "delectus",
+  "FormText": "est",
+  "Key": "et",
+  "Tooltip": "voluptas",
+  "Active": 329,
+  "UpdatedDate": "2012-06-15T14:32:03.202412+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 452,
-  "PrivacyStatementDesc": "voluptatem",
+  "Rank": 758,
+  "PrivacyStatementDesc": "fugit",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 526
     }
   }
 }

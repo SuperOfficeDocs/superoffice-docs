@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "distinctio"
+  "ChatId": "labore"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
-    "UserPrompt": "quod",
-    "UserDisplayText": "omnis",
-    "BotResponse": "vel",
+    "Timestamp": "2019-09-21T14:32:01.4211928+02:00",
+    "UserPrompt": "molestiae",
+    "UserDisplayText": "exercitationem",
+    "BotResponse": "adipisci",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ut"
+      "BotActions1": "quasi",
+      "BotActions2": "reprehenderit"
     },
     "Attachments": [
-      "excepturi",
-      "numquam"
+      "adipisci",
+      "qui"
     ]
   },
   {
-    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
-    "UserPrompt": "quod",
-    "UserDisplayText": "omnis",
-    "BotResponse": "vel",
+    "Timestamp": "2019-09-21T14:32:01.4211928+02:00",
+    "UserPrompt": "molestiae",
+    "UserDisplayText": "exercitationem",
+    "BotResponse": "adipisci",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ut"
+      "BotActions1": "quasi",
+      "BotActions2": "reprehenderit"
     },
     "Attachments": [
-      "excepturi",
-      "numquam"
+      "adipisci",
+      "qui"
     ]
   }
 ]

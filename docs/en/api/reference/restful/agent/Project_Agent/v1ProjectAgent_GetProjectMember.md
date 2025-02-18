@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=179
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=417
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 663,
-  "ContactId": 358,
-  "ProjectId": 683,
-  "ContactName": "Treutel-Wintheiser",
+  "ProjectmemberId": 188,
+  "ContactId": 125,
+  "ProjectId": 28,
+  "ContactName": "Kertzmann, Harber and Lang",
   "ContactDepartment": "",
-  "ProjectName": "Bernier-Hodkiewicz",
-  "EmailId": 107,
-  "EmailAddress": "abigail@bernier.uk",
-  "CountryId": 258,
-  "Firstname": "Susan",
-  "MiddleName": "Klein-Herzog",
-  "Lastname": "Gulgowski",
-  "PersonId": 128,
-  "Mrmrs": "earum",
-  "ProjectMemberTypeName": "Larkin, Aufderhar and Hansen",
-  "Phone": "(839)079-3425 x80898",
-  "PhoneId": 667,
-  "ProjectMemberTypeId": 360,
-  "EmailAddressName": "melissa.beier@reichert.uk",
-  "Comment": "magnam",
-  "FullName": "Tanner Schmidt",
+  "ProjectName": "Bechtelar Group",
+  "EmailId": 801,
+  "EmailAddress": "agustin@lockman.biz",
+  "CountryId": 25,
+  "Firstname": "Eli",
+  "MiddleName": "Roob, Schiller and Bednar",
+  "Lastname": "Greenholt",
+  "PersonId": 342,
+  "Mrmrs": "adipisci",
+  "ProjectMemberTypeName": "Herman LLC",
+  "Phone": "1-969-188-4208 x044",
+  "PhoneId": 110,
+  "ProjectMemberTypeId": 47,
+  "EmailAddressName": "leanne.satterfield@dach.co.uk",
+  "Comment": "reiciendis",
+  "FullName": "Prof. Leonel June Kohler DDS",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,51 +92,51 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 55,
+  "HierarchyId": 987,
   "Domain": "Dashboards",
-  "Name": "Murphy Group",
-  "Fullname": "suscipit",
-  "ParentId": 185,
+  "Name": "Welch LLC",
+  "Fullname": "sed",
+  "ParentId": 971,
   "Children": [
     {
-      "HierarchyId": 160,
+      "HierarchyId": 979,
       "Domain": "Dashboards",
-      "Name": "Kautzer, Reynolds and Marvin",
-      "Fullname": "unde",
-      "ParentId": 584,
+      "Name": "Ankunding Inc and Sons",
+      "Fullname": "voluptatibus",
+      "ParentId": 390,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-09-27T12:01:32.9175621+02:00",
-      "RegisteredAssociateId": 962,
-      "Updated": "2006-07-11T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 448,
+      "Registered": "2014-05-23T14:32:11.5210682+02:00",
+      "RegisteredAssociateId": 406,
+      "Updated": "1999-02-10T14:32:11.5210682+01:00",
+      "UpdatedAssociateId": 809,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 687
         }
       }
     }
   ],
-  "Registered": "2000-09-02T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 872,
-  "Updated": "2006-09-08T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 588,
+  "Registered": "2022-04-03T14:32:11.5210682+02:00",
+  "RegisteredAssociateId": 36,
+  "Updated": "2006-07-29T14:32:11.5210682+02:00",
+  "UpdatedAssociateId": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

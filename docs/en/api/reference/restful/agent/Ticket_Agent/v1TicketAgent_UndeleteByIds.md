@@ -71,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    581,
-    411
+    146,
+    640
   ]
 }
 ```

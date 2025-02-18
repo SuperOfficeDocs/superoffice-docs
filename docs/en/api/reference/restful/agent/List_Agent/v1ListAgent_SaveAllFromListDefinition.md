@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 614,
+  "UdListDefinitionId": 704,
   "Items": [
     {
-      "Id": 685,
-      "Name": "Kohler-Gulgowski",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "UdListDefinitionId": 806,
-      "Rank": 436
+      "Id": 803,
+      "Name": "Leuschke-Stiedemann",
+      "Tooltip": "dolorum",
+      "Deleted": true,
+      "UdListDefinitionId": 409,
+      "Rank": 868
     },
     {
-      "Id": 685,
-      "Name": "Kohler-Gulgowski",
-      "Tooltip": "voluptas",
-      "Deleted": false,
-      "UdListDefinitionId": 806,
-      "Rank": 436
+      "Id": 803,
+      "Name": "Leuschke-Stiedemann",
+      "Tooltip": "dolorum",
+      "Deleted": true,
+      "UdListDefinitionId": 409,
+      "Rank": 868
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Wolff-Roberts",
-    "Tooltip": "eligendi",
-    "Deleted": true,
-    "UdListDefinitionId": 423,
+    "Id": 670,
+    "Name": "Jacobs-Tillman",
+    "Tooltip": "eos",
+    "Deleted": false,
+    "UdListDefinitionId": 201,
     "Rank": 982,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldType": "System.String",
+        "FieldLength": 402
       }
     }
   }

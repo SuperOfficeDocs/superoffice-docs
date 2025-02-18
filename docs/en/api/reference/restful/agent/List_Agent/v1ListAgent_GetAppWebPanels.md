@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 713,
-    "Name": "Lueilwitz, Kovacek and Ebert",
-    "Tooltip": "adipisci",
-    "Deleted": false,
-    "Rank": 70,
+    "WebPanelId": 683,
+    "Name": "Swift, Hills and Walsh",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 250,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": true,
-    "WindowName": "Towne-Hauck",
+    "WindowName": "Oberbrunner-Funk",
     "Url": "http://www.example.com/",
-    "ProgId": "ea",
-    "Icon": 702,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "itaque",
+    "Icon": 908,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 794
+        "FieldLength": 557
       }
     }
   }

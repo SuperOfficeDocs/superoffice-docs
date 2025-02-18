@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=dolor
-GET /api/v1/User?$top=191
-GET /api/v1/User?$skip=60
+GET /api/v1/User?$entities=ab
+GET /api/v1/User?$top=748
+GET /api/v1/User?$skip=646
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=et
+GET /api/v1/User?$context=iure
 GET /api/v1/User?$format=JSON
 GET /api/v1/User?$jsonSafe=False
 GET /api/v1/User?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quibusdam",
+  "odata.nextLink": "blanditiis",
   "value": [
     {
-      "PrimaryKey": 4592,
-      "EntityName": "person",
-      "personId": 4592,
-      "fullName": "Rodger Murphy"
+      "PrimaryKey": 34,
+      "EntityName": "sale",
+      "saleId": 34,
+      "contactId": 1629,
+      "name": "Kessler-Beier"
     },
     {
-      "PrimaryKey": 271,
-      "EntityName": "person",
-      "personId": 271,
-      "fullName": "Elliot Renner"
+      "PrimaryKey": 939,
+      "EntityName": "sale",
+      "saleId": 939,
+      "contactId": 1014,
+      "name": "Langworth-O'Connell"
     }
   ]
 }

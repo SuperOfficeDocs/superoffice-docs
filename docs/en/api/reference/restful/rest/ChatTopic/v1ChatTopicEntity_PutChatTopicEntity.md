@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 116,
-  "Name": "Ebert, Lowe and Boyer",
-  "Description": "Team-oriented fresh-thinking migration",
-  "WelcomeMessage": "distinctio",
+  "ChatTopicId": 724,
+  "Name": "Raynor Group",
+  "Description": "Implemented regional emulation",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2001-04-23T12:01:32.7613009+02:00",
-  "SecondsPrAccept": 304,
-  "AlertRecipient": "vel",
+  "LastAccept": "2003-06-10T14:32:11.2239698+02:00",
+  "SecondsPrAccept": 902,
+  "AlertRecipient": "commodi",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "quae",
+  "BadgeHeader": "animi",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nostrum",
-  "WarnNewChatMinutes": 957,
-  "WarnManagerNewChatMinutes": 168,
+  "CustomQueueText": "mollitia",
+  "WarnNewChatMinutes": 346,
+  "WarnManagerNewChatMinutes": 972,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 747,
-  "WarnManagerChatMessageMinutes": 263,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 761,
+  "WarnManagerChatMessageMinutes": 967,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 497,
-  "OfflineFormQueueLength": 542,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ducimus"
+  "OfflineFormTimeLimit": 563,
+  "OfflineFormQueueLength": 328,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "aperiam"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 301,
-  "Name": "Hettinger, Ullrich and Hamill",
-  "Description": "Multi-channelled multi-tasking intranet",
-  "WelcomeMessage": "deleniti",
+  "ChatTopicId": 959,
+  "Name": "Cartwright-Kub",
+  "Description": "Polarised national conglomeration",
+  "WelcomeMessage": "necessitatibus",
   "Language": null,
-  "LastAccept": "2023-02-28T12:01:32.7613009+01:00",
-  "SecondsPrAccept": 163,
-  "AlertRecipient": "esse",
+  "LastAccept": "2005-06-18T14:32:11.2239698+02:00",
+  "SecondsPrAccept": 798,
+  "AlertRecipient": "asperiores",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "rem",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "voluptatum",
-  "WarnNewChatMinutes": 899,
-  "WarnManagerNewChatMinutes": 390,
+  "CustomQueueText": "dolorem",
+  "WarnNewChatMinutes": 325,
+  "WarnManagerNewChatMinutes": 957,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -207,20 +207,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 728,
-  "WarnManagerChatMessageMinutes": 112,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 505,
+  "WarnManagerChatMessageMinutes": 965,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 395,
-  "OfflineFormQueueLength": 502,
+  "OfflineFormTimeLimit": 313,
+  "OfflineFormQueueLength": 673,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "temporibus",
+  "WidgetRatingText": "nisi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 18
     }
   },
   "_Links": {

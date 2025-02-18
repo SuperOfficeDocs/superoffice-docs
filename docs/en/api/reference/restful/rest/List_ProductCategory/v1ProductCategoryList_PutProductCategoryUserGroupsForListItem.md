@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "Et reiciendis reprehenderit et totam.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "est",
-    "ColorBlock": 540,
-    "IconHint": "alias",
+    "Id": 744,
+    "Name": "Farrell-Russel",
+    "ToolTip": "Voluptatem aliquid.",
+    "Deleted": false,
+    "Rank": 931,
+    "Type": "corporis",
+    "ColorBlock": 122,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2022-11-11T12:01:33.5738574+01:00",
+    "LastChanged": "2015-08-23T14:32:12.7408353+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Jaskolski, O'Keefe and Sauer",
-        "ToolTip": "Occaecati cumque aut soluta voluptas suscipit neque voluptatum.",
+        "Id": 909,
+        "Name": "Turcotte LLC",
+        "ToolTip": "Sunt aut numquam.",
         "Deleted": true,
-        "Rank": 116,
-        "Type": "nulla",
-        "ColorBlock": 538,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2018-08-05T12:01:33.5738574+02:00",
+        "Rank": 522,
+        "Type": "distinctio",
+        "ColorBlock": 406,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2022-11-24T14:32:12.7408353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "placeat",
+        "ExtraInfo": "enim",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Dr. Felicia Cartwright MD"
+        "FullName": "Mrs. Addie Cormier PhD"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Sanford Kulas"
+    "ExtraInfo": "iste",
+    "StyleHint": "doloremque",
+    "Hidden": false,
+    "FullName": "Ms. Humberto Adaline Boehm Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Buckridge-Ortiz",
-    "ToolTip": "Necessitatibus error necessitatibus ratione.",
-    "Deleted": true,
-    "Rank": 433,
-    "Type": "consequatur",
-    "ColorBlock": 223,
-    "IconHint": "cupiditate",
+    "Id": 585,
+    "Name": "McCullough, Marquardt and Veum",
+    "ToolTip": "Doloribus totam sint impedit dolorum repudiandae.",
+    "Deleted": false,
+    "Rank": 978,
+    "Type": "repellendus",
+    "ColorBlock": 841,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2019-04-21T12:01:33.5738574+02:00",
+    "LastChanged": "2011-08-13T14:32:12.7408353+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Auer, Wisoky and Reichel",
-        "ToolTip": "Numquam voluptate sed eaque ipsa et maiores aut.",
-        "Deleted": false,
-        "Rank": 371,
-        "Type": "consequatur",
-        "ColorBlock": 228,
-        "IconHint": "et",
+        "Id": 334,
+        "Name": "Wunsch, Murphy and Larkin",
+        "ToolTip": "Quia nam labore reprehenderit.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "cumque",
+        "ColorBlock": 21,
+        "IconHint": "impedit",
         "Selected": false,
-        "LastChanged": "2007-04-29T12:01:33.5738574+02:00",
+        "LastChanged": "2006-09-20T14:32:12.7408353+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "magni",
+        "ExtraInfo": "quos",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Kyle Emmerich",
+        "FullName": "Lou Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Sean Mante",
+    "ExtraInfo": "quidem",
+    "StyleHint": "iste",
+    "Hidden": false,
+    "FullName": "Prof. Alec Leola Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldLength": 376
       }
     }
   }

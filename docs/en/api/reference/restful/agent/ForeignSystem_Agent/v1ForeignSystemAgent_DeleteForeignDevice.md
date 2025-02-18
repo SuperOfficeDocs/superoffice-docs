@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Hahn, Wehner and Reichel"
+  "ApplicationName": "Bruen, Lueilwitz and Doyle"
 }
 ```
 

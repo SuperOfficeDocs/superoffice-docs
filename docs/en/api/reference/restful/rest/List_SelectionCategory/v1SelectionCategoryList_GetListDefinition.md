@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Walker Group",
-  "Tooltip": "omnis",
+  "Id": 724,
+  "Name": "Herman, Bailey and Lockman",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 947,
+  "Rank": 973,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iste",
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Herman-Toy",
-    "ToolTip": "Deserunt voluptatibus et dolores ex exercitationem velit explicabo.",
+    "Id": 192,
+    "Name": "Conroy, Bahringer and Fahey",
+    "ToolTip": "Fugiat praesentium.",
     "Deleted": false,
-    "Rank": 270,
-    "Type": "repellendus",
-    "ColorBlock": 485,
-    "IconHint": "aliquam",
+    "Rank": 120,
+    "Type": "non",
+    "ColorBlock": 483,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2003-10-06T12:01:33.511353+02:00",
+    "LastChanged": "2013-04-22T14:32:12.6301912+02:00",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Schultz Inc and Sons",
-        "ToolTip": "Quia in porro ratione aut in numquam aut.",
-        "Deleted": true,
-        "Rank": 175,
-        "Type": "deserunt",
-        "ColorBlock": 387,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2004-05-09T12:01:33.511353+02:00",
+        "Id": 287,
+        "Name": "Weimann Inc and Sons",
+        "ToolTip": "Id voluptas ipsum.",
+        "Deleted": false,
+        "Rank": 869,
+        "Type": "et",
+        "ColorBlock": 483,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2024-09-17T14:32:12.6301912+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Mrs. Benjamin Cloyd Braun",
+        "ExtraInfo": "cum",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Mr. Clark Christina Harvey DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "repellendus",
-    "Hidden": false,
-    "FullName": "Berneice Feest",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Tyra Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldLength": 648
       }
     }
   }

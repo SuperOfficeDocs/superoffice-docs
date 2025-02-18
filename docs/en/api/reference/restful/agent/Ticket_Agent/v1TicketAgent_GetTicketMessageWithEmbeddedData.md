@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
+  "Id": 751,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 429,
+  "EjMessageId": 849,
   "Ticket": null,
-  "CreatedAt": "2011-10-04T12:01:28.5565847+02:00",
+  "CreatedAt": "2014-09-14T14:32:04.2334312+02:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "magni",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "exercitationem",
-  "TimeSpent": 357,
-  "Body": "perferendis",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "leonard@waelchibergnaum.uk",
-  "DebugInfo": "eveniet",
-  "MailSorter": "nam",
+  "MessageId": "ducimus",
+  "TimeSpent": 486,
+  "Body": "est",
+  "HtmlBody": "sed",
+  "EmailHeader": "olin.batz@kulas.us",
+  "DebugInfo": "molestias",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "veritatis",
   "MessageHeaders": [
     {
-      "Id": 497,
-      "Name": "McKenzie Inc and Sons",
-      "Value": "non",
+      "Id": 527,
+      "Name": "Bernier-Hegmann",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 415,
-  "SentimentConfidence": 206,
+  "Language": "eum",
+  "Sentiment": 99,
+  "SentimentConfidence": 660,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 879,
-      "Name": "Abshire-McClure",
-      "ContentType": "eaque",
-      "AttSize": 930,
+      "AttachmentId": 223,
+      "Name": "Hoppe-King",
+      "ContentType": "et",
+      "AttSize": 455,
       "InlineImage": true,
-      "ContentId": "dicta",
-      "AuthKey": "quis",
-      "IsSafeFileExtension": true,
+      "ContentId": "consequuntur",
+      "AuthKey": "voluptas",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldLength": 735
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "assumenda"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

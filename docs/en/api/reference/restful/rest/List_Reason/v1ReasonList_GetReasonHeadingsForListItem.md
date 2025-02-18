@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Morar LLC",
-    "ToolTip": "Dolorem minima.",
-    "Deleted": false,
-    "Rank": 402,
-    "Type": "aut",
-    "ColorBlock": 32,
-    "IconHint": "porro",
-    "Selected": false,
-    "LastChanged": "2016-04-30T12:01:33.6363617+02:00",
+    "Id": 357,
+    "Name": "Mohr Group",
+    "ToolTip": "Eos voluptatem quia et ratione esse.",
+    "Deleted": true,
+    "Rank": 345,
+    "Type": "ducimus",
+    "ColorBlock": 77,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "1998-11-02T14:32:12.8647515+01:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Kuvalis-Bode",
-        "ToolTip": "Dignissimos voluptas tenetur.",
-        "Deleted": false,
-        "Rank": 650,
-        "Type": "ut",
-        "ColorBlock": 991,
-        "IconHint": "eveniet",
+        "Id": 30,
+        "Name": "Rolfson-Feil",
+        "ToolTip": "Pariatur optio impedit ut dolor non praesentium mollitia.",
+        "Deleted": true,
+        "Rank": 715,
+        "Type": "deserunt",
+        "ColorBlock": 39,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2005-03-13T12:01:33.6363617+01:00",
+        "LastChanged": "2020-03-22T14:32:12.8647515+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "odit",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Deron Hills",
+        "FullName": "Albertha Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Isobel Quigley PhD",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "magnam",
+    "Hidden": false,
+    "FullName": "Elena Crona V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldType": "System.Int32",
+        "FieldLength": 903
       }
     }
   }

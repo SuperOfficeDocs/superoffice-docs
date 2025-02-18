@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 982,
-      "FieldName": "Wiza, Bayer and Jenkins",
+      "QuoteLineConfigurationId": 929,
+      "FieldName": "Emard-Hermann",
       "Label": "et",
-      "Tooltip": "quasi",
-      "Editable": true,
+      "Tooltip": "et",
+      "Editable": false,
       "InUse": true,
-      "Mandatory": true,
-      "Rank": 427,
+      "Mandatory": false,
+      "Rank": 951,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 129,
-    "FieldName": "Fisher Group",
-    "Label": "aut",
-    "Tooltip": "voluptatibus",
-    "Editable": false,
-    "InUse": false,
+    "QuoteLineConfigurationId": 152,
+    "FieldName": "Jenkins-Strosin",
+    "Label": "unde",
+    "Tooltip": "omnis",
+    "Editable": true,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 587,
+    "Rank": 551,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldType": "System.String",
+        "FieldLength": 991
       }
     }
   }

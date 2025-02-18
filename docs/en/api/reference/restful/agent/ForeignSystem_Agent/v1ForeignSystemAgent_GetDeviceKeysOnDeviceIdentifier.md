@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gislason Group",
-  "DeviceName": "Kulas-Green",
-  "DeviceIdentifier": "quam"
+  "ApplicationName": "Hermann, Batz and Fadel",
+  "DeviceName": "Parker, Schmitt and Wilderman",
+  "DeviceIdentifier": "provident"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nihil",
-    "Value": "cum",
-    "RecordId": 117,
-    "CreatedDate": "2001-05-24T12:01:27.9002891+02:00",
-    "UpdatedDate": "2009-09-21T12:01:27.9002891+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "nesciunt",
-    "TableName": "Simonis-Luettgen",
+    "Key": "dolore",
+    "Value": "qui",
+    "RecordId": 424,
+    "CreatedDate": "1997-10-15T14:32:03.0459963+02:00",
+    "UpdatedDate": "2001-06-26T14:32:03.0459963+02:00",
+    "UpdatedBy": "est",
+    "CreatedBy": "quasi",
+    "TableName": "Daugherty LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 881
       }
     }
   }

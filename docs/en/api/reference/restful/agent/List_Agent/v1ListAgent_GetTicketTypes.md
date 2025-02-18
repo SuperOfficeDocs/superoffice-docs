@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 69,
-    "Name": "Hartmann, Gerhold and Hagenes",
-    "Rank": 881,
-    "Tooltip": "est",
-    "Icon": "nulla",
-    "DefaultTicketStatus": 232,
+    "TicketTypeId": 27,
+    "Name": "Jenkins Inc and Sons",
+    "Rank": 842,
+    "Tooltip": "vel",
+    "Icon": "molestiae",
+    "DefaultTicketStatus": 780,
     "TicketStatuses": [
-      100,
-      606
+      471,
+      795
     ],
-    "DefaultTicketPriority": 47,
+    "DefaultTicketPriority": 687,
     "TicketPriorities": [
-      667,
-      39
+      357,
+      551
     ],
-    "ReplyTemplate": 761,
+    "ReplyTemplate": 666,
     "IsExternalVisible": false,
     "IsDefault": true,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": true,
     "VisibleForGroups": [
-      985,
-      640
+      335,
+      761
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 165
+        "FieldLength": 187
       }
     }
   }

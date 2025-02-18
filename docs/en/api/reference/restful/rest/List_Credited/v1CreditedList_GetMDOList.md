@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=qui
+GET /api/v1/List/Credited/MDOItems?query=beatae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Hahn, Schultz and Heaney",
-    "ToolTip": "Quam similique repellendus.",
+    "Id": 845,
+    "Name": "Cassin Group",
+    "ToolTip": "Non ut.",
     "Deleted": false,
-    "Rank": 963,
-    "Type": "qui",
+    "Rank": 920,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Parker, Padberg and Treutel",
-        "ToolTip": "Debitis soluta vitae repudiandae mollitia explicabo.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "officia",
+        "Id": 84,
+        "Name": "Armstrong LLC",
+        "ToolTip": "Qui ea consequatur voluptatem similique qui.",
+        "Deleted": false,
+        "Rank": 301,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 861,
-        "ExtraInfo": "illum",
-        "StyleHint": "debitis",
-        "FullName": "Eleonore Hintz",
+        "IconHint": "molestias",
+        "ColorBlock": 195,
+        "ExtraInfo": "dolore",
+        "StyleHint": "et",
+        "FullName": "Brody Adela Roberts DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 291
+            "FieldType": "System.Int32",
+            "FieldLength": 438
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 315,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "labore",
-    "FullName": "Ms. Eusebio Tracey Kozey MD",
+    "IconHint": "sunt",
+    "ColorBlock": 388,
+    "ExtraInfo": "iste",
+    "StyleHint": "quis",
+    "FullName": "Sabina Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldLength": 6
       }
     }
   }

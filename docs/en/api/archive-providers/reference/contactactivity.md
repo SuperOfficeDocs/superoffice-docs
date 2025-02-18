@@ -1254,7 +1254,7 @@ Activity archive provider for the Company card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactActivity?$select=associate/ejStatus,person/hasCompany,contact/contactFax/description,contact/contactAssociate/mrMrs,contact/contactUdef/SuperOffice:8
+GET /api/v1/archive/ContactActivity?$select=associate/credentialDisplayValue,person/supportAssociateFullName,person/personUdef/SuperOffice:1,person/correspondingAssociate/title,contact/contactExtra/x_contact_default_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -95,12 +95,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hayes-Beier",
-  "ForceFlatList": false,
-  "AdditionalInfo": "qui",
+  "Name": "Marquardt-Legros",
+  "ForceFlatList": true,
+  "AdditionalInfo": "cupiditate",
   "HistoryItems": [
-    861,
-    557
+    292,
+    579
   ],
   "OnlyHistory": true
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Tromp, Schaefer and Schinner",
-    "ToolTip": "Ab soluta.",
+    "Id": 539,
+    "Name": "Powlowski-Effertz",
+    "ToolTip": "Ullam soluta odit sit facilis id veritatis.",
     "Deleted": false,
-    "Rank": 710,
-    "Type": "est",
-    "ColorBlock": 464,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2017-01-26T12:01:28.0096725+01:00",
+    "Rank": 723,
+    "Type": "quidem",
+    "ColorBlock": 999,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "2004-06-24T14:32:03.23365+02:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Wintheiser LLC",
-        "ToolTip": "Quaerat vero dolore maiores nulla possimus sequi.",
+        "Id": 919,
+        "Name": "Lynch-Hahn",
+        "ToolTip": "Quia quasi error quos aperiam ratione numquam.",
         "Deleted": true,
-        "Rank": 790,
-        "Type": "tenetur",
-        "ColorBlock": 517,
-        "IconHint": "consequatur",
+        "Rank": 145,
+        "Type": "culpa",
+        "ColorBlock": 497,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2019-05-15T12:01:28.0096725+02:00",
+        "LastChanged": "2016-03-12T14:32:03.23365+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quam",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Delores Muller",
+        "FullName": "Sebastian Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldLength": 760
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Meagan Bernier",
+    "ExtraInfo": "est",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Margarette Gaylord DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 631
       }
     }
   }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 694,
-  "Created": "2002-11-12T12:01:28.2128113+01:00",
+  "SatelliteId": 399,
+  "Created": "2003-01-16T14:32:03.6241939+01:00",
   "CreatedBy": null,
-  "Updated": "2010-04-23T12:01:28.2128113+02:00",
+  "Updated": "2012-02-20T14:32:03.6241939+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Mayert-Cummings",
-      "Description": "Phased 24/7 function",
+      "Name": "Huels, Hyatt and Renner",
+      "Description": "Versatile discrete analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Mayert-Cummings",
-      "Description": "Phased 24/7 function",
+      "Name": "Huels, Hyatt and Renner",
+      "Description": "Versatile discrete analyzer",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 965,
-  "Created": "2022-08-18T12:01:28.2128113+02:00",
+  "SatelliteId": 913,
+  "Created": "2016-02-06T14:32:03.6241939+01:00",
   "CreatedBy": null,
-  "Updated": "2000-07-22T12:01:28.2128113+02:00",
+  "Updated": "2000-05-01T14:32:03.6241939+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cassin, Conn and Smith",
-      "Description": "Progressive empowering ability",
+      "Name": "Bartoletti, Swift and Batz",
+      "Description": "Synchronised multi-tasking info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 835
         }
       }
     },
     {
-      "Name": "Cassin, Conn and Smith",
-      "Description": "Progressive empowering ability",
+      "Name": "Bartoletti, Swift and Batz",
+      "Description": "Synchronised multi-tasking info-mediaries",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldType": "System.String",
+          "FieldLength": 835
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

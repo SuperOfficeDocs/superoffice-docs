@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Sep 2016 12:01:33 G9T
+Last-Modified: Tue, 19 Jun 2012 14:32:12 G6T
 
 {
-  "Description": "Up-sized full-range function",
-  "Postit": "reiciendis",
+  "Description": "Re-engineered grid-enabled strategy",
+  "Postit": "culpa",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 605,
-  "IncludePerson": 532,
+  "GroupIdx": 980,
+  "IncludePerson": 51,
   "MemberCount": 99.99,
-  "Name": "Cartwright-Klein",
-  "PostitTextId": 599,
-  "CreatedDate": "2009-08-13T12:01:33.1988321+02:00",
-  "SelectionId": 764,
-  "SoundEx": "doloremque",
-  "Source": 46,
-  "TextId": 468,
-  "UpdatedDate": "2016-09-13T12:01:33.1988321+02:00",
-  "UpdatedCount": 886,
-  "Visibility": 241,
+  "Name": "Kassulke, Hyatt and Cruickshank",
+  "PostitTextId": 668,
+  "CreatedDate": "2022-06-28T14:32:12.0365765+02:00",
+  "SelectionId": 388,
+  "SoundEx": "ullam",
+  "Source": 262,
+  "TextId": 558,
+  "UpdatedDate": "2012-06-19T14:32:12.0365765+02:00",
+  "UpdatedCount": 870,
+  "Visibility": 829,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 586,
-  "TargetTableName": "Lebsack-Bashirian",
+  "CompanyUnique": false,
+  "TargetTableNumber": 295,
+  "TargetTableName": "Tillman, Grimes and Hyatt",
   "Completed": false,
-  "LeftSelectionId": 13,
-  "RightSelectionId": 629,
+  "LeftSelectionId": 592,
+  "RightSelectionId": 273,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feeney, Tillman and Wilderman",
-  "ShadowProviderName": "Olson LLC",
-  "ChartKey": "adipisci",
-  "LastLoaded": "2018-10-11T12:01:33.1988321+02:00",
-  "LastLoadedBy": 479,
+  "MainProviderName": "Hintz-Welch",
+  "ShadowProviderName": "Hane-Stanton",
+  "ChartKey": "et",
+  "LastLoaded": "1998-05-25T14:32:12.0365765+02:00",
+  "LastLoadedBy": 198,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-09-23T12:01:33.1988321+02:00",
+  "LastMembershipChange": "2011-10-24T14:32:12.0365765+02:00",
   "LastMembershipChangeBy": 327,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Beahan LLC",
-  "DashboardTileDefinitionId": 12,
+  "MainHeading": "aliquam",
+  "MemberTabHeading": "expedita",
+  "MailingsProviderName": "Batz, Balistreri and Pollich",
+  "DashboardTileDefinitionId": 302,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 493,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 153
         }
       }
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 493,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 153
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Tue, 13 Sep 2016 12:01:33 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 326
     }
   },
   "_Links": {

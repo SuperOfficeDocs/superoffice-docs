@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 747,
-  "CurrencyId": 578
+  "QuoteConnectionId": 585,
+  "CurrencyId": 904
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 744,
-    "ERPPriceListKey": "maxime",
-    "QuoteConnectionId": 597,
-    "Name": "King Group",
-    "Description": "Future-proofed radical benchmark",
-    "Currency": "aut",
-    "CurrencyName": "Braun Inc and Sons",
-    "ValidFrom": "2015-03-08T12:01:28.1971849+01:00",
-    "ValidTo": "2017-05-12T12:01:28.1971849+02:00",
+    "PriceListId": 62,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 917,
+    "Name": "Fritsch LLC",
+    "Description": "Reduced optimal collaboration",
+    "Currency": "praesentium",
+    "CurrencyName": "Reichel, Fritsch and Lang",
+    "ValidFrom": "2002-03-02T14:32:03.592943+01:00",
+    "ValidTo": "2010-07-15T14:32:03.592943+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 758
       }
     }
   }

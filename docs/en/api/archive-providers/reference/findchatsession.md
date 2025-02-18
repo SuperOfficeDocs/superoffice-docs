@@ -481,7 +481,7 @@ ChatSession provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindChatSession?$select=person/personExtra/x_person_date,person/personExtra/y_rental/x_start,person/personExtra/y_rental/x_contact,person/personAssociate/contactDepartment,person/correspondingAssociate/assocType
+GET /api/v1/archive/FindChatSession?$select=associate/middleName,associate/assocName,person/mrMrs,person/email/emailId,person/personUdef/SuperOffice:2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 420,
-    "ParentId": 275,
-    "Name": "Gibson-Gusikowski",
-    "Fullname": "debitis",
-    "CategoryMaster": 462,
+    "TicketCategoryId": 859,
+    "ParentId": 86,
+    "Name": "Erdman, Hyatt and Marquardt",
+    "Fullname": "aliquam",
+    "CategoryMaster": 494,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Harris Group",
+    "ExternalName": "Sipes-Hyatt",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 572,
-    "ReplyTemplate": 235,
-    "NotificationEmail": "jovany@satterfieldhills.uk",
+    "AssignmentLag": 957,
+    "ReplyTemplate": 753,
+    "NotificationEmail": "albin.okeefe@lebsack.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 400,
+    "EffectiveReplyTemplateId": 758,
     "ExtraFields": {
-      "ExtraFields1": "totam",
-      "ExtraFields2": "delectus"
+      "ExtraFields1": "voluptate",
+      "ExtraFields2": "ut"
     },
     "CustomFields": {
-      "CustomFields1": "adipisci",
-      "CustomFields2": "accusamus"
+      "CustomFields1": "asperiores",
+      "CustomFields2": "aut"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldType": "System.String",
+        "FieldLength": 92
       }
     }
   }

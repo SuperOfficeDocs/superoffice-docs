@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "similique",
-    "deleniti"
+    "facere",
+    "reprehenderit"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 949,
-  "ERPQuoteLineKey": "fuga",
-  "QuoteAlternativeId": 981,
-  "ERPProductKey": "voluptas",
+  "QuoteLineId": 195,
+  "ERPQuoteLineKey": "optio",
+  "QuoteAlternativeId": 465,
+  "ERPProductKey": "sit",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 31220.908,
-  "DeliveredQuantity": 11320.008,
-  "Rank": 22,
-  "Name": "Fadel-Adams",
-  "Description": "Team-oriented fresh-thinking parallelism",
-  "Code": "aut",
-  "QuantityUnit": "totam",
-  "PriceUnit": "provident",
-  "ItemNumber": "807393",
+  "Quantity": 13542.014,
+  "DeliveredQuantity": 307.132,
+  "Rank": 88,
+  "Name": "Huel, Treutel and Sawayn",
+  "Description": "Multi-lateral heuristic encoding",
+  "Code": "saepe",
+  "QuantityUnit": "voluptas",
+  "PriceUnit": "aut",
+  "ItemNumber": "1446495",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nemo",
-  "ProductTypeKey": "eveniet",
-  "Supplier": "et",
-  "SupplierCode": "possimus",
+  "ProductFamilyKey": "atque",
+  "ProductTypeKey": "ut",
+  "Supplier": "soluta",
+  "SupplierCode": "eius",
   "Thumbnail": "officiis",
-  "VATInfo": "porro",
-  "VAT": 17406.236,
-  "UnitCost": 27378.624,
-  "UnitMinimumPrice": 4328.054,
-  "UnitListPrice": 623.66599999999994,
+  "VATInfo": "harum",
+  "VAT": 10730.815999999999,
+  "UnitCost": 11210.318,
+  "UnitMinimumPrice": 354.142,
+  "UnitListPrice": 22223.194,
   "ExtraInfo": [
     {
-      "Name": "Nader-Pacocha",
-      "Value": "corporis",
+      "Name": "Hand, Heathcote and Donnelly",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldType": "System.String",
+          "FieldLength": 338
         }
       }
     },
     {
-      "Name": "Nader-Pacocha",
-      "Value": "corporis",
+      "Name": "Hand, Heathcote and Donnelly",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldType": "System.String",
+          "FieldLength": 338
         }
       }
     }
   ],
-  "RawExtraInfo": "atque",
+  "RawExtraInfo": "ullam",
   "IsSubscription": false,
-  "SubscriptionUnit": "aspernatur",
-  "SubscriptionQuantity": 19245.894,
-  "SubscriptionStart": "2014-05-18T12:01:28.1659327+02:00",
-  "ERPDiscountPercent": 11338.812,
-  "ERPDiscountAmount": 21314.334,
-  "DiscountPercent": 5428.088,
-  "DiscountAmount": 24442.066,
+  "SubscriptionUnit": "possimus",
+  "SubscriptionQuantity": 10724.547999999999,
+  "SubscriptionStart": "2005-02-16T14:32:03.5304599+01:00",
+  "ERPDiscountPercent": 29867.02,
+  "ERPDiscountAmount": 2196.9339999999997,
+  "DiscountPercent": 15275.116,
+  "DiscountAmount": 10307.726,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2544.808,
-  "EarningAmount": 8082.5859999999993,
-  "SubTotal": 17174.32,
-  "TotalPrice": 256.988,
-  "Rights": "beatae",
-  "Rule": "rerum",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "iusto",
-  "ExtraField3": "hic",
-  "ExtraField4": "modi",
-  "ExtraField5": "repellat",
+  "EarningPercent": 977.808,
+  "EarningAmount": 21652.806,
+  "SubTotal": 6923.0059999999994,
+  "TotalPrice": 21380.148,
+  "Rights": "et",
+  "Rule": "voluptatem",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "facilis",
+  "ExtraField3": "qui",
+  "ExtraField4": "debitis",
+  "ExtraField5": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

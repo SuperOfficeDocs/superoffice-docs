@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 447,
-    "Name": "Schuster-Pacocha",
-    "Tooltip": "autem",
-    "Rank": 938,
-    "Key": "ut",
+    "LegalBaseId": 644,
+    "Name": "Torphy Group",
+    "Tooltip": "qui",
+    "Rank": 844,
+    "Key": "repudiandae",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldType": "System.String",
+        "FieldLength": 30
       }
     }
   }

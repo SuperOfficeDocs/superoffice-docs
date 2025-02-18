@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    834,
-    991
+    435,
+    538
   ],
-  "StartTime": "2007-06-18T12:01:27.0252114+02:00",
-  "EndTime": "2012-11-15T12:01:27.0252114+01:00"
+  "StartTime": "2013-02-23T14:32:01.6555155+01:00",
+  "EndTime": "2013-11-17T14:32:01.6555155+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 124,
-    "StartDate": "2021-02-21T12:01:27.0252114+01:00",
-    "EndDate": "2010-06-07T12:01:27.0252114+02:00",
+    "AppointmentId": 340,
+    "StartDate": "2006-09-06T14:32:01.6555155+02:00",
+    "EndDate": "2016-10-29T14:32:01.6555155+02:00",
     "Type": "BookingForChecklist",
-    "Task": "deleniti",
-    "AssociateFullName": "Ryann Volkman",
-    "ContactName": "Hermiston LLC",
-    "Description": "Innovative transitional utilisation",
-    "PersonFullName": "Fletcher Gusikowski",
-    "PersonId": 443,
-    "ContactId": 574,
-    "ProjectId": 221,
-    "ProjectName": "Walker, Rutherford and Predovic",
+    "Task": "quas",
+    "AssociateFullName": "Abraham Kihn",
+    "ContactName": "Crist LLC",
+    "Description": "Proactive zero administration budgetary management",
+    "PersonFullName": "Cali Schaefer",
+    "PersonId": 592,
+    "ContactId": 646,
+    "ProjectId": 358,
+    "ProjectName": "Shields Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 931,
-    "ColorIndex": 699,
+    "AssociateId": 859,
+    "ColorIndex": 691,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 826,
-    "PriorityName": "Farrell-Schaefer",
+    "PriorityId": 536,
+    "PriorityName": "Nienow-Lindgren",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-09-05T12:01:27.0252114+02:00",
+    "ActiveDate": "2018-06-04T14:32:01.6555155+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-26T12:01:27.0252114+02:00",
-    "RecurringEndDate": "2007-08-02T12:01:27.0252114+02:00",
-    "MotherId": 656,
-    "AssignedBy": 523,
-    "AssignedByFullName": "Vita Hoyt Lang III",
+    "RecurringStartDate": "2005-12-14T14:32:01.6555155+01:00",
+    "RecurringEndDate": "2015-02-23T14:32:01.6555155+01:00",
+    "MotherId": 828,
+    "AssignedBy": 201,
+    "AssignedByFullName": "Nels Marks",
     "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 134,
-    "SaleName": "Dare-Lind",
-    "AssociateName": "Howell-Weber",
-    "CreatedDate": "2009-06-12T12:01:27.0252114+02:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Margaretta Grant",
-    "CreatedByAssociateId": 714,
+    "Location": "aut",
+    "AlarmLeadTime": "delectus",
+    "SaleId": 453,
+    "SaleName": "Pagac-Bradtke",
+    "AssociateName": "Sauer Inc and Sons",
+    "CreatedDate": "2001-12-10T14:32:01.6555155+01:00",
+    "CreatedBy": "eum",
+    "CreatedByFullName": "Myrl Maggio",
+    "CreatedByAssociateId": 590,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 414,
-    "Title": "repudiandae",
-    "Agenda": "et",
-    "InternalNotes": "consectetur",
+    "PreferredTZLocation": 725,
+    "Title": "cupiditate",
+    "Agenda": "id",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 67
       }
     }
   }

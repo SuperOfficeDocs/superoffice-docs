@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 879,
-  "Name": "Conroy, Zboncak and Zemlak",
-  "Tooltip": "dolor",
-  "TableName": "Donnelly, Collier and Turcotte",
-  "Area": "aut",
+  "TaskMenuId": 421,
+  "Name": "Bergnaum, Macejkovic and McClure",
+  "Tooltip": "minima",
+  "TableName": "Ankunding Group",
+  "Area": "ut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 134,
+  "CrmScriptId": 822,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 319,
+  "Rank": 981,
   "Encoding": "ANSI",
-  "ProgId": "sint",
+  "ProgId": "beatae",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 347
+      "FieldLength": 21
     }
   }
 }

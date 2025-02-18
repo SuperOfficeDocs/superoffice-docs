@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 151
+  "Count": 691
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 384,
-    "Mrmrs": "ut",
-    "Firstname": "Estefania",
-    "Lastname": "Friesen",
-    "MiddleName": "Kirlin-Spencer",
-    "Title": "cupiditate",
-    "Description": "Centralized system-worthy portal",
-    "Email": "monserrat_labadie@swift.info",
-    "FullName": "Ursula Ledner",
-    "DirectPhone": "254.799.4169 x63736",
-    "FormalName": "Green, Crooks and O'Conner",
-    "CountryId": 572,
-    "ContactId": 566,
-    "ContactName": "Feeney-McGlynn",
-    "Retired": 723,
-    "Rank": 901,
-    "ActiveInterests": 382,
+    "Position": "nam",
+    "PersonId": 227,
+    "Mrmrs": "qui",
+    "Firstname": "Lincoln",
+    "Lastname": "Volkman",
+    "MiddleName": "Kiehn-Rath",
+    "Title": "molestiae",
+    "Description": "Mandatory mobile secured line",
+    "Email": "sven_leannon@goldnerschuppe.uk",
+    "FullName": "Orpha Lowe II",
+    "DirectPhone": "657-826-5688 x307",
+    "FormalName": "Bauch, Gerlach and Quigley",
+    "CountryId": 343,
+    "ContactId": 421,
+    "ContactName": "Beier Inc and Sons",
+    "Retired": 285,
+    "Rank": 773,
+    "ActiveInterests": 879,
     "ContactDepartment": "",
-    "ContactCountryId": 934,
-    "ContactOrgNr": "952832",
-    "FaxPhone": "318-490-2999 x216",
-    "MobilePhone": "(187)336-5194 x252",
-    "ContactPhone": "635-351-8779 x39073",
-    "AssociateName": "Morissette, Pacocha and Stroman",
-    "AssociateId": 568,
+    "ContactCountryId": 1001,
+    "ContactOrgNr": "1286517",
+    "FaxPhone": "1-806-599-0274 x968",
+    "MobilePhone": "(257)221-7016 x4462",
+    "ContactPhone": "1-723-031-9227 x956",
+    "AssociateName": "Sanford, Reynolds and Lowe",
+    "AssociateId": 901,
     "UsePersonAddress": true,
-    "ContactFax": "soluta",
-    "Kanafname": "voluptatem",
-    "Kanalname": "error",
-    "Post1": "exercitationem",
-    "Post2": "id",
-    "Post3": "non",
-    "EmailName": "louisa_mills@rempelwisoky.uk",
-    "ContactFullName": "Mrs. Dorris Jacobi",
-    "ActiveErpLinks": 878,
-    "TicketPriorityId": 518,
-    "SupportLanguageId": 976,
-    "SupportAssociateId": 882,
+    "ContactFax": "consectetur",
+    "Kanafname": "ipsa",
+    "Kanalname": "asperiores",
+    "Post1": "sint",
+    "Post2": "consectetur",
+    "Post3": "sed",
+    "EmailName": "tyrell_ernser@ritchie.info",
+    "ContactFullName": "Prof. Hal Terry",
+    "ActiveErpLinks": 189,
+    "TicketPriorityId": 525,
+    "SupportLanguageId": 361,
+    "SupportAssociateId": 522,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "893888",
+    "PersonNumber": "259374",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

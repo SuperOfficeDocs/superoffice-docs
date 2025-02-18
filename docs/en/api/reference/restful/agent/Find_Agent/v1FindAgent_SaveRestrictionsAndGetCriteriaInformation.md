@@ -86,20 +86,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ducimus",
-  "ProviderName": "Windler LLC",
-  "StorageKey": "nam",
+  "StorageType": "nihil",
+  "ProviderName": "Boehm Inc and Sons",
+  "StorageKey": "qui",
   "Restrictions": [
     {
-      "Name": "O'Keefe LLC",
-      "Operator": "in",
+      "Name": "Stiedemann-Schoen",
+      "Operator": "odit",
       "Values": [
-        "ipsa",
-        "similique"
+        "sit",
+        "nobis"
       ],
       "DisplayValues": [
-        "asperiores",
-        "ex"
+        "quae",
+        "dolor"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 92,
+      "InterParenthesis": 280,
       "InterOperator": "And",
-      "UniqueHash": 980
+      "UniqueHash": 360
     }
   ],
   "StaticColumns": [
-    "minus",
-    "quibusdam"
+    "mollitia",
+    "totam"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hyatt Group",
-      "Operator": "a",
+      "Name": "Lemke Group",
+      "Operator": "quia",
       "Values": [
-        "architecto",
-        "quos"
+        "sequi",
+        "voluptate"
       ],
       "DisplayValues": [
-        "recusandae",
-        "esse"
+        "illo",
+        "nam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 745,
+      "InterParenthesis": 606,
       "InterOperator": "And",
-      "UniqueHash": 578
+      "UniqueHash": 347
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schamberger Inc and Sons",
-      "DisplayTooltip": "harum",
-      "DisplayType": "qui",
-      "CanOrderBy": false,
-      "Name": "Hansen, Fay and Bogan",
-      "CanRestrictBy": false,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "D'Amore-Bradtke",
+      "DisplayName": "Torp-Kunze",
+      "DisplayTooltip": "earum",
+      "DisplayType": "minima",
+      "CanOrderBy": true,
+      "Name": "Towne Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "debitis",
+      "RestrictionListName": "Heller-Kuvalis",
       "IsVisible": false,
-      "ExtraInfo": "nam",
-      "Width": "quam",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "cupiditate"
+      "ExtraInfo": "sapiente",
+      "Width": "fugit",
+      "IconHint": "ipsum",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crona LLC",
-      "PrimaryKey": 586,
+      "EntityName": "Berge-Bogan",
+      "PrimaryKey": 34,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "ea",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "facere",
+          "TooltipHint": "a",
+          "LinkHint": "itaque"
         }
       },
-      "LinkHint": "hic",
-      "StyleHint": "sit",
+      "LinkHint": "quia",
+      "StyleHint": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 979
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Klein-Cremin",
-      "Description": "Diverse high-level portal",
-      "Rank": 113,
+      "Name": "Morissette-Crona",
+      "Description": "Persistent bifurcated access",
+      "Rank": 823,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klein-Cremin",
-      "Description": "Diverse high-level portal",
-      "Rank": 113,
+      "Name": "Morissette-Crona",
+      "Description": "Persistent bifurcated access",
+      "Rank": 823,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldLength": 927
     }
   }
 }

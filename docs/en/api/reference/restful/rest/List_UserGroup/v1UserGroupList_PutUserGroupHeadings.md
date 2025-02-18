@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 472,
-    "Name": "Cummerata, Hilpert and Stehr",
-    "Tooltip": "quam",
+    "HeadingId": 199,
+    "Name": "Kub Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 114,
-    "UdListDefinitionId": 613
+    "Rank": 835,
+    "UdListDefinitionId": 812
   },
   {
-    "HeadingId": 472,
-    "Name": "Cummerata, Hilpert and Stehr",
-    "Tooltip": "quam",
+    "HeadingId": 199,
+    "Name": "Kub Group",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 114,
-    "UdListDefinitionId": 613
+    "Rank": 835,
+    "UdListDefinitionId": 812
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 382,
-    "Name": "Cummerata Group",
-    "Tooltip": "ut",
+    "HeadingId": 564,
+    "Name": "Borer-Mraz",
+    "Tooltip": "architecto",
     "Deleted": false,
-    "Rank": 259,
-    "UdListDefinitionId": 665,
+    "Rank": 555,
+    "UdListDefinitionId": 755,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 777
       }
     }
   }

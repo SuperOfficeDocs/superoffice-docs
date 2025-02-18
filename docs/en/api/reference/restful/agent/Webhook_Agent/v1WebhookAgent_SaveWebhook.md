@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 815,
-  "Name": "Fadel Inc and Sons",
+  "WebhookId": 218,
+  "Name": "Bailey LLC",
   "Events": [
-    "delectus",
-    "deleniti"
+    "quas",
+    "temporibus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sed",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "vel",
+  "Type": "voluptatem",
   "Headers": {
-    "Headers1": "recusandae",
-    "Headers2": "dolorem"
+    "Headers1": "magnam",
+    "Headers2": "laboriosam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-01-26T12:01:28.6503413+01:00",
+  "Registered": "2011-09-29T14:32:04.3740199+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-07-13T12:01:28.6503413+02:00",
+  "Updated": "2021-07-03T14:32:04.3740199+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "amani@ryan.com"
+  "ErrorsEmail": "jake.schmidt@volkman.us"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 372,
-  "Name": "Torp LLC",
+  "WebhookId": 881,
+  "Name": "Hauck, Hickle and Durgan",
   "Events": [
-    "qui",
-    "ex"
+    "aut",
+    "cumque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolore",
+  "Secret": "quos",
   "State": "Active",
-  "Type": "qui",
+  "Type": "et",
   "Headers": {
-    "Headers1": "omnis",
-    "Headers2": "soluta"
+    "Headers1": "sint",
+    "Headers2": "quam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2023-06-16T12:01:28.6503413+02:00",
+  "Registered": "2015-03-10T14:32:04.3740199+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-11-02T12:01:28.6503413+01:00",
+  "Updated": "2008-01-05T14:32:04.3740199+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "brayan@franeckirohan.ca"
+  "ErrorsEmail": "marvin@franecki.info"
 }
 ```

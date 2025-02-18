@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "sed"
+  "SearchString": "in"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "761-738-7797 x455",
-    "PersonCellPhone": "(135)392-5803",
-    "PersonPrivatePhone": "683-315-0913 x420",
-    "PersonFaxNumber": "260277",
-    "PersonPagerNumber": "324539",
-    "PersonEmail": "ozella@miller.uk",
-    "Id": 400,
-    "Name": "Lakin, Fay and Terry",
-    "Tooltip": "in",
-    "UniqueId": "voluptate",
+    "PersonDirectPhone": "1-625-498-1247",
+    "PersonCellPhone": "(193)652-7626",
+    "PersonPrivatePhone": "842.746.8660 x922",
+    "PersonFaxNumber": "1372424",
+    "PersonPagerNumber": "1028047",
+    "PersonEmail": "linnea_robel@bogan.uk",
+    "Id": 115,
+    "Name": "Schimmel LLC",
+    "Tooltip": "quia",
+    "UniqueId": "libero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 124
       }
     }
   }

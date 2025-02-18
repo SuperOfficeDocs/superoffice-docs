@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Rau LLC",
+  "TaskName": "Pouros-Nicolas",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Muller-Funk",
-    "AssociateId": 756,
-    "DetailsTable": 389,
-    "DetailsRecord": 784,
+    "Id": 870,
+    "Name": "Boehm, Hoeger and Braun",
+    "AssociateId": 611,
+    "DetailsTable": 945,
+    "DetailsRecord": 586,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "iure"
+      "ParameterObject1": "dolore",
+      "ParameterObject2": "vel"
     },
-    "LastStarted": "2016-08-18T12:01:27.3533761+02:00",
-    "Created": "2025-01-09T12:01:27.3533761+01:00",
-    "StartCount": 277,
-    "DatabaseSerialNumber": "996341",
-    "Context": "minus",
-    "Result": "tempore",
+    "LastStarted": "2015-08-31T14:32:02.0618444+02:00",
+    "Created": "2018-11-12T14:32:02.0618444+01:00",
+    "StartCount": 132,
+    "DatabaseSerialNumber": "1063480",
+    "Context": "voluptatem",
+    "Result": "quia",
     "State": "All",
-    "Description": "Innovative foreground throughput",
-    "Response": "quisquam",
-    "Request": "voluptatem",
-    "ProgressDescription": "Secured homogeneous synergy",
-    "ProgressPercent": 529,
-    "FileName": "Bartoletti, Boehm and Kemmer",
+    "Description": "Organic bottom-line solution",
+    "Response": "vel",
+    "Request": "sequi",
+    "ProgressDescription": "Enterprise-wide incremental knowledge base",
+    "ProgressPercent": 134,
+    "FileName": "DuBuque-Padberg",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 78
       }
     }
   }

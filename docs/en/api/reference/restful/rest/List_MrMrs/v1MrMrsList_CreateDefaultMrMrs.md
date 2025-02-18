@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Heathcote LLC",
-  "Tooltip": "veniam",
+  "Id": 977,
+  "Name": "Osinski, Prohaska and Romaguera",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 595,
-  "Rank": 911,
+  "UdListDefinitionId": 702,
+  "Rank": 92,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

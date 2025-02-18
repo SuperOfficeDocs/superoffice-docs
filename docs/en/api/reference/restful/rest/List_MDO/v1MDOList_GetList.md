@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=sit
-GET /api/v1/MDOList/{listname}?query=voluptas
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=illum
+GET /api/v1/MDOList/{listname}?query=numquam
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Pfeffer, Gutkowski and Prohaska",
-    "ToolTip": "Et doloribus.",
+    "Id": 645,
+    "Name": "Stoltenberg Inc and Sons",
+    "ToolTip": "Rerum perspiciatis tenetur neque aut minus officia.",
     "Deleted": false,
-    "Rank": 253,
-    "Type": "voluptas",
+    "Rank": 53,
+    "Type": "explicabo",
     "ChildItems": [
       {
-        "Id": 239,
-        "Name": "Hermiston-Lockman",
-        "ToolTip": "Deleniti et.",
+        "Id": 420,
+        "Name": "Morar-Hoppe",
+        "ToolTip": "Accusamus vel optio at.",
         "Deleted": false,
-        "Rank": 899,
-        "Type": "repudiandae",
+        "Rank": 314,
+        "Type": "nemo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 935,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "ut",
-        "FullName": "Tressie Brown",
+        "IconHint": "numquam",
+        "ColorBlock": 480,
+        "ExtraInfo": "vitae",
+        "StyleHint": "totam",
+        "FullName": "Lynn Pollich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 38
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 631,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "numquam",
-    "FullName": "Verner Stamm",
+    "IconHint": "in",
+    "ColorBlock": 67,
+    "ExtraInfo": "quia",
+    "StyleHint": "atque",
+    "FullName": "Prof. Mae Jonatan Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 280
       }
     }
   }

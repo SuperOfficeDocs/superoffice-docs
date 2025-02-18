@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Macejkovic Group",
-  "StorageKey": "voluptatem",
+  "StorageType": "blanditiis",
+  "ProviderName": "Paucek LLC",
+  "StorageKey": "dolores",
   "Restrictions": [
     {
-      "Name": "Cremin Group",
-      "Operator": "incidunt",
+      "Name": "Gibson, Doyle and Welch",
+      "Operator": "dolores",
       "Values": [
-        "reprehenderit",
-        "blanditiis"
+        "qui",
+        "est"
       ],
       "DisplayValues": [
-        "sed",
-        "dolorem"
+        "dolor",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 864,
+      "InterParenthesis": 251,
       "InterOperator": "And",
-      "UniqueHash": 259
+      "UniqueHash": 659
     }
   ]
 }

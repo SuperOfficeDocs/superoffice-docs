@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 340,
-  "Type": "sequi"
+  "Id": 928,
+  "Type": "unde"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 280,
-    "Rank": 718,
-    "DefaultTask": 460,
-    "DefaultTaskText": "officia",
+    "OwnerTable": 808,
+    "Rank": 33,
+    "DefaultTask": 507,
+    "DefaultTaskText": "quod",
     "IsVisual": false,
-    "LastGenerated": "2003-02-19T12:01:28.2284376+01:00",
-    "Description": "Organized regional parallelism",
-    "Name": "Schuppe, Hoeger and Cruickshank",
-    "StatusMonitorId": 680,
-    "PictureId": 775,
-    "NeedsUpdate": false,
-    "Deleted": true,
-    "NumMatches": 351,
-    "NumNeedUpdate": 505,
-    "GenerationStart": "2008-09-15T12:01:28.2284376+02:00",
+    "LastGenerated": "2020-05-18T14:32:03.6398093+02:00",
+    "Description": "Down-sized bi-directional application",
+    "Name": "Blick-McClure",
+    "StatusMonitorId": 716,
+    "PictureId": 439,
+    "NeedsUpdate": true,
+    "Deleted": false,
+    "NumMatches": 691,
+    "NumNeedUpdate": 711,
+    "GenerationStart": "2016-11-24T14:32:03.6398093+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 746
       }
     }
   }

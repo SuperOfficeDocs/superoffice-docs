@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Sharable bifurcated strategy
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=velit,quidem
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Self-enabling multi-tasking forecast
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=incidunt,quia
 ```
 
 
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "porro",
-  "VersionId": "vel",
-  "Success": false,
+  "ExternalReference": "officia",
+  "VersionId": "consequuntur",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "laudantium"
+  "Value": "consequatur",
+  "AdditionalInfo": "recusandae"
 }
 ```

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Smitham LLC",
-  "AssociateId": 119,
-  "DetailsTable": 705,
-  "DetailsRecord": 37,
+  "Id": 197,
+  "Name": "Bechtelar Group",
+  "AssociateId": 599,
+  "DetailsTable": 326,
+  "DetailsRecord": 903,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "necessitatibus",
-    "ParameterObject2": "impedit"
+    "ParameterObject1": "sint",
+    "ParameterObject2": "dignissimos"
   },
-  "LastStarted": "2008-01-01T12:01:28.2284376+01:00",
-  "Created": "2007-06-01T12:01:28.2284376+02:00",
-  "StartCount": 458,
-  "DatabaseSerialNumber": "917537",
-  "Context": "debitis",
-  "Result": "fuga",
+  "LastStarted": "2019-03-25T14:32:03.6398093+01:00",
+  "Created": "2008-03-12T14:32:03.6398093+01:00",
+  "StartCount": 166,
+  "DatabaseSerialNumber": "1237076",
+  "Context": "cupiditate",
+  "Result": "dolorem",
   "State": "All",
-  "Description": "Organic discrete encryption",
-  "Response": "incidunt",
-  "Request": "delectus",
-  "ProgressDescription": "Multi-channelled solution-oriented hub",
-  "ProgressPercent": 92,
-  "FileName": "Rempel Inc and Sons",
+  "Description": "Grass-roots multi-state orchestration",
+  "Response": "nam",
+  "Request": "expedita",
+  "ProgressDescription": "Polarised modular info-mediaries",
+  "ProgressPercent": 265,
+  "FileName": "Leffler LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 928
     }
   }
 }

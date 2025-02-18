@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Blanda, Little and Hills",
-    "Tooltip": "atque",
+    "Id": 47,
+    "Name": "Walsh Group",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 94
+    "UdListDefinitionId": 817,
+    "Rank": 70
   },
   {
-    "Id": 36,
-    "Name": "Blanda, Little and Hills",
-    "Tooltip": "atque",
+    "Id": 47,
+    "Name": "Walsh Group",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 94
+    "UdListDefinitionId": 817,
+    "Rank": 70
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Streich, Hayes and Dickens",
-    "Tooltip": "corporis",
+    "Id": 653,
+    "Name": "Ondricka-Schaden",
+    "Tooltip": "quod",
     "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 428,
+    "UdListDefinitionId": 368,
+    "Rank": 311,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 837
       }
     }
   }

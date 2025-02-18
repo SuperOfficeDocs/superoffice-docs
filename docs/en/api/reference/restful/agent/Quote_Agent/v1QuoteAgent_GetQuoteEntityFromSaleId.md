@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 644
+  "SaleId": 46
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 303,
-  "SaleId": 595,
-  "QuoteConnectionId": 289,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "maiores",
-  "ActiveQuoteVersionId": 891,
-  "AcceptedQuoteAlternativeId": 313,
-  "UseValuesFromQuote": 681,
-  "DocumentId": 298,
-  "PoNumber": "564925",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "yesenia_johns@creminnolan.info",
+  "QuoteId": 473,
+  "SaleId": 236,
+  "QuoteConnectionId": 826,
+  "ERPQuoteKey": "quam",
+  "ERPOrderKey": "odit",
+  "ActiveQuoteVersionId": 364,
+  "AcceptedQuoteAlternativeId": 679,
+  "UseValuesFromQuote": 263,
+  "DocumentId": 715,
+  "PoNumber": "237657",
+  "OrderComment": "nesciunt",
+  "PreferredEmailCulture": "spencer_gleason@lynch.ca",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 468,
-      "ERPQuoteVersionKey": "qui",
-      "QuoteId": 389,
-      "Description": "Business-focused even-keeled interface",
-      "Number": "274960",
+      "QuoteVersionId": 45,
+      "ERPQuoteVersionKey": "fugit",
+      "QuoteId": 598,
+      "Description": "Extended 6th generation benchmark",
+      "Number": "1312725",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 362,
-      "SentDate": "2021-12-10T12:01:28.1971849+01:00",
-      "FollowupId": 480,
-      "ExpirationDate": "2023-02-14T12:01:28.1971849+01:00",
-      "DeliveryCountryId": 171,
+      "LikelyQuoteAlternativeId": 143,
+      "SentDate": "2013-11-02T14:32:03.592943+01:00",
+      "FollowupId": 629,
+      "ExpirationDate": "2016-08-07T14:32:03.592943+02:00",
+      "DeliveryCountryId": 771,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 752,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "rerum",
-      "ERPPaymentTypeKey": "veritatis",
-      "ERPDeliveryTermsKey": "consequatur",
-      "ERPDeliveryTypeKey": "consequatur",
-      "Rank": 113,
-      "ApprovedBy": 589,
-      "ApprovedText": "non",
-      "ApprovedRegisteredBy": 405,
-      "ApprovedRegisteredDate": "2015-02-23T12:01:28.1971849+01:00",
-      "ExtraField1": "facere",
+      "InvoiceCountryId": 542,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "non",
+      "ERPPaymentTypeKey": "alias",
+      "ERPDeliveryTermsKey": "facere",
+      "ERPDeliveryTypeKey": "cumque",
+      "Rank": 677,
+      "ApprovedBy": 104,
+      "ApprovedText": "similique",
+      "ApprovedRegisteredBy": 616,
+      "ApprovedRegisteredDate": "2019-07-09T14:32:03.592943+02:00",
+      "ExtraField1": "non",
       "ExtraField2": "ea",
-      "ExtraField3": "ad",
-      "ExtraField4": "esse",
-      "ExtraField5": "et",
-      "LastRecalculated": "2009-12-27T12:01:28.1971849+01:00",
-      "Updated": "2015-07-23T12:01:28.1971849+02:00",
-      "UpdatedAssociateId": 586,
-      "Registered": "2019-05-30T12:01:28.1971849+02:00",
-      "RegisteredAssociateId": 518,
-      "RequestAssociateId": 395,
-      "RequestComment": "porro",
+      "ExtraField3": "perspiciatis",
+      "ExtraField4": "est",
+      "ExtraField5": "tempora",
+      "LastRecalculated": "2012-09-08T14:32:03.592943+02:00",
+      "Updated": "2013-04-16T14:32:03.592943+02:00",
+      "UpdatedAssociateId": 854,
+      "Registered": "2016-01-20T14:32:03.592943+01:00",
+      "RegisteredAssociateId": 155,
+      "RequestAssociateId": 104,
+      "RequestComment": "quasi",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 827
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 398
     }
   }
 }

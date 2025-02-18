@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quod",
-  "ProviderName": "Brown-Lynch"
+  "StorageType": "ipsam",
+  "ProviderName": "Conn LLC"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "sit",
-  "nisi"
+  "est",
+  "culpa"
 ]
 ```

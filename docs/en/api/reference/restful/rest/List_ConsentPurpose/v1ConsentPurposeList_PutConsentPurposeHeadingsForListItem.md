@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Schoen, Reinger and Leannon",
-    "ToolTip": "Nobis sed consequatur vel voluptas nisi consequuntur.",
+    "Id": 772,
+    "Name": "Smith Inc and Sons",
+    "ToolTip": "Ad dolorem ut.",
     "Deleted": false,
-    "Rank": 145,
-    "Type": "in",
-    "ColorBlock": 679,
-    "IconHint": "et",
+    "Rank": 671,
+    "Type": "quis",
+    "ColorBlock": 692,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2006-03-27T12:01:33.4644748+02:00",
+    "LastChanged": "2000-10-23T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Mann-Rippin",
-        "ToolTip": "Culpa possimus cum.",
-        "Deleted": true,
-        "Rank": 654,
-        "Type": "in",
-        "ColorBlock": 44,
+        "Id": 786,
+        "Name": "Robel Inc and Sons",
+        "ToolTip": "Alias officia ipsa voluptas aut voluptate ad.",
+        "Deleted": false,
+        "Rank": 111,
+        "Type": "id",
+        "ColorBlock": 45,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2004-12-24T12:01:33.4644748+01:00",
+        "LastChanged": "2013-07-02T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Providenci O'Kon"
+        "ExtraInfo": "expedita",
+        "StyleHint": "iusto",
+        "Hidden": true,
+        "FullName": "Ms. Phoebe Tremblay"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "in",
+    "ExtraInfo": "omnis",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Mohamed Fay II"
+    "FullName": "Gilbert McCullough"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Farrell-Feeney",
-    "ToolTip": "Qui quia et ipsum.",
-    "Deleted": true,
-    "Rank": 605,
-    "Type": "magni",
-    "ColorBlock": 163,
-    "IconHint": "nostrum",
+    "Id": 761,
+    "Name": "Hackett, Kuhic and Bergstrom",
+    "ToolTip": "Ut dolorum debitis.",
+    "Deleted": false,
+    "Rank": 75,
+    "Type": "quia",
+    "ColorBlock": 560,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2013-02-15T12:01:33.4644748+01:00",
+    "LastChanged": "2022-09-12T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Feeney Inc and Sons",
-        "ToolTip": "Et quia.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "nostrum",
-        "ColorBlock": 761,
-        "IconHint": "facere",
+        "Id": 506,
+        "Name": "Schaefer-Cummerata",
+        "ToolTip": "Fugiat hic amet facere velit blanditiis nesciunt.",
+        "Deleted": true,
+        "Rank": 338,
+        "Type": "laboriosam",
+        "ColorBlock": 369,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2003-12-27T12:01:33.4644748+01:00",
+        "LastChanged": "2010-08-20T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Geoffrey Gaylord",
+        "ExtraInfo": "possimus",
+        "StyleHint": "ipsam",
+        "Hidden": false,
+        "FullName": "Miss Flossie Hattie Grimes DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldLength": 788
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Mrs. Pearl Okuneva Sr.",
+    "ExtraInfo": "sit",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Terrill Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldLength": 471
       }
     }
   }

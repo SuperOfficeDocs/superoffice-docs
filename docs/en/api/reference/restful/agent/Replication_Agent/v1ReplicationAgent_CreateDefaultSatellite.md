@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 737,
-  "Created": "2013-08-17T12:01:28.2128113+02:00",
+  "SatelliteId": 936,
+  "Created": "2003-01-23T14:32:03.6241939+01:00",
   "CreatedBy": null,
-  "Updated": "2003-02-18T12:01:28.2128113+01:00",
+  "Updated": "2000-04-21T14:32:03.6241939+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "DuBuque Group",
-      "Description": "Cross-group modular approach",
+      "Name": "Paucek-Powlowski",
+      "Description": "Proactive web-enabled instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 412
         }
       }
     },
     {
-      "Name": "DuBuque Group",
-      "Description": "Cross-group modular approach",
+      "Name": "Paucek-Powlowski",
+      "Description": "Proactive web-enabled instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 412
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

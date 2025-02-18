@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 357,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 732,
-  "Name": "Blick Inc and Sons",
-  "Description": "Horizontal 5th generation hardware",
-  "Currency": "deleniti",
-  "CurrencyName": "Wintheiser, Stark and Haag",
-  "ValidFrom": "2012-07-05T12:01:33.5582313+02:00",
-  "ValidTo": "2000-05-14T12:01:33.5582313+02:00",
+  "PriceListId": 799,
+  "ERPPriceListKey": "magnam",
+  "QuoteConnectionId": 309,
+  "Name": "Gorczany, Boyer and Hand",
+  "Description": "Sharable zero defect policy",
+  "Currency": "iusto",
+  "CurrencyName": "Jacobi-Grimes",
+  "ValidFrom": "2017-12-23T14:32:12.7082989+01:00",
+  "ValidTo": "1999-01-20T14:32:12.7082989+01:00",
   "IsActive": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 910,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 984,
-  "Name": "Walter-Upton",
-  "Description": "Diverse impactful strategy",
-  "Currency": "et",
-  "CurrencyName": "DuBuque, Schultz and Larson",
-  "ValidFrom": "1998-12-13T12:01:33.5582313+01:00",
-  "ValidTo": "2023-02-24T12:01:33.5582313+01:00",
-  "IsActive": false,
+  "PriceListId": 746,
+  "ERPPriceListKey": "incidunt",
+  "QuoteConnectionId": 697,
+  "Name": "Haag-Wehner",
+  "Description": "Assimilated optimizing knowledge user",
+  "Currency": "dolorem",
+  "CurrencyName": "Hoeger-Bosco",
+  "ValidFrom": "2005-03-09T14:32:12.72392+01:00",
+  "ValidTo": "2024-12-20T14:32:12.72392+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 989
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -147,21 +147,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 649,
-  "Title": "eius",
-  "CreatedAt": "2021-05-22T12:01:28.4940752+02:00",
-  "LastChanged": "2024-03-14T12:01:28.4940752+01:00",
-  "ReadByOwner": "2010-01-08T12:01:28.4940752+01:00",
-  "ReadByCustomer": "2016-12-17T12:01:28.4940752+01:00",
-  "FirstReadByOwner": "2022-07-10T12:01:28.4940752+02:00",
-  "FirstReadByUser": "2023-02-14T12:01:28.4940752+01:00",
-  "Activate": "2003-05-23T12:01:28.4940752+02:00",
-  "ClosedAt": "2006-08-12T12:01:28.4940752+02:00",
-  "RepliedAt": "2021-04-16T12:01:28.4940752+02:00",
-  "AlertTimeout": "2022-09-07T12:01:28.4940752+02:00",
-  "Deadline": "2022-10-08T12:01:28.4940752+02:00",
+  "TicketId": 357,
+  "Title": "itaque",
+  "CreatedAt": "2017-06-16T14:32:04.0928302+02:00",
+  "LastChanged": "2008-04-11T14:32:04.0928302+02:00",
+  "ReadByOwner": "2021-04-30T14:32:04.0928302+02:00",
+  "ReadByCustomer": "2022-03-12T14:32:04.0928302+01:00",
+  "FirstReadByOwner": "2001-12-03T14:32:04.0928302+01:00",
+  "FirstReadByUser": "2021-04-19T14:32:04.0928302+02:00",
+  "Activate": "2021-12-07T14:32:04.0928302+01:00",
+  "ClosedAt": "2002-06-16T14:32:04.0928302+02:00",
+  "RepliedAt": "2000-02-16T14:32:04.0928302+01:00",
+  "AlertTimeout": "2024-12-01T14:32:04.0928302+01:00",
+  "Deadline": "1998-11-02T14:32:04.0928302+01:00",
   "CreatedBy": null,
-  "Author": "earum",
+  "Author": "ea",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -172,163 +172,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "qui",
-      "PersonId": 115,
-      "Mrmrs": "sit",
-      "Firstname": "Lola",
-      "Lastname": "Bergnaum",
-      "MiddleName": "Hackett, Daugherty and Crooks",
-      "Title": "qui",
-      "Description": "Total solution-oriented architecture",
-      "Email": "jaqueline_hudson@legros.biz",
-      "FullName": "Jacques Bode",
-      "DirectPhone": "765-191-1188 x34747",
-      "FormalName": "Spencer, Witting and Wolff",
-      "CountryId": 840,
-      "ContactId": 790,
-      "ContactName": "Cruickshank-Yundt",
-      "Retired": 261,
-      "Rank": 696,
-      "ActiveInterests": 318,
-      "ContactDepartment": "",
-      "ContactCountryId": 553,
-      "ContactOrgNr": "686251",
-      "FaxPhone": "514-719-0282 x51565",
-      "MobilePhone": "231-672-7735",
-      "ContactPhone": "(280)687-7546",
-      "AssociateName": "Marks, DuBuque and Harvey",
-      "AssociateId": 897,
+      "Position": "accusantium",
+      "PersonId": 93,
+      "Mrmrs": "fuga",
+      "Firstname": "Conor",
+      "Lastname": "Von",
+      "MiddleName": "Littel, Auer and Hayes",
+      "Title": "ullam",
+      "Description": "Vision-oriented intangible access",
+      "Email": "abdiel@walsh.name",
+      "FullName": "Clementine Morissette",
+      "DirectPhone": "084.084.6903 x3839",
+      "FormalName": "Wuckert-Davis",
+      "CountryId": 715,
+      "ContactId": 283,
+      "ContactName": "Leannon-Stark",
+      "Retired": 978,
+      "Rank": 458,
+      "ActiveInterests": 973,
+      "ContactDepartment": "seize viral deliverables",
+      "ContactCountryId": 707,
+      "ContactOrgNr": "1257389",
+      "FaxPhone": "(084)867-3519 x12759",
+      "MobilePhone": "1-089-746-8328",
+      "ContactPhone": "375-108-2816",
+      "AssociateName": "Fay LLC",
+      "AssociateId": 180,
       "UsePersonAddress": false,
-      "ContactFax": "quae",
-      "Kanafname": "non",
-      "Kanalname": "suscipit",
-      "Post1": "ut",
-      "Post2": "est",
-      "Post3": "deleniti",
-      "EmailName": "era.renner@heidenreich.biz",
-      "ContactFullName": "Edmond Renner",
-      "ActiveErpLinks": 976,
-      "TicketPriorityId": 891,
-      "SupportLanguageId": 591,
-      "SupportAssociateId": 632,
+      "ContactFax": "vel",
+      "Kanafname": "illo",
+      "Kanalname": "a",
+      "Post1": "eveniet",
+      "Post2": "rem",
+      "Post3": "eius",
+      "EmailName": "aisha.king@robel.info",
+      "ContactFullName": "Dr. Jany Eulalia Kihn DVM",
+      "ActiveErpLinks": 954,
+      "TicketPriorityId": 263,
+      "SupportLanguageId": 739,
+      "SupportAssociateId": 925,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "694452",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 818
-        }
-      }
-    }
-  ],
-  "AlertLevel": 140,
-  "ConnectId": 780,
-  "ReadStatus": "Green",
-  "TimeToReply": 288,
-  "RealTimeToReply": 602,
-  "TimeToClose": 81,
-  "RealTimeToClose": 746,
-  "TimeSpentInternally": 14,
-  "TimeSpentExternally": 810,
-  "TimeSpentQueue": 721,
-  "RealTimeSpentInternally": 538,
-  "RealTimeSpentExternally": 784,
-  "RealTimeSpentQueue": 58,
-  "TimeSpent": 992,
-  "HasAttachment": true,
-  "NumReplies": 515,
-  "NumMessages": 396,
-  "FromAddress": "numquam",
-  "Messages": [
-    {
-      "TicketMessageId": 595,
-      "CreatedAt": "2015-05-14T12:01:28.4940752+02:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "quidem",
-      "PersonId": 109,
-      "PersonFullName": "Mrs. Sammie Bartoletti",
-      "ContactId": 35,
-      "ContactName": "Dicki, McKenzie and Considine",
-      "ContactDepartment": "",
-      "NumAttachments": 248,
-      "EmailHeader": "christopher_stehr@wiza.info",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "sequi",
-      "Sentiment": 291,
-      "SentimentConfidence": 301,
-      "CreatedBy": 895,
-      "ChangedAt": "2019-08-25T12:01:28.4940752+02:00",
-      "Badge": "Comment",
+      "PersonNumber": "974393",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 719
+        }
+      }
+    }
+  ],
+  "AlertLevel": 946,
+  "ConnectId": 671,
+  "ReadStatus": "Green",
+  "TimeToReply": 348,
+  "RealTimeToReply": 543,
+  "TimeToClose": 606,
+  "RealTimeToClose": 615,
+  "TimeSpentInternally": 703,
+  "TimeSpentExternally": 694,
+  "TimeSpentQueue": 146,
+  "RealTimeSpentInternally": 132,
+  "RealTimeSpentExternally": 272,
+  "RealTimeSpentQueue": 94,
+  "TimeSpent": 608,
+  "HasAttachment": false,
+  "NumReplies": 528,
+  "NumMessages": 210,
+  "FromAddress": "non",
+  "Messages": [
+    {
+      "TicketMessageId": 60,
+      "CreatedAt": "2005-11-22T14:32:04.1084523+01:00",
+      "Slevel": "External",
+      "Important": false,
+      "Author": "sequi",
+      "PersonId": 158,
+      "PersonFullName": "Amely Blick",
+      "ContactId": 576,
+      "ContactName": "Ledner, Mertz and Torp",
+      "ContactDepartment": "",
+      "NumAttachments": 647,
+      "EmailHeader": "buford_corwin@spinkalesch.info",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "maiores",
+      "Sentiment": 353,
+      "SentimentConfidence": 194,
+      "CreatedBy": 173,
+      "ChangedAt": "2022-12-27T14:32:04.1084523+01:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 635,
-      "Name": "Heller, Haley and Smith",
-      "ToolTip": "Omnis nihil consequatur aut rerum.",
+      "Id": 246,
+      "Name": "Gutkowski, Rodriguez and Price",
+      "ToolTip": "Et sit natus sit sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 361
         }
       }
     },
     {
-      "Id": 635,
-      "Name": "Heller, Haley and Smith",
-      "ToolTip": "Omnis nihil consequatur aut rerum.",
+      "Id": 246,
+      "Name": "Gutkowski, Rodriguez and Price",
+      "ToolTip": "Et sit natus sit sunt.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 123
+          "FieldType": "System.Int32",
+          "FieldLength": 361
         }
       }
     }
   ],
-  "Language": "adipisci",
-  "Sentiment": 576,
-  "SentimentConfidence": 723,
-  "SuggestedCategoryId": 921,
+  "Language": "et",
+  "Sentiment": 839,
+  "SentimentConfidence": 166,
+  "SuggestedCategoryId": 15,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 148,
-  "IconHint": "consectetur",
+  "OrigHumanCategoryId": 548,
+  "IconHint": "quisquam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 493,
+  "ActiveStatusMonitorId": 535,
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "vel"
+    "CustomFields1": "dolores",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

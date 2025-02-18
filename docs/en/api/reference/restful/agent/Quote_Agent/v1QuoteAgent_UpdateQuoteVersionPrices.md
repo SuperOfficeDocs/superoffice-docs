@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 506
+  "QuoteVersionId": 657
 }
 ```
 
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "dolores",
-  "TechExplanation": "explicabo",
-  "ErrorCode": "sed",
+  "IsOk": false,
+  "UserExplanation": "et",
+  "TechExplanation": "voluptatem",
+  "ErrorCode": "explicabo",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     },
     {
-      "QuoteLinesHasChanged": false,
+      "QuoteLinesHasChanged": true,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldType": "System.String",
+          "FieldLength": 483
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldType": "System.String",
+      "FieldLength": 855
     }
   }
 }

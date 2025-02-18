@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Wisozk, Renner and Barrows",
-  "StorageKey": "sint",
+  "StorageType": "incidunt",
+  "ProviderName": "Botsford, Murray and Feil",
+  "StorageKey": "eum",
   "StaticColumns": [
-    "est",
-    "cupiditate"
+    "omnis",
+    "sed"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rutherford LLC",
-      "Operator": "fugit",
+      "Name": "Kuphal Inc and Sons",
+      "Operator": "culpa",
       "Values": [
-        "deserunt",
-        "et"
+        "error",
+        "ut"
       ],
       "DisplayValues": [
-        "consequatur",
-        "unde"
+        "assumenda",
+        "magnam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 170,
+      "InterParenthesis": 520,
       "InterOperator": "And",
-      "UniqueHash": 605
+      "UniqueHash": 528
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Feeney-Monahan",
-      "DisplayTooltip": "molestias",
-      "DisplayType": "qui",
+      "DisplayName": "Harvey-Steuber",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "praesentium",
       "CanOrderBy": false,
-      "Name": "Ebert-Mills",
+      "Name": "Cartwright-McDermott",
       "CanRestrictBy": false,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Mann-Upton",
+      "RestrictionType": "vel",
+      "RestrictionListName": "Jast-Hoppe",
       "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "ipsam",
-      "IconHint": "autem",
-      "HeadingIconHint": "culpa"
+      "ExtraInfo": "laborum",
+      "Width": "atque",
+      "IconHint": "et",
+      "HeadingIconHint": "neque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Anderson, Kuphal and Howell",
-      "PrimaryKey": 49,
+      "EntityName": "Metz, Cormier and Sipes",
+      "PrimaryKey": 454,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sapiente",
-          "TooltipHint": "enim",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "nulla",
+          "TooltipHint": "animi",
+          "LinkHint": "autem"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "non",
+      "LinkHint": "fugiat",
+      "StyleHint": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 912
+          "FieldType": "System.String",
+          "FieldLength": 712
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Marquardt, Glover and Schaden",
-      "Description": "Open-source object-oriented throughput",
-      "Rank": 57,
+      "Name": "Hilpert, Legros and Schaden",
+      "Description": "Quality-focused didactic info-mediaries",
+      "Rank": 619,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Marquardt, Glover and Schaden",
-      "Description": "Open-source object-oriented throughput",
-      "Rank": 57,
+      "Name": "Hilpert, Legros and Schaden",
+      "Description": "Quality-focused didactic info-mediaries",
+      "Rank": 619,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

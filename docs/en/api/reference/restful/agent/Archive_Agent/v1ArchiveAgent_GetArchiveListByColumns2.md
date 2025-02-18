@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Steuber-Pfeffer",
-  "Columns": "sed",
-  "SortOrder": "et",
-  "Restrictions": "quia",
-  "Entities": "debitis",
-  "Page": 631,
-  "PageSize": 661
+  "ProviderName": "Pacocha Group",
+  "Columns": "quibusdam",
+  "SortOrder": "dignissimos",
+  "Restrictions": "consectetur",
+  "Entities": "voluptatibus",
+  "Page": 882,
+  "PageSize": 301
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Collier-Wilkinson",
-    "PrimaryKey": 765,
+    "EntityName": "Carter Inc and Sons",
+    "PrimaryKey": 553,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "in",
-        "TooltipHint": "tempore",
-        "LinkHint": "consequuntur"
+        "DisplayValue": "eos",
+        "TooltipHint": "dolore",
+        "LinkHint": "voluptatem"
       }
     },
-    "LinkHint": "ducimus",
-    "StyleHint": "vero",
+    "LinkHint": "quod",
+    "StyleHint": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 385
+  "ErpConnectorId": 18
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "reiciendis",
-    "Rank": 435,
-    "DisplayName": "Hamill, Goyette and Kuhn",
-    "DisplayDescription": "Secured uniform middleware",
+    "FieldKey": "non",
+    "Rank": 843,
+    "DisplayName": "Rohan-Gleichner",
+    "DisplayDescription": "Automated human-resource parallelism",
     "FieldType": "Checkbox",
-    "ListName": "Eichmann-Hoppe",
-    "DefaultValue": "dolorem",
-    "MaxLength": 56,
+    "ListName": "Littel Inc and Sons",
+    "DefaultValue": "et",
+    "MaxLength": 992,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldType": "System.Int32",
+        "FieldLength": 134
       }
     }
   }

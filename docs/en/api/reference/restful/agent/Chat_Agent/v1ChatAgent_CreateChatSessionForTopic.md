@@ -107,7 +107,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 211
+  "ChatTopicId": 521
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 731,
-  "TopicId": 964,
+  "ChatSessionId": 816,
+  "TopicId": 560,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odit",
-  "CustomerHost": "adipisci",
-  "CustomerName": "O'Hara Inc and Sons",
-  "CustomerEmail": "delphine@gleichner.ca",
-  "CustomerPhone": "1-931-647-2547",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kessler-Haag",
+  "CustomerAlias": "totam",
+  "CustomerHost": "voluptatibus",
+  "CustomerName": "Mayer-Moore",
+  "CustomerEmail": "aleen.bednar@cartwright.com",
+  "CustomerPhone": "274-812-5526",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Bode Group",
   "Status": "Closed",
-  "FirstMessage": "quaerat",
-  "LastMessage": "suscipit",
-  "WhenRequested": "2000-04-29T12:01:27.4471334+02:00",
-  "WhenStarted": "2000-01-08T12:01:27.4471334+01:00",
-  "WhenEnded": "2015-03-15T12:01:27.4471334+01:00",
-  "WhenIdle": "2001-10-28T12:01:27.4471334+01:00",
-  "WhenFetched": "2009-12-27T12:01:27.4471334+01:00",
-  "SessionKey": "quasi",
-  "InitialQueuePos": 884,
-  "AlertLevel": 96,
-  "Rank": 699,
+  "FirstMessage": "aliquam",
+  "LastMessage": "nobis",
+  "WhenRequested": "2005-12-28T14:32:02.2180587+01:00",
+  "WhenStarted": "2001-04-22T14:32:02.2180587+02:00",
+  "WhenEnded": "2002-07-21T14:32:02.2180587+02:00",
+  "WhenIdle": "2014-11-18T14:32:02.2180587+01:00",
+  "WhenFetched": "2001-02-10T14:32:02.2180587+01:00",
+  "SessionKey": "labore",
+  "InitialQueuePos": 831,
+  "AlertLevel": 962,
+  "Rank": 807,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 59,
+  "ChatbotIsActive": true,
+  "Rating": 214,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 75
     }
   }
 }

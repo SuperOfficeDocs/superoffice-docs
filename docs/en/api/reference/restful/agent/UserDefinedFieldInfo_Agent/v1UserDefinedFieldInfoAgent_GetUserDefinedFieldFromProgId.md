@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "nihil",
+  "ProgId": "beatae",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 418,
-  "ColumnId": 147,
-  "FieldDefault": "quia",
-  "FieldHeight": 986,
-  "FieldLabel": "magnam",
-  "FieldLeft": 724,
-  "FieldTop": 108,
+  "UDefFieldId": 711,
+  "ColumnId": 21,
+  "FieldDefault": "rerum",
+  "FieldHeight": 572,
+  "FieldLabel": "ducimus",
+  "FieldLeft": 481,
+  "FieldTop": 582,
   "FieldType": "Checkbox",
-  "FieldWidth": 853,
-  "FormatMask": "fugit",
+  "FieldWidth": 124,
+  "FormatMask": "iure",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 168,
-  "LabelLeft": 566,
-  "LabelTop": 74,
-  "LabelWidth": 740,
-  "LastVersionId": 218,
-  "ListTableId": 763,
+  "IsIndexed": true,
+  "LabelHeight": 171,
+  "LabelLeft": 275,
+  "LabelTop": 598,
+  "LabelWidth": 9,
+  "LastVersionId": 776,
+  "ListTableId": 19,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 126,
-  "ProgId": "quas",
-  "IsReadOnly": true,
-  "ShortLabel": "reiciendis",
-  "TabOrder": 484,
-  "TextLength": 357,
-  "Tooltip": "nesciunt",
-  "UdefIdentity": 455,
-  "UDListDefinitionId": 460,
+  "Page1LineNo": 289,
+  "ProgId": "dolores",
+  "IsReadOnly": false,
+  "ShortLabel": "autem",
+  "TabOrder": 985,
+  "TextLength": 371,
+  "Tooltip": "magnam",
+  "UdefIdentity": 104,
+  "UDListDefinitionId": 951,
   "Justification": "Center",
-  "Version": 752,
-  "TemplateVariableName": "Mann, Altenwerth and Feeney",
+  "Version": 965,
+  "TemplateVariableName": "Predovic-Towne",
   "HasBeenPublished": false,
-  "MdoListName": "Ward, Spencer and Kerluke",
+  "MdoListName": "Aufderhar LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

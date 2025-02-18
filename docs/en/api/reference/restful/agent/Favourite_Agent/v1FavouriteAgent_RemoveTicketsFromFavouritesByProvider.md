@@ -66,21 +66,21 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernhard LLC",
+  "ProviderName": "Douglas Inc and Sons",
   "Restrictions": [
     {
-      "Name": "McLaughlin-Wolf",
-      "Operator": "qui",
+      "Name": "Welch, Frami and Wisozk",
+      "Operator": "nostrum",
       "Values": [
-        "aspernatur",
+        "odio",
         "ut"
       ],
       "DisplayValues": [
-        "tenetur",
+        "similique",
         "et"
       ],
       "ColumnInfo": null,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 184,
+      "InterParenthesis": 506,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 280
     }
   ],
-  "AssociateId": 925
+  "AssociateId": 847
 }
 ```
 

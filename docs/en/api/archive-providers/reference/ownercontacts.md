@@ -357,7 +357,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=code,contactSupportPerson/personNumber,contactSupportPerson/hasCompany,contactSupportPerson/whenUpdatedByWorkflow
+GET /api/v1/archive/OwnerContacts?$select=contactAssociate/contactDepartment,contactSupportAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

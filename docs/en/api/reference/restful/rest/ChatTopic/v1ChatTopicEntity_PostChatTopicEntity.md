@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 634,
-  "Name": "Lesch-Schimmel",
-  "Description": "Advanced contextually-based installation",
-  "WelcomeMessage": "consequuntur",
+  "ChatTopicId": 487,
+  "Name": "Hane, Stamm and Jaskolski",
+  "Description": "Advanced reciprocal initiative",
+  "WelcomeMessage": "iste",
   "Language": null,
-  "LastAccept": "2001-07-06T12:01:32.745675+02:00",
-  "SecondsPrAccept": 549,
-  "AlertRecipient": "officiis",
+  "LastAccept": "2017-06-25T14:32:11.2239698+02:00",
+  "SecondsPrAccept": 388,
+  "AlertRecipient": "eius",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "similique",
-  "WarnNewChatMinutes": 321,
-  "WarnManagerNewChatMinutes": 81,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "placeat",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "sint",
+  "WarnNewChatMinutes": 118,
+  "WarnManagerNewChatMinutes": 683,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 361,
-  "WarnManagerChatMessageMinutes": 208,
+  "WarnChatMessageMinutes": 951,
+  "WarnManagerChatMessageMinutes": 451,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 271,
-  "OfflineFormQueueLength": 691,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "labore"
+  "OfflineFormTimeLimit": 379,
+  "OfflineFormQueueLength": 412,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "aut"
 }
 ```
 
@@ -181,22 +181,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 400,
-  "Name": "Haag-Osinski",
-  "Description": "Profit-focused clear-thinking monitoring",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 744,
+  "Name": "Leannon Inc and Sons",
+  "Description": "Programmable disintermediate utilisation",
+  "WelcomeMessage": "vel",
   "Language": null,
-  "LastAccept": "2006-12-22T12:01:32.7613009+01:00",
-  "SecondsPrAccept": 398,
-  "AlertRecipient": "aliquam",
+  "LastAccept": "2018-05-10T14:32:11.2239698+02:00",
+  "SecondsPrAccept": 378,
+  "AlertRecipient": "saepe",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "cumque",
+  "BadgeHeader": "non",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "culpa",
-  "WarnNewChatMinutes": 775,
-  "WarnManagerNewChatMinutes": 353,
-  "TicketEnabled": true,
+  "CustomQueueText": "voluptatibus",
+  "WarnNewChatMinutes": 806,
+  "WarnManagerNewChatMinutes": 589,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -204,20 +204,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 871,
-  "WarnManagerChatMessageMinutes": 13,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 130,
-  "OfflineFormQueueLength": 925,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 384,
+  "WarnManagerChatMessageMinutes": 685,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 402,
+  "OfflineFormQueueLength": 277,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "temporibus",
+  "WidgetRatingText": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   },
   "_Links": {

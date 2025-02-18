@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 691,
-  "Name": "Farrell Inc and Sons",
-  "TZLocationCode": "modi",
-  "TZLocationCities": "non",
-  "IsoNumber": 573,
+  "TZLocationID": 543,
+  "Name": "Shields-Mohr",
+  "TZLocationCode": "qui",
+  "TZLocationCities": "rem",
+  "IsoNumber": 406,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 99,
-      "StartMonth": 290,
-      "EndDay": 994,
-      "EndMonth": 656,
-      "TZOffset": 692,
-      "StartRulePattern": "enim",
-      "EndRulePattern": "nisi"
+      "StartDay": 716,
+      "StartMonth": 982,
+      "EndDay": 767,
+      "EndMonth": 252,
+      "TZOffset": 267,
+      "StartRulePattern": "laboriosam",
+      "EndRulePattern": "voluptatum"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 134,
-      "StartMonth": 763,
-      "EndDay": 712,
-      "EndMonth": 424,
-      "TZOffset": 11,
-      "StartRulePattern": "odit",
-      "EndRulePattern": "exercitationem"
+      "StartDay": 680,
+      "StartMonth": 118,
+      "EndDay": 685,
+      "EndMonth": 461,
+      "TZOffset": 556,
+      "StartRulePattern": "quo",
+      "EndRulePattern": "nam"
     }
   }
 }

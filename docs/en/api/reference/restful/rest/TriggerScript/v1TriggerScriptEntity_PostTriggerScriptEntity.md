@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 220,
-  "Name": "Parisian-Davis",
+  "ScreenChooserId": 554,
+  "Name": "Hahn Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ratione",
-  "Source": "saepe",
-  "Registered": "2021-12-01T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2011-01-09T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 299
+  "Enabled": true,
+  "UniqueIdentifier": "et",
+  "Source": "blanditiis",
+  "Registered": "2017-07-03T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2005-05-11T14:32:12.2240348+02:00",
+  "UpdatedAssociateId": 257
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 629,
-  "Name": "Durgan-Murray",
+  "ScreenChooserId": 639,
+  "Name": "Gleason-Schamberger",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "eveniet",
-  "Source": "magnam",
-  "Registered": "2014-01-23T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2001-07-28T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 754,
+  "Enabled": false,
+  "UniqueIdentifier": "quia",
+  "Source": "qui",
+  "Registered": "2009-09-24T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 884,
+  "Updated": "2021-02-05T14:32:12.2240348+01:00",
+  "UpdatedAssociateId": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldLength": 564
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

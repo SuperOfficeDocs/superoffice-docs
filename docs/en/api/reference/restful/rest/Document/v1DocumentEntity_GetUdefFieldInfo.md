@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 582,
-  "ColumnId": 579,
-  "FieldDefault": "voluptate",
-  "FieldHeight": 695,
-  "FieldLabel": "ullam",
-  "FieldLeft": 145,
-  "FieldTop": 391,
+  "UDefFieldId": 736,
+  "ColumnId": 571,
+  "FieldDefault": "cumque",
+  "FieldHeight": 970,
+  "FieldLabel": "qui",
+  "FieldLeft": 432,
+  "FieldTop": 932,
   "FieldType": "Checkbox",
-  "FieldWidth": 854,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 351,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 504,
-  "LabelLeft": 114,
-  "LabelTop": 1002,
-  "LabelWidth": 485,
-  "LastVersionId": 162,
-  "ListTableId": 852,
+  "LabelHeight": 883,
+  "LabelLeft": 552,
+  "LabelTop": 593,
+  "LabelWidth": 959,
+  "LastVersionId": 781,
+  "ListTableId": 959,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 683,
-  "ProgId": "atque",
+  "Page1LineNo": 349,
+  "ProgId": "non",
   "IsReadOnly": true,
-  "ShortLabel": "dolorem",
-  "TabOrder": 346,
-  "TextLength": 786,
-  "Tooltip": "libero",
-  "UdefIdentity": 904,
-  "UDListDefinitionId": 107,
+  "ShortLabel": "tempora",
+  "TabOrder": 101,
+  "TextLength": 618,
+  "Tooltip": "dicta",
+  "UdefIdentity": 583,
+  "UDListDefinitionId": 468,
   "Justification": "Center",
-  "Version": 718,
-  "TemplateVariableName": "Larson LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "White-Conroy",
+  "Version": 910,
+  "TemplateVariableName": "Grady LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Smith Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldLength": 647
     }
   }
 }

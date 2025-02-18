@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 307,
-  "UniqueIdentifier": "maxime",
-  "Name": "Wintheiser, Runte and Von",
-  "Description": "Innovative leading edge circuit",
-  "IncludeId": "quia",
-  "AccessKey": "debitis",
-  "HierarchyId": 444,
-  "Source": "velit",
-  "SourceCode": "similique",
+  "EjscriptId": 558,
+  "UniqueIdentifier": "aperiam",
+  "Name": "Wuckert Group",
+  "Description": "Reduced zero defect time-frame",
+  "IncludeId": "dolores",
+  "AccessKey": "harum",
+  "HierarchyId": 360,
+  "Source": "possimus",
+  "SourceCode": "vitae",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 760,
+  "HtmlOutput": 127,
   "Includes": [
-    242,
-    770
+    427,
+    813
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 591,
-      "LineNumberTo": 204,
-      "Delta": 873,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 488,
+      "LineNumberTo": 464,
+      "Delta": 559,
+      "IncludeId": "ab",
       "IncludedFrom": [
-        "nobis",
-        "quo"
+        "accusamus",
+        "architecto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldLength": 627
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2014-11-18T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 939,
-  "Updated": "2013-08-21T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 64,
+  "Registered": "2013-09-09T14:32:02.5461102+02:00",
+  "RegisteredAssociateId": 89,
+  "Updated": "2003-08-18T14:32:02.5461102+02:00",
+  "UpdatedAssociateId": 568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 838
     }
   }
 }

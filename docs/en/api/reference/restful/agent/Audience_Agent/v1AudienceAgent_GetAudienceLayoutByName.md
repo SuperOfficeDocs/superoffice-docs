@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hartmann-Yundt"
+  "LayoutName": "Mosciski-Reilly"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 205,
-  "InstanceLayout": "quisquam",
-  "InstanceName": "Treutel, Maggio and Boyle",
-  "CreatedDate": "2009-12-30T12:01:27.3377499+01:00",
-  "UpdatedDate": "2017-01-23T12:01:27.3377499+01:00",
+  "AudienceLayoutId": 492,
+  "InstanceLayout": "cupiditate",
+  "InstanceName": "Christiansen-Shields",
+  "CreatedDate": "2015-11-23T14:32:02.0462229+01:00",
+  "UpdatedDate": "2013-11-18T14:32:02.0462229+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

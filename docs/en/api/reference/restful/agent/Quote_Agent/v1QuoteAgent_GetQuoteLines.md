@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 196
+  "QuoteAlternativeId": 377
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 85,
-    "ERPQuoteLineKey": "id",
-    "QuoteAlternativeId": 422,
-    "ERPProductKey": "sed",
+    "QuoteLineId": 826,
+    "ERPQuoteLineKey": "consectetur",
+    "QuoteAlternativeId": 963,
+    "ERPProductKey": "rem",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 8283.162,
-    "DeliveredQuantity": 15952.06,
-    "Rank": 907,
-    "Name": "Pouros, Becker and Green",
-    "Description": "Organic high-level algorithm",
-    "Code": "odit",
-    "QuantityUnit": "in",
-    "PriceUnit": "quidem",
-    "ItemNumber": "976637",
+    "Quantity": 29550.486,
+    "DeliveredQuantity": 20396.072,
+    "Rank": 409,
+    "Name": "Deckow LLC",
+    "Description": "Progressive cohesive alliance",
+    "Code": "est",
+    "QuantityUnit": "ad",
+    "PriceUnit": "sunt",
+    "ItemNumber": "508384",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "a",
-    "ProductTypeKey": "magnam",
-    "Supplier": "at",
-    "SupplierCode": "animi",
-    "Thumbnail": "vitae",
-    "VATInfo": "deserunt",
-    "VAT": 2967.8979999999997,
-    "UnitCost": 9909.708,
-    "UnitMinimumPrice": 4274.776,
-    "UnitListPrice": 27886.332,
+    "ProductFamilyKey": "officia",
+    "ProductTypeKey": "consequuntur",
+    "Supplier": "nesciunt",
+    "SupplierCode": "rerum",
+    "Thumbnail": "tempora",
+    "VATInfo": "architecto",
+    "VAT": 6521.8539999999994,
+    "UnitCost": 12677.029999999999,
+    "UnitMinimumPrice": 3281.298,
+    "UnitListPrice": 9737.338,
     "ExtraInfo": [
       {
-        "Name": "Mertz, Weimann and Halvorson",
-        "Value": "et",
+        "Name": "Runolfsson-Thiel",
+        "Value": "quis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 715
           }
         }
       },
       {
-        "Name": "Mertz, Weimann and Halvorson",
-        "Value": "et",
+        "Name": "Runolfsson-Thiel",
+        "Value": "quis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 715
           }
         }
       }
     ],
-    "RawExtraInfo": "recusandae",
+    "RawExtraInfo": "quo",
     "IsSubscription": false,
-    "SubscriptionUnit": "deleniti",
-    "SubscriptionQuantity": 18029.902,
-    "SubscriptionStart": "2016-09-12T12:01:28.2128113+02:00",
-    "ERPDiscountPercent": 15670.0,
-    "ERPDiscountAmount": 24185.077999999998,
-    "DiscountPercent": 22815.52,
-    "DiscountAmount": 29055.314,
+    "SubscriptionUnit": "omnis",
+    "SubscriptionQuantity": 22329.75,
+    "SubscriptionStart": "2017-10-03T14:32:03.6085662+02:00",
+    "ERPDiscountPercent": 6650.348,
+    "ERPDiscountAmount": 5330.934,
+    "DiscountPercent": 18465.528,
+    "DiscountAmount": 5644.334,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 2243.944,
-    "EarningAmount": 30525.16,
-    "SubTotal": 11335.678,
-    "TotalPrice": 11953.076,
-    "Rights": "perferendis",
-    "Rule": "eius",
-    "ExtraField1": "placeat",
-    "ExtraField2": "dolores",
-    "ExtraField3": "ab",
-    "ExtraField4": "ea",
-    "ExtraField5": "iure",
+    "EarningPercent": 20204.898,
+    "EarningAmount": 188.04,
+    "SubTotal": 15845.503999999999,
+    "TotalPrice": 19189.482,
+    "Rights": "modi",
+    "Rule": "sit",
+    "ExtraField1": "deserunt",
+    "ExtraField2": "et",
+    "ExtraField3": "necessitatibus",
+    "ExtraField4": "consequatur",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 49
       }
     }
   }

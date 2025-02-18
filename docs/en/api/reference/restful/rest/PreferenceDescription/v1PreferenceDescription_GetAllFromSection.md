@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 145,
-    "Section": "et",
-    "Key": "possimus",
-    "Name": "Feil, Fisher and Wunsch",
+    "PrefDescId": 986,
+    "Section": "aut",
+    "Key": "saepe",
+    "Name": "Jewess Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Robust composite migration",
-    "IsBuiltin": true,
-    "TableName": "Hand Inc and Sons",
-    "UserDefinedListId": 243,
-    "Rank": 995,
-    "SubGroup": "odio",
-    "MinLevel": 804,
-    "MaxValue": 934,
-    "MinValue": 886,
-    "RequiredLicense": "quisquam",
+    "Description": "Exclusive systemic productivity",
+    "IsBuiltin": false,
+    "TableName": "Dooley-Zboncak",
+    "UserDefinedListId": 624,
+    "Rank": 182,
+    "SubGroup": "cum",
+    "MinLevel": 379,
+    "MaxValue": 834,
+    "MinValue": 986,
+    "RequiredLicense": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
+        "FieldType": "System.Int32",
+        "FieldLength": 984
       }
     }
   }

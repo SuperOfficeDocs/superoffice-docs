@@ -117,24 +117,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 121,
-  "Section": "aperiam",
-  "Key": "facere",
-  "Name": "Torp-Funk",
+  "PrefDescId": 628,
+  "Section": "dolores",
+  "Key": "dignissimos",
+  "Name": "Harvey Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced secondary ability",
-  "IsBuiltin": true,
-  "TableName": "Sanford Group",
-  "UserDefinedListId": 423,
-  "Rank": 979,
-  "SubGroup": "fuga",
-  "MinLevel": 55,
-  "MaxValue": 103,
-  "MinValue": 561,
-  "RequiredLicense": "eos"
+  "Description": "Implemented user-facing encryption",
+  "IsBuiltin": false,
+  "TableName": "Reinger Group",
+  "UserDefinedListId": 472,
+  "Rank": 150,
+  "SubGroup": "voluptatibus",
+  "MinLevel": 82,
+  "MaxValue": 224,
+  "MinValue": 170,
+  "RequiredLicense": "qui"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 486,
-  "Section": "qui",
-  "Key": "atque",
-  "Name": "Schumm, Heller and Block",
+  "PrefDescId": 806,
+  "Section": "aut",
+  "Key": "veritatis",
+  "Name": "Kiehn LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group transitional adapter",
-  "IsBuiltin": true,
-  "TableName": "Kuhn Inc and Sons",
-  "UserDefinedListId": 604,
-  "Rank": 785,
-  "SubGroup": "a",
-  "MinLevel": 76,
-  "MaxValue": 34,
-  "MinValue": 679,
-  "RequiredLicense": "quae",
+  "Description": "Stand-alone methodical architecture",
+  "IsBuiltin": false,
+  "TableName": "Casper LLC",
+  "UserDefinedListId": 458,
+  "Rank": 237,
+  "SubGroup": "impedit",
+  "MinLevel": 893,
+  "MaxValue": 236,
+  "MinValue": 994,
+  "RequiredLicense": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldLength": 904
     }
   },
   "_Links": {

@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 760,
+  "TargetAssignmentInfoId": 722,
   "Values": [
-    553,
-    267
+    452,
+    782
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 151,
-  "DimensionListItemDisplayName": "Lockman LLC",
+  "DimensionListItem": 149,
+  "DimensionListItemDisplayName": "Weber, Will and Schultz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 800
     }
   }
 }

@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 177
+  "AppointmentId": 67
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 870,
-  "StartDate": "2023-03-25T12:01:27.0095855+01:00",
-  "EndDate": "2014-01-13T12:01:27.0095855+01:00",
+  "AppointmentId": 502,
+  "StartDate": "2005-05-09T14:32:01.6242454+02:00",
+  "EndDate": "2005-02-16T14:32:01.6242454+01:00",
   "Type": "BookingForChecklist",
-  "Task": "magnam",
-  "AssociateFullName": "Shayne Larson",
-  "ContactName": "Wunsch, Crist and Rodriguez",
-  "Description": "De-engineered modular application",
-  "PersonFullName": "Jasen Pfeffer",
-  "PersonId": 601,
-  "ContactId": 964,
-  "ProjectId": 598,
-  "ProjectName": "Miller, Olson and Halvorson",
+  "Task": "quasi",
+  "AssociateFullName": "Prof. Myles Keyon Auer MD",
+  "ContactName": "Brekke-Schaden",
+  "Description": "Customizable even-keeled help-desk",
+  "PersonFullName": "Fredrick Von",
+  "PersonId": 321,
+  "ContactId": 458,
+  "ProjectId": 675,
+  "ProjectName": "Upton-Nienow",
   "IsPublished": false,
-  "AssociateId": 726,
-  "ColorIndex": 736,
+  "AssociateId": 4,
+  "ColorIndex": 196,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 845,
-  "PriorityName": "Block, Stiedemann and Kuvalis",
+  "PriorityId": 428,
+  "PriorityName": "Leuschke-Johnston",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2016-01-30T12:01:27.0095855+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2020-10-15T14:32:01.6242454+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-07-11T12:01:27.0095855+02:00",
-  "RecurringEndDate": "2013-01-31T12:01:27.0095855+01:00",
-  "MotherId": 145,
-  "AssignedBy": 931,
-  "AssignedByFullName": "Prof. Elinore Lindgren",
+  "RecurringStartDate": "2024-07-16T14:32:01.6242454+02:00",
+  "RecurringEndDate": "2013-08-13T14:32:01.6242454+02:00",
+  "MotherId": 564,
+  "AssignedBy": 270,
+  "AssignedByFullName": "Giuseppe Larkin",
   "RejectReason": "",
-  "Location": "eum",
-  "AlarmLeadTime": "ipsum",
-  "SaleId": 763,
-  "SaleName": "Wilderman LLC",
-  "AssociateName": "Lehner, Ferry and Jast",
-  "CreatedDate": "2000-01-20T12:01:27.0095855+01:00",
-  "CreatedBy": "recusandae",
-  "CreatedByFullName": "Marques Ledner",
-  "CreatedByAssociateId": 442,
+  "Location": "quo",
+  "AlarmLeadTime": "nihil",
+  "SaleId": 104,
+  "SaleName": "Jenkins LLC",
+  "AssociateName": "Zboncak, Glover and Mraz",
+  "CreatedDate": "2024-07-20T14:32:01.6242454+02:00",
+  "CreatedBy": "maiores",
+  "CreatedByFullName": "Rubye Quitzon",
+  "CreatedByAssociateId": 766,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 56,
-  "Title": "adipisci",
-  "Agenda": "modi",
-  "InternalNotes": "hic",
+  "PreferredTZLocation": 504,
+  "Title": "dolores",
+  "Agenda": "qui",
+  "InternalNotes": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 703
     }
   }
 }

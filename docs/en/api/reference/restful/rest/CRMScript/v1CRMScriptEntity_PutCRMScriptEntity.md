@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 338,
-  "UniqueIdentifier": "est",
-  "Name": "Fritsch, Bernier and Kuhn",
-  "Description": "Devolved multi-state application",
-  "IncludeId": "dolor",
-  "AccessKey": "voluptatem",
-  "HierarchyId": 738,
-  "Source": "dolore",
-  "SourceCode": "dignissimos",
+  "EjscriptId": 411,
+  "UniqueIdentifier": "dolor",
+  "Name": "Wunsch Inc and Sons",
+  "Description": "Organized interactive structure",
+  "IncludeId": "aut",
+  "AccessKey": "vero",
+  "HierarchyId": 258,
+  "Source": "provident",
+  "SourceCode": "repellendus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 467,
+  "HtmlOutput": 980,
   "Includes": [
-    921,
-    799
+    54,
+    672
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 831,
-      "LineNumberTo": 985,
-      "Delta": 425,
-      "IncludeId": "minima",
+      "LineNumberFrom": 770,
+      "LineNumberTo": 639,
+      "Delta": 417,
+      "IncludeId": "totam",
       "IncludedFrom": [
-        "ut",
-        "deleniti"
+        "laudantium",
+        "ullam"
       ]
     },
     {
-      "LineNumberFrom": 831,
-      "LineNumberTo": 985,
-      "Delta": 425,
-      "IncludeId": "minima",
+      "LineNumberFrom": 770,
+      "LineNumberTo": 639,
+      "Delta": 417,
+      "IncludeId": "totam",
       "IncludedFrom": [
-        "ut",
-        "deleniti"
+        "laudantium",
+        "ullam"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-10-03T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 411,
-  "Updated": "2011-11-08T12:01:32.8394314+01:00",
-  "UpdatedAssociateId": 296
+  "Registered": "1999-12-31T14:32:11.3815336+01:00",
+  "RegisteredAssociateId": 785,
+  "Updated": "2003-06-22T14:32:11.3815336+02:00",
+  "UpdatedAssociateId": 693
 }
 ```
 
@@ -171,29 +171,29 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 921,
-  "UniqueIdentifier": "neque",
-  "Name": "Legros, Harvey and Jaskolski",
-  "Description": "Customer-focused methodical emulation",
-  "IncludeId": "corporis",
-  "AccessKey": "blanditiis",
-  "HierarchyId": 985,
-  "Source": "beatae",
-  "SourceCode": "reiciendis",
+  "EjscriptId": 288,
+  "UniqueIdentifier": "voluptas",
+  "Name": "Marvin, Schmitt and Abshire",
+  "Description": "Versatile bi-directional website",
+  "IncludeId": "quibusdam",
+  "AccessKey": "natus",
+  "HierarchyId": 147,
+  "Source": "et",
+  "SourceCode": "autem",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 191,
+  "HtmlOutput": 445,
   "Includes": [
-    720,
-    850
+    389,
+    412
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 216,
-      "LineNumberTo": 638,
-      "Delta": 361,
-      "IncludeId": "amet",
+      "LineNumberFrom": 138,
+      "LineNumberTo": 971,
+      "Delta": 486,
+      "IncludeId": "omnis",
       "IncludedFrom": [
-        "harum",
+        "quia",
         "ut"
       ],
       "TableRight": null,
@@ -201,27 +201,27 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 646
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-05-06T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 489,
-  "Updated": "1999-09-16T12:01:32.8394314+02:00",
-  "UpdatedAssociateId": 976,
+  "Registered": "2011-06-09T14:32:11.3815336+02:00",
+  "RegisteredAssociateId": 947,
+  "Updated": "2023-07-11T14:32:11.3815336+02:00",
+  "UpdatedAssociateId": 461,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 529
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

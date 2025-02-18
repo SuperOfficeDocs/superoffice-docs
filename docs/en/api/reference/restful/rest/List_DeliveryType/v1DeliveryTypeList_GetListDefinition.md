@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "O'Keefe Group",
-  "Tooltip": "tempora",
+  "Id": 527,
+  "Name": "Cummerata-Murphy",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 76,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 797,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   },
   "_Links": {

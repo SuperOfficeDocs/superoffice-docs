@@ -81,19 +81,19 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 39,
-  "ChatSessionId": 226,
+  "ChatMessageId": 901,
+  "ChatSessionId": 690,
   "Type": "Invalid",
-  "Message": "rerum",
-  "Author": "ea",
-  "ReadByCustomer": 150,
+  "Message": "quisquam",
+  "Author": "veritatis",
+  "ReadByCustomer": 500,
   "SpecialType": "Block",
-  "SpecialParam": "autem",
-  "WhenPosted": "2024-06-23T12:01:32.745675+02:00"
+  "SpecialParam": "delectus",
+  "WhenPosted": "1999-10-11T14:32:11.2083425+02:00"
 }
 ```
 
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 752,
-  "ChatSessionId": 501,
+  "ChatMessageId": 334,
+  "ChatSessionId": 131,
   "Type": "Invalid",
-  "Message": "dolorum",
-  "Author": "dolor",
-  "ReadByCustomer": 340,
+  "Message": "est",
+  "Author": "quod",
+  "ReadByCustomer": 75,
   "SpecialType": "Block",
-  "SpecialParam": "et",
-  "WhenPosted": "2014-02-28T12:01:32.745675+01:00"
+  "SpecialParam": "aliquid",
+  "WhenPosted": "2022-02-28T14:32:11.2083425+01:00"
 }
 ```

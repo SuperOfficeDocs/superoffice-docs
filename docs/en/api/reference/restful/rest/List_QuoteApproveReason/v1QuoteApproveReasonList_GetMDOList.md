@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=ratione
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=quaerat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Quitzon, Kessler and Reynolds",
-    "ToolTip": "Nesciunt incidunt est.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "velit",
+    "Id": 926,
+    "Name": "Shields LLC",
+    "ToolTip": "Fuga quia.",
+    "Deleted": false,
+    "Rank": 887,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Sauer, McDermott and Pacocha",
-        "ToolTip": "Excepturi aut aliquam ut.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "quis",
+        "Id": 767,
+        "Name": "Batz-Ebert",
+        "ToolTip": "Incidunt laborum dolores voluptatibus et dolor placeat.",
+        "Deleted": false,
+        "Rank": 435,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 614,
-        "ExtraInfo": "cum",
-        "StyleHint": "vel",
-        "FullName": "Helen Cummerata",
+        "IconHint": "occaecati",
+        "ColorBlock": 68,
+        "ExtraInfo": "architecto",
+        "StyleHint": "tempore",
+        "FullName": "Dale Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 140
           }
         }
       }
     ],
-    "IconHint": "necessitatibus",
-    "ColorBlock": 182,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "eum",
-    "FullName": "Madisyn Klocko",
+    "IconHint": "aut",
+    "ColorBlock": 329,
+    "ExtraInfo": "alias",
+    "StyleHint": "perferendis",
+    "FullName": "Mrs. Carlie Jamal Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldType": "System.Int32",
+        "FieldLength": 713
       }
     }
   }

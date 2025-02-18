@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Dec 2007 12:01:32 G12T
+Last-Modified: Sat, 02 Sep 2000 14:32:11 G9T
 
 [
   {
-    "ForeignDeviceId": 734,
-    "Name": "Marvin-Schaefer",
-    "CreatedDate": "2003-09-24T12:01:32.9175621+02:00",
-    "UpdatedDate": "2007-12-14T12:01:32.9175621+01:00",
-    "AssociateFullName": "Whitney Lynch",
-    "CreatedBy": "dicta",
-    "UpdatedBy": "sed",
-    "DeviceIdentifier": "modi",
-    "ForeignAppId": 282,
+    "ForeignDeviceId": 296,
+    "Name": "Altenwerth Group",
+    "CreatedDate": "2004-03-07T14:32:11.5210682+01:00",
+    "UpdatedDate": "2000-09-02T14:32:11.5210682+02:00",
+    "AssociateFullName": "Donato Rutherford",
+    "CreatedBy": "sequi",
+    "UpdatedBy": "debitis",
+    "DeviceIdentifier": "aut",
+    "ForeignAppId": 568,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 869
       }
     }
   }

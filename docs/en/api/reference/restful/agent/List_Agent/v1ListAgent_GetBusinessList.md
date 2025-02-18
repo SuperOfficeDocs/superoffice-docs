@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 610,
-    "Value": "pariatur",
-    "Tooltip": "delectus",
+    "Id": 69,
+    "Value": "suscipit",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   },
   {
-    "Id": 610,
-    "Value": "pariatur",
-    "Tooltip": "delectus",
+    "Id": 69,
+    "Value": "suscipit",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

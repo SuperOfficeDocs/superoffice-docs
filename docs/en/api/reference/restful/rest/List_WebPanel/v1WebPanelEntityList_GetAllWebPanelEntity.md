@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 971,
-    "Name": "Mann LLC",
-    "Tooltip": "velit",
+    "WebPanelId": 521,
+    "Name": "Cole LLC",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 970,
+    "Rank": 846,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
-    "OnSalesMarketingWeb": false,
+    "OnSatellite": false,
+    "OnTravel": false,
+    "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Luettgen Inc and Sons",
+    "WindowName": "Lesch Group",
     "Url": "http://www.example.com/",
-    "ProgId": "reprehenderit",
-    "Icon": 371,
-    "AlwaysReloadOnShow": false,
+    "ProgId": "illum",
+    "Icon": 876,
+    "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 900
       }
     }
   }

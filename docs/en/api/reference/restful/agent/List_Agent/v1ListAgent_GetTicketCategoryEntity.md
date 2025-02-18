@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=312
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=212
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 830,
-  "ParentId": 234,
-  "Name": "Will LLC",
-  "Fullname": "sapiente",
-  "CategoryMaster": 701,
+  "TicketCategoryId": 688,
+  "ParentId": 845,
+  "Name": "Mueller Group",
+  "Fullname": "vel",
+  "CategoryMaster": 917,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fadel, Schultz and White",
+  "ExternalName": "Larkin Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 62,
-  "ReplyTemplate": 874,
-  "NotificationEmail": "cielo@stoltenbergnolan.name",
+  "AssignmentLag": 679,
+  "ReplyTemplate": 649,
+  "NotificationEmail": "kenna.beahan@gusikowski.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 383,
+  "EffectiveReplyTemplateId": 743,
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "sapiente",
+    "CustomFields2": "ea"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldLength": 310
     }
   }
 }

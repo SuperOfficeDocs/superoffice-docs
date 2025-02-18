@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Beier-Lemke",
-    "ToolTip": "Nihil vitae recusandae qui.",
-    "Deleted": false,
-    "Rank": 482,
-    "Type": "molestias",
-    "ColorBlock": 957,
-    "IconHint": "autem",
+    "Id": 479,
+    "Name": "Von, Shields and Tromp",
+    "ToolTip": "Excepturi sit dolores et aut eius.",
+    "Deleted": true,
+    "Rank": 412,
+    "Type": "rerum",
+    "ColorBlock": 711,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2003-01-04T12:01:33.5894836+01:00",
+    "LastChanged": "1998-07-18T14:32:12.7866475+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Gutmann Group",
-        "ToolTip": "Reprehenderit aperiam voluptate occaecati sit.",
-        "Deleted": true,
-        "Rank": 379,
-        "Type": "laudantium",
-        "ColorBlock": 952,
-        "IconHint": "sit",
+        "Id": 712,
+        "Name": "Robel, Rippin and Ward",
+        "ToolTip": "Recusandae nesciunt non culpa dignissimos.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "omnis",
+        "ColorBlock": 767,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2017-01-27T12:01:33.5894836+01:00",
+        "LastChanged": "2013-04-01T14:32:12.7866475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "beatae",
         "Hidden": true,
-        "FullName": "Christina Leuschke",
+        "FullName": "Alexys Mohr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldLength": 665
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "quasi",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Dr. Lexus Haag",
+    "FullName": "Dr. Dariana Ana Torphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 768
       }
     }
   }

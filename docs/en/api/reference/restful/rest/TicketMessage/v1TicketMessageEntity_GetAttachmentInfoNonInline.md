@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 823,
-    "Name": "Predovic LLC",
-    "ContentType": "quia",
-    "AttSize": 69,
-    "InlineImage": false,
-    "ContentId": "nostrum",
-    "AuthKey": "minus",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 210,
+    "Name": "Walker Inc and Sons",
+    "ContentType": "at",
+    "AttSize": 806,
+    "InlineImage": true,
+    "ContentId": "quod",
+    "AuthKey": "unde",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 427
       }
     }
   }

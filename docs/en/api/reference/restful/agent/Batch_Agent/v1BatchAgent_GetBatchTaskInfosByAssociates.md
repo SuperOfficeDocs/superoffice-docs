@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    94,
-    666
+    447,
+    880
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Dare-Ankunding",
-    "AssociateId": 878,
-    "DetailsTable": 776,
-    "DetailsRecord": 628,
-    "IsSystemTask": false,
+    "Id": 527,
+    "Name": "Klocko Inc and Sons",
+    "AssociateId": 271,
+    "DetailsTable": 82,
+    "DetailsRecord": 278,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "asperiores",
-      "ParameterObject2": "beatae"
+      "ParameterObject1": "suscipit",
+      "ParameterObject2": "voluptas"
     },
-    "LastStarted": "2000-09-30T12:01:27.3377499+02:00",
-    "Created": "2000-10-29T12:01:27.3377499+01:00",
-    "StartCount": 914,
-    "DatabaseSerialNumber": "693972",
-    "Context": "eum",
-    "Result": "dicta",
+    "LastStarted": "2003-09-16T14:32:02.0462229+02:00",
+    "Created": "2020-06-05T14:32:02.0462229+02:00",
+    "StartCount": 709,
+    "DatabaseSerialNumber": "1751885",
+    "Context": "enim",
+    "Result": "quia",
     "State": "All",
-    "Description": "Profit-focused zero administration info-mediaries",
-    "Response": "at",
-    "Request": "minus",
-    "ProgressDescription": "Virtual local moratorium",
-    "ProgressPercent": 361,
-    "FileName": "Bins, Grimes and Herzog",
+    "Description": "Fully-configurable executive process improvement",
+    "Response": "voluptas",
+    "Request": "facilis",
+    "ProgressDescription": "Expanded contextually-based instruction set",
+    "ProgressPercent": 242,
+    "FileName": "Roob, Shields and Collins",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 577
       }
     }
   }

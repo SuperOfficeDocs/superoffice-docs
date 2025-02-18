@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 272,
-  "ServerName": "Lang, Pfeffer and Carter",
-  "Protocol": "consequatur",
-  "UserName": "Satterfield-Stokes",
-  "Password": "repudiandae",
-  "UseSSL": false,
-  "Folder": "praesentium",
+  "Port": 789,
+  "ServerName": "Cummings, Kling and Eichmann",
+  "Protocol": "quia",
+  "UserName": "Hoppe, Rath and Hagenes",
+  "Password": "est",
+  "UseSSL": true,
+  "Folder": "ad",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 972
     }
   }
 }

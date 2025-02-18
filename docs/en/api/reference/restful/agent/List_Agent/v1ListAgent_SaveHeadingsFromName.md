@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rutherford-King",
+  "Name": "Considine, Veum and Lueilwitz",
   "Entities": [
     {
-      "HeadingId": 660,
-      "Name": "Goyette, Jacobi and Labadie",
-      "Tooltip": "voluptatem",
-      "Deleted": true,
-      "Rank": 82,
-      "UdListDefinitionId": 288
+      "HeadingId": 990,
+      "Name": "Hermiston, Deckow and Wisoky",
+      "Tooltip": "facere",
+      "Deleted": false,
+      "Rank": 419,
+      "UdListDefinitionId": 22
     },
     {
-      "HeadingId": 660,
-      "Name": "Goyette, Jacobi and Labadie",
-      "Tooltip": "voluptatem",
-      "Deleted": true,
-      "Rank": 82,
-      "UdListDefinitionId": 288
+      "HeadingId": 990,
+      "Name": "Hermiston, Deckow and Wisoky",
+      "Tooltip": "facere",
+      "Deleted": false,
+      "Rank": 419,
+      "UdListDefinitionId": 22
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 810,
-    "Name": "Orn, Eichmann and Bailey",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 830,
+    "HeadingId": 90,
+    "Name": "Muller-Hoeger",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "Rank": 71,
+    "UdListDefinitionId": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 511
       }
     }
   }

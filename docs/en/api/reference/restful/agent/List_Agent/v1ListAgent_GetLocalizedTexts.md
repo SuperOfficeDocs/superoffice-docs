@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 896,
-    "ResourceId": 693,
-    "Text": "qui",
+    "LanguageId": 408,
+    "ResourceId": 427,
+    "Text": "sed",
     "Type": "Column",
-    "LocalizedTextId": 561,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 462,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldType": "System.String",
+        "FieldLength": 873
       }
     }
   }

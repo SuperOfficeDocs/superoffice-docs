@@ -66,16 +66,16 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Ticket:Ticket xsi:type="Ticket:Ticket">
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:CreatedAt>
-     <Ticket:LastChanged xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:LastChanged>
-     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:ReadByOwner>
-     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:ReadByCustomer>
-     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:FirstReadByUser>
-     <Ticket:Activate xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:Activate>
-     <Ticket:ClosedAt xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:ClosedAt>
-     <Ticket:RepliedAt xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:RepliedAt>
-     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:AlertTimeout>
-     <Ticket:Deadline xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:Deadline>
+     <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:CreatedAt>
+     <Ticket:LastChanged xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:LastChanged>
+     <Ticket:ReadByOwner xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:ReadByOwner>
+     <Ticket:ReadByCustomer xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:ReadByCustomer>
+     <Ticket:FirstReadByUser xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:FirstReadByUser>
+     <Ticket:Activate xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:Activate>
+     <Ticket:ClosedAt xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:ClosedAt>
+     <Ticket:RepliedAt xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:RepliedAt>
+     <Ticket:AlertTimeout xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:AlertTimeout>
+     <Ticket:Deadline xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:Deadline>
      <Ticket:CreatedBy xsi:type="xsd:int">0</Ticket:CreatedBy>
      <Ticket:CreatedByName xsi:type="xsd:string"></Ticket:CreatedByName>
      <Ticket:Author xsi:type="xsd:string"></Ticket:Author>
@@ -128,7 +128,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketTypeId xsi:type="xsd:int">0</Ticket:TicketTypeId>
      <Ticket:TicketTypeName xsi:type="xsd:string"></Ticket:TicketTypeName>
     </Ticket:Ticket>
-    <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-02-10T11:01:00Z</Ticket:CreatedAt>
+    <Ticket:CreatedAt xsi:type="xsd:dateTime">2025-02-13T13:31:34Z</Ticket:CreatedAt>
     <Ticket:CreatedBy xsi:type="Ticket:Associate">
      <Ticket:AssociateId xsi:type="xsd:int">0</Ticket:AssociateId>
      <Ticket:Name xsi:type="xsd:string"></Ticket:Name>

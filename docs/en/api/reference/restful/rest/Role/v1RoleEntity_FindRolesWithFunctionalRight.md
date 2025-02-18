@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 21,
-    "Name": "Sauer Inc and Sons",
-    "ToolTip": "Omnis nostrum aliquam asperiores illum.",
-    "Deleted": false,
-    "Rank": 714,
-    "Type": "id",
+    "Id": 766,
+    "Name": "Graham, Sipes and Jakubowski",
+    "ToolTip": "Atque et dignissimos voluptatem nisi.",
+    "Deleted": true,
+    "Rank": 224,
+    "Type": "doloremque",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Emmerich LLC",
-        "ToolTip": "Sit officiis non.",
-        "Deleted": false,
-        "Rank": 312,
-        "Type": "dolorem",
+        "Id": 523,
+        "Name": "Kris, Wiegand and Robel",
+        "ToolTip": "Recusandae provident.",
+        "Deleted": true,
+        "Rank": 601,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 325,
-        "ExtraInfo": "quia",
-        "StyleHint": "excepturi",
-        "FullName": "Rudolph Aufderhar",
+        "IconHint": "nobis",
+        "ColorBlock": 458,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "molestias",
+        "FullName": "Reinhold Nitzsche Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldLength": 781
           }
         }
       }
     ],
-    "IconHint": "corporis",
-    "ColorBlock": 39,
-    "ExtraInfo": "itaque",
-    "StyleHint": "modi",
-    "FullName": "Jefferey Hyatt",
+    "IconHint": "non",
+    "ColorBlock": 204,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "enim",
+    "FullName": "Prof. Eve Funk Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 682
       }
     }
   }

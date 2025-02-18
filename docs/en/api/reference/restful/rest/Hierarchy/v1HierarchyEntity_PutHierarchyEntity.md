@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 492,
+  "HierarchyId": 906,
   "Domain": "Dashboards",
-  "Name": "Bayer-Balistreri",
-  "Fullname": "omnis",
-  "ParentId": 526,
+  "Name": "Mante Inc and Sons",
+  "Fullname": "repellendus",
+  "ParentId": 31,
   "Children": [
     {
-      "HierarchyId": 82,
+      "HierarchyId": 572,
       "Domain": "Dashboards",
-      "Name": "Williamson-Willms",
-      "Fullname": "placeat",
-      "ParentId": 150,
+      "Name": "Moen, Kessler and Schmitt",
+      "Fullname": "suscipit",
+      "ParentId": 616,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-06-18T12:01:32.9175621+02:00",
-      "RegisteredAssociateId": 243,
-      "Updated": "2008-04-26T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 224
+      "Registered": "2010-06-27T14:32:11.5210682+02:00",
+      "RegisteredAssociateId": 590,
+      "Updated": "2016-07-02T14:32:11.5210682+02:00",
+      "UpdatedAssociateId": 776
     }
   ],
-  "Registered": "2011-04-26T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 481,
-  "Updated": "2020-10-14T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 596
+  "Registered": "2000-10-12T14:32:11.5210682+02:00",
+  "RegisteredAssociateId": 491,
+  "Updated": "2005-08-14T14:32:11.5210682+02:00",
+  "UpdatedAssociateId": 66
 }
 ```
 
@@ -137,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 114,
+  "HierarchyId": 795,
   "Domain": "Dashboards",
-  "Name": "Crooks Inc and Sons",
-  "Fullname": "deleniti",
-  "ParentId": 883,
+  "Name": "Ziemann-Haley",
+  "Fullname": "omnis",
+  "ParentId": 411,
   "Children": [
     {
-      "HierarchyId": 361,
+      "HierarchyId": 92,
       "Domain": "Dashboards",
-      "Name": "Rohan, Conn and Bailey",
-      "Fullname": "eveniet",
-      "ParentId": 8,
+      "Name": "McDermott-Bailey",
+      "Fullname": "architecto",
+      "ParentId": 118,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-10-30T12:01:32.9175621+01:00",
-      "RegisteredAssociateId": 105,
-      "Updated": "2022-07-01T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 520,
+      "Registered": "2006-02-19T14:32:11.5210682+01:00",
+      "RegisteredAssociateId": 830,
+      "Updated": "2022-10-18T14:32:11.5210682+02:00",
+      "UpdatedAssociateId": 197,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 329
+          "FieldType": "System.Int32",
+          "FieldLength": 946
         }
       }
     }
   ],
-  "Registered": "2023-08-12T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 144,
-  "Updated": "2003-09-04T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 568,
+  "Registered": "1998-03-26T14:32:11.5210682+01:00",
+  "RegisteredAssociateId": 793,
+  "Updated": "2009-10-23T14:32:11.5366892+02:00",
+  "UpdatedAssociateId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 279
     }
   },
   "_Links": {

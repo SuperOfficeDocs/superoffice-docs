@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Hintz-Tillman",
-    "ToolTip": "Deleniti aut incidunt nulla veniam quia.",
-    "Deleted": false,
-    "Rank": 853,
-    "Type": "dignissimos",
-    "ColorBlock": 827,
-    "IconHint": "consequuntur",
-    "Selected": true,
-    "LastChanged": "2015-12-17T12:01:33.448849+01:00",
+    "Id": 54,
+    "Name": "Wuckert Group",
+    "ToolTip": "Facere repudiandae vero quasi dolorem.",
+    "Deleted": true,
+    "Rank": 718,
+    "Type": "optio",
+    "ColorBlock": 48,
+    "IconHint": "nihil",
+    "Selected": false,
+    "LastChanged": "2019-12-16T14:32:12.5052197+01:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Douglas LLC",
-        "ToolTip": "Et veniam eligendi.",
+        "Id": 533,
+        "Name": "Treutel LLC",
+        "ToolTip": "Quos numquam non quo voluptatem sunt.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "vel",
-        "ColorBlock": 771,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2008-10-14T12:01:33.448849+02:00",
+        "Rank": 685,
+        "Type": "quos",
+        "ColorBlock": 901,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2000-03-05T14:32:12.5052197+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Chelsea Auer",
+        "FullName": "Edward Schimmel DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldLength": 46
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quod",
+    "ExtraInfo": "inventore",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dasia Rippin",
+    "FullName": "Alena Bradly Sanford II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

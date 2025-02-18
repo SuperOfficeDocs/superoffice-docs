@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 658,
+  "HierarchyId": 486,
   "Domain": "Dashboards",
-  "Name": "Sipes, Mosciski and Schmitt",
-  "Fullname": "repellat",
-  "ParentId": 679,
+  "Name": "Schaefer-Hintz",
+  "Fullname": "tempora",
+  "ParentId": 120,
   "Children": [
     {
-      "HierarchyId": 817,
+      "HierarchyId": 479,
       "Domain": "Dashboards",
-      "Name": "Cartwright-McCullough",
-      "Fullname": "dicta",
-      "ParentId": 793,
+      "Name": "Pfannerstill Group",
+      "Fullname": "est",
+      "ParentId": 598,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-06-25T12:01:27.97842+02:00",
-      "RegisteredAssociateId": 790,
-      "Updated": "2000-01-24T12:01:27.97842+01:00",
-      "UpdatedAssociateId": 137,
+      "Registered": "2000-07-26T14:32:03.1722226+02:00",
+      "RegisteredAssociateId": 9,
+      "Updated": "2012-05-12T14:32:03.1722226+02:00",
+      "UpdatedAssociateId": 979,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 828
         }
       }
     }
   ],
-  "Registered": "2019-01-02T12:01:27.97842+01:00",
-  "RegisteredAssociateId": 599,
-  "Updated": "2001-02-10T12:01:27.97842+01:00",
-  "UpdatedAssociateId": 508,
+  "Registered": "1998-06-18T14:32:03.1722226+02:00",
+  "RegisteredAssociateId": 177,
+  "Updated": "2002-03-14T14:32:03.1722226+01:00",
+  "UpdatedAssociateId": 645,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 6
     }
   }
 }

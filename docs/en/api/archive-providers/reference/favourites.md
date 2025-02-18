@@ -3300,7 +3300,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=competitor,reopenDate,contact/contactId,contact/contactExtra/x_contact_dropdown,saleStakeholder/person/personSource
+GET /api/v1/archive/Favourites?$select=hasGuide,salePublish/publishedFrom,person/email/emailHasBounced,contact/hasInfoText,contact/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

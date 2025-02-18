@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "Reilly Group",
-  "Tooltip": "possimus",
-  "Deleted": false,
-  "Rank": 725,
-  "IsCustomList": true,
+  "Id": 335,
+  "Name": "Kub Group",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "Rank": 184,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "facere",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 635,
-  "Name": "Quitzon, Mitchell and Little",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "Rank": 817,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 60,
+  "Name": "Emard-Kuvalis",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 216,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "natus",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 26
+      "FieldLength": 975
     }
   }
 }

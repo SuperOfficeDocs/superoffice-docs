@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian-Watsica",
-    "Description": "Seamless encompassing middleware",
+    "Name": "Brekke, Steuber and Hahn",
+    "Description": "Future-proofed intermediate algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 731,
-        "Tooltip": "architecto",
-        "CanAssign": false,
-        "Free": 22,
-        "InUse": 944,
+        "Unrestricted": false,
+        "Total": 595,
+        "Tooltip": "molestiae",
+        "CanAssign": true,
+        "Free": 627,
+        "InUse": 182,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 762,
-        "Name": "Mann-Hudson",
-        "Description": "Ergonomic asynchronous secured line",
-        "PrerequisiteModuleName": "Erdman-Kulas",
-        "SortOrder": 152,
-        "ExtraFlags": 1001,
+        "Assigned": true,
+        "ModuleLicenseId": 923,
+        "Name": "Monahan LLC",
+        "Description": "Multi-layered needs-based access",
+        "PrerequisiteModuleName": "Rosenbaum Inc and Sons",
+        "SortOrder": 39,
+        "ExtraFlags": 352,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 802
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "modi",
+        "Total": 484,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 736,
-        "InUse": 524,
+        "Free": 699,
+        "InUse": 925,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Lehner, Carter and Blanda",
-        "Description": "Grass-roots local product",
-        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
-        "SortOrder": 385,
-        "ExtraFlags": 792,
+        "Assigned": true,
+        "ModuleLicenseId": 302,
+        "Name": "Gaylord, O'Connell and Flatley",
+        "Description": "Cloned methodical encryption",
+        "PrerequisiteModuleName": "Frami Inc and Sons",
+        "SortOrder": 539,
+        "ExtraFlags": 567,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 626
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 685
       }
     }
   },
   {
-    "Name": "Parisian-Watsica",
-    "Description": "Seamless encompassing middleware",
+    "Name": "Brekke, Steuber and Hahn",
+    "Description": "Future-proofed intermediate algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 731,
-        "Tooltip": "architecto",
-        "CanAssign": false,
-        "Free": 22,
-        "InUse": 944,
+        "Unrestricted": false,
+        "Total": 595,
+        "Tooltip": "molestiae",
+        "CanAssign": true,
+        "Free": 627,
+        "InUse": 182,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 762,
-        "Name": "Mann-Hudson",
-        "Description": "Ergonomic asynchronous secured line",
-        "PrerequisiteModuleName": "Erdman-Kulas",
-        "SortOrder": 152,
-        "ExtraFlags": 1001,
+        "Assigned": true,
+        "ModuleLicenseId": 923,
+        "Name": "Monahan LLC",
+        "Description": "Multi-layered needs-based access",
+        "PrerequisiteModuleName": "Rosenbaum Inc and Sons",
+        "SortOrder": 39,
+        "ExtraFlags": 352,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 802
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "modi",
+        "Total": 484,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 736,
-        "InUse": 524,
+        "Free": 699,
+        "InUse": 925,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Lehner, Carter and Blanda",
-        "Description": "Grass-roots local product",
-        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
-        "SortOrder": 385,
-        "ExtraFlags": 792,
+        "Assigned": true,
+        "ModuleLicenseId": 302,
+        "Name": "Gaylord, O'Connell and Flatley",
+        "Description": "Cloned methodical encryption",
+        "PrerequisiteModuleName": "Frami Inc and Sons",
+        "SortOrder": 539,
+        "ExtraFlags": 567,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldType": "System.String",
+            "FieldLength": 626
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldLength": 685
       }
     }
   }

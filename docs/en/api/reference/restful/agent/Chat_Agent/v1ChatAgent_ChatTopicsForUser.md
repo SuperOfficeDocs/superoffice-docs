@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 139,
-    "Name": "Yundt, Bergstrom and O'Reilly",
-    "Description": "Re-contextualized disintermediate methodology",
-    "WelcomeMessage": "est",
+    "ChatTopicId": 39,
+    "Name": "Tillman Inc and Sons",
+    "Description": "User-friendly multimedia parallelism",
+    "WelcomeMessage": "dolore",
     "Language": null,
-    "LastAccept": "2010-02-02T12:01:27.4315072+01:00",
-    "SecondsPrAccept": 834,
-    "AlertRecipient": "ex",
+    "LastAccept": "2006-10-26T14:32:02.2024403+02:00",
+    "SecondsPrAccept": 597,
+    "AlertRecipient": "id",
     "AlertTemplate": null,
     "CollectConsent": true,
-    "BadgeHeader": "a",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "laboriosam",
-    "WarnNewChatMinutes": 372,
-    "WarnManagerNewChatMinutes": 689,
+    "BadgeHeader": "enim",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "id",
+    "WarnNewChatMinutes": 587,
+    "WarnManagerNewChatMinutes": 497,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": false,
+    "BotEnabled": true,
     "BotSettings": null,
     "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 632,
-    "WarnManagerChatMessageMinutes": 271,
+    "WarnChatMessageMinutes": 122,
+    "WarnManagerChatMessageMinutes": 117,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 410,
-    "OfflineFormQueueLength": 404,
+    "OfflineFormTimeLimit": 106,
+    "OfflineFormQueueLength": 947,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "voluptates",
+    "WidgetRatingText": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 765
       }
     }
   }

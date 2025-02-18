@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 443,
-  "ColumnId": 371,
-  "FieldDefault": "cupiditate",
-  "FieldHeight": 521,
-  "FieldLabel": "ut",
-  "FieldLeft": 723,
-  "FieldTop": 843,
+  "UDefFieldId": 881,
+  "ColumnId": 363,
+  "FieldDefault": "culpa",
+  "FieldHeight": 1001,
+  "FieldLabel": "neque",
+  "FieldLeft": 15,
+  "FieldTop": 983,
   "FieldType": "Checkbox",
-  "FieldWidth": 876,
-  "FormatMask": "perferendis",
-  "HideLabel": true,
+  "FieldWidth": 474,
+  "FormatMask": "ea",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 970,
-  "LabelLeft": 499,
-  "LabelTop": 948,
-  "LabelWidth": 681,
-  "LastVersionId": 301,
-  "ListTableId": 977,
-  "IsMandatory": true,
+  "LabelHeight": 269,
+  "LabelLeft": 459,
+  "LabelTop": 354,
+  "LabelWidth": 548,
+  "LastVersionId": 112,
+  "ListTableId": 509,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 340,
-  "ProgId": "ratione",
+  "Page1LineNo": 112,
+  "ProgId": "consequatur",
   "IsReadOnly": false,
-  "ShortLabel": "reiciendis",
-  "TabOrder": 121,
-  "TextLength": 191,
-  "Tooltip": "necessitatibus",
-  "UdefIdentity": 689,
-  "UDListDefinitionId": 85,
+  "ShortLabel": "et",
+  "TabOrder": 791,
+  "TextLength": 903,
+  "Tooltip": "blanditiis",
+  "UdefIdentity": 557,
+  "UDListDefinitionId": 79,
   "Justification": "Center",
-  "Version": 362,
-  "TemplateVariableName": "Rowe-Zboncak",
+  "Version": 972,
+  "TemplateVariableName": "Willms, McKenzie and Ankunding",
   "HasBeenPublished": false,
-  "MdoListName": "Kutch, Muller and Wolf",
+  "MdoListName": "Moore Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 579
     }
   }
 }

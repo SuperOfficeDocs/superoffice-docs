@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Erdman LLC",
-    "ToolTip": "Quibusdam facilis praesentium est nesciunt harum.",
+    "Id": 392,
+    "Name": "Halvorson LLC",
+    "ToolTip": "Ad mollitia explicabo tenetur.",
     "Deleted": false,
-    "Rank": 47,
-    "Type": "sunt",
-    "ColorBlock": 605,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2013-02-27T12:01:33.5582313+01:00",
+    "Rank": 770,
+    "Type": "officiis",
+    "ColorBlock": 778,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2023-06-19T14:32:12.7082989+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Flatley-Lebsack",
-        "ToolTip": "Possimus et vitae.",
+        "Id": 518,
+        "Name": "Kuvalis, Luettgen and Kihn",
+        "ToolTip": "Aliquid est beatae rerum occaecati ipsam.",
         "Deleted": true,
-        "Rank": 179,
-        "Type": "non",
-        "ColorBlock": 150,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2004-10-14T12:01:33.5582313+02:00",
+        "Rank": 998,
+        "Type": "cumque",
+        "ColorBlock": 537,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2004-12-14T14:32:12.7082989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "maxime",
+        "ExtraInfo": "laborum",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Whitney Lowe"
+        "FullName": "Prof. Derrick Rosetta Aufderhar II"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Anna Bradtke"
+    "ExtraInfo": "nisi",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Josh Krajcik PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Howell Group",
-    "ToolTip": "Dicta ad ratione.",
-    "Deleted": true,
-    "Rank": 812,
-    "Type": "velit",
-    "ColorBlock": 602,
-    "IconHint": "recusandae",
-    "Selected": false,
-    "LastChanged": "2004-01-02T12:01:33.5582313+01:00",
+    "Id": 117,
+    "Name": "Bogan Group",
+    "ToolTip": "Eligendi explicabo quaerat odit.",
+    "Deleted": false,
+    "Rank": 483,
+    "Type": "tempore",
+    "ColorBlock": 683,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "2018-01-12T14:32:12.7082989+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Moen-Roob",
-        "ToolTip": "Et debitis neque amet.",
-        "Deleted": false,
-        "Rank": 830,
-        "Type": "ut",
-        "ColorBlock": 802,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2007-12-31T12:01:33.5582313+01:00",
+        "Id": 684,
+        "Name": "Ziemann-Von",
+        "ToolTip": "Delectus hic.",
+        "Deleted": true,
+        "Rank": 753,
+        "Type": "corrupti",
+        "ColorBlock": 23,
+        "IconHint": "nobis",
+        "Selected": true,
+        "LastChanged": "2005-12-17T14:32:12.7082989+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Fredy Kohler",
+        "ExtraInfo": "et",
+        "StyleHint": "in",
+        "Hidden": false,
+        "FullName": "Jo Heber Tremblay DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldType": "System.String",
+            "FieldLength": 332
           }
         }
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "ea",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Lucious Mann",
+    "FullName": "Dock Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 37
       }
     }
   }

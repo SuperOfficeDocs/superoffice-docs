@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 985,
-  "Name": "Kutch-Goldner",
-  "CreatedDate": "2022-06-30T12:01:27.9002891+02:00",
-  "UpdatedDate": "2021-07-28T12:01:27.9002891+02:00",
+  "ForeignAppId": 856,
+  "Name": "Nienow, Bernier and Nolan",
+  "CreatedDate": "2019-07-06T14:32:03.0147529+02:00",
+  "UpdatedDate": "2021-07-12T14:32:03.0147529+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 884,
-      "Name": "Halvorson, Walker and Lehner",
-      "CreatedDate": "2003-06-03T12:01:27.9002891+02:00",
-      "UpdatedDate": "2016-03-07T12:01:27.9002891+01:00",
-      "AssociateFullName": "Erick Lindgren",
-      "CreatedBy": "velit",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 298
+      "ForeignDeviceId": 681,
+      "Name": "Steuber, Grady and Hayes",
+      "CreatedDate": "2008-10-14T14:32:03.0147529+02:00",
+      "UpdatedDate": "2023-07-27T14:32:03.0147529+02:00",
+      "AssociateFullName": "Mr. Aaron Hintz IV",
+      "CreatedBy": "eos",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "dolore",
+      "ForeignAppId": 821
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 888,
-  "Name": "Larkin, Murazik and Senger",
-  "CreatedDate": "1999-02-02T12:01:27.9002891+01:00",
-  "UpdatedDate": "2023-12-02T12:01:27.9002891+01:00",
+  "ForeignAppId": 713,
+  "Name": "Dickinson, Crooks and Hettinger",
+  "CreatedDate": "2010-02-01T14:32:03.0147529+01:00",
+  "UpdatedDate": "2000-07-16T14:32:03.0147529+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 852,
-      "Name": "Fahey LLC",
-      "CreatedDate": "2011-10-15T12:01:27.9002891+02:00",
-      "UpdatedDate": "2010-02-06T12:01:27.9002891+01:00",
-      "AssociateFullName": "Rosendo Lockman DVM",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "porro",
-      "ForeignAppId": 340,
+      "ForeignDeviceId": 431,
+      "Name": "O'Hara Inc and Sons",
+      "CreatedDate": "2009-07-25T14:32:03.0147529+02:00",
+      "UpdatedDate": "2018-02-05T14:32:03.0147529+01:00",
+      "AssociateFullName": "Myrtle Giles Orn V",
+      "CreatedBy": "nihil",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 81,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 764
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

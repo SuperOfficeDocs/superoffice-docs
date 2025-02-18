@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 701
+  "UserGroupId": 412
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 423,
-    "ColumnId": 47,
-    "FieldDefault": "qui",
-    "FieldHeight": 155,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 541,
-    "FieldTop": 330,
+    "UDefFieldId": 811,
+    "ColumnId": 531,
+    "FieldDefault": "quo",
+    "FieldHeight": 525,
+    "FieldLabel": "rerum",
+    "FieldLeft": 407,
+    "FieldTop": 680,
     "FieldType": "Checkbox",
-    "FieldWidth": 928,
-    "FormatMask": "sit",
+    "FieldWidth": 84,
+    "FormatMask": "excepturi",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 536,
-    "LabelLeft": 311,
-    "LabelTop": 481,
-    "LabelWidth": 286,
-    "LastVersionId": 268,
-    "ListTableId": 68,
+    "IsIndexed": true,
+    "LabelHeight": 77,
+    "LabelLeft": 963,
+    "LabelTop": 375,
+    "LabelWidth": 666,
+    "LastVersionId": 529,
+    "ListTableId": 416,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 522,
-    "ProgId": "sequi",
-    "IsReadOnly": true,
-    "ShortLabel": "laborum",
-    "TabOrder": 41,
-    "TextLength": 889,
-    "Tooltip": "praesentium",
-    "UdefIdentity": 961,
-    "UDListDefinitionId": 842,
+    "Page1LineNo": 589,
+    "ProgId": "id",
+    "IsReadOnly": false,
+    "ShortLabel": "ratione",
+    "TabOrder": 692,
+    "TextLength": 983,
+    "Tooltip": "occaecati",
+    "UdefIdentity": 190,
+    "UDListDefinitionId": 753,
     "Justification": "Center",
-    "Version": 133,
-    "TemplateVariableName": "Lehner-Kessler",
-    "HasBeenPublished": true,
-    "MdoListName": "Turcotte, Runolfsdottir and Lindgren",
+    "Version": 472,
+    "TemplateVariableName": "Heidenreich Group",
+    "HasBeenPublished": false,
+    "MdoListName": "Miller Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

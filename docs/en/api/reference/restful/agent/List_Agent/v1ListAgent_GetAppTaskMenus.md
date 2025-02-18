@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 437,
-    "Name": "Boehm-Ward",
-    "Tooltip": "autem",
-    "TableName": "Parker Inc and Sons",
-    "Area": "sunt",
+    "TaskMenuId": 911,
+    "Name": "Dietrich LLC",
+    "Tooltip": "illo",
+    "TableName": "Gislason Inc and Sons",
+    "Area": "voluptate",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 362,
+    "CrmScriptId": 118,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 653,
+    "Rank": 755,
     "Encoding": "ANSI",
-    "ProgId": "impedit",
+    "ProgId": "in",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

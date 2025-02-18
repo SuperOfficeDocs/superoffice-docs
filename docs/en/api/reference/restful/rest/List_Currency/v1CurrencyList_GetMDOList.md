@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=doloribus
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=repellendus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Wiegand LLC",
-    "ToolTip": "Magni vero nemo deserunt occaecati.",
+    "Id": 192,
+    "Name": "Flatley, Hayes and Wintheiser",
+    "ToolTip": "Qui sit et.",
     "Deleted": false,
-    "Rank": 303,
-    "Type": "eum",
+    "Rank": 334,
+    "Type": "perferendis",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "White Inc and Sons",
-        "ToolTip": "Saepe aliquam reiciendis.",
+        "Id": 889,
+        "Name": "Hoppe, Kemmer and West",
+        "ToolTip": "Consequatur nulla eos et rerum non sint.",
         "Deleted": false,
-        "Rank": 78,
-        "Type": "delectus",
+        "Rank": 105,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 234,
-        "ExtraInfo": "iste",
-        "StyleHint": "asperiores",
-        "FullName": "Jacquelyn Funk",
+        "IconHint": "quae",
+        "ColorBlock": 872,
+        "ExtraInfo": "dolorum",
+        "StyleHint": "qui",
+        "FullName": "Breanna Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 770
+            "FieldLength": 283
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 442,
-    "ExtraInfo": "eos",
-    "StyleHint": "fugit",
-    "FullName": "Abbigail Hermiston",
+    "IconHint": "fugiat",
+    "ColorBlock": 315,
+    "ExtraInfo": "nihil",
+    "StyleHint": "necessitatibus",
+    "FullName": "Ocie Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldType": "System.Int32",
+        "FieldLength": 239
       }
     }
   }

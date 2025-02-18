@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 730,
-    "Name": "McCullough, O'Reilly and Hauck",
-    "Tooltip": "voluptatem",
+    "HeadingId": 759,
+    "Name": "Gleason-Stroman",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 19
+    "Rank": 941,
+    "UdListDefinitionId": 790
   },
   {
-    "HeadingId": 730,
-    "Name": "McCullough, O'Reilly and Hauck",
-    "Tooltip": "voluptatem",
+    "HeadingId": 759,
+    "Name": "Gleason-Stroman",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 19
+    "Rank": 941,
+    "UdListDefinitionId": 790
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 224,
-    "Name": "Swaniawski Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 93,
+    "Name": "Rippin, Hagenes and Jerde",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 219,
-    "UdListDefinitionId": 348,
+    "Rank": 434,
+    "UdListDefinitionId": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 266
       }
     }
   }

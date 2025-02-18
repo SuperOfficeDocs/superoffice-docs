@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 787,
-  "Name": "Denesik LLC",
-  "Description": "Enterprise-wide explicit internet solution",
-  "DefaultHeight": 967,
-  "DefaultWidth": 258,
+  "DashboardTileDefinitionId": 856,
+  "Name": "Hermann Group",
+  "Description": "Centralized heuristic collaboration",
+  "DefaultHeight": 392,
+  "DefaultWidth": 748,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Heidenreich, Mann and Funk",
-  "SelectionId": 939,
+  "EntityName": "Stoltenberg-Lehner",
+  "SelectionId": 135,
   "CurrencyMode": "Base",
-  "CurrencyCode": "tempora",
+  "CurrencyCode": "perferendis",
   "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "eaque",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 1002,
-  "MeasureByField": "modi",
+  "MeasureField": "exercitationem",
+  "SortBy": "ea",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 253,
+  "MeasureByField": "nesciunt",
   "Usage": "Dashboard",
-  "ProviderName": "Sauer Group",
+  "ProviderName": "Rosenbaum, Jacobson and Bernier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 480
     }
   },
   "_Links": {

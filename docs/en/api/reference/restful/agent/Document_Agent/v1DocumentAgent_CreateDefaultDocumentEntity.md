@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 215,
+  "DocumentId": 395,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "dolores",
-  "Name": "Lesch-McKenzie",
-  "OurRef": "voluptates",
-  "YourRef": "qui",
-  "CreatedDate": "2003-09-18T12:01:27.6033946+02:00",
-  "UpdatedDate": "2008-03-06T12:01:27.6033946+01:00",
-  "Description": "Extended value-added focus group",
+  "Attention": "ipsam",
+  "Header": "exercitationem",
+  "Name": "Gerhold-McGlynn",
+  "OurRef": "ut",
+  "YourRef": "est",
+  "CreatedDate": "2024-01-21T14:32:02.6554597+01:00",
+  "UpdatedDate": "2014-02-16T14:32:02.6554597+01:00",
+  "Description": "Open-architected contextually-based process improvement",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-08-11T12:01:27.6033946+02:00",
-  "ExternalRef": "ea",
+  "Date": "2022-06-12T14:32:02.6710816+02:00",
+  "ExternalRef": "nulla",
   "Completed": "Completed",
-  "ActiveLinks": 16,
+  "ActiveLinks": 13,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Powlowski-Ruecker",
-      "Id": 476,
-      "Description": "Devolved 4th generation archive",
-      "ExtraInfo": "at",
-      "LinkId": 877,
+      "EntityName": "Roob-Senger",
+      "Id": 529,
+      "Description": "Multi-lateral regional moratorium",
+      "ExtraInfo": "in",
+      "LinkId": 650,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldLength": 873
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 249,
-  "Snum": 164,
+  "SuggestedDocumentId": 765,
+  "Snum": 918,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Kirstin Kathleen Trantow",
-    "SuperOffice:2": "1453597053"
+    "SuperOffice:1": "Johnnie Shields",
+    "SuperOffice:2": "Lilyan Beatty"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "sint"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "facilis"
   },
-  "PublishEventDate": "2022-11-17T12:01:27.6033946+01:00",
-  "PublishTo": "2005-11-24T12:01:27.6033946+01:00",
-  "PublishFrom": "2007-09-12T12:01:27.6033946+02:00",
+  "PublishEventDate": "2011-01-15T14:32:02.6710816+01:00",
+  "PublishTo": "2005-02-19T14:32:02.6710816+01:00",
+  "PublishFrom": "2022-11-27T14:32:02.6710816+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 830,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 142
         }
       }
     },
     {
-      "VisibleId": 830,
+      "VisibleId": 956,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 142
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 964
     }
   }
 }

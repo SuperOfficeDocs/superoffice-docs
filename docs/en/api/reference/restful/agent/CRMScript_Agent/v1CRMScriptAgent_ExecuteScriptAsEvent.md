@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 376,
+  "CRMScriptId": 12,
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "qui",
-    "InputValues2": "rerum"
+    "InputValues1": "illo",
+    "InputValues2": "et"
   },
-  "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "et",
-  "ShowDialog": "dolorem",
+  "BlockExecution": true,
+  "NavigateTo": "ad",
+  "Message": "nemo",
+  "ShowDialog": "vitae",
   "OutputValues": {
-    "OutputValues1": "autem",
-    "OutputValues2": "facere"
+    "OutputValues1": "laudantium",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "ab",
-    "StateValues2": "magnam"
+    "StateValues1": "consequuntur",
+    "StateValues2": "aut"
   },
-  "Exception": "praesentium",
+  "Exception": "molestias",
   "ParserValues": {
-    "ParserValues1": "magni",
-    "ParserValues2": "quo"
+    "ParserValues1": "dolores",
+    "ParserValues2": "tempore"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptatem",
-    "CgiVariables2": "deleniti"
+    "CgiVariables1": "fugiat",
+    "CgiVariables2": "nihil"
   },
-  "CgiContent": "voluptatem",
+  "CgiContent": "a",
   "Headers": {
-    "Headers1": "autem",
-    "Headers2": "sunt"
+    "Headers1": "eaque",
+    "Headers2": "sit"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 500
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 719,
-  "Section": "occaecati",
-  "Key": "totam",
-  "Name": "Ebert, Beatty and Rice",
+  "PrefDescId": 68,
+  "Section": "aliquid",
+  "Key": "quasi",
+  "Name": "Hauck, Hackett and Yost",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized coherent core",
-  "IsBuiltin": true,
-  "TableName": "Bahringer-Turcotte",
-  "UserDefinedListId": 254,
-  "Rank": 977,
-  "SubGroup": "eos",
-  "MinLevel": 359,
-  "MaxValue": 884,
-  "MinValue": 426,
-  "RequiredLicense": "et",
+  "Description": "Future-proofed even-keeled interface",
+  "IsBuiltin": false,
+  "TableName": "Kreiger Inc and Sons",
+  "UserDefinedListId": 716,
+  "Rank": 857,
+  "SubGroup": "vitae",
+  "MinLevel": 741,
+  "MaxValue": 313,
+  "MinValue": 530,
+  "RequiredLicense": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

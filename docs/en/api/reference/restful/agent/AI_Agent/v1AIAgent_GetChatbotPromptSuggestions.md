@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "est",
-  "SoProtocol": "tenetur",
-  "CurrentId": 878
+  "IsoLangCode": "amet",
+  "SoProtocol": "voluptatem",
+  "CurrentId": 121
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2007-09-27T12:01:26.9783334+02:00",
-  "UserPrompt": "repellat",
-  "UserDisplayText": "quam",
-  "BotResponse": "est",
+  "Timestamp": "2005-09-17T14:32:01.4211928+02:00",
+  "UserPrompt": "consequuntur",
+  "UserDisplayText": "id",
+  "BotResponse": "fugiat",
   "BotActions": {
-    "BotActions1": "et",
-    "BotActions2": "est"
+    "BotActions1": "quibusdam",
+    "BotActions2": "quibusdam"
   },
   "Attachments": [
-    "aut",
-    "rerum"
+    "eum",
+    "eius"
   ]
 }
 ```

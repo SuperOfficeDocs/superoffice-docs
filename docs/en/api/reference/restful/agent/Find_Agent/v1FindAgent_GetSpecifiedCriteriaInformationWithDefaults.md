@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Pacocha-Olson",
-  "StorageKey": "facilis",
+  "StorageType": "incidunt",
+  "ProviderName": "Langosh, Stanton and Nolan",
+  "StorageKey": "ullam",
   "DesiredColumnNames": [
-    "Stark-Hahn",
-    "Osinski, VonRueden and Auer"
+    "Hudson Inc and Sons",
+    "Rosenbaum, Wintheiser and Littel"
   ],
   "StaticColumns": [
-    "odit",
-    "quia"
+    "qui",
+    "et"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Leuschke-Oberbrunner",
-      "Operator": "eligendi",
+      "Name": "Bogisich, Leannon and Green",
+      "Operator": "excepturi",
       "Values": [
-        "sed",
-        "iusto"
+        "doloribus",
+        "officiis"
       ],
       "DisplayValues": [
-        "facilis",
-        "odio"
+        "et",
+        "quod"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 527,
+      "InterParenthesis": 679,
       "InterOperator": "And",
-      "UniqueHash": 159
+      "UniqueHash": 702
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Heidenreich-Runolfsdottir",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "aliquid",
-      "CanOrderBy": false,
-      "Name": "Romaguera, Casper and Hettinger",
+      "DisplayName": "Kuhn-Gaylord",
+      "DisplayTooltip": "debitis",
+      "DisplayType": "quibusdam",
+      "CanOrderBy": true,
+      "Name": "Keeling LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Friesen, Frami and Ankunding",
+      "RestrictionType": "sit",
+      "RestrictionListName": "Nader LLC",
       "IsVisible": false,
-      "ExtraInfo": "aliquid",
-      "Width": "enim",
-      "IconHint": "dolor",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "consequatur",
+      "Width": "facilis",
+      "IconHint": "deleniti",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Mann-Friesen",
-      "PrimaryKey": 904,
+      "EntityName": "Wisoky Inc and Sons",
+      "PrimaryKey": 341,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veritatis",
-          "TooltipHint": "quos",
-          "LinkHint": "nulla"
+          "DisplayValue": "laboriosam",
+          "TooltipHint": "in",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "neque",
-      "StyleHint": "vel",
+      "LinkHint": "iste",
+      "StyleHint": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 641
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mueller, Bernhard and Yundt",
-      "Description": "Digitized incremental secured line",
-      "Rank": 924,
+      "Name": "Fay Group",
+      "Description": "Optimized disintermediate superstructure",
+      "Rank": 691,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mueller, Bernhard and Yundt",
-      "Description": "Digitized incremental secured line",
-      "Rank": 924,
+      "Name": "Fay Group",
+      "Description": "Optimized disintermediate superstructure",
+      "Rank": 691,
       "Restrictions": [
         {},
         {}
@@ -194,8 +194,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   }
 }

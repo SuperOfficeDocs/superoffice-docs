@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 456,
+  "ReportId": 331,
   "ReportCategory": "All",
-  "Description": "Optional real-time adapter",
+  "Description": "Up-sized methodical info-mediaries",
   "ReportLayout": "CalendarMonth",
-  "Name": "Skiles, Hoppe and Gibson",
-  "AssociateId": 966,
-  "TemplateId": 291,
-  "Published": true,
+  "Name": "Kilback Group",
+  "AssociateId": 336,
+  "TemplateId": 707,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 165
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 293,
-  "Name": "Price, Wolff and Reynolds",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "Rank": 75,
-  "UdListDefinitionId": 696
+  "HeadingId": 217,
+  "Name": "Yundt Group",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 20,
+  "UdListDefinitionId": 372
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 996,
-  "Name": "Pfannerstill-Crona",
-  "Tooltip": "officiis",
+  "HeadingId": 879,
+  "Name": "Labadie, Johnston and White",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 990,
-  "UdListDefinitionId": 794,
+  "Rank": 277,
+  "UdListDefinitionId": 188,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 98
     }
   }
 }

@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "reprehenderit",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "sapiente",
+  "DisplayTooltip": "temporibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 387,
-  "PrefDescId": 279,
-  "TableName": "Cremin Inc and Sons",
-  "UserPreferenceId": 362,
+  "TargetId": 291,
+  "PrefDescId": 473,
+  "TableName": "Feil, Mertz and Johnson",
+  "UserPreferenceId": 761,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

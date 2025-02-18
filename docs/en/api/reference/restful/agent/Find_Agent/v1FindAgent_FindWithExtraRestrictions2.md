@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Daugherty Inc and Sons",
-  "StorageKey": "quia",
-  "ExtraRestrictions": "sapiente",
-  "OrderBy": "totam",
-  "DesiredColumns": "reiciendis",
-  "PageSize": 722,
-  "PageNumber": 334
+  "StorageType": "dicta",
+  "ProviderName": "Lakin LLC",
+  "StorageKey": "eaque",
+  "ExtraRestrictions": "repellat",
+  "OrderBy": "perspiciatis",
+  "DesiredColumns": "laboriosam",
+  "PageSize": 480,
+  "PageNumber": 358
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "McGlynn, Jast and Hagenes",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "optio",
-      "CanOrderBy": true,
-      "Name": "Rowe, Gerhold and Wyman",
-      "CanRestrictBy": true,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Krajcik-Streich",
-      "IsVisible": true,
-      "ExtraInfo": "autem",
-      "Width": "voluptate",
-      "IconHint": "fugit",
-      "HeadingIconHint": "et"
+      "DisplayName": "Farrell Inc and Sons",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Ernser-Farrell",
+      "CanRestrictBy": false,
+      "RestrictionType": "labore",
+      "RestrictionListName": "Lueilwitz Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "tenetur",
+      "Width": "vero",
+      "IconHint": "ea",
+      "HeadingIconHint": "ea"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Veum-Rosenbaum",
-      "PrimaryKey": 411,
+      "EntityName": "Grady-Farrell",
+      "PrimaryKey": 264,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "ad",
-          "LinkHint": "adipisci"
+          "DisplayValue": "ullam",
+          "TooltipHint": "occaecati",
+          "LinkHint": "recusandae"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "omnis",
+      "LinkHint": "labore",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 978
         }
       }
     }
   ],
-  "RowCount": 4,
+  "RowCount": 770,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 444
     }
   }
 }

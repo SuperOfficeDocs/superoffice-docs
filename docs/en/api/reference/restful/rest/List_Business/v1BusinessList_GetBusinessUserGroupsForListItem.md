@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Shanahan-Schmitt",
-    "ToolTip": "Laborum maiores voluptatem et praesentium.",
+    "Id": 610,
+    "Name": "Rolfson, Fisher and Borer",
+    "ToolTip": "Consequatur quos assumenda cumque veniam.",
     "Deleted": true,
-    "Rank": 136,
-    "Type": "enim",
-    "ColorBlock": 383,
-    "IconHint": "soluta",
+    "Rank": 208,
+    "Type": "est",
+    "ColorBlock": 342,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2000-10-05T12:01:33.4332226+02:00",
+    "LastChanged": "1999-12-31T14:32:12.4739768+01:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Treutel-Will",
-        "ToolTip": "Dolores odit nostrum dolorum incidunt nostrum dolorem.",
+        "Id": 156,
+        "Name": "Graham-Rice",
+        "ToolTip": "Vitae aliquam.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "ab",
-        "ColorBlock": 342,
-        "IconHint": "voluptas",
+        "Rank": 19,
+        "Type": "ut",
+        "ColorBlock": 261,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2005-06-27T12:01:33.4332226+02:00",
+        "LastChanged": "2023-02-05T14:32:12.4739768+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "expedita",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Lauretta Parisian",
+        "FullName": "Ms. Vinnie Pat Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Fernando Sawayn",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "culpa",
+    "Hidden": false,
+    "FullName": "Nina Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

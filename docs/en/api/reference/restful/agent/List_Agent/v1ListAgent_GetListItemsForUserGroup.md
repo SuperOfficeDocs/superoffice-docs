@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 357,
-  "GroupId": 400
+  "UdListDefinitionId": 336,
+  "GroupId": 85
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Hoppe, Johnston and Durgan",
-    "ToolTip": "Asperiores dignissimos consectetur possimus dolorum vel aut.",
+    "Id": 114,
+    "Name": "Muller, Mraz and Veum",
+    "ToolTip": "Quidem perspiciatis vero ex quod doloribus.",
     "Deleted": false,
-    "Rank": 316,
-    "Type": "cumque",
-    "ColorBlock": 95,
-    "IconHint": "hic",
-    "Selected": false,
-    "LastChanged": "2012-03-29T12:01:27.9471677+02:00",
+    "Rank": 796,
+    "Type": "laboriosam",
+    "ColorBlock": 526,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2005-05-31T14:32:03.124104+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Feeney LLC",
-        "ToolTip": "Autem aut deleniti sed velit quis magnam id.",
+        "Id": 559,
+        "Name": "Lebsack, Krajcik and Roob",
+        "ToolTip": "Vitae mollitia et natus deleniti minima nihil.",
         "Deleted": true,
-        "Rank": 911,
-        "Type": "non",
-        "ColorBlock": 566,
-        "IconHint": "aspernatur",
+        "Rank": 988,
+        "Type": "facilis",
+        "ColorBlock": 678,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2005-03-28T12:01:27.9471677+02:00",
+        "LastChanged": "2001-02-28T14:32:03.124104+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
+        "ExtraInfo": "et",
         "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Dr. Laisha Fabian Schumm",
+        "FullName": "Marty Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldType": "System.String",
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Nathaniel Von",
+    "FullName": "Guy Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 567
       }
     }
   }

@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 697,
-  "Name": "Schinner LLC",
-  "Tooltip": "magnam",
-  "Rank": 561,
-  "Rate": 16845.25,
-  "Units": 6145.7739999999994,
+  "CurrencyId": 187,
+  "Name": "Roberts, Treutel and Kerluke",
+  "Tooltip": "cum",
+  "Rank": 448,
+  "Rate": 16218.449999999999,
+  "Units": 8186.008,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 822
+  "AttachmentId": 564
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lang-Gorczany",
-  "MimeType": "dignissimos",
-  "Size": 159,
+  "Name": "Rosenbaum, Marquardt and Fisher",
+  "MimeType": "ut",
+  "Size": 671,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "antonetta_stracke@jakubowski.us",
-  "EmailFrom": "chelsey_davis@green.co.uk",
-  "EmailTo": "pansy@watsica.info",
-  "EmailCc": "grover@luettgen.biz",
-  "EmailDate": "2021-11-25T12:01:28.5565847+01:00",
+  "EmailSubject": "marquise@farrellortiz.uk",
+  "EmailFrom": "brook_reichel@conroy.com",
+  "EmailTo": "quincy@champlinpredovic.co.uk",
+  "EmailCc": "arvel@conroy.co.uk",
+  "EmailDate": "2009-10-26T14:32:04.2178019+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 809,
-      "Name": "Davis, Pagac and Barrows",
-      "ContentType": "laborum",
-      "AttSize": 309,
-      "InlineImage": true,
-      "ContentId": "nulla",
-      "AuthKey": "quas",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 724,
+      "Name": "Quigley-Armstrong",
+      "ContentType": "voluptas",
+      "AttSize": 657,
+      "InlineImage": false,
+      "ContentId": "amet",
+      "AuthKey": "harum",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldType": "System.String",
+          "FieldLength": 99
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldType": "System.String",
+      "FieldLength": 361
     }
   }
 }

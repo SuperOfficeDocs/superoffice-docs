@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 892,
-    "Name": "Reichel-McKenzie",
-    "OrgNr": "1412764",
-    "Department": "",
+    "ContactId": 129,
+    "Name": "Bogan, Maggio and Pollich",
+    "OrgNr": "1822487",
+    "Department": "expedite cross-platform e-commerce",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-538-090-4033 x34894",
-    "AssociateId": 845,
-    "CountryId": 903,
-    "EmailAddress": "julio@balistreriquitzon.us",
-    "Kananame": "blanditiis",
-    "EmailAddressName": "judah@mcdermott.biz",
+    "City": "illum",
+    "DirectPhone": "520.121.7853",
+    "AssociateId": 759,
+    "CountryId": 97,
+    "EmailAddress": "karianne@jacobigibson.uk",
+    "Kananame": "et",
+    "EmailAddressName": "brennon_strosin@emmerich.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Jeffrey Graham",
+    "AssociateFullName": "Mrs. Erika Lockman III",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "accusamus",
-    "FullName": "Janice Feeney",
+    "FormattedAddress": "sequi",
+    "FullName": "Violette Hayes",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 14,
-    "Number1": "1526568",
-    "Number2": "1107084",
+    "ActiveErpLinks": 524,
+    "Number1": "421078",
+    "Number2": "1177784",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 461
       }
     }
   }

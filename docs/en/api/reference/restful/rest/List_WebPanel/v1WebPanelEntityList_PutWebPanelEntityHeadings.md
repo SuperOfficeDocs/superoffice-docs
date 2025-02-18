@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 968,
-    "Name": "Kling LLC",
-    "Tooltip": "natus",
+    "HeadingId": 391,
+    "Name": "Hauck Group",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 76,
-    "UdListDefinitionId": 631
+    "Rank": 705,
+    "UdListDefinitionId": 205
   },
   {
-    "HeadingId": 968,
-    "Name": "Kling LLC",
-    "Tooltip": "natus",
+    "HeadingId": 391,
+    "Name": "Hauck Group",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "Rank": 76,
-    "UdListDefinitionId": 631
+    "Rank": 705,
+    "UdListDefinitionId": 205
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 546,
-    "Name": "Bergstrom, Kub and Farrell",
-    "Tooltip": "non",
+    "HeadingId": 778,
+    "Name": "Wiza, Rempel and Wisoky",
+    "Tooltip": "natus",
     "Deleted": true,
-    "Rank": 116,
-    "UdListDefinitionId": 167,
+    "Rank": 329,
+    "UdListDefinitionId": 715,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldLength": 374
       }
     }
   }

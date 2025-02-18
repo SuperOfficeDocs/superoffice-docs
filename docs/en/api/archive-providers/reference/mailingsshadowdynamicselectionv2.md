@@ -656,7 +656,7 @@ Mailings shadow selection archive with OR-able selection groups. Each group is r
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=getAllRows,mailingAddr/contact/streetAddress/line2,mailingAddr/contact/saintSaleStatus,mailingAddr/person/personAddress/city,mailingAddr/person/personUdef/SuperOffice:1
+GET /api/v1/archive/MailingsShadowDynamicSelectionV2?$select=mailingAddr/contact/restrictionAddress/city,mailingAddr/contact/restrictionAddress/formattedMultiLineAddress,mailingAddr/contact/LastTicket,mailingAddr/person/hasInfoText,mailingAddr/person/personDeletedDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

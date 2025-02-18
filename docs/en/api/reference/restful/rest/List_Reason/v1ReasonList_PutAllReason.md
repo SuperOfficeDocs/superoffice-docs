@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Name": "Leffler-Stark",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "UdListDefinitionId": 406,
-    "Rank": 360
+    "Id": 4,
+    "Name": "Nicolas, White and Hartmann",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 397,
+    "Rank": 1001
   },
   {
-    "Id": 73,
-    "Name": "Leffler-Stark",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "UdListDefinitionId": 406,
-    "Rank": 360
+    "Id": 4,
+    "Name": "Nicolas, White and Hartmann",
+    "Tooltip": "sapiente",
+    "Deleted": true,
+    "UdListDefinitionId": 397,
+    "Rank": 1001
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Bahringer, Cremin and Gleichner",
-    "Tooltip": "aut",
+    "Id": 874,
+    "Name": "Grant Group",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 731,
-    "Rank": 765,
+    "UdListDefinitionId": 776,
+    "Rank": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 149
+        "FieldType": "System.Int32",
+        "FieldLength": 518
       }
     }
   }

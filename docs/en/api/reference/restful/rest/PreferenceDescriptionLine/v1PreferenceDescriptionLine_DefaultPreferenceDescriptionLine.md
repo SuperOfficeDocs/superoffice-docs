@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 66,
-  "PrefDescId": 702,
-  "PrefValue": "impedit",
-  "PrefShowValue": "quia",
-  "Description": "Decentralized high-level synergy",
+  "PrefDescLineId": 400,
+  "PrefDescId": 412,
+  "PrefValue": "eligendi",
+  "PrefShowValue": "nostrum",
+  "Description": "Triple-buffered upward-trending interface",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 73
     }
   }
 }

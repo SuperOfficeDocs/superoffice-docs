@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 406,
-  "DocumentId": 335,
-  "Include": false
+  "QuoteVersionId": 817,
+  "DocumentId": 356,
+  "Include": true
 }
 ```
 

@@ -105,31 +105,31 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 387,
-  "Name": "Boyle-Buckridge",
-  "Tooltip": "quos",
+  "WebPanelId": 675,
+  "Name": "Leffler-Tromp",
+  "Tooltip": "nam",
   "Deleted": false,
-  "Rank": 421,
+  "Rank": 41,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wolff-Weissnat",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Vandervort-Fritsch",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 5,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "id",
+  "Icon": 175,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 173,
-  "Name": "Abshire, Leuschke and Johns",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 916,
+  "WebPanelId": 212,
+  "Name": "Bayer Group",
+  "Tooltip": "delectus",
+  "Deleted": true,
+  "Rank": 674,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "D'Amore-Larson",
+  "WindowName": "Larson Group",
   "Url": "http://www.example.com/",
-  "ProgId": "illum",
-  "Icon": 173,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "est",
+  "Icon": 45,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   }
 }

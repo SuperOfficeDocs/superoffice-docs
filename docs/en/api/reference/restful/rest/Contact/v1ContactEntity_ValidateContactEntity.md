@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 790,
-  "Name": "Fisher, Schaden and Conn",
+  "ContactId": 995,
+  "Name": "Gibson Group",
   "Department": "",
-  "OrgNr": "744074",
-  "Number1": "1217997",
-  "Number2": "1253086",
-  "UpdatedDate": "2011-02-25T12:01:32.8238054+01:00",
-  "CreatedDate": "2011-02-18T12:01:32.8238054+01:00",
+  "OrgNr": "1279281",
+  "Number1": "1297012",
+  "Number2": "1046828",
+  "UpdatedDate": "2011-02-08T14:32:11.3489356+01:00",
+  "CreatedDate": "2011-06-16T14:32:11.3489356+02:00",
   "Emails": [
     {
-      "Value": "itaque",
-      "StrippedValue": "officiis",
-      "Description": "Innovative systemic contingency"
+      "Value": "quia",
+      "StrippedValue": "rem",
+      "Description": "Self-enabling even-keeled strategy"
     },
     {
-      "Value": "itaque",
-      "StrippedValue": "officiis",
-      "Description": "Innovative systemic contingency"
+      "Value": "quia",
+      "StrippedValue": "rem",
+      "Description": "Self-enabling even-keeled strategy"
     }
   ],
   "Interests": [
     {
-      "Id": 950,
-      "Name": "Terry-Welch",
-      "ToolTip": "Porro in dolor qui perferendis.",
+      "Id": 977,
+      "Name": "Strosin, Hauck and Koss",
+      "ToolTip": "Ducimus minima animi debitis harum et.",
       "Deleted": true,
-      "Rank": 977,
-      "Type": "et",
-      "ColorBlock": 15,
-      "IconHint": "aspernatur",
-      "Selected": true,
-      "LastChanged": "2024-02-24T12:01:32.8238054+01:00",
+      "Rank": 233,
+      "Type": "tempora",
+      "ColorBlock": 427,
+      "IconHint": "eum",
+      "Selected": false,
+      "LastChanged": "2014-03-29T14:32:11.3489356+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "repudiandae",
+      "ExtraInfo": "facere",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Maryjane Jacobi DVM"
+      "FullName": "Garfield Raynor"
     }
   ],
   "Urls": [
     {
-      "Value": "quaerat",
-      "StrippedValue": "quaerat",
-      "Description": "Reverse-engineered demand-driven core"
+      "Value": "dicta",
+      "StrippedValue": "illo",
+      "Description": "Inverse multimedia neural-net"
     },
     {
-      "Value": "quaerat",
-      "StrippedValue": "quaerat",
-      "Description": "Reverse-engineered demand-driven core"
+      "Value": "dicta",
+      "StrippedValue": "illo",
+      "Description": "Inverse multimedia neural-net"
     }
   ],
   "Phones": [
     {
-      "Value": "vel",
-      "StrippedValue": "consequuntur",
-      "Description": "Profit-focused global attitude"
+      "Value": "cumque",
+      "StrippedValue": "unde",
+      "Description": "Universal 6th generation solution"
     },
     {
-      "Value": "vel",
-      "StrippedValue": "consequuntur",
-      "Description": "Profit-focused global attitude"
+      "Value": "cumque",
+      "StrippedValue": "unde",
+      "Description": "Universal 6th generation solution"
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "quis",
-      "Description": "Right-sized regional structure"
+      "Value": "sint",
+      "StrippedValue": "asperiores",
+      "Description": "Multi-tiered human-resource definition"
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "quis",
-      "Description": "Right-sized regional structure"
+      "Value": "sint",
+      "StrippedValue": "asperiores",
+      "Description": "Multi-tiered human-resource definition"
     }
   ],
-  "Description": "Pre-emptive web-enabled initiative",
+  "Description": "Cross-group web-enabled task-force",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,86 +192,86 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "sed",
-      "PersonId": 363,
-      "Mrmrs": "sapiente",
-      "Firstname": "Tillman",
-      "Lastname": "Conroy",
-      "MiddleName": "Mraz, Goodwin and Kris",
-      "Title": "vel",
-      "Description": "Open-architected reciprocal concept",
-      "Email": "esmeralda@abbott.ca",
-      "FullName": "Destinee Wilhelm Prosacco PhD",
-      "DirectPhone": "061-763-8847",
-      "FormalName": "Swift, Hand and Rosenbaum",
-      "CountryId": 792,
-      "ContactId": 881,
-      "ContactName": "Ebert Group",
-      "Retired": 916,
-      "Rank": 21,
-      "ActiveInterests": 288,
+      "Position": "voluptates",
+      "PersonId": 119,
+      "Mrmrs": "libero",
+      "Firstname": "Rodrigo",
+      "Lastname": "Rowe",
+      "MiddleName": "Mertz, Gorczany and Hettinger",
+      "Title": "dolorem",
+      "Description": "Function-based maximized concept",
+      "Email": "rickie_morissette@haleyfeil.us",
+      "FullName": "Ms. Blaze Delilah Collier III",
+      "DirectPhone": "760-095-7807 x080",
+      "FormalName": "Ankunding Inc and Sons",
+      "CountryId": 922,
+      "ContactId": 859,
+      "ContactName": "Armstrong, Hamill and Hansen",
+      "Retired": 981,
+      "Rank": 799,
+      "ActiveInterests": 484,
       "ContactDepartment": "",
-      "ContactCountryId": 949,
-      "ContactOrgNr": "743477",
-      "FaxPhone": "1-439-983-7236",
-      "MobilePhone": "(947)686-7492 x4076",
-      "ContactPhone": "1-088-102-2345 x37494",
-      "AssociateName": "Toy, Emmerich and Hills",
+      "ContactCountryId": 325,
+      "ContactOrgNr": "1208905",
+      "FaxPhone": "(074)069-2500 x9494",
+      "MobilePhone": "(095)755-6220 x535",
+      "ContactPhone": "1-728-287-5476 x526",
+      "AssociateName": "Hills, Wisozk and Funk",
       "AssociateId": 985,
       "UsePersonAddress": true,
-      "ContactFax": "suscipit",
-      "Kanafname": "accusantium",
-      "Kanalname": "vitae",
-      "Post1": "recusandae",
-      "Post2": "quia",
-      "Post3": "aut",
-      "EmailName": "shanelle@barrowshowell.uk",
-      "ContactFullName": "Logan Turner",
-      "ActiveErpLinks": 371,
-      "TicketPriorityId": 564,
-      "SupportLanguageId": 794,
-      "SupportAssociateId": 901,
+      "ContactFax": "ipsam",
+      "Kanafname": "incidunt",
+      "Kanalname": "asperiores",
+      "Post1": "sit",
+      "Post2": "distinctio",
+      "Post3": "quam",
+      "EmailName": "alison@rau.com",
+      "ContactFullName": "Marcel Jakubowski II",
+      "ActiveErpLinks": 702,
+      "TicketPriorityId": 892,
+      "SupportLanguageId": 359,
+      "SupportAssociateId": 274,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "561917"
+      "PersonNumber": "1137317"
     }
   ],
   "NoMailing": false,
-  "Kananame": "repellat",
-  "Xstop": false,
-  "ActiveInterests": 830,
-  "GroupId": 818,
-  "ActiveStatusMonitorId": 370,
+  "Kananame": "laudantium",
+  "Xstop": true,
+  "ActiveInterests": 354,
+  "GroupId": 345,
+  "ActiveStatusMonitorId": 403,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 272,
-  "DbiAgentId": 458,
-  "DbiLastSyncronized": "1999-01-17T12:01:32.8238054+01:00",
-  "DbiKey": "et",
-  "DbiLastModified": "2003-09-08T12:01:32.8238054+02:00",
+  "Deleted": 429,
+  "DbiAgentId": 839,
+  "DbiLastSyncronized": "2004-10-08T14:32:11.3489356+02:00",
+  "DbiKey": "non",
+  "DbiLastModified": "2020-05-28T14:32:11.3489356+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 542,
-  "ActiveErpLinks": 834,
+  "Source": 406,
+  "ActiveErpLinks": 458,
   "BounceEmails": [
-    "nicklaus@collinsbergstrom.name",
-    "kaylah@medhurst.com"
+    "willy_jacobs@hartmann.name",
+    "flavio@hahn.info"
   ],
   "Domains": [
-    "reprehenderit",
-    "molestias"
+    "ipsam",
+    "optio"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Julia Yundt PhD",
-    "SuperOffice:2": "Linnie Wyman"
+    "SuperOffice:1": "Kiel Johnston",
+    "SuperOffice:2": "Ansley Hills"
   },
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "placeat"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "doloremque"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -283,7 +283,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "repudiandae",
-  "2": "rerum"
+  "1": "nihil",
+  "2": "atque"
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 762,
-    "Name": "Emard Group",
-    "ToolTip": "Vel perferendis laboriosam debitis qui placeat et.",
-    "Deleted": true,
-    "Rank": 178,
-    "Type": "nulla",
-    "ColorBlock": 751,
-    "IconHint": "illum",
+    "Id": 26,
+    "Name": "Keeling-Nolan",
+    "ToolTip": "Voluptas natus.",
+    "Deleted": false,
+    "Rank": 62,
+    "Type": "in",
+    "ColorBlock": 314,
+    "IconHint": "cum",
     "Selected": true,
-    "LastChanged": "2015-01-04T12:01:33.5894836+01:00",
+    "LastChanged": "2004-04-20T14:32:12.7710204+02:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Metz, Marvin and VonRueden",
-        "ToolTip": "Dolores et ipsa magni facere est et provident.",
+        "Id": 725,
+        "Name": "Kub-Hickle",
+        "ToolTip": "Nisi cum odio consequuntur.",
         "Deleted": false,
-        "Rank": 410,
-        "Type": "voluptates",
-        "ColorBlock": 499,
-        "IconHint": "tempora",
+        "Rank": 914,
+        "Type": "provident",
+        "ColorBlock": 529,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2008-07-16T12:01:33.5894836+02:00",
+        "LastChanged": "2022-08-13T14:32:12.7710204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "nihil",
+        "ExtraInfo": "vel",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Althea Thompson"
+        "FullName": "Wiley Kayden Maggio PhD"
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "fuga",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Scottie Reinger"
+    "FullName": "Makenna Smith"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 78,
-    "Name": "Wintheiser, Dietrich and Waelchi",
-    "ToolTip": "Ut neque non tempore.",
+    "Id": 149,
+    "Name": "Rippin, Dickens and Murray",
+    "ToolTip": "Consequuntur qui voluptas saepe libero voluptas corrupti vel.",
     "Deleted": false,
-    "Rank": 517,
-    "Type": "quos",
-    "ColorBlock": 32,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2024-07-27T12:01:33.5894836+02:00",
+    "Rank": 864,
+    "Type": "asperiores",
+    "ColorBlock": 104,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2002-01-25T14:32:12.7710204+01:00",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Senger-Hessel",
-        "ToolTip": "Aliquam saepe velit quis.",
+        "Id": 270,
+        "Name": "Prohaska Inc and Sons",
+        "ToolTip": "Deserunt et quae sint vitae nisi aut ipsa.",
         "Deleted": false,
-        "Rank": 635,
-        "Type": "est",
-        "ColorBlock": 247,
-        "IconHint": "eligendi",
-        "Selected": true,
-        "LastChanged": "2010-08-17T12:01:33.5894836+02:00",
+        "Rank": 93,
+        "Type": "illo",
+        "ColorBlock": 144,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "2017-11-01T14:32:12.7710204+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Earline Crist",
+        "ExtraInfo": "officiis",
+        "StyleHint": "error",
+        "Hidden": true,
+        "FullName": "Russel Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 951
+            "FieldLength": 542
           }
         }
       }
     ],
-    "ExtraInfo": "fuga",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Candice Reynolds",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "accusantium",
+    "Hidden": false,
+    "FullName": "Rey Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 191
       }
     }
   }

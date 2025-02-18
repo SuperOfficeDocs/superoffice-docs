@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kessler LLC",
-  "Context": "ipsam",
+  "ProviderName": "Pagac LLC",
+  "Context": "magni",
   "DesiredEntities": [
-    "omnis",
-    "ut"
+    "nesciunt",
+    "aut"
   ],
   "Columns": [
-    "dignissimos",
-    "quia"
+    "asperiores",
+    "doloremque"
   ],
   "SortOrder": [
     {
-      "Name": "Robel, Grimes and Mayert",
+      "Name": "Erdman-Koss",
       "Direction": "ASC"
     },
     {
-      "Name": "Robel, Grimes and Mayert",
+      "Name": "Erdman-Koss",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Hane, Ruecker and Weber",
-      "Operator": "aut",
+      "Name": "Kub-Kohler",
+      "Operator": "sunt",
       "Values": [
-        "incidunt",
-        "sunt"
+        "aliquam",
+        "dolor"
       ],
       "DisplayValues": [
-        "cum",
-        "non"
+        "non",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 493,
+      "InterParenthesis": 660,
       "InterOperator": "And",
-      "UniqueHash": 226
+      "UniqueHash": 17
     }
   ],
-  "ExportType": "delectus",
+  "ExportType": "et",
   "SelectedRowIds": [
-    "quis",
-    "quod"
+    "qui",
+    "sint"
   ],
-  "EstimatedRowCount": 407
+  "EstimatedRowCount": 956
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 341,
-  "FileName": "Harvey, Welch and Schoen",
-  "Message": "et",
+  "BatchTaskId": 1000,
+  "FileName": "Spencer, Ward and Hettinger",
+  "Message": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 13
     }
   }
 }

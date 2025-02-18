@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Heller-Skiles",
-  "Tooltip": "aut",
+  "Id": 296,
+  "Name": "Glover-VonRueden",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 196,
+  "Rank": 191,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "iusto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 134,
+  "ErpConnectionId": 358,
   "ConfigFields": {
-    "ConfigFields1": "distinctio",
-    "ConfigFields2": "accusamus"
+    "ConfigFields1": "commodi",
+    "ConfigFields2": "omnis"
   }
 }
 ```

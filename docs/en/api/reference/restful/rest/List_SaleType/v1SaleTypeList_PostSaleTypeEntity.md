@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 561,
-  "Name": "Lueilwitz-Erdman",
-  "Tooltip": "nam",
-  "Rank": 242,
+  "SaleTypeId": 640,
+  "Name": "Padberg, Kutch and Brakus",
+  "Tooltip": "voluptatem",
+  "Rank": 498,
   "DurationUnit": "Century",
-  "SaleDuration": 732,
-  "SaleTypeCatId": 171,
+  "SaleDuration": 376,
+  "SaleTypeCatId": 716,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 182,
-  "QuoteLinesTemplate": 223,
-  "ConfirmationLinesTemplate": 211,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 703,
+  "QuoteLinesTemplate": 539,
+  "ConfirmationLinesTemplate": 932,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 180,
-  "MinEarningPercent": 679,
-  "GroupQuoteLinesBy": 475,
-  "SortGroupLinesBy": 706,
+  "MaxDiscountPercent": 426,
+  "MinEarningPercent": 738,
+  "GroupQuoteLinesBy": 757,
+  "SortGroupLinesBy": 143,
   "Stages": [
     {
-      "Id": 162,
-      "Name": "Waters, Olson and Stoltenberg",
-      "ToolTip": "Voluptatibus iure.",
-      "Deleted": true,
-      "Rank": 424,
-      "Type": "suscipit",
-      "ColorBlock": 253,
-      "IconHint": "laudantium",
+      "Id": 243,
+      "Name": "Gerhold-Beier",
+      "ToolTip": "Nesciunt ipsam nulla ea.",
+      "Deleted": false,
+      "Rank": 173,
+      "Type": "ipsa",
+      "ColorBlock": 676,
+      "IconHint": "laboriosam",
       "Selected": false,
-      "LastChanged": "2023-12-05T12:01:33.6519877+01:00",
+      "LastChanged": "2014-08-18T14:32:12.8959913+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "consectetur",
+      "ExtraInfo": "deleniti",
+      "StyleHint": "laboriosam",
       "Hidden": false,
-      "FullName": "Prof. Kasey McKenzie"
+      "FullName": "Jordan Powlowski"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 416,
-  "Name": "Stark-Ankunding",
-  "Tooltip": "laudantium",
-  "Rank": 900,
+  "SaleTypeId": 590,
+  "Name": "Leffler-Toy",
+  "Tooltip": "autem",
+  "Rank": 454,
   "DurationUnit": "Century",
-  "SaleDuration": 308,
-  "SaleTypeCatId": 585,
+  "SaleDuration": 495,
+  "SaleTypeCatId": 560,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 171,
-  "QuoteLinesTemplate": 68,
-  "ConfirmationLinesTemplate": 306,
+  "DefaultQuoteValidity": 108,
+  "QuoteLinesTemplate": 666,
+  "ConfirmationLinesTemplate": 360,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 810,
-  "MinEarningPercent": 362,
-  "GroupQuoteLinesBy": 242,
-  "SortGroupLinesBy": 319,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 456,
+  "MinEarningPercent": 452,
+  "GroupQuoteLinesBy": 230,
+  "SortGroupLinesBy": 660,
   "Stages": [
     {
-      "Id": 676,
-      "Name": "Bednar Inc and Sons",
-      "ToolTip": "Omnis inventore qui.",
+      "Id": 850,
+      "Name": "Rolfson-Beahan",
+      "ToolTip": "Aliquam eligendi alias qui voluptas voluptatibus.",
       "Deleted": false,
-      "Rank": 992,
-      "Type": "rerum",
-      "ColorBlock": 377,
-      "IconHint": "et",
+      "Rank": 526,
+      "Type": "nihil",
+      "ColorBlock": 822,
+      "IconHint": "perferendis",
       "Selected": true,
-      "LastChanged": "2010-06-13T12:01:33.6519877+02:00",
+      "LastChanged": "2023-12-14T14:32:12.8959913+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "et",
+      "ExtraInfo": "fugiat",
+      "StyleHint": "minima",
       "Hidden": true,
-      "FullName": "Jonatan Reichert",
+      "FullName": "Bennett Sandy Jacobi MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 966
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

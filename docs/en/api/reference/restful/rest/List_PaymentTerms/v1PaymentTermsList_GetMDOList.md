@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=excepturi
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=consequatur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Stiedemann-Jacobson",
-    "ToolTip": "Voluptatem voluptate eos et quia similique.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "quaerat",
+    "Id": 561,
+    "Name": "Zulauf, Stoltenberg and Christiansen",
+    "ToolTip": "In voluptatem natus omnis qui quia doloribus.",
+    "Deleted": false,
+    "Rank": 560,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Veum-Mosciski",
-        "ToolTip": "Minus consequatur molestias ut et nemo.",
+        "Id": 499,
+        "Name": "Abernathy Inc and Sons",
+        "ToolTip": "Commodi aut distinctio atque quas tempora.",
         "Deleted": true,
-        "Rank": 487,
-        "Type": "ipsa",
+        "Rank": 847,
+        "Type": "rem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 863,
-        "ExtraInfo": "et",
-        "StyleHint": "sequi",
-        "FullName": "Jocelyn Rutherford",
+        "IconHint": "quis",
+        "ColorBlock": 997,
+        "ExtraInfo": "dolores",
+        "StyleHint": "et",
+        "FullName": "Rogers Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 931
+            "FieldLength": 18
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 381,
-    "ExtraInfo": "vel",
-    "StyleHint": "at",
-    "FullName": "Teresa Mertz III",
+    "IconHint": "totam",
+    "ColorBlock": 686,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "odit",
+    "FullName": "Izaiah Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldType": "System.Int32",
+        "FieldLength": 788
       }
     }
   }

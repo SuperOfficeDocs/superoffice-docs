@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Schroeder, Kertzmann and Grady",
-    "ToolTip": "Ipsum quae.",
+    "Id": 798,
+    "Name": "Frami, Weimann and Halvorson",
+    "ToolTip": "Sit aliquam quas corrupti delectus voluptas aut sed.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "accusamus",
-    "ColorBlock": 556,
-    "IconHint": "veritatis",
+    "Rank": 545,
+    "Type": "autem",
+    "ColorBlock": 250,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2009-05-11T12:01:33.6676138+02:00",
+    "LastChanged": "2017-04-21T14:32:12.9428597+02:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Lindgren, Lindgren and Lemke",
-        "ToolTip": "Illo assumenda.",
+        "Id": 586,
+        "Name": "Oberbrunner-Rogahn",
+        "ToolTip": "Laudantium vitae.",
         "Deleted": true,
-        "Rank": 593,
-        "Type": "nobis",
-        "ColorBlock": 641,
-        "IconHint": "eveniet",
+        "Rank": 551,
+        "Type": "reprehenderit",
+        "ColorBlock": 648,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2021-08-03T12:01:33.6676138+02:00",
+        "LastChanged": "2021-04-25T14:32:12.9428597+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "est",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "impedit",
         "Hidden": true,
-        "FullName": "Anastasia Herzog",
+        "FullName": "Kali Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldLength": 190
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Miss Rupert Taurean Koss PhD",
+    "FullName": "Claud Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 489
       }
     }
   }

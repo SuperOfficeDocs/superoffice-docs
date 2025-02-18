@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Hilll-Hermann",
-    "ToolTip": "Unde ex dolore accusantium.",
+    "Id": 343,
+    "Name": "Crooks, Strosin and Ruecker",
+    "ToolTip": "Pariatur possimus.",
     "Deleted": true,
-    "Rank": 706,
-    "Type": "eos",
-    "ColorBlock": 105,
-    "IconHint": "beatae",
-    "Selected": false,
-    "LastChanged": "2013-03-20T12:01:33.6363617+01:00",
+    "Rank": 50,
+    "Type": "voluptatum",
+    "ColorBlock": 952,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2021-06-03T14:32:12.8959913+02:00",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Pacocha Group",
-        "ToolTip": "Pariatur ut dolore non.",
+        "Id": 273,
+        "Name": "Fadel-Simonis",
+        "ToolTip": "Ea ullam porro nostrum nihil alias.",
         "Deleted": true,
-        "Rank": 730,
-        "Type": "nemo",
-        "ColorBlock": 881,
-        "IconHint": "omnis",
+        "Rank": 560,
+        "Type": "quisquam",
+        "ColorBlock": 492,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2016-02-05T12:01:33.6363617+01:00",
+        "LastChanged": "2024-11-03T14:32:12.8959913+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "minus",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Miss Jaclyn Jayne Mann",
+        "FullName": "Elias Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 295
+            "FieldType": "System.Int32",
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "quasi",
+    "ExtraInfo": "dolore",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Mr. Herminia Hyman Parisian",
+    "FullName": "Anne Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 639
       }
     }
   }

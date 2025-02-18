@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Fisher-DuBuque",
-  "Tooltip": "velit",
+  "Id": 607,
+  "Name": "Kuhic Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 55,
-  "Rank": 582,
+  "UdListDefinitionId": 311,
+  "Rank": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 320
     }
   }
 }

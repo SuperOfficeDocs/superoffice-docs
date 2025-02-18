@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Brown Group",
-    "ToolTip": "Iste sed.",
-    "Deleted": false,
-    "Rank": 676,
-    "Type": "mollitia",
-    "ColorBlock": 503,
-    "IconHint": "et",
+    "Id": 838,
+    "Name": "Heaney-Wolf",
+    "ToolTip": "Repellendus explicabo qui numquam consectetur odit doloremque ipsam.",
+    "Deleted": true,
+    "Rank": 302,
+    "Type": "quisquam",
+    "ColorBlock": 647,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2017-12-21T12:01:33.6519877+01:00",
+    "LastChanged": "2022-12-08T14:32:12.9116131+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Brekke-Stark",
-        "ToolTip": "Neque reprehenderit consequatur id possimus.",
-        "Deleted": true,
-        "Rank": 877,
-        "Type": "fuga",
-        "ColorBlock": 644,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2017-05-29T12:01:33.6519877+02:00",
+        "Id": 793,
+        "Name": "Huel Inc and Sons",
+        "ToolTip": "Omnis cupiditate voluptates qui.",
+        "Deleted": false,
+        "Rank": 337,
+        "Type": "dolores",
+        "ColorBlock": 428,
+        "IconHint": "illo",
+        "Selected": true,
+        "LastChanged": "2007-04-17T14:32:12.9116131+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "quo",
+        "ExtraInfo": "vel",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Abelardo Homenick"
+        "FullName": "Miss Aglae Schaden PhD"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "eaque",
+    "ExtraInfo": "quos",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Fredy Jena O'Kon Sr."
+    "FullName": "Loraine Rolfson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Nikolaus Group",
-    "ToolTip": "Ex recusandae assumenda eos velit.",
+    "Id": 624,
+    "Name": "Koch-Padberg",
+    "ToolTip": "Et et ullam.",
     "Deleted": false,
-    "Rank": 486,
-    "Type": "culpa",
-    "ColorBlock": 77,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2007-09-02T12:01:33.6519877+02:00",
+    "Rank": 112,
+    "Type": "aut",
+    "ColorBlock": 418,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "2021-10-11T14:32:12.9116131+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Kunde LLC",
-        "ToolTip": "Modi voluptatum et expedita velit inventore quam.",
-        "Deleted": false,
-        "Rank": 522,
-        "Type": "aut",
-        "ColorBlock": 415,
-        "IconHint": "possimus",
+        "Id": 445,
+        "Name": "Stroman Inc and Sons",
+        "ToolTip": "Corrupti recusandae ut hic aspernatur in.",
+        "Deleted": true,
+        "Rank": 933,
+        "Type": "nesciunt",
+        "ColorBlock": 36,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2011-01-04T12:01:33.6519877+01:00",
+        "LastChanged": "2021-08-28T14:32:12.9116131+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "enim",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Jared Sporer",
+        "FullName": "Stanford Goodwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 173
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aut",
+    "ExtraInfo": "ea",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Adela Cremin Jr.",
+    "FullName": "Terrence Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

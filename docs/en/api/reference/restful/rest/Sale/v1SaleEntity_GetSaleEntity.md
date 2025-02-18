@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=False
+GET /api/v1/Sale/{id}?fk=True
 ```
 
 
@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
+Last-Modified: Tue, 23 Sep 2003 14:32:11 G9T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "fugit",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-02-14T12:01:33.1363265+01:00",
-  "Amount": 26501.104,
-  "SaleId": 460,
-  "Earning": 18982.638,
-  "EarningPercent": 7844.402,
-  "Heading": "error",
-  "Number": "1147352",
-  "Probability": 614,
-  "CreatedDate": "2019-01-08T12:01:33.1363265+01:00",
-  "UpdatedDate": "2012-01-06T12:01:33.1363265+01:00",
+  "Saledate": "2018-11-17T14:32:11.9584761+01:00",
+  "Amount": 16760.631999999998,
+  "SaleId": 64,
+  "Earning": 13137.728,
+  "EarningPercent": 4393.8679999999995,
+  "Heading": "fuga",
+  "Number": "1020521",
+  "Probability": 665,
+  "CreatedDate": "2018-05-15T14:32:11.9584761+02:00",
+  "UpdatedDate": "2003-09-23T14:32:11.9584761+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 96,
   "Links": [
     {
-      "EntityName": "Stehr-Treutel",
-      "Id": 159,
-      "Description": "Team-oriented solution-oriented initiative",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 753,
+      "EntityName": "Sipes-Reichel",
+      "Id": 634,
+      "Description": "Optional multimedia matrices",
+      "ExtraInfo": "occaecati",
+      "LinkId": 338,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 523
         }
       }
     }
   ],
-  "NextDueDate": "2004-11-19T12:01:33.1363265+01:00",
-  "Postit": "laboriosam",
+  "NextDueDate": "2004-11-15T14:32:11.9584761+01:00",
+  "Postit": "sapiente",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-11-01T12:01:33.1363265+01:00",
+  "ReopenDate": "2002-04-17T14:32:11.9584761+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gulgowski-Morissette",
-      "Comment": "tempora",
-      "StakeholderRoleId": 182,
-      "CountryId": 336,
-      "PersonId": 665,
-      "EmailDescription": "autumn@oconner.com",
-      "EmailId": 516,
-      "EmailAddress": "alba_bahringer@bauchjaskolski.co.uk",
-      "PhoneId": 110,
-      "ContactName": "Wisoky, Yundt and O'Keefe",
-      "ContactId": 829,
-      "SaleId": 761,
-      "Mrmrs": "dolorum",
-      "Firstname": "Dewayne",
-      "MiddleName": "Kris Inc and Sons",
-      "Lastname": "Stokes",
-      "SaleStakeholderId": 449,
-      "Rank": 809,
-      "Phone": "239-036-3366 x940",
+      "StakeholderRoleName": "O'Reilly Inc and Sons",
+      "Comment": "quas",
+      "StakeholderRoleId": 58,
+      "CountryId": 100,
+      "PersonId": 345,
+      "EmailDescription": "eric@ernser.name",
+      "EmailId": 132,
+      "EmailAddress": "noemi.cole@sporer.biz",
+      "PhoneId": 230,
+      "ContactName": "Greenfelder, Gaylord and White",
+      "ContactId": 789,
+      "SaleId": 448,
+      "Mrmrs": "eveniet",
+      "Firstname": "Dandre",
+      "MiddleName": "McCullough LLC",
+      "Lastname": "Doyle",
+      "SaleStakeholderId": 982,
+      "Rank": 672,
+      "Phone": "1-634-293-3542",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldType": "System.String",
+          "FieldLength": 166
         }
       }
     }
   ],
-  "ActiveErpLinks": 914,
+  "ActiveErpLinks": 16,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Holden Alessandra Fahey V",
-    "SuperOffice:2": "Harold Armstrong"
+    "SuperOffice:1": "Alejandra Friesen",
+    "SuperOffice:2": "Caleigh Camryn Ward IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "officia"
+    "CustomFields1": "est",
+    "CustomFields2": "quisquam"
   },
-  "PublishEventDate": "2006-08-17T12:01:33.1519536+02:00",
-  "PublishTo": "2016-05-09T12:01:33.1519536+02:00",
-  "PublishFrom": "2018-06-13T12:01:33.1519536+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-01-31T14:32:11.9584761+01:00",
+  "PublishTo": "2015-05-02T14:32:11.9584761+02:00",
+  "PublishFrom": "2002-12-24T14:32:11.9584761+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 999,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldType": "System.String",
+          "FieldLength": 123
         }
       }
     },
     {
-      "VisibleId": 999,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldType": "System.String",
+          "FieldLength": 123
         }
       }
     }
@@ -261,12 +261,12 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 519
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

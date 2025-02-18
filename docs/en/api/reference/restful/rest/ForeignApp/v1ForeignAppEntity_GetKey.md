@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 26 Oct 2010 12:01:32 G10T
+Last-Modified: Fri, 23 Dec 2005 14:32:11 G12T
 
 {
-  "Key": "laborum",
-  "Value": "sit",
-  "RecordId": 743,
-  "CreatedDate": "2018-04-13T12:01:32.9175621+02:00",
-  "UpdatedDate": "2010-10-26T12:01:32.9175621+02:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "vel",
-  "TableName": "Bechtelar-Botsford",
+  "Key": "et",
+  "Value": "similique",
+  "RecordId": 907,
+  "CreatedDate": "1998-04-09T14:32:11.5210682+02:00",
+  "UpdatedDate": "2005-12-23T14:32:11.5210682+01:00",
+  "UpdatedBy": "illum",
+  "CreatedBy": "delectus",
+  "TableName": "Erdman, Shields and Cummings",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 99
     }
   }
 }

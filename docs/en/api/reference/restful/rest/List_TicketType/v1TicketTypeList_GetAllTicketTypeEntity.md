@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +86,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 929,
-    "Name": "Yost-Marquardt",
-    "Rank": 254,
-    "Tooltip": "nostrum",
-    "Icon": "porro",
-    "DefaultTicketStatus": 995,
+    "TicketTypeId": 913,
+    "Name": "Fritsch Group",
+    "Rank": 160,
+    "Tooltip": "dignissimos",
+    "Icon": "ut",
+    "DefaultTicketStatus": 190,
     "TicketStatuses": [
-      54,
-      281
+      515,
+      568
     ],
-    "DefaultTicketPriority": 409,
+    "DefaultTicketPriority": 823,
     "TicketPriorities": [
-      108,
-      593
+      26,
+      171
     ],
-    "ReplyTemplate": 343,
+    "ReplyTemplate": 548,
     "IsExternalVisible": false,
-    "IsDefault": false,
-    "ShowInNew": true,
-    "ExcludeSignature": false,
+    "IsDefault": true,
+    "ShowInNew": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      639,
-      962
+      235,
+      852
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldType": "System.String",
+        "FieldLength": 839
       }
     }
   }

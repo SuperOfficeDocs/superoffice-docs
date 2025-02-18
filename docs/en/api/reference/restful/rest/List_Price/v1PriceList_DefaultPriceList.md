@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 880,
+  "PriceListId": 443,
   "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 822,
-  "Name": "Bayer, Bayer and Abbott",
-  "Description": "Versatile upward-trending frame",
-  "Currency": "inventore",
-  "CurrencyName": "O'Conner, Osinski and Crona",
-  "ValidFrom": "2023-09-26T12:01:33.5582313+02:00",
-  "ValidTo": "2011-10-20T12:01:33.5582313+02:00",
+  "QuoteConnectionId": 162,
+  "Name": "Turner-Adams",
+  "Description": "Universal even-keeled access",
+  "Currency": "est",
+  "CurrencyName": "Heaney-Medhurst",
+  "ValidFrom": "2006-07-02T14:32:12.7082989+02:00",
+  "ValidTo": "2005-07-29T14:32:12.7082989+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 61
     }
   }
 }

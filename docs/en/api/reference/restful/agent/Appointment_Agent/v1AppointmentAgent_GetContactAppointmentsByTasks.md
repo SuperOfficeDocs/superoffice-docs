@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 640,
-  "StartTime": "2013-09-23T12:01:27.0095855+02:00",
-  "EndTime": "2008-01-03T12:01:27.0095855+01:00",
-  "Count": 545,
+  "ContactId": 24,
+  "StartTime": "2001-08-22T14:32:01.4993032+02:00",
+  "EndTime": "1998-04-28T14:32:01.4993032+02:00",
+  "Count": 550,
   "TaskIds": [
-    162,
-    660
+    107,
+    260
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 247,
-    "StartDate": "2012-12-31T12:01:27.0095855+01:00",
-    "EndDate": "2000-07-20T12:01:27.0095855+02:00",
+    "AppointmentId": 30,
+    "StartDate": "2003-02-26T14:32:01.4993032+01:00",
+    "EndDate": "2012-06-08T14:32:01.4993032+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vero",
-    "AssociateFullName": "Mrs. Asa Murray I",
-    "ContactName": "Hoeger-Barrows",
-    "Description": "Synergized foreground moderator",
-    "PersonFullName": "Nikko Welch",
-    "PersonId": 822,
-    "ContactId": 749,
-    "ProjectId": 458,
-    "ProjectName": "Dicki, Huel and Roberts",
-    "IsPublished": false,
-    "AssociateId": 485,
-    "ColorIndex": 111,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "numquam",
+    "AssociateFullName": "Miss Gordon Mayert V",
+    "ContactName": "Wilderman Inc and Sons",
+    "Description": "Quality-focused eco-centric methodology",
+    "PersonFullName": "Mr. Delphine Jonas Hayes DDS",
+    "PersonId": 943,
+    "ContactId": 515,
+    "ProjectId": 755,
+    "ProjectName": "Witting, Lynch and Funk",
+    "IsPublished": true,
+    "AssociateId": 478,
+    "ColorIndex": 498,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 658,
-    "PriorityName": "Pfannerstill-Schimmel",
+    "PriorityId": 953,
+    "PriorityName": "Labadie Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2024-11-04T12:01:27.0095855+01:00",
+    "ActiveDate": "2010-02-06T14:32:01.4993032+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-04-02T12:01:27.0095855+02:00",
-    "RecurringEndDate": "2017-06-08T12:01:27.0095855+02:00",
-    "MotherId": 636,
-    "AssignedBy": 182,
-    "AssignedByFullName": "Domingo Waters",
+    "RecurringStartDate": "2021-01-18T14:32:01.4993032+01:00",
+    "RecurringEndDate": "2014-11-29T14:32:01.4993032+01:00",
+    "MotherId": 296,
+    "AssignedBy": 122,
+    "AssignedByFullName": "Mose Kuhic",
     "RejectReason": "",
-    "Location": "aliquid",
-    "AlarmLeadTime": "sit",
-    "SaleId": 113,
-    "SaleName": "Nienow, Ritchie and Blanda",
-    "AssociateName": "Konopelski LLC",
-    "CreatedDate": "2015-07-30T12:01:27.0095855+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Jaycee Steuber",
-    "CreatedByAssociateId": 699,
+    "Location": "placeat",
+    "AlarmLeadTime": "a",
+    "SaleId": 11,
+    "SaleName": "Konopelski-Haag",
+    "AssociateName": "Ankunding-Powlowski",
+    "CreatedDate": "2015-01-28T14:32:01.4993032+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Stevie Lebsack",
+    "CreatedByAssociateId": 584,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 178,
-    "Title": "laboriosam",
-    "Agenda": "doloremque",
-    "InternalNotes": "placeat",
+    "PreferredTZLocation": 723,
+    "Title": "consequatur",
+    "Agenda": "tempore",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

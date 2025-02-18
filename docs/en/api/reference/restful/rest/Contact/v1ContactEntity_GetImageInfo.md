@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 09 Mar 2002 12:01:32 G3T
+Last-Modified: Wed, 10 Sep 2014 14:32:11 G9T
 
 {
-  "BlobId": 654,
-  "BlobSize": 57,
-  "Description": "Inverse system-worthy circuit",
-  "ExtraInfo": "qui",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 93,
-  "CreatedDate": "2020-11-02T12:01:32.7769271+01:00",
-  "UpdatedDate": "2002-03-09T12:01:32.7769271+01:00",
+  "BlobId": 554,
+  "BlobSize": 94,
+  "Description": "Optimized incremental internet solution",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "assumenda",
+  "OriginalSize": 58,
+  "CreatedDate": "2011-06-14T14:32:11.2552076+02:00",
+  "UpdatedDate": "2014-09-10T14:32:11.2552076+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "exercitationem",
+  "ConceptualType": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }

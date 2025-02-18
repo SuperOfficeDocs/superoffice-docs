@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 252,
-    "Name": "Abernathy, Mosciski and Shields",
-    "Tooltip": "animi",
+    "HeadingId": 733,
+    "Name": "Graham Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": true,
-    "Rank": 990,
-    "UdListDefinitionId": 828
+    "Rank": 763,
+    "UdListDefinitionId": 174
   },
   {
-    "HeadingId": 252,
-    "Name": "Abernathy, Mosciski and Shields",
-    "Tooltip": "animi",
+    "HeadingId": 733,
+    "Name": "Graham Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": true,
-    "Rank": 990,
-    "UdListDefinitionId": 828
+    "Rank": 763,
+    "UdListDefinitionId": 174
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 95,
-    "Name": "Mann, Toy and Watsica",
-    "Tooltip": "rerum",
+    "HeadingId": 697,
+    "Name": "Monahan-Kulas",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 947,
-    "UdListDefinitionId": 634,
+    "Rank": 559,
+    "UdListDefinitionId": 986,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 219
       }
     }
   }

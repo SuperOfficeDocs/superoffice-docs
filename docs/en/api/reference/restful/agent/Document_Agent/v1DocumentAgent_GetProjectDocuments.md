@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 306,
-  "StartTime": "2019-01-07T12:01:27.5877684+01:00",
-  "EndTime": "2009-04-22T12:01:27.5877684+02:00",
-  "Count": 182
+  "ProjectId": 220,
+  "StartTime": "2010-04-20T14:32:02.6398381+02:00",
+  "EndTime": "2024-09-28T14:32:02.6398381+02:00",
+  "Count": 24
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 953,
-    "Attention": "omnis",
-    "Header": "quis",
-    "Name": "Wolf, Wiza and Kemmer",
-    "OurRef": "et",
-    "YourRef": "voluptas",
-    "Description": "Centralized holistic migration",
-    "DocumentTemplate": "qui",
+    "DocumentId": 548,
+    "Attention": "est",
+    "Header": "incidunt",
+    "Name": "Nader Group",
+    "OurRef": "qui",
+    "YourRef": "velit",
+    "Description": "Quality-focused secondary encoding",
+    "DocumentTemplate": "commodi",
     "IsPublished": false,
-    "PersonId": 453,
-    "PersonFullName": "Felicia Satterfield",
-    "AssociateFullName": "Miss Terry Wilderman",
-    "ContactId": 504,
-    "ContactName": "Sipes LLC",
-    "ProjectId": 68,
-    "ProjectName": "Trantow-Hilpert",
-    "AssociateId": 754,
-    "Snum": 923,
-    "SaleId": 167,
-    "SaleName": "Block, Smith and Rosenbaum",
+    "PersonId": 804,
+    "PersonFullName": "Kristopher Heidenreich",
+    "AssociateFullName": "Vicky Johnson",
+    "ContactId": 25,
+    "ContactName": "Boyer Inc and Sons",
+    "ProjectId": 900,
+    "ProjectName": "Bosco-Altenwerth",
+    "AssociateId": 180,
+    "Snum": 260,
+    "SaleId": 499,
+    "SaleName": "Marquardt, Streich and Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

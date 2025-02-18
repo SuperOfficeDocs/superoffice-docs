@@ -75,31 +75,31 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 528,
-  "CrmRecordId": 708,
+  "ErpConnectionId": 691,
+  "CrmRecordId": 200,
   "CrmActorType": "Contact",
-  "ErpKey": "libero",
+  "ErpKey": "totam",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Rodriguez Group",
-      "CrmFieldKey": "et",
-      "Value": "qui",
-      "DisplayValue": "debitis",
+      "DisplayName": "Towne LLC",
+      "CrmFieldKey": "doloribus",
+      "Value": "dolores",
+      "DisplayValue": "aut",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Rodriguez Group",
-      "CrmFieldKey": "et",
-      "Value": "qui",
-      "DisplayValue": "debitis",
+      "DisplayName": "Towne LLC",
+      "CrmFieldKey": "doloribus",
+      "Value": "dolores",
+      "DisplayValue": "aut",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

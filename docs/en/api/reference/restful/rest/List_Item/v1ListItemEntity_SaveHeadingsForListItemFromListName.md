@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Anderson Inc and Sons",
-    "ToolTip": "Doloribus hic consequuntur pariatur molestiae quis et.",
+    "Id": 616,
+    "Name": "Towne LLC",
+    "ToolTip": "Quis voluptatem in sapiente a.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "esse",
-    "ColorBlock": 851,
-    "IconHint": "qui",
+    "Rank": 598,
+    "Type": "tenetur",
+    "ColorBlock": 61,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2008-01-14T12:01:33.4175965+01:00",
+    "LastChanged": "2007-03-26T14:32:12.4427319+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Barrows Group",
-        "ToolTip": "Voluptatem tenetur voluptate eveniet in quos dolorem.",
+        "Id": 3,
+        "Name": "Dooley-Welch",
+        "ToolTip": "Est et aliquam.",
         "Deleted": false,
-        "Rank": 50,
-        "Type": "tempora",
-        "ColorBlock": 740,
-        "IconHint": "dolorem",
+        "Rank": 961,
+        "Type": "et",
+        "ColorBlock": 467,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2017-08-09T12:01:33.4175965+02:00",
+        "LastChanged": "2023-04-08T14:32:12.4427319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "placeat",
+        "ExtraInfo": "id",
+        "StyleHint": "occaecati",
         "Hidden": true,
-        "FullName": "Jordyn Stiedemann Jr."
+        "FullName": "Mr. Regan Mauricio Homenick V"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "aut",
+    "ExtraInfo": "sit",
+    "StyleHint": "aperiam",
     "Hidden": false,
-    "FullName": "Wendy Romaguera"
+    "FullName": "Glennie Leffler"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Kemmer-Krajcik",
-    "ToolTip": "Omnis omnis officiis animi est quasi voluptatem.",
+    "Id": 699,
+    "Name": "Turcotte-Grant",
+    "ToolTip": "Consectetur aliquid qui non.",
     "Deleted": false,
-    "Rank": 937,
-    "Type": "vitae",
-    "ColorBlock": 916,
-    "IconHint": "exercitationem",
+    "Rank": 291,
+    "Type": "voluptas",
+    "ColorBlock": 321,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2011-04-21T12:01:33.4175965+02:00",
+    "LastChanged": "2002-08-16T14:32:12.4583552+02:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Johnson, Kiehn and Kautzer",
-        "ToolTip": "Quae placeat deserunt vel facere.",
+        "Id": 567,
+        "Name": "Spencer-West",
+        "ToolTip": "Sed fugiat asperiores.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "non",
-        "ColorBlock": 476,
-        "IconHint": "suscipit",
-        "Selected": true,
-        "LastChanged": "2017-03-17T12:01:33.4175965+01:00",
+        "Rank": 644,
+        "Type": "ea",
+        "ColorBlock": 36,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2004-06-02T14:32:12.4583552+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Ms. Miguel Manley Ritchie",
+        "ExtraInfo": "quis",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Ms. Quinton Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 705
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "saepe",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Edison Cummings",
+    "FullName": "Krystina Pollich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

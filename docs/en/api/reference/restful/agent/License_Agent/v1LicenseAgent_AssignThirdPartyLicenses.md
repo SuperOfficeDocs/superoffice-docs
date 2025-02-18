@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 113,
-  "ModuleOwner": "maxime",
+  "AssociateId": 488,
+  "ModuleOwner": "dolor",
   "ModuleLicenseNames": [
-    "Kilback, Leannon and Batz",
-    "Mitchell Inc and Sons"
+    "Schamberger LLC",
+    "McKenzie-Beahan"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 474,
-    "Tooltip": "dolorum",
+    "Unrestricted": false,
+    "Total": 179,
+    "Tooltip": "cupiditate",
     "CanAssign": false,
-    "Free": 130,
-    "InUse": 331,
-    "IsHidden": false,
+    "Free": 769,
+    "InUse": 837,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 434,
-    "Name": "Rempel Group",
-    "Description": "Grass-roots maximized neural-net",
-    "PrerequisiteModuleName": "Erdman LLC",
-    "SortOrder": 986,
-    "ExtraFlags": 236,
+    "ModuleLicenseId": 497,
+    "Name": "O'Connell, Larkin and Beahan",
+    "Description": "De-engineered assymetric utilisation",
+    "PrerequisiteModuleName": "Padberg-O'Hara",
+    "SortOrder": 561,
+    "ExtraFlags": 829,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldLength": 994
       }
     }
   }

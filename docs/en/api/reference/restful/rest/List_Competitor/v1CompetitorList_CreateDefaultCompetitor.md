@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Moore-Schmitt",
-  "Tooltip": "animi",
+  "Id": 796,
+  "Name": "Schmidt-Glover",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 941,
-  "Rank": 792,
+  "UdListDefinitionId": 863,
+  "Rank": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 772
+      "FieldLength": 20
     }
   }
 }

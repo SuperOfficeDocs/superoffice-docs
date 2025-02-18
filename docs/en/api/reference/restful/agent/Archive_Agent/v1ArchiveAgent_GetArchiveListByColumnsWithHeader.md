@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Torphy Inc and Sons",
+  "ProviderName": "Hilpert-Braun",
   "Columns": [
-    "dolorum",
-    "quaerat"
+    "hic",
+    "consequatur"
   ],
   "SortOrder": [
     {
-      "Name": "Prohaska Inc and Sons",
+      "Name": "Monahan, Frami and Wunsch",
       "Direction": "ASC"
     },
     {
-      "Name": "Prohaska Inc and Sons",
+      "Name": "Monahan, Frami and Wunsch",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Wisoky-Howell",
-      "Operator": "quis",
+      "Name": "Labadie, Rolfson and Bartell",
+      "Operator": "sit",
       "Values": [
-        "ut",
-        "ipsum"
+        "et",
+        "ut"
       ],
       "DisplayValues": [
-        "ut",
-        "voluptas"
+        "eveniet",
+        "porro"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 634,
+      "InterParenthesis": 95,
       "InterOperator": "And",
-      "UniqueHash": 89
+      "UniqueHash": 416
     }
   ],
   "Entities": [
-    "voluptate",
-    "dolor"
+    "sapiente",
+    "facere"
   ],
-  "Page": 876,
-  "PageSize": 91,
-  "Options": "eum"
+  "Page": 772,
+  "PageSize": 142,
+  "Options": "esse"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 899,
+  "RowCount": 743,
   "Rows": [
     {
-      "EntityName": "Lebsack-Cormier",
-      "PrimaryKey": 837,
+      "EntityName": "Kulas, Gleason and Spencer",
+      "PrimaryKey": 510,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "itaque",
-          "TooltipHint": "ipsam",
-          "LinkHint": "saepe"
+          "DisplayValue": "aut",
+          "TooltipHint": "molestiae",
+          "LinkHint": "sunt"
         }
       },
-      "LinkHint": "tempore",
-      "StyleHint": "rerum",
+      "LinkHint": "ut",
+      "StyleHint": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 247
+          "FieldType": "System.Int32",
+          "FieldLength": 173
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 495
     }
   }
 }

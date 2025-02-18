@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kuhic, Spinka and Tillman",
-  "BinaryObjectId": 635
+  "TableName": "Schroeder, Jerde and Gleichner",
+  "BinaryObjectId": 228
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"numquam"
+"et"
 ```

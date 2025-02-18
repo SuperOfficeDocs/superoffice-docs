@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Watsica, Lueilwitz and Balistreri",
+  "UdListDefinitionName": "Gulgowski-Collins",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 333,
-  "Name": "Davis, Sanford and Thiel",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "UdListDefinitionId": 905,
-  "Rank": 753,
+  "Id": 465,
+  "Name": "Fritsch LLC",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 952,
+  "Rank": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 798
     }
   }
 }

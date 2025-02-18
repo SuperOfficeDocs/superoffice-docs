@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Weimann Group",
-  "Tooltip": "aut",
+  "Id": 474,
+  "Name": "Kunze Group",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 109,
+  "Rank": 468,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
+  "ListType": "saepe",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldType": "System.Int32",
+      "FieldLength": 179
     }
   },
   "_Links": {

@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 246
+  "ProjectId": 5
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 420,
-  "StartDate": "2013-08-15T12:01:28.1503067+02:00",
-  "EndDate": "2020-07-04T12:01:28.1503067+02:00",
+  "AppointmentId": 191,
+  "StartDate": "2008-09-11T14:32:03.4992229+02:00",
+  "EndDate": "2021-05-27T14:32:03.4992229+02:00",
   "Type": "BookingForChecklist",
-  "Task": "eaque",
-  "AssociateFullName": "Bridget Pfannerstill",
-  "ContactName": "Kunze Inc and Sons",
-  "Description": "Monitored disintermediate interface",
-  "PersonFullName": "Emmett Emard",
-  "PersonId": 819,
-  "ContactId": 27,
-  "ProjectId": 796,
-  "ProjectName": "Christiansen, Bergnaum and Bartoletti",
-  "IsPublished": true,
-  "AssociateId": 379,
-  "ColorIndex": 769,
-  "IsFree": true,
-  "HasAlarm": true,
+  "Task": "id",
+  "AssociateFullName": "Jordi Labadie PhD",
+  "ContactName": "Mosciski, Barton and Emard",
+  "Description": "Virtual executive forecast",
+  "PersonFullName": "Prof. Lavon Nelda Stark I",
+  "PersonId": 113,
+  "ContactId": 338,
+  "ProjectId": 686,
+  "ProjectName": "Tromp, King and Herman",
+  "IsPublished": false,
+  "AssociateId": 118,
+  "ColorIndex": 627,
+  "IsFree": false,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 128,
-  "PriorityName": "Graham Group",
+  "PriorityId": 124,
+  "PriorityName": "Leffler, Ryan and Johnston",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2001-03-22T12:01:28.1503067+01:00",
+  "ActiveDate": "2021-12-11T14:32:03.4992229+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2023-01-17T12:01:28.1503067+01:00",
-  "RecurringEndDate": "2020-12-07T12:01:28.1503067+01:00",
-  "MotherId": 938,
-  "AssignedBy": 34,
-  "AssignedByFullName": "Allie Hoeger",
+  "RecurringStartDate": "2020-06-30T14:32:03.4992229+02:00",
+  "RecurringEndDate": "2012-11-09T14:32:03.4992229+01:00",
+  "MotherId": 476,
+  "AssignedBy": 791,
+  "AssignedByFullName": "Geovanny Larson",
   "RejectReason": "",
-  "Location": "rerum",
-  "AlarmLeadTime": "qui",
-  "SaleId": 33,
-  "SaleName": "Borer Inc and Sons",
-  "AssociateName": "Larson LLC",
-  "CreatedDate": "2021-08-24T12:01:28.1503067+02:00",
-  "CreatedBy": "in",
-  "CreatedByFullName": "Ms. Dave Guadalupe Stoltenberg DVM",
-  "CreatedByAssociateId": 705,
+  "Location": "a",
+  "AlarmLeadTime": "dolores",
+  "SaleId": 262,
+  "SaleName": "Goldner-Zemlak",
+  "AssociateName": "Torp, Sipes and Wolf",
+  "CreatedDate": "2018-01-19T14:32:03.4992229+01:00",
+  "CreatedBy": "quia",
+  "CreatedByFullName": "Kaycee Hartmann",
+  "CreatedByAssociateId": 74,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 106,
-  "Title": "reprehenderit",
-  "Agenda": "quam",
-  "InternalNotes": "qui",
+  "PreferredTZLocation": 814,
+  "Title": "molestiae",
+  "Agenda": "sunt",
+  "InternalNotes": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 702
     }
   }
 }

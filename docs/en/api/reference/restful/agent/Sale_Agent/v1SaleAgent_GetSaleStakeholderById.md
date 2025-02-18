@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    114,
-    560
+    514,
+    455
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Labadie Inc and Sons",
-    "Comment": "a",
-    "StakeholderRoleId": 116,
-    "CountryId": 349,
-    "PersonId": 279,
-    "EmailDescription": "percival@rathschimmel.ca",
-    "EmailId": 43,
-    "EmailAddress": "peter.hilll@wolff.com",
-    "PhoneId": 197,
-    "ContactName": "Funk LLC",
-    "ContactId": 619,
-    "SaleId": 156,
-    "Mrmrs": "repellat",
-    "Firstname": "Arno",
-    "MiddleName": "Walsh, Tremblay and Runolfsdottir",
-    "Lastname": "Glover",
-    "SaleStakeholderId": 286,
-    "Rank": 507,
-    "Phone": "1-685-761-3508",
+    "StakeholderRoleName": "McCullough Group",
+    "Comment": "qui",
+    "StakeholderRoleId": 113,
+    "CountryId": 573,
+    "PersonId": 868,
+    "EmailDescription": "earnestine_leffler@satterfield.biz",
+    "EmailId": 288,
+    "EmailAddress": "ezekiel@kubkuhlman.uk",
+    "PhoneId": 460,
+    "ContactName": "Kertzmann LLC",
+    "ContactId": 416,
+    "SaleId": 203,
+    "Mrmrs": "voluptas",
+    "Firstname": "Reese",
+    "MiddleName": "Kuphal-Muller",
+    "Lastname": "Homenick",
+    "SaleStakeholderId": 287,
+    "Rank": 525,
+    "Phone": "463-992-4103",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 672
       }
     }
   }

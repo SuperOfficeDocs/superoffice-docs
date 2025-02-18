@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "earum",
-  "ProviderName": "Hagenes Group",
-  "StorageKey": "pariatur",
-  "Restrictions": "nisi",
-  "StaticColumns": "ut"
+  "StorageType": "impedit",
+  "ProviderName": "Wintheiser-Will",
+  "StorageKey": "harum",
+  "Restrictions": "soluta",
+  "StaticColumns": "sapiente"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lesch, Heidenreich and Dietrich",
-      "Operator": "corporis",
+      "Name": "Schimmel, Stokes and Tromp",
+      "Operator": "numquam",
       "Values": [
-        "placeat",
-        "eos"
+        "dolores",
+        "ullam"
       ],
       "DisplayValues": [
-        "officiis",
-        "quae"
+        "alias",
+        "totam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 431,
+      "InterParenthesis": 94,
       "InterOperator": "And",
-      "UniqueHash": 545
+      "UniqueHash": 757
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "West-Marvin",
-      "DisplayTooltip": "harum",
-      "DisplayType": "voluptas",
-      "CanOrderBy": false,
-      "Name": "Eichmann, Reichel and Padberg",
-      "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Prohaska-Friesen",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "odio",
-      "IconHint": "deserunt",
-      "HeadingIconHint": "voluptas"
+      "DisplayName": "Jaskolski Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "qui",
+      "CanOrderBy": true,
+      "Name": "Gutkowski Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptates",
+      "RestrictionListName": "Jacobi-Cummerata",
+      "IsVisible": false,
+      "ExtraInfo": "molestiae",
+      "Width": "voluptatem",
+      "IconHint": "autem",
+      "HeadingIconHint": "accusamus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stokes, Douglas and Kozey",
-      "PrimaryKey": 710,
+      "EntityName": "O'Kon, Treutel and Armstrong",
+      "PrimaryKey": 362,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "dolore",
-          "LinkHint": "ad"
+          "DisplayValue": "aut",
+          "TooltipHint": "sed",
+          "LinkHint": "corrupti"
         }
       },
-      "LinkHint": "eveniet",
-      "StyleHint": "fugiat",
+      "LinkHint": "possimus",
+      "StyleHint": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 1002
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wisozk-Eichmann",
-      "Description": "Pre-emptive optimal interface",
-      "Rank": 670,
+      "Name": "Gislason-Hermann",
+      "Description": "Adaptive multi-tasking challenge",
+      "Rank": 492,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisozk-Eichmann",
-      "Description": "Pre-emptive optimal interface",
-      "Rank": 670,
+      "Name": "Gislason-Hermann",
+      "Description": "Adaptive multi-tasking challenge",
+      "Rank": 492,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldType": "System.Int32",
+      "FieldLength": 32
     }
   }
 }

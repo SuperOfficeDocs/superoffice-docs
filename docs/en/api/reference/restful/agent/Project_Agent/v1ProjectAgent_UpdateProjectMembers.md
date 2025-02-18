@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 15,
+  "ProjectId": 368,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 754,
-      "ContactId": 687,
-      "ProjectId": 914,
-      "ContactName": "Hudson-Hahn",
+      "ProjectmemberId": 39,
+      "ContactId": 444,
+      "ProjectId": 137,
+      "ContactName": "Ratke Inc and Sons",
       "ContactDepartment": "",
-      "ProjectName": "Toy Group",
-      "EmailId": 698,
-      "EmailAddress": "emmie@herzogabbott.info",
-      "CountryId": 770,
-      "Firstname": "Petra",
-      "MiddleName": "Dietrich, Gislason and Dickens",
-      "Lastname": "Zboncak",
-      "PersonId": 285,
-      "Mrmrs": "laboriosam",
-      "ProjectMemberTypeName": "Nader, Koss and Schoen",
-      "Phone": "(580)088-1891",
-      "PhoneId": 368,
-      "ProjectMemberTypeId": 164,
-      "EmailAddressName": "aaron.hudson@langosh.name",
-      "Comment": "ullam",
-      "FullName": "Bernita Cremin"
+      "ProjectName": "Greenfelder-McClure",
+      "EmailId": 284,
+      "EmailAddress": "ayden@beier.ca",
+      "CountryId": 802,
+      "Firstname": "Fanny",
+      "MiddleName": "Feest-Jerde",
+      "Lastname": "Zieme",
+      "PersonId": 95,
+      "Mrmrs": "iusto",
+      "ProjectMemberTypeName": "Ullrich, McCullough and Volkman",
+      "Phone": "1-584-652-0884 x7871",
+      "PhoneId": 744,
+      "ProjectMemberTypeId": 650,
+      "EmailAddressName": "pierre.schumm@luettgen.uk",
+      "Comment": "accusantium",
+      "FullName": "Mckenzie Schoen"
     }
   ]
 }

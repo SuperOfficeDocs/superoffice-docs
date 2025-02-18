@@ -107,16 +107,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 162,
-  "Name": "Conn Group",
-  "Tooltip": "voluptate",
+  "RoleId": 143,
+  "Name": "Heller Group",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 827,
-  "Rank": 511,
-  "Created": "1999-10-12T12:01:33.0269443+02:00",
-  "UseCategories": 472,
+  "Deleted": 195,
+  "Rank": 487,
+  "Created": "2012-04-27T14:32:11.7241465+02:00",
+  "UseCategories": 915,
   "CreatedBy": null,
-  "Updated": "2015-10-15T12:01:33.0269443+02:00",
+  "Updated": "2007-07-19T14:32:11.7241465+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 914,
-  "Name": "Nienow, Sawayn and Hahn",
-  "Tooltip": "voluptas",
+  "RoleId": 489,
+  "Name": "Murray Inc and Sons",
+  "Tooltip": "dolorem",
   "RoleType": "Anonymous",
-  "Deleted": 556,
-  "Rank": 508,
-  "Created": "2004-12-03T12:01:33.0269443+01:00",
-  "UseCategories": 542,
+  "Deleted": 862,
+  "Rank": 499,
+  "Created": "1998-05-11T14:32:11.7241465+02:00",
+  "UseCategories": 538,
   "CreatedBy": null,
-  "Updated": "2021-07-11T12:01:33.0425704+02:00",
+  "Updated": "2018-11-05T14:32:11.7241465+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 401
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

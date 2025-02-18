@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Auer, Hills and Price",
-  "Tooltip": "facilis",
+  "Id": 319,
+  "Name": "Brekke Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 96,
+  "Rank": 225,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "Gleason-Huels",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 505,
-  "IsCustomList": true,
+  "Id": 207,
+  "Name": "McGlynn Inc and Sons",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 906,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "eveniet",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldLength": 833
     }
   }
 }

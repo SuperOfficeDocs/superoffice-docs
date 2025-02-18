@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 318,
-    "Name": "Gaylord-Kutch",
-    "Description": "Reduced composite protocol",
-    "DeltaJson": "quia",
+    "ConfigurableScreenDeltaId": 611,
+    "Name": "Moore-Ledner",
+    "Description": "Decentralized clear-thinking portal",
+    "DeltaJson": "est",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "consequatur",
-    "UpdatedDate": "2015-09-07T12:01:27.4471334+02:00",
-    "CreatedDate": "2000-11-17T12:01:27.4471334+01:00",
+    "RecipeId": "eligendi",
+    "UpdatedDate": "2010-02-24T14:32:02.2336819+01:00",
+    "CreatedDate": "2023-11-02T14:32:02.2336819+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      219,
-      707
+      107,
+      406
     ],
-    "AppliesToKey": "aut",
+    "AppliesToKey": "expedita",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 79
       }
     }
   }

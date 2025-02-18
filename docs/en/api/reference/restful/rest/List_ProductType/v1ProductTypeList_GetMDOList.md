@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=reiciendis
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=perferendis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Lubowitz LLC",
-    "ToolTip": "Voluptatem explicabo maiores esse ad eos.",
-    "Deleted": false,
-    "Rank": 702,
+    "Id": 536,
+    "Name": "Maggio, Rogahn and Ankunding",
+    "ToolTip": "Voluptatem nemo nesciunt est et.",
+    "Deleted": true,
+    "Rank": 150,
     "Type": "aspernatur",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Corkery Group",
-        "ToolTip": "Minima non quis dolorum ab ipsum.",
-        "Deleted": false,
-        "Rank": 260,
-        "Type": "iusto",
+        "Id": 868,
+        "Name": "Ratke Group",
+        "ToolTip": "Nisi ad voluptatibus voluptates necessitatibus.",
+        "Deleted": true,
+        "Rank": 845,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 498,
-        "ExtraInfo": "nulla",
-        "StyleHint": "eius",
-        "FullName": "Ms. Eino Curtis Daugherty",
+        "IconHint": "sit",
+        "ColorBlock": 29,
+        "ExtraInfo": "quo",
+        "StyleHint": "omnis",
+        "FullName": "Esperanza Immanuel Emard MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 530
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 990,
-    "ExtraInfo": "et",
-    "StyleHint": "tempore",
-    "FullName": "Elfrieda Collier",
+    "IconHint": "non",
+    "ColorBlock": 252,
+    "ExtraInfo": "alias",
+    "StyleHint": "earum",
+    "FullName": "Princess Hane",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 571
       }
     }
   }

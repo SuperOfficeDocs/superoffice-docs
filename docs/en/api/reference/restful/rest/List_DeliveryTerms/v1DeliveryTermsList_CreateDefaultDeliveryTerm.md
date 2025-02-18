@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Ondricka, Jones and Keeling",
-  "Tooltip": "aperiam",
+  "Id": 276,
+  "Name": "Schuster-O'Hara",
+  "Tooltip": "quo",
   "Deleted": true,
-  "UdListDefinitionId": 676,
-  "Rank": 817,
+  "UdListDefinitionId": 642,
+  "Rank": 642,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 73
     }
   }
 }

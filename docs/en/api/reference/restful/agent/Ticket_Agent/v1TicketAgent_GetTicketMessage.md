@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=576
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=342
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,47 +95,47 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 555,
-  "CreatedAt": "1997-10-15T12:01:28.5409587+02:00",
+  "TicketMessageId": 755,
+  "CreatedAt": "2022-12-01T14:32:04.2021813+01:00",
   "Slevel": "External",
   "Important": false,
-  "Author": "itaque",
-  "PersonId": 58,
-  "PersonFullName": "Yolanda Herman",
-  "ContactId": 292,
-  "ContactName": "Terry-Tillman",
+  "Author": "est",
+  "PersonId": 333,
+  "PersonFullName": "Leatha Ferry I",
+  "ContactId": 90,
+  "ContactName": "Schowalter Group",
   "ContactDepartment": "",
-  "NumAttachments": 654,
-  "EmailHeader": "lew@goldner.ca",
+  "NumAttachments": 300,
+  "EmailHeader": "franz_kassulke@kunde.com",
   "MessageHeaders": [
     {
-      "Id": 141,
-      "Name": "Jacobs, Bernhard and Lang",
-      "Value": "quibusdam",
+      "Id": 311,
+      "Name": "Reilly-Funk",
+      "Value": "quia",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 689
+          "FieldType": "System.Int32",
+          "FieldLength": 87
         }
       }
     }
   ],
-  "Language": "dolorum",
-  "Sentiment": 369,
-  "SentimentConfidence": 476,
-  "CreatedBy": 741,
-  "ChangedAt": "2017-09-02T12:01:28.5409587+02:00",
+  "Language": "porro",
+  "Sentiment": 170,
+  "SentimentConfidence": 932,
+  "CreatedBy": 89,
+  "ChangedAt": "2002-06-26T14:32:04.2021813+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

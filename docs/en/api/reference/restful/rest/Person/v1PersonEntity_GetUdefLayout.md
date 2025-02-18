@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 197,
-    "ColumnId": 552,
-    "FieldDefault": "saepe",
-    "FieldHeight": 480,
-    "FieldLabel": "at",
-    "FieldLeft": 200,
-    "FieldTop": 514,
+    "UDefFieldId": 364,
+    "ColumnId": 132,
+    "FieldDefault": "occaecati",
+    "FieldHeight": 418,
+    "FieldLabel": "earum",
+    "FieldLeft": 715,
+    "FieldTop": 201,
     "FieldType": "Checkbox",
-    "FieldWidth": 173,
-    "FormatMask": "ipsum",
+    "FieldWidth": 229,
+    "FormatMask": "sit",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 867,
-    "LabelLeft": 727,
-    "LabelTop": 691,
-    "LabelWidth": 701,
-    "LastVersionId": 473,
-    "ListTableId": 616,
+    "IsIndexed": true,
+    "LabelHeight": 23,
+    "LabelLeft": 374,
+    "LabelTop": 902,
+    "LabelWidth": 486,
+    "LastVersionId": 738,
+    "ListTableId": 572,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 772,
-    "ProgId": "tempora",
+    "Page1LineNo": 515,
+    "ProgId": "corporis",
     "IsReadOnly": false,
-    "ShortLabel": "harum",
-    "TabOrder": 726,
-    "TextLength": 761,
-    "Tooltip": "sunt",
-    "UdefIdentity": 772,
-    "UDListDefinitionId": 998,
+    "ShortLabel": "iure",
+    "TabOrder": 706,
+    "TextLength": 419,
+    "Tooltip": "similique",
+    "UdefIdentity": 585,
+    "UDListDefinitionId": 125,
     "Justification": "Center",
-    "Version": 421,
-    "TemplateVariableName": "Rice-Romaguera",
+    "Version": 42,
+    "TemplateVariableName": "Wilderman LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Feil-Runte",
+    "MdoListName": "Greenfelder-Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 673
+        "FieldLength": 500
       }
     }
   }

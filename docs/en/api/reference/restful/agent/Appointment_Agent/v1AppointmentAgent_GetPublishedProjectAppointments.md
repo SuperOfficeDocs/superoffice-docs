@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 438
+  "ProjectId": 286
 }
 ```
 
@@ -141,65 +141,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 189,
-    "StartDate": "2012-03-17T12:01:27.0252114+01:00",
-    "EndDate": "2013-08-08T12:01:27.0252114+02:00",
+    "AppointmentId": 233,
+    "StartDate": "1998-11-25T14:32:01.6398975+01:00",
+    "EndDate": "2010-12-15T14:32:01.6398975+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Neal Oberbrunner",
-    "ContactName": "Reichert, Mayert and Fahey",
-    "Description": "Future-proofed client-server conglomeration",
-    "PersonFullName": "Hugh Heller III",
-    "PersonId": 563,
-    "ContactId": 474,
-    "ProjectId": 23,
-    "ProjectName": "Kihn Group",
+    "Task": "impedit",
+    "AssociateFullName": "Abner Sauer",
+    "ContactName": "Bartell, Renner and Hansen",
+    "Description": "Persistent high-level emulation",
+    "PersonFullName": "Damaris Hansen",
+    "PersonId": 388,
+    "ContactId": 536,
+    "ProjectId": 87,
+    "ProjectName": "Schinner-Pollich",
     "IsPublished": false,
-    "AssociateId": 889,
-    "ColorIndex": 616,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "AssociateId": 303,
+    "ColorIndex": 754,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 46,
-    "PriorityName": "Hoppe-Grant",
+    "PriorityId": 653,
+    "PriorityName": "Treutel Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2006-12-31T12:01:27.0252114+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2013-01-28T14:32:01.6398975+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-12-30T12:01:27.0252114+01:00",
-    "RecurringEndDate": "2018-12-11T12:01:27.0252114+01:00",
-    "MotherId": 241,
-    "AssignedBy": 538,
-    "AssignedByFullName": "Jeff Audra Klocko PhD",
+    "RecurringStartDate": "2000-04-11T14:32:01.6398975+02:00",
+    "RecurringEndDate": "2004-07-02T14:32:01.6398975+02:00",
+    "MotherId": 601,
+    "AssignedBy": 103,
+    "AssignedByFullName": "Mr. Casey Eulah Wiza DVM",
     "RejectReason": "",
-    "Location": "alias",
-    "AlarmLeadTime": "cumque",
-    "SaleId": 367,
-    "SaleName": "Volkman, Becker and Kshlerin",
-    "AssociateName": "Bins, Bergstrom and Schulist",
-    "CreatedDate": "2010-12-26T12:01:27.0252114+01:00",
-    "CreatedBy": "temporibus",
-    "CreatedByFullName": "Cordelia Dare",
-    "CreatedByAssociateId": 877,
+    "Location": "est",
+    "AlarmLeadTime": "rem",
+    "SaleId": 921,
+    "SaleName": "Cassin LLC",
+    "AssociateName": "Schulist-Reichert",
+    "CreatedDate": "2006-06-23T14:32:01.6398975+02:00",
+    "CreatedBy": "ipsa",
+    "CreatedByFullName": "Joana Smith",
+    "CreatedByAssociateId": 316,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 255,
-    "Title": "facilis",
-    "Agenda": "illum",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 597,
+    "Title": "sequi",
+    "Agenda": "quo",
+    "InternalNotes": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 602
       }
     }
   }

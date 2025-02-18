@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Crist, Russel and Will",
-    "ToolTip": "Culpa aperiam consequatur.",
-    "Deleted": true,
-    "Rank": 237,
-    "Type": "aut",
+    "Id": 271,
+    "Name": "Crona LLC",
+    "ToolTip": "Natus quia sunt dolorem et est.",
+    "Deleted": false,
+    "Rank": 473,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Bartoletti Group",
-        "ToolTip": "Rerum et tempore nam sequi voluptatibus.",
-        "Deleted": true,
-        "Rank": 991,
-        "Type": "doloremque",
+        "Id": 935,
+        "Name": "Wunsch, Abshire and Morar",
+        "ToolTip": "Reprehenderit soluta et enim id dicta fugiat eos.",
+        "Deleted": false,
+        "Rank": 799,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 957,
-        "ExtraInfo": "et",
-        "StyleHint": "autem",
-        "FullName": "Ms. Sarah Jovany Heller",
+        "IconHint": "doloribus",
+        "ColorBlock": 38,
+        "ExtraInfo": "qui",
+        "StyleHint": "laboriosam",
+        "FullName": "Elvera Evangeline Roberts MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 227
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 1000,
-    "ExtraInfo": "magnam",
-    "StyleHint": "perferendis",
-    "FullName": "Kale Kilback",
+    "IconHint": "consequatur",
+    "ColorBlock": 641,
+    "ExtraInfo": "minima",
+    "StyleHint": "quia",
+    "FullName": "Kareem Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 2
       }
     }
   }

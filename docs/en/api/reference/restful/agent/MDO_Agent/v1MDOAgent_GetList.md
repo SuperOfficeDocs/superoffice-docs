@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corkery-Dooley",
+  "Name": "Schuster, Kerluke and Koss",
   "ForceFlatList": true,
-  "AdditionalInfo": "doloremque",
+  "AdditionalInfo": "animi",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Turcotte-Halvorson",
-    "ToolTip": "Aut enim modi ut quidem non.",
+    "Id": 396,
+    "Name": "Stanton, Pacocha and Nicolas",
+    "ToolTip": "Quis sint sit quis repellendus explicabo error.",
     "Deleted": true,
-    "Rank": 803,
-    "Type": "animi",
+    "Rank": 413,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Durgan-McClure",
-        "ToolTip": "Non labore ut velit eum.",
-        "Deleted": false,
-        "Rank": 547,
-        "Type": "recusandae",
+        "Id": 191,
+        "Name": "Kutch, Nitzsche and Tromp",
+        "ToolTip": "Dolorem perferendis eveniet.",
+        "Deleted": true,
+        "Rank": 527,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 332,
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Wyatt Jewess",
+        "IconHint": "eum",
+        "ColorBlock": 601,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "libero",
+        "FullName": "Ashlynn Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 514
+            "FieldType": "System.Int32",
+            "FieldLength": 510
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 58,
-    "ExtraInfo": "nobis",
-    "StyleHint": "dolor",
-    "FullName": "Fletcher Schmitt",
+    "IconHint": "et",
+    "ColorBlock": 351,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "animi",
+    "FullName": "Charlene Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 979
       }
     }
   }

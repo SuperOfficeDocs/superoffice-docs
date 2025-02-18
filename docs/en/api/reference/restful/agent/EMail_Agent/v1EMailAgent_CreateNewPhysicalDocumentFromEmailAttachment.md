@@ -114,9 +114,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 814,
-  "EmailItemId": 703,
-  "AttachmentId": "aspernatur"
+  "DocumentId": 166,
+  "EmailItemId": 406,
+  "AttachmentId": "eligendi"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 1001,
+  "DocumentId": 728,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "temporibus",
-  "Name": "Schoen, Bailey and Mann",
-  "OurRef": "tempore",
-  "YourRef": "hic",
-  "CreatedDate": "2023-12-28T12:01:27.7909064+01:00",
-  "UpdatedDate": "2017-07-05T12:01:27.7909064+02:00",
-  "Description": "Centralized object-oriented implementation",
+  "Attention": "natus",
+  "Header": "libero",
+  "Name": "Wilkinson-Heidenreich",
+  "OurRef": "veniam",
+  "YourRef": "eveniet",
+  "CreatedDate": "2015-10-28T14:32:02.827299+01:00",
+  "UpdatedDate": "2013-11-07T14:32:02.827299+01:00",
+  "Description": "Seamless needs-based interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-10-19T12:01:27.7909064+02:00",
-  "ExternalRef": "et",
+  "Date": "2023-12-23T14:32:02.827299+01:00",
+  "ExternalRef": "labore",
   "Completed": "Completed",
-  "ActiveLinks": 611,
+  "ActiveLinks": 398,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sporer-Bailey",
-      "Id": 605,
-      "Description": "Function-based systematic analyzer",
-      "ExtraInfo": "totam",
-      "LinkId": 112,
+      "EntityName": "Collier-Schimmel",
+      "Id": 549,
+      "Description": "Advanced actuating solution",
+      "ExtraInfo": "dolor",
+      "LinkId": 352,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 742,
-  "Snum": 334,
+  "SuggestedDocumentId": 478,
+  "Snum": 73,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Evie Maya Beer Sr."
+    "SuperOffice:1": "Mrs. Ottilie Schamberger",
+    "SuperOffice:2": "Theodore Sydnie Ondricka IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "at"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "est",
+    "CustomFields2": "laborum"
   },
-  "PublishEventDate": "2020-02-01T12:01:27.7909064+01:00",
-  "PublishTo": "1998-07-04T12:01:27.7909064+02:00",
-  "PublishFrom": "2020-03-02T12:01:27.7909064+01:00",
+  "PublishEventDate": "2015-10-13T14:32:02.827299+02:00",
+  "PublishTo": "2004-11-05T14:32:02.827299+01:00",
+  "PublishFrom": "2009-06-15T14:32:02.827299+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 138,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 576
         }
       }
     },
     {
-      "VisibleId": 138,
+      "VisibleId": 655,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 576
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 390
     }
   }
 }

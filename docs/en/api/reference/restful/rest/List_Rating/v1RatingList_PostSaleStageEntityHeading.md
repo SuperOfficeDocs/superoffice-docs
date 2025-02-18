@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 896,
-  "Name": "Hauck LLC",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "Rank": 445,
-  "UdListDefinitionId": 298
+  "HeadingId": 50,
+  "Name": "Rau-Spinka",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 599,
+  "UdListDefinitionId": 291
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 738,
-  "Name": "Walker, Stehr and Funk",
-  "Tooltip": "quis",
+  "HeadingId": 96,
+  "Name": "Jakubowski LLC",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 144,
-  "UdListDefinitionId": 358,
+  "Rank": 789,
+  "UdListDefinitionId": 326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 80
     }
   }
 }

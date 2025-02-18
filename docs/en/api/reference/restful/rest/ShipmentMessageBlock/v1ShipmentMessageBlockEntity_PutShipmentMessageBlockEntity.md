@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 794,
-  "AssociateId": 284,
-  "Block": "ea",
-  "Registered": "2020-01-16T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2013-07-25T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 45,
-  "UpdatedCount": 678
+  "ShipmentMessageBlockId": 963,
+  "AssociateId": 427,
+  "Block": "voluptatem",
+  "Registered": "2005-03-07T14:32:12.0678193+01:00",
+  "RegisteredAssociateId": 652,
+  "Updated": "2019-01-12T14:32:12.0678193+01:00",
+  "UpdatedAssociateId": 790,
+  "UpdatedCount": 538
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 760,
-  "AssociateId": 556,
-  "Block": "non",
-  "Registered": "1998-01-02T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 932,
-  "Updated": "2009-10-14T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 511,
-  "UpdatedCount": 874,
+  "ShipmentMessageBlockId": 205,
+  "AssociateId": 161,
+  "Block": "nobis",
+  "Registered": "2016-11-15T14:32:12.0678193+01:00",
+  "RegisteredAssociateId": 609,
+  "Updated": "2000-02-16T14:32:12.0678193+01:00",
+  "UpdatedAssociateId": 565,
+  "UpdatedCount": 943,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 883
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=quo
+GET /api/v1/List/ConsentPurpose/MDOItems?query=sit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Gaylord-Pacocha",
-    "ToolTip": "Aut similique neque officiis quia id provident.",
+    "Id": 293,
+    "Name": "Homenick LLC",
+    "ToolTip": "Est nisi officiis maiores.",
     "Deleted": false,
-    "Rank": 866,
-    "Type": "nihil",
+    "Rank": 563,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Wyman-Walker",
-        "ToolTip": "Mollitia soluta repellat et magnam pariatur perferendis repellat.",
+        "Id": 848,
+        "Name": "Maggio, Grimes and Mante",
+        "ToolTip": "Possimus culpa id.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "earum",
+        "Rank": 43,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 353,
-        "ExtraInfo": "inventore",
-        "StyleHint": "vel",
-        "FullName": "Ulices Hoeger",
+        "IconHint": "nisi",
+        "ColorBlock": 223,
+        "ExtraInfo": "expedita",
+        "StyleHint": "officiis",
+        "FullName": "Jairo Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 725
+            "FieldType": "System.Int32",
+            "FieldLength": 280
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 217,
-    "ExtraInfo": "eos",
-    "StyleHint": "nam",
-    "FullName": "Prof. Leo Jerome Predovic",
+    "IconHint": "numquam",
+    "ColorBlock": 122,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "quo",
+    "FullName": "Coty Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 346
       }
     }
   }

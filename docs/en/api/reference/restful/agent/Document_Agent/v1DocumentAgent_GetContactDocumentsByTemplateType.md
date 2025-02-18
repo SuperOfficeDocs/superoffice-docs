@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274,
-  "StartTime": "1998-05-02T12:01:27.5877684+02:00",
-  "EndTime": "1998-07-23T12:01:27.5877684+02:00",
-  "Count": 543,
-  "DocumentTemplateId": 948
+  "ContactId": 278,
+  "StartTime": "2006-08-28T14:32:02.6242172+02:00",
+  "EndTime": "2004-11-29T14:32:02.6242172+01:00",
+  "Count": 710,
+  "DocumentTemplateId": 595
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 453,
-    "Attention": "dicta",
-    "Header": "dicta",
-    "Name": "Murray Inc and Sons",
-    "OurRef": "et",
-    "YourRef": "dolores",
-    "Description": "Visionary system-worthy alliance",
-    "DocumentTemplate": "temporibus",
-    "IsPublished": true,
-    "PersonId": 679,
-    "PersonFullName": "Ms. Malcolm Boyle",
-    "AssociateFullName": "Flavio Veum I",
-    "ContactId": 330,
-    "ContactName": "Carter, Zemlak and Sauer",
-    "ProjectId": 169,
-    "ProjectName": "Schmidt, Macejkovic and Dare",
-    "AssociateId": 133,
-    "Snum": 444,
-    "SaleId": 394,
-    "SaleName": "Kovacek LLC",
+    "DocumentId": 188,
+    "Attention": "eos",
+    "Header": "est",
+    "Name": "White Group",
+    "OurRef": "quam",
+    "YourRef": "iste",
+    "Description": "Triple-buffered human-resource access",
+    "DocumentTemplate": "id",
+    "IsPublished": false,
+    "PersonId": 647,
+    "PersonFullName": "Dusty Feeney III",
+    "AssociateFullName": "Anahi Ferry",
+    "ContactId": 895,
+    "ContactName": "Ankunding, Jast and Blick",
+    "ProjectId": 894,
+    "ProjectName": "Cole Group",
+    "AssociateId": 27,
+    "Snum": 46,
+    "SaleId": 611,
+    "SaleName": "Blick Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 948
       }
     }
   }

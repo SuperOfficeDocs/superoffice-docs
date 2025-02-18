@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Hahn-Walker",
-  "Tooltip": "asperiores",
-  "Deleted": true,
-  "UdListDefinitionId": 152,
-  "Rank": 31,
+  "Id": 331,
+  "Name": "Wyman Inc and Sons",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "UdListDefinitionId": 703,
+  "Rank": 970,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

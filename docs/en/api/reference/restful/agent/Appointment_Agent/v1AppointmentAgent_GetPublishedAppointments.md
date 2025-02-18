@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    315,
-    805
+    142,
+    292
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 519,
-    "StartDate": "2014-06-24T12:01:27.0252114+02:00",
-    "EndDate": "2001-03-23T12:01:27.0252114+01:00",
+    "AppointmentId": 784,
+    "StartDate": "2006-03-03T14:32:01.6242454+01:00",
+    "EndDate": "2012-10-14T14:32:01.6242454+02:00",
     "Type": "BookingForChecklist",
-    "Task": "blanditiis",
-    "AssociateFullName": "Dr. Princess Wunsch",
-    "ContactName": "Nikolaus LLC",
-    "Description": "Re-engineered bi-directional adapter",
-    "PersonFullName": "Dayana Windler",
-    "PersonId": 142,
-    "ContactId": 599,
-    "ProjectId": 78,
-    "ProjectName": "Lockman, Kiehn and Rutherford",
-    "IsPublished": true,
-    "AssociateId": 88,
-    "ColorIndex": 850,
+    "Task": "ducimus",
+    "AssociateFullName": "Cristian Torphy",
+    "ContactName": "Luettgen Group",
+    "Description": "Polarised motivating conglomeration",
+    "PersonFullName": "Aditya Anderson",
+    "PersonId": 386,
+    "ContactId": 487,
+    "ProjectId": 592,
+    "ProjectName": "Von Group",
+    "IsPublished": false,
+    "AssociateId": 570,
+    "ColorIndex": 435,
     "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Dietrich Group",
+    "PriorityId": 315,
+    "PriorityName": "Heidenreich-Raynor",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2008-09-06T12:01:27.0252114+02:00",
+    "ActiveDate": "1999-08-20T14:32:01.6242454+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-05-17T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1998-03-12T12:01:27.0252114+01:00",
-    "MotherId": 485,
-    "AssignedBy": 487,
-    "AssignedByFullName": "Harley Julia Reynolds MD",
-    "RejectReason": "",
-    "Location": "maxime",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 98,
-    "SaleName": "Bergstrom LLC",
-    "AssociateName": "Bosco Group",
-    "CreatedDate": "2007-04-02T12:01:27.0252114+02:00",
-    "CreatedBy": "vitae",
-    "CreatedByFullName": "Heber Olson",
-    "CreatedByAssociateId": 747,
+    "RecurringStartDate": "2010-11-01T14:32:01.6242454+01:00",
+    "RecurringEndDate": "2015-02-01T14:32:01.6242454+01:00",
+    "MotherId": 905,
+    "AssignedBy": 174,
+    "AssignedByFullName": "Mireya Mosciski",
+    "RejectReason": "reintermediate 24/365 initiatives",
+    "Location": "enim",
+    "AlarmLeadTime": "impedit",
+    "SaleId": 484,
+    "SaleName": "Langosh Inc and Sons",
+    "AssociateName": "Mertz, Okuneva and Grimes",
+    "CreatedDate": "2001-05-26T14:32:01.6242454+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Hortense Satterfield",
+    "CreatedByAssociateId": 879,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 482,
-    "Title": "nihil",
-    "Agenda": "qui",
-    "InternalNotes": "nemo",
+    "PreferredTZLocation": 339,
+    "Title": "ut",
+    "Agenda": "sed",
+    "InternalNotes": "architecto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   }

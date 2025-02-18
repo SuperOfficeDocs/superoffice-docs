@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 745,
+  "ContactId": 926,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "O'Keefe, Fahey and Altenwerth",
-    "SaleDate": "2022-03-17T12:01:28.2596899+01:00",
-    "SaleId": 174,
-    "Probability": 739,
-    "Title": "exercitationem",
-    "Amount": 27485.18,
-    "Currency": "est",
-    "ProjectName": "Rau Group",
-    "AssociateFullName": "Ms. Eulalia Jakubowski DVM",
-    "Description": "Distributed responsive strategy",
+    "ContactName": "Hoppe-Mosciski",
+    "SaleDate": "2016-12-30T14:32:03.7179186+01:00",
+    "SaleId": 649,
+    "Probability": 25,
+    "Title": "eveniet",
+    "Amount": 26955.534,
+    "Currency": "enim",
+    "ProjectName": "Heaney-Mills",
+    "AssociateFullName": "Mona Schuppe",
+    "Description": "Exclusive holistic projection",
     "Status": "Lost",
-    "WeightedAmount": 26140.694,
-    "ProjectId": 153,
-    "EarningPercent": 12144.25,
-    "Earning": 12639.422,
-    "ContactId": 228,
-    "AssociateId": 861,
-    "PersonId": 247,
-    "SaleTypeId": 516,
-    "SaleTypeName": "Koepp, Becker and Wolf",
-    "PersonFullName": "Vada Wunsch",
+    "WeightedAmount": 7079.706,
+    "ProjectId": 994,
+    "EarningPercent": 23329.496,
+    "Earning": 24940.372,
+    "ContactId": 675,
+    "AssociateId": 60,
+    "PersonId": 985,
+    "SaleTypeId": 514,
+    "SaleTypeName": "Erdman-Schamberger",
+    "PersonFullName": "Ona Derek Hegmann PhD",
     "Completed": "Completed",
-    "ActiveErpLinks": 748,
-    "NextDueDate": "1998-06-08T12:01:28.2596899+02:00",
-    "Number": "1641460",
+    "ActiveErpLinks": 612,
+    "NextDueDate": "2000-08-22T14:32:03.7179186+02:00",
+    "Number": "1715170",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldLength": 25
       }
     }
   }

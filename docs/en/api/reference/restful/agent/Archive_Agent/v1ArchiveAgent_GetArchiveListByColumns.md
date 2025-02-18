@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ryan-Marvin",
+  "ProviderName": "Kunze, Altenwerth and Armstrong",
   "Columns": [
-    "quibusdam",
-    "sint"
+    "ullam",
+    "in"
   ],
   "SortOrder": [
     {
-      "Name": "Homenick-Weissnat",
+      "Name": "Will, Schmitt and Dare",
       "Direction": "ASC"
     },
     {
-      "Name": "Homenick-Weissnat",
+      "Name": "Will, Schmitt and Dare",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Crooks LLC",
-      "Operator": "perspiciatis",
+      "Name": "Lubowitz-Roberts",
+      "Operator": "odit",
       "Values": [
-        "fuga",
-        "praesentium"
+        "eveniet",
+        "aut"
       ],
       "DisplayValues": [
-        "soluta",
-        "quis"
+        "ad",
+        "qui"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 810,
+      "InterParenthesis": 96,
       "InterOperator": "And",
-      "UniqueHash": 945
+      "UniqueHash": 679
     }
   ],
   "Entities": [
-    "dolore",
-    "hic"
+    "asperiores",
+    "voluptatem"
   ],
-  "Page": 786,
-  "PageSize": 352
+  "Page": 478,
+  "PageSize": 306
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Torphy, DuBuque and Kuvalis",
-    "PrimaryKey": 421,
+    "EntityName": "Kunde LLC",
+    "PrimaryKey": 447,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "facere",
-        "TooltipHint": "esse",
-        "LinkHint": "itaque"
+        "DisplayValue": "a",
+        "TooltipHint": "fugiat",
+        "LinkHint": "qui"
       }
     },
-    "LinkHint": "earum",
-    "StyleHint": "non",
+    "LinkHint": "reprehenderit",
+    "StyleHint": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 905
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

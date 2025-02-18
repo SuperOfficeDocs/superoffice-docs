@@ -27,7 +27,7 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=fugit
+GET /api/v1/List/ProjectType/MDOItems?query=quos
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Grimes, Terry and Cole",
-    "ToolTip": "Voluptatum laborum omnis sint dolorem.",
-    "Deleted": true,
-    "Rank": 31,
-    "Type": "et",
+    "Id": 957,
+    "Name": "Moen, Hermiston and Dickinson",
+    "ToolTip": "Tenetur voluptate porro est rerum.",
+    "Deleted": false,
+    "Rank": 914,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Beier, Walsh and Fadel",
-        "ToolTip": "Reprehenderit non voluptatem sequi nulla omnis.",
+        "Id": 497,
+        "Name": "Krajcik-Legros",
+        "ToolTip": "Qui debitis debitis ipsum.",
         "Deleted": false,
-        "Rank": 405,
-        "Type": "et",
+        "Rank": 920,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "beatae",
-        "ColorBlock": 470,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "dolore",
-        "FullName": "Ryan Koch",
+        "IconHint": "molestias",
+        "ColorBlock": 46,
+        "ExtraInfo": "et",
+        "StyleHint": "consequatur",
+        "FullName": "Hortense Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 187
+            "FieldLength": 98
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 420,
-    "ExtraInfo": "provident",
-    "StyleHint": "dolor",
-    "FullName": "Ms. Letha D'Amore",
+    "IconHint": "commodi",
+    "ColorBlock": 138,
+    "ExtraInfo": "totam",
+    "StyleHint": "rerum",
+    "FullName": "Prof. Elizabeth Isaiah Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 145
       }
     }
   }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Johnston, Von and Sanford",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "UdListDefinitionId": 144,
-  "Rank": 43,
+  "Id": 74,
+  "Name": "Metz LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 829,
+  "Rank": 416,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Cummings-D'Amore",
-  "Comment": "eos",
-  "StakeholderRoleId": 134,
-  "CountryId": 180,
-  "PersonId": 942,
-  "EmailDescription": "haskell_murphy@beer.com",
-  "EmailId": 842,
-  "EmailAddress": "emerson.bartoletti@ondricka.com",
-  "PhoneId": 138,
-  "ContactName": "McLaughlin, Gottlieb and Lang",
-  "ContactId": 96,
-  "SaleId": 193,
-  "Mrmrs": "repellendus",
-  "Firstname": "Mara",
-  "MiddleName": "Runolfsson-McCullough",
-  "Lastname": "Pfeffer",
-  "SaleStakeholderId": 34,
-  "Rank": 913,
-  "Phone": "1-957-830-0838"
+  "StakeholderRoleName": "Gleason-Kub",
+  "Comment": "non",
+  "StakeholderRoleId": 95,
+  "CountryId": 913,
+  "PersonId": 430,
+  "EmailDescription": "jensen@schneider.co.uk",
+  "EmailId": 743,
+  "EmailAddress": "orlo@schuppe.ca",
+  "PhoneId": 890,
+  "ContactName": "Wuckert, Goodwin and Hettinger",
+  "ContactId": 231,
+  "SaleId": 786,
+  "Mrmrs": "voluptas",
+  "Firstname": "Susan",
+  "MiddleName": "Christiansen Inc and Sons",
+  "Lastname": "Waters",
+  "SaleStakeholderId": 9,
+  "Rank": 245,
+  "Phone": "356-743-0417 x12686"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jakubowski-Heaney",
-  "Comment": "quis",
-  "StakeholderRoleId": 157,
-  "CountryId": 727,
-  "PersonId": 931,
-  "EmailDescription": "frankie@ryan.info",
-  "EmailId": 576,
-  "EmailAddress": "kristin@maggio.ca",
-  "PhoneId": 79,
-  "ContactName": "Kunze-Pouros",
-  "ContactId": 644,
-  "SaleId": 57,
-  "Mrmrs": "atque",
-  "Firstname": "Antonette",
-  "MiddleName": "Harber-Yost",
-  "Lastname": "Ondricka",
-  "SaleStakeholderId": 158,
-  "Rank": 264,
-  "Phone": "254-729-2126 x017",
+  "StakeholderRoleName": "Harvey Inc and Sons",
+  "Comment": "dolorem",
+  "StakeholderRoleId": 14,
+  "CountryId": 383,
+  "PersonId": 210,
+  "EmailDescription": "maxie@rueckercrooks.com",
+  "EmailId": 357,
+  "EmailAddress": "nikita@crooks.uk",
+  "PhoneId": 876,
+  "ContactName": "Kreiger-Breitenberg",
+  "ContactId": 607,
+  "SaleId": 633,
+  "Mrmrs": "dolores",
+  "Firstname": "Robin",
+  "MiddleName": "Rodriguez Inc and Sons",
+  "Lastname": "Hilpert",
+  "SaleStakeholderId": 178,
+  "Rank": 75,
+  "Phone": "(704)390-1785",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 661
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

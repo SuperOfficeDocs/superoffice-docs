@@ -25,7 +25,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Oberbrunner-Mueller",
-    "Tooltip": "repellat",
-    "Deleted": true,
-    "UdListDefinitionId": 170,
-    "Rank": 589,
+    "Id": 132,
+    "Name": "Fritsch-Kovacek",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 483,
+    "Rank": 367,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 479
       }
     }
   }

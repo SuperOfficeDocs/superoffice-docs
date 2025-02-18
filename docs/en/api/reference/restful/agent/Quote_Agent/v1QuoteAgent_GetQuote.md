@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 588
+  "QuoteId": 580
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 773,
-  "SaleId": 725,
-  "QuoteConnectionId": 494,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "blanditiis",
-  "ActiveQuoteVersionId": 176,
-  "AcceptedQuoteAlternativeId": 102,
-  "UseValuesFromQuote": 185,
-  "DocumentId": 435,
-  "PoNumber": "844421",
-  "OrderComment": "expedita",
-  "PreferredEmailCulture": "houston@walker.uk",
+  "QuoteId": 445,
+  "SaleId": 519,
+  "QuoteConnectionId": 291,
+  "ERPQuoteKey": "quod",
+  "ERPOrderKey": "tempora",
+  "ActiveQuoteVersionId": 719,
+  "AcceptedQuoteAlternativeId": 324,
+  "UseValuesFromQuote": 521,
+  "DocumentId": 980,
+  "PoNumber": "1164370",
+  "OrderComment": "doloribus",
+  "PreferredEmailCulture": "brittany_boyer@hartmann.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 630
     }
   }
 }

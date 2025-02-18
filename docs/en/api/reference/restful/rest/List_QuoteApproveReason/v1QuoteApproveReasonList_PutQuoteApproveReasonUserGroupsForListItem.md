@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Kessler Group",
-    "ToolTip": "Eveniet repudiandae voluptate repellendus omnis a qui fugiat.",
+    "Id": 106,
+    "Name": "Kunde Inc and Sons",
+    "ToolTip": "Ipsam libero ab tempora.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "nobis",
-    "ColorBlock": 667,
-    "IconHint": "consequuntur",
+    "Rank": 910,
+    "Type": "aut",
+    "ColorBlock": 41,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2003-08-27T12:01:33.6051097+02:00",
+    "LastChanged": "2009-11-03T14:32:12.8178844+01:00",
     "ChildItems": [
       {
-        "Id": 706,
-        "Name": "O'Connell-Terry",
-        "ToolTip": "Placeat in molestias harum.",
+        "Id": 280,
+        "Name": "Renner, Lakin and Steuber",
+        "ToolTip": "Similique mollitia accusantium quia ut.",
         "Deleted": false,
-        "Rank": 942,
-        "Type": "nihil",
-        "ColorBlock": 221,
-        "IconHint": "voluptas",
+        "Rank": 74,
+        "Type": "occaecati",
+        "ColorBlock": 287,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2010-08-08T12:01:33.6051097+02:00",
+        "LastChanged": "2013-03-10T14:32:12.8178844+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
+        "ExtraInfo": "odit",
         "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Dr. Linnea O'Conner DVM"
+        "FullName": "Eloisa Gusikowski"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "similique",
-    "Hidden": true,
-    "FullName": "Alyson Ryley Hand III"
+    "ExtraInfo": "animi",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Marilie Nienow"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "McGlynn Group",
-    "ToolTip": "In voluptatem deserunt voluptas similique vel.",
+    "Id": 618,
+    "Name": "Eichmann Group",
+    "ToolTip": "Occaecati unde illum et tempora quia accusantium ipsam.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "eos",
-    "ColorBlock": 164,
-    "IconHint": "architecto",
+    "Rank": 714,
+    "Type": "qui",
+    "ColorBlock": 324,
+    "IconHint": "soluta",
     "Selected": false,
-    "LastChanged": "2021-03-14T12:01:33.6051097+01:00",
+    "LastChanged": "2010-01-19T14:32:12.8178844+01:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "O'Reilly, McClure and Murazik",
-        "ToolTip": "Iure non at hic.",
+        "Id": 13,
+        "Name": "Kuphal, Lakin and Leffler",
+        "ToolTip": "Autem nemo aut beatae possimus sed.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "repudiandae",
-        "ColorBlock": 719,
-        "IconHint": "non",
+        "Rank": 487,
+        "Type": "ad",
+        "ColorBlock": 632,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2016-04-22T12:01:33.6051097+02:00",
+        "LastChanged": "2002-03-04T14:32:12.8178844+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Frederick Heller",
+        "ExtraInfo": "eos",
+        "StyleHint": "veritatis",
+        "Hidden": true,
+        "FullName": "Annie Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 527
+            "FieldLength": 872
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
+    "ExtraInfo": "id",
+    "StyleHint": "delectus",
     "Hidden": false,
-    "FullName": "Amelia Bosco IV",
+    "FullName": "Kamryn Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 873
       }
     }
   }

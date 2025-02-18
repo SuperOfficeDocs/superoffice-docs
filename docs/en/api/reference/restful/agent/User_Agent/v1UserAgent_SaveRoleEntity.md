@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 291,
-  "Name": "Becker-Quigley",
-  "Tooltip": "aut",
+  "RoleId": 8,
+  "Name": "Hudson LLC",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 9,
-  "Rank": 435,
-  "Created": "2003-07-23T12:01:28.5722109+02:00",
-  "UseCategories": 948,
+  "Deleted": 922,
+  "Rank": 190,
+  "Created": "2002-03-31T14:32:04.2646686+02:00",
+  "UseCategories": 883,
   "CreatedBy": null,
-  "Updated": "2021-11-09T12:01:28.5878372+01:00",
+  "Updated": "1999-01-17T14:32:04.2646686+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 372,
-  "Name": "Lehner-Marks",
-  "Tooltip": "aut",
+  "RoleId": 748,
+  "Name": "Lockman-Kuhlman",
+  "Tooltip": "dolores",
   "RoleType": "Anonymous",
-  "Deleted": 643,
-  "Rank": 178,
-  "Created": "1999-02-03T12:01:28.5878372+01:00",
-  "UseCategories": 546,
+  "Deleted": 227,
+  "Rank": 36,
+  "Created": "2022-06-17T14:32:04.2646686+02:00",
+  "UseCategories": 474,
   "CreatedBy": null,
-  "Updated": "2015-10-18T12:01:28.5878372+02:00",
+  "Updated": "2011-03-23T14:32:04.2646686+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 86
     }
   }
 }

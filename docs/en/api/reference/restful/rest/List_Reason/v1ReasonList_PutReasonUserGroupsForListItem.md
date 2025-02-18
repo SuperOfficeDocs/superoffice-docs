@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Raynor, Nienow and Herman",
-    "ToolTip": "Consequuntur minus quo culpa aut.",
+    "Id": 249,
+    "Name": "Klein LLC",
+    "ToolTip": "Perspiciatis voluptatum quia qui consequuntur quia quam.",
     "Deleted": false,
-    "Rank": 365,
-    "Type": "aspernatur",
-    "ColorBlock": 476,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2006-11-17T12:01:33.6363617+01:00",
+    "Rank": 595,
+    "Type": "consequatur",
+    "ColorBlock": 527,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2020-08-13T14:32:12.8647515+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Cormier Inc and Sons",
-        "ToolTip": "Similique ea nam autem ut quis odit.",
-        "Deleted": false,
-        "Rank": 477,
-        "Type": "et",
-        "ColorBlock": 366,
-        "IconHint": "sed",
+        "Id": 356,
+        "Name": "Kreiger Inc and Sons",
+        "ToolTip": "Non sequi.",
+        "Deleted": true,
+        "Rank": 928,
+        "Type": "doloremque",
+        "ColorBlock": 487,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2014-05-27T12:01:33.6363617+02:00",
+        "LastChanged": "2018-11-07T14:32:12.8647515+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Ms. Elmo Davis"
+        "ExtraInfo": "aut",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Mertie Kreiger"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Sage Batz"
+    "ExtraInfo": "est",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Princess Catalina Raynor I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Hane, Hegmann and Ryan",
-    "ToolTip": "Illo dolores modi adipisci sed laborum adipisci.",
-    "Deleted": false,
-    "Rank": 409,
-    "Type": "hic",
-    "ColorBlock": 98,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2000-01-09T12:01:33.6363617+01:00",
+    "Id": 195,
+    "Name": "Dooley, Nolan and Jewess",
+    "ToolTip": "Reprehenderit voluptatum ut quis et iure nesciunt voluptas.",
+    "Deleted": true,
+    "Rank": 680,
+    "Type": "facilis",
+    "ColorBlock": 76,
+    "IconHint": "corrupti",
+    "Selected": true,
+    "LastChanged": "2002-07-23T14:32:12.8647515+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "O'Reilly LLC",
-        "ToolTip": "Modi saepe aut quidem.",
+        "Id": 362,
+        "Name": "Weber, Bergstrom and Orn",
+        "ToolTip": "Voluptates velit vero enim.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "eum",
-        "ColorBlock": 671,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2019-03-01T12:01:33.6363617+01:00",
+        "Rank": 319,
+        "Type": "omnis",
+        "ColorBlock": 384,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2024-05-24T14:32:12.8647515+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Favian Ebert",
+        "ExtraInfo": "non",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Alexane Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldLength": 325
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Mr. Louie Rollin Abshire",
+    "ExtraInfo": "placeat",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Monique Keebler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

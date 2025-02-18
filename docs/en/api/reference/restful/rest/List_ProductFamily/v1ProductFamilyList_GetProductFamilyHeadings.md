@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Watsica, Blick and Satterfield",
-    "Tooltip": "doloribus",
+    "HeadingId": 726,
+    "Name": "Denesik, Murazik and Gutmann",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 312,
-    "UdListDefinitionId": 907,
+    "Rank": 394,
+    "UdListDefinitionId": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldLength": 131
       }
     }
   }

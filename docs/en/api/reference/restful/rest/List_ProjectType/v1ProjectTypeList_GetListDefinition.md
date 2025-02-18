@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Pacocha-Ankunding",
-  "Tooltip": "soluta",
+  "Id": 81,
+  "Name": "Macejkovic LLC",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 327,
+  "Rank": 452,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "cum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldType": "System.Int32",
+      "FieldLength": 691
     }
   },
   "_Links": {

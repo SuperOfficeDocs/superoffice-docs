@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kutch, Wilderman and Hayes"
+  "TaskName": "Treutel Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Donnelly-Cormier",
-    "AssociateId": 135,
-    "DetailsTable": 67,
-    "DetailsRecord": 569,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 113,
+    "Name": "Jast-Emard",
+    "AssociateId": 138,
+    "DetailsTable": 87,
+    "DetailsRecord": 144,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "repudiandae",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "dolor",
+      "ParameterObject2": "velit"
     },
-    "LastStarted": "2013-01-24T12:01:27.3533761+01:00",
-    "Created": "2006-11-13T12:01:27.3533761+01:00",
-    "StartCount": 264,
-    "DatabaseSerialNumber": "1091028",
-    "Context": "aut",
-    "Result": "soluta",
+    "LastStarted": "2001-09-08T14:32:02.0618444+02:00",
+    "Created": "2000-12-04T14:32:02.0618444+01:00",
+    "StartCount": 87,
+    "DatabaseSerialNumber": "326168",
+    "Context": "eum",
+    "Result": "aut",
     "State": "All",
-    "Description": "Reduced homogeneous moderator",
-    "Response": "magnam",
-    "Request": "adipisci",
-    "ProgressDescription": "Polarised client-driven contingency",
-    "ProgressPercent": 160,
-    "FileName": "Quitzon Inc and Sons",
+    "Description": "Adaptive logistical encryption",
+    "Response": "blanditiis",
+    "Request": "recusandae",
+    "ProgressDescription": "Multi-tiered logistical moratorium",
+    "ProgressPercent": 432,
+    "FileName": "Haley Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 956
       }
     }
   }

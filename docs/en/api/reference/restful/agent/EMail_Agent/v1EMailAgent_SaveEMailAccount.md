@@ -91,18 +91,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 818,
-  "EMailAddress": "beatae",
-  "AssociateId": 195,
+  "EMailAccountId": 141,
+  "EMailAddress": "fugiat",
+  "AssociateId": 714,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 379,
-  "ErrorCount": 390,
+  "AccountStatus": 1000,
+  "ErrorCount": 602,
   "ErrorReason": "",
-  "InboxFolder": "sed",
-  "SentFolder": "voluptatem",
-  "SimpleMode": 188,
-  "LastFetch": "2002-05-10T12:01:27.8065326+02:00"
+  "InboxFolder": "rerum",
+  "SentFolder": "et",
+  "SimpleMode": 176,
+  "LastFetch": "2009-01-12T14:32:02.8741609+01:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 963,
-  "EMailAddress": "ullam",
-  "AssociateId": 308,
+  "EMailAccountId": 905,
+  "EMailAddress": "in",
+  "AssociateId": 339,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 375,
-  "ErrorCount": 905,
+  "AccountStatus": 68,
+  "ErrorCount": 671,
   "ErrorReason": "",
-  "InboxFolder": "non",
-  "SentFolder": "ut",
-  "SimpleMode": 584,
-  "LastFetch": "2000-03-19T12:01:27.8065326+01:00",
+  "InboxFolder": "veritatis",
+  "SentFolder": "necessitatibus",
+  "SimpleMode": 61,
+  "LastFetch": "2006-04-24T14:32:02.8741609+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

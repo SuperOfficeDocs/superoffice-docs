@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 260,
-  "ColumnId": 97,
-  "FieldDefault": "quo",
-  "FieldHeight": 287,
-  "FieldLabel": "sequi",
-  "FieldLeft": 276,
-  "FieldTop": 680,
+  "UDefFieldId": 748,
+  "ColumnId": 453,
+  "FieldDefault": "aut",
+  "FieldHeight": 279,
+  "FieldLabel": "qui",
+  "FieldLeft": 199,
+  "FieldTop": 113,
   "FieldType": "Checkbox",
-  "FieldWidth": 522,
-  "FormatMask": "aut",
+  "FieldWidth": 73,
+  "FormatMask": "totam",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 746,
-  "LabelLeft": 227,
-  "LabelTop": 66,
-  "LabelWidth": 553,
-  "LastVersionId": 532,
-  "ListTableId": 566,
+  "LabelHeight": 890,
+  "LabelLeft": 460,
+  "LabelTop": 156,
+  "LabelWidth": 734,
+  "LastVersionId": 795,
+  "ListTableId": 299,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 7,
-  "ProgId": "temporibus",
+  "Page1LineNo": 657,
+  "ProgId": "voluptatem",
   "IsReadOnly": true,
-  "ShortLabel": "molestiae",
-  "TabOrder": 755,
-  "TextLength": 856,
-  "Tooltip": "sit",
-  "UdefIdentity": 249,
-  "UDListDefinitionId": 341,
+  "ShortLabel": "alias",
+  "TabOrder": 564,
+  "TextLength": 352,
+  "Tooltip": "accusamus",
+  "UdefIdentity": 43,
+  "UDListDefinitionId": 869,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Ratke, Mueller and Blick",
+  "Version": 430,
+  "TemplateVariableName": "O'Connell LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Hudson Group",
+  "MdoListName": "Hagenes-Brown",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 477
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Quote/ValidateQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 638,
+  "QuoteVersionId": 899,
   "Action": "Approve"
 }
 ```
@@ -101,15 +101,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "voluptatem",
-  "TechExplanation": "dicta",
-  "ErrorCode": "alias",
+  "UserExplanation": "autem",
+  "TechExplanation": "consequatur",
+  "ErrorCode": "error",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -117,12 +117,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 40
         }
       }
     },
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldLength": 40
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 926
+      "FieldLength": 386
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "Name": "Witting, Ferry and Ondricka",
-  "Tooltip": "est",
+  "Id": 252,
+  "Name": "Mann, Hauck and Kuvalis",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "Rank": 270,
-  "IsCustomList": true,
+  "Rank": 300,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   },
   "_Links": {

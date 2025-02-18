@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 758,
-  "UniqueId": "id",
-  "Name": "Pfeffer, Dibbert and D'Amore",
-  "Description": "Advanced eco-centric function",
-  "AssociateId": 841,
-  "Columns": 599,
+  "DashboardId": 237,
+  "UniqueId": "qui",
+  "Name": "Bednar, McClure and Langworth",
+  "Description": "Customizable bandwidth-monitored policy",
+  "AssociateId": 723,
+  "Columns": 438,
   "Theme": null,
-  "VisibleForAll": 366,
+  "VisibleForAll": 78,
   "VisibleForAssociates": [
-    438,
-    129
+    995,
+    506
   ],
   "VisibleForGroups": [
-    888,
-    957
+    829,
+    784
   ],
-  "PinForAll": 139,
+  "PinForAll": 620,
   "PinForAssociates": [
-    822,
-    740
+    69,
+    375
   ],
   "PinForGroups": [
-    404,
-    977
+    48,
+    121
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldLength": 999
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

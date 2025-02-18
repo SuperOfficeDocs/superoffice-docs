@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "harum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "harum",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nikolaus-Hessel",
-  "Comment": "nihil",
-  "StakeholderRoleId": 971,
-  "CountryId": 188,
-  "PersonId": 839,
-  "EmailDescription": "francisca.lockman@zulaufcorwin.us",
-  "EmailId": 494,
-  "EmailAddress": "laurel.bailey@koch.co.uk",
-  "PhoneId": 840,
-  "ContactName": "Green-Hackett",
-  "ContactId": 347,
-  "SaleId": 482,
-  "Mrmrs": "cum",
-  "Firstname": "Clara",
-  "MiddleName": "Grady-Hessel",
-  "Lastname": "Dicki",
-  "SaleStakeholderId": 268,
-  "Rank": 561,
-  "Phone": "551.075.9355",
+  "StakeholderRoleName": "Davis LLC",
+  "Comment": "culpa",
+  "StakeholderRoleId": 530,
+  "CountryId": 392,
+  "PersonId": 836,
+  "EmailDescription": "florence.jacobi@beier.name",
+  "EmailId": 651,
+  "EmailAddress": "lennie@gaylordquigley.biz",
+  "PhoneId": 696,
+  "ContactName": "Greenfelder, Macejkovic and Gleichner",
+  "ContactId": 809,
+  "SaleId": 980,
+  "Mrmrs": "dolores",
+  "Firstname": "Trent",
+  "MiddleName": "Windler-Conroy",
+  "Lastname": "Reichel",
+  "SaleStakeholderId": 578,
+  "Rank": 926,
+  "Phone": "259-264-1299 x73218",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldLength": 990
     }
   },
   "_Links": {

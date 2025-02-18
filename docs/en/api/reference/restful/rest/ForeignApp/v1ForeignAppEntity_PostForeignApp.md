@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 955,
-  "Name": "Nolan-Hand",
-  "CreatedDate": "2008-03-24T12:01:32.9019357+01:00",
-  "UpdatedDate": "2008-04-10T12:01:32.9019357+02:00",
+  "ForeignAppId": 325,
+  "Name": "Kutch Inc and Sons",
+  "CreatedDate": "2017-05-14T14:32:11.5054468+02:00",
+  "UpdatedDate": "2005-08-02T14:32:11.5054468+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 119,
-      "Name": "Kertzmann, Rau and Jacobs",
-      "CreatedDate": "2000-04-08T12:01:32.9019357+02:00",
-      "UpdatedDate": "2000-09-20T12:01:32.9019357+02:00",
-      "AssociateFullName": "Dortha Jasen Shanahan Sr.",
-      "CreatedBy": "debitis",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "reprehenderit",
-      "ForeignAppId": 547,
+      "ForeignDeviceId": 1001,
+      "Name": "Jewess, Koss and Murazik",
+      "CreatedDate": "2000-07-08T14:32:11.5054468+02:00",
+      "UpdatedDate": "2019-03-22T14:32:11.5054468+01:00",
+      "AssociateFullName": "Kylee Ray Crist PhD",
+      "CreatedBy": "laudantium",
+      "UpdatedBy": "corporis",
+      "DeviceIdentifier": "sint",
+      "ForeignAppId": 185,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldLength": 509
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 649
     }
   }
 }

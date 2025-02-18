@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 474,
-  "Name": "Bartell, Torp and Wisozk",
-  "Tooltip": "non",
-  "Rank": 668,
-  "Key": "quo",
-  "MailTemplateId": 599,
+  "ConsentSourceId": 690,
+  "Name": "Brown-Reilly",
+  "Tooltip": "blanditiis",
+  "Rank": 947,
+  "Key": "similique",
+  "MailTemplateId": 465,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 462,
-  "Name": "Considine Group",
-  "Tooltip": "consequatur",
-  "Rank": 237,
-  "Key": "molestiae",
-  "MailTemplateId": 304,
+  "ConsentSourceId": 295,
+  "Name": "Huel Group",
+  "Tooltip": "rerum",
+  "Rank": 911,
+  "Key": "qui",
+  "MailTemplateId": 93,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenfelder-Stamm",
-  "Context": "dolores"
+  "TableName": "Hudson LLC",
+  "Context": "quidem"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "rerum",
-    "ValueType": "aut",
-    "Mandatory": true,
-    "EncodedDisplayName": "Senger Inc and Sons",
-    "EncodedDisplayDescription": "Future-proofed mission-critical internet solution",
-    "IconHint": "quia",
+    "Key": "pariatur",
+    "ValueType": "veritatis",
+    "Mandatory": false,
+    "EncodedDisplayName": "Predovic, Oberbrunner and Hegmann",
+    "EncodedDisplayDescription": "Reduced multi-state initiative",
+    "IconHint": "nulla",
     "ControlInfos": [
       {
-        "Type": "nemo",
-        "Label": "ea",
-        "Dimension": 479,
-        "ListProviderName": "Reilly Group",
-        "ListProviderExtraInfo": "incidunt",
-        "ListProviderPrimaryKeyName": "Spencer-Hand",
-        "ListLeadText": "similique",
+        "Type": "facilis",
+        "Label": "quia",
+        "Dimension": 336,
+        "ListProviderName": "Von-Zulauf",
+        "ListProviderExtraInfo": "voluptatem",
+        "ListProviderPrimaryKeyName": "Bahringer-Hudson",
+        "ListLeadText": "temporibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 899
+            "FieldLength": 379
           }
         }
       }
     ],
-    "EncodedDataCaption": "modi",
-    "EncodedDataCaptionDescription": "Adaptive solution-oriented challenge",
-    "CurrentOperationType": "distinctio",
+    "EncodedDataCaption": "ea",
+    "EncodedDataCaptionDescription": "Up-sized holistic data-warehouse",
+    "CurrentOperationType": "suscipit",
     "Values": [
-      "est",
-      "cupiditate"
+      "dignissimos",
+      "explicabo"
     ],
     "DisplayValues": [
-      "aut",
-      "molestias"
+      "non",
+      "et"
     ],
     "OperationInfos": [
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
+        "Key": "magni",
+        "EncodedDisplayName": "Beier-Quitzon",
         "EncodedLeadTexts": [
-          "occaecati",
-          "fugit"
+          "molestiae",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldLength": 1002
           }
         }
       },
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
+        "Key": "magni",
+        "EncodedDisplayName": "Beier-Quitzon",
         "EncodedLeadTexts": [
-          "occaecati",
-          "fugit"
+          "molestiae",
+          "harum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldLength": 1002
           }
         }
       }

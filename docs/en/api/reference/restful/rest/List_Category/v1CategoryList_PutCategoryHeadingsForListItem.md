@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "D'Amore, Boyer and Boehm",
-    "ToolTip": "Et et recusandae sit tempore accusantium ut.",
-    "Deleted": false,
-    "Rank": 812,
-    "Type": "sint",
-    "ColorBlock": 479,
-    "IconHint": "et",
+    "Id": 542,
+    "Name": "Heller LLC",
+    "ToolTip": "Et illo natus quidem non debitis aliquid.",
+    "Deleted": true,
+    "Rank": 908,
+    "Type": "adipisci",
+    "ColorBlock": 395,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2021-10-05T12:01:33.448849+02:00",
+    "LastChanged": "2020-03-06T14:32:12.4895996+01:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Bode LLC",
-        "ToolTip": "Error maxime.",
-        "Deleted": true,
-        "Rank": 808,
+        "Id": 362,
+        "Name": "Wisoky, Johnson and Spencer",
+        "ToolTip": "Non facilis.",
+        "Deleted": false,
+        "Rank": 498,
         "Type": "harum",
-        "ColorBlock": 399,
-        "IconHint": "quibusdam",
+        "ColorBlock": 879,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-07-30T12:01:33.448849+02:00",
+        "LastChanged": "2016-04-30T14:32:12.4895996+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "esse",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Victor Veum"
+        "FullName": "Ms. Marjorie Samantha Pouros DDS"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dolores",
+    "ExtraInfo": "enim",
+    "StyleHint": "voluptates",
     "Hidden": false,
-    "FullName": "Johanna Daniel"
+    "FullName": "Robyn Lueilwitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Frami, Considine and Hyatt",
-    "ToolTip": "Velit quisquam assumenda veniam minus omnis labore.",
-    "Deleted": true,
-    "Rank": 161,
-    "Type": "necessitatibus",
-    "ColorBlock": 80,
-    "IconHint": "molestiae",
-    "Selected": false,
-    "LastChanged": "1998-02-15T12:01:33.448849+01:00",
+    "Id": 283,
+    "Name": "Morar, Rippin and Robel",
+    "ToolTip": "Laudantium ab ut.",
+    "Deleted": false,
+    "Rank": 939,
+    "Type": "voluptatibus",
+    "ColorBlock": 522,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2019-10-06T14:32:12.4895996+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Fisher, Morar and Dicki",
-        "ToolTip": "Asperiores quam aliquam perspiciatis nesciunt aut et.",
+        "Id": 831,
+        "Name": "Batz-Koepp",
+        "ToolTip": "Et perspiciatis.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "quas",
-        "ColorBlock": 906,
-        "IconHint": "est",
+        "Rank": 360,
+        "Type": "eveniet",
+        "ColorBlock": 585,
+        "IconHint": "corporis",
         "Selected": true,
-        "LastChanged": "2022-09-15T12:01:33.448849+02:00",
+        "LastChanged": "2001-01-03T14:32:12.4895996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "enim",
+        "ExtraInfo": "sint",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Prof. Domenico Larkin",
+        "FullName": "Prof. Graciela Onie Hayes MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldType": "System.String",
+            "FieldLength": 824
           }
         }
       }
     ],
     "ExtraInfo": "omnis",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Soledad Runolfsdottir",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Hilbert Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 340
       }
     }
   }

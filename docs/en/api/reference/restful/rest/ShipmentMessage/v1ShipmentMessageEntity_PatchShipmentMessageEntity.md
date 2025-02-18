@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "voluptatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "voluptatibus",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 161,
-  "PlainMessage": "corporis",
-  "HtmlMessage": "enim",
-  "SmsMessage": "laborum",
-  "Description": "Total modular time-frame",
-  "Subject": "quis",
-  "FolderId": 886,
-  "HeaderField": "qui",
-  "Design": "eum",
+  "ShipmentMessageId": 702,
+  "PlainMessage": "ad",
+  "HtmlMessage": "corporis",
+  "SmsMessage": "autem",
+  "Description": "Automated hybrid superstructure",
+  "Subject": "tempora",
+  "FolderId": 103,
+  "HeaderField": "quas",
+  "Design": "nihil",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Assimilated solution-oriented toolset",
-  "AccessKey": "iusto",
-  "DocumentMessage": 534,
-  "Registered": "2023-06-08T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 324,
-  "Updated": "2018-04-15T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 350,
-  "UpdatedCount": 959,
+  "LongDescription": "Polarised global product",
+  "AccessKey": "nihil",
+  "DocumentMessage": 745,
+  "Registered": "2004-02-27T14:32:12.0678193+01:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2004-01-24T14:32:12.0678193+01:00",
+  "UpdatedAssociateId": 106,
+  "UpdatedCount": 467,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 748
     }
   },
   "_Links": {

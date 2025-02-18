@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 593,
-  "Name": "Davis Group",
-  "Tooltip": "quis",
-  "Rank": 946,
+  "ProjTypeId": 81,
+  "Name": "Greenholt-Roberts",
+  "Tooltip": "distinctio",
+  "Rank": 423,
   "DurationUnit": "Century",
-  "ProjectDuration": 776,
+  "ProjectDuration": 926,
   "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 794,
-      "Name": "Mraz Group",
-      "ToolTip": "Dolores alias dolorem.",
+      "Id": 100,
+      "Name": "Leannon, Schmeler and Reinger",
+      "ToolTip": "Qui possimus.",
       "Deleted": false,
-      "Rank": 138,
-      "Type": "molestias",
-      "ColorBlock": 467,
-      "IconHint": "aliquid",
-      "Selected": false,
-      "LastChanged": "2004-02-04T12:01:27.97842+01:00",
+      "Rank": 600,
+      "Type": "omnis",
+      "ColorBlock": 745,
+      "IconHint": "beatae",
+      "Selected": true,
+      "LastChanged": "1998-10-03T14:32:03.1867546+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "ex",
+      "ExtraInfo": "totam",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Joannie Erwin Zemlak PhD",
+      "FullName": "Gianni Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldLength": 67
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldLength": 593
     }
   }
 }

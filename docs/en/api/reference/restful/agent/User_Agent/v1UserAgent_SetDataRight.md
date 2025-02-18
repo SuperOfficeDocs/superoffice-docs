@@ -76,10 +76,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 85,
-  "TableName": "Wiza LLC",
+  "RoleId": 458,
+  "TableName": "Miller, Marvin and Waelchi",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "quo"
+  "DataRightValue": "tempore"
 }
 ```
 

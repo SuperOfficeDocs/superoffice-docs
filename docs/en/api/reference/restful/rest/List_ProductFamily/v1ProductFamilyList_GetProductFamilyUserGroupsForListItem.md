@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Miller, Buckridge and Schinner",
-    "ToolTip": "Dolor ipsum eveniet nobis et non.",
-    "Deleted": true,
-    "Rank": 548,
-    "Type": "eveniet",
-    "ColorBlock": 142,
-    "IconHint": "excepturi",
+    "Id": 565,
+    "Name": "Kemmer Group",
+    "ToolTip": "Laborum hic ducimus et rerum amet.",
+    "Deleted": false,
+    "Rank": 256,
+    "Type": "nostrum",
+    "ColorBlock": 587,
+    "IconHint": "tenetur",
     "Selected": false,
-    "LastChanged": "2017-09-05T12:01:33.5738574+02:00",
+    "LastChanged": "2019-02-11T14:32:12.7553674+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Emard-Larkin",
-        "ToolTip": "Velit aut ut inventore sapiente architecto excepturi velit.",
+        "Id": 756,
+        "Name": "Tremblay LLC",
+        "ToolTip": "Error sint sequi dolores sint ut.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "autem",
-        "ColorBlock": 346,
-        "IconHint": "exercitationem",
+        "Rank": 783,
+        "Type": "perspiciatis",
+        "ColorBlock": 164,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2002-09-30T12:01:33.5738574+02:00",
+        "LastChanged": "1999-07-01T14:32:12.7553674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aperiam",
-        "Hidden": false,
-        "FullName": "Rod Ward",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Tracy Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldLength": 555
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "qui",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Prof. Judge Nolan",
+    "FullName": "Giles Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 903
       }
     }
   }

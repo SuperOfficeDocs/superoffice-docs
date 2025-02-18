@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Baumbach LLC",
-    "Tooltip": "voluptatum",
+    "HeadingId": 235,
+    "Name": "Gulgowski, Labadie and Hammes",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 780,
-    "UdListDefinitionId": 734,
+    "Rank": 909,
+    "UdListDefinitionId": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 385
       }
     }
   }

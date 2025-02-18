@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 294,
-  "HeadingId": 223
+  "UdListDefinitionId": 381,
+  "HeadingId": 845
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Wiegand-Fadel",
-    "ToolTip": "Sequi rerum eaque facere reprehenderit recusandae.",
-    "Deleted": true,
-    "Rank": 981,
-    "Type": "autem",
-    "ColorBlock": 95,
-    "IconHint": "alias",
+    "Id": 132,
+    "Name": "Heller-Larkin",
+    "ToolTip": "Illo voluptatibus temporibus enim quisquam totam in.",
+    "Deleted": false,
+    "Rank": 385,
+    "Type": "error",
+    "ColorBlock": 3,
+    "IconHint": "ullam",
     "Selected": false,
-    "LastChanged": "2002-04-06T12:01:27.9471677+02:00",
+    "LastChanged": "2002-10-05T14:32:03.124104+02:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Brown, Larson and Reinger",
-        "ToolTip": "Sed ut quasi rerum.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "quibusdam",
-        "ColorBlock": 540,
-        "IconHint": "unde",
+        "Id": 156,
+        "Name": "Lowe Group",
+        "ToolTip": "Autem libero.",
+        "Deleted": false,
+        "Rank": 892,
+        "Type": "quasi",
+        "ColorBlock": 137,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2009-10-13T12:01:27.9471677+02:00",
+        "LastChanged": "2010-06-23T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sunt",
+        "ExtraInfo": "natus",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Vada Stoltenberg",
+        "FullName": "Darius Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldType": "System.String",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Henri Marks",
+    "FullName": "Clarissa Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 973
       }
     }
   }

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Monahan, McClure and Schaden",
-    "StepNumber": 812,
+    "Name": "Skiles Inc and Sons",
+    "StepNumber": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 827
       }
     }
   },
   {
-    "Name": "Monahan, McClure and Schaden",
-    "StepNumber": 812,
+    "Name": "Skiles Inc and Sons",
+    "StepNumber": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldLength": 827
       }
     }
   }

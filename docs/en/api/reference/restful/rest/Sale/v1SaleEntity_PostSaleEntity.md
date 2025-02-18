@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "cum",
+  "SaleText": "exercitationem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-04-11T12:01:33.0581965+02:00",
-  "Amount": 303.998,
-  "SaleId": 104,
-  "Earning": 29885.824,
-  "EarningPercent": 3958.2419999999997,
-  "Heading": "laboriosam",
-  "Number": "1513063",
-  "Probability": 65,
-  "CreatedDate": "2003-02-18T12:01:33.0581965+01:00",
-  "UpdatedDate": "2000-08-26T12:01:33.0581965+02:00",
+  "Saledate": "2024-11-05T14:32:11.7710182+01:00",
+  "Amount": 21746.826,
+  "SaleId": 897,
+  "Earning": 25708.201999999997,
+  "EarningPercent": 23354.568,
+  "Heading": "dolor",
+  "Number": "572743",
+  "Probability": 689,
+  "CreatedDate": "2000-07-31T14:32:11.7710182+02:00",
+  "UpdatedDate": "2011-12-03T14:32:11.7710182+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 73,
+  "ActiveLinks": 649,
   "Links": [
     {
-      "EntityName": "Effertz-Kulas",
-      "Id": 323,
-      "Description": "Right-sized tangible alliance",
-      "ExtraInfo": "incidunt",
-      "LinkId": 425
+      "EntityName": "Boehm-Emard",
+      "Id": 56,
+      "Description": "Stand-alone secondary utilisation",
+      "ExtraInfo": "sed",
+      "LinkId": 41
     },
     {
-      "EntityName": "Effertz-Kulas",
-      "Id": 323,
-      "Description": "Right-sized tangible alliance",
-      "ExtraInfo": "incidunt",
-      "LinkId": 425
+      "EntityName": "Boehm-Emard",
+      "Id": 56,
+      "Description": "Stand-alone secondary utilisation",
+      "ExtraInfo": "sed",
+      "LinkId": 41
     }
   ],
-  "NextDueDate": "2008-02-13T12:01:33.0581965+01:00",
-  "Postit": "laudantium",
+  "NextDueDate": "2002-06-16T14:32:11.7710182+02:00",
+  "Postit": "dolorem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-11-11T12:01:33.0581965+01:00",
+  "ReopenDate": "2014-07-27T14:32:11.7710182+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Brekke Group",
-      "Comment": "aut",
-      "StakeholderRoleId": 116,
-      "CountryId": 945,
-      "PersonId": 52,
-      "EmailDescription": "laury@gaylordoconner.name",
-      "EmailId": 742,
-      "EmailAddress": "emmie@jacobi.co.uk",
-      "PhoneId": 232,
-      "ContactName": "Pfannerstill-Lowe",
-      "ContactId": 697,
-      "SaleId": 157,
-      "Mrmrs": "sit",
-      "Firstname": "Sydnie",
-      "MiddleName": "Rowe, Feeney and Gleason",
-      "Lastname": "Von",
-      "SaleStakeholderId": 914,
-      "Rank": 71,
-      "Phone": "488-987-4082 x3835"
+      "StakeholderRoleName": "Yundt, Mayert and Witting",
+      "Comment": "laborum",
+      "StakeholderRoleId": 549,
+      "CountryId": 347,
+      "PersonId": 1002,
+      "EmailDescription": "cassandra@blick.uk",
+      "EmailId": 57,
+      "EmailAddress": "ozella@hand.co.uk",
+      "PhoneId": 810,
+      "ContactName": "Dickinson-Lehner",
+      "ContactId": 67,
+      "SaleId": 26,
+      "Mrmrs": "repellat",
+      "Firstname": "Friedrich",
+      "MiddleName": "Auer-Murazik",
+      "Lastname": "Kuhn",
+      "SaleStakeholderId": 776,
+      "Rank": 335,
+      "Phone": "(303)181-0157 x637"
     }
   ],
-  "ActiveErpLinks": 64,
+  "ActiveErpLinks": 932,
   "UserDefinedFields": {
-    "SuperOffice:1": "395227229",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Hilbert Frieda Kihn I",
+    "SuperOffice:2": "Roderick Rempel"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "qui"
+    "CustomFields1": "quae",
+    "CustomFields2": "dolore"
   },
-  "PublishEventDate": "2002-11-10T12:01:33.0581965+01:00",
-  "PublishTo": "2011-08-11T12:01:33.0581965+02:00",
-  "PublishFrom": "2017-10-14T12:01:33.0581965+02:00",
+  "PublishEventDate": "2017-01-15T14:32:11.7710182+01:00",
+  "PublishTo": "2013-08-02T14:32:11.7710182+02:00",
+  "PublishFrom": "2018-07-21T14:32:11.7710182+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 615,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "id"
     },
     {
-      "VisibleId": 615,
+      "VisibleId": 889,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "id"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "at",
+  "SaleText": "exercitationem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-12-07T12:01:33.0581965+01:00",
-  "Amount": 11495.511999999999,
-  "SaleId": 780,
-  "Earning": 27817.384,
-  "EarningPercent": 13654.838,
-  "Heading": "voluptas",
-  "Number": "1066988",
-  "Probability": 703,
-  "CreatedDate": "2022-04-16T12:01:33.0581965+02:00",
-  "UpdatedDate": "2000-10-23T12:01:33.0581965+02:00",
+  "Saledate": "2004-12-13T14:32:11.8022556+01:00",
+  "Amount": 9809.42,
+  "SaleId": 134,
+  "Earning": 18252.416,
+  "EarningPercent": 19223.956,
+  "Heading": "et",
+  "Number": "727239",
+  "Probability": 284,
+  "CreatedDate": "2013-02-09T14:32:11.8022556+01:00",
+  "UpdatedDate": "2016-05-04T14:32:11.8022556+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 273,
+  "ActiveLinks": 679,
   "Links": [
     {
-      "EntityName": "Schimmel-Conroy",
-      "Id": 460,
-      "Description": "User-centric holistic concept",
-      "ExtraInfo": "omnis",
-      "LinkId": 33,
+      "EntityName": "Gulgowski Group",
+      "Id": 7,
+      "Description": "Cross-group 24 hour product",
+      "ExtraInfo": "ratione",
+      "LinkId": 49,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldLength": 420
         }
       }
     }
   ],
-  "NextDueDate": "2020-09-22T12:01:33.0581965+02:00",
-  "Postit": "at",
+  "NextDueDate": "2006-01-04T14:32:11.8022556+01:00",
+  "Postit": "molestiae",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-11-10T12:01:33.0581965+01:00",
+  "ReopenDate": "2008-05-18T14:32:11.8178784+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Goldner-Legros",
-      "Comment": "nisi",
-      "StakeholderRoleId": 744,
-      "CountryId": 496,
-      "PersonId": 540,
-      "EmailDescription": "edna@mohr.com",
-      "EmailId": 697,
-      "EmailAddress": "eloise@gulgowski.biz",
-      "PhoneId": 989,
-      "ContactName": "Hudson-Schoen",
-      "ContactId": 418,
-      "SaleId": 195,
-      "Mrmrs": "enim",
-      "Firstname": "Greta",
-      "MiddleName": "Fisher Group",
-      "Lastname": "Homenick",
-      "SaleStakeholderId": 889,
-      "Rank": 474,
-      "Phone": "(097)287-5196 x71065",
+      "StakeholderRoleName": "Altenwerth-Streich",
+      "Comment": "quasi",
+      "StakeholderRoleId": 364,
+      "CountryId": 198,
+      "PersonId": 956,
+      "EmailDescription": "johnathon@botsford.co.uk",
+      "EmailId": 876,
+      "EmailAddress": "corbin_hayes@erdman.uk",
+      "PhoneId": 88,
+      "ContactName": "Ebert, Kris and Gusikowski",
+      "ContactId": 713,
+      "SaleId": 763,
+      "Mrmrs": "possimus",
+      "Firstname": "Alize",
+      "MiddleName": "Bauch LLC",
+      "Lastname": "Nicolas",
+      "SaleStakeholderId": 637,
+      "Rank": 612,
+      "Phone": "827-916-6128 x585",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 393
         }
       }
     }
   ],
-  "ActiveErpLinks": 388,
+  "ActiveErpLinks": 404,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Mrs. Hunter West I"
+    "SuperOffice:1": "Madyson DuBuque",
+    "SuperOffice:2": "Mrs. Helmer Adams III"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "et",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "fuga"
+    "CustomFields1": "quod",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2020-08-28T12:01:33.0581965+02:00",
-  "PublishTo": "2001-10-18T12:01:33.0581965+02:00",
-  "PublishFrom": "2000-06-25T12:01:33.0581965+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-04-05T14:32:11.8334975+02:00",
+  "PublishTo": "1998-01-09T14:32:11.8334975+01:00",
+  "PublishFrom": "2024-08-14T14:32:11.8334975+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 666,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     },
     {
-      "VisibleId": 666,
+      "VisibleId": 982,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldType": "System.String",
+          "FieldLength": 297
         }
       }
     }
@@ -407,8 +407,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   },
   "_Links": {

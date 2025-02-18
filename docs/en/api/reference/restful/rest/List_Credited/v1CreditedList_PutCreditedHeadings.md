@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 50,
-    "Name": "Kling-Lockman",
-    "Tooltip": "praesentium",
+    "HeadingId": 1001,
+    "Name": "Champlin LLC",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 120
+    "Rank": 244,
+    "UdListDefinitionId": 476
   },
   {
-    "HeadingId": 50,
-    "Name": "Kling-Lockman",
-    "Tooltip": "praesentium",
+    "HeadingId": 1001,
+    "Name": "Champlin LLC",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 572,
-    "UdListDefinitionId": 120
+    "Rank": 244,
+    "UdListDefinitionId": 476
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Beahan-Dibbert",
-    "Tooltip": "et",
+    "HeadingId": 205,
+    "Name": "Gottlieb Inc and Sons",
+    "Tooltip": "eos",
     "Deleted": false,
-    "Rank": 78,
-    "UdListDefinitionId": 317,
+    "Rank": 608,
+    "UdListDefinitionId": 435,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 308
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Gleason-Hoppe",
-    "ToolTip": "Error ullam quibusdam ut.",
+    "Id": 730,
+    "Name": "Olson-Hirthe",
+    "ToolTip": "Est aperiam.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "et",
-    "ColorBlock": 950,
-    "IconHint": "qui",
+    "Rank": 364,
+    "Type": "facere",
+    "ColorBlock": 220,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2023-04-23T12:01:27.9159153+02:00",
+    "LastChanged": "1999-10-08T14:32:03.0616193+02:00",
     "ChildItems": [
       {
-        "Id": 143,
-        "Name": "Halvorson Inc and Sons",
-        "ToolTip": "Omnis quibusdam quis exercitationem nostrum ex assumenda.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "eum",
-        "ColorBlock": 900,
-        "IconHint": "totam",
-        "Selected": false,
-        "LastChanged": "2011-07-26T12:01:27.9159153+02:00",
+        "Id": 168,
+        "Name": "Schoen, Schultz and Erdman",
+        "ToolTip": "Dolor sed quae consequuntur.",
+        "Deleted": true,
+        "Rank": 959,
+        "Type": "et",
+        "ColorBlock": 37,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2003-08-03T14:32:03.0616193+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "vel",
+        "ExtraInfo": "in",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Charlie Zemlak II",
+        "FullName": "Mr. Maria Armstrong V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 767
+            "FieldType": "System.String",
+            "FieldLength": 121
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Eusebio Andy Bauch I",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "eum",
+    "Hidden": false,
+    "FullName": "Johann Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 331
       }
     }
   }

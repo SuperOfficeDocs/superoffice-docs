@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 194
+  "ErpConnectionId": 830
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 757,
-  "ErpConnectorId": 992,
-  "DisplayName": "Spinka Inc and Sons",
-  "DisplayDescription": "Realigned asynchronous forecast",
-  "Active": true,
-  "ConnectionId": "nobis",
-  "MostRecentTimestamp": "ducimus",
+  "ErpConnectionId": 915,
+  "ErpConnectorId": 570,
+  "DisplayName": "Waelchi Inc and Sons",
+  "DisplayDescription": "Implemented responsive internet solution",
+  "Active": false,
+  "ConnectionId": "in",
+  "MostRecentTimestamp": "possimus",
   "ConfigFields": {
-    "ConfigFields1": "sapiente",
-    "ConfigFields2": "est"
+    "ConfigFields1": "sunt",
+    "ConfigFields2": "eaque"
   },
-  "Deleted": true,
-  "AllAccess": false,
+  "Deleted": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    248,
-    502
+    819,
+    390
   ],
   "AssociateAccessIds": [
-    924,
-    642
+    695,
+    957
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 502
     }
   }
 }

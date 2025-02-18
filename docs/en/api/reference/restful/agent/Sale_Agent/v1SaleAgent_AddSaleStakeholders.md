@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 125,
+  "SaleId": 747,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Huel, Flatley and Bosco",
-      "Comment": "similique",
-      "StakeholderRoleId": 884,
-      "CountryId": 699,
-      "PersonId": 932,
-      "EmailDescription": "burley.gorczany@hahn.com",
-      "EmailId": 482,
-      "EmailAddress": "oran_mante@simonisyost.com",
-      "PhoneId": 536,
-      "ContactName": "Rutherford, Hand and Johnson",
-      "ContactId": 806,
-      "SaleId": 169,
-      "Mrmrs": "ut",
-      "Firstname": "Gordon",
-      "MiddleName": "Lindgren, Lebsack and Dietrich",
-      "Lastname": "Dare",
-      "SaleStakeholderId": 756,
-      "Rank": 621,
-      "Phone": "139.904.4188"
+      "StakeholderRoleName": "Cruickshank LLC",
+      "Comment": "ullam",
+      "StakeholderRoleId": 812,
+      "CountryId": 582,
+      "PersonId": 144,
+      "EmailDescription": "ezequiel.armstrong@ortizbarton.ca",
+      "EmailId": 282,
+      "EmailAddress": "norris@carroll.us",
+      "PhoneId": 487,
+      "ContactName": "Collier, Kub and Padberg",
+      "ContactId": 43,
+      "SaleId": 481,
+      "Mrmrs": "cumque",
+      "Firstname": "Maegan",
+      "MiddleName": "Bayer, Weimann and Walker",
+      "Lastname": "Johns",
+      "SaleStakeholderId": 362,
+      "Rank": 448,
+      "Phone": "583-615-4198"
     }
   ]
 }

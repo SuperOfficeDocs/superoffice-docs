@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 958,
-  "Name": "O'Reilly Inc and Sons",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "Rank": 694,
-  "UdListDefinitionId": 80
+  "HeadingId": 858,
+  "Name": "Gorczany, Parisian and Klocko",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 637,
+  "UdListDefinitionId": 404
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 580,
-  "Name": "Huel-Schulist",
-  "Tooltip": "voluptatem",
+  "HeadingId": 11,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 998,
-  "UdListDefinitionId": 463,
+  "Rank": 35,
+  "UdListDefinitionId": 217,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldLength": 5
     }
   }
 }

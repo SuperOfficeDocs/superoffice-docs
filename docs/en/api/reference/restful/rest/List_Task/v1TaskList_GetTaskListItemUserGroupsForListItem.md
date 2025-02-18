@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Schaden Inc and Sons",
-    "ToolTip": "Numquam et nulla sapiente eum.",
-    "Deleted": false,
-    "Rank": 74,
-    "Type": "quasi",
-    "ColorBlock": 522,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2001-07-18T12:01:33.6832402+02:00",
+    "Id": 323,
+    "Name": "Stamm, Vandervort and Daugherty",
+    "ToolTip": "Doloribus porro.",
+    "Deleted": true,
+    "Rank": 334,
+    "Type": "pariatur",
+    "ColorBlock": 159,
+    "IconHint": "assumenda",
+    "Selected": false,
+    "LastChanged": "2017-11-12T14:32:12.9584781+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Dach, Schroeder and Stroman",
-        "ToolTip": "Optio autem iure rerum magni quo quam et.",
+        "Id": 422,
+        "Name": "Breitenberg, Kilback and Schinner",
+        "ToolTip": "Totam delectus aliquid tenetur amet laboriosam.",
         "Deleted": false,
-        "Rank": 912,
-        "Type": "iusto",
-        "ColorBlock": 98,
-        "IconHint": "quo",
+        "Rank": 227,
+        "Type": "aut",
+        "ColorBlock": 7,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2019-04-08T12:01:33.6832402+02:00",
+        "LastChanged": "2024-01-30T14:32:12.9584781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Gilbert Lowe",
+        "ExtraInfo": "maxime",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Letha Lelia Effertz DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldType": "System.Int32",
+            "FieldLength": 42
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Miss Bessie Anjali Harber",
+    "ExtraInfo": "enim",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Lester Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldLength": 264
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Jun 2019 12:01:32 G6T
+Last-Modified: Tue, 04 Jul 2023 14:32:11 G7T
 
 {
-  "ForeignAppId": 23,
-  "Name": "Homenick Inc and Sons",
-  "CreatedDate": "2024-05-17T12:01:32.9175621+02:00",
-  "UpdatedDate": "2019-06-03T12:01:32.9175621+02:00",
+  "ForeignAppId": 206,
+  "Name": "Wisozk-Hintz",
+  "CreatedDate": "2012-09-10T14:32:11.5210682+02:00",
+  "UpdatedDate": "2023-07-04T14:32:11.5210682+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 542,
-      "Name": "Yundt Group",
-      "CreatedDate": "2009-11-14T12:01:32.9175621+01:00",
-      "UpdatedDate": "2016-09-16T12:01:32.9175621+02:00",
-      "AssociateFullName": "Diego Hosea Skiles MD",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 235,
+      "ForeignDeviceId": 431,
+      "Name": "Farrell Group",
+      "CreatedDate": "2007-07-04T14:32:11.5210682+02:00",
+      "UpdatedDate": "2019-09-04T14:32:11.5210682+02:00",
+      "AssociateFullName": "Easter Shields",
+      "CreatedBy": "molestias",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 539,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 255
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Mon, 03 Jun 2019 12:01:32 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 17
     }
   }
 }

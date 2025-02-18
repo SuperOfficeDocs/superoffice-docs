@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 890,
-      "PrefDescId": 762,
-      "PrefValue": "placeat",
-      "PrefShowValue": "veritatis",
-      "Description": "Future-proofed 24 hour encryption",
-      "IsBuiltin": false
+      "PrefDescLineId": 619,
+      "PrefDescId": 585,
+      "PrefValue": "at",
+      "PrefShowValue": "dignissimos",
+      "Description": "Open-source background workforce",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 890,
-      "PrefDescId": 762,
-      "PrefValue": "placeat",
-      "PrefShowValue": "veritatis",
-      "Description": "Future-proofed 24 hour encryption",
-      "IsBuiltin": false
+      "PrefDescLineId": 619,
+      "PrefDescId": 585,
+      "PrefValue": "at",
+      "PrefShowValue": "dignissimos",
+      "Description": "Open-source background workforce",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 519,
-    "PrefDescId": 267,
-    "PrefValue": "molestias",
-    "PrefShowValue": "molestiae",
-    "Description": "Stand-alone full-range array",
-    "IsBuiltin": false,
+    "PrefDescLineId": 103,
+    "PrefDescId": 44,
+    "PrefValue": "consequatur",
+    "PrefShowValue": "qui",
+    "Description": "Object-based systemic software",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 861
       }
     }
   }

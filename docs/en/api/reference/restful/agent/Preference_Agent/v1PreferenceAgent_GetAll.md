@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 449,
-    "Section": "et",
-    "Key": "blanditiis",
-    "Name": "Batz, Moen and Buckridge",
+    "PrefDescId": 430,
+    "Section": "aut",
+    "Key": "incidunt",
+    "Name": "Bode Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Face to face solution-oriented frame",
+    "Description": "Extended local protocol",
     "IsBuiltin": true,
-    "TableName": "Breitenberg-Bode",
-    "UserDefinedListId": 922,
-    "Rank": 618,
-    "SubGroup": "et",
-    "MinLevel": 116,
-    "MaxValue": 991,
-    "MinValue": 332,
-    "RequiredLicense": "sint",
+    "TableName": "Feest, Harber and Fisher",
+    "UserDefinedListId": 110,
+    "Rank": 814,
+    "SubGroup": "consequatur",
+    "MinLevel": 707,
+    "MaxValue": 522,
+    "MinValue": 890,
+    "RequiredLicense": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 746
       }
     }
   }

@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2023-07-25T12:01:28.2596899+02:00",
-  "ToDate": "2024-03-27T12:01:28.2596899+01:00",
-  "AmountLimit": 353,
+  "FromDate": "2011-02-14T14:32:03.7179186+01:00",
+  "ToDate": "2001-01-31T14:32:03.7179186+01:00",
+  "AmountLimit": 815,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Russel Group",
-    "SaleDate": "2023-04-15T12:01:28.2596899+02:00",
-    "SaleId": 292,
-    "Probability": 575,
-    "Title": "voluptas",
-    "Amount": 25529.564,
-    "Currency": "est",
-    "ProjectName": "Hammes-Kiehn",
-    "AssociateFullName": "Rossie Crist",
-    "Description": "Up-sized demand-driven capacity",
+    "ContactName": "Goyette, Homenick and Gutkowski",
+    "SaleDate": "2016-01-27T14:32:03.7179186+01:00",
+    "SaleId": 687,
+    "Probability": 137,
+    "Title": "dolorum",
+    "Amount": 24830.682,
+    "Currency": "qui",
+    "ProjectName": "Cormier-Lowe",
+    "AssociateFullName": "Mr. Kaleb Larkin DDS",
+    "Description": "Balanced coherent internet solution",
     "Status": "Lost",
-    "WeightedAmount": 1360.156,
-    "ProjectId": 492,
-    "EarningPercent": 1817.72,
-    "Earning": 9449.01,
-    "ContactId": 156,
-    "AssociateId": 826,
-    "PersonId": 57,
-    "SaleTypeId": 340,
-    "SaleTypeName": "Lakin-Nitzsche",
-    "PersonFullName": "Brittany Walter",
+    "WeightedAmount": 20816.028,
+    "ProjectId": 301,
+    "EarningPercent": 28488.059999999998,
+    "Earning": 18073.778,
+    "ContactId": 640,
+    "AssociateId": 441,
+    "PersonId": 795,
+    "SaleTypeId": 16,
+    "SaleTypeName": "Stroman-Harris",
+    "PersonFullName": "Liliana Schaden",
     "Completed": "Completed",
-    "ActiveErpLinks": 549,
-    "NextDueDate": "2014-06-26T12:01:28.2596899+02:00",
-    "Number": "1528365",
+    "ActiveErpLinks": 633,
+    "NextDueDate": "2012-08-13T14:32:03.7179186+02:00",
+    "Number": "1378004",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldType": "System.Int32",
+        "FieldLength": 737
       }
     }
   }

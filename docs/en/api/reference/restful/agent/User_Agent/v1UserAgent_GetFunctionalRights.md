@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 661
+  "RoleId": 391
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Cole Inc and Sons",
-    "ToolTip": "Quo laborum consequatur.",
+    "Id": 365,
+    "Name": "McGlynn-Kozey",
+    "ToolTip": "Voluptate quibusdam possimus.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "et",
-    "ColorBlock": 552,
-    "IconHint": "adipisci",
+    "Rank": 849,
+    "Type": "sunt",
+    "ColorBlock": 893,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2017-07-31T12:01:28.6034631+02:00",
+    "LastChanged": "2008-06-22T14:32:04.2959093+02:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "McCullough, D'Amore and Shanahan",
-        "ToolTip": "Modi reiciendis necessitatibus error.",
-        "Deleted": true,
-        "Rank": 174,
-        "Type": "labore",
-        "ColorBlock": 508,
-        "IconHint": "provident",
+        "Id": 943,
+        "Name": "Huel, Willms and Osinski",
+        "ToolTip": "Quis natus maiores rem minus quo molestiae.",
+        "Deleted": false,
+        "Rank": 707,
+        "Type": "ipsam",
+        "ColorBlock": 435,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "1998-08-01T12:01:28.6034631+02:00",
+        "LastChanged": "2018-07-13T14:32:04.2959093+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "culpa",
+        "ExtraInfo": "modi",
+        "StyleHint": "voluptate",
         "Hidden": false,
-        "FullName": "Chance Lind",
+        "FullName": "Zola Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 21
+            "FieldType": "System.Int32",
+            "FieldLength": 377
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Aliya Mitchel Hansen MD",
+    "ExtraInfo": "velit",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Kathryn Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 544
       }
     }
   }

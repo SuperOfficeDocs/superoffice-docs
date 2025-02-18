@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 883,
-  "Name": "Stamm-Abshire",
-  "Tooltip": "quas",
-  "PassiveText": "sapiente",
+  "ReldefId": 680,
+  "Name": "Zemlak, Rosenbaum and Jaskolski",
+  "Tooltip": "dolorem",
+  "PassiveText": "nam",
   "Deleted": false,
-  "Rank": 584,
+  "Rank": 253,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldLength": 501
     }
   }
 }

@@ -83,7 +83,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 77
+  "PersonId": 787
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 369,
-    "Name": "Yundt, Collins and Wiza",
-    "Value": "rerum",
-    "CreatedDate": "2012-05-06T12:01:27.3377499+02:00",
-    "UpdatedDate": "2007-06-22T12:01:27.3377499+02:00",
-    "CreatedBy": "culpa",
-    "UpdatedBy": "occaecati",
+    "AudienceLayoutId": 7,
+    "Name": "Block-Bartell",
+    "Value": "et",
+    "CreatedDate": "2024-11-26T14:32:02.0306023+01:00",
+    "UpdatedDate": "1998-01-27T14:32:02.0306023+01:00",
+    "CreatedBy": "repudiandae",
+    "UpdatedBy": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 758
       }
     }
   }

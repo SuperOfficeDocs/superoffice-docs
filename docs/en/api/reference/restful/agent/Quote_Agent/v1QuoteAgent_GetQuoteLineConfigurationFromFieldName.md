@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Greenfelder, Rodriguez and Kling"
+  "FieldName": "Turner Group"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 161,
-  "FieldName": "Bernhard-Hermiston",
-  "Label": "aut",
-  "Tooltip": "eos",
+  "QuoteLineConfigurationId": 228,
+  "FieldName": "Wiza, Altenwerth and Hartmann",
+  "Label": "quisquam",
+  "Tooltip": "optio",
   "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 55,
+  "Rank": 35,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

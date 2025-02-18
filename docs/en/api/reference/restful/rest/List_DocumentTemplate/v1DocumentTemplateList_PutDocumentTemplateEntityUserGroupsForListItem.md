@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "O'Reilly LLC",
-    "ToolTip": "Rerum cupiditate aut ea impedit.",
+    "Id": 594,
+    "Name": "Macejkovic-Medhurst",
+    "ToolTip": "Fugit sit.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "enim",
-    "ColorBlock": 986,
-    "IconHint": "adipisci",
+    "Rank": 236,
+    "Type": "animi",
+    "ColorBlock": 924,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2018-03-02T12:01:33.511353+01:00",
+    "LastChanged": "2016-09-17T14:32:12.6301912+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Brakus, Baumbach and Hermann",
-        "ToolTip": "Aut ut odio iste in molestiae qui.",
+        "Id": 756,
+        "Name": "Leuschke-Champlin",
+        "ToolTip": "Provident temporibus alias mollitia aut nobis.",
         "Deleted": false,
-        "Rank": 801,
-        "Type": "eum",
-        "ColorBlock": 84,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2000-06-19T12:01:33.511353+02:00",
+        "Rank": 677,
+        "Type": "aut",
+        "ColorBlock": 356,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2006-11-02T14:32:12.6301912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "tempora",
+        "ExtraInfo": "est",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Sandrine Nitzsche"
+        "FullName": "Evalyn Kuvalis"
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Virginie Stracke"
+    "ExtraInfo": "eum",
+    "StyleHint": "iusto",
+    "Hidden": true,
+    "FullName": "Jeffry Beahan II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Olson-Willms",
-    "ToolTip": "Sint reprehenderit dolore.",
-    "Deleted": true,
-    "Rank": 961,
-    "Type": "incidunt",
-    "ColorBlock": 254,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2014-03-15T12:01:33.511353+01:00",
+    "Id": 42,
+    "Name": "Schowalter-Osinski",
+    "ToolTip": "Hic autem rerum ea voluptatem quis.",
+    "Deleted": false,
+    "Rank": 613,
+    "Type": "quidem",
+    "ColorBlock": 718,
+    "IconHint": "quasi",
+    "Selected": true,
+    "LastChanged": "2008-09-05T14:32:12.6301912+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Konopelski-Lemke",
-        "ToolTip": "Consequatur perspiciatis sunt veniam.",
+        "Id": 531,
+        "Name": "Steuber, Bahringer and Turcotte",
+        "ToolTip": "Aperiam natus qui dolor sint delectus quasi nisi.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "quod",
-        "ColorBlock": 709,
-        "IconHint": "voluptatem",
+        "Rank": 761,
+        "Type": "voluptate",
+        "ColorBlock": 865,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2020-02-20T12:01:33.511353+01:00",
+        "LastChanged": "2004-12-02T14:32:12.6301912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "nam",
+        "ExtraInfo": "sint",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Nathaniel Ortiz",
+        "FullName": "Rubie Veum DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 363
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "soluta",
+    "ExtraInfo": "qui",
+    "StyleHint": "iste",
     "Hidden": false,
-    "FullName": "Rosetta Gorczany Jr.",
+    "FullName": "Mac Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

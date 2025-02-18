@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 655,
-  "WorkflowId": 841,
+  "WorkflowTriggerId": 199,
+  "WorkflowId": 285,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Daniel LLC",
-      "Description": "Seamless empowering encryption",
-      "Rank": 234,
+      "Name": "Watsica, Stiedemann and McLaughlin",
+      "Description": "Organic composite neural-net",
+      "Rank": 638,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Daniel LLC",
-      "Description": "Seamless empowering encryption",
-      "Rank": 234,
+      "Name": "Watsica, Stiedemann and McLaughlin",
+      "Description": "Organic composite neural-net",
+      "Rank": 638,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 315
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

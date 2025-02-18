@@ -66,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian-Luettgen",
-    "Operator": "in",
+    "Name": "Nolan Inc and Sons",
+    "Operator": "odit",
     "Values": [
-      "tempora",
-      "quos"
+      "molestiae",
+      "rerum"
     ],
     "DisplayValues": [
-      "autem",
-      "omnis"
+      "dignissimos",
+      "velit"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bradtke Group",
-        "Operator": "reprehenderit",
+        "Name": "Runolfsson Inc and Sons",
+        "Operator": "iste",
         "Values": [
-          "molestiae",
-          "delectus"
+          "est",
+          "qui"
         ],
         "DisplayValues": [
-          "nulla",
-          "officiis"
+          "quo",
+          "ut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 459,
+        "InterParenthesis": 256,
         "InterOperator": "And",
-        "UniqueHash": 160
+        "UniqueHash": 145
       }
     ],
-    "InterParenthesis": 372,
+    "InterParenthesis": 560,
     "InterOperator": "And",
-    "UniqueHash": 893
+    "UniqueHash": 921
   }
 ]
 ```

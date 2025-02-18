@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 327,
+  "LatestKnownEventId": 438,
   "PublishEvents": [
     {
-      "EventId": 653,
-      "EventName": "Cummings Group",
+      "EventId": 357,
+      "EventName": "Greenholt Group",
       "EntityType": "et",
-      "EntityKey": 633,
-      "AssociateId": 562,
-      "AssociateName": "Dooley-Conroy",
-      "EventDateTime": "2001-09-11T12:01:28.6347153+02:00"
+      "EntityKey": 477,
+      "AssociateId": 551,
+      "AssociateName": "Kihn-Satterfield",
+      "EventDateTime": "2002-05-19T14:32:04.3740199+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Wisoky, Mills and Stiedemann",
-      "Value": 297
+      "Name": "Larson-Ebert",
+      "Value": 391
     },
     {
-      "Name": "Wisoky, Mills and Stiedemann",
-      "Value": 297
+      "Name": "Larson-Ebert",
+      "Value": 391
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 94,
-    "EventName": "Parker, Daniel and Powlowski",
-    "EntityType": "perferendis",
-    "EntityKey": 358,
-    "AssociateId": 263,
-    "AssociateName": "Hauck Inc and Sons",
-    "EventDateTime": "2013-05-27T12:01:28.6347153+02:00",
+    "EventId": 435,
+    "EventName": "Shields-Frami",
+    "EntityType": "alias",
+    "EntityKey": 692,
+    "AssociateId": 214,
+    "AssociateName": "Bechtelar-Walter",
+    "EventDateTime": "2006-07-06T14:32:04.3740199+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 403
       }
     }
   }

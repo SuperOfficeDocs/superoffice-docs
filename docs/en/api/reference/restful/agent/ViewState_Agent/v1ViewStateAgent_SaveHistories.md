@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Schoen Group",
+  "HistoryName": "Kunze-Denesik",
   "History": [
     {
-      "Rank": 179,
-      "Id": 33,
-      "HistoryName": "Lakin, Hoppe and Mueller",
-      "HistoryId": 193,
-      "AssociateId": 682,
-      "Name": "Lakin Inc and Sons",
-      "ItemInfo": "architecto"
+      "Rank": 482,
+      "Id": 838,
+      "HistoryName": "Carter LLC",
+      "HistoryId": 407,
+      "AssociateId": 352,
+      "Name": "Kirlin, Grant and Veum",
+      "ItemInfo": "natus"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 97,
-    "Id": 463,
-    "HistoryName": "Upton-Schiller",
-    "HistoryId": 180,
-    "AssociateId": 513,
-    "Name": "Nitzsche-Heidenreich",
-    "ItemInfo": "nam",
+    "Rank": 877,
+    "Id": 386,
+    "HistoryName": "Mitchell, Wiza and Monahan",
+    "HistoryId": 944,
+    "AssociateId": 339,
+    "Name": "Glover-Johnston",
+    "ItemInfo": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 333
       }
     }
   }

@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 450,
-  "Name": "Abbott-Rowe",
-  "Tooltip": "et",
+  "Id": 522,
+  "Name": "Raynor-Bradtke",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 801,
-  "IsCustomList": true,
+  "Rank": 542,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "veritatis",
+  "ListType": "magni",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 803
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

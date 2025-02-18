@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ipsa",
+  "SaleText": "saepe",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-10-28T12:01:33.1832049+02:00",
-  "Amount": 7462.054,
-  "SaleId": 608,
-  "Earning": 10232.51,
-  "EarningPercent": 1118.838,
-  "Heading": "at",
-  "Number": "1261306",
-  "Probability": 240,
-  "CreatedDate": "2010-06-07T12:01:33.1832049+02:00",
-  "UpdatedDate": "2001-02-03T12:01:33.1832049+01:00",
+  "Saledate": "2006-11-11T14:32:12.0053335+01:00",
+  "Amount": 6437.236,
+  "SaleId": 864,
+  "Earning": 24758.6,
+  "EarningPercent": 28691.77,
+  "Heading": "nam",
+  "Number": "1060842",
+  "Probability": 953,
+  "CreatedDate": "2002-10-15T14:32:12.0053335+02:00",
+  "UpdatedDate": "2014-09-07T14:32:12.0053335+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 993,
+  "ActiveLinks": 608,
   "Links": [
     {
-      "EntityName": "Gleichner, Morar and Orn",
-      "Id": 512,
-      "Description": "Synergized full-range capacity",
-      "ExtraInfo": "enim",
-      "LinkId": 489
+      "EntityName": "Pfannerstill LLC",
+      "Id": 207,
+      "Description": "Progressive object-oriented focus group",
+      "ExtraInfo": "ex",
+      "LinkId": 744
     },
     {
-      "EntityName": "Gleichner, Morar and Orn",
-      "Id": 512,
-      "Description": "Synergized full-range capacity",
-      "ExtraInfo": "enim",
-      "LinkId": 489
+      "EntityName": "Pfannerstill LLC",
+      "Id": 207,
+      "Description": "Progressive object-oriented focus group",
+      "ExtraInfo": "ex",
+      "LinkId": 744
     }
   ],
-  "NextDueDate": "2017-09-23T12:01:33.1832049+02:00",
-  "Postit": "eos",
+  "NextDueDate": "2014-02-06T14:32:12.0053335+01:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-08-19T12:01:33.1832049+02:00",
+  "ReopenDate": "2021-08-18T14:32:12.0053335+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koelpin-Runolfsdottir",
-      "Comment": "eum",
-      "StakeholderRoleId": 622,
-      "CountryId": 439,
-      "PersonId": 652,
-      "EmailDescription": "melba@kreiger.biz",
-      "EmailId": 790,
-      "EmailAddress": "diego@rau.us",
-      "PhoneId": 320,
-      "ContactName": "Stehr-Howell",
-      "ContactId": 153,
-      "SaleId": 111,
-      "Mrmrs": "sunt",
-      "Firstname": "Ruthie",
-      "MiddleName": "Hackett, Kreiger and Prosacco",
-      "Lastname": "Greenholt",
-      "SaleStakeholderId": 935,
-      "Rank": 877,
-      "Phone": "(246)542-5963 x13704"
+      "StakeholderRoleName": "Hettinger Group",
+      "Comment": "necessitatibus",
+      "StakeholderRoleId": 832,
+      "CountryId": 545,
+      "PersonId": 765,
+      "EmailDescription": "rowan.schultz@hettingertromp.us",
+      "EmailId": 424,
+      "EmailAddress": "rafaela_eichmann@gutmann.com",
+      "PhoneId": 530,
+      "ContactName": "Reilly, Murazik and Emmerich",
+      "ContactId": 921,
+      "SaleId": 19,
+      "Mrmrs": "quibusdam",
+      "Firstname": "Carson",
+      "MiddleName": "Walter-Gerhold",
+      "Lastname": "Dach",
+      "SaleStakeholderId": 926,
+      "Rank": 62,
+      "Phone": "046.380.9052"
     }
   ],
-  "ActiveErpLinks": 611,
+  "ActiveErpLinks": 943,
   "UserDefinedFields": {
-    "SuperOffice:1": "68961446",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Davon Murazik",
+    "SuperOffice:2": "Lessie VonRueden"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "molestias"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2023-05-26T12:01:33.1832049+02:00",
-  "PublishTo": "2011-07-01T12:01:33.1832049+02:00",
-  "PublishFrom": "2000-05-30T12:01:33.1832049+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-08-03T14:32:12.0053335+02:00",
+  "PublishTo": "2006-04-14T14:32:12.0053335+02:00",
+  "PublishFrom": "2016-12-12T14:32:12.0053335+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 546,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "suscipit"
     },
     {
-      "VisibleId": 546,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "suscipit"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "maiores",
-  "2": "et"
+  "1": "distinctio",
+  "2": "accusantium"
 }
 ```

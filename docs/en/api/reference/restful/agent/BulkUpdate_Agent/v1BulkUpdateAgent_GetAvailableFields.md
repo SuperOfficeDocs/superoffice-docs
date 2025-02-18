@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -105,74 +105,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "similique",
-    "ValueType": "id",
+    "Key": "dicta",
+    "ValueType": "aut",
     "Mandatory": false,
-    "EncodedDisplayName": "Hickle-Stanton",
-    "EncodedDisplayDescription": "Progressive full-range functionalities",
-    "IconHint": "quas",
+    "EncodedDisplayName": "Braun LLC",
+    "EncodedDisplayDescription": "Multi-channelled disintermediate parallelism",
+    "IconHint": "modi",
     "ControlInfos": [
       {
-        "Type": "ut",
-        "Label": "dicta",
-        "Dimension": 982,
-        "ListProviderName": "Lehner, Windler and Jenkins",
-        "ListProviderExtraInfo": "sapiente",
-        "ListProviderPrimaryKeyName": "Greenfelder LLC",
-        "ListLeadText": "omnis",
+        "Type": "commodi",
+        "Label": "nemo",
+        "Dimension": 367,
+        "ListProviderName": "Gusikowski Inc and Sons",
+        "ListProviderExtraInfo": "quasi",
+        "ListProviderPrimaryKeyName": "Lockman Inc and Sons",
+        "ListLeadText": "unde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldType": "System.String",
+            "FieldLength": 751
           }
         }
       }
     ],
-    "EncodedDataCaption": "asperiores",
-    "EncodedDataCaptionDescription": "Managed local artificial intelligence",
-    "CurrentOperationType": "quia",
+    "EncodedDataCaption": "molestiae",
+    "EncodedDataCaptionDescription": "Reduced mission-critical methodology",
+    "CurrentOperationType": "dolorum",
     "Values": [
-      "non",
-      "tenetur"
+      "et",
+      "fuga"
     ],
     "DisplayValues": [
-      "eum",
-      "maxime"
+      "unde",
+      "ea"
     ],
     "OperationInfos": [
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
+        "Key": "ea",
+        "EncodedDisplayName": "McCullough, Jacobson and Mosciski",
         "EncodedLeadTexts": [
-          "sit",
-          "dignissimos"
+          "ut",
+          "odit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       },
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
+        "Key": "ea",
+        "EncodedDisplayName": "McCullough, Jacobson and Mosciski",
         "EncodedLeadTexts": [
-          "sit",
-          "dignissimos"
+          "ut",
+          "odit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldType": "System.String",
+            "FieldLength": 501
           }
         }
       }

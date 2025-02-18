@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ea",
+  "ProgId": "laudantium",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 497,
-  "ColumnId": 94,
-  "FieldDefault": "aliquid",
-  "FieldHeight": 245,
-  "FieldLabel": "eveniet",
-  "FieldLeft": 747,
-  "FieldTop": 490,
+  "UDefFieldId": 316,
+  "ColumnId": 246,
+  "FieldDefault": "et",
+  "FieldHeight": 154,
+  "FieldLabel": "porro",
+  "FieldLeft": 450,
+  "FieldTop": 747,
   "FieldType": "Checkbox",
-  "FieldWidth": 14,
-  "FormatMask": "dolores",
+  "FieldWidth": 820,
+  "FormatMask": "deserunt",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 47,
-  "LabelLeft": 613,
-  "LabelTop": 726,
-  "LabelWidth": 805,
-  "LastVersionId": 192,
-  "ListTableId": 970,
-  "IsMandatory": false,
+  "LabelHeight": 769,
+  "LabelLeft": 784,
+  "LabelTop": 342,
+  "LabelWidth": 246,
+  "LastVersionId": 84,
+  "ListTableId": 748,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 253,
-  "ProgId": "ut",
-  "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 180,
-  "TextLength": 489,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 83,
-  "UDListDefinitionId": 815,
+  "Page1LineNo": 57,
+  "ProgId": "qui",
+  "IsReadOnly": true,
+  "ShortLabel": "accusamus",
+  "TabOrder": 155,
+  "TextLength": 822,
+  "Tooltip": "fugiat",
+  "UdefIdentity": 362,
+  "UDListDefinitionId": 800,
   "Justification": "Center",
-  "Version": 606,
-  "TemplateVariableName": "Flatley Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Gleichner LLC",
+  "Version": 430,
+  "TemplateVariableName": "Herman-Stracke",
+  "HasBeenPublished": false,
+  "MdoListName": "Hickle Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 957
     }
   }
 }

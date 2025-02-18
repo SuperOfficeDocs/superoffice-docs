@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 851,
-  "ListItemId": 607,
+  "UdListDefinitionId": 596,
+  "ListItemId": 2,
   "Headings": [
     {
-      "Id": 479,
-      "Name": "Heaney Group",
-      "ToolTip": "Quis voluptas.",
+      "Id": 416,
+      "Name": "Roberts, Williamson and Reynolds",
+      "ToolTip": "Aliquam et minus perspiciatis qui inventore.",
       "Deleted": true,
-      "Rank": 443,
-      "Type": "dignissimos",
-      "ColorBlock": 82,
-      "IconHint": "nam",
+      "Rank": 799,
+      "Type": "sed",
+      "ColorBlock": 824,
+      "IconHint": "hic",
       "Selected": true,
-      "LastChanged": "2021-12-07T12:01:27.9471677+01:00",
+      "LastChanged": "2003-06-25T14:32:03.124104+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "itaque",
+      "ExtraInfo": "esse",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Aubrey Gibson"
+      "FullName": "Mr. Tavares Durgan DVM"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Heidenreich, Batz and Shanahan",
-    "ToolTip": "Iusto est ea.",
-    "Deleted": true,
-    "Rank": 460,
-    "Type": "consectetur",
-    "ColorBlock": 424,
-    "IconHint": "eaque",
+    "Id": 174,
+    "Name": "Green Inc and Sons",
+    "ToolTip": "Et rerum placeat enim.",
+    "Deleted": false,
+    "Rank": 871,
+    "Type": "totam",
+    "ColorBlock": 346,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2008-12-29T12:01:27.9471677+01:00",
+    "LastChanged": "2007-08-13T14:32:03.124104+02:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Koch LLC",
-        "ToolTip": "Neque ut reiciendis.",
+        "Id": 807,
+        "Name": "Kunde Inc and Sons",
+        "ToolTip": "Temporibus dolorem aspernatur excepturi.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "temporibus",
-        "ColorBlock": 651,
-        "IconHint": "harum",
+        "Rank": 644,
+        "Type": "non",
+        "ColorBlock": 743,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2009-09-17T12:01:27.9471677+02:00",
+        "LastChanged": "2004-10-11T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "similique",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Marianne Ankunding",
+        "FullName": "Miss Katrina Shea Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "ab",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Elliott Herzog",
+    "FullName": "Prof. Roman Mavis Davis DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 51
+        "FieldType": "System.Int32",
+        "FieldLength": 407
       }
     }
   }

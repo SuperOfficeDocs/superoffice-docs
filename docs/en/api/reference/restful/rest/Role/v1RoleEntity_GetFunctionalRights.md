@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Maggio Group",
-    "ToolTip": "Sit odit.",
-    "Deleted": false,
-    "Rank": 617,
-    "Type": "quos",
-    "ColorBlock": 375,
-    "IconHint": "placeat",
-    "Selected": true,
-    "LastChanged": "2007-12-24T12:01:33.0425704+01:00",
+    "Id": 706,
+    "Name": "Reilly LLC",
+    "ToolTip": "Quae aliquid.",
+    "Deleted": true,
+    "Rank": 602,
+    "Type": "id",
+    "ColorBlock": 486,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2003-11-29T14:32:11.7397687+01:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Langosh, Dickens and Stark",
-        "ToolTip": "Sint dolor consequuntur nostrum quo est dolorem.",
-        "Deleted": true,
-        "Rank": 859,
-        "Type": "voluptatem",
-        "ColorBlock": 84,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "1997-11-12T12:01:33.0425704+01:00",
+        "Id": 922,
+        "Name": "Kerluke Group",
+        "ToolTip": "Nihil rerum saepe.",
+        "Deleted": false,
+        "Rank": 115,
+        "Type": "magnam",
+        "ColorBlock": 161,
+        "IconHint": "possimus",
+        "Selected": false,
+        "LastChanged": "2010-02-20T14:32:11.7397687+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "autem",
-        "Hidden": false,
-        "FullName": "Kaylah Ullrich",
+        "ExtraInfo": "ea",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Waino Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 592
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "blanditiis",
-    "Hidden": false,
-    "FullName": "Dr. Freddie Tracey Schumm",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Prof. Alberta Wolff DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

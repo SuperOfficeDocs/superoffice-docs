@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 901,
+  "DocumentId": 284,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "fugit",
-  "Header": "et",
-  "Name": "Carroll-Brown",
-  "OurRef": "ad",
-  "YourRef": "rerum",
-  "CreatedDate": "2007-04-08T12:01:27.7284021+02:00",
-  "UpdatedDate": "2009-03-14T12:01:27.7284021+01:00",
-  "Description": "Streamlined dedicated interface",
+  "Attention": "doloremque",
+  "Header": "in",
+  "Name": "Hettinger-Reilly",
+  "OurRef": "assumenda",
+  "YourRef": "minus",
+  "CreatedDate": "2016-07-30T14:32:02.7023269+02:00",
+  "UpdatedDate": "2024-05-02T14:32:02.7023269+02:00",
+  "Description": "Organic bottom-line model",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-03-01T12:01:27.7284021+01:00",
-  "ExternalRef": "reiciendis",
+  "Date": "2014-08-15T14:32:02.7023269+02:00",
+  "ExternalRef": "cumque",
   "Completed": "Completed",
-  "ActiveLinks": 912,
+  "ActiveLinks": 854,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bailey Group",
-      "Id": 873,
-      "Description": "Visionary encompassing complexity",
-      "ExtraInfo": "voluptates",
-      "LinkId": 383,
+      "EntityName": "Rice-Hahn",
+      "Id": 959,
+      "Description": "Customizable systemic function",
+      "ExtraInfo": "accusantium",
+      "LinkId": 603,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 791
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 827,
-  "Snum": 686,
+  "SuggestedDocumentId": 359,
+  "Snum": 148,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Ottis Predovic",
-    "SuperOffice:2": "Betsy Ondricka"
+    "SuperOffice:1": "Myrl Kshlerin",
+    "SuperOffice:2": "Owen Ritchie"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "facere"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "libero"
+    "CustomFields1": "eos",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2018-11-13T12:01:27.7284021+01:00",
-  "PublishTo": "2020-06-29T12:01:27.7284021+02:00",
-  "PublishFrom": "2005-04-28T12:01:27.7284021+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2024-02-02T14:32:02.7023269+01:00",
+  "PublishTo": "2009-02-26T14:32:02.7023269+01:00",
+  "PublishFrom": "1998-02-19T14:32:02.7023269+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 29,
+      "VisibleId": 770,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 555
         }
       }
     },
     {
-      "VisibleId": 29,
+      "VisibleId": 770,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 555
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

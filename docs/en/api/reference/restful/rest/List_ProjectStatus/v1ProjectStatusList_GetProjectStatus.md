@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 979,
-  "Name": "Parisian LLC",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "UdListDefinitionId": 579,
-  "Rank": 835,
+  "Id": 427,
+  "Name": "Blick, Hand and Ledner",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "UdListDefinitionId": 32,
+  "Rank": 38,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 512
+      "FieldLength": 808
     }
   }
 }

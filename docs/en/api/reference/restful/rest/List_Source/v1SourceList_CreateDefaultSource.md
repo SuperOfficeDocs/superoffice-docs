@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Keebler Inc and Sons",
-  "Tooltip": "voluptatum",
+  "Id": 263,
+  "Name": "Larkin Group",
+  "Tooltip": "cupiditate",
   "Deleted": true,
-  "UdListDefinitionId": 895,
-  "Rank": 995,
+  "UdListDefinitionId": 964,
+  "Rank": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldType": "System.String",
+      "FieldLength": 130
     }
   }
 }

@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 661,
-  "Name": "Tremblay, Shanahan and Hodkiewicz",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "Rank": 573,
+  "Id": 803,
+  "Name": "Huel, Pagac and Parker",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 890,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
-  "InUseByUserDefinedFields": true
+  "ListType": "hic",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 957,
-  "Name": "Price Group",
-  "Tooltip": "nesciunt",
+  "Id": 355,
+  "Name": "Blanda, Gislason and Sanford",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 754,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": true,
+  "Rank": 382,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldType": "System.String",
+      "FieldLength": 33
     }
   }
 }

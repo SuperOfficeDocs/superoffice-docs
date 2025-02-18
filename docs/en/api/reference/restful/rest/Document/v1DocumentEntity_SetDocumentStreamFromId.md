@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 872,
+  "DocumentId": 60,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolorum",
-  "Header": "nihil",
-  "Name": "Mante-Haley",
-  "OurRef": "mollitia",
-  "YourRef": "beatae",
-  "CreatedDate": "2016-11-03T12:01:32.8863099+01:00",
-  "UpdatedDate": "2018-04-30T12:01:32.8863099+02:00",
-  "Description": "Digitized systemic strategy",
+  "Attention": "animi",
+  "Header": "ea",
+  "Name": "Waters-Douglas",
+  "OurRef": "cum",
+  "YourRef": "doloremque",
+  "CreatedDate": "2015-10-25T14:32:11.4742093+01:00",
+  "UpdatedDate": "2013-09-11T14:32:11.4742093+02:00",
+  "Description": "Cloned even-keeled intranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-01-15T12:01:32.8863099+01:00",
-  "ExternalRef": "molestiae",
+  "Date": "2001-04-19T14:32:11.4742093+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 90,
+  "ActiveLinks": 315,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reynolds Group",
-      "Id": 774,
-      "Description": "Versatile optimizing service-desk",
-      "ExtraInfo": "rem",
-      "LinkId": 496,
+      "EntityName": "Hamill LLC",
+      "Id": 801,
+      "Description": "Mandatory transitional database",
+      "ExtraInfo": "cumque",
+      "LinkId": 137,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldLength": 150
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 214,
-  "Snum": 233,
+  "SuggestedDocumentId": 104,
+  "Snum": 398,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Tyrell Olaf Christiansen IV",
-    "SuperOffice:2": "Kale Bayer"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Dr. Ruby Amira Rath IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "cum"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "soluta"
   },
-  "PublishEventDate": "2018-11-21T12:01:32.8863099+01:00",
-  "PublishTo": "2014-03-06T12:01:32.8863099+01:00",
-  "PublishFrom": "2000-07-08T12:01:32.8863099+02:00",
+  "PublishEventDate": "2015-03-24T14:32:11.4742093+01:00",
+  "PublishTo": "2015-08-05T14:32:11.4742093+02:00",
+  "PublishFrom": "2023-10-30T14:32:11.4742093+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 426,
+      "VisibleId": 141,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     },
     {
-      "VisibleId": 426,
+      "VisibleId": 141,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 876
     }
   }
 }

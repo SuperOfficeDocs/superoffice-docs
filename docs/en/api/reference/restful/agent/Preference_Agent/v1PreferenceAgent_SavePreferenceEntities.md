@@ -65,23 +65,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "sint",
+      "RawValue": "rerum",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "ex",
+      "DisplayValue": "alias",
+      "DisplayTooltip": "ratione",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 97,
-      "PrefDescId": 246,
-      "TableName": "Kilback-Hand",
-      "UserPreferenceId": 538
+      "TargetId": 965,
+      "PrefDescId": 358,
+      "TableName": "Emmerich-Carroll",
+      "UserPreferenceId": 223
     }
   ],
   "RemoveLowerLevels": false

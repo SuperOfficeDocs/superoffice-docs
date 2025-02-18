@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Yost LLC",
-    "ToolTip": "Doloremque consequuntur dignissimos optio ducimus quia dolores corrupti.",
-    "Deleted": false,
-    "Rank": 56,
-    "Type": "nulla",
-    "ColorBlock": 985,
-    "IconHint": "velit",
+    "Id": 510,
+    "Name": "Hettinger, Kautzer and Armstrong",
+    "ToolTip": "Et veritatis et assumenda recusandae cumque voluptatem.",
+    "Deleted": true,
+    "Rank": 529,
+    "Type": "magnam",
+    "ColorBlock": 265,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2024-08-06T12:01:33.495727+02:00",
+    "LastChanged": "2005-09-23T14:32:12.5989482+02:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Moore, Reynolds and Lehner",
-        "ToolTip": "Unde molestiae eos nostrum eos minima.",
+        "Id": 565,
+        "Name": "Heller-Collins",
+        "ToolTip": "Assumenda fuga dolor tenetur quia nulla.",
         "Deleted": true,
-        "Rank": 634,
-        "Type": "porro",
-        "ColorBlock": 907,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2015-02-05T12:01:33.495727+01:00",
+        "Rank": 375,
+        "Type": "id",
+        "ColorBlock": 368,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "2014-09-08T14:32:12.5989482+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolorum",
-        "Hidden": true,
-        "FullName": "Alia Schmeler",
+        "ExtraInfo": "tempora",
+        "StyleHint": "eius",
+        "Hidden": false,
+        "FullName": "Emilio Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 465
+            "FieldType": "System.Int32",
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "fugiat",
     "Hidden": false,
-    "FullName": "Maureen Stoltenberg",
+    "FullName": "Prof. Lawrence Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 64
       }
     }
   }

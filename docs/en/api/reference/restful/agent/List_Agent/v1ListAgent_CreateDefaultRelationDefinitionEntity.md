@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 503,
-  "Name": "Reynolds LLC",
-  "Tooltip": "nemo",
-  "PassiveText": "dolorem",
-  "Deleted": true,
-  "Rank": 357,
+  "ReldefId": 701,
+  "Name": "Kuvalis LLC",
+  "Tooltip": "sunt",
+  "PassiveText": "iusto",
+  "Deleted": false,
+  "Rank": 485,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

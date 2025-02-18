@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=distinctio
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Kilback, Dach and Witting",
-    "ToolTip": "Et officia porro.",
-    "Deleted": false,
-    "Rank": 571,
-    "Type": "doloribus",
+    "Id": 472,
+    "Name": "Reilly Inc and Sons",
+    "ToolTip": "Unde omnis a ad perspiciatis ab.",
+    "Deleted": true,
+    "Rank": 705,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Considine-Bode",
-        "ToolTip": "Et aut sed ab quasi asperiores facilis.",
+        "Id": 699,
+        "Name": "Grant Inc and Sons",
+        "ToolTip": "Quas corrupti quasi omnis eligendi dignissimos aspernatur.",
         "Deleted": false,
-        "Rank": 95,
-        "Type": "dolorem",
+        "Rank": 891,
+        "Type": "fugiat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "incidunt",
-        "ColorBlock": 557,
-        "ExtraInfo": "magnam",
+        "IconHint": "ut",
+        "ColorBlock": 81,
+        "ExtraInfo": "ipsum",
         "StyleHint": "aut",
-        "FullName": "Sammy Reynolds",
+        "FullName": "Rasheed Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldType": "System.String",
+            "FieldLength": 686
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 983,
-    "ExtraInfo": "rem",
-    "StyleHint": "error",
-    "FullName": "Tremayne Dickinson",
+    "IconHint": "est",
+    "ColorBlock": 515,
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "FullName": "Beulah Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 779
       }
     }
   }

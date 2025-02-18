@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Willms Group",
-  "Tooltip": "optio",
+  "Id": 228,
+  "Name": "O'Connell, Stehr and Mitchell",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 747,
+  "Rank": 642,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 400
     }
   },
   "_Links": {

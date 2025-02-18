@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stoltenberg Group",
-  "GroupId": 202
+  "UdListDefinitionName": "Muller-Greenholt",
+  "GroupId": 781
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Weissnat, Hermann and Champlin",
-    "ToolTip": "Voluptatibus sit nihil ducimus porro.",
+    "Id": 358,
+    "Name": "Hermann-Hansen",
+    "ToolTip": "Et saepe odit eum tenetur ea mollitia.",
     "Deleted": false,
-    "Rank": 587,
-    "Type": "et",
-    "ColorBlock": 126,
-    "IconHint": "tenetur",
+    "Rank": 415,
+    "Type": "nam",
+    "ColorBlock": 627,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2014-10-01T12:01:27.9471677+02:00",
+    "LastChanged": "2006-02-18T14:32:03.124104+01:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Ullrich Group",
-        "ToolTip": "Qui perferendis beatae.",
+        "Id": 175,
+        "Name": "Waters-Conn",
+        "ToolTip": "Qui iusto dolorem sit voluptas.",
         "Deleted": true,
-        "Rank": 880,
-        "Type": "corporis",
-        "ColorBlock": 207,
-        "IconHint": "voluptatem",
+        "Rank": 960,
+        "Type": "vel",
+        "ColorBlock": 260,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2007-07-22T12:01:27.9471677+02:00",
+        "LastChanged": "2002-04-22T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "est",
+        "ExtraInfo": "rem",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Trycia Lemke",
+        "FullName": "Ezra Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 447
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Elsa Darby Williamson IV",
+    "ExtraInfo": "rerum",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Lizzie Waters",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 196
       }
     }
   }

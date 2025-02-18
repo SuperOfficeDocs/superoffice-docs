@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=106
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=93
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 393,
-  "Name": "Cormier Group",
-  "Description": "Profound impactful process improvement",
-  "DefaultHeight": 369,
-  "DefaultWidth": 942,
+  "DashboardTileDefinitionId": 149,
+  "Name": "Kub, Koepp and Howe",
+  "Description": "Digitized optimal middleware",
+  "DefaultHeight": 161,
+  "DefaultWidth": 216,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Barrows Inc and Sons",
-  "SelectionId": 193,
+  "EntityName": "Rau-Smitham",
+  "SelectionId": 55,
   "CurrencyMode": "Base",
-  "CurrencyCode": "numquam",
+  "CurrencyCode": "voluptate",
   "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "neque",
-  "LayoutConfig": "recusandae",
-  "SecondarySelectionId": 48,
-  "MeasureByField": "aperiam",
+  "MeasureField": "corporis",
+  "SortBy": "fugiat",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 640,
+  "MeasureByField": "voluptate",
   "Usage": "Dashboard",
-  "ProviderName": "Gorczany Inc and Sons",
+  "ProviderName": "Lesch Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

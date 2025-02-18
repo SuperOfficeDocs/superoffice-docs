@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 519,
-  "BlobSize": 326,
-  "Description": "Expanded directional projection",
-  "ExtraInfo": "fugiat",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "ducimus",
-  "OriginalSize": 234,
-  "CreatedDate": "1998-06-11T12:01:33.3394662+02:00",
-  "UpdatedDate": "2022-12-10T12:01:33.3394662+01:00",
+  "BlobId": 254,
+  "BlobSize": 335,
+  "Description": "Down-sized analyzing process improvement",
+  "ExtraInfo": "accusamus",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "nihil",
+  "OriginalSize": 894,
+  "CreatedDate": "2016-04-12T14:32:12.302144+02:00",
+  "UpdatedDate": "2007-07-30T14:32:12.302144+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis"
+  "ConceptualType": "provident"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 205,
-  "BlobSize": 992,
-  "Description": "Cross-platform uniform portal",
-  "ExtraInfo": "ducimus",
+  "BlobId": 780,
+  "BlobSize": 239,
+  "Description": "Horizontal 5th generation Graphic Interface",
+  "ExtraInfo": "id",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nulla",
-  "OriginalSize": 521,
-  "CreatedDate": "2015-11-11T12:01:33.3394662+01:00",
-  "UpdatedDate": "2021-03-08T12:01:33.3394662+01:00",
+  "IsZipped": false,
+  "MimeType": "illo",
+  "OriginalSize": 7,
+  "CreatedDate": "2019-05-18T14:32:12.302144+02:00",
+  "UpdatedDate": "2017-01-19T14:32:12.302144+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rem",
+  "ConceptualType": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

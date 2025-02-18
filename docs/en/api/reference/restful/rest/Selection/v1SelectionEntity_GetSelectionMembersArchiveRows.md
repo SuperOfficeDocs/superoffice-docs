@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sed",
+  "odata.nextLink": "asperiores",
   "value": [
     {
-      "PrimaryKey": 8697,
-      "EntityName": "person",
-      "personId": 8697,
-      "fullName": "Mrs. Glenna Ahmad Boyle"
+      "PrimaryKey": 7634,
+      "EntityName": "sale",
+      "saleId": 7634,
+      "contactId": 7444,
+      "name": "Sporer-Osinski"
     },
     {
-      "PrimaryKey": 5737,
-      "EntityName": "person",
-      "personId": 5737,
-      "fullName": "Jeanne Prosacco"
+      "PrimaryKey": 423,
+      "EntityName": "sale",
+      "saleId": 423,
+      "contactId": 9479,
+      "name": "Kohler-Runolfsdottir"
     }
   ]
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 88,
-    "Name": "Maggio-Crona",
-    "Tooltip": "et",
+    "HeadingId": 789,
+    "Name": "Zieme LLC",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 193,
-    "UdListDefinitionId": 381,
+    "Rank": 677,
+    "UdListDefinitionId": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 203
       }
     }
   }

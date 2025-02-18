@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Baumbach-Durgan",
-    "ToolTip": "Ab pariatur non corrupti aut.",
-    "Deleted": false,
-    "Rank": 528,
-    "Type": "facere",
-    "ColorBlock": 303,
-    "IconHint": "nostrum",
+    "Id": 770,
+    "Name": "O'Kon Inc and Sons",
+    "ToolTip": "Rerum voluptates culpa doloribus sequi corrupti.",
+    "Deleted": true,
+    "Rank": 579,
+    "Type": "non",
+    "ColorBlock": 794,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2023-08-13T12:01:33.4644748+02:00",
+    "LastChanged": "1999-06-05T14:32:12.5364687+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Block, Windler and Schaefer",
-        "ToolTip": "Facilis placeat aut exercitationem eaque iure.",
-        "Deleted": true,
-        "Rank": 565,
-        "Type": "voluptatum",
-        "ColorBlock": 144,
-        "IconHint": "voluptas",
+        "Id": 178,
+        "Name": "Kutch, Gorczany and Conroy",
+        "ToolTip": "Rerum doloremque sunt.",
+        "Deleted": false,
+        "Rank": 40,
+        "Type": "tempore",
+        "ColorBlock": 375,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "1998-07-20T12:01:33.4644748+02:00",
+        "LastChanged": "2019-03-30T14:32:12.5364687+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "eum",
+        "StyleHint": "corporis",
         "Hidden": false,
-        "FullName": "Salvador Conroy",
+        "FullName": "Ms. Mittie Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 397
+            "FieldType": "System.String",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "vero",
-    "Hidden": false,
-    "FullName": "Mackenzie Tromp",
+    "ExtraInfo": "libero",
+    "StyleHint": "blanditiis",
+    "Hidden": true,
+    "FullName": "Sim Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 996
       }
     }
   }

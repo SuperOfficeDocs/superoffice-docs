@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Stamm-Sawayn"
+  "HistoryName": "Bayer, Crona and Bergnaum"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 331,
-  "Id": 360,
-  "HistoryName": "Wintheiser, D'Amore and Lockman",
-  "HistoryId": 367,
-  "AssociateId": 324,
-  "Name": "Cormier-Klein",
-  "ItemInfo": "qui",
+  "Rank": 527,
+  "Id": 762,
+  "HistoryName": "Pagac Group",
+  "HistoryId": 377,
+  "AssociateId": 337,
+  "Name": "Reilly-Lockman",
+  "ItemInfo": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 822
     }
   }
 }

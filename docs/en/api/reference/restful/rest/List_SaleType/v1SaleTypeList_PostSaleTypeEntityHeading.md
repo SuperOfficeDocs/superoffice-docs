@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 815,
-  "Name": "Schaden, Crist and Greenholt",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 128,
-  "UdListDefinitionId": 657
+  "HeadingId": 470,
+  "Name": "Streich-Crooks",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 685,
+  "UdListDefinitionId": 38
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 103,
-  "Name": "McCullough-Glover",
-  "Tooltip": "in",
+  "HeadingId": 544,
+  "Name": "Watsica, Schamberger and Kiehn",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 649,
-  "UdListDefinitionId": 502,
+  "Rank": 186,
+  "UdListDefinitionId": 594,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 310
     }
   }
 }

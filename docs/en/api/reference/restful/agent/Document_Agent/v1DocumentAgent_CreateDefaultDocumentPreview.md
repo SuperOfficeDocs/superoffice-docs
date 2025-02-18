@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus Group",
-  "Type": "reiciendis",
-  "Size": 677,
+  "Name": "Hills, Marks and Rogahn",
+  "Type": "quis",
+  "Size": 543,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldType": "System.Int32",
+      "FieldLength": 630
     }
   }
 }

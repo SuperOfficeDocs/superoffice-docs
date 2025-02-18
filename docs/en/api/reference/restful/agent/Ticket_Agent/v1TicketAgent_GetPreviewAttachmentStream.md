@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Ticket/GetPreviewAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 612
+  "AttachmentId": 255
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langworth LLC",
-  "Type": "veritatis",
-  "Size": 98,
+  "Name": "Crona, Lynch and Zboncak",
+  "Type": "tempore",
+  "Size": 710,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

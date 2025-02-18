@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 382
+  "SelectionId": 481
 }
 ```
 
@@ -92,58 +92,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke, Carter and Pacocha",
-    "Description": "Grass-roots asynchronous Graphic Interface",
-    "Rank": 598,
+    "Name": "Lynch Group",
+    "Description": "User-friendly mobile model",
+    "Rank": 825,
     "Restrictions": [
       {
-        "Name": "Nicolas, Russel and Schuster",
-        "Operator": "qui",
+        "Name": "Daugherty-Corkery",
+        "Operator": "quasi",
         "Values": [
-          "sit",
-          "non"
+          "dolor",
+          "consequatur"
         ],
         "DisplayValues": [
-          "esse",
-          "illo"
+          "odio",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 479,
         "InterOperator": "And",
-        "UniqueHash": 740
+        "UniqueHash": 533
       }
     ]
   },
   {
-    "Name": "Bradtke, Carter and Pacocha",
-    "Description": "Grass-roots asynchronous Graphic Interface",
-    "Rank": 598,
+    "Name": "Lynch Group",
+    "Description": "User-friendly mobile model",
+    "Rank": 825,
     "Restrictions": [
       {
-        "Name": "Nicolas, Russel and Schuster",
-        "Operator": "qui",
+        "Name": "Daugherty-Corkery",
+        "Operator": "quasi",
         "Values": [
-          "sit",
-          "non"
+          "dolor",
+          "consequatur"
         ],
         "DisplayValues": [
-          "esse",
-          "illo"
+          "odio",
+          "dolorem"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 479,
         "InterOperator": "And",
-        "UniqueHash": 740
+        "UniqueHash": 533
       }
     ]
   }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Thiel LLC",
-  "StorageKey": "quia"
+  "StorageType": "laudantium",
+  "ProviderName": "Grady-Torp",
+  "StorageKey": "itaque"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Huels-Harris",
-    "DisplayTooltip": "iste",
-    "DisplayType": "iure",
-    "CanOrderBy": false,
-    "Name": "Kemmer-Haag",
+    "DisplayName": "Parker LLC",
+    "DisplayTooltip": "ut",
+    "DisplayType": "modi",
+    "CanOrderBy": true,
+    "Name": "Ondricka, Gorczany and Mueller",
     "CanRestrictBy": false,
-    "RestrictionType": "accusantium",
-    "RestrictionListName": "Zulauf, Senger and Barrows",
-    "IsVisible": false,
-    "ExtraInfo": "facere",
-    "Width": "velit",
-    "IconHint": "error",
-    "HeadingIconHint": "totam"
+    "RestrictionType": "a",
+    "RestrictionListName": "Howe-Swaniawski",
+    "IsVisible": true,
+    "ExtraInfo": "harum",
+    "Width": "dolorem",
+    "IconHint": "omnis",
+    "HeadingIconHint": "esse"
   }
 ]
 ```

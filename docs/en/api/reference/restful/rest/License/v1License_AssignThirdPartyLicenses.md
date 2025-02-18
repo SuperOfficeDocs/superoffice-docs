@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 554,
-    "Tooltip": "qui",
+    "Unrestricted": true,
+    "Total": 250,
+    "Tooltip": "nisi",
     "CanAssign": true,
-    "Free": 612,
-    "InUse": 946,
-    "IsHidden": false,
+    "Free": 161,
+    "InUse": 398,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 672,
-    "Name": "Mills-Yost",
-    "Description": "Ameliorated methodical toolset",
-    "PrerequisiteModuleName": "Bailey-Gottlieb",
-    "SortOrder": 146,
-    "ExtraFlags": 888,
+    "ModuleLicenseId": 497,
+    "Name": "Russel, Cole and Yost",
+    "Description": "Fully-configurable discrete application",
+    "PrerequisiteModuleName": "O'Kon LLC",
+    "SortOrder": 647,
+    "ExtraFlags": 66,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 222
       }
     }
   }

@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 96,
-  "Section": "quidem",
-  "Key": "qui",
-  "Name": "Kub Inc and Sons",
+  "PrefDescId": 923,
+  "Section": "quia",
+  "Key": "rerum",
+  "Name": "Kihn-Kemmer",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized 24/7 flexibility",
-  "IsBuiltin": false,
-  "TableName": "Bechtelar Inc and Sons",
-  "UserDefinedListId": 360,
-  "Rank": 803,
-  "SubGroup": "facilis",
-  "MinLevel": 274,
-  "MaxValue": 169,
-  "MinValue": 754,
-  "RequiredLicense": "et",
+  "Description": "Networked demand-driven model",
+  "IsBuiltin": true,
+  "TableName": "Bartoletti-Spinka",
+  "UserDefinedListId": 562,
+  "Rank": 916,
+  "SubGroup": "qui",
+  "MinLevel": 142,
+  "MaxValue": 665,
+  "MinValue": 333,
+  "RequiredLicense": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 446
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

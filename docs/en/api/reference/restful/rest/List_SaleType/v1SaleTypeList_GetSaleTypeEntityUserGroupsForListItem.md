@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Spinka Inc and Sons",
-    "ToolTip": "Nam animi incidunt nihil qui ad a id.",
+    "Id": 336,
+    "Name": "Skiles LLC",
+    "ToolTip": "Architecto ut.",
     "Deleted": false,
-    "Rank": 172,
-    "Type": "aliquam",
-    "ColorBlock": 250,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2006-09-01T12:01:33.6519877+02:00",
+    "Rank": 935,
+    "Type": "quia",
+    "ColorBlock": 220,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2019-07-02T14:32:12.9116131+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Yundt, Swaniawski and Gutkowski",
-        "ToolTip": "Aut et.",
-        "Deleted": true,
-        "Rank": 83,
-        "Type": "omnis",
-        "ColorBlock": 391,
-        "IconHint": "ut",
+        "Id": 453,
+        "Name": "Huels-Johns",
+        "ToolTip": "Doloribus earum illo esse inventore.",
+        "Deleted": false,
+        "Rank": 436,
+        "Type": "magni",
+        "ColorBlock": 295,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2023-07-10T12:01:33.6519877+02:00",
+        "LastChanged": "1997-09-30T14:32:12.9116131+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "quidem",
+        "ExtraInfo": "earum",
+        "StyleHint": "facere",
         "Hidden": true,
-        "FullName": "Evie Olson",
+        "FullName": "Scotty Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Dr. Blake Schuster",
+    "ExtraInfo": "quis",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Mr. Davon Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 255
       }
     }
   }

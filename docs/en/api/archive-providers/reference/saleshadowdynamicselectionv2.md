@@ -1309,7 +1309,7 @@ Sale shadow selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=nextDueDate,person/personAddress/formattedMultiLineAddress,contact/registeredByFullName,contact/contactInterestIds,appointment/appointmentUdef/SuperOffice:3
+GET /api/v1/archive/SaleShadowDynamicSelectionV2?$select=person/whenUpdatedByWorkflow,person/email/emailAddress,contact/LastCompletedSale,document/text,document/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

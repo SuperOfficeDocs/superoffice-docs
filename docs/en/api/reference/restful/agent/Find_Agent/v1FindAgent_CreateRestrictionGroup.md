@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Morissette, Walker and Jakubowski",
-  "StorageKey": "illo",
-  "Context": "cupiditate"
+  "StorageType": "commodi",
+  "ProviderName": "Lockman LLC",
+  "StorageKey": "aliquam",
+  "Context": "ipsa"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Stamm, Muller and Lowe",
-  "Description": "Face to face upward-trending moderator",
-  "Rank": 949,
+  "Name": "Upton-Powlowski",
+  "Description": "Multi-layered motivating toolset",
+  "Rank": 848,
   "Restrictions": [
     {
-      "Name": "Champlin Group",
-      "Operator": "fuga",
+      "Name": "Fritsch, Hansen and Doyle",
+      "Operator": "quis",
       "Values": [
-        "pariatur",
-        "quisquam"
+        "qui",
+        "velit"
       ],
       "DisplayValues": [
-        "vel",
-        "et"
+        "modi",
+        "odit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 406,
       "InterOperator": "And",
-      "UniqueHash": 40
+      "UniqueHash": 69
     }
   ]
 }

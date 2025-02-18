@@ -64,11 +64,11 @@ No Content
 POST /api/v1/Agents/Preference/DeletePrefDescLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 181
+  "PrefDescId": 107
 }
 ```
 

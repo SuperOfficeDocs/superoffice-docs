@@ -25,7 +25,7 @@ Deletes the ConfigurableScreenDelta
 | ConfigurableScreenDeltaId | int32 | **Required** The id of the ConfigurableScreenDelta to be deleted. |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=229
+POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta?ConfigurableScreenDeltaId=849
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Configuration/DeleteConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

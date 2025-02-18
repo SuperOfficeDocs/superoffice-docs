@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    38,
-    767
+    34,
+    641
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 839,
+  "EjMessageId": 896,
   "Ticket": null,
-  "CreatedAt": "2002-10-02T12:01:28.5565847+02:00",
+  "CreatedAt": "2019-09-27T14:32:04.2178019+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "unde",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatibus",
-  "TimeSpent": 170,
-  "Body": "consequuntur",
-  "HtmlBody": "cum",
-  "EmailHeader": "noemy@huels.com",
-  "DebugInfo": "distinctio",
-  "MailSorter": "officia",
+  "MessageId": "quod",
+  "TimeSpent": 653,
+  "Body": "reiciendis",
+  "HtmlBody": "numquam",
+  "EmailHeader": "beth@weimann.uk",
+  "DebugInfo": "nemo",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "accusantium",
   "MessageHeaders": [
     {
-      "Id": 9,
-      "Name": "Lockman, Wiza and Stehr",
-      "Value": "enim",
+      "Id": 236,
+      "Name": "Flatley, Satterfield and Casper",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolor",
-  "Sentiment": 357,
-  "SentimentConfidence": 613,
+  "Language": "sunt",
+  "Sentiment": 120,
+  "SentimentConfidence": 909,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 846,
-      "Name": "Bernier-McKenzie",
-      "ContentType": "autem",
-      "AttSize": 364,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "aut",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 152,
+      "Name": "Veum Inc and Sons",
+      "ContentType": "dolor",
+      "AttSize": 851,
+      "InlineImage": false,
+      "ContentId": "at",
+      "AuthKey": "incidunt",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldLength": 104
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "at"
+    "ExtraFields1": "repellendus",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aut"
+    "CustomFields1": "quas",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 358
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Veum Inc and Sons",
-    "ToolTip": "Sint ex.",
-    "Deleted": true,
-    "Rank": 385,
-    "Type": "incidunt",
-    "ColorBlock": 826,
-    "IconHint": "vel",
+    "Id": 872,
+    "Name": "Schultz LLC",
+    "ToolTip": "Dolor beatae ad id quia qui natus.",
+    "Deleted": false,
+    "Rank": 534,
+    "Type": "nam",
+    "ColorBlock": 270,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2020-10-08T12:01:33.448849+02:00",
+    "LastChanged": "2007-11-14T14:32:12.5052197+01:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Hilll, Grady and King",
-        "ToolTip": "Fugit ea vel officiis non dolorem et.",
+        "Id": 703,
+        "Name": "Fahey Inc and Sons",
+        "ToolTip": "Quis est praesentium voluptates maxime.",
         "Deleted": false,
-        "Rank": 970,
-        "Type": "dolor",
-        "ColorBlock": 610,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2002-11-28T12:01:33.448849+01:00",
+        "Rank": 629,
+        "Type": "maiores",
+        "ColorBlock": 887,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2015-07-01T14:32:12.5052197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Laisha Goodwin Sr."
+        "ExtraInfo": "laborum",
+        "StyleHint": "repellat",
+        "Hidden": false,
+        "FullName": "Marlon Welch"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Candice Weber"
+    "FullName": "Delilah Jewess"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Sunt qui dolor et.",
-    "Deleted": false,
-    "Rank": 637,
-    "Type": "aut",
-    "ColorBlock": 677,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2023-01-22T12:01:33.448849+01:00",
+    "Id": 576,
+    "Name": "Hane-Fahey",
+    "ToolTip": "Dignissimos unde.",
+    "Deleted": true,
+    "Rank": 594,
+    "Type": "eum",
+    "ColorBlock": 243,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2020-03-17T14:32:12.5052197+01:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Larkin, Hessel and Bernier",
-        "ToolTip": "Omnis voluptas.",
+        "Id": 656,
+        "Name": "Hansen Group",
+        "ToolTip": "Et dignissimos.",
         "Deleted": false,
-        "Rank": 883,
-        "Type": "et",
-        "ColorBlock": 441,
-        "IconHint": "voluptates",
+        "Rank": 348,
+        "Type": "non",
+        "ColorBlock": 19,
+        "IconHint": "natus",
         "Selected": true,
-        "LastChanged": "2023-09-19T12:01:33.448849+02:00",
+        "LastChanged": "2014-07-15T14:32:12.5052197+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Miss Augustine Avis Carter V",
+        "ExtraInfo": "facilis",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Adela Nicolas Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldType": "System.String",
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "consequuntur",
-    "Hidden": true,
-    "FullName": "Agustin Leannon",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Miss Thaddeus Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 584
       }
     }
   }

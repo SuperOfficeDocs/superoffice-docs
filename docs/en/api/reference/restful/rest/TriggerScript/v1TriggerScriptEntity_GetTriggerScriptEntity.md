@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 772,
-  "Name": "Oberbrunner Inc and Sons",
+  "ScreenChooserId": 650,
+  "Name": "Rolfson-Berge",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "beatae",
-  "Registered": "2024-09-09T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 762,
-  "Updated": "2014-09-18T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 347,
+  "Enabled": false,
+  "UniqueIdentifier": "eligendi",
+  "Source": "magni",
+  "Registered": "2022-06-27T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 141,
+  "Updated": "2006-09-21T14:32:12.2240348+02:00",
+  "UpdatedAssociateId": 259,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 73
     }
   },
   "_Links": {

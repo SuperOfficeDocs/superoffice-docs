@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Huels-Cruickshank",
-    "ToolTip": "Amet nesciunt est repellendus perferendis.",
+    "Id": 121,
+    "Name": "Nikolaus Inc and Sons",
+    "ToolTip": "Excepturi corporis odit voluptas qui.",
     "Deleted": false,
-    "Rank": 910,
-    "Type": "dolor",
-    "ColorBlock": 711,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2000-07-24T12:01:33.6676138+02:00",
+    "Rank": 538,
+    "Type": "modi",
+    "ColorBlock": 377,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2009-05-23T14:32:12.9428597+02:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Strosin LLC",
-        "ToolTip": "Est non nihil voluptas fugiat dolorum aut.",
+        "Id": 217,
+        "Name": "Reynolds, DuBuque and Rempel",
+        "ToolTip": "Sed vitae commodi omnis sunt est magnam.",
         "Deleted": false,
-        "Rank": 876,
-        "Type": "consequatur",
-        "ColorBlock": 779,
-        "IconHint": "ullam",
+        "Rank": 318,
+        "Type": "sapiente",
+        "ColorBlock": 890,
+        "IconHint": "in",
         "Selected": true,
-        "LastChanged": "2008-08-01T12:01:33.6676138+02:00",
+        "LastChanged": "2024-12-03T14:32:12.9428597+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sit",
+        "StyleHint": "at",
         "Hidden": false,
-        "FullName": "Norbert Hauck",
+        "FullName": "Hertha Romaguera",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Ms. Cloyd Samir Feeney",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "reiciendis",
+    "Hidden": false,
+    "FullName": "Marianne Amalia Donnelly I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldLength": 305
       }
     }
   }

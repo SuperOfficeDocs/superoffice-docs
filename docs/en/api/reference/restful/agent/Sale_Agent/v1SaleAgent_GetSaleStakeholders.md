@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 330
+  "SaleId": 354
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schmidt, Windler and O'Connell",
-    "Comment": "mollitia",
-    "StakeholderRoleId": 53,
-    "CountryId": 349,
-    "PersonId": 780,
-    "EmailDescription": "laila@pourossatterfield.com",
-    "EmailId": 31,
-    "EmailAddress": "miracle.hagenes@towne.uk",
-    "PhoneId": 876,
-    "ContactName": "Yost, Stehr and Bednar",
-    "ContactId": 522,
-    "SaleId": 727,
-    "Mrmrs": "error",
-    "Firstname": "Myrna",
-    "MiddleName": "Cole, Schumm and Kemmer",
-    "Lastname": "Borer",
-    "SaleStakeholderId": 364,
-    "Rank": 926,
-    "Phone": "314-023-6383 x28471",
+    "StakeholderRoleName": "Hermann Inc and Sons",
+    "Comment": "provident",
+    "StakeholderRoleId": 698,
+    "CountryId": 621,
+    "PersonId": 842,
+    "EmailDescription": "yasmine@johns.us",
+    "EmailId": 525,
+    "EmailAddress": "lonnie@jewess.uk",
+    "PhoneId": 216,
+    "ContactName": "Hauck-Parisian",
+    "ContactId": 58,
+    "SaleId": 5,
+    "Mrmrs": "sed",
+    "Firstname": "Dayna",
+    "MiddleName": "Erdman LLC",
+    "Lastname": "Shields",
+    "SaleStakeholderId": 697,
+    "Rank": 829,
+    "Phone": "283-636-7396 x3967",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldType": "System.String",
+        "FieldLength": 697
       }
     }
   }

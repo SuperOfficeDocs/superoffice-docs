@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 611,
-    "Name": "Doyle-Grady",
-    "ContentType": "unde",
-    "AttSize": 183,
+    "AttachmentId": 406,
+    "Name": "Schaden LLC",
+    "ContentType": "vel",
+    "AttSize": 418,
     "InlineImage": false,
-    "ContentId": "id",
-    "AuthKey": "impedit",
-    "IsSafeFileExtension": true,
+    "ContentId": "quis",
+    "AuthKey": "temporibus",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

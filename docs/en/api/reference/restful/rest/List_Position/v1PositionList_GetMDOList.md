@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=sed
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=suscipit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Flatley, Wolf and Bednar",
-    "ToolTip": "Et sapiente aut natus sit molestiae ad vel.",
+    "Id": 27,
+    "Name": "Lesch LLC",
+    "ToolTip": "Sunt sapiente omnis blanditiis voluptatem.",
     "Deleted": true,
-    "Rank": 65,
-    "Type": "ipsam",
+    "Rank": 298,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Wisoky LLC",
-        "ToolTip": "Dignissimos ullam sit iste corrupti aut.",
+        "Id": 328,
+        "Name": "Orn-Aufderhar",
+        "ToolTip": "Suscipit blanditiis culpa.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "quia",
+        "Rank": 810,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "soluta",
-        "ColorBlock": 351,
-        "ExtraInfo": "corporis",
-        "StyleHint": "animi",
-        "FullName": "Silas Fahey",
+        "IconHint": "ut",
+        "ColorBlock": 203,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "impedit",
+        "FullName": "Vicenta Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 538
+            "FieldLength": 430
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 286,
-    "ExtraInfo": "sed",
-    "StyleHint": "necessitatibus",
-    "FullName": "Garnet Kovacek",
+    "IconHint": "et",
+    "ColorBlock": 938,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "quas",
+    "FullName": "Michaela Trantow Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 453
       }
     }
   }

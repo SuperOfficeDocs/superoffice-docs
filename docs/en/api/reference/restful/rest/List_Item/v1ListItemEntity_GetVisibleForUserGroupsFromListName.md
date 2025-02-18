@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Spencer Group",
-    "ToolTip": "Fugiat consequuntur.",
-    "Deleted": false,
-    "Rank": 445,
-    "Type": "facilis",
-    "ColorBlock": 925,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2012-06-30T12:01:33.4175965+02:00",
+    "Id": 43,
+    "Name": "Lemke LLC",
+    "ToolTip": "Quod nulla provident eos natus minus.",
+    "Deleted": true,
+    "Rank": 71,
+    "Type": "eum",
+    "ColorBlock": 394,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2021-07-30T14:32:12.4427319+02:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Kuphal, Vandervort and Emard",
-        "ToolTip": "Rerum dolore blanditiis sed.",
-        "Deleted": false,
-        "Rank": 832,
-        "Type": "non",
-        "ColorBlock": 685,
-        "IconHint": "enim",
+        "Id": 499,
+        "Name": "Walter, Lubowitz and Satterfield",
+        "ToolTip": "Provident dolore dicta nobis vel.",
+        "Deleted": true,
+        "Rank": 815,
+        "Type": "corporis",
+        "ColorBlock": 965,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2004-12-11T12:01:33.4175965+01:00",
+        "LastChanged": "2015-02-03T14:32:12.4427319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Prof. Montana Liam Maggio V",
+        "FullName": "Chris Kiehn MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 31
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "nobis",
-    "Hidden": false,
-    "FullName": "Eldon Schuster III",
+    "ExtraInfo": "sit",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Mervin Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldType": "System.Int32",
+        "FieldLength": 885
       }
     }
   }

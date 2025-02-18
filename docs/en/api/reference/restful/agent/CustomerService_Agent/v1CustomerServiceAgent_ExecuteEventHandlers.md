@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "officia",
+    "InputValues1": "consequuntur",
     "InputValues2": "aut"
   },
   "BlockExecution": false,
-  "NavigateTo": "aliquam",
-  "Message": "aut",
-  "ShowDialog": "quisquam",
+  "NavigateTo": "quo",
+  "Message": "animi",
+  "ShowDialog": "occaecati",
   "OutputValues": {
-    "OutputValues1": "itaque",
-    "OutputValues2": "ipsa"
+    "OutputValues1": "aut",
+    "OutputValues2": "vel"
   },
   "StateValues": {
-    "StateValues1": "architecto",
-    "StateValues2": "amet"
+    "StateValues1": "dolorem",
+    "StateValues2": "et"
   },
-  "Exception": "cupiditate",
+  "Exception": "dolor",
   "ParserValues": {
-    "ParserValues1": "est",
-    "ParserValues2": "ut"
+    "ParserValues1": "quia",
+    "ParserValues2": "asperiores"
   },
   "CgiVariables": {
-    "CgiVariables1": "quae",
-    "CgiVariables2": "recusandae"
+    "CgiVariables1": "libero",
+    "CgiVariables2": "explicabo"
   },
-  "CgiContent": "atque",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "harum",
-    "Headers2": "debitis"
+    "Headers1": "est",
+    "Headers2": "dicta"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 888
     }
   }
 }

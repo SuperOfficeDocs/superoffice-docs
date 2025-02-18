@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 508,
-    "Name": "Windler, Pfeffer and Romaguera",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 338,
-    "UdListDefinitionId": 671
+    "HeadingId": 487,
+    "Name": "Olson Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 122
   },
   {
-    "HeadingId": 508,
-    "Name": "Windler, Pfeffer and Romaguera",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 338,
-    "UdListDefinitionId": 671
+    "HeadingId": 487,
+    "Name": "Olson Inc and Sons",
+    "Tooltip": "sit",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 122
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Aufderhar-Labadie",
-    "Tooltip": "cupiditate",
+    "HeadingId": 814,
+    "Name": "Fay Inc and Sons",
+    "Tooltip": "nam",
     "Deleted": true,
-    "Rank": 843,
-    "UdListDefinitionId": 250,
+    "Rank": 328,
+    "UdListDefinitionId": 289,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

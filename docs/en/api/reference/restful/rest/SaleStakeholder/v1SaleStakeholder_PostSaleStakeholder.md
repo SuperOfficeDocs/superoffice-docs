@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Block-Wolf",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 134,
-  "CountryId": 815,
-  "PersonId": 490,
-  "EmailDescription": "bernadette@hayesharvey.uk",
-  "EmailId": 610,
-  "EmailAddress": "reta_metz@gleason.name",
-  "PhoneId": 330,
-  "ContactName": "Barrows, McCullough and Cassin",
-  "ContactId": 554,
-  "SaleId": 372,
-  "Mrmrs": "fugit",
-  "Firstname": "Ezekiel",
-  "MiddleName": "Renner-Rodriguez",
-  "Lastname": "Raynor",
-  "SaleStakeholderId": 281,
-  "Rank": 288,
-  "Phone": "662.285.2670 x1921"
+  "StakeholderRoleName": "Nicolas-Stamm",
+  "Comment": "enim",
+  "StakeholderRoleId": 348,
+  "CountryId": 420,
+  "PersonId": 550,
+  "EmailDescription": "sophia_beatty@lemke.ca",
+  "EmailId": 738,
+  "EmailAddress": "felipe_davis@connjast.uk",
+  "PhoneId": 591,
+  "ContactName": "Haley Inc and Sons",
+  "ContactId": 233,
+  "SaleId": 652,
+  "Mrmrs": "cupiditate",
+  "Firstname": "Christopher",
+  "MiddleName": "D'Amore, Rau and Kuphal",
+  "Lastname": "Schumm",
+  "SaleStakeholderId": 708,
+  "Rank": 947,
+  "Phone": "1-223-012-8374 x471"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kemmer, Borer and Bayer",
-  "Comment": "nemo",
-  "StakeholderRoleId": 563,
-  "CountryId": 882,
-  "PersonId": 955,
-  "EmailDescription": "enola_labadie@kris.com",
-  "EmailId": 303,
-  "EmailAddress": "jacinthe@mcdermott.biz",
-  "PhoneId": 775,
-  "ContactName": "McKenzie, Ortiz and Roob",
-  "ContactId": 515,
-  "SaleId": 923,
-  "Mrmrs": "fugiat",
-  "Firstname": "Connie",
-  "MiddleName": "Pagac, Gaylord and Veum",
-  "Lastname": "Sanford",
-  "SaleStakeholderId": 983,
-  "Rank": 205,
-  "Phone": "828.877.8965 x55952",
+  "StakeholderRoleName": "Frami, Lindgren and Klocko",
+  "Comment": "sed",
+  "StakeholderRoleId": 436,
+  "CountryId": 272,
+  "PersonId": 594,
+  "EmailDescription": "aurelie@champlin.com",
+  "EmailId": 811,
+  "EmailAddress": "milan@lebsack.biz",
+  "PhoneId": 215,
+  "ContactName": "Block-Stanton",
+  "ContactId": 470,
+  "SaleId": 50,
+  "Mrmrs": "nisi",
+  "Firstname": "Eino",
+  "MiddleName": "Parisian Inc and Sons",
+  "Lastname": "Weber",
+  "SaleStakeholderId": 857,
+  "Rank": 7,
+  "Phone": "944.836.7280 x076",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldLength": 919
     }
   },
   "_Links": {

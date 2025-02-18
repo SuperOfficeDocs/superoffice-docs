@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "numquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "numquam",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 839,
-  "Name": "O'Reilly-Brakus",
-  "Config": "iste",
-  "Rank": 935,
-  "Client": "recusandae",
-  "Style": "vero",
+  "DashboardThemeId": 992,
+  "Name": "Hettinger-Heathcote",
+  "Config": "ipsam",
+  "Rank": 301,
+  "Client": "at",
+  "Style": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 147
     }
   },
   "_Links": {

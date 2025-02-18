@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=distinctio
+GET /api/v1/List/Country/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Welch-Larkin",
-    "ToolTip": "Voluptatem tempore sit qui.",
+    "Id": 817,
+    "Name": "Cruickshank, Crona and Conn",
+    "ToolTip": "Eos sunt omnis impedit possimus impedit.",
     "Deleted": false,
-    "Rank": 133,
-    "Type": "sunt",
+    "Rank": 974,
+    "Type": "modi",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Jacobi, Harris and Koelpin",
-        "ToolTip": "Id similique sint cupiditate.",
-        "Deleted": false,
-        "Rank": 590,
-        "Type": "et",
+        "Id": 138,
+        "Name": "Quigley-Kuhic",
+        "ToolTip": "Voluptatem culpa natus culpa beatae.",
+        "Deleted": true,
+        "Rank": 799,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 477,
-        "ExtraInfo": "possimus",
-        "StyleHint": "amet",
-        "FullName": "Laurence Ollie Lind Jr.",
+        "IconHint": "qui",
+        "ColorBlock": 592,
+        "ExtraInfo": "deserunt",
+        "StyleHint": "omnis",
+        "FullName": "Sonya Goodwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldLength": 967
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 404,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "eligendi",
-    "FullName": "Horace Berta Kertzmann DVM",
+    "IconHint": "vel",
+    "ColorBlock": 701,
+    "ExtraInfo": "dolor",
+    "StyleHint": "veniam",
+    "FullName": "Dr. Durward Manley Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 454
       }
     }
   }

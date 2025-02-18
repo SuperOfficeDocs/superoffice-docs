@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 38
+  "SelectedListId": 208
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 735,
-  "ColumnId": 164,
-  "FieldDefault": "odio",
-  "FieldHeight": 467,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 906,
-  "FieldTop": 164,
+  "UDefFieldId": 516,
+  "ColumnId": 377,
+  "FieldDefault": "ratione",
+  "FieldHeight": 199,
+  "FieldLabel": "vel",
+  "FieldLeft": 474,
+  "FieldTop": 162,
   "FieldType": "Checkbox",
-  "FieldWidth": 708,
-  "FormatMask": "in",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 87,
-  "LabelLeft": 515,
-  "LabelTop": 490,
-  "LabelWidth": 19,
-  "LastVersionId": 954,
-  "ListTableId": 769,
-  "IsMandatory": false,
+  "FieldWidth": 403,
+  "FormatMask": "aliquid",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 416,
+  "LabelLeft": 528,
+  "LabelTop": 387,
+  "LabelWidth": 742,
+  "LastVersionId": 459,
+  "ListTableId": 305,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 861,
-  "ProgId": "dolorum",
+  "Page1LineNo": 184,
+  "ProgId": "doloremque",
   "IsReadOnly": false,
-  "ShortLabel": "itaque",
-  "TabOrder": 893,
-  "TextLength": 201,
-  "Tooltip": "blanditiis",
-  "UdefIdentity": 591,
-  "UDListDefinitionId": 470,
+  "ShortLabel": "amet",
+  "TabOrder": 451,
+  "TextLength": 838,
+  "Tooltip": "ex",
+  "UdefIdentity": 510,
+  "UDListDefinitionId": 420,
   "Justification": "Center",
-  "Version": 804,
-  "TemplateVariableName": "Gutkowski Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Gulgowski Inc and Sons",
+  "Version": 670,
+  "TemplateVariableName": "Feeney-Von",
+  "HasBeenPublished": false,
+  "MdoListName": "Zieme LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

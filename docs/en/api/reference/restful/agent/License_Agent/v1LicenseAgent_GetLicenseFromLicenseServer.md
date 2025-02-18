@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Windler, Mills and Wisozk"
+  "OwnerName": "Gleichner, Douglas and Stanton"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 43,
-      "NumberOfLicensesFree": 596,
-      "NumberOfLicensesAdded": 902,
-      "NumberOfLicensesNewTotal": 753,
-      "NumberOfLicensesNewFree": 311,
-      "NumberOfLicensesTotal": 512
+      "NumberOfLicensesInUse": 422,
+      "NumberOfLicensesFree": 186,
+      "NumberOfLicensesAdded": 256,
+      "NumberOfLicensesNewTotal": 309,
+      "NumberOfLicensesNewFree": 300,
+      "NumberOfLicensesTotal": 351
     }
   ],
-  "AccumulatedNextCheckDate": "2007-03-19T12:01:27.9159153+01:00"
+  "AccumulatedNextCheckDate": "2004-02-23T14:32:03.0459963+01:00"
 }
 ```

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 May 2004 12:01:32 G5T
+Last-Modified: Sun, 06 Oct 2019 14:32:11 G10T
 
 {
-  "BlobId": 764,
-  "BlobSize": 446,
-  "Description": "Profit-focused heuristic paradigm",
-  "ExtraInfo": "explicabo",
+  "BlobId": 547,
+  "BlobSize": 479,
+  "Description": "User-centric 4th generation methodology",
+  "ExtraInfo": "minima",
   "IsEncrypted": true,
-  "IsZipped": false,
+  "IsZipped": true,
   "MimeType": "ut",
-  "OriginalSize": 533,
-  "CreatedDate": "2016-09-30T12:01:32.9956921+02:00",
-  "UpdatedDate": "2004-05-14T12:01:32.9956921+02:00",
+  "OriginalSize": 311,
+  "CreatedDate": "1998-03-14T14:32:11.6460402+01:00",
+  "UpdatedDate": "2019-10-06T14:32:11.6460402+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "velit",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 264
     }
   }
 }

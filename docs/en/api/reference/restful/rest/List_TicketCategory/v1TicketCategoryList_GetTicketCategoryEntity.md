@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 989,
-  "ParentId": 460,
-  "Name": "Stroman-Pfeffer",
-  "Fullname": "consequatur",
-  "CategoryMaster": 965,
+  "TicketCategoryId": 961,
+  "ParentId": 679,
+  "Name": "Koss-Cole",
+  "Fullname": "velit",
+  "CategoryMaster": 100,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schmitt, Stracke and Johnson",
+  "ExternalName": "Bogan Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 970,
-  "ReplyTemplate": 149,
-  "NotificationEmail": "gordon_jacobson@ferry.biz",
+  "AssignmentLag": 595,
+  "ReplyTemplate": 289,
+  "NotificationEmail": "jewel_spinka@jaskolski.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 431,
+  "EffectiveReplyTemplateId": 919,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "hic"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "voluptatem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

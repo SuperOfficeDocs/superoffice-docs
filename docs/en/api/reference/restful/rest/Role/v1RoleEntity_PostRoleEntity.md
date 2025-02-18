@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 367,
-  "Name": "Jacobi Group",
-  "Tooltip": "perferendis",
+  "RoleId": 880,
+  "Name": "Lynch Inc and Sons",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 971,
-  "Rank": 156,
-  "Created": "2017-08-21T12:01:33.0269443+02:00",
-  "UseCategories": 85,
+  "Deleted": 642,
+  "Rank": 900,
+  "Created": "2001-09-05T14:32:11.7241465+02:00",
+  "UseCategories": 438,
   "CreatedBy": null,
-  "Updated": "2014-06-19T12:01:33.0269443+02:00",
+  "Updated": "2008-08-06T14:32:11.7241465+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 363,
-  "Name": "Roberts, Bogisich and Predovic",
-  "Tooltip": "eius",
+  "RoleId": 454,
+  "Name": "Pollich, Anderson and Beatty",
+  "Tooltip": "odit",
   "RoleType": "Anonymous",
-  "Deleted": 165,
-  "Rank": 563,
-  "Created": "2006-11-24T12:01:33.0269443+01:00",
-  "UseCategories": 54,
+  "Deleted": 678,
+  "Rank": 841,
+  "Created": "2007-12-01T14:32:11.7241465+01:00",
+  "UseCategories": 494,
   "CreatedBy": null,
-  "Updated": "2003-04-22T12:01:33.0269443+02:00",
+  "Updated": "2017-03-20T14:32:11.7241465+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   },
   "_Links": {

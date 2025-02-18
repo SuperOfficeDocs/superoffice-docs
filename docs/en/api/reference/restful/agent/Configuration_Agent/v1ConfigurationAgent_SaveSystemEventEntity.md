@@ -85,15 +85,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 166,
+  "SystemEventId": 459,
   "Scope": "Database",
-  "Eta": "2005-01-21T12:01:27.4471334+01:00",
-  "Eventkey": "libero",
-  "Eventmess": "aliquid",
-  "ExtraInfo": 369,
-  "Owner": 808,
-  "UpdatedCount": 690,
-  "Registered": "2010-05-17T12:01:27.4471334+02:00",
+  "Eta": "2020-11-09T14:32:02.2336819+01:00",
+  "Eventkey": "omnis",
+  "Eventmess": "aut",
+  "ExtraInfo": 248,
+  "Owner": 779,
+  "UpdatedCount": 126,
+  "Registered": "2011-12-13T14:32:02.2336819+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 985,
+  "SystemEventId": 341,
   "Scope": "Database",
-  "Eta": "2001-11-01T12:01:27.4471334+01:00",
-  "Eventkey": "earum",
-  "Eventmess": "est",
-  "ExtraInfo": 612,
-  "Owner": 569,
-  "UpdatedCount": 178,
-  "Registered": "2006-08-02T12:01:27.4471334+02:00",
+  "Eta": "2015-05-25T14:32:02.2336819+02:00",
+  "Eventkey": "id",
+  "Eventmess": "et",
+  "ExtraInfo": 581,
+  "Owner": 319,
+  "UpdatedCount": 391,
+  "Registered": "2003-03-26T14:32:02.2336819+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 561
     }
   }
 }

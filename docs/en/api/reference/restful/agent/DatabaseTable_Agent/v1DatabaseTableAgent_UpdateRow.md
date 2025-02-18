@@ -70,11 +70,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber-Zboncak",
-  "Id": 108,
+  "TableName": "Cummerata, Boyle and Bradtke",
+  "Id": 499,
   "Values": {
-    "Values1": "rerum",
-    "Values2": "asperiores"
+    "Values1": "ipsum",
+    "Values2": "omnis"
   }
 }
 ```

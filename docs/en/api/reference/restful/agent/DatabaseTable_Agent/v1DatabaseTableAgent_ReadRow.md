@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Balistreri Group",
-  "Id": 462
+  "TableName": "Pfannerstill-Baumbach",
+  "Id": 726
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "reiciendis",
-    "Values2": "provident"
+    "Values1": "error",
+    "Values2": "consequuntur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 472
     }
   }
 }

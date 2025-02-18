@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalledList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Value": "sunt",
-    "Tooltip": "illum",
+    "Id": 55,
+    "Value": "voluptatem",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 325
       }
     }
   },
   {
-    "Id": 872,
-    "Value": "sunt",
-    "Tooltip": "illum",
+    "Id": 55,
+    "Value": "voluptatem",
+    "Tooltip": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 325
       }
     }
   }

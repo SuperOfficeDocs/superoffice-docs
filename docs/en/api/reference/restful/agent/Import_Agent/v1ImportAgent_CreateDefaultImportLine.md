@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountColumns": 531
+  "CountColumns": 323
 }
 ```
 
@@ -93,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": [
-    "harum",
-    "sed"
+    "voluptas",
+    "ullam"
   ],
-  "Selected": false,
+  "Selected": true,
   "Operation": "ContactAdded",
   "Type": "Contact",
-  "ExternalKey": "provident",
+  "ExternalKey": "natus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

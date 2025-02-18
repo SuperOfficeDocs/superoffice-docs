@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Daugherty, Schneider and Bogan",
-    "ToolTip": "Quas maxime omnis nihil maxime dolores iusto.",
+    "Id": 368,
+    "Name": "Will-Greenholt",
+    "ToolTip": "Quia sequi cumque.",
     "Deleted": false,
-    "Rank": 46,
-    "Type": "expedita",
-    "ColorBlock": 164,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2009-10-26T12:01:33.495727+01:00",
+    "Rank": 857,
+    "Type": "sed",
+    "ColorBlock": 834,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2014-10-24T14:32:12.583328+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Williamson-Cassin",
-        "ToolTip": "Sapiente voluptas distinctio.",
-        "Deleted": true,
-        "Rank": 196,
-        "Type": "repellendus",
-        "ColorBlock": 900,
-        "IconHint": "optio",
+        "Id": 884,
+        "Name": "Padberg Group",
+        "ToolTip": "Ratione odit tempore rerum illo pariatur qui.",
+        "Deleted": false,
+        "Rank": 45,
+        "Type": "consequatur",
+        "ColorBlock": 740,
+        "IconHint": "odit",
         "Selected": true,
-        "LastChanged": "2001-10-05T12:01:33.495727+02:00",
+        "LastChanged": "2010-09-23T14:32:12.583328+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "at",
         "Hidden": true,
-        "FullName": "Mr. Titus McGlynn"
+        "FullName": "Durward Buckridge"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Ernestine Reilly"
+    "ExtraInfo": "ducimus",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Tyree Abshire"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Gulgowski-Stanton",
-    "ToolTip": "Minima dolor.",
+    "Id": 599,
+    "Name": "Ritchie-Prosacco",
+    "ToolTip": "Harum eveniet.",
     "Deleted": true,
-    "Rank": 161,
-    "Type": "esse",
-    "ColorBlock": 889,
-    "IconHint": "est",
+    "Rank": 983,
+    "Type": "fugiat",
+    "ColorBlock": 332,
+    "IconHint": "ab",
     "Selected": true,
-    "LastChanged": "2019-03-22T12:01:33.495727+01:00",
+    "LastChanged": "1999-10-31T14:32:12.583328+01:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Greenholt-Erdman",
-        "ToolTip": "Molestias nihil ut occaecati.",
+        "Id": 984,
+        "Name": "Nicolas Group",
+        "ToolTip": "Animi quis autem.",
         "Deleted": false,
-        "Rank": 662,
-        "Type": "voluptatum",
-        "ColorBlock": 828,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2008-10-28T12:01:33.495727+01:00",
+        "Rank": 647,
+        "Type": "expedita",
+        "ColorBlock": 82,
+        "IconHint": "officiis",
+        "Selected": false,
+        "LastChanged": "2023-07-06T14:32:12.583328+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "minima",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Ms. Joelle Russel Sauer",
+        "FullName": "Haley Ebert DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldType": "System.String",
+            "FieldLength": 10
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "facere",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "optio",
     "Hidden": true,
-    "FullName": "Natalie Beier",
+    "FullName": "Abel Hamill I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 316
       }
     }
   }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    804,
-    118
+    768,
+    656
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Schiller, Paucek and Steuber",
-    "ToolTip": "Sit vitae omnis eos et vel similique.",
+    "Id": 552,
+    "Name": "Kilback-Bogisich",
+    "ToolTip": "Voluptate sed non ducimus error.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "provident",
+    "Rank": 355,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Kulas, Feil and Murazik",
-        "ToolTip": "Amet quo sint.",
+        "Id": 501,
+        "Name": "Reynolds-Barton",
+        "ToolTip": "Aut ut omnis sunt tempore omnis sit ducimus.",
         "Deleted": false,
-        "Rank": 154,
-        "Type": "quis",
+        "Rank": 663,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 618,
-        "ExtraInfo": "natus",
-        "StyleHint": "dolores",
-        "FullName": "Kamille O'Conner",
+        "IconHint": "odio",
+        "ColorBlock": 157,
+        "ExtraInfo": "enim",
+        "StyleHint": "sit",
+        "FullName": "Jasen Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldLength": 738
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 973,
-    "ExtraInfo": "ut",
-    "StyleHint": "deserunt",
-    "FullName": "Beatrice Wisoky",
+    "IconHint": "vel",
+    "ColorBlock": 340,
+    "ExtraInfo": "hic",
+    "StyleHint": "aspernatur",
+    "FullName": "Hassie Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 295
       }
     }
   }

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 136
+  "ShipmentAddrId": 784
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2008-12-01T12:01:27.9940463+01:00",
+  "SendingTime": "2019-05-16T14:32:03.2180287+02:00",
   "Status": "Blocked",
-  "ShipmentId": 506,
-  "ShipmentDescription": "Open-source empowering project",
-  "FromAddress": "aut",
-  "Configuration": 58,
-  "ContactId": 282,
-  "ContactName": "King Group",
-  "PersonId": 479,
-  "PersonFullName": "Ms. Viva Crona III",
-  "ShipmentType": "vel",
-  "MessageId": 29,
-  "MessageSubject": "saepe",
-  "DocumentMessageId": 765,
-  "Opened": "2008-09-12T12:01:27.9940463+02:00",
-  "LinkClicks": 941,
+  "ShipmentId": 388,
+  "ShipmentDescription": "Monitored multi-state portal",
+  "FromAddress": "tempore",
+  "Configuration": 830,
+  "ContactId": 52,
+  "ContactName": "Heidenreich-McLaughlin",
+  "PersonId": 881,
+  "PersonFullName": "Mr. Bailey Quitzon DVM",
+  "ShipmentType": "magni",
+  "MessageId": 820,
+  "MessageSubject": "et",
+  "DocumentMessageId": 277,
+  "Opened": "2005-10-12T14:32:03.2180287+02:00",
+  "LinkClicks": 840,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 11
     }
   }
 }

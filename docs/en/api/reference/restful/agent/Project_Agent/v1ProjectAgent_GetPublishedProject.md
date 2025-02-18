@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 149
+  "ProjectId": 338
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 373,
-  "Name": "Predovic, Rippin and Okuneva",
-  "Description": "Proactive actuating contingency",
+  "ProjectId": 446,
+  "Name": "Lueilwitz LLC",
+  "Description": "Monitored logistical support",
   "URL": "http://www.example.com/",
-  "Type": "velit",
-  "AssociateId": 874,
-  "AssociateFullName": "Alverta Schultz",
-  "TypeId": 311,
-  "Updated": "2016-10-06T12:01:28.1659327+02:00",
-  "StatusId": 969,
-  "Status": "totam",
-  "TextId": 765,
-  "PublishTo": "2002-08-14T12:01:28.1659327+02:00",
-  "PublishFrom": "2016-09-22T12:01:28.1659327+02:00",
-  "IsPublished": true,
+  "Type": "dolorem",
+  "AssociateId": 870,
+  "AssociateFullName": "Delphia Barton",
+  "TypeId": 603,
+  "Updated": "2022-01-27T14:32:03.5148359+01:00",
+  "StatusId": 57,
+  "Status": "qui",
+  "TextId": 649,
+  "PublishTo": "2000-12-31T14:32:03.5148359+01:00",
+  "PublishFrom": "2013-05-19T14:32:03.5148359+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "639467",
-  "ActiveErpLinks": 222,
+  "ProjectNumber": "1556069",
+  "ActiveErpLinks": 16,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 252
     }
   }
 }

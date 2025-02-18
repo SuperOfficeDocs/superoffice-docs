@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 551,
-    "ParentId": 170,
-    "Name": "Gusikowski-Veum",
-    "Fullname": "alias",
-    "CategoryMaster": 738,
+    "TicketCategoryId": 709,
+    "ParentId": 652,
+    "Name": "Crona-Boyle",
+    "Fullname": "corrupti",
+    "CategoryMaster": 628,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Wolf-Wolff",
+    "ExternalName": "Johnson Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 521,
-    "ReplyTemplate": 146,
-    "NotificationEmail": "shayna@balistreri.ca",
+    "AssignmentLag": 669,
+    "ReplyTemplate": 406,
+    "NotificationEmail": "laila@monahan.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 397,
+    "EffectiveReplyTemplateId": 185,
     "ExtraFields": {
-      "ExtraFields1": "maiores",
-      "ExtraFields2": "possimus"
+      "ExtraFields1": "velit",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "doloribus",
-      "CustomFields2": "sed"
+      "CustomFields1": "natus",
+      "CustomFields2": "quod"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

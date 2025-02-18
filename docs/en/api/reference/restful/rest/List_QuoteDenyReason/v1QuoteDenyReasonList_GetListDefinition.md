@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Bernhard Inc and Sons",
-  "Tooltip": "voluptatem",
+  "Id": 233,
+  "Name": "Lowe-Orn",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 739,
+  "Rank": 982,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "error",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   },
   "_Links": {

@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=doloremque
+GET /api/v1/List/DocumentTemplate/MDOItems?query=rerum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Little Group",
-    "ToolTip": "Autem dolore.",
+    "Id": 950,
+    "Name": "Goldner, Cronin and Turner",
+    "ToolTip": "Natus sed veniam sit error.",
     "Deleted": true,
-    "Rank": 291,
-    "Type": "non",
+    "Rank": 442,
+    "Type": "magnam",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Rolfson-Kuhlman",
-        "ToolTip": "Sapiente ea fuga qui perspiciatis et dolore.",
+        "Id": 481,
+        "Name": "Blick, Harvey and Senger",
+        "ToolTip": "Aut quasi dolorum.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "qui",
+        "Rank": 428,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 283,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "aliquam",
-        "FullName": "Kaitlin Unique Gerlach DVM",
+        "IconHint": "tenetur",
+        "ColorBlock": 47,
+        "ExtraInfo": "architecto",
+        "StyleHint": "et",
+        "FullName": "Sidney Constantin Cormier II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldType": "System.Int32",
+            "FieldLength": 660
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 587,
-    "ExtraInfo": "corporis",
-    "StyleHint": "nihil",
-    "FullName": "Eloisa Will",
+    "IconHint": "sed",
+    "ColorBlock": 148,
+    "ExtraInfo": "rem",
+    "StyleHint": "sed",
+    "FullName": "Mae Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldLength": 168
       }
     }
   }

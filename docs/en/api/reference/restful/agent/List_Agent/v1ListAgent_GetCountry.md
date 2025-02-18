@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=976
+POST /api/v1/Agents/List/GetCountry?countryId=150
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 515,
-  "Name": "Rempel LLC",
-  "CurrencyId": 871,
-  "EnglishName": "Skiles-Schinner",
+  "CountryId": 225,
+  "Name": "Becker-Kub",
+  "CurrencyId": 29,
+  "EnglishName": "Christiansen-Waters",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized fault-tolerant collaboration",
-  "OrgNrText": "1103300",
-  "InterAreaPrefix": "voluptatem",
-  "DialInPrefix": "quaerat",
-  "ZipPrefix": "totam",
-  "DomainName": "Ratke-DuBuque",
-  "AddressLayoutId": 804,
-  "DomesticAddressLayoutId": 785,
-  "ForeignAddressLayoutId": 101,
-  "Rank": 116,
-  "Tooltip": "iste",
+  "ImageDescription": "Operative stable extranet",
+  "OrgNrText": "315737",
+  "InterAreaPrefix": "odit",
+  "DialInPrefix": "cumque",
+  "ZipPrefix": "facere",
+  "DomainName": "Russel LLC",
+  "AddressLayoutId": 794,
+  "DomesticAddressLayoutId": 718,
+  "ForeignAddressLayoutId": 953,
+  "Rank": 356,
+  "Tooltip": "quia",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 187
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Marvin LLC",
-    "ToolTip": "Reiciendis mollitia totam nobis iusto ratione eveniet in.",
-    "Deleted": false,
-    "Rank": 485,
-    "Type": "voluptatum",
-    "ColorBlock": 966,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2009-02-16T12:01:33.6051097+01:00",
+    "Id": 791,
+    "Name": "Smith-Langosh",
+    "ToolTip": "Quod illum voluptatum aut occaecati labore officia.",
+    "Deleted": true,
+    "Rank": 223,
+    "Type": "voluptates",
+    "ColorBlock": 338,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "1998-08-08T14:32:12.8022634+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Quitzon, Gleichner and Gleichner",
-        "ToolTip": "Qui fugit et quod nemo placeat.",
+        "Id": 157,
+        "Name": "Yundt-Terry",
+        "ToolTip": "Placeat porro voluptatem sit laudantium.",
         "Deleted": true,
-        "Rank": 370,
+        "Rank": 414,
         "Type": "ipsum",
-        "ColorBlock": 729,
-        "IconHint": "molestias",
+        "ColorBlock": 653,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2022-08-21T12:01:33.6051097+02:00",
+        "LastChanged": "2012-11-18T14:32:12.8022634+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "nostrum",
-        "Hidden": false,
-        "FullName": "Marianna Zboncak",
+        "ExtraInfo": "quasi",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Sadye Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldType": "System.String",
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "aperiam",
-    "Hidden": true,
-    "FullName": "Kristopher Koss",
+    "ExtraInfo": "sint",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Mr. Mark Noelia Homenick I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 331
       }
     }
   }

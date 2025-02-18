@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Auer, Schmitt and Runolfsson",
-    "DisplayName": "Sawayn-Erdman",
-    "Description": "Extended directional Graphic Interface",
-    "ToolTip": "Voluptates necessitatibus vitae qui rem sit.",
+    "Name": "Wehner, Mraz and Hermann",
+    "DisplayName": "Murray-Yost",
+    "Description": "Organic intermediate orchestration",
+    "ToolTip": "Rerum iusto est magni.",
     "Actions": "Implicit",
-    "ActionData": "perferendis",
+    "ActionData": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 3
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

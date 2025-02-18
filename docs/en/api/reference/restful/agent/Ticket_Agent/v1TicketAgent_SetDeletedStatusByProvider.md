@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lebsack, Pagac and Aufderhar",
+  "ProviderName": "Larson, Fahey and Berge",
   "Restrictions": [
     {
-      "Name": "Quitzon, Gislason and Orn",
-      "Operator": "et",
+      "Name": "Skiles, Olson and Anderson",
+      "Operator": "placeat",
       "Values": [
-        "ea",
-        "laboriosam"
+        "ipsam",
+        "ab"
       ],
       "DisplayValues": [
-        "est",
-        "consectetur"
+        "quia",
+        "ipsa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 330,
+      "InterParenthesis": 772,
       "InterOperator": "And",
-      "UniqueHash": 57
+      "UniqueHash": 800
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  530,
-  588
+  927,
+  434
 ]
 ```

@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=411
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=31
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 271,
+  "EjMessageId": 964,
   "Ticket": null,
-  "CreatedAt": "2006-01-29T12:01:28.5409587+01:00",
+  "CreatedAt": "2003-02-08T14:32:04.2021813+01:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "veniam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "non",
-  "TimeSpent": 326,
-  "Body": "placeat",
-  "HtmlBody": "amet",
-  "EmailHeader": "davon@becker.co.uk",
+  "MessageId": "nisi",
+  "TimeSpent": 849,
+  "Body": "amet",
+  "HtmlBody": "ea",
+  "EmailHeader": "isabell_ernser@yostleannon.biz",
   "DebugInfo": "qui",
-  "MailSorter": "quae",
+  "MailSorter": "nulla",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "aperiam",
   "MessageHeaders": [
     {
-      "Id": 308,
-      "Name": "Jacobs Inc and Sons",
-      "Value": "reprehenderit",
+      "Id": 658,
+      "Name": "Swift, Nitzsche and Towne",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 261
         }
       }
     }
   ],
   "Important": false,
-  "Language": "rerum",
-  "Sentiment": 977,
-  "SentimentConfidence": 942,
+  "Language": "cumque",
+  "Sentiment": 571,
+  "SentimentConfidence": 161,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 697,
-      "Name": "O'Reilly, Crona and Blick",
-      "ContentType": "hic",
-      "AttSize": 144,
+      "AttachmentId": 475,
+      "Name": "Sipes LLC",
+      "ContentType": "at",
+      "AttSize": 290,
       "InlineImage": false,
-      "ContentId": "quam",
-      "AuthKey": "molestiae",
+      "ContentId": "autem",
+      "AuthKey": "sed",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 58
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "eum"
+    "CustomFields1": "et",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 894
     }
   }
 }

@@ -654,7 +654,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/postAddress/city,mailingAddr/contact/contactUdef/SuperOffice:11,mailingAddr/person/correspondingAssociate/contactName,mailingAddr/person/correspondingAssociate/ejStatus,mailingAddr/person/correspondingAssociate/isActiveText
+GET /api/v1/archive/simpleshipment?$select=mailingAddr/contact/restrictionAddress/line1,mailingAddr/person/personAddress/formattedAddress,mailingAddr/person/correspondingAssociate/userName,emailFlow/workflowDefinitionStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

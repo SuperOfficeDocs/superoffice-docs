@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 470
+  "ContactId": 625
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "excepturi",
-    "PersonId": 917,
-    "Mrmrs": "soluta",
-    "Firstname": "Annabell",
-    "Lastname": "Hansen",
-    "MiddleName": "Prohaska LLC",
-    "Title": "illo",
-    "Description": "Multi-layered coherent service-desk",
-    "Email": "theresia@tremblay.biz",
-    "FullName": "Mrs. Logan Ansel Ruecker III",
-    "DirectPhone": "058-869-7979 x38087",
-    "FormalName": "Hahn Group",
-    "CountryId": 984,
-    "ContactId": 978,
-    "ContactName": "Ebert, Hills and Robel",
-    "Retired": 786,
-    "Rank": 522,
-    "ActiveInterests": 672,
+    "Position": "expedita",
+    "PersonId": 71,
+    "Mrmrs": "expedita",
+    "Firstname": "Norma",
+    "Lastname": "Harris",
+    "MiddleName": "Gerhold-Keebler",
+    "Title": "odio",
+    "Description": "Up-sized logistical customer loyalty",
+    "Email": "marlon@kirlinmueller.us",
+    "FullName": "Bernie Rolfson",
+    "DirectPhone": "085-689-5292",
+    "FormalName": "Ritchie-Turcotte",
+    "CountryId": 337,
+    "ContactId": 53,
+    "ContactName": "Nitzsche-Harris",
+    "Retired": 950,
+    "Rank": 445,
+    "ActiveInterests": 801,
     "ContactDepartment": "",
-    "ContactCountryId": 169,
-    "ContactOrgNr": "900418",
-    "FaxPhone": "1-081-459-3073 x20219",
-    "MobilePhone": "663-451-7284",
-    "ContactPhone": "(295)054-0259 x132",
-    "AssociateName": "Beatty Inc and Sons",
-    "AssociateId": 11,
-    "UsePersonAddress": false,
-    "ContactFax": "non",
-    "Kanafname": "inventore",
-    "Kanalname": "quibusdam",
-    "Post1": "harum",
-    "Post2": "omnis",
-    "Post3": "quod",
-    "EmailName": "abigail@roob.name",
-    "ContactFullName": "Torey Grady V",
-    "ActiveErpLinks": 206,
-    "TicketPriorityId": 638,
-    "SupportLanguageId": 48,
-    "SupportAssociateId": 919,
+    "ContactCountryId": 286,
+    "ContactOrgNr": "915101",
+    "FaxPhone": "204.089.6845",
+    "MobilePhone": "411.716.5488 x079",
+    "ContactPhone": "1-860-342-2250 x3476",
+    "AssociateName": "Kunde, Lang and Wyman",
+    "AssociateId": 119,
+    "UsePersonAddress": true,
+    "ContactFax": "velit",
+    "Kanafname": "eum",
+    "Kanalname": "nulla",
+    "Post1": "a",
+    "Post2": "expedita",
+    "Post3": "odit",
+    "EmailName": "bryana@mann.info",
+    "ContactFullName": "Aurore Jaskolski",
+    "ActiveErpLinks": 666,
+    "TicketPriorityId": 828,
+    "SupportLanguageId": 842,
+    "SupportAssociateId": 416,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "900128",
+    "PersonNumber": "1412145",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 182
+        "FieldLength": 799
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 233,
-  "ParentId": 594,
-  "Name": "Kautzer-Robel",
-  "Fullname": "et",
-  "CategoryMaster": 906,
+  "TicketCategoryId": 597,
+  "ParentId": 567,
+  "Name": "Mitchell-Hartmann",
+  "Fullname": "sit",
+  "CategoryMaster": 579,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Purdy Group",
+  "ExternalName": "Walker, Kshlerin and Eichmann",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 281,
-  "ReplyTemplate": 117,
-  "NotificationEmail": "gennaro@lockmankerluke.com",
+  "AssignmentLag": 275,
+  "ReplyTemplate": 565,
+  "NotificationEmail": "wallace@dicki.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 978,
+  "EffectiveReplyTemplateId": 624,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "omnis"
+    "CustomFields1": "tempora",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldLength": 413
     }
   }
 }

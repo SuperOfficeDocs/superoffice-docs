@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Bruen Inc and Sons",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "Rank": 534,
-  "IsCustomList": true,
+  "Id": 3,
+  "Name": "Klein-Erdman",
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "Rank": 186,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Moore, Sauer and O'Hara",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "Rank": 125,
+  "Id": 271,
+  "Name": "Bashirian LLC",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "Rank": 192,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 542
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 788,
-  "Name": "Hills Group",
-  "Tooltip": "aliquid",
+  "WebPanelId": 975,
+  "Name": "Lueilwitz, Hoppe and Conn",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 546,
+  "Rank": 926,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Bahringer-Gulgowski",
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Schamberger-Steuber",
   "Url": "http://www.example.com/",
-  "ProgId": "rem",
-  "Icon": 291,
+  "ProgId": "iusto",
+  "Icon": 810,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 149
     }
   }
 }

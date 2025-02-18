@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "fugit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "fugit",
     "value": {}
   }
 ]
@@ -152,57 +152,57 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 813,
-  "UniqueIdentifier": "cumque",
-  "Name": "Littel, Harber and Stoltenberg",
-  "Description": "Decentralized 6th generation paradigm",
-  "IncludeId": "sunt",
-  "AccessKey": "est",
-  "HierarchyId": 847,
-  "Source": "ut",
-  "SourceCode": "ut",
+  "EjscriptId": 870,
+  "UniqueIdentifier": "quo",
+  "Name": "Hickle, Muller and Wisoky",
+  "Description": "Reverse-engineered even-keeled hierarchy",
+  "IncludeId": "eius",
+  "AccessKey": "voluptatem",
+  "HierarchyId": 198,
+  "Source": "consequatur",
+  "SourceCode": "magnam",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 248,
+  "HtmlOutput": 799,
   "Includes": [
-    619,
-    830
+    763,
+    479
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 341,
-      "LineNumberTo": 462,
-      "Delta": 163,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 686,
+      "LineNumberTo": 883,
+      "Delta": 754,
+      "IncludeId": "aliquam",
       "IncludedFrom": [
-        "magni",
-        "qui"
+        "non",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 122
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-01-20T12:01:32.8550575+01:00",
-  "RegisteredAssociateId": 776,
-  "Updated": "2017-10-23T12:01:32.8550575+02:00",
-  "UpdatedAssociateId": 635,
+  "Registered": "2010-08-06T14:32:11.3815336+02:00",
+  "RegisteredAssociateId": 571,
+  "Updated": "2003-07-29T14:32:11.3815336+02:00",
+  "UpdatedAssociateId": 86,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 492
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

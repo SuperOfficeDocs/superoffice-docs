@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "neque"
+  "FromAddress": "totam"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 387,
-  "EMailAddress": "quibusdam",
-  "AssociateId": 865,
+  "EMailAccountId": 229,
+  "EMailAddress": "reiciendis",
+  "AssociateId": 591,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 385,
-  "ErrorCount": 21,
+  "AccountStatus": 932,
+  "ErrorCount": 182,
   "ErrorReason": "",
-  "InboxFolder": "deserunt",
-  "SentFolder": "pariatur",
-  "SimpleMode": 298,
-  "LastFetch": "2013-01-02T12:01:27.8221586+01:00",
+  "InboxFolder": "nam",
+  "SentFolder": "est",
+  "SimpleMode": 915,
+  "LastFetch": "2007-04-15T14:32:02.8741609+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 867
     }
   }
 }

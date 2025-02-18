@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 203,
-  "NumSentences": 394,
-  "IsoLangCode": "quos"
+  "SaleId": 368,
+  "NumSentences": 201,
+  "IsoLangCode": "commodi"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eum"
+"quasi"
 ```

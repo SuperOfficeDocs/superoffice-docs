@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein, Hilll and Halvorson",
-    "Description": "Re-contextualized methodical moratorium",
-    "Rank": 938,
+    "Name": "Crona, Howell and Quitzon",
+    "Description": "Customer-focused multi-state concept",
+    "Rank": 851,
     "Restrictions": [
       {
-        "Name": "Ratke-Bahringer",
-        "Operator": "nostrum",
+        "Name": "Beahan Group",
+        "Operator": "dignissimos",
         "Values": [
-          "autem",
-          "ratione"
+          "ea",
+          "iusto"
         ],
         "DisplayValues": [
-          "molestiae",
-          "quas"
+          "qui",
+          "itaque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 515,
+        "InterParenthesis": 601,
         "InterOperator": "And",
-        "UniqueHash": 20
+        "UniqueHash": 447
       }
     ]
   },
   {
-    "Name": "Klein, Hilll and Halvorson",
-    "Description": "Re-contextualized methodical moratorium",
-    "Rank": 938,
+    "Name": "Crona, Howell and Quitzon",
+    "Description": "Customer-focused multi-state concept",
+    "Rank": 851,
     "Restrictions": [
       {
-        "Name": "Ratke-Bahringer",
-        "Operator": "nostrum",
+        "Name": "Beahan Group",
+        "Operator": "dignissimos",
         "Values": [
-          "autem",
-          "ratione"
+          "ea",
+          "iusto"
         ],
         "DisplayValues": [
-          "molestiae",
-          "quas"
+          "qui",
+          "itaque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 515,
+        "InterParenthesis": 601,
         "InterOperator": "And",
-        "UniqueHash": 20
+        "UniqueHash": 447
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turcotte-Jerde",
-    "Description": "Upgradable stable moderator",
-    "Rank": 435,
+    "Name": "Ebert-Kohler",
+    "Description": "Reverse-engineered 24 hour hardware",
+    "Rank": 446,
     "Restrictions": [
       {
-        "Name": "Hessel LLC",
-        "Operator": "culpa",
+        "Name": "Parker-Conroy",
+        "Operator": "odit",
         "Values": [
-          "alias",
-          "ea"
+          "suscipit",
+          "vel"
         ],
         "DisplayValues": [
-          "nobis",
-          "ipsam"
+          "nostrum",
+          "nulla"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 731,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 110
+        "UniqueHash": 464
       }
     ]
   },
   {
-    "Name": "Turcotte-Jerde",
-    "Description": "Upgradable stable moderator",
-    "Rank": 435,
+    "Name": "Ebert-Kohler",
+    "Description": "Reverse-engineered 24 hour hardware",
+    "Rank": 446,
     "Restrictions": [
       {
-        "Name": "Hessel LLC",
-        "Operator": "culpa",
+        "Name": "Parker-Conroy",
+        "Operator": "odit",
         "Values": [
-          "alias",
-          "ea"
+          "suscipit",
+          "vel"
         ],
         "DisplayValues": [
-          "nobis",
-          "ipsam"
+          "nostrum",
+          "nulla"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 731,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 110
+        "UniqueHash": 464
       }
     ]
   }

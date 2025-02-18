@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetCustomerLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Value": "dolores",
-    "Tooltip": "nihil",
+    "Id": 272,
+    "Value": "eum",
+    "Tooltip": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 853
       }
     }
   },
   {
-    "Id": 512,
-    "Value": "dolores",
-    "Tooltip": "nihil",
+    "Id": 272,
+    "Value": "eum",
+    "Tooltip": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 853
       }
     }
   }

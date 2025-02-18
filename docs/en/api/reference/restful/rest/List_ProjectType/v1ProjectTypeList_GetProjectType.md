@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Hickle LLC",
+  "Id": 928,
+  "Name": "Simonis Inc and Sons",
   "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 551,
-  "Rank": 89,
+  "UdListDefinitionId": 251,
+  "Rank": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

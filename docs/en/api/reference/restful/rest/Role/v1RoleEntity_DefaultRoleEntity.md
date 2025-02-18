@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 48,
-  "Name": "Murazik-Boyle",
-  "Tooltip": "officia",
+  "RoleId": 381,
+  "Name": "Crist, Hintz and Feest",
+  "Tooltip": "voluptatum",
   "RoleType": "Anonymous",
-  "Deleted": 950,
-  "Rank": 867,
-  "Created": "2005-07-20T12:01:33.0269443+02:00",
-  "UseCategories": 772,
+  "Deleted": 650,
+  "Rank": 86,
+  "Created": "2019-06-20T14:32:11.7241465+02:00",
+  "UseCategories": 955,
   "CreatedBy": null,
-  "Updated": "1998-03-15T12:01:33.0269443+01:00",
+  "Updated": "2021-05-22T14:32:11.7241465+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 10
     }
   }
 }

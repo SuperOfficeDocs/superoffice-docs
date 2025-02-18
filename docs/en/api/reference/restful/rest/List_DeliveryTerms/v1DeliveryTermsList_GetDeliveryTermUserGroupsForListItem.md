@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Ondricka Inc and Sons",
-    "ToolTip": "Fugit officiis rerum sed et qui.",
-    "Deleted": true,
-    "Rank": 792,
-    "Type": "ut",
-    "ColorBlock": 970,
-    "IconHint": "accusamus",
+    "Id": 874,
+    "Name": "Torphy-Predovic",
+    "ToolTip": "Aliquam et repellat aliquid autem totam sint culpa.",
+    "Deleted": false,
+    "Rank": 340,
+    "Type": "laborum",
+    "ColorBlock": 478,
+    "IconHint": "dolore",
     "Selected": true,
-    "LastChanged": "2017-03-07T12:01:33.495727+01:00",
+    "LastChanged": "2001-05-16T14:32:12.5989482+02:00",
     "ChildItems": [
       {
-        "Id": 49,
-        "Name": "Stroman Group",
-        "ToolTip": "Quos earum inventore quia id ex autem.",
+        "Id": 236,
+        "Name": "Johns-Johnson",
+        "ToolTip": "Aut ut rerum voluptatem tempore sint.",
         "Deleted": false,
-        "Rank": 782,
-        "Type": "vel",
-        "ColorBlock": 511,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2002-02-01T12:01:33.495727+01:00",
+        "Rank": 727,
+        "Type": "ipsa",
+        "ColorBlock": 752,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2007-07-03T14:32:12.5989482+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Cortney Lockman",
+        "FullName": "Janet Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 744
+            "FieldLength": 38
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Mr. Elliot Jayde Kassulke",
+    "ExtraInfo": "ullam",
+    "StyleHint": "tempora",
+    "Hidden": true,
+    "FullName": "Landen Champlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 892
+        "FieldType": "System.Int32",
+        "FieldLength": 344
       }
     }
   }

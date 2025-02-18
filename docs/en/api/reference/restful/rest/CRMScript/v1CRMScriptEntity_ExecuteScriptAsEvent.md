@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ut",
-    "InputValues2": "exercitationem"
+    "InputValues1": "quasi",
+    "InputValues2": "sunt"
   },
   "BlockExecution": false,
-  "NavigateTo": "et",
-  "Message": "fuga",
-  "ShowDialog": "similique",
+  "NavigateTo": "culpa",
+  "Message": "aliquam",
+  "ShowDialog": "quis",
   "OutputValues": {
-    "OutputValues1": "asperiores",
-    "OutputValues2": "dolor"
+    "OutputValues1": "nihil",
+    "OutputValues2": "expedita"
   },
   "StateValues": {
-    "StateValues1": "est",
-    "StateValues2": "quasi"
+    "StateValues1": "aut",
+    "StateValues2": "et"
   },
-  "Exception": "dignissimos",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "nemo",
-    "ParserValues2": "consequuntur"
+    "ParserValues1": "alias",
+    "ParserValues2": "doloribus"
   },
   "CgiVariables": {
-    "CgiVariables1": "velit",
-    "CgiVariables2": "alias"
+    "CgiVariables1": "qui",
+    "CgiVariables2": "aut"
   },
-  "CgiContent": "sint",
+  "CgiContent": "ex",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "consequatur"
+    "Headers1": "est",
+    "Headers2": "eius"
   },
-  "TraceExecution": true
+  "TraceExecution": false
 }
 ```
 
@@ -146,42 +146,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "voluptatem",
-    "InputValues2": "id"
+    "InputValues1": "quidem",
+    "InputValues2": "distinctio"
   },
   "BlockExecution": false,
-  "NavigateTo": "consequuntur",
-  "Message": "nihil",
-  "ShowDialog": "harum",
+  "NavigateTo": "ad",
+  "Message": "id",
+  "ShowDialog": "ullam",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "sunt"
+    "OutputValues1": "nobis",
+    "OutputValues2": "aut"
   },
   "StateValues": {
-    "StateValues1": "temporibus",
-    "StateValues2": "ut"
+    "StateValues1": "ex",
+    "StateValues2": "cumque"
   },
-  "Exception": "magni",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "eius",
-    "ParserValues2": "dolorem"
+    "ParserValues1": "laudantium",
+    "ParserValues2": "qui"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptas",
-    "CgiVariables2": "sint"
+    "CgiVariables1": "perferendis",
+    "CgiVariables2": "quibusdam"
   },
-  "CgiContent": "temporibus",
+  "CgiContent": "officiis",
   "Headers": {
-    "Headers1": "optio",
-    "Headers2": "aut"
+    "Headers1": "recusandae",
+    "Headers2": "qui"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 985
     }
   }
 }

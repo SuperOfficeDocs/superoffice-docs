@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kling, Rutherford and Smitham",
-  "DeviceName": "Hoeger-Boyle",
-  "DeviceIdentifier": "suscipit"
+  "ApplicationName": "Mills LLC",
+  "DeviceName": "Ziemann, Brakus and Schuppe",
+  "DeviceIdentifier": "accusantium"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 556,
-  "Name": "Leuschke-Kessler",
-  "CreatedDate": "1998-09-24T12:01:27.9002891+02:00",
-  "UpdatedDate": "2000-04-26T12:01:27.9002891+02:00",
-  "AssociateFullName": "Murray Walter",
-  "CreatedBy": "quia",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "eligendi",
-  "ForeignAppId": 423,
+  "ForeignDeviceId": 314,
+  "Name": "D'Amore LLC",
+  "CreatedDate": "2019-04-10T14:32:03.0303748+02:00",
+  "UpdatedDate": "2014-09-10T14:32:03.0303748+02:00",
+  "AssociateFullName": "Mrs. Nickolas Art Walter DVM",
+  "CreatedBy": "et",
+  "UpdatedBy": "ea",
+  "DeviceIdentifier": "sed",
+  "ForeignAppId": 275,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldLength": 281
     }
   }
 }

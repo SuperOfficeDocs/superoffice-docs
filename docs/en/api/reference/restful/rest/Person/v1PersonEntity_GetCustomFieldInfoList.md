@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Reichert Inc and Sons",
-    "DisplayName": "Dicki-King",
-    "Description": "Realigned system-worthy support",
-    "ShortLabel": "sit",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
+    "FieldName": "Wiza Group",
+    "DisplayName": "Fahey LLC",
+    "Description": "Object-based 24 hour protocol",
+    "ShortLabel": "aperiam",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 913,
-    "TemplateVariableName": "Ernser, Schamberger and Rau"
+    "Rank": 367,
+    "TemplateVariableName": "Little-Von"
   }
 ]
 ```

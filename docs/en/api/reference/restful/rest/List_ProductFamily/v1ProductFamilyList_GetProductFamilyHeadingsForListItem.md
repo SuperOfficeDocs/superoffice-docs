@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Bartoletti, Wuckert and Runolfsson",
-    "ToolTip": "Nesciunt repellendus reprehenderit maxime eum impedit iste.",
+    "Id": 328,
+    "Name": "Steuber, Yundt and Mills",
+    "ToolTip": "Vel veniam.",
     "Deleted": false,
-    "Rank": 671,
+    "Rank": 174,
     "Type": "et",
-    "ColorBlock": 257,
-    "IconHint": "esse",
+    "ColorBlock": 930,
+    "IconHint": "cum",
     "Selected": false,
-    "LastChanged": "2023-05-24T12:01:33.5738574+02:00",
+    "LastChanged": "2015-04-05T14:32:12.7553674+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Ward, Tillman and Tromp",
-        "ToolTip": "At et dolorem autem illum repellat sequi.",
-        "Deleted": false,
-        "Rank": 392,
-        "Type": "et",
-        "ColorBlock": 441,
-        "IconHint": "sunt",
-        "Selected": false,
-        "LastChanged": "2022-12-16T12:01:33.5738574+01:00",
+        "Id": 61,
+        "Name": "Collins-Hoppe",
+        "ToolTip": "Voluptates consequuntur distinctio maiores cum nam.",
+        "Deleted": true,
+        "Rank": 769,
+        "Type": "ut",
+        "ColorBlock": 172,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2008-04-06T14:32:12.7553674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Cristopher Mayer",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Reba Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "assumenda",
-    "Hidden": false,
-    "FullName": "Dr. Jerrell Bashirian",
+    "ExtraInfo": "qui",
+    "StyleHint": "aperiam",
+    "Hidden": true,
+    "FullName": "Lelia Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 235
       }
     }
   }

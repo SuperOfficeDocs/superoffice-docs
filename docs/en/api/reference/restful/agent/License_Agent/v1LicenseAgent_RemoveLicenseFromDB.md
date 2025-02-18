@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/RemoveLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "consectetur"
+  "ModuleOwner": "aperiam"
 }
 ```
 
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

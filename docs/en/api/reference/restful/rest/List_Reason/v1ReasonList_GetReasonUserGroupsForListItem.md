@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Buckridge Inc and Sons",
-    "ToolTip": "Non fuga non.",
-    "Deleted": true,
-    "Rank": 993,
-    "Type": "reprehenderit",
-    "ColorBlock": 823,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2024-01-14T12:01:33.6207356+01:00",
+    "Id": 798,
+    "Name": "Windler Inc and Sons",
+    "ToolTip": "Architecto facere consequatur molestias.",
+    "Deleted": false,
+    "Rank": 744,
+    "Type": "ut",
+    "ColorBlock": 924,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2024-06-11T14:32:12.8647515+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Wilderman-Cremin",
-        "ToolTip": "Enim quam eum sit deserunt.",
+        "Id": 335,
+        "Name": "Cummings Inc and Sons",
+        "ToolTip": "Non quidem.",
         "Deleted": false,
-        "Rank": 281,
-        "Type": "quisquam",
-        "ColorBlock": 843,
-        "IconHint": "sint",
+        "Rank": 973,
+        "Type": "officiis",
+        "ColorBlock": 605,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2010-03-31T12:01:33.6207356+02:00",
+        "LastChanged": "2002-05-30T14:32:12.8647515+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Adriana Agustin Lebsack PhD",
+        "FullName": "Mr. Rossie Mayra Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 56
+            "FieldLength": 24
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "debitis",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Willa Little",
+    "FullName": "Prof. Vicente John Swaniawski Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 862
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

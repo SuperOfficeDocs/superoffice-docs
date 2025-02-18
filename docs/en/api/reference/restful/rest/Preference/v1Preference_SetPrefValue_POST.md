@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptates",
+  "RawValue": "reiciendis",
   "Specification": null,
-  "DisplayValue": "ex",
-  "DisplayTooltip": "id",
+  "DisplayValue": "voluptatum",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 248,
-  "PrefDescId": 127,
-  "TableName": "Crona-White",
-  "UserPreferenceId": 376
+  "TargetId": 483,
+  "PrefDescId": 749,
+  "TableName": "Kub, Walsh and Klocko",
+  "UserPreferenceId": 853
 }
 ```
 

@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=788
+GET /api/v1/Contact/{contactId}/Summary?limit=775
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 869,
-      "TicketStatus": 339,
-      "Title": "eveniet",
-      "Registered": "2015-03-23T12:01:32.8238054+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 1000,
+      "TicketStatus": 959,
+      "Title": "quis",
+      "Registered": "2019-11-03T14:32:11.3489356+01:00",
+      "IconHint": "eveniet"
     },
     {
-      "TicketId": 869,
-      "TicketStatus": 339,
-      "Title": "eveniet",
-      "Registered": "2015-03-23T12:01:32.8238054+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 1000,
+      "TicketStatus": 959,
+      "Title": "quis",
+      "Registered": "2019-11-03T14:32:11.3489356+01:00",
+      "IconHint": "eveniet"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 442,
-      "DocumentId": 282,
-      "Date": "2003-06-15T12:01:32.8238054+02:00",
-      "Description": "Diverse stable array",
+      "AppointmentId": 848,
+      "DocumentId": 199,
+      "Date": "2009-04-29T14:32:11.3489356+02:00",
+      "Description": "Programmable fault-tolerant model",
       "Completed": "Completed",
-      "Registered": "2024-08-15T12:01:32.8238054+02:00"
+      "Registered": "2007-08-04T14:32:11.3489356+02:00"
     },
     {
-      "AppointmentId": 442,
-      "DocumentId": 282,
-      "Date": "2003-06-15T12:01:32.8238054+02:00",
-      "Description": "Diverse stable array",
+      "AppointmentId": 848,
+      "DocumentId": 199,
+      "Date": "2009-04-29T14:32:11.3489356+02:00",
+      "Description": "Programmable fault-tolerant model",
       "Completed": "Completed",
-      "Registered": "2024-08-15T12:01:32.8238054+02:00"
+      "Registered": "2007-08-04T14:32:11.3489356+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 736,
-      "DocumentId": 613,
-      "Date": "2008-10-23T12:01:32.8238054+02:00",
-      "Description": "Mandatory 4th generation standardization",
+      "AppointmentId": 1001,
+      "DocumentId": 181,
+      "Date": "2024-12-09T14:32:11.3489356+01:00",
+      "Description": "Function-based holistic local area network",
       "Completed": "Completed",
-      "Registered": "1999-12-28T12:01:32.8238054+01:00"
+      "Registered": "2023-04-22T14:32:11.3489356+02:00"
     },
     {
-      "AppointmentId": 736,
-      "DocumentId": 613,
-      "Date": "2008-10-23T12:01:32.8238054+02:00",
-      "Description": "Mandatory 4th generation standardization",
+      "AppointmentId": 1001,
+      "DocumentId": 181,
+      "Date": "2024-12-09T14:32:11.3489356+01:00",
+      "Description": "Function-based holistic local area network",
       "Completed": "Completed",
-      "Registered": "1999-12-28T12:01:32.8238054+01:00"
+      "Registered": "2023-04-22T14:32:11.3489356+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 434,
-      "SaleDate": "2007-12-10T12:01:32.8238054+01:00",
-      "Probability": 325,
-      "Heading": "exercitationem",
-      "Amount": 19919.703999999998,
-      "Currency": "dolorum",
-      "AmountInBaseCurrency": 17384.298,
+      "SaleId": 799,
+      "SaleDate": "2022-07-07T14:32:11.3489356+02:00",
+      "Probability": 343,
+      "Heading": "distinctio",
+      "Amount": 5603.592,
+      "Currency": "aut",
+      "AmountInBaseCurrency": 25745.809999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2023-03-04T12:01:32.8238054+01:00"
+      "Registered": "2013-02-12T14:32:11.3489356+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 339,
-      "Name": "Kertzmann, Runolfsdottir and Johnson",
-      "CompanyName": "Cronin, Bergnaum and Shields",
-      "FirstMessage": "nemo",
-      "LastMessage": "aut",
-      "WhenRequested": "2002-07-03T12:01:32.8238054+02:00",
-      "WhenEnded": "2004-08-01T12:01:32.8238054+02:00"
+      "ChatSessionId": 438,
+      "Name": "Kling-Monahan",
+      "CompanyName": "Friesen-Swift",
+      "FirstMessage": "ut",
+      "LastMessage": "eveniet",
+      "WhenRequested": "2015-01-02T14:32:11.3489356+01:00",
+      "WhenEnded": "2013-09-09T14:32:11.3489356+02:00"
     }
   ]
 }

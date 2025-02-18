@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 51,
-  "StartTime": "2009-01-19T12:01:27.5877684+01:00",
-  "EndTime": "2014-01-03T12:01:27.5877684+01:00",
-  "Count": 632,
-  "DocumentTemplateId": 39
+  "ProjectId": 67,
+  "StartTime": "2020-07-11T14:32:02.6398381+02:00",
+  "EndTime": "2006-08-25T14:32:02.6398381+02:00",
+  "Count": 982,
+  "DocumentTemplateId": 177
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 964,
-    "Attention": "voluptas",
-    "Header": "quo",
-    "Name": "Goldner-Mosciski",
-    "OurRef": "voluptas",
-    "YourRef": "sit",
-    "Description": "Team-oriented radical analyzer",
-    "DocumentTemplate": "labore",
-    "IsPublished": true,
-    "PersonId": 56,
-    "PersonFullName": "Miss Hulda Kirlin",
-    "AssociateFullName": "Mr. Hayden Dibbert",
-    "ContactId": 772,
-    "ContactName": "Effertz, Eichmann and Haley",
-    "ProjectId": 607,
-    "ProjectName": "Russel Group",
-    "AssociateId": 88,
-    "Snum": 929,
-    "SaleId": 526,
-    "SaleName": "Rohan, Kreiger and Kuhn",
+    "DocumentId": 570,
+    "Attention": "labore",
+    "Header": "et",
+    "Name": "Huels LLC",
+    "OurRef": "aperiam",
+    "YourRef": "atque",
+    "Description": "Adaptive systematic functionalities",
+    "DocumentTemplate": "minus",
+    "IsPublished": false,
+    "PersonId": 34,
+    "PersonFullName": "Mr. Jeanette Hartmann",
+    "AssociateFullName": "Emiliano Deja Schmitt DVM",
+    "ContactId": 157,
+    "ContactName": "Kub LLC",
+    "ProjectId": 810,
+    "ProjectName": "O'Reilly, Bahringer and Jast",
+    "AssociateId": 352,
+    "Snum": 589,
+    "SaleId": 867,
+    "SaleName": "Labadie Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldType": "System.Int32",
+        "FieldLength": 505
       }
     }
   }

@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 686,
+  "HierarchyId": 169,
   "Domain": "Dashboards",
-  "Name": "Wuckert Inc and Sons",
-  "Fullname": "eius",
-  "ParentId": 188,
+  "Name": "Windler, Weimann and Von",
+  "Fullname": "sed",
+  "ParentId": 930,
   "Children": [
     {
-      "HierarchyId": 737,
+      "HierarchyId": 172,
       "Domain": "Dashboards",
-      "Name": "Sawayn, Conroy and Rohan",
-      "Fullname": "quis",
-      "ParentId": 455,
+      "Name": "Borer Group",
+      "Fullname": "modi",
+      "ParentId": 273,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-12-18T12:01:32.9175621+01:00",
-      "RegisteredAssociateId": 8,
-      "Updated": "2008-10-01T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 260,
+      "Registered": "2004-11-12T14:32:11.5366892+01:00",
+      "RegisteredAssociateId": 819,
+      "Updated": "2018-06-07T14:32:11.5366892+02:00",
+      "UpdatedAssociateId": 640,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldLength": 100
         }
       }
     }
   ],
-  "Registered": "2019-08-13T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 291,
-  "Updated": "2002-08-31T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 520,
+  "Registered": "2011-08-24T14:32:11.5366892+02:00",
+  "RegisteredAssociateId": 993,
+  "Updated": "2015-04-04T14:32:11.5366892+02:00",
+  "UpdatedAssociateId": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   },
   "_Links": {

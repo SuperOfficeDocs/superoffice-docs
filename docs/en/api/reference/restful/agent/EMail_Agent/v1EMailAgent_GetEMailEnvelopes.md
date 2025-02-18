@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    362,
-    605
+    689,
+    151
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 982,
-    "MessageId": "ab",
-    "Subject": "perspiciatis",
+    "ServerId": 566,
+    "MessageId": "quis",
+    "Subject": "ab",
     "From": null,
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Padberg LLC",
-        "PersonId": 650,
-        "PersonName": "Blick LLC",
-        "AssociateId": 986,
-        "Address": "quam",
-        "EmailId": 11,
+        "ContactId": 865,
+        "ContactName": "Mills Inc and Sons",
+        "PersonId": 41,
+        "PersonName": "Osinski LLC",
+        "AssociateId": 459,
+        "Address": "eaque",
+        "EmailId": 411,
         "DuplicatePersonIds": [
-          69,
-          228
+          780,
+          447
         ],
-        "Name": "Yost Group",
+        "Name": "Moen Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldLength": 549
           }
         }
       }
     ],
-    "Sent": "2022-08-06T12:01:27.8534108+02:00",
+    "Sent": "1999-04-21T14:32:02.9366456+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 425,
+    "Size": 123,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldType": "System.Int32",
+        "FieldLength": 333
       }
     }
   }

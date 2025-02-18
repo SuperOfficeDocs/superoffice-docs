@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308,
-  "Name": "Stoltenberg-Hyatt",
-  "Tooltip": "fugiat",
+  "Id": 221,
+  "Name": "Hoppe-Hansen",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 722,
-  "Rank": 230,
+  "UdListDefinitionId": 968,
+  "Rank": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldLength": 547
     }
   }
 }

@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "numquam",
-  "To": "quia",
-  "Subject": "qui",
-  "PlainBody": "enim",
-  "HtmlBody": "omnis",
+  "From": "provident",
+  "To": "perferendis",
+  "Subject": "ipsum",
+  "PlainBody": "nesciunt",
+  "HtmlBody": "velit",
   "AttachmentIds": [
-    4,
-    244
+    837,
+    678
   ],
-  "EventName": "Kirlin-Dach"
+  "EventName": "Denesik-Kshlerin"
 }
 ```
 

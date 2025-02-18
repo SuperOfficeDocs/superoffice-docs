@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 176,
+  "SelectionId": 555,
   "Criteria": [
     {
-      "Name": "Smith-Langworth",
-      "Description": "Innovative heuristic utilisation",
-      "Rank": 110,
+      "Name": "Reynolds Inc and Sons",
+      "Description": "Sharable zero tolerance protocol",
+      "Rank": 788,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Smith-Langworth",
-      "Description": "Innovative heuristic utilisation",
-      "Rank": 110,
+      "Name": "Reynolds Inc and Sons",
+      "Description": "Sharable zero tolerance protocol",
+      "Rank": 788,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco Group",
-    "Description": "Visionary leading edge hardware",
-    "Rank": 258,
+    "Name": "Mraz LLC",
+    "Description": "Versatile didactic structure",
+    "Rank": 799,
     "Restrictions": [
       {
-        "Name": "Ankunding, Gaylord and Rowe",
-        "Operator": "ut",
+        "Name": "Klocko-Swift",
+        "Operator": "sed",
         "Values": [
-          "voluptate",
-          "magni"
+          "eos",
+          "nostrum"
         ],
         "DisplayValues": [
-          "eligendi",
-          "beatae"
+          "reprehenderit",
+          "vero"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 469,
+        "InterParenthesis": 879,
         "InterOperator": "And",
-        "UniqueHash": 332
+        "UniqueHash": 609
       }
     ]
   },
   {
-    "Name": "Prosacco Group",
-    "Description": "Visionary leading edge hardware",
-    "Rank": 258,
+    "Name": "Mraz LLC",
+    "Description": "Versatile didactic structure",
+    "Rank": 799,
     "Restrictions": [
       {
-        "Name": "Ankunding, Gaylord and Rowe",
-        "Operator": "ut",
+        "Name": "Klocko-Swift",
+        "Operator": "sed",
         "Values": [
-          "voluptate",
-          "magni"
+          "eos",
+          "nostrum"
         ],
         "DisplayValues": [
-          "eligendi",
-          "beatae"
+          "reprehenderit",
+          "vero"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 469,
+        "InterParenthesis": 879,
         "InterOperator": "And",
-        "UniqueHash": 332
+        "UniqueHash": 609
       }
     ]
   }

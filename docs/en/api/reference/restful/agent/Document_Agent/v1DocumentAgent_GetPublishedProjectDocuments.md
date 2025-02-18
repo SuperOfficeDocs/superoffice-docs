@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 311
+  "ProjectId": 116
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 517,
-    "Attention": "nostrum",
-    "Header": "natus",
-    "Name": "Casper, Schowalter and Turcotte",
-    "OurRef": "rerum",
-    "YourRef": "consectetur",
-    "Description": "Quality-focused full-range leverage",
-    "DocumentTemplate": "iusto",
+    "DocumentId": 482,
+    "Attention": "nihil",
+    "Header": "enim",
+    "Name": "Feil LLC",
+    "OurRef": "ut",
+    "YourRef": "est",
+    "Description": "Configurable executive orchestration",
+    "DocumentTemplate": "omnis",
     "IsPublished": false,
-    "PersonId": 223,
-    "PersonFullName": "Laila Feeney",
-    "AssociateFullName": "Camryn Funk",
-    "ContactId": 169,
-    "ContactName": "Kerluke Inc and Sons",
-    "ProjectId": 131,
-    "ProjectName": "Spinka Group",
-    "AssociateId": 917,
-    "Snum": 509,
-    "SaleId": 443,
-    "SaleName": "McCullough Inc and Sons",
+    "PersonId": 434,
+    "PersonFullName": "Bernadette Langworth",
+    "AssociateFullName": "Emilia Senger",
+    "ContactId": 580,
+    "ContactName": "Waelchi, Rosenbaum and Wilkinson",
+    "ProjectId": 149,
+    "ProjectName": "Flatley, Ebert and Heathcote",
+    "AssociateId": 930,
+    "Snum": 688,
+    "SaleId": 173,
+    "SaleName": "Brakus LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 447
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 208,
-  "Name": "McCullough Group",
-  "Description": "Right-sized object-oriented circuit",
-  "DefaultHeight": 653,
-  "DefaultWidth": 686,
+  "DashboardTileDefinitionId": 993,
+  "Name": "Rosenbaum, Reynolds and Wehner",
+  "Description": "Automated transitional migration",
+  "DefaultHeight": 472,
+  "DefaultWidth": 750,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Douglas-O'Conner",
-  "SelectionId": 11,
+  "EntityName": "Ratke, Towne and Lakin",
+  "SelectionId": 28,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "minus",
   "Measure": "Average",
-  "MeasureField": "amet",
-  "SortBy": "odio",
-  "LayoutConfig": "quis",
-  "SecondarySelectionId": 431,
-  "MeasureByField": "expedita",
+  "MeasureField": "distinctio",
+  "SortBy": "omnis",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 62,
+  "MeasureByField": "iste",
   "Usage": "Dashboard",
-  "ProviderName": "Gutmann-Satterfield",
+  "ProviderName": "Tremblay Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

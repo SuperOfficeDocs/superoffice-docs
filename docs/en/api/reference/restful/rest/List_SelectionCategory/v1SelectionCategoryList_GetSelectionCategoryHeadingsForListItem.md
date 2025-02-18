@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Satterfield-Grady",
-    "ToolTip": "Culpa velit esse ratione eaque voluptas non.",
+    "Id": 796,
+    "Name": "Farrell-Heller",
+    "ToolTip": "Consectetur sed magni quos id.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "error",
-    "ColorBlock": 244,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2005-11-01T12:01:33.6676138+01:00",
+    "Rank": 166,
+    "Type": "cupiditate",
+    "ColorBlock": 631,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2020-05-12T14:32:12.9272339+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Harris, Dach and Walker",
-        "ToolTip": "Inventore nostrum sunt eveniet culpa error cum dolore.",
+        "Id": 514,
+        "Name": "Maggio, Cummerata and Walker",
+        "ToolTip": "Harum cumque nemo provident voluptate.",
         "Deleted": true,
-        "Rank": 25,
-        "Type": "nisi",
-        "ColorBlock": 215,
-        "IconHint": "minus",
+        "Rank": 676,
+        "Type": "neque",
+        "ColorBlock": 990,
+        "IconHint": "consectetur",
         "Selected": true,
-        "LastChanged": "2021-07-25T12:01:33.6676138+02:00",
+        "LastChanged": "2006-07-19T14:32:12.9272339+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Mr. Lila Alec Bosco",
+        "ExtraInfo": "error",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Mr. Chauncey Jedediah Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "maiores",
+    "ExtraInfo": "facere",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Bessie Harris",
+    "FullName": "Taurean Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 758
       }
     }
   }

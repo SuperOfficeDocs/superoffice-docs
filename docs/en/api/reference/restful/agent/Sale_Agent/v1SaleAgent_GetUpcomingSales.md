@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 216,
-  "Count": 322
+  "WeightedAmountLimit": 247,
+  "Count": 123
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bartell Group",
-    "SaleDate": "2014-12-08T12:01:28.2596899+01:00",
-    "SaleId": 720,
-    "Probability": 940,
-    "Title": "animi",
-    "Amount": 17600.543999999998,
-    "Currency": "nihil",
-    "ProjectName": "Lowe-Kohler",
-    "AssociateFullName": "Bernardo Ratke",
-    "Description": "Advanced multi-state software",
+    "ContactName": "Kirlin Inc and Sons",
+    "SaleDate": "2019-04-13T14:32:03.7022941+02:00",
+    "SaleId": 992,
+    "Probability": 46,
+    "Title": "ea",
+    "Amount": 7164.324,
+    "Currency": "odio",
+    "ProjectName": "Mraz, Metz and Macejkovic",
+    "AssociateFullName": "Mrs. Shanel Grant Streich IV",
+    "Description": "User-centric 6th generation benchmark",
     "Status": "Lost",
-    "WeightedAmount": 14350.586,
-    "ProjectId": 958,
-    "EarningPercent": 14648.315999999999,
-    "Earning": 31327.464,
-    "ContactId": 394,
-    "AssociateId": 167,
-    "PersonId": 870,
-    "SaleTypeId": 340,
-    "SaleTypeName": "Treutel, Senger and Torphy",
-    "PersonFullName": "Donna Crooks",
+    "WeightedAmount": 22229.462,
+    "ProjectId": 171,
+    "EarningPercent": 26921.059999999998,
+    "Earning": 20568.442,
+    "ContactId": 690,
+    "AssociateId": 876,
+    "PersonId": 907,
+    "SaleTypeId": 381,
+    "SaleTypeName": "Sipes LLC",
+    "PersonFullName": "Margie Doyle",
     "Completed": "Completed",
-    "ActiveErpLinks": 919,
-    "NextDueDate": "2012-04-11T12:01:28.2596899+02:00",
-    "Number": "1497641",
+    "ActiveErpLinks": 189,
+    "NextDueDate": "2003-09-28T14:32:03.7179186+02:00",
+    "Number": "1557091",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 922
       }
     }
   }

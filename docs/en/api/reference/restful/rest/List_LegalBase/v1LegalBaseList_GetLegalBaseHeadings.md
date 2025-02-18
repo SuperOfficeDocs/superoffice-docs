@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 929,
-    "Name": "Berge Inc and Sons",
-    "Tooltip": "ipsa",
+    "HeadingId": 689,
+    "Name": "King, Spinka and Blanda",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 460,
-    "UdListDefinitionId": 909,
+    "Rank": 136,
+    "UdListDefinitionId": 18,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

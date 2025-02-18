@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Wisoky Inc and Sons",
-    "ToolTip": "Est debitis voluptatum nihil molestiae voluptas similique eum.",
-    "Deleted": false,
-    "Rank": 829,
-    "Type": "aperiam",
-    "ColorBlock": 207,
-    "IconHint": "minima",
+    "Id": 611,
+    "Name": "Grady-Ankunding",
+    "ToolTip": "Dolorum inventore consequuntur vel facilis error dolorem incidunt.",
+    "Deleted": true,
+    "Rank": 899,
+    "Type": "et",
+    "ColorBlock": 361,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2011-03-06T12:01:33.6207356+01:00",
+    "LastChanged": "2012-09-08T14:32:12.8491274+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Bartell-Jakubowski",
-        "ToolTip": "Beatae non sed vero aliquam et facere.",
-        "Deleted": true,
-        "Rank": 378,
-        "Type": "officia",
-        "ColorBlock": 215,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2002-06-11T12:01:33.6207356+02:00",
+        "Id": 342,
+        "Name": "Padberg, Brekke and Witting",
+        "ToolTip": "Sit aspernatur.",
+        "Deleted": false,
+        "Rank": 952,
+        "Type": "blanditiis",
+        "ColorBlock": 975,
+        "IconHint": "vel",
+        "Selected": false,
+        "LastChanged": "2005-05-28T14:32:12.8491274+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "ad",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mrs. Joana Noemy Langworth"
+        "FullName": "Jaylin Will"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quae",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Else Murray"
+    "FullName": "Alphonso Gislason DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Kozey Group",
-    "ToolTip": "Consequatur mollitia hic labore est totam.",
-    "Deleted": true,
-    "Rank": 587,
-    "Type": "dolore",
-    "ColorBlock": 9,
-    "IconHint": "eum",
+    "Id": 797,
+    "Name": "Wiegand-Nienow",
+    "ToolTip": "Similique et quia occaecati libero necessitatibus maiores voluptas.",
+    "Deleted": false,
+    "Rank": 436,
+    "Type": "voluptatem",
+    "ColorBlock": 393,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2013-09-09T12:01:33.6207356+02:00",
+    "LastChanged": "2013-09-14T14:32:12.8491274+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Schimmel, Ritchie and Ledner",
-        "ToolTip": "Labore unde provident optio impedit nobis vel.",
+        "Id": 176,
+        "Name": "Emard-Wisozk",
+        "ToolTip": "Vero consequatur ullam sed est quia assumenda.",
         "Deleted": false,
-        "Rank": 655,
-        "Type": "consequuntur",
-        "ColorBlock": 751,
-        "IconHint": "velit",
-        "Selected": false,
-        "LastChanged": "2020-11-08T12:01:33.6207356+01:00",
+        "Rank": 81,
+        "Type": "a",
+        "ColorBlock": 952,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2022-11-28T14:32:12.8491274+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Holly Emmerich",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Erick Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "architecto",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Dr. Justina Rogahn Sr.",
+    "FullName": "Mia Bartholome Spinka DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

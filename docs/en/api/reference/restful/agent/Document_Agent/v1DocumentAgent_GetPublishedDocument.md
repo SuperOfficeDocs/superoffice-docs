@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 772
+  "DocumentId": 297
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 803,
-  "Attention": "sed",
-  "Header": "perferendis",
-  "Name": "Emmerich, Tremblay and Morissette",
-  "OurRef": "alias",
-  "YourRef": "voluptatum",
-  "Description": "Customer-focused eco-centric utilisation",
-  "DocumentTemplate": "explicabo",
-  "IsPublished": false,
-  "PersonId": 837,
-  "PersonFullName": "Pearl Hintz",
-  "AssociateFullName": "Avery Emard",
-  "ContactId": 454,
-  "ContactName": "Nicolas Group",
-  "ProjectId": 274,
-  "ProjectName": "Runte Group",
-  "AssociateId": 995,
-  "Snum": 1001,
-  "SaleId": 673,
-  "SaleName": "Nienow, Lockman and Green",
+  "DocumentId": 738,
+  "Attention": "voluptates",
+  "Header": "sint",
+  "Name": "Shanahan, Simonis and Collins",
+  "OurRef": "asperiores",
+  "YourRef": "ipsam",
+  "Description": "Optimized client-server synergy",
+  "DocumentTemplate": "earum",
+  "IsPublished": true,
+  "PersonId": 934,
+  "PersonFullName": "Earl Grant",
+  "AssociateFullName": "Larue Roob",
+  "ContactId": 776,
+  "ContactName": "Vandervort-Mraz",
+  "ProjectId": 241,
+  "ProjectName": "Treutel-Jacobs",
+  "AssociateId": 684,
+  "Snum": 541,
+  "SaleId": 98,
+  "SaleName": "Mills Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 100
     }
   }
 }

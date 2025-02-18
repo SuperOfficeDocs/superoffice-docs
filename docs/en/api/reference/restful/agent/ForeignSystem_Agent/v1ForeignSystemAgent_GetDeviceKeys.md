@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gibson-Quitzon",
-  "DeviceName": "Wolf-Kling"
+  "ApplicationName": "Jewess, Durgan and Volkman",
+  "DeviceName": "Toy, Fritsch and Collier"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nam",
-    "Value": "corporis",
-    "RecordId": 961,
-    "CreatedDate": "2007-12-01T12:01:27.9002891+01:00",
-    "UpdatedDate": "2013-02-08T12:01:27.9002891+01:00",
-    "UpdatedBy": "est",
-    "CreatedBy": "sint",
-    "TableName": "Breitenberg, Reichel and Will",
+    "Key": "alias",
+    "Value": "perferendis",
+    "RecordId": 246,
+    "CreatedDate": "2015-07-06T14:32:03.0459963+02:00",
+    "UpdatedDate": "2024-06-01T14:32:03.0459963+02:00",
+    "UpdatedBy": "dolor",
+    "CreatedBy": "ex",
+    "TableName": "Will-Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 990
       }
     }
   }

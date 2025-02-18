@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hoeger, Howe and Nitzsche",
-  "ProviderName": "Hauck Inc and Sons"
+  "GuiName": "Grant Group",
+  "ProviderName": "Nicolas Inc and Sons"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Batz, Ledner and Torp",
-      "DisplayTooltip": "cum",
-      "DisplayType": "voluptatum",
+      "DisplayName": "Cummerata-Gaylord",
+      "DisplayTooltip": "sit",
+      "DisplayType": "nostrum",
       "CanOrderBy": false,
-      "Name": "Crooks-Goodwin",
-      "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Daugherty-Baumbach",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "excepturi",
-      "IconHint": "pariatur",
-      "HeadingIconHint": "reprehenderit"
+      "Name": "Kuvalis LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "autem",
+      "RestrictionListName": "Schuster Inc and Sons",
+      "IsVisible": false,
+      "ExtraInfo": "sunt",
+      "Width": "dicta",
+      "IconHint": "et",
+      "HeadingIconHint": "molestiae"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 47,
-      "Name": "Stamm Group",
-      "ToolTip": "Sint quos quidem rerum dignissimos.",
-      "Deleted": true,
-      "Rank": 688,
-      "Type": "aut",
-      "ColorBlock": 173,
-      "IconHint": "accusamus",
+      "Id": 867,
+      "Name": "Smith Inc and Sons",
+      "ToolTip": "Voluptates sed nulla aut qui consequatur culpa veniam.",
+      "Deleted": false,
+      "Rank": 921,
+      "Type": "ut",
+      "ColorBlock": 824,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "2023-04-20T12:01:27.3221238+02:00",
+      "LastChanged": "2000-11-16T14:32:01.9993591+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "qui",
+      "StyleHint": "non",
       "Hidden": false,
-      "FullName": "Urban Rice",
+      "FullName": "Cayla Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldLength": 823
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Fay Inc and Sons",
+      "Name": "Bahringer Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Fay Inc and Sons",
+      "Name": "Bahringer Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "dolore",
+  "OwnerKeys": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

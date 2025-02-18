@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lebsack Inc and Sons",
-  "DeviceName": "Spinka-Williamson",
-  "DeviceIdentifier": "non"
+  "ApplicationName": "Parker-Walter",
+  "DeviceName": "Tremblay, Douglas and Stokes",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 803,
-  "Name": "Schmeler-Herzog",
-  "CreatedDate": "2002-05-31T12:01:27.9002891+02:00",
-  "UpdatedDate": "2017-11-13T12:01:27.9002891+01:00",
-  "AssociateFullName": "Mrs. Kareem Elyssa Rath Jr.",
-  "CreatedBy": "deserunt",
-  "UpdatedBy": "rerum",
-  "DeviceIdentifier": "commodi",
-  "ForeignAppId": 829,
+  "ForeignDeviceId": 81,
+  "Name": "Champlin LLC",
+  "CreatedDate": "2020-06-01T14:32:03.0303748+02:00",
+  "UpdatedDate": "2010-04-30T14:32:03.0303748+02:00",
+  "AssociateFullName": "Nikolas Daniel",
+  "CreatedBy": "eos",
+  "UpdatedBy": "nulla",
+  "DeviceIdentifier": "porro",
+  "ForeignAppId": 203,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 644
+      "FieldLength": 515
     }
   }
 }

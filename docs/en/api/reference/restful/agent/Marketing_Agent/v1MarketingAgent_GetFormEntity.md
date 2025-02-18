@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=79
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=825
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 381,
-  "FormKey": "et",
-  "Name": "Okuneva, Weissnat and Schoen",
-  "Description": "Cloned logistical encryption",
-  "Config": "dolorem",
-  "FolderId": 494,
-  "ScriptId": 967,
-  "ResponseShipmentId": 347,
+  "FormId": 346,
+  "FormKey": "qui",
+  "Name": "Parisian Group",
+  "Description": "Compatible radical leverage",
+  "Config": "earum",
+  "FolderId": 12,
+  "ScriptId": 338,
+  "ResponseShipmentId": 612,
   "Active": false,
-  "Expires": "2022-06-17T12:01:27.9940463+02:00",
-  "MaxSubmits": 928,
+  "Expires": "2011-06-08T14:32:03.2180287+02:00",
+  "MaxSubmits": 540,
   "Type": "Normal",
-  "Recipe": "provident",
-  "GroupId": 514,
+  "Recipe": "tempora",
+  "GroupId": 66,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2021-07-05T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 169,
-  "Updated": "2020-10-08T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 4,
-  "UpdatedCount": 822,
+  "Registered": "2022-07-28T14:32:03.2180287+02:00",
+  "RegisteredAssociateId": 819,
+  "Updated": "2023-04-06T14:32:03.2180287+02:00",
+  "UpdatedAssociateId": 224,
+  "UpdatedCount": 416,
   "EmailFlows": [
-    28,
-    390
+    187,
+    395
   ],
-  "FolderName": "Haag-Brekke",
+  "FolderName": "Streich-Legros",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 124
     }
   }
 }

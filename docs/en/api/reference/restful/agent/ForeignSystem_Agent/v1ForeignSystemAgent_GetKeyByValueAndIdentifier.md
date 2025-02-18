@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rogahn Group",
-  "DeviceName": "Huels, Miller and Mohr",
-  "DeviceIdentifier": "molestias",
-  "KeyName": "Hermiston Inc and Sons",
-  "KeyValue": "molestiae",
-  "TableName": "Nolan-Corwin"
+  "ApplicationName": "Borer, Rau and Schoen",
+  "DeviceName": "Durgan, Sawayn and Gusikowski",
+  "DeviceIdentifier": "et",
+  "KeyName": "Metz Inc and Sons",
+  "KeyValue": "est",
+  "TableName": "Runolfsson LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "esse",
-  "Value": "perspiciatis",
-  "RecordId": 41,
-  "CreatedDate": "2023-12-14T12:01:27.9002891+01:00",
-  "UpdatedDate": "2015-12-11T12:01:27.9002891+01:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "architecto",
-  "TableName": "Howell, Erdman and Huel",
+  "Key": "magnam",
+  "Value": "totam",
+  "RecordId": 393,
+  "CreatedDate": "2011-04-22T14:32:03.0303748+02:00",
+  "UpdatedDate": "2020-12-29T14:32:03.0303748+01:00",
+  "UpdatedBy": "eius",
+  "CreatedBy": "quia",
+  "TableName": "Grady, DuBuque and Bechtelar",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 549
     }
   }
 }

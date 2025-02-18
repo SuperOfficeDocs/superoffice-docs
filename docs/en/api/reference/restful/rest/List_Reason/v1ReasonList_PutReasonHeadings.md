@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "McCullough LLC",
-    "Tooltip": "distinctio",
+    "HeadingId": 406,
+    "Name": "Turcotte Group",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 733
+    "Rank": 253,
+    "UdListDefinitionId": 955
   },
   {
-    "HeadingId": 705,
-    "Name": "McCullough LLC",
-    "Tooltip": "distinctio",
+    "HeadingId": 406,
+    "Name": "Turcotte Group",
+    "Tooltip": "placeat",
     "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 733
+    "Rank": 253,
+    "UdListDefinitionId": 955
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 857,
-    "Name": "Johnston-Breitenberg",
-    "Tooltip": "ipsum",
-    "Deleted": false,
-    "Rank": 988,
-    "UdListDefinitionId": 514,
+    "HeadingId": 115,
+    "Name": "Braun-Jaskolski",
+    "Tooltip": "mollitia",
+    "Deleted": true,
+    "Rank": 726,
+    "UdListDefinitionId": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 642
       }
     }
   }

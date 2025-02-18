@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Price, Hayes and Doyle",
-  "ProviderName": "Reichert Group",
-  "Context": "animi",
-  "OwnerKeys": "eius",
+  "GuiName": "Will Inc and Sons",
+  "ProviderName": "Jewess-Cummerata",
+  "Context": "dicta",
+  "OwnerKeys": "itaque",
   "ChosenColumns": [
-    "aliquid",
-    "minus"
+    "aut",
+    "vero"
   ]
 }
 ```

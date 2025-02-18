@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 915,
-  "Name": "Hartmann Inc and Sons",
+  "ScreenChooserId": 575,
+  "Name": "Stoltenberg-Flatley",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
+  "Enabled": false,
   "UniqueIdentifier": "rerum",
-  "Source": "non",
-  "Registered": "2012-03-03T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 900,
-  "Updated": "2020-09-21T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 811,
+  "Source": "modi",
+  "Registered": "2022-05-27T14:32:12.2240348+02:00",
+  "RegisteredAssociateId": 336,
+  "Updated": "1999-02-26T14:32:12.2240348+01:00",
+  "UpdatedAssociateId": 196,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 427
     }
   }
 }

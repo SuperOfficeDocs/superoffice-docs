@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Value": "est",
-    "Tooltip": "tenetur",
+    "Id": 447,
+    "Value": "dolorem",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 855
       }
     }
   },
   {
-    "Id": 988,
-    "Value": "est",
-    "Tooltip": "tenetur",
+    "Id": 447,
+    "Value": "dolorem",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 855
       }
     }
   }

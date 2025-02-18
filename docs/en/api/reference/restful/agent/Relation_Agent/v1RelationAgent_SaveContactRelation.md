@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 887,
-  "SourcePersonId": 184,
-  "DestinationContactId": 900,
-  "DestinationPersonId": 886,
-  "RelationId": 344,
-  "Comment": "delectus",
-  "RelationDefinitionId": 965,
-  "Reversed": 121,
-  "UpdatedDate": "2022-01-13T12:01:28.2128113+01:00",
-  "CreatedDate": "2011-02-22T12:01:28.2128113+01:00",
+  "SourceContactId": 778,
+  "SourcePersonId": 790,
+  "DestinationContactId": 408,
+  "DestinationPersonId": 632,
+  "RelationId": 227,
+  "Comment": "veniam",
+  "RelationDefinitionId": 418,
+  "Reversed": 82,
+  "UpdatedDate": "2024-10-08T14:32:03.6241939+02:00",
+  "CreatedDate": "2013-07-21T14:32:03.6241939+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Spinka Inc and Sons",
-  "SourcePersonName": "Emmerich LLC",
-  "DestinationContactName": "Monahan-Larkin",
-  "DestinationPersonName": "Halvorson-Will",
-  "ActiveText": "eligendi",
+  "SourceContactName": "Daniel, O'Connell and Kilback",
+  "SourcePersonName": "McKenzie LLC",
+  "DestinationContactName": "Casper-Feil",
+  "DestinationPersonName": "Okuneva-Christiansen",
+  "ActiveText": "rerum",
   "PassiveText": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldType": "System.String",
+      "FieldLength": 7
     }
   }
 }

@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Oct 2018 12:01:32 G10T
+Last-Modified: Sun, 13 Apr 2003 14:32:11 G4T
 
 {
-  "ForeignAppId": 933,
-  "Name": "Frami, O'Kon and Ryan",
-  "CreatedDate": "2009-06-23T12:01:32.9175621+02:00",
-  "UpdatedDate": "2018-10-03T12:01:32.9175621+02:00",
+  "ForeignAppId": 484,
+  "Name": "Satterfield-Fadel",
+  "CreatedDate": "2015-06-11T14:32:11.5054468+02:00",
+  "UpdatedDate": "2003-04-13T14:32:11.5054468+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 588,
-      "Name": "Auer-Lynch",
-      "CreatedDate": "2025-01-22T12:01:32.9175621+01:00",
-      "UpdatedDate": "2002-06-18T12:01:32.9175621+02:00",
-      "AssociateFullName": "Noble Ondricka",
-      "CreatedBy": "quia",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 32,
+      "ForeignDeviceId": 273,
+      "Name": "Schaefer, Weissnat and Heathcote",
+      "CreatedDate": "2017-11-16T14:32:11.5054468+01:00",
+      "UpdatedDate": "2008-09-18T14:32:11.5054468+02:00",
+      "AssociateFullName": "Rahsaan Murazik",
+      "CreatedBy": "quos",
+      "UpdatedBy": "vitae",
+      "DeviceIdentifier": "inventore",
+      "ForeignAppId": 602,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldType": "System.String",
+          "FieldLength": 293
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Wed, 03 Oct 2018 12:01:32 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 206
     }
   },
   "_Links": {

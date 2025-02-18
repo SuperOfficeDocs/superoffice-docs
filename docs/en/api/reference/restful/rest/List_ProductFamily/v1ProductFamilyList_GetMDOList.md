@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=omnis
+GET /api/v1/List/ProductFamily/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Jacobs-Rice",
-    "ToolTip": "Sit saepe optio dolorem.",
+    "Id": 355,
+    "Name": "Christiansen-Carroll",
+    "ToolTip": "Voluptate ea.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "accusantium",
+    "Rank": 28,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Wisoky Group",
-        "ToolTip": "Eum vel.",
+        "Id": 902,
+        "Name": "Gutkowski-Feeney",
+        "ToolTip": "Provident cum non molestiae dolorem quia et.",
         "Deleted": false,
-        "Rank": 857,
-        "Type": "et",
+        "Rank": 684,
+        "Type": "facilis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 927,
-        "ExtraInfo": "impedit",
-        "StyleHint": "consequatur",
-        "FullName": "Christelle Weber",
+        "IconHint": "officia",
+        "ColorBlock": 413,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "qui",
+        "FullName": "Carroll Harris Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 126
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 15,
-    "ExtraInfo": "omnis",
-    "StyleHint": "aut",
-    "FullName": "Domingo Will",
+    "IconHint": "odit",
+    "ColorBlock": 14,
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "quisquam",
+    "FullName": "Prof. Tate Terrill Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 742
       }
     }
   }

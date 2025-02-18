@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 310,
-  "Name": "Casper LLC",
-  "Rank": 798,
-  "Tooltip": "ut",
-  "Icon": "sint",
-  "DefaultTicketStatus": 641,
+  "TicketTypeId": 161,
+  "Name": "Stehr-VonRueden",
+  "Rank": 523,
+  "Tooltip": "aut",
+  "Icon": "at",
+  "DefaultTicketStatus": 161,
   "TicketStatuses": [
-    48,
-    317
+    136,
+    505
   ],
-  "DefaultTicketPriority": 799,
+  "DefaultTicketPriority": 225,
   "TicketPriorities": [
-    574,
-    443
+    640,
+    516
   ],
-  "ReplyTemplate": 513,
+  "ReplyTemplate": 663,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    108,
-    993
+    616,
+    974
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 881
     }
   },
   "_Links": {

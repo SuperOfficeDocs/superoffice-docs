@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Gleason, Yundt and Will",
-    "ToolTip": "Aut officia repellat error et quam.",
+    "Id": 577,
+    "Name": "Robel, Schmidt and Schaden",
+    "ToolTip": "Consequatur nobis qui eum commodi nostrum rerum vel.",
     "Deleted": false,
-    "Rank": 933,
-    "Type": "dolore",
-    "ColorBlock": 640,
-    "IconHint": "laborum",
+    "Rank": 455,
+    "Type": "maxime",
+    "ColorBlock": 766,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2022-01-25T12:01:33.6207356+01:00",
+    "LastChanged": "2009-09-24T14:32:12.833512+02:00",
     "ChildItems": [
       {
-        "Id": 42,
-        "Name": "Lakin, Treutel and Thompson",
-        "ToolTip": "Laboriosam tempora accusantium veritatis delectus aut dolore.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "eius",
-        "ColorBlock": 897,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2004-11-26T12:01:33.6207356+01:00",
+        "Id": 681,
+        "Name": "Gibson LLC",
+        "ToolTip": "Voluptas mollitia.",
+        "Deleted": true,
+        "Rank": 269,
+        "Type": "voluptas",
+        "ColorBlock": 608,
+        "IconHint": "similique",
+        "Selected": true,
+        "LastChanged": "2005-07-29T14:32:12.833512+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "et",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Dr. Devon Savannah Ernser II",
+        "FullName": "Sydnie Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldType": "System.String",
+            "FieldLength": 977
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Miss Aurelio Wolf",
+    "ExtraInfo": "animi",
+    "StyleHint": "alias",
+    "Hidden": true,
+    "FullName": "Prof. Melvin Daphne Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

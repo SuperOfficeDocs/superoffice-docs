@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "seamus@daughertyritchie.ca",
-  "Counts": 512
+  "EmailAddress": "dominique_kunde@skileslemke.com",
+  "Counts": 378
 }
 ```
 

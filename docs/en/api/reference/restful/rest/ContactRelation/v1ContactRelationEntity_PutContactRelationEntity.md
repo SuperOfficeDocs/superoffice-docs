@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 197,
-  "SourcePersonId": 812,
-  "DestinationContactId": 994,
-  "DestinationPersonId": 241,
-  "RelationId": 851,
-  "Comment": "pariatur",
-  "RelationDefinitionId": 800,
-  "Reversed": 231,
-  "UpdatedDate": "2003-09-11T12:01:32.8394314+02:00",
-  "CreatedDate": "1998-12-31T12:01:32.8394314+01:00",
+  "SourceContactId": 148,
+  "SourcePersonId": 838,
+  "DestinationContactId": 34,
+  "DestinationPersonId": 63,
+  "RelationId": 882,
+  "Comment": "fugiat",
+  "RelationDefinitionId": 690,
+  "Reversed": 162,
+  "UpdatedDate": "2001-03-18T14:32:11.3815336+01:00",
+  "CreatedDate": "2022-08-31T14:32:11.3815336+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Homenick, Maggio and Kub",
-  "SourcePersonName": "Eichmann, Kozey and Considine",
-  "DestinationContactName": "Reinger Inc and Sons",
-  "DestinationPersonName": "Rath, Dibbert and Swift",
-  "ActiveText": "et",
-  "PassiveText": "nihil"
+  "SourceContactName": "Kilback Group",
+  "SourcePersonName": "Lemke-Zulauf",
+  "DestinationContactName": "Wunsch-Stokes",
+  "DestinationPersonName": "Keeling LLC",
+  "ActiveText": "velit",
+  "PassiveText": "eum"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 370,
-  "SourcePersonId": 477,
-  "DestinationContactId": 721,
-  "DestinationPersonId": 64,
-  "RelationId": 166,
-  "Comment": "in",
-  "RelationDefinitionId": 237,
-  "Reversed": 297,
-  "UpdatedDate": "2005-01-06T12:01:32.8394314+01:00",
-  "CreatedDate": "2021-08-06T12:01:32.8394314+02:00",
+  "SourceContactId": 74,
+  "SourcePersonId": 818,
+  "DestinationContactId": 335,
+  "DestinationPersonId": 752,
+  "RelationId": 333,
+  "Comment": "sint",
+  "RelationDefinitionId": 952,
+  "Reversed": 984,
+  "UpdatedDate": "2021-07-24T14:32:11.3815336+02:00",
+  "CreatedDate": "2011-01-19T14:32:11.3815336+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Keebler, Collins and Cartwright",
-  "SourcePersonName": "Gleason-West",
-  "DestinationContactName": "Okuneva LLC",
-  "DestinationPersonName": "McGlynn, Ankunding and Brakus",
-  "ActiveText": "rem",
-  "PassiveText": "eum",
+  "SourceContactName": "Wehner, Spencer and Marquardt",
+  "SourcePersonName": "Leuschke-Bailey",
+  "DestinationContactName": "Hoppe, Armstrong and Reinger",
+  "DestinationPersonName": "Rippin Group",
+  "ActiveText": "accusantium",
+  "PassiveText": "veritatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldType": "System.String",
+      "FieldLength": 34
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

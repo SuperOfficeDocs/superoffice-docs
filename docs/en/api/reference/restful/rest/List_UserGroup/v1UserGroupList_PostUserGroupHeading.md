@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 442,
-  "Name": "Rogahn-Kuhn",
-  "Tooltip": "voluptatum",
-  "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 513
+  "HeadingId": 336,
+  "Name": "Berge, Reynolds and Langworth",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "Rank": 613,
+  "UdListDefinitionId": 937
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 338,
-  "Name": "McDermott, McClure and Spencer",
-  "Tooltip": "ut",
+  "HeadingId": 146,
+  "Name": "Zulauf, Beahan and Heidenreich",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 395,
-  "UdListDefinitionId": 496,
+  "Rank": 971,
+  "UdListDefinitionId": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 288
     }
   }
 }

@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Abbott-Jones",
-  "Tooltip": "et",
+  "Id": 500,
+  "Name": "Abshire LLC",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 631,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 607,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "molestias",
+  "ListType": "cupiditate",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 47
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

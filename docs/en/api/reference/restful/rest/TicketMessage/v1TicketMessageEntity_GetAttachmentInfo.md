@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 254,
-    "Name": "Welch-Balistreri",
-    "ContentType": "cum",
-    "AttSize": 743,
-    "InlineImage": false,
-    "ContentId": "quos",
-    "AuthKey": "ut",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 18,
+    "Name": "Kerluke, Morissette and Davis",
+    "ContentType": "et",
+    "AttSize": 367,
+    "InlineImage": true,
+    "ContentId": "reiciendis",
+    "AuthKey": "nam",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 255
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

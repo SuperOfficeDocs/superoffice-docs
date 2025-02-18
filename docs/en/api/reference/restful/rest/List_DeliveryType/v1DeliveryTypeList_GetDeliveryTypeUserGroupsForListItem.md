@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Schumm Group",
-    "ToolTip": "Aut sint impedit aut qui aut.",
+    "Id": 285,
+    "Name": "Barrows Inc and Sons",
+    "ToolTip": "Et quo animi nostrum quod praesentium atque.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "tempora",
-    "ColorBlock": 370,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2007-04-26T12:01:33.495727+02:00",
+    "Rank": 946,
+    "Type": "molestiae",
+    "ColorBlock": 788,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2001-02-03T14:32:12.6145691+01:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Lind, Yost and Corkery",
-        "ToolTip": "Aliquid a nostrum omnis.",
-        "Deleted": false,
-        "Rank": 161,
-        "Type": "expedita",
-        "ColorBlock": 135,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2004-12-22T12:01:33.495727+01:00",
+        "Id": 996,
+        "Name": "Leffler, Ullrich and Jaskolski",
+        "ToolTip": "Ut qui excepturi voluptates.",
+        "Deleted": true,
+        "Rank": 185,
+        "Type": "ut",
+        "ColorBlock": 744,
+        "IconHint": "sed",
+        "Selected": true,
+        "LastChanged": "2005-09-22T14:32:12.6145691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "nihil",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "facere",
         "Hidden": false,
-        "FullName": "Raul Schmidt",
+        "FullName": "Elwin Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 474
+            "FieldType": "System.String",
+            "FieldLength": 317
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "nemo",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatibus",
     "Hidden": false,
-    "FullName": "Dessie McCullough",
+    "FullName": "Rigoberto Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 981
+        "FieldLength": 523
       }
     }
   }

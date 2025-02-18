@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Orn Inc and Sons",
-  "Tooltip": "harum",
+  "Id": 998,
+  "Name": "Willms, Corkery and Haley",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 291,
+  "Rank": 569,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "explicabo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Nader-Goldner",
-  "Tooltip": "sunt",
+  "Id": 925,
+  "Name": "Pfannerstill, Kassulke and Sauer",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 424,
+  "Rank": 578,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false,
+  "ListType": "modi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   }
 }

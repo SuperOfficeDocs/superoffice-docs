@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 394,
-  "PlainMessage": "sunt",
-  "HtmlMessage": "corrupti",
-  "SmsMessage": "consequatur",
-  "Description": "Adaptive empowering frame",
-  "Subject": "modi",
-  "FolderId": 999,
-  "HeaderField": "expedita",
-  "Design": "earum",
+  "ShipmentMessageId": 838,
+  "PlainMessage": "et",
+  "HtmlMessage": "ut",
+  "SmsMessage": "quae",
+  "Description": "Innovative static task-force",
+  "Subject": "magni",
+  "FolderId": 726,
+  "HeaderField": "ullam",
+  "Design": "dolor",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Centralized context-sensitive definition",
-  "AccessKey": "sed",
-  "DocumentMessage": 692,
-  "Registered": "2005-12-03T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2001-01-14T12:01:33.2144574+01:00",
-  "UpdatedAssociateId": 598,
-  "UpdatedCount": 496,
+  "InlineImages": false,
+  "LongDescription": "Synchronised methodical model",
+  "AccessKey": "eaque",
+  "DocumentMessage": 222,
+  "Registered": "1999-10-03T14:32:12.0678193+02:00",
+  "RegisteredAssociateId": 354,
+  "Updated": "2022-09-24T14:32:12.0678193+02:00",
+  "UpdatedAssociateId": 199,
+  "UpdatedCount": 572,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 715
     }
   }
 }

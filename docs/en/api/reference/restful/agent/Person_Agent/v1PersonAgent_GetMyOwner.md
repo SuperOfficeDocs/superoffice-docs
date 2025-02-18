@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,53 +115,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "commodi",
-  "PersonId": 129,
-  "Mrmrs": "nihil",
-  "Firstname": "Aglae",
-  "Lastname": "Johnston",
-  "MiddleName": "Hagenes-Harber",
-  "Title": "et",
-  "Description": "Future-proofed neutral neural-net",
-  "Email": "aric@stantonlakin.name",
-  "FullName": "Ronaldo Moen",
-  "DirectPhone": "761.367.7316",
-  "FormalName": "Dickinson, Gleichner and Kshlerin",
-  "CountryId": 551,
-  "ContactId": 565,
-  "ContactName": "Braun-Konopelski",
-  "Retired": 197,
-  "Rank": 508,
-  "ActiveInterests": 274,
+  "Position": "eius",
+  "PersonId": 970,
+  "Mrmrs": "omnis",
+  "Firstname": "Reynold",
+  "Lastname": "Friesen",
+  "MiddleName": "Muller-Ziemann",
+  "Title": "laudantium",
+  "Description": "Customizable logistical migration",
+  "Email": "kenyatta@lehnerschroeder.name",
+  "FullName": "Dr. Chelsie Hudson Schiller",
+  "DirectPhone": "895.380.4123 x10793",
+  "FormalName": "Shanahan-Gislason",
+  "CountryId": 682,
+  "ContactId": 976,
+  "ContactName": "Davis LLC",
+  "Retired": 959,
+  "Rank": 67,
+  "ActiveInterests": 568,
   "ContactDepartment": "",
-  "ContactCountryId": 349,
-  "ContactOrgNr": "737091",
-  "FaxPhone": "521-505-3365 x8924",
-  "MobilePhone": "587.083.7459 x0402",
-  "ContactPhone": "866.528.6234 x15600",
-  "AssociateName": "Ondricka, Kozey and Haag",
-  "AssociateId": 717,
+  "ContactCountryId": 744,
+  "ContactOrgNr": "840647",
+  "FaxPhone": "826-632-8024",
+  "MobilePhone": "1-076-406-7390 x0011",
+  "ContactPhone": "1-821-471-8172 x93809",
+  "AssociateName": "Hyatt-Bode",
+  "AssociateId": 855,
   "UsePersonAddress": false,
-  "ContactFax": "ut",
-  "Kanafname": "velit",
-  "Kanalname": "minus",
-  "Post1": "nesciunt",
-  "Post2": "tenetur",
-  "Post3": "libero",
-  "EmailName": "jean_robel@veumkemmer.com",
-  "ContactFullName": "Jake Ritchie",
-  "ActiveErpLinks": 585,
-  "TicketPriorityId": 89,
-  "SupportLanguageId": 217,
-  "SupportAssociateId": 828,
+  "ContactFax": "fugit",
+  "Kanafname": "similique",
+  "Kanalname": "est",
+  "Post1": "expedita",
+  "Post2": "nemo",
+  "Post3": "explicabo",
+  "EmailName": "devin_harris@gibsonarmstrong.uk",
+  "ContactFullName": "Cale Langworth",
+  "ActiveErpLinks": 168,
+  "TicketPriorityId": 793,
+  "SupportLanguageId": 508,
+  "SupportAssociateId": 76,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1473945",
+  "PersonNumber": "874362",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 517
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

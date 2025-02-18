@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 822,
-  "PlainMessage": "eos",
+  "ShipmentMessageId": 932,
+  "PlainMessage": "sint",
   "HtmlMessage": "est",
-  "SmsMessage": "aut",
-  "Description": "Enterprise-wide radical paradigm",
-  "Subject": "ducimus",
-  "FolderId": 149,
-  "HeaderField": "rerum",
-  "Design": "magnam",
+  "SmsMessage": "voluptate",
+  "Description": "Synergized object-oriented superstructure",
+  "Subject": "natus",
+  "FolderId": 738,
+  "HeaderField": "aliquid",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Horizontal optimal project",
-  "AccessKey": "magni",
-  "DocumentMessage": 972,
-  "Registered": "2005-09-21T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 941,
-  "Updated": "2005-08-29T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 358,
-  "UpdatedCount": 938
+  "LongDescription": "Front-line didactic definition",
+  "AccessKey": "quod",
+  "DocumentMessage": 442,
+  "Registered": "2007-12-29T14:32:03.2180287+01:00",
+  "RegisteredAssociateId": 362,
+  "Updated": "2015-07-17T14:32:03.2180287+02:00",
+  "UpdatedAssociateId": 392,
+  "UpdatedCount": 808
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 152,
-  "PlainMessage": "consequuntur",
-  "HtmlMessage": "repellat",
-  "SmsMessage": "autem",
-  "Description": "Fundamental even-keeled middleware",
-  "Subject": "laborum",
-  "FolderId": 40,
-  "HeaderField": "voluptas",
-  "Design": "et",
+  "ShipmentMessageId": 975,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "sit",
+  "SmsMessage": "vitae",
+  "Description": "Right-sized holistic internet solution",
+  "Subject": "dignissimos",
+  "FolderId": 615,
+  "HeaderField": "ipsa",
+  "Design": "aspernatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Optional encompassing workforce",
-  "AccessKey": "quod",
-  "DocumentMessage": 768,
-  "Registered": "2024-05-20T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 382,
-  "Updated": "2002-09-02T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 311,
-  "UpdatedCount": 145,
+  "LongDescription": "Persevering global application",
+  "AccessKey": "rerum",
+  "DocumentMessage": 646,
+  "Registered": "2020-08-01T14:32:03.2180287+02:00",
+  "RegisteredAssociateId": 899,
+  "Updated": "2013-04-02T14:32:03.2180287+02:00",
+  "UpdatedAssociateId": 298,
+  "UpdatedCount": 549,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

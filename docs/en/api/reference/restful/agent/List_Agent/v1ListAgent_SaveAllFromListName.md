@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rutherford-Kuhn",
+  "UdListDefinitionName": "Mayer-VonRueden",
   "Items": [
     {
-      "Id": 14,
-      "Name": "Stark, Collins and Schmeler",
-      "Tooltip": "repellendus",
+      "Id": 115,
+      "Name": "Volkman LLC",
+      "Tooltip": "deserunt",
       "Deleted": false,
-      "UdListDefinitionId": 594,
-      "Rank": 847
+      "UdListDefinitionId": 367,
+      "Rank": 511
     },
     {
-      "Id": 14,
-      "Name": "Stark, Collins and Schmeler",
-      "Tooltip": "repellendus",
+      "Id": 115,
+      "Name": "Volkman LLC",
+      "Tooltip": "deserunt",
       "Deleted": false,
-      "UdListDefinitionId": 594,
-      "Rank": 847
+      "UdListDefinitionId": 367,
+      "Rank": 511
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Skiles-Steuber",
-    "Tooltip": "ut",
+    "Id": 214,
+    "Name": "Feeney-Baumbach",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 958,
+    "UdListDefinitionId": 518,
+    "Rank": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 734
       }
     }
   }

@@ -34,7 +34,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ErpSyncLog?$select=connection,target
+GET /api/v1/archive/ErpSyncLog?$select=id,connection,target
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

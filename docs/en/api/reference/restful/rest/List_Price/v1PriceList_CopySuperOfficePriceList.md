@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=08/19/1998 12:01:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/10/2019 12:01:35
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=573
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/24/2020 14:32:15
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/23/1999 14:32:15
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=699
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 207,
-  "ERPPriceListKey": "nihil",
-  "QuoteConnectionId": 313,
-  "Name": "Streich Group",
-  "Description": "Adaptive logistical task-force",
-  "Currency": "rerum",
-  "CurrencyName": "Botsford-Swaniawski",
-  "ValidFrom": "2001-08-15T12:01:33.5582313+02:00",
-  "ValidTo": "2019-03-10T12:01:33.5582313+01:00",
+  "PriceListId": 655,
+  "ERPPriceListKey": "ipsa",
+  "QuoteConnectionId": 505,
+  "Name": "Lang-Reinger",
+  "Description": "Intuitive bottom-line budgetary management",
+  "Currency": "commodi",
+  "CurrencyName": "Christiansen-Will",
+  "ValidFrom": "2003-04-18T14:32:12.72392+02:00",
+  "ValidTo": "2024-11-11T14:32:12.72392+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 362
     }
   }
 }

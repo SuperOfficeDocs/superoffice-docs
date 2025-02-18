@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Value": "et",
-    "Tooltip": "omnis",
+    "Id": 430,
+    "Value": "consequatur",
+    "Tooltip": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 968
       }
     }
   },
   {
-    "Id": 766,
-    "Value": "et",
-    "Tooltip": "omnis",
+    "Id": 430,
+    "Value": "consequatur",
+    "Tooltip": "velit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 859
+        "FieldLength": 968
       }
     }
   }

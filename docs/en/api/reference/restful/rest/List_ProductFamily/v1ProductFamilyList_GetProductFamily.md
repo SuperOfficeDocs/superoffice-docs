@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Schiller, Swaniawski and Pfeffer",
-  "Tooltip": "itaque",
+  "Id": 938,
+  "Name": "Lakin LLC",
+  "Tooltip": "ut",
   "Deleted": true,
-  "UdListDefinitionId": 867,
-  "Rank": 927,
+  "UdListDefinitionId": 492,
+  "Rank": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 926
     }
   }
 }

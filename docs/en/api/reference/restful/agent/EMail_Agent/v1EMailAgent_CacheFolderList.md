@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schimmel Group",
-    "Delimiter": "doloremque",
-    "Flags": "veritatis",
-    "TotalItems": 211,
-    "UnreadItems": 767,
+    "Name": "Reilly-Russel",
+    "Delimiter": "et",
+    "Flags": "ea",
+    "TotalItems": 328,
+    "UnreadItems": 846,
     "Subscribed": false,
-    "EmailFolderId": 91,
+    "EmailFolderId": 285,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

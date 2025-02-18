@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 139,
-  "Name": "O'Hara, Kutch and Bashirian",
-  "Tooltip": "occaecati",
+  "HeadingId": 783,
+  "Name": "Ziemann, Stiedemann and Kub",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 143,
-  "UdListDefinitionId": 403
+  "Rank": 909,
+  "UdListDefinitionId": 114
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 233,
-  "Name": "Cummings-Labadie",
-  "Tooltip": "ipsam",
+  "HeadingId": 440,
+  "Name": "Bartell-Homenick",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 794,
-  "UdListDefinitionId": 198,
+  "Rank": 833,
+  "UdListDefinitionId": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 618
     }
   }
 }

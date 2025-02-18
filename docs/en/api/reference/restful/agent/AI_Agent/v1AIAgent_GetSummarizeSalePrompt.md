@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 422,
-  "NumSentences": 530,
-  "Summary": "quod",
-  "IsoLangCode": "non"
+  "SaleId": 680,
+  "NumSentences": 434,
+  "Summary": "quis",
+  "IsoLangCode": "iure"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2004-12-03T12:01:26.9783334+01:00",
-  "UserPrompt": "voluptate",
-  "UserDisplayText": "voluptatibus",
-  "BotResponse": "beatae",
+  "Timestamp": "2011-02-18T14:32:01.4368148+01:00",
+  "UserPrompt": "dolor",
+  "UserDisplayText": "sequi",
+  "BotResponse": "perspiciatis",
   "BotActions": {
-    "BotActions1": "ad",
-    "BotActions2": "ullam"
+    "BotActions1": "dolores",
+    "BotActions2": "rerum"
   },
   "Attachments": [
-    "quis",
-    "doloremque"
+    "commodi",
+    "accusamus"
   ]
 }
 ```

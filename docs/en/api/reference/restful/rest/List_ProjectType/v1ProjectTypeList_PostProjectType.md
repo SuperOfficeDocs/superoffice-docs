@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 722,
-  "Name": "Gleason Group",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "UdListDefinitionId": 82,
-  "Rank": 890
+  "Id": 346,
+  "Name": "Gislason LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 648,
+  "Rank": 665
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Green, Douglas and Brown",
-  "Tooltip": "alias",
+  "Id": 852,
+  "Name": "Berge Group",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 880,
-  "Rank": 17,
+  "UdListDefinitionId": 713,
+  "Rank": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 937
     }
   }
 }

@@ -86,10 +86,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rippin, Von and Jast",
+  "TableName": "Russel Inc and Sons",
   "Columns": [
-    "quo",
-    "quia"
+    "recusandae",
+    "quis"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "ipsam",
-  "Inserts": 787,
-  "Updates": 700,
-  "Deletes": 76,
+  "Success": true,
+  "Message": "quam",
+  "Inserts": 384,
+  "Updates": 74,
+  "Deletes": 126,
   "RowStatus": [
     {
-      "PrimaryKey": 713,
+      "PrimaryKey": 904,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aliquid",
-        "officia"
+        "nulla",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 238
         }
       }
     },
     {
-      "PrimaryKey": 713,
+      "PrimaryKey": 904,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aliquid",
-        "officia"
+        "nulla",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 238
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 183
     }
   }
 }

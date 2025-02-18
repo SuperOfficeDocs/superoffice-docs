@@ -109,7 +109,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 31
+  "ChatSessionId": 976
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 296,
-  "TopicId": 161,
+  "ChatSessionId": 414,
+  "TopicId": 626,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "occaecati",
-  "CustomerName": "Zulauf LLC",
-  "CustomerEmail": "moises@trantowgottlieb.name",
-  "CustomerPhone": "(428)311-7325",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Franecki, Erdman and Beahan",
+  "CustomerAlias": "illo",
+  "CustomerHost": "quaerat",
+  "CustomerName": "Walter Inc and Sons",
+  "CustomerEmail": "lionel.tremblay@marquardt.biz",
+  "CustomerPhone": "1-975-730-5983 x3308",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Pouros-Dietrich",
   "Status": "Closed",
-  "FirstMessage": "eum",
-  "LastMessage": "et",
-  "WhenRequested": "2002-07-21T12:01:27.4158812+02:00",
-  "WhenStarted": "1998-03-07T12:01:27.4158812+01:00",
-  "WhenEnded": "1998-03-25T12:01:27.4158812+01:00",
-  "WhenIdle": "2006-02-24T12:01:27.4158812+01:00",
-  "WhenFetched": "2005-12-19T12:01:27.4158812+01:00",
-  "SessionKey": "repellendus",
-  "InitialQueuePos": 7,
-  "AlertLevel": 975,
-  "Rank": 771,
+  "FirstMessage": "aliquam",
+  "LastMessage": "aut",
+  "WhenRequested": "2016-09-03T14:32:02.1711981+02:00",
+  "WhenStarted": "2006-12-14T14:32:02.1711981+01:00",
+  "WhenEnded": "1997-11-27T14:32:02.1711981+01:00",
+  "WhenIdle": "2014-04-18T14:32:02.1711981+02:00",
+  "WhenFetched": "2020-04-20T14:32:02.1711981+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 66,
+  "AlertLevel": 143,
+  "Rank": 622,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 242,
+  "Rating": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldType": "System.String",
+      "FieldLength": 666
     }
   }
 }

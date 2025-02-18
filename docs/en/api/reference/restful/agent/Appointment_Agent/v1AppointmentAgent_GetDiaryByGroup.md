@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 763,
-  "GroupType": 560,
-  "StartTime": "2023-02-28T12:01:27.0252114+01:00",
-  "EndTime": "2009-09-24T12:01:27.0252114+02:00",
-  "Count": 225
+  "GroupId": 813,
+  "GroupType": 987,
+  "StartTime": "2018-10-06T14:32:01.6398975+02:00",
+  "EndTime": "2003-05-17T14:32:01.6398975+02:00",
+  "Count": 993
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 213,
-    "StartDate": "2015-05-05T12:01:27.0252114+02:00",
-    "EndDate": "2014-03-21T12:01:27.0252114+01:00",
+    "AppointmentId": 665,
+    "StartDate": "2020-03-25T14:32:01.6398975+01:00",
+    "EndDate": "2014-12-14T14:32:01.6398975+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nobis",
-    "AssociateFullName": "Opal Welch",
-    "ContactName": "Flatley, Zboncak and Heaney",
-    "Description": "Right-sized well-modulated approach",
-    "PersonFullName": "Olen Johns",
-    "PersonId": 553,
-    "ContactId": 583,
-    "ProjectId": 397,
-    "ProjectName": "Spinka-Gottlieb",
-    "IsPublished": true,
-    "AssociateId": 753,
-    "ColorIndex": 483,
+    "Task": "quam",
+    "AssociateFullName": "Noelia Stokes",
+    "ContactName": "Towne-Wunsch",
+    "Description": "Exclusive next generation interface",
+    "PersonFullName": "Christa Watsica III",
+    "PersonId": 602,
+    "ContactId": 731,
+    "ProjectId": 81,
+    "ProjectName": "Koch LLC",
+    "IsPublished": false,
+    "AssociateId": 174,
+    "ColorIndex": 816,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 58,
-    "PriorityName": "Hane, Carter and Morar",
+    "PriorityId": 106,
+    "PriorityName": "Rice-Bednar",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-11-11T12:01:27.0252114+01:00",
+    "ActiveDate": "2006-08-19T14:32:01.6398975+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-07-12T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1999-11-01T12:01:27.0252114+01:00",
-    "MotherId": 615,
-    "AssignedBy": 593,
-    "AssignedByFullName": "Jace Hilpert",
+    "RecurringStartDate": "2010-10-30T14:32:01.6398975+02:00",
+    "RecurringEndDate": "2001-12-15T14:32:01.6398975+01:00",
+    "MotherId": 769,
+    "AssignedBy": 271,
+    "AssignedByFullName": "Ms. Tara Bryon Orn",
     "RejectReason": "",
-    "Location": "soluta",
-    "AlarmLeadTime": "occaecati",
-    "SaleId": 60,
-    "SaleName": "Wilderman-O'Kon",
-    "AssociateName": "VonRueden-Murazik",
-    "CreatedDate": "2003-03-09T12:01:27.0252114+01:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Dominique Smitham",
-    "CreatedByAssociateId": 524,
+    "Location": "doloremque",
+    "AlarmLeadTime": "perferendis",
+    "SaleId": 423,
+    "SaleName": "Schmeler Group",
+    "AssociateName": "Waters Inc and Sons",
+    "CreatedDate": "2020-11-22T14:32:01.6398975+01:00",
+    "CreatedBy": "quia",
+    "CreatedByFullName": "Marcelo Walker",
+    "CreatedByAssociateId": 504,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 975,
-    "Title": "repellendus",
-    "Agenda": "ab",
-    "InternalNotes": "ea",
+    "PreferredTZLocation": 226,
+    "Title": "ducimus",
+    "Agenda": "non",
+    "InternalNotes": "facere",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 415
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Flatley-Graham",
-    "ToolTip": "Inventore repellendus at.",
+    "Id": 343,
+    "Name": "Murray Group",
+    "ToolTip": "Voluptas consectetur officiis qui voluptatem et.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "cupiditate",
-    "ColorBlock": 820,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2002-04-29T12:01:33.495727+02:00",
+    "Rank": 458,
+    "Type": "sit",
+    "ColorBlock": 563,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "2006-04-07T14:32:12.6145691+02:00",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Keeling-Miller",
-        "ToolTip": "Ex eos provident.",
+        "Id": 850,
+        "Name": "Rippin-Quigley",
+        "ToolTip": "Laboriosam aspernatur.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "nostrum",
-        "ColorBlock": 680,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2011-08-15T12:01:33.495727+02:00",
+        "Rank": 626,
+        "Type": "similique",
+        "ColorBlock": 167,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2022-12-30T14:32:12.6145691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Casper Rohan",
+        "ExtraInfo": "non",
+        "StyleHint": "laudantium",
+        "Hidden": true,
+        "FullName": "April Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 182
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sheldon Sanford",
+    "FullName": "Celia O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 106
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

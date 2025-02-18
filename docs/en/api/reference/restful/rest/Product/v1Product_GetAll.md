@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=eos
-GET /api/v1/Product?$top=451
-GET /api/v1/Product?$skip=531
+GET /api/v1/Product?$entities=ipsum
+GET /api/v1/Product?$top=98
+GET /api/v1/Product?$skip=340
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=illo
+GET /api/v1/Product?$context=minima
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "totam",
   "value": [
     {
-      "PrimaryKey": 8878,
-      "EntityName": "person",
-      "personId": 8878,
-      "fullName": "Carol Hattie Hintz V"
+      "PrimaryKey": 1431,
+      "EntityName": "sale",
+      "saleId": 1431,
+      "contactId": 5370,
+      "name": "Gaylord-Swift"
     },
     {
-      "PrimaryKey": 7714,
-      "EntityName": "person",
-      "personId": 7714,
-      "fullName": "Dashawn Wyman"
+      "PrimaryKey": 9716,
+      "EntityName": "sale",
+      "saleId": 9716,
+      "contactId": 2836,
+      "name": "Wolf-Bode"
     }
   ]
 }

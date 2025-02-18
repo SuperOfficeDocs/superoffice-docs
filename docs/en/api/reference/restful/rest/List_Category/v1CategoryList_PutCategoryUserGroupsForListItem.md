@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Lockman, King and Schinner",
-    "ToolTip": "Ea velit.",
+    "Id": 467,
+    "Name": "Schimmel, Langosh and Kub",
+    "ToolTip": "Dolore soluta dolor officia vel et vitae itaque.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "et",
-    "ColorBlock": 317,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2007-05-23T12:01:33.4332226+02:00",
+    "Rank": 137,
+    "Type": "accusantium",
+    "ColorBlock": 743,
+    "IconHint": "consectetur",
+    "Selected": true,
+    "LastChanged": "2006-03-19T14:32:12.4895996+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Ziemann, Schmeler and Legros",
-        "ToolTip": "Omnis beatae dolor delectus culpa autem iusto quia.",
+        "Id": 469,
+        "Name": "Homenick, Hintz and Lakin",
+        "ToolTip": "Accusantium itaque accusantium molestiae illo quo ipsa eaque.",
         "Deleted": false,
-        "Rank": 124,
-        "Type": "dolorum",
-        "ColorBlock": 13,
-        "IconHint": "sed",
+        "Rank": 316,
+        "Type": "repellendus",
+        "ColorBlock": 586,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2019-06-02T12:01:33.4332226+02:00",
+        "LastChanged": "2003-10-29T14:32:12.4895996+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Dr. Lamar Murray"
+        "ExtraInfo": "numquam",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Ahmad Veum"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Prof. Juliet Murray"
+    "ExtraInfo": "mollitia",
+    "StyleHint": "iusto",
+    "Hidden": false,
+    "FullName": "Mr. Ernestine Isobel White"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Vel labore.",
-    "Deleted": false,
-    "Rank": 751,
-    "Type": "repudiandae",
-    "ColorBlock": 667,
-    "IconHint": "dolorem",
+    "Id": 997,
+    "Name": "Boyer Inc and Sons",
+    "ToolTip": "Blanditiis a laudantium quia non ad.",
+    "Deleted": true,
+    "Rank": 895,
+    "Type": "sequi",
+    "ColorBlock": 955,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2009-09-14T12:01:33.4332226+02:00",
+    "LastChanged": "2024-09-03T14:32:12.4895996+02:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Cole-Lockman",
-        "ToolTip": "Error cumque eum iure.",
-        "Deleted": false,
-        "Rank": 163,
-        "Type": "quas",
-        "ColorBlock": 348,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2003-08-21T12:01:33.4332226+02:00",
+        "Id": 434,
+        "Name": "Huel Inc and Sons",
+        "ToolTip": "Eos vitae et consectetur quo minima velit rerum.",
+        "Deleted": true,
+        "Rank": 142,
+        "Type": "qui",
+        "ColorBlock": 840,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2018-10-20T14:32:12.4895996+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Erwin Kuvalis",
+        "ExtraInfo": "est",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Hollis Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldType": "System.String",
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Elva Bruen",
+    "ExtraInfo": "sit",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Darlene Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldType": "System.Int32",
+        "FieldLength": 382
       }
     }
   }

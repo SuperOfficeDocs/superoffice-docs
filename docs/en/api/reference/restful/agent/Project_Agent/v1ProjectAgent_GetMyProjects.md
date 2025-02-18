@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 914,
-    "Name": "Muller LLC",
-    "Description": "Managed uniform architecture",
+    "ProjectId": 576,
+    "Name": "Lindgren-Treutel",
+    "Description": "Digitized 4th generation portal",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 687,
-    "AssociateFullName": "Creola Kutch",
-    "TypeId": 344,
-    "Updated": "2011-01-29T12:01:28.1659327+01:00",
-    "StatusId": 380,
-    "Status": "dignissimos",
-    "TextId": 534,
-    "PublishTo": "2002-02-13T12:01:28.1659327+01:00",
-    "PublishFrom": "2020-04-09T12:01:28.1659327+02:00",
-    "IsPublished": true,
+    "Type": "aut",
+    "AssociateId": 58,
+    "AssociateFullName": "Donna Medhurst",
+    "TypeId": 672,
+    "Updated": "2017-10-15T14:32:03.5148359+02:00",
+    "StatusId": 244,
+    "Status": "ut",
+    "TextId": 370,
+    "PublishTo": "2020-06-21T14:32:03.5148359+02:00",
+    "PublishFrom": "2019-10-16T14:32:03.5148359+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1315458",
-    "ActiveErpLinks": 996,
+    "ProjectNumber": "1160343",
+    "ActiveErpLinks": 353,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldLength": 755
       }
     }
   }

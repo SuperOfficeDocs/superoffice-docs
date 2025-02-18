@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 683,
-  "ColumnId": 412,
-  "FieldDefault": "voluptatum",
-  "FieldHeight": 243,
-  "FieldLabel": "optio",
-  "FieldLeft": 982,
-  "FieldTop": 439,
+  "UDefFieldId": 281,
+  "ColumnId": 383,
+  "FieldDefault": "placeat",
+  "FieldHeight": 757,
+  "FieldLabel": "quasi",
+  "FieldLeft": 499,
+  "FieldTop": 356,
   "FieldType": "Checkbox",
-  "FieldWidth": 907,
-  "FormatMask": "sint",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 419,
-  "LabelLeft": 921,
-  "LabelTop": 626,
-  "LabelWidth": 647,
-  "LastVersionId": 157,
-  "ListTableId": 530,
+  "FieldWidth": 373,
+  "FormatMask": "itaque",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 629,
+  "LabelLeft": 696,
+  "LabelTop": 872,
+  "LabelWidth": 974,
+  "LastVersionId": 227,
+  "ListTableId": 372,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 48,
-  "ProgId": "qui",
+  "Page1LineNo": 951,
+  "ProgId": "tempora",
   "IsReadOnly": false,
-  "ShortLabel": "assumenda",
-  "TabOrder": 608,
-  "TextLength": 303,
-  "Tooltip": "optio",
-  "UdefIdentity": 532,
-  "UDListDefinitionId": 843,
+  "ShortLabel": "a",
+  "TabOrder": 647,
+  "TextLength": 433,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 495,
+  "UDListDefinitionId": 528,
   "Justification": "Center",
-  "Version": 509,
-  "TemplateVariableName": "Goodwin Inc and Sons",
+  "Version": 567,
+  "TemplateVariableName": "Von Group",
   "HasBeenPublished": false,
-  "MdoListName": "Kozey, Bogisich and Feeney",
+  "MdoListName": "Kohler, Upton and Powlowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldLength": 279
     }
   }
 }

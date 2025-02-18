@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Corkery, Padberg and Auer",
-  "RecordId": 247,
-  "AssociateId": 975,
-  "ExtraInfo": "explicabo"
+  "TableName": "Lynch Group",
+  "RecordId": 88,
+  "AssociateId": 888,
+  "ExtraInfo": "enim"
 }
 ```
 

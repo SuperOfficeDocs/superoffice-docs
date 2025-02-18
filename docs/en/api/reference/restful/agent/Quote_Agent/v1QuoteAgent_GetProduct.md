@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 390,
-  "ERPProductKey": "qui"
+  "QuoteConnectionId": 576,
+  "ERPProductKey": "a"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 902,
-  "ERPProductKey": "ad",
-  "ERPPriceListKey": "nostrum",
-  "Name": "Rosenbaum, Ebert and Brekke",
-  "Description": "Organized well-modulated hub",
-  "Code": "deleniti",
-  "PriceUnit": "non",
-  "QuantityUnit": "quod",
-  "IsSubscription": true,
-  "SubscriptionUnit": "consectetur",
-  "DefaultSubscriptionQuantity": 7960.36,
-  "ItemNumber": "112269",
+  "ProductId": 351,
+  "ERPProductKey": "libero",
+  "ERPPriceListKey": "alias",
+  "Name": "Fay-Schuppe",
+  "Description": "Switchable full-range open system",
+  "Code": "sunt",
+  "PriceUnit": "ipsam",
+  "QuantityUnit": "sed",
+  "IsSubscription": false,
+  "SubscriptionUnit": "fugit",
+  "DefaultSubscriptionQuantity": 18286.89,
+  "ItemNumber": "1174371",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "culpa",
-  "ProductTypeKey": "molestiae",
-  "VAT": 22492.718,
-  "VATInfo": "amet",
-  "UnitCost": 26739.288,
-  "UnitMinimumPrice": 27945.878,
-  "UnitListPrice": 3149.67,
-  "InAssortment": false,
-  "Supplier": "incidunt",
-  "SupplierCode": "accusamus",
-  "Rights": "aut",
-  "Rule": "ab",
+  "ProductFamilyKey": "doloribus",
+  "ProductTypeKey": "ducimus",
+  "VAT": 27228.192,
+  "VATInfo": "ad",
+  "UnitCost": 22611.809999999998,
+  "UnitMinimumPrice": 8634.17,
+  "UnitListPrice": 9154.4139999999989,
+  "InAssortment": true,
+  "Supplier": "neque",
+  "SupplierCode": "recusandae",
+  "Rights": "harum",
+  "Rule": "minima",
   "ExtraInfo": [
     {
-      "Name": "King-Ziemann",
-      "Value": "ullam",
+      "Name": "Marquardt-Reilly",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 587
         }
       }
     },
     {
-      "Name": "King-Ziemann",
-      "Value": "ullam",
+      "Name": "Marquardt-Reilly",
+      "Value": "iure",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldType": "System.Int32",
+          "FieldLength": 587
         }
       }
     }
   ],
-  "RawExtraInfo": "necessitatibus",
-  "ExtraField1": "sed",
-  "ExtraField2": "minima",
-  "ExtraField3": "id",
-  "ExtraField4": "nisi",
-  "ExtraField5": "placeat",
-  "InStock": 9101.136,
+  "RawExtraInfo": "architecto",
+  "ExtraField1": "saepe",
+  "ExtraField2": "deserunt",
+  "ExtraField3": "cumque",
+  "ExtraField4": "est",
+  "ExtraField5": "eos",
+  "InStock": 21226.582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 950
     }
   }
 }

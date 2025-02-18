@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=velit
+GET /api/v1/List/ConsentSource/MDOItems?query=recusandae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Wilkinson-Bailey",
-    "ToolTip": "Voluptatibus est occaecati.",
+    "Id": 698,
+    "Name": "Rau LLC",
+    "ToolTip": "Minus assumenda voluptas autem quam numquam.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "eum",
+    "Rank": 283,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Gulgowski-O'Connell",
-        "ToolTip": "Assumenda et et ut quasi.",
+        "Id": 323,
+        "Name": "Baumbach, Franecki and Eichmann",
+        "ToolTip": "Delectus dolores earum doloribus veniam facilis quod.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "nihil",
+        "Rank": 668,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 172,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "reprehenderit",
-        "FullName": "Wanda Durgan",
+        "IconHint": "temporibus",
+        "ColorBlock": 428,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "voluptatem",
+        "FullName": "Lloyd Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldType": "System.String",
+            "FieldLength": 207
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 562,
-    "ExtraInfo": "quos",
-    "StyleHint": "qui",
-    "FullName": "Leonard Padberg",
+    "IconHint": "voluptate",
+    "ColorBlock": 969,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "est",
+    "FullName": "Ms. Juliet Jessy Hermiston Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldLength": 919
       }
     }
   }

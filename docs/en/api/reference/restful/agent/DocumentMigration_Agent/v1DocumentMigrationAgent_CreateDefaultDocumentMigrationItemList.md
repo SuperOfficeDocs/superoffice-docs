@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 137,
-  "NumDocumentsAlreadyMigrated": 416,
+  "NumDocumentsOmitted": 313,
+  "NumDocumentsAlreadyMigrated": 879,
   "Documents": [
     {
-      "DocumentId": 204,
-      "ContactId": 991,
-      "PersonId": 363,
-      "SaleId": 146,
-      "ProjectId": 137,
-      "DocTmplId": 445,
-      "AssociateId": 402,
-      "UserGroupId": 40,
-      "VisibleForId": 189
+      "DocumentId": 939,
+      "ContactId": 144,
+      "PersonId": 404,
+      "SaleId": 203,
+      "ProjectId": 547,
+      "DocTmplId": 266,
+      "AssociateId": 7,
+      "UserGroupId": 177,
+      "VisibleForId": 165
     }
   ],
   "Associates": [
     {
-      "AssociateId": 639,
-      "EmailAddress": "aiden.yost@williamson.co.uk"
+      "AssociateId": 840,
+      "EmailAddress": "claire_bradtke@kossflatley.name"
     },
     {
-      "AssociateId": 639,
-      "EmailAddress": "aiden.yost@williamson.co.uk"
+      "AssociateId": 840,
+      "EmailAddress": "claire_bradtke@kossflatley.name"
     }
   ]
 }

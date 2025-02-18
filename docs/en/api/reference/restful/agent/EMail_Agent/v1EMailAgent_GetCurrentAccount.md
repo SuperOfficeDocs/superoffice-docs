@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 527,
-  "EMailAddress": "consequuntur",
-  "AssociateId": 242,
+  "EMailAccountId": 365,
+  "EMailAddress": "quia",
+  "AssociateId": 489,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 318,
-  "ErrorCount": 660,
+  "AccountStatus": 540,
+  "ErrorCount": 920,
   "ErrorReason": "",
-  "InboxFolder": "non",
-  "SentFolder": "esse",
-  "SimpleMode": 111,
-  "LastFetch": "2004-05-25T12:01:27.8221586+02:00",
+  "InboxFolder": "fugiat",
+  "SentFolder": "est",
+  "SimpleMode": 86,
+  "LastFetch": "2004-07-15T14:32:02.8741609+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldType": "System.String",
+      "FieldLength": 972
     }
   }
 }

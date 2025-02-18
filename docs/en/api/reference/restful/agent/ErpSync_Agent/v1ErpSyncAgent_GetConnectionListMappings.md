@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 7
+  "ErpConnectionId": 403
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Leffler, Metz and Kreiger",
+      "ErpListName": "Langosh LLC",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Fadel-Brekke",
-      "ErpFieldId": 825,
+      "ErpActorTypeName": "Pollich-Barrows",
+      "ErpFieldId": 386,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 860
         }
       }
     }
   ],
-  "ErpConnectionId": 781,
-  "ErpConnectionName": "Fritsch-Pfeffer",
+  "ErpConnectionId": 780,
+  "ErpConnectionName": "White Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 171
     }
   }
 }

@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "cum",
+  "Key": "dolorem",
   "Value": "quia",
-  "RecordId": 334,
-  "CreatedDate": "2009-11-25T12:01:32.9175621+01:00",
-  "UpdatedDate": "2010-04-22T12:01:32.9175621+02:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "sed",
-  "TableName": "Erdman, Beier and Douglas"
+  "RecordId": 855,
+  "CreatedDate": "2007-08-21T14:32:11.5210682+02:00",
+  "UpdatedDate": "1998-11-12T14:32:11.5210682+01:00",
+  "UpdatedBy": "alias",
+  "CreatedBy": "repellendus",
+  "TableName": "Marks Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "ab",
-  "RecordId": 347,
-  "CreatedDate": "2023-11-25T12:01:32.9175621+01:00",
-  "UpdatedDate": "2011-08-28T12:01:32.9175621+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "nulla",
-  "TableName": "Torphy-Wuckert",
+  "Key": "corporis",
+  "Value": "quis",
+  "RecordId": 679,
+  "CreatedDate": "2008-06-13T14:32:11.5210682+02:00",
+  "UpdatedDate": "2016-03-22T14:32:11.5210682+01:00",
+  "UpdatedBy": "eum",
+  "CreatedBy": "aspernatur",
+  "TableName": "Sanford Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   }
 }

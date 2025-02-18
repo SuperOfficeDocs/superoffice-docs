@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 669,
-  "Name": "Nienow LLC",
-  "Tooltip": "reiciendis",
-  "Rank": 1002,
-  "Key": "qui",
+  "LegalBaseId": 746,
+  "Name": "Mante Group",
+  "Tooltip": "in",
+  "Rank": 533,
+  "Key": "totam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 989
     }
   }
 }

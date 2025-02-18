@@ -71,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "expedita",
+  "Type": "quisquam",
   "Credentials": null
 }
 ```

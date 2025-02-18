@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Cummings LLC",
-  "Tooltip": "neque",
-  "Deleted": false,
-  "UdListDefinitionId": 349,
-  "Rank": 437,
+  "Id": 695,
+  "Name": "Stamm Inc and Sons",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "UdListDefinitionId": 923,
+  "Rank": 550,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   }
 }

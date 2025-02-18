@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 439
+  "PersonId": 54
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 750,
-  "PlainParsed": "perferendis",
-  "HtmlParsed": "iure",
+  "ReplyTemplateId": 993,
+  "PlainParsed": "aut",
+  "HtmlParsed": "possimus",
   "Attachments": [
     {
-      "AttachmentId": 383,
-      "Name": "Kertzmann-Swaniawski",
-      "ContentType": "debitis",
-      "AttSize": 172,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "aperiam",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 235,
+      "Name": "Deckow LLC",
+      "ContentType": "voluptatem",
+      "AttSize": 896,
+      "InlineImage": true,
+      "ContentId": "rem",
+      "AuthKey": "qui",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 575
         }
       }
     }
   ],
-  "Subject": "dolorem",
+  "Subject": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 10
     }
   }
 }

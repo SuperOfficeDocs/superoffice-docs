@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Marquardt-Bashirian",
-  "Comment": "quas",
-  "StakeholderRoleId": 976,
-  "CountryId": 536,
-  "PersonId": 184,
-  "EmailDescription": "leo.gleichner@wittingledner.biz",
-  "EmailId": 784,
-  "EmailAddress": "evalyn@gleason.us",
-  "PhoneId": 516,
-  "ContactName": "Adams Inc and Sons",
-  "ContactId": 364,
-  "SaleId": 560,
-  "Mrmrs": "ducimus",
-  "Firstname": "Rachel",
-  "MiddleName": "Torp, Kemmer and Zboncak",
-  "Lastname": "Zieme",
-  "SaleStakeholderId": 269,
-  "Rank": 737,
-  "Phone": "817-808-6117",
+  "StakeholderRoleName": "Christiansen LLC",
+  "Comment": "itaque",
+  "StakeholderRoleId": 698,
+  "CountryId": 353,
+  "PersonId": 779,
+  "EmailDescription": "mollie_koepp@anderson.biz",
+  "EmailId": 710,
+  "EmailAddress": "cyrus.robel@christiansen.ca",
+  "PhoneId": 448,
+  "ContactName": "Luettgen-Kozey",
+  "ContactId": 187,
+  "SaleId": 3,
+  "Mrmrs": "et",
+  "Firstname": "Kaylee",
+  "MiddleName": "Mueller Group",
+  "Lastname": "Carroll",
+  "SaleStakeholderId": 936,
+  "Rank": 520,
+  "Phone": "1-193-110-5476 x46340",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 128
     }
   },
   "_Links": {

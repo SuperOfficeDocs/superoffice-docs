@@ -94,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany Inc and Sons",
-  "ForceFlatList": true,
-  "AdditionalInfo": "saepe",
+  "Name": "Padberg-Kshlerin",
+  "ForceFlatList": false,
+  "AdditionalInfo": "sed",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Upton, VonRueden and Walter",
-    "ToolTip": "Deserunt eius maiores.",
+    "Id": 180,
+    "Name": "Heller-Gerhold",
+    "ToolTip": "Dolores laboriosam quia est similique.",
     "Deleted": true,
-    "Rank": 721,
-    "Type": "architecto",
-    "ColorBlock": 96,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2018-02-03T12:01:28.0096725+01:00",
+    "Rank": 85,
+    "Type": "voluptatem",
+    "ColorBlock": 608,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2013-01-14T14:32:03.23365+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Hirthe, Upton and Balistreri",
-        "ToolTip": "Quia tempora qui sint consequatur nesciunt eveniet.",
+        "Id": 646,
+        "Name": "Cruickshank LLC",
+        "ToolTip": "Vitae porro voluptatem maiores quae sit.",
         "Deleted": false,
-        "Rank": 524,
-        "Type": "facere",
-        "ColorBlock": 324,
-        "IconHint": "ut",
+        "Rank": 841,
+        "Type": "minus",
+        "ColorBlock": 357,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "2021-03-08T12:01:28.0096725+01:00",
+        "LastChanged": "2020-02-28T14:32:03.23365+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "quae",
-        "Hidden": false,
-        "FullName": "Everette Murphy",
+        "ExtraInfo": "rem",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Jerel Harris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Mrs. Gust Kohler",
+    "ExtraInfo": "qui",
+    "StyleHint": "dolorum",
+    "Hidden": true,
+    "FullName": "Golden Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 245
       }
     }
   }

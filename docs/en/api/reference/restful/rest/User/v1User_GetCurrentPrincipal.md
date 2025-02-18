@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "doloremque",
-  "AssociateId": 141,
+  "Associate": "officiis",
+  "AssociateId": 371,
   "IsPerson": false,
-  "PersonId": 344,
-  "CountryId": 122,
-  "HomeCountryId": 970,
-  "ContactId": 963,
-  "GroupId": 158,
-  "BusinessId": 930,
-  "CategoryId": 819,
-  "ContactOwner": 373,
-  "RoleId": 883,
-  "RoleName": "Yundt, Cole and Bauch",
-  "RoleDescription": "Compatible mobile implementation",
+  "PersonId": 143,
+  "CountryId": 881,
+  "HomeCountryId": 517,
+  "ContactId": 875,
+  "GroupId": 641,
+  "BusinessId": 736,
+  "CategoryId": 869,
+  "ContactOwner": 267,
+  "RoleId": 812,
+  "RoleName": "Lueilwitz-Lakin",
+  "RoleDescription": "Proactive impactful encoding",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 975,
-      "OwnerName": "Nicolas-Hagenes",
-      "OwnerDescription": "Inverse fresh-thinking capability",
-      "ModuleId": 861,
-      "Name": "Armstrong, Lesch and Ondricka",
-      "Description": "Automated explicit knowledge base",
-      "Version": "culpa",
+      "OwnerId": 719,
+      "OwnerName": "O'Conner-Ankunding",
+      "OwnerDescription": "Stand-alone analyzing encoding",
+      "ModuleId": 234,
+      "Name": "Adams-Rohan",
+      "Description": "Automated context-sensitive open architecture",
+      "Version": "et",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 136,
-      "ExtraInfo": "tempora",
-      "SortOrder": 355,
-      "LicenseNumber": 595,
+      "ExtraFlags": 613,
+      "ExtraInfo": "dolor",
+      "SortOrder": 700,
+      "LicenseNumber": 839,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2015-09-16T12:01:33.4019705+02:00",
+      "ExpiryDate": "2001-10-16T14:32:12.4114949+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 64
+          "FieldType": "System.Int32",
+          "FieldLength": 426
         }
       }
     }
   ],
-  "FullName": "Rodrick Ratke PhD",
-  "EMailAddress": "earum",
+  "FullName": "Prudence Beahan",
+  "EMailAddress": "quaerat",
   "FunctionRights": [
-    "sit",
-    "delectus"
+    "beatae",
+    "quis"
   ],
-  "EjUserId": 788,
-  "EjAccessLevel": 840,
+  "EjUserId": 253,
+  "EjAccessLevel": 713,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "quo",
-      "SearchName": "Labadie, Parisian and Morar",
-      "DisplayName": "Macejkovic, Hickle and Orn",
-      "CredentialId": 530
+      "Type": "facilis",
+      "SearchName": "Stiedemann Inc and Sons",
+      "DisplayName": "Considine-Kihn",
+      "CredentialId": 89
     },
     {
-      "Type": "quo",
-      "SearchName": "Labadie, Parisian and Morar",
-      "DisplayName": "Macejkovic, Hickle and Orn",
-      "CredentialId": 530
+      "Type": "facilis",
+      "SearchName": "Stiedemann Inc and Sons",
+      "DisplayName": "Considine-Kihn",
+      "CredentialId": 89
     }
   ],
   "SecondaryGroups": [
-    810,
-    224
+    550,
+    871
   ],
-  "DatabaseContextIdentifier": "qui",
-  "UserName": "Johnston LLC"
+  "DatabaseContextIdentifier": "explicabo",
+  "UserName": "Muller Group"
 }
 ```

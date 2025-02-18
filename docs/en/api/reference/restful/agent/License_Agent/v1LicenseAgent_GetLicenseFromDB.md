@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kohler-Frami"
+  "OwnerName": "Cassin, Feil and Muller"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 668,
-      "NumberOfLicensesFree": 937,
-      "NumberOfLicensesAdded": 23,
-      "NumberOfLicensesNewTotal": 771,
-      "NumberOfLicensesNewFree": 739,
-      "NumberOfLicensesTotal": 61
+      "NumberOfLicensesInUse": 970,
+      "NumberOfLicensesFree": 371,
+      "NumberOfLicensesAdded": 652,
+      "NumberOfLicensesNewTotal": 456,
+      "NumberOfLicensesNewFree": 418,
+      "NumberOfLicensesTotal": 343
     }
   ],
-  "AccumulatedNextCheckDate": "2024-05-14T12:01:27.9159153+02:00"
+  "AccumulatedNextCheckDate": "2018-04-20T14:32:03.0459963+02:00"
 }
 ```

@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 402,
-  "ListItemId": 945,
+  "UdListDefinitionId": 16,
+  "ListItemId": 413,
   "UserGroups": [
     {
-      "Id": 379,
-      "Name": "Mosciski LLC",
-      "ToolTip": "Ex sed magni.",
-      "Deleted": false,
-      "Rank": 111,
-      "Type": "voluptatem",
-      "ColorBlock": 249,
-      "IconHint": "mollitia",
-      "Selected": true,
-      "LastChanged": "2013-01-09T12:01:27.9471677+01:00",
+      "Id": 906,
+      "Name": "Tremblay-Emmerich",
+      "ToolTip": "Adipisci quo fuga consectetur repellat rerum corrupti qui.",
+      "Deleted": true,
+      "Rank": 317,
+      "Type": "vel",
+      "ColorBlock": 897,
+      "IconHint": "autem",
+      "Selected": false,
+      "LastChanged": "2006-02-18T14:32:03.1084824+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "asperiores",
-      "Hidden": false,
-      "FullName": "Prof. Talon Tillman Gislason PhD"
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "aperiam",
+      "Hidden": true,
+      "FullName": "Willis Gibson"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Kassulke-O'Hara",
-    "ToolTip": "Reprehenderit aspernatur suscipit provident sit.",
-    "Deleted": false,
-    "Rank": 781,
-    "Type": "ut",
-    "ColorBlock": 653,
-    "IconHint": "voluptatum",
+    "Id": 469,
+    "Name": "Breitenberg-Deckow",
+    "ToolTip": "Vel quos numquam voluptate ut.",
+    "Deleted": true,
+    "Rank": 802,
+    "Type": "aut",
+    "ColorBlock": 461,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2022-12-30T12:01:27.9471677+01:00",
+    "LastChanged": "2003-06-12T14:32:03.1084824+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "White LLC",
-        "ToolTip": "Explicabo qui eveniet et qui quis natus.",
-        "Deleted": false,
-        "Rank": 858,
-        "Type": "qui",
-        "ColorBlock": 68,
-        "IconHint": "atque",
-        "Selected": true,
-        "LastChanged": "2014-12-28T12:01:27.9471677+01:00",
+        "Id": 872,
+        "Name": "Turcotte-Stanton",
+        "ToolTip": "Dolorem voluptatem reprehenderit.",
+        "Deleted": true,
+        "Rank": 230,
+        "Type": "amet",
+        "ColorBlock": 482,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2010-03-19T14:32:03.1084824+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "et",
+        "StyleHint": "explicabo",
         "Hidden": true,
-        "FullName": "Ms. Eldora Champlin",
+        "FullName": "Ansley White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldType": "System.String",
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Prof. Aileen Harber DVM",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Dayne Kuhic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

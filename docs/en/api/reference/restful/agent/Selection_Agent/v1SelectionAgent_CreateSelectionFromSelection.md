@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 143,
-  "Name": "Blick, Nolan and Haag",
+  "SelectionId": 754,
+  "Name": "Collier-Roob",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless coherent analyzer",
-  "Postit": "odit",
+  "Description": "Multi-layered 5th generation superstructure",
+  "Postit": "incidunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 885,
-  "IncludePerson": 561,
+  "GroupIdx": 214,
+  "IncludePerson": 667,
   "MemberCount": 99.99,
-  "Name": "Ziemann-Rowe",
-  "PostitTextId": 535,
-  "CreatedDate": "2000-10-10T12:01:28.3065684+02:00",
-  "SelectionId": 363,
-  "SoundEx": "pariatur",
-  "Source": 669,
-  "TextId": 934,
-  "UpdatedDate": "2001-05-18T12:01:28.3065684+02:00",
-  "UpdatedCount": 518,
-  "Visibility": 146,
+  "Name": "Schoen, Miller and Lang",
+  "PostitTextId": 742,
+  "CreatedDate": "2008-01-06T14:32:03.920995+01:00",
+  "SelectionId": 587,
+  "SoundEx": "distinctio",
+  "Source": 817,
+  "TextId": 682,
+  "UpdatedDate": "2001-06-06T14:32:03.920995+02:00",
+  "UpdatedCount": 607,
+  "Visibility": 613,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 711,
-  "TargetTableName": "Labadie, Abshire and Mayert",
+  "TargetTableNumber": 866,
+  "TargetTableName": "Corkery Group",
   "Completed": false,
-  "LeftSelectionId": 193,
-  "RightSelectionId": 648,
+  "LeftSelectionId": 463,
+  "RightSelectionId": 79,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer-Connelly",
-  "ShadowProviderName": "Mueller-Schamberger",
-  "ChartKey": "ipsum",
-  "LastLoaded": "2014-06-22T12:01:28.3065684+02:00",
-  "LastLoadedBy": 5,
+  "MainProviderName": "Hickle, Roberts and Sauer",
+  "ShadowProviderName": "Koepp-Jast",
+  "ChartKey": "laborum",
+  "LastLoaded": "2020-04-15T14:32:03.920995+02:00",
+  "LastLoadedBy": 700,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-01-10T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 700,
+  "LastMembershipChange": "2000-09-05T14:32:03.920995+02:00",
+  "LastMembershipChangeBy": 422,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "nulla",
-  "MailingsProviderName": "Langosh Inc and Sons",
-  "DashboardTileDefinitionId": 236,
+  "MainHeading": "non",
+  "MemberTabHeading": "a",
+  "MailingsProviderName": "Lynch, Farrell and Rohan",
+  "DashboardTileDefinitionId": 214,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 450,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldLength": 273
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 450,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldLength": 273
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

@@ -123,26 +123,26 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 174,
-  "Name": "Jacobs Inc and Sons",
-  "Description": "Mandatory bi-directional knowledge base",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 753,
+  "Name": "Crist Group",
+  "Description": "Sharable multi-tasking policy",
+  "WelcomeMessage": "suscipit",
   "Language": null,
-  "LastAccept": "2005-10-25T12:01:27.3846286+02:00",
-  "SecondsPrAccept": 42,
-  "AlertRecipient": "itaque",
+  "LastAccept": "2021-06-18T14:32:02.1087086+02:00",
+  "SecondsPrAccept": 591,
+  "AlertRecipient": "tenetur",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "enim",
+  "BadgeHeader": "soluta",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "dolore",
-  "WarnNewChatMinutes": 262,
-  "WarnManagerNewChatMinutes": 642,
-  "TicketEnabled": true,
+  "CustomQueueText": "accusamus",
+  "WarnNewChatMinutes": 138,
+  "WarnManagerNewChatMinutes": 419,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 444,
-  "WarnManagerChatMessageMinutes": 64,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 67,
-  "OfflineFormQueueLength": 489,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "repellat"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 446,
+  "WarnManagerChatMessageMinutes": 572,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 642,
+  "OfflineFormQueueLength": 190,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "sapiente"
 }
 ```
 
@@ -168,21 +168,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 891,
-  "Name": "Feeney-Bernier",
-  "Description": "Public-key context-sensitive implementation",
-  "WelcomeMessage": "eum",
+  "ChatTopicId": 426,
+  "Name": "Batz, Conroy and Mante",
+  "Description": "Optional global project",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2007-09-07T12:01:27.3846286+02:00",
-  "SecondsPrAccept": 1002,
-  "AlertRecipient": "adipisci",
+  "LastAccept": "1999-03-01T14:32:02.1087086+01:00",
+  "SecondsPrAccept": 595,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "voluptatem",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "totam",
-  "WarnNewChatMinutes": 977,
-  "WarnManagerNewChatMinutes": 557,
+  "CollectConsent": true,
+  "BadgeHeader": "et",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "qui",
+  "WarnNewChatMinutes": 677,
+  "WarnManagerNewChatMinutes": 970,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -191,20 +191,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 833,
-  "WarnManagerChatMessageMinutes": 453,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 804,
+  "WarnManagerChatMessageMinutes": 276,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 579,
-  "OfflineFormQueueLength": 501,
+  "OfflineFormTimeLimit": 133,
+  "OfflineFormQueueLength": 921,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "molestiae",
+  "WidgetRatingText": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 778
     }
   }
 }

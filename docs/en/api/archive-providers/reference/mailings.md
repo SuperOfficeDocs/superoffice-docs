@@ -654,7 +654,7 @@ Archive provider for the list of mailings
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mailings?$select=mailingAddr/contact/stop,mailingAddr/contact/contactExtra/x_contact_request_relation,mailingAddr/person/personAssociate/isLocation,emailFlow/workflowAssociate/ejUserId
+GET /api/v1/archive/Mailings?$select=mailingAddr/contact/postAddress/wgs84longitude,mailingAddr/contact/contactAssociate/credentialDisplayValue,mailingAddr/contact/contactExtra/x_contact_time,project/number,project/projectAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

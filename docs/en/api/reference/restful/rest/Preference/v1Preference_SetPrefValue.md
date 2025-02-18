@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptate",
+  "RawValue": "corrupti",
   "Specification": null,
-  "DisplayValue": "fugiat",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "commodi",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 178,
-  "PrefDescId": 395,
-  "TableName": "Wisoky-Hartmann",
-  "UserPreferenceId": 23
+  "TargetId": 943,
+  "PrefDescId": 904,
+  "TableName": "Marvin, Schaden and Shields",
+  "UserPreferenceId": 550
 }
 ```
 

@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 608
+  "SaleId": 966
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-01-23T12:01:27.2596193+01:00",
-  "AppointmentId": 345,
-  "Description": "Customer-focused regional monitoring",
-  "Title": "ipsam",
-  "Agenda": "unde",
-  "InternalNotes": "nobis",
-  "StartDate": "2007-12-17T12:01:27.2596193+01:00",
-  "EndDate": "1999-03-03T12:01:27.2596193+01:00",
+  "CreatedDate": "2015-09-22T14:32:01.9056299+02:00",
+  "AppointmentId": 324,
+  "Description": "Down-sized bottom-line moratorium",
+  "Title": "suscipit",
+  "Agenda": "ut",
+  "InternalNotes": "impedit",
+  "StartDate": "2001-03-12T14:32:01.9056299+01:00",
+  "EndDate": "2017-06-14T14:32:01.9056299+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 608,
+  "MotherId": 922,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-02-03T12:01:27.2752456+01:00",
+  "UpdatedDate": "2010-05-04T14:32:01.9056299+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 611,
+  "ActiveLinks": 288,
   "Links": [
     {
-      "EntityName": "Lesch, Murphy and Daniel",
-      "Id": 45,
-      "Description": "Switchable 4th generation Graphical User Interface",
-      "ExtraInfo": "rerum",
-      "LinkId": 987,
+      "EntityName": "Konopelski-Schimmel",
+      "Id": 902,
+      "Description": "Face to face upward-trending emulation",
+      "ExtraInfo": "neque",
+      "LinkId": 10,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 173
+          "FieldLength": 519
         }
       }
     }
   ],
-  "AlarmLeadTime": "eaque",
-  "HasAlarm": false,
-  "ColorIndex": 298,
-  "IsFree": true,
+  "AlarmLeadTime": "nam",
+  "HasAlarm": true,
+  "ColorIndex": 900,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "tempore",
-  "Location": "explicabo",
-  "RejectCounter": 919,
+  "LagTime": "vel",
+  "LeadTime": "ut",
+  "Location": "ad",
+  "RejectCounter": 239,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 300,
-      "PersonId": 825,
-      "ContactId": 68,
-      "EmailId": 324,
+      "AssociateId": 709,
+      "PersonId": 627,
+      "ContactId": 219,
+      "EmailId": 497,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "anabel@mosciski.co.uk",
-      "Description": "Optional content-based moderator"
+      "EmailAddress": "yasmin@zemlak.uk",
+      "Description": "Multi-channelled non-volatile migration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-02-10T12:01:27.2752456+01:00",
+  "ActiveDate": "1998-04-24T14:32:01.9056299+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 126,
+  "PreferredTZLocation": 966,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 889,
+  "SuggestedAppointmentId": 529,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsum",
+  "CentralserviceVideomeetId": "aliquam",
   "UserDefinedFields": {
-    "SuperOffice:1": "1078628525",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1456254818",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "quisquam"
   },
-  "PublishEventDate": "2000-12-19T12:01:27.2752456+01:00",
-  "PublishTo": "2010-10-26T12:01:27.2752456+02:00",
-  "PublishFrom": "2012-06-07T12:01:27.2752456+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-07-01T14:32:01.9056299+02:00",
+  "PublishTo": "2007-02-11T14:32:01.9056299+01:00",
+  "PublishFrom": "2022-11-11T14:32:01.9056299+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 244,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 911
         }
       }
     },
     {
-      "VisibleId": 244,
+      "VisibleId": 20,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 812
+          "FieldType": "System.Int32",
+          "FieldLength": 911
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 128
     }
   }
 }

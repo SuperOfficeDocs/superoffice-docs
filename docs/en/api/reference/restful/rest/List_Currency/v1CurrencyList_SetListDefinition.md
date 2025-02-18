@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "O'Kon, Morissette and O'Conner",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 183,
+  "Id": 628,
+  "Name": "Champlin LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 976,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "eos",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Champlin, Will and Adams",
-  "Tooltip": "est",
+  "Id": 807,
+  "Name": "Gorczany Inc and Sons",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "Rank": 293,
+  "Rank": 346,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "esse",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

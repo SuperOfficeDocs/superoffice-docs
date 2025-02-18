@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 326,
-    "ColumnId": 851,
-    "FieldDefault": "exercitationem",
-    "FieldHeight": 935,
-    "FieldLabel": "qui",
-    "FieldLeft": 969,
-    "FieldTop": 305,
+    "UDefFieldId": 956,
+    "ColumnId": 875,
+    "FieldDefault": "qui",
+    "FieldHeight": 700,
+    "FieldLabel": "officiis",
+    "FieldLeft": 420,
+    "FieldTop": 105,
     "FieldType": "Checkbox",
-    "FieldWidth": 364,
-    "FormatMask": "reiciendis",
+    "FieldWidth": 318,
+    "FormatMask": "tenetur",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 599,
-    "LabelLeft": 869,
-    "LabelTop": 221,
-    "LabelWidth": 8,
-    "LastVersionId": 644,
-    "ListTableId": 909,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 65,
+    "LabelLeft": 754,
+    "LabelTop": 272,
+    "LabelWidth": 204,
+    "LastVersionId": 657,
+    "ListTableId": 83,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 752,
-    "ProgId": "laudantium",
-    "IsReadOnly": false,
-    "ShortLabel": "aliquid",
-    "TabOrder": 188,
-    "TextLength": 690,
-    "Tooltip": "et",
-    "UdefIdentity": 893,
-    "UDListDefinitionId": 930,
+    "Page1LineNo": 161,
+    "ProgId": "molestiae",
+    "IsReadOnly": true,
+    "ShortLabel": "eligendi",
+    "TabOrder": 844,
+    "TextLength": 724,
+    "Tooltip": "consequatur",
+    "UdefIdentity": 811,
+    "UDListDefinitionId": 570,
     "Justification": "Center",
-    "Version": 431,
-    "TemplateVariableName": "Corkery-Bode",
+    "Version": 918,
+    "TemplateVariableName": "Orn, Kiehn and Huel",
     "HasBeenPublished": true,
-    "MdoListName": "Jacobs-Swaniawski",
+    "MdoListName": "Goodwin, Fritsch and Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldLength": 743
       }
     }
   }

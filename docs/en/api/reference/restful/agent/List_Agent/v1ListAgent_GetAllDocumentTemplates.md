@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 674,
-    "Name": "Hayes, Fisher and Weissnat",
-    "Tooltip": "illum",
-    "SaveInDb": 588,
-    "Filename": "nesciunt",
-    "DefaultOref": "nulla",
+    "DocumentTemplateId": 243,
+    "Name": "Schuster Group",
+    "Tooltip": "vel",
+    "SaveInDb": 631,
+    "Filename": "quia",
+    "DefaultOref": "explicabo",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 323,
-    "IntentId": 585,
+    "AutoeventId": 81,
+    "IntentId": 970,
     "IsDefaultPublished": false,
-    "Rank": 907,
-    "LoadTemplateFromPlugin": 367,
-    "MimeType": "sit",
+    "Rank": 950,
+    "LoadTemplateFromPlugin": 741,
+    "MimeType": "dolorem",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 753,
+    "DocumentTypeKey": 290,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "cleo_franecki@maggiokoelpin.uk",
-    "IncludeSignature": false,
-    "ShowCurrents": false,
+    "EmailSubject": "eriberto@tremblay.co.uk",
+    "IncludeSignature": true,
+    "ShowCurrents": true,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "erich_davis@stanton.us",
+    "SenderEmailAddress": "lenora@schimmel.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldType": "System.Int32",
+        "FieldLength": 749
       }
     }
   }

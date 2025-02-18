@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 166,
-  "ColumnId": 304,
-  "FieldDefault": "optio",
-  "FieldHeight": 599,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 859,
-  "FieldTop": 260,
+  "UDefFieldId": 287,
+  "ColumnId": 149,
+  "FieldDefault": "est",
+  "FieldHeight": 917,
+  "FieldLabel": "sunt",
+  "FieldLeft": 928,
+  "FieldTop": 527,
   "FieldType": "Checkbox",
-  "FieldWidth": 222,
-  "FormatMask": "omnis",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 589,
-  "LabelLeft": 879,
-  "LabelTop": 74,
-  "LabelWidth": 903,
-  "LastVersionId": 857,
-  "ListTableId": 15,
-  "IsMandatory": true,
+  "FieldWidth": 92,
+  "FormatMask": "suscipit",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 644,
+  "LabelLeft": 191,
+  "LabelTop": 333,
+  "LabelWidth": 443,
+  "LastVersionId": 446,
+  "ListTableId": 973,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 415,
-  "ProgId": "voluptas",
-  "IsReadOnly": false,
-  "ShortLabel": "odit",
-  "TabOrder": 331,
-  "TextLength": 690,
-  "Tooltip": "vel",
-  "UdefIdentity": 220,
-  "UDListDefinitionId": 791,
+  "Page1LineNo": 255,
+  "ProgId": "non",
+  "IsReadOnly": true,
+  "ShortLabel": "quis",
+  "TabOrder": 948,
+  "TextLength": 686,
+  "Tooltip": "eos",
+  "UdefIdentity": 569,
+  "UDListDefinitionId": 428,
   "Justification": "Center",
-  "Version": 168,
-  "TemplateVariableName": "Upton, DuBuque and Considine",
+  "Version": 778,
+  "TemplateVariableName": "Lemke, Wilkinson and Nitzsche",
   "HasBeenPublished": false,
-  "MdoListName": "Nader Group",
+  "MdoListName": "Satterfield Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 474
     }
   }
 }

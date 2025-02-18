@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "consequuntur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "consequuntur",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 882,
-  "Name": "D'Amore, Reynolds and Flatley",
-  "Rank": 335,
-  "Tooltip": "voluptates",
-  "Icon": "vel",
-  "DefaultTicketStatus": 818,
+  "TicketTypeId": 804,
+  "Name": "Kutch-Greenfelder",
+  "Rank": 262,
+  "Tooltip": "cupiditate",
+  "Icon": "eos",
+  "DefaultTicketStatus": 239,
   "TicketStatuses": [
-    398,
-    273
+    969,
+    982
   ],
-  "DefaultTicketPriority": 913,
+  "DefaultTicketPriority": 281,
   "TicketPriorities": [
-    561,
-    163
+    326,
+    787
   ],
-  "ReplyTemplate": 305,
+  "ReplyTemplate": 628,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    346,
-    819
+    143,
+    763
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -182,8 +182,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   },
   "_Links": {

@@ -1206,7 +1206,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=department,hasInterests,url/URLDescription,contactAssociate/ejUserId,targetRelation/department
+GET /api/v1/archive/SubContactPersonDynamicSelectionSingleCriteriaGroup?$select=contactUdef/SuperOffice:7,sale/registeredDate,appointment/createdByWorkflow,appointment/associate/assocName,appointment/associate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

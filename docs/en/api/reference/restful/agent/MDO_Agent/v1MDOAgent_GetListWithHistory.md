@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quo",
+  "Name": "Braun-Rice",
+  "ForceFlatList": true,
+  "AdditionalInfo": "eum",
   "HistoryItems": [
-    783,
-    955
+    951,
+    165
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Johnson-Watsica",
-    "ToolTip": "Eius deserunt est nobis odio voluptatibus.",
+    "Id": 880,
+    "Name": "Stamm Inc and Sons",
+    "ToolTip": "Quo corrupti.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "quae",
+    "Rank": 11,
+    "Type": "distinctio",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Bosco, Waelchi and Lowe",
-        "ToolTip": "Perspiciatis nulla eos enim voluptas vero quo nulla.",
+        "Id": 304,
+        "Name": "Labadie-Marks",
+        "ToolTip": "Sit ut voluptatem autem explicabo quas ut.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "non",
+        "Rank": 595,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 33,
-        "ExtraInfo": "est",
-        "StyleHint": "aperiam",
-        "FullName": "Reynold Corwin",
+        "IconHint": "voluptas",
+        "ColorBlock": 32,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "iure",
+        "FullName": "Nick Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 861
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 440,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "et",
-    "FullName": "Talia Kuhlman",
+    "IconHint": "voluptas",
+    "ColorBlock": 36,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "soluta",
+    "FullName": "Christiana Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldLength": 156
       }
     }
   }

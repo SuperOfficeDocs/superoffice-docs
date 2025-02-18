@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "O'Kon, Hodkiewicz and Ward",
-    "Tooltip": "ad",
+    "Id": 465,
+    "Name": "Ebert-Durgan",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "UdListDefinitionId": 887,
-    "Rank": 27
+    "UdListDefinitionId": 322,
+    "Rank": 747
   },
   {
-    "Id": 262,
-    "Name": "O'Kon, Hodkiewicz and Ward",
-    "Tooltip": "ad",
+    "Id": 465,
+    "Name": "Ebert-Durgan",
+    "Tooltip": "praesentium",
     "Deleted": false,
-    "UdListDefinitionId": 887,
-    "Rank": 27
+    "UdListDefinitionId": 322,
+    "Rank": 747
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Schmidt, Kerluke and Spencer",
-    "Tooltip": "sunt",
+    "Id": 402,
+    "Name": "Lang Inc and Sons",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 954,
-    "Rank": 766,
+    "UdListDefinitionId": 870,
+    "Rank": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldLength": 730
       }
     }
   }

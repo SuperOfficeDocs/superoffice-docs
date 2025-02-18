@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 51
+  "PersonId": 298
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 140,
-  "Name": "Gulgowski-Kassulke",
-  "PersonId": 1000,
-  "Rank": 955,
-  "Tooltip": "dolor",
+  "AssociateId": 328,
+  "Name": "Upton-Quitzon",
+  "PersonId": 224,
+  "Rank": 852,
+  "Tooltip": "explicabo",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 433,
-  "FullName": "Vincenza Hammes",
-  "FormalName": "Block Group",
+  "GroupIdx": 595,
+  "FullName": "Kaylah Little",
+  "FormalName": "Cole-Ritchie",
   "Deleted": false,
-  "EjUserId": 462,
-  "UserName": "Simonis-O'Connell",
+  "EjUserId": 579,
+  "UserName": "Ortiz-Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

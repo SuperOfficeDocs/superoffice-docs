@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 350,
-  "Name": "Frami Inc and Sons",
+  "TicketStatusId": 960,
+  "Name": "Bahringer LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 191
     }
   }
 }

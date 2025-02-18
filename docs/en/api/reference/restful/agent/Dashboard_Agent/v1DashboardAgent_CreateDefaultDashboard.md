@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,21 +71,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 492,
-  "AssociateId": 241,
-  "Caption": "iusto",
+  "DashboardId": 999,
+  "AssociateId": 660,
+  "Caption": "quod",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 264,
-      "Caption": "nisi",
-      "Description": "Function-based local process improvement",
-      "ChartName": "Stracke-Graham",
-      "ChartId": "quia",
+      "DashboardTileId": 43,
+      "Caption": "quisquam",
+      "Description": "Focused composite synergy",
+      "ChartName": "Gutmann, Pacocha and Towne",
+      "ChartId": "facilis",
       "IsDefault": false,
-      "AssociateId": 506,
-      "GroupId": 911,
-      "SelectionId": 137,
+      "AssociateId": 221,
+      "GroupId": 931,
+      "SelectionId": 900,
       "Config": "impedit",
       "Type": "Bignum",
       "EntityType": "Activity",
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldLength": 850
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 344
+      "FieldLength": 164
     }
   }
 }

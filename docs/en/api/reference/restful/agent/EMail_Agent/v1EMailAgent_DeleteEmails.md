@@ -72,10 +72,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    822,
-    339
+    531,
+    575
   ],
-  "MoveToFolder": "praesentium"
+  "MoveToFolder": "velit"
 }
 ```
 

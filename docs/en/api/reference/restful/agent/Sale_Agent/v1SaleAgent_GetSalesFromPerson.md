@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 981,
+  "PersonId": 183,
   "OnlyOpenSales": false
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Welch, Jakubowski and Romaguera",
-    "SaleDate": "2001-01-29T12:01:28.275316+01:00",
-    "SaleId": 163,
-    "Probability": 664,
-    "Title": "consequatur",
-    "Amount": 29729.124,
-    "Currency": "qui",
-    "ProjectName": "Huel Inc and Sons",
-    "AssociateFullName": "Helen O'Conner",
-    "Description": "Multi-lateral fresh-thinking time-frame",
+    "ContactName": "Barrows-Wisoky",
+    "SaleDate": "2005-01-21T14:32:03.7179186+01:00",
+    "SaleId": 452,
+    "Probability": 623,
+    "Title": "eligendi",
+    "Amount": 20903.78,
+    "Currency": "voluptas",
+    "ProjectName": "White Inc and Sons",
+    "AssociateFullName": "Josianne River Pacocha V",
+    "Description": "Persistent client-driven emulation",
     "Status": "Lost",
-    "WeightedAmount": 12805.524,
-    "ProjectId": 73,
-    "EarningPercent": 13460.529999999999,
-    "Earning": 25144.082,
-    "ContactId": 677,
-    "AssociateId": 360,
-    "PersonId": 51,
-    "SaleTypeId": 989,
-    "SaleTypeName": "Cormier-Beahan",
-    "PersonFullName": "Jalon Johnson V",
+    "WeightedAmount": 27983.486,
+    "ProjectId": 894,
+    "EarningPercent": 736.49,
+    "Earning": 28.206,
+    "ContactId": 69,
+    "AssociateId": 81,
+    "PersonId": 867,
+    "SaleTypeId": 813,
+    "SaleTypeName": "Schmitt, Reilly and Schneider",
+    "PersonFullName": "Ewell Ava Keebler DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 860,
-    "NextDueDate": "2013-10-07T12:01:28.275316+02:00",
-    "Number": "875033",
+    "ActiveErpLinks": 765,
+    "NextDueDate": "2004-04-11T14:32:03.7179186+02:00",
+    "Number": "717999",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 368
+  "DocumentId": 491
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 766,
-      "ContactName": "Fisher Group",
-      "PersonId": 684,
-      "PersonName": "Barton-Fahey",
-      "AssociateId": 544,
-      "Address": "qui",
-      "EmailId": 466,
+      "ContactId": 588,
+      "ContactName": "Jacobson LLC",
+      "PersonId": 635,
+      "PersonName": "Bogan, Koch and Kilback",
+      "AssociateId": 885,
+      "Address": "harum",
+      "EmailId": 302,
       "DuplicatePersonIds": [
-        859,
-        11
+        543,
+        943
       ],
-      "Name": "Keebler, Reilly and Mosciski",
+      "Name": "Cummerata LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 337
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 547,
-      "ContactName": "Hoppe-Rempel",
-      "PersonId": 5,
-      "PersonName": "Gleason, Lockman and Hermann",
-      "AssociateId": 597,
+      "ContactId": 682,
+      "ContactName": "Schaden, Bartell and Lakin",
+      "PersonId": 759,
+      "PersonName": "Watsica Group",
+      "AssociateId": 224,
       "Address": "possimus",
-      "EmailId": 157,
+      "EmailId": 486,
       "DuplicatePersonIds": [
-        223,
-        700
+        564,
+        556
       ],
-      "Name": "Emmerich, Strosin and Considine",
+      "Name": "Bergnaum, Bednar and Wunsch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 264
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 548,
-      "ContactName": "Purdy, Ebert and Robel",
-      "PersonId": 758,
-      "PersonName": "Padberg Inc and Sons",
-      "AssociateId": 6,
-      "Address": "quaerat",
-      "EmailId": 989,
+      "ContactId": 925,
+      "ContactName": "Bogan-Mraz",
+      "PersonId": 105,
+      "PersonName": "Tillman-Hackett",
+      "AssociateId": 131,
+      "Address": "ab",
+      "EmailId": 280,
       "DuplicatePersonIds": [
-        244,
-        621
+        875,
+        196
       ],
-      "Name": "Zboncak-Bashirian",
+      "Name": "Bartell-Walker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 303
         }
       }
     }
   ],
-  "Subject": "pariatur",
-  "HTMLBody": "ea",
+  "Subject": "reiciendis",
+  "HTMLBody": "fugiat",
   "From": null,
-  "Sent": "2000-11-27T12:01:27.8377848+01:00",
-  "Size": 35,
+  "Sent": "2006-05-25T14:32:02.921025+02:00",
+  "Size": 359,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aliquam",
-  "PlainBody": "quibusdam",
+  "MessageID": "aut",
+  "PlainBody": "necessitatibus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 652,
+  "ServerId": 657,
   "Attachments": [
     {
-      "Description": "Cloned mobile customer loyalty",
-      "Filename": "debitis",
-      "Size": 222,
-      "Type": "quia",
-      "Encoding": "numquam",
-      "Id": "sint",
-      "Disposition": "molestiae",
-      "IsSafeFileExtension": true,
+      "Description": "Object-based hybrid strategy",
+      "Filename": "voluptatem",
+      "Size": 829,
+      "Type": "voluptas",
+      "Encoding": "est",
+      "Id": "atque",
+      "Disposition": "rerum",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 437
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Torphy-Volkman",
+      "Name": "Tillman Inc and Sons",
       "Values": [
-        "odit",
-        "nihil"
+        "inventore",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     },
     {
-      "Name": "Torphy-Volkman",
+      "Name": "Tillman Inc and Sons",
       "Values": [
-        "odit",
-        "nihil"
+        "inventore",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldType": "System.Int32",
+          "FieldLength": 535
         }
       }
     }
   ],
-  "FolderName": "Herman, Moore and Bruen",
-  "EmailItemId": 532,
-  "AccountId": 647,
-  "ReceivedAt": "2006-03-06T12:01:27.8377848+01:00",
+  "FolderName": "Kshlerin, Armstrong and Frami",
+  "EmailItemId": 570,
+  "AccountId": 598,
+  "ReceivedAt": "1999-11-29T14:32:02.921025+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-06-11T12:01:27.8377848+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-10-23T14:32:02.921025+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

@@ -78,11 +78,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "vero",
-  "VersionId": "harum",
-  "Success": true,
+  "ExternalReference": "harum",
+  "VersionId": "est",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "quibusdam"
+  "Value": "id",
+  "AdditionalInfo": "eius"
 }
 ```

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/PickUpFirstChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 864,
-  "TopicId": 683,
+  "ChatSessionId": 595,
+  "TopicId": 136,
   "User": null,
   "Person": null,
   "CustomerAlias": "ut",
-  "CustomerHost": "et",
-  "CustomerName": "Shanahan Inc and Sons",
-  "CustomerEmail": "karen_kertzmann@russelkuhlman.name",
-  "CustomerPhone": "1-850-621-4915 x2391",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Borer LLC",
+  "CustomerHost": "accusantium",
+  "CustomerName": "Wolff-Prohaska",
+  "CustomerEmail": "beatrice@dooley.ca",
+  "CustomerPhone": "1-098-196-5908",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Flatley, Tillman and Lueilwitz",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "et",
-  "WhenRequested": "2006-09-06T12:01:27.4158812+02:00",
-  "WhenStarted": "2002-02-11T12:01:27.4158812+01:00",
-  "WhenEnded": "2021-11-18T12:01:27.4158812+01:00",
-  "WhenIdle": "1998-03-17T12:01:27.4158812+01:00",
-  "WhenFetched": "2020-03-08T12:01:27.4158812+01:00",
-  "SessionKey": "numquam",
-  "InitialQueuePos": 114,
-  "AlertLevel": 479,
-  "Rank": 816,
+  "FirstMessage": "esse",
+  "LastMessage": "velit",
+  "WhenRequested": "2001-06-21T14:32:02.1868159+02:00",
+  "WhenStarted": "2003-07-04T14:32:02.1868159+02:00",
+  "WhenEnded": "2024-07-10T14:32:02.1868159+02:00",
+  "WhenIdle": "2022-12-12T14:32:02.1868159+01:00",
+  "WhenFetched": "2000-08-18T14:32:02.1868159+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 273,
+  "AlertLevel": 685,
+  "Rank": 573,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 166,
+  "Rating": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldLength": 251
     }
   }
 }

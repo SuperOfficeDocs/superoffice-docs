@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Olson, Kuphal and Grady",
+  "ConnectorName": "Friesen, Raynor and West",
   "ConnectionData": {
-    "ConnectionData1": "fuga",
-    "ConnectionData2": "facilis"
+    "ConnectionData1": "soluta",
+    "ConnectionData2": "porro"
   }
 }
 ```
@@ -100,18 +100,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "officiis",
-  "TechExplanation": "cumque",
-  "ErrorCode": "nesciunt",
+  "IsOk": false,
+  "UserExplanation": "deleniti",
+  "TechExplanation": "et",
+  "ErrorCode": "aut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   }
 }

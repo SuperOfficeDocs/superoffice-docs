@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Volkman LLC",
-  "Tooltip": "sint",
+  "Id": 115,
+  "Name": "Abernathy-Emard",
+  "Tooltip": "non",
   "Deleted": true,
-  "UdListDefinitionId": 842,
-  "Rank": 693,
+  "UdListDefinitionId": 7,
+  "Rank": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 302
     }
   }
 }

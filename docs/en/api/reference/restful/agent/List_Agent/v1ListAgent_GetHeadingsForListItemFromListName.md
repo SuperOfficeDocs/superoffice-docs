@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ernser, Schowalter and Torphy",
-  "ListItemId": 347,
+  "UdListDefinitionName": "Hand LLC",
+  "ListItemId": 550,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Lubowitz, Ebert and Kertzmann",
-    "ToolTip": "Deleniti facere et et.",
-    "Deleted": true,
-    "Rank": 679,
-    "Type": "ea",
-    "ColorBlock": 679,
-    "IconHint": "dolor",
+    "Id": 619,
+    "Name": "Simonis Group",
+    "ToolTip": "Nam excepturi dolores et.",
+    "Deleted": false,
+    "Rank": 69,
+    "Type": "commodi",
+    "ColorBlock": 218,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2018-07-31T12:01:27.9471677+02:00",
+    "LastChanged": "2014-08-01T14:32:03.124104+02:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Cummerata, McLaughlin and Jast",
-        "ToolTip": "Impedit debitis nihil blanditiis architecto.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "tempora",
-        "ColorBlock": 787,
-        "IconHint": "odio",
+        "Id": 79,
+        "Name": "Legros-Homenick",
+        "ToolTip": "Blanditiis modi cupiditate et.",
+        "Deleted": true,
+        "Rank": 296,
+        "Type": "dolores",
+        "ColorBlock": 82,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2001-08-12T12:01:27.9471677+02:00",
+        "LastChanged": "2017-08-27T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "qui",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Loy Rath",
+        "FullName": "John Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 79
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Virgie Aiden Green I",
+    "ExtraInfo": "soluta",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Yesenia Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

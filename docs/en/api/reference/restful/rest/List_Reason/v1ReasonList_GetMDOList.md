@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=reprehenderit
+GET /api/v1/List/Reason/MDOItems?query=molestiae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Parker Group",
-    "ToolTip": "Natus a provident alias optio aperiam pariatur suscipit.",
-    "Deleted": false,
-    "Rank": 532,
-    "Type": "incidunt",
+    "Id": 928,
+    "Name": "Jakubowski-Franecki",
+    "ToolTip": "Ipsa quia sed.",
+    "Deleted": true,
+    "Rank": 155,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 954,
-        "Name": "Robel Inc and Sons",
-        "ToolTip": "Aut sint est aut ut eius.",
+        "Id": 20,
+        "Name": "O'Reilly, Quigley and Lemke",
+        "ToolTip": "Placeat corrupti nam veniam quaerat.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "laborum",
+        "Rank": 108,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 601,
-        "ExtraInfo": "sit",
-        "StyleHint": "deleniti",
-        "FullName": "Mr. Lavon Orland Kuhlman",
+        "IconHint": "porro",
+        "ColorBlock": 927,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "aut",
+        "FullName": "Avery Kuphal",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 870
+            "FieldLength": 419
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 292,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "esse",
-    "FullName": "Aleen Klocko",
+    "IconHint": "qui",
+    "ColorBlock": 486,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "natus",
+    "FullName": "Prof. Layne Wilber Donnelly I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 851
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 255,
-  "Name": "Jaskolski-Emmerich",
-  "Rank": 26,
-  "Tooltip": "eius",
+  "AssociateId": 779,
+  "Name": "Stanton Group",
+  "Rank": 306,
+  "Tooltip": "autem",
   "LicenseOwners": [
     {
-      "Name": "Stokes-Welch",
-      "Description": "Multi-lateral interactive forecast",
+      "Name": "Rowe, Dickens and Berge",
+      "Description": "Team-oriented object-oriented pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldType": "System.Int32",
+          "FieldLength": 896
         }
       }
     },
     {
-      "Name": "Stokes-Welch",
-      "Description": "Multi-lateral interactive forecast",
+      "Name": "Rowe, Dickens and Berge",
+      "Description": "Team-oriented object-oriented pricing structure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldType": "System.Int32",
+          "FieldLength": 896
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "omnis",
-      "Tooltip": "placeat",
-      "Id": 279,
-      "Rank": 894,
-      "Deleted": true,
+      "Value": "saepe",
+      "Tooltip": "non",
+      "Id": 228,
+      "Rank": 501,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldType": "System.String",
+          "FieldLength": 828
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2016-03-27T12:01:28.5722109+02:00",
-  "Lastlogout": "2017-11-22T12:01:28.5722109+01:00",
-  "EjUserId": 604,
-  "RequestSignature": "veniam",
+  "Lastlogin": "2021-05-04T14:32:04.249045+02:00",
+  "Lastlogout": "2006-04-09T14:32:04.249045+02:00",
+  "EjUserId": 726,
+  "RequestSignature": "adipisci",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "rerum",
+      "Value": "corporis",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 23
         }
       }
     },
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "rerum",
+      "Value": "corporis",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 23
         }
       }
     }
   ],
-  "UserName": "Fritsch LLC",
+  "UserName": "Kuvalis, Feeney and Stamm",
   "TicketCategories": [
     {
-      "Id": 417,
-      "Name": "Hammes-Rempel",
-      "ToolTip": "Sunt consequatur adipisci accusantium dolorem qui.",
-      "Deleted": true,
-      "Rank": 161,
-      "Type": "corporis",
+      "Id": 759,
+      "Name": "Dooley, Rowe and Marks",
+      "ToolTip": "Laborum sit et soluta dignissimos ipsam est sit.",
+      "Deleted": false,
+      "Rank": 214,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 96,
-      "ExtraInfo": "facilis",
-      "StyleHint": "aut",
-      "FullName": "Jacynthe Kling",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
-        }
-      }
-    }
-  ],
-  "NickName": "Padberg, McCullough and Marvin",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "ea"
-  },
-  "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "quasi"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Schuster, Mosciski and Gleichner",
-      "DisplayName": "Mills Group",
-      "Description": "Extended optimal task-force",
-      "ToolTip": "Doloribus omnis.",
-      "Actions": "Implicit",
-      "ActionData": "itaque",
+      "IconHint": "ipsam",
+      "ColorBlock": 11,
+      "ExtraInfo": "provident",
+      "StyleHint": "ut",
+      "FullName": "Lesly Larson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 325
+        }
+      }
+    }
+  ],
+  "NickName": "O'Reilly-Bahringer",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "nobis"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "voluptates"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Crona, Mayer and Toy",
+      "DisplayName": "Veum-Robel",
+      "Description": "Compatible homogeneous budgetary management",
+      "ToolTip": "Et est.",
+      "Actions": "Implicit",
+      "ActionData": "omnis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 442
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 790
+  "Id": 531
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 570,
-  "Rank": 149,
-  "DefaultTask": 554,
-  "DefaultTaskText": "dicta",
-  "IsVisual": false,
-  "LastGenerated": "2013-07-02T12:01:28.2284376+02:00",
-  "Description": "Stand-alone holistic knowledge base",
-  "Name": "Moore-Treutel",
-  "StatusMonitorId": 534,
-  "PictureId": 468,
+  "OwnerTable": 126,
+  "Rank": 630,
+  "DefaultTask": 955,
+  "DefaultTaskText": "aspernatur",
+  "IsVisual": true,
+  "LastGenerated": "2000-06-01T14:32:03.6398093+02:00",
+  "Description": "Down-sized needs-based hub",
+  "Name": "Windler-Lesch",
+  "StatusMonitorId": 239,
+  "PictureId": 10,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 666,
-  "NumNeedUpdate": 974,
-  "GenerationStart": "2016-03-02T12:01:28.2284376+01:00",
+  "Deleted": true,
+  "NumMatches": 156,
+  "NumNeedUpdate": 807,
+  "GenerationStart": "2015-02-17T14:32:03.6398093+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldLength": 504
     }
   }
 }

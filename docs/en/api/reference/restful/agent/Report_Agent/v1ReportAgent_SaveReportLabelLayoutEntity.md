@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 757,
-  "Name": "Hahn LLC",
-  "Description": "Multi-tiered 24 hour secured line",
+  "ReportLabelLayoutId": 342,
+  "Name": "Hegmann-Cassin",
+  "Description": "Assimilated 3rd generation adapter",
   "Orientation": "Landscape",
-  "PaperWidth": 739,
-  "PaperHeight": 173,
-  "LeftMargin": 828,
-  "RightMargin": 750,
-  "TopMargin": 86,
-  "BottomMargin": 250,
-  "CountColumns": 926,
-  "CountRows": 262
+  "PaperWidth": 909,
+  "PaperHeight": 84,
+  "LeftMargin": 12,
+  "RightMargin": 403,
+  "TopMargin": 668,
+  "BottomMargin": 13,
+  "CountColumns": 485,
+  "CountRows": 3
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 233,
-  "Name": "Lind LLC",
-  "Description": "Horizontal even-keeled knowledge user",
+  "ReportLabelLayoutId": 684,
+  "Name": "Hammes, Trantow and Smith",
+  "Description": "Stand-alone radical ability",
   "Orientation": "Landscape",
-  "PaperWidth": 805,
-  "PaperHeight": 375,
-  "LeftMargin": 393,
-  "RightMargin": 38,
-  "TopMargin": 841,
-  "BottomMargin": 659,
-  "CountColumns": 674,
-  "CountRows": 533,
+  "PaperWidth": 803,
+  "PaperHeight": 145,
+  "LeftMargin": 983,
+  "RightMargin": 915,
+  "TopMargin": 971,
+  "BottomMargin": 386,
+  "CountColumns": 456,
+  "CountRows": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldLength": 88
     }
   }
 }

@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Willms-Christiansen",
-  "StorageKey": "id",
+  "StorageType": "minus",
+  "ProviderName": "Leffler LLC",
+  "StorageKey": "quas",
   "StaticColumns": [
-    "consequatur",
-    "eos"
+    "eligendi",
+    "dolor"
   ],
-  "Context": "reprehenderit"
+  "Context": "ex"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Denesik Group",
-      "Operator": "accusamus",
+      "Name": "Cremin-Kilback",
+      "Operator": "fugit",
       "Values": [
-        "et",
-        "occaecati"
+        "nisi",
+        "non"
       ],
       "DisplayValues": [
-        "quisquam",
-        "cupiditate"
+        "officiis",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 928,
+      "InterParenthesis": 15,
       "InterOperator": "And",
-      "UniqueHash": 866
+      "UniqueHash": 505
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Cartwright LLC",
-      "DisplayTooltip": "quo",
-      "DisplayType": "vitae",
+      "DisplayName": "Casper Group",
+      "DisplayTooltip": "maxime",
+      "DisplayType": "alias",
       "CanOrderBy": false,
-      "Name": "Williamson-Hoeger",
-      "CanRestrictBy": true,
-      "RestrictionType": "ex",
-      "RestrictionListName": "Bruen, Kuphal and DuBuque",
-      "IsVisible": true,
-      "ExtraInfo": "quia",
-      "Width": "praesentium",
-      "IconHint": "a",
-      "HeadingIconHint": "voluptas"
+      "Name": "Kshlerin-Jewess",
+      "CanRestrictBy": false,
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Gerhold LLC",
+      "IsVisible": false,
+      "ExtraInfo": "dolore",
+      "Width": "aperiam",
+      "IconHint": "quia",
+      "HeadingIconHint": "ab"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Abbott-Pfannerstill",
-      "PrimaryKey": 644,
+      "EntityName": "Grady-Toy",
+      "PrimaryKey": 147,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "consectetur",
-          "LinkHint": "voluptas"
+          "DisplayValue": "ea",
+          "TooltipHint": "eos",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "error",
-      "StyleHint": "labore",
+      "LinkHint": "illo",
+      "StyleHint": "nisi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 680
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schaden, Schmitt and Schulist",
-      "Description": "Reactive assymetric groupware",
-      "Rank": 12,
+      "Name": "Torphy, Schroeder and Kerluke",
+      "Description": "Balanced real-time structure",
+      "Rank": 276,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden, Schmitt and Schulist",
-      "Description": "Reactive assymetric groupware",
-      "Rank": 12,
+      "Name": "Torphy, Schroeder and Kerluke",
+      "Description": "Balanced real-time structure",
+      "Rank": 276,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

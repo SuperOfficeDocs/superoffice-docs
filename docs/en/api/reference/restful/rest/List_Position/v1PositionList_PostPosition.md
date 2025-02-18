@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "accusantium",
+  "Id": 837,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 883,
-  "Rank": 272
+  "UdListDefinitionId": 112,
+  "Rank": 153
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Hand-Schamberger",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "UdListDefinitionId": 282,
-  "Rank": 51,
+  "Id": 65,
+  "Name": "Keeling-Koss",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 34,
+  "Rank": 846,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

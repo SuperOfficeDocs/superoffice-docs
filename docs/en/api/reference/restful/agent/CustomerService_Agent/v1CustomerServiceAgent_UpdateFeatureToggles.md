@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Adams-Schuppe",
+      "Name": "Hilll, Corkery and Kirlin",
       "State": false
     },
     {
-      "Name": "Adams-Schuppe",
+      "Name": "Hilll, Corkery and Kirlin",
       "State": false
     }
   ]

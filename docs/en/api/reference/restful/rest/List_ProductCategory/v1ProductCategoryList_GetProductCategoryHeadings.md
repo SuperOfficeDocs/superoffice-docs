@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "Ward, Ryan and Braun",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 541,
+    "HeadingId": 206,
+    "Name": "Schaden, Kilback and Walker",
+    "Tooltip": "quod",
+    "Deleted": false,
+    "Rank": 574,
+    "UdListDefinitionId": 576,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 971
       }
     }
   }

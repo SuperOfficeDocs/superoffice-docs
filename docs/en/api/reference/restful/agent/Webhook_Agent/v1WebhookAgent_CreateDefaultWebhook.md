@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 857,
-  "Name": "Lockman Inc and Sons",
+  "WebhookId": 831,
+  "Name": "Gaylord Group",
   "Events": [
-    "soluta",
-    "nam"
+    "impedit",
+    "deleniti"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptates",
+  "Secret": "non",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "adipisci",
   "Headers": {
-    "Headers1": "aliquam",
-    "Headers2": "in"
+    "Headers1": "fugit",
+    "Headers2": "et"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-09-26T12:01:28.6347153+02:00",
+  "Registered": "2012-07-25T14:32:04.3740199+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-09-25T12:01:28.6503413+02:00",
+  "Updated": "2008-11-26T14:32:04.3740199+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sienna.kozey@heathcote.uk"
+  "ErrorsEmail": "davon@wisozk.com"
 }
 ```

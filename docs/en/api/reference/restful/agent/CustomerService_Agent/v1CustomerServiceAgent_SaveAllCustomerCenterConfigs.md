@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 109,
+      "CustConfigId": 815,
       "Type": "Options",
-      "Config": "magnam",
-      "CustLangId": 526,
-      "Registered": "2008-03-27T12:01:27.5565162+01:00",
-      "RegisteredAssociateId": 382,
-      "Updated": "2002-11-15T12:01:27.5565162+01:00",
-      "UpdatedAssociateId": 760
+      "Config": "recusandae",
+      "CustLangId": 980,
+      "Registered": "1998-09-30T14:32:02.561731+02:00",
+      "RegisteredAssociateId": 289,
+      "Updated": "2005-09-15T14:32:02.561731+02:00",
+      "UpdatedAssociateId": 81
     }
   ]
 }

@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 652,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 61,
-  "Name": "Hermiston LLC",
-  "Description": "Vision-oriented asynchronous alliance",
-  "Currency": "sit",
-  "CurrencyName": "Mills, Hegmann and Brekke",
-  "ValidFrom": "2007-08-02T12:01:33.5582313+02:00",
-  "ValidTo": "2019-02-14T12:01:33.5582313+01:00",
+  "PriceListId": 368,
+  "ERPPriceListKey": "veritatis",
+  "QuoteConnectionId": 737,
+  "Name": "Yost-Schuppe",
+  "Description": "Total bottom-line system engine",
+  "Currency": "labore",
+  "CurrencyName": "White, Lebsack and Barton",
+  "ValidFrom": "1999-06-18T14:32:12.7082989+02:00",
+  "ValidTo": "2019-06-04T14:32:12.7082989+02:00",
   "IsActive": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 607,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 545,
-  "Name": "Wunsch-Jacobi",
-  "Description": "Enterprise-wide uniform framework",
-  "Currency": "quia",
-  "CurrencyName": "McClure Inc and Sons",
-  "ValidFrom": "2004-09-22T12:01:33.5582313+02:00",
-  "ValidTo": "1998-04-15T12:01:33.5582313+02:00",
-  "IsActive": true,
+  "PriceListId": 191,
+  "ERPPriceListKey": "commodi",
+  "QuoteConnectionId": 338,
+  "Name": "Kilback LLC",
+  "Description": "Re-engineered client-server framework",
+  "Currency": "a",
+  "CurrencyName": "Koepp Group",
+  "ValidFrom": "1999-11-25T14:32:12.7082989+01:00",
+  "ValidTo": "2022-07-31T14:32:12.7082989+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 31
     }
   },
   "_Links": {

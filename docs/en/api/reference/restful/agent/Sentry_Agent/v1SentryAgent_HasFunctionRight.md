@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionRight": "non"
+  "FunctionRight": "voluptas"
 }
 ```
 

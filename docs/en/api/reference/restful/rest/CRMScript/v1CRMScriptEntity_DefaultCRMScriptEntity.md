@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 698,
-  "UniqueIdentifier": "sint",
-  "Name": "Ratke-Stanton",
-  "Description": "Open-architected responsive open system",
-  "IncludeId": "beatae",
-  "AccessKey": "numquam",
-  "HierarchyId": 618,
-  "Source": "culpa",
-  "SourceCode": "laboriosam",
+  "EjscriptId": 584,
+  "UniqueIdentifier": "corporis",
+  "Name": "Upton LLC",
+  "Description": "Re-contextualized 5th generation synergy",
+  "IncludeId": "voluptatem",
+  "AccessKey": "et",
+  "HierarchyId": 419,
+  "Source": "explicabo",
+  "SourceCode": "vitae",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 141,
+  "HtmlOutput": 10,
   "Includes": [
-    265,
-    546
+    488,
+    222
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 364,
-      "LineNumberTo": 442,
-      "Delta": 441,
-      "IncludeId": "voluptate",
+      "LineNumberFrom": 113,
+      "LineNumberTo": 497,
+      "Delta": 195,
+      "IncludeId": "minima",
       "IncludedFrom": [
-        "possimus",
-        "libero"
+        "minima",
+        "vel"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 245
+          "FieldType": "System.String",
+          "FieldLength": 580
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2004-08-03T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 119,
-  "Updated": "2021-02-25T12:01:32.8394314+01:00",
-  "UpdatedAssociateId": 755,
+  "Registered": "2018-11-27T14:32:11.3815336+01:00",
+  "RegisteredAssociateId": 948,
+  "Updated": "2023-02-05T14:32:11.3815336+01:00",
+  "UpdatedAssociateId": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 832
+      "FieldLength": 718
     }
   }
 }

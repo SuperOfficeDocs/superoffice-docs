@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 855,
-  "Name": "Morissette-Von",
-  "Description": "Profit-focused 3rd generation array",
-  "DefaultHeight": 162,
-  "DefaultWidth": 637,
+  "DashboardTileDefinitionId": 279,
+  "Name": "Homenick LLC",
+  "Description": "Horizontal methodical project",
+  "DefaultHeight": 487,
+  "DefaultWidth": 392,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hilpert-Beatty",
-  "SelectionId": 900,
+  "EntityName": "Maggio-Schoen",
+  "SelectionId": 621,
   "CurrencyMode": "Base",
-  "CurrencyCode": "porro",
+  "CurrencyCode": "culpa",
   "Measure": "Average",
-  "MeasureField": "laborum",
-  "SortBy": "et",
-  "LayoutConfig": "reprehenderit",
-  "SecondarySelectionId": 309,
-  "MeasureByField": "ipsum",
+  "MeasureField": "non",
+  "SortBy": "enim",
+  "LayoutConfig": "minus",
+  "SecondarySelectionId": 836,
+  "MeasureByField": "quas",
   "Usage": "Dashboard",
-  "ProviderName": "Considine, Stokes and Toy",
+  "ProviderName": "Eichmann, Schaefer and Douglas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 208
     }
   }
 }

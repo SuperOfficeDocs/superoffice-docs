@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 851,
-  "TableName": "Wunsch Inc and Sons"
+  "RoleId": 375,
+  "TableName": "Pacocha, Stark and Marks"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laborum",
-  "2": "enim"
+  "1": "voluptatem",
+  "2": "saepe"
 }
 ```

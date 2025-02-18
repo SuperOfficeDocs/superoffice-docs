@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Donnelly-Turcotte",
-    "ToolTip": "Molestias et inventore aliquam.",
+    "Id": 370,
+    "Name": "Reichert Group",
+    "ToolTip": "Cupiditate et non qui esse repellat.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "omnis",
-    "ColorBlock": 555,
-    "IconHint": "amet",
+    "Rank": 955,
+    "Type": "ut",
+    "ColorBlock": 163,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2017-02-20T12:01:33.5426053+01:00",
+    "LastChanged": "2001-06-01T14:32:12.6926791+02:00",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Bashirian-Predovic",
-        "ToolTip": "Ratione culpa eos error quae.",
-        "Deleted": false,
-        "Rank": 775,
-        "Type": "ducimus",
-        "ColorBlock": 371,
-        "IconHint": "perferendis",
+        "Id": 355,
+        "Name": "Breitenberg, Emmerich and Bosco",
+        "ToolTip": "Similique omnis sed quo.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "qui",
+        "ColorBlock": 22,
+        "IconHint": "mollitia",
         "Selected": true,
-        "LastChanged": "2016-02-06T12:01:33.5426053+01:00",
+        "LastChanged": "2024-04-14T14:32:12.6926791+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Felton Arnold Reichel DVM",
+        "ExtraInfo": "ullam",
+        "StyleHint": "nulla",
+        "Hidden": true,
+        "FullName": "Veda Kunze Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 189
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Sierra Fahey V",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Lisette Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 68
       }
     }
   }

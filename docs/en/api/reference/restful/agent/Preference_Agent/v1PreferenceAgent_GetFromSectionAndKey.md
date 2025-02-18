@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "veniam",
-  "Key": "quia"
+  "Section": "et",
+  "Key": "adipisci"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 724,
-  "Section": "saepe",
-  "Key": "deleniti",
-  "Name": "Lowe Group",
+  "PrefDescId": 708,
+  "Section": "qui",
+  "Key": "sit",
+  "Name": "Wintheiser-Renner",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused impactful product",
-  "IsBuiltin": false,
-  "TableName": "Ritchie, Raynor and Rogahn",
-  "UserDefinedListId": 86,
-  "Rank": 105,
-  "SubGroup": "saepe",
-  "MinLevel": 302,
-  "MaxValue": 847,
-  "MinValue": 32,
-  "RequiredLicense": "sed",
+  "Description": "Automated fresh-thinking open architecture",
+  "IsBuiltin": true,
+  "TableName": "Mohr, Carroll and Wisoky",
+  "UserDefinedListId": 320,
+  "Rank": 146,
+  "SubGroup": "consequatur",
+  "MinLevel": 564,
+  "MaxValue": 877,
+  "MinValue": 42,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

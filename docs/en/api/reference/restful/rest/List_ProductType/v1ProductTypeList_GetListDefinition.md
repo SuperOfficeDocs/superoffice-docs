@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 155,
-  "Name": "Leannon, Torp and Rowe",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "Rank": 625,
+  "Id": 377,
+  "Name": "Ferry, Von and Lindgren",
+  "Tooltip": "esse",
+  "Deleted": true,
+  "Rank": 364,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   },
   "_Links": {

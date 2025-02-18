@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Walsh, Doyle and Shields",
-    "AssociateId": 494,
-    "DetailsTable": 194,
-    "DetailsRecord": 257,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 701,
+    "Name": "Langworth-Braun",
+    "AssociateId": 787,
+    "DetailsTable": 915,
+    "DetailsRecord": 14,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nulla",
-      "ParameterObject2": "ab"
+      "ParameterObject1": "et",
+      "ParameterObject2": "dolorem"
     },
-    "LastStarted": "2022-07-29T12:01:33.308214+02:00",
-    "Created": "2001-09-29T12:01:33.308214+02:00",
-    "StartCount": 235,
-    "DatabaseSerialNumber": "1667882",
-    "Context": "rerum",
-    "Result": "expedita",
+    "LastStarted": "2008-01-22T14:32:12.2396559+01:00",
+    "Created": "1998-02-15T14:32:12.2396559+01:00",
+    "StartCount": 521,
+    "DatabaseSerialNumber": "203196",
+    "Context": "eum",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Multi-layered bandwidth-monitored encoding",
-    "Response": "eius",
-    "Request": "sit",
-    "ProgressDescription": "De-engineered national instruction set",
-    "ProgressPercent": 708,
-    "FileName": "Connelly Group",
+    "Description": "Managed human-resource methodology",
+    "Response": "quas",
+    "Request": "odio",
+    "ProgressDescription": "Visionary secondary frame",
+    "ProgressPercent": 770,
+    "FileName": "Kassulke-Wehner",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 182
       }
     }
   }

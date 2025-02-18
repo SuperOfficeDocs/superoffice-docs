@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 35,
-  "Name": "Bogisich Group",
-  "ContentType": "rerum",
-  "AttSize": 352,
-  "InlineImage": false,
-  "ContentId": "consectetur",
-  "AuthKey": "omnis",
+  "AttachmentId": 7,
+  "Name": "Bode-Aufderhar",
+  "ContentType": "temporibus",
+  "AttSize": 33,
+  "InlineImage": true,
+  "ContentId": "quisquam",
+  "AuthKey": "maxime",
   "IsSafeFileExtension": true
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 62,
-  "Name": "Monahan Group",
-  "ContentType": "eos",
-  "AttSize": 348,
-  "InlineImage": false,
-  "ContentId": "consequuntur",
-  "AuthKey": "vero",
+  "AttachmentId": 618,
+  "Name": "Ernser Inc and Sons",
+  "ContentType": "aliquid",
+  "AttSize": 514,
+  "InlineImage": true,
+  "ContentId": "dicta",
+  "AuthKey": "qui",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

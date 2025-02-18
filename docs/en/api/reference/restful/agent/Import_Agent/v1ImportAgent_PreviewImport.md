@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "voluptas",
-        "est"
+        "ad",
+        "placeat"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "aut"
+      "ExternalKey": "non"
     },
     {
       "Values": [
-        "voluptas",
-        "est"
+        "ad",
+        "placeat"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "aut"
+      "ExternalKey": "non"
     }
   ],
   "ColumnDefinition": [
-    "culpa",
-    "reiciendis"
+    "laudantium",
+    "alias"
   ],
-  "Culture": "et",
-  "Context": "repellat"
+  "Culture": "aut",
+  "Context": "vero"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "eius",
-      "et"
+      "corrupti",
+      "totam"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "in",
+    "ExternalKey": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 614
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

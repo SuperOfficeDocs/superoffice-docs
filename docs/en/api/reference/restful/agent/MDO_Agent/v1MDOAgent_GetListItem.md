@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Smitham Group",
-  "Id": 111
+  "ListName": "Runolfsson Group",
+  "Id": 632
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Raynor-Heaney",
-  "ToolTip": "Nobis corporis necessitatibus.",
-  "Deleted": true,
-  "Rank": 614,
-  "Type": "vero",
+  "Id": 184,
+  "Name": "Langosh-Deckow",
+  "ToolTip": "Itaque placeat et aliquam facere dolore fugit.",
+  "Deleted": false,
+  "Rank": 791,
+  "Type": "itaque",
   "ChildItems": [
     {
-      "Id": 570,
-      "Name": "Gorczany-Kuvalis",
-      "ToolTip": "Consequatur iure ut ea sunt illum.",
-      "Deleted": false,
-      "Rank": 140,
-      "Type": "vel",
+      "Id": 712,
+      "Name": "White Group",
+      "ToolTip": "Quis architecto qui illum.",
+      "Deleted": true,
+      "Rank": 767,
+      "Type": "nostrum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 350,
-      "ExtraInfo": "nostrum",
-      "StyleHint": "explicabo",
-      "FullName": "Prof. Clement Carli Spencer DDS",
+      "IconHint": "consectetur",
+      "ColorBlock": 603,
+      "ExtraInfo": "ipsam",
+      "StyleHint": "qui",
+      "FullName": "Kristopher Johnson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldLength": 889
         }
       }
     }
   ],
-  "IconHint": "et",
-  "ColorBlock": 993,
-  "ExtraInfo": "a",
-  "StyleHint": "deserunt",
-  "FullName": "Ms. Breanne Lenora Goodwin III",
+  "IconHint": "earum",
+  "ColorBlock": 404,
+  "ExtraInfo": "natus",
+  "StyleHint": "voluptate",
+  "FullName": "Miss Matteo Hailee Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

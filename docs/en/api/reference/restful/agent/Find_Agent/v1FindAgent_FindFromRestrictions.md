@@ -105,30 +105,30 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Dibbert, Lynch and Bauch",
-      "Operator": "voluptate",
+      "Name": "Rau-Heaney",
+      "Operator": "aut",
       "Values": [
-        "nam",
-        "incidunt"
+        "animi",
+        "eum"
       ],
       "DisplayValues": [
-        "ducimus",
-        "sit"
+        "repudiandae",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 255,
+      "InterParenthesis": 958,
       "InterOperator": "And",
-      "UniqueHash": 364
+      "UniqueHash": 421
     }
   ],
-  "ProviderName": "Hayes-Langworth",
-  "PageSize": 800,
-  "PageNumber": 98
+  "ProviderName": "Maggio-Rice",
+  "PageSize": 347,
+  "PageNumber": 50
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Pfeffer, Swaniawski and Reichel",
-      "DisplayTooltip": "odit",
-      "DisplayType": "ut",
-      "CanOrderBy": true,
-      "Name": "Flatley Inc and Sons",
+      "DisplayName": "Ondricka-Kerluke",
+      "DisplayTooltip": "a",
+      "DisplayType": "officia",
+      "CanOrderBy": false,
+      "Name": "Crooks, Bogan and Leuschke",
       "CanRestrictBy": false,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Renner-Cummerata",
+      "RestrictionType": "mollitia",
+      "RestrictionListName": "Lemke Group",
       "IsVisible": false,
-      "ExtraInfo": "inventore",
-      "Width": "eius",
-      "IconHint": "totam",
-      "HeadingIconHint": "qui"
+      "ExtraInfo": "voluptatem",
+      "Width": "omnis",
+      "IconHint": "fugit",
+      "HeadingIconHint": "quo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Crona Inc and Sons",
-      "PrimaryKey": 306,
+      "EntityName": "Herman Inc and Sons",
+      "PrimaryKey": 506,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "omnis",
-          "TooltipHint": "quas",
-          "LinkHint": "consequatur"
+          "DisplayValue": "incidunt",
+          "TooltipHint": "aut",
+          "LinkHint": "nemo"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "est",
+      "LinkHint": "nam",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 164
+          "FieldType": "System.Int32",
+          "FieldLength": 27
         }
       }
     }
   ],
-  "RowCount": 941,
+  "RowCount": 124,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 745
     }
   }
 }

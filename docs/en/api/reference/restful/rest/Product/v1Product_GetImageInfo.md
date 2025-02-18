@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 27 May 2015 12:01:33 G5T
+Last-Modified: Sun, 30 Sep 2018 14:32:12 G9T
 
 {
-  "BlobId": 538,
-  "BlobSize": 783,
-  "Description": "Object-based attitude-oriented knowledge base",
-  "ExtraInfo": "fugiat",
-  "IsEncrypted": false,
+  "BlobId": 461,
+  "BlobSize": 304,
+  "Description": "Quality-focused heuristic forecast",
+  "ExtraInfo": "sit",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptate",
-  "OriginalSize": 797,
-  "CreatedDate": "2023-11-19T12:01:33.3394662+01:00",
-  "UpdatedDate": "2015-05-27T12:01:33.3394662+02:00",
+  "MimeType": "autem",
+  "OriginalSize": 305,
+  "CreatedDate": "2007-11-19T14:32:12.302144+01:00",
+  "UpdatedDate": "2018-09-30T14:32:12.302144+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cumque",
+  "ConceptualType": "perspiciatis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldType": "System.String",
+      "FieldLength": 27
     }
   }
 }

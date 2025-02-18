@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 953,
-  "Name": "Ryan, Volkman and Boyer",
-  "Tooltip": "magni",
-  "Deleted": true,
-  "Rank": 524,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
+  "Id": 614,
+  "Name": "Baumbach, Goyette and Gaylord",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 685,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

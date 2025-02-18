@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 73,
-  "ParentId": 873,
-  "Name": "Kris, Wolff and Stoltenberg",
-  "Fullname": "praesentium",
-  "CategoryMaster": 948,
+  "TicketCategoryId": 775,
+  "ParentId": 917,
+  "Name": "D'Amore Group",
+  "Fullname": "ut",
+  "CategoryMaster": 23,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Volkman, Lynch and Daniel",
+  "ExternalName": "Jerde, Davis and Howe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 471,
-  "ReplyTemplate": 632,
-  "NotificationEmail": "wayne_denesik@rippin.us",
+  "AssignmentLag": 405,
+  "ReplyTemplate": 87,
+  "NotificationEmail": "amari_runolfsson@senger.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 362,
+  "EffectiveReplyTemplateId": 107,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "iusto",
+    "CustomFields2": "at"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 66,
-  "ParentId": 719,
-  "Name": "Wiza, Konopelski and Jacobson",
-  "Fullname": "non",
-  "CategoryMaster": 20,
+  "TicketCategoryId": 205,
+  "ParentId": 889,
+  "Name": "Tremblay Group",
+  "Fullname": "odit",
+  "CategoryMaster": 951,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rau LLC",
+  "ExternalName": "Jaskolski-Nolan",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 771,
-  "ReplyTemplate": 330,
-  "NotificationEmail": "jamison_koelpin@lowe.co.uk",
+  "AssignmentLag": 991,
+  "ReplyTemplate": 141,
+  "NotificationEmail": "brandt@hand.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 777,
+  "EffectiveReplyTemplateId": 906,
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "optio",
+    "ExtraFields2": "officiis"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "error"
+    "CustomFields1": "explicabo",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   }
 }

@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 27,
-  "Name": "Becker Group",
+  "ScreenChooserId": 509,
+  "Name": "Johns-Considine",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "cumque",
-  "Source": "culpa",
-  "Registered": "2023-05-10T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 657,
-  "Updated": "2016-03-15T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 932,
+  "UniqueIdentifier": "sint",
+  "Source": "eveniet",
+  "Registered": "2002-03-21T14:32:12.2240348+01:00",
+  "RegisteredAssociateId": 626,
+  "Updated": "2021-11-20T14:32:12.2240348+01:00",
+  "UpdatedAssociateId": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldType": "System.String",
+      "FieldLength": 891
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

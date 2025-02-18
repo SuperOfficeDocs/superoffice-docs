@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "voluptate",
-    "Type": "unde",
-    "Description": "Organized intangible open system",
+    "DisplayType": "nihil",
+    "Type": "autem",
+    "Description": "Realigned value-added groupware",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 608
       }
     }
   }

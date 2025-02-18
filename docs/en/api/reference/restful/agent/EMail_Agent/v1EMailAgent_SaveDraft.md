@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 633,
-      "ContactName": "Von, Schiller and Lemke",
-      "PersonId": 755,
-      "PersonName": "Corkery-Walter",
-      "AssociateId": 735,
-      "Address": "deserunt",
-      "EmailId": 871,
+      "ContactId": 862,
+      "ContactName": "Ratke-Kovacek",
+      "PersonId": 823,
+      "PersonName": "Botsford-Weissnat",
+      "AssociateId": 71,
+      "Address": "iste",
+      "EmailId": 12,
       "DuplicatePersonIds": [
-        104,
-        84
+        83,
+        679
       ],
-      "Name": "Mann Group",
+      "Name": "Kris LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldType": "System.String",
+          "FieldLength": 65
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 924,
-      "ContactName": "Leuschke Group",
-      "PersonId": 68,
-      "PersonName": "Braun, Purdy and Marvin",
-      "AssociateId": 352,
-      "Address": "ad",
-      "EmailId": 163,
+      "ContactId": 378,
+      "ContactName": "Aufderhar, Glover and Adams",
+      "PersonId": 601,
+      "PersonName": "White, Luettgen and Crist",
+      "AssociateId": 212,
+      "Address": "eos",
+      "EmailId": 156,
       "DuplicatePersonIds": [
-        553,
-        18
+        998,
+        130
       ],
-      "Name": "Rau-Hamill",
+      "Name": "Luettgen Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 95
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 852,
-      "ContactName": "Wilkinson LLC",
-      "PersonId": 816,
-      "PersonName": "Becker-Bernier",
-      "AssociateId": 302,
-      "Address": "officia",
-      "EmailId": 732,
+      "ContactId": 147,
+      "ContactName": "Schmidt Group",
+      "PersonId": 393,
+      "PersonName": "Daniel-Moore",
+      "AssociateId": 291,
+      "Address": "quo",
+      "EmailId": 75,
       "DuplicatePersonIds": [
-        766,
-        569
+        695,
+        697
       ],
-      "Name": "Howell-Fisher",
+      "Name": "Luettgen, O'Hara and Cassin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldLength": 237
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "est",
+  "Subject": "eveniet",
+  "HTMLBody": "itaque",
   "From": null,
-  "Sent": "2016-09-27T12:01:27.8065326+02:00",
-  "Size": 78,
+  "Sent": "2004-11-12T14:32:02.8429175+01:00",
+  "Size": 898,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "est",
-  "IsSent": false,
+  "MessageID": "laudantium",
+  "PlainBody": "excepturi",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 376,
+  "ServerId": 542,
   "Attachments": [
     {
-      "Description": "Self-enabling local knowledge user",
-      "Filename": "in",
-      "Size": 855,
-      "Type": "molestias",
-      "Encoding": "totam",
-      "Id": "id",
-      "Disposition": "suscipit",
-      "IsSafeFileExtension": false,
+      "Description": "Seamless upward-trending service-desk",
+      "Filename": "quasi",
+      "Size": 281,
+      "Type": "vel",
+      "Encoding": "facilis",
+      "Id": "cupiditate",
+      "Disposition": "error",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 582
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kautzer, Braun and Monahan",
+      "Name": "Haag, Klein and Johnson",
       "Values": [
-        "excepturi",
-        "praesentium"
+        "a",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 209
         }
       }
     },
     {
-      "Name": "Kautzer, Braun and Monahan",
+      "Name": "Haag, Klein and Johnson",
       "Values": [
-        "excepturi",
-        "praesentium"
+        "a",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldLength": 209
         }
       }
     }
   ],
-  "FolderName": "McDermott, Friesen and Lubowitz",
-  "EmailItemId": 456,
-  "AccountId": 308,
-  "ReceivedAt": "2008-12-07T12:01:27.8065326+01:00",
+  "FolderName": "Langosh LLC",
+  "EmailItemId": 659,
+  "AccountId": 529,
+  "ReceivedAt": "2000-03-10T14:32:02.8429175+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-09-15T12:01:27.8065326+02:00",
+  "RepliedAt": "2014-12-20T14:32:02.8429175+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

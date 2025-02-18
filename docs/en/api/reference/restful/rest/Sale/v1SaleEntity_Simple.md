@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "McKenzie, Satterfield and Kessler",
-  "SaleDate": "2014-05-24T12:01:33.1832049+02:00",
-  "SaleId": 305,
-  "Probability": 25,
-  "Title": "harum",
-  "Amount": 20317.721999999998,
-  "Currency": "perferendis",
-  "ProjectName": "Lowe, Witting and Nitzsche",
-  "AssociateFullName": "Delmer Emmerich",
-  "Description": "Decentralized next generation groupware",
+  "ContactName": "Johnston, White and Gibson",
+  "SaleDate": "2023-02-01T14:32:12.0053335+01:00",
+  "SaleId": 833,
+  "Probability": 864,
+  "Title": "qui",
+  "Amount": 7173.726,
+  "Currency": "ducimus",
+  "ProjectName": "Stroman LLC",
+  "AssociateFullName": "Derek Bailey",
+  "Description": "Balanced client-server focus group",
   "Status": "Lost",
-  "WeightedAmount": 27945.878,
-  "ProjectId": 768,
-  "EarningPercent": 10332.797999999999,
-  "Earning": 28365.834,
-  "ContactId": 387,
-  "AssociateId": 876,
-  "PersonId": 834,
-  "SaleTypeId": 30,
-  "SaleTypeName": "Padberg, Jewess and Spinka",
-  "PersonFullName": "Ara Tremblay",
+  "WeightedAmount": 11523.717999999999,
+  "ProjectId": 933,
+  "EarningPercent": 3942.5719999999997,
+  "Earning": 7856.938,
+  "ContactId": 466,
+  "AssociateId": 820,
+  "PersonId": 628,
+  "SaleTypeId": 602,
+  "SaleTypeName": "Reynolds-Raynor",
+  "PersonFullName": "Mr. Douglas Olga Schuppe IV",
   "Completed": "Completed",
-  "ActiveErpLinks": 423,
-  "NextDueDate": "2000-11-29T12:01:33.1832049+01:00",
-  "Number": "1255320",
+  "ActiveErpLinks": 383,
+  "NextDueDate": "2009-05-28T14:32:12.0209621+02:00",
+  "Number": "1370197",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   }
 }

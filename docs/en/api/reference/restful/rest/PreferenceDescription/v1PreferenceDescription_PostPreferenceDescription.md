@@ -114,24 +114,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 295,
-  "Section": "necessitatibus",
-  "Key": "nesciunt",
-  "Name": "Botsford Inc and Sons",
+  "PrefDescId": 797,
+  "Section": "dicta",
+  "Key": "esse",
+  "Name": "Berge, Ankunding and Howell",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based didactic product",
-  "IsBuiltin": false,
-  "TableName": "Lakin, Hane and Fritsch",
-  "UserDefinedListId": 585,
-  "Rank": 711,
-  "SubGroup": "repellat",
-  "MinLevel": 409,
-  "MaxValue": 300,
-  "MinValue": 586,
-  "RequiredLicense": "voluptatem"
+  "Description": "Cross-platform impactful alliance",
+  "IsBuiltin": true,
+  "TableName": "Beahan-Trantow",
+  "UserDefinedListId": 825,
+  "Rank": 441,
+  "SubGroup": "est",
+  "MinLevel": 764,
+  "MaxValue": 348,
+  "MinValue": 103,
+  "RequiredLicense": "qui"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 927,
-  "Section": "sed",
-  "Key": "libero",
-  "Name": "Funk-Morissette",
+  "PrefDescId": 671,
+  "Section": "dolores",
+  "Key": "dolor",
+  "Name": "Dickinson, Brakus and Trantow",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based motivating customer loyalty",
-  "IsBuiltin": true,
-  "TableName": "Murazik-McKenzie",
-  "UserDefinedListId": 337,
-  "Rank": 11,
-  "SubGroup": "hic",
-  "MinLevel": 973,
-  "MaxValue": 132,
-  "MinValue": 137,
-  "RequiredLicense": "nam",
+  "Description": "Digitized upward-trending concept",
+  "IsBuiltin": false,
+  "TableName": "Marks-Carroll",
+  "UserDefinedListId": 167,
+  "Rank": 343,
+  "SubGroup": "vel",
+  "MinLevel": 408,
+  "MaxValue": 929,
+  "MinValue": 438,
+  "RequiredLicense": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 837
     }
   },
   "_Links": {

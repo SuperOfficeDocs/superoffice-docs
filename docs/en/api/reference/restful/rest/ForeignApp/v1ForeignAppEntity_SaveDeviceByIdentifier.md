@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 812,
-  "Name": "Kris, Barton and Rodriguez",
-  "CreatedDate": "2016-12-01T12:01:32.9175621+01:00",
-  "UpdatedDate": "2010-03-08T12:01:32.9175621+01:00",
-  "AssociateFullName": "Kathlyn Zemlak",
-  "CreatedBy": "aut",
-  "UpdatedBy": "officiis",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 814
+  "ForeignDeviceId": 555,
+  "Name": "Johnson-Kuphal",
+  "CreatedDate": "2014-04-30T14:32:11.5210682+02:00",
+  "UpdatedDate": "2023-08-13T14:32:11.5210682+02:00",
+  "AssociateFullName": "Leilani Bashirian",
+  "CreatedBy": "qui",
+  "UpdatedBy": "sint",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 117
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 146,
-  "Name": "Sipes, Hodkiewicz and Padberg",
-  "CreatedDate": "2004-04-24T12:01:32.9175621+02:00",
-  "UpdatedDate": "2012-05-09T12:01:32.9175621+02:00",
-  "AssociateFullName": "Carmelo Littel",
-  "CreatedBy": "tempore",
-  "UpdatedBy": "nostrum",
-  "DeviceIdentifier": "numquam",
-  "ForeignAppId": 529,
+  "ForeignDeviceId": 313,
+  "Name": "Pouros-Barton",
+  "CreatedDate": "2005-08-27T14:32:11.5210682+02:00",
+  "UpdatedDate": "2000-09-29T14:32:11.5210682+02:00",
+  "AssociateFullName": "Dr. Ryder Gerhold Jr.",
+  "CreatedBy": "possimus",
+  "UpdatedBy": "magni",
+  "DeviceIdentifier": "nostrum",
+  "ForeignAppId": 191,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

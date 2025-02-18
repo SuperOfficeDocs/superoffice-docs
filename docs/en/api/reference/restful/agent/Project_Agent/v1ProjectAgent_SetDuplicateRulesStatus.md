@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Project/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Mayert, Reilly and Braun",
-      "DisplayName": "Bechtelar Inc and Sons",
-      "DisplayTooltip": "dolor",
-      "IsActive": false
+      "Name": "Weber-Carter",
+      "DisplayName": "Adams, Kerluke and Nikolaus",
+      "DisplayTooltip": "molestias",
+      "IsActive": true
     },
     {
-      "Name": "Mayert, Reilly and Braun",
-      "DisplayName": "Bechtelar Inc and Sons",
-      "DisplayTooltip": "dolor",
-      "IsActive": false
+      "Name": "Weber-Carter",
+      "DisplayName": "Adams, Kerluke and Nikolaus",
+      "DisplayTooltip": "molestias",
+      "IsActive": true
     }
   ]
 }

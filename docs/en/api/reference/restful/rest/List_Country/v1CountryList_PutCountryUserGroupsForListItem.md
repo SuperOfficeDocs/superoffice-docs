@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Cruickshank Group",
-    "ToolTip": "Laborum velit sint qui.",
-    "Deleted": true,
-    "Rank": 400,
-    "Type": "cupiditate",
-    "ColorBlock": 166,
-    "IconHint": "quasi",
+    "Id": 959,
+    "Name": "Mosciski-Romaguera",
+    "ToolTip": "Fugiat laudantium necessitatibus eaque quos.",
+    "Deleted": false,
+    "Rank": 751,
+    "Type": "tenetur",
+    "ColorBlock": 909,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2018-06-15T12:01:33.4644748+02:00",
+    "LastChanged": "2008-10-18T14:32:12.552084+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Frami-Grant",
-        "ToolTip": "Explicabo voluptates sequi aut explicabo.",
-        "Deleted": false,
-        "Rank": 834,
-        "Type": "hic",
-        "ColorBlock": 843,
-        "IconHint": "aliquid",
-        "Selected": true,
-        "LastChanged": "2000-03-10T12:01:33.4644748+01:00",
+        "Id": 693,
+        "Name": "Franecki-Hintz",
+        "ToolTip": "Quia inventore.",
+        "Deleted": true,
+        "Rank": 953,
+        "Type": "cum",
+        "ColorBlock": 978,
+        "IconHint": "rem",
+        "Selected": false,
+        "LastChanged": "2012-01-07T14:32:12.552084+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Omari Kuvalis"
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quibusdam",
+        "Hidden": true,
+        "FullName": "Eula Auer"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Mr. Sasha Marty Huels V"
+    "ExtraInfo": "laborum",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Santos Marilie Hickle MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Effertz LLC",
-    "ToolTip": "Dolore vero in molestiae veritatis in libero et.",
-    "Deleted": true,
-    "Rank": 274,
-    "Type": "eaque",
-    "ColorBlock": 800,
-    "IconHint": "corporis",
+    "Id": 452,
+    "Name": "Zboncak-Wisoky",
+    "ToolTip": "Pariatur ut velit repellat similique occaecati rerum.",
+    "Deleted": false,
+    "Rank": 707,
+    "Type": "beatae",
+    "ColorBlock": 497,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2019-08-14T12:01:33.4644748+02:00",
+    "LastChanged": "2019-10-28T14:32:12.552084+01:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "Stamm, Buckridge and Dietrich",
-        "ToolTip": "Fuga impedit minima sunt aliquid minus architecto.",
-        "Deleted": false,
-        "Rank": 778,
-        "Type": "voluptatem",
-        "ColorBlock": 718,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2023-01-28T12:01:33.4644748+01:00",
+        "Id": 685,
+        "Name": "Ferry Inc and Sons",
+        "ToolTip": "Accusantium sint inventore inventore magnam non.",
+        "Deleted": true,
+        "Rank": 610,
+        "Type": "corrupti",
+        "ColorBlock": 523,
+        "IconHint": "ratione",
+        "Selected": false,
+        "LastChanged": "2011-05-10T14:32:12.552084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Miss Hudson Dibbert III",
+        "FullName": "Mitchel Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldLength": 439
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "omnis",
+    "ExtraInfo": "odit",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Krystina Kuvalis",
+    "FullName": "Randal Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 579
       }
     }
   }

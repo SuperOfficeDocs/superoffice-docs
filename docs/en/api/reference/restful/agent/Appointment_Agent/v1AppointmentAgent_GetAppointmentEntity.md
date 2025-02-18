@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=748
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=950
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-08-14T12:01:27.1814891+02:00",
-  "AppointmentId": 333,
-  "Description": "Profound maximized array",
-  "Title": "voluptas",
-  "Agenda": "sequi",
+  "CreatedDate": "2007-04-22T14:32:01.7492436+02:00",
+  "AppointmentId": 496,
+  "Description": "Distributed methodical help-desk",
+  "Title": "error",
+  "Agenda": "sint",
   "InternalNotes": "ut",
-  "StartDate": "2008-01-12T12:01:27.1814891+01:00",
-  "EndDate": "2017-12-10T12:01:27.1814891+01:00",
+  "StartDate": "2017-01-23T14:32:01.7492436+01:00",
+  "EndDate": "1999-04-15T14:32:01.7492436+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 596,
+  "MotherId": 831,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-07-04T12:01:27.1814891+02:00",
+  "UpdatedDate": "1998-11-22T14:32:01.7492436+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 417,
+  "ActiveLinks": 540,
   "Links": [
     {
-      "EntityName": "Kling Inc and Sons",
-      "Id": 104,
-      "Description": "Decentralized contextually-based extranet",
-      "ExtraInfo": "dolores",
-      "LinkId": 151,
+      "EntityName": "Daugherty-Wintheiser",
+      "Id": 513,
+      "Description": "Ameliorated asynchronous challenge",
+      "ExtraInfo": "et",
+      "LinkId": 778,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldType": "System.String",
+          "FieldLength": 972
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "magnam",
   "HasAlarm": false,
-  "ColorIndex": 753,
+  "ColorIndex": 351,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aliquid",
-  "LeadTime": "distinctio",
-  "Location": "qui",
-  "RejectCounter": 652,
+  "LagTime": "corporis",
+  "LeadTime": "qui",
+  "Location": "molestias",
+  "RejectCounter": 378,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 632,
-      "PersonId": 707,
-      "ContactId": 150,
-      "EmailId": 703,
-      "SendEmail": true,
+      "AssociateId": 269,
+      "PersonId": 979,
+      "ContactId": 322,
+      "EmailId": 286,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "june@ratke.us",
-      "Description": "Programmable static open architecture"
+      "EmailAddress": "hattie.cummings@hauckkiehn.biz",
+      "Description": "Re-contextualized didactic synergy"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-01-28T12:01:27.1814891+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-12-13T14:32:01.7492436+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 647,
+  "PreferredTZLocation": 633,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 427,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 738,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quos",
+  "CentralserviceVideomeetId": "ad",
   "UserDefinedFields": {
-    "SuperOffice:1": "2028411838",
-    "SuperOffice:2": "Shanny Schulist"
+    "SuperOffice:1": "Amani Thompson III",
+    "SuperOffice:2": "Jarred Marks"
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "nobis",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2004-12-13T12:01:27.1814891+01:00",
-  "PublishTo": "2014-10-28T12:01:27.1814891+01:00",
-  "PublishFrom": "2014-11-09T12:01:27.1814891+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-05-14T14:32:01.7492436+02:00",
+  "PublishTo": "2022-07-06T14:32:01.7492436+02:00",
+  "PublishFrom": "2022-10-17T14:32:01.7492436+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 631,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 815
         }
       }
     },
     {
-      "VisibleId": 631,
+      "VisibleId": 832,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 815
         }
       }
     }
@@ -261,8 +261,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   }
 }

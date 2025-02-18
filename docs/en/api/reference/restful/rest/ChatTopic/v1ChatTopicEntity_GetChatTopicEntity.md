@@ -113,22 +113,22 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 404,
-  "Name": "Lynch LLC",
-  "Description": "Upgradable needs-based model",
-  "WelcomeMessage": "similique",
+  "ChatTopicId": 281,
+  "Name": "Haley Inc and Sons",
+  "Description": "Reverse-engineered demand-driven customer loyalty",
+  "WelcomeMessage": "esse",
   "Language": null,
-  "LastAccept": "2004-04-24T12:01:32.7613009+02:00",
-  "SecondsPrAccept": 479,
-  "AlertRecipient": "illo",
+  "LastAccept": "2003-08-23T14:32:11.2239698+02:00",
+  "SecondsPrAccept": 15,
+  "AlertRecipient": "sit",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "molestiae",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "numquam",
-  "WarnNewChatMinutes": 610,
-  "WarnManagerNewChatMinutes": 287,
-  "TicketEnabled": true,
+  "BadgeHeader": "beatae",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "nostrum",
+  "WarnNewChatMinutes": 69,
+  "WarnManagerNewChatMinutes": 918,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -136,25 +136,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 753,
-  "WarnManagerChatMessageMinutes": 89,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 910,
+  "WarnManagerChatMessageMinutes": 408,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 982,
-  "OfflineFormQueueLength": 788,
+  "OfflineFormTimeLimit": 544,
+  "OfflineFormQueueLength": 892,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "fugiat",
+  "WidgetRatingText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 442
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

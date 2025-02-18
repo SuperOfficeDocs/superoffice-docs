@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 506,
-      "ColumnId": 275,
-      "FieldDefault": "laudantium",
-      "FieldHeight": 709,
-      "FieldLabel": "iste",
-      "FieldLeft": 514,
-      "FieldTop": 518,
+      "UDefFieldId": 337,
+      "ColumnId": 339,
+      "FieldDefault": "repudiandae",
+      "FieldHeight": 117,
+      "FieldLabel": "voluptas",
+      "FieldLeft": 671,
+      "FieldTop": 943,
       "FieldType": "Checkbox",
-      "FieldWidth": 861,
-      "FormatMask": "repellendus",
-      "HideLabel": false,
-      "IsIndexed": false,
-      "LabelHeight": 157,
-      "LabelLeft": 337,
-      "LabelTop": 232,
-      "LabelWidth": 777,
-      "LastVersionId": 170,
-      "ListTableId": 328,
-      "IsMandatory": false,
+      "FieldWidth": 18,
+      "FormatMask": "voluptas",
+      "HideLabel": true,
+      "IsIndexed": true,
+      "LabelHeight": 940,
+      "LabelLeft": 400,
+      "LabelTop": 292,
+      "LabelWidth": 309,
+      "LastVersionId": 430,
+      "ListTableId": 586,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 799,
-      "ProgId": "iusto",
-      "IsReadOnly": true,
-      "ShortLabel": "eos",
-      "TabOrder": 908,
-      "TextLength": 691,
-      "Tooltip": "cumque",
-      "UdefIdentity": 747,
-      "UDListDefinitionId": 500,
+      "Page1LineNo": 894,
+      "ProgId": "et",
+      "IsReadOnly": false,
+      "ShortLabel": "molestiae",
+      "TabOrder": 987,
+      "TextLength": 905,
+      "Tooltip": "excepturi",
+      "UdefIdentity": 438,
+      "UDListDefinitionId": 573,
       "Justification": "Center",
-      "Version": 300,
-      "TemplateVariableName": "Hane, Hettinger and Gusikowski",
-      "HasBeenPublished": false,
-      "MdoListName": "Kling LLC"
+      "Version": 957,
+      "TemplateVariableName": "Nienow LLC",
+      "HasBeenPublished": true,
+      "MdoListName": "Sawayn Inc and Sons"
     }
   ]
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=sequi
+GET /api/v1/List/ProductCategory/MDOItems?query=sed
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Considine-Kling",
-    "ToolTip": "Eius nobis laborum perspiciatis est omnis.",
+    "Id": 218,
+    "Name": "Schultz-Smith",
+    "ToolTip": "Asperiores dolore sit incidunt.",
     "Deleted": false,
-    "Rank": 919,
-    "Type": "eaque",
+    "Rank": 87,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 356,
-        "Name": "Jacobi, Bednar and Green",
-        "ToolTip": "Deserunt hic amet blanditiis quasi soluta rerum voluptatem.",
+        "Id": 160,
+        "Name": "Gislason-Beahan",
+        "ToolTip": "Magnam voluptas quis quas dolores excepturi necessitatibus ratione.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "rerum",
+        "Rank": 811,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 718,
-        "ExtraInfo": "ut",
-        "StyleHint": "iste",
-        "FullName": "Dr. Cody Elmore Kessler",
+        "IconHint": "aspernatur",
+        "ColorBlock": 191,
+        "ExtraInfo": "libero",
+        "StyleHint": "et",
+        "FullName": "Alexane Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 495
+            "FieldLength": 910
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 82,
-    "ExtraInfo": "fugit",
-    "StyleHint": "eum",
-    "FullName": "Skye Stiedemann PhD",
+    "IconHint": "qui",
+    "ColorBlock": 926,
+    "ExtraInfo": "at",
+    "StyleHint": "quo",
+    "FullName": "Ms. Nicolette Keeling IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

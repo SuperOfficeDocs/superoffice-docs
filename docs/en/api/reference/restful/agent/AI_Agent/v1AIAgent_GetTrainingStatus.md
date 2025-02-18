@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/AI/GetTrainingStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,16 +78,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContextIdentifier": "et",
-  "Status": "nostrum",
+  "ContextIdentifier": "at",
+  "Status": "sequi",
   "CurrentModel": null,
   "PreviousModel": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 277
+      "FieldType": "System.Int32",
+      "FieldLength": 657
     }
   }
 }

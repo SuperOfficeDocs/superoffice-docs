@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Kilback, Willms and Auer",
-  "Tooltip": "corrupti",
+  "Id": 960,
+  "Name": "Hane-Marks",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 510,
+  "Rank": 555,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": false
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Yundt, Leuschke and Sanford",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 192,
-  "IsCustomList": true,
+  "Id": 839,
+  "Name": "Langworth Inc and Sons",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "Rank": 42,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldType": "System.Int32",
+      "FieldLength": 948
     }
   }
 }

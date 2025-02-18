@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Olson-Powlowski",
-  "TypicalSearchId": 694
+  "EntityName": "Considine LLC",
+  "TypicalSearchId": 201
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cronin-Sporer",
-  "SelectionId": 450,
-  "CanSaveAsSelection": false,
-  "MainHeading": "et",
-  "FilterScreenHeading": "quis",
-  "SelectionEntityHeading": "eligendi",
+  "ProviderName": "Schiller, Cormier and Mayer",
+  "SelectionId": 873,
+  "CanSaveAsSelection": true,
+  "MainHeading": "omnis",
+  "FilterScreenHeading": "est",
+  "SelectionEntityHeading": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   }
 }

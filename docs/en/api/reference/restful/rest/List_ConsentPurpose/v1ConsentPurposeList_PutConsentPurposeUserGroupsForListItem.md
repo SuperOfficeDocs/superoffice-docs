@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 599,
-    "Name": "Bednar, Kutch and Witting",
-    "ToolTip": "Earum est unde omnis enim distinctio culpa rerum.",
+    "Id": 643,
+    "Name": "Dietrich-Ondricka",
+    "ToolTip": "Facilis atque eos iste.",
     "Deleted": false,
-    "Rank": 566,
-    "Type": "voluptatum",
-    "ColorBlock": 35,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2007-09-21T12:01:33.448849+02:00",
+    "Rank": 259,
+    "Type": "ipsam",
+    "ColorBlock": 824,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2017-06-06T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 115,
-        "Name": "Sanford-Kling",
-        "ToolTip": "Delectus autem et aut qui soluta nemo aut.",
+        "Id": 625,
+        "Name": "Satterfield, Hauck and Kirlin",
+        "ToolTip": "Ducimus molestias est.",
         "Deleted": false,
-        "Rank": 174,
-        "Type": "debitis",
-        "ColorBlock": 843,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2011-04-12T12:01:33.448849+02:00",
+        "Rank": 848,
+        "Type": "et",
+        "ColorBlock": 3,
+        "IconHint": "incidunt",
+        "Selected": true,
+        "LastChanged": "2021-08-23T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "corporis",
+        "ExtraInfo": "illum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Alva Schmidt"
+        "FullName": "Abdullah Balistreri"
       }
     ],
-    "ExtraInfo": "dignissimos",
-    "StyleHint": "excepturi",
-    "Hidden": true,
-    "FullName": "Prof. Pansy Morissette PhD"
+    "ExtraInfo": "libero",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Prof. Tom Walter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Fahey, O'Keefe and Metz",
-    "ToolTip": "Hic eligendi.",
-    "Deleted": true,
-    "Rank": 605,
-    "Type": "ut",
-    "ColorBlock": 432,
-    "IconHint": "pariatur",
+    "Id": 550,
+    "Name": "Nolan-Jenkins",
+    "ToolTip": "Temporibus magni sint.",
+    "Deleted": false,
+    "Rank": 396,
+    "Type": "quis",
+    "ColorBlock": 847,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2013-06-20T12:01:33.448849+02:00",
+    "LastChanged": "2015-04-05T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "McGlynn-Bechtelar",
-        "ToolTip": "Omnis ut quia ullam.",
+        "Id": 383,
+        "Name": "Jewess-Connelly",
+        "ToolTip": "Ratione quia est possimus officia.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "ipsam",
-        "ColorBlock": 444,
-        "IconHint": "a",
+        "Rank": 595,
+        "Type": "ea",
+        "ColorBlock": 683,
+        "IconHint": "quis",
         "Selected": true,
-        "LastChanged": "2004-03-03T12:01:33.448849+01:00",
+        "LastChanged": "2001-08-18T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "eum",
+        "ExtraInfo": "officiis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Waylon Emmerich",
+        "FullName": "Sylvia Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 51
+            "FieldType": "System.String",
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "King Orpha Lebsack MD",
+    "ExtraInfo": "sit",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Dr. Jerome Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 677
       }
     }
   }

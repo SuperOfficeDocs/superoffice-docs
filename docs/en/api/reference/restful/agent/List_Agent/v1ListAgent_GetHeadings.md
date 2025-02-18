@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 967,
-  "ListItemId": 264,
-  "ShowDeleted": true
+  "UdListDefinitionId": 286,
+  "ListItemId": 724,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Schulist Inc and Sons",
-    "ToolTip": "Dolorem in ut tempora.",
+    "Id": 765,
+    "Name": "Frami LLC",
+    "ToolTip": "Est doloribus illo ut quam voluptatibus optio animi.",
     "Deleted": false,
-    "Rank": 592,
-    "Type": "non",
-    "ColorBlock": 930,
-    "IconHint": "rerum",
+    "Rank": 510,
+    "Type": "ut",
+    "ColorBlock": 605,
+    "IconHint": "iure",
     "Selected": false,
-    "LastChanged": "2016-06-11T12:01:27.9471677+02:00",
+    "LastChanged": "2014-03-06T14:32:03.124104+01:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Koss, Goldner and Rath",
-        "ToolTip": "Fuga iure laboriosam nihil.",
+        "Id": 420,
+        "Name": "Cruickshank-Runte",
+        "ToolTip": "Necessitatibus eos a omnis neque non.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "est",
-        "ColorBlock": 130,
-        "IconHint": "itaque",
+        "Rank": 773,
+        "Type": "eum",
+        "ColorBlock": 840,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2017-04-24T12:01:27.9471677+02:00",
+        "LastChanged": "2001-05-12T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "animi",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Mr. Ray Nitzsche I",
+        "FullName": "Kaleigh Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 181
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "autem",
+    "ExtraInfo": "quia",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Miss Adolph Callie Dibbert",
+    "FullName": "Yesenia Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 914
       }
     }
   }

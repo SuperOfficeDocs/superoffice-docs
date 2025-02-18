@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 309,
-      "ContactId": 727
+      "PersonId": 165,
+      "ContactId": 667
     },
     {
-      "PersonId": 309,
-      "ContactId": 727
+      "PersonId": 165,
+      "ContactId": 667
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable exuding moderator",
-  "Postit": "quia",
+  "Description": "Reverse-engineered non-volatile leverage",
+  "Postit": "iste",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 419,
-  "IncludePerson": 556,
+  "GroupIdx": 492,
+  "IncludePerson": 90,
   "MemberCount": 99.99,
-  "Name": "Strosin Inc and Sons",
-  "PostitTextId": 608,
-  "CreatedDate": "2012-06-15T12:01:28.2909425+02:00",
-  "SelectionId": 818,
-  "SoundEx": "dolores",
-  "Source": 136,
-  "TextId": 773,
-  "UpdatedDate": "2007-08-10T12:01:28.2909425+02:00",
-  "UpdatedCount": 858,
-  "Visibility": 281,
+  "Name": "Rutherford LLC",
+  "PostitTextId": 219,
+  "CreatedDate": "2013-06-24T14:32:03.8897524+02:00",
+  "SelectionId": 41,
+  "SoundEx": "aspernatur",
+  "Source": 564,
+  "TextId": 781,
+  "UpdatedDate": "2022-12-19T14:32:03.8897524+01:00",
+  "UpdatedCount": 677,
+  "Visibility": 954,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 311,
-  "TargetTableName": "Macejkovic, McKenzie and Koepp",
+  "TargetTableNumber": 542,
+  "TargetTableName": "Dibbert-Grant",
   "Completed": false,
-  "LeftSelectionId": 656,
-  "RightSelectionId": 296,
+  "LeftSelectionId": 531,
+  "RightSelectionId": 486,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Greenholt, Turcotte and Purdy",
-  "ShadowProviderName": "Stamm Group",
-  "ChartKey": "cum",
-  "LastLoaded": "2023-01-21T12:01:28.2909425+01:00",
-  "LastLoadedBy": 288,
+  "MainProviderName": "Homenick LLC",
+  "ShadowProviderName": "Osinski Group",
+  "ChartKey": "sint",
+  "LastLoaded": "2003-08-08T14:32:03.8897524+02:00",
+  "LastLoadedBy": 121,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-17T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 101,
+  "LastMembershipChange": "2023-09-12T14:32:03.8897524+02:00",
+  "LastMembershipChangeBy": 980,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Wisozk-Shanahan",
-  "DashboardTileDefinitionId": 623,
+  "MainHeading": "quo",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Lind-Crist",
+  "DashboardTileDefinitionId": 977,
   "VisibleFor": [
     {
-      "VisibleId": 359,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 685
         }
       }
     },
     {
-      "VisibleId": 359,
+      "VisibleId": 11,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 685
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 792
     }
   }
 }

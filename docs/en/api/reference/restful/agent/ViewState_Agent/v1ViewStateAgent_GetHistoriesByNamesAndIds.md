@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "White-Kirlin",
-      "EntityOrParentId": 144,
+      "EntityName": "Mueller Group",
+      "EntityOrParentId": 692,
       "RequestForNewRecord": false
     },
     {
-      "EntityName": "White-Kirlin",
-      "EntityOrParentId": 144,
+      "EntityName": "Mueller Group",
+      "EntityOrParentId": 692,
       "RequestForNewRecord": false
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 642,
-    "Id": 889,
-    "HistoryName": "Swift-Hartmann",
-    "HistoryId": 671,
-    "AssociateId": 328,
-    "Name": "Kihn, Lowe and Stroman",
-    "ItemInfo": "quae",
+    "Rank": 757,
+    "Id": 612,
+    "HistoryName": "Zemlak Inc and Sons",
+    "HistoryId": 163,
+    "AssociateId": 624,
+    "Name": "Hessel Inc and Sons",
+    "ItemInfo": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldLength": 987
       }
     }
   }

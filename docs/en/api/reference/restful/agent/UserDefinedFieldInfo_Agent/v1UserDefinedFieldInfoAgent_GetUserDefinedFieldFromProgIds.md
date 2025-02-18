@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "dolores",
-    "et"
+    "odio",
+    "perspiciatis"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 716,
-    "ColumnId": 423,
-    "FieldDefault": "temporibus",
-    "FieldHeight": 29,
-    "FieldLabel": "dolore",
-    "FieldLeft": 437,
-    "FieldTop": 29,
+    "UDefFieldId": 238,
+    "ColumnId": 277,
+    "FieldDefault": "voluptatem",
+    "FieldHeight": 11,
+    "FieldLabel": "voluptas",
+    "FieldLeft": 889,
+    "FieldTop": 283,
     "FieldType": "Checkbox",
-    "FieldWidth": 106,
-    "FormatMask": "aut",
+    "FieldWidth": 668,
+    "FormatMask": "aliquid",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 635,
-    "LabelLeft": 815,
-    "LabelTop": 536,
-    "LabelWidth": 668,
-    "LastVersionId": 80,
-    "ListTableId": 931,
-    "IsMandatory": true,
+    "LabelHeight": 705,
+    "LabelLeft": 356,
+    "LabelTop": 366,
+    "LabelWidth": 676,
+    "LastVersionId": 277,
+    "ListTableId": 806,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 820,
-    "ProgId": "commodi",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 376,
-    "TextLength": 988,
-    "Tooltip": "quo",
-    "UdefIdentity": 604,
-    "UDListDefinitionId": 517,
+    "Page1LineNo": 323,
+    "ProgId": "laudantium",
+    "IsReadOnly": false,
+    "ShortLabel": "eveniet",
+    "TabOrder": 718,
+    "TextLength": 785,
+    "Tooltip": "voluptatem",
+    "UdefIdentity": 967,
+    "UDListDefinitionId": 129,
     "Justification": "Center",
-    "Version": 583,
-    "TemplateVariableName": "Medhurst Inc and Sons",
-    "HasBeenPublished": false,
-    "MdoListName": "Considine, Bartoletti and Jones",
+    "Version": 50,
+    "TemplateVariableName": "Bernier, Streich and Romaguera",
+    "HasBeenPublished": true,
+    "MdoListName": "Kuhn-Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 479
       }
     }
   }

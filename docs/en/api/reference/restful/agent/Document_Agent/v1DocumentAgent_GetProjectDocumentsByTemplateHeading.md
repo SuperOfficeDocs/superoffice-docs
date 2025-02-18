@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 370,
-  "StartTime": "2008-05-19T12:01:27.5877684+02:00",
-  "EndTime": "2004-11-16T12:01:27.5877684+01:00",
-  "Count": 660,
-  "TemplateHeadingId": 638
+  "ProjectId": 12,
+  "StartTime": "2008-03-26T14:32:02.6398381+01:00",
+  "EndTime": "2005-12-15T14:32:02.6398381+01:00",
+  "Count": 257,
+  "TemplateHeadingId": 989
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 722,
-    "Attention": "nobis",
-    "Header": "est",
-    "Name": "Rutherford, Beatty and Macejkovic",
-    "OurRef": "blanditiis",
-    "YourRef": "in",
-    "Description": "Integrated secondary hierarchy",
-    "DocumentTemplate": "sit",
+    "DocumentId": 376,
+    "Attention": "laudantium",
+    "Header": "qui",
+    "Name": "Waelchi Inc and Sons",
+    "OurRef": "quis",
+    "YourRef": "dolor",
+    "Description": "Enterprise-wide global focus group",
+    "DocumentTemplate": "harum",
     "IsPublished": true,
-    "PersonId": 92,
-    "PersonFullName": "Rhett Spencer",
-    "AssociateFullName": "Miss Gus Hansen",
-    "ContactId": 440,
-    "ContactName": "Skiles, Schowalter and Bartoletti",
-    "ProjectId": 62,
-    "ProjectName": "Prosacco, Moen and Abbott",
-    "AssociateId": 806,
-    "Snum": 732,
-    "SaleId": 755,
-    "SaleName": "Kiehn Group",
+    "PersonId": 187,
+    "PersonFullName": "Genoveva America Pfannerstill Sr.",
+    "AssociateFullName": "Mario Gutmann",
+    "ContactId": 254,
+    "ContactName": "Abbott-Spinka",
+    "ProjectId": 276,
+    "ProjectName": "Emard, Ferry and Metz",
+    "AssociateId": 530,
+    "Snum": 48,
+    "SaleId": 225,
+    "SaleName": "Reichel, Wintheiser and Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

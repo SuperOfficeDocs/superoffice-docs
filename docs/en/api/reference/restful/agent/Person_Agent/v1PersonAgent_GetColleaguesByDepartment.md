@@ -115,11 +115,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 203
+  "DepartmentId": 834
 }
 ```
 
@@ -131,53 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "perferendis",
-    "PersonId": 685,
-    "Mrmrs": "aliquid",
-    "Firstname": "Hortense",
-    "Lastname": "Bartell",
-    "MiddleName": "Crooks, Hammes and Larkin",
-    "Title": "omnis",
-    "Description": "Open-source logistical synergy",
-    "Email": "quinten@grady.com",
-    "FullName": "Iva Beier",
-    "DirectPhone": "(721)836-0433 x32669",
-    "FormalName": "Ward-Mante",
-    "CountryId": 549,
-    "ContactId": 126,
-    "ContactName": "Mohr, Baumbach and Becker",
-    "Retired": 362,
-    "Rank": 547,
-    "ActiveInterests": 562,
+    "Position": "alias",
+    "PersonId": 74,
+    "Mrmrs": "excepturi",
+    "Firstname": "Emma",
+    "Lastname": "Lehner",
+    "MiddleName": "Ratke Group",
+    "Title": "quibusdam",
+    "Description": "Optional high-level open system",
+    "Email": "luella@murray.us",
+    "FullName": "Mr. Virginia Sawayn",
+    "DirectPhone": "(645)572-4191 x405",
+    "FormalName": "Pollich Inc and Sons",
+    "CountryId": 311,
+    "ContactId": 142,
+    "ContactName": "Graham Group",
+    "Retired": 739,
+    "Rank": 818,
+    "ActiveInterests": 517,
     "ContactDepartment": "",
-    "ContactCountryId": 934,
-    "ContactOrgNr": "915067",
-    "FaxPhone": "803-447-7676 x759",
-    "MobilePhone": "013.155.0156 x67784",
-    "ContactPhone": "720-539-2132 x9489",
-    "AssociateName": "Graham-Farrell",
-    "AssociateId": 849,
-    "UsePersonAddress": false,
-    "ContactFax": "est",
-    "Kanafname": "ea",
-    "Kanalname": "deleniti",
-    "Post1": "quidem",
-    "Post2": "non",
-    "Post3": "doloribus",
-    "EmailName": "chloe_weber@mosciski.name",
-    "ContactFullName": "Dr. Mack Charles Beer",
-    "ActiveErpLinks": 129,
-    "TicketPriorityId": 806,
-    "SupportLanguageId": 999,
-    "SupportAssociateId": 992,
+    "ContactCountryId": 44,
+    "ContactOrgNr": "359229",
+    "FaxPhone": "089-455-6172",
+    "MobilePhone": "1-314-023-8775 x901",
+    "ContactPhone": "428-978-8635 x08651",
+    "AssociateName": "Stokes Group",
+    "AssociateId": 122,
+    "UsePersonAddress": true,
+    "ContactFax": "et",
+    "Kanafname": "quia",
+    "Kanalname": "modi",
+    "Post1": "beatae",
+    "Post2": "aut",
+    "Post3": "nam",
+    "EmailName": "jean@hamillfranecki.biz",
+    "ContactFullName": "Ms. Mitchell Dexter Hammes DDS",
+    "ActiveErpLinks": 25,
+    "TicketPriorityId": 648,
+    "SupportLanguageId": 989,
+    "SupportAssociateId": 876,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "457824",
+    "PersonNumber": "457862",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldType": "System.String",
+        "FieldLength": 719
       }
     }
   }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 254,
-  "Name": "Auer Inc and Sons",
-  "CurrencyId": 504,
-  "EnglishName": "Adams-Franecki",
+  "CountryId": 995,
+  "Name": "Witting Inc and Sons",
+  "CurrencyId": 531,
+  "EnglishName": "Renner Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Universal bottom-line protocol",
-  "OrgNrText": "1323403",
-  "InterAreaPrefix": "sapiente",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "reiciendis",
-  "DomainName": "King-Bosco",
-  "AddressLayoutId": 563,
-  "DomesticAddressLayoutId": 318,
-  "ForeignAddressLayoutId": 481,
-  "Rank": 223,
-  "Tooltip": "modi",
+  "ImageDescription": "Exclusive even-keeled benchmark",
+  "OrgNrText": "359021",
+  "InterAreaPrefix": "voluptas",
+  "DialInPrefix": "ea",
+  "ZipPrefix": "ut",
+  "DomainName": "Kihn-Becker",
+  "AddressLayoutId": 617,
+  "DomesticAddressLayoutId": 913,
+  "ForeignAddressLayoutId": 915,
+  "Rank": 293,
+  "Tooltip": "maxime",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 391
     }
   }
 }

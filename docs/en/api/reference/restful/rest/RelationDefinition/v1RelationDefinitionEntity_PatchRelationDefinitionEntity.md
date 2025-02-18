@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vitae",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vitae",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 263,
-  "Name": "Mayer, Gislason and Fay",
-  "Tooltip": "sed",
-  "PassiveText": "ex",
+  "ReldefId": 248,
+  "Name": "Schmitt-Jakubowski",
+  "Tooltip": "et",
+  "PassiveText": "itaque",
   "Deleted": false,
-  "Rank": 808,
+  "Rank": 296,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 845
     }
   },
   "_Links": {

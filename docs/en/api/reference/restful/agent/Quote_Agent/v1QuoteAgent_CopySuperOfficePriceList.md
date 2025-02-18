@@ -91,11 +91,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 513,
-  "NewName": "Rippin-Wunsch",
-  "ValidFrom": "2019-09-30T12:01:28.1815588+02:00",
-  "ValidTo": "2006-03-21T12:01:28.1815588+01:00",
-  "NewCurrencyId": 26,
+  "OriginalPriceListId": 384,
+  "NewName": "Sauer, Cruickshank and Labadie",
+  "ValidFrom": "2011-08-01T14:32:03.5617+02:00",
+  "ValidTo": "2001-07-06T14:32:03.5617+02:00",
+  "NewCurrencyId": 602,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 867,
-  "ERPPriceListKey": "architecto",
-  "QuoteConnectionId": 135,
-  "Name": "Mayer, Ryan and Champlin",
-  "Description": "Vision-oriented scalable paradigm",
-  "Currency": "quia",
-  "CurrencyName": "McLaughlin Inc and Sons",
-  "ValidFrom": "1999-10-08T12:01:28.1815588+02:00",
-  "ValidTo": "2001-01-12T12:01:28.1815588+01:00",
+  "PriceListId": 88,
+  "ERPPriceListKey": "cumque",
+  "QuoteConnectionId": 170,
+  "Name": "Bahringer Inc and Sons",
+  "Description": "Front-line systemic data-warehouse",
+  "Currency": "rerum",
+  "CurrencyName": "Watsica, Cole and Volkman",
+  "ValidFrom": "2023-09-27T14:32:03.5617+02:00",
+  "ValidTo": "2015-09-13T14:32:03.5617+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldLength": 726
     }
   }
 }

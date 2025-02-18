@@ -75,15 +75,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 953,
-  "Name": "Roob, Hyatt and Grady",
-  "Tooltip": "vero",
-  "Rank": 235,
-  "Key": "et",
+  "LegalBaseId": 317,
+  "Name": "Blanda-Wiegand",
+  "Tooltip": "et",
+  "Rank": 870,
+  "Key": "vel",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 899,
-  "Name": "Bradtke, Jacobi and Wunsch",
-  "Tooltip": "similique",
-  "Rank": 853,
-  "Key": "et",
-  "Deleted": true,
+  "LegalBaseId": 88,
+  "Name": "Predovic Group",
+  "Tooltip": "soluta",
+  "Rank": 892,
+  "Key": "dolorum",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 565
     }
   }
 }

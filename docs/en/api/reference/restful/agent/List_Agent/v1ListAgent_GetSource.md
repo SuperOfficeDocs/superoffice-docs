@@ -26,7 +26,7 @@ Gets a Source object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSource?sourceId=971
+POST /api/v1/Agents/List/GetSource?sourceId=967
 POST /api/v1/Agents/List/GetSource?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 146,
-  "Value": "sint",
-  "Tooltip": "illo",
+  "Id": 7,
+  "Value": "necessitatibus",
+  "Tooltip": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 340
     }
   }
 }

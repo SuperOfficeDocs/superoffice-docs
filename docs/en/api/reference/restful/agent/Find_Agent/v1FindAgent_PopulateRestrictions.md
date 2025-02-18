@@ -87,28 +87,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Swift, Christiansen and Auer",
+  "ProviderName": "Greenholt Group",
   "Restrictions": [
     {
-      "Name": "Ratke, Sipes and Pagac",
-      "Operator": "inventore",
+      "Name": "Crist Inc and Sons",
+      "Operator": "a",
       "Values": [
-        "architecto",
-        "odit"
+        "quia",
+        "ut"
       ],
       "DisplayValues": [
-        "delectus",
-        "velit"
+        "quia",
+        "praesentium"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 406,
+      "InterParenthesis": 611,
       "InterOperator": "And",
-      "UniqueHash": 46
+      "UniqueHash": 403
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Barrows, Dicki and Dicki",
-    "Operator": "delectus",
+    "Name": "Lemke-Aufderhar",
+    "Operator": "ut",
     "Values": [
-      "est",
-      "quasi"
+      "placeat",
+      "et"
     ],
     "DisplayValues": [
-      "aut",
-      "facere"
+      "neque",
+      "dolorem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Flatley LLC",
-        "Operator": "assumenda",
+        "Name": "Kerluke Group",
+        "Operator": "est",
         "Values": [
-          "id",
-          "nemo"
+          "corporis",
+          "ipsa"
         ],
         "DisplayValues": [
-          "ipsa",
-          "sit"
+          "blanditiis",
+          "commodi"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 12,
+        "InterParenthesis": 739,
         "InterOperator": "And",
-        "UniqueHash": 937
+        "UniqueHash": 424
       }
     ],
-    "InterParenthesis": 179,
+    "InterParenthesis": 842,
     "InterOperator": "And",
-    "UniqueHash": 83
+    "UniqueHash": 784
   }
 ]
 ```

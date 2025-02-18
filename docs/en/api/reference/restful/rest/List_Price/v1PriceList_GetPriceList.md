@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 202,
-  "ERPPriceListKey": "quaerat",
-  "QuoteConnectionId": 391,
-  "Name": "Goyette-Gusikowski",
-  "Description": "Adaptive zero defect project",
-  "Currency": "odio",
-  "CurrencyName": "Schaefer, Trantow and Veum",
-  "ValidFrom": "2019-12-06T12:01:33.5582313+01:00",
-  "ValidTo": "2006-10-03T12:01:33.5582313+02:00",
+  "PriceListId": 801,
+  "ERPPriceListKey": "magnam",
+  "QuoteConnectionId": 369,
+  "Name": "Kunde, Wilderman and Rowe",
+  "Description": "Organized executive infrastructure",
+  "Currency": "ipsa",
+  "CurrencyName": "Schumm, Effertz and Turner",
+  "ValidFrom": "2021-12-02T14:32:12.7082989+01:00",
+  "ValidTo": "2016-09-14T14:32:12.7082989+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

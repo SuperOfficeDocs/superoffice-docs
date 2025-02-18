@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quasi",
-  "ProviderName": "Mueller-Leuschke",
-  "DesiredColumns": "delectus",
-  "PageSize": 925,
-  "PageNumber": 496
+  "Restrictions": "ipsa",
+  "ProviderName": "Schumm LLC",
+  "DesiredColumns": "rerum",
+  "PageSize": 597,
+  "PageNumber": 215
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koch-O'Conner",
-      "DisplayTooltip": "quia",
+      "DisplayName": "Jerde Inc and Sons",
+      "DisplayTooltip": "enim",
       "DisplayType": "qui",
       "CanOrderBy": false,
-      "Name": "Wisozk, Schaefer and Nikolaus",
+      "Name": "Muller-Schmidt",
       "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Koch Group",
-      "IsVisible": false,
-      "ExtraInfo": "laboriosam",
-      "Width": "exercitationem",
-      "IconHint": "eum",
-      "HeadingIconHint": "rerum"
+      "RestrictionType": "perferendis",
+      "RestrictionListName": "Ritchie, Murazik and Homenick",
+      "IsVisible": true,
+      "ExtraInfo": "voluptate",
+      "Width": "voluptate",
+      "IconHint": "ducimus",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rice, Quitzon and Robel",
-      "PrimaryKey": 131,
+      "EntityName": "Waelchi, Murphy and Dach",
+      "PrimaryKey": 531,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quae",
-          "TooltipHint": "sunt",
-          "LinkHint": "atque"
+          "DisplayValue": "est",
+          "TooltipHint": "at",
+          "LinkHint": "necessitatibus"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "numquam",
+      "LinkHint": "eum",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldType": "System.String",
+          "FieldLength": 129
         }
       }
     }
   ],
-  "RowCount": 774,
+  "RowCount": 483,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 713
     }
   }
 }

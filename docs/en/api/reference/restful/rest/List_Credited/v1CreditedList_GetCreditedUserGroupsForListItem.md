@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Klocko-Abbott",
-    "ToolTip": "Aut est architecto quidem omnis tempora cum est.",
+    "Id": 415,
+    "Name": "Hegmann, Cummerata and Marks",
+    "ToolTip": "Unde qui aut ut non.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "suscipit",
-    "ColorBlock": 759,
-    "IconHint": "facere",
+    "Rank": 826,
+    "Type": "et",
+    "ColorBlock": 130,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2016-09-26T12:01:33.4801008+02:00",
+    "LastChanged": "2015-05-11T14:32:12.5677057+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Stracke, Lakin and Kunde",
-        "ToolTip": "Iste sit vero quas aut labore eveniet.",
-        "Deleted": false,
-        "Rank": 507,
-        "Type": "illo",
-        "ColorBlock": 156,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2017-10-13T12:01:33.4801008+02:00",
+        "Id": 936,
+        "Name": "Murphy, Wisoky and Witting",
+        "ToolTip": "A voluptatem.",
+        "Deleted": true,
+        "Rank": 518,
+        "Type": "harum",
+        "ColorBlock": 121,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2011-02-23T14:32:12.5677057+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "qui",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Saul Lisa Rohan DDS",
+        "FullName": "Gerda Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 562
+            "FieldType": "System.String",
+            "FieldLength": 393
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quam",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Miss Mozelle Smith",
+    "FullName": "Prof. Geo Ernser Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 804
       }
     }
   }

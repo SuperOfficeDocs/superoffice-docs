@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Walsh, Koss and Frami",
-  "Tooltip": "quia",
+  "Id": 802,
+  "Name": "Wilderman, Bode and Bode",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 62,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 110,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 487
     }
   },
   "_Links": {

@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 350,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2024-07-04T12:01:26.9939595+02:00",
-  "EndTime": "2015-03-29T12:01:26.9939595+02:00",
-  "Count": 641,
+  "PersonId": 274,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2004-06-13T14:32:01.4680659+02:00",
+  "EndTime": "2010-01-18T14:32:01.4680659+01:00",
+  "Count": 535,
   "TaskIds": [
-    625,
-    321
+    704,
+    817
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 501,
-    "StartDate": "2001-12-09T12:01:27.0095855+01:00",
-    "EndDate": "2008-03-27T12:01:27.0095855+01:00",
+    "AppointmentId": 355,
+    "StartDate": "2010-12-21T14:32:01.4680659+01:00",
+    "EndDate": "2018-10-12T14:32:01.4680659+02:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Prof. Jamir Nikolaus",
-    "ContactName": "Wehner Group",
-    "Description": "Integrated upward-trending local area network",
-    "PersonFullName": "Rosalyn Howe",
-    "PersonId": 443,
-    "ContactId": 617,
-    "ProjectId": 151,
-    "ProjectName": "Morar, Hettinger and Carroll",
+    "Task": "et",
+    "AssociateFullName": "Santos Kraig Lind PhD",
+    "ContactName": "Wyman, Franecki and Kris",
+    "Description": "Adaptive tangible firmware",
+    "PersonFullName": "Miss Thelma Pagac II",
+    "PersonId": 174,
+    "ContactId": 507,
+    "ProjectId": 413,
+    "ProjectName": "Bartoletti, Hegmann and Boyle",
     "IsPublished": false,
-    "AssociateId": 388,
-    "ColorIndex": 667,
+    "AssociateId": 861,
+    "ColorIndex": 504,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 351,
-    "PriorityName": "Moore LLC",
+    "PriorityId": 917,
+    "PriorityName": "Morissette-Wolf",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-10-11T12:01:27.0095855+02:00",
+    "ActiveDate": "2006-01-18T14:32:01.4680659+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-10-16T12:01:27.0095855+02:00",
-    "RecurringEndDate": "2001-05-10T12:01:27.0095855+02:00",
-    "MotherId": 126,
-    "AssignedBy": 193,
-    "AssignedByFullName": "Ms. Jonas Smith",
+    "RecurringStartDate": "2004-12-20T14:32:01.4680659+01:00",
+    "RecurringEndDate": "2008-05-19T14:32:01.4680659+02:00",
+    "MotherId": 294,
+    "AssignedBy": 921,
+    "AssignedByFullName": "Kraig Swaniawski",
     "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 576,
-    "SaleName": "Hahn, Russel and Cronin",
-    "AssociateName": "Steuber Group",
-    "CreatedDate": "2013-09-04T12:01:27.0095855+02:00",
-    "CreatedBy": "dolorem",
-    "CreatedByFullName": "Osvaldo Alverta Kuhic DVM",
-    "CreatedByAssociateId": 195,
+    "Location": "saepe",
+    "AlarmLeadTime": "maiores",
+    "SaleId": 598,
+    "SaleName": "Kovacek, Bahringer and Dare",
+    "AssociateName": "Dach Inc and Sons",
+    "CreatedDate": "2011-11-27T14:32:01.4680659+01:00",
+    "CreatedBy": "porro",
+    "CreatedByFullName": "Mohamed Lubowitz",
+    "CreatedByAssociateId": 87,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 791,
-    "Title": "et",
-    "Agenda": "voluptatem",
-    "InternalNotes": "voluptates",
+    "PreferredTZLocation": 928,
+    "Title": "commodi",
+    "Agenda": "optio",
+    "InternalNotes": "quibusdam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 300
       }
     }
   }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Padberg Inc and Sons",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "UdListDefinitionId": 994,
-  "Rank": 308,
+  "Id": 900,
+  "Name": "Hilll, Mraz and Leffler",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 358,
+  "Rank": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 784
     }
   }
 }

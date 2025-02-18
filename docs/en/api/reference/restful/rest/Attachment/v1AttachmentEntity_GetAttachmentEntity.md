@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 533,
-  "Name": "Howell, Auer and Bechtelar",
-  "ContentType": "sint",
-  "AttSize": 817,
+  "AttachmentId": 667,
+  "Name": "Hagenes-Heathcote",
+  "ContentType": "aut",
+  "AttSize": 20,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "voluptas",
+  "ContentId": "accusantium",
+  "AuthKey": "repudiandae",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 437
     }
   },
   "_Links": {

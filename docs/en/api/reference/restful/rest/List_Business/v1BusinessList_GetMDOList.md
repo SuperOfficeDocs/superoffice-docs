@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=dolor
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Morar, Hartmann and Bernhard",
-    "ToolTip": "Dolor necessitatibus tenetur ad.",
-    "Deleted": true,
-    "Rank": 882,
-    "Type": "perferendis",
+    "Id": 1000,
+    "Name": "Fisher Group",
+    "ToolTip": "Iusto magni ipsa eveniet laboriosam alias.",
+    "Deleted": false,
+    "Rank": 264,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Shanahan Group",
-        "ToolTip": "Animi autem nobis minus aperiam repellat.",
+        "Id": 966,
+        "Name": "Schoen Inc and Sons",
+        "ToolTip": "Beatae et.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "nisi",
+        "Rank": 883,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 718,
-        "ExtraInfo": "numquam",
-        "StyleHint": "totam",
-        "FullName": "Loraine Forrest O'Keefe DDS",
+        "IconHint": "et",
+        "ColorBlock": 166,
+        "ExtraInfo": "in",
+        "StyleHint": "tenetur",
+        "FullName": "Mr. Geovany Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 323
+            "FieldLength": 742
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 106,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "debitis",
-    "FullName": "Kathryne Murphy",
+    "IconHint": "placeat",
+    "ColorBlock": 366,
+    "ExtraInfo": "quos",
+    "StyleHint": "ea",
+    "FullName": "Dr. Emmie Mueller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 370
       }
     }
   }

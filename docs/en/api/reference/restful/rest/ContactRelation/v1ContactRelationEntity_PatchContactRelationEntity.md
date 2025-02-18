@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "dignissimos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "dignissimos",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 462,
-  "SourcePersonId": 552,
-  "DestinationContactId": 430,
-  "DestinationPersonId": 575,
-  "RelationId": 2,
-  "Comment": "error",
-  "RelationDefinitionId": 954,
-  "Reversed": 988,
-  "UpdatedDate": "2022-02-18T12:01:32.8394314+01:00",
-  "CreatedDate": "2001-06-10T12:01:32.8394314+02:00",
+  "SourceContactId": 427,
+  "SourcePersonId": 658,
+  "DestinationContactId": 51,
+  "DestinationPersonId": 15,
+  "RelationId": 238,
+  "Comment": "ut",
+  "RelationDefinitionId": 212,
+  "Reversed": 878,
+  "UpdatedDate": "2001-06-16T14:32:11.3815336+02:00",
+  "CreatedDate": "2009-02-09T14:32:11.3815336+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Krajcik, Kuhic and Pouros",
-  "SourcePersonName": "Schuppe-Beahan",
-  "DestinationContactName": "Bogisich-Stamm",
-  "DestinationPersonName": "Hilpert LLC",
-  "ActiveText": "natus",
-  "PassiveText": "eum",
+  "SourceContactName": "Howell Inc and Sons",
+  "SourcePersonName": "Johnston LLC",
+  "DestinationContactName": "Fay-Spinka",
+  "DestinationPersonName": "Hilll Group",
+  "ActiveText": "et",
+  "PassiveText": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldLength": 294
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

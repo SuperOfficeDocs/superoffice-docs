@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "optio",
-  "SignOffText": "quibusdam",
-  "SignOnConfirmationText": "et",
-  "SignOnText": "corrupti",
-  "EventDate": "2013-11-04T12:01:28.1346745+01:00",
-  "Enabled": true,
-  "CreatedDate": "2000-09-13T12:01:28.1346745+02:00",
+  "SignOffConfirmationText": "mollitia",
+  "SignOffText": "beatae",
+  "SignOnConfirmationText": "repudiandae",
+  "SignOnText": "vitae",
+  "EventDate": "2007-04-18T14:32:03.4679728+02:00",
+  "Enabled": false,
+  "CreatedDate": "2008-09-01T14:32:03.4679728+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 894,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "SignOffTaskId": 655,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 596,
+  "SignOnTaskId": 752,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2013-01-31T12:01:28.1346745+01:00",
+  "UpdatedDate": "2006-01-31T14:32:03.4679728+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 371,
-  "Id": 726,
-  "PublishFrom": "2010-10-12T12:01:28.1346745+02:00",
+  "ProjectId": 923,
+  "Id": 451,
+  "PublishFrom": "2003-01-31T14:32:03.4679728+01:00",
   "PublishType": "External",
-  "PublishTo": "2017-06-16T12:01:28.1346745+02:00",
+  "PublishTo": "2005-01-28T14:32:03.4679728+01:00",
   "VisibleForCategories": [
     {
-      "Id": 824,
-      "Name": "Bailey-Wunsch",
-      "ToolTip": "Totam quos voluptate est blanditiis.",
+      "Id": 235,
+      "Name": "Pfeffer, Aufderhar and Hettinger",
+      "ToolTip": "Ut voluptatem est tempora tempore enim.",
       "Deleted": true,
-      "Rank": 268,
-      "Type": "praesentium",
+      "Rank": 367,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "error",
-      "ColorBlock": 413,
-      "ExtraInfo": "ut",
-      "StyleHint": "et",
-      "FullName": "Dr. Trenton Geraldine Hauck",
+      "IconHint": "exercitationem",
+      "ColorBlock": 36,
+      "ExtraInfo": "qui",
+      "StyleHint": "voluptatem",
+      "FullName": "Mrs. Izabella Delphia Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 933,
-      "Name": "Nader LLC",
-      "ToolTip": "Perferendis odit amet quam delectus quam possimus.",
+      "Id": 663,
+      "Name": "Mayert, Tromp and Brakus",
+      "ToolTip": "Esse dolorum maxime.",
       "Deleted": true,
-      "Rank": 80,
-      "Type": "veniam",
+      "Rank": 998,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vitae",
-      "ColorBlock": 173,
-      "ExtraInfo": "quia",
-      "StyleHint": "fugiat",
-      "FullName": "Charlene Caleb Donnelly PhD",
+      "IconHint": "sunt",
+      "ColorBlock": 58,
+      "ExtraInfo": "vitae",
+      "StyleHint": "voluptatem",
+      "FullName": "Elena Conroy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 319
+          "FieldLength": 216
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 846,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

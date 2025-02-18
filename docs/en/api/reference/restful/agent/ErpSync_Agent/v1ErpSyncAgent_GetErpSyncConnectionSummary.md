@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 662
+  "ErpSyncConnectionId": 661
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Little-Sporer",
-  "DisplayDescription": "Vision-oriented fault-tolerant neural-net",
-  "Active": false,
+  "DisplayName": "Price-Gusikowski",
+  "DisplayDescription": "Re-contextualized intermediate function",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2007-07-09T12:01:27.8690369+02:00",
+  "LastSync": "2004-01-02T14:32:02.9678904+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "vitae",
-      "Mappings": "soluta",
+      "Defaults": "nihil",
+      "Mappings": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": false,
-      "Defaults": "vitae",
-      "Mappings": "soluta",
+      "Defaults": "nihil",
+      "Mappings": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

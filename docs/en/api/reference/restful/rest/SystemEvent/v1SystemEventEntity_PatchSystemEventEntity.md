@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 477,
+  "SystemEventId": 188,
   "Scope": "Database",
-  "Eta": "2014-07-17T12:01:33.2144574+02:00",
-  "Eventkey": "dolores",
-  "Eventmess": "sunt",
-  "ExtraInfo": 525,
-  "Owner": 454,
-  "UpdatedCount": 370,
-  "Registered": "2021-07-20T12:01:33.2144574+02:00",
+  "Eta": "2017-07-27T14:32:12.0678193+02:00",
+  "Eventkey": "facilis",
+  "Eventmess": "voluptates",
+  "ExtraInfo": 992,
+  "Owner": 299,
+  "UpdatedCount": 48,
+  "Registered": "2014-11-16T14:32:12.0678193+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 119
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

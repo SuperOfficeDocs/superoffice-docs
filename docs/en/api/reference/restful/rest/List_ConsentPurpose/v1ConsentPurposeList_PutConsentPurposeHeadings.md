@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 851,
-    "Name": "Brown, Smitham and Rath",
-    "Tooltip": "et",
+    "HeadingId": 170,
+    "Name": "Hoppe Group",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 755
+    "Rank": 691,
+    "UdListDefinitionId": 280
   },
   {
-    "HeadingId": 851,
-    "Name": "Brown, Smitham and Rath",
-    "Tooltip": "et",
+    "HeadingId": 170,
+    "Name": "Hoppe Group",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 755
+    "Rank": 691,
+    "UdListDefinitionId": 280
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Bosco-Hodkiewicz",
-    "Tooltip": "doloribus",
+    "HeadingId": 816,
+    "Name": "Ernser LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 403,
-    "UdListDefinitionId": 311,
+    "Rank": 226,
+    "UdListDefinitionId": 486,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 975
       }
     }
   }

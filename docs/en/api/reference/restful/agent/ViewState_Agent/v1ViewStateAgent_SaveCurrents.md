@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 869,
-      "Id": 159,
-      "HistoryName": "Kuhlman Inc and Sons",
-      "HistoryId": 620,
-      "AssociateId": 625,
-      "Name": "Russel, Schmidt and Lindgren",
-      "ItemInfo": "et"
+      "Rank": 172,
+      "Id": 866,
+      "HistoryName": "Larkin-Jenkins",
+      "HistoryId": 439,
+      "AssociateId": 147,
+      "Name": "Ernser LLC",
+      "ItemInfo": "facere"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 586,
-    "Id": 765,
-    "HistoryName": "Rolfson-Kris",
-    "HistoryId": 612,
-    "AssociateId": 63,
-    "Name": "Barton Inc and Sons",
-    "ItemInfo": "culpa",
+    "Rank": 623,
+    "Id": 457,
+    "HistoryName": "Roob, Gleichner and Brekke",
+    "HistoryId": 232,
+    "AssociateId": 917,
+    "Name": "Bernier-McGlynn",
+    "ItemInfo": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldLength": 776
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 336,
-  "Name": "Spinka-Reichel",
-  "Tooltip": "ratione",
+  "HeadingId": 422,
+  "Name": "Batz Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 499,
-  "UdListDefinitionId": 28
+  "Rank": 472,
+  "UdListDefinitionId": 854
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 61,
-  "Name": "Veum Group",
-  "Tooltip": "ipsum",
+  "HeadingId": 486,
+  "Name": "Kuvalis Group",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "Rank": 430,
-  "UdListDefinitionId": 200,
+  "Rank": 508,
+  "UdListDefinitionId": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 189
     }
   }
 }

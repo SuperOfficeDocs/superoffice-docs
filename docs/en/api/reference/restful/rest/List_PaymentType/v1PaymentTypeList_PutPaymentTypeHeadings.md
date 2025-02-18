@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Marvin, Heller and Volkman",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 315,
-    "UdListDefinitionId": 999
+    "HeadingId": 797,
+    "Name": "Bednar, Mante and Johnston",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "Rank": 880,
+    "UdListDefinitionId": 231
   },
   {
-    "HeadingId": 349,
-    "Name": "Marvin, Heller and Volkman",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 315,
-    "UdListDefinitionId": 999
+    "HeadingId": 797,
+    "Name": "Bednar, Mante and Johnston",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "Rank": 880,
+    "UdListDefinitionId": 231
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 558,
-    "Name": "Nienow-Corkery",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 43,
+    "HeadingId": 668,
+    "Name": "Kihn Inc and Sons",
+    "Tooltip": "repellat",
+    "Deleted": true,
+    "Rank": 200,
+    "UdListDefinitionId": 70,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldLength": 286
       }
     }
   }

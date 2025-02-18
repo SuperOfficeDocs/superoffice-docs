@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Konopelski Inc and Sons",
-    "ToolTip": "Hic placeat omnis porro.",
+    "Id": 530,
+    "Name": "Turner-Schneider",
+    "ToolTip": "Impedit id necessitatibus natus odio pariatur est.",
     "Deleted": false,
-    "Rank": 879,
-    "Type": "quis",
-    "ColorBlock": 742,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "1999-04-17T12:01:33.4801008+02:00",
+    "Rank": 315,
+    "Type": "aperiam",
+    "ColorBlock": 736,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "2024-02-05T14:32:12.5677057+01:00",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Berge Group",
-        "ToolTip": "Laboriosam placeat officia eligendi ut delectus mollitia expedita.",
+        "Id": 12,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Quia consequatur asperiores distinctio nobis.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "aut",
-        "ColorBlock": 867,
-        "IconHint": "officiis",
+        "Rank": 219,
+        "Type": "unde",
+        "ColorBlock": 756,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2016-10-03T12:01:33.4801008+02:00",
+        "LastChanged": "2007-10-10T14:32:12.5677057+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Ettie Turner",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nam",
+        "Hidden": false,
+        "FullName": "Ms. Jakob Johan Wiza PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 718
+            "FieldType": "System.Int32",
+            "FieldLength": 207
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "eos",
+    "ExtraInfo": "quia",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mrs. Jalyn Rath",
+    "FullName": "Dr. Nicholas Rita Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

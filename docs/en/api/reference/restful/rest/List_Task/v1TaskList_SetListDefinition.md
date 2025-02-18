@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 46,
-  "Name": "Hermann Group",
-  "Tooltip": "consequatur",
+  "Id": 734,
+  "Name": "Sanford Inc and Sons",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 680,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "Rank": 923,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Kuhn, Adams and McDermott",
-  "Tooltip": "ipsa",
+  "Id": 878,
+  "Name": "Boehm, Reilly and Gulgowski",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 390,
-  "IsCustomList": true,
+  "Rank": 270,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
+  "ListType": "est",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 814
     }
   }
 }

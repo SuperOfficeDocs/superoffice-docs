@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 696,
-  "ERPProductKey": "nam",
-  "ERPPriceListKey": "eum",
-  "Name": "Rolfson Group",
-  "Description": "Reduced motivating forecast",
-  "Code": "rerum",
-  "PriceUnit": "provident",
-  "QuantityUnit": "sed",
-  "IsSubscription": true,
-  "SubscriptionUnit": "placeat",
-  "DefaultSubscriptionQuantity": 23169.662,
-  "ItemNumber": "404614",
+  "ProductId": 403,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "repellendus",
+  "Name": "Herzog LLC",
+  "Description": "Grass-roots value-added matrix",
+  "Code": "quidem",
+  "PriceUnit": "dolor",
+  "QuantityUnit": "voluptatibus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "dolor",
+  "DefaultSubscriptionQuantity": 5008.132,
+  "ItemNumber": "1695794",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "eveniet",
-  "VAT": 13632.9,
-  "VATInfo": "dolor",
-  "UnitCost": 26504.237999999998,
-  "UnitMinimumPrice": 13485.601999999999,
-  "UnitListPrice": 18894.886,
+  "ProductFamilyKey": "impedit",
+  "ProductTypeKey": "sunt",
+  "VAT": 14761.14,
+  "VATInfo": "occaecati",
+  "UnitCost": 14842.624,
+  "UnitMinimumPrice": 26037.272,
+  "UnitListPrice": 7791.124,
   "InAssortment": false,
-  "Supplier": "unde",
-  "SupplierCode": "corporis",
-  "Rights": "omnis",
-  "Rule": "cum",
+  "Supplier": "facilis",
+  "SupplierCode": "praesentium",
+  "Rights": "dolorem",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Rice-Macejkovic",
-      "Value": "iure",
+      "Name": "Kuhlman, Huels and Kihn",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 561
         }
       }
     },
     {
-      "Name": "Rice-Macejkovic",
-      "Value": "iure",
+      "Name": "Kuhlman, Huels and Kihn",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 561
         }
       }
     }
   ],
-  "RawExtraInfo": "delectus",
-  "ExtraField1": "modi",
-  "ExtraField2": "quisquam",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "amet",
-  "ExtraField5": "est",
-  "InStock": 27406.829999999998,
+  "RawExtraInfo": "et",
+  "ExtraField1": "labore",
+  "ExtraField2": "corporis",
+  "ExtraField3": "aut",
+  "ExtraField4": "enim",
+  "ExtraField5": "maiores",
+  "InStock": 21051.077999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 221
     }
   }
 }

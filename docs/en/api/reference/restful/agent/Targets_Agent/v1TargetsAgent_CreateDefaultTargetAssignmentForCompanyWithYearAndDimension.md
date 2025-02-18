@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 671,
-  "TargetDimensionId": 426
+  "Year": 197,
+  "TargetDimensionId": 797
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 192,
+    "TargetAssignmentInfoId": 195,
     "Values": [
-      757,
-      235
+      348,
+      823
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 676,
-    "DimensionListItemDisplayName": "Greenholt, Waelchi and Crona",
+    "DimensionListItem": 292,
+    "DimensionListItemDisplayName": "Hagenes, Bernier and Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 75
       }
     }
   }

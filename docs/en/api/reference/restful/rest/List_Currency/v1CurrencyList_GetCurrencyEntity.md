@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 337,
-  "Name": "Pouros-Muller",
-  "Tooltip": "et",
-  "Rank": 102,
-  "Rate": 12131.714,
-  "Units": 15742.082,
+  "CurrencyId": 954,
+  "Name": "Hauck-Hammes",
+  "Tooltip": "esse",
+  "Rank": 597,
+  "Rate": 6490.514,
+  "Units": 15930.122,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 468
     }
   }
 }

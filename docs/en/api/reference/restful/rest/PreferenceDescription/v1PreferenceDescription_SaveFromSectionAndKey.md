@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 337,
-  "Section": "dolore",
-  "Key": "molestiae",
-  "Name": "Fay-Raynor",
+  "PrefDescId": 237,
+  "Section": "ipsa",
+  "Key": "eaque",
+  "Name": "O'Reilly Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Monitored intermediate process improvement",
+  "Description": "Versatile web-enabled collaboration",
   "IsBuiltin": false,
-  "TableName": "Herzog-Hettinger",
-  "UserDefinedListId": 381,
-  "Rank": 204,
-  "SubGroup": "pariatur",
-  "MinLevel": 253,
-  "MaxValue": 627,
-  "MinValue": 917,
-  "RequiredLicense": "veniam"
+  "TableName": "Stoltenberg-Quitzon",
+  "UserDefinedListId": 195,
+  "Rank": 898,
+  "SubGroup": "esse",
+  "MinLevel": 119,
+  "MaxValue": 374,
+  "MinValue": 405,
+  "RequiredLicense": "praesentium"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 80,
-  "Section": "ut",
-  "Key": "sed",
-  "Name": "Bergnaum LLC",
+  "PrefDescId": 558,
+  "Section": "officia",
+  "Key": "aut",
+  "Name": "Nienow-Rolfson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone local database",
+  "Description": "Horizontal scalable access",
   "IsBuiltin": false,
-  "TableName": "Lowe-Lakin",
-  "UserDefinedListId": 283,
-  "Rank": 743,
-  "SubGroup": "consequatur",
-  "MinLevel": 987,
-  "MaxValue": 426,
-  "MinValue": 930,
-  "RequiredLicense": "et",
+  "TableName": "Jenkins LLC",
+  "UserDefinedListId": 871,
+  "Rank": 893,
+  "SubGroup": "voluptates",
+  "MinLevel": 184,
+  "MaxValue": 823,
+  "MinValue": 153,
+  "RequiredLicense": "culpa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldLength": 919
     }
   }
 }

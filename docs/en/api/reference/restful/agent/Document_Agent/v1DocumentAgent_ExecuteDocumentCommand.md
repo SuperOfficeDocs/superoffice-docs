@@ -80,20 +80,20 @@ OK
 POST /api/v1/Agents/Document/ExecuteDocumentCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 469,
-  "VersionId": "iusto",
+  "DocumentId": 904,
+  "VersionId": "sit",
   "AllowedReturnTypes": [
-    "fugit",
-    "consequatur"
+    "dolorem",
+    "quo"
   ],
-  "Command": "aut",
+  "Command": "consectetur",
   "AdditionalData": [
-    "delectus",
-    "repellat"
+    "fuga",
+    "molestias"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "omnis",
-  "VersionId": "quod",
+  "ExternalReference": "dolore",
+  "VersionId": "mollitia",
   "Success": true,
   "Type": "CustomGui",
-  "Value": "magnam",
-  "AdditionalInfo": "sed"
+  "Value": "dolores",
+  "AdditionalInfo": "vitae"
 }
 ```

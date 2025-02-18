@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Archive:SetActivityFilter>
     <Archive:ActivityFilter xsi:type="Archive:ActivityFilter">
-     <Archive:FromDate xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:FromDate>
-     <Archive:ToDate xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:ToDate>
+     <Archive:FromDate xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:FromDate>
+     <Archive:ToDate xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:ToDate>
      <Archive:AssociateList xsi:type="Archive:ArrayOfSelectableMDOListItem">
       <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
        <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -53,7 +53,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
        <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
        <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-       <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:LastChanged>
+       <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:LastChanged>
        <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
         <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
          <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -65,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
          <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
          <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-         <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:LastChanged>
+         <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:LastChanged>
          <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
           <Archive:SelectableMDOListItem xsi:nil="true"></Archive:SelectableMDOListItem>
          </Archive:ChildItems>
@@ -92,7 +92,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
        <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
        <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-       <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:LastChanged>
+       <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:LastChanged>
        <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
         <Archive:SelectableMDOListItem xsi:type="Archive:SelectableMDOListItem">
          <Archive:Id xsi:type="xsd:int">0</Archive:Id>
@@ -104,7 +104,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <Archive:ColorBlock xsi:type="xsd:int">0</Archive:ColorBlock>
          <Archive:IconHint xsi:type="xsd:string"></Archive:IconHint>
          <Archive:Selected xsi:type="xsd:boolean">false</Archive:Selected>
-         <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-10T10:58:52Z</Archive:LastChanged>
+         <Archive:LastChanged xsi:type="xsd:dateTime">2025-02-13T13:29:24Z</Archive:LastChanged>
          <Archive:ChildItems xsi:type="Archive:ArrayOfSelectableMDOListItem">
           <Archive:SelectableMDOListItem xsi:nil="true"></Archive:SelectableMDOListItem>
          </Archive:ChildItems>

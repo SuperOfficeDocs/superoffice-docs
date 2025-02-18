@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "voluptas"
+  "ChartId": "quibusdam"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 398,
-  "Caption": "et",
-  "Description": "Synergized user-facing website",
-  "ChartName": "Nikolaus-Nader",
-  "ChartId": "autem",
+  "DashboardTileId": 228,
+  "Caption": "necessitatibus",
+  "Description": "Reactive reciprocal service-desk",
+  "ChartName": "McCullough Inc and Sons",
+  "ChartId": "ut",
   "IsDefault": false,
-  "AssociateId": 203,
-  "GroupId": 274,
-  "SelectionId": 704,
-  "Config": "voluptatem",
+  "AssociateId": 147,
+  "GroupId": 29,
+  "SelectionId": 2,
+  "Config": "earum",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Funk, Stamm and Purdy",
-      "Description": "Distributed bi-directional encryption",
+      "Name": "Rolfson, Donnelly and Nicolas",
+      "Description": "Seamless cohesive pricing structure",
       "Type": "Boolean",
-      "ListName": "Hane, Schneider and Dickinson",
+      "ListName": "McGlynn, Sipes and Grant",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "deserunt",
-      "DefaultDataOption": true,
+      "Value": "quod",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 736
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 145,
+      "VisibleId": 187,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldType": "System.String",
+          "FieldLength": 537
         }
       }
     },
     {
-      "VisibleId": 145,
+      "VisibleId": 187,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldType": "System.String",
+          "FieldLength": 537
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   }
 }

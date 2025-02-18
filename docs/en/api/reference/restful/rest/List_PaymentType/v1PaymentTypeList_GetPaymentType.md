@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "McGlynn-Smitham",
-  "Tooltip": "sunt",
+  "Id": 649,
+  "Name": "Ziemann LLC",
+  "Tooltip": "officiis",
   "Deleted": true,
-  "UdListDefinitionId": 168,
-  "Rank": 854,
+  "UdListDefinitionId": 752,
+  "Rank": 668,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 226
     }
   }
 }

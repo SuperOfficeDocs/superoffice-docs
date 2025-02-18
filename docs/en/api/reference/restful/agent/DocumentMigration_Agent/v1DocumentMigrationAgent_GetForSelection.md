@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 456,
-  "SelectionId": 627,
+  "DocumentPluginId": 882,
+  "SelectionId": 895,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 466,
-  "NumDocumentsAlreadyMigrated": 361,
+  "NumDocumentsOmitted": 823,
+  "NumDocumentsAlreadyMigrated": 95,
   "Documents": [
     {
-      "DocumentId": 238,
-      "ContactId": 224,
-      "PersonId": 999,
-      "SaleId": 24,
-      "ProjectId": 484,
-      "DocTmplId": 547,
-      "AssociateId": 932,
-      "UserGroupId": 12,
-      "VisibleForId": 663
+      "DocumentId": 934,
+      "ContactId": 518,
+      "PersonId": 87,
+      "SaleId": 274,
+      "ProjectId": 340,
+      "DocTmplId": 642,
+      "AssociateId": 701,
+      "UserGroupId": 513,
+      "VisibleForId": 103
     }
   ],
   "Associates": [
     {
-      "AssociateId": 463,
-      "EmailAddress": "ethelyn@denesik.ca"
+      "AssociateId": 1001,
+      "EmailAddress": "isobel.hoeger@williamson.info"
     },
     {
-      "AssociateId": 463,
-      "EmailAddress": "ethelyn@denesik.ca"
+      "AssociateId": 1001,
+      "EmailAddress": "isobel.hoeger@williamson.info"
     }
   ]
 }

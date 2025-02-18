@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 135,
-  "ERPProductKey": "quia",
+  "ProductId": 80,
+  "ERPProductKey": "commodi",
   "ERPPriceListKey": "qui",
-  "Name": "Prosacco-Williamson",
-  "Description": "Automated didactic pricing structure",
-  "Code": "totam",
-  "PriceUnit": "et",
-  "QuantityUnit": "et",
+  "Name": "Daugherty-O'Connell",
+  "Description": "Right-sized systematic ability",
+  "Code": "fuga",
+  "PriceUnit": "voluptatem",
+  "QuantityUnit": "omnis",
   "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 1096.8999999999999,
-  "ItemNumber": "608570",
+  "SubscriptionUnit": "quis",
+  "DefaultSubscriptionQuantity": 1131.374,
+  "ItemNumber": "577986",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "sequi",
-  "VAT": 13426.055999999999,
-  "VATInfo": "et",
-  "UnitCost": 22922.076,
-  "UnitMinimumPrice": 14475.946,
-  "UnitListPrice": 12090.972,
-  "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "dolor",
-  "Rights": "doloremque",
-  "Rule": "sunt",
+  "ProductFamilyKey": "autem",
+  "ProductTypeKey": "et",
+  "VAT": 10248.18,
+  "VATInfo": "fuga",
+  "UnitCost": 18377.775999999998,
+  "UnitMinimumPrice": 5973.4039999999995,
+  "UnitListPrice": 22812.386,
+  "InAssortment": true,
+  "Supplier": "provident",
+  "SupplierCode": "qui",
+  "Rights": "voluptatem",
+  "Rule": "ea",
   "ExtraInfo": [
     {
-      "Name": "Cremin Group",
-      "Value": "laudantium",
+      "Name": "Turner, Rice and Conroy",
+      "Value": "nesciunt",
       "Type": "Image"
     },
     {
-      "Name": "Cremin Group",
-      "Value": "laudantium",
+      "Name": "Turner, Rice and Conroy",
+      "Value": "nesciunt",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "hic",
-  "ExtraField1": "sed",
-  "ExtraField2": "repellat",
-  "ExtraField3": "quisquam",
-  "ExtraField4": "mollitia",
-  "ExtraField5": "cumque",
-  "InStock": 16246.655999999999
+  "RawExtraInfo": "magnam",
+  "ExtraField1": "eaque",
+  "ExtraField2": "id",
+  "ExtraField3": "velit",
+  "ExtraField4": "officia",
+  "ExtraField5": "consectetur",
+  "InStock": 20161.022
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 185,
-  "ERPProductKey": "nihil",
-  "ERPPriceListKey": "reiciendis",
-  "Name": "Boyer-Hettinger",
-  "Description": "Enterprise-wide methodical benchmark",
-  "Code": "voluptatem",
-  "PriceUnit": "vero",
-  "QuantityUnit": "aperiam",
+  "ProductId": 439,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "assumenda",
+  "Name": "Rosenbaum-Willms",
+  "Description": "Compatible grid-enabled algorithm",
+  "Code": "est",
+  "PriceUnit": "quae",
+  "QuantityUnit": "ea",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatibus",
-  "DefaultSubscriptionQuantity": 21884.721999999998,
-  "ItemNumber": "393777",
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 12454.516,
+  "ItemNumber": "1262255",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "sapiente",
-  "VAT": 28011.692,
-  "VATInfo": "quis",
-  "UnitCost": 9423.938,
-  "UnitMinimumPrice": 25567.172,
-  "UnitListPrice": 5707.014,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "rerum",
+  "VAT": 18280.622,
+  "VATInfo": "id",
+  "UnitCost": 27513.386,
+  "UnitMinimumPrice": 15829.833999999999,
+  "UnitListPrice": 4149.416,
   "InAssortment": true,
-  "Supplier": "sunt",
-  "SupplierCode": "illum",
-  "Rights": "sint",
-  "Rule": "voluptates",
+  "Supplier": "facere",
+  "SupplierCode": "voluptatem",
+  "Rights": "odio",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Huel-Jast",
-      "Value": "nemo",
+      "Name": "Bechtelar, Skiles and Erdman",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 916
         }
       }
     },
     {
-      "Name": "Huel-Jast",
-      "Value": "nemo",
+      "Name": "Bechtelar, Skiles and Erdman",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 916
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "est",
-  "ExtraField2": "quod",
-  "ExtraField3": "saepe",
-  "ExtraField4": "cum",
-  "ExtraField5": "quia",
-  "InStock": 10003.728,
+  "RawExtraInfo": "qui",
+  "ExtraField1": "et",
+  "ExtraField2": "hic",
+  "ExtraField3": "sequi",
+  "ExtraField4": "ab",
+  "ExtraField5": "pariatur",
+  "InStock": 12745.978,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 340
     }
   }
 }

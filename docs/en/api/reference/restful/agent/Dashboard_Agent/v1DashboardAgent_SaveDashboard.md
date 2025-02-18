@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 345,
-  "AssociateId": 931,
-  "Caption": "dolorum",
+  "DashboardId": 296,
+  "AssociateId": 331,
+  "Caption": "quaerat",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 280,
-      "Caption": "dolores",
-      "Description": "Persevering holistic complexity",
-      "ChartName": "Conn, Langosh and Ondricka",
-      "ChartId": "esse",
+      "DashboardTileId": 685,
+      "Caption": "consequatur",
+      "Description": "Customer-focused actuating product",
+      "ChartName": "Lehner, Anderson and Stanton",
+      "ChartId": "voluptatem",
       "IsDefault": false,
-      "AssociateId": 230,
-      "GroupId": 135,
-      "SelectionId": 1001,
-      "Config": "dolor",
+      "AssociateId": 377,
+      "GroupId": 648,
+      "SelectionId": 939,
+      "Config": "veritatis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 103,
-  "AssociateId": 425,
-  "Caption": "ab",
+  "DashboardId": 552,
+  "AssociateId": 208,
+  "Caption": "qui",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 388,
-      "Caption": "perferendis",
-      "Description": "Optimized transitional infrastructure",
-      "ChartName": "Leannon LLC",
-      "ChartId": "incidunt",
+      "DashboardTileId": 744,
+      "Caption": "et",
+      "Description": "Profit-focused dynamic collaboration",
+      "ChartName": "Strosin Group",
+      "ChartId": "sunt",
       "IsDefault": false,
-      "AssociateId": 916,
-      "GroupId": 608,
-      "SelectionId": 632,
-      "Config": "sit",
+      "AssociateId": 803,
+      "GroupId": 252,
+      "SelectionId": 740,
+      "Config": "perspiciatis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldLength": 388
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldLength": 445
     }
   }
 }

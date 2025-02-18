@@ -132,63 +132,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 73,
+  "EjMessageId": 6,
   "Ticket": null,
-  "CreatedAt": "2008-09-09T12:01:33.2925881+02:00",
+  "CreatedAt": "2001-07-22T14:32:12.2084177+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "facere",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dignissimos",
-  "TimeSpent": 662,
-  "Body": "sed",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "leonor.schinner@parker.uk",
-  "DebugInfo": "incidunt",
-  "MailSorter": "vitae",
+  "MessageId": "quasi",
+  "TimeSpent": 875,
+  "Body": "vel",
+  "HtmlBody": "eos",
+  "EmailHeader": "craig@fritsch.biz",
+  "DebugInfo": "minus",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dicta",
+  "SearchTitle": "sequi",
   "MessageHeaders": [
     {
-      "Id": 465,
-      "Name": "Kautzer, Denesik and Cronin",
-      "Value": "repellendus",
+      "Id": 60,
+      "Name": "Dibbert Group",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 465,
-      "Name": "Kautzer, Denesik and Cronin",
-      "Value": "repellendus",
+      "Id": 60,
+      "Name": "Dibbert Group",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "animi",
-  "Sentiment": 633,
-  "SentimentConfidence": 375,
+  "Language": "dolorem",
+  "Sentiment": 42,
+  "SentimentConfidence": 144,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 142,
-      "Name": "Rempel LLC",
-      "ContentType": "sit",
-      "AttSize": 245,
+      "AttachmentId": 209,
+      "Name": "Olson Group",
+      "ContentType": "sed",
+      "AttSize": 817,
       "InlineImage": false,
-      "ContentId": "beatae",
-      "AuthKey": "est",
-      "IsSafeFileExtension": false
+      "ContentId": "totam",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "est"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "nostrum",
+    "CustomFields2": "sequi"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 618,
+  "EjMessageId": 27,
   "Ticket": null,
-  "CreatedAt": "2006-10-10T12:01:33.2925881+02:00",
+  "CreatedAt": "2005-09-18T14:32:12.2084177+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "aperiam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "expedita",
-  "TimeSpent": 330,
-  "Body": "accusamus",
-  "HtmlBody": "eius",
-  "EmailHeader": "bella_becker@goyette.biz",
-  "DebugInfo": "reiciendis",
-  "MailSorter": "molestiae",
+  "MessageId": "nihil",
+  "TimeSpent": 629,
+  "Body": "repudiandae",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "deborah_brekke@lockmanbahringer.biz",
+  "DebugInfo": "maiores",
+  "MailSorter": "quidem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maiores",
+  "SearchTitle": "maxime",
   "MessageHeaders": [
     {
-      "Id": 931,
-      "Name": "Greenholt, Kutch and Hirthe",
-      "Value": "rerum",
+      "Id": 600,
+      "Name": "Sporer, Effertz and Hoeger",
+      "Value": "non",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 638
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 538,
-  "SentimentConfidence": 106,
+  "Important": true,
+  "Language": "qui",
+  "Sentiment": 937,
+  "SentimentConfidence": 283,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 128,
-      "Name": "Jewess, Lindgren and Berge",
-      "ContentType": "ad",
-      "AttSize": 998,
+      "AttachmentId": 22,
+      "Name": "Shields, Swift and Stamm",
+      "ContentType": "quos",
+      "AttSize": 132,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "odio",
-      "IsSafeFileExtension": true,
+      "ContentId": "minus",
+      "AuthKey": "inventore",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 340
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "eligendi"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "et"
+    "CustomFields1": "nam",
+    "CustomFields2": "architecto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

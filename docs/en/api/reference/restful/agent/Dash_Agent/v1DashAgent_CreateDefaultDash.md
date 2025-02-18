@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 876,
-  "UniqueId": "non",
-  "Name": "Gottlieb Inc and Sons",
-  "Description": "Object-based contextually-based adapter",
-  "AssociateId": 962,
-  "Columns": 878,
+  "DashboardId": 442,
+  "UniqueId": "numquam",
+  "Name": "Greenfelder, Schoen and Jacobs",
+  "Description": "Streamlined high-level frame",
+  "AssociateId": 568,
+  "Columns": 300,
   "Theme": null,
   "VisibleForAll": 523,
   "VisibleForAssociates": [
-    848,
-    911
+    685,
+    736
   ],
   "VisibleForGroups": [
-    186,
-    974
+    38,
+    275
   ],
-  "PinForAll": 956,
+  "PinForAll": 362,
   "PinForAssociates": [
-    263,
-    803
+    287,
+    343
   ],
   "PinForGroups": [
-    77,
-    766
+    633,
+    600
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 900
     }
   }
 }

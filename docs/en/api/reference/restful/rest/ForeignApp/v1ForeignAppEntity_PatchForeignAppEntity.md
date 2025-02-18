@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 720,
-  "Name": "Cassin Group",
-  "CreatedDate": "2001-05-12T12:01:32.9175621+02:00",
-  "UpdatedDate": "2013-09-02T12:01:32.9175621+02:00",
+  "ForeignAppId": 155,
+  "Name": "Leannon Group",
+  "CreatedDate": "2024-12-10T14:32:11.5210682+01:00",
+  "UpdatedDate": "2008-07-17T14:32:11.5210682+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 69,
-      "Name": "Gleason Inc and Sons",
-      "CreatedDate": "2003-07-04T12:01:32.9175621+02:00",
-      "UpdatedDate": "1998-10-09T12:01:32.9175621+02:00",
-      "AssociateFullName": "Caitlyn Ledner",
-      "CreatedBy": "et",
-      "UpdatedBy": "consequuntur",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 953,
+      "ForeignDeviceId": 155,
+      "Name": "Shields Inc and Sons",
+      "CreatedDate": "2006-07-15T14:32:11.5210682+02:00",
+      "UpdatedDate": "2019-07-13T14:32:11.5210682+02:00",
+      "AssociateFullName": "Rosario Hammes",
+      "CreatedBy": "eos",
+      "UpdatedBy": "dignissimos",
+      "DeviceIdentifier": "rem",
+      "ForeignAppId": 69,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 289
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 48
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

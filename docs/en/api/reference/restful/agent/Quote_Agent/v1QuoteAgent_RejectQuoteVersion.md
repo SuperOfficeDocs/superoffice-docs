@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Quote/RejectQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 761,
-  "RejectedByText": "expedita",
-  "RejectedByAssociateId": 217,
-  "RejectionText": "rem"
+  "QuoteVersionId": 636,
+  "RejectedByText": "perferendis",
+  "RejectedByAssociateId": 640,
+  "RejectionText": "et"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 957,
+  "CreatedAppointmentId": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldLength": 723
     }
   }
 }

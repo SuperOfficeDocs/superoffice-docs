@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Price-Wolf",
-  "StorageKey": "beatae",
+  "StorageType": "aliquid",
+  "ProviderName": "Wiegand-Kihn",
+  "StorageKey": "est",
   "DesiredColumnNames": [
-    "Price, Gleason and Kub",
-    "Kshlerin Group"
+    "Boyle, McGlynn and Wuckert",
+    "Hermiston Group"
   ],
   "StaticColumns": [
-    "eaque",
-    "similique"
+    "minima",
+    "quas"
   ],
-  "Context": "eos"
+  "Context": "fugit"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kuphal, Reinger and Carter",
-      "Operator": "sint",
+      "Name": "Breitenberg Inc and Sons",
+      "Operator": "a",
       "Values": [
-        "atque",
-        "doloribus"
+        "magnam",
+        "suscipit"
       ],
       "DisplayValues": [
-        "nesciunt",
-        "fuga"
+        "dignissimos",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 790,
+      "InterParenthesis": 326,
       "InterOperator": "And",
-      "UniqueHash": 645
+      "UniqueHash": 814
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Zboncak Inc and Sons",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "ab",
+      "DisplayName": "Fritsch-Pouros",
+      "DisplayTooltip": "velit",
+      "DisplayType": "aperiam",
       "CanOrderBy": false,
-      "Name": "Glover-Rutherford",
+      "Name": "Nader Group",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Gislason, Ziemann and McClure",
-      "IsVisible": false,
-      "ExtraInfo": "nemo",
-      "Width": "sint",
-      "IconHint": "aut",
-      "HeadingIconHint": "similique"
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Rogahn-Runolfsdottir",
+      "IsVisible": true,
+      "ExtraInfo": "ea",
+      "Width": "et",
+      "IconHint": "quia",
+      "HeadingIconHint": "voluptatem"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goldner Group",
-      "PrimaryKey": 995,
+      "EntityName": "Walter Group",
+      "PrimaryKey": 149,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolor",
-          "TooltipHint": "voluptas",
-          "LinkHint": "alias"
+          "DisplayValue": "facilis",
+          "TooltipHint": "blanditiis",
+          "LinkHint": "excepturi"
         }
       },
-      "LinkHint": "minima",
-      "StyleHint": "id",
+      "LinkHint": "reiciendis",
+      "StyleHint": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 396
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gutmann, Powlowski and Purdy",
-      "Description": "Up-sized transitional website",
-      "Rank": 604,
+      "Name": "Mertz, Emmerich and Breitenberg",
+      "Description": "Open-source multi-tasking framework",
+      "Rank": 36,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann, Powlowski and Purdy",
-      "Description": "Up-sized transitional website",
-      "Rank": 604,
+      "Name": "Mertz, Emmerich and Breitenberg",
+      "Description": "Open-source multi-tasking framework",
+      "Rank": 36,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 328
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

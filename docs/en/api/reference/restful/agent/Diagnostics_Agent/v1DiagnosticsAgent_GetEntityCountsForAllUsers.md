@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Muller Group",
-    "Records": 186,
+    "EntityName": "McDermott-Kunde",
+    "Records": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldLength": 972
       }
     }
   },
   {
-    "EntityName": "Muller Group",
-    "Records": 186,
+    "EntityName": "McDermott-Kunde",
+    "Records": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 704
+        "FieldLength": 972
       }
     }
   }

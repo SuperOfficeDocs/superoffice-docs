@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenholt Group",
-    "DisplayName": "Nitzsche-Armstrong",
-    "DisplayTooltip": "omnis",
-    "IsActive": false
+    "Name": "Durgan-Heller",
+    "DisplayName": "Gibson Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": true
   },
   {
-    "Name": "Greenholt Group",
-    "DisplayName": "Nitzsche-Armstrong",
-    "DisplayTooltip": "omnis",
-    "IsActive": false
+    "Name": "Durgan-Heller",
+    "DisplayName": "Gibson Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": true
   }
 ]
 ```

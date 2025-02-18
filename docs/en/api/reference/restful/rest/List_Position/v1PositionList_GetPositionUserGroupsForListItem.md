@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Dietrich-Will",
-    "ToolTip": "Ab sint possimus laudantium et eius dolorem.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "eligendi",
-    "ColorBlock": 826,
-    "IconHint": "incidunt",
+    "Id": 366,
+    "Name": "Ankunding-Mueller",
+    "ToolTip": "Est iste deleniti sunt.",
+    "Deleted": false,
+    "Rank": 522,
+    "Type": "dolore",
+    "ColorBlock": 194,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2001-11-30T12:01:33.5582313+01:00",
+    "LastChanged": "2018-01-31T14:32:12.7082989+01:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Raynor, Bernier and Murray",
-        "ToolTip": "Non voluptatem est recusandae nostrum dolorem alias.",
-        "Deleted": true,
-        "Rank": 887,
-        "Type": "enim",
-        "ColorBlock": 398,
-        "IconHint": "labore",
+        "Id": 81,
+        "Name": "Flatley-Jones",
+        "ToolTip": "Ad beatae sint.",
+        "Deleted": false,
+        "Rank": 771,
+        "Type": "odit",
+        "ColorBlock": 885,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2001-12-27T12:01:33.5582313+01:00",
+        "LastChanged": "2015-07-28T14:32:12.7082989+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Tabitha Stark",
+        "ExtraInfo": "vel",
+        "StyleHint": "inventore",
+        "Hidden": true,
+        "FullName": "Vern Bradtke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldType": "System.Int32",
+            "FieldLength": 65
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "iure",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "George Breitenberg",
+    "FullName": "Floyd Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 511
       }
     }
   }

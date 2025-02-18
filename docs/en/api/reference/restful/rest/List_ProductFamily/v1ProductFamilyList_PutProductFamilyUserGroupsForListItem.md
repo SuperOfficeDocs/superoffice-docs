@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Hills-Bashirian",
-    "ToolTip": "Ipsa sunt fugiat repudiandae iure nulla quia voluptatem.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "omnis",
-    "ColorBlock": 777,
-    "IconHint": "quo",
+    "Id": 27,
+    "Name": "Goodwin Inc and Sons",
+    "ToolTip": "Dolorem amet quibusdam at.",
+    "Deleted": true,
+    "Rank": 484,
+    "Type": "vitae",
+    "ColorBlock": 152,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-03-27T12:01:33.5738574+02:00",
+    "LastChanged": "2006-01-12T14:32:12.7553674+01:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Bahringer Group",
-        "ToolTip": "Tenetur ea aut beatae.",
-        "Deleted": true,
-        "Rank": 414,
-        "Type": "sunt",
-        "ColorBlock": 270,
-        "IconHint": "soluta",
-        "Selected": true,
-        "LastChanged": "2000-02-24T12:01:33.5738574+01:00",
+        "Id": 734,
+        "Name": "Hansen, Considine and Schmidt",
+        "ToolTip": "Fugit ratione velit alias quo.",
+        "Deleted": false,
+        "Rank": 277,
+        "Type": "hic",
+        "ColorBlock": 35,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2007-05-07T14:32:12.7553674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "qui",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Garnett Romaguera"
+        "FullName": "Reuben Schulist"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Mack Durgan"
+    "FullName": "Napoleon Emmerich"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Goodwin, Turner and Romaguera",
-    "ToolTip": "Non odio labore voluptate nam laboriosam.",
-    "Deleted": false,
-    "Rank": 477,
-    "Type": "veniam",
-    "ColorBlock": 309,
-    "IconHint": "aut",
+    "Id": 684,
+    "Name": "Kunze Group",
+    "ToolTip": "Voluptas rerum deleniti id molestiae beatae repellat similique.",
+    "Deleted": true,
+    "Rank": 397,
+    "Type": "at",
+    "ColorBlock": 815,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2002-03-20T12:01:33.5738574+01:00",
+    "LastChanged": "2018-09-29T14:32:12.7553674+02:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Schaden-Dare",
-        "ToolTip": "Ducimus ut.",
+        "Id": 64,
+        "Name": "Collier, O'Reilly and Okuneva",
+        "ToolTip": "Amet molestias quia aspernatur dolores dignissimos tenetur at.",
         "Deleted": false,
-        "Rank": 224,
-        "Type": "culpa",
-        "ColorBlock": 306,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2009-03-02T12:01:33.5738574+01:00",
+        "Rank": 193,
+        "Type": "iusto",
+        "ColorBlock": 389,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2000-10-22T14:32:12.7553674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "numquam",
+        "ExtraInfo": "rerum",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Enrique Candice Greenfelder III",
+        "FullName": "Florida Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldType": "System.Int32",
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Maurice Barton",
+    "ExtraInfo": "iusto",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Pink Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 979
       }
     }
   }

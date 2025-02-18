@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -146,24 +146,24 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 808,
-  "Name": "Glover, Schmitt and Mayert",
-  "Tooltip": "deserunt",
+  "RoleId": 302,
+  "Name": "Jenkins, O'Hara and Lakin",
+  "Tooltip": "rem",
   "RoleType": "Anonymous",
-  "Deleted": 966,
-  "Rank": 858,
-  "Created": "2021-08-18T12:01:33.0425704+02:00",
-  "UseCategories": 956,
+  "Deleted": 239,
+  "Rank": 648,
+  "Created": "2018-03-19T14:32:11.7397687+01:00",
+  "UseCategories": 29,
   "CreatedBy": null,
-  "Updated": "2017-02-12T12:01:33.0425704+01:00",
+  "Updated": "2008-08-30T14:32:11.7397687+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   },
   "_Links": {

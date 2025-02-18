@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "O'Keefe, Barton and Nicolas",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "Id": 723,
+  "Name": "Mertz-Ernser",
+  "Tooltip": "hic",
+  "Deleted": true,
+  "Rank": 330,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Green, Schroeder and Smitham",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 112,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": true,
+  "Id": 357,
+  "Name": "Deckow-Farrell",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 532,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 696
     }
   }
 }

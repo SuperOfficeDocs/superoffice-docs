@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 76,
-  "SaleId": 847,
-  "QuoteConnectionId": 591,
-  "ERPQuoteKey": "corporis",
-  "ERPOrderKey": "sit",
-  "ActiveQuoteVersionId": 281,
-  "AcceptedQuoteAlternativeId": 550,
-  "UseValuesFromQuote": 24,
-  "DocumentId": 200,
-  "PoNumber": "698543",
-  "OrderComment": "rerum",
-  "PreferredEmailCulture": "jeffry_nolan@pourosreichert.co.uk",
+  "QuoteId": 873,
+  "SaleId": 482,
+  "QuoteConnectionId": 801,
+  "ERPQuoteKey": "in",
+  "ERPOrderKey": "molestiae",
+  "ActiveQuoteVersionId": 160,
+  "AcceptedQuoteAlternativeId": 645,
+  "UseValuesFromQuote": 347,
+  "DocumentId": 487,
+  "PoNumber": "1820866",
+  "OrderComment": "voluptas",
+  "PreferredEmailCulture": "loyal_heidenreich@yundtfeest.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 934
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Braun Group",
-    "ToolTip": "Est est aut minima.",
-    "Deleted": true,
-    "Rank": 612,
-    "Type": "quis",
-    "ColorBlock": 537,
-    "IconHint": "enim",
+    "Id": 420,
+    "Name": "Rodriguez, Bartoletti and Runolfsdottir",
+    "ToolTip": "Laborum quia corrupti.",
+    "Deleted": false,
+    "Rank": 951,
+    "Type": "ut",
+    "ColorBlock": 84,
+    "IconHint": "reprehenderit",
     "Selected": false,
-    "LastChanged": "1998-05-12T12:01:33.6519877+02:00",
+    "LastChanged": "2017-04-19T14:32:12.9116131+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Cruickshank-Bailey",
-        "ToolTip": "Possimus quo provident voluptas ex quibusdam sapiente.",
+        "Id": 429,
+        "Name": "Roob, Mann and Reichel",
+        "ToolTip": "Debitis nam laboriosam quam minus voluptatibus veritatis omnis.",
         "Deleted": false,
-        "Rank": 277,
-        "Type": "qui",
-        "ColorBlock": 73,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2014-04-20T12:01:33.6519877+02:00",
+        "Rank": 332,
+        "Type": "facilis",
+        "ColorBlock": 781,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2004-05-10T14:32:12.9116131+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "dolore",
+        "StyleHint": "voluptates",
         "Hidden": true,
-        "FullName": "Jess Stehr"
+        "FullName": "Marta Hansen"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "omnis",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Dr. Orlo Shanna Wolf"
+    "FullName": "Davin Block"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Casper-Wunsch",
-    "ToolTip": "Et nostrum veritatis eos nulla corporis dolor unde.",
-    "Deleted": false,
-    "Rank": 620,
-    "Type": "dolor",
-    "ColorBlock": 326,
-    "IconHint": "est",
+    "Id": 731,
+    "Name": "Lebsack LLC",
+    "ToolTip": "Suscipit at magnam tenetur.",
+    "Deleted": true,
+    "Rank": 152,
+    "Type": "culpa",
+    "ColorBlock": 832,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2013-04-23T12:01:33.6519877+02:00",
+    "LastChanged": "2022-07-12T14:32:12.9116131+02:00",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Hudson-Legros",
-        "ToolTip": "Commodi eius.",
-        "Deleted": true,
-        "Rank": 225,
-        "Type": "incidunt",
-        "ColorBlock": 294,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2018-08-06T12:01:33.6519877+02:00",
+        "Id": 425,
+        "Name": "Ward Group",
+        "ToolTip": "Quas mollitia eos.",
+        "Deleted": false,
+        "Rank": 386,
+        "Type": "velit",
+        "ColorBlock": 297,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2018-06-14T14:32:12.9116131+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Theron Schmitt",
+        "ExtraInfo": "saepe",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Amari Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldLength": 130
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Hoyt Johns",
+    "ExtraInfo": "labore",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Karelle Evelyn Leffler V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 982
       }
     }
   }

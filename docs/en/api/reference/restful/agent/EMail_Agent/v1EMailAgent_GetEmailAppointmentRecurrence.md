@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 578
+  "MailItemId": 38
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 503,
-  "StartDate": "2017-01-17T12:01:27.8065326+01:00",
-  "EndDate": "2000-02-25T12:01:27.8065326+01:00",
-  "RecurrenceCounter": 554,
+  "RecurrenceId": 250,
+  "StartDate": "2001-05-11T14:32:02.858546+02:00",
+  "EndDate": "2023-01-21T14:32:02.858546+01:00",
+  "RecurrenceCounter": 931,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2014-10-08T12:01:27.8065326+02:00",
+      "Date": "2020-12-28T14:32:02.858546+01:00",
       "IsConflict": true,
-      "Description": "Open-source encompassing data-warehouse",
-      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
-      "Tooltip": "facere"
+      "Description": "Decentralized real-time productivity",
+      "DescriptionStyleHint": "Optimized user-facing complexity",
+      "Tooltip": "tempora"
     },
     {
-      "Date": "2014-10-08T12:01:27.8065326+02:00",
+      "Date": "2020-12-28T14:32:02.858546+01:00",
       "IsConflict": true,
-      "Description": "Open-source encompassing data-warehouse",
-      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
-      "Tooltip": "facere"
+      "Description": "Decentralized real-time productivity",
+      "DescriptionStyleHint": "Optimized user-facing complexity",
+      "Tooltip": "tempora"
     }
   ],
   "IsRecurrence": false

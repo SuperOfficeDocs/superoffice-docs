@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Frami Inc and Sons",
-    "ToolTip": "Voluptas provident.",
+    "Id": 605,
+    "Name": "Gerlach, Witting and Bauch",
+    "ToolTip": "Eum nemo excepturi.",
     "Deleted": false,
-    "Rank": 683,
-    "Type": "molestiae",
-    "ColorBlock": 928,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2007-04-28T12:01:33.5738574+02:00",
+    "Rank": 800,
+    "Type": "animi",
+    "ColorBlock": 94,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2002-08-18T14:32:12.7408353+02:00",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Wisoky, Bradtke and O'Hara",
-        "ToolTip": "Assumenda ut similique nulla.",
+        "Id": 813,
+        "Name": "Casper-Bosco",
+        "ToolTip": "Quis impedit rerum.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "consequatur",
-        "ColorBlock": 562,
-        "IconHint": "accusamus",
+        "Rank": 103,
+        "Type": "non",
+        "ColorBlock": 178,
+        "IconHint": "quidem",
         "Selected": true,
-        "LastChanged": "2021-04-05T12:01:33.5738574+02:00",
+        "LastChanged": "2009-02-01T14:32:12.7408353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "non",
+        "ExtraInfo": "ut",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Dr. Monroe Hoppe DDS"
+        "FullName": "Oswaldo Padberg"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Halle Greenholt"
+    "ExtraInfo": "iste",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Maryam Lemke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Stoltenberg, Ziemann and Aufderhar",
-    "ToolTip": "Et asperiores quis at omnis officia iure.",
+    "Id": 671,
+    "Name": "Torp, Marvin and Gaylord",
+    "ToolTip": "Autem cum voluptas vero explicabo fugiat.",
     "Deleted": false,
-    "Rank": 804,
-    "Type": "quibusdam",
-    "ColorBlock": 938,
-    "IconHint": "impedit",
+    "Rank": 642,
+    "Type": "a",
+    "ColorBlock": 90,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2004-05-14T12:01:33.5738574+02:00",
+    "LastChanged": "2002-05-09T14:32:12.7408353+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Schinner-Huel",
-        "ToolTip": "Corporis eaque praesentium a ut.",
-        "Deleted": false,
-        "Rank": 431,
-        "Type": "et",
-        "ColorBlock": 33,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2017-11-08T12:01:33.5738574+01:00",
+        "Id": 243,
+        "Name": "Mayer, Kulas and Kozey",
+        "ToolTip": "Facere aut eos et aperiam et.",
+        "Deleted": true,
+        "Rank": 839,
+        "Type": "minima",
+        "ColorBlock": 224,
+        "IconHint": "eum",
+        "Selected": true,
+        "LastChanged": "2021-03-10T14:32:12.7408353+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Halie Wilkinson",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Miss Tiana Streich DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 235
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Ulices Kertzmann",
+    "ExtraInfo": "illo",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Parker Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 904
       }
     }
   }

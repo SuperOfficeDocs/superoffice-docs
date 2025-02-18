@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 228,
-  "PrefValue": "quia"
+  "PrefDescId": 556,
+  "PrefValue": "inventore"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 49,
-  "PrefDescId": 114,
-  "PrefValue": "libero",
-  "PrefShowValue": "tenetur",
-  "Description": "Synergized directional standardization",
+  "PrefDescLineId": 251,
+  "PrefDescId": 525,
+  "PrefValue": "dignissimos",
+  "PrefShowValue": "eum",
+  "Description": "Persevering bi-directional software",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 573
     }
   }
 }

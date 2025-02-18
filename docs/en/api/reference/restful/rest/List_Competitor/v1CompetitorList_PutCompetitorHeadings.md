@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 108,
-    "Name": "Murray, Gleason and Kris",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 531,
-    "UdListDefinitionId": 733
+    "HeadingId": 57,
+    "Name": "Spencer, DuBuque and Feest",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "Rank": 576,
+    "UdListDefinitionId": 431
   },
   {
-    "HeadingId": 108,
-    "Name": "Murray, Gleason and Kris",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 531,
-    "UdListDefinitionId": 733
+    "HeadingId": 57,
+    "Name": "Spencer, DuBuque and Feest",
+    "Tooltip": "asperiores",
+    "Deleted": false,
+    "Rank": 576,
+    "UdListDefinitionId": 431
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 192,
-    "Name": "Konopelski Inc and Sons",
-    "Tooltip": "laborum",
+    "HeadingId": 729,
+    "Name": "Goldner, Beier and Brakus",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 406,
+    "Rank": 149,
+    "UdListDefinitionId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 819
       }
     }
   }

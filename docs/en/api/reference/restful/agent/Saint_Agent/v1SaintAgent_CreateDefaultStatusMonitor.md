@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 226,
-  "Rank": 761,
-  "DefaultTask": 663,
-  "DefaultTaskText": "optio",
-  "IsVisual": false,
-  "LastGenerated": "2001-10-09T12:01:28.2284376+02:00",
-  "Description": "Automated exuding focus group",
-  "Name": "Feest-Altenwerth",
-  "StatusMonitorId": 953,
-  "PictureId": 803,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 461,
-  "NumNeedUpdate": 308,
-  "GenerationStart": "2002-06-22T12:01:28.2284376+02:00",
+  "OwnerTable": 783,
+  "Rank": 290,
+  "DefaultTask": 11,
+  "DefaultTaskText": "quasi",
+  "IsVisual": true,
+  "LastGenerated": "2003-02-22T14:32:03.6398093+01:00",
+  "Description": "Managed even-keeled info-mediaries",
+  "Name": "Little, Borer and Hodkiewicz",
+  "StatusMonitorId": 757,
+  "PictureId": 89,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 966,
+  "NumNeedUpdate": 65,
+  "GenerationStart": "1999-06-06T14:32:03.6398093+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 453
     }
   }
 }

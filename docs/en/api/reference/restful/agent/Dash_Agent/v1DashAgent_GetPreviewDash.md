@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 529
+  "DashboardId": 893
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 963,
-  "Name": "Hansen-Kreiger",
-  "Description": "Monitored system-worthy data-warehouse",
-  "OwnedByFullName": "Lizzie Walker",
-  "Registered": "2009-12-18T12:01:27.5721423+01:00",
+  "DashboardId": 18,
+  "Name": "Macejkovic, Crist and Marks",
+  "Description": "Triple-buffered methodical hardware",
+  "OwnedByFullName": "Prof. Alanna Yundt Sr.",
+  "Registered": "2007-10-08T14:32:02.5929759+02:00",
   "Tiles": [
     {
-      "Name": "Zulauf-Lockman",
+      "Name": "Feeney-Stokes",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldLength": 511
         }
       }
     },
     {
-      "Name": "Zulauf-Lockman",
+      "Name": "Feeney-Stokes",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldLength": 511
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 239
     }
   }
 }

@@ -71,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Schuppe-Haley",
+  "LayoutName": "Prohaska-Brown",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

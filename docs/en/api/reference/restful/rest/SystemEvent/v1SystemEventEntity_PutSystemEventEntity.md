@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 842,
+  "SystemEventId": 35,
   "Scope": "Database",
-  "Eta": "2014-05-03T12:01:33.2144574+02:00",
-  "Eventkey": "vero",
-  "Eventmess": "pariatur",
-  "ExtraInfo": 650,
-  "Owner": 745,
-  "UpdatedCount": 216,
-  "Registered": "2021-08-25T12:01:33.2144574+02:00",
+  "Eta": "2009-03-17T14:32:12.0678193+01:00",
+  "Eventkey": "qui",
+  "Eventmess": "consequatur",
+  "ExtraInfo": 375,
+  "Owner": 691,
+  "UpdatedCount": 492,
+  "Registered": "2017-03-28T14:32:12.0678193+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 142,
+  "SystemEventId": 714,
   "Scope": "Database",
-  "Eta": "2000-07-04T12:01:33.2144574+02:00",
-  "Eventkey": "tenetur",
-  "Eventmess": "sed",
-  "ExtraInfo": 874,
-  "Owner": 464,
-  "UpdatedCount": 290,
-  "Registered": "1998-09-11T12:01:33.2144574+02:00",
+  "Eta": "2004-05-04T14:32:12.0678193+02:00",
+  "Eventkey": "iusto",
+  "Eventmess": "ullam",
+  "ExtraInfo": 450,
+  "Owner": 572,
+  "UpdatedCount": 712,
+  "Registered": "2015-09-12T14:32:12.0678193+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldLength": 926
     }
   },
   "_Links": {

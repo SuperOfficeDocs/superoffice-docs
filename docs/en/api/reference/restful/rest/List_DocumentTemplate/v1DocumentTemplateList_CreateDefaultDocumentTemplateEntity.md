@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 253,
-  "Name": "Hagenes Group",
-  "Tooltip": "aperiam",
-  "SaveInDb": 397,
-  "Filename": "rerum",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 291,
+  "Name": "Morissette-Murazik",
+  "Tooltip": "rerum",
+  "SaveInDb": 756,
+  "Filename": "et",
+  "DefaultOref": "illum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 348,
-  "IntentId": 723,
-  "IsDefaultPublished": false,
-  "Rank": 472,
-  "LoadTemplateFromPlugin": 273,
-  "MimeType": "saepe",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 341,
+  "AutoeventId": 452,
+  "IntentId": 814,
+  "IsDefaultPublished": true,
+  "Rank": 920,
+  "LoadTemplateFromPlugin": 675,
+  "MimeType": "quis",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 738,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kristian@grady.uk",
+  "EmailSubject": "adela@keebler.biz",
   "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "triston.kris@monahan.ca",
+  "SenderEmailAddress": "herbert_towne@carter.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 808
     }
   }
 }

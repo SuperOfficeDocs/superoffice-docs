@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Goyette-Ferry",
-  "PersonId": 665
+  "ParameterName": "Muller LLC",
+  "PersonId": 76
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 182,
-  "Name": "Barton-Bernhard",
-  "Value": "sapiente",
-  "CreatedDate": "2005-04-26T12:01:27.3377499+02:00",
-  "UpdatedDate": "2022-03-08T12:01:27.3377499+01:00",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "dolorem",
+  "AudienceLayoutId": 295,
+  "Name": "Bailey LLC",
+  "Value": "debitis",
+  "CreatedDate": "2016-03-30T14:32:02.0306023+02:00",
+  "UpdatedDate": "2011-04-01T14:32:02.0306023+02:00",
+  "CreatedBy": "est",
+  "UpdatedBy": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 527
     }
   }
 }

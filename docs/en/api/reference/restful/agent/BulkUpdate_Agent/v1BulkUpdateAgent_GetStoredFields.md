@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "quia"
+  "Context": "sit"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "est",
-    "ValueType": "sit",
+    "Key": "consectetur",
+    "ValueType": "voluptate",
     "Mandatory": true,
-    "EncodedDisplayName": "Lowe, Wilkinson and Wiza",
-    "EncodedDisplayDescription": "Grass-roots leading edge parallelism",
-    "IconHint": "voluptatem",
+    "EncodedDisplayName": "Heidenreich LLC",
+    "EncodedDisplayDescription": "Multi-lateral contextually-based forecast",
+    "IconHint": "quia",
     "ControlInfos": [
       {
-        "Type": "molestias",
-        "Label": "asperiores",
-        "Dimension": 116,
-        "ListProviderName": "Kertzmann, Breitenberg and Schumm",
-        "ListProviderExtraInfo": "neque",
-        "ListProviderPrimaryKeyName": "Mayert-Yost",
-        "ListLeadText": "at",
+        "Type": "a",
+        "Label": "non",
+        "Dimension": 23,
+        "ListProviderName": "Rau-Oberbrunner",
+        "ListProviderExtraInfo": "laboriosam",
+        "ListProviderPrimaryKeyName": "Maggio-Renner",
+        "ListLeadText": "autem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 934
+            "FieldLength": 351
           }
         }
       }
     ],
-    "EncodedDataCaption": "rerum",
-    "EncodedDataCaptionDescription": "Devolved hybrid flexibility",
-    "CurrentOperationType": "et",
+    "EncodedDataCaption": "vel",
+    "EncodedDataCaptionDescription": "Function-based logistical support",
+    "CurrentOperationType": "animi",
     "Values": [
-      "nam",
-      "corrupti"
+      "consequuntur",
+      "soluta"
     ],
     "DisplayValues": [
-      "id",
-      "porro"
+      "cumque",
+      "dolorum"
     ],
     "OperationInfos": [
       {
-        "Key": "est",
-        "EncodedDisplayName": "Hagenes, Mueller and Sawayn",
+        "Key": "quia",
+        "EncodedDisplayName": "Greenholt LLC",
         "EncodedLeadTexts": [
-          "autem",
-          "dolores"
+          "illo",
+          "culpa"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 943
           }
         }
       },
       {
-        "Key": "est",
-        "EncodedDisplayName": "Hagenes, Mueller and Sawayn",
+        "Key": "quia",
+        "EncodedDisplayName": "Greenholt LLC",
         "EncodedLeadTexts": [
-          "autem",
-          "dolores"
+          "illo",
+          "culpa"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 943
           }
         }
       }

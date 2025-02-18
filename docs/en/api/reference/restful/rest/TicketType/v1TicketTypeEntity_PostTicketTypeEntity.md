@@ -112,35 +112,35 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 164,
-  "Name": "Hoeger, Brown and Gorczany",
-  "Rank": 226,
-  "Tooltip": "dignissimos",
-  "Icon": "quidem",
-  "DefaultTicketStatus": 938,
+  "TicketTypeId": 809,
+  "Name": "Cruickshank LLC",
+  "Rank": 241,
+  "Tooltip": "dicta",
+  "Icon": "explicabo",
+  "DefaultTicketStatus": 306,
   "TicketStatuses": [
-    907,
-    396
+    481,
+    777
   ],
-  "DefaultTicketPriority": 484,
+  "DefaultTicketPriority": 447,
   "TicketPriorities": [
-    961,
-    903
+    544,
+    419
   ],
-  "ReplyTemplate": 841,
+  "ReplyTemplate": 9,
   "IsExternalVisible": true,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    950,
-    246
+    831,
+    710
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
@@ -154,22 +154,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 804,
-  "Name": "Mante LLC",
-  "Rank": 95,
-  "Tooltip": "blanditiis",
-  "Icon": "quod",
-  "DefaultTicketStatus": 227,
+  "TicketTypeId": 487,
+  "Name": "Hartmann-DuBuque",
+  "Rank": 773,
+  "Tooltip": "ipsum",
+  "Icon": "optio",
+  "DefaultTicketStatus": 870,
   "TicketStatuses": [
-    401,
-    31
+    995,
+    10
   ],
-  "DefaultTicketPriority": 882,
+  "DefaultTicketPriority": 275,
   "TicketPriorities": [
-    147,
-    242
+    134,
+    500
   ],
-  "ReplyTemplate": 256,
+  "ReplyTemplate": 983,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": true,
@@ -177,22 +177,22 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    112,
-    153
+    24,
+    613
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 394
+      "FieldType": "System.Int32",
+      "FieldLength": 779
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

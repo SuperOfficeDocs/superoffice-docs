@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 810,
-  "Name": "Gibson Inc and Sons",
-  "Description": "Right-sized multimedia capacity",
+  "ProjectId": 774,
+  "Name": "Hoppe Inc and Sons",
+  "Description": "Triple-buffered solution-oriented installation",
   "URL": "http://www.example.com/",
-  "Type": "est",
-  "AssociateId": 503,
-  "AssociateFullName": "Prof. Evans Jarrod Greenholt DVM",
-  "TypeId": 84,
-  "Updated": "2015-11-21T12:01:33.0269443+01:00",
-  "StatusId": 248,
-  "Status": "unde",
-  "TextId": 810,
-  "PublishTo": "2008-08-06T12:01:33.0269443+02:00",
-  "PublishFrom": "2001-11-12T12:01:33.0269443+01:00",
-  "IsPublished": true,
+  "Type": "non",
+  "AssociateId": 44,
+  "AssociateFullName": "Aurelia Crooks",
+  "TypeId": 310,
+  "Updated": "2016-01-15T14:32:11.708526+01:00",
+  "StatusId": 913,
+  "Status": "odio",
+  "TextId": 455,
+  "PublishTo": "2002-01-13T14:32:11.708526+01:00",
+  "PublishFrom": "2007-12-23T14:32:11.708526+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "779085",
-  "ActiveErpLinks": 314,
+  "ProjectNumber": "405190",
+  "ActiveErpLinks": 680,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 224
     }
   }
 }

@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 976,
-  "LanguageId": 459,
-  "PersonId": 442,
-  "TicketId": 390
+  "ReplyTemplateId": 406,
+  "LanguageId": 683,
+  "PersonId": 286,
+  "TicketId": 957
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 142,
-  "PlainParsed": "quia",
-  "HtmlParsed": "maiores",
+  "ReplyTemplateId": 532,
+  "PlainParsed": "nulla",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 210,
-      "Name": "VonRueden-Lesch",
-      "ContentType": "autem",
-      "AttSize": 703,
+      "AttachmentId": 570,
+      "Name": "Williamson Inc and Sons",
+      "ContentType": "ullam",
+      "AttSize": 605,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "velit",
+      "ContentId": "voluptatem",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldType": "System.String",
+          "FieldLength": 839
         }
       }
     }
   ],
-  "Subject": "officiis",
+  "Subject": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 135
     }
   }
 }

@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 859,
-  "TopicId": 641,
+  "ChatSessionId": 866,
+  "TopicId": 888,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eveniet",
-  "CustomerHost": "facilis",
-  "CustomerName": "Hilll-Stracke",
-  "CustomerEmail": "carmella.yundt@jast.uk",
-  "CustomerPhone": "(294)238-4327 x49893",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Ullrich Inc and Sons",
+  "CustomerAlias": "impedit",
+  "CustomerHost": "rerum",
+  "CustomerName": "Aufderhar Group",
+  "CustomerEmail": "granville_russel@torphy.com",
+  "CustomerPhone": "1-877-512-2263 x150",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Huel Group",
   "Status": "Closed",
-  "FirstMessage": "quibusdam",
-  "LastMessage": "earum",
-  "WhenRequested": "2023-12-06T12:01:32.6987969+01:00",
-  "WhenStarted": "2023-01-28T12:01:32.6987969+01:00",
-  "WhenEnded": "2001-05-11T12:01:32.6987969+02:00",
-  "WhenIdle": "2017-02-04T12:01:32.6987969+01:00",
-  "WhenFetched": "2006-01-05T12:01:32.6987969+01:00",
-  "SessionKey": "molestias",
-  "InitialQueuePos": 183,
-  "AlertLevel": 238,
-  "Rank": 577,
+  "FirstMessage": "sit",
+  "LastMessage": "nam",
+  "WhenRequested": "2011-07-29T14:32:11.1146138+02:00",
+  "WhenStarted": "2012-04-07T14:32:11.1146138+02:00",
+  "WhenEnded": "2003-12-29T14:32:11.1146138+01:00",
+  "WhenIdle": "2016-10-18T14:32:11.1146138+02:00",
+  "WhenFetched": "2019-06-10T14:32:11.1146138+02:00",
+  "SessionKey": "voluptas",
+  "InitialQueuePos": 736,
+  "AlertLevel": 718,
+  "Rank": 963,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 672,
+  "Rating": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 157
     }
   },
   "_Links": {

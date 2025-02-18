@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Flatley Inc and Sons",
-  "ListItemId": 157
+  "UdListDefinitionName": "Jacobson-Cummerata",
+  "ListItemId": 153
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Runolfsson, Leuschke and Jakubowski",
-    "ToolTip": "Ut omnis.",
+    "Id": 25,
+    "Name": "Simonis-Kerluke",
+    "ToolTip": "Cupiditate quo aperiam dignissimos.",
     "Deleted": true,
-    "Rank": 35,
-    "Type": "vero",
-    "ColorBlock": 747,
-    "IconHint": "perspiciatis",
+    "Rank": 395,
+    "Type": "fugiat",
+    "ColorBlock": 525,
+    "IconHint": "aliquam",
     "Selected": true,
-    "LastChanged": "2000-07-15T12:01:27.9471677+02:00",
+    "LastChanged": "2018-06-02T14:32:03.1084824+02:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Rowe-Sawayn",
-        "ToolTip": "Doloribus consequatur minima facilis.",
-        "Deleted": false,
-        "Rank": 388,
-        "Type": "voluptatem",
-        "ColorBlock": 159,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "1997-12-05T12:01:27.9471677+01:00",
+        "Id": 187,
+        "Name": "Toy, Towne and Tremblay",
+        "ToolTip": "Et ut ea asperiores tenetur et ea architecto.",
+        "Deleted": true,
+        "Rank": 800,
+        "Type": "nemo",
+        "ColorBlock": 350,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2023-07-17T14:32:03.1084824+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Alayna Moore",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Luigi Wilton Larson Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldType": "System.String",
+            "FieldLength": 676
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "optio",
+    "ExtraInfo": "omnis",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Carlee Jacobson",
+    "FullName": "Dr. Lina Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

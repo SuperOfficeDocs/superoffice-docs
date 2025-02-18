@@ -72,20 +72,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "unde",
-  "ProviderName": "Kling, Bradtke and Lindgren",
-  "StorageKey": "non",
+  "StorageType": "dolorum",
+  "ProviderName": "Schaefer Inc and Sons",
+  "StorageKey": "aut",
   "Restrictions": [
     {
-      "Name": "Beahan, Moen and Littel",
-      "Operator": "nostrum",
+      "Name": "Lebsack-Ankunding",
+      "Operator": "eos",
       "Values": [
-        "recusandae",
-        "esse"
+        "facilis",
+        "et"
       ],
       "DisplayValues": [
-        "repellat",
-        "aut"
+        "vero",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 178,
+      "InterParenthesis": 94,
       "InterOperator": "And",
-      "UniqueHash": 863
+      "UniqueHash": 544
     }
   ],
-  "Context": "dicta"
+  "Context": "cum"
 }
 ```
 

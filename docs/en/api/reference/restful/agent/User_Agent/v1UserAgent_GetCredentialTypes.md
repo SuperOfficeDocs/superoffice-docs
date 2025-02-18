@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "provident",
-    "Type": "repellat",
-    "Description": "Balanced well-modulated help-desk",
+    "DisplayType": "vero",
+    "Type": "est",
+    "Description": "Managed executive initiative",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
+    "CanCreatePerson": true,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldType": "System.String",
+        "FieldLength": 468
       }
     }
   }

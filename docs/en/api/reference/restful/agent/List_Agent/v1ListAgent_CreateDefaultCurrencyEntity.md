@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 152,
-  "Name": "VonRueden Group",
-  "Tooltip": "occaecati",
-  "Rank": 971,
-  "Rate": 20819.162,
-  "Units": 16986.28,
+  "CurrencyId": 543,
+  "Name": "King-Russel",
+  "Tooltip": "eaque",
+  "Rank": 263,
+  "Rate": 23197.868,
+  "Units": 16325.006,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 172
     }
   }
 }

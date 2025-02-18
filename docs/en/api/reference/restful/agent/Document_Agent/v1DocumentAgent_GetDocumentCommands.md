@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 885,
+  "DocumentId": 555,
   "AllowedReturnTypes": [
-    "sint",
-    "expedita"
+    "voluptates",
+    "et"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros, Grant and Stamm",
-    "DisplayName": "Kassulke, Bednar and Mueller",
-    "DisplayTooltip": "velit",
-    "IconHint": "iste",
+    "Name": "Keebler-Roberts",
+    "DisplayName": "Auer Inc and Sons",
+    "DisplayTooltip": "et",
+    "IconHint": "eos",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Pouros, Grant and Stamm",
-    "DisplayName": "Kassulke, Bednar and Mueller",
-    "DisplayTooltip": "velit",
-    "IconHint": "iste",
+    "Name": "Keebler-Roberts",
+    "DisplayName": "Auer Inc and Sons",
+    "DisplayTooltip": "et",
+    "IconHint": "eos",
     "ReturnType": "CustomGui"
   }
 ]

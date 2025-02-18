@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 601,
-    "Name": "Senger-Gusikowski",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 560
+    "HeadingId": 266,
+    "Name": "Denesik LLC",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "Rank": 855,
+    "UdListDefinitionId": 975
   },
   {
-    "HeadingId": 601,
-    "Name": "Senger-Gusikowski",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 560
+    "HeadingId": 266,
+    "Name": "Denesik LLC",
+    "Tooltip": "doloremque",
+    "Deleted": false,
+    "Rank": 855,
+    "UdListDefinitionId": 975
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 462,
-    "Name": "Schroeder-Ratke",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 48,
+    "HeadingId": 363,
+    "Name": "Zieme, Marks and Hoeger",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 931,
+    "UdListDefinitionId": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldLength": 654
       }
     }
   }

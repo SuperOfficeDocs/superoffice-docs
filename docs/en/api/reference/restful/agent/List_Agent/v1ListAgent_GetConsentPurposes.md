@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 267,
-    "Name": "Donnelly, Stehr and Rohan",
-    "ConsentText": "nesciunt",
-    "FormText": "nostrum",
-    "Key": "fugit",
-    "Tooltip": "ea",
-    "Active": 432,
-    "UpdatedDate": "2022-07-03T12:01:27.9627939+02:00",
+    "ConsentPurposeId": 347,
+    "Name": "Parisian LLC",
+    "ConsentText": "quia",
+    "FormText": "alias",
+    "Key": "nam",
+    "Tooltip": "perspiciatis",
+    "Active": 113,
+    "UpdatedDate": "2004-07-04T14:32:03.1397257+02:00",
     "UpdatedBy": null,
-    "Deleted": true,
-    "Rank": 259,
-    "PrivacyStatementDesc": "tempore",
+    "Deleted": false,
+    "Rank": 660,
+    "PrivacyStatementDesc": "necessitatibus",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 695
       }
     }
   }

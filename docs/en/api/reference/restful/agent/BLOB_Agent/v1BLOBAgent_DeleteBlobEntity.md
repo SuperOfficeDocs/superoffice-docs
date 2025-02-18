@@ -25,7 +25,7 @@ Deletes the BlobEntity
 | BlobEntityId | int32 | **Required** The id of the BlobEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=437
+POST /api/v1/Agents/BLOB/DeleteBlobEntity?BlobEntityId=623
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/BLOB/DeleteBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cormier LLC",
-    "Description": "Streamlined non-volatile functionalities",
+    "Name": "Farrell, Kunde and Bauch",
+    "Description": "Devolved exuding project",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 192,
-        "Tooltip": "dolores",
-        "CanAssign": true,
-        "Free": 84,
-        "InUse": 502,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 925,
-        "Name": "Runolfsdottir LLC",
-        "Description": "Inverse directional migration",
-        "PrerequisiteModuleName": "Lang-Volkman",
-        "SortOrder": 58,
-        "ExtraFlags": 932,
+        "Total": 945,
+        "Tooltip": "alias",
+        "CanAssign": false,
+        "Free": 343,
+        "InUse": 537,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 398,
+        "Name": "Parker Group",
+        "Description": "Polarised 3rd generation local area network",
+        "PrerequisiteModuleName": "Heidenreich Inc and Sons",
+        "SortOrder": 346,
+        "ExtraFlags": 319,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldType": "System.String",
+            "FieldLength": 89
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 42,
-        "Tooltip": "esse",
+        "Total": 701,
+        "Tooltip": "praesentium",
         "CanAssign": true,
-        "Free": 140,
-        "InUse": 773,
-        "IsHidden": true,
+        "Free": 261,
+        "InUse": 248,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 470,
-        "Name": "Medhurst Group",
-        "Description": "Visionary encompassing challenge",
-        "PrerequisiteModuleName": "Kautzer, Quigley and Mante",
-        "SortOrder": 452,
-        "ExtraFlags": 750,
+        "ModuleLicenseId": 967,
+        "Name": "Kirlin Group",
+        "Description": "Balanced neutral solution",
+        "PrerequisiteModuleName": "Wilkinson LLC",
+        "SortOrder": 228,
+        "ExtraFlags": 915,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldLength": 67
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 105
       }
     }
   },
   {
-    "Name": "Cormier LLC",
-    "Description": "Streamlined non-volatile functionalities",
+    "Name": "Farrell, Kunde and Bauch",
+    "Description": "Devolved exuding project",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 192,
-        "Tooltip": "dolores",
-        "CanAssign": true,
-        "Free": 84,
-        "InUse": 502,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 925,
-        "Name": "Runolfsdottir LLC",
-        "Description": "Inverse directional migration",
-        "PrerequisiteModuleName": "Lang-Volkman",
-        "SortOrder": 58,
-        "ExtraFlags": 932,
+        "Total": 945,
+        "Tooltip": "alias",
+        "CanAssign": false,
+        "Free": 343,
+        "InUse": 537,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 398,
+        "Name": "Parker Group",
+        "Description": "Polarised 3rd generation local area network",
+        "PrerequisiteModuleName": "Heidenreich Inc and Sons",
+        "SortOrder": 346,
+        "ExtraFlags": 319,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 268
+            "FieldType": "System.String",
+            "FieldLength": 89
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 42,
-        "Tooltip": "esse",
+        "Total": 701,
+        "Tooltip": "praesentium",
         "CanAssign": true,
-        "Free": 140,
-        "InUse": 773,
-        "IsHidden": true,
+        "Free": 261,
+        "InUse": 248,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 470,
-        "Name": "Medhurst Group",
-        "Description": "Visionary encompassing challenge",
-        "PrerequisiteModuleName": "Kautzer, Quigley and Mante",
-        "SortOrder": 452,
-        "ExtraFlags": 750,
+        "ModuleLicenseId": 967,
+        "Name": "Kirlin Group",
+        "Description": "Balanced neutral solution",
+        "PrerequisiteModuleName": "Wilkinson LLC",
+        "SortOrder": 228,
+        "ExtraFlags": 915,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldLength": 67
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 105
       }
     }
   }

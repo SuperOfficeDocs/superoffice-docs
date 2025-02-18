@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 951,
-  "Name": "Ankunding-Kris",
+  "ScreenChooserId": 186,
+  "Name": "Sipes Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "hic",
-  "Source": "et",
-  "Registered": "2013-09-11T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 909,
-  "Updated": "2014-08-23T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 219
+  "UniqueIdentifier": "necessitatibus",
+  "Source": "atque",
+  "Registered": "2010-03-27T14:32:02.5461102+01:00",
+  "RegisteredAssociateId": 672,
+  "Updated": "2003-12-28T14:32:02.5461102+01:00",
+  "UpdatedAssociateId": 761
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 987,
-  "Name": "Ratke-Gutmann",
+  "ScreenChooserId": 627,
+  "Name": "Powlowski-Heidenreich",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "corrupti",
-  "Source": "cum",
-  "Registered": "2016-01-08T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 811,
-  "Updated": "2022-07-05T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 615,
+  "Enabled": true,
+  "UniqueIdentifier": "et",
+  "Source": "autem",
+  "Registered": "2004-12-12T14:32:02.5461102+01:00",
+  "RegisteredAssociateId": 255,
+  "Updated": "2018-06-06T14:32:02.5461102+02:00",
+  "UpdatedAssociateId": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldLength": 722
     }
   }
 }

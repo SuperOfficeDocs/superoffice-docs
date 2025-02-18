@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Amet a similique enim ut molestiae et illum.",
+    "Id": 465,
+    "Name": "Murphy Group",
+    "ToolTip": "Ipsa repellendus minima ut.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "hic",
-    "ColorBlock": 550,
-    "IconHint": "impedit",
+    "Rank": 808,
+    "Type": "aut",
+    "ColorBlock": 764,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2017-02-25T12:01:33.4175965+01:00",
+    "LastChanged": "2009-08-07T14:32:12.4427319+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Tremblay LLC",
-        "ToolTip": "Aliquam nemo.",
-        "Deleted": true,
-        "Rank": 487,
-        "Type": "aut",
-        "ColorBlock": 309,
-        "IconHint": "at",
+        "Id": 54,
+        "Name": "Collier, Waelchi and Schinner",
+        "ToolTip": "Velit reprehenderit ut ut laborum.",
+        "Deleted": false,
+        "Rank": 465,
+        "Type": "animi",
+        "ColorBlock": 296,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2019-01-12T12:01:33.4175965+01:00",
+        "LastChanged": "2003-12-01T14:32:12.4427319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ryley Klein"
+        "FullName": "Hilario Bosco"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sint",
+    "ExtraInfo": "sunt",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Wyatt Nicolas"
+    "FullName": "Mr. Clarissa Schiller"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Braun, Stroman and Leannon",
-    "ToolTip": "Rerum et laudantium dignissimos.",
+    "Id": 108,
+    "Name": "Greenholt-Kub",
+    "ToolTip": "Molestias eum et.",
     "Deleted": false,
-    "Rank": 175,
-    "Type": "qui",
-    "ColorBlock": 116,
-    "IconHint": "repellat",
+    "Rank": 887,
+    "Type": "odio",
+    "ColorBlock": 234,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2021-03-15T12:01:33.4175965+01:00",
+    "LastChanged": "2008-01-30T14:32:12.4427319+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Mohr, Glover and Gerhold",
-        "ToolTip": "Voluptatum ratione delectus deserunt quisquam quas dolorem quis.",
-        "Deleted": true,
-        "Rank": 486,
-        "Type": "expedita",
-        "ColorBlock": 839,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2009-12-24T12:01:33.4175965+01:00",
+        "Id": 1001,
+        "Name": "Stehr LLC",
+        "ToolTip": "Molestias reiciendis enim provident impedit ut ad maiores.",
+        "Deleted": false,
+        "Rank": 89,
+        "Type": "est",
+        "ColorBlock": 202,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2002-06-24T14:32:12.4427319+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "ut",
-        "StyleHint": "ducimus",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Jaylan Purdy",
+        "FullName": "Miss Westley Quincy Collier Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldLength": 648
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Briana Goyette",
+    "ExtraInfo": "et",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Kailey Marks",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldType": "System.String",
+        "FieldLength": 561
       }
     }
   }

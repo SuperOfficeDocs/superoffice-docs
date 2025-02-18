@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 301,
-  "Name": "Boyle Group",
+  "Id": 623,
+  "Name": "Jast, Bode and Beatty",
   "Tooltip": "enim",
-  "Deleted": false,
-  "UdListDefinitionId": 419,
-  "Rank": 628,
+  "Deleted": true,
+  "UdListDefinitionId": 638,
+  "Rank": 246,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 18
     }
   }
 }

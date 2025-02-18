@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 575,
-    "Name": "Ratke-Lueilwitz",
-    "Tooltip": "id",
+    "HeadingId": 604,
+    "Name": "King-Cruickshank",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 417,
+    "Rank": 575,
+    "UdListDefinitionId": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 875
       }
     }
   }

@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Volkman, Labadie and Herzog"
+  "LayoutName": "O'Keefe, Bruen and Grady"
 }
 ```
 

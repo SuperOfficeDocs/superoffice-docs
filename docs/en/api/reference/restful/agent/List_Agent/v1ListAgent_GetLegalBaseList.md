@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 197,
-    "Name": "Bartoletti LLC",
-    "Tooltip": "dolor",
-    "Rank": 43,
-    "Key": "totam",
-    "Deleted": false,
+    "LegalBaseId": 777,
+    "Name": "Quitzon-Heidenreich",
+    "Tooltip": "qui",
+    "Rank": 150,
+    "Key": "perspiciatis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

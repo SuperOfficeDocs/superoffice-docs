@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=et
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Collier-Sipes",
-    "ToolTip": "Cupiditate libero corporis et.",
-    "Deleted": true,
-    "Rank": 288,
-    "Type": "ducimus",
+    "Id": 752,
+    "Name": "Upton, Schroeder and Breitenberg",
+    "ToolTip": "Ut quaerat minus aut ut facere et totam.",
+    "Deleted": false,
+    "Rank": 843,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Lesch-Heller",
-        "ToolTip": "Et et velit accusamus tempore ipsam sit.",
+        "Id": 56,
+        "Name": "Deckow, Feeney and Fahey",
+        "ToolTip": "Facere tempore rerum fugit.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "eos",
+        "Rank": 154,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 464,
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorum",
-        "FullName": "Richie Fisher IV",
+        "IconHint": "fugit",
+        "ColorBlock": 937,
+        "ExtraInfo": "enim",
+        "StyleHint": "quos",
+        "FullName": "Dr. Estelle West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldType": "System.Int32",
+            "FieldLength": 506
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 317,
-    "ExtraInfo": "eos",
-    "StyleHint": "magni",
-    "FullName": "Chad Welch",
+    "IconHint": "omnis",
+    "ColorBlock": 642,
+    "ExtraInfo": "vel",
+    "StyleHint": "nemo",
+    "FullName": "Francis Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

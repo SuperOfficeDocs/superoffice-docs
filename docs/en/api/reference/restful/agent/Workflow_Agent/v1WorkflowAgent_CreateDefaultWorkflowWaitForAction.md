@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 786,
-  "WorkflowStepId": 87,
-  "WorkflowId": 878,
-  "Rank": 398,
+  "WorkflowWaitForActionId": 233,
+  "WorkflowStepId": 637,
+  "WorkflowId": 275,
+  "Rank": 971,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Swaniawski-Koss",
-      "Description": "Robust foreground emulation",
-      "Rank": 552,
+      "Name": "Ryan, Nicolas and Stroman",
+      "Description": "Right-sized foreground synergy",
+      "Rank": 70,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Swaniawski-Koss",
-      "Description": "Robust foreground emulation",
-      "Rank": 552,
+      "Name": "Ryan, Nicolas and Stroman",
+      "Description": "Right-sized foreground synergy",
+      "Rank": 70,
       "Restrictions": [
         {},
         {}
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 881
     }
   }
 }

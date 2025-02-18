@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Denesik-Durgan",
-    "ToolTip": "Tempora magni ea.",
+    "Id": 998,
+    "Name": "Swift, Walker and Medhurst",
+    "ToolTip": "Voluptate et numquam quidem ut eius.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "expedita",
-    "ColorBlock": 703,
-    "IconHint": "facilis",
+    "Rank": 435,
+    "Type": "voluptas",
+    "ColorBlock": 330,
+    "IconHint": "officia",
     "Selected": false,
-    "LastChanged": "2002-01-10T12:01:33.5269792+01:00",
+    "LastChanged": "2005-08-11T14:32:12.6458125+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Skiles, Kassulke and Dicki",
-        "ToolTip": "Molestiae quis ad perferendis.",
+        "Id": 251,
+        "Name": "Cole LLC",
+        "ToolTip": "A cumque molestias rerum mollitia fuga.",
         "Deleted": true,
-        "Rank": 791,
-        "Type": "distinctio",
-        "ColorBlock": 283,
-        "IconHint": "consequatur",
+        "Rank": 631,
+        "Type": "inventore",
+        "ColorBlock": 791,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2001-11-28T12:01:33.5269792+01:00",
+        "LastChanged": "1999-07-01T14:32:12.6458125+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Reed Rice",
+        "FullName": "Prof. Augusta Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 53
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "enim",
+    "ExtraInfo": "tempora",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Ms. Dwight Beahan",
+    "FullName": "Jackie Jacobs Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 119
       }
     }
   }

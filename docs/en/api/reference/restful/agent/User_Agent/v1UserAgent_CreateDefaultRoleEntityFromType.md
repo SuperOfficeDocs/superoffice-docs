@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 810,
-  "Name": "Brown Inc and Sons",
-  "Tooltip": "adipisci",
+  "RoleId": 708,
+  "Name": "Casper-Braun",
+  "Tooltip": "maiores",
   "RoleType": "Anonymous",
-  "Deleted": 808,
-  "Rank": 625,
-  "Created": "2013-12-27T12:01:28.6034631+01:00",
-  "UseCategories": 79,
+  "Deleted": 588,
+  "Rank": 182,
+  "Created": "1999-09-05T14:32:04.2959093+02:00",
+  "UseCategories": 180,
   "CreatedBy": null,
-  "Updated": "2002-03-03T12:01:28.6034631+01:00",
+  "Updated": "2003-02-01T14:32:04.2959093+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 590
     }
   }
 }

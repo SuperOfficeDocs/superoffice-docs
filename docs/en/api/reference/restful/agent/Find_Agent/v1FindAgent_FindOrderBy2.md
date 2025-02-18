@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Bayer-Roob",
-  "StorageKey": "aliquid",
-  "PageSize": 51,
-  "PageNumber": 416,
+  "StorageType": "rerum",
+  "ProviderName": "Ritchie-Mraz",
+  "StorageKey": "magnam",
+  "PageSize": 626,
+  "PageNumber": 425,
   "OrderBy": "et"
 }
 ```
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jakubowski, Keeling and Ratke",
-      "DisplayTooltip": "minima",
-      "DisplayType": "officiis",
+      "DisplayName": "Hegmann LLC",
+      "DisplayTooltip": "explicabo",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Zboncak LLC",
-      "CanRestrictBy": false,
-      "RestrictionType": "necessitatibus",
-      "RestrictionListName": "Reinger-Wolff",
+      "Name": "Gorczany, Bins and Brakus",
+      "CanRestrictBy": true,
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Cruickshank-Gleichner",
       "IsVisible": false,
-      "ExtraInfo": "voluptatem",
-      "Width": "eos",
-      "IconHint": "laborum",
-      "HeadingIconHint": "temporibus"
+      "ExtraInfo": "blanditiis",
+      "Width": "dolores",
+      "IconHint": "vero",
+      "HeadingIconHint": "laboriosam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Hickle-Rempel",
-      "PrimaryKey": 855,
+      "EntityName": "Wiegand Group",
+      "PrimaryKey": 264,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eligendi",
-          "TooltipHint": "eos",
-          "LinkHint": "est"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "atque",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "a",
-      "StyleHint": "quibusdam",
+      "LinkHint": "rerum",
+      "StyleHint": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldLength": 171
         }
       }
     }
   ],
-  "RowCount": 578,
+  "RowCount": 650,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 746
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

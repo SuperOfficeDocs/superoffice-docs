@@ -87,34 +87,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 507,
-  "Field": "perspiciatis",
-  "RecordId": 802,
+  "RefCountsId": 29,
+  "Field": "molestiae",
+  "RecordId": 532,
   "SuggestedRecords": [
     {
-      "Id": 16,
-      "Name": "Dach-Dach",
-      "ToolTip": "Natus molestias alias at cumque.",
-      "Deleted": true,
-      "Rank": 954,
-      "Type": "enim",
+      "Id": 337,
+      "Name": "Moen, Donnelly and O'Connell",
+      "ToolTip": "Enim dolores consequatur ratione ipsa.",
+      "Deleted": false,
+      "Rank": 989,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 176,
-      "ExtraInfo": "nulla",
-      "StyleHint": "soluta",
-      "FullName": "Candida Ondricka"
+      "IconHint": "in",
+      "ColorBlock": 338,
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "voluptas",
+      "FullName": "Kiley Bosco"
     }
   ],
-  "CurrentValue": 482,
-  "TravelPrefix": 964,
-  "SatPrefix": 881,
+  "CurrentValue": 145,
+  "TravelPrefix": 373,
+  "SatPrefix": 368,
   "Allocate": true,
-  "Unique": true,
-  "ReadOnly": true,
+  "Unique": false,
+  "ReadOnly": false,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 612,
-  "Field": "possimus",
-  "RecordId": 817,
+  "RefCountsId": 904,
+  "Field": "sit",
+  "RecordId": 383,
   "SuggestedRecords": [
     {
-      "Id": 704,
-      "Name": "Hermann-Schumm",
-      "ToolTip": "Quisquam non iste praesentium.",
-      "Deleted": true,
-      "Rank": 65,
-      "Type": "voluptatem",
+      "Id": 216,
+      "Name": "Pouros, Bashirian and Tremblay",
+      "ToolTip": "Necessitatibus perferendis voluptas.",
+      "Deleted": false,
+      "Rank": 316,
+      "Type": "beatae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "possimus",
-      "ColorBlock": 645,
-      "ExtraInfo": "doloremque",
-      "StyleHint": "quae",
-      "FullName": "Viviane Johnston V",
+      "IconHint": "similique",
+      "ColorBlock": 827,
+      "ExtraInfo": "atque",
+      "StyleHint": "eum",
+      "FullName": "Miss Clifton Heathcote",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldLength": 896
         }
       }
     }
   ],
-  "CurrentValue": 938,
-  "TravelPrefix": 328,
-  "SatPrefix": 377,
-  "Allocate": false,
-  "Unique": false,
+  "CurrentValue": 710,
+  "TravelPrefix": 188,
+  "SatPrefix": 100,
+  "Allocate": true,
+  "Unique": true,
   "ReadOnly": true,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 979
     }
   }
 }

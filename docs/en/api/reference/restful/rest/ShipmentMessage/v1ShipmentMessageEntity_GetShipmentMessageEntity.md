@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 180,
-  "PlainMessage": "similique",
-  "HtmlMessage": "quidem",
-  "SmsMessage": "autem",
-  "Description": "Universal even-keeled algorithm",
-  "Subject": "est",
-  "FolderId": 911,
-  "HeaderField": "officiis",
-  "Design": "aut",
+  "ShipmentMessageId": 932,
+  "PlainMessage": "praesentium",
+  "HtmlMessage": "molestiae",
+  "SmsMessage": "doloremque",
+  "Description": "Assimilated 6th generation artificial intelligence",
+  "Subject": "et",
+  "FolderId": 528,
+  "HeaderField": "error",
+  "Design": "provident",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Multi-tiered empowering moderator",
-  "AccessKey": "soluta",
-  "DocumentMessage": 154,
-  "Registered": "2022-02-05T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2015-04-25T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 866,
-  "UpdatedCount": 633,
+  "LongDescription": "Persistent exuding matrix",
+  "AccessKey": "et",
+  "DocumentMessage": 983,
+  "Registered": "2006-01-15T14:32:12.0678193+01:00",
+  "RegisteredAssociateId": 57,
+  "Updated": "2018-07-03T14:32:12.0678193+02:00",
+  "UpdatedAssociateId": 579,
+  "UpdatedCount": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 926
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

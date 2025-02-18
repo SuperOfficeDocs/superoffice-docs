@@ -82,16 +82,16 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 55,
-  "Name": "Goyette, Goodwin and Moore",
+  "TicketStatusId": 836,
+  "Name": "Koch-Moore",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 870,
-  "Name": "Welch-Wunsch",
+  "TicketStatusId": 702,
+  "Name": "Russel Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": true,
-  "UsedInQueue": true,
+  "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 953
     }
   }
 }

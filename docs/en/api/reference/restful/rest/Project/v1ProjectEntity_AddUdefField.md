@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 596,
-  "ColumnId": 833,
-  "FieldDefault": "dolore",
-  "FieldHeight": 491,
-  "FieldLabel": "temporibus",
-  "FieldLeft": 646,
-  "FieldTop": 662,
+  "UDefFieldId": 51,
+  "ColumnId": 492,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 133,
+  "FieldLabel": "id",
+  "FieldLeft": 572,
+  "FieldTop": 269,
   "FieldType": "Checkbox",
-  "FieldWidth": 680,
-  "FormatMask": "similique",
-  "HideLabel": false,
+  "FieldWidth": 55,
+  "FormatMask": "est",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 569,
-  "LabelLeft": 593,
-  "LabelTop": 283,
-  "LabelWidth": 998,
-  "LastVersionId": 554,
-  "ListTableId": 649,
+  "LabelHeight": 559,
+  "LabelLeft": 729,
+  "LabelTop": 878,
+  "LabelWidth": 231,
+  "LastVersionId": 899,
+  "ListTableId": 203,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 349,
-  "ProgId": "laborum",
+  "Page1LineNo": 389,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "quasi",
-  "TabOrder": 729,
-  "TextLength": 653,
-  "Tooltip": "officia",
-  "UdefIdentity": 183,
-  "UDListDefinitionId": 409,
+  "ShortLabel": "sint",
+  "TabOrder": 996,
+  "TextLength": 959,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 753,
+  "UDListDefinitionId": 254,
   "Justification": "Center",
-  "Version": 954,
-  "TemplateVariableName": "Ferry, Robel and Fay",
+  "Version": 483,
+  "TemplateVariableName": "Trantow Group",
   "HasBeenPublished": false,
-  "MdoListName": "Lang, Pouros and Rau",
+  "MdoListName": "Schroeder, Wunsch and Heaney",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 320
     }
   }
 }

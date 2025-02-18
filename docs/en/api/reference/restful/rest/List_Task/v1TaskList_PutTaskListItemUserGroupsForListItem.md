@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Romaguera-Barton",
-    "ToolTip": "Molestiae est qui cupiditate quia.",
+    "Id": 409,
+    "Name": "Morissette LLC",
+    "ToolTip": "Blanditiis commodi eum non quod veniam.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "dolorem",
-    "ColorBlock": 639,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2013-08-12T12:01:33.6832402+02:00",
+    "Rank": 616,
+    "Type": "accusamus",
+    "ColorBlock": 849,
+    "IconHint": "quo",
+    "Selected": true,
+    "LastChanged": "2011-01-03T14:32:12.9584781+01:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Zboncak Group",
-        "ToolTip": "Voluptatem ut harum tenetur fuga.",
+        "Id": 745,
+        "Name": "Mosciski, Reinger and Volkman",
+        "ToolTip": "Saepe quibusdam.",
         "Deleted": true,
-        "Rank": 347,
-        "Type": "ab",
-        "ColorBlock": 513,
-        "IconHint": "animi",
+        "Rank": 432,
+        "Type": "ratione",
+        "ColorBlock": 366,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2006-10-13T12:01:33.6832402+02:00",
+        "LastChanged": "2022-03-22T14:32:12.9584781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "et",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Mr. Thea Marquardt DVM"
+        "FullName": "Palma Lorna Renner MD"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "officia",
-    "Hidden": false,
-    "FullName": "Izaiah Toy"
+    "ExtraInfo": "non",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Jude Williamson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 48,
-    "Name": "Leffler, Ziemann and Dach",
-    "ToolTip": "Fuga omnis quas facilis eligendi sed.",
+    "Id": 231,
+    "Name": "Borer, Grady and Gottlieb",
+    "ToolTip": "Culpa itaque aut sequi voluptatum doloribus nesciunt dolores.",
     "Deleted": false,
-    "Rank": 667,
-    "Type": "in",
-    "ColorBlock": 930,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "2007-01-22T12:01:33.6832402+01:00",
+    "Rank": 835,
+    "Type": "quos",
+    "ColorBlock": 264,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2019-06-17T14:32:12.9584781+02:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Wiza, Hudson and Schaden",
-        "ToolTip": "Et fugiat consequatur in a in nisi.",
-        "Deleted": true,
-        "Rank": 571,
-        "Type": "nisi",
-        "ColorBlock": 980,
-        "IconHint": "quo",
+        "Id": 945,
+        "Name": "Boyer Group",
+        "ToolTip": "Et vel et aut sapiente optio architecto accusamus.",
+        "Deleted": false,
+        "Rank": 10,
+        "Type": "culpa",
+        "ColorBlock": 841,
+        "IconHint": "quidem",
         "Selected": true,
-        "LastChanged": "1999-03-10T12:01:33.6832402+01:00",
+        "LastChanged": "2010-12-22T14:32:12.9584781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "provident",
-        "Hidden": false,
-        "FullName": "Melissa Medhurst",
+        "ExtraInfo": "at",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Kale Cronin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "et",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Madaline Carleton Stiedemann V",
+    "FullName": "Aliyah McGlynn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldType": "System.String",
+        "FieldLength": 720
       }
     }
   }

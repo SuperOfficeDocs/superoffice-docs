@@ -61,7 +61,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExternalUsers?$select=mrMrs,contactFullName
+GET /api/v1/archive/ExternalUsers?$select=credentialType,isActiveText,mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

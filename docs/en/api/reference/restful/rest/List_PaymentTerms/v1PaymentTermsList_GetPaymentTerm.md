@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Kertzmann, Torp and Reichel",
-  "Tooltip": "quos",
+  "Id": 778,
+  "Name": "Walter-Littel",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "UdListDefinitionId": 171,
-  "Rank": 522,
+  "UdListDefinitionId": 558,
+  "Rank": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 819
     }
   }
 }

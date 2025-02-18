@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Bosco-Ebert",
-  "Tooltip": "ea",
+  "Id": 641,
+  "Name": "Cartwright, Weimann and Morar",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 866,
+  "Rank": 180,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "atque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 487
     }
   },
   "_Links": {

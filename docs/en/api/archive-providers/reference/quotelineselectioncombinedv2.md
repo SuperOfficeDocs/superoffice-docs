@@ -760,7 +760,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=quoteLineId,alternative/version/reason,alternative/version/quote/sale/updatedDate,alternative/version/quote/sale/stageRank,alternative/version/quote/sale/person/restrictionAddress/wgs84longitude
+GET /api/v1/archive/QuoteLineSelectionCombinedV2?$select=subscriptionQuantity,vatInfo,alternative/subTotal,alternative/version/deliveryTerms,alternative/version/quote/sale/person/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

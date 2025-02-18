@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 803,
-  "Name": "Nolan Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 227,
+  "Id": 124,
+  "Name": "Moen, Kuphal and Toy",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 910,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 802
     }
   },
   "_Links": {

@@ -88,8 +88,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 843,
-  "AttachmentId": "voluptatem"
+  "MailItemId": 72,
+  "AttachmentId": "molestiae"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented human-resource approach",
-  "Filename": "qui",
-  "Size": 130,
-  "Type": "esse",
-  "Encoding": "odit",
-  "Id": "minima",
-  "Disposition": "illo",
-  "IsSafeFileExtension": false,
+  "Description": "Customer-focused empowering functionalities",
+  "Filename": "iste",
+  "Size": 1002,
+  "Type": "quia",
+  "Encoding": "dignissimos",
+  "Id": "delectus",
+  "Disposition": "ipsa",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 235
     }
   }
 }

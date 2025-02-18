@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=aperiam
-GET /api/v1/Selection?$top=642
-GET /api/v1/Selection?$skip=919
+GET /api/v1/Selection?$entities=praesentium
+GET /api/v1/Selection?$top=588
+GET /api/v1/Selection?$skip=204
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=et
+GET /api/v1/Selection?$context=sunt
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "alias",
   "value": [
     {
-      "PrimaryKey": 3254,
-      "EntityName": "person",
-      "personId": 3254,
-      "fullName": "Arnold Padberg"
+      "PrimaryKey": 9605,
+      "EntityName": "sale",
+      "saleId": 9605,
+      "contactId": 4656,
+      "name": "Rutherford-Runte"
     },
     {
-      "PrimaryKey": 8688,
-      "EntityName": "person",
-      "personId": 8688,
-      "fullName": "Mikel Eldora Gerlach MD"
+      "PrimaryKey": 257,
+      "EntityName": "sale",
+      "saleId": 257,
+      "contactId": 6198,
+      "name": "Wunsch-Wolf"
     }
   ]
 }

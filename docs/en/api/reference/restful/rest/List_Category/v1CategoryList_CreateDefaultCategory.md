@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Reichel, Walker and Runolfsson",
-  "Tooltip": "enim",
+  "Id": 86,
+  "Name": "Steuber-Farrell",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 796,
-  "Rank": 281,
+  "UdListDefinitionId": 557,
+  "Rank": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 209
     }
   }
 }

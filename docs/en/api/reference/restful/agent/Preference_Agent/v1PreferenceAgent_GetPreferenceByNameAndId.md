@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "recusandae",
-  "PrefKey": "perspiciatis",
+  "PrefSection": "voluptatem",
+  "PrefKey": "cumque",
   "PrefLevel": "Database",
-  "OwnerId": 506
+  "OwnerId": 893
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "perspiciatis",
   "Specification": null,
-  "DisplayValue": "dignissimos",
-  "DisplayTooltip": "minus",
+  "DisplayValue": "incidunt",
+  "DisplayTooltip": "necessitatibus",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 514,
-  "PrefDescId": 291,
-  "TableName": "Lemke-O'Conner",
-  "UserPreferenceId": 466,
+  "TargetId": 227,
+  "PrefDescId": 541,
+  "TableName": "Schmeler Group",
+  "UserPreferenceId": 589,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldType": "System.Int32",
+      "FieldLength": 494
     }
   }
 }

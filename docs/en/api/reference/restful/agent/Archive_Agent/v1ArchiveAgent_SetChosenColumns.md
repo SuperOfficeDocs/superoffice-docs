@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Price LLC",
-  "ProviderName": "Price-Littel",
+  "GuiName": "Hagenes Group",
+  "ProviderName": "Connelly Inc and Sons",
   "ChosenColumns": [
-    "incidunt",
-    "qui"
+    "voluptate",
+    "quisquam"
   ]
 }
 ```

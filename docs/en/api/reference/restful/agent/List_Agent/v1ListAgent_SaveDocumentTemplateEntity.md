@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 884,
-  "Name": "Olson, Schmidt and Gutkowski",
-  "Tooltip": "quasi",
-  "SaveInDb": 923,
-  "Filename": "perferendis",
-  "DefaultOref": "quis",
+  "DocumentTemplateId": 299,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "alias",
+  "SaveInDb": 816,
+  "Filename": "inventore",
+  "DefaultOref": "ipsa",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 643,
-  "IntentId": 501,
-  "IsDefaultPublished": true,
-  "Rank": 68,
-  "LoadTemplateFromPlugin": 154,
-  "MimeType": "ea",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 503,
+  "AutoeventId": 213,
+  "IntentId": 646,
+  "IsDefaultPublished": false,
+  "Rank": 393,
+  "LoadTemplateFromPlugin": 167,
+  "MimeType": "accusantium",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 882,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "uriah_abbott@labadie.us",
+  "EmailSubject": "anastacio@rogahn.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dustin.blick@kassulkeboyle.biz",
+  "SenderEmailAddress": "luciano_bailey@moen.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 153,
-  "Name": "DuBuque LLC",
-  "Tooltip": "quo",
-  "SaveInDb": 667,
-  "Filename": "culpa",
-  "DefaultOref": "sequi",
+  "DocumentTemplateId": 159,
+  "Name": "Langosh-Legros",
+  "Tooltip": "autem",
+  "SaveInDb": 271,
+  "Filename": "voluptas",
+  "DefaultOref": "blanditiis",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 602,
-  "IntentId": 923,
+  "AutoeventId": 488,
+  "IntentId": 26,
   "IsDefaultPublished": false,
-  "Rank": 868,
-  "LoadTemplateFromPlugin": 761,
-  "MimeType": "facere",
+  "Rank": 87,
+  "LoadTemplateFromPlugin": 170,
+  "MimeType": "qui",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 540,
+  "DocumentTypeKey": 981,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dianna.auer@pfannerstill.us",
+  "EmailSubject": "emmy.herzog@muraziksteuber.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "odessa@wiza.ca",
+  "SenderEmailAddress": "dayne@feilreichert.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 400
     }
   }
 }

@@ -797,7 +797,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=hasGuide,projectAssociate/fullName,appointment/suggestedAppointmentId,appointment/isMilestone,document/snum
+GET /api/v1/archive/SaintProject?$select=document/keywords,projectMember/personHasInterests,projectMember/hasCompany,projectMember/personExtra/x_person_contact_relation,projectMember/stop
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
+Last-Modified: Sun, 28 Oct 2018 14:32:11 G10T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "esse",
+  "SaleText": "ullam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-03-16T12:01:33.0425704+01:00",
-  "Amount": 27952.146,
-  "SaleId": 421,
-  "Earning": 7245.808,
-  "EarningPercent": 30700.664,
-  "Heading": "saepe",
-  "Number": "68742",
-  "Probability": 689,
-  "CreatedDate": "2002-04-20T12:01:33.0425704+02:00",
-  "UpdatedDate": "2016-01-22T12:01:33.0425704+01:00",
+  "Saledate": "2004-10-03T14:32:11.7553894+02:00",
+  "Amount": 14548.028,
+  "SaleId": 278,
+  "Earning": 31111.218,
+  "EarningPercent": 25673.728,
+  "Heading": "maiores",
+  "Number": "1159887",
+  "Probability": 352,
+  "CreatedDate": "2004-06-14T14:32:11.7553894+02:00",
+  "UpdatedDate": "2018-10-28T14:32:11.7553894+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 800,
+  "ActiveLinks": 298,
   "Links": [
     {
-      "EntityName": "Lehner-Renner",
-      "Id": 850,
-      "Description": "Virtual dynamic adapter",
-      "ExtraInfo": "et",
-      "LinkId": 693,
+      "EntityName": "Smitham-Gutmann",
+      "Id": 925,
+      "Description": "Synergized incremental artificial intelligence",
+      "ExtraInfo": "libero",
+      "LinkId": 184,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 120
         }
       }
     }
   ],
-  "NextDueDate": "2000-04-07T12:01:33.0425704+02:00",
-  "Postit": "repellendus",
+  "NextDueDate": "2019-01-31T14:32:11.7553894+01:00",
+  "Postit": "quo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-06-14T12:01:33.0425704+02:00",
+  "ReopenDate": "2025-01-28T14:32:11.7553894+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koss LLC",
-      "Comment": "nulla",
-      "StakeholderRoleId": 112,
-      "CountryId": 685,
-      "PersonId": 650,
-      "EmailDescription": "tressie@sauerlockman.biz",
-      "EmailId": 890,
-      "EmailAddress": "alexzander.johnston@skiles.biz",
-      "PhoneId": 861,
-      "ContactName": "Cruickshank Group",
-      "ContactId": 968,
-      "SaleId": 168,
-      "Mrmrs": "dolores",
-      "Firstname": "Selena",
-      "MiddleName": "Hodkiewicz-Prosacco",
-      "Lastname": "Walter",
-      "SaleStakeholderId": 470,
-      "Rank": 85,
-      "Phone": "(719)948-2668 x1526",
+      "StakeholderRoleName": "Kulas-Kris",
+      "Comment": "sed",
+      "StakeholderRoleId": 298,
+      "CountryId": 335,
+      "PersonId": 724,
+      "EmailDescription": "arvid@lubowitz.com",
+      "EmailId": 778,
+      "EmailAddress": "cathrine@cartwrightorn.co.uk",
+      "PhoneId": 322,
+      "ContactName": "Pfeffer-Streich",
+      "ContactId": 573,
+      "SaleId": 35,
+      "Mrmrs": "totam",
+      "Firstname": "Glen",
+      "MiddleName": "Towne, Schaefer and Runte",
+      "Lastname": "Quitzon",
+      "SaleStakeholderId": 328,
+      "Rank": 976,
+      "Phone": "944-907-7115 x25630",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 871
         }
       }
     }
   ],
-  "ActiveErpLinks": 348,
+  "ActiveErpLinks": 208,
   "UserDefinedFields": {
-    "SuperOffice:1": "925281944",
-    "SuperOffice:2": "756544059"
+    "SuperOffice:1": "Hollis Huel",
+    "SuperOffice:2": "Louisa Kuhn"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "quae"
   },
-  "PublishEventDate": "2017-12-05T12:01:33.0425704+01:00",
-  "PublishTo": "2003-02-18T12:01:33.0425704+01:00",
-  "PublishFrom": "2001-08-11T12:01:33.0425704+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2015-01-29T14:32:11.7553894+01:00",
+  "PublishTo": "2015-06-23T14:32:11.7553894+02:00",
+  "PublishFrom": "1998-02-20T14:32:11.7553894+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 590,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 257,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 430
     }
   }
 }

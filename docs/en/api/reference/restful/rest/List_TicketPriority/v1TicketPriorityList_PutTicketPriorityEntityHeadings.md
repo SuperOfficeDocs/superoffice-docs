@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 63,
-    "Name": "Metz-White",
-    "Tooltip": "velit",
+    "HeadingId": 367,
+    "Name": "Effertz, Ruecker and Streich",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 271
+    "Rank": 387,
+    "UdListDefinitionId": 549
   },
   {
-    "HeadingId": 63,
-    "Name": "Metz-White",
-    "Tooltip": "velit",
+    "HeadingId": 367,
+    "Name": "Effertz, Ruecker and Streich",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 271
+    "Rank": 387,
+    "UdListDefinitionId": 549
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 720,
-    "Name": "Schinner-O'Keefe",
-    "Tooltip": "omnis",
+    "HeadingId": 153,
+    "Name": "Bayer Inc and Sons",
+    "Tooltip": "provident",
     "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 209,
+    "Rank": 285,
+    "UdListDefinitionId": 899,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 671
       }
     }
   }

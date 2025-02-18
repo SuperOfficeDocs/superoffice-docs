@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 827,
+  "UdListDefinitionId": 833,
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 968,
-    "Name": "Denesik-Gleichner",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 960,
-    "Rank": 809,
+    "Id": 454,
+    "Name": "Crist LLC",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "UdListDefinitionId": 12,
+    "Rank": 213,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldLength": 523
       }
     }
   }

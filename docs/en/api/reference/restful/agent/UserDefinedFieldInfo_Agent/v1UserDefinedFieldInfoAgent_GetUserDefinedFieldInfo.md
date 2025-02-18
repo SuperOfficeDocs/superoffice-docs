@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=8
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=523
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 57,
-  "ColumnId": 696,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 686,
-  "FieldLabel": "sunt",
-  "FieldLeft": 646,
-  "FieldTop": 230,
+  "UDefFieldId": 3,
+  "ColumnId": 233,
+  "FieldDefault": "ipsum",
+  "FieldHeight": 746,
+  "FieldLabel": "perspiciatis",
+  "FieldLeft": 788,
+  "FieldTop": 560,
   "FieldType": "Checkbox",
-  "FieldWidth": 675,
-  "FormatMask": "beatae",
+  "FieldWidth": 574,
+  "FormatMask": "vel",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 603,
-  "LabelLeft": 200,
-  "LabelTop": 479,
-  "LabelWidth": 350,
-  "LastVersionId": 715,
-  "ListTableId": 59,
+  "IsIndexed": false,
+  "LabelHeight": 2,
+  "LabelLeft": 824,
+  "LabelTop": 736,
+  "LabelWidth": 564,
+  "LastVersionId": 905,
+  "ListTableId": 183,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 513,
-  "ProgId": "expedita",
-  "IsReadOnly": false,
-  "ShortLabel": "esse",
-  "TabOrder": 190,
-  "TextLength": 124,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 101,
-  "UDListDefinitionId": 1001,
+  "Page1LineNo": 723,
+  "ProgId": "quo",
+  "IsReadOnly": true,
+  "ShortLabel": "nostrum",
+  "TabOrder": 867,
+  "TextLength": 437,
+  "Tooltip": "non",
+  "UdefIdentity": 453,
+  "UDListDefinitionId": 391,
   "Justification": "Center",
-  "Version": 437,
-  "TemplateVariableName": "Klein, Ryan and Tremblay",
+  "Version": 419,
+  "TemplateVariableName": "Goyette-Steuber",
   "HasBeenPublished": false,
-  "MdoListName": "Bruen-Lindgren",
+  "MdoListName": "Stracke-Turner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldLength": 636
     }
   }
 }

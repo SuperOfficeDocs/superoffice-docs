@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 627,
+  "EjMessageId": 986,
   "Ticket": null,
-  "CreatedAt": "1998-06-23T12:01:33.2769618+02:00",
+  "CreatedAt": "2005-06-21T14:32:12.192791+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "optio",
-  "TimeSpent": 401,
-  "Body": "sed",
-  "HtmlBody": "excepturi",
-  "EmailHeader": "alec@faheyjakubowski.uk",
-  "DebugInfo": "tempore",
-  "MailSorter": "vitae",
+  "MessageId": "magni",
+  "TimeSpent": 950,
+  "Body": "nihil",
+  "HtmlBody": "fugiat",
+  "EmailHeader": "clay_blanda@davis.uk",
+  "DebugInfo": "sunt",
+  "MailSorter": "dolores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reiciendis",
+  "SearchTitle": "voluptas",
   "MessageHeaders": [
     {
-      "Id": 573,
-      "Name": "Hand-Greenfelder",
-      "Value": "debitis",
+      "Id": 437,
+      "Name": "Stamm LLC",
+      "Value": "velit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 573,
-      "Name": "Hand-Greenfelder",
-      "Value": "debitis",
+      "Id": 437,
+      "Name": "Stamm LLC",
+      "Value": "velit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "in",
-  "Sentiment": 331,
-  "SentimentConfidence": 951,
+  "Language": "ipsa",
+  "Sentiment": 483,
+  "SentimentConfidence": 676,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 692,
-      "Name": "Ondricka Group",
-      "ContentType": "in",
-      "AttSize": 184,
+      "AttachmentId": 732,
+      "Name": "Purdy, Hintz and Predovic",
+      "ContentType": "iusto",
+      "AttSize": 883,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "temporibus",
+      "ContentId": "earum",
+      "AuthKey": "error",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "quos"
+    "CustomFields1": "in",
+    "CustomFields2": "qui"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 476,
+  "EjMessageId": 619,
   "Ticket": null,
-  "CreatedAt": "2023-03-11T12:01:33.2769618+01:00",
+  "CreatedAt": "2007-02-25T14:32:12.192791+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "sit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 841,
-  "Body": "voluptatem",
-  "HtmlBody": "repellendus",
-  "EmailHeader": "francisca@balistreri.biz",
-  "DebugInfo": "consequatur",
-  "MailSorter": "numquam",
+  "MessageId": "quae",
+  "TimeSpent": 818,
+  "Body": "natus",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "melba@kohler.uk",
+  "DebugInfo": "et",
+  "MailSorter": "soluta",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "assumenda",
+  "SearchTitle": "exercitationem",
   "MessageHeaders": [
     {
-      "Id": 748,
-      "Name": "Berge Inc and Sons",
-      "Value": "architecto",
+      "Id": 45,
+      "Name": "West LLC",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldLength": 542
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "asperiores",
-  "Sentiment": 510,
-  "SentimentConfidence": 553,
+  "Important": true,
+  "Language": "culpa",
+  "Sentiment": 757,
+  "SentimentConfidence": 587,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 505,
-      "Name": "Mante, Jenkins and Toy",
-      "ContentType": "nemo",
-      "AttSize": 875,
+      "AttachmentId": 515,
+      "Name": "McClure-Nader",
+      "ContentType": "dolorem",
+      "AttSize": 207,
       "InlineImage": true,
-      "ContentId": "hic",
-      "AuthKey": "atque",
-      "IsSafeFileExtension": false,
+      "ContentId": "eius",
+      "AuthKey": "dolores",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "pariatur"
+    "CustomFields1": "rerum",
+    "CustomFields2": "ullam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   }
 }

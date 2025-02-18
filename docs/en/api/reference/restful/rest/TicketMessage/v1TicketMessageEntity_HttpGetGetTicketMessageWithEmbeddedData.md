@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 403,
+  "EjMessageId": 578,
   "Ticket": null,
-  "CreatedAt": "2009-08-23T12:01:33.2769618+02:00",
+  "CreatedAt": "2004-10-27T14:32:12.192791+02:00",
   "CreatedBy": null,
-  "Author": "beatae",
+  "Author": "enim",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 592,
-  "Body": "eius",
-  "HtmlBody": "esse",
-  "EmailHeader": "tabitha@roob.uk",
-  "DebugInfo": "distinctio",
-  "MailSorter": "sed",
+  "MessageId": "illum",
+  "TimeSpent": 701,
+  "Body": "similique",
+  "HtmlBody": "beatae",
+  "EmailHeader": "mellie@morar.name",
+  "DebugInfo": "harum",
+  "MailSorter": "tempore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nostrum",
+  "SearchTitle": "deserunt",
   "MessageHeaders": [
     {
-      "Id": 161,
-      "Name": "Mayer Group",
-      "Value": "accusamus",
+      "Id": 198,
+      "Name": "Steuber Group",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 559
         }
       }
     }
   ],
   "Important": false,
-  "Language": "officia",
-  "Sentiment": 241,
-  "SentimentConfidence": 991,
+  "Language": "magni",
+  "Sentiment": 835,
+  "SentimentConfidence": 689,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 341,
-      "Name": "Ernser LLC",
-      "ContentType": "quo",
-      "AttSize": 444,
-      "InlineImage": true,
-      "ContentId": "adipisci",
-      "AuthKey": "voluptatem",
+      "AttachmentId": 883,
+      "Name": "Buckridge, Corkery and Corkery",
+      "ContentType": "quia",
+      "AttSize": 287,
+      "InlineImage": false,
+      "ContentId": "commodi",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldLength": 165
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "error",
-    "ExtraFields2": "soluta"
+    "ExtraFields1": "et",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "ad"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "porro"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 852
     }
   }
 }

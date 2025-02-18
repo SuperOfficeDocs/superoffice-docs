@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 345,
-  "Type": 41
+  "GroupId": 117,
+  "Type": 270
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 615,
-    "Name": "Tromp LLC",
-    "PersonId": 45,
-    "Rank": 709,
-    "Tooltip": "esse",
+    "AssociateId": 17,
+    "Name": "Schiller-Howell",
+    "PersonId": 925,
+    "Rank": 678,
+    "Tooltip": "voluptates",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 523,
-    "FullName": "Paolo Daniel",
-    "FormalName": "Rogahn Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 409,
-    "UserName": "Reinger Group",
+    "GroupIdx": 161,
+    "FullName": "Mr. Litzy Harber PhD",
+    "FormalName": "Hills LLC",
+    "Deleted": false,
+    "EjUserId": 399,
+    "UserName": "Sporer, McKenzie and Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 584
       }
     }
   }

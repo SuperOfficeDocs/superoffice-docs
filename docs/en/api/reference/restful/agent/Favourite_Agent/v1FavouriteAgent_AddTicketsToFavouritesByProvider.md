@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pfannerstill Group",
+  "ProviderName": "Bergstrom Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Erdman LLC",
-      "Operator": "ut",
+      "Name": "Dooley, Auer and Franecki",
+      "Operator": "voluptatem",
       "Values": [
-        "minima",
-        "reiciendis"
+        "similique",
+        "dolor"
       ],
       "DisplayValues": [
-        "tempore",
-        "natus"
+        "eum",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 151,
+      "InterParenthesis": 573,
       "InterOperator": "And",
-      "UniqueHash": 284
+      "UniqueHash": 888
     }
   ],
-  "AssociateId": 131,
-  "ExtraInfo": "atque"
+  "AssociateId": 366,
+  "ExtraInfo": "eum"
 }
 ```
 

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 44,
-      "UniqueId": "ut",
-      "Name": "Bechtelar-Ritchie",
-      "Description": "Synergistic methodical success",
-      "AssociateId": 600,
-      "Columns": 276,
+      "DashboardId": 782,
+      "UniqueId": "sit",
+      "Name": "Turner Group",
+      "Description": "Multi-lateral 6th generation success",
+      "AssociateId": 943,
+      "Columns": 253,
       "Theme": null,
-      "VisibleForAll": 638,
+      "VisibleForAll": 36,
       "VisibleForAssociates": [
-        545,
-        686
+        679,
+        698
       ],
       "VisibleForGroups": [
-        286,
-        464
+        158,
+        265
       ],
-      "PinForAll": 939,
+      "PinForAll": 662,
       "PinForAssociates": [
-        445,
-        228
+        850,
+        489
       ],
       "PinForGroups": [
-        709,
-        627
+        347,
+        320
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldLength": 860
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 541,
-      "UniqueId": "optio",
-      "Name": "Mraz Inc and Sons",
-      "Description": "Polarised secondary complexity",
-      "AssociateId": 939,
-      "Columns": 164,
+      "DashboardId": 180,
+      "UniqueId": "veniam",
+      "Name": "Lubowitz, Herzog and Gutkowski",
+      "Description": "Phased assymetric artificial intelligence",
+      "AssociateId": 209,
+      "Columns": 37,
       "Theme": null,
-      "VisibleForAll": 22,
+      "VisibleForAll": 357,
       "VisibleForAssociates": [
-        427,
-        622
+        340,
+        696
       ],
       "VisibleForGroups": [
-        128,
-        908
+        548,
+        134
       ],
-      "PinForAll": 766,
+      "PinForAll": 714,
       "PinForAssociates": [
-        17,
-        965
+        320,
+        699
       ],
       "PinForGroups": [
-        293,
-        365
+        826,
+        625
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldType": "System.String",
+          "FieldLength": 792
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 516,
-      "UniqueId": "qui",
-      "Name": "Hickle-Abbott",
-      "Description": "Innovative executive function",
-      "AssociateId": 50,
-      "Columns": 507,
+      "DashboardId": 59,
+      "UniqueId": "suscipit",
+      "Name": "Barton Group",
+      "Description": "Open-architected composite attitude",
+      "AssociateId": 954,
+      "Columns": 969,
       "Theme": null,
-      "VisibleForAll": 761,
+      "VisibleForAll": 481,
       "VisibleForAssociates": [
-        19,
-        100
+        740,
+        740
       ],
       "VisibleForGroups": [
-        957,
-        656
+        127,
+        505
       ],
-      "PinForAll": 196,
+      "PinForAll": 297,
       "PinForAssociates": [
-        159,
-        96
+        787,
+        150
       ],
       "PinForGroups": [
-        710,
-        297
+        437,
+        42
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 148
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 582
     }
   }
 }

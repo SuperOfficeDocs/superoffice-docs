@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 795,
-    "Name": "Bode-Keeling",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 155,
+    "WebPanelId": 400,
+    "Name": "McDermott-Mosciski",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "Rank": 559,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": true,
     "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Maggio, Effertz and Ullrich",
+    "ShowInStatusBar": true,
+    "WindowName": "Cummings Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "quidem",
-    "Icon": 135,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "at",
+    "Icon": 850,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 866
       }
     }
   }

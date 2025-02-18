@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Bechtelar, Hessel and Daugherty",
-    "ToolTip": "Et quod facere accusamus.",
+    "Id": 793,
+    "Name": "Pfannerstill LLC",
+    "ToolTip": "Nemo omnis sint optio et ipsa harum placeat.",
     "Deleted": true,
-    "Rank": 979,
-    "Type": "ex",
-    "ColorBlock": 700,
-    "IconHint": "et",
+    "Rank": 615,
+    "Type": "unde",
+    "ColorBlock": 780,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2001-09-06T12:01:33.5426053+02:00",
+    "LastChanged": "2006-04-17T14:32:12.6926791+02:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Wisozk-Pacocha",
-        "ToolTip": "Possimus doloribus temporibus qui.",
+        "Id": 303,
+        "Name": "Cummings-Dietrich",
+        "ToolTip": "Ipsa facere accusantium quis tempore voluptatum.",
         "Deleted": true,
-        "Rank": 969,
-        "Type": "iusto",
-        "ColorBlock": 269,
-        "IconHint": "quos",
+        "Rank": 130,
+        "Type": "modi",
+        "ColorBlock": 618,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2017-01-19T12:01:33.5426053+01:00",
+        "LastChanged": "2010-06-02T14:32:12.6926791+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "et",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Trudie Blick",
+        "FullName": "America Providenci Sipes II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "nisi",
+    "ExtraInfo": "illo",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Cecil Konopelski",
+    "FullName": "Lonzo Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldType": "System.Int32",
+        "FieldLength": 982
       }
     }
   }

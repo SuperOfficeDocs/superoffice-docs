@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Dickinson, Schiller and Bode",
-  "Tooltip": "tempora",
-  "Deleted": false,
-  "Rank": 934,
-  "IsCustomList": true,
+  "Id": 950,
+  "Name": "Hickle Inc and Sons",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 594,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   },
   "_Links": {

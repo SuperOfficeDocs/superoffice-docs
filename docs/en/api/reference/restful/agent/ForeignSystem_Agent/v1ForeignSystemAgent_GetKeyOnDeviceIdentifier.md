@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Homenick, Williamson and Wilderman",
-  "DeviceName": "Bechtelar LLC",
-  "DeviceIdentifier": "consequatur",
-  "KeyName": "Ziemann Inc and Sons",
-  "TableName": "Mertz-Maggio",
-  "RecordId": 18
+  "ApplicationName": "Gottlieb, Borer and Wilkinson",
+  "DeviceName": "Lebsack-Cole",
+  "DeviceIdentifier": "aut",
+  "KeyName": "Jewess Group",
+  "TableName": "Boyer Inc and Sons",
+  "RecordId": 565
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nihil",
-  "Value": "officiis",
-  "RecordId": 620,
-  "CreatedDate": "2010-03-04T12:01:27.9002891+01:00",
-  "UpdatedDate": "2009-10-22T12:01:27.9002891+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "odio",
-  "TableName": "Gulgowski Group",
+  "Key": "eligendi",
+  "Value": "consequatur",
+  "RecordId": 413,
+  "CreatedDate": "1999-02-01T14:32:03.0303748+01:00",
+  "UpdatedDate": "2010-12-01T14:32:03.0303748+01:00",
+  "UpdatedBy": "deserunt",
+  "CreatedBy": "qui",
+  "TableName": "Jacobi Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 80
     }
   }
 }

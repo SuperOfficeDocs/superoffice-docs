@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 288,
-  "Name": "Gibson, Reinger and Murazik",
-  "Tooltip": "facere",
+  "WebPanelId": 207,
+  "Name": "Lehner, Keebler and O'Reilly",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 899,
+  "Rank": 717,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Berge, Weissnat and Monahan",
+  "WindowName": "Cruickshank, Daniel and Hickle",
   "Url": "http://www.example.com/",
-  "ProgId": "sit",
-  "Icon": 571,
+  "ProgId": "repellendus",
+  "Icon": 780,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 508
+      "FieldType": "System.Int32",
+      "FieldLength": 81
     }
   }
 }

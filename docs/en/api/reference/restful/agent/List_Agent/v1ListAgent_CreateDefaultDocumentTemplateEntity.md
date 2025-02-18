@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 619,
-  "Name": "Bashirian, Waelchi and Borer",
-  "Tooltip": "qui",
-  "SaveInDb": 427,
-  "Filename": "molestiae",
-  "DefaultOref": "quidem",
+  "DocumentTemplateId": 340,
+  "Name": "Schmidt, Frami and Roob",
+  "Tooltip": "omnis",
+  "SaveInDb": 90,
+  "Filename": "voluptatem",
+  "DefaultOref": "deserunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 764,
-  "IntentId": 310,
-  "IsDefaultPublished": false,
-  "Rank": 750,
-  "LoadTemplateFromPlugin": 738,
-  "MimeType": "quo",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 434,
+  "AutoeventId": 702,
+  "IntentId": 927,
+  "IsDefaultPublished": true,
+  "Rank": 12,
+  "LoadTemplateFromPlugin": 186,
+  "MimeType": "nemo",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 38,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "wilfred.kreiger@creminconnelly.uk",
+  "EmailSubject": "ernesto@naderhuels.ca",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "zachariah@balistreri.name",
+  "SenderEmailAddress": "lurline.mitchell@spinka.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

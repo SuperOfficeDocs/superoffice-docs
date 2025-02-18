@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromMimeMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "asperiores"
+  "MimeMessage": "adipisci"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 165,
-      "ContactName": "Barton Group",
-      "PersonId": 429,
-      "PersonName": "Rolfson, Wiegand and Wolff",
-      "AssociateId": 892,
-      "Address": "quia",
-      "EmailId": 616,
+      "ContactId": 575,
+      "ContactName": "Tromp Group",
+      "PersonId": 585,
+      "PersonName": "Bartoletti-Bogisich",
+      "AssociateId": 180,
+      "Address": "repudiandae",
+      "EmailId": 899,
       "DuplicatePersonIds": [
-        182,
-        195
+        431,
+        809
       ],
-      "Name": "Vandervort, Rodriguez and Hirthe",
+      "Name": "Romaguera, Hayes and Dietrich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 718
+          "FieldType": "System.Int32",
+          "FieldLength": 72
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 262,
-      "ContactName": "Mueller-Skiles",
-      "PersonId": 955,
-      "PersonName": "Ferry Group",
-      "AssociateId": 713,
+      "ContactId": 680,
+      "ContactName": "Kuvalis-Bode",
+      "PersonId": 445,
+      "PersonName": "Deckow, Koch and Koepp",
+      "AssociateId": 934,
       "Address": "eum",
-      "EmailId": 470,
+      "EmailId": 919,
       "DuplicatePersonIds": [
-        561,
-        558
+        401,
+        205
       ],
-      "Name": "Ratke-Schmitt",
+      "Name": "Schulist, Gislason and Reichel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldType": "System.Int32",
+          "FieldLength": 831
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 574,
-      "ContactName": "Erdman-Harvey",
-      "PersonId": 197,
-      "PersonName": "Armstrong, Howe and Bruen",
-      "AssociateId": 767,
-      "Address": "et",
-      "EmailId": 961,
+      "ContactId": 350,
+      "ContactName": "Ullrich LLC",
+      "PersonId": 264,
+      "PersonName": "Oberbrunner Group",
+      "AssociateId": 556,
+      "Address": "deleniti",
+      "EmailId": 109,
       "DuplicatePersonIds": [
-        738,
-        797
+        300,
+        489
       ],
-      "Name": "Wiza Inc and Sons",
+      "Name": "Feil LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 984
         }
       }
     }
   ],
-  "Subject": "omnis",
-  "HTMLBody": "minus",
+  "Subject": "voluptatibus",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2009-06-20T12:01:27.8534108+02:00",
-  "Size": 873,
+  "Sent": "2023-05-17T14:32:02.9366456+02:00",
+  "Size": 548,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "excepturi",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "incidunt",
+  "PlainBody": "blanditiis",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 736,
+  "ServerId": 495,
   "Attachments": [
     {
-      "Description": "Reduced upward-trending data-warehouse",
-      "Filename": "accusantium",
-      "Size": 522,
-      "Type": "sed",
-      "Encoding": "sequi",
-      "Id": "amet",
-      "Disposition": "sed",
-      "IsSafeFileExtension": false,
+      "Description": "Progressive context-sensitive artificial intelligence",
+      "Filename": "explicabo",
+      "Size": 328,
+      "Type": "culpa",
+      "Encoding": "et",
+      "Id": "saepe",
+      "Disposition": "minima",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mohr Inc and Sons",
+      "Name": "McLaughlin Inc and Sons",
       "Values": [
-        "deleniti",
-        "distinctio"
+        "quo",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 733
         }
       }
     },
     {
-      "Name": "Mohr Inc and Sons",
+      "Name": "McLaughlin Inc and Sons",
       "Values": [
-        "deleniti",
-        "distinctio"
+        "quo",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 733
         }
       }
     }
   ],
-  "FolderName": "Wiza Inc and Sons",
-  "EmailItemId": 157,
-  "AccountId": 330,
-  "ReceivedAt": "2006-11-11T12:01:27.8534108+01:00",
+  "FolderName": "Zulauf LLC",
+  "EmailItemId": 173,
+  "AccountId": 597,
+  "ReceivedAt": "2003-09-13T14:32:02.9366456+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-03-13T12:01:27.8534108+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2008-03-18T14:32:02.9366456+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 331
     }
   }
 }

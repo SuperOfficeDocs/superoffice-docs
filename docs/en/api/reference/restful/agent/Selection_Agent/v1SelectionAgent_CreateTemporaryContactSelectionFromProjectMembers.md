@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 870
+  "ProjectId": 318
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized responsive interface",
-  "Postit": "beatae",
+  "Description": "Innovative responsive contingency",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 783,
-  "IncludePerson": 534,
+  "GroupIdx": 496,
+  "IncludePerson": 49,
   "MemberCount": 99.99,
-  "Name": "Herman-Kunde",
-  "PostitTextId": 448,
-  "CreatedDate": "2011-12-27T12:01:28.2909425+01:00",
-  "SelectionId": 315,
-  "SoundEx": "ullam",
-  "Source": 305,
-  "TextId": 820,
-  "UpdatedDate": "2014-03-11T12:01:28.2909425+01:00",
-  "UpdatedCount": 542,
-  "Visibility": 177,
+  "Name": "Smitham LLC",
+  "PostitTextId": 832,
+  "CreatedDate": "2018-04-16T14:32:03.8897524+02:00",
+  "SelectionId": 351,
+  "SoundEx": "quia",
+  "Source": 919,
+  "TextId": 117,
+  "UpdatedDate": "2011-07-30T14:32:03.8897524+02:00",
+  "UpdatedCount": 688,
+  "Visibility": 574,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 734,
-  "TargetTableName": "Spinka, Lang and Walter",
-  "Completed": true,
-  "LeftSelectionId": 493,
-  "RightSelectionId": 869,
+  "TargetTableNumber": 226,
+  "TargetTableName": "Deckow, Walsh and Kertzmann",
+  "Completed": false,
+  "LeftSelectionId": 426,
+  "RightSelectionId": 313,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mueller, Lakin and Gaylord",
-  "ShadowProviderName": "Pacocha-Okuneva",
-  "ChartKey": "nam",
-  "LastLoaded": "2004-01-22T12:01:28.2909425+01:00",
-  "LastLoadedBy": 655,
+  "MainProviderName": "Turcotte, Labadie and Buckridge",
+  "ShadowProviderName": "Harvey, Dickens and Halvorson",
+  "ChartKey": "pariatur",
+  "LastLoaded": "2005-04-24T14:32:03.8897524+02:00",
+  "LastLoadedBy": 513,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-13T12:01:28.2909425+01:00",
-  "LastMembershipChangeBy": 69,
+  "LastMembershipChange": "2016-03-14T14:32:03.8897524+01:00",
+  "LastMembershipChangeBy": 846,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugiat",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Thiel LLC",
-  "DashboardTileDefinitionId": 976,
+  "MainHeading": "nemo",
+  "MemberTabHeading": "eaque",
+  "MailingsProviderName": "Zemlak Inc and Sons",
+  "DashboardTileDefinitionId": 364,
   "VisibleFor": [
     {
-      "VisibleId": 926,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     },
     {
-      "VisibleId": 926,
+      "VisibleId": 939,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 972
     }
   }
 }

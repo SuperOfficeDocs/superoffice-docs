@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Gorczany-Runolfsson",
+  "TemplateName": "Hoeger-Christiansen",
   "AllowPersonal": false,
-  "UiCulture": "est"
+  "UiCulture": "laboriosam"
 }
 ```
 

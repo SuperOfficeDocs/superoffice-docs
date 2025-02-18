@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Appointment/GetDayInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2008-11-21T12:01:27.0408377+01:00",
-  "EndDate": "2005-03-26T12:01:27.0408377+01:00",
-  "AssociateId": 374
+  "StartDate": "2002-08-14T14:32:01.6555155+02:00",
+  "EndDate": "2021-07-30T14:32:01.6555155+02:00",
+  "AssociateId": 197
 }
 ```
 
@@ -99,26 +99,26 @@ Content-Type: application/json; charset=utf-8
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2008-05-04T12:01:27.0408377+02:00",
+    "Date": "2009-01-17T14:32:01.6711366+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   },
   {
     "ActivityInformation": null,
     "RedLetterInformation": null,
-    "Date": "2008-05-04T12:01:27.0408377+02:00",
+    "Date": "2009-01-17T14:32:01.6711366+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldType": "System.String",
+        "FieldLength": 12
       }
     }
   }

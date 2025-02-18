@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 773,
-  "Name": "Boyer, Erdman and Gislason",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 946,
-  "Rank": 755
+  "Id": 263,
+  "Name": "Beatty-Torp",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 907,
+  "Rank": 579
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Carter-Conroy",
-  "Tooltip": "libero",
+  "Id": 171,
+  "Name": "Breitenberg-Metz",
+  "Tooltip": "voluptatibus",
   "Deleted": true,
-  "UdListDefinitionId": 575,
-  "Rank": 182,
+  "UdListDefinitionId": 843,
+  "Rank": 299,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   }
 }

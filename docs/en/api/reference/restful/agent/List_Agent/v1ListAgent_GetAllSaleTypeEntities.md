@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 709,
-    "Name": "Hauck, Osinski and Hyatt",
-    "Tooltip": "et",
-    "Rank": 43,
+    "SaleTypeId": 123,
+    "Name": "Walker Group",
+    "Tooltip": "recusandae",
+    "Rank": 507,
     "DurationUnit": "Century",
-    "SaleDuration": 230,
-    "SaleTypeCatId": 300,
+    "SaleDuration": 123,
+    "SaleTypeCatId": 568,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 413,
-    "QuoteLinesTemplate": 881,
-    "ConfirmationLinesTemplate": 58,
+    "DefaultQuoteValidity": 612,
+    "QuoteLinesTemplate": 595,
+    "ConfirmationLinesTemplate": 249,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 245,
-    "MinEarningPercent": 35,
-    "GroupQuoteLinesBy": 786,
-    "SortGroupLinesBy": 201,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 554,
+    "MinEarningPercent": 526,
+    "GroupQuoteLinesBy": 31,
+    "SortGroupLinesBy": 280,
     "Stages": [
       {
-        "Id": 163,
-        "Name": "Wehner, McKenzie and O'Keefe",
-        "ToolTip": "Non eos quidem doloremque adipisci expedita.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "sequi",
-        "ColorBlock": 417,
-        "IconHint": "sed",
-        "Selected": true,
-        "LastChanged": "2003-08-12T12:01:27.9315414+02:00",
+        "Id": 777,
+        "Name": "Stracke-Labadie",
+        "ToolTip": "Et ex voluptatem aspernatur necessitatibus rem.",
+        "Deleted": false,
+        "Rank": 536,
+        "Type": "ex",
+        "ColorBlock": 219,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2022-12-19T14:32:03.0928623+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "placeat",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ullam",
         "Hidden": true,
-        "FullName": "Carlos Collins",
+        "FullName": "Hailee Dickens",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 993
+            "FieldType": "System.Int32",
+            "FieldLength": 975
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 468
+        "FieldLength": 855
       }
     }
   }

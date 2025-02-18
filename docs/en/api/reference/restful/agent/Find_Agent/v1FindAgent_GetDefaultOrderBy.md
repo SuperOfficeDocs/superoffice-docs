@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "delectus",
-  "ProviderName": "Breitenberg-Casper",
-  "StorageKey": "ea"
+  "StorageType": "atque",
+  "ProviderName": "Heidenreich, Batz and Kunde",
+  "StorageKey": "ad"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Towne-Effertz",
+    "Name": "McClure-Fay",
     "Direction": "ASC"
   },
   {
-    "Name": "Towne-Effertz",
+    "Name": "McClure-Fay",
     "Direction": "ASC"
   }
 ]

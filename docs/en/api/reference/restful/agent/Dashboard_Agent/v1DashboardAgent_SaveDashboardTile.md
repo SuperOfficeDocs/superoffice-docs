@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 880,
-  "Caption": "optio",
-  "Description": "Future-proofed mission-critical model",
-  "ChartName": "Boyle Inc and Sons",
-  "ChartId": "amet",
+  "DashboardTileId": 144,
+  "Caption": "veniam",
+  "Description": "Polarised multi-state infrastructure",
+  "ChartName": "Wolff Group",
+  "ChartId": "vel",
   "IsDefault": false,
-  "AssociateId": 600,
-  "GroupId": 215,
-  "SelectionId": 916,
-  "Config": "labore",
+  "AssociateId": 193,
+  "GroupId": 479,
+  "SelectionId": 833,
+  "Config": "autem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Conn LLC",
-      "Description": "Compatible bifurcated ability",
+      "Name": "Schroeder Group",
+      "Description": "Upgradable full-range solution",
       "Type": "Boolean",
-      "ListName": "Shields Inc and Sons",
+      "ListName": "Gerlach-Schinner",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "maiores",
-      "DefaultDataOption": false
+      "Value": "earum",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "ullam"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 85,
       "Visibility": "All",
-      "DisplayValue": "ullam"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 36,
-  "Caption": "fugiat",
-  "Description": "Enhanced bi-directional knowledge base",
-  "ChartName": "Morissette Group",
-  "ChartId": "eos",
+  "DashboardTileId": 129,
+  "Caption": "laborum",
+  "Description": "Implemented maximized challenge",
+  "ChartName": "Kunde LLC",
+  "ChartId": "repellat",
   "IsDefault": true,
-  "AssociateId": 266,
-  "GroupId": 706,
-  "SelectionId": 172,
-  "Config": "quia",
+  "AssociateId": 854,
+  "GroupId": 888,
+  "SelectionId": 596,
+  "Config": "et",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Heidenreich-Ziemann",
-      "Description": "Decentralized static concept",
+      "Name": "Mosciski-Trantow",
+      "Description": "Up-sized zero defect definition",
       "Type": "Boolean",
-      "ListName": "Kunde Inc and Sons",
+      "ListName": "Altenwerth Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "totam",
+      "Value": "minus",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 833
+          "FieldLength": 197
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 155,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldLength": 819
         }
       }
     },
     {
-      "VisibleId": 155,
+      "VisibleId": 157,
       "Visibility": "All",
-      "DisplayValue": "earum",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldLength": 819
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 610
     }
   }
 }

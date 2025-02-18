@@ -89,21 +89,21 @@ OK
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 391,
-  "Value": "sit",
+  "TaskListItemId": 454,
+  "Value": "dolore",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ea",
+  "Tooltip": "repellendus",
   "Deleted": true,
-  "IntentId": 551,
-  "Rank": 165,
+  "IntentId": 191,
+  "Rank": 226,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -116,17 +116,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 395,
-  "Value": "optio",
+  "TaskListItemId": 104,
+  "Value": "a",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "IntentId": 268,
-  "Rank": 619,
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "IntentId": 210,
+  "Rank": 420,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,

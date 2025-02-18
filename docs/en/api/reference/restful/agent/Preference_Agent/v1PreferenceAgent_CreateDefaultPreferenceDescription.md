@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 395,
-  "Section": "autem",
-  "Key": "cupiditate",
-  "Name": "Gibson LLC",
+  "PrefDescId": 516,
+  "Section": "expedita",
+  "Key": "delectus",
+  "Name": "Rutherford LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse fault-tolerant groupware",
-  "IsBuiltin": true,
-  "TableName": "Hammes LLC",
-  "UserDefinedListId": 470,
-  "Rank": 870,
-  "SubGroup": "rem",
-  "MinLevel": 952,
-  "MaxValue": 518,
-  "MinValue": 570,
-  "RequiredLicense": "dolores",
+  "Description": "Intuitive bifurcated emulation",
+  "IsBuiltin": false,
+  "TableName": "Schimmel-Breitenberg",
+  "UserDefinedListId": 231,
+  "Rank": 165,
+  "SubGroup": "officia",
+  "MinLevel": 142,
+  "MaxValue": 422,
+  "MinValue": 634,
+  "RequiredLicense": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 299
     }
   }
 }

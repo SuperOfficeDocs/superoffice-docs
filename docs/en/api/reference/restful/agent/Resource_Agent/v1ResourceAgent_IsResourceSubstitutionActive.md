@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Reilly LLC",
-    "Jenkins, Jenkins and Terry"
+    "Greenholt, Grimes and Skiles",
+    "King Group"
   ],
-  "Culture": "culpa"
+  "Culture": "alias"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Eichmann LLC",
-    "ResourceValue": "et",
-    "Culture": "consequatur",
-    "IsActive": false,
+    "ResourceName": "Heaney-Rolfson",
+    "ResourceValue": "porro",
+    "Culture": "dignissimos",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   },
   {
-    "ResourceName": "Eichmann LLC",
-    "ResourceValue": "et",
-    "Culture": "consequatur",
-    "IsActive": false,
+    "ResourceName": "Heaney-Rolfson",
+    "ResourceValue": "porro",
+    "Culture": "dignissimos",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Schamberger LLC",
-    "Tooltip": "repellendus",
+    "HeadingId": 87,
+    "Name": "Murphy-Dach",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 270,
-    "UdListDefinitionId": 409,
+    "Rank": 265,
+    "UdListDefinitionId": 625,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 850
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

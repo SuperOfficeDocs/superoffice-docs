@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 730,
-  "ConfirmationTemplateId": 151
+  "QuoteVersionId": 722,
+  "ConfirmationTemplateId": 774
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"voluptatum"
 ```

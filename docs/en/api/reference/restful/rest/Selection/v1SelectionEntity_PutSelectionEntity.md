@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized exuding core",
-  "Postit": "sapiente",
+  "Description": "Vision-oriented human-resource installation",
+  "Postit": "nesciunt",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 719,
-  "IncludePerson": 379,
+  "GroupIdx": 9,
+  "IncludePerson": 585,
   "MemberCount": 99.99,
-  "Name": "Ritchie-Thiel",
-  "PostitTextId": 860,
-  "CreatedDate": "2018-03-12T12:01:33.1988321+01:00",
-  "SelectionId": 632,
-  "SoundEx": "sit",
-  "Source": 338,
-  "TextId": 407,
-  "UpdatedDate": "1999-07-06T12:01:33.1988321+02:00",
-  "UpdatedCount": 647,
-  "Visibility": 801,
+  "Name": "Abernathy, Raynor and Metz",
+  "PostitTextId": 50,
+  "CreatedDate": "2001-01-27T14:32:12.0365765+01:00",
+  "SelectionId": 177,
+  "SoundEx": "soluta",
+  "Source": 624,
+  "TextId": 420,
+  "UpdatedDate": "2005-12-31T14:32:12.0365765+01:00",
+  "UpdatedCount": 771,
+  "Visibility": 922,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 954,
-  "TargetTableName": "Waelchi-Rippin",
-  "Completed": true,
-  "LeftSelectionId": 558,
-  "RightSelectionId": 943,
+  "TargetTableNumber": 60,
+  "TargetTableName": "Hermiston-Bradtke",
+  "Completed": false,
+  "LeftSelectionId": 34,
+  "RightSelectionId": 499,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McCullough Inc and Sons",
-  "ShadowProviderName": "Schuppe, Fay and O'Hara",
-  "ChartKey": "doloribus",
-  "LastLoaded": "2021-09-07T12:01:33.1988321+02:00",
-  "LastLoadedBy": 441,
+  "MainProviderName": "Crona LLC",
+  "ShadowProviderName": "Dietrich, Klocko and Gerlach",
+  "ChartKey": "maxime",
+  "LastLoaded": "2007-07-06T14:32:12.0365765+02:00",
+  "LastLoadedBy": 834,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-27T12:01:33.1988321+01:00",
-  "LastMembershipChangeBy": 480,
+  "LastMembershipChange": "2000-05-04T14:32:12.0365765+02:00",
+  "LastMembershipChangeBy": 986,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsum",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "McGlynn LLC",
-  "DashboardTileDefinitionId": 235,
+  "MainHeading": "facilis",
+  "MemberTabHeading": "dignissimos",
+  "MailingsProviderName": "Stamm-Harris",
+  "DashboardTileDefinitionId": 338,
   "VisibleFor": [
     {
-      "VisibleId": 63,
+      "VisibleId": 572,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "repellendus"
     },
     {
-      "VisibleId": 63,
+      "VisibleId": 572,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "repellendus"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent cohesive knowledge base",
-  "Postit": "nihil",
+  "Description": "Ergonomic client-server encoding",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 454,
-  "IncludePerson": 84,
+  "GroupIdx": 38,
+  "IncludePerson": 291,
   "MemberCount": 99.99,
-  "Name": "Nienow Group",
-  "PostitTextId": 583,
-  "CreatedDate": "2022-11-05T12:01:33.1988321+01:00",
-  "SelectionId": 448,
+  "Name": "Wunsch, Langosh and Eichmann",
+  "PostitTextId": 655,
+  "CreatedDate": "1999-12-14T14:32:12.0521982+01:00",
+  "SelectionId": 43,
   "SoundEx": "laborum",
-  "Source": 570,
-  "TextId": 412,
-  "UpdatedDate": "2021-10-17T12:01:33.1988321+02:00",
-  "UpdatedCount": 648,
-  "Visibility": 856,
+  "Source": 996,
+  "TextId": 735,
+  "UpdatedDate": "2008-05-15T14:32:12.0521982+02:00",
+  "UpdatedCount": 528,
+  "Visibility": 666,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 91,
-  "TargetTableName": "Powlowski, Dibbert and McCullough",
+  "TargetTableNumber": 976,
+  "TargetTableName": "Beier, Hahn and Bartell",
   "Completed": true,
-  "LeftSelectionId": 34,
-  "RightSelectionId": 950,
+  "LeftSelectionId": 7,
+  "RightSelectionId": 636,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmidt-Borer",
-  "ShadowProviderName": "Lynch Group",
-  "ChartKey": "dolores",
-  "LastLoaded": "2000-11-06T12:01:33.1988321+01:00",
-  "LastLoadedBy": 267,
+  "MainProviderName": "Kuvalis-Olson",
+  "ShadowProviderName": "Kuhn LLC",
+  "ChartKey": "provident",
+  "LastLoaded": "1999-12-19T14:32:12.0521982+01:00",
+  "LastLoadedBy": 837,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-07T12:01:33.1988321+01:00",
-  "LastMembershipChangeBy": 716,
+  "LastMembershipChange": "2001-07-02T14:32:12.0521982+02:00",
+  "LastMembershipChangeBy": 766,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Willms-Price",
-  "DashboardTileDefinitionId": 35,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "sapiente",
+  "MailingsProviderName": "Jones, Gaylord and Streich",
+  "DashboardTileDefinitionId": 171,
   "VisibleFor": [
     {
-      "VisibleId": 885,
+      "VisibleId": 798,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 211
         }
       }
     },
     {
-      "VisibleId": 885,
+      "VisibleId": 798,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 211
         }
       }
     }
@@ -299,7 +299,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 854
     }
   },
   "_Links": {

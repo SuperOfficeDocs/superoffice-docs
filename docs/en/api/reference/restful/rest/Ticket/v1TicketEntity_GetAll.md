@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=cumque
-GET /api/v1/Ticket?$top=374
-GET /api/v1/Ticket?$skip=422
+GET /api/v1/Ticket?$entities=eos
+GET /api/v1/Ticket?$top=737
+GET /api/v1/Ticket?$skip=510
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=provident
+GET /api/v1/Ticket?$context=animi
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=False
+GET /api/v1/Ticket?$jsonSafe=True
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "facilis",
+  "odata.nextLink": "ut",
   "value": [
     {
-      "PrimaryKey": 5607,
-      "EntityName": "person",
-      "personId": 5607,
-      "fullName": "Jose Zboncak"
+      "PrimaryKey": 8601,
+      "EntityName": "sale",
+      "saleId": 8601,
+      "contactId": 1906,
+      "name": "Gulgowski-Lakin"
     },
     {
-      "PrimaryKey": 2596,
-      "EntityName": "person",
-      "personId": 2596,
-      "fullName": "Etha Alfredo Von DDS"
+      "PrimaryKey": 7041,
+      "EntityName": "sale",
+      "saleId": 7041,
+      "contactId": 1418,
+      "name": "Oberbrunner Group"
     }
   ]
 }

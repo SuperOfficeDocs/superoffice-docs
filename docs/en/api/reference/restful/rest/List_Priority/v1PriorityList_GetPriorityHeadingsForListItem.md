@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Abshire LLC",
-    "ToolTip": "Ea aut veritatis voluptas rerum.",
+    "Id": 437,
+    "Name": "Roberts, O'Connell and Mosciski",
+    "ToolTip": "Qui voluptas aut est.",
     "Deleted": false,
-    "Rank": 497,
-    "Type": "dolore",
-    "ColorBlock": 390,
-    "IconHint": "voluptas",
+    "Rank": 881,
+    "Type": "quam",
+    "ColorBlock": 158,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2004-03-21T12:01:33.5582313+01:00",
+    "LastChanged": "2011-04-03T14:32:12.72392+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Molestias dolor ut.",
-        "Deleted": false,
-        "Rank": 56,
-        "Type": "vel",
-        "ColorBlock": 922,
-        "IconHint": "quia",
+        "Id": 418,
+        "Name": "Greenholt, Emard and Schultz",
+        "ToolTip": "Dolorem suscipit explicabo dolorum et.",
+        "Deleted": true,
+        "Rank": 541,
+        "Type": "excepturi",
+        "ColorBlock": 532,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2019-11-05T12:01:33.5582313+01:00",
+        "LastChanged": "2014-04-28T14:32:12.72392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Theron Ferry",
+        "ExtraInfo": "quas",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Dr. Pete Justyn Dach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 373
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Duane Walter",
+    "ExtraInfo": "magni",
+    "StyleHint": "ipsa",
+    "Hidden": true,
+    "FullName": "Walton Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldLength": 926
       }
     }
   }

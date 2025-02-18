@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 470,
-    "ColumnId": 944,
-    "FieldDefault": "dolor",
-    "FieldHeight": 394,
-    "FieldLabel": "sed",
-    "FieldLeft": 732,
-    "FieldTop": 248,
+    "UDefFieldId": 374,
+    "ColumnId": 93,
+    "FieldDefault": "in",
+    "FieldHeight": 764,
+    "FieldLabel": "omnis",
+    "FieldLeft": 61,
+    "FieldTop": 802,
     "FieldType": "Checkbox",
-    "FieldWidth": 318,
-    "FormatMask": "est",
+    "FieldWidth": 943,
+    "FormatMask": "porro",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 598,
-    "LabelLeft": 64,
-    "LabelTop": 596,
-    "LabelWidth": 227,
-    "LastVersionId": 440,
-    "ListTableId": 455,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 307,
+    "LabelLeft": 821,
+    "LabelTop": 761,
+    "LabelWidth": 977,
+    "LastVersionId": 383,
+    "ListTableId": 986,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 567,
-    "ProgId": "ab",
+    "Page1LineNo": 308,
+    "ProgId": "commodi",
     "IsReadOnly": false,
-    "ShortLabel": "rerum",
-    "TabOrder": 899,
-    "TextLength": 549,
-    "Tooltip": "ratione",
-    "UdefIdentity": 603,
-    "UDListDefinitionId": 307,
+    "ShortLabel": "quaerat",
+    "TabOrder": 641,
+    "TextLength": 37,
+    "Tooltip": "magnam",
+    "UdefIdentity": 568,
+    "UDListDefinitionId": 181,
     "Justification": "Center",
-    "Version": 627,
-    "TemplateVariableName": "Roob-Wintheiser",
+    "Version": 446,
+    "TemplateVariableName": "Williamson, Harvey and Jacobi",
     "HasBeenPublished": false,
-    "MdoListName": "Torp-Lemke",
+    "MdoListName": "McGlynn Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldLength": 304
       }
     }
   }

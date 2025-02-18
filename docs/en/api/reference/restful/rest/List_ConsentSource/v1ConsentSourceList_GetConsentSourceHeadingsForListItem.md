@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Bogan-Kovacek",
-    "ToolTip": "Eaque sit consequuntur accusamus facere ad quo sunt.",
-    "Deleted": true,
-    "Rank": 813,
-    "Type": "fugit",
-    "ColorBlock": 897,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2024-01-18T12:01:33.4644748+01:00",
+    "Id": 21,
+    "Name": "Maggio, Murray and Marquardt",
+    "ToolTip": "Aperiam et repellendus omnis distinctio id maiores quia.",
+    "Deleted": false,
+    "Rank": 147,
+    "Type": "recusandae",
+    "ColorBlock": 530,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2016-10-30T14:32:12.5364687+01:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Bartoletti-Kling",
-        "ToolTip": "Facere ea necessitatibus voluptatum omnis ea.",
+        "Id": 216,
+        "Name": "McLaughlin, Veum and Dietrich",
+        "ToolTip": "Consequatur voluptatem labore.",
         "Deleted": false,
-        "Rank": 117,
-        "Type": "voluptates",
-        "ColorBlock": 873,
-        "IconHint": "omnis",
+        "Rank": 397,
+        "Type": "nisi",
+        "ColorBlock": 16,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2020-12-04T12:01:33.4644748+01:00",
+        "LastChanged": "2013-03-28T14:32:12.5364687+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Kiana Lockman",
+        "ExtraInfo": "eos",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Alberta Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 519
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "eum",
+    "ExtraInfo": "ut",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Dr. Fabian Nathanael Rice",
+    "FullName": "Don Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

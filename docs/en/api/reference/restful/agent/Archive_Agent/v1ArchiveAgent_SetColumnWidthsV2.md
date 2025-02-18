@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Quitzon, Kirlin and Cartwright",
-  "ProviderName": "Borer, Trantow and Shanahan",
-  "Context": "odio",
-  "OwnerKeys": "quo",
+  "GuiName": "Murazik Inc and Sons",
+  "ProviderName": "Dach, Stamm and Renner",
+  "Context": "aut",
+  "OwnerKeys": "voluptate",
   "ColumnWidths": [
-    "autem",
-    "aut"
+    "sed",
+    "et"
   ]
 }
 ```

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kessler, Robel and Ryan",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Williamson-Labadie",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Parker-Glover",
-    "Tooltip": "et",
+    "Id": 215,
+    "Name": "Klein Inc and Sons",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "UdListDefinitionId": 115,
-    "Rank": 404,
+    "UdListDefinitionId": 697,
+    "Rank": 19,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 1002
       }
     }
   }

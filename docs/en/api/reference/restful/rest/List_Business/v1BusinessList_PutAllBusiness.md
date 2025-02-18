@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 911,
-    "Name": "Welch, Wunsch and Hane",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "UdListDefinitionId": 833,
-    "Rank": 336
+    "Id": 297,
+    "Name": "Marvin-Davis",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 892,
+    "Rank": 254
   },
   {
-    "Id": 911,
-    "Name": "Welch, Wunsch and Hane",
-    "Tooltip": "vitae",
-    "Deleted": false,
-    "UdListDefinitionId": 833,
-    "Rank": 336
+    "Id": 297,
+    "Name": "Marvin-Davis",
+    "Tooltip": "sequi",
+    "Deleted": true,
+    "UdListDefinitionId": 892,
+    "Rank": 254
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Luettgen, Mueller and Satterfield",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "UdListDefinitionId": 800,
-    "Rank": 812,
+    "Id": 720,
+    "Name": "Wolff, Mante and Mitchell",
+    "Tooltip": "et",
+    "Deleted": true,
+    "UdListDefinitionId": 276,
+    "Rank": 490,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 877
       }
     }
   }

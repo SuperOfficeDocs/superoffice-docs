@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=True
+GET /api/v1/List/ProjectType/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Balistreri Inc and Sons",
-    "Tooltip": "aperiam",
-    "Deleted": true,
-    "UdListDefinitionId": 351,
-    "Rank": 951,
+    "Id": 801,
+    "Name": "Monahan-Nikolaus",
+    "Tooltip": "est",
+    "Deleted": false,
+    "UdListDefinitionId": 42,
+    "Rank": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 963
+        "FieldLength": 205
       }
     }
   }

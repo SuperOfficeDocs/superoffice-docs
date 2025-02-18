@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 458,
+  "DocumentId": 711,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "itaque",
-  "Name": "Upton-Klein",
-  "OurRef": "quo",
-  "YourRef": "quo",
-  "CreatedDate": "2014-11-09T12:01:32.8863099+01:00",
-  "UpdatedDate": "2004-03-20T12:01:32.8863099+01:00",
-  "Description": "Programmable well-modulated forecast",
+  "Attention": "voluptatem",
+  "Header": "nihil",
+  "Name": "Buckridge, Walker and Gibson",
+  "OurRef": "autem",
+  "YourRef": "similique",
+  "CreatedDate": "2001-07-07T14:32:11.4585823+02:00",
+  "UpdatedDate": "2021-10-10T14:32:11.4585823+02:00",
+  "Description": "Reactive assymetric intranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-04-23T12:01:32.8863099+02:00",
-  "ExternalRef": "nemo",
+  "Date": "2015-08-04T14:32:11.4585823+02:00",
+  "ExternalRef": "debitis",
   "Completed": "Completed",
-  "ActiveLinks": 868,
+  "ActiveLinks": 183,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pouros Inc and Sons",
-      "Id": 944,
-      "Description": "Decentralized eco-centric architecture",
-      "ExtraInfo": "aut",
-      "LinkId": 827,
+      "EntityName": "Ritchie Inc and Sons",
+      "Id": 272,
+      "Description": "Team-oriented asynchronous data-warehouse",
+      "ExtraInfo": "sint",
+      "LinkId": 462,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 687,
-  "Snum": 824,
+  "SuggestedDocumentId": 493,
+  "Snum": 642,
   "UserDefinedFields": {
-    "SuperOffice:1": "Estrella Katharina Veum MD",
-    "SuperOffice:2": "Johnny Funk"
+    "SuperOffice:1": "Clara Deckow DVM",
+    "SuperOffice:2": "Annamarie Bahringer"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "est"
+    "ExtraFields1": "nisi",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "aut"
+    "CustomFields1": "ut",
+    "CustomFields2": "aliquid"
   },
-  "PublishEventDate": "2023-09-24T12:01:32.8863099+02:00",
-  "PublishTo": "2006-07-13T12:01:32.8863099+02:00",
-  "PublishFrom": "2009-08-09T12:01:32.8863099+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-01-09T14:32:11.4585823+01:00",
+  "PublishTo": "2011-11-30T14:32:11.4585823+01:00",
+  "PublishFrom": "2024-12-30T14:32:11.4585823+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 32,
+      "VisibleId": 733,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 932
         }
       }
     },
     {
-      "VisibleId": 32,
+      "VisibleId": 733,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 932
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 109
     }
   },
   "_Links": {

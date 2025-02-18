@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 423,
-    "Name": "Wehner Inc and Sons",
-    "Description": "Object-based 3rd generation methodology",
+    "ProjectId": 740,
+    "Name": "Reichel-Lockman",
+    "Description": "Organic dedicated database",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 107,
-    "AssociateFullName": "Mr. Marisa Lawson Dicki I",
-    "TypeId": 38,
-    "Updated": "2009-08-19T12:01:28.1659327+02:00",
-    "StatusId": 837,
-    "Status": "itaque",
-    "TextId": 504,
-    "PublishTo": "2008-08-14T12:01:28.1659327+02:00",
-    "PublishFrom": "2003-07-12T12:01:28.1659327+02:00",
+    "Type": "libero",
+    "AssociateId": 552,
+    "AssociateFullName": "Judy Greenfelder III",
+    "TypeId": 989,
+    "Updated": "2000-05-05T14:32:03.5148359+02:00",
+    "StatusId": 101,
+    "Status": "aut",
+    "TextId": 122,
+    "PublishTo": "2008-10-03T14:32:03.5148359+02:00",
+    "PublishFrom": "2002-04-27T14:32:03.5148359+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "792704",
-    "ActiveErpLinks": 513,
+    "ProjectNumber": "952145",
+    "ActiveErpLinks": 963,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 470
       }
     }
   }

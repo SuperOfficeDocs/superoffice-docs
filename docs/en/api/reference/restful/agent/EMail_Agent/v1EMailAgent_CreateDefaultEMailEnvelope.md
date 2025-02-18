@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 809,
-  "MessageId": "exercitationem",
-  "Subject": "architecto",
+  "ServerId": 452,
+  "MessageId": "veniam",
+  "Subject": "saepe",
   "From": null,
   "To": [
     {
-      "ContactId": 499,
-      "ContactName": "Nader-Mills",
-      "PersonId": 900,
-      "PersonName": "Klocko LLC",
-      "AssociateId": 859,
-      "Address": "optio",
-      "EmailId": 337,
+      "ContactId": 534,
+      "ContactName": "Becker Group",
+      "PersonId": 209,
+      "PersonName": "Schowalter-Gaylord",
+      "AssociateId": 590,
+      "Address": "illo",
+      "EmailId": 960,
       "DuplicatePersonIds": [
-        46,
-        950
+        484,
+        503
       ],
-      "Name": "Maggio Group",
+      "Name": "Kiehn-Kuvalis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 67
         }
       }
     }
   ],
-  "Sent": "2021-02-17T12:01:27.8221586+01:00",
+  "Sent": "2006-05-17T14:32:02.8741609+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 794,
+  "Size": 702,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 842
     }
   }
 }

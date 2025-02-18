@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 729,
-  "StartTime": "2013-12-11T12:01:27.0095855+01:00",
-  "EndTime": "1998-09-25T12:01:27.0095855+02:00",
-  "Count": 37,
-  "TaskId": 584
+  "ContactId": 816,
+  "StartTime": "2002-09-26T14:32:01.4836784+02:00",
+  "EndTime": "2023-12-07T14:32:01.4836784+01:00",
+  "Count": 621,
+  "TaskId": 398
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 424,
-    "StartDate": "2014-10-28T12:01:27.0095855+01:00",
-    "EndDate": "2019-02-07T12:01:27.0095855+01:00",
+    "AppointmentId": 591,
+    "StartDate": "2001-03-04T14:32:01.4993032+01:00",
+    "EndDate": "2017-01-17T14:32:01.4993032+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dolor",
-    "AssociateFullName": "Ms. Pearlie Merlin Borer",
-    "ContactName": "Ledner, Gleichner and Schuppe",
-    "Description": "Upgradable fresh-thinking software",
-    "PersonFullName": "Dr. Kari Gisselle McLaughlin DDS",
-    "PersonId": 333,
-    "ContactId": 19,
-    "ProjectId": 488,
-    "ProjectName": "Dicki-Jerde",
-    "IsPublished": true,
-    "AssociateId": 448,
-    "ColorIndex": 590,
-    "IsFree": false,
+    "Task": "et",
+    "AssociateFullName": "Prof. Guido Gillian Raynor",
+    "ContactName": "D'Amore-Hahn",
+    "Description": "Fully-configurable attitude-oriented focus group",
+    "PersonFullName": "Pinkie Boyer",
+    "PersonId": 215,
+    "ContactId": 751,
+    "ProjectId": 691,
+    "ProjectName": "Corkery-Glover",
+    "IsPublished": false,
+    "AssociateId": 698,
+    "ColorIndex": 44,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 836,
-    "PriorityName": "Hirthe, Lynch and Berge",
+    "PriorityId": 203,
+    "PriorityName": "Jerde-Armstrong",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2024-03-10T12:01:27.0095855+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2007-11-18T14:32:01.4993032+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-08T12:01:27.0095855+02:00",
-    "RecurringEndDate": "1999-02-18T12:01:27.0095855+01:00",
-    "MotherId": 321,
-    "AssignedBy": 709,
-    "AssignedByFullName": "Dudley Kemmer",
+    "RecurringStartDate": "2024-08-21T14:32:01.4993032+02:00",
+    "RecurringEndDate": "2000-02-24T14:32:01.4993032+01:00",
+    "MotherId": 664,
+    "AssignedBy": 396,
+    "AssignedByFullName": "Shaina Shields",
     "RejectReason": "",
-    "Location": "voluptatibus",
-    "AlarmLeadTime": "vitae",
-    "SaleId": 795,
-    "SaleName": "Corkery, Crona and Carter",
-    "AssociateName": "Boyle, Heathcote and Smitham",
-    "CreatedDate": "2022-05-30T12:01:27.0095855+02:00",
-    "CreatedBy": "itaque",
-    "CreatedByFullName": "Juvenal Simonis",
-    "CreatedByAssociateId": 56,
+    "Location": "praesentium",
+    "AlarmLeadTime": "repudiandae",
+    "SaleId": 763,
+    "SaleName": "Schroeder-Rosenbaum",
+    "AssociateName": "Cassin-Huels",
+    "CreatedDate": "2018-12-10T14:32:01.4993032+01:00",
+    "CreatedBy": "aliquid",
+    "CreatedByFullName": "Dion Goyette",
+    "CreatedByAssociateId": 825,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 638,
-    "Title": "velit",
-    "Agenda": "non",
-    "InternalNotes": "cum",
+    "PreferredTZLocation": 868,
+    "Title": "ducimus",
+    "Agenda": "est",
+    "InternalNotes": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 982
       }
     }
   }

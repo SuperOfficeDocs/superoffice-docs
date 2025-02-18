@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 976,
-  "Count": 823
+  "AmountLimit": 705,
+  "Count": 355
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kreiger LLC",
-    "SaleDate": "2022-05-07T12:01:28.2596899+02:00",
-    "SaleId": 798,
-    "Probability": 698,
-    "Title": "amet",
-    "Amount": 880.654,
-    "Currency": "est",
-    "ProjectName": "Kohler, Hintz and Bergnaum",
-    "AssociateFullName": "Rebeca Cummings",
-    "Description": "Intuitive impactful implementation",
+    "ContactName": "Williamson, Hammes and Harber",
+    "SaleDate": "2012-11-08T14:32:03.7022941+01:00",
+    "SaleId": 319,
+    "Probability": 275,
+    "Title": "voluptatibus",
+    "Amount": 11382.688,
+    "Currency": "error",
+    "ProjectName": "Mante, O'Keefe and Kuhlman",
+    "AssociateFullName": "Randi Bergnaum",
+    "Description": "Pre-emptive exuding workforce",
     "Status": "Lost",
-    "WeightedAmount": 12420.042,
-    "ProjectId": 261,
-    "EarningPercent": 25169.154,
-    "Earning": 9420.804,
-    "ContactId": 271,
-    "AssociateId": 147,
-    "PersonId": 438,
-    "SaleTypeId": 236,
-    "SaleTypeName": "Heaney Group",
-    "PersonFullName": "Kaela Blanda",
+    "WeightedAmount": 20659.327999999998,
+    "ProjectId": 691,
+    "EarningPercent": 28933.088,
+    "Earning": 639.336,
+    "ContactId": 200,
+    "AssociateId": 702,
+    "PersonId": 824,
+    "SaleTypeId": 247,
+    "SaleTypeName": "Prohaska, Wisozk and Stracke",
+    "PersonFullName": "Kyleigh Parisian",
     "Completed": "Completed",
-    "ActiveErpLinks": 328,
-    "NextDueDate": "2008-09-13T12:01:28.2596899+02:00",
-    "Number": "873402",
+    "ActiveErpLinks": 1001,
+    "NextDueDate": "2006-05-13T14:32:03.7022941+02:00",
+    "Number": "489229",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldLength": 644
       }
     }
   }

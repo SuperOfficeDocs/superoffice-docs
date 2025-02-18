@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Nolan, Windler and Gutkowski",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 215,
+  "Id": 473,
+  "Name": "Weissnat-Dooley",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "UdListDefinitionId": 640,
+  "Rank": 900,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 818
     }
   }
 }

@@ -25,7 +25,7 @@ Gets all the Business items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Business/Items?includeDeleted=False
+GET /api/v1/List/Business/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Turcotte LLC",
-    "Tooltip": "corrupti",
+    "Id": 10,
+    "Name": "Ferry Group",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "UdListDefinitionId": 345,
-    "Rank": 805,
+    "UdListDefinitionId": 92,
+    "Rank": 932,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 324
+        "FieldLength": 674
       }
     }
   }

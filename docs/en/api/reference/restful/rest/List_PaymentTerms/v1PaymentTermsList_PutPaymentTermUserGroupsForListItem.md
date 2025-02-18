@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Jewess Group",
-    "ToolTip": "Consequatur nobis officia.",
-    "Deleted": false,
-    "Rank": 238,
-    "Type": "et",
-    "ColorBlock": 892,
-    "IconHint": "cum",
-    "Selected": true,
-    "LastChanged": "2002-02-18T12:01:33.5426053+01:00",
+    "Id": 768,
+    "Name": "Hills-Berge",
+    "ToolTip": "Sunt et necessitatibus ea eum.",
+    "Deleted": true,
+    "Rank": 761,
+    "Type": "excepturi",
+    "ColorBlock": 502,
+    "IconHint": "reiciendis",
+    "Selected": false,
+    "LastChanged": "2022-04-04T14:32:12.6770562+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Harris, Stoltenberg and Sipes",
-        "ToolTip": "Soluta eius nihil reiciendis unde voluptatem hic.",
+        "Id": 971,
+        "Name": "Labadie Group",
+        "ToolTip": "Voluptas ipsa iusto assumenda voluptatem exercitationem.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "sunt",
-        "ColorBlock": 343,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2000-03-18T12:01:33.5426053+01:00",
+        "Rank": 779,
+        "Type": "perferendis",
+        "ColorBlock": 149,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2024-09-01T14:32:12.6770562+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "ullam",
+        "ExtraInfo": "et",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Prof. Otto Sawayn DDS"
+        "FullName": "Ms. Lacey Marisa Wiegand"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "quos",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Chelsie Jayden Labadie Jr."
+    "FullName": "Flavio Keeling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Haley LLC",
-    "ToolTip": "Soluta est quibusdam repellat aut.",
-    "Deleted": false,
+    "Id": 782,
+    "Name": "Bergstrom-Littel",
+    "ToolTip": "Qui et consequatur non ad repellendus sit explicabo.",
+    "Deleted": true,
     "Rank": 380,
-    "Type": "dolores",
-    "ColorBlock": 618,
-    "IconHint": "iure",
+    "Type": "quia",
+    "ColorBlock": 31,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "1997-12-14T12:01:33.5426053+01:00",
+    "LastChanged": "2009-05-04T14:32:12.6770562+02:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Shanahan-O'Conner",
-        "ToolTip": "Necessitatibus deleniti et quibusdam voluptatem nesciunt et.",
+        "Id": 495,
+        "Name": "Sauer Group",
+        "ToolTip": "Dignissimos voluptatem ut esse.",
         "Deleted": false,
-        "Rank": 27,
-        "Type": "alias",
-        "ColorBlock": 22,
-        "IconHint": "fugit",
+        "Rank": 476,
+        "Type": "natus",
+        "ColorBlock": 782,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2000-12-22T12:01:33.5426053+01:00",
+        "LastChanged": "2022-12-30T14:32:12.6770562+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Judah Angela Sipes IV",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Prof. Franz Kassulke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldType": "System.String",
+            "FieldLength": 876
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "tempora",
-    "Hidden": true,
-    "FullName": "Johathan Mills",
+    "ExtraInfo": "dicta",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Miss George Anthony Smith Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 13
       }
     }
   }

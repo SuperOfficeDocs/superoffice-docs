@@ -25,7 +25,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Kihn, Abbott and Conn",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "UdListDefinitionId": 261,
-    "Rank": 298,
+    "Id": 961,
+    "Name": "Mohr, Koss and Runte",
+    "Tooltip": "suscipit",
+    "Deleted": false,
+    "UdListDefinitionId": 271,
+    "Rank": 326,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldLength": 800
       }
     }
   }

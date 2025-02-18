@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hyatt, Bauch and Frami"
+  "Name": "Thiel, Brekke and Jacobs"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Cormier Inc and Sons",
-    "ToolTip": "Aut maiores.",
+    "Id": 359,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Et cum tempora possimus nam at cumque.",
     "Deleted": false,
-    "Rank": 433,
-    "Type": "voluptatum",
+    "Rank": 788,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Bartell, Zulauf and Gleichner",
-        "ToolTip": "Incidunt corporis beatae suscipit modi praesentium.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "eaque",
+        "Id": 790,
+        "Name": "Schuster Inc and Sons",
+        "ToolTip": "Adipisci dolorum impedit et est minima dicta eos.",
+        "Deleted": false,
+        "Rank": 897,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 522,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "repellendus",
-        "FullName": "Maryam Rosenbaum",
+        "IconHint": "eos",
+        "ColorBlock": 789,
+        "ExtraInfo": "autem",
+        "StyleHint": "voluptatem",
+        "FullName": "Einar Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 660
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 474,
-    "ExtraInfo": "atque",
-    "StyleHint": "reiciendis",
-    "FullName": "Jarod Wehner",
+    "IconHint": "odio",
+    "ColorBlock": 87,
+    "ExtraInfo": "quas",
+    "StyleHint": "et",
+    "FullName": "Prof. Jayne Modesta Lehner MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 731
       }
     }
   }

@@ -112,18 +112,18 @@ Dashboard  updated.
 PATCH /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quo",
+    "path": "modi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quo",
+    "path": "modi",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 217,
-  "AssociateId": 118,
-  "Caption": "quia",
+  "DashboardId": 293,
+  "AssociateId": 292,
+  "Caption": "culpa",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 40,
-      "Caption": "ad",
-      "Description": "Triple-buffered discrete data-warehouse",
-      "ChartName": "Bartell, Nienow and Stehr",
-      "ChartId": "quo",
-      "IsDefault": true,
-      "AssociateId": 662,
-      "GroupId": 497,
-      "SelectionId": 193,
-      "Config": "maxime",
+      "DashboardTileId": 254,
+      "Caption": "aut",
+      "Description": "Virtual national definition",
+      "ChartName": "Nolan Inc and Sons",
+      "ChartId": "magni",
+      "IsDefault": false,
+      "AssociateId": 212,
+      "GroupId": 564,
+      "SelectionId": 614,
+      "Config": "atque",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 466
+          "FieldType": "System.Int32",
+          "FieldLength": 542
         }
       }
     }
@@ -177,12 +177,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldLength": 14
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

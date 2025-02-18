@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Wilkinson, Heaney and Prohaska",
-    "ToolTip": "Sint laborum excepturi.",
+    "Id": 960,
+    "Name": "Schmitt Inc and Sons",
+    "ToolTip": "Blanditiis odio ducimus alias.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "cumque",
-    "ColorBlock": 798,
-    "IconHint": "quod",
-    "Selected": false,
-    "LastChanged": "2005-11-13T12:01:33.6832402+01:00",
+    "Rank": 745,
+    "Type": "eligendi",
+    "ColorBlock": 514,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2016-08-26T14:32:12.9584781+02:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Daniel-Mitchell",
-        "ToolTip": "Cum debitis ullam non eum alias.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "autem",
-        "ColorBlock": 348,
-        "IconHint": "sit",
+        "Id": 997,
+        "Name": "Gulgowski-Haley",
+        "ToolTip": "Animi quidem maiores numquam sunt aut fuga.",
+        "Deleted": false,
+        "Rank": 469,
+        "Type": "non",
+        "ColorBlock": 886,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2006-07-27T12:01:33.6832402+02:00",
+        "LastChanged": "2006-02-26T14:32:12.9584781+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Ole Pouros",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Mrs. Wilhelm Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 680
+            "FieldType": "System.Int32",
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Jacinthe Wiegand",
+    "ExtraInfo": "et",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Mrs. Aric Zemlak IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 230
       }
     }
   }

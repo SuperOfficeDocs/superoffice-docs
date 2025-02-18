@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Aufderhar-Feeney",
-  "ListItemId": 250,
+  "UdListDefinitionName": "Wilkinson Group",
+  "ListItemId": 403,
   "UserGroups": [
     {
-      "Id": 296,
-      "Name": "Zemlak Group",
-      "ToolTip": "Est sed consequatur non non quia.",
-      "Deleted": true,
-      "Rank": 92,
-      "Type": "autem",
-      "ColorBlock": 3,
-      "IconHint": "sit",
+      "Id": 386,
+      "Name": "Haag, Nitzsche and Daugherty",
+      "ToolTip": "Accusantium facilis aut reiciendis sint ut excepturi repellat.",
+      "Deleted": false,
+      "Rank": 790,
+      "Type": "ut",
+      "ColorBlock": 954,
+      "IconHint": "et",
       "Selected": true,
-      "LastChanged": "2008-06-23T12:01:27.9471677+02:00",
+      "LastChanged": "2008-06-12T14:32:03.1084824+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "provident",
-      "Hidden": false,
-      "FullName": "Dr. Stan Fernando Lindgren Jr."
+      "ExtraInfo": "at",
+      "StyleHint": "ullam",
+      "Hidden": true,
+      "FullName": "Mr. Esmeralda Haley"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Kunde, Spencer and Wiegand",
-    "ToolTip": "Quia laudantium sed assumenda et.",
+    "Id": 33,
+    "Name": "Rippin Inc and Sons",
+    "ToolTip": "Ut placeat nemo placeat laborum et recusandae voluptas.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "voluptatem",
-    "ColorBlock": 587,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2024-02-26T12:01:27.9471677+01:00",
+    "Rank": 805,
+    "Type": "accusantium",
+    "ColorBlock": 22,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2023-10-30T14:32:03.1084824+01:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Haley-Williamson",
-        "ToolTip": "Ut quos saepe beatae dignissimos.",
-        "Deleted": false,
-        "Rank": 721,
-        "Type": "vitae",
-        "ColorBlock": 174,
-        "IconHint": "et",
+        "Id": 601,
+        "Name": "Schmitt Inc and Sons",
+        "ToolTip": "Dolores nesciunt veritatis sit quaerat rerum.",
+        "Deleted": true,
+        "Rank": 366,
+        "Type": "consequatur",
+        "ColorBlock": 309,
+        "IconHint": "quas",
         "Selected": false,
-        "LastChanged": "2002-05-14T12:01:27.9471677+02:00",
+        "LastChanged": "2004-11-26T14:32:03.1084824+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "eos",
+        "ExtraInfo": "ut",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Kurtis Lemke DVM",
+        "FullName": "Rollin Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ms. August Kurtis Schuppe II",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "tempora",
+    "Hidden": true,
+    "FullName": "Hailey Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 461
       }
     }
   }

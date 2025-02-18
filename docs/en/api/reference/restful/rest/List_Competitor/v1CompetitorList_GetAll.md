@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Hintz-Doyle",
-    "Tooltip": "earum",
-    "Deleted": true,
-    "UdListDefinitionId": 376,
-    "Rank": 590,
+    "Id": 73,
+    "Name": "Ledner, Mosciski and Mante",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 772,
+    "Rank": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 299
       }
     }
   }

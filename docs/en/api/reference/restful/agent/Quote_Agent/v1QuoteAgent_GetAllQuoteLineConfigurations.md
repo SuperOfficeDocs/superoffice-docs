@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 161,
-    "FieldName": "Ebert-Huel",
+    "QuoteLineConfigurationId": 351,
+    "FieldName": "Gottlieb-Denesik",
     "Label": "et",
-    "Tooltip": "sint",
+    "Tooltip": "incidunt",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 655,
+    "Mandatory": false,
+    "Rank": 253,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 963
       }
     }
   }

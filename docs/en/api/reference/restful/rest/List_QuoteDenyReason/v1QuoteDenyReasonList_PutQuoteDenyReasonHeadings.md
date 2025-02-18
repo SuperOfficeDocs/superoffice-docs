@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 48,
-    "Name": "Johnson-Quitzon",
-    "Tooltip": "voluptatem",
+    "HeadingId": 430,
+    "Name": "Fisher LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 184
+    "Rank": 405,
+    "UdListDefinitionId": 135
   },
   {
-    "HeadingId": 48,
-    "Name": "Johnson-Quitzon",
-    "Tooltip": "voluptatem",
+    "HeadingId": 430,
+    "Name": "Fisher LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 558,
-    "UdListDefinitionId": 184
+    "Rank": 405,
+    "UdListDefinitionId": 135
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 722,
-    "Name": "Orn Inc and Sons",
-    "Tooltip": "odio",
-    "Deleted": true,
-    "Rank": 874,
-    "UdListDefinitionId": 985,
+    "HeadingId": 742,
+    "Name": "Hilpert, Luettgen and Jacobi",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 863,
+    "UdListDefinitionId": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 946,
-    "Name": "Carroll-Prosacco",
-    "Tooltip": "provident",
-    "Deleted": false,
-    "UdListDefinitionId": 185,
-    "Rank": 606,
+    "Id": 329,
+    "Name": "Cronin, Parker and Rowe",
+    "Tooltip": "impedit",
+    "Deleted": true,
+    "UdListDefinitionId": 446,
+    "Rank": 863,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 748
+        "FieldType": "System.String",
+        "FieldLength": 857
       }
     }
   }

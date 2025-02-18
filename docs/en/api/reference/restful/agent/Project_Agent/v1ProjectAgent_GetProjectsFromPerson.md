@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 579
+  "PersonId": 643
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 342,
-    "Name": "Howell Inc and Sons",
-    "Description": "Function-based scalable capacity",
+    "ProjectId": 658,
+    "Name": "Halvorson, Kreiger and Schowalter",
+    "Description": "Re-contextualized mission-critical benchmark",
     "URL": "http://www.example.com/",
-    "Type": "quis",
-    "AssociateId": 473,
-    "AssociateFullName": "Mrs. Angelita Bosco Jr.",
-    "TypeId": 800,
-    "Updated": "2011-07-30T12:01:28.1659327+02:00",
-    "StatusId": 45,
-    "Status": "maxime",
-    "TextId": 818,
-    "PublishTo": "2022-08-18T12:01:28.1659327+02:00",
-    "PublishFrom": "2011-04-30T12:01:28.1659327+02:00",
-    "IsPublished": false,
+    "Type": "aut",
+    "AssociateId": 77,
+    "AssociateFullName": "Ms. Delbert Sporer",
+    "TypeId": 519,
+    "Updated": "2003-09-10T14:32:03.5148359+02:00",
+    "StatusId": 424,
+    "Status": "ad",
+    "TextId": 355,
+    "PublishTo": "2007-10-26T14:32:03.5148359+02:00",
+    "PublishFrom": "2024-07-22T14:32:03.5148359+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "114271",
-    "ActiveErpLinks": 733,
+    "ProjectNumber": "731963",
+    "ActiveErpLinks": 296,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 973
       }
     }
   }

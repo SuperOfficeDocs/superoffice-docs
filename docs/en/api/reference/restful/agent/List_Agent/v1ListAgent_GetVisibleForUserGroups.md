@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 333,
-  "ListItemId": 454
+  "UdListDefinitionId": 914,
+  "ListItemId": 150
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "O'Hara-Hilll",
-    "ToolTip": "In sit officiis.",
-    "Deleted": false,
-    "Rank": 714,
-    "Type": "necessitatibus",
-    "ColorBlock": 656,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2012-04-20T12:01:27.9471677+02:00",
+    "Id": 849,
+    "Name": "Bosco LLC",
+    "ToolTip": "Vitae voluptas quod temporibus.",
+    "Deleted": true,
+    "Rank": 806,
+    "Type": "ipsa",
+    "ColorBlock": 16,
+    "IconHint": "error",
+    "Selected": true,
+    "LastChanged": "1998-02-28T14:32:03.1084824+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Altenwerth Group",
-        "ToolTip": "Iure odio.",
+        "Id": 858,
+        "Name": "Kovacek-Gerhold",
+        "ToolTip": "Sint similique et voluptas libero.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "at",
-        "ColorBlock": 631,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2020-11-28T12:01:27.9471677+01:00",
+        "Rank": 317,
+        "Type": "minima",
+        "ColorBlock": 526,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2017-05-31T14:32:03.1084824+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "architecto",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Mrs. Marcelle Kiehn",
+        "FullName": "Brycen Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 332
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Emilie Berge",
+    "ExtraInfo": "architecto",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Lue Hansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 954
       }
     }
   }

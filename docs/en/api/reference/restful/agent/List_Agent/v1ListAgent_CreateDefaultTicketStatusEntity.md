@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 85,
-  "Name": "Franecki, Rohan and Volkman",
+  "TicketStatusId": 326,
+  "Name": "Lesch LLC",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 276
     }
   }
 }

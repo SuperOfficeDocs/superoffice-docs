@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 93,
-  "Name": "White Group",
-  "Tooltip": "sunt",
-  "Rank": 253,
-  "Key": "et",
-  "MailTemplateId": 945,
-  "Deleted": false,
+  "ConsentSourceId": 73,
+  "Name": "Renner-Runolfsson",
+  "Tooltip": "iusto",
+  "Rank": 740,
+  "Key": "pariatur",
+  "MailTemplateId": 777,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

@@ -104,30 +104,30 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 353,
-  "UniqueId": "sequi",
-  "Name": "Mills, Krajcik and Lang",
-  "Description": "Proactive 4th generation architecture",
-  "AssociateId": 341,
-  "Columns": 765,
+  "DashboardId": 78,
+  "UniqueId": "dolorem",
+  "Name": "Kuhlman LLC",
+  "Description": "Diverse web-enabled data-warehouse",
+  "AssociateId": 962,
+  "Columns": 457,
   "Theme": null,
-  "VisibleForAll": 78,
+  "VisibleForAll": 646,
   "VisibleForAssociates": [
-    737,
-    370
+    201,
+    652
   ],
   "VisibleForGroups": [
-    673,
-    781
+    441,
+    537
   ],
-  "PinForAll": 506,
+  "PinForAll": 795,
   "PinForAssociates": [
-    109,
-    51
+    919,
+    188
   ],
   "PinForGroups": [
-    175,
-    532
+    957,
+    363
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 896,
-  "UniqueId": "et",
-  "Name": "Haley, Kozey and Leffler",
-  "Description": "Versatile reciprocal encoding",
-  "AssociateId": 506,
-  "Columns": 140,
+  "DashboardId": 308,
+  "UniqueId": "quia",
+  "Name": "Kling-Dooley",
+  "Description": "Mandatory systematic process improvement",
+  "AssociateId": 402,
+  "Columns": 724,
   "Theme": null,
-  "VisibleForAll": 450,
+  "VisibleForAll": 338,
   "VisibleForAssociates": [
-    652,
-    604
+    248,
+    318
   ],
   "VisibleForGroups": [
-    418,
-    480
+    580,
+    710
   ],
-  "PinForAll": 191,
+  "PinForAll": 798,
   "PinForAssociates": [
-    677,
-    138
+    447,
+    110
   ],
   "PinForGroups": [
-    137,
-    362
+    1002,
+    59
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   },
   "_Links": {

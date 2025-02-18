@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 723,
-  "Name": "Deckow, Dickens and Wisoky",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 117,
-  "UdListDefinitionId": 78
+  "HeadingId": 332,
+  "Name": "Sipes-Greenfelder",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 748,
+  "UdListDefinitionId": 463
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 597,
-  "Name": "Considine LLC",
-  "Tooltip": "autem",
+  "HeadingId": 386,
+  "Name": "Wisozk-Waelchi",
+  "Tooltip": "vel",
   "Deleted": true,
-  "Rank": 819,
-  "UdListDefinitionId": 216,
+  "Rank": 906,
+  "UdListDefinitionId": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 728
     }
   }
 }

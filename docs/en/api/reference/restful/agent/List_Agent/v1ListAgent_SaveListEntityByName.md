@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crooks LLC",
+  "Name": "Jacobi, Maggio and Streich",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Daniel, Kub and Luettgen",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 267,
-  "IsCustomList": false,
+  "Id": 809,
+  "Name": "Mills, Lueilwitz and Torp",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "Rank": 826,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 754
     }
   }
 }

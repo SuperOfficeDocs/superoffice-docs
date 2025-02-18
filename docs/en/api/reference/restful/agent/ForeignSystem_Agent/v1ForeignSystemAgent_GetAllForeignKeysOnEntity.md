@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "natus",
-  "EntityId": 722
+  "EntityType": "ut",
+  "EntityId": 89
 }
 ```
 
@@ -88,6 +88,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "ex",
-  "2": "id"
+  "2": "aut"
 }
 ```

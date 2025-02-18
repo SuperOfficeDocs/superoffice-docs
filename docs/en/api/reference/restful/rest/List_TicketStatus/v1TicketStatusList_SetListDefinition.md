@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 39,
-  "Name": "Skiles, Rolfson and Hammes",
-  "Tooltip": "aspernatur",
-  "Deleted": true,
-  "Rank": 224,
-  "IsCustomList": true,
+  "Id": 380,
+  "Name": "Brown Group",
+  "Tooltip": "quas",
+  "Deleted": false,
+  "Rank": 785,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
+  "ListType": "consectetur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Wilkinson-Farrell",
-  "Tooltip": "qui",
+  "Id": 832,
+  "Name": "Koch-Bernier",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 896,
-  "IsCustomList": false,
+  "Rank": 332,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 973
+      "FieldType": "System.Int32",
+      "FieldLength": 454
     }
   }
 }

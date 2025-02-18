@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 299
+  "AssociateId": 972
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 709,
-    "AssociateId": 999,
-    "Caption": "cum",
+    "DashboardId": 650,
+    "AssociateId": 78,
+    "Caption": "exercitationem",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 498,
-        "Caption": "labore",
-        "Description": "Team-oriented mobile hub",
-        "ChartName": "Adams, Wuckert and Skiles",
-        "ChartId": "iusto",
+        "DashboardTileId": 586,
+        "Caption": "aut",
+        "Description": "Operative intermediate capacity",
+        "ChartName": "McKenzie Group",
+        "ChartId": "quasi",
         "IsDefault": true,
-        "AssociateId": 297,
-        "GroupId": 538,
-        "SelectionId": 135,
-        "Config": "dolor",
+        "AssociateId": 944,
+        "GroupId": 828,
+        "SelectionId": 631,
+        "Config": "quaerat",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 79
+            "FieldType": "System.Int32",
+            "FieldLength": 732
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldLength": 674
       }
     }
   }

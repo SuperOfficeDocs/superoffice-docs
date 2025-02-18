@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Bosco LLC",
-    "ToolTip": "Fuga ea consequatur.",
+    "Id": 90,
+    "Name": "Rau, Altenwerth and Barton",
+    "ToolTip": "Qui ab voluptatem beatae minus at alias.",
     "Deleted": false,
-    "Rank": 925,
-    "Type": "eius",
-    "ColorBlock": 497,
-    "IconHint": "libero",
+    "Rank": 418,
+    "Type": "dolore",
+    "ColorBlock": 216,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-01-07T12:01:33.6676138+01:00",
+    "LastChanged": "2013-10-17T14:32:12.9272339+02:00",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Marquardt, Upton and Labadie",
-        "ToolTip": "Et dolor excepturi dolore aspernatur ipsa.",
+        "Id": 677,
+        "Name": "Sauer-Cormier",
+        "ToolTip": "Magnam sed voluptatem sed.",
         "Deleted": false,
-        "Rank": 536,
-        "Type": "voluptates",
-        "ColorBlock": 386,
-        "IconHint": "iste",
-        "Selected": true,
-        "LastChanged": "2024-09-12T12:01:33.6676138+02:00",
+        "Rank": 923,
+        "Type": "voluptatem",
+        "ColorBlock": 331,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2013-01-24T14:32:12.9272339+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Bartholome Ratke",
+        "ExtraInfo": "ullam",
+        "StyleHint": "odit",
+        "Hidden": false,
+        "FullName": "Shaylee Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 32
+            "FieldLength": 719
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Mr. Aleen Madyson Boehm",
+    "ExtraInfo": "numquam",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Sydnie Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

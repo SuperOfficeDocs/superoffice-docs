@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 93
+  "ContactId": 746
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 807,
-    "Name": "Dare-Ziemann",
-    "Description": "Balanced stable archive",
+    "ProjectId": 433,
+    "Name": "Carter Group",
+    "Description": "Open-architected hybrid policy",
     "URL": "http://www.example.com/",
-    "Type": "velit",
-    "AssociateId": 180,
-    "AssociateFullName": "Prof. Cristobal Annabel Moore",
-    "TypeId": 288,
-    "Updated": "2021-12-28T12:01:28.1659327+01:00",
-    "StatusId": 345,
-    "Status": "asperiores",
-    "TextId": 828,
-    "PublishTo": "2003-11-04T12:01:28.1659327+01:00",
-    "PublishFrom": "2020-09-03T12:01:28.1659327+02:00",
+    "Type": "praesentium",
+    "AssociateId": 693,
+    "AssociateFullName": "Catharine Skiles MD",
+    "TypeId": 895,
+    "Updated": "2014-03-19T14:32:03.5148359+01:00",
+    "StatusId": 724,
+    "Status": "soluta",
+    "TextId": 442,
+    "PublishTo": "2009-01-12T14:32:03.5148359+01:00",
+    "PublishFrom": "2020-03-06T14:32:03.5148359+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "307836",
-    "ActiveErpLinks": 473,
+    "ProjectNumber": "768139",
+    "ActiveErpLinks": 783,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 984
       }
     }
   }

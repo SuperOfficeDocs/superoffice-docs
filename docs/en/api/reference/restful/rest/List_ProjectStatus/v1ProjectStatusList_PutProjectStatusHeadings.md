@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 646,
-    "Name": "Kunde Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 664,
+    "Name": "Lindgren-Graham",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 13,
-    "UdListDefinitionId": 167
+    "Rank": 159,
+    "UdListDefinitionId": 831
   },
   {
-    "HeadingId": 646,
-    "Name": "Kunde Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 664,
+    "Name": "Lindgren-Graham",
+    "Tooltip": "unde",
     "Deleted": false,
-    "Rank": 13,
-    "UdListDefinitionId": 167
+    "Rank": 159,
+    "UdListDefinitionId": 831
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Macejkovic Inc and Sons",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 621,
-    "UdListDefinitionId": 489,
+    "HeadingId": 994,
+    "Name": "Leannon-Pacocha",
+    "Tooltip": "voluptatibus",
+    "Deleted": true,
+    "Rank": 428,
+    "UdListDefinitionId": 405,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 998
       }
     }
   }

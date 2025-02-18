@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 283,
-  "RejectReason": "engineer magnetic initiatives",
+  "AppointmentId": 584,
+  "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }
 ```

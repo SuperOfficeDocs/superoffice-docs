@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 599
+  "ContactId": 206
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 887,
-  "BlobSize": 814,
-  "Description": "Synergized secondary focus group",
-  "ExtraInfo": "dignissimos",
-  "IsEncrypted": false,
+  "BlobId": 334,
+  "BlobSize": 245,
+  "Description": "Cross-group heuristic strategy",
+  "ExtraInfo": "esse",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 720,
-  "CreatedDate": "2024-11-22T12:01:27.3690022+01:00",
-  "UpdatedDate": "2010-07-08T12:01:27.3690022+02:00",
+  "MimeType": "neque",
+  "OriginalSize": 424,
+  "CreatedDate": "2012-04-29T14:32:02.0774659+02:00",
+  "UpdatedDate": "2015-07-18T14:32:02.0774659+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatem",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 988
     }
   }
 }

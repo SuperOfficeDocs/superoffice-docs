@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Hamill-Kohler",
-    "ToolTip": "Quia error ducimus natus quam et ut voluptatibus.",
-    "Deleted": true,
-    "Rank": 237,
-    "Type": "et",
-    "ColorBlock": 978,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "1999-03-09T12:01:33.6207356+01:00",
+    "Id": 966,
+    "Name": "Fahey LLC",
+    "ToolTip": "Aspernatur ipsa pariatur tenetur consectetur dolor voluptatum reiciendis.",
+    "Deleted": false,
+    "Rank": 330,
+    "Type": "aliquam",
+    "ColorBlock": 626,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2000-01-30T14:32:12.8491274+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Shields-Reichert",
-        "ToolTip": "Temporibus nemo asperiores est dolorem cum voluptatibus.",
-        "Deleted": false,
-        "Rank": 225,
-        "Type": "velit",
-        "ColorBlock": 384,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2024-04-14T12:01:33.6207356+02:00",
+        "Id": 213,
+        "Name": "Kertzmann, Stiedemann and Kutch",
+        "ToolTip": "Labore est magnam qui.",
+        "Deleted": true,
+        "Rank": 510,
+        "Type": "quasi",
+        "ColorBlock": 794,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2001-03-17T14:32:12.8491274+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Mrs. Hiram Purdy MD",
+        "ExtraInfo": "quis",
+        "StyleHint": "facere",
+        "Hidden": false,
+        "FullName": "Katharina Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 496
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Cory Jalen O'Connell I",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Prof. Judah Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 105
       }
     }
   }

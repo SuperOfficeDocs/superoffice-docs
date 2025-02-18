@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 280,
+  "TargetDimensionId": 669,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "praesentium",
-  "DimensionListName": "Pollich Group",
-  "DimensionListId": 464,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "nisi",
+  "DimensionListName": "Leannon-Harber",
+  "DimensionListId": 335,
+  "DimensionListLabel": "veniam",
   "SelectedDimensions": [
-    569,
-    236
+    612,
+    293
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 522,
+  "TargetDimensionId": 252,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "culpa",
-  "DimensionListName": "Weissnat Group",
-  "DimensionListId": 982,
-  "DimensionListLabel": "eligendi",
+  "DimensionListField": "quaerat",
+  "DimensionListName": "Koch-Bailey",
+  "DimensionListId": 460,
+  "DimensionListLabel": "quam",
   "SelectedDimensions": [
-    123,
-    732
+    684,
+    595
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 998
     }
   }
 }

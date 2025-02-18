@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Von-Murray",
-  "Tooltip": "maxime",
+  "Id": 596,
+  "Name": "Daniel-Kilback",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "UdListDefinitionId": 397,
-  "Rank": 757,
+  "UdListDefinitionId": 169,
+  "Rank": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 602
     }
   }
 }

@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 80,
-    "Name": "Jerde, Kovacek and Jerde",
-    "OrgNr": "910306",
+    "ContactId": 348,
+    "Name": "Jacobson Inc and Sons",
+    "OrgNr": "998313",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "vero",
-    "DirectPhone": "631.324.0147",
-    "AssociateId": 179,
-    "CountryId": 970,
-    "EmailAddress": "juliet.stokes@kiehn.co.uk",
-    "Kananame": "labore",
-    "EmailAddressName": "ali@kutch.com",
+    "City": "eum",
+    "DirectPhone": "1-857-584-3073 x602",
+    "AssociateId": 436,
+    "CountryId": 217,
+    "EmailAddress": "erin.prosacco@bergnaum.us",
+    "Kananame": "quam",
+    "EmailAddressName": "jasmin@hartmann.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Eloise Schinner",
+    "AssociateFullName": "Ms. Marcelle Asia Hickle DVM",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "unde",
-    "FullName": "Arno Berge DVM",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 533,
-    "Number1": "1381519",
-    "Number2": "734303",
+    "FormattedAddress": "temporibus",
+    "FullName": "Pattie Zboncak",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 93,
+    "Number1": "1342178",
+    "Number2": "1189080",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldType": "System.String",
+        "FieldLength": 704
       }
     }
   }

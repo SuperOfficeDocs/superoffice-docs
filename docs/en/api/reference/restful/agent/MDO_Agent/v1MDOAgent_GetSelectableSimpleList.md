@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bartell, Davis and Breitenberg"
+  "Name": "Beier LLC"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 131,
-    "Name": "Koch-Kunde",
-    "ToolTip": "Necessitatibus repellat ut temporibus sint.",
-    "Deleted": false,
-    "Rank": 633,
-    "Type": "voluptatem",
-    "ColorBlock": 584,
-    "IconHint": "laudantium",
+    "Id": 736,
+    "Name": "Kris, Bosco and Ratke",
+    "ToolTip": "Animi placeat non aut.",
+    "Deleted": true,
+    "Rank": 523,
+    "Type": "ut",
+    "ColorBlock": 874,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "1998-03-22T12:01:27.9940463+01:00",
+    "LastChanged": "2000-01-27T14:32:03.23365+01:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Franecki, Quigley and Barton",
-        "ToolTip": "Voluptates ut nostrum.",
-        "Deleted": false,
-        "Rank": 392,
-        "Type": "est",
-        "ColorBlock": 581,
-        "IconHint": "ullam",
+        "Id": 615,
+        "Name": "Denesik Inc and Sons",
+        "ToolTip": "Sit deserunt excepturi magni quos dicta provident.",
+        "Deleted": true,
+        "Rank": 111,
+        "Type": "vero",
+        "ColorBlock": 663,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2014-04-21T12:01:27.9940463+02:00",
+        "LastChanged": "2022-08-25T14:32:03.23365+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "dolores",
+        "ExtraInfo": "ut",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Ms. Sofia Hansen DVM",
+        "FullName": "Jarret O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 967
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "voluptates",
-    "Hidden": false,
-    "FullName": "Daphney Raphaelle Hessel I",
+    "ExtraInfo": "tempora",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Miss Leonie Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 838
+        "FieldLength": 434
       }
     }
   }

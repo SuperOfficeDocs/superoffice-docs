@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 359,
-  "Caption": "tenetur",
-  "Description": "Virtual encompassing info-mediaries",
-  "SelectionId": 159,
+  "DashboardTileId": 438,
+  "Caption": "aperiam",
+  "Description": "Cross-group content-based process improvement",
+  "SelectionId": 161,
   "VisibleFor": [
     {
-      "VisibleId": 468,
+      "VisibleId": 175,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "quas"
     },
     {
-      "VisibleId": 468,
+      "VisibleId": 175,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "quas"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 935,
-  "Caption": "voluptatum",
-  "Description": "Proactive heuristic website",
-  "ChartName": "Heidenreich Inc and Sons",
-  "ChartId": "nam",
+  "DashboardTileId": 594,
+  "Caption": "sequi",
+  "Description": "Right-sized clear-thinking firmware",
+  "ChartName": "Johns, Bosco and Lesch",
+  "ChartId": "sit",
   "IsDefault": true,
-  "AssociateId": 99,
-  "GroupId": 794,
-  "SelectionId": 711,
-  "Config": "quasi",
+  "AssociateId": 450,
+  "GroupId": 862,
+  "SelectionId": 818,
+  "Config": "quisquam",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Heaney Group",
-      "Description": "Synergistic user-facing utilisation",
+      "Name": "Mueller, Metz and Schroeder",
+      "Description": "Future-proofed 4th generation Graphical User Interface",
       "Type": "Boolean",
-      "ListName": "Fisher, Swift and Gerhold",
+      "ListName": "Morar Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "facilis",
+      "Value": "non",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldType": "System.Int32",
+          "FieldLength": 146
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 219,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 986
         }
       }
     },
     {
-      "VisibleId": 219,
+      "VisibleId": 144,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 986
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 454
     }
   }
 }

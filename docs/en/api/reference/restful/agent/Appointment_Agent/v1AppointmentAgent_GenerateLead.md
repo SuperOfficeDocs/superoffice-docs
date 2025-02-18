@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 32,
-  "LeadDescription": "Multi-channelled homogeneous core",
-  "Relation": "aut",
-  "RelationId": 583,
-  "LeadContact": "voluptate",
-  "LeadPersonFirstname": "Kadin",
-  "LeadPersonLastname": "Pacocha",
-  "LeadPersonEmail": "moshe_schinner@damore.name",
-  "LeadPhoneNumber": "814049",
-  "CreatorsContact": "iure",
-  "CreatorsFirstname": "Vicky",
-  "CreatorsLastname": "Schulist"
+  "AssociateIdForNewContact": 973,
+  "LeadDescription": "Exclusive asynchronous architecture",
+  "Relation": "sequi",
+  "RelationId": 976,
+  "LeadContact": "officia",
+  "LeadPersonFirstname": "Kaya",
+  "LeadPersonLastname": "Huel",
+  "LeadPersonEmail": "neoma.grant@bauch.com",
+  "LeadPhoneNumber": "867273",
+  "CreatorsContact": "accusamus",
+  "CreatorsFirstname": "Elenora",
+  "CreatorsLastname": "Lueilwitz"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 504,
-      "Name": "Turcotte LLC",
-      "OrgNr": "1035218",
+      "ContactId": 124,
+      "Name": "Witting LLC",
+      "OrgNr": "1249101",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "quo",
-      "DirectPhone": "202.792.1411",
-      "AssociateId": 649,
-      "CountryId": 451,
-      "EmailAddress": "libby.heathcote@terrykunze.com",
-      "Kananame": "ipsum",
-      "EmailAddressName": "aleen@harveyhauck.name",
+      "City": "eos",
+      "DirectPhone": "(480)393-4558",
+      "AssociateId": 526,
+      "CountryId": 296,
+      "EmailAddress": "kurt_schinner@boehm.name",
+      "Kananame": "eaque",
+      "EmailAddressName": "randy.greenholt@jast.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Ernestina Drew Farrell III",
+      "AssociateFullName": "Junior Stracke",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "officia",
-      "FullName": "Lessie Jerrod Von III",
+      "FormattedAddress": "sunt",
+      "FullName": "Mr. Mckenzie Reilly",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 663,
-      "Number1": "1365548",
-      "Number2": "1483936",
+      "ActiveErpLinks": 270,
+      "Number1": "792187",
+      "Number2": "494973",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 312,
-  "Section": "dolorem",
-  "Key": "vel",
-  "Name": "Wiza-Beatty",
+  "PrefDescId": 843,
+  "Section": "minima",
+  "Key": "id",
+  "Name": "Pollich Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental discrete data-warehouse",
-  "IsBuiltin": true,
-  "TableName": "Fisher LLC",
-  "UserDefinedListId": 283,
-  "Rank": 903,
-  "SubGroup": "impedit",
-  "MinLevel": 141,
-  "MaxValue": 463,
-  "MinValue": 90,
-  "RequiredLicense": "laboriosam",
+  "Description": "Open-architected client-driven artificial intelligence",
+  "IsBuiltin": false,
+  "TableName": "Ward, Bogan and Wehner",
+  "UserDefinedListId": 709,
+  "Rank": 578,
+  "SubGroup": "unde",
+  "MinLevel": 74,
+  "MaxValue": 514,
+  "MinValue": 52,
+  "RequiredLicense": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

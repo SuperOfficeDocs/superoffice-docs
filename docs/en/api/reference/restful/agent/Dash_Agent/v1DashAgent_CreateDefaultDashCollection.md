@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 468,
-      "UniqueId": "est",
-      "Name": "Mills Group",
-      "Description": "Innovative eco-centric synergy",
-      "AssociateId": 868,
-      "Columns": 598,
+      "DashboardId": 680,
+      "UniqueId": "voluptate",
+      "Name": "Ullrich-Willms",
+      "Description": "Universal attitude-oriented open system",
+      "AssociateId": 491,
+      "Columns": 971,
       "Theme": null,
-      "VisibleForAll": 904,
+      "VisibleForAll": 748,
       "VisibleForAssociates": [
-        339,
-        493
+        784,
+        781
       ],
       "VisibleForGroups": [
-        588,
-        638
+        482,
+        478
       ],
-      "PinForAll": 788,
+      "PinForAll": 274,
       "PinForAssociates": [
-        573,
-        932
+        767,
+        750
       ],
       "PinForGroups": [
-        267,
-        217
+        30,
+        932
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 269
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 314,
-      "UniqueId": "praesentium",
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Ameliorated optimal algorithm",
-      "AssociateId": 670,
-      "Columns": 687,
+      "DashboardId": 657,
+      "UniqueId": "harum",
+      "Name": "Medhurst, Orn and Ruecker",
+      "Description": "Persevering bandwidth-monitored emulation",
+      "AssociateId": 896,
+      "Columns": 833,
       "Theme": null,
-      "VisibleForAll": 109,
+      "VisibleForAll": 543,
       "VisibleForAssociates": [
-        226,
-        373
+        320,
+        218
       ],
       "VisibleForGroups": [
-        225,
-        534
+        391,
+        383
       ],
-      "PinForAll": 284,
+      "PinForAll": 161,
       "PinForAssociates": [
-        4,
-        264
+        97,
+        156
       ],
       "PinForGroups": [
-        781,
-        268
+        29,
+        240
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 704
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 342,
-      "UniqueId": "autem",
-      "Name": "Heaney-Schinner",
-      "Description": "De-engineered next generation installation",
-      "AssociateId": 495,
-      "Columns": 792,
+      "DashboardId": 890,
+      "UniqueId": "fuga",
+      "Name": "Heaney LLC",
+      "Description": "Total discrete project",
+      "AssociateId": 125,
+      "Columns": 14,
       "Theme": null,
-      "VisibleForAll": 923,
+      "VisibleForAll": 830,
       "VisibleForAssociates": [
-        645,
-        396
+        934,
+        373
       ],
       "VisibleForGroups": [
-        839,
-        493
+        277,
+        355
       ],
-      "PinForAll": 826,
+      "PinForAll": 659,
       "PinForAssociates": [
-        667,
-        810
+        385,
+        404
       ],
       "PinForGroups": [
-        485,
-        135
+        950,
+        341
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldType": "System.String",
+          "FieldLength": 674
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldType": "System.Int32",
+      "FieldLength": 447
     }
   }
 }

@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Leannon Group",
-    "Boehm, Orn and Hauck"
+    "Glover, Grady and Tromp",
+    "Parisian, Bogisich and Schaefer"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  831,
-  727
+  256,
+  531
 ]
 ```

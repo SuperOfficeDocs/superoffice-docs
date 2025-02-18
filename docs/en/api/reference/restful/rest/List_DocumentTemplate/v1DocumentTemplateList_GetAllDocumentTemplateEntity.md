@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 515,
-    "Name": "Heidenreich-Anderson",
-    "Tooltip": "est",
-    "SaveInDb": 115,
-    "Filename": "placeat",
-    "DefaultOref": "natus",
+    "DocumentTemplateId": 803,
+    "Name": "Skiles, Bartell and Blanda",
+    "Tooltip": "placeat",
+    "SaveInDb": 708,
+    "Filename": "ratione",
+    "DefaultOref": "placeat",
     "RecordType": "Appointment",
-    "Deleted": false,
+    "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 313,
-    "IntentId": 394,
+    "AutoeventId": 847,
+    "IntentId": 812,
     "IsDefaultPublished": false,
-    "Rank": 406,
-    "LoadTemplateFromPlugin": 252,
-    "MimeType": "perspiciatis",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 864,
+    "Rank": 78,
+    "LoadTemplateFromPlugin": 607,
+    "MimeType": "fugit",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 73,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "manuela_powlowski@bergnaum.com",
+    "EmailSubject": "rowena@bogan.ca",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "kelli@glover.com",
+    "SenderEmailAddress": "abner@blandaschiller.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 90
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

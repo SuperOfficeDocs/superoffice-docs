@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Dicki-Wolff",
-  "Tooltip": "eum",
+  "Id": 184,
+  "Name": "Mante Group",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "UdListDefinitionId": 523,
-  "Rank": 210,
+  "UdListDefinitionId": 99,
+  "Rank": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

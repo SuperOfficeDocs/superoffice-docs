@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 735,
+  "ErpConnectionId": 830,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "sunt",
-    "Rank": 557,
-    "DisplayName": "D'Amore-Gorczany",
-    "DisplayDescription": "Optional incremental flexibility",
+    "FieldKey": "mollitia",
+    "Rank": 452,
+    "DisplayName": "Schaden LLC",
+    "DisplayDescription": "De-engineered 4th generation open system",
     "FieldType": "Checkbox",
-    "ListName": "Luettgen-Streich",
-    "DefaultValue": "ut",
-    "MaxLength": 323,
+    "ListName": "Carter LLC",
+    "DefaultValue": "similique",
+    "MaxLength": 672,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

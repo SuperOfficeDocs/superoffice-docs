@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 558,
-    "Name": "Breitenberg, Eichmann and Lebsack",
+    "TicketPriorityId": 801,
+    "Name": "Rogahn-Towne",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 356,
+    "SortOrder": 252,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 250,
-    "MonStart": "2008-02-28T12:01:27.9159153+01:00",
-    "MonStop": "2024-08-04T12:01:27.9159153+02:00",
-    "TueStart": "2020-07-05T12:01:27.9159153+02:00",
-    "TueStop": "2001-05-30T12:01:27.9159153+02:00",
-    "WedStart": "2021-04-22T12:01:27.9159153+02:00",
-    "WedStop": "2014-07-09T12:01:27.9159153+02:00",
-    "ThuStart": "1998-04-25T12:01:27.9159153+02:00",
-    "ThuStop": "1998-02-10T12:01:27.9159153+01:00",
-    "FriStart": "2015-07-02T12:01:27.9159153+02:00",
-    "FriStop": "1999-04-14T12:01:27.9159153+02:00",
-    "SatStart": "1999-03-26T12:01:27.9159153+01:00",
-    "SatStop": "2017-03-02T12:01:27.9159153+01:00",
-    "SunStart": "2005-03-28T12:01:27.9159153+02:00",
-    "SunStop": "2021-07-22T12:01:27.9159153+02:00",
+    "Deadline": 22,
+    "MonStart": "2008-02-21T14:32:03.0772391+01:00",
+    "MonStop": "2014-09-07T14:32:03.0772391+02:00",
+    "TueStart": "2007-03-11T14:32:03.0772391+01:00",
+    "TueStop": "2007-11-17T14:32:03.0772391+01:00",
+    "WedStart": "2022-09-11T14:32:03.0772391+02:00",
+    "WedStop": "2008-07-08T14:32:03.0772391+02:00",
+    "ThuStart": "2020-10-19T14:32:03.0772391+02:00",
+    "ThuStop": "2021-02-08T14:32:03.0772391+01:00",
+    "FriStart": "2011-05-20T14:32:03.0772391+02:00",
+    "FriStop": "2017-03-28T14:32:03.0772391+02:00",
+    "SatStart": "2009-01-17T14:32:03.0772391+01:00",
+    "SatStop": "2023-01-14T14:32:03.0772391+01:00",
+    "SunStart": "1998-10-18T14:32:03.0772391+02:00",
+    "SunStop": "2024-07-24T14:32:03.0772391+02:00",
     "NonDates": [
-      "veritatis",
-      "voluptas"
+      "amet",
+      "sint"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 847,
-        "AlertLevel": 271,
-        "AlertTimeout": 128,
-        "Action": 178,
-        "DelegateTo": 654,
-        "ScriptId": 216,
-        "EmailTo": "willy.zieme@bayer.uk",
-        "SmsTo": "necessitatibus",
-        "ReplyTemplateIdCustomer": 122,
-        "ReplyTemplateIdUser": 193,
-        "ReplyTemplateIdCatmast": 594,
-        "ReplyTemplateIdEmail": 564,
-        "RtiCustomerSms": 661,
-        "ReplyTemplateIdUserSms": 146,
-        "ReplyTemplateIdCatmastSms": 986,
-        "ReplyTemplateIdSms": 981,
+        "TicketAlertId": 935,
+        "AlertLevel": 899,
+        "AlertTimeout": 53,
+        "Action": 808,
+        "DelegateTo": 961,
+        "ScriptId": 924,
+        "EmailTo": "sigrid@fay.ca",
+        "SmsTo": "aut",
+        "ReplyTemplateIdCustomer": 442,
+        "ReplyTemplateIdUser": 886,
+        "ReplyTemplateIdCatmast": 492,
+        "ReplyTemplateIdEmail": 19,
+        "RtiCustomerSms": 116,
+        "ReplyTemplateIdUserSms": 633,
+        "ReplyTemplateIdCatmastSms": 178,
+        "ReplyTemplateIdSms": 859,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldLength": 811
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldLength": 520
       }
     }
   }

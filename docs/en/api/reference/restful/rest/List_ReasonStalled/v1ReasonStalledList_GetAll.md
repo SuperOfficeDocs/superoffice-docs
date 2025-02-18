@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 927,
+    "Id": 571,
+    "Name": "Schowalter, Lebsack and Kautzer",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "UdListDefinitionId": 577,
+    "Rank": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldLength": 217
       }
     }
   }

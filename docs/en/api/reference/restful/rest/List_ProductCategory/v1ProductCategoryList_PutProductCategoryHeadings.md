@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 813,
-    "Name": "Mraz-Walsh",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 555,
-    "UdListDefinitionId": 126
+    "HeadingId": 351,
+    "Name": "Stark LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 858,
+    "UdListDefinitionId": 918
   },
   {
-    "HeadingId": 813,
-    "Name": "Mraz-Walsh",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 555,
-    "UdListDefinitionId": 126
+    "HeadingId": 351,
+    "Name": "Stark LLC",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 858,
+    "UdListDefinitionId": 918
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 108,
-    "Name": "Jerde-Schroeder",
-    "Tooltip": "saepe",
+    "HeadingId": 111,
+    "Name": "Heaney Inc and Sons",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 540,
-    "UdListDefinitionId": 80,
+    "Rank": 725,
+    "UdListDefinitionId": 480,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 934
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 669,
-    "Name": "Bartoletti Group",
-    "Tooltip": "architecto",
+    "HeadingId": 786,
+    "Name": "Pollich-Anderson",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 982,
-    "UdListDefinitionId": 553
+    "Rank": 340,
+    "UdListDefinitionId": 934
   },
   {
-    "HeadingId": 669,
-    "Name": "Bartoletti Group",
-    "Tooltip": "architecto",
+    "HeadingId": 786,
+    "Name": "Pollich-Anderson",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 982,
-    "UdListDefinitionId": 553
+    "Rank": 340,
+    "UdListDefinitionId": 934
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "Considine Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 136,
-    "UdListDefinitionId": 144,
+    "HeadingId": 597,
+    "Name": "Koss Group",
+    "Tooltip": "velit",
+    "Deleted": true,
+    "Rank": 668,
+    "UdListDefinitionId": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldType": "System.Int32",
+        "FieldLength": 147
       }
     }
   }

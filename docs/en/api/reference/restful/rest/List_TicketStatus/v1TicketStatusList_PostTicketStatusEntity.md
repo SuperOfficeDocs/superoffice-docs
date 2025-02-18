@@ -77,15 +77,15 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 47,
-  "Name": "Grant, Cormier and Keebler",
+  "TicketStatusId": 552,
+  "Name": "Padberg-Wintheiser",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
   "UsedInQueue": true
 }
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 617,
-  "Name": "Reinger, Schulist and Hagenes",
+  "TicketStatusId": 149,
+  "Name": "Trantow-Cruickshank",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 736
     }
   }
 }

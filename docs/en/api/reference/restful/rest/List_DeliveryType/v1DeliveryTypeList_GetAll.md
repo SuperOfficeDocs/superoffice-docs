@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "O'Connell, Roob and Heidenreich",
-    "Tooltip": "quibusdam",
+    "Id": 635,
+    "Name": "Ziemann-Douglas",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 797,
-    "Rank": 577,
+    "UdListDefinitionId": 911,
+    "Rank": 964,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

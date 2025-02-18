@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "qui",
-      "Key": "provident"
+      "Section": "aut",
+      "Key": "voluptas"
     },
     {
-      "Section": "qui",
-      "Key": "provident"
+      "Section": "aut",
+      "Key": "voluptas"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "cum",
+    "RawValue": "at",
     "Specification": null,
-    "DisplayValue": "delectus",
-    "DisplayTooltip": "reprehenderit",
+    "DisplayValue": "maiores",
+    "DisplayTooltip": "expedita",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 50,
-    "PrefDescId": 826,
-    "TableName": "Kuphal, Boehm and Haag",
-    "UserPreferenceId": 116,
+    "TargetId": 134,
+    "PrefDescId": 870,
+    "TableName": "Stark Inc and Sons",
+    "UserPreferenceId": 726,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 596
+        "FieldLength": 603
       }
     }
   }

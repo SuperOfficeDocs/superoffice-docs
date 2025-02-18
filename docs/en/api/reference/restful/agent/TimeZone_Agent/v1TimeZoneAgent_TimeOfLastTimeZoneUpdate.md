@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/TimeZone/TimeOfLastTimeZoneUpdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +69,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2014-10-09T12:01:28.5722109+02:00"
+"2002-09-18T14:32:04.2334312+02:00"
 ```

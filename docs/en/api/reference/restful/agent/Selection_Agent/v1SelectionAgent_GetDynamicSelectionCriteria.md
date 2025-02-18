@@ -84,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 107
+  "SelectionId": 23
 }
 ```
 
@@ -96,29 +96,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Zemlak-Runolfsdottir",
-    "Operator": "ut",
+    "Name": "Murazik-Ratke",
+    "Operator": "temporibus",
     "Values": [
-      "dolorem",
-      "explicabo"
+      "nihil",
+      "consectetur"
     ],
     "DisplayValues": [
-      "qui",
-      "neque"
+      "corrupti",
+      "voluptatem"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ortiz Inc and Sons",
-        "Operator": "officiis",
+        "Name": "Steuber, Carter and Cassin",
+        "Operator": "non",
         "Values": [
-          "molestiae",
-          "deleniti"
+          "vel",
+          "ex"
         ],
         "DisplayValues": [
-          "et",
-          "dicta"
+          "sint",
+          "atque"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -126,14 +126,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 495,
+        "InterParenthesis": 399,
         "InterOperator": "And",
-        "UniqueHash": 799
+        "UniqueHash": 677
       }
     ],
-    "InterParenthesis": 755,
+    "InterParenthesis": 221,
     "InterOperator": "And",
-    "UniqueHash": 70
+    "UniqueHash": 436
   }
 ]
 ```

@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 644,
-    "Tooltip": "nobis",
-    "CanAssign": true,
-    "Free": 696,
-    "InUse": 60,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 899,
-    "Name": "Schowalter-Armstrong",
-    "Description": "Reactive heuristic internet solution",
-    "PrerequisiteModuleName": "Homenick-Gibson",
-    "SortOrder": 430,
-    "ExtraFlags": 599,
+    "Total": 506,
+    "Tooltip": "quia",
+    "CanAssign": false,
+    "Free": 285,
+    "InUse": 74,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 838,
+    "Name": "Padberg, Cole and Beahan",
+    "Description": "Quality-focused assymetric synergy",
+    "PrerequisiteModuleName": "Botsford-Schroeder",
+    "SortOrder": 771,
+    "ExtraFlags": 138,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldLength": 213
       }
     }
   }

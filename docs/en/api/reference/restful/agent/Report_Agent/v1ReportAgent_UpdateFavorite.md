@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 381,
+  "ReportId": 842,
   "ReportCategory": "All",
-  "Description": "Distributed empowering framework",
+  "Description": "Enhanced uniform interface",
   "ReportLayout": "CalendarMonth",
-  "Name": "Zboncak Inc and Sons",
-  "AssociateId": 777,
-  "TemplateId": 526,
-  "Published": false,
+  "Name": "Volkman, Wiegand and Dietrich",
+  "AssociateId": 641,
+  "TemplateId": 274,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 803
     }
   }
 }

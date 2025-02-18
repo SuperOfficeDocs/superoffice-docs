@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetExternalTokens
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "beatae"
+  "Key": "omnis"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "omnis",
-  "AccessToken": "voluptas",
-  "RefreshToken": "voluptates",
+  "Provider": "architecto",
+  "AccessToken": "libero",
+  "RefreshToken": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

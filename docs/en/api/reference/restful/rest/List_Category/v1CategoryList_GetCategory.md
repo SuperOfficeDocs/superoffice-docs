@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Borer, Ebert and Barton",
-  "Tooltip": "sapiente",
+  "Id": 23,
+  "Name": "Terry-Schamberger",
+  "Tooltip": "enim",
   "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 485,
+  "UdListDefinitionId": 205,
+  "Rank": 395,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 433
     }
   }
 }

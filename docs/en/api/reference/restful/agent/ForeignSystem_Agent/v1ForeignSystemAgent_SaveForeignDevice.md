@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Ritchie Group"
+  "ApplicationName": "Pfannerstill-Kuhn"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 941,
-  "Name": "Bauch LLC",
-  "CreatedDate": "1999-12-19T12:01:27.9002891+01:00",
-  "UpdatedDate": "2008-09-18T12:01:27.9002891+02:00",
-  "AssociateFullName": "Dr. Mike Lehner",
-  "CreatedBy": "laborum",
-  "UpdatedBy": "iusto",
-  "DeviceIdentifier": "necessitatibus",
-  "ForeignAppId": 961,
+  "ForeignDeviceId": 919,
+  "Name": "Brown Group",
+  "CreatedDate": "2003-11-04T14:32:03.0303748+01:00",
+  "UpdatedDate": "2016-10-17T14:32:03.0303748+02:00",
+  "AssociateFullName": "Rachel Otis Thompson DVM",
+  "CreatedBy": "eos",
+  "UpdatedBy": "excepturi",
+  "DeviceIdentifier": "sint",
+  "ForeignAppId": 741,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 22
     }
   }
 }

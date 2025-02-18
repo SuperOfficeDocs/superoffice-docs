@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 797,
-  "StartDate": "2001-03-20T12:01:27.2127411+01:00",
-  "EndDate": "2012-03-09T12:01:27.2127411+01:00",
-  "RecurrenceCounter": 835,
+  "RecurrenceId": 205,
+  "StartDate": "2023-06-08T14:32:01.7961076+02:00",
+  "EndDate": "2017-11-18T14:32:01.7961076+01:00",
+  "RecurrenceCounter": 694,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-08-08T12:01:27.2127411+02:00",
+      "Date": "2005-03-18T14:32:01.7961076+01:00",
       "IsConflict": false,
-      "Description": "Ameliorated background flexibility",
-      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
-      "Tooltip": "labore"
+      "Description": "Function-based executive portal",
+      "DescriptionStyleHint": "Versatile zero tolerance methodology",
+      "Tooltip": "molestiae"
     },
     {
-      "Date": "2016-08-08T12:01:27.2127411+02:00",
+      "Date": "2005-03-18T14:32:01.7961076+01:00",
       "IsConflict": false,
-      "Description": "Ameliorated background flexibility",
-      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
-      "Tooltip": "labore"
+      "Description": "Function-based executive portal",
+      "DescriptionStyleHint": "Versatile zero tolerance methodology",
+      "Tooltip": "molestiae"
     }
   ],
   "IsRecurrence": true

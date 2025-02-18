@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 153
+  "ErpFieldId": 8
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 65,
-  "DefaultValue": "optio",
+  "ErpFieldId": 239,
+  "DefaultValue": "enim",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "maxime",
+  "FirstSyncDefaultValue": "nisi",
   "PromptUser": false,
   "Mandatory": true,
-  "ErpFieldKey": "officia",
+  "ErpFieldKey": "aut",
   "FieldType": "Checkbox",
-  "ListName": "Walsh Group",
+  "ListName": "Mayert-Mante",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldLength": 15
     }
   }
 }

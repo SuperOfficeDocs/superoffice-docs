@@ -103,7 +103,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 203,
+  "TicketMessageEntityId": 730,
   "IncludeNonInlineAttachmentsInfo": true
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 416,
+  "EjMessageId": 894,
   "Ticket": null,
-  "CreatedAt": "2019-10-07T12:01:28.3378207+02:00",
+  "CreatedAt": "2014-03-29T14:32:03.9834805+01:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestiae",
-  "TimeSpent": 736,
-  "Body": "aut",
-  "HtmlBody": "dignissimos",
-  "EmailHeader": "freddie@schulistromaguera.ca",
+  "MessageId": "aperiam",
+  "TimeSpent": 564,
+  "Body": "rerum",
+  "HtmlBody": "natus",
+  "EmailHeader": "rosalyn_zemlak@kunze.name",
   "DebugInfo": "est",
-  "MailSorter": "adipisci",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odit",
+  "SearchTitle": "tenetur",
   "MessageHeaders": [
     {
-      "Id": 652,
-      "Name": "Yundt, Parisian and Carter",
-      "Value": "voluptas",
+      "Id": 41,
+      "Name": "Sawayn Inc and Sons",
+      "Value": "eaque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldLength": 444
         }
       }
     }
   ],
   "Important": true,
-  "Language": "impedit",
-  "Sentiment": 183,
-  "SentimentConfidence": 961,
+  "Language": "rem",
+  "Sentiment": 810,
+  "SentimentConfidence": 203,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 532,
-      "Name": "Farrell, Beahan and Hickle",
-      "ContentType": "dolores",
-      "AttSize": 621,
-      "InlineImage": true,
-      "ContentId": "saepe",
-      "AuthKey": "veritatis",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 803,
+      "Name": "Runolfsdottir LLC",
+      "ContentType": "et",
+      "AttSize": 682,
+      "InlineImage": false,
+      "ContentId": "natus",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 383
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "facilis",
+    "CustomFields2": "deserunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 496
     }
   }
 }

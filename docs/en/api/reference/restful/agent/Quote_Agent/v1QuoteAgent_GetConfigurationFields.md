@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 306,
-  "ConnectorName": "Cruickshank-Walsh"
+  "ConnectionId": 427,
+  "ConnectorName": "Walker-Rippin"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "quae",
-    "Rank": 859,
-    "DisplayName": "Rodriguez-VonRueden",
-    "DisplayDescription": "Cross-group global orchestration",
+    "FieldKey": "rerum",
+    "Rank": 183,
+    "DisplayName": "Bradtke-Klein",
+    "DisplayDescription": "Object-based fault-tolerant system engine",
     "FieldType": "Checkbox",
-    "ListName": "Walter-Kozey",
-    "DefaultValue": "ab",
-    "MaxLength": 165,
+    "ListName": "Bartell, Hamill and Bednar",
+    "DefaultValue": "est",
+    "MaxLength": 135,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 167
       }
     }
   }

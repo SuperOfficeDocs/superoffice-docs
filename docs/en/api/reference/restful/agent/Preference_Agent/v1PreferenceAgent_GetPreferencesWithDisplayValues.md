@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "beatae",
-      "Key": "officiis"
+      "Section": "iusto",
+      "Key": "reiciendis"
     },
     {
-      "Section": "beatae",
-      "Key": "officiis"
+      "Section": "iusto",
+      "Key": "reiciendis"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "omnis",
+    "RawValue": "totam",
     "Specification": null,
-    "DisplayValue": "error",
-    "DisplayTooltip": "alias",
+    "DisplayValue": "porro",
+    "DisplayTooltip": "quis",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 207,
-    "PrefDescId": 392,
-    "TableName": "Runolfsson, Hamill and Muller",
-    "UserPreferenceId": 455,
+    "TargetId": 424,
+    "PrefDescId": 446,
+    "TableName": "Collier Inc and Sons",
+    "UserPreferenceId": 436,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

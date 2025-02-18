@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 722,
-  "Name": "Kohler, Hartmann and Walter",
-  "PersonId": 349,
-  "Rank": 751,
-  "Tooltip": "dignissimos",
+  "AssociateId": 158,
+  "Name": "Cormier-Little",
+  "PersonId": 42,
+  "Rank": 38,
+  "Tooltip": "ratione",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 604,
-  "FullName": "Prof. Alvah Arthur Rosenbaum Sr.",
-  "FormalName": "Fay, Dickens and Haley",
+  "GroupIdx": 63,
+  "FullName": "Ambrose Nitzsche",
+  "FormalName": "Runolfsdottir, Botsford and Strosin",
   "Deleted": false,
-  "EjUserId": 125,
-  "UserName": "Cummings Group",
+  "EjUserId": 508,
+  "UserName": "Flatley-Leffler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

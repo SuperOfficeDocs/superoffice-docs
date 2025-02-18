@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Ankunding LLC",
-    "ToolTip": "Unde sit est.",
+    "Id": 486,
+    "Name": "Skiles Group",
+    "ToolTip": "Saepe eligendi.",
     "Deleted": false,
-    "Rank": 82,
-    "Type": "exercitationem",
-    "ColorBlock": 289,
-    "IconHint": "voluptatum",
-    "Selected": true,
-    "LastChanged": "2013-01-24T12:01:33.5738574+01:00",
+    "Rank": 499,
+    "Type": "aperiam",
+    "ColorBlock": 356,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2025-01-01T14:32:12.7553674+01:00",
     "ChildItems": [
       {
-        "Id": 249,
-        "Name": "Shields Inc and Sons",
-        "ToolTip": "Aut voluptatem velit iste impedit assumenda.",
+        "Id": 836,
+        "Name": "Kulas, Botsford and Lakin",
+        "ToolTip": "Est laborum molestiae.",
         "Deleted": false,
-        "Rank": 299,
-        "Type": "et",
-        "ColorBlock": 914,
-        "IconHint": "omnis",
+        "Rank": 664,
+        "Type": "velit",
+        "ColorBlock": 646,
+        "IconHint": "ea",
         "Selected": false,
-        "LastChanged": "2020-07-11T12:01:33.5738574+02:00",
+        "LastChanged": "2024-01-23T14:32:12.7553674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "quasi",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "totam",
         "Hidden": true,
-        "FullName": "Mr. Hilda Viva Satterfield DDS"
+        "FullName": "Adah Turner"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "nihil",
+    "StyleHint": "aspernatur",
     "Hidden": true,
-    "FullName": "Mr. Zachery Gutkowski"
+    "FullName": "Elna Ruecker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 225,
-    "Name": "Howell, Schneider and Tillman",
-    "ToolTip": "Veniam facere ea commodi.",
+    "Id": 82,
+    "Name": "Schneider-Schimmel",
+    "ToolTip": "Numquam nesciunt facilis consequatur et voluptatibus.",
     "Deleted": false,
-    "Rank": 887,
+    "Rank": 404,
     "Type": "et",
-    "ColorBlock": 772,
-    "IconHint": "consequuntur",
+    "ColorBlock": 221,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2003-04-27T12:01:33.5738574+02:00",
+    "LastChanged": "2008-04-11T14:32:12.7553674+02:00",
     "ChildItems": [
       {
-        "Id": 312,
-        "Name": "Denesik Group",
-        "ToolTip": "Sit enim nulla distinctio sint similique ut.",
-        "Deleted": true,
-        "Rank": 694,
-        "Type": "sit",
-        "ColorBlock": 867,
-        "IconHint": "aut",
+        "Id": 587,
+        "Name": "Torphy, Jacobson and Armstrong",
+        "ToolTip": "Reiciendis quos et.",
+        "Deleted": false,
+        "Rank": 405,
+        "Type": "excepturi",
+        "ColorBlock": 420,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2020-01-31T12:01:33.5738574+01:00",
+        "LastChanged": "2020-01-09T14:32:12.7553674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "possimus",
-        "Hidden": false,
-        "FullName": "Hyman Jewel Davis PhD",
+        "ExtraInfo": "ab",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Eldon Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 742
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "laborum",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Daphne Hessel",
+    "FullName": "Mrs. Royal Fay V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

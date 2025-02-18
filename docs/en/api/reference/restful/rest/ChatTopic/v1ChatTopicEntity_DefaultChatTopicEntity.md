@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 791,
-  "Name": "Sauer-Senger",
-  "Description": "Down-sized background model",
-  "WelcomeMessage": "possimus",
+  "ChatTopicId": 407,
+  "Name": "Dickens Inc and Sons",
+  "Description": "Inverse 3rd generation software",
+  "WelcomeMessage": "est",
   "Language": null,
-  "LastAccept": "2013-09-07T12:01:32.745675+02:00",
-  "SecondsPrAccept": 332,
-  "AlertRecipient": "saepe",
+  "LastAccept": "2021-04-17T14:32:11.2083425+02:00",
+  "SecondsPrAccept": 470,
+  "AlertRecipient": "eos",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "id",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "corrupti",
-  "WarnNewChatMinutes": 477,
-  "WarnManagerNewChatMinutes": 153,
-  "TicketEnabled": true,
+  "CollectConsent": true,
+  "BadgeHeader": "laboriosam",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "ut",
+  "WarnNewChatMinutes": 50,
+  "WarnManagerNewChatMinutes": 739,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 620,
-  "WarnManagerChatMessageMinutes": 477,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 586,
+  "WarnManagerChatMessageMinutes": 27,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 994,
-  "OfflineFormQueueLength": 739,
+  "OfflineFormTimeLimit": 152,
+  "OfflineFormQueueLength": 441,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "qui",
+  "WidgetRatingText": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 748
     }
   }
 }

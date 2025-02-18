@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=522
+POST /api/v1/Agents/User/GetUser?userId=358
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 846,
-  "Name": "O'Conner Inc and Sons",
-  "Rank": 892,
-  "Tooltip": "quis",
+  "AssociateId": 636,
+  "Name": "O'Reilly LLC",
+  "Rank": 817,
+  "Tooltip": "dolor",
   "LicenseOwners": [
     {
-      "Name": "Goldner, Crist and Treutel",
-      "Description": "Cross-platform demand-driven throughput",
+      "Name": "Raynor, Turcotte and Cummerata",
+      "Description": "Multi-channelled 6th generation collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldType": "System.Int32",
+          "FieldLength": 327
         }
       }
     },
     {
-      "Name": "Goldner, Crist and Treutel",
-      "Description": "Cross-platform demand-driven throughput",
+      "Name": "Raynor, Turcotte and Cummerata",
+      "Description": "Multi-channelled 6th generation collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldType": "System.Int32",
+          "FieldLength": 327
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequatur",
-      "Tooltip": "explicabo",
-      "Id": 493,
-      "Rank": 797,
+      "Value": "blanditiis",
+      "Tooltip": "ullam",
+      "Id": 702,
+      "Rank": 809,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 233
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2012-05-14T12:01:28.6034631+02:00",
-  "Lastlogout": "2004-09-05T12:01:28.6034631+02:00",
-  "EjUserId": 774,
-  "RequestSignature": "reiciendis",
+  "Deleted": true,
+  "Lastlogin": "2017-03-15T14:32:04.3115317+01:00",
+  "Lastlogout": "2004-07-23T14:32:04.3115317+02:00",
+  "EjUserId": 529,
+  "RequestSignature": "consectetur",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "iste",
+      "Value": "necessitatibus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 8
         }
       }
     },
     {
       "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "iste",
+      "Value": "necessitatibus",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 741
+          "FieldLength": 8
         }
       }
     }
   ],
-  "UserName": "Hansen-Kohler",
+  "UserName": "Williamson, Bednar and Lehner",
   "TicketCategories": [
     {
-      "Id": 903,
-      "Name": "Ullrich, Daugherty and Turcotte",
-      "ToolTip": "Quia repellat nisi unde.",
+      "Id": 223,
+      "Name": "Hilll LLC",
+      "ToolTip": "Earum perferendis qui sunt aut ipsa possimus accusamus.",
       "Deleted": true,
-      "Rank": 277,
-      "Type": "quidem",
+      "Rank": 668,
+      "Type": "vero",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "corrupti",
-      "ColorBlock": 36,
-      "ExtraInfo": "nemo",
-      "StyleHint": "dolorem",
-      "FullName": "Mrs. Jakayla Adams",
+      "IconHint": "et",
+      "ColorBlock": 979,
+      "ExtraInfo": "ipsum",
+      "StyleHint": "vitae",
+      "FullName": "Hoyt Milton Trantow DDS",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 680
+        }
+      }
+    }
+  ],
+  "NickName": "Hansen-Casper",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "modi",
+    "ExtraFields2": "eveniet"
+  },
+  "CustomFields": {
+    "CustomFields1": "quaerat",
+    "CustomFields2": "odit"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Walter, Nitzsche and Barrows",
+      "DisplayName": "Pollich, Ratke and Pfeffer",
+      "Description": "Customizable bottom-line access",
+      "ToolTip": "Aut in error molestias ut.",
+      "Actions": "Implicit",
+      "ActionData": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
-        }
-      }
-    }
-  ],
-  "NickName": "Schroeder, Trantow and Wuckert",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "distinctio"
-  },
-  "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aspernatur"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Klocko Group",
-      "DisplayName": "Medhurst-Marvin",
-      "Description": "Optimized didactic info-mediaries",
-      "ToolTip": "Ratione velit numquam eum et.",
-      "Actions": "Implicit",
-      "ActionData": "fugiat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 494
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 323
     }
   }
 }

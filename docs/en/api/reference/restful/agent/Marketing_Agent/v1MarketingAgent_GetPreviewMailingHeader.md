@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 843
+  "ShipmentId": 956
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2001-08-18T12:01:27.9940463+02:00",
+  "StartDate": "2021-02-08T14:32:03.2180287+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 546,
-  "ShipmentDescription": "Virtual mission-critical middleware",
-  "FromAddress": "aut",
-  "Configuration": 281,
-  "PersonId": 140,
-  "PersonFullName": "Dr. Megane Kshlerin",
-  "ShipmentType": "est",
-  "MessageId": 236,
-  "MessageSubject": "dolore",
-  "DocumentMessageId": 307,
-  "NumSent": 620,
-  "NumOpened": 723,
-  "NumBounced": 169,
-  "NumClicks": 517,
+  "ShipmentId": 658,
+  "ShipmentDescription": "Advanced assymetric intranet",
+  "FromAddress": "dolorem",
+  "Configuration": 780,
+  "PersonId": 805,
+  "PersonFullName": "Nikolas Rohan",
+  "ShipmentType": "excepturi",
+  "MessageId": 28,
+  "MessageSubject": "natus",
+  "DocumentMessageId": 173,
+  "NumSent": 547,
+  "NumOpened": 879,
+  "NumBounced": 984,
+  "NumClicks": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 486
     }
   }
 }

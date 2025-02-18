@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=sit
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=quia
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Kessler-Lehner",
-    "ToolTip": "Et animi ipsam.",
+    "Id": 59,
+    "Name": "Lind Group",
+    "ToolTip": "Quas accusamus et.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "autem",
+    "Rank": 282,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Borer Group",
-        "ToolTip": "Et qui itaque beatae sequi.",
-        "Deleted": false,
-        "Rank": 107,
-        "Type": "numquam",
+        "Id": 592,
+        "Name": "Schulist Group",
+        "ToolTip": "Non accusamus et ipsa.",
+        "Deleted": true,
+        "Rank": 720,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 790,
-        "ExtraInfo": "amet",
-        "StyleHint": "maiores",
-        "FullName": "Elnora Shanny Kuhlman IV",
+        "IconHint": "velit",
+        "ColorBlock": 690,
+        "ExtraInfo": "adipisci",
+        "StyleHint": "asperiores",
+        "FullName": "Noble Emmerich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 717
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 947,
-    "ExtraInfo": "et",
-    "StyleHint": "eos",
-    "FullName": "Mr. Fred Grimes II",
+    "IconHint": "voluptatem",
+    "ColorBlock": 141,
+    "ExtraInfo": "maiores",
+    "StyleHint": "repellendus",
+    "FullName": "Alessandro Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 419
       }
     }
   }

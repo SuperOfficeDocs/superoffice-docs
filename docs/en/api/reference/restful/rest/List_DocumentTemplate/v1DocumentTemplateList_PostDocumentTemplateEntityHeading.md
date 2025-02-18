@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 938,
-  "Name": "Durgan-Conn",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 117,
-  "UdListDefinitionId": 912
+  "HeadingId": 764,
+  "Name": "Wolf, Zieme and Fritsch",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 529,
+  "UdListDefinitionId": 749
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 654,
-  "Name": "Miller-Reichel",
-  "Tooltip": "ab",
+  "HeadingId": 379,
+  "Name": "McCullough Inc and Sons",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 208,
-  "UdListDefinitionId": 243,
+  "Rank": 697,
+  "UdListDefinitionId": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 65
+      "FieldLength": 552
     }
   }
 }

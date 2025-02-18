@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 887,
+  "ProjectId": 495,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

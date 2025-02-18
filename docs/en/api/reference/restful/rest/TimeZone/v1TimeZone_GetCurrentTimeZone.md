@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 335,
-  "Name": "Aufderhar Group",
-  "TZLocationCode": "veritatis",
-  "TZLocationCities": "quia",
-  "IsoNumber": 884,
+  "TZLocationID": 847,
+  "Name": "Schumm-Jaskolski",
+  "TZLocationCode": "consequatur",
+  "TZLocationCities": "qui",
+  "IsoNumber": 616,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 930,
-      "StartMonth": 729,
-      "EndDay": 363,
-      "EndMonth": 779,
-      "TZOffset": 789,
-      "StartRulePattern": "et",
-      "EndRulePattern": "vel"
+      "StartDay": 833,
+      "StartMonth": 763,
+      "EndDay": 484,
+      "EndMonth": 193,
+      "TZOffset": 998,
+      "StartRulePattern": "doloremque",
+      "EndRulePattern": "nulla"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 723,
-      "StartMonth": 234,
-      "EndDay": 273,
-      "EndMonth": 236,
-      "TZOffset": 751,
-      "StartRulePattern": "enim",
-      "EndRulePattern": "ut"
+      "StartDay": 684,
+      "StartMonth": 843,
+      "EndDay": 30,
+      "EndMonth": 819,
+      "TZOffset": 83,
+      "StartRulePattern": "ut",
+      "EndRulePattern": "mollitia"
     }
   }
 }

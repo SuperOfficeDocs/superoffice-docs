@@ -87,13 +87,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 638,
-  "Name": "Boyle, Hintz and Padberg",
-  "Tooltip": "nemo",
-  "Rank": 272,
-  "DoctmplId": 811,
-  "Header": "et",
-  "OurRef": "optio",
+  "SuggestedDocumentId": 174,
+  "Name": "Daniel Group",
+  "Tooltip": "ipsa",
+  "Rank": 912,
+  "DoctmplId": 670,
+  "Header": "doloremque",
+  "OurRef": "rerum",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 1002,
-  "Name": "Daugherty Inc and Sons",
-  "Tooltip": "architecto",
-  "Rank": 848,
-  "DoctmplId": 929,
-  "Header": "sequi",
-  "OurRef": "officiis",
+  "SuggestedDocumentId": 811,
+  "Name": "Hirthe, Schmitt and Champlin",
+  "Tooltip": "dicta",
+  "Rank": 639,
+  "DoctmplId": 838,
+  "Header": "aliquid",
+  "OurRef": "quos",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 608,
+  "EjMessageId": 440,
   "Ticket": null,
-  "CreatedAt": "2013-10-20T12:01:33.2769618+02:00",
+  "CreatedAt": "2010-08-08T14:32:12.1771753+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "optio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "error",
-  "TimeSpent": 528,
-  "Body": "maiores",
-  "HtmlBody": "necessitatibus",
-  "EmailHeader": "marjolaine_stanton@kuhlman.com",
-  "DebugInfo": "sit",
-  "MailSorter": "laborum",
+  "MessageId": "sit",
+  "TimeSpent": 836,
+  "Body": "porro",
+  "HtmlBody": "nemo",
+  "EmailHeader": "laura.eichmann@considine.biz",
+  "DebugInfo": "maiores",
+  "MailSorter": "dolores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "quas",
   "MessageHeaders": [
     {
-      "Id": 908,
-      "Name": "Wilkinson-Denesik",
-      "Value": "qui",
+      "Id": 432,
+      "Name": "Gleason, Huel and Corwin",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 370
         }
       }
     }
   ],
-  "Important": true,
+  "Important": false,
   "Language": "ut",
-  "Sentiment": 856,
-  "SentimentConfidence": 688,
+  "Sentiment": 146,
+  "SentimentConfidence": 346,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 944,
-      "Name": "Hartmann LLC",
-      "ContentType": "nihil",
-      "AttSize": 150,
+      "AttachmentId": 166,
+      "Name": "Mertz, Bartoletti and Hessel",
+      "ContentType": "sed",
+      "AttSize": 679,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "est",
-      "IsSafeFileExtension": true,
+      "ContentId": "et",
+      "AuthKey": "odio",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 476
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "unde",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "sed"
+    "CustomFields1": "est",
+    "CustomFields2": "fugiat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 650
     }
   }
 }

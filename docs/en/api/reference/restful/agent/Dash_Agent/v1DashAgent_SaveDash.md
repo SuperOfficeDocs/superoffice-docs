@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 736,
-  "UniqueId": "commodi",
-  "Name": "Wuckert LLC",
-  "Description": "Profit-focused 6th generation flexibility",
-  "AssociateId": 839,
-  "Columns": 389,
+  "DashboardId": 617,
+  "UniqueId": "veritatis",
+  "Name": "Bartell LLC",
+  "Description": "Mandatory fault-tolerant structure",
+  "AssociateId": 402,
+  "Columns": 473,
   "Theme": null,
-  "VisibleForAll": 623,
+  "VisibleForAll": 11,
   "VisibleForAssociates": [
-    86,
-    398
+    707,
+    726
   ],
   "VisibleForGroups": [
-    699,
-    874
+    142,
+    894
   ],
-  "PinForAll": 254,
+  "PinForAll": 535,
   "PinForAssociates": [
-    657,
-    431
+    451,
+    606
   ],
   "PinForGroups": [
-    103,
-    293
+    492,
+    721
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 880,
-  "UniqueId": "provident",
-  "Name": "Gislason LLC",
-  "Description": "Organized uniform throughput",
-  "AssociateId": 589,
-  "Columns": 969,
+  "DashboardId": 797,
+  "UniqueId": "nobis",
+  "Name": "Emmerich LLC",
+  "Description": "Programmable bottom-line array",
+  "AssociateId": 537,
+  "Columns": 442,
   "Theme": null,
-  "VisibleForAll": 359,
+  "VisibleForAll": 747,
   "VisibleForAssociates": [
-    447,
-    43
+    250,
+    222
   ],
   "VisibleForGroups": [
-    569,
-    144
+    271,
+    492
   ],
-  "PinForAll": 572,
+  "PinForAll": 714,
   "PinForAssociates": [
-    440,
-    328
+    800,
+    326
   ],
   "PinForGroups": [
-    728,
-    209
+    68,
+    923
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

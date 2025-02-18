@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 885,
-  "Name": "O'Reilly Group",
-  "Tooltip": "vero",
-  "Rank": 785,
+  "SaleTypeId": 448,
+  "Name": "Ruecker, Feest and Ebert",
+  "Tooltip": "perferendis",
+  "Rank": 673,
   "DurationUnit": "Century",
-  "SaleDuration": 904,
-  "SaleTypeCatId": 468,
-  "Deleted": true,
+  "SaleDuration": 776,
+  "SaleTypeCatId": 417,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 79,
-  "QuoteLinesTemplate": 253,
-  "ConfirmationLinesTemplate": 716,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 811,
+  "QuoteLinesTemplate": 542,
+  "ConfirmationLinesTemplate": 697,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 925,
-  "MinEarningPercent": 270,
-  "GroupQuoteLinesBy": 814,
-  "SortGroupLinesBy": 312,
+  "MaxDiscountPercent": 491,
+  "MinEarningPercent": 421,
+  "GroupQuoteLinesBy": 747,
+  "SortGroupLinesBy": 538,
   "Stages": [
     {
-      "Id": 539,
-      "Name": "Schroeder-Steuber",
-      "ToolTip": "Et nihil est eum non corrupti autem nam.",
+      "Id": 970,
+      "Name": "Macejkovic, Tromp and Miller",
+      "ToolTip": "Ut adipisci.",
       "Deleted": false,
-      "Rank": 431,
-      "Type": "ab",
-      "ColorBlock": 653,
-      "IconHint": "ex",
+      "Rank": 574,
+      "Type": "minima",
+      "ColorBlock": 663,
+      "IconHint": "iure",
       "Selected": true,
-      "LastChanged": "2004-09-09T12:01:27.97842+02:00",
+      "LastChanged": "2009-11-14T14:32:03.1867546+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corrupti",
-      "StyleHint": "eveniet",
+      "ExtraInfo": "omnis",
+      "StyleHint": "in",
       "Hidden": true,
-      "FullName": "Jessyca Rosenbaum"
+      "FullName": "Ms. Bennie Crona MD"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 786,
-  "Name": "Hoeger Group",
-  "Tooltip": "consequatur",
-  "Rank": 979,
+  "SaleTypeId": 522,
+  "Name": "Hagenes Inc and Sons",
+  "Tooltip": "vitae",
+  "Rank": 407,
   "DurationUnit": "Century",
-  "SaleDuration": 668,
-  "SaleTypeCatId": 132,
+  "SaleDuration": 616,
+  "SaleTypeCatId": 737,
   "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 248,
-  "QuoteLinesTemplate": 573,
-  "ConfirmationLinesTemplate": 728,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 783,
-  "MinEarningPercent": 179,
-  "GroupQuoteLinesBy": 424,
-  "SortGroupLinesBy": 677,
+  "DefaultQuoteValidity": 921,
+  "QuoteLinesTemplate": 992,
+  "ConfirmationLinesTemplate": 725,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 278,
+  "MinEarningPercent": 351,
+  "GroupQuoteLinesBy": 317,
+  "SortGroupLinesBy": 461,
   "Stages": [
     {
-      "Id": 249,
-      "Name": "Hirthe LLC",
-      "ToolTip": "Deserunt nostrum laudantium.",
+      "Id": 744,
+      "Name": "Hermann-Fahey",
+      "ToolTip": "Et eum nam repudiandae rerum.",
       "Deleted": false,
-      "Rank": 203,
-      "Type": "perferendis",
-      "ColorBlock": 68,
-      "IconHint": "tempora",
-      "Selected": true,
-      "LastChanged": "2019-04-25T12:01:27.97842+02:00",
+      "Rank": 796,
+      "Type": "a",
+      "ColorBlock": 30,
+      "IconHint": "in",
+      "Selected": false,
+      "LastChanged": "2004-09-18T14:32:03.1867546+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "at",
-      "Hidden": false,
-      "FullName": "Mrs. Britney Larissa Douglas DVM",
+      "ExtraInfo": "sit",
+      "StyleHint": "quidem",
+      "Hidden": true,
+      "FullName": "Burnice Ceasar Rempel Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 710
+          "FieldType": "System.Int32",
+          "FieldLength": 209
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 673
     }
   }
 }

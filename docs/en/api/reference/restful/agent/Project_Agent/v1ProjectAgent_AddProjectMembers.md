@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 319,
+  "ProjectEntityId": 541,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 837,
-      "ContactId": 79,
-      "ProjectId": 57,
-      "ContactName": "Wuckert Inc and Sons",
+      "ProjectmemberId": 429,
+      "ContactId": 427,
+      "ProjectId": 124,
+      "ContactName": "Fisher-Larkin",
       "ContactDepartment": "",
-      "ProjectName": "Rowe Group",
-      "EmailId": 666,
-      "EmailAddress": "amelie@pfefferlindgren.us",
-      "CountryId": 250,
-      "Firstname": "Creola",
-      "MiddleName": "Koss, Jaskolski and Ebert",
-      "Lastname": "Durgan",
-      "PersonId": 750,
-      "Mrmrs": "cum",
-      "ProjectMemberTypeName": "Schumm-Pfeffer",
-      "Phone": "269-284-3557 x1928",
-      "PhoneId": 664,
-      "ProjectMemberTypeId": 757,
-      "EmailAddressName": "jaiden@johnsonhomenick.com",
-      "Comment": "consequatur",
-      "FullName": "Kathryn Wehner"
+      "ProjectName": "Zboncak, Fisher and Stamm",
+      "EmailId": 637,
+      "EmailAddress": "verla@satterfield.uk",
+      "CountryId": 885,
+      "Firstname": "Wallace",
+      "MiddleName": "Roob Inc and Sons",
+      "Lastname": "Schroeder",
+      "PersonId": 104,
+      "Mrmrs": "ratione",
+      "ProjectMemberTypeName": "Romaguera, O'Kon and Jacobi",
+      "Phone": "(152)237-8741 x8440",
+      "PhoneId": 563,
+      "ProjectMemberTypeId": 476,
+      "EmailAddressName": "roy@watsicawintheiser.co.uk",
+      "Comment": "odit",
+      "FullName": "Ms. Godfrey Goodwin"
     }
   ]
 }

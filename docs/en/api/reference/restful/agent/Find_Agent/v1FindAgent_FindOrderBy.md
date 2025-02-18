@@ -86,18 +86,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "Zemlak, Daugherty and Predovic",
-  "StorageKey": "suscipit",
-  "PageSize": 350,
-  "PageNumber": 75,
+  "StorageType": "doloremque",
+  "ProviderName": "Hessel-Nienow",
+  "StorageKey": "velit",
+  "PageSize": 398,
+  "PageNumber": 74,
   "OrderBy": [
     {
-      "Name": "Toy-Huel",
+      "Name": "Emmerich, Mann and Wintheiser",
       "Direction": "ASC"
     },
     {
-      "Name": "Toy-Huel",
+      "Name": "Emmerich, Mann and Wintheiser",
       "Direction": "ASC"
     }
   ]
@@ -113,51 +113,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Rodriguez Group",
-      "DisplayTooltip": "incidunt",
-      "DisplayType": "dolorem",
+      "DisplayName": "Donnelly Group",
+      "DisplayTooltip": "explicabo",
+      "DisplayType": "nostrum",
       "CanOrderBy": false,
-      "Name": "Jones-Miller",
-      "CanRestrictBy": true,
-      "RestrictionType": "velit",
-      "RestrictionListName": "Stiedemann, Haley and Leffler",
+      "Name": "Mraz Group",
+      "CanRestrictBy": false,
+      "RestrictionType": "quas",
+      "RestrictionListName": "Prohaska Group",
       "IsVisible": false,
-      "ExtraInfo": "quisquam",
-      "Width": "asperiores",
-      "IconHint": "aut",
-      "HeadingIconHint": "unde"
+      "ExtraInfo": "porro",
+      "Width": "animi",
+      "IconHint": "fugiat",
+      "HeadingIconHint": "numquam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Smitham, O'Hara and Maggio",
-      "PrimaryKey": 409,
+      "EntityName": "Green LLC",
+      "PrimaryKey": 955,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "architecto",
-          "TooltipHint": "architecto",
-          "LinkHint": "assumenda"
+          "DisplayValue": "quae",
+          "TooltipHint": "voluptas",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "commodi",
-      "StyleHint": "voluptas",
+      "LinkHint": "doloribus",
+      "StyleHint": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 14
+          "FieldLength": 385
         }
       }
     }
   ],
-  "RowCount": 220,
+  "RowCount": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 514
     }
   }
 }

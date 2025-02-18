@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Dicki, Bauch and O'Keefe",
-    "Tooltip": "distinctio",
+    "Id": 634,
+    "Name": "Prosacco-Smitham",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "UdListDefinitionId": 319,
-    "Rank": 274
+    "UdListDefinitionId": 337,
+    "Rank": 211
   },
   {
-    "Id": 53,
-    "Name": "Dicki, Bauch and O'Keefe",
-    "Tooltip": "distinctio",
+    "Id": 634,
+    "Name": "Prosacco-Smitham",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "UdListDefinitionId": 319,
-    "Rank": 274
+    "UdListDefinitionId": 337,
+    "Rank": 211
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Gorczany-Braun",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "UdListDefinitionId": 201,
-    "Rank": 634,
+    "Id": 362,
+    "Name": "Schinner Group",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "UdListDefinitionId": 755,
+    "Rank": 748,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 448
       }
     }
   }

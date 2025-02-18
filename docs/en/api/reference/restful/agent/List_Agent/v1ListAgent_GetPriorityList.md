@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Value": "consequatur",
-    "Tooltip": "blanditiis",
+    "Id": 88,
+    "Value": "dolorem",
+    "Tooltip": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 854
       }
     }
   },
   {
-    "Id": 317,
-    "Value": "consequatur",
-    "Tooltip": "blanditiis",
+    "Id": 88,
+    "Value": "dolorem",
+    "Tooltip": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 854
       }
     }
   }

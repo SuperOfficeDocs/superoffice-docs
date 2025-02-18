@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Reichert, Thiel and Schimmel",
-    "DisplayName": "McDermott-Parisian",
-    "Description": "Multi-tiered modular matrix",
-    "ShortLabel": "exercitationem",
+    "FieldName": "Kihn, Crist and Swaniawski",
+    "DisplayName": "Kertzmann, Schuster and Beatty",
+    "Description": "Proactive value-added core",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 754,
-    "TemplateVariableName": "Dietrich, Hills and Leannon"
+    "Rank": 713,
+    "TemplateVariableName": "Bernhard-Price"
   }
 ]
 ```

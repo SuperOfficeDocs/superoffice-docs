@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 735,
-  "InstanceLayout": "velit",
-  "InstanceName": "Heller-Wisoky",
-  "CreatedDate": "1997-12-23T12:01:27.3377499+01:00",
-  "UpdatedDate": "1998-06-01T12:01:27.3377499+02:00",
+  "AudienceLayoutId": 300,
+  "InstanceLayout": "architecto",
+  "InstanceName": "Effertz, Labadie and Bruen",
+  "CreatedDate": "2019-05-05T14:32:02.0306023+02:00",
+  "UpdatedDate": "2005-07-23T14:32:02.0306023+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 842,
-  "InstanceLayout": "veritatis",
-  "InstanceName": "Cronin-Becker",
-  "CreatedDate": "2018-12-13T12:01:27.3377499+01:00",
-  "UpdatedDate": "2014-09-27T12:01:27.3377499+02:00",
+  "AudienceLayoutId": 893,
+  "InstanceLayout": "et",
+  "InstanceName": "Bailey Inc and Sons",
+  "CreatedDate": "2009-08-28T14:32:02.0306023+02:00",
+  "UpdatedDate": "2012-03-27T14:32:02.0306023+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 888
     }
   }
 }

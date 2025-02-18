@@ -79,10 +79,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 269,
+  "TicketId": 321,
   "MessageActionType": "Forward",
-  "TicketMessageId": 228,
-  "TicketTypeId": 617
+  "TicketMessageId": 43,
+  "TicketTypeId": 139
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "autem",
+  "Body": "debitis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 345,
-      "Name": "Weissnat Group",
-      "ContentType": "nisi",
-      "AttSize": 153,
+      "AttachmentId": 895,
+      "Name": "Lockman Group",
+      "ContentType": "reiciendis",
+      "AttSize": 747,
       "InlineImage": true,
-      "ContentId": "quos",
-      "AuthKey": "odio",
+      "ContentId": "dignissimos",
+      "AuthKey": "et",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 237
         }
       }
     }

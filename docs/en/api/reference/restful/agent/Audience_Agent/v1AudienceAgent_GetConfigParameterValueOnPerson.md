@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Klein-Mayer",
-  "PersonId": 669
+  "ParameterName": "Marvin, Rutherford and Wyman",
+  "PersonId": 68
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"neque"
+"voluptate"
 ```

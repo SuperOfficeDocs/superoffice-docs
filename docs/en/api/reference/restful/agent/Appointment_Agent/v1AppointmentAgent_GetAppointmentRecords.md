@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 949,
-  "RecurrenceRuleId": 650
+  "MotherId": 249,
+  "RecurrenceRuleId": 980
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 747,
-    "StartDate": "2008-08-28T12:01:27.0252114+02:00",
-    "EndDate": "2007-09-04T12:01:27.0252114+02:00",
+    "AppointmentId": 822,
+    "StartDate": "2024-07-07T14:32:01.6555155+02:00",
+    "EndDate": "2009-06-21T14:32:01.6555155+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsa",
-    "AssociateFullName": "Jarrett Windler I",
-    "ContactName": "Grant, Kuphal and Altenwerth",
-    "Description": "Fully-configurable homogeneous local area network",
-    "PersonFullName": "Jabari Hegmann",
-    "PersonId": 385,
-    "ContactId": 380,
-    "ProjectId": 232,
-    "ProjectName": "Fadel Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 36,
-    "ColorIndex": 344,
-    "IsFree": true,
+    "Task": "et",
+    "AssociateFullName": "Mack Leannon",
+    "ContactName": "Klocko, Larson and Bailey",
+    "Description": "Implemented even-keeled hardware",
+    "PersonFullName": "Donald Jenkins",
+    "PersonId": 347,
+    "ContactId": 216,
+    "ProjectId": 339,
+    "ProjectName": "Upton, Gaylord and Hammes",
+    "IsPublished": true,
+    "AssociateId": 439,
+    "ColorIndex": 633,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 300,
-    "PriorityName": "Fay, Langosh and Daniel",
+    "PriorityId": 133,
+    "PriorityName": "Hamill Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-03-10T12:01:27.0252114+01:00",
+    "ActiveDate": "2019-04-26T14:32:01.6555155+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-06-25T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1998-03-15T12:01:27.0252114+01:00",
-    "MotherId": 800,
-    "AssignedBy": 966,
-    "AssignedByFullName": "Westley Hirthe",
+    "RecurringStartDate": "1999-01-04T14:32:01.6555155+01:00",
+    "RecurringEndDate": "2006-09-15T14:32:01.6555155+02:00",
+    "MotherId": 496,
+    "AssignedBy": 814,
+    "AssignedByFullName": "Miss Maiya Kihn I",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "ad",
-    "SaleId": 630,
-    "SaleName": "Lueilwitz Group",
-    "AssociateName": "Jewess-Walter",
-    "CreatedDate": "2006-01-31T12:01:27.0252114+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Oleta Stoltenberg",
-    "CreatedByAssociateId": 751,
+    "Location": "ipsum",
+    "AlarmLeadTime": "cum",
+    "SaleId": 181,
+    "SaleName": "Marvin LLC",
+    "AssociateName": "Dickinson-Haley",
+    "CreatedDate": "1998-09-22T14:32:01.6555155+02:00",
+    "CreatedBy": "alias",
+    "CreatedByFullName": "Lisette Osinski",
+    "CreatedByAssociateId": 317,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 376,
-    "Title": "qui",
+    "PreferredTZLocation": 936,
+    "Title": "enim",
     "Agenda": "nihil",
-    "InternalNotes": "earum",
+    "InternalNotes": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 186
       }
     }
   }

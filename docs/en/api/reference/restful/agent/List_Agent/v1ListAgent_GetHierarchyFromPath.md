@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quasi",
-  "Children": false
+  "Path": "nisi",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 881,
+  "HierarchyId": 880,
   "Domain": "Dashboards",
-  "Name": "Wunsch-Grimes",
-  "Fullname": "debitis",
-  "ParentId": 784,
+  "Name": "Hermiston-Wisoky",
+  "Fullname": "consequatur",
+  "ParentId": 540,
   "Children": [
     {
-      "HierarchyId": 610,
+      "HierarchyId": 150,
       "Domain": "Dashboards",
-      "Name": "Donnelly, Olson and Mayert",
-      "Fullname": "voluptatem",
-      "ParentId": 943,
+      "Name": "Sawayn-Corwin",
+      "Fullname": "hic",
+      "ParentId": 1001,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-05-09T12:01:27.9627939+02:00",
-      "RegisteredAssociateId": 557,
-      "Updated": "2000-05-02T12:01:27.9627939+02:00",
-      "UpdatedAssociateId": 366,
+      "Registered": "2015-01-28T14:32:03.1722226+01:00",
+      "RegisteredAssociateId": 509,
+      "Updated": "2017-04-10T14:32:03.1722226+02:00",
+      "UpdatedAssociateId": 133,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 379
         }
       }
     }
   ],
-  "Registered": "2004-09-11T12:01:27.9627939+02:00",
-  "RegisteredAssociateId": 237,
-  "Updated": "2021-10-29T12:01:27.9627939+02:00",
-  "UpdatedAssociateId": 891,
+  "Registered": "2012-11-09T14:32:03.1722226+01:00",
+  "RegisteredAssociateId": 854,
+  "Updated": "2025-01-20T14:32:03.1722226+01:00",
+  "UpdatedAssociateId": 569,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   }
 }

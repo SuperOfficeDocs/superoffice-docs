@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 852,
-  "Name": "Wuckert LLC",
-  "Tooltip": "optio",
+  "HeadingId": 865,
+  "Name": "Waters LLC",
+  "Tooltip": "laboriosam",
   "Deleted": true,
-  "Rank": 934,
-  "UdListDefinitionId": 819
+  "Rank": 713,
+  "UdListDefinitionId": 886
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 1000,
-  "Name": "Ratke-Hauck",
-  "Tooltip": "ea",
+  "HeadingId": 152,
+  "Name": "Harris, Fisher and Dooley",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 594,
-  "UdListDefinitionId": 403,
+  "Rank": 706,
+  "UdListDefinitionId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 33,
-  "Name": "Wisoky Group",
-  "Tooltip": "recusandae",
-  "Rank": 987,
+  "SaleTypeId": 660,
+  "Name": "Cremin Group",
+  "Tooltip": "dolores",
+  "Rank": 471,
   "DurationUnit": "Century",
-  "SaleDuration": 915,
-  "SaleTypeCatId": 572,
-  "Deleted": false,
+  "SaleDuration": 704,
+  "SaleTypeCatId": 100,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 919,
-  "QuoteLinesTemplate": 636,
-  "ConfirmationLinesTemplate": 101,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 555,
+  "QuoteLinesTemplate": 733,
+  "ConfirmationLinesTemplate": 307,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 647,
-  "MinEarningPercent": 768,
-  "GroupQuoteLinesBy": 502,
-  "SortGroupLinesBy": 750,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 23,
+  "MinEarningPercent": 831,
+  "GroupQuoteLinesBy": 890,
+  "SortGroupLinesBy": 845,
   "Stages": [
     {
-      "Id": 725,
-      "Name": "Bradtke, Will and Jakubowski",
-      "ToolTip": "Distinctio dolor et quia rerum et dignissimos.",
-      "Deleted": true,
-      "Rank": 576,
-      "Type": "soluta",
-      "ColorBlock": 297,
-      "IconHint": "animi",
-      "Selected": false,
-      "LastChanged": "1999-10-14T12:01:27.97842+02:00",
+      "Id": 981,
+      "Name": "Mitchell LLC",
+      "ToolTip": "Voluptatem magnam magnam quibusdam quod quis fuga consequatur.",
+      "Deleted": false,
+      "Rank": 507,
+      "Type": "dolores",
+      "ColorBlock": 458,
+      "IconHint": "sit",
+      "Selected": true,
+      "LastChanged": "2011-03-15T14:32:03.1867546+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "dolor",
-      "Hidden": true,
-      "FullName": "Miss Howard Pfannerstill IV",
+      "ExtraInfo": "cumque",
+      "StyleHint": "at",
+      "Hidden": false,
+      "FullName": "Misty Beth Roob DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldType": "System.String",
+          "FieldLength": 91
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldType": "System.Int32",
+      "FieldLength": 794
     }
   }
 }

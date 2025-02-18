@@ -90,20 +90,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 232,
-  "Name": "Franecki-Yundt",
-  "Tooltip": "optio",
-  "PassiveText": "dignissimos",
+  "ReldefId": 617,
+  "Name": "Mills Group",
+  "Tooltip": "fuga",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 248,
+  "Rank": 125,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   },
   "_Links": {

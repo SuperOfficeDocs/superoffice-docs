@@ -103,56 +103,56 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Runolfsson Inc and Sons",
+  "ProviderName": "Schultz Group",
   "Columns": [
-    "ea",
-    "tenetur"
+    "blanditiis",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "Schultz-Beahan",
+      "Name": "Harvey LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Schultz-Beahan",
+      "Name": "Harvey LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lowe LLC",
-      "Operator": "officiis",
+      "Name": "Fahey, Koepp and Rogahn",
+      "Operator": "rem",
       "Values": [
-        "nam",
-        "est"
+        "blanditiis",
+        "deleniti"
       ],
       "DisplayValues": [
-        "accusantium",
-        "delectus"
+        "eius",
+        "aliquam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 580,
+      "InterParenthesis": 239,
       "InterOperator": "And",
-      "UniqueHash": 899
+      "UniqueHash": 73
     }
   ],
   "Entities": [
-    "est",
-    "corrupti"
+    "accusantium",
+    "voluptatibus"
   ],
-  "Page": 710,
-  "PageSize": 188,
-  "Options": "voluptas",
-  "Context": "qui"
+  "Page": 929,
+  "PageSize": 457,
+  "Options": "dicta",
+  "Context": "voluptates"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 710,
+  "RowCount": 995,
   "Rows": [
     {
-      "EntityName": "Pacocha, McGlynn and Gulgowski",
-      "PrimaryKey": 545,
+      "EntityName": "Hyatt-Sauer",
+      "PrimaryKey": 574,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "porro",
-          "LinkHint": "similique"
+          "DisplayValue": "voluptates",
+          "TooltipHint": "ut",
+          "LinkHint": "optio"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "ratione",
+      "LinkHint": "deleniti",
+      "StyleHint": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 253
     }
   }
 }

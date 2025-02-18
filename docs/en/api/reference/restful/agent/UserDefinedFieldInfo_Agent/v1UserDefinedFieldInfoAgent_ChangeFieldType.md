@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 996,
-  "ColumnId": 530,
-  "FieldDefault": "sit",
-  "FieldHeight": 605,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 373,
-  "FieldTop": 763,
+  "UDefFieldId": 445,
+  "ColumnId": 111,
+  "FieldDefault": "harum",
+  "FieldHeight": 601,
+  "FieldLabel": "facere",
+  "FieldLeft": 245,
+  "FieldTop": 977,
   "FieldType": "Checkbox",
-  "FieldWidth": 462,
-  "FormatMask": "ipsum",
+  "FieldWidth": 865,
+  "FormatMask": "quibusdam",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 333,
-  "LabelLeft": 10,
-  "LabelTop": 499,
-  "LabelWidth": 310,
-  "LastVersionId": 844,
-  "ListTableId": 991,
+  "IsIndexed": false,
+  "LabelHeight": 539,
+  "LabelLeft": 521,
+  "LabelTop": 829,
+  "LabelWidth": 883,
+  "LastVersionId": 142,
+  "ListTableId": 465,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 955,
-  "ProgId": "quia",
-  "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 370,
-  "TextLength": 943,
-  "Tooltip": "sequi",
-  "UdefIdentity": 620,
-  "UDListDefinitionId": 992,
+  "Page1LineNo": 600,
+  "ProgId": "error",
+  "IsReadOnly": true,
+  "ShortLabel": "ea",
+  "TabOrder": 27,
+  "TextLength": 909,
+  "Tooltip": "ullam",
+  "UdefIdentity": 948,
+  "UDListDefinitionId": 893,
   "Justification": "Center",
-  "Version": 1001,
-  "TemplateVariableName": "McKenzie-Reinger",
-  "HasBeenPublished": true,
-  "MdoListName": "Schaefer, West and Lemke",
+  "Version": 688,
+  "TemplateVariableName": "Leuschke, Jaskolski and Langosh",
+  "HasBeenPublished": false,
+  "MdoListName": "Adams, Dare and Schiller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 524
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 519,
-  "Name": "Dach-Ullrich",
+  "TicketPriorityId": 415,
+  "Name": "Ward-Torphy",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 960,
+  "SortOrder": 23,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 413,
-  "MonStart": "2016-06-24T12:01:33.6832402+02:00",
-  "MonStop": "2000-06-10T12:01:33.6832402+02:00",
-  "TueStart": "2021-08-01T12:01:33.6832402+02:00",
-  "TueStop": "2018-08-01T12:01:33.6832402+02:00",
-  "WedStart": "2015-04-16T12:01:33.6832402+02:00",
-  "WedStop": "2010-06-17T12:01:33.6832402+02:00",
-  "ThuStart": "2022-02-20T12:01:33.6832402+01:00",
-  "ThuStop": "2002-02-05T12:01:33.6832402+01:00",
-  "FriStart": "2017-07-17T12:01:33.6832402+02:00",
-  "FriStop": "2014-01-03T12:01:33.6832402+01:00",
-  "SatStart": "2002-11-27T12:01:33.6832402+01:00",
-  "SatStop": "2011-05-09T12:01:33.6832402+02:00",
-  "SunStart": "2002-07-20T12:01:33.6832402+02:00",
-  "SunStop": "2013-02-17T12:01:33.6832402+01:00",
+  "Deadline": 383,
+  "MonStart": "2000-03-29T14:32:12.9741031+02:00",
+  "MonStop": "2022-11-16T14:32:12.9741031+01:00",
+  "TueStart": "1998-09-21T14:32:12.9741031+02:00",
+  "TueStop": "1999-09-01T14:32:12.9741031+02:00",
+  "WedStart": "2015-07-18T14:32:12.9741031+02:00",
+  "WedStop": "2012-08-10T14:32:12.9741031+02:00",
+  "ThuStart": "1998-02-19T14:32:12.9741031+01:00",
+  "ThuStop": "2013-08-29T14:32:12.9741031+02:00",
+  "FriStart": "2002-06-10T14:32:12.9741031+02:00",
+  "FriStop": "1999-11-03T14:32:12.9741031+01:00",
+  "SatStart": "2022-04-12T14:32:12.9741031+02:00",
+  "SatStop": "2019-05-16T14:32:12.9741031+02:00",
+  "SunStart": "2016-01-14T14:32:12.9741031+01:00",
+  "SunStop": "2004-11-12T14:32:12.9741031+01:00",
   "NonDates": [
-    "voluptatum",
-    "unde"
+    "expedita",
+    "in"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 222,
-      "AlertLevel": 36,
-      "AlertTimeout": 947,
-      "Action": 926,
-      "DelegateTo": 872,
-      "ScriptId": 543,
-      "EmailTo": "dakota@okunevaritchie.co.uk",
-      "SmsTo": "et",
-      "ReplyTemplateIdCustomer": 587,
-      "ReplyTemplateIdUser": 531,
-      "ReplyTemplateIdCatmast": 635,
-      "ReplyTemplateIdEmail": 896,
-      "RtiCustomerSms": 160,
-      "ReplyTemplateIdUserSms": 899,
-      "ReplyTemplateIdCatmastSms": 616,
-      "ReplyTemplateIdSms": 782,
+      "TicketAlertId": 483,
+      "AlertLevel": 676,
+      "AlertTimeout": 900,
+      "Action": 687,
+      "DelegateTo": 418,
+      "ScriptId": 877,
+      "EmailTo": "kayleigh_grimes@aufderhar.uk",
+      "SmsTo": "cum",
+      "ReplyTemplateIdCustomer": 883,
+      "ReplyTemplateIdUser": 347,
+      "ReplyTemplateIdCatmast": 668,
+      "ReplyTemplateIdEmail": 997,
+      "RtiCustomerSms": 947,
+      "ReplyTemplateIdUserSms": 516,
+      "ReplyTemplateIdCatmastSms": 469,
+      "ReplyTemplateIdSms": 453,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldLength": 865
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 274
     }
   }
 }

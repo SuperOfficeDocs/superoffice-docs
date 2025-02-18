@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "eos",
-  "OptionalSecretKey": "aut"
+  "Token": "ex",
+  "OptionalSecretKey": "veritatis"
 }
 ```
 

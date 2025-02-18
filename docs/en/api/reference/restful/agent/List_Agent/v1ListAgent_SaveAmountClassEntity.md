@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 218,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "laborum",
-  "Rank": 724,
-  "AmountFrom": 1626.546,
-  "AmountTo": 10874.98,
-  "Deleted": false,
-  "CurrencyId": 721
+  "AmountClassId": 914,
+  "Name": "Heathcote, Hintz and Kautzer",
+  "Tooltip": "facilis",
+  "Rank": 458,
+  "AmountFrom": 9267.238,
+  "AmountTo": 10997.206,
+  "Deleted": true,
+  "CurrencyId": 699
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 511,
-  "Name": "Hand LLC",
-  "Tooltip": "atque",
-  "Rank": 798,
-  "AmountFrom": 24683.384,
-  "AmountTo": 7675.166,
+  "AmountClassId": 276,
+  "Name": "Glover Group",
+  "Tooltip": "velit",
+  "Rank": 902,
+  "AmountFrom": 10912.588,
+  "AmountTo": 19640.778,
   "Deleted": true,
-  "CurrencyId": 99,
+  "CurrencyId": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 962
     }
   }
 }

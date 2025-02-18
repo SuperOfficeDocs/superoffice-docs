@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 823
+  "ProductId": 887
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 982,
-  "ERPProductKey": "nobis",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Carroll, Spinka and Parker",
-  "Description": "Vision-oriented mobile firmware",
-  "Code": "quibusdam",
-  "PriceUnit": "blanditiis",
-  "QuantityUnit": "consectetur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 25651.79,
-  "ItemNumber": "696945",
+  "ProductId": 972,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "Ebert, Dibbert and Emard",
+  "Description": "Public-key asynchronous open architecture",
+  "Code": "aut",
+  "PriceUnit": "dolorem",
+  "QuantityUnit": "iste",
+  "IsSubscription": false,
+  "SubscriptionUnit": "cupiditate",
+  "DefaultSubscriptionQuantity": 27281.469999999998,
+  "ItemNumber": "1197102",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolore",
-  "ProductTypeKey": "fugiat",
-  "VAT": 30631.716,
-  "VATInfo": "provident",
-  "UnitCost": 13335.17,
-  "UnitMinimumPrice": 30293.244,
-  "UnitListPrice": 6866.594,
-  "InAssortment": true,
-  "Supplier": "eligendi",
-  "SupplierCode": "animi",
-  "Rights": "mollitia",
-  "Rule": "consequuntur",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "non",
+  "VAT": 29346.775999999998,
+  "VATInfo": "sit",
+  "UnitCost": 23921.822,
+  "UnitMinimumPrice": 4390.7339999999995,
+  "UnitListPrice": 5268.254,
+  "InAssortment": false,
+  "Supplier": "ullam",
+  "SupplierCode": "qui",
+  "Rights": "dolore",
+  "Rule": "tempora",
   "ExtraInfo": [
     {
-      "Name": "Koss, Conn and Hilpert",
-      "Value": "non",
+      "Name": "Beatty, Hintz and Lockman",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldLength": 96
         }
       }
     },
     {
-      "Name": "Koss, Conn and Hilpert",
-      "Value": "non",
+      "Name": "Beatty, Hintz and Lockman",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldLength": 96
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "consequuntur",
-  "ExtraField2": "nihil",
-  "ExtraField3": "maiores",
-  "ExtraField4": "tenetur",
-  "ExtraField5": "eligendi",
-  "InStock": 2316.026,
+  "RawExtraInfo": "nihil",
+  "ExtraField1": "et",
+  "ExtraField2": "dolores",
+  "ExtraField3": "hic",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "nisi",
+  "InStock": 25435.543999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 807
     }
   }
 }

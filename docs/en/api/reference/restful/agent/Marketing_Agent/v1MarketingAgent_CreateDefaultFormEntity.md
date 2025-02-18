@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 5,
-  "FormKey": "quaerat",
-  "Name": "Von, Lemke and Ledner",
-  "Description": "Robust demand-driven interface",
-  "Config": "omnis",
-  "FolderId": 753,
-  "ScriptId": 146,
-  "ResponseShipmentId": 830,
+  "FormId": 37,
+  "FormKey": "molestias",
+  "Name": "Daniel Group",
+  "Description": "Operative motivating hierarchy",
+  "Config": "aliquid",
+  "FolderId": 769,
+  "ScriptId": 231,
+  "ResponseShipmentId": 132,
   "Active": false,
-  "Expires": "1998-05-22T12:01:27.9940463+02:00",
-  "MaxSubmits": 203,
+  "Expires": "1998-12-28T14:32:03.202412+01:00",
+  "MaxSubmits": 956,
   "Type": "Normal",
-  "Recipe": "facilis",
-  "GroupId": 199,
+  "Recipe": "corrupti",
+  "GroupId": 247,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2017-01-31T12:01:27.9940463+01:00",
-  "RegisteredAssociateId": 391,
-  "Updated": "2023-09-28T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 595,
-  "UpdatedCount": 635,
+  "Registered": "2023-03-01T14:32:03.202412+01:00",
+  "RegisteredAssociateId": 852,
+  "Updated": "2012-08-10T14:32:03.202412+02:00",
+  "UpdatedAssociateId": 350,
+  "UpdatedCount": 666,
   "EmailFlows": [
-    625,
-    860
+    31,
+    189
   ],
-  "FolderName": "Mann, Wolff and Jast",
+  "FolderName": "Trantow-Wisozk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 544
     }
   }
 }

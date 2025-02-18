@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "cum",
-    "consequuntur"
+    "qui",
+    "eligendi"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 249,
-    "ResourceId": 902,
-    "Text": "quaerat",
+    "LanguageId": 140,
+    "ResourceId": 353,
+    "Text": "rerum",
     "Type": "Column",
-    "LocalizedTextId": 617,
+    "LocalizedTextId": 358,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 422
       }
     }
   }

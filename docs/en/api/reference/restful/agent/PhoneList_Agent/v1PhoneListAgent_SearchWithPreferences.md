@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "reiciendis",
+  "SearchString": "sed",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "158.197.6577 x031",
-    "PersonCellPhone": "328-863-7291",
-    "PersonPrivatePhone": "1-786-602-7913",
-    "PersonFaxNumber": "1267142",
-    "PersonPagerNumber": "1073291",
-    "PersonEmail": "nathanael@boehm.name",
-    "Id": 284,
-    "Name": "Breitenberg LLC",
-    "Tooltip": "itaque",
-    "UniqueId": "est",
+    "PersonDirectPhone": "085.107.5916 x35763",
+    "PersonCellPhone": "1-383-979-5897 x5787",
+    "PersonPrivatePhone": "408-322-8711 x20979",
+    "PersonFaxNumber": "1483071",
+    "PersonPagerNumber": "1545529",
+    "PersonEmail": "hunter@goyette.ca",
+    "Id": 294,
+    "Name": "Ratke-Hettinger",
+    "Tooltip": "fuga",
+    "UniqueId": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 571
       }
     }
   }

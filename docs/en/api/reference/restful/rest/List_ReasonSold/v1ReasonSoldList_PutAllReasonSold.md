@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Considine, Moen and Wilderman",
-    "Tooltip": "ut",
+    "Id": 95,
+    "Name": "Labadie Group",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "UdListDefinitionId": 588,
-    "Rank": 262
+    "UdListDefinitionId": 939,
+    "Rank": 1002
   },
   {
-    "Id": 129,
-    "Name": "Considine, Moen and Wilderman",
-    "Tooltip": "ut",
+    "Id": 95,
+    "Name": "Labadie Group",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "UdListDefinitionId": 588,
-    "Rank": 262
+    "UdListDefinitionId": 939,
+    "Rank": 1002
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Friesen, Kerluke and Doyle",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 742,
-    "Rank": 464,
+    "Id": 605,
+    "Name": "Grimes Group",
+    "Tooltip": "beatae",
+    "Deleted": false,
+    "UdListDefinitionId": 91,
+    "Rank": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 630
       }
     }
   }

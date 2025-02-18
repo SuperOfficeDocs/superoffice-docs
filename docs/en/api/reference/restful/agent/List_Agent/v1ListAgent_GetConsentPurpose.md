@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=6
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=1000
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,17 +89,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 429,
-  "Name": "Wintheiser-Carroll",
-  "ConsentText": "qui",
-  "FormText": "maxime",
-  "Key": "doloribus",
-  "Tooltip": "nisi",
-  "Active": 868,
-  "UpdatedDate": "2008-08-25T12:01:27.9940463+02:00",
+  "ConsentPurposeId": 662,
+  "Name": "Reichert-Gorczany",
+  "ConsentText": "provident",
+  "FormText": "recusandae",
+  "Key": "ut",
+  "Tooltip": "quibusdam",
+  "Active": 101,
+  "UpdatedDate": "2022-08-20T14:32:03.202412+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 723,
+  "Rank": 585,
   "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 122
+      "FieldLength": 90
     }
   }
 }

@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "totam",
-  "Name": "Wuckert Inc and Sons"
+  "Path": "sed",
+  "Name": "Reichel LLC"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 954,
+  "HierarchyId": 281,
   "Domain": "Dashboards",
-  "Name": "Mueller-Ledner",
-  "Fullname": "consectetur",
-  "ParentId": 634,
+  "Name": "Kassulke LLC",
+  "Fullname": "beatae",
+  "ParentId": 461,
   "Children": [
     {
-      "HierarchyId": 403,
+      "HierarchyId": 656,
       "Domain": "Dashboards",
-      "Name": "Hodkiewicz LLC",
-      "Fullname": "voluptatum",
-      "ParentId": 894,
+      "Name": "Sanford-Schulist",
+      "Fullname": "similique",
+      "ParentId": 568,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1997-11-17T12:01:27.9627939+01:00",
-      "RegisteredAssociateId": 219,
-      "Updated": "2010-01-21T12:01:27.9627939+01:00",
-      "UpdatedAssociateId": 240,
+      "Registered": "2022-04-05T14:32:03.1722226+02:00",
+      "RegisteredAssociateId": 328,
+      "Updated": "2023-05-10T14:32:03.1722226+02:00",
+      "UpdatedAssociateId": 590,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 262
+          "FieldType": "System.Int32",
+          "FieldLength": 962
         }
       }
     }
   ],
-  "Registered": "2016-02-02T12:01:27.9627939+01:00",
-  "RegisteredAssociateId": 811,
-  "Updated": "2023-08-08T12:01:27.9627939+02:00",
-  "UpdatedAssociateId": 706,
+  "Registered": "2022-01-28T14:32:03.1722226+01:00",
+  "RegisteredAssociateId": 628,
+  "Updated": "2024-03-24T14:32:03.1722226+01:00",
+  "UpdatedAssociateId": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 339
     }
   }
 }

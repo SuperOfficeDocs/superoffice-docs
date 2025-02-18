@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 428,
-  "Name": "Hilpert-Dare",
-  "Tooltip": "id",
-  "Deleted": true,
-  "Rank": 10,
-  "UdListDefinitionId": 206
+  "HeadingId": 204,
+  "Name": "Nienow Inc and Sons",
+  "Tooltip": "rem",
+  "Deleted": false,
+  "Rank": 302,
+  "UdListDefinitionId": 953
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 669,
-  "Name": "Goodwin LLC",
-  "Tooltip": "aut",
+  "HeadingId": 439,
+  "Name": "Vandervort LLC",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 265,
-  "UdListDefinitionId": 468,
+  "Rank": 805,
+  "UdListDefinitionId": 718,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 59
     }
   }
 }

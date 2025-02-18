@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 455,
-    "Name": "Harvey, Mohr and Donnelly",
-    "ToolTip": "Laudantium iusto illum debitis quidem quaerat.",
-    "Deleted": false,
-    "Rank": 774,
-    "Type": "rerum",
-    "ColorBlock": 59,
-    "IconHint": "aut",
+    "Id": 274,
+    "Name": "Yost-Muller",
+    "ToolTip": "Rerum et ipsam nobis rerum ut quia quisquam.",
+    "Deleted": true,
+    "Rank": 402,
+    "Type": "totam",
+    "ColorBlock": 549,
+    "IconHint": "ducimus",
     "Selected": false,
-    "LastChanged": "2006-01-23T12:01:33.4644748+01:00",
+    "LastChanged": "2006-10-05T14:32:12.5208411+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Block Group",
-        "ToolTip": "Rerum enim accusamus laborum.",
+        "Id": 510,
+        "Name": "Hintz, Kovacek and O'Reilly",
+        "ToolTip": "Rem voluptatem voluptas eos non.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "dolore",
-        "ColorBlock": 693,
-        "IconHint": "praesentium",
-        "Selected": true,
-        "LastChanged": "1998-08-26T12:01:33.4644748+02:00",
+        "Rank": 796,
+        "Type": "natus",
+        "ColorBlock": 213,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2014-06-22T14:32:12.5208411+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "qui",
+        "ExtraInfo": "qui",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Willy Zemlak",
+        "FullName": "Phoebe Gulgowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 845
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "eaque",
+    "StyleHint": "optio",
     "Hidden": false,
-    "FullName": "Lonie Predovic",
+    "FullName": "Gussie Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 610
       }
     }
   }

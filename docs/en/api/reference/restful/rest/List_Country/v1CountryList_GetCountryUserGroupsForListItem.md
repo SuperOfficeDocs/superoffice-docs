@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Schroeder-Bauch",
-    "ToolTip": "Consequatur nulla accusantium est qui eum impedit.",
-    "Deleted": true,
-    "Rank": 925,
-    "Type": "aut",
-    "ColorBlock": 235,
-    "IconHint": "facilis",
+    "Id": 188,
+    "Name": "Vandervort-Walsh",
+    "ToolTip": "Repellat earum commodi aliquid beatae et.",
+    "Deleted": false,
+    "Rank": 559,
+    "Type": "nulla",
+    "ColorBlock": 597,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2022-11-11T12:01:33.4644748+01:00",
+    "LastChanged": "2015-01-16T14:32:12.552084+01:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Bradtke-Renner",
-        "ToolTip": "Id ipsam aliquid modi illo aut repellat qui.",
+        "Id": 85,
+        "Name": "Morar, Gusikowski and Roob",
+        "ToolTip": "Assumenda doloremque ab enim qui excepturi provident possimus.",
         "Deleted": false,
-        "Rank": 989,
-        "Type": "ex",
-        "ColorBlock": 998,
-        "IconHint": "blanditiis",
+        "Rank": 953,
+        "Type": "et",
+        "ColorBlock": 688,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2000-12-04T12:01:33.4644748+01:00",
+        "LastChanged": "2022-08-19T14:32:12.552084+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Miss Ernestine Joyce Berge",
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Lincoln Runte II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldType": "System.String",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Archibald Okuneva",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Maudie Dietrich MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

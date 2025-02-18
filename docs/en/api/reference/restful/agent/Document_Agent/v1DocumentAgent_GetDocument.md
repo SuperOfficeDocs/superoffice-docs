@@ -26,7 +26,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=64
+POST /api/v1/Agents/Document/GetDocument?documentId=143
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,32 +96,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 814,
-  "Attention": "voluptas",
-  "Header": "sit",
-  "Name": "Schulist, Monahan and Bartell",
-  "OurRef": "quod",
-  "YourRef": "ratione",
-  "Description": "Grass-roots modular forecast",
-  "DocumentTemplate": "et",
-  "IsPublished": false,
-  "PersonId": 62,
-  "PersonFullName": "Kristofer Goodwin",
-  "AssociateFullName": "Everette Altenwerth",
-  "ContactId": 445,
-  "ContactName": "Johnson, Raynor and Skiles",
-  "ProjectId": 596,
-  "ProjectName": "Kuvalis-Pouros",
-  "AssociateId": 582,
-  "Snum": 202,
-  "SaleId": 161,
-  "SaleName": "Gutmann-Moen",
+  "DocumentId": 590,
+  "Attention": "ea",
+  "Header": "eum",
+  "Name": "Swaniawski, Price and Hoppe",
+  "OurRef": "eaque",
+  "YourRef": "omnis",
+  "Description": "Universal transitional alliance",
+  "DocumentTemplate": "ratione",
+  "IsPublished": true,
+  "PersonId": 310,
+  "PersonFullName": "Kendall Lurline Zulauf I",
+  "AssociateFullName": "Mr. Valentina Alfreda Johns",
+  "ContactId": 745,
+  "ContactName": "Steuber-Hintz",
+  "ProjectId": 944,
+  "ProjectName": "Powlowski-Hermiston",
+  "AssociateId": 212,
+  "Snum": 8,
+  "SaleId": 970,
+  "SaleName": "Klein-Hammes",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 992
     }
   }
 }

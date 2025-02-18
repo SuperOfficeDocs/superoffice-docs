@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 682,
-  "Name": "Fritsch, Leuschke and Borer",
+  "WebhookId": 279,
+  "Name": "Schaefer-Bauch",
   "Events": [
-    "occaecati",
-    "qui"
+    "repudiandae",
+    "magnam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "corporis",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "neque",
+  "Type": "reiciendis",
   "Headers": {
-    "Headers1": "ducimus",
-    "Headers2": "et"
+    "Headers1": "voluptatem",
+    "Headers2": "dolor"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-02-20T12:01:33.4019705+01:00",
+  "Registered": "2021-08-02T14:32:12.4114949+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-12-04T12:01:33.4019705+01:00",
+  "Updated": "2015-09-15T14:32:12.4114949+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "rodrick.powlowski@hahn.us"
+  "ErrorsEmail": "rodrigo@bahringer.info"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 515,
-  "Name": "Schmeler LLC",
+  "WebhookId": 408,
+  "Name": "Simonis, Weimann and Rath",
   "Events": [
-    "dolorem",
-    "numquam"
+    "voluptatibus",
+    "eveniet"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nihil",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "incidunt",
+  "Type": "dolore",
   "Headers": {
-    "Headers1": "cupiditate",
-    "Headers2": "debitis"
+    "Headers1": "et",
+    "Headers2": "nam"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-09-03T12:01:33.4019705+02:00",
+  "Registered": "2010-08-17T14:32:12.4271136+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-08-19T12:01:33.4019705+02:00",
+  "Updated": "2008-12-03T14:32:12.4271136+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "andreanne_murphy@yundt.us",
+  "ErrorsEmail": "trevor_kihn@mayert.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

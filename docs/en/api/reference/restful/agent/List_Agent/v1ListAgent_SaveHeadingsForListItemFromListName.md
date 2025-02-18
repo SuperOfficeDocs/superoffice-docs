@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hauck-Johns",
-  "ListItemId": 811,
+  "UdListDefinitionName": "Langworth, Kessler and Labadie",
+  "ListItemId": 356,
   "Headings": [
     {
-      "Id": 305,
-      "Name": "Hansen, Hayes and Renner",
-      "ToolTip": "Beatae dolores facere quas.",
-      "Deleted": true,
-      "Rank": 293,
-      "Type": "quidem",
-      "ColorBlock": 600,
-      "IconHint": "ab",
+      "Id": 951,
+      "Name": "Effertz, Aufderhar and Rogahn",
+      "ToolTip": "Hic non in quia optio aperiam officiis.",
+      "Deleted": false,
+      "Rank": 873,
+      "Type": "necessitatibus",
+      "ColorBlock": 42,
+      "IconHint": "illo",
       "Selected": false,
-      "LastChanged": "1998-04-10T12:01:27.9471677+02:00",
+      "LastChanged": "2019-07-08T14:32:03.124104+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "aliquam",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "pariatur",
       "Hidden": false,
-      "FullName": "Marguerite DuBuque"
+      "FullName": "Mrs. Robb Jamie Schmitt Jr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Bauch-Lindgren",
-    "ToolTip": "Nobis odio et non.",
-    "Deleted": true,
-    "Rank": 225,
-    "Type": "laudantium",
-    "ColorBlock": 573,
-    "IconHint": "ullam",
+    "Id": 860,
+    "Name": "Spinka Group",
+    "ToolTip": "Blanditiis voluptatem saepe fuga dolorem.",
+    "Deleted": false,
+    "Rank": 919,
+    "Type": "delectus",
+    "ColorBlock": 291,
+    "IconHint": "molestiae",
     "Selected": false,
-    "LastChanged": "2020-08-27T12:01:27.9471677+02:00",
+    "LastChanged": "2013-03-27T14:32:03.124104+01:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "O'Reilly, Pouros and McCullough",
-        "ToolTip": "Voluptatibus id quae animi cum.",
+        "Id": 962,
+        "Name": "Aufderhar LLC",
+        "ToolTip": "Autem placeat.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "rerum",
-        "ColorBlock": 338,
-        "IconHint": "in",
+        "Rank": 734,
+        "Type": "dolore",
+        "ColorBlock": 128,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2006-02-23T12:01:27.9471677+01:00",
+        "LastChanged": "2020-05-09T14:32:03.124104+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "sequi",
+        "ExtraInfo": "est",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Loma Carter",
+        "FullName": "Delpha Kiley Ebert DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldType": "System.String",
+            "FieldLength": 560
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "enim",
+    "ExtraInfo": "vero",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Rosetta Harvey",
+    "FullName": "Ruthe Pat Rosenbaum I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldLength": 262
       }
     }
   }

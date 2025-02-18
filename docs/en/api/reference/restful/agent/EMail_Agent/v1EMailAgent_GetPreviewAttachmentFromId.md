@@ -93,10 +93,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 859,
-  "AttachmentId": "voluptatem",
-  "AttachmentType": "eligendi",
-  "AttachmentFilename": "quibusdam"
+  "MailItemId": 616,
+  "AttachmentId": "aut",
+  "AttachmentType": "neque",
+  "AttachmentFilename": "labore"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced intermediate artificial intelligence",
-  "Filename": "ea",
-  "Size": 549,
-  "Type": "autem",
-  "Encoding": "quos",
-  "Id": "totam",
-  "Disposition": "assumenda",
-  "IsSafeFileExtension": true,
+  "Description": "Innovative client-driven infrastructure",
+  "Filename": "repudiandae",
+  "Size": 285,
+  "Type": "aut",
+  "Encoding": "eveniet",
+  "Id": "modi",
+  "Disposition": "possimus",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldLength": 910
     }
   }
 }

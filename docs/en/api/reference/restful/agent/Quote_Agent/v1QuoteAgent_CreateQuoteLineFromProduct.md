@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 729,
+  "QuoteAlternativeId": 773,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 138,
-  "ERPQuoteLineKey": "ea",
-  "QuoteAlternativeId": 100,
-  "ERPProductKey": "aperiam",
+  "QuoteLineId": 288,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 26,
+  "ERPProductKey": "dolores",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26184.57,
-  "DeliveredQuantity": 10100.882,
-  "Rank": 323,
-  "Name": "Sporer, Christiansen and Stanton",
-  "Description": "Organic contextually-based Graphic Interface",
-  "Code": "laboriosam",
-  "QuantityUnit": "illo",
-  "PriceUnit": "voluptas",
-  "ItemNumber": "1286612",
+  "Quantity": 21135.696,
+  "DeliveredQuantity": 18506.27,
+  "Rank": 754,
+  "Name": "Cole, Kirlin and Bartoletti",
+  "Description": "Vision-oriented radical functionalities",
+  "Code": "dolores",
+  "QuantityUnit": "nulla",
+  "PriceUnit": "id",
+  "ItemNumber": "802926",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rerum",
-  "ProductTypeKey": "ex",
-  "Supplier": "dignissimos",
-  "SupplierCode": "distinctio",
-  "Thumbnail": "nisi",
-  "VATInfo": "dignissimos",
-  "VAT": 17105.372,
-  "UnitCost": 2692.1059999999998,
-  "UnitMinimumPrice": 31148.825999999997,
-  "UnitListPrice": 17888.872,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "sunt",
+  "Supplier": "at",
+  "SupplierCode": "reprehenderit",
+  "Thumbnail": "beatae",
+  "VATInfo": "vero",
+  "VAT": 30390.397999999997,
+  "UnitCost": 21887.856,
+  "UnitMinimumPrice": 20032.528,
+  "UnitListPrice": 14679.655999999999,
   "ExtraInfo": [
     {
-      "Name": "Mayer Group",
-      "Value": "quod",
+      "Name": "Ziemann Inc and Sons",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     },
     {
-      "Name": "Mayer Group",
-      "Value": "quod",
+      "Name": "Ziemann Inc and Sons",
+      "Value": "earum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "cumque",
-  "SubscriptionQuantity": 21442.827999999998,
-  "SubscriptionStart": "2003-06-02T12:01:28.2128113+02:00",
-  "ERPDiscountPercent": 19459.005999999998,
-  "ERPDiscountAmount": 27510.252,
-  "DiscountPercent": 22834.324,
-  "DiscountAmount": 20988.398,
+  "RawExtraInfo": "ea",
+  "IsSubscription": true,
+  "SubscriptionUnit": "dolorum",
+  "SubscriptionQuantity": 17092.836,
+  "SubscriptionStart": "2002-09-05T14:32:03.6085662+02:00",
+  "ERPDiscountPercent": 7067.17,
+  "ERPDiscountAmount": 5011.266,
+  "DiscountPercent": 21154.5,
+  "DiscountAmount": 6938.6759999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7665.764,
-  "EarningAmount": 11445.368,
-  "SubTotal": 21160.768,
-  "TotalPrice": 8580.892,
-  "Rights": "quibusdam",
-  "Rule": "consequuntur",
-  "ExtraField1": "molestiae",
-  "ExtraField2": "qui",
-  "ExtraField3": "id",
-  "ExtraField4": "et",
-  "ExtraField5": "laudantium",
+  "EarningPercent": 5092.75,
+  "EarningAmount": 30496.953999999998,
+  "SubTotal": 31340.0,
+  "TotalPrice": 25197.36,
+  "Rights": "optio",
+  "Rule": "amet",
+  "ExtraField1": "sit",
+  "ExtraField2": "expedita",
+  "ExtraField3": "deserunt",
+  "ExtraField4": "eum",
+  "ExtraField5": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldType": "System.String",
+      "FieldLength": 78
     }
   }
 }

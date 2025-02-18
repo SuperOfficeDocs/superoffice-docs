@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 173,
-  "BlobSize": 842,
-  "Description": "Quality-focused contextually-based portal",
-  "ExtraInfo": "repellendus",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "reprehenderit",
-  "OriginalSize": 867,
-  "CreatedDate": "2014-06-10T12:01:27.3533761+02:00",
-  "UpdatedDate": "2009-02-04T12:01:27.3533761+01:00",
+  "BlobId": 875,
+  "BlobSize": 824,
+  "Description": "Multi-channelled zero administration parallelism",
+  "ExtraInfo": "at",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "qui",
+  "OriginalSize": 559,
+  "CreatedDate": "2005-03-11T14:32:02.0618444+01:00",
+  "UpdatedDate": "2001-11-09T14:32:02.0618444+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quae"
+  "ConceptualType": "corporis"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 509,
-  "BlobSize": 636,
-  "Description": "Streamlined responsive portal",
-  "ExtraInfo": "id",
+  "BlobId": 932,
+  "BlobSize": 664,
+  "Description": "Open-source 24/7 array",
+  "ExtraInfo": "est",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 936,
-  "CreatedDate": "2020-02-13T12:01:27.3533761+01:00",
-  "UpdatedDate": "2015-02-20T12:01:27.3533761+01:00",
+  "MimeType": "vitae",
+  "OriginalSize": 1002,
+  "CreatedDate": "2001-05-02T14:32:02.0618444+02:00",
+  "UpdatedDate": "2003-02-14T14:32:02.0618444+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

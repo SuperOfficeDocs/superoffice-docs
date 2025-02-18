@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 802,
+    "HierarchyId": 88,
     "Domain": "Dashboards",
-    "Name": "Huel LLC",
-    "Fullname": "consequatur",
-    "ParentId": 241,
+    "Name": "Macejkovic Group",
+    "Fullname": "tempore",
+    "ParentId": 880,
     "Children": [
       {
-        "HierarchyId": 470,
+        "HierarchyId": 357,
         "Domain": "Dashboards",
-        "Name": "Ebert LLC",
-        "Fullname": "dolorem",
-        "ParentId": 632,
+        "Name": "Kovacek, Bergstrom and Zulauf",
+        "Fullname": "qui",
+        "ParentId": 490,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-05-05T12:01:32.9175621+02:00",
-        "RegisteredAssociateId": 81,
-        "Updated": "2003-06-11T12:01:32.9175621+02:00",
-        "UpdatedAssociateId": 782,
+        "Registered": "2005-09-06T14:32:11.5366892+02:00",
+        "RegisteredAssociateId": 368,
+        "Updated": "2011-05-12T14:32:11.5366892+02:00",
+        "UpdatedAssociateId": 337,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldType": "System.String",
+            "FieldLength": 491
           }
         }
       }
     ],
-    "Registered": "1999-01-03T12:01:32.9175621+01:00",
-    "RegisteredAssociateId": 347,
-    "Updated": "1999-02-24T12:01:32.9175621+01:00",
-    "UpdatedAssociateId": 542,
+    "Registered": "2020-12-18T14:32:11.5366892+01:00",
+    "RegisteredAssociateId": 192,
+    "Updated": "2017-02-28T14:32:11.5366892+01:00",
+    "UpdatedAssociateId": 582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

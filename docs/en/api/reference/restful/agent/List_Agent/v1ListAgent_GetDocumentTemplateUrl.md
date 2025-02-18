@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 988,
-  "WritableUrl": false,
-  "LanguageCode": "non"
+  "DocumentTemplateId": 172,
+  "WritableUrl": true,
+  "LanguageCode": "eos"
 }
 ```
 

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 405,
+  "DocumentId": 376,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 116,
+  "DocumentId": 1000,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "sit",
-  "Name": "Stark, Bartell and Hodkiewicz",
-  "OurRef": "repellat",
-  "YourRef": "aperiam",
-  "CreatedDate": "2002-05-21T12:01:27.7596543+02:00",
-  "UpdatedDate": "2011-08-01T12:01:27.7596543+02:00",
-  "Description": "Triple-buffered upward-trending synergy",
+  "Attention": "accusamus",
+  "Header": "eius",
+  "Name": "Herman, Pollich and Hackett",
+  "OurRef": "in",
+  "YourRef": "aut",
+  "CreatedDate": "2019-10-17T14:32:02.7804323+02:00",
+  "UpdatedDate": "2022-03-05T14:32:02.7804323+01:00",
+  "Description": "Expanded high-level software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1998-05-29T12:01:27.7752804+02:00",
-  "ExternalRef": "magnam",
+  "Date": "2012-12-26T14:32:02.7804323+01:00",
+  "ExternalRef": "amet",
   "Completed": "Completed",
-  "ActiveLinks": 779,
+  "ActiveLinks": 212,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner-Conroy",
-      "Id": 378,
-      "Description": "Up-sized responsive access",
-      "ExtraInfo": "corporis",
-      "LinkId": 991,
+      "EntityName": "Hegmann, Hickle and Goyette",
+      "Id": 934,
+      "Description": "Organic regional Graphic Interface",
+      "ExtraInfo": "sunt",
+      "LinkId": 948,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 387
+          "FieldLength": 990
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 953,
-  "Snum": 754,
+  "SuggestedDocumentId": 796,
+  "Snum": 393,
   "UserDefinedFields": {
-    "SuperOffice:1": "389972249",
-    "SuperOffice:2": "Ms. Oleta Schmitt"
+    "SuperOffice:1": "Mr. Hobart Prohaska",
+    "SuperOffice:2": "Lennie Wehner"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "illum",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "2007-12-19T12:01:27.7752804+01:00",
-  "PublishTo": "2015-01-28T12:01:27.7752804+01:00",
-  "PublishFrom": "2021-10-22T12:01:27.7752804+02:00",
+  "PublishEventDate": "2009-08-04T14:32:02.7804323+02:00",
+  "PublishTo": "2018-02-08T14:32:02.7804323+01:00",
+  "PublishFrom": "2019-08-17T14:32:02.7804323+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 902,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     },
     {
-      "VisibleId": 902,
+      "VisibleId": 359,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldType": "System.Int32",
+          "FieldLength": 891
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 826
     }
   }
 }

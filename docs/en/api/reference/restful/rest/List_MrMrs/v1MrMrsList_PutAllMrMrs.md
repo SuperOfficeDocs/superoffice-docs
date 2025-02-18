@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Kozey Group",
-    "Tooltip": "ad",
+    "Id": 414,
+    "Name": "Zulauf-Lockman",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 151
+    "UdListDefinitionId": 412,
+    "Rank": 562
   },
   {
-    "Id": 410,
-    "Name": "Kozey Group",
-    "Tooltip": "ad",
+    "Id": 414,
+    "Name": "Zulauf-Lockman",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 151
+    "UdListDefinitionId": 412,
+    "Rank": 562
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Windler, Smith and Bednar",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 494,
-    "Rank": 675,
+    "Id": 456,
+    "Name": "Predovic Inc and Sons",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 399,
+    "Rank": 94,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Kertzmann-Zieme",
-    "ToolTip": "Iure officia ea unde delectus omnis quis nemo.",
-    "Deleted": false,
-    "Rank": 937,
-    "Type": "incidunt",
-    "ColorBlock": 403,
-    "IconHint": "et",
+    "Id": 673,
+    "Name": "Christiansen, Bartoletti and Metz",
+    "ToolTip": "Fugiat corporis qui.",
+    "Deleted": true,
+    "Rank": 616,
+    "Type": "est",
+    "ColorBlock": 776,
+    "IconHint": "corrupti",
     "Selected": true,
-    "LastChanged": "2004-10-31T12:01:33.5426053+01:00",
+    "LastChanged": "2012-01-04T14:32:12.6770562+01:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "King, Doyle and Rogahn",
-        "ToolTip": "Eveniet aut maiores voluptas quia.",
-        "Deleted": false,
-        "Rank": 496,
-        "Type": "a",
-        "ColorBlock": 244,
-        "IconHint": "occaecati",
+        "Id": 55,
+        "Name": "Pollich Group",
+        "ToolTip": "Atque corporis quas ad voluptatem.",
+        "Deleted": true,
+        "Rank": 780,
+        "Type": "ipsam",
+        "ColorBlock": 656,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2008-09-26T12:01:33.5426053+02:00",
+        "LastChanged": "2001-08-29T14:32:12.6770562+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Imogene Oberbrunner Sr.",
+        "ExtraInfo": "placeat",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Elena Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 106
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "Mrs. Amina Koepp",
+    "ExtraInfo": "veniam",
+    "StyleHint": "dignissimos",
+    "Hidden": true,
+    "FullName": "Retha Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldType": "System.String",
+        "FieldLength": 148
       }
     }
   }

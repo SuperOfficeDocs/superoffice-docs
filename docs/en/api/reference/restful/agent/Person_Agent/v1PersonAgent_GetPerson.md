@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=474
+POST /api/v1/Agents/Person/GetPerson?personId=515
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "nisi",
-  "PersonId": 249,
-  "Mrmrs": "ipsa",
-  "Firstname": "Kira",
-  "Lastname": "Breitenberg",
-  "MiddleName": "Smitham Group",
-  "Title": "autem",
-  "Description": "Ameliorated global groupware",
-  "Email": "hunter_cormier@bednar.com",
-  "FullName": "Miss Travis Virgil Adams",
-  "DirectPhone": "(987)322-1775",
-  "FormalName": "Harber-Mayer",
-  "CountryId": 596,
-  "ContactId": 923,
-  "ContactName": "Hessel Group",
-  "Retired": 685,
-  "Rank": 889,
-  "ActiveInterests": 307,
+  "Position": "fugit",
+  "PersonId": 538,
+  "Mrmrs": "et",
+  "Firstname": "Lindsey",
+  "Lastname": "Jones",
+  "MiddleName": "Labadie Inc and Sons",
+  "Title": "laboriosam",
+  "Description": "Extended zero defect leverage",
+  "Email": "talon.schuppe@gleason.name",
+  "FullName": "Kaela Windler",
+  "DirectPhone": "(623)660-9298 x6505",
+  "FormalName": "Wehner Group",
+  "CountryId": 43,
+  "ContactId": 991,
+  "ContactName": "Keebler, Connelly and Weber",
+  "Retired": 807,
+  "Rank": 936,
+  "ActiveInterests": 982,
   "ContactDepartment": "",
-  "ContactCountryId": 980,
-  "ContactOrgNr": "1619648",
-  "FaxPhone": "1-642-756-1604",
-  "MobilePhone": "1-481-541-3001 x811",
-  "ContactPhone": "274.170.8190 x05800",
-  "AssociateName": "Prohaska, Brown and Douglas",
-  "AssociateId": 911,
+  "ContactCountryId": 869,
+  "ContactOrgNr": "1134587",
+  "FaxPhone": "1-698-938-4910",
+  "MobilePhone": "647-441-3615",
+  "ContactPhone": "454-120-4581",
+  "AssociateName": "Moore LLC",
+  "AssociateId": 601,
   "UsePersonAddress": false,
-  "ContactFax": "natus",
-  "Kanafname": "et",
-  "Kanalname": "impedit",
-  "Post1": "quidem",
-  "Post2": "consequatur",
-  "Post3": "optio",
-  "EmailName": "carleton@schmidt.ca",
-  "ContactFullName": "Idella Zieme",
-  "ActiveErpLinks": 822,
-  "TicketPriorityId": 10,
-  "SupportLanguageId": 601,
-  "SupportAssociateId": 580,
+  "ContactFax": "est",
+  "Kanafname": "iusto",
+  "Kanalname": "expedita",
+  "Post1": "ipsum",
+  "Post2": "quo",
+  "Post3": "nostrum",
+  "EmailName": "edna_eichmann@davis.co.uk",
+  "ContactFullName": "Dr. Merritt Laverna Cormier PhD",
+  "ActiveErpLinks": 418,
+  "TicketPriorityId": 3,
+  "SupportLanguageId": 356,
+  "SupportAssociateId": 91,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1644896",
+  "PersonNumber": "873261",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldLength": 748
     }
   }
 }

@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Mayert-Bednar",
+  "Name": "Shields Inc and Sons",
   "Values": [
-    "et",
-    "consequatur"
+    "ducimus",
+    "autem"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 283
     }
   }
 }

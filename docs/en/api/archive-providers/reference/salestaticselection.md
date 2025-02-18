@@ -1312,7 +1312,7 @@ Static archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStaticSelection?$select=person/birthDay,person/personExtra/x_person_category_relation,person/consentSourceStore,contact/postAddress/formattedMultiLineAddress,contact/restrictionAddress/zip
+GET /api/v1/archive/SaleStaticSelection?$select=person/personAssociate/contactId,contact/streetAddress/formattedMultiLineAddress,contact/LastDoByTicket,project/projectId,project/projectPublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

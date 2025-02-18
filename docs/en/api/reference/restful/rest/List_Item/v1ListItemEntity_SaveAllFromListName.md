@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Emard, Kunze and Strosin",
-    "Tooltip": "quasi",
+    "Id": 286,
+    "Name": "Kemmer-Hilpert",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 938,
-    "Rank": 243
+    "UdListDefinitionId": 426,
+    "Rank": 112
   },
   {
-    "Id": 120,
-    "Name": "Emard, Kunze and Strosin",
-    "Tooltip": "quasi",
+    "Id": 286,
+    "Name": "Kemmer-Hilpert",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 938,
-    "Rank": 243
+    "UdListDefinitionId": 426,
+    "Rank": 112
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "D'Amore, Keeling and Stroman",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "UdListDefinitionId": 61,
-    "Rank": 590,
+    "Id": 583,
+    "Name": "Cruickshank LLC",
+    "Tooltip": "aliquid",
+    "Deleted": false,
+    "UdListDefinitionId": 294,
+    "Rank": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 953
+        "FieldLength": 897
       }
     }
   }

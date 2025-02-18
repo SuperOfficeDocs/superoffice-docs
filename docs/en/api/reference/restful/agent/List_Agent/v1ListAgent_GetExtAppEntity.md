@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=431
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=458
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 904,
-  "Name": "Dach Inc and Sons",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "Rank": 815,
-  "Filename": "velit",
-  "Parameters": "possimus",
-  "Workdir": "repudiandae",
+  "ExtAppId": 988,
+  "Name": "Block LLC",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 710,
+  "Filename": "tempore",
+  "Parameters": "itaque",
+  "Workdir": "ex",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 954,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 622,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "ipsam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 205
     }
   }
 }

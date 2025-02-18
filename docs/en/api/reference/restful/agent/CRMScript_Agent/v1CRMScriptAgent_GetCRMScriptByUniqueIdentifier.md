@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "molestias"
+  "UniqueIdentifier": "voluptatem"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "vero",
-  "Name": "Bechtelar Group",
-  "Description": "Exclusive directional adapter",
-  "IncludeId": "et",
-  "Source": "sapiente",
-  "Registered": "2024-09-19T12:01:27.5408902+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2022-05-27T12:01:27.5408902+02:00",
-  "UpdatedBy": "explicabo",
-  "Path": "maxime",
+  "UniqueIdentifier": "atque",
+  "Name": "Koelpin, Sipes and Gottlieb",
+  "Description": "Streamlined 24/7 local area network",
+  "IncludeId": "quia",
+  "Source": "autem",
+  "Registered": "2022-05-11T14:32:02.5461102+02:00",
+  "RegisteredBy": "exercitationem",
+  "Updated": "1998-10-16T14:32:02.5461102+02:00",
+  "UpdatedBy": "nihil",
+  "Path": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 261,
+  "PersonId": 880,
   "IncludeProjectDocuments": false,
-  "StartTime": "2019-01-10T12:01:27.5877684+01:00",
-  "EndTime": "2018-10-25T12:01:27.5877684+02:00",
-  "Count": 886,
-  "DocumentTemplateId": 855
+  "StartTime": "2022-11-26T14:32:02.6398381+01:00",
+  "EndTime": "2017-08-14T14:32:02.6398381+02:00",
+  "Count": 177,
+  "DocumentTemplateId": 832
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 148,
-    "Attention": "illum",
-    "Header": "mollitia",
-    "Name": "Cassin-Rolfson",
-    "OurRef": "eaque",
-    "YourRef": "quibusdam",
-    "Description": "Reactive transitional encoding",
-    "DocumentTemplate": "quam",
-    "IsPublished": true,
-    "PersonId": 274,
-    "PersonFullName": "Rhett Turcotte",
-    "AssociateFullName": "Prof. Else Teagan Jones",
-    "ContactId": 862,
-    "ContactName": "Lesch LLC",
-    "ProjectId": 493,
-    "ProjectName": "McLaughlin Inc and Sons",
-    "AssociateId": 556,
-    "Snum": 858,
-    "SaleId": 177,
-    "SaleName": "Rosenbaum-Romaguera",
+    "DocumentId": 190,
+    "Attention": "autem",
+    "Header": "aut",
+    "Name": "Walker-Harvey",
+    "OurRef": "voluptas",
+    "YourRef": "quidem",
+    "Description": "Profit-focused zero administration structure",
+    "DocumentTemplate": "sit",
+    "IsPublished": false,
+    "PersonId": 979,
+    "PersonFullName": "Johnny Kristofer Crooks PhD",
+    "AssociateFullName": "Prof. Daisha Kianna Crooks V",
+    "ContactId": 712,
+    "ContactName": "Bruen, Barrows and Kerluke",
+    "ProjectId": 535,
+    "ProjectName": "Koepp, McKenzie and Feeney",
+    "AssociateId": 945,
+    "Snum": 573,
+    "SaleId": 485,
+    "SaleName": "Weber Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldType": "System.String",
+        "FieldLength": 918
       }
     }
   }

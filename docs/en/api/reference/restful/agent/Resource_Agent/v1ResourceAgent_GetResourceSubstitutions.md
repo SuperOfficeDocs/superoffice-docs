@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hilpert LLC",
-    "Gusikowski Group"
+    "Kuphal, Sanford and Reichel",
+    "Kertzmann, Lowe and Abbott"
   ],
-  "Culture": "laudantium",
-  "ActiveOnly": true
+  "Culture": "repellendus",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Haley, Wolf and Hagenes",
-    "ResourceValue": "nulla",
-    "Culture": "pariatur",
+    "ResourceName": "Zieme-Hagenes",
+    "ResourceValue": "sit",
+    "Culture": "ducimus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldLength": 242
       }
     }
   },
   {
-    "ResourceName": "Haley, Wolf and Hagenes",
-    "ResourceValue": "nulla",
-    "Culture": "pariatur",
+    "ResourceName": "Zieme-Hagenes",
+    "ResourceValue": "sit",
+    "Culture": "ducimus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldLength": 242
       }
     }
   }

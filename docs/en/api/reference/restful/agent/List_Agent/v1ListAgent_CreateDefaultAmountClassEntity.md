@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 589,
-  "Name": "Cremin-Hand",
-  "Tooltip": "eos",
-  "Rank": 671,
-  "AmountFrom": 28428.514,
-  "AmountTo": 15438.083999999999,
-  "Deleted": true,
-  "CurrencyId": 739,
+  "AmountClassId": 348,
+  "Name": "Bogan Group",
+  "Tooltip": "ex",
+  "Rank": 938,
+  "AmountFrom": 27914.538,
+  "AmountTo": 22094.7,
+  "Deleted": false,
+  "CurrencyId": 141,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 628
     }
   }
 }

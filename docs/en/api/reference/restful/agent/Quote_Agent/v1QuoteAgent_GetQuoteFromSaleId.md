@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 160
+  "SaleId": 569
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 779,
-  "SaleId": 853,
-  "QuoteConnectionId": 779,
-  "ERPQuoteKey": "earum",
-  "ERPOrderKey": "rem",
-  "ActiveQuoteVersionId": 973,
-  "AcceptedQuoteAlternativeId": 650,
-  "UseValuesFromQuote": 855,
-  "DocumentId": 741,
-  "PoNumber": "1199538",
-  "OrderComment": "quia",
-  "PreferredEmailCulture": "chester@damore.com",
+  "QuoteId": 857,
+  "SaleId": 662,
+  "QuoteConnectionId": 513,
+  "ERPQuoteKey": "provident",
+  "ERPOrderKey": "dignissimos",
+  "ActiveQuoteVersionId": 671,
+  "AcceptedQuoteAlternativeId": 825,
+  "UseValuesFromQuote": 312,
+  "DocumentId": 875,
+  "PoNumber": "1340490",
+  "OrderComment": "corrupti",
+  "PreferredEmailCulture": "rosario_beer@lind.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 326
     }
   }
 }

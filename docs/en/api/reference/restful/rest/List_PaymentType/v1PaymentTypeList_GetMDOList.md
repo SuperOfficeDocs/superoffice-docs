@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=tenetur
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=odio
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Macejkovic Group",
-    "ToolTip": "Nemo autem quibusdam quia iusto rerum necessitatibus sit.",
-    "Deleted": false,
-    "Rank": 454,
-    "Type": "aut",
+    "Id": 66,
+    "Name": "Treutel-Rutherford",
+    "ToolTip": "Qui cum ut repellat.",
+    "Deleted": true,
+    "Rank": 108,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Ritchie LLC",
-        "ToolTip": "Et recusandae consequatur repellat laudantium.",
+        "Id": 214,
+        "Name": "Kub, Cronin and Gerlach",
+        "ToolTip": "Magni a maxime deleniti officia.",
         "Deleted": true,
-        "Rank": 521,
-        "Type": "fugiat",
+        "Rank": 819,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 322,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "nihil",
-        "FullName": "Telly Cartwright",
+        "IconHint": "eum",
+        "ColorBlock": 781,
+        "ExtraInfo": "ea",
+        "StyleHint": "ipsa",
+        "FullName": "Dr. Vella Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldLength": 640
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 346,
-    "ExtraInfo": "at",
-    "StyleHint": "porro",
-    "FullName": "Clinton Kuhic",
+    "IconHint": "nemo",
+    "ColorBlock": 526,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "in",
+    "FullName": "Sean Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

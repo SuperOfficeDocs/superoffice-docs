@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Langosh-Klein",
-  "EntityId": 415,
-  "TargetLanguage": "reiciendis"
+  "EntityName": "Kreiger-Rosenbaum",
+  "EntityId": 451,
+  "TargetLanguage": "odio"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"sint"
 ```

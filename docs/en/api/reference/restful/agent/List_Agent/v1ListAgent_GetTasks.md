@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Value": "recusandae",
-    "Tooltip": "aperiam",
+    "Id": 215,
+    "Value": "dolores",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   },
   {
-    "Id": 475,
-    "Value": "recusandae",
-    "Tooltip": "aperiam",
+    "Id": 215,
+    "Value": "dolores",
+    "Tooltip": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   }

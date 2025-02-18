@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 212,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 947,
-    "UdListDefinitionId": 226,
+    "HeadingId": 411,
+    "Name": "Douglas Inc and Sons",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 337,
+    "UdListDefinitionId": 823,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 647
       }
     }
   }

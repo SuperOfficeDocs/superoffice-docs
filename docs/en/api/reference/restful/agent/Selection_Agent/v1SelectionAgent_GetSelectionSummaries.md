@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    187,
-    196
+    311,
+    559
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 597,
-    "Name": "Hane, Turcotte and Blick",
-    "TargetTable": "aliquid",
-    "Registered": "2000-11-10T12:01:28.3065684+01:00",
-    "ProviderName": "Lueilwitz-Baumbach"
+    "SelectionId": 994,
+    "Name": "Reilly Inc and Sons",
+    "TargetTable": "laborum",
+    "Registered": "2017-02-09T14:32:03.936616+01:00",
+    "ProviderName": "Johnson LLC"
   },
   {
-    "SelectionId": 597,
-    "Name": "Hane, Turcotte and Blick",
-    "TargetTable": "aliquid",
-    "Registered": "2000-11-10T12:01:28.3065684+01:00",
-    "ProviderName": "Lueilwitz-Baumbach"
+    "SelectionId": 994,
+    "Name": "Reilly Inc and Sons",
+    "TargetTable": "laborum",
+    "Registered": "2017-02-09T14:32:03.936616+01:00",
+    "ProviderName": "Johnson LLC"
   }
 ]
 ```

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Upton, Schroeder and Jast",
+  "TaskName": "Abbott Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Gerlach, Waelchi and Altenwerth",
-    "AssociateId": 195,
-    "DetailsTable": 575,
-    "DetailsRecord": 743,
-    "IsSystemTask": false,
+    "Id": 937,
+    "Name": "Jones, Gutkowski and Raynor",
+    "AssociateId": 285,
+    "DetailsTable": 881,
+    "DetailsRecord": 985,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "necessitatibus",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "in",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2018-08-21T12:01:27.3533761+02:00",
-    "Created": "2017-08-28T12:01:27.3533761+02:00",
-    "StartCount": 954,
-    "DatabaseSerialNumber": "1681995",
-    "Context": "sequi",
-    "Result": "suscipit",
+    "LastStarted": "2012-10-08T14:32:02.0618444+02:00",
+    "Created": "2014-01-16T14:32:02.0618444+01:00",
+    "StartCount": 741,
+    "DatabaseSerialNumber": "747164",
+    "Context": "tempore",
+    "Result": "ducimus",
     "State": "All",
-    "Description": "Reactive discrete portal",
-    "Response": "aut",
-    "Request": "quas",
-    "ProgressDescription": "Open-source hybrid secured line",
-    "ProgressPercent": 127,
-    "FileName": "Ziemann-Graham",
+    "Description": "Open-architected bandwidth-monitored pricing structure",
+    "Response": "ullam",
+    "Request": "sed",
+    "ProgressDescription": "Synergistic non-volatile matrices",
+    "ProgressPercent": 470,
+    "FileName": "Koepp, Huel and Glover",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 748
       }
     }
   }

@@ -104,26 +104,26 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 782,
-  "Name": "Breitenberg, Carter and Langworth",
-  "CurrencyId": 83,
-  "EnglishName": "Strosin LLC",
+  "CountryId": 860,
+  "Name": "Lowe-Wiza",
+  "CurrencyId": 262,
+  "EnglishName": "Fisher LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered motivating time-frame",
-  "OrgNrText": "945659",
-  "InterAreaPrefix": "sint",
-  "DialInPrefix": "asperiores",
-  "ZipPrefix": "doloribus",
-  "DomainName": "Mayert LLC",
-  "AddressLayoutId": 857,
-  "DomesticAddressLayoutId": 904,
-  "ForeignAddressLayoutId": 917,
-  "Rank": 552,
+  "ImageDescription": "Upgradable actuating toolset",
+  "OrgNrText": "1714871",
+  "InterAreaPrefix": "iste",
+  "DialInPrefix": "ipsa",
+  "ZipPrefix": "officia",
+  "DomainName": "Gusikowski Group",
+  "AddressLayoutId": 497,
+  "DomesticAddressLayoutId": 866,
+  "ForeignAddressLayoutId": 712,
+  "Rank": 70,
   "Tooltip": "ut",
   "Deleted": false
 }
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 94,
-  "Name": "Marvin, Adams and Dickinson",
-  "CurrencyId": 323,
-  "EnglishName": "Beier, Prohaska and Thiel",
+  "CountryId": 259,
+  "Name": "Leannon-Erdman",
+  "CurrencyId": 101,
+  "EnglishName": "Koss-Kris",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless empowering migration",
-  "OrgNrText": "1370220",
-  "InterAreaPrefix": "cum",
-  "DialInPrefix": "ex",
-  "ZipPrefix": "omnis",
-  "DomainName": "Fahey-Bartoletti",
-  "AddressLayoutId": 873,
-  "DomesticAddressLayoutId": 916,
-  "ForeignAddressLayoutId": 12,
-  "Rank": 513,
-  "Tooltip": "dolorum",
-  "Deleted": true,
+  "ImageDescription": "Profit-focused assymetric secured line",
+  "OrgNrText": "707351",
+  "InterAreaPrefix": "minus",
+  "DialInPrefix": "est",
+  "ZipPrefix": "voluptatem",
+  "DomainName": "Botsford-Ondricka",
+  "AddressLayoutId": 406,
+  "DomesticAddressLayoutId": 621,
+  "ForeignAddressLayoutId": 320,
+  "Rank": 94,
+  "Tooltip": "eum",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldLength": 354
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Kirlin Inc and Sons",
+  "Id": 705,
+  "Name": "Gottlieb Group",
   "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 428,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "illum",
+  "Deleted": true,
+  "Rank": 268,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Klein-Morissette",
-  "Tooltip": "ratione",
+  "Id": 157,
+  "Name": "Heidenreich-Mayert",
+  "Tooltip": "doloremque",
   "Deleted": false,
-  "Rank": 585,
+  "Rank": 449,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 7
     }
   }
 }

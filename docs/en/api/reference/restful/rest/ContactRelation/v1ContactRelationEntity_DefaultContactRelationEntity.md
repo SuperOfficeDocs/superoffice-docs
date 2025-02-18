@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Apr 2008 12:01:32 G4T
+Last-Modified: Wed, 22 Jun 2016 14:32:11 G6T
 
 {
-  "SourceContactId": 315,
-  "SourcePersonId": 443,
-  "DestinationContactId": 852,
-  "DestinationPersonId": 447,
-  "RelationId": 657,
-  "Comment": "velit",
-  "RelationDefinitionId": 162,
-  "Reversed": 785,
-  "UpdatedDate": "2008-04-30T12:01:32.8394314+02:00",
-  "CreatedDate": "2008-12-30T12:01:32.8394314+01:00",
+  "SourceContactId": 641,
+  "SourcePersonId": 701,
+  "DestinationContactId": 159,
+  "DestinationPersonId": 942,
+  "RelationId": 796,
+  "Comment": "dolores",
+  "RelationDefinitionId": 440,
+  "Reversed": 669,
+  "UpdatedDate": "2016-06-22T14:32:11.3645567+02:00",
+  "CreatedDate": "2002-01-16T14:32:11.3645567+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heller-Morar",
-  "SourcePersonName": "Dickinson Group",
-  "DestinationContactName": "Huels Group",
-  "DestinationPersonName": "Haley, Leannon and Hoppe",
-  "ActiveText": "dolor",
-  "PassiveText": "consequuntur",
+  "SourceContactName": "Cassin LLC",
+  "SourcePersonName": "Blick, McLaughlin and Jacobi",
+  "DestinationContactName": "Strosin LLC",
+  "DestinationPersonName": "Leuschke Inc and Sons",
+  "ActiveText": "quaerat",
+  "PassiveText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

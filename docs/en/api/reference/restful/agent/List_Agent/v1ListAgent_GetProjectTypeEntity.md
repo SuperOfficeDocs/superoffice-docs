@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=983
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=325
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 281,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "velit",
-  "Rank": 350,
+  "ProjTypeId": 638,
+  "Name": "Breitenberg Group",
+  "Tooltip": "vel",
+  "Rank": 627,
   "DurationUnit": "Century",
-  "ProjectDuration": 275,
+  "ProjectDuration": 914,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 800,
-      "Name": "Hauck, Casper and Kshlerin",
-      "ToolTip": "Est dignissimos ipsa cumque illum cupiditate sed.",
+      "Id": 898,
+      "Name": "Stiedemann, Stanton and Lakin",
+      "ToolTip": "Labore est.",
       "Deleted": false,
-      "Rank": 200,
-      "Type": "et",
-      "ColorBlock": 535,
-      "IconHint": "soluta",
-      "Selected": false,
-      "LastChanged": "2010-09-13T12:01:27.9315414+02:00",
+      "Rank": 403,
+      "Type": "illo",
+      "ColorBlock": 972,
+      "IconHint": "dolore",
+      "Selected": true,
+      "LastChanged": "2001-12-28T14:32:03.0928623+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "a",
+      "ExtraInfo": "perferendis",
+      "StyleHint": "eaque",
       "Hidden": false,
-      "FullName": "Graciela Grady",
+      "FullName": "Rosalia Weissnat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 673
+          "FieldType": "System.String",
+          "FieldLength": 740
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 390
     }
   }
 }

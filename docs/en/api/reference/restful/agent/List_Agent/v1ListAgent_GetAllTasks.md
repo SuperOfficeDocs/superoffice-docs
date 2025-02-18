@@ -101,16 +101,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 434,
+    "TaskListItemId": 877,
     "Value": "voluptatem",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "sequi",
-    "Deleted": false,
-    "IntentId": 170,
-    "Rank": 904,
+    "Tooltip": "illum",
+    "Deleted": true,
+    "IntentId": 760,
+    "Rank": 302,
     "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldType": "System.String",
+        "FieldLength": 810
       }
     }
   }

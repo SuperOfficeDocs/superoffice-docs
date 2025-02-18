@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ratione"
+  "ProgId": "dolorem"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 404,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 503,
+  "WebPanelId": 564,
+  "Name": "O'Connell-Hilpert",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 405,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Beahan-Breitenberg",
+  "WindowName": "Goyette-Rohan",
   "Url": "http://www.example.com/",
-  "ProgId": "impedit",
-  "Icon": 499,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "labore",
+  "Icon": 498,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

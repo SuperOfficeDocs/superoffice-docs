@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "et",
+  "TriggerScriptUniqueId": "quo",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 652,
-  "Name": "Medhurst, Swift and Witting",
+  "ScreenChooserId": 706,
+  "Name": "Turner, Lockman and VonRueden",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "exercitationem",
-  "Source": "magnam",
-  "Registered": "2014-08-20T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 976,
-  "Updated": "2024-06-29T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 213,
+  "Enabled": true,
+  "UniqueIdentifier": "error",
+  "Source": "sunt",
+  "Registered": "2016-01-03T14:32:02.561731+01:00",
+  "RegisteredAssociateId": 238,
+  "Updated": "2003-01-25T14:32:02.561731+01:00",
+  "UpdatedAssociateId": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldLength": 371
     }
   }
 }

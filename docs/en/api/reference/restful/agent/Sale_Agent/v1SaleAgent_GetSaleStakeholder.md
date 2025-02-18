@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=484
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=989
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Treutel-Lesch",
-  "Comment": "harum",
-  "StakeholderRoleId": 633,
-  "CountryId": 796,
-  "PersonId": 564,
-  "EmailDescription": "jarred.predovic@bradtke.uk",
-  "EmailId": 188,
-  "EmailAddress": "arjun@bergstrom.us",
-  "PhoneId": 854,
-  "ContactName": "Schulist-Crooks",
-  "ContactId": 895,
-  "SaleId": 296,
-  "Mrmrs": "eius",
-  "Firstname": "America",
-  "MiddleName": "Kovacek-Torp",
-  "Lastname": "Gibson",
-  "SaleStakeholderId": 258,
-  "Rank": 436,
-  "Phone": "(125)528-6387 x76676",
+  "StakeholderRoleName": "Renner Group",
+  "Comment": "nemo",
+  "StakeholderRoleId": 981,
+  "CountryId": 599,
+  "PersonId": 8,
+  "EmailDescription": "rod.jones@gusikowski.ca",
+  "EmailId": 655,
+  "EmailAddress": "michael@davisaufderhar.com",
+  "PhoneId": 164,
+  "ContactName": "Wiegand, Jerde and Sanford",
+  "ContactId": 311,
+  "SaleId": 339,
+  "Mrmrs": "ut",
+  "Firstname": "Alayna",
+  "MiddleName": "Schoen Group",
+  "Lastname": "Botsford",
+  "SaleStakeholderId": 294,
+  "Rank": 193,
+  "Phone": "1-334-476-3738 x09102",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 462
     }
   }
 }

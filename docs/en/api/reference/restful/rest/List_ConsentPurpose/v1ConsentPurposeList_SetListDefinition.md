@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Ondricka-Dibbert",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 757,
-  "IsCustomList": true,
+  "Id": 855,
+  "Name": "Jones, Collins and Harvey",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 438,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": true
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Schowalter Group",
-  "Tooltip": "ducimus",
+  "Id": 534,
+  "Name": "Abshire, Wuckert and O'Hara",
+  "Tooltip": "eum",
   "Deleted": false,
-  "Rank": 314,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 316,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "quod",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 532
     }
   }
 }

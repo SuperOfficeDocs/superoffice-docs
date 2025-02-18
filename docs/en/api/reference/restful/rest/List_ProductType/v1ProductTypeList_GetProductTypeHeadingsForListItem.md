@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Wilkinson-Stiedemann",
-    "ToolTip": "Quo enim ut voluptates.",
+    "Id": 998,
+    "Name": "Moore-Mann",
+    "ToolTip": "Consectetur iusto commodi sit molestiae et.",
     "Deleted": false,
-    "Rank": 404,
-    "Type": "nihil",
-    "ColorBlock": 960,
-    "IconHint": "atque",
+    "Rank": 222,
+    "Type": "eius",
+    "ColorBlock": 715,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2023-03-28T12:01:33.5894836+02:00",
+    "LastChanged": "2021-11-08T14:32:12.7710204+01:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Corkery, Berge and Will",
-        "ToolTip": "Neque voluptate et sint maxime qui.",
-        "Deleted": true,
-        "Rank": 184,
-        "Type": "ut",
-        "ColorBlock": 627,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2000-12-04T12:01:33.5894836+01:00",
+        "Id": 252,
+        "Name": "Padberg LLC",
+        "ToolTip": "Qui eligendi in minima deserunt fugit soluta natus.",
+        "Deleted": false,
+        "Rank": 916,
+        "Type": "rerum",
+        "ColorBlock": 171,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2012-09-13T14:32:12.7710204+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Keyshawn Lueilwitz",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Royce Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 942
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "expedita",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "iusto",
     "Hidden": true,
-    "FullName": "Christiana Hayes IV",
+    "FullName": "Gladys Langosh Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 686
       }
     }
   }
