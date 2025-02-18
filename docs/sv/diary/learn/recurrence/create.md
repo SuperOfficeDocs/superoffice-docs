@@ -2,27 +2,28 @@
 uid: help-sv-recurrence-set
 title: Schemalägg återkommande händelse
 description: Schemalägg återkommande händelse
+keywords: återkommande händelse, återkommande möte, återkommande avtal, repetera, upprepa, mötesfrekvens, händelsesmönster, mötesserie, kalender, händelse, återkomma
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: kalender, händelse, upprepa, återkomma
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Schemalägg återkommande händelse
 
-Att ställa in återkommande möten innebär att schemalägga startdatumet för uppföljningsmöten i en serie.
-
-[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
+Att ställa in återkommande möten innebär att schemalägga startdatumet för möten i en serie.
 
 ## Steg
 
-1. [Öppna eller skapa en uppföljning][2].
+1. [Öppna eller skapa en händelse][2].
 
-1. Klicka på upprepningssymbolen ![ikon][img1] och välj en av de föreslagna frekvenserna. Om inget av mönstren passar dig, välj **Anpassad**.
+1. Klicka på <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> och välj en av de föreslagna frekvenserna. Om inget av mönstren passar dig, välj **Anpassad**.
 
-    ![Uppföljningsdialog, föreslagen återkomst -screenshot][img8]
+    ![Händelsesdialog, föreslagen återkomst -screenshot][img8]
 
     Om du inte ser ikonen, klicka på **Visa mer**.
 
@@ -30,15 +31,17 @@ Att ställa in återkommande möten innebär att schemalägga startdatumet för 
 
 1. Välj en frekvens, till exempel, upprepa var 2:a vecka. Ytterligare alternativ visas om du väljer *Vecka(r)*, *Månad(er)*, eller *År*.
 
-    ![Uppföljningsdialog, återkomst -screenshot][img7]
+    ![Händelsesdialog, återkomst -screenshot][img7]
 
-1. Välj om uppföljningen ska sluta efter ett specifikt antal gånger eller efter ett specifikt datum.
+1. Välj om händelsen ska sluta efter ett specifikt antal gånger eller efter ett specifikt datum.
 
 1. Valfritt, finjustera listan över valda datum, till exempel, om det finns en konflikt. Klicka på ett datum, använd sedan knapparna under listan för att antingen ta bort eller flytta det datumet.
 
-1. Klicka på **OK** för att spara datumen och återgå till uppföljningsdetaljerna.
+1. Klicka på **OK** för att spara datumen och återgå till händelsesdetaljerna.
 
-1. Klicka på **Spara** i **Uppföljnings**-dialogen för att spara alla ändringar.
+1. Klicka på **Spara** i **Händelses**-dialogen för att spara alla ändringar.
+
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
 
 ## Vad vill du veta mer om?
 
@@ -51,6 +54,5 @@ Att ställa in återkommande möten innebär att schemalägga startdatumet för 
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

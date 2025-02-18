@@ -1,12 +1,15 @@
 ---
 uid: help-da-invitation-add-attendee
 title: Tilføjelse af deltagere i opfølgninger
-description: "Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale."
+description: Invitation af kontakter til en aftale kan gøres på forskellige måder. Denne vejledning viser, hvordan du føjer deltagere til en aftale.
+keywords: lägg till deltagare, tilføj deltagere, vælg deltagere, lägg till ressourc, dagbog, opfølgning, invitation, deltager, tjek tilgængelighed, inviter
 author: Bergfrid Dias
-date: 01.15.2024
-version: 10.2.11
-keywords: dagbog, opfølgning, invitation, deltager
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -30,9 +33,9 @@ Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan d
 1. Klik på **Tilføj deltagere**-feltet. Vælg derefter en eller flere personer fra listen.
 
     * Begynd at skrive for at søge efter en person i hele SuperOffice.
-    * Vælg en person fra historielisten ![ikon][img4] eller dine favoritter ![ikon][img5].
-    * Klik ![ikon][img6] for at søge efter en kollega eller ![ikon][img7] for at vælge personer knyttet til et firma.
-    * Du kan også vælge salgsinteressenter ![ikon][img8] og projektdeltagere ![ikon][img9].
+    * Vælg en person fra historielisten (<i class="ph ph-clock" aria-hidden="true"></i>) eller dine favoritter (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Klik <i class="ph ph-users" aria-label="Group icon"></i> for at søge efter en kollega eller <i class="ph ph-buildings" aria-label="Company icon"></i> for at vælge personer knyttet til et firma.
+    * Du kan også vælge salgsinteressenter (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) og projektdeltagere (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Opfølgingsdialog, vælg deltagere -screenshot][img17]
 
@@ -51,11 +54,11 @@ Når du opretter en opfølgning, som omfatter flere personer end dig selv, kan d
 
 ### <a id="availability"></a>Planlægningsassistent
 
-Planlægningsassistenten er en del af den nye **Opfølgning**-dialog. Den detaljerede kalender viser tilgængeligheden for hver intern deltager (kollega). Den øverste række viser den akkumulerede tilgængelighed. Tilgængeligheden for eksterne deltagere og e-mail deltagere er ukendt.
+Planlægningsassistenten er en del af **Opfølgning**-dialogen. Den detaljerede kalender viser tilgængeligheden for hver intern deltager (kollega). Den øverste række viser den akkumulerede tilgængelighed. Tilgængeligheden for eksterne deltagere og e-mail deltagere er ukendt.
 
 ![Opfølgingsdialog, planlægningsassistent -screenshot][img18]
 
-1. I **Opfølgning**-dialogen skal du klikke på **Tjek tilgængelighed.**
+1. I **Opfølgning**-dialogen skal du klikke på **Tjek tilgængelighed**.
 
 1. Klik og træk markøren til venstre eller højre for at vælge et mødetidspunkt. For eksempel, fra 13:30 til 15:00, som vist i grønt på dette skærmbillede. Brug rullefeltet for at bevæge dig mellem dagene.
 
@@ -115,12 +118,6 @@ Hvis den valgte person ikke har en gyldig e-mailadresse registreret i SuperOffic
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png

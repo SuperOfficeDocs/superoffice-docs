@@ -1,39 +1,31 @@
 items:
 - name: Översikt
   href: index.md
-- name: Bokning, samtal, uppgift
+- name: Möte, samtal, uppgift
   href: follow-ups.md
-- name: Kalendervyer
-  topicHref: screen/index.md
-  items:
-  - name: Dag, vecka, månad
-    href: screen/index.md
-  - name: Gruppöversikt
-    href: group-view.md
-  - name: Visa andras kalendrar
-    href: other-diaries.md
-- name: Arbeta med händelser
-  topicHref: create-follow-up.md
-  items:
-  - name: Videomöten
-    href: video-meetings.md
-  - name: "Lägga till en händelse (möte, uppgift eller telefonsamtal)"
-    href: create-follow-up.md
-  - name: Redigera eller ta bort händelse
-    href: edit-follow-up.md
-  - name: Flytta händelse
-    href: move-follow-up.md
-  - name: Slutföra händelse
-    href: change-completed-status.md
-  - name: Upprepning
-    href: recurrence/toc.yml
-  - name: Överföra en händelse till någon annan
-    href: follow-up-assign.md
-  - name: Ställa in larm för händelser
-    href: set-alarm.md
-  - name: Skicka en händelse som ett e-postmeddelande
-    href: send-as-email.md
-
-- name: Förfrågningar
+- name: Videomöten
+  href: video-meetings.md
+- name: Lägga till en händelse
+  href: create-follow-up.md
+- name: Redigera eller ta bort händelse
+  href: edit-follow-up.md
+- name: Flytta händelse
+  href: move-follow-up.md
+- name: Slutföra händelse
+  href: change-completed-status.md
+- name: Visa andras kalendrar
+  href: other-diaries.md
+- name: Gruppöversikt
+  href: group-view.md
+- name: Överföra en händelse till någon annan
+  href: follow-up-assign.md
+- name: Ställa in larm för händelser
+  href: set-alarm.md
+- name: Skicka en händelse som ett e-postmeddelande
+  href: send-as-email.md
+- name: Upprepning
+  href: recurrence/toc.yml
+  topicHref: recurrence/index.md
+- name: Inbjudningar
   href: invitation/toc.yml
   topicHref: invitation/index.md

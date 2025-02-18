@@ -2,10 +2,14 @@
 uid: help-da-follow-up-assign
 title: Tildele opfølgning
 description: Overførsel af en opfølgning til andre
-date: 12.12.2023
-version: 10.2.10
 keywords: dagbog, opfølgning, medarbejder, deleger, tildele
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -25,7 +29,7 @@ Eksempler: En kollega er på ferie, men har brug for at ringe til en kunde, når
 
 1. [Åbn eller opret en opfølgning][1].
 
-1. Klik på knappen **Opgave** ![ikon][img1], og vælg **Tildel til**. Alternativt kan du åbne opfølgningen og opdatere navnet i feltet **Ejer**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og vælg **Tildel til**. Alternativt kan du åbne opfølgningen og opdatere navnet i feltet **Ejer**.
 
 1. I dialogboksen **Tildel til** klikker du på listen foroven for at vælge, hvilke brugere der skal vises (historikliste, alle eller grupper).
 
@@ -47,6 +51,3 @@ Hvis den anden person afviser invitationen, modtager du en Invitation afslået-m
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

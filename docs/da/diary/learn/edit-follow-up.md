@@ -1,11 +1,15 @@
 ---
 uid: help-da-follow-up-edit
 title: Rediger opfølgning
-description: Åbn, rediger, slet opfølgning; Rediger sluttidspunkt for opfølgninger i dagbogen; Rediger eller slet invitation
+description: Sådan åbner, redigerer eller sletter du en opfølgning. Rediger sluttidspunkt for en opfølgning i dagbogen. Rediger eller slet en invitation. Rediger gentagen opfølgning.
+keywords: rediger opfølgning, opdater opfølgning, forlæng møde, forkort møde, ændr kun denne forekomst, slet opfølgning, annuller møde, dagbog, opfølgning, aftale, møde, opgave, telefonopkald, invitation
 author: Bergfrid Dias
-version: 10.2.11
-keywords: dagbog, opfølgning, invitation, aftale, oppgave, telefonopkald, gentag
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -13,72 +17,72 @@ language: da
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Hvis du redigerer tid, dato eller sted for en opfølgning - eller sletter en invitation, du har oprettet og sendt - modtager de inviterede en meddelelse om dette.
+Hvis du redigerer tidspunkt, dato eller sted for en opfølgning – eller sletter en invitation, du har oprettet og sendt – vil de inviterede modtage en besked om dette.
 
 ## Trin
 
-1. Åbn den ønskede opfølgning ved at dobbeltklikke på den:
+1. Åbn en eksisterende opfølgning ved at dobbeltklikke på den:
 
-    * I detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog.
-    * På de forskellige faner i skærmbilledet Dagbog.
+    * I detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Dagbog, Projekt eller Salg.
+    * Eller på de forskellige faner i skærmbilledet Dagbog.
 
-2. [Foretag de ønskede ændringer i dialogboksen.][3]
+2. [Foretag de nødvendige ændringer i dialogen.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
 
 3. Klik på **Gem**.
 
 > [!NOTE]
-> Du kan ikke redigere afsluttede ændringer, før du har sat deres status til **Udført**.
+> Du kan ikke redigere afsluttede opfølgninger, før du har fjernet deres status **Udført**.
 
-## <a id="change-end"></a>Rediger sluttidspunkt for opfølgninger i dagbogen
+## <a id="change-end"></a>Rediger sluttidspunkt for en opfølgning i Dagbogen
 
-På skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden at skulle åbne den:
+I skærmbilledet Dagbog kan du ændre sluttidspunktet for en opfølgning uden at åbne den:
 
-1. Klik på opfølgningen på fanen **Dag**, fanen **Uge** eller fanen **Vis**.
+1. Klik på opfølgningen på fanen **Dag**, **Uge** eller **Oversigt**.
 
-2. Placer musemarkøren på den nederste kant af opfølgningen. Markøren ændres til en dobbeltpil.
+1. Placer musemarkøren over den nederste kant af opfølgningen. Markøren ændres til en dobbeltpil.
 
-3. Klik på kanten, og hold museknappen nede, mens du trækker den blå linje op eller ned for at mindske eller øge tidsintervallet for opfølgningen. Du kan se sluttidspunktet for opfølgningen øverst i det blå område.
+1. Klik og hold nede, og træk den nederste kant op eller ned for at justere opfølgningens varighed. Det opdaterede sluttidspunkt vises, mens du trækker.
 
-4. Slip museknappen. Tidsintervallet for opfølgningen ændres.
+1. Slip museknappen for at anvende ændringen.
 
 > [!NOTE]
 > Du kan også ændre tidsintervallet ved at åbne opfølgningen og ændre felterne **Start**, **Slut**, **Forfalden** eller **Varighed**.
 
-## <a id="repeat"></a>Rediger gentagne opfølgninger
+## <a id="repeat"></a>Rediger gentagen opfølgning
 
-Ændringer fungerer på samme måde, som når du redigerer opfølgninger, men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning**.
+Ændringer fungerer på samme måde som ved redigering af opfølgninger, men når du foretager en ændring, vises dialogboksen **Gentaget opfølgning**.
 
-![Repeating follow-up dialog -screenshot][img1]
+![Gentaget opfølgning -screenshot][img1]
 
 * Hvis du vælger **Skift kun denne forekomst**, påvirker ændringen ikke andre tidspunkter.
 
-* Hvis du vælger **Skift alle fremtidige forekomster, herunder denne**, vil ændringen gælde for denne opfølgning og alle gentagelser i fremtiden.
+* Hvis du vælger **Skift alle fremtidige forekomster, inklusive denne**, vil ændringen gælde for denne opfølgning samt alle fremtidige gentagelser.
 
-Du kan kun ændre startdatoen for opfølgningen, mens du ser på gentagelsesdetaljerne. For at ændre tiden, skal du klikke på **OK** eller **Afbry** for at vende tilbage til opfølgningsoplysningerne.
+Du kan kun ændre startdatoen for opfølgningen, mens du ser på gentagelsesdetaljerne. For at ændre tiden skal du klikke på **OK** eller **Afbry** for at vende tilbage til opfølgningsdetaljerne.
 
-Hvis du beslutter at ændre mønsteret midt i en række møder, oprettes en ny regel, og den gamle regel stoppes ved det punkt, hvor afbrydelsen opstår.
+Hvis du beslutter at ændre mønsteret midt i en serie af møder, oprettes en ny regel, og den gamle regel stoppes på det tidspunkt, hvor ændringen træder i kraft.
 
-Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mødet behandles som en undtagelse fra reglen. Undtagelsen kan gøres normal igen ved at flytte den tilbage i linje med de andre møder.
+Hvis du ændrer starttidspunktet for et enkelt møde, påvirkes reglen ikke. Mødet behandles som en undtagelse. Du kan fjerne undtagelsen ved at flytte mødet tilbage i linje med de andre.
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete"></a>Slet opfølgning ved hjælp af Dagbogen
+## <a id="delete"></a>Slet en opfølgning i Dagbogen
 
-* Hvis du sletter en opfølgning, som du er inviteret til, fjernes opfølgningen kun fra din dagbog.
-* Hvis du sletter en invitation, som du ejer, fra din dagbog, forsvinder denne opfølgning også fra de inviteredes dagbøger.
+* Hvis du sletter en opfølgning, du er inviteret til, fjernes den kun fra din dagbog.
+* Hvis du sletter en invitation, som du ejer, forsvinder opfølgningen også fra de inviteredes dagbøger.
 
-1. Vælg den ønskede opfølgning.
-2. Højreklik, og vælg **Slet**.
-3. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
+1. Vælg den opfølgning, du vil slette.
+1. Højreklik, og vælg **Slet**.
+1. Bekræft eller annuller sletningen i bekræftelsesdialogboksen.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Ændring af status Udført for en aktivitet][2]
-* [Stop af gentagne opfølgninger][5]
+* [Stop gentagne opfølgninger][5]
 * [Tilføj link til dokument, salg, projekt eller websted][6]
 
 <!-- Referenced links -->

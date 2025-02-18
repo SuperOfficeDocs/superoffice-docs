@@ -2,10 +2,14 @@
 uid: help-nl-follow-up-send
 title: Vervolgactiviteiten verzenden
 description: Vervolgactiviteiten verzenden
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: agenda, vervolgactiviteit
+keywords: verzenden als e-mail, agenda, vervolgactiviteit
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

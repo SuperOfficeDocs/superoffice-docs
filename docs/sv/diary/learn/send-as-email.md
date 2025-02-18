@@ -2,10 +2,14 @@
 uid: help-sv-follow-up-send
 title: Skicka händelser
 description: Skicka händelser
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: kalender, händelse
+keywords: skicka som e-post, kalender, händelse
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

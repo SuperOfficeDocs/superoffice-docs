@@ -1,40 +1,61 @@
 ---
 uid: help-sv-diary-other
 title: Visa en annan kalender
-description: Visa en annan persons kalender.
+description: Växla till en annan användares eller resursens kalender för att kontrollera tillgänglighet, schemalägga händelser eller hantera att göra-listor.
+keywords: kalenderägare, byt kalenderägare, visa en annan kalender, visa en resurskalender, kalender, händelse, resurs, ägare, kalenderägarlistan
 author: Bergfrid Dias
-date: 10.05.2023
-keywords: kalender, händelse, resurs, ägare
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Visa en annan kalender
 
-Om du klickar på namnet för en användare eller resurs blir denne ägare av kalendern, vilket innebär att fliken **Dag** för den användaren eller resursen visas. Du går tillbaka till din egen kalender genom att välja ditt namn i listan över kalenderägare.
+Du kan växla till en annan användares eller resursens kalender för att kontrollera deras tillgänglighet, schemalägga händelser eller hantera att göra-listor.
 
-1. Klicka på ditt namn på valfri flik i fönstret Kalender. En listruta visas med andra resurser, användargrupper och användare som är anslutna till nätverket. Den kallas *kalenderägarlistan*.
+## Vilken kalender visar jag?
+
+När du tittar i en kalender ser du ägaren högst upp till höger i fönstret Kalender. Du kan också identifiera om du visar din egen kalender, en annan användares kalender eller en resurskalender genom följande visuella indikationer:
+
+* **Din egen kalender:** Visar ditt namn med en ljusgrå kant och symbolen <i class="ph ph-user" aria-label="Användarikon"></i> i grönt.
+
+* **En annan användares kalender:** Visar användarens namn med en röd kant och symbolen <i class="ph ph-user" aria-label="Användarikon"></i> i blått.
+
+* **En resurskalender:** Visar resursens namn med en blå kant och symbolen <i class="ph ph-chair" aria-label="Resursikon"></i>.
+
+Dessa indikationer gör det enkelt att bekräfta vilken kalender du för närvarande hanterar eller tittar på.
+
+## Byt kalenderägare
+
+1. Klicka på ditt namn längst upp till höger i fönstret Kalender. En lista visas med användare, användargrupper och resurser i systemet. Denna lista kallas *kalenderägarlistan*.
 
     > [!TIP]
-    > Med FastSearcher kan du söka efter användare på namn eller användar-ID.
+    > Börja skriva för att snabbt hitta användare efter namn eller användar-ID.
 
-2. Välj en resurs eller användare direkt eller klicka på en användargrupp ![ikon][img1]. Du kan sedan välja från en lista över alla personer som är kopplade till den aktuella gruppen av SuperOffice CRM-användare.
+1. Välj en resurs eller användare direkt från listan, eller klicka på en användargrupp (<i class="ph ph-caret-right" aria-label="Pil höger"></i>) för att se alla användare i den gruppen.
 
-3. Den andra användarens eller resursens kalender öppnas och användarens/resursens namn (inte ditt eget) visas längst upp till höger i Kalender-fönstret. Aktivitetslistan för den andra användaren eller resursen visas också.
+    ![Byt ägare i Kalender-huvudet -screenshot][img1]
 
-> [!NOTE]
-> Andra användare visas med ![ikon][img2]-ikonen och röd understrykning. Resurser visas med ![ikon][img3]-ikonen och blå understrykning.
+1. Kalendern uppdateras för att visa den valda användarens eller resursens schema och aktivitetslista. Deras namn visas högst upp till höger.
 
-När du öppnar en annan användares eller resurs kalender kan du växla mellan de olika flikarna på samma sätt som i din egen kalender, och du kan [skapa händelser][2] i deras kalendrar genom att klicka och välja tidsperioder med musen, förutsatt att du har behörighet.
+    Du kan använda alla standardflikar (**Dag**, **Vecka**, **Månad** eller **Översikt**) och skapa händelser i deras kalender genom att välja tidsluckor, förutsatt att du har nödvändiga behörigheter.
 
-## Vad vill du göra nu?
+1. För att återgå till din egen kalender, klicka på ditt namn i kalenderägarlistan.
+
+## Relaterat innehåll
 
 * [Skapa bokning][2]
+* [Tilldela händelse][1]
+* [Granskning av flera kalendrar i gruppvy][3]
 
 <!-- Referenced links -->
-[2]: create-follow-up.md
+[1]: follow-up-assign.md
+[2]: create-follow-up.md#associate
+[3]: group-view.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.png
-[img3]: ../../../media/icons/diary-owner-resource.png
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png

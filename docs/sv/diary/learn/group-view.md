@@ -1,107 +1,127 @@
 ---
 uid: help-sv-diary-group-view
 title: Gruppöversikt
-description: Gruppöversikt; Skapa kalenderöversikter; Dialogrutan Ny gruppöversikt
+description: Gruppöversikten i kalendern gör det möjligt att visa och hantera flera användares eller resursernas scheman i en gemensam kalendervy. Gruppöversikter effektiviserar planering, ger överblick över tillgänglighet och gör det möjligt att skapa händelser direkt för teammedlemmar eller resurser.
+keywords: lägg till gruppöversikt, ny gruppöversikt, redigera gruppöversikt, fliken Översikt, kalender, händelse, gruppöversikt, gruppvy, kalendervy
 author: Bergfrid Dias
-date: 10.03.2023
-keywords: kalender, händelse, gruppöversikt
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Gruppöversikt
+# Gruppöversikt (gruppvy)
 
-Du kan välja kalendrar för andra användare och resurser, och du kan spara dessa översikter i listrutan **Visa** med namn som du väljer själv.
+Gruppöversikten i kalendern gör det möjligt att visa och hantera flera användares eller resursernas scheman i en gemensam kalendervy. Gruppöversikter effektiviserar planering, ger överblick över tillgänglighet och gör det möjligt att skapa händelser direkt för teammedlemmar eller resurser.
 
 ## Visa flera kalendrar
 
-1. Klicka på fliken **Översikt** i fönstret Kalender.
+1. Gå till fliken **Översikt** i Kalender-fönstret.
 
-2. Klicka på listrutan **Visa** längst ned i Kalender-fönstret. En lista visas över alla grupper och resurser som har skapats i företaget.
+1. Välj en grupp i listan (<i class="ph ph-caret-down" aria-label="Dropdown icon"></i>).
 
-3. Välj önskad grupp i listan. På fliken **Översikt** visas nu kalendrarna för alla användare och resurser i den valda användargruppen.
+    * Fördefinierade grupper baseras på din organisations struktur och kan inkludera användargrupper eller resurser, såsom avdelningar eller mötesrum.
 
-## Skapa en gruppöversikt
+1. Gruppens kalendrar visas nu i fliken **Översikt**, där du kan kontrollera scheman eller planera händelser.
 
-1. Klicka på fliken **Översikt** i fönstret Kalender.
+## Skapa en ny gruppöversikt
 
-1. Klicka på knappen **Uppgift** ![ikon][img5] längst ner till höger och välj **Ny gruppöversikt**.
+1. Gå till fliken **Översikt** i Kalender-fönstret.
 
-    > [!NOTE]
-    > Klicka på **Redigera** om du vill redigera en befintlig översikt. [Du kan bara ändra gruppöversikter som du har skapat.](#troubleshoot) Klicka på **Kopiera** om du vill kopiera en befintlig översikt.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgift"></i> och välj **Ny gruppöversikt**.
 
-1. Ange de relevanta uppgifterna i fälten **Namn** och **Beskrivning** i dialogrutan **Ny gruppöversikt**.
+    Alternativt kan du välja **Kopiera** för att basera den nya översikten på en befintlig.
 
-1. Välj om du vill visa kalendern för **Medarbetare**, **Projekt** eller **Resurs** i fältet **Välj från**. Innehållet i listrutan precis under fältet **Välj från** varierar beroende på vad du har valt.
+1. I dialogrutan **Ny gruppöversikt**, ange ett **Namn** och en valfri **Beskrivning**.
 
-1. Markera användare/resurser och klicka på högerpilen ![ikon][img2] så läggs de till i den högra rutan. Du kan lägga till användare och resurser en i taget genom att dubbelklicka på dem.
+    ![Dialogrutan Ny gruppöversikt i Kalender-fönstret -screenshot][img1]
 
-1. I rutan till höger visas alla användare och resurser som du har lagt till i gruppöversikten. Om du vill ta bort en användare eller resurs från listan markerar du den och klickar på **Ta bort**.
+1. Välj vilka användare och resurser som ska ingå i gruppöversikten. Du har flera alternativ:
 
-1. De valda användarna och resurserna visas i gruppöversikten i samma ordning som i rutan till höger. Om du vill ändra ordningen markerar du en användare eller resurs och klickar på uppåtpilen ![ikon][img3] eller nedåtpilen ![ikon][img4] så flyttas posten uppåt eller nedåt i listan.
+    * **Medarbetare:** Välj en användare från organisationen och klicka på <i class="ph ph-caret-circle-right" aria-label="Högerpil"></i> för att lägga till dem. Du kan filtrera listan efter användargrupp för enklare sökning.
 
-1. När du har valt användare och resurser klickar du på **Spara**, eller på **Avbryt** om du vill stänga dialogrutan utan att spara. Du kommer tillbaka till fliken **Översikt** där du bland annat kan skapa bokningar för andra medarbetare.
+    * **Projekt:** Välj ett projekt, markera en projektdeltagare och klicka på <i class="ph ph-caret-circle-right" aria-label="Högerpil"></i> för att lägga till dem.
+
+    * **Resurs:** Välj en resurs, såsom ett konferensrum eller en projektor, och klicka på <i class="ph ph-caret-circle-right" aria-label="Högerpil"></i> för att lägga till den.
+
+    > [!TIP]
+    > Klicka på **Markera alla** för att välja alla i listan och lägga till dem på en gång.
+
+1. Justera ordningen vid behov: Markera en person eller resurs och använd <i class="ph ph-caret-circle-up" aria-label="Flytta upp"></i> och <i class="ph ph-caret-circle-down" aria-label="Flytta ner"></i> för att ändra deras position. Denna ordning avgör hur de visas i fliken **Översikt**.
+
+1. Klicka på **Spara** för att spara gruppöversikten eller **Avbryt** för att ångra ändringarna.
 
 > [!TIP]
-> Om du vill ta bort den aktiva gruppöversikten klickar du på knappen **Uppgift** längst ner till höger och väljer **Ta bort gruppöversikt**.
+> Använd **Uppgift**-menyn för att hantera befintliga översikter. Du kan **Kopiera** fördefinierade vyer och **Redigera** eller **Ta bort** vyer som du har skapat.
 
-## <a id="fields"></a>Fält
+## Vilka kalendrar kan jag inkludera?
 
-### Namn
+När du skapar en gruppöversikt kan du inkludera en kombination av medarbetare, resurser och projektdeltagare:
 
-Här står namnet på översikten som du redigerar. Du kan ändra översiktsnamnet.
+* **Medarbetare:** Lägg till teammedlemmar eller kollegor för att se deras scheman.
+* **Projektdeltagare:** Lägg till medlemmar i ett specifikt projekt för att se deras tillgänglighet.
+* **Resurser:** Lägg till delade resurser såsom konferensrum eller utrustning. Resurslistan definieras under Inställningar och underhåll.
 
-### Beskrivning
+## Alternativ i Uppgift-menyn <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
-Här kan du ange en beskrivning av översikten.
+**Uppgift**-menyn innehåller följande alternativ för hantering av gruppöversikter:
 
-### Välj från
+| Alternativ | Beskrivning |
+|---|---|
+| Redigera | Ändra en gruppöversikt du har skapat. Fördefinierade översikter kan inte redigeras. |
+| Ny gruppöversikt | Skapa en ny anpassad gruppöversikt. |
+| Kopiera | Duplicera en befintlig gruppöversikt. |
+| Ta bort gruppöversikt | Ta bort en gruppöversikt som du har skapat. |
+| Bjud in deltagare | Lägg till deltagare i en händelse direkt från gruppöversikten. |
+| Hjälp | Öppna användarguiden (denna sida). |
 
-* Välj **Medarbetare** om du vill lägga till användare på ditt företag i översikten.
-* Välj **Projekt** om du vill lägga till projektdeltagare på ditt företag i översikten.
-* Välj **Resurs** om du vill lägga till resurser som konferensrum och projektorer på ditt företag i översikten.
+## Redigera gruppöversikt
 
-### Listruta
+Du kan redigera gruppöversikter som du har skapat. Fördefinierade översikter kan inte ändras. Följ dessa steg för att uppdatera en gruppöversikt:
 
-När du väljer ett alternativ för **Välj från** visas en listruta nedanför. Innehållet i listrutan varierar beroende på vad du väljer i steget ovan:
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgift"></i> och välj **Redigera**.
 
-* Om du har valt **Medarbetare** visas en lista med användargrupper på ditt företag. Du kan också välja **Alla** om du vill visa alla användare på företaget.
+1. I dialogrutan **Redigera gruppöversikt**:
 
-* Om du har valt **Projekt** visas historiklistan med projekt.
+    * För att lägga till personer eller resurser: Markera dem i listan och klicka på <i class="ph ph-caret-circle-right" aria-label="Högerpil"></i>.
 
-* Om du har valt **Resurs** visas en lista över resurser på ditt företag. Denna lista definieras under Inställningar och underhåll. Välj **Alla** om du vill se alla resurser på ditt företag.
+    * För att ta bort personer eller resurser: Markera dem i rutan till höger och klicka på <i class="ph ph-caret-circle-left" aria-label="Vänsterpil"></i>.
 
-### Vänstra rutan
+    * För att ändra ordningen: Markera en post och använd <i class="ph ph-caret-circle-up" aria-label="Flytta upp"></i> och <i class="ph ph-caret-circle-down" aria-label="Flytta ner"></i>.
 
-Här finns en lista med tillgängliga användare och/eller resurser som kan läggas till i gruppöversikten. Markera användare/resurser och klicka på högerpilen ![ikon][img2] så läggs de till i den högra rutan.
+1. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att ångra dem.
 
-> [!NOTE]
-> Du kan också välja en användare eller resurs i taget genom att dubbelklicka på dem.
+### <a id="troubleshoot"></a>Varför är Redigera-knappen grå?
 
-Klicka på **Markera alla** ![ikon][img6] om du vill välja alla användare/resurser i listan ovanför. Klicka på **Avmarkera alla** ![ikon][img7] om du vill avmarkera alla användare eller resurser.
+Du kan endast ändra gruppöversikter som du har skapat. Fördefinierade gruppöversikter, såsom de som har skapats av administratörer eller definierats i Inställningar och underhåll, kan inte redigeras. För att göra ändringar:
 
-### Högra rutan
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Uppgift"></i>) och välj **Kopiera**.
 
-Här visas alla användare och resurser som du har lagt till i gruppöversikten. Om du vill ta bort en användare eller resurs från listan markerar du posten och klickar på vänsterpilen ![ikon][img1]. De användare och resurser du har valt visas i gruppöversikten i samma ordning som i rutan till höger. Om du vill ändra ordningen markerar du en användare eller resurs och klickar på uppåtpilen ![ikon][img3] eller nedåtpilen ![ikon][img4] så flyttas posten uppåt eller nedåt i listan.
+1. Spara den nya gruppöversikten med ett annat namn.
 
-## <a id="troubleshoot"></a>Varför är Redigera-knappen grå?
+1. Redigera den kopierade gruppöversikten vid behov.
 
-Du kan bara ändra gruppöversikter som du har skapat. I en fördefinierad gruppöversikt är knappen **Redigera** grå eftersom du inte kan ändra den härifrån. Dessa gruppöversikter innehåller alla användare som har tilldelats till de specifika grupperna. [!include[SM](../../learn/includes/are-defined-sm.md)]
+## Ta bort gruppöversikt
 
-Om du vill redigera och spara en fördefinierad gruppöversikt väljer du alternativet **Kopiera** och sparar översikten med ett nytt namn.
+Du kan ta bort gruppöversikter som du har skapat. Fördefinierade gruppöversikter kan inte raderas.
+
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Uppgift"></i>) i fliken **Översikt**.
+
+1. Välj **Ta bort gruppöversikt** i menyn.
+
+1. Bekräfta borttagningen i dialogrutan genom att välja **Ja**.
 
 ## Relaterat innehåll
 
-* [Skapa bokningar för andra medarbetare][4]
+* [Läs mer om fliken Översikt][2]
+* [Skapa händelser för en annan medarbetare][4]
 
 <!-- Referenced links -->
+[2]: index.md#tabs
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../media/icons/select-all.png
-[img7]: ../../../media/icons/unselect-all.png
+[img1]: ../../../media/loc/en/diary/new-group-view.png

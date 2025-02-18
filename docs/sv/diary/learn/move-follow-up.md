@@ -2,11 +2,14 @@
 uid: help-sv-follow-up-move
 title: Flytta händelser
 description: Flytta händelser
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: kalender, händelse
+keywords: flytta händelse, flytta möte, ändra mötestid, mötestidpunkt, möte, kalender, händelse
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

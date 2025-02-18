@@ -1,12 +1,15 @@
 ---
 uid: help-sv-follow-up-edit
-title: Redigera händelser
-description: Öppna, redigera, eller ta bort händelse i kalendern; Ändra sluttid för en händelse i kalendern; Redigera eller ta bort förfrågan; Redigera återkommande händelse
+title: Redigera händelse
+description: Hur du öppnar, redigerar eller tar bort en händelse. Ändra sluttid för en händelse i kalendern. Redigera eller ta bort en inbjudan. Redigera återkommande händelse.
+keywords: redigera händelse, uppdatera händelse, förläng möte, förkorta möte, ändra endast denna förekomst, ta bort händelse, avboka möte, kalender, händelse, bokning, möte, uppgift, att göra, samtal, telefon, inbjudan
 author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
-keywords: kalender, händelse, förfrågan, bokning, uppgift, samtal, upprepa, återkomma
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -14,71 +17,71 @@ language: sv
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Om du redigerar tid, datum eller plats för en händelse - eller tar bort en förfrågan som du har skapat och skickat - får mottagarna ett meddelande om detta.
+Om du redigerar tid, datum eller plats för en händelse – eller tar bort en inbjudan som du har skapat och skickat – får de inbjudna ett meddelande om detta.
 
 ## Steg
 
 1. Öppna en befintlig händelse genom att dubbelklicka på den:
 
-    * I detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt, Kalender
-    * På flikarna i fönstret Kalender.
+    * I detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Kalender, Projekt eller Försäljning.
+    * På de olika flikarna i fönstret Kalender.
 
-2. [Gör dina ändringar i dialogrutan.][3]
+2. [Gör de nödvändiga ändringarna i dialogrutan.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
 
 3. Klicka på **Spara**.
 
 > [!NOTE]
-> Du kan inte göra ändringar i slutförda händelser förrän du har inaktiverat statusen **Slutförd**.
+> Du kan inte redigera slutförda händelser förrän du har inaktiverat deras status **Slutförd**.
 
-## <a id="change-end"></a>Ändra sluttid för en händelse i kalendern
+## <a id="change-end"></a>Ändra sluttid för en händelse i Kalendern
 
 I fönstret Kalender kan du ändra sluttiden för en händelse utan att öppna den:
 
-1. Klicka på händelsen på fliken **Dag**, **Vecka** eller **Visa**.
+1. Klicka på händelsen i fliken **Dag**, **Vecka** eller **Översikt**.
 
-2. Håll muspekaren på händelsens nedre kant. Markören ändras till en dubbelpil.
+1. Håll muspekaren över uppföljningens nedre kant. Markören ändras till en dubbelpil.
 
-3. Klicka på kanten och håll ned musknappen medan du drar den blå linjen uppåt eller nedåt för att minska eller öka händelsens tidsspann. Händelsens sluttid visas högst upp i det blå området.
+1. Klicka och håll nere musknappen, dra sedan den nedre kanten uppåt eller nedåt för att justera uppföljningens varaktighet. Den uppdaterade sluttiden visas medan du drar.
 
-4. Släpp musknappen. Händelsens tidsspann har ändrats.
+1. Släpp musknappen för att tillämpa ändringen.
 
 > [!NOTE]
-> Du kan också ändra tidsspannet genom att öppna händelsen och ändra fälten **Start**, **Slut**, **Tidsgräns** eller **Varaktighet**.
+> Du kan också ändra tidsintervallet genom att öppna händelsen och redigera fälten **Start**, **Slut**, **Tidsgräns** eller **Varaktighet**.
 
 ## <a id="repeat"></a>Redigera återkommande händelse
 
 Ändringar fungerar på samma sätt som när du redigerar händelser, men när du gör en ändring visas dialogrutan **Återkommande händelser**.
 
-![Repeating follow-up dialog -screenshot][img1]
+![Dialogrutan Återkommande händelser -screenshot][img1]
 
-* Om du väljer **Ändra endast denna förekomst** påverkar ändringen inte andra förekomster.
+* Om du väljer **Ändra endast denna förekomst**, påverkas inte andra tider.
 
-* Om du väljer **Ändra denna och alla kommande förekomster** tillämpas ändringen även på framtida förekomster av händelsen.
+* Om du väljer **Ändra denna och alla kommande förekomster**, gäller ändringen även för denna händelse och alla framtida upprepningar.
 
-Du kan endast ändra startdatumet för händelsen när du tittar på återkomstmönstret. För att ändra tiden, klicka på **OK** eller **Avbryt** för att återgå till uppföljningsinformationen.
+Du kan endast ändra startdatumet för händelsen när du tittar på återkomstmönstret. För att ändra tiden, klicka på **OK** eller **Avbryt** för att återgå till uppföljningens detaljer.
 
-Om du bestämmer dig för att ändra regelmönstret mitt i en serie möten, då skapas en ny regel och den gamla regeln stoppas där brytningen inträffar.
+Om du ändrar återkomstregeln mitt i en serie möten skapas en ny regel, och den gamla regeln stoppas där ändringen sker.
 
-Om du ändrar starttiden för ett enskilt möte påverkas inte regeln. Mötesundantaget betraktas som ett undantag från regeln. Undantaget kan göras om till ett vanligt möte genom att flytta det tillbaka i linje med de andra mötena.
+Om du ändrar starttiden för ett enskilt möte påverkas inte återkomstregeln. Mötet behandlas som ett undantag från regeln. Du kan återställa undantaget genom att flytta mötet tillbaka så att det linjerar med de andra.
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
-## <a id="delete"></a>Ta bort händelse i kalendern
+## <a id="delete"></a>Ta bort händelse i Kalendern
 
-* Om du tar bort en förfrågan du blivit inbjuden till, tas den bort enbart från din egen dagbok.
-* Om du tar bort en förfrågan som du äger från din dagbok, försvinner den även från de inbjudna personernas kalendrar.
+* Om du tar bort en händelse som du är inbjuden till, tas den endast bort från din egen kalender.
+* Om du tar bort en inbjudan som du äger från din kalender, försvinner den också från de inbjudna personernas kalendrar.
 
-1. Välj önskad händelse.
-2. Högerklicka och välj **Ta bort**.
-3. Bekräfta eller avbryt borttagningen i dialogrutan för bekräftelse.
+1. Välj den händelse du vill ta bort.
+1. Högerklicka och välj **Ta bort**.
+1. Bekräfta borttagningen genom att välja **Ja**, eller välj **Nej** för att behålla händelsen.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
-* [Ändra Slutfört-status för en aktivitet][2]
+* [Ändra Slutförd-status för en aktivitet][2]
 * [Stoppa återkommande händelser][5]
 * [Lägg till länk till dokument, försäljning, projekt eller webbplats][6]
 

@@ -1,10 +1,15 @@
 ---
 uid: help-nl-invitation-add-attendee
 title: Deelnemers toevoegen aan vervolgactiviteiten
-description: "Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen."
+description: Het uitnodigen van contactpersonen voor een afspraak kan op verschillende manieren worden gedaan. Deze handleiding laat zien hoe u deelnemers aan een afspraak kunt toevoegen.
+keywords: persoon uitnodigen, medewerker uitnodigen, deelnemer toevoegen, bronnen toevoegen, vergadering, uitnodiging, deelnemer, agenda, vervolgactiviteit
 author: Bergfrid Dias
-keywords: agenda, vervolgactiviteit, uitnodiging, deelnemer
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -28,9 +33,9 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 1. Klik op het vak **Deltakere toevoegen**. Kies vervolgens een of meer personen uit de lijst.
 
     * Begin met typen om te zoeken naar een persoon in heel SuperOffice.
-    * Selecteer een persoon uit de historielijst ![pictogram][img4] of je favorieten ![pictogram][img5].
-    * Klik op ![pictogram][img6] om te zoeken naar een collega of ![pictogram][img7] om personen te selecteren die aan een bedrijf zijn gekoppeld.
-    * U kunt ook belanghebbenden bij de verkoop selecteren ![pictogram][img8] en projectleden ![pictogram][img9].
+    * Selecteer een persoon uit de historielijst (<i class="ph ph-clock" aria-hidden="true"></i>) of je favorieten (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Klik op <i class="ph ph-users" aria-label="Group icon"></i> om te zoeken naar een collega of <i class="ph ph-buildings" aria-label="Company icon"></i> om personen te selecteren die aan een bedrijf zijn gekoppeld.
+    * U kunt ook belanghebbenden bij de verkoop selecteren (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) en projectleden (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Opvolgingsdialog, selecteer deelnemers -screenshot][img17]
 
@@ -49,7 +54,7 @@ Wanneer u een vervolgactiviteit maakt die niet alleen op uzelf betrekking heeft,
 
 ### <a id="availability"></a>Planningsassistent
 
-De planningsassistent maakt deel uit van de nieuwe **Vervolgactiviteit**-dialoog. De gedetailleerde kalender toont de beschikbaarheid van elke interne deelnemer (collega). De bovenste rij toont de geaccumuleerde beschikbaarheid. De beschikbaarheid van externe deelnemers en e-maildeelnemers is onbekend.
+De planningsassistent maakt deel uit van de **Vervolgactiviteit**-dialoog. De gedetailleerde kalender toont de beschikbaarheid van elke interne deelnemer (collega). De bovenste rij toont de geaccumuleerde beschikbaarheid. De beschikbaarheid van externe deelnemers en e-maildeelnemers is onbekend.
 
 ![vervolgactiviteit dialog, planningsassistent -screenshot][img18]
 
@@ -113,12 +118,6 @@ Postvak IN in SuperOffice gebruiken: Als u de vereiste informatie niet hebt inge
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png

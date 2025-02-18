@@ -3,37 +3,29 @@ items:
   href: index.md
 - name: Aftale, samtale, opgave
   href: follow-ups.md
-- name: Kalendervisninger
-  topicHref: screen/index.md
-  items:
-  - name: Dag, uge, måned
-    href: screen/index.md
-  - name: Gruppeoversigt
-    href: group-view.md
-  - name: Se andre dagbøger
-    href: other-diaries.md
-- name: Arbejd med opfølgning
-  topicHref: create-follow-up.md
-  items:
-  - name: Videomøder
-    href: video-meetings.md
-  - name: "Tilføj opfølgning (aftale, opgave eller telefonopkald)"
-    href: create-follow-up.md
-  - name: Rediger eller slet opfølgning
-    href: edit-follow-up.md
-  - name: Flyt opfølgning
-    href: move-follow-up.md
-  - name: Komplet opfølgning
-    href: change-completed-status.md
-  - name: Gentagelse
-    href: recurrence/toc.yml
-  - name: Tildel en opfølgning til en anden
-    href: follow-up-assign.md
-  - name: Indstil alarm til opfølgning
-    href: set-alarm.md
-  - name: Send en opfølgning som en e-mail
-    href: send-as-email.md
-
+- name: Videomøder
+  href: video-meetings.md
+- name: Tilføj opfølgning
+  href: create-follow-up.md
+- name: Rediger eller slet opfølgning
+  href: edit-follow-up.md
+- name: Flyt opfølgning
+  href: move-follow-up.md
+- name: Komplet opfølgning
+  href: change-completed-status.md
+- name: Se andre dagbøger
+  href: other-diaries.md
+- name: Gruppeoversigt
+  href: group-view.md
+- name: Tildel en opfølgning til en anden
+  href: follow-up-assign.md
+- name: Indstil alarm til opfølgning
+  href: set-alarm.md
+- name: Send en opfølgning som en e-mail
+  href: send-as-email.md
+- name: Gentagelse
+  href: recurrence/toc.yml
+  topicHref: recurrence/index.md
 - name: Invitationer
   href: invitation/toc.yml
   topicHref: invitation/index.md

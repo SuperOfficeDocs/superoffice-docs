@@ -1,12 +1,15 @@
 ---
 uid: help-sv-follow-up-create
-title: "Lägga till händelser"
-description: "Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice"
+title: Lägga till händelser
+description: Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice
+keywords: kalender, händelse, ringa upp, telefon, möte, bokning, samtal, att göra, uppgift
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: kalender, händelse, ringa upp, telefon, möte
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -18,7 +21,7 @@ Om du skapar händelser och lägger in alla möten och aktiviteter i din SuperOf
 
 Det finns många olika sätt att skapa händelser. Denna metod fungerar från var som helst i SuperOffice CRM och för alla typer av händelser.
 
-1. Klicka på **Nytt** i det övre fältet och välj **Möte/Bokning**, **Händelse/Samtal** eller **Att göra/Uppgift**.
+1. Klicka på **Nytt** i det övre fältet och välj **Möte**, **Händelse** eller **Att göra**.
 
 2. [Fyll i nödvändiga uppgifter i fälten.](#fields)
 
@@ -37,7 +40,7 @@ Det finns många olika sätt att skapa händelser. Denna metod fungerar från va
 ### <a id="fields"></a>Hur man anger information
 
 > [!NOTE]
-> Många fält har en lista över fördefinierade värden som du kan välja från. Klicka på pilen ![ikon][img4] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett företagsnamn.
+> Många fält har en lista över fördefinierade värden som du kan välja från. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett företagsnamn.
 
 Om din SuperOffice har [tidszoner][9] aktiverat, kan du välja vilken tidszon händelsen ska skapas i. Tidszonerna visas efter land, och du kan söka både efter land och stad direkt i tidszonfältet.
 
@@ -55,7 +58,7 @@ Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som
     * Valgfritt, legg til rum, lokasjoner, eller resurser.
     * Valgfritt, legg til plats eller adresse.
 
-    ![Utökad uppföljningsdialogruta -screenshot][img8]
+    ![Utökad Händelsesdialogruta -screenshot][img8]
 
 1. Specificera tid och datum. Klicka på **Visa mer** för att ställa in [upprepning][4], "hela dagen", "upptagen/fri" och tidszon. Klicka på klockikonen i huvudet för att [ställa in larmet][3].
 
@@ -77,7 +80,7 @@ Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som
 
 ## Skapa händelser från knappen Uppgift
 
-1. Klicka på ![ikon][img3] knappen **Uppgift** på kontaktkortet.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på kontaktkortet.
 
     * För att skapa en mötesförfrågan, välj **Förfrågan om möte**.
 
@@ -92,7 +95,7 @@ Om du kryssar i **Hela dagen**, sätts tiden för händelsen till den period som
 * **För att använda standardvaraktighet:** Dubbelklicka på ett klockslag i kalendern eller högerklicka på ett klockslag i kalendern och välj **Nytt**.
 
 > [!NOTE]
-> Om du skapar mötet på fliken **Översikt** kan du välja att deltagarlistan ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
+> Om du skapar mötet på fliken **Översikt** kan du välja att deltagarlistan ska fyllas i automatiskt med deltagarna i översikten. Om du vill välja det här alternativet går du till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar** > **Funktioner** och sätter inställningen **Deltagare från gruppöversikt** till **Ja**. Klicka på **Spara**.
 
 ## <a id="associate"></a>Skapa möte för en medarbetare
 
@@ -137,8 +140,5 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

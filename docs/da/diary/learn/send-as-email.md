@@ -2,10 +2,14 @@
 uid: help-da-follow-up-send
 title: Afsendelse af opfølgninger
 description: Afsendelse af opfølgninger
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: dagbog, opfølgning
+keywords: send som e-mail, dagbog, opfølgning
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

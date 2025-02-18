@@ -10,7 +10,7 @@ topic: howto
 language: da
 ---
 
-# Arbejde med videomøder
+# Arbejde med videomøder <i class="ph ph-video-camera" aria-hidden="true"></i>
 
 SuperOffice-videomøder giver dig mulighed for at planlægge og oprette videomøder direkte fra din dagbog. Lad os tage et kig på, hvordan du kan oprette et videomøde.
 
@@ -27,18 +27,23 @@ SuperOffice-videomøder giver dig mulighed for at planlægge og oprette videomø
 
 ## Opret et videomøde
 
-Du kan nemt oprette et videomøde, når du opretter en opfølgning.
+Du kan nemt oprette et videomøde, når du opretter en opfølgning. Se denne video, eller følg anvisningerne nedenfor, hvis du vil oprette et videomøde:
+
+<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+> [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
+
+(videoens længde: 1:09)
 
 ### Trin
 
 1. Opret en ny aftale, og vælg navnet på det firma og den person, du planlægger at møde.
 
-2. For at oprette videomødets URL-adresse skal du klikke på ![ikonet][img1]. Ikonet ændres til ![ikon][img2], og der tilføjes et link til videomøde. SuperOffice CRM opretter og tilføjer URL-adressen til videomødet for den videoudbyder, du bruger.
+2. For at oprette videomødets URL-adresse skal du klikke på <i class="ph ph-video-camera" aria-label="Camera icon"></i>. Ikonet ændrer farve, og der tilføjes et link til videomøde. SuperOffice CRM opretter og tilføjer URL-adressen til videomødet for den videoudbyder, du bruger.
 
     ![Klik på videomødeikonet for at oprette URL-adressen til videomødet -screenshot][img5]
 
     > [!NOTE]
-    > Første gang du vælger videoikonet ![ikon][img1], skal du logge ind for at godkende din bruger i den videomødetjeneste, der er defineret af din administrator.
+    > Første gang du vælger <i class="ph ph-video-camera" aria-label="Video meeting"></i>, skal du logge ind for at godkende din bruger i den videomødetjeneste, der er defineret af din administrator.
     >
     > Hvis du ikke kan se ikonet, betyder det, at videomødefunktionen endnu ikke er konfigureret. Kontakt din SuperOffice-administrator, som vil være i stand til at konfigurere forbindelsen mellem funktionen og videoudbyderen.
 
@@ -48,10 +53,10 @@ Du kan nemt oprette et videomøde, når du opretter en opfølgning.
 
     Når du har tilføjet alle, som du ønsker skal deltage i mødet, skal du klikke på **Gem**.
 
-    Hvis du har slået e-mailinvitationer til for deltagerne i opfølgningen, sendes der en e-mail med et link til at deltage i videomødet, når aftalen gemmes. I dagbogen vises opfølgninger med videomøder med ikonet ![ikon][img3].
+    Hvis du har slået e-mailinvitationer til for deltagerne i opfølgningen, sendes der en e-mail med et link til at deltage i videomødet, når aftalen gemmes. I dagbogen vises opfølgninger med videomøder med <i class="ph ph-video-camera" aria-label="Camera icon"></i>.
 
 > [!TIP]
-> Klik på ![ikon][img4] for at kopiere linket til videomødet. Du kan derefter indsætte linket i dagsorden / beskrivelsen af aftalen eller sende det til andre via direkte beskeder. Brug skabelonvariablen {burl} til at føje videomødelinket til invitationsskabeloner.
+> Klik på <i class="ph ph-copy" aria-label="Copy"></i> for at kopiere linket til videomødet. Du kan derefter indsætte linket i dagsorden / beskrivelsen af aftalen eller sende det til andre via direkte beskeder. Brug skabelonvariablen {burl} til at føje videomødelinket til invitationsskabeloner.
 
 ## Deltage i videomøder
 
@@ -62,10 +67,12 @@ Du kan deltage i et videomøde i SuperOffice på flere måder:
 * Klik på en browserbesked (kun tilgængelig, hvis indstillingen **Alarm** er aktiveret.)
 * Højreklik på et videomøde i dagbogen, og vælg **Deltag i møde**.
 
-Se denne video, eller følg nedenstående trin (videolængde - 1:11):
+Se denne video, eller følg nedenstående trin:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/uee_XO1kwTc]
+
+(videolængde - 1:11)
 
 ### Trin
 
@@ -91,8 +98,4 @@ Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappe
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/videocall-off.png
-[img2]: ../../../../common/icons/videocall.png
-[img3]: ../../../../common/icons/diary-videocall.png
-[img4]: ../../../../common/icons/diary-copy.png
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

@@ -10,7 +10,7 @@ topic: howto
 language: sv
 ---
 
-# Arbeta med videomöten
+# Arbeta med videomöten <i class="ph ph-video-camera" aria-hidden="true"></i>
 
 Med videomöten i SuperOffice kan du boka och skapa videomöten direkt från din kalender. Låt oss ta en titt på hur du skapar ett videomöte.
 
@@ -27,21 +27,23 @@ Med videomöten i SuperOffice kan du boka och skapa videomöten direkt från din
 
 ## Skapa ett videomöte
 
-Du kan enkelt konfigurera ett videomöte när du skapar en händelse. Titta på den här filmen eller följ anvisningarna nedan om du vill skapa ett videomöte (filmens längd: 1:09):
+Du kan enkelt konfigurera ett videomöte när du skapar en händelse. Titta på den här filmen eller följ anvisningarna nedan om du vill skapa ett videomöte:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
+
+(filmens längd: 1:09)
 
 ### Steg
 
 1. Skapa en ny bokning och välj namnet på företaget och kontakten du ska ha möte med.
 
-2. Skapa en URL till videomötet genom att klicka på videomötesikonen ![ikon][img1]. Ikonen ändras till ![ikon][img2] och en videomöteslänk läggs till. SuperOffice CRM skapar och lägger till URL:n till videomötet för den videoleverantör du använder.
+2. Skapa en URL till videomötet genom att klicka på <i class="ph ph-video-camera" aria-label="Camera icon"></i>. Ikonen ändrar färg och en videomöteslänk läggs till. SuperOffice CRM skapar och lägger till URL:n till videomötet för den videoleverantör du använder.
 
     ![Klicka på videomötesikonen för att skapa en URL till videomöte -screenshot][img5]
 
     > [!NOTE]
-    > Första gången du klickar på videoikonen ![ikon][img1] måste du logga in för att autentisera din användare i videomötestjänsten som din administratör har definierat.
+    > Första gången du klickar på <i class="ph ph-video-camera" aria-label="Video meeting"></i> måste du logga in för att autentisera din användare i videomötestjänsten som din administratör har definierat.
     >
     > Om du inte ser ikonen betyder det att videomötesfunktionen inte är konfigurerad ännu. Kontakta din SuperOffice-administratör som kan konfigurera funktionen och kopplingen till videoleverantören.
 
@@ -51,10 +53,10 @@ Du kan enkelt konfigurera ett videomöte när du skapar en händelse. Titta på 
 
     När du har lagt till alla som du vill ska delta i mötet klickar du på **Spara**.
 
-    Om du har aktiverat e-postförfrågningar för deltagarna i händelsen skickas ett e-postmeddelande med en länk för att ansluta till videomötet när bokningen sparas. I kalendern visas händelser med videomöten med ikonen ![ikon][img3].
+    Om du har aktiverat e-postinbjudningar för deltagarna i händelsen skickas ett e-postmeddelande med en länk för att ansluta till videomötet när bokningen sparas. I kalendern visas händelser med videomöten med <i class="ph ph-video-camera" aria-label="Camera icon"></i>.
 
 > [!TIP]
-> Klicka på ![ikon][img4] för att kopiera länken till videomötet. Därefter kan du klistra in länken i agendaen / beskrivningen av bokningen eller skicka den till andra via direktmeddelanden. Använd mallvariabeln {burl} för att lägga till videomöteslänken i förfrågningsmallar.
+> Klicka på <i class="ph ph-copy" aria-label="Copy"></i> för att kopiera länken till videomötet. Därefter kan du klistra in länken i agendaen / beskrivningen av bokningen eller skicka den till andra via direktmeddelanden. Använd mallvariabeln {burl} för att lägga till videomöteslänken i förfrågningsmallar.
 
 ## Ansluta till videomöten
 
@@ -65,10 +67,12 @@ Det finns flera olika sätt att ansluta till ett videomöte i SuperOffice:
 * Klicka på en webbläsaravisering (endast tillgängligt om alternativet **Alarm** har aktiverats.)
 * Högerklicka på ett videomöte i kalendern och välj **Anslut till möte**.
 
-Titta på den här videon eller följ anvisningarna nedan (filmens längd: 1:11):
+Titta på den här videon eller följ anvisningarna nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/uee_XO1kwTc]
+
+(filmens längd: 1:11)
 
 ### Steg
 
@@ -94,8 +98,4 @@ Om du vill ansluta till videomötet via förhandsgranskningen klickar du på kna
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/videocall-off.png
-[img2]: ../../../../common/icons/videocall.png
-[img3]: ../../../../common/icons/diary-videocall.png
-[img4]: ../../../../common/icons/diary-copy.png
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

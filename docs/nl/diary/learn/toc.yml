@@ -3,37 +3,29 @@ items:
   href: index.md
 - name: Afspraak, telefoongesprek, taken
   href: follow-ups.md
-- name: Kalenderweergaven
-  topicHref: screen/index.md
-  items:
-  - name: Dag, week, maand
-    href: screen/index.md
-  - name: Groepsweergave
-    href: group-view.md
-  - name: "Andere agenda's bekijken"
-    href: other-diaries.md
-- name: Werken met vervolgactiviteiten
-  topicHref: create-follow-up.md
-  items:
-  - name: Videovergaderingen
-    href: video-meetings.md
-  - name: "Vervolgactiviteit (afspraak, taak of telefoongesprek) toevoegen"
-    href: create-follow-up.md
-  - name: Vervolgactiviteit bewerken of verwijderen
-    href: edit-follow-up.md
-  - name: Vervolgactiviteit verplaatsen
-    href: move-follow-up.md
-  - name: Volledige opvolging
-    href: change-completed-status.md
-  - name: Herhalen
-    href: recurrence/toc.yml
-  - name: Een vervolgactiviteit aan iemand toewijzen
-    href: follow-up-assign.md
-  - name: Alarm instellen voor vervolgactiviteit
-    href: set-alarm.md
-  - name: Een vervolgactiviteit per e-mail verzenden
-    href: send-as-email.md
-
+- name: Videovergaderingen
+  href: video-meetings.md
+- name: Vervolgactiviteit toevoegen
+  href: create-follow-up.md
+- name: Vervolgactiviteit bewerken of verwijderen
+  href: edit-follow-up.md
+- name: Vervolgactiviteit verplaatsen
+  href: move-follow-up.md
+- name: Volledige opvolging
+  href: change-completed-status.md
+- name: Andere agenda's bekijken
+  href: other-diaries.md
+- name: Groepsweergave
+  href: group-view.md
+- name: Een vervolgactiviteit aan iemand toewijzen
+  href: follow-up-assign.md
+- name: Alarm instellen voor vervolgactiviteit
+  href: set-alarm.md
+- name: Een vervolgactiviteit per e-mail verzenden
+  href: send-as-email.md
+- name: Herhalen
+  href: recurrence/toc.yml
+  topicHref: recurrence/index.md
 - name: Uitnodigingen
   href: invitation/toc.yml
   topicHref: invitation/index.md

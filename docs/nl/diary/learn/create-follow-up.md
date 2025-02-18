@@ -1,12 +1,15 @@
 ---
 uid: help-nl-follow-up-create
-title: "Vervolgactiviteiten toevoegen"
-description: "Vervolgactiviteiten toevoegen of kopiëren"
+title: Vervolgactiviteiten toevoegen
+description: Vervolgactiviteiten toevoegen of kopiëren
+keywords: agenda, vervolgactiviteit, bellen, telefoongesprek, telefoon, vergadering, taak, afspraak
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: agenda, vervolgactiviteit, bellen, telefoon, vergadering, tak
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -18,7 +21,7 @@ Het maken van Vervolgactiviteiten en het plannen van alle vergaderingen en activ
 
 Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt overal in SuperOffice CRM en voor alle soorten vervolgactiviteiten.
 
-1. Klik op **Nieuw** in de bovenste balk en selecteer **Vergadering/Afspraak**, **Vervolgactiviteit/Telefoongesprek** of **Taak**.
+1. Klik op **Nieuw** in de bovenste balk en selecteer **Vergadering**, **Vervolgactiviteit** of **Taak**.
 
 2. [Geef de juiste gegevens op in de velden.](#fields)
 
@@ -37,7 +40,7 @@ Er zijn veel manieren om een vervolgactiviteiten te maken. Deze methode werkt ov
 ### <a id="fields"></a>Hoe informatie in te voeren
 
 > [!NOTE]
-> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icoon][img4] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
+> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
 Als uw SuperOffice [tijdzones][9] heeft ingeschakeld, kunt u de tijdzone selecteren waarin de opvolging zal worden gemaakt. De tijdzones worden weergegeven per land, en u kunt zowel op land als op stad direct in het veld Tijdzone zoeken.
 
@@ -77,7 +80,7 @@ Als u **Hele dag** aanvinkt, wordt de tijd van de opvolging ingesteld op de peri
 
 ## Vervolgactiviteiten maken van knop Taak
 
-1. Klik op de![pictogram][img3] knop **Taak** op de persoonskaart.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> op de persoonskaart.
 
     * Om een vergadering te maken, selecteer **Vergadering aanvragen**.
 
@@ -92,7 +95,7 @@ Als u **Hele dag** aanvinkt, wordt de tijd van de opvolging ingesteld op de peri
 * **Om de standaardduur te gebruiken:** Dubbelklik op een tijdsinterval in de agenda, of klik met de rechtermuisknop op een tijd in de agenda en selecteer **Nieuw**.
 
 > [!NOTE]
-> Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om deelnemers automatisch te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
+> Als u de vergadering maakt op het tabblad **Weergave**, kunt u ervoor kiezen om deelnemers automatisch te laten invullen met de leden in de weergave. Als u deze optie wilt instellen, gaat u naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u de voorkeur **Deelnemers uit groepsweergave** in op **Ja**. Klik op **Opslaan**.
 
 ### <a id="associate"></a>Vervolgactiviteit maken voor een medewerker
 
@@ -137,8 +140,5 @@ U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een ande
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

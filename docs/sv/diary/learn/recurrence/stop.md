@@ -2,11 +2,14 @@
 uid: help-sv-recurrence-stop
 title: Stoppa återkommande händelse
 description: Stoppa återkommande händelse
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: kalender, händelse, upprepa, återkomma
+keywords: stoppa upprepning, stoppa repetition, avbryt repetition, mötesserie, återkommande händelse, återkommande möte, kalender, händelse, upprepa, framtida förekomster, återkomma
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -16,10 +19,16 @@ När du stoppar den återkommande händelsen raderas alla förekomster av hände
 
 ## Sluta upprepa (behåll denna instans)
 
-1. Öppna uppföljningen från Dagboken eller på fliken **Aktiviteter**.
-1. Klicka på upprepningssymbolen ![ikon][img1].
-1. Klicka på **Sluta upprepa**.
-1. Klicka på **Spara** i **Uppföljning**-dialogen för att spara alla ändringar.
+1. Öppna händelsen från Kalendern eller fliken **Aktiviteter**.
+
+1. Gör något av följande:
+
+    * Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och välj **Sluta upprepa**.
+    * Klicka på frekvenslänken bredvid <i class="ph ph-arrows-clockwise" aria-label="Upprepa"></i> och klicka sedan på knappen **Sluta upprepa** i dialogrutan som öppnas.
+
+1. Bekräfta åtgärden genom att klicka **Ja** i bekräftelsedialogen.
+
+1. Klicka på **Spara** i **Händelse**-dialogen för att spara dina ändringar.
 
 ## Ta bort denna och alla framtida instanser
 
@@ -30,7 +39,9 @@ Du kan också stoppa en upprepande uppföljning genom att välja den i dagboken 
 3. Välj **Ta bort alla framtida instanser, inklusive denna**.
 4. Klicka på **Ja** för att bekräfta.
 
-## Vad vill du göra nu?
+![Delete repeating follow-up dialog -screenshot][img1]
+
+## Relaterat innehåll
 
 * [Skapa återkommande händelse][1]
 * [Redigera återkommande händelse][2]
@@ -40,4 +51,4 @@ Du kan också stoppa en upprepande uppföljning genom att välja den i dagboken 
 [2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
+[img1]: ../../../../media/loc/en/diary/delete-repeating-fo.png

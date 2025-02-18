@@ -2,15 +2,18 @@
 uid: help-da-follow-up-alarms
 title: Indstilling af alarmer for opfølgning
 description: Sådan indstiller du en alarm til opfølgning i SuperOffice.
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbog, opfølgning, alarm, notifikation
+keywords: indstil alarm, ingen alarm, opfølgning, møde, alarm, notifikation, påmindelse, advarsel, dagbog
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Indstilling af alarmer for opfølgninger
+# Indstilling af alarmer for opfølgninger <i class="ph ph-bell" aria-hidden="true"></i>
 
 SuperOffice CRM kan minde dig inden starten af dit møde. Ved den indstillede ledetid vises en systemmeddelelse på din enhed.
 

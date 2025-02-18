@@ -2,15 +2,18 @@
 uid: help-sv-follow-up-alarms
 title: Ställa in alarm för händelser
 description: Så ställer du in ett alarm för en händelse i SuperOffice.
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: kalender, händelse, alarm, avisering
+keywords: ställ in alarm, inget alarm, händelse, möte, alarm, avisering, påminnelse, varning, kalender
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Ställa in alarm för händelser
+# Ställa in alarm för händelser <i class="ph ph-bell" aria-hidden="true"></i>
 
 SuperOffice CRM kan påminna dig innan ditt möte börjar. Vid den angivna ledtiden visas en systemnotis på din enhet.
 
@@ -22,11 +25,11 @@ För videomöten kommer en notis från mötessystemleverantören (som Microsoft 
 
 [!include[Recurrence](includes/note-repetition.md)]
 
-1. [Öppna eller skapa en uppföljning][1].
+1. [Öppna eller skapa en händelse][1].
 1. Klicka på klockikonet i sidhuvudet och välj en tid.
 1. Klicka på **Spara**.
 
-![Alarm nedrullningslista i uppföljningsdialogens sidhuvud -screenshot][img3]
+![Alarm nedrullningslista i Händelsesdialogrutans sidhuvud -screenshot][img3]
 
 > [!NOTE]
 > Händelsespåminnelser (larm) är inte samma som [aktivitetsnotiser][2], vilka gäller nya eller uppdaterade mötesinbjudningar som visas i meddelandepanelen inuti SuperOffice.

@@ -2,11 +2,14 @@
 uid: help-nl-follow-up-assign
 title: Toegewezen vervolgactiviteit
 description: Een vervolgactiviteit aan iemand toewijzen
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, toewijzen
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -26,7 +29,7 @@ Voorbeelden: Uw collega is op vakantie, maar moet een klant bellen als hij terug
 
 1. [Open of maak een vervolgactiviteit][1].
 
-1. Klik op de knop **Taak** ![pictogram][img1] en selecteer **Toewijzen aan**. Als alternatief kun je de opvolging openen en de naam in het veld **Eigenaar** bijwerken.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> en selecteer **Toewijzen aan**. Als alternatief kun je de opvolging openen en de naam in het veld **Eigenaar** bijwerken.
 
 1. Klik in het dialoogvenster **Toewijzen aan** op de lijst bovenaan om te selecteren welke gebruikers moeten worden weergegeven (historielijst, alle of groepen).
 
@@ -48,6 +51,3 @@ Als de andere persoon de uitnodiging weigert, ontvangt u een melding van uitnodi
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

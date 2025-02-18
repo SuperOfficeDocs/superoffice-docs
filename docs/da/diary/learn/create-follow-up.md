@@ -1,12 +1,15 @@
 ---
 uid: help-da-follow-up-create
-title: "Tilføjelse af opfølgning"
-description: "Tilføje eller kopiere møde, opgave, samtale i SuperOffice"
+title: Tilføjelse af opfølgning
+description: Tilføje eller kopiere møde, opgave, samtale i SuperOffice
+keywords: dagbog, opfølgning, ring til, telefon, møde, aftale, telefonopkal
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbog, opfølgning, ring til, telefon, møde
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -18,7 +21,7 @@ Oprettelse af opfølgninger og planlægning af alle møder og aktiviteter i din 
 
 Der er mange måder at oprette en opfølging på. Denne metode fungerer fra ethvert sted i SuperOffice CRM og for alle typer af opfølgninger.
 
-1. Klik på **Ny** i toplinjen, og vælg **Møde/Aftale**, **Opfølgning/Telefonopkald** eller **Skal udføres/Opgave**.
+1. Klik på **Ny** i toplinjen, og vælg **Møde**, **Opfølgning** eller **Skal udføres/Opgave**.
 
 2. [Indtast de ønskede oplysninger i felterne.](#fields)
 
@@ -37,7 +40,7 @@ Der er mange måder at oprette en opfølging på. Denne metode fungerer fra ethv
 ### <a id="fields"></a>Sådan indtastes information
 
 > [!NOTE]
-> Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![ikon][img4] for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en specifik værdi, som f.eks. et firmanavn.
+> Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en specifik værdi, som f.eks. et firmanavn.
 
 Hvis din SuperOffice har [tidszoner][9] slået til, kan du vælge, hvilken tidszone opfølgningen skal oprettes i. Tidszoner vises efter land, og du kan søge både efter land og by direkte i tidszonefeltet.
 
@@ -77,7 +80,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 
 ## Oprette opfølging fra Opgaveknappen
 
-1. Klik på ![ikonet][img3] knappen **Opgave** på personkortet.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på personkortet.
 
     * For at oprette et møde, vælg **Anmod om møde**.
 
@@ -92,7 +95,7 @@ Hvis du markerer **Hele dagen**, indstilles tidspunktet for opfølgningen til pe
 * **For at bruge standardvarighed:** Dobbeltklik på et klokkeslæt i dagbogen eller højreklik på et klokkeslæt i dagbogen, og vælg **Ny**.
 
 > [!NOTE]
-> Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få deltagere udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til ![ikon][img1] **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
+> Hvis du opretter møtet fra fanen **Oversigt**, kan du vælge at få deltagere udfyldt med medlemmerne i oversigten. Hvis du vil angive denne indstilling, kan du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer** > **Funktioner** og angive præferencen **Deltagere fra gruppeoversigt** til **Ja**. Klik på **Gem**.
 
 ### <a id="associate"></a>Opret møde for en medarbejder
 
@@ -137,8 +140,5 @@ Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgnin
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

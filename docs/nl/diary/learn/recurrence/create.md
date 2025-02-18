@@ -2,11 +2,14 @@
 uid: help-nl-recurrence-set
 title: Plan herhalende vervolgactiviteit
 description: Plan herhalende vervolgactiviteit
+keywords: terugkerende vervolgactiviteit, terugkerende vergadering, terugkerende afspraak, herhaal, herhalen, vergaderfrequentie, vervolgpatroon, vergaderreeks, agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -14,13 +17,11 @@ language: nl
 
 Het instellen van herhaling betekent het plannen van de startdatum van follow-ups in een serie.
 
-[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
-
 ## Stappen
 
 1. [Open of maak een vervolgactiviteit][2].
 
-1. Klik op het herhaalsymbool ![symbool][img1] en kies een van de voorgestelde frequenties. Als geen van de patronen voor jou werkt, kies **Aangepast**.
+1. Klik op <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> en kies een van de voorgestelde frequenties. Als geen van de patronen voor jou werkt, kies **Aangepast**.
 
     ![Vervolgactiviteitendialoog, voorgestelde herhaling -screenshot][img8]
 
@@ -40,6 +41,8 @@ Het instellen van herhaling betekent het plannen van de startdatum van follow-up
 
 1. Klik op **Opslaan** in het **Vervolgactiviteit**-venster om alle wijzigingen op te slaan.
 
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
+
 ## Waarover zou u meer te weten willen komen?
 
 * [Herhalende vervolgactiviteiten bewerken][1]
@@ -51,6 +54,5 @@ Het instellen van herhaling betekent het plannen van de startdatum van follow-up
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

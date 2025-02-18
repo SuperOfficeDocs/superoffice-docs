@@ -2,11 +2,14 @@
 uid: help-sv-follow-up-assign
 title: Delegera händelse
 description: Överföra en händelse till någon annan
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: kalender, händelse, tildela, möte, delegera
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -26,7 +29,7 @@ Exempel: En kollega är på semester men behöver ringa en kund när han/hon kom
 
 1. [Öppna eller skapa en händelse][1].
 
-1. Klicka på knappen **Uppgift** ![ikon][img1] och välj **Tilldela till**. Som ett alternativ kan du öppna uppföljningen och uppdatera namnet i fältet **Ägare**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> och välj **Tilldela till**. Som ett alternativ kan du öppna uppföljningen och uppdatera namnet i fältet **Ägare**.
 
 1. Klicka på listan högst upp i dialogrutan **Tilldela till** för att välja vilka användare som ska visas (historiklista, alla eller grupper).
 
@@ -48,6 +51,3 @@ Om den andra personen avvisar inbjudan får du en Inbjudan avvisades-avisering.
 [1]: create-follow-up.md
 [2]: create-follow-up.md#associate
 [3]: invitation/accept-decline.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
