@@ -1,11 +1,11 @@
 ---
 uid: help-sv-company-merge
 title: Slå ihop företag
-description: För att du ska kunna vara effektiv när du arbetar med kunder och kontakter är det viktigt att du har en välorganiserad och 'skräpfri' miljö. Det innebär att företag och kontakter som inte används tas bort och att dubbletter av företag och kontakter slås ihop.
-keywords: företag
-author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+description: För att hålla kunddatabasen organiserad och effektiv kan du slå ihop dubbletter av företag eller kombinera poster när ett företag förvärvar ett annat.
+keywords: slå ihop företag, underhåll företag, slå ihop identiska kontakter, företag, dubbletter
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,45 +16,39 @@ language: sv
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Du kan slå ihop dubbletter av företag i databasen. Kontakter och aktiviteter flyttas till målföretaget och källföretaget tas bort.
-
-Om två företag i din kunddatabas har beslutat sig för att gå samman, eller om ett av företagen har köpt det andra företaget, kan du slå ihop företagen till ett företag. Kontakter (och relaterade ärenden), fakturor och registrerade domäner behålls för båda företagen.
+För att hålla kunddatabasen organiserad och effektiv kan du slå ihop dubbletter av företag eller kombinera poster när ett företag förvärvar ett annat. Kontakter, aktiviteter, fakturor, registrerade domäner och andra detaljer flyttas eller slås ihop, och källföretaget tas bort.
 
 ## Steg
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i det övre högra hörnet av företagskortet.
+    Välj **Underhåll företag** > **Slå ihop företag** från menyn.
+    Dialogrutan **Slå ihop företag** öppnas, med källföretaget angivet under **Från**.
 
-1. Välj **Underhåll företag** under ![ikon][img3] knappen **Uppgift** och klicka på **Slå ihop företag**.
-    Dialogrutan **Slå ihop företag** öppnas. Källföretaget finns under **Från**.
-
-1. Under **Till företag** väljer du det företag som ska uppdateras med information från källföretaget. Börja skriva i fältet för att söka efter ett företag. Om du vill byta plats på **Från**- och **Till**-företag klickar du på pilknappen.
+2. I avsnittet **Till företag**, sök efter och välj det företag som ska uppdateras med information från källföretaget.
+   Om du vill byta plats på **Från**- och **Till**-företag klickar du på pilknappen <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
 
     > [!CAUTION]
-    > Kontrollera att du väljer rätt företag i Från-fältet OCH Till-fältet i dialogrutan Slå ihop företag.
+    > Kontrollera att du väljer rätt företag i både **Från**- och **Till**-fälten innan du fortsätter.
 
-1. Under **Detaljinformation om företag och kontakter** kan du markera följande:
+3. Under **Detaljinformation om företag och kontakter**, välj ett eller båda av följande alternativ:
 
-    * Slå ihop identiska kontakter. Om du väljer det här alternativet slås kontakter med identiska namn ihop.
+    * **Slå ihop identiska kontakter:** Kontakter med *exakt* samma förnamn, mellannamn och efternamn slås ihop.
+    * **Ersätt tomma fält med värden från källföretaget:** Tomma fält i målföretaget uppdateras med data från källföretaget.
 
-        Namnen måste vara HELT identiska (förnamn, mellannamn och efternamn) för att programmet ska slå ihop dem.
+4. Klicka på **Slå ihop**. Följande sker:
 
-    * **Ersätt tomma fält...**. Om du väljer det här alternativet uppdateras tomma datafält för **Till**-företaget med data från **Från**-företaget.
-
-1. Klicka på **Slå ihop**. Följande sker:
-
-    * Företagen slås ihop.
-    * Kontakter flyttas eller slås ihop.
-    * Alla aktiviteter flyttas.
-    * Projektmedlemskap och medlemskap i statiska urval följer företaget.
-    * Alla detaljer slås ihop om du har valt **Ersätt tomma fält...**.
+    * Kontakter (och relaterade ärenden) flyttas eller slås ihop.
+    * Aktiviteter flyttas.
+    * Projektmedlemskap och medlemskap i statiska urval följer målföretaget.
+    * Tomma fält uppdateras om du har valt **Ersätt tomma fält...**.
     * Källföretaget tas bort.
 
-![Dialogrutan Slå ihop företag -screenshot][img4]
+![Dialogrutan Slå ihop företag med fält för att välja käll- och målföretag, alternativ för att slå ihop identiska kontakter, ersätta tomma fält och en sammanfattning av åtgärder som utförs. -screenshot][img4]
 
 > [!TIP]
 > Du kan också slå ihop företag i dynamiska och statiska urval.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Slå ihop kontakter][2]
 
@@ -62,5 +56,4 @@ Om två företag i din kunddatabas har beslutat sig för att gå samman, eller o
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png
