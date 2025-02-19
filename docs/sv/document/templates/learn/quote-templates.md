@@ -118,7 +118,7 @@ Inom gruppen (mellan TableStart och TableEnd), kan du lägga till fält som är 
 
 För att ändra ordningen på offertlinjer, använd **OrderBy** taggen, med en linje-nivå suffix. Till exempel, `OrderBy:name` sorterar produkter alfabetiskt efter namn, och `OrderBy:vatInfo` sorterar produkter efter momsstatus. Endast en nivå av sortering stöds.
 
-### <a id ="culture" />Formatering av numeriska och datumfält
+### <a id ="culture"></a>Formatering av numeriska och datumfält
 
 Numeriska och datumfält kan formateras för att matcha de valda språk/kulturinställningarna (påverkar visningsordning och separatorer):
 

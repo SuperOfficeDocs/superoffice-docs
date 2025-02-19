@@ -37,7 +37,7 @@ Denna integration gör att du kan lagra alla dokument och e-postmeddelanden i Sh
 > [!NOTE]
 > Innan du kan starta den här konfigurationen måste du ställa in webbplats- och biblioteksbehörigheter i SharePoint. Alla användare måste autentisera sig med Microsoft 365.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Om SuperOffice molndokumentintegrationer][2]
 * [Krav för SharePoint dokumentbibliotek][3]

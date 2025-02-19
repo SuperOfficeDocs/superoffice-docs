@@ -4,12 +4,12 @@ title: Anpassa orderbekräftelsemall
 description: Anpassa orderbekräftelsemall
 keywords: dokumentmall, dokument, mall, offert, orderbekräftelse
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: tutorial
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Anpassa orderbekräftelsemall
@@ -101,9 +101,9 @@ För att säkerställa att dina ändringar reflekteras korrekt, följ dessa steg
 3. Klicka på **Registrera order** om du inte redan har gjort det.
 4. I dialogrutan **Redigera offert**, klicka **Visa bekräftelse**. Orderbekräftelsen öppnas som en PDF-fil.
 5. Kontrollera orderbekräftelsen:
-   * Se till att allt tabellinnehåll visas korrekt, utan att siffror delas över två rader.
-   * Kontrollera att inga fältnamn visas i dokumentet; om de gör det kan du ha använt felaktiga fältnamn.
-   * Bekräfta att alla infogade fält är närvarande. Saknade fält kan indikera att de nödvändiga uppgifterna inte är tillgängliga i offerten eller produkten.
+    * Se till att allt tabellinnehåll visas korrekt, utan att siffror delas över två rader.
+    * Kontrollera att inga fältnamn visas i dokumentet; om de gör det kan du ha använt felaktiga fältnamn.
+    * Bekräfta att alla infogade fält är närvarande. Saknade fält kan indikera att de nödvändiga uppgifterna inte är tillgängliga i offerten eller produkten.
 6. Gör eventuella nödvändiga justeringar av mallen och spara den.
 7. Granska orderbekräftelsen igen för att säkerställa att alla ändringar visas korrekt.
 
@@ -144,7 +144,7 @@ Efter att grupperingsområdet har definierats kommer produkterna också att sort
 
 1. Spara malldokumentet och verifiera enligt beskrivningen ovan.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Skapa ett malldokument][2]
 * [Mallvariabelreferens][3]
