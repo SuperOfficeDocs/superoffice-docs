@@ -2,10 +2,10 @@
 uid: help-sv-marketing-add-images
 title: Lägga till bilder
 description: Lägga till bilder
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Marknadsföring
-topic: help
+author: SuperOffice RnD
+date: 02.25.2025
+topic: howto
 language: sv
 ---
 
@@ -17,7 +17,7 @@ language: sv
 
     [Hur skapar jag en utskicksmapp?][2]
 
-3. Klicka på ![ikonen][img1] **Lägg till**-knappen. Du kommer då till skärmen **Egenskaper för bild**.
+3. Klicka på **Lägg till**-knappen (<i class="ph ph-plus" aria-hidden="true"></i>). Du kommer då till skärmen **Egenskaper för bild**.
 
 4. Ange ett beskrivande namn för bilden i fältet **Namn**.
 
@@ -39,6 +39,3 @@ language: sv
 <!-- Referenced links -->
 [1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

@@ -4,7 +4,7 @@ title: Definiera länkningsåtgärder
 description: I den här guiden lär du dig hur du använder länkar i utskick för att automatisera åtgärder.
 keywords: Marknadsföring, utskikt, länkåtgärd, automatisera
 author: Bergfrid Dias
-date: 11.19.2024
+date: 02.25.2025
 version: 10.3.12
 topic: howto
 audience: person
@@ -86,7 +86,7 @@ Aktivera denna funktion genom att välja **Uppföljning**.
 > [!TIP]
 > Som beskrivning, ange vilken utskick den avser, vilken länk mottagaren klickade på och eventuellt hur uppgiften eller mötet ska följas upp.
 >
-> När du ställer in **Skapad av** eller **Standardmottagare** kan du klicka på knappen **Välj aktiv användare** ![ikonen][img1] för att välja dig själv.
+> När du ställer in **Skapad av** eller **Standardmottagare** kan du klicka på knappen **Välj aktiv användare** (<i class="ph ph-user-circle" aria-hidden="true"></i>) för att välja dig själv.
 
 ## <a id="request"></a>Ärende
 
@@ -104,12 +104,11 @@ Variabler tillgängliga i skriptet inkluderar custId, linkId, shipmentId, linkUr
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

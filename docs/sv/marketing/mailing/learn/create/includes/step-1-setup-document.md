@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Om du vill visa och skriva ut ett befintligt dokumentutskick stänger du steget **Konfiguration** (klicka på **Avbryt** eller **Spara + stäng**). Välj fliken **Utskick**, leta rätt på dokumentet, klicka på ![ikon][img1] och välj **Visning**. Klicka på knappen under **Hämta genererat dokument**. Dokumentet hämtas då till webbläsaren. Öppna och skriv ut dokumentet.
+> Om du vill visa och skriva ut ett befintligt dokumentutskick stänger du steget **Konfiguration** (klicka på **Avbryt** eller **Spara + stäng**). Välj fliken **Utskick**, leta rätt på dokumentet, klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> och välj **Visning**. Klicka på knappen under **Hämta genererat dokument**. Dokumentet hämtas då till webbläsaren. Öppna och skriv ut dokumentet.
 
 Med arbetsflödet för dokumentutskick kan du generera ett PDF-dokument som ska skrivas ut och skicka det till dina kunder. Det första steget för att skapa ett dokumentutskick är att **konfigurera** utskicket. Här kan du ställa in utskickets namn, ange rubriken och Obs!-texten i dokumentet och ställa in olika arkiveringsalternativ för utskicket.
 
@@ -45,6 +45,3 @@ Du kan koppla dokumentutskicket till en specifik försäljning. Det kan vara rel
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

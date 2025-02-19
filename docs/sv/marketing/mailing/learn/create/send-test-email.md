@@ -2,9 +2,9 @@
 uid: help-sv-mailing-send-test
 title: Testa utskick genom att skicka ett testmejl
 description: I den här guiden förklarar vi hur du skickar ett testutskick.
-author: SuperOffice RnD
-date: 02.20.2023
 keywords: Marknadsföring
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -42,11 +42,10 @@ När du testar ett utskick är det viktigt att du kontrollerar följande:
 När du har skickat ett testutskick måste du nollställa räknarna för länkarna i meddelandet. Annars kommer listan att inkludera de klick på länkarna som du och andra personer gjorde under testet.
 
 1. Gå till fliken **Spårade länkar**
-2. Klicka på menyknappen ![ikon][img1] bredvid den aktuella länken och välj **Nollställ**. Kolumnen **Klick** sätts då på **0**. Informationen om vilka kunder som klickat på länken tas också bort.
+2. Klicka på menyknappen bredvid den aktuella länken och välj **Nollställ**. Kolumnen **Klick** sätts då på **0**. Informationen om vilka kunder som klickat på länken tas också bort.
 
 <!-- Referenced links -->
 [1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png
 [img2]: ../../../../../media/loc/en/marketing/test-mailing.png

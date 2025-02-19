@@ -4,12 +4,12 @@ title: Marknadsföringsautomatisering - flöden
 description: Introduksjon til SuperOffice marknadsföringsautomatisering og flöden.
 keywords: flöde, marknadsföringsautomatisering, kundsegment, kundresa, kampanj, framgångskriterier, segmentera, flödespanel, Marketing premium, flödesadministratör
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
+date: 02.25.2025
 version: 10.3.9
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Marknadsföringsautomatisering - flöden
@@ -74,7 +74,7 @@ Välj mellan lista eller tiles **vy-läge** i det nedre högra hörnet.
 
 | Ikon | Läge | Beskrivning |
 |:-:|---|---|
-| ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på menynknappen ![ikon][img3] för att öppna, redigera, kopiera eller radera flödet. |
+| ![ikon][img9] | Tile (miniatyr) | Visar en miniatyr av varje flöde med viktig data. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> för att öppna, redigera, kopiera eller radera flödet. |
 | ![ikon][img8] | Lista (arkiv, rutnät) | Visar en lista över alla flöden med information presenterad i kolumner. Du kan gruppera, filtrera och anpassa kolumnerna liknande kolumner i [detaljkorten][12]. Högerklicka för att öppna snabbmenyn för att öppna, redigera, kopiera eller radera flödet. |
 
 ## <a id="view"></a>Skärmen Flöde
@@ -156,6 +156,5 @@ Det är tillrådligt för de flesta automatiserade flöden att sätta framgångs
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img3]: ../../../../media/icons/btn-menu.png
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png

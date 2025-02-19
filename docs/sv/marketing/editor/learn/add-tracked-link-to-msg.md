@@ -4,7 +4,7 @@ title: Inkludera länkar som du vill kunna spåra
 description: Det finns två sätt att konfigurera dina länkar. Du kan antingen använda en förinställd spårad länk för att spåra klick från flera utskick eller skapa en ny länk som bara är tillgänglig i detta utskick. Läs om hur du lägger till en spårad länk i den här guiden.
 keywords: Marknadsföring
 author: SuperOffice RnD
-date: 11.19.2024
+date: 02.25.2025
 version: 10.3.12
 topic: howto
 audience: person
@@ -28,7 +28,7 @@ Genom att konfigurera länkar som leder läsare till olika innehåll på din web
 
     * Lägga till en befintlig spårad länk:
 
-      * Text: Klicka på ![ikon][img1] i verktygsfältet, välj **Speciallänkar** > **Spårade länkar** och välj en länk.
+      * Text: Klicka på <i class="ph ph-link" aria-label="Insert/edit link"></i> i verktygsfältet, välj **Speciallänkar** > **Spårade länkar** och välj en länk.
       * Bild: I sidopanelen (under **Åtgärd**), väljer du **Speciallänkar** > **Spårade länkar** och väljer en länk.
 
     * För att [skapa en ny spårad länk][5] klickar du på **Skapa ny spårad länk** längst ner i fönstret. Dialogrutan **Länkegenskaper** öppnas.
@@ -37,11 +37,11 @@ Genom att konfigurera länkar som leder läsare till olika innehåll på din web
 
 ## Tips
 
-Du kan lägga till vanliga (ospårade) länkar. För textlänkar, klicka på ![ikonen][img1] i verktygsfältet. För bildlänkar, använd fältet **Bild-URL** i sidopanelen.
+Du kan lägga till vanliga (ospårade) länkar. För textlänkar, klicka på <i class="ph ph-link" aria-label="Insert/edit link"></i> i verktygsfältet. För bildlänkar, använd fältet **Bild-URL** i sidopanelen.
 
 Om du senare beslutar dig för att också spåra dessa länkar, välj alternativet **Spåra alla länkar** under **Spårning** i Steg 1: Konfiguration. Dessa länkar spåras dock endast för det aktuella utskicket och kommer inte att vara tillgängliga för andra utskick eller i flöden.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Skapa spårade länkar][5]
 * [Definiera länkningsåtgärder][6]
@@ -57,5 +57,4 @@ Om du senare beslutar dig för att också spåra dessa länkar, välj alternativ
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

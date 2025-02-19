@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.09.2024
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Skapa en mållista
@@ -61,7 +61,7 @@ Att tänka på när du vill segmentera databasen:
 
 ![Kontrollera vad en kontaktperson är intresserad av på fliken Intresse på kontaktkortet -screenshot][img1]
 
-## <a id ="selections" />Urval som mållistor
+## <a id ="selections"></a>Urval som mållistor
 
 Använd urval för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
 

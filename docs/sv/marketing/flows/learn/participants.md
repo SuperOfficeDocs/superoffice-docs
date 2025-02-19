@@ -4,12 +4,12 @@ title: Flödesdeltagare
 description: Flödesdeltagare
 keywords: flöde, flödesdeltagare, deltagar, deltagarlistan, deltagarstatus, slutförd, bortfall, framgångsgrad, framgångskriterier
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
+date: 02.25.2025
 version: 10.3.7
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Flödesdeltagare
@@ -25,7 +25,7 @@ För att visa listan över deltagare för ett specifikt flöde:
 
 ![Deltagarlistan för flödet -screenshot][img1]
 
-Använd kugghjulet ![ikon][img4] i listans header för att anpassa kolumnerna.
+Använd kugghjulet (<i class="ph ph-gear" aria-hidden="true"></i>) i listans header för att anpassa kolumnerna.
 
 ![Deltagarlistan för flödet, anpassa kolumner -screenshot][img2]
 
@@ -83,4 +83,3 @@ I en delning följer deltagare den första (vänstermost) grenen där de uppfyll
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

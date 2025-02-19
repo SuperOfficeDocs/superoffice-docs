@@ -4,7 +4,7 @@ title: Spårade länkar
 description: En länk som du inkluderar i ett utskick kan användas för att spåra svar från dina befintliga och potentiella kunder. När mottagarna av ditt utskick klickar på länken utförs en åtgärd. 
 keywords: Marknadsföring, sporade länker
 author: SuperOffice RnD
-date: 11.19.2024
+date: 02.25.2025
 version: 10.3.12
 topic: howto
 audience: person
@@ -38,10 +38,10 @@ På fliken **Spårade länkar** har du följande alternativ:
 
 | Ikon | Alternativ | Läs mer |
 |:-:|---|---|
-| ![ikon][img2] | Lägga till | [Skapa en ny länk][1], [Definiera länkningsåtgärder][7] |
-| ![ikon][img3] | Lägg till mapp | [Skapa en mapp][5] för dina länkar |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Lägga till | [Skapa en ny länk][1], [Definiera länkningsåtgärder][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Lägg till mapp | [Skapa en mapp][5] för dina länkar |
 | Länk | Klicka på en länk om du vill öppna skärmen **Visa länk**. | [Jobba med spårade länkar efter utskicket][2] |
-| ![ikon][img1] | Meny | Klicka på menyknappen bredvid en länk för att få tillgång till fler alternativ. |
+| <i class="ph ph-list" aria-label="Task menu"></i> | Meny | Klicka på menyknappen bredvid en länk för att få tillgång till fler alternativ. |
 
 Menyalternativ:
 
@@ -111,7 +111,4 @@ Google Analytics-funktionen i SuperOffice Marknadsföring identifierar dina utsk
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

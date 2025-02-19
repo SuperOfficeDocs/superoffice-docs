@@ -1,15 +1,15 @@
 ---
 uid: help-sv-marketing-message-templates
 title: Arbeta med meddelandemallarna
-description: "Att skapa en huvudmall (företag) är det bästa sättet att se till att alla dina utskick ser bra ut, har samma design och representerar ditt varumärke."
+description: Att skapa en huvudmall (företag) är det bästa sättet att se till att alla dina utskick ser bra ut, har samma design och representerar ditt varumärke.
 keywords: marknadsföring, meddelandemall
 author: SuperOffice RnD
-date: 02.07.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Arbeta med meddelandemallarna
@@ -59,7 +59,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 
 3. Om det behövs använder du sökfältet för att hitta en viss mall.
 
-4. Klicka på ![ikon][img1] menyknappen bredvid den mall som du vill använda.
+4. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen bredvid den mall som du vill använda.
 
 5. Välj **Skapa utskick**. Mallen öppnas i [utskicksguiden][1].
 
@@ -93,7 +93,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 
 1. Gå till fliken **Meddelandemallar**.
 
-2. Klicka på ![ikon][img2] **Lägg till SMS**. Skärmen **Redigera mall** visas.
+2. Klicka på **Lägg till SMS**. Skärmen **Redigera mall** visas.
 
 3. Ange ett beskrivande namn på mallen i fältet **Namn**.
 
@@ -104,7 +104,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 ## Skapa en mall utifrån ett befintligt utskick
 
 1. Gå till fliken **Utskick**.
-2. Klicka på ![ikon][img1] menyknappen bredvid det utskick som du vill använda som utgångspunkt för mallen.
+2. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen bredvid det utskick som du vill använda som utgångspunkt för mallen.
 3. Välj **Kopiera till mall**.
 4. Ange i fönstret **Redigera mall** ett beskrivande namn på mallen i fältet **Namn**.
 5. Klicka eventuellt på **Mapp** för att välja en mapp för mallen.
@@ -113,7 +113,7 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 ## Skapa en mall utifrån en befintlig mall (kopia)
 
 1. Gå till fliken **Meddelandemallar**.
-2. Klicka på ![ikon][img1] menyknappen bredvid den mall som du vill använda.
+2. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> menyknappen bredvid den mall som du vill använda.
 3. Välj **Gör en kopia**.
 4. Ange i fönstret **Redigera mall** ett beskrivande namn på mallen i fältet **Namn**.
 5. Gör de ändringar som behövs och klicka sedan på **OK**.
@@ -134,6 +134,4 @@ Förutom mallarna som skapats av dig och dina kolleger, har du tillgång till en
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Lägga in bilder i meddelandet

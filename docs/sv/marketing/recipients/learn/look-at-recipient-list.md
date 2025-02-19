@@ -4,12 +4,12 @@ title: Jobba med mottagarlistan efter utskicket
 description: Jobba med mottagarlistan efter utskicket
 keywords: Marknadsföring, mottagare
 author: SuperOffice RnD
-date: 02.09.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Titta på mottagarlistan efter utskicket
@@ -26,7 +26,7 @@ SuperOffice Marknadsföring samlar in data om statusen för varje skickat e-post
 
 2. I fönstret **Visa utskick** klickar du på fliken **Mottagare**.
 
-    Listan visar de 100 första mottagarna. Klicka på ![ikon][img1] för att visa nästa 100.
+    Listan visar de 100 första mottagarna. Klicka på <i class="ph ph-arrow-right" aria-label="Arrow right"></i> för att visa nästa 100.
 
 3. [Filtrera listan](#filters) med kryssrutorna längst ned i listan.
 
@@ -69,7 +69,7 @@ Om statusen är **Redo att skicka** behöver du inte göra något. SuperOffice s
 Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klickare i ett urval eller projekt.
 
 > [!NOTE]
-> Endast kontakter som redan är registrerade i SuperOffice-databasen läggs till i urvalet eller projektet. En kontaktikon ![ikon][img3] i kolumnen **Typ** anger att en kontakt är registrerad i SuperOffice-databasen. Mottagare som har importerats från externa listor registreras normalt inte.
+> Endast kontakter som redan är registrerade i SuperOffice-databasen läggs till i urvalet eller projektet. En kontaktikon (<i class="ph ph-user-circle" aria-hidden="true"></i>) i kolumnen **Typ** anger att en kontakt är registrerad i SuperOffice-databasen. Mottagare som har importerats från externa listor registreras normalt inte.
 
 ### Lägga till klickare i ett nytt urval eller projekt
 
@@ -90,7 +90,7 @@ Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klicka
 
 Öppna urvalet eller projektet och kontrollera att kontakterna lades till.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Jobba med spårade länkar efter utskicket][1]
 
@@ -101,6 +101,4 @@ Med hjälp av **Åtgärder** menyknappen kan du lägga till mottagare och klicka
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

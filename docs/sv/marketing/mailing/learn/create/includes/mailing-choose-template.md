@@ -12,7 +12,7 @@ När du har kommit fram till vilken design du vill använda kan du välja vilken
 
 1. Välj en mall på ett av följande sätt:
     * Välj en av de tillgängliga flikarna (**Online-mallbibliotek**, **Senaste mallarna**, **Alla mallar**, osv.) för att visa tillgängliga utskick eller mallar som du kan basera ditt nya utskick på.
-    * Ange en sökfras i **Sök mallar** och tryck sedan på **ENTER** eller klicka på sökikonen ![ikon][img1].
+    * Ange en sökfras i **Sök mallar** och tryck sedan på **ENTER** eller klicka på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. I listan nedanför kan du sedan välja en mall genom att klicka på mallen.
 
@@ -25,5 +25,4 @@ När du har kommit fram till vilken design du vill använda kan du välja vilken
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

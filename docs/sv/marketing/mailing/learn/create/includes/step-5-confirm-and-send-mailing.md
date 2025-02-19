@@ -21,7 +21,7 @@ För att inte överbelasta servrarna under arbetstid kan det vara en bra idé at
 
 1. Klicka på **Schema**.
 2. Under **Schemalägg att skicka**, välj ett av följande alternativ:
-    * Klicka på **Välj datum** ![ikon][img3] och välj det datum och klockslag som utskicket ska starta.
+    * Klicka på **Välj datum** (<i class="ph ph-calendar-blank" aria-hidden="true"></i>) och välj det datum och klockslag som utskicket ska starta.
     * Klicka på **Ange som nuvärde** om du vill infoga dagens datum och aktuellt klockslag.
 3. Klicka på **OK**. Arbetsflödet stängs och du kommer tillbaka till fliken **Utskick**.
 
@@ -35,5 +35,4 @@ Om du vill stoppa utskicket eller starta ett schemalagt utskick före den planer
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

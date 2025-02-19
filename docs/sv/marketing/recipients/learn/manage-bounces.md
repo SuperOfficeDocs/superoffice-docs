@@ -4,12 +4,12 @@ title: Blockerade e-postadresser
 description: Lär dig hur du hanterar returnerade e-postmeddelanden i den här guiden.
 keywords: Marknadsföring
 author: SuperOffice RnD
-date: 02.09.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Hantera studsar
@@ -46,7 +46,7 @@ Använd filterknapparna (Skickat, Returnerat och Öppnat) för att filtrera [mot
 
 1. Välj e-postmeddelandet i listan och klicka på **Öppna** i sidopanelen för att redigera kontakten.
 2. Gå till fliken **Detaljer**.
-3. En varningsikon ![ikon][img1] bredvid e-postadressen indikerar att det finns ett problem med denna. Håll muspekaren över ikonen för att visa orsaken till problemet.
+3. En varningsikon (<i class="ph ph-warning" aria-hidden="true"></i>) bredvid e-postadressen indikerar att det finns ett problem med denna. Håll muspekaren över ikonen för att visa orsaken till problemet.
 
 > [!TIP]
 > Klicka på en kolumn för att komma åt sorterings- och grupperingsfunktionerna.
@@ -129,5 +129,4 @@ Använd det här alternativet för att ange en kontakt som tidigare anställd.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png

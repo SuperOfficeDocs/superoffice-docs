@@ -4,22 +4,24 @@ title: Skapa nytt formulär
 description: Lär dig hur du kan skapa ett webbformulär i den här instruktionsguiden.
 keywords: formulär, webbformulär, anmäl dig
 author: SuperOffice RnD
-date: 03.13.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Skapa nytt formulär
 
 Webbformulär gör det lättare att interagera med befintliga och potentiella kunder via din webbplats eller kundcenter. Du har tre alternativ: skapa ett formulär från grunden, skapa och använda en anpassad formulärmall eller välj en gratis mall från **Online Template Library** i SuperOffice Marketing.
 
-Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa ett webbformulär (videons längd: 7:49).
+Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa ett webbformulär.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(videons längd: 7:49)
 
 ## Skapa nytt (från grunden)
 
@@ -36,7 +38,7 @@ Titta på den här filmen eller följ anvisningarna nedan om hur du kan skapa et
 
 1. Välj fliken **Formulärmallar**.
 2. Klicka på **Alla mallar**.
-3. Klicka på ![ikonen][img1] menyknapp bredvid den mall som du vill använda.
+3. Klicka på <i class="ph ph-list" aria-label="menyknapp"></i> bredvid den mall som du vill använda.
 4. Välj **Kopiera till nytt formulär**. Mallen öppnas i dialogrutan **Redigera formulär**.
 5. [Aktivera och publicera formuläret][2].
 
@@ -46,7 +48,7 @@ För att öka användarvänligheten och underlätta läsbarheten kan du övervä
 
 1. Skapa ett formulär enligt beskrivningen ovan.
 2. Välj **Fält** från vänstermenyn (i dialogrutan).
-3. Klicka på knappen **Lägg till** ![ikon][img2].
+3. Klicka på knappen **Lägg till** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I fönstret **Lägg till post** väljer du **Visa poster**.
 5. Välj **Avsnitt** och klicka på **Lägg till**. Fönstret stängs och ett avsnitt läggs till i formuläret. Du kan också se avsnittet i förhandsgranskningen av formuläret.
 6. Klicka på ![ikon][img3] längst upp i avsnittet och dra den till önskad position i formuläret. Fälten ovanför och under avsnittet visas på två olika sidor i formuläret.
@@ -83,7 +85,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 1. Välj **Fält** från vänstermenyn. Fältet **Kontakt – namn** och knappen **OK** har lagts till som standard i det nya formuläret.
 
-2. Klicka på knappen **Lägg till** ![ikon][img2].
+2. Klicka på knappen **Lägg till** (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. Välj en av följande fältkategorier i fönstret **Lägg till post**:
 
@@ -107,7 +109,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
     * Markera kryssrutan **Obligatoriskt** om fältet måste fyllas i. Formuläret kan inte skickas om obligatoriska fält inte är ifyllda.
 
-    * Klicka på **Avancerat** ![ikon][img5] om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet. Detta blir ett unikt ID för fältet och ändras inte även om fältnamnet/etiketten eller språket ändras. På så sätt kan du vara säker på att länkar till fältet inte är brutna när formuläret har publicerats.
+    * Klicka på **Avancerat** (<i class="ph ph-gear" aria-hidden="true"></i>) om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet. Detta blir ett unikt ID för fältet och ändras inte även om fältnamnet/etiketten eller språket ändras. På så sätt kan du vara säker på att länkar till fältet inte är brutna när formuläret har publicerats.
 
     * Klicka på kryssrutan **Full bredd** om du vill att det markerade fältet ska ha samma bredd som formuläret.
 
@@ -115,7 +117,7 @@ I kategorin **Fält** lägger du till fälten som ska finnas med i formuläret. 
 
 10. Klicka på **Använd nu** när du är klar.
 
-11. Upprepa steg 2–10 om du vill lägga till fler fält. Du kan också klicka på **Duplicera fält** ![ikon][img6] om du vill skapa en kopia av ett fält.
+11. Upprepa steg 2–10 om du vill lägga till fler fält. Du kan också klicka på **Duplicera fält** (<i class="ph ph-copy" aria-hidden="true"></i>) om du vill skapa en kopia av ett fält.
 
 ### Stil
 
@@ -149,7 +151,7 @@ Titta på den här filmen eller följ stegen nedan för att lära dig hur du anv
 
     3. **Bekräftelsetext**: Ange brödtexten i e-postmeddelandet.
 
-    4. Välj **Lägg in bekräftelselänk** ![ikon][img9] från verktygsfältet (klicka ![ikon][img7] för att visa). Bekräftelselänken infogas i brödtexten. Om du vill redigera länken klickar du på den och väljer **Redigera länk** ![ikon][img8].
+    4. Välj **Lägg in bekräftelselänk** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) från verktygsfältet (klicka <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i> för att visa). Bekräftelselänken infogas i brödtexten. Om du vill redigera länken klickar du på den och väljer **Redigera länk** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 4. Klicka på **Använd nu** när du är klar.
 
@@ -164,10 +166,12 @@ När en person slutför och lämnar in ett formulär ska du tacka dem och tala o
 
 Använd "Tack"-sidan för att marknadsföra andra produkter eller evenemang och länka till relevanta delar av din webbplats. Detta förbättrar användarupplevelsen och främjar kundlojalitet.
 
-Titta på den här filmen eller följ stegen nedan för att lära dig hur du lägger till en "Tack"-sida i ditt webbformulär (videons längd: 1:48).
+Titta på den här filmen eller följ stegen nedan för att lära dig hur du lägger till en "Tack"-sida i ditt webbformulär.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
+
+(videons längd: 1:48)
 
 Välj något av följande alternativ:
 
@@ -201,12 +205,5 @@ Här kan du [definiera vad som händer när någon skickar in ett svarsformulär
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

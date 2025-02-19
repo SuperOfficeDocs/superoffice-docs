@@ -4,12 +4,12 @@ title: Skapa spårade länkar
 description: Skapa spårade länkar
 author: SuperOffice RnD
 keywords: Marknadsföring
-date: 02.09.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Skapa spårade länkar
@@ -24,7 +24,7 @@ Du kan även skapa nya länkar medan du redigerar innehållet.
 
 2. Tillval: Välj en mapp eller [skapa en ny mapp][2].
 
-3. Klicka på ![ikon][img1] knappen **Lägg till**.
+3. Klicka på knappen **Lägg till**.
 
 4. Ange ett beskrivande **Namn** på länken.
 
@@ -37,6 +37,3 @@ En liten prick på flikarna för länkningsåtgärderna anger vilka länkningså
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

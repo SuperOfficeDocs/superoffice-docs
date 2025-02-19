@@ -4,22 +4,22 @@ title: Redigera ett avsnitt
 description: Redigera ett avsnitt
 keywords: Marknadsföring
 author: SuperOffice RnD
-date: 02.07.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Redigera innehåll
 
-![ikon][img1]
+![Redigera innehåll -screenshot][img1]
 
 > [!TIP]
 > Om du vill redigera globala inställningar och layout för meddelandet väljer du **Brödtext** i sidopanelen. Om du har angett specifika egenskaper för enskilda avsnitt kommer de inte att åsidosättas av globala egenskaper.
 >
-> Använd **Skrivbordet** ![ikon][img3] och **Mobil** ![ikon][img4] överst i sidopanelen för att redigera egenskaper för ulika versioner av meddelandena.
+> Använd **Skrivbordet** (<i class="ph ph-monitor" aria-hidden="true"></i>) och **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) överst i sidopanelen för att redigera egenskaper för ulika versioner av meddelandena.
 
 ## Redigera textinnehåll (textblock) i ett meddelande
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Lägga till spårade länkar i meddelandet][8]. Du kan t.ex. lägga till en länk till en informationssida för en produkt. Du kan skapa en ny länk eller lägga till en befintlig länk.
 
-    Gör så här för att lägga till en vanlig länk (ospårad): Markera en text och klicka på ![ikon][img6] i verktygsfältet. Ange länken i **URL**-fältet.
+    Gör så här för att lägga till en vanlig länk (ospårad): Markera en text och klicka på <i class="ph ph-link" aria-label="Link"></i> i verktygsfältet. Ange länken i **URL**-fältet.
 
 6. Redigera formateringen av texten med hjälp av fält i sidopanelen.
 
@@ -84,7 +84,4 @@ Klicka på **Nästa** om du är klar med redigeringen.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png
