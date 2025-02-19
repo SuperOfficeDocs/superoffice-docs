@@ -4,8 +4,8 @@ title: Försäljningsfliken
 description: Lär dig hur du hanterar och ser försäljningsinformation i detaljkortet Försäljning i SuperOffice CRM, inklusive att lägga till försäljningar, filtrera och spåra försäljningsaktiviteter för företag, kontakter och projekt.
 keywords: Försäljning-fliken, Försäljningsfliken, fliken Försäljning, detaljkortet Försäljning, detaljkort
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ Detaljkortet **Försäljning** innehåller följande kolumner för att visa vikt
 
 | Kolumn | Beskrivning |
 |---|---|
-| Slutförd | Kryssruta som visar om försäljningen är slutförd. En bock i rutan (![ikon][img3]) betyder slutförd, medan en tom ruta betyder att den fortfarande pågår. |
+| Slutförd | Kryssruta som visar om försäljningen är slutförd. En bock i rutan (<i class="ph ph-check" aria-hidden="true"></i>) betyder slutförd, medan en tom ruta betyder att den fortfarande pågår. |
 | Statusikon | Visar den aktuella [statusen för försäljningen][4], t.ex. såld, förlorad eller uppskjuten. |
 | Försäljningsdatum | Datum som är kopplat till försäljningen, kan vara beräknat, sålt eller förlorat datum. |
 | Belopp | Det ekonomiska värdet av försäljningen. |
@@ -59,7 +59,7 @@ Detaljkortet **Försäljning** innehåller följande kolumner för att visa vikt
 
 ### Filtrera försäljningar
 
-Du kan [filtrera listan][8] över försäljningar efter datum, användare eller grupp genom att klicka på **Filter**-knappen (![ikon][img2]). Detta hjälper dig att fokusera på specifika försäljningsaktiviteter som behöver uppmärksamhet.
+Du kan [filtrera listan][8] över försäljningar efter datum, användare eller grupp genom att klicka på **Filter**-knappen (<i class="ph ph-funnel" aria-hidden="true"></i>). Detta hjälper dig att fokusera på specifika försäljningsaktiviteter som behöver uppmärksamhet.
 
 ### Inkludera intressenter
 
@@ -105,16 +105,14 @@ För att lägga till en ny försäljning direkt från Detaljkortet **Försäljni
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/check.png
