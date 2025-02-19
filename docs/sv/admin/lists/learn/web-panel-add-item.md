@@ -2,12 +2,12 @@
 uid: help-sv-adding-items-to-web-panel-list
 title: Lägga till poster i listan Webbpanel
 description: Lägga till poster i listan Webbpanel
-author: SuperOffice RnD
-date: 01.20.2023
 keywords: lista, webbpanel
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -77,7 +77,7 @@ language: sv
 
 ### Meny
 
-* **Verktygsmenyn**: webbadressen visas när användaren klickar på knappen **Verktyg** ![ikon][img1] i navigatorn eller väljer **Andra applikationer** i SuperOffice CRM.
+* **Verktygsmenyn**: webbadressen visas när användaren klickar på knappen **Verktyg** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatorn eller väljer **Andra applikationer** i SuperOffice CRM.
 
 * **Visa**-menyn: webbadressen visas när användaren väljer **Andra applikationer** i SuperOffice CRM.
 
@@ -96,4 +96,3 @@ language: sv
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

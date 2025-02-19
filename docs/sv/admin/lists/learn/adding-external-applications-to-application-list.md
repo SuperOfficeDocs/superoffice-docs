@@ -2,12 +2,12 @@
 uid: help-sv-adding-external-applications-to-application-list
 title: Lägg till externa applikationer i applikationslistan
 description: Lägg till externa applikationer i applikationslistan
+keywords: listan GUI – Applikation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: lista
+date: 02.25.2025
 topic: howto
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -28,7 +28,7 @@ language: sv
 1. Under **Lägg till som** väljer du vad applikationen ska läggas till som:
 
     * **Knapp**: applikationsikonen visas i navigatorn. Användaren kan då öppna applikationen direkt genom att klicka på ikonen i navigatorn.
-    * **Menyval**: användaren får åtkomst till applikationen genom att klicka på knappen **Verktyg** (![ikon][img2]) i navigatorn och/eller välja **Andra applikationer** på huvudmenyn (![ikon][img1]).
+    * **Menyval**: användaren får åtkomst till applikationen genom att klicka på knappen **Verktyg** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatorn och/eller välja **Andra applikationer** på huvudmenyn (<i class="ph ph-list" aria-hidden="true"></i>).
     * **Händelse**: applikationen körs när SuperOffice CRM startas eller avslutas, eller vid lokal uppdatering (Travel). Se steg 8. Du kan till exempel köra ett synkroniseringsprogram för en PDA-dator när SuperOffice CRM stängs.
     * **Uppgift**: välj ett alternativ i den här listrutan om du vill att applikationen ska vara tillgänglig via fliken **Uppgift** i fönstret Urval eller **Uppgift**-knapparna.
 
@@ -69,7 +69,7 @@ language: sv
 
 1. Välj önskat alternativ i listrutan **Visa**. Den här listrutan visas bara om du har valt **Menyval** under **Lägg till som**.
 
-    * **Verktygsmenyn**: Användaren kommer åt applikationen genom att klicka på knappen **Verktyg** (![ikon][img2]) i navigatorn eller välja **Andra applikationer** på huvudmenyn (![ikon][img1]) i SuperOffice CRM.
+    * **Verktygsmenyn**: Användaren kommer åt applikationen genom att klicka på knappen **Verktyg** i navigatorn eller välja **Andra applikationer** på huvudmenyn i SuperOffice CRM.
     * **Visa-menyn**: Användaren kommer åt applikationen via alternativet **Andra applikationer** på **Visa**-menyn i SuperOffice CRM.
 
 1. I listrutan **Kör när** väljer du när applikationen ska köras. Den här listrutan visas bara om du har valt **Händelse** under **Lägg till som**.
@@ -93,9 +93,3 @@ language: sv
 
 > [!NOTE]
 > Användarna måste logga in i SuperOffice CRM igen för att applikationen ska visas.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

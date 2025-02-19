@@ -2,9 +2,9 @@
 uid: help-sv-number-allocation
 title: Nummertilldelning
 description: Nummertilldelning
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: nummer, räknare
+author: Bergfrid Dias
+date: 02.25.2025
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ Högst upp på fliken **Nummertilldelning** finns en tabell som visar alla räkn
 
 | Kolumn | Beskrivning |
 |---|---|
-| \[Icon\] | Visar var räknaren används, till exempel ![ikon][img1] för fönstret Företag. |
+| \[Icon\] | Visar var räknaren används, till exempel <i class="ph ph-buildings" aria-label="Company icon"></i> för fönstret Företag. |
 | Räknare | Visar räknarens namn, till exempel **Företagsnummer**, som tillämpas på fältet **Nummer** i fönstret Företag. |
 | Nästa | Visar nästa värde för räknaren. |
 | Tilldela | Anger om den automatiska räknarfunktionen används så att systemet matar in värden åt dig. |
@@ -66,6 +66,3 @@ Tabellen nedan visar resultaten av olika kombinationer av värdena **Tilldela** 
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

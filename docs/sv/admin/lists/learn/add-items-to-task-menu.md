@@ -5,7 +5,7 @@ description: Lägg till poster i listan Uppgiftsmeny
 author: SuperOffice RnD
 date: 01.11.2023
 keywords: Inställningar och underhåll
-topic: help
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

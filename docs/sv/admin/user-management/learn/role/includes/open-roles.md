@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Klicka på ![ikon][img1] **Roller** i navigatorn.
-
-<!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-admin-roles-active.png
+Klicka på <i class="ph ph-traffic-signal" aria-hidden="true"></i> **Roller** i navigatorn.

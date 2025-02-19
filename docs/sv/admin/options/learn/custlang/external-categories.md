@@ -5,7 +5,7 @@ description: Arbeta med externa kategorier
 author: SuperOffice RnD
 date: 03.29.2023
 keywords: Inställningar och underhåll
-topic: help
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv

@@ -2,9 +2,9 @@
 uid: help-sv-user-group-manage
 title: Hantera användargrupper
 description: Skapa och ta bort användargrupper
-author: Bergfrid Dias
-date: 08.25.2023
 keywords: användargrupp
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,11 +19,11 @@ För att gruppera kollegor tillsammans och ge dem åtkomst till CRM-data baserat
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Klicka på ![ikon][img2] **Listor** i navigatorn (1).
+1. Klicka på <i class="ph ph-list-bullets" aria-hidden="true"></i> **Listor** i navigatorn.
 
     ![Skapa en användargrupp -screenshot][img3]
 
-1. Välj **Allmänt – Användargrupp** i listan (2) och klicka på **+Ny** (3).
+1. Välj **Allmänt – Användargrupp** i listan och klicka på **Ny**.
 
 1. Ange information i dialogrutan. Valfritt, välj en eller flera [ärendekategorier][4] för den här gruppen.
 
@@ -49,10 +49,9 @@ För att gruppera kollegor tillsammans och ge dem åtkomst till CRM-data baserat
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

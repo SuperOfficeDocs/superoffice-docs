@@ -4,7 +4,7 @@ title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
 author: Bergfrid Dias
-date: 12.10.2024
+date: 02.25.2025
 version: 10
 topic: howto
 audience: settings
@@ -28,7 +28,7 @@ Du kan ange behörigheter för [dataobjekt][2] baserat på vem som äger objekte
 
 3. Markera önskad roll i listan **Roller**. Behörigheterna för den valda rollen visas på fliken **Databehörigheter**.
 
-4. Klicka på ![ikon][img3] pilen bredvid den rättighet du vill ändra och välj önskad rättighet.
+4. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid den rättighet du vill ändra och välj önskad rättighet.
 
     | Namn | Behörighet | Inforuta |
     |---|---|---|
@@ -70,6 +70,3 @@ Om dataobjekten (företag, projekt, dokument etc.) ska vara tillgängliga för e
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
 [3]: functional-rights.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

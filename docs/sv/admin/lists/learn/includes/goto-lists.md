@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Klicka på knappen **Listor** i navigatorn (![ikon][img1]).
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-lists-active.png
+Klicka på knappen **Listor** i navigatorn (<i class="ph ph-list-bullets" aria-hidden="true"></i>).

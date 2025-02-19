@@ -2,20 +2,20 @@
 uid: help-sv-preferences
 title: Preferenser
 description: Administratörer kan ange inställningar för olika funktioner i systemet för olika användare och användargrupper eller för hela SuperOffice CRM (globala inställningar).
-author: Bergfrid Dias
-date: 03.21.2023
 keywords: inställningar, inställningar
+author: Bergfrid Dias
+date: 02.25.2025
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Preferenser
+# Preferenser <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 I fönstret Inställningar kan du välja inställningar för hela systemet (globalt), en databas, en användargrupp eller en enskild användare. Inställningar som bara kan göras globalt (på systemnivå) finns på fliken **[Globala inställningar][1]**.
 
-Under **Personliga inställningar** > **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
+Under **Personliga inställningar** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Inställningar** i det övre fältet kan användarna ändra de [individuella inställningarna][4] efter egna önskemål. Vilka inställningar som är tillgängliga för användarna beror på valen under Inställningar och underhåll.
 
 Du kan också konfigurera videomöten på fliken [Videomöten][8] och dokumentbiblioteket på fliken [Dokumentbibliotek][9].
 
@@ -58,7 +58,7 @@ Vissa [inställningar][1] kan bara göras på global nivå:
 
 ### Ändra globala inställningar
 
-Om du vill ändra de här inställningarna går du till fönstret **Inställningar** ![ikon][img1] och väljer fliken **Globala inställningar**.
+Om du vill ändra de här inställningarna går du till fönstret **Inställningar** och väljer fliken **Globala inställningar**.
 
 * De olika inställningarna är indelade i sektioner.
 * Håll muspekaren över en inställning för att visa mer information.
@@ -121,6 +121,3 @@ Du kan sortera raderna i kolumnerna genom att klicka på önskad kolumnrubrik. K
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

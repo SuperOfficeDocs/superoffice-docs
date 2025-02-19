@@ -2,10 +2,12 @@
 uid: help-sv-add-email-template
 title: Lägg till e-postmall
 description: Lägg till e-postmall
+keywords: e-postmall
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -48,9 +50,9 @@ Mallarna visas som objekt i listan **E-post – Mall** och du kan lägga till ny
 
 Ange följande information på fliken **Detaljer**:
 
-1. (valfritt) Redigera namnet på mallen i fältet **Namn**. Du kan också [lägga till mallnamnet på andra språk][1] genom att klicka på ![ikon][img1].
+1. (valfritt) Redigera namnet på mallen i fältet **Namn**. Du kan också [lägga till mallnamnet på andra språk][1] genom att klicka på <i class="ph ph-translate" aria-label="Translate"></i>.
 
-2. Ange e-postmeddelandets rubrik i fältet **Rubrik**. Du kan också [lägga till rubriken på andra språk][1] genom att klicka på ![ikon][img1].
+2. Ange e-postmeddelandets rubrik i fältet **Rubrik**. Du kan också [lägga till rubriken på andra språk][1] genom att klicka på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 3. Välj **Använd signatur i ny e-post** om du vill lägga till din signatur i nya e-postmeddelanden. Om du inte har en personlig signatur används systemsignaturen.
 
@@ -58,9 +60,9 @@ Ange följande information på fliken **Detaljer**:
 
 5. Skriv eventuellt en beskrivning av mallen i fältet **Beskrivning**.
 
-6. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på pilen (![ikon][img2]) och välja i listrutan. Välj **Utgående** om du vill att mallen ska vara tillgänglig i **Inkorg**.
+6. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja i listrutan. Välj **Utgående** om du vill att mallen ska vara tillgänglig i **Inkorg**.
 
-7. Gå till fältet **Syfte**, klicka på pilen (![ikon][img2]) och välj ett av de fördefinierade alternativen i listrutan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][5]).
+7. Gå till fältet **Syfte**, klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välj ett av de fördefinierade alternativen i listrutan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][5]).
 
     > [!TIP]
     > Du kan skapa nya alternativ utöver de fördefinierade genom att lägga till poster i listan **Händelse – Syfte** under Inställningar och underhåll.
@@ -83,15 +85,13 @@ Här kan du lägga till översatta versioner av dokumentmallen.
 5. Upprepa stegen ovan om du vill lägga till fler språk.
 
 > [!TIP]
-> Klicka på ![ikon][img1] bredvid det relevanta fältet om du vill [lägga till översättningar][1] av mallnamnet och e-postrubriken.
+> Klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid det relevanta fältet om du vill [lägga till översättningar][1] av mallnamnet och e-postrubriken.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

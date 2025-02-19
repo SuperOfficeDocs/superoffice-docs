@@ -2,10 +2,12 @@
 uid: help-sv-grouping-items-under-headings
 title: Gruppera poster under rubriker
 description: Gruppera poster under rubriker
+keywords: gruppera poster, listan Rubriker
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -28,7 +30,7 @@ Om du vill skapa en lista med två nivåer måste du välja rubriker för varje 
 
 4. Markera **Använd gruppering och användargruppfiltrering för den här listan** längst upp till höger.
 
-5. Ange att den valda posten ska visas under en viss rubrik genom att markera kryssrutan bredvid rubriknamnet i listan **Rubriker**. Rutan fylls då i med en bock (![ikon][img1]).
+5. Ange att den valda posten ska visas under en viss rubrik genom att markera kryssrutan bredvid rubriknamnet i listan **Rubriker**. Rutan fylls då i med en bock (<i class="ph ph-check" aria-hidden="true"></i>).
 
     Ändringarna sparas automatiskt.
 
@@ -63,6 +65,3 @@ Om du vill skapa en lista med två nivåer måste du välja rubriker för varje 
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

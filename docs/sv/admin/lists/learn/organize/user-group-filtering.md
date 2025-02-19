@@ -2,12 +2,12 @@
 uid: help-sv-user-group-filtering
 title: Användargrupper
 description: Användargrupper
+keywords: Användargruppfiltrering, användargrupp, använd gruppering, user, grupp
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: user, grupp
 topic: howto
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -32,14 +32,14 @@ När du lägger till en post i en lista i fönstret Listor kan du också ange vi
 
 5. Välj en användargrupp i listan **Synlig för användargrupper**. Alla användargrupper i företaget visas här. Klicka i rutan bredvid en användargrupp om du vill att posten ska vara synlig för den gruppen.
 
-    Rutan fylls då i med en bock (![ikon][img2]).
+    Rutan fylls då i med en bock (<i class="ph ph-check" aria-hidden="true"></i>).
 
 6. Upprepa steg 4 och 5 för varje post du vill göra synlig för specifika användargrupper.
 
 > [!NOTE]
 > När du lägger till en post i listan **Poster** blir den automatiskt synlig för alla användargrupper som finns med under **Synlig för användargrupper**. Om det behövs kan du kryssa ur rutorna för de användargrupper som du inte vill att posterna ska vara synliga för.
 
-Du kan välja flera användargrupper för samma post. Klicka på **Markera alla** (![ikon][img1]) om du vill välja alla grupper eller på **Avmarkera alla** (![ikon][img3]) om du vill ta bort alla markeringar.
+Du kan välja flera användargrupper för samma post. Klicka på **Markera alla** (<i class="ph ph-check-circle" aria-hidden="true"></i>) om du vill välja alla grupper eller på **Avmarkera alla** (<i class="ph ph-minus-circle" aria-hidden="true"></i>) om du vill ta bort alla markeringar.
 
 ## Lägga till poster för en användargrupp
 
@@ -69,8 +69,3 @@ Du kan också ange vilka poster som ska vara tillgängliga för en användargrup
 <!-- Referenced links -->
 [1]: headings.md
 [2]: ../../../user-management/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/select-all.png
-[img2]: ../../../../../media/icons/btn-selected.png
-[img3]: ../../../../../media/icons/unselect-all.png
