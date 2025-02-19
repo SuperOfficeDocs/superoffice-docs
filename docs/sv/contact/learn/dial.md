@@ -2,10 +2,13 @@
 uid: help-sv-contact-dial
 title: Ringa till kontakter
 description: Ringa till kontakter; Telefoninställningar
-author: SuperOffice RnD
-date: 09.22.2023
 keywords: kalender, händelse, telefon, ringa upp, ringa
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -14,17 +17,17 @@ language: sv
 Om IP-telefonin har konfigurerats korrekt kan du ringa en kontakt direkt från SuperOffice CRM på följande sätt:
 
 * Klicka på ett telefonnummer i fönstret Företag
-* Klicka på ![ikon][img1] i en dialogruta.
+* Klicka på <i class="ph ph-phone" aria-label="Phone icon"></i> i en dialogruta.
 * Högerklicka på en person på ett detaljkort och välj **Ring *namn***.
 * Ring till kontakter.
 
-## Ringa en kontakt från dialogrutorna Bokning, Uppgift, Samtal och Dokument
+## Ringa en kontakt från dialogrutorna Händelse och Dokument
 
-Du använder telefonknappen som finns i bland annat dialogrutorna **Bokning**, **Uppgift**, **Samtal** och **Dokument**:
+Du använder telefonknappen som finns i bland annat dialogrutorna **Händelse** och **Dokument**:
 
-1. Öppna en bokning, en uppgift, ett samtal eller ett dokument.
+1. Öppna en händelse eller ett dokument.
 2. Välj önskad kontakt i fältet **Kontakt** i dialogrutan.
-3. Klicka på knappen bredvid kontaktfältet ![ikon][img1]. En lista över nummer till den aktuella kontakten visas.
+3. Klicka på telefonknappen bredvid kontaktfältet. En lista över nummer till den aktuella kontakten visas.
 4. Välj det telefonnummer du vill ringa upp. Kontakten rings då upp.
 
 ## Ringa från detaljkort (till kontakter, urvalsmedlemmar, intressenter och deltagare)
@@ -48,14 +51,11 @@ Om IP-telefoni, Skype eller FaceTime är installerat kan du ringa från SuperOff
 
 ### Tillgängliga parametrar
 
-**IP-telefon**: tel:%p (standardvärde)
-**Skype**: callto:%p
-**FaceTime**: facetime:%p
+* **IP-telefon**: `tel:%p` (standardvärde)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
 Du kan också använda [mallvariabler][2] i telefoninställningarna.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png

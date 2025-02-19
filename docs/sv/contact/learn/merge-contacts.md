@@ -1,11 +1,14 @@
 ---
 uid: help-sv-contact-merge
 title: Slå ihop kontakter
-description: Slå ihop kontakter
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: företag
+description: Lär dig hur du slår ihop dubbletter av kontakter i SuperOffice CRM för att samla aktiviteter, försäljningar och projektmedlemskap.
+keywords: slå ihop kontakter, underhåll kontakter, kontakt, person
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -13,43 +16,48 @@ language: sv
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Om en fysisk person har registrerats som två olika kontakter i SuperOffice CRM kan du slå ihop dessa kontakter. Personen kan till exempel ha registrerats under två olika namn på samma företag ("Jonathan Clark" och "Jonathon Clarke") eller registrerats hos både sin gamla och sin nuvarande arbetsgivare.
+Om samma person är registrerad under olika namn eller företag i SuperOffice CRM (t.ex. "Jonathan Clark" och "Jonathon Clarke") kan du slå ihop deras kontaktposter för att samla aktiviteter, försäljningar och projektmedlemskap.
 
-Projektmedlemskap och aktiviteter flyttas till målpersonen och källpersonen kan tas bort eller anges som slutat.
+> [!NOTE]
+> Du kan inte slå ihop kontakter (SuperOffice-användare) på ditt eget företag. Däremot kan du slå ihop en kontakt från ett annat företag med en kontakt i ditt eget företag.
 
-1. Öppna dialogrutan **Slå ihop kontakter** på något av följande sätt:
-    * I fönstret Företag: Gå till detaljkortet **Kontakter** markera och högerklicka på en eller två kontakter du vill slå ihop, välj **Underhåll kontakter** och **Slå ihop kontakter**.
-    * I fönstret Kontakt: Gå till önskad kontakt, klicka på ![ikon][img1] knappen **Uppgift** på kontaktkortet och välj **Underhåll kontakter** och **Slå ihop kontakter**.
+## Steg
 
-2. Om du bara har valt en kontakt väljer du ytterligare en kontakt under **Till** (börja skriva för att söka efter kontakten). De två kontakterna du vill slå ihop visas nu under **Från** och **Till**.
+1. Öppna dialogrutan **Slå ihop kontakter**:
 
-    > [!TIP]
-    > Om du vill byta plats på **Från**- och **Till**-kontakter klickar du på ![ikon][img2]-knappen.
+    * I fönstret **Kontakt**: Gå till den kontakt du vill slå ihop, klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), och välj **Underhåll kontakter** > **Slå ihop kontakter**.
 
-3. Välj något av följande under **Utför på \[contact/company\] efter sammanslagning**:
-    * **Ta bort...**: Om du väljer det här alternativet tas källkontakten bort efter sammanslagningen.
-        Till exempel om du har registrerat samma kontakt två gånger på samma företag.
-    * **Markera som tidigare anställd**: Om du väljer det här alternativet markeras kontakten som tidigare anställd efter sammanslagningen.
-        Till exempel om en kontakt har bytt jobb, men fortfarande ska vara registrerad på det gamla företaget.
+    * I fönstret **Företag**: Gå till detaljkortet **Kontakter**, markera en eller två kontakter, högerklicka och välj **Underhåll kontakter** > **Slå ihop kontakter**.
 
-4. Välj något av följande under **Åtgärd för alla befintliga aktiviteter och försäljningar**:
+1. Om du bara har valt en kontakt, välj en andra kontakt under **Till**. Börja skriva för att söka efter kontakten.
+    Om du vill byta plats på **Från**- och **Till**-kontakter, klicka på pilknappen <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
+
+1. Under **Utför på \[kontakt\] efter sammanslagning**, välj ett av följande alternativ:
+
+    * **Ta bort \[källkontakt\]**: Tar bort källkontakten efter sammanslagningen (användbart för dubbletter).
+    * **Markera som tidigare anställd**: Markerar källkontakten som tidigare anställd (användbart när kontakten har bytt jobb).
+
+1. Under **Åtgärd för alla befintliga aktiviteter och försäljningar**, välj ett alternativ:
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+1. Klicka på **Slå ihop**. Följande sker:
 
-5. Klicka på **Slå ihop**. Kontakterna slås ihop och projektmedlemskap och medlemskap i statiska urval flyttas.
+    * Alla uppgifter slås ihop.
+    * Aktiviteter och försäljningar förblir kopplade till målpersonen, eller flyttas beroende på ditt val.
+    * Projektmedlemskap och medlemskap i statiska urval följer målpersonen.
+    * Den valda åtgärden (ta bort eller markera som tidigare anställd) tillämpas på källkontakten.
 
-> [!NOTE]
-> Du kan inte slå ihop kontakter (SuperOffice-användare) på ditt eget företag, men du kan slå ihop en kontakt från ett annat företag med en kontakt från ditt eget företag.
+![Dialogrutan Slå ihop kontakter visar alternativ för att hantera dubbletter av kontakter och välja åtgärder efter sammanslagning. -screenshot][img4]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Slå ihop företag][1]
+* [Återskapa borttagna företag och kontakter][2]
 
 <!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
+[2]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png
+[img4]: ../../../media/loc/en/contact/merge-contacts.png

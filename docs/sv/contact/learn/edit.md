@@ -1,11 +1,14 @@
 ---
 uid: help-sv-contact-update
-title: Redigera kontakt
-description: Redigera kontakt
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: företag
+title: Redigera kontaktinformation
+description: Så redigerar du en kontakts uppgifter.
+keywords: redigera kontakt, redigera person, redigera associerad, kontakt
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -15,18 +18,24 @@ language: sv
 
 1. Välj detaljkortet **Kontakter**.
 
-1. Dubbelklicka på en kontakt.
+1. Dubbelklicka på den kontakt du vill redigera.
 
-1. Klicka på **Redigera** på kontaktkortet i fönstret Kontakt.
+1. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera"></i> i det övre högra hörnet av kontaktkortet.
 
-1. [Gör de ändringar som behövs][1].
+1. Gör de nödvändiga ändringarna.
 
-1. Klicka sedan på **Spara** för att stänga dialogrutan och spara ändringarna.
+1. Klicka på **Spara** för att spara ändringarna, eller klicka på **Avbryt** för att avbryta dem. Båda alternativen avslutar redigeringsläget.
 
-> [!NOTE]
-> Klicka på **Avbryt** för att lämna redigeringsläget utan att spara ändringarna.
+    Om knappen **Spara** är nedtonad måste alla obligatoriska fält fyllas i innan du kan spara.
+
+![Fönstret Kontakt i redigeringsläge, som visar kontaktuppgifter. -screenshot][img1]
+
+## Relaterat innehåll
+
+* [Massuppdatera kontaktinformation][8]
 
 <!-- Referenced links -->
-[1]: create.md
+[8]: ../../search-options/selection/learn/howto/bulk-update.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/contact/edit-person.png

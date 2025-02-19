@@ -1,62 +1,59 @@
 ---
 uid: help-sv-contact-delete
-title: kontakt ta bort
-description: kontakt ta bort
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: person, contact
+title: Ta bort en kontakt
+description: Ta bort en kontakt i SuperOffice CRM.
+keywords: ta bort kontakt, radera kontakt, kontakt, tidigare anställd, dubblett
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Ta bort kontakter
+# Ta bort en kontakt
 
-Varför skulle du ta bort kontakter i SuperOffice? En kontakt kan till exempel ha lagts till av misstag eller vara en dubblett, eller så har en kontakt lagts till med endast ett förnamn.
-
-Det finns tre sätt att ta bort en kontakt från SuperOffice CRM:
-
-* [Ta bort en kontakt][1]
-* [Ta bort flera kontakter samtidigt][3]
-
-> [!TIP]
-> I stället för att ta bort en kontakt kan du markera **Tidigare anställd** på kontaktkortet (se [Skapa ny kontakt][6]). Då försvinner inte personens namn från aktiviteter som har kopplats till kontakten.
-
+Ibland behöver du ta bort kontakter i SuperOffice CRM – till exempel dubbletter, ofullständiga poster eller kontakter som har lagts till av misstag.
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Så tar du bort en kontakt från fönstret Kontakt
+> [!TIP]
+> I stället för att ta bort en kontakt kan du markera den som **Tidigare anställd**. Då förblir personens namn kopplat till aktiviteter.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+## Ta bort en kontakt från fönstret Kontakt
 
-1. Klicka på ![ikon][img1] knappen **Uppgift** och välj **Ta bort**.
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. Klicka på **Ja** i dialogrutan **Ta bort kontakt** för att bekräfta att du verkligen vill ta bort kontakten.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgift"></i> i det övre högra hörnet av kontaktkortet.
 
-## Så tar du bort en kontakt från fönstret Företag
+1. Välj **Ta bort**.
+
+1. Klicka på **Ja** i dialogrutan **Ta bort kontakt** för att bekräfta.
+
+## Ta bort en kontakt från fönstret Företag
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Välj detaljkortet **Kontakter**.
+1. Välj [detaljkortet Kontakter][4].
 
-1. Markera önskad kontakt.
+1. Markera en eller flera kontakter som du vill ta bort.
 
-    > [!NOTE]
-    > Du kan markera och ta bort flera kontakter samtidigt.
+1. Klicka på **Ta bort** längst ned på detaljkortet **Kontakter**, eller högerklicka och välj **Ta bort**.
 
-1. Klicka på knappen **Ta bort** längst ned på detaljkortet **Kontakter**. Du kan också högerklicka på kontakten och välja **Ta bort**.
+1. Klicka på **Ja** i dialogrutan **Ta bort kontakt** för att bekräfta.
 
-1. Klicka på **Ja** i dialogrutan **Ta bort kontakt** för att bekräfta att du verkligen vill ta bort kontakten.
+[!include[Note about restore](../../learn/includes/note-restore.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Slå ihop kontakter][2]
+* [Massborttagning av kontakter][3]
+* [Ta bort flera kontakter och företag samtidigt från ett urval][9]
 * [Återskapa borttagna företag och kontakter][5]
 
 <!-- Referenced links -->
-[1]: delete.md
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
-[6]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[4]: ../../learn/section-tabs/contacts-tab.md
+[9]: ../../search-options/selection/learn/howto/mass-delete.md
