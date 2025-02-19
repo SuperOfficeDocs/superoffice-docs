@@ -32,7 +32,7 @@ Du vill övervaka företag som du har väldigt få aktiviteter tillsammans med, 
 
     * **Namn**: Ange ett beskrivande namn för den status du vill lägga till.
 
-        Tillval: Klicka på **A-Z** för att [lägga till översättningar av][8] statusnamnet.
+        Tillval: Klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att [lägga till översättningar av][8] statusnamnet.
 
     * **Beskrivning**: Ange en förklarande beskrivning av statusen och vilka åtgärder som krävs eller rekommenderas. I det här fältet kan du också använda [mallvariabler][9] för att anpassa texten till relevant företag, kontakt eller projekt.
 
@@ -44,13 +44,13 @@ Du vill övervaka företag som du har väldigt få aktiviteter tillsammans med, 
 
 ### Vad innehåller statuslistan?
 
-![ikon][img3] – ikonen **Visualisera** indikerar om man kan [visa en statusbild][3] för företag, kontakt eller projektkort som uppfyller statuskriterierna. Ikonen visas bara om du har markerat **Visualisera** på fliken **Bild** för statusen i fråga.
+* Ikonen **Visualisera** (<i class="ph ph-eye" aria-hidden="true"></i>) indikerar om man kan [visa en statusbild][3] för företag, kontakt eller projektkort som uppfyller statuskriterierna. Ikonen visas bara om du har markerat **Visualisera** på fliken **Bild** för statusen i fråga.
 
-![ikon][img4] – ett rött kryss indikerar att statusen måste återskapas. [Statusen måste återskapas][4] varje gång du lägger till, redigerar eller tar bort ett kriterium eller om du till exempel ändrar syftet för en uppgift. Statusar med röda kryss uppdateras inte och returnerar inte aktuella data när mana använder SuperOffice CRM.
+* Ett rött kryss indikerar att statusen måste återskapas. [Statusen måste återskapas][4] varje gång du lägger till, redigerar eller tar bort ett kriterium eller om du till exempel ändrar syftet för en uppgift. Statusar med röda kryss uppdateras inte och returnerar inte aktuella data när mana använder SuperOffice CRM.
 
-**Namn** – namnet på statusarna. Borttagna statusar visas i rött om **Visa borttagna** är markerat.
+* **Namn** – namnet på statusarna. Borttagna statusar visas i rött om **Visa borttagna** är markerat.
 
-**Prioritet** – statusarnas prioritet. Prioriteten avgör vilken status som ska visas om ett företag, en kontakt eller ett projekt uppfyller kriterierna för flera statusar.
+* **Prioritet** – statusarnas prioritet. Prioriteten avgör vilken status som ska visas om ett företag, en kontakt eller ett projekt uppfyller kriterierna för flera statusar.
 
 ## Varför måste jag ange prioritet för en status?
 
@@ -77,6 +77,4 @@ Om ett företag, en kontakt eller ett projekt har flera aktiva statusar, visas s
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

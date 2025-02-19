@@ -2,9 +2,9 @@
 uid: help-sv-automation-macro-create
 title: Skapa ett makro – exempel från SuperOffice
 description: Exempel på hur du skapar ett makro i SuperOffice.
-author: SuperOffice RnD
-date: 03.16.2023
 keywords: skript, makro
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -24,7 +24,7 @@ Vi ska nu skapa ett makro baserat på exemplet ovan.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Välj ![ikon][img2] **CRMScript** och fliken för **Makron och skript**. Gör något av följande:
+1. Välj <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** och fliken för **Makron och skript**. Gör något av följande:
     * Om du vill skapa ett nytt makro: Klicka på **Nytt makro**.
     * Om du vill ändra ett befintligt makro: Klicka på makronamnet.
 
@@ -51,6 +51,3 @@ Vi ska nu skapa ett makro baserat på exemplet ovan.
 
 <!-- Referenced links -->
 [1]: trigger.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

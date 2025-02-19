@@ -32,7 +32,7 @@ Om du har skapat ett offertdokument för en offert, men vill använda ett annat 
 
 1. Öppna offerten.
 
-2. Klicka på knappen ![ikon][img1] **Uppgift** och välj **Byt offertdokument**.
+2. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> och välj **Byt offertdokument**.
 
 3. Välj offertdokumentet i listan.
 
@@ -50,6 +50,3 @@ Om du har skapat ett offertdokument för en offert, men vill använda ett annat 
 [3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

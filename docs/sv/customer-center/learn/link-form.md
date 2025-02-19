@@ -43,7 +43,7 @@ När en kund fyller i formuläret sparas informationen och detaljerna automatisk
 
 ![Webbformulär på sidan Kontakta oss -screenshot][img4]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Konfigurera Kundcenter][2]
 * [Arbeta med formulär][1]

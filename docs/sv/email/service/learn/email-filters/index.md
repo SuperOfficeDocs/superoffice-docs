@@ -2,10 +2,10 @@
 uid: help-sv-email-filter
 title: E-postfilter
 description: E-postfilter
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
+version: 10.2.11
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -80,6 +80,6 @@ På fliken **E-postfilter** finns en lista med befintliga e-postfilter. I övers
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
-[3]: ../../../../request/learn/type/index.md
+[3]: ../../../../request/admin/type/index.md
 
 <!-- Referenced images -->

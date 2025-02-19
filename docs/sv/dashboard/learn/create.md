@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-create
 title: Skapa en ny dashboard
 description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden förklarar vi hur du skapar nya dashboardflikar.
+keywords: dashboard
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: dashboard
 topic: howto
 language: sv
 ---
@@ -15,21 +15,23 @@ I Dashboard-fönstret kan du ha flera dashboardflikar för att visa olika typer 
 
 ## Skapa en ny dashboardflik
 
-Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till nya dashboardflikar i SuperOffice CRM (filmens längd: 4:29):
+Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till nya dashboardflikar i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
+(filmens längd: 4:29)
+
 1. Öppna skärmen **Dashboard**.
 
-2. Klicka på **Uppgift**-knappen och välj **Skapa en ny dashboard**.
+2. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Skapa en ny dashboard**.
 
 3. Ange dashboardens namn i dialogrutan. Detta blir dashboardflikens namn.
 
 4. Skriv en beskrivning av dashboarden. Beskrivningen visas högst upp på dashboarden.
 
     > [!TIP]
-    > Du kan också lägga till namnet och beskrivningen [på andra språk][1] genom att klicka på ![ikon][img1].
+    > Du kan också lägga till namnet och beskrivningen [på andra språk][1] genom att klicka på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Välj tema för dashboarden i listan **Tema**.
 
@@ -49,7 +51,7 @@ Det finns många standardfigurer att välja bland i biblioteket, men du kan ocks
 
 ![Välj önskade figurer och dra och släpp dem i rutnätsvyn -screenshot][img2]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Redigera ett dashboard][3]
 * [Lägg till figurer/Redigera layout][2]
@@ -66,5 +68,4 @@ Det finns många standardfigurer att välja bland i biblioteket, men du kan ocks
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

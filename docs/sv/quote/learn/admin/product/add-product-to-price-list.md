@@ -60,7 +60,7 @@ I listan till höger kan du lägga till produktinformation. Denna kan inkludera:
 
 * Listor: Här väljer du alternativ från listan, som enheter, produkttyp och produktgrupp. Du kan lägga till fler alternativ i dessa listor i fönstret **Listor** [Lägg till poster i en lista][4].
 
-* Lista med ![ikon][img1] sökfunktioner: Här kan du välja från listan över senaste poster, ange text för att starta en sökning eller klicka på sökknappen ![ikon][img1] för att starta en avancerad sökning.
+* Lista med sökfunktioner: Här kan du välja från listan över senaste poster, ange text för att starta en sökning eller klicka på sökknappen (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) för att starta en avancerad sökning.
 
 ### Hur man ändrar namn och ordning och gör fält redigerbara och/eller obligatoriska
 
@@ -82,5 +82,4 @@ För att ta reda på vilka fält som visas, gå till fliken **Inställningar** o
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
 [img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

@@ -2,9 +2,9 @@
 uid: help-sv-faq-add-to-request
 title: Lägga till FAQ-poster i meddelanden
 description: Lägga till FAQ-poster i meddelanden
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: FAQ
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -26,7 +26,7 @@ När du svarar på en förfrågan från en kund kan du spara tid genom att lägg
 1. En **länk** infogas vid markörens position. Kunden kan klicka på länken för att visa den aktuella FAQ-posten i kundcentret.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

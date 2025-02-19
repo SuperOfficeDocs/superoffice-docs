@@ -29,7 +29,7 @@ I listan **Prislista**, ska du välja önskad prislista. Produkterna i prislista
 
 ## Exportera en prislista
 
-Du kan exportera en öppen prislista genom att klicka på ![ikon][img1] **Exportera** längst ned på fliken **SuperOffice-produkter**. Om du bara vill exportera vissa produkter, kan du välja dem i prislistan. Om du inte väljer några produkter, exporteras alla produkter i prislistan.
+Du kan exportera en öppen prislista genom att klicka på <i class="ph ph-download-simple" aria-hidden="true"></i> **Exportera** längst ned på fliken **SuperOffice-produkter**. Om du bara vill exportera vissa produkter, kan du välja dem i prislistan. Om du inte väljer några produkter, exporteras alla produkter i prislistan.
 
 ### Syns inte exporten?
 
@@ -50,6 +50,3 @@ Antingen har du inte [åtkomstbehörighet][4] till exportfunktionen eller så ä
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

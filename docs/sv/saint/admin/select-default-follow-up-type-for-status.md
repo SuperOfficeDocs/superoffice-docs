@@ -30,7 +30,7 @@ Du kan ange en standardhändelsetyp och beskrivande text som ska visas i SuperOf
 
 1. Klicka på fliken **Skapa händelse**.
 
-1. Klicka på ![ikon][img1] pilknappen till höger om fältet **Typ** och välj en uppföljning.
+1. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> till höger om fältet **Typ** och välj en uppföljning.
 
 1. Ange önskad beskrivning.
 
@@ -44,6 +44,3 @@ Du kan ange en standardhändelsetyp och beskrivande text som ska visas i SuperOf
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png

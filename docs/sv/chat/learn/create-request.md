@@ -3,8 +3,7 @@ uid: help-sv-chat-create-request
 title: Skapa ärende i chatt
 description: I den här guiden förklarar vi hur du skapar ett ärende i SuperOffice Chatt.
 author: SuperOffice RnD
-date: 02.14.2023
-keywords: chatt
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -13,7 +12,7 @@ language: sv
 
 Om du inte kan lösa problemet via chatten kan du skapa ett ärende som hanteras av en annan specialist.
 
-1. Klicka på ![ikon][img1] och välj **Skapa ärende**.
+1. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> och välj **Skapa ärende**.
 
     ![Klicka på åtgärdsknappen och Skapa ärende så sparas all information i chatten i ärendet -screenshot][img2]
 
@@ -36,5 +35,4 @@ Om du inte kan lösa problemet via chatten kan du skapa ett ärende som hanteras
 [4]: ../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-create-request.png

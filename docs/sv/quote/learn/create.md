@@ -38,7 +38,7 @@ Om dialogrutan **Välj ERP-koppling** visas när du ska skapa en offert kan det 
 
 När du har valt en ERP-koppling, kan du fortsätta att skapa en offert.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Redigera en skickad offert (versioner)][3]
 * [Dialogrutan Redigera offert för][4]

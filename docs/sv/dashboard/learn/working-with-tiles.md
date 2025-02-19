@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-tiles
 title: Arbeta med figurer
 description: I den här guiden förklarar vi hur du kommer åt informationen på din dashboard så att du får en tydlig översikt och kan prioritera nästa steg bättre.
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: dashboard
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -23,7 +23,7 @@ Det är de data som ligger bakom figurerna som gör dashboarden användbar. Lär
 
 * Klicka på dataetiketterna (text) under figuren för att dölja/visa specifika data i figurerna. Detta kan vara användbart om du vill skriva ut eller exportera figurer.
 
-* Klicka på ![ikon][img1] i sidhuvudet för en figur och välj **Visa i helskärmsläge** för att öppna figuren i helskärmsläge. Praktiskt för figurer med mycket innehåll.
+* Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidhuvudet för en figur och välj **Visa i helskärmsläge** för att öppna figuren i helskärmsläge. Praktiskt för figurer med mycket innehåll.
 
 ### Granska bakomliggande data
 
@@ -43,13 +43,13 @@ Följ anvisningarna i den här GIF-filen eller anvisningarna nedan för att se h
 
     * Dubbelklicka på en post för att öppna den (eller välj en post och klicka på **Öppna**).
 
-    * Om du vill [kopiera posterna till ett urval][4] klickar du på knappen **Uppgift** och väljer **Kopiera till urval**. Om du inte väljer några poster kopieras alla poster.
+    * Om du vill [kopiera posterna till ett urval][4] klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och väljer **Kopiera till urval**. Om du inte väljer några poster kopieras alla poster.
 
 5. Klicka på **Stäng** när du är klar.
 
 ## Exportera figurer
 
-Klicka på ![ikon][img1] i sidhuvudet för en figur för att få tillgång till följande alternativ:
+Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidhuvudet för en figur för att få tillgång till följande alternativ:
 
 * **Ladda ner PDF-dokument** / **Ladda ner PNG-dokument**: Ladda ner figuren i PDF- eller PNG-format. The export files are downloaded to your browser (mappen **Nedladdningar**).
 
@@ -58,7 +58,7 @@ Klicka på ![ikon][img1] i sidhuvudet för en figur för att få tillgång till 
 > [!TIP]
 > Om du vill dölja specifika data innan du exporterar eller skriver ut en figur klickar du på ledtexterna (textförklaringen) bredvid eller under figuren för att dölja data.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lägg till en ny dashboard][1]
 * [Redigera en figur][2]
@@ -73,5 +73,4 @@ Klicka på ![ikon][img1] i sidhuvudet för en figur för att få tillgång till 
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

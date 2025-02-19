@@ -18,11 +18,5 @@ Om SuperOffice är kopplat till flera ERP-system, och flera Sync Connectors och 
 1. Gå till fliken **Synk** i fönstret Offert/Synk.
 2. Klicka på **Ange synkroniseringsprioritet** nederst i listan **ERP-kopplingar**.
 3. I dialogrutan väljer du en ERP-koppling som du vill ange synkroniseringsprioritet för.
-4. Klicka på ![ikon][img1] ![ikon][img2] pilarna längst ned för att ange prioritet.
+4. Klicka på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> längst ned för att ange prioritet.
 5. Klicka på **Klar** när du har angett prioritet för ERP-kopplingarna.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

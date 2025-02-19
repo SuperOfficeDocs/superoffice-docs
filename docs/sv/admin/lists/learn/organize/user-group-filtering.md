@@ -62,7 +62,7 @@ Du kan också ange vilka poster som ska vara tillgängliga för en användargrup
 
 7. Upprepa steg 5 och 6 för varje användargrupp.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Rubriker][1]
 

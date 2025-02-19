@@ -4,7 +4,7 @@ title: Skapa e-postfilter
 description: Skapa e-postfilter
 keywords: e-post, e-postfilter, filter
 author: SuperOffice RnD
-date: 07.17.2024
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -48,7 +48,7 @@ language: sv
     4. Klicka på **Lägg till** för att lägga till värdet.
 
         > [!TIP]
-        > Du kan ta bort ett värde igen genom att markera det och klicka på borttagningsikonen ![ikon][img1].
+        > Du kan ta bort ett värde igen genom att markera det och klicka på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
 
 1. På fliken **Ange egenskaper** kan du ange specifika egenskaper för ärenden som genereras från e-postmeddelanden som matchar det aktuella filtret:
 
@@ -67,6 +67,3 @@ language: sv
 [1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../request/reply-templates/learn/index.md
 [3]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

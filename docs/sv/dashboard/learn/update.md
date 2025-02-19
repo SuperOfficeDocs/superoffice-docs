@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-edit
 title: Redigera ett dashboard
 description: Redigera ett dashboard
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: dashboard, figur, layout
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -15,16 +15,16 @@ language: sv
 
 2. Välj den dashboard som du vill redigera.
 
-3. För att byta namn på dashboarden och justera andra inställningar klickar du på **Uppgift**-knappen och väljer **Redigera dashboard**.
+3. För att byta namn på dashboarden och justera andra inställningar klickar du på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och väljer **Redigera dashboard**.
 
-4. För att lägga till och redigera dashboard-layouten klickar du på **Uppgift**-knappen och väljer **Lägg till figur/Redigera layout**.
+4. För att lägga till och redigera dashboard-layouten klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och väljer **Lägg till figur/Redigera layout**.
 
 5. Klicka på **Spara**.
 
 > [!NOTE]
 > Om du minskar antalet figurer tas alla extrafigurer bort från dashboarden (den senaste figuren först). Panelerna ordnas vänster till höger, uppifrån och ned. Om du ökar antalet figurer sorteras de befintliga figurerna om och nya, tomma figurer läggs till.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Skapa en ny dashboard][1]
 * [Lägg till figurer och redigera layout][2]
@@ -36,5 +36,3 @@ language: sv
 [2]: add-tile.md
 [3]: edit-tile.md
 [4]: remove-tile.md
-
-<!-- Referenced images -->

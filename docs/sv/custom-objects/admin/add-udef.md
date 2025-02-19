@@ -37,7 +37,7 @@ Den här filmen visar hur du skapar egna extrafält i SuperOffice CRM (filmens l
 
 1. [Valfritt, justera positionen för fältet][3]. Detta kräver en licens för Development Tools!
 
-1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält ![ikon][img1] och fält med opublicerade ändringar ![ikon][img2] visas i fetstil i listan **Fält**.
+1. Fortsätt att lägga till fält. Klicka på **Publicera** när du är klar för att göra fältet tillgängligt för SuperOffice-användare. Opublicerade fält och fält med opublicerade ändringar visas i fetstil i listan **Fält**.
 
 ## <a id="properties"></a>Fältegenskaper
 
@@ -88,6 +88,4 @@ Fyra fält av varje typ (Kort text, Lång text, Nummer och Decimal) är sökbara
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

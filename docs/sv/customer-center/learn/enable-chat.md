@@ -35,7 +35,7 @@ Du måste [konfigurera chattwidgeten][3] innan du lägger till den i ditt Kundce
 
 1. Klicka på **Spara** för att spara inställningarna.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Konfigurera Kundcenter][2]
 * [Kundspråk][1]

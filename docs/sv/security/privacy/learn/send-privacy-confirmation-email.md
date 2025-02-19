@@ -17,10 +17,12 @@ I den nya GDPR-världen, har individer "rätt att informeras". Det innebär att 
 
 Genom att använda integrerade formulär som finns tillgängliga i din CRM-lösning kan du hämta in en persons samtycke, samtidigt som de fyller i ett webbformulär och ger dig sina personuppgifter. Detta samtycke dokumenteras automatiskt i SuperOffice CRM med hjälp av funktionerna för samtyckeshantering.
 
-Den här videon visar hur du skapar ett grundläggande webbformulär och lägger till det på din webbsida (videolängd - 7:49):
+Den här videon visar hur du skapar ett grundläggande webbformulär och lägger till det på din webbsida:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(videolängd - 7:49)
 
 ## Skicka automatiska e-postbekräftelser
 
@@ -36,7 +38,7 @@ Från Kontakt-fönstret kan du skicka eller skicka om en e-postbekräftelse om p
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klicka på **Uppgift** (![ikon][img1]) &gt; **Skicka e-postbekräftelse om personskydd**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Skicka e-postbekräftelse om personskydd**.
 
     ![Skicka en e-postbekräftelse för att informera kontakterna om att deras information lagras i din CRM-databas -screenshot][img2]
 
@@ -70,5 +72,4 @@ E-postmeddelandet kan också innehålla en länk till ett kundcenter där kontak
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

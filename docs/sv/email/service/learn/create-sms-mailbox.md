@@ -28,7 +28,7 @@ SuperOffice kan importera SMS-meddelanden. För att det ska fungera måste du ko
 
 1. Klicka på **OK**. SMS-postlådan skapas.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Inkorg för SMS][2]
 * [Utkorg för SMS][3]

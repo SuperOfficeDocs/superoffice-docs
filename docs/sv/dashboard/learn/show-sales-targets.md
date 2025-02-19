@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-tile-sales-targets
 title: Använda försäljningsmål i figurer
 description: Använd dashboards och figurer för att jämföra dina försäljningsmål med din faktiska försäljning.
-author: SuperOffice RnD
-date: 12.13.2022
 keywords: dashboard, försäljning, mål, diagram
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -23,16 +23,16 @@ För att du ska kunna visualisera dina mål i en figur måste du först lägga t
 
 2. Välj den dashboard som du vill redigera.
 
-3. Klicka på **Uppgift**-knappen välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
+3. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
 
 4. I listan **Visa figurer för** väljer du **Försäljning**.
 
 5. Välj något av följande diagram under fliken **Bibliotek**:
 
-    * ![ikon][img2] – Stora siffror
-    * ![ikon][img3] – Stapeldiagram
-    * ![ikon][img4] – Kolumndiagram
-    * ![ikon][img5] – Mätardiagram
+    * <i class="ph ph-number-square-three" aria-hidden="true"></i> – Stora siffror
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Stapeldiagram
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Kolumndiagram
+    * <i class="ph ph-gauge" aria-hidden="true"></i> – Mätardiagram
     * Tom försäljningspanel
 
     > [!TIP]
@@ -46,7 +46,7 @@ För att du ska kunna visualisera dina mål i en figur måste du först lägga t
 
     * Klicka på rubriken för en figur och dra denna till en annan position.
 
-8. Klicka på ikonen **Redigera figur** ![ikon][img6] på den nya figuren.
+8. Klicka på **Redigera figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nya figuren.
 
 9. Under fliken **Dataset**, ställ in **Försäljningsdatum** på innevarande år, kvartal eller månad. Redigera övriga [kriterier][2] efter behov. Kom ihåg att uppdatera figurens namn för att spegla eventuella ändringar som har gjorts här.
 
@@ -66,7 +66,7 @@ För att du ska kunna visualisera dina mål i en figur måste du först lägga t
     * Stora siffror: Du kan redigera färgerna som används för att visa mål.
     * Mätardiagram: Använd alternativet **Markera målet på** för att ställa in målet på mätardiagrammet.
 
-12. Klicka på ![ikon][img1] för att [lägga till en översättning][3] till figurnamnet, rubrikerna och ledtexterna.
+12. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att [lägga till en översättning][3] till figurnamnet, rubrikerna och ledtexterna.
 
 13. Klicka på **Spara**. Klicka sedan på **Klar**.
 
@@ -95,11 +95,5 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 [7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/big-numbers.png
-[img3]: ../../../../common/icons/column-bar.png
-[img4]: ../../../../common/icons/bar.png
-[img5]: ../../../../common/icons/gauge.png
-[img6]: ../../../../common/icons/edit-pen.png
 [img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
 [img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

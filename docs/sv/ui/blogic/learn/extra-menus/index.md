@@ -22,7 +22,7 @@ På skärmen **Extramenyer** kan du lägga till extramenyer (knappar, menyer, l�
 * **Toppmeny**
 
 * Panelen **Status** på instrumentpanelen
-  * Knapparna ![ikon][img1] **Uppgift** på huvudskärmarna
+  * Knapparna **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) på huvudskärmarna
   * Menyknappar i extratabellsvyn
 
 * **Navigator**
@@ -49,6 +49,3 @@ Se även [Egenskaper för meny][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

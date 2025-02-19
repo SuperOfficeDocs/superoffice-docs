@@ -28,7 +28,7 @@ Genom att skapa anpassade flikar kan du gruppera relaterade fält på ett sätt 
 
 2. Under **Tittel på fliken**, ersätt texten "Ny flik" med det nya fliknamnet.
 
-    Du kan också klicka på **A-Z** knappen för att lägga till knappnamnet på andra språk.
+    Du kan också klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att lägga till knappnamnet på andra språk.
 
 3. Välj antalet kolumner du vill använda i den nya fliken.
 
@@ -67,7 +67,7 @@ Etiketter och avdelare hjälper till att organisera fält inom en flik och gör 
 2. Klicka för att välja avsnittet **Objekt**.
 3. För att lägga till en rubrik drar du elementet **Etikett** till layouten.
 
-    * I avsnittet **Inställningar**, ersätt "Ny etikett" med det nya etikettnamnet. Du kan också klicka på **A-Z**-knappen bredvid etiketten för att lägga till texten på andra språk.
+    * I avsnittet **Inställningar**, ersätt "Ny etikett" med det nya etikettnamnet. Du kan också klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid etiketten för att lägga till texten på andra språk.
     * Justera fontformateringen efter behov.
 
 4. För att lägga till en horisontell avdelare, dra elementet **Avdelare** till layouten. Ändra avståndstypen om nödvändigt.

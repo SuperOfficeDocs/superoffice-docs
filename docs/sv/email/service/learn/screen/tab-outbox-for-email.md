@@ -2,9 +2,9 @@
 uid: help-sv-service-mailboxes-out
 title: Utkorg för e-post
 description: Utkorg för e-post
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
 topic: reference
 language: sv
 ---
@@ -15,7 +15,7 @@ På fliken **Utkorg för e-post** finns en översikt över alla e-postmeddelande
 
 Välj **Visa skickade e-postmeddelanden** längst ner till höger om du även vill visa de senaste e-postmeddelandena om ärenden.
 
-Följande alternativ är också tillgängliga via knappen **Åtgärder** (![ikon][img1]):
+Följande alternativ är också tillgängliga via knappen <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>:
 
 * **Exportera**: Används för att exportera listan till en fil. Du kan välja mellan följande format: Excel, HTML och oformaterad text.
 
@@ -27,8 +27,3 @@ Följande alternativ är också tillgängliga via knappen **Åtgärder** (![ikon
     > Denna åtgärd kan inte ångras.
 
 Om du klickar på ett av meddelandena på den här fliken visas fönstret **Utgående e-post**. Här visas information om det valda meddelandet, t.ex. dess storlek och vem som skapade det. Eventuella felmeddelanden visas också.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

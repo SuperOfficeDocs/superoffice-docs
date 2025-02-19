@@ -20,7 +20,7 @@ Med WebTools [installerar][4] du:
 
 Läs mer om hur du [kopplar e-post och dokument][5].
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Installera WebTools][3]
 * [Konfigurera inkorgen][6]

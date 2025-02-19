@@ -4,7 +4,7 @@ title: Lägg till ärende eller meddelande
 description: Lägg till ärende eller meddelande
 keywords: SuperOffice for Outlook, Outlook, e-post, lägg till ärende, lägg till meddelande
 author: Erik Lebiko, Bergfrid Dias
-date: 10.29.2024
+date: 02.25.2025
 version_sofo: 2024.8.12
 topic: howto
 audience: person
@@ -38,6 +38,6 @@ Du kan skapa ett [ärende][1] i SuperOffice direkt från Outlook. Om e-postmedde
 > Du kan också skapa en händelse eller försäljning direkt från e-postmeddelandet.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

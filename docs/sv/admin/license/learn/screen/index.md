@@ -69,7 +69,7 @@ Under **Systemmeddelanden** hittar du följande kolumner:
 | Avslutat | Visar när händelsen beräknas vara avslutad. |
 | Typ | Visar om händelsen avser hela systemet. |
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [SuperOffice CRM och licenser][3]
 * [Köp licenser][5]

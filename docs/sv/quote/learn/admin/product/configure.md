@@ -58,7 +58,7 @@ Markera här om användarna ska kunna redigera fältet och/eller vara tvungna at
 
 ### Ordning
 
-Klicka på ![ikon][img1] ![ikon][img2] pilarna för att välja fältets position. Denna order används också i dialogrutan **Lägg till/redigera produkt**.
+Klicka på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> för att välja fältets position. Denna order används också i dialogrutan **Lägg till/redigera produkt**.
 
 ## Relaterat innehåll
 
@@ -70,6 +70,4 @@ Klicka på ![ikon][img1] ![ikon][img2] pilarna för att välja fältets position
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

@@ -17,7 +17,7 @@ På denna skärm kan du ändra egenskaperna för en ny eller befintlig skript- e
 
 ## Skapa mappar
 
-1. Klicka på ![ikon][img1] **Ny mapp** högst upp i fönstret.
+1. Klicka på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mapp** högst upp i fönstret.
 2. I fältet **Mapp** väljer du en överordnad mapp i listan.
 3. Ange ett beskrivande namn på mappen i fältet **Namn**.
 4. Klicka på **OK**. Den nya mappen skapas.
@@ -39,8 +39,3 @@ När du tar bort en mapp tas även allt innehåll i mappen (till exempel urval, 
 2. Klicka på mappens namn.
 3. Klicka på **Ta bort**.
 4. Bekräfta genom att klicka på **OK**. Mappen och dess innehåll tas bort från SuperOffice.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

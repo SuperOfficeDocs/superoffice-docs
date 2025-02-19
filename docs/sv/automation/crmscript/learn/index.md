@@ -19,7 +19,7 @@ Olika verktyg, makron, skript, utlösare och planerade uppgifter har olika funkt
 
 ## Öppna CRMScript
 
-Om du vill komma åt funktionerna i CRMScript öppnar du Inställningar och underhåll i SuperOffice och klickar på ![ikon][img1] **CRMScript** i navigatorn.
+Om du vill komma åt funktionerna i CRMScript öppnar du Inställningar och underhåll i SuperOffice och klickar på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** i navigatorn.
 
 Utlösare är skript som körs för specifika händelser i systemet, till exempel när en ny försäljning skapas eller ett ärende stängs. Utlösare kan reagera tyst på vad som händer, eller blockera åtgärden och visa en förklaring för användaren.
 
@@ -44,6 +44,3 @@ Utlösare är skript som körs för specifika händelser i systemet, till exempe
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

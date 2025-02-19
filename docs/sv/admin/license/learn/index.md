@@ -54,7 +54,7 @@ Licenser för SuperOffice CRM för Windows (senaste versionen [SuperOffice G8 8.
 
 Läs mer om licenser i [tidigare versioner av SuperOffice][7].
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Köp och aktivera licenser][1]
 * [Om fönstret Licenser][4]

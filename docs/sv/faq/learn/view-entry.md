@@ -2,9 +2,9 @@
 uid: help-sv-faq-view-entry
 title: Visa FAQ-poster
 description: Visa FAQ-poster
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: FAQ
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -13,7 +13,7 @@ language: sv
 
 # Visa FAQ-poster (i SuperOffice)
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**. Du kommer då till skärmen FAQ som visar FAQ-poster i en [mappstruktur][1] som du kan skapa och redigera själv.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**. Du kommer då till skärmen FAQ som visar FAQ-poster i en [mappstruktur][1] som du kan skapa och redigera själv.
 
 2. Om listan innehåller flera undermappar går du till önskad undermapp.
 
@@ -41,6 +41,3 @@ Om du vill publicera den aktuella FAQ-posten väljer du **Gå framåt i arbetsfl
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

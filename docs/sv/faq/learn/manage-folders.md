@@ -2,9 +2,9 @@
 uid: help-sv-faq-folder
 title: Administrera mappar med FAQ-poster
 description: Administrera mappar med FAQ-poster
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: FAQ, mapp
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -17,7 +17,7 @@ Du kan skapa en mappstruktur för FAQ-posterna så att de får en logisk struktu
 
 ## Skapa mappar
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 
 1. Klicka på knappen **Ny mapp**. Du kommer då till skärmen **Egenskaper för FAQ-mapp**.
 
@@ -55,6 +55,3 @@ Innan du kan ta bort en FAQ-mapp måste du ta bort alla poster i den. Det gör d
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

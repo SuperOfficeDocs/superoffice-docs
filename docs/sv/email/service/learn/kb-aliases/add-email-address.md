@@ -2,9 +2,9 @@
 uid: help-sv-mailbox-add
 title: Skapa e-postadresser
 description: Skapa e-postadresser
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: ärende, brevlåda
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -15,13 +15,13 @@ language: sv
 
 När du registrerar e-postadresser under **Kunskapsbas** > **E-postadresser** blir adresserna tillgängliga på de flesta ställen där du skickar e-post, t.ex. i fönstren **Nytt ärende** och **Lägg till meddelande**. Ärendehanteringen blir därigenom snabbare.
 
-1. Gå till ![ikon][img2] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **E-postadresser**.
+1. Gå till <i class="ph ph-list" aria-hidden="true"></i> **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **E-postadresser**.
 
 1. Gå till mappen som du vill placera e-postadressen i. Om den inte finns än kan du [skapa en ny mapp][1].
 
 1. Klicka på knappen **Ny e-postadress**. Fönstret **Egenskaper för e-postadress** öppnas.
 
-1. I fältet **Mapp** visas automatiskt namnet på den mapp som du har valt. Om du ändrar dig kan du klicka på listknappen ![ikon][img1] och välja en annan mapp i den lista som visas.
+1. I fältet **Mapp** visas automatiskt namnet på den mapp som du har valt. Om du ändrar dig kan du klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja en annan mapp i den lista som visas.
 
 1. I fältet **Namn** skriver du namnet på den person som e-postadressen tillhör.
 
@@ -33,7 +33,3 @@ När du registrerar e-postadresser under **Kunskapsbas** > **E-postadresser** bl
 
 <!-- Referenced links -->
 [1]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../../media/icons/main-menu.png

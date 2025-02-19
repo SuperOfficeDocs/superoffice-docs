@@ -2,9 +2,9 @@
 uid: help-sv-email-inbox-create-task
 title: Skapa uppgift
 description: Skapa uppgift
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -15,7 +15,7 @@ Med den här funktionen kan du snabbt lägga till en uppgift i SuperOffice CRM b
 
 1. Gå till inkorgen.
 2. Markera meddelandet i inkorgen.
-3. Klicka på **Arkiv** ![ikon][img1].
+3. Klicka på <i class="ph ph-archive" aria-hidden="true"></i> **Arkiv**.
 4. Klicka på **Skapa uppgift**. Dialogrutan **Händelse** öppnas.
 5. [Fyll i nödvändiga uppgifter i fälten][2].
 
@@ -23,6 +23,3 @@ Med den här funktionen kan du snabbt lägga till en uppgift i SuperOffice CRM b
 
 <!-- Referenced links -->
 [2]: ../../../diary/learn/create-follow-up.md#fields
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

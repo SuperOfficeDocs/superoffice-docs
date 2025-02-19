@@ -20,14 +20,16 @@ language: sv
 
 ## Installera
 
-Titta på den här videon eller följ guiden nedan för att lära dig hur du installerar WebTools for Outlook med Windows OS (videolängd - 3:00):
+Titta på den här videon eller följ guiden nedan för att lära dig hur du installerar WebTools for Outlook med Windows OS:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/PGh6An9o8mA]
 
+(videolängd - 3:00)
+
 ### Steg
 
-1. Gå till ![ikon][img1] huvudmenyn i det övre fältet.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet.
 1. Välj **Hämta** > **SuperOffice WebTools**. Hjälpen för SuperOffice WebTools wizard visas.
 
     ![Download WebTools -screenshot][img2]
@@ -61,7 +63,6 @@ Vi arbetar ständigt med att förbättra våra program, inklusive WebTools. När
 [1]: install-mac.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
 [img2]: ../../../media/loc/en/webtools/download-webtools.png
 [img3]: ../../../media/loc/en/webtools/webtools-pc.png
 [img4]: ../../../media/loc/en/webtools/webtools-email-client.png

@@ -85,7 +85,7 @@ language: sv
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lägg till en post på uppgiftsmenyn][1]
 * [Lägg till en översättning][3]

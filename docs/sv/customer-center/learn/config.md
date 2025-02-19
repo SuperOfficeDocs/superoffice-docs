@@ -2,14 +2,14 @@
 uid: help-sv-customer-center-config
 title: Konfigurera kundcenter
 description: Den här guiden beskriver hur du konfigurerar ditt Kundcenter.
-author: SuperOffice RnD
-date: 03.16.2023
 keywords: Tjänst, Kundcenter, CEP
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
 
-# Konfigurera Kundcenter
+# Konfigurera Kundcenter <i class="ph ph-question" aria-label="Question mark"></i>
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
@@ -26,7 +26,7 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Välj ![ikon][img1] **Kundcenter** > **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
+1. Välj **Kundcenter** > **Konfigurera**. Det finns 2 flikar i fönstret **Kundcenter**: **Stilmall** och **Systemval**. Högst upp på den här sidan finns en länk till en förhandsgranskning av Kundcenter-sidan.
 
 1. På fliken **Stilmall** kan du redigera olika inställningar för hur du vill att kundcentret ska se ut och upplevas: Logotyp, önskad bredd, färger och typsnitt. Förhandsgranskningen uppdateras automatiskt.
 
@@ -66,6 +66,5 @@ Om kundcentret är flerspråkigt kan du välja alternativ (till exempel välkoms
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
 [img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

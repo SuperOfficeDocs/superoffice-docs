@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-requests
 title: Använda ärenden i figurer
 description: I den här guiden förklarar vi hur du får en snabb överblick över alla öppna ärenden på dashboards i SuperOffice.
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: dashboard, ärende
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +23,7 @@ Många inleder arbetsdagen med en överblick över aktuell status för öppna ä
 
 Om du eller din roll har den behörighet som krävs kan du välja vilket innehåll som ska visas i figurerna på dashboarden.
 
-1. Klicka på **Uppgift**-knappen välj **Lägg till figur/Redigera layout**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**.
 
 2. I listan **Visa paneler för** väljer du **Ärende** och någon av de fördefinierade figurerna eller så väljer du **Tom ärendepanel**
 
@@ -69,8 +69,8 @@ En lista över ärenden som ingen har tilldelats ansvar för. Om du vill [ta ans
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

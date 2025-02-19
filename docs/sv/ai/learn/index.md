@@ -24,7 +24,7 @@ AI kan förvandla enorma datamängder till meningsfull information som minskar m
 
 AI kan hjälpa dig att förstå de data ni har tillgång till och spara tid genom att automatisera processer. Tekniken hjälper dig också att vårda kunderna mer proaktivt.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Textanalys][1]
 * [Kategorisering][2]

@@ -31,7 +31,7 @@ På fliken **Inställningar** i fönstret Offert/Synk kan du anpassa inställnin
 Visar fälten som används på varje offertrad i offerten. Klicka på fältnamnslänkarna eller knappen **Konfigurera produkt** för att [redigera dessa fält][2].
 
 <!-- Referenced links -->
-[1]: ../../../sale/learn/screen/sales-type-for-stages.md
+[1]: ../../../sale/admin/sale-type.md
 [2]: product/configure.md
 [3]: ../../../document/templates/learn/quote-templates.md
 

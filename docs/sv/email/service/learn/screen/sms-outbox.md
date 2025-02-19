@@ -2,9 +2,9 @@
 uid: help-sv-sms-outbox
 title: Utkorg för SMS
 description: Utkorg för SMS
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Tjänst
+author: SuperOffice RnD
+date: 02.25.2025
 topic: reference
 language: sv
 ---
@@ -16,7 +16,7 @@ Fliken **Utkorg för SMS** innehåller alla utgående SMS som ännu inte har ski
 > [!NOTE]
 > Om fliken inte syns betyder det att SMS-modulen inte är installerad eller att SMS inte har aktiverats för den licens du använder. Kontakta systemansvarig person om du vill ha mer information.
 
-Följande alternativ är också tillgängliga via ![ikon][img1] menyknappen:
+Följande alternativ är också tillgängliga via menyknappen:
 
 * **Exportera**: Används för att exportera listan till en fil. Du kan välja mellan följande format: Excel, HTML och oformaterad text.
 
@@ -28,8 +28,3 @@ Följande alternativ är också tillgängliga via ![ikon][img1] menyknappen:
     > Denna åtgärd kan inte ångras.
 
 Om du klickar på ett av meddelandena på fliken visas skärmen **Utgående SMS**. Här visas information om det valda meddelandet, t.ex. dess storlek och vem som skapade det. Eventuella felmeddelanden visas också.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

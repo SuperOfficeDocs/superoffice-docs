@@ -52,7 +52,7 @@ Så här fyller du i fälten i dialogrutan Redigera poster för Uppgiftsmenyn:
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lägg till en webbpanelpost][1]
 * [Lägg till en översättning][7]

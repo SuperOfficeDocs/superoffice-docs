@@ -2,9 +2,9 @@
 uid: help-sv-faq-edit
 title: Redigera FAQ-poster
 description: Redigera FAQ-poster
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: FAQ
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -13,7 +13,7 @@ language: sv
 
 # Redigera FAQ-poster
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Gå till den mapp som FAQ-posten ligger i.
 1. Klicka på önskad FAQ-post.
 1. På skärmen **FAQ** klickar du på **Redigera post**.
@@ -25,6 +25,3 @@ language: sv
 
 <!-- Referenced links -->
 [1]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

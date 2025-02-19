@@ -38,7 +38,7 @@ För att kunna skicka inbjudningar via e-post till externa användare måste du
     > [!NOTE]
     > Videomötets URL läggs till automatiskt i mötetexten ("Anslut till möte: ..."). Om fältet **Plats** är tomt läggs videomötets URL till här.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Så konfigurerar du e-postinbjudningar till videomöten][1]
 

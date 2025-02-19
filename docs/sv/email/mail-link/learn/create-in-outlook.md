@@ -65,7 +65,7 @@ Det finns två sätt att skapa ett e-postmeddelande från Microsoft Outlook. Du 
 
 [!include[Icons with description](includes/buttons-in-email-window.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Skapa e-postmallar][3]
 

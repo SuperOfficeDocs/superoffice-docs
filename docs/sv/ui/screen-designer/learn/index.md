@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Skärmdesigner ![icon][img1]
+# Skärmdesigner <i class="ph ph-squares-four" aria-hidden="true"></i>
 
 **Skärmdesignern** i SuperOffice CRM låter dig anpassa layouten på huvudskärmar i applikationen, så att gränssnittet möter de specifika behoven hos olika användargrupper i din organisation. Denna funktion ersätter det gamla [PageBuilder][9]-verktyget och erbjuder ett mer strömlinjeformat och flexibelt sätt att konfigurera skärmar utan kodning.
 
@@ -121,7 +121,6 @@ Genom att anpassa skärmlayouterna med skärmdesignern kan du eliminera onödig 
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
 [img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png

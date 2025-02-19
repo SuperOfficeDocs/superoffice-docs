@@ -15,7 +15,7 @@ Här kan du redigera egenskaperna för en skärm. Du kan skapa ett skript för f
 
 ## Egenskaper
 
-* **Mapp:** Om du har ordnat skärmarna i en mappstruktur klickar du på ![ikon][img1] och väljer en mapp.
+* **Mapp:** Om du har ordnat skärmarna i en mappstruktur klickar du på <i class="ph ph-caret-down" aria-label="Chevron"></i> och väljer en mapp.
 * **Namn**: Ett beskrivande namn på skärmen.
 * **ID-sträng**: En unik identifieringssträng för denna skärm som webbadresser kan använda för att referera till skärmen.
 * **Autentiseringsnyckel**: Det går att visa en egendefinierad skärm utan att vara inloggad som användare. För att göra detta måste du ange en autentiseringsnyckel.
@@ -30,7 +30,4 @@ Här kan du redigera egenskaperna för en skärm. Du kan skapa ett skript för f
 * **Dold variabel**: De variabler som definieras här sparas när skärmen skickas in så att nästa skärm har åtkomst till variablerna.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[1]: ../../../request/learn/create.md
