@@ -2,10 +2,13 @@
 uid: help-sv-fastsearcher-dialog
 title: Använda snabbsökning i dialogrutor
 description: Använda snabbsökning i dialogrutor
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: söka, Snabbsökning, dialog
-topic: howto
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -27,7 +30,7 @@ Om du skriver in ett procenttecken (%) framför söktexten visas alla poster som
 
 Du kan använda %% för att se alla poster av en viss typ, till exempel alla företag, alla urval, alla projekt.
 
-Om du till exempel vill se alla dokumentmallar som finns tillgängliga i SuperOffice CRM går du till menyn **+Ny** och klickar på **Dokument**. I det övre fältet i dokumentfönstret, som anger typer av dokumentmallar, skriver du %%. Du kommer då att se en rullgardinslista som innehåller en fullständig lista över tillgängliga dokumentmallar.
+Om du till exempel vill se alla dokumentmallar som finns tillgängliga i SuperOffice CRM går du till menyn **Nytt** och klickar på **Dokument**. I det övre fältet i dokumentfönstret, som anger typer av dokumentmallar, skriver du %%. Du kommer då att se en rullgardinslista som innehåller en fullständig lista över tillgängliga dokumentmallar.
 
 ![Skriv in två procenttecken i snabbsökningen för att se alla poster -screenshot][img4]
 

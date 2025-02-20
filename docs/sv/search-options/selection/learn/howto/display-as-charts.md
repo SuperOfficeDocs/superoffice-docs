@@ -33,7 +33,7 @@ På fliken **Diagram** kan du klicka på en diagramtyp för att visa data i det 
 
 * ![ikon][img1]: Öppnar en förhandsgranskning av ett diagram. Här kan du också se datakälltabellen för diagrammet.
 
-* ![ikon][img2]: Uppdatera diagrammet med de uppdaterade uppgifterna.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Uppdatera diagrammet med de uppdaterade uppgifterna.
 
 > [!NOTE]
 > Gå till **Dashboard** i navigatorn för att visa diagram för ALLA SuperOffice-data.
@@ -52,5 +52,4 @@ Vissa diagram kan visa att inga data är tillgängliga. Detta innebär att ditt 
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

@@ -30,7 +30,7 @@ Statiska och dynamiska urval skapas på liknande sätt:
 Steg 1 är annorlunda för kombinationsurval, eftersom du då börjar med två befintliga urval i stället för att leta efter data.
 
 > [!TIP]
-> Klicka på ![ikonen][img4] till höger om kolumnrubrikerna. Här kan du gruppera och filtrera poster och lägga till/ta bort kolumner. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**. Se även [Detaljkorten][4] för fler funktioner.
+> Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna. Här kan du gruppera och filtrera poster och lägga till/ta bort kolumner. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**. Se även [Detaljkorten][4] för fler funktioner.
 
 ## Vad vill du göra?
 
@@ -46,6 +46,3 @@ Steg 1 är annorlunda för kombinationsurval, eftersom du då börjar med två b
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md
 [6]: ../update/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../../common/icons/cog-wheel.png

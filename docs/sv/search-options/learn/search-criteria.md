@@ -2,10 +2,13 @@
 uid: help-sv-search-criteria
 title: Använda sökkriterier
 description: Använda sökkriterier
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: söka, kriterier, sök
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -17,10 +20,12 @@ Du använder sökkriterier för att berätta vad du söker efter, till exempel "
 
 Vanliga sökningar finns där för att hjälpa dig att komma igång och skapa din egen sökning efter CRM-data. När du har valt en vanlig sökning, kan du lägga till och redigera sökkriterier. Och när du har skapat en användbar sökning som du vill använda igen, kan du spara den som ett urval.
 
-Titta på den här videon för att lära dig hur du gör en vanlig sökning och ändrar den genom att lägga till nya sökkriterier eller följ steg-för-steg-guiden nedan (videolängd - 3:01):
+Titta på den här videon för att lära dig hur du gör en vanlig sökning och ändrar den genom att lägga till nya sökkriterier eller följ steg-för-steg-guiden nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolängd - 3:01)
 
 ## Lägga till sökkriterier
 
@@ -65,7 +70,7 @@ Om fältet som du ska söka i är ett datumfält, till exempel fältet **Datum**
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på pilknappen ![ikon][img1].
+Välj önskat alternativ. Beroende på vad du väljer fylls fältet automatiskt i med ett datum eller datumintervall, eller så kan du ange önskat datum. Du kan också välja ett datum i kalendern som visas när du klickar på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
 ### <a id="number"></a>Sifferfält
 
@@ -117,11 +122,11 @@ När du öppnar fönstret **Sök** innehåller den standardsökkriterier eller d
 
 | Uppgift | Steg |
 |---|---|
-| Flytta kriterier (en rad) | Klicka och dra ![Symbol][img2]. |
+| Flytta kriterier (en rad) | Klicka och dra <i class="ph ph-equals" aria-label="="></i>. |
 | Ändra sökkriterier | Klicka på det och väljer ett annat i listan som visas. |
 | Inaktivera ett eller flera sökkriterier | Lämna värdefältet tomt. |
 | Inaktivera alla sökkriterierna | Klicka **Ta bort alla**. |
-| Ta bort sökkriterier | Klicka på ![Symbol][img3]. |
+| Ta bort sökkriterier | Klicka på <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Återställa kriterielistan till standardkriterierna | Klicka **Återställ till standard**. |
 
 > [!NOTE]
@@ -137,8 +142,3 @@ När du öppnar fönstret **Sök** innehåller den standardsökkriterier eller d
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png
