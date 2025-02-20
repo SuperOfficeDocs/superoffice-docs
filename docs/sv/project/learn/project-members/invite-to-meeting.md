@@ -2,10 +2,13 @@
 uid: help-sv-project-member-invite
 title: Bjuda in projektdeltagare till ett möte
 description: Hur man bjuder in en projektdeltagare till ett möte i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt, deltagare, inbjudan, händelse
+keywords: begär ett möte, bjud in projektdeltagare, inbjudan, projektdeltagare, projekt, händelse
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

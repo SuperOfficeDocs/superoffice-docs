@@ -2,10 +2,10 @@
 uid: help-sv-project-merge
 title: Slå ihop projekt
 description: Så här slår du ihop projekt i SuperOffice
-keywords: projekt
-author: SuperOffice
-date: 10.29.2024
-version: 10.3.11
+keywords: slå ihop projekt, projekt, projektledning
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,29 +14,38 @@ language: sv
 
 # Slå ihop projekt
 
-Om du har två projekt som är nästan identiska är det nu möjligt att slå ihop dem och få med projektdeltagare och aktiviteter. Källprojektet kommer att tas bort.
+Om du har två nästan identiska projekt kan du slå ihop dem, inklusive projektdeltagare och aktiviteter. Källprojektet kommer att tas bort.
 
-1. Gå till det projekt du vill koppla in i ett annat projekt. Se [Använda fönstret Sök][1].
+## Steg
 
-2. Klicka på ![ikon][img1] **Uppgift** på kortet **Projekt** och välj **Slå ihop projekt**.
+1. Gå till det projekt du vill slå ihop med ett annat projekt. Se [Använda fönstret Sök][1].
 
-3. I dialogrutan **Slå ihop projekt**, under **Till**, väljer du det projekt som du vill slå ihop med det aktuella projektet. Börja skriva i det här fältet för att söka efter ett projekt. Om du vill byta plats på **Från**- och **Till**-projekten klickar du på pilknappen.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i det övre högra hörnet av projektkortet och välj **Slå ihop projekt**.
 
-    ![Dialogrutan slå ihop projekt -screenshot][img2]
+    > [!NOTE]
+    > Om alternativet **Slå ihop** är nedtonat har du inte tillräckliga användarrättigheter för att slå ihop projekt.
 
-4. Markera alternativet **Skriv över tomma fält...** för att uppdatera tomma fält i målprojektet med detaljer från källprojektet.
+1. I dialogrutan **Slå ihop projekt**:
 
-5. Klicka på **Slå ihop**. Följande sker:
-    * Projekten slås ihop.
-    * Detaljer slås ihop (om det anges).
+    * Under **Till**, välj det projekt som det aktuella projektet ska slås ihop med. Börja skriva i fältet för att söka efter ett projekt.
+    * Om du vill byta plats på **Från**- och **Till**-projekten klickar du på pilknappen (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
+
+    > [!CAUTION]
+    > Kontrollera noga att du har valt rätt projekt i fälten **Från** och **Till** innan du fortsätter. **Sammanfogningen kan inte ångras**.
+
+1. (Valfritt) Markera **Skriv över tomma fält med data från [källprojekt]** för att uppdatera tomma fält i målprojektet med detaljer från källprojektet.
+
+1. Klicka på **Slå ihop**. Följande händer:
     * Projektdeltagare flyttas eller slås ihop.
-    * Eventuella tillhörande försäljningar flyttas.
     * Alla aktiviteter flyttas.
-        Om du slår ihop ett projekt som är kopplat till en projektguide med ett projekt som har en annan projektguide eller inte har någon projektguide tas projektguiden bort från källprojektet. Alla händelser och dokument som har skapats flyttas dock över till det nya projektet och visas på detaljkortet **Aktiviteter**.
-    * Eventuellt tidigare publicering av käll- och målprojektet inaktiveras.
+    * Eventuella tillhörande försäljningar flyttas.
+    * Detaljer slås ihop (om det anges).
+    * Om du slår ihop ett projekt som är kopplat till en projektguide med ett projekt som har en annan eller ingen projektguide, tas projektguiden bort från källprojektet.
     * Källprojektet tas bort.
 
-## Relaterade ämnen
+![Dialogrutan Slå ihop projekt -screenshot][img2]
+
+## Relaterat innehåll
 
 * [Redigera projekt][3]
 * [Slå ihop företag][2]
@@ -47,5 +56,4 @@ Om du har två projekt som är nästan identiska är det nu möjligt att slå ih
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/project/merge-project.png
+[img2]: ../../../media/loc/en/project/merge-projects.png

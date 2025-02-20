@@ -1,9 +1,9 @@
 ---
 uid: help-sv-project-image-add
-title: Lägga in en projektbild
-description: Så här lägger du in en projektbild
+title: Lägg till eller ändra en projektbild
+description: Lägg till eller ändra en projektbild
 keywords: projekt
-author: SuperOffice RnD
+author: Bergfrid Dias
 date: 10.08.2024
 version: 10.3.10
 topic: howto
@@ -12,33 +12,47 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Lägga in en projektbild
+# Lägg till eller ändra en projektbild
 
-På fliken **Bild** kan du lägga in en bild för projektet. Projektbilden används främst när projektet visas i SuperOffice Audience (kräver en separat licens), men den kan också användas för andra typer av projektvisningar.
+Fliken **Bild** gör det möjligt att ladda upp och hantera bilder för ett projekt.
 
-1. Öppna projektskärmen. Gör något av följande:
+![Projektskärmen med projektbild -screenshot][img1]
 
-    * Klicka på **Projekt**-knappen i navigatorn.
-    * Använd [historiklistan][1] eller navigatorsök.
-    * Dubbelklicka på ett projekt i ett sökresultat, eller på detaljkortet **Projekt** i fönstret Företag.
+## Steg för att lägga till en projektbild
 
-2. Välj fliken **Bild**.
+1. Öppna projektskärmen och gå till fliken **Bild**.
 
-3. Klicka på **Redigera**.
+1. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera"></i> för att aktivera redigeringsläget.
 
-4. Klicka på knappen **Lägg till**.
+1. Klicka på **Lägg till bild**.
 
-5. Gör något av följande i dialogrutan **Välj bild**:
-    * Om bilden du vill använda finns under **Bilder**, väljer du den för att visa en förhandsgranskning under **Förhandsgranska**.
-    * Om du vill lägga till en ny bild, klickar du på **Lägg till**, väljer önskad bild och lägger till en beskrivning som beskriver bilden på ett bättre sätt än endast filnamnet gör. Klicka sedan på **OK/Spara**. Välj bilden för att visa en förhandsgranskning under **Förhandsgranska**.
-    * Om du vill ta bort en bild från databasen, markerar du den och klickar på **Ta bort**.
+1. Ladda upp eller dra och släpp en bildfil:
 
-6. Klicka på **OK** för att lägga till bilden. Bilden visas under fliken **Bild** och beskrivningen finns i fältet **Bild**.
+    * Dra bildfilen till uppladdningsområdet.
+    * Eller klicka på **Ladda upp fil** för att bläddra och välja en bild från datorn.
 
-7. Klicka på **Spara** för att spara ändringarna eller **Avbryt** för att stänga utan att spara.
+    När bilden är uppladdad visas en förhandsgranskning till höger.
 
-    > [!NOTE]
-    > Om du vill ta bort en aktiv projektbild, klickar du på **Ta bort** till vänster om beskrivningen.
+1. Välj en bild:
+
+    * Klicka på en uppladdad bild i listan för att förhandsgranska den till höger.
+
+1. Klicka på **OK** för att ange den valda bilden som projektbild.
+
+1. Klicka på **Spara** för att tillämpa ändringarna eller **Avbryt** för att ångra.
+
+## Steg för att ändra eller återställa projektbilden
+
+1. Öppna fliken **Bild** och klicka på <i class="ph ph-pencil-simple" aria-label="Redigera"></i>.
+
+1. För att ta bort den nuvarande bilden, klicka på **Ta bort**.
+
+1. Efter borttagning kan du:
+
+    * Klicka på **OK** och **Spara** för att återställa till standardbilden.
+    * Eller ladda upp/välja en ny bild och sedan klicka på **OK** och **Spara** för att spara ändringarna.
 
 <!-- Referenced links -->
-[1]: ../../learn/basics/history.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/project-image.png
