@@ -1,11 +1,14 @@
 ---
 uid: help-sv-bulk-update
 title: Massredigering
-description: Massredigering
-author: SuperOffice RnD
-date: 06.29.2022
+description: Massredigering2
 keywords: massredigering
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -15,7 +18,7 @@ Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter 
 
 1. Öppna urvalet, detaljkortet (arkiv) eller sökresultaten (fönstret **Sök**) som innehåller uppgifterna du vill uppdatera.
 
-2. Urval: Klicka på **Uppgift**-knappen och välj **Massredigering**.
+2. Urval: Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Massredigering**.
     eller
     Välj de poster du vill uppdatera, högerklicka på dem och välj **Massredigering...**.
     Dialogrutan **Massredigering** öppnas. Längst ned i den här dialogrutan kan du se typ av uppgift och hur många uppgifter som ska uppdateras. Exempel: Antal kontakter i kö för massredigering: 7.
@@ -38,17 +41,14 @@ Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter 
 
 5. Om du vill lägga till flera fält som ska uppdateras klickar du på **Lägg till** och upprepar steg 3 och 4.
 
-6. Se till att du markerar (![ikon][img1]) fälten du vill uppdatera och ta bort markeringen (![ikon][img2]) på de fält du INTE VILL uppdatera.
+6. Se till att du markerar (<i class="ph ph-check" aria-hidden="true"></i>) fälten du vill uppdatera och ta bort markeringen på de fält du INTE VILL uppdatera.
 
 7. Klicka på **Uppdatera**. Dialogrutan **Bekräfta** öppnas och visar en översikt över uppdateringarna.
 
-    > [!NOTE]
-    > När en uppdatering har tillämpats går det inte att ångra den.
-
 8. Klicka på **Ja** för att implementera ändringarna i de valda posterna.
 
-    > [!NOTE]
-    > Det går inte att stoppa uppdateringen så fort du har startat den. Element som ännu inte har uppdaterats kommer inte att uppdateras.
+    > [!CAUTION]
+    > När en uppdatering har tillämpats kan den inte ångras. Du kan dock stoppa uppdateringen medan den pågår. Poster som ännu inte har uppdaterats förblir oförändrade.
 
 9. Klicka på **Logg** för att visa ändringsloggen. Om några poster inte uppdaterades registreras orsaken till detta i kolumnen **Orsak**.
 
@@ -89,9 +89,3 @@ Du har upptäckt att fältet **Ställning** för kontakter sällan används. Fö
 ## Uppdatera projekt
 
 Du vill röja upp bland alla "gamla" projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

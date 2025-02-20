@@ -155,34 +155,34 @@ items:
         - name: Ta bort ärendetyp
           href: ../request/learn/type/delete.md
       - name: Kategorier
-        topicHref: ../request/learn/category/index.md
+        topicHref: ../request/admin/category/index.md
         items:
         - name: Översikt
-          href: ../request/learn/category/index.md
+          href: ../request/admin/category/index.md
         - name: Skapa ärendekategori
-          href: ../request/learn/category/create.md
+          href: ../request/admin/category/create.md
         - name: Ta bort ärendekategori
-          href: ../request/learn/category/delete.md
+          href: ../request/admin/category/delete.md
       - name: Prioriteter
-        topicHref: ../request/learn/priority/index.md
+        topicHref: ../request/admin/priority/index.md
         items:
         - name: Översikt
-          href: ../request/learn/priority/index.md
+          href: ../request/admin/priority/index.md
         - name: Skapa prioritet
-          href: ../request/learn/priority/create.md
+          href: ../request/admin/priority/create.md
         - name: Ta bort prioritet
-          href: ../request/learn/priority/delete.md
+          href: ../request/admin/priority/delete.md
         - name: Skapa eskaleringsnivåer
-          href: ../request/learn/priority/escalation-levels.md
+          href: ../request/admin/priority/escalation-levels.md
       - name: Ärendestatus
-        topicHref: ../request/learn/status/index.md
+        topicHref: ../request/admin/status/index.md
         items:
         - name: Översikt
-          href: ../request/learn/status/index.md
+          href: ../request/admin/status/index.md
         - name: Skapa ärendestatus
-          href: ../request/learn/status/create.md
+          href: ../request/admin/status/create.md
         - name: Ta bort ärendestatus
-          href: ../request/learn/status/delete.md
+          href: ../request/admin/status/delete.md
         - name: Hämta nästa ärende i kön
           href: ../request/learn/next-in-queue.md
       - name: E-post

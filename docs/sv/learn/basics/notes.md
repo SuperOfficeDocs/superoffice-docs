@@ -2,10 +2,10 @@
 uid: help-sv-notes
 title: Anteckna
 description: Anteckna
-keywords: anteckning, anteckningsblock
-author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+keywords: Anteckning-flik, skriva anteckningar, skapa anteckning
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,20 +14,23 @@ language: sv
 
 # Anteckna
 
-I SuperOffice CRM kan du koppla individuella anteckningar till det aktuella företaget, kontakten, försäljningen, projektet eller urvalet.
+I SuperOffice CRM kan du koppla anteckningar till ett företag, en kontakt, en försäljning, ett projekt eller ett urval. Dessa anteckningar kan användas för att lagra valfri information och är sökbara via [fritextsökning][1].
 
-## Skapa anteckning
+## Skapa en anteckning
 
-1. Gå till önskat företag, kontakt, försäljning, urval eller projekt.
-2. Välj fliken **Anteckning** och klicka på **Ändra**.
-3. Skriv kommentartexten på lappen.
-4. Klicka på **Spara**.
+1. Gå till det aktuella företaget, kontakten, försäljningen, projektet eller urvalet.
 
-En knappnålssymbol på fliken Anteckning innebär att det finns en anteckning.
+1. Välj fliken **Anteckning** och klicka på <i class="ph ph-pencil-simple" aria-label="Ändra"></i> i det övre högra hörnet av kortet.
 
-## Ta bort anteckning
+1. Skriv in den information du vill spara i anteckningen.
 
-Du kan enkelt ta bort en anteckning genom att radera all text i anteckningen. Knappnålssymbolen försvinner då från fliken **Anteckning**.
+1. Klicka på **Spara**.
+
+En punkt på fliken **Anteckning** indikerar att en anteckning har lagts till.
+
+## Ta bort en anteckning
+
+För att ta bort en anteckning raderar du helt enkelt all text i fältet. Punkten försvinner då från fliken **Anteckning**.
 
 <!-- Referenced links -->
-<!-- Referenced images -->
+[1]: ../../search-options/learn/freetext-search.md
