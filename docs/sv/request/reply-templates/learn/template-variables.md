@@ -2,10 +2,12 @@
 uid: help-sv-template-variables-service
 title: Mallvariabler
 description: Mallvariabler
+keywords: ärende
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: ärende
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 
@@ -236,7 +238,3 @@ Formatera datum:
 Formatera tid:
 
 \[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

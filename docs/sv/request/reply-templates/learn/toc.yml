@@ -1,22 +1,13 @@
 items:
 - name: Översikt
   href: index.md
-- name: Arbeta med svarsmallar
-  topicHref: create.md
-  items:
-  - name: Skapa svarsmall
-    href: create.md
-  - name: Kopiera befintlig mall
-    href: copy.md
-  - name: Översätta en svarsmall
-    href: new-language.md
-  - name: Redigera svarsmall
-    href: edit.md
-  - name: Ta bort svarsmall
-    href: delete.md
-  - name: Söka efter svarsmall
-    href: find.md
-  - name: Administrera mappar med svarsmallar
-    href: manage-folders.md
+- name: Skapa svarsmall
+  href: create.md
+- name: Översätta en svarsmall
+  href: new-language.md
+- name: Redigera eller ta bort svarsmall
+  href: edit.md
+- name: Administrera mappar
+  href: manage-folders.md
 - name: Svarsmallsvariabler
   href: template-variables.md

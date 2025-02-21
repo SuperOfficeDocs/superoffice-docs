@@ -1,11 +1,16 @@
 ---
 uid: help-sv-reply-template-folder
 title: Administrera mappar med svarsmallar
-description: Administrera mappar med svarsmallar
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: ärende, svar, mapp
+description: Organisera svarsmallar med en anpassningsbar mappstruktur för enkel åtkomst och logisk gruppering. Skapa undermappar och hantera mallar effektivt.
+keywords: skapa mapp, ta bort mapp, organisera svarsmallar, ärende, svarsmallsmapp, undermappar, mapp
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
+audience_tooltip: SuperOffice Service
 language: sv
 ---
 
@@ -30,7 +35,5 @@ Innan du kan ta bort en svarsmallsmapp måste du ta bort alla poster i den. Det 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: delete.md
+[2]: edit.md#delete
 [3]: edit.md
-
-<!-- Referenced images -->
