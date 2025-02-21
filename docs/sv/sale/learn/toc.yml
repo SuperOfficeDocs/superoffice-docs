@@ -1,34 +1,29 @@
 items:
 - name: Översikt
   href: index.md
-- name: Status för en försäljning (faser)
-  href: stages.md
+  - name: Skapa försäljning
+  href: create.md
+- name: Redigera eller ta bort försäljning
+  href: update.md
+- name: Säljguider
+  href: sales-guides.md
+- name: Tutorial
+  href: tutorial.md
 - name: Intressenter
   href: stakeholders/index.md
-- name: Försäljningsguide
-  href: sales-guide/index.md
-- name: Detaljkortet Försäljningsguide
-  href: sales-guide/sales-guide-tab.md
-- name: Arbeta med försäljning
-  topicHref: create.md
   items:
-  - name: Skapa försäljning
-    href: create.md
-  - name: Ta bort försäljning
-    href: delete.md
   - name: Lägga till intressenter
     href: stakeholders/create.md
   - name: Redigera eller ta bort intressenter
     href: stakeholders/edit.md
-  - name: Använda sidopanelen
-    href: use-side-panel.md
-  - name: Arbeta med säljguide
-    href: sales-guide/working-with-sales-guide.md
-  - name: Prognoser
-    href: forecasting.md
-- name: Offert
-  href: ../../quote/learn/toc.yml
-  topicHref: ../../quote/learn/index.md
+- name: Prognoser
+  href: forecasting.md
 - name: Försäljningsmål
   href: sales-targets/toc.yml
   topicHref: sales-targets/index.md
+- name: Offert
+  href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

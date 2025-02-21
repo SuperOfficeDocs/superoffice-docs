@@ -30,7 +30,7 @@ Du kan ange en måltyp för både användare och grupper, samt ställa in andra 
 
 ## Lägg till ny måltyp
 
-1. Klicka på **Lägg till ny måltyp**. Eller klicka på ![ikon][img5] (**Konfigurera mål**) på fliken för att redigera en befintlig måltyp.
+1. Klicka på **Lägg till ny måltyp**. Eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> (**Konfigurera mål**) på fliken för att redigera en befintlig måltyp.
 
 2. Klicka på **Typ av mål** för att välja måltypen (dimension) som du vill använda.
 
@@ -92,7 +92,7 @@ När det gäller måltyperna med målundertypslistan kan du klicka på Filter-kn
 
 För att ta bort en måltyp, klicka på Målinställningar och sedan på knappen Ta bort. Tänk på att borttagning av en måltyp är en åtgärd som inte kan ångras, och den kommer att ta bort alla data för måltypen under tidigare, nuvarande och framtida år. Standardmåltypen Alla försäljningar - belopp går inte att ta bort.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Använda försäljningsmål i figurer på dashboard][2]
 
@@ -101,7 +101,6 @@ För att ta bort en måltyp, klicka på Målinställningar och sedan på knappen
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png

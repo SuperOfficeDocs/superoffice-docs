@@ -3,10 +3,12 @@ uid: help-sv-stakeholder-create
 title: Lägg till intressenter
 description: Hur man kopplar en försäljning till en intressent (företag eller kontakt) i SuperOffice.
 keywords: försäljning, intressent
+keywords: Lägg till intressent, ny intressent, Lägg till/redigera intressenter-dialog, Intressent-detaljkort, intressent, försäljning
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 02.25.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -32,11 +34,11 @@ Ett företag/en kontakt kan läggas till som en intressent flera gånger, förut
 
       ![Lägg till/redigera intressenter dialog, historik -screenshot][img5]
 
-    * **Användargrupp**: Klicka ![ikon][img2] för att bläddra genom associerade personer efter grupp.
+    * **Användargrupp**: Klicka <i class="ph ph-users" aria-label="Associate icon"></i> för att bläddra genom associerade personer efter grupp.
 
       ![Lägg till/redigera intressenter dialog, grupp -screenshot][img6]
 
-    * **Företag**: Klicka ![ikon][img3] för att bläddra genom kontakter i ett företag eller lägga till ett företag som intressent.
+    * **Företag**: Klicka <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> för att bläddra genom kontakter i ett företag eller lägga till ett företag som intressent.
 
       ![Lägg till/redigera intressenter dialog, företag -screenshot][img7]
 
@@ -64,19 +66,16 @@ Ett företag/en kontakt kan läggas till som en intressent flera gånger, förut
 
 * **Lägg till kommentarer**
 
-    Om en kommentar läggs till visas ett ![ikon][img1] gem bredvid **Säljroll**-kolumnen i **Intressenter**-detaljkortet. Håll muspekaren över gemet för att visa kommentarens tooltip.
+    Om en kommentar läggs till visas ett gem (<i class="ph ph-paperclip" aria-hidden="true"></i>) bredvid **Säljroll**-kolumnen i **Intressenter**-detaljkortet. Håll muspekaren över gemet för att visa kommentarens tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
-[4]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../admin/sale-type.md
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
