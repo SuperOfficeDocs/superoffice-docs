@@ -1,0 +1,45 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Ärendetyper
+  topicHref: type/index.md
+  items:
+  - name: Översikt
+    href: type/index.md
+  - name: Skapa ärendetyp
+    href: type/create.md
+  - name: Ta bort ärendetyp
+    href: type/delete.md
+- name: Kategorier
+  topicHref: category/index.md
+  items:
+  - name: Översikt
+    href: category/index.md
+  - name: Skapa ärendekategori
+    href: category/create.md
+  - name: Ta bort ärendekategori
+    href: category/delete.md
+- name: Prioriteter
+  topicHref: priority/index.md
+  items:
+  - name: Översikt
+    href: priority/index.md
+  - name: Skapa prioritet
+    href: priority/create.md
+  - name: Ta bort prioritet
+    href: priority/delete.md
+  - name: Skapa eskaleringsnivåer
+    href: priority/escalation-levels.md
+- name: Ärendestatus
+  topicHref: status/index.md
+  items:
+  - name: Översikt
+    href: status/index.md
+  - name: Skapa ärendestatus
+    href: status/create.md
+  - name: Ta bort ärendestatus
+    href: status/delete.md
+- name: Hämta nästa ärende i kön
+  href: next-in-queue.md
+- name: Systemmallar
+  href: system-templates.md
