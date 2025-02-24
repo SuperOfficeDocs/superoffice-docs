@@ -56,7 +56,7 @@ Följande fält finns tillgängliga i företagskortet. Vissa fält fylls i autom
   * **Stopp:** Indikerar att företaget kräver särskild hantering. Om du väljer **Stopp** visas en stoppskylt på företagskortet. Du kan också lägga till en kommentar som förklarar varför företaget är markerat. Alternativet är endast tillgängligt i redigeringsläge.
   * **Inga utskick:** Förhindrar att företaget får direktutskick. Denna inställning kan endast användas i redigeringsläge.
 
-[!include[3 udef](../../../learn/includes/more-udef.md)]
+[!include[3 udef](../../learn/includes/more-udef.md)]
 
 ## Dubbletter
 

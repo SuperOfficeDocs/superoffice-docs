@@ -299,7 +299,7 @@ conceptualContent:
       - text: Working with sales guide
         itemType: list
         typeDesc: how-to-guide
-        url: ../sale/learn/sales-guide/working-with-sales-guide.md
+        url: ../sale/learn/sales-guides.md
       - text: New dashboard
         itemType: list
         typeDesc: how-to-guide

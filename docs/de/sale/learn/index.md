@@ -117,8 +117,8 @@ Weitere Details zur Einrichtung von Verkaufschancen finden Sie im [Leitfaden zur
 [2]: update.md#stalled
 [5]: stakeholders/create.md
 [15]: stakeholders/index.md
-[6]: sales-guide/working-with-sales-guide.md
-[16]: sales-guide/index.md
+[6]: tutorial.md
+[16]: sales-guides.md
 [7]: sales-targets/index.md
 [21]: forecasting.md
 [10]: ../../learn/basics/fav.md

@@ -43,7 +43,7 @@ Learn how to access these areas using the [Navigator][1] or global buttons.
 
 ## SuperOffice: onsite vs. online
 
-SuperOffice CRM is available as a cloud-based online application or as an onsite installation. While the core functionality is the same, some features, like import and scripting, are only available in the onsite [Windows administration client][1]. To access SOLoader, advanced import, replication, Travel and scripting, see [Windows Client settings][20].
+SuperOffice CRM is available as a cloud-based online application or as an onsite installation. While the core functionality is the same, some features, like import and scripting, are only available in the onsite Windows administration client. To access SOLoader, advanced import, replication, Travel and scripting, see [Windows Client settings][20].
 
 > [!NOTE]
 > If you are using a different CRM version, press **F1** in your system for help tailored to your version and language.
