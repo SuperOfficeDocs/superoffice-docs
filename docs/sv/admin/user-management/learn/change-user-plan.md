@@ -28,7 +28,7 @@ Användarinställningar i SuperOffice CRM där du ändrar användarplaner Använ
 
 2. Välj den aktiva användare vars användarplan behöver ändras i fönstret för medarbetare.
 
-    Kontrollera att han/hon har rätt Roll och tillhör rätt Primärgrupp.
+    Kontrollera att de har rätt Roll och tillhör rätt Primärgrupp.
 
 3. Välj önskad användarplan i fältet för Användarplan.
 

@@ -27,7 +27,7 @@ Inkommande chattsamtal annonseras på följande sätt:
 ![ikon][img4] Du listas inte som närvarande handläggare och får inte aviseringar om obesvarade chattsamtal. Du kan dock fortfarande svara på inkommande chattsamtal.
 
 > [!NOTE]
-> Om alla handläggare har status **Frånvarande** ser kunden bara det frånkopplade formuläret när han/hon startar chattsamtalet.
+> Om alla handläggare har status **Frånvarande** ser kunden bara det frånkopplade formuläret när de startar chattsamtalet.
 
 ## Svara på nästa chattsamtal i kön
 

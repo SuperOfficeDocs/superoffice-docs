@@ -89,30 +89,12 @@ items:
       topicHref: ../quote/learn/admin/index.md
 
     - name: Arbetsflöde
-      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      topicHref: ../sale/admin/create-sales-guide.md
       items:
       - name: Försäljningsguide
-        topicHref: ../sale/learn/screen/sales-guide-admin.md
-        items:
-        - name: Översikt
-          href: ../sale/learn/screen/sales-guide-admin.md
-        - name: Skapa en ny säljguide
-          href: ../sale/learn/sales-guide/create.md
-        - name: Redigera säljguide
-          href: ../sale/learn/sales-guide/edit.md
-        - name: Inaktivera säljguide
-          href: ../sale/learn/sales-guide/deactivate.md
+        topicHref: ../sale/admin/create-sales-guide.md
       - name: Projektguide
-        topicHref: ../project/learn/screen/project-guide-admin.md
-        items:
-        - name: Översikt
-          href: ../project/learn/screen/project-guide-admin.md
-        - name: Skapa ny projektguide
-          href: ../project/learn/project-guide/create.md
-        - name: Redigera projektguide
-          href: ../project/learn/project-guide/edit.md
-        - name: Inaktivera projektguide
-          href: ../project/learn/project-guide/deactivate.md
+        topicHref: ../project/admin/create-project-guide.md
 
     - name: Egendefinierade objekt
       href: ../custom-objects/learn/toc.yml
@@ -141,55 +123,11 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Ärenden
-      topicHref: ../request/learn/admin/index.md
-      items:
-      - name: Översikt
-        href: ../request/learn/admin/index.md
-      - name: Ärendetyper
-        topicHref: ../request/learn/type/index.md
-        items:
-        - name: Översikt
-          href: ../request/learn/type/index.md
-        - name: Skapa ärendetyp
-          href: ../request/learn/type/create.md
-        - name: Ta bort ärendetyp
-          href: ../request/learn/type/delete.md
-      - name: Kategorier
-        topicHref: ../request/admin/category/index.md
-        items:
-        - name: Översikt
-          href: ../request/admin/category/index.md
-        - name: Skapa ärendekategori
-          href: ../request/admin/category/create.md
-        - name: Ta bort ärendekategori
-          href: ../request/admin/category/delete.md
-      - name: Prioriteter
-        topicHref: ../request/admin/priority/index.md
-        items:
-        - name: Översikt
-          href: ../request/admin/priority/index.md
-        - name: Skapa prioritet
-          href: ../request/admin/priority/create.md
-        - name: Ta bort prioritet
-          href: ../request/admin/priority/delete.md
-        - name: Skapa eskaleringsnivåer
-          href: ../request/admin/priority/escalation-levels.md
-      - name: Ärendestatus
-        topicHref: ../request/admin/status/index.md
-        items:
-        - name: Översikt
-          href: ../request/admin/status/index.md
-        - name: Skapa ärendestatus
-          href: ../request/admin/status/create.md
-        - name: Ta bort ärendestatus
-          href: ../request/admin/status/delete.md
-        - name: Hämta nästa ärende i kön
-          href: ../request/learn/next-in-queue.md
-      - name: E-post
-        href: ../email/service/learn/toc.yml
-        topicHref: ../email/service/learn/index.md
-      - name: Systemmallar
-        href: ../request/learn/screen/system-templates.md
+      topicHref: ../request/admin/index.md
+
+    - name: E-post
+      href: ../email/service/learn/toc.yml
+      topicHref: ../email/service/learn/index.md
 
     - name: Kundcenter
       href: ../customer-center/learn/toc.yml

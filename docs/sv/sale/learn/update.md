@@ -108,6 +108,6 @@ Om försäljningen har statusen **Såld** eller **Förlorad** kan du markera **A
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Refererade bilder -->
-[img1]: ../../../media/loc/sv/sale/stalled-sale.png
-[img2]: ../../../media/loc/sv/sale/won-sale.png
-[img3]: ../../../media/loc/sv/sale/lost-sale.png
+[img1]: ../../../media/loc/en/sale/stalled-sale.png
+[img2]: ../../../media/loc/en/sale/won-sale.png
+[img3]: ../../../media/loc/en/sale/lost-sale.png

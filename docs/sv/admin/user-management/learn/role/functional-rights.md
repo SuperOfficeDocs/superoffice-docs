@@ -7,9 +7,9 @@ author: Philip Yates, Bergfrid Dias
 date: 06.14.2024
 version: 10.3.5
 topic: reference
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Functional rights in SuperOffice

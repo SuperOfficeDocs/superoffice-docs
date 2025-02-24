@@ -84,7 +84,7 @@ På fliken **Agent** kan du ge användarna tillgång till en chattkanal och ange
 2. Klicka på **Lägg till**. Användaren läggs till i listan över agenter och har tillgång till den valda chattkanalen.
 3. Välj en eller flera av följande behörigheter:
     * **Kan besvara**: Agenten kan svara på inkommande chattsamtal i den här kanalen.
-    * **Förvarningar**: Handläggaren tar emot varningar om han/hon är på plats.
+    * **Förvarningar**: Handläggaren tar emot varningar om de är på plats.
     * **Kan lyssna**: Agenten kan öppna och övervaka ett pågående chattsamtal som en annan agent för.
     * **Chef**: Agenten får chefsvarningar. Denna behörighet kan användas för exempelvis teamledare.
 4. Upprepa steg 1-3 för varje agent du vill lägga till.

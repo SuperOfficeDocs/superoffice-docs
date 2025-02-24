@@ -56,7 +56,7 @@ Varje projekt måste ha en typ, och dessa typer kan kopplas till specifika [stat
 
 ## Redigera eller ta bort en projekttyp
 
-1. Följ steg 1–2 ovan för att öppna listan **Projekt - Typ, status**.
+1. Följ steg 1-2 ovan för att öppna listan **Projekt - Typ, status**.
 
 1. För att redigera:
    * Dubbelklicka på önskad projekttyp för att öppna dialogrutan **Redigera listpost**.

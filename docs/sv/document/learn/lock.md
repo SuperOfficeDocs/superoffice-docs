@@ -48,7 +48,7 @@ I de flesta fall kan du [spara och stänga dokumentet][1] i applikationen så ch
 Du behöver särskilda behörigheter för att få tillgång till det här alternativet. Du måste också ha skrivrättigheter till dokumentet.
 
 > [!CAUTION]
-> Om en annan användare har checkat ut ett dokument måste du alltid kontakta denna användare innan du utför den här proceduren. Annars finns en risk att du skriver över en annan persons ändringar eller att den andra användaren skriver över dina ändringar när han/hon checkar in dokumentet
+> Om en annan användare har checkat ut ett dokument måste du alltid kontakta denna användare innan du utför den här proceduren. Annars finns en risk att du skriver över en annan persons ändringar eller att den andra användaren skriver över dina ändringar när de checkar in dokumentet
 >
 > Det bästa alternativet kan vara att göra en kopia av dokumentet och redigera kopian.
 

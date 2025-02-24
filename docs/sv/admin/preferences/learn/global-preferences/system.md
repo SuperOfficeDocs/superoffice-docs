@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.25.2025
 version: 10
 topic: reference
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Globala inställningar <i class="ph ph-gear" aria-label="Gear icon"></i>

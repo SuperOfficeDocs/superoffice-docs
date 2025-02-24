@@ -7,7 +7,7 @@ date: 08.27.2024
 version: 10.3.1
 keywords: udef, anpassa fält, användardefinierad fält
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
 ---

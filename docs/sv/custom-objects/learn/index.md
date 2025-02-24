@@ -7,9 +7,9 @@ date: 01.29.2024
 version: 10
 keywords: egendefinierade objekt, användardefinierade fält, extratabell, extrafält, tilläggsfält, anpassat fält
 topic: concept
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Egendefinierade objekt och fält
