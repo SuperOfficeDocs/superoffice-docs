@@ -2,11 +2,12 @@
 uid: help-sv-sale
 title: Försäljning
 description: SuperOffice Sales hjälper säljteam att hålla koll på sina försäljningspipelines och processer.
-keywords: försäljning
-author: SuperOffice RnD
-date: 10.29.2024
-version: 10.3.11
+keywords: fönstret Försäljning, försäljningskort, försäljningsskärm, försäljning, affärsmöjlighet, sälj
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+license: salesessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -14,121 +15,122 @@ language: sv
 
 # Försäljning
 
-Med försäljningsfunktionen i SuperOffice CRM kan du registrera försäljningar, granska kostnader och vinster för varje försäljning och koppla försäljningar till projekt.
+Funktionen **Försäljning** i SuperOffice CRM hjälper dig att hantera dina affärsmöjligheter genom att samla all relevant information, aktiviteter och dokument på ett och samma ställe. Genom att strukturera försäljningsprocesserna säkerställer du att inga möjligheter missas och att ditt team fokuserar på de viktigaste uppgifterna – att stänga fler affärer och nå sina mål.
 
-Om du hanterar dina försäljningsmöjligheter effektivt, leder det till fler genomförda affärer. SuperOffice Sales är utformat för att hjälpa säljteamet med deras dagliga uppgifter och hjälpa dem att alltid nå sina mål.
+![Fönstret Försäljning -screenshot][img1]
 
-Titta på den här videon och se hur enkelt det kan vara att uppsöka affärsmöjligheter med SuperOffice CRM (videons längd – 2:16):
+Du kan länka försäljningar till företag, personer och projekt, vilket gör det enkelt att samarbeta mellan olika team. Försäljningar kan också styras med hjälp av säljguider, förutsatt att den valda försäljningstypen har en definierad guide.
+
+Titta på denna video för att se hur enkelt det är att driva affärsmöjligheter i SuperOffice :
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
 
-Fönstret **Försäljning** innehåller information om de försäljningar som lagts in i SuperOffice CRM. Varje försäljning visas som ett indexkort som visar all information om den försäljningen.
+(videons längd – 2:16)
 
-Om du vill flytta mellan olika försäljningar, klickar du på knapparna föregående/nästa ( ![ikon][img2] ![ikon][img4] ) längst ned till höger på korten.
-
-Du kan också [skapa offerter][1] på detaljkortet Offert i fönstret **Försäljning**.
-
-## Var kan jag se försäljning?
-
-Förutom i fönstret [Försäljning][2] kan försäljningar visas på [detaljkortet Försäljning][13] i fönstren Företag, Kontakt, Kalender och Projekt.
+Fönstret Försäljning organiserar försäljningar som indexkort och ger en detaljerad översikt över varje affärsmöjlighet. Navigera mellan försäljningar med knapparna **Föregående** och **Nästa** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) längst ner till höger på korten. Som standard visas alla försäljningar. Om du inte vill visa slutförda försäljningar (sålda eller förlorade), klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsknapp"></i> och välj **Hoppa över slutförd försäljning**.
 
 > [!TIP]
-> Dubbelklicka på en försäljning på någon av dessa platser för att öppna den i fönstret Försäljning.
+> Försäljningar visas också på [detaljkortet Försäljning][13] i fönstren Företag, Kontakt, Projekt och Kalender. Dubbelklicka på en försäljning i dessa vyer för att öppna den i fönstret Försäljning.
 
-## Använd försäljningsöversikt för att prioritera
+## Flikar på försäljningskortet
 
-Håll din försäljning organiserad så att du alltid är fokuserad på den försäljning som betyder mest för dig.
+| Flik | Beskrivning |
+|---|---|
+| [Försäljning][4] | Innehåller huvudfälten för försäljningen, såsom **Titel** (obligatoriskt), **Fas** och **Belopp**. |
+| [Detaljer][4] | Fokuserar på finansiella detaljer, inklusive **Total kostnad**, **Vinst** och **Konkurrent**. |
+| [Mer][12] | Anpassade fält för ytterligare försäljningsspecifik information. Upp till tre fält från denna flik kan också visas på fliken **Försäljning** för bättre översikt. |
+| [Anteckningar][19] | Ett fritextfält för att lägga till anteckningar om försäljningen. Fliken markeras med en punkt när den innehåller text. |
+| [Länkar][18] | Koppla relevanta aktiviteter, dokument eller möjligheter till försäljningen. |
 
-När du har registrerat all din försäljning i SuperOffice CRM, visas den i din personliga försäljningsöversikt på fliken **Försäljning** och i din kalender.
-
-Du kan organisera din försäljningslista genom att [filtrera, gruppera och lägga till de kolumner][3] som är viktigast för dig. De mest använda kolumnerna är: försäljningsbelopp, försäljningsdatum och försäljningsfas.
-
-Fliken **Försäljning** fungerar också som en försäljningssekreterare genom att markera alla dina kommande planerade aktiviteter i fältet **Nästa aktivitet**, samt markera dem som du kanske har glömt med rött teckensnitt.
-
-![Gå till kalendern och få en översikt över alla försäljningar som ännu inte är slutförda -screenshot][img1]
-
-## Huvudkortet för försäljning
-
-### Fliken försäljning
-
-Den här fliken innehåller de huvudfält som du måste fylla i. Titeln är den första, och den är också obligatorisk. Läs mer om hur du [skapar en försäljning][4].
-
-![Fliken försäljning i fönstret försäljning -screenshot][img5]
-
-### Fliken Detaljer
-
-Den här fliken innehåller fält som särskilt fokuserar på de finansiella detaljerna för försäljningen.
-
-![Fliken säljdetaljer -screenshot][img3]
-
-| Fält | Beskrivning | Definieras i Inställningar och underhåll |
-|---|---|---|
-|Nummer | ID-numret för försäljningen, där nästa lediga försäljningsnummer anges automatiskt. | x |
-| Källa | Visar källan till försäljningen, enligt vad som anges på fliken **Försäljning** . Du kan också redigera källan här. | |
-| Konkurrent | Innehåller en fördefinierad lista över konkurrenter. Här kan du ange vilken konkurrent som helst för försäljningen. Du kan bara välja en konkurrent. | x |
-| Total kostnad | Ange här kostnaden som uppstår i samband med försäljningen. Den visas i samma valuta som beloppet. Standardvärdet är 0. När du anger ett belopp i det här fältet, beräknas vinstprocenten och beloppet automatiskt i fältet nedan. | |
-| Vinst | Ange vinsten i samband med försäljningen här. Den visas i samma valuta som beloppet. | |
-| Tillfaller | Innehåller en fördefinierad lista över avdelningar som kan ansvara för försäljningen. | x |
-| Användardefinierade fält | I de användardefinierade fälten kan du ange ytterligare information om försäljningen. | |
-
-> [!NOTE]
-> Om du ändrar värdet i fältet **Total kostnad**, fältet **Bruttovinst** eller fältet för vinstprocent, uppdateras de andra fälten automatiskt.
-
-## <a id="more-tab"></a>Fliken Mer
-
-På [fliken **Mer**][12] visas användardefinierade fält för försäljningen. Tre av de användardefinierade fälten från fliken **Mer** kan också visas på fliken **Försäljning**.
-
-### Fliken Anteckning
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
+Varje flik har ett specifikt syfte och hjälper till att organisera och göra försäljningsinformationen lättillgänglig.
 
 ## <a id="section-tabs"></a>Detaljkorten i fönstret Försäljning
 
-Den nedre delen av försäljningsskärmen består av detaljkort.
+Den nedre delen av fönstret Försäljning består av detaljkort.
 
 * [Aktiviteter][14]
-* [Säljguide][16]
-* [Intressenter][15]
-* [Offert][17] (kräver licens)
+* [Säljguide][16] (kräver Sales Premium)
+* [Intressenter][15] (kräver Sales Premium)
+* [Offert][17] (kräver Sales Premium)
 
-[Säljguider][3] visas endast för specifika försäljningstyper (definieras i Inställningar och underhåll). Om du väljer en försäljningstyp som har en definierad säljguide, visas detaljkortet **Säljguide**.
+[Säljguider][3] visas endast för specifika försäljningstyper (definieras i Inställningar och underhåll). Om du väljer en försäljningstyp med en definierad säljguide visas detaljkortet **Säljguide**.
 
-## Vad vill du göra nu?
+[!include[Lägg till fler detaljkort](../../learn/includes/more-tab.md)]
 
-* [Lägg till en försäljning i favoriter][10]
-* [Läs om fönstret Försäljning][2]
+## Uppskjutna, sålda och förlorade försäljningar
+
+I fältet **Fas** på fliken **Försäljning** kan du:
+
+* **Markera en försäljning som Såld** eller **Förlorad**: Detta uppdaterar försäljningens status och gör det möjligt att ange detaljer som konkurrenter eller orsaker till utfallet.
+* **Markera en försäljning som Uppskjuten**: Pausar försäljningsprocessen. Ytterligare fält som **Återöppningsdatum** och **Orsak (uppskjuten)** blir tillgängliga.
+
+| Ikon | Betydelse |
+|:-:|---|
+| <i class="ph ph-currency-circle-dollar" aria-label="Försäljning"></i> | Öppen |
+| <i class="ph ph-check" aria-label="Check"></i> | Såld |
+| <i class="ph ph-x" aria-label="X"></i> | Förlorad |
+| <i class="ph ph-triangle" aria-label="Röd triangel"></i> | Uppskjuten |
+
+## Använd försäljningsöversikt för att prioritera
+
+Håll din försäljning organiserad så att du alltid är fokuserad på de affärer som är viktigast för dig.
+
+När du har registrerat dina försäljningar i SuperOffice CRM visas de i din personliga försäljningsöversikt på fliken **Försäljning** och i din Kalender. Du kan organisera din försäljningslista genom att [filtrera, gruppera och lägga till de kolumner][3] som är viktigast för dig. De mest använda kolumnerna är försäljningsbelopp, försäljningsdatum och försäljningsfas.
+
+Detaljkortet **Försäljning** fungerar också som en försäljningsassistent genom att markera alla dina kommande planerade aktiviteter i fältet **Nästa aktivitet** och uppmärksamma sådana du kanske har glömt genom att markera dem i rött.
+
+![Gå till Kalendern och få en översikt över alla försäljningar som ännu inte är slutförda -screenshot][img3]
+
+## <a id="side-panel"></a>Använda sidopanelen för försäljningar
+
+När du har fönstret Försäljning öppen kan du använda [sidopanelen][20] **Urvalsmedlemmar** för att granska dina affärsmöjligheter. Klicka på en försäljning för att visa den i detalj i försäljningskortet.
+
+![Använd sidopanelen på försäljningskortet för att visa urvalsmedlemmar och försäljningsurval -screenshot][img2]
+
+### Tips för effektivitet
+
+* **Granska förfallna försäljningar**: Försäljningar markerade i **rött** i listan över **Urvalsmedlemmar** har förfallna aktiviteter eller försäljningsdatum. Se till att granska och uppdatera dessa.
+
+* **Genomgång i sekvens**: Använd sidopanelen för att klicka dig igenom försäljningarna en i taget och säkerställa att rätt uppföljningar är planerade.
+
+* **Liknande arbetsflöden**: Du kan använda urval för kontakter som en ringlista eller följa upp utestående försäljningsförslag för att säkerställa att inga möjligheter missas.
+
+Läs mer om hur du kan förbättra din försäljningsplanering i [guiden till försäljningsprognoser][21].
+
+## Relaterat innehåll
+
+* [Lägg till försäljning i favoriter][10]
 * [Registrera en försäljning][4]
-* [Skapa intressenter][5]
+* [Lägg till intressenter][5]
+* [Markera försäljning som uppskjuten, förlorad eller såld][2]
+* [Skapa en offert][1]
 * [Arbeta med säljguider][6]
-* [Skapa offert][1]
 * [Arbeta med försäljningsmål][7]
-* [Uppskjutna, sålda och förlorade försäljningar][9]
-* [Skriva ut information om en försäljning][11]
-* [Fliken Länkar][18]
+* [Skriva ut försäljningsinformation][11]
 
 <!-- Referenced links -->
 [1]: ../../quote/learn/create.md
-[2]: screen/index.md
 [3]: ../../learn/section-tabs/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
 [4]: create.md
+[2]: update.md#stalled
 [5]: stakeholders/create.md
 [15]: stakeholders/index.md
-[6]: sales-guide/working-with-sales-guide.md
-[16]: sales-guide/index.md
+[6]: tutorial.md
+[16]: sales-guides.md
 [7]: sales-targets/index.md
-[9]: stages.md
+[21]: forecasting.md
 [10]: ../../learn/basics/fav.md
 [11]: ../../learn/basics/print.md
 [18]: ../../learn/basics/links.md
+[19]: ../../learn/basics/notes.md
+[20]: ../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/user-diary-sales.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/sale/sale-details.png
-[img4]: ../../../media/icons/arrow-right.png
-[img5]: ../../../media/loc/en/sale/sale-card.png
+[img1]: ../../../media/loc/en/sale/sales-screen.png
+[img2]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png
+[img3]: ../../../media/loc/en/sale/user-diary-sales.png

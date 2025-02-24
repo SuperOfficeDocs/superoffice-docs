@@ -4,8 +4,8 @@ title: Projektfliken
 description: Lär dig hur du kan visa, lägga till och hantera projekt med hjälp av detaljkortet Projekt i SuperOffice CRM. Förenkla projektuppföljning för företag, kontakter och mer.
 keywords: Projekt-fliken, Projektfliken, fliken Projekt, detaljkortet Projekt, detaljkort, projektarkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Detaljkortet **Projekt** innehåller följande kolumner för att visa viktig inf
 
 | Kolumn | Beskrivning |
 |---|---|
-| Slutfört | Kryssruta som indikerar om projektet är slutfört. En markerad kryssruta (![ikon][img3]) betyder slutförd, medan en tom ruta betyder att det fortfarande pågår. |
+| Slutfört | Kryssruta som indikerar om projektet är slutfört. En markerad kryssruta (<i class="ph ph-check" aria-hidden="true"></i>) betyder slutförd, medan en tom ruta betyder att det fortfarande pågår. |
 | Projektnamn | Namnet på projektet. |
 | Projekttyp | Anger vilken typ av projekt det är, som internt eller kundinriktat. |
 | Status | Den aktuella statusen för projektet. |
@@ -86,4 +86,3 @@ För att [lägga till projektmedlemmar][4] direkt från detaljkortet **Projekt**
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png

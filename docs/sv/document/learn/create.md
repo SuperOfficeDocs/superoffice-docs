@@ -2,11 +2,12 @@
 uid: help-sv-document-create
 title: Skapa ett nytt dokument
 description: Skapa ett nytt dokument direkt i SuperOffice CRM eller ladda upp befintliga dokument så att du och dina kollegor alltid har tillgång till de senaste dokumenten och versionerna. Den här guiden visar hur du gör båda.
-keywords: dokument
+keywords: skapa dokument, ladda upp dokument, online-textredigering, dokument, SharePoint
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -89,8 +90,6 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 8. Klicka på länken för att ladda upp dokumentet eller dra och släpp dokumentet från Utforskaren till dialogrutan **Dokument**.
 
-    ![Skapa ett nytt dokument -screenshot][img2]
-
 9. Stäng dialogrutan **Dokument** genom att klicka på **Spara**.
 
 ***
@@ -98,7 +97,7 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 ## <a id="fields"></a>Hur man anger information
 
 > [!NOTE]
-> Många fält har en lista med fördefinierade värden att välja från. Klicka på pilen ![icon][img5] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
+> Många fält har en lista med fördefinierade värden att välja från. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, till exempel ett företagsnamn.
 
 ![Skapa dokument från mall (ny) -screenshot][img4]
 
@@ -136,16 +135,13 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 
 2. Dra och släpp dokument från Utforskaren till dialogrutan **Dokument**.
 
-3. (valfritt) Markera dokumentet som slutfört:
-
-    * Ny (från version 10.3.11): Välj kryssrutan i sidfoten.
-    * Klassisk dialog (onsite): Klicka på bockikonen uppe till höger i dialogrutan.
+3. (valfritt): Markera kryssrutan i sidfoten för att ange att dokumentet är slutfört.
 
 4. [Ange den information som behövs i fälten](#fields).
 
 5. Klicka på **Skapa** för att upprätta det nya dokumentet i SuperOffice CRM. Dokumentet läggs till på detaljkortet **Aktiviteter**.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Redigera dokument][1]
 * [Checka in/ut dokument][3]
@@ -165,6 +161,4 @@ Om du inte har installerat SuperOffice WebTools måste du manuellt ladda ner dok
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

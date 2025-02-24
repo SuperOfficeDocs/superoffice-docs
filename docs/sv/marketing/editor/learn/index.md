@@ -4,12 +4,12 @@ title: Dra och släpp-redigerare
 description: Dra och släpp-redigerare
 keywords: marknadsföring, redigerare, mallvariabel, kopplingsfält
 author: SuperOffice RnD
-date: 10.08.2024
+date: 02.25.2025
 version: 10.3.10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Dra och släpp-redigerare
@@ -27,7 +27,7 @@ I steget **Innehåll** kan du redigera meddelandets utseende och innehåll.
 SuperOffice Marknadsföring levereras med många [färdiga meddelandemallar][9] och du kan enkelt kan flytta runt kolumner och avsnitt för att skapa det utseende som du vill ha. Spara innehåll som ofta används som block för att spara tid.
 
 > [!TIP]
-> Vanligtvis rekommenderar vi en maximal bredd på 600 pixlar för utskick. Du kan också kontrollera hur utskicket kommer att se ut, t.ex. på smarttelefoner, genom att klicka på **Mobil** ![ikon][img4] i menyn i det nedre vänstra hörnet. Se även [Anpassa meddelandet för visning på mobila enheter][3].
+> Vanligtvis rekommenderar vi en maximal bredd på 600 pixlar för utskick. Du kan också kontrollera hur utskicket kommer att se ut, t.ex. på smarttelefoner, genom att klicka på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i menyn i det nedre vänstra hörnet. Se även [Anpassa meddelandet för visning på mobila enheter][3].
 
 ## Redigera kolumner och block/avsnitt
 
@@ -87,8 +87,8 @@ Från den globala menyn kan du förhandsgranska, ångra eller göra om åtgärde
 | Ikon | Namn | Funktion |
 |:-:|---|---|
 | ![ikon][img11] | Ångra/gör om | Ångrar den senaste åtgärden eller gör om en åtgärd som du har ångrat. |
-| ![ikon][img2] | Förhandsgranskning | Öppnar en förhandsgranskning av meddelandet på en bordsdator- eller mobil skärm. |
-| ![ikon][img3], ![ikon][img4] | Byt visning för bordsdator eller mobila enheter | Används för att se hur utskicket ser ut på en bordsdator eller smarttelefon. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Förhandsgranskning | Öppnar en förhandsgranskning av meddelandet på en bordsdator- eller mobil skärm. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Byt visning för bordsdator eller mobila enheter | Används för att se hur utskicket ser ut på en bordsdator eller smarttelefon. |
 
 ## Kontextmeny
 
@@ -159,9 +159,6 @@ I början av 2021 lade SuperOffice till en ny meddelanderedigerare ("Dra och sl�
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

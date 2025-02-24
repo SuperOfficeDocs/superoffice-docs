@@ -2,14 +2,14 @@
 uid: help-sv-activity
 title: Aktiviteter
 description: Aktiviteter i SuperOffice CRM
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: activity
+keywords: aktivitet
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
-language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+language: sv
 ---
 
 # Aktiviteter
@@ -18,67 +18,65 @@ audience_tooltip: SuperOffice CRM
 
 ## Typer
 
-Det finns två typer av aktiviteter – dokument och händelser. Dessutom visas utskick, formulärinlämningar och chattuppföljningar på detaljkortet **Aktiviteter**.
+Det finns två huvudtyper av aktiviteter – dokument och händelser. Dessutom visas utskick, formulärinlämningar och chattposter på detaljkortet **Aktiviteter**.
 
 * [Händelser][1]
-  * ![icon][img11] Möte (bokning)
-  * ![icon][img13] Händelse (samtal)
-  * ![icon][img12] Att göra (uppgift)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Möte (bokning)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Händelse (samtal)
+  * <i class="ph ph-calendar-check" aria-hidden="true"></i> Att göra (uppgift)
 * [Dokument][4]
-  * ![icon][img14] Dokument (brev och andra dokument)
-  * ![icon][img15] E-post
-* ![icon][img16] [Utskick][3] (massutskick med massbrevsmall, e-post eller SMS)
-* ![icon][img18] [Chattposter][12]
-* ![icon][img17] Formulärinlämningar
+  * <i class="ph ph-files" aria-hidden="true"></i> Dokument (brev och andra dokument)
+  * <i class="ph ph-at" aria-hidden="true"></i> E-post
+* <i class="ph ph-target" aria-hidden="true"></i> [Utskick][3] (massutskick via brev, e-post eller SMS)
+* <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> [Chattposter][12]
+* <i class="ph ph-rows" aria-hidden="true"></i> Formulärinlämningar
 
 ## Var hittar jag aktiviteter?
 
-[Aktivitetsfliken][18] är tillgänglig i Företag-, Kontakt-, Projekt-, Försäljnings- och Kalender-skärmarna.
+[Detaljkortet Aktiviteter][18] finns tillgängligt i skärmarna Företag, Kontakt, Projekt, Försäljning och Kalender.
 
 > [!NOTE]
-> Aktiviteter visas även i de [olika vyerna][7] i fönstret Kalender.
+> Aktiviteter visas också i de [olika vyerna][7] i skärmbilden Kalender.
 
 ## <a id="view"></a>Visa aktiviteter
 
-Vilka aktiviteter som visas beror på vilka filter du väljer längst ned på detaljkortet. Du kan välja att visa alla aktiviteter eller en av typerna. Klicka på ![ikon][img5] Filtrera-knappen för att [filtrera aktiviteter][17] efter datum och användare.
+Vilka aktiviteter som visas beror på vilka filter du väljer längst ned på detaljkortet. Du kan visa alla aktiviteter eller bara en viss typ. Klicka på knappen **Filter** (<i class="ph ph-funnel" aria-hidden="true"></i>) för att [filtrera aktiviteter][17] efter datum och användare.
 
-![Activities section tabs shows filter options of different record types -screenshot][img4]
+![Detaljkortet Aktiviteter visar filteralternativ för olika posttyper -screenshot][img4]
 
 ## Kolumner
 
-I kolumnerna i aktivitetslistan finns följande information:
+Listan över aktiviteter innehåller följande information:
 
-* ![ikon][img1]: Den första kolumnen i aktivitetslistan anger **Slutfört**-status för en aktivitet. En bock i kolumnen betyder att aktiviteten är slutförd. Om kolumnen är tom betyder detta att aktiviteten inte är slutförd.
+* Den första kolumnen anger **Slutfört**-status för en aktivitet. En bock (<i class="ph ph-check" aria-hidden="true"></i>) betyder att aktiviteten är slutförd, medan en tom ruta betyder att den inte är slutförd.
 
-* Kolumnen Kategori innehåller ikoner som anger typ av aktivitet, till exempel en kalender indikerar ett möte. De här ikonerna återspeglar texten i kolumnen **Typ**.
+* Kolumnen **Kategori** innehåller ikoner som visar vilken typ av aktivitet det är, till exempel en kalender för ett möte. Dessa ikoner motsvarar texten i kolumnen **Typ**.
 
-* Resten av kolumnerna i aktivitetslistan visar information om aktiviteten. Om du inte ser all text i ett fält kan du hålla muspekaren över texten så visas den i en inforuta.
+* Övriga kolumner visar information om aktiviteten. Om all text inte är synlig i ett fält, håll muspekaren över det för att visa en tooltip.
 
 ## Skapa en aktivitet
 
-Du skapar aktiviteter med **Ny** på toppraden, eller genom att dubbelklicka på knappen **Lägg till** på avsnittsfliken.
+Du kan skapa aktiviteter via menyn **Nytt** i det övre fältet eller genom att klicka på knappen **Lägg till** på detaljkortet.
 
-## <a id="delete"></a>Ta bort aktivitete
+## <a id="delete"></a>Ta bort en aktivitet
 
-Du kan ta bort aktiviteter från alla fönster där de visas:
+Du kan ta bort aktiviteter från alla skärmar där de visas:
 
 1. Markera en eller flera aktiviteter som du vill ta bort.
-
-2. Högerklicka på den eller de markerade aktiviteterna och välj **Ta bort**.
-
+2. Högerklicka på de markerade aktiviteterna och välj **Ta bort**.
 3. Klicka på **Ja** när du tillfrågas om du verkligen vill ta bort aktiviteten.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
-## Preferenser ![ikon][img2]
+## Preferenser <i class="ph ph-user-circle" aria-label="Kontaktikon"></i>
 
-När en aktivitet har slutförts tas den bort från aktivitetslistan nästa dag. Som standard visar **Aktivitetsfliken** uppgifter som du inte har slutfört per dagens datum.
+När en aktivitet har slutförts tas den bort från aktivitetslistan dagen efter. Som standard visar detaljkortet **Aktiviteter** att göra-poster som ännu inte har slutförts.
 
-### Visa framtida uppgifter
+### Visa framtida att göra-poster
 
 1. Gå till **Personliga inställningar** > **Inställningar**.
-2. Välj **Funktioner** och hitta alternativet **Visa dagar framåt**.
-3. Definiera hur många dagar framåt du vill att uppgifter ska vara synliga. Till exempel, genom att ange 7 här kommer du att visa uppgifter för nästa vecka.
+2. Välj **Funktioner** och leta upp alternativet **Visa dagar framåt**.
+3. Ange hur många dagar framåt du vill att aktiviteter ska visas. Till exempel visar ett värde på 7 aktiviteter för den kommande veckan.
 
 ### Ta bort aktivitet från listan när den är slutförd
 
@@ -88,21 +86,21 @@ När en aktivitet har slutförts tas den bort från aktivitetslistan nästa dag.
 
 ### Markera förfallna aktiviteter
 
-Om en aktivitet skrivs med röd text betyder det att dess planerade datum har passerat. För att ändra den här inställningen:
+Om en aktivitet visas med röd text betyder det att dess planerade datum har passerat. För att ändra denna inställning:
 
 1. Gå till **Personliga inställningar** > **Inställningar**.
 2. Välj **Funktioner**.
 3. Uppdatera alternativet **Markera aktiviteter som har utgått**.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Filtrera aktiviteter][17]
 * [Ändra Slutfört-status för en aktivitet][10]
-* [Lägga till händelser][8]
-* [Ringa till kontakter][11]
+* [Lägg till händelseratt göra, samtal)][8]
+* [Ring till kontakter][11]
 * [Arbeta med dokument][4]
 * [Skriv ett e-postmeddelande][5]
-* [The Activities tab][18]
+* [Detaljkortet Aktiviteter][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
@@ -110,7 +108,7 @@ Om en aktivitet skrivs med röd text betyder det att dess planerade datum har pa
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[7]: ../../diary/learn/screen/index.md
+[7]: ../../diary/learn/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
@@ -119,16 +117,5 @@ Om en aktivitet skrivs med röd text betyder det att dess planerade datum har pa
 [18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
-[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
-[img5]: ../../../../common/icons/filter-icon.png
-[img11]: ../../../../common/icons/appointment.png
-[img12]: ../../../../common/icons/appointment-task.png
-[img13]: ../../../../common/icons/appointment-followup.png
-[img14]: ../../../../common/icons/document.png
-[img15]: ../../../../common/icons/email.png
-[img16]: ../../../../common/icons/marketing.png
-[img17]: ../../../../common/icons/webforms.png
-[img18]: ../../../../common/icons/chat.png

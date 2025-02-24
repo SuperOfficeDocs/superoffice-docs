@@ -9,7 +9,7 @@ topic: concept
 language: sv
 ---
 
-# Integritet
+# Integritet <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 Med **Integritet**-funktionen i SuperOffice kan du skydda kundens personliga data och följa EU:s nya dataskyddsförordning (GDPR).
 
@@ -17,7 +17,7 @@ Med **Integritet**-funktionen i SuperOffice kan du skydda kundens personliga dat
 
 Detta är två olika syften för att få samtycke av en person. I SuperOffice kallas dessa syften **Försäljning och tjänster** och **E-marknadsföring**. Det kan också vara andra syften som är relevanta för din verksamhet.
 
-På fliken **Samtycke** i fönstret **Integritet** (![ikon][img1]) kan du [skapa och redigera syften][2].
+På fliken **Samtycke** i fönstret **Integritet** kan du [skapa och redigera syften][2].
 
 En rättslig grund och en samtyckeskälla måste dokumenteras för varje syfte (under import eller i SuperOffice CRM för enskilda användare eller grupper av användare).
 
@@ -66,6 +66,3 @@ Om du *inte* väljer det här alternativet kommer bara personer med **E-marknads
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

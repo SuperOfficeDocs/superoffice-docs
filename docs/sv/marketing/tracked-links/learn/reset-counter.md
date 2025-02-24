@@ -4,12 +4,12 @@ title: Nollställa räknare för länkar
 description: Nollställa räknare för länkar
 keywords: Marknadsföring
 author: Bergfrid Dias
-date: 02.26.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Nollställa räknare för länkar
@@ -20,10 +20,7 @@ Ibland kan du behöva nollställa antalet klick. Detta kan t.ex. vara aktuellt o
 
 2. Klicka på **Alla länkar** om din länk inte visas i listan. Om du använder mappar för länkar går du först till mappen där länken finns.
 
-3. Klicka på ![ikon][img1] menyknappen bredvid länken och välj **Återställ**. Räknaren i kolumnen **Klick** ändras till 0. Informationen om vilka kunder som har klickat på länken tas också bort.
+3. Klicka på <i class="ph ph-list" aria-label="Task menu"></i> bredvid länken och välj **Återställ**. Räknaren i kolumnen **Klick** ändras till 0. Informationen om vilka kunder som har klickat på länken tas också bort.
 
 <!-- Referenced links -->
 [6]: ../../mailing/learn/create/send-test-email.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

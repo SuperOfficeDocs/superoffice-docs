@@ -25,7 +25,7 @@ language: sv
 
 Produkterna i offerten visas på den här fliken.
 
-Om offerten innehåller flera alternativ, anges favoritalternativet med ![ikon][img1] bredvid fliknamnet. Om alternativet innehåller [varningar eller meddelanden][9] för en eller flera produkter, visas en ikon bredvid fliknamnet. Ett meddelande visas också för att förklara orsaken till felet.
+Om offerten innehåller flera alternativ, anges favoritalternativet med <i class="ph ph-star" aria-label="Star icon"></i> bredvid fliknamnet. Om alternativet innehåller [varningar eller meddelanden][9] för en eller flera produkter, visas en ikon bredvid fliknamnet. Ett meddelande visas också för att förklara orsaken till felet.
 
 * **Rabatt**: Här kan du ange en total rabatt (rabattprocent eller rabattbelopp) för hela alternativet. Den totala rabatten tillämpas utöver eventuella rabatter som har tillämpats på de olika produkterna.
 
@@ -37,7 +37,7 @@ Om offerten innehåller flera alternativ, anges favoritalternativet med ![ikon][
 * Dubbelklicka på en produkt för att redigera den.
 * **Ta bort**: Tar bort den eller de markerade produkterna.
 * **Exportera**: Används för att [exportera listan][7] till ett kalkylark.
-* Sortera: Använd ![ikon][img2] / ![ikon][img3] pilknapparna för att ändra ordning på produkterna.
+* Sortera: Använd <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> för att ändra ordning på produkterna.
 
 > [!TIP]
 > Du kan dubbelklicka på flikarna för att ändra namnen på alternativen i offerten.
@@ -64,6 +64,3 @@ Den nedre delen av dialogrutan
 [7]: ../../../learn/section-tabs/export-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

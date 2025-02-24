@@ -2,10 +2,12 @@
 uid: help-sv-specialized-lists
 title: Specialiserade listor
 description: Specialiserade listor
+keywords: listor
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+topic: concept
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -43,11 +45,11 @@ Generellt är det mycket enkelt att lägga till, redigera och radera listor och 
 [9]: web-panel.md
 [10]: privacy-legal-base-add.md
 [11]: privacy-source-add.md
-[12]: ../../../project/learn/screen/project-status-admin.md
-[13]: ../../../project/learn/screen/project-type-admin.md
+[12]: ../../../project/admin/project-status.md
+[13]: ../../../project/admin/project-type.md
 [14]: sale-amount-class.md
-[15]: sale-stage.md
+[15]: ../../../sale/admin/sale-stage.md
 [16]: ../../../sale/learn/stakeholders/index.md#role
-[17]: ../../../sale/learn/screen/sales-type-for-stages.md
+[17]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

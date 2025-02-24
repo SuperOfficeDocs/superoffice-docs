@@ -7,9 +7,9 @@ keywords: Marknadsföring
 date: 02.09.2024
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Så här lägger du till din Google Analytics-tagg i ett utskick

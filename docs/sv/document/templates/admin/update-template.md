@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.16.2024
 version: 10
 topic: howto
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Redigera mallar

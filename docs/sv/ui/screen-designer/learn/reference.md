@@ -322,7 +322,7 @@ För detaljer om värdet av varje fält, se [databasreferencen][23].
 [7]: ../../../../en/database/tables/appointment.md
 [11]: ../../../../en/sale/overview.md
 [10]: ../../../../en/project/overview.md
-[13]: ../../../request/learn/type/index.md
+[13]: ../../../request/admin/type/index.md
 [14]: ../../../../en/request/overview.md
 [15]: ../../../diary/learn/invitation/add-attendee.md#availability
 [16]: ../../../diary/learn/follow-ups.md

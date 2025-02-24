@@ -2,11 +2,12 @@
 uid: help-sv-sale-stakeholder-edit
 title: Redigera intressenter
 description: Så här redigerar eller tar du bort intressenter i en försäljning i SuperOffice.
-keywords: försäljning, intressent
+keywords: Uppdatera intressent, redigera intressent, ta bort intressent, Lägg till/redigera intressenter-dialog, Intressent-detaljkort, intressent, försäljning
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 02.25.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -39,7 +40,7 @@ Du kan uppdatera **säljroll** och **kommentar**-fälten för intressenter, elle
 
 1. Välj de intressenter du vill ta bort från listan i **Intressenter**-detaljkortet.
 
-1. Klicka på **Ta bort**. I bekräftelsedialogrutan som visas, klicka **Ja** för att bekräfta.
+1. Klicka på **Ta bort**. I bekräftelsedialogrutan som visas, klicka **Ja**.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

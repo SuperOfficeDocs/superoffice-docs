@@ -14,10 +14,12 @@ language: en
 
 # Create a new project
 
-You can add a project in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to learn how to create a project (video length - 2:49):
+You can add a project in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to learn how to create a project:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/zLJwNll223w]
+
+(video length - 2:49)
 
 ## Steps
 
@@ -52,7 +54,7 @@ You can add a project in SuperOffice CRM using the **New** button on the top bar
 The following fields are available in the Project card. Some fields are filled automatically, while others require input.
 
 > [!NOTE]
-> Fields and layout may vary based on [Screen designer][9] configurations and other UI customizations.
+> Fields and layout may vary based on [Screen designer][13] configurations and other UI customizations.
 
 * **Project name:** The main identifier for the project. This is a mandatory field.
 * **Number:** Auto-generated as the next available project number if configured in **Settings and maintenance**. You can edit this manually if required.
@@ -92,6 +94,7 @@ If the project name matches or is similar to an existing record, the  **Duplicat
 [10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/project/create-project.png

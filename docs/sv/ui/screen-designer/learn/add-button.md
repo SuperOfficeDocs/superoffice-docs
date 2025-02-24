@@ -79,7 +79,7 @@ Namnet och text i inforuta kan översättas till andra språk.
 
 När elementet är valt:
 
-1. Klicka på **A-Z**-knappen bredvid etiketten.
+1. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid etiketten.
 1. Klicka på **Lägg till** och välj ett språk från listan.
 1. Ange text för det nya språket.
 

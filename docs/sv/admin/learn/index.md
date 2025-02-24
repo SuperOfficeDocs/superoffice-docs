@@ -66,7 +66,7 @@ Det bästa sättet att definiera egna projekt- eller försäljningsguider är at
 > [!NOTE]
 > Om du vill byta språk i Mobile CRM klickar du på knappen **Uppgift** längst ner till vänster. Välj sedan **Inställningar**, klicka på **Språk** och välj mellan alternativen.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Hantera listor][6]
 * [Hantera dokumentmallar][7]
@@ -78,7 +78,7 @@ Det bästa sättet att definiera egna projekt- eller försäljningsguider är at
 [1]: ../user-management/learn/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/learn/index.md
-[4]: ../../sale/learn/sales-guide/index.md
+[4]: ../../sale/learn/sales-guides.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md
 [7]: ../../document/templates/learn/index.md

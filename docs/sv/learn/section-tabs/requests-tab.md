@@ -4,8 +4,8 @@ title: Ärendenfliken
 description: Lär dig hur du kan visa, lägga till och hantera Service-ärenden i SuperOffice CRM, så att du effektivt kan spåra kundinteraktioner mellan företag och kontakter.
 keywords: Ärenden-fliken, Ärendenfliken, fliken Ärenden, detaljkortet Ärenden, detaljkort, ärendearkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -65,7 +65,7 @@ För att redigera ett ärende direkt från detaljkortet **Ärenden**:
 
 1. Lokalisera och dubbelklicka på det ärende du vill arbeta med.
 
-1. I det fönster som öppnas, klicka på **Redigera** för att börja uppdatera ärendedetaljerna.
+1. I det fönster som öppnas, klicka på **Redigera** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) för att börja uppdatera ärendedetaljerna.
 
 ## Ytterligare tips
 
@@ -79,8 +79,8 @@ För att redigera ett ärende direkt från detaljkortet **Ärenden**:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

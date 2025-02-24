@@ -2,10 +2,10 @@
 uid: help-sv-project-member-add
 title: Lägg till projektmedlem
 description: Så lägger du till en projektdeltagare i SuperOffice
-keywords: projekt, deltagare
+keywords: lägg till projektdeltagare, ny projektdeltagare, dialogrutan Lägg till/redigera projektdeltagare, projektdeltagare, projekt
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -32,11 +32,11 @@ När du lägger till deltagare i ett projekt kan du tilldela funktioner individu
 
       ![Lägg till/redigera projektdeltagare dialog, historik -screenshot][img5]
 
-    * **Användargrupp**: Klicka på ![ikon][img2] för att bläddra bland medarbetare efter grupp.
+    * **Användargrupp**: Klicka på <i class="ph ph-users" aria-label="Associate icon"></i> för att bläddra bland medarbetare efter grupp.
 
       ![Lägg till/redigera projektdeltagare dialog, grupp -screenshot][img6]
 
-    * **Företag**: Klicka på ![ikon][img3] för att bläddra bland kontakter i ett företag eller lägga till ett företag som deltagare.
+    * **Företag**: Klicka på <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> för att bläddra bland kontakter i ett företag eller lägga till ett företag som deltagare.
 
       ![Lägg till/redigera projektdeltagare dialog, företag -screenshot][img7]
 
@@ -79,7 +79,7 @@ Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna 
 
 * **Lägg till kommentarer**
 
-    Om en kommentar har lagts till, visas ett ![ikon][img1] gem bredvid kolumnen **Information om projektdeltagare** i detaljkortet **Projektdeltagare**. Håll muspekaren över gemet för att se kommentartipset.
+    Om en kommentar har lagts till, visas ett gem (<i class="ph ph-paperclip" aria-hidden="true"></i>) bredvid kolumnen **Information om projektdeltagare** i detaljkortet **Projektdeltagare**. Håll muspekaren över gemet för att se kommentartipset.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ Du kan lägga till projektdeltagare och intressenter från kontaktöversikterna 
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

@@ -2,10 +2,10 @@
 uid: help-sv-project-members
 title: Projektdeltagare
 description: Projektdeltagare
-keywords: projekt, deltagare
+keywords: Fliken projektdeltagare, projektdeltagare, projekt
 author: SuperOffice RnD
-date: 12.04.24
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM

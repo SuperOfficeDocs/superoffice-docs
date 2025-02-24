@@ -4,8 +4,8 @@ title: Gruppering av listor
 description: Du kan gruppera en lista efter en eller flera datatyper för att få en bättre överblick över posterna på ett detaljkort (arkiv).
 keywords: detaljkort, arkiv
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,14 +20,16 @@ Du kan gruppera informationen i ett arkiv efter alla fält/kolumner i arkivet. D
 
 Gruppering är personligt. Kolumnerna som du använder för att gruppera informationen visas bara för dig och du kan lägga till och ta bort så många grupper du vill.
 
-Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta videon, eller läs instruktionerna nedan (videons längd – 1:43):
+Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta videon, eller läs instruktionerna nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
 
+(videons längd – 1:43)
+
 ## Aktivera gruppering
 
-1. Klicka på ![ikonen][img1] inställningsikonen till höger om kolumnrubriken och välj **Aktivera gruppering**.
+1. Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubriken och välj **Aktivera gruppering**.
 
     ![Aktivera gruppering -screenshot][img5]
 
@@ -55,13 +57,9 @@ Nu visas en ny rad ovanför kolumnrubrikerna.
 
 1. Om du vill ta bort en grupperingskolumn som du har valt klickar du på X:et bakom kolumnen. Listan över poster i arkivet uppdateras omedelbart.
 
-    ![Tryck på X för att ta bort en grupperingskolumn -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

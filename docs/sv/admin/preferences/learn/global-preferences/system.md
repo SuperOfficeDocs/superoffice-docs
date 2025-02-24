@@ -4,17 +4,17 @@ title: Globala inställningar
 description: Globala inställningar
 keywords: inställningar, inställningar, global
 author: SuperOffice RnD
-date: 03.22.2024
+date: 02.25.2025
 version: 10
 topic: reference
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
-# Globala inställningar
+# Globala inställningar <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-De **globala inställningarna** under ![ikon][img1] **Inställningar** används för att konfigurera några av de viktigaste inställningarna i SuperOffice CRM.
+De **globala inställningarna** under **Inställningar** används för att konfigurera några av de viktigaste inställningarna i SuperOffice CRM.
 
 Områden som du kan konfigurera inställningar för:
 
@@ -39,6 +39,3 @@ Områden som du kan konfigurera inställningar för:
 [3]: password.md
 [4]: sms.md
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

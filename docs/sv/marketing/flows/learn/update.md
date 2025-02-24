@@ -4,12 +4,12 @@ title: Uppdatera flöde
 description: Uppdatera flöde
 keywords: flöde, uppdatera flöde, lägga till steg
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
+date: 02.25.2025
 version: 10.3.7
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Uppdatera flöde
@@ -64,7 +64,7 @@ Du kan hitta dessa resurser användbara:
 ## Flytta, duplicera eller ta bort steg
 
 * **Flytta:** Klicka på ett steg och dra det till en ny plats.
-* **Duplicera:** Peka på ett steg och klicka på **Duplicera**-ikonen ![ikon][img11]. Detta skapar ett nytt steg baserat på det aktuella och lägger till det som nästa steg. Använd den här funktionen för att återanvända ett steg i samma flöde.
+* **Duplicera:** Peka på ett steg och klicka på **Duplicera**-ikonen (<i class="ph ph-copy" aria-hidden="true"></i>). Detta skapar ett nytt steg baserat på det aktuella och lägger till det som nästa steg. Använd den här funktionen för att återanvända ett steg i samma flöde.
 * **Ta bort:** Peka på ett steg och klicka på den röda X:et. Detta tar bort steget från flödet (men inte dess innehåll).
 
 > [!NOTE]
@@ -115,6 +115,3 @@ Gå till fliken **Flöde** för att kontrollera om det finns någon på grenen. 
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenced images -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

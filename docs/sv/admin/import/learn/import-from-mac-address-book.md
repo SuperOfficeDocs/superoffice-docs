@@ -5,7 +5,7 @@ description: Importera från Mac-adressbok
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll, importera
-topic: help
+topic: howto
 language: sv
 ---
 

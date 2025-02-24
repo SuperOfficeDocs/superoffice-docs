@@ -24,10 +24,10 @@ Delade profiler är kopplade till en [roll][2] och gäller för alla användare 
 
 Följande steg visar till exempel hur du lägger till ett fält i fönstret **Söka ärenden**.
 
-1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
+1. Välj **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Klicka på **Sök**.
-4. Peka på **Sök ärenden** och klicka på ![ikon][img2] (**Ny delad profil**) till höger om namnet. Skärmen **Redigera objektsprofil** visas.
+4. Peka på **Sök ärenden** och klicka på <i class="ph ph-list" aria-label="Main menu"></i> (**Ny delad profil**) till höger om namnet. Skärmen **Redigera objektsprofil** visas.
 5. I fältet **Namn** skriver du namnet på profilen.
 6. Klicka på knappen **Lägg till kriterier**.
 7. Gör följande i dialogrutan:
@@ -38,7 +38,7 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 
 ## Redigera information i en enhetlig profil
 
-1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
+1. Välj **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Bläddra nedåt i hierarkin tills du hittar önskad profil.
 4. Klicka på profilnamnet. Skärmen **Redigera objektsprofil** visas.
@@ -47,7 +47,7 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 
 ## Ta bort en enhetlig profil
 
-1. Välj ![ikon][img1] **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
+1. Välj **Systeminställningar** > **Profil**. Skärmen **Visa profiler** visas.
 2. Välj **System**. En hierarkisk översikt visas över alla profilerna i systemet.
 3. Bläddra nedåt i hierarkin tills du hittar önskad profil.
 4. Klicka på profilnamnet. Skärmen **Redigera objektsprofil** visas.
@@ -64,7 +64,3 @@ Följande steg visar till exempel hur du lägger till ett fält i fönstret **S�
 [3]: ../../../../admin/user-management/learn/role/create-role.md
 [4]: personal.md
 [5]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

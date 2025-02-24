@@ -2,10 +2,10 @@
 uid: help-sv-service-mailbox-create
 title: Skapa brevlåda
 description: Skapa brevlåda
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
+version: 10.2.11
 topic: howto
 language: sv
 ---
@@ -80,7 +80,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå till fliken **Alias**. Här kan du ange ett e-postalias för en brevlåda (till exempel om <sales@company.com> och <sale@company.com> går till samma brevlåda). Du lägger till ett alias genom att ange en e-postadress och sedan klicka på ![ikon][img1].
+1. Gå till fliken **Alias**. Här kan du ange ett e-postalias för en brevlåda (till exempel om <sales@company.com> och <sale@company.com> går till samma brevlåda). Du lägger till ett alias genom att ange en e-postadress och sedan klicka på **+**.
 
 1. [!include[Import stuff](includes/step-import.md)]
 
@@ -95,6 +95,3 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

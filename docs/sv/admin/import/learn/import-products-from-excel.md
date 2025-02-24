@@ -69,7 +69,7 @@ Eftersom Excel-kalkylbladet kan innehålla allt från några få till väldigt m
 
     | Ikon | Beskrivning |
     |---|---|
-    | ![ikon][img2] | Data i den här raden innehåller ett problem. Se förklaringstexten i tabellens sidhuvud. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | Data i den här raden innehåller ett problem. Se förklaringstexten i tabellens sidhuvud. |
     | ![ikon][img3] | Produkten finns inte sedan tidigare och kommer att läggas till. |
     | ![ikon][img4] | Produkten finns redan och kommer att uppdateras. |
     | tom | Ingen uppdatering. |
@@ -95,6 +95,5 @@ När importen är klar visas en lista över de importerade produkterna. Ovanför
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

@@ -1,24 +1,25 @@
 ---
 uid: help-sv-notifications
 title: Aviseringar
-description: "Aviseringar om inbjudningar, meddelanden och ärenden"
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
+description: Aviseringar om inbjudningar, meddelanden och ärenden
 keywords: avisering, förfrågning, ärendehantering, meddelande
-topic: concept
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Aviseringar
+# Aviseringar <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-När du klickar på **klockikonen** ![ikon][img1] i det övre högra hörnet av SuperOffice CRM visas Aviseringar-panelen som ett överlägg till höger på skärmen och visar de senaste förekomsterna högst upp. Här kan du göra följande:
+När du klickar på **klockikonen** i det övre högra hörnet av SuperOffice CRM visas Aviseringar-panelen som ett överlägg till höger på skärmen och visar de senaste förekomsterna högst upp. Här kan du göra följande:
 
 * Klicka på ett listobjekt för att öppna det.
-* Klicka på ![ikon][img2] för att göra aviseringsinställningar.
+* Klicka på <i class="ph ph-gear" aria-label="Gear"></i> för att göra aviseringsinställningar.
 * Klicka på **Ta bort allt** i sidfoten i meddelandefönstret för att rensa listan med meddelanden. Du kan också klicka på **Jag förstår** under en avisering för att ta bort den.
-* Klicka på ![ikon][img3] eller var som helst utanför aviseringspanelen för att stänga den.
+* Klicka på <i class="ph ph-x" aria-label="X"></i> eller var som helst utanför aviseringspanelen för att stänga den.
 
 ![Aviseringsrutan visar både aviseringar om ärenden och inbjudningar -screenshot][img5]
 
@@ -29,7 +30,7 @@ När du får ett aktivitetsmeddelande visas det i meddelandepanelen. Klicka på 
 Det här är de olika aktivitetsmeddelandena:
 
 * **Nytt möte**: Svara genom att klicka på **Acceptera** eller **Avvisa**. När du har svarat försvinner inbjudan från meddelandepanelen.
-* **Nytt återkommande möte**: Om inbjudan gäller en återkommande händelse visas detta med en förekomstikon ![ikon][img4] under länken.
+* **Nytt återkommande möte**: Om inbjudan gäller en återkommande händelse visas <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> under länken.
 * **Mötet har ändrats**: Om tiden eller datumet för ett möte som du redan har accepterat ändras får du ett nytt meddelande som informerar dig om vad som har ändrats och kräver att du accepterar eller avböjer det.
 * **Mötet har ställts in**: Mötet har ställts in. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
 * **Inbjudan avvisades**: En mötesdeltagare har avvisat inbjudan. Klicka på länken för att öppna kalenderobjektet eller klicka på **Jag förstår** om du vill ta bort det från aviseringarna.
@@ -56,7 +57,7 @@ Det här är de olika aviseringarna för ärenden:
 
 ## Aviseringsinställningar
 
-När du klickar på ikonen ![ikon][img2] visas panelen för aviseringsinställningar. Här kan du välja vilka aviseringar du vill se i aviseringspanelen.
+När du klickar på ikonen <i class="ph ph-gear" aria-label="Gear"></i> visas panelen för aviseringsinställningar. Här kan du välja vilka aviseringar du vill se i aviseringspanelen.
 
 Det här är aviseringsalternativen:
 
@@ -105,12 +106,7 @@ Det här är aviseringsalternativen:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
-[img2]: ../../../../common/icons/cog-wheel.png
-[img3]: ../../../../common/icons/remove-icon.png
-[img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
-
 [img11]: ../../../media/loc/en/learn/system-notification-chrome.png
 [img12]: ../../../media/loc/en/learn/system-notification-edge.png
 [img13]: ../../../media/loc/en/learn/system-notification-firefox.png

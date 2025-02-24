@@ -2,10 +2,10 @@
 uid: help-sv-project-member-edit
 title: Redigera eller ta bort projektdeltagare
 description: Så redigerar eller tar du bort projektdeltagare i SuperOffice.
-keywords: projekt, deltagare
+keywords: redigera projektdeltagare, uppdatera projektdeltagare, ta bort projektdeltagare, dialogrutan Lägg till/redigera projektdeltagare, projektdeltagare, projekt
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,11 +24,11 @@ Du kan uppdatera fälten **Funktion** och **Kommentar** för projektdeltagare el
 
 1. I dialogen **Lägg till/redigera projektdeltagare**, gör de nödvändiga ändringarna:
 
-   * **Funktion**: Uppdatera funktionen för de valda projektdeltagarena.
-   * **Kommentar**: Redigera kommentarerna för att ge ytterligare detaljer om deltagarenas funktion i projektet.
+    * **Funktion:** Uppdatera funktionen för de valda projektdeltagarena.
+    * **Kommentar:** Redigera kommentarerna för att ge ytterligare detaljer om deltagarenas funktion i projektet.
 
-   > [!TIP]
-   > Du kan välja flera projektdeltagare (håll **Ctrl** eller **Shift**). Alla ändringar som görs i fälten **Funktion** eller **Kommentar** kommer att gälla för alla valda deltagare.
+    > [!TIP]
+    > Du kan välja flera projektdeltagare (håll **Ctrl** eller **Shift**). Alla ändringar som görs i fälten **Funktion** eller **Kommentar** kommer att gälla för alla valda deltagare.
 
 1. Klicka på **OK** för att spara dina ändringar eller **Avbryt** för att kassera dem.
 
@@ -42,5 +42,3 @@ Du kan uppdatera fälten **Funktion** och **Kommentar** för projektdeltagare el
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-
-<!-- Referenced images -->

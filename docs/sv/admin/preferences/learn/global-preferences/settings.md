@@ -2,10 +2,10 @@
 uid: help-sv-service-settings-system-settings
 title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
-author: SuperOffice RnD
-date: 03.27.2023
 keywords: Tjänst, inställningar
-topic: help
+author: SuperOffice RnD
+date: 02.25.2025
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -13,7 +13,7 @@ language: sv
 
 # Globala inställningar för Systeminställningar för SuperOffice Service
 
-Gå till ![ikon][img2] **Inställningar** i navigatorn och välj fliken **Globala inställningar**. Sektionen **Systeminställningar för SuperOffice Service** innehåller följande alternativ:
+Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navigatorn och välj fliken **Globala inställningar**. Sektionen **Systeminställningar för SuperOffice Service** innehåller följande alternativ:
 
 * **Standardtypsnitt i redigeraren**: Välj vilket typsnitt, vilken teckenstorlek och vilken formatering som ska användas som standard för meddelanderegistrering.
 
@@ -21,7 +21,7 @@ Gå till ![ikon][img2] **Inställningar** i navigatorn och välj fliken **Global
 
 * **Standardteckengrovlek**: Vikt (tjocklek) på standardtypsnittet i ärenderedigeraren.
 
-* **Skicka e-post om aktiva ärenden**: Anger om e-post om aktiva ärenden ska skickas till användarna. Om du väljer **Ärendehandläggare kan välja** kan användarna aktivera eller inaktivera e-postavisering från ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Avisering via e-post och SMS**.
+* **Skicka e-post om aktiva ärenden**: Anger om e-post om aktiva ärenden ska skickas till användarna. Om du väljer **Ärendehandläggare kan välja** kan användarna aktivera eller inaktivera e-postavisering från <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar** > **Avisering via e-post och SMS**.
 
 * **Ny status vid övertagande av ärende**: Välj vilken status som ska användas när ett ärende övertas av en användare.
 
@@ -31,7 +31,7 @@ Gå till ![ikon][img2] **Inställningar** i navigatorn och välj fliken **Global
 
 * **Systemansvarig**: E-postadress till den person som ansvarar för driften av SuperOffice Service. Detta måste vara en e-postadress som inte har importerats i/bearbetats av SuperOffice Service.
 
-* **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel <support@company.com>.
+* **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel `<support@company.com>`.
 
 * **E-posttagg**: E-posttaggen som tillsammans med ärendenumret bildar en unik nyckel på ämnesraden i de e-postmeddelanden som skickas ut från SuperOffice Service. Du får inte ändra detta värde om du inte är helt säker på vad du gör! Om det här värdet ändras kommer inte mottagna e-postmeddelanden att kopplas rätt till befintliga ärenden.
 
@@ -69,7 +69,3 @@ Gå till ![ikon][img2] **Inställningar** i navigatorn och välj fliken **Global
 
 <!-- Referenced links -->
 [1]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../../common/icons/nav-admin-preferences-active.png

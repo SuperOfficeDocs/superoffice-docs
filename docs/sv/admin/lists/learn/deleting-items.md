@@ -5,7 +5,7 @@ description: Ta bort poster
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Inställningar och underhåll
-topic: help
+topic: howto
 language: sv
 ---
 

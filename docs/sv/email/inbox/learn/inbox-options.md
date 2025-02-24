@@ -2,9 +2,9 @@
 uid: help-sv-email-inbox-options
 title: Alternativ
 description: Alternativ
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: e-post, inkorg
+author: SuperOffice RnD
+date: 02.25.2025
 topic: reference
 language: sv
 ---
@@ -18,23 +18,16 @@ I inkorgen kan du göra följande:
 | Ikon | Beskrivning |
 |---|---|
 | Nytt | Används för att [skapa ett nytt meddelande][1]. |
-| Radera | |
-| Sök | Skriv in text i det här fältet för att börja söka i den öppna mappen. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Skriv in text i det här fältet för att börja söka i den öppna mappen. |
 | INKORG | Används för att välja en mapp. Standardmappen är inkorgen. |
-| ![ikon][img2] ![ikon][img5] | Meddelanden är som standard sorterade efter datum, med de senaste meddelandena överst i listan. Du kan också sortera efter avsändare och ämne i stigande eller sjunkande ordningsföljd. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> <i class="ph ph-sort-descending" aria-hidden="true"></i> | Meddelanden är som standard sorterade efter datum, med de senaste meddelandena överst i listan. Du kan också sortera efter avsändare och ämne i stigande eller sjunkande ordningsföljd. |
 
 ## Verktygsfält nederst
 
 | Ikon | Beskrivning |
 |---|---|
-| ![ikon][img3] | Filtrera meddelandena i inkorgen. |
-| ![ikon][img4] | Uppdatera inkorgen. |
+| <i class="ph ph-funnel" aria-label="Filter"></i> | Filtrera meddelandena i inkorgen. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Uppdatera inkorgen. |
 
 <!-- Referenced links -->
 [1]: compose.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../../common/icons/arrow-down-icon.png
-[img3]: ../../../../../common/icons/filter-icon.png
-[img4]: ../../../../../common/icons/refresh-icon.png

@@ -1,10 +1,10 @@
 ---
 uid: help-sv-chat-respond
 title: Svara på ett chattsamtal
-description: "När en kund skickar en fråga via chattwidgeten på webbplatsen är det inte bara viktigt att svara på den, utan också att registrera den på kundens kontaktkort."
-author: Bergfrid Dias
-date: 02.14.2023
+description: När en kund skickar en fråga via chattwidgeten på webbplatsen är det inte bara viktigt att svara på den, utan också att registrera den på kundens kontaktkort.
 keywords: chatt
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -27,7 +27,7 @@ Inkommande chattsamtal annonseras på följande sätt:
 ![ikon][img4] Du listas inte som närvarande handläggare och får inte aviseringar om obesvarade chattsamtal. Du kan dock fortfarande svara på inkommande chattsamtal.
 
 > [!NOTE]
-> Om alla handläggare har status **Frånvarande** ser kunden bara det frånkopplade formuläret när han/hon startar chattsamtalet.
+> Om alla handläggare har status **Frånvarande** ser kunden bara det frånkopplade formuläret när de startar chattsamtalet.
 
 ## Svara på nästa chattsamtal i kön
 
@@ -44,7 +44,7 @@ Inkommande chattsamtal annonseras på följande sätt:
 
 5. För att chatta skriver du in text i den nedre delen av fönstret och trycker på **ENTER** eller klickar på **Skicka**.
 
-6. Om du vill använda emojier/etiketter klickar du på ![ikon][img5] bredvid textfältet.
+6. Om du vill använda emojier/etiketter klickar du på <i class="ph ph-smiley" aria-label="Smiley"></i> bredvid textfältet.
 
 7. Om du inte kan besvara kundens fråga gör du något av följande:
 
@@ -55,7 +55,7 @@ Inkommande chattsamtal annonseras på följande sätt:
     * [Skicka en FAQ-artikel, en svarsmall eller ett snabbsvar och/eller][4]
     * [Skicka en fil][5]
 
-9. När samtalet har avslutats kan du klicka på ![ikon][img1] och välja **Avsluta chatt** (om inte kunden stänger chattfönstret först). Chattsamtalen flyttas till **Senaste chattsessioner**. Du kan också hitta chattsamtalen som en post på detaljkortet **Aktiviteter** i SuperOffice CRM.
+9. När samtalet har avslutats kan du klicka på <i class="ph ph-list" aria-label="Task menu"></i> och välja **Avsluta chatt** (om inte kunden stänger chattfönstret först). Chattsamtalen flyttas till **Senaste chattsessioner**. Du kan också hitta chattsamtalen som en post på detaljkortet **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Om slutformuläret för chatten har aktiverats för chattkanalen kan kunden välja att återgå till chatten. Då aktiveras chattsamtalen igen.
@@ -68,7 +68,7 @@ Spara tid genom att använda fördefinierade texter när du svarar på kundfråg
 
 ![Från knappen för att lägga till fördefinierad text kan du välja text från FAQ-artiklar, svarsmallar och snabbsvar -screenshot][img6]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Använda chattfunktionen från kundens perspektiv][6]
 * [Skapa eller ladda upp ett dokument][7]
@@ -83,9 +83,7 @@ Spara tid genom att använda fördefinierade texter när du svarar på kundfråg
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

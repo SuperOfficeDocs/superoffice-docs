@@ -31,7 +31,8 @@ Du kan flytta en användare från ett företag till ett annat om din organisatio
 
     [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    > [!NOTE]
+    > Om du vill se resultaten innan du bekräftar åtgärden klickar du på <i class="ph ph-info" aria-label="Visa resultat"></i>.
 
 1. Klicka på **Flytta**. Användaren flyttas till företaget som du har angett.
 

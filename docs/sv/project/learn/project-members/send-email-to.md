@@ -2,10 +2,13 @@
 uid: help-sv-project-member-email
 title: Skicka e-post till projektdeltagare
 description: Så här skickar du e-post till intressenter eller projektdeltagare i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt, deltagare, intressent, e-post
+keywords: Skicka e-post, e-posta projektdeltagare, e-posta intressent, projektdeltagare, intressent, projekt, deltagare
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 

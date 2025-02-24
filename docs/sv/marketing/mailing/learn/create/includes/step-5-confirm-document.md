@@ -16,12 +16,9 @@ Klicka på utskicket i listan om du vill [visa sändningsstatus och statistik f�
 ## <a id="open-and-print-the-document"></a>Öppna och skriv ut dokumentet
 
 1. Välj fliken **Utskick**.
-2. Leta rätt på dokumentet, klicka på ![ikon][img2] och välj **Visning**.
+2. Leta rätt på dokumentet, klicka på <i class="ph ph-list" aria-label="Task menu"></i> och välj **Visning**.
 3. Klicka på knappen under **Hämta genererat dokument**. Dokumentet hämtas då till webbläsaren.
 4. Öppna och skriv ut dokumentet.
 
 <!-- Referenced links -->
 [1]: ../../view-statistics.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../../media/icons/btn-menu.png

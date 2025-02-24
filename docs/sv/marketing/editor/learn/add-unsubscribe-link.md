@@ -4,12 +4,12 @@ title: Lägga in länk för avregistrering
 description: När du skickar ett utskick måste mottagarna ges möjlighet att avregistrera sig. Lär dig hur du kan lägga till en länk för avregistrering i ditt utskick i den här guiden.
 keywords: marknadsföring
 author: SuperOffice RnD
-date: 02.09.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Lägg till prenumerationslänkar
@@ -30,7 +30,7 @@ Du bestämmer var den här avregistreringslänken visas och hur den är formuler
 
 2. Skriv och markera texten som mottagaren måste klicka på, t.ex. till "Klicka här om du vill avregistrera dig" eller "Klicka här om du vill hantera dina prenumerationer".
 
-3. Klicka på knappen **infoga/redigera länk** ![ikon][img3] i verktygsfältet.
+3. Klicka på knappen **infoga/redigera länk** (<i class="ph ph-link" aria-hidden="true"></i>) i verktygsfältet.
 
 4. Klicka på **Speciallänkar** och välj ett av alternativen nedan:
     * **Hantera prenumerationer**: Infogar en länk till en webbsida där mottagarna kan välja vilka utskickstyper de vill ta emot. Länken är giltig i 21 dagar som standard.
@@ -52,5 +52,4 @@ Baserad på feedback från mottagarna uppdateras prenumerationsinställningarna 
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

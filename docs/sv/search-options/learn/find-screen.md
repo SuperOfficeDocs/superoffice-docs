@@ -2,14 +2,17 @@
 uid: help-sv-find-screen
 title: Fönstret Sök
 description: Fönstret Sök
-author: SuperOffice RnD
-date: 12.13.2023
 keywords: söka, sök
-topic: howto
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Fönstret Sök
+# Fönstret Sök <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 För att söka efter poster och data i SuperOffice CRM använder du fönstret **Sök**.
 
@@ -20,15 +23,13 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 
 ## Steg
 
-1. Klicka på **Sök**-knappen på [toppraden][1].
-
-    ![Sök][img2]
+1. Klicka på **Sök**-knappen (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toppraden][1].
 
 2. Klicka på den typ av post du vill söka efter eller klicka på **Vanliga sökningar** för att visa en lista med fördefinierade sökningar. Fliken **Kriterier** öppnas.
 
 3. Fönstret **Sök** innehåller fördefinierade sökkriterier, eller de sökkriterier som du använde senast. Gör något av följande:
 
-    * Klicka på ![ikon][img3] för att bort kriterier som du inte vill använda.
+    * Klicka på <i class="ph ph-x-circle" aria-label="X"></i> för att bort kriterier som du inte vill använda.
     * Klicka på knappen **Lägg till** för att lägga till nya sökkriterier. Då läggs en ny rad till i kriterielistan.
 
 4. Välj i vilket fält du vill söka efter information i den första listrutan på linjen. Du kan även [skriva in början på namnet på önskat fält][2]. Det finns [flera typer av fält][3].
@@ -39,7 +40,7 @@ Det finns i princip inga gränser för vad du kan söka efter i SuperOffice CRM.
 
 6. Du kan klicka på **Lägg till** under kriterielistan igen om du vill ange fler sökkriterier. En ny rad läggs till i kriterielistan och du upprepar steg 4 och 5.
 
-7. Om du vill flytta sökkriterier, klickar du och drar ![ikon][img4].
+7. Om du vill flytta sökkriterier, klickar du och drar <i class="ph ph-equals" aria-label="="></i>.
 
 8. Klicka på **Eller** för att lägga till en annan uppsättning kriterier.
 
@@ -54,10 +55,12 @@ Med sökfunktionen kan du utföra en sökning genom att kombinera sökkriterier 
 
 Låt oss ta en titt på några praktiska exempel på hur du kan använda funktionen ELLER. Du kan söka efter alla kunder som köpte "Produkt A" och kunder som inte köpte "Produkt B" för att öka din korsförsäljning. Eller så kan du söka efter alla stora kunder med huvudkontor i Liverpool eller Manchester, så att du kan kontakta dem om ett kommande evenemang i en av dessa städer.
 
-Titta på den här videon om du vill lära dig hur du skapar en sökning med funktionen ELLER (videons längd – 4:08):
+Titta på den här videon om du vill lära dig hur du skapar en sökning med funktionen ELLER:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+(videons längd – 4:08)
 
 ## <a id="results"></a>Arbeta med sökresultat
 
@@ -94,9 +97,9 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 4. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** ![ikon][img5] och sedan **Belopp**.
+5. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) och sedan **Belopp**.
 
-6. I listrutan till höger om **Belopp** klickar du på pilen ![ikon][img1] och väljer **>** (större än).
+6. I listrutan till höger om **Belopp** klickar du på <i class="ph ph-caret-down" aria-label="Chevron"></i> och väljer **>** (större än).
 
 7. I det sista fältet på raden skriver du in minimibeloppet. Till exempel "100 000".
 
@@ -104,9 +107,9 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 9. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning** ![ikon][img5], och sedan **Registreringsdatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicka först på **Försäljning**, och sedan **Registreringsdatum**.
 
-11. I den andra listrutan klickar du på pilen ![ikon][img1] och sedan **Mellan**.
+11. I den andra listrutan klickar du på pilen och sedan **Mellan**.
 
 12. I den tredje listrutan anger du startdatum för önskad period och i den fjärde listrutan anger du slutdatum för önskad period.
 
@@ -116,7 +119,7 @@ Säg att du har ansvar för säljavdelningen och att du ska hålla en presentati
 
 15. I listan som visas skriver du "Status" för att snabbsöka i fältet.
 
-16. I listan som visas väljer du **Försäljning** –**Status** (med försäljningsikonen ![ikon][img5] framför).
+16. I listan som visas väljer du **Försäljning** –**Status** (med försäljningsikonen framför).
 
 17. I den andra listrutan väljer du **Är en av**.
 
@@ -143,7 +146,7 @@ Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du p
 
 4. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Företag** ![ikon][img6] och sedan **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Företag** (<i class="ph ph-buildings" aria-hidden="true"></i>) och sedan **Land**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
@@ -153,7 +156,7 @@ Säg nu att du ska på en konferens i Danmark. När du ändå är där vill du p
 
 9. Klicka på **Lägg till**.
 
-10. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Företag** ![ikon][img6], och sedan **Vår kontakt**.
+10. Välj i vilket fält du vill söka efter information i listan som visas: Klicka först på **Företag**, och sedan **Vår kontakt**.
 
 11. I den andra listrutan väljer du **Aktuell användare**. Ditt namn visas i det sista fältet på raden.
 
@@ -177,7 +180,7 @@ Säg att du är ansvarig för ett företag och vill ta reda på vilken typ av f�
 
 4. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Försäljning** ![ion][img5] och sedan **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på **Försäljning** och sedan **Status**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
@@ -200,7 +203,7 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 4. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Kontakt** ![ikon][img7] och sedan **Efternamn**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-user-circle" aria-hidden="true"></i> **Kontakt** och sedan **Efternamn**.
 
 6. I den andra listrutan väljer du **Är lika med**.
 
@@ -210,7 +213,7 @@ Säg nu att det börjar bli dags för löneförhandlingar och att du anser att d
 
 9. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]: Klicka först på **Projekt** ![ikon][img8] och sedan **Från-datum**.
+10. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** och sedan **Från-datum**.
 
 11. I den andra listrutan väljer du **Efter**.
 
@@ -232,11 +235,11 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 2. Klicka på **Sök försäljning**.
 
-3. Om fliken **Kriterier** innehåller kriterier, klickar du på ![ikon][img3] för att ta bort dem eller på **Ta bort alla** för att rensa kriterieinformationen.
+3. [!include[Clear criteria](includes/clear-criteria.md)]
 
 4. Klicka på **Lägg till**.
 
-5. [!include[Select field](includes/select-field.md)]: Klicka först på **Händelse** ![ikon][img9] och sedan **Syfte**.
+5. [!include[Select field](includes/select-field.md)]: Klicka först på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Händelse** och sedan **Syfte**.
 
 6. I den andra listrutan väljer du **Är en av**.
 
@@ -246,7 +249,7 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 9. Klicka på **Lägg till**.
 
-10. [!include[Select field](includes/select-field.md)]. Klicka först på **Händelse** ![ikon][img9], och sedan **Slutdatum**.
+10. [!include[Select field](includes/select-field.md)]. Klicka först på **Händelse**, och sedan **Slutdatum**.
 
 11. I den andra listrutan väljer du **Föregående**.
 
@@ -258,7 +261,7 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 
 15. Klicka på **Lägg till**.
 
-16. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Händelse** ![ikon][img9] och sedan **Slutförd**.
+16. Välj i vilket fält du vill söka efter information i listan som visas. Klicka först på **Händelse** och sedan **Slutförd**.
 
 17. Markera **Ja**. Du har nu angett att du vill söka efter händelser som har statusen **Slutförd**.
 
@@ -288,13 +291,4 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/learn/find.png
-[img3]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/singlecolour/sale.png
-[img6]: ../../../../common/icons/singlecolour/contact.png
-[img7]: ../../../../common/icons/singlecolour/person.png
-[img8]: ../../../../common/icons/singlecolour/project.png
-[img9]: ../../../../common/icons/singlecolour/appointment.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png

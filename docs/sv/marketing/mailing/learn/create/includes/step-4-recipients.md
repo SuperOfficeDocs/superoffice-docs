@@ -19,7 +19,7 @@ Du kan lägga till mottagare från urval (från både SuperOffice CRM och SuperO
 
 3. Klicka på ett urval eller projekt i listan.
 
-4. Klicka på ![ikon][img1]. Urvalet eller projektet läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
+4. Klicka på **+**. Urvalet eller projektet läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
 
 5. Upprepa steg 1–4 om du vill lägga till fler urval eller projekt.
 
@@ -36,7 +36,7 @@ Du kan lägga till enskilda kontakter från SuperOffice.
 
 3. Välj önskad kontakt i listan som visas.
 
-4. Klicka på ![ikon][img1]. Kontakten läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
+4. Klicka på **+**. Kontakten läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
 
 5. Upprepa steg 2-5 om du vill lägga till fler kontakter. Ytterligare kontakter läggs till i samma rad i listan **Mottagarkällor** och antalet kontakter visas i kolumnen **Namn**.
 
@@ -52,7 +52,7 @@ När du importerar en lista med namn och e-postadresser kommer SuperOffice Markn
 
 2. Lokalisera relevant fil (.txt, .csv eller liknande textformat).
 
-3. Klicka på ![ikon][img1]. Listan läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
+3. Klicka på **+**. Listan läggs till i listan **Mottagarkällor** och listan **Mottagare** uppdateras.
 
 4. Upprepa steg 2-4 om du vill lägga till fler mottagare. Ytterligare mottagare läggs till i samma rad i listan **Mottagarkällor**. Det totala antalet mottagare visas i kolumnen **Namn**.
 
@@ -118,7 +118,7 @@ Efter att ha lagt till mottagare i listan **Mottagare** kan du förhandsgranska 
 
 3. Klicka på länkar för att kontrollera om de fungerar, men kom ihåg att nollställa dem efteråt om de är spårade.
 
-4. Klicka på ![ikon][img2] när du vill stänga fönstret **Förhandsgranska**.
+4. Klicka på X när du vill stänga fönstret **Förhandsgranska**.
 
 ## Granska och uppdatera listan Mottagare
 
@@ -132,6 +132,4 @@ Dessutom kan du klicka på knappen **Uppdatera lista** under listan **Mottagare*
 Klicka på **Nästa** för att gå till Steg 5: Bekräfta. Du kan fortfarande gå till steget **Mottagare** igen om du vill redigera mottagarlistan.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

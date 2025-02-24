@@ -2,9 +2,9 @@
 uid: help-sv-chat-channel-create
 title: Skapa en chattkanal
 description: Skapa en chattkanal
-author: Bergfrid Dias
-date: 03.24.2023
 keywords: chatt
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,14 +15,16 @@ language: sv
 
 Du kan skapa chattkanaler för särskilda ändamål som teknisk support, produktförfrågningar och säljsupport och tilldela handläggare till varje kanal.
 
-I den här filmen förklarar vi hur du konfigurerar din chattwidget (filmens längd: 4:37):
+I den här filmen förklarar vi hur du konfigurerar din chattwidget:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/94uhmeP1Xig]
 
+(filmens längd: 4:37)
+
 ## Steg
 
-1. Klicka på ![ikon][img2] **Chatt** i navigatorn.
+1. Klicka på <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chatt** i navigatorn.
 
 2. Klicka på **Lägg till** längst ned i listan över chattkanaler.
 
@@ -35,7 +37,7 @@ I den här filmen förklarar vi hur du konfigurerar din chattwidget (filmens lä
 5. Klicka på **Spara** när du är klar.
 
 > [!NOTE]
-> Fält med röda ramar är obligatoriska. Flikar med ikonen ![ikon][img4] innehåller tomma obligatoriska fält.
+> Fält med röda ramar är obligatoriska. Flikar med ikonen <i class="ph ph-warning-circle" aria-label="Warning icon"></i> innehåller tomma obligatoriska fält.
 
 ## Egenskaper
 
@@ -82,7 +84,7 @@ På fliken **Agent** kan du ge användarna tillgång till en chattkanal och ange
 2. Klicka på **Lägg till**. Användaren läggs till i listan över agenter och har tillgång till den valda chattkanalen.
 3. Välj en eller flera av följande behörigheter:
     * **Kan besvara**: Agenten kan svara på inkommande chattsamtal i den här kanalen.
-    * **Förvarningar**: Handläggaren tar emot varningar om han/hon är på plats.
+    * **Förvarningar**: Handläggaren tar emot varningar om de är på plats.
     * **Kan lyssna**: Agenten kan öppna och övervaka ett pågående chattsamtal som en annan agent för.
     * **Chef**: Agenten får chefsvarningar. Denna behörighet kan användas för exempelvis teamledare.
 4. Upprepa steg 1-3 för varje agent du vill lägga till.
@@ -144,9 +146,3 @@ Förhandsgranskningen till höger visar chattfönstret med de aktuella inställn
 ### Kan jag ta bort en chattkanal?
 
 Ja, men se till att chattkanalen inte används på en webbplats. Annars är chattfönstret synligt men fungerar inte.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

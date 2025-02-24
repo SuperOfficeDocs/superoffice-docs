@@ -1,86 +1,99 @@
 ---
 uid: help-sv-company-create
-title: Skapa nya företag
-description: Skapa nya företag
-author: SuperOffice RnD
-date: 11.29.2024
-keywords: företag
+title: Skapa ett nytt företag
+description: Skapa ett nytt företag
+keywords: skapa företag, företag, skapa företagskort, lägg till intressen
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
----
+---  
 
 # Skapa ett nytt företag
 
-I fönstret Företag kan du lägga in information om företag på flera nivåer på de tre flikarna **Företag**, **Mer** och **Intressen**. Om du vill lägga in en kommentar om ett företag går du till fliken **Kommentar**.
+I **fönstret Företag** kan du skapa och hantera företagsuppgifter, inklusive anpassade fält och ytterligare data. Titta på denna [videoguide om att skapa ett företag][1].
 
-Titta på filmen om hur du [skapar ett företag][1].
+## Steg för att skapa ett företag
 
-## Fliken Företag
+1. Klicka på **Nytt** i toppraden och välj **Företag**.
 
-1. Klicka på **Nytt** på toppraden och välj **Företag**.
+1. På fliken **Företag**:
+    * Ange **Företagsnamn** (obligatoriskt, markerat med röd text).
+    * Fyll i fältet **Land**. Adressformatet för landet uppdateras automatiskt. Ditt förvalda land baseras på dina inställningar. Du kan ändra detta under **Personliga inställningar** > **Inställningar** > **System**.
+    * Fyll i eventuella ytterligare fält som **Postnummer**, **Telefon**, **E-post** och **Webbsida**.
 
-1. Skriv in namnet på företaget i fältet högst upp på fliken **Företag** på det tomma företagskortet. ***Företagsnamn*** är en obligatorisk uppgift vilket markeras med röd text.
+   ![Tomt företagskort med obligatoriska och valfria fält. -screenshot][img1]
 
-    ![Tomt företagskort -screenshot][img1]
+1. Välj kategori och branschtillhörighet i fälten **Kategori** och **Bransch**. Båda är obligatoriska för att kunna spara posten.
 
-1. I fältet **Land** anger du företagets land. Adressformatet för landet uppdateras automatiskt på fliken **Företag**. Du kan ställa in ditt nuvarande hemland från **system** under inställningarna.
+1. (Valfritt) Lägg till ytterligare detaljer:
+    * Gå till fliken **Mer** för att [ange anpassade fält][12].
+    * Gå till fliken **Intressen** för att [specificera intressen](#interests-tab).
+    * Gå till fliken **Anteckning** för att [lägga till anteckningar][5].
 
-1. Fyll i nödvändiga uppgifter i de övriga fälten.
+1. Klicka på **Spara** för att spara alla uppgifter.
 
-    > [!NOTE]
-    > Standardfältvärden och listvärden (till exempel bransch och kategori) anges i dialogrutan [Inställningar][3].
+## <a id="fields"></a>Viktiga fält förklarade
 
-1. Klicka på **Spara** för att spara den information du har angett. Du kan sedan klicka på [Mer-fliken][12] för att lägga till ytterligare anpassad information för företaget.
+Följande fält finns tillgängliga i företagskortet. Vissa fält fylls i automatiskt medan andra kräver inmatning.
 
-### Vad ska du ange i de olika fälten?
+> [!NOTE]
+> Fält och layout kan variera beroende på konfigurationer i [skärmdesignern][9] och andra UI-anpassningar.
 
-[!include[Steps to populate company fields](includes/company-fields.md)]
+* **Avdelning:** Specificera en avdelning om företaget har flera filialer eller divisioner.
+* **Adressfält:** Uppdateras automatiskt baserat på valt land.
+* **Postnummer och ort:** Om du anger ett postnummer som finns i SuperOffice-databasen fylls ortnamnet i automatiskt om fältet är tomt. Du kan också ange ett ortnamn manuellt, och då föreslås ett postnummer.
+* **Telefon/Fax/E-post/Webbsida:** Ange flera uppgifter med beskrivningar, t.ex. *Växel*. Klicka utanför tabellen eller tryck på TABB för att stänga inmatningsfältet.
+* **Vår kontakt:** Tilldelar automatiskt ditt namn. Klicka på pilen för att välja en annan person från din organisation.
+* **Huvudkontakt:** Välj kontaktpersonen som ska vara huvudkontakt för denna kund. Kontakter måste läggas till för företaget innan de kan väljas.
+* **Kod:** Genereras automatiskt efter att företaget sparats. Koden baseras på företagsnamnet men kan redigeras manuellt.
+* **Nummer:** Tilldelar automatiskt nästa tillgängliga företagsnummer. Standardnumret börjar vid 10001 och ökar med 1 för varje nytt företag. Denna inställning kan ändras under Inställningar och underhåll.
+* **Org. nr.:** Ange företagets organisationsnummer.
+* **Stopp** och **Inga utskick**-kryssrutor:
+  * **Stopp:** Indikerar att företaget kräver särskild hantering. Om du väljer **Stopp** visas en stoppskylt på företagskortet. Du kan också lägga till en kommentar som förklarar varför företaget är markerat. Alternativet är endast tillgängligt i redigeringsläge.
+  * **Inga utskick:** Förhindrar att företaget får direktutskick. Denna inställning kan endast användas i redigeringsläge.
 
-## <a id="interests-tab"></a>Fliken Intressen (fönstret Företag)
-
-1. Gå till fliken **Intressen**.
-
-2. I redigeringsläget anger du intressen genom att markera de aktuella rutorna. Inställningar och underhåll definierar vilka intressen som visas.
-
-    > [!NOTE]
-    > När fliken är i visningsläget visas bara de valda intressena. När du är i redigeringsläget kan det finnas andra intressealternativ.
-
-3. Om du väljer ett eller flera intressen på fliken **Intressen** visas en punkt bredvid flikens namn.
-
-    Fliken ![Företagets intressen -screenshot][img2]
-
-4. När du har angett den information som behövs på alla tre flikar i fönstret Företag klickar du på **Spara**. Ett företagskort skapas för det nya företaget.
-
-> [!TIP]
-> Intressen kan vara användbar information när du till exempel definierar urval. Om du till exempel har definierat *referenskund* som intresse kan du skapa ett urval som innehåller alla dina referenskunder. Då är det enkelt att skapa marknadsföringskampanjer mot denna kundgrupp.
-
-## Fliken www (fönstret Företag)
-
-[!include[About the www tab](../../learn/includes/www-tab.md)]
-
-## Fliken ERP (fönstret Företag)
-
-[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
-
-## Fliken Anteckning (fönstret Företag)
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
+[!include[3 udef](../../learn/includes/more-udef.md)]
 
 ## Dubbletter
 
-Om du försöker lägga in ett företag som liknar ett företag som redan finns i SuperOffice CRM visas dialogrutan **Dubbletter** för att förhindra att du [oavsiktligt registrerar ett redan befintligt företag][2]. Välj om du vil fortsätta att arbeta med den aktuella posten eller gå till en av posterna längst ner i dialogrutan.
+Om du anger ett företag som liknar ett som redan finns i SuperOffice CRM visas dialogrutan **Dubbletter**. Detta hjälper dig att undvika [oavsiktlig registrering av ett befintligt företag][2].
 
-[!include[Tip](../../learn/includes/tip-open-website.md)]
+* Granska listade dubbletter för att upprätthålla datakonsistens och undvika onödiga poster.
+* Välj att fortsätta med den nya posten eller byta till ett av de listade företagen.
 
-## Relaterade ämnen
+## <a id="interests-tab"></a>Lägg till intressen
+
+Intressen kan hjälpa dig att skapa riktade urval. Till exempel kan du definiera *referenskund* som ett intresse och bygga ett urval för marknadsföringskampanjer riktade till dessa konton.
+
+1. Gå till fliken **Intressen**.
+
+1. I redigeringsläget markerar du relevanta rutor för att ange intressen. Tillgängliga intressen definieras i **Inställningar och underhåll**.
+
+    > [!NOTE]
+    > I visningsläge visas endast valda intressen. I redigeringsläge kan fler alternativ finnas tillgängliga.
+
+1. Om du markerar ett eller flera intressen visas en punkt bredvid flikens namn.
+
+    ![Fliken Intressen med kryssrutor för att välja företagsintressen. -screenshot][img2]
+
+1. Klicka på **Spara** för att lagra de valda intressena.
+
+## Relaterat innehåll
 
 * [Lägg till en post som favorit][4]
+* [Dialogrutan Inställningar][3] – standardvärden och listvärden
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[5]: ../../learn/basics/notes.md
+[9]: ../../ui/screen-designer/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->

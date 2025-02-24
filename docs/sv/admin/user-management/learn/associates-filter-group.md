@@ -2,9 +2,9 @@
 uid: help-sv-users-associates-filter-group
 title: Filtrera och gruppera användare
 description: Filtrera och gruppera användare
-author: Bergfrid
-date: 03.15.2023
 keywords: user, medarbetare
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Använd den här dynamiska sökfunktionen för att snabbt hitta specifika använ
 
 Välj det här alternativet om du bara vill visa användare som är aktiva (inte har inaktiverats).
 
-## Filtrera listan
+## Filtrera listan <i class="ph ph-funnel" aria-hidden="true"></i>
 
 Du kan filtrera listan över användare efter kolumnrubrikerna.
 
@@ -33,10 +33,10 @@ Du kan filtrera listan över användare efter kolumnrubrikerna.
 > Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att filtrera på.
 
 1. Gå till fliken **Medarbetare**.
-2. Högerklicka på en kolumnrubrik eller klicka på ![ikon][img1] längst upp till höger i listan.
+2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
 3. Välj **Aktivera filter**.
-4. Klicka på **OK**. Filterknappar (![ikon][img2]) läggs till i varje kolumnrubrik.
-5. Klicka på ![ikon][img2] i den kolumn du vill filtrera.
+4. Klicka på **OK**. Filterknappar läggs till i varje kolumnrubrik.
+5. Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i> i den kolumn du vill filtrera.
 6. Markera relevanta värden i listan. Använd sökfunktionen om listan är lång.
 7. Klicka på **Filter**.
 8. Upprepa steg 5–7 för att filtrera fler kolumner.
@@ -49,7 +49,7 @@ Du kan gruppera användarlistan efter roll, användarplan, primärgrupp och likn
 > Högerklicka på en kolumn om du vill lägga till ytterligare kolumner att gruppera efter (se även [Anpassa översikter][1]).
 
 1. Gå till fliken **Medarbetare**.
-2. Högerklicka på en kolumnrubrik eller klicka på ![ikon][img1] längst upp till höger i listan.
+2. Högerklicka på en kolumnrubrik eller klicka på <i class="ph ph-gear" aria-label="Gear"></i> längst upp till höger i listan.
 3. Välj **Aktivera gruppering**.
 4. Klicka på **OK**.
 5. Klicka på kolumnrubriken för det värde som du vill gruppera och dra det till området ovanför kolumnerna ("Dra en kolumnrubrik och ..."). Listan grupperas nu efter det värdet.
@@ -62,7 +62,3 @@ Du kan gruppera användarlistan efter roll, användarplan, primärgrupp och likn
 
 <!-- Referenced links -->
 [1]: ../../learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/filter-column.png

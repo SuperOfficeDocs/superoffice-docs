@@ -31,7 +31,7 @@ För att användarna ska kunna använda videomöten i dialogrutan Händelse krä
 
 Varje videoleverantör har sina egna krav för att deras tjänster ska kunna anslutas till SuperOffice CRM. Till exempel, du behöver en Microsoft 365-prenumeration för företag. Videomöten med Microsoft Teams stöder inte Personliga och Familjekonton.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Konfigurera videomöten][2]
 * [E-postinställningar för videomöten][3]

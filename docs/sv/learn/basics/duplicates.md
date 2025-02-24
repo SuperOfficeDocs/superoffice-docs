@@ -2,10 +2,13 @@
 uid: help-sv-duplicates
 title: Dubbletter
 description: Dubbletter
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: dubblett
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -19,14 +22,9 @@ Du kan fortsätta att arbeta med den aktuella posten eller gå till en av poster
 
 Om du vill ändra inställningarna för dubblettkontrollen klickar du på **knappen Inställningar** i **dialogrutan Dubbletter** .
 
-Du kan också komma åt dessa inställningar från huvudmenyn ![ikon][img1].
+Du kan också komma åt dessa inställningar från huvudmenyn (<i class="ph ph-list" aria-hidden="true"></i>).
 
 ## Inaktivera dubblettkontroll
 
 1. Gå till Inställningar och underhåll.
 1. Välj **Inställningar** > **Funktioner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

@@ -2,18 +2,18 @@
 uid: help-sv-automation-macro
 title: Makron och skript
 description: Makron och skript
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: skript, makro
+author: SuperOffice RnD
+date: 02.25.2025
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
 ---
 
-# Makron och skript
+# Makron och skript <i class="ph ph-code-block" aria-hidden="true"></i>
 
-Under ![ikon][img2] **CRMScript** på fliken **Makron och skript** finns en lista över alla skript och makron i systemet indelade i mappar. Klicka på ett skript eller makro i listan om du vill [visa, redigera eller köra det][1].
+Under **CRMScript** på fliken **Makron och skript** finns en lista över alla skript och makron i systemet indelade i mappar. Klicka på ett skript eller makro i listan om du vill [visa, redigera eller köra det][1].
 
 ## Om makron
 
@@ -25,7 +25,7 @@ Makron fyller flera funktioner i SuperOffice. De kan kopplas till specifika [utl
 
 Du kan till exempel använda makron
 
-* som en uppgift/funktion i en menypunkt (t.ex. i ![ikon][img1] **Åtgärd** i fönstret Ärende)
+* som en uppgift/funktion i en menypunkt (t.ex. i **Åtgärd** i fönstret Ärende)
 * när ett ärende eskaleras via varningsnivåerna för prioritet
 * som en planerad uppgift
 * när de aktiveras av ett e-postfilter
@@ -49,7 +49,3 @@ Ett skript är ett litet program som har skrivits för att utföra specifika upp
 [2]: create-script.md
 [3]: create-macro.md
 [4]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

@@ -30,7 +30,7 @@ I fönstret Kundcenter anger du inställningar för kundcentret och hanterar kun
 
 * [Kundcenter – källfiler][3]. På den här fliken kan du redigera kundcentrets standardsidor.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Kundspråk][1]
 

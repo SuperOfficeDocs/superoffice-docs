@@ -59,7 +59,7 @@ Om det totala antalet nya licenser är mindre än antalet licenser som används 
 
 [!include[Tip](includes/tip-user-licenses.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Licenstyper][3]
 * [Fliken Status i fönstret Licenser][1]

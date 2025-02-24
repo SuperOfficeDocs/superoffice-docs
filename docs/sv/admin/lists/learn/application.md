@@ -2,10 +2,12 @@
 uid: help-sv-application
 title: Applikation
 description: Applikation
+keywords: listan GUI – Applikation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -18,7 +20,7 @@ Du definierar vilka webbadresser som ska vara tillgängliga för användarna i f
 > [!NOTE]
 > Filer eller applikationer som måste köras lokalt (till exempel .exe-filer) är inte tillgängliga i SuperOffice CRM for Web.
 
-Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna till vänster om listan (![ikon][img1] ![ikon][img2]).
+Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna till vänster om listan (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 När du har lagt till poster kan du ange egenskaper för varje enskild post. Du kan ange
 
@@ -33,7 +35,3 @@ När du har lagt till poster kan du ange egenskaper för varje enskild post. Du 
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
 [3]: adding-external-applications-to-application-list.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-up.png
-[img2]: ../../../../media/icons/arrow-down.png

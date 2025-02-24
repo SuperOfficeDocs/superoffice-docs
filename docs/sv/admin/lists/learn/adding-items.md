@@ -2,10 +2,12 @@
 uid: help-sv-adding-items
 title: Lägga till poster
 description: Lägga till poster
+keywords: lister
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -30,7 +32,7 @@ language: sv
 
 6. Klicka på **Spara**. Posten läggs nu till i listan **Poster**. Upprepa proceduren om du vill lägga till fler poster.
 
-Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna under listan (![ikon][img3] ![ikon][img4]).
+Posterna visas i den ordning du skapar dem. Om du vill ändra ordningen väljer du en post och flyttar den uppåt eller nedåt med pilknapparna under listan (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 När du har lagt till poster kan du ange egenskaper för varje enskild post. Du kan ange vilka [användargrupper posten ska vara synlig för][2] och vilka [rubriker][3] den ska visas under.
 
@@ -38,7 +40,3 @@ När du har lagt till poster kan du ange egenskaper för varje enskild post. Du 
 [1]: specialized-lists.md
 [2]: organize/user-group-filtering.md
 [3]: organize/headings.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png

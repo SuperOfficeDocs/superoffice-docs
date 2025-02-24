@@ -4,25 +4,25 @@ title: Favoriter
 description: Denna guide hjälper dig att förstå hur du använder favoriter effektivt, från att lägga till post till att hantera och ta bort dem.
 keywords: favoriter
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 11.29.2024
-version: 10.3
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Favoriter i SuperOffice CRM
+# Favoriter i SuperOffice CRM <i class="ph ph-star" aria-hidden="true"></i>
 
 Funktionen Favoriter ger dig enkel åtkomst till dina favoritposter, till exempel företag, kontakter, försäljning, urval, projekt, dokument, ärenden, och utskick. Denna guide hjälper dig att förstå hur du använder favoriter effektivt, från att lägga till post till att hantera och ta bort dem.
 
 ## Lägg till en post som favorit
 
-Om du vill lägga till en post i favoriter klickar du på stjärnikonen ikonen (![ikon][img3]) i det aktuella kortet, fliken eller dialogrutan. Stjärnan blir gul och posten läggs omedelbart till i favoriter. Du behöver inte klicka på **Spara**.
+Om du vill lägga till en post i favoriter klickar du på stjärnikonen ikonen (<i class="ph ph-star" aria-hidden="true"></i>) i det aktuella kortet, fliken eller dialogrutan. Stjärnan blir gul och posten läggs omedelbart till i favoriter. Du behöver inte klicka på **Spara**.
 
 I listan (till exempel detaljkort och Sök) kan du högerklicka på en post och välja **Lägg till i favoriter** i menyn.
 
-Nu kan du snabbt få tillgång till posten genom att klicka på ![ikon][img1] i navigatorns meny. Favoriterna är också tillgängliga i [sidopanelen][4].
+Nu kan du snabbt få tillgång till posten genom att klicka på <i class="ph ph-star" aria-label="Star icon"></i> i navigatorns meny. Favoriterna är också tillgängliga i [sidopanelen][4].
 
 ## Åtkomst till favoriterna
 
@@ -30,7 +30,7 @@ Nu kan du snabbt få tillgång till posten genom att klicka på ![ikon][img1] i 
 
 1. Klicka på ordet **Företag**, **Kontakt**, **Försäljning**, **Projekt**, **Ärenden** eller **Urval** i navigatorn.
 
-1. Klicka på ![ikonen][img1].
+1. Klicka på <i class="ph ph-star" aria-label="Star icon"></i>.
 
 1. Välj objektet som du vill visa.
 
@@ -42,6 +42,8 @@ Nu kan du snabbt få tillgång till posten genom att klicka på ![ikon][img1] i 
 
 1. Klicka eventuellt på kryssrutan längst ner i sidopanelen för att visa endast en typ av favoriter. Till exempel, om Försäljningsskärmen är öppen, klicka på **Endast försäljningar** för att visa endast favoritförsäljningar.
 
+1. Klicka på <i class="ph ph-caret-down" aria-label="Pilkner"></i> bredvid sidopanelens namn.
+
 > [!TIP]
 > Håll muspekaren över en favorit för att se fler detaljer.
 
@@ -49,7 +51,7 @@ Nu kan du snabbt få tillgång till posten genom att klicka på ![ikon][img1] i 
 
 1. Öppna posten.
 
-1. Klicka på favoritikonen (![ikon][img2]) i rubriken. Ikonen ändras tillbaka till standard, vilket indikerar att posten inte längre är en favorit.
+1. Klicka på favoritikonen (<i class="ph ph-star" aria-hidden="true"></i>) i rubriken. Ikonen ändras tillbaka till standard, vilket indikerar att posten inte längre är en favorit.
 
 ## Ytterligare tips
 
@@ -67,8 +69,3 @@ Nu kan du snabbt få tillgång till posten genom att klicka på ![ikon][img1] i 
 [1]: history.md
 [2]: ../getting-started/main-screen/navigator.md
 [4]: ../getting-started/main-screen/side-panel.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-fav.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

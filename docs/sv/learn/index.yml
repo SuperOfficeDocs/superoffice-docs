@@ -220,7 +220,7 @@ conceptualContent:
       - text: Navigera i fönstret Kalender
         itemType: library_books
         typeDesc: reference
-        url: ../diary/learn/screen/index.md
+        url: ../diary/learn/index.md
 
     # Card
     - title: Dokument
@@ -250,15 +250,15 @@ conceptualContent:
       - text: Skapa ärende
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/create.md
+        url: ../request/learn/create.md
       - text: Ta över ansvaret för ärende
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/accept.md
+        url: ../request/learn/accept.md
       - text: Svara kund
         itemType: list
         typeDesc: how-to-guide
-        url: ../request/learn/howto/reply.md
+        url: ../request/learn/reply.md
       - text: Arbeta med svarsmallar
         itemType: list
         typeDesc: how-to-guide
@@ -299,7 +299,7 @@ conceptualContent:
       - text: Försäljningsguide
         itemType: list
         typeDesc: how-to-guide
-        url: ../sale/learn/sales-guide/working-with-sales-guide.md
+        url: ../sale/learn/sales-guides.md
       - text: Skapa en ny dashboard
         itemType: list
         typeDesc: how-to-guide

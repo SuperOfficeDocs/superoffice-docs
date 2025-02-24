@@ -2,12 +2,12 @@
 uid: help-sv-edit-items
 title: Redigera poster
 description: I den här guiden förklarar vi hur du redigerar en listpost.
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: post
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -58,6 +58,6 @@ Den här filmen visar hur du redigerar poster i SuperOffice CRM (filmens längd:
 [1]: deleting-items.md
 [2]: specialized-lists.md
 [3]: privacy-source-add.md
-[4]: sale-type.md
+[4]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

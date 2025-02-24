@@ -2,14 +2,17 @@
 uid: help-sv-search-intro
 title: Sökfunktioner i CRM
 description: Lär dig hur du söker efter och hittar data i SuperOffice CRM med bara några enkla klick.
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: söka, sök
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Sökfunktioner
+# Sökfunktioner <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Att söka efter information i din CRM-databas är något du gör varje dag. Oavsett om du letar efter ett telefonnummer eller en lista över alla dina öppna försäljningar, hjälper sökfunktionen dig att hitta informationen snabbare.
 
@@ -78,7 +81,7 @@ Använd sökfältet [fritextsökning][2] i det övre högra hörnet för att sö
 
 Använd **%** som en joker när du söker. Procenttecknet (%) matchar alla strängar med 0 eller fler tecken. Till exempel: J%son matchar Jackson, Johnson, Jason och Json.
 
-## Använda Sök-knappen
+## Använda Sök-knappen <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Om du klickar på knappen **Sök** i det övre fältet, öppnas [Fönstret Sök][1], där du kan söka på data i SuperOffice. Sök-knappen hjälper dig att hitta poster [baserat på eventuella kriterier][6] från företag, kontakter, projekt, urval, försäljning, produkter, händelser, dokument och ärenden.
 
@@ -100,10 +103,12 @@ Denna sökning ger dig en lista över alla aktiviteter som du inte har slutfört
 
 Vanliga sökningar finns där för att hjälpa dig att komma igång och skapa din egen sökning efter CRM-data. När du har valt en vanlig sökning, kan du lägga till och redigera sökkriterier. Och när du har skapat en användbar sökning som du vill använda igen, kan du spara den som ett urval.
 
-Titta på den här videon för att lära dig hur du gör en vanlig sökning och ändrar den genom att lägga till nya sökkriterier eller följ steg-för-steg-guiden nedan (videolängd - 3:01):
+Titta på den här videon för att lära dig hur du gör en vanlig sökning och ändrar den genom att lägga till nya sökkriterier eller följ steg-för-steg-guiden nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolängd - 3:01)
 
 ## <a id="search-to-selection"></a>Skapa en sökning och spara den som ett urval
 
@@ -123,10 +128,12 @@ Det finns tre sätt att spara sökresultat som urval:
 
 * **Lägg till i befintligt statiskt urval:** Du kan lägga till alla poster som du hittade i sökningen i ett befintligt statiskt urval i stället för att skapa ett nytt urval.
 
-Titta på den här videon eller följ stegen nedan om du vill lära dig hur du skapar en sökning och sparar den som ett dynamiskt urval (videons längd - 1:26):
+Titta på den här videon eller följ stegen nedan om du vill lära dig hur du skapar en sökning och sparar den som ett dynamiskt urval:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
+
+(videons längd - 1:26)
 
 ## Relaterat innehåll
 
@@ -149,4 +156,4 @@ Titta på den här videon eller följ stegen nedan om du vill lära dig hur du s
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
 [img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
 [img3]: ../../../media/loc/en/search-options/freetext-search-find.png
-[img5]: ../../../media/loc/en/search-options/typical-search.png
+[img5]: ../../../media/loc/en/request/typical-searches-for-request.png

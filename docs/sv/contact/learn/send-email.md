@@ -1,61 +1,65 @@
 ---
 uid: help-sv-contact-send-email
 title: Skicka e-post till en kontakt
-description: Om du skickar e-post via SuperOffice CRM blir det enklare att dela och spara all kundkommunikation på ett och samma ställe.
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: person, contact
+description: Att skicka e-post via SuperOffice CRM gör det enklare att dela och lagra all kundkommunikation på ett och samma ställe.
+keywords: skicka e-post, e-postkontakt, e-postmeddelande, e-mail
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Skicka e-post till en kontakt
 
-Du kan förbereda ett e-postmeddelande från både fönstret Kontakt och fönstret Företag. Därefter skickar du e-postmeddelandet på samma sätt.
+Du kan skicka e-post till kontakter från både fönstret **Kontakt** och fönstret **Företag**. Processen är densamma efter att du har valt mottagarna.
 
-## Skapa e-postmeddelande från fönstret Kontakt
+## Skicka e-post från fönstret Kontakt
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. Gör något av följande:
-    * Klicka på e-postadressen på fliken **Kontakt**. Om kontakten har mer än en e-postadress väljer den du vill använda.
-    * Klicka på **Nytt** på det övre fältet och välj **E-postmeddelande**.
-    * Klicka på ![ikon][img1] knappen **Uppgift** och välj **Skicka e-postmeddelande**.
+1. Gör ett av följande:
+    * Klicka på e-postadressen på fliken **Kontakt**.
+    * Klicka på **Nytt** i toppmenyn och välj **E-postmeddelande**.
+    * Klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Skicka e-postmeddelande**.
 
-    Standardprogrammet för e-post öppnas med ett meddelande till den aktuella mottagaren.
+    Om kontakten har flera e-postadresser, välj den som ska användas. Ditt standardprogram för e-post öppnas med mottagarens adress ifylld.
 
-1. Skriv e-postmeddelandet.
-1. Gå till (#send) nedan.
-
-## Skapa e-postmeddelande från fönstret Företag
+## Skicka e-post från fönstret Företag
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Välj detaljkortet **Kontakter**.
+1. I detaljkortet **Kontakter**, välj en eller flera kontakter.
 
-1. Markera ett eller flera företag.
+1. Högerklicka och välj **Skicka e-postmeddelande**.
 
-1. Högerklicka och välj **Skicka e-postmeddelande**. Standardprogrammet för e-post öppnas med ett meddelande till den eller de aktuella mottagarna.
+   > [!NOTE]
+   > Endast kontakter med angivna e-postadresser inkluderas i **Till**-fältet. Kontakter utan e-postadress utelämnas.
 
-    > [!NOTE]
-    > Endast kontakter med angivna e-postadresser visas i **Till**-fältet. Kontakter som saknar e-postadress utelämnas.
+## Slutför och skicka
 
-## Skicka
+1. Skriv e-postmeddelandet.
 
-![Leta fram kontakten, högerklicka och välj sedan Skicka e-postmeddelande på menyn -screenshot][img2]
+2. Klicka på ett av följande alternativ:
 
-1. Skicka e-postmeddelandet genom att klicka på någon av följande knappar:
+    * **Skicka:** Skickar e-postmeddelandet och loggar det på detaljkortet **Aktiviteter**.
+    * **Skicka och arkivera:** Skickar e-postmeddelandet och sparar det som ett dokument.
 
-    * **Skicka:** E-postmeddelandet skickas och visas på detaljkortet **Aktiviteter**.
-    * **Skicka och arkivera:** E-postmeddelandet skickas och sparas som ett dokument.
+    Om du väljer **Skicka och arkivera**, öppnas fönstret [Dokument][1]. Lägg till eventuell nödvändig information och klicka på **Skapa** för att spara.
 
-1. Om du har valt **Skicka och arkivera** öppnas fönstret [Dokument][1] när du skickar e-postmeddelandet. Ange önskad information i dialogrutan.
+![Leta fram kontakten, högerklicka och välj Skicka e-postmeddelande. -screenshot][img2]
 
-1. Klicka på **Skapa** i dialogrutan Dokument.
+## Relaterat innehåll
+
+* [Arkivera e-post i SuperOffice Inkorg][2]
+* [SuperOffice för Outlook][3]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
+[2]: ../../email/inbox/learn/archive.md
+[3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/contact/email-send-email.png
+[img2]: ../../../media/loc/en/contact/send-email.png

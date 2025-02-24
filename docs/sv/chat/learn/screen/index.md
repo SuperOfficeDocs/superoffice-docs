@@ -2,9 +2,9 @@
 uid: help-sv-chat-screen
 title: Chattfönster
 description: Chattfönster
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: chatt
+author: SuperOffice RnD
+date: 02.25.2025
 topic: reference
 language: sv
 ---
@@ -49,7 +49,7 @@ Följande ikoner används för de aktiva chattsessionerna i listan:
 |---|---|
 | ![ikon][img2] | Det senaste meddelandet i samtalet från kunden och agenten. |
 | ![ikon][img3] | Antal olästa meddelanden från kunden. |
-| ![ikon][img4] | Överförda chattsamtal till dig eller från dig. Väntar på att bli accepterad. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Överförda chattsamtal till dig eller från dig. Väntar på att bli accepterad. |
 
 ### Chattsamtal
 
@@ -83,5 +83,4 @@ Om kunden finns i SuperOffice kan du visa kontaktinformation, ärenden, försäl
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

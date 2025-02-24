@@ -39,7 +39,7 @@ language: sv
 
 ## Skapa ny
 
-Var du än är i SuperOffice CRM kan du skapa en händelse genom att klicka på **Ny** i det övre fältet och välja **Möte**, **Att göra**, eller **Händelse**.
+Var du än är i SuperOffice CRM kan du skapa en händelse genom att klicka på **Nytt** i det övre fältet och välja **Möte**, **Att göra**, eller **Händelse**.
 
 > [!NOTE]
 > Händelser som skapas från fönstret Kalender är som standard möten. Du kan dock ändra typen innan du sparar.

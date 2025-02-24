@@ -54,7 +54,7 @@ Du kan opprette et prosjekt i SuperOffice CRM ved å bruke knappen **Ny** i topp
 I prosjektkortet finner du flere felt. Noen fylles inn automatisk, mens andre krever manuell inntasting.
 
 > [!NOTE]
-> Felt og layout kan variere avhengig av konfigurasjonene i [Skjermdesigner][9] og andre UI-tilpasninger.
+> Felt og layout kan variere avhengig av konfigurasjonene i [Skjermdesigner][13] og andre UI-tilpasninger.
 
 * **Prosjektnavn:** Hovedidentifikatoren for prosjektet. Dette er et obligatorisk felt.
 * **Nummer:** Automatisk generert som neste tilgjengelige prosjektnummer hvis dette er satt opp i **Innstillinger og vedlikehold**. Kan redigeres manuelt om nødvendig.
@@ -94,6 +94,7 @@ Hvis prosjektnavnet ligner på et eksisterende prosjekt, vil dialogboksen **Dupl
 [10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md
+[13]: ../../ui/screen-designer/learn/index.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/project/create-project.png

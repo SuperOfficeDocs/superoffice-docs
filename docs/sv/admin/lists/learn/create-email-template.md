@@ -2,12 +2,12 @@
 uid: help-sv-mail-link-create-template
 title: Skapa e-postmallar
 description: Skapa e-postmallar
+keywords: Skapa e-postmall, e-postmall, Mail Link
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Mail Link
+date: 02.25.2025
 topic: howto
 audience: settings
-audience_tooltip: Settings and maintenance
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -29,19 +29,19 @@ Du kan skapa egna mallar som du använder när du skapar e-postmeddelanden från
 
 7. [!include[Click arrow and select](includes/expand-list.md)] **Dokumentmall** från listrutan **Lista**.
 
-8. Klicka på knappen **Lägg till** ![ikon][img2] under listan **Poster**.
+8. Klicka på knappen **Lägg till** under listan **Poster**.
 
 9. Skriv mallens namn i det obligatoriska fältet **Namn** i dialogrutan.
 
-10. Klicka på pilen ![ikon][img1] i fältet **Filnamn** och välj den *.somail*-fil du nyss skapade.
+10. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> i fältet **Filnamn** och välj den *.somail*-fil du nyss skapade.
 
-11. Klicka på pilen ![ikon][img1] i fältet **Riktning** och välj **Utgående** i listrutan.
+11. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> i fältet **Riktning** och välj **Utgående** i listrutan.
 
-12. Klicka på pilen ![ikon][img1] i fältet **Radtyp** och välj **E-post**.
+12. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> i fältet **Radtyp** och välj **E-post**.
 
-13. Välj vilket program som ska användas för att visa dokumentet genom att klicka på pilen ![ikon][img1] i fältet **Dokumentplugin** och välja ett alternativ i listan.
+13. Välj vilket program som ska användas för att visa dokumentet genom att klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> i fältet **Dokumentplugin** och välja ett alternativ i listan.
 
-14. Klicka på pilen ![ikon][img1] i fältet **Syfte** och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning i SuperOffice CRM (kräver SAINT-licens).
+14. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> i fältet **Syfte** och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning i SuperOffice CRM (kräver SAINT-licens).
 
 15. Markera kryssrutan **Publicera** om du vill att en användare ska kunna välja att göra dokumentmallen tillgänglig för externa användare i dialogrutan Dokument.
 
@@ -58,7 +58,3 @@ Du kan skapa egna mallar som du använder när du skapar e-postmeddelanden från
 21. Klicka på **Spara**.
 
 Nu kan du skapa nya e-postmeddelanden från SuperOffice CRM med den här mallen.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

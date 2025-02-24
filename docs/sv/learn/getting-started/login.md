@@ -2,9 +2,10 @@
 uid: help-sv-sign-in-to-superoffice
 title: Logga in
 description: Logga in för att aktivera ditt SuperOffice CRM-konto med ett SuperOffice CRM-lösenord eller ett alternativ för enkel inloggning.
-author: SuperOffice RnD
-date: 08.28.2023
 keywords: CRM, logga in, logga in, lösenord
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -101,7 +102,7 @@ Du måste ha *Behörighet 0* eller en roll som ger dig behörighet att logga in 
 
 ## Så här ändrar du ditt lösenord
 
-1. Välj ![ikon][img1] **Personliga inställningar &gt; Ändra lösenord**.
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar &gt; Ändra lösenord**.
 2. Ange det nya lösenordet i fältet **Nytt lösenord**.
 3. Skriv det en gång till i fältet **Upprepa lösenord** för att säkerställa att du skrev rätt första gången.
 4. Klicka på **OK**.
@@ -139,7 +140,6 @@ Kontakta SuperOffice-administratören för att få ett nytt lösenord.
 [7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png

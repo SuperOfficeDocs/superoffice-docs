@@ -3,9 +3,9 @@ uid: help-sv-print
 title: Utskrift av poster i SuperOffice CRM
 description: Den här guiden ger en översikt över hur du skriver ut poster såsom företag, kontakter, försäljningar, projekt och händelser, vilket gör det bekvämt att ha papperskopior för möten, dokumentation eller vidare analys.
 keywords: skriv ut, utskrift
-author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,13 +20,13 @@ Utskriftsfunktionen i SuperOffice CRM gör det enkelt att skapa utskriftsversion
 
 De allmänna stegen för att skriva ut en post i SuperOffice CRM är i stort sett desamma på olika skärmar.
 
-1. Gå till önskad post: Gå till Företag, Kontakt, Försäljning, Projekt eller Ärende för att hitta posten du vill skriva ut.
+1. Gå till önskad post: Öppna skärmbilden Företag, Kontakt, Försäljning, Projekt eller Ärende för att hitta posten du vill skriva ut.
 
-1. I det relevanta kortet, fliken eller dialogen, klicka på **Uppgift**-knappen.
+1. I det relevanta kortet, fliken eller dialogrutan, klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
 
 1. Välj **Skriv ut** från menyn.
 
-1. I förhandsgranskningsdialogen som öppnas, klicka på **Skriv ut** för att bekräfta.
+1. I förhandsgranskningsdialogrutan som öppnas, klicka på **Skriv ut** för att bekräfta.
 
 ## Specifika scenarier
 
@@ -42,7 +42,7 @@ De allmänna stegen för att skriva ut en post i SuperOffice CRM är i stort set
 
 1. Öppna den nödvändiga händelsen på detaljkortet **Aktiviteter** i Företag, Kontakt, Kalender, Försäljning eller Projekt-skärmarna.
 
-1. Klicka på **Uppgift** och välj **Skriv ut**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Skriv ut**.
 
 ### Skriv ut händelse från Kalender
 

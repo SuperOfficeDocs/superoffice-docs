@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.09.2024
 version: 10
 topic: concept
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Hantera e-postprenumerationer

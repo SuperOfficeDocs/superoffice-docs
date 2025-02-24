@@ -2,10 +2,12 @@
 uid: help-sv-adding-items-to-follow-up-type-list
 title: Lägga till poster i listan Händelse – Typ
 description: Lägga till poster i listan Händelse – Typ
+keywords: listan Händelse – Typ
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -20,7 +22,7 @@ language: sv
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klicka på ![ikon][img1] pilen bredvid fältet **Typ** och välj önskad händelsetyp i listrutan.
+2. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid fältet **Typ** och välj önskad händelsetyp i listrutan.
 
 3. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på pilen och välja ett alternativ i listrutan.
 
@@ -41,6 +43,3 @@ language: sv
 
 <!-- Referenced links -->
 [2]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

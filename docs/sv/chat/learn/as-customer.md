@@ -2,9 +2,9 @@
 uid: help-sv-chat-as-customer
 title: Använda chattfunktionen från kundens perspektiv
 description: Använda chattfunktionen från kundens perspektiv
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: chatt
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -27,7 +27,7 @@ language: sv
 
 5. Kunden chattar med agenten.
 
-6. När samtalet är klart kan kunden avsluta chatten genom att stänga fönstret. Alternativt kan handläggaren avsluta chattsamtalet genom att välja ![ikon][img1] &gt; **Avsluta chatt**.
+6. När samtalet är klart kan kunden avsluta chatten genom att stänga fönstret. Alternativt kan handläggaren avsluta chattsamtalet genom att välja <i class="ph ph-list" aria-label="Task menu"></i> > **Avsluta chatt**.
 
     * Om slutformuläret för chatten har aktiverats för den här chattkanalen kan kunden välja att återgå till chatten.
     * Om funktionen **Aktivera chattlogg** är aktiverad för chattkanalen kan kunden välja att få en logg över samtalet på e-post. E-postfunktionen använder en svarsmall i SuperOffice Service.
@@ -37,8 +37,3 @@ language: sv
 Om ingen agent är tillgänglig (vanligtvis utanför arbetstid) visas ett kort meddelande i chattfönstret. Exempel: "Tyvärr. Vi har stängt. Första tiden är ..."
 
 Om insändning av ärende har aktiverats för chattkanalen kan kunden ange namn, e-postadress och en fråga. Ärende-ID visas i chattfönstret.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

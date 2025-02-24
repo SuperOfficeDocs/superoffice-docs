@@ -4,8 +4,8 @@ title: Filtrera detaljkorten
 description: Så använder du filter på detaljkorten.
 keywords: detaljkort, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,18 +24,19 @@ Filter är personliga. De filter du använder visas bara för dig och du kan lä
 
 Flera filter kan vara aktiva på samma gång. Om en detaljkort inte visar förväntade data kontrollerar du dina filterinställningar.
 
-Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta videon, eller läs instruktionerna nedan (videons längd – 2:10):
+Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta videon, eller läs instruktionerna nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(videons längd – 2:10)
 
 ## Alternativ
 
 | Alternativ | Beskrivning |
 |---|---|
-| ![ikon][img2] (filterikonen) | Du kan filtrera detaljkorten aktiviteter och försäljning efter datum, användare och grupper. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | Du kan filtrera detaljkorten aktiviteter och försäljning efter datum, användare och grupper. Klicka på trattikonen i ett kolumnhuvud för att filtrera på den kolumnen. |
 | Aktivitetsfilter (kryssrutor) | Du kan filtrera aktiviteter efter typ (fördefinierade filter). Klicka på pilen och välj vad som. |
-| ![ikon][img3] (kolumnfilter) | Klicka på trattikonen i ett kolumnhuvud för att filtrera på den kolumnen. |
 
 > [!NOTE]
 > Kolumnfiltret är inte tillgängligt i alla detaljkort. Alla kolumner kan inte filtreras.
@@ -46,7 +47,7 @@ Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta 
 
 2. Välj detaljkortet **Aktiviteter** eller **Försäljning**.
 
-3. Klicka på ![ikonen][img2] filterikon.
+3. Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i>.
 
 4. I rutan **Från** anger du datum för hur långt tillbaka i tiden aktiviteter och försäljningar ska visas.
 
@@ -67,13 +68,13 @@ Lär dig hur du anpassar vyer genom att konfigurera kolumner med den här korta 
 7. Klicka på **OK**. Flikarna visar alla aktiviteter eller försäljningar som matchar de kriterier du angav.
 
 > [!TIP]
-> Håll muspekaren över ![ikonen][img2] filterikon om du vill visa aktiva filterinställningar.
+> Håll muspekaren över filterikon om du vill visa aktiva filterinställningar.
 >
 > Klicka på **Visa antal** nederst till höger på detaljkortet för att se hur många poster som visas. Antalet ändras beroende på aktiva filter.
 
 ## Aktivera kolumnfiltret
 
-1. Klicka på ![ikonen][img1] till höger om kolumnrubrikerna och välj **Aktivera filter**.
+1. Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna och välj **Aktivera filter**.
 
     ![Klicka på knappen Inställningar i det arkiv du har valt. -screenshot][img11]
 
@@ -97,13 +98,9 @@ Nu har alla kolumner i ditt arkiv en trattikon bakom sig.
 
     Om du till exempel letar efter ett dokument som skapats av en av dina kollegor väljer du hans/hennes namn och vilken typ av dokument du letar efter.
 
-    ![Klicka på Filter för att ställa in det och visa det filtrerade arkivet -screenshot][img13]
-
 1. Klicka på **Filter**. Detaljkortet uppdateras med poster som motsvarar filtret. Filtrerade kolumner visas med fet text.
 
 1. Upprepa föregående steg för att filtrera efter ytterligare en kolumn.
-
-    ![Se arkivet med färre entiteter -screenshot][img14]
 
 ## Ta bort filter
 
@@ -113,9 +110,20 @@ Nu har alla kolumner i ditt arkiv en trattikon bakom sig.
 
 ## Återställa kolumnfiltret
 
-Klicka på ![ikon][img2] och **Återställ** för att återställa filtret.
+Klicka på <i class="ph ph-funnel" aria-label="Filter icon"></i> och **Återställ** för att återställa filtret.
 
-## Relaterade ämnen
+## Felsökning
+
+* **Jag ser inte trattsymbolen:**
+    Kontrollera att kolumnfilter är aktiverade. Klicka på <i class="ph ph-gear" aria-label="Inställningar"></i>-ikonen bredvid kolumnrubrikerna och välj **Aktivera filter**.
+
+* **De förväntade posterna visas inte:**
+    Granska dina aktiva filter genom att hovra över trattsymbolen eller kontrollera filterinställningarna för varje kolumn. Återställ filter vid behov genom att klicka på **Återställ**.
+
+* **Jag ser inte kolumnen jag behöver:**
+    Klicka på <i class="ph ph-gear" aria-label="Inställningar"></i>-ikonen bredvid kolumnrubrikerna och kontrollera **Valda kolumner**. Lägg till den saknade kolumnen genom att välja den från listan.
+
+## Relaterat innehåll
 
 * [Gruppering av listor][1]
 * [Filtrera listan över urvalsmedlemmar][2]
@@ -125,11 +133,5 @@ Klicka på ![ikon][img2] och **Återställ** för att återställa filtret.
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

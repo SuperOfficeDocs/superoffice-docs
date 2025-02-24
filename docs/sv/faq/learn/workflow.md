@@ -2,9 +2,9 @@
 uid: help-sv-faq-workflow
 title: Arbetsflödesfaser
 description: Arbetsflödesfaser
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: FAQ
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -17,7 +17,7 @@ I en ny installation har du två standardsteg i arbetsflödet: **Inte publicerad
 
 ## Skapa nya steg
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på knappen **Arbetsflöde**. Du kommer då till skärmen **Visa arbetsflöde**.
 1. Klicka på knappen **Nytt steg**. Du kommer då till skärmen **Nytt steg**.
 1. Ange ett beskrivande namn på steget i fältet **Namn**.
@@ -28,7 +28,7 @@ I en ny installation har du två standardsteg i arbetsflödet: **Inte publicerad
     * **Kan flytta**: Användaren har behörighet att ändra arbetsflödets steg för poster (publicera eller avbryta publicering).
     * **Kan ändra**: Användaren har behörighet att ändra i FAQ-poster.
     * **Full åtkomst**: Användaren har full behörighet för arbetsflödet.
-1. Klicka på ![ikon][img3] knappen **Lägg till** för att lägga till användaren i listan under **Användaråtkomst**.
+1. Klicka på **+** för att lägga till användaren i listan under **Användaråtkomst**.
 1. Upprepa steg 7–9 om du vill lägga till fler användare.
 1. Klicka på **OK**. Steget skapas och är nu tillgängligt när du publicerar FAQ-poster.
 
@@ -36,19 +36,19 @@ I en ny installation har du två standardsteg i arbetsflödet: **Inte publicerad
 
 Du kan både ändra namnet på ett steg och justera vilka användare som ska ha åtkomst till det.
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på knappen **Arbetsflöde**.
 1. Klicka på stegets namn. Du kommer då till skärmen **Redigera steg**.
 1. Ändra namnet vid behov.
 1. Justera vilka användare som ska ha åtkomst till steget:
     * Om du vill lägga till användare följer du proceduren ovan.
-    * Om du vill ta bort användare väljer du användarna i fråga, klickar på ![ikon][img1] knappen **Åtgärder** och väljer **Ta bort åtkomst för valda användare**.
+    * Om du vill ta bort användare väljer du användarna i fråga, klickar på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> och väljer **Ta bort åtkomst för valda användare**.
 1. Klicka på **OK**. Ändringarna sparas.
 
 ## Ta bort steg
 
-1. Gå till ![ikon][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
-1. Klicka på ![ikon][img2] knappen **Arbetsflöde**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Klicka på knappen **Arbetsflöde** (<i class="ph ph-gear" aria-hidden="true"></i>).
 1. Klicka på stegets namn. Du kommer då till skärmen **Redigera steg**.
 1. Klicka på **Ta bort**. Om steget inte har några tillhörande FAQ-poster raderas det omedelbart.
 
@@ -70,9 +70,3 @@ Du kan både ändra namnet på ett steg och justera vilka användare som ska ha 
 <!-- Referenced links -->
 [1]: view-entry.md
 [2]: publish.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/gearblack.png
-[img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../media/icons/main-menu.png

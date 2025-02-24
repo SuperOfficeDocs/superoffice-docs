@@ -50,7 +50,7 @@ När du ger åtkomst till en ny person måste du definiera personens roll: anvä
 
 Administratörer har åtkomst till sektionen Inställningar och underhåll. Där kan du skapa användare, justera behörigheter och anpassa CRM-lösningen efter dina behov. Om du vill att användaren ska ha denna åtkomst ger du honom eller henne behörighet 0.
 
-Om du inte vill att användaren ska ha tillgång till Inställningar och underhåll tilldelar du behörighet 1 eller högre beroende på vilken åtkomst han/hon behöver.
+Om du inte vill att användaren ska ha tillgång till Inställningar och underhåll tilldelar du behörighet 1 eller högre beroende på vilken åtkomst de behöver.
 
 ## Hantera dina roller
 

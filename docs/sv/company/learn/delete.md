@@ -1,27 +1,29 @@
 ---
 uid: help-sv-company-delete
-title: Ta bort företag
-description: Ta bort företag
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: företag
+title: Ta bort företag och tillhörande data
+description: Ta bort företag och tillhörande data
+keywords: ta bort företag, radera företag, företag
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Ta bort ett företag och tillhörande data
+# Ta bort företag och tillhörande data
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i det övre högra hörnet av företagskortet.
+    Välj **Ta bort** från menyn.
 
-1. Klicka på ![ikon][img1] knappen **Uppgift** och välj **Ta bort &lt;company name&gt;**.
-
-1. Klicka på **Ja** i dialogrutan **Ta bort företag** för att bekräfta att du verkligen vill ta bort företaget.
+2. I dialogrutan **Ta bort företag**, klicka på **Ja** för att bekräfta att du vill ta bort företaget.
 
     [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
 [!include[Note about restore](../../learn/includes/note-restore.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Återskapa borttagna företag och kontakter][2]
 * [Slå ihop företag][4]
@@ -31,6 +33,3 @@ language: sv
 [2]: ../../learn/basics/deleting-elements.md#restore
 [3]: ../../search-options/selection/learn/howto/mass-delete.md
 [4]: merge-companies.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

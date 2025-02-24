@@ -3,9 +3,9 @@ uid: help-sv-basics-delete
 title: Ta bort objekt
 description: Så här slår du samman, tar bort och återställer objekt.
 keywords: ta bort, återställ, papperskorg
-author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,7 +60,7 @@ Borttagna företag och kontakter behålls som standard i papperskorgen i 14 daga
 
 Du har också möjlighet att återställa andra användares raderade företag och kontakter markera bara Visa borttagna företag för alla användare PÅ.
 
-1. Välj ![ikon][img1] **Personliga inställningar** > **Papperskorg**.
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Papperskorg**.
 
 2. I dialogrutan väljer du fliken **Företag** eller **Kontakt**. Företag och kontakter du tagit bort visas.
 
@@ -84,7 +84,7 @@ Du har också möjlighet att återställa andra användares raderade företag oc
 | Avbryt | Avbryter borttagning för alla markerade poster. Dialogrutan stängs utan att någon post tas bort. |
 
 * Du kan välja att inte visa denna dialogruta genom att: Markera **Visa inte den här dialogrutan igen** längst ned i dialogrutan för borttagning.
-* Du kan välja att visa denna dialogruta igen genom att: Gå till ![ikon][img1] **Personliga inställningar** > **Inställningar** > **Funktioner** och sätt alternativet **Visa bekräftelsedialogruta** till **Nej**.
+* Du kan välja att visa denna dialogruta igen genom att: Gå till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar** > **Funktioner** och sätt alternativet **Visa bekräftelsedialogruta** till **Nej**.
 
 > [!NOTE]
 > När du väljer att ta bort ett företag, urval eller projekt måste du alltid bekräfta borttagningen, och alternativet **Visa inte den här dialogrutan igen** är därför inte tillgängligt.
@@ -107,6 +107,5 @@ Du har också möjlighet att återställa andra användares raderade företag oc
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
 [img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

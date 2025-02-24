@@ -2,9 +2,9 @@
 uid: help-sv-automation-trigger
 title: Triggrar
 description: Triggrar
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: CRMScript, utlösare
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ Det här är ett exempel på en mycket enkel utlösare. Du kan till exempel läg
 Vi ska nu skapa en serie åtgärder baserat på exemplet ovan.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Klicka på ![ikon][img2] **CRMScript** och gå till fliken **Utlösare**.
+1. Klicka på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** och gå till fliken **Utlösare**.
 1. Klicka på knappen **Ny utlösare (makro)**. På skärmen **Välj utlösare** visas tillgängliga utlösare. Detta är händelser i systemet som kan användas för att utlösa åtgärder eller makron. I vårt exempel väljer vi **Ärende avslutat** så att makrot körs när ett ärende avslutas i SuperOffice.
 1. Skriv "ärende" i sökfältet och välj utlösaren **Ärende avslutat**.
 1. Ange en kort beskrivning av utlösaren i fältet **Beskrivning**.
@@ -43,7 +43,7 @@ Vi ska nu skapa en serie åtgärder baserat på exemplet ovan.
 1. Klicka på **Verkställ**.
 1. Klicka på **Ny åtgärd** och välj **Skicka ett e-postmeddelande eller SMS**. Vi ska nu anpassa det e-postmeddelande som skickas till kunden.
 1. Markera **Ämne**.
-1. Klicka på ![ikon][img1] parameterikonen till höger och sedan på fältet **Välj parameter**.
+1. Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger och sedan på fältet **Välj parameter**.
 1. Välj **Ändra ett ärende** > **Titel**. Ärendets titel hamnar i e-postmeddelandets ämnesrad.
 1. Välj **Från** och välj **Ändra ett ärende** > **Ägare**.
 1. Markera **Till** och välj **Ändra ett ärende** > **Kontakt: E-postadress**.
@@ -51,9 +51,3 @@ Vi ska nu skapa en serie åtgärder baserat på exemplet ovan.
 1. Klicka på **Verkställ**.
 
 Du har nu skapat ett makro som skickar kunden ett e-postmeddelande med ämnet "Ärende avslutat" när ett ärende avslutas. Den här utlösaren aktiveras omedelbart om du markerar **Aktiverad** högst upp.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

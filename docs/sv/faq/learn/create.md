@@ -2,9 +2,9 @@
 uid: help-sv-faq-create
 title: Skapa FAQ-poster
 description: Skapa FAQ-poster
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: FAQ
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -35,7 +35,7 @@ Om du svarar på en förfrågan och tänker att samma fråga antagligen kommer a
 
 1. [Öppna ett ärende][1].
 
-1. Klicka på knappen **Uppgift** ![ikon][img1] och välj **Publicera i FAQ**. Då kommer du till skärmen **Egenskaper för FAQ-post**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> och välj **Publicera i FAQ**. Då kommer du till skärmen **Egenskaper för FAQ-post**.
 
    ![Fönstret Egenskaper för FAQ-post -screenshot][img5]
 
@@ -69,14 +69,14 @@ Om du svarar på en förfrågan och tänker att samma fråga antagligen kommer a
 
     1. Klicka på **Bläddra** bredvid **Bilaga**.
     2. Bläddra dig fram till önskat dokument i dialogrutan.
-    3. Klicka på ![ikon][img1] för att lägga till bilagan.
+    3. Klicka på **+** för att lägga till bilagan.
     4. Upprepa denna procedur om du vill lägga till fler bilagor.
 
 1. I fältet **Länk** kan du lägga till en eller flera adresser till relevanta webbsidor:
 
     1. I fältet till vänster skriver du det namn som ska visas för länken.
     2. I fältet till höger anger du själva webbadressen efter `http://`
-    3. Klicka på ![ikon][img1] **Lägg till** för att lägga till länken.
+    3. Klicka på **+** för att lägga till länken.
     4. Upprepa denna procedur om du vill lägga till fler länkar.
 
 1. Gå till fliken **Fråga**.
@@ -84,7 +84,7 @@ Om du svarar på en förfrågan och tänker att samma fråga antagligen kommer a
 1. Skriv den fråga som du vill att FAQ-posten ska innehålla. Som standard klistras det första meddelandet i ärendet in på fliken **Fråga**.
 
     > [!TIP]
-    > Klicka på knappen **Formatera typsnitt** ![ikon][img2] om du vill ändra textens layout.
+    > Klicka på knappen **Formatera typsnitt** (<i class="ph ph-text-a-underline" aria-hidden="true"></i>) om du vill ändra textens layout.
 
 1. Gå till fliken **Svar** och skriv in svaret. Som standard klistras de nästkommande meddelandena i ärendet in på fliken **Svar**.
 
@@ -94,7 +94,7 @@ Om du svarar på en förfrågan och tänker att samma fråga antagligen kommer a
 
 ## Skapa ny FAQ
 
-1. Gå till ![ikonen][img4] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Vanliga frågor**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Vanliga frågor**.
 
 1. Gå till mappen som du vill lägga in FAQ-posten i. Om den inte finns än kan du [skapa en ny mapp][2].
 
@@ -121,8 +121,5 @@ Eftersom det bara är **administratörer** som kan skapa FAQ-poster på det här
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

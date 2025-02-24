@@ -48,13 +48,13 @@ För att visa data i Mer-fliken:
 
 ## Redigera information i Mer-fliken
 
-Klicka på **Redigera** för att redigera informationen i **Mer-fliken**.
+Klicka på <i class="ph ph-pencil-simple" aria-label="Edit"></i> för att redigera informationen i **Mer-fliken**.
 
 ## Ytterligare tips
 
 * **Anpassa fält**: Att lägga till användardefinierade fält eller justera layout kräver administrativ tillgång och i vissa fall en licens för Development Tools.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Översikt över användardefinierade fält][1]
 * [Lägg till användardefinierade fält][2]

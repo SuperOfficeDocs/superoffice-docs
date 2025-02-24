@@ -2,9 +2,9 @@
 uid: help-sv-email-inbox-archive
 title: Arkivera e-postmeddelanden
 description: Arkivera e-postmeddelanden
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -17,7 +17,7 @@ Du kan arkivera ett inkommande e-postmeddelande (inklusive eventuella bilagor) s
 
 1. Gå till inkorgen eller den aktuella mappen.
 2. Markera det meddelande du vill arkivera.
-3. Klicka på **Arkiv** ![ikon][img1].
+3. Klicka på <i class="ph ph-archive" aria-hidden="true"></i> **Arkiv**.
 4. Klicka på **Arkivera e-postmeddelande**. Dialogrutan [**Dokument** öppnas][1].
 
 ## <a id="out"></a>Arkivera utgående e-post
@@ -41,6 +41,3 @@ Om du vill skicka ett meddelande och arkivera det som ett dokument i SuperOffice
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

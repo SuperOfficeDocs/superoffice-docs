@@ -28,7 +28,7 @@ Lägg lite tid på att ställa in rätt statuskriterier, eftersom du måste se t
 
 1. Klicka på **Lägg till** i listan längst ned till höger (under fliken **Beskrivning** och fliken **Skapa händelse**). En ny rad läggs till i listan.
 
-1. Klicka på ![ikon][img1] pilknappen bredvid det tomma fältet och [välj önskat sökkriterium][1].
+1. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid det tomma fältet och [välj önskat sökkriterium][1].
 
 1. Upprepa steg 4 och 5 för varje kriterium du vill lägga till.
 
@@ -37,7 +37,7 @@ Lägg lite tid på att ställa in rätt statuskriterier, eftersom du måste se t
 
 1. Kontrollera att du har valt de kriterier du vill använda för den här statusen.
 
-1. Klicka på ![ikon][img2] **Återskapar vald status** för att uppdatera statusen med de kriterier du har lagt till. När statusen har återskapats, visas inget rött kryss vid statusnamnet.
+1. Klicka på <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Återskapar vald status** för att uppdatera statusen med de kriterier du har lagt till. När statusen har återskapats, visas inget rött kryss vid statusnamnet.
 
 ## Relaterat innehåll
 
@@ -46,7 +46,3 @@ Lägg lite tid på att ställa in rätt statuskriterier, eftersom du måste se t
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
-[img2]: ../../../media/icons/arrow-right.png

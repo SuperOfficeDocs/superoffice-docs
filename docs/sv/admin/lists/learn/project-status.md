@@ -1,27 +1,5 @@
 ---
-uid: help-sv-project-status-add
-title: Lägg till en projektstatus
-description: Så lägger du till en projektstatus i SuperOffice.
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: projekt
-topic: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: sv
+uid: help-sv-project-status-add-redirect
+date: 02.25.2025
+redirect_url: https://docs.superoffice.com/sv/project/admin/project-status.html
 ---
-
-# Lägg till en projektstatus
-
-[!include[Edit list item](includes/edit-list-item.md)] när du lägger till en post i listan **Projekt – Status**:
-
-1. Skriv in ett namn på posten i fältet **Namn**. Det kommer att visas i alternativlistan för fältet **Status** i fönstret Projekt.
-
-    > [!include[Mandatory](includes/note-mandatory-field.md)]
-
-2. Skriv eventuellt en beskrivning av posten i fältet **Beskrivning**.
-
-3. [!include[Save or cancel](includes/save-or-cancel.md)]
-
-> [!NOTE]
-> Om du tar bort en status som är kopplad till en projektguide (via en projekttyp) kan det få konsekvenser för användningen av projektguiden.

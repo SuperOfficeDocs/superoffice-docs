@@ -4,12 +4,12 @@ title: Arbeta med formulär
 description: Webbformulär i SuperOffice är ett bra sätt att samla in kundinformation och återkoppling. Webbformulär gör det möjligt för personer som besöker din webbplats att komma i kontakt med dig och lämna sin kontaktinformation.
 keywords: formulär, formulärinlämnin, dubbel anmälan
 author: Bergfrid Dias
-date: 03.15.2024
+date: 02.25.2025
 version: 10
 topic: concept
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Arbeta med formulär
@@ -69,7 +69,7 @@ SuperOffice Marketing har 3 flikar som rör formulär.
 | Inaktiv/Aktiv | Klicka på skjutreglageknappen för att aktivera eller inaktivera formuläret. |
 | Uppdatera | Uppdaterar skärmen. |
 | Redigera | Öppnar formuläret i redigeringsläge. |
-| ![ikon][img5] | Ställer in formuläret som [favorit][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Ställer in formuläret som [favorit][11]. |
 
 Skärmen **Visa formulär** består av följande flikar:
 
@@ -118,4 +118,3 @@ Detta innebär att din utskickslista blir mer tillförlitlig, vilket bidrar till
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img3]: ../../../../media/loc/en/marketing/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png

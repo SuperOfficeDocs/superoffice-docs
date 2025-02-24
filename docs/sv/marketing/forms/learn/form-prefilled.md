@@ -4,12 +4,12 @@ title: Använda förifyllda fält i formulär
 description: Använda förifyllda fält i formulär
 keywords: formulär, fält, förifyllda fält, fältidentifierare
 author: SuperOffice RnD
-date: 03.15.2024
+date: 02.25.2025
 version: 10
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Använda förifyllda fält i formulär
@@ -22,7 +22,7 @@ En fältidentifierare är en unik ID för ett specifikt fält. Den kommer inte a
 
 1. [Skapa nytt formulär][1].
 
-2. För varje fält som du vill ska förifyllas: Klicka på **Avancerat** ![ikon][img1] om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet.
+2. För varje fält som du vill ska förifyllas: Klicka på **Avancerat** (<i class="ph ph-gear" aria-hidden="true"></i>) om du vill visa fältet **Identifierare** där du kan lägga till ett ID för fältet.
 
 3. [Publicera formulär][2].
 
@@ -48,6 +48,3 @@ En fältidentifierare är en unik ID för ett specifikt fält. Den kommer inte a
 [1]: create.md
 [2]: publish.md
 [3]: ../../../request/reply-templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

@@ -1,42 +1,51 @@
 ---
 uid: help-sv-reply-template-edit
-title: Redigera svarsmallar
-description: Redigera svarsmallar
+title: Redigera eller ta bort svarsmallar
+description: Redigera eller ta bort svarsmallar i SuperOffice. Hantera egenskaper, redigera text eller radera mallar i kunskapsbasen.
+keywords: redigera svarsmall, ta bort svarsmall, svarsmall, färdig text, kunskapsbas, ärende
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: ärende, svar, mall
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
 ---
 
-# Redigera svarsmallar
+# Redigera eller ta bort svarsmallar
 
-När vi pratar om att redigera en svarsmall kan det innebära två olika saker:
+Att redigera en svarsmall kan innebära två olika saker:
 
-* När du [svarar på ett ärende och använder en mall][1], kan du redigera innehållet i meddelandet innan du skickar det till kunden.
-* När du skapar eller redigerar själva mallen, kan du redigera dess egenskaper, inklusive ändra texten i svarsmallen. Den här typen av redigering beskrivs nedan.
+* När du [svarar på ett ärende och använder en mall][1] kan du redigera innehållet i meddelandet innan du skickar det till kunden.
+* När du skapar eller redigerar själva mallen kan du ändra dess egenskaper, inklusive texten i svarsmallen. Den här typen av redigering beskrivs nedan.
 
-## Steg
+## Redigera svarsmall
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
-1. Gå till mappen där svarsmallen ligger.
-1. Klicka på svarsmallen. Du kommer då till skärmen **Visa svarsmallar**.
-1. Klicka på knappen **Redigera svarsmall**. Du kommer då till skärmen **Egenskaper för svarsmall**.
-1. Gör nödvändiga ändringar i [egenskaperna][2].
-1. Klicka på **OK**. Ändringarna sparas.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
 
-## Vad vill du göra nu?
+1. Bläddra till mappen där svarsmallen finns och klicka på den. Skärmen **Visa svarsmallar** öppnas.
+
+1. Klicka på **Redigera svarsmall**. Skärmen **Egenskaper för svarsmall** öppnas.
+
+1. Gör de nödvändiga ändringarna i [egenskaperna][2].
+
+1. Klicka på **OK** för att spara ändringarna.
+
+## <a id="delete"></a>Ta bort svarsmall
+
+1. Följ steg 1–3 från **Redigera svarsmall** för att öppna skärmen **Egenskaper för svarsmall**.
+2. Klicka på **Ta bort** längst ned på skärmen.
+3. Bekräfta borttagningen när du uppmanas till det. Svarsmallen raderas omedelbart.
+
+## Relaterat innehåll
 
 * [Skapa ny språkversion av svarsmall][3]
 * [Kopiera svarsmallar][4]
 
 <!-- Referenced links -->
-[1]: ../../learn/howto/reply.md
+[1]: ../../learn/reply.md
 [2]: create.md
 [3]: new-language.md
-[4]: copy.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[4]: create.md#copy

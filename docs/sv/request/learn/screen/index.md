@@ -13,8 +13,6 @@ language: sv
 
 # Ärendeskärm
 
-![Översikt över fönstret ärenden eller fliken ärende -screenshot][img3]
-
 ## Översikt över ärende
 
 Fönstret Ärende har följande delar:
@@ -28,7 +26,7 @@ Fönstret Ärende har följande delar:
 
 ### Ärendehuvud
 
-Ärendets huvud innehåller de egenskaper som definierades när [ärendet skapades][12]. Huvudet består av ärendetitel, kontakt, tidsfrist och ärende-ID (i fliken). Du kan dessutom klicka på ![ikon][img6] om du vill ange ärendet som en favorit. Ärendet blir då tillgängligt både via **Mina favoriter** på **Ärendehantering** i navigatorn och på panelen **Mina favoriter** på [dashboarden][17].
+Ärendets huvud innehåller de egenskaper som definierades när [ärendet skapades][12]. Huvudet består av ärendetitel, kontakt, tidsfrist och ärende-ID (i fliken). Du kan dessutom klicka på <i class="ph ph-star" aria-label="Star icon"></i> om du vill ange ärendet som en favorit. Ärendet blir då tillgängligt både via **Mina favoriter** på **Ärendehantering** i navigatorn och på panelen **Mina favoriter** på [dashboarden][17].
 
 ### Meddelandetyper
 
@@ -39,22 +37,22 @@ Det finns tre typer av meddelanden:
 * Interna kommentarer om ärendet, t.ex. frågor till en kollega
 
 > [!TIP]
-> Interna meddelanden är markerade med ![ikon][img5].
+> Interna meddelanden är markerade med <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Fliken Meddelanden
 
 Fliken **Meddelanden** visar de meddelanden som är kopplade till ärendet.
 
-Du kan ändra hur många meddelanden som visas i ![ikon][img2] **Personliga inställningar**:
+Du kan ändra hur många meddelanden som visas i **Personliga inställningar**:
 
-1. Välj ![ikon][img2] **Personliga inställningar** > **Inställningar**.
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar**.
 1. Välj gruppen för **Ärende**.
 1. Ange antalet meddelanden i fältet **Antal expanderade meddelanden**.
 1. Klicka på **OK**.
 
 ### Meddelandeuppgifter
 
-Klicka på knappen ![ikon][img1] **Uppgift** på ett meddelande om du vill komma åt ytterligare alternativ för meddelandet:
+Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på ett meddelande om du vill komma åt ytterligare alternativ för meddelandet:
 
 * **Ändra**: Klicka här om du vill [ändra][8] eller ta bort meddelandet.
 * **Svara**: Klicka här för att svara kontakten i fältet Till.
@@ -96,7 +94,7 @@ Sidofältet egenskaper för ärende innehåller följande alternativ:
 
 ### Uppgiftsalternativ
 
-Knappen ![ikon][img1] **Uppgift**: Du kan klicka på denna knapp för att komma åt följande alternativ:
+Knappen **Uppgift**: Du kan klicka på denna knapp för att komma åt följande alternativ:
 
 * **Redigera**: Klicka här om du vill ändra egenskaperna för det här ärendet. Du kan t.ex. tilldela ärendet till en annan ärendehandläggare om du behöver [fråga en kollega om råd][1].
 * **Acceptera**: Klicka här om du vill [ta över ärendet][5]. Du blir då ärendets nya ägare.
@@ -105,7 +103,7 @@ Knappen ![ikon][img1] **Uppgift**: Du kan klicka på denna knapp för att komma 
 * **Skriv ut**: Klicka här för att skriva ut ärendet.
 * **Ta bort**: Klicka här om du vill ta bort ärendet.
 
-## Relaterade ämnen
+## Relaterat innhåll
 
 * [Skapa ärende][12]
 * [Sök][10]
@@ -120,27 +118,20 @@ Knappen ![ikon][img1] **Uppgift**: Du kan klicka på denna knapp för att komma 
 * [Avsluta ärende][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

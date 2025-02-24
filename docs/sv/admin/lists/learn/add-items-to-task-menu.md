@@ -5,7 +5,7 @@ description: Lägg till poster i listan Uppgiftsmeny
 author: SuperOffice RnD
 date: 01.11.2023
 keywords: Inställningar och underhåll
-topic: help
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -52,7 +52,7 @@ Så här fyller du i fälten i dialogrutan Redigera poster för Uppgiftsmenyn:
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lägg till en webbpanelpost][1]
 * [Lägg till en översättning][7]

@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.14.2024
 version: 10.3.7
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Analysera dina flödesresultat

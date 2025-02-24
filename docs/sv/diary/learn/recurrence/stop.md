@@ -21,7 +21,7 @@ När du stoppar den återkommande händelsen raderas alla förekomster av hände
 
 1. Öppna händelsen från Kalendern eller fliken **Aktiviteter**.
 
-1. Gör något av följande:
+1. Gör ett av följande:
 
     * Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och välj **Sluta upprepa**.
     * Klicka på frekvenslänken bredvid <i class="ph ph-arrows-clockwise" aria-label="Upprepa"></i> och klicka sedan på knappen **Sluta upprepa** i dialogrutan som öppnas.

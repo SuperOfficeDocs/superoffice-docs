@@ -2,9 +2,9 @@
 uid: help-sv-settings-soap-configure
 title: Konfigurera SOAP-gränssnitt
 description: Konfigurera SOAP-gränssnitt
+keywords: Tjänst, SOAP
 author: SuperOffice RnD
 date: 03.23.2023
-keywords: Tjänst, SOAP
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,9 +29,4 @@ language: sv
 1. Klicka på knappen **Lägg till** för att lägga till IP-adressintervallet i listan nedanför.
 
 > [!TIP]
-> Om du vill ta bort ett IP-adressintervall från listan klickar du på ![ikon][img1] ikonen Ta bort.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> Om du vill ta bort ett IP-adressintervall från listan klickar du på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.

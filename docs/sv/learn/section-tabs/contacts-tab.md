@@ -4,8 +4,8 @@ title: Kontakterfliken
 description: Lär dig hur du hanterar och interagerar med kontaktinformation kopplad till företag med hjälp av detaljekortet Kontakter i SuperOffice CRM. Spåra personaluppgifter och upprätthåll kommunikation för smidiga kundrelationer.
 keywords: Kontakter-fliken, Kontakterfliken, Kontaktfliken, fliken Kontakter, detaljkortet Kontakter, detaljkort, kontaktarkiv, aktivera mellannamn
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,13 +24,13 @@ Detaljkortet **Kontakter** innehåller följande kolumner för att visa nyckelin
 
 | Kolumn | Beskrivning |
 |---|---|
-| Info           | Visar en gemikon (![ikon][img3]) om fliken **Anteckning** i Kontaktkortet innehåller en anteckning. Håll muspekaren över ikonen för att visa infoen. |
-| Intressen      | Visar en stiftikon (![ikon][img2]) om kontakten har intressen. Håll muspekaren över ikonen för att se intressena. |
-| Hr/Fr       | Visar hur kontakten ska tilltalas. |
+| Info | Visar en gemikon (<i class="ph ph-paperclip" aria-hidden="true"></i>) om fliken **Anteckning** i Kontaktkortet innehåller en anteckning. Håll muspekaren över ikonen för att visa infoen. |
+| Intressen | Visar en prick om kontakten har intressen. Håll muspekaren över ikonen för att se intressena. |
+| Hr/Fr | Visar hur kontakten ska tilltalas. |
 | Förnamn / Mellannamn / Efternamn | Kontaktens fullständiga namn. Användning av mellannamn kan konfigureras i **Inställningar och underhåll**. |
-| Titel          | Visar kontaktens professionella titel eller roll inom företaget. |
-| Mobiltelefon   | Kontaktens mobilnummer. |
-| E-post         | Kontaktens e-postadress. Klicka på e-posten för att [öppna ett nytt meddelande][7] i ditt föredragna e-postprogram. |
+| Titel | Visar kontaktens professionella titel eller roll inom företaget. |
+| Mobiltelefon | Kontaktens mobilnummer. |
+| E-post | Kontaktens e-postadress. Klicka på e-posten för att [öppna ett nytt meddelande][7] i ditt föredragna e-postprogram. |
 
 [!include[Konfigurera kolumner](../includes/tip-configure-columns.md)]
 
@@ -103,5 +103,3 @@ Om detta alternativ är aktiverat kommer den första delen av efternamnet att an
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../media/icons/pin.png
-[img3]: ../../../media/icons/binders.png

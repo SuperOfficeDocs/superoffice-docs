@@ -2,10 +2,10 @@
 uid: help-sv-document-faq-publish
 title: Publicera FAQ-poster
 description: Publicera FAQ-poster
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: FAQ
-topic: help
+author: SuperOffice RnD
+date: 02.25.2025
+topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -16,7 +16,7 @@ language: sv
 När en ärendhandläggare [skapar ett förslag på en FAQ-post][1] avpubliceras den och är inte längre tillgänglig i SuperOffice Customer Centre. För att göra den tillgänglig måste en person med FAQ-administrationsrättigheter publicera den.
 
 1. När du loggar in visas alla opublicerade FAQ-poster på panelen **Status** på instrumentpanelen, under **Opublicerade FAQ-poster**.
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 1. Klicka på önskad post.
 1. På skärmen **FAQ** klickar du på **Redigera post**.
 1. På skärmen **Egenskaper för FAQ-post** väljer du flikarna **Fråga** och **Svar** och läser igenom frågan och svaret.
@@ -39,6 +39,3 @@ När en ärendhandläggare [skapar ett förslag på en FAQ-post][1] avpubliceras
 [2]: ../../request/learn/index.md
 [3]: workflow.md
 [4]: ../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

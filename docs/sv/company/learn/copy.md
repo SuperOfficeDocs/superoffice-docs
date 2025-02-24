@@ -1,11 +1,11 @@
 ---
 uid: help-sv-company-copy
 title: Kopiera företag
-description: Kopiera företag
-keywords: företag
-author: SuperOffice RnD
-date: 08.27.2024
-version: 10.3.8
+description: Steg för att kopiera ett företag
+keywords: kopiera företag, hantera företag, underhåll företag
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,34 +16,30 @@ language: sv
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Det kan hända att du vill kopiera ett befintligt företag till ett nytt företag. Exempel: Ett företag har öppnat en ny avdelning. Den nya avdelningen har i stort sett samma företagsinformation som den befintliga.
+Du kan kopiera ett befintligt företag för att skapa ett nytt. Till exempel, om ett företag öppnar en ny avdelning kan du återanvända det mesta av dess information för den nya posten.
 
 > [!NOTE]
 > Aktiviteter, försäljning, intressen, projektmedlemskap och urvalsmedlemskap kopieras inte.
 
-## Så här kopierar du företaget
+## Steg
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klicka på knappen **Uppgift** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i det övre högra hörnet av företagskortet.
+    Välj **Underhåll företag** > **Kopiera företag** från menyn.
+    Dialogrutan **Kopiera företag** öppnas, med källföretaget angivet under **Från**.
 
-1. Välj **Underhåll företag** med ![ikon][img1] knappen **Uppgift** och klicka på **Kopiera företag**.
-    Dialogrutan **Kopiera företag** öppnas. Källföretaget finns under **Från**.
+1. I avsnittet **Till**, ange namnet på det nya företaget. Lägg till en avdelning om det behövs.
 
-1. Skriv in namnet på det nya företaget och eventuellt avdelning under **Till**.
+1. Under **Kopiera kontakter med all information**, välj ett av följande alternativ:
 
-1. Under **Kopiera kontakter med all information** väljer du något av följande:
+    * **Kopiera inte:** Endast företagsuppgifter kopieras.
+    * **Kopiera:** Företagsuppgifter och associerade kontakter kopieras.
 
-    * **Kopiera inte**. Om du väljer det här alternativet kopieras företagsinformationen men inte kontakter.
-    * **Kopiera**. Om du väljer det här alternativet kopieras företagsinformation och kontakter.
+1. Klicka på **Kopiera**. Det nya företaget skapas med ett eget nummer och en egen kod. Du kan [redigera företagsinformationen][2] om det behövs.
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
-
-1. Klicka på **Kopiera**. Det nya företaget skapas med den information du har angett och får ett eget nummer och en egen kod. Du kan [redigera företagsinformationen][2] om det behövs.
-
-![Dialogrutan Kopiera företag -screenshot][img3]
+![Dialogrutan Kopiera företag visar alternativ för att namnge det nya företaget, lägga till en avdelning och välja om kontakter ska kopieras. -screenshot][img3]
 
 <!-- Referenced links -->
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../media/loc/en/company/copy-company.png

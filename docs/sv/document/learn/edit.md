@@ -2,11 +2,12 @@
 uid: help-sv-document-update
 title: Redigera dokument
 description: Redigera dokument
-keywords: dokument
+keywords: redigera dokument, dokumentegenskaper, dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -123,7 +124,7 @@ Dialogen ser något annorlunda ut i Chrome, Edge, Firefox och Safari.
 
 När du visar ett specifikt dokument:
 
-1. Klicka på **Uppgift**-knappen i **Dokument**-dialogen.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i **Dokument**-dialogen.
 2. Välj **Ta bort**.
 3. Bekräfta eller avbryt borttagningen i bekräftelsedialogen.
 
@@ -135,7 +136,7 @@ Om du dubbelklickar på ett dokument och ingenting händer, kan du testa att hö
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Så ändrar du Slutförd-status för en aktivitet][4]
 

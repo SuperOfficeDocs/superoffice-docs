@@ -2,9 +2,9 @@
 uid: help-sv-email-inbox-setup
 title: Konfigurera inkorgen i SuperOffice
 description: Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till din SuperOffice CRM för e-postklienter som inte kan anslutas via WebTools. Läs om hur du konfigurerar inkorgen och loggar in första gången.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: e-post, inkorg
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -25,10 +25,12 @@ Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till din 
 
 För att komma åt e-post måste du ange vissa uppgifter om ditt e-postkonto.
 
-I den här filmen förklarar vi hur du snabbt och enkelt kan konfigurera din SuperOffice-inkorg (filmens längd: 1:34). Du kan också följa anvisningarna nedan.
+I den här filmen förklarar vi hur du snabbt och enkelt kan konfigurera din SuperOffice-inkorg. Du kan också följa anvisningarna nedan.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/QoAanZgQs5A]
+
+(filmens längd: 1:34)
 
 ### Steg
 
@@ -82,12 +84,11 @@ Om du vill skicka e-post från SuperOffice CRM anger du uppgifter om din SMTP-se
 Vissa e-postleverantörer, till exempel Gmail, blockerar inloggningsförsök från okända appar. Kontrollera din inkorg för att se om din e-postleverantör har skickat information till dig om ett obehörigt inloggningsförsök. Följ anvisningarna i e-postmeddelandet för att ge SuperOffice åtkomst till ditt konto.
 
 > [!TIP]
-> För att komma åt e-postalternativen går du till ![ikon][img1] **Personliga inställningar** > **Alternativ för e-post**.
+> För att komma åt e-postalternativen går du till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Alternativ för e-post**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
 [img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png

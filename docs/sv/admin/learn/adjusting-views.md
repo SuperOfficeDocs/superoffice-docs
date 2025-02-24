@@ -33,7 +33,7 @@ Många skärmbilder under Inställningar och underhåll består av olika flikar 
 
 Det finns olika listvyer under Inställningar och underhåll, bland annat listor över preferenser, listor över listor och listor över användardefinierade fält. Så här justerar du kolumnbredderna i dessa vyer:
 
-1. Håll muspekaren över den vertikala linjen framför eller bakom en kolumnrubrik. Markören ändras till ![ikon][img3], en vertikal dubbelpil.
+1. Håll muspekaren över den vertikala linjen framför eller bakom en kolumnrubrik. Markören ändras till en vertikal dubbelpil (<i class="ph ph-split-horizontal" aria-hidden="true"></i>).
 2. Klicka och dra skiljelinjen i önskad riktning, beroende på om du vill öka eller minska kolumnbredden.
 
 Kolumnerna behåller sina angivna bredder till nästa gång du använder programmet.
@@ -46,22 +46,13 @@ Du kan välja vilka kolumner som ska visas i listorna samt deras ordning.
 
 2. Gör önskade ändringar av kolumnerna:
 
-    * Lägga till kolumner: Välj de kolumner du vill lägga till på panelen **Tillgängliga kolumner** och klicka på ![ikon][img1] högerpilen för att flytta dem till panelen **Valda kolumner**.
+    * Lägga till kolumner: Välj de kolumner du vill lägga till på panelen **Tillgängliga kolumner** och klicka på högerpilen för att flytta dem till panelen **Valda kolumner**.
 
-    * Ta bort kolumner: Välj de kolumner du vill ta bort på panelen **Valda kolumner** och klicka på ![ikon][img2] vänsterpilen för att flytta dem till panelen **Tillgängliga kolumner**.
+    * Ta bort kolumner: Välj de kolumner du vill ta bort på panelen **Valda kolumner** och klicka på vänsterpilen för att flytta dem till panelen **Tillgängliga kolumner**.
 
-    * Ändra ordning på kolumnerna: På panelen **Valda kolumner** väljer du den kolumn du vill flytta åt vänster eller höger i vyn och klickar på ![ikon][img4] uppåtpilen eller ![ikon][img5] nedåtpilen.
+    * Ändra ordning på kolumnerna: På panelen **Valda kolumner** väljer du den kolumn du vill flytta åt vänster eller höger i vyn och klickar på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> eller <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>.
 
 3. Klicka på **Spara**.
 
 > [!TIP]
 > Om du vill återställa kolumnlayouten klickar du på **Återställ** längst ner på panelen **Valda kolumner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.png
-[img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/arrow-down.png

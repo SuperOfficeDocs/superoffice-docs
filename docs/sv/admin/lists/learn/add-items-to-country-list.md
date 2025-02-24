@@ -2,10 +2,12 @@
 uid: help-sv-add-items-to-country-list
 title: Lägg till poster i listan Land
 description: Lägg till poster i listan Land
+keywords: listan Allmänt – Land
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Inställningar och underhåll
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Inställningar och underhåll
 language: sv
 ---
 
@@ -26,7 +28,7 @@ language: sv
 
 4. I fältet **Postprefix** anger du den eller de bokstäver som ska placeras före postnumret när du skriver till det aktuella landet från ett annat land, till exempel *N* för Norge.
 
-5. För vart och ett av de följande tre fälten klickar du på ![ikon][img1] pilen och väljer önskat adressformat i listan. Normalt tillämpas samma format på alla tre fält, men för vissa länder kan det vara bra att välja olika format beroende på vad adressen används för:
+5. För vart och ett av de följande tre fälten klickar du på <i class="ph ph-caret-down" aria-label="Chevron"></i> och väljer önskat adressformat i listan. Normalt tillämpas samma format på alla tre fält, men för vissa länder kan det vara bra att välja olika format beroende på vad adressen används för:
     * **Adressformat i vy**:
         Det vanliga formatet som det visas på skärmen på företagspanelen. I regel behöver du bara välja format här.
     * **Adressformat för utskrift (inrikes)** och **(utrikes)**:
@@ -34,7 +36,7 @@ language: sv
 
 6. Företagspanelen innehåller ett fält med rubriken **Org.nr** för registrering av företagets organisationsnummer eller liknande. Du kan ändra denna ledtext under Inställningar och underhåll. Skriv önskad text i fältet **Ledtexter för org.nr**, till exempel *Org. nr* för Norge. När du lägger in ett norskt företag i SuperOffice är ledtexten för företagets organisationsnummer *Org. nr* istället för *Org.nr*.
 
-7. Klicka på ![ikon][img1] pilen bredvid fältet **Valuta** och välj en valuta i listan.
+7. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid fältet **Valuta** och välj en valuta i listan.
 
     > [!NOTE]
     > Alternativen definieras i listan [**Allmänt – Valuta**][2].
@@ -49,6 +51,3 @@ language: sv
 
 <!-- Referenced links -->
 [2]: currency.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

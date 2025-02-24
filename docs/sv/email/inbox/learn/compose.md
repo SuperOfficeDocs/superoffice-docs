@@ -2,9 +2,9 @@
 uid: help-sv-email-inbox-compose
 title: Skriva e-postmeddelanden
 description: Skriva e-postmeddelanden
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: e-post
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -26,7 +26,7 @@ Fyll i fälten nedan, klicka på **Skapa** och skriv e-postmeddelandet enligt be
 
 | Fält | Beskrivning |
 |---|---|
-| Dokumentmall | Om du klickar på pilen ![ikon][img2] bredvid fältet för typ högst upp i dialogrutan visas en lista över dokumentmallar du kan välja bland. Vilka mallar som kan väljas definieras under Inställningar och underhåll. |
+| Dokumentmall | Om du klickar på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid fältet för typ högst upp i dialogrutan visas en lista över dokumentmallar du kan välja bland. Vilka mallar som kan väljas definieras under Inställningar och underhåll. |
 | Företag | Här skriver du in namnet på den kontakt du skriver dokumentet till. |
 | Kontaktperson | När du klickar på pilen efter detta fält visas en lista över kontakter som är registrerade för företaget. |
 | Projekt | Skriv in namnet på det projekt som e-postmeddelandet ska kopplas till. |
@@ -44,12 +44,8 @@ När du är klar med meddelandet och vill skicka det har du följande alternativ
 > [!TIP]
 > Om du inte arkiverar meddelandet när du skickar det kan du fortfarande [gå till mappen Skickat och arkivera meddelandet][2].
 >
-> Du kan redigera signaturmallen nederst i meddelandet under ![ikon][img1] **Personliga inställningar** > **Redigera personlig e-postsignatur**.
+> Du kan redigera signaturmallen nederst i meddelandet under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Redigera personlig e-postsignatur**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

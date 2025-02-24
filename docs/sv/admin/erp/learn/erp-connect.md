@@ -24,7 +24,7 @@ Du kan koppla ett SuperOffice-företag till en kund/leverantör i ERP-systemet. 
 1. Företag: Klicka på **Kund** eller **Leverantör**, beroende på vilken ERP-aktör du vill koppla företaget till. Du kan bara välja en aktör per företag.
     *Eller* Projekt: Klicka på **Projekt**.
     *Eller* Kontakt: Klicka på **Kontakt**.
-1. Skriv in söktext i sökfältet i dialogrutan **Koppla till ERP** och klicka på **Sök**. Du kan också klicka på ![sökikonen][img1] för att starta en avancerad sökning (se [Använda fönstret Sök][1]).
+1. Skriv in söktext i sökfältet i dialogrutan **Koppla till ERP** och klicka på **Sök**. Du kan också klicka på <i class="ph ph-magnifying-glass" aria-label="Sök"></i> för att starta en avancerad sökning (se [Använda fönstret Sök][1]).
 
     > [!TIP]
     > Om du söker med tomt sökfält visas alla poster i ERP-systemet.
@@ -48,4 +48,3 @@ Du kan koppla ett SuperOffice-företag till en kund/leverantör i ERP-systemet. 
 [3]: erp-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png

@@ -3,9 +3,9 @@ uid: help-sv-links
 title: Länkar
 description: Länkar
 keywords: Lägg till länk, fliken Länkar, Länkar-fliken, länk
-author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ En punkt visas bredvid **Länkar**-fliken när den innehåller en eller flera l�
 
 1. Välj fliken **Länkar**.
 
-1. Klicka på **Redigera** och sedan **Lägg till**.
+1. Klicka på **Redigera** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) och sedan **Lägg till**.
 
 1. I dialogrutan **Lägg till länk**:
 
@@ -50,7 +50,7 @@ En punkt visas bredvid **Länkar**-fliken när den innehåller en eller flera l�
 ## Ta bort en länk
 
 1. Gå till fliken **Länkar**.
-1. Klicka på **Redigera**.
+1. Klicka på <i class="ph ph-pencil-simple" aria-label="Redigera"></i>.
 1. Klicka på **Ta bort-knappen** (röd X) bredvid länken.
 1. Klicka på **Spara**.
 

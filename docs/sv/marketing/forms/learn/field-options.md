@@ -4,12 +4,12 @@ title: Fältalternativ
 description: Fältalternativ
 keywords: formulär fält, formulärpost, fältalternativ, reCAPTCHA
 author: SuperOffice RnD
-date: 03.15.2024
+date: 02.25.2025
 version: 10
 topic: reference
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Fältalternativ
@@ -49,17 +49,17 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 
   * **Vertikal:** Visar värdena horisontellt eller vertikalt.
 
-  * **Data:** Här anger du värden för varje alternativknapp. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du värden för varje alternativknapp. Ange ett värde i fältet och klicka på **+**. Upprepa om du vill lägga till ytterligare värden.
 
 * **Kryssruta:** Ett urvalsfält där du kan välja flera värden.
 
   * **Vertikal:** Visar värdena horisontellt eller vertikalt.
 
-  * **Data:** Här anger du värdena för varje kryssruta. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du värdena för varje kryssruta. Ange ett värde i fältet och klicka på **+**. Upprepa om du vill lägga till ytterligare värden.
 
 * **Listruta:** Ett urvalsfält där du kan välja ett värde i listan.
 
-  * **Data:** Här anger du listvärdena. Ange ett värde i fältet och klicka på knappen Lägg till ![ikon][img1]. Upprepa om du vill lägga till ytterligare värden.
+  * **Data:** Här anger du listvärdena. Ange ett värde i fältet och klicka på **+**. Upprepa om du vill lägga till ytterligare värden.
 
 * **Dold:** Ett fält som inte syns i det publicerade formuläret. I fältet **Standardvärde** kan du ange en kod, ett projektnamn/nummer eller annan information som ska associeras med formuläret.
 
@@ -92,6 +92,3 @@ Detta är en översikt över specialalternativ i några av de tillgängliga fäl
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

@@ -2,9 +2,9 @@
 uid: help-sv-chat-add-javascript
 title: Lägg till JavaScript till webbplatsen
 description: Livechatt är ett populärt sätt för dina kunder och prospekt att komma i kontakt med dig när de besöker webbplatsen. Den här guiden visar hur du lägger till en chattwidget på din webbplats.
-author: SuperOffice RnD
-date: 02.22.2023
 keywords: chatt
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +23,7 @@ Nu när du har [konfigurerat chattwidgeten][1] är det dags att lägga till den 
 ## Steg
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Klicka på ![ikon][img2] **Chatt** i navigatorn.
+1. Klicka på <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chatt** i navigatorn.
 1. Välj en chattkanal i listan och klicka på **Visa**. JavaScript för vald chattkanal visas.
 1. Markera och kopiera skriptet.
 1. Logga in på redigeringssidan för din webbplats.
@@ -48,6 +48,3 @@ Chattwidgeten är nu tillgänglig och live. Webbplatsens besökare kan nu börja
 [1]: channel-create.md
 [2]: ../../../ai/learn/index.md
 [3]: ../../../customer-center/learn/enable-chat.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png

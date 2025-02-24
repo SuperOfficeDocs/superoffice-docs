@@ -53,7 +53,7 @@ För att komma åt denna funktion behöver du ha databehörighet för **Mål**.
 **Funktionsbehörigheter**
 Endast användare med funktionsbehörigheten **Kan låsa och låsa upp mål** kan låsa och låsa upp mål.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Panel][1]
 * [Använda försäljningsmål i figurer][2]

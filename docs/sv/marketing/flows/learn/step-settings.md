@@ -4,18 +4,18 @@ title: Steginstillinger
 description: Översikt över inställningar för de olika flödesstegen.
 keywords: flöde, fältalternativ, steg, steginställning, avsluta flöde
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 09.17.2024
+date: 02.25.2025
 version: 10.3.9
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Steginställningar
 
 > [!NOTE]
-> Många fält har en lista med fördefinierade värden som du kan välja från. Klicka på pilen ![icon][img4] för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett urvalsnamn.
+> Många fält har en lista med fördefinierade värden som du kan välja från. Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> för att expandera listan. Välj sedan ett värde för det fältet. Alternativt kan du börja skriva i fältet för att söka efter ett specifikt värde, som ett urvalsnamn.
 
 ## Lägg till i urval och/eller projekt
 
@@ -159,7 +159,4 @@ Detta fungerar liknande som [massuppdatering][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png
+[14]: ../../../sale/learn/sales-guides.md

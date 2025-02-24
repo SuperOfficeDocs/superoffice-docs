@@ -35,7 +35,7 @@ Om du har valt fel kontakt kan du klicka på **Byt kontakt** längst ned på sid
 
 Om du inte hittar kunden i databasen i SuperOffice CRM kan du [skapa en ny kontakt och ett nytt företag][1] på sidopanelen.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 <!-- Referenced links -->
 [1]: create-contact.md

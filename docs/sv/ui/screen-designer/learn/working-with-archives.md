@@ -44,7 +44,7 @@ Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detal
 
 1. Ersätt "Ny flik" med arkivnamnet och ange en beskrivning för den nya layouten.
 
-    Du kan också klicka på **A-Z**-knappen bredvid etiketten för att lägga till texten på andra språk.
+    Du kan också klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid etiketten för att lägga till texten på andra språk.
 
 1. Justera **Unikt namn för kortet** (soprotocol) vid behov.
 
@@ -59,7 +59,7 @@ Du kan lägga till ett nytt detaljkort på vilken skärm som helst med ett detal
 1. (Valfritt) Använd **Avancerade alternativ** för att anpassa enkel- och dubbelklicksåtgärder. Som standard kommer ett enkelklick att välja en rad och ett dubbelklick att öppna en post/entitet i SuperOffice.
 
     > [!TIP]
-    > Håll muspekaren över informationsikonen ![icon][img4] för exempel.
+    > Håll muspekaren över <i class="ph ph-info" aria-label="Info"></i> för exempel.
 
 1. Dra arkivet till önskad position i förhandsgranskningen.
 
@@ -98,7 +98,6 @@ För att ångra dessa ändringar, klicka på **Återställ flikar**.
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

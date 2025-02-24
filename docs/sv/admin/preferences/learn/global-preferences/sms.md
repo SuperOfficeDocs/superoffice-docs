@@ -2,10 +2,10 @@
 uid: help-sv-service-settings-system-sms
 title: SMS
 description: SMS
-author: SuperOffice RnD
-date: 03.27.2023
 keywords: Tjänst, inställningar
-topic: help
+author: SuperOffice RnD
+date: 02.25.2025
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -13,7 +13,7 @@ language: sv
 
 # SMS-konfiguration under Globala inställningar
 
-Gå till ![ikon][img1] **Inställningar** i navigatorn och välj fliken **Globala inställningar**. I sektionen för **SMS-konfiguration** finns alternativ för konfigurering av SMS-lösningar i SuperOffice.
+Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navigatorn och välj fliken **Globala inställningar**. I sektionen för **SMS-konfiguration** finns alternativ för konfigurering av SMS-lösningar i SuperOffice.
 
 ## Allmänna fält
 
@@ -38,8 +38,3 @@ Testa inställningarna genom att ange ett mobiltelefonnummer och lite text och s
 * **SMS-slutpunkt**: Det här fältet ska innehålla en kod som gör att SuperOffice Service känner igen ett inkommande SMS.
 * **Användarnamn**: Här anger du det användarnamn som PsWinCom har gett dig.
 * **Lösenord**: Här anger du det lösenord som PsWinCom har gett dig.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

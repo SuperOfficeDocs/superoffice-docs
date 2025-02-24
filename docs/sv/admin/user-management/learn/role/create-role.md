@@ -2,9 +2,9 @@
 uid: help-sv-role-create
 title: Skapa roll
 description: Skapa roll
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: roll, administrera användare
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -33,8 +33,8 @@ language: sv
 
 6. Välj ett av följande alternativ:
 
-    * Klicka på pilen ![ikon][img5] pilen bredvid rutan **Kopiera behörigheter från** och välj den roll som den nya rollen ska baseras på.
-    * Klicka på ![ikon][img5] pilen och välj **Starta med tomma behörigheter** om du vill skapa rollen från början.
+    * Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> bredvid rutan **Kopiera behörigheter från** och välj den roll som den nya rollen ska baseras på.
+    * Klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välj **Starta med tomma behörigheter** om du vill skapa rollen från början.
 
 7. Klicka på **Spara**. Den nya rollen visas i listan **Roller**.
 
@@ -65,6 +65,3 @@ language: sv
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png

@@ -2,10 +2,10 @@
 uid: help-sv-email-inbox-preview
 title: fältet förhandsgranskning
 description: fältet förhandsgranskning
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: e-post
-topic: help
+author: SuperOffice RnD
+date: 02.25.2025
+topic: howto
 language: sv
 ---
 
@@ -24,9 +24,9 @@ Fliken **Förhandsgranska** innehåller följande fält:
 | Bifogade filer | Här visas filer som har bifogats i meddelandet. |
 
 > [!NOTE]
-> Gå till ![ikon][img1] **Personliga inställningar** > **Alternativ för e-post**. Gå till fliken **Allmänt**. Om du markerar **Visa interna bilder** visas inbyggda bilder i förhandsgranskningsfältet.
+> Gå till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Alternativ för e-post**. Gå till fliken **Allmänt**. Om du markerar **Visa interna bilder** visas inbyggda bilder i förhandsgranskningsfältet.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lägg till e-postadresser i SuperOffice CRM][1]
 * [Arkivera eller öppna bilagor][2]
@@ -40,6 +40,3 @@ Fliken **Förhandsgranska** innehåller följande fält:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

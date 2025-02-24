@@ -2,108 +2,83 @@
 uid: help-sv-ui-main-screen
 title: Huvudfönstret
 description: Huvudfönstret
+keywords: användargränssnitt, huvudfönster, navigator, topprad, kort, sidopanel, detaljkort, uppgiftsmeny, komma igång
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: CRM
+date: 02.25.2025
+version: 10.5.2
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Layoutelementen på huvudskärmen
+# Layoutelementen på huvudfönstret
 
-Användargränssnittet har fem huvudelement:
+Huvudfönstret till SuperOffice CRM är indelat i fem viktiga element som hjälper dig att navigera, hantera och visa data effektivt.
 
-* **Navigatorn**
-    Den lodräta raden med knappar längst till vänster på skärmen kallas för [navigatorn][1]. Med dessa knappar kan du enkelt navigera överallt i SuperOffice CRM.
+## Huvudelement
 
-* **Toppraden**
-    Högst upp på skärmen ligger toppraden. Med [knapparna i menyfältet][2] kan du snabbt och enkelt skapa nya poster och aktiviteter samt hantera personliga inställningar och olika systemalternativ.
+### Navigatorn
 
-* **Huvudkortet**
-    Högst upp på skärmen, till höger om navigatorn, finns huvudkortet. Här hittar du alla de viktigaste detaljerna för företag, kontakter, projekt, försäljning, urval och så vidare. Huvudkortet namnges enligt den skärm du befinner dig i, t.ex. företagskort, kalenderkort eller projektkort.
+Den lodräta raden med knappar längs vänster sida av fönstret kallas för [navigatorn][1]. Använd dessa knappar för att snabbt växla mellan olika områden, såsom Kontakter, Företag och Projekt.
 
-* **Sidopanelen**
-    På höger sida av skärmen finns [sidopanelen][3]. Sidopanelen är ett flexibelt fönster som kan konfigureras på många olika sätt.
+### Toppraden
 
-* **Detaljkorten**
-    Detaljkorten ligger under huvudkortet. Här finns det listor över bland annat kontakter, projektdeltagare och aktiviteter som är kopplade till den aktuella händelsen på huvudkortet.
+Längst upp i fönstret finns [toppraden][2], som ger snabb åtkomst till att skapa nya poster, hantera personliga inställningar och öppna systemalternativ.
 
-  * [I fönstret Företag][10]
-  * [I fönstret Kontakt][11]
-  * [I fönstret Projekt][15]
-  * [I fönstret Försäljning][17]
-  * [Lista över urvalsmedlemmar][19]
-  * [Aktiviteter][13]
+### Huvudkortet
+
+Huvudkortet, placerat nära toppen av fönstret, visar viktiga detaljer om den valda posten, såsom ett företag, en kontakt eller ett projekt. Namnet på kortet ändras beroende på vilket fönster du befinner dig i, exempelvis **företagskort** eller **projektkort**.
+
+### Sidopanelen
+
+På höger sida av fönstret finns [sidopanelen][3], som ger en flexibel vy för ytterligare information, såsom urvalsmedlemmar, kalenderöversikter eller relaterade poster. Du kan konfigurera dess visning och även ändra storleken för bättre översikt.
+
+### Detaljkorten
+
+Under huvudkortet organiserar [detaljkorten][4] relaterade listor, såsom aktiviteter, kontakter eller projektdeltagare. Dessa kort varierar beroende på fönstret.
 
 ## <a id="global-buttons"></a>Globala knappar
 
-De globala knapparna visas i hela användargränssnittet. Vissa finns på huvudskärmen, medan andra finns i de olika dialogrutorna.
+Dessa vanliga knappar visas över hela SuperOffice och fyller viktiga funktioner:
 
-| Knapp | Funktion |
-|---|---|
-| ![ikon][img4] | Används för att öppna sökfönstret. |
-| ![ikon][img3] | Används för att välja ett telefonnummer att ringa. |
-| ![ikon][img2] | Pilar öppnar och stänger listor. |
-| ![ikon][img1] | Används att öppna en meny med uppgifter som är relevanta för dialogrutan eller skärmbilden. |
-
-### Globala knappar i ärenden
-
-| Knapp | Beskrivning |
+| Ikon | Funktion |
 |:-:|---|
-| ![ikon][img8] | Används för att lägga till information, t.ex. e-postadresser eller nya kontakter eller företag. |
-| ![ikon][img1] | Används att öppna en meny med uppgifter som är relevanta för dialogrutan eller skärmbilden. |
-| ![ikon][img10] | Används för att öppna och stänga en listruta. |
-| ![ikon][img9] | Används för att lägga till den aktuella posten (ärende, kontakt eller liknande) som en [favorit][6]. |
-| ![ikon][img5] | Används för att starta en sökning. |
-| ![ikon][img6] | Används för att konfigurera utseendet och beteendet för ett skärmobjekt (t.ex. en lista med sökresultat, en egenskapsvy eller en ärenderubrik). |
-| ![ikon][img7] | Används för att välja ett datum i kalendern. |
+| <i class="ph ph-magnifying-glass" aria-label="Sök"></i> | Öppna sökfönstret för att hitta poster. |
+| <i class="ph ph-phone" aria-label="Telefon"></i> | Välj ett telefonnummer att ringa. |
+| <i class="ph ph-caret-down" aria-label="Pil"></i> | Expandera eller kollapsa listor. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> | Öppna en meny med uppgifter för aktuell dialog eller skärm. |
 
-## Ändra storleken på skärmelement
+## Anpassa skärmelement
 
-Du kan ändra storlek på huvudkortet, sidopanelen och detaljkorten. Om du till exempel har många aktiviteter kan du utöka detaljkorten i Företag-, Kontakt- Försäljning- och Projekt-fönstren så att fler aktiviteter kan visas samtidigt. Olika skärmar kan ha olika inställningar och SuperOffice CRM kommer ihåg inställningarna för ett fönster nästa gång det visas.
+### Ändra storlek på paneler eller kort
+
+Du kan justera storleken på huvudkortet, sidopanelen och detaljkorten för att bättre passa ditt arbetsflöde. Om du till exempel har många aktiviteter kan du utöka detaljkorten för att visa fler detaljer.
 
 **Steg:**
 
-1. Placera muspekaren mellan fönsterposterna som du vill ändra storlek på.
-2. Klicka på ![ikon][img11] eller ![ikon][img12] och dra till den storlek du vill ha.
-3. När posterna har rätt storlek släpper du musknappen.
+1. Håll muspekaren mellan två element.
+2. Klicka och dra för att justera storleken (<i class="ph ph-arrows-horizontal" aria-hidden="true"></i> <i class="ph ph-arrows-vertical" aria-hidden="true"></i>).
+3. Släpp musknappen när layouten ser bra ut.
 
 > [!NOTE]
-> Om du gör fönsterposterna för små döljs viss information i fönstret. Eftersom det inte finns någon rullningslist i dessa poster måste du förstora fönstret för att se all information igen.
+> Om du minskar ett element för mycket kan viss information döljas. Förstora elementet igen för att göra all information synlig.
 
-## Ändra placeringen av skärmelement
+### Ändra ordning på flikar
 
-Du kan ändra placeringen av flikarna och detaljkorten så att de passar dig. Om du till exempel vill att detaljkortet **Försäljning** ska visas till vänster i kalendern i stället för **Aktiviteter**.
+Du kan omorganisera flikar eller detaljkorten så att de passar dig. Exempelvis kan du flytta detaljkortet **Försäljning** till vänster i Kalender-fönstret.
 
-1. Klicka och dra i kortet/fliken till önskad plats.
-2. Släpp kortet/fliken. SuperOffice CRM kommer ihåg ditt val så att det visas på samma sätt nästa gång du öppnar översikten.
+**Steg:**
 
-## Teckensnitt och teckenstorlek
+1. Klicka och dra fliken till önskad position.
+2. Släpp fliken. SuperOffice CRM kommer ihåg din inställning till nästa gång du öppnar vyn.
 
-Zooma in/ut i webbläsaren för att få större/mindre text.
+## Justera teckenstorlek
+
+För att ändra teckenstorleken, använd webbläsarens zoomfunktion (Ctrl + "+" eller Ctrl + "-") för att öka eller minska storleken.
 
 <!-- Referenced links -->
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md
-[6]: ../../basics/fav.md
-[10]: ../../../company/learn/screen/index.md
-[11]: ../../../contact/learn/screen/index.md
-[13]: ../../section-tabs/activities-tab.md
-[15]: ../../../project/learn/screen/index.md
-[17]: ../../../sale/learn/screen/index.md
-[19]: ../../../search-options/selection/learn/screen/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img8]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/dropdown-icon.png
-[img3]: ../../../../../common/icons/phone.png
-[img4]: ../../../../../common/icons/search-icon-black.png
-[img5]: ../../../../../common/icons/search-icon-black.png
-[img6]: ../../../../../common/icons/settingstools.png
-[img7]: ../../../../../common/icons/pref-diary.png
-[img9]: ../../../../../common/icons/favourite-no.png
-[img10]: ../../../../../common/icons/dropdown-arrow.png
-[img11]: ../../../../../common/icons/dragger-vert-h32.png
-[img12]: ../../../../../common/icons/dragger-hori-h32.png
+[4]: ../../section-tabs/index.md

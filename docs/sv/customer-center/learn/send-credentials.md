@@ -4,7 +4,7 @@ title: Skicka lösenord till kontakter
 description: Skicka lösenord till kontakter
 keywords: Kundcenter
 author: SuperOffice RnD
-date: 12.19.2024
+date: 02.25.2025
 version: 10
 topic: howto
 audience: person
@@ -18,7 +18,7 @@ En kontakt som ska ha åtkomst till ett kundcenter måste ha ett användarnamn o
 
 1. Öppna fönstret Kontakt.
 
-1. Klicka på ![ikon][img1] **Uppgift** och välj **Handtera kundcenteranvändare**.
+1. Klicka på **Uppgift** och välj **Handtera kundcenteranvändare**.
 
 1. Klicka på **Skicka lösenord**.
 
@@ -30,8 +30,3 @@ En kontakt som ska ha åtkomst till ett kundcenter måste ha ett användarnamn o
 
 > [!TIP]
 > Meddelandets innehåll hämtas från en installerad systemmall. Du hittar den under **Kunskapsbas** > **Svarsmallar**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png

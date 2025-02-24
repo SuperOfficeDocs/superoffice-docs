@@ -2,9 +2,9 @@
 uid: help-sv-dashboard-tile-add
 title: Lägg till figur/redigera layout på dashboard
 description: I den här guiden förklarar vi hur du skapar en dashboardfigur.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: dashboard
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -13,10 +13,12 @@ language: sv
 
 Om du inte hittar den figur du behöver bland de fördefinierade figurerna i SuperOffice Dashboard kan du skapa en egen.
 
-Titta på den här filmen eller följ anvisningarna nedan om du vill skapa en egen dashboardfigur (filmens längd: 7:20):
+Titta på den här filmen eller följ anvisningarna nedan om du vill skapa en egen dashboardfigur:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+
+(filmens längd: 7:20)
 
 ## Steg
 
@@ -24,7 +26,7 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill skapa en eg
 
 2. Välj den dashboard som du vill redigera.
 
-3. Klicka på **Uppgift**-knappen välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
+3. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
 
     ![Välj figurtyp -screenshot][img1]
 
@@ -69,7 +71,7 @@ På fliken Layout kan du finjustera figurens utseende på många olika sätt. Om
 
 Välj önskad diagramtyp och nödvändiga inställningar. Den färdiga figuren visas till höger
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Redigera en figur][1]
 * [Ta bort en figur][3]

@@ -26,9 +26,9 @@ Dialogrutan **Arkivera e-postmeddelande i SuperOffice** visas vid följande till
 
 ## Inkludera mallar som inte är e-postmallar i listan
 
-Markerat ![ikon][img2]: Alla dokumentmallar visas i listan **Typ** i dialogrutan **Arkivera e-post i SuperOffice**.
+Markerat (<i class="ph ph-check" aria-hidden="true"></i>): Alla dokumentmallar visas i listan **Typ** i dialogrutan **Arkivera e-post i SuperOffice**.
 
-Inte markerat ![ikon][img3]: Endast dokumentmallar av typen **E-post** visas.
+Inte markerat: Endast dokumentmallar av typen **E-post** visas.
 
 ## Standardmall för utgående e-postmeddelanden
 
@@ -65,5 +65,3 @@ Klicka här för att koppla till en annan SuperOffice-installation. Följ instru
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

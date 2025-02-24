@@ -28,7 +28,7 @@ Enligt många europeiska lagar som reglerar lokal marknadsföring får ett före
 
 Genom att skapa olika prenumerationstyper för olika utskick kan du skicka relevant och förväntad kommunikation vid rätt tidpunkt till dina målgrupper och förbättra resultaten av dina digitala kampanjer.
 
-När en kontakt har lagts in i SuperOffice CRM kan personen i fråga välja vilken marknadskommunikation han/hon vill prenumerera på genom att ange sina prenumerationspreferenser. Du lägger helt enkelt till de prenumerationstyper ditt företag erbjuder och tar bort de ni inte erbjuder.
+När en kontakt har lagts in i SuperOffice CRM kan personen i fråga välja vilken marknadskommunikation de vill prenumerera på genom att ange sina prenumerationspreferenser. Du lägger helt enkelt till de prenumerationstyper ditt företag erbjuder och tar bort de ni inte erbjuder.
 
 I den här filmen förklarar vi hur du lägger till och redigerar prenumerationstyper (filmens längd: 2:00):
 

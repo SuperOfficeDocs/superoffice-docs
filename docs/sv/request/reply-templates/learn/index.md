@@ -1,11 +1,14 @@
 ---
 uid: help-sv-reply-template
 title: Arbeta med svarsmallar
-description: Arbeta med svarsmallar
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: ärende
+description: Arbeta med svarsmallar i SuperOffice. Visa, hitta och sök efter svarsmallar i kunskapsbasen för snabbare hantering av ärenden.
+keywords: visa svarsmall, hitta svarsmall, svarsmall, färdig text, kunskapsbas, ärende
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -19,34 +22,38 @@ En svarsmall kan t.ex. vara en specifik layout som ska användas för svar eller
 
 [!include[FAQ vs. reply template](../../../learn/includes/faq-vs-reply-template.md)]
 
-## Visa en svarsmall
+## Hitta och visa svarsmallar
 
-I fönstret Svarsmallar hittar du de svarsmallar som är tillgängliga för dig. Svarsmallarna ligger i en [mappstruktur][10] som du kan skapa själv.
+Svarsmallar är organiserade i en mappstruktur som du kan skapa och hantera själv. Så här hittar du en svarsmall:
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **Svarsmallar**.
-1. Gå till önskad mapp.
-1. Klicka på önskad svarsmall. Skärmen **Visa svarsmallar** visas med information om åtkomstnivå, språk och ägare. På flikarna nedan kan du se själva svarsmallstexten samt eventuella bilagor.
+1. Gå till <i class="ph ph-list" aria-label="Huvudmeny"></i> i toppraden och välj **Kunskapsbas** > **Svarsmallar**.
+2. Bläddra till önskad mapp.
+3. Klicka på svarsmallen du vill visa. Skärmen **Visa svarsmallar** öppnas och visar:
+    * Information om åtkomstnivå, språk och ägare.
+    * Flikar för själva svarsmallstexten och eventuella bilagor (per språkversion).
 
-## Vad vill du göra nu?
+### Sök efter svarsmallar
 
-* [Skapa svarsmallar][3]
+I översikten för svarsmallar kan du söka efter en specifik svarsmall:
+
+1. Ange texten eller kriterierna du vill söka efter.
+1. Klicka på **Sök**. En lista med matchande svarsmallar visas.
+1. Klicka på en svarsmall för att öppna den.
+
+> [!TIP]
+> För att lättare hitta svarsmallar i framtiden, överväg att organisera dem i [mappar][1].
+
+## Relaterat innehåll
+
+* [Skapa svarsmallar från grunden eller kopiera en befintlig][3]
 * [Skapa ny språkversion av svarsmall][4]
-* [Redigera svarsmallar][6]
-* [Kopiera svarsmallar][7]
-* [Ta bort svarsmallar][8]
-* [Söka efter svarsmallar][9]
-* [Administrera mappar med svarsmallar][10]
+* [Redigera eller ta bort svarsmallar][6]
+* [Organisera svarsmallar i mappar][1]
 * [Lägga till svarsmallar i meddelanden][11]
 
 <!-- Referenced links -->
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[7]: copy.md
-[8]: delete.md
-[9]: find.md
-[10]: manage-folders.md
-[11]: ../../learn/howto/reply.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[1]: manage-folders.md
+[11]: ../../learn/reply.md

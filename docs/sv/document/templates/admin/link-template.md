@@ -4,12 +4,12 @@ title: Lägga till en dokumentmall
 description: I den här guiden förklarar vi hur du lägger till en ny dokumentmall i SuperOffice CRM.
 keywords: dokument, mall, lista
 author: Bergfrid Dias
-date: 07.12.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
-language: sv
 audience: settings
 audience_tooltip: Settings and maintenance
+language: sv
 ---
 
 # Lägga till en dokumentmall
@@ -18,10 +18,12 @@ Om du skapar nya mallar eller ändrar en standardmall och sparar den med ett nyt
 
 Mallarna visas som objekt i listan **Dokument – Mall** och du kopplar en mall till SuperOffice CRM genom att lägga in den som en post i listan.
 
-Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till en dokumentmall (filmens längd: 2:30):
+Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till en dokumentmall:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(filmens längd: 2:30)
 
 ## Steg
 
@@ -73,13 +75,13 @@ Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till
 
 Ange följande information på fliken **Detaljer**:
 
-1. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på ![ikon][img1] pilen och välja ett alternativ i listrutan.
+1. I fältet **Riktning** anger du om mallen ska vara utgående eller inkommande genom att klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja ett alternativ i listrutan.
 
 2. I fältet **Dokumenttyp** väljer du **Dokument** eller **Fax** som malltyp.
 
 3. I fältet **Dokument sparat i** kan du välja att spara dokumentet på en annan plats än standardalternativet.
 
-4. Gå till fältet **Syfte**, klicka på ![ikon][img1] och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][4]).
+4. Gå till fältet **Syfte**, klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välj ett av de fördefinierade alternativen i listan. De här posterna används vid statusövervakning (kräver licens för [Sales Intelligence][4]).
 
     > [!TIP]
     >Du kan skapa nya alternativ förutom de fördefinierade genom att lägga till poster i listan **Händelse – Syfte** i Inställningar och underhåll.
@@ -127,7 +129,6 @@ Här kan du lägga till översatta versioner av dokumentmallen.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

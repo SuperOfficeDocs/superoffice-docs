@@ -1,0 +1,11 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Lägga till försäljningsfas
+  href: sale-stage.md
+- name: Lägga till försäljningstyp
+  href: sale-type.md
+- name: Skapa en ny säljguide
+  href: create-sales-guide.md
+- name: Redigera eller inaktivera säljguide
+  href: edit-sales-guide.md

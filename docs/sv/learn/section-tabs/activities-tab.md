@@ -4,8 +4,8 @@ title: Activities tab
 description: Lär dig hur du använder Aktivitetsfliken i SuperOffice CRM för att visa, hantera och följa upp aktiviteter, uppgifter och dokument för företag, kontakter, projekt och försäljningar – allt i en organiserad sektion.
 keywords: Aktivitetsfliken, fliken Aktiviteter, detaljkortet Aktiviteter, detaljkort, aktivitetsarkiv, aktivitet
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -38,7 +38,7 @@ Detaljkortet **Aktiviteter** innehåller följande kolumner för att visa viktig
 
 | Kolumn | Beskrivning |
 |--------|-------------|
-| Slutförd | Kryssruta som indikerar om aktiviteten är slutförd. En bock i rutan (![icon][img3]) betyder slutförd, medan en tom ruta betyder att den pågår. |
+| Slutförd | Kryssruta som indikerar om aktiviteten är slutförd. En bock i rutan (<i class="ph ph-check" aria-hidden="true"></i>) betyder slutförd, medan en tom ruta betyder att den pågår. |
 | Typikon | Visar [typen av aktivitet][1] (som möte, samtal, dokument). Matchar texten i kolumnen **Typ**. |
 | Datum | Visar när ett dokument skapades eller när en händelse är planerad att ske. |
 | Typ | Typen av aktivitet, som möte, uppgift eller e-post. |
@@ -104,10 +104,9 @@ För att inkludera slutförda aktiviteter i listan, se till att kryssrutan **Slu
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

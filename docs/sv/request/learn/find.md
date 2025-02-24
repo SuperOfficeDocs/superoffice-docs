@@ -2,10 +2,12 @@
 uid: help-sv-request-find
 title: Söka efter ett ärende
 description: I den här guiden förklarar vi hur du söker efter ärenden i SuperOffice
+keywords: söka efter ärende, hitta ärende, senaste ärenden, egna öppna ärenden, otilldelade ärenden, visa bara egna kategorier, sökning, sök, hitta, ärende
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: ärende, söka, sök
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
@@ -13,105 +15,114 @@ language: sv
 
 # Söka efter ett ärende
 
-Som handläggare inom kundsupport får du många inkommande samtal och e-postmeddelanden om väntande eller gamla kundförfrågningar. Det är därför det är viktigt att veta hur du kan söka efter ett enskilt ärenden eller grupper med ärenden så snabbt som möjligt.
+Som kundsupporthandläggare får du många inkommande samtal och e-postmeddelanden om väntande eller gamla kundförfrågningar. Det är därför viktigt att veta hur du snabbt kan hitta ett enskilt ärende eller grupper av ärenden.
 
 Gör något av följande:
 
-* Använda listor, som i själva verket är fördefinierade sökningar.
-* Använd sökskärmen för ärenden i Sök ärende.
-* Använd [fritextsökningen][3] i det övre högra hörnet.
-* Använd [dashboards][9].
+* Använd listor, som i själva verket är fördefinierade sökningar.
+* Använd sökskärmen för ärenden under **Sök ärende**.
+* Använd [fritextsökningen][12] i toppraden.
+* Använd [dashboards][18].
 * Använd [urval][10] för ärenden.
-* Använd [navigatorns][12] sökning på Ärenden.
-* Använd [Sök][11] i det övre fältet, välj en av de typiska sökningarna eller lägg till önskade kriterier.
+* Använd [navigatorns sökning][19] på Ärenden.
+* Använd [Sök][11] i toppraden, välj en av de typiska sökningarna eller lägg till önskade kriterier.
 
 ## <a id="list"></a>Använda listor
 
-Det enklaste sättet att söka efter ärenden är att använda sökfältet som finns i menyn för den första fliken **Sök ärenden** i fönstret Ärenden.
+Det enklaste sättet att söka efter ärenden är att använda sökfältet i menyn för den första fliken **Sök ärenden** i fönstret Ärenden.
 
 ![Söka efter ärenden -screenshot][img3]
 
-* **Senaste ärenden**: Visar de senaste ärendena som registrerades i systemet. Denna lista innehåller endast ärenden i de kategorier som du är medlem i om så anges i dina inställningar.
+* **Senaste ärenden:** Visar de senast registrerade ärendena i systemet. Om inställt i användarinställningar visar denna lista endast ärenden i de kategorier du är medlem i.
 
-* **Egna aktiva ärenden**: Visar ärenden som tillhör dig och som har status **Öppet**. Denna lista innehåller de ärenden som du är ansvarig för, och det är därför den skärm du kommer arbeta med mest.
+* **Egna öppna ärenden:** Visar alla ärenden du ansvarar för som har status **Öppet**. Denna lista innehåller de ärenden som du är ansvarig för, och det är därför den skärm du kommer arbeta med mest.
 
-* **Otilldelade ärenden**: En lista över ärenden som ingen har tilldelats ansvar för. För att [ta över ansvaret för ett av ärendena][6] är det viktigt att du gör det genom att klicka på **Ta över ärende**. Annars finns det risk för att andra besvarar samma ärende samtidigt.
+* **Otilldelade ärenden:** Visar ärenden som ännu inte har tilldelats någon handläggare. För att [ta över ett ärende][6] måste du klicka på **Ta över ärende**, annars finns risk att någon annan besvarar samma ärende samtidigt.
 
-* **Mina favoriter**: Visar de ärenden du har sparat som favoriter.
+* **Mina favoriter:** Visar de ärenden du har sparat som favoriter.
 
-* **Hämta nästa i kön**: Om [kösystemet är skapat][5] för ditt företag kan du klicka på detta alternativ om du vill hämta nästa otilldelade ärende i kön för den kategori som du tillhör.
+* **Hämta nästa i kön:** Om [kösystemet är aktiverat][9] kan du klicka här för att få nästa otilldelade ärende i kön för den kategori du tillhör.
 
-* **Ärendeurval**: Ditt eget urval av ärenden kommer visas i menyn.
+* **Ärendeurval:** Visar dina egna urval av ärenden.
 
 ### Visa bara egna kategorier
 
-1. Välj ![ikon][img2] **Personliga inställningar** > **Inställningar**.
+1. Välj <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar**.
 1. Välj gruppen **Ärende**.
-1. Ställ in **Visa bara egna kategorier** på ja.
+1. Ställ in **Visa bara egna kategorier** på **Ja**.
 1. Klicka på **Spara**.
 
-### Anpassa sökkriterier
+## Använda sökkriterier
 
-Alla dessa listor är i praktiken fördefinierade sökningar, och du kan anpassa sökkriterierna om du vill:
+Du kan anpassa sökkriterier för att hitta specifika ärenden.
 
-1. Klicka på fliken **Sök ärenden** i sidhuvudet in fönstret Ärenden.
-1. [Justera kriterierna][4].
-1. Klicka på **Sök** i det nedre högra hörnet för att påbörja sökningen med de nya sökkriterierna. Om du väljer ett av ärendena i listan visas dess innehåll i förhandsgranskningen till höger. Om du väljer ett av ärendena i listan visas dess innehåll i [förhandsgranskningen](#preview).
-1. Om du vill behålla sökningen kan du spara sökresultatet som ett [urval][13] och gå tillbaka till listan när du vill.
+### Hur du öppnar sökkriterier
 
-> [!TIP]
-> Om du vill återställa standardinställningarna väljer du **Återställ till standard**.
->
-> Om du vill rensa alla dina kriterier, väljer du **Ta bort allt**.
+Fliken **Sök ärenden** har två interaktiva element:
+
+* **Fliktext:** Klicka på texten för att öppna skärmen med sökkriterier.
+
+* **Dropdownikon:** Klicka på pilen (<i class="ph ph-caret-down" aria-label="Dropdown icon"></i>) för att öppna en meny med fördefinierade sökningar, som *Senaste ärenden* eller *Egna öppna ärenden*.
+Om du inte ser sökkriterieskärmen, klicka på texten och inte på pilen.
+
+### Anpassa kriterier
+
+1. Klicka på **Sök ärenden** i sidhuvudet i fönstret Ärenden.
+
+1. Justera [sökkriterierna][14] genom att lägga till eller ändra filter:
+
+    * Använd rullgardinsmenyer för att ange kriterier som Ägare, Intern status eller Kategori.
+    * Lägg till fler kriterier genom att klicka på **Lägg till kriterium**, eller ta bort befintliga med <i class="ph ph-x" aria-label="Remove criterion"></i>-ikonen.
+    * Kombinera filter med **OCH** eller **ELLER** för att förfina din sökning.
+
+    ![Sök efter ärenden -screenshot][img2]
+
+1. Klicka på **Sök** i nedre högra hörnet för att genomföra sökningen.
+
+    > [!TIP]
+    > Du kan spara ofta använda kriterier som ett [urval][13] för snabb åtkomst senare.
+
+1. För att återställa sökningen till standardvärden, välj **Återställ till standard**. För att rensa alla filter, välj **Ta bort allt**.
 
 ### <a id="result"></a>Sökresultat
 
-Resultatet innehåller en lista över ärenden som motsvarar de kriterier som har angetts ovan. Här kan du göra följande:
+Sökresultatet visar en lista över ärenden i fliken **Resultat**. Du kan:
 
-* Du kan sortera ärendena genom att klicka på önskad kolumnrubrik.
-* Du kan markera en rad för att visa innehållet i det aktuella ärendet i förhandsgranskningen.
-* Du kan öppna ett ärende genom att dubbelklicka på önskad rad.
-* I det nedre vänstra hörnet klickar du på knappen för att **Visa/Dölja förhandsgranskning**.
-* Med knappen ![ikon][img1] **Uppgift** i det nedre vänstra hörnet kan du öppna olika uppgifter att köra på valda ärenden.
+* Sortera ärenden genom att klicka på kolumnrubriker.
+* Klicka på ett ärende för att visa detaljer i förhandsgranskningen till höger.
+* Dubbelklicka på ett ärende för att öppna det.
+* Växla förhandsgranskning genom att klicka på **Visa/Dölj förhandsgranskning** längst ner på skärmen.
+* Utföra åtgärder i bulk genom att klicka på <i class="ph ph-list" aria-hidden="true"></i> **Uppgift**. Här kan du exempelvis massuppdatera, vidarebefordra eller ta bort flera ärenden samtidigt.
 
 > [!TIP]
-> Statusen **Öppen** i kombination med kolumnen **Läst** ger en översikt över om ärendet var **Läst av ägare**, **Ny information** eller **Inte läst av ägare**.
+> Statusen **Öppen** i kombination med kolumnen **Läst** ger en översikt över om ärendet är **Läst av ägare**, **Ny information** eller **Inte läst av ägare**.
 
-I listans sidfot kan du klicka på knappen ![ikon][img1] **Uppgift** för att få åtkomst till följande alternativ:
+## <a id="preview"></a>Förhandsgranskning
 
-* **Exportera till Excel**: Klicka här om du vill exportera listan under **Resultat** till en Excel-fil.
+Denna del av skärmen visar innehållet i det valda ärendet i **Sökresultat**. Här har du samma alternativ som när du [behandlar ärenden][6].
 
-* **Massuppdatering**: Om du väljer en eller flera ärenden i listan kan du klicka på detta alternativ och välja en åtgärd som du vill utföra på alla valda ärenden samtidigt. Du kan t.ex. välja att [lägga till samma meddelande i flera ärenden][8], [vidarebefordra flera ärenden][7] eller ta bort flera ärenden i en enda åtgärd.
+Om förhandsgranskningen inte syns, klicka på **Visa förhandsgranskning** längst ner på skärmen.
 
-### <a id="preview"></a>Förhandsgranskning
-
-På denna del av skärmen visas innehållet i det ärende som är markerat under **Sökresultat**. Du har samma alternativ som när du [behandlar ärenden][6].
-
-Om förhandsgranskningsdelen inte visas, klickar du på **Visa förhandsgranskning** längst ned på skärmen.
-
-## Relaterade ämnen
+## Relaterat innhåll
 
 * [Använda taggar i ärenden][1]
-* [Fönstret Sök][11]
-* [Använda navigatorns sökning][12]
+* [Sökskärmen][11]
+* [Använda navigatorns sökning][19]
 * [Skapa urval][13]
-* [Hämta nästa i kön][5]
+* [Hämta nästa i kön][9]
 
 <!-- Referenced links -->
 [1]: tags.md
-[3]: ../../search-options/learn/freetext-search.md
-[4]: ../../search-options/learn/search-criteria.md
-[5]: next-in-queue.md
-[6]: howto/accept.md
-[7]: howto/forward.md
-[8]: howto/reply.md
-[9]: ../../dashboard/learn/index.md
+[6]: accept.md
+[9]: ../admin/next-in-queue.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
+[12]: ../../search-options/learn/freetext-search.md
 [13]: ../../search-options/selection/learn/create/tutorial.yml
+[14]: ../../search-options/learn/search-criteria.md
+[18]: ../../dashboard/learn/index.md
+[19]: ../../learn/getting-started/main-screen/navigator.md#navigator
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/loc/en/request/find-requests.png
+[img2]: ../../../media/loc/en/request/find-request-criteria.png
+[img3]: ../../../media/loc/en/request/find-request-dropdown.png

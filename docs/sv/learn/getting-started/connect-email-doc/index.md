@@ -3,10 +3,12 @@ uid: help-sv-connect-email-doc-cal
 title: Anslut e-post, dokument och kalender
 description: Lär dig vilka integrationsalternativ du behöver baserat på ditt operativsystem, din e-postklient och de dokumentprogram du använder i den här guiden.
 keywords: e-post, dokoment, kalender, inbjudning
-author: Bergfrid Dias
-date: 07.18.2023
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
-version: 10
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -23,9 +25,9 @@ Genom att ansluta din e-post, dina dokument och din kalender till SuperOffice ka
 
 | | Applikation | Beskrivning | Alternativ |
 |-|---|---|---|
-| ![icon][img4] | **E-post** | Arkivera inkommande och utgående e-post.| [WebTools][4] (endast Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice för Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Dokument** | Arkivera filer från kommunikation med kunder och kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) /[WebTools för Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Kalender** | Skicka och ta emot inbjudningar. | [SuperOffice Inbox][6]<br/> [Synkronisator för SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools för Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **E-post** | Arkivera inkommande och utgående e-post.| [WebTools][4] (endast Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice för Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokument** | Arkivera filer från kommunikation med kunder och kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) /[WebTools för Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Skicka och ta emot inbjudningar. | [SuperOffice Inbox][6]<br/> [Synkronisator för SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools för Mac][5]|
 
 ## Vilken lösning använder ditt företag?
 
@@ -73,6 +75,3 @@ De integrationer du behöver beror på ditt operativsystem, din e-postklient och
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

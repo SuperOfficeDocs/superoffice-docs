@@ -4,19 +4,19 @@ title: SuperOffice Marknadsföring
 description: "Funktionerna för marknadsföring inkluderar utskick och webbformulär och hjälper användare att samla information och kommunicera bättre med potentiella och befintliga kunder. Tillsammans kan de hjälpa dig att generera fler potentiella kunder, sälja mer till befintliga kunder och bygga kundlojalitet."
 keywords: Marknadsföring
 author: SuperOffice RnD
-date: 06.14.2024
+date: 02.25.2025
 version: 10.3.5
 topic: concept
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
-# SuperOffice Marknadsföring
+# SuperOffice Marknadsföring <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marknadsföring är till för att hantera utgående kommunikation och formulär. Utskick kan vara användbara för att informera kunderna om t.ex. uppgraderingar eller produktnyheter. Formulär kan vara användbara för produkt-/nyhetsbrevregistrering, kontaktformulär och datauppdateringar.
 
-Du öppnar SuperOffice Marknadsföring genom att klicka på ikonen **Marknadsföring** ![ikon][img2] i navigatorn.
+Du öppnar SuperOffice Marknadsföring genom att klicka på ikonen **Marknadsföring** (<i class="ph ph-target" aria-hidden="true"></i>) i navigatorn.
 
 I SuperOffice Marknadsföring kan du skapa följande:
 
@@ -24,10 +24,12 @@ I SuperOffice Marknadsföring kan du skapa följande:
 * **Formulär**. [Kom igång med ditt första formulär][1].
 * **Flöden** (automatisering).
 
-Titta på den här videon med en produktgenomgång och få en introduktion till funktionerna i SuperOffice Marknadsföring (videons längd – 2:31):
+Titta på den här videon med en produktgenomgång och få en introduktion till funktionerna i SuperOffice Marknadsföring:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
+
+(videons längd – 2:31)
 
 ## Om utskick
 
@@ -106,8 +108,8 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 |---|---|---|
 | Utskick | Innehåller alla utskick och skapa nya utskick. | [Skapa nytt utskick][5] |
 | Meddelandemallar | Innehåller standardmallarna i SuperOffice Marknadsföring och mallar som du har skapat, förutom ett brett utbud av mallar från online-mallbiblioteket. | [Arbeta med meddelandemallarna][13] |
-| Spårade länkar | Innehåller alla spårade länkar som används i dina utskick. Klicka på ![ikon][img1] knappen **Lägg till** om du vill skapa en ny länk. | [Skapa spårade länkar][14] |
-| Bilder | Innehåller alla tillgängliga bilder i SuperOffice Marknadsföring. Klicka på ![ikon][img1] knappen **Lägg till** om du vill lägga till nya bilder. | [Lägga till bilder][15] |
+| Spårade länkar | Innehåller alla spårade länkar som används i dina utskick. Klicka på knappen **Lägg till** om du vill skapa en ny länk. | [Skapa spårade länkar][14] |
+| Bilder | Innehåller alla tillgängliga bilder i SuperOffice Marknadsföring. Klicka på knappen **Lägg till** om du vill lägga till nya bilder. | [Lägga till bilder][15] |
 | Blockerade e-postadresser | Hantera returnerade e-postmeddelanden och klagomål om skräppost. | [Blockerade e-postadresser][12], [skräppost][16] |
 | Formulär | Innehåller alla formulär och skapa nya formulär. | [Skapa nytt formulär][1] |
 | Formulärmallar | Innehåller alla formulärmallar. | [Arbeta med formulärmallarna][18] |
@@ -139,7 +141,3 @@ SuperOffice Marknadsföring erbjuds som onlineprogram (molnbaserat) och som ett 
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

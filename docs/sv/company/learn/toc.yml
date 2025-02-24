@@ -1,19 +1,16 @@
 items:
 - name: Översikt
   href: index.md
-- name: Arbeta med företag
-  topicHref: create.md
-  items:
-  - name: Skapa nytt företag
-    href: create.md
-  - name: Redigera ett företag
-    href: edit.md
-  - name: Kopiera ett företag
-    href: copy.md
-  - name: Slå ihop företag
-    href: merge-companies.md
-  - name: Ta bort ett företag
-    href: delete.md
+- name: Skapa nytt företag
+  href: create.md
+- name: Redigera företagsinformation
+  href: edit.md
+- name: Kopiera ett företag
+  href: copy.md
+- name: Slå ihop företag
+  href: merge-companies.md
+- name: Ta bort ett företag
+  href: delete.md
 - name: Adressformat för länder
   href: address-formats.md
 - name: ERP-koppling

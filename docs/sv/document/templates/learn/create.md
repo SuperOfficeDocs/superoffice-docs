@@ -4,8 +4,8 @@ title: Skapa ett malldokument
 description: Skapa ett malldokument
 keywords: dokumentmall, dokument, mall
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
-date: 07.31.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 language: sv
 ---
@@ -48,7 +48,7 @@ För att infoga fält i din mall kan du använda en av följande metoder:
 
 1. I **Fältegenskaper**, skriv ditt [fältnamn][3] (utan «»):
 
-    ![Fältegenskaper -screenshot][img2]
+    ![Fältegenskaper i Microsoft Word -screenshot][img2]
 
 1. Klicka på **OK** och fältet kommer att infogas i ditt dokument:
 
@@ -107,6 +107,6 @@ För att visa priset per enhet efter rabatter kan du lägga till ett merge field
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

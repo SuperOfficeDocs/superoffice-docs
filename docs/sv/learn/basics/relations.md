@@ -4,8 +4,8 @@ title: Företags- och kontaktrelationer i SuperOffice CRM
 description: Lär dig hur du visar, lägger till och hanterar relationer mellan företag och kontakter i SuperOffice CRM, för att underlätta uppföljning av komplexa affärsförbindelser och anpassade kopplingar.
 keywords: lägga till relation, ta bort relation, relation, person, kontakt, företag
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

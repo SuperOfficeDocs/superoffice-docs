@@ -4,8 +4,8 @@ title: Ändrar kolumnvisningen
 description: Ändrar kolumnvisningen
 keywords: detaljkort, arkiv, kolumn
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,10 +16,12 @@ language: sv
 
 Du kan anpassa kolumnerna i detaljkorten så att de visar just den information du behöver. Du kan ändra vilka kolumner som visas i översikten, i vilken ordning och med vilken bredd.
 
-Genom att konfigurera kolumner kan du anpassa visad information och arbeta med CRM-data på det sätt du behöver. Lär dig hur du konfigurerar kolumner med den här videon eller följ stegen nedan (videons längd – 1:44):
+Genom att konfigurera kolumner kan du anpassa visad information och arbeta med CRM-data på det sätt du behöver. Lär dig hur du konfigurerar kolumner med den här videon eller följ stegen nedan:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
+
+(videons längd – 1:44)
 
 ## Ändra ordning på kolumnerna
 
@@ -28,7 +30,7 @@ Om du vill ändra ordningen på kolumnerna på ett detaljkort klickar du och dra
 ## Lägga till eller ta bort kolumn
 
 1. Gå till det detaljkort du vill redigera.
-2. Klicka på ![ikonen][img1] till höger om kolumnrubrikerna. En dialogruta visas.
+2. Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna. En dialogruta visas.
 3. Markera eller avmarkera relevanta kolumner. Använd fälten **Filterkolumner** för att filtrera de kolumner som visas.
 4. Klicka på **OK**.
 
@@ -71,11 +73,11 @@ Du kan utföra beräkningar som summa, genomsnitt eller min/max på datum- och t
 Du kan ställa in att kolumnernas bredd ska anpassas automatiskt efter innehållet i kolumnerna. När kolumner läggs till eller tas bort anpassas alla kolumnbredder optimalt varje gång. Om kolumnerna är för många för att passa i det tillgängliga utrymmet visas en horisontell rullist.
 
 1. Gå till det detaljkort du vill redigera.
-2. Klicka på ![ikonen][img1] till höger om kolumnrubrikerna. En dialogruta visas.
+2. Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna. En dialogruta visas.
 3. Väl **Anpassa kolumnbredd automatiskt**.
 4. Klicka på **OK**.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Lista över grupper][3]
 * [Filtrera detaljkorten][1]
@@ -87,7 +89,6 @@ Du kan ställa in att kolumnernas bredd ska anpassas automatiskt efter innehåll
 [3]: group.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

@@ -2,9 +2,9 @@
 uid: help-sv-customer-center-edit
 title: Kundcenter – källfiler
 description: Kundcenter – källfiler
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: Kundcenter, CEP
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -15,7 +15,7 @@ Du kan uppdatera standardsidorna i ditt kundcenter genom att redigera källfiler
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Välj ![ikon][img1] **Systeminställningar** > **Kundcenter – källfiler**.
+1. Välj <i class="ph ph-list" aria-label="Main menu"></i> **Systeminställningar** > **Kundcenter – källfiler**.
 
 2. Klicka på en webbplats i listan.
 
@@ -29,8 +29,3 @@ Du kan uppdatera standardsidorna i ditt kundcenter genom att redigera källfiler
 5. Klicka på **Verkställ** om du vill spara ändringarna utan att stänga fönstret, eller klicka på **OK** om du vill spara ändringarna och avsluta.
 
 Om du senare vill återställa det ursprungliga innehållet på en sida kan du öppna sidan och klicka på **Återställ standard**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

@@ -18,7 +18,7 @@ Titta på den här videon och lär dig hur du lägger till och redigerar syften 
 
 ## Steg
 
-1. Gå till Inställningar och underhåll och klicka på knappen **Integritet** i navigatorn (![ikon][img2]).
+1. Gå till Inställningar och underhåll och klicka på knappen **Integritet** i navigatorn (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Klicka på **Lägg till** under listan över syften.
 
@@ -45,7 +45,7 @@ Titta på den här videon och lär dig hur du lägger till och redigerar syften 
         * Bekräftelse på att uppgifterna inte kommer att delas med andra parter och lagras på ett säkert sätt
         * Information om hur de när som helst kan ändra eller återkalla sitt samtycke
 
-4. Klicka på ![ikon][img1] bredvid ett fält för att lägga till nya eller redigera befintliga [översättningar][1] av fälttexterna.
+4. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> bredvid ett fält för att lägga till nya eller redigera befintliga [översättningar][1] av fälttexterna.
 
 5. Klicka på **Spara** när du är klar.
 
@@ -60,5 +60,3 @@ Titta på den här videon och lär dig hur du lägger till och redigerar syften 
 [3]: ../index.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

@@ -2,10 +2,14 @@
 uid: help-sv-document-send
 title: Skicka ett dokument som e-post
 description: Det går snabbt och enkelt att skicka dokument som lagras i SuperOffice CRM som bilagor i e-postmeddelanden.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: dokument, e-post, bilaga
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -15,13 +19,13 @@ language: sv
 
 ## Steg
 
-1. Gå till dialogrutan **Nytt e-postmeddelande** på något av följande sätt:
+1. Gå till dialogrutan **Nytt e-postmeddelande** på ett av följande sätt:
     * Från detaljkortet Aktiviteter:
         1. Markera ett eller flera dokumentet på detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Kalender, Försäljning eller Projekt.
         2. Högerklicka och välj **Skicka som e-post**.
     * Från dialogrutan Dokument
         1. Öppna dokumentet i **redigeringsläge**.
-        2. Klicka på **Uppgift**-knappen.
+        2. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Välj **Skicka som e-post**.
 
         > [!NOTE]

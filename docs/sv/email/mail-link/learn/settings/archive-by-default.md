@@ -11,11 +11,11 @@ language: sv
 
 # Aktivera/inaktivera standardarkivering
 
-Om du vill [arkivera][1] alla e-postmeddelanden som du skickar från din e-postklient i SuperOffice CRM aktiverar du funktionen arkivera som standard genom att välja bland alternativen under **Arkivera e-post som standard när:** i **dialogrutan ****Alternativ för SuperOffice CRM**. Alla e-postmeddelanden du skickar arkiveras då som standard till SuperOffice CRM.
+Om du vill [arkivera][1] alla e-postmeddelanden som du skickar från din e-postklient i SuperOffice CRM aktiverar du funktionen arkivera som standard genom att välja bland alternativen under **Arkivera e-post som standard när:** i dialogrutan **Alternativ för SuperOffice CRM**. Alla e-postmeddelanden du skickar arkiveras då som standard till SuperOffice CRM.
 
 Klicka på knappen **Arkivering är på/av** i det nya e-postfönstret för att aktivera/inaktivera standardarkivering för e-postmeddelanden som skapas i din e-postklient.
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Arkivera e-postmeddelanden][3]
 

@@ -2,9 +2,9 @@
 uid: help-sv-dashboard
 title: Dashboards
 description: Konfigurera SuperOffice Dashboard och använd fördefinierade figurer. Dashboards är perfekta för alla användare och chefer. Du får en översikt över ditt arbete eller teamets resultat.
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: dashboard
+author: SuperOffice RnD
+date: 02.25.2025
 topic: concept
 language: sv
 ---
@@ -84,10 +84,10 @@ Om du inte hittar den figur du behöver bland de fördefinierade figurerna i Sup
 
 | Ikon/knapp | Beskrivning |
 |---|---|
-| ![ikon][img1] | Dashboarden har nålats fast av en administratör och distribueras förmodligen till flera användare. |
-| ![ikon][img2] | Klicka på ikonen längst upp till höger för att välja en dashboard som favorit. |
-| ![ikon][img3] | Klicka på knappen **Uppdatera** om du vill uppdatera data i alla figurer. |
-| **Uppgift** | Klicka för att komma åt olika funktioner. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashboarden har nålats fast av en administratör och distribueras förmodligen till flera användare. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Klicka på ikonen längst upp till höger för att välja en dashboard som favorit. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klicka på knappen **Uppdatera** om du vill uppdatera data i alla figurer. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klicka för att komma åt olika funktioner. |
 
 **Funktioner under knappen Uppgift:**
 
@@ -106,7 +106,4 @@ Om du inte hittar den figur du behöver bland de fördefinierade figurerna i Sup
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

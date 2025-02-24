@@ -4,12 +4,12 @@ title: Guide - formulär för anmälning till nyhetsbrev
 description: Denna guide kommer att förklara hur du kan skapa ett formulär för anmälning till nyhetsbrev
 keywords: formulär, nyhetsbrevsprenumeration, anmälning, dubbel anmälan, nyhetsbrev, prenumeration
 author: Bergfrid Dias
-date: 03.15.2024
+date: 02.25.2025
 version: 10
 topic: tutorial
-language: sv
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Guide - formulär för anmälning till nyhetsbrev
@@ -42,7 +42,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 
 1. Välj fältet **Kontakt - Namn** och klicka på den röda X:et för att ta bort detta fält.
 
-1. Klicka på knappen **Lägg till** ![ikon][img1], och lägg till följande fält:
+1. Klicka på <i class="ph ph-plus" aria-label="Add"></i>, och lägg till följande fält:
 
     * För- och efternamn
 
@@ -107,9 +107,9 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
     SuperShop-teamet
     </details>
 
-1. Klicka på **Lägg in bekräftelselänk** ![ikon][img3]. Bekräftelselänken infogas i brödtexten.
+1. Klicka på **Lägg in bekräftelselänk** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>). Bekräftelselänken infogas i brödtexten.
 
-1. Klicka på länken, välj **Redigera länk** ![ikon][img5] och ändra länktexten till "Klicka här för att bekräfta din e-postadress". Länken är giltig i 30 minuter som standard.
+1. Klicka på länken, välj **Redigera länk** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) och ändra länktexten till "Klicka här för att bekräfta din e-postadress". Länken är giltig i 30 minuter som standard.
 
 1. Klicka på **Använd nu** för att spara formuläret och fortsätta redigera.
 
@@ -165,9 +165,6 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

@@ -2,9 +2,9 @@
 uid: help-sv-chat-create-quick-reply
 title: Skapa ett snabbsvar
 description: Skapa ett snabbsvar
+keywords: chatt
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: CRM
+date: 02.25.2025
 topic: howto
 language: sv
 ---
@@ -15,8 +15,8 @@ Ett snabbsvar är en fördefinierad text som du kan använda i en chatt med en k
 
 **Steg:**
 
-1. Klicka på ![ikon][img1] i den nedre delen av chattpanelen i en pågående chatt.
-2. Klicka på ![ikon][img2] **Redigera**.
+1. Klicka på <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> i den nedre delen av chattpanelen i en pågående chatt.
+2. Klicka på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 3. Klicka på **Lägg till** i fönstret **Snabbsvar**. Ett nytt svar läggs till i listan.
 4. Klicka på fältet **Ny rubrik** och ange en ny rubrik för snabbsvaret. Detta kommer inte vara synligt för kunden.
 5. Klicka på fältet **Nytt innehåll** och skriv in texten som du vill skicka till kunderna.
@@ -24,7 +24,3 @@ Ett snabbsvar är en fördefinierad text som du kan använda i en chatt med en k
 
 <!-- Referenced links -->
 [1]: send-faq-or-reply-template.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/chat-h32.png
-[img2]: ../../../../common/icons/edit-black.png

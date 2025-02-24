@@ -2,9 +2,9 @@
 uid: help-sv-faq-search-for
 title: Söka efter FAQ-poster
 description: Söka efter FAQ-poster
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: FAQ
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -15,7 +15,7 @@ language: sv
 
 Om det finns många FAQ-poster i en mapp kan det vara svårt att hitta en viss post. Då kan det vara praktiskt att söka efter den.
 
-1. Gå till ![ikon][img1] **Huvudmeny** i det övre fältet och välj **Kunskapsbas** > **FAQ**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **FAQ**.
 2. Klicka på knappen **Sök**. Du kommer då till skärmen **Kriterier**.
 3. Ange texten du vill söka efter och eventuellt andra kriterier.
 4. Klicka på **Sök**.
@@ -26,6 +26,3 @@ Om det finns många FAQ-poster i en mapp kan det vara svårt att hitta en viss p
 
 <!-- Referenced links -->
 [2]: manage-folders.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

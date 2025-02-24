@@ -59,7 +59,7 @@ Den här filmen beskriver hur du kan redigera dina försäljningslistor så att 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
-## Relaterade ämnen
+## Relaterat innehåll
 
 * [Poster][2]
 * [Organisera listor][3]
