@@ -5,7 +5,40 @@ items:
   href: screen/index.md
 - name: Hantera ärenden med AI
   href: handle-request-ai.md
-- name: Arbeta med ärenden
-  href: howto/toc.yml
-  topicHref: find.md
-  
+- name: Söka ärende
+  href: find.md
+- name: Skapa ärende
+  href: create.md
+- name: Redigera meddelande
+  href: edit-message.md
+- name: Automatisk tilldelning
+  href: assign.md
+- name: Ta över ansvaret för ärende
+  href: accept.md
+- name: Be en annan ärendehandläggare om hjälp
+  href: transfer.md
+- name: Vidarebefordra till extern kontakt
+  href: forward.md
+- name: Svara kund
+  href: reply.md
+- name: Lägga till FAQ-poster i meddelanden
+  href: ../../faq/learn/add-to-request.md
+- name: Taggar
+  href: tags.md
+- name: Hålla koll på meddelanden
+  href: flag-message.md
+- name: Dela ett ärende
+  href: split-request.md
+- name: Slå ihop ärenden
+  href: merge.md
+- name: Dela meddelande
+  href: split-message.md
+- name: Avsluta ärende
+  href: close.md
+- name: Ta bort ärende
+  href: delete.md
+- name: Ärendelogg
+  href: screen/ticket-log.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

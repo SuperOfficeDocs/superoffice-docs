@@ -4,8 +4,8 @@ title: Arbeta med externa dokument
 description: Arbeta med externa dokument
 keywords: ärende, dokument
 author: Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -20,20 +20,20 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 
 ## Visa dokument
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till önskad mapp.
 
 1. Gör något av följande:
     * Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**. Här kan du också visa och redigera innehållet i vissa dokumenttyper, t.ex. html, txt och det interna ejr-formatet.
-    * Klicka på ![ikon][img1] **Hämta** för att ladda ned dokument som inte kan visas i webbläsaren, som PDF- och Microsoft Office-filer. En ikon i dokumentlistan anger typen av dokument.
+    * Klicka på <i class="ph ph-download-simple" aria-label="Hämta"></i> för att ladda ned dokument som inte kan visas i webbläsaren, som PDF- och Microsoft Office-filer. En ikon i dokumentlistan anger typen av dokument.
 
 ## Lägg till dokument
 
 > [!NOTE]
 > Du måste skapa det faktiska fysiska dokumentet innan du kan lägga till det i SuperOffice. När du till exempel skapar en prislista kan du t.ex. skriva innehållet i Microsoft Word eller Excel.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till mappen som du vill lägga in dokumentet i. Om den inte finns än, kan du skapa en ny mapp enligt beskrivningen nedan.
 
@@ -41,7 +41,7 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 
 1. Ange ett beskrivande namn på dokumentet i fältet **Namn**.
 
-1. I fältet **I mapp** visas automatiskt namnet på den mapp som du har valt. Om du ändrar dig kan du klicka på listknappen ![ikon][img2] och välja en annan mapp i den lista som visas.
+1. I fältet **I mapp** visas automatiskt namnet på den mapp som du har valt. Om du ändrar dig kan du klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja en annan mapp i den lista som visas.
 
 1. I fältet **Åtkomst** väljer du vem som ska ha behörighet att läsa och redigera dokumentet.
 
@@ -62,9 +62,9 @@ Detta gäller t.ex. när du använder fliken **Meddelande** när du [svarar på 
 
 Vissa dokumenttyper, t.ex. html, txt och det interna ejr-formatet, kan redigeras direkt på skärmen **Egenskaper för dokument**. För andra typer, som PDF, behöver du det program som dokumentet ursprungligen skapades i.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
-1. Klicka på ![ikon][img1] **Hämta** för att ladda ner ett dokument.
+1. Klicka på <i class="ph ph-download-simple" aria-label="Hämta"></i> för att ladda ner ett dokument.
 1. Redigera och spara dokumentet i det program som dokumentet ursprungligen skapades i.
 1. Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**.
 1. Klicka på knappen **Bläddra** bredvid fältet **Fil** och välj det dokument som du skapade i den dialogruta som visas.
@@ -74,7 +74,7 @@ Vissa dokumenttyper, t.ex. html, txt och det interna ejr-formatet, kan redigeras
 
 Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtkomst till dokumentet.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
 1. Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**.
 1. Gör de ändringar som behövs (se ovan).
@@ -85,7 +85,7 @@ Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtk
 
 ## Ta bort dokument
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till den mapp som dokumentet ligger i.
 1. Klicka på dokumentets namn för att komma till skärmen **Egenskaper för dokument**.
 1. Klicka på knappen **Ta bort** längst ned på skärmen.
@@ -95,7 +95,7 @@ Genom att redigera dokumentegenskaperna kan du t.ex. justera vem som ska ha åtk
 
 Du kan skapa en mappstruktur för dokument så att de får en logisk struktur och det blir enkelt för andra att hitta information. Du kan skapa undermappar i alla mappar och placera dokumenten i dessa.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 
 1. Gå till den mapp under vilken du vill skapa en undermapp. Du kan skapa undermappen direkt under mappen **Dokument** eller under någon av dess undermappar.
 
@@ -103,7 +103,7 @@ Du kan skapa en mappstruktur för dokument så att de får en logisk struktur oc
 
 1. Ange ett beskrivande namn på mappen i fältet **Namn**.
 
-1. I fältet **I mapp** visas automatiskt namnet på den överordnade mapp som du har valt. Om du ändrar dig kan du klicka på listknappen ![ikon][img2] och välja en annan mapp i den lista som visas.
+1. I fältet **I mapp** visas automatiskt namnet på den överordnade mapp som du har valt. Om du ändrar dig kan du klicka på <i class="ph ph-caret-down" aria-label="Chevron"></i> och välja en annan mapp i den lista som visas.
 
 1. I listrutan **Åtkomst** väljer du vem som ska ha behörighet att läsa och ändra det aktuella dokumentet.
 
@@ -113,17 +113,12 @@ Du kan skapa en mappstruktur för dokument så att de får en logisk struktur oc
 
 När du tar bort en mapp raderas även alla dokument i mappen från SuperOffice.
 
-1. Gå till ![ikon][img3] **Huvudmenyn** i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
+1. Gå till <i class="ph ph-list" aria-label="Main menu"></i> i det övre fältet och välj **Kunskapsbas** > **Externa dokument**.
 1. Gå till önskad mapp.
 1. Klicka på **Redigera mapp**. Du kommer då till skärmen **Egenskaper för dokumentmapp**.
 1. Klicka på **Ta bort**.
 1. Bekräfta genom att klicka på **OK**. Mappen och dess innehåll tas bort från SuperOffice.
 
 <!-- Referenced links -->
-[1]: howto/reply.md
+[1]: reply.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
-[img2]: ../../../../common/icons/dropdown-arrow.png
-[img3]: ../../../media/icons/main-menu.png

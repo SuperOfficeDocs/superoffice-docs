@@ -2,9 +2,9 @@
 uid: help-sv-request-ai
 title: Effektiv hantering av ärenden med AI
 description: Introduktionen av artificiell intelligens (AI) i SuperOffice 10 ger ärendehandläggare/supportagenter tillgång till en ny uppsättning smarta verktyg för att göra deras arbetsdag effektivare.
+keywords: ärende, ai, effektiv
 author: Kirsti Aakerholt
 date: 04.19.2023
-keywords: ärende, ai, effektiv
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -30,9 +30,9 @@ Om du får ett meddelande på ett språk du inte kan läsa, kan du klicka på **
 
 Är kontakten glad eller arg?
 
-* Negativ ![ikon][img2]
-* Neutral ![ikon][img3]
-* Positiv ![ikon][img4]
+* Negativ <i class="ph ph-smiley-sad" aria-hidden="true"></i>
+* Neutral <i class="ph ph-smiley-meh" aria-hidden="true"></i>
+* Positiv <i class="ph ph-smiley" aria-hidden="true"></i>
 
 Om den här funktionen är aktiverad, analyseras inkommande e-postförfrågningar för att avgöra kontaktens "sinnesstämning". En emoticon under meddelandet visar det sentiment som har identifierats (glad, ledsen eller neutral).
 
@@ -50,8 +50,3 @@ Spara tid genom att låta systemet kategorisera ärenden åt dig. Om den här fu
 [1]: ../../ai/learn/index.md
 [2]: ../../ai/learn/text-analysis.md
 [3]: ../../ai/learn/categorization.md
-
-<!-- Referenced images -->
-[img2]: ../../../../common/icons/sentiment-negative.png
-[img3]: ../../../../common/icons/sentiment-neutral.png
-[img4]: ../../../../common/icons/sentiment-positive.png

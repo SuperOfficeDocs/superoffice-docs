@@ -1,7 +1,7 @@
 items:
 - name: Översikt
   href: index.md
-  - name: Skapa försäljning
+- name: Skapa försäljning
   href: create.md
 - name: Redigera eller ta bort försäljning
   href: update.md
