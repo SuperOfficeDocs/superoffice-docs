@@ -10,7 +10,6 @@ topic: howto
 client: web
 envir: online, onsite
 pilot: yes
-redirect_url: https://docs.superoffice.com/en/ui/soprotocol/howto/custom-object.html
 ---
 
 # How to work with custom objects using SoProtocol
