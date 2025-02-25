@@ -2,11 +2,12 @@
 title: Partner settings
 uid: dp-partner-settings
 description: Reference of partner settings in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 04.26.2023
 keywords: apps, Developer Portal, partner
+author: Bergfrid Dias
+date: 01.30.2025
+version: 1.30
+version_devportal: 1.30
 topic: reference
-version_devportal: 1.10
 envir: cloud
 ---
 
@@ -20,6 +21,7 @@ envir: cloud
 | SEO-friendly name | For search engines. | [Update settings][9] | [Improve SEO][10] |
 | Administrative contact | The main contact person for this company.| [Update contact person][3] | |
 | Technical contact | The IT contact person for this company. | [Update contact person][3] | [About notifications][11] |
+| Uninstall reporting emails | Where SuperOffice sends requests to uninstall an app. If left blank, these emails go to the Error reporting emails list (or the app's technical contact). | [Get error emails][12] | |
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
 | Description | The company blurb. | [Update partner profile][6]| [Marketing requirements][5] |
 | Meta description | Description for search engines. | [Update settings][9] | [Improve SEO][10] |
@@ -38,6 +40,7 @@ As a partner, you may change the contact persons. Other settings may only be cha
 [2]: ../create-app/config/app-config.md
 [3]: ../faq/update-contact-person.md
 [11]: ../best-practices/tenant-status/index.md#notify
+[12]: ../best-practices/error-emails.md
 [5]: ../standard-app/requirements/marketing.md
 [1]: ../standard-app/app-store/app-settings.md
 [6]: ../standard-app/app-store/update-partner-profile.md

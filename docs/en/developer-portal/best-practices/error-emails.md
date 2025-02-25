@@ -4,8 +4,9 @@ title: Error reporting emails
 description: How to subscribe to error emails in the SuperOffice Developer Portal.
 keywords: Developer Portal, app, notification, error, tenant status
 author: Bergfrid Dias
-date: 08.21.2024
-version_devportal: 1.25
+date: 01.30.2025
+version: 1.30
+version_devportal: 1.30
 topic: howto
 envir: cloud
 client:
@@ -13,7 +14,7 @@ client:
 
 # Error reporting emails
 
-SuperOffice will also send you emails when there is a problem with your application. By default, these emails go to the technical contact of the application. However, you can also specify a list of addresses for error reporting.
+SuperOffice will also send you emails when there is a problem with your application or someone wish to uninstall it. By default, these emails go to the technical contact of the application. However, you can also specify a list of addresses for error reporting and uninstall.
 
 Watch the walk-through on YouTube:
 
@@ -34,16 +35,30 @@ To receive error emails at different or more than one email addresses, update th
 
 1. On the app page, select **Settings** from the left menu or click the **Edit** button.
 
-2. Scroll to the bottom and enter one or more addresses in the **Error reporting emails** field.
+1. Scroll to **Error reporting emails**.
 
-    ![Application settings, error reporting emails -screenshot][img3]
+1. Enter one or more email addresses, then press Enter after each one to add them to the list.
 
-    The addresses must be separated with a semicolon ( ; ), no spaces.
+1. Click **Save Settings**.
 
-3. Click **Save Settings**.
+![Application settings, error reporting emails -screenshot][img3]
 
 > [!NOTE]
 > You can update the email addresses in the application settings at any time. Technical contact will receive any notification mail if this field is blank.
+
+## Uninstall reporting emails
+
+To receive notifications when an app uninstall request is submitted, update the **Uninstall reporting emails** field in the application settings.
+
+1. On the app page, select **Settings** from the left menu or click the **Edit** button.
+2. Scroll to **Uninstall reporting emails**.
+3. Enter one or more email addresses, then press **Enter** after each one to add them to the list.
+4. Click **Save Settings**.
+
+> [!NOTE]
+> If this field is blank, uninstall notifications will be sent to the **Error reporting emails** list.
+>
+> If both fields are blank, uninstall notifications will be sent to the **Technical contact**.
 
 ## Other errors
 
