@@ -2,13 +2,13 @@
 title: User settings
 uid: dp-user-settings
 description: Reference of user settings in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 05.23.2022
 keywords: apps, Developer Portal, user
+author: Bergfrid Dias
+date: 01.30.2025
+version: 1.30
+version_devportal: 1.30
 topic: reference
-version:
 envir: cloud
-client:
 ---
 
 # User settings
@@ -17,7 +17,7 @@ client:
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
-| Avatar | Small circular image. Will show picture from [Gravatar.com][8]| | |
+| Avatar | Small circular image. A custom profile image if set; otherwise, the system uses a picture from [Gravatar.com][8]. | [Update profile picture][7] | |
 | Display name | First and last name of the person. | | |
 | Email | The email address of the person, if set. | | |
 | Is log-in allowed | Whether this person can sign in to the Developer Portal. | [Manage permissions][6] | |
