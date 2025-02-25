@@ -47,6 +47,9 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
+* 10.5.3 (04.03.2025):
+  * [Dashboard - Export to Excel from tile drill down (10.5.3)][20]
+
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
   * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
@@ -127,5 +130,6 @@ We use **pilot programs** to assess how well the features and functions meet our
 [17]: admin/10.5.2-update.md#split-request
 [18]: admin/10.5.2-update.md#close-request
 [19]: core-crm/10.5.2-update.md
+[20]: core-crm/10.5.3-update.md
 
 <!-- Referenced images -->
