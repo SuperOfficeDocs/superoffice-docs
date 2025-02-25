@@ -56,9 +56,9 @@ To receive notifications when an app uninstall request is submitted, update the 
 4. Click **Save Settings**.
 
 > [!NOTE]
-> If this field is blank, uninstall notifications will be sent to the **Error reporting emails** list.
+> If app's list is blank, uninstall notifications will be sent to the partner's **Uninstall reporting emails** list.
 >
-> If both fields are blank, uninstall notifications will be sent to the **Technical contact**.
+> If both lists are blank, uninstall notifications will be sent to the partner's **administrative contact**.
 
 ## Other errors
 

@@ -21,7 +21,7 @@ envir: cloud
 | SEO-friendly name | For search engines. | [Update partner profile][2], [Update the product page][3] | [Improve SEO][1] |
 | Technical contact | The contact person for this app. | [Update contact person][21], [Review and update all your technical contacts][22] | |
 | Error reporting emails | Semicolon-separated list of email addresses that should receive error emails. If empty, technical contact will get these. | [Set state change URL][26], [Get error emails][28] | [About tenant status][27] |
-| Uninstall reporting emails | Where SuperOffice sends requests to uninstall an app. If left blank, these emails go to the Error reporting emails list (or the app's technical contact). | [Update app info][3], [Get error emails][28] | |
+| Uninstall reporting emails | Where SuperOffice sends requests to uninstall an app. If left blank, these emails go to the *partner's* Uninstall reporting emails list. | [Update app info][3], [Get error emails][28] | |
 | Hidden from Our Apps | If checked, this app will not show up when customers go to the App Store and see their installed apps. | | |
 | Is custom app | Whether this is a one-off customization or if we should provide the option to publish to the app store as a standard app. | [Create app][13] | [About custom apps][16] |
 | Is beta | Whether the app is currently in beta in the App Store. | [Publish app][10] | [About the beta period][9] |

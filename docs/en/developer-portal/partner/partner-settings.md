@@ -21,7 +21,7 @@ envir: cloud
 | SEO-friendly name | For search engines. | [Update settings][9] | [Improve SEO][10] |
 | Administrative contact | The main contact person for this company.| [Update contact person][3] | |
 | Technical contact | The IT contact person for this company. | [Update contact person][3] | [About notifications][11] |
-| Uninstall reporting emails | Where SuperOffice sends requests to uninstall an app. If left blank, these emails go to the Error reporting emails list (or the app's technical contact). | [Get error emails][12] | |
+| Uninstall reporting emails | Where SuperOffice sends requests to uninstall an app. If left blank, these emails go to the partner's administrative contact. | [Get error emails][12] | |
 | Logo | Company logo, circular | [Update settings][9] | [Marketing requirements][5] |
 | Description | The company blurb. | [Update partner profile][6]| [Marketing requirements][5] |
 | Meta description | Description for search engines. | [Update settings][9] | [Improve SEO][10] |
