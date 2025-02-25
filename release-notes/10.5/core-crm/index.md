@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
+* [Dashboard - Export to Excel from tile drill down (10.5.3)][3]
 * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][2]
 * [Top bar - New button (10.5.1)][1]
 * [Top bar - Freetext search (10.5.1)][1]
@@ -26,3 +27,4 @@ audience_tooltip: SuperOffice CRM
 <!-- Referenced links-->
 [1]: 10.5.1-update.md
 [2]: 10.5.2-update.md
+[3]: 10.5.3-update.md
