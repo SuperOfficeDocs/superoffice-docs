@@ -4,8 +4,9 @@ title: Update app-specific page
 description: How to update your app-specific page in the SuperOffice Developer Portal.
 keywords: Developer Portal, App Store listing
 author: Bergfrid Dias
-date: 10.16.2024
-version_devportal: 1.27
+date: 01.30.2025
+version: 1.30
+version_devportal: 1.30
 topic: howto
 envir: cloud
 ---
@@ -30,11 +31,14 @@ The information shown on your app-specific product pages in the App Store comes 
 
     [!include[User sources](../../partner/includes/note-users-collection.md)]
 
-1. To receive error emails at different or additional email addresses, scroll to the bottom and enter one or more addresses in the **Error reporting emails** field.
+1. To receive error emails at different or additional email addresses, scroll to the bottom and add one or more addresses in the **Error reporting emails** field. Press Enter after each address to add it to the list.
 
     ![Application settings, error reporting emails -screenshot][img5]
 
-    The addresses must be separated with a semicolon ( ; ), no spaces.
+1. To receive requests to uninstall an application at different or additional email addresses, update the **Uninstall reporting emails** field.
+
+    > [!TIP]
+    > The uninstall reporting emails can also be updated in the partner settings.
 
 1. Click **Save Settings**.
 
