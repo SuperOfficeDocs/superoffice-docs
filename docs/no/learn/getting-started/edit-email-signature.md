@@ -4,8 +4,8 @@ title: Redigere signaturer
 description: Hvordan redigere e-postsignaturer og signaturer i saker
 keywords: E-postsignatur, Signatur i sak, signatur
 author: Bergfrid Dias
-date: 01.29.2025
-version: 10.5
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ Standardsignaturmalene inneholder variabler som blir erstattet med data fra Supe
 * **Signatur i sak:** Malen inneholder variabler for ditt navn, firma, e-postadresse osv., spesifikke for [svarmaler][2].
 
 > [!NOTE]
-> Du kan ikke kombinere disse to settene med variabler.
+> Du kan ikke kombinere disse to settene med variabler. I tillegg kan ikke personlige signaturer overstyres av administratorer.
 
 ## Trinn
 

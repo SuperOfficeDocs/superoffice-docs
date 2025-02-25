@@ -21,7 +21,7 @@ Standardmallarna innehåller mallvariabler som ersätts med data från SuperOffi
 * **Ärendesignatur:** Mallen innehåller variabler för ditt namn, företag, e-postadress och så vidare specifikt för [svarsmallar][2].
 
 > [!NOTE]
-> Du kan inte blanda dessa två uppsättningar mallvariabler.
+> Du kan inte blanda dessa två uppsättningar mallvariabler. Dessutom kan personliga signaturer inte åsidosättas av administratörer.
 
 ## Steg
 

@@ -4,8 +4,8 @@ title: Edit signatures
 description: How to edit email signature and request signature
 keywords: Email signature, Request signature, email, signature
 author: Bergfrid Dias
-date: 07.11.2024
-version: 10.2.8
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -21,7 +21,7 @@ The default templates contain template variables that are replaced with data fro
 * **Request signature:** The template contains variables for your name, company, email address, and so on specific to [reply templates][2].
 
 > [!NOTE]
-> You cannot mix these two sets of template variables.
+> You cannot mix these two sets of template variables. Additionally, personal signatures cannot be overridden by admins.
 
 ## Steps
 

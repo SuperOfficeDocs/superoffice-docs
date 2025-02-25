@@ -4,8 +4,8 @@ title: Rediger signaturer
 description: Rediger e-mail-signatur eller Anmodningssignatur
 keywords: e-mail, signatur, Anmodningssignatur
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.2.8
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 language: da
 audience: person
@@ -21,7 +21,7 @@ Standardskabelonerne indeholder skabelonvariabler, der erstattes med data fra Su
 * **Anmodningssignatur:** Skabelonen indeholder variabler for dit navn, firma, e-mailadresse osv. specifikt til [svarskabeloner][2].
 
 > [!NOTE]
-> Du kan ikke blande disse to sæt skabelonvariabler.
+> Du kan ikke blande disse to sæt skabelonvariabler. Derudover kan personlige signaturer ikke tilsidesættes af administratorer.
 
 ## Trin
 

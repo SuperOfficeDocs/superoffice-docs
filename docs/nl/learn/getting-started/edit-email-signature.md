@@ -4,8 +4,8 @@ title: Handtekening bewerken
 description: E-mail-handtekening of Verzoekhandtekening bewerken
 keywords: e-mail, handtekening
 author: Bergfrid Dias
-date: 06.11.2024
-version: 10.2.8
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 language: nl
 audience: person
@@ -21,7 +21,7 @@ De standaard sjablonen bevatten sjabloonvariabelen die worden vervangen door geg
 * **Handtekening Verzoek:** Het sjabloon bevat variabelen voor uw naam, bedrijf, e-mailadres, enzovoort, specifiek voor [antwoordsjablonen][2].
 
 > [!NOTE]
-> U kunt deze twee sets sjabloonvariabelen niet combineren.
+> U kunt deze twee sets sjabloonvariabelen niet combineren. Daarnaast kunnen persoonlijke handtekeningen niet worden overschreven door beheerders.
 
 ## Stappen
 
