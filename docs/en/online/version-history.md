@@ -155,6 +155,7 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 10.3.13 - (2024.12.07-01) | 10.12.2024 |
 | 10.5.0 - (pre-release) | 16.12.2024 | 
 | 10.5.1 - (2025.01.17-02) | 21.01.2025 |
+| 10.5.2 - (2025.02.10-01) | 11.02.2025 |
 
 <!-- Referenced links -->
 [1]: ../onsite/version-history.md
