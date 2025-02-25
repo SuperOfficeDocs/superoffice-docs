@@ -4,9 +4,9 @@ uid: dp-user-settings
 description: Reference of user settings in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal, user
 author: Bergfrid Dias
-date: 01.30.2025
-version: 1.30
-version_devportal: 1.30
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: reference
 envir: cloud
 ---
