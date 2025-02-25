@@ -4,7 +4,7 @@ title: Signaturen bearbeiten
 description: So bearbeiten Sie E-Mail-Signaturen und Anfrage-Signaturen
 keywords: Signatur bearbeiten, E-Mail-Signatur, Anfrage-Signatur, Persönliche Signatur, Signatur
 author: Bergfrid Dias
-date: 02.11.2025
+date: 02.25.2025
 version: 10.5.2
 topic: howto
 audience: person
@@ -21,7 +21,7 @@ Die standardmäßigen Vorlagen enthalten Vorlagenvariablen, die mit Daten aus Su
 * **Anfrage-Signatur:** Die Vorlage enthält Variablen für Ihren Namen, Ihre Firma, Ihre E-Mail-Adresse usw., die spezifisch für [Antwortvorlagen][2] sind.
 
 > [!NOTE]
-> Sie können diese beiden Sätze von Vorlagenvariablen nicht kombinieren.
+> Sie können diese beiden Sätze von Vorlagenvariablen nicht kombinieren. Zusätzlich können persönliche Signaturen nicht von Administratoren überschrieben werden.
 
 ## Schritte
 
