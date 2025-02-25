@@ -2,9 +2,9 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: new UI, diary, Copilot, AI, CRMScript, close Request tab, trigger split request
+keywords: Service, Requests, add, requests tab, section tabs
 author: SuperOffice AS – Product and Engineering
-date: 02.11.2025
+date: 03.11.2025
 version: 10.5
 topic: reference
 ---
@@ -47,9 +47,9 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
-* 10.5.3 (04.03.2025):
+* 10.5.3 (11.03.2025):
   * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
-  * [Requests - Add button from the footer of request section tabs (10.5.3)][21] in Service
+  * [Requests - Add button from the footer of requests section tabs (10.5.3)][21] in Service
 
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
