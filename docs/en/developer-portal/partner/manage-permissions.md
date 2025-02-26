@@ -2,11 +2,12 @@
 title: Manage permissions
 uid: dp-manage-permissions
 description: How to manage permissions for users in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 05.23.2022
 keywords: Developer Portal, user, access, permission
+author: Bergfrid Dias
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
-version:
 envir: cloud
 client: online
 ---
