@@ -2,10 +2,12 @@
 uid: help-da-application
 title: Program
 description: Program
+keywords: listen GUI – Applikation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 02.28.2025
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -18,14 +20,14 @@ Du definerer, hvilke URL-adresser der skal være tilgængelige for brugerne, på
 > [!NOTE]
 > Filer eller programmer, som skal køres lokalt (for eksempel en .exe-fil), er ikke tilgængelige i SuperOffice CRM for Web.
 
-Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne til venstre for listen (![icon][img1] ![icon][img2] ).
+Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne til venstre for listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 Når du har tilføjet forekomster, kan du angive detaljer for hver enkelt forekomst. Du kan angive:
 
 * Hvilke [brugergrupper forekomsten er synlig for][2].
 * Hvilken [overskrift][1] den vil blive vist under.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster på listen GUI – Applikation][3]
 
@@ -33,7 +35,3 @@ Når du har tilføjet forekomster, kan du angive detaljer for hver enkelt foreko
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
 [3]: adding-external-applications-to-application-list.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-up.png
-[img2]: ../../../../media/icons/arrow-down.png

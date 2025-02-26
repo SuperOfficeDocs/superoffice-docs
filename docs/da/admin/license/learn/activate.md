@@ -59,7 +59,7 @@ Hvis det samlede antal nye licenser er mindre end det antal licenser, der er i b
 
 [!include[Tip](includes/tip-user-licenses.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Licenstyper][3]
 * [Fanen Status på skærmbilledet Licenser][1]

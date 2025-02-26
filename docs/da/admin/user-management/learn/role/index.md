@@ -68,7 +68,7 @@ Du kan f.eks. bestemme, om en person kan slette, opdatere, oprette eller læse o
 | Opdater | Kan opdatere |  | X | X | X |  |
 | Slet | Kan slette |  | X | X | X | X |
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af en rolle][1]
 * [Redigering af en rolle][2]

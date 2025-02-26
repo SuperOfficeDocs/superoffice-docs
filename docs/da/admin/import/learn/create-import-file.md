@@ -1,7 +1,7 @@
 ---
 uid: help-da-import-create-excel
 title: Oprettelse af en importfil
-description: "I denne guide lærer du, hvordan du opretter en importfil ved hjælp af Excel-skabelonen."
+description: I denne guide lærer du, hvordan du opretter en importfil ved hjælp af Excel-skabelonen.
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importer, Excel, firma, contact, produkt, regneark

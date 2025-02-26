@@ -5,7 +5,7 @@ description: Gruppering og filtrering
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: concept
 language: da
 ---
 

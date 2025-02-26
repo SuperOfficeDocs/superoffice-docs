@@ -38,7 +38,7 @@ For at sende en invitation via e-mail til eksterne brugere skal du:
     > [!NOTE]
     > Videomøde-URL'en føjes automatisk til mødeteksten ("Deltag i møde: ..."). Hvis feltet **Sted** er tomt, tilføjes videomøde-URL'en her.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Sådan konfigureres e-mailinvitationer til videomøder][1]
 

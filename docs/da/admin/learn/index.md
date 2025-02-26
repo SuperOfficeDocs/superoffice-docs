@@ -2,9 +2,9 @@
 uid: help-da-admin-primer
 title: Oversigt
 description: Introduktion til administration af SuperOffice.
+keywords: admin, Indstillinger og vedligeholdelse
 author: Bergfrid Dias
 date: 02.21.2023
-keywords: admin, Indstillinger og vedligeholdelse
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -66,7 +66,7 @@ Den bedste måde at definere dine egne projekt- eller salgsguider på er at disk
 > [!NOTE]
 > Hvis du vil ændre sproget i Mobile CRM, skal du klikke på knappen **Opgave** i nederste venstre hjørne. Vælg derefter **Indstillinger**, klik på **Sprog**, og vælg mellem indstillingerne.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Administration af lister][6]
 * [Administration af dokumentskabeloner][7]
@@ -78,7 +78,7 @@ Den bedste måde at definere dine egne projekt- eller salgsguider på er at disk
 [1]: ../user-management/learn/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/learn/index.md
-[4]: ../../sale/learn/sales-guide/index.md
+[4]: ../../sale/learn/sales-guides.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md
 [7]: ../../document/templates/learn/index.md

@@ -2,10 +2,12 @@
 uid: help-da-adding-items-to-follow-up-type-list
 title: Tilføjelse af forekomster på listen Opfølgning - Type
 description: Tilføjelse af forekomster på listen Opfølgning - Type
+keywords: listen Opfølgning - Type
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 02.28.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -20,7 +22,7 @@ language: da
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klik på pilen ![icon][img1] ud for feltet **Type**, og vælg den ønskede opfølgningstype på listen.
+2. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ud for feltet **Type**, og vælg den ønskede opfølgningstype på listen.
 
 3. I feltet **Retning** angiver du, om opfølgningen skal være udgående eller indgående ved at klikke på pilen og vælge fra rullemenuen.
 
@@ -41,6 +43,3 @@ language: da
 
 <!-- Referenced links -->
 [2]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

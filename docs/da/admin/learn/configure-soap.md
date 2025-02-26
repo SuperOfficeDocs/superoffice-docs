@@ -2,9 +2,9 @@
 uid: help-da-settings-soap-configure
 title: Konfigurering af SOAP-grænseflade
 description: Konfigurering af SOAP-grænseflade
+keywords: Tjeneste, SOAP
 author: SuperOffice RnD
 date: 03.23.2023
-keywords: Tjeneste, SOAP
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,9 +29,4 @@ language: da
 1. Klik på knappen **Tilføj** for at tilføje adresseområdet på listen nedenfor.
 
 > [!TIP]
-> For at slette et IP-adresseområde fra listen skal du klikke på sletteikonet ![icon][img1].
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> For at slette et IP-adresseområde fra listen skal du klikke på <i class="ph ph-x-circle" aria-label="x"></i>.

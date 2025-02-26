@@ -85,7 +85,7 @@ På fanen **Brugerlicenser** på Brugerskærmen kan du se, hvor mange brugerlice
 
 På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik over brugere og brugergrupper. Klik på et gruppenavn på **listen Tilgængelige grupper** for at få vist en liste over de brugere, der aktuelt er tildelt denne gruppe.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af brugere][2]
 * [Flyt brugere][3]

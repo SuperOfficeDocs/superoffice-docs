@@ -33,7 +33,7 @@ Mange af skærmbillederne i Indstillinger og vedligeholdelse består af forskell
 
 Der er forskellige listevisninger i Indstillinger og vedligeholdelse, for eksempel lister over præferencer, lister over lister og lister over brugerdefinerede felter. Sådan justeres kolonnebredderne i disse visninger:
 
-1. Hold musemarkøren over den lodrette streg foran eller bag en kolonneoverskrift. Musemarkøren ændres til ![icon][img3], en dobbelt lodret streg med pile.
+1. Hold musemarkøren over den lodrette streg foran eller bag en kolonneoverskrift. Musemarkøren ændres til en dobbelt lodret streg med pile (<i class="ph ph-split-horizontal" aria-hidden="true"></i>).
 2. Klik og træk skillelinjen i den ønskede retning, alt efter om du vil øge eller reducere kolonnebredden.
 
 Kolonnerne bevarer de angivne bredder, næste gang du kører programmet.
@@ -46,22 +46,13 @@ Du kan vælge, hvilke kolonner der skal vises på listerne, samt deres rækkefø
 
 2. Foretag de ønskede ændringer i kolonnerne:
 
-    * Tilføjelse af kolonner: Vælg de kolonner, du vil tilføje, i ruden **Tilgængelige kolonner**, og klik på ![icon][img1] højre pil for at flytte dem til ruden **Valgte kolonner**.
+    * Tilføjelse af kolonner: Vælg de kolonner, du vil tilføje, i ruden **Tilgængelige kolonner**, og klik på højre pil for at flytte dem til ruden **Valgte kolonner**.
 
-    * Fjernelse af kolonner: Vælg de kolonner, du vil fjerne , i ruden **Valgte kolonner**, og klik på ![icon][img2] venstre pil for at flytte dem til ruden **Tilgængelige kolonner**.
+    * Fjernelse af kolonner: Vælg de kolonner, du vil fjerne , i ruden **Valgte kolonner**, og klik på venstre pil for at flytte dem til ruden **Tilgængelige kolonner**.
 
-    * Ændring af kolonnernes rækkefølge: Vælg den kolonne, du vil flytte til venstre eller højre i visningen, i ruden **Valgte kolonner**, og klik på enten ![icon][img4] pil op eller ![icon][img5] pil ned.
+    * Ændring af kolonnernes rækkefølge: Vælg den kolonne, du vil flytte til venstre eller højre i visningen, i ruden **Valgte kolonner**, og klik på enten <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> eller <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>.
 
 3. Klik på **Gem**.
 
 > [!TIP]
 > Hvis du vil nulstille kolonnelayoutet, skal du klikke på **Nulstil** nederst i ruden **Valgte kolonner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.png
-[img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/arrow-down.png

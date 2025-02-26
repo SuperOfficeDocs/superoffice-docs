@@ -31,7 +31,7 @@ For at brugerne kan bruge videomøder i dialogboksen Opfølging, er der et par t
 
 Hver videoudbyder har sine egne krav til at oprette forbindelse til deres tjenester til SuperOffice CRM. For eksempel, du skal bruge et Microsoft 365-abonnement til virksomheder. Videomøder med Microsoft Teams understøtter ikke Personlige og Familie-konti.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Konfigurere videomøder][2]
 * [E-mailopsætning til videomøder][3]

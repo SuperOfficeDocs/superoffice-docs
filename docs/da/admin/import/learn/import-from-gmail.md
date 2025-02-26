@@ -5,7 +5,7 @@ description: Import fra Gmail
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse, importer
-topic: help
+topic: howto
 language: da
 ---
 

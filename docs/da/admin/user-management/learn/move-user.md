@@ -31,7 +31,8 @@ Du kan flytte en bruger fra et firma til et andet, hvis din organisation består
 
     [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    > [!NOTE]
+    > Hvis du vil se resultaterne, før du bekræfter handlingen, skal du klikke på <i class="ph ph-info" aria-label="Vis resultater"></i>.
 
 1. Klik på **Flyt**. Brugeren flyttes til det angivne firma.
 

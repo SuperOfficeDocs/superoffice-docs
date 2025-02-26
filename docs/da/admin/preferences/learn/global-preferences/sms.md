@@ -2,10 +2,10 @@
 uid: help-da-service-settings-system-sms
 title: SMS
 description: SMS
+keywords: Tjeneste, indstillinger
 author: SuperOffice RnD
 date: 03.27.2023
-keywords: Tjeneste, indstillinger
-topic: help
+topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -13,7 +13,7 @@ language: da
 
 # SMS-konfiguration i Globale præferencer
 
-Gå til ![icon][img1] **Præferencer** i navigatoren, og vælg fanen **Globale præferencer**. Afsnittet for **SMS-konfiguration** indeholder muligheder for at konfigurere SMS-løsninger i SuperOffice.
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigatoren, og vælg fanen **Globale præferencer**. Afsnittet for **SMS-konfiguration** indeholder muligheder for at konfigurere SMS-løsninger i SuperOffice.
 
 ## Generelle felter
 
@@ -38,8 +38,3 @@ Hvis du vil teste indstillingerne, skal du angive et mobiltelefonnummer og noget
 * **SMS-slutpunkt**: Dette felt skal indeholde kode, der lader SuperOffice Service genkende en indgående SMS.
 * **Brugernavn**: Her skriver du det brugernavn, du har fået tildelt fra PsWinCom.
 * **Adgangskode**: Her skriver du den adgangskode, du har fået tildelt fra PsWinCom.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

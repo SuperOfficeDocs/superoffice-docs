@@ -1,6 +1,6 @@
 ---
 uid: help-da-our-companies-manage
-title: "Administration af 'Vores firmaer'"
+title: Administration af 'Vores firmaer'
 description: Sådan tilføjes og fjernes firmaer fra fanen Vores firmaer
 author: Bergfrid
 date: 03.15.2023

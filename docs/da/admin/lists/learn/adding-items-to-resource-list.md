@@ -2,10 +2,12 @@
 uid: help-da-adding-items-to-resource-list
 title: Tilføjelse af forekomster på listen Ressource
 description: Tilføjelse af forekomster på listen Ressource
+keywords: listen Generelt – Ressource
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

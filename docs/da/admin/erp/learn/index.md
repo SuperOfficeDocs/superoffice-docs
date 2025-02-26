@@ -17,7 +17,7 @@ Hvis din organisation bruger et ERP-system og har knyttet det til SuperOffice CR
 
 På hovedkortene **Firma**, **Person** og **Projekt** vises fanen **ERP**. Her kan du knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Personer, som er registreret på SuperOffice-firmaet, kan derefter knyttes til personer i ERP-systemet. På samme måde kan SuperOffice-projekter knyttes til projekter i ERP-systemet. Når du har opsat linket, synkroniseres data mellem ERP-systemet og SuperOffice CRM.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Knytte til ERP][1]
 * [Oprettelse af aktør i ERP-systemet][2]

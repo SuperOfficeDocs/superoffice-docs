@@ -23,7 +23,7 @@ language: da
 > [!TIP]
 > Gå til **Præferencer** for at få vist tidszonevælgeren og angive standardtidszonen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Vælg, hvilke tidszoner der skal vises][1]
 

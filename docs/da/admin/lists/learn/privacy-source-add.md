@@ -1,7 +1,7 @@
 ---
 uid: help-da-privacy-source-add
 title: Tilføjelse af forekomster på listen Personbeskyttelse - Kilde
-description: "Få mere at vide om, hvordan du ændrer listerne over personbeskyttelse i denne vejledning."
+description: Få mere at vide om, hvordan du ændrer listerne over personbeskyttelse i denne vejledning.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: personbeskyttelse, samtykke

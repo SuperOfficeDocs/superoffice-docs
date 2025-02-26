@@ -2,10 +2,12 @@
 uid: help-da-resource
 title: Ressource
 description: Ressource
+keywords: listen Generelt – Ressource
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -13,7 +15,7 @@ language: da
 
 Ressourcer vises i dialogboksen for opfølgning i SuperOffice CRM, og det er her, du kan tilføje ressourcer fra fanen **Deltagere**. Du kan f.eks. tilføje ressourcer som mødelokaler og projektorer.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster på listen Generelt – Ressource][1]
 

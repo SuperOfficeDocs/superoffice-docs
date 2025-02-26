@@ -18,7 +18,7 @@ Under skærmbillederne Salg i SuperOffice CRM angiver du bl.a. salgsbeløb, omko
 > [!NOTE]
 > Hvis du vil aktivere brug af valuta, skal du gå til **Præferencer** > **Aktivér brug af valuta**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster på listen Generelt – Valuta][1]
 

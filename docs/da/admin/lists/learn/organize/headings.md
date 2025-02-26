@@ -5,7 +5,7 @@ description: Overskrifter
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: concept
 language: da
 ---
 
@@ -22,7 +22,7 @@ Listen **Overskrifter** (nederst til højre på skærmbilledet **Lister**) viser
 
 Hvis en liste er meget lang (indeholder et stort antal forekomster), kan du bruge overskrifter til at gruppere forekomsterne logisk. Forekomsterne på listen **Dokumentskabeloner** er f.eks. grupperet i overskrifterne **Brev**, **Fax**, **E-mail** osv.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Gruppering af forekomster under overskrifter][2]
 * [Tilføjelse af overskrifter][1]
