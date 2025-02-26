@@ -49,6 +49,5 @@ envir: cloud
 [4]: ../../identity-management/superid/overview.md
 [6]: manage-permissions.md
 [7]: update-profile.md
-[8]: https://nb.gravatar.com/
 
 <!-- Referenced images -->
