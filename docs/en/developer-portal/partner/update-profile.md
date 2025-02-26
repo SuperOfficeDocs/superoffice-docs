@@ -40,6 +40,5 @@ You can upload a custom image to replace the default profile image.
 <!-- Referenced links -->
 [1]: ../standard-app/app-store/update-partner-profile.md
 [2]: ../standard-app/app-store/images-and-videos.md
-[8]: https://nb.gravatar.com/
 
 <!-- Referenced images -->
