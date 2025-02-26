@@ -2,10 +2,10 @@
 uid: help-da-service-settings-system-settings
 title: SuperOffice Service-systemindstillinger
 description: Globale præferencer for SuperOffice Service-systemindstillinger
+keywords: Tjeneste, indstillinger, globale præferencer
 author: SuperOffice RnD
-date: 03.27.2023
-keywords: Tjeneste, indstillinger
-topic: help
+date: 02.28.2025
+topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -13,7 +13,7 @@ language: da
 
 # Globale præferencer for SuperOffice Service-systemindstillinger
 
-Gå til ![icon][img2] **Præferencer** i navigatoren, og vælg fanen **Globale præferencer**. Afsnittet for **SuperOffice Service-systemindstillinger** indeholder følgende indstillinger:
+Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigatoren, og vælg fanen **Globale præferencer**. Afsnittet for **SuperOffice Service-systemindstillinger** indeholder følgende indstillinger:
 
 * **Standardskrifttype i editor**: Vælg hvilken skrifttype, størrelse og formatering, der skal bruges som standard for meddelelsesregistrering.
 
@@ -21,7 +21,7 @@ Gå til ![icon][img2] **Præferencer** i navigatoren, og vælg fanen **Globale p
 
 * **Standardskrifttypevægt**: Vægten (tykkelse) af standardskrifttypen i sagseditoren.
 
-* **Send e-mailbesked om aktive sager**: Angiver, om der udsendes e-mails om åbne sager til brugerne. Hvis du vælger **Bruger kan vælge**, kan brugerne aktivere eller deaktivere e-mailbesked fra ![icon][img1] **Personlige indstillinger** > **Præferencer** > **Notifikation via e-mail og SMS**.
+* **Send e-mailbesked om aktive sager**: Angiver, om der udsendes e-mails om åbne sager til brugerne. Hvis du vælger **Bruger kan vælge**, kan brugerne aktivere eller deaktivere e-mailbesked fra <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer** > **Notifikation via e-mail og SMS**.
 
 * **Ny status ved accept af en sag**: Vælg, hvilken status der skal bruges, når en sag accepteres af en bruger.
 
@@ -31,7 +31,7 @@ Gå til ![icon][img2] **Præferencer** i navigatoren, og vælg fanen **Globale p
 
 * **Systemansvarlig**: E-mailadressen på den person, der er ansvarlig for driften af SuperOffice Service. Dette skal være en e-mailadresse, der ikke importeres til eller behandles af SuperOffice Service.
 
-* **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse tilsidesættes normalt af adresserne angivet i e-mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, <support@company.com>.
+* **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse tilsidesættes normalt af adresserne angivet i e-mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, `<support@company.com>`.
 
 * **E-mailkode**: Den e-mailkode, der sammen med sagsnummeret danner en unik nøgle for emnet i e-mails, der udsendes fra SuperOffice Service. Du må ikke ændre denne værdi, medmindre du ved, hvad du gør! Hvis denne værdi ændres, vil modtagne e-mails ikke blive linket korrekt til eksisterende sager.
 
@@ -69,7 +69,3 @@ Gå til ![icon][img2] **Præferencer** i navigatoren, og vælg fanen **Globale p
 
 <!-- Referenced links -->
 [1]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../../common/icons/nav-admin-preferences-active.png

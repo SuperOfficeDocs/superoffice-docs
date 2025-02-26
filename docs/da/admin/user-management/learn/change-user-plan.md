@@ -1,7 +1,7 @@
 ---
 uid: help-da-user-change-plan
 title: Ændring af brugerplaner for aktive brugere
-description: "I denne vejledning lærer du, hvordan du ændrer en brugerplan for aktive brugere."
+description: I denne vejledning lærer du, hvordan du ændrer en brugerplan for aktive brugere.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user, medarbejder

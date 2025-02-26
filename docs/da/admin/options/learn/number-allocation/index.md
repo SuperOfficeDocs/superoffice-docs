@@ -2,9 +2,9 @@
 uid: help-da-number-allocation
 title: Nummerallokering
 description: Nummerallokering
+keywords: nummer, tæller
 author: Bergfrid Dias
 date: 03.24.2023
-keywords: nummer, tæller
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ I den øverste del af fanen **Nummertildeling** er der en tabel, der viser de de
 
 | Kolonne | Beskrivelse |
 |---|---|
-| \[Icon\] | Viser, hvor tælleren bruges, f.eks. ![icon][img1] for skærmbilledet Firma. |
+| \[Icon\] | Viser, hvor tælleren bruges, f.eks. <i class="ph ph-buildings" aria-label="Company icon"></i> for skærmbilledet Firma. |
 | Tæller | Viser navnet på tælleren, f.eks. **Firmanummer**, som gælder for feltet **Nummer** på skærmbilledet Firma. |
 | Næste | Viser den næste værdi for tælleren. |
 | Tildel | Angiver, om den automatiske tællerfunktion bruges, så systemet indtaster værdier for dig. |
@@ -58,7 +58,7 @@ Tabellen nedenfor viser konsekvenserne af forskellige kombinationer af værdiern
 | | | x | x | Der tildeles ikke noget nummer, og brugeren må heller ikke angive et nummer. Nyttigt, når der bruges tællere fra tredjepartsleverandører. |
 | | | x | | Der tildeles ikke noget nummer, og brugeren må heller ikke angive et nummer. Databasen kan kun have ét tomt felt. (Ikke anbefalet.) |
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Angivelse af nummertildeling][2]
 * [Angivelse af standardværdier for nye dokumentskabeloner][3]
@@ -66,6 +66,3 @@ Tabellen nedenfor viser konsekvenserne af forskellige kombinationer af værdiern
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

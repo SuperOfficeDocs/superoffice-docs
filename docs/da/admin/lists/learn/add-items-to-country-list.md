@@ -2,10 +2,12 @@
 uid: help-da-add-items-to-country-list
 title: Tilføjelse af forekomster på listen Land
 description: Tilføjelse af forekomster på listen Land
+keywords: listen Generelt – Land
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 02.25.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -26,7 +28,7 @@ language: da
 
 4. I feltet **Postpræfiks** skal du angive det eller de bogstaver, der bruges foran postnummeret, når du skriver til det valgte land fra et andet land, f.eks. *N* for Norge.
 
-5. For hvert af de næste tre felter skal du klikke på ![icon][img1] pilen og vælge det ønskede adresseformat på listen. Det samme format gælder normalt for alle tre felter, men for nogle lande kan det være nyttigt at variere formaterne, afhængigt af hvad du bruger adressen til:
+5. For hvert af de næste tre felter skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge det ønskede adresseformat på listen. Det samme format gælder normalt for alle tre felter, men for nogle lande kan det være nyttigt at variere formaterne, afhængigt af hvad du bruger adressen til:
     * **Visuelt adresseformat**:
         Det sædvanlige format, som det vises i skærmbilledet Firma. Som regel er det tilstrækkeligt kun at vælge et format her.
     * **Udskrevet adresseformat (lokalt)** og **(intl)**:
@@ -34,7 +36,7 @@ language: da
 
 6. Skærmbilledet Firma indeholder et felt mærket **SE-nr.** til registrering af firmaets momsnummer eller lignende nummer. Du kan ændre denne feltetiket i Indstillinger og vedligeholdelse. Indtast den ønskede tekst i feltet **Ledetekst for firmanr.**, f.eks. *Org. nr* for Norge. Når du indtaster et norsk firma i SuperOffice, vil etiketten for firmaets organisationsnummer være *Org. nr.* i stedet for *SE-nr.*.
 
-7. Klik på ![icon][img1] pilen ud for feltet **Valuta**, og vælg en valuta på listen.
+7. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ud for feltet **Valuta**, og vælg en valuta på listen.
 
     > [!NOTE]
     > Indstillingerne defineres på [listen **Generelt - Valuta**][2].
@@ -49,6 +51,3 @@ language: da
 
 <!-- Referenced links -->
 [2]: currency.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

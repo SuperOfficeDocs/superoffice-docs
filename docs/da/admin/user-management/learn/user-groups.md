@@ -2,9 +2,9 @@
 uid: help-da-user-group-manage
 title: Administrer brugergrupper
 description: Sådan opretter og sletter du brugergrupper
+keywords: brugergruppe
 author: Bergfrid Dias
 date: 08.25.2023
-keywords: brugergruppe
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,11 +19,11 @@ For at gruppere kolleger sammen og give dem adgang til CRM-data baseret på denn
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Vælg ![ikonet][img2] **Lister** i navigatoren (1).
+1. Vælg <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lister** i navigatoren.
 
     ![Opprette brukergruppe -screenshot][img3]
 
-1. Vælg **Generelt - Brugergruppe** fra listen (2) og klik på **+Tilføj** (3).
+1. Vælg **Generelt - Brugergruppe** fra listen og klik på **Tilføj**.
 
 1. Indtast oplysninger i dialogboksen. Valgfrit, vælg en eller flere [sagskategorier][4] for denne gruppen.
 
@@ -49,10 +49,9 @@ For at gruppere kolleger sammen og give dem adgang til CRM-data baseret på denn
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

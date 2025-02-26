@@ -2,10 +2,12 @@
 uid: help-da-adding-user-defined-lists
 title: Tilføjelse af brugerdefinerede lister
 description: Tilføjelse af brugerdefinerede lister
+keywords: opret liste, brugerdefinerede lister
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 

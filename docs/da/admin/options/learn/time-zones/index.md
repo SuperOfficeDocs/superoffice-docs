@@ -21,7 +21,7 @@ Før du kan tage tidszoner i brug, skal du [aktivere tidszonefunktionen][1].
 
 Derudover kan du gå til **Præferencer** for at få vist tidszonevælgeren og angive standardtidszonen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Vælg, hvilke tidszoner der skal vises][2]
 

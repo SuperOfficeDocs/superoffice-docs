@@ -2,10 +2,10 @@
 uid: help-da-task-menu-add
 title: Tilføjelse af forekomster til listen for menuen Opgave
 description: Tilføjelse af forekomster til listen for menuen Opgave
+keywords: menuen Opgave
 author: SuperOffice RnD
 date: 01.11.2023
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -52,7 +52,7 @@ Sådan udfyldes felterne i dialogboksen Rediger forekomster for menuen Opgave:
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tilføjelse af et webpanelelement][1]
 * [Tilføjelse af en oversættelse][7]

@@ -15,7 +15,7 @@ language: da
 
 I modsætning til selve listerne kan forekomster, der er indeholdt i både foruddefinerede og brugerdefinerede lister, tilføjes, ændres eller slettes.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster][1]
 * [Redigering af forekomster][2]

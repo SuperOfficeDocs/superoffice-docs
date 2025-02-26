@@ -2,9 +2,9 @@
 uid: help-da-adding-items-to-web-panel-list
 title: Tilføjelse af forekomster på webpanellisten
 description: Tilføjelse af forekomster på webpanellisten
+keywords: liste, webpanel, listen GUI – Webpanel
 author: SuperOffice RnD
-date: 01.20.2023
-keywords: liste, webpanel
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -77,7 +77,7 @@ language: da
 
 ### Menu
 
-* **Værktøjsmenu**: URL-adressen vises, når brugeren klikker på knappen **Værktøj** ![icon][img1] i navigatoren eller vælger **Andre programmer** i SuperOffice CRM.
+* **Værktøjsmenu**: URL-adressen vises, når brugeren klikker på knappen **Værktøj** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren eller vælger **Andre programmer** i SuperOffice CRM.
 
 * **Menuen Vis**: URL-adressen vises, når brugeren vælger **Andre programmer** i SuperOffice CRM.
 
@@ -85,7 +85,7 @@ language: da
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tilføjelse af et opgavemenupunkt][1]
 * [Tilføjelse af en oversættelse][3]
@@ -94,6 +94,3 @@ language: da
 [1]: add-items-to-task-menu.md
 [2]: ../../../../en/ui/web-panels/url-encoding.md
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

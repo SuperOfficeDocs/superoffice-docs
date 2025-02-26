@@ -2,10 +2,12 @@
 uid: help-da-grouping-items-under-headings
 title: Gruppering af forekomster under overskrifter
 description: Gruppering af forekomster under overskrifter
+keywords: brug gruppering, overskrift, listen Overskrifter, listen Forekomster
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 ---
 
@@ -28,7 +30,7 @@ Hvis du vil have en liste med to niveauer, skal du vælge overskrifter for hver 
 
 4. Markér **Brug gruppering og brugergruppefiltrering for denne liste** øverst til højre.
 
-5. Markér afkrydsningsfeltet ud for det påkrævede overskriftsnavn på listen **Overskrifter** for at angive, at den valgte forekomst skal vises under det. Feltet markeres derefter med et flueben (![icon][img1]).
+5. Markér afkrydsningsfeltet ud for det påkrævede overskriftsnavn på listen **Overskrifter** for at angive, at den valgte forekomst skal vises under det. Feltet markeres derefter med et flueben (<i class="ph ph-check" aria-hidden="true"></i>).
 
     Ændringerne gemmes automatisk.
 
@@ -56,13 +58,10 @@ Hvis du vil have en liste med to niveauer, skal du vælge overskrifter for hver 
 
     Ændringerne gemmes automatisk.
 
-## Se også
+## Relateret indhold
 
 * [Organisering af lister][2].
 
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

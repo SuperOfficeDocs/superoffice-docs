@@ -2,9 +2,9 @@
 uid: help-da-mail-link-create-template
 title: Oprettelse af e-mailskabeloner
 description: Oprettelse af e-mailskabeloner
+keywords: e-mailskabelon, opret e-mailskabeloner, E-mail-link, dokumentskabelon
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: E-mail-link
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,19 +29,19 @@ Du kan oprette dine egne skabeloner til oprettelse af e-mails i SuperOffice CRM.
 
 7. [!include[Click arrow and select](includes/expand-list.md)] **Dokumentskabelon** fra rullemenuen **Liste**.
 
-8. Klik på knappen **Tilføj** ![icon][img2] under listen **Forekomster**.
+8. Klik på knappen **Tilføj** under listen **Forekomster**.
 
 9. Indtast i dialogboksen navnet på skabelonen i det påkrævede felt **Navn**.
 
-10. I feltet **Filnavn** klikker du på pilen ![icon][img1] og vælger den *.somail*-fil, som du lige har oprettet.
+10. I feltet **Filnavn** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælger den *.somail*-fil, som du lige har oprettet.
 
-11. I feltet **Retning** klikker du på pilen ![icon][img1] og vælger **Udgående** på rullelisten.
+11. I feltet **Retning** klikker du på  og vælger **Udgående** på rullelisten.
 
-12. I feltet **Posttype** klikker du på pilen ![icon][img1] og vælger **E-mail**.
+12. I feltet **Posttype** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælger **E-mail**.
 
-13. I feltet **Dokument-plug-in** vælger du det program, der skal anvendes til at vise dokumentet, ved at klikke på pilen ![icon][img1] og vælge på rullelisten.
+13. I feltet **Dokument-plug-in** vælger du det program, der skal anvendes til at vise dokumentet, ved at klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge på rullelisten.
 
-14. I feltet **Hensigt** klikker du på pilen ![icon][img1], hvorefter du vælger en af de foruddefinerede indstillinger på rullelisten. Disse forekomster bruges i forbindelse med statusovervågning i SuperOffice CRM (kræver SAINT-licens).
+14. I feltet **Hensigt** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i>, hvorefter du vælger en af de foruddefinerede indstillinger på rullelisten. Disse forekomster bruges i forbindelse med statusovervågning i SuperOffice CRM (kræver SAINT-licens).
 
 15. Marker feltet **Udgiv** i dialogboksen Dokument for at lade en bruger vælge, at den aktuelle dokumentskabelon skal være tilgængelig for eksterne brugere.
 
@@ -58,7 +58,3 @@ Du kan oprette dine egne skabeloner til oprettelse af e-mails i SuperOffice CRM.
 21. Klik på **Gem**.
 
 Du kan nu oprette nye e-mails i SuperOffice CRM med denne skabelon.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

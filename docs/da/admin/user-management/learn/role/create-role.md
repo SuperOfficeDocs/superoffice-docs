@@ -2,9 +2,9 @@
 uid: help-da-role-create
 title: Oprettelse af rolle
 description: Oprettelse af rolle
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: rolle, brugerstyring
+author: Bergfrid Dias
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -33,8 +33,8 @@ language: da
 
 6. Vælg en af følgende valgmuligheder:
 
-    * Klik på pilen ![icon][img5] ved siden af feltet **Kopier rettigheder fra**, og vælg den rolle, du ønsker at basere den nye rolle på.
-    * Klik på pilen ![icon][img5], og vælg **Start med tomme rettigheder**, hvis du vil oprette rollen fra bunden.
+    * Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden af feltet **Kopier rettigheder fra**, og vælg den rolle, du ønsker at basere den nye rolle på.
+    * Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i>, og vælg **Start med tomme rettigheder**, hvis du vil oprette rollen fra bunden.
 
 7. Klik på **Gem**. Den nye rolle vises på listen **Roller**.
 
@@ -55,7 +55,7 @@ language: da
 
     Ændringerne gemmes automatisk.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af brugere][5]
 * [Redigering af roller][4]
@@ -65,6 +65,3 @@ language: da
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png

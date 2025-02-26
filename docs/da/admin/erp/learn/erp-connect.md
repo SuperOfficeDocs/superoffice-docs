@@ -24,7 +24,7 @@ Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Pers
 1. Firma: Klik på **Kunde** eller **Leverandør**, afhængig af hvilken ERP-aktør du vil knytte firmaet til. Du kan kun vælge én aktør pr. firma.
     *Eller* Projekt: Klik på **Projekt**.
     *Eller* Person: Klik på **Person**.
-1. Indtast den ønskede tekst i søgefeltet i dialogboksen **Tilknyt ERP**, og klik på **Søg**. Du kan også klikke på knappen ![icon][img1] for at starte en avanceret søgning (se [Brug skærmbilledet Søg][1]).
+1. Indtast den ønskede tekst i søgefeltet i dialogboksen **Tilknyt ERP**, og klik på **Søg**. Du kan også klikke på <i class="ph ph-magnifying-glass" aria-label="Search"></i> for at starte en avanceret søgning (se [Brug skærmbilledet Søg][1]).
 
     > [!TIP]
     > Hvis du søger med tomt søgefelt, vises alle forekomster i ERP-systemet.
@@ -37,7 +37,7 @@ Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Pers
 1. Klik på **Gem**.
 1. Klik eventuelt på **Synkroniser alt nu**.
 
-## Hvad vil du nu foretage dig?
+## Relateret indhold
 
 * [Oprettelse af aktør i ERP-systemet][2]
 * [Deaktivering af synkronisering][3]
@@ -46,6 +46,3 @@ Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. Pers
 [1]: ../../../search-options/learn/find-screen.md
 [2]: erp-create-new-actor.md
 [3]: erp-sync-disconnect.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png

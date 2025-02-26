@@ -43,7 +43,7 @@ Du kan ændre etiketter på alle tilgængelige sprog i SuperOffice. Du kan f.eks
 
 1. Klik på **Gem**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Nulstilling af etiketter][1]
 

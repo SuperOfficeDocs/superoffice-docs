@@ -69,7 +69,7 @@ Under **Systemmeddelelser** finder du følgende kolonner:
 | Afsluttet | Viser, hvornår hændelsen forventes at slutte. |
 | Type | Viser, om hændelsen gælder for hele systemet. |
 
-## Relaterede emner
+## Relateret indhold
 
 * [SuperOffice CRM og licenser][3]
 * [Køb af licenser][5]

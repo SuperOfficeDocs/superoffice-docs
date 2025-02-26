@@ -53,30 +53,22 @@ items:
       href: adding-items-to-follow-up-type-list.md
 
   - name: Salg
-    topicHref: ../../../sale/learn/screen/sale-stage.md
+    topicHref: ../../../sale/admin/index.md
     items:
-    - name: Salgsfase
-      href: ../../../sale/learn/screen/sale-stage.md
     - name: Tilføj salgsfase
-      href: sale-stage.md
-    - name: "Salgstype, faser, tilbud"
-      href: ../../../sale/learn/screen/sales-type-for-stages.md
+      topicHref: ../../../sale/admin/sale-stage.md
     - name: Tilføj salgstype
-      href: sale-type.md
+      topicHref: ../../../sale/admin/sale-type.md
     - name: Tilføj salgsbeløbsklasse
       href: sale-amount-class.md
 
   - name: Projekt
-    topicHref: ../../../project/learn/screen/project-status-admin.md
+    topicHref: ../../../project/admin/index.md
     items:
-    - name: Projektstatus
-      href: ../../../project/learn/screen/project-status-admin.md
     - name: Tilføj projektstatus
-      href: project-status.md
-    - name: Projekttype
-      href: ../../../project/learn/screen/project-type-admin.md
+      topicHref: ../../../project/admin/project-status.md
     - name: Tilføj projekttype
-      href: project-type.md
+      topicHref: ../../../project/admin/project-type.md
 
   - name: Generel
     topicHref: country.md
