@@ -4,8 +4,9 @@ title: User guide
 description: How to manage links and instructions for installing standard apps in the SuperOffice Developer Portal.
 keywords: Developer Portal, app store, install, links, details tab
 author: Bergfrid Dias
-date: 10.16.2024
-version_devportal: 1.27
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 ---
