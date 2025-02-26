@@ -4,7 +4,7 @@ title: Compatibility reports
 description: Compatibility test reports for SuperOffice onsite
 keywords: requirements, compatibility test, compatibility report, onsite compatibility
 author: Martin Pavlas
-date: 11.07.2024
+date: 02.26.2025
 topic: reference
 envir: onsite
 # client:
@@ -15,6 +15,14 @@ envir: onsite
 The published compatibility test reports. A **Test Passed** status is a 90% assurance that this product will work as intended in the environment tested.
 
 We make the compatibility reports when other vendors release newer versions after our release. This is where you see if, for example, a new version of Internet Explorer is compatible with the current releases of SuperOffice. You can also check out the [system requirements][1].
+
+## Windows Server 2025
+
+![Windows Server 2025][img22]
+
+We have tested Windows Server 2025 with SuperOffice 10.3.9 Onsite. No issues found installing, login or working with SuperOffice. SuperOffice Web and Service were tested with Chrome browser. The report was made on December 10th 2024.
+
+<a href="../../../assets/downloads/compatibility/windows-server-2025.xlsx" download>Click to download report</a>
 
 ## MacOS Sequoia
 
@@ -200,3 +208,4 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 [img19]: media/sql-server-2022.png
 [img20]: media/macos-sonoma.png
 [img21]: media/macos-sequoia.jpg
+[img22]: media/windows-server-2025.jpg

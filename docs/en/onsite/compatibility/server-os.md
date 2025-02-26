@@ -3,7 +3,7 @@ title: Operating system
 uid: tested_server_os
 description: Tested server operating system
 author: {github-id}
-date: 09.12.2023
+date: 02.26.2025
 keywords:
 topic: reference
 envir: onsite
@@ -18,6 +18,7 @@ Want to know if a newly released operating system is compatible? Check the [comp
 
 | Operating system       | 8.0, SR1 - SR3 | 8.0 SR4 - 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9 | 10
 |------------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Windows Server 2025    | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | Windows Server 2022    | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] |
 | Windows Server 2019    | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
 | Windows Server 2016    | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
