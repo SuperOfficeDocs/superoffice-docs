@@ -4,8 +4,9 @@ title: CORS and redirection URLs
 description: CORS and redirection URLs in the SuperOffice Developer Portal.
 keywords: Developer Portal, app, client ID
 author: Bergfrid Dias
-date: 08.21.2024
-version_devportal: 1.25
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 ---

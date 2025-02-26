@@ -4,8 +4,9 @@ title: Manage technical contacts
 description: How to see who's technical contact of which app and update which apps a person is responsible for in the SuperOffice Developer Portal.
 keywords: Developer Portal, technical contact, contact person
 author: Bergfrid Dias
-version_devportal: 1.19
-date: 15.02.2024
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 client: online

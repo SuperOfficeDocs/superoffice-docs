@@ -4,8 +4,9 @@ title: Update partner profile
 description: How to update your partner profile in the SuperOffice Developer Portal.
 keywords: Developer Portal, profile
 author: Bergfrid Dias
-date: 09.18.2024
-version_devportal: 1.26
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 ---

@@ -4,8 +4,9 @@ title: Images and videos
 description: How to create good screenshots and videos; how to add images and videos to your app listing in the SuperOffice Developer Portal.
 keywords: Developer Portal, app store, image, video, icon, logo, screenshot, media tab
 author: Bergfrid Dias
-date: 10.16.2024
-version_devportal: 1.27
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 ---

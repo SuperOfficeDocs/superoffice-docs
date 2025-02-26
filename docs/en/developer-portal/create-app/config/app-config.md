@@ -4,11 +4,11 @@ title: Application configuration
 description: Reference of application configuration in the SuperOffice Developer Portal.
 keywords: apps, Developer Portal, authentication, integration settings
 author: Bergfrid Dias
-date: 08.21.2024
-version_devportal: 1.25
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: reference
 envir: cloud
-client:
 ---
 
 # Application configuration
@@ -45,10 +45,12 @@ For each of the above:
 
 ## Advanced
 
-These settings are read only for all except SuperOffice AS app managers.
+These settings except "Support dark mode" and "Remove remember me" must be changed by the app manager.
 
 | Setting | Description | How-tos | Read more |
 |---|---|---|---|
+| Support dark mode | Enables dark mode browser setting for the Online Login page. | | |
+| Remove remember me | Whether the **Remember me** checkbox should be visible on the login page. | | |
 | Access to (agents) | These agents are restricted in our Online environment. A custom app may get access to CRMScript agent. | | |
 | Access to (claims) | Returned in the JWT as claims - for server-to-server apps we tick SystemToken | | |
 | Authorization level | All apps will get **Administrator** by default in SOD. Custom applications will be changed to **Explicit** when published to production. | [Request to publish][31] | |

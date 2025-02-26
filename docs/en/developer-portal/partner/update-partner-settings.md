@@ -2,11 +2,12 @@
 title: Update partner settings
 uid: dp-update-partner-settings
 description: How to update your partner settings in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 04.26.2023
 keywords: Developer Portal, profile, partner
+author: Bergfrid Dias
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
-version_devportal: 1.10
 envir: cloud
 client: online
 ---

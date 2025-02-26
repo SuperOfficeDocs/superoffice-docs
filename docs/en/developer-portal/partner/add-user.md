@@ -1,12 +1,13 @@
 ---
-title: Add a user
 uid: dp-add-user
+title: Add a user
 description: How to add a user in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 06.01.2022
 keywords: Developer Portal, user, access
+author: Bergfrid Dias
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
-version:
 envir: cloud
 client: online
 ---
@@ -45,11 +46,7 @@ You can add any known user by name or email address that shares one or more tena
 
 5. Selected the user from the list, then click **Add**.
 
-    ![Select the use from the list -screenshot][img8]
-
 6. The user is added to the Partner Users collection.
-
-    ![User is added to the users collection -screenshot][img9]
 
 7. You can now [assign permissions][1].
 
@@ -91,7 +88,7 @@ You can assign a known user or create a new one. In both cases, you look up an e
 
 6. You can now [assign permissions][1].
 
----
+***
 
 <!-- markdownlint-disable DOCSMD007 -->
 > [!TIP]
@@ -111,5 +108,3 @@ You can assign a known user or create a new one. In both cases, you look up an e
 [img5]: media/assign-user-to-partner.png
 [img6]: media/add-user-button.png
 [img7]: media/type-user-email.png
-[img8]: media/user-selected.png
-[img9]: media/user-added.png

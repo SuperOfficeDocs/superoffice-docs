@@ -4,8 +4,9 @@ title: Remove a user
 description: How to remove a user from a partner in the SuperOffice Developer Portal.
 keywords: Developer Portal, user, access
 author: Bergfrid Dias
-date: 15.02.2024
-version_devportal: 1.19
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
 envir: cloud
 client: online
@@ -30,7 +31,7 @@ Administrators can disconnect a SuperID user from a partner in the SuperOffice D
 
     * **Administrative and/or technical contact for partner:** Select new contact persons.
 
-    ![SuperOffice Developer Portal: reassign and remove user -screenshot][img2] ![SuperOffice Developer Portal: reassign and remove user -screenshot][img4]
+    ![SuperOffice Developer Portal: reassign and remove user -screenshot][img2]
 
     * **Contact person for both partner and apps:**
 
@@ -55,4 +56,3 @@ Administrators can disconnect a SuperID user from a partner in the SuperOffice D
 [img1]: media/reassign-technical.png
 [img2]: media/reassign-admin.png
 [img3]: media/reassign-partner-and-app.png
-[img4]: media/reassign-partner.png 
