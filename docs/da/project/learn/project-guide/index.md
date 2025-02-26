@@ -1,6 +1,6 @@
 ---
 uid: help-da-project-guide
-title: Projektvejledning
+title: Projektguide
 description: Introduktion til projektguides i SuperOffice.
 author: SuperOffice RnD
 date: 02.23.2023
@@ -9,13 +9,13 @@ topic: concept
 language: da
 ---
 
-# Projektvejledning
+# Projektguide
 
 Ved hjælp af projektguiden kan en virksomhed gøre projektgennemførelsen enklere og mere struktureret for sine projektledere. Projektguiden guider dig gennem de forskellige statusser i en foruddefineret projektproces og indeholder forslag til, hvilke opfølgninger der bør udføres, og hvilke dokumenter der bør oprettes i hver status. Den kan desuden foreslå næste trin i projektet og vises projektets milepæle.
 
 ![Detaljekortet Projektguide med oversigt over status for Planlagt -screenshot][img1]
 
-Ved at oprette en projektguide kan du planlægge alle faser af projektet på forhånd for at sikre, at projektet bliver en succes. Som standard er der flere projektvejledninger tilgængelige, som du kan bruge som inspiration. Eller du kan redigere dem, så de passer til dine behov.
+Ved at oprette en projektguide kan du planlægge alle faser af projektet på forhånd for at sikre, at projektet bliver en succes. Som standard er der flere projektguider tilgængelige, som du kan bruge som inspiration. Eller du kan redigere dem, så de passer til dine behov.
 
 Hver **status** i projektguiden leveres med specifikke aktiviteter som opfølgning og dokumenter. På denne måde ved du altid, hvilken aktivitet eller milepæl der er den næste. Du kan opbygge din egen proces afhængigt af de forskellige typer af projekter, din virksomhed engagerer sig i. Den bedste måde at definere dine egne projektguides på er først at diskutere og blive enige om bedste praksis for alle dine projekter.
 

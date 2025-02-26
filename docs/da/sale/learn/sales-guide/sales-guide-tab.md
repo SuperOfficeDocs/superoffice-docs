@@ -16,7 +16,7 @@ language: da
 
 Når du opretter et salg og vælger en salgstype med en guide, vises detaljekortet **Salgsguide** med aktivitetslisten nedenunder.
 
-Knapperne for de forskellige faser vises øverst på detaljekortet. Knappernes udseende ændres i takt med, at du fuldfører faserne i salgsvejledningen:
+Knapperne for de forskellige faser vises øverst på detaljekortet. Knappernes udseende ændres i takt med, at du fuldfører faserne i salgsguiden:
 
 | Trin | Ikon |
 |---|---|
@@ -45,7 +45,7 @@ Du kan gå til næste trin ved at vælge det på listen **Fase** på hovedkortet
 
 En salgsguide, hvor kun opfølgninger og dokumenter for den gældende fase vises:
 
-![Salgsvejledning med opfølgninger og dokumenter kun for den gældende fase -screenshot][img6]
+![Salgguide med opfølgninger og dokumenter kun for den gældende fase -screenshot][img6]
 
 En salgsguide, hvor alle opfølgninger og dokumenter for alle faser vises:
 

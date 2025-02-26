@@ -52,7 +52,7 @@ audience_tooltip: SuperOffice Marketing
 | Indstilling | Beskrivelse |
 |---|---|
 | Titel | Et beskrivende navn på salget. Detaljer tilføjes i beskrivelsen. |
-| Salgstype | Et navngivet sæt information om salgsprocessen. Påvirker standard salgsstadie og estimeret salgsdato. Nogle salgstyper er knyttet til en [salgsvejledning][14]. |
+| Salgstype | Et navngivet sæt information om salgsprocessen. Påvirker standard salgsstadie og estimeret salgsdato. Nogle salgstyper er knyttet til en [salgsguide][14]. |
 | Stadium | Salgets nuværende stadium (åben, tabt, solgt). |
 | Beløb | Forventet beløb for pipelinen. |
 | Beskrivelse | En mere detaljeret beskrivelse af salget. |

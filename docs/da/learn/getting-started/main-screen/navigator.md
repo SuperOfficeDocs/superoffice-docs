@@ -45,7 +45,7 @@ Du bevæger dig mellem hovedsektionerne i SuperOffice ved hjælp af Navigator i 
 | ![ikon][img47] | **AI-tjenester**: åbner skærmen for AI-tjenester, hvor du kan konfigurere indstillinger til tekstanalyse, analyse af synspunkt og kategorisering af sager. | [AI-tjenester][20] |
 | ![ikon][img48] | Åbner skærmbilledet **Lister**, der indeholder beskrivelser og definitioner på listerne i SuperOffice CRM. | [Lister][21] |
 | ![ikon][img49] | Åbner skærmbilledet **Tilbud/sync** hvor du kan administrere link og indstillinger for ERP-systemer, som er logget på SuperOffice CRM. Her kan du også arbejde med prislisterne og produkterne, som ligger i SuperOffice-databasen. | [Tilbud/Sync][22] |
-| ![ikon][img50] | Åbner skærmbilledet **Arbejdsproces**, hvor du kan definere salgsvejledninger og projektvejledninger til SuperOffice CRM. | |
+| ![ikon][img50] | Åbner skærmbilledet **Arbejdsproces**, hvor du kan definere salgsguider og projektguider til SuperOffice CRM. | |
 | ![ikon][img51] | **Skærmdesigner**: åbner skærmdesignerskærmen, hvor du kan oprette brugerdefinerede skærmlayouter til bestemte brugergrupper. | [Skærmdesigner][24] |
 | ![ikon][img52] | Åbner skærmbilledet **Præferencer**, hvor du kan angive indstillinger for forskellige dele i SuperOffice CRM, f.eks. antallet af elementer, der skal vises i historiklisten osv. Her kan du også konfigurere [videomøder][42] og dokumentbiblioteket [][43]. | [Præferencer][25] |
 | ![ikon][img41] | Åbner skærmbilledet **Chat**, hvor du kan oprette chatkanaler og konfigurere chatfunktionen. | [Chat][2] |

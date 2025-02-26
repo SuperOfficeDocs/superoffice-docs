@@ -15,7 +15,7 @@ Ved hjælp af salgsguiden kan en virksomhed gøre salgsprocessen enklere og mere
 
 Salgsguiden vil hjælpe dig og dine kolleger med at bevare kontrollen over alle salgsprocesser ved at strukturere og standardisere dine salgsrutiner.
 
-Du kan oprette en salgsvejledning for hver salgstype, der understøtter alle de forskellige salgsprocesser, dit firma bruger. Som et resultat heraf kan dine sælgere følge en disposition og en struktureret proces, der består af bedste praksisser og trinvise aktiviteter for at sikre, at ingen salgsmulighed går tabt.
+Du kan oprette en salgsguide for hver salgstype, der understøtter alle de forskellige salgsprocesser, dit firma bruger. Som et resultat heraf kan dine sælgere følge en disposition og en struktureret proces, der består af bedste praksisser og trinvise aktiviteter for at sikre, at ingen salgsmulighed går tabt.
 
 Som standard har nogle af salgstyperne salgsguider, som du kan bruge som inspiration. Eller du kan redigere dem, så de passer til dine behov. Alle salgsguider har nogle få salgstrin. Hvert trin har et navn, en sandsynlighedsprocent og en beskrivelse.
 

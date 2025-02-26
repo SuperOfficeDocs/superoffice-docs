@@ -1,7 +1,7 @@
 ---
 uid: help-da-project-guide-admin
-title: Projektvejledning
-description: Projektvejledning
+title: Projektguide
+description: Projektguide
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: projekt, guide
@@ -11,7 +11,7 @@ audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Projektvejledning
+# Projektguide
 
 Under fanen **Projektguide** på skærmbilledet Arbejdsproces under Indstillinger og vedligeholdelse kan du designe projektguider, der fungerer som retningslinjer i hele projekterne. En salgsguide består af faser, der indeholder opfølgninger og dokumenter til at guide sælgeren gennem salget. Hver projektguide er sammenkædet med en projekttype, og projektguiden aktiveres på skærmbilledet Projekt, når brugeren opretter et nyt projekt eller ændrer projekttypen for et eksisterende projekt og vælger en projekttype, der har en projektguide tilknyttet.
 
