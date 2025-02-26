@@ -3,7 +3,7 @@ title: Operating system
 uid: tested_server_os
 description: Tested server operating system
 author: {github-id}
-date: 09.12.2023
+date: 02.26.2025
 keywords:
 topic: reference
 envir: onsite
