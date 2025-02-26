@@ -4,8 +4,9 @@ title: Versioning
 description: Introduction to versioned information and configuration in the SuperOffice Online Developer Portal and how it relates to our different environments (SOD, Stage, Production).
 keywords: developer, Developer Portal, apps, app-store
 author: Bergfrid Dias
-date: 08.21.2024
-version_devportal: 1.25
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: concept
 envir: cloud
 ---

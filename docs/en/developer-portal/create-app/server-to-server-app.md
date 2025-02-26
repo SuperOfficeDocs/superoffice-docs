@@ -2,12 +2,12 @@
 title: Register a server-to-server app
 uid: dp-register-server-to-server-app
 description: Registering a new server-to-server app in the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, app, server-to-server, system user
+author: Bergfrid Dias
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
-version:
-version_devportal: 1.16
 envir: cloud
 client:
 ---

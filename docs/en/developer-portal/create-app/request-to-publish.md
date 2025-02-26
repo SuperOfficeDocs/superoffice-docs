@@ -2,11 +2,12 @@
 title: Request to publish
 uid: dp-request-publish
 description: How to request to publish App Store Information and application configuration the SuperOffice Developer Portal.
-author: Bergfrid Dias
-date: 11.15.2023
 keywords: Developer Portal, publish
+author: Bergfrid Dias
+date: 02.26.2025
+version: 2.0
+version_devportal: 2.0
 topic: howto
-version_devportal: 1.16
 envir: cloud
 client: online
 ---
