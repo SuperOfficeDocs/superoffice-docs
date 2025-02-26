@@ -22,7 +22,7 @@ The name, email address, and phone number are fetched from your primary SuperOff
 
 ## Change profile image
 
-By default, the system uses an image from [Gravatar.com][8]. You can upload a custom image to replace it.
+You can upload a custom image to replace the default profile image.
 
 1. On your profile page, click **Edit Profile**.
 1. Click the profile image (<i class="ph ph-camera" aria-label="Camera icon"></i>) to upload a new picture.
