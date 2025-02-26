@@ -42,7 +42,7 @@ Hvis du vælger en projekttype, der er defineret en [projektguide][1] for, vises
 
 Den nederste del af skærmbilledet Projekt består af detaljekort.
 
-* [Projektvejledning][13] (hvis der er defineret en for den aktuelle projekttype)
+* [Projektguide][13] (hvis der er defineret en for den aktuelle projekttype)
 * [Projektdeltager][6]
 * [Aktiviteter][16]
 * [Salg][17]
@@ -50,7 +50,7 @@ Den nederste del af skærmbilledet Projekt består af detaljekort.
 
 [!include[Add more section tabs](../../learn/includes/more-tab.md)]
 
-## Projektvejledning
+## Projektguide
 
 Projektguiden, der kan tilpasses, så den passer til dine egne unikke projektprocesser. Du kan kortlægge alle aktiviteter, dokumenter og milepæle i et projekt, hvilket gør det nemt for hele dit team at spore. Projektguiden hjælper dig også med at overvåge den aktuelle projektstatus og spørge, hvad der altid skal gøres.
 
@@ -66,7 +66,7 @@ Din administrator kan [tilføje og tilpasse projektguider][8] for dig.
 * [Flet projekter][4]
 * [Slet et projekt][5]
 * [Send et dokument til projektdeltagere][7]
-* [Projektvejledning][1]
+* [Projektguide][1]
 * [Udskriv projektinformationer][11]
 * [Fanen Links][10]
 

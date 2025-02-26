@@ -11,7 +11,7 @@ language: da
 
 # Anvendelse af dokumentskabeloner på flere sprog i projekt- og salgsguiderne
 
-Hvis dit firma har afdelinger i flere lande, kan det være nyttigt at have dokumentskabelonerne i projekt- og salgsvejledningerne tilgængelige på flere sprog. Først skal du placere dokumentskabelonerne for de forskellige sprog i de rigtige mapper og derefter angive, hvem der skal bruge de forskellige sprogversioner.
+Hvis dit firma har afdelinger i flere lande, kan det være nyttigt at have dokumentskabelonerne i projekt- og salgsguiderne tilgængelige på flere sprog. Først skal du placere dokumentskabelonerne for de forskellige sprog i de rigtige mapper og derefter angive, hvem der skal bruge de forskellige sprogversioner.
 
 ## Tilføj dokumentskabeloner for sprog
 
