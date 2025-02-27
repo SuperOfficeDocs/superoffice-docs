@@ -10,11 +10,103 @@ envir: cloud, onsite
 client: web, service
 ---
 
-<!-- markdownlint-disable-file MD051 -->
+<!-- markdownlint-disable-file MD051 MD032 -->
 
-# Quick-start for SuperOffice APIs
+# Introduction
 
-SuperOffice provides different ways to communicate with the API. This guide focuses on how you can get up and running using the REST API, which is available for all online tenants and also onsite installations (from [version 8.1][6]).
+## Overview of SuperOffice API capabilities
+
+SuperOffice APIs offer a rich and flexible set of capabilities designed to support a wide range of integration scenarios. At a high level, these capabilities include:
+
+* **Multiple API Types:**
+  SuperOffice provides both `SOAP` and `REST` APIs.
+
+  > [!NOTE]
+  > SuperOffice plans ro phase out the SOAP API in the future.
+  > We recommend using the REST API for new integrations.
+
+* **Flexible Authentication Options:**
+  The APIs support various authentication flows:
+  * **Interactive Flow:** Users authenticate via the SuperOffice Online sign-in page.
+  * **Non-Interactive Flow:** Utilizes a system user for background, server-to-server communication without user intervention.
+  * **Impersonation Flow:** Uses a user’s refresh token after an initial interactive login, enabling ongoing API calls on behalf of that user without repeated sign-ins.
+
+* **Comprehensive Data Access:**
+  The APIs allow you to perform CRUD (Create, Read, Update, Delete) operations on key SuperOffice entities such as appointments, companies, contacts, projects, and sales. This makes it possible to build integrations that not only retrieve data but also modify and synchronize data between systems.
+
+* **Granular Permission Controls and User Account Flexibility:**
+  By choosing between a normal user account and a system user, you can balance between fine-grained security and broad administrative access. This ensures that API actions adhere to your organization’s security policies and licensing constraints.
+
+* **Integration and Developer Support:**
+  SuperOffice offers multiple client libraries (available via platforms like NPM and NuGet), OpenAPI and WSDL files and detailed documentation to help developers get started quickly. The APIs are designed to integrate seamlessly with a variety of programming languages and development environments.
+
+* **Enhanced Security and Session Management:**
+  With support for modern authentication standards like OAuth 2.0 and OpenID Connect, the CRM Online (cloud-based) APIs ensure secure and efficient session management, including mechanisms for token refresh and secure credential handling. Onsite installations do not use OAuth 2.0, but instead rely on [NetServer client session management](../../api/authentication/onsite/sosession/index.md).
+
+Overall, SuperOffice APIs provide the tools needed to build robust integrations, whether you’re looking to enhance a web application, automate backend processes, or synchronize data across platforms. This versatility makes them well-suited for everything from simple data retrieval tasks to complex, multi-user operations in a dynamic CRM environment.
+
+### Purpose of this guide
+
+The purpose of this guide is to provide developers and integrators with a comprehensive, step-by-step introduction to working with SuperOffice CRM APIs. It is designed to help you understand the full spectrum of integration options available—from choosing between SOAP and REST APIs to implementing secure authentication flows. The guide covers essential topics such as:
+
+* Detailed comparisons of available API technologies and when to use each.
+* Multiple authentication methods, including interactive logins, pure non-interactive flows using a system user, and impersonation flows leveraging a user’s refresh token.
+* Practical examples for executing key API operations like retrieving user details, creating and updating appointments, and managing tasks.
+* Guidance on selecting the appropriate user account type (normal user vs. system user) based on your integration requirements.
+
+Overall, the scope of this guide is to equip you with dependable information and practical insights to successfully integrate with SuperOffice CRM APIs, whether you're building web applications, automating backend processes, or synchronizing data across systems.
+
+## Choosing the Right API
+
+When starting your integration with SuperOffice CRM, one of the first decisions you'll face is selecting the most appropriate API for your needs. SuperOffice offers both SOAP and REST APIs, each with its own strengths, and understanding the differences is key to building a robust and efficient integration.
+
+### SOAP API
+
+**Overview:**
+SOAP APIs are built on XML and are designed for enterprise-level integrations. They leverage proxy mechanisms—either self-generated or provided by SuperOffice—to manage session states and handle complex authentication workflows.
+
+**Pros:**
+
+* **Robustness:** Offers strong enterprise features and is well-suited for complex operations.
+* **Comprehensive Session Management:** Proxy-based approaches can provide detailed control over user sessions.
+* **Legacy Integration:** Ideal if you’re working within environments that already rely on XML-based communication.
+
+**Cons:**
+
+* **Verbosity:** XML messages can be bulky, potentially slowing down network traffic.
+* **Complexity:** Setting up and maintaining SOAP integrations can be more involved compared to REST.
+
+**Use Cases:**
+* Integrations requiring detailed session and state management.
+* Scenarios where legacy systems are in use or where XML is the preferred data format.
+
+### REST API
+
+**Overview:**
+REST APIs use JSON by default, making them lightweight and well-suited for modern web applications. They allow developers to interact with SuperOffice resources using simple HTTP methods, resulting in faster data exchange and a more streamlined integration process.
+
+**Pros:**
+
+* **Simplicity and Speed:** JSON’s lightweight nature ensures quick data transfer and ease of parsing.
+* **Flexibility:** Easy to integrate with web and mobile applications due to its straightforward URL-based design.
+* **Modern Standards:** SuperOffice CRM Online leverages OAuth 2.0 and OpenID Connect for authentication, aligning with current best practices. Onsite uses basic and SoToken authentication.
+
+**Cons:**
+* **Learning Curve:** For developers used to SOAP, shifting to RESTful principles might require an adjustment.
+
+**Use Cases:**
+* Building fast, responsive web and mobile applications.
+* Scenarios where lightweight data exchange is a priority.
+* Modern integrations where speed and ease of development are crucial.
+
+### Decision Factors
+
+When choosing between SOAP and REST APIs for your SuperOffice integration, consider the following:
+* **Performance Needs:** For applications that demand quick responses and minimal overhead, the REST API’s lightweight JSON format is ideal.
+* **Developer Expertise:** Consider the familiarity of your development team with either XML (SOAP) or JSON (REST) as part of your decision-making process.
+* **Security and Authentication:** Both APIs support robust security features, but the choice may be influenced by the specific authentication flow your integration requires (e.g., interactive vs. non-interactive).
+
+By carefully weighing these factors, you can choose the API that best aligns with your technical requirements and integration goals. Ultimately, both SOAP and REST offer dependable ways to interact with SuperOffice, so your decision will largely depend on the specific needs and constraints of your project.
 
 ## Authentication flows
 
@@ -363,4 +455,3 @@ If you encounter difficulties in communicating with our API, we highly value you
 [8]: ../../developer-portal/create-app/index.md
 [9]: https://github.com/SuperOffice
 [10]: https://www.geeksforgeeks.org/difference-between-rest-api-and-rpc-api/
-[10
