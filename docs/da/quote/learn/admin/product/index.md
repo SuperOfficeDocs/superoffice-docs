@@ -29,7 +29,7 @@ Vælg den ønskede prisliste på **Prislisten**. Produkterne i prislisten vises 
 
 ## Eksporter en prisliste
 
-Du kan eksportere en åben prisliste ved at klikke på ![ikonet][img1] **Eksportér** nederst på fanen **SuperOffice-produkter**. Hvis du kun vil eksportere nogle produkter, kan du vælge dem i prislisten. Hvis du ikke vælger nogen produkter, eksporteres alle produkterne i prislisten.
+Du kan eksportere en åben prisliste ved at klikke på <i class="ph ph-download-simple" aria-hidden="true"></i> **Eksportér** nederst på fanen **SuperOffice-produkter**. Hvis du kun vil eksportere nogle produkter, kan du vælge dem i prislisten. Hvis du ikke vælger nogen produkter, eksporteres alle produkterne i prislisten.
 
 ### Eksport ikke synlig?
 
@@ -38,7 +38,7 @@ Enten har du ikke [adgangsrettigheder][4] til eksportfunktionen, eller også er 
 > [!TIP]
 > Før du eksporterer prislisten, kan det være nyttigt at vælge, hvilke kolonner du ønsker, og deres rækkefølge.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføj en prisliste][2]
 * [Tilføje produkter til en prisliste][1]
@@ -50,6 +50,3 @@ Enten har du ikke [adgangsrettigheder][4] til eksportfunktionen, eller også er 
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

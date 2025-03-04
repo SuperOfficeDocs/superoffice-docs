@@ -44,7 +44,7 @@ Du kan tilføje et nyt detaljekort på enhver skærm, der har et detaljekortomr�
 
 1. Erstat "Ny fane" med arkivnavnet, og indtast en beskrivelse af det nye arkiv.
 
-    Du kan også klikke på **A-Z** knappen for at tilføje teksten på andre sprog.
+    Du kan også klikke på <i class="ph ph-translate" aria-label="Translate"></i> for at tilføje teksten på andre sprog.
 
 1. Juster **Unikt navn til kortet** (soprotocol) efter behov.
 
@@ -59,7 +59,7 @@ Du kan tilføje et nyt detaljekort på enhver skærm, der har et detaljekortomr�
 1. (Valgfrit) Brug **Avancerede indstillinger** for at tilpasse enkeltklik- og dobbeltklik-handlinger. Som standard vil et enkeltklik vælge en række, og et dobbeltklik åbner en post/enhed i SuperOffice.
 
     > [!TIP]
-    > Hold musemarkøren over infoikonet ![icon][img4] for at se eksempler.
+    > Hold musemarkøren over <i class="ph ph-info" aria-label="Info"></i> for at se eksempler.
 
 1. Træk arkivet til den ønskede position i forhåndsvisningen.
 
@@ -98,7 +98,6 @@ For at fortryde disse ændringer skal du klikke på **Gendan faner**.
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

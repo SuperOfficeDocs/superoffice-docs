@@ -1,7 +1,7 @@
 ---
 uid: help-da-select-product-image
 title: Valg af produktbillede
-description: "I denne vejledning lærer du, hvordan du kan tilføje billeder til alle de produkter, du tilføjer til SuperOffice Quote."
+description: I denne vejledning lærer du, hvordan du kan tilføje billeder til alle de produkter, du tilføjer til SuperOffice Quote.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: produkt, billede
@@ -39,7 +39,7 @@ Når du har tilføjet dine produkter, enten manuelt eller ved import, kan du til
 
 [!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
-## Tilknyttet
+## Relateret indhold
 
 * [Føj produkt til en prisliste][1]
 

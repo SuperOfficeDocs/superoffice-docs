@@ -1,7 +1,7 @@
 ---
 uid: help-da-sync-rank-fields-shown-in-erp-tab
-title: "Rangering af felt, som vises på ERP-fanen"
-description: "Rangering af felt, som vises på ERP-fanen"
+title: Rangering af felt, som vises på ERP-fanen
+description: Rangering af felt, som vises på ERP-fanen
 author: Bergfrid Dias
 date: 03.29.2023
 keywords: tilbud, sync, connector, ERP
@@ -21,7 +21,7 @@ Du kan angive rækkefølgen på de ERP-felter, der vises på fanen ERP i SuperOf
 
 1. Vælg fanen for den aktør, du vil konfigurere standardværdier for. Denne fane viser alle tilgængelige felter for aktøren (herunder både felter, der vises under fanen **ERP** i SuperOffice CRM, og dem, der ikke er).
 
-1. Vælg et felt på listen, og brug pilene![ikon][img1] ![ikon][img2] til at angive felternes rækkefølge.
+1. Vælg et felt på listen, og brug <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> til at angive felternes rækkefølge.
 
 1. Gentag trin 4 og 5 for at ændre feltrangeringen for andre aktører.
 
@@ -33,7 +33,3 @@ Du kan angive rækkefølgen på de ERP-felter, der vises på fanen ERP i SuperOf
 <!-- Referenced links -->
 [1]: sync-configure-field-allocation.md
 [2]: sync-configure-default-values.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

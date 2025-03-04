@@ -1,7 +1,7 @@
 ---
 uid: help-da-price-list-add
 title: Tilføj prisliste
-description: "I denne vejledning lærer du, hvordan du tilføjer og redigerer en prisliste i SuperOffice Quote."
+description: I denne vejledning lærer du, hvordan du tilføjer og redigerer en prisliste i SuperOffice Quote.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: produkt, prisliste
@@ -56,7 +56,7 @@ Tilpasning af prislister hjælper dine sælgere med at bruge de korrekte prisopl
     > [!NOTE]
     > Når prislisten er oprettet, kan du ikke længere ændre dens valuta og gyldighed.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføje produkter til en prisliste][1]
 * [Sync][2]

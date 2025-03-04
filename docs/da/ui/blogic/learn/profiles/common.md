@@ -24,10 +24,10 @@ Fællesprofiler er knyttet til en [rolle][2] og gælder for alle brugere, der ha
 
 Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilledet **Find anmodninger** .
 
-1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Klik på **Søg**.
-4. Peg på **Find anmodninger**, og klik på ![ikon][img2] (**Ny fælles profil**) til højre for navnet. Skærmbilledet **Rediger elementprofil** vises.
+4. Peg på **Find anmodninger**, og klik på <i class="ph ph-list" aria-label="Main menu"></i> (**Ny fælles profil**) til højre for navnet. Skærmbilledet **Rediger elementprofil** vises.
 5. I feltet **Navn** skal du indtaste det ønskede navn på profilen.
 6. Klik på knappen **Tilføj kriterium**.
 7. I dialogboksen skal du gøre følgende:
@@ -38,7 +38,7 @@ Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilled
 
 ## Rediger oplysninger i en fælles profil
 
-1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Bladr ned gennem hierarkiet, til du kommer til den ønskede profil.
 4. Klik på profilnavnet. Skærmbilledet **Rediger elementprofil** vises.
@@ -47,7 +47,7 @@ Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilled
 
 ## Slet en fællesprofil
 
-1. Vælg ![ikon][img1] **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
+1. Vælg **Systemindstillinger** > **Profil**. Skærmbilledet **Vis profiler** vises.
 2. Vælg **System**. Der vises en hierarkisk oversigt over alle profilerne i systemet.
 3. Bladr ned gennem hierarkiet, til du kommer til den ønskede profil.
 4. Klik på profilnavnet. Skærmbilledet **Rediger elementprofil** vises.
@@ -64,7 +64,3 @@ Følgende trin viser for eksempel, hvordan du tilføjer et felt på skærmbilled
 [3]: ../../../../admin/user-management/learn/role/create-role.md
 [4]: personal.md
 [5]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

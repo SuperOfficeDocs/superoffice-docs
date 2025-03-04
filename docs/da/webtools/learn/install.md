@@ -1,7 +1,7 @@
 ---
 uid: help-da-webtools-install
 title: Installer WebTools
-description: "Hvis du bruger Windows OS, skal du bruge WebTools til at integrere dine Outlook- og Microsoft 365-dokumentapplikationer med SuperOffice CRM."
+description: Hvis du bruger Windows OS, skal du bruge WebTools til at integrere dine Outlook- og Microsoft 365-dokumentapplikationer med SuperOffice CRM.
 author: Bergfrid Dias
 date: 12.04.2023
 keywords: WebTools
@@ -20,14 +20,16 @@ language: da
 
 ## Installering af WebTools til Windows OS
 
-Se denne video, eller følg vejledningen nedenunder for at lære, hvordan du installerer WebTools til Outlook ved hjælp af Windows OS (videolængde - 3:00):
+Se denne video, eller følg vejledningen nedenunder for at lære, hvordan du installerer WebTools til Outlook ved hjælp af Windows OS:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/PGh6An9o8mA]
 
+(videolængde - 3:00)
+
 ### Trin
 
-1. Gå til ![ikon][img1] Hovedmenu på toplinjen.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen.
 1. Vælg **Download** > **SuperOffice WebTools**. Vejviseren for SuperOffice WebTools vises.
 
     ![Download WebTools -screenshot][img2]
@@ -61,7 +63,6 @@ Vi arbejder altid på at forbedre vores programmer, herunder WebTools. Når en n
 [1]: install-mac.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
 [img2]: ../../../media/loc/en/webtools/download-webtools.png
 [img3]: ../../../media/loc/en/webtools/webtools-pc.png
 [img4]: ../../../media/loc/en/webtools/webtools-email-client.png
