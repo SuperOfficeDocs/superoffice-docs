@@ -12,7 +12,7 @@ Når du har fundet ud af, hvilket design du vil bruge, kan du med et par klik v�
 
 1. Vælg en skabelon på en af de følgende måder:
     * Vælg en af de tilgængelige faner (**Onlineskabelonbibliotek**, **Seneste skabeloner**, **Alle skabeloner** osv.) for at se tilgængelige udsendelser eller skabeloner, som du kan basere din nye mailudsendelse på.
-    * Indtast et søgeord i **Søg skabeloner**, og tryk på **ENTER** eller klik på søgeikonet ![ikon][img1].
+    * Indtast et søgeord i **Søg skabeloner**, og tryk på **ENTER** eller klik på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. På listen nedenfor skal du klikke på en skabelon for at vælge den.
 
@@ -25,5 +25,4 @@ Når du har fundet ud af, hvilket design du vil bruge, kan du med et par klik v�
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

@@ -1,21 +1,21 @@
 ---
 uid: help-da-marketing
 title: SuperOffice Marketing
-description: "Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet."
+description: Funktionerne til markedsføring omfatter udsendelser og webformularer og hjælper brugerne med at indsamle oplysninger og kommunikere bedre med kundeemner og kunder. Tilsammen kan det hjælpe dig med at generere flere kundeemner, sælge mere til dine nuværende kunder og opbygge kundeloyalitet.
 author: SuperOffice RnD
 date: 06.14.2024
 version: 10.3.5
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
-# SuperOffice Marketing
+# SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marketing har udelukkende med udgående kommunikation og formularer at gøre. Brug udsendelser til at informere kunder om for eksempel opgraderinger og produktnyheder. Brug formularer til tilmelding til produkt-/nyhedsbreve, samtykkeadministration, dataopdateringer og "Kontakt mig"-formularer.
 
-For at åbne SuperOffice Marketing skal du klikke på **Marketing**-![ikonet][img2] i browseren.
+For at åbne SuperOffice Marketing skal du klikke på **Marketing**-ikonet (<i class="ph ph-target" aria-hidden="true"></i>) i browseren.
 
 Med SuperOffice Marketing kan du oprette følgende:
 
@@ -23,10 +23,12 @@ Med SuperOffice Marketing kan du oprette følgende:
 * **Formularer**. [Kom i gang med din første formular][1].
 * **Flows** (automatisering).
 
-Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing ( videoens længde - 2:31):
+Se denne videorundvisning om produkterne og få en introduktion til funktionerne i SuperOffice Marketing:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
+
+(videoens længde - 2:31)
 
 ## Om udsendelser
 
@@ -105,15 +107,15 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 |---|---|---|
 | Udsendelser | Her finder du alle udsendelser og opretter nye. | [Opret ny udsendelse][5] |
 | Meddelelsesskabeloner | Her kan du finde standardskabeloner til SuperOffice Marketing og de skabeloner, du selv har oprettet, samt en lang række skabeloner fra onlinebiblioteket. | [Arbejde med meddelelsesskabeloner][13] |
-| Sporede links | Her finder du alle de sporede links, der er brugt i dine udsendelser. Klik på ![ikonet][img1] **Tilføj** for at oprette et nyt link. | [Opret sporede links][14] |
-| Billeder | Her finder du alle de billeder, der er tilgængelige i SuperOffice Marketing. Klik på ![ikonet][img1] **Tilføj** for at tilføje nye billeder. | [Tilføj billeder][15] |
+| Sporede links | Her finder du alle de sporede links, der er brugt i dine udsendelser. Klik på **Tilføj** for at oprette et nyt link. | [Opret sporede links][14] |
+| Billeder | Her finder du alle de billeder, der er tilgængelige i SuperOffice Marketing. Klik på **Tilføj** for at tilføje nye billeder. | [Tilføj billeder][15] |
 | Blokerede e-mailadresser | Her kan du administrere afviste e-mails og spamklager. | [Blokerede e-mailadresser][12], [spam][16] |
 | Formularer | Her finder du alle formularerne og opretter nye. | [Opret en ny formular][1] |
 | Formularskabeloner | Her finder du alle formularskabelonerne. | [Arbejde med formularskabeloner][18] |
 | Formularindsendelser | Her finder du alle de indsendte formularer. | [Formularindsendelser][19] |
 | Flows | Indeholder alle flows og opretter nye. | [Opret en ny flow][20] |
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprette ny udsendelse][5]
 * [Oprette en ny formular][1]
@@ -138,7 +140,3 @@ SuperOffice Marketing leveres som en online-applikation (cloud-baseret) og som e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

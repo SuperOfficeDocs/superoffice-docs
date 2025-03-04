@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.14.2024
 version: 10.3.5
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Opdater flow
@@ -64,7 +64,7 @@ Du kan finde disse ressourcer nyttige:
 ## Flyt, dupliker eller fjern trin
 
 * **Flyt:** Klik på et trin og træk det til en ny placering.
-* **Dupliker:** Peg på et trin og klik på **Dupliker**-ikonet ![ikon][img11]. Dette opretter et nyt trin baseret på det aktuelle og tilføjer det som det næste trin. Brug denne mulighed til at genbruge et trin i samme flow.
+* **Dupliker:** Peg på et trin og klik på **Dupliker**-ikonet (<i class="ph ph-copy" aria-hidden="true"></i>). Dette opretter et nyt trin baseret på det aktuelle og tilføjer det som det næste trin. Brug denne mulighed til at genbruge et trin i samme flow.
 * **Fjern:** Peg på et trin og klik på det røde X. Dette fjerner trinnet fra flowet (men ikke dets indhold).
 
 > [!NOTE]
@@ -115,6 +115,3 @@ Gå til fanen **Flow** for at kontrollere, om der er nogen på grenen. Hvis ja, 
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenced images -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

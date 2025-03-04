@@ -7,9 +7,9 @@ keywords: Marketing
 date: 02.26.2024
 version: 10
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Sådan tilføjer du tags fra Google Analytics til en mailudsendelse

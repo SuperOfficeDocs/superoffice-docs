@@ -2,9 +2,9 @@
 uid: help-da-faq-create
 title: Oprettelse af FAQ-poster
 description: Oprettelse af FAQ-poster
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: FAQ
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -35,7 +35,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
 1. [Åbn en sag][1].
 
-1. Klik på ![ikonet][img1] knappen **Opgave**, og vælg **Udgiv til FAQ**. Du kommer til skærmbilledet **Egenskaber for FAQ-post**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, og vælg **Udgiv til FAQ**. Du kommer til skærmbilledet **Egenskaber for FAQ-post**.
 
    ![Skærmbilledet Egenskaber for FAQ-post -screenshot][img5]
 
@@ -69,14 +69,14 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
     1. Klik på **Vælg fil** ved siden af **Vedhæftet fil**.
     2. I dialogboksen skal du gennemse mulighederne, indtil du når frem til det ønskede dokument.
-    3. Klik på ![ikon][img1] for at tilføje vedhæftningen.
+    3. Klik på **+** for at tilføje vedhæftningen.
     4. Gentag denne fremgangsmåde for at tilføje flere vedhæftede filer.
 
 1. I feltet **Link** kan du tilføje én eller flere adresser til relevante websider:
 
     1. I feltet til venstre skal du indtaste det navn, der skal vises for linket.
     2. I feltet til højre skal du indtaste den faktiske webadresse efter `http://`
-    3. Klik på ![ikon][img1] **Tilføj** for at tilføje linket.
+    3. Klik på **+** for at tilføje linket.
     4. Gentag denne fremgangsmåde for at tilføje flere links.
 
 1. Gå til fanen **Spørgsmål**.
@@ -84,7 +84,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 1. Indtast det spørgsmål, du vil have FAQ-posten til at indeholde. Som standard indsættes den første meddelelse i sagen i fanen **Spørgsmål** .
 
     > [!TIP]
-    > Klik på ![ikonet][img2] **Formater skrifttype** knappen for at ændre tekstens layout.
+    > Klik på **Formater skrifttype** knappen (<i class="ph ph-text-a-underline" aria-hidden="true"></i>) for at ændre tekstens layout.
 
 1. Gå til fanen **Svar**, og angiv svaret. Som standard indsættes de næste meddelelser i sagen i fanen **Svar**.
 
@@ -94,7 +94,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
 ## Oprettelse af ny FAQ
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**.
 
 1. Gå til den mappe, du vil placere FAQ-posten i. Hvis den endnu ikke findes, kan du [oprette en ny mappe][2].
 
@@ -106,7 +106,7 @@ Hvis du svarer på en henvendelse og tænker, at det samme spørgsmål ofte går
 
 Da muligheden for at oprette FAQ-poster på denne måde kun er tilgængelig for **administratorer**, er der ikke er behov for et selvstændigt udgivelsestrin i processen. Administratoren kan oprette og udgive på samme tid.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Rediger FAQ-poster][4]
 * [Tilføj ofte stillede spørgsmål i en meddelelse][5]
@@ -121,8 +121,5 @@ Da muligheden for at oprette FAQ-poster på denne måde kun er tilgængelig for 
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

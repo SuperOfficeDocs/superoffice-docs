@@ -1,15 +1,15 @@
 ---
 uid: help-da-mailing-add-merge-tags
 title: Føj fletfelter til din meddelelse
-description: "Få flere oplysninger om, hvordan du føjer fletfelter til din udsendelse"
+description: Få flere oplysninger om, hvordan du føjer fletfelter til din udsendelse
 keywords: Marketing, fletfelt, meddelelse, skabelonvariabler
 author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Føj fletfelter til din meddelelse

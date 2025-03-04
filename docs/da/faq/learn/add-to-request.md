@@ -2,9 +2,9 @@
 uid: help-da-faq-add-to-request
 title: Tilføjelse af FAQ-poster til meddelelser
 description: Tilføjelse af FAQ-poster til meddelelser
+keywords: FAQ
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: FAQ
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -26,7 +26,7 @@ Når du besvarer en henvendelse, kan du spare tid ved at tilføje et link til en
 1. Der indsættes et **link** på markørens position. Kunden kan klikke på et link for at få vist den aktuelle FAQ-post i kundecenteret.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

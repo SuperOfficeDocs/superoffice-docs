@@ -21,7 +21,7 @@ For ikke at overbelaste serverne i arbejdstiden kan det være en god idé at væ
 
 1. Klik på **Tidsplan**.
 2. Under **Tidsplan**, vælg en af de følgende valgmuligheder:
-    * Klik på ![ikonet][img3] **Vælg dato** og vælg dato og klokkeslæt for afsendelsen.
+    * Klik på **Vælg dato** (<i class="ph ph-calendar-blank" aria-hidden="true"></i>) og vælg dato og klokkeslæt for afsendelsen.
     * Klik på **Sæt til nu** for at indsætte dags-dato og klokkeslæt.
 3. Klik på **OK**. Workflowet lukker, og du kommer tilbage til fanebladet **Udsendelser**.
 
@@ -35,5 +35,4 @@ For at standse udsendelsen eller påbegynde en planlagt udsendelse før planlagt
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

@@ -1,7 +1,7 @@
 ---
 uid: help-da-mobile-intro
 title: Mobile CRM - adgang til jeres kundesystem på farten
-description: "I denne vejledning lærer du, hvordan du kommer i gang med de grundlæggende funktioner i Mobile CRM."
+description: I denne vejledning lærer du, hvordan du kommer i gang med de grundlæggende funktioner i Mobile CRM.
 author: Bergfrid Dias
 date: 03.14.2023
 keywords: mobil, pocket

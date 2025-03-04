@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.13.2024
 version: 10
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Arbejde med formularer
@@ -69,7 +69,7 @@ SuperOffice Marketing har 3 faner vedrørende formularer.
 | Inaktiv/Aktiv | Skift denne skydeknap for at aktivere eller deaktivere formularen. |
 | Opdater | Opdaterer skærmbilledet. |
 | Rediger | Åbner formularen i redigeringsmode. |
-| ![ikon][img5] | Gør formularen til [foretrukken][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Gør formularen til [foretrukken][11]. |
 
 Skærmbilledet **Vis formular** består af følgende faner:
 
@@ -118,4 +118,3 @@ Det betyder, at din mailingliste bliver mere pålidelig, hvilket vil hjælpe med
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img3]: ../../../../media/loc/en/marketing/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png

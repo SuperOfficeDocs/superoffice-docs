@@ -19,7 +19,7 @@ Du kan tilføje modtagere fra udvalg (i både SuperOffice CRM og SuperOffice Ser
 
 3. Klik på et udvalg eller projekt på listen.
 
-4. Klik på ![ikonet][img1]. Udvalget eller projektet tilføjes til listen **Modtagerkilder**, og listen **Modtagere** opdateres.
+4. Klik på **+**. Udvalget eller projektet tilføjes til listen **Modtagerkilder**, og listen **Modtagere** opdateres.
 
 5. Gentag trin 1-4 for at tilføje flere udvalg eller projekter.
 
@@ -36,7 +36,7 @@ Du kan tilføje individuelle kontakter fra SuperOffice.
 
 3. Vælg den ønskede person på den liste, der vises.
 
-4. Klik på ![ikonet][img1]. Personen tilføjes på listen **Modtagerkilder**, og listen **Modtagere** opdateres.
+4. Klik på **+**. Personen tilføjes på listen **Modtagerkilder**, og listen **Modtagere** opdateres.
 
 5. Gentag trin 2-5 for at tilføje flere personer. Yderligere kontakter vil blive tilføjet den samme række på listen **Modtagerkilder**, og antallet af personer vil blive vist i kolonnen **Navn**.
 
@@ -52,7 +52,7 @@ Når du importerer en liste over navne og e-mailadresser, forsøger SuperOffice 
 
 2. Lokaliser den relevante fil (.txt, .csv eller lignende tekstformat).
 
-3. Klik på ![ikonet][img1]. Listen tilføjes på listen **Modtagerkilder**, og listen **Modtagere** opdateres.
+3. Klik på **+**. Listen tilføjes på listen **Modtagerkilder**, og listen **Modtagere** opdateres.
 
 4. Gentag trin 2-4 for at tilføje flere modtagere. Supplerende modtagere vil blive tilføjet til den samme række i listen **Modtagerkilder**. Det samlede antal modtagere vil blive vist i kolonnen **Navn**.
 
@@ -118,7 +118,7 @@ Når du har tilføjet modtagere til listen **Modtagere**, kan du se en forhånds
 
 3. Klik på alle links for at kontrollere om de virker, men husk at nulstille dem, hvis de er sporbare.
 
-4. Klik på ![ikonet][img2] for at lukke vinduet **Forhåndsvisning**.
+4. Klik på X for at lukke vinduet **Forhåndsvisning**.
 
 ## Gennemgå og opdatere modtagerlisten
 
@@ -132,6 +132,4 @@ Du kan også klikke på knappen **Opdater liste** nedenfor listen **Modtagere** 
 Klik på **Næste** for at gå til Trin 5: Bekræft. Du kan stadig gå tilbage til trinnet **Modtagere** for at redigere i modtagerlisten.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

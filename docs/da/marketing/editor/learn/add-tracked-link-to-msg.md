@@ -1,7 +1,7 @@
 ---
 uid: help-da-mailing-add-tracked-link
 title: Indsætte sporede links i en meddelelse
-description: "Du kan konfigurere dine links på to måder. Du kan enten bruge et forudindstillet sporet link til at spore klik på tværs af flere udsendelser eller du kan oprette et nyt link, der kun er tilgængeligt i denne udsendelse. I denne vejledning får du flere oplysninger om, hvordan du tilføjer et sporet link."
+description: Du kan konfigurere dine links på to måder. Du kan enten bruge et forudindstillet sporet link til at spore klik på tværs af flere udsendelser eller du kan oprette et nyt link, der kun er tilgængeligt i denne udsendelse. I denne vejledning får du flere oplysninger om, hvordan du tilføjer et sporet link.
 keywords: Marketing, mailudsendelse
 author: SuperOffice RnD
 date: 11.19.2024
@@ -28,7 +28,7 @@ Ved at oprette links, der leder læserne til forskelligt indhold på dit websted
 
     * Sådan tilføjes et eksisterende sporet link:
 
-      * Tekst: Klik på ![ikonet][img1] i værktøjslinjen, vælg **Særlige links** > **Sporede links** og vælg et link.
+      * Tekst: Klik på <i class="ph ph-link" aria-label="Insert/edit link"></i> i værktøjslinjen, vælg **Særlige links** > **Sporede links** og vælg et link.
       * Billede: I sidepanelet (under **Handling**) skal du vælge **Særlige link** > **Sporede links** og vælge et link.
 
     * Hvis du vil [oprette et nyt sporet link][5], skal du klikke på **Opret nyt sporet link** nederst på skærmen.
@@ -37,11 +37,11 @@ Ved at oprette links, der leder læserne til forskelligt indhold på dit websted
 
 ## Tips
 
-Du kan tilføje almindelige (ikke-sporede) links. For tekstlinks skal du klikke på ![ikonet][img1] i værktøjslinjen. For billedlinks skal du bruge feltet **Billede-URL** i sidepanelet.
+Du kan tilføje almindelige (ikke-sporede) links. For tekstlinks skal du klikke på <i class="ph ph-link" aria-label="Insert/edit link"></i> i værktøjslinjen. For billedlinks skal du bruge feltet **Billede-URL** i sidepanelet.
 
 Hvis du senere beslutter dig for også at spore disse links, skal du vælge indstillingen **Spor alle links** under **Sporing** i Trin 1: Indstillinger. Disse links overvåges dog kun for den pågældende udsendelse og vil ikke være tilgængelige for andre udsendelser eller i flows.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Oprette sporede links][5]
 * [Definere linkhandlinger][6]
@@ -57,5 +57,4 @@ Hvis du senere beslutter dig for også at spore disse links, skal du vælge inds
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

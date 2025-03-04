@@ -2,9 +2,9 @@
 uid: help-da-faq-workflow
 title: Faser i Workflow
 description: Faser i Workflow
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: FAQ
+author: SuperOffice RnD
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -17,7 +17,7 @@ I en ny installation har du to standardtrin i workflowet: **Ikke-udgivet** og **
 
 ## Oprettelse af nye trin
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på knappen **Workflow**. Du kommer til skærmbilledet **Vis workflow**.
 1. Klik på knappen **Nyt trin**. Du kommer til skærmbilledet **Nyt trin**.
 1. Angiv et beskrivende navn på trinnet i feltet **Navn**.
@@ -28,7 +28,7 @@ I en ny installation har du to standardtrin i workflowet: **Ikke-udgivet** og **
     * **Kan flytte**: Brugeren har lov til at ændre workflows for poster, (udgive eller ophæve udgivelse).
     * **Kan ændre**: Brugeren har rettigheder til at ændre FAQ-poster.
     * **Fuld adgang**: Brugeren har alle rettigheder i forbindelse med workflowet.
-1. Klik på knappen ![ikon][img3] **Tilføj** for at tilføje brugeren på listen under **Brugeradgang**.
+1. Klik på **+** for at tilføje brugeren på listen under **Brugeradgang**.
 1. Gentag trinnene 7-9 ovenfor, hvis du vil tilføje flere brugere.
 1. Klik på **OK**. Trinnet oprettes og er nu tilgængeligt, når du udgiver FAQ-poster.
 
@@ -36,19 +36,19 @@ I en ny installation har du to standardtrin i workflowet: **Ikke-udgivet** og **
 
 Du kan både ændre navnet på et trin og justere, hvilke brugere der skal have adgang til det.
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**.
 1. Klik på knappen **Workflow**.
 1. Klik på selve trinnavnet. Du kommer til skærmbilledet **Rediger trin**.
 1. Rediger navnet, hvis der er behov for det.
 1. Juster eventuelt, hvilke brugere der skal have adgang til det aktuelle trin:
     * Hvis du vil tilføje brugere, skal du følge den ovenstående fremgangsmåde.
-    * Du kan fjerne brugere ved at vælge den eller de relevante brugere, klikke på knappen ![ikon][img1] **Handlinger** og vælge knappen **Fjern adgang for valgte brugere**.
+    * Du kan fjerne brugere ved at vælge den eller de relevante brugere, klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og vælge knappen **Fjern adgang for valgte brugere**.
 1. Klik på **OK**. Ændringerne gemmes.
 
 ## Sletning af trin
 
-1. Gå til ![ikonet][img4] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
-1. Klik på knappen ![ikon][img2] **Workflow**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**.
+1. Klik på knappen **Workflow** (<i class="ph ph-gear" aria-hidden="true"></i>).
 1. Klik på selve trinnavnet. Du kommer til skærmbilledet **Rediger trin**.
 1. Klik på **Slet**. Hvis trinnet ikke har nogen tilknyttede FAQ-poster, slettes det med det samme.
 
@@ -70,9 +70,3 @@ Du kan både ændre navnet på et trin og justere, hvilke brugere der skal have 
 <!-- Referenced links -->
 [1]: view-entry.md
 [2]: publish.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/gearblack.png
-[img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../media/icons/main-menu.png

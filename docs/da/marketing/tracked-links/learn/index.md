@@ -1,7 +1,7 @@
 ---
 uid: help-da-mailing-tracked-links
 title: Sporede links
-description: "Et link, der sættes ind i en mailudsendelse, kan bruges til at spore besvarelser fra både eksisterende og potentielle kunder. Når modtagerne af din mailudsendelse klikker på linket, aktiveres en handling." 
+description: Et link, der sættes ind i en mailudsendelse, kan bruges til at spore besvarelser fra både eksisterende og potentielle kunder. Når modtagerne af din mailudsendelse klikker på linket, aktiveres en handling.
 author: SuperOffice RnD
 keywords: Marketing
 date: 11.19.2024
@@ -38,10 +38,10 @@ I fanebladet **Sporede links** har du følgende valgmuligheder:
 
 | Ikon | Mulighed | Læs mere |
 |:-:|---|---|
-| ![Ikon][img2] | Tilføj | [Opret et nyt link][1], [Definer linkhandlinger][7] |
-| ![Ikon][img3] | Tilføj mappe | [Opret en mappe][5] til dine links |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Tilføj | [Opret et nyt link][1], [Definer linkhandlinger][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Tilføj mappe | [Opret en mappe][5] til dine links |
 | Link | Klik på et link for at åbne **Visning af link** -screenshott. | [Arbejde med sporede links efter udsendelsen][2] |
-| ![Ikon][img1] | Menu | Klik på knappen ud for et link for at få adgang til flere indstillinger: |
+| <i class="ph ph-list" aria-label="Task menu"></i> | Menu | Klik på knappen ud for et link for at få adgang til flere indstillinger: |
 
 Menuindstillinger:
 
@@ -111,7 +111,4 @@ Google Analytics-funktionen i SuperOffice Marketing identificerer dine mailudsen
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

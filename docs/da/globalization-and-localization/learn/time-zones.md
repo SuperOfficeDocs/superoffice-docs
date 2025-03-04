@@ -2,9 +2,9 @@
 uid: help-da-time-zones
 title: Tidszoner
 description: Tidszoner
+keywords: tidszoner
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: CRM
 topic: concept
 language: da
 ---
@@ -29,7 +29,7 @@ Funktionen understøtter sommertid.
 
 ## Hvordan vælger du tidszoner?
 
-Tidszoner vises i form af en liste i [Dagbogen][1] og for [opfølgninger][3]. Den tidszone, som er standard for din SuperOffice-database, vises øverst med dette ikon: ![ikon][img1].
+Tidszoner vises i form af en liste i [Dagbogen][1] og for [opfølgninger][3]. Den tidszone, som er standard for din SuperOffice-database, vises øverst.
 
 Tidszonelisten er sorteret efter land. Øverst i tidszonelisten finder du navnet på det valgte land med flag.
 
@@ -57,6 +57,3 @@ Navnene på regioner i tidszonevælgeren vil altid være på engelsk, mens navne
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
 [3]: ../../diary/learn/follow-ups.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.png

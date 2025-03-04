@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 12.11.2024
 version: 10.3.5
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Flowdeltagere
@@ -25,7 +25,7 @@ For at se listen over deltagere for et specifikt flow:
 
 ![Flow-deltagerliste -screenshot][img1]
 
-Brug tandhjulet ![ikon][img4] i listen's header til at tilpasse kolonnerne.
+Brug tandhjulet (<i class="ph ph-gear" aria-hidden="true"></i>) i listen's header til at tilpasse kolonnerne.
 
 ![Flow-deltagerliste, tilpas kolonner -screenshot][img2]
 
@@ -83,4 +83,3 @@ I en opdeling følger deltagerne den første (venstre) gren, hvor de opfylder de
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

@@ -214,11 +214,11 @@ En [linkhandling][7] kan:
 [7]: ../../tracked-links/learn/define-link-actions.md
 [11]: ../../../learn/basics/bulk-update.md
 [12]: ../../../diary/learn/create-follow-up.md
-[13]: ../../../request/learn/howto/create.md
-[14]: ../../../request/learn/type/index.md
-[15]: ../../../request/learn/status/index.md
-[16]: ../../../request/learn/category/index.md
-[17]: ../../../request/learn/priority/index.md
+[13]: ../../../request/learn/create.md
+[14]: ../../../request/admin/type/index.md
+[15]: ../../../request/admin/status/index.md
+[16]: ../../../request/admin/category/index.md
+[17]: ../../../request/admin/priority/index.md
 [18]: ../../../sale/learn/create.md
 [19]: ../../../custom-objects/learn/extra-field.md
 [20]: ../../../automation/crmscript/learn/create-script.md

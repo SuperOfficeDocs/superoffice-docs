@@ -16,12 +16,9 @@ Klik på udsendelsen på listen for at [se status og statistik for din afsendels
 ## <a id="open-and-print-the-document"></a>Åbne og udskrive dokumentet
 
 1. Vælg fanen **Udsendelser**.
-2. Find dokumentet, klik på ![ikonet][img2] og vælg **Vis**.
+2. Find dokumentet, klik på <i class="ph ph-list" aria-label="Task menu"></i> og vælg **Vis**.
 3. Klik på knappen under **Download genereret dokument**. Filen downloades til din browser.
 4. Åbn og udskriv dokumentet.
 
 <!-- Referenced links -->
 [1]: ../../view-statistics.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../../media/icons/btn-menu.png

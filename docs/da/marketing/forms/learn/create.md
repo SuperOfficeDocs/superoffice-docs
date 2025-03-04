@@ -7,19 +7,21 @@ author: SuperOffice RnD
 date: 03.12.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Opret en ny formular
 
 Webformularer gør det lettere at interagere med kunder og potentielle kunder via dit websted eller kundecenteret. Du har tre muligheder: opret et formular fra bunden, opret og brug en brugerdefineret formularskabelon eller vælg en gratis skabelon fra **Online Template Library** i SuperOffice Marketing.
 
-Se denne video for at lære, hvordan du kan oprette en webformular (videoens længde - 7:49) eller følg trinnene nedenfor.
+Se denne video for at lære, hvordan du kan oprette en webformular eller følg trinnene nedenfor.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(videoens længde - 7:49)
 
 ## Opret ny (fra bunden)
 
@@ -36,7 +38,7 @@ Se denne video for at lære, hvordan du kan oprette en webformular (videoens læ
 
 1. Vælg fanen **Formularskabeloner**.
 2. Klik på **Alle skabeloner**.
-3. Klik på ![ikon][img1] menuknappen ved siden af den skabelon, du vil bruge.
+3. Klik på <i class="ph ph-list" aria-label="menuknappen"></i> ved siden af den skabelon, du vil bruge.
 4. Vælg **Kopier til ny formular**. Skabelonen åbnes i dialogboksen **Rediger formular**.
 5. [Aktivere og udgive formularen][2].
 
@@ -46,7 +48,7 @@ For at øge brugervenligheden og lette læsbarheden kan du overveje at opdele en
 
 1. Opret en formular som beskrevet ovenfor.
 2. Vælg **Felter** fra venstremenuen (i dialogboksen).
-3. Klik på knappen **Tilføj** ![ikon][img2].
+3. Klik på knappen **Tilføj** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. I vinduet **Tilføj element** vælger du **Vis elementer**.
 5. Vælg **Sektion**, og klik på **Tilføj**. Vinduet lukkes, og der føjes en sektion til formularen. Du kan også se sektionen i formulareksemplet.
 6. Klik på ![ikon][img3] øverst i sektionen, og træk det til den ønskede placering i formularen. Felterne over og under sektionen vil være på to separate sider i formularen.
@@ -83,7 +85,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 1. Vælg **Felter** fra venstremenuen. Som standard føjes feltet **Person - navn** og knappen **OK** til den nye formular.
 
-2. Klik på knappen **Tilføj** ![ikon][img2].
+2. Klik på knappen **Tilføj** (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. Vælg en af de følgende feltkategorier i vinduet **Tilføj element**:
 
@@ -107,7 +109,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
     * Marker det **obligatoriske** afkrydsningsfelt, hvis dette felt skal udfyldes. Formularen kan ikke sendes, hvis obligatoriske felter ikke er udfyldt.
 
-    * Klik på **Avancerede indstillinger** ![ikon][img5] for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet. Det bliver til et entydigt ID for dette felt og ændres ikke, feltnavnet/-etiketten eller sproget ændres. På den måde kan du sikre, at links til dette felt ikke brydes efter udgivelse af formularen.
+    * Klik på **Avancerede indstillinger** (<i class="ph ph-gear" aria-hidden="true"></i>) for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet. Det bliver til et entydigt ID for dette felt og ændres ikke, feltnavnet/-etiketten eller sproget ændres. På den måde kan du sikre, at links til dette felt ikke brydes efter udgivelse af formularen.
 
     * Klik på afkrydsningsfeltet **Fuld bredde,** hvis det markerede felt skal have samme bredde som formularen.
 
@@ -115,7 +117,7 @@ I kategorien **Felter** kan du tilføje de felter, der skal medtages i formulare
 
 10. Klik på **Brug nu**, når du er færdig.
 
-11. Gentag trin 2-10 for at tilføje et andet felt. Du kan også klikke på **Dubler felt** ![ikon][img6] for at oprette en kopi af et felt.
+11. Gentag trin 2-10 for at tilføje et andet felt. Du kan også klikke på **Dubler felt** (<i class="ph ph-copy" aria-hidden="true"></i>) for at oprette en kopi af et felt.
 
 ### Stil
 
@@ -149,7 +151,7 @@ Se denne video for at lære, hvordan du bruger dobbelt tilsagnsfunktionen (video
 
     3. **Bekræftelsestekst**: Indtast e-mailens brødtekst.
 
-    4. Vælg **Indsæt bekræftelseslink** ![ikon][img9] fra værktøjslinjen (klik ![ikon][img7] for at vise). Bekræftelseslinket indsættes i brødteksten. Hvis du vil redigere, klikker du på linket og vælger **Rediger link** ![ikon][img8].
+    4. Vælg **Indsæt bekræftelseslink** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) fra værktøjslinjen (klik <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i> for at vise). Bekræftelseslinket indsættes i brødteksten. Hvis du vil redigere, klikker du på linket og vælger **Rediger link** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 4. Klik på **Brug nu**, når du er færdig.
 
@@ -164,10 +166,12 @@ Når en person har udfyldt og indsendt en formular, bør du takke vedkommende og
 
 Brug "Tak"-siden til at promovere andre produkter eller begivenheder og link til relevante dele af dit websted. Dette forbedrer brugeroplevelsen og fremmer kundeloyalitet.
 
-Se denne video for at lære, hvordan du føjer en "Tak"-side til din webformular (videolængde - 1:48), eller følg nedenstående fremgangsmåde.
+Se denne video for at lære, hvordan du føjer en "Tak"-side til din webformular, eller følg nedenstående fremgangsmåde.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
+
+(videolængde - 1:48)
 
 Vælg et af følgende alternativer:
 
@@ -189,7 +193,7 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 * Hvordan skal en formularindsendelse behandles?
 * Hvad skal der ske, når formularen behandles?
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Udgiv formularer][2]
 
@@ -201,12 +205,5 @@ Her kan du [definere, hvad der sker, når nogen sender et svar på formularen][3
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

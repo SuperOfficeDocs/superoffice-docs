@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.11.2024
 version: 10
 topic: tutorial
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Vejledning - hvordan oprette formular for tilmelding til nyhedsbrev
@@ -42,7 +42,7 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 1. Velg feltet **Kontakt - Navn**, og klikk på den røde X-en for å fjerne dette feltet.
 
-1. Klikk på **Legg til**-knappen ![icon][img1] og legg til følgende felt:
+1. Klikk på <i class="ph ph-plus" aria-label="Add"></i> og legg til følgende felt:
 
     * For- og etternavn
 
@@ -107,9 +107,9 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
     SuperShop Teamet
     </details>
 
-1. Klik på **Indsæt bekræftelseslink** ![ikon][img3]. Bekræftelseslinket indsættes i brødteksten.
+1. Klik på **Indsæt bekræftelseslink** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>). Bekræftelseslinket indsættes i brødteksten.
 
-1. Klik på bekræftelseslinket, vælg **Rediger link** ![ikon][img5], og ændre linkteksten til "Klik her for at bekræfte din e-mailadresse". Linket er som standard gyldigt i 30 minutter.
+1. Klik på bekræftelseslinket, vælg **Rediger link** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), og ændre linkteksten til "Klik her for at bekræfte din e-mailadresse". Linket er som standard gyldigt i 30 minutter.
 
 1. Klik på **Anvend ny** for at gemme formularen og fortsætte med at redigere.
 
@@ -165,9 +165,6 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

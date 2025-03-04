@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 03.04.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Brug af forudfyldte felter i formularer
@@ -22,7 +22,7 @@ En feltidentifikator er en unik ID for et specifikt felt. Den vil ikke ændre si
 
 1. [Opret en ny formular][1].
 
-2. For hvert felt, der skal udfyldes på forhånd: Klik på **Avancerede indstillinger** ![ikon][img1] for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet.
+2. For hvert felt, der skal udfyldes på forhånd: Klik på **Avancerede indstillinger** (<i class="ph ph-gear" aria-hidden="true"></i>) for at vise feltet **Identifikator**, hvor du kan tilføje et ID i feltet.
 
 3. [Udgiv formularer][2].
 
@@ -48,6 +48,3 @@ En feltidentifikator er en unik ID for et specifikt felt. Den vil ikke ændre si
 [1]: create.md
 [2]: publish.md
 [3]: ../../../request/reply-templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

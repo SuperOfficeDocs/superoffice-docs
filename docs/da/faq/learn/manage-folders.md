@@ -2,9 +2,9 @@
 uid: help-da-faq-folder
 title: Administration af mapper med FAQ-poster
 description: Administration af mapper med FAQ-poster
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: FAQ, mappe
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -17,7 +17,7 @@ Du kan oprette en mappestruktur til FAQs, så du får en logisk struktur, der g�
 
 ## Oprettelse af mapper
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**.
 
 1. Klik på knappen **Ny mappe**. Du kommer til skærmbilledet **Egenskaber for FAQ-mappe**.
 
@@ -47,7 +47,7 @@ Før du sletter en FAQ-mappe, skal du fjerne alle posterne i den. Dette gøres p
 
 [!include[How to delete a folder](../../learn/includes/howto-delete-folder-kb.md)]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af FAQ-poster][3]
 
@@ -55,6 +55,3 @@ Før du sletter en FAQ-mappe, skal du fjerne alle posterne i den. Dette gøres p
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

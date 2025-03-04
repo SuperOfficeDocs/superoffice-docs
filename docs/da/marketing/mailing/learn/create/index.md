@@ -1,7 +1,7 @@
 ---
 uid: help-da-mailing-create
 title: Oprette ny udsendelse
-description: "Hvis du vil sende en marketingmail ud, skal du bare følge fem nemme trin. En opsætning af mail indebærer, at mailbeskeden skal udarbejdes, der skal udfyldes basisoplysninger, og der skal vælges en skabelon."
+description: Hvis du vil sende en marketingmail ud, skal du bare følge fem nemme trin. En opsætning af mail indebærer, at mailbeskeden skal udarbejdes, der skal udfyldes basisoplysninger, og der skal vælges en skabelon.
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing, udsendelse
@@ -67,7 +67,7 @@ I trin fire er du klar til at [tilføje din målliste][11] med modtagerne af din
 
 I det femte og sidste trin bekræfter du og afsender eller tidsindstiller din udsendelse. Du kan enten afsende din mail med det samme, eller du kan tidsindstille den.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Angive indstillinger for udsendelser][5]
 * [Spore udsendelsen og få vist statistik][7]

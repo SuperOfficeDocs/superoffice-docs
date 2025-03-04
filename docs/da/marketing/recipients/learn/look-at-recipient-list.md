@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.09.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Se på modtagerlisten efter mailudsendelsen
@@ -26,7 +26,7 @@ SuperOffice Marketing indsamler data om status for hver enkelt afsendt e-mail. I
 
 2. På skærmbilledet **Vis udsendelse** skal du klikke på fanen **Modtagere**.
 
-    Listen viser de første 100 modtagere. Klik på ![ikonet][img1] for at få vist de næste 100.
+    Listen viser de første 100 modtagere. Klik på <i class="ph ph-arrow-right" aria-label="Arrow right"></i> for at få vist de næste 100.
 
 3. [Filtrér listen](#filters) ved hjælp af afkrydsningsfelterne nederst på listen.
 
@@ -69,7 +69,7 @@ Hvis status er **Klar til afsendelse**, behøver du ikke gøre noget. SuperOffic
 Ved at bruge menuknappen **Opgave** kan du tilføje modtagere og klikkere til et udvalg eller projekt.
 
 > [!NOTE]
-> Kun personer, der allerede er registreret i SuperOffice-databasen, vil blive tilføjet til udvalget eller projektet. ![Ikonet][img3] Kontaktikon i kolonnen **Type** angiver, at kontakten er registreret i SuperOffice-databasen. Modtagere der er importeret fra eksterne lister vil normalt ikke blive registreret.
+> Kun personer, der allerede er registreret i SuperOffice-databasen, vil blive tilføjet til udvalget eller projektet. Kontaktikon (<i class="ph ph-user-circle" aria-hidden="true"></i>) i kolonnen **Type** angiver, at kontakten er registreret i SuperOffice-databasen. Modtagere der er importeret fra eksterne lister vil normalt ikke blive registreret.
 
 ### Tilføje klikkere til ny markering eller projekt
 
@@ -90,7 +90,7 @@ Ved at bruge menuknappen **Opgave** kan du tilføje modtagere og klikkere til et
 
 Åbn udvalg eller projekt for at verificere, at personerne er tilføjet.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Arbejde med sporede links efter udsendelsen][1]
 
@@ -101,6 +101,4 @@ Ved at bruge menuknappen **Opgave** kan du tilføje modtagere og klikkere til et
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

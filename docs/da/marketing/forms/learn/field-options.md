@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 03.11.2024
 version: 10
 topic: reference
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Feltindstillinger
@@ -49,17 +49,17 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 
   * **Lodret:** Vis værdierne vandret eller lodret.
 
-  * **Data:** Her kan du angive værdierne for hver alternativknap. Indtast en værdi i dette felt, og klik på knappen Tilføj ![ikon][img1]. Gentag for at tilføje flere værdier.
+  * **Data:** Her kan du angive værdierne for hver alternativknap. Indtast en værdi i dette felt, og klik på **+**. Gentag for at tilføje flere værdier.
 
 * **Afkrydsningsfelt:** Et valgfelt, hvor man kan vælge flere værdier.
 
   * **Lodret:** Vis værdierne vandret eller lodret.
 
-  * **Data:** Her kan du angive værdierne for hvert afkrydsningsfelt. Indtast en værdi i dette felt, og klik på knappen Tilføj ![ikon][img1]. Gentag for at tilføje flere værdier.
+  * **Data:** Her kan du angive værdierne for hvert afkrydsningsfelt. Indtast en værdi i dette felt, og klik på **+**. Gentag for at tilføje flere værdier.
 
 * **Rulleliste:** Et valgfelt, hvor man kan vælge værdier fra en liste.
 
-  * **Data:** Her angiver du listeværdierne. Indtast en værdi i dette felt, og klik på knappen Tilføj ![ikon][img1]. Gentag for at tilføje flere værdier.
+  * **Data:** Her angiver du listeværdierne. Indtast en værdi i dette felt, og klik på **+**. Gentag for at tilføje flere værdier.
 
 * **Skjult:** Et felt, der ikke er synligt i den udgivne formular. I feltet **Standardværdi** kan du indtaste en kode, et projektnavn/-nummer eller andre oplysninger, som skal knyttes til denne formular.
 
@@ -92,6 +92,3 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

@@ -1,15 +1,15 @@
 ---
 uid: help-da-blocked-email-addresses
 title: Blokerede e-mailadresser
-description: "Lær mere om, hvordan du håndterer afviste mails, i denne vejledning."
+description: Lær mere om, hvordan du håndterer afviste mails, i denne vejledning.
 keywords: Marketing
 author: SuperOffice RnD
 date: 12.11.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Administrere returposter
@@ -46,7 +46,7 @@ Brug filterknapperne (Sendt, Afvist og Åbnet) til at [filtrere din modtagerlist
 
 1. Hvis du vil rette en enkelt e-mail-adresse, skal du markere den på listen og klikke på **Åbn** i sidepanelet for at redigere kontaktpersonen.
 2. Gå til fanen **Detaljer**.
-3. Et advarselsikon ![ikon][img1] ud for e-mailadressen angiver, at der er et problem. Hold musemarkøren over ikonet for at få vist årsagen til problemet.
+3. Et advarselsikon (<i class="ph ph-warning" aria-hidden="true"></i>) ud for e-mailadressen angiver, at der er et problem. Hold musemarkøren over ikonet for at få vist årsagen til problemet.
 
 > [!TIP]
 > Klik på en kolonne for at få adgang til sorterings- og grupperingsfunktioner.
@@ -129,5 +129,4 @@ Brug denne indstilling til at angive en person som fratrådt medarbejder.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png
