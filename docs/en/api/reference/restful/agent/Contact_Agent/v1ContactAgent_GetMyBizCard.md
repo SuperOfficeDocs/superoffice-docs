@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 928,
-  "Name": "Kemmer LLC",
+  "ContactId": 910,
+  "Name": "Dickens Group",
   "Department": "",
-  "OrgNr": "695547",
-  "Number1": "867449",
-  "Number2": "350125",
-  "UpdatedDate": "2005-07-20T12:01:27.509638+02:00",
-  "CreatedDate": "2017-10-17T12:01:27.509638+02:00",
+  "OrgNr": "463715",
+  "Number1": "1202350",
+  "Number2": "1626285",
+  "UpdatedDate": "2012-12-23T14:13:39.8442326+01:00",
+  "CreatedDate": "2016-04-10T14:13:39.8442326+02:00",
   "Emails": [
     {
-      "Value": "expedita",
-      "StrippedValue": "voluptas",
-      "Description": "Robust composite benchmark",
+      "Value": "ad",
+      "StrippedValue": "magni",
+      "Description": "Face to face 3rd generation concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     },
     {
-      "Value": "expedita",
-      "StrippedValue": "voluptas",
-      "Description": "Robust composite benchmark",
+      "Value": "ad",
+      "StrippedValue": "magni",
+      "Description": "Face to face 3rd generation concept",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 234,
-      "Name": "Homenick Inc and Sons",
-      "ToolTip": "At esse sapiente eos facere voluptatem esse.",
+      "Id": 815,
+      "Name": "Wehner-Olson",
+      "ToolTip": "Quia expedita assumenda impedit error.",
       "Deleted": false,
-      "Rank": 507,
-      "Type": "qui",
-      "ColorBlock": 856,
-      "IconHint": "similique",
+      "Rank": 899,
+      "Type": "aperiam",
+      "ColorBlock": 752,
+      "IconHint": "omnis",
       "Selected": false,
-      "LastChanged": "2009-11-14T12:01:27.509638+01:00",
+      "LastChanged": "2015-07-07T14:13:39.8442326+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "voluptate",
-      "Hidden": true,
-      "FullName": "Eula Schmidt",
+      "ExtraInfo": "error",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Miss Cordie Addison Halvorson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 847
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "corporis",
-      "StrippedValue": "quo",
-      "Description": "Secured responsive task-force",
+      "Value": "est",
+      "StrippedValue": "nisi",
+      "Description": "Integrated holistic task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldLength": 513
         }
       }
     },
     {
-      "Value": "corporis",
-      "StrippedValue": "quo",
-      "Description": "Secured responsive task-force",
+      "Value": "est",
+      "StrippedValue": "nisi",
+      "Description": "Integrated holistic task-force",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 56
+          "FieldLength": 513
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "earum",
-      "StrippedValue": "neque",
-      "Description": "Progressive bottom-line framework",
+      "Value": "illum",
+      "StrippedValue": "id",
+      "Description": "Phased non-volatile synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 911
         }
       }
     },
     {
-      "Value": "earum",
-      "StrippedValue": "neque",
-      "Description": "Progressive bottom-line framework",
+      "Value": "illum",
+      "StrippedValue": "id",
+      "Description": "Phased non-volatile synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 911
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "fuga",
-      "StrippedValue": "et",
-      "Description": "Automated 4th generation installation",
+      "Value": "sunt",
+      "StrippedValue": "est",
+      "Description": "Persevering mobile superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 469
         }
       }
     },
     {
-      "Value": "fuga",
-      "StrippedValue": "et",
-      "Description": "Automated 4th generation installation",
+      "Value": "sunt",
+      "StrippedValue": "est",
+      "Description": "Persevering mobile superstructure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 469
         }
       }
     }
   ],
-  "Description": "Streamlined even-keeled function",
+  "Description": "Distributed impactful moderator",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "quia",
-      "PersonId": 429,
-      "Mrmrs": "est",
-      "Firstname": "Laila",
-      "Lastname": "Schiller",
-      "MiddleName": "Schowalter-Emard",
-      "Title": "magnam",
-      "Description": "Object-based heuristic ability",
-      "Email": "billie_cremin@wolffgrimes.name",
-      "FullName": "Pink Schneider",
-      "DirectPhone": "232-527-6955",
-      "FormalName": "Purdy, DuBuque and Beatty",
-      "CountryId": 711,
-      "ContactId": 927,
-      "ContactName": "Christiansen LLC",
-      "Retired": 351,
-      "Rank": 909,
-      "ActiveInterests": 239,
+      "Position": "deserunt",
+      "PersonId": 244,
+      "Mrmrs": "enim",
+      "Firstname": "Krystal",
+      "Lastname": "Abernathy",
+      "MiddleName": "Ziemann-Greenfelder",
+      "Title": "nihil",
+      "Description": "Upgradable holistic projection",
+      "Email": "pierce@rippin.com",
+      "FullName": "Grady Stamm",
+      "DirectPhone": "(034)823-3911 x230",
+      "FormalName": "Moen, Goyette and Kilback",
+      "CountryId": 925,
+      "ContactId": 990,
+      "ContactName": "Breitenberg Group",
+      "Retired": 470,
+      "Rank": 811,
+      "ActiveInterests": 720,
       "ContactDepartment": "",
-      "ContactCountryId": 671,
-      "ContactOrgNr": "1416855",
-      "FaxPhone": "1-874-241-9829 x1249",
-      "MobilePhone": "(952)080-1208",
-      "ContactPhone": "(199)230-8526",
-      "AssociateName": "Schultz LLC",
-      "AssociateId": 918,
-      "UsePersonAddress": true,
-      "ContactFax": "rerum",
-      "Kanafname": "qui",
-      "Kanalname": "repellat",
-      "Post1": "natus",
-      "Post2": "aut",
-      "Post3": "totam",
-      "EmailName": "flavio.hegmann@kirlin.name",
-      "ContactFullName": "Wyatt Farrell",
-      "ActiveErpLinks": 678,
-      "TicketPriorityId": 158,
-      "SupportLanguageId": 699,
-      "SupportAssociateId": 347,
+      "ContactCountryId": 98,
+      "ContactOrgNr": "1719079",
+      "FaxPhone": "(528)526-9102 x9670",
+      "MobilePhone": "752-011-0305 x375",
+      "ContactPhone": "(665)720-8302 x0773",
+      "AssociateName": "Jerde-Terry",
+      "AssociateId": 887,
+      "UsePersonAddress": false,
+      "ContactFax": "quis",
+      "Kanafname": "voluptatem",
+      "Kanalname": "dolore",
+      "Post1": "quod",
+      "Post2": "iste",
+      "Post3": "et",
+      "EmailName": "letha.kozey@shields.uk",
+      "ContactFullName": "Madaline Rempel",
+      "ActiveErpLinks": 28,
+      "TicketPriorityId": 688,
+      "SupportLanguageId": 96,
+      "SupportAssociateId": 106,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "241545",
+      "PersonNumber": "507499",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldType": "System.Int32",
+          "FieldLength": 794
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "excepturi",
-  "Xstop": true,
-  "ActiveInterests": 525,
-  "GroupId": 335,
-  "ActiveStatusMonitorId": 137,
+  "Kananame": "mollitia",
+  "Xstop": false,
+  "ActiveInterests": 371,
+  "GroupId": 591,
+  "ActiveStatusMonitorId": 808,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 331,
-  "DbiAgentId": 39,
-  "DbiLastSyncronized": "2020-02-22T12:01:27.509638+01:00",
-  "DbiKey": "amet",
-  "DbiLastModified": "2014-05-19T12:01:27.509638+02:00",
+  "Deleted": 638,
+  "DbiAgentId": 53,
+  "DbiLastSyncronized": "2014-08-08T14:13:39.8442326+02:00",
+  "DbiKey": "aspernatur",
+  "DbiLastModified": "2009-03-30T14:13:39.8442326+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 613,
-  "ActiveErpLinks": 843,
+  "Source": 911,
+  "ActiveErpLinks": 525,
   "BounceEmails": [
-    "bud@kulas.info",
-    "solon_jakubowski@emard.info"
+    "newton@cole.name",
+    "ruby@bogan.us"
   ],
   "Domains": [
-    "incidunt",
-    "consequatur"
+    "nesciunt",
+    "magni"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Paxton Williamson",
-    "SuperOffice:2": "1438155413"
+    "SuperOffice:1": "Royce Labadie",
+    "SuperOffice:2": "Crawford Fisher"
   },
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "numquam"
+    "CustomFields1": "vitae",
+    "CustomFields2": "ad"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 186
     }
   }
 }

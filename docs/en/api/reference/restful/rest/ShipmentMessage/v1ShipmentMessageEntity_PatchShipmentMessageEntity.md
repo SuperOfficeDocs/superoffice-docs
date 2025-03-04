@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "maiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "maiores",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 161,
-  "PlainMessage": "corporis",
-  "HtmlMessage": "enim",
-  "SmsMessage": "laborum",
-  "Description": "Total modular time-frame",
-  "Subject": "quis",
-  "FolderId": 886,
-  "HeaderField": "qui",
-  "Design": "eum",
+  "ShipmentMessageId": 727,
+  "PlainMessage": "ut",
+  "HtmlMessage": "eos",
+  "SmsMessage": "doloremque",
+  "Description": "Right-sized scalable protocol",
+  "Subject": "voluptatem",
+  "FolderId": 999,
+  "HeaderField": "natus",
+  "Design": "maxime",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Assimilated solution-oriented toolset",
-  "AccessKey": "iusto",
-  "DocumentMessage": 534,
-  "Registered": "2023-06-08T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 324,
-  "Updated": "2018-04-15T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 350,
-  "UpdatedCount": 959,
+  "LongDescription": "Reduced interactive frame",
+  "AccessKey": "temporibus",
+  "DocumentMessage": 154,
+  "Registered": "2008-05-05T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 125,
+  "Updated": "2017-11-07T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 159,
+  "UpdatedCount": 845,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 605
     }
   },
   "_Links": {

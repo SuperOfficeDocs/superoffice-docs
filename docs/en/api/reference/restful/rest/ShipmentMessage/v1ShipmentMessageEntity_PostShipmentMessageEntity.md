@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 108,
-  "PlainMessage": "dignissimos",
-  "HtmlMessage": "corrupti",
-  "SmsMessage": "qui",
-  "Description": "Multi-channelled context-sensitive protocol",
-  "Subject": "similique",
-  "FolderId": 714,
-  "HeaderField": "possimus",
-  "Design": "rerum",
+  "ShipmentMessageId": 34,
+  "PlainMessage": "doloribus",
+  "HtmlMessage": "sed",
+  "SmsMessage": "nemo",
+  "Description": "Open-architected static forecast",
+  "Subject": "ab",
+  "FolderId": 704,
+  "HeaderField": "sint",
+  "Design": "perferendis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Expanded client-server forecast",
-  "AccessKey": "quaerat",
-  "DocumentMessage": 238,
-  "Registered": "2018-11-25T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 629,
-  "Updated": "2015-05-27T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 527,
-  "UpdatedCount": 401
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Profound system-worthy interface",
+  "AccessKey": "voluptas",
+  "DocumentMessage": 737,
+  "Registered": "2011-08-22T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 330,
+  "Updated": "2023-08-03T14:13:49.2587235+02:00",
+  "UpdatedAssociateId": 394,
+  "UpdatedCount": 108
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 156,
-  "PlainMessage": "asperiores",
-  "HtmlMessage": "et",
-  "SmsMessage": "ut",
-  "Description": "Realigned transitional customer loyalty",
-  "Subject": "cum",
-  "FolderId": 891,
-  "HeaderField": "fugit",
-  "Design": "praesentium",
+  "ShipmentMessageId": 654,
+  "PlainMessage": "iste",
+  "HtmlMessage": "animi",
+  "SmsMessage": "qui",
+  "Description": "Fundamental hybrid adapter",
+  "Subject": "alias",
+  "FolderId": 685,
+  "HeaderField": "quidem",
+  "Design": "sit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Extended object-oriented customer loyalty",
-  "AccessKey": "consectetur",
-  "DocumentMessage": 933,
-  "Registered": "2020-10-16T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 905,
-  "Updated": "2003-08-05T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 970,
-  "UpdatedCount": 285,
+  "InlineImages": true,
+  "LongDescription": "Sharable explicit project",
+  "AccessKey": "consequatur",
+  "DocumentMessage": 856,
+  "Registered": "2007-07-08T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 198,
+  "Updated": "2016-12-13T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 948,
+  "UpdatedCount": 219,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   },
   "_Links": {

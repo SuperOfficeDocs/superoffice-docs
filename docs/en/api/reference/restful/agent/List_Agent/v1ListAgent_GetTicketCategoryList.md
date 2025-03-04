@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 551,
-    "ParentId": 170,
-    "Name": "Gusikowski-Veum",
-    "Fullname": "alias",
-    "CategoryMaster": 738,
+    "TicketCategoryId": 466,
+    "ParentId": 874,
+    "Name": "Stiedemann, Hegmann and Grimes",
+    "Fullname": "eius",
+    "CategoryMaster": 911,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Wolf-Wolff",
+    "ExternalName": "Mayer LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 521,
-    "ReplyTemplate": 146,
-    "NotificationEmail": "shayna@balistreri.ca",
+    "AssignmentLag": 458,
+    "ReplyTemplate": 231,
+    "NotificationEmail": "wilton.homenick@wiza.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 397,
+    "EffectiveReplyTemplateId": 338,
     "ExtraFields": {
-      "ExtraFields1": "maiores",
-      "ExtraFields2": "possimus"
+      "ExtraFields1": "molestiae",
+      "ExtraFields2": "consequuntur"
     },
     "CustomFields": {
-      "CustomFields1": "doloribus",
-      "CustomFields2": "sed"
+      "CustomFields1": "eaque",
+      "CustomFields2": "quia"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 926
+        "FieldLength": 615
       }
     }
   }

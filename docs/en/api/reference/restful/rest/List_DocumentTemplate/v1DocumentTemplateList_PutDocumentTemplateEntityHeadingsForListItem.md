@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Wiza LLC",
-    "ToolTip": "Corrupti sint ipsam.",
+    "Id": 324,
+    "Name": "Walter LLC",
+    "ToolTip": "Vel omnis autem.",
     "Deleted": false,
-    "Rank": 620,
-    "Type": "eum",
-    "ColorBlock": 58,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2003-06-30T12:01:33.511353+02:00",
+    "Rank": 996,
+    "Type": "tempora",
+    "ColorBlock": 550,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2024-06-25T14:13:49.9781847+02:00",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Torp Inc and Sons",
-        "ToolTip": "Consequatur sed rem autem asperiores tempore ipsam iste.",
-        "Deleted": true,
-        "Rank": 947,
-        "Type": "ut",
-        "ColorBlock": 230,
-        "IconHint": "reiciendis",
+        "Id": 781,
+        "Name": "Kuphal Group",
+        "ToolTip": "Assumenda numquam ducimus.",
+        "Deleted": false,
+        "Rank": 397,
+        "Type": "ducimus",
+        "ColorBlock": 718,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2002-07-30T12:01:33.511353+02:00",
+        "LastChanged": "2012-03-06T14:13:49.9781847+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "est",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Kayla Schuster"
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Demetris Lowe"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ipsam",
-    "Hidden": false,
-    "FullName": "Tommie Yost"
+    "ExtraInfo": "eos",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Dalton Kassulke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Champlin, Schuppe and Daniel",
-    "ToolTip": "Minima eos eos quisquam.",
+    "Id": 563,
+    "Name": "Crist-Lockman",
+    "ToolTip": "Et et tempora quia tenetur earum vel modi.",
     "Deleted": true,
-    "Rank": 832,
-    "Type": "eveniet",
-    "ColorBlock": 119,
-    "IconHint": "eum",
+    "Rank": 244,
+    "Type": "reiciendis",
+    "ColorBlock": 962,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2010-03-31T12:01:33.511353+02:00",
+    "LastChanged": "2009-10-27T14:13:49.9781847+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Reichert Inc and Sons",
-        "ToolTip": "Est labore et.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "et",
-        "ColorBlock": 79,
-        "IconHint": "aperiam",
-        "Selected": false,
-        "LastChanged": "2017-11-01T12:01:33.511353+01:00",
+        "Id": 656,
+        "Name": "Murphy-Brown",
+        "ToolTip": "Quo aperiam dolor temporibus perferendis sed.",
+        "Deleted": true,
+        "Rank": 513,
+        "Type": "modi",
+        "ColorBlock": 364,
+        "IconHint": "hic",
+        "Selected": true,
+        "LastChanged": "2022-12-09T14:13:49.9781847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "quia",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Santiago Rowe",
+        "FullName": "Miss Lee Kristian Weimann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Ellen Deckow",
+    "FullName": "Mr. Madonna Estrella Franecki IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 387
       }
     }
   }

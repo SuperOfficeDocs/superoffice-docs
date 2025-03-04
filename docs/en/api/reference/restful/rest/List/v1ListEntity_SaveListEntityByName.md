@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Kilback, Willms and Auer",
-  "Tooltip": "corrupti",
+  "Id": 358,
+  "Name": "Kulas-Glover",
+  "Tooltip": "deserunt",
   "Deleted": false,
-  "Rank": 510,
+  "Rank": 209,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Yundt, Leuschke and Sanford",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 192,
-  "IsCustomList": true,
+  "Id": 665,
+  "Name": "Doyle-Cormier",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 932,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "error",
-  "InUseByUserDefinedFields": true,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 238
+      "FieldLength": 115
     }
   }
 }

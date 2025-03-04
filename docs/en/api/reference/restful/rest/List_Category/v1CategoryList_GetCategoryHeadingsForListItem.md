@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Ward-Rempel",
-    "ToolTip": "Molestiae eveniet nihil tempore.",
+    "Id": 294,
+    "Name": "Crona, West and Murazik",
+    "ToolTip": "Sit veniam est.",
     "Deleted": false,
-    "Rank": 659,
-    "Type": "quisquam",
-    "ColorBlock": 73,
-    "IconHint": "omnis",
+    "Rank": 687,
+    "Type": "blanditiis",
+    "ColorBlock": 465,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2009-02-13T12:01:33.4332226+01:00",
+    "LastChanged": "1999-02-14T14:13:49.6804997+01:00",
     "ChildItems": [
       {
-        "Id": 291,
-        "Name": "Metz, Prosacco and Torp",
-        "ToolTip": "Fuga quo dignissimos magnam.",
+        "Id": 51,
+        "Name": "Spencer Inc and Sons",
+        "ToolTip": "Alias autem in est vitae rerum libero.",
         "Deleted": false,
-        "Rank": 887,
-        "Type": "repellat",
-        "ColorBlock": 962,
-        "IconHint": "earum",
+        "Rank": 75,
+        "Type": "placeat",
+        "ColorBlock": 892,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2007-02-18T12:01:33.4332226+01:00",
+        "LastChanged": "2013-09-23T14:13:49.6804997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "quia",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Jonatan Klocko",
+        "FullName": "Mrs. Quinton Reva Bednar MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 269
+            "FieldType": "System.Int32",
+            "FieldLength": 461
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Consuelo Kunde DVM",
+    "ExtraInfo": "earum",
+    "StyleHint": "pariatur",
+    "Hidden": true,
+    "FullName": "Norberto Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 80
       }
     }
   }

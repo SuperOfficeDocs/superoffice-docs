@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 456,
-  "StartTime": "2020-02-29T12:01:27.5877684+01:00",
-  "EndTime": "2009-01-31T12:01:27.5877684+01:00",
-  "Count": 723,
-  "DocumentTemplateId": 824
+  "PersonId": 586,
+  "StartTime": "2015-05-20T14:13:40.0004493+02:00",
+  "EndTime": "2006-08-06T14:13:40.0004493+02:00",
+  "Count": 689,
+  "DocumentTemplateId": 750
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 318,
-    "Attention": "atque",
-    "Header": "molestias",
-    "Name": "Baumbach LLC",
-    "OurRef": "fugit",
-    "YourRef": "animi",
-    "Description": "Synchronised heuristic protocol",
-    "DocumentTemplate": "consequatur",
-    "IsPublished": false,
-    "PersonId": 278,
-    "PersonFullName": "Prof. Dane Cleve Bosco",
-    "AssociateFullName": "Prof. Johnpaul Jones MD",
-    "ContactId": 78,
-    "ContactName": "King, Schaden and Hudson",
-    "ProjectId": 847,
-    "ProjectName": "Bechtelar, Kris and Nolan",
-    "AssociateId": 446,
-    "Snum": 853,
-    "SaleId": 449,
-    "SaleName": "Sawayn-Volkman",
+    "DocumentId": 897,
+    "Attention": "similique",
+    "Header": "eius",
+    "Name": "Fay, Mertz and Stanton",
+    "OurRef": "fugiat",
+    "YourRef": "eveniet",
+    "Description": "Diverse upward-trending open architecture",
+    "DocumentTemplate": "quia",
+    "IsPublished": true,
+    "PersonId": 139,
+    "PersonFullName": "Ryan Abbott",
+    "AssociateFullName": "Mr. Henri Carolanne Erdman",
+    "ContactId": 425,
+    "ContactName": "Purdy Inc and Sons",
+    "ProjectId": 396,
+    "ProjectName": "Stiedemann LLC",
+    "AssociateId": 561,
+    "Snum": 96,
+    "SaleId": 778,
+    "SaleName": "Ledner LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 341
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

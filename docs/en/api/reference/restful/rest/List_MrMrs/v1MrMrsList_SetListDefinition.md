@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Johnson Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 995,
+  "Name": "McLaughlin, Hermiston and Corkery",
+  "Tooltip": "ex",
   "Deleted": false,
-  "Rank": 10,
+  "Rank": 551,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eligendi",
-  "InUseByUserDefinedFields": false
+  "ListType": "beatae",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Borer, Wehner and Block",
-  "Tooltip": "aliquam",
+  "Id": 934,
+  "Name": "Cronin, Crist and Walter",
+  "Tooltip": "amet",
   "Deleted": true,
-  "Rank": 26,
-  "IsCustomList": true,
+  "Rank": 551,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 78
+      "FieldLength": 288
     }
   }
 }

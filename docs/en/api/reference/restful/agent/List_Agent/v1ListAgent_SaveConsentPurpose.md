@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 599,
-  "Name": "Hane Group",
-  "ConsentText": "ducimus",
-  "FormText": "autem",
-  "Key": "explicabo",
-  "Tooltip": "sapiente",
-  "Active": 87,
-  "UpdatedDate": "2022-09-06T12:01:27.9940463+02:00",
+  "ConsentPurposeId": 11,
+  "Name": "Shanahan-Muller",
+  "ConsentText": "aut",
+  "FormText": "porro",
+  "Key": "consectetur",
+  "Tooltip": "eius",
+  "Active": 447,
+  "UpdatedDate": "2020-08-15T14:13:40.5628193+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 452,
-  "PrivacyStatementDesc": "voluptatem",
+  "Rank": 99,
+  "PrivacyStatementDesc": "ab",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 462
     }
   }
 }

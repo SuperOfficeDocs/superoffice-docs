@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 245,
-    "Name": "Pfannerstill, Sauer and Littel",
-    "Tooltip": "doloremque",
+    "HeadingId": 669,
+    "Name": "Jacobs Inc and Sons",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 900,
-    "UdListDefinitionId": 66
+    "Rank": 508,
+    "UdListDefinitionId": 390
   },
   {
-    "HeadingId": 245,
-    "Name": "Pfannerstill, Sauer and Littel",
-    "Tooltip": "doloremque",
+    "HeadingId": 669,
+    "Name": "Jacobs Inc and Sons",
+    "Tooltip": "doloribus",
     "Deleted": false,
-    "Rank": 900,
-    "UdListDefinitionId": 66
+    "Rank": 508,
+    "UdListDefinitionId": 390
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Stoltenberg-Beatty",
-    "Tooltip": "sed",
+    "HeadingId": 339,
+    "Name": "Predovic-Halvorson",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 18,
-    "UdListDefinitionId": 654,
+    "Rank": 482,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 956
       }
     }
   }

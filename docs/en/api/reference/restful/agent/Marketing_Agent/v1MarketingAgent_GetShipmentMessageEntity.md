@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=811
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=978
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 37,
-  "PlainMessage": "perspiciatis",
-  "HtmlMessage": "fugit",
-  "SmsMessage": "vero",
-  "Description": "Cross-group directional structure",
-  "Subject": "alias",
-  "FolderId": 986,
-  "HeaderField": "repellendus",
-  "Design": "quasi",
+  "ShipmentMessageId": 954,
+  "PlainMessage": "cumque",
+  "HtmlMessage": "rem",
+  "SmsMessage": "odit",
+  "Description": "Synergized 4th generation standardization",
+  "Subject": "voluptas",
+  "FolderId": 656,
+  "HeaderField": "atque",
+  "Design": "officia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Cloned full-range task-force",
-  "AccessKey": "sunt",
-  "DocumentMessage": 1000,
-  "Registered": "2004-02-26T12:01:27.9940463+01:00",
-  "RegisteredAssociateId": 516,
-  "Updated": "2008-08-21T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 201,
-  "UpdatedCount": 907,
+  "LongDescription": "Robust assymetric focus group",
+  "AccessKey": "vel",
+  "DocumentMessage": 317,
+  "Registered": "2004-07-26T14:13:40.5784406+02:00",
+  "RegisteredAssociateId": 424,
+  "Updated": "2014-09-22T14:13:40.5784406+02:00",
+  "UpdatedAssociateId": 908,
+  "UpdatedCount": 705,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

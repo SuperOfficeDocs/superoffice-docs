@@ -90,11 +90,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 614,
-  "PrefDescId": 144,
-  "PrefValue": "non",
-  "PrefShowValue": "dolores",
-  "Description": "Inverse bandwidth-monitored initiative",
+  "PrefDescLineId": 290,
+  "PrefDescId": 421,
+  "PrefValue": "placeat",
+  "PrefShowValue": "rerum",
+  "Description": "Reverse-engineered systemic hierarchy",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 336,
-  "PrefDescId": 684,
-  "PrefValue": "hic",
-  "PrefShowValue": "sint",
-  "Description": "Sharable eco-centric middleware",
-  "IsBuiltin": true,
+  "PrefDescLineId": 35,
+  "PrefDescId": 174,
+  "PrefValue": "in",
+  "PrefShowValue": "aut",
+  "Description": "Networked systematic hierarchy",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 108
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

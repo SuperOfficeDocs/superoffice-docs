@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 955,
-  "Name": "Nolan-Hand",
-  "CreatedDate": "2008-03-24T12:01:32.9019357+01:00",
-  "UpdatedDate": "2008-04-10T12:01:32.9019357+02:00",
+  "ForeignAppId": 416,
+  "Name": "Fadel-Legros",
+  "CreatedDate": "2023-12-31T14:13:48.8680781+01:00",
+  "UpdatedDate": "2008-10-21T14:13:48.8680781+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 119,
-      "Name": "Kertzmann, Rau and Jacobs",
-      "CreatedDate": "2000-04-08T12:01:32.9019357+02:00",
-      "UpdatedDate": "2000-09-20T12:01:32.9019357+02:00",
-      "AssociateFullName": "Dortha Jasen Shanahan Sr.",
-      "CreatedBy": "debitis",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "reprehenderit",
-      "ForeignAppId": 547,
+      "ForeignDeviceId": 247,
+      "Name": "Dickens-Gulgowski",
+      "CreatedDate": "2019-03-22T14:13:48.8680781+01:00",
+      "UpdatedDate": "2021-05-26T14:13:48.8680781+02:00",
+      "AssociateFullName": "Dr. Stanley Monahan",
+      "CreatedBy": "corporis",
+      "UpdatedBy": "eligendi",
+      "DeviceIdentifier": "odio",
+      "ForeignAppId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldType": "System.Int32",
+          "FieldLength": 232
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

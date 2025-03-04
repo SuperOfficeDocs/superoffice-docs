@@ -808,7 +808,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personSourceRelation/rank,personContact/business,personContact/phone/formattedNumber,request/realTimeSpentInternally,request/createdBy/simultaneousEjUser
+GET /api/v1/archive/Person?$select=personTargetRelation/personNumber,projectMembers/icon,projectMembers/projectAssociate/contactDepartment,projectMembers/projectAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 575,
-      "ContactName": "Barton, Johnston and Kemmer",
-      "PersonId": 892,
-      "PersonName": "Monahan Group",
-      "AssociateId": 504,
-      "Address": "et",
-      "EmailId": 125,
+      "ContactId": 901,
+      "ContactName": "Smitham-Bailey",
+      "PersonId": 697,
+      "PersonName": "Crona, Blanda and Hagenes",
+      "AssociateId": 630,
+      "Address": "facere",
+      "EmailId": 996,
       "DuplicatePersonIds": [
-        55,
-        202
+        709,
+        721
       ],
-      "Name": "Cruickshank-Graham",
+      "Name": "Kerluke LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldType": "System.Int32",
+          "FieldLength": 205
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 590,
-      "ContactName": "Padberg, Lindgren and Swift",
-      "PersonId": 497,
-      "PersonName": "Krajcik-Reichert",
-      "AssociateId": 441,
-      "Address": "sunt",
-      "EmailId": 260,
+      "ContactId": 430,
+      "ContactName": "Swaniawski Group",
+      "PersonId": 594,
+      "PersonName": "Denesik-Brakus",
+      "AssociateId": 244,
+      "Address": "quia",
+      "EmailId": 123,
       "DuplicatePersonIds": [
-        889,
-        497
+        963,
+        570
       ],
-      "Name": "Upton, Thompson and Emmerich",
+      "Name": "Fritsch-Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 953
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 910,
-      "ContactName": "McCullough Group",
-      "PersonId": 317,
-      "PersonName": "O'Keefe Inc and Sons",
-      "AssociateId": 242,
-      "Address": "sunt",
-      "EmailId": 62,
+      "ContactId": 98,
+      "ContactName": "Crona LLC",
+      "PersonId": 212,
+      "PersonName": "Tromp, Hagenes and Lebsack",
+      "AssociateId": 260,
+      "Address": "harum",
+      "EmailId": 725,
       "DuplicatePersonIds": [
-        268,
-        986
+        127,
+        380
       ],
-      "Name": "Gutkowski-Green",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
-        }
-      }
-    }
-  ],
-  "Subject": "ratione",
-  "HTMLBody": "omnis",
-  "From": null,
-  "Sent": "2011-02-05T12:01:27.7752804+01:00",
-  "Size": 253,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "sint",
-  "PlainBody": "adipisci",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 465,
-  "Attachments": [
-    {
-      "Description": "Adaptive modular core",
-      "Filename": "et",
-      "Size": 235,
-      "Type": "similique",
-      "Encoding": "culpa",
-      "Id": "sapiente",
-      "Disposition": "ea",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Schneider, Bogisich and Kuhn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 640
+          "FieldLength": 659
+        }
+      }
+    }
+  ],
+  "Subject": "eos",
+  "HTMLBody": "sed",
+  "From": null,
+  "Sent": "2015-07-01T14:13:40.1722829+02:00",
+  "Size": 339,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "aut",
+  "PlainBody": "totam",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 301,
+  "Attachments": [
+    {
+      "Description": "Total didactic local area network",
+      "Filename": "qui",
+      "Size": 852,
+      "Type": "est",
+      "Encoding": "accusantium",
+      "Id": "natus",
+      "Disposition": "eligendi",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 386
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schumm-Kassulke",
+      "Name": "Streich, Davis and Gleichner",
       "Values": [
-        "facere",
-        "iure"
+        "natus",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 299
         }
       }
     },
     {
-      "Name": "Schumm-Kassulke",
+      "Name": "Streich, Davis and Gleichner",
       "Values": [
-        "facere",
-        "iure"
+        "natus",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 299
         }
       }
     }
   ],
-  "FolderName": "Cronin LLC",
-  "EmailItemId": 622,
-  "AccountId": 10,
-  "ReceivedAt": "2020-01-31T12:01:27.7752804+01:00",
+  "FolderName": "Hudson Inc and Sons",
+  "EmailItemId": 643,
+  "AccountId": 711,
+  "ReceivedAt": "2017-06-30T14:13:40.1722829+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-10-30T12:01:27.7752804+01:00",
+  "RepliedAt": "2005-01-20T14:13:40.1722829+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 780
+      "FieldType": "System.Int32",
+      "FieldLength": 668
     }
   }
 }

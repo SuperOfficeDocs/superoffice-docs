@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "O'Kon-Murazik",
-  "Tooltip": "dolorem",
+  "Id": 402,
+  "Name": "Cummings-Sipes",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "Rank": 30,
+  "Rank": 686,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "quod",
+  "Id": 634,
+  "Name": "Feest, Hand and Romaguera",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 285,
-  "IsCustomList": false,
+  "Rank": 291,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 927
     }
   }
 }

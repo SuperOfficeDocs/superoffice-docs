@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "1998-11-06T12:01:27.3064922+01:00",
-  "EndTime": "2024-06-24T12:01:27.3064922+02:00",
-  "Count": 905
+  "StartTime": "2010-02-27T14:13:39.3286178+01:00",
+  "EndTime": "2000-05-22T14:13:39.3286178+02:00",
+  "Count": 400
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 387,
-    "StartDate": "2018-11-05T12:01:27.3064922+01:00",
-    "EndDate": "2019-10-01T12:01:27.3064922+02:00",
+    "AppointmentId": 505,
+    "StartDate": "2005-09-06T14:13:39.3286178+02:00",
+    "EndDate": "2011-01-16T14:13:39.3286178+01:00",
     "Type": "BookingForChecklist",
-    "Task": "debitis",
-    "AssociateFullName": "Asha Maggio",
-    "ContactName": "Ebert Inc and Sons",
-    "Description": "Networked discrete core",
-    "PersonFullName": "Prof. Chris Kuhn",
-    "PersonId": 798,
-    "ContactId": 432,
-    "ProjectId": 555,
-    "ProjectName": "Lang, Hartmann and Klein",
+    "Task": "voluptatem",
+    "AssociateFullName": "Estell Ferry",
+    "ContactName": "Little, Wunsch and Runolfsson",
+    "Description": "Cross-platform tangible data-warehouse",
+    "PersonFullName": "Wilhelmine Larkin",
+    "PersonId": 503,
+    "ContactId": 175,
+    "ProjectId": 299,
+    "ProjectName": "Schmeler, Romaguera and Herman",
     "IsPublished": false,
-    "AssociateId": 481,
-    "ColorIndex": 857,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "AssociateId": 614,
+    "ColorIndex": 148,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 139,
-    "PriorityName": "Jerde LLC",
+    "PriorityId": 39,
+    "PriorityName": "Mraz, Homenick and Considine",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-06-09T12:01:27.3064922+02:00",
+    "ActiveDate": "2004-01-26T14:13:39.3286178+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-09-06T12:01:27.3064922+02:00",
-    "RecurringEndDate": "2000-10-20T12:01:27.3064922+02:00",
-    "MotherId": 260,
-    "AssignedBy": 741,
-    "AssignedByFullName": "Juana Turner",
+    "RecurringStartDate": "2005-04-01T14:13:39.3286178+02:00",
+    "RecurringEndDate": "2022-12-04T14:13:39.3286178+01:00",
+    "MotherId": 878,
+    "AssignedBy": 809,
+    "AssignedByFullName": "Gage Jennyfer Runte Jr.",
     "RejectReason": "",
-    "Location": "quas",
-    "AlarmLeadTime": "et",
-    "SaleId": 604,
-    "SaleName": "Upton LLC",
-    "AssociateName": "Labadie Inc and Sons",
-    "CreatedDate": "1999-05-08T12:01:27.3064922+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Lorena Wunsch",
-    "CreatedByAssociateId": 819,
+    "Location": "quia",
+    "AlarmLeadTime": "qui",
+    "SaleId": 645,
+    "SaleName": "Reinger LLC",
+    "AssociateName": "Lockman-Hayes",
+    "CreatedDate": "2010-12-17T14:13:39.3286178+01:00",
+    "CreatedBy": "dolores",
+    "CreatedByFullName": "Erick Reginald Schulist IV",
+    "CreatedByAssociateId": 78,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 837,
-    "Title": "voluptate",
-    "Agenda": "dicta",
-    "InternalNotes": "excepturi",
+    "PreferredTZLocation": 410,
+    "Title": "vel",
+    "Agenda": "praesentium",
+    "InternalNotes": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldType": "System.String",
+        "FieldLength": 258
       }
     }
   }

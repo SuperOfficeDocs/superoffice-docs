@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Johnson, Ondricka and Buckridge",
-    "ToolTip": "Quos excepturi similique at corrupti enim et.",
-    "Deleted": true,
-    "Rank": 515,
-    "Type": "quis",
-    "ColorBlock": 47,
-    "IconHint": "sit",
-    "Selected": true,
-    "LastChanged": "2009-07-30T12:01:33.4175965+02:00",
+    "Id": 868,
+    "Name": "Brekke, Oberbrunner and Hudson",
+    "ToolTip": "Et odit aut.",
+    "Deleted": false,
+    "Rank": 853,
+    "Type": "inventore",
+    "ColorBlock": 16,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2016-02-20T14:13:49.6180133+01:00",
     "ChildItems": [
       {
-        "Id": 11,
-        "Name": "Paucek-Schmidt",
-        "ToolTip": "Omnis ut amet laborum corrupti qui.",
-        "Deleted": true,
-        "Rank": 240,
-        "Type": "tempore",
-        "ColorBlock": 747,
-        "IconHint": "totam",
+        "Id": 131,
+        "Name": "Crona, Gleichner and O'Connell",
+        "ToolTip": "Ut ut libero velit temporibus molestias ab omnis.",
+        "Deleted": false,
+        "Rank": 896,
+        "Type": "numquam",
+        "ColorBlock": 278,
+        "IconHint": "similique",
         "Selected": false,
-        "LastChanged": "2010-12-21T12:01:33.4175965+01:00",
+        "LastChanged": "2011-05-21T14:13:49.6180133+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Lily Kunde",
+        "ExtraInfo": "quo",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Curtis Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 457
+            "FieldType": "System.Int32",
+            "FieldLength": 794
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "minima",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Watson Breitenberg",
+    "FullName": "Shanelle Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 817
+        "FieldLength": 578
       }
     }
   }

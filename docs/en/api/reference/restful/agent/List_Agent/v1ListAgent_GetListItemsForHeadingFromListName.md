@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Cormier, Gutmann and Hirthe",
-  "HeadingId": 86
+  "UdListDefinitionName": "Zboncak-Wisozk",
+  "HeadingId": 413
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Kulas-Grant",
-    "ToolTip": "Rerum quibusdam perspiciatis.",
+    "Id": 37,
+    "Name": "Reichel LLC",
+    "ToolTip": "Exercitationem impedit odit est maxime quis maiores necessitatibus.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "qui",
-    "ColorBlock": 443,
-    "IconHint": "excepturi",
+    "Rank": 239,
+    "Type": "repellat",
+    "ColorBlock": 731,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2014-05-09T12:01:27.9471677+02:00",
+    "LastChanged": "2004-05-18T14:13:40.4847118+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Pouros, Welch and Mohr",
-        "ToolTip": "Illum qui quia explicabo voluptatibus.",
-        "Deleted": true,
-        "Rank": 910,
-        "Type": "consectetur",
-        "ColorBlock": 507,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "1998-03-24T12:01:27.9471677+01:00",
+        "Id": 682,
+        "Name": "Mosciski LLC",
+        "ToolTip": "Quis quae alias consectetur eveniet.",
+        "Deleted": false,
+        "Rank": 188,
+        "Type": "voluptatem",
+        "ColorBlock": 841,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2024-05-31T14:13:40.4847118+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "qui",
+        "ExtraInfo": "quod",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Devin Crist",
+        "FullName": "Dr. Jodie Gerhold",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 259
+            "FieldType": "System.Int32",
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "delectus",
-    "Hidden": false,
-    "FullName": "Miss Maximillia Genesis Turcotte MD",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "quos",
+    "Hidden": true,
+    "FullName": "Mrs. Maximillian Reva Romaguera MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldLength": 543
       }
     }
   }

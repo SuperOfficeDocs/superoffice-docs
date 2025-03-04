@@ -6,15 +6,25 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.GetAspect(System.Int32,System.Int32)
   - SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
+  - SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
+  - SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  - SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  - SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
+  - SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
   - SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
   - SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
   - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
   - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
+  - SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.ProductImageSize
   - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
   - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.ThumbnailSize
   - SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
   langs:
@@ -499,6 +509,431 @@ items:
   - Shared
   fullName.vb: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte(), System.Int32, System.Int32, System.Boolean)
   name.vb: TryFitImage(Byte(), Int32, Int32, Boolean)
+- uid: SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
+  id: GetClearPixel(System.Drawing.Size)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetClearPixel(Size)
+  nameWithType: ImageUtilities.GetClearPixel(Size)
+  fullName: SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an image containing a transperant background\n"
+  syntax:
+    content: public static Image GetClearPixel(Size size)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+    return:
+      type: System.Drawing.Image
+    content.vb: Public Shared Function GetClearPixel(size As Size) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetClearPixel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
+  id: GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetSrNoPhoto(Size, Color, Color, Boolean, String)
+  nameWithType: ImageUtilities.GetSrNoPhoto(Size, Color, Color, Boolean, String)
+  fullName: SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size, System.Drawing.Color, System.Drawing.Color, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an image containing the string represented by the resource value of SR_NO_PHOTO.\n"
+  syntax:
+    content: public static Image GetSrNoPhoto(Size size, Color bgColor, Color borderColor, bool hasBorder, string text = "NO PHOTO")
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+      description: Size of the image.
+    - id: bgColor
+      type: System.Drawing.Color
+      description: Background color for the image.
+    - id: borderColor
+      type: System.Drawing.Color
+    - id: hasBorder
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: System.Drawing.Image
+      description: Image containing the text represented by the resource value of SR_NO_PHOTO.
+    content.vb: Public Shared Function GetSrNoPhoto(size As Size, bgColor As Color, borderColor As Color, hasBorder As Boolean, text As String = "NO PHOTO") As Image
+  overload: SuperOffice.Util.ImageUtilities.GetSrNoPhoto*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  id: GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
+  nameWithType: ImageUtilities.GetTextImage(Size, String, Font, Color, Color, Color, Boolean)
+  fullName: SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size, System.String, System.Drawing.Font, System.Drawing.Color, System.Drawing.Color, System.Drawing.Color, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an image containing a text center both horizontally and vertically.\n"
+  syntax:
+    content: public static Image GetTextImage(Size size, string text, Font font, Color textColor, Color bgColor, Color borderColor, bool border)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+      description: Size of the image
+    - id: text
+      type: System.String
+      description: Text to write in the image.
+    - id: font
+      type: System.Drawing.Font
+      description: Font to use when writing the text.
+    - id: textColor
+      type: System.Drawing.Color
+      description: The color to use when writing the text.
+    - id: bgColor
+      type: System.Drawing.Color
+      description: The background color of the image.
+    - id: borderColor
+      type: System.Drawing.Color
+    - id: border
+      type: System.Boolean
+    return:
+      type: System.Drawing.Image
+      description: An image containing a text center both horizontally and vertically.
+    content.vb: Public Shared Function GetTextImage(size As Size, text As String, font As Font, textColor As Color, bgColor As Color, borderColor As Color, border As Boolean) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetTextImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
+  commentId: M:SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
+  id: Max(System.Drawing.Size,System.Drawing.Size)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: Max(Size, Size)
+  nameWithType: ImageUtilities.Max(Size, Size)
+  fullName: SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size, System.Drawing.Size)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the minimum value for height and width induvidually.  Values of 0 are considered none-values.\n"
+  syntax:
+    content: public static Size Max(Size s1, Size s2)
+    parameters:
+    - id: s1
+      type: System.Drawing.Size
+      description: First size element
+    - id: s2
+      type: System.Drawing.Size
+      description: Second size element
+    return:
+      type: System.Drawing.Size
+      description: Resulting Size
+    content.vb: Public Shared Function Max(s1 As Size, s2 As Size) As Size
+  overload: SuperOffice.Util.ImageUtilities.Max*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
+  commentId: M:SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
+  id: Min(System.Drawing.Size,System.Drawing.Size)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: Min(Size, Size)
+  nameWithType: ImageUtilities.Min(Size, Size)
+  fullName: SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size, System.Drawing.Size)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the minimum value for height and width induvidually.  Values of 0 are considered none-values.\n"
+  syntax:
+    content: public static Size Min(Size s1, Size s2)
+    parameters:
+    - id: s1
+      type: System.Drawing.Size
+      description: First size element
+    - id: s2
+      type: System.Drawing.Size
+      description: Second size element
+    return:
+      type: System.Drawing.Size
+      description: Resulting Size
+    content.vb: Public Shared Function Min(s1 As Size, s2 As Size) As Size
+  overload: SuperOffice.Util.ImageUtilities.Min*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  id: GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func<Image>, Boolean, Color)
+  nameWithType: ImageUtilities.GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func<Image>, Boolean, Color)
+  fullName: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func<System.Drawing.Image>, System.Boolean, System.Drawing.Color)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet image or default image provided by a callback function.\n"
+  remarks: "\nThis function does not access the database. Does not require a session. Entirely in-memory.\n"
+  syntax:
+    content: public static Image GetScaledImageOrDefaultImage(Image image, ImageUtilities.ImageSize imageSize, ImageUtilities.FallbackStrategy fallbackStrategy, Func<Image> defaultImageFunc, bool borderOnSrNoPhoto, Color borderColor)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The image - which may be null.
+    - id: imageSize
+      type: SuperOffice.Util.ImageUtilities.ImageSize
+      description: Desired returned image size. 0 = no change
+    - id: fallbackStrategy
+      type: SuperOffice.Util.ImageUtilities.FallbackStrategy
+      description: Strategy to use if there are no pictures available. Null = return NULL value instead of a default or blank image.
+    - id: defaultImageFunc
+      type: System.Func{System.Drawing.Image}
+      description: Returns a default image when called. NULL means no default image -- get a transparent bitmap instead.
+    - id: borderOnSrNoPhoto
+      type: System.Boolean
+      description: Should there be a border on the image created if the SR_NO_PHOTO is used.
+    - id: borderColor
+      type: System.Drawing.Color
+    return:
+      type: System.Drawing.Image
+      description: Scaled Image or scaled default/fallback image, or blank transparent image.
+    content.vb: Public Shared Function GetScaledImageOrDefaultImage(image As Image, imageSize As ImageUtilities.ImageSize, fallbackStrategy As ImageUtilities.FallbackStrategy, defaultImageFunc As Func(Of Image), borderOnSrNoPhoto As Boolean, borderColor As Color) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage*
+  nameWithType.vb: ImageUtilities.GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func(Of Image), Boolean, Color)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.FallbackStrategy, System.Func(Of System.Drawing.Image), System.Boolean, System.Drawing.Color)
+  name.vb: GetScaledImageOrDefaultImage(Image, ImageUtilities.ImageSize, ImageUtilities.FallbackStrategy, Func(Of Image), Boolean, Color)
+- uid: SuperOffice.Util.ImageUtilities.GetAspect(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetAspect(System.Int32,System.Int32)
+  id: GetAspect(System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetAspect(Int32, Int32)
+  nameWithType: ImageUtilities.GetAspect(Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetAspect(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the aspect of an image.\n"
+  syntax:
+    content: public static double GetAspect(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Double
+      description: 'Aspect for an image (width/height). 1 is a squere. '
+    content.vb: Public Shared Function GetAspect(width As Integer, height As Integer) As Double
+  overload: SuperOffice.Util.ImageUtilities.GetAspect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  id: GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetIntersectionRectangle(Size, Size, ImageUtilities.VerticalAlignment)
+  nameWithType: ImageUtilities.GetIntersectionRectangle(Size, Size, ImageUtilities.VerticalAlignment)
+  fullName: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size, System.Drawing.Size, SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the Rectangle in the destination that is covered by the source.  \nThe arguments represents the size of two rectangles that are centered on top of each other.\n"
+  syntax:
+    content: public static Rectangle GetIntersectionRectangle(Size destination, Size source, ImageUtilities.VerticalAlignment align)
+    parameters:
+    - id: destination
+      type: System.Drawing.Size
+      description: Size of the destination rectangle.
+    - id: source
+      type: System.Drawing.Size
+      description: Size of the source rectangle
+    - id: align
+      type: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    return:
+      type: System.Drawing.Rectangle
+      description: Rectangle in the destination that is covered by the source.
+    content.vb: Public Shared Function GetIntersectionRectangle(destination As Size, source As Size, align As ImageUtilities.VerticalAlignment) As Rectangle
+  overload: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  commentId: M:SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  id: ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ScaleImage(Image, Double, Double, Size, Size, Color, ImageUtilities.VerticalAlignment)
+  nameWithType: ImageUtilities.ScaleImage(Image, Double, Double, Size, Size, Color, ImageUtilities.VerticalAlignment)
+  fullName: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, System.Double, System.Double, System.Drawing.Size, System.Drawing.Size, System.Drawing.Color, SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nScale an image\n"
+  syntax:
+    content: public static Image ScaleImage(Image image, double scaleX, double scaleY, Size minSize, Size maxSize, Color fillColor, ImageUtilities.VerticalAlignment align)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The Image to scale.
+    - id: scaleX
+      type: System.Double
+      description: Scaling vector for the x (width) axis.  values below 1 means shrinking.
+    - id: scaleY
+      type: System.Double
+      description: Scaling vector for the y (height) axis.  values below 1 means shrinking.
+    - id: minSize
+      type: System.Drawing.Size
+      description: Minimum size of the picture.
+    - id: maxSize
+      type: System.Drawing.Size
+      description: Maximum size of the picture.
+    - id: fillColor
+      type: System.Drawing.Color
+      description: The color to be used when filling out the minimum area not covered by the image.
+    - id: align
+      type: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    return:
+      type: System.Drawing.Image
+      description: The scaled image.
+    content.vb: Public Shared Function ScaleImage(image As Image, scaleX As Double, scaleY As Double, minSize As Size, maxSize As Size, fillColor As Color, align As ImageUtilities.VerticalAlignment) As Image
+  overload: SuperOffice.Util.ImageUtilities.ScaleImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  commentId: M:SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  id: ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ScaleImage(Image, ImageUtilities.ImageSize, ImageUtilities.VerticalAlignment)
+  nameWithType: ImageUtilities.ScaleImage(Image, ImageUtilities.ImageSize, ImageUtilities.VerticalAlignment)
+  fullName: SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image, SuperOffice.Util.ImageUtilities.ImageSize, SuperOffice.Util.ImageUtilities.VerticalAlignment)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nScale an image to comply with the <see cref=\"!:ImageDescription\"></see>\n"
+  syntax:
+    content: public static Image ScaleImage(Image image, ImageUtilities.ImageSize imageSize, ImageUtilities.VerticalAlignment align)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: The image to scale.
+    - id: imageSize
+      type: SuperOffice.Util.ImageUtilities.ImageSize
+      description: Description of the scaling.
+    - id: align
+      type: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    return:
+      type: System.Drawing.Image
+      description: The scaled image.
+    content.vb: Public Shared Function ScaleImage(image As Image, imageSize As ImageUtilities.ImageSize, align As ImageUtilities.VerticalAlignment) As Image
+  overload: SuperOffice.Util.ImageUtilities.ScaleImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -624,3 +1059,188 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.Util.ImageUtilities.GetClearPixel*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetClearPixel
+  isExternal: true
+  name: GetClearPixel
+  nameWithType: ImageUtilities.GetClearPixel
+  fullName: SuperOffice.Util.ImageUtilities.GetClearPixel
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.Util.ImageUtilities.GetSrNoPhoto*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetSrNoPhoto
+  isExternal: true
+  name: GetSrNoPhoto
+  nameWithType: ImageUtilities.GetSrNoPhoto
+  fullName: SuperOffice.Util.ImageUtilities.GetSrNoPhoto
+- uid: System.Drawing.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: SuperOffice.Util.ImageUtilities.GetTextImage*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetTextImage
+  isExternal: true
+  name: GetTextImage
+  nameWithType: ImageUtilities.GetTextImage
+  fullName: SuperOffice.Util.ImageUtilities.GetTextImage
+- uid: System.Drawing.Font
+  commentId: '!:System.Drawing.Font'
+  isExternal: true
+  name: Font
+  nameWithType: Font
+  fullName: System.Drawing.Font
+- uid: SuperOffice.Util.ImageUtilities.Max*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.Max
+  isExternal: true
+  name: Max
+  nameWithType: ImageUtilities.Max
+  fullName: SuperOffice.Util.ImageUtilities.Max
+- uid: SuperOffice.Util.ImageUtilities.Min*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.Min
+  isExternal: true
+  name: Min
+  nameWithType: ImageUtilities.Min
+  fullName: SuperOffice.Util.ImageUtilities.Min
+- uid: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage
+  isExternal: true
+  name: GetScaledImageOrDefaultImage
+  nameWithType: ImageUtilities.GetScaledImageOrDefaultImage
+  fullName: SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage
+- uid: SuperOffice.Util.ImageUtilities.ImageSize
+  commentId: T:SuperOffice.Util.ImageUtilities.ImageSize
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.ImageSize
+  nameWithType: ImageUtilities.ImageSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize
+- uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+  commentId: T:SuperOffice.Util.ImageUtilities.FallbackStrategy
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.FallbackStrategy
+  nameWithType: ImageUtilities.FallbackStrategy
+  fullName: SuperOffice.Util.ImageUtilities.FallbackStrategy
+- uid: System.Func{System.Drawing.Image}
+  commentId: '!:System.Func{System.Drawing.Image}'
+  definition: System.Func`1
+  name: Func<Image>
+  nameWithType: Func<Image>
+  fullName: System.Func<System.Drawing.Image>
+  nameWithType.vb: Func(Of Image)
+  fullName.vb: System.Func(Of System.Drawing.Image)
+  name.vb: Func(Of Image)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  isExternal: true
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities.GetAspect*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetAspect
+  isExternal: true
+  name: GetAspect
+  nameWithType: ImageUtilities.GetAspect
+  fullName: SuperOffice.Util.ImageUtilities.GetAspect
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetIntersectionRectangle
+  isExternal: true
+  name: GetIntersectionRectangle
+  nameWithType: ImageUtilities.GetIntersectionRectangle
+  fullName: SuperOffice.Util.ImageUtilities.GetIntersectionRectangle
+- uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+  commentId: T:SuperOffice.Util.ImageUtilities.VerticalAlignment
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.VerticalAlignment
+  nameWithType: ImageUtilities.VerticalAlignment
+  fullName: SuperOffice.Util.ImageUtilities.VerticalAlignment
+- uid: System.Drawing.Rectangle
+  commentId: '!:System.Drawing.Rectangle'
+  isExternal: true
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: System.Drawing.Rectangle
+- uid: SuperOffice.Util.ImageUtilities.ScaleImage*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ScaleImage
+  isExternal: true
+  name: ScaleImage
+  nameWithType: ImageUtilities.ScaleImage
+  fullName: SuperOffice.Util.ImageUtilities.ScaleImage

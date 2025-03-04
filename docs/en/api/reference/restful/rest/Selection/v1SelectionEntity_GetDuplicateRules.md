@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hammes LLC",
-    "DisplayName": "Huels Inc and Sons",
-    "DisplayTooltip": "molestiae",
+    "Name": "Koepp Inc and Sons",
+    "DisplayName": "Maggio, Reinger and Hand",
+    "DisplayTooltip": "totam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   },
   {
-    "Name": "Hammes LLC",
-    "DisplayName": "Huels Inc and Sons",
-    "DisplayTooltip": "molestiae",
+    "Name": "Koepp Inc and Sons",
+    "DisplayName": "Maggio, Reinger and Hand",
+    "DisplayTooltip": "totam",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

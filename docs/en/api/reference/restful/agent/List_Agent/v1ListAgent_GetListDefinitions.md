@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Hettinger-Jast",
-    "Tooltip": "quis",
+    "Id": 217,
+    "Name": "Willms-Kessler",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 486,
-    "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "sint",
-    "InUseByUserDefinedFields": true,
+    "Rank": 174,
+    "IsCustomList": true,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": false,
+    "ListType": "ut",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 43
       }
     }
   }

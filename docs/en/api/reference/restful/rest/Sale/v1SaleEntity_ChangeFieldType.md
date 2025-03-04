@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 649,
-  "ColumnId": 820,
-  "FieldDefault": "eveniet",
-  "FieldHeight": 83,
-  "FieldLabel": "accusantium",
-  "FieldLeft": 187,
-  "FieldTop": 649,
+  "UDefFieldId": 315,
+  "ColumnId": 76,
+  "FieldDefault": "velit",
+  "FieldHeight": 427,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 484,
+  "FieldTop": 937,
   "FieldType": "Checkbox",
-  "FieldWidth": 704,
-  "FormatMask": "quo",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 858,
-  "LabelLeft": 856,
-  "LabelTop": 461,
-  "LabelWidth": 726,
-  "LastVersionId": 571,
-  "ListTableId": 89,
-  "IsMandatory": false,
+  "FieldWidth": 834,
+  "FormatMask": "est",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 216,
+  "LabelLeft": 305,
+  "LabelTop": 113,
+  "LabelWidth": 418,
+  "LastVersionId": 736,
+  "ListTableId": 596,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 440,
-  "ProgId": "aut",
-  "IsReadOnly": true,
-  "ShortLabel": "esse",
-  "TabOrder": 364,
-  "TextLength": 269,
-  "Tooltip": "corrupti",
-  "UdefIdentity": 520,
-  "UDListDefinitionId": 326,
+  "Page1LineNo": 393,
+  "ProgId": "molestiae",
+  "IsReadOnly": false,
+  "ShortLabel": "nisi",
+  "TabOrder": 782,
+  "TextLength": 332,
+  "Tooltip": "porro",
+  "UdefIdentity": 629,
+  "UDListDefinitionId": 864,
   "Justification": "Center",
-  "Version": 837,
-  "TemplateVariableName": "Bednar-Leuschke",
-  "HasBeenPublished": false,
-  "MdoListName": "Larkin-Williamson",
+  "Version": 22,
+  "TemplateVariableName": "Wehner, Keebler and Kuhn",
+  "HasBeenPublished": true,
+  "MdoListName": "Gislason Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldType": "System.Int32",
+      "FieldLength": 517
     }
   }
 }

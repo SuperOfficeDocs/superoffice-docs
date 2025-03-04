@@ -80,28 +80,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 663,
-    "AssociateName": "Quigley-Schmeler",
-    "AssociateId": 887,
+    "AccountId": 323,
+    "AssociateName": "Sanford LLC",
+    "AssociateId": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 500
       }
     }
   },
   {
-    "AccountId": 663,
-    "AssociateName": "Quigley-Schmeler",
-    "AssociateId": 887,
+    "AccountId": 323,
+    "AssociateName": "Sanford LLC",
+    "AssociateId": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 500
       }
     }
   }

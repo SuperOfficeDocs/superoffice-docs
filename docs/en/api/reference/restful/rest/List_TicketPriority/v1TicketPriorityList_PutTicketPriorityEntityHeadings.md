@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 63,
-    "Name": "Metz-White",
-    "Tooltip": "velit",
+    "HeadingId": 320,
+    "Name": "Prosacco, Rowe and Bradtke",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 271
+    "Rank": 172,
+    "UdListDefinitionId": 162
   },
   {
-    "HeadingId": 63,
-    "Name": "Metz-White",
-    "Tooltip": "velit",
+    "HeadingId": 320,
+    "Name": "Prosacco, Rowe and Bradtke",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "Rank": 473,
-    "UdListDefinitionId": 271
+    "Rank": 172,
+    "UdListDefinitionId": 162
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 720,
-    "Name": "Schinner-O'Keefe",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "Rank": 936,
-    "UdListDefinitionId": 209,
+    "HeadingId": 612,
+    "Name": "Schaden LLC",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 123,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 158
       }
     }
   }

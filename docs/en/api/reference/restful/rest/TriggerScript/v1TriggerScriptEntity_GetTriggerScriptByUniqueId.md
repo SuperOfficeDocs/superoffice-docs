@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 915,
-  "Name": "Hartmann Inc and Sons",
+  "ScreenChooserId": 82,
+  "Name": "O'Hara, Bartoletti and Graham",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "rerum",
-  "Source": "non",
-  "Registered": "2012-03-03T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 900,
-  "Updated": "2020-09-21T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 811,
+  "Enabled": false,
+  "UniqueIdentifier": "sit",
+  "Source": "deserunt",
+  "Registered": "2019-01-26T14:13:49.414935+01:00",
+  "RegisteredAssociateId": 150,
+  "Updated": "2022-03-30T14:13:49.414935+02:00",
+  "UpdatedAssociateId": 969,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 135
     }
   }
 }

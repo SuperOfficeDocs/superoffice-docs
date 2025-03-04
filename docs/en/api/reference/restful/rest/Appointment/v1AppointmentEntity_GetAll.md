@@ -71,11 +71,11 @@ GET /api/v1/Appointment?$select=name,department,category/id
 GET /api/v1/Appointment?$filter=name begins 'S'
 GET /api/v1/Appointment?$orderBy=name asc
 GET /api/v1/Appointment?$entities=omnis
-GET /api/v1/Appointment?$top=784
-GET /api/v1/Appointment?$skip=267
+GET /api/v1/Appointment?$top=263
+GET /api/v1/Appointment?$skip=61
 GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
-GET /api/v1/Appointment?$context=vero
+GET /api/v1/Appointment?$context=in
 GET /api/v1/Appointment?$format=JSON
 GET /api/v1/Appointment?$jsonSafe=False
 GET /api/v1/Appointment?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "in",
+  "odata.nextLink": "alias",
   "value": [
     {
-      "PrimaryKey": 8483,
-      "EntityName": "person",
-      "personId": 8483,
-      "fullName": "Lambert Bradtke"
+      "PrimaryKey": 153,
+      "EntityName": "sale",
+      "saleId": 153,
+      "contactId": 6412,
+      "name": "Purdy-Orn"
     },
     {
-      "PrimaryKey": 1002,
-      "EntityName": "person",
-      "personId": 1002,
-      "fullName": "Ms. Xzavier Gillian Fahey"
+      "PrimaryKey": 4046,
+      "EntityName": "sale",
+      "saleId": 4046,
+      "contactId": 3108,
+      "name": "Bergnaum-Jacobi"
     }
   ]
 }

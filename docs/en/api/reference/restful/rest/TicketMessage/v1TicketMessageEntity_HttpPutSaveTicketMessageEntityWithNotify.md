@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 73,
+  "EjMessageId": 607,
   "Ticket": null,
-  "CreatedAt": "2008-09-09T12:01:33.2925881+02:00",
+  "CreatedAt": "1998-09-01T14:13:49.3993142+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "ex",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dignissimos",
-  "TimeSpent": 662,
-  "Body": "sed",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "leonor.schinner@parker.uk",
-  "DebugInfo": "incidunt",
-  "MailSorter": "vitae",
+  "MessageId": "quo",
+  "TimeSpent": 218,
+  "Body": "praesentium",
+  "HtmlBody": "optio",
+  "EmailHeader": "eusebio_lind@kemmer.name",
+  "DebugInfo": "quia",
+  "MailSorter": "architecto",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dicta",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 465,
-      "Name": "Kautzer, Denesik and Cronin",
-      "Value": "repellendus",
+      "Id": 91,
+      "Name": "Marks LLC",
+      "Value": "quae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 465,
-      "Name": "Kautzer, Denesik and Cronin",
-      "Value": "repellendus",
+      "Id": 91,
+      "Name": "Marks LLC",
+      "Value": "quae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "animi",
-  "Sentiment": 633,
-  "SentimentConfidence": 375,
+  "Important": true,
+  "Language": "dicta",
+  "Sentiment": 829,
+  "SentimentConfidence": 458,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 142,
-      "Name": "Rempel LLC",
-      "ContentType": "sit",
-      "AttSize": 245,
-      "InlineImage": false,
-      "ContentId": "beatae",
-      "AuthKey": "est",
+      "AttachmentId": 516,
+      "Name": "O'Reilly-Lemke",
+      "ContentType": "enim",
+      "AttSize": 907,
+      "InlineImage": true,
+      "ContentId": "aut",
+      "AuthKey": "ut",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "dolores",
+    "CustomFields2": "aut"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 618,
+  "EjMessageId": 58,
   "Ticket": null,
-  "CreatedAt": "2006-10-10T12:01:33.2925881+02:00",
+  "CreatedAt": "2014-07-13T14:13:49.3993142+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "expedita",
-  "TimeSpent": 330,
-  "Body": "accusamus",
-  "HtmlBody": "eius",
-  "EmailHeader": "bella_becker@goyette.biz",
-  "DebugInfo": "reiciendis",
-  "MailSorter": "molestiae",
+  "MessageId": "quam",
+  "TimeSpent": 376,
+  "Body": "vero",
+  "HtmlBody": "expedita",
+  "EmailHeader": "stewart@cummerata.uk",
+  "DebugInfo": "distinctio",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maiores",
+  "SearchTitle": "est",
   "MessageHeaders": [
     {
-      "Id": 931,
-      "Name": "Greenholt, Kutch and Hirthe",
-      "Value": "rerum",
+      "Id": 997,
+      "Name": "Kiehn-Medhurst",
+      "Value": "sapiente",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldLength": 164
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 538,
-  "SentimentConfidence": 106,
+  "Language": "voluptate",
+  "Sentiment": 62,
+  "SentimentConfidence": 811,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 128,
-      "Name": "Jewess, Lindgren and Berge",
-      "ContentType": "ad",
-      "AttSize": 998,
-      "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "odio",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 803,
+      "Name": "Runolfsdottir, Considine and Little",
+      "ContentType": "sit",
+      "AttSize": 565,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "sunt",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 146
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "et"
+    "CustomFields1": "illo",
+    "CustomFields2": "culpa"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldLength": 337
     }
   }
 }

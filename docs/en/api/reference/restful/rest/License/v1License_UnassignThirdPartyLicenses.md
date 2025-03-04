@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 887,
-    "Tooltip": "a",
+    "Total": 418,
+    "Tooltip": "praesentium",
     "CanAssign": false,
-    "Free": 780,
-    "InUse": 876,
+    "Free": 375,
+    "InUse": 835,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 931,
-    "Name": "Halvorson, Gutmann and DuBuque",
-    "Description": "Customizable scalable website",
-    "PrerequisiteModuleName": "Wintheiser-Cartwright",
-    "SortOrder": 688,
-    "ExtraFlags": 899,
+    "ModuleLicenseId": 627,
+    "Name": "Jaskolski LLC",
+    "Description": "Compatible global matrix",
+    "PrerequisiteModuleName": "Mante-Zulauf",
+    "SortOrder": 322,
+    "ExtraFlags": 959,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 484
+        "FieldLength": 500
       }
     }
   }

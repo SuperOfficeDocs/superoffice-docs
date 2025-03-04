@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 918,
+  "RecordId": 444,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Larkin LLC",
-    "CrmFieldKey": "quod",
-    "Value": "facilis",
-    "DisplayValue": "ipsam",
-    "SyncToCrm": true,
+    "DisplayName": "Goldner-Monahan",
+    "CrmFieldKey": "rerum",
+    "Value": "dolorem",
+    "DisplayValue": "aut",
+    "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldLength": 652
       }
     }
   }

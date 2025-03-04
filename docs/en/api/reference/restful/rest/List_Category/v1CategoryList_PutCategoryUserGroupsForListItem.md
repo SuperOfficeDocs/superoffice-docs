@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Lockman, King and Schinner",
-    "ToolTip": "Ea velit.",
+    "Id": 935,
+    "Name": "Abbott LLC",
+    "ToolTip": "Cumque explicabo temporibus eos doloremque qui ullam.",
     "Deleted": false,
-    "Rank": 695,
-    "Type": "et",
-    "ColorBlock": 317,
-    "IconHint": "consequatur",
+    "Rank": 520,
+    "Type": "eligendi",
+    "ColorBlock": 14,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-05-23T12:01:33.4332226+02:00",
+    "LastChanged": "2010-12-26T14:13:49.6804997+01:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Ziemann, Schmeler and Legros",
-        "ToolTip": "Omnis beatae dolor delectus culpa autem iusto quia.",
+        "Id": 606,
+        "Name": "Feest, Haley and Walsh",
+        "ToolTip": "Id et.",
         "Deleted": false,
-        "Rank": 124,
-        "Type": "dolorum",
-        "ColorBlock": 13,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2019-06-02T12:01:33.4332226+02:00",
+        "Rank": 915,
+        "Type": "totam",
+        "ColorBlock": 130,
+        "IconHint": "aliquam",
+        "Selected": true,
+        "LastChanged": "1998-03-16T14:13:49.6804997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Dr. Lamar Murray"
+        "ExtraInfo": "sed",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Theresia Kautzer DVM"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "dicta",
+    "ExtraInfo": "vel",
+    "StyleHint": "velit",
     "Hidden": true,
-    "FullName": "Prof. Juliet Murray"
+    "FullName": "Mrs. Sally Zemlak"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Wisozk LLC",
-    "ToolTip": "Vel labore.",
+    "Id": 820,
+    "Name": "Labadie-Hartmann",
+    "ToolTip": "Ea rerum.",
     "Deleted": false,
-    "Rank": 751,
-    "Type": "repudiandae",
-    "ColorBlock": 667,
-    "IconHint": "dolorem",
+    "Rank": 217,
+    "Type": "inventore",
+    "ColorBlock": 358,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2009-09-14T12:01:33.4332226+02:00",
+    "LastChanged": "2006-03-17T14:13:49.6804997+01:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Cole-Lockman",
-        "ToolTip": "Error cumque eum iure.",
-        "Deleted": false,
-        "Rank": 163,
-        "Type": "quas",
-        "ColorBlock": 348,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2003-08-21T12:01:33.4332226+02:00",
+        "Id": 368,
+        "Name": "Prohaska Group",
+        "ToolTip": "Dolor nemo.",
+        "Deleted": true,
+        "Rank": 740,
+        "Type": "repellendus",
+        "ColorBlock": 626,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2014-04-22T14:13:49.6804997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Erwin Kuvalis",
+        "ExtraInfo": "ut",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Harrison Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 46
+            "FieldType": "System.String",
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "et",
+    "StyleHint": "recusandae",
     "Hidden": true,
-    "FullName": "Elva Bruen",
+    "FullName": "Houston Levi Dooley IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldType": "System.Int32",
+        "FieldLength": 79
       }
     }
   }

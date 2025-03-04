@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 330,
-  "Name": "Mosciski, Hilpert and Renner",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "UdListDefinitionId": 969,
-  "Rank": 369,
+  "Id": 454,
+  "Name": "Herzog-Simonis",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 370,
+  "Rank": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 76
     }
   }
 }

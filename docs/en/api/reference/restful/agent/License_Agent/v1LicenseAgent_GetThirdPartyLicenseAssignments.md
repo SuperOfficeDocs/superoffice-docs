@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 753,
-  "ModuleOwner": "quae"
+  "AssociateId": 334,
+  "ModuleOwner": "ab"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 616,
-    "Tooltip": "ut",
-    "CanAssign": true,
-    "Free": 870,
-    "InUse": 901,
-    "IsHidden": true,
+    "Total": 903,
+    "Tooltip": "quaerat",
+    "CanAssign": false,
+    "Free": 882,
+    "InUse": 627,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 285,
-    "Name": "Frami Group",
-    "Description": "Automated demand-driven analyzer",
-    "PrerequisiteModuleName": "Marvin, Dickinson and Sporer",
-    "SortOrder": 872,
-    "ExtraFlags": 732,
+    "ModuleLicenseId": 438,
+    "Name": "Veum Group",
+    "Description": "Progressive tertiary knowledge base",
+    "PrerequisiteModuleName": "Keeling-Legros",
+    "SortOrder": 710,
+    "ExtraFlags": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 9
       }
     }
   }

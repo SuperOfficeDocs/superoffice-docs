@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 901,
-  "UserInput": "eos",
-  "PriceListKey": "in"
+  "QuoteAlternativeId": 139,
+  "UserInput": "quis",
+  "PriceListKey": "et"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 786,
-    "ERPProductKey": "fugiat",
-    "ERPPriceListKey": "qui",
-    "Name": "Kulas Group",
-    "Description": "Enhanced web-enabled focus group",
-    "Code": "ab",
-    "PriceUnit": "qui",
-    "QuantityUnit": "quidem",
-    "IsSubscription": true,
-    "SubscriptionUnit": "consequatur",
-    "DefaultSubscriptionQuantity": 9188.887999999999,
-    "ItemNumber": "846956",
+    "ProductId": 694,
+    "ERPProductKey": "quia",
+    "ERPPriceListKey": "recusandae",
+    "Name": "Brekke Group",
+    "Description": "Compatible clear-thinking workforce",
+    "Code": "minima",
+    "PriceUnit": "aut",
+    "QuantityUnit": "sunt",
+    "IsSubscription": false,
+    "SubscriptionUnit": "neque",
+    "DefaultSubscriptionQuantity": 880.654,
+    "ItemNumber": "377419",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "ut",
-    "ProductTypeKey": "ducimus",
-    "VAT": 7126.7159999999994,
-    "VATInfo": "nulla",
-    "UnitCost": 6612.74,
-    "UnitMinimumPrice": 28403.442,
-    "UnitListPrice": 22906.406,
-    "InAssortment": false,
-    "Supplier": "molestiae",
-    "SupplierCode": "qui",
-    "Rights": "fuga",
-    "Rule": "vel",
+    "ProductFamilyKey": "non",
+    "ProductTypeKey": "cupiditate",
+    "VAT": 9834.492,
+    "VATInfo": "et",
+    "UnitCost": 16002.204,
+    "UnitMinimumPrice": 7740.98,
+    "UnitListPrice": 30622.314,
+    "InAssortment": true,
+    "Supplier": "officiis",
+    "SupplierCode": "commodi",
+    "Rights": "expedita",
+    "Rule": "quis",
     "ExtraInfo": [
       {
-        "Name": "Dickens-Howell",
-        "Value": "enim",
+        "Name": "Hansen-Bruen",
+        "Value": "labore",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldLength": 58
           }
         }
       },
       {
-        "Name": "Dickens-Howell",
-        "Value": "enim",
+        "Name": "Hansen-Bruen",
+        "Value": "labore",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldLength": 58
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "rerum",
-    "ExtraField2": "est",
-    "ExtraField3": "voluptatem",
-    "ExtraField4": "voluptatum",
-    "ExtraField5": "et",
-    "InStock": 2936.558,
+    "RawExtraInfo": "assumenda",
+    "ExtraField1": "quos",
+    "ExtraField2": "et",
+    "ExtraField3": "dolorem",
+    "ExtraField4": "dolorem",
+    "ExtraField5": "aut",
+    "InStock": 10868.712,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 833
       }
     }
   }

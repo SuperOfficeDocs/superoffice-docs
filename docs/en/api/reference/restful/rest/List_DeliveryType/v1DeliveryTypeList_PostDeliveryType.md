@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 283,
-  "Name": "Goldner-Sipes",
-  "Tooltip": "adipisci",
+  "Id": 721,
+  "Name": "Trantow, Howe and Hermann",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 65,
-  "Rank": 954
+  "UdListDefinitionId": 945,
+  "Rank": 609
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Tremblay Inc and Sons",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 261,
+  "Id": 672,
+  "Name": "Schmitt, Stroman and Turcotte",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "UdListDefinitionId": 303,
+  "Rank": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 705
     }
   }
 }

@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <Quote:SendQuoteVersion>
     <Quote:QuoteVersionId xsi:type="xsd:int">0</Quote:QuoteVersionId>
-    <Quote:ExpiryDate xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:ExpiryDate>
-    <Quote:FollowupDate xsi:type="xsd:dateTime">2025-02-10T11:00:44Z</Quote:FollowupDate>
+    <Quote:ExpiryDate xsi:type="xsd:dateTime">2025-02-24T13:12:55Z</Quote:ExpiryDate>
+    <Quote:FollowupDate xsi:type="xsd:dateTime">2025-02-24T13:12:55Z</Quote:FollowupDate>
     <Quote:FollowupText xsi:type="xsd:string"></Quote:FollowupText>
     <Quote:Culture xsi:type="xsd:string"></Quote:Culture>
    </Quote:SendQuoteVersion>

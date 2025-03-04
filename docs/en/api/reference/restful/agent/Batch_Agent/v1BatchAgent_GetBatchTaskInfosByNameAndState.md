@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmidt Inc and Sons",
+  "Name": "Hermiston-Walker",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 162,
-    "Name": "Dickinson LLC",
-    "AssociateId": 253,
-    "DetailsTable": 286,
-    "DetailsRecord": 507,
-    "IsSystemTask": false,
-    "IsInternalTask": false,
+    "Id": 953,
+    "Name": "Pouros LLC",
+    "AssociateId": 535,
+    "DetailsTable": 236,
+    "DetailsRecord": 918,
+    "IsSystemTask": true,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "voluptatem"
+      "ParameterObject1": "sunt",
+      "ParameterObject2": "soluta"
     },
-    "LastStarted": "2001-11-16T12:01:27.3533761+01:00",
-    "Created": "2010-08-21T12:01:27.3533761+02:00",
-    "StartCount": 32,
-    "DatabaseSerialNumber": "1378805",
+    "LastStarted": "2021-10-08T14:13:39.3911033+02:00",
+    "Created": "1999-07-22T14:13:39.3911033+02:00",
+    "StartCount": 333,
+    "DatabaseSerialNumber": "515068",
     "Context": "non",
-    "Result": "qui",
+    "Result": "quia",
     "State": "All",
-    "Description": "Secured explicit service-desk",
-    "Response": "est",
-    "Request": "officiis",
-    "ProgressDescription": "Persistent bifurcated adapter",
-    "ProgressPercent": 400,
-    "FileName": "Sanford, Walter and Green",
+    "Description": "Centralized analyzing parallelism",
+    "Response": "sit",
+    "Request": "iusto",
+    "ProgressDescription": "Realigned secondary portal",
+    "ProgressPercent": 314,
+    "FileName": "Wyman, Runolfsson and McDermott",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 832
       }
     }
   }

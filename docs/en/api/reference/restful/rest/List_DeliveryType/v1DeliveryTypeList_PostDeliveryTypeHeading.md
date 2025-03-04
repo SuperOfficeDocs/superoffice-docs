@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 652,
-  "Name": "Predovic Group",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 467,
-  "UdListDefinitionId": 935
+  "HeadingId": 828,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "expedita",
+  "Deleted": true,
+  "Rank": 588,
+  "UdListDefinitionId": 364
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Cronin-Kunze",
-  "Tooltip": "at",
+  "HeadingId": 102,
+  "Name": "Schimmel LLC",
+  "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 481,
-  "UdListDefinitionId": 256,
+  "Rank": 719,
+  "UdListDefinitionId": 585,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 85
     }
   }
 }

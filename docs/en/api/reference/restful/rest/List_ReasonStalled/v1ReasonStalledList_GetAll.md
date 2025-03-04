@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Lynch Inc and Sons",
-    "Tooltip": "est",
+    "Id": 650,
+    "Name": "Little-Swift",
+    "Tooltip": "quae",
     "Deleted": true,
-    "UdListDefinitionId": 247,
-    "Rank": 927,
+    "UdListDefinitionId": 326,
+    "Rank": 480,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

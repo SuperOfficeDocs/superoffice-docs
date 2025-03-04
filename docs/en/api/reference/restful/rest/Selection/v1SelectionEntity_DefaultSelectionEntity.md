@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 18 Oct 2007 12:01:33 G10T
+Last-Modified: Wed, 12 Aug 2020 14:13:49 G8T
 
 {
-  "Description": "Cross-group 24 hour intranet",
-  "Postit": "nesciunt",
+  "Description": "Organic 5th generation core",
+  "Postit": "nemo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 309,
-  "IncludePerson": 737,
+  "GroupIdx": 3,
+  "IncludePerson": 853,
   "MemberCount": 99.99,
-  "Name": "Abshire-Bernier",
-  "PostitTextId": 456,
-  "CreatedDate": "2013-11-12T12:01:33.1988321+01:00",
-  "SelectionId": 774,
-  "SoundEx": "et",
-  "Source": 971,
-  "TextId": 892,
-  "UpdatedDate": "2007-10-18T12:01:33.1988321+02:00",
-  "UpdatedCount": 382,
-  "Visibility": 374,
+  "Name": "Leannon, Howe and Lind",
+  "PostitTextId": 442,
+  "CreatedDate": "2018-02-09T14:13:49.2274801+01:00",
+  "SelectionId": 648,
+  "SoundEx": "tenetur",
+  "Source": 299,
+  "TextId": 981,
+  "UpdatedDate": "2020-08-12T14:13:49.2274801+02:00",
+  "UpdatedCount": 681,
+  "Visibility": 709,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 346,
-  "TargetTableName": "Nitzsche-Lind",
+  "CompanyUnique": true,
+  "TargetTableNumber": 38,
+  "TargetTableName": "Cummings LLC",
   "Completed": true,
-  "LeftSelectionId": 449,
-  "RightSelectionId": 617,
+  "LeftSelectionId": 596,
+  "RightSelectionId": 667,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Yundt, Roob and Gerhold",
-  "ShadowProviderName": "Cummings-Rath",
-  "ChartKey": "fuga",
-  "LastLoaded": "2015-04-02T12:01:33.1988321+02:00",
-  "LastLoadedBy": 146,
+  "MainProviderName": "Nolan, Jaskolski and Bailey",
+  "ShadowProviderName": "Halvorson, Rutherford and Lesch",
+  "ChartKey": "maxime",
+  "LastLoaded": "2003-09-17T14:13:49.2274801+02:00",
+  "LastLoadedBy": 118,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-05-19T12:01:33.1988321+02:00",
-  "LastMembershipChangeBy": 719,
+  "LastMembershipChange": "2004-08-30T14:13:49.2274801+02:00",
+  "LastMembershipChangeBy": 519,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "blanditiis",
-  "MemberTabHeading": "odio",
-  "MailingsProviderName": "Hyatt Group",
-  "DashboardTileDefinitionId": 909,
+  "MainHeading": "tempore",
+  "MemberTabHeading": "dolor",
+  "MailingsProviderName": "Treutel-Satterfield",
+  "DashboardTileDefinitionId": 955,
   "VisibleFor": [
     {
-      "VisibleId": 844,
+      "VisibleId": 778,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 989
         }
       }
     },
     {
-      "VisibleId": 844,
+      "VisibleId": 778,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 989
         }
       }
     }
@@ -181,7 +181,7 @@ Last-Modified: Thu, 18 Oct 2007 12:01:33 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 565
     }
   }
 }

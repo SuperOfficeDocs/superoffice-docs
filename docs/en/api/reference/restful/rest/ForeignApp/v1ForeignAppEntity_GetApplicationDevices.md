@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Dec 2007 12:01:32 G12T
+Last-Modified: Sun, 21 Feb 1999 14:13:48 G2T
 
 [
   {
-    "ForeignDeviceId": 734,
-    "Name": "Marvin-Schaefer",
-    "CreatedDate": "2003-09-24T12:01:32.9175621+02:00",
-    "UpdatedDate": "2007-12-14T12:01:32.9175621+01:00",
-    "AssociateFullName": "Whitney Lynch",
-    "CreatedBy": "dicta",
-    "UpdatedBy": "sed",
-    "DeviceIdentifier": "modi",
-    "ForeignAppId": 282,
+    "ForeignDeviceId": 851,
+    "Name": "Franecki-Botsford",
+    "CreatedDate": "2022-09-05T14:13:48.8836985+02:00",
+    "UpdatedDate": "1999-02-21T14:13:48.8836985+01:00",
+    "AssociateFullName": "Alexander Keeling",
+    "CreatedBy": "repellat",
+    "UpdatedBy": "sunt",
+    "DeviceIdentifier": "fugiat",
+    "ForeignAppId": 516,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 136
+        "FieldLength": 502
       }
     }
   }

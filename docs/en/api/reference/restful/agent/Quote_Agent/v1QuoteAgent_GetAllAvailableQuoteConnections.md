@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 601,
-    "ERPName": "Stehr Group",
-    "DisplayName": "Dickens, Ryan and Stoltenberg",
-    "DisplayDescription": "Polarised homogeneous pricing structure",
-    "Rank": 124,
-    "ConnectorName": "Schoen-Walker",
-    "ErpConnectionId": 525,
-    "ExtraData": "nihil",
+    "QuoteConnectionId": 917,
+    "ERPName": "Muller, Howe and Kozey",
+    "DisplayName": "Ledner Group",
+    "DisplayDescription": "Self-enabling intermediate support",
+    "Rank": 429,
+    "ConnectorName": "Windler LLC",
+    "ErpConnectionId": 384,
+    "ExtraData": "consequatur",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 284,
-        "ERPPriceListKey": "nam",
-        "QuoteConnectionId": 857,
-        "Name": "Bins Group",
-        "Description": "Cross-group fault-tolerant data-warehouse",
-        "Currency": "sed",
-        "CurrencyName": "Hirthe, Daniel and Hamill",
-        "ValidFrom": "1999-11-06T12:01:28.1971849+01:00",
-        "ValidTo": "2001-09-02T12:01:28.1971849+02:00",
-        "IsActive": true,
+        "PriceListId": 66,
+        "ERPPriceListKey": "est",
+        "QuoteConnectionId": 866,
+        "Name": "Waelchi-Willms",
+        "Description": "Secured encompassing workforce",
+        "Currency": "quae",
+        "CurrencyName": "Champlin, Stanton and Schneider",
+        "ValidFrom": "2000-06-14T14:13:41.1095702+02:00",
+        "ValidTo": "2010-12-31T14:13:41.1095702+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 87
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      83,
-      800
+      182,
+      757
     ],
     "AssociateAccessIds": [
-      29,
-      808
+      571,
+      680
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 344
+        "FieldType": "System.Int32",
+        "FieldLength": 148
       }
     }
   }

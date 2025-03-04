@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 488
+  "QuoteLineId": 799
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 71,
-  "ERPQuoteLineKey": "qui",
-  "QuoteAlternativeId": 67,
-  "ERPProductKey": "et",
+  "QuoteLineId": 878,
+  "ERPQuoteLineKey": "aut",
+  "QuoteAlternativeId": 552,
+  "ERPProductKey": "voluptatem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 30293.244,
-  "DeliveredQuantity": 3005.506,
-  "Rank": 485,
-  "Name": "Swift, Rau and Nicolas",
-  "Description": "Extended impactful installation",
-  "Code": "ut",
-  "QuantityUnit": "nulla",
-  "PriceUnit": "voluptates",
-  "ItemNumber": "1327911",
+  "Quantity": 19496.613999999998,
+  "DeliveredQuantity": 26410.218,
+  "Rank": 54,
+  "Name": "Mann LLC",
+  "Description": "Face to face solution-oriented groupware",
+  "Code": "id",
+  "QuantityUnit": "quis",
+  "PriceUnit": "voluptas",
+  "ItemNumber": "688492",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequuntur",
-  "ProductTypeKey": "distinctio",
-  "Supplier": "et",
-  "SupplierCode": "occaecati",
-  "Thumbnail": "aut",
-  "VATInfo": "aut",
-  "VAT": 7017.026,
-  "UnitCost": 30255.636,
-  "UnitMinimumPrice": 12.536,
-  "UnitListPrice": 19393.192,
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "ut",
+  "Supplier": "voluptatem",
+  "SupplierCode": "quia",
+  "Thumbnail": "voluptates",
+  "VATInfo": "quaerat",
+  "VAT": 6894.8,
+  "UnitCost": 13369.644,
+  "UnitMinimumPrice": 7411.91,
+  "UnitListPrice": 13488.735999999999,
   "ExtraInfo": [
     {
-      "Name": "Willms, Nicolas and Kutch",
-      "Value": "consequuntur",
+      "Name": "Wintheiser, Rodriguez and Beahan",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldLength": 784
         }
       }
     },
     {
-      "Name": "Willms, Nicolas and Kutch",
-      "Value": "consequuntur",
+      "Name": "Wintheiser, Rodriguez and Beahan",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldLength": 784
         }
       }
     }
   ],
-  "RawExtraInfo": "corrupti",
-  "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "SubscriptionQuantity": 15610.454,
-  "SubscriptionStart": "2005-08-30T12:01:28.2128113+02:00",
-  "ERPDiscountPercent": 28168.392,
-  "ERPDiscountAmount": 25328.987999999998,
-  "DiscountPercent": 30481.284,
-  "DiscountAmount": 29917.164,
+  "RawExtraInfo": "quibusdam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quis",
+  "SubscriptionQuantity": 11363.884,
+  "SubscriptionStart": "2012-07-13T14:13:41.1251915+02:00",
+  "ERPDiscountPercent": 22991.023999999998,
+  "ERPDiscountAmount": 4585.0419999999995,
+  "DiscountPercent": 26842.71,
+  "DiscountAmount": 2316.026,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30985.858,
-  "EarningAmount": 5716.416,
-  "SubTotal": 8085.7199999999993,
-  "TotalPrice": 26736.154,
-  "Rights": "animi",
-  "Rule": "iusto",
-  "ExtraField1": "et",
-  "ExtraField2": "esse",
-  "ExtraField3": "totam",
-  "ExtraField4": "aut",
-  "ExtraField5": "vero",
+  "EarningPercent": 75.216,
+  "EarningAmount": 22473.914,
+  "SubTotal": 2607.488,
+  "TotalPrice": 5083.348,
+  "Rights": "rerum",
+  "Rule": "aut",
+  "ExtraField1": "ea",
+  "ExtraField2": "dolorem",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "velit",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldType": "System.Int32",
+      "FieldLength": 401
     }
   }
 }

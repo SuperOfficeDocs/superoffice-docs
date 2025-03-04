@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 737,
-  "Created": "2013-08-17T12:01:28.2128113+02:00",
+  "SatelliteId": 565,
+  "Created": "2021-12-23T14:13:41.1408128+01:00",
   "CreatedBy": null,
-  "Updated": "2003-02-18T12:01:28.2128113+01:00",
+  "Updated": "2023-01-05T14:13:41.1408128+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "DuBuque Group",
-      "Description": "Cross-group modular approach",
+      "Name": "Sporer Inc and Sons",
+      "Description": "Team-oriented 6th generation instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 121
         }
       }
     },
     {
-      "Name": "DuBuque Group",
-      "Description": "Cross-group modular approach",
+      "Name": "Sporer Inc and Sons",
+      "Description": "Team-oriented 6th generation instruction set",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 121
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 641
     }
   }
 }

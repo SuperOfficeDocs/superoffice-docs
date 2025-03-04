@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": true,
-      "Key": "nulla",
-      "ValueType": "maiores",
-      "Mandatory": true,
-      "EncodedDisplayName": "Baumbach LLC",
-      "EncodedDisplayDescription": "Front-line interactive forecast",
-      "IconHint": "inventore",
+      "Key": "impedit",
+      "ValueType": "qui",
+      "Mandatory": false,
+      "EncodedDisplayName": "Nienow Inc and Sons",
+      "EncodedDisplayDescription": "Team-oriented disintermediate archive",
+      "IconHint": "optio",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "nemo",
-      "EncodedDataCaptionDescription": "Configurable attitude-oriented throughput",
-      "CurrentOperationType": "totam",
+      "EncodedDataCaption": "minus",
+      "EncodedDataCaptionDescription": "Automated composite knowledge base",
+      "CurrentOperationType": "rerum",
       "Values": [
-        "et",
-        "dolorem"
+        "possimus",
+        "debitis"
       ],
       "DisplayValues": [
-        "sunt",
-        "maxime"
+        "autem",
+        "dolore"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Koch Group",
-  "Context": "fuga",
-  "Ids": "asperiores"
+  "TableName": "Stanton, Lindgren and Hessel",
+  "Context": "assumenda",
+  "Ids": "voluptas"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-262
+627
 ```

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 850,
-  "Name": "Klocko Inc and Sons",
+  "Id": 365,
+  "Name": "Wisozk-Tremblay",
   "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 389,
-  "Rank": 216,
+  "Deleted": false,
+  "UdListDefinitionId": 58,
+  "Rank": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 290
     }
   }
 }

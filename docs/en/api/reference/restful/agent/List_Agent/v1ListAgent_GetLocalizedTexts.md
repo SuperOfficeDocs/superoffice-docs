@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 896,
-    "ResourceId": 693,
-    "Text": "qui",
+    "LanguageId": 293,
+    "ResourceId": 305,
+    "Text": "non",
     "Type": "Column",
-    "LocalizedTextId": 561,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 685,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldType": "System.String",
+        "FieldLength": 568
       }
     }
   }

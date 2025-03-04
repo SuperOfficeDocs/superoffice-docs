@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Pocket/GetCallerIDsFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 702,
-  "LastHash": "repellendus"
+  "SelectionId": 284,
+  "LastHash": "fuga"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "voluptates",
+  "CallerIDHash": "natus",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 760,
-      "PersonId": 999,
-      "PersonName": "Graham Group",
-      "Mrmrs": "ad",
-      "ContactId": 449,
-      "ContactName": "Farrell Inc and Sons"
+      "DialInPrefix": 883,
+      "PersonId": 469,
+      "PersonName": "Huels, Gusikowski and Bernhard",
+      "Mrmrs": "laboriosam",
+      "ContactId": 983,
+      "ContactName": "Leannon Inc and Sons"
     }
   ]
 }

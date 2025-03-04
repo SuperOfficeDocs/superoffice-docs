@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/TimeZone/InitializeTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 970,
-    "Name": "Monahan LLC",
-    "TZLocationCode": "molestias",
-    "TZLocationCities": "sed",
-    "IsoNumber": 655,
+    "TZLocationID": 192,
+    "Name": "Ankunding-Satterfield",
+    "TZLocationCode": "unde",
+    "TZLocationCities": "consectetur",
+    "IsoNumber": 788,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 501,
-        "StartMonth": 451,
-        "EndDay": 763,
-        "EndMonth": 975,
-        "TZOffset": 334,
-        "StartRulePattern": "praesentium",
-        "EndRulePattern": "rem"
+        "StartDay": 972,
+        "StartMonth": 559,
+        "EndDay": 871,
+        "EndMonth": 322,
+        "TZOffset": 139,
+        "StartRulePattern": "soluta",
+        "EndRulePattern": "exercitationem"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 983,
-        "StartMonth": 891,
-        "EndDay": 805,
-        "EndMonth": 299,
-        "TZOffset": 690,
-        "StartRulePattern": "explicabo",
-        "EndRulePattern": "dolor"
+        "StartDay": 226,
+        "StartMonth": 141,
+        "EndDay": 56,
+        "EndMonth": 985,
+        "TZOffset": 651,
+        "StartRulePattern": "quo",
+        "EndRulePattern": "sint"
       }
     }
   }

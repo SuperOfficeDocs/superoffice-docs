@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=106
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=838
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 393,
-  "Name": "Cormier Group",
-  "Description": "Profound impactful process improvement",
-  "DefaultHeight": 369,
-  "DefaultWidth": 942,
+  "DashboardTileDefinitionId": 235,
+  "Name": "Monahan-Gibson",
+  "Description": "Right-sized zero defect analyzer",
+  "DefaultHeight": 164,
+  "DefaultWidth": 840,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Barrows Inc and Sons",
-  "SelectionId": 193,
+  "EntityName": "Marks Inc and Sons",
+  "SelectionId": 288,
   "CurrencyMode": "Base",
-  "CurrencyCode": "numquam",
+  "CurrencyCode": "et",
   "Measure": "Average",
-  "MeasureField": "rerum",
-  "SortBy": "neque",
-  "LayoutConfig": "recusandae",
-  "SecondarySelectionId": 48,
-  "MeasureByField": "aperiam",
+  "MeasureField": "voluptatibus",
+  "SortBy": "alias",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 878,
+  "MeasureByField": "optio",
   "Usage": "Dashboard",
-  "ProviderName": "Gorczany Inc and Sons",
+  "ProviderName": "Howe-Volkman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldLength": 415
     }
   }
 }

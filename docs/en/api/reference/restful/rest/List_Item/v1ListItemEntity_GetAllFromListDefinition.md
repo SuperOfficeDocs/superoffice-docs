@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Stehr LLC",
-    "Tooltip": "quia",
+    "Id": 387,
+    "Name": "Stark, Gleichner and Kulas",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "UdListDefinitionId": 230,
-    "Rank": 765,
+    "UdListDefinitionId": 8,
+    "Rank": 153,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 197
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

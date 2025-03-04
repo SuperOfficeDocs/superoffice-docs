@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 480,
-    "Name": "Schneider, Brown and Corwin",
-    "Tooltip": "eum",
+    "HeadingId": 306,
+    "Name": "Goldner Inc and Sons",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 714,
-    "UdListDefinitionId": 379,
+    "Rank": 52,
+    "UdListDefinitionId": 635,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

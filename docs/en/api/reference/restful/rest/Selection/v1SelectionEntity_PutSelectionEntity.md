@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Decentralized exuding core",
-  "Postit": "sapiente",
+  "Description": "Future-proofed dynamic conglomeration",
+  "Postit": "corporis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 719,
-  "IncludePerson": 379,
+  "GroupIdx": 330,
+  "IncludePerson": 462,
   "MemberCount": 99.99,
-  "Name": "Ritchie-Thiel",
-  "PostitTextId": 860,
-  "CreatedDate": "2018-03-12T12:01:33.1988321+01:00",
-  "SelectionId": 632,
-  "SoundEx": "sit",
-  "Source": 338,
-  "TextId": 407,
-  "UpdatedDate": "1999-07-06T12:01:33.1988321+02:00",
-  "UpdatedCount": 647,
-  "Visibility": 801,
+  "Name": "Mitchell, Herzog and Reichel",
+  "PostitTextId": 930,
+  "CreatedDate": "2023-04-03T14:13:49.2430999+02:00",
+  "SelectionId": 558,
+  "SoundEx": "omnis",
+  "Source": 667,
+  "TextId": 783,
+  "UpdatedDate": "2011-05-24T14:13:49.2430999+02:00",
+  "UpdatedCount": 531,
+  "Visibility": 57,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 954,
-  "TargetTableName": "Waelchi-Rippin",
-  "Completed": true,
-  "LeftSelectionId": 558,
-  "RightSelectionId": 943,
+  "TargetTableNumber": 151,
+  "TargetTableName": "Jaskolski Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 417,
+  "RightSelectionId": 755,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McCullough Inc and Sons",
-  "ShadowProviderName": "Schuppe, Fay and O'Hara",
-  "ChartKey": "doloribus",
-  "LastLoaded": "2021-09-07T12:01:33.1988321+02:00",
-  "LastLoadedBy": 441,
+  "MainProviderName": "Corwin Group",
+  "ShadowProviderName": "Harris, Durgan and Dare",
+  "ChartKey": "commodi",
+  "LastLoaded": "2005-02-25T14:13:49.2430999+01:00",
+  "LastLoadedBy": 793,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-11-27T12:01:33.1988321+01:00",
-  "LastMembershipChangeBy": 480,
+  "LastMembershipChange": "2000-03-06T14:13:49.2430999+01:00",
+  "LastMembershipChangeBy": 241,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsum",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "McGlynn LLC",
-  "DashboardTileDefinitionId": 235,
+  "MainHeading": "mollitia",
+  "MemberTabHeading": "eum",
+  "MailingsProviderName": "Mosciski Group",
+  "DashboardTileDefinitionId": 548,
   "VisibleFor": [
     {
-      "VisibleId": 63,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "officia"
     },
     {
-      "VisibleId": 63,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "officia"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Persistent cohesive knowledge base",
-  "Postit": "nihil",
+  "Description": "Networked web-enabled portal",
+  "Postit": "ut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 454,
-  "IncludePerson": 84,
+  "GroupIdx": 611,
+  "IncludePerson": 283,
   "MemberCount": 99.99,
-  "Name": "Nienow Group",
-  "PostitTextId": 583,
-  "CreatedDate": "2022-11-05T12:01:33.1988321+01:00",
-  "SelectionId": 448,
-  "SoundEx": "laborum",
-  "Source": 570,
-  "TextId": 412,
-  "UpdatedDate": "2021-10-17T12:01:33.1988321+02:00",
-  "UpdatedCount": 648,
-  "Visibility": 856,
+  "Name": "VonRueden-Littel",
+  "PostitTextId": 967,
+  "CreatedDate": "2021-02-26T14:13:49.2430999+01:00",
+  "SelectionId": 82,
+  "SoundEx": "delectus",
+  "Source": 222,
+  "TextId": 485,
+  "UpdatedDate": "2008-12-14T14:13:49.2430999+01:00",
+  "UpdatedCount": 889,
+  "Visibility": 235,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 91,
-  "TargetTableName": "Powlowski, Dibbert and McCullough",
-  "Completed": true,
-  "LeftSelectionId": 34,
-  "RightSelectionId": 950,
+  "CompanyUnique": true,
+  "TargetTableNumber": 4,
+  "TargetTableName": "Bradtke LLC",
+  "Completed": false,
+  "LeftSelectionId": 211,
+  "RightSelectionId": 500,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schmidt-Borer",
-  "ShadowProviderName": "Lynch Group",
-  "ChartKey": "dolores",
-  "LastLoaded": "2000-11-06T12:01:33.1988321+01:00",
-  "LastLoadedBy": 267,
+  "MainProviderName": "Mosciski Group",
+  "ShadowProviderName": "McLaughlin-Koch",
+  "ChartKey": "nesciunt",
+  "LastLoaded": "2013-03-04T14:13:49.2430999+01:00",
+  "LastLoadedBy": 404,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-07T12:01:33.1988321+01:00",
-  "LastMembershipChangeBy": 716,
+  "LastMembershipChange": "2022-09-08T14:13:49.2430999+02:00",
+  "LastMembershipChangeBy": 798,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "vel",
-  "MemberTabHeading": "debitis",
-  "MailingsProviderName": "Willms-Price",
-  "DashboardTileDefinitionId": 35,
+  "MainHeading": "reprehenderit",
+  "MemberTabHeading": "neque",
+  "MailingsProviderName": "Treutel-Marquardt",
+  "DashboardTileDefinitionId": 504,
   "VisibleFor": [
     {
-      "VisibleId": 885,
+      "VisibleId": 650,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 489
         }
       }
     },
     {
-      "VisibleId": 885,
+      "VisibleId": 650,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 489
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 756
     }
   },
   "_Links": {

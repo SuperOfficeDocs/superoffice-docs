@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 822,
-  "Name": "Weimann LLC",
-  "Tooltip": "unde",
-  "Deleted": false,
-  "UdListDefinitionId": 581,
-  "Rank": 518,
+  "Id": 895,
+  "Name": "Kassulke, Wunsch and Stamm",
+  "Tooltip": "at",
+  "Deleted": true,
+  "UdListDefinitionId": 307,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   }
 }

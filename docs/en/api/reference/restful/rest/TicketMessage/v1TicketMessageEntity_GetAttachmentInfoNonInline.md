@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 823,
-    "Name": "Predovic LLC",
-    "ContentType": "quia",
-    "AttSize": 69,
-    "InlineImage": false,
-    "ContentId": "nostrum",
-    "AuthKey": "minus",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 920,
+    "Name": "Kohler, Wyman and Bogisich",
+    "ContentType": "veritatis",
+    "AttSize": 942,
+    "InlineImage": true,
+    "ContentId": "voluptatem",
+    "AuthKey": "a",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 469
       }
     }
   }

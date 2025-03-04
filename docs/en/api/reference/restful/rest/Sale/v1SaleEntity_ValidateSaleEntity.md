@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ipsa",
+  "SaleText": "eos",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-10-28T12:01:33.1832049+02:00",
-  "Amount": 7462.054,
-  "SaleId": 608,
-  "Earning": 10232.51,
-  "EarningPercent": 1118.838,
-  "Heading": "at",
-  "Number": "1261306",
-  "Probability": 240,
-  "CreatedDate": "2010-06-07T12:01:33.1832049+02:00",
-  "UpdatedDate": "2001-02-03T12:01:33.1832049+01:00",
+  "Saledate": "2024-08-18T14:13:49.2118561+02:00",
+  "Amount": 21414.622,
+  "SaleId": 699,
+  "Earning": 12745.978,
+  "EarningPercent": 13573.354,
+  "Heading": "commodi",
+  "Number": "1136956",
+  "Probability": 391,
+  "CreatedDate": "2019-05-02T14:13:49.2118561+02:00",
+  "UpdatedDate": "2007-08-03T14:13:49.2118561+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 993,
+  "ActiveLinks": 596,
   "Links": [
     {
-      "EntityName": "Gleichner, Morar and Orn",
-      "Id": 512,
-      "Description": "Synergized full-range capacity",
+      "EntityName": "Konopelski-Kovacek",
+      "Id": 723,
+      "Description": "Front-line clear-thinking forecast",
       "ExtraInfo": "enim",
-      "LinkId": 489
+      "LinkId": 361
     },
     {
-      "EntityName": "Gleichner, Morar and Orn",
-      "Id": 512,
-      "Description": "Synergized full-range capacity",
+      "EntityName": "Konopelski-Kovacek",
+      "Id": 723,
+      "Description": "Front-line clear-thinking forecast",
       "ExtraInfo": "enim",
-      "LinkId": 489
+      "LinkId": 361
     }
   ],
-  "NextDueDate": "2017-09-23T12:01:33.1832049+02:00",
-  "Postit": "eos",
+  "NextDueDate": "2010-05-14T14:13:49.2118561+02:00",
+  "Postit": "laboriosam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-08-19T12:01:33.1832049+02:00",
+  "ReopenDate": "2011-02-21T14:13:49.2118561+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koelpin-Runolfsdottir",
-      "Comment": "eum",
-      "StakeholderRoleId": 622,
-      "CountryId": 439,
-      "PersonId": 652,
-      "EmailDescription": "melba@kreiger.biz",
-      "EmailId": 790,
-      "EmailAddress": "diego@rau.us",
-      "PhoneId": 320,
-      "ContactName": "Stehr-Howell",
-      "ContactId": 153,
-      "SaleId": 111,
-      "Mrmrs": "sunt",
-      "Firstname": "Ruthie",
-      "MiddleName": "Hackett, Kreiger and Prosacco",
-      "Lastname": "Greenholt",
-      "SaleStakeholderId": 935,
-      "Rank": 877,
-      "Phone": "(246)542-5963 x13704"
+      "StakeholderRoleName": "Cremin-Rolfson",
+      "Comment": "cupiditate",
+      "StakeholderRoleId": 701,
+      "CountryId": 643,
+      "PersonId": 86,
+      "EmailDescription": "anais_marquardt@franeckierdman.co.uk",
+      "EmailId": 493,
+      "EmailAddress": "easton_collins@mitchellrunte.com",
+      "PhoneId": 243,
+      "ContactName": "Block-Morissette",
+      "ContactId": 895,
+      "SaleId": 705,
+      "Mrmrs": "aut",
+      "Firstname": "Elroy",
+      "MiddleName": "Wolf, Schinner and Sawayn",
+      "Lastname": "Gottlieb",
+      "SaleStakeholderId": 921,
+      "Rank": 866,
+      "Phone": "(698)156-6818"
     }
   ],
-  "ActiveErpLinks": 611,
+  "ActiveErpLinks": 420,
   "UserDefinedFields": {
-    "SuperOffice:1": "68961446",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Shayne Botsford"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "molestias"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "2023-05-26T12:01:33.1832049+02:00",
-  "PublishTo": "2011-07-01T12:01:33.1832049+02:00",
-  "PublishFrom": "2000-05-30T12:01:33.1832049+02:00",
+  "PublishEventDate": "2008-06-22T14:13:49.2118561+02:00",
+  "PublishTo": "2018-04-28T14:13:49.2118561+02:00",
+  "PublishFrom": "2021-12-29T14:13:49.2118561+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 546,
+      "VisibleId": 846,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "molestiae"
     },
     {
-      "VisibleId": 546,
+      "VisibleId": 846,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "molestiae"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "maiores",
-  "2": "et"
+  "1": "voluptas",
+  "2": "iste"
 }
 ```

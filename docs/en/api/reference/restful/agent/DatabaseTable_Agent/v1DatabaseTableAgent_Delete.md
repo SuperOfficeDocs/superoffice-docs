@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Willms-Hand",
+  "TableName": "Green-Ryan",
   "IDs": [
-    132,
-    100
+    203,
+    771
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "ex",
-  "Inserts": 208,
-  "Updates": 427,
-  "Deletes": 765,
+  "Success": false,
+  "Message": "explicabo",
+  "Inserts": 523,
+  "Updates": 606,
+  "Deletes": 835,
   "RowStatus": [
     {
-      "PrimaryKey": 330,
+      "PrimaryKey": 31,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "aspernatur"
+        "hic",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 909
         }
       }
     },
     {
-      "PrimaryKey": 330,
+      "PrimaryKey": 31,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "aspernatur"
+        "hic",
+        "eos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 909
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 114
     }
   }
 }

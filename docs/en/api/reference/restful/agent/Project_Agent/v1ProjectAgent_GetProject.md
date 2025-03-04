@@ -26,7 +26,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=992
+POST /api/v1/Agents/Project/GetProject?projectId=482
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 233,
-  "Name": "Treutel Inc and Sons",
-  "Description": "Intuitive exuding product",
+  "ProjectId": 537,
+  "Name": "Reilly Inc and Sons",
+  "Description": "Secured grid-enabled functionalities",
   "URL": "http://www.example.com/",
-  "Type": "consectetur",
-  "AssociateId": 527,
-  "AssociateFullName": "Maudie Adams",
-  "TypeId": 19,
-  "Updated": "2011-05-23T12:01:28.1503067+02:00",
-  "StatusId": 30,
-  "Status": "aspernatur",
-  "TextId": 585,
-  "PublishTo": "2024-01-29T12:01:28.1503067+01:00",
-  "PublishFrom": "2019-09-14T12:01:28.1503067+02:00",
+  "Type": "beatae",
+  "AssociateId": 526,
+  "AssociateFullName": "Lurline Zulauf PhD",
+  "TypeId": 980,
+  "Updated": "2003-08-09T14:13:41.0158413+02:00",
+  "StatusId": 599,
+  "Status": "dolorem",
+  "TextId": 778,
+  "PublishTo": "2013-09-07T14:13:41.0158413+02:00",
+  "PublishFrom": "2002-10-10T14:13:41.0158413+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "825551",
-  "ActiveErpLinks": 188,
+  "ProjectNumber": "577609",
+  "ActiveErpLinks": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldType": "System.String",
+      "FieldLength": 146
     }
   }
 }

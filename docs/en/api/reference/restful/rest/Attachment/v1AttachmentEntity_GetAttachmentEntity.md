@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 533,
-  "Name": "Howell, Auer and Bechtelar",
-  "ContentType": "sint",
-  "AttSize": 817,
+  "AttachmentId": 27,
+  "Name": "Witting-Feil",
+  "ContentType": "molestiae",
+  "AttSize": 375,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "voluptas",
+  "ContentId": "ut",
+  "AuthKey": "pariatur",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 900
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

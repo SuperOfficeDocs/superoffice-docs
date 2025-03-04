@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 942,
-    "Name": "Denesik-Durgan",
-    "ToolTip": "Tempora magni ea.",
+    "Id": 687,
+    "Name": "Ward-Harber",
+    "ToolTip": "In officia vel deserunt enim alias molestiae.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "expedita",
-    "ColorBlock": 703,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2002-01-10T12:01:33.5269792+01:00",
+    "Rank": 354,
+    "Type": "ea",
+    "ColorBlock": 579,
+    "IconHint": "id",
+    "Selected": true,
+    "LastChanged": "2006-02-22T14:13:49.9938028+01:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Skiles, Kassulke and Dicki",
-        "ToolTip": "Molestiae quis ad perferendis.",
+        "Id": 100,
+        "Name": "Grant Inc and Sons",
+        "ToolTip": "Dolor quia aperiam sit eveniet fuga dolores quibusdam.",
         "Deleted": true,
-        "Rank": 791,
-        "Type": "distinctio",
-        "ColorBlock": 283,
-        "IconHint": "consequatur",
+        "Rank": 391,
+        "Type": "cum",
+        "ColorBlock": 891,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2001-11-28T12:01:33.5269792+01:00",
+        "LastChanged": "2015-01-25T14:13:49.9938028+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "quis",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Reed Rice",
+        "FullName": "Gail Kunde",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 635
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "enim",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Ms. Dwight Beahan",
+    "FullName": "Stanton Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 422
       }
     }
   }

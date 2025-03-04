@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 357,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 732,
-  "Name": "Blick Inc and Sons",
-  "Description": "Horizontal 5th generation hardware",
-  "Currency": "deleniti",
-  "CurrencyName": "Wintheiser, Stark and Haag",
-  "ValidFrom": "2012-07-05T12:01:33.5582313+02:00",
-  "ValidTo": "2000-05-14T12:01:33.5582313+02:00",
+  "PriceListId": 168,
+  "ERPPriceListKey": "repudiandae",
+  "QuoteConnectionId": 853,
+  "Name": "Wolf LLC",
+  "Description": "Re-contextualized zero tolerance pricing structure",
+  "Currency": "culpa",
+  "CurrencyName": "Mitchell-Stamm",
+  "ValidFrom": "2008-04-23T14:13:50.0562893+02:00",
+  "ValidTo": "2012-10-15T14:13:50.0562893+02:00",
   "IsActive": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 910,
-  "ERPPriceListKey": "ea",
-  "QuoteConnectionId": 984,
-  "Name": "Walter-Upton",
-  "Description": "Diverse impactful strategy",
-  "Currency": "et",
-  "CurrencyName": "DuBuque, Schultz and Larson",
-  "ValidFrom": "1998-12-13T12:01:33.5582313+01:00",
-  "ValidTo": "2023-02-24T12:01:33.5582313+01:00",
+  "PriceListId": 500,
+  "ERPPriceListKey": "repudiandae",
+  "QuoteConnectionId": 576,
+  "Name": "McKenzie-Jacobson",
+  "Description": "Advanced regional forecast",
+  "Currency": "expedita",
+  "CurrencyName": "Ebert Group",
+  "ValidFrom": "2004-06-07T14:13:50.0562893+02:00",
+  "ValidTo": "2016-08-11T14:13:50.0562893+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldLength": 643
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

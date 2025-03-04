@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 824,
-    "Name": "Hamill, Stanton and O'Keefe",
-    "ToolTip": "Porro provident ex autem sit ratione aut.",
-    "Deleted": false,
-    "Rank": 253,
-    "Type": "pariatur",
-    "ColorBlock": 88,
-    "IconHint": "deleniti",
+    "Id": 886,
+    "Name": "Nienow, Beer and Walsh",
+    "ToolTip": "Sint ab.",
+    "Deleted": true,
+    "Rank": 436,
+    "Type": "aliquid",
+    "ColorBlock": 328,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2024-11-28T12:01:33.6363617+01:00",
+    "LastChanged": "2017-06-01T14:13:50.1968854+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Schiller Group",
-        "ToolTip": "Vero nisi.",
+        "Id": 391,
+        "Name": "Jacobi-Crist",
+        "ToolTip": "Assumenda quae perspiciatis et dolor ut molestias.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "voluptas",
-        "ColorBlock": 427,
-        "IconHint": "ut",
+        "Rank": 256,
+        "Type": "amet",
+        "ColorBlock": 609,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2010-04-06T12:01:33.6363617+02:00",
+        "LastChanged": "2024-02-15T14:13:50.1968854+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vero",
-        "StyleHint": "expedita",
-        "Hidden": true,
-        "FullName": "Prof. Hilma Ericka Senger",
+        "ExtraInfo": "itaque",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Alize Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 135
+            "FieldLength": 283
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "voluptate",
+    "ExtraInfo": "id",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Emelie Anita Strosin V",
+    "FullName": "Gerald Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldType": "System.String",
+        "FieldLength": 831
       }
     }
   }

@@ -134,14 +134,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 71,
-  "SaleId": 782,
+  "SuggestedAppointmentId": 142,
+  "SaleId": 28,
   "CreateNow": false,
-  "OwnerId": 756
+  "OwnerId": 549
 }
 ```
 
@@ -156,120 +156,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-05-05T12:01:27.2596193+02:00",
-  "AppointmentId": 829,
-  "Description": "Phased disintermediate neural-net",
-  "Title": "esse",
-  "Agenda": "voluptatem",
-  "InternalNotes": "ab",
-  "StartDate": "2016-06-03T12:01:27.2596193+02:00",
-  "EndDate": "2005-08-02T12:01:27.2596193+02:00",
+  "CreatedDate": "1998-06-18T14:13:39.2348891+02:00",
+  "AppointmentId": 138,
+  "Description": "Virtual zero defect secured line",
+  "Title": "suscipit",
+  "Agenda": "qui",
+  "InternalNotes": "dicta",
+  "StartDate": "2013-09-07T14:13:39.2348891+02:00",
+  "EndDate": "2019-06-08T14:13:39.2348891+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 960,
+  "MotherId": 266,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2003-07-19T12:01:27.2596193+02:00",
+  "UpdatedDate": "2001-12-16T14:13:39.2348891+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 323,
+  "ActiveLinks": 711,
   "Links": [
     {
-      "EntityName": "Hane-Brekke",
-      "Id": 515,
-      "Description": "Open-architected system-worthy software",
-      "ExtraInfo": "at",
-      "LinkId": 667,
+      "EntityName": "Kessler-Ledner",
+      "Id": 226,
+      "Description": "Multi-tiered eco-centric structure",
+      "ExtraInfo": "velit",
+      "LinkId": 362,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldType": "System.Int32",
+          "FieldLength": 723
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
+  "AlarmLeadTime": "deserunt",
   "HasAlarm": false,
-  "ColorIndex": 273,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "sunt",
-  "LeadTime": "qui",
-  "Location": "vitae",
-  "RejectCounter": 89,
+  "ColorIndex": 211,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "necessitatibus",
+  "LeadTime": "et",
+  "Location": "amet",
+  "RejectCounter": 79,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 560,
-      "PersonId": 612,
-      "ContactId": 545,
-      "EmailId": 601,
-      "SendEmail": true,
+      "AssociateId": 529,
+      "PersonId": 380,
+      "ContactId": 458,
+      "EmailId": 976,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "meghan.okeefe@watsica.co.uk",
-      "Description": "Realigned multimedia help-desk"
+      "EmailAddress": "brent@douglasbrown.ca",
+      "Description": "Mandatory real-time challenge"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-05-24T12:01:27.2596193+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2009-07-11T14:13:39.2348891+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 724,
+  "PreferredTZLocation": 210,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 57,
+  "SuggestedAppointmentId": 338,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "recusandae",
+  "CentralserviceVideomeetId": "aperiam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Noel Xander Pfeffer V",
-    "SuperOffice:2": "Miss Mckenna Terry Lynch"
+    "SuperOffice:1": "702084583",
+    "SuperOffice:2": "Alice Liliana Blanda III"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "nostrum"
+    "CustomFields1": "neque",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2018-08-22T12:01:27.2596193+02:00",
-  "PublishTo": "2016-03-21T12:01:27.2596193+01:00",
-  "PublishFrom": "2020-10-06T12:01:27.2596193+02:00",
+  "PublishEventDate": "2017-10-20T14:13:39.2348891+02:00",
+  "PublishTo": "2006-07-20T14:13:39.2348891+02:00",
+  "PublishFrom": "2003-11-30T14:13:39.2348891+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 925,
+      "VisibleId": 602,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 268
         }
       }
     },
     {
-      "VisibleId": 925,
+      "VisibleId": 602,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 268
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 978
     }
   }
 }

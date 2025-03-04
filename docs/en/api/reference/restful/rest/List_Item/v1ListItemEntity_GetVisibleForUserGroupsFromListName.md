@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Spencer Group",
-    "ToolTip": "Fugiat consequuntur.",
-    "Deleted": false,
-    "Rank": 445,
-    "Type": "facilis",
-    "ColorBlock": 925,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2012-06-30T12:01:33.4175965+02:00",
+    "Id": 634,
+    "Name": "Zboncak Inc and Sons",
+    "ToolTip": "Itaque temporibus quaerat et.",
+    "Deleted": true,
+    "Rank": 10,
+    "Type": "mollitia",
+    "ColorBlock": 902,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "1998-02-25T14:13:49.6336384+01:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Kuphal, Vandervort and Emard",
-        "ToolTip": "Rerum dolore blanditiis sed.",
+        "Id": 403,
+        "Name": "Bins, Welch and McKenzie",
+        "ToolTip": "Dolorum vitae dolor et.",
         "Deleted": false,
-        "Rank": 832,
-        "Type": "non",
-        "ColorBlock": 685,
-        "IconHint": "enim",
+        "Rank": 825,
+        "Type": "dolores",
+        "ColorBlock": 722,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2004-12-11T12:01:33.4175965+01:00",
+        "LastChanged": "2022-03-13T14:13:49.6336384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "repellendus",
+        "ExtraInfo": "sit",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Prof. Montana Liam Maggio V",
+        "FullName": "Billie Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 796
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "nobis",
-    "Hidden": false,
-    "FullName": "Eldon Schuster III",
+    "ExtraInfo": "placeat",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Miss Wilmer Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldType": "System.Int32",
+        "FieldLength": 81
       }
     }
   }

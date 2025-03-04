@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 242,
-  "Filter": "aut"
+  "SelectionId": 269,
+  "Filter": "nesciunt"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cronin, Orn and Miller",
-    "Operator": "optio",
+    "Name": "Wuckert-Wisozk",
+    "Operator": "sit",
     "Values": [
-      "voluptatem",
-      "magni"
+      "ipsa",
+      "culpa"
     ],
     "DisplayValues": [
-      "dolore",
-      "in"
+      "atque",
+      "rem"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Crona, Welch and Feest",
-        "Operator": "fugit",
+        "Name": "Von-Ankunding",
+        "Operator": "quo",
         "Values": [
-          "praesentium",
-          "vel"
+          "eveniet",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "voluptatibus",
-          "veritatis"
+          "ullam",
+          "odio"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 488,
+        "InterParenthesis": 945,
         "InterOperator": "And",
-        "UniqueHash": 710
+        "UniqueHash": 985
       }
     ],
-    "InterParenthesis": 912,
+    "InterParenthesis": 826,
     "InterOperator": "And",
-    "UniqueHash": 523
+    "UniqueHash": 242
   }
 ]
 ```

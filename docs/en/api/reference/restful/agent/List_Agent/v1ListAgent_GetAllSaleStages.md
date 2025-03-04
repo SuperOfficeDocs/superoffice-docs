@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleStages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 556,
-    "Value": "quia",
-    "Tooltip": "dolorem",
-    "Probability": 338,
-    "Deleted": true,
-    "Rank": 708,
+    "SaleStageId": 338,
+    "Value": "recusandae",
+    "Tooltip": "commodi",
+    "Probability": 260,
+    "Deleted": false,
+    "Rank": 242,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 625
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

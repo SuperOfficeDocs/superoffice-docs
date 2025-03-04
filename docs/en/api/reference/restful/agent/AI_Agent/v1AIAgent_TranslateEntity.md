@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Langosh-Klein",
-  "EntityId": 415,
-  "TargetLanguage": "reiciendis"
+  "EntityName": "Jacobson, Ryan and Zieme",
+  "EntityId": 272,
+  "TargetLanguage": "a"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sunt"
+"minima"
 ```

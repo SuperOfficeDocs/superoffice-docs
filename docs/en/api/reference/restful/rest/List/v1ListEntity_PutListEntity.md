@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 556,
-  "Name": "Turcotte-Spinka",
-  "Tooltip": "ex",
+  "Id": 31,
+  "Name": "Davis, Kirlin and Aufderhar",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 452,
+  "Rank": 608,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nobis",
-  "InUseByUserDefinedFields": true
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Sporer LLC",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "Rank": 969,
-  "IsCustomList": false,
+  "Id": 54,
+  "Name": "Smith, Effertz and Wolff",
+  "Tooltip": "dolorum",
+  "Deleted": true,
+  "Rank": 604,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "impedit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldLength": 526
     }
   },
   "_Links": {

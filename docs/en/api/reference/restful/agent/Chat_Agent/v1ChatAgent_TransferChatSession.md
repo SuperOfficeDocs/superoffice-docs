@@ -110,8 +110,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 123,
-  "ToAssociate": "hic"
+  "ChatSessionId": 875,
+  "ToAssociate": "laudantium"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 162,
-  "TopicId": 99,
+  "ChatSessionId": 102,
+  "TopicId": 954,
   "User": null,
   "Person": null,
-  "CustomerAlias": "harum",
-  "CustomerHost": "quis",
-  "CustomerName": "Bergstrom, O'Reilly and Hane",
-  "CustomerEmail": "nella_marquardt@huels.us",
-  "CustomerPhone": "214-605-0039",
+  "CustomerAlias": "quo",
+  "CustomerHost": "laborum",
+  "CustomerName": "Ernser-Metz",
+  "CustomerEmail": "santos@rosenbaum.ca",
+  "CustomerPhone": "(693)642-4524 x203",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Zulauf-Schowalter",
+  "CustomerCompanyName": "Schultz Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "ipsum",
-  "LastMessage": "quis",
-  "WhenRequested": "2016-02-19T12:01:27.4002546+01:00",
-  "WhenStarted": "2001-01-13T12:01:27.4002546+01:00",
-  "WhenEnded": "2010-12-22T12:01:27.4002546+01:00",
-  "WhenIdle": "2017-05-14T12:01:27.4002546+02:00",
-  "WhenFetched": "2022-05-02T12:01:27.4002546+02:00",
-  "SessionKey": "nulla",
-  "InitialQueuePos": 583,
-  "AlertLevel": 737,
-  "Rank": 669,
+  "FirstMessage": "ipsa",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2006-06-06T14:13:39.6410786+02:00",
+  "WhenStarted": "2021-05-22T14:13:39.6410786+02:00",
+  "WhenEnded": "2023-10-19T14:13:39.6410786+02:00",
+  "WhenIdle": "2005-07-21T14:13:39.6410786+02:00",
+  "WhenFetched": "2012-11-26T14:13:39.6410786+01:00",
+  "SessionKey": "iure",
+  "InitialQueuePos": 684,
+  "AlertLevel": 156,
+  "Rank": 56,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 475,
+  "Rating": 273,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 430
     }
   }
 }

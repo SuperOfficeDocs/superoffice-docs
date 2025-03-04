@@ -78,16 +78,16 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hilpert LLC",
-    "Gusikowski Group"
+    "McDermott-Kuvalis",
+    "Rogahn-Heidenreich"
   ],
-  "Culture": "laudantium",
-  "ActiveOnly": true
+  "Culture": "architecto",
+  "ActiveOnly": false
 }
 ```
 
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Haley, Wolf and Hagenes",
-    "ResourceValue": "nulla",
-    "Culture": "pariatur",
-    "IsActive": false,
+    "ResourceName": "Nicolas-Koch",
+    "ResourceValue": "sit",
+    "Culture": "sunt",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   },
   {
-    "ResourceName": "Haley, Wolf and Hagenes",
-    "ResourceValue": "nulla",
-    "Culture": "pariatur",
-    "IsActive": false,
+    "ResourceName": "Nicolas-Koch",
+    "ResourceValue": "sit",
+    "Culture": "sunt",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 122
+        "FieldType": "System.Int32",
+        "FieldLength": 98
       }
     }
   }

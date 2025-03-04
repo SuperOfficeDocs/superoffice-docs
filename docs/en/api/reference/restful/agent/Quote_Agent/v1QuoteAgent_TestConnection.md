@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Olson, Kuphal and Grady",
+  "ConnectorName": "Ullrich Group",
   "ConnectionData": {
-    "ConnectionData1": "fuga",
-    "ConnectionData2": "facilis"
+    "ConnectionData1": "tenetur",
+    "ConnectionData2": "consectetur"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "officiis",
-  "TechExplanation": "cumque",
-  "ErrorCode": "nesciunt",
+  "UserExplanation": "qui",
+  "TechExplanation": "hic",
+  "ErrorCode": "ducimus",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 850
     }
   }
 }

@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 204,
-    "LCID": 564,
-    "EnglishName": "Farrell, Hayes and Nienow",
-    "NativeName": "Collier Group",
-    "ThreeLetterISOLanguageName": "Olson-Hoppe",
-    "TwoLetterISOLanguageName": "Raynor-Jakubowski",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 425,
+    "LCID": 1002,
+    "EnglishName": "Grady LLC",
+    "NativeName": "Franecki-Farrell",
+    "ThreeLetterISOLanguageName": "Jacobi-Medhurst",
+    "TwoLetterISOLanguageName": "Torp-Larkin",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldLength": 443
       }
     }
   }

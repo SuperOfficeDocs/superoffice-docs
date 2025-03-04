@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 976,
-  "Count": 823
+  "AmountLimit": 94,
+  "Count": 295
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kreiger LLC",
-    "SaleDate": "2022-05-07T12:01:28.2596899+02:00",
-    "SaleId": 798,
-    "Probability": 698,
-    "Title": "amet",
-    "Amount": 880.654,
-    "Currency": "est",
-    "ProjectName": "Kohler, Hintz and Bergnaum",
-    "AssociateFullName": "Rebeca Cummings",
-    "Description": "Intuitive impactful implementation",
+    "ContactName": "Feil, Greenholt and Pollich",
+    "SaleDate": "2021-08-18T14:13:41.240351+02:00",
+    "SaleId": 400,
+    "Probability": 837,
+    "Title": "neque",
+    "Amount": 25821.025999999998,
+    "Currency": "provident",
+    "ProjectName": "Harris-Anderson",
+    "AssociateFullName": "Dan Howell",
+    "Description": "Customizable national strategy",
     "Status": "Lost",
-    "WeightedAmount": 12420.042,
-    "ProjectId": 261,
-    "EarningPercent": 25169.154,
-    "Earning": 9420.804,
-    "ContactId": 271,
-    "AssociateId": 147,
-    "PersonId": 438,
-    "SaleTypeId": 236,
-    "SaleTypeName": "Heaney Group",
-    "PersonFullName": "Kaela Blanda",
+    "WeightedAmount": 22498.986,
+    "ProjectId": 420,
+    "EarningPercent": 28741.914,
+    "Earning": 31183.3,
+    "ContactId": 861,
+    "AssociateId": 486,
+    "PersonId": 708,
+    "SaleTypeId": 883,
+    "SaleTypeName": "Streich-Jewess",
+    "PersonFullName": "Kareem Geovany Prohaska V",
     "Completed": "Completed",
-    "ActiveErpLinks": 328,
-    "NextDueDate": "2008-09-13T12:01:28.2596899+02:00",
-    "Number": "873402",
+    "ActiveErpLinks": 412,
+    "NextDueDate": "2009-02-06T14:13:41.240351+01:00",
+    "Number": "1292933",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 459
       }
     }
   }

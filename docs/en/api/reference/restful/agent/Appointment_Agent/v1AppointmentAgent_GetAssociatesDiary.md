@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    834,
-    991
+    772,
+    294
   ],
-  "StartTime": "2007-06-18T12:01:27.0252114+02:00",
-  "EndTime": "2012-11-15T12:01:27.0252114+01:00"
+  "StartTime": "2013-03-08T14:13:39.0005676+01:00",
+  "EndTime": "2008-06-23T14:13:39.0005676+02:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 124,
-    "StartDate": "2021-02-21T12:01:27.0252114+01:00",
-    "EndDate": "2010-06-07T12:01:27.0252114+02:00",
+    "AppointmentId": 923,
+    "StartDate": "2009-04-04T14:13:39.0005676+02:00",
+    "EndDate": "2025-01-05T14:13:39.0005676+01:00",
     "Type": "BookingForChecklist",
-    "Task": "deleniti",
-    "AssociateFullName": "Ryann Volkman",
-    "ContactName": "Hermiston LLC",
-    "Description": "Innovative transitional utilisation",
-    "PersonFullName": "Fletcher Gusikowski",
-    "PersonId": 443,
-    "ContactId": 574,
-    "ProjectId": 221,
-    "ProjectName": "Walker, Rutherford and Predovic",
-    "IsPublished": true,
-    "AssociateId": 931,
-    "ColorIndex": 699,
+    "Task": "et",
+    "AssociateFullName": "Lucius Lockman",
+    "ContactName": "Johns-Friesen",
+    "Description": "Function-based analyzing focus group",
+    "PersonFullName": "Cedrick Kunze",
+    "PersonId": 627,
+    "ContactId": 378,
+    "ProjectId": 549,
+    "ProjectName": "Rodriguez LLC",
+    "IsPublished": false,
+    "AssociateId": 991,
+    "ColorIndex": 309,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 826,
-    "PriorityName": "Farrell-Schaefer",
+    "PriorityId": 643,
+    "PriorityName": "Leuschke Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-09-05T12:01:27.0252114+02:00",
+    "ActiveDate": "2019-05-08T14:13:39.0005676+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-26T12:01:27.0252114+02:00",
-    "RecurringEndDate": "2007-08-02T12:01:27.0252114+02:00",
-    "MotherId": 656,
-    "AssignedBy": 523,
-    "AssignedByFullName": "Vita Hoyt Lang III",
+    "RecurringStartDate": "1998-05-24T14:13:39.0005676+02:00",
+    "RecurringEndDate": "2018-12-09T14:13:39.0005676+01:00",
+    "MotherId": 966,
+    "AssignedBy": 644,
+    "AssignedByFullName": "Brandyn Cleta Schneider DVM",
     "RejectReason": "",
-    "Location": "vel",
-    "AlarmLeadTime": "dolores",
-    "SaleId": 134,
-    "SaleName": "Dare-Lind",
-    "AssociateName": "Howell-Weber",
-    "CreatedDate": "2009-06-12T12:01:27.0252114+02:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Margaretta Grant",
-    "CreatedByAssociateId": 714,
+    "Location": "quo",
+    "AlarmLeadTime": "voluptates",
+    "SaleId": 745,
+    "SaleName": "Douglas, Gerhold and Satterfield",
+    "AssociateName": "Little Inc and Sons",
+    "CreatedDate": "2017-12-26T14:13:39.0005676+01:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Carmela Bruen II",
+    "CreatedByAssociateId": 167,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 414,
-    "Title": "repudiandae",
-    "Agenda": "et",
-    "InternalNotes": "consectetur",
+    "PreferredTZLocation": 682,
+    "Title": "beatae",
+    "Agenda": "voluptatum",
+    "InternalNotes": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

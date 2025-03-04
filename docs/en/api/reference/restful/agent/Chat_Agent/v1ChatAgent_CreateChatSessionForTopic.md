@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 211
+  "ChatTopicId": 892
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 731,
-  "TopicId": 964,
+  "ChatSessionId": 31,
+  "TopicId": 789,
   "User": null,
   "Person": null,
-  "CustomerAlias": "odit",
-  "CustomerHost": "adipisci",
-  "CustomerName": "O'Hara Inc and Sons",
-  "CustomerEmail": "delphine@gleichner.ca",
-  "CustomerPhone": "1-931-647-2547",
+  "CustomerAlias": "ex",
+  "CustomerHost": "ea",
+  "CustomerName": "Monahan-O'Conner",
+  "CustomerEmail": "dolly@wildermansawayn.uk",
+  "CustomerPhone": "(069)675-6088",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kessler-Haag",
+  "CustomerCompanyName": "Kreiger-Barrows",
   "Status": "Closed",
-  "FirstMessage": "quaerat",
-  "LastMessage": "suscipit",
-  "WhenRequested": "2000-04-29T12:01:27.4471334+02:00",
-  "WhenStarted": "2000-01-08T12:01:27.4471334+01:00",
-  "WhenEnded": "2015-03-15T12:01:27.4471334+01:00",
-  "WhenIdle": "2001-10-28T12:01:27.4471334+01:00",
-  "WhenFetched": "2009-12-27T12:01:27.4471334+01:00",
-  "SessionKey": "quasi",
-  "InitialQueuePos": 884,
-  "AlertLevel": 96,
-  "Rank": 699,
+  "FirstMessage": "quisquam",
+  "LastMessage": "repudiandae",
+  "WhenRequested": "2021-05-23T14:13:39.719154+02:00",
+  "WhenStarted": "2014-07-06T14:13:39.719154+02:00",
+  "WhenEnded": "2025-01-10T14:13:39.719154+01:00",
+  "WhenIdle": "2021-02-11T14:13:39.719154+01:00",
+  "WhenFetched": "2001-10-02T14:13:39.719154+02:00",
+  "SessionKey": "corporis",
+  "InitialQueuePos": 269,
+  "AlertLevel": 322,
+  "Rank": 999,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 59,
+  "Rating": 715,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 546
     }
   }
 }

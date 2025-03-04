@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 374,
-  "Name": "Runte LLC",
-  "CreatedDate": "2024-06-26T12:01:27.9002891+02:00",
-  "UpdatedDate": "2005-12-19T12:01:27.9002891+01:00",
+  "ForeignAppId": 390,
+  "Name": "Senger-Olson",
+  "CreatedDate": "2013-06-08T14:13:40.3753617+02:00",
+  "UpdatedDate": "2016-09-10T14:13:40.3753617+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 25,
-      "Name": "Hagenes-Mueller",
-      "CreatedDate": "2005-12-02T12:01:27.9002891+01:00",
-      "UpdatedDate": "2000-02-07T12:01:27.9002891+01:00",
-      "AssociateFullName": "Anabelle Sawayn",
-      "CreatedBy": "sunt",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "sapiente",
-      "ForeignAppId": 704,
+      "ForeignDeviceId": 239,
+      "Name": "Gorczany-Parisian",
+      "CreatedDate": "2019-09-17T14:13:40.3753617+02:00",
+      "UpdatedDate": "2011-06-07T14:13:40.3753617+02:00",
+      "AssociateFullName": "Prof. Tyson Colton Shields",
+      "CreatedBy": "at",
+      "UpdatedBy": "quas",
+      "DeviceIdentifier": "explicabo",
+      "ForeignAppId": 58,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 57
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldType": "System.String",
+      "FieldLength": 29
     }
   }
 }

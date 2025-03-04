@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Sep 2016 12:01:33 G9T
+Last-Modified: Sat, 02 Jun 2012 14:13:49 G6T
 
 {
-  "Description": "Up-sized full-range function",
-  "Postit": "reiciendis",
+  "Description": "Ameliorated 24 hour frame",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 605,
-  "IncludePerson": 532,
+  "GroupIdx": 518,
+  "IncludePerson": 394,
   "MemberCount": 99.99,
-  "Name": "Cartwright-Klein",
-  "PostitTextId": 599,
-  "CreatedDate": "2009-08-13T12:01:33.1988321+02:00",
-  "SelectionId": 764,
-  "SoundEx": "doloremque",
-  "Source": 46,
-  "TextId": 468,
-  "UpdatedDate": "2016-09-13T12:01:33.1988321+02:00",
-  "UpdatedCount": 886,
-  "Visibility": 241,
+  "Name": "Schaden LLC",
+  "PostitTextId": 554,
+  "CreatedDate": "2001-03-19T14:13:49.2430999+01:00",
+  "SelectionId": 127,
+  "SoundEx": "atque",
+  "Source": 716,
+  "TextId": 647,
+  "UpdatedDate": "2012-06-02T14:13:49.2430999+02:00",
+  "UpdatedCount": 909,
+  "Visibility": 437,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 586,
-  "TargetTableName": "Lebsack-Bashirian",
+  "CompanyUnique": false,
+  "TargetTableNumber": 639,
+  "TargetTableName": "Parisian, Schmidt and Luettgen",
   "Completed": false,
-  "LeftSelectionId": 13,
-  "RightSelectionId": 629,
+  "LeftSelectionId": 842,
+  "RightSelectionId": 252,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Feeney, Tillman and Wilderman",
-  "ShadowProviderName": "Olson LLC",
-  "ChartKey": "adipisci",
-  "LastLoaded": "2018-10-11T12:01:33.1988321+02:00",
-  "LastLoadedBy": 479,
+  "MainProviderName": "Batz, Leffler and Schulist",
+  "ShadowProviderName": "Spencer-Kertzmann",
+  "ChartKey": "provident",
+  "LastLoaded": "2011-01-01T14:13:49.2430999+01:00",
+  "LastLoadedBy": 604,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-09-23T12:01:33.1988321+02:00",
-  "LastMembershipChangeBy": 327,
+  "LastMembershipChange": "1999-11-11T14:13:49.2430999+01:00",
+  "LastMembershipChangeBy": 315,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Beahan LLC",
-  "DashboardTileDefinitionId": 12,
+  "MainHeading": "et",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Ullrich LLC",
+  "DashboardTileDefinitionId": 59,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 10
         }
       }
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 806,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 89
+          "FieldLength": 10
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Tue, 13 Sep 2016 12:01:33 G9T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   },
   "_Links": {

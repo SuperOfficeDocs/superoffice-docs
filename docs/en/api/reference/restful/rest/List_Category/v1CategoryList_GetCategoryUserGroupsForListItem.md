@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Nader LLC",
-    "ToolTip": "Qui libero molestias occaecati hic nisi autem omnis.",
+    "Id": 219,
+    "Name": "Stanton, Kemmer and Kris",
+    "ToolTip": "Quam expedita.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "et",
-    "ColorBlock": 226,
-    "IconHint": "non",
+    "Rank": 312,
+    "Type": "aliquam",
+    "ColorBlock": 928,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2022-06-09T12:01:33.4332226+02:00",
+    "LastChanged": "2009-10-21T14:13:49.6648827+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Emmerich Inc and Sons",
-        "ToolTip": "Debitis voluptatum.",
-        "Deleted": true,
-        "Rank": 152,
-        "Type": "rerum",
-        "ColorBlock": 39,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "2021-01-22T12:01:33.4332226+01:00",
+        "Id": 306,
+        "Name": "Gaylord-Reinger",
+        "ToolTip": "Placeat voluptas et ut.",
+        "Deleted": false,
+        "Rank": 739,
+        "Type": "sapiente",
+        "ColorBlock": 917,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2023-06-18T14:13:49.6648827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "corporis",
+        "ExtraInfo": "recusandae",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dr. Larry Keith Daugherty V",
+        "FullName": "Mrs. Janie Prohaska",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldType": "System.Int32",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "amet",
+    "ExtraInfo": "dolor",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Shanie Schmidt",
+    "FullName": "Cletus Purdy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 401
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

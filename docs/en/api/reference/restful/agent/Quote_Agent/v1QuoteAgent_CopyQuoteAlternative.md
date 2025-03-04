@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 824,
-  "QuoteAlternativeId": 783,
-  "QuoteAlternativeName": "Wyman, Ledner and Cruickshank"
+  "QuoteVersionId": 602,
+  "QuoteAlternativeId": 207,
+  "QuoteAlternativeName": "Nitzsche Inc and Sons"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 23,
-  "ERPQuoteAlternativeKey": "doloremque",
-  "QuoteVersionId": 98,
-  "Name": "Goodwin Inc and Sons",
-  "Description": "Multi-layered modular flexibility",
+  "QuoteAlternativeId": 717,
+  "ERPQuoteAlternativeKey": "quo",
+  "QuoteVersionId": 647,
+  "Name": "Schumm-Littel",
+  "Description": "Up-sized tertiary moratorium",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10122.82,
-  "ERPDiscountAmount": 12423.176,
-  "DiscountPercent": 26839.576,
-  "DiscountAmount": 20740.811999999998,
+  "ERPDiscountPercent": 19296.038,
+  "ERPDiscountAmount": 18794.597999999998,
+  "DiscountPercent": 6631.544,
+  "DiscountAmount": 9502.288,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "reprehenderit",
-  "VAT": 858.716,
-  "EarningPercent": 14077.928,
-  "EarningAmount": 27294.005999999998,
-  "SubTotal": 15582.248,
-  "TotalPrice": 3184.144,
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "iusto",
-  "ExtraField4": "sed",
-  "ExtraField5": "impedit",
+  "VATInfo": "at",
+  "VAT": 7092.242,
+  "EarningPercent": 9025.92,
+  "EarningAmount": 26121.89,
+  "SubTotal": 8417.9239999999991,
+  "TotalPrice": 24789.94,
+  "ExtraField1": "minus",
+  "ExtraField2": "dolore",
+  "ExtraField3": "tempora",
+  "ExtraField4": "eaque",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldLength": 248
     }
   }
 }

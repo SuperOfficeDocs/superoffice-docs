@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Kihn, Abbott and Conn",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "UdListDefinitionId": 261,
-    "Rank": 298,
+    "Id": 132,
+    "Name": "Kub LLC",
+    "Tooltip": "quos",
+    "Deleted": false,
+    "UdListDefinitionId": 287,
+    "Rank": 953,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldType": "System.String",
+        "FieldLength": 956
       }
     }
   }

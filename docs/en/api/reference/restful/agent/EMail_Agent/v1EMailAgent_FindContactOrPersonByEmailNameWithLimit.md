@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolff, Nicolas and Rice",
-  "EmailAddress": "theron@whiteabbott.co.uk",
-  "NumberOfContacts": 196,
-  "NumberOfPersons": 665
+  "Name": "Schmitt, Gutkowski and Kunze",
+  "EmailAddress": "kelvin@schustercrooks.name",
+  "NumberOfContacts": 997,
+  "NumberOfPersons": 260
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 122,
-    "FullName": "Sean Corwin",
-    "EmailAddress": "chadrick@framiokuneva.uk",
-    "ContactId": 924,
-    "ContactName": "Kuhlman, Torphy and Fahey",
+    "PersonId": 84,
+    "FullName": "Prof. Maye Friesen",
+    "EmailAddress": "javon.lebsack@brekkelang.uk",
+    "ContactId": 597,
+    "ContactName": "Weimann Inc and Sons",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Sipes LLC",
+    "SortName": "Franecki-Hodkiewicz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 32
+        "FieldLength": 809
       }
     }
   }

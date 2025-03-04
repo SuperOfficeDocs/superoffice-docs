@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 913,
-  "Name": "Abbott, Ratke and Kunde",
-  "Description": "Open-architected neutral synergy",
-  "OwnedByFullName": "Mr. Sheldon Skiles MD",
-  "Registered": "2015-01-07T12:01:27.5565162+01:00",
+  "DashboardId": 133,
+  "Name": "Wiegand-Sawayn",
+  "Description": "Balanced attitude-oriented encoding",
+  "OwnedByFullName": "King Swift",
+  "Registered": "2006-05-04T14:13:39.9535829+02:00",
   "Tiles": [
     {
-      "Name": "Dicki, Rau and Price",
+      "Name": "Herman, Pollich and Gutkowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldType": "System.Int32",
+          "FieldLength": 222
         }
       }
     },
     {
-      "Name": "Dicki, Rau and Price",
+      "Name": "Herman, Pollich and Gutkowski",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 571
+          "FieldType": "System.Int32",
+          "FieldLength": 222
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 381
     }
   }
 }

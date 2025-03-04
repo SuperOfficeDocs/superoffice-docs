@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Marvin LLC",
-    "ToolTip": "Reiciendis mollitia totam nobis iusto ratione eveniet in.",
+    "Id": 806,
+    "Name": "Hansen-Baumbach",
+    "ToolTip": "Eaque dolor error.",
     "Deleted": false,
-    "Rank": 485,
-    "Type": "voluptatum",
-    "ColorBlock": 966,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2009-02-16T12:01:33.6051097+01:00",
+    "Rank": 30,
+    "Type": "voluptate",
+    "ColorBlock": 79,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2007-11-12T14:13:50.1343965+01:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Quitzon, Gleichner and Gleichner",
-        "ToolTip": "Qui fugit et quod nemo placeat.",
+        "Id": 6,
+        "Name": "Funk, Funk and Stroman",
+        "ToolTip": "Ipsum doloremque sunt qui et dolores architecto et.",
         "Deleted": true,
-        "Rank": 370,
-        "Type": "ipsum",
-        "ColorBlock": 729,
-        "IconHint": "molestias",
+        "Rank": 544,
+        "Type": "magni",
+        "ColorBlock": 529,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2022-08-21T12:01:33.6051097+02:00",
+        "LastChanged": "2012-08-31T14:13:50.1343965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "quod",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Marianna Zboncak",
+        "FullName": "Harold Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "rem",
     "Hidden": true,
-    "FullName": "Kristopher Koss",
+    "FullName": "Brandyn O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 33
       }
     }
   }

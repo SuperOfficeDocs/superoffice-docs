@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Hamill-Kohler",
-    "ToolTip": "Quia error ducimus natus quam et ut voluptatibus.",
-    "Deleted": true,
-    "Rank": 237,
-    "Type": "et",
-    "ColorBlock": 978,
-    "IconHint": "eaque",
-    "Selected": true,
-    "LastChanged": "1999-03-09T12:01:33.6207356+01:00",
+    "Id": 878,
+    "Name": "Rosenbaum, Hansen and Stanton",
+    "ToolTip": "Qui ut illum omnis sit.",
+    "Deleted": false,
+    "Rank": 936,
+    "Type": "mollitia",
+    "ColorBlock": 879,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "1999-12-20T14:13:50.1656413+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Shields-Reichert",
-        "ToolTip": "Temporibus nemo asperiores est dolorem cum voluptatibus.",
+        "Id": 200,
+        "Name": "Hand, Kuhic and Roberts",
+        "ToolTip": "Aliquam exercitationem magni commodi quis eum.",
         "Deleted": false,
-        "Rank": 225,
-        "Type": "velit",
-        "ColorBlock": 384,
-        "IconHint": "consequuntur",
-        "Selected": false,
-        "LastChanged": "2024-04-14T12:01:33.6207356+02:00",
+        "Rank": 218,
+        "Type": "id",
+        "ColorBlock": 215,
+        "IconHint": "impedit",
+        "Selected": true,
+        "LastChanged": "1999-07-26T14:13:50.1812638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "neque",
-        "Hidden": true,
-        "FullName": "Mrs. Hiram Purdy MD",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "incidunt",
+        "Hidden": false,
+        "FullName": "Mrs. Pink Lesch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "iste",
+    "ExtraInfo": "facilis",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Cory Jalen O'Connell I",
+    "FullName": "Salma O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 590
+        "FieldType": "System.String",
+        "FieldLength": 111
       }
     }
   }

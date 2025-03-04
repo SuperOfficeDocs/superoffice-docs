@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 160
+  "SaleId": 655
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 779,
-  "SaleId": 853,
-  "QuoteConnectionId": 779,
-  "ERPQuoteKey": "earum",
-  "ERPOrderKey": "rem",
-  "ActiveQuoteVersionId": 973,
-  "AcceptedQuoteAlternativeId": 650,
-  "UseValuesFromQuote": 855,
-  "DocumentId": 741,
-  "PoNumber": "1199538",
-  "OrderComment": "quia",
-  "PreferredEmailCulture": "chester@damore.com",
+  "QuoteId": 953,
+  "SaleId": 413,
+  "QuoteConnectionId": 26,
+  "ERPQuoteKey": "possimus",
+  "ERPOrderKey": "sint",
+  "ActiveQuoteVersionId": 838,
+  "AcceptedQuoteAlternativeId": 93,
+  "UseValuesFromQuote": 505,
+  "DocumentId": 823,
+  "PoNumber": "1433310",
+  "OrderComment": "ducimus",
+  "PreferredEmailCulture": "vita@veum.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "Bergstrom, Shanahan and Barrows",
-  "Tooltip": "aliquam",
+  "Id": 91,
+  "Name": "Bartell, Hansen and Rosenbaum",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "UdListDefinitionId": 832,
-  "Rank": 825,
+  "UdListDefinitionId": 714,
+  "Rank": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 668
     }
   }
 }

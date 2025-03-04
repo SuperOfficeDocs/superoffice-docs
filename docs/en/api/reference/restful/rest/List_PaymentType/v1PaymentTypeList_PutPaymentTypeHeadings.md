@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 349,
-    "Name": "Marvin, Heller and Volkman",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 315,
-    "UdListDefinitionId": 999
+    "HeadingId": 143,
+    "Name": "Ryan, Grady and Auer",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 603,
+    "UdListDefinitionId": 767
   },
   {
-    "HeadingId": 349,
-    "Name": "Marvin, Heller and Volkman",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 315,
-    "UdListDefinitionId": 999
+    "HeadingId": 143,
+    "Name": "Ryan, Grady and Auer",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 603,
+    "UdListDefinitionId": 767
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 558,
-    "Name": "Nienow-Corkery",
-    "Tooltip": "quis",
+    "HeadingId": 353,
+    "Name": "Runolfsdottir Group",
+    "Tooltip": "quam",
     "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 43,
+    "Rank": 800,
+    "UdListDefinitionId": 510,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 6
+        "FieldType": "System.String",
+        "FieldLength": 889
       }
     }
   }

@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 123,
-    "Name": "Thiel LLC",
-    "Description": "Pre-emptive full-range alliance",
+    "ProjectId": 771,
+    "Name": "Hoppe-Schimmel",
+    "Description": "Right-sized 5th generation forecast",
     "URL": "http://www.example.com/",
-    "Type": "pariatur",
-    "AssociateId": 735,
-    "AssociateFullName": "Elise Hermiston",
-    "TypeId": 267,
-    "Updated": "1998-03-10T12:01:28.1659327+01:00",
-    "StatusId": 498,
-    "Status": "repellat",
-    "TextId": 204,
-    "PublishTo": "2019-02-01T12:01:28.1659327+01:00",
-    "PublishFrom": "2018-08-30T12:01:28.1659327+02:00",
-    "IsPublished": false,
+    "Type": "ipsa",
+    "AssociateId": 492,
+    "AssociateFullName": "Miss Diego Garry Feil IV",
+    "TypeId": 391,
+    "Updated": "2005-11-05T14:13:41.0314634+01:00",
+    "StatusId": 944,
+    "Status": "et",
+    "TextId": 267,
+    "PublishTo": "2014-08-04T14:13:41.0314634+02:00",
+    "PublishFrom": "2016-03-15T14:13:41.0314634+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1331069",
-    "ActiveErpLinks": 633,
+    "ProjectNumber": "1339003",
+    "ActiveErpLinks": 235,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldType": "System.String",
+        "FieldLength": 522
       }
     }
   }

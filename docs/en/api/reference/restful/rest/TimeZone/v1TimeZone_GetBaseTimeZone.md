@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 691,
-  "Name": "Farrell Inc and Sons",
-  "TZLocationCode": "modi",
-  "TZLocationCities": "non",
-  "IsoNumber": 573,
+  "TZLocationID": 128,
+  "Name": "Hammes Group",
+  "TZLocationCode": "nihil",
+  "TZLocationCities": "minima",
+  "IsoNumber": 193,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 99,
-      "StartMonth": 290,
-      "EndDay": 994,
-      "EndMonth": 656,
-      "TZOffset": 692,
-      "StartRulePattern": "enim",
-      "EndRulePattern": "nisi"
+      "StartDay": 970,
+      "StartMonth": 742,
+      "EndDay": 490,
+      "EndMonth": 780,
+      "TZOffset": 567,
+      "StartRulePattern": "omnis",
+      "EndRulePattern": "quo"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 134,
-      "StartMonth": 763,
-      "EndDay": 712,
-      "EndMonth": 424,
-      "TZOffset": 11,
-      "StartRulePattern": "odit",
-      "EndRulePattern": "exercitationem"
+      "StartDay": 959,
+      "StartMonth": 888,
+      "EndDay": 174,
+      "EndMonth": 14,
+      "TZOffset": 449,
+      "StartRulePattern": "illum",
+      "EndRulePattern": "inventore"
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "delectus"
+  "Script": "explicabo"
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "enim",
-  "LineNumber": 160,
+  "Valid": true,
+  "ErrorMessage": "aspernatur",
+  "LineNumber": 617,
   "ErrorInformation": null,
-  "Transpiled": "voluptatibus",
+  "Transpiled": "dolorem",
   "Includes": [
-    824,
-    937
+    386,
+    358
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 271,
-      "LineNumberTo": 293,
-      "Delta": 319,
-      "IncludeId": "est",
+      "LineNumberFrom": 538,
+      "LineNumberTo": 904,
+      "Delta": 867,
+      "IncludeId": "explicabo",
       "IncludedFrom": [
-        "et",
-        "dolorum"
+        "repudiandae",
+        "expedita"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 89
+          "FieldLength": 763
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

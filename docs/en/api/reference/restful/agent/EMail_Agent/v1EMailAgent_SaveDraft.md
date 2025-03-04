@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 633,
-      "ContactName": "Von, Schiller and Lemke",
-      "PersonId": 755,
-      "PersonName": "Corkery-Walter",
-      "AssociateId": 735,
-      "Address": "deserunt",
-      "EmailId": 871,
+      "ContactId": 250,
+      "ContactName": "Dach-Moen",
+      "PersonId": 314,
+      "PersonName": "D'Amore-Okuneva",
+      "AssociateId": 385,
+      "Address": "quos",
+      "EmailId": 360,
       "DuplicatePersonIds": [
-        104,
-        84
+        22,
+        806
       ],
-      "Name": "Mann Group",
+      "Name": "Blick, Stracke and Rice",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 437
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 924,
-      "ContactName": "Leuschke Group",
-      "PersonId": 68,
-      "PersonName": "Braun, Purdy and Marvin",
-      "AssociateId": 352,
-      "Address": "ad",
-      "EmailId": 163,
+      "ContactId": 478,
+      "ContactName": "Stracke-Hessel",
+      "PersonId": 182,
+      "PersonName": "Wilkinson LLC",
+      "AssociateId": 626,
+      "Address": "magni",
+      "EmailId": 424,
       "DuplicatePersonIds": [
-        553,
-        18
+        479,
+        839
       ],
-      "Name": "Rau-Hamill",
+      "Name": "Carter-Kuphal",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 631
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 852,
-      "ContactName": "Wilkinson LLC",
-      "PersonId": 816,
-      "PersonName": "Becker-Bernier",
-      "AssociateId": 302,
-      "Address": "officia",
-      "EmailId": 732,
+      "ContactId": 931,
+      "ContactName": "Rath LLC",
+      "PersonId": 314,
+      "PersonName": "Nolan-Larkin",
+      "AssociateId": 137,
+      "Address": "enim",
+      "EmailId": 209,
       "DuplicatePersonIds": [
-        766,
-        569
+        189,
+        846
       ],
-      "Name": "Howell-Fisher",
+      "Name": "Fisher-Goyette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 29
+          "FieldType": "System.Int32",
+          "FieldLength": 665
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "est",
+  "Subject": "corporis",
+  "HTMLBody": "quod",
   "From": null,
-  "Sent": "2016-09-27T12:01:27.8065326+02:00",
-  "Size": 78,
+  "Sent": "2017-02-17T14:13:40.203526+01:00",
+  "Size": 463,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "est",
+  "MessageID": "ipsa",
+  "PlainBody": "soluta",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 376,
+  "ServerId": 1002,
   "Attachments": [
     {
-      "Description": "Self-enabling local knowledge user",
-      "Filename": "in",
-      "Size": 855,
-      "Type": "molestias",
-      "Encoding": "totam",
-      "Id": "id",
-      "Disposition": "suscipit",
+      "Description": "Operative grid-enabled concept",
+      "Filename": "aspernatur",
+      "Size": 30,
+      "Type": "in",
+      "Encoding": "illum",
+      "Id": "cumque",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldLength": 122
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kautzer, Braun and Monahan",
+      "Name": "Heathcote-Schmeler",
       "Values": [
-        "excepturi",
-        "praesentium"
+        "voluptatum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     },
     {
-      "Name": "Kautzer, Braun and Monahan",
+      "Name": "Heathcote-Schmeler",
       "Values": [
-        "excepturi",
-        "praesentium"
+        "voluptatum",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 962
         }
       }
     }
   ],
-  "FolderName": "McDermott, Friesen and Lubowitz",
-  "EmailItemId": 456,
-  "AccountId": 308,
-  "ReceivedAt": "2008-12-07T12:01:27.8065326+01:00",
+  "FolderName": "Kautzer Group",
+  "EmailItemId": 790,
+  "AccountId": 285,
+  "ReceivedAt": "2012-04-30T14:13:40.203526+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-09-15T12:01:27.8065326+02:00",
+  "RepliedAt": "2021-10-02T14:13:40.203526+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

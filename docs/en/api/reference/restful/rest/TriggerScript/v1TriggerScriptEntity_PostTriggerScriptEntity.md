@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 220,
-  "Name": "Parisian-Davis",
+  "ScreenChooserId": 602,
+  "Name": "Weissnat Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ratione",
-  "Source": "saepe",
-  "Registered": "2021-12-01T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2011-01-09T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 299
+  "UniqueIdentifier": "id",
+  "Source": "iusto",
+  "Registered": "1998-02-18T14:13:49.414935+01:00",
+  "RegisteredAssociateId": 649,
+  "Updated": "2018-01-15T14:13:49.414935+01:00",
+  "UpdatedAssociateId": 818
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 629,
-  "Name": "Durgan-Murray",
+  "ScreenChooserId": 944,
+  "Name": "Stracke-Rosenbaum",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "eveniet",
-  "Source": "magnam",
-  "Registered": "2014-01-23T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 113,
-  "Updated": "2001-07-28T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 754,
+  "UniqueIdentifier": "accusamus",
+  "Source": "velit",
+  "Registered": "2020-07-11T14:13:49.414935+02:00",
+  "RegisteredAssociateId": 236,
+  "Updated": "2007-06-08T14:13:49.414935+02:00",
+  "UpdatedAssociateId": 301,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 991
     }
   },
   "_Links": {

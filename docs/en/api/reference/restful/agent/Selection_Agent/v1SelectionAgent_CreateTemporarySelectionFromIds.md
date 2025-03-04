@@ -119,10 +119,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    589,
-    957
+    811,
+    300
   ],
-  "TargetTableNumber": 630
+  "TargetTableNumber": 705
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized well-modulated focus group",
-  "Postit": "velit",
+  "Description": "Enterprise-wide holistic artificial intelligence",
+  "Postit": "illo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 532,
-  "IncludePerson": 331,
+  "GroupIdx": 45,
+  "IncludePerson": 405,
   "MemberCount": 99.99,
-  "Name": "Flatley Inc and Sons",
-  "PostitTextId": 906,
-  "CreatedDate": "2008-01-11T12:01:28.3065684+01:00",
-  "SelectionId": 32,
-  "SoundEx": "distinctio",
-  "Source": 787,
-  "TextId": 352,
-  "UpdatedDate": "2001-10-11T12:01:28.3065684+02:00",
-  "UpdatedCount": 170,
-  "Visibility": 977,
+  "Name": "Rosenbaum-Moore",
+  "PostitTextId": 794,
+  "CreatedDate": "2001-09-29T14:13:41.3133469+02:00",
+  "SelectionId": 281,
+  "SoundEx": "eaque",
+  "Source": 792,
+  "TextId": 148,
+  "UpdatedDate": "1998-03-13T14:13:41.3133469+01:00",
+  "UpdatedCount": 577,
+  "Visibility": 454,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 456,
-  "TargetTableName": "Wolff-Stroman",
+  "CompanyUnique": false,
+  "TargetTableNumber": 446,
+  "TargetTableName": "Smith LLC",
   "Completed": false,
-  "LeftSelectionId": 474,
-  "RightSelectionId": 59,
+  "LeftSelectionId": 341,
+  "RightSelectionId": 760,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ryan Group",
-  "ShadowProviderName": "Hane, Bechtelar and Hahn",
-  "ChartKey": "aliquid",
-  "LastLoaded": "2021-08-21T12:01:28.3065684+02:00",
-  "LastLoadedBy": 320,
+  "MainProviderName": "Leannon Inc and Sons",
+  "ShadowProviderName": "Kassulke LLC",
+  "ChartKey": "magnam",
+  "LastLoaded": "2014-04-20T14:13:41.3133469+02:00",
+  "LastLoadedBy": 64,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-01-03T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 526,
+  "LastMembershipChange": "1998-05-02T14:13:41.3133469+02:00",
+  "LastMembershipChangeBy": 660,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "et",
-  "MemberTabHeading": "maiores",
-  "MailingsProviderName": "Mills LLC",
-  "DashboardTileDefinitionId": 683,
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Veum Inc and Sons",
+  "DashboardTileDefinitionId": 800,
   "VisibleFor": [
     {
-      "VisibleId": 166,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 601
         }
       }
     },
     {
-      "VisibleId": 166,
+      "VisibleId": 883,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 601
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 496
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

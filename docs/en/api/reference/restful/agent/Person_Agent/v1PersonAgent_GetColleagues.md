@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "eaque",
-    "PersonId": 296,
-    "Mrmrs": "ut",
-    "Firstname": "Jamar",
-    "Lastname": "Pagac",
-    "MiddleName": "Borer-Muller",
-    "Title": "veniam",
-    "Description": "Cross-platform 24/7 capacity",
-    "Email": "abbigail@pfefferohara.info",
-    "FullName": "Allen Wiegand",
-    "DirectPhone": "1-627-252-3803 x8725",
-    "FormalName": "Bednar, Shanahan and Shanahan",
-    "CountryId": 902,
-    "ContactId": 767,
-    "ContactName": "Dickinson, Gaylord and Ledner",
-    "Retired": 679,
-    "Rank": 305,
-    "ActiveInterests": 807,
+    "Position": "repellat",
+    "PersonId": 776,
+    "Mrmrs": "voluptatum",
+    "Firstname": "Clare",
+    "Lastname": "Ritchie",
+    "MiddleName": "Cassin Inc and Sons",
+    "Title": "qui",
+    "Description": "Reactive heuristic installation",
+    "Email": "elsa@connelly.biz",
+    "FullName": "Mrs. Wava Clotilde Kuhn Jr.",
+    "DirectPhone": "(901)363-0877 x74569",
+    "FormalName": "Howell-Bashirian",
+    "CountryId": 992,
+    "ContactId": 670,
+    "ContactName": "Hyatt, Morissette and Wiza",
+    "Retired": 516,
+    "Rank": 276,
+    "ActiveInterests": 317,
     "ContactDepartment": "",
-    "ContactCountryId": 781,
-    "ContactOrgNr": "1019685",
-    "FaxPhone": "1-198-936-3698 x0372",
-    "MobilePhone": "1-159-503-0209 x697",
-    "ContactPhone": "348-647-8107",
-    "AssociateName": "Heller Inc and Sons",
-    "AssociateId": 149,
+    "ContactCountryId": 114,
+    "ContactOrgNr": "865636",
+    "FaxPhone": "(307)675-9920",
+    "MobilePhone": "(197)050-0615 x9980",
+    "ContactPhone": "461.345.6235 x72227",
+    "AssociateName": "Jones Inc and Sons",
+    "AssociateId": 615,
     "UsePersonAddress": false,
-    "ContactFax": "eum",
-    "Kanafname": "facilis",
-    "Kanalname": "ab",
-    "Post1": "quam",
-    "Post2": "reprehenderit",
-    "Post3": "ut",
-    "EmailName": "teresa.stoltenberg@kautzerhayes.name",
-    "ContactFullName": "Mr. Trycia Waters",
-    "ActiveErpLinks": 338,
-    "TicketPriorityId": 381,
-    "SupportLanguageId": 232,
-    "SupportAssociateId": 80,
+    "ContactFax": "molestiae",
+    "Kanafname": "adipisci",
+    "Kanalname": "et",
+    "Post1": "consectetur",
+    "Post2": "odit",
+    "Post3": "nisi",
+    "EmailName": "kyle.ritchie@auerschinner.name",
+    "ContactFullName": "Mrs. Quinten Oberbrunner DDS",
+    "ActiveErpLinks": 777,
+    "TicketPriorityId": 619,
+    "SupportLanguageId": 235,
+    "SupportAssociateId": 221,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1099196",
+    "PersonNumber": "1525376",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 79
       }
     }
   }

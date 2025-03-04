@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 221,
-      "ContactName": "Carroll, Runolfsson and Hills",
-      "PersonId": 468,
-      "PersonName": "Koelpin Group",
-      "AssociateId": 585,
-      "Address": "eveniet",
-      "EmailId": 296,
+      "ContactId": 795,
+      "ContactName": "Stamm, Kautzer and Rippin",
+      "PersonId": 758,
+      "PersonName": "Waters-Kunze",
+      "AssociateId": 181,
+      "Address": "sunt",
+      "EmailId": 143,
       "DuplicatePersonIds": [
-        322,
-        973
+        488,
+        852
       ],
-      "Name": "McDermott, Armstrong and Ward",
+      "Name": "Hagenes-Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 324,
-      "ContactName": "Goodwin Inc and Sons",
-      "PersonId": 987,
-      "PersonName": "Kilback Group",
-      "AssociateId": 983,
-      "Address": "a",
-      "EmailId": 624,
+      "ContactId": 653,
+      "ContactName": "Bayer, Conroy and Runolfsdottir",
+      "PersonId": 226,
+      "PersonName": "Medhurst LLC",
+      "AssociateId": 164,
+      "Address": "consequuntur",
+      "EmailId": 184,
       "DuplicatePersonIds": [
-        368,
-        743
+        831,
+        434
       ],
-      "Name": "McLaughlin, Keeling and Zemlak",
+      "Name": "Kuhlman, Crooks and Muller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 204
+          "FieldType": "System.Int32",
+          "FieldLength": 97
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 904,
-      "ContactName": "Kshlerin-Quigley",
-      "PersonId": 804,
-      "PersonName": "Ullrich LLC",
-      "AssociateId": 255,
-      "Address": "esse",
-      "EmailId": 14,
+      "ContactId": 70,
+      "ContactName": "Auer-Stamm",
+      "PersonId": 32,
+      "PersonName": "Considine, Gerlach and Ullrich",
+      "AssociateId": 384,
+      "Address": "ea",
+      "EmailId": 385,
       "DuplicatePersonIds": [
-        675,
-        85
+        517,
+        989
       ],
-      "Name": "Green LLC",
+      "Name": "Sipes Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Subject": "vero",
-  "HTMLBody": "expedita",
+  "Subject": "nemo",
+  "HTMLBody": "quod",
   "From": null,
-  "Sent": "2000-05-19T12:01:27.8377848+02:00",
-  "Size": 736,
+  "Sent": "2008-03-25T14:13:40.2660122+01:00",
+  "Size": 858,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vero",
-  "PlainBody": "dolor",
-  "IsSent": true,
+  "MessageID": "recusandae",
+  "PlainBody": "molestiae",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 67,
+  "ServerId": 830,
   "Attachments": [
     {
-      "Description": "Multi-layered zero tolerance infrastructure",
-      "Filename": "reiciendis",
-      "Size": 715,
-      "Type": "pariatur",
-      "Encoding": "dolorem",
-      "Id": "assumenda",
-      "Disposition": "dignissimos",
-      "IsSafeFileExtension": false,
+      "Description": "Ameliorated directional methodology",
+      "Filename": "nihil",
+      "Size": 716,
+      "Type": "officiis",
+      "Encoding": "consequuntur",
+      "Id": "voluptatibus",
+      "Disposition": "eos",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 597
+          "FieldLength": 272
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Quigley-Ward",
+      "Name": "Ullrich LLC",
       "Values": [
-        "voluptas",
-        "nostrum"
+        "qui",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 686
         }
       }
     },
     {
-      "Name": "Quigley-Ward",
+      "Name": "Ullrich LLC",
       "Values": [
-        "voluptas",
-        "nostrum"
+        "qui",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 686
         }
       }
     }
   ],
-  "FolderName": "Zboncak-O'Conner",
-  "EmailItemId": 29,
-  "AccountId": 952,
-  "ReceivedAt": "2000-04-08T12:01:27.8377848+02:00",
+  "FolderName": "Daugherty Inc and Sons",
+  "EmailItemId": 620,
+  "AccountId": 809,
+  "ReceivedAt": "2001-06-17T14:13:40.2660122+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-12-26T12:01:27.8377848+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-06-04T14:13:40.2660122+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 342
     }
   }
 }

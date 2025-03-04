@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Bayer LLC"
+  "OwnerName": "Casper Inc and Sons"
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "saepe",
+  "Message": "consequuntur",
   "Url": "http://www.example.com/"
 }
 ```

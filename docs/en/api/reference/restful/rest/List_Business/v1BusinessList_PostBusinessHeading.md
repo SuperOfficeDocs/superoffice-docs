@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 379,
-  "Name": "Armstrong, Ziemann and Hagenes",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "Rank": 32,
-  "UdListDefinitionId": 229
+  "HeadingId": 743,
+  "Name": "Wuckert Group",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 922,
+  "UdListDefinitionId": 344
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 512,
-  "Name": "Goyette-Quitzon",
-  "Tooltip": "iste",
+  "HeadingId": 29,
+  "Name": "Gislason, Quitzon and Donnelly",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 505,
-  "UdListDefinitionId": 538,
+  "Rank": 116,
+  "UdListDefinitionId": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

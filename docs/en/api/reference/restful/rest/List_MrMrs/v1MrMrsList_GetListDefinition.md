@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 733,
-  "Name": "Kuhn, Jacobs and Skiles",
-  "Tooltip": "odio",
+  "Id": 578,
+  "Name": "Zieme, Rutherford and Schaden",
+  "Tooltip": "laborum",
   "Deleted": true,
-  "Rank": 64,
+  "Rank": 479,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "id",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 340
+      "FieldType": "System.Int32",
+      "FieldLength": 142
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

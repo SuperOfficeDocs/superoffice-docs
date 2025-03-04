@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    804,
-    118
+    592,
+    201
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 141,
-    "Name": "Schiller, Paucek and Steuber",
-    "ToolTip": "Sit vitae omnis eos et vel similique.",
+    "Id": 897,
+    "Name": "Schiller-Weimann",
+    "ToolTip": "Quam impedit.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "provident",
+    "Rank": 198,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 848,
-        "Name": "Kulas, Feil and Murazik",
-        "ToolTip": "Amet quo sint.",
-        "Deleted": false,
-        "Rank": 154,
-        "Type": "quis",
+        "Id": 653,
+        "Name": "Kuphal, Marquardt and Lowe",
+        "ToolTip": "Saepe sit eos et omnis ut ut consequatur.",
+        "Deleted": true,
+        "Rank": 629,
+        "Type": "molestias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veniam",
-        "ColorBlock": 618,
-        "ExtraInfo": "natus",
-        "StyleHint": "dolores",
-        "FullName": "Kamille O'Conner",
+        "IconHint": "libero",
+        "ColorBlock": 875,
+        "ExtraInfo": "dolores",
+        "StyleHint": "magnam",
+        "FullName": "Immanuel Carmine Goodwin II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 128
+            "FieldType": "System.String",
+            "FieldLength": 571
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 973,
-    "ExtraInfo": "ut",
-    "StyleHint": "deserunt",
-    "FullName": "Beatrice Wisoky",
+    "IconHint": "voluptates",
+    "ColorBlock": 845,
+    "ExtraInfo": "qui",
+    "StyleHint": "occaecati",
+    "FullName": "Ms. Darian Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 366
       }
     }
   }

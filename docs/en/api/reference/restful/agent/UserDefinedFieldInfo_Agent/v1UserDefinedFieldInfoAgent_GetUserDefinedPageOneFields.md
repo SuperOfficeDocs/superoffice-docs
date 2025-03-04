@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 701
+  "UserGroupId": 663
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 423,
-    "ColumnId": 47,
-    "FieldDefault": "qui",
-    "FieldHeight": 155,
-    "FieldLabel": "dolorem",
-    "FieldLeft": 541,
-    "FieldTop": 330,
+    "UDefFieldId": 808,
+    "ColumnId": 721,
+    "FieldDefault": "reprehenderit",
+    "FieldHeight": 692,
+    "FieldLabel": "expedita",
+    "FieldLeft": 140,
+    "FieldTop": 251,
     "FieldType": "Checkbox",
-    "FieldWidth": 928,
-    "FormatMask": "sit",
+    "FieldWidth": 667,
+    "FormatMask": "fugit",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 536,
-    "LabelLeft": 311,
-    "LabelTop": 481,
-    "LabelWidth": 286,
-    "LastVersionId": 268,
-    "ListTableId": 68,
+    "LabelHeight": 710,
+    "LabelLeft": 172,
+    "LabelTop": 905,
+    "LabelWidth": 414,
+    "LastVersionId": 540,
+    "ListTableId": 812,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 522,
-    "ProgId": "sequi",
-    "IsReadOnly": true,
-    "ShortLabel": "laborum",
-    "TabOrder": 41,
-    "TextLength": 889,
-    "Tooltip": "praesentium",
-    "UdefIdentity": 961,
-    "UDListDefinitionId": 842,
+    "Page1LineNo": 470,
+    "ProgId": "cupiditate",
+    "IsReadOnly": false,
+    "ShortLabel": "aut",
+    "TabOrder": 450,
+    "TextLength": 872,
+    "Tooltip": "nam",
+    "UdefIdentity": 454,
+    "UDListDefinitionId": 412,
     "Justification": "Center",
-    "Version": 133,
-    "TemplateVariableName": "Lehner-Kessler",
-    "HasBeenPublished": true,
-    "MdoListName": "Turcotte, Runolfsdottir and Lindgren",
+    "Version": 311,
+    "TemplateVariableName": "Mills-Friesen",
+    "HasBeenPublished": false,
+    "MdoListName": "Kohler-Larson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

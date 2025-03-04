@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 140,
-  "Name": "Jenkins Inc and Sons",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "UdListDefinitionId": 645,
-  "Rank": 586,
+  "Id": 350,
+  "Name": "Miller Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 656,
+  "Rank": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

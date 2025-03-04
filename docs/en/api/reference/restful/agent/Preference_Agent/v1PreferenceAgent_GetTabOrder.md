@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Preference/GetTabOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Wolff-Pagac"
+  "TabName": "Mills, Franecki and Douglas"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 914,
-  "TabName": "Predovic-Gaylord",
-  "Order": "doloribus",
-  "AssociateId": 476,
+  "TabOrderId": 450,
+  "TabName": "Kozey-Maggio",
+  "Order": "blanditiis",
+  "AssociateId": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

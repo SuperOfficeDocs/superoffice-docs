@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    362,
-    605
+    309,
+    886
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 982,
-    "MessageId": "ab",
-    "Subject": "perspiciatis",
+    "ServerId": 168,
+    "MessageId": "ducimus",
+    "Subject": "laborum",
     "From": null,
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Padberg LLC",
-        "PersonId": 650,
-        "PersonName": "Blick LLC",
-        "AssociateId": 986,
-        "Address": "quam",
-        "EmailId": 11,
+        "ContactId": 728,
+        "ContactName": "Hills-Thiel",
+        "PersonId": 289,
+        "PersonName": "Torp, Hoeger and Gibson",
+        "AssociateId": 357,
+        "Address": "est",
+        "EmailId": 17,
         "DuplicatePersonIds": [
-          69,
-          228
+          457,
+          13
         ],
-        "Name": "Yost Group",
+        "Name": "Cole LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldLength": 687
           }
         }
       }
     ],
-    "Sent": "2022-08-06T12:01:27.8534108+02:00",
+    "Sent": "2017-02-20T14:13:40.2972545+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 425,
+    "Size": 594,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 720
+        "FieldType": "System.Int32",
+        "FieldLength": 975
       }
     }
   }

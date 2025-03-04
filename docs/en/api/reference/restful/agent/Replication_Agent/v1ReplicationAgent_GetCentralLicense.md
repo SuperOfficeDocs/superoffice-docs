@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brown, Nitzsche and O'Reilly",
-    "Description": "Realigned radical focus group",
+    "Name": "Ondricka, Nitzsche and Collins",
+    "Description": "Fundamental 4th generation complexity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 38,
-        "Tooltip": "neque",
-        "CanAssign": false,
-        "Free": 744,
-        "InUse": 840,
-        "IsHidden": true,
+        "Total": 130,
+        "Tooltip": "atque",
+        "CanAssign": true,
+        "Free": 889,
+        "InUse": 666,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 818,
-        "Name": "Thiel LLC",
-        "Description": "Grass-roots transitional Graphic Interface",
-        "PrerequisiteModuleName": "Davis Group",
-        "SortOrder": 567,
-        "ExtraFlags": 342,
+        "ModuleLicenseId": 529,
+        "Name": "Crooks, Nolan and Cartwright",
+        "Description": "Business-focused mobile superstructure",
+        "PrerequisiteModuleName": "Carroll, Wolf and Ortiz",
+        "SortOrder": 389,
+        "ExtraFlags": 370,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldType": "System.Int32",
+            "FieldLength": 347
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 22,
-        "Tooltip": "ea",
-        "CanAssign": false,
-        "Free": 445,
-        "InUse": 723,
+        "Total": 305,
+        "Tooltip": "non",
+        "CanAssign": true,
+        "Free": 384,
+        "InUse": 615,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 435,
-        "Name": "Kreiger-Hermann",
-        "Description": "Object-based transitional challenge",
-        "PrerequisiteModuleName": "Pagac Inc and Sons",
-        "SortOrder": 805,
-        "ExtraFlags": 209,
+        "ModuleLicenseId": 444,
+        "Name": "Botsford-Beahan",
+        "Description": "Ameliorated exuding success",
+        "PrerequisiteModuleName": "Nolan, Hamill and Pollich",
+        "SortOrder": 488,
+        "ExtraFlags": 4,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 866
+            "FieldLength": 131
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 935
       }
     }
   },
   {
-    "Name": "Brown, Nitzsche and O'Reilly",
-    "Description": "Realigned radical focus group",
+    "Name": "Ondricka, Nitzsche and Collins",
+    "Description": "Fundamental 4th generation complexity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 38,
-        "Tooltip": "neque",
-        "CanAssign": false,
-        "Free": 744,
-        "InUse": 840,
-        "IsHidden": true,
+        "Total": 130,
+        "Tooltip": "atque",
+        "CanAssign": true,
+        "Free": 889,
+        "InUse": 666,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 818,
-        "Name": "Thiel LLC",
-        "Description": "Grass-roots transitional Graphic Interface",
-        "PrerequisiteModuleName": "Davis Group",
-        "SortOrder": 567,
-        "ExtraFlags": 342,
+        "ModuleLicenseId": 529,
+        "Name": "Crooks, Nolan and Cartwright",
+        "Description": "Business-focused mobile superstructure",
+        "PrerequisiteModuleName": "Carroll, Wolf and Ortiz",
+        "SortOrder": 389,
+        "ExtraFlags": 370,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 525
+            "FieldType": "System.Int32",
+            "FieldLength": 347
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 22,
-        "Tooltip": "ea",
-        "CanAssign": false,
-        "Free": 445,
-        "InUse": 723,
+        "Total": 305,
+        "Tooltip": "non",
+        "CanAssign": true,
+        "Free": 384,
+        "InUse": 615,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 435,
-        "Name": "Kreiger-Hermann",
-        "Description": "Object-based transitional challenge",
-        "PrerequisiteModuleName": "Pagac Inc and Sons",
-        "SortOrder": 805,
-        "ExtraFlags": 209,
+        "ModuleLicenseId": 444,
+        "Name": "Botsford-Beahan",
+        "Description": "Ameliorated exuding success",
+        "PrerequisiteModuleName": "Nolan, Hamill and Pollich",
+        "SortOrder": 488,
+        "ExtraFlags": 4,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 866
+            "FieldLength": 131
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldLength": 935
       }
     }
   }

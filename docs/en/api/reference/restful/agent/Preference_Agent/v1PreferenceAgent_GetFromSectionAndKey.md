@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "veniam",
-  "Key": "quia"
+  "Section": "voluptatem",
+  "Key": "distinctio"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 724,
-  "Section": "saepe",
-  "Key": "deleniti",
-  "Name": "Lowe Group",
+  "PrefDescId": 19,
+  "Section": "libero",
+  "Key": "eligendi",
+  "Name": "Dickinson, Gibson and Walsh",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused impactful product",
+  "Description": "User-friendly national local area network",
   "IsBuiltin": false,
-  "TableName": "Ritchie, Raynor and Rogahn",
-  "UserDefinedListId": 86,
-  "Rank": 105,
-  "SubGroup": "saepe",
-  "MinLevel": 302,
-  "MaxValue": 847,
-  "MinValue": 32,
-  "RequiredLicense": "sed",
+  "TableName": "O'Connell Group",
+  "UserDefinedListId": 621,
+  "Rank": 478,
+  "SubGroup": "ea",
+  "MinLevel": 634,
+  "MaxValue": 787,
+  "MinValue": 413,
+  "RequiredLicense": "maiores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 299
     }
   }
 }

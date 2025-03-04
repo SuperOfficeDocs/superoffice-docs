@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 69,
-  "PrefDescId": 14,
-  "PrefValue": "incidunt",
-  "PrefShowValue": "et",
-  "Description": "Horizontal local internet solution",
+  "PrefDescLineId": 860,
+  "PrefDescId": 915,
+  "PrefValue": "vel",
+  "PrefShowValue": "quaerat",
+  "Description": "Innovative intermediate adapter",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   },
   "_Links": {

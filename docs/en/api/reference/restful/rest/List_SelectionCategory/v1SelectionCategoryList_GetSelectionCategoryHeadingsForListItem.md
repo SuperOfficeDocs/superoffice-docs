@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Satterfield-Grady",
-    "ToolTip": "Culpa velit esse ratione eaque voluptas non.",
+    "Id": 924,
+    "Name": "Runte Group",
+    "ToolTip": "Ipsam debitis sapiente.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "error",
-    "ColorBlock": 244,
-    "IconHint": "architecto",
+    "Rank": 201,
+    "Type": "esse",
+    "ColorBlock": 963,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2005-11-01T12:01:33.6676138+01:00",
+    "LastChanged": "2000-04-30T14:13:50.2595794+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Harris, Dach and Walker",
-        "ToolTip": "Inventore nostrum sunt eveniet culpa error cum dolore.",
-        "Deleted": true,
-        "Rank": 25,
-        "Type": "nisi",
-        "ColorBlock": 215,
-        "IconHint": "minus",
-        "Selected": true,
-        "LastChanged": "2021-07-25T12:01:33.6676138+02:00",
+        "Id": 822,
+        "Name": "Ward Group",
+        "ToolTip": "Saepe tenetur vitae deserunt voluptates consequatur id.",
+        "Deleted": false,
+        "Rank": 359,
+        "Type": "fuga",
+        "ColorBlock": 846,
+        "IconHint": "nobis",
+        "Selected": false,
+        "LastChanged": "2007-06-19T14:13:50.2595794+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Mr. Lila Alec Bosco",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Meredith Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 788
+            "FieldLength": 274
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "maiores",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Bessie Harris",
+    "FullName": "Isabella Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 507
       }
     }
   }

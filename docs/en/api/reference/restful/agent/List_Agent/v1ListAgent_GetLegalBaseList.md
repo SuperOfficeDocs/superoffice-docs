@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 197,
-    "Name": "Bartoletti LLC",
-    "Tooltip": "dolor",
-    "Rank": 43,
-    "Key": "totam",
-    "Deleted": false,
+    "LegalBaseId": 366,
+    "Name": "Homenick-Hegmann",
+    "Tooltip": "nostrum",
+    "Rank": 777,
+    "Key": "et",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldLength": 53
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Brown Group",
-    "ToolTip": "Iste sed.",
+    "Id": 514,
+    "Name": "Bayer Group",
+    "ToolTip": "Aut distinctio aliquam perspiciatis.",
     "Deleted": false,
-    "Rank": 676,
-    "Type": "mollitia",
-    "ColorBlock": 503,
-    "IconHint": "et",
+    "Rank": 292,
+    "Type": "iusto",
+    "ColorBlock": 289,
+    "IconHint": "non",
     "Selected": false,
-    "LastChanged": "2017-12-21T12:01:33.6519877+01:00",
+    "LastChanged": "2012-06-04T14:13:50.2439578+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Brekke-Stark",
-        "ToolTip": "Neque reprehenderit consequatur id possimus.",
+        "Id": 825,
+        "Name": "Paucek Group",
+        "ToolTip": "Ex qui.",
         "Deleted": true,
-        "Rank": 877,
-        "Type": "fuga",
-        "ColorBlock": 644,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2017-05-29T12:01:33.6519877+02:00",
+        "Rank": 565,
+        "Type": "consequuntur",
+        "ColorBlock": 72,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "1997-11-24T14:13:50.2439578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "quo",
+        "ExtraInfo": "est",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Abelardo Homenick"
+        "FullName": "Allene Goodwin"
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "eaque",
-    "Hidden": false,
-    "FullName": "Fredy Jena O'Kon Sr."
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Maximilian Hartmann"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Nikolaus Group",
-    "ToolTip": "Ex recusandae assumenda eos velit.",
-    "Deleted": false,
-    "Rank": 486,
-    "Type": "culpa",
-    "ColorBlock": 77,
-    "IconHint": "eos",
+    "Id": 368,
+    "Name": "Corkery-Dicki",
+    "ToolTip": "Sequi voluptatem voluptatum.",
+    "Deleted": true,
+    "Rank": 831,
+    "Type": "dolorem",
+    "ColorBlock": 641,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2007-09-02T12:01:33.6519877+02:00",
+    "LastChanged": "2004-04-15T14:13:50.2439578+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Kunde LLC",
-        "ToolTip": "Modi voluptatum et expedita velit inventore quam.",
-        "Deleted": false,
-        "Rank": 522,
-        "Type": "aut",
-        "ColorBlock": 415,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "2011-01-04T12:01:33.6519877+01:00",
+        "Id": 855,
+        "Name": "Beier Group",
+        "ToolTip": "Minus animi est.",
+        "Deleted": true,
+        "Rank": 183,
+        "Type": "omnis",
+        "ColorBlock": 897,
+        "IconHint": "error",
+        "Selected": true,
+        "LastChanged": "2024-05-30T14:13:50.2439578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "enim",
+        "ExtraInfo": "est",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Jared Sporer",
+        "FullName": "Ludie Murazik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 173
+            "FieldLength": 941
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aut",
+    "ExtraInfo": "nulla",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Adela Cremin Jr.",
+    "FullName": "Dena Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 978
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

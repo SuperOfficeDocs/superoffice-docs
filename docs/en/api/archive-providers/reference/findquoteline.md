@@ -749,7 +749,7 @@ QuoteLine provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindQuoteLine?$select=code,alternative/version/quote/sale/person/personAssociate/mrMrs,alternative/version/quote/sale/person/correspondingAssociate/assocTooltip,alternative/version/quote/sale/contact/contactAssociate/isActive,alternative/version/quote/sale/project/updatedDate
+GET /api/v1/archive/FindQuoteLine?$select=alternative/extraField4,alternative/version/quote/sale/person/kanaLastName,alternative/version/quote/sale/person/personUpdatedDate,alternative/version/quote/sale/person/portraitThumbnail,alternative/version/quote/sale/person/email/emailBounceCount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

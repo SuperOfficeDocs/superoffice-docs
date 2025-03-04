@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 211,
-  "TopicId": 279,
+  "ChatSessionId": 84,
+  "TopicId": 481,
   "User": null,
   "Person": null,
-  "CustomerAlias": "facere",
-  "CustomerHost": "nemo",
-  "CustomerName": "Kassulke-Rau",
-  "CustomerEmail": "jovan_green@wilkinson.biz",
-  "CustomerPhone": "848.913.5577 x53902",
+  "CustomerAlias": "cumque",
+  "CustomerHost": "laudantium",
+  "CustomerName": "Franecki-Terry",
+  "CustomerEmail": "malika.west@gorczany.ca",
+  "CustomerPhone": "210-750-0063",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Rath-Rau",
+  "CustomerCompanyName": "Zboncak, Lind and Legros",
   "Status": "Closed",
-  "FirstMessage": "adipisci",
-  "LastMessage": "cum",
-  "WhenRequested": "2015-06-14T12:01:32.6831706+02:00",
-  "WhenStarted": "2015-06-06T12:01:32.6831706+02:00",
-  "WhenEnded": "2012-11-19T12:01:32.6831706+01:00",
-  "WhenIdle": "2001-03-17T12:01:32.6831706+01:00",
-  "WhenFetched": "2009-06-01T12:01:32.6831706+02:00",
-  "SessionKey": "mollitia",
-  "InitialQueuePos": 711,
-  "AlertLevel": 277,
-  "Rank": 740,
+  "FirstMessage": "quis",
+  "LastMessage": "corrupti",
+  "WhenRequested": "2002-11-03T14:13:48.3195857+01:00",
+  "WhenStarted": "2018-10-31T14:13:48.3195857+01:00",
+  "WhenEnded": "1998-01-07T14:13:48.3195857+01:00",
+  "WhenIdle": "2007-06-20T14:13:48.3195857+02:00",
+  "WhenFetched": "2004-12-01T14:13:48.3195857+01:00",
+  "SessionKey": "placeat",
+  "InitialQueuePos": 693,
+  "AlertLevel": 450,
+  "Rank": 310,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 444,
+  "Rating": 457,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldLength": 263
     }
   }
 }

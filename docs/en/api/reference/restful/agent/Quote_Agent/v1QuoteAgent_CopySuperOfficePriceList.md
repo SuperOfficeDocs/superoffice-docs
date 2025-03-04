@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 513,
-  "NewName": "Rippin-Wunsch",
-  "ValidFrom": "2019-09-30T12:01:28.1815588+02:00",
-  "ValidTo": "2006-03-21T12:01:28.1815588+01:00",
-  "NewCurrencyId": 26,
+  "OriginalPriceListId": 796,
+  "NewName": "Carroll LLC",
+  "ValidFrom": "2016-05-05T14:13:41.0939485+02:00",
+  "ValidTo": "2022-06-17T14:13:41.0939485+02:00",
+  "NewCurrencyId": 270,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 867,
-  "ERPPriceListKey": "architecto",
-  "QuoteConnectionId": 135,
-  "Name": "Mayer, Ryan and Champlin",
-  "Description": "Vision-oriented scalable paradigm",
-  "Currency": "quia",
-  "CurrencyName": "McLaughlin Inc and Sons",
-  "ValidFrom": "1999-10-08T12:01:28.1815588+02:00",
-  "ValidTo": "2001-01-12T12:01:28.1815588+01:00",
-  "IsActive": true,
+  "PriceListId": 623,
+  "ERPPriceListKey": "animi",
+  "QuoteConnectionId": 875,
+  "Name": "Baumbach Inc and Sons",
+  "Description": "User-friendly mission-critical capability",
+  "Currency": "dolorem",
+  "CurrencyName": "Bruen-Toy",
+  "ValidFrom": "2024-03-01T14:13:41.0939485+01:00",
+  "ValidTo": "1998-02-14T14:13:41.0939485+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 954
+      "FieldLength": 371
     }
   }
 }

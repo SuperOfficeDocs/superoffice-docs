@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 497,
-  "CurrentAppointmentId": 814,
-  "SkipCompleteCheck": false
+  "SaleId": 372,
+  "CurrentAppointmentId": 808,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 174,
-  "Deleted": 177,
-  "DaysFuture": 686,
-  "Tooltip": "odio",
-  "Text": "maxime",
-  "TaskId": 820,
-  "SuggestedAppointmentId": 914,
-  "SaleTypeStageLinkId": 569,
-  "RegisteredAssociateId": 651,
-  "Rank": 623,
-  "ProjectTypeStatusLinkId": 856,
-  "Name": "Mosciski, Parisian and Runolfsdottir",
-  "Duration": 537,
+  "AutoSuggest": 895,
+  "Deleted": 371,
+  "DaysFuture": 76,
+  "Tooltip": "culpa",
+  "Text": "et",
+  "TaskId": 98,
+  "SuggestedAppointmentId": 267,
+  "SaleTypeStageLinkId": 651,
+  "RegisteredAssociateId": 423,
+  "Rank": 829,
+  "ProjectTypeStatusLinkId": 15,
+  "Name": "Lebsack LLC",
+  "Duration": 216,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 369
     }
   }
 }

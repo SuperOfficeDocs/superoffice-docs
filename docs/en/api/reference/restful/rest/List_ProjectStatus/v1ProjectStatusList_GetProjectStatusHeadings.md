@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 575,
-    "Name": "Ratke-Lueilwitz",
-    "Tooltip": "id",
+    "HeadingId": 172,
+    "Name": "Will-Bode",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 417,
+    "Rank": 358,
+    "UdListDefinitionId": 97,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 11
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

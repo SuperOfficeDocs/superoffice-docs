@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 811
+  "AssociateId": 272
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Keebler Group",
-    "DeviceIdentifier": "cumque",
-    "PocketVersion": "aut",
-    "Language": "non",
-    "PNSHandle": "eum",
+    "DeviceName": "Wisoky, Walter and Feeney",
+    "DeviceIdentifier": "cupiditate",
+    "PocketVersion": "ad",
+    "Language": "recusandae",
+    "PNSHandle": "ut",
     "Platform": "Apple",
-    "OSVersion": "et",
-    "TimeZoneId": 498
+    "OSVersion": "incidunt",
+    "TimeZoneId": 319
   }
 ]
 ```

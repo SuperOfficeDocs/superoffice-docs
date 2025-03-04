@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Spinka Inc and Sons",
-    "ToolTip": "Nam animi incidunt nihil qui ad a id.",
-    "Deleted": false,
-    "Rank": 172,
-    "Type": "aliquam",
-    "ColorBlock": 250,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2006-09-01T12:01:33.6519877+02:00",
+    "Id": 923,
+    "Name": "Kling LLC",
+    "ToolTip": "Non minima perspiciatis earum incidunt tempora maiores in.",
+    "Deleted": true,
+    "Rank": 429,
+    "Type": "sit",
+    "ColorBlock": 930,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2015-02-17T14:13:50.2283063+01:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Yundt, Swaniawski and Gutkowski",
-        "ToolTip": "Aut et.",
+        "Id": 832,
+        "Name": "Sauer-O'Conner",
+        "ToolTip": "Atque ut sed.",
         "Deleted": true,
-        "Rank": 83,
-        "Type": "omnis",
-        "ColorBlock": 391,
-        "IconHint": "ut",
+        "Rank": 255,
+        "Type": "ad",
+        "ColorBlock": 459,
+        "IconHint": "dignissimos",
         "Selected": false,
-        "LastChanged": "2023-07-10T12:01:33.6519877+02:00",
+        "LastChanged": "2000-04-19T14:13:50.2283063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "quidem",
+        "ExtraInfo": "ratione",
+        "StyleHint": "ea",
         "Hidden": true,
-        "FullName": "Evie Olson",
+        "FullName": "Rebeka Schuyler Roob IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 656
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "et",
+    "ExtraInfo": "est",
+    "StyleHint": "fugiat",
     "Hidden": true,
-    "FullName": "Dr. Blake Schuster",
+    "FullName": "Geovanny Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 917
+        "FieldType": "System.Int32",
+        "FieldLength": 723
       }
     }
   }

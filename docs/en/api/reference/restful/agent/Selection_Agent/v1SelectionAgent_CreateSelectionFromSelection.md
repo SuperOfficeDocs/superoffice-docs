@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 143,
-  "Name": "Blick, Nolan and Haag",
+  "SelectionId": 296,
+  "Name": "Cremin, Heaney and McGlynn",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless coherent analyzer",
-  "Postit": "odit",
+  "Description": "Sharable fresh-thinking info-mediaries",
+  "Postit": "suscipit",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 885,
-  "IncludePerson": 561,
+  "GroupIdx": 557,
+  "IncludePerson": 765,
   "MemberCount": 99.99,
-  "Name": "Ziemann-Rowe",
-  "PostitTextId": 535,
-  "CreatedDate": "2000-10-10T12:01:28.3065684+02:00",
-  "SelectionId": 363,
-  "SoundEx": "pariatur",
-  "Source": 669,
-  "TextId": 934,
-  "UpdatedDate": "2001-05-18T12:01:28.3065684+02:00",
-  "UpdatedCount": 518,
-  "Visibility": 146,
+  "Name": "Price, Kuhic and Braun",
+  "PostitTextId": 899,
+  "CreatedDate": "2022-01-16T14:13:41.3133469+01:00",
+  "SelectionId": 975,
+  "SoundEx": "et",
+  "Source": 873,
+  "TextId": 566,
+  "UpdatedDate": "2001-12-19T14:13:41.3133469+01:00",
+  "UpdatedCount": 525,
+  "Visibility": 557,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 711,
-  "TargetTableName": "Labadie, Abshire and Mayert",
+  "CompanyUnique": true,
+  "TargetTableNumber": 139,
+  "TargetTableName": "Kozey, Mosciski and Weimann",
   "Completed": false,
-  "LeftSelectionId": 193,
-  "RightSelectionId": 648,
+  "LeftSelectionId": 912,
+  "RightSelectionId": 389,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer-Connelly",
-  "ShadowProviderName": "Mueller-Schamberger",
-  "ChartKey": "ipsum",
-  "LastLoaded": "2014-06-22T12:01:28.3065684+02:00",
-  "LastLoadedBy": 5,
+  "MainProviderName": "Kris, Ritchie and Lemke",
+  "ShadowProviderName": "Oberbrunner-Bartell",
+  "ChartKey": "perferendis",
+  "LastLoaded": "2012-09-14T14:13:41.3133469+02:00",
+  "LastLoadedBy": 500,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-01-10T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 700,
+  "LastMembershipChange": "2025-02-14T14:13:41.3289686+01:00",
+  "LastMembershipChangeBy": 956,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "nulla",
-  "MailingsProviderName": "Langosh Inc and Sons",
-  "DashboardTileDefinitionId": 236,
+  "MainHeading": "enim",
+  "MemberTabHeading": "aperiam",
+  "MailingsProviderName": "Mills-Romaguera",
+  "DashboardTileDefinitionId": 549,
   "VisibleFor": [
     {
-      "VisibleId": 134,
+      "VisibleId": 344,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     },
     {
-      "VisibleId": 134,
+      "VisibleId": 344,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldType": "System.String",
+          "FieldLength": 639
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldLength": 237
     }
   }
 }

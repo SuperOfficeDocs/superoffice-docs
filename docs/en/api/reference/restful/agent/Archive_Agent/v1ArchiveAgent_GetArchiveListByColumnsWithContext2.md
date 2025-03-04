@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gerlach, Tremblay and Kilback",
-  "Columns": "qui",
-  "SortOrder": "sint",
-  "Restriction": "quod",
-  "Entities": "eum",
-  "Page": 49,
-  "PageSize": 296,
-  "Context": "ipsum"
+  "ProviderName": "Stehr, Dietrich and Carroll",
+  "Columns": "ut",
+  "SortOrder": "iure",
+  "Restriction": "aut",
+  "Entities": "est",
+  "Page": 864,
+  "PageSize": 936,
+  "Context": "natus"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lakin Group",
-    "PrimaryKey": 543,
+    "EntityName": "Huels-Wilderman",
+    "PrimaryKey": 27,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "aliquid",
-        "LinkHint": "placeat"
+        "DisplayValue": "quos",
+        "TooltipHint": "est",
+        "LinkHint": "ex"
       }
     },
-    "LinkHint": "deleniti",
-    "StyleHint": "soluta",
+    "LinkHint": "itaque",
+    "StyleHint": "delectus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldLength": 554
       }
     }
   }

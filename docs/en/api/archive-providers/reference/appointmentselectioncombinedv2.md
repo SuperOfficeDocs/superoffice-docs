@@ -730,7 +730,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionCombinedV2?$select=contact/contactAssociate/contactFullName,person/personUdef/SuperOffice:10,person/personExtra/x_person_boolean,project/NumberOfActivities,sale/updatedBy
+GET /api/v1/archive/AppointmentSelectionCombinedV2?$select=contact/contactDeleted,person/isProjectMember,person/updatedByWorkflow,person/personExtra/y_rental/x_end,person/personExtra/y_car/id
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

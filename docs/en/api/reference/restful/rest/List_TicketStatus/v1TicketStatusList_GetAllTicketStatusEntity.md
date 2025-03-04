@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 298,
-    "Name": "Adams, Okuneva and Cartwright",
+    "TicketStatusId": 484,
+    "Name": "Kunde-Stokes",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
-    "IsDefault": true,
+    "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldLength": 754
       }
     }
   }

@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 745,
-  "OnlyOpenSales": false
+  "ContactId": 669,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "O'Keefe, Fahey and Altenwerth",
-    "SaleDate": "2022-03-17T12:01:28.2596899+01:00",
-    "SaleId": 174,
-    "Probability": 739,
-    "Title": "exercitationem",
-    "Amount": 27485.18,
-    "Currency": "est",
-    "ProjectName": "Rau Group",
-    "AssociateFullName": "Ms. Eulalia Jakubowski DVM",
-    "Description": "Distributed responsive strategy",
+    "ContactName": "Mayert, Eichmann and Senger",
+    "SaleDate": "1999-02-27T14:13:41.2508568+01:00",
+    "SaleId": 449,
+    "Probability": 338,
+    "Title": "quibusdam",
+    "Amount": 21765.63,
+    "Currency": "voluptatum",
+    "ProjectName": "O'Kon Inc and Sons",
+    "AssociateFullName": "Miss Darian Bechtelar DVM",
+    "Description": "Up-sized methodical Graphic Interface",
     "Status": "Lost",
-    "WeightedAmount": 26140.694,
-    "ProjectId": 153,
-    "EarningPercent": 12144.25,
-    "Earning": 12639.422,
-    "ContactId": 228,
-    "AssociateId": 861,
-    "PersonId": 247,
-    "SaleTypeId": 516,
-    "SaleTypeName": "Koepp, Becker and Wolf",
-    "PersonFullName": "Vada Wunsch",
+    "WeightedAmount": 9972.387999999999,
+    "ProjectId": 109,
+    "EarningPercent": 19788.076,
+    "Earning": 7499.6619999999994,
+    "ContactId": 438,
+    "AssociateId": 106,
+    "PersonId": 932,
+    "SaleTypeId": 93,
+    "SaleTypeName": "Bahringer-Veum",
+    "PersonFullName": "Tevin Cummerata",
     "Completed": "Completed",
-    "ActiveErpLinks": 748,
-    "NextDueDate": "1998-06-08T12:01:28.2596899+02:00",
-    "Number": "1641460",
+    "ActiveErpLinks": 902,
+    "NextDueDate": "2020-11-18T14:13:41.2508568+01:00",
+    "Number": "768128",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldType": "System.String",
+        "FieldLength": 521
       }
     }
   }

@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "unde",
-  "ProviderName": "Kling, Bradtke and Lindgren",
-  "StorageKey": "non",
+  "StorageType": "ipsa",
+  "ProviderName": "Mills Inc and Sons",
+  "StorageKey": "magni",
   "Restrictions": [
     {
-      "Name": "Beahan, Moen and Littel",
-      "Operator": "nostrum",
+      "Name": "Morar LLC",
+      "Operator": "qui",
       "Values": [
-        "recusandae",
-        "esse"
+        "perspiciatis",
+        "earum"
       ],
       "DisplayValues": [
-        "repellat",
-        "aut"
+        "ad",
+        "quam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 178,
+      "InterParenthesis": 242,
       "InterOperator": "And",
-      "UniqueHash": 863
+      "UniqueHash": 641
     }
   ],
-  "Context": "dicta"
+  "Context": "suscipit"
 }
 ```
 

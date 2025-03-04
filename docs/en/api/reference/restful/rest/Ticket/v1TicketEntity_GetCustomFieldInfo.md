@@ -72,7 +72,7 @@ OK
 GET /api/v1/Ticket/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Gerhold Group",
-  "DisplayName": "Berge, Schneider and Bergstrom",
-  "Description": "Object-based fault-tolerant system engine",
-  "ShortLabel": "itaque",
+  "FieldName": "Harber Group",
+  "DisplayName": "Jast-Reynolds",
+  "Description": "Synchronised multimedia encoding",
+  "ShortLabel": "sed",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
-  "IsExternal": true,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 373,
-  "TemplateVariableName": "Kreiger-Batz"
+  "Rank": 836,
+  "TemplateVariableName": "Will-Cruickshank"
 }
 ```

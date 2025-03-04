@@ -93,7 +93,7 @@ CRMScriptEntity found.
 GET /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,57 +103,57 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 825,
-  "UniqueIdentifier": "est",
-  "Name": "Kunde, Romaguera and Hilll",
-  "Description": "Integrated background model",
-  "IncludeId": "praesentium",
-  "AccessKey": "velit",
-  "HierarchyId": 649,
-  "Source": "qui",
-  "SourceCode": "quas",
+  "EjscriptId": 341,
+  "UniqueIdentifier": "libero",
+  "Name": "Gaylord, Schmidt and Yundt",
+  "Description": "Managed hybrid installation",
+  "IncludeId": "delectus",
+  "AccessKey": "ipsam",
+  "HierarchyId": 440,
+  "Source": "iste",
+  "SourceCode": "est",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 959,
+  "HtmlOutput": 210,
   "Includes": [
-    132,
-    890
+    424,
+    328
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 356,
-      "LineNumberTo": 215,
-      "Delta": 177,
-      "IncludeId": "quibusdam",
+      "LineNumberFrom": 388,
+      "LineNumberTo": 178,
+      "Delta": 594,
+      "IncludeId": "qui",
       "IncludedFrom": [
-        "corporis",
-        "distinctio"
+        "aut",
+        "molestias"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 885
+          "FieldType": "System.Int32",
+          "FieldLength": 196
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-07-05T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 356,
-  "Updated": "2008-08-27T12:01:32.8394314+02:00",
-  "UpdatedAssociateId": 14,
+  "Registered": "2019-09-13T14:13:48.7587273+02:00",
+  "RegisteredAssociateId": 727,
+  "Updated": "2001-01-10T14:13:48.7587273+01:00",
+  "UpdatedAssociateId": 608,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldLength": 329
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

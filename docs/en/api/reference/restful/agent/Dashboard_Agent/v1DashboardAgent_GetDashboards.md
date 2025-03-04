@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 299
+  "AssociateId": 285
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 709,
-    "AssociateId": 999,
-    "Caption": "cum",
+    "DashboardId": 640,
+    "AssociateId": 789,
+    "Caption": "sed",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 498,
-        "Caption": "labore",
-        "Description": "Team-oriented mobile hub",
-        "ChartName": "Adams, Wuckert and Skiles",
-        "ChartId": "iusto",
-        "IsDefault": true,
-        "AssociateId": 297,
-        "GroupId": 538,
-        "SelectionId": 135,
-        "Config": "dolor",
+        "DashboardTileId": 690,
+        "Caption": "velit",
+        "Description": "Multi-tiered methodical help-desk",
+        "ChartName": "Keebler-Bechtelar",
+        "ChartId": "unde",
+        "IsDefault": false,
+        "AssociateId": 112,
+        "GroupId": 263,
+        "SelectionId": 758,
+        "Config": "debitis",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 79
+            "FieldType": "System.Int32",
+            "FieldLength": 321
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 4
       }
     }
   }

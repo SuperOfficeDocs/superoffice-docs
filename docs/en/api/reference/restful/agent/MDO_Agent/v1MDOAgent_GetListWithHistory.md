@@ -92,12 +92,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummings LLC",
+  "Name": "Littel LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "quo",
+  "AdditionalInfo": "iusto",
   "HistoryItems": [
-    783,
-    955
+    885,
+    96
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Johnson-Watsica",
-    "ToolTip": "Eius deserunt est nobis odio voluptatibus.",
-    "Deleted": false,
-    "Rank": 356,
-    "Type": "quae",
+    "Id": 8,
+    "Name": "Welch LLC",
+    "ToolTip": "Dignissimos ad fugiat.",
+    "Deleted": true,
+    "Rank": 89,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Bosco, Waelchi and Lowe",
-        "ToolTip": "Perspiciatis nulla eos enim voluptas vero quo nulla.",
+        "Id": 542,
+        "Name": "Bernier-Murray",
+        "ToolTip": "Autem sit.",
         "Deleted": false,
-        "Rank": 499,
-        "Type": "non",
+        "Rank": 538,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "in",
-        "ColorBlock": 33,
-        "ExtraInfo": "est",
-        "StyleHint": "aperiam",
-        "FullName": "Reynold Corwin",
+        "IconHint": "rerum",
+        "ColorBlock": 547,
+        "ExtraInfo": "ex",
+        "StyleHint": "in",
+        "FullName": "Ms. Maximo Wolff II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 36
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 440,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "et",
-    "FullName": "Talia Kuhlman",
+    "IconHint": "libero",
+    "ColorBlock": 15,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "magni",
+    "FullName": "Lon Bauch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 830
+        "FieldType": "System.Int32",
+        "FieldLength": 117
       }
     }
   }

@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 242,
-  "Name": "Gleichner, Lindgren and Harber",
-  "Tooltip": "sunt",
-  "VisibleColumns": 923,
-  "Rank": 155,
-  "AssocId": 589,
+  "DiaryViewId": 176,
+  "Name": "Braun-Schimmel",
+  "Tooltip": "et",
+  "VisibleColumns": 669,
+  "Rank": 264,
+  "AssocId": 853,
   "AssociateList": [
     {
-      "Id": 315,
-      "Name": "Paucek, Hudson and Veum",
-      "ToolTip": "Incidunt modi sunt architecto.",
+      "Id": 597,
+      "Name": "Strosin-Moen",
+      "ToolTip": "Eum reprehenderit illum voluptas eius voluptatem cupiditate deleniti.",
       "Deleted": false,
-      "Rank": 258,
-      "Type": "doloribus",
-      "ColorBlock": 318,
-      "IconHint": "eveniet",
+      "Rank": 351,
+      "Type": "error",
+      "ColorBlock": 791,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2014-11-22T12:01:27.4471334+01:00",
+      "LastChanged": "2002-04-25T14:13:39.7347754+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "iste",
+      "ExtraInfo": "et",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Prof. Briana Jacky Cremin"
+      "FullName": "Melvin Connelly"
     }
   ],
-  "TzLocationId": 314
+  "TzLocationId": 493
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 923,
-  "Name": "Windler Inc and Sons",
-  "Tooltip": "a",
-  "VisibleColumns": 493,
-  "Rank": 696,
-  "AssocId": 685,
+  "DiaryViewId": 692,
+  "Name": "Trantow, Turner and Walker",
+  "Tooltip": "nulla",
+  "VisibleColumns": 995,
+  "Rank": 902,
+  "AssocId": 159,
   "AssociateList": [
     {
-      "Id": 775,
-      "Name": "McCullough Inc and Sons",
-      "ToolTip": "Sequi eligendi incidunt quis voluptatibus fugit in.",
-      "Deleted": false,
-      "Rank": 260,
-      "Type": "accusantium",
-      "ColorBlock": 406,
-      "IconHint": "sit",
+      "Id": 862,
+      "Name": "Gutmann LLC",
+      "ToolTip": "Culpa quia architecto nemo consequatur.",
+      "Deleted": true,
+      "Rank": 603,
+      "Type": "natus",
+      "ColorBlock": 457,
+      "IconHint": "suscipit",
       "Selected": true,
-      "LastChanged": "2019-07-10T12:01:27.4471334+02:00",
+      "LastChanged": "2021-02-13T14:13:39.7347754+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "quam",
-      "Hidden": false,
-      "FullName": "Garth Rodriguez",
+      "ExtraInfo": "fugit",
+      "StyleHint": "adipisci",
+      "Hidden": true,
+      "FullName": "Shakira Gislason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 717
         }
       }
     }
   ],
-  "TzLocationId": 835,
+  "TzLocationId": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 722
+      "FieldType": "System.Int32",
+      "FieldLength": 642
     }
   }
 }

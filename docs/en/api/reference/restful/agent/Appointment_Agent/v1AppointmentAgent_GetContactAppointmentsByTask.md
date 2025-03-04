@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 729,
-  "StartTime": "2013-12-11T12:01:27.0095855+01:00",
-  "EndTime": "1998-09-25T12:01:27.0095855+02:00",
-  "Count": 37,
-  "TaskId": 584
+  "ContactId": 244,
+  "StartTime": "2021-12-28T14:13:38.9693251+01:00",
+  "EndTime": "2015-09-12T14:13:38.9693251+02:00",
+  "Count": 404,
+  "TaskId": 370
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 424,
-    "StartDate": "2014-10-28T12:01:27.0095855+01:00",
-    "EndDate": "2019-02-07T12:01:27.0095855+01:00",
+    "AppointmentId": 427,
+    "StartDate": "1997-11-15T14:13:38.9693251+01:00",
+    "EndDate": "2011-04-16T14:13:38.9693251+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolor",
-    "AssociateFullName": "Ms. Pearlie Merlin Borer",
-    "ContactName": "Ledner, Gleichner and Schuppe",
-    "Description": "Upgradable fresh-thinking software",
-    "PersonFullName": "Dr. Kari Gisselle McLaughlin DDS",
-    "PersonId": 333,
-    "ContactId": 19,
-    "ProjectId": 488,
-    "ProjectName": "Dicki-Jerde",
-    "IsPublished": true,
-    "AssociateId": 448,
-    "ColorIndex": 590,
+    "Task": "ut",
+    "AssociateFullName": "Miss Summer Janie Bernier I",
+    "ContactName": "Conroy, Walker and McDermott",
+    "Description": "Upgradable intermediate protocol",
+    "PersonFullName": "Elias Buckridge DDS",
+    "PersonId": 99,
+    "ContactId": 80,
+    "ProjectId": 933,
+    "ProjectName": "Powlowski Group",
+    "IsPublished": false,
+    "AssociateId": 518,
+    "ColorIndex": 201,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 836,
-    "PriorityName": "Hirthe, Lynch and Berge",
+    "PriorityId": 87,
+    "PriorityName": "Ledner-Medhurst",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2024-03-10T12:01:27.0095855+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2025-01-21T14:13:38.9693251+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-04-08T12:01:27.0095855+02:00",
-    "RecurringEndDate": "1999-02-18T12:01:27.0095855+01:00",
-    "MotherId": 321,
-    "AssignedBy": 709,
-    "AssignedByFullName": "Dudley Kemmer",
+    "RecurringStartDate": "2021-06-03T14:13:38.9693251+02:00",
+    "RecurringEndDate": "2006-11-09T14:13:38.9693251+01:00",
+    "MotherId": 349,
+    "AssignedBy": 785,
+    "AssignedByFullName": "Erwin Wolf",
     "RejectReason": "",
-    "Location": "voluptatibus",
-    "AlarmLeadTime": "vitae",
-    "SaleId": 795,
-    "SaleName": "Corkery, Crona and Carter",
-    "AssociateName": "Boyle, Heathcote and Smitham",
-    "CreatedDate": "2022-05-30T12:01:27.0095855+02:00",
-    "CreatedBy": "itaque",
-    "CreatedByFullName": "Juvenal Simonis",
-    "CreatedByAssociateId": 56,
+    "Location": "ad",
+    "AlarmLeadTime": "possimus",
+    "SaleId": 335,
+    "SaleName": "Schmidt, Gerlach and Wuckert",
+    "AssociateName": "Hahn-Cartwright",
+    "CreatedDate": "2020-12-21T14:13:38.9693251+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Mrs. Cleveland Jettie Gusikowski Jr.",
+    "CreatedByAssociateId": 383,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 638,
-    "Title": "velit",
-    "Agenda": "non",
-    "InternalNotes": "cum",
+    "PreferredTZLocation": 194,
+    "Title": "nemo",
+    "Agenda": "qui",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 244
       }
     }
   }

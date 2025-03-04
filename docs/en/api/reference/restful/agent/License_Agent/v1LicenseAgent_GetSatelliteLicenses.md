@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 101
+  "SatelliteId": 556
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kris-Will",
-    "Description": "Balanced interactive leverage",
+    "Name": "Berge, Cremin and Harris",
+    "Description": "Programmable optimizing circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 684,
-        "Tooltip": "nisi",
+        "Total": 244,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 976,
-        "InUse": 789,
+        "Free": 79,
+        "InUse": 280,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 394,
-        "Name": "McClure LLC",
-        "Description": "Distributed contextually-based open system",
-        "PrerequisiteModuleName": "Friesen Group",
-        "SortOrder": 337,
-        "ExtraFlags": 611,
+        "Assigned": true,
+        "ModuleLicenseId": 319,
+        "Name": "Hayes LLC",
+        "Description": "Synchronised eco-centric Graphical User Interface",
+        "PrerequisiteModuleName": "Wiegand LLC",
+        "SortOrder": 767,
+        "ExtraFlags": 549,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 271
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 954,
-        "Tooltip": "sit",
-        "CanAssign": false,
-        "Free": 343,
-        "InUse": 875,
+        "Unrestricted": false,
+        "Total": 661,
+        "Tooltip": "consectetur",
+        "CanAssign": true,
+        "Free": 616,
+        "InUse": 729,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 850,
-        "Name": "Fritsch, Feil and Hahn",
-        "Description": "Front-line coherent knowledge user",
-        "PrerequisiteModuleName": "Hodkiewicz-Deckow",
-        "SortOrder": 500,
-        "ExtraFlags": 809,
+        "ModuleLicenseId": 794,
+        "Name": "Swaniawski LLC",
+        "Description": "Multi-tiered holistic focus group",
+        "PrerequisiteModuleName": "Kautzer, Friesen and Legros",
+        "SortOrder": 88,
+        "ExtraFlags": 169,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 749
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldLength": 962
       }
     }
   },
   {
-    "Name": "Kris-Will",
-    "Description": "Balanced interactive leverage",
+    "Name": "Berge, Cremin and Harris",
+    "Description": "Programmable optimizing circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 684,
-        "Tooltip": "nisi",
+        "Total": 244,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 976,
-        "InUse": 789,
+        "Free": 79,
+        "InUse": 280,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 394,
-        "Name": "McClure LLC",
-        "Description": "Distributed contextually-based open system",
-        "PrerequisiteModuleName": "Friesen Group",
-        "SortOrder": 337,
-        "ExtraFlags": 611,
+        "Assigned": true,
+        "ModuleLicenseId": 319,
+        "Name": "Hayes LLC",
+        "Description": "Synchronised eco-centric Graphical User Interface",
+        "PrerequisiteModuleName": "Wiegand LLC",
+        "SortOrder": 767,
+        "ExtraFlags": 549,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 271
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 954,
-        "Tooltip": "sit",
-        "CanAssign": false,
-        "Free": 343,
-        "InUse": 875,
+        "Unrestricted": false,
+        "Total": 661,
+        "Tooltip": "consectetur",
+        "CanAssign": true,
+        "Free": 616,
+        "InUse": 729,
         "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 850,
-        "Name": "Fritsch, Feil and Hahn",
-        "Description": "Front-line coherent knowledge user",
-        "PrerequisiteModuleName": "Hodkiewicz-Deckow",
-        "SortOrder": 500,
-        "ExtraFlags": 809,
+        "ModuleLicenseId": 794,
+        "Name": "Swaniawski LLC",
+        "Description": "Multi-tiered holistic focus group",
+        "PrerequisiteModuleName": "Kautzer, Friesen and Legros",
+        "SortOrder": 88,
+        "ExtraFlags": 169,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 749
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldLength": 962
       }
     }
   }

@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 793,
-    "Name": "Spencer Group",
-    "CurrencyId": 469,
-    "EnglishName": "Schuster-Vandervort",
+    "CountryId": 242,
+    "Name": "Corwin-Kihn",
+    "CurrencyId": 47,
+    "EnglishName": "Wolff Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Persistent methodical encryption",
-    "OrgNrText": "1032403",
-    "InterAreaPrefix": "veritatis",
-    "DialInPrefix": "voluptates",
-    "ZipPrefix": "in",
-    "DomainName": "Bruen-Cartwright",
-    "AddressLayoutId": 75,
-    "DomesticAddressLayoutId": 261,
-    "ForeignAddressLayoutId": 821,
-    "Rank": 894,
-    "Tooltip": "saepe",
-    "Deleted": false,
+    "ImageDescription": "Compatible value-added access",
+    "OrgNrText": "1172932",
+    "InterAreaPrefix": "ut",
+    "DialInPrefix": "ullam",
+    "ZipPrefix": "aut",
+    "DomainName": "Rogahn-Streich",
+    "AddressLayoutId": 674,
+    "DomesticAddressLayoutId": 47,
+    "ForeignAddressLayoutId": 582,
+    "Rank": 806,
+    "Tooltip": "vel",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   }

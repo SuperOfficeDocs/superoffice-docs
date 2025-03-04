@@ -27,7 +27,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=True
+GET /api/v1/List/Task/Items?includeDeleted=False
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 634,
-    "Value": "ducimus",
+    "TaskListItemId": 298,
+    "Value": "ullam",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "ex",
+    "Tooltip": "consectetur",
     "Deleted": true,
-    "IntentId": 586,
-    "Rank": 807,
+    "IntentId": 636,
+    "Rank": 883,
     "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": true,
-    "IsDefaultPublished": true,
+    "IsDefaultFree": false,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

@@ -85,12 +85,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eum",
-  "ProviderName": "Wisozk, Renner and Barrows",
-  "StorageKey": "sint",
+  "StorageType": "neque",
+  "ProviderName": "Farrell-Durgan",
+  "StorageKey": "facere",
   "StaticColumns": [
-    "est",
-    "cupiditate"
+    "molestias",
+    "quisquam"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rutherford LLC",
-      "Operator": "fugit",
+      "Name": "Runolfsdottir, Murray and Zemlak",
+      "Operator": "ea",
       "Values": [
-        "deserunt",
-        "et"
+        "error",
+        "facilis"
       ],
       "DisplayValues": [
-        "consequatur",
-        "unde"
+        "unde",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 170,
+      "InterParenthesis": 212,
       "InterOperator": "And",
-      "UniqueHash": 605
+      "UniqueHash": 567
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Feeney-Monahan",
-      "DisplayTooltip": "molestias",
-      "DisplayType": "qui",
-      "CanOrderBy": false,
-      "Name": "Ebert-Mills",
-      "CanRestrictBy": false,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Mann-Upton",
-      "IsVisible": false,
-      "ExtraInfo": "quae",
-      "Width": "ipsam",
-      "IconHint": "autem",
-      "HeadingIconHint": "culpa"
+      "DisplayName": "Russel-Zboncak",
+      "DisplayTooltip": "fuga",
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Streich, Dooley and Spencer",
+      "CanRestrictBy": true,
+      "RestrictionType": "saepe",
+      "RestrictionListName": "Rau LLC",
+      "IsVisible": true,
+      "ExtraInfo": "distinctio",
+      "Width": "dignissimos",
+      "IconHint": "nihil",
+      "HeadingIconHint": "quia"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Anderson, Kuphal and Howell",
-      "PrimaryKey": 49,
+      "EntityName": "Murphy Group",
+      "PrimaryKey": 621,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sapiente",
-          "TooltipHint": "enim",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "accusamus",
+          "TooltipHint": "et",
+          "LinkHint": "tempore"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "non",
+      "LinkHint": "ad",
+      "StyleHint": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 912
+          "FieldLength": 67
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Marquardt, Glover and Schaden",
-      "Description": "Open-source object-oriented throughput",
-      "Rank": 57,
+      "Name": "Greenholt Inc and Sons",
+      "Description": "Polarised zero administration Graphic Interface",
+      "Rank": 557,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Marquardt, Glover and Schaden",
-      "Description": "Open-source object-oriented throughput",
-      "Rank": 57,
+      "Name": "Greenholt Inc and Sons",
+      "Description": "Polarised zero administration Graphic Interface",
+      "Rank": 557,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

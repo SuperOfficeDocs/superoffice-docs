@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 258,
-  "Name": "Simonis-Johns",
-  "Tooltip": "sequi",
-  "Deleted": false,
-  "UdListDefinitionId": 528,
-  "Rank": 242,
+  "Id": 199,
+  "Name": "Beier Inc and Sons",
+  "Tooltip": "at",
+  "Deleted": true,
+  "UdListDefinitionId": 885,
+  "Rank": 877,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

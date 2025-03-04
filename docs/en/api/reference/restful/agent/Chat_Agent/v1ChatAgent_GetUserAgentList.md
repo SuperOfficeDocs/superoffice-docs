@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 655,
-    "Name": "O'Kon-Bailey",
-    "ToolTip": "Facilis quibusdam doloremque laboriosam qui delectus.",
-    "Deleted": true,
-    "Rank": 75,
-    "Type": "dolores",
+    "Id": 591,
+    "Name": "Kozey LLC",
+    "ToolTip": "Quisquam odio dolores et tempore et minus ullam.",
+    "Deleted": false,
+    "Rank": 316,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Boehm-Wisozk",
-        "ToolTip": "Est et.",
-        "Deleted": false,
-        "Rank": 317,
-        "Type": "quo",
+        "Id": 682,
+        "Name": "Towne-Wuckert",
+        "ToolTip": "Voluptatem consequatur et ut veritatis recusandae.",
+        "Deleted": true,
+        "Rank": 314,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aspernatur",
-        "ColorBlock": 53,
-        "ExtraInfo": "praesentium",
-        "StyleHint": "fuga",
-        "FullName": "Dannie Gulgowski",
+        "IconHint": "maiores",
+        "ColorBlock": 519,
+        "ExtraInfo": "sit",
+        "StyleHint": "et",
+        "FullName": "Prof. Wellington Green IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 20
+            "FieldType": "System.Int32",
+            "FieldLength": 180
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 660,
-    "ExtraInfo": "non",
-    "StyleHint": "veniam",
-    "FullName": "Margarete Emmerich",
+    "IconHint": "delectus",
+    "ColorBlock": 713,
+    "ExtraInfo": "rerum",
+    "StyleHint": "corrupti",
+    "FullName": "Prof. Emmett Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

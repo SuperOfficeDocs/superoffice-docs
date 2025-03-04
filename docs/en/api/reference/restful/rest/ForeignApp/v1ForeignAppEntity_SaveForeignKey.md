@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "cum",
-  "Value": "quia",
-  "RecordId": 334,
-  "CreatedDate": "2009-11-25T12:01:32.9175621+01:00",
-  "UpdatedDate": "2010-04-22T12:01:32.9175621+02:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "sed",
-  "TableName": "Erdman, Beier and Douglas"
+  "Key": "dolorem",
+  "Value": "ex",
+  "RecordId": 799,
+  "CreatedDate": "2019-12-18T14:13:48.8993207+01:00",
+  "UpdatedDate": "2024-07-07T14:13:48.8993207+02:00",
+  "UpdatedBy": "repellat",
+  "CreatedBy": "repudiandae",
+  "TableName": "Tillman LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "ab",
-  "RecordId": 347,
-  "CreatedDate": "2023-11-25T12:01:32.9175621+01:00",
-  "UpdatedDate": "2011-08-28T12:01:32.9175621+02:00",
-  "UpdatedBy": "natus",
-  "CreatedBy": "nulla",
-  "TableName": "Torphy-Wuckert",
+  "Key": "repellendus",
+  "Value": "doloremque",
+  "RecordId": 757,
+  "CreatedDate": "2015-01-05T14:13:48.8993207+01:00",
+  "UpdatedDate": "2001-01-01T14:13:48.8993207+01:00",
+  "UpdatedBy": "provident",
+  "CreatedBy": "quae",
+  "TableName": "Witting LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

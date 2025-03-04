@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 605,
-  "AssociateId": 26,
-  "Caption": "dolor",
+  "DashboardId": 113,
+  "AssociateId": 291,
+  "Caption": "nihil",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 131,
-      "Caption": "quas",
-      "Description": "Centralized multi-tasking analyzer",
-      "ChartName": "Homenick-Ondricka",
-      "ChartId": "cumque",
-      "IsDefault": true,
-      "AssociateId": 260,
-      "GroupId": 281,
-      "SelectionId": 751,
-      "Config": "qui",
+      "DashboardTileId": 439,
+      "Caption": "perferendis",
+      "Description": "Up-sized attitude-oriented collaboration",
+      "ChartName": "Kertzmann Inc and Sons",
+      "ChartId": "saepe",
+      "IsDefault": false,
+      "AssociateId": 724,
+      "GroupId": 703,
+      "SelectionId": 324,
+      "Config": "in",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 526
+          "FieldType": "System.Int32",
+          "FieldLength": 566
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

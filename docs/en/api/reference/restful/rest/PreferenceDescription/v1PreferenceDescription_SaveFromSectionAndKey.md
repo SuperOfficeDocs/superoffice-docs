@@ -106,24 +106,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 337,
-  "Section": "dolore",
-  "Key": "molestiae",
-  "Name": "Fay-Raynor",
+  "PrefDescId": 923,
+  "Section": "quod",
+  "Key": "quibusdam",
+  "Name": "Bashirian, Considine and Gerhold",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Monitored intermediate process improvement",
+  "Description": "Exclusive 4th generation definition",
   "IsBuiltin": false,
-  "TableName": "Herzog-Hettinger",
-  "UserDefinedListId": 381,
-  "Rank": 204,
-  "SubGroup": "pariatur",
-  "MinLevel": 253,
-  "MaxValue": 627,
-  "MinValue": 917,
-  "RequiredLicense": "veniam"
+  "TableName": "Lind Inc and Sons",
+  "UserDefinedListId": 871,
+  "Rank": 401,
+  "SubGroup": "laboriosam",
+  "MinLevel": 619,
+  "MaxValue": 941,
+  "MinValue": 320,
+  "RequiredLicense": "iure"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 80,
-  "Section": "ut",
-  "Key": "sed",
-  "Name": "Bergnaum LLC",
+  "PrefDescId": 876,
+  "Section": "minus",
+  "Key": "voluptas",
+  "Name": "Satterfield LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone local database",
+  "Description": "Extended attitude-oriented functionalities",
   "IsBuiltin": false,
-  "TableName": "Lowe-Lakin",
-  "UserDefinedListId": 283,
-  "Rank": 743,
-  "SubGroup": "consequatur",
-  "MinLevel": 987,
-  "MaxValue": 426,
-  "MinValue": 930,
-  "RequiredLicense": "et",
+  "TableName": "Huels, Mills and Metz",
+  "UserDefinedListId": 398,
+  "Rank": 881,
+  "SubGroup": "veniam",
+  "MinLevel": 919,
+  "MaxValue": 471,
+  "MinValue": 207,
+  "RequiredLicense": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 180
     }
   }
 }

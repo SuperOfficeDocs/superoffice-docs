@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Keebler Inc and Sons",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "UdListDefinitionId": 895,
-  "Rank": 995,
+  "Id": 788,
+  "Name": "Spencer Group",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "UdListDefinitionId": 573,
+  "Rank": 68,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 692
+      "FieldLength": 422
     }
   }
 }

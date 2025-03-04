@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Weissnat, Okuneva and Pagac",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 558
+    "Id": 636,
+    "Name": "Boyle Inc and Sons",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 676,
+    "Rank": 171
   },
   {
-    "Id": 493,
-    "Name": "Weissnat, Okuneva and Pagac",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 467,
-    "Rank": 558
+    "Id": 636,
+    "Name": "Boyle Inc and Sons",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 676,
+    "Rank": 171
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Wolff Inc and Sons",
-    "Tooltip": "rerum",
+    "Id": 443,
+    "Name": "Barton Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 987,
+    "UdListDefinitionId": 842,
+    "Rank": 453,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldLength": 360
       }
     }
   }

@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 330
+  "ProjectId": 991
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "officiis",
-    "PersonId": 976,
-    "Mrmrs": "illum",
-    "Firstname": "Olga",
-    "Lastname": "Considine",
-    "MiddleName": "Kuphal LLC",
-    "Title": "omnis",
-    "Description": "User-centric bandwidth-monitored collaboration",
-    "Email": "justen.stamm@kerlukehammes.uk",
-    "FullName": "Mohamed Osinski",
-    "DirectPhone": "552-485-4703 x36510",
-    "FormalName": "Champlin, King and Wolf",
-    "CountryId": 500,
-    "ContactId": 646,
-    "ContactName": "Dooley LLC",
-    "Retired": 992,
-    "Rank": 245,
-    "ActiveInterests": 518,
+    "Position": "rem",
+    "PersonId": 207,
+    "Mrmrs": "dolores",
+    "Firstname": "Claudine",
+    "Lastname": "Miller",
+    "MiddleName": "Batz Inc and Sons",
+    "Title": "nemo",
+    "Description": "Grass-roots needs-based data-warehouse",
+    "Email": "ashleigh_fay@kuhlman.biz",
+    "FullName": "Kiel Lehner",
+    "DirectPhone": "1-710-164-1115 x399",
+    "FormalName": "Bergnaum, Crist and Langworth",
+    "CountryId": 351,
+    "ContactId": 714,
+    "ContactName": "Senger, Ankunding and Crist",
+    "Retired": 940,
+    "Rank": 652,
+    "ActiveInterests": 478,
     "ContactDepartment": "",
-    "ContactCountryId": 492,
-    "ContactOrgNr": "522381",
-    "FaxPhone": "579.309.5407",
-    "MobilePhone": "1-245-105-4940 x4988",
-    "ContactPhone": "411-027-9810 x46351",
-    "AssociateName": "Nicolas-O'Keefe",
-    "AssociateId": 922,
-    "UsePersonAddress": true,
-    "ContactFax": "nobis",
-    "Kanafname": "reprehenderit",
-    "Kanalname": "ducimus",
-    "Post1": "quo",
-    "Post2": "eum",
-    "Post3": "quae",
-    "EmailName": "anthony@carroll.us",
-    "ContactFullName": "Laurence Larkin",
-    "ActiveErpLinks": 121,
-    "TicketPriorityId": 402,
-    "SupportLanguageId": 463,
-    "SupportAssociateId": 543,
+    "ContactCountryId": 785,
+    "ContactOrgNr": "93403",
+    "FaxPhone": "(448)581-7316",
+    "MobilePhone": "1-080-539-9875",
+    "ContactPhone": "355-511-9464",
+    "AssociateName": "Sanford, Heaney and Hane",
+    "AssociateId": 612,
+    "UsePersonAddress": false,
+    "ContactFax": "nihil",
+    "Kanafname": "ipsa",
+    "Kanalname": "voluptatem",
+    "Post1": "accusamus",
+    "Post2": "omnis",
+    "Post3": "inventore",
+    "EmailName": "harold@schuster.name",
+    "ContactFullName": "Clara Wiza",
+    "ActiveErpLinks": 833,
+    "TicketPriorityId": 982,
+    "SupportLanguageId": 832,
+    "SupportAssociateId": 228,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "859480",
+    "PersonNumber": "282504",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 964
       }
     }
   }

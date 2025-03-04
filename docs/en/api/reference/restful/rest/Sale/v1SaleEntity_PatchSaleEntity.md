@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eius",
+    "path": "rem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eius",
+    "path": "rem",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eius",
+  "SaleText": "officiis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-05-22T12:01:33.1832049+02:00",
-  "Amount": 5816.704,
-  "SaleId": 518,
-  "Earning": 12517.196,
-  "EarningPercent": 1156.446,
-  "Heading": "doloremque",
-  "Number": "893273",
-  "Probability": 200,
-  "CreatedDate": "2015-09-03T12:01:33.1832049+02:00",
-  "UpdatedDate": "2019-12-20T12:01:33.1832049+01:00",
+  "Saledate": "2009-07-27T14:13:49.1962377+02:00",
+  "Amount": 11144.503999999999,
+  "SaleId": 329,
+  "Earning": 17177.453999999998,
+  "EarningPercent": 12012.622,
+  "Heading": "quasi",
+  "Number": "688590",
+  "Probability": 801,
+  "CreatedDate": "2003-09-28T14:13:49.1962377+02:00",
+  "UpdatedDate": "2021-02-27T14:13:49.1962377+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 573,
+  "ActiveLinks": 197,
   "Links": [
     {
-      "EntityName": "Marks Inc and Sons",
-      "Id": 172,
-      "Description": "Digitized 5th generation adapter",
-      "ExtraInfo": "voluptate",
-      "LinkId": 11,
+      "EntityName": "Stamm, Beier and Cassin",
+      "Id": 476,
+      "Description": "Networked 6th generation system engine",
+      "ExtraInfo": "doloremque",
+      "LinkId": 118,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldType": "System.Int32",
+          "FieldLength": 439
         }
       }
     }
   ],
-  "NextDueDate": "2023-11-30T12:01:33.1832049+01:00",
-  "Postit": "ut",
+  "NextDueDate": "2017-07-11T14:13:49.1962377+02:00",
+  "Postit": "repellat",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-01-24T12:01:33.1832049+01:00",
+  "ReopenDate": "2019-10-14T14:13:49.1962377+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Stehr, Adams and Koelpin",
-      "Comment": "ut",
-      "StakeholderRoleId": 306,
-      "CountryId": 342,
-      "PersonId": 896,
-      "EmailDescription": "marie@breitenbergdickens.com",
-      "EmailId": 960,
-      "EmailAddress": "uriel.boehm@little.com",
-      "PhoneId": 979,
-      "ContactName": "Halvorson-Harvey",
-      "ContactId": 355,
-      "SaleId": 257,
-      "Mrmrs": "temporibus",
-      "Firstname": "Ross",
-      "MiddleName": "Conroy Inc and Sons",
-      "Lastname": "Cummerata",
-      "SaleStakeholderId": 277,
-      "Rank": 149,
-      "Phone": "383.936.7831 x2017",
+      "StakeholderRoleName": "Pacocha Inc and Sons",
+      "Comment": "excepturi",
+      "StakeholderRoleId": 517,
+      "CountryId": 316,
+      "PersonId": 544,
+      "EmailDescription": "immanuel.daugherty@hegmann.info",
+      "EmailId": 401,
+      "EmailAddress": "rae@quigley.uk",
+      "PhoneId": 263,
+      "ContactName": "Roberts LLC",
+      "ContactId": 976,
+      "SaleId": 690,
+      "Mrmrs": "omnis",
+      "Firstname": "Dannie",
+      "MiddleName": "Gorczany, Deckow and Osinski",
+      "Lastname": "Lang",
+      "SaleStakeholderId": 94,
+      "Rank": 954,
+      "Phone": "1-408-154-7714 x45085",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldLength": 318
         }
       }
     }
   ],
-  "ActiveErpLinks": 225,
+  "ActiveErpLinks": 343,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "957400007"
+    "SuperOffice:1": "Prof. Renee Domenico Hilll",
+    "SuperOffice:2": "Mrs. Lauryn Waelchi"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "repudiandae",
+    "CustomFields2": "aliquid"
   },
-  "PublishEventDate": "2014-02-02T12:01:33.1832049+01:00",
-  "PublishTo": "2000-12-10T12:01:33.1832049+01:00",
-  "PublishFrom": "2003-08-31T12:01:33.1832049+02:00",
+  "PublishEventDate": "2016-06-30T14:13:49.1962377+02:00",
+  "PublishTo": "2013-09-25T14:13:49.1962377+02:00",
+  "PublishFrom": "2013-07-14T14:13:49.1962377+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 456,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 29
         }
       }
     },
     {
-      "VisibleId": 456,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldLength": 29
         }
       }
     }
@@ -305,13 +305,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

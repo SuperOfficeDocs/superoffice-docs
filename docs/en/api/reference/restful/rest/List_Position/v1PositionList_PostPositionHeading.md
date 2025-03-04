@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 139,
-  "Name": "O'Hara, Kutch and Bashirian",
-  "Tooltip": "occaecati",
+  "HeadingId": 14,
+  "Name": "White Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 143,
-  "UdListDefinitionId": 403
+  "Rank": 776,
+  "UdListDefinitionId": 547
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 233,
-  "Name": "Cummings-Labadie",
-  "Tooltip": "ipsam",
+  "HeadingId": 996,
+  "Name": "Ullrich-Willms",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 794,
-  "UdListDefinitionId": 198,
+  "Rank": 151,
+  "UdListDefinitionId": 867,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 745
     }
   }
 }

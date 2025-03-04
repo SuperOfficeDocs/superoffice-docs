@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 26 Oct 2010 12:01:32 G10T
+Last-Modified: Thu, 14 Oct 1999 14:13:48 G10T
 
 {
-  "Key": "laborum",
-  "Value": "sit",
-  "RecordId": 743,
-  "CreatedDate": "2018-04-13T12:01:32.9175621+02:00",
-  "UpdatedDate": "2010-10-26T12:01:32.9175621+02:00",
+  "Key": "voluptatum",
+  "Value": "incidunt",
+  "RecordId": 242,
+  "CreatedDate": "2014-05-06T14:13:48.8993207+02:00",
+  "UpdatedDate": "1999-10-14T14:13:48.8993207+02:00",
   "UpdatedBy": "quo",
-  "CreatedBy": "vel",
-  "TableName": "Bechtelar-Botsford",
+  "CreatedBy": "voluptates",
+  "TableName": "Rosenbaum, Wintheiser and Cremin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 770
     }
   }
 }

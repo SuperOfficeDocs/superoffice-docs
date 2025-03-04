@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ActivityIdentifiers": [
-    "illo",
-    "vitae"
+    "aut",
+    "dolor"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "id",
-  "quia"
+  "ea",
+  "aliquid"
 ]
 ```

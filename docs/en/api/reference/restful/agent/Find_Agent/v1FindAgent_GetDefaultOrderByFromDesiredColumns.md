@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Prosacco Group",
+  "ProviderName": "Powlowski-Sanford",
   "DesiredColumns": [
-    "et",
-    "aut"
+    "libero",
+    "quos"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lueilwitz, Wuckert and Crist",
+    "Name": "Mills Group",
     "Direction": "ASC"
   },
   {
-    "Name": "Lueilwitz, Wuckert and Crist",
+    "Name": "Mills Group",
     "Direction": "ASC"
   }
 ]

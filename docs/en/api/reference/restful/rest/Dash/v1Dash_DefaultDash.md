@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 575,
-  "UniqueId": "modi",
-  "Name": "Kautzer LLC",
-  "Description": "Compatible tertiary hierarchy",
-  "AssociateId": 283,
-  "Columns": 150,
+  "DashboardId": 915,
+  "UniqueId": "qui",
+  "Name": "Gerhold LLC",
+  "Description": "Pre-emptive mobile conglomeration",
+  "AssociateId": 137,
+  "Columns": 447,
   "Theme": null,
-  "VisibleForAll": 56,
+  "VisibleForAll": 490,
   "VisibleForAssociates": [
-    172,
-    228
+    177,
+    845
   ],
   "VisibleForGroups": [
-    774,
-    482
+    142,
+    334
   ],
-  "PinForAll": 609,
+  "PinForAll": 232,
   "PinForAssociates": [
-    304,
-    434
+    177,
+    93
   ],
   "PinForGroups": [
-    541,
-    297
+    470,
+    131
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 698
     }
   }
 }

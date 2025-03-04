@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 09 Mar 2002 12:01:32 G3T
+Last-Modified: Wed, 28 Dec 2022 14:13:48 G12T
 
 {
-  "BlobId": 654,
-  "BlobSize": 57,
-  "Description": "Inverse system-worthy circuit",
-  "ExtraInfo": "qui",
+  "BlobId": 438,
+  "BlobSize": 806,
+  "Description": "Optional upward-trending artificial intelligence",
+  "ExtraInfo": "est",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 93,
-  "CreatedDate": "2020-11-02T12:01:32.7769271+01:00",
-  "UpdatedDate": "2002-03-09T12:01:32.7769271+01:00",
+  "MimeType": "laboriosam",
+  "OriginalSize": 409,
+  "CreatedDate": "2023-04-07T14:13:48.4758003+02:00",
+  "UpdatedDate": "2022-12-28T14:13:48.4758003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "exercitationem",
+  "ConceptualType": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 3
     }
   }
 }

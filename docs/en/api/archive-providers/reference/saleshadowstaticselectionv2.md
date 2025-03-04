@@ -1312,7 +1312,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=person/restrictionAddress/county,person/personUdef/SuperOffice:6,contact/contactFax/description,contact/postAddress/line1,contact/contactAssociate/personId
+GET /api/v1/archive/SaleShadowStaticSelectionV2?$select=person/birthMonth,person/personRegisteredDate,contact/LastSale,associate/otherGroups,appointment/alarm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

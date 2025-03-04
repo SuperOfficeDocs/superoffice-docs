@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 926,
-  "PrefDescId": 986,
-  "PrefValue": "error",
-  "PrefShowValue": "laudantium",
-  "Description": "Right-sized solution-oriented hub",
+  "PrefDescLineId": 618,
+  "PrefDescId": 685,
+  "PrefValue": "cum",
+  "PrefShowValue": "ut",
+  "Description": "Inverse systemic knowledge base",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 343,
-  "PrefDescId": 510,
-  "PrefValue": "aut",
-  "PrefShowValue": "omnis",
-  "Description": "Adaptive 24 hour architecture",
+  "PrefDescLineId": 168,
+  "PrefDescId": 975,
+  "PrefValue": "delectus",
+  "PrefShowValue": "facere",
+  "Description": "Object-based full-range synergy",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 494
+      "FieldLength": 653
     }
   }
 }

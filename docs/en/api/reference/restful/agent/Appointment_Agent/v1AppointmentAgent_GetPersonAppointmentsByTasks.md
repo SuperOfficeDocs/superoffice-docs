@@ -132,18 +132,18 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 350,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2024-07-04T12:01:26.9939595+02:00",
-  "EndTime": "2015-03-29T12:01:26.9939595+02:00",
-  "Count": 641,
+  "PersonId": 845,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2001-03-23T14:13:38.9537033+01:00",
+  "EndTime": "2014-02-17T14:13:38.9537033+01:00",
+  "Count": 551,
   "TaskIds": [
-    625,
-    321
+    222,
+    257
   ]
 }
 ```
@@ -156,65 +156,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 501,
-    "StartDate": "2001-12-09T12:01:27.0095855+01:00",
-    "EndDate": "2008-03-27T12:01:27.0095855+01:00",
+    "AppointmentId": 297,
+    "StartDate": "2002-09-03T14:13:38.9537033+02:00",
+    "EndDate": "2020-01-09T14:13:38.9537033+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Prof. Jamir Nikolaus",
-    "ContactName": "Wehner Group",
-    "Description": "Integrated upward-trending local area network",
-    "PersonFullName": "Rosalyn Howe",
-    "PersonId": 443,
-    "ContactId": 617,
-    "ProjectId": 151,
-    "ProjectName": "Morar, Hettinger and Carroll",
-    "IsPublished": false,
-    "AssociateId": 388,
-    "ColorIndex": 667,
-    "IsFree": false,
+    "Task": "atque",
+    "AssociateFullName": "Billy Vandervort",
+    "ContactName": "Osinski-Ritchie",
+    "Description": "Extended 5th generation initiative",
+    "PersonFullName": "Willy Sanford",
+    "PersonId": 751,
+    "ContactId": 654,
+    "ProjectId": 764,
+    "ProjectName": "Bechtelar-Jaskolski",
+    "IsPublished": true,
+    "AssociateId": 961,
+    "ColorIndex": 780,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 351,
-    "PriorityName": "Moore LLC",
+    "PriorityId": 502,
+    "PriorityName": "Lowe-Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-10-11T12:01:27.0095855+02:00",
+    "ActiveDate": "2008-08-15T14:13:38.9537033+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-10-16T12:01:27.0095855+02:00",
-    "RecurringEndDate": "2001-05-10T12:01:27.0095855+02:00",
-    "MotherId": 126,
-    "AssignedBy": 193,
-    "AssignedByFullName": "Ms. Jonas Smith",
+    "RecurringStartDate": "2022-04-26T14:13:38.9537033+02:00",
+    "RecurringEndDate": "2004-03-31T14:13:38.9537033+02:00",
+    "MotherId": 863,
+    "AssignedBy": 255,
+    "AssignedByFullName": "Emanuel Hermann",
     "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 576,
-    "SaleName": "Hahn, Russel and Cronin",
-    "AssociateName": "Steuber Group",
-    "CreatedDate": "2013-09-04T12:01:27.0095855+02:00",
-    "CreatedBy": "dolorem",
-    "CreatedByFullName": "Osvaldo Alverta Kuhic DVM",
-    "CreatedByAssociateId": 195,
+    "Location": "aliquid",
+    "AlarmLeadTime": "nam",
+    "SaleId": 62,
+    "SaleName": "Bosco Group",
+    "AssociateName": "Schneider-Kemmer",
+    "CreatedDate": "2007-07-21T14:13:38.9537033+02:00",
+    "CreatedBy": "odit",
+    "CreatedByFullName": "Ms. Lennie Hayes",
+    "CreatedByAssociateId": 508,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 791,
-    "Title": "et",
-    "Agenda": "voluptatem",
-    "InternalNotes": "voluptates",
+    "PreferredTZLocation": 720,
+    "Title": "libero",
+    "Agenda": "dicta",
+    "InternalNotes": "reiciendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 956
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 428,
-    "ColumnId": 72,
-    "FieldDefault": "ad",
-    "FieldHeight": 793,
-    "FieldLabel": "sed",
-    "FieldLeft": 4,
-    "FieldTop": 994,
+    "UDefFieldId": 188,
+    "ColumnId": 932,
+    "FieldDefault": "qui",
+    "FieldHeight": 825,
+    "FieldLabel": "praesentium",
+    "FieldLeft": 256,
+    "FieldTop": 423,
     "FieldType": "Checkbox",
-    "FieldWidth": 157,
-    "FormatMask": "laborum",
-    "HideLabel": true,
+    "FieldWidth": 470,
+    "FormatMask": "molestias",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 170,
-    "LabelLeft": 173,
-    "LabelTop": 455,
-    "LabelWidth": 207,
-    "LastVersionId": 629,
-    "ListTableId": 196,
+    "LabelHeight": 880,
+    "LabelLeft": 991,
+    "LabelTop": 86,
+    "LabelWidth": 483,
+    "LastVersionId": 632,
+    "ListTableId": 420,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 377,
-    "ProgId": "minus",
+    "Page1LineNo": 477,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "quo",
-    "TabOrder": 992,
-    "TextLength": 79,
-    "Tooltip": "veniam",
-    "UdefIdentity": 708,
-    "UDListDefinitionId": 82,
+    "ShortLabel": "dolores",
+    "TabOrder": 946,
+    "TextLength": 269,
+    "Tooltip": "delectus",
+    "UdefIdentity": 517,
+    "UDListDefinitionId": 763,
     "Justification": "Center",
-    "Version": 950,
-    "TemplateVariableName": "Daniel Group",
+    "Version": 800,
+    "TemplateVariableName": "Harber LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Kub-Kilback",
+    "MdoListName": "Larkin, Gottlieb and Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    38,
-    767
+    777,
+    528
   ],
   "UpdateRepliedAt": true
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 839,
+  "EjMessageId": 374,
   "Ticket": null,
-  "CreatedAt": "2002-10-02T12:01:28.5565847+02:00",
+  "CreatedAt": "2021-08-14T14:13:41.6102613+02:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "nihil",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptatibus",
-  "TimeSpent": 170,
-  "Body": "consequuntur",
-  "HtmlBody": "cum",
-  "EmailHeader": "noemy@huels.com",
-  "DebugInfo": "distinctio",
-  "MailSorter": "officia",
+  "MessageId": "ad",
+  "TimeSpent": 309,
+  "Body": "est",
+  "HtmlBody": "autem",
+  "EmailHeader": "yadira@shieldsbarrows.name",
+  "DebugInfo": "ab",
+  "MailSorter": "eos",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "et",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 9,
-      "Name": "Lockman, Wiza and Stehr",
-      "Value": "enim",
+      "Id": 306,
+      "Name": "Satterfield, Christiansen and Funk",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldLength": 361
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dolor",
-  "Sentiment": 357,
-  "SentimentConfidence": 613,
+  "Language": "sit",
+  "Sentiment": 477,
+  "SentimentConfidence": 931,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 846,
-      "Name": "Bernier-McKenzie",
-      "ContentType": "autem",
-      "AttSize": 364,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "aut",
+      "AttachmentId": 504,
+      "Name": "Bradtke-Ritchie",
+      "ContentType": "eveniet",
+      "AttSize": 340,
+      "InlineImage": false,
+      "ContentId": "dolorum",
+      "AuthKey": "sunt",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 436
+          "FieldLength": 385
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "at"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aut"
+    "CustomFields1": "est",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 635
     }
   }
 }

@@ -33,7 +33,7 @@ Calls the Contact agent service GetContactEntity.
 
 ```http
 GET /api/v1/Contact/{id}?$select=name,department,category/id
-GET /api/v1/Contact/{id}?fk=False
+GET /api/v1/Contact/{id}?fk=True
 ```
 
 
@@ -119,7 +119,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,160 +127,160 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Oct 2000 12:01:32 G10T
+Last-Modified: Wed, 29 Oct 2014 14:13:48 G10T
 
 {
-  "ContactId": 424,
-  "Name": "Considine, Rosenbaum and Turcotte",
+  "ContactId": 948,
+  "Name": "Sipes-Heidenreich",
   "Department": "",
-  "OrgNr": "1448538",
-  "Number1": "673389",
-  "Number2": "40977",
-  "UpdatedDate": "2000-10-03T12:01:32.7925531+02:00",
-  "CreatedDate": "2016-10-26T12:01:32.7925531+02:00",
+  "OrgNr": "1085071",
+  "Number1": "501629",
+  "Number2": "1537599",
+  "UpdatedDate": "2014-10-29T14:13:48.5226646+01:00",
+  "CreatedDate": "2012-01-03T14:13:48.5226646+01:00",
   "Emails": [
     {
-      "Value": "iste",
-      "StrippedValue": "eaque",
-      "Description": "Centralized bi-directional algorithm",
+      "Value": "voluptatum",
+      "StrippedValue": "ad",
+      "Description": "Progressive directional Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 511
         }
       }
     },
     {
-      "Value": "iste",
-      "StrippedValue": "eaque",
-      "Description": "Centralized bi-directional algorithm",
+      "Value": "voluptatum",
+      "StrippedValue": "ad",
+      "Description": "Progressive directional Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 511
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 896,
-      "Name": "Herman, Paucek and Roberts",
-      "ToolTip": "Necessitatibus qui consectetur blanditiis quidem iste iure.",
-      "Deleted": false,
-      "Rank": 499,
-      "Type": "explicabo",
-      "ColorBlock": 503,
-      "IconHint": "qui",
+      "Id": 796,
+      "Name": "Denesik Inc and Sons",
+      "ToolTip": "Quam voluptas animi id quas pariatur rem et.",
+      "Deleted": true,
+      "Rank": 948,
+      "Type": "delectus",
+      "ColorBlock": 63,
+      "IconHint": "quis",
       "Selected": true,
-      "LastChanged": "2003-09-04T12:01:32.7925531+02:00",
+      "LastChanged": "2009-06-07T14:13:48.5226646+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "eos",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "sit",
       "Hidden": false,
-      "FullName": "Miss Desmond Adolfo Lynch PhD",
+      "FullName": "Melba Heber Beahan III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 307
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "quia",
-      "Description": "Monitored global functionalities",
+      "Value": "sed",
+      "StrippedValue": "facere",
+      "Description": "Polarised uniform matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 767
         }
       }
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "quia",
-      "Description": "Monitored global functionalities",
+      "Value": "sed",
+      "StrippedValue": "facere",
+      "Description": "Polarised uniform matrices",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 74
+          "FieldType": "System.Int32",
+          "FieldLength": 767
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quisquam",
-      "StrippedValue": "molestias",
-      "Description": "Sharable dynamic moratorium",
+      "Value": "numquam",
+      "StrippedValue": "fuga",
+      "Description": "Switchable 24/7 parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     },
     {
-      "Value": "quisquam",
-      "StrippedValue": "molestias",
-      "Description": "Sharable dynamic moratorium",
+      "Value": "numquam",
+      "StrippedValue": "fuga",
+      "Description": "Switchable 24/7 parallelism",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "tempore",
-      "StrippedValue": "vero",
-      "Description": "Innovative modular standardization",
+      "Value": "dolorem",
+      "StrippedValue": "maiores",
+      "Description": "Team-oriented needs-based definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 350
         }
       }
     },
     {
-      "Value": "tempore",
-      "StrippedValue": "vero",
-      "Description": "Innovative modular standardization",
+      "Value": "dolorem",
+      "StrippedValue": "maiores",
+      "Description": "Team-oriented needs-based definition",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 769
+          "FieldLength": 350
         }
       }
     }
   ],
-  "Description": "Synergized static secured line",
+  "Description": "Fundamental disintermediate policy",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -289,106 +289,106 @@ Last-Modified: Tue, 03 Oct 2000 12:01:32 G10T
   "Country": null,
   "Persons": [
     {
-      "Position": "ipsum",
-      "PersonId": 933,
-      "Mrmrs": "quibusdam",
-      "Firstname": "Abigail",
-      "Lastname": "Conn",
-      "MiddleName": "Lindgren Inc and Sons",
-      "Title": "quisquam",
-      "Description": "Up-sized 24/7 support",
-      "Email": "edna@mueller.us",
-      "FullName": "Lyla Bruen",
-      "DirectPhone": "486.223.1658 x416",
-      "FormalName": "D'Amore, Windler and Reichel",
-      "CountryId": 338,
-      "ContactId": 405,
-      "ContactName": "Emard Inc and Sons",
-      "Retired": 781,
-      "Rank": 885,
-      "ActiveInterests": 946,
+      "Position": "quaerat",
+      "PersonId": 964,
+      "Mrmrs": "quia",
+      "Firstname": "Adela",
+      "Lastname": "Windler",
+      "MiddleName": "Kassulke Inc and Sons",
+      "Title": "facilis",
+      "Description": "Devolved leading edge infrastructure",
+      "Email": "lionel.jast@lowe.us",
+      "FullName": "Ms. Leon Anastacio Stokes PhD",
+      "DirectPhone": "1-021-139-7221",
+      "FormalName": "Bartoletti-Jakubowski",
+      "CountryId": 234,
+      "ContactId": 782,
+      "ContactName": "Conroy, Cummerata and Ankunding",
+      "Retired": 265,
+      "Rank": 805,
+      "ActiveInterests": 243,
       "ContactDepartment": "",
-      "ContactCountryId": 394,
-      "ContactOrgNr": "1191479",
-      "FaxPhone": "852.497.4289 x79497",
-      "MobilePhone": "733.572.1541",
-      "ContactPhone": "1-082-666-9730 x2261",
-      "AssociateName": "Towne Group",
-      "AssociateId": 222,
+      "ContactCountryId": 23,
+      "ContactOrgNr": "1164829",
+      "FaxPhone": "359.709.1665 x221",
+      "MobilePhone": "205-488-1628 x4538",
+      "ContactPhone": "903.963.8025 x1914",
+      "AssociateName": "Armstrong, Williamson and Zemlak",
+      "AssociateId": 475,
       "UsePersonAddress": true,
-      "ContactFax": "rerum",
-      "Kanafname": "quos",
-      "Kanalname": "molestias",
-      "Post1": "sapiente",
-      "Post2": "aut",
-      "Post3": "est",
-      "EmailName": "wilson@white.ca",
-      "ContactFullName": "Mr. Gussie Cristina Klein V",
-      "ActiveErpLinks": 368,
-      "TicketPriorityId": 708,
-      "SupportLanguageId": 98,
-      "SupportAssociateId": 239,
+      "ContactFax": "veritatis",
+      "Kanafname": "possimus",
+      "Kanalname": "in",
+      "Post1": "est",
+      "Post2": "quia",
+      "Post3": "totam",
+      "EmailName": "norbert@haagbotsford.com",
+      "ContactFullName": "Jacklyn Schaden",
+      "ActiveErpLinks": 909,
+      "TicketPriorityId": 401,
+      "SupportLanguageId": 97,
+      "SupportAssociateId": 964,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1090970",
+      "PersonNumber": "1095908",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 1000
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "odio",
+  "NoMailing": false,
+  "Kananame": "ipsa",
   "Xstop": false,
-  "ActiveInterests": 173,
-  "GroupId": 539,
-  "ActiveStatusMonitorId": 75,
+  "ActiveInterests": 457,
+  "GroupId": 84,
+  "ActiveStatusMonitorId": 796,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 55,
-  "DbiAgentId": 672,
-  "DbiLastSyncronized": "2019-01-09T12:01:32.7925531+01:00",
-  "DbiKey": "delectus",
-  "DbiLastModified": "2017-03-05T12:01:32.7925531+01:00",
+  "Deleted": 392,
+  "DbiAgentId": 922,
+  "DbiLastSyncronized": "1999-01-30T14:13:48.5226646+01:00",
+  "DbiKey": "omnis",
+  "DbiLastModified": "2000-05-04T14:13:48.5226646+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 397,
-  "ActiveErpLinks": 131,
+  "Source": 279,
+  "ActiveErpLinks": 764,
   "BounceEmails": [
-    "loren@huel.co.uk",
-    "isidro.tillman@friesen.name"
+    "scottie.connelly@oconner.info",
+    "vivian@harris.info"
   ],
   "Domains": [
-    "non",
-    "doloremque"
+    "dolorum",
+    "deleniti"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "351651196",
-    "SuperOffice:2": "Myron Skyla Christiansen IV"
+    "SuperOffice:1": "Dr. Susie Jedediah Bednar",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
+    "ExtraFields1": "enim",
     "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "magnam",
+    "CustomFields2": "voluptates"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

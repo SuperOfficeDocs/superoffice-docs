@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Wisozk, Borer and Harber",
-    "ToolTip": "Et eius voluptates et numquam non.",
-    "Deleted": true,
-    "Rank": 849,
-    "Type": "iure",
-    "ColorBlock": 635,
-    "IconHint": "neque",
+    "Id": 456,
+    "Name": "Kuphal, Mayert and Roob",
+    "ToolTip": "Nulla maxime ab harum dolore accusamus laborum.",
+    "Deleted": false,
+    "Rank": 840,
+    "Type": "repellendus",
+    "ColorBlock": 18,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2024-11-23T12:01:33.4801008+01:00",
+    "LastChanged": "2001-06-23T14:13:49.9167536+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Brekke Inc and Sons",
-        "ToolTip": "Consequuntur consequuntur magni enim possimus et illum.",
+        "Id": 653,
+        "Name": "Volkman-Haag",
+        "ToolTip": "Nihil aperiam temporibus velit blanditiis facere.",
         "Deleted": false,
-        "Rank": 344,
-        "Type": "perferendis",
-        "ColorBlock": 394,
-        "IconHint": "quas",
+        "Rank": 903,
+        "Type": "sit",
+        "ColorBlock": 636,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2010-06-02T12:01:33.4801008+02:00",
+        "LastChanged": "2003-02-25T14:13:49.9167536+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
+        "ExtraInfo": "ipsa",
         "StyleHint": "voluptatibus",
         "Hidden": false,
-        "FullName": "Ms. Brooklyn Bruen"
+        "FullName": "Anya Kirstin Franecki I"
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "ea",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "adipisci",
     "Hidden": false,
-    "FullName": "Colten Baumbach"
+    "FullName": "Edgar Effertz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Heathcote LLC",
-    "ToolTip": "Laboriosam adipisci qui saepe quod animi eligendi necessitatibus.",
+    "Id": 408,
+    "Name": "Zieme-VonRueden",
+    "ToolTip": "Et qui.",
     "Deleted": false,
-    "Rank": 753,
-    "Type": "est",
-    "ColorBlock": 115,
+    "Rank": 395,
+    "Type": "sit",
+    "ColorBlock": 218,
     "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2015-08-16T12:01:33.4801008+02:00",
+    "LastChanged": "2012-05-08T14:13:49.9167536+02:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Hane Group",
-        "ToolTip": "Error provident eius quo natus quod laborum cupiditate.",
+        "Id": 390,
+        "Name": "Toy-Bogisich",
+        "ToolTip": "Dicta voluptatibus nobis mollitia praesentium odit natus.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "qui",
-        "ColorBlock": 830,
-        "IconHint": "molestias",
+        "Rank": 282,
+        "Type": "animi",
+        "ColorBlock": 461,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2019-02-23T12:01:33.4801008+01:00",
+        "LastChanged": "2016-07-19T14:13:49.9167536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Jaylon Eichmann",
+        "ExtraInfo": "autem",
+        "StyleHint": "hic",
+        "Hidden": true,
+        "FullName": "Janae Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 874
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "ea",
-    "Hidden": false,
-    "FullName": "Ms. Gregoria Miller IV",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Wilmer Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 920
+        "FieldType": "System.String",
+        "FieldLength": 436
       }
     }
   }

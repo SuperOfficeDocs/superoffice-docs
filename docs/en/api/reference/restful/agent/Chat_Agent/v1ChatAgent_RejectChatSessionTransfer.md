@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 215
+  "ChatSessionId": 948
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 377,
-  "TopicId": 877,
+  "ChatSessionId": 219,
+  "TopicId": 518,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dicta",
-  "CustomerHost": "et",
-  "CustomerName": "Renner-Miller",
-  "CustomerEmail": "marietta.wehner@gibson.info",
-  "CustomerPhone": "682.436.5173",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Sanford, Stokes and Abshire",
+  "CustomerAlias": "reiciendis",
+  "CustomerHost": "ipsum",
+  "CustomerName": "Strosin-Bartell",
+  "CustomerEmail": "khalid_jenkins@bahringerhoppe.co.uk",
+  "CustomerPhone": "1-839-258-5070 x4163",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bruen-Lind",
   "Status": "Closed",
-  "FirstMessage": "culpa",
-  "LastMessage": "ipsum",
-  "WhenRequested": "1998-02-18T12:01:27.4158812+01:00",
-  "WhenStarted": "2001-02-19T12:01:27.4158812+01:00",
-  "WhenEnded": "2014-04-10T12:01:27.4158812+02:00",
-  "WhenIdle": "2019-07-08T12:01:27.4158812+02:00",
-  "WhenFetched": "2011-12-27T12:01:27.4158812+01:00",
-  "SessionKey": "pariatur",
-  "InitialQueuePos": 416,
-  "AlertLevel": 129,
-  "Rank": 809,
+  "FirstMessage": "quis",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2019-05-25T14:13:39.6722896+02:00",
+  "WhenStarted": "2001-09-13T14:13:39.6722896+02:00",
+  "WhenEnded": "2020-10-26T14:13:39.6722896+01:00",
+  "WhenIdle": "1997-10-09T14:13:39.6722896+02:00",
+  "WhenFetched": "2017-04-02T14:13:39.6722896+02:00",
+  "SessionKey": "iure",
+  "InitialQueuePos": 69,
+  "AlertLevel": 881,
+  "Rank": 424,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 794,
+  "Rating": 766,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 914
     }
   }
 }

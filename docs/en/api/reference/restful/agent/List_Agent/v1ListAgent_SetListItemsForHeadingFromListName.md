@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Veum, Cronin and Monahan",
-  "HeadingId": 555,
+  "UdListDefinitionName": "Stamm Group",
+  "HeadingId": 190,
   "ListItemIds": [
-    607,
-    207
+    185,
+    618
   ],
   "Enable": false
 }

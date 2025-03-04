@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "repellendus",
+  "CRMScriptUniqueId": "voluptates",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "eveniet"
+    "InputValues1": "dicta",
+    "InputValues2": "explicabo"
   },
-  "BlockExecution": true,
-  "NavigateTo": "ut",
-  "Message": "esse",
-  "ShowDialog": "earum",
+  "BlockExecution": false,
+  "NavigateTo": "aut",
+  "Message": "quidem",
+  "ShowDialog": "officia",
   "OutputValues": {
-    "OutputValues1": "quam",
-    "OutputValues2": "assumenda"
+    "OutputValues1": "esse",
+    "OutputValues2": "libero"
   },
   "StateValues": {
-    "StateValues1": "rem",
-    "StateValues2": "expedita"
+    "StateValues1": "vel",
+    "StateValues2": "qui"
   },
-  "Exception": "aut",
+  "Exception": "id",
   "ParserValues": {
-    "ParserValues1": "distinctio",
-    "ParserValues2": "ipsum"
+    "ParserValues1": "voluptatem",
+    "ParserValues2": "voluptatem"
   },
   "CgiVariables": {
-    "CgiVariables1": "tempora",
-    "CgiVariables2": "quia"
+    "CgiVariables1": "libero",
+    "CgiVariables2": "sint"
   },
-  "CgiContent": "a",
+  "CgiContent": "expedita",
   "Headers": {
-    "Headers1": "commodi",
-    "Headers2": "deleniti"
+    "Headers1": "numquam",
+    "Headers2": "rerum"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   }
 }

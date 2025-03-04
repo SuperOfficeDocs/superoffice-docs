@@ -93,28 +93,28 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Hauck-Johns",
-  "ListItemId": 811,
+  "UdListDefinitionName": "Bogan-Erdman",
+  "ListItemId": 328,
   "Headings": [
     {
-      "Id": 305,
-      "Name": "Hansen, Hayes and Renner",
-      "ToolTip": "Beatae dolores facere quas.",
-      "Deleted": true,
-      "Rank": 293,
-      "Type": "quidem",
-      "ColorBlock": 600,
-      "IconHint": "ab",
+      "Id": 410,
+      "Name": "Yost LLC",
+      "ToolTip": "Eos et qui ea.",
+      "Deleted": false,
+      "Rank": 26,
+      "Type": "earum",
+      "ColorBlock": 306,
+      "IconHint": "nemo",
       "Selected": false,
-      "LastChanged": "1998-04-10T12:01:27.9471677+02:00",
+      "LastChanged": "2001-08-10T14:13:40.4847118+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "perspiciatis",
-      "StyleHint": "aliquam",
-      "Hidden": false,
-      "FullName": "Marguerite DuBuque"
+      "ExtraInfo": "magni",
+      "StyleHint": "aut",
+      "Hidden": true,
+      "FullName": "Iva Veum"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 744,
-    "Name": "Bauch-Lindgren",
-    "ToolTip": "Nobis odio et non.",
-    "Deleted": true,
-    "Rank": 225,
-    "Type": "laudantium",
-    "ColorBlock": 573,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2020-08-27T12:01:27.9471677+02:00",
+    "Id": 104,
+    "Name": "Veum, Dibbert and Marvin",
+    "ToolTip": "Ipsa aut.",
+    "Deleted": false,
+    "Rank": 918,
+    "Type": "labore",
+    "ColorBlock": 189,
+    "IconHint": "dolorum",
+    "Selected": true,
+    "LastChanged": "2003-04-19T14:13:40.4847118+02:00",
     "ChildItems": [
       {
-        "Id": 634,
-        "Name": "O'Reilly, Pouros and McCullough",
-        "ToolTip": "Voluptatibus id quae animi cum.",
+        "Id": 953,
+        "Name": "Ruecker, Botsford and Armstrong",
+        "ToolTip": "Incidunt perferendis eligendi cum.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "rerum",
-        "ColorBlock": 338,
-        "IconHint": "in",
+        "Rank": 542,
+        "Type": "minus",
+        "ColorBlock": 377,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2006-02-23T12:01:27.9471677+01:00",
+        "LastChanged": "2013-05-15T14:13:40.4847118+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "sequi",
+        "ExtraInfo": "rerum",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Loma Carter",
+        "FullName": "Meghan Mario Swift Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 364
+            "FieldLength": 144
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "enim",
+    "ExtraInfo": "non",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Rosetta Harvey",
+    "FullName": "Ms. Humberto Pouros DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 732
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   }

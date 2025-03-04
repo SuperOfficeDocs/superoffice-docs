@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "sunt",
-  "MinDate": "2012-12-16T12:01:28.1190543+01:00",
-  "MaxDate": "2009-12-19T12:01:28.1190543+01:00"
+  "LastHash": "suscipit",
+  "MinDate": "2010-11-17T14:13:40.9533555+01:00",
+  "MaxDate": "2003-10-06T14:13:40.9533555+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "dolorem",
+  "CallerIDHash": "dolorum",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 93,
-      "PersonId": 465,
-      "PersonName": "O'Kon-Weimann",
-      "Mrmrs": "voluptatibus",
-      "ContactId": 274,
-      "ContactName": "DuBuque Inc and Sons"
+      "DialInPrefix": 464,
+      "PersonId": 367,
+      "PersonName": "Rice Group",
+      "Mrmrs": "maxime",
+      "ContactId": 136,
+      "ContactName": "Schinner, Metz and Kohler"
     }
   ]
 }

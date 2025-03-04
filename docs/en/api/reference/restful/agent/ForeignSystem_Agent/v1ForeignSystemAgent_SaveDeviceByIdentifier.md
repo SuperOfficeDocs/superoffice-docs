@@ -88,9 +88,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Leannon, Blick and Fadel",
-  "DeviceName": "Deckow-Hettinger",
-  "DeviceIdentifier": "quae",
+  "ApplicationName": "Stamm Group",
+  "DeviceName": "Mohr LLC",
+  "DeviceIdentifier": "ut",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 191,
-  "Name": "Turner LLC",
-  "CreatedDate": "2008-03-05T12:01:27.9002891+01:00",
-  "UpdatedDate": "2021-03-20T12:01:27.9002891+01:00",
-  "AssociateFullName": "Jaida Elenor Rodriguez MD",
-  "CreatedBy": "facilis",
-  "UpdatedBy": "dolor",
-  "DeviceIdentifier": "velit",
-  "ForeignAppId": 452,
+  "ForeignDeviceId": 448,
+  "Name": "West-Gulgowski",
+  "CreatedDate": "2013-07-09T14:13:40.3909833+02:00",
+  "UpdatedDate": "2011-06-19T14:13:40.3909833+02:00",
+  "AssociateFullName": "Rosalind Lakin",
+  "CreatedBy": "ab",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "qui",
+  "ForeignAppId": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 558
     }
   }
 }

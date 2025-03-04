@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 321,
-  "Name": "Mohr, McGlynn and Mosciski",
-  "Tooltip": "ut",
+  "HeadingId": 199,
+  "Name": "Walter LLC",
+  "Tooltip": "quidem",
   "Deleted": false,
-  "Rank": 796,
-  "UdListDefinitionId": 973
+  "Rank": 679,
+  "UdListDefinitionId": 216
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 933,
-  "Name": "Schamberger, Nolan and Stoltenberg",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 313,
-  "UdListDefinitionId": 618,
+  "HeadingId": 510,
+  "Name": "Sauer LLC",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 577,
+  "UdListDefinitionId": 158,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldType": "System.String",
+      "FieldLength": 431
     }
   }
 }

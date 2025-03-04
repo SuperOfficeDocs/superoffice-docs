@@ -105,31 +105,31 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 387,
-  "Name": "Boyle-Buckridge",
-  "Tooltip": "quos",
+  "WebPanelId": 114,
+  "Name": "Morissette-Torp",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 421,
+  "Rank": 361,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSatellite": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Wolff-Weissnat",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Jakubowski-Turner",
   "Url": "http://www.example.com/",
-  "ProgId": "ut",
-  "Icon": 5,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ducimus",
+  "Icon": 473,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
 ```
@@ -141,11 +141,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 173,
-  "Name": "Abshire, Leuschke and Johns",
-  "Tooltip": "voluptates",
+  "WebPanelId": 684,
+  "Name": "Legros-Bogisich",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 916,
+  "Rank": 253,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
@@ -154,21 +154,21 @@ Content-Type: application/json; charset=utf-8
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "D'Amore-Larson",
+  "WindowName": "Zulauf Group",
   "Url": "http://www.example.com/",
-  "ProgId": "illum",
-  "Icon": 173,
+  "ProgId": "molestias",
+  "Icon": 271,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 331
     }
   }
 }

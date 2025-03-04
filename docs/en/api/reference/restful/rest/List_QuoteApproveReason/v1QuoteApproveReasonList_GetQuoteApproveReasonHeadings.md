@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 88,
-    "Name": "Maggio-Crona",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 193,
-    "UdListDefinitionId": 381,
+    "HeadingId": 946,
+    "Name": "VonRueden-Blick",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "Rank": 443,
+    "UdListDefinitionId": 488,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 797
+        "FieldType": "System.Int32",
+        "FieldLength": 473
       }
     }
   }

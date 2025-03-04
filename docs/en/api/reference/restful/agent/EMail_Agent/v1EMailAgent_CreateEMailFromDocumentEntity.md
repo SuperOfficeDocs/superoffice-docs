@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 418,
-      "ContactName": "Paucek, Gutmann and Towne",
-      "PersonId": 330,
-      "PersonName": "Stanton-Kessler",
-      "AssociateId": 306,
-      "Address": "molestiae",
-      "EmailId": 700,
+      "ContactId": 862,
+      "ContactName": "Yundt-Nikolaus",
+      "PersonId": 568,
+      "PersonName": "Cruickshank-Emard",
+      "AssociateId": 711,
+      "Address": "deleniti",
+      "EmailId": 156,
       "DuplicatePersonIds": [
-        753,
-        926
+        857,
+        956
       ],
-      "Name": "Jakubowski LLC",
+      "Name": "Sauer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldLength": 484
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 27,
-      "ContactName": "Hamill Inc and Sons",
-      "PersonId": 873,
-      "PersonName": "Bartoletti-Monahan",
-      "AssociateId": 589,
-      "Address": "eos",
-      "EmailId": 211,
+      "ContactId": 773,
+      "ContactName": "Connelly Group",
+      "PersonId": 85,
+      "PersonName": "Sanford-Aufderhar",
+      "AssociateId": 725,
+      "Address": "perferendis",
+      "EmailId": 936,
       "DuplicatePersonIds": [
-        972,
-        381
+        645,
+        49
       ],
-      "Name": "Skiles-Gerlach",
+      "Name": "Okuneva, Jewess and Willms",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 908
+          "FieldLength": 963
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 991,
-      "ContactName": "Reichel-Franecki",
-      "PersonId": 851,
-      "PersonName": "Murazik Group",
-      "AssociateId": 632,
-      "Address": "vel",
-      "EmailId": 456,
+      "ContactId": 446,
+      "ContactName": "Powlowski, Gerlach and Durgan",
+      "PersonId": 296,
+      "PersonName": "Glover, Padberg and Hauck",
+      "AssociateId": 193,
+      "Address": "officia",
+      "EmailId": 161,
       "DuplicatePersonIds": [
-        163,
-        442
+        565,
+        198
       ],
-      "Name": "Dooley, Jast and Carter",
+      "Name": "Frami, Crist and Bashirian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 268
+          "FieldLength": 398
         }
       }
     }
   ],
-  "Subject": "quo",
-  "HTMLBody": "quam",
+  "Subject": "aut",
+  "HTMLBody": "culpa",
   "From": null,
-  "Sent": "2007-06-26T12:01:27.8534108+02:00",
-  "Size": 564,
+  "Sent": "2010-01-16T14:13:40.2972545+01:00",
+  "Size": 777,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "vitae",
-  "PlainBody": "et",
+  "MessageID": "quia",
+  "PlainBody": "ipsum",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 183,
+  "ServerId": 921,
   "Attachments": [
     {
-      "Description": "Re-contextualized 6th generation instruction set",
-      "Filename": "quia",
-      "Size": 331,
-      "Type": "voluptatem",
-      "Encoding": "et",
-      "Id": "voluptates",
-      "Disposition": "ex",
+      "Description": "Versatile web-enabled concept",
+      "Filename": "nam",
+      "Size": 421,
+      "Type": "vel",
+      "Encoding": "non",
+      "Id": "atque",
+      "Disposition": "eos",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 3
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kunde LLC",
+      "Name": "Jerde, Jakubowski and Morar",
       "Values": [
-        "voluptatum",
-        "soluta"
+        "saepe",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 730
         }
       }
     },
     {
-      "Name": "Kunde LLC",
+      "Name": "Jerde, Jakubowski and Morar",
       "Values": [
-        "voluptatum",
-        "soluta"
+        "saepe",
+        "officia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldLength": 730
         }
       }
     }
   ],
-  "FolderName": "Runte Group",
-  "EmailItemId": 127,
-  "AccountId": 647,
-  "ReceivedAt": "2023-06-18T12:01:27.8534108+02:00",
+  "FolderName": "McLaughlin, Buckridge and Parker",
+  "EmailItemId": 477,
+  "AccountId": 679,
+  "ReceivedAt": "2017-11-07T14:13:40.2972545+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-04-01T12:01:27.8534108+02:00",
+  "RepliedAt": "2005-03-11T14:13:40.2972545+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldType": "System.String",
+      "FieldLength": 140
     }
   }
 }

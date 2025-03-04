@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 347,
-  "Name": "Walker Group",
-  "Tooltip": "omnis",
+  "Id": 319,
+  "Name": "Effertz Group",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 947,
+  "Rank": 478,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iste",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   },
   "_Links": {

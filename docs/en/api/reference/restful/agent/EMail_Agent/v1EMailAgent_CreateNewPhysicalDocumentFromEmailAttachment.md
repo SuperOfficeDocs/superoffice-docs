@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 814,
-  "EmailItemId": 703,
-  "AttachmentId": "aspernatur"
+  "DocumentId": 741,
+  "EmailItemId": 3,
+  "AttachmentId": "et"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 1001,
+  "DocumentId": 118,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "temporibus",
-  "Name": "Schoen, Bailey and Mann",
-  "OurRef": "tempore",
-  "YourRef": "hic",
-  "CreatedDate": "2023-12-28T12:01:27.7909064+01:00",
-  "UpdatedDate": "2017-07-05T12:01:27.7909064+02:00",
-  "Description": "Centralized object-oriented implementation",
+  "Attention": "quo",
+  "Header": "aut",
+  "Name": "White Group",
+  "OurRef": "ducimus",
+  "YourRef": "sed",
+  "CreatedDate": "2021-02-01T14:13:40.1879044+01:00",
+  "UpdatedDate": "2011-02-04T14:13:40.1879044+01:00",
+  "Description": "Devolved hybrid emulation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-10-19T12:01:27.7909064+02:00",
-  "ExternalRef": "et",
+  "Date": "2014-09-08T14:13:40.1879044+02:00",
+  "ExternalRef": "quibusdam",
   "Completed": "Completed",
-  "ActiveLinks": 611,
+  "ActiveLinks": 648,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sporer-Bailey",
-      "Id": 605,
-      "Description": "Function-based systematic analyzer",
-      "ExtraInfo": "totam",
-      "LinkId": 112,
+      "EntityName": "Johns, Kutch and Hegmann",
+      "Id": 26,
+      "Description": "De-engineered empowering groupware",
+      "ExtraInfo": "facilis",
+      "LinkId": 124,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 774
+          "FieldLength": 441
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 742,
-  "Snum": 334,
+  "SuggestedDocumentId": 684,
+  "Snum": 897,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Evie Maya Beer Sr."
+    "SuperOffice:1": "Prof. Alexandre Immanuel Langworth V",
+    "SuperOffice:2": "Patience Clementine Roberts Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "reiciendis",
-    "ExtraFields2": "at"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "aut",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2020-02-01T12:01:27.7909064+01:00",
-  "PublishTo": "1998-07-04T12:01:27.7909064+02:00",
-  "PublishFrom": "2020-03-02T12:01:27.7909064+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-06-22T14:13:40.1879044+02:00",
+  "PublishTo": "2004-10-16T14:13:40.1879044+02:00",
+  "PublishFrom": "2002-05-06T14:13:40.1879044+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 138,
+      "VisibleId": 537,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 685
         }
       }
     },
     {
-      "VisibleId": 138,
+      "VisibleId": 537,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 950
+          "FieldLength": 685
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 199
     }
   }
 }

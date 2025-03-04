@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686,
-  "UdListDefinitionId": 465
+  "Id": 67,
+  "UdListDefinitionId": 615
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 594,
-  "Name": "Ebert-Effertz",
-  "Tooltip": "delectus",
+  "Id": 538,
+  "Name": "Hane-White",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "UdListDefinitionId": 547,
-  "Rank": 57,
+  "UdListDefinitionId": 870,
+  "Rank": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 444
     }
   }
 }

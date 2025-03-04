@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=reiciendis
+GET /api/v1/List/ProductType/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Lubowitz LLC",
-    "ToolTip": "Voluptatem explicabo maiores esse ad eos.",
-    "Deleted": false,
-    "Rank": 702,
-    "Type": "aspernatur",
+    "Id": 882,
+    "Name": "Roberts-Jerde",
+    "ToolTip": "Reiciendis eos assumenda.",
+    "Deleted": true,
+    "Rank": 162,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Corkery Group",
-        "ToolTip": "Minima non quis dolorum ab ipsum.",
-        "Deleted": false,
-        "Rank": 260,
-        "Type": "iusto",
+        "Id": 707,
+        "Name": "Glover-Schulist",
+        "ToolTip": "Facilis consequatur voluptatem.",
+        "Deleted": true,
+        "Rank": 182,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "provident",
-        "ColorBlock": 498,
-        "ExtraInfo": "nulla",
-        "StyleHint": "eius",
-        "FullName": "Ms. Eino Curtis Daugherty",
+        "IconHint": "nesciunt",
+        "ColorBlock": 682,
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
+        "FullName": "Evelyn Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 642
           }
         }
       }
     ],
-    "IconHint": "in",
-    "ColorBlock": 990,
-    "ExtraInfo": "et",
-    "StyleHint": "tempore",
-    "FullName": "Elfrieda Collier",
+    "IconHint": "voluptas",
+    "ColorBlock": 763,
+    "ExtraInfo": "mollitia",
+    "StyleHint": "quo",
+    "FullName": "Caden Macie Doyle Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 382
       }
     }
   }

@@ -77,23 +77,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 643,
-  "TypeId": 124,
-  "StartDate": "2010-01-18T12:01:28.275316+01:00",
-  "Duration": 23,
-  "Description": "Phased uniform system engine",
-  "PriorityId": 642,
+  "ProjectId": 370,
+  "TypeId": 710,
+  "StartDate": "2020-12-12T14:13:41.2664827+01:00",
+  "Duration": 447,
+  "Description": "Open-architected needs-based synergy",
+  "PriorityId": 380,
   "VisibleFor": null,
   "Completed": "Completed",
-  "OwnerAssociateId": 780,
+  "OwnerAssociateId": 170,
   "SingleEntryOnEachCompany": false,
-  "SaleId": 722,
+  "SaleId": 402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 349
     }
   }
 }

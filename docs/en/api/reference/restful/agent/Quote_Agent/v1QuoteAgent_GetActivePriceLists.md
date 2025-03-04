@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 304,
-  "Currency": "quas"
+  "QuoteConnectionId": 978,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 862,
-    "ERPPriceListKey": "ut",
-    "QuoteConnectionId": 567,
-    "Name": "VonRueden, Langosh and Bogisich",
-    "Description": "Profit-focused dynamic Graphical User Interface",
-    "Currency": "odio",
-    "CurrencyName": "Altenwerth Group",
-    "ValidFrom": "2023-03-10T12:01:28.1971849+01:00",
-    "ValidTo": "2021-09-03T12:01:28.1971849+02:00",
-    "IsActive": true,
+    "PriceListId": 949,
+    "ERPPriceListKey": "eius",
+    "QuoteConnectionId": 618,
+    "Name": "Sanford-Ritchie",
+    "Description": "Polarised regional local area network",
+    "Currency": "quisquam",
+    "CurrencyName": "Treutel, Langosh and Collins",
+    "ValidFrom": "2014-10-18T14:13:41.1095702+02:00",
+    "ValidTo": "2009-11-01T14:13:41.1095702+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 113
+        "FieldLength": 50
       }
     }
   }

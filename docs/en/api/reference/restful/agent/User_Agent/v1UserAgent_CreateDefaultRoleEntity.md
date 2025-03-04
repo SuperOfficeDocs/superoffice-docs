@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 741,
-  "Name": "Hills, Baumbach and Bogan",
-  "Tooltip": "sit",
+  "RoleId": 103,
+  "Name": "Kautzer-Weimann",
+  "Tooltip": "voluptatibus",
   "RoleType": "Anonymous",
   "Deleted": 69,
-  "Rank": 668,
-  "Created": "2015-06-15T12:01:28.5722109+02:00",
-  "UseCategories": 800,
+  "Rank": 575,
+  "Created": "2005-05-15T14:13:41.6415043+02:00",
+  "UseCategories": 43,
   "CreatedBy": null,
-  "Updated": "2023-06-14T12:01:28.5722109+02:00",
+  "Updated": "2014-09-01T14:13:41.6415043+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

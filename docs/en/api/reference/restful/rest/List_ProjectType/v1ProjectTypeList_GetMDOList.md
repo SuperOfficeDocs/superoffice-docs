@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=fugit
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=qui
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 333,
-    "Name": "Grimes, Terry and Cole",
-    "ToolTip": "Voluptatum laborum omnis sint dolorem.",
+    "Id": 959,
+    "Name": "Koepp, Pollich and Luettgen",
+    "ToolTip": "Ducimus velit et sunt et aperiam ut.",
     "Deleted": true,
-    "Rank": 31,
-    "Type": "et",
+    "Rank": 253,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Beier, Walsh and Fadel",
-        "ToolTip": "Reprehenderit non voluptatem sequi nulla omnis.",
+        "Id": 625,
+        "Name": "Mills Group",
+        "ToolTip": "Soluta aut deserunt commodi odio odit.",
         "Deleted": false,
-        "Rank": 405,
-        "Type": "et",
+        "Rank": 128,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "beatae",
-        "ColorBlock": 470,
-        "ExtraInfo": "mollitia",
-        "StyleHint": "dolore",
-        "FullName": "Ryan Koch",
+        "IconHint": "quibusdam",
+        "ColorBlock": 601,
+        "ExtraInfo": "ut",
+        "StyleHint": "eum",
+        "FullName": "Otto Stracke I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 187
+            "FieldLength": 236
           }
         }
       }
     ],
-    "IconHint": "excepturi",
-    "ColorBlock": 420,
-    "ExtraInfo": "provident",
-    "StyleHint": "dolor",
-    "FullName": "Ms. Letha D'Amore",
+    "IconHint": "voluptatem",
+    "ColorBlock": 352,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "eius",
+    "FullName": "Cassandra O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldType": "System.String",
+        "FieldLength": 124
       }
     }
   }

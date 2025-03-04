@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/GetAccessToken
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "qui",
-  "IncludeCsSession": false
+  "AppToken": "sint",
+  "IncludeCsSession": true
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestiae"
+"doloremque"
 ```

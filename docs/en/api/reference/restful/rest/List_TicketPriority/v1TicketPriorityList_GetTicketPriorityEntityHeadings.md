@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 928,
-    "Name": "O'Keefe, Conn and Gutmann",
-    "Tooltip": "modi",
-    "Deleted": true,
-    "Rank": 865,
-    "UdListDefinitionId": 744,
+    "HeadingId": 391,
+    "Name": "Fritsch-Price",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 492,
+    "UdListDefinitionId": 401,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldLength": 428
       }
     }
   }

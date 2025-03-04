@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 658,
+  "HierarchyId": 361,
   "Domain": "Dashboards",
-  "Name": "Sipes, Mosciski and Schmitt",
-  "Fullname": "repellat",
-  "ParentId": 679,
+  "Name": "Stracke-Lakin",
+  "Fullname": "exercitationem",
+  "ParentId": 4,
   "Children": [
     {
-      "HierarchyId": 817,
+      "HierarchyId": 770,
       "Domain": "Dashboards",
-      "Name": "Cartwright-McCullough",
-      "Fullname": "dicta",
-      "ParentId": 793,
+      "Name": "Barton-Champlin",
+      "Fullname": "voluptatem",
+      "ParentId": 875,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-06-25T12:01:27.97842+02:00",
-      "RegisteredAssociateId": 790,
-      "Updated": "2000-01-24T12:01:27.97842+01:00",
-      "UpdatedAssociateId": 137,
+      "Registered": "2006-06-18T14:13:40.5315763+02:00",
+      "RegisteredAssociateId": 940,
+      "Updated": "2003-04-19T14:13:40.5315763+02:00",
+      "UpdatedAssociateId": 262,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 152
         }
       }
     }
   ],
-  "Registered": "2019-01-02T12:01:27.97842+01:00",
-  "RegisteredAssociateId": 599,
-  "Updated": "2001-02-10T12:01:27.97842+01:00",
-  "UpdatedAssociateId": 508,
+  "Registered": "2002-03-25T14:13:40.5315763+01:00",
+  "RegisteredAssociateId": 107,
+  "Updated": "2014-12-09T14:13:40.5315763+01:00",
+  "UpdatedAssociateId": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldLength": 4
     }
   }
 }

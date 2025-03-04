@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 892,
-  "Name": "Schowalter, Thiel and Lueilwitz",
-  "Description": "Streamlined dynamic application",
-  "DeltaJson": "amet",
+  "ConfigurableScreenDeltaId": 835,
+  "Name": "Gislason-Rice",
+  "Description": "Seamless attitude-oriented project",
+  "DeltaJson": "cum",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "animi",
-  "UpdatedDate": "2017-09-04T12:01:27.4471334+02:00",
-  "CreatedDate": "2002-10-30T12:01:27.4471334+01:00",
+  "RecipeId": "sit",
+  "UpdatedDate": "2007-01-08T14:13:39.719154+01:00",
+  "CreatedDate": "2020-06-26T14:13:39.719154+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    653,
-    420
+    883,
+    777
   ],
-  "AppliesToKey": "quo",
+  "AppliesToKey": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 427
     }
   }
 }

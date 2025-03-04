@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
+  "Id": 397,
   "Entities": [
     {
-      "HeadingId": 419,
-      "Name": "Walsh, Hilpert and Collins",
-      "Tooltip": "cupiditate",
-      "Deleted": true,
-      "Rank": 587,
-      "UdListDefinitionId": 959
+      "HeadingId": 183,
+      "Name": "Donnelly, Lueilwitz and Towne",
+      "Tooltip": "velit",
+      "Deleted": false,
+      "Rank": 222,
+      "UdListDefinitionId": 708
     },
     {
-      "HeadingId": 419,
-      "Name": "Walsh, Hilpert and Collins",
-      "Tooltip": "cupiditate",
-      "Deleted": true,
-      "Rank": 587,
-      "UdListDefinitionId": 959
+      "HeadingId": 183,
+      "Name": "Donnelly, Lueilwitz and Towne",
+      "Tooltip": "velit",
+      "Deleted": false,
+      "Rank": 222,
+      "UdListDefinitionId": 708
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 834,
-    "Name": "Barton LLC",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 70,
-    "UdListDefinitionId": 371,
+    "HeadingId": 225,
+    "Name": "Jewess-Dickens",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 886,
+    "UdListDefinitionId": 712,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 993
       }
     }
   }

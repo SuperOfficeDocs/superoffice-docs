@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 140,
-    "Name": "Frami Inc and Sons",
-    "ToolTip": "Voluptas provident.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "molestiae",
-    "ColorBlock": 928,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2007-04-28T12:01:33.5738574+02:00",
+    "Id": 518,
+    "Name": "Farrell Inc and Sons",
+    "ToolTip": "Deserunt cupiditate adipisci optio vero recusandae autem dolorum.",
+    "Deleted": true,
+    "Rank": 450,
+    "Type": "corporis",
+    "ColorBlock": 183,
+    "IconHint": "itaque",
+    "Selected": true,
+    "LastChanged": "2000-02-23T14:13:50.0719138+01:00",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Wisoky, Bradtke and O'Hara",
-        "ToolTip": "Assumenda ut similique nulla.",
+        "Id": 298,
+        "Name": "Wilderman Inc and Sons",
+        "ToolTip": "Iusto recusandae qui excepturi.",
         "Deleted": false,
-        "Rank": 537,
-        "Type": "consequatur",
-        "ColorBlock": 562,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2021-04-05T12:01:33.5738574+02:00",
+        "Rank": 752,
+        "Type": "quibusdam",
+        "ColorBlock": 284,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2012-05-30T14:13:50.0719138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "non",
+        "ExtraInfo": "sed",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Dr. Monroe Hoppe DDS"
+        "FullName": "Ms. Valentina Anderson IV"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "libero",
+    "ExtraInfo": "dolor",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Halle Greenholt"
+    "FullName": "Prof. Brenden Barton Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 39,
-    "Name": "Stoltenberg, Ziemann and Aufderhar",
-    "ToolTip": "Et asperiores quis at omnis officia iure.",
+    "Id": 118,
+    "Name": "Schiller Group",
+    "ToolTip": "Rerum et aut quia eveniet nisi officia.",
     "Deleted": false,
-    "Rank": 804,
-    "Type": "quibusdam",
-    "ColorBlock": 938,
-    "IconHint": "impedit",
+    "Rank": 625,
+    "Type": "facilis",
+    "ColorBlock": 777,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2004-05-14T12:01:33.5738574+02:00",
+    "LastChanged": "2005-07-29T14:13:50.0875321+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Schinner-Huel",
-        "ToolTip": "Corporis eaque praesentium a ut.",
+        "Id": 447,
+        "Name": "Schoen, Wuckert and Satterfield",
+        "ToolTip": "Qui vero est similique voluptatum a occaecati beatae.",
         "Deleted": false,
-        "Rank": 431,
-        "Type": "et",
-        "ColorBlock": 33,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2017-11-08T12:01:33.5738574+01:00",
+        "Rank": 961,
+        "Type": "aliquam",
+        "ColorBlock": 908,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "2010-12-17T14:13:50.0875321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Halie Wilkinson",
+        "FullName": "Mr. Josefina Mervin Hane II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 229
+            "FieldType": "System.String",
+            "FieldLength": 617
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "quasi",
-    "Hidden": false,
-    "FullName": "Ulices Kertzmann",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "minus",
+    "Hidden": true,
+    "FullName": "Lavon Verona Schiller Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 643
+        "FieldLength": 626
       }
     }
   }

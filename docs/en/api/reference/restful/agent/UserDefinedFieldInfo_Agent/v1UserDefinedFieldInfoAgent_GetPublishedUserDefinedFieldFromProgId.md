@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ea",
+  "ProgId": "velit",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 497,
-  "ColumnId": 94,
-  "FieldDefault": "aliquid",
-  "FieldHeight": 245,
-  "FieldLabel": "eveniet",
-  "FieldLeft": 747,
-  "FieldTop": 490,
+  "UDefFieldId": 762,
+  "ColumnId": 547,
+  "FieldDefault": "qui",
+  "FieldHeight": 441,
+  "FieldLabel": "nemo",
+  "FieldLeft": 931,
+  "FieldTop": 929,
   "FieldType": "Checkbox",
-  "FieldWidth": 14,
-  "FormatMask": "dolores",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 47,
-  "LabelLeft": 613,
-  "LabelTop": 726,
-  "LabelWidth": 805,
-  "LastVersionId": 192,
-  "ListTableId": 970,
-  "IsMandatory": false,
+  "FieldWidth": 102,
+  "FormatMask": "tempore",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 192,
+  "LabelLeft": 769,
+  "LabelTop": 126,
+  "LabelWidth": 817,
+  "LastVersionId": 638,
+  "ListTableId": 496,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 253,
-  "ProgId": "ut",
+  "Page1LineNo": 565,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "sed",
-  "TabOrder": 180,
-  "TextLength": 489,
-  "Tooltip": "reprehenderit",
-  "UdefIdentity": 83,
-  "UDListDefinitionId": 815,
+  "ShortLabel": "hic",
+  "TabOrder": 136,
+  "TextLength": 155,
+  "Tooltip": "esse",
+  "UdefIdentity": 481,
+  "UDListDefinitionId": 419,
   "Justification": "Center",
-  "Version": 606,
-  "TemplateVariableName": "Flatley Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Gleichner LLC",
+  "Version": 226,
+  "TemplateVariableName": "Medhurst-Lockman",
+  "HasBeenPublished": false,
+  "MdoListName": "Johnson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 442
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=865
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=747
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 8,
-  "Section": "quaerat",
-  "Key": "ut",
-  "Name": "Mueller LLC",
+  "PrefDescId": 324,
+  "Section": "ullam",
+  "Key": "nisi",
+  "Name": "White, Funk and Kassulke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Mandatory mission-critical contingency",
+  "Description": "Pre-emptive multimedia database",
   "IsBuiltin": false,
-  "TableName": "Boyle-Anderson",
-  "UserDefinedListId": 770,
-  "Rank": 824,
-  "SubGroup": "possimus",
-  "MinLevel": 103,
-  "MaxValue": 291,
-  "MinValue": 783,
-  "RequiredLicense": "dolorem",
+  "TableName": "Heaney LLC",
+  "UserDefinedListId": 685,
+  "Rank": 363,
+  "SubGroup": "laudantium",
+  "MinLevel": 362,
+  "MaxValue": 158,
+  "MinValue": 257,
+  "RequiredLicense": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 602
+      "FieldLength": 570
     }
   }
 }

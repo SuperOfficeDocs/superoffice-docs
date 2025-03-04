@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Renner, Predovic and Hodkiewicz",
-    "ToolTip": "Est porro doloremque repellendus magnam voluptates dolorum perspiciatis.",
-    "Deleted": false,
-    "Rank": 593,
-    "Type": "sunt",
-    "ColorBlock": 980,
-    "IconHint": "ut",
+    "Id": 345,
+    "Name": "Schuster Inc and Sons",
+    "ToolTip": "Tenetur reprehenderit qui est ut sunt.",
+    "Deleted": true,
+    "Rank": 817,
+    "Type": "doloremque",
+    "ColorBlock": 852,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2001-01-07T12:01:33.448849+01:00",
+    "LastChanged": "2000-11-12T14:13:49.7117421+01:00",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Howell-Bogisich",
-        "ToolTip": "Consequatur maxime nobis omnis harum quia minus ad.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "deleniti",
-        "ColorBlock": 339,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2024-05-01T12:01:33.448849+02:00",
+        "Id": 497,
+        "Name": "Hegmann LLC",
+        "ToolTip": "Et magni perferendis deleniti sit sint.",
+        "Deleted": true,
+        "Rank": 847,
+        "Type": "ullam",
+        "ColorBlock": 887,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2016-02-20T14:13:49.7117421+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Miss Loraine Carrie Stoltenberg",
+        "ExtraInfo": "magnam",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Wendell Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 68
+            "FieldType": "System.Int32",
+            "FieldLength": 714
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Miss Merlin Ramon Ward",
+    "ExtraInfo": "iste",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Burley Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 870
       }
     }
   }

@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "exercitationem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "exercitationem",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 458,
+  "DocumentId": 841,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "veniam",
-  "Header": "itaque",
-  "Name": "Upton-Klein",
-  "OurRef": "quo",
-  "YourRef": "quo",
-  "CreatedDate": "2014-11-09T12:01:32.8863099+01:00",
-  "UpdatedDate": "2004-03-20T12:01:32.8863099+01:00",
-  "Description": "Programmable well-modulated forecast",
+  "Attention": "nobis",
+  "Header": "dolorem",
+  "Name": "Runte Inc and Sons",
+  "OurRef": "quis",
+  "YourRef": "ut",
+  "CreatedDate": "2022-02-25T14:13:48.8212131+01:00",
+  "UpdatedDate": "2021-10-02T14:13:48.8212131+02:00",
+  "Description": "Secured methodical groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-04-23T12:01:32.8863099+02:00",
-  "ExternalRef": "nemo",
+  "Date": "2021-08-02T14:13:48.8212131+02:00",
+  "ExternalRef": "quaerat",
   "Completed": "Completed",
-  "ActiveLinks": 868,
+  "ActiveLinks": 457,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pouros Inc and Sons",
-      "Id": 944,
-      "Description": "Decentralized eco-centric architecture",
-      "ExtraInfo": "aut",
-      "LinkId": 827,
+      "EntityName": "Bins-Runolfsson",
+      "Id": 938,
+      "Description": "Organized clear-thinking concept",
+      "ExtraInfo": "tempora",
+      "LinkId": 894,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 536
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 687,
-  "Snum": 824,
+  "SuggestedDocumentId": 440,
+  "Snum": 804,
   "UserDefinedFields": {
-    "SuperOffice:1": "Estrella Katharina Veum MD",
-    "SuperOffice:2": "Johnny Funk"
+    "SuperOffice:1": "Camren Schuster",
+    "SuperOffice:2": "1419781434"
   },
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "est"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "aut"
+    "CustomFields1": "ab",
+    "CustomFields2": "velit"
   },
-  "PublishEventDate": "2023-09-24T12:01:32.8863099+02:00",
-  "PublishTo": "2006-07-13T12:01:32.8863099+02:00",
-  "PublishFrom": "2009-08-09T12:01:32.8863099+02:00",
+  "PublishEventDate": "2003-01-14T14:13:48.8212131+01:00",
+  "PublishTo": "2023-11-26T14:13:48.8212131+01:00",
+  "PublishFrom": "2012-10-09T14:13:48.8212131+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 32,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 773
         }
       }
     },
     {
-      "VisibleId": 32,
+      "VisibleId": 918,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 381
+          "FieldLength": 773
         }
       }
     }
@@ -255,13 +255,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 684
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

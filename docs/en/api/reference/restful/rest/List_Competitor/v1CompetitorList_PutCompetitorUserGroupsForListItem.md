@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Herzog, Volkman and Mosciski",
-    "ToolTip": "Occaecati ex unde illo officia quia nisi distinctio.",
-    "Deleted": false,
-    "Rank": 514,
-    "Type": "sint",
-    "ColorBlock": 702,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2002-10-09T12:01:33.448849+02:00",
+    "Id": 602,
+    "Name": "Strosin Group",
+    "ToolTip": "Unde quos unde aspernatur voluptatem.",
+    "Deleted": true,
+    "Rank": 1001,
+    "Type": "ipsum",
+    "ColorBlock": 795,
+    "IconHint": "cum",
+    "Selected": true,
+    "LastChanged": "2015-10-19T14:13:49.6804997+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Thompson, Grant and Douglas",
-        "ToolTip": "Quia ab quo omnis sit aut.",
-        "Deleted": false,
-        "Rank": 74,
-        "Type": "accusamus",
-        "ColorBlock": 739,
-        "IconHint": "delectus",
-        "Selected": false,
-        "LastChanged": "2010-11-28T12:01:33.448849+01:00",
+        "Id": 19,
+        "Name": "Funk LLC",
+        "ToolTip": "Eum et sit voluptatibus ut eveniet consequatur numquam.",
+        "Deleted": true,
+        "Rank": 328,
+        "Type": "quos",
+        "ColorBlock": 269,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2015-06-09T14:13:49.6804997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "dolore",
-        "Hidden": false,
-        "FullName": "Malika Flatley"
+        "ExtraInfo": "itaque",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Elisha Nicolas"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "quos",
+    "ExtraInfo": "quia",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Skylar Evangeline Kilback I"
+    "FullName": "Tomas Kovacek"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Oberbrunner-Simonis",
-    "ToolTip": "Ipsum eveniet sed.",
+    "Id": 561,
+    "Name": "Kling Inc and Sons",
+    "ToolTip": "Commodi molestias.",
     "Deleted": false,
-    "Rank": 855,
-    "Type": "rerum",
-    "ColorBlock": 98,
-    "IconHint": "ut",
+    "Rank": 807,
+    "Type": "sunt",
+    "ColorBlock": 154,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2019-01-06T12:01:33.448849+01:00",
+    "LastChanged": "1998-04-03T14:13:49.696121+02:00",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Rohan-Kirlin",
-        "ToolTip": "Earum quia.",
+        "Id": 620,
+        "Name": "Williamson, Miller and Waters",
+        "ToolTip": "Magnam culpa totam iure necessitatibus repellendus eos.",
         "Deleted": false,
-        "Rank": 957,
-        "Type": "molestias",
-        "ColorBlock": 682,
-        "IconHint": "odio",
+        "Rank": 354,
+        "Type": "enim",
+        "ColorBlock": 766,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-03-09T12:01:33.448849+01:00",
+        "LastChanged": "2008-04-25T14:13:49.696121+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "ut",
+        "ExtraInfo": "quae",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Emil Sipes",
+        "FullName": "Dr. Parker Sauer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 25
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "enim",
+    "ExtraInfo": "vel",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Prof. Cole Ferry",
+    "FullName": "Edwin Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 424
+        "FieldLength": 265
       }
     }
   }

@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 644
+  "SaleId": 716
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 303,
-  "SaleId": 595,
-  "QuoteConnectionId": 289,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "maiores",
-  "ActiveQuoteVersionId": 891,
-  "AcceptedQuoteAlternativeId": 313,
-  "UseValuesFromQuote": 681,
-  "DocumentId": 298,
-  "PoNumber": "564925",
-  "OrderComment": "sed",
-  "PreferredEmailCulture": "yesenia_johns@creminnolan.info",
+  "QuoteId": 922,
+  "SaleId": 446,
+  "QuoteConnectionId": 661,
+  "ERPQuoteKey": "quaerat",
+  "ERPOrderKey": "asperiores",
+  "ActiveQuoteVersionId": 946,
+  "AcceptedQuoteAlternativeId": 86,
+  "UseValuesFromQuote": 79,
+  "DocumentId": 895,
+  "PoNumber": "1343261",
+  "OrderComment": "laudantium",
+  "PreferredEmailCulture": "tristin_ritchie@effertz.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 468,
-      "ERPQuoteVersionKey": "qui",
-      "QuoteId": 389,
-      "Description": "Business-focused even-keeled interface",
-      "Number": "274960",
+      "QuoteVersionId": 934,
+      "ERPQuoteVersionKey": "consequuntur",
+      "QuoteId": 272,
+      "Description": "Progressive high-level data-warehouse",
+      "Number": "1092298",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 362,
-      "SentDate": "2021-12-10T12:01:28.1971849+01:00",
-      "FollowupId": 480,
-      "ExpirationDate": "2023-02-14T12:01:28.1971849+01:00",
-      "DeliveryCountryId": 171,
+      "LikelyQuoteAlternativeId": 202,
+      "SentDate": "2003-02-07T14:13:41.1251915+01:00",
+      "FollowupId": 228,
+      "ExpirationDate": "2014-06-21T14:13:41.1251915+02:00",
+      "DeliveryCountryId": 208,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 752,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "rerum",
-      "ERPPaymentTypeKey": "veritatis",
-      "ERPDeliveryTermsKey": "consequatur",
-      "ERPDeliveryTypeKey": "consequatur",
-      "Rank": 113,
-      "ApprovedBy": 589,
-      "ApprovedText": "non",
-      "ApprovedRegisteredBy": 405,
-      "ApprovedRegisteredDate": "2015-02-23T12:01:28.1971849+01:00",
-      "ExtraField1": "facere",
-      "ExtraField2": "ea",
-      "ExtraField3": "ad",
-      "ExtraField4": "esse",
-      "ExtraField5": "et",
-      "LastRecalculated": "2009-12-27T12:01:28.1971849+01:00",
-      "Updated": "2015-07-23T12:01:28.1971849+02:00",
-      "UpdatedAssociateId": 586,
-      "Registered": "2019-05-30T12:01:28.1971849+02:00",
-      "RegisteredAssociateId": 518,
-      "RequestAssociateId": 395,
-      "RequestComment": "porro",
+      "InvoiceCountryId": 627,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "autem",
+      "ERPPaymentTypeKey": "molestias",
+      "ERPDeliveryTermsKey": "voluptatem",
+      "ERPDeliveryTypeKey": "non",
+      "Rank": 215,
+      "ApprovedBy": 41,
+      "ApprovedText": "explicabo",
+      "ApprovedRegisteredBy": 302,
+      "ApprovedRegisteredDate": "2007-01-27T14:13:41.1251915+01:00",
+      "ExtraField1": "sapiente",
+      "ExtraField2": "occaecati",
+      "ExtraField3": "repellat",
+      "ExtraField4": "autem",
+      "ExtraField5": "iure",
+      "LastRecalculated": "2001-05-19T14:13:41.1251915+02:00",
+      "Updated": "2020-12-03T14:13:41.1251915+01:00",
+      "UpdatedAssociateId": 104,
+      "Registered": "2005-08-15T14:13:41.1251915+02:00",
+      "RegisteredAssociateId": 66,
+      "RequestAssociateId": 532,
+      "RequestComment": "soluta",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 911
+          "FieldLength": 34
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 322
     }
   }
 }

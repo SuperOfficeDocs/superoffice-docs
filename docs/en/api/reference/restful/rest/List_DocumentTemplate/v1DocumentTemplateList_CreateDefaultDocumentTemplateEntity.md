@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 253,
-  "Name": "Hagenes Group",
-  "Tooltip": "aperiam",
-  "SaveInDb": 397,
-  "Filename": "rerum",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 859,
+  "Name": "Mraz Group",
+  "Tooltip": "praesentium",
+  "SaveInDb": 923,
+  "Filename": "nisi",
+  "DefaultOref": "saepe",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 348,
-  "IntentId": 723,
-  "IsDefaultPublished": false,
-  "Rank": 472,
-  "LoadTemplateFromPlugin": 273,
-  "MimeType": "saepe",
+  "AutoeventId": 385,
+  "IntentId": 1002,
+  "IsDefaultPublished": true,
+  "Rank": 86,
+  "LoadTemplateFromPlugin": 670,
+  "MimeType": "eaque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 341,
+  "DocumentTypeKey": 108,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "kristian@grady.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "rusty_bartell@murazik.name",
+  "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "triston.kris@monahan.ca",
+  "SenderEmailAddress": "ibrahim.baumbach@torphy.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 282
     }
   }
 }

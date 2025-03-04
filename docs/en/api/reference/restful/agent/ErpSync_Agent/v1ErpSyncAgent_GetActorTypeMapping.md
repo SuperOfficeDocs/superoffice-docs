@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 500,
+  "ErpConnectionId": 83,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 477,
+  "ErpConnectionId": 740,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 71,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Schultz, Farrell and Ritchie",
-      "CrmDisplayTooltip": "odio",
-      "ErpFieldKey": "sit",
+      "ErpFieldId": 496,
+      "CrmFieldKey": "quod",
+      "CrmDisplayName": "Reilly LLC",
+      "CrmDisplayTooltip": "fuga",
+      "ErpFieldKey": "necessitatibus",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Durgan-Emmerich",
-      "ErpDisplayTooltip": "nostrum",
+      "ErpDisplayName": "Champlin-Streich",
+      "ErpDisplayTooltip": "similique",
       "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": false,
-      "AlreadyMapped": true,
+      "AlreadyMapped": false,
       "MissingInERP": false,
-      "MissingInCRM": false,
+      "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "a",
+      "ListReference": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldType": "System.Int32",
+          "FieldLength": 852
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 699
     }
   }
 }

@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Denesik Inc and Sons",
-  "AssociateId": 716,
-  "DetailsTable": 268,
-  "DetailsRecord": 579,
+  "Id": 252,
+  "Name": "Gutkowski Group",
+  "AssociateId": 582,
+  "DetailsTable": 784,
+  "DetailsRecord": 986,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "quod"
+    "ParameterObject1": "adipisci",
+    "ParameterObject2": "placeat"
   },
-  "LastStarted": "1998-12-02T12:01:28.2284376+01:00",
-  "Created": "2022-12-24T12:01:28.2284376+01:00",
-  "StartCount": 506,
-  "DatabaseSerialNumber": "1700048",
-  "Context": "corporis",
-  "Result": "quas",
+  "LastStarted": "2021-03-20T14:13:41.172056+01:00",
+  "Created": "2024-12-25T14:13:41.172056+01:00",
+  "StartCount": 406,
+  "DatabaseSerialNumber": "902795",
+  "Context": "aut",
+  "Result": "velit",
   "State": "All",
-  "Description": "Up-sized real-time process improvement",
-  "Response": "et",
-  "Request": "ut",
-  "ProgressDescription": "Multi-tiered foreground neural-net",
-  "ProgressPercent": 355,
-  "FileName": "Rutherford LLC",
+  "Description": "User-centric global toolset",
+  "Response": "accusamus",
+  "Request": "temporibus",
+  "ProgressDescription": "Realigned non-volatile local area network",
+  "ProgressPercent": 964,
+  "FileName": "Bosco, Willms and Stroman",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 537
     }
   }
 }

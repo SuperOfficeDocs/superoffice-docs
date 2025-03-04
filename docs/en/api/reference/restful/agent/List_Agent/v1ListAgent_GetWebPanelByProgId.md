@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ratione"
+  "ProgId": "tempora"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 404,
-  "Name": "Pollich Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 503,
+  "WebPanelId": 439,
+  "Name": "Reichel-Klein",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 794,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Beahan-Breitenberg",
+  "WindowName": "Boehm, Stehr and Schiller",
   "Url": "http://www.example.com/",
-  "ProgId": "impedit",
-  "Icon": 499,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "temporibus",
+  "Icon": 35,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

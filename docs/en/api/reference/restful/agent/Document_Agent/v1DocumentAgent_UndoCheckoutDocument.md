@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 258,
+  "DocumentId": 813,
   "AllowedReturnTypes": [
-    "accusamus",
-    "maiores"
+    "rerum",
+    "sit"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "commodi",
-  "VersionId": "non",
-  "Success": false,
+  "ExternalReference": "doloremque",
+  "VersionId": "velit",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "rerum",
-  "AdditionalInfo": "facere"
+  "Value": "distinctio",
+  "AdditionalInfo": "ab"
 }
 ```

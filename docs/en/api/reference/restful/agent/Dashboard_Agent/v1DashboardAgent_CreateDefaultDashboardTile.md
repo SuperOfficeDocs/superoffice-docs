@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 447,
-  "Caption": "at",
-  "Description": "Digitized needs-based policy",
-  "ChartName": "Hamill-Brown",
-  "ChartId": "enim",
-  "IsDefault": true,
-  "AssociateId": 306,
-  "GroupId": 228,
-  "SelectionId": 123,
-  "Config": "est",
+  "DashboardTileId": 182,
+  "Caption": "natus",
+  "Description": "Phased radical orchestration",
+  "ChartName": "Greenholt, Conn and Kunze",
+  "ChartId": "dolores",
+  "IsDefault": false,
+  "AssociateId": 344,
+  "GroupId": 622,
+  "SelectionId": 494,
+  "Config": "voluptates",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schumm-Gleichner",
-      "Description": "Pre-emptive web-enabled system engine",
+      "Name": "Wuckert-Yundt",
+      "Description": "Persevering composite info-mediaries",
       "Type": "Boolean",
-      "ListName": "Stanton, Monahan and O'Conner",
+      "ListName": "Osinski Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "perspiciatis",
-      "DefaultDataOption": true,
+      "Value": "excepturi",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 75
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 930,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 836
         }
       }
     },
     {
-      "VisibleId": 930,
+      "VisibleId": 409,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldLength": 836
         }
       }
     }
@@ -146,8 +146,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   }
 }

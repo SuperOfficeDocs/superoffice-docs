@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=341
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=343
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 913,
-  "Name": "Hackett-Schoen",
-  "CreatedDate": "2000-02-18T12:01:27.9002891+01:00",
-  "UpdatedDate": "2006-05-27T12:01:27.9002891+02:00",
-  "AssociateFullName": "Ms. Cydney Schowalter",
-  "CreatedBy": "voluptatem",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "atque",
-  "ForeignAppId": 490,
+  "ForeignDeviceId": 608,
+  "Name": "Hodkiewicz LLC",
+  "CreatedDate": "2000-02-05T14:13:40.3909833+01:00",
+  "UpdatedDate": "2020-01-18T14:13:40.3909833+01:00",
+  "AssociateFullName": "Lempi Anderson",
+  "CreatedBy": "aut",
+  "UpdatedBy": "ab",
+  "DeviceIdentifier": "sit",
+  "ForeignAppId": 207,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 795
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 337,
-  "Name": "Pouros-Muller",
-  "Tooltip": "et",
-  "Rank": 102,
-  "Rate": 12131.714,
-  "Units": 15742.082,
+  "CurrencyId": 170,
+  "Name": "Walker Group",
+  "Tooltip": "voluptatum",
+  "Rank": 838,
+  "Rate": 22718.365999999998,
+  "Units": 18753.856,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 168
     }
   }
 }

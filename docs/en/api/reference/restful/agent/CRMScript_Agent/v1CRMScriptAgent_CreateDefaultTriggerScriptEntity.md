@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 586,
-  "Name": "Schowalter-Skiles",
+  "ScreenChooserId": 551,
+  "Name": "Robel-Littel",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "enim",
-  "Registered": "2014-03-16T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 838,
-  "Updated": "2011-06-19T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 413,
+  "Enabled": false,
+  "UniqueIdentifier": "omnis",
+  "Source": "id",
+  "Registered": "2003-08-08T14:13:39.9067187+02:00",
+  "RegisteredAssociateId": 320,
+  "Updated": "2008-03-23T14:13:39.9067187+01:00",
+  "UpdatedAssociateId": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldLength": 146
     }
   }
 }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Gleason-Hoppe",
-    "ToolTip": "Error ullam quibusdam ut.",
+    "Id": 480,
+    "Name": "Lemke-Konopelski",
+    "ToolTip": "Est voluptatibus aut blanditiis.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "et",
-    "ColorBlock": 950,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2023-04-23T12:01:27.9159153+02:00",
+    "Rank": 203,
+    "Type": "numquam",
+    "ColorBlock": 263,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2012-08-29T14:13:40.4066046+02:00",
     "ChildItems": [
       {
-        "Id": 143,
-        "Name": "Halvorson Inc and Sons",
-        "ToolTip": "Omnis quibusdam quis exercitationem nostrum ex assumenda.",
-        "Deleted": false,
-        "Rank": 92,
-        "Type": "eum",
-        "ColorBlock": 900,
-        "IconHint": "totam",
+        "Id": 35,
+        "Name": "Grant, O'Keefe and Kshlerin",
+        "ToolTip": "Quidem unde.",
+        "Deleted": true,
+        "Rank": 570,
+        "Type": "eaque",
+        "ColorBlock": 27,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2011-07-26T12:01:27.9159153+02:00",
+        "LastChanged": "2005-09-25T14:13:40.4066046+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "vel",
+        "ExtraInfo": "sunt",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Charlie Zemlak II",
+        "FullName": "Marianna Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 767
+            "FieldType": "System.String",
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "doloremque",
-    "Hidden": true,
-    "FullName": "Eusebio Andy Bauch I",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Keyon Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 471
       }
     }
   }

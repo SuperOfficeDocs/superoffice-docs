@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 433,
-  "PlainMessage": "eaque",
-  "HtmlMessage": "et",
-  "SmsMessage": "asperiores",
-  "Description": "Innovative contextually-based matrix",
-  "Subject": "omnis",
-  "FolderId": 30,
-  "HeaderField": "sunt",
-  "Design": "velit",
+  "ShipmentMessageId": 9,
+  "PlainMessage": "nihil",
+  "HtmlMessage": "in",
+  "SmsMessage": "temporibus",
+  "Description": "Business-focused heuristic website",
+  "Subject": "voluptas",
+  "FolderId": 934,
+  "HeaderField": "ratione",
+  "Design": "dolores",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Distributed bottom-line website",
-  "AccessKey": "quaerat",
-  "DocumentMessage": 299,
-  "Registered": "2002-05-27T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 509,
-  "Updated": "2004-04-25T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 932,
-  "UpdatedCount": 583,
+  "InlineImages": true,
+  "LongDescription": "Cross-platform multi-state collaboration",
+  "AccessKey": "quia",
+  "DocumentMessage": 975,
+  "Registered": "2003-07-30T14:13:40.5628193+02:00",
+  "RegisteredAssociateId": 361,
+  "Updated": "2004-05-17T14:13:40.5628193+02:00",
+  "UpdatedAssociateId": 879,
+  "UpdatedCount": 445,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 154
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

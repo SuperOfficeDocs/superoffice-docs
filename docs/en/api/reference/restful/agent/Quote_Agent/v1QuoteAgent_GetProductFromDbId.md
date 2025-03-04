@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 823
+  "ProductId": 481
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 982,
-  "ERPProductKey": "nobis",
-  "ERPPriceListKey": "doloribus",
-  "Name": "Carroll, Spinka and Parker",
-  "Description": "Vision-oriented mobile firmware",
-  "Code": "quibusdam",
-  "PriceUnit": "blanditiis",
-  "QuantityUnit": "consectetur",
-  "IsSubscription": true,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 25651.79,
-  "ItemNumber": "696945",
+  "ProductId": 405,
+  "ERPProductKey": "sint",
+  "ERPPriceListKey": "nemo",
+  "Name": "Halvorson-Carroll",
+  "Description": "Enterprise-wide full-range attitude",
+  "Code": "quae",
+  "PriceUnit": "quos",
+  "QuantityUnit": "consequatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "eos",
+  "DefaultSubscriptionQuantity": 9370.66,
+  "ItemNumber": "964273",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolore",
-  "ProductTypeKey": "fugiat",
-  "VAT": 30631.716,
-  "VATInfo": "provident",
-  "UnitCost": 13335.17,
-  "UnitMinimumPrice": 30293.244,
-  "UnitListPrice": 6866.594,
-  "InAssortment": true,
-  "Supplier": "eligendi",
-  "SupplierCode": "animi",
-  "Rights": "mollitia",
-  "Rule": "consequuntur",
+  "ProductFamilyKey": "rerum",
+  "ProductTypeKey": "facere",
+  "VAT": 13426.055999999999,
+  "VATInfo": "nemo",
+  "UnitCost": 15905.05,
+  "UnitMinimumPrice": 20696.935999999998,
+  "UnitListPrice": 7806.794,
+  "InAssortment": false,
+  "Supplier": "rerum",
+  "SupplierCode": "molestiae",
+  "Rights": "vel",
+  "Rule": "mollitia",
   "ExtraInfo": [
     {
-      "Name": "Koss, Conn and Hilpert",
-      "Value": "non",
+      "Name": "Larson LLC",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldLength": 204
         }
       }
     },
     {
-      "Name": "Koss, Conn and Hilpert",
-      "Value": "non",
+      "Name": "Larson LLC",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 177
+          "FieldLength": 204
         }
       }
     }
   ],
-  "RawExtraInfo": "non",
-  "ExtraField1": "consequuntur",
-  "ExtraField2": "nihil",
-  "ExtraField3": "maiores",
-  "ExtraField4": "tenetur",
-  "ExtraField5": "eligendi",
-  "InStock": 2316.026,
+  "RawExtraInfo": "cumque",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "dignissimos",
+  "ExtraField3": "eligendi",
+  "ExtraField4": "facere",
+  "ExtraField5": "dolorum",
+  "InStock": 1755.04,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 512
     }
   }
 }

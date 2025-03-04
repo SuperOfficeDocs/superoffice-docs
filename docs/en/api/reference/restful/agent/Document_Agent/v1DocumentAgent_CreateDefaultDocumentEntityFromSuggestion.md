@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 650
+  "SuggestedDocumentId": 911
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 934,
+  "DocumentId": 13,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "vel",
-  "Header": "laudantium",
-  "Name": "Cummings-Luettgen",
-  "OurRef": "ut",
-  "YourRef": "sequi",
-  "CreatedDate": "2008-06-07T12:01:27.7596543+02:00",
-  "UpdatedDate": "2005-01-07T12:01:27.7596543+01:00",
-  "Description": "Open-source exuding complexity",
+  "Attention": "culpa",
+  "Header": "doloremque",
+  "Name": "Considine-Pacocha",
+  "OurRef": "dolorum",
+  "YourRef": "blanditiis",
+  "CreatedDate": "2001-01-04T14:13:40.1254187+01:00",
+  "UpdatedDate": "2013-05-21T14:13:40.1254187+02:00",
+  "Description": "Fundamental 4th generation hierarchy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-04-07T12:01:27.7596543+02:00",
-  "ExternalRef": "accusamus",
+  "Date": "1999-08-28T14:13:40.1410401+02:00",
+  "ExternalRef": "quod",
   "Completed": "Completed",
-  "ActiveLinks": 558,
+  "ActiveLinks": 532,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hoppe LLC",
-      "Id": 698,
-      "Description": "Visionary actuating synergy",
-      "ExtraInfo": "velit",
-      "LinkId": 282,
+      "EntityName": "Conn, Veum and Dickens",
+      "Id": 302,
+      "Description": "Up-sized reciprocal middleware",
+      "ExtraInfo": "dolores",
+      "LinkId": 970,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 667
+          "FieldLength": 255
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 877,
-  "Snum": 755,
+  "SuggestedDocumentId": 670,
+  "Snum": 309,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Emilie Charlene Conn",
-    "SuperOffice:2": "Cathrine Johnnie Marks V"
+    "SuperOffice:1": "1957616035",
+    "SuperOffice:2": "Obie Bartell"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "et"
+    "CustomFields1": "eum",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2020-02-03T12:01:27.7596543+01:00",
-  "PublishTo": "2004-09-18T12:01:27.7596543+02:00",
-  "PublishFrom": "2021-04-27T12:01:27.7596543+02:00",
+  "PublishEventDate": "2001-12-06T14:13:40.1410401+01:00",
+  "PublishTo": "2009-09-30T14:13:40.1410401+02:00",
+  "PublishFrom": "1999-01-27T14:13:40.1410401+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 928,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 450
+          "FieldLength": 208
         }
       }
     },
     {
-      "VisibleId": 928,
+      "VisibleId": 992,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 450
+          "FieldLength": 208
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 578
+      "FieldLength": 689
     }
   }
 }

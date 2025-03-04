@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 243
+  "QuoteLineConfigurationId": 673
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 424,
-  "FieldName": "Jacobi LLC",
-  "Label": "officiis",
-  "Tooltip": "consequatur",
-  "Editable": true,
+  "QuoteLineConfigurationId": 956,
+  "FieldName": "Skiles-Mante",
+  "Label": "modi",
+  "Tooltip": "quam",
+  "Editable": false,
   "InUse": false,
-  "Mandatory": true,
-  "Rank": 393,
-  "RestrictEdit": false,
+  "Mandatory": false,
+  "Rank": 862,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 928
     }
   }
 }

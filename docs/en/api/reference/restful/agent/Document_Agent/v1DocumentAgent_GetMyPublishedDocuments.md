@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 437,
-    "Attention": "fugit",
-    "Header": "est",
-    "Name": "Jenkins-Weber",
-    "OurRef": "nemo",
-    "YourRef": "delectus",
-    "Description": "Advanced value-added initiative",
-    "DocumentTemplate": "nostrum",
+    "DocumentId": 399,
+    "Attention": "totam",
+    "Header": "et",
+    "Name": "Deckow LLC",
+    "OurRef": "odio",
+    "YourRef": "magni",
+    "Description": "Mandatory motivating capacity",
+    "DocumentTemplate": "velit",
     "IsPublished": true,
-    "PersonId": 818,
-    "PersonFullName": "Dr. Mario Robel",
-    "AssociateFullName": "Sadye Dooley",
-    "ContactId": 55,
-    "ContactName": "Reichert-Marquardt",
-    "ProjectId": 654,
-    "ProjectName": "Windler-Langworth",
-    "AssociateId": 765,
-    "Snum": 54,
-    "SaleId": 950,
-    "SaleName": "Spinka Inc and Sons",
+    "PersonId": 980,
+    "PersonFullName": "Prof. Tyree Kayli Johns DDS",
+    "AssociateFullName": "Janet Hudson",
+    "ContactId": 585,
+    "ContactName": "Little Group",
+    "ProjectId": 391,
+    "ProjectName": "Watsica LLC",
+    "AssociateId": 221,
+    "Snum": 174,
+    "SaleId": 628,
+    "SaleName": "O'Connell-Rogahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

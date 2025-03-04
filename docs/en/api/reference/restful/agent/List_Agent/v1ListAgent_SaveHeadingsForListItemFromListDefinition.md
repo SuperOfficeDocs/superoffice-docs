@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 851,
-  "ListItemId": 607,
+  "UdListDefinitionId": 647,
+  "ListItemId": 656,
   "Headings": [
     {
-      "Id": 479,
-      "Name": "Heaney Group",
-      "ToolTip": "Quis voluptas.",
-      "Deleted": true,
-      "Rank": 443,
-      "Type": "dignissimos",
-      "ColorBlock": 82,
-      "IconHint": "nam",
+      "Id": 924,
+      "Name": "Wiza Inc and Sons",
+      "ToolTip": "Aut dolor.",
+      "Deleted": false,
+      "Rank": 231,
+      "Type": "suscipit",
+      "ColorBlock": 404,
+      "IconHint": "similique",
       "Selected": true,
-      "LastChanged": "2021-12-07T12:01:27.9471677+01:00",
+      "LastChanged": "2019-08-12T14:13:40.4847118+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "itaque",
+      "ExtraInfo": "et",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Aubrey Gibson"
+      "FullName": "Sonia Skiles"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Heidenreich, Batz and Shanahan",
-    "ToolTip": "Iusto est ea.",
+    "Id": 690,
+    "Name": "McKenzie-Stark",
+    "ToolTip": "Et delectus repellat.",
     "Deleted": true,
-    "Rank": 460,
-    "Type": "consectetur",
-    "ColorBlock": 424,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2008-12-29T12:01:27.9471677+01:00",
+    "Rank": 486,
+    "Type": "labore",
+    "ColorBlock": 699,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "2003-11-25T14:13:40.4847118+01:00",
     "ChildItems": [
       {
-        "Id": 185,
-        "Name": "Koch LLC",
-        "ToolTip": "Neque ut reiciendis.",
+        "Id": 468,
+        "Name": "Schowalter, Miller and Marks",
+        "ToolTip": "Et non eius non quis vitae.",
         "Deleted": false,
-        "Rank": 679,
-        "Type": "temporibus",
-        "ColorBlock": 651,
-        "IconHint": "harum",
+        "Rank": 999,
+        "Type": "voluptatem",
+        "ColorBlock": 990,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2009-09-17T12:01:27.9471677+02:00",
+        "LastChanged": "2011-12-07T14:13:40.4847118+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "sunt",
+        "StyleHint": "maxime",
         "Hidden": false,
-        "FullName": "Marianne Ankunding",
+        "FullName": "Micaela Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 1002
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "ab",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Elliott Herzog",
+    "FullName": "Mustafa Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 51
+        "FieldType": "System.Int32",
+        "FieldLength": 367
       }
     }
   }

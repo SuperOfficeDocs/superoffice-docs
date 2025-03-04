@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 233,
-  "ParentId": 594,
-  "Name": "Kautzer-Robel",
-  "Fullname": "et",
-  "CategoryMaster": 906,
+  "TicketCategoryId": 494,
+  "ParentId": 547,
+  "Name": "Wehner Group",
+  "Fullname": "sed",
+  "CategoryMaster": 613,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Purdy Group",
+  "ExternalName": "Jerde LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 281,
-  "ReplyTemplate": 117,
-  "NotificationEmail": "gennaro@lockmankerluke.com",
+  "AssignmentLag": 752,
+  "ReplyTemplate": 561,
+  "NotificationEmail": "ruby.wolff@nikolaus.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 978,
+  "EffectiveReplyTemplateId": 260,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "omnis"
+    "CustomFields1": "nihil",
+    "CustomFields2": "autem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 688
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

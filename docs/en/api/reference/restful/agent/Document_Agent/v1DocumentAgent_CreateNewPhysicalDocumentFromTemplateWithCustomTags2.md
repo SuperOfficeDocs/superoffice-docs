@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 849,
-  "PersonId": 578,
-  "AppointmentId": 215,
-  "DocumentId": 567,
-  "SaleId": 529,
-  "SelectionId": 797,
-  "ProjectId": 313,
+  "ContactId": 488,
+  "PersonId": 528,
+  "AppointmentId": 632,
+  "DocumentId": 353,
+  "SaleId": 696,
+  "SelectionId": 696,
+  "ProjectId": 1000,
   "CustomTags": {
-    "CustomTags1": "error",
-    "CustomTags2": "ad"
+    "CustomTags1": "rem",
+    "CustomTags2": "cumque"
   },
-  "UiCulture": "adipisci"
+  "UiCulture": "sapiente"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 74,
+  "DocumentId": 59,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "a",
-  "Header": "omnis",
-  "Name": "Lowe-Ondricka",
-  "OurRef": "sit",
-  "YourRef": "delectus",
-  "CreatedDate": "2021-05-23T12:01:27.7440229+02:00",
-  "UpdatedDate": "2019-09-05T12:01:27.7440229+02:00",
-  "Description": "Implemented mission-critical workforce",
+  "Attention": "quam",
+  "Header": "sit",
+  "Name": "Krajcik Inc and Sons",
+  "OurRef": "aliquam",
+  "YourRef": "iure",
+  "CreatedDate": "2004-02-11T14:13:40.1097972+01:00",
+  "UpdatedDate": "2008-12-28T14:13:40.1097972+01:00",
+  "Description": "Face to face needs-based moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-03-14T12:01:27.7440229+01:00",
-  "ExternalRef": "doloribus",
+  "Date": "2016-09-04T14:13:40.1097972+02:00",
+  "ExternalRef": "aliquam",
   "Completed": "Completed",
-  "ActiveLinks": 885,
+  "ActiveLinks": 104,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johns, Keebler and Huels",
-      "Id": 528,
-      "Description": "Front-line bottom-line migration",
-      "ExtraInfo": "voluptates",
-      "LinkId": 421,
+      "EntityName": "Reichert-Mitchell",
+      "Id": 118,
+      "Description": "Front-line holistic standardization",
+      "ExtraInfo": "consequatur",
+      "LinkId": 781,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 453
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 699,
-  "Snum": 313,
+  "SuggestedDocumentId": 366,
+  "Snum": 490,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Eleazar Johnston"
+    "SuperOffice:1": "Elissa Wunsch",
+    "SuperOffice:2": "Dr. Rigoberto Schuppe MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "adipisci"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eaque"
+    "CustomFields1": "aut",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2024-05-22T12:01:27.7440229+02:00",
-  "PublishTo": "2015-11-03T12:01:27.7440229+01:00",
-  "PublishFrom": "2004-01-27T12:01:27.7440229+01:00",
+  "PublishEventDate": "2023-02-08T14:13:40.1097972+01:00",
+  "PublishTo": "2021-09-11T14:13:40.1097972+02:00",
+  "PublishFrom": "2013-02-10T14:13:40.1097972+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 160,
+      "VisibleId": 940,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 409
         }
       }
     },
     {
-      "VisibleId": 160,
+      "VisibleId": 940,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldLength": 409
         }
       }
     }
@@ -233,7 +233,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 457
     }
   }
 }

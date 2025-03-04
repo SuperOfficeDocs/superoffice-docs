@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686
+  "Id": 455
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Hills, Bernier and Ruecker",
-  "AssociateId": 93,
-  "DetailsTable": 233,
-  "DetailsRecord": 656,
+  "Id": 55,
+  "Name": "Harris Inc and Sons",
+  "AssociateId": 31,
+  "DetailsTable": 569,
+  "DetailsRecord": 907,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "veritatis",
-    "ParameterObject2": "dolores"
+    "ParameterObject1": "fugit",
+    "ParameterObject2": "molestiae"
   },
-  "LastStarted": "2024-07-03T12:01:27.3377499+02:00",
-  "Created": "2020-03-02T12:01:27.3377499+01:00",
-  "StartCount": 751,
-  "DatabaseSerialNumber": "1023876",
-  "Context": "quaerat",
-  "Result": "qui",
+  "LastStarted": "2015-09-26T14:13:39.3911033+02:00",
+  "Created": "2011-02-21T14:13:39.3911033+01:00",
+  "StartCount": 913,
+  "DatabaseSerialNumber": "1210442",
+  "Context": "laudantium",
+  "Result": "tempore",
   "State": "All",
-  "Description": "Synergistic web-enabled customer loyalty",
-  "Response": "sapiente",
-  "Request": "quos",
-  "ProgressDescription": "Digitized content-based definition",
-  "ProgressPercent": 853,
-  "FileName": "Sawayn Inc and Sons",
+  "Description": "Secured mobile flexibility",
+  "Response": "soluta",
+  "Request": "qui",
+  "ProgressDescription": "Front-line next generation budgetary management",
+  "ProgressPercent": 371,
+  "FileName": "Metz, Jacobson and Borer",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   }
 }

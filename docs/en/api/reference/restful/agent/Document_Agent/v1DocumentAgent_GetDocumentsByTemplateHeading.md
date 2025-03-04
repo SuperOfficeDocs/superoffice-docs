@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Document/GetDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateHeadingId": 476
+  "TemplateHeadingId": 956
 }
 ```
 
@@ -110,32 +110,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 198,
-    "Attention": "deleniti",
-    "Header": "dolores",
-    "Name": "Collier, Satterfield and Littel",
-    "OurRef": "aut",
-    "YourRef": "placeat",
-    "Description": "Realigned modular knowledge user",
-    "DocumentTemplate": "esse",
-    "IsPublished": true,
-    "PersonId": 972,
-    "PersonFullName": "Rico Stanton",
-    "AssociateFullName": "Jamey Schneider III",
-    "ContactId": 876,
-    "ContactName": "Quigley-Kozey",
-    "ProjectId": 891,
-    "ProjectName": "Ritchie LLC",
-    "AssociateId": 811,
-    "Snum": 210,
-    "SaleId": 720,
-    "SaleName": "McCullough-Runte",
+    "DocumentId": 398,
+    "Attention": "ut",
+    "Header": "repudiandae",
+    "Name": "Tillman, Corwin and Kub",
+    "OurRef": "assumenda",
+    "YourRef": "aut",
+    "Description": "Decentralized multi-tasking product",
+    "DocumentTemplate": "adipisci",
+    "IsPublished": false,
+    "PersonId": 285,
+    "PersonFullName": "Mrs. Norberto O'Hara",
+    "AssociateFullName": "Talia Cruickshank",
+    "ContactId": 220,
+    "ContactName": "Lueilwitz-Pfeffer",
+    "ProjectId": 999,
+    "ProjectName": "Connelly, Mertz and Kovacek",
+    "AssociateId": 483,
+    "Snum": 620,
+    "SaleId": 73,
+    "SaleName": "Johnston, Bartoletti and Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 234
+        "FieldLength": 385
       }
     }
   }

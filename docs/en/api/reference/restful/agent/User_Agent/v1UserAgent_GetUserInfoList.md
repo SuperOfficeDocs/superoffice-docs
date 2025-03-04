@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Deleted": false,
-    "UserInfoId": 545,
-    "UserName": "Friesen, Gutmann and Larkin",
-    "PersonId": 576,
-    "Rank": 860,
-    "Tooltip": "aut",
-    "UserGroupId": 408,
-    "EjUserId": 256,
+    "Deleted": true,
+    "UserInfoId": 886,
+    "UserName": "Treutel-Metz",
+    "PersonId": 925,
+    "Rank": 230,
+    "Tooltip": "nam",
+    "UserGroupId": 900,
+    "EjUserId": 281,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "voluptatem",
-      "voluptate"
+      "eos",
+      "ducimus"
     ],
-    "CanLogon": true,
-    "RoleName": "Kozey-Bradtke",
-    "RoleTooltip": "porro",
-    "UserGroupName": "Pollich, Herman and Gleichner",
-    "UserGroupTooltip": "ipsum",
+    "CanLogon": false,
+    "RoleName": "Gulgowski, Bartoletti and Bosco",
+    "RoleTooltip": "perspiciatis",
+    "UserGroupName": "Mosciski, Ledner and Rau",
+    "UserGroupTooltip": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 724
       }
     }
   }

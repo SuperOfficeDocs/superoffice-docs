@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Willms-Marks",
-  "Tooltip": "unde",
+  "Id": 139,
+  "Name": "Nader, Cormier and Vandervort",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 841,
+  "Rank": 17,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Hoppe Inc and Sons",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 569,
+  "Id": 847,
+  "Name": "Romaguera-Kub",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 427,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
-  "InUseByUserDefinedFields": false,
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

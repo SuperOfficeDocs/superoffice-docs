@@ -77,10 +77,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 873,
+  "AssociateId": 578,
   "Type": "AnonymousAssociate",
-  "PersonId": 702,
-  "UserName": "Frami Inc and Sons"
+  "PersonId": 250,
+  "UserName": "Maggio-Moore"
 }
 ```
 

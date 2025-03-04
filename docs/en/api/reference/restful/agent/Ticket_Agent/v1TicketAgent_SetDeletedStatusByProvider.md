@@ -75,18 +75,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lebsack, Pagac and Aufderhar",
+  "ProviderName": "Kautzer LLC",
   "Restrictions": [
     {
-      "Name": "Quitzon, Gislason and Orn",
-      "Operator": "et",
+      "Name": "Yost Group",
+      "Operator": "aut",
       "Values": [
-        "ea",
-        "laboriosam"
+        "dolorem",
+        "nulla"
       ],
       "DisplayValues": [
-        "est",
-        "consectetur"
+        "animi",
+        "cum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 330,
+      "InterParenthesis": 730,
       "InterOperator": "And",
-      "UniqueHash": 57
+      "UniqueHash": 450
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  530,
-  588
+  342,
+  731
 ]
 ```

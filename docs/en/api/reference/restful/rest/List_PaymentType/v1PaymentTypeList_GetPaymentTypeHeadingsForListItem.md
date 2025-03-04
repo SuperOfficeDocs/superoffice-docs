@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Bechtelar, Hessel and Daugherty",
-    "ToolTip": "Et quod facere accusamus.",
-    "Deleted": true,
-    "Rank": 979,
-    "Type": "ex",
-    "ColorBlock": 700,
-    "IconHint": "et",
+    "Id": 781,
+    "Name": "Luettgen, Hansen and Hintz",
+    "ToolTip": "Consectetur odit ullam qui doloribus velit qui nam.",
+    "Deleted": false,
+    "Rank": 818,
+    "Type": "repellat",
+    "ColorBlock": 337,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2001-09-06T12:01:33.5426053+02:00",
+    "LastChanged": "2004-01-27T14:13:50.0250456+01:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Wisozk-Pacocha",
-        "ToolTip": "Possimus doloribus temporibus qui.",
-        "Deleted": true,
-        "Rank": 969,
-        "Type": "iusto",
-        "ColorBlock": 269,
-        "IconHint": "quos",
+        "Id": 354,
+        "Name": "Kilback, Cummerata and Schowalter",
+        "ToolTip": "Praesentium rerum excepturi.",
+        "Deleted": false,
+        "Rank": 31,
+        "Type": "ullam",
+        "ColorBlock": 586,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2017-01-19T12:01:33.5426053+01:00",
+        "LastChanged": "2023-06-11T14:13:50.0250456+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "et",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Trudie Blick",
+        "FullName": "Leopoldo Alexander Rippin DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 986
+            "FieldLength": 528
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Cecil Konopelski",
+    "ExtraInfo": "officiis",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Clark Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 353
+        "FieldLength": 928
       }
     }
   }

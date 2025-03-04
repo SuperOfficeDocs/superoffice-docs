@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Kiehn Group",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "UdListDefinitionId": 209,
-  "Rank": 303,
+  "Id": 989,
+  "Name": "Zieme, Stroman and Paucek",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 512,
+  "Rank": 911,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldLength": 342
     }
   }
 }

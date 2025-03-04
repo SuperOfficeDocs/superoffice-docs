@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Casper-Lubowitz",
-  "RecordId": 331,
-  "AssociateId": 651,
-  "ExtraInfo": "deleniti"
+  "TableName": "Kunze Inc and Sons",
+  "RecordId": 182,
+  "AssociateId": 306,
+  "ExtraInfo": "nesciunt"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

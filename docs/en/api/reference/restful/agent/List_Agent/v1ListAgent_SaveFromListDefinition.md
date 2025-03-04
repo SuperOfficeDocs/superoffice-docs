@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 662,
-  "UdListDefinitionId": 428,
+  "Id": 685,
+  "UdListDefinitionId": 459,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 551,
-  "Name": "O'Hara LLC",
-  "Tooltip": "quisquam",
-  "Deleted": true,
-  "UdListDefinitionId": 368,
-  "Rank": 893,
+  "Id": 95,
+  "Name": "Wuckert, Reichel and O'Conner",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "UdListDefinitionId": 455,
+  "Rank": 640,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldType": "System.String",
+      "FieldLength": 121
     }
   }
 }

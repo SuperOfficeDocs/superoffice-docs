@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 189,
-    "Name": "Schuster-Toy",
-    "Tooltip": "voluptatum",
+    "Id": 138,
+    "Name": "Bartoletti Inc and Sons",
+    "Tooltip": "enim",
     "Deleted": true,
-    "UdListDefinitionId": 757,
-    "Rank": 571
+    "UdListDefinitionId": 119,
+    "Rank": 432
   },
   {
-    "Id": 189,
-    "Name": "Schuster-Toy",
-    "Tooltip": "voluptatum",
+    "Id": 138,
+    "Name": "Bartoletti Inc and Sons",
+    "Tooltip": "enim",
     "Deleted": true,
-    "UdListDefinitionId": 757,
-    "Rank": 571
+    "UdListDefinitionId": 119,
+    "Rank": 432
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 325,
-    "Name": "Koepp-Bernhard",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 956,
-    "Rank": 334,
+    "Id": 677,
+    "Name": "Pagac, Stehr and Johnson",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "UdListDefinitionId": 954,
+    "Rank": 740,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 204
       }
     }
   }

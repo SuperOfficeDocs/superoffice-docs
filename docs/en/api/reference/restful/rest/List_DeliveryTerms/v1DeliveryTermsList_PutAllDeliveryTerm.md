@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Kihn Group",
-    "Tooltip": "repellat",
+    "Id": 12,
+    "Name": "Ondricka-Hane",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 527,
-    "Rank": 57
+    "UdListDefinitionId": 441,
+    "Rank": 775
   },
   {
-    "Id": 814,
-    "Name": "Kihn Group",
-    "Tooltip": "repellat",
+    "Id": 12,
+    "Name": "Ondricka-Hane",
+    "Tooltip": "odit",
     "Deleted": true,
-    "UdListDefinitionId": 527,
-    "Rank": 57
+    "UdListDefinitionId": 441,
+    "Rank": 775
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "O'Keefe, Ankunding and Kessler",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 987,
-    "Rank": 352,
+    "Id": 804,
+    "Name": "Brown Group",
+    "Tooltip": "voluptate",
+    "Deleted": false,
+    "UdListDefinitionId": 848,
+    "Rank": 394,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 965
       }
     }
   }

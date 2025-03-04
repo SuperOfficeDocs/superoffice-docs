@@ -37,6 +37,10 @@ items:
   - SuperOffice.Util.HttpHelper.RequestType
   - SuperOffice.Util.iCalendarUtility
   - SuperOffice.Util.ImageUtilities
+  - SuperOffice.Util.ImageUtilities.FallbackStrategy
+  - SuperOffice.Util.ImageUtilities.ImageSize
+  - SuperOffice.Util.ImageUtilities.ScaleStrategy
+  - SuperOffice.Util.ImageUtilities.VerticalAlignment
   - SuperOffice.Util.ImportDefaults
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.JsonPairSerializer`2
@@ -363,6 +367,34 @@ references:
   name: ImageUtilities
   nameWithType: ImageUtilities
   fullName: SuperOffice.Util.ImageUtilities
+- uid: SuperOffice.Util.ImageUtilities.ImageSize
+  commentId: T:SuperOffice.Util.ImageUtilities.ImageSize
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.ImageSize
+  nameWithType: ImageUtilities.ImageSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize
+- uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+  commentId: T:SuperOffice.Util.ImageUtilities.VerticalAlignment
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.VerticalAlignment
+  nameWithType: ImageUtilities.VerticalAlignment
+  fullName: SuperOffice.Util.ImageUtilities.VerticalAlignment
+- uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+  commentId: T:SuperOffice.Util.ImageUtilities.FallbackStrategy
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.FallbackStrategy
+  nameWithType: ImageUtilities.FallbackStrategy
+  fullName: SuperOffice.Util.ImageUtilities.FallbackStrategy
+- uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
+  commentId: T:SuperOffice.Util.ImageUtilities.ScaleStrategy
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.ScaleStrategy
+  nameWithType: ImageUtilities.ScaleStrategy
+  fullName: SuperOffice.Util.ImageUtilities.ScaleStrategy
 - uid: SuperOffice.Util.ImportDefaults
   commentId: T:SuperOffice.Util.ImportDefaults
   isExternal: true

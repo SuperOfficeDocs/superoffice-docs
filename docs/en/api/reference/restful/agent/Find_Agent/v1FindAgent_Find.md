@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Schimmel-Blanda",
-  "StorageKey": "sed",
-  "PageSize": 430,
-  "PageNumber": 352
+  "StorageType": "et",
+  "ProviderName": "Adams-Spencer",
+  "StorageKey": "repudiandae",
+  "PageSize": 355,
+  "PageNumber": 44
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Reinger, Stroman and Purdy",
-      "DisplayTooltip": "debitis",
-      "DisplayType": "ea",
-      "CanOrderBy": false,
-      "Name": "Pollich, Bergstrom and Runte",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolore",
-      "RestrictionListName": "Ruecker-Russel",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "in",
-      "IconHint": "dolor",
-      "HeadingIconHint": "aspernatur"
+      "DisplayName": "Prohaska, Roberts and Krajcik",
+      "DisplayTooltip": "animi",
+      "DisplayType": "omnis",
+      "CanOrderBy": true,
+      "Name": "Towne-Murphy",
+      "CanRestrictBy": true,
+      "RestrictionType": "voluptatibus",
+      "RestrictionListName": "Lesch, Robel and Streich",
+      "IsVisible": false,
+      "ExtraInfo": "placeat",
+      "Width": "et",
+      "IconHint": "exercitationem",
+      "HeadingIconHint": "accusamus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kris LLC",
-      "PrimaryKey": 551,
+      "EntityName": "Lang LLC",
+      "PrimaryKey": 657,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quam",
-          "TooltipHint": "voluptas",
-          "LinkHint": "magni"
+          "DisplayValue": "hic",
+          "TooltipHint": "non",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "illum",
-      "StyleHint": "in",
+      "LinkHint": "sint",
+      "StyleHint": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 426
         }
       }
     }
   ],
-  "RowCount": 319,
+  "RowCount": 950,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 878
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

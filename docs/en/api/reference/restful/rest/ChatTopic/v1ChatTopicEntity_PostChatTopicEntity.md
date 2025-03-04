@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 634,
-  "Name": "Lesch-Schimmel",
-  "Description": "Advanced contextually-based installation",
-  "WelcomeMessage": "consequuntur",
+  "ChatTopicId": 369,
+  "Name": "Rohan, Zulauf and Stamm",
+  "Description": "Organic even-keeled framework",
+  "WelcomeMessage": "recusandae",
   "Language": null,
-  "LastAccept": "2001-07-06T12:01:32.745675+02:00",
-  "SecondsPrAccept": 549,
-  "AlertRecipient": "officiis",
+  "LastAccept": "2023-01-10T14:13:48.4445574+01:00",
+  "SecondsPrAccept": 525,
+  "AlertRecipient": "illum",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "aut",
+  "CollectConsent": true,
+  "BadgeHeader": "enim",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "similique",
-  "WarnNewChatMinutes": 321,
-  "WarnManagerNewChatMinutes": 81,
-  "TicketEnabled": true,
+  "CustomQueueText": "ducimus",
+  "WarnNewChatMinutes": 28,
+  "WarnManagerNewChatMinutes": 113,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 361,
-  "WarnManagerChatMessageMinutes": 208,
+  "WarnChatMessageMinutes": 515,
+  "WarnManagerChatMessageMinutes": 770,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 271,
-  "OfflineFormQueueLength": 691,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "labore"
+  "OfflineFormTimeLimit": 493,
+  "OfflineFormQueueLength": 377,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "a"
 }
 ```
 
@@ -181,22 +181,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 400,
-  "Name": "Haag-Osinski",
-  "Description": "Profit-focused clear-thinking monitoring",
-  "WelcomeMessage": "aut",
+  "ChatTopicId": 968,
+  "Name": "Anderson, Muller and Braun",
+  "Description": "Multi-channelled reciprocal contingency",
+  "WelcomeMessage": "sed",
   "Language": null,
-  "LastAccept": "2006-12-22T12:01:32.7613009+01:00",
-  "SecondsPrAccept": 398,
-  "AlertRecipient": "aliquam",
+  "LastAccept": "2001-07-13T14:13:48.4445574+02:00",
+  "SecondsPrAccept": 141,
+  "AlertRecipient": "recusandae",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "cumque",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "culpa",
-  "WarnNewChatMinutes": 775,
-  "WarnManagerNewChatMinutes": 353,
-  "TicketEnabled": true,
+  "BadgeHeader": "quo",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "delectus",
+  "WarnNewChatMinutes": 142,
+  "WarnManagerNewChatMinutes": 489,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -205,24 +205,24 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 871,
-  "WarnManagerChatMessageMinutes": 13,
+  "WarnChatMessageMinutes": 974,
+  "WarnManagerChatMessageMinutes": 263,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 130,
-  "OfflineFormQueueLength": 925,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "temporibus",
+  "OfflineFormTimeLimit": 230,
+  "OfflineFormQueueLength": 97,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

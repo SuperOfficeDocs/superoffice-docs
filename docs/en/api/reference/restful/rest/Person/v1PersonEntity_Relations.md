@@ -74,14 +74,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Person/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Relations?$orderBy=name asc
-GET /api/v1/Person/{id}/Relations?$entities=qui
-GET /api/v1/Person/{id}/Relations?$top=246
-GET /api/v1/Person/{id}/Relations?$skip=749
+GET /api/v1/Person/{id}/Relations?$entities=provident
+GET /api/v1/Person/{id}/Relations?$top=129
+GET /api/v1/Person/{id}/Relations?$skip=492
 GET /api/v1/Person/{id}/Relations?$mode=Full
 GET /api/v1/Person/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Relations?$context=qui
+GET /api/v1/Person/{id}/Relations?$context=quod
 GET /api/v1/Person/{id}/Relations?$format=JSON
-GET /api/v1/Person/{id}/Relations?$jsonSafe=True
+GET /api/v1/Person/{id}/Relations?$jsonSafe=False
 GET /api/v1/Person/{id}/Relations?$output=Display
 ```
 
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "corporis",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 9351,
-      "EntityName": "person",
-      "personId": 9351,
-      "fullName": "Prince Ziemann"
+      "PrimaryKey": 7722,
+      "EntityName": "sale",
+      "saleId": 7722,
+      "contactId": 754,
+      "name": "Cruickshank, Kohler and Howell"
     },
     {
-      "PrimaryKey": 1067,
-      "EntityName": "person",
-      "personId": 1067,
-      "fullName": "Maymie Sawayn"
+      "PrimaryKey": 2312,
+      "EntityName": "sale",
+      "saleId": 2312,
+      "contactId": 3075,
+      "name": "Kuphal, Parker and Wintheiser"
     }
   ]
 }

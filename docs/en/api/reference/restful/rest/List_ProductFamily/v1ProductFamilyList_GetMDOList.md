@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=omnis
+GET /api/v1/List/ProductFamily/MDOItems?query=consectetur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 199,
-    "Name": "Jacobs-Rice",
-    "ToolTip": "Sit saepe optio dolorem.",
-    "Deleted": false,
-    "Rank": 57,
-    "Type": "accusantium",
+    "Id": 311,
+    "Name": "Kiehn LLC",
+    "ToolTip": "Velit accusantium nemo et quasi.",
+    "Deleted": true,
+    "Rank": 309,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Wisoky Group",
-        "ToolTip": "Eum vel.",
+        "Id": 80,
+        "Name": "Crona-Skiles",
+        "ToolTip": "Vitae sed odio est.",
         "Deleted": false,
-        "Rank": 857,
-        "Type": "et",
+        "Rank": 11,
+        "Type": "placeat",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 927,
-        "ExtraInfo": "impedit",
-        "StyleHint": "consequatur",
-        "FullName": "Christelle Weber",
+        "IconHint": "a",
+        "ColorBlock": 543,
+        "ExtraInfo": "omnis",
+        "StyleHint": "aspernatur",
+        "FullName": "Miss Urban Arlie Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 654
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 15,
-    "ExtraInfo": "omnis",
-    "StyleHint": "aut",
-    "FullName": "Domingo Will",
+    "IconHint": "soluta",
+    "ColorBlock": 324,
+    "ExtraInfo": "quam",
+    "StyleHint": "culpa",
+    "FullName": "Virginia Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldLength": 550
       }
     }
   }

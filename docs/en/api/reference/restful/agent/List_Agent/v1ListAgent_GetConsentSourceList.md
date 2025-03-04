@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 235,
-    "Name": "Turner, Metz and Kirlin",
-    "Tooltip": "rem",
-    "Rank": 405,
-    "Key": "id",
-    "MailTemplateId": 95,
-    "Deleted": true,
+    "ConsentSourceId": 670,
+    "Name": "Swaniawski-Reichel",
+    "Tooltip": "aut",
+    "Rank": 37,
+    "Key": "dicta",
+    "MailTemplateId": 123,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 477
       }
     }
   }

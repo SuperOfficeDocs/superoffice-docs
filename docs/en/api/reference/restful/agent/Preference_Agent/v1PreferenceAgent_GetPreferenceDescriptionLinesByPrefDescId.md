@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 658
+  "PrefDescId": 911
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 592,
-    "PrefDescId": 770,
-    "PrefValue": "ut",
-    "PrefShowValue": "voluptatibus",
-    "Description": "De-engineered content-based Graphic Interface",
-    "IsBuiltin": false,
+    "PrefDescLineId": 902,
+    "PrefDescId": 676,
+    "PrefValue": "eos",
+    "PrefShowValue": "excepturi",
+    "Description": "Quality-focused 5th generation migration",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldLength": 523
       }
     }
   }

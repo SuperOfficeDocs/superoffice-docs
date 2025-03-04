@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Kertzmann-Zieme",
-    "ToolTip": "Iure officia ea unde delectus omnis quis nemo.",
-    "Deleted": false,
-    "Rank": 937,
-    "Type": "incidunt",
-    "ColorBlock": 403,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2004-10-31T12:01:33.5426053+01:00",
+    "Id": 419,
+    "Name": "Hermiston Inc and Sons",
+    "ToolTip": "Molestias commodi repellendus omnis.",
+    "Deleted": true,
+    "Rank": 707,
+    "Type": "id",
+    "ColorBlock": 737,
+    "IconHint": "voluptatibus",
+    "Selected": false,
+    "LastChanged": "2023-02-11T14:13:50.0094247+01:00",
     "ChildItems": [
       {
-        "Id": 361,
-        "Name": "King, Doyle and Rogahn",
-        "ToolTip": "Eveniet aut maiores voluptas quia.",
+        "Id": 731,
+        "Name": "Runolfsdottir Group",
+        "ToolTip": "Et eos iure cumque rerum.",
         "Deleted": false,
-        "Rank": 496,
-        "Type": "a",
-        "ColorBlock": 244,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2008-09-26T12:01:33.5426053+02:00",
+        "Rank": 502,
+        "Type": "reiciendis",
+        "ColorBlock": 273,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2003-01-27T14:13:50.0094247+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sit",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Imogene Oberbrunner Sr.",
+        "FullName": "Keshawn Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldType": "System.String",
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "a",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Mrs. Amina Koepp",
+    "FullName": "Alexanne Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 475
       }
     }
   }

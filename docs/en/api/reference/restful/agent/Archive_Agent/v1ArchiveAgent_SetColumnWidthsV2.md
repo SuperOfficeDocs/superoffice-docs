@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Quitzon, Kirlin and Cartwright",
-  "ProviderName": "Borer, Trantow and Shanahan",
-  "Context": "odio",
-  "OwnerKeys": "quo",
+  "GuiName": "Howe Group",
+  "ProviderName": "Legros-Eichmann",
+  "Context": "et",
+  "OwnerKeys": "distinctio",
   "ColumnWidths": [
-    "autem",
-    "aut"
+    "dolorum",
+    "dolor"
   ]
 }
 ```

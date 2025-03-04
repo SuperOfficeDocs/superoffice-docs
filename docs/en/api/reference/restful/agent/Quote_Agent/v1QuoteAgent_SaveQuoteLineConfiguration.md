@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 526,
-  "FieldName": "Willms, Greenholt and Balistreri",
-  "Label": "aut",
-  "Tooltip": "voluptas",
-  "Editable": true,
+  "QuoteLineConfigurationId": 759,
+  "FieldName": "Fisher LLC",
+  "Label": "velit",
+  "Tooltip": "vel",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 626,
-  "RestrictEdit": true,
+  "Rank": 615,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 522
+      "FieldLength": 360
     }
   }
 }

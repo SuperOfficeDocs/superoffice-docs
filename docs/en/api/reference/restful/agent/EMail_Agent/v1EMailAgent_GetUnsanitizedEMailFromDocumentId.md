@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 179
+  "DocumentId": 27
 }
 ```
 
@@ -120,147 +120,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 287,
-      "ContactName": "Veum-Hintz",
-      "PersonId": 61,
-      "PersonName": "Block Group",
-      "AssociateId": 880,
-      "Address": "similique",
-      "EmailId": 494,
+      "ContactId": 959,
+      "ContactName": "Halvorson, Bayer and Kulas",
+      "PersonId": 487,
+      "PersonName": "Mraz-Schmitt",
+      "AssociateId": 822,
+      "Address": "totam",
+      "EmailId": 200,
       "DuplicatePersonIds": [
-        289,
-        14
+        105,
+        688
       ],
-      "Name": "Kling Group",
+      "Name": "D'Amore, Rowe and Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 671
+          "FieldType": "System.String",
+          "FieldLength": 514
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 70,
-      "ContactName": "Wiza, Davis and Lang",
-      "PersonId": 751,
-      "PersonName": "Sawayn Group",
-      "AssociateId": 136,
-      "Address": "saepe",
-      "EmailId": 841,
+      "ContactId": 494,
+      "ContactName": "Stamm Group",
+      "PersonId": 240,
+      "PersonName": "Lindgren-Prosacco",
+      "AssociateId": 228,
+      "Address": "labore",
+      "EmailId": 480,
       "DuplicatePersonIds": [
-        341,
-        243
+        2,
+        989
       ],
-      "Name": "Sporer Inc and Sons",
+      "Name": "Keebler Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 113
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 647,
-      "ContactName": "Gutmann Group",
-      "PersonId": 516,
-      "PersonName": "Gutmann-Bradtke",
-      "AssociateId": 329,
-      "Address": "ut",
-      "EmailId": 484,
+      "ContactId": 1000,
+      "ContactName": "Beahan-Rosenbaum",
+      "PersonId": 753,
+      "PersonName": "Armstrong-Bode",
+      "AssociateId": 553,
+      "Address": "qui",
+      "EmailId": 567,
       "DuplicatePersonIds": [
-        512,
-        244
+        736,
+        78
       ],
-      "Name": "Langworth Inc and Sons",
+      "Name": "Jakubowski Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 545
+          "FieldLength": 917
         }
       }
     }
   ],
   "Subject": "eum",
-  "HTMLBody": "blanditiis",
+  "HTMLBody": "voluptatibus",
   "From": null,
-  "Sent": "2008-09-10T12:01:27.8377848+02:00",
-  "Size": 800,
+  "Sent": "2018-03-31T14:13:40.2816332+02:00",
+  "Size": 73,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "doloremque",
-  "PlainBody": "sunt",
+  "MessageID": "natus",
+  "PlainBody": "ut",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 253,
+  "ServerId": 482,
   "Attachments": [
     {
-      "Description": "Polarised incremental toolset",
-      "Filename": "nam",
-      "Size": 567,
-      "Type": "eius",
-      "Encoding": "sunt",
-      "Id": "commodi",
-      "Disposition": "dolorum",
+      "Description": "Advanced background adapter",
+      "Filename": "corporis",
+      "Size": 667,
+      "Type": "odit",
+      "Encoding": "possimus",
+      "Id": "assumenda",
+      "Disposition": "ut",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 11
+          "FieldType": "System.Int32",
+          "FieldLength": 402
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Vandervort LLC",
+      "Name": "Lueilwitz-Rowe",
       "Values": [
-        "cumque",
-        "vel"
+        "magnam",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 285
         }
       }
     },
     {
-      "Name": "Vandervort LLC",
+      "Name": "Lueilwitz-Rowe",
       "Values": [
-        "cumque",
-        "vel"
+        "magnam",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 285
         }
       }
     }
   ],
-  "FolderName": "Sawayn, Dicki and Gutkowski",
-  "EmailItemId": 820,
-  "AccountId": 795,
-  "ReceivedAt": "2000-07-15T12:01:27.8377848+02:00",
+  "FolderName": "Klein-Vandervort",
+  "EmailItemId": 840,
+  "AccountId": 169,
+  "ReceivedAt": "1999-06-21T14:13:40.2816332+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-09-28T12:01:27.8377848+02:00",
+  "RepliedAt": "2010-05-07T14:13:40.2816332+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 321
     }
   }
 }

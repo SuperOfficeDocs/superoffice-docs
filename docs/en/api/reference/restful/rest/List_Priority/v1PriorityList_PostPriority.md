@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "Roberts, Vandervort and Turner",
-  "Tooltip": "ad",
+  "Id": 555,
+  "Name": "Sauer, Senger and Harvey",
+  "Tooltip": "velit",
   "Deleted": true,
-  "UdListDefinitionId": 629,
-  "Rank": 989
+  "UdListDefinitionId": 775,
+  "Rank": 656
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Sporer LLC",
-  "Tooltip": "non",
+  "Id": 513,
+  "Name": "Haag-Ryan",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "UdListDefinitionId": 537,
-  "Rank": 867,
+  "UdListDefinitionId": 682,
+  "Rank": 803,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 629,
-    "Name": "Conn, Harber and Farrell",
-    "Tooltip": "neque",
+    "HeadingId": 405,
+    "Name": "Larson LLC",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 667,
-    "UdListDefinitionId": 763,
+    "Rank": 437,
+    "UdListDefinitionId": 903,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 285
       }
     }
   }

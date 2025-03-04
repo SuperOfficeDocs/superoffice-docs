@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 125,
-  "Name": "Pacocha-Ankunding",
-  "Tooltip": "soluta",
+  "Id": 313,
+  "Name": "Ullrich-Hand",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 327,
-  "IsCustomList": true,
+  "Rank": 577,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "facere",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldType": "System.Int32",
+      "FieldLength": 267
     }
   },
   "_Links": {

@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    507,
-    595
+    17,
+    301
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 704,
-    "ContactName": "Klocko-Runte",
-    "PersonId": 45,
-    "PersonName": "D'Amore-Hermiston",
-    "AssociateId": 859,
+    "ContactId": 851,
+    "ContactName": "Mante-Zieme",
+    "PersonId": 859,
+    "PersonName": "Pagac-Mohr",
+    "AssociateId": 490,
     "Address": "ut",
-    "EmailId": 995,
+    "EmailId": 204,
     "DuplicatePersonIds": [
-      180,
-      551
+      723,
+      830
     ],
-    "Name": "Rodriguez Inc and Sons",
+    "Name": "Grady, Mills and Dickens",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 938
       }
     }
   }

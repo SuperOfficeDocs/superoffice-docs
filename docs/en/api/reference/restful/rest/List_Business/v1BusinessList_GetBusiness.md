@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 250,
-  "Name": "Daniel-Veum",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 654,
-  "Rank": 415,
+  "Id": 870,
+  "Name": "Grimes-Ferry",
+  "Tooltip": "odit",
+  "Deleted": true,
+  "UdListDefinitionId": 461,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 36
     }
   }
 }

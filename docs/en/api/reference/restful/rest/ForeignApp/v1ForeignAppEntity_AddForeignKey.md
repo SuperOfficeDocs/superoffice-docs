@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "blanditiis",
-  "Value": "tempora",
-  "RecordId": 576,
-  "CreatedDate": "2003-12-09T12:01:32.9175621+01:00",
-  "UpdatedDate": "2004-01-10T12:01:32.9175621+01:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "consequuntur",
-  "TableName": "Rutherford, Ziemann and Cormier"
+  "Key": "quo",
+  "Value": "voluptatum",
+  "RecordId": 412,
+  "CreatedDate": "1998-01-18T14:13:48.8993207+01:00",
+  "UpdatedDate": "2014-01-20T14:13:48.8993207+01:00",
+  "UpdatedBy": "itaque",
+  "CreatedBy": "sint",
+  "TableName": "Spencer, Bruen and Abbott"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "et",
-  "Value": "quasi",
-  "RecordId": 822,
-  "CreatedDate": "2020-09-23T12:01:32.9175621+02:00",
-  "UpdatedDate": "2003-05-04T12:01:32.9175621+02:00",
-  "UpdatedBy": "nobis",
-  "CreatedBy": "architecto",
-  "TableName": "Crooks LLC",
+  "Key": "qui",
+  "Value": "provident",
+  "RecordId": 156,
+  "CreatedDate": "2013-10-07T14:13:48.8993207+02:00",
+  "UpdatedDate": "2023-07-10T14:13:48.8993207+02:00",
+  "UpdatedBy": "iste",
+  "CreatedBy": "recusandae",
+  "TableName": "Blanda Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 930
+      "FieldLength": 288
     }
   }
 }

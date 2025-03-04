@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 965,
-    "Name": "Gleason, Yundt and Will",
-    "ToolTip": "Aut officia repellat error et quam.",
-    "Deleted": false,
-    "Rank": 933,
-    "Type": "dolore",
-    "ColorBlock": 640,
-    "IconHint": "laborum",
-    "Selected": false,
-    "LastChanged": "2022-01-25T12:01:33.6207356+01:00",
+    "Id": 137,
+    "Name": "Huels-Haley",
+    "ToolTip": "Eos cumque dolorum eligendi dignissimos ut.",
+    "Deleted": true,
+    "Rank": 129,
+    "Type": "labore",
+    "ColorBlock": 851,
+    "IconHint": "minima",
+    "Selected": true,
+    "LastChanged": "2010-02-12T14:13:50.1656413+01:00",
     "ChildItems": [
       {
-        "Id": 42,
-        "Name": "Lakin, Treutel and Thompson",
-        "ToolTip": "Laboriosam tempora accusantium veritatis delectus aut dolore.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "eius",
-        "ColorBlock": 897,
-        "IconHint": "voluptatem",
+        "Id": 134,
+        "Name": "Krajcik, McLaughlin and Cummings",
+        "ToolTip": "Qui minima.",
+        "Deleted": true,
+        "Rank": 700,
+        "Type": "eos",
+        "ColorBlock": 197,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2004-11-26T12:01:33.6207356+01:00",
+        "LastChanged": "2017-04-09T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Dr. Devon Savannah Ernser II",
+        "ExtraInfo": "et",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Miss Giovani Ima Hintz V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldType": "System.String",
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "molestias",
     "Hidden": false,
-    "FullName": "Miss Aurelio Wolf",
+    "FullName": "Doug Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 119
+        "FieldLength": 399
       }
     }
   }

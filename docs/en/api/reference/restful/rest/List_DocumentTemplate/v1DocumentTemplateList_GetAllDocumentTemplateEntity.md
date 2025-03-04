@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 515,
-    "Name": "Heidenreich-Anderson",
-    "Tooltip": "est",
-    "SaveInDb": 115,
-    "Filename": "placeat",
-    "DefaultOref": "natus",
+    "DocumentTemplateId": 47,
+    "Name": "Mann, Johns and Johns",
+    "Tooltip": "beatae",
+    "SaveInDb": 386,
+    "Filename": "deserunt",
+    "DefaultOref": "omnis",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 313,
-    "IntentId": 394,
+    "AutoeventId": 789,
+    "IntentId": 28,
     "IsDefaultPublished": false,
-    "Rank": 406,
-    "LoadTemplateFromPlugin": 252,
-    "MimeType": "perspiciatis",
+    "Rank": 308,
+    "LoadTemplateFromPlugin": 257,
+    "MimeType": "et",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 864,
+    "DocumentTypeKey": 14,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "manuela_powlowski@bergnaum.com",
+    "EmailSubject": "vicky_glover@christiansenjohns.ca",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "kelli@glover.com",
+    "SenderEmailAddress": "zena.tillman@weissnat.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 90
+        "FieldLength": 98
       }
     }
   }

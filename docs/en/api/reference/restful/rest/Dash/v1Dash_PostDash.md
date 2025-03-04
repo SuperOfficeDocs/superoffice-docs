@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 353,
-  "UniqueId": "sequi",
-  "Name": "Mills, Krajcik and Lang",
-  "Description": "Proactive 4th generation architecture",
-  "AssociateId": 341,
-  "Columns": 765,
+  "DashboardId": 847,
+  "UniqueId": "soluta",
+  "Name": "Bernier Inc and Sons",
+  "Description": "Organized incremental application",
+  "AssociateId": 72,
+  "Columns": 739,
   "Theme": null,
-  "VisibleForAll": 78,
+  "VisibleForAll": 220,
   "VisibleForAssociates": [
-    737,
-    370
+    496,
+    528
   ],
   "VisibleForGroups": [
-    673,
-    781
+    714,
+    253
   ],
-  "PinForAll": 506,
+  "PinForAll": 815,
   "PinForAssociates": [
-    109,
-    51
+    496,
+    896
   ],
   "PinForGroups": [
-    175,
-    532
+    367,
+    396
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 896,
-  "UniqueId": "et",
-  "Name": "Haley, Kozey and Leffler",
-  "Description": "Versatile reciprocal encoding",
-  "AssociateId": 506,
-  "Columns": 140,
+  "DashboardId": 975,
+  "UniqueId": "voluptatem",
+  "Name": "Hilpert-Quitzon",
+  "Description": "Team-oriented directional implementation",
+  "AssociateId": 63,
+  "Columns": 768,
   "Theme": null,
-  "VisibleForAll": 450,
+  "VisibleForAll": 342,
   "VisibleForAssociates": [
-    652,
-    604
+    611,
+    408
   ],
   "VisibleForGroups": [
-    418,
-    480
+    428,
+    695
   ],
-  "PinForAll": 191,
+  "PinForAll": 721,
   "PinForAssociates": [
-    677,
-    138
+    557,
+    531
   ],
   "PinForGroups": [
-    137,
-    362
+    468,
+    74
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   },
   "_Links": {

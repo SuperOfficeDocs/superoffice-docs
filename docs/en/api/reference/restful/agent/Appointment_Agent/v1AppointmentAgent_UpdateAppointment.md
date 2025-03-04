@@ -130,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41,
-  "StartTime": "2003-09-27T12:01:27.0252114+02:00",
-  "EndTime": "2003-09-21T12:01:27.0252114+02:00",
-  "Status": 204,
-  "Type": 737,
-  "AssociateId": 84
+  "Id": 164,
+  "StartTime": "2022-03-28T14:13:38.9849467+02:00",
+  "EndTime": "2019-02-18T14:13:38.9849467+01:00",
+  "Status": 328,
+  "Type": 258,
+  "AssociateId": 153
 }
 ```
 
@@ -150,65 +150,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 965,
-  "StartDate": "1998-10-27T12:01:27.0252114+01:00",
-  "EndDate": "2001-06-15T12:01:27.0252114+02:00",
+  "AppointmentId": 156,
+  "StartDate": "2022-02-27T14:13:38.9849467+01:00",
+  "EndDate": "2020-09-19T14:13:38.9849467+02:00",
   "Type": "BookingForChecklist",
-  "Task": "vitae",
-  "AssociateFullName": "Celia Lang",
-  "ContactName": "Murazik-Considine",
-  "Description": "Self-enabling dynamic productivity",
-  "PersonFullName": "Roslyn Clyde Towne I",
-  "PersonId": 228,
-  "ContactId": 890,
-  "ProjectId": 726,
-  "ProjectName": "Howe, Gorczany and Pollich",
+  "Task": "quod",
+  "AssociateFullName": "Miss Hobart Coty Wiegand",
+  "ContactName": "McKenzie-Jenkins",
+  "Description": "Fundamental foreground support",
+  "PersonFullName": "Omari Gutkowski",
+  "PersonId": 807,
+  "ContactId": 469,
+  "ProjectId": 826,
+  "ProjectName": "Cummings Group",
   "IsPublished": false,
-  "AssociateId": 408,
-  "ColorIndex": 37,
+  "AssociateId": 737,
+  "ColorIndex": 178,
   "IsFree": false,
   "HasAlarm": true,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 1001,
-  "PriorityName": "Gorczany, Bosco and Collins",
+  "PriorityId": 771,
+  "PriorityName": "Dickinson-Wehner",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2020-05-28T12:01:27.0252114+02:00",
+  "IsBooking": false,
+  "ActiveDate": "2001-10-08T14:13:38.9849467+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-07-08T12:01:27.0252114+02:00",
-  "RecurringEndDate": "2008-01-01T12:01:27.0252114+01:00",
-  "MotherId": 374,
-  "AssignedBy": 80,
-  "AssignedByFullName": "Vilma Lang Sr.",
+  "RecurringStartDate": "2022-06-02T14:13:38.9849467+02:00",
+  "RecurringEndDate": "2015-04-28T14:13:38.9849467+02:00",
+  "MotherId": 645,
+  "AssignedBy": 448,
+  "AssignedByFullName": "Salma Eldridge Gleason V",
   "RejectReason": "",
-  "Location": "alias",
-  "AlarmLeadTime": "reprehenderit",
-  "SaleId": 374,
-  "SaleName": "Mante, Parisian and Larkin",
-  "AssociateName": "Hammes, Hills and Morissette",
-  "CreatedDate": "2008-05-18T12:01:27.0252114+02:00",
-  "CreatedBy": "enim",
-  "CreatedByFullName": "Shayne Konopelski",
-  "CreatedByAssociateId": 251,
+  "Location": "adipisci",
+  "AlarmLeadTime": "perferendis",
+  "SaleId": 612,
+  "SaleName": "Stokes, Russel and Paucek",
+  "AssociateName": "Fahey, Will and Gerhold",
+  "CreatedDate": "2007-05-02T14:13:38.9849467+02:00",
+  "CreatedBy": "quas",
+  "CreatedByFullName": "Moriah McGlynn",
+  "CreatedByAssociateId": 146,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 627,
-  "Title": "molestiae",
-  "Agenda": "ratione",
-  "InternalNotes": "corporis",
+  "PreferredTZLocation": 601,
+  "Title": "illum",
+  "Agenda": "est",
+  "InternalNotes": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 149
     }
   }
 }

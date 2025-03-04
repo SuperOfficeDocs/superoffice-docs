@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=sit
-GET /api/v1/MDOList/{listname}?query=voluptas
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=id
+GET /api/v1/MDOList/{listname}?query=aut
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Pfeffer, Gutkowski and Prohaska",
-    "ToolTip": "Et doloribus.",
-    "Deleted": false,
-    "Rank": 253,
-    "Type": "voluptas",
+    "Id": 236,
+    "Name": "Adams, Hartmann and Morar",
+    "ToolTip": "Architecto eius itaque perspiciatis.",
+    "Deleted": true,
+    "Rank": 147,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 239,
-        "Name": "Hermiston-Lockman",
-        "ToolTip": "Deleniti et.",
+        "Id": 712,
+        "Name": "Padberg, Bartell and Swift",
+        "ToolTip": "Sequi exercitationem.",
         "Deleted": false,
-        "Rank": 899,
-        "Type": "repudiandae",
+        "Rank": 581,
+        "Type": "dolores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 935,
-        "ExtraInfo": "dignissimos",
+        "IconHint": "aut",
+        "ColorBlock": 679,
+        "ExtraInfo": "vel",
         "StyleHint": "ut",
-        "FullName": "Tressie Brown",
+        "FullName": "Kathryn Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldLength": 459
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 631,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "numquam",
-    "FullName": "Verner Stamm",
+    "IconHint": "voluptatem",
+    "ColorBlock": 298,
+    "ExtraInfo": "placeat",
+    "StyleHint": "expedita",
+    "FullName": "Prof. Clemens Kiehn II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 498
       }
     }
   }

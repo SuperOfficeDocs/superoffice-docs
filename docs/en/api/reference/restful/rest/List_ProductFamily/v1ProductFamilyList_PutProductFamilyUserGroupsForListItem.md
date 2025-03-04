@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Hills-Bashirian",
-    "ToolTip": "Ipsa sunt fugiat repudiandae iure nulla quia voluptatem.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "omnis",
-    "ColorBlock": 777,
-    "IconHint": "quo",
+    "Id": 780,
+    "Name": "Wisozk, Steuber and Price",
+    "ToolTip": "Minus autem vel non.",
+    "Deleted": true,
+    "Rank": 712,
+    "Type": "hic",
+    "ColorBlock": 229,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2005-03-27T12:01:33.5738574+02:00",
+    "LastChanged": "2013-09-11T14:13:50.0875321+02:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Bahringer Group",
-        "ToolTip": "Tenetur ea aut beatae.",
-        "Deleted": true,
+        "Id": 35,
+        "Name": "Kuvalis, Kris and Jacobi",
+        "ToolTip": "Aliquid voluptatibus.",
+        "Deleted": false,
         "Rank": 414,
-        "Type": "sunt",
-        "ColorBlock": 270,
-        "IconHint": "soluta",
+        "Type": "et",
+        "ColorBlock": 655,
+        "IconHint": "aut",
         "Selected": true,
-        "LastChanged": "2000-02-24T12:01:33.5738574+01:00",
+        "LastChanged": "2015-12-29T14:13:50.0875321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Garnett Romaguera"
+        "ExtraInfo": "officiis",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Zachary Cronin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
+    "ExtraInfo": "sunt",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Mack Durgan"
+    "FullName": "Mrs. Macey Octavia Hudson IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 331,
-    "Name": "Goodwin, Turner and Romaguera",
-    "ToolTip": "Non odio labore voluptate nam laboriosam.",
+    "Id": 599,
+    "Name": "Walker, Goyette and Gerhold",
+    "ToolTip": "Iste autem pariatur repellat.",
     "Deleted": false,
-    "Rank": 477,
-    "Type": "veniam",
-    "ColorBlock": 309,
-    "IconHint": "aut",
+    "Rank": 638,
+    "Type": "omnis",
+    "ColorBlock": 118,
+    "IconHint": "porro",
     "Selected": false,
-    "LastChanged": "2002-03-20T12:01:33.5738574+01:00",
+    "LastChanged": "1998-06-02T14:13:50.0875321+02:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Schaden-Dare",
-        "ToolTip": "Ducimus ut.",
-        "Deleted": false,
-        "Rank": 224,
-        "Type": "culpa",
-        "ColorBlock": 306,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2009-03-02T12:01:33.5738574+01:00",
+        "Id": 879,
+        "Name": "Nikolaus, Wolff and Barrows",
+        "ToolTip": "Enim nulla ad voluptatibus possimus odit hic.",
+        "Deleted": true,
+        "Rank": 766,
+        "Type": "voluptas",
+        "ColorBlock": 286,
+        "IconHint": "alias",
+        "Selected": false,
+        "LastChanged": "2003-10-10T14:13:50.0875321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "numquam",
+        "ExtraInfo": "non",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Enrique Candice Greenfelder III",
+        "FullName": "Francisca Beer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldType": "System.Int32",
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Maurice Barton",
+    "ExtraInfo": "ea",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Filomena Khalil Stracke PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 940
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Gottlieb-Stoltenberg",
-  "Tooltip": "tempore",
+  "Id": 221,
+  "Name": "Upton, Yundt and Lehner",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 367,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 94,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 166
     }
   },
   "_Links": {

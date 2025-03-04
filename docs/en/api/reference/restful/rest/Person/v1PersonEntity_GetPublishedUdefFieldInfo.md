@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 598,
-  "ColumnId": 735,
-  "FieldDefault": "accusantium",
-  "FieldHeight": 431,
-  "FieldLabel": "hic",
-  "FieldLeft": 626,
-  "FieldTop": 862,
+  "UDefFieldId": 913,
+  "ColumnId": 241,
+  "FieldDefault": "hic",
+  "FieldHeight": 677,
+  "FieldLabel": "odio",
+  "FieldLeft": 109,
+  "FieldTop": 282,
   "FieldType": "Checkbox",
-  "FieldWidth": 525,
-  "FormatMask": "id",
+  "FieldWidth": 261,
+  "FormatMask": "qui",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 417,
-  "LabelLeft": 821,
-  "LabelTop": 813,
-  "LabelWidth": 657,
-  "LastVersionId": 671,
-  "ListTableId": 393,
-  "IsMandatory": false,
+  "LabelHeight": 641,
+  "LabelLeft": 542,
+  "LabelTop": 653,
+  "LabelWidth": 123,
+  "LastVersionId": 187,
+  "ListTableId": 541,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 887,
-  "ProgId": "rerum",
+  "Page1LineNo": 428,
+  "ProgId": "cupiditate",
   "IsReadOnly": true,
-  "ShortLabel": "autem",
-  "TabOrder": 184,
-  "TextLength": 450,
-  "Tooltip": "sed",
-  "UdefIdentity": 563,
-  "UDListDefinitionId": 202,
+  "ShortLabel": "earum",
+  "TabOrder": 844,
+  "TextLength": 196,
+  "Tooltip": "ut",
+  "UdefIdentity": 820,
+  "UDListDefinitionId": 210,
   "Justification": "Center",
-  "Version": 310,
-  "TemplateVariableName": "Renner-Hegmann",
-  "HasBeenPublished": true,
-  "MdoListName": "Mayert, Feest and Brakus",
+  "Version": 376,
+  "TemplateVariableName": "Paucek, Funk and Becker",
+  "HasBeenPublished": false,
+  "MdoListName": "Goldner-Gusikowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 959
     }
   }
 }

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 226,
-  "EmailAddress": "mattie@hirthe.ca",
-  "EmailTemplateId": 760,
-  "CultureLcidId": 750,
-  "Subject": "mollitia"
+  "PersonId": 429,
+  "EmailAddress": "sienna_krajcik@swaniawskilarson.uk",
+  "EmailTemplateId": 925,
+  "CultureLcidId": 431,
+  "Subject": "autem"
 }
 ```
 

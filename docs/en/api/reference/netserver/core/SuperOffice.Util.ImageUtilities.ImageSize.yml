@@ -1,0 +1,720 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ImageUtilities.ImageSize
+  commentId: T:SuperOffice.Util.ImageUtilities.ImageSize
+  id: ImageUtilities.ImageSize
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ImageUtilities.ImageSize.#ctor
+  - SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize
+  - SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+  - SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+  - SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+  - SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+  langs:
+  - csharp
+  - vb
+  name: ImageUtilities.ImageSize
+  nameWithType: ImageUtilities.ImageSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nDescription of requested size for an image.\n"
+  syntax:
+    content: 'public class ImageSize : Object'
+    content.vb: >-
+      Public Class ImageSize
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Util.ImageUtilities.ImageSize.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ImageUtilities.ImageSize)
+  - SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.#ctor
+  commentId: M:SuperOffice.Util.ImageUtilities.ImageSize.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize()
+  nameWithType: ImageUtilities.ImageSize.ImageSize()
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ImageSize()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor that sets no restriction on the image size.\n"
+  syntax:
+    content: public ImageSize()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize(Int32, Int32)
+  nameWithType: ImageUtilities.ImageSize.ImageSize(Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ImageSize(System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor forcing the image to the given size.  \nThe image is scaled so it fits within the boounds.  \nAreas of the image not filling the requested area is \nfilled with <xref href=\"System.Drawing.Color.White\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public ImageSize(int width, int height)
+    parameters:
+    - id: width
+      type: System.Int32
+      description: With of the image.
+    - id: height
+      type: System.Int32
+      description: Height of the image.
+    content.vb: Public Sub New(width As Integer, height As Integer)
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.ImageSize.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ImageSize(Int32, Int32, Int32, Int32)
+  nameWithType: ImageUtilities.ImageSize.ImageSize(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ImageSize(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nConstructor forcing the image to be larger than the \nsmallest size specified, yet larger then the outer bounds.\nAreas of the image not filling the requested area is \nfilled with <xref href=\"System.Drawing.Color.White\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public ImageSize(int minWidth, int minHeight, int maxWidth, int maxHeight)
+    parameters:
+    - id: minWidth
+      type: System.Int32
+      description: Minimum width of the image.
+    - id: minHeight
+      type: System.Int32
+      description: Minimum height of the image.
+    - id: maxWidth
+      type: System.Int32
+      description: Maximum height of the image.
+    - id: maxHeight
+      type: System.Int32
+      description: Maximum height of the image.
+    content.vb: Public Sub New(minWidth As Integer, minHeight As Integer, maxWidth As Integer, maxHeight As Integer)
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+  commentId: P:SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+  id: MinSize
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: MinSize
+  nameWithType: ImageUtilities.ImageSize.MinSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nMinimum size of a picture.  A width or hight of 0 indicates no minimum size.\n"
+  syntax:
+    content: public Size MinSize { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Property MinSize As Size
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.MinSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+  commentId: P:SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+  id: MaxSize
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: MaxSize
+  nameWithType: ImageUtilities.ImageSize.MaxSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nMaximum size of a picture.  A width or height of 0 indicates no maximum size.\n"
+  syntax:
+    content: public Size MaxSize { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Property MaxSize As Size
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.MaxSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+  commentId: P:SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+  id: ScaleStrategy
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: ScaleStrategy
+  nameWithType: ImageUtilities.ImageSize.ScaleStrategy
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nStrategy for scaling the picture within the supplied bounds.\n"
+  syntax:
+    content: public ImageUtilities.ScaleStrategy ScaleStrategy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Util.ImageUtilities.ScaleStrategy
+    content.vb: Public Property ScaleStrategy As ImageUtilities.ScaleStrategy
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+  commentId: P:SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+  id: FillColor
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: FillColor
+  nameWithType: ImageUtilities.ImageSize.FillColor
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nFill color to be used in areas of the image not filled by the original image\n"
+  syntax:
+    content: public Color FillColor { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public Property FillColor As Color
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.FillColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize
+  commentId: P:SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize
+  id: DefaultSize
+  parent: SuperOffice.Util.ImageUtilities.ImageSize
+  langs:
+  - csharp
+  - vb
+  name: DefaultSize
+  nameWithType: ImageUtilities.ImageSize.DefaultSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: "\nCalculate the default size that can be used for fall-back images.\n"
+  syntax:
+    content: public Size DefaultSize { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public ReadOnly Property DefaultSize As Size
+  overload: SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ImageUtilities.ImageSize, To>()
+  nameWithType: EnumUtil.MapEnums<ImageUtilities.ImageSize, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ImageUtilities.ImageSize, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ImageUtilities.ImageSize, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ImageUtilities.ImageSize, To)()
+  name.vb: MapEnums(Of ImageUtilities.ImageSize, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ImageUtilities.ImageSize, To>
+    nameWithType: EnumUtil.MapEnums<ImageUtilities.ImageSize, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ImageUtilities.ImageSize, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ImageUtilities.ImageSize, To)
+    nameWithType: EnumUtil.MapEnums(Of ImageUtilities.ImageSize, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ImageUtilities.ImageSize, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ImageUtilities.ImageSize)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ImageUtilities.ImageSize>(ImageUtilities.ImageSize)
+  nameWithType: ObjectExtensions.AssignByReflection<ImageUtilities.ImageSize>(ImageUtilities.ImageSize)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ImageUtilities.ImageSize>(SuperOffice.Util.ImageUtilities.ImageSize)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ImageUtilities.ImageSize)(ImageUtilities.ImageSize)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ImageUtilities.ImageSize)(SuperOffice.Util.ImageUtilities.ImageSize)
+  name.vb: AssignByReflection(Of ImageUtilities.ImageSize)(ImageUtilities.ImageSize)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ImageUtilities.ImageSize>
+    nameWithType: ObjectExtensions.AssignByReflection<ImageUtilities.ImageSize>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ImageUtilities.ImageSize>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageUtilities.ImageSize
+    nameWithType: ImageUtilities.ImageSize
+    fullName: SuperOffice.Util.ImageUtilities.ImageSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ImageUtilities.ImageSize)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ImageUtilities.ImageSize)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ImageUtilities.ImageSize)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageUtilities.ImageSize
+    nameWithType: ImageUtilities.ImageSize
+    fullName: SuperOffice.Util.ImageUtilities.ImageSize
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ImageUtilities.ImageSize>()
+  nameWithType: ObjectExtensions.GraphCopy<ImageUtilities.ImageSize>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ImageUtilities.ImageSize>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ImageUtilities.ImageSize)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ImageUtilities.ImageSize)()
+  name.vb: GraphCopy(Of ImageUtilities.ImageSize)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ImageUtilities.ImageSize>
+    nameWithType: ObjectExtensions.GraphCopy<ImageUtilities.ImageSize>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ImageUtilities.ImageSize>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ImageUtilities.ImageSize)
+    nameWithType: ObjectExtensions.GraphCopy(Of ImageUtilities.ImageSize)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ImageUtilities.ImageSize)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ImageUtilities.ImageSize, To>()
+  nameWithType: Converters.MapEnums<ImageUtilities.ImageSize, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ImageUtilities.ImageSize, To>()
+  nameWithType.vb: Converters.MapEnums(Of ImageUtilities.ImageSize, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ImageUtilities.ImageSize, To)()
+  name.vb: MapEnums(Of ImageUtilities.ImageSize, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ImageUtilities.ImageSize, To>
+    nameWithType: Converters.MapEnums<ImageUtilities.ImageSize, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ImageUtilities.ImageSize, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ImageUtilities.ImageSize, To)
+    nameWithType: Converters.MapEnums(Of ImageUtilities.ImageSize, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ImageUtilities.ImageSize, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.#ctor*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.#ctor
+  isExternal: true
+  name: ImageSize
+  nameWithType: ImageUtilities.ImageSize.ImageSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ImageSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.MinSize*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+  isExternal: true
+  name: MinSize
+  nameWithType: ImageUtilities.ImageSize.MinSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.MinSize
+- uid: System.Drawing.Size
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.MaxSize*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+  isExternal: true
+  name: MaxSize
+  nameWithType: ImageUtilities.ImageSize.MaxSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.MaxSize
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+  isExternal: true
+  name: ScaleStrategy
+  nameWithType: ImageUtilities.ImageSize.ScaleStrategy
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.ScaleStrategy
+- uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
+  commentId: T:SuperOffice.Util.ImageUtilities.ScaleStrategy
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ImageUtilities.ScaleStrategy
+  nameWithType: ImageUtilities.ScaleStrategy
+  fullName: SuperOffice.Util.ImageUtilities.ScaleStrategy
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.FillColor*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+  isExternal: true
+  name: FillColor
+  nameWithType: ImageUtilities.ImageSize.FillColor
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.FillColor
+- uid: System.Drawing.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize
+  isExternal: true
+  name: DefaultSize
+  nameWithType: ImageUtilities.ImageSize.DefaultSize
+  fullName: SuperOffice.Util.ImageUtilities.ImageSize.DefaultSize

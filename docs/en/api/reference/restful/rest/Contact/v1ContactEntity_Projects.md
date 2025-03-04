@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Projects?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Projects?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Projects?$orderBy=name asc
-GET /api/v1/Contact/{id}/Projects?$entities=commodi
-GET /api/v1/Contact/{id}/Projects?$top=907
-GET /api/v1/Contact/{id}/Projects?$skip=283
+GET /api/v1/Contact/{id}/Projects?$entities=id
+GET /api/v1/Contact/{id}/Projects?$top=837
+GET /api/v1/Contact/{id}/Projects?$skip=429
 GET /api/v1/Contact/{id}/Projects?$mode=Full
 GET /api/v1/Contact/{id}/Projects?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Projects?$context=harum
+GET /api/v1/Contact/{id}/Projects?$context=dolore
 GET /api/v1/Contact/{id}/Projects?$format=JSON
 GET /api/v1/Contact/{id}/Projects?$jsonSafe=False
 GET /api/v1/Contact/{id}/Projects?$output=Display
@@ -134,19 +134,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ad",
+  "odata.nextLink": "exercitationem",
   "value": [
     {
-      "PrimaryKey": 6670,
-      "EntityName": "person",
-      "personId": 6670,
-      "fullName": "Miss Summer Kunde"
+      "PrimaryKey": 7533,
+      "EntityName": "sale",
+      "saleId": 7533,
+      "contactId": 5066,
+      "name": "Quitzon-Monahan"
     },
     {
-      "PrimaryKey": 3179,
-      "EntityName": "person",
-      "personId": 3179,
-      "fullName": "Brady Bogisich"
+      "PrimaryKey": 215,
+      "EntityName": "sale",
+      "saleId": 215,
+      "contactId": 1045,
+      "name": "Hackett Inc and Sons"
     }
   ]
 }

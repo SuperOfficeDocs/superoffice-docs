@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Stanton-Walter",
-  "RecordId": 466,
-  "AssociateId": 773
+  "TableName": "Sipes, Little and Hayes",
+  "RecordId": 563,
+  "AssociateId": 645
 }
 ```
 

@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 506,
-      "ColumnId": 275,
-      "FieldDefault": "laudantium",
-      "FieldHeight": 709,
-      "FieldLabel": "iste",
-      "FieldLeft": 514,
-      "FieldTop": 518,
+      "UDefFieldId": 291,
+      "ColumnId": 970,
+      "FieldDefault": "rerum",
+      "FieldHeight": 38,
+      "FieldLabel": "quisquam",
+      "FieldLeft": 877,
+      "FieldTop": 392,
       "FieldType": "Checkbox",
-      "FieldWidth": 861,
-      "FormatMask": "repellendus",
+      "FieldWidth": 279,
+      "FormatMask": "atque",
       "HideLabel": false,
-      "IsIndexed": false,
-      "LabelHeight": 157,
-      "LabelLeft": 337,
-      "LabelTop": 232,
-      "LabelWidth": 777,
-      "LastVersionId": 170,
-      "ListTableId": 328,
+      "IsIndexed": true,
+      "LabelHeight": 960,
+      "LabelLeft": 347,
+      "LabelTop": 319,
+      "LabelWidth": 180,
+      "LastVersionId": 468,
+      "ListTableId": 396,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 799,
-      "ProgId": "iusto",
-      "IsReadOnly": true,
-      "ShortLabel": "eos",
-      "TabOrder": 908,
-      "TextLength": 691,
-      "Tooltip": "cumque",
-      "UdefIdentity": 747,
-      "UDListDefinitionId": 500,
+      "Page1LineNo": 130,
+      "ProgId": "voluptas",
+      "IsReadOnly": false,
+      "ShortLabel": "placeat",
+      "TabOrder": 217,
+      "TextLength": 668,
+      "Tooltip": "illo",
+      "UdefIdentity": 583,
+      "UDListDefinitionId": 200,
       "Justification": "Center",
-      "Version": 300,
-      "TemplateVariableName": "Hane, Hettinger and Gusikowski",
+      "Version": 971,
+      "TemplateVariableName": "Veum Group",
       "HasBeenPublished": false,
-      "MdoListName": "Kling LLC"
+      "MdoListName": "Daniel, Funk and Collier"
     }
   ]
 }

@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Osinski-Rogahn",
-  "Restrictions": "a"
+  "ProviderName": "Parisian-Balistreri",
+  "Restrictions": "vitae"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "McDermott, Huels and Cruickshank",
-    "DisplayTooltip": "possimus",
-    "DisplayType": "et",
-    "CanOrderBy": false,
-    "Name": "Wolff, Friesen and Ritchie",
+    "DisplayName": "Johnson-Rice",
+    "DisplayTooltip": "repellat",
+    "DisplayType": "quam",
+    "CanOrderBy": true,
+    "Name": "Kovacek Group",
     "CanRestrictBy": false,
-    "RestrictionType": "modi",
-    "RestrictionListName": "Veum, Green and Ryan",
-    "IsVisible": false,
+    "RestrictionType": "adipisci",
+    "RestrictionListName": "Altenwerth-Moen",
+    "IsVisible": true,
     "ExtraInfo": "et",
-    "Width": "voluptates",
-    "IconHint": "laboriosam",
-    "HeadingIconHint": "et"
+    "Width": "corporis",
+    "IconHint": "similique",
+    "HeadingIconHint": "officiis"
   }
 ]
 ```

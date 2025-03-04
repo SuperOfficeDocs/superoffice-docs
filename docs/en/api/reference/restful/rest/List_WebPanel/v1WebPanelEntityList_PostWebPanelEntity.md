@@ -107,30 +107,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 149,
-  "Name": "Wintheiser, VonRueden and Harris",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "Rank": 680,
+  "WebPanelId": 97,
+  "Name": "Carter, Sanford and Senger",
+  "Tooltip": "explicabo",
+  "Deleted": false,
+  "Rank": 277,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Donnelly-O'Kon",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Kertzmann, Greenholt and Conroy",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 233,
+  "ProgId": "ipsam",
+  "Icon": 647,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 596,
-  "Name": "Rau, Stanton and Bartoletti",
-  "Tooltip": "libero",
+  "WebPanelId": 186,
+  "Name": "Mosciski-Boyle",
+  "Tooltip": "earum",
   "Deleted": false,
-  "Rank": 143,
+  "Rank": 732,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnSatellite": true,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Ferry Group",
+  "WindowName": "McCullough Group",
   "Url": "http://www.example.com/",
-  "ProgId": "nesciunt",
-  "Icon": 220,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "nobis",
+  "Icon": 817,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 159
     }
   }
 }

@@ -131,7 +131,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-08-28T12:01:27.1814891+02:00",
-  "AppointmentId": 624,
-  "Description": "Multi-tiered eco-centric infrastructure",
-  "Title": "quibusdam",
-  "Agenda": "molestiae",
-  "InternalNotes": "totam",
-  "StartDate": "2008-03-25T12:01:27.1814891+01:00",
-  "EndDate": "2024-07-15T12:01:27.1814891+02:00",
+  "CreatedDate": "1997-12-03T14:13:39.0942961+01:00",
+  "AppointmentId": 823,
+  "Description": "Reverse-engineered didactic info-mediaries",
+  "Title": "cumque",
+  "Agenda": "possimus",
+  "InternalNotes": "autem",
+  "StartDate": "2014-02-26T14:13:39.0942961+01:00",
+  "EndDate": "2020-07-23T14:13:39.0942961+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 664,
+  "MotherId": 29,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-10-06T12:01:27.1814891+02:00",
+  "UpdatedDate": "2014-03-06T14:13:39.0942961+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 184,
+  "ActiveLinks": 975,
   "Links": [
     {
-      "EntityName": "Brown-Stehr",
-      "Id": 610,
-      "Description": "Programmable intermediate monitoring",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 753,
+      "EntityName": "Dicki-Daniel",
+      "Id": 928,
+      "Description": "Open-architected disintermediate strategy",
+      "ExtraInfo": "a",
+      "LinkId": 768,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 278,
-  "IsFree": false,
+  "ColorIndex": 565,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "non",
-  "LeadTime": "excepturi",
-  "Location": "blanditiis",
-  "RejectCounter": 556,
+  "LagTime": "commodi",
+  "LeadTime": "laudantium",
+  "Location": "at",
+  "RejectCounter": 544,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 576,
-      "PersonId": 588,
-      "ContactId": 706,
-      "EmailId": 524,
-      "SendEmail": true,
+      "AssociateId": 570,
+      "PersonId": 262,
+      "ContactId": 984,
+      "EmailId": 327,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jayda_prohaska@paucek.info",
-      "Description": "Persistent tangible analyzer"
+      "EmailAddress": "johnnie_dibbert@schneiderlehner.com",
+      "Description": "Stand-alone explicit methodology"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-05-10T12:01:27.1814891+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-06-29T14:13:39.1099175+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 846,
+  "PreferredTZLocation": 610,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 131,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 995,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "corrupti",
+  "CentralserviceVideomeetId": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Ari Hackett",
-    "SuperOffice:2": "Terry Bosco"
+    "SuperOffice:1": "Dr. Suzanne Norris Hessel PhD",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "repudiandae"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "expedita"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "aut",
+    "CustomFields2": "dicta"
   },
-  "PublishEventDate": "2024-10-05T12:01:27.197115+02:00",
-  "PublishTo": "2014-06-22T12:01:27.197115+02:00",
-  "PublishFrom": "2014-05-29T12:01:27.197115+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-02-17T14:13:39.1099175+01:00",
+  "PublishTo": "2012-06-23T14:13:39.1099175+02:00",
+  "PublishFrom": "2014-10-01T14:13:39.1099175+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 177,
+      "VisibleId": 435,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 909
         }
       }
     },
     {
-      "VisibleId": 177,
+      "VisibleId": 435,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 459
+          "FieldType": "System.Int32",
+          "FieldLength": 909
         }
       }
     }
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

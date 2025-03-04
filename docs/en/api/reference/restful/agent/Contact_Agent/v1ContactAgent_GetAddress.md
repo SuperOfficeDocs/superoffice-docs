@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 995
+  "ContactId": 37
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22430.038,
-  "Wgs84Longitude": 18446.724,
+  "Wgs84Latitude": 18493.734,
+  "Wgs84Longitude": 12235.136,
   "LocalizedAddress": [
     [
       {
-        "Name": "Rohan LLC",
-        "Value": "tempore",
-        "Tooltip": "cupiditate",
-        "Label": "quod",
-        "ValueLength": 519,
-        "AddressType": "laudantium",
+        "Name": "Koch Group",
+        "Value": "debitis",
+        "Tooltip": "consequatur",
+        "Label": "praesentium",
+        "ValueLength": 992,
+        "AddressType": "velit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 964
           }
         }
       }
     ],
     [
       {
-        "Name": "Klocko, Nader and Huel",
-        "Value": "natus",
-        "Tooltip": "molestiae",
-        "Label": "recusandae",
-        "ValueLength": 762,
-        "AddressType": "autem",
+        "Name": "Christiansen-Torp",
+        "Value": "aut",
+        "Tooltip": "quis",
+        "Label": "dolores",
+        "ValueLength": 580,
+        "AddressType": "suscipit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 172
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aliquid",
+  "Formatted": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 73
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   }
 }

@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 456,
-  "SelectionId": 627,
-  "IncludeEmails": false
+  "DocumentPluginId": 922,
+  "SelectionId": 762,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 466,
-  "NumDocumentsAlreadyMigrated": 361,
+  "NumDocumentsOmitted": 201,
+  "NumDocumentsAlreadyMigrated": 99,
   "Documents": [
     {
-      "DocumentId": 238,
-      "ContactId": 224,
-      "PersonId": 999,
-      "SaleId": 24,
-      "ProjectId": 484,
-      "DocTmplId": 547,
-      "AssociateId": 932,
-      "UserGroupId": 12,
-      "VisibleForId": 663
+      "DocumentId": 412,
+      "ContactId": 940,
+      "PersonId": 220,
+      "SaleId": 196,
+      "ProjectId": 773,
+      "DocTmplId": 73,
+      "AssociateId": 85,
+      "UserGroupId": 123,
+      "VisibleForId": 525
     }
   ],
   "Associates": [
     {
-      "AssociateId": 463,
-      "EmailAddress": "ethelyn@denesik.ca"
+      "AssociateId": 815,
+      "EmailAddress": "gregoria_buckridge@kris.uk"
     },
     {
-      "AssociateId": 463,
-      "EmailAddress": "ethelyn@denesik.ca"
+      "AssociateId": 815,
+      "EmailAddress": "gregoria_buckridge@kris.uk"
     }
   ]
 }

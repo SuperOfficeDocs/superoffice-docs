@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 162,
-  "Name": "Conn Group",
-  "Tooltip": "voluptate",
+  "RoleId": 999,
+  "Name": "Metz, Gutmann and Weimann",
+  "Tooltip": "fugit",
   "RoleType": "Anonymous",
   "Deleted": 827,
-  "Rank": 511,
-  "Created": "1999-10-12T12:01:33.0269443+02:00",
-  "UseCategories": 472,
+  "Rank": 366,
+  "Created": "2020-10-23T14:13:49.1025081+02:00",
+  "UseCategories": 884,
   "CreatedBy": null,
-  "Updated": "2015-10-15T12:01:33.0269443+02:00",
+  "Updated": "1999-04-15T14:13:49.1025081+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 914,
-  "Name": "Nienow, Sawayn and Hahn",
-  "Tooltip": "voluptas",
+  "RoleId": 500,
+  "Name": "Dicki Group",
+  "Tooltip": "maiores",
   "RoleType": "Anonymous",
-  "Deleted": 556,
-  "Rank": 508,
-  "Created": "2004-12-03T12:01:33.0269443+01:00",
-  "UseCategories": 542,
+  "Deleted": 543,
+  "Rank": 453,
+  "Created": "1998-05-28T14:13:49.1025081+02:00",
+  "UseCategories": 670,
   "CreatedBy": null,
-  "Updated": "2021-07-11T12:01:33.0425704+02:00",
+  "Updated": "2001-03-06T14:13:49.1025081+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

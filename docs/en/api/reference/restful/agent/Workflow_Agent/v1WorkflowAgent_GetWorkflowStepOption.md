@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 893
+  "WorkflowStepOptionId": 731
 }
 ```
 
@@ -93,23 +93,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 788,
-  "WorkflowStepId": 180,
-  "WorkflowId": 937,
-  "Name": "Mohr Inc and Sons",
-  "Rank": 99,
+  "WorkflowStepOptionId": 217,
+  "WorkflowStepId": 592,
+  "WorkflowId": 209,
+  "Name": "Osinski, Dickens and Pfeffer",
+  "Rank": 501,
   "Steps": [
     {
-      "WorkflowStepId": 925,
-      "WorkflowId": 354,
+      "WorkflowStepId": 839,
+      "WorkflowId": 896,
       "StepType": "AddToList",
-      "Rank": 555
+      "Rank": 880
     },
     {
-      "WorkflowStepId": 925,
-      "WorkflowId": 354,
+      "WorkflowStepId": 839,
+      "WorkflowId": 896,
       "StepType": "AddToList",
-      "Rank": 555
+      "Rank": 880
     }
   ]
 }

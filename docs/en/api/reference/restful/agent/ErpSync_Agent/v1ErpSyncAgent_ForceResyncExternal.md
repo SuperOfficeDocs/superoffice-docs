@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 857,
+  "ErpConnectionId": 439,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "sapiente",
-    "voluptatem"
+    "eum",
+    "voluptas"
   ]
 }
 ```
@@ -102,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "quasi",
-  "TechExplanation": "sit",
-  "ErrorCode": "reiciendis",
+  "IsOk": true,
+  "UserExplanation": "repellendus",
+  "TechExplanation": "rerum",
+  "ErrorCode": "et",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   }
 }

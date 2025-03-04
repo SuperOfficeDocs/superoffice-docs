@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Mills-Kozey",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 996,
-    "UdListDefinitionId": 535,
+    "HeadingId": 307,
+    "Name": "Bednar Group",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 35,
+    "UdListDefinitionId": 390,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 772
+        "FieldType": "System.String",
+        "FieldLength": 928
       }
     }
   }

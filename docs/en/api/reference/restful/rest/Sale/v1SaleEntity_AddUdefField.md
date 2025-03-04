@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 247,
-  "ColumnId": 137,
-  "FieldDefault": "nam",
-  "FieldHeight": 264,
-  "FieldLabel": "a",
-  "FieldLeft": 69,
-  "FieldTop": 424,
+  "UDefFieldId": 129,
+  "ColumnId": 788,
+  "FieldDefault": "quia",
+  "FieldHeight": 411,
+  "FieldLabel": "sit",
+  "FieldLeft": 182,
+  "FieldTop": 950,
   "FieldType": "Checkbox",
-  "FieldWidth": 974,
-  "FormatMask": "dolor",
+  "FieldWidth": 36,
+  "FormatMask": "error",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 122,
-  "LabelLeft": 633,
-  "LabelTop": 909,
-  "LabelWidth": 391,
-  "LastVersionId": 600,
-  "ListTableId": 315,
+  "IsIndexed": true,
+  "LabelHeight": 361,
+  "LabelLeft": 688,
+  "LabelTop": 768,
+  "LabelWidth": 611,
+  "LastVersionId": 796,
+  "ListTableId": 942,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 567,
-  "ProgId": "nihil",
-  "IsReadOnly": true,
-  "ShortLabel": "cum",
-  "TabOrder": 769,
-  "TextLength": 831,
-  "Tooltip": "iusto",
-  "UdefIdentity": 918,
-  "UDListDefinitionId": 192,
+  "Page1LineNo": 45,
+  "ProgId": "delectus",
+  "IsReadOnly": false,
+  "ShortLabel": "praesentium",
+  "TabOrder": 208,
+  "TextLength": 799,
+  "Tooltip": "voluptatem",
+  "UdefIdentity": 27,
+  "UDListDefinitionId": 208,
   "Justification": "Center",
-  "Version": 97,
-  "TemplateVariableName": "Blick, White and Hansen",
-  "HasBeenPublished": true,
-  "MdoListName": "Kessler-White",
+  "Version": 484,
+  "TemplateVariableName": "Marquardt Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Franecki Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 516
     }
   }
 }

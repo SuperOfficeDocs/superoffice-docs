@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 151
+  "Count": 133
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "qui",
-    "PersonId": 384,
-    "Mrmrs": "ut",
-    "Firstname": "Estefania",
-    "Lastname": "Friesen",
-    "MiddleName": "Kirlin-Spencer",
-    "Title": "cupiditate",
-    "Description": "Centralized system-worthy portal",
-    "Email": "monserrat_labadie@swift.info",
-    "FullName": "Ursula Ledner",
-    "DirectPhone": "254.799.4169 x63736",
-    "FormalName": "Green, Crooks and O'Conner",
-    "CountryId": 572,
-    "ContactId": 566,
-    "ContactName": "Feeney-McGlynn",
-    "Retired": 723,
-    "Rank": 901,
-    "ActiveInterests": 382,
+    "Position": "occaecati",
+    "PersonId": 296,
+    "Mrmrs": "harum",
+    "Firstname": "Melody",
+    "Lastname": "Lebsack",
+    "MiddleName": "Sipes-Hayes",
+    "Title": "repellendus",
+    "Description": "Profit-focused contextually-based customer loyalty",
+    "Email": "magdalena@hermistonnicolas.biz",
+    "FullName": "Mr. Katelyn Bruen Jr.",
+    "DirectPhone": "(050)273-0267",
+    "FormalName": "Bahringer Inc and Sons",
+    "CountryId": 704,
+    "ContactId": 703,
+    "ContactName": "Pouros Inc and Sons",
+    "Retired": 705,
+    "Rank": 240,
+    "ActiveInterests": 782,
     "ContactDepartment": "",
-    "ContactCountryId": 934,
-    "ContactOrgNr": "952832",
-    "FaxPhone": "318-490-2999 x216",
-    "MobilePhone": "(187)336-5194 x252",
-    "ContactPhone": "635-351-8779 x39073",
-    "AssociateName": "Morissette, Pacocha and Stroman",
-    "AssociateId": 568,
-    "UsePersonAddress": true,
-    "ContactFax": "soluta",
-    "Kanafname": "voluptatem",
-    "Kanalname": "error",
-    "Post1": "exercitationem",
-    "Post2": "id",
-    "Post3": "non",
-    "EmailName": "louisa_mills@rempelwisoky.uk",
-    "ContactFullName": "Mrs. Dorris Jacobi",
-    "ActiveErpLinks": 878,
-    "TicketPriorityId": 518,
-    "SupportLanguageId": 976,
-    "SupportAssociateId": 882,
+    "ContactCountryId": 407,
+    "ContactOrgNr": "1844067",
+    "FaxPhone": "1-896-561-2719 x178",
+    "MobilePhone": "1-452-488-8025 x8028",
+    "ContactPhone": "(218)558-1242 x526",
+    "AssociateName": "Schumm Inc and Sons",
+    "AssociateId": 979,
+    "UsePersonAddress": false,
+    "ContactFax": "tempore",
+    "Kanafname": "et",
+    "Kanalname": "qui",
+    "Post1": "sed",
+    "Post2": "a",
+    "Post3": "autem",
+    "EmailName": "alfonso@swift.biz",
+    "ContactFullName": "Bryon Hamill",
+    "ActiveErpLinks": 377,
+    "TicketPriorityId": 29,
+    "SupportLanguageId": 947,
+    "SupportAssociateId": 272,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "893888",
+    "PersonNumber": "1382214",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

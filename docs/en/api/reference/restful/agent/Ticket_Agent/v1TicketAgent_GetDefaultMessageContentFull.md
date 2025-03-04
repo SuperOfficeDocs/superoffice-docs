@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 269,
+  "TicketId": 869,
   "MessageActionType": "Forward",
-  "TicketMessageId": 228,
-  "TicketTypeId": 617
+  "TicketMessageId": 441,
+  "TicketTypeId": 220
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "autem",
+  "Body": "ut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 345,
-      "Name": "Weissnat Group",
-      "ContentType": "nisi",
-      "AttSize": 153,
-      "InlineImage": true,
-      "ContentId": "quos",
-      "AuthKey": "odio",
+      "AttachmentId": 403,
+      "Name": "Weissnat-Hayes",
+      "ContentType": "quidem",
+      "AttSize": 668,
+      "InlineImage": false,
+      "ContentId": "eaque",
+      "AuthKey": "hic",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 435
+          "FieldLength": 175
         }
       }
     }

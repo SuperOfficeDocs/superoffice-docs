@@ -30,7 +30,7 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=molestias
+GET /api/v1/MDOList/{listname}/selectable?additional=modi
 GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 661,
-    "Name": "Maggio-Prohaska",
-    "ToolTip": "Et et nemo sit dolorem ut sint.",
-    "Deleted": true,
-    "Rank": 434,
-    "Type": "ut",
-    "ColorBlock": 577,
-    "IconHint": "aliquid",
+    "Id": 973,
+    "Name": "Wolff Inc and Sons",
+    "ToolTip": "Molestias sed.",
+    "Deleted": false,
+    "Rank": 725,
+    "Type": "odio",
+    "ColorBlock": 294,
+    "IconHint": "commodi",
     "Selected": true,
-    "LastChanged": "2005-04-06T12:01:33.5269792+02:00",
+    "LastChanged": "2022-12-15T14:13:49.9938028+01:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Adams Group",
-        "ToolTip": "Cumque asperiores veniam sapiente.",
-        "Deleted": false,
-        "Rank": 855,
-        "Type": "non",
-        "ColorBlock": 304,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2008-10-11T12:01:33.5269792+02:00",
+        "Id": 434,
+        "Name": "Kuhlman, Borer and Schuster",
+        "ToolTip": "Quidem voluptas accusamus assumenda fugiat.",
+        "Deleted": true,
+        "Rank": 696,
+        "Type": "est",
+        "ColorBlock": 379,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2016-06-03T14:13:49.9938028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ea",
-        "Hidden": false,
-        "FullName": "Fabian Grimes",
+        "ExtraInfo": "quis",
+        "StyleHint": "voluptatum",
+        "Hidden": true,
+        "FullName": "Miss Howell Melba Abshire DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldLength": 493
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "enim",
-    "Hidden": false,
-    "FullName": "Leone Glover",
+    "ExtraInfo": "velit",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Mallie Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 950
       }
     }
   }

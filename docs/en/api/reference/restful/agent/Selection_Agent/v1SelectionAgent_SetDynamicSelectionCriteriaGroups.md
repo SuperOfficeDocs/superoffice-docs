@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 176,
+  "SelectionId": 791,
   "Criteria": [
     {
-      "Name": "Smith-Langworth",
-      "Description": "Innovative heuristic utilisation",
-      "Rank": 110,
+      "Name": "Schmidt, Zieme and Turcotte",
+      "Description": "Horizontal intermediate complexity",
+      "Rank": 907,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Smith-Langworth",
-      "Description": "Innovative heuristic utilisation",
-      "Rank": 110,
+      "Name": "Schmidt, Zieme and Turcotte",
+      "Description": "Horizontal intermediate complexity",
+      "Rank": 907,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Prosacco Group",
-    "Description": "Visionary leading edge hardware",
-    "Rank": 258,
+    "Name": "Spencer-Cronin",
+    "Description": "Pre-emptive optimal complexity",
+    "Rank": 743,
     "Restrictions": [
       {
-        "Name": "Ankunding, Gaylord and Rowe",
-        "Operator": "ut",
+        "Name": "Parisian, Lynch and Strosin",
+        "Operator": "debitis",
         "Values": [
-          "voluptate",
-          "magni"
+          "quia",
+          "ut"
         ],
         "DisplayValues": [
-          "eligendi",
-          "beatae"
+          "natus",
+          "repellendus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 469,
+        "InterParenthesis": 427,
         "InterOperator": "And",
-        "UniqueHash": 332
+        "UniqueHash": 424
       }
     ]
   },
   {
-    "Name": "Prosacco Group",
-    "Description": "Visionary leading edge hardware",
-    "Rank": 258,
+    "Name": "Spencer-Cronin",
+    "Description": "Pre-emptive optimal complexity",
+    "Rank": 743,
     "Restrictions": [
       {
-        "Name": "Ankunding, Gaylord and Rowe",
-        "Operator": "ut",
+        "Name": "Parisian, Lynch and Strosin",
+        "Operator": "debitis",
         "Values": [
-          "voluptate",
-          "magni"
+          "quia",
+          "ut"
         ],
         "DisplayValues": [
-          "eligendi",
-          "beatae"
+          "natus",
+          "repellendus"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 469,
+        "InterParenthesis": 427,
         "InterOperator": "And",
-        "UniqueHash": 332
+        "UniqueHash": 424
       }
     ]
   }

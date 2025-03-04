@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 838,
-  "Section": "et",
-  "Key": "ex",
-  "Name": "Swift-Dickens",
+  "PrefDescId": 513,
+  "Section": "at",
+  "Key": "molestiae",
+  "Name": "Hermiston, Kub and Christiansen",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized mission-critical intranet",
+  "Description": "Configurable secondary groupware",
   "IsBuiltin": false,
-  "TableName": "Rippin-Pacocha",
-  "UserDefinedListId": 730,
-  "Rank": 670,
-  "SubGroup": "voluptatibus",
-  "MinLevel": 46,
-  "MaxValue": 220,
-  "MinValue": 539,
-  "RequiredLicense": "rem",
+  "TableName": "Lesch LLC",
+  "UserDefinedListId": 208,
+  "Rank": 766,
+  "SubGroup": "possimus",
+  "MinLevel": 587,
+  "MaxValue": 322,
+  "MinValue": 712,
+  "RequiredLicense": "dolore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

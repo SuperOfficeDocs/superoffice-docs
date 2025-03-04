@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=quae
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=magni
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Reynolds-Dach",
-    "ToolTip": "Et odio quasi eligendi nesciunt et inventore at.",
-    "Deleted": true,
-    "Rank": 772,
-    "Type": "architecto",
+    "Id": 525,
+    "Name": "Grimes Group",
+    "ToolTip": "Itaque veritatis aut odit.",
+    "Deleted": false,
+    "Rank": 367,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Schuppe, Marquardt and Spencer",
-        "ToolTip": "Non qui autem voluptatum consequatur non.",
+        "Id": 899,
+        "Name": "VonRueden, Feest and Romaguera",
+        "ToolTip": "Vel veniam quos eos alias explicabo exercitationem.",
         "Deleted": false,
-        "Rank": 713,
-        "Type": "qui",
+        "Rank": 212,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 641,
-        "ExtraInfo": "eaque",
-        "StyleHint": "repellendus",
-        "FullName": "Mrs. Izabella Scottie Crooks",
+        "IconHint": "sint",
+        "ColorBlock": 895,
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "aut",
+        "FullName": "Lori Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldType": "System.String",
+            "FieldLength": 893
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 596,
-    "ExtraInfo": "enim",
-    "StyleHint": "doloremque",
-    "FullName": "Miss Lorenza Cronin V",
+    "IconHint": "est",
+    "ColorBlock": 941,
+    "ExtraInfo": "illo",
+    "StyleHint": "eos",
+    "FullName": "Carrie Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 285
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 281,
-    "Name": "Bogan-Kovacek",
-    "ToolTip": "Eaque sit consequuntur accusamus facere ad quo sunt.",
-    "Deleted": true,
-    "Rank": 813,
-    "Type": "fugit",
-    "ColorBlock": 897,
-    "IconHint": "excepturi",
+    "Id": 698,
+    "Name": "Witting Group",
+    "ToolTip": "Porro eos voluptas aut.",
+    "Deleted": false,
+    "Rank": 259,
+    "Type": "architecto",
+    "ColorBlock": 467,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2024-01-18T12:01:33.4644748+01:00",
+    "LastChanged": "2019-05-13T14:13:49.7273664+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Bartoletti-Kling",
-        "ToolTip": "Facere ea necessitatibus voluptatum omnis ea.",
+        "Id": 335,
+        "Name": "Daugherty, Quigley and Mann",
+        "ToolTip": "Ut voluptatem a dignissimos et nulla.",
         "Deleted": false,
-        "Rank": 117,
-        "Type": "voluptates",
-        "ColorBlock": 873,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2020-12-04T12:01:33.4644748+01:00",
+        "Rank": 221,
+        "Type": "voluptatum",
+        "ColorBlock": 133,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2003-01-05T14:13:49.7273664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Kiana Lockman",
+        "ExtraInfo": "hic",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Mafalda Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldType": "System.String",
+            "FieldLength": 578
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "eum",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "debitis",
     "Hidden": false,
-    "FullName": "Dr. Fabian Nathanael Rice",
+    "FullName": "Frederic Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 274
+        "FieldType": "System.Int32",
+        "FieldLength": 46
       }
     }
   }

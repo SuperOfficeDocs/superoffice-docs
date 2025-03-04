@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 563,
-  "Name": "Streich-Barrows",
-  "Tooltip": "ea",
-  "Rank": 641,
-  "Key": "eum",
+  "LegalBaseId": 500,
+  "Name": "Reynolds, Lang and Bahringer",
+  "Tooltip": "ratione",
+  "Rank": 513,
+  "Key": "voluptatem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldType": "System.Int32",
+      "FieldLength": 392
     }
   }
 }

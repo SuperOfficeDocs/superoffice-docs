@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Dibbert Group",
-  "Tooltip": "enim",
+  "Id": 78,
+  "Name": "Tillman-Gutmann",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 753,
-  "Rank": 334,
+  "UdListDefinitionId": 211,
+  "Rank": 671,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 200
     }
   }
 }

@@ -82,30 +82,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quasi",
-  "ProviderName": "Jast-Collins",
-  "StorageKey": "non",
+  "StorageType": "suscipit",
+  "ProviderName": "Towne Group",
+  "StorageKey": "quas",
   "RestrictionGroups": [
     {
-      "Name": "Blanda-Crooks",
-      "Description": "Reverse-engineered content-based infrastructure",
-      "Rank": 933,
+      "Name": "Koss Group",
+      "Description": "Decentralized high-level system engine",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Blanda-Crooks",
-      "Description": "Reverse-engineered content-based infrastructure",
-      "Rank": 933,
+      "Name": "Koss Group",
+      "Description": "Decentralized high-level system engine",
+      "Rank": 127,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "aut"
+  "Context": "aspernatur"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Intuitive background data-warehouse",
-    "Rank": 406,
+    "Name": "Kreiger-Casper",
+    "Description": "Quality-focused real-time orchestration",
+    "Rank": 249,
     "Restrictions": [
       {
-        "Name": "Doyle, Bernhard and Prohaska",
-        "Operator": "quos",
+        "Name": "Jones, Harvey and Hilll",
+        "Operator": "porro",
         "Values": [
-          "ipsam",
-          "beatae"
+          "itaque",
+          "aperiam"
         ],
         "DisplayValues": [
-          "facilis",
-          "vitae"
+          "adipisci",
+          "incidunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 564,
         "InterOperator": "And",
-        "UniqueHash": 576
+        "UniqueHash": 741
       }
     ]
   },
   {
-    "Name": "McDermott Inc and Sons",
-    "Description": "Intuitive background data-warehouse",
-    "Rank": 406,
+    "Name": "Kreiger-Casper",
+    "Description": "Quality-focused real-time orchestration",
+    "Rank": 249,
     "Restrictions": [
       {
-        "Name": "Doyle, Bernhard and Prohaska",
-        "Operator": "quos",
+        "Name": "Jones, Harvey and Hilll",
+        "Operator": "porro",
         "Values": [
-          "ipsam",
-          "beatae"
+          "itaque",
+          "aperiam"
         ],
         "DisplayValues": [
-          "facilis",
-          "vitae"
+          "adipisci",
+          "incidunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 804,
+        "InterParenthesis": 564,
         "InterOperator": "And",
-        "UniqueHash": 576
+        "UniqueHash": 741
       }
     ]
   }

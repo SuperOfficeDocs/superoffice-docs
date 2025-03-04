@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 545,
-  "Name": "McLaughlin, Hermann and Powlowski",
-  "Rank": 306,
-  "Tooltip": "aperiam",
-  "Icon": "consequuntur",
-  "DefaultTicketStatus": 950,
+  "TicketTypeId": 23,
+  "Name": "Rath, Hagenes and Prohaska",
+  "Rank": 153,
+  "Tooltip": "id",
+  "Icon": "voluptatem",
+  "DefaultTicketStatus": 91,
   "TicketStatuses": [
-    449,
-    617
+    792,
+    292
   ],
-  "DefaultTicketPriority": 393,
+  "DefaultTicketPriority": 6,
   "TicketPriorities": [
-    394,
-    150
+    744,
+    454
   ],
-  "ReplyTemplate": 822,
+  "ReplyTemplate": 779,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    924,
-    96
+    292,
+    586
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 725
     }
   }
 }

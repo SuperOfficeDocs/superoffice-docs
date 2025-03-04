@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 312,
-  "Section": "dolorem",
-  "Key": "vel",
-  "Name": "Wiza-Beatty",
+  "PrefDescId": 66,
+  "Section": "possimus",
+  "Key": "ut",
+  "Name": "Mayer, Sporer and Jakubowski",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Fundamental discrete data-warehouse",
+  "Description": "Face to face 4th generation definition",
   "IsBuiltin": true,
-  "TableName": "Fisher LLC",
-  "UserDefinedListId": 283,
-  "Rank": 903,
-  "SubGroup": "impedit",
-  "MinLevel": 141,
-  "MaxValue": 463,
-  "MinValue": 90,
-  "RequiredLicense": "laboriosam",
+  "TableName": "Goldner Inc and Sons",
+  "UserDefinedListId": 377,
+  "Rank": 949,
+  "SubGroup": "doloremque",
+  "MinLevel": 13,
+  "MaxValue": 842,
+  "MinValue": 986,
+  "RequiredLicense": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldLength": 716
     }
   }
 }

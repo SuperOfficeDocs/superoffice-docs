@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 173,
-  "BlobSize": 842,
-  "Description": "Quality-focused contextually-based portal",
-  "ExtraInfo": "repellendus",
-  "IsEncrypted": false,
+  "BlobId": 715,
+  "BlobSize": 118,
+  "Description": "Self-enabling encompassing parallelism",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "reprehenderit",
-  "OriginalSize": 867,
-  "CreatedDate": "2014-06-10T12:01:27.3533761+02:00",
-  "UpdatedDate": "2009-02-04T12:01:27.3533761+01:00",
+  "MimeType": "voluptatum",
+  "OriginalSize": 530,
+  "CreatedDate": "2017-04-01T14:13:39.3911033+02:00",
+  "UpdatedDate": "2008-03-17T14:13:39.3911033+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quae"
+  "ConceptualType": "neque"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 509,
-  "BlobSize": 636,
-  "Description": "Streamlined responsive portal",
-  "ExtraInfo": "id",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 936,
-  "CreatedDate": "2020-02-13T12:01:27.3533761+01:00",
-  "UpdatedDate": "2015-02-20T12:01:27.3533761+01:00",
+  "BlobId": 388,
+  "BlobSize": 758,
+  "Description": "Triple-buffered executive emulation",
+  "ExtraInfo": "dolores",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "quaerat",
+  "OriginalSize": 968,
+  "CreatedDate": "2000-07-20T14:13:39.4067248+02:00",
+  "UpdatedDate": "1999-07-19T14:13:39.4067248+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

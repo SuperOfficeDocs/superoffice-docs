@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Schamberger, Hintz and Block",
-    "ToolTip": "Est ut ipsa.",
+    "Id": 688,
+    "Name": "Johnson-Berge",
+    "ToolTip": "Necessitatibus quis nisi dignissimos.",
     "Deleted": false,
-    "Rank": 990,
-    "Type": "rerum",
-    "ColorBlock": 724,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2006-09-13T12:01:33.4801008+02:00",
+    "Rank": 638,
+    "Type": "cupiditate",
+    "ColorBlock": 689,
+    "IconHint": "exercitationem",
+    "Selected": false,
+    "LastChanged": "2006-07-16T14:13:49.9167536+02:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Mitchell, Hagenes and Reynolds",
-        "ToolTip": "Ut quis.",
-        "Deleted": true,
-        "Rank": 846,
-        "Type": "temporibus",
-        "ColorBlock": 739,
-        "IconHint": "enim",
+        "Id": 687,
+        "Name": "Brakus-Daugherty",
+        "ToolTip": "Dolor nulla ea enim.",
+        "Deleted": false,
+        "Rank": 213,
+        "Type": "voluptates",
+        "ColorBlock": 886,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2012-10-07T12:01:33.4801008+02:00",
+        "LastChanged": "2013-07-28T14:13:49.9167536+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Golda Davis",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Toy Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 232
+            "FieldLength": 397
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Name Lemke",
+    "ExtraInfo": "in",
+    "StyleHint": "recusandae",
+    "Hidden": true,
+    "FullName": "Vernie Schroeder",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 386
+        "FieldType": "System.Int32",
+        "FieldLength": 911
       }
     }
   }

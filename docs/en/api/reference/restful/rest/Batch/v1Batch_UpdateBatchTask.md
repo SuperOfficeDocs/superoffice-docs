@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "Schroeder LLC",
-  "AssociateId": 126,
-  "DetailsTable": 482,
-  "DetailsRecord": 425,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 239,
+  "Name": "Wolf Group",
+  "AssociateId": 775,
+  "DetailsTable": 279,
+  "DetailsRecord": 955,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "suscipit",
-    "ParameterObject2": "impedit"
+    "ParameterObject1": "deserunt",
+    "ParameterObject2": "perspiciatis"
   },
-  "LastStarted": "2008-01-18T12:01:33.308214+01:00",
-  "Created": "2009-02-16T12:01:33.308214+01:00",
-  "StartCount": 29,
-  "DatabaseSerialNumber": "1345595",
-  "Context": "et",
-  "Result": "dolores",
+  "LastStarted": "2024-12-02T14:13:49.4305556+01:00",
+  "Created": "2007-12-15T14:13:49.4305556+01:00",
+  "StartCount": 659,
+  "DatabaseSerialNumber": "756006",
+  "Context": "odio",
+  "Result": "id",
   "State": "All",
-  "Description": "Adaptive exuding success",
-  "Response": "nemo",
-  "Request": "rem",
-  "ProgressDescription": "Profit-focused web-enabled alliance",
-  "ProgressPercent": 700,
-  "FileName": "Tillman, Bogisich and Padberg",
+  "Description": "Enterprise-wide intangible workforce",
+  "Response": "sint",
+  "Request": "doloremque",
+  "ProgressDescription": "User-centric bottom-line superstructure",
+  "ProgressPercent": 408,
+  "FileName": "Trantow, Green and Gleason",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 522,
-  "Name": "Gulgowski, Gleichner and Bernier",
-  "AssociateId": 464,
-  "DetailsTable": 936,
-  "DetailsRecord": 543,
+  "Id": 167,
+  "Name": "Weimann Group",
+  "AssociateId": 496,
+  "DetailsTable": 701,
+  "DetailsRecord": 182,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "delectus",
-    "ParameterObject2": "maiores"
+    "ParameterObject1": "rem",
+    "ParameterObject2": "quo"
   },
-  "LastStarted": "2023-10-04T12:01:33.308214+02:00",
-  "Created": "2006-01-02T12:01:33.308214+01:00",
-  "StartCount": 4,
-  "DatabaseSerialNumber": "447431",
-  "Context": "sunt",
-  "Result": "consequatur",
+  "LastStarted": "2009-02-06T14:13:49.4305556+01:00",
+  "Created": "2018-11-24T14:13:49.4305556+01:00",
+  "StartCount": 130,
+  "DatabaseSerialNumber": "623992",
+  "Context": "temporibus",
+  "Result": "hic",
   "State": "All",
-  "Description": "Customer-focused bandwidth-monitored encryption",
-  "Response": "sit",
-  "Request": "quia",
-  "ProgressDescription": "Business-focused local solution",
-  "ProgressPercent": 42,
-  "FileName": "Weber-DuBuque",
+  "Description": "Progressive scalable project",
+  "Response": "autem",
+  "Request": "in",
+  "ProgressDescription": "Cross-platform hybrid internet solution",
+  "ProgressPercent": 610,
+  "FileName": "Langworth Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 518
     }
   }
 }

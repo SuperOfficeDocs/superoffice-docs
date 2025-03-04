@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 562,
+  "DocId": 126,
   "AttachmentIds": [
-    "distinctio",
-    "quod"
+    "praesentium",
+    "dignissimos"
   ],
   "IncludeAttachments": true
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 621,
-      "ContactName": "Kertzmann, Schumm and Steuber",
-      "PersonId": 74,
-      "PersonName": "Abernathy Group",
-      "AssociateId": 382,
-      "Address": "et",
-      "EmailId": 96,
+      "ContactId": 455,
+      "ContactName": "Olson LLC",
+      "PersonId": 428,
+      "PersonName": "Batz-Cormier",
+      "AssociateId": 504,
+      "Address": "similique",
+      "EmailId": 520,
       "DuplicatePersonIds": [
-        935,
-        3
+        638,
+        933
       ],
-      "Name": "Dickens-Bashirian",
+      "Name": "Erdman, Schaden and Cremin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldType": "System.String",
+          "FieldLength": 881
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 301,
-      "ContactName": "Jones, Zulauf and Schimmel",
-      "PersonId": 479,
-      "PersonName": "Champlin, Crooks and Senger",
-      "AssociateId": 805,
-      "Address": "aspernatur",
-      "EmailId": 722,
+      "ContactId": 761,
+      "ContactName": "Treutel-Mueller",
+      "PersonId": 42,
+      "PersonName": "Corkery, Krajcik and Marquardt",
+      "AssociateId": 810,
+      "Address": "quia",
+      "EmailId": 600,
       "DuplicatePersonIds": [
-        140,
-        995
+        230,
+        505
       ],
-      "Name": "McKenzie, Ruecker and Hermiston",
+      "Name": "Olson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldLength": 28
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 371,
-      "ContactName": "Green-Stanton",
-      "PersonId": 381,
-      "PersonName": "Baumbach, Hamill and Orn",
-      "AssociateId": 444,
-      "Address": "eaque",
-      "EmailId": 494,
+      "ContactId": 563,
+      "ContactName": "Hickle Inc and Sons",
+      "PersonId": 528,
+      "PersonName": "Hagenes, Pagac and Koch",
+      "AssociateId": 536,
+      "Address": "cumque",
+      "EmailId": 625,
       "DuplicatePersonIds": [
-        580,
-        972
+        44,
+        424
       ],
-      "Name": "Rice Inc and Sons",
+      "Name": "Windler-Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 119
         }
       }
     }
   ],
-  "Subject": "sed",
-  "HTMLBody": "quo",
+  "Subject": "inventore",
+  "HTMLBody": "reprehenderit",
   "From": null,
-  "Sent": "2009-07-27T12:01:27.8377848+02:00",
-  "Size": 447,
+  "Sent": "2009-01-13T14:13:40.2816332+01:00",
+  "Size": 467,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "rerum",
-  "IsSent": false,
+  "MessageID": "est",
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 626,
+  "ServerId": 201,
   "Attachments": [
     {
-      "Description": "Customizable uniform neural-net",
-      "Filename": "sint",
-      "Size": 129,
-      "Type": "temporibus",
-      "Encoding": "rem",
-      "Id": "culpa",
-      "Disposition": "voluptate",
+      "Description": "Distributed directional definition",
+      "Filename": "consequatur",
+      "Size": 848,
+      "Type": "quia",
+      "Encoding": "est",
+      "Id": "hic",
+      "Disposition": "doloribus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldType": "System.String",
+          "FieldLength": 696
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Harvey Group",
+      "Name": "Feest Group",
       "Values": [
-        "sint",
-        "cupiditate"
+        "voluptate",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     },
     {
-      "Name": "Harvey Group",
+      "Name": "Feest Group",
       "Values": [
-        "sint",
-        "cupiditate"
+        "voluptate",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 215
+          "FieldType": "System.String",
+          "FieldLength": 42
         }
       }
     }
   ],
-  "FolderName": "Donnelly-Larkin",
-  "EmailItemId": 265,
-  "AccountId": 812,
-  "ReceivedAt": "1999-11-07T12:01:27.8377848+01:00",
+  "FolderName": "Green-Reilly",
+  "EmailItemId": 560,
+  "AccountId": 158,
+  "ReceivedAt": "2011-06-02T14:13:40.2816332+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-05-06T12:01:27.8377848+02:00",
+  "RepliedAt": "2020-09-14T14:13:40.2816332+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 529
+      "FieldLength": 760
     }
   }
 }

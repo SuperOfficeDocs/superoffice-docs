@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 215,
+  "DocumentId": 190,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "dolores",
-  "Name": "Lesch-McKenzie",
-  "OurRef": "voluptates",
-  "YourRef": "qui",
-  "CreatedDate": "2003-09-18T12:01:27.6033946+02:00",
-  "UpdatedDate": "2008-03-06T12:01:27.6033946+01:00",
-  "Description": "Extended value-added focus group",
+  "Attention": "error",
+  "Header": "quasi",
+  "Name": "Borer-Koepp",
+  "OurRef": "fuga",
+  "YourRef": "molestiae",
+  "CreatedDate": "2001-11-11T14:13:40.0316899+01:00",
+  "UpdatedDate": "2001-05-20T14:13:40.0316899+02:00",
+  "Description": "Grass-roots next generation analyzer",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-08-11T12:01:27.6033946+02:00",
-  "ExternalRef": "ea",
+  "Date": "2021-06-19T14:13:40.0316899+02:00",
+  "ExternalRef": "ex",
   "Completed": "Completed",
-  "ActiveLinks": 16,
+  "ActiveLinks": 87,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Powlowski-Ruecker",
-      "Id": 476,
-      "Description": "Devolved 4th generation archive",
-      "ExtraInfo": "at",
-      "LinkId": 877,
+      "EntityName": "Schinner-Gorczany",
+      "Id": 864,
+      "Description": "Implemented next generation synergy",
+      "ExtraInfo": "nihil",
+      "LinkId": 844,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldType": "System.String",
+          "FieldLength": 109
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 249,
-  "Snum": 164,
+  "SuggestedDocumentId": 104,
+  "Snum": 646,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Kirstin Kathleen Trantow",
-    "SuperOffice:2": "1453597053"
+    "SuperOffice:1": "452602232",
+    "SuperOffice:2": "Maverick Gleichner"
   },
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "sint"
+    "CustomFields1": "in",
+    "CustomFields2": "itaque"
   },
-  "PublishEventDate": "2022-11-17T12:01:27.6033946+01:00",
-  "PublishTo": "2005-11-24T12:01:27.6033946+01:00",
-  "PublishFrom": "2007-09-12T12:01:27.6033946+02:00",
+  "PublishEventDate": "1999-11-05T14:13:40.0316899+01:00",
+  "PublishTo": "2023-09-24T14:13:40.0316899+02:00",
+  "PublishFrom": "2012-04-05T14:13:40.0316899+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 830,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 532
         }
       }
     },
     {
-      "VisibleId": 830,
+      "VisibleId": 140,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 421
+          "FieldLength": 532
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

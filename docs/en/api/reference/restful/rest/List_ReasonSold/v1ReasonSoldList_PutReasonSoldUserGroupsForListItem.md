@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Dicki Group",
-    "ToolTip": "Explicabo quia occaecati.",
-    "Deleted": true,
-    "Rank": 402,
-    "Type": "exercitationem",
-    "ColorBlock": 417,
-    "IconHint": "in",
+    "Id": 532,
+    "Name": "Roob-Tromp",
+    "ToolTip": "Excepturi non et.",
+    "Deleted": false,
+    "Rank": 736,
+    "Type": "in",
+    "ColorBlock": 425,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2022-10-12T12:01:33.6363617+02:00",
+    "LastChanged": "2006-09-01T14:13:50.1968854+02:00",
     "ChildItems": [
       {
-        "Id": 756,
-        "Name": "Bogisich-Wilkinson",
-        "ToolTip": "Voluptas amet deserunt.",
+        "Id": 845,
+        "Name": "Marvin, Satterfield and Roob",
+        "ToolTip": "Ut magni consequuntur ut.",
         "Deleted": false,
-        "Rank": 130,
-        "Type": "eum",
-        "ColorBlock": 709,
-        "IconHint": "laboriosam",
-        "Selected": false,
-        "LastChanged": "2002-11-07T12:01:33.6363617+01:00",
+        "Rank": 186,
+        "Type": "ea",
+        "ColorBlock": 634,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2005-06-07T14:13:50.1968854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "non",
+        "ExtraInfo": "est",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Mrs. Myrna Adrien Ritchie"
+        "FullName": "Prof. Jalen Wintheiser"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Dudley Emmerich"
+    "ExtraInfo": "enim",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Kaleigh Osinski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Purdy, Vandervort and Lehner",
-    "ToolTip": "Vel dolorem rem officia.",
+    "Id": 212,
+    "Name": "Ankunding-Wisozk",
+    "ToolTip": "Odit ea omnis sint.",
     "Deleted": false,
-    "Rank": 723,
-    "Type": "qui",
-    "ColorBlock": 385,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2001-10-17T12:01:33.6363617+02:00",
+    "Rank": 721,
+    "Type": "animi",
+    "ColorBlock": 869,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2012-09-13T14:13:50.1968854+02:00",
     "ChildItems": [
       {
-        "Id": 102,
-        "Name": "Lynch-Corkery",
-        "ToolTip": "Commodi recusandae nisi impedit facere voluptatem.",
+        "Id": 930,
+        "Name": "Schamberger-Langworth",
+        "ToolTip": "Molestiae aperiam non nulla alias quisquam magnam id.",
         "Deleted": false,
-        "Rank": 479,
-        "Type": "quis",
-        "ColorBlock": 696,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2012-04-07T12:01:33.6363617+02:00",
+        "Rank": 687,
+        "Type": "maxime",
+        "ColorBlock": 687,
+        "IconHint": "reiciendis",
+        "Selected": false,
+        "LastChanged": "1997-11-26T14:13:50.1968854+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "magnam",
+        "ExtraInfo": "modi",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Dr. Presley Adonis Cummings Jr.",
+        "FullName": "Prof. Ethan Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 956
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Athena O'Hara",
+    "ExtraInfo": "ratione",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Minnie Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 362
       }
     }
   }

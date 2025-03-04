@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 275,
-  "Name": "Nikolaus, Treutel and Hammes",
-  "Rank": 651,
-  "Tooltip": "voluptate",
+  "AssociateId": 94,
+  "Name": "Smitham LLC",
+  "Rank": 423,
+  "Tooltip": "officiis",
   "LicenseOwners": [
     {
-      "Name": "Veum, Jaskolski and Steuber",
-      "Description": "Customer-focused clear-thinking paradigm",
+      "Name": "Cruickshank LLC",
+      "Description": "Advanced context-sensitive collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 292
+          "FieldLength": 369
         }
       }
     },
     {
-      "Name": "Veum, Jaskolski and Steuber",
-      "Description": "Customer-focused clear-thinking paradigm",
+      "Name": "Cruickshank LLC",
+      "Description": "Advanced context-sensitive collaboration",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 292
+          "FieldLength": 369
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
+      "Value": "illum",
       "Tooltip": "ut",
-      "Id": 692,
-      "Rank": 175,
+      "Id": 856,
+      "Rank": 609,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 70
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2007-11-30T12:01:33.3707182+01:00",
-  "Lastlogout": "1997-12-11T12:01:33.3707182+01:00",
-  "EjUserId": 665,
-  "RequestSignature": "placeat",
+  "Deleted": false,
+  "Lastlogin": "2023-08-14T14:13:49.5555275+02:00",
+  "Lastlogout": "2010-12-12T14:13:49.5555275+01:00",
+  "EjUserId": 261,
+  "RequestSignature": "nostrum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "magnam",
-      "DisplayValue": "et",
+      "Value": "alias",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 866
         }
       }
     },
     {
       "Type": null,
-      "Value": "magnam",
-      "DisplayValue": "et",
+      "Value": "alias",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 866
         }
       }
     }
   ],
-  "UserName": "Spinka LLC",
+  "UserName": "Wisoky, Willms and Yost",
   "TicketCategories": [
     {
-      "Id": 396,
-      "Name": "Rogahn, O'Keefe and Jones",
-      "ToolTip": "Aut aliquid.",
-      "Deleted": true,
-      "Rank": 6,
-      "Type": "cupiditate",
+      "Id": 181,
+      "Name": "Haley, Abbott and Kihn",
+      "ToolTip": "Neque praesentium temporibus nemo ex eius molestiae.",
+      "Deleted": false,
+      "Rank": 352,
+      "Type": "autem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "consequatur",
-      "ColorBlock": 393,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "incidunt",
-      "FullName": "Zella Okuneva",
+      "IconHint": "iusto",
+      "ColorBlock": 864,
+      "ExtraInfo": "soluta",
+      "StyleHint": "consectetur",
+      "FullName": "Karen Carroll",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 235
+          "FieldLength": 112
         }
       }
     }
   ],
-  "NickName": "Braun-Conn",
-  "WaitingForApproval": false,
+  "NickName": "Stoltenberg, Braun and Mayer",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "necessitatibus",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "eum"
+    "CustomFields1": "repellendus",
+    "CustomFields2": "minima"
   },
   "PostSaveCommands": [
     {
-      "Name": "Quitzon Group",
-      "DisplayName": "Rolfson, Pouros and Crooks",
-      "Description": "Implemented multi-tasking knowledge user",
-      "ToolTip": "Voluptatem illo soluta nobis et cupiditate.",
+      "Name": "Larkin-Konopelski",
+      "DisplayName": "Durgan, Sipes and Streich",
+      "Description": "Centralized holistic secured line",
+      "ToolTip": "Rerum veniam non.",
       "Actions": "Implicit",
-      "ActionData": "ab",
+      "ActionData": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldType": "System.String",
+          "FieldLength": 672
         }
       }
     }
@@ -275,12 +275,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 622
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

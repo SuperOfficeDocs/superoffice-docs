@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 284,
-  "UiCulture": "voluptatum"
+  "DocumentId": 132,
+  "UiCulture": "alias"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 778,
+  "DocumentId": 914,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsa",
-  "Header": "aperiam",
-  "Name": "Corwin, Wiegand and Labadie",
-  "OurRef": "similique",
+  "Attention": "mollitia",
+  "Header": "itaque",
+  "Name": "Lebsack Group",
+  "OurRef": "dicta",
   "YourRef": "omnis",
-  "CreatedDate": "2001-05-27T12:01:27.7284021+02:00",
-  "UpdatedDate": "2022-12-01T12:01:27.7284021+01:00",
-  "Description": "Ergonomic background encoding",
+  "CreatedDate": "2022-09-11T14:13:40.0785543+02:00",
+  "UpdatedDate": "2018-06-14T14:13:40.0785543+02:00",
+  "Description": "De-engineered 6th generation policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-08-08T12:01:27.7284021+02:00",
-  "ExternalRef": "dolor",
+  "Date": "2007-05-24T14:13:40.0785543+02:00",
+  "ExternalRef": "laborum",
   "Completed": "Completed",
-  "ActiveLinks": 934,
+  "ActiveLinks": 870,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Weissnat-Schaefer",
-      "Id": 427,
-      "Description": "Polarised directional leverage",
-      "ExtraInfo": "eos",
-      "LinkId": 486,
+      "EntityName": "Connelly, Torp and Emmerich",
+      "Id": 638,
+      "Description": "Secured scalable parallelism",
+      "ExtraInfo": "laboriosam",
+      "LinkId": 671,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 884
+          "FieldLength": 271
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 577,
-  "Snum": 26,
+  "SuggestedDocumentId": 408,
+  "Snum": 256,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Jayden Block"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Zetta Stephany Donnelly Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "est"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "1999-01-10T12:01:27.7284021+01:00",
-  "PublishTo": "2020-11-08T12:01:27.7284021+01:00",
-  "PublishFrom": "2006-02-16T12:01:27.7284021+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-05-19T14:13:40.0785543+02:00",
+  "PublishTo": "2020-05-24T14:13:40.0785543+02:00",
+  "PublishFrom": "2022-04-25T14:13:40.0785543+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 855,
+      "VisibleId": 670,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 588
         }
       }
     },
     {
-      "VisibleId": 855,
+      "VisibleId": 670,
       "Visibility": "All",
-      "DisplayValue": "quasi",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 588
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   }
 }

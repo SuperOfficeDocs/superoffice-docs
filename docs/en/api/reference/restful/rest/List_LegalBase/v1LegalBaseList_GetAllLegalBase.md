@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 792,
-    "Name": "Sporer, Barrows and Schiller",
-    "Tooltip": "minus",
-    "Rank": 817,
-    "Key": "unde",
+    "LegalBaseId": 900,
+    "Name": "Lesch-Mohr",
+    "Tooltip": "quis",
+    "Rank": 170,
+    "Key": "vitae",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 797
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

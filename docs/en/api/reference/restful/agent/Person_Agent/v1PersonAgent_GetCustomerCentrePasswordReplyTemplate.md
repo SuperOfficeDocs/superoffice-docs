@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 439
+  "PersonId": 703
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 750,
-  "PlainParsed": "perferendis",
-  "HtmlParsed": "iure",
+  "ReplyTemplateId": 48,
+  "PlainParsed": "voluptatem",
+  "HtmlParsed": "aut",
   "Attachments": [
     {
-      "AttachmentId": 383,
-      "Name": "Kertzmann-Swaniawski",
-      "ContentType": "debitis",
-      "AttSize": 172,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "aperiam",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 378,
+      "Name": "Collins Group",
+      "ContentType": "perspiciatis",
+      "AttSize": 743,
+      "InlineImage": true,
+      "ContentId": "corrupti",
+      "AuthKey": "qui",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 702
+          "FieldType": "System.String",
+          "FieldLength": 350
         }
       }
     }
   ],
-  "Subject": "dolorem",
+  "Subject": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 178
     }
   }
 }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880
+  "Id": 41
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "minima",
+  "RawValue": "odio",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "aliquid",
+  "DisplayValue": "nisi",
+  "DisplayTooltip": "dolores",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 941,
-  "PrefDescId": 645,
-  "TableName": "Schimmel-Mraz",
-  "UserPreferenceId": 646,
+  "TargetId": 444,
+  "PrefDescId": 395,
+  "TableName": "Pollich LLC",
+  "UserPreferenceId": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 360
     }
   }
 }

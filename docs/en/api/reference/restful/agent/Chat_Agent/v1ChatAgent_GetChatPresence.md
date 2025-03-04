@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 120,
-    "DisplayName": "Cummerata-Stanton",
-    "OngoingChats": 482,
+    "UserId": 857,
+    "DisplayName": "Spinka LLC",
+    "OngoingChats": 391,
     "Present": false,
     "ChatTopics": [
-      30,
-      733
+      284,
+      713
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 540
       }
     }
   }

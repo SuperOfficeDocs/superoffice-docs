@@ -149,7 +149,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consequuntur",
+  "SaleText": "quis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-12-17T12:01:28.2440639+01:00",
-  "Amount": 8753.2619999999988,
-  "SaleId": 745,
-  "Earning": 19064.122,
-  "EarningPercent": 4622.65,
-  "Heading": "quisquam",
-  "Number": "707391",
-  "Probability": 196,
-  "CreatedDate": "1997-10-13T12:01:28.2440639+02:00",
-  "UpdatedDate": "2005-08-12T12:01:28.2440639+02:00",
+  "Saledate": "2000-09-18T14:13:41.1876773+02:00",
+  "Amount": 1943.08,
+  "SaleId": 487,
+  "Earning": 23175.93,
+  "EarningPercent": 7615.62,
+  "Heading": "enim",
+  "Number": "953266",
+  "Probability": 269,
+  "CreatedDate": "2024-06-14T14:13:41.1876773+02:00",
+  "UpdatedDate": "2003-09-18T14:13:41.1876773+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 981,
+  "ActiveLinks": 114,
   "Links": [
     {
-      "EntityName": "Haley Inc and Sons",
-      "Id": 359,
-      "Description": "Extended clear-thinking architecture",
-      "ExtraInfo": "maiores",
-      "LinkId": 451
+      "EntityName": "Cronin Group",
+      "Id": 865,
+      "Description": "Expanded bottom-line monitoring",
+      "ExtraInfo": "aperiam",
+      "LinkId": 134
     },
     {
-      "EntityName": "Haley Inc and Sons",
-      "Id": 359,
-      "Description": "Extended clear-thinking architecture",
-      "ExtraInfo": "maiores",
-      "LinkId": 451
+      "EntityName": "Cronin Group",
+      "Id": 865,
+      "Description": "Expanded bottom-line monitoring",
+      "ExtraInfo": "aperiam",
+      "LinkId": 134
     }
   ],
-  "NextDueDate": "2006-01-31T12:01:28.2440639+01:00",
-  "Postit": "facere",
+  "NextDueDate": "2021-04-12T14:13:41.1876773+02:00",
+  "Postit": "animi",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2020-04-28T12:01:28.2440639+02:00",
+  "ReopenDate": "2005-12-15T14:13:41.1876773+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wolff, Haley and Turcotte",
-      "Comment": "optio",
-      "StakeholderRoleId": 207,
-      "CountryId": 755,
-      "PersonId": 748,
-      "EmailDescription": "kristofer.klein@bernhard.us",
-      "EmailId": 568,
-      "EmailAddress": "orlo@hilll.com",
-      "PhoneId": 888,
-      "ContactName": "Kuhlman-Lebsack",
-      "ContactId": 161,
-      "SaleId": 763,
-      "Mrmrs": "eius",
-      "Firstname": "Luella",
-      "MiddleName": "Mills LLC",
-      "Lastname": "Leannon",
-      "SaleStakeholderId": 112,
-      "Rank": 272,
-      "Phone": "423.466.3469"
+      "StakeholderRoleName": "Schmeler, Waelchi and Kris",
+      "Comment": "sed",
+      "StakeholderRoleId": 117,
+      "CountryId": 142,
+      "PersonId": 929,
+      "EmailDescription": "hettie@millerveum.us",
+      "EmailId": 746,
+      "EmailAddress": "gilda@feeney.com",
+      "PhoneId": 774,
+      "ContactName": "Krajcik-Mills",
+      "ContactId": 197,
+      "SaleId": 982,
+      "Mrmrs": "voluptas",
+      "Firstname": "Yvette",
+      "MiddleName": "Ondricka LLC",
+      "Lastname": "Wiegand",
+      "SaleStakeholderId": 104,
+      "Rank": 42,
+      "Phone": "964-386-0288"
     }
   ],
-  "ActiveErpLinks": 803,
+  "ActiveErpLinks": 485,
   "UserDefinedFields": {
-    "SuperOffice:1": "Benton Weimann",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Bette Ryan",
+    "SuperOffice:2": "273036618"
   },
   "ExtraFields": {
-    "ExtraFields1": "suscipit",
-    "ExtraFields2": "molestiae"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "vitae"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "et",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2000-08-15T12:01:28.2440639+02:00",
-  "PublishTo": "2010-12-29T12:01:28.2440639+01:00",
-  "PublishFrom": "1999-09-24T12:01:28.2440639+02:00",
+  "PublishEventDate": "2022-08-30T14:13:41.1876773+02:00",
+  "PublishTo": "2020-01-07T14:13:41.1876773+01:00",
+  "PublishFrom": "2012-02-09T14:13:41.1876773+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 367,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "distinctio"
+      "DisplayValue": "quaerat"
     },
     {
-      "VisibleId": 367,
+      "VisibleId": 442,
       "Visibility": "All",
-      "DisplayValue": "distinctio"
+      "DisplayValue": "quaerat"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sit",
+  "SaleText": "dolor",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-09-18T12:01:28.2440639+02:00",
-  "Amount": 8439.862,
-  "SaleId": 678,
-  "Earning": 2714.044,
-  "EarningPercent": 12968.492,
-  "Heading": "minus",
-  "Number": "747228",
-  "Probability": 789,
-  "CreatedDate": "2020-11-15T12:01:28.2440639+01:00",
-  "UpdatedDate": "2004-07-30T12:01:28.2440639+02:00",
+  "Saledate": "2014-08-28T14:13:41.2032985+02:00",
+  "Amount": 8048.112,
+  "SaleId": 148,
+  "Earning": 7781.722,
+  "EarningPercent": 11276.132,
+  "Heading": "ut",
+  "Number": "1686343",
+  "Probability": 294,
+  "CreatedDate": "2016-09-26T14:13:41.2032985+02:00",
+  "UpdatedDate": "2007-03-22T14:13:41.2032985+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 421,
+  "ActiveLinks": 86,
   "Links": [
     {
-      "EntityName": "Kling-Schaden",
-      "Id": 217,
-      "Description": "Triple-buffered tangible productivity",
-      "ExtraInfo": "aut",
-      "LinkId": 925,
+      "EntityName": "Prohaska, Koepp and Connelly",
+      "Id": 956,
+      "Description": "Organic attitude-oriented capability",
+      "ExtraInfo": "itaque",
+      "LinkId": 234,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldLength": 148
         }
       }
     }
   ],
-  "NextDueDate": "2021-05-30T12:01:28.2440639+02:00",
-  "Postit": "ipsam",
+  "NextDueDate": "2001-07-29T14:13:41.2032985+02:00",
+  "Postit": "mollitia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-02-19T12:01:28.2440639+01:00",
+  "ReopenDate": "2010-09-21T14:13:41.2032985+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Lind, Jast and Wisoky",
-      "Comment": "fuga",
-      "StakeholderRoleId": 94,
-      "CountryId": 876,
-      "PersonId": 382,
-      "EmailDescription": "jennie@quigleymorissette.co.uk",
-      "EmailId": 153,
-      "EmailAddress": "beatrice.daniel@weber.ca",
-      "PhoneId": 920,
-      "ContactName": "Bauch Inc and Sons",
-      "ContactId": 479,
-      "SaleId": 867,
-      "Mrmrs": "consequatur",
-      "Firstname": "Annamae",
-      "MiddleName": "Medhurst Inc and Sons",
-      "Lastname": "Gerhold",
-      "SaleStakeholderId": 191,
-      "Rank": 990,
-      "Phone": "1-703-548-3512 x119",
+      "StakeholderRoleName": "McGlynn Inc and Sons",
+      "Comment": "ut",
+      "StakeholderRoleId": 245,
+      "CountryId": 137,
+      "PersonId": 504,
+      "EmailDescription": "melody@kiehn.ca",
+      "EmailId": 954,
+      "EmailAddress": "modesto@jast.name",
+      "PhoneId": 449,
+      "ContactName": "Schulist LLC",
+      "ContactId": 723,
+      "SaleId": 339,
+      "Mrmrs": "provident",
+      "Firstname": "Seamus",
+      "MiddleName": "Rolfson-Schaden",
+      "Lastname": "Hammes",
+      "SaleStakeholderId": 565,
+      "Rank": 188,
+      "Phone": "1-089-059-7309 x167",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldLength": 602
         }
       }
     }
   ],
-  "ActiveErpLinks": 568,
+  "ActiveErpLinks": 199,
   "UserDefinedFields": {
-    "SuperOffice:1": "Philip Lillie Kub Jr.",
-    "SuperOffice:2": "Katrine Ryan"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "iste",
+    "CustomFields2": "possimus"
   },
-  "PublishEventDate": "2018-07-15T12:01:28.2440639+02:00",
-  "PublishTo": "2023-08-29T12:01:28.2440639+02:00",
-  "PublishFrom": "2011-05-07T12:01:28.2440639+02:00",
+  "PublishEventDate": "2021-01-31T14:13:41.2032985+01:00",
+  "PublishTo": "2005-09-15T14:13:41.2032985+02:00",
+  "PublishFrom": "2018-09-15T14:13:41.2032985+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 69
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "doloribus",
+      "DisplayValue": "ex",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldType": "System.String",
+          "FieldLength": 69
         }
       }
     }
@@ -395,7 +395,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 864
     }
   }
 }

@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 687,
-      "ContactName": "Haag Group",
-      "PersonId": 943,
-      "PersonName": "Beier LLC",
-      "AssociateId": 719,
-      "Address": "labore",
-      "EmailId": 957,
+      "ContactId": 147,
+      "ContactName": "Schiller-Morar",
+      "PersonId": 811,
+      "PersonName": "Emard, Wehner and Dibbert",
+      "AssociateId": 578,
+      "Address": "non",
+      "EmailId": 701,
       "DuplicatePersonIds": [
-        706,
-        471
+        363,
+        55
       ],
-      "Name": "Murray-Greenfelder",
+      "Name": "Sipes Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldType": "System.String",
+          "FieldLength": 705
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 939,
-      "ContactName": "Considine-Upton",
-      "PersonId": 580,
-      "PersonName": "Vandervort-Reinger",
-      "AssociateId": 210,
-      "Address": "omnis",
-      "EmailId": 334,
+      "ContactId": 928,
+      "ContactName": "Douglas-Mayert",
+      "PersonId": 300,
+      "PersonName": "Vandervort-Jewess",
+      "AssociateId": 221,
+      "Address": "rerum",
+      "EmailId": 96,
       "DuplicatePersonIds": [
-        33,
-        884
+        790,
+        348
       ],
-      "Name": "Terry, Stark and Abshire",
+      "Name": "Larson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 619
+          "FieldLength": 500
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 841,
-      "ContactName": "Rau-Schroeder",
-      "PersonId": 862,
-      "PersonName": "Franecki, Kreiger and Bednar",
-      "AssociateId": 711,
-      "Address": "sunt",
-      "EmailId": 878,
+      "ContactId": 777,
+      "ContactName": "Waters Inc and Sons",
+      "PersonId": 482,
+      "PersonName": "Waelchi-Schroeder",
+      "AssociateId": 5,
+      "Address": "placeat",
+      "EmailId": 387,
       "DuplicatePersonIds": [
-        633,
-        976
+        279,
+        457
       ],
-      "Name": "Lang LLC",
+      "Name": "DuBuque Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
-  "Subject": "sapiente",
-  "HTMLBody": "in",
+  "Subject": "et",
+  "HTMLBody": "magnam",
   "From": null,
-  "Sent": "2010-04-02T12:01:27.8221586+02:00",
-  "Size": 47,
+  "Sent": "2024-04-28T14:13:40.2347688+02:00",
+  "Size": 502,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "incidunt",
-  "PlainBody": "neque",
-  "IsSent": true,
+  "MessageID": "pariatur",
+  "PlainBody": "exercitationem",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 230,
+  "ServerId": 614,
   "Attachments": [
     {
-      "Description": "Profit-focused national moderator",
-      "Filename": "beatae",
-      "Size": 100,
-      "Type": "aut",
-      "Encoding": "quia",
-      "Id": "cupiditate",
-      "Disposition": "voluptas",
+      "Description": "User-centric system-worthy info-mediaries",
+      "Filename": "nam",
+      "Size": 468,
+      "Type": "cumque",
+      "Encoding": "nisi",
+      "Id": "natus",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 457
+          "FieldType": "System.Int32",
+          "FieldLength": 40
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Corwin, Botsford and Haag",
+      "Name": "Franecki, Douglas and Larson",
       "Values": [
-        "neque",
-        "unde"
+        "commodi",
+        "adipisci"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 376
         }
       }
     },
     {
-      "Name": "Corwin, Botsford and Haag",
+      "Name": "Franecki, Douglas and Larson",
       "Values": [
-        "neque",
-        "unde"
+        "commodi",
+        "adipisci"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 376
         }
       }
     }
   ],
-  "FolderName": "Jewess-Conn",
-  "EmailItemId": 437,
-  "AccountId": 770,
-  "ReceivedAt": "2003-10-11T12:01:27.8221586+02:00",
+  "FolderName": "Roob Group",
+  "EmailItemId": 777,
+  "AccountId": 370,
+  "ReceivedAt": "2018-01-24T14:13:40.2347688+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-03-30T12:01:27.8221586+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-04-05T14:13:40.2347688+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldLength": 642
     }
   }
 }

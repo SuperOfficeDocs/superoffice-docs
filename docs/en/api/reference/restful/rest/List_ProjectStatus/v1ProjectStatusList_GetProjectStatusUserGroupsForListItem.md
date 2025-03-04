@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Beier-Lemke",
-    "ToolTip": "Nihil vitae recusandae qui.",
-    "Deleted": false,
-    "Rank": 482,
-    "Type": "molestias",
-    "ColorBlock": 957,
-    "IconHint": "autem",
-    "Selected": false,
-    "LastChanged": "2003-01-04T12:01:33.5894836+01:00",
+    "Id": 493,
+    "Name": "Reynolds Group",
+    "ToolTip": "Aut libero non eaque sint autem sint aut.",
+    "Deleted": true,
+    "Rank": 439,
+    "Type": "occaecati",
+    "ColorBlock": 456,
+    "IconHint": "explicabo",
+    "Selected": true,
+    "LastChanged": "2012-06-10T14:13:50.1187745+02:00",
     "ChildItems": [
       {
-        "Id": 198,
-        "Name": "Gutmann Group",
-        "ToolTip": "Reprehenderit aperiam voluptate occaecati sit.",
+        "Id": 53,
+        "Name": "Nitzsche, Sanford and White",
+        "ToolTip": "Harum exercitationem nihil est temporibus officiis eveniet nihil.",
         "Deleted": true,
-        "Rank": 379,
-        "Type": "laudantium",
-        "ColorBlock": 952,
-        "IconHint": "sit",
+        "Rank": 953,
+        "Type": "quia",
+        "ColorBlock": 989,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2017-01-27T12:01:33.5894836+01:00",
+        "LastChanged": "1999-04-02T14:13:50.1187745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Christina Leuschke",
+        "ExtraInfo": "error",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Warren Schultz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Dr. Lexus Haag",
+    "FullName": "Zane Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldLength": 169
       }
     }
   }

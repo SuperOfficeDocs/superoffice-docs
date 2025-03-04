@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 46,
-  "ERPPriceListKey": "vel",
-  "QuoteConnectionId": 396,
-  "Name": "Mills, Schneider and Jacobs",
-  "Description": "Reactive regional service-desk",
-  "Currency": "deleniti",
-  "CurrencyName": "Huel, Hilpert and Boehm",
-  "ValidFrom": "1999-02-11T12:01:28.1815588+01:00",
-  "ValidTo": "2021-08-14T12:01:28.1815588+02:00",
+  "PriceListId": 591,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 334,
+  "Name": "Hauck-White",
+  "Description": "Optimized tertiary moderator",
+  "Currency": "totam",
+  "CurrencyName": "Zulauf Group",
+  "ValidFrom": "2011-07-03T14:13:41.0783269+02:00",
+  "ValidTo": "2015-10-09T14:13:41.0783269+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldLength": 247
     }
   }
 }

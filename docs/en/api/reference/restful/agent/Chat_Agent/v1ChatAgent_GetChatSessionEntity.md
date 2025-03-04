@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=747
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=772
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 568,
-  "TopicId": 976,
+  "ChatSessionId": 369,
+  "TopicId": 610,
   "User": null,
   "Person": null,
-  "CustomerAlias": "cumque",
-  "CustomerHost": "quam",
-  "CustomerName": "Aufderhar Inc and Sons",
-  "CustomerEmail": "gaetano.nitzsche@swaniawskimueller.uk",
-  "CustomerPhone": "(127)536-8391 x3677",
+  "CustomerAlias": "dolores",
+  "CustomerHost": "quia",
+  "CustomerName": "Hilpert-Mayert",
+  "CustomerEmail": "kamron@littelbernier.biz",
+  "CustomerPhone": "771.754.6924",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Romaguera Group",
+  "CustomerCompanyName": "Mertz-Hauck",
   "Status": "Closed",
-  "FirstMessage": "fugit",
-  "LastMessage": "eos",
-  "WhenRequested": "2019-10-15T12:01:27.3846286+02:00",
-  "WhenStarted": "2009-09-01T12:01:27.3846286+02:00",
-  "WhenEnded": "2021-09-13T12:01:27.3846286+02:00",
-  "WhenIdle": "2015-06-26T12:01:27.3846286+02:00",
-  "WhenFetched": "2024-05-17T12:01:27.3846286+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 529,
-  "AlertLevel": 113,
-  "Rank": 501,
+  "FirstMessage": "ut",
+  "LastMessage": "atque",
+  "WhenRequested": "2003-05-08T14:13:39.4692107+02:00",
+  "WhenStarted": "2005-06-16T14:13:39.4692107+02:00",
+  "WhenEnded": "2009-07-18T14:13:39.4692107+02:00",
+  "WhenIdle": "2005-05-19T14:13:39.4692107+02:00",
+  "WhenFetched": "2008-12-08T14:13:39.4692107+01:00",
+  "SessionKey": "harum",
+  "InitialQueuePos": 391,
+  "AlertLevel": 598,
+  "Rank": 902,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 428,
+  "ChatbotIsActive": false,
+  "Rating": 777,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

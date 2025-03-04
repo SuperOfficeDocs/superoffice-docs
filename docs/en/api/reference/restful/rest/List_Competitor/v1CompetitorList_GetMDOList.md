@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=consequuntur
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=corporis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Cartwright Inc and Sons",
-    "ToolTip": "Eius quidem deserunt.",
+    "Id": 330,
+    "Name": "Smith Group",
+    "ToolTip": "Similique commodi repellendus est.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "voluptatibus",
+    "Rank": 720,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Kertzmann, Murazik and Stehr",
-        "ToolTip": "Et ab minima maxime minima quis eum mollitia.",
-        "Deleted": false,
-        "Rank": 142,
-        "Type": "maxime",
+        "Id": 717,
+        "Name": "Bartoletti, Rippin and Littel",
+        "ToolTip": "Sequi deleniti iste officia natus sequi id et.",
+        "Deleted": true,
+        "Rank": 226,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 933,
-        "ExtraInfo": "id",
-        "StyleHint": "porro",
-        "FullName": "Miss Nona Destin Stokes MD",
+        "IconHint": "dolorem",
+        "ColorBlock": 618,
+        "ExtraInfo": "suscipit",
+        "StyleHint": "qui",
+        "FullName": "Lauretta Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 467
+            "FieldType": "System.Int32",
+            "FieldLength": 84
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 731,
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "FullName": "Melvina Glover",
+    "IconHint": "magnam",
+    "ColorBlock": 212,
+    "ExtraInfo": "ullam",
+    "StyleHint": "odio",
+    "FullName": "Dianna Abshire",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

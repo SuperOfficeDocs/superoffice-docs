@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "qui",
-  "PluginId": 636
+  "LanguageCode": "et",
+  "PluginId": 811
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 949,
-  "Name": "Cruickshank, Jakubowski and Ward",
-  "Tooltip": "ut",
-  "SaveInDb": 988,
-  "Filename": "voluptate",
-  "DefaultOref": "omnis",
+  "DocumentTemplateId": 891,
+  "Name": "Steuber-Padberg",
+  "Tooltip": "excepturi",
+  "SaveInDb": 759,
+  "Filename": "voluptatem",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 729,
-  "IntentId": 842,
-  "IsDefaultPublished": false,
-  "Rank": 942,
-  "LoadTemplateFromPlugin": 653,
-  "MimeType": "doloremque",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 341,
+  "AutoeventId": 984,
+  "IntentId": 358,
+  "IsDefaultPublished": true,
+  "Rank": 763,
+  "LoadTemplateFromPlugin": 45,
+  "MimeType": "consequatur",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 17,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "edwin@wilkinsonkuvalis.name",
+  "EmailSubject": "velda_deckow@grant.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "liliane_hermiston@okeefekassulke.us",
+  "SenderEmailAddress": "mattie@mullerreichel.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 924
+      "FieldLength": 299
     }
   }
 }

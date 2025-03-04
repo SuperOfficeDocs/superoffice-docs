@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Cartwright LLC",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "UdListDefinitionId": 699,
-  "Rank": 186,
+  "Id": 722,
+  "Name": "Bruen-Collins",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 879,
+  "Rank": 807,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 427
     }
   }
 }

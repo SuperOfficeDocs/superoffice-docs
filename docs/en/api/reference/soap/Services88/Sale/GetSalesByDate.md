@@ -39,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Sale:Credentials>
  <SOAP-ENV:Body>
    <Sale:GetSalesByDate>
-    <Sale:FromDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:FromDate>
-    <Sale:ToDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:ToDate>
+    <Sale:FromDate xsi:type="xsd:dateTime">2025-02-24T13:13:00Z</Sale:FromDate>
+    <Sale:ToDate xsi:type="xsd:dateTime">2025-02-24T13:13:00Z</Sale:ToDate>
     <Sale:AmountLimit xsi:type="xsd:int">0</Sale:AmountLimit>
     <Sale:Status xsi:type="Sale:SaleStatus">Unknown</Sale:Status>
    </Sale:GetSalesByDate>
@@ -68,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Sale:Response xsi:type="Sale:ArrayOfSale">
     <Sale:Sale xsi:type="Sale:Sale">
      <Sale:ContactName xsi:type="xsd:string"></Sale:ContactName>
-     <Sale:SaleDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:SaleDate>
+     <Sale:SaleDate xsi:type="xsd:dateTime">2025-02-24T13:13:00Z</Sale:SaleDate>
      <Sale:SaleId xsi:type="xsd:int">0</Sale:SaleId>
      <Sale:Probability xsi:type="xsd:short">0</Sale:Probability>
      <Sale:Title xsi:type="xsd:string"></Sale:Title>
@@ -90,7 +90,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Sale:PersonFullName xsi:type="xsd:string"></Sale:PersonFullName>
      <Sale:Completed xsi:type="Sale:ActivityStatus">Unknown</Sale:Completed>
      <Sale:ActiveErpLinks xsi:type="xsd:int">0</Sale:ActiveErpLinks>
-     <Sale:NextDueDate xsi:type="xsd:dateTime">2025-02-10T11:00:50Z</Sale:NextDueDate>
+     <Sale:NextDueDate xsi:type="xsd:dateTime">2025-02-24T13:13:00Z</Sale:NextDueDate>
      <Sale:Number xsi:type="xsd:string"></Sale:Number>
     </Sale:Sale>
    </Sale:Response>

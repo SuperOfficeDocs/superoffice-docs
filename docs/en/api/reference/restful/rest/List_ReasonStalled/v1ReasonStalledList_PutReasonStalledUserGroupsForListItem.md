@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Jacobs-Baumbach",
-    "ToolTip": "Ex repudiandae optio qui iure ut recusandae.",
-    "Deleted": true,
-    "Rank": 82,
-    "Type": "temporibus",
-    "ColorBlock": 25,
-    "IconHint": "suscipit",
+    "Id": 152,
+    "Name": "Balistreri Group",
+    "ToolTip": "Est labore autem eius.",
+    "Deleted": false,
+    "Rank": 54,
+    "Type": "non",
+    "ColorBlock": 481,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2008-07-31T12:01:33.6363617+02:00",
+    "LastChanged": "2007-02-03T14:13:50.2207723+01:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Johnson, Hamill and Murphy",
-        "ToolTip": "Saepe aperiam eos neque sed maxime consequatur.",
+        "Id": 882,
+        "Name": "Romaguera Group",
+        "ToolTip": "Placeat at dolorum minima deserunt qui tempora accusantium.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "odit",
-        "ColorBlock": 581,
-        "IconHint": "et",
+        "Rank": 104,
+        "Type": "a",
+        "ColorBlock": 929,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2013-01-15T12:01:33.6519877+01:00",
+        "LastChanged": "1999-04-28T14:13:50.2207723+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Mr. Ena Koss"
+        "ExtraInfo": "numquam",
+        "StyleHint": "eos",
+        "Hidden": false,
+        "FullName": "Prof. Robbie Barrows MD"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Juston Greta Barton DDS"
+    "ExtraInfo": "est",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Easter Roob"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Rosenbaum, Wyman and Block",
-    "ToolTip": "Repudiandae eveniet eos et.",
+    "Id": 805,
+    "Name": "Cummerata-Barton",
+    "ToolTip": "Autem labore est libero minus.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "reiciendis",
-    "ColorBlock": 13,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2004-01-13T12:01:33.6519877+01:00",
+    "Rank": 94,
+    "Type": "enim",
+    "ColorBlock": 47,
+    "IconHint": "asperiores",
+    "Selected": false,
+    "LastChanged": "2006-06-25T14:13:50.2207723+02:00",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Langworth-Welch",
-        "ToolTip": "Suscipit ducimus.",
-        "Deleted": true,
-        "Rank": 758,
-        "Type": "et",
-        "ColorBlock": 979,
-        "IconHint": "dolorem",
+        "Id": 120,
+        "Name": "Block, Casper and Purdy",
+        "ToolTip": "Consequatur soluta.",
+        "Deleted": false,
+        "Rank": 659,
+        "Type": "esse",
+        "ColorBlock": 165,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2020-12-12T12:01:33.6519877+01:00",
+        "LastChanged": "2005-02-21T14:13:50.2207723+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "quasi",
-        "Hidden": false,
-        "FullName": "Sigrid Price",
+        "ExtraInfo": "nam",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Terrill Lia Collier DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 637
+            "FieldType": "System.Int32",
+            "FieldLength": 68
           }
         }
       }
     ],
-    "ExtraInfo": "at",
-    "StyleHint": "fuga",
+    "ExtraInfo": "id",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Mr. Dion Rau",
+    "FullName": "Lilly Russell Robel V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldLength": 570
       }
     }
   }

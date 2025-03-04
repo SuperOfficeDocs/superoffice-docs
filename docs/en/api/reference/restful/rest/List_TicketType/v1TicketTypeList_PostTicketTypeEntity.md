@@ -101,37 +101,37 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 47,
-  "Name": "Gutkowski, Collier and Nienow",
-  "Rank": 130,
-  "Tooltip": "nesciunt",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 820,
+  "TicketTypeId": 417,
+  "Name": "Altenwerth Group",
+  "Rank": 985,
+  "Tooltip": "ut",
+  "Icon": "qui",
+  "DefaultTicketStatus": 130,
   "TicketStatuses": [
-    526,
-    40
+    153,
+    368
   ],
-  "DefaultTicketPriority": 5,
+  "DefaultTicketPriority": 747,
   "TicketPriorities": [
-    562,
-    946
+    247,
+    186
   ],
-  "ReplyTemplate": 142,
+  "ReplyTemplate": 59,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    493,
-    539
+    682,
+    875
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -143,31 +143,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 841,
-  "Name": "Hoeger-Luettgen",
-  "Rank": 431,
-  "Tooltip": "nesciunt",
-  "Icon": "eaque",
-  "DefaultTicketStatus": 899,
+  "TicketTypeId": 457,
+  "Name": "Reichert-Hagenes",
+  "Rank": 220,
+  "Tooltip": "facilis",
+  "Icon": "earum",
+  "DefaultTicketStatus": 574,
   "TicketStatuses": [
-    791,
-    768
+    815,
+    67
   ],
-  "DefaultTicketPriority": 824,
+  "DefaultTicketPriority": 52,
   "TicketPriorities": [
-    41,
-    930
+    751,
+    649
   ],
-  "ReplyTemplate": 648,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 796,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    955,
-    444
+    295,
+    822
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 871
+      "FieldLength": 933
     }
   }
 }

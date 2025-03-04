@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Schuster Group",
+  "ProgramName": "Schroeder LLC",
   "External": false
 }
 ```

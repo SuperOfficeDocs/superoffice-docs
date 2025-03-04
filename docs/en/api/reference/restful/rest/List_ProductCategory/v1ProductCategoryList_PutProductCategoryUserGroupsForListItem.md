@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "Et reiciendis reprehenderit et totam.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "est",
-    "ColorBlock": 540,
-    "IconHint": "alias",
+    "Id": 146,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Assumenda tempore.",
+    "Deleted": false,
+    "Rank": 772,
+    "Type": "adipisci",
+    "ColorBlock": 325,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2022-11-11T12:01:33.5738574+01:00",
+    "LastChanged": "2013-09-13T14:13:50.0719138+02:00",
     "ChildItems": [
       {
-        "Id": 71,
-        "Name": "Jaskolski, O'Keefe and Sauer",
-        "ToolTip": "Occaecati cumque aut soluta voluptas suscipit neque voluptatum.",
-        "Deleted": true,
-        "Rank": 116,
-        "Type": "nulla",
-        "ColorBlock": 538,
-        "IconHint": "non",
+        "Id": 232,
+        "Name": "Batz-Barton",
+        "ToolTip": "Hic facilis vel odio.",
+        "Deleted": false,
+        "Rank": 756,
+        "Type": "est",
+        "ColorBlock": 724,
+        "IconHint": "pariatur",
         "Selected": true,
-        "LastChanged": "2018-08-05T12:01:33.5738574+02:00",
+        "LastChanged": "2016-12-11T14:13:50.0719138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "placeat",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Dr. Felicia Cartwright MD"
+        "FullName": "Dr. Thomas Garrett Thompson"
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "totam",
-    "Hidden": true,
-    "FullName": "Sanford Kulas"
+    "ExtraInfo": "et",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Prof. Laury Mariane Jacobi"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 851,
-    "Name": "Buckridge-Ortiz",
-    "ToolTip": "Necessitatibus error necessitatibus ratione.",
+    "Id": 64,
+    "Name": "Green Group",
+    "ToolTip": "Et sed sunt ipsam odio eos dignissimos eos.",
     "Deleted": true,
-    "Rank": 433,
-    "Type": "consequatur",
-    "ColorBlock": 223,
-    "IconHint": "cupiditate",
+    "Rank": 437,
+    "Type": "animi",
+    "ColorBlock": 137,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2019-04-21T12:01:33.5738574+02:00",
+    "LastChanged": "2004-02-15T14:13:50.0719138+01:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Auer, Wisoky and Reichel",
-        "ToolTip": "Numquam voluptate sed eaque ipsa et maiores aut.",
+        "Id": 189,
+        "Name": "Klocko, Ruecker and Osinski",
+        "ToolTip": "Ab reprehenderit quas quia.",
         "Deleted": false,
-        "Rank": 371,
-        "Type": "consequatur",
-        "ColorBlock": 228,
-        "IconHint": "et",
+        "Rank": 859,
+        "Type": "corrupti",
+        "ColorBlock": 509,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2007-04-29T12:01:33.5738574+02:00",
+        "LastChanged": "2010-12-30T14:13:50.0719138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "magni",
+        "ExtraInfo": "inventore",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Kyle Emmerich",
+        "FullName": "Krystel Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "non",
-    "Hidden": true,
-    "FullName": "Sean Mante",
+    "ExtraInfo": "delectus",
+    "StyleHint": "officia",
+    "Hidden": false,
+    "FullName": "Brisa Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 860
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

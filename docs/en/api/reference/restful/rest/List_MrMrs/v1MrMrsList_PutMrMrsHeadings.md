@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 73,
-    "Name": "Boyer Group",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 939,
-    "UdListDefinitionId": 123
+    "HeadingId": 934,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": false,
+    "Rank": 305,
+    "UdListDefinitionId": 139
   },
   {
-    "HeadingId": 73,
-    "Name": "Boyer Group",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 939,
-    "UdListDefinitionId": 123
+    "HeadingId": 934,
+    "Name": "Greenholt Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": false,
+    "Rank": 305,
+    "UdListDefinitionId": 139
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 251,
-    "Name": "Renner-Weber",
-    "Tooltip": "ullam",
+    "HeadingId": 11,
+    "Name": "Langosh-Kerluke",
+    "Tooltip": "iure",
     "Deleted": false,
-    "Rank": 959,
-    "UdListDefinitionId": 256,
+    "Rank": 817,
+    "UdListDefinitionId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldType": "System.Int32",
+        "FieldLength": 980
       }
     }
   }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 10,
-  "StartTime": "2013-11-16T12:01:27.5877684+01:00",
-  "EndTime": "2014-08-09T12:01:27.5877684+02:00",
-  "Count": 87,
+  "ContactId": 643,
+  "StartTime": "2019-07-14T14:13:39.9848261+02:00",
+  "EndTime": "2016-09-04T14:13:39.9848261+02:00",
+  "Count": 740,
   "DocumentTemplateIds": [
-    755,
-    155
+    760,
+    967
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 234,
-    "Attention": "occaecati",
-    "Header": "quae",
-    "Name": "Welch, Labadie and Romaguera",
-    "OurRef": "neque",
-    "YourRef": "vero",
-    "Description": "Open-architected leading edge encoding",
-    "DocumentTemplate": "tempore",
+    "DocumentId": 562,
+    "Attention": "consequatur",
+    "Header": "rerum",
+    "Name": "Hartmann-Mayer",
+    "OurRef": "odio",
+    "YourRef": "aut",
+    "Description": "Streamlined zero defect model",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 209,
-    "PersonFullName": "Prof. Garland Schuppe",
-    "AssociateFullName": "Franz Bahringer Jr.",
-    "ContactId": 141,
-    "ContactName": "Hegmann Group",
-    "ProjectId": 452,
-    "ProjectName": "Keebler, Hudson and Bosco",
-    "AssociateId": 744,
-    "Snum": 808,
-    "SaleId": 65,
-    "SaleName": "Pacocha-Von",
+    "PersonId": 743,
+    "PersonFullName": "Beulah Farrell",
+    "AssociateFullName": "Bernardo Ankunding",
+    "ContactId": 393,
+    "ContactName": "Sawayn, Lebsack and Altenwerth",
+    "ProjectId": 334,
+    "ProjectName": "Kirlin Group",
+    "AssociateId": 805,
+    "Snum": 324,
+    "SaleId": 646,
+    "SaleName": "Reilly, Dooley and Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 261
       }
     }
   }

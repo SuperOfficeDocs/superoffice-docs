@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 831
+  "UserGroupId": 463
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 572,
+    "TargetAssignmentInfoId": 129,
     "Values": [
-      672,
-      393
+      776,
+      802
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 278,
-    "DimensionListItemDisplayName": "Friesen LLC",
+    "DimensionListItem": 381,
+    "DimensionListItemDisplayName": "Bergstrom LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 249
       }
     }
   }

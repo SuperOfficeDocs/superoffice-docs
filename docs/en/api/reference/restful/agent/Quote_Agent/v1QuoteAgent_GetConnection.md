@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 707
+  "QuoteConnectionId": 81
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 812,
-  "ERPName": "Nienow, Rosenbaum and Murray",
-  "DisplayName": "Muller-O'Hara",
-  "DisplayDescription": "Public-key mission-critical infrastructure",
-  "Rank": 785,
-  "ConnectorName": "Romaguera Inc and Sons",
-  "ErpConnectionId": 97,
-  "ExtraData": "provident",
+  "QuoteConnectionId": 572,
+  "ERPName": "McDermott-Zemlak",
+  "DisplayName": "Dare Inc and Sons",
+  "DisplayDescription": "Object-based composite utilisation",
+  "Rank": 141,
+  "ConnectorName": "Bechtelar-Green",
+  "ErpConnectionId": 310,
+  "ExtraData": "voluptates",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 292,
-      "ERPPriceListKey": "est",
-      "QuoteConnectionId": 940,
-      "Name": "Frami LLC",
-      "Description": "Re-engineered asynchronous data-warehouse",
-      "Currency": "non",
-      "CurrencyName": "Erdman-Rath",
-      "ValidFrom": "2003-03-21T12:01:28.1971849+01:00",
-      "ValidTo": "2007-04-29T12:01:28.1971849+02:00",
+      "PriceListId": 604,
+      "ERPPriceListKey": "minus",
+      "QuoteConnectionId": 627,
+      "Name": "McKenzie Inc and Sons",
+      "Description": "Distributed solution-oriented matrix",
+      "Currency": "eius",
+      "CurrencyName": "Hane-Koss",
+      "ValidFrom": "2009-02-07T14:13:41.1095702+01:00",
+      "ValidTo": "2004-05-05T14:13:41.1095702+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 970
+          "FieldType": "System.Int32",
+          "FieldLength": 24
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    936,
-    579
+    606,
+    301
   ],
   "AssociateAccessIds": [
-    695,
-    49
+    577,
+    280
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 562
     }
   }
 }

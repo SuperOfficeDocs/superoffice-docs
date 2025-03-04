@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Name": "Shanahan-Schmitt",
-    "ToolTip": "Laborum maiores voluptatem et praesentium.",
-    "Deleted": true,
-    "Rank": 136,
-    "Type": "enim",
-    "ColorBlock": 383,
-    "IconHint": "soluta",
+    "Id": 594,
+    "Name": "McLaughlin, Durgan and Koch",
+    "ToolTip": "Ea libero consequatur eos rerum possimus.",
+    "Deleted": false,
+    "Rank": 608,
+    "Type": "et",
+    "ColorBlock": 467,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2000-10-05T12:01:33.4332226+02:00",
+    "LastChanged": "2015-06-16T14:13:49.6648827+02:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Treutel-Will",
-        "ToolTip": "Dolores odit nostrum dolorum incidunt nostrum dolorem.",
+        "Id": 431,
+        "Name": "Klein Inc and Sons",
+        "ToolTip": "Ea enim quis possimus.",
         "Deleted": false,
-        "Rank": 548,
-        "Type": "ab",
-        "ColorBlock": 342,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "2005-06-27T12:01:33.4332226+02:00",
+        "Rank": 817,
+        "Type": "quia",
+        "ColorBlock": 857,
+        "IconHint": "maiores",
+        "Selected": true,
+        "LastChanged": "2001-10-31T14:13:49.6648827+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "est",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Lauretta Parisian",
+        "FullName": "Daija Gorczany I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 14
+            "FieldType": "System.Int32",
+            "FieldLength": 29
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Fernando Sawayn",
+    "ExtraInfo": "est",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Edd Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 739
+        "FieldLength": 275
       }
     }
   }

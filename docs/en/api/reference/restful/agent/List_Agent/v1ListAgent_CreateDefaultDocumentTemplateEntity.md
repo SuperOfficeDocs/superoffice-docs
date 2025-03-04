@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 619,
-  "Name": "Bashirian, Waelchi and Borer",
-  "Tooltip": "qui",
-  "SaveInDb": 427,
-  "Filename": "molestiae",
-  "DefaultOref": "quidem",
+  "DocumentTemplateId": 716,
+  "Name": "Nolan-Stanton",
+  "Tooltip": "laborum",
+  "SaveInDb": 593,
+  "Filename": "voluptas",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 764,
-  "IntentId": 310,
+  "AutoeventId": 969,
+  "IntentId": 447,
   "IsDefaultPublished": false,
-  "Rank": 750,
-  "LoadTemplateFromPlugin": 738,
-  "MimeType": "quo",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 434,
+  "Rank": 838,
+  "LoadTemplateFromPlugin": 706,
+  "MimeType": "molestiae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 815,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "wilfred.kreiger@creminconnelly.uk",
+  "EmailSubject": "chyna.legros@brakushills.name",
   "IncludeSignature": true,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "zachariah@balistreri.name",
+  "SenderEmailAddress": "jillian@littel.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldLength": 400
     }
   }
 }

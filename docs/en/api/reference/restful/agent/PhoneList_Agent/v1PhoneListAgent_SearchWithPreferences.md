@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "reiciendis",
+  "SearchString": "id",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "158.197.6577 x031",
-    "PersonCellPhone": "328-863-7291",
-    "PersonPrivatePhone": "1-786-602-7913",
-    "PersonFaxNumber": "1267142",
-    "PersonPagerNumber": "1073291",
-    "PersonEmail": "nathanael@boehm.name",
-    "Id": 284,
-    "Name": "Breitenberg LLC",
-    "Tooltip": "itaque",
-    "UniqueId": "est",
+    "PersonDirectPhone": "1-583-536-7884 x515",
+    "PersonCellPhone": "(512)887-7645",
+    "PersonPrivatePhone": "(190)500-5108",
+    "PersonFaxNumber": "372495",
+    "PersonPagerNumber": "1204187",
+    "PersonEmail": "pearl.mitchell@turcotte.biz",
+    "Id": 709,
+    "Name": "Hermann Inc and Sons",
+    "Tooltip": "et",
+    "UniqueId": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 911
       }
     }
   }

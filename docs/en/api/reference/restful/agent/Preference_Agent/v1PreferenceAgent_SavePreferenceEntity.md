@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "ullam",
+  "RawValue": "enim",
   "Specification": null,
-  "DisplayValue": "dolor",
-  "DisplayTooltip": "libero",
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "unde",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 107,
-  "PrefDescId": 606,
-  "TableName": "Volkman Group",
-  "UserPreferenceId": 843,
+  "TargetId": 6,
+  "PrefDescId": 513,
+  "TableName": "Block LLC",
+  "UserPreferenceId": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 224
     }
   }
 }

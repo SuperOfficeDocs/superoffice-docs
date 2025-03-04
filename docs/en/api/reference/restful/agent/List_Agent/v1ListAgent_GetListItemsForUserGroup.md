@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 357,
-  "GroupId": 400
+  "UdListDefinitionId": 45,
+  "GroupId": 904
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Hoppe, Johnston and Durgan",
-    "ToolTip": "Asperiores dignissimos consectetur possimus dolorum vel aut.",
+    "Id": 809,
+    "Name": "Kilback Inc and Sons",
+    "ToolTip": "Omnis est consequatur inventore earum aut et.",
     "Deleted": false,
-    "Rank": 316,
-    "Type": "cumque",
-    "ColorBlock": 95,
-    "IconHint": "hic",
+    "Rank": 111,
+    "Type": "architecto",
+    "ColorBlock": 976,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2012-03-29T12:01:27.9471677+02:00",
+    "LastChanged": "2010-01-23T14:13:40.4690906+01:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Feeney LLC",
-        "ToolTip": "Autem aut deleniti sed velit quis magnam id.",
+        "Id": 473,
+        "Name": "Littel, Bode and Kulas",
+        "ToolTip": "Ut delectus.",
         "Deleted": true,
-        "Rank": 911,
-        "Type": "non",
-        "ColorBlock": 566,
-        "IconHint": "aspernatur",
+        "Rank": 86,
+        "Type": "consectetur",
+        "ColorBlock": 879,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2005-03-28T12:01:27.9471677+02:00",
+        "LastChanged": "1998-03-10T14:13:40.4690906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "qui",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "itaque",
         "Hidden": false,
-        "FullName": "Dr. Laisha Fabian Schumm",
+        "FullName": "Simeon Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 355
+            "FieldType": "System.String",
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "a",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Nathaniel Von",
+    "FullName": "Shaina Rodriguez DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 935
       }
     }
   }

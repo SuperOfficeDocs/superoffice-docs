@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 971,
-    "Name": "Mann LLC",
-    "Tooltip": "velit",
+    "WebPanelId": 36,
+    "Name": "Sauer-Beier",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 970,
+    "Rank": 501,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": true,
+    "OnSatellite": false,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Luettgen Inc and Sons",
+    "ShowInStatusBar": true,
+    "WindowName": "Schultz-McLaughlin",
     "Url": "http://www.example.com/",
-    "ProgId": "reprehenderit",
-    "Icon": 371,
+    "ProgId": "et",
+    "Icon": 589,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 39
       }
     }
   }

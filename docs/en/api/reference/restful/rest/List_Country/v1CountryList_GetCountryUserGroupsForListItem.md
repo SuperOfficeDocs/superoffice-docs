@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Schroeder-Bauch",
-    "ToolTip": "Consequatur nulla accusantium est qui eum impedit.",
+    "Id": 819,
+    "Name": "Cole-Stracke",
+    "ToolTip": "Molestias veniam.",
     "Deleted": true,
-    "Rank": 925,
+    "Rank": 307,
     "Type": "aut",
-    "ColorBlock": 235,
-    "IconHint": "facilis",
-    "Selected": false,
-    "LastChanged": "2022-11-11T12:01:33.4644748+01:00",
+    "ColorBlock": 772,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2000-03-01T14:13:49.7273664+01:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Bradtke-Renner",
-        "ToolTip": "Id ipsam aliquid modi illo aut repellat qui.",
+        "Id": 150,
+        "Name": "Daniel-Ward",
+        "ToolTip": "Reprehenderit quod alias et voluptatum.",
         "Deleted": false,
-        "Rank": 989,
-        "Type": "ex",
-        "ColorBlock": 998,
-        "IconHint": "blanditiis",
-        "Selected": true,
-        "LastChanged": "2000-12-04T12:01:33.4644748+01:00",
+        "Rank": 915,
+        "Type": "quam",
+        "ColorBlock": 464,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2007-03-02T14:13:49.7273664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "deleniti",
-        "Hidden": false,
-        "FullName": "Miss Ernestine Joyce Berge",
+        "ExtraInfo": "quis",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Consuelo Rowe Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "illo",
+    "ExtraInfo": "quis",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Archibald Okuneva",
+    "FullName": "Kelly Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 725
+        "FieldLength": 189
       }
     }
   }

@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "autem",
+    "path": "aperiam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "autem",
+    "path": "aperiam",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 839,
-  "Name": "O'Reilly-Brakus",
-  "Config": "iste",
-  "Rank": 935,
-  "Client": "recusandae",
-  "Style": "vero",
+  "DashboardThemeId": 720,
+  "Name": "Stoltenberg-Hessel",
+  "Config": "et",
+  "Rank": 791,
+  "Client": "nulla",
+  "Style": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 404
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Fisher-DuBuque",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 55,
-  "Rank": 582,
+  "Id": 642,
+  "Name": "Kling Inc and Sons",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "UdListDefinitionId": 787,
+  "Rank": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Baumbach-Durgan",
-    "ToolTip": "Ab pariatur non corrupti aut.",
+    "Id": 757,
+    "Name": "Glover-Cummerata",
+    "ToolTip": "Suscipit ipsa nostrum.",
     "Deleted": false,
-    "Rank": 528,
-    "Type": "facere",
-    "ColorBlock": 303,
-    "IconHint": "nostrum",
+    "Rank": 827,
+    "Type": "praesentium",
+    "ColorBlock": 10,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2023-08-13T12:01:33.4644748+02:00",
+    "LastChanged": "2009-08-11T14:13:49.7117421+02:00",
     "ChildItems": [
       {
-        "Id": 482,
-        "Name": "Block, Windler and Schaefer",
-        "ToolTip": "Facilis placeat aut exercitationem eaque iure.",
+        "Id": 255,
+        "Name": "Swift Group",
+        "ToolTip": "Qui explicabo voluptate quia.",
         "Deleted": true,
-        "Rank": 565,
-        "Type": "voluptatum",
-        "ColorBlock": 144,
-        "IconHint": "voluptas",
-        "Selected": false,
-        "LastChanged": "1998-07-20T12:01:33.4644748+02:00",
+        "Rank": 189,
+        "Type": "eius",
+        "ColorBlock": 32,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2015-05-19T14:13:49.7117421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "necessitatibus",
-        "Hidden": false,
-        "FullName": "Salvador Conroy",
+        "ExtraInfo": "eum",
+        "StyleHint": "assumenda",
+        "Hidden": true,
+        "FullName": "Britney Wilderman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 397
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "vero",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mackenzie Tromp",
+    "FullName": "Hailey Gerlach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 463
       }
     }
   }

@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 335,
-  "Name": "Aufderhar Group",
-  "TZLocationCode": "veritatis",
-  "TZLocationCities": "quia",
-  "IsoNumber": 884,
+  "TZLocationID": 864,
+  "Name": "Weber Inc and Sons",
+  "TZLocationCode": "dicta",
+  "TZLocationCities": "voluptatibus",
+  "IsoNumber": 227,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 930,
-      "StartMonth": 729,
-      "EndDay": 363,
-      "EndMonth": 779,
-      "TZOffset": 789,
-      "StartRulePattern": "et",
-      "EndRulePattern": "vel"
+      "StartDay": 353,
+      "StartMonth": 370,
+      "EndDay": 654,
+      "EndMonth": 96,
+      "TZOffset": 556,
+      "StartRulePattern": "sunt",
+      "EndRulePattern": "aut"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 723,
-      "StartMonth": 234,
-      "EndDay": 273,
-      "EndMonth": 236,
-      "TZOffset": 751,
-      "StartRulePattern": "enim",
-      "EndRulePattern": "ut"
+      "StartDay": 660,
+      "StartMonth": 261,
+      "EndDay": 35,
+      "EndMonth": 886,
+      "TZOffset": 547,
+      "StartRulePattern": "repudiandae",
+      "EndRulePattern": "praesentium"
     }
   }
 }

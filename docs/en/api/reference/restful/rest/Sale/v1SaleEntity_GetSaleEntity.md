@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
+Last-Modified: Mon, 17 Jan 2022 14:13:49 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "fugit",
+  "SaleText": "voluptatem",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-02-14T12:01:33.1363265+01:00",
-  "Amount": 26501.104,
-  "SaleId": 460,
-  "Earning": 18982.638,
-  "EarningPercent": 7844.402,
-  "Heading": "error",
-  "Number": "1147352",
-  "Probability": 614,
-  "CreatedDate": "2019-01-08T12:01:33.1363265+01:00",
-  "UpdatedDate": "2012-01-06T12:01:33.1363265+01:00",
+  "Saledate": "2009-02-21T14:13:49.1649956+01:00",
+  "Amount": 8173.472,
+  "SaleId": 116,
+  "Earning": 1974.4199999999998,
+  "EarningPercent": 26316.198,
+  "Heading": "et",
+  "Number": "839931",
+  "Probability": 594,
+  "CreatedDate": "2010-03-29T14:13:49.1649956+02:00",
+  "UpdatedDate": "2022-01-17T14:13:49.1649956+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 304,
+  "ActiveLinks": 652,
   "Links": [
     {
-      "EntityName": "Stehr-Treutel",
-      "Id": 159,
-      "Description": "Team-oriented solution-oriented initiative",
-      "ExtraInfo": "reprehenderit",
-      "LinkId": 753,
+      "EntityName": "Swaniawski-Hodkiewicz",
+      "Id": 917,
+      "Description": "Business-focused asynchronous time-frame",
+      "ExtraInfo": "officiis",
+      "LinkId": 771,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 317
         }
       }
     }
   ],
-  "NextDueDate": "2004-11-19T12:01:33.1363265+01:00",
-  "Postit": "laboriosam",
+  "NextDueDate": "2024-03-07T14:13:49.1649956+01:00",
+  "Postit": "magnam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-11-01T12:01:33.1363265+01:00",
+  "ReopenDate": "2022-07-31T14:13:49.1649956+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gulgowski-Morissette",
-      "Comment": "tempora",
-      "StakeholderRoleId": 182,
-      "CountryId": 336,
-      "PersonId": 665,
-      "EmailDescription": "autumn@oconner.com",
-      "EmailId": 516,
-      "EmailAddress": "alba_bahringer@bauchjaskolski.co.uk",
-      "PhoneId": 110,
-      "ContactName": "Wisoky, Yundt and O'Keefe",
-      "ContactId": 829,
-      "SaleId": 761,
-      "Mrmrs": "dolorum",
-      "Firstname": "Dewayne",
-      "MiddleName": "Kris Inc and Sons",
-      "Lastname": "Stokes",
-      "SaleStakeholderId": 449,
-      "Rank": 809,
-      "Phone": "239-036-3366 x940",
+      "StakeholderRoleName": "Ullrich-Cummings",
+      "Comment": "aperiam",
+      "StakeholderRoleId": 472,
+      "CountryId": 389,
+      "PersonId": 904,
+      "EmailDescription": "lonny_tremblay@steubervandervort.us",
+      "EmailId": 495,
+      "EmailAddress": "kyla_hagenes@wolff.biz",
+      "PhoneId": 315,
+      "ContactName": "Kuhic, Dach and Schuster",
+      "ContactId": 629,
+      "SaleId": 38,
+      "Mrmrs": "eaque",
+      "Firstname": "Sheldon",
+      "MiddleName": "Grady, Russel and Kohler",
+      "Lastname": "Balistreri",
+      "SaleStakeholderId": 392,
+      "Rank": 401,
+      "Phone": "797-500-3901 x8478",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 453
+          "FieldLength": 59
         }
       }
     }
   ],
-  "ActiveErpLinks": 914,
+  "ActiveErpLinks": 890,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Holden Alessandra Fahey V",
-    "SuperOffice:2": "Harold Armstrong"
+    "SuperOffice:1": "898228359",
+    "SuperOffice:2": "Walker Ward"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "repellat"
+    "ExtraFields1": "non",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "officia"
+    "CustomFields1": "provident",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2006-08-17T12:01:33.1519536+02:00",
-  "PublishTo": "2016-05-09T12:01:33.1519536+02:00",
-  "PublishFrom": "2018-06-13T12:01:33.1519536+02:00",
+  "PublishEventDate": "2016-07-07T14:13:49.1649956+02:00",
+  "PublishTo": "2007-11-24T14:13:49.1649956+01:00",
+  "PublishFrom": "2008-02-17T14:13:49.1649956+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 999,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 855
         }
       }
     },
     {
-      "VisibleId": 999,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 257
+          "FieldLength": 855
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Fri, 06 Jan 2012 12:01:33 G1T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   },
   "_Links": {

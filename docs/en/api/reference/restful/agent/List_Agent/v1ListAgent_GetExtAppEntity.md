@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=431
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=385
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 904,
-  "Name": "Dach Inc and Sons",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "Rank": 815,
-  "Filename": "velit",
-  "Parameters": "possimus",
-  "Workdir": "repudiandae",
+  "ExtAppId": 707,
+  "Name": "Wisozk Group",
+  "Tooltip": "provident",
+  "Deleted": false,
+  "Rank": 641,
+  "Filename": "quam",
+  "Parameters": "vitae",
+  "Workdir": "deserunt",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 954,
+  "ShowInStatusBar": true,
+  "Icon": 870,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 55
     }
   }
 }

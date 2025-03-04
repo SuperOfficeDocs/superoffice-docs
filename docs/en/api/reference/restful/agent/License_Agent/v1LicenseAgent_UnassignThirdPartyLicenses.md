@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 337,
-  "ModuleOwner": "quos",
+  "AssociateId": 31,
+  "ModuleOwner": "enim",
   "ModuleLicenseNames": [
-    "Price-Nikolaus",
-    "McDermott LLC"
+    "Kulas-Fisher",
+    "Effertz-Schimmel"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 124,
-    "Tooltip": "quia",
-    "CanAssign": false,
-    "Free": 481,
-    "InUse": 135,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 795,
-    "Name": "Stroman, Lind and Emmerich",
-    "Description": "Visionary bottom-line array",
-    "PrerequisiteModuleName": "Denesik-Rolfson",
-    "SortOrder": 335,
-    "ExtraFlags": 248,
+    "Unrestricted": true,
+    "Total": 69,
+    "Tooltip": "cumque",
+    "CanAssign": true,
+    "Free": 78,
+    "InUse": 8,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 740,
+    "Name": "Beatty, Kuvalis and Anderson",
+    "Description": "Adaptive scalable internet solution",
+    "PrerequisiteModuleName": "Koch-Cartwright",
+    "SortOrder": 26,
+    "ExtraFlags": 799,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 324
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

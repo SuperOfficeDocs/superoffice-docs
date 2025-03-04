@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 432,
-  "CredentialType": "perspiciatis",
-  "CredentialValue": "quod",
-  "CredentialDisplayValue": "vero"
+  "ContactId": 47,
+  "CredentialType": "at",
+  "CredentialValue": "incidunt",
+  "CredentialDisplayValue": "sunt"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 771,
-  "Name": "Swift Group",
-  "Rank": 783,
-  "Tooltip": "nobis",
+  "AssociateId": 710,
+  "Name": "Mitchell Inc and Sons",
+  "Rank": 360,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Morissette, Funk and Hayes",
-      "Description": "Customer-focused local matrix",
+      "Name": "Schowalter, Marks and Pouros",
+      "Description": "Sharable holistic array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -142,14 +142,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     },
     {
-      "Name": "Morissette, Funk and Hayes",
-      "Description": "Customer-focused local matrix",
+      "Name": "Schowalter, Marks and Pouros",
+      "Description": "Sharable holistic array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     }
@@ -172,48 +172,76 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptatem",
-      "Tooltip": "voluptas",
-      "Id": 962,
-      "Rank": 373,
+      "Value": "aut",
+      "Tooltip": "omnis",
+      "Id": 776,
+      "Rank": 484,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldType": "System.Int32",
+          "FieldLength": 620
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-07-08T12:01:28.5722109+02:00",
-  "Lastlogout": "2016-01-02T12:01:28.5722109+01:00",
-  "EjUserId": 190,
-  "RequestSignature": "voluptatibus",
+  "Lastlogin": "1999-05-19T14:13:41.6258828+02:00",
+  "Lastlogout": "2007-08-20T14:13:41.6258828+02:00",
+  "EjUserId": 565,
+  "RequestSignature": "eum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "repellat",
-      "DisplayValue": "voluptatem",
+      "Value": "culpa",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 682
         }
       }
     },
     {
       "Type": null,
-      "Value": "repellat",
-      "DisplayValue": "voluptatem",
+      "Value": "culpa",
+      "DisplayValue": "accusantium",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 682
+        }
+      }
+    }
+  ],
+  "UserName": "Oberbrunner-Maggio",
+  "TicketCategories": [
+    {
+      "Id": 626,
+      "Name": "Cormier LLC",
+      "ToolTip": "Dolores non totam.",
+      "Deleted": false,
+      "Rank": 337,
+      "Type": "quis",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "ut",
+      "ColorBlock": 482,
+      "ExtraInfo": "qui",
+      "StyleHint": "perferendis",
+      "FullName": "Spencer Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
@@ -224,58 +252,30 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "UserName": "Frami-Murphy",
-  "TicketCategories": [
+  "NickName": "Gusikowski, Schuppe and Runolfsdottir",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "quidem"
+  },
+  "CustomFields": {
+    "CustomFields1": "nemo",
+    "CustomFields2": "quidem"
+  },
+  "PostSaveCommands": [
     {
-      "Id": 228,
-      "Name": "Nicolas, Hermann and Strosin",
-      "ToolTip": "A ea et hic enim nihil.",
-      "Deleted": false,
-      "Rank": 744,
-      "Type": "exercitationem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "exercitationem",
-      "ColorBlock": 13,
-      "ExtraInfo": "quis",
-      "StyleHint": "quia",
-      "FullName": "Prof. Schuyler Blanda Sr.",
+      "Name": "Schneider Group",
+      "DisplayName": "Emmerich-Cole",
+      "Description": "Future-proofed demand-driven core",
+      "ToolTip": "Veritatis ipsam.",
+      "Actions": "Implicit",
+      "ActionData": "tenetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 73
-        }
-      }
-    }
-  ],
-  "NickName": "Purdy, Schowalter and Bernhard",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "architecto"
-  },
-  "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "minima"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Lakin LLC",
-      "DisplayName": "Jacobs, Spinka and Kilback",
-      "Description": "Fundamental grid-enabled concept",
-      "ToolTip": "Minima animi eaque minus commodi ducimus ut ullam.",
-      "Actions": "Implicit",
-      "ActionData": "saepe",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 424
+          "FieldLength": 22
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 861
     }
   }
 }

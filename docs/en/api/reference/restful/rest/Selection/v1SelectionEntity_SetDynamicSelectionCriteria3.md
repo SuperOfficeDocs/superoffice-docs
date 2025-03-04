@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice-Beatty",
-    "Operator": "in",
+    "Name": "Jast-Ondricka",
+    "Operator": "sed",
     "Values": [
-      "ea",
-      "quos"
+      "voluptatem",
+      "eaque"
     ],
     "DisplayValues": [
-      "quas",
-      "minima"
+      "ipsam",
+      "culpa"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Nitzsche-Kuhic",
-        "Operator": "beatae",
+        "Name": "Schmitt LLC",
+        "Operator": "est",
         "Values": [
-          "et",
-          "aspernatur"
+          "ut",
+          "aut"
         ],
         "DisplayValues": [
-          "qui",
-          "suscipit"
+          "placeat",
+          "qui"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 843,
+        "InterParenthesis": 708,
         "InterOperator": "And",
-        "UniqueHash": 377
+        "UniqueHash": 652
       }
     ],
-    "InterParenthesis": 771,
+    "InterParenthesis": 307,
     "InterOperator": "And",
-    "UniqueHash": 582
+    "UniqueHash": 465
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Von, Borer and Funk",
-    "Operator": "possimus",
+    "Name": "Huel, Schumm and McLaughlin",
+    "Operator": "eveniet",
     "Values": [
-      "et",
-      "perferendis"
+      "inventore",
+      "beatae"
     ],
     "DisplayValues": [
-      "impedit",
-      "praesentium"
+      "porro",
+      "voluptatum"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Fritsch LLC",
-        "Operator": "fugit",
+        "Name": "Marvin Group",
+        "Operator": "fuga",
         "Values": [
-          "eos",
-          "quo"
+          "qui",
+          "temporibus"
         ],
         "DisplayValues": [
-          "eos",
-          "modi"
+          "sint",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 40,
+        "InterParenthesis": 576,
         "InterOperator": "And",
-        "UniqueHash": 320
+        "UniqueHash": 774
       }
     ],
-    "InterParenthesis": 30,
+    "InterParenthesis": 189,
     "InterOperator": "And",
-    "UniqueHash": 639
+    "UniqueHash": 694
   }
 ]
 ```

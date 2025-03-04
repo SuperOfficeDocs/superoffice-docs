@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=eos
-GET /api/v1/Product?$top=451
-GET /api/v1/Product?$skip=531
+GET /api/v1/Product?$entities=incidunt
+GET /api/v1/Product?$top=550
+GET /api/v1/Product?$skip=952
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=illo
+GET /api/v1/Product?$context=recusandae
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "soluta",
+  "odata.nextLink": "natus",
   "value": [
     {
-      "PrimaryKey": 8878,
-      "EntityName": "person",
-      "personId": 8878,
-      "fullName": "Carol Hattie Hintz V"
+      "PrimaryKey": 9630,
+      "EntityName": "sale",
+      "saleId": 9630,
+      "contactId": 6167,
+      "name": "Larkin Inc and Sons"
     },
     {
-      "PrimaryKey": 7714,
-      "EntityName": "person",
-      "personId": 7714,
-      "fullName": "Dashawn Wyman"
+      "PrimaryKey": 6444,
+      "EntityName": "sale",
+      "saleId": 6444,
+      "contactId": 828,
+      "name": "Zemlak-Kuhlman"
     }
   ]
 }

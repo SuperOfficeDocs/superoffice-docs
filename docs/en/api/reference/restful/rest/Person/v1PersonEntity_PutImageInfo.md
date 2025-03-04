@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 360,
-  "BlobSize": 232,
-  "Description": "Organized interactive migration",
-  "ExtraInfo": "quis",
+  "BlobId": 896,
+  "BlobSize": 77,
+  "Description": "Business-focused client-server groupware",
+  "ExtraInfo": "quisquam",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quia",
-  "OriginalSize": 358,
-  "CreatedDate": "2015-11-11T12:01:32.9956921+01:00",
-  "UpdatedDate": "2007-10-10T12:01:32.9956921+02:00",
+  "IsZipped": false,
+  "MimeType": "nostrum",
+  "OriginalSize": 388,
+  "CreatedDate": "2011-05-02T14:13:49.0243988+02:00",
+  "UpdatedDate": "2002-01-26T14:13:49.0243988+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatum"
+  "ConceptualType": "eos"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 622,
-  "BlobSize": 935,
-  "Description": "Phased demand-driven initiative",
-  "ExtraInfo": "quo",
+  "BlobId": 800,
+  "BlobSize": 266,
+  "Description": "Diverse encompassing emulation",
+  "ExtraInfo": "dolorum",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "esse",
-  "OriginalSize": 431,
-  "CreatedDate": "2008-04-21T12:01:32.9956921+02:00",
-  "UpdatedDate": "2014-06-01T12:01:32.9956921+02:00",
+  "MimeType": "non",
+  "OriginalSize": 843,
+  "CreatedDate": "2001-02-27T14:13:49.0243988+01:00",
+  "UpdatedDate": "2011-08-20T14:13:49.0243988+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "perspiciatis",
+  "ConceptualType": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   }
 }

@@ -819,7 +819,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personAssociate/assocName,personAssociate/personEmail,projectMembers/projectPublish/isPublished,projectMembers/projectAssociate/usergroup,personAppointment/appointment/agendaHtml
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personDirectFax/formattedNumber,email/emailLastBounce,personTargetRelation/lastName,personTargetRelation/personAssociateFullName,personAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Miller, Buckridge and Schinner",
-    "ToolTip": "Dolor ipsum eveniet nobis et non.",
+    "Id": 748,
+    "Name": "Nienow, Morissette and Grady",
+    "ToolTip": "Ut explicabo odit et iusto eos sapiente.",
     "Deleted": true,
-    "Rank": 548,
-    "Type": "eveniet",
-    "ColorBlock": 142,
-    "IconHint": "excepturi",
-    "Selected": false,
-    "LastChanged": "2017-09-05T12:01:33.5738574+02:00",
+    "Rank": 293,
+    "Type": "perspiciatis",
+    "ColorBlock": 646,
+    "IconHint": "doloribus",
+    "Selected": true,
+    "LastChanged": "2013-11-03T14:13:50.0875321+01:00",
     "ChildItems": [
       {
-        "Id": 993,
-        "Name": "Emard-Larkin",
-        "ToolTip": "Velit aut ut inventore sapiente architecto excepturi velit.",
+        "Id": 805,
+        "Name": "Smitham, Weber and Lemke",
+        "ToolTip": "Ea rerum est suscipit distinctio aut.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "autem",
-        "ColorBlock": 346,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "2002-09-30T12:01:33.5738574+02:00",
+        "Rank": 243,
+        "Type": "saepe",
+        "ColorBlock": 903,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2016-09-01T14:13:50.0875321+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "sed",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Rod Ward",
+        "FullName": "Kacie Douglas DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldType": "System.String",
+            "FieldLength": 624
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Prof. Judge Nolan",
+    "ExtraInfo": "dicta",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Ottilie Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 805
+        "FieldLength": 266
       }
     }
   }

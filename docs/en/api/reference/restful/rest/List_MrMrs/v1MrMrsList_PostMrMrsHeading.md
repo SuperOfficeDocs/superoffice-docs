@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 384,
-  "Name": "Fay-O'Conner",
-  "Tooltip": "quia",
+  "HeadingId": 483,
+  "Name": "Rosenbaum Inc and Sons",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 992,
-  "UdListDefinitionId": 668
+  "Rank": 702,
+  "UdListDefinitionId": 531
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 79,
-  "Name": "Murray, Jewess and West",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 539,
-  "UdListDefinitionId": 283,
+  "HeadingId": 247,
+  "Name": "Altenwerth Group",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 983,
+  "UdListDefinitionId": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldLength": 456
     }
   }
 }

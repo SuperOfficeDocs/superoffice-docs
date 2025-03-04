@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 423,
-    "Name": "Wehner Inc and Sons",
-    "Description": "Object-based 3rd generation methodology",
+    "ProjectId": 224,
+    "Name": "Little Inc and Sons",
+    "Description": "Total modular middleware",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 107,
-    "AssociateFullName": "Mr. Marisa Lawson Dicki I",
-    "TypeId": 38,
-    "Updated": "2009-08-19T12:01:28.1659327+02:00",
-    "StatusId": 837,
-    "Status": "itaque",
-    "TextId": 504,
-    "PublishTo": "2008-08-14T12:01:28.1659327+02:00",
-    "PublishFrom": "2003-07-12T12:01:28.1659327+02:00",
-    "IsPublished": true,
+    "Type": "nihil",
+    "AssociateId": 714,
+    "AssociateFullName": "Mrs. Jasper Dickinson",
+    "TypeId": 92,
+    "Updated": "2011-01-05T14:13:41.0314634+01:00",
+    "StatusId": 324,
+    "Status": "perspiciatis",
+    "TextId": 105,
+    "PublishTo": "2015-02-16T14:13:41.0314634+01:00",
+    "PublishFrom": "1999-03-22T14:13:41.0314634+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "792704",
-    "ActiveErpLinks": 513,
+    "ProjectNumber": "1051046",
+    "ActiveErpLinks": 334,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 957
+        "FieldLength": 951
       }
     }
   }

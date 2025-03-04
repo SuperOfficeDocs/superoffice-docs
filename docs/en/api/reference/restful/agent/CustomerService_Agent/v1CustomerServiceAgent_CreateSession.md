@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "excepturi"
+  "RemoteIp": "eius"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "consequatur",
-  "LoginId": 915,
-  "UserId": 698,
+  "Key": "error",
+  "LoginId": 367,
+  "UserId": 487,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldLength": 646
     }
   }
 }

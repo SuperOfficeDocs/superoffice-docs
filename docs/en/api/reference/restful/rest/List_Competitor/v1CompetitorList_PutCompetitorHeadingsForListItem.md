@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Veum Inc and Sons",
-    "ToolTip": "Sint ex.",
+    "Id": 454,
+    "Name": "Gutkowski, Kunze and Beer",
+    "ToolTip": "Id quas distinctio nemo dolorum neque unde optio.",
     "Deleted": true,
-    "Rank": 385,
-    "Type": "incidunt",
-    "ColorBlock": 826,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2020-10-08T12:01:33.448849+02:00",
+    "Rank": 691,
+    "Type": "ipsam",
+    "ColorBlock": 128,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2014-10-12T14:13:49.696121+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Hilll, Grady and King",
-        "ToolTip": "Fugit ea vel officiis non dolorem et.",
+        "Id": 112,
+        "Name": "Zemlak-Feil",
+        "ToolTip": "Rerum hic sint eveniet.",
         "Deleted": false,
-        "Rank": 970,
-        "Type": "dolor",
-        "ColorBlock": 610,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2002-11-28T12:01:33.448849+01:00",
+        "Rank": 810,
+        "Type": "tempore",
+        "ColorBlock": 43,
+        "IconHint": "reprehenderit",
+        "Selected": false,
+        "LastChanged": "2002-06-18T14:13:49.696121+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Laisha Goodwin Sr."
+        "ExtraInfo": "animi",
+        "StyleHint": "debitis",
+        "Hidden": false,
+        "FullName": "Dalton Deckow"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Candice Weber"
+    "ExtraInfo": "odit",
+    "StyleHint": "facilis",
+    "Hidden": true,
+    "FullName": "Taryn Bins"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Sunt qui dolor et.",
-    "Deleted": false,
-    "Rank": 637,
-    "Type": "aut",
-    "ColorBlock": 677,
-    "IconHint": "nostrum",
-    "Selected": true,
-    "LastChanged": "2023-01-22T12:01:33.448849+01:00",
+    "Id": 578,
+    "Name": "Fisher Group",
+    "ToolTip": "Enim numquam non.",
+    "Deleted": true,
+    "Rank": 830,
+    "Type": "dolorem",
+    "ColorBlock": 384,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "1999-10-01T14:13:49.696121+02:00",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "Larkin, Hessel and Bernier",
-        "ToolTip": "Omnis voluptas.",
-        "Deleted": false,
-        "Rank": 883,
-        "Type": "et",
-        "ColorBlock": 441,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2023-09-19T12:01:33.448849+02:00",
+        "Id": 371,
+        "Name": "Schuster-Wolff",
+        "ToolTip": "Minima hic rem.",
+        "Deleted": true,
+        "Rank": 791,
+        "Type": "enim",
+        "ColorBlock": 404,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2025-02-06T14:13:49.696121+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "necessitatibus",
-        "Hidden": true,
-        "FullName": "Miss Augustine Avis Carter V",
+        "ExtraInfo": "est",
+        "StyleHint": "perspiciatis",
+        "Hidden": false,
+        "FullName": "Cleveland Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldType": "System.String",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "consequuntur",
-    "Hidden": true,
-    "FullName": "Agustin Leannon",
+    "ExtraInfo": "ut",
+    "StyleHint": "optio",
+    "Hidden": false,
+    "FullName": "Marisa Rosenbaum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 458
       }
     }
   }

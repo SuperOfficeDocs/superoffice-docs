@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Johnston-Prohaska",
-  "ParameterName": "Champlin-Heller"
+  "LayoutName": "Littel Inc and Sons",
+  "ParameterName": "Kozey LLC"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 510,
-  "Name": "Pouros LLC",
-  "Value": "quod",
-  "CreatedDate": "2009-10-08T12:01:27.3377499+02:00",
-  "UpdatedDate": "2018-10-21T12:01:27.3377499+02:00",
-  "CreatedBy": "ipsum",
-  "UpdatedBy": "aperiam",
+  "AudienceLayoutId": 753,
+  "Name": "Schuppe, Toy and Steuber",
+  "Value": "molestias",
+  "CreatedDate": "2023-09-01T14:13:39.3754818+02:00",
+  "UpdatedDate": "2002-04-01T14:13:39.3754818+02:00",
+  "CreatedBy": "porro",
+  "UpdatedBy": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 278
     }
   }
 }

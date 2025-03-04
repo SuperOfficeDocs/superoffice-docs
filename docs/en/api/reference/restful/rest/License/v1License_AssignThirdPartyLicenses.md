@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 554,
-    "Tooltip": "qui",
+    "Total": 878,
+    "Tooltip": "voluptas",
     "CanAssign": true,
-    "Free": 612,
-    "InUse": 946,
+    "Free": 873,
+    "InUse": 34,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 672,
-    "Name": "Mills-Yost",
-    "Description": "Ameliorated methodical toolset",
-    "PrerequisiteModuleName": "Bailey-Gottlieb",
-    "SortOrder": 146,
-    "ExtraFlags": 888,
+    "ModuleLicenseId": 160,
+    "Name": "Kiehn-Nicolas",
+    "Description": "Diverse multi-tasking service-desk",
+    "PrerequisiteModuleName": "Carter, Terry and Gleichner",
+    "SortOrder": 112,
+    "ExtraFlags": 837,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 271
       }
     }
   }

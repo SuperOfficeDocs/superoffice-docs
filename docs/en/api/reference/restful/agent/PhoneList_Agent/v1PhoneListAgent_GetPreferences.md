@@ -82,9 +82,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchCompany": true,
-  "SearchFirstname": true,
-  "SearchLastname": true,
+  "SearchCompany": false,
+  "SearchFirstname": false,
+  "SearchLastname": false,
   "SearchDepartment": false,
   "SearchModeCompany": "BeginsWith",
   "SearchModeDepartment": "BeginsWith",
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 691
+      "FieldLength": 349
     }
   }
 }

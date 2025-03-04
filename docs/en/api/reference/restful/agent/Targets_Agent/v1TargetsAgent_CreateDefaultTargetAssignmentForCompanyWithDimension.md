@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 27
+  "TargetDimensionId": 830
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 418,
+    "TargetAssignmentInfoId": 478,
     "Values": [
-      175,
-      681
+      321,
+      384
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 322,
-    "DimensionListItemDisplayName": "Armstrong-Auer",
+    "DimensionListItem": 309,
+    "DimensionListItemDisplayName": "Tromp LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldLength": 1002
       }
     }
   }

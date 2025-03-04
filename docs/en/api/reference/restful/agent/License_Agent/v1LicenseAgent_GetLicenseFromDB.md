@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kohler-Frami"
+  "OwnerName": "Wintheiser-Keebler"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 668,
-      "NumberOfLicensesFree": 937,
-      "NumberOfLicensesAdded": 23,
-      "NumberOfLicensesNewTotal": 771,
-      "NumberOfLicensesNewFree": 739,
-      "NumberOfLicensesTotal": 61
+      "NumberOfLicensesInUse": 352,
+      "NumberOfLicensesFree": 971,
+      "NumberOfLicensesAdded": 22,
+      "NumberOfLicensesNewTotal": 343,
+      "NumberOfLicensesNewFree": 107,
+      "NumberOfLicensesTotal": 150
     }
   ],
-  "AccumulatedNextCheckDate": "2024-05-14T12:01:27.9159153+02:00"
+  "AccumulatedNextCheckDate": "1997-11-28T14:13:40.4066046+01:00"
 }
 ```

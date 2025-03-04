@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=ratione
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=nam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Quitzon, Kessler and Reynolds",
-    "ToolTip": "Nesciunt incidunt est.",
-    "Deleted": true,
-    "Rank": 627,
-    "Type": "velit",
+    "Id": 296,
+    "Name": "Boyle, Mohr and Donnelly",
+    "ToolTip": "Modi et.",
+    "Deleted": false,
+    "Rank": 303,
+    "Type": "eum",
     "ChildItems": [
       {
-        "Id": 153,
-        "Name": "Sauer, McDermott and Pacocha",
-        "ToolTip": "Excepturi aut aliquam ut.",
-        "Deleted": true,
-        "Rank": 730,
-        "Type": "quis",
+        "Id": 778,
+        "Name": "O'Hara Group",
+        "ToolTip": "Possimus temporibus numquam autem.",
+        "Deleted": false,
+        "Rank": 48,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 614,
-        "ExtraInfo": "cum",
-        "StyleHint": "vel",
-        "FullName": "Helen Cummerata",
+        "IconHint": "ducimus",
+        "ColorBlock": 641,
+        "ExtraInfo": "et",
+        "StyleHint": "quod",
+        "FullName": "Janiya Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 624
+            "FieldLength": 567
           }
         }
       }
     ],
-    "IconHint": "necessitatibus",
-    "ColorBlock": 182,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "eum",
-    "FullName": "Madisyn Klocko",
+    "IconHint": "tenetur",
+    "ColorBlock": 401,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "voluptatem",
+    "FullName": "Anissa Runte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 137
+        "FieldLength": 736
       }
     }
   }

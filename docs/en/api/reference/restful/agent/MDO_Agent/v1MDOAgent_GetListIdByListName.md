@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/MDO/GetListIdByListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Armstrong Inc and Sons"
+  "Name": "Haag, Bailey and Balistreri"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-724
+735
 ```

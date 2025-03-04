@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 291,
-  "Name": "Becker-Quigley",
-  "Tooltip": "aut",
+  "RoleId": 913,
+  "Name": "Gleichner, Stroman and Lockman",
+  "Tooltip": "amet",
   "RoleType": "Anonymous",
-  "Deleted": 9,
-  "Rank": 435,
-  "Created": "2003-07-23T12:01:28.5722109+02:00",
-  "UseCategories": 948,
+  "Deleted": 906,
+  "Rank": 127,
+  "Created": "2005-07-21T14:13:41.6415043+02:00",
+  "UseCategories": 976,
   "CreatedBy": null,
-  "Updated": "2021-11-09T12:01:28.5878372+01:00",
+  "Updated": "2020-01-18T14:13:41.6415043+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 372,
-  "Name": "Lehner-Marks",
-  "Tooltip": "aut",
+  "RoleId": 351,
+  "Name": "Gibson Inc and Sons",
+  "Tooltip": "odit",
   "RoleType": "Anonymous",
-  "Deleted": 643,
-  "Rank": 178,
-  "Created": "1999-02-03T12:01:28.5878372+01:00",
-  "UseCategories": 546,
+  "Deleted": 734,
+  "Rank": 50,
+  "Created": "2017-07-09T14:13:41.6415043+02:00",
+  "UseCategories": 792,
   "CreatedBy": null,
-  "Updated": "2015-10-18T12:01:28.5878372+02:00",
+  "Updated": "2000-03-13T14:13:41.6415043+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 162
     }
   }
 }

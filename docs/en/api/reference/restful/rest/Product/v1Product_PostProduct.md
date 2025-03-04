@@ -145,51 +145,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 751,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "quia",
-  "Name": "Stoltenberg-Schulist",
-  "Description": "Configurable uniform access",
-  "Code": "officiis",
-  "PriceUnit": "eum",
-  "QuantityUnit": "cum",
+  "ProductId": 293,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "laborum",
+  "Name": "Gutkowski-Collier",
+  "Description": "Profound user-facing attitude",
+  "Code": "rerum",
+  "PriceUnit": "ipsum",
+  "QuantityUnit": "voluptate",
   "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 15068.271999999999,
-  "ItemNumber": "656251",
+  "SubscriptionUnit": "quia",
+  "DefaultSubscriptionQuantity": 25814.757999999998,
+  "ItemNumber": "1671762",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quam",
-  "ProductTypeKey": "dolorem",
-  "VAT": 21687.28,
-  "VATInfo": "eveniet",
-  "UnitCost": 5600.458,
-  "UnitMinimumPrice": 3532.018,
-  "UnitListPrice": 3958.2419999999997,
-  "InAssortment": true,
-  "Supplier": "quia",
-  "SupplierCode": "exercitationem",
-  "Rights": "nulla",
-  "Rule": "sunt",
+  "ProductFamilyKey": "id",
+  "ProductTypeKey": "ut",
+  "VAT": 7769.186,
+  "VATInfo": "voluptatem",
+  "UnitCost": 24059.718,
+  "UnitMinimumPrice": 9298.578,
+  "UnitListPrice": 2112.316,
+  "InAssortment": false,
+  "Supplier": "voluptates",
+  "SupplierCode": "ut",
+  "Rights": "sapiente",
+  "Rule": "vero",
   "ExtraInfo": [
     {
-      "Name": "Willms-Fahey",
-      "Value": "accusantium",
+      "Name": "Gleason, Veum and Quigley",
+      "Value": "omnis",
       "Type": "Image"
     },
     {
-      "Name": "Willms-Fahey",
-      "Value": "accusantium",
+      "Name": "Gleason, Veum and Quigley",
+      "Value": "omnis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "animi",
-  "ExtraField1": "beatae",
-  "ExtraField2": "officia",
-  "ExtraField3": "repudiandae",
-  "ExtraField4": "dicta",
-  "ExtraField5": "quo",
-  "InStock": 28425.379999999997
+  "RawExtraInfo": "rem",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "qui",
+  "ExtraField3": "quo",
+  "ExtraField4": "quia",
+  "ExtraField5": "ea",
+  "InStock": 10674.404
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 618,
-  "ERPProductKey": "ut",
-  "ERPPriceListKey": "accusantium",
-  "Name": "Reichert, Greenholt and Sanford",
-  "Description": "User-centric regional system engine",
-  "Code": "eum",
-  "PriceUnit": "nostrum",
-  "QuantityUnit": "odio",
+  "ProductId": 882,
+  "ERPProductKey": "dolor",
+  "ERPPriceListKey": "aut",
+  "Name": "Lemke LLC",
+  "Description": "Intuitive systematic help-desk",
+  "Code": "nam",
+  "PriceUnit": "quo",
+  "QuantityUnit": "voluptas",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolorem",
-  "DefaultSubscriptionQuantity": 16741.827999999998,
-  "ItemNumber": "1635114",
+  "SubscriptionUnit": "nostrum",
+  "DefaultSubscriptionQuantity": 3281.298,
+  "ItemNumber": "978387",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "illum",
-  "ProductTypeKey": "doloribus",
-  "VAT": 3660.5119999999997,
-  "VATInfo": "quod",
-  "UnitCost": 7715.9079999999994,
-  "UnitMinimumPrice": 3168.4739999999997,
-  "UnitListPrice": 14234.627999999999,
+  "ProductFamilyKey": "consectetur",
+  "ProductTypeKey": "eius",
+  "VAT": 999.746,
+  "VATInfo": "assumenda",
+  "UnitCost": 21577.59,
+  "UnitMinimumPrice": 15930.122,
+  "UnitListPrice": 23266.816,
   "InAssortment": false,
-  "Supplier": "ut",
-  "SupplierCode": "tempora",
-  "Rights": "itaque",
-  "Rule": "qui",
+  "Supplier": "veniam",
+  "SupplierCode": "facilis",
+  "Rights": "sit",
+  "Rule": "voluptatibus",
   "ExtraInfo": [
     {
-      "Name": "Trantow, Gleichner and Ruecker",
-      "Value": "nihil",
+      "Name": "Borer, Rau and Daugherty",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     },
     {
-      "Name": "Trantow, Gleichner and Ruecker",
-      "Value": "nihil",
+      "Name": "Borer, Rau and Daugherty",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 659
         }
       }
     }
   ],
-  "RawExtraInfo": "quis",
-  "ExtraField1": "illo",
-  "ExtraField2": "cumque",
-  "ExtraField3": "excepturi",
-  "ExtraField4": "placeat",
-  "ExtraField5": "quia",
-  "InStock": 29205.746,
+  "RawExtraInfo": "ut",
+  "ExtraField1": "est",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "ut",
+  "ExtraField5": "est",
+  "InStock": 16754.363999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 417
     }
   }
 }

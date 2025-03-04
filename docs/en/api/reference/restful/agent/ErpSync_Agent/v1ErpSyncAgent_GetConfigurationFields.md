@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 385
+  "ErpConnectorId": 868
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "reiciendis",
-    "Rank": 435,
-    "DisplayName": "Hamill, Goyette and Kuhn",
-    "DisplayDescription": "Secured uniform middleware",
+    "FieldKey": "nostrum",
+    "Rank": 592,
+    "DisplayName": "King-Ryan",
+    "DisplayDescription": "Assimilated 24 hour hardware",
     "FieldType": "Checkbox",
-    "ListName": "Eichmann-Hoppe",
-    "DefaultValue": "dolorem",
-    "MaxLength": 56,
+    "ListName": "Braun-McClure",
+    "DefaultValue": "illo",
+    "MaxLength": 997,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 539
+        "FieldLength": 887
       }
     }
   }

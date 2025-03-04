@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Wisoky Inc and Sons",
-    "ToolTip": "Est debitis voluptatum nihil molestiae voluptas similique eum.",
+    "Id": 218,
+    "Name": "Klocko-Morar",
+    "ToolTip": "Ullam dolor iste voluptatibus optio possimus ullam recusandae.",
     "Deleted": false,
-    "Rank": 829,
-    "Type": "aperiam",
-    "ColorBlock": 207,
-    "IconHint": "minima",
+    "Rank": 569,
+    "Type": "ut",
+    "ColorBlock": 367,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2011-03-06T12:01:33.6207356+01:00",
+    "LastChanged": "2010-09-10T14:13:50.1812638+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Bartell-Jakubowski",
-        "ToolTip": "Beatae non sed vero aliquam et facere.",
-        "Deleted": true,
-        "Rank": 378,
-        "Type": "officia",
-        "ColorBlock": 215,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2002-06-11T12:01:33.6207356+02:00",
+        "Id": 411,
+        "Name": "Smith, Flatley and Bailey",
+        "ToolTip": "Quos possimus quo.",
+        "Deleted": false,
+        "Rank": 482,
+        "Type": "enim",
+        "ColorBlock": 4,
+        "IconHint": "ipsa",
+        "Selected": false,
+        "LastChanged": "2009-06-19T14:13:50.1812638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "aliquam",
+        "ExtraInfo": "in",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Mrs. Joana Noemy Langworth"
+        "FullName": "Therese Ledner"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quae",
-    "Hidden": false,
-    "FullName": "Else Murray"
+    "ExtraInfo": "non",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Ellen Bernhard"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 119,
-    "Name": "Kozey Group",
-    "ToolTip": "Consequatur mollitia hic labore est totam.",
+    "Id": 267,
+    "Name": "Ratke, Mitchell and Gerlach",
+    "ToolTip": "Accusantium aperiam deserunt eveniet.",
     "Deleted": true,
-    "Rank": 587,
-    "Type": "dolore",
-    "ColorBlock": 9,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2013-09-09T12:01:33.6207356+02:00",
+    "Rank": 137,
+    "Type": "id",
+    "ColorBlock": 692,
+    "IconHint": "vero",
+    "Selected": true,
+    "LastChanged": "2009-08-05T14:13:50.1812638+02:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Schimmel, Ritchie and Ledner",
-        "ToolTip": "Labore unde provident optio impedit nobis vel.",
-        "Deleted": false,
-        "Rank": 655,
-        "Type": "consequuntur",
-        "ColorBlock": 751,
-        "IconHint": "velit",
+        "Id": 619,
+        "Name": "Ledner Group",
+        "ToolTip": "Dolorum voluptas ut ipsam.",
+        "Deleted": true,
+        "Rank": 632,
+        "Type": "sit",
+        "ColorBlock": 567,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2020-11-08T12:01:33.6207356+01:00",
+        "LastChanged": "2022-03-14T14:13:50.1812638+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
+        "ExtraInfo": "vel",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Holly Emmerich",
+        "FullName": "Juvenal Santino Wolf III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 79
+            "FieldLength": 976
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "nisi",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Dr. Justina Rogahn Sr.",
+    "FullName": "Wilfredo Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 508
       }
     }
   }

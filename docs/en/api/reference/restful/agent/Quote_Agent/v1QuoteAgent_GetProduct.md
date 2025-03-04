@@ -111,8 +111,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 390,
-  "ERPProductKey": "qui"
+  "QuoteConnectionId": 421,
+  "ERPProductKey": "omnis"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 902,
-  "ERPProductKey": "ad",
-  "ERPPriceListKey": "nostrum",
-  "Name": "Rosenbaum, Ebert and Brekke",
-  "Description": "Organized well-modulated hub",
-  "Code": "deleniti",
-  "PriceUnit": "non",
-  "QuantityUnit": "quod",
-  "IsSubscription": true,
-  "SubscriptionUnit": "consectetur",
-  "DefaultSubscriptionQuantity": 7960.36,
-  "ItemNumber": "112269",
+  "ProductId": 398,
+  "ERPProductKey": "qui",
+  "ERPPriceListKey": "doloremque",
+  "Name": "Bode, Stoltenberg and Medhurst",
+  "Description": "Ergonomic foreground framework",
+  "Code": "quasi",
+  "PriceUnit": "aliquid",
+  "QuantityUnit": "natus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptate",
+  "DefaultSubscriptionQuantity": 27453.84,
+  "ItemNumber": "1808418",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "culpa",
-  "ProductTypeKey": "molestiae",
-  "VAT": 22492.718,
-  "VATInfo": "amet",
-  "UnitCost": 26739.288,
-  "UnitMinimumPrice": 27945.878,
-  "UnitListPrice": 3149.67,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "distinctio",
+  "VAT": 31123.753999999997,
+  "VATInfo": "quis",
+  "UnitCost": 5487.634,
+  "UnitMinimumPrice": 29647.64,
+  "UnitListPrice": 19694.056,
   "InAssortment": false,
-  "Supplier": "incidunt",
-  "SupplierCode": "accusamus",
-  "Rights": "aut",
-  "Rule": "ab",
+  "Supplier": "ex",
+  "SupplierCode": "rerum",
+  "Rights": "qui",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "King-Ziemann",
-      "Value": "ullam",
+      "Name": "Botsford LLC",
+      "Value": "deleniti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldLength": 624
         }
       }
     },
     {
-      "Name": "King-Ziemann",
-      "Value": "ullam",
+      "Name": "Botsford LLC",
+      "Value": "deleniti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 706
+          "FieldLength": 624
         }
       }
     }
   ],
-  "RawExtraInfo": "necessitatibus",
-  "ExtraField1": "sed",
-  "ExtraField2": "minima",
-  "ExtraField3": "id",
-  "ExtraField4": "nisi",
-  "ExtraField5": "placeat",
-  "InStock": 9101.136,
+  "RawExtraInfo": "velit",
+  "ExtraField1": "et",
+  "ExtraField2": "laudantium",
+  "ExtraField3": "sit",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "enim",
+  "InStock": 4848.298,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 23
     }
   }
 }

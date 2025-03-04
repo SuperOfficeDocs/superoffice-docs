@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 196
+  "QuoteAlternativeId": 781
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 85,
-    "ERPQuoteLineKey": "id",
-    "QuoteAlternativeId": 422,
-    "ERPProductKey": "sed",
+    "QuoteLineId": 92,
+    "ERPQuoteLineKey": "neque",
+    "QuoteAlternativeId": 574,
+    "ERPProductKey": "iusto",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 8283.162,
-    "DeliveredQuantity": 15952.06,
-    "Rank": 907,
-    "Name": "Pouros, Becker and Green",
-    "Description": "Organic high-level algorithm",
-    "Code": "odit",
-    "QuantityUnit": "in",
-    "PriceUnit": "quidem",
-    "ItemNumber": "976637",
+    "Quantity": 423.09,
+    "DeliveredQuantity": 29779.268,
+    "Rank": 156,
+    "Name": "Nienow-Price",
+    "Description": "Self-enabling impactful interface",
+    "Code": "et",
+    "QuantityUnit": "doloribus",
+    "PriceUnit": "a",
+    "ItemNumber": "1102258",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "a",
-    "ProductTypeKey": "magnam",
-    "Supplier": "at",
-    "SupplierCode": "animi",
-    "Thumbnail": "vitae",
-    "VATInfo": "deserunt",
-    "VAT": 2967.8979999999997,
-    "UnitCost": 9909.708,
-    "UnitMinimumPrice": 4274.776,
-    "UnitListPrice": 27886.332,
+    "ProductFamilyKey": "commodi",
+    "ProductTypeKey": "deserunt",
+    "Supplier": "dicta",
+    "SupplierCode": "laborum",
+    "Thumbnail": "enim",
+    "VATInfo": "ipsam",
+    "VAT": 25846.097999999998,
+    "UnitCost": 24194.48,
+    "UnitMinimumPrice": 16215.315999999999,
+    "UnitListPrice": 5236.914,
     "ExtraInfo": [
       {
-        "Name": "Mertz, Weimann and Halvorson",
-        "Value": "et",
+        "Name": "Marks Inc and Sons",
+        "Value": "aut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 550
           }
         }
       },
       {
-        "Name": "Mertz, Weimann and Halvorson",
-        "Value": "et",
+        "Name": "Marks Inc and Sons",
+        "Value": "aut",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 550
           }
         }
       }
     ],
-    "RawExtraInfo": "recusandae",
-    "IsSubscription": false,
-    "SubscriptionUnit": "deleniti",
-    "SubscriptionQuantity": 18029.902,
-    "SubscriptionStart": "2016-09-12T12:01:28.2128113+02:00",
-    "ERPDiscountPercent": 15670.0,
-    "ERPDiscountAmount": 24185.077999999998,
-    "DiscountPercent": 22815.52,
-    "DiscountAmount": 29055.314,
+    "RawExtraInfo": "itaque",
+    "IsSubscription": true,
+    "SubscriptionUnit": "blanditiis",
+    "SubscriptionQuantity": 1635.9479999999999,
+    "SubscriptionStart": "2009-02-03T14:13:41.1408128+01:00",
+    "ERPDiscountPercent": 19697.19,
+    "ERPDiscountAmount": 23172.796,
+    "DiscountPercent": 7759.784,
+    "DiscountAmount": 3741.996,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 2243.944,
-    "EarningAmount": 30525.16,
-    "SubTotal": 11335.678,
-    "TotalPrice": 11953.076,
-    "Rights": "perferendis",
-    "Rule": "eius",
-    "ExtraField1": "placeat",
-    "ExtraField2": "dolores",
-    "ExtraField3": "ab",
-    "ExtraField4": "ea",
-    "ExtraField5": "iure",
+    "EarningPercent": 15011.859999999999,
+    "EarningAmount": 26278.59,
+    "SubTotal": 3977.046,
+    "TotalPrice": 23950.028,
+    "Rights": "aut",
+    "Rule": "rerum",
+    "ExtraField1": "praesentium",
+    "ExtraField2": "consequatur",
+    "ExtraField3": "quas",
+    "ExtraField4": "dolores",
+    "ExtraField5": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldLength": 818
       }
     }
   }

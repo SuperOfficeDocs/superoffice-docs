@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 709,
-    "Name": "Hauck, Osinski and Hyatt",
-    "Tooltip": "et",
-    "Rank": 43,
+    "SaleTypeId": 459,
+    "Name": "Mayer, Volkman and Skiles",
+    "Tooltip": "aut",
+    "Rank": 131,
     "DurationUnit": "Century",
-    "SaleDuration": 230,
-    "SaleTypeCatId": 300,
+    "SaleDuration": 313,
+    "SaleTypeCatId": 422,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": true,
+    "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 413,
-    "QuoteLinesTemplate": 881,
-    "ConfirmationLinesTemplate": 58,
+    "DefaultQuoteValidity": 993,
+    "QuoteLinesTemplate": 177,
+    "ConfirmationLinesTemplate": 117,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 245,
-    "MinEarningPercent": 35,
-    "GroupQuoteLinesBy": 786,
-    "SortGroupLinesBy": 201,
+    "MaxDiscountPercent": 962,
+    "MinEarningPercent": 371,
+    "GroupQuoteLinesBy": 512,
+    "SortGroupLinesBy": 452,
     "Stages": [
       {
-        "Id": 163,
-        "Name": "Wehner, McKenzie and O'Keefe",
-        "ToolTip": "Non eos quidem doloremque adipisci expedita.",
-        "Deleted": true,
-        "Rank": 40,
-        "Type": "sequi",
-        "ColorBlock": 417,
-        "IconHint": "sed",
+        "Id": 466,
+        "Name": "Jakubowski-Schamberger",
+        "ToolTip": "Numquam deserunt.",
+        "Deleted": false,
+        "Rank": 993,
+        "Type": "doloremque",
+        "ColorBlock": 699,
+        "IconHint": "maiores",
         "Selected": true,
-        "LastChanged": "2003-08-12T12:01:27.9315414+02:00",
+        "LastChanged": "2007-10-25T14:13:40.4534691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Carlos Collins",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Prof. Myrtis Liliana Stehr PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 993
+            "FieldType": "System.Int32",
+            "FieldLength": 71
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 468
+        "FieldType": "System.Int32",
+        "FieldLength": 261
       }
     }
   }

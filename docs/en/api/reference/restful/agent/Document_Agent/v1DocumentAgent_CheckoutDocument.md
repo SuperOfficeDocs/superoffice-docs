@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Document/CheckoutDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 507,
+  "DocumentId": 387,
   "AllowedReturnTypes": [
-    "amet",
-    "hic"
+    "numquam",
+    "et"
   ]
 }
 ```
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quod",
-  "VersionId": "eaque",
+  "ExternalReference": "nihil",
+  "VersionId": "perspiciatis",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "fugit",
-  "AdditionalInfo": "velit"
+  "Value": "dolorem",
+  "AdditionalInfo": "quaerat"
 }
 ```

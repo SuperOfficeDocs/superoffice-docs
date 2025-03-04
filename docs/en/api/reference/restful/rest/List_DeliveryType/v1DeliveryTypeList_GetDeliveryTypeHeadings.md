@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 212,
-    "Name": "Reichel Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 947,
-    "UdListDefinitionId": 226,
+    "HeadingId": 966,
+    "Name": "Hermann Inc and Sons",
+    "Tooltip": "similique",
+    "Deleted": false,
+    "Rank": 225,
+    "UdListDefinitionId": 359,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 280
       }
     }
   }

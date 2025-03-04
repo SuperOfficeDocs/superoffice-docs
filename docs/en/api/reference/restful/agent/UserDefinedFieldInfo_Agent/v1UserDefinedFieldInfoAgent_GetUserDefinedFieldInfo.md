@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=8
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=291
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 57,
-  "ColumnId": 696,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 686,
-  "FieldLabel": "sunt",
-  "FieldLeft": 646,
-  "FieldTop": 230,
+  "UDefFieldId": 947,
+  "ColumnId": 631,
+  "FieldDefault": "ut",
+  "FieldHeight": 76,
+  "FieldLabel": "est",
+  "FieldLeft": 108,
+  "FieldTop": 217,
   "FieldType": "Checkbox",
-  "FieldWidth": 675,
-  "FormatMask": "beatae",
-  "HideLabel": false,
+  "FieldWidth": 202,
+  "FormatMask": "minus",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 603,
-  "LabelLeft": 200,
-  "LabelTop": 479,
-  "LabelWidth": 350,
-  "LastVersionId": 715,
-  "ListTableId": 59,
+  "LabelHeight": 968,
+  "LabelLeft": 511,
+  "LabelTop": 289,
+  "LabelWidth": 51,
+  "LastVersionId": 901,
+  "ListTableId": 455,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 513,
-  "ProgId": "expedita",
-  "IsReadOnly": false,
-  "ShortLabel": "esse",
-  "TabOrder": 190,
-  "TextLength": 124,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 101,
-  "UDListDefinitionId": 1001,
+  "Page1LineNo": 502,
+  "ProgId": "a",
+  "IsReadOnly": true,
+  "ShortLabel": "ab",
+  "TabOrder": 308,
+  "TextLength": 159,
+  "Tooltip": "est",
+  "UdefIdentity": 410,
+  "UDListDefinitionId": 42,
   "Justification": "Center",
-  "Version": 437,
-  "TemplateVariableName": "Klein, Ryan and Tremblay",
+  "Version": 299,
+  "TemplateVariableName": "Rosenbaum-Mertz",
   "HasBeenPublished": false,
-  "MdoListName": "Bruen-Lindgren",
+  "MdoListName": "Eichmann-White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

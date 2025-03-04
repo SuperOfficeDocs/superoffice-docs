@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 330,
+  "HierarchyId": 422,
   "Domain": "Dashboards",
-  "Name": "Zboncak Inc and Sons",
-  "Fullname": "occaecati",
-  "ParentId": 512,
+  "Name": "Bechtelar-Abernathy",
+  "Fullname": "voluptatem",
+  "ParentId": 409,
   "Children": [
     {
-      "HierarchyId": 63,
+      "HierarchyId": 848,
       "Domain": "Dashboards",
-      "Name": "Wintheiser-Feest",
-      "Fullname": "veniam",
-      "ParentId": 316,
+      "Name": "Boyer-Padberg",
+      "Fullname": "dolorem",
+      "ParentId": 798,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-10-01T12:01:32.933188+02:00",
-      "RegisteredAssociateId": 126,
-      "Updated": "2013-01-03T12:01:32.933188+01:00",
-      "UpdatedAssociateId": 111,
+      "Registered": "2013-05-22T14:13:48.8993207+02:00",
+      "RegisteredAssociateId": 792,
+      "Updated": "2024-02-04T14:13:48.8993207+01:00",
+      "UpdatedAssociateId": 510,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 192
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
-  "Registered": "2017-04-04T12:01:32.933188+02:00",
-  "RegisteredAssociateId": 657,
-  "Updated": "2013-03-16T12:01:32.933188+01:00",
-  "UpdatedAssociateId": 167,
+  "Registered": "2004-02-10T14:13:48.8993207+01:00",
+  "RegisteredAssociateId": 818,
+  "Updated": "2014-09-12T14:13:48.8993207+02:00",
+  "UpdatedAssociateId": 875,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 615
     }
   }
 }

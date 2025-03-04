@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "omnis",
+  "FieldLabel": "aut",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 101,
-  "ColumnId": 211,
-  "FieldDefault": "magnam",
-  "FieldHeight": 970,
-  "FieldLabel": "aspernatur",
-  "FieldLeft": 99,
-  "FieldTop": 806,
+  "UDefFieldId": 21,
+  "ColumnId": 581,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 697,
+  "FieldLabel": "itaque",
+  "FieldLeft": 997,
+  "FieldTop": 436,
   "FieldType": "Checkbox",
-  "FieldWidth": 636,
-  "FormatMask": "ad",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 751,
-  "LabelLeft": 391,
-  "LabelTop": 57,
-  "LabelWidth": 807,
-  "LastVersionId": 623,
-  "ListTableId": 491,
-  "IsMandatory": false,
+  "FieldWidth": 899,
+  "FormatMask": "fuga",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 452,
+  "LabelLeft": 812,
+  "LabelTop": 448,
+  "LabelWidth": 359,
+  "LastVersionId": 648,
+  "ListTableId": 242,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "nobis",
-  "IsReadOnly": true,
-  "ShortLabel": "sunt",
-  "TabOrder": 184,
-  "TextLength": 405,
-  "Tooltip": "velit",
-  "UdefIdentity": 572,
-  "UDListDefinitionId": 812,
+  "Page1LineNo": 98,
+  "ProgId": "et",
+  "IsReadOnly": false,
+  "ShortLabel": "omnis",
+  "TabOrder": 422,
+  "TextLength": 424,
+  "Tooltip": "vel",
+  "UdefIdentity": 102,
+  "UDListDefinitionId": 740,
   "Justification": "Center",
-  "Version": 563,
-  "TemplateVariableName": "Hackett, Hansen and Upton",
-  "HasBeenPublished": false,
-  "MdoListName": "Hansen, Mohr and Gulgowski",
+  "Version": 588,
+  "TemplateVariableName": "Boyer, Beatty and Dicki",
+  "HasBeenPublished": true,
+  "MdoListName": "Towne-Wunsch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldLength": 769
     }
   }
 }

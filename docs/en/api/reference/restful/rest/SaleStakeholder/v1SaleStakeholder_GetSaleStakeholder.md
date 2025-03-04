@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Marquardt-Bashirian",
-  "Comment": "quas",
-  "StakeholderRoleId": 976,
-  "CountryId": 536,
-  "PersonId": 184,
-  "EmailDescription": "leo.gleichner@wittingledner.biz",
-  "EmailId": 784,
-  "EmailAddress": "evalyn@gleason.us",
-  "PhoneId": 516,
-  "ContactName": "Adams Inc and Sons",
-  "ContactId": 364,
-  "SaleId": 560,
-  "Mrmrs": "ducimus",
-  "Firstname": "Rachel",
-  "MiddleName": "Torp, Kemmer and Zboncak",
-  "Lastname": "Zieme",
-  "SaleStakeholderId": 269,
-  "Rank": 737,
-  "Phone": "817-808-6117",
+  "StakeholderRoleName": "Hodkiewicz LLC",
+  "Comment": "non",
+  "StakeholderRoleId": 851,
+  "CountryId": 947,
+  "PersonId": 393,
+  "EmailDescription": "dena@mcculloughkuphal.us",
+  "EmailId": 594,
+  "EmailAddress": "octavia_ryan@gaylord.us",
+  "PhoneId": 363,
+  "ContactName": "Jakubowski, Schultz and Champlin",
+  "ContactId": 348,
+  "SaleId": 185,
+  "Mrmrs": "explicabo",
+  "Firstname": "Eleanora",
+  "MiddleName": "O'Hara Inc and Sons",
+  "Lastname": "Weimann",
+  "SaleStakeholderId": 95,
+  "Rank": 618,
+  "Phone": "(035)385-5909 x57262",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 770
     }
   },
   "_Links": {

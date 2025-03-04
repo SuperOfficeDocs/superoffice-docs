@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=ut
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=molestiae
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Ratke, Quitzon and Crist",
-    "ToolTip": "Nisi voluptates nobis consectetur aut voluptatem qui.",
+    "Id": 165,
+    "Name": "Cole, Bechtelar and Shanahan",
+    "ToolTip": "Ipsa praesentium repellendus nesciunt delectus.",
     "Deleted": false,
-    "Rank": 645,
-    "Type": "corrupti",
+    "Rank": 689,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "Senger, Gerlach and Hills",
-        "ToolTip": "Itaque officia voluptate porro iusto est repellendus.",
-        "Deleted": false,
-        "Rank": 108,
-        "Type": "aut",
+        "Id": 50,
+        "Name": "Hodkiewicz-Friesen",
+        "ToolTip": "Ut id.",
+        "Deleted": true,
+        "Rank": 442,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 565,
-        "ExtraInfo": "impedit",
-        "StyleHint": "sit",
-        "FullName": "Einar Eric Cummings II",
+        "IconHint": "et",
+        "ColorBlock": 876,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "numquam",
+        "FullName": "Lily O'Hara",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 449
+            "FieldLength": 121
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 596,
-    "ExtraInfo": "explicabo",
-    "StyleHint": "sunt",
-    "FullName": "Rosario Stacey Schimmel Jr.",
+    "IconHint": "qui",
+    "ColorBlock": 79,
+    "ExtraInfo": "cum",
+    "StyleHint": "voluptatibus",
+    "FullName": "Dewitt Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldLength": 148
       }
     }
   }

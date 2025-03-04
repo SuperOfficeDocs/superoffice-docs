@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Streich LLC",
+  "ProviderName": "Smith-Hackett",
   "Restrictions": [
     {
-      "Name": "Weissnat, Lang and Hand",
-      "Operator": "veniam",
+      "Name": "Moen Group",
+      "Operator": "aperiam",
       "Values": [
-        "assumenda",
-        "voluptatem"
+        "id",
+        "magnam"
       ],
       "DisplayValues": [
-        "sed",
-        "aut"
+        "ullam",
+        "repellat"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 603,
+      "InterParenthesis": 454,
       "InterOperator": "And",
-      "UniqueHash": 893
+      "UniqueHash": 903
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Dibbert, Hamill and Greenholt",
-    "DisplayTooltip": "voluptas",
-    "DisplayType": "ut",
-    "CanOrderBy": false,
-    "Name": "Schinner Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "at",
-    "RestrictionListName": "Mitchell-Block",
-    "IsVisible": false,
-    "ExtraInfo": "est",
-    "Width": "suscipit",
-    "IconHint": "distinctio",
-    "HeadingIconHint": "assumenda"
+    "DisplayName": "O'Kon, Marvin and Towne",
+    "DisplayTooltip": "a",
+    "DisplayType": "adipisci",
+    "CanOrderBy": true,
+    "Name": "Schiller-Nitzsche",
+    "CanRestrictBy": false,
+    "RestrictionType": "quo",
+    "RestrictionListName": "Dibbert Group",
+    "IsVisible": true,
+    "ExtraInfo": "unde",
+    "Width": "sequi",
+    "IconHint": "nisi",
+    "HeadingIconHint": "rem"
   }
 ]
 ```

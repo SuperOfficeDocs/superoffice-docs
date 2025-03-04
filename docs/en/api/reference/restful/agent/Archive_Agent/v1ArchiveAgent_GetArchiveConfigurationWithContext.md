@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stracke-Watsica",
-  "ProviderName": "Buckridge-Denesik",
-  "Context": "ducimus"
+  "GuiName": "Hegmann-Kiehn",
+  "ProviderName": "Wolff, Tremblay and Labadie",
+  "Context": "qui"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kautzer-Pouros",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "iste",
+      "DisplayName": "Collins Group",
+      "DisplayTooltip": "aliquam",
+      "DisplayType": "et",
       "CanOrderBy": true,
-      "Name": "Lynch-Lueilwitz",
+      "Name": "Marvin, Gibson and Parker",
       "CanRestrictBy": false,
-      "RestrictionType": "explicabo",
-      "RestrictionListName": "Labadie Inc and Sons",
+      "RestrictionType": "maiores",
+      "RestrictionListName": "Dicki Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "ipsa",
-      "Width": "sapiente",
-      "IconHint": "officia",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "et",
+      "Width": "at",
+      "IconHint": "labore",
+      "HeadingIconHint": "omnis"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 147,
-      "Name": "Emmerich, Rempel and Witting",
-      "ToolTip": "Enim esse molestiae repellendus.",
+      "Id": 889,
+      "Name": "Prosacco-Hickle",
+      "ToolTip": "Laborum exercitationem blanditiis cupiditate voluptates.",
       "Deleted": false,
-      "Rank": 312,
-      "Type": "quia",
-      "ColorBlock": 956,
-      "IconHint": "nemo",
-      "Selected": false,
-      "LastChanged": "2007-09-06T12:01:27.3221238+02:00",
+      "Rank": 328,
+      "Type": "quas",
+      "ColorBlock": 523,
+      "IconHint": "nihil",
+      "Selected": true,
+      "LastChanged": "2016-12-01T14:13:39.3442417+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Warren Greenfelder",
+      "ExtraInfo": "delectus",
+      "StyleHint": "aliquam",
+      "Hidden": true,
+      "FullName": "Chris Walker DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Haley-Gottlieb",
+      "Name": "Barton Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Haley-Gottlieb",
+      "Name": "Barton Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "officiis",
+  "OwnerKeys": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   }
 }

@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "rerum",
-  "IsoLangCode": "et",
-  "UserPrompt": "aspernatur",
-  "DisplayValue": "magnam",
+  "ChatId": "soluta",
+  "IsoLangCode": "natus",
+  "UserPrompt": "hic",
+  "DisplayValue": "reiciendis",
   "PreviousTurns": [
     {
-      "Timestamp": "2023-02-27T12:01:26.9783334+01:00",
-      "UserPrompt": "accusantium",
-      "UserDisplayText": "autem",
-      "BotResponse": "dolor",
+      "Timestamp": "2024-08-03T14:13:38.9068394+02:00",
+      "UserPrompt": "molestiae",
+      "UserDisplayText": "asperiores",
+      "BotResponse": "non",
       "BotActions": {
-        "BotActions1": "eligendi",
-        "BotActions2": "recusandae"
+        "BotActions1": "amet",
+        "BotActions2": "unde"
       },
       "Attachments": [
-        "optio",
-        "quisquam"
+        "culpa",
+        "quis"
       ]
     },
     {
-      "Timestamp": "2023-02-27T12:01:26.9783334+01:00",
-      "UserPrompt": "accusantium",
-      "UserDisplayText": "autem",
-      "BotResponse": "dolor",
+      "Timestamp": "2024-08-03T14:13:38.9068394+02:00",
+      "UserPrompt": "molestiae",
+      "UserDisplayText": "asperiores",
+      "BotResponse": "non",
       "BotActions": {
-        "BotActions1": "eligendi",
-        "BotActions2": "recusandae"
+        "BotActions1": "amet",
+        "BotActions2": "unde"
       },
       "Attachments": [
-        "optio",
-        "quisquam"
+        "culpa",
+        "quis"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2011-07-05T12:01:26.9783334+02:00",
-  "UserPrompt": "quisquam",
-  "UserDisplayText": "omnis",
-  "BotResponse": "aut",
+  "Timestamp": "2017-08-12T14:13:38.9068394+02:00",
+  "UserPrompt": "cupiditate",
+  "UserDisplayText": "aliquam",
+  "BotResponse": "distinctio",
   "BotActions": {
-    "BotActions1": "commodi",
-    "BotActions2": "placeat"
+    "BotActions1": "perspiciatis",
+    "BotActions2": "magnam"
   },
   "Attachments": [
-    "quo",
-    "fuga"
+    "velit",
+    "consectetur"
   ]
 }
 ```

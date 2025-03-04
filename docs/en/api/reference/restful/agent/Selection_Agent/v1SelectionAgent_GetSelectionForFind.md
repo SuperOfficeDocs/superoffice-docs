@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Olson-Powlowski",
-  "TypicalSearchId": 694
+  "EntityName": "Durgan, Hackett and Bins",
+  "TypicalSearchId": 358
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cronin-Sporer",
-  "SelectionId": 450,
-  "CanSaveAsSelection": false,
-  "MainHeading": "et",
-  "FilterScreenHeading": "quis",
-  "SelectionEntityHeading": "eligendi",
+  "ProviderName": "Cole, Bins and Lind",
+  "SelectionId": 309,
+  "CanSaveAsSelection": true,
+  "MainHeading": "rerum",
+  "FilterScreenHeading": "mollitia",
+  "SelectionEntityHeading": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 666
     }
   }
 }

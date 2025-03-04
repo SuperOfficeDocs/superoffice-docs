@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 851,
-  "TableName": "Wunsch Inc and Sons"
+  "RoleId": 723,
+  "TableName": "Hammes-Hahn"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "laborum",
-  "2": "enim"
+  "1": "similique",
+  "2": "ullam"
 }
 ```

@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 471
+  "ProjectId": 718
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "explicabo",
-  "SignOffText": "adipisci",
-  "SignOnConfirmationText": "quod",
-  "SignOnText": "mollitia",
-  "EventDate": "2017-08-30T12:01:28.1503067+02:00",
-  "Enabled": true,
-  "CreatedDate": "1999-01-08T12:01:28.1503067+01:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 395,
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "eligendi",
+  "SignOnConfirmationText": "quia",
+  "SignOnText": "id",
+  "EventDate": "2010-12-12T14:13:41.0314634+01:00",
+  "Enabled": false,
+  "CreatedDate": "2003-02-14T14:13:41.0314634+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 429,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": false,
-  "SignOnTaskId": 842,
+  "SignOnTaskEnable": true,
+  "SignOnTaskId": 109,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2011-02-27T12:01:28.1503067+01:00",
+  "UpdatedDate": "2009-04-20T14:13:41.0314634+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 404,
-  "Id": 600,
-  "PublishFrom": "2025-01-13T12:01:28.1503067+01:00",
+  "ProjectId": 64,
+  "Id": 403,
+  "PublishFrom": "2023-01-18T14:13:41.0314634+01:00",
   "PublishType": "External",
-  "PublishTo": "2023-11-14T12:01:28.1503067+01:00",
+  "PublishTo": "2017-03-01T14:13:41.0314634+01:00",
   "VisibleForCategories": [
     {
-      "Id": 49,
-      "Name": "Marks-Wunsch",
-      "ToolTip": "Explicabo omnis.",
+      "Id": 52,
+      "Name": "Paucek-Hegmann",
+      "ToolTip": "Et rerum iure qui quia voluptates.",
       "Deleted": false,
-      "Rank": 418,
-      "Type": "quas",
+      "Rank": 236,
+      "Type": "laboriosam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "libero",
-      "ColorBlock": 857,
-      "ExtraInfo": "sed",
-      "StyleHint": "blanditiis",
-      "FullName": "Prof. Adolfo Schneider Sr.",
+      "IconHint": "vel",
+      "ColorBlock": 114,
+      "ExtraInfo": "omnis",
+      "StyleHint": "quidem",
+      "FullName": "Kenyatta Stamm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 259
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 304,
-      "Name": "Klein LLC",
-      "ToolTip": "Distinctio molestias.",
+      "Id": 752,
+      "Name": "Jacobs Inc and Sons",
+      "ToolTip": "Quae iusto.",
       "Deleted": false,
-      "Rank": 978,
-      "Type": "repellat",
+      "Rank": 950,
+      "Type": "incidunt",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloribus",
-      "ColorBlock": 614,
-      "ExtraInfo": "et",
-      "StyleHint": "et",
-      "FullName": "Elwyn Gerry Mann MD",
+      "IconHint": "sint",
+      "ColorBlock": 699,
+      "ExtraInfo": "est",
+      "StyleHint": "voluptate",
+      "FullName": "German Muller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 434
         }
       }
     }
   ],
   "IsPublished": false,
   "IsVisibleForMembers": false,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 433,
+  "ProjectEventId": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 375
     }
   }
 }

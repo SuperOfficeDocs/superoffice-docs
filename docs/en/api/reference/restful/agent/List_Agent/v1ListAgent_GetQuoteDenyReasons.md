@@ -78,9 +78,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 675,
-    "Value": "et",
-    "Tooltip": "cupiditate",
+    "Id": 838,
+    "Value": "eos",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
@@ -91,9 +91,9 @@ Content-Type: application/json; charset=utf-8
     }
   },
   {
-    "Id": 675,
-    "Value": "et",
-    "Tooltip": "cupiditate",
+    "Id": 838,
+    "Value": "eos",
+    "Tooltip": "facilis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

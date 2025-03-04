@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 266,
-  "InstanceLayout": "temporibus",
-  "InstanceName": "Morissette, Johnston and Schowalter",
-  "CreatedDate": "2022-08-12T12:01:27.3377499+02:00",
-  "UpdatedDate": "2016-06-08T12:01:27.3377499+02:00",
+  "AudienceLayoutId": 589,
+  "InstanceLayout": "aut",
+  "InstanceName": "Osinski Group",
+  "CreatedDate": "2015-11-29T14:13:39.3754818+01:00",
+  "UpdatedDate": "2025-01-05T14:13:39.3754818+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldType": "System.String",
+      "FieldLength": 459
     }
   }
 }

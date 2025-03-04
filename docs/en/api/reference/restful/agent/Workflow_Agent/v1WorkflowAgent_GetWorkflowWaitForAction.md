@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=566
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=338
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 338,
-  "WorkflowStepId": 16,
-  "WorkflowId": 205,
-  "Rank": 181,
+  "WorkflowWaitForActionId": 182,
+  "WorkflowStepId": 101,
+  "WorkflowId": 594,
+  "Rank": 820,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Ledner LLC",
-      "Description": "Multi-channelled dedicated attitude",
-      "Rank": 194,
+      "Name": "Shields-Fahey",
+      "Description": "Managed hybrid website",
+      "Rank": 175,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ledner LLC",
-      "Description": "Multi-channelled dedicated attitude",
-      "Rank": 194,
+      "Name": "Shields-Fahey",
+      "Description": "Managed hybrid website",
+      "Rank": 175,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 457
     }
   }
 }

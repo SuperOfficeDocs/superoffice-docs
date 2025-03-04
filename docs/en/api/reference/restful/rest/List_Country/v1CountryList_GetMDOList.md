@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=distinctio
+GET /api/v1/List/Country/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Welch-Larkin",
-    "ToolTip": "Voluptatem tempore sit qui.",
-    "Deleted": false,
-    "Rank": 133,
-    "Type": "sunt",
+    "Id": 44,
+    "Name": "Abbott, Ankunding and Krajcik",
+    "ToolTip": "Ipsum dicta nihil velit consequatur iusto.",
+    "Deleted": true,
+    "Rank": 574,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Jacobi, Harris and Koelpin",
-        "ToolTip": "Id similique sint cupiditate.",
-        "Deleted": false,
-        "Rank": 590,
+        "Id": 769,
+        "Name": "Keebler-Rempel",
+        "ToolTip": "Laboriosam animi dolore ea.",
+        "Deleted": true,
+        "Rank": 731,
         "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eum",
-        "ColorBlock": 477,
-        "ExtraInfo": "possimus",
-        "StyleHint": "amet",
-        "FullName": "Laurence Ollie Lind Jr.",
+        "IconHint": "minus",
+        "ColorBlock": 513,
+        "ExtraInfo": "sunt",
+        "StyleHint": "qui",
+        "FullName": "Hosea Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 847
+            "FieldType": "System.String",
+            "FieldLength": 158
           }
         }
       }
     ],
-    "IconHint": "officiis",
-    "ColorBlock": 404,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "eligendi",
-    "FullName": "Horace Berta Kertzmann DVM",
+    "IconHint": "ad",
+    "ColorBlock": 599,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "eos",
+    "FullName": "Kathryn McDermott",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 790
+        "FieldLength": 615
       }
     }
   }

@@ -131,7 +131,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/projectfavourites?$select=projectAssociate/ejStatus,LastSale,LastCompletedSale
+GET /api/v1/archive/projectfavourites?$select=registeredBy,project/infoText,projectEvent/hasSignOff
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

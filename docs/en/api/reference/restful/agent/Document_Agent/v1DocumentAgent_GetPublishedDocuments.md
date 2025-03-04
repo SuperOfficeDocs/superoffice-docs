@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    503,
-    755
+    317,
+    1001
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 267,
-    "Attention": "unde",
-    "Header": "et",
-    "Name": "Ondricka-Carroll",
-    "OurRef": "ipsum",
-    "YourRef": "est",
-    "Description": "Exclusive composite internet solution",
-    "DocumentTemplate": "odio",
+    "DocumentId": 6,
+    "Attention": "officia",
+    "Header": "voluptatem",
+    "Name": "Reynolds-Schmeler",
+    "OurRef": "rem",
+    "YourRef": "et",
+    "Description": "Focused logistical emulation",
+    "DocumentTemplate": "est",
     "IsPublished": true,
-    "PersonId": 157,
-    "PersonFullName": "Erin Auer",
-    "AssociateFullName": "Jordi Davis",
-    "ContactId": 908,
-    "ContactName": "Daugherty LLC",
-    "ProjectId": 968,
-    "ProjectName": "Carroll, Bernhard and Rippin",
-    "AssociateId": 913,
-    "Snum": 765,
-    "SaleId": 816,
-    "SaleName": "Pfeffer Inc and Sons",
+    "PersonId": 828,
+    "PersonFullName": "Prof. Noemy Wiegand",
+    "AssociateFullName": "Ruthe Abshire",
+    "ContactId": 632,
+    "ContactName": "Hilll Group",
+    "ProjectId": 885,
+    "ProjectName": "Runolfsdottir LLC",
+    "AssociateId": 701,
+    "Snum": 553,
+    "SaleId": 339,
+    "SaleName": "Predovic Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 115
+        "FieldType": "System.Int32",
+        "FieldLength": 841
       }
     }
   }

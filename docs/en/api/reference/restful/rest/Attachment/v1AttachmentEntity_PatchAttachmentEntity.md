@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fugit",
+    "path": "reiciendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fugit",
+    "path": "reiciendis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 525,
-  "Name": "Simonis Group",
-  "ContentType": "voluptates",
-  "AttSize": 456,
+  "AttachmentId": 760,
+  "Name": "Towne-Prohaska",
+  "ContentType": "maxime",
+  "AttSize": 299,
   "InlineImage": false,
-  "ContentId": "odit",
+  "ContentId": "laudantium",
   "AuthKey": "nihil",
-  "IsSafeFileExtension": false,
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 320
     }
   },
   "_Links": {

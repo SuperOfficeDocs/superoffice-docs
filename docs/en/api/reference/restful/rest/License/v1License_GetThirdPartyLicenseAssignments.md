@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 644,
-    "Tooltip": "nobis",
-    "CanAssign": true,
-    "Free": 696,
-    "InUse": 60,
-    "IsHidden": true,
+    "Unrestricted": true,
+    "Total": 540,
+    "Tooltip": "in",
+    "CanAssign": false,
+    "Free": 167,
+    "InUse": 793,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 899,
-    "Name": "Schowalter-Armstrong",
-    "Description": "Reactive heuristic internet solution",
-    "PrerequisiteModuleName": "Homenick-Gibson",
-    "SortOrder": 430,
-    "ExtraFlags": 599,
+    "ModuleLicenseId": 210,
+    "Name": "Hudson Inc and Sons",
+    "Description": "Total well-modulated customer loyalty",
+    "PrerequisiteModuleName": "Padberg, Rath and Ward",
+    "SortOrder": 463,
+    "ExtraFlags": 815,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 113
+        "FieldType": "System.String",
+        "FieldLength": 67
       }
     }
   }

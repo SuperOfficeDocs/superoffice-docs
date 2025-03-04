@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Steuber-Pfeffer",
-  "Columns": "sed",
-  "SortOrder": "et",
-  "Restrictions": "quia",
-  "Entities": "debitis",
-  "Page": 631,
-  "PageSize": 661
+  "ProviderName": "O'Keefe LLC",
+  "Columns": "doloribus",
+  "SortOrder": "sed",
+  "Restrictions": "laborum",
+  "Entities": "qui",
+  "Page": 713,
+  "PageSize": 73
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Collier-Wilkinson",
-    "PrimaryKey": 765,
+    "EntityName": "Kozey-Yundt",
+    "PrimaryKey": 592,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "in",
-        "TooltipHint": "tempore",
-        "LinkHint": "consequuntur"
+        "DisplayValue": "consequatur",
+        "TooltipHint": "quae",
+        "LinkHint": "aperiam"
       }
     },
-    "LinkHint": "ducimus",
-    "StyleHint": "vero",
+    "LinkHint": "et",
+    "StyleHint": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 646
       }
     }
   }

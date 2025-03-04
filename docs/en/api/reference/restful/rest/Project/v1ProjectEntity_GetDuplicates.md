@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Cartwright-Kerluke",
-    "SoPrimaryKey": 346,
-    "EntryName": "Stoltenberg LLC",
-    "EntryIdentifier": "dignissimos",
-    "RuleDisplayName": "Bosco, Schowalter and Goodwin",
+    "RuleName": "Schmidt-Wiza",
+    "SoPrimaryKey": 212,
+    "EntryName": "Wolf Group",
+    "EntryIdentifier": "quidem",
+    "RuleDisplayName": "Haley Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 544
       }
     }
   }

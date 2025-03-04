@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 388,
-    "Name": "Russel Group",
-    "Tooltip": "ut",
-    "SaveInDb": 722,
-    "Filename": "non",
-    "DefaultOref": "excepturi",
+    "DocumentTemplateId": 43,
+    "Name": "Lebsack, O'Kon and Will",
+    "Tooltip": "et",
+    "SaveInDb": 576,
+    "Filename": "aut",
+    "DefaultOref": "voluptas",
     "RecordType": "Appointment",
-    "Deleted": 14,
+    "Deleted": 992,
     "Direction": "Incoming",
-    "AutoeventId": 50,
+    "AutoeventId": 322,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 933
+        "FieldType": "System.Int32",
+        "FieldLength": 440
       }
     }
   }

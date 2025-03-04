@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=881
+GET /api/v1/Person/{personId}/Summary?limit=638
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 585,
-      "TicketStatus": 983,
-      "Title": "dolor",
-      "Registered": "2007-06-18T12:01:32.9800661+02:00",
-      "IconHint": "iure"
+      "TicketId": 409,
+      "TicketStatus": 681,
+      "Title": "aspernatur",
+      "Registered": "2004-07-10T14:13:49.0087767+02:00",
+      "IconHint": "adipisci"
     },
     {
-      "TicketId": 585,
-      "TicketStatus": 983,
-      "Title": "dolor",
-      "Registered": "2007-06-18T12:01:32.9800661+02:00",
-      "IconHint": "iure"
+      "TicketId": 409,
+      "TicketStatus": 681,
+      "Title": "aspernatur",
+      "Registered": "2004-07-10T14:13:49.0087767+02:00",
+      "IconHint": "adipisci"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 395,
-      "DocumentId": 469,
-      "Date": "2010-11-11T12:01:32.9800661+01:00",
-      "Description": "Re-engineered responsive open architecture",
+      "AppointmentId": 43,
+      "DocumentId": 265,
+      "Date": "2011-02-12T14:13:49.0087767+01:00",
+      "Description": "Multi-tiered reciprocal initiative",
       "Completed": "Completed",
-      "Registered": "1998-04-09T12:01:32.9800661+02:00"
+      "Registered": "2011-06-20T14:13:49.0087767+02:00"
     },
     {
-      "AppointmentId": 395,
-      "DocumentId": 469,
-      "Date": "2010-11-11T12:01:32.9800661+01:00",
-      "Description": "Re-engineered responsive open architecture",
+      "AppointmentId": 43,
+      "DocumentId": 265,
+      "Date": "2011-02-12T14:13:49.0087767+01:00",
+      "Description": "Multi-tiered reciprocal initiative",
       "Completed": "Completed",
-      "Registered": "1998-04-09T12:01:32.9800661+02:00"
+      "Registered": "2011-06-20T14:13:49.0087767+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 422,
-      "DocumentId": 358,
-      "Date": "2014-02-17T12:01:32.9800661+01:00",
-      "Description": "Public-key dedicated orchestration",
+      "AppointmentId": 594,
+      "DocumentId": 617,
+      "Date": "1998-07-10T14:13:49.0087767+02:00",
+      "Description": "Distributed client-driven matrices",
       "Completed": "Completed",
-      "Registered": "2021-05-02T12:01:32.9800661+02:00"
+      "Registered": "2007-11-15T14:13:49.0087767+01:00"
     },
     {
-      "AppointmentId": 422,
-      "DocumentId": 358,
-      "Date": "2014-02-17T12:01:32.9800661+01:00",
-      "Description": "Public-key dedicated orchestration",
+      "AppointmentId": 594,
+      "DocumentId": 617,
+      "Date": "1998-07-10T14:13:49.0087767+02:00",
+      "Description": "Distributed client-driven matrices",
       "Completed": "Completed",
-      "Registered": "2021-05-02T12:01:32.9800661+02:00"
+      "Registered": "2007-11-15T14:13:49.0087767+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 407,
-      "SaleDate": "2003-04-24T12:01:32.9800661+02:00",
-      "Probability": 138,
-      "Heading": "explicabo",
-      "Amount": 16945.538,
-      "Currency": "non",
-      "AmountInBaseCurrency": 31318.061999999998,
+      "SaleId": 988,
+      "SaleDate": "2024-04-29T14:13:49.0087767+02:00",
+      "Probability": 916,
+      "Heading": "accusantium",
+      "Amount": 29628.836,
+      "Currency": "eos",
+      "AmountInBaseCurrency": 30130.275999999998,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2005-09-01T12:01:32.9800661+02:00"
+      "Registered": "2017-04-29T14:13:49.0087767+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 503,
-      "Name": "Barrows, Rodriguez and McDermott",
-      "CompanyName": "Ward, Pollich and Lebsack",
-      "FirstMessage": "quasi",
-      "LastMessage": "soluta",
-      "WhenRequested": "2018-06-27T12:01:32.9800661+02:00",
-      "WhenEnded": "2023-06-08T12:01:32.9800661+02:00"
+      "ChatSessionId": 993,
+      "Name": "Metz-Gerlach",
+      "CompanyName": "Jaskolski LLC",
+      "FirstMessage": "impedit",
+      "LastMessage": "tempora",
+      "WhenRequested": "1997-11-11T14:13:49.0087767+01:00",
+      "WhenEnded": "2011-04-11T14:13:49.0087767+02:00"
     }
   ]
 }

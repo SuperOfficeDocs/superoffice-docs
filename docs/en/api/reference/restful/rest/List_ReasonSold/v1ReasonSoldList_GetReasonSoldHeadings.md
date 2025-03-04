@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 498,
-    "Name": "Dickens, Cole and Kihn",
-    "Tooltip": "maxime",
-    "Deleted": false,
-    "Rank": 919,
-    "UdListDefinitionId": 235,
+    "HeadingId": 284,
+    "Name": "Beatty Inc and Sons",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 586,
+    "UdListDefinitionId": 996,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldLength": 558
       }
     }
   }

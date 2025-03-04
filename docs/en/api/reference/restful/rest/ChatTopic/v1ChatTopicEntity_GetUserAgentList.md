@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Crist, Russel and Will",
-    "ToolTip": "Culpa aperiam consequatur.",
+    "Id": 905,
+    "Name": "Glover, Ritchie and Moore",
+    "ToolTip": "Sit magnam nemo.",
     "Deleted": true,
-    "Rank": 237,
-    "Type": "aut",
+    "Rank": 897,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 838,
-        "Name": "Bartoletti Group",
-        "ToolTip": "Rerum et tempore nam sequi voluptatibus.",
-        "Deleted": true,
-        "Rank": 991,
-        "Type": "doloremque",
+        "Id": 407,
+        "Name": "Hermann, Stracke and Stokes",
+        "ToolTip": "Cupiditate aperiam sit dicta quibusdam est molestiae eos.",
+        "Deleted": false,
+        "Rank": 220,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "praesentium",
-        "ColorBlock": 957,
-        "ExtraInfo": "et",
-        "StyleHint": "autem",
-        "FullName": "Ms. Sarah Jovany Heller",
+        "IconHint": "harum",
+        "ColorBlock": 949,
+        "ExtraInfo": "veniam",
+        "StyleHint": "voluptas",
+        "FullName": "Ms. Maybell Nikolaus I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldLength": 285
           }
         }
       }
     ],
-    "IconHint": "quis",
-    "ColorBlock": 1000,
-    "ExtraInfo": "magnam",
-    "StyleHint": "perferendis",
-    "FullName": "Kale Kilback",
+    "IconHint": "fugit",
+    "ColorBlock": 12,
+    "ExtraInfo": "nihil",
+    "StyleHint": "molestiae",
+    "FullName": "Mya Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 247
       }
     }
   }

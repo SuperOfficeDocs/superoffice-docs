@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 674,
-  "Name": "Robel Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 785,
+  "Name": "Johnston, O'Connell and Hettinger",
+  "Tooltip": "voluptatibus",
   "Deleted": false,
-  "Rank": 389,
-  "UdListDefinitionId": 416
+  "Rank": 179,
+  "UdListDefinitionId": 260
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 740,
-  "Name": "Mills-Kovacek",
-  "Tooltip": "est",
+  "HeadingId": 90,
+  "Name": "Raynor, Gibson and Rau",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 636,
-  "UdListDefinitionId": 392,
+  "Rank": 260,
+  "UdListDefinitionId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 793
     }
   }
 }

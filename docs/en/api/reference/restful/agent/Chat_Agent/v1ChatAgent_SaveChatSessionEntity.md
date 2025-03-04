@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 415,
-  "TopicId": 399,
+  "ChatSessionId": 952,
+  "TopicId": 208,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eius",
-  "CustomerHost": "sunt",
-  "CustomerName": "Hermiston, Cruickshank and Effertz",
-  "CustomerEmail": "ramon@wolf.name",
-  "CustomerPhone": "667-358-9383 x733",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "O'Kon-Schultz",
+  "CustomerAlias": "ut",
+  "CustomerHost": "molestiae",
+  "CustomerName": "Steuber LLC",
+  "CustomerEmail": "tess@purdy.us",
+  "CustomerPhone": "1-213-039-4989 x83201",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Schimmel, Dicki and Wyman",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "maiores",
-  "WhenRequested": "2003-03-01T12:01:27.3690022+01:00",
-  "WhenStarted": "2004-10-25T12:01:27.3690022+02:00",
-  "WhenEnded": "2011-09-25T12:01:27.3690022+02:00",
-  "WhenIdle": "2022-04-24T12:01:27.3690022+02:00",
-  "WhenFetched": "2001-05-16T12:01:27.3690022+02:00",
-  "SessionKey": "assumenda",
-  "InitialQueuePos": 661,
-  "AlertLevel": 489,
-  "Rank": 383,
+  "FirstMessage": "repellendus",
+  "LastMessage": "voluptatem",
+  "WhenRequested": "2007-08-11T14:13:39.4379679+02:00",
+  "WhenStarted": "2008-06-08T14:13:39.4379679+02:00",
+  "WhenEnded": "2021-02-12T14:13:39.4379679+01:00",
+  "WhenIdle": "1998-11-23T14:13:39.4379679+01:00",
+  "WhenFetched": "2000-01-25T14:13:39.4379679+01:00",
+  "SessionKey": "facere",
+  "InitialQueuePos": 834,
+  "AlertLevel": 366,
+  "Rank": 936,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 139
+  "Rating": 580
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 942,
-  "TopicId": 500,
+  "ChatSessionId": 212,
+  "TopicId": 918,
   "User": null,
   "Person": null,
-  "CustomerAlias": "inventore",
-  "CustomerHost": "delectus",
-  "CustomerName": "Crona, Wehner and Kautzer",
-  "CustomerEmail": "quinn.auer@bartoletti.com",
-  "CustomerPhone": "(000)279-0521 x87146",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Hauck-Beatty",
+  "CustomerAlias": "aut",
+  "CustomerHost": "eum",
+  "CustomerName": "Feil-Gusikowski",
+  "CustomerEmail": "eloy@price.us",
+  "CustomerPhone": "(883)456-0947 x529",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Johnson Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "voluptates",
-  "LastMessage": "aut",
-  "WhenRequested": "1999-08-03T12:01:27.3846286+02:00",
-  "WhenStarted": "2017-03-19T12:01:27.3846286+01:00",
-  "WhenEnded": "2009-04-19T12:01:27.3846286+02:00",
-  "WhenIdle": "2001-02-18T12:01:27.3846286+01:00",
-  "WhenFetched": "2005-04-10T12:01:27.3846286+02:00",
-  "SessionKey": "aliquid",
-  "InitialQueuePos": 26,
-  "AlertLevel": 995,
-  "Rank": 635,
+  "FirstMessage": "saepe",
+  "LastMessage": "nostrum",
+  "WhenRequested": "1998-11-01T14:13:39.4535892+01:00",
+  "WhenStarted": "2019-08-08T14:13:39.4535892+02:00",
+  "WhenEnded": "2000-04-19T14:13:39.4535892+02:00",
+  "WhenIdle": "2008-06-24T14:13:39.4535892+02:00",
+  "WhenFetched": "2002-10-04T14:13:39.4535892+02:00",
+  "SessionKey": "optio",
+  "InitialQueuePos": 681,
+  "AlertLevel": 996,
+  "Rank": 272,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 119,
+  "ChatbotIsActive": false,
+  "Rating": 839,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 902
     }
   }
 }

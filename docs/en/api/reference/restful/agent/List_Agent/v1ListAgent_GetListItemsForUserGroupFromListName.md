@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stoltenberg Group",
-  "GroupId": 202
+  "UdListDefinitionName": "Grimes LLC",
+  "GroupId": 225
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Weissnat, Hermann and Champlin",
-    "ToolTip": "Voluptatibus sit nihil ducimus porro.",
-    "Deleted": false,
-    "Rank": 587,
-    "Type": "et",
-    "ColorBlock": 126,
-    "IconHint": "tenetur",
-    "Selected": false,
-    "LastChanged": "2014-10-01T12:01:27.9471677+02:00",
+    "Id": 811,
+    "Name": "Klocko-Gulgowski",
+    "ToolTip": "Perferendis perferendis est ab enim consequatur in enim.",
+    "Deleted": true,
+    "Rank": 418,
+    "Type": "praesentium",
+    "ColorBlock": 666,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "1997-10-24T14:13:40.4690906+02:00",
     "ChildItems": [
       {
-        "Id": 885,
-        "Name": "Ullrich Group",
-        "ToolTip": "Qui perferendis beatae.",
-        "Deleted": true,
-        "Rank": 880,
-        "Type": "corporis",
-        "ColorBlock": 207,
-        "IconHint": "voluptatem",
+        "Id": 269,
+        "Name": "Torp Group",
+        "ToolTip": "Voluptatem aspernatur.",
+        "Deleted": false,
+        "Rank": 480,
+        "Type": "quae",
+        "ColorBlock": 795,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2007-07-22T12:01:27.9471677+02:00",
+        "LastChanged": "2025-01-04T14:13:40.4690906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "est",
+        "ExtraInfo": "nisi",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Trycia Lemke",
+        "FullName": "Ms. Aaliyah Brock Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 447
+            "FieldLength": 842
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Elsa Darby Williamson IV",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Mr. Mitchel Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 490
       }
     }
   }

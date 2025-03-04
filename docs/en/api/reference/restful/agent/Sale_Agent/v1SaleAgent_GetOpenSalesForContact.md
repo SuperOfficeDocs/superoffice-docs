@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 201
+  "ContactId": 462
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Hane LLC",
-    "SaleDate": "2003-04-15T12:01:28.2596899+02:00",
-    "SaleId": 328,
-    "Probability": 38,
-    "Title": "expedita",
-    "Amount": 8364.6459999999988,
-    "Currency": "et",
-    "ProjectName": "Lang LLC",
-    "AssociateFullName": "Dr. Isaac Anabel Medhurst DVM",
-    "Description": "Future-proofed demand-driven task-force",
+    "ContactName": "Tromp-Beatty",
+    "SaleDate": "2024-10-14T14:13:41.2508568+02:00",
+    "SaleId": 917,
+    "Probability": 272,
+    "Title": "sapiente",
+    "Amount": 3986.448,
+    "Currency": "non",
+    "ProjectName": "Boyer-Bartell",
+    "AssociateFullName": "Prof. Orpha Adolf Rau Sr.",
+    "Description": "Multi-lateral neutral framework",
     "Status": "Lost",
-    "WeightedAmount": 1560.732,
-    "ProjectId": 163,
-    "EarningPercent": 3356.5139999999997,
-    "Earning": 28672.966,
-    "ContactId": 884,
-    "AssociateId": 631,
-    "PersonId": 403,
-    "SaleTypeId": 838,
-    "SaleTypeName": "Koss LLC",
-    "PersonFullName": "Mrs. Jaida Jedidiah Crist",
+    "WeightedAmount": 25222.432,
+    "ProjectId": 611,
+    "EarningPercent": 5424.954,
+    "Earning": 29522.28,
+    "ContactId": 676,
+    "AssociateId": 636,
+    "PersonId": 286,
+    "SaleTypeId": 413,
+    "SaleTypeName": "Lynch-Fritsch",
+    "PersonFullName": "Mrs. Oda Thiel MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 672,
-    "NextDueDate": "2024-09-21T12:01:28.2596899+02:00",
-    "Number": "1232620",
+    "ActiveErpLinks": 679,
+    "NextDueDate": "2010-06-29T14:13:41.2508568+02:00",
+    "Number": "1376631",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 631
+        "FieldType": "System.String",
+        "FieldLength": 444
       }
     }
   }

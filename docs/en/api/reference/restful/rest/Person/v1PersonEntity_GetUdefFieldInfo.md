@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 683,
-  "ColumnId": 412,
-  "FieldDefault": "voluptatum",
-  "FieldHeight": 243,
-  "FieldLabel": "optio",
-  "FieldLeft": 982,
-  "FieldTop": 439,
+  "UDefFieldId": 842,
+  "ColumnId": 810,
+  "FieldDefault": "quas",
+  "FieldHeight": 203,
+  "FieldLabel": "in",
+  "FieldLeft": 774,
+  "FieldTop": 365,
   "FieldType": "Checkbox",
-  "FieldWidth": 907,
-  "FormatMask": "sint",
+  "FieldWidth": 316,
+  "FormatMask": "perspiciatis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 419,
-  "LabelLeft": 921,
-  "LabelTop": 626,
-  "LabelWidth": 647,
-  "LastVersionId": 157,
-  "ListTableId": 530,
-  "IsMandatory": false,
+  "LabelHeight": 976,
+  "LabelLeft": 988,
+  "LabelTop": 747,
+  "LabelWidth": 639,
+  "LastVersionId": 108,
+  "ListTableId": 758,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 48,
-  "ProgId": "qui",
-  "IsReadOnly": false,
-  "ShortLabel": "assumenda",
-  "TabOrder": 608,
-  "TextLength": 303,
-  "Tooltip": "optio",
-  "UdefIdentity": 532,
-  "UDListDefinitionId": 843,
+  "Page1LineNo": 116,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 776,
+  "TextLength": 185,
+  "Tooltip": "qui",
+  "UdefIdentity": 33,
+  "UDListDefinitionId": 601,
   "Justification": "Center",
-  "Version": 509,
-  "TemplateVariableName": "Goodwin Inc and Sons",
+  "Version": 488,
+  "TemplateVariableName": "Schulist, Metz and Kunde",
   "HasBeenPublished": false,
-  "MdoListName": "Kozey, Bogisich and Feeney",
+  "MdoListName": "Legros, Renner and Toy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 464
+      "FieldLength": 161
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 63,
+    "ConfigurableScreenDeltaId": 234,
     "Name": "Okuneva LLC",
-    "Description": "Expanded demand-driven Graphical User Interface",
-    "DeltaJson": "omnis",
+    "Description": "Expanded discrete framework",
+    "DeltaJson": "quae",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "sit",
-    "UpdatedDate": "2000-04-18T12:01:27.4471334+02:00",
-    "CreatedDate": "2023-09-29T12:01:27.4471334+02:00",
+    "RecipeId": "assumenda",
+    "UpdatedDate": "2006-11-27T14:13:39.7347754+01:00",
+    "CreatedDate": "2025-01-07T14:13:39.7347754+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      306,
-      200
+      160,
+      255
     ],
-    "AppliesToKey": "quas",
+    "AppliesToKey": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldType": "System.String",
+        "FieldLength": 59
       }
     }
   }

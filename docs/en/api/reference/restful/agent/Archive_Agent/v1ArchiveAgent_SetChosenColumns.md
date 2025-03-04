@@ -72,11 +72,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Price LLC",
-  "ProviderName": "Price-Littel",
+  "GuiName": "Buckridge, O'Conner and Wehner",
+  "ProviderName": "Gottlieb, Zboncak and Larkin",
   "ChosenColumns": [
-    "incidunt",
-    "qui"
+    "illo",
+    "debitis"
   ]
 }
 ```

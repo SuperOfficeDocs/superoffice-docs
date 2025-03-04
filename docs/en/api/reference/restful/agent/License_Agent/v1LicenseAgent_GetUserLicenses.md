@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 505
+  "AssociateId": 239
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lang-Mitchell",
-    "Description": "Implemented optimizing hierarchy",
+    "Name": "Heaney LLC",
+    "Description": "Exclusive intangible productivity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 823,
-        "Tooltip": "atque",
+        "Total": 767,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 327,
-        "InUse": 425,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 690,
-        "Name": "Dickens, Prosacco and Larkin",
-        "Description": "Total methodical product",
-        "PrerequisiteModuleName": "Grant, Johnson and Smith",
-        "SortOrder": 844,
-        "ExtraFlags": 415,
+        "Free": 288,
+        "InUse": 773,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 610,
+        "Name": "VonRueden, Romaguera and Turcotte",
+        "Description": "Diverse human-resource moratorium",
+        "PrerequisiteModuleName": "Kutch-Bayer",
+        "SortOrder": 574,
+        "ExtraFlags": 711,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 260
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 181,
-        "InUse": 388,
-        "IsHidden": false,
+        "Total": 681,
+        "Tooltip": "fugit",
+        "CanAssign": false,
+        "Free": 861,
+        "InUse": 453,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 665,
-        "Name": "Torp LLC",
-        "Description": "Balanced logistical framework",
-        "PrerequisiteModuleName": "Prohaska Group",
-        "SortOrder": 800,
-        "ExtraFlags": 655,
+        "ModuleLicenseId": 39,
+        "Name": "Schmidt-Adams",
+        "Description": "Virtual explicit policy",
+        "PrerequisiteModuleName": "Rowe Group",
+        "SortOrder": 892,
+        "ExtraFlags": 82,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 208
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 83
       }
     }
   },
   {
-    "Name": "Lang-Mitchell",
-    "Description": "Implemented optimizing hierarchy",
+    "Name": "Heaney LLC",
+    "Description": "Exclusive intangible productivity",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 823,
-        "Tooltip": "atque",
+        "Total": 767,
+        "Tooltip": "nihil",
         "CanAssign": false,
-        "Free": 327,
-        "InUse": 425,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 690,
-        "Name": "Dickens, Prosacco and Larkin",
-        "Description": "Total methodical product",
-        "PrerequisiteModuleName": "Grant, Johnson and Smith",
-        "SortOrder": 844,
-        "ExtraFlags": 415,
+        "Free": 288,
+        "InUse": 773,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 610,
+        "Name": "VonRueden, Romaguera and Turcotte",
+        "Description": "Diverse human-resource moratorium",
+        "PrerequisiteModuleName": "Kutch-Bayer",
+        "SortOrder": 574,
+        "ExtraFlags": 711,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 260
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "quis",
-        "CanAssign": true,
-        "Free": 181,
-        "InUse": 388,
-        "IsHidden": false,
+        "Total": 681,
+        "Tooltip": "fugit",
+        "CanAssign": false,
+        "Free": 861,
+        "InUse": 453,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 665,
-        "Name": "Torp LLC",
-        "Description": "Balanced logistical framework",
-        "PrerequisiteModuleName": "Prohaska Group",
-        "SortOrder": 800,
-        "ExtraFlags": 655,
+        "ModuleLicenseId": 39,
+        "Name": "Schmidt-Adams",
+        "Description": "Virtual explicit policy",
+        "PrerequisiteModuleName": "Rowe Group",
+        "SortOrder": 892,
+        "ExtraFlags": 82,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 13
+            "FieldLength": 208
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 83
       }
     }
   }

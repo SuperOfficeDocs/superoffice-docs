@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 639,
+  "TargetYear": 568,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 654,
-  "Year": 229,
+  "TargetGroupId": 980,
+  "Year": 864,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 68,
+      "TargetAssignmentInfoId": 731,
       "Values": [
-        173,
-        602
+        533,
+        383
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 333,
-      "DimensionListItemDisplayName": "Leuschke-Nienow",
+      "DimensionListItem": 753,
+      "DimensionListItemDisplayName": "Thompson, Dare and Jacobs",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 118
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 584
     }
   }
 }
