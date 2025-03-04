@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 247,
-  "StartTime": "2022-06-03T12:01:26.9939595+02:00",
-  "EndTime": "2003-11-26T12:01:26.9939595+01:00",
-  "Count": 562
+  "ContactId": 425,
+  "StartTime": "2023-08-04T14:13:38.938082+02:00",
+  "EndTime": "2001-12-24T14:13:38.938082+01:00",
+  "Count": 777
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 440,
-    "StartDate": "2001-04-22T12:01:26.9939595+02:00",
-    "EndDate": "2006-01-31T12:01:26.9939595+01:00",
+    "AppointmentId": 21,
+    "StartDate": "2000-09-15T14:13:38.938082+02:00",
+    "EndDate": "2013-02-15T14:13:38.938082+01:00",
     "Type": "BookingForChecklist",
-    "Task": "accusamus",
-    "AssociateFullName": "Mrs. Abby Skiles Sr.",
-    "ContactName": "Harris Group",
-    "Description": "Programmable tangible success",
-    "PersonFullName": "Orlo Aufderhar",
-    "PersonId": 303,
-    "ContactId": 328,
-    "ProjectId": 790,
-    "ProjectName": "Bergnaum-Parker",
-    "IsPublished": false,
-    "AssociateId": 653,
-    "ColorIndex": 481,
+    "Task": "reprehenderit",
+    "AssociateFullName": "Celestine Auer",
+    "ContactName": "Thiel-Gutmann",
+    "Description": "Decentralized interactive concept",
+    "PersonFullName": "Dominique Hyatt",
+    "PersonId": 661,
+    "ContactId": 743,
+    "ProjectId": 751,
+    "ProjectName": "Maggio Inc and Sons",
+    "IsPublished": true,
+    "AssociateId": 951,
+    "ColorIndex": 668,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 186,
-    "PriorityName": "Flatley Inc and Sons",
+    "PriorityId": 788,
+    "PriorityName": "Leffler-Crist",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-10-18T12:01:26.9939595+02:00",
+    "ActiveDate": "2006-12-30T14:13:38.938082+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-03-08T12:01:26.9939595+01:00",
-    "RecurringEndDate": "2012-01-22T12:01:26.9939595+01:00",
-    "MotherId": 883,
-    "AssignedBy": 564,
-    "AssignedByFullName": "Alexa Mraz",
+    "RecurringStartDate": "2015-06-06T14:13:38.938082+02:00",
+    "RecurringEndDate": "2006-02-28T14:13:38.938082+01:00",
+    "MotherId": 356,
+    "AssignedBy": 286,
+    "AssignedByFullName": "Dorothea Brekke",
     "RejectReason": "",
-    "Location": "excepturi",
-    "AlarmLeadTime": "quaerat",
-    "SaleId": 704,
-    "SaleName": "Nader, Funk and Spencer",
-    "AssociateName": "Pagac Inc and Sons",
-    "CreatedDate": "2002-03-01T12:01:26.9939595+01:00",
-    "CreatedBy": "ipsam",
-    "CreatedByFullName": "Ms. Boyd Yost V",
-    "CreatedByAssociateId": 431,
+    "Location": "ut",
+    "AlarmLeadTime": "quod",
+    "SaleId": 929,
+    "SaleName": "Batz LLC",
+    "AssociateName": "Dibbert LLC",
+    "CreatedDate": "2024-12-29T14:13:38.938082+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Lucile Pfannerstill",
+    "CreatedByAssociateId": 814,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 672,
-    "Title": "voluptate",
-    "Agenda": "asperiores",
-    "InternalNotes": "fugit",
+    "PreferredTZLocation": 14,
+    "Title": "quia",
+    "Agenda": "voluptate",
+    "InternalNotes": "quod",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldType": "System.String",
+        "FieldLength": 950
       }
     }
   }

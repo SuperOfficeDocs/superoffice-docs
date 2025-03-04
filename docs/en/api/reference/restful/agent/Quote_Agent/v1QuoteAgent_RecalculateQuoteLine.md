@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "similique",
-    "deleniti"
+    "sint",
+    "et"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 949,
-  "ERPQuoteLineKey": "fuga",
-  "QuoteAlternativeId": 981,
-  "ERPProductKey": "voluptas",
+  "QuoteLineId": 171,
+  "ERPQuoteLineKey": "nihil",
+  "QuoteAlternativeId": 186,
+  "ERPProductKey": "facere",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 31220.908,
-  "DeliveredQuantity": 11320.008,
-  "Rank": 22,
-  "Name": "Fadel-Adams",
-  "Description": "Team-oriented fresh-thinking parallelism",
-  "Code": "aut",
-  "QuantityUnit": "totam",
-  "PriceUnit": "provident",
-  "ItemNumber": "807393",
+  "Quantity": 18998.308,
+  "DeliveredQuantity": 25347.791999999998,
+  "Rank": 883,
+  "Name": "Collins-Harvey",
+  "Description": "Distributed scalable firmware",
+  "Code": "aliquam",
+  "QuantityUnit": "asperiores",
+  "PriceUnit": "quas",
+  "ItemNumber": "528948",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nemo",
-  "ProductTypeKey": "eveniet",
-  "Supplier": "et",
-  "SupplierCode": "possimus",
-  "Thumbnail": "officiis",
-  "VATInfo": "porro",
-  "VAT": 17406.236,
-  "UnitCost": 27378.624,
-  "UnitMinimumPrice": 4328.054,
-  "UnitListPrice": 623.66599999999994,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "voluptas",
+  "Supplier": "tenetur",
+  "SupplierCode": "molestiae",
+  "Thumbnail": "porro",
+  "VATInfo": "et",
+  "VAT": 20609.184,
+  "UnitCost": 10270.118,
+  "UnitMinimumPrice": 30616.046,
+  "UnitListPrice": 26372.61,
   "ExtraInfo": [
     {
-      "Name": "Nader-Pacocha",
-      "Value": "corporis",
+      "Name": "Ullrich, Wolff and Johns",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 412
         }
       }
     },
     {
-      "Name": "Nader-Pacocha",
-      "Value": "corporis",
+      "Name": "Ullrich, Wolff and Johns",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 412
         }
       }
     }
   ],
   "RawExtraInfo": "atque",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aspernatur",
-  "SubscriptionQuantity": 19245.894,
-  "SubscriptionStart": "2014-05-18T12:01:28.1659327+02:00",
-  "ERPDiscountPercent": 11338.812,
-  "ERPDiscountAmount": 21314.334,
-  "DiscountPercent": 5428.088,
-  "DiscountAmount": 24442.066,
+  "IsSubscription": true,
+  "SubscriptionUnit": "in",
+  "SubscriptionQuantity": 13353.974,
+  "SubscriptionStart": "2012-01-30T14:13:41.0627059+01:00",
+  "ERPDiscountPercent": 25495.09,
+  "ERPDiscountAmount": 19954.178,
+  "DiscountPercent": 18938.762,
+  "DiscountAmount": 7336.6939999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2544.808,
-  "EarningAmount": 8082.5859999999993,
-  "SubTotal": 17174.32,
-  "TotalPrice": 256.988,
-  "Rights": "beatae",
-  "Rule": "rerum",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "iusto",
-  "ExtraField3": "hic",
-  "ExtraField4": "modi",
-  "ExtraField5": "repellat",
+  "EarningPercent": 11533.119999999999,
+  "EarningAmount": 24222.685999999998,
+  "SubTotal": 11006.608,
+  "TotalPrice": 30130.275999999998,
+  "Rights": "alias",
+  "Rule": "sit",
+  "ExtraField1": "ipsum",
+  "ExtraField2": "ipsam",
+  "ExtraField3": "tempora",
+  "ExtraField4": "nulla",
+  "ExtraField5": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 788
+      "FieldLength": 857
     }
   }
 }

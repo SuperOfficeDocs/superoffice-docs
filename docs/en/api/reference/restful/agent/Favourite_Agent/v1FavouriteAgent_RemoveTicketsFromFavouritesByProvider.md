@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bernhard LLC",
+  "ProviderName": "Metz-Gulgowski",
   "Restrictions": [
     {
-      "Name": "McLaughlin-Wolf",
-      "Operator": "qui",
+      "Name": "Hessel, Koelpin and Mraz",
+      "Operator": "et",
       "Values": [
-        "aspernatur",
-        "ut"
+        "quod",
+        "asperiores"
       ],
       "DisplayValues": [
-        "tenetur",
-        "et"
+        "corporis",
+        "voluptatum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 184,
+      "InterParenthesis": 36,
       "InterOperator": "And",
-      "UniqueHash": 241
+      "UniqueHash": 555
     }
   ],
-  "AssociateId": 925
+  "AssociateId": 749
 }
 ```
 

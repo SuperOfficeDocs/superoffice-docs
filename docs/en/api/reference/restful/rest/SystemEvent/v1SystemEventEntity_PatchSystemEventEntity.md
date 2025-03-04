@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ipsam",
+    "path": "non",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 477,
+  "SystemEventId": 586,
   "Scope": "Database",
-  "Eta": "2014-07-17T12:01:33.2144574+02:00",
-  "Eventkey": "dolores",
-  "Eventmess": "sunt",
-  "ExtraInfo": 525,
-  "Owner": 454,
-  "UpdatedCount": 370,
-  "Registered": "2021-07-20T12:01:33.2144574+02:00",
+  "Eta": "2007-08-07T14:13:49.2743418+02:00",
+  "Eventkey": "et",
+  "Eventmess": "aut",
+  "ExtraInfo": 501,
+  "Owner": 464,
+  "UpdatedCount": 74,
+  "Registered": "2004-07-15T14:13:49.2743418+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldType": "System.String",
+      "FieldLength": 634
     }
   },
   "_Links": {

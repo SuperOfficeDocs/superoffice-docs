@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hodkiewicz-Moen"
+  "ApplicationName": "Kuvalis LLC"
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 451,
-    "Name": "Quitzon-Schuppe",
-    "CreatedDate": "2015-01-05T12:01:27.9002891+01:00",
-    "UpdatedDate": "2008-02-24T12:01:27.9002891+01:00",
-    "AssociateFullName": "Prof. Otha Buckridge MD",
+    "ForeignDeviceId": 910,
+    "Name": "Kerluke-Bahringer",
+    "CreatedDate": "2011-08-21T14:13:40.3909833+02:00",
+    "UpdatedDate": "2007-05-30T14:13:40.3909833+02:00",
+    "AssociateFullName": "Mr. Leopold Reynolds II",
     "CreatedBy": "molestiae",
-    "UpdatedBy": "pariatur",
-    "DeviceIdentifier": "sit",
-    "ForeignAppId": 762,
+    "UpdatedBy": "voluptatibus",
+    "DeviceIdentifier": "et",
+    "ForeignAppId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

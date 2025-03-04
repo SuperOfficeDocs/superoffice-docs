@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 48,
-  "Name": "Hayes-Carroll",
-  "CurrencyId": 986,
-  "EnglishName": "Howell, Schamberger and Considine",
+  "CountryId": 826,
+  "Name": "Gutmann LLC",
+  "CurrencyId": 750,
+  "EnglishName": "King LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless stable implementation",
-  "OrgNrText": "1330118",
-  "InterAreaPrefix": "consequatur",
-  "DialInPrefix": "minus",
-  "ZipPrefix": "aliquam",
-  "DomainName": "O'Keefe, Toy and Block",
-  "AddressLayoutId": 614,
-  "DomesticAddressLayoutId": 855,
-  "ForeignAddressLayoutId": 900,
-  "Rank": 925,
-  "Tooltip": "eveniet",
+  "ImageDescription": "Extended client-driven process improvement",
+  "OrgNrText": "1635243",
+  "InterAreaPrefix": "commodi",
+  "DialInPrefix": "aut",
+  "ZipPrefix": "impedit",
+  "DomainName": "West LLC",
+  "AddressLayoutId": 666,
+  "DomesticAddressLayoutId": 341,
+  "ForeignAddressLayoutId": 630,
+  "Rank": 828,
+  "Tooltip": "repellendus",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldLength": 579
     }
   }
 }

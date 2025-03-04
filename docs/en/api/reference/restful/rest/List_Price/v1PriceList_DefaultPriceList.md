@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 880,
-  "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 822,
-  "Name": "Bayer, Bayer and Abbott",
-  "Description": "Versatile upward-trending frame",
-  "Currency": "inventore",
-  "CurrencyName": "O'Conner, Osinski and Crona",
-  "ValidFrom": "2023-09-26T12:01:33.5582313+02:00",
-  "ValidTo": "2011-10-20T12:01:33.5582313+02:00",
+  "PriceListId": 96,
+  "ERPPriceListKey": "aut",
+  "QuoteConnectionId": 236,
+  "Name": "Fay, Ernser and Dietrich",
+  "Description": "Open-architected dynamic info-mediaries",
+  "Currency": "hic",
+  "CurrencyName": "Stokes Group",
+  "ValidFrom": "1998-10-12T14:13:50.0562893+02:00",
+  "ValidTo": "2020-08-16T14:13:50.0562893+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 400
     }
   }
 }

@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 917,
-  "Name": "Ritchie-Smitham",
-  "ContentType": "esse",
-  "AttSize": 2,
+  "AttachmentId": 571,
+  "Name": "Feil-Quitzon",
+  "ContentType": "accusamus",
+  "AttSize": 296,
   "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "molestiae",
+  "ContentId": "esse",
+  "AuthKey": "voluptatem",
   "IsSafeFileExtension": false
 }
 ```
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 641,
-  "Name": "Bernhard-Bosco",
-  "ContentType": "et",
-  "AttSize": 597,
-  "InlineImage": true,
-  "ContentId": "debitis",
-  "AuthKey": "fugiat",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 844,
+  "Name": "Bashirian-Baumbach",
+  "ContentType": "qui",
+  "AttSize": 870,
+  "InlineImage": false,
+  "ContentId": "voluptatem",
+  "AuthKey": "reprehenderit",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 426
     }
   },
   "_Links": {

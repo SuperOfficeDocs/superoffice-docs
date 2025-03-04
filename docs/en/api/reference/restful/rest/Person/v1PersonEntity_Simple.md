@@ -102,7 +102,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,53 +112,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "porro",
-  "PersonId": 187,
-  "Mrmrs": "et",
-  "Firstname": "Chadrick",
-  "Lastname": "Hauck",
-  "MiddleName": "Boehm Inc and Sons",
-  "Title": "minus",
-  "Description": "Implemented actuating functionalities",
-  "Email": "lura@bogisichoconner.ca",
-  "FullName": "Miss Drake Effertz Jr.",
-  "DirectPhone": "272-528-3188",
-  "FormalName": "Wolff, Littel and Schumm",
-  "CountryId": 767,
-  "ContactId": 52,
-  "ContactName": "Schmidt, Hilpert and Koepp",
-  "Retired": 182,
-  "Rank": 157,
-  "ActiveInterests": 927,
+  "Position": "enim",
+  "PersonId": 617,
+  "Mrmrs": "assumenda",
+  "Firstname": "Linwood",
+  "Lastname": "Welch",
+  "MiddleName": "Kris Inc and Sons",
+  "Title": "molestiae",
+  "Description": "Progressive mobile knowledge user",
+  "Email": "korbin_littel@pfeffercrist.uk",
+  "FullName": "Merlin Hoeger",
+  "DirectPhone": "717-080-4063",
+  "FormalName": "Langosh Group",
+  "CountryId": 737,
+  "ContactId": 955,
+  "ContactName": "Carter-Leuschke",
+  "Retired": 693,
+  "Rank": 295,
+  "ActiveInterests": 448,
   "ContactDepartment": "",
-  "ContactCountryId": 108,
-  "ContactOrgNr": "1829663",
-  "FaxPhone": "(277)636-8279 x543",
-  "MobilePhone": "247-695-5272",
-  "ContactPhone": "(542)487-9823",
-  "AssociateName": "Heidenreich Inc and Sons",
-  "AssociateId": 732,
+  "ContactCountryId": 816,
+  "ContactOrgNr": "1029457",
+  "FaxPhone": "302.939.1990 x3344",
+  "MobilePhone": "797-566-1230 x93408",
+  "ContactPhone": "113-588-9184 x9645",
+  "AssociateName": "Ankunding LLC",
+  "AssociateId": 16,
   "UsePersonAddress": false,
-  "ContactFax": "autem",
-  "Kanafname": "rerum",
-  "Kanalname": "nemo",
-  "Post1": "iste",
-  "Post2": "illo",
-  "Post3": "expedita",
-  "EmailName": "demarcus.stracke@crona.us",
-  "ContactFullName": "Prof. Alexandra Devan Yost III",
-  "ActiveErpLinks": 138,
-  "TicketPriorityId": 575,
-  "SupportLanguageId": 274,
-  "SupportAssociateId": 259,
+  "ContactFax": "temporibus",
+  "Kanafname": "expedita",
+  "Kanalname": "corporis",
+  "Post1": "quibusdam",
+  "Post2": "totam",
+  "Post3": "aliquam",
+  "EmailName": "elta@feil.name",
+  "ContactFullName": "Mr. Raphael Rolfson IV",
+  "ActiveErpLinks": 854,
+  "TicketPriorityId": 96,
+  "SupportLanguageId": 683,
+  "SupportAssociateId": 812,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1064572",
+  "PersonNumber": "804088",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 730
     }
   }
 }

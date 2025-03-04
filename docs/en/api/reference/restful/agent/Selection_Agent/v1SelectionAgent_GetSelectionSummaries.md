@@ -80,8 +80,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    187,
-    196
+    967,
+    561
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 597,
-    "Name": "Hane, Turcotte and Blick",
-    "TargetTable": "aliquid",
-    "Registered": "2000-11-10T12:01:28.3065684+01:00",
-    "ProviderName": "Lueilwitz-Baumbach"
+    "SelectionId": 299,
+    "Name": "Klocko Inc and Sons",
+    "TargetTable": "necessitatibus",
+    "Registered": "2013-04-30T14:13:41.3289686+02:00",
+    "ProviderName": "Trantow LLC"
   },
   {
-    "SelectionId": 597,
-    "Name": "Hane, Turcotte and Blick",
-    "TargetTable": "aliquid",
-    "Registered": "2000-11-10T12:01:28.3065684+01:00",
-    "ProviderName": "Lueilwitz-Baumbach"
+    "SelectionId": 299,
+    "Name": "Klocko Inc and Sons",
+    "TargetTable": "necessitatibus",
+    "Registered": "2013-04-30T14:13:41.3289686+02:00",
+    "ProviderName": "Trantow LLC"
   }
 ]
 ```

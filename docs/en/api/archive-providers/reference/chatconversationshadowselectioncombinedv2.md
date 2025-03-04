@@ -486,7 +486,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=duration,contact/department,contact/registeredBy,contact/postAddress/line1,contact/saintDirection
+GET /api/v1/archive/ChatConversationShadowSelectionCombinedV2?$select=person/personUdef/SuperOffice:8,selectionId,person/restrictionAddress/line2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

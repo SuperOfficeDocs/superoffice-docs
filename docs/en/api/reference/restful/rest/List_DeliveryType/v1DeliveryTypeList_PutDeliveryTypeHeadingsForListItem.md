@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Ritchie-Leuschke",
-    "ToolTip": "Laboriosam numquam repellat tempore atque ullam voluptatem.",
-    "Deleted": true,
-    "Rank": 180,
-    "Type": "impedit",
-    "ColorBlock": 998,
-    "IconHint": "qui",
+    "Id": 921,
+    "Name": "Jones LLC",
+    "ToolTip": "Commodi culpa aspernatur autem commodi quaerat et voluptate.",
+    "Deleted": false,
+    "Rank": 949,
+    "Type": "sed",
+    "ColorBlock": 177,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2014-01-29T12:01:33.495727+01:00",
+    "LastChanged": "2012-05-22T14:13:49.9469396+02:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Champlin Inc and Sons",
-        "ToolTip": "Recusandae et inventore ex iusto exercitationem.",
+        "Id": 887,
+        "Name": "Hettinger, Heidenreich and Welch",
+        "ToolTip": "Corrupti laudantium molestias.",
         "Deleted": true,
-        "Rank": 247,
-        "Type": "consectetur",
-        "ColorBlock": 39,
-        "IconHint": "est",
+        "Rank": 196,
+        "Type": "quod",
+        "ColorBlock": 399,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2012-08-31T12:01:33.495727+02:00",
+        "LastChanged": "2010-08-23T14:13:49.9469396+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Cullen Aufderhar"
+        "ExtraInfo": "adipisci",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Mrs. Mathilde Roberta Cruickshank"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Miss Clotilde Nikolaus MD"
+    "ExtraInfo": "minima",
+    "StyleHint": "voluptatum",
+    "Hidden": false,
+    "FullName": "Mr. Zachery Smitham Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 517,
-    "Name": "Spencer, Wintheiser and Hackett",
-    "ToolTip": "Ex ex quod hic sint cupiditate rem.",
+    "Id": 54,
+    "Name": "Zulauf-Jerde",
+    "ToolTip": "Quo aliquid quia ea.",
     "Deleted": false,
-    "Rank": 232,
-    "Type": "delectus",
-    "ColorBlock": 543,
-    "IconHint": "in",
+    "Rank": 264,
+    "Type": "provident",
+    "ColorBlock": 182,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2002-01-20T12:01:33.511353+01:00",
+    "LastChanged": "2014-03-23T14:13:49.9625606+01:00",
     "ChildItems": [
       {
-        "Id": 67,
-        "Name": "Halvorson Inc and Sons",
-        "ToolTip": "Reprehenderit est.",
+        "Id": 653,
+        "Name": "Casper, Wehner and Braun",
+        "ToolTip": "Omnis tempora.",
         "Deleted": false,
-        "Rank": 481,
-        "Type": "sint",
-        "ColorBlock": 376,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "1998-01-29T12:01:33.511353+01:00",
+        "Rank": 274,
+        "Type": "suscipit",
+        "ColorBlock": 536,
+        "IconHint": "sequi",
+        "Selected": true,
+        "LastChanged": "2019-06-08T14:13:49.9625606+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
+        "ExtraInfo": "ea",
         "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Zola Fadel",
+        "FullName": "Bethel Rozella Lueilwitz Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldType": "System.Int32",
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "aut",
+    "ExtraInfo": "harum",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Miss Phoebe Cartwright",
+    "FullName": "Mr. Ola O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldType": "System.String",
+        "FieldLength": 371
       }
     }
   }

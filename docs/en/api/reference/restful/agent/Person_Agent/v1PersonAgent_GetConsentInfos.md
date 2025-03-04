@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 577
+  "PersonId": 788
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 873,
-    "Comment": "aut",
-    "Registered": "2021-01-28T12:01:28.0878022+01:00",
-    "RegisteredAssociateId": 430,
-    "Updated": "2019-03-30T12:01:28.0878022+01:00",
-    "UpdatedAssociateId": 284,
-    "LegalBaseId": 926,
-    "LegalBaseKey": "tempore",
-    "LegalBaseName": "Conn Inc and Sons",
-    "ConsentPurposeId": 756,
-    "ConsentPurposeKey": "praesentium",
-    "ConsentPurposeName": "Padberg Group",
-    "ConsentSourceId": 289,
-    "ConsentSourceKey": "saepe",
-    "ConsentSourceName": "Senger, Leffler and Dach",
+    "ConsentPersonId": 280,
+    "Comment": "quo",
+    "Registered": "2016-11-13T14:13:40.7346552+01:00",
+    "RegisteredAssociateId": 793,
+    "Updated": "2005-02-23T14:13:40.7346552+01:00",
+    "UpdatedAssociateId": 551,
+    "LegalBaseId": 557,
+    "LegalBaseKey": "ut",
+    "LegalBaseName": "Romaguera-Altenwerth",
+    "ConsentPurposeId": 13,
+    "ConsentPurposeKey": "inventore",
+    "ConsentPurposeName": "Hamill Group",
+    "ConsentSourceId": 903,
+    "ConsentSourceKey": "earum",
+    "ConsentSourceName": "Bosco, Haag and Cartwright",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 353
       }
     }
   }

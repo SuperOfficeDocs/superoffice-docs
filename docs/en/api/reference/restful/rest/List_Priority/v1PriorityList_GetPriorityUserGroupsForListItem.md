@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Bernhard, Little and Yundt",
-    "ToolTip": "Nihil pariatur harum.",
+    "Id": 321,
+    "Name": "Mosciski LLC",
+    "ToolTip": "Consequatur est est atque.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "aspernatur",
-    "ColorBlock": 150,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2016-11-13T12:01:33.5582313+01:00",
+    "Rank": 553,
+    "Type": "eligendi",
+    "ColorBlock": 324,
+    "IconHint": "commodi",
+    "Selected": true,
+    "LastChanged": "2021-04-09T14:13:50.0562893+02:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Wolf Inc and Sons",
-        "ToolTip": "Nisi doloribus vel dolores sit aut expedita.",
-        "Deleted": false,
-        "Rank": 330,
-        "Type": "earum",
-        "ColorBlock": 820,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2001-12-18T12:01:33.5582313+01:00",
+        "Id": 262,
+        "Name": "Doyle, Douglas and Homenick",
+        "ToolTip": "Provident nostrum at nemo optio quibusdam autem.",
+        "Deleted": true,
+        "Rank": 208,
+        "Type": "mollitia",
+        "ColorBlock": 795,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "1998-08-20T14:13:50.0562893+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "saepe",
-        "Hidden": true,
-        "FullName": "Jailyn Koelpin",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "magni",
+        "Hidden": false,
+        "FullName": "Prof. Glenna Manley Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldType": "System.String",
+            "FieldLength": 964
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "a",
-    "Hidden": false,
-    "FullName": "Felipe Lind",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Noemy Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldLength": 392
       }
     }
   }

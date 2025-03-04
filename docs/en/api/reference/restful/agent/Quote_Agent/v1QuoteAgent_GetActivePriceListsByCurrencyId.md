@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 747,
-  "CurrencyId": 578
+  "QuoteConnectionId": 614,
+  "CurrencyId": 518
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 744,
-    "ERPPriceListKey": "maxime",
-    "QuoteConnectionId": 597,
-    "Name": "King Group",
-    "Description": "Future-proofed radical benchmark",
-    "Currency": "aut",
-    "CurrencyName": "Braun Inc and Sons",
-    "ValidFrom": "2015-03-08T12:01:28.1971849+01:00",
-    "ValidTo": "2017-05-12T12:01:28.1971849+02:00",
+    "PriceListId": 732,
+    "ERPPriceListKey": "officia",
+    "QuoteConnectionId": 756,
+    "Name": "Swift Group",
+    "Description": "Universal assymetric budgetary management",
+    "Currency": "et",
+    "CurrencyName": "Rippin-Greenfelder",
+    "ValidFrom": "2004-08-13T14:13:41.1095702+02:00",
+    "ValidTo": "2018-06-29T14:13:41.1095702+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 119
       }
     }
   }

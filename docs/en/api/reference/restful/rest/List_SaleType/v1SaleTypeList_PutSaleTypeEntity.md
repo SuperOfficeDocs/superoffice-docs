@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 75,
-  "Name": "Mohr, Kertzmann and Keebler",
-  "Tooltip": "animi",
-  "Rank": 880,
+  "SaleTypeId": 382,
+  "Name": "Cormier-Okuneva",
+  "Tooltip": "quod",
+  "Rank": 131,
   "DurationUnit": "Century",
-  "SaleDuration": 721,
-  "SaleTypeCatId": 455,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 943,
+  "SaleTypeCatId": 378,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 638,
-  "QuoteLinesTemplate": 229,
-  "ConfirmationLinesTemplate": 694,
+  "DefaultQuoteValidity": 911,
+  "QuoteLinesTemplate": 429,
+  "ConfirmationLinesTemplate": 482,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 901,
-  "MinEarningPercent": 11,
-  "GroupQuoteLinesBy": 190,
-  "SortGroupLinesBy": 936,
+  "MaxDiscountPercent": 279,
+  "MinEarningPercent": 845,
+  "GroupQuoteLinesBy": 804,
+  "SortGroupLinesBy": 133,
   "Stages": [
     {
-      "Id": 927,
-      "Name": "Ebert Group",
-      "ToolTip": "Mollitia debitis dolores ut aperiam.",
-      "Deleted": false,
-      "Rank": 774,
-      "Type": "repellendus",
-      "ColorBlock": 889,
-      "IconHint": "provident",
-      "Selected": false,
-      "LastChanged": "2014-08-26T12:01:33.6519877+02:00",
+      "Id": 514,
+      "Name": "Cartwright-Ortiz",
+      "ToolTip": "Quibusdam voluptatem praesentium et.",
+      "Deleted": true,
+      "Rank": 96,
+      "Type": "voluptatum",
+      "ColorBlock": 762,
+      "IconHint": "nesciunt",
+      "Selected": true,
+      "LastChanged": "2001-02-24T14:13:50.2283063+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "molestiae",
+      "ExtraInfo": "eos",
+      "StyleHint": "nihil",
       "Hidden": false,
-      "FullName": "Casey Kuhlman"
+      "FullName": "Kadin Romaguera"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 104,
-  "Name": "Kirlin-Collier",
-  "Tooltip": "officia",
-  "Rank": 111,
+  "SaleTypeId": 615,
+  "Name": "Weber LLC",
+  "Tooltip": "recusandae",
+  "Rank": 681,
   "DurationUnit": "Century",
-  "SaleDuration": 349,
-  "SaleTypeCatId": 509,
+  "SaleDuration": 615,
+  "SaleTypeCatId": 821,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 983,
-  "QuoteLinesTemplate": 556,
-  "ConfirmationLinesTemplate": 664,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 891,
+  "QuoteLinesTemplate": 447,
+  "ConfirmationLinesTemplate": 83,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 808,
-  "MinEarningPercent": 230,
-  "GroupQuoteLinesBy": 974,
-  "SortGroupLinesBy": 374,
+  "MaxDiscountPercent": 175,
+  "MinEarningPercent": 468,
+  "GroupQuoteLinesBy": 329,
+  "SortGroupLinesBy": 517,
   "Stages": [
     {
-      "Id": 423,
-      "Name": "Cormier, Balistreri and Wolf",
-      "ToolTip": "In vel explicabo.",
+      "Id": 910,
+      "Name": "Mraz, Quigley and Schumm",
+      "ToolTip": "Saepe tempora maiores.",
       "Deleted": false,
-      "Rank": 565,
-      "Type": "aliquid",
-      "ColorBlock": 350,
-      "IconHint": "aliquam",
-      "Selected": true,
-      "LastChanged": "1997-12-11T12:01:33.6519877+01:00",
+      "Rank": 394,
+      "Type": "accusantium",
+      "ColorBlock": 116,
+      "IconHint": "corporis",
+      "Selected": false,
+      "LastChanged": "2002-05-05T14:13:50.2283063+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "nulla",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "culpa",
       "Hidden": false,
-      "FullName": "Miss Wyatt Schuppe II",
+      "FullName": "Antwon Reynolds",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldType": "System.String",
+          "FieldLength": 654
         }
       }
     }
@@ -225,7 +225,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 495
     }
   }
 }

@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescId": 788,
-  "Section": "rerum",
-  "Key": "optio",
-  "Name": "Stroman, Pouros and Block",
+  "Section": "et",
+  "Key": "voluptas",
+  "Name": "Steuber-Cronin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized attitude-oriented ability",
+  "Description": "Upgradable composite help-desk",
   "IsBuiltin": false,
-  "TableName": "Cassin Inc and Sons",
-  "UserDefinedListId": 519,
-  "Rank": 673,
-  "SubGroup": "magnam",
-  "MinLevel": 590,
-  "MaxValue": 806,
-  "MinValue": 153,
-  "RequiredLicense": "quia"
+  "TableName": "Streich-Effertz",
+  "UserDefinedListId": 561,
+  "Rank": 972,
+  "SubGroup": "consequuntur",
+  "MinLevel": 766,
+  "MaxValue": 713,
+  "MinValue": 831,
+  "RequiredLicense": "quae"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 843,
-  "Section": "vitae",
-  "Key": "natus",
-  "Name": "Hagenes-Koch",
+  "PrefDescId": 282,
+  "Section": "necessitatibus",
+  "Key": "aut",
+  "Name": "Conroy Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly dedicated encoding",
+  "Description": "Business-focused 24 hour product",
   "IsBuiltin": false,
-  "TableName": "Lueilwitz, Haley and Hilll",
-  "UserDefinedListId": 136,
-  "Rank": 315,
-  "SubGroup": "quo",
-  "MinLevel": 627,
-  "MaxValue": 719,
-  "MinValue": 699,
-  "RequiredLicense": "veritatis",
+  "TableName": "Hand, Anderson and Rodriguez",
+  "UserDefinedListId": 103,
+  "Rank": 705,
+  "SubGroup": "ea",
+  "MinLevel": 296,
+  "MaxValue": 944,
+  "MinValue": 466,
+  "RequiredLicense": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 427
     }
   }
 }

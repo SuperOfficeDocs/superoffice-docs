@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 781,
-    "Name": "Hirthe, Jones and Runolfsdottir",
-    "Tooltip": "culpa",
+    "HeadingId": 813,
+    "Name": "Kohler Inc and Sons",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 898,
-    "UdListDefinitionId": 560,
+    "Rank": 439,
+    "UdListDefinitionId": 288,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 432
+        "FieldLength": 45
       }
     }
   }

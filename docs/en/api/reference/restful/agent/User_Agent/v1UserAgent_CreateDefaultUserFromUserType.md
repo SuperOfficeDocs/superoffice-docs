@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 307,
-  "Name": "Homenick, Raynor and Fay",
-  "Rank": 276,
-  "Tooltip": "ullam",
+  "AssociateId": 159,
+  "Name": "Frami, Bayer and Larson",
+  "Rank": 506,
+  "Tooltip": "quis",
   "LicenseOwners": [
     {
-      "Name": "Stamm, Price and Osinski",
-      "Description": "Monitored leading edge attitude",
+      "Name": "Olson-Rau",
+      "Description": "Profound client-server software",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 278
+          "FieldLength": 614
         }
       }
     },
     {
-      "Name": "Stamm, Price and Osinski",
-      "Description": "Monitored leading edge attitude",
+      "Name": "Olson-Rau",
+      "Description": "Profound client-server software",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 278
+          "FieldLength": 614
         }
       }
     }
@@ -167,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "iusto",
-      "Tooltip": "voluptatem",
-      "Id": 853,
-      "Rank": 487,
+      "Value": "amet",
+      "Tooltip": "inventore",
+      "Id": 283,
+      "Rank": 116,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 45
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2023-08-05T12:01:28.6190891+02:00",
-  "Lastlogout": "2006-05-31T12:01:28.6190891+02:00",
-  "EjUserId": 671,
-  "RequestSignature": "ut",
+  "Deleted": true,
+  "Lastlogin": "2010-09-10T14:13:41.7196115+02:00",
+  "Lastlogout": "2017-10-18T14:13:41.7196115+02:00",
+  "EjUserId": 702,
+  "RequestSignature": "mollitia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ipsa",
-      "DisplayValue": "et",
+      "Value": "est",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 159
         }
       }
     },
     {
       "Type": null,
-      "Value": "ipsa",
-      "DisplayValue": "et",
+      "Value": "est",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 159
         }
       }
     }
   ],
-  "UserName": "Schmitt Inc and Sons",
+  "UserName": "Runte, Legros and Tremblay",
   "TicketCategories": [
     {
-      "Id": 925,
-      "Name": "Hansen-Pouros",
-      "ToolTip": "Et voluptas pariatur alias at.",
-      "Deleted": true,
-      "Rank": 443,
-      "Type": "impedit",
+      "Id": 809,
+      "Name": "Brown LLC",
+      "ToolTip": "Accusamus culpa repudiandae.",
+      "Deleted": false,
+      "Rank": 690,
+      "Type": "dolor",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "doloremque",
-      "ColorBlock": 254,
-      "ExtraInfo": "commodi",
-      "StyleHint": "sed",
-      "FullName": "Dedrick Bartoletti",
+      "IconHint": "aut",
+      "ColorBlock": 934,
+      "ExtraInfo": "ea",
+      "StyleHint": "natus",
+      "FullName": "Aditya Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 470
+          "FieldLength": 553
         }
       }
     }
   ],
-  "NickName": "Kuvalis-Gusikowski",
+  "NickName": "Will Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "at",
+    "ExtraFields2": "tempore"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "qui"
+    "CustomFields1": "ex",
+    "CustomFields2": "ipsum"
   },
   "PostSaveCommands": [
     {
-      "Name": "Gottlieb, Beer and Lemke",
-      "DisplayName": "Mitchell Group",
-      "Description": "Compatible explicit benchmark",
-      "ToolTip": "Suscipit molestias qui eaque.",
+      "Name": "Bradtke Inc and Sons",
+      "DisplayName": "Frami-Hagenes",
+      "Description": "Right-sized even-keeled solution",
+      "ToolTip": "Non omnis et error sit voluptatum rerum.",
       "Actions": "Implicit",
-      "ActionData": "dolore",
+      "ActionData": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 575
+          "FieldType": "System.String",
+          "FieldLength": 855
         }
       }
     }
@@ -280,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 249
     }
   }
 }

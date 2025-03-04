@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 255,
-    "Name": "Schamberger, Bosco and Strosin",
-    "ToolTip": "Dolorem culpa cupiditate veritatis commodi.",
-    "Deleted": true,
-    "Rank": 464,
-    "Type": "dolores",
-    "ColorBlock": 214,
-    "IconHint": "et",
+    "Id": 823,
+    "Name": "Cremin-Frami",
+    "ToolTip": "Consequatur commodi vel sed quia dolores velit inventore.",
+    "Deleted": false,
+    "Rank": 29,
+    "Type": "aut",
+    "ColorBlock": 887,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2012-03-11T12:01:33.4332226+01:00",
+    "LastChanged": "2007-02-06T14:13:49.6648827+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Wolff LLC",
-        "ToolTip": "Nam vel dolores eos laboriosam et.",
+        "Id": 656,
+        "Name": "McCullough, Jaskolski and Wintheiser",
+        "ToolTip": "Voluptatem repudiandae.",
         "Deleted": true,
-        "Rank": 786,
-        "Type": "nisi",
-        "ColorBlock": 673,
-        "IconHint": "modi",
+        "Rank": 880,
+        "Type": "quasi",
+        "ColorBlock": 194,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2005-12-15T12:01:33.4332226+01:00",
+        "LastChanged": "1998-10-23T14:13:49.6648827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Aiden Ratke"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Miss Emerald Jayson Okuneva"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Domenic Bergnaum"
+    "ExtraInfo": "adipisci",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Sophie Sanford Kreiger Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Parker Inc and Sons",
-    "ToolTip": "Culpa aut consequuntur voluptatem qui consequatur et.",
+    "Id": 972,
+    "Name": "Ziemann Group",
+    "ToolTip": "Totam sed.",
     "Deleted": true,
-    "Rank": 714,
-    "Type": "odio",
-    "ColorBlock": 828,
-    "IconHint": "eius",
-    "Selected": true,
-    "LastChanged": "2009-01-04T12:01:33.4332226+01:00",
+    "Rank": 782,
+    "Type": "dignissimos",
+    "ColorBlock": 59,
+    "IconHint": "perspiciatis",
+    "Selected": false,
+    "LastChanged": "1998-04-07T14:13:49.6648827+02:00",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "White, Parker and Hackett",
-        "ToolTip": "In autem qui occaecati non.",
+        "Id": 753,
+        "Name": "Mueller-Hammes",
+        "ToolTip": "At ratione inventore ex dolor ea.",
         "Deleted": false,
-        "Rank": 727,
-        "Type": "sunt",
-        "ColorBlock": 992,
-        "IconHint": "eius",
-        "Selected": false,
-        "LastChanged": "2006-05-18T12:01:33.4332226+02:00",
+        "Rank": 843,
+        "Type": "ipsam",
+        "ColorBlock": 639,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2006-10-24T14:13:49.6648827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "doloribus",
+        "ExtraInfo": "facere",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Lura Doyle",
+        "FullName": "Ms. Dewitt O'Keefe Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 874
+            "FieldLength": 943
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "ullam",
+    "ExtraInfo": "sit",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Zakary Kutch",
+    "FullName": "Mrs. Athena Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldLength": 390
       }
     }
   }

@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Audience/GetLogoImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Paucek Inc and Sons"
+  "LayoutName": "Gibson Group"
 }
 ```
 

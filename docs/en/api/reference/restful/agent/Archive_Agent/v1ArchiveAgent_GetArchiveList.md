@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Vandervort, Terry and Kozey",
-  "ProviderName": "Harris-Kuphal",
+  "GuiName": "Johns Group",
+  "ProviderName": "Weissnat Group",
   "SortOrder": [
     {
-      "Name": "Watsica LLC",
+      "Name": "Mayer, Graham and Miller",
       "Direction": "ASC"
     },
     {
-      "Name": "Watsica LLC",
+      "Name": "Mayer, Graham and Miller",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lehner-Frami",
-      "Operator": "ipsam",
+      "Name": "Waelchi, Barrows and Anderson",
+      "Operator": "cupiditate",
       "Values": [
-        "ut",
-        "rerum"
+        "qui",
+        "sint"
       ],
       "DisplayValues": [
-        "tempore",
-        "numquam"
+        "modi",
+        "deleniti"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 929,
+      "InterParenthesis": 966,
       "InterOperator": "And",
-      "UniqueHash": 135
+      "UniqueHash": 735
     }
   ],
   "Entities": [
-    "commodi",
-    "sit"
+    "repudiandae",
+    "eius"
   ],
-  "Page": 231,
-  "PageSize": 122
+  "Page": 360,
+  "PageSize": 534
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Wolf-Stroman",
-    "PrimaryKey": 275,
+    "EntityName": "Kutch, Klein and Collier",
+    "PrimaryKey": 880,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "ratione",
-        "LinkHint": "rerum"
+        "DisplayValue": "ratione",
+        "TooltipHint": "maiores",
+        "LinkHint": "aspernatur"
       }
     },
-    "LinkHint": "ea",
-    "StyleHint": "quia",
+    "LinkHint": "odit",
+    "StyleHint": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 601
       }
     }
   }

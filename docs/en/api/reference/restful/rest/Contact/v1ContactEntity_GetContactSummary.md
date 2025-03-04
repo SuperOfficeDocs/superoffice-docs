@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=788
+GET /api/v1/Contact/{contactId}/Summary?limit=298
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 869,
-      "TicketStatus": 339,
-      "Title": "eveniet",
-      "Registered": "2015-03-23T12:01:32.8238054+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 631,
+      "TicketStatus": 1000,
+      "Title": "voluptatem",
+      "Registered": "2017-01-26T14:13:48.569529+01:00",
+      "IconHint": "ducimus"
     },
     {
-      "TicketId": 869,
-      "TicketStatus": 339,
-      "Title": "eveniet",
-      "Registered": "2015-03-23T12:01:32.8238054+01:00",
-      "IconHint": "consequatur"
+      "TicketId": 631,
+      "TicketStatus": 1000,
+      "Title": "voluptatem",
+      "Registered": "2017-01-26T14:13:48.569529+01:00",
+      "IconHint": "ducimus"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 442,
-      "DocumentId": 282,
-      "Date": "2003-06-15T12:01:32.8238054+02:00",
-      "Description": "Diverse stable array",
+      "AppointmentId": 278,
+      "DocumentId": 987,
+      "Date": "1999-04-17T14:13:48.569529+02:00",
+      "Description": "Proactive empowering groupware",
       "Completed": "Completed",
-      "Registered": "2024-08-15T12:01:32.8238054+02:00"
+      "Registered": "2020-05-04T14:13:48.569529+02:00"
     },
     {
-      "AppointmentId": 442,
-      "DocumentId": 282,
-      "Date": "2003-06-15T12:01:32.8238054+02:00",
-      "Description": "Diverse stable array",
+      "AppointmentId": 278,
+      "DocumentId": 987,
+      "Date": "1999-04-17T14:13:48.569529+02:00",
+      "Description": "Proactive empowering groupware",
       "Completed": "Completed",
-      "Registered": "2024-08-15T12:01:32.8238054+02:00"
+      "Registered": "2020-05-04T14:13:48.569529+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 736,
-      "DocumentId": 613,
-      "Date": "2008-10-23T12:01:32.8238054+02:00",
-      "Description": "Mandatory 4th generation standardization",
+      "AppointmentId": 909,
+      "DocumentId": 914,
+      "Date": "2006-11-27T14:13:48.569529+01:00",
+      "Description": "Profit-focused local orchestration",
       "Completed": "Completed",
-      "Registered": "1999-12-28T12:01:32.8238054+01:00"
+      "Registered": "2012-07-06T14:13:48.569529+02:00"
     },
     {
-      "AppointmentId": 736,
-      "DocumentId": 613,
-      "Date": "2008-10-23T12:01:32.8238054+02:00",
-      "Description": "Mandatory 4th generation standardization",
+      "AppointmentId": 909,
+      "DocumentId": 914,
+      "Date": "2006-11-27T14:13:48.569529+01:00",
+      "Description": "Profit-focused local orchestration",
       "Completed": "Completed",
-      "Registered": "1999-12-28T12:01:32.8238054+01:00"
+      "Registered": "2012-07-06T14:13:48.569529+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 434,
-      "SaleDate": "2007-12-10T12:01:32.8238054+01:00",
-      "Probability": 325,
-      "Heading": "exercitationem",
-      "Amount": 19919.703999999998,
-      "Currency": "dolorum",
-      "AmountInBaseCurrency": 17384.298,
+      "SaleId": 837,
+      "SaleDate": "2009-10-22T14:13:48.569529+02:00",
+      "Probability": 222,
+      "Heading": "laudantium",
+      "Amount": 14911.572,
+      "Currency": "minus",
+      "AmountInBaseCurrency": 20374.134,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2023-03-04T12:01:32.8238054+01:00"
+      "Registered": "2008-12-24T14:13:48.569529+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 339,
-      "Name": "Kertzmann, Runolfsdottir and Johnson",
-      "CompanyName": "Cronin, Bergnaum and Shields",
-      "FirstMessage": "nemo",
-      "LastMessage": "aut",
-      "WhenRequested": "2002-07-03T12:01:32.8238054+02:00",
-      "WhenEnded": "2004-08-01T12:01:32.8238054+02:00"
+      "ChatSessionId": 360,
+      "Name": "Vandervort-Stamm",
+      "CompanyName": "Friesen Group",
+      "FirstMessage": "rem",
+      "LastMessage": "quae",
+      "WhenRequested": "2015-01-23T14:13:48.569529+01:00",
+      "WhenEnded": "1999-05-19T14:13:48.569529+02:00"
     }
   ]
 }

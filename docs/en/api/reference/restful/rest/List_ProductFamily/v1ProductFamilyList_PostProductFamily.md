@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Shanahan Group",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "UdListDefinitionId": 10,
-  "Rank": 457
+  "Id": 595,
+  "Name": "Romaguera-Wyman",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 144,
+  "Rank": 501
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Watsica Inc and Sons",
-  "Tooltip": "quo",
+  "Id": 503,
+  "Name": "Pfeffer, Bauch and Grimes",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 356,
-  "Rank": 395,
+  "UdListDefinitionId": 386,
+  "Rank": 204,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 444
     }
   }
 }

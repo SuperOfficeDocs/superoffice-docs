@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "chloe.walter@mantekub.co.uk"
+  "EmailAddress": "rowan@kreiger.us"
 }
 ```
 
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 210,
-    "ContactName": "Schoen, Kulas and Kemmer",
-    "PersonId": 215,
-    "PersonName": "Maggio, Bashirian and Upton",
-    "AssociateId": 770,
-    "Address": "accusamus",
-    "EmailId": 411,
+    "ContactId": 87,
+    "ContactName": "Larkin, Barton and Tillman",
+    "PersonId": 556,
+    "PersonName": "Mayer-McDermott",
+    "AssociateId": 825,
+    "Address": "illum",
+    "EmailId": 334,
     "DuplicatePersonIds": [
-      998,
-      745
+      611,
+      663
     ],
-    "Name": "Batz-Schmeler",
+    "Name": "Runolfsson-Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 920
       }
     }
   }

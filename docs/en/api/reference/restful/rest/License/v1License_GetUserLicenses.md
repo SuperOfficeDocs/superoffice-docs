@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian-Watsica",
-    "Description": "Seamless encompassing middleware",
+    "Name": "Herzog-Halvorson",
+    "Description": "Secured background synergy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 731,
-        "Tooltip": "architecto",
-        "CanAssign": false,
-        "Free": 22,
-        "InUse": 944,
+        "Unrestricted": false,
+        "Total": 844,
+        "Tooltip": "sit",
+        "CanAssign": true,
+        "Free": 98,
+        "InUse": 490,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 762,
-        "Name": "Mann-Hudson",
-        "Description": "Ergonomic asynchronous secured line",
-        "PrerequisiteModuleName": "Erdman-Kulas",
-        "SortOrder": 152,
-        "ExtraFlags": 1001,
+        "Assigned": true,
+        "ModuleLicenseId": 900,
+        "Name": "Klocko-Boehm",
+        "Description": "Up-sized static attitude",
+        "PrerequisiteModuleName": "Jakubowski-Becker",
+        "SortOrder": 532,
+        "ExtraFlags": 555,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 423
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "modi",
-        "CanAssign": false,
-        "Free": 736,
-        "InUse": 524,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 651,
+        "Tooltip": "ex",
+        "CanAssign": true,
+        "Free": 609,
+        "InUse": 904,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Lehner, Carter and Blanda",
-        "Description": "Grass-roots local product",
-        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
-        "SortOrder": 385,
-        "ExtraFlags": 792,
+        "ModuleLicenseId": 113,
+        "Name": "Rowe LLC",
+        "Description": "Ameliorated well-modulated methodology",
+        "PrerequisiteModuleName": "Abernathy, Herzog and Schmitt",
+        "SortOrder": 318,
+        "ExtraFlags": 339,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 815
           }
         }
       }
@@ -131,62 +131,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   },
   {
-    "Name": "Parisian-Watsica",
-    "Description": "Seamless encompassing middleware",
+    "Name": "Herzog-Halvorson",
+    "Description": "Secured background synergy",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 731,
-        "Tooltip": "architecto",
-        "CanAssign": false,
-        "Free": 22,
-        "InUse": 944,
+        "Unrestricted": false,
+        "Total": 844,
+        "Tooltip": "sit",
+        "CanAssign": true,
+        "Free": 98,
+        "InUse": 490,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 762,
-        "Name": "Mann-Hudson",
-        "Description": "Ergonomic asynchronous secured line",
-        "PrerequisiteModuleName": "Erdman-Kulas",
-        "SortOrder": 152,
-        "ExtraFlags": 1001,
+        "Assigned": true,
+        "ModuleLicenseId": 900,
+        "Name": "Klocko-Boehm",
+        "Description": "Up-sized static attitude",
+        "PrerequisiteModuleName": "Jakubowski-Becker",
+        "SortOrder": 532,
+        "ExtraFlags": 555,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 198
+            "FieldLength": 423
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 918,
-        "Tooltip": "modi",
-        "CanAssign": false,
-        "Free": 736,
-        "InUse": 524,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 651,
+        "Tooltip": "ex",
+        "CanAssign": true,
+        "Free": 609,
+        "InUse": 904,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 206,
-        "Name": "Lehner, Carter and Blanda",
-        "Description": "Grass-roots local product",
-        "PrerequisiteModuleName": "Fahey, Parker and Lowe",
-        "SortOrder": 385,
-        "ExtraFlags": 792,
+        "ModuleLicenseId": 113,
+        "Name": "Rowe LLC",
+        "Description": "Ameliorated well-modulated methodology",
+        "PrerequisiteModuleName": "Abernathy, Herzog and Schmitt",
+        "SortOrder": 318,
+        "ExtraFlags": 339,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 318
+            "FieldLength": 815
           }
         }
       }
@@ -195,8 +195,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 619
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

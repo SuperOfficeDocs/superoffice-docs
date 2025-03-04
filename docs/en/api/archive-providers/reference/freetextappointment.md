@@ -742,7 +742,7 @@ Private appointments that are not fully readable will not be shown (they are ski
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextAppointment?$select=contact/email/emailLastBounce,contact/contactAssociate/title,contact/saintActivityType,person/correspondingAssociate/personEmail,project/projectUdef/SuperOffice:5
+GET /api/v1/archive/FreetextAppointment?$select=contact/number,contact/email/emailAddress,person/contactId,person/personSource,person/supportAssociateFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

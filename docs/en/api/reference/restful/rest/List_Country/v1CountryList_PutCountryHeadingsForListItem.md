@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Runolfsson Inc and Sons",
-    "ToolTip": "Praesentium qui blanditiis qui commodi explicabo molestiae.",
+    "Id": 181,
+    "Name": "Christiansen, Goodwin and Jones",
+    "ToolTip": "Odit et provident amet.",
     "Deleted": true,
-    "Rank": 365,
-    "Type": "et",
-    "ColorBlock": 513,
-    "IconHint": "minus",
+    "Rank": 705,
+    "Type": "exercitationem",
+    "ColorBlock": 791,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2005-02-28T12:01:33.4801008+01:00",
+    "LastChanged": "2000-06-17T14:13:49.7429847+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Graham Inc and Sons",
-        "ToolTip": "Quis qui est.",
-        "Deleted": true,
-        "Rank": 944,
-        "Type": "et",
-        "ColorBlock": 69,
-        "IconHint": "autem",
+        "Id": 265,
+        "Name": "Fahey, Leffler and Block",
+        "ToolTip": "Ut rerum.",
+        "Deleted": false,
+        "Rank": 646,
+        "Type": "qui",
+        "ColorBlock": 846,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2007-02-12T12:01:33.4801008+01:00",
+        "LastChanged": "2007-08-20T14:13:49.7429847+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "incidunt",
-        "StyleHint": "corrupti",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Cara Flatley"
+        "FullName": "Dr. Heloise Murphy I"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "ut",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Dr. Lillian Leo Miller MD"
+    "FullName": "Dr. Maynard Murazik"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 763,
-    "Name": "Leffler, Hoppe and Graham",
-    "ToolTip": "Sit modi dolor omnis quis assumenda.",
+    "Id": 367,
+    "Name": "Jenkins Group",
+    "ToolTip": "Sunt aut molestiae est sequi voluptatum.",
     "Deleted": true,
-    "Rank": 737,
-    "Type": "praesentium",
-    "ColorBlock": 483,
-    "IconHint": "vel",
+    "Rank": 277,
+    "Type": "cupiditate",
+    "ColorBlock": 288,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2009-04-24T12:01:33.4801008+02:00",
+    "LastChanged": "2016-09-05T14:13:49.7429847+02:00",
     "ChildItems": [
       {
-        "Id": 281,
-        "Name": "Hilll-Murazik",
-        "ToolTip": "Repudiandae sed omnis.",
+        "Id": 984,
+        "Name": "Stamm Group",
+        "ToolTip": "Vel aut dolorem.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "hic",
-        "ColorBlock": 838,
-        "IconHint": "hic",
+        "Rank": 429,
+        "Type": "quam",
+        "ColorBlock": 765,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2000-04-29T12:01:33.4801008+02:00",
+        "LastChanged": "2009-02-17T14:13:49.7429847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "quia",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Carson Abbigail Keeling DDS",
+        "FullName": "Dr. Evan Schinner MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldType": "System.String",
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "repudiandae",
-    "Hidden": true,
-    "FullName": "Ms. Francis Darrion Krajcik",
+    "ExtraInfo": "vitae",
+    "StyleHint": "labore",
+    "Hidden": false,
+    "FullName": "Daisy Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldType": "System.Int32",
+        "FieldLength": 347
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 149
+  "ProjectId": 214
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 373,
-  "Name": "Predovic, Rippin and Okuneva",
-  "Description": "Proactive actuating contingency",
+  "ProjectId": 947,
+  "Name": "Hammes, Leffler and Wisoky",
+  "Description": "Quality-focused high-level benchmark",
   "URL": "http://www.example.com/",
-  "Type": "velit",
-  "AssociateId": 874,
-  "AssociateFullName": "Alverta Schultz",
-  "TypeId": 311,
-  "Updated": "2016-10-06T12:01:28.1659327+02:00",
-  "StatusId": 969,
-  "Status": "totam",
-  "TextId": 765,
-  "PublishTo": "2002-08-14T12:01:28.1659327+02:00",
-  "PublishFrom": "2016-09-22T12:01:28.1659327+02:00",
+  "Type": "minus",
+  "AssociateId": 940,
+  "AssociateFullName": "Janice Swaniawski",
+  "TypeId": 447,
+  "Updated": "2021-05-06T14:13:41.0314634+02:00",
+  "StatusId": 443,
+  "Status": "natus",
+  "TextId": 363,
+  "PublishTo": "2010-07-05T14:13:41.0314634+02:00",
+  "PublishFrom": "1998-07-13T14:13:41.0314634+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "639467",
-  "ActiveErpLinks": 222,
+  "ProjectNumber": "753226",
+  "ActiveErpLinks": 432,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 503
     }
   }
 }

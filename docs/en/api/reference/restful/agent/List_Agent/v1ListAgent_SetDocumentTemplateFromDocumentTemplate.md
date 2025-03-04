@@ -102,7 +102,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 902,
+  "SourceDocumentTemplateId": 329,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 319,
-  "Name": "Graham-Wuckert",
-  "Tooltip": "accusamus",
-  "SaveInDb": 319,
-  "Filename": "tenetur",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 227,
+  "Name": "Robel, Senger and Franecki",
+  "Tooltip": "quis",
+  "SaveInDb": 486,
+  "Filename": "provident",
+  "DefaultOref": "neque",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 967,
-  "IntentId": 765,
+  "AutoeventId": 327,
+  "IntentId": 358,
   "IsDefaultPublished": false,
-  "Rank": 664,
-  "LoadTemplateFromPlugin": 263,
-  "MimeType": "dolore",
+  "Rank": 837,
+  "LoadTemplateFromPlugin": 180,
+  "MimeType": "iure",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 238,
+  "DocumentTypeKey": 418,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "antwan@wilkinson.ca",
+  "EmailSubject": "andreane_muller@dibbert.name",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jedediah@howellbogisich.co.uk",
+  "SenderEmailAddress": "sandrine@jones.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldLength": 182
     }
   }
 }

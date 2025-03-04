@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 729,
+  "QuoteAlternativeId": 480,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 138,
-  "ERPQuoteLineKey": "ea",
-  "QuoteAlternativeId": 100,
-  "ERPProductKey": "aperiam",
+  "QuoteLineId": 392,
+  "ERPQuoteLineKey": "eius",
+  "QuoteAlternativeId": 334,
+  "ERPProductKey": "in",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 26184.57,
-  "DeliveredQuantity": 10100.882,
-  "Rank": 323,
-  "Name": "Sporer, Christiansen and Stanton",
-  "Description": "Organic contextually-based Graphic Interface",
-  "Code": "laboriosam",
-  "QuantityUnit": "illo",
-  "PriceUnit": "voluptas",
-  "ItemNumber": "1286612",
+  "Quantity": 25112.742,
+  "DeliveredQuantity": 13670.508,
+  "Rank": 36,
+  "Name": "Leffler, Stokes and Gaylord",
+  "Description": "Advanced optimizing installation",
+  "Code": "aut",
+  "QuantityUnit": "et",
+  "PriceUnit": "omnis",
+  "ItemNumber": "719204",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rerum",
+  "ProductFamilyKey": "quasi",
   "ProductTypeKey": "ex",
-  "Supplier": "dignissimos",
-  "SupplierCode": "distinctio",
-  "Thumbnail": "nisi",
-  "VATInfo": "dignissimos",
-  "VAT": 17105.372,
-  "UnitCost": 2692.1059999999998,
-  "UnitMinimumPrice": 31148.825999999997,
-  "UnitListPrice": 17888.872,
+  "Supplier": "enim",
+  "SupplierCode": "non",
+  "Thumbnail": "voluptatum",
+  "VATInfo": "debitis",
+  "VAT": 17797.986,
+  "UnitCost": 12673.895999999999,
+  "UnitMinimumPrice": 13385.314,
+  "UnitListPrice": 21756.228,
   "ExtraInfo": [
     {
-      "Name": "Mayer Group",
-      "Value": "quod",
+      "Name": "Murray, Green and Flatley",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     },
     {
-      "Name": "Mayer Group",
-      "Value": "quod",
+      "Name": "Murray, Green and Flatley",
+      "Value": "omnis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 405
         }
       }
     }
   ],
-  "RawExtraInfo": "ipsum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "cumque",
-  "SubscriptionQuantity": 21442.827999999998,
-  "SubscriptionStart": "2003-06-02T12:01:28.2128113+02:00",
-  "ERPDiscountPercent": 19459.005999999998,
-  "ERPDiscountAmount": 27510.252,
-  "DiscountPercent": 22834.324,
-  "DiscountAmount": 20988.398,
+  "RawExtraInfo": "quod",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ratione",
+  "SubscriptionQuantity": 4553.702,
+  "SubscriptionStart": "2004-10-30T14:13:41.1251915+02:00",
+  "ERPDiscountPercent": 14855.16,
+  "ERPDiscountAmount": 29058.448,
+  "DiscountPercent": 24852.62,
+  "DiscountAmount": 833.644,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7665.764,
-  "EarningAmount": 11445.368,
-  "SubTotal": 21160.768,
-  "TotalPrice": 8580.892,
-  "Rights": "quibusdam",
-  "Rule": "consequuntur",
-  "ExtraField1": "molestiae",
-  "ExtraField2": "qui",
-  "ExtraField3": "id",
-  "ExtraField4": "et",
-  "ExtraField5": "laudantium",
+  "EarningPercent": 20756.482,
+  "EarningAmount": 15011.859999999999,
+  "SubTotal": 9590.0399999999991,
+  "TotalPrice": 17578.606,
+  "Rights": "odio",
+  "Rule": "facilis",
+  "ExtraField1": "sed",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "animi",
+  "ExtraField4": "optio",
+  "ExtraField5": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 885
     }
   }
 }

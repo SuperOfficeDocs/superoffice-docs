@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 356,
-    "Name": "Volkman, Moen and Becker",
-    "Tooltip": "sint",
+    "HeadingId": 972,
+    "Name": "Harber-Gutkowski",
+    "Tooltip": "rem",
     "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 588,
+    "Rank": 355,
+    "UdListDefinitionId": 849,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldType": "System.String",
+        "FieldLength": 730
       }
     }
   }

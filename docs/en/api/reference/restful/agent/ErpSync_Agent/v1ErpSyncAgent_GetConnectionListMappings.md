@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 7
+  "ErpConnectionId": 628
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Leffler, Metz and Kreiger",
+      "ErpListName": "Ernser LLC",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Fadel-Brekke",
-      "ErpFieldId": 825,
+      "ErpActorTypeName": "Balistreri, Ondricka and Lind",
+      "ErpFieldId": 554,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldType": "System.Int32",
+          "FieldLength": 313
         }
       }
     }
   ],
-  "ErpConnectionId": 781,
-  "ErpConnectionName": "Fritsch-Pfeffer",
+  "ErpConnectionId": 942,
+  "ErpConnectionName": "Block-Lemke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 639
+      "FieldType": "System.Int32",
+      "FieldLength": 96
     }
   }
 }

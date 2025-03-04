@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 719,
-  "Section": "occaecati",
-  "Key": "totam",
-  "Name": "Ebert, Beatty and Rice",
+  "PrefDescId": 48,
+  "Section": "labore",
+  "Key": "corporis",
+  "Name": "Graham LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized coherent core",
-  "IsBuiltin": true,
-  "TableName": "Bahringer-Turcotte",
-  "UserDefinedListId": 254,
-  "Rank": 977,
-  "SubGroup": "eos",
-  "MinLevel": 359,
-  "MaxValue": 884,
-  "MinValue": 426,
-  "RequiredLicense": "et",
+  "Description": "Front-line multi-tasking time-frame",
+  "IsBuiltin": false,
+  "TableName": "Crona-Wintheiser",
+  "UserDefinedListId": 277,
+  "Rank": 675,
+  "SubGroup": "nemo",
+  "MinLevel": 397,
+  "MaxValue": 900,
+  "MinValue": 509,
+  "RequiredLicense": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

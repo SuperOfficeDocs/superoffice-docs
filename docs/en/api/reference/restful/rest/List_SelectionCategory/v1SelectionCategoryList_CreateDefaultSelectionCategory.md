@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Satterfield-Glover",
-  "Tooltip": "commodi",
-  "Deleted": false,
-  "UdListDefinitionId": 524,
-  "Rank": 597,
+  "Id": 357,
+  "Name": "Bartell-Roberts",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "UdListDefinitionId": 922,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldType": "System.Int32",
+      "FieldLength": 679
     }
   }
 }

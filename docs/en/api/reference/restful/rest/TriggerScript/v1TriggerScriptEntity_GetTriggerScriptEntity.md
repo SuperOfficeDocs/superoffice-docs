@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 772,
-  "Name": "Oberbrunner Inc and Sons",
+  "ScreenChooserId": 66,
+  "Name": "Walter, Hauck and Herman",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "beatae",
-  "Registered": "2024-09-09T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 762,
-  "Updated": "2014-09-18T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 347,
+  "Enabled": false,
+  "UniqueIdentifier": "quis",
+  "Source": "doloribus",
+  "Registered": "2008-05-06T14:13:49.414935+02:00",
+  "RegisteredAssociateId": 919,
+  "Updated": "2011-03-03T14:13:49.414935+01:00",
+  "UpdatedAssociateId": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 352
     }
   },
   "_Links": {

@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laboriosam",
-  "ProviderName": "Daugherty Inc and Sons",
-  "StorageKey": "quia",
-  "ExtraRestrictions": "sapiente",
-  "OrderBy": "totam",
-  "DesiredColumns": "reiciendis",
-  "PageSize": 722,
-  "PageNumber": 334
+  "StorageType": "deserunt",
+  "ProviderName": "Sanford LLC",
+  "StorageKey": "dolor",
+  "ExtraRestrictions": "rem",
+  "OrderBy": "eos",
+  "DesiredColumns": "dolore",
+  "PageSize": 380,
+  "PageNumber": 919
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "McGlynn, Jast and Hagenes",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "optio",
-      "CanOrderBy": true,
-      "Name": "Rowe, Gerhold and Wyman",
-      "CanRestrictBy": true,
-      "RestrictionType": "autem",
-      "RestrictionListName": "Krajcik-Streich",
-      "IsVisible": true,
-      "ExtraInfo": "autem",
-      "Width": "voluptate",
-      "IconHint": "fugit",
-      "HeadingIconHint": "et"
+      "DisplayName": "Lockman LLC",
+      "DisplayTooltip": "doloribus",
+      "DisplayType": "dignissimos",
+      "CanOrderBy": false,
+      "Name": "Wisoky-Howe",
+      "CanRestrictBy": false,
+      "RestrictionType": "quod",
+      "RestrictionListName": "Hermiston-Leuschke",
+      "IsVisible": false,
+      "ExtraInfo": "aspernatur",
+      "Width": "est",
+      "IconHint": "dolores",
+      "HeadingIconHint": "ex"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Veum-Rosenbaum",
-      "PrimaryKey": 411,
+      "EntityName": "Russel Inc and Sons",
+      "PrimaryKey": 642,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "ad",
-          "LinkHint": "adipisci"
+          "DisplayValue": "ea",
+          "TooltipHint": "id",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "omnis",
+      "LinkHint": "nobis",
+      "StyleHint": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 956
+          "FieldLength": 483
         }
       }
     }
   ],
-  "RowCount": 4,
+  "RowCount": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 286
     }
   }
 }

@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 468,
-      "UniqueId": "est",
-      "Name": "Mills Group",
-      "Description": "Innovative eco-centric synergy",
-      "AssociateId": 868,
-      "Columns": 598,
+      "DashboardId": 912,
+      "UniqueId": "dicta",
+      "Name": "Kuphal Inc and Sons",
+      "Description": "Enhanced modular projection",
+      "AssociateId": 438,
+      "Columns": 22,
       "Theme": null,
-      "VisibleForAll": 904,
+      "VisibleForAll": 314,
       "VisibleForAssociates": [
-        339,
-        493
+        516,
+        490
       ],
       "VisibleForGroups": [
-        588,
-        638
+        152,
+        311
       ],
-      "PinForAll": 788,
+      "PinForAll": 213,
       "PinForAssociates": [
-        573,
-        932
+        578,
+        703
       ],
       "PinForGroups": [
-        267,
-        217
+        411,
+        105
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 775
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 314,
-      "UniqueId": "praesentium",
-      "Name": "Ondricka Inc and Sons",
-      "Description": "Ameliorated optimal algorithm",
-      "AssociateId": 670,
-      "Columns": 687,
+      "DashboardId": 132,
+      "UniqueId": "et",
+      "Name": "Wisozk-Frami",
+      "Description": "Self-enabling asynchronous project",
+      "AssociateId": 294,
+      "Columns": 575,
       "Theme": null,
-      "VisibleForAll": 109,
+      "VisibleForAll": 56,
       "VisibleForAssociates": [
-        226,
-        373
+        356,
+        416
       ],
       "VisibleForGroups": [
-        225,
-        534
+        57,
+        614
       ],
-      "PinForAll": 284,
+      "PinForAll": 713,
       "PinForAssociates": [
-        4,
-        264
+        345,
+        728
       ],
       "PinForGroups": [
-        781,
-        268
+        589,
+        290
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 915
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 342,
-      "UniqueId": "autem",
-      "Name": "Heaney-Schinner",
-      "Description": "De-engineered next generation installation",
-      "AssociateId": 495,
-      "Columns": 792,
+      "DashboardId": 613,
+      "UniqueId": "necessitatibus",
+      "Name": "Rau, Rolfson and Jacobs",
+      "Description": "Versatile mobile middleware",
+      "AssociateId": 840,
+      "Columns": 642,
       "Theme": null,
-      "VisibleForAll": 923,
+      "VisibleForAll": 148,
       "VisibleForAssociates": [
-        645,
-        396
+        679,
+        359
       ],
       "VisibleForGroups": [
-        839,
-        493
+        759,
+        272
       ],
-      "PinForAll": 826,
+      "PinForAll": 161,
       "PinForAssociates": [
-        667,
-        810
+        720,
+        171
       ],
       "PinForGroups": [
-        485,
-        135
+        56,
+        972
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 391
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 285
+      "FieldLength": 301
     }
   }
 }

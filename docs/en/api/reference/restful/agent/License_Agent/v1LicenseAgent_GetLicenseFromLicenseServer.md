@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Windler, Mills and Wisozk"
+  "OwnerName": "Mertz, Schoen and Moore"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 43,
-      "NumberOfLicensesFree": 596,
-      "NumberOfLicensesAdded": 902,
-      "NumberOfLicensesNewTotal": 753,
-      "NumberOfLicensesNewFree": 311,
-      "NumberOfLicensesTotal": 512
+      "NumberOfLicensesInUse": 926,
+      "NumberOfLicensesFree": 28,
+      "NumberOfLicensesAdded": 767,
+      "NumberOfLicensesNewTotal": 262,
+      "NumberOfLicensesNewFree": 906,
+      "NumberOfLicensesTotal": 503
     }
   ],
-  "AccumulatedNextCheckDate": "2007-03-19T12:01:27.9159153+01:00"
+  "AccumulatedNextCheckDate": "2020-08-28T14:13:40.4066046+02:00"
 }
 ```

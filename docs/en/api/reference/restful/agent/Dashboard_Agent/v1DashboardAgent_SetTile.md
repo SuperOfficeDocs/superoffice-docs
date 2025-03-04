@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/Dashboard/SetTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 500,
-  "TileId": 568,
-  "Position": 315
+  "DashboardId": 201,
+  "TileId": 96,
+  "Position": 443
 }
 ```
 
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 110,
-  "AssociateId": 662,
-  "Caption": "dolorem",
+  "DashboardId": 597,
+  "AssociateId": 777,
+  "Caption": "aut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 119,
-      "Caption": "tenetur",
-      "Description": "Decentralized maximized open architecture",
-      "ChartName": "Brakus Group",
-      "ChartId": "exercitationem",
+      "DashboardTileId": 629,
+      "Caption": "incidunt",
+      "Description": "Expanded explicit model",
+      "ChartName": "Lockman, Fay and Daniel",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 933,
-      "GroupId": 949,
-      "SelectionId": 911,
-      "Config": "cum",
+      "AssociateId": 851,
+      "GroupId": 464,
+      "SelectionId": 220,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,8 +126,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 566
         }
       }
     }
@@ -136,8 +136,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

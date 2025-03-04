@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 30 Apr 2008 12:01:32 G4T
+Last-Modified: Sun, 07 Jan 2018 14:13:48 G1T
 
 {
-  "SourceContactId": 315,
-  "SourcePersonId": 443,
-  "DestinationContactId": 852,
-  "DestinationPersonId": 447,
-  "RelationId": 657,
-  "Comment": "velit",
-  "RelationDefinitionId": 162,
-  "Reversed": 785,
-  "UpdatedDate": "2008-04-30T12:01:32.8394314+02:00",
-  "CreatedDate": "2008-12-30T12:01:32.8394314+01:00",
+  "SourceContactId": 732,
+  "SourcePersonId": 291,
+  "DestinationContactId": 251,
+  "DestinationPersonId": 314,
+  "RelationId": 656,
+  "Comment": "ullam",
+  "RelationDefinitionId": 149,
+  "Reversed": 279,
+  "UpdatedDate": "2018-01-07T14:13:48.5851503+01:00",
+  "CreatedDate": "2004-06-27T14:13:48.5851503+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heller-Morar",
-  "SourcePersonName": "Dickinson Group",
-  "DestinationContactName": "Huels Group",
-  "DestinationPersonName": "Haley, Leannon and Hoppe",
-  "ActiveText": "dolor",
-  "PassiveText": "consequuntur",
+  "SourceContactName": "Bayer-Denesik",
+  "SourcePersonName": "Wyman, Gutmann and Sauer",
+  "DestinationContactName": "Fadel, Dickinson and Leffler",
+  "DestinationPersonName": "Ernser Group",
+  "ActiveText": "incidunt",
+  "PassiveText": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldType": "System.String",
+      "FieldLength": 200
     }
   }
 }

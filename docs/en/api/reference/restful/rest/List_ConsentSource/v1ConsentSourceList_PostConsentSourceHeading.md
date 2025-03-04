@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 217,
-  "Name": "West Group",
-  "Tooltip": "modi",
-  "Deleted": false,
-  "Rank": 1001,
-  "UdListDefinitionId": 664
+  "HeadingId": 378,
+  "Name": "Douglas LLC",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 161,
+  "UdListDefinitionId": 762
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 438,
-  "Name": "Howe-O'Kon",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 601,
-  "UdListDefinitionId": 752,
+  "HeadingId": 832,
+  "Name": "Schaden Group",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "Rank": 150,
+  "UdListDefinitionId": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 501
     }
   }
 }

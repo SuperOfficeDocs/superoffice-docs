@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 323,
-  "Name": "Hirthe Inc and Sons",
-  "Tooltip": "dolore",
+  "Id": 563,
+  "Name": "Ward-Lueilwitz",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 883,
-  "Rank": 970
+  "UdListDefinitionId": 632,
+  "Rank": 982
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Howell-Monahan",
-  "Tooltip": "earum",
+  "Id": 716,
+  "Name": "Muller-Kulas",
+  "Tooltip": "sed",
   "Deleted": true,
-  "UdListDefinitionId": 485,
-  "Rank": 505,
+  "UdListDefinitionId": 353,
+  "Rank": 10,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 883
     }
   }
 }

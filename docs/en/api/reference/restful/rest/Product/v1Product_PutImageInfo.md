@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 519,
-  "BlobSize": 326,
-  "Description": "Expanded directional projection",
-  "ExtraInfo": "fugiat",
+  "BlobId": 144,
+  "BlobSize": 332,
+  "Description": "Open-architected motivating infrastructure",
+  "ExtraInfo": "architecto",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ducimus",
-  "OriginalSize": 234,
-  "CreatedDate": "1998-06-11T12:01:33.3394662+02:00",
-  "UpdatedDate": "2022-12-10T12:01:33.3394662+01:00",
+  "MimeType": "cupiditate",
+  "OriginalSize": 477,
+  "CreatedDate": "2012-04-28T14:13:49.4930437+02:00",
+  "UpdatedDate": "2004-11-03T14:13:49.4930437+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis"
+  "ConceptualType": "at"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 205,
-  "BlobSize": 992,
-  "Description": "Cross-platform uniform portal",
-  "ExtraInfo": "ducimus",
+  "BlobId": 317,
+  "BlobSize": 356,
+  "Description": "Open-source bifurcated data-warehouse",
+  "ExtraInfo": "molestiae",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nulla",
-  "OriginalSize": 521,
-  "CreatedDate": "2015-11-11T12:01:33.3394662+01:00",
-  "UpdatedDate": "2021-03-08T12:01:33.3394662+01:00",
+  "IsZipped": false,
+  "MimeType": "porro",
+  "OriginalSize": 388,
+  "CreatedDate": "2017-02-07T14:13:49.4930437+01:00",
+  "UpdatedDate": "2008-01-23T14:13:49.4930437+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rem",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

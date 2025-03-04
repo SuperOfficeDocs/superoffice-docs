@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Johnston, Von and Sanford",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "UdListDefinitionId": 144,
-  "Rank": 43,
+  "Id": 883,
+  "Name": "Deckow LLC",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "UdListDefinitionId": 812,
+  "Rank": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 43
+      "FieldLength": 983
     }
   }
 }

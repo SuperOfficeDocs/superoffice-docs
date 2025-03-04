@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,29 +94,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "PrefDescId": 449,
-    "Section": "et",
-    "Key": "blanditiis",
-    "Name": "Batz, Moen and Buckridge",
+    "Section": "nisi",
+    "Key": "ea",
+    "Name": "Koss, Greenholt and Hessel",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Face to face solution-oriented frame",
-    "IsBuiltin": true,
-    "TableName": "Breitenberg-Bode",
-    "UserDefinedListId": 922,
-    "Rank": 618,
-    "SubGroup": "et",
-    "MinLevel": 116,
-    "MaxValue": 991,
-    "MinValue": 332,
-    "RequiredLicense": "sint",
+    "Description": "Reactive systemic knowledge user",
+    "IsBuiltin": false,
+    "TableName": "Pouros-Keebler",
+    "UserDefinedListId": 458,
+    "Rank": 610,
+    "SubGroup": "facere",
+    "MinLevel": 43,
+    "MaxValue": 447,
+    "MinValue": 84,
+    "RequiredLicense": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 943
       }
     }
   }

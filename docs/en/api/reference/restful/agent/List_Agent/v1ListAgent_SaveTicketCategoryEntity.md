@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 171,
-  "ParentId": 203,
-  "Name": "Torp-Zulauf",
-  "Fullname": "blanditiis",
-  "CategoryMaster": 816,
+  "TicketCategoryId": 143,
+  "ParentId": 413,
+  "Name": "Nader-Welch",
+  "Fullname": "soluta",
+  "CategoryMaster": 304,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dare-Hills",
+  "ExternalName": "Hintz Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 427,
-  "ReplyTemplate": 17,
-  "NotificationEmail": "andre.armstrong@langworth.uk",
+  "AssignmentLag": 925,
+  "ReplyTemplate": 918,
+  "NotificationEmail": "dylan@streich.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 560,
+  "EffectiveReplyTemplateId": 659,
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "quo"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 270,
-  "ParentId": 65,
-  "Name": "O'Keefe-Schowalter",
-  "Fullname": "eligendi",
-  "CategoryMaster": 530,
+  "TicketCategoryId": 619,
+  "ParentId": 549,
+  "Name": "White-Cassin",
+  "Fullname": "in",
+  "CategoryMaster": 966,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Roberts, Bashirian and Rohan",
+  "ExternalName": "Satterfield Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 103,
-  "ReplyTemplate": 212,
-  "NotificationEmail": "jillian@lebsack.info",
+  "AssignmentLag": 92,
+  "ReplyTemplate": 112,
+  "NotificationEmail": "esmeralda@sporer.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 964,
+  "EffectiveReplyTemplateId": 557,
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "laboriosam",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "ea"
+    "CustomFields1": "aut",
+    "CustomFields2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 542
+      "FieldType": "System.Int32",
+      "FieldLength": 206
     }
   }
 }

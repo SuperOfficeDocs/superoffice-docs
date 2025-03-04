@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Zieme Inc and Sons",
-  "ModuleName": "Hoppe-Nolan",
-  "ModuleDescription": "Polarised web-enabled throughput",
-  "ModuleTooltip": "porro",
-  "ModuleVersion": "quos",
+  "OwnerName": "Koelpin Inc and Sons",
+  "ModuleName": "Mayer-Rutherford",
+  "ModuleDescription": "Stand-alone tangible monitoring",
+  "ModuleTooltip": "voluptatibus",
+  "ModuleVersion": "saepe",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 186,
-  "ExtraFlags": 413,
-  "ExtraInfo": "laborum",
-  "SortOrder": 711,
+  "NumberOfLicenses": 559,
+  "ExtraFlags": 669,
+  "ExtraInfo": "enim",
+  "SortOrder": 104,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Volkman-Hansen",
-  "Signature": "eum"
+  "PrerequisiteModuleName": "Durgan-Bartoletti",
+  "Signature": "hic"
 }
 ```

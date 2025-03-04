@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=doloremque
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=vel
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Little Group",
-    "ToolTip": "Autem dolore.",
-    "Deleted": true,
-    "Rank": 291,
-    "Type": "non",
+    "Id": 703,
+    "Name": "Beatty-Quigley",
+    "ToolTip": "Fugiat et aut consequatur eaque.",
+    "Deleted": false,
+    "Rank": 304,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Rolfson-Kuhlman",
-        "ToolTip": "Sapiente ea fuga qui perspiciatis et dolore.",
-        "Deleted": false,
-        "Rank": 994,
-        "Type": "qui",
+        "Id": 162,
+        "Name": "Miller, Heathcote and Koelpin",
+        "ToolTip": "Qui est repudiandae ratione.",
+        "Deleted": true,
+        "Rank": 499,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 283,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "aliquam",
-        "FullName": "Kaitlin Unique Gerlach DVM",
+        "IconHint": "asperiores",
+        "ColorBlock": 905,
+        "ExtraInfo": "debitis",
+        "StyleHint": "suscipit",
+        "FullName": "Thomas Nader",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 48
+            "FieldLength": 321
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 587,
-    "ExtraInfo": "corporis",
-    "StyleHint": "nihil",
-    "FullName": "Eloisa Will",
+    "IconHint": "quasi",
+    "ColorBlock": 486,
+    "ExtraInfo": "beatae",
+    "StyleHint": "in",
+    "FullName": "Lelia Douglas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 815
+        "FieldLength": 436
       }
     }
   }

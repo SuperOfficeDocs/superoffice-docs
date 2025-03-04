@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 770,
-    "Name": "Nolan LLC",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 586,
-    "UdListDefinitionId": 411,
+    "HeadingId": 452,
+    "Name": "Boyer, Cummerata and Mohr",
+    "Tooltip": "distinctio",
+    "Deleted": true,
+    "Rank": 87,
+    "UdListDefinitionId": 628,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 722
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

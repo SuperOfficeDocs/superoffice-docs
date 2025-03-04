@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "harum",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "harum",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 499,
-  "TopicId": 621,
+  "ChatSessionId": 817,
+  "TopicId": 473,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eligendi",
-  "CustomerHost": "necessitatibus",
-  "CustomerName": "Ondricka LLC",
-  "CustomerEmail": "river@lindgren.info",
-  "CustomerPhone": "175-973-2489 x23884",
+  "CustomerAlias": "nesciunt",
+  "CustomerHost": "quia",
+  "CustomerName": "Gutmann LLC",
+  "CustomerEmail": "deja.moen@gorczanymiller.name",
+  "CustomerPhone": "127.070.6571",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Lehner, Dickinson and Hegmann",
+  "CustomerCompanyName": "Raynor Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sed",
-  "LastMessage": "exercitationem",
-  "WhenRequested": "2021-03-22T12:01:32.7144227+01:00",
-  "WhenStarted": "2020-01-30T12:01:32.7144227+01:00",
-  "WhenEnded": "2015-03-28T12:01:32.7144227+01:00",
-  "WhenIdle": "2009-06-29T12:01:32.7144227+02:00",
-  "WhenFetched": "2005-06-12T12:01:32.7144227+02:00",
-  "SessionKey": "blanditiis",
-  "InitialQueuePos": 662,
-  "AlertLevel": 162,
-  "Rank": 922,
+  "FirstMessage": "incidunt",
+  "LastMessage": "voluptatum",
+  "WhenRequested": "2018-06-21T14:13:48.3664499+02:00",
+  "WhenStarted": "2003-06-03T14:13:48.3664499+02:00",
+  "WhenEnded": "2011-04-24T14:13:48.3664499+02:00",
+  "WhenIdle": "2017-01-15T14:13:48.3664499+01:00",
+  "WhenFetched": "2001-10-14T14:13:48.3664499+02:00",
+  "SessionKey": "rerum",
+  "InitialQueuePos": 408,
+  "AlertLevel": 129,
+  "Rank": 250,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 697,
+  "Rating": 944,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldType": "System.String",
+      "FieldLength": 893
     }
   },
   "_Links": {

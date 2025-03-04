@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 646,
-    "Name": "Kunde Inc and Sons",
+    "HeadingId": 87,
+    "Name": "Volkman, Casper and Daniel",
     "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 13,
-    "UdListDefinitionId": 167
+    "Rank": 790,
+    "UdListDefinitionId": 222
   },
   {
-    "HeadingId": 646,
-    "Name": "Kunde Inc and Sons",
+    "HeadingId": 87,
+    "Name": "Volkman, Casper and Daniel",
     "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 13,
-    "UdListDefinitionId": 167
+    "Rank": 790,
+    "UdListDefinitionId": 222
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Macejkovic Inc and Sons",
-    "Tooltip": "qui",
+    "HeadingId": 368,
+    "Name": "Adams, O'Connell and Mohr",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 621,
-    "UdListDefinitionId": 489,
+    "Rank": 53,
+    "UdListDefinitionId": 622,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 7
+        "FieldLength": 442
       }
     }
   }

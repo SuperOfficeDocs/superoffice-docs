@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "voluptate",
-    "Type": "unde",
-    "Description": "Organized intangible open system",
+    "DisplayType": "dolorum",
+    "Type": "minima",
+    "Description": "Configurable modular concept",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
+    "CanCreatePerson": false,
     "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldType": "System.String",
+        "FieldLength": 694
       }
     }
   }

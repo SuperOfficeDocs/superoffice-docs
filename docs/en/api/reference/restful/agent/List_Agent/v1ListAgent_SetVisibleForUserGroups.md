@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 402,
-  "ListItemId": 945,
+  "UdListDefinitionId": 353,
+  "ListItemId": 225,
   "UserGroups": [
     {
-      "Id": 379,
-      "Name": "Mosciski LLC",
-      "ToolTip": "Ex sed magni.",
-      "Deleted": false,
-      "Rank": 111,
-      "Type": "voluptatem",
-      "ColorBlock": 249,
-      "IconHint": "mollitia",
-      "Selected": true,
-      "LastChanged": "2013-01-09T12:01:27.9471677+01:00",
+      "Id": 491,
+      "Name": "Spinka Group",
+      "ToolTip": "Ea aut error dolorem praesentium.",
+      "Deleted": true,
+      "Rank": 554,
+      "Type": "rerum",
+      "ColorBlock": 630,
+      "IconHint": "officia",
+      "Selected": false,
+      "LastChanged": "1997-10-13T14:13:40.4690906+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "asperiores",
+      "ExtraInfo": "alias",
+      "StyleHint": "harum",
       "Hidden": false,
-      "FullName": "Prof. Talon Tillman Gislason PhD"
+      "FullName": "Daisha Gleichner"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Kassulke-O'Hara",
-    "ToolTip": "Reprehenderit aspernatur suscipit provident sit.",
-    "Deleted": false,
-    "Rank": 781,
-    "Type": "ut",
-    "ColorBlock": 653,
-    "IconHint": "voluptatum",
+    "Id": 171,
+    "Name": "Zemlak LLC",
+    "ToolTip": "Animi et iure inventore.",
+    "Deleted": true,
+    "Rank": 494,
+    "Type": "voluptatem",
+    "ColorBlock": 761,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2022-12-30T12:01:27.9471677+01:00",
+    "LastChanged": "2004-07-06T14:13:40.4690906+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "White LLC",
-        "ToolTip": "Explicabo qui eveniet et qui quis natus.",
+        "Id": 981,
+        "Name": "Pacocha Group",
+        "ToolTip": "Est et fugit quia totam.",
         "Deleted": false,
-        "Rank": 858,
-        "Type": "qui",
-        "ColorBlock": 68,
-        "IconHint": "atque",
+        "Rank": 248,
+        "Type": "delectus",
+        "ColorBlock": 875,
+        "IconHint": "necessitatibus",
         "Selected": true,
-        "LastChanged": "2014-12-28T12:01:27.9471677+01:00",
+        "LastChanged": "2002-02-15T14:13:40.4690906+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "iste",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Ms. Eldora Champlin",
+        "FullName": "Kendrick Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldType": "System.String",
+            "FieldLength": 750
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Prof. Aileen Harber DVM",
+    "ExtraInfo": "ut",
+    "StyleHint": "eveniet",
+    "Hidden": false,
+    "FullName": "Mr. Newton Tommie Kub DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 331
       }
     }
   }

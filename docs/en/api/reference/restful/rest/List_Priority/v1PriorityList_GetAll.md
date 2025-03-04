@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Prosacco, Vandervort and Jenkins",
-    "Tooltip": "expedita",
+    "Id": 117,
+    "Name": "Price, Goyette and Hessel",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "UdListDefinitionId": 493,
-    "Rank": 998,
+    "UdListDefinitionId": 46,
+    "Rank": 170,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 529
       }
     }
   }

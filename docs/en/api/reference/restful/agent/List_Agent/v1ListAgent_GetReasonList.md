@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Value": "architecto",
-    "Tooltip": "ut",
+    "Id": 83,
+    "Value": "quam",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   },
   {
-    "Id": 23,
-    "Value": "architecto",
-    "Tooltip": "ut",
+    "Id": 83,
+    "Value": "quam",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

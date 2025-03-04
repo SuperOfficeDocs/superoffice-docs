@@ -82,8 +82,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "qui",
-    "dolore"
+    "ratione",
+    "ab"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2002-09-24T12:01:27.2127411+02:00",
-    "IsConflict": true,
-    "Description": "Automated radical moderator",
-    "DescriptionStyleHint": "Inverse next generation internet solution",
-    "Tooltip": "commodi"
+    "Date": "2005-06-06T14:13:39.1411603+02:00",
+    "IsConflict": false,
+    "Description": "Networked foreground orchestration",
+    "DescriptionStyleHint": "Secured global knowledge base",
+    "Tooltip": "aut"
   },
   {
-    "Date": "2002-09-24T12:01:27.2127411+02:00",
-    "IsConflict": true,
-    "Description": "Automated radical moderator",
-    "DescriptionStyleHint": "Inverse next generation internet solution",
-    "Tooltip": "commodi"
+    "Date": "2005-06-06T14:13:39.1411603+02:00",
+    "IsConflict": false,
+    "Description": "Networked foreground orchestration",
+    "DescriptionStyleHint": "Secured global knowledge base",
+    "Tooltip": "aut"
   }
 ]
 ```

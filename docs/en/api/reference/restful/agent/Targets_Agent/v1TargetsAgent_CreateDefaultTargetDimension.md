@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 783,
+  "TargetDimensionId": 270,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "molestiae",
-  "DimensionListName": "Mertz, Doyle and Waelchi",
-  "DimensionListId": 97,
-  "DimensionListLabel": "maxime",
+  "DimensionListField": "aut",
+  "DimensionListName": "Roob-Ernser",
+  "DimensionListId": 351,
+  "DimensionListLabel": "qui",
   "SelectedDimensions": [
-    227,
-    559
+    529,
+    993
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 254
+      "FieldLength": 565
     }
   }
 }

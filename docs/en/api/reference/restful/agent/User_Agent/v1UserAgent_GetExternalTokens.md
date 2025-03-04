@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "beatae"
+  "Key": "expedita"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "omnis",
-  "AccessToken": "voluptas",
-  "RefreshToken": "voluptates",
+  "Provider": "necessitatibus",
+  "AccessToken": "impedit",
+  "RefreshToken": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

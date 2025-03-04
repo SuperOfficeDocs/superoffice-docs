@@ -102,34 +102,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Rebeca Saige Stamm MD",
-    "Description": "Reverse-engineered maximized workforce",
-    "ProjectId": 486,
-    "EventName": "Auer-Bahringer",
-    "AssociateId": 431,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "expedita",
-    "SignOffText": "quaerat",
-    "SignOnConfirmationText": "error",
-    "SignOnText": "id",
-    "EventDate": "2011-03-03T12:01:28.1659327+01:00",
+    "AssociateFullName": "Lavinia Roob",
+    "Description": "Operative object-oriented help-desk",
+    "ProjectId": 472,
+    "EventName": "Mante, Schimmel and Ondricka",
+    "AssociateId": 105,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "maiores",
+    "SignOffText": "a",
+    "SignOnConfirmationText": "nulla",
+    "SignOnText": "nesciunt",
+    "EventDate": "1998-05-23T14:13:41.0314634+02:00",
     "Enabled": false,
     "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
+    "SignOnTaskEnable": false,
     "SignOn": true,
-    "SignOffTaskId": 639,
-    "SignOnTaskId": 877,
-    "SignOffTriggersAssign": false,
+    "SignOffTaskId": 703,
+    "SignOnTaskId": 73,
+    "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 154,
-    "SignOffPersonId": 925,
+    "SignOnPersonId": 44,
+    "SignOffPersonId": 431,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 908
       }
     }
   }

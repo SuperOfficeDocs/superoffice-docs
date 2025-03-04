@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 810,
-  "Name": "Brown Inc and Sons",
-  "Tooltip": "adipisci",
+  "RoleId": 377,
+  "Name": "Green, Frami and Christiansen",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 808,
-  "Rank": 625,
-  "Created": "2013-12-27T12:01:28.6034631+01:00",
-  "UseCategories": 79,
+  "Deleted": 126,
+  "Rank": 901,
+  "Created": "2005-09-08T14:13:41.6727478+02:00",
+  "UseCategories": 245,
   "CreatedBy": null,
-  "Updated": "2002-03-03T12:01:28.6034631+01:00",
+  "Updated": "2019-08-27T14:13:41.6727478+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldLength": 794
     }
   }
 }

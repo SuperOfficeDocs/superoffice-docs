@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 359,
-  "Caption": "tenetur",
-  "Description": "Virtual encompassing info-mediaries",
-  "SelectionId": 159,
+  "DashboardTileId": 161,
+  "Caption": "debitis",
+  "Description": "Upgradable composite protocol",
+  "SelectionId": 925,
   "VisibleFor": [
     {
-      "VisibleId": 468,
+      "VisibleId": 65,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "praesentium"
     },
     {
-      "VisibleId": 468,
+      "VisibleId": 65,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "praesentium"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 935,
-  "Caption": "voluptatum",
-  "Description": "Proactive heuristic website",
-  "ChartName": "Heidenreich Inc and Sons",
-  "ChartId": "nam",
-  "IsDefault": true,
-  "AssociateId": 99,
-  "GroupId": 794,
-  "SelectionId": 711,
-  "Config": "quasi",
+  "DashboardTileId": 624,
+  "Caption": "velit",
+  "Description": "Team-oriented 3rd generation analyzer",
+  "ChartName": "Morissette, Erdman and D'Amore",
+  "ChartId": "minus",
+  "IsDefault": false,
+  "AssociateId": 719,
+  "GroupId": 867,
+  "SelectionId": 18,
+  "Config": "tempora",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Heaney Group",
-      "Description": "Synergistic user-facing utilisation",
+      "Name": "Wintheiser-Larson",
+      "Description": "Future-proofed human-resource toolset",
       "Type": "Boolean",
-      "ListName": "Fisher, Swift and Gerhold",
+      "ListName": "Marquardt, Cummerata and Nicolas",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "facilis",
+      "Value": "eius",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 891
+          "FieldLength": 214
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 219,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     },
     {
-      "VisibleId": 219,
+      "VisibleId": 629,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldType": "System.String",
+          "FieldLength": 67
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

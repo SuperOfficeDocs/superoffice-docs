@@ -1312,7 +1312,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionCombined?$select=userGroup,person/personDeletedDate,person/personExtra/x_person_request_relation,person/personAssociate/contactId,person/personAssociate/portraitThumbnail
+GET /api/v1/archive/SaleShadowSelectionCombined?$select=person/associateType,person/personUpdatedBy,contact/contactExtra/x_contact_shorttext,appointment/associate/personEmail,document/associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

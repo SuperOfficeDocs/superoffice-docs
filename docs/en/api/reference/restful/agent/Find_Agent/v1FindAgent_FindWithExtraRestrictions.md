@@ -88,48 +88,48 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "necessitatibus",
-  "ProviderName": "Jaskolski-Hudson",
-  "StorageKey": "et",
+  "StorageType": "error",
+  "ProviderName": "Stroman Group",
+  "StorageKey": "est",
   "ExtraRestrictions": [
     {
-      "Name": "Abshire LLC",
-      "Operator": "odit",
+      "Name": "Lubowitz Group",
+      "Operator": "sed",
       "Values": [
-        "voluptatem",
-        "nam"
+        "qui",
+        "dolorem"
       ],
       "DisplayValues": [
-        "dolorum",
-        "dolor"
+        "ab",
+        "quis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 175,
+      "InterParenthesis": 49,
       "InterOperator": "And",
-      "UniqueHash": 366
+      "UniqueHash": 14
     }
   ],
   "OrderBy": [
     {
-      "Name": "Donnelly, Gutmann and Koss",
+      "Name": "Herman, Kutch and Mraz",
       "Direction": "ASC"
     },
     {
-      "Name": "Donnelly, Gutmann and Koss",
+      "Name": "Herman, Kutch and Mraz",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "eum",
-    "quia"
+    "ut",
+    "aliquam"
   ],
-  "PageSize": 851,
-  "PageNumber": 561
+  "PageSize": 816,
+  "PageNumber": 775
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kilback, O'Kon and Waters",
-      "DisplayTooltip": "odio",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Ritchie, Ruecker and Brekke",
+      "DisplayName": "Greenholt-Shanahan",
+      "DisplayTooltip": "repudiandae",
+      "DisplayType": "quisquam",
+      "CanOrderBy": false,
+      "Name": "Roob, Steuber and Thiel",
       "CanRestrictBy": false,
-      "RestrictionType": "unde",
-      "RestrictionListName": "Nikolaus LLC",
-      "IsVisible": false,
-      "ExtraInfo": "enim",
-      "Width": "incidunt",
-      "IconHint": "omnis",
-      "HeadingIconHint": "ad"
+      "RestrictionType": "molestiae",
+      "RestrictionListName": "Bogisich Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "adipisci",
+      "Width": "magni",
+      "IconHint": "sunt",
+      "HeadingIconHint": "quibusdam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Buckridge, Swaniawski and Swaniawski",
-      "PrimaryKey": 253,
+      "EntityName": "Brown-Jaskolski",
+      "PrimaryKey": 957,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veritatis",
-          "TooltipHint": "ex",
-          "LinkHint": "delectus"
+          "DisplayValue": "sequi",
+          "TooltipHint": "quisquam",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "possimus",
-      "StyleHint": "aliquid",
+      "LinkHint": "nesciunt",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 111
         }
       }
     }
   ],
-  "RowCount": 271,
+  "RowCount": 610,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

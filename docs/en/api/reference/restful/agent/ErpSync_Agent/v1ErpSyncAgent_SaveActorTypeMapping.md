@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 274,
-  "IsActive": false,
+  "ErpConnectionId": 406,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 314,
-      "CrmFieldKey": "veritatis",
-      "CrmDisplayName": "Berge Inc and Sons",
+      "ErpFieldId": 823,
+      "CrmFieldKey": "nisi",
+      "CrmDisplayName": "Braun Group",
       "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "expedita",
+      "ErpFieldKey": "quo",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Fritsch Inc and Sons",
-      "ErpDisplayTooltip": "ullam",
-      "SyncToCrm": true,
-      "SyncToErp": true,
+      "ErpDisplayName": "Hagenes, Kub and Koepp",
+      "ErpDisplayTooltip": "labore",
+      "SyncToCrm": false,
+      "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": true,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "quod",
+      "ListReference": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldType": "System.String",
+          "FieldLength": 909
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

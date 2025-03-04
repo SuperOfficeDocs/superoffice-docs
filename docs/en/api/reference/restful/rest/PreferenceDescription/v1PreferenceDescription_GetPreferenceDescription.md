@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 96,
-  "Section": "quidem",
-  "Key": "qui",
-  "Name": "Kub Inc and Sons",
+  "PrefDescId": 894,
+  "Section": "aspernatur",
+  "Key": "eum",
+  "Name": "Kassulke, West and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optimized 24/7 flexibility",
+  "Description": "Public-key secondary system engine",
   "IsBuiltin": false,
-  "TableName": "Bechtelar Inc and Sons",
-  "UserDefinedListId": 360,
-  "Rank": 803,
-  "SubGroup": "facilis",
-  "MinLevel": 274,
-  "MaxValue": 169,
-  "MinValue": 754,
-  "RequiredLicense": "et",
+  "TableName": "Ernser, Jewess and Wiza",
+  "UserDefinedListId": 668,
+  "Rank": 429,
+  "SubGroup": "deserunt",
+  "MinLevel": 241,
+  "MaxValue": 826,
+  "MinValue": 97,
+  "RequiredLicense": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   },
   "_Links": {

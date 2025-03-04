@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Willms Group",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 747,
+  "Id": 928,
+  "Name": "Stoltenberg, Yost and Will",
+  "Tooltip": "cupiditate",
+  "Deleted": true,
+  "Rank": 527,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ut",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 727
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   },
   "_Links": {

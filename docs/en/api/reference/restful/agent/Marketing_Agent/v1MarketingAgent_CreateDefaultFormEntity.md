@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 5,
-  "FormKey": "quaerat",
-  "Name": "Von, Lemke and Ledner",
-  "Description": "Robust demand-driven interface",
-  "Config": "omnis",
-  "FolderId": 753,
-  "ScriptId": 146,
-  "ResponseShipmentId": 830,
+  "FormId": 765,
+  "FormKey": "accusamus",
+  "Name": "Gibson LLC",
+  "Description": "Front-line fresh-thinking emulation",
+  "Config": "consequatur",
+  "FolderId": 218,
+  "ScriptId": 739,
+  "ResponseShipmentId": 236,
   "Active": false,
-  "Expires": "1998-05-22T12:01:27.9940463+02:00",
-  "MaxSubmits": 203,
+  "Expires": "2009-12-04T14:13:40.5628193+01:00",
+  "MaxSubmits": 471,
   "Type": "Normal",
-  "Recipe": "facilis",
-  "GroupId": 199,
-  "NewTicket": false,
+  "Recipe": "et",
+  "GroupId": 222,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2017-01-31T12:01:27.9940463+01:00",
-  "RegisteredAssociateId": 391,
-  "Updated": "2023-09-28T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 595,
-  "UpdatedCount": 635,
+  "Registered": "2004-12-02T14:13:40.5628193+01:00",
+  "RegisteredAssociateId": 458,
+  "Updated": "2014-12-18T14:13:40.5628193+01:00",
+  "UpdatedAssociateId": 164,
+  "UpdatedCount": 59,
   "EmailFlows": [
-    625,
-    860
+    40,
+    257
   ],
-  "FolderName": "Mann, Wolff and Jast",
+  "FolderName": "Feeney Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 842
     }
   }
 }

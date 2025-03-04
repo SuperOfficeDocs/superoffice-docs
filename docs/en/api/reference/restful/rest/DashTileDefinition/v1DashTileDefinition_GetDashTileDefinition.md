@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 787,
-  "Name": "Denesik LLC",
-  "Description": "Enterprise-wide explicit internet solution",
-  "DefaultHeight": 967,
-  "DefaultWidth": 258,
+  "DashboardTileDefinitionId": 323,
+  "Name": "Ernser-Heaney",
+  "Description": "Versatile 24 hour matrix",
+  "DefaultHeight": 704,
+  "DefaultWidth": 244,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Heidenreich, Mann and Funk",
-  "SelectionId": 939,
+  "EntityName": "Beer-DuBuque",
+  "SelectionId": 918,
   "CurrencyMode": "Base",
-  "CurrencyCode": "tempora",
+  "CurrencyCode": "laborum",
   "Measure": "Average",
-  "MeasureField": "sit",
-  "SortBy": "eaque",
-  "LayoutConfig": "est",
-  "SecondarySelectionId": 1002,
-  "MeasureByField": "modi",
+  "MeasureField": "vel",
+  "SortBy": "id",
+  "LayoutConfig": "esse",
+  "SecondarySelectionId": 117,
+  "MeasureByField": "dolor",
   "Usage": "Dashboard",
-  "ProviderName": "Sauer Group",
+  "ProviderName": "Batz-Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldLength": 364
     }
   },
   "_Links": {

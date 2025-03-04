@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 177
+  "AppointmentId": 717
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 870,
-  "StartDate": "2023-03-25T12:01:27.0095855+01:00",
-  "EndDate": "2014-01-13T12:01:27.0095855+01:00",
+  "AppointmentId": 838,
+  "StartDate": "2007-01-18T14:13:38.9693251+01:00",
+  "EndDate": "2020-10-02T14:13:38.9693251+02:00",
   "Type": "BookingForChecklist",
-  "Task": "magnam",
-  "AssociateFullName": "Shayne Larson",
-  "ContactName": "Wunsch, Crist and Rodriguez",
-  "Description": "De-engineered modular application",
-  "PersonFullName": "Jasen Pfeffer",
-  "PersonId": 601,
-  "ContactId": 964,
-  "ProjectId": 598,
-  "ProjectName": "Miller, Olson and Halvorson",
+  "Task": "neque",
+  "AssociateFullName": "Prof. Amely Francesca Parker",
+  "ContactName": "Harvey Group",
+  "Description": "Re-engineered impactful approach",
+  "PersonFullName": "Dr. Chaya Lindsey Herman DDS",
+  "PersonId": 573,
+  "ContactId": 816,
+  "ProjectId": 632,
+  "ProjectName": "Hermiston Inc and Sons",
   "IsPublished": false,
-  "AssociateId": 726,
-  "ColorIndex": 736,
+  "AssociateId": 821,
+  "ColorIndex": 710,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 845,
-  "PriorityName": "Block, Stiedemann and Kuvalis",
+  "PriorityId": 139,
+  "PriorityName": "Wilderman-Grimes",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2016-01-30T12:01:27.0095855+01:00",
+  "ActiveDate": "2006-04-21T14:13:38.9693251+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2007-07-11T12:01:27.0095855+02:00",
-  "RecurringEndDate": "2013-01-31T12:01:27.0095855+01:00",
-  "MotherId": 145,
-  "AssignedBy": 931,
-  "AssignedByFullName": "Prof. Elinore Lindgren",
+  "RecurringStartDate": "2009-04-16T14:13:38.9693251+02:00",
+  "RecurringEndDate": "2001-08-28T14:13:38.9693251+02:00",
+  "MotherId": 213,
+  "AssignedBy": 454,
+  "AssignedByFullName": "Chance Romaguera",
   "RejectReason": "",
-  "Location": "eum",
-  "AlarmLeadTime": "ipsum",
-  "SaleId": 763,
-  "SaleName": "Wilderman LLC",
-  "AssociateName": "Lehner, Ferry and Jast",
-  "CreatedDate": "2000-01-20T12:01:27.0095855+01:00",
-  "CreatedBy": "recusandae",
-  "CreatedByFullName": "Marques Ledner",
-  "CreatedByAssociateId": 442,
+  "Location": "molestiae",
+  "AlarmLeadTime": "libero",
+  "SaleId": 269,
+  "SaleName": "Roob LLC",
+  "AssociateName": "Klein, Windler and Schamberger",
+  "CreatedDate": "2018-10-02T14:13:38.9693251+02:00",
+  "CreatedBy": "et",
+  "CreatedByFullName": "Brown Kautzer",
+  "CreatedByAssociateId": 245,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 56,
-  "Title": "adipisci",
-  "Agenda": "modi",
-  "InternalNotes": "hic",
+  "PreferredTZLocation": 609,
+  "Title": "eveniet",
+  "Agenda": "ex",
+  "InternalNotes": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 2
     }
   }
 }

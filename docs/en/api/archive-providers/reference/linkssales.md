@@ -1133,7 +1133,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/correspondingAssociate/isLocation,contact/email/emailProtocol,associate/role
+GET /api/v1/archive/LinksSales?$select=person/personBusiness,person/correspondingAssociate/contactId,project/nextMilestone,project/NumberOfSales,saleStakeholder/person/personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

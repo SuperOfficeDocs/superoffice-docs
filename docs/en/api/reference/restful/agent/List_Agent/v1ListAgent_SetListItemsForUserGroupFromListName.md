@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ortiz LLC",
-  "UsergroupId": 874,
+  "UdListDefinitionName": "Williamson Group",
+  "UsergroupId": 365,
   "ListItemsID": [
-    684,
-    225
+    846,
+    988
   ],
   "Enable": false
 }

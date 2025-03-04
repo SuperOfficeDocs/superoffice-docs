@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 37,
-    "Name": "Shanahan, Rippin and Schaden",
-    "Tooltip": "qui",
-    "Deleted": true,
-    "Rank": 669,
-    "UdListDefinitionId": 352,
+    "HeadingId": 72,
+    "Name": "Bruen-Johns",
+    "Tooltip": "pariatur",
+    "Deleted": false,
+    "Rank": 928,
+    "UdListDefinitionId": 442,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 368
       }
     }
   }

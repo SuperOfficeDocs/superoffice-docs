@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 517,
-    "Name": "Altenwerth, Parisian and Gottlieb",
-    "Tooltip": "eum",
+    "HeadingId": 458,
+    "Name": "Stokes, Dach and Pfannerstill",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 135
+    "Rank": 728,
+    "UdListDefinitionId": 829
   },
   {
-    "HeadingId": 517,
-    "Name": "Altenwerth, Parisian and Gottlieb",
-    "Tooltip": "eum",
+    "HeadingId": 458,
+    "Name": "Stokes, Dach and Pfannerstill",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 624,
-    "UdListDefinitionId": 135
+    "Rank": 728,
+    "UdListDefinitionId": 829
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 924,
-    "Name": "Douglas-Kerluke",
-    "Tooltip": "et",
+    "HeadingId": 323,
+    "Name": "Von-Monahan",
+    "Tooltip": "ex",
     "Deleted": false,
-    "Rank": 843,
-    "UdListDefinitionId": 834,
+    "Rank": 387,
+    "UdListDefinitionId": 913,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

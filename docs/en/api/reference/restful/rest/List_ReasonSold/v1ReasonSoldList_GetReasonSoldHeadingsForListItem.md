@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Stoltenberg Group",
-    "ToolTip": "Suscipit aspernatur ea quas odit et.",
+    "Id": 134,
+    "Name": "Bauch-Sipes",
+    "ToolTip": "Nobis ea dolorem corrupti qui nisi.",
     "Deleted": true,
-    "Rank": 283,
-    "Type": "molestiae",
-    "ColorBlock": 285,
-    "IconHint": "quo",
-    "Selected": true,
-    "LastChanged": "2011-06-11T12:01:33.6363617+02:00",
+    "Rank": 314,
+    "Type": "corporis",
+    "ColorBlock": 876,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2010-12-14T14:13:50.2125028+01:00",
     "ChildItems": [
       {
-        "Id": 906,
-        "Name": "McClure-O'Keefe",
-        "ToolTip": "Impedit minus iusto ad repellat aperiam.",
-        "Deleted": true,
-        "Rank": 296,
-        "Type": "modi",
-        "ColorBlock": 741,
-        "IconHint": "tempora",
-        "Selected": false,
-        "LastChanged": "2001-07-17T12:01:33.6363617+02:00",
+        "Id": 637,
+        "Name": "Cruickshank, Runolfsdottir and Murazik",
+        "ToolTip": "Exercitationem sed ex voluptas quia eligendi dolorum sunt.",
+        "Deleted": false,
+        "Rank": 243,
+        "Type": "sit",
+        "ColorBlock": 467,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2002-04-10T14:13:50.2125028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "autem",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Charlotte Weissnat DDS",
+        "FullName": "Ms. Maurice Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 540
+            "FieldLength": 873
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Mr. Cornelius Schiller",
+    "ExtraInfo": "quis",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Monte Seth Durgan DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 155
+        "FieldLength": 233
       }
     }
   }

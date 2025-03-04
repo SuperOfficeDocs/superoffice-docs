@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 916,
-  "Currency": "et"
+  "QuoteConnectionId": 222,
+  "Currency": "est"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 742,
-    "ERPPriceListKey": "nobis",
-    "QuoteConnectionId": 203,
-    "Name": "Deckow, Gorczany and Yundt",
-    "Description": "Function-based context-sensitive productivity",
-    "Currency": "voluptatem",
-    "CurrencyName": "Jones Inc and Sons",
-    "ValidFrom": "2010-09-30T12:01:28.1971849+02:00",
-    "ValidTo": "2014-09-02T12:01:28.1971849+02:00",
+    "PriceListId": 592,
+    "ERPPriceListKey": "voluptatibus",
+    "QuoteConnectionId": 619,
+    "Name": "Reilly-Quigley",
+    "Description": "Advanced even-keeled system engine",
+    "Currency": "autem",
+    "CurrencyName": "Barrows-Yost",
+    "ValidFrom": "2019-10-16T14:13:41.1095702+02:00",
+    "ValidTo": "2007-10-07T14:13:41.1095702+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldType": "System.String",
+        "FieldLength": 17
       }
     }
   }

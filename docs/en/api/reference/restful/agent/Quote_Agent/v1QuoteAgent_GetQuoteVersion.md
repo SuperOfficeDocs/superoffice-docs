@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 633
+  "QuoteVersionId": 662
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 652,
+  "QuoteVersionId": 484,
   "ERPQuoteVersionKey": "id",
-  "QuoteId": 528,
-  "Description": "Open-source bifurcated capability",
-  "Number": "1259211",
+  "QuoteId": 146,
+  "Description": "Customer-focused zero administration extranet",
+  "Number": "732698",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 400,
-  "SentDate": "2002-06-10T12:01:28.1815588+02:00",
-  "FollowupId": 650,
-  "ExpirationDate": "2017-03-20T12:01:28.1815588+01:00",
-  "DeliveryCountryId": 194,
+  "LikelyQuoteAlternativeId": 319,
+  "SentDate": "2018-01-05T14:13:41.0627059+01:00",
+  "FollowupId": 945,
+  "ExpirationDate": "2025-01-29T14:13:41.0627059+01:00",
+  "DeliveryCountryId": 992,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 828,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "incidunt",
-  "ERPPaymentTypeKey": "similique",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "laboriosam",
-  "Rank": 741,
-  "ApprovedBy": 161,
-  "ApprovedText": "aliquam",
-  "ApprovedRegisteredBy": 914,
-  "ApprovedRegisteredDate": "2001-12-27T12:01:28.1815588+01:00",
-  "ExtraField1": "nesciunt",
-  "ExtraField2": "praesentium",
-  "ExtraField3": "totam",
-  "ExtraField4": "ut",
-  "ExtraField5": "distinctio",
-  "LastRecalculated": "2000-05-09T12:01:28.1815588+02:00",
-  "Updated": "2013-04-12T12:01:28.1815588+02:00",
-  "UpdatedAssociateId": 25,
-  "Registered": "2019-02-01T12:01:28.1815588+01:00",
-  "RegisteredAssociateId": 349,
-  "RequestAssociateId": 656,
-  "RequestComment": "temporibus",
+  "InvoiceCountryId": 875,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "maxime",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "et",
+  "ERPDeliveryTypeKey": "consequatur",
+  "Rank": 127,
+  "ApprovedBy": 133,
+  "ApprovedText": "et",
+  "ApprovedRegisteredBy": 848,
+  "ApprovedRegisteredDate": "2018-08-07T14:13:41.0627059+02:00",
+  "ExtraField1": "corporis",
+  "ExtraField2": "omnis",
+  "ExtraField3": "reprehenderit",
+  "ExtraField4": "animi",
+  "ExtraField5": "corrupti",
+  "LastRecalculated": "2015-12-12T14:13:41.0627059+01:00",
+  "Updated": "2005-10-01T14:13:41.0627059+02:00",
+  "UpdatedAssociateId": 198,
+  "Registered": "2021-07-22T14:13:41.0627059+02:00",
+  "RegisteredAssociateId": 135,
+  "RequestAssociateId": 928,
+  "RequestComment": "similique",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 363,
-      "ERPQuoteAlternativeKey": "harum",
-      "QuoteVersionId": 611,
-      "Name": "Oberbrunner, Bernier and Sipes",
-      "Description": "Progressive exuding encoding",
+      "QuoteAlternativeId": 477,
+      "ERPQuoteAlternativeKey": "temporibus",
+      "QuoteVersionId": 293,
+      "Name": "Walsh Inc and Sons",
+      "Description": "Function-based web-enabled forecast",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 13162.8,
-      "ERPDiscountAmount": 4989.3279999999995,
-      "DiscountPercent": 17334.154,
-      "DiscountAmount": 21815.773999999998,
+      "ERPDiscountPercent": 29086.654,
+      "ERPDiscountAmount": 6725.5639999999994,
+      "DiscountPercent": 29757.329999999998,
+      "DiscountAmount": 2673.302,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "et",
-      "VAT": 24366.85,
-      "EarningPercent": 20345.928,
-      "EarningAmount": 22035.154,
-      "SubTotal": 2294.0879999999997,
-      "TotalPrice": 20794.09,
-      "ExtraField1": "ut",
-      "ExtraField2": "molestiae",
-      "ExtraField3": "aut",
-      "ExtraField4": "a",
+      "VATInfo": "consectetur",
+      "VAT": 15005.591999999999,
+      "EarningPercent": 4002.118,
+      "EarningAmount": 11385.822,
+      "SubTotal": 14579.368,
+      "TotalPrice": 20518.298,
+      "ExtraField1": "consequuntur",
+      "ExtraField2": "ab",
+      "ExtraField3": "perspiciatis",
+      "ExtraField4": "minus",
       "ExtraField5": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldType": "System.Int32",
+          "FieldLength": 482
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 753
     }
   }
 }

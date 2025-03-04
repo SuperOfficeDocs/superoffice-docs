@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Johnson LLC",
-  "Tooltip": "tempore",
+  "Id": 127,
+  "Name": "Thiel Group",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 439,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 962,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
-  "InUseByUserDefinedFields": true
+  "ListType": "consectetur",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Murazik, Mayert and Hodkiewicz",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "Rank": 570,
+  "Id": 944,
+  "Name": "McCullough-Pouros",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "Rank": 443,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 412
     }
   }
 }

@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 862,
-  "Name": "Cole-Schaefer",
-  "Tooltip": "minima",
-  "Rank": 97,
-  "Deleted": false,
-  "DaysFuture": 351,
-  "Duration": "aut",
+  "SuggestedAppointmentId": 741,
+  "Name": "Schmitt-Howell",
+  "Tooltip": "vel",
+  "Rank": 36,
+  "Deleted": true,
+  "DaysFuture": 391,
+  "Duration": "molestiae",
   "AutoSuggest": false,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "recusandae",
+  "AssignToMember": true,
+  "Text": "veniam",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 623,
-  "Name": "Kshlerin LLC",
-  "Tooltip": "vel",
-  "Rank": 281,
-  "Deleted": true,
-  "DaysFuture": 432,
-  "Duration": "neque",
+  "SuggestedAppointmentId": 442,
+  "Name": "Dicki, Stracke and Weimann",
+  "Tooltip": "ab",
+  "Rank": 340,
+  "Deleted": false,
+  "DaysFuture": 808,
+  "Duration": "voluptates",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "reprehenderit",
+  "Text": "aut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

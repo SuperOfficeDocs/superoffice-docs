@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Harris, Turcotte and Wolff",
-    "Tooltip": "dolorem",
+    "HeadingId": 361,
+    "Name": "Halvorson-Gottlieb",
+    "Tooltip": "ea",
     "Deleted": false,
-    "Rank": 318,
-    "UdListDefinitionId": 936,
+    "Rank": 329,
+    "UdListDefinitionId": 124,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 475
       }
     }
   }

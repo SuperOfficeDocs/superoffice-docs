@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=voluptates
-GET /api/v1/CRMScript?$top=958
-GET /api/v1/CRMScript?$skip=949
+GET /api/v1/CRMScript?$entities=ab
+GET /api/v1/CRMScript?$top=990
+GET /api/v1/CRMScript?$skip=317
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=et
+GET /api/v1/CRMScript?$context=veniam
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptas",
+  "odata.nextLink": "earum",
   "value": [
     {
-      "PrimaryKey": 2925,
-      "EntityName": "person",
-      "personId": 2925,
-      "fullName": "Loren Schroeder"
+      "PrimaryKey": 1102,
+      "EntityName": "sale",
+      "saleId": 1102,
+      "contactId": 5796,
+      "name": "Labadie, Pollich and Padberg"
     },
     {
-      "PrimaryKey": 7637,
-      "EntityName": "person",
-      "personId": 7637,
-      "fullName": "Arturo Walsh"
+      "PrimaryKey": 3312,
+      "EntityName": "sale",
+      "saleId": 3312,
+      "contactId": 5273,
+      "name": "Rice, Durgan and Weimann"
     }
   ]
 }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 164,
+    "HierarchyId": 160,
     "Domain": "Dashboards",
-    "Name": "Robel-Larson",
-    "Fullname": "assumenda",
-    "ParentId": 981,
+    "Name": "Buckridge-Senger",
+    "Fullname": "illum",
+    "ParentId": 665,
     "Children": [
       {
-        "HierarchyId": 240,
+        "HierarchyId": 817,
         "Domain": "Dashboards",
-        "Name": "Kutch Inc and Sons",
-        "Fullname": "corporis",
-        "ParentId": 457,
+        "Name": "Goldner Inc and Sons",
+        "Fullname": "est",
+        "ParentId": 298,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2011-08-23T12:01:27.9627939+02:00",
-        "RegisteredAssociateId": 697,
-        "Updated": "2012-07-02T12:01:27.9627939+02:00",
-        "UpdatedAssociateId": 935,
+        "Registered": "2012-07-06T14:13:40.5159548+02:00",
+        "RegisteredAssociateId": 939,
+        "Updated": "1998-09-13T14:13:40.5159548+02:00",
+        "UpdatedAssociateId": 870,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldLength": 768
           }
         }
       }
     ],
-    "Registered": "1999-06-13T12:01:27.9627939+02:00",
-    "RegisteredAssociateId": 533,
-    "Updated": "2008-05-26T12:01:27.9627939+02:00",
-    "UpdatedAssociateId": 357,
+    "Registered": "2001-07-31T14:13:40.5159548+02:00",
+    "RegisteredAssociateId": 509,
+    "Updated": "2008-02-03T14:13:40.5159548+01:00",
+    "UpdatedAssociateId": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 679
       }
     }
   }

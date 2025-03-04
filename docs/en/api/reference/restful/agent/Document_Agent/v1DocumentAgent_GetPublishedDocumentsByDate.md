@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 364,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2018-05-20T12:01:27.5877684+02:00",
-  "EndTime": "2000-03-19T12:01:27.5877684+01:00",
-  "Count": 314
+  "PersonId": 952,
+  "IncludeProjectDocuments": true,
+  "StartTime": "1999-01-06T14:13:39.9848261+01:00",
+  "EndTime": "2022-09-24T14:13:39.9848261+02:00",
+  "Count": 475
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 763,
-    "Attention": "non",
-    "Header": "consectetur",
-    "Name": "Tremblay Group",
-    "OurRef": "quia",
-    "YourRef": "quae",
-    "Description": "Profit-focused methodical interface",
-    "DocumentTemplate": "soluta",
+    "DocumentId": 552,
+    "Attention": "repudiandae",
+    "Header": "ex",
+    "Name": "Mueller, Hand and Hettinger",
+    "OurRef": "cumque",
+    "YourRef": "laborum",
+    "Description": "Compatible real-time workforce",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 667,
-    "PersonFullName": "Mrs. Laisha Edison Kohler I",
-    "AssociateFullName": "Marty Hintz",
-    "ContactId": 605,
-    "ContactName": "Kihn-Turner",
-    "ProjectId": 168,
-    "ProjectName": "Bashirian Group",
-    "AssociateId": 580,
-    "Snum": 250,
-    "SaleId": 530,
-    "SaleName": "Bartell Group",
+    "PersonId": 971,
+    "PersonFullName": "Dr. Rahsaan Maia Gaylord V",
+    "AssociateFullName": "Prof. Brayan Jedediah Blanda DVM",
+    "ContactId": 676,
+    "ContactName": "Schmeler LLC",
+    "ProjectId": 283,
+    "ProjectName": "Mohr-Raynor",
+    "AssociateId": 908,
+    "Snum": 106,
+    "SaleId": 759,
+    "SaleName": "Huels Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 321
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 668,
-  "Name": "Flatley-Windler",
-  "Tooltip": "praesentium",
+  "Id": 945,
+  "Name": "Sawayn Inc and Sons",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 273,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 455,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 646
     }
   },
   "_Links": {

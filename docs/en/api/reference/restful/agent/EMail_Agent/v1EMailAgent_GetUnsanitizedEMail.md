@@ -108,8 +108,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "IncludeAttachments": false
+  "Id": 646,
+  "IncludeAttachments": true
 }
 ```
 
@@ -122,97 +122,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 360,
-      "ContactName": "Balistreri-Torp",
-      "PersonId": 537,
-      "PersonName": "Swaniawski Group",
-      "AssociateId": 353,
-      "Address": "ducimus",
-      "EmailId": 410,
+      "ContactId": 813,
+      "ContactName": "Bernier, Ruecker and Raynor",
+      "PersonId": 458,
+      "PersonName": "Jacobs Inc and Sons",
+      "AssociateId": 788,
+      "Address": "et",
+      "EmailId": 949,
       "DuplicatePersonIds": [
-        223,
-        906
+        47,
+        154
       ],
-      "Name": "Zemlak Group",
+      "Name": "Waters Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 529
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 622,
-      "ContactName": "Muller, Ward and Bogan",
-      "PersonId": 884,
-      "PersonName": "Graham-Hilll",
-      "AssociateId": 852,
-      "Address": "id",
-      "EmailId": 972,
+      "ContactId": 441,
+      "ContactName": "Roberts-Lockman",
+      "PersonId": 364,
+      "PersonName": "Runolfsdottir, Heaney and Durgan",
+      "AssociateId": 739,
+      "Address": "alias",
+      "EmailId": 814,
       "DuplicatePersonIds": [
-        686,
-        435
+        980,
+        473
       ],
-      "Name": "Rowe-Dietrich",
+      "Name": "Lind-Jacobson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 982
+          "FieldLength": 146
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 373,
-      "ContactName": "McCullough-Cartwright",
-      "PersonId": 506,
-      "PersonName": "Schiller LLC",
-      "AssociateId": 203,
-      "Address": "commodi",
-      "EmailId": 812,
+      "ContactId": 680,
+      "ContactName": "Ortiz Inc and Sons",
+      "PersonId": 732,
+      "PersonName": "Runolfsson, Bergnaum and O'Connell",
+      "AssociateId": 857,
+      "Address": "quasi",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        556,
-        742
+        621,
+        229
       ],
-      "Name": "Hartmann-Kreiger",
+      "Name": "Hoppe-Rohan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 853
+          "FieldLength": 456
         }
       }
     }
   ],
-  "Subject": "mollitia",
-  "HTMLBody": "quas",
+  "Subject": "voluptatem",
+  "HTMLBody": "itaque",
   "From": null,
-  "Sent": "2023-03-21T12:01:27.8534108+01:00",
-  "Size": 823,
+  "Sent": "2008-09-20T14:13:40.312876+02:00",
+  "Size": 386,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "totam",
-  "PlainBody": "doloremque",
+  "MessageID": "voluptas",
+  "PlainBody": "ut",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 721,
+  "ServerId": 182,
   "Attachments": [
     {
-      "Description": "Enhanced eco-centric flexibility",
-      "Filename": "odio",
-      "Size": 406,
-      "Type": "aliquid",
-      "Encoding": "sunt",
-      "Id": "animi",
-      "Disposition": "est",
+      "Description": "Mandatory responsive core",
+      "Filename": "et",
+      "Size": 185,
+      "Type": "qui",
+      "Encoding": "magnam",
+      "Id": "veniam",
+      "Disposition": "quia",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -220,58 +220,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 56
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Sawayn, Blanda and Hermann",
+      "Name": "Gleason-Renner",
       "Values": [
-        "quae",
-        "autem"
+        "velit",
+        "facilis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 38
         }
       }
     },
     {
-      "Name": "Sawayn, Blanda and Hermann",
+      "Name": "Gleason-Renner",
       "Values": [
-        "quae",
-        "autem"
+        "velit",
+        "facilis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldLength": 38
         }
       }
     }
   ],
-  "FolderName": "Homenick-Rutherford",
-  "EmailItemId": 147,
-  "AccountId": 247,
-  "ReceivedAt": "2022-01-31T12:01:27.8534108+01:00",
+  "FolderName": "Turner LLC",
+  "EmailItemId": 385,
+  "AccountId": 392,
+  "ReceivedAt": "2005-01-18T14:13:40.312876+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-12-26T12:01:27.8534108+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-11-10T14:13:40.312876+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   }
 }

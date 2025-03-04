@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 220,
-    "Name": "Yost LLC",
-    "ToolTip": "Doloremque consequuntur dignissimos optio ducimus quia dolores corrupti.",
+    "Id": 253,
+    "Name": "Dare-Huels",
+    "ToolTip": "Et expedita aut explicabo quis laboriosam fuga tempora.",
     "Deleted": false,
-    "Rank": 56,
-    "Type": "nulla",
-    "ColorBlock": 985,
-    "IconHint": "velit",
+    "Rank": 576,
+    "Type": "inventore",
+    "ColorBlock": 186,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2024-08-06T12:01:33.495727+02:00",
+    "LastChanged": "2019-11-03T14:13:49.9312861+01:00",
     "ChildItems": [
       {
-        "Id": 199,
-        "Name": "Moore, Reynolds and Lehner",
-        "ToolTip": "Unde molestiae eos nostrum eos minima.",
-        "Deleted": true,
-        "Rank": 634,
-        "Type": "porro",
-        "ColorBlock": 907,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2015-02-05T12:01:33.495727+01:00",
+        "Id": 503,
+        "Name": "Bahringer-Boyer",
+        "ToolTip": "Quisquam pariatur voluptas.",
+        "Deleted": false,
+        "Rank": 648,
+        "Type": "voluptate",
+        "ColorBlock": 202,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2013-01-04T14:13:49.9312861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Alia Schmeler",
+        "FullName": "Miss Lula Weber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 465
+            "FieldType": "System.Int32",
+            "FieldLength": 157
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "quod",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Maureen Stoltenberg",
+    "FullName": "Wilhelm Preston Glover I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 704
       }
     }
   }

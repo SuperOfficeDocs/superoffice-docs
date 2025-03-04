@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 135,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "qui",
-  "Name": "Prosacco-Williamson",
-  "Description": "Automated didactic pricing structure",
-  "Code": "totam",
-  "PriceUnit": "et",
-  "QuantityUnit": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "neque",
-  "DefaultSubscriptionQuantity": 1096.8999999999999,
-  "ItemNumber": "608570",
+  "ProductId": 257,
+  "ERPProductKey": "cumque",
+  "ERPPriceListKey": "fugiat",
+  "Name": "Sawayn Inc and Sons",
+  "Description": "Multi-lateral coherent database",
+  "Code": "officiis",
+  "PriceUnit": "ducimus",
+  "QuantityUnit": "animi",
+  "IsSubscription": true,
+  "SubscriptionUnit": "libero",
+  "DefaultSubscriptionQuantity": 21862.784,
+  "ItemNumber": "975556",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ea",
-  "ProductTypeKey": "sequi",
-  "VAT": 13426.055999999999,
-  "VATInfo": "et",
-  "UnitCost": 22922.076,
-  "UnitMinimumPrice": 14475.946,
-  "UnitListPrice": 12090.972,
+  "ProductFamilyKey": "amet",
+  "ProductTypeKey": "reiciendis",
+  "VAT": 20471.288,
+  "VATInfo": "quisquam",
+  "UnitCost": 22643.149999999998,
+  "UnitMinimumPrice": 2952.228,
+  "UnitListPrice": 6233.526,
   "InAssortment": false,
-  "Supplier": "eos",
-  "SupplierCode": "dolor",
-  "Rights": "doloremque",
-  "Rule": "sunt",
+  "Supplier": "aut",
+  "SupplierCode": "eos",
+  "Rights": "itaque",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Cremin Group",
-      "Value": "laudantium",
+      "Name": "Nikolaus, Shields and Ziemann",
+      "Value": "quos",
       "Type": "Image"
     },
     {
-      "Name": "Cremin Group",
-      "Value": "laudantium",
+      "Name": "Nikolaus, Shields and Ziemann",
+      "Value": "quos",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "hic",
-  "ExtraField1": "sed",
-  "ExtraField2": "repellat",
-  "ExtraField3": "quisquam",
-  "ExtraField4": "mollitia",
-  "ExtraField5": "cumque",
-  "InStock": 16246.655999999999
+  "RawExtraInfo": "quibusdam",
+  "ExtraField1": "autem",
+  "ExtraField2": "non",
+  "ExtraField3": "omnis",
+  "ExtraField4": "et",
+  "ExtraField5": "fugit",
+  "InStock": 14435.204
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 185,
-  "ERPProductKey": "nihil",
-  "ERPPriceListKey": "reiciendis",
-  "Name": "Boyer-Hettinger",
-  "Description": "Enterprise-wide methodical benchmark",
-  "Code": "voluptatem",
-  "PriceUnit": "vero",
-  "QuantityUnit": "aperiam",
+  "ProductId": 802,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "eos",
+  "Name": "Cartwright LLC",
+  "Description": "Self-enabling static leverage",
+  "Code": "minus",
+  "PriceUnit": "praesentium",
+  "QuantityUnit": "accusantium",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatibus",
-  "DefaultSubscriptionQuantity": 21884.721999999998,
-  "ItemNumber": "393777",
+  "SubscriptionUnit": "corporis",
+  "DefaultSubscriptionQuantity": 6584.534,
+  "ItemNumber": "708388",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "qui",
-  "ProductTypeKey": "sapiente",
-  "VAT": 28011.692,
-  "VATInfo": "quis",
-  "UnitCost": 9423.938,
-  "UnitMinimumPrice": 25567.172,
-  "UnitListPrice": 5707.014,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "iusto",
+  "VAT": 24771.136,
+  "VATInfo": "quia",
+  "UnitCost": 6333.8139999999994,
+  "UnitMinimumPrice": 6133.2379999999994,
+  "UnitListPrice": 19402.594,
   "InAssortment": true,
-  "Supplier": "sunt",
-  "SupplierCode": "illum",
-  "Rights": "sint",
-  "Rule": "voluptates",
+  "Supplier": "magnam",
+  "SupplierCode": "ab",
+  "Rights": "assumenda",
+  "Rule": "saepe",
   "ExtraInfo": [
     {
-      "Name": "Huel-Jast",
-      "Value": "nemo",
+      "Name": "Wiza-Kohler",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 663
         }
       }
     },
     {
-      "Name": "Huel-Jast",
-      "Value": "nemo",
+      "Name": "Wiza-Kohler",
+      "Value": "qui",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 663
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "est",
-  "ExtraField2": "quod",
-  "ExtraField3": "saepe",
-  "ExtraField4": "cum",
-  "ExtraField5": "quia",
-  "InStock": 10003.728,
+  "RawExtraInfo": "magni",
+  "ExtraField1": "et",
+  "ExtraField2": "mollitia",
+  "ExtraField3": "sint",
+  "ExtraField4": "ut",
+  "ExtraField5": "sint",
+  "InStock": 29437.662,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 919
     }
   }
 }

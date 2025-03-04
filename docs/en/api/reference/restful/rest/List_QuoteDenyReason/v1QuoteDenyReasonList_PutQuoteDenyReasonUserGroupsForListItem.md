@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Adams, Haley and Boehm",
-    "ToolTip": "Est dolorem quia eius maxime veniam consequatur omnis.",
-    "Deleted": false,
-    "Rank": 357,
-    "Type": "beatae",
-    "ColorBlock": 43,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2001-05-24T12:01:33.6207356+02:00",
+    "Id": 54,
+    "Name": "Towne Group",
+    "ToolTip": "Excepturi eos rerum.",
+    "Deleted": true,
+    "Rank": 814,
+    "Type": "id",
+    "ColorBlock": 299,
+    "IconHint": "similique",
+    "Selected": true,
+    "LastChanged": "1999-02-21T14:13:50.1656413+01:00",
     "ChildItems": [
       {
-        "Id": 107,
-        "Name": "Hammes Group",
-        "ToolTip": "Unde soluta.",
+        "Id": 91,
+        "Name": "Langworth, Nitzsche and Torphy",
+        "ToolTip": "Incidunt doloremque sapiente.",
         "Deleted": true,
-        "Rank": 400,
-        "Type": "voluptas",
-        "ColorBlock": 14,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2018-12-30T12:01:33.6207356+01:00",
+        "Rank": 346,
+        "Type": "placeat",
+        "ColorBlock": 106,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "2001-07-04T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Alexandro Von"
+        "ExtraInfo": "aut",
+        "StyleHint": "itaque",
+        "Hidden": false,
+        "FullName": "Prof. Aaron Kiley Bailey DDS"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "dolores",
+    "ExtraInfo": "non",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Ms. Rory August Sporer DVM"
+    "FullName": "Garfield Hayes"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 390,
-    "Name": "Casper-Murphy",
-    "ToolTip": "Qui autem est fugiat earum nemo ipsum.",
+    "Id": 584,
+    "Name": "Gottlieb-Yundt",
+    "ToolTip": "Numquam deleniti accusantium ullam et voluptas dolorem.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "corporis",
-    "ColorBlock": 489,
-    "IconHint": "omnis",
+    "Rank": 809,
+    "Type": "atque",
+    "ColorBlock": 85,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2015-04-01T12:01:33.6207356+02:00",
+    "LastChanged": "2023-04-11T14:13:50.1656413+02:00",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Little, Torp and Morissette",
-        "ToolTip": "Sint corrupti omnis nesciunt hic ea voluptatibus distinctio.",
-        "Deleted": true,
-        "Rank": 552,
-        "Type": "maxime",
-        "ColorBlock": 309,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "1999-10-04T12:01:33.6207356+02:00",
+        "Id": 209,
+        "Name": "Fay-Maggio",
+        "ToolTip": "Blanditiis dolorem cum non et nisi consequatur repellendus.",
+        "Deleted": false,
+        "Rank": 395,
+        "Type": "veritatis",
+        "ColorBlock": 944,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2015-04-09T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "nam",
+        "ExtraInfo": "ad",
+        "StyleHint": "tempore",
         "Hidden": false,
-        "FullName": "Bret Dietrich",
+        "FullName": "Caleb Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 641
+            "FieldLength": 935
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "aut",
+    "ExtraInfo": "quo",
+    "StyleHint": "minus",
     "Hidden": true,
-    "FullName": "Rogelio Rogahn",
+    "FullName": "Leann Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 735
       }
     }
   }

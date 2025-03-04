@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 795,
-    "Name": "Bode-Keeling",
-    "Tooltip": "reiciendis",
+    "WebPanelId": 937,
+    "Name": "Stiedemann-Witting",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 155,
+    "Rank": 326,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Maggio, Effertz and Ullrich",
+    "WindowName": "Homenick, Bins and Kihn",
     "Url": "http://www.example.com/",
-    "ProgId": "quidem",
-    "Icon": 135,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "quasi",
+    "Icon": 826,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 671
       }
     }
   }

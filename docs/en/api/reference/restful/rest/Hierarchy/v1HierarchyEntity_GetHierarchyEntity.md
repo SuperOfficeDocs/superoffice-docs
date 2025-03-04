@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 55,
+  "HierarchyId": 584,
   "Domain": "Dashboards",
-  "Name": "Murphy Group",
-  "Fullname": "suscipit",
-  "ParentId": 185,
+  "Name": "Goyette-Daniel",
+  "Fullname": "ut",
+  "ParentId": 76,
   "Children": [
     {
-      "HierarchyId": 160,
+      "HierarchyId": 624,
       "Domain": "Dashboards",
-      "Name": "Kautzer, Reynolds and Marvin",
-      "Fullname": "unde",
-      "ParentId": 584,
+      "Name": "Schoen, Renner and Balistreri",
+      "Fullname": "nobis",
+      "ParentId": 179,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2011-09-27T12:01:32.9175621+02:00",
-      "RegisteredAssociateId": 962,
-      "Updated": "2006-07-11T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 448,
+      "Registered": "2024-04-13T14:13:48.8993207+02:00",
+      "RegisteredAssociateId": 767,
+      "Updated": "2018-07-22T14:13:48.8993207+02:00",
+      "UpdatedAssociateId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 264
         }
       }
     }
   ],
-  "Registered": "2000-09-02T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 872,
-  "Updated": "2006-09-08T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 588,
+  "Registered": "2017-04-11T14:13:48.8993207+02:00",
+  "RegisteredAssociateId": 361,
+  "Updated": "2012-01-19T14:13:48.8993207+01:00",
+  "UpdatedAssociateId": 60,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldLength": 743
     }
   },
   "_Links": {

@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 587,
-  "UniqueId": "sed",
-  "Name": "Walter-Veum",
-  "Description": "Face to face disintermediate workforce",
-  "AssociateId": 367,
-  "Columns": 615,
+  "DashboardId": 661,
+  "UniqueId": "voluptate",
+  "Name": "Rowe Group",
+  "Description": "Upgradable radical product",
+  "AssociateId": 279,
+  "Columns": 726,
   "Theme": null,
-  "VisibleForAll": 482,
+  "VisibleForAll": 460,
   "VisibleForAssociates": [
-    470,
-    513
+    281,
+    242
   ],
   "VisibleForGroups": [
-    207,
-    713
+    992,
+    258
   ],
-  "PinForAll": 162,
+  "PinForAll": 323,
   "PinForAssociates": [
-    829,
-    984
+    190,
+    346
   ],
   "PinForGroups": [
-    429,
-    321
+    59,
+    339
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 76,
-  "UniqueId": "aut",
-  "Name": "Conn, Batz and Hyatt",
-  "Description": "Polarised bandwidth-monitored capacity",
-  "AssociateId": 484,
-  "Columns": 367,
+  "DashboardId": 329,
+  "UniqueId": "sequi",
+  "Name": "Stehr LLC",
+  "Description": "Customer-focused intermediate matrices",
+  "AssociateId": 386,
+  "Columns": 398,
   "Theme": null,
-  "VisibleForAll": 800,
+  "VisibleForAll": 57,
   "VisibleForAssociates": [
-    606,
-    460
+    581,
+    815
   ],
   "VisibleForGroups": [
-    755,
-    152
+    969,
+    230
   ],
-  "PinForAll": 795,
+  "PinForAll": 583,
   "PinForAssociates": [
-    778,
-    314
+    320,
+    575
   ],
   "PinForGroups": [
-    384,
-    210
+    128,
+    931
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 570
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

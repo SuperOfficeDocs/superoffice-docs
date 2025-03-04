@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walker Inc and Sons"
+  "Name": "Botsford-Kiehn"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Welch-Schneider",
-    "SoPrimaryKey": 310,
-    "EntryName": "Cruickshank-Hartmann",
-    "EntryIdentifier": "sit",
-    "RuleDisplayName": "Schmidt-Abbott",
+    "RuleName": "Murphy Inc and Sons",
+    "SoPrimaryKey": 529,
+    "EntryName": "Sanford Group",
+    "EntryIdentifier": "non",
+    "RuleDisplayName": "Rice, Dicki and Hickle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 349
       }
     }
   }

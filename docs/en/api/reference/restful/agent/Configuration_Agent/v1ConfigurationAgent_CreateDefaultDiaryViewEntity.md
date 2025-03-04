@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 447,
-  "Name": "Rosenbaum LLC",
-  "Tooltip": "quo",
-  "VisibleColumns": 779,
-  "Rank": 904,
-  "AssocId": 123,
+  "DiaryViewId": 508,
+  "Name": "Schroeder, Champlin and Marks",
+  "Tooltip": "error",
+  "VisibleColumns": 429,
+  "Rank": 535,
+  "AssocId": 571,
   "AssociateList": [
     {
-      "Id": 831,
-      "Name": "Sawayn Inc and Sons",
-      "ToolTip": "Autem aspernatur dolore delectus cum ab eaque.",
+      "Id": 95,
+      "Name": "Mueller, Leannon and Rogahn",
+      "ToolTip": "Nihil voluptatum.",
       "Deleted": false,
-      "Rank": 624,
-      "Type": "eum",
-      "ColorBlock": 740,
-      "IconHint": "dignissimos",
+      "Rank": 96,
+      "Type": "est",
+      "ColorBlock": 609,
+      "IconHint": "tempore",
       "Selected": true,
-      "LastChanged": "2002-09-22T12:01:27.4471334+02:00",
+      "LastChanged": "2015-09-15T14:13:39.7347754+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "explicabo",
-      "Hidden": true,
-      "FullName": "Mrs. Penelope Ondricka V",
+      "ExtraInfo": "id",
+      "StyleHint": "assumenda",
+      "Hidden": false,
+      "FullName": "Dianna Ritchie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 998
+          "FieldLength": 117
         }
       }
     }
   ],
-  "TzLocationId": 254,
+  "TzLocationId": 264,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 473
     }
   }
 }

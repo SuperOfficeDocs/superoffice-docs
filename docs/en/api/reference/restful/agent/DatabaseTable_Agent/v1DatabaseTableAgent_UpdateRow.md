@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber-Zboncak",
-  "Id": 108,
+  "TableName": "Renner Inc and Sons",
+  "Id": 118,
   "Values": {
-    "Values1": "rerum",
-    "Values2": "asperiores"
+    "Values1": "ea",
+    "Values2": "et"
   }
 }
 ```

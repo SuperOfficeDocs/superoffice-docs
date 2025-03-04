@@ -27,7 +27,7 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=vel
+GET /api/v1/List/ProjectStatus/MDOItems?query=ullam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "Hessel LLC",
-    "ToolTip": "Quae ut et est recusandae.",
-    "Deleted": false,
-    "Rank": 439,
-    "Type": "deserunt",
+    "Id": 728,
+    "Name": "Welch, Thiel and Langosh",
+    "ToolTip": "Quia eius qui aliquam labore repellat omnis.",
+    "Deleted": true,
+    "Rank": 784,
+    "Type": "facere",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Wunsch, Powlowski and Howe",
-        "ToolTip": "Officia qui sit.",
-        "Deleted": false,
-        "Rank": 175,
-        "Type": "nam",
+        "Id": 542,
+        "Name": "Franecki-Nitzsche",
+        "ToolTip": "Tempore suscipit ipsum aliquam voluptatem recusandae.",
+        "Deleted": true,
+        "Rank": 333,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 999,
-        "ExtraInfo": "odio",
-        "StyleHint": "illum",
-        "FullName": "Miss Marianna Upton",
+        "IconHint": "vel",
+        "ColorBlock": 59,
+        "ExtraInfo": "non",
+        "StyleHint": "provident",
+        "FullName": "Dexter Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 849
+            "FieldLength": 467
           }
         }
       }
     ],
-    "IconHint": "minima",
-    "ColorBlock": 388,
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "id",
-    "FullName": "Ted Hackett",
+    "IconHint": "quod",
+    "ColorBlock": 360,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quia",
+    "FullName": "Ms. Anissa Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldType": "System.String",
+        "FieldLength": 428
       }
     }
   }

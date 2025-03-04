@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 360
+  "ProductId": 177
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 492,
-  "BlobSize": 992,
-  "Description": "Future-proofed eco-centric infrastructure",
-  "ExtraInfo": "molestiae",
+  "BlobId": 255,
+  "BlobSize": 212,
+  "Description": "Enterprise-wide logistical pricing structure",
+  "ExtraInfo": "est",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "explicabo",
-  "OriginalSize": 15,
-  "CreatedDate": "2014-08-10T12:01:27.3533761+02:00",
-  "UpdatedDate": "2018-08-21T12:01:27.3533761+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 279,
+  "CreatedDate": "2011-05-19T14:13:39.4223465+02:00",
+  "UpdatedDate": "2010-04-18T14:13:39.4223465+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "autem",
+  "ConceptualType": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

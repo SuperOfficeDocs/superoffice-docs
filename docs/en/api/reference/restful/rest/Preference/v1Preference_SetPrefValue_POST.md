@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptates",
+  "RawValue": "nihil",
   "Specification": null,
-  "DisplayValue": "ex",
-  "DisplayTooltip": "id",
+  "DisplayValue": "fugit",
+  "DisplayTooltip": "molestiae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 248,
-  "PrefDescId": 127,
-  "TableName": "Crona-White",
-  "UserPreferenceId": 376
+  "TargetId": 981,
+  "PrefDescId": 382,
+  "TableName": "Kilback-Shanahan",
+  "UserPreferenceId": 235
 }
 ```
 

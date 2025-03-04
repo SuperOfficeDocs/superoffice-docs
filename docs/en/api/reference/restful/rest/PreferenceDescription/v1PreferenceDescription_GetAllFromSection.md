@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 145,
-    "Section": "et",
-    "Key": "possimus",
-    "Name": "Feil, Fisher and Wunsch",
+    "PrefDescId": 525,
+    "Section": "quidem",
+    "Key": "velit",
+    "Name": "Tromp-Hammes",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Robust composite migration",
-    "IsBuiltin": true,
-    "TableName": "Hand Inc and Sons",
-    "UserDefinedListId": 243,
-    "Rank": 995,
-    "SubGroup": "odio",
-    "MinLevel": 804,
-    "MaxValue": 934,
-    "MinValue": 886,
-    "RequiredLicense": "quisquam",
+    "Description": "Decentralized multi-state matrices",
+    "IsBuiltin": false,
+    "TableName": "Hoppe Inc and Sons",
+    "UserDefinedListId": 11,
+    "Rank": 850,
+    "SubGroup": "consectetur",
+    "MinLevel": 518,
+    "MaxValue": 674,
+    "MinValue": 105,
+    "RequiredLicense": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 249
+        "FieldType": "System.Int32",
+        "FieldLength": 245
       }
     }
   }

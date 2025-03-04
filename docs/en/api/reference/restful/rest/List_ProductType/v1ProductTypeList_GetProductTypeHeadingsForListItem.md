@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Wilkinson-Stiedemann",
-    "ToolTip": "Quo enim ut voluptates.",
+    "Id": 835,
+    "Name": "Labadie-Feest",
+    "ToolTip": "Ut sunt est sit dolorem quasi.",
     "Deleted": false,
-    "Rank": 404,
-    "Type": "nihil",
-    "ColorBlock": 960,
-    "IconHint": "atque",
+    "Rank": 738,
+    "Type": "voluptate",
+    "ColorBlock": 345,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2023-03-28T12:01:33.5894836+02:00",
+    "LastChanged": "2004-06-13T14:13:50.1031526+02:00",
     "ChildItems": [
       {
-        "Id": 63,
-        "Name": "Corkery, Berge and Will",
-        "ToolTip": "Neque voluptate et sint maxime qui.",
+        "Id": 920,
+        "Name": "Gislason, Smitham and Dickens",
+        "ToolTip": "Quae velit recusandae necessitatibus.",
         "Deleted": true,
-        "Rank": 184,
-        "Type": "ut",
-        "ColorBlock": 627,
-        "IconHint": "est",
+        "Rank": 256,
+        "Type": "quae",
+        "ColorBlock": 805,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2000-12-04T12:01:33.5894836+01:00",
+        "LastChanged": "2024-11-11T14:13:50.1031526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "illo",
+        "ExtraInfo": "quas",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Keyshawn Lueilwitz",
+        "FullName": "Alessandra Wilkinson DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "expedita",
-    "Hidden": true,
-    "FullName": "Christiana Hayes IV",
+    "ExtraInfo": "impedit",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Mark Pascale Hessel IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldLength": 505
       }
     }
   }

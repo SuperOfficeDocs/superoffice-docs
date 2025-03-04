@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 601,
-    "ColumnId": 115,
-    "FieldDefault": "iusto",
-    "FieldHeight": 206,
-    "FieldLabel": "harum",
-    "FieldLeft": 336,
-    "FieldTop": 566,
+    "UDefFieldId": 435,
+    "ColumnId": 116,
+    "FieldDefault": "natus",
+    "FieldHeight": 76,
+    "FieldLabel": "sed",
+    "FieldLeft": 486,
+    "FieldTop": 128,
     "FieldType": "Checkbox",
-    "FieldWidth": 357,
-    "FormatMask": "ut",
+    "FieldWidth": 583,
+    "FormatMask": "mollitia",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 679,
-    "LabelLeft": 733,
-    "LabelTop": 211,
-    "LabelWidth": 153,
-    "LastVersionId": 987,
-    "ListTableId": 582,
-    "IsMandatory": true,
+    "LabelHeight": 519,
+    "LabelLeft": 696,
+    "LabelTop": 157,
+    "LabelWidth": 253,
+    "LastVersionId": 117,
+    "ListTableId": 146,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 390,
-    "ProgId": "natus",
-    "IsReadOnly": true,
-    "ShortLabel": "aut",
-    "TabOrder": 142,
-    "TextLength": 552,
-    "Tooltip": "excepturi",
-    "UdefIdentity": 502,
-    "UDListDefinitionId": 276,
+    "Page1LineNo": 943,
+    "ProgId": "consectetur",
+    "IsReadOnly": false,
+    "ShortLabel": "quod",
+    "TabOrder": 797,
+    "TextLength": 898,
+    "Tooltip": "quasi",
+    "UdefIdentity": 275,
+    "UDListDefinitionId": 35,
     "Justification": "Center",
-    "Version": 12,
-    "TemplateVariableName": "Luettgen Group",
+    "Version": 294,
+    "TemplateVariableName": "Sawayn, Ruecker and Schiller",
     "HasBeenPublished": false,
-    "MdoListName": "Lynch LLC",
+    "MdoListName": "Ziemann, Koepp and Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 384
       }
     }
   }

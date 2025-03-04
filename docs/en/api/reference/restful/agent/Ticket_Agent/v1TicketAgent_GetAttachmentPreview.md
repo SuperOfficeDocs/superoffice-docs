@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 822
+  "AttachmentId": 320
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lang-Gorczany",
-  "MimeType": "dignissimos",
-  "Size": 159,
+  "Name": "Kertzmann-Wunsch",
+  "MimeType": "quidem",
+  "Size": 102,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "antonetta_stracke@jakubowski.us",
-  "EmailFrom": "chelsey_davis@green.co.uk",
-  "EmailTo": "pansy@watsica.info",
-  "EmailCc": "grover@luettgen.biz",
-  "EmailDate": "2021-11-25T12:01:28.5565847+01:00",
+  "EmailSubject": "raymundo.howe@lehnermarquardt.co.uk",
+  "EmailFrom": "brandon_reilly@collinshoeger.biz",
+  "EmailTo": "juana@halvorson.us",
+  "EmailCc": "margarete@mclaughlin.biz",
+  "EmailDate": "2009-02-12T14:13:41.5946398+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 809,
-      "Name": "Davis, Pagac and Barrows",
-      "ContentType": "laborum",
-      "AttSize": 309,
+      "AttachmentId": 593,
+      "Name": "Anderson-Lueilwitz",
+      "ContentType": "molestiae",
+      "AttSize": 444,
       "InlineImage": true,
-      "ContentId": "nulla",
-      "AuthKey": "quas",
-      "IsSafeFileExtension": true,
+      "ContentId": "exercitationem",
+      "AuthKey": "eos",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 560
+          "FieldLength": 515
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 261
+      "FieldLength": 1002
     }
   }
 }

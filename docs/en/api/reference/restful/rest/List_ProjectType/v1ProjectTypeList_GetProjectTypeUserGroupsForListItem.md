@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Kassulke-Walker",
-    "ToolTip": "Dignissimos consectetur voluptatum eum rerum.",
+    "Id": 883,
+    "Name": "Rolfson LLC",
+    "ToolTip": "Maxime omnis qui ut repudiandae tempore.",
     "Deleted": false,
-    "Rank": 329,
-    "Type": "quasi",
-    "ColorBlock": 356,
-    "IconHint": "ut",
+    "Rank": 220,
+    "Type": "nihil",
+    "ColorBlock": 53,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2002-06-16T12:01:33.6051097+02:00",
+    "LastChanged": "2022-06-24T14:13:50.1343965+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Krajcik Group",
-        "ToolTip": "Nemo cum ut et.",
+        "Id": 140,
+        "Name": "Abernathy Group",
+        "ToolTip": "Libero tempora quis eum natus.",
         "Deleted": false,
-        "Rank": 813,
-        "Type": "velit",
-        "ColorBlock": 98,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "1998-05-29T12:01:33.6051097+02:00",
+        "Rank": 909,
+        "Type": "modi",
+        "ColorBlock": 451,
+        "IconHint": "minima",
+        "Selected": false,
+        "LastChanged": "2015-04-03T14:13:50.1343965+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "deserunt",
+        "ExtraInfo": "rerum",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Dante West",
+        "FullName": "Craig Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 345
+            "FieldType": "System.String",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mr. Devonte Grant DDS",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "nesciunt",
+    "Hidden": true,
+    "FullName": "Ceasar Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 162
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

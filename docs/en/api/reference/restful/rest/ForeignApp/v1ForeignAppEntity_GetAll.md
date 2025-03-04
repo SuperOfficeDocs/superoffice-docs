@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=velit
-GET /api/v1/ForeignApp?$top=506
-GET /api/v1/ForeignApp?$skip=746
+GET /api/v1/ForeignApp?$entities=corrupti
+GET /api/v1/ForeignApp?$top=437
+GET /api/v1/ForeignApp?$skip=446
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=nihil
+GET /api/v1/ForeignApp?$context=et
 GET /api/v1/ForeignApp?$format=JSON
-GET /api/v1/ForeignApp?$jsonSafe=True
+GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
 ```
 
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "et",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 9132,
-      "EntityName": "person",
-      "personId": 9132,
-      "fullName": "Danny Schmitt Sr."
+      "PrimaryKey": 2080,
+      "EntityName": "sale",
+      "saleId": 2080,
+      "contactId": 4438,
+      "name": "McKenzie Inc and Sons"
     },
     {
-      "PrimaryKey": 5788,
-      "EntityName": "person",
-      "personId": 5788,
-      "fullName": "Dr. Lesley Gerhard Weissnat"
+      "PrimaryKey": 7621,
+      "EntityName": "sale",
+      "saleId": 7621,
+      "contactId": 1237,
+      "name": "Marks-Oberbrunner"
     }
   ]
 }

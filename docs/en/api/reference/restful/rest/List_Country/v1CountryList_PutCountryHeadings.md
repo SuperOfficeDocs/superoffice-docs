@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 921,
-    "Name": "Metz LLC",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 927,
-    "UdListDefinitionId": 447
+    "HeadingId": 416,
+    "Name": "Leannon-Rath",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 313
   },
   {
-    "HeadingId": 921,
-    "Name": "Metz LLC",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 927,
-    "UdListDefinitionId": 447
+    "HeadingId": 416,
+    "Name": "Leannon-Rath",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 465,
+    "UdListDefinitionId": 313
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 191,
-    "Name": "Hamill-Emard",
-    "Tooltip": "deleniti",
+    "HeadingId": 814,
+    "Name": "Littel, Cronin and Eichmann",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 933,
-    "UdListDefinitionId": 215,
+    "Rank": 13,
+    "UdListDefinitionId": 917,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 782
       }
     }
   }

@@ -77,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 528,
-  "Restrictions": "sunt"
+  "DashboardTileId": 597,
+  "Restrictions": "non"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "White, Wisoky and Parker",
-        "DisplayTooltip": "voluptatum",
-        "DisplayType": "enim",
-        "CanOrderBy": false,
-        "Name": "Corwin, Bode and Wisozk",
+        "DisplayName": "Hane Inc and Sons",
+        "DisplayTooltip": "quod",
+        "DisplayType": "rem",
+        "CanOrderBy": true,
+        "Name": "Larkin-Romaguera",
         "CanRestrictBy": false,
-        "RestrictionType": "assumenda",
-        "RestrictionListName": "Denesik LLC",
+        "RestrictionType": "culpa",
+        "RestrictionListName": "Eichmann Inc and Sons",
         "IsVisible": true,
-        "ExtraInfo": "optio",
-        "Width": "eum",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "voluptatem"
+        "ExtraInfo": "qui",
+        "Width": "sit",
+        "IconHint": "dolore",
+        "HeadingIconHint": "assumenda"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "White, Wisoky and Parker",
-        "DisplayTooltip": "voluptatum",
-        "DisplayType": "enim",
-        "CanOrderBy": false,
-        "Name": "Corwin, Bode and Wisozk",
+        "DisplayName": "Hane Inc and Sons",
+        "DisplayTooltip": "quod",
+        "DisplayType": "rem",
+        "CanOrderBy": true,
+        "Name": "Larkin-Romaguera",
         "CanRestrictBy": false,
-        "RestrictionType": "assumenda",
-        "RestrictionListName": "Denesik LLC",
+        "RestrictionType": "culpa",
+        "RestrictionListName": "Eichmann Inc and Sons",
         "IsVisible": true,
-        "ExtraInfo": "optio",
-        "Width": "eum",
-        "IconHint": "nesciunt",
-        "HeadingIconHint": "voluptatem"
+        "ExtraInfo": "qui",
+        "Width": "sit",
+        "IconHint": "dolore",
+        "HeadingIconHint": "assumenda"
       }
     ],
     "Result": null

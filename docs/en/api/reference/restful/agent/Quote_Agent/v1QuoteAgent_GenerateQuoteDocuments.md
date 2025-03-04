@@ -91,12 +91,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 604,
-  "EmailBodyTemplateId": 270,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 966,
+  "QuoteVersionId": 388,
+  "EmailBodyTemplateId": 104,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 666,
   "IncludeAttachments": false,
-  "RawMailSubject": "quod"
+  "RawMailSubject": "qui"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 658,
-  "QuotedProductsId": 225,
+  "QuoteDocumentId": 362,
+  "QuotedProductsId": 471,
   "QuoteAttachmentIds": [
-    104,
-    989
+    742,
+    502
   ],
-  "MailBody": "beatae",
-  "MailSubject": "nisi",
-  "ToEmail": "maud.johnston@jacobson.us",
-  "ToFullName": "Prof. Bria Marvin DVM",
-  "ErrorMessage": "ad",
+  "MailBody": "optio",
+  "MailSubject": "impedit",
+  "ToEmail": "carmen.adams@davisgerhold.name",
+  "ToFullName": "Prof. Ignacio Walton Hahn",
+  "ErrorMessage": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldLength": 916
     }
   }
 }

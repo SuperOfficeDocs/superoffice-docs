@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 123,
-  "MinDate": "2017-08-23T12:01:27.7752804+02:00",
-  "MaxDate": "2015-04-22T12:01:27.7752804+02:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 288,
+  "MinDate": "2003-12-16T14:13:40.1566615+01:00",
+  "MaxDate": "2017-12-27T14:13:40.1566615+01:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 623,
-  "NumDocumentsAlreadyMigrated": 180,
+  "NumDocumentsOmitted": 390,
+  "NumDocumentsAlreadyMigrated": 477,
   "Documents": [
     {
-      "DocumentId": 547,
-      "ContactId": 907,
-      "PersonId": 542,
-      "SaleId": 805,
-      "ProjectId": 603,
-      "DocTmplId": 496,
-      "AssociateId": 124,
-      "UserGroupId": 846,
-      "VisibleForId": 137
+      "DocumentId": 602,
+      "ContactId": 715,
+      "PersonId": 813,
+      "SaleId": 278,
+      "ProjectId": 404,
+      "DocTmplId": 746,
+      "AssociateId": 877,
+      "UserGroupId": 234,
+      "VisibleForId": 984
     }
   ],
   "Associates": [
     {
-      "AssociateId": 154,
-      "EmailAddress": "celine@yundtbailey.us"
+      "AssociateId": 578,
+      "EmailAddress": "sophia_oconner@oharahilpert.ca"
     },
     {
-      "AssociateId": 154,
-      "EmailAddress": "celine@yundtbailey.us"
+      "AssociateId": 578,
+      "EmailAddress": "sophia_oconner@oharahilpert.ca"
     }
   ]
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Volkman LLC",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 842,
-  "Rank": 693,
+  "Id": 363,
+  "Name": "McGlynn LLC",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 778,
+  "Rank": 46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 505
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Tromp-Sanford",
-  "DeviceName": "Weissnat, Bogisich and Walter",
-  "DeviceIdentifier": "dolore"
+  "ApplicationName": "Kilback-Mann",
+  "DeviceName": "Krajcik Inc and Sons",
+  "DeviceIdentifier": "dicta"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "neque",
-  "Value": "magnam",
-  "RecordId": 32,
-  "CreatedDate": "2002-06-19T12:01:27.9002891+02:00",
-  "UpdatedDate": "2023-10-26T12:01:27.9002891+02:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "eius",
-  "TableName": "Johnson-Connelly",
+  "Key": "libero",
+  "Value": "doloribus",
+  "RecordId": 391,
+  "CreatedDate": "2022-03-11T14:13:40.3909833+01:00",
+  "UpdatedDate": "2015-09-02T14:13:40.3909833+02:00",
+  "UpdatedBy": "odit",
+  "CreatedBy": "error",
+  "TableName": "Fahey Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 610
     }
   }
 }

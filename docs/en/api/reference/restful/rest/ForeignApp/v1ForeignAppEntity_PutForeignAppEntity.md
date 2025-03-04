@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 406,
-  "Name": "Haley-Pagac",
-  "CreatedDate": "2023-02-28T12:01:32.9175621+01:00",
-  "UpdatedDate": "2004-07-18T12:01:32.9175621+02:00",
+  "ForeignAppId": 67,
+  "Name": "Wuckert, Schiller and Turcotte",
+  "CreatedDate": "2001-03-13T14:13:48.8836985+01:00",
+  "UpdatedDate": "2017-10-12T14:13:48.8836985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 749,
-      "Name": "Bode Inc and Sons",
-      "CreatedDate": "2021-11-06T12:01:32.9175621+01:00",
-      "UpdatedDate": "2020-05-25T12:01:32.9175621+02:00",
-      "AssociateFullName": "Amber Ferne McDermott III",
+      "ForeignDeviceId": 902,
+      "Name": "Wilderman, Gottlieb and VonRueden",
+      "CreatedDate": "2017-01-05T14:13:48.8836985+01:00",
+      "UpdatedDate": "2008-10-12T14:13:48.8836985+02:00",
+      "AssociateFullName": "Prof. Jamie Sammy Stanton",
       "CreatedBy": "temporibus",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "iure",
-      "ForeignAppId": 317
+      "UpdatedBy": "deserunt",
+      "DeviceIdentifier": "eveniet",
+      "ForeignAppId": 566
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 570,
-  "Name": "D'Amore Group",
-  "CreatedDate": "2019-06-27T12:01:32.9175621+02:00",
-  "UpdatedDate": "2010-01-01T12:01:32.9175621+01:00",
+  "ForeignAppId": 923,
+  "Name": "Bode, Pouros and Sanford",
+  "CreatedDate": "2011-08-14T14:13:48.8836985+02:00",
+  "UpdatedDate": "2019-01-01T14:13:48.8836985+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 577,
-      "Name": "Mraz Inc and Sons",
-      "CreatedDate": "2003-09-21T12:01:32.9175621+02:00",
-      "UpdatedDate": "1997-12-02T12:01:32.9175621+01:00",
-      "AssociateFullName": "Esperanza Schroeder Jr.",
+      "ForeignDeviceId": 982,
+      "Name": "Buckridge, Monahan and Jewess",
+      "CreatedDate": "2002-06-15T14:13:48.8836985+02:00",
+      "UpdatedDate": "2025-02-24T14:13:48.8836985+01:00",
+      "AssociateFullName": "Kari Wyman",
       "CreatedBy": "ipsa",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "numquam",
-      "ForeignAppId": 140,
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "eaque",
+      "ForeignAppId": 498,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 506
         }
       }
     }
@@ -156,13 +156,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 678
+      "FieldType": "System.Int32",
+      "FieldLength": 719
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

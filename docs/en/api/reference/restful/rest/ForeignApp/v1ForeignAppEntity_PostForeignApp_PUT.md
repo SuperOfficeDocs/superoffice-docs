@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 112,
-  "Name": "Parisian, Leuschke and Wilderman",
-  "CreatedDate": "2005-04-13T12:01:32.9019357+02:00",
-  "UpdatedDate": "2011-10-27T12:01:32.9019357+02:00",
+  "ForeignAppId": 735,
+  "Name": "Kuphal-Walker",
+  "CreatedDate": "2009-04-15T14:13:48.8680781+02:00",
+  "UpdatedDate": "2014-01-30T14:13:48.8680781+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 449,
-      "Name": "Bruen-Conn",
-      "CreatedDate": "2019-04-14T12:01:32.9019357+02:00",
-      "UpdatedDate": "2018-09-16T12:01:32.9019357+02:00",
-      "AssociateFullName": "Fannie Wunsch",
-      "CreatedBy": "iusto",
-      "UpdatedBy": "omnis",
-      "DeviceIdentifier": "sint",
-      "ForeignAppId": 527,
+      "ForeignDeviceId": 186,
+      "Name": "Larkin-Ward",
+      "CreatedDate": "2003-11-18T14:13:48.8680781+01:00",
+      "UpdatedDate": "2007-07-26T14:13:48.8680781+02:00",
+      "AssociateFullName": "Miss Ezra O'Keefe PhD",
+      "CreatedBy": "et",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "dolorem",
+      "ForeignAppId": 348,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 175
+          "FieldLength": 903
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 350
     }
   }
 }

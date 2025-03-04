@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Smitham, Fadel and Dietrich",
-  "AssociateId": 340,
-  "DetailsTable": 58,
-  "DetailsRecord": 17,
+  "Id": 331,
+  "Name": "Hauck, Bergnaum and Effertz",
+  "AssociateId": 375,
+  "DetailsTable": 250,
+  "DetailsRecord": 22,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "neque"
+    "ParameterObject1": "ipsam",
+    "ParameterObject2": "itaque"
   },
-  "LastStarted": "2002-03-13T12:01:27.3533761+01:00",
-  "Created": "2020-10-08T12:01:27.3533761+02:00",
-  "StartCount": 223,
-  "DatabaseSerialNumber": "421448",
-  "Context": "et",
-  "Result": "temporibus",
+  "LastStarted": "2016-01-06T14:13:39.3911033+01:00",
+  "Created": "2017-06-07T14:13:39.3911033+02:00",
+  "StartCount": 354,
+  "DatabaseSerialNumber": "70618",
+  "Context": "aliquid",
+  "Result": "aspernatur",
   "State": "All",
-  "Description": "Stand-alone mission-critical hierarchy",
-  "Response": "aspernatur",
-  "Request": "illum",
-  "ProgressDescription": "Enhanced cohesive structure",
-  "ProgressPercent": 186,
-  "FileName": "Legros LLC",
+  "Description": "Persevering reciprocal definition",
+  "Response": "nesciunt",
+  "Request": "provident",
+  "ProgressDescription": "Cloned actuating throughput",
+  "ProgressPercent": 990,
+  "FileName": "Runolfsdottir, Russel and Lind",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldLength": 558
     }
   }
 }

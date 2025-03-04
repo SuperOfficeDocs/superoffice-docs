@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 410,
-    "Name": "Kozey Group",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 151
+    "Id": 217,
+    "Name": "Cassin-Feest",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 930,
+    "Rank": 149
   },
   {
-    "Id": 410,
-    "Name": "Kozey Group",
-    "Tooltip": "ad",
-    "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 151
+    "Id": 217,
+    "Name": "Cassin-Feest",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 930,
+    "Rank": 149
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 379,
-    "Name": "Windler, Smith and Bednar",
-    "Tooltip": "non",
+    "Id": 583,
+    "Name": "Rippin LLC",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "UdListDefinitionId": 494,
-    "Rank": 675,
+    "UdListDefinitionId": 44,
+    "Rank": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldLength": 874
       }
     }
   }

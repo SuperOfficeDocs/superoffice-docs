@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 49,
-  "ContentName": "Bauch, Torp and O'Hara"
+  "EmailFlowId": 784,
+  "ContentName": "Daugherty-Nitzsche"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-2
+7
 ```

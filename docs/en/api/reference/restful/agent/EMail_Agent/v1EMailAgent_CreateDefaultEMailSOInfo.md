@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 621,
-  "AppointmentId": 133,
-  "ProjectId": 823,
-  "SaleId": 607,
-  "Archived": true,
-  "ArchivedAt": "2014-09-06T12:01:27.8221586+02:00",
-  "ArchivedBy": 752,
-  "ArchivedDisplayName": "Aufderhar LLC",
+  "DocumentId": 156,
+  "AppointmentId": 786,
+  "ProjectId": 832,
+  "SaleId": 877,
+  "Archived": false,
+  "ArchivedAt": "1998-04-15T14:13:40.2347688+02:00",
+  "ArchivedBy": 734,
+  "ArchivedDisplayName": "VonRueden-Kuhn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 580
     }
   }
 }

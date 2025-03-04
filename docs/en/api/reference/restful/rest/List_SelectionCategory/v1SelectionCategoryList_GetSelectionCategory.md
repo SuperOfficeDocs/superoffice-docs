@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 833,
-  "Name": "Bahringer-Witting",
-  "Tooltip": "saepe",
-  "Deleted": false,
-  "UdListDefinitionId": 121,
-  "Rank": 951,
+  "Id": 852,
+  "Name": "Cronin-Reynolds",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "UdListDefinitionId": 388,
+  "Rank": 30,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 906
     }
   }
 }

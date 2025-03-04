@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Simonis LLC",
-  "Tooltip": "provident",
+  "Id": 137,
+  "Name": "Runte LLC",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 739,
-  "Rank": 374
+  "UdListDefinitionId": 675,
+  "Rank": 879
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 610,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "UdListDefinitionId": 593,
-  "Rank": 469,
+  "Id": 952,
+  "Name": "Feest Group",
+  "Tooltip": "quo",
+  "Deleted": true,
+  "UdListDefinitionId": 392,
+  "Rank": 168,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 699
     }
   }
 }

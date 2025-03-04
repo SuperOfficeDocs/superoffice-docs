@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bayer-Gerhold",
-    "Records": 741,
+    "EntityName": "Bernhard Group",
+    "Records": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldType": "System.Int32",
+        "FieldLength": 932
       }
     }
   },
   {
-    "EntityName": "Bayer-Gerhold",
-    "Records": 741,
+    "EntityName": "Bernhard Group",
+    "Records": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 610
+        "FieldType": "System.Int32",
+        "FieldLength": 932
       }
     }
   }

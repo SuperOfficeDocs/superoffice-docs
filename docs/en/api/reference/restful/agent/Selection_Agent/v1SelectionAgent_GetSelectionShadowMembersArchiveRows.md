@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 219,
-  "Select": "incidunt"
+  "SelectionId": 968,
+  "Select": "sed"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "D'Amore-Langosh",
-    "PrimaryKey": 641,
+    "EntityName": "Hand Group",
+    "PrimaryKey": 956,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "explicabo",
-        "TooltipHint": "facere",
-        "LinkHint": "voluptas"
+        "DisplayValue": "id",
+        "TooltipHint": "praesentium",
+        "LinkHint": "dignissimos"
       }
     },
-    "LinkHint": "nihil",
-    "StyleHint": "est",
+    "LinkHint": "dignissimos",
+    "StyleHint": "molestias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 393
       }
     }
   }

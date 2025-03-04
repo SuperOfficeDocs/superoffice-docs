@@ -74,28 +74,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "qui",
+  "Provider": "exercitationem",
   "Restrictions": [
     {
-      "Name": "Goldner, Ratke and Stark",
-      "Operator": "illo",
+      "Name": "McClure Group",
+      "Operator": "qui",
       "Values": [
-        "sint",
-        "veniam"
+        "odit",
+        "aut"
       ],
       "DisplayValues": [
-        "id",
-        "repudiandae"
+        "ut",
+        "architecto"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 219,
+      "InterParenthesis": 572,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 495
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  835,
-  316
+  105,
+  225
 ]
 ```

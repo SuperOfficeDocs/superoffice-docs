@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 515,
-  "Name": "Towne LLC",
-  "Tooltip": "repudiandae",
+  "HeadingId": 352,
+  "Name": "Swift, Cummerata and Steuber",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "Rank": 942,
-  "UdListDefinitionId": 565
+  "Rank": 781,
+  "UdListDefinitionId": 908
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 864,
-  "Name": "Durgan Inc and Sons",
-  "Tooltip": "enim",
+  "HeadingId": 290,
+  "Name": "McClure, Dietrich and Wehner",
+  "Tooltip": "repudiandae",
   "Deleted": false,
-  "Rank": 895,
-  "UdListDefinitionId": 985,
+  "Rank": 747,
+  "UdListDefinitionId": 619,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

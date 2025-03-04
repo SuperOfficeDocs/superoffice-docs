@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "voluptas"
+  "ChartId": "eius"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 398,
-  "Caption": "et",
-  "Description": "Synergized user-facing website",
-  "ChartName": "Nikolaus-Nader",
-  "ChartId": "autem",
+  "DashboardTileId": 619,
+  "Caption": "ut",
+  "Description": "Progressive content-based ability",
+  "ChartName": "Bogan-Hintz",
+  "ChartId": "iure",
   "IsDefault": false,
-  "AssociateId": 203,
-  "GroupId": 274,
-  "SelectionId": 704,
-  "Config": "voluptatem",
+  "AssociateId": 104,
+  "GroupId": 896,
+  "SelectionId": 851,
+  "Config": "ad",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Funk, Stamm and Purdy",
-      "Description": "Distributed bi-directional encryption",
+      "Name": "Kuhn, Reinger and Altenwerth",
+      "Description": "Fully-configurable discrete focus group",
       "Type": "Boolean",
-      "ListName": "Hane, Schneider and Dickinson",
+      "ListName": "Reilly Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "deserunt",
+      "Value": "qui",
       "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 471
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 145,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 297
         }
       }
     },
     {
-      "VisibleId": 145,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 297
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldLength": 579
     }
   }
 }

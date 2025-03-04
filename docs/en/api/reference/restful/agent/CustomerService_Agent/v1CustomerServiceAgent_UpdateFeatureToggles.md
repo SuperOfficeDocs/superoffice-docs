@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Adams-Schuppe",
+      "Name": "Daniel Inc and Sons",
       "State": false
     },
     {
-      "Name": "Adams-Schuppe",
+      "Name": "Daniel Inc and Sons",
       "State": false
     }
   ]

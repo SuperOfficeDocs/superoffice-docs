@@ -86,9 +86,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gislason Group",
-  "DeviceName": "Kulas-Green",
-  "DeviceIdentifier": "quam"
+  "ApplicationName": "Funk, Jerde and Kozey",
+  "DeviceName": "Bednar, Goldner and Runolfsdottir",
+  "DeviceIdentifier": "animi"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nihil",
+    "Key": "incidunt",
     "Value": "cum",
-    "RecordId": 117,
-    "CreatedDate": "2001-05-24T12:01:27.9002891+02:00",
-    "UpdatedDate": "2009-09-21T12:01:27.9002891+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "nesciunt",
-    "TableName": "Simonis-Luettgen",
+    "RecordId": 913,
+    "CreatedDate": "2021-12-25T14:13:40.3909833+01:00",
+    "UpdatedDate": "2013-03-27T14:13:40.3909833+01:00",
+    "UpdatedBy": "non",
+    "CreatedBy": "officiis",
+    "TableName": "Spencer-Kiehn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 31
       }
     }
   }

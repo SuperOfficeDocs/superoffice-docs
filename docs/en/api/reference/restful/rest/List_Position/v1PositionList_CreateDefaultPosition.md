@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 846,
-  "Name": "Trantow Group",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "UdListDefinitionId": 420,
-  "Rank": 914,
+  "Id": 929,
+  "Name": "Olson-Ward",
+  "Tooltip": "distinctio",
+  "Deleted": true,
+  "UdListDefinitionId": 375,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldLength": 810
     }
   }
 }

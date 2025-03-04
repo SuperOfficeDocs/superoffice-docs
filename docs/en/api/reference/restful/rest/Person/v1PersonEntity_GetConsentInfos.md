@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 392,
-    "Comment": "aperiam",
-    "Registered": "2009-10-09T12:01:32.9800661+02:00",
-    "RegisteredAssociateId": 466,
-    "Updated": "2011-07-09T12:01:32.9800661+02:00",
-    "UpdatedAssociateId": 153,
-    "LegalBaseId": 200,
-    "LegalBaseKey": "nemo",
-    "LegalBaseName": "Marks LLC",
-    "ConsentPurposeId": 916,
-    "ConsentPurposeKey": "qui",
-    "ConsentPurposeName": "Conn-Gerlach",
-    "ConsentSourceId": 894,
-    "ConsentSourceKey": "pariatur",
-    "ConsentSourceName": "Kuvalis Inc and Sons",
+    "ConsentPersonId": 988,
+    "Comment": "excepturi",
+    "Registered": "2015-10-25T14:13:48.9931539+01:00",
+    "RegisteredAssociateId": 52,
+    "Updated": "2019-09-03T14:13:48.9931539+02:00",
+    "UpdatedAssociateId": 877,
+    "LegalBaseId": 933,
+    "LegalBaseKey": "enim",
+    "LegalBaseName": "Renner-Okuneva",
+    "ConsentPurposeId": 168,
+    "ConsentPurposeKey": "aperiam",
+    "ConsentPurposeName": "Schuster, Harvey and Orn",
+    "ConsentSourceId": 729,
+    "ConsentSourceKey": "qui",
+    "ConsentSourceName": "Torp, Carter and Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

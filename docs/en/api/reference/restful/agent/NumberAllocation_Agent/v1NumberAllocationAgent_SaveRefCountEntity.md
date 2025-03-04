@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 507,
-  "Field": "perspiciatis",
-  "RecordId": 802,
+  "RefCountsId": 157,
+  "Field": "est",
+  "RecordId": 167,
   "SuggestedRecords": [
     {
-      "Id": 16,
-      "Name": "Dach-Dach",
-      "ToolTip": "Natus molestias alias at cumque.",
-      "Deleted": true,
-      "Rank": 954,
-      "Type": "enim",
+      "Id": 169,
+      "Name": "Herzog-Sanford",
+      "ToolTip": "Eveniet voluptatem ea quia.",
+      "Deleted": false,
+      "Rank": 582,
+      "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 176,
-      "ExtraInfo": "nulla",
-      "StyleHint": "soluta",
-      "FullName": "Candida Ondricka"
+      "IconHint": "error",
+      "ColorBlock": 338,
+      "ExtraInfo": "id",
+      "StyleHint": "eos",
+      "FullName": "Prof. Collin Brooklyn Bins IV"
     }
   ],
-  "CurrentValue": 482,
-  "TravelPrefix": 964,
-  "SatPrefix": 881,
-  "Allocate": true,
+  "CurrentValue": 932,
+  "TravelPrefix": 961,
+  "SatPrefix": 866,
+  "Allocate": false,
   "Unique": true,
-  "ReadOnly": true,
+  "ReadOnly": false,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 612,
-  "Field": "possimus",
-  "RecordId": 817,
+  "RefCountsId": 184,
+  "Field": "ut",
+  "RecordId": 309,
   "SuggestedRecords": [
     {
-      "Id": 704,
-      "Name": "Hermann-Schumm",
-      "ToolTip": "Quisquam non iste praesentium.",
+      "Id": 106,
+      "Name": "Runte Group",
+      "ToolTip": "Esse corrupti illum deserunt tempore vero.",
       "Deleted": true,
-      "Rank": 65,
-      "Type": "voluptatem",
+      "Rank": 840,
+      "Type": "ut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "possimus",
-      "ColorBlock": 645,
-      "ExtraInfo": "doloremque",
-      "StyleHint": "quae",
-      "FullName": "Viviane Johnston V",
+      "IconHint": "aut",
+      "ColorBlock": 476,
+      "ExtraInfo": "amet",
+      "StyleHint": "officiis",
+      "FullName": "Riley Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 217
         }
       }
     }
   ],
-  "CurrentValue": 938,
-  "TravelPrefix": 328,
-  "SatPrefix": 377,
+  "CurrentValue": 207,
+  "TravelPrefix": 69,
+  "SatPrefix": 639,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "Unique": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 48
     }
   }
 }

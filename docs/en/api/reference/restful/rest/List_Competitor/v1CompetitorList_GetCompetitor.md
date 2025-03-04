@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320,
-  "Name": "Pfeffer Group",
-  "Tooltip": "sit",
+  "Id": 999,
+  "Name": "Conroy-Wisoky",
+  "Tooltip": "quis",
   "Deleted": true,
-  "UdListDefinitionId": 239,
-  "Rank": 165,
+  "UdListDefinitionId": 806,
+  "Rank": 40,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldLength": 770
     }
   }
 }

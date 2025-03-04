@@ -127,11 +127,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 79
+  "Count": 267
 }
 ```
 
@@ -143,65 +143,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 480,
-    "StartDate": "2000-07-06T12:01:27.3064922+02:00",
-    "EndDate": "2011-05-13T12:01:27.3064922+02:00",
+    "AppointmentId": 204,
+    "StartDate": "2006-06-04T14:13:39.3286178+02:00",
+    "EndDate": "2019-12-15T14:13:39.3286178+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Katrine Konopelski",
-    "ContactName": "Schowalter, Mayer and Erdman",
-    "Description": "Operative tertiary artificial intelligence",
-    "PersonFullName": "Kody Kuvalis",
-    "PersonId": 621,
-    "ContactId": 964,
-    "ProjectId": 495,
-    "ProjectName": "Moore, Wisoky and Parker",
+    "Task": "quis",
+    "AssociateFullName": "Mireille Batz",
+    "ContactName": "Stracke, Cronin and Nikolaus",
+    "Description": "Grass-roots assymetric open architecture",
+    "PersonFullName": "Ms. Lessie Miller",
+    "PersonId": 740,
+    "ContactId": 201,
+    "ProjectId": 647,
+    "ProjectName": "Morissette Group",
     "IsPublished": false,
-    "AssociateId": 265,
-    "ColorIndex": 529,
-    "IsFree": false,
+    "AssociateId": 316,
+    "ColorIndex": 413,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 738,
-    "PriorityName": "Bode-Rodriguez",
+    "PriorityId": 770,
+    "PriorityName": "Brakus, Ritchie and Lang",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-05-28T12:01:27.3221238+02:00",
+    "ActiveDate": "2020-08-08T14:13:39.3286178+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-07-25T12:01:27.3221238+02:00",
-    "RecurringEndDate": "2021-05-02T12:01:27.3221238+02:00",
-    "MotherId": 903,
-    "AssignedBy": 230,
-    "AssignedByFullName": "Jody Stokes",
+    "RecurringStartDate": "1998-12-24T14:13:39.3286178+01:00",
+    "RecurringEndDate": "2009-08-20T14:13:39.3286178+02:00",
+    "MotherId": 706,
+    "AssignedBy": 224,
+    "AssignedByFullName": "Mr. Judy Albin Stokes",
     "RejectReason": "",
-    "Location": "accusamus",
-    "AlarmLeadTime": "molestiae",
-    "SaleId": 597,
-    "SaleName": "Quigley, Gaylord and Roberts",
-    "AssociateName": "Green, Denesik and Grady",
-    "CreatedDate": "2008-11-02T12:01:27.3221238+01:00",
-    "CreatedBy": "minus",
-    "CreatedByFullName": "Robyn Swaniawski V",
-    "CreatedByAssociateId": 398,
+    "Location": "vero",
+    "AlarmLeadTime": "iure",
+    "SaleId": 348,
+    "SaleName": "Schaden, McLaughlin and Kiehn",
+    "AssociateName": "Hegmann Group",
+    "CreatedDate": "2014-11-26T14:13:39.3286178+01:00",
+    "CreatedBy": "perferendis",
+    "CreatedByFullName": "Vance Trevor Klein II",
+    "CreatedByAssociateId": 297,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 953,
-    "Title": "non",
-    "Agenda": "sint",
-    "InternalNotes": "vel",
+    "PreferredTZLocation": 90,
+    "Title": "culpa",
+    "Agenda": "libero",
+    "InternalNotes": "possimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldLength": 891
       }
     }
   }

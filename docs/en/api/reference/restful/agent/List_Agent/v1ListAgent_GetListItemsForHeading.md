@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 294,
-  "HeadingId": 223
+  "UdListDefinitionId": 481,
+  "HeadingId": 958
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Wiegand-Fadel",
-    "ToolTip": "Sequi rerum eaque facere reprehenderit recusandae.",
-    "Deleted": true,
-    "Rank": 981,
-    "Type": "autem",
-    "ColorBlock": 95,
-    "IconHint": "alias",
+    "Id": 890,
+    "Name": "Haley, Franecki and Dibbert",
+    "ToolTip": "Culpa autem laboriosam.",
+    "Deleted": false,
+    "Rank": 687,
+    "Type": "soluta",
+    "ColorBlock": 668,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2002-04-06T12:01:27.9471677+02:00",
+    "LastChanged": "2011-03-29T14:13:40.4847118+02:00",
     "ChildItems": [
       {
-        "Id": 311,
-        "Name": "Brown, Larson and Reinger",
-        "ToolTip": "Sed ut quasi rerum.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "quibusdam",
-        "ColorBlock": 540,
-        "IconHint": "unde",
+        "Id": 950,
+        "Name": "Schulist-Robel",
+        "ToolTip": "Alias ullam sit repellendus nam modi.",
+        "Deleted": false,
+        "Rank": 956,
+        "Type": "et",
+        "ColorBlock": 679,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2009-10-13T12:01:27.9471677+02:00",
+        "LastChanged": "2005-04-01T14:13:40.4847118+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "sunt",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Vada Stoltenberg",
+        "FullName": "Dr. Chauncey Glennie Harber II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldType": "System.String",
+            "FieldLength": 306
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "blanditiis",
+    "ExtraInfo": "odio",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Henri Marks",
+    "FullName": "Mr. Tessie Watson Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 776
       }
     }
   }

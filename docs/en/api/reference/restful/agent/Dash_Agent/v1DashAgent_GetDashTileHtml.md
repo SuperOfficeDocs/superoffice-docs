@@ -79,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 67,
-  "LanguageCode": "magni"
+  "DashboardTileDefinitionId": 16,
+  "LanguageCode": "non"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "et",
-  "Html": "voluptatum",
+  "LanguageCode": "sunt",
+  "Html": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldLength": 972
     }
   }
 }

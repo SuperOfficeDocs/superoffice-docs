@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 928,
+  "RowCount": 469,
   "Rows": [
     {
-      "EntityName": "Schowalter Inc and Sons",
-      "PrimaryKey": 909,
+      "EntityName": "Romaguera-Ebert",
+      "PrimaryKey": 42,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "consectetur",
-          "LinkHint": "alias"
+          "DisplayValue": "exercitationem",
+          "TooltipHint": "pariatur",
+          "LinkHint": "aut"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "est",
+      "LinkHint": "quidem",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 587
+          "FieldType": "System.String",
+          "FieldLength": 748
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldLength": 431
     }
   }
 }

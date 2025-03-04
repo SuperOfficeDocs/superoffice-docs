@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,31 +83,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 960,
-  "Name": "Klein-Price",
-  "Rank": 815,
-  "Tooltip": "necessitatibus",
-  "Icon": "officiis",
-  "DefaultTicketStatus": 314,
+  "TicketTypeId": 58,
+  "Name": "Harvey, Sanford and Schumm",
+  "Rank": 375,
+  "Tooltip": "sed",
+  "Icon": "ut",
+  "DefaultTicketStatus": 1000,
   "TicketStatuses": [
-    71,
-    518
+    745,
+    301
   ],
-  "DefaultTicketPriority": 773,
+  "DefaultTicketPriority": 43,
   "TicketPriorities": [
-    906,
-    461
+    165,
+    715
   ],
-  "ReplyTemplate": 324,
+  "ReplyTemplate": 667,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    197,
-    860
+    895,
+    162
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 751
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Name": "Howe-Mertz",
-    "ToolTip": "Excepturi ut ea ut.",
-    "Deleted": true,
-    "Rank": 777,
-    "Type": "molestiae",
-    "ColorBlock": 873,
-    "IconHint": "autem",
+    "Id": 82,
+    "Name": "Bashirian LLC",
+    "ToolTip": "Quasi non.",
+    "Deleted": false,
+    "Rank": 572,
+    "Type": "ducimus",
+    "ColorBlock": 911,
+    "IconHint": "facilis",
     "Selected": false,
-    "LastChanged": "2016-01-19T12:01:33.495727+01:00",
+    "LastChanged": "2024-08-25T14:13:49.9469396+02:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Bashirian LLC",
-        "ToolTip": "Eum suscipit porro rerum qui est cupiditate asperiores.",
+        "Id": 848,
+        "Name": "Gutkowski-Abshire",
+        "ToolTip": "Minus ad suscipit.",
         "Deleted": false,
-        "Rank": 762,
-        "Type": "repellendus",
-        "ColorBlock": 136,
-        "IconHint": "non",
+        "Rank": 378,
+        "Type": "ex",
+        "ColorBlock": 372,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2017-11-18T12:01:33.495727+01:00",
+        "LastChanged": "2013-11-17T14:13:49.9469396+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "fugit",
+        "ExtraInfo": "quia",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Dr. Gisselle Junior Wehner"
+        "FullName": "Laurianne Herman"
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Tony Raynor DVM"
+    "ExtraInfo": "sit",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Verna Gregg Bradtke DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Crist Group",
-    "ToolTip": "Fuga et deserunt necessitatibus.",
+    "Id": 264,
+    "Name": "Schmeler-Rogahn",
+    "ToolTip": "Aut mollitia quia aut natus optio.",
     "Deleted": false,
-    "Rank": 132,
-    "Type": "harum",
-    "ColorBlock": 594,
-    "IconHint": "facere",
+    "Rank": 876,
+    "Type": "dolorem",
+    "ColorBlock": 702,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2023-08-24T12:01:33.495727+02:00",
+    "LastChanged": "2012-01-05T14:13:49.9469396+01:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Sunt qui nostrum fugiat.",
-        "Deleted": false,
-        "Rank": 288,
-        "Type": "laboriosam",
-        "ColorBlock": 222,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "2015-08-08T12:01:33.495727+02:00",
+        "Id": 631,
+        "Name": "Goyette, Rippin and Wintheiser",
+        "ToolTip": "Magnam repudiandae nemo doloremque corrupti consequuntur amet.",
+        "Deleted": true,
+        "Rank": 101,
+        "Type": "provident",
+        "ColorBlock": 429,
+        "IconHint": "doloremque",
+        "Selected": false,
+        "LastChanged": "2011-08-10T14:13:49.9469396+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "impedit",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "nobis",
         "Hidden": false,
-        "FullName": "Mrs. Nella Kendrick Price PhD",
+        "FullName": "Mollie DuBuque PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 929
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "minima",
+    "ExtraInfo": "neque",
+    "StyleHint": "dignissimos",
     "Hidden": true,
-    "FullName": "Marley Monahan",
+    "FullName": "Prof. Bridgette Otto Mitchell III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldType": "System.String",
+        "FieldLength": 590
       }
     }
   }

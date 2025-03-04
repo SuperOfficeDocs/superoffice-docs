@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 362,
-  "Year": 70,
+  "TargetGroupId": 964,
+  "Year": 46,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 910,
+      "TargetAssignmentInfoId": 937,
       "Values": [
-        505,
-        847
+        991,
+        586
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 81,
-      "DimensionListItemDisplayName": "Simonis Group"
+      "DimensionListItem": 3,
+      "DimensionListItemDisplayName": "Swift-Schulist"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 715,
+  "TargetGroupId": 845,
   "Year": 365,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 422,
+      "TargetAssignmentInfoId": 923,
       "Values": [
-        599,
-        544
+        962,
+        134
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 998,
-      "DimensionListItemDisplayName": "Stark Group",
+      "DimensionListItem": 278,
+      "DimensionListItemDisplayName": "Stiedemann, Haley and Turner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 202
+          "FieldType": "System.String",
+          "FieldLength": 434
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldLength": 71
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Project/ValidateProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "non"
+  "1": "qui",
+  "2": "aliquam"
 }
 ```

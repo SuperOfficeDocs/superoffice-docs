@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 785,
-  "ERPProductKey": "aut",
-  "ERPPriceListKey": "fugiat",
-  "Name": "Bernhard Inc and Sons",
-  "Description": "Sharable full-range data-warehouse",
-  "Code": "libero",
-  "PriceUnit": "in",
-  "QuantityUnit": "earum",
+  "ProductId": 839,
+  "ERPProductKey": "explicabo",
+  "ERPPriceListKey": "est",
+  "Name": "Hickle, Collins and Strosin",
+  "Description": "Front-line human-resource database",
+  "Code": "provident",
+  "PriceUnit": "id",
+  "QuantityUnit": "perspiciatis",
   "IsSubscription": false,
-  "SubscriptionUnit": "consequatur",
-  "DefaultSubscriptionQuantity": 15811.029999999999,
-  "ItemNumber": "1605998",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 27331.613999999998,
+  "ItemNumber": "711265",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cupiditate",
-  "ProductTypeKey": "tenetur",
-  "VAT": 4121.21,
-  "VATInfo": "molestias",
-  "UnitCost": 1823.9879999999998,
-  "UnitMinimumPrice": 14018.382,
-  "UnitListPrice": 21809.505999999998,
+  "ProductFamilyKey": "blanditiis",
+  "ProductTypeKey": "voluptas",
+  "VAT": 1313.146,
+  "VATInfo": "dolorem",
+  "UnitCost": 25300.782,
+  "UnitMinimumPrice": 11830.85,
+  "UnitListPrice": 27569.798,
   "InAssortment": false,
-  "Supplier": "quos",
-  "SupplierCode": "aliquid",
-  "Rights": "omnis",
-  "Rule": "illum",
+  "Supplier": "et",
+  "SupplierCode": "rerum",
+  "Rights": "et",
+  "Rule": "sunt",
   "ExtraInfo": [
     {
-      "Name": "Leannon-Lindgren",
-      "Value": "vitae",
+      "Name": "Denesik Inc and Sons",
+      "Value": "placeat",
       "Type": "Image"
     },
     {
-      "Name": "Leannon-Lindgren",
-      "Value": "vitae",
+      "Name": "Denesik Inc and Sons",
+      "Value": "placeat",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "fugiat",
-  "ExtraField1": "architecto",
-  "ExtraField2": "quia",
-  "ExtraField3": "atque",
-  "ExtraField4": "dolore",
-  "ExtraField5": "consequatur",
-  "InStock": 28845.336
+  "RawExtraInfo": "ea",
+  "ExtraField1": "esse",
+  "ExtraField2": "ipsam",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "voluptatibus",
+  "ExtraField5": "vitae",
+  "InStock": 2667.034
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 36,
-  "ERPProductKey": "sunt",
-  "ERPPriceListKey": "facilis",
-  "Name": "Abshire Group",
-  "Description": "Open-architected content-based pricing structure",
-  "Code": "velit",
-  "PriceUnit": "at",
-  "QuantityUnit": "cupiditate",
+  "ProductId": 839,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "autem",
+  "Name": "Orn-Abernathy",
+  "Description": "Digitized 6th generation encryption",
+  "Code": "id",
+  "PriceUnit": "enim",
+  "QuantityUnit": "aliquam",
   "IsSubscription": true,
-  "SubscriptionUnit": "cupiditate",
-  "DefaultSubscriptionQuantity": 6581.4,
-  "ItemNumber": "1246578",
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 727.088,
+  "ItemNumber": "200104",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quibusdam",
-  "ProductTypeKey": "illum",
-  "VAT": 6781.976,
-  "VATInfo": "ipsum",
-  "UnitCost": 25172.288,
-  "UnitMinimumPrice": 25338.39,
-  "UnitListPrice": 20837.966,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "dicta",
+  "VAT": 19919.703999999998,
+  "VATInfo": "necessitatibus",
+  "UnitCost": 10884.382,
+  "UnitMinimumPrice": 197.442,
+  "UnitListPrice": 20875.574,
   "InAssortment": false,
-  "Supplier": "nostrum",
-  "SupplierCode": "fugiat",
-  "Rights": "ullam",
-  "Rule": "rem",
+  "Supplier": "odio",
+  "SupplierCode": "dolor",
+  "Rights": "rerum",
+  "Rule": "laborum",
   "ExtraInfo": [
     {
-      "Name": "Rowe-Fay",
-      "Value": "soluta",
+      "Name": "Gleichner, Hudson and Bruen",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 808
         }
       }
     },
     {
-      "Name": "Rowe-Fay",
-      "Value": "soluta",
+      "Name": "Gleichner, Hudson and Bruen",
+      "Value": "dolorem",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 808
         }
       }
     }
   ],
-  "RawExtraInfo": "optio",
-  "ExtraField1": "sunt",
-  "ExtraField2": "quaerat",
-  "ExtraField3": "eum",
-  "ExtraField4": "et",
-  "ExtraField5": "vero",
-  "InStock": 16215.315999999999,
+  "RawExtraInfo": "dolorum",
+  "ExtraField1": "fugiat",
+  "ExtraField2": "veritatis",
+  "ExtraField3": "nobis",
+  "ExtraField4": "non",
+  "ExtraField5": "voluptatum",
+  "InStock": 20452.484,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 30
+      "FieldLength": 762
     }
   }
 }

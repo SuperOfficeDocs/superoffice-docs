@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "culpa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "culpa",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 808,
-  "Name": "Glover, Schmitt and Mayert",
-  "Tooltip": "deserunt",
+  "RoleId": 568,
+  "Name": "Rempel LLC",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 966,
-  "Rank": 858,
-  "Created": "2021-08-18T12:01:33.0425704+02:00",
-  "UseCategories": 956,
+  "Deleted": 612,
+  "Rank": 362,
+  "Created": "2006-05-14T14:13:49.1025081+02:00",
+  "UseCategories": 21,
   "CreatedBy": null,
-  "Updated": "2017-02-12T12:01:33.0425704+01:00",
+  "Updated": "2021-04-08T14:13:49.1025081+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 419
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -168,11 +168,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quasi",
-  "ProviderName": "Mueller-Leuschke",
-  "DesiredColumns": "delectus",
-  "PageSize": 925,
-  "PageNumber": 496
+  "Restrictions": "labore",
+  "ProviderName": "Volkman-Hintz",
+  "DesiredColumns": "iure",
+  "PageSize": 95,
+  "PageNumber": 304
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koch-O'Conner",
-      "DisplayTooltip": "quia",
-      "DisplayType": "qui",
+      "DisplayName": "Jerde-Ratke",
+      "DisplayTooltip": "eius",
+      "DisplayType": "molestiae",
       "CanOrderBy": false,
-      "Name": "Wisozk, Schaefer and Nikolaus",
+      "Name": "Strosin-Gusikowski",
       "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Koch Group",
+      "RestrictionType": "ad",
+      "RestrictionListName": "O'Conner-Swaniawski",
       "IsVisible": false,
-      "ExtraInfo": "laboriosam",
-      "Width": "exercitationem",
-      "IconHint": "eum",
-      "HeadingIconHint": "rerum"
+      "ExtraInfo": "labore",
+      "Width": "aliquid",
+      "IconHint": "nostrum",
+      "HeadingIconHint": "voluptates"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rice, Quitzon and Robel",
-      "PrimaryKey": 131,
+      "EntityName": "Ratke, Bernhard and Parker",
+      "PrimaryKey": 326,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quae",
-          "TooltipHint": "sunt",
-          "LinkHint": "atque"
+          "DisplayValue": "ab",
+          "TooltipHint": "ea",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "numquam",
+      "LinkHint": "voluptas",
+      "StyleHint": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 45
         }
       }
     }
   ],
-  "RowCount": 774,
+  "RowCount": 265,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 284
     }
   }
 }

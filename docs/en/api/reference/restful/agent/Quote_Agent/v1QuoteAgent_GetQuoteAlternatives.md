@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 288
+  "QuoteVersionId": 44
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 205,
-    "ERPQuoteAlternativeKey": "deleniti",
-    "QuoteVersionId": 147,
-    "Name": "Huels-Pagac",
-    "Description": "Customizable impactful instruction set",
+    "QuoteAlternativeId": 970,
+    "ERPQuoteAlternativeKey": "facilis",
+    "QuoteVersionId": 210,
+    "Name": "Reinger LLC",
+    "Description": "Fully-configurable multi-tasking synergy",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 8530.748,
-    "ERPDiscountAmount": 739.624,
-    "DiscountPercent": 12382.434,
-    "DiscountAmount": 1219.126,
+    "ERPDiscountPercent": 3406.658,
+    "ERPDiscountAmount": 16102.492,
+    "DiscountPercent": 24288.5,
+    "DiscountAmount": 22147.978,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "minus",
-    "VAT": 3428.596,
-    "EarningPercent": 8574.624,
-    "EarningAmount": 29531.682,
-    "SubTotal": 2466.458,
-    "TotalPrice": 7280.282,
-    "ExtraField1": "tempore",
-    "ExtraField2": "illum",
-    "ExtraField3": "eos",
-    "ExtraField4": "rerum",
-    "ExtraField5": "pariatur",
+    "VATInfo": "sit",
+    "VAT": 28970.696,
+    "EarningPercent": 29509.744,
+    "EarningAmount": 24172.541999999998,
+    "SubTotal": 2983.5679999999998,
+    "TotalPrice": 7493.3939999999993,
+    "ExtraField1": "aut",
+    "ExtraField2": "id",
+    "ExtraField3": "ratione",
+    "ExtraField4": "animi",
+    "ExtraField5": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 178
       }
     }
   }

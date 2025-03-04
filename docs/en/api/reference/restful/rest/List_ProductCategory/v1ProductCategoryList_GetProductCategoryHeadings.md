@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "Ward, Ryan and Braun",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 845,
-    "UdListDefinitionId": 541,
+    "HeadingId": 491,
+    "Name": "Senger LLC",
+    "Tooltip": "enim",
+    "Deleted": false,
+    "Rank": 98,
+    "UdListDefinitionId": 155,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldLength": 921
       }
     }
   }

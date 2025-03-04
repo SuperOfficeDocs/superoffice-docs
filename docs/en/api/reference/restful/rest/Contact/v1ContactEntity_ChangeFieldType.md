@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 854,
-  "ColumnId": 499,
-  "FieldDefault": "voluptatum",
-  "FieldHeight": 240,
-  "FieldLabel": "amet",
-  "FieldLeft": 212,
-  "FieldTop": 235,
+  "UDefFieldId": 449,
+  "ColumnId": 262,
+  "FieldDefault": "harum",
+  "FieldHeight": 175,
+  "FieldLabel": "quia",
+  "FieldLeft": 659,
+  "FieldTop": 604,
   "FieldType": "Checkbox",
-  "FieldWidth": 725,
-  "FormatMask": "non",
-  "HideLabel": true,
+  "FieldWidth": 394,
+  "FormatMask": "dolor",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 880,
-  "LabelLeft": 886,
-  "LabelTop": 314,
-  "LabelWidth": 920,
-  "LastVersionId": 375,
-  "ListTableId": 92,
-  "IsMandatory": true,
+  "LabelHeight": 132,
+  "LabelLeft": 857,
+  "LabelTop": 956,
+  "LabelWidth": 334,
+  "LastVersionId": 373,
+  "ListTableId": 440,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 328,
-  "ProgId": "amet",
+  "Page1LineNo": 443,
+  "ProgId": "blanditiis",
   "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 877,
-  "TextLength": 375,
-  "Tooltip": "est",
-  "UdefIdentity": 227,
-  "UDListDefinitionId": 983,
+  "ShortLabel": "illo",
+  "TabOrder": 353,
+  "TextLength": 643,
+  "Tooltip": "hic",
+  "UdefIdentity": 588,
+  "UDListDefinitionId": 643,
   "Justification": "Center",
-  "Version": 546,
-  "TemplateVariableName": "Mayer, Hoppe and Bartoletti",
+  "Version": 274,
+  "TemplateVariableName": "Abernathy, Reilly and Mitchell",
   "HasBeenPublished": false,
-  "MdoListName": "Rowe-Schroeder",
+  "MdoListName": "Hessel Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 997
     }
   }
 }

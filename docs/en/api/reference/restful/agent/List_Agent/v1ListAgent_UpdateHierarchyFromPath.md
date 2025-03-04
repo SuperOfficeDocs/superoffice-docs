@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quaerat",
+  "Path": "aut",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 388,
+  "HierarchyId": 147,
   "Domain": "Dashboards",
-  "Name": "Hoppe-Kessler",
-  "Fullname": "in",
-  "ParentId": 476,
+  "Name": "Reichert-Stanton",
+  "Fullname": "nihil",
+  "ParentId": 30,
   "Children": [
     {
-      "HierarchyId": 90,
+      "HierarchyId": 721,
       "Domain": "Dashboards",
-      "Name": "Koch-Yundt",
-      "Fullname": "et",
-      "ParentId": 314,
+      "Name": "Rempel, Marquardt and Effertz",
+      "Fullname": "veniam",
+      "ParentId": 848,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-11-21T12:01:27.97842+01:00",
-      "RegisteredAssociateId": 567,
-      "Updated": "2018-06-28T12:01:27.97842+02:00",
-      "UpdatedAssociateId": 458,
+      "Registered": "2012-04-30T14:13:40.5315763+02:00",
+      "RegisteredAssociateId": 891,
+      "Updated": "2012-09-16T14:13:40.5315763+02:00",
+      "UpdatedAssociateId": 236,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 225
         }
       }
     }
   ],
-  "Registered": "2000-05-14T12:01:27.97842+02:00",
-  "RegisteredAssociateId": 150,
-  "Updated": "2004-12-12T12:01:27.97842+01:00",
-  "UpdatedAssociateId": 639,
+  "Registered": "2007-02-11T14:13:40.5315763+01:00",
+  "RegisteredAssociateId": 78,
+  "Updated": "2004-05-01T14:13:40.5315763+02:00",
+  "UpdatedAssociateId": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 62
+      "FieldLength": 281
     }
   }
 }

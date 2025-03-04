@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Thiel LLC",
-  "StorageKey": "quia"
+  "StorageType": "nemo",
+  "ProviderName": "Bogan Inc and Sons",
+  "StorageKey": "consequatur"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Huels-Harris",
-    "DisplayTooltip": "iste",
-    "DisplayType": "iure",
+    "DisplayName": "Beatty LLC",
+    "DisplayTooltip": "asperiores",
+    "DisplayType": "nulla",
     "CanOrderBy": false,
-    "Name": "Kemmer-Haag",
+    "Name": "Heathcote, Ryan and Hane",
     "CanRestrictBy": false,
-    "RestrictionType": "accusantium",
-    "RestrictionListName": "Zulauf, Senger and Barrows",
-    "IsVisible": false,
-    "ExtraInfo": "facere",
-    "Width": "velit",
-    "IconHint": "error",
-    "HeadingIconHint": "totam"
+    "RestrictionType": "eum",
+    "RestrictionListName": "Frami, Batz and Zulauf",
+    "IsVisible": true,
+    "ExtraInfo": "iusto",
+    "Width": "molestiae",
+    "IconHint": "mollitia",
+    "HeadingIconHint": "officiis"
   }
 ]
 ```

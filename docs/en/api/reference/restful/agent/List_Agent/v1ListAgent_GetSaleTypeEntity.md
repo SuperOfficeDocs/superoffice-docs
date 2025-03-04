@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=259
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=424
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 530,
-  "Name": "Davis, Conroy and Corwin",
-  "Tooltip": "aut",
-  "Rank": 880,
+  "SaleTypeId": 491,
+  "Name": "Kerluke-Cronin",
+  "Tooltip": "porro",
+  "Rank": 970,
   "DurationUnit": "Century",
-  "SaleDuration": 179,
-  "SaleTypeCatId": 693,
-  "Deleted": true,
+  "SaleDuration": 193,
+  "SaleTypeCatId": 699,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 784,
-  "QuoteLinesTemplate": 718,
-  "ConfirmationLinesTemplate": 370,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 124,
-  "MinEarningPercent": 150,
-  "GroupQuoteLinesBy": 170,
-  "SortGroupLinesBy": 30,
+  "DefaultQuoteValidity": 264,
+  "QuoteLinesTemplate": 357,
+  "ConfirmationLinesTemplate": 195,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 622,
+  "MinEarningPercent": 954,
+  "GroupQuoteLinesBy": 961,
+  "SortGroupLinesBy": 424,
   "Stages": [
     {
-      "Id": 425,
-      "Name": "Welch, Ernser and Davis",
-      "ToolTip": "Odit consequatur et et.",
+      "Id": 135,
+      "Name": "Quigley LLC",
+      "ToolTip": "Odit ea.",
       "Deleted": false,
-      "Rank": 994,
-      "Type": "soluta",
-      "ColorBlock": 236,
-      "IconHint": "maiores",
-      "Selected": true,
-      "LastChanged": "2011-04-12T12:01:27.9315414+02:00",
+      "Rank": 623,
+      "Type": "eum",
+      "ColorBlock": 271,
+      "IconHint": "sint",
+      "Selected": false,
+      "LastChanged": "2011-03-08T14:13:40.4534691+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
-      "StyleHint": "deserunt",
-      "Hidden": true,
-      "FullName": "Shane Mayer",
+      "ExtraInfo": "molestias",
+      "StyleHint": "alias",
+      "Hidden": false,
+      "FullName": "Bridie Ricardo Kassulke II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 430
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

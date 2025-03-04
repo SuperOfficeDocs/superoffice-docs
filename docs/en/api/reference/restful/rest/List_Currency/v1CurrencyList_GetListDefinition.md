@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
-  "Name": "Schimmel, Johnston and Kilback",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "Rank": 667,
-  "IsCustomList": false,
+  "Id": 219,
+  "Name": "Heidenreich-Hahn",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 545,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repellendus",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldLength": 422
     }
   },
   "_Links": {

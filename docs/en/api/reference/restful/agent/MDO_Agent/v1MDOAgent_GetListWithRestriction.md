@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cremin, Stanton and Rogahn",
-  "AdditionalInfo": "laboriosam",
-  "SearchValue": "et"
+  "Name": "Zemlak-Gislason",
+  "AdditionalInfo": "ab",
+  "SearchValue": "laudantium"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Nienow, Purdy and Cummings",
-    "ToolTip": "Deserunt quos mollitia qui assumenda velit in.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "inventore",
+    "Id": 615,
+    "Name": "Huels, Harvey and Pfeffer",
+    "ToolTip": "Nihil corporis cum pariatur quidem deleniti.",
+    "Deleted": true,
+    "Rank": 516,
+    "Type": "dolores",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Murray, Eichmann and Tremblay",
-        "ToolTip": "Perferendis nihil porro provident voluptas quam.",
+        "Id": 793,
+        "Name": "Cremin-Bauch",
+        "ToolTip": "Et odio maiores qui.",
         "Deleted": true,
-        "Rank": 962,
-        "Type": "accusantium",
+        "Rank": 966,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 418,
-        "ExtraInfo": "unde",
-        "StyleHint": "illo",
-        "FullName": "Verna Hallie Smitham MD",
+        "IconHint": "libero",
+        "ColorBlock": 10,
+        "ExtraInfo": "omnis",
+        "StyleHint": "laudantium",
+        "FullName": "Kiley Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 6
+            "FieldLength": 868
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 498,
-    "ExtraInfo": "dolores",
-    "StyleHint": "est",
-    "FullName": "Mr. Delores Adonis Kuvalis II",
+    "IconHint": "dolores",
+    "ColorBlock": 91,
+    "ExtraInfo": "est",
+    "StyleHint": "eum",
+    "FullName": "Johnpaul Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 63
       }
     }
   }

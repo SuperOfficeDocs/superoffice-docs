@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 696,
+  "SelectionId": 615,
   "SelectionMemberIds": [
-    55,
-    609
+    885,
+    541
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic human-resource orchestration",
-  "Postit": "recusandae",
+  "Description": "Realigned object-oriented service-desk",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 147,
-  "IncludePerson": 275,
+  "GroupIdx": 736,
+  "IncludePerson": 915,
   "MemberCount": 99.99,
-  "Name": "Balistreri Group",
-  "PostitTextId": 336,
-  "CreatedDate": "2006-09-30T12:01:28.3065684+02:00",
-  "SelectionId": 756,
-  "SoundEx": "et",
-  "Source": 516,
-  "TextId": 373,
-  "UpdatedDate": "2016-09-10T12:01:28.3065684+02:00",
-  "UpdatedCount": 974,
-  "Visibility": 642,
+  "Name": "Effertz Inc and Sons",
+  "PostitTextId": 890,
+  "CreatedDate": "2004-07-16T14:13:41.3133469+02:00",
+  "SelectionId": 162,
+  "SoundEx": "quos",
+  "Source": 599,
+  "TextId": 827,
+  "UpdatedDate": "2001-01-26T14:13:41.3133469+01:00",
+  "UpdatedCount": 665,
+  "Visibility": 750,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 650,
-  "TargetTableName": "Keebler Group",
+  "TargetTableNumber": 745,
+  "TargetTableName": "Daugherty-Collins",
   "Completed": true,
-  "LeftSelectionId": 902,
-  "RightSelectionId": 890,
+  "LeftSelectionId": 628,
+  "RightSelectionId": 785,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cummerata-Shanahan",
-  "ShadowProviderName": "Haag-O'Keefe",
-  "ChartKey": "laboriosam",
-  "LastLoaded": "1999-06-26T12:01:28.3065684+02:00",
-  "LastLoadedBy": 126,
+  "MainProviderName": "Gorczany, Fisher and Moore",
+  "ShadowProviderName": "Schneider, Lesch and Schmitt",
+  "ChartKey": "aut",
+  "LastLoaded": "2006-06-12T14:13:41.3133469+02:00",
+  "LastLoadedBy": 59,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-02-16T12:01:28.3065684+01:00",
-  "LastMembershipChangeBy": 149,
+  "LastMembershipChange": "2024-05-13T14:13:41.3133469+02:00",
+  "LastMembershipChangeBy": 142,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Prosacco, Lowe and Gerlach",
-  "DashboardTileDefinitionId": 368,
+  "MainHeading": "aut",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Kiehn, Kreiger and McLaughlin",
+  "DashboardTileDefinitionId": 295,
   "VisibleFor": [
     {
-      "VisibleId": 7,
+      "VisibleId": 643,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 281
         }
       }
     },
     {
-      "VisibleId": 7,
+      "VisibleId": 643,
       "Visibility": "All",
-      "DisplayValue": "magnam",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 281
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 483
     }
   }
 }

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 203,
-  "IncludeNonInlineAttachmentsInfo": true
+  "TicketMessageEntityId": 476,
+  "IncludeNonInlineAttachmentsInfo": false
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 416,
+  "EjMessageId": 35,
   "Ticket": null,
-  "CreatedAt": "2019-10-07T12:01:28.3378207+02:00",
+  "CreatedAt": "2024-08-29T14:13:41.3914541+02:00",
   "CreatedBy": null,
-  "Author": "quia",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "molestiae",
-  "TimeSpent": 736,
-  "Body": "aut",
-  "HtmlBody": "dignissimos",
-  "EmailHeader": "freddie@schulistromaguera.ca",
-  "DebugInfo": "est",
-  "MailSorter": "adipisci",
+  "MessageId": "est",
+  "TimeSpent": 254,
+  "Body": "magni",
+  "HtmlBody": "voluptatem",
+  "EmailHeader": "walton_deckow@hudsonrice.us",
+  "DebugInfo": "et",
+  "MailSorter": "quo",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "odit",
+  "SearchTitle": "hic",
   "MessageHeaders": [
     {
-      "Id": 652,
-      "Name": "Yundt, Parisian and Carter",
-      "Value": "voluptas",
+      "Id": 375,
+      "Name": "Hammes-Renner",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldLength": 809
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "impedit",
-  "Sentiment": 183,
-  "SentimentConfidence": 961,
+  "Important": false,
+  "Language": "delectus",
+  "Sentiment": 199,
+  "SentimentConfidence": 222,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 532,
-      "Name": "Farrell, Beahan and Hickle",
-      "ContentType": "dolores",
-      "AttSize": 621,
+      "AttachmentId": 103,
+      "Name": "Abernathy Inc and Sons",
+      "ContentType": "minima",
+      "AttSize": 738,
       "InlineImage": true,
-      "ContentId": "saepe",
-      "AuthKey": "veritatis",
+      "ContentId": "voluptatibus",
+      "AuthKey": "ipsa",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldType": "System.Int32",
+          "FieldLength": 340
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "et",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "quo",
+    "CustomFields2": "tempora"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 548
     }
   }
 }

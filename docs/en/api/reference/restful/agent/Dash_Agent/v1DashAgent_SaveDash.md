@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 736,
-  "UniqueId": "commodi",
-  "Name": "Wuckert LLC",
-  "Description": "Profit-focused 6th generation flexibility",
-  "AssociateId": 839,
-  "Columns": 389,
+  "DashboardId": 835,
+  "UniqueId": "est",
+  "Name": "Mante Inc and Sons",
+  "Description": "Multi-layered encompassing throughput",
+  "AssociateId": 35,
+  "Columns": 332,
   "Theme": null,
-  "VisibleForAll": 623,
+  "VisibleForAll": 548,
   "VisibleForAssociates": [
-    86,
-    398
+    565,
+    1001
   ],
   "VisibleForGroups": [
-    699,
-    874
+    467,
+    535
   ],
-  "PinForAll": 254,
+  "PinForAll": 665,
   "PinForAssociates": [
-    657,
-    431
+    633,
+    454
   ],
   "PinForGroups": [
-    103,
-    293
+    720,
+    128
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 880,
-  "UniqueId": "provident",
-  "Name": "Gislason LLC",
-  "Description": "Organized uniform throughput",
-  "AssociateId": 589,
-  "Columns": 969,
+  "DashboardId": 378,
+  "UniqueId": "cumque",
+  "Name": "Kovacek, Shields and Kessler",
+  "Description": "Balanced bandwidth-monitored hub",
+  "AssociateId": 906,
+  "Columns": 167,
   "Theme": null,
-  "VisibleForAll": 359,
+  "VisibleForAll": 637,
   "VisibleForAssociates": [
-    447,
-    43
+    309,
+    921
   ],
   "VisibleForGroups": [
-    569,
-    144
+    39,
+    53
   ],
-  "PinForAll": 572,
+  "PinForAll": 70,
   "PinForAssociates": [
-    440,
-    328
+    905,
+    33
   ],
   "PinForGroups": [
-    728,
-    209
+    19,
+    168
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

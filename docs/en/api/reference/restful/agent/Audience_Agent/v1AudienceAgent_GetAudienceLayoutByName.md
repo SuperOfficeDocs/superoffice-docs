@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hartmann-Yundt"
+  "LayoutName": "Kling, Powlowski and Gleichner"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 205,
-  "InstanceLayout": "quisquam",
-  "InstanceName": "Treutel, Maggio and Boyle",
-  "CreatedDate": "2009-12-30T12:01:27.3377499+01:00",
-  "UpdatedDate": "2017-01-23T12:01:27.3377499+01:00",
+  "AudienceLayoutId": 514,
+  "InstanceLayout": "quia",
+  "InstanceName": "Fadel-O'Conner",
+  "CreatedDate": "2002-10-22T14:13:39.3754818+02:00",
+  "UpdatedDate": "2018-07-16T14:13:39.3754818+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   }
 }

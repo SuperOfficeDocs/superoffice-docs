@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "653-100-8846 x836",
-    "PersonCellPhone": "114-847-5828",
-    "PersonPrivatePhone": "(885)779-0779 x24172",
-    "PersonFaxNumber": "1364280",
-    "PersonPagerNumber": "924203",
-    "PersonEmail": "macy@stantonsipes.uk",
-    "Id": 120,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "assumenda",
-    "UniqueId": "corporis",
+    "PersonDirectPhone": "(693)986-3321 x63121",
+    "PersonCellPhone": "511-069-6860 x3557",
+    "PersonPrivatePhone": "1-501-132-8531 x3331",
+    "PersonFaxNumber": "1197647",
+    "PersonPagerNumber": "881701",
+    "PersonEmail": "jerad.kreiger@rodriguez.name",
+    "Id": 406,
+    "Name": "Trantow-McClure",
+    "Tooltip": "iusto",
+    "UniqueId": "vero",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 654
       }
     }
   }

@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Thompson-Goodwin",
-  "Language": "atque"
+  "TemplateName": "O'Keefe, Schamberger and Spencer",
+  "Language": "id"
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 448,
-      "ContactName": "Harber-Senger",
-      "PersonId": 802,
-      "PersonName": "Russel, Balistreri and Denesik",
-      "AssociateId": 946,
-      "Address": "dolores",
-      "EmailId": 302,
+      "ContactId": 356,
+      "ContactName": "Stehr, Rolfson and Wyman",
+      "PersonId": 904,
+      "PersonName": "Armstrong LLC",
+      "AssociateId": 755,
+      "Address": "qui",
+      "EmailId": 366,
       "DuplicatePersonIds": [
-        617,
-        418
+        854,
+        238
       ],
-      "Name": "Cremin, Adams and Abbott",
+      "Name": "Waelchi Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 501
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 262,
-      "ContactName": "Green-Homenick",
-      "PersonId": 525,
-      "PersonName": "Kunde LLC",
-      "AssociateId": 660,
-      "Address": "et",
-      "EmailId": 686,
+      "ContactId": 455,
+      "ContactName": "Huels Inc and Sons",
+      "PersonId": 177,
+      "PersonName": "Marvin, Funk and Gusikowski",
+      "AssociateId": 155,
+      "Address": "aut",
+      "EmailId": 820,
       "DuplicatePersonIds": [
-        275,
-        205
+        70,
+        509
       ],
-      "Name": "Hartmann-Collins",
+      "Name": "Homenick, Bogan and Medhurst",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 643
+          "FieldLength": 541
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 932,
-      "ContactName": "Labadie LLC",
-      "PersonId": 624,
-      "PersonName": "Roberts, Gutmann and Russel",
-      "AssociateId": 72,
-      "Address": "in",
-      "EmailId": 277,
+      "ContactId": 412,
+      "ContactName": "Williamson Group",
+      "PersonId": 949,
+      "PersonName": "Ratke-Heidenreich",
+      "AssociateId": 701,
+      "Address": "error",
+      "EmailId": 666,
       "DuplicatePersonIds": [
-        468,
-        751
+        292,
+        530
       ],
-      "Name": "Quigley-Aufderhar",
+      "Name": "Cartwright-Murazik",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     }
   ],
-  "Subject": "eos",
-  "HTMLBody": "itaque",
+  "Subject": "ipsam",
+  "HTMLBody": "at",
   "From": null,
-  "Sent": "2000-04-17T12:01:27.2908716+02:00",
-  "Size": 668,
+  "Sent": "2005-02-20T14:13:39.2973748+01:00",
+  "Size": 242,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "odit",
-  "PlainBody": "quaerat",
-  "IsSent": false,
+  "MessageID": "culpa",
+  "PlainBody": "aperiam",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 288,
+  "ServerId": 193,
   "Attachments": [
     {
-      "Description": "Open-architected interactive architecture",
-      "Filename": "veniam",
-      "Size": 662,
-      "Type": "ut",
-      "Encoding": "impedit",
-      "Id": "suscipit",
-      "Disposition": "ea",
+      "Description": "Operative full-range groupware",
+      "Filename": "voluptates",
+      "Size": 267,
+      "Type": "aut",
+      "Encoding": "autem",
+      "Id": "harum",
+      "Disposition": "quisquam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,50 +217,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 485
+          "FieldLength": 291
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ankunding, Boyle and Balistreri",
+      "Name": "Volkman, Kshlerin and Schaden",
       "Values": [
-        "praesentium",
-        "quos"
+        "vel",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 434
         }
       }
     },
     {
-      "Name": "Ankunding, Boyle and Balistreri",
+      "Name": "Volkman, Kshlerin and Schaden",
       "Values": [
-        "praesentium",
-        "quos"
+        "vel",
+        "optio"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldLength": 434
         }
       }
     }
   ],
-  "FolderName": "Gutkowski-Herman",
-  "EmailItemId": 980,
-  "AccountId": 47,
-  "ReceivedAt": "2013-05-10T12:01:27.2908716+02:00",
+  "FolderName": "Conn-Hammes",
+  "EmailItemId": 133,
+  "AccountId": 893,
+  "ReceivedAt": "2012-03-30T14:13:39.2973748+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-06-24T12:01:27.2908716+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2003-12-13T14:13:39.2973748+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 564
+      "FieldLength": 206
     }
   }
 }

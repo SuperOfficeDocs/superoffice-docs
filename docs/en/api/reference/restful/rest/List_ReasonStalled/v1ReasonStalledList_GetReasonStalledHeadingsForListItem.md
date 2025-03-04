@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Runte-Strosin",
-    "ToolTip": "Repudiandae recusandae.",
-    "Deleted": false,
-    "Rank": 611,
-    "Type": "dicta",
-    "ColorBlock": 634,
-    "IconHint": "soluta",
-    "Selected": false,
-    "LastChanged": "2020-11-06T12:01:33.6519877+01:00",
+    "Id": 21,
+    "Name": "Zboncak Group",
+    "ToolTip": "Quo occaecati qui eligendi provident.",
+    "Deleted": true,
+    "Rank": 961,
+    "Type": "qui",
+    "ColorBlock": 994,
+    "IconHint": "culpa",
+    "Selected": true,
+    "LastChanged": "2000-09-14T14:13:50.2283063+02:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Parisian-Douglas",
-        "ToolTip": "Eaque voluptate non fugit debitis.",
-        "Deleted": true,
-        "Rank": 644,
-        "Type": "voluptate",
-        "ColorBlock": 563,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2015-05-13T12:01:33.6519877+02:00",
+        "Id": 703,
+        "Name": "Kling, Kuvalis and Hartmann",
+        "ToolTip": "Incidunt occaecati sapiente iste consequatur.",
+        "Deleted": false,
+        "Rank": 406,
+        "Type": "tenetur",
+        "ColorBlock": 392,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2008-06-10T14:13:50.2283063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "harum",
-        "StyleHint": "tempore",
-        "Hidden": false,
-        "FullName": "Nikko Hills",
+        "ExtraInfo": "iure",
+        "StyleHint": "sapiente",
+        "Hidden": true,
+        "FullName": "Sofia Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 410
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "voluptatum",
-    "Hidden": false,
-    "FullName": "Dr. Isabel Cleo Grant IV",
+    "ExtraInfo": "quia",
+    "StyleHint": "dolorem",
+    "Hidden": true,
+    "FullName": "Ayana Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldLength": 101
       }
     }
   }

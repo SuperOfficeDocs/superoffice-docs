@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 279,
-  "Name": "Gottlieb-Hintz",
-  "Tooltip": "aliquid",
+  "RoleId": 778,
+  "Name": "Wuckert LLC",
+  "Tooltip": "accusantium",
   "RoleType": "Anonymous",
-  "Deleted": 495,
-  "Rank": 813,
-  "Created": "2024-12-18T12:01:33.0425704+01:00",
-  "UseCategories": 522,
+  "Deleted": 201,
+  "Rank": 76,
+  "Created": "1999-01-07T14:13:49.1181275+01:00",
+  "UseCategories": 15,
   "CreatedBy": null,
-  "Updated": "2002-05-21T12:01:33.0425704+02:00",
+  "Updated": "2015-04-08T14:13:49.1181275+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

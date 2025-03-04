@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 35,
-  "Name": "Bogisich Group",
-  "ContentType": "rerum",
-  "AttSize": 352,
-  "InlineImage": false,
-  "ContentId": "consectetur",
-  "AuthKey": "omnis",
-  "IsSafeFileExtension": true
+  "AttachmentId": 787,
+  "Name": "Schultz, Rowe and Murphy",
+  "ContentType": "non",
+  "AttSize": 931,
+  "InlineImage": true,
+  "ContentId": "suscipit",
+  "AuthKey": "praesentium",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 62,
-  "Name": "Monahan Group",
-  "ContentType": "eos",
-  "AttSize": 348,
-  "InlineImage": false,
-  "ContentId": "consequuntur",
-  "AuthKey": "vero",
+  "AttachmentId": 583,
+  "Name": "Borer-Bahringer",
+  "ContentType": "at",
+  "AttSize": 697,
+  "InlineImage": true,
+  "ContentId": "dolorum",
+  "AuthKey": "et",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 445
     }
   }
 }

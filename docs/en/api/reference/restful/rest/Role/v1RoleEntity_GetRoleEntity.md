@@ -97,29 +97,29 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 424,
-  "Name": "Steuber-Terry",
-  "Tooltip": "mollitia",
+  "RoleId": 581,
+  "Name": "Christiansen, Hammes and Legros",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 740,
-  "Rank": 683,
-  "Created": "2022-01-14T12:01:33.0269443+01:00",
-  "UseCategories": 501,
+  "Deleted": 852,
+  "Rank": 510,
+  "Created": "2005-03-02T14:13:49.1025081+01:00",
+  "UseCategories": 212,
   "CreatedBy": null,
-  "Updated": "2020-11-19T12:01:33.0269443+01:00",
+  "Updated": "2024-04-03T14:13:49.1025081+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

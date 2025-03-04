@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Schroeder Group",
-    "ToolTip": "Magnam ipsa deserunt soluta.",
+    "Id": 38,
+    "Name": "Spencer LLC",
+    "ToolTip": "Provident earum neque vel ut.",
     "Deleted": false,
-    "Rank": 872,
-    "Type": "nulla",
-    "ColorBlock": 153,
-    "IconHint": "qui",
+    "Rank": 795,
+    "Type": "et",
+    "ColorBlock": 863,
+    "IconHint": "molestiae",
     "Selected": true,
-    "LastChanged": "1999-04-16T12:01:33.6207356+02:00",
+    "LastChanged": "2012-01-07T14:13:50.1812638+01:00",
     "ChildItems": [
       {
-        "Id": 624,
-        "Name": "Stoltenberg LLC",
-        "ToolTip": "Rem praesentium est hic.",
+        "Id": 866,
+        "Name": "Hermann-Satterfield",
+        "ToolTip": "Ipsam quis voluptatibus.",
         "Deleted": false,
-        "Rank": 35,
-        "Type": "quia",
-        "ColorBlock": 825,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2024-09-30T12:01:33.6207356+02:00",
+        "Rank": 636,
+        "Type": "placeat",
+        "ColorBlock": 773,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2015-01-28T14:13:50.1812638+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Francisca Beatty",
+        "ExtraInfo": "et",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Ms. Rae Ardella Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldLength": 418
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "illum",
+    "ExtraInfo": "beatae",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Prof. Earlene Wanda Kemmer DVM",
+    "FullName": "Clay Williamson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 821
+        "FieldLength": 773
       }
     }
   }

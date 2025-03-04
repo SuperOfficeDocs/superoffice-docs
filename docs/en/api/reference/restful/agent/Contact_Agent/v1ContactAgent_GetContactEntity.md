@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=911
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=486
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 313,
-  "Name": "Waelchi, Paucek and Morissette",
+  "ContactId": 917,
+  "Name": "Legros-Ward",
   "Department": "",
-  "OrgNr": "1445161",
-  "Number1": "1122689",
-  "Number2": "778239",
-  "UpdatedDate": "2022-01-26T12:01:27.4783858+01:00",
-  "CreatedDate": "2022-06-21T12:01:27.4783858+02:00",
+  "OrgNr": "964762",
+  "Number1": "303754",
+  "Number2": "1308845",
+  "UpdatedDate": "1998-12-11T14:13:39.7984831+01:00",
+  "CreatedDate": "2009-08-02T14:13:39.7984831+02:00",
   "Emails": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quae",
-      "Description": "Assimilated composite flexibility",
+      "Value": "commodi",
+      "StrippedValue": "et",
+      "Description": "Diverse local synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 667
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quae",
-      "Description": "Assimilated composite flexibility",
+      "Value": "commodi",
+      "StrippedValue": "et",
+      "Description": "Diverse local synergy",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 952
+          "FieldLength": 667
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 580,
-      "Name": "Monahan LLC",
-      "ToolTip": "Culpa expedita.",
+      "Id": 114,
+      "Name": "McGlynn Group",
+      "ToolTip": "Nisi et quia omnis odit rerum reiciendis ullam.",
       "Deleted": false,
-      "Rank": 372,
-      "Type": "ipsam",
-      "ColorBlock": 92,
-      "IconHint": "saepe",
+      "Rank": 249,
+      "Type": "dignissimos",
+      "ColorBlock": 219,
+      "IconHint": "quam",
       "Selected": false,
-      "LastChanged": "2002-08-02T12:01:27.4783858+02:00",
+      "LastChanged": "2023-04-04T14:13:39.7984831+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "animi",
-      "Hidden": true,
-      "FullName": "Audreanne Bartell V",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Kyle Thompson III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 263
+          "FieldType": "System.Int32",
+          "FieldLength": 299
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ad",
-      "StrippedValue": "suscipit",
-      "Description": "Reverse-engineered object-oriented structure",
+      "Value": "ea",
+      "StrippedValue": "rerum",
+      "Description": "Down-sized discrete forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 112
         }
       }
     },
     {
-      "Value": "ad",
-      "StrippedValue": "suscipit",
-      "Description": "Reverse-engineered object-oriented structure",
+      "Value": "ea",
+      "StrippedValue": "rerum",
+      "Description": "Down-sized discrete forecast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 112
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "soluta",
+      "Value": "molestiae",
       "StrippedValue": "est",
-      "Description": "Virtual system-worthy encoding",
+      "Description": "Optional stable budgetary management",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 109
         }
       }
     },
     {
-      "Value": "soluta",
+      "Value": "molestiae",
       "StrippedValue": "est",
-      "Description": "Virtual system-worthy encoding",
+      "Description": "Optional stable budgetary management",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldLength": 109
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "corporis",
-      "Description": "Reactive context-sensitive structure",
+      "Value": "neque",
+      "StrippedValue": "placeat",
+      "Description": "Configurable encompassing moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "corporis",
-      "Description": "Reactive context-sensitive structure",
+      "Value": "neque",
+      "StrippedValue": "placeat",
+      "Description": "Configurable encompassing moderator",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldType": "System.String",
+          "FieldLength": 973
         }
       }
     }
   ],
-  "Description": "Operative coherent customer loyalty",
+  "Description": "Multi-tiered executive secured line",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 142,
-      "Mrmrs": "culpa",
-      "Firstname": "Jon",
-      "Lastname": "Lebsack",
-      "MiddleName": "Effertz-Schuppe",
-      "Title": "laboriosam",
-      "Description": "Reduced multimedia data-warehouse",
-      "Email": "stephany_huel@bogisich.com",
-      "FullName": "Euna Eichmann",
-      "DirectPhone": "951-089-4108 x6006",
-      "FormalName": "Bahringer, Pollich and Beier",
-      "CountryId": 87,
-      "ContactId": 890,
-      "ContactName": "Abshire Inc and Sons",
-      "Retired": 394,
-      "Rank": 16,
-      "ActiveInterests": 642,
+      "Position": "veniam",
+      "PersonId": 576,
+      "Mrmrs": "rerum",
+      "Firstname": "Edison",
+      "Lastname": "Daugherty",
+      "MiddleName": "Gorczany, Hilll and DuBuque",
+      "Title": "maxime",
+      "Description": "Multi-tiered mission-critical database",
+      "Email": "ulices@shieldsrowe.name",
+      "FullName": "Brenden Mills",
+      "DirectPhone": "762-876-3296",
+      "FormalName": "Upton, Goldner and Greenfelder",
+      "CountryId": 455,
+      "ContactId": 407,
+      "ContactName": "Bartell Group",
+      "Retired": 102,
+      "Rank": 545,
+      "ActiveInterests": 166,
       "ContactDepartment": "",
-      "ContactCountryId": 971,
-      "ContactOrgNr": "800996",
-      "FaxPhone": "968-625-2620 x2109",
-      "MobilePhone": "399.582.3077",
-      "ContactPhone": "(197)176-9361 x336",
-      "AssociateName": "Leuschke Inc and Sons",
-      "AssociateId": 742,
+      "ContactCountryId": 861,
+      "ContactOrgNr": "541870",
+      "FaxPhone": "949-056-3995 x4910",
+      "MobilePhone": "305.704.0119",
+      "ContactPhone": "045-648-8081 x556",
+      "AssociateName": "Krajcik-Tromp",
+      "AssociateId": 158,
       "UsePersonAddress": false,
-      "ContactFax": "iste",
-      "Kanafname": "illo",
-      "Kanalname": "similique",
-      "Post1": "repudiandae",
-      "Post2": "debitis",
-      "Post3": "quas",
-      "EmailName": "wilford.wisoky@mooregoyette.com",
-      "ContactFullName": "Wayne Thompson",
-      "ActiveErpLinks": 192,
-      "TicketPriorityId": 969,
-      "SupportLanguageId": 383,
-      "SupportAssociateId": 912,
+      "ContactFax": "numquam",
+      "Kanafname": "minima",
+      "Kanalname": "voluptates",
+      "Post1": "voluptas",
+      "Post2": "rem",
+      "Post3": "voluptates",
+      "EmailName": "albin@bartell.name",
+      "ContactFullName": "Jana Rosendo Gerhold PhD",
+      "ActiveErpLinks": 842,
+      "TicketPriorityId": 852,
+      "SupportLanguageId": 185,
+      "SupportAssociateId": 550,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "410775",
+      "PersonNumber": "1292073",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 795
+          "FieldLength": 340
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "odit",
+  "NoMailing": false,
+  "Kananame": "placeat",
   "Xstop": true,
-  "ActiveInterests": 162,
-  "GroupId": 323,
-  "ActiveStatusMonitorId": 15,
+  "ActiveInterests": 356,
+  "GroupId": 130,
+  "ActiveStatusMonitorId": 938,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 805,
-  "DbiAgentId": 642,
-  "DbiLastSyncronized": "2022-05-01T12:01:27.4783858+02:00",
-  "DbiKey": "tempore",
-  "DbiLastModified": "2020-02-01T12:01:27.4783858+01:00",
+  "Deleted": 552,
+  "DbiAgentId": 460,
+  "DbiLastSyncronized": "2009-07-29T14:13:39.7984831+02:00",
+  "DbiKey": "totam",
+  "DbiLastModified": "1998-03-21T14:13:39.7984831+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 362,
-  "ActiveErpLinks": 558,
+  "Source": 940,
+  "ActiveErpLinks": 781,
   "BounceEmails": [
-    "lesley@murray.uk",
-    "thaddeus@smitham.co.uk"
+    "daniella.sawayn@wuckertthiel.com",
+    "alford@goyette.us"
   ],
   "Domains": [
-    "deleniti",
-    "quia"
+    "quasi",
+    "est"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Houston Dare",
-    "SuperOffice:2": "Rosendo Gerard Hilpert DDS"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Alverta Pfannerstill"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "deserunt"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "magnam"
+    "CustomFields1": "omnis",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 406
     }
   }
 }

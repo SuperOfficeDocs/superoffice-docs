@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 285,
-  "PlainMessage": "sunt",
-  "HtmlMessage": "voluptatibus",
-  "SmsMessage": "et",
-  "Description": "Face to face local instruction set",
-  "Subject": "dolor",
-  "FolderId": 699,
-  "HeaderField": "explicabo",
-  "Design": "voluptatem",
+  "ShipmentMessageId": 898,
+  "PlainMessage": "veniam",
+  "HtmlMessage": "non",
+  "SmsMessage": "nulla",
+  "Description": "Realigned executive orchestration",
+  "Subject": "qui",
+  "FolderId": 711,
+  "HeaderField": "similique",
+  "Design": "voluptatibus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Object-based zero tolerance strategy",
-  "AccessKey": "eius",
-  "DocumentMessage": 127,
-  "Registered": "2005-09-27T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 556,
-  "Updated": "2022-08-13T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 937,
-  "UpdatedCount": 233
+  "InlineImages": true,
+  "LongDescription": "Profound solution-oriented adapter",
+  "AccessKey": "sed",
+  "DocumentMessage": 978,
+  "Registered": "2020-05-05T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 219,
+  "Updated": "2016-07-29T14:13:49.2587235+02:00",
+  "UpdatedAssociateId": 828,
+  "UpdatedCount": 446
 }
 ```
 
@@ -154,38 +154,38 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 791,
-  "PlainMessage": "similique",
-  "HtmlMessage": "velit",
-  "SmsMessage": "fuga",
-  "Description": "Face to face interactive throughput",
-  "Subject": "vero",
-  "FolderId": 680,
-  "HeaderField": "sapiente",
-  "Design": "in",
+  "ShipmentMessageId": 358,
+  "PlainMessage": "quia",
+  "HtmlMessage": "perferendis",
+  "SmsMessage": "eos",
+  "Description": "User-friendly responsive initiative",
+  "Subject": "velit",
+  "FolderId": 489,
+  "HeaderField": "ullam",
+  "Design": "vitae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Quality-focused 5th generation artificial intelligence",
-  "AccessKey": "distinctio",
-  "DocumentMessage": 826,
-  "Registered": "1999-06-18T12:01:33.2144574+02:00",
-  "RegisteredAssociateId": 584,
-  "Updated": "2006-10-26T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 419,
-  "UpdatedCount": 981,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Upgradable logistical flexibility",
+  "AccessKey": "est",
+  "DocumentMessage": 417,
+  "Registered": "2015-10-03T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 92,
+  "Updated": "2023-03-16T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 139,
+  "UpdatedCount": 723,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldLength": 661
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

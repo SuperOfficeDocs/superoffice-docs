@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 981,
-  "OnlyOpenSales": false
+  "PersonId": 494,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Welch, Jakubowski and Romaguera",
-    "SaleDate": "2001-01-29T12:01:28.275316+01:00",
-    "SaleId": 163,
-    "Probability": 664,
-    "Title": "consequatur",
-    "Amount": 29729.124,
-    "Currency": "qui",
-    "ProjectName": "Huel Inc and Sons",
-    "AssociateFullName": "Helen O'Conner",
-    "Description": "Multi-lateral fresh-thinking time-frame",
+    "ContactName": "Dibbert, Jacobson and Cole",
+    "SaleDate": "2007-06-07T14:13:41.2508568+02:00",
+    "SaleId": 123,
+    "Probability": 198,
+    "Title": "facilis",
+    "Amount": 10198.036,
+    "Currency": "velit",
+    "ProjectName": "Kihn-Heidenreich",
+    "AssociateFullName": "Mr. Letitia Arvilla Von II",
+    "Description": "Cross-group 24 hour monitoring",
     "Status": "Lost",
-    "WeightedAmount": 12805.524,
-    "ProjectId": 73,
-    "EarningPercent": 13460.529999999999,
-    "Earning": 25144.082,
-    "ContactId": 677,
-    "AssociateId": 360,
-    "PersonId": 51,
-    "SaleTypeId": 989,
-    "SaleTypeName": "Cormier-Beahan",
-    "PersonFullName": "Jalon Johnson V",
+    "WeightedAmount": 28256.144,
+    "ProjectId": 618,
+    "EarningPercent": 14479.08,
+    "Earning": 7944.69,
+    "ContactId": 859,
+    "AssociateId": 808,
+    "PersonId": 658,
+    "SaleTypeId": 491,
+    "SaleTypeName": "Gaylord, Gerlach and Kulas",
+    "PersonFullName": "Prof. Tanya Crist II",
     "Completed": "Completed",
-    "ActiveErpLinks": 860,
-    "NextDueDate": "2013-10-07T12:01:28.275316+02:00",
-    "Number": "875033",
+    "ActiveErpLinks": 637,
+    "NextDueDate": "2011-12-14T14:13:41.2508568+01:00",
+    "Number": "684931",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldLength": 159
       }
     }
   }

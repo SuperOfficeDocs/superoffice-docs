@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=non
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 18 Aug 2007 12:01:32 G8T
+Last-Modified: Sat, 07 Mar 2015 14:13:48 G3T
 
 {
-  "Key": "voluptas",
-  "Value": "facilis",
-  "RecordId": 711,
-  "CreatedDate": "2023-03-25T12:01:32.9175621+01:00",
-  "UpdatedDate": "2007-08-18T12:01:32.9175621+02:00",
-  "UpdatedBy": "eum",
-  "CreatedBy": "sed",
-  "TableName": "Stracke-Sawayn",
+  "Key": "nihil",
+  "Value": "alias",
+  "RecordId": 554,
+  "CreatedDate": "2008-05-02T14:13:48.8993207+02:00",
+  "UpdatedDate": "2015-03-07T14:13:48.8993207+01:00",
+  "UpdatedBy": "animi",
+  "CreatedBy": "necessitatibus",
+  "TableName": "Littel, Weber and Wolff",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 350
     }
   }
 }

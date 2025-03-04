@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "McKenzie, Zulauf and Homenick",
-  "Comment": "at",
-  "StakeholderRoleId": 40,
-  "CountryId": 534,
-  "PersonId": 649,
-  "EmailDescription": "dawson.hane@lefflerstehr.us",
-  "EmailId": 566,
-  "EmailAddress": "cornell.russel@romagueraadams.com",
-  "PhoneId": 642,
-  "ContactName": "Kiehn-Grady",
-  "ContactId": 423,
-  "SaleId": 79,
-  "Mrmrs": "qui",
-  "Firstname": "Lukas",
-  "MiddleName": "Gerlach LLC",
-  "Lastname": "Daniel",
-  "SaleStakeholderId": 220,
-  "Rank": 667,
-  "Phone": "070.375.0909",
+  "StakeholderRoleName": "Jones Inc and Sons",
+  "Comment": "id",
+  "StakeholderRoleId": 489,
+  "CountryId": 276,
+  "PersonId": 165,
+  "EmailDescription": "kody@beer.biz",
+  "EmailId": 30,
+  "EmailAddress": "fernando@connelly.us",
+  "PhoneId": 986,
+  "ContactName": "Heaney, Hodkiewicz and McKenzie",
+  "ContactId": 377,
+  "SaleId": 73,
+  "Mrmrs": "sequi",
+  "Firstname": "Janis",
+  "MiddleName": "Nikolaus, DuBuque and Effertz",
+  "Lastname": "Konopelski",
+  "SaleStakeholderId": 247,
+  "Rank": 905,
+  "Phone": "947.305.4500",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   }
 }

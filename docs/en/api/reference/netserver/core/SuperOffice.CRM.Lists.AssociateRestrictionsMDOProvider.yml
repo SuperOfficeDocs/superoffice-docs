@@ -56,7 +56,6 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHistoryElementToCollection(SuperOffice.CRM.Lists.SoListItem)
@@ -802,47 +801,6 @@ references:
     name: ListTableRow
     nameWithType: ListTableRow
     fullName: SuperOffice.CRM.Lists.ListTableRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
-  isExternal: true
-  name: GetPersonImage(Int32)
-  nameWithType: AssociateMDOProviderBase.GetPersonImage(Int32)
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-    name: GetPersonImage
-    nameWithType: AssociateMDOProviderBase.GetPersonImage
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-    name: GetPersonImage
-    nameWithType: AssociateMDOProviderBase.GetPersonImage
-    fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
     isExternal: true
   - name: )
     nameWithType: )

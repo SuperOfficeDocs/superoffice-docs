@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Macejkovic Group",
-    "Tooltip": "corporis",
+    "HeadingId": 709,
+    "Name": "Stanton, Walsh and Kassulke",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 880
+    "Rank": 93,
+    "UdListDefinitionId": 214
   },
   {
-    "HeadingId": 446,
-    "Name": "Macejkovic Group",
-    "Tooltip": "corporis",
+    "HeadingId": 709,
+    "Name": "Stanton, Walsh and Kassulke",
+    "Tooltip": "animi",
     "Deleted": false,
-    "Rank": 547,
-    "UdListDefinitionId": 880
+    "Rank": 93,
+    "UdListDefinitionId": 214
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 528,
-    "Name": "DuBuque-Boyle",
-    "Tooltip": "qui",
+    "HeadingId": 162,
+    "Name": "Swift LLC",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 699,
+    "Rank": 810,
+    "UdListDefinitionId": 264,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

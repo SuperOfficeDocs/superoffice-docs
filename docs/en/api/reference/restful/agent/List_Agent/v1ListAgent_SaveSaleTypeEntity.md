@@ -109,47 +109,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 885,
-  "Name": "O'Reilly Group",
-  "Tooltip": "vero",
-  "Rank": 785,
+  "SaleTypeId": 322,
+  "Name": "Barrows-Stamm",
+  "Tooltip": "optio",
+  "Rank": 252,
   "DurationUnit": "Century",
-  "SaleDuration": 904,
-  "SaleTypeCatId": 468,
-  "Deleted": true,
+  "SaleDuration": 993,
+  "SaleTypeCatId": 429,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 79,
-  "QuoteLinesTemplate": 253,
-  "ConfirmationLinesTemplate": 716,
+  "DefaultQuoteValidity": 277,
+  "QuoteLinesTemplate": 36,
+  "ConfirmationLinesTemplate": 657,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 925,
-  "MinEarningPercent": 270,
-  "GroupQuoteLinesBy": 814,
-  "SortGroupLinesBy": 312,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 860,
+  "MinEarningPercent": 991,
+  "GroupQuoteLinesBy": 123,
+  "SortGroupLinesBy": 391,
   "Stages": [
     {
-      "Id": 539,
-      "Name": "Schroeder-Steuber",
-      "ToolTip": "Et nihil est eum non corrupti autem nam.",
-      "Deleted": false,
-      "Rank": 431,
-      "Type": "ab",
-      "ColorBlock": 653,
-      "IconHint": "ex",
-      "Selected": true,
-      "LastChanged": "2004-09-09T12:01:27.97842+02:00",
+      "Id": 407,
+      "Name": "Lind, Smith and Pfeffer",
+      "ToolTip": "Et quia adipisci provident sint omnis fugit tempore.",
+      "Deleted": true,
+      "Rank": 150,
+      "Type": "magni",
+      "ColorBlock": 656,
+      "IconHint": "ad",
+      "Selected": false,
+      "LastChanged": "2011-07-28T14:13:40.5471977+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corrupti",
-      "StyleHint": "eveniet",
+      "ExtraInfo": "tenetur",
+      "StyleHint": "tempore",
       "Hidden": true,
-      "FullName": "Jessyca Rosenbaum"
+      "FullName": "Mrs. Emmy Metz"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 786,
-  "Name": "Hoeger Group",
-  "Tooltip": "consequatur",
-  "Rank": 979,
+  "SaleTypeId": 110,
+  "Name": "Dibbert, Abshire and Ratke",
+  "Tooltip": "reprehenderit",
+  "Rank": 689,
   "DurationUnit": "Century",
-  "SaleDuration": 668,
-  "SaleTypeCatId": 132,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 533,
+  "SaleTypeCatId": 544,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 248,
-  "QuoteLinesTemplate": 573,
-  "ConfirmationLinesTemplate": 728,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 204,
+  "QuoteLinesTemplate": 860,
+  "ConfirmationLinesTemplate": 76,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 783,
-  "MinEarningPercent": 179,
-  "GroupQuoteLinesBy": 424,
-  "SortGroupLinesBy": 677,
+  "MaxDiscountPercent": 602,
+  "MinEarningPercent": 259,
+  "GroupQuoteLinesBy": 436,
+  "SortGroupLinesBy": 504,
   "Stages": [
     {
-      "Id": 249,
-      "Name": "Hirthe LLC",
-      "ToolTip": "Deserunt nostrum laudantium.",
+      "Id": 664,
+      "Name": "Lind Group",
+      "ToolTip": "Nesciunt aperiam molestiae modi explicabo.",
       "Deleted": false,
-      "Rank": 203,
-      "Type": "perferendis",
-      "ColorBlock": 68,
-      "IconHint": "tempora",
-      "Selected": true,
-      "LastChanged": "2019-04-25T12:01:27.97842+02:00",
+      "Rank": 801,
+      "Type": "autem",
+      "ColorBlock": 571,
+      "IconHint": "officia",
+      "Selected": false,
+      "LastChanged": "2025-01-30T14:13:40.5471977+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "at",
-      "Hidden": false,
-      "FullName": "Mrs. Britney Larissa Douglas DVM",
+      "ExtraInfo": "quas",
+      "StyleHint": "dolorem",
+      "Hidden": true,
+      "FullName": "Burley Williamson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 710
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 571
     }
   }
 }

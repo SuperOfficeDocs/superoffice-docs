@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Wilkinson Inc and Sons",
-    "Sauer LLC"
+    "Gleason-Roob",
+    "Heller Group"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 944,
-    "Id": 305,
-    "HistoryName": "Fritsch-Rutherford",
-    "HistoryId": 510,
-    "AssociateId": 933,
-    "Name": "Lang Group",
-    "ItemInfo": "explicabo",
+    "Rank": 614,
+    "Id": 123,
+    "HistoryName": "Emard, Hirthe and Eichmann",
+    "HistoryId": 690,
+    "AssociateId": 490,
+    "Name": "Thiel-Schmeler",
+    "ItemInfo": "dolore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 534
       }
     }
   }

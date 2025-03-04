@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 368
+  "DocumentId": 99
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 766,
-      "ContactName": "Fisher Group",
-      "PersonId": 684,
-      "PersonName": "Barton-Fahey",
-      "AssociateId": 544,
-      "Address": "qui",
-      "EmailId": 466,
+      "ContactId": 864,
+      "ContactName": "Kohler, Witting and Adams",
+      "PersonId": 860,
+      "PersonName": "Daugherty Inc and Sons",
+      "AssociateId": 891,
+      "Address": "nulla",
+      "EmailId": 137,
       "DuplicatePersonIds": [
-        859,
-        11
+        252,
+        999
       ],
-      "Name": "Keebler, Reilly and Mosciski",
+      "Name": "Kling, Turner and Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldType": "System.String",
+          "FieldLength": 819
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 547,
-      "ContactName": "Hoppe-Rempel",
-      "PersonId": 5,
-      "PersonName": "Gleason, Lockman and Hermann",
-      "AssociateId": 597,
-      "Address": "possimus",
-      "EmailId": 157,
+      "ContactId": 270,
+      "ContactName": "Carter, Shields and Huels",
+      "PersonId": 319,
+      "PersonName": "Tromp-Sporer",
+      "AssociateId": 859,
+      "Address": "quos",
+      "EmailId": 94,
       "DuplicatePersonIds": [
-        223,
-        700
+        771,
+        271
       ],
-      "Name": "Emmerich, Strosin and Considine",
+      "Name": "Lowe Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldType": "System.String",
+          "FieldLength": 563
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 548,
-      "ContactName": "Purdy, Ebert and Robel",
-      "PersonId": 758,
-      "PersonName": "Padberg Inc and Sons",
-      "AssociateId": 6,
-      "Address": "quaerat",
-      "EmailId": 989,
+      "ContactId": 640,
+      "ContactName": "Heathcote-Mann",
+      "PersonId": 54,
+      "PersonName": "Keeling Group",
+      "AssociateId": 125,
+      "Address": "expedita",
+      "EmailId": 556,
       "DuplicatePersonIds": [
-        244,
-        621
+        537,
+        333
       ],
-      "Name": "Zboncak-Bashirian",
+      "Name": "Davis LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldType": "System.String",
+          "FieldLength": 416
         }
       }
     }
   ],
-  "Subject": "pariatur",
-  "HTMLBody": "ea",
+  "Subject": "deserunt",
+  "HTMLBody": "nihil",
   "From": null,
-  "Sent": "2000-11-27T12:01:27.8377848+01:00",
-  "Size": 35,
+  "Sent": "2006-05-07T14:13:40.2816332+02:00",
+  "Size": 371,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aliquam",
-  "PlainBody": "quibusdam",
+  "MessageID": "et",
+  "PlainBody": "voluptatibus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 652,
+  "ServerId": 475,
   "Attachments": [
     {
-      "Description": "Cloned mobile customer loyalty",
-      "Filename": "debitis",
-      "Size": 222,
-      "Type": "quia",
-      "Encoding": "numquam",
-      "Id": "sint",
-      "Disposition": "molestiae",
-      "IsSafeFileExtension": true,
+      "Description": "Grass-roots optimal framework",
+      "Filename": "dolor",
+      "Size": 226,
+      "Type": "nihil",
+      "Encoding": "magni",
+      "Id": "minus",
+      "Disposition": "officiis",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 397
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Torphy-Volkman",
+      "Name": "Beier-Ankunding",
       "Values": [
-        "odit",
-        "nihil"
+        "vel",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 836
         }
       }
     },
     {
-      "Name": "Torphy-Volkman",
+      "Name": "Beier-Ankunding",
       "Values": [
-        "odit",
-        "nihil"
+        "vel",
+        "nesciunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 836
         }
       }
     }
   ],
-  "FolderName": "Herman, Moore and Bruen",
-  "EmailItemId": 532,
-  "AccountId": 647,
-  "ReceivedAt": "2006-03-06T12:01:27.8377848+01:00",
+  "FolderName": "Crona-Zboncak",
+  "EmailItemId": 410,
+  "AccountId": 479,
+  "ReceivedAt": "2008-03-02T14:13:40.2816332+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-06-11T12:01:27.8377848+02:00",
+  "RepliedAt": "2023-09-14T14:13:40.2816332+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

@@ -77,15 +77,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 420,
-  "AssociateId": 944,
+  "DocumentId": 901,
+  "AssociateId": 817,
   "CustomTags": [
-    "quae",
-    "voluptatem"
+    "mollitia",
+    "dolorum"
   ],
   "CustomValues": [
-    "recusandae",
-    "ut"
+    "aliquam",
+    "quo"
   ]
 }
 ```

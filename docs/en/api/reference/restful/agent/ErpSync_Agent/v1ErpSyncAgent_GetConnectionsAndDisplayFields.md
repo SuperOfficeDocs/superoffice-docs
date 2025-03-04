@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 824
+  "EntityId": 169
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 352,
-    "ConnectionName": "Mosciski, Smith and Schultz",
+    "ErpConnectionId": 179,
+    "ConnectionName": "Schneider, Nikolaus and Turcotte",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "ad",
-        "Rank": 163,
-        "DisplayName": "Beier LLC",
-        "DisplayDescription": "Advanced solution-oriented flexibility",
+        "FieldKey": "laudantium",
+        "Rank": 923,
+        "DisplayName": "Huels Group",
+        "DisplayDescription": "Switchable regional budgetary management",
         "FieldType": "Checkbox",
-        "ListName": "Torp Inc and Sons",
-        "DefaultValue": "cumque",
-        "MaxLength": 894,
+        "ListName": "Torphy-Rosenbaum",
+        "DefaultValue": "ut",
+        "MaxLength": 50,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 557
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "nemo",
-      "maiores"
+      "tenetur",
+      "dolorem"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 107,
-  "Name": "Luettgen-Hauck",
-  "Tooltip": "voluptate",
+  "Id": 484,
+  "Name": "Bergnaum, Farrell and Kshlerin",
+  "Tooltip": "nemo",
   "Deleted": true,
-  "UdListDefinitionId": 304,
-  "Rank": 297,
+  "UdListDefinitionId": 191,
+  "Rank": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 131
+      "FieldLength": 994
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "D'Amore-Lindgren"
+  "Name": "McKenzie Group"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 147,
-    "Name": "Connelly-Morar",
-    "Tooltip": "voluptas",
+    "HeadingId": 36,
+    "Name": "Roberts-Parisian",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "Rank": 307,
-    "UdListDefinitionId": 87,
+    "Rank": 947,
+    "UdListDefinitionId": 999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   }

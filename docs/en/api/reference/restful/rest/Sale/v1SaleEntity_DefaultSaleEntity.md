@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
+Last-Modified: Tue, 03 Nov 2015 14:13:49 G11T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "esse",
+  "SaleText": "nobis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2022-03-16T12:01:33.0425704+01:00",
-  "Amount": 27952.146,
-  "SaleId": 421,
-  "Earning": 7245.808,
-  "EarningPercent": 30700.664,
-  "Heading": "saepe",
-  "Number": "68742",
-  "Probability": 689,
-  "CreatedDate": "2002-04-20T12:01:33.0425704+02:00",
-  "UpdatedDate": "2016-01-22T12:01:33.0425704+01:00",
+  "Saledate": "2024-09-26T14:13:49.1337532+02:00",
+  "Amount": 6258.598,
+  "SaleId": 447,
+  "Earning": 29368.714,
+  "EarningPercent": 30008.05,
+  "Heading": "ut",
+  "Number": "502632",
+  "Probability": 990,
+  "CreatedDate": "2004-01-31T14:13:49.1337532+01:00",
+  "UpdatedDate": "2015-11-03T14:13:49.1337532+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 800,
+  "ActiveLinks": 770,
   "Links": [
     {
-      "EntityName": "Lehner-Renner",
-      "Id": 850,
-      "Description": "Virtual dynamic adapter",
-      "ExtraInfo": "et",
-      "LinkId": 693,
+      "EntityName": "Little-Crona",
+      "Id": 21,
+      "Description": "Innovative dynamic focus group",
+      "ExtraInfo": "quo",
+      "LinkId": 979,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 120
         }
       }
     }
   ],
-  "NextDueDate": "2000-04-07T12:01:33.0425704+02:00",
-  "Postit": "repellendus",
+  "NextDueDate": "2017-10-20T14:13:49.1337532+02:00",
+  "Postit": "quia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-06-14T12:01:33.0425704+02:00",
+  "ReopenDate": "2009-12-21T14:13:49.1337532+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Koss LLC",
-      "Comment": "nulla",
-      "StakeholderRoleId": 112,
-      "CountryId": 685,
-      "PersonId": 650,
-      "EmailDescription": "tressie@sauerlockman.biz",
-      "EmailId": 890,
-      "EmailAddress": "alexzander.johnston@skiles.biz",
-      "PhoneId": 861,
-      "ContactName": "Cruickshank Group",
-      "ContactId": 968,
-      "SaleId": 168,
-      "Mrmrs": "dolores",
-      "Firstname": "Selena",
-      "MiddleName": "Hodkiewicz-Prosacco",
-      "Lastname": "Walter",
-      "SaleStakeholderId": 470,
-      "Rank": 85,
-      "Phone": "(719)948-2668 x1526",
+      "StakeholderRoleName": "Bauch Inc and Sons",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 299,
+      "CountryId": 574,
+      "PersonId": 651,
+      "EmailDescription": "gilda@brekkecormier.biz",
+      "EmailId": 24,
+      "EmailAddress": "davin@kozeystiedemann.info",
+      "PhoneId": 709,
+      "ContactName": "Wiegand, Brakus and Pollich",
+      "ContactId": 26,
+      "SaleId": 562,
+      "Mrmrs": "et",
+      "Firstname": "Remington",
+      "MiddleName": "Cormier LLC",
+      "Lastname": "Krajcik",
+      "SaleStakeholderId": 661,
+      "Rank": 881,
+      "Phone": "(200)727-7193 x9000",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldType": "System.String",
+          "FieldLength": 991
         }
       }
     }
   ],
-  "ActiveErpLinks": 348,
+  "ActiveErpLinks": 254,
   "UserDefinedFields": {
-    "SuperOffice:1": "925281944",
-    "SuperOffice:2": "756544059"
+    "SuperOffice:1": "Theron Nicolas",
+    "SuperOffice:2": "Ima Rohan"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "esse"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "impedit"
+    "CustomFields1": "a",
+    "CustomFields2": "architecto"
   },
-  "PublishEventDate": "2017-12-05T12:01:33.0425704+01:00",
-  "PublishTo": "2003-02-18T12:01:33.0425704+01:00",
-  "PublishFrom": "2001-08-11T12:01:33.0425704+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-03-01T14:13:49.1337532+01:00",
+  "PublishTo": "2002-12-27T14:13:49.1337532+01:00",
+  "PublishFrom": "2005-08-26T14:13:49.1337532+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 590,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 220
         }
       }
     },
     {
-      "VisibleId": 590,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "libero",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 224
+          "FieldLength": 220
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Fri, 22 Jan 2016 12:01:33 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 966
     }
   }
 }

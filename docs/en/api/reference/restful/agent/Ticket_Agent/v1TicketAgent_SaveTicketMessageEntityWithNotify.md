@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 4,
+  "EjMessageId": 19,
   "Ticket": null,
-  "CreatedAt": "2005-02-03T12:01:28.5565847+01:00",
+  "CreatedAt": "2016-01-02T14:13:41.5946398+01:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "occaecati",
-  "TimeSpent": 490,
-  "Body": "dolores",
-  "HtmlBody": "illum",
-  "EmailHeader": "otho@hagenes.com",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "ab",
+  "MessageId": "ratione",
+  "TimeSpent": 266,
+  "Body": "dolorem",
+  "HtmlBody": "consequatur",
+  "EmailHeader": "dayna.greenfelder@stiedemann.biz",
+  "DebugInfo": "ea",
+  "MailSorter": "facere",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "deserunt",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 280,
-      "Name": "Kling-Medhurst",
-      "Value": "et",
+      "Id": 537,
+      "Name": "Sanford, Spencer and Ledner",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 830
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "omnis",
-  "Sentiment": 77,
-  "SentimentConfidence": 845,
+  "Important": true,
+  "Language": "sit",
+  "Sentiment": 818,
+  "SentimentConfidence": 619,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 220,
-      "Name": "Satterfield, Dare and Sauer",
-      "ContentType": "et",
-      "AttSize": 803,
-      "InlineImage": true,
-      "ContentId": "odio",
-      "AuthKey": "vitae",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 739,
+      "Name": "Williamson-Schamberger",
+      "ContentType": "libero",
+      "AttSize": 214,
+      "InlineImage": false,
+      "ContentId": "debitis",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 237
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
   ],
   "ExtraFields": {
     "ExtraFields1": "rerum",
-    "ExtraFields2": "nemo"
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "minus"
+    "CustomFields1": "porro",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldType": "System.Int32",
+      "FieldLength": 911
     }
   }
 }

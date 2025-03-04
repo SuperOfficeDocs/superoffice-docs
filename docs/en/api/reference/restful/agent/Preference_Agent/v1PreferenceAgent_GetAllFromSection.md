@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "omnis"
+  "Section": "vero"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 119,
-    "Section": "cum",
-    "Key": "dolores",
-    "Name": "Hilpert Group",
+    "PrefDescId": 79,
+    "Section": "dolorum",
+    "Key": "facilis",
+    "Name": "Fritsch, Reichel and Feest",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Polarised client-driven strategy",
-    "IsBuiltin": true,
-    "TableName": "Marquardt, Kilback and Parisian",
-    "UserDefinedListId": 221,
-    "Rank": 807,
-    "SubGroup": "ut",
-    "MinLevel": 309,
-    "MaxValue": 961,
-    "MinValue": 181,
-    "RequiredLicense": "facere",
+    "Description": "Right-sized mobile core",
+    "IsBuiltin": false,
+    "TableName": "Bartell, Turner and Kessler",
+    "UserDefinedListId": 339,
+    "Rank": 782,
+    "SubGroup": "et",
+    "MinLevel": 49,
+    "MaxValue": 984,
+    "MinValue": 658,
+    "RequiredLicense": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   }

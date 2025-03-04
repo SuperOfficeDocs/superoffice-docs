@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rogahn Group",
-  "DeviceName": "Huels, Miller and Mohr",
-  "DeviceIdentifier": "molestias",
-  "KeyName": "Hermiston Inc and Sons",
-  "KeyValue": "molestiae",
-  "TableName": "Nolan-Corwin"
+  "ApplicationName": "Glover, Hackett and Weber",
+  "DeviceName": "Wuckert Group",
+  "DeviceIdentifier": "omnis",
+  "KeyName": "Ratke LLC",
+  "KeyValue": "nemo",
+  "TableName": "DuBuque, Hyatt and Rosenbaum"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "esse",
-  "Value": "perspiciatis",
-  "RecordId": 41,
-  "CreatedDate": "2023-12-14T12:01:27.9002891+01:00",
-  "UpdatedDate": "2015-12-11T12:01:27.9002891+01:00",
-  "UpdatedBy": "non",
-  "CreatedBy": "architecto",
-  "TableName": "Howell, Erdman and Huel",
+  "Key": "molestiae",
+  "Value": "quos",
+  "RecordId": 653,
+  "CreatedDate": "2007-04-02T14:13:40.3909833+02:00",
+  "UpdatedDate": "2014-12-24T14:13:40.3909833+01:00",
+  "UpdatedBy": "necessitatibus",
+  "CreatedBy": "temporibus",
+  "TableName": "Corkery Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 948
     }
   }
 }

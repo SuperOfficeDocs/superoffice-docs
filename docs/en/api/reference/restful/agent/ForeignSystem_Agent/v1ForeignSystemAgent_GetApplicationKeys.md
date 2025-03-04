@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Connell, Windler and Powlowski"
+  "ApplicationName": "Cummerata, Shields and Schmitt"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "fuga",
-    "Value": "ea",
-    "RecordId": 861,
-    "CreatedDate": "2022-01-25T12:01:27.9002891+01:00",
-    "UpdatedDate": "2017-12-11T12:01:27.9002891+01:00",
-    "UpdatedBy": "aut",
-    "CreatedBy": "sit",
-    "TableName": "Homenick-Goodwin",
+    "Key": "doloribus",
+    "Value": "magni",
+    "RecordId": 724,
+    "CreatedDate": "2021-04-28T14:13:40.3909833+02:00",
+    "UpdatedDate": "2015-05-14T14:13:40.3909833+02:00",
+    "UpdatedBy": "asperiores",
+    "CreatedBy": "dolor",
+    "TableName": "Corwin-Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

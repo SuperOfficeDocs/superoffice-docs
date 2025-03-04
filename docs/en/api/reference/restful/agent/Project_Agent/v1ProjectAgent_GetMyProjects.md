@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 914,
-    "Name": "Muller LLC",
-    "Description": "Managed uniform architecture",
+    "ProjectId": 368,
+    "Name": "Altenwerth LLC",
+    "Description": "Decentralized empowering standardization",
     "URL": "http://www.example.com/",
-    "Type": "et",
-    "AssociateId": 687,
-    "AssociateFullName": "Creola Kutch",
-    "TypeId": 344,
-    "Updated": "2011-01-29T12:01:28.1659327+01:00",
-    "StatusId": 380,
-    "Status": "dignissimos",
-    "TextId": 534,
-    "PublishTo": "2002-02-13T12:01:28.1659327+01:00",
-    "PublishFrom": "2020-04-09T12:01:28.1659327+02:00",
-    "IsPublished": true,
+    "Type": "ipsa",
+    "AssociateId": 127,
+    "AssociateFullName": "Mr. Patricia Winona Becker",
+    "TypeId": 914,
+    "Updated": "2018-12-13T14:13:41.0314634+01:00",
+    "StatusId": 307,
+    "Status": "voluptatum",
+    "TextId": 855,
+    "PublishTo": "2017-01-16T14:13:41.0314634+01:00",
+    "PublishFrom": "2016-03-31T14:13:41.0314634+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1315458",
-    "ActiveErpLinks": 996,
+    "ProjectNumber": "1111597",
+    "ActiveErpLinks": 448,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 827
       }
     }
   }

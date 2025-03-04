@@ -75,14 +75,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LogWarning": true,
-  "LogInformation": false,
-  "LogSuccessAudit": false,
-  "LogFailureAudit": false,
+  "LogWarning": false,
+  "LogInformation": true,
+  "LogSuccessAudit": true,
+  "LogFailureAudit": true,
   "LogToEventLog": false,
-  "LogToSuperOffice": true,
+  "LogToSuperOffice": false,
   "LogToFile": true,
-  "LogToTrace": true
+  "LogToTrace": false
 }
 ```
 

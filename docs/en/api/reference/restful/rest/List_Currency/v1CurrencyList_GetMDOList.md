@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=doloribus
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=provident
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Wiegand LLC",
-    "ToolTip": "Magni vero nemo deserunt occaecati.",
-    "Deleted": false,
-    "Rank": 303,
-    "Type": "eum",
+    "Id": 821,
+    "Name": "Murazik-Kovacek",
+    "ToolTip": "Deserunt consequatur.",
+    "Deleted": true,
+    "Rank": 162,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "White Inc and Sons",
-        "ToolTip": "Saepe aliquam reiciendis.",
+        "Id": 880,
+        "Name": "D'Amore-Stoltenberg",
+        "ToolTip": "Sint voluptatum fuga aliquid rem perferendis.",
         "Deleted": false,
-        "Rank": 78,
-        "Type": "delectus",
+        "Rank": 404,
+        "Type": "esse",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 234,
-        "ExtraInfo": "iste",
-        "StyleHint": "asperiores",
-        "FullName": "Jacquelyn Funk",
+        "IconHint": "sed",
+        "ColorBlock": 898,
+        "ExtraInfo": "dolores",
+        "StyleHint": "non",
+        "FullName": "Dr. Effie Jailyn Windler V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 770
+            "FieldLength": 674
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 442,
-    "ExtraInfo": "eos",
-    "StyleHint": "fugit",
-    "FullName": "Abbigail Hermiston",
+    "IconHint": "praesentium",
+    "ColorBlock": 452,
+    "ExtraInfo": "qui",
+    "StyleHint": "optio",
+    "FullName": "Emilia Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldLength": 791
       }
     }
   }

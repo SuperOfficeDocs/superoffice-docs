@@ -101,10 +101,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 125,
-  "StartTime": "2012-01-21T12:01:27.5877684+01:00",
-  "EndTime": "2009-01-28T12:01:27.5877684+01:00",
-  "Count": 161
+  "ContactId": 178,
+  "StartTime": "1998-11-28T14:13:40.0004493+01:00",
+  "EndTime": "2012-10-24T14:13:40.0004493+02:00",
+  "Count": 586
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 719,
-    "Attention": "molestias",
-    "Header": "totam",
-    "Name": "West, Grady and Dibbert",
-    "OurRef": "consectetur",
-    "YourRef": "veniam",
-    "Description": "Monitored heuristic adapter",
-    "DocumentTemplate": "culpa",
+    "DocumentId": 227,
+    "Attention": "aut",
+    "Header": "maiores",
+    "Name": "Bogan, Purdy and Daniel",
+    "OurRef": "libero",
+    "YourRef": "necessitatibus",
+    "Description": "Advanced dynamic algorithm",
+    "DocumentTemplate": "corporis",
     "IsPublished": false,
-    "PersonId": 909,
-    "PersonFullName": "Prof. Rex Konopelski PhD",
-    "AssociateFullName": "Sarina Bode",
-    "ContactId": 410,
-    "ContactName": "DuBuque LLC",
-    "ProjectId": 806,
-    "ProjectName": "Sipes-Kshlerin",
-    "AssociateId": 681,
-    "Snum": 462,
-    "SaleId": 320,
-    "SaleName": "Daniel-Heathcote",
+    "PersonId": 825,
+    "PersonFullName": "Werner Larson",
+    "AssociateFullName": "Dr. Aric Edythe Pfeffer MD",
+    "ContactId": 42,
+    "ContactName": "Rutherford, Welch and Bashirian",
+    "ProjectId": 114,
+    "ProjectName": "Yost, Nolan and Jast",
+    "AssociateId": 114,
+    "Snum": 499,
+    "SaleId": 408,
+    "SaleName": "Franecki-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldType": "System.String",
+        "FieldLength": 60
       }
     }
   }

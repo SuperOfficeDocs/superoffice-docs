@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 122,
-    "Name": "Cummings-Moore",
-    "ToolTip": "In rerum explicabo.",
-    "Deleted": false,
-    "Rank": 207,
-    "Type": "eius",
-    "ColorBlock": 857,
-    "IconHint": "autem",
+    "Id": 170,
+    "Name": "Fisher Group",
+    "ToolTip": "Repellendus iste aut repellat deleniti dolor beatae nostrum.",
+    "Deleted": true,
+    "Rank": 778,
+    "Type": "vitae",
+    "ColorBlock": 499,
+    "IconHint": "laborum",
     "Selected": false,
-    "LastChanged": "2021-06-15T12:01:33.5894836+02:00",
+    "LastChanged": "2010-11-16T14:13:50.1031526+01:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Koelpin, Anderson and Lynch",
-        "ToolTip": "Facere mollitia corrupti.",
+        "Id": 966,
+        "Name": "Cormier, Ziemann and Durgan",
+        "ToolTip": "Nesciunt voluptas dignissimos minima.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "provident",
-        "ColorBlock": 99,
-        "IconHint": "ut",
+        "Rank": 711,
+        "Type": "sit",
+        "ColorBlock": 379,
+        "IconHint": "temporibus",
         "Selected": true,
-        "LastChanged": "2017-11-14T12:01:33.5894836+01:00",
+        "LastChanged": "2007-01-07T14:13:50.1031526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "expedita",
+        "ExtraInfo": "fuga",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Dereck Jewess"
+        "FullName": "Maggie Block"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "eaque",
+    "ExtraInfo": "officiis",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Judah Cassin"
+    "FullName": "Mrs. Raphael Baumbach PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Gusikowski Group",
-    "ToolTip": "Ut doloribus molestiae quam enim mollitia.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "et",
-    "ColorBlock": 346,
-    "IconHint": "illo",
+    "Id": 882,
+    "Name": "Corwin, Cruickshank and Lueilwitz",
+    "ToolTip": "Aspernatur suscipit architecto autem illum rem temporibus.",
+    "Deleted": false,
+    "Rank": 811,
+    "Type": "iusto",
+    "ColorBlock": 150,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "1999-03-30T12:01:33.5894836+02:00",
+    "LastChanged": "2023-11-30T14:13:50.1031526+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Keebler, Bergnaum and Bode",
-        "ToolTip": "Earum recusandae.",
-        "Deleted": false,
-        "Rank": 379,
-        "Type": "sed",
-        "ColorBlock": 30,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2013-10-05T12:01:33.5894836+02:00",
+        "Id": 810,
+        "Name": "Bernier, Schultz and Boehm",
+        "ToolTip": "Ut quia.",
+        "Deleted": true,
+        "Rank": 148,
+        "Type": "qui",
+        "ColorBlock": 889,
+        "IconHint": "deserunt",
+        "Selected": true,
+        "LastChanged": "2008-03-11T14:13:50.1031526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "ut",
+        "StyleHint": "fugit",
         "Hidden": false,
-        "FullName": "Neil Stiedemann",
+        "FullName": "Lilliana Pfannerstill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 696
+            "FieldType": "System.String",
+            "FieldLength": 224
           }
         }
       }
     ],
-    "ExtraInfo": "neque",
-    "StyleHint": "officia",
+    "ExtraInfo": "et",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mr. Cara Schiller",
+    "FullName": "Jaime Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 94
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

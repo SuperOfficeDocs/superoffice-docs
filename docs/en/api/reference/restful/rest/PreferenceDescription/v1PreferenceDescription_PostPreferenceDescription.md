@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 295,
-  "Section": "necessitatibus",
-  "Key": "nesciunt",
-  "Name": "Botsford Inc and Sons",
+  "PrefDescId": 236,
+  "Section": "quia",
+  "Key": "quisquam",
+  "Name": "Leannon-Sipes",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based didactic product",
+  "Description": "Extended zero tolerance algorithm",
   "IsBuiltin": false,
-  "TableName": "Lakin, Hane and Fritsch",
-  "UserDefinedListId": 585,
-  "Rank": 711,
-  "SubGroup": "repellat",
-  "MinLevel": 409,
-  "MaxValue": 300,
-  "MinValue": 586,
-  "RequiredLicense": "voluptatem"
+  "TableName": "Wunsch, Wyman and Thiel",
+  "UserDefinedListId": 978,
+  "Rank": 827,
+  "SubGroup": "libero",
+  "MinLevel": 889,
+  "MaxValue": 265,
+  "MinValue": 249,
+  "RequiredLicense": "modi"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 927,
-  "Section": "sed",
-  "Key": "libero",
-  "Name": "Funk-Morissette",
+  "PrefDescId": 836,
+  "Section": "adipisci",
+  "Key": "cumque",
+  "Name": "Heaney-Leuschke",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Function-based motivating customer loyalty",
-  "IsBuiltin": true,
-  "TableName": "Murazik-McKenzie",
-  "UserDefinedListId": 337,
-  "Rank": 11,
-  "SubGroup": "hic",
-  "MinLevel": 973,
-  "MaxValue": 132,
-  "MinValue": 137,
-  "RequiredLicense": "nam",
+  "Description": "Multi-layered 6th generation contingency",
+  "IsBuiltin": false,
+  "TableName": "Kozey, Durgan and Bechtelar",
+  "UserDefinedListId": 567,
+  "Rank": 885,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 253,
+  "MaxValue": 861,
+  "MinValue": 789,
+  "RequiredLicense": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldLength": 942
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

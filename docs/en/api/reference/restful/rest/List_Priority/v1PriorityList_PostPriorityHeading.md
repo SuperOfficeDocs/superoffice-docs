@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 336,
-  "Name": "Spinka-Reichel",
-  "Tooltip": "ratione",
+  "HeadingId": 593,
+  "Name": "McGlynn, Bosco and Conn",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "Rank": 499,
-  "UdListDefinitionId": 28
+  "Rank": 590,
+  "UdListDefinitionId": 993
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 61,
-  "Name": "Veum Group",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 430,
+  "HeadingId": 237,
+  "Name": "Hermann, Kemmer and Lueilwitz",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "Rank": 821,
   "UdListDefinitionId": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

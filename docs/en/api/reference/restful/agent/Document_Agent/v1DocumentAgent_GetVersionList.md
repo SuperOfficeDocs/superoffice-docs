@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 16
+  "DocumentId": 872
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "itaque",
-    "DocumentId": 827,
-    "VersionId": "corporis",
-    "CheckedInDate": "2000-09-27T12:01:27.7596543+02:00",
-    "CheckedInByName": "Sipes-Grady",
-    "CheckedInByAssociateId": 303,
-    "Description": "Customer-focused regional approach",
-    "DisplayText": "et",
+    "ExternalReference": "fugit",
+    "DocumentId": 330,
+    "VersionId": "qui",
+    "CheckedInDate": "2015-06-05T14:13:40.1254187+02:00",
+    "CheckedInByName": "Satterfield LLC",
+    "CheckedInByAssociateId": 284,
+    "Description": "Innovative well-modulated concept",
+    "DisplayText": "exercitationem",
     "ExtraFields": [
-      "nemo",
-      "deleniti"
+      "iste",
+      "expedita"
     ]
   }
 ]

@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2023-07-25T12:01:28.2596899+02:00",
-  "ToDate": "2024-03-27T12:01:28.2596899+01:00",
-  "AmountLimit": 353,
+  "FromDate": "2017-02-03T14:13:41.240351+01:00",
+  "ToDate": "2021-04-21T14:13:41.240351+02:00",
+  "AmountLimit": 758,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Russel Group",
-    "SaleDate": "2023-04-15T12:01:28.2596899+02:00",
-    "SaleId": 292,
-    "Probability": 575,
-    "Title": "voluptas",
-    "Amount": 25529.564,
-    "Currency": "est",
-    "ProjectName": "Hammes-Kiehn",
-    "AssociateFullName": "Rossie Crist",
-    "Description": "Up-sized demand-driven capacity",
+    "ContactName": "Lockman-Hoeger",
+    "SaleDate": "2015-11-11T14:13:41.2508568+01:00",
+    "SaleId": 571,
+    "Probability": 488,
+    "Title": "rerum",
+    "Amount": 19565.561999999998,
+    "Currency": "expedita",
+    "ProjectName": "Fay-Roob",
+    "AssociateFullName": "Miss Shaylee Dario Wuckert PhD",
+    "Description": "Sharable uniform instruction set",
     "Status": "Lost",
-    "WeightedAmount": 1360.156,
-    "ProjectId": 492,
-    "EarningPercent": 1817.72,
-    "Earning": 9449.01,
-    "ContactId": 156,
-    "AssociateId": 826,
-    "PersonId": 57,
-    "SaleTypeId": 340,
-    "SaleTypeName": "Lakin-Nitzsche",
-    "PersonFullName": "Brittany Walter",
+    "WeightedAmount": 23871.678,
+    "ProjectId": 827,
+    "EarningPercent": 21445.962,
+    "Earning": 6155.1759999999995,
+    "ContactId": 160,
+    "AssociateId": 738,
+    "PersonId": 437,
+    "SaleTypeId": 327,
+    "SaleTypeName": "Kautzer, Murray and Harvey",
+    "PersonFullName": "Annie Price",
     "Completed": "Completed",
-    "ActiveErpLinks": 549,
-    "NextDueDate": "2014-06-26T12:01:28.2596899+02:00",
-    "Number": "1528365",
+    "ActiveErpLinks": 663,
+    "NextDueDate": "2021-10-09T14:13:41.2508568+02:00",
+    "Number": "993027",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldLength": 85
       }
     }
   }

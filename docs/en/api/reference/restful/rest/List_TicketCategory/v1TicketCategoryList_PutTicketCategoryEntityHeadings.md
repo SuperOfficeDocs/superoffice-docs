@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 303,
-    "Name": "Jerde-Sawayn",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 248,
-    "UdListDefinitionId": 887
+    "HeadingId": 490,
+    "Name": "Rice-Huels",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 104,
+    "UdListDefinitionId": 62
   },
   {
-    "HeadingId": 303,
-    "Name": "Jerde-Sawayn",
-    "Tooltip": "numquam",
-    "Deleted": true,
-    "Rank": 248,
-    "UdListDefinitionId": 887
+    "HeadingId": 490,
+    "Name": "Rice-Huels",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 104,
+    "UdListDefinitionId": 62
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 86,
-    "Name": "Lehner, Jerde and Kuphal",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 3,
-    "UdListDefinitionId": 76,
+    "HeadingId": 932,
+    "Name": "Simonis-Leffler",
+    "Tooltip": "tenetur",
+    "Deleted": true,
+    "Rank": 863,
+    "UdListDefinitionId": 130,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 262
+        "FieldType": "System.Int32",
+        "FieldLength": 479
       }
     }
   }

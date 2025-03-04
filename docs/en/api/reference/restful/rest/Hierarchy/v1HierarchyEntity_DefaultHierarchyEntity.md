@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 851,
+  "HierarchyId": 349,
   "Domain": "Dashboards",
-  "Name": "Rutherford Group",
-  "Fullname": "consequatur",
-  "ParentId": 322,
+  "Name": "Kihn Group",
+  "Fullname": "ea",
+  "ParentId": 79,
   "Children": [
     {
-      "HierarchyId": 974,
+      "HierarchyId": 306,
       "Domain": "Dashboards",
-      "Name": "Hermiston, Reinger and Waters",
-      "Fullname": "optio",
-      "ParentId": 822,
+      "Name": "Bergstrom-Klocko",
+      "Fullname": "corporis",
+      "ParentId": 613,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-11-10T12:01:32.9175621+01:00",
-      "RegisteredAssociateId": 126,
-      "Updated": "2021-04-18T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 341,
+      "Registered": "2002-11-07T14:13:48.8993207+01:00",
+      "RegisteredAssociateId": 355,
+      "Updated": "2011-07-13T14:13:48.8993207+02:00",
+      "UpdatedAssociateId": 391,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 151
+          "FieldLength": 486
         }
       }
     }
   ],
-  "Registered": "2005-12-20T12:01:32.9175621+01:00",
-  "RegisteredAssociateId": 784,
-  "Updated": "2006-12-15T12:01:32.9175621+01:00",
-  "UpdatedAssociateId": 370,
+  "Registered": "2020-02-14T14:13:48.8993207+01:00",
+  "RegisteredAssociateId": 912,
+  "Updated": "2021-05-05T14:13:48.8993207+02:00",
+  "UpdatedAssociateId": 237,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Nolan, Windler and Gutkowski",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 354,
-  "Rank": 215,
+  "Id": 963,
+  "Name": "Wolf-Considine",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 152,
+  "Rank": 350,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

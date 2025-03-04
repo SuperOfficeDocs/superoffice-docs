@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 384,
-    "AssociateId": 648,
-    "Block": "dolor",
-    "Registered": "2002-09-18T12:01:33.2144574+02:00",
-    "RegisteredAssociateId": 1000,
-    "Updated": "2013-08-31T12:01:33.2144574+02:00",
-    "UpdatedAssociateId": 577,
-    "UpdatedCount": 415,
+    "ShipmentMessageBlockId": 797,
+    "AssociateId": 444,
+    "Block": "molestiae",
+    "Registered": "2013-09-19T14:13:49.2587235+02:00",
+    "RegisteredAssociateId": 296,
+    "Updated": "1999-06-24T14:13:49.2587235+02:00",
+    "UpdatedAssociateId": 324,
+    "UpdatedCount": 591,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 358
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

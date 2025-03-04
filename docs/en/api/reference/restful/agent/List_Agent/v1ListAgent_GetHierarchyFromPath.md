@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quasi",
-  "Children": false
+  "Path": "odio",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 881,
+  "HierarchyId": 669,
   "Domain": "Dashboards",
-  "Name": "Wunsch-Grimes",
-  "Fullname": "debitis",
-  "ParentId": 784,
+  "Name": "Stracke, Schimmel and Schmitt",
+  "Fullname": "alias",
+  "ParentId": 395,
   "Children": [
     {
-      "HierarchyId": 610,
+      "HierarchyId": 143,
       "Domain": "Dashboards",
-      "Name": "Donnelly, Olson and Mayert",
-      "Fullname": "voluptatem",
-      "ParentId": 943,
+      "Name": "Frami, Baumbach and Kautzer",
+      "Fullname": "eos",
+      "ParentId": 887,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-05-09T12:01:27.9627939+02:00",
-      "RegisteredAssociateId": 557,
-      "Updated": "2000-05-02T12:01:27.9627939+02:00",
-      "UpdatedAssociateId": 366,
+      "Registered": "2009-10-07T14:13:40.5159548+02:00",
+      "RegisteredAssociateId": 305,
+      "Updated": "2016-06-28T14:13:40.5159548+02:00",
+      "UpdatedAssociateId": 8,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 317
         }
       }
     }
   ],
-  "Registered": "2004-09-11T12:01:27.9627939+02:00",
-  "RegisteredAssociateId": 237,
-  "Updated": "2021-10-29T12:01:27.9627939+02:00",
-  "UpdatedAssociateId": 891,
+  "Registered": "2014-03-02T14:13:40.5159548+01:00",
+  "RegisteredAssociateId": 656,
+  "Updated": "2009-06-15T14:13:40.5159548+02:00",
+  "UpdatedAssociateId": 637,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldLength": 230
     }
   }
 }

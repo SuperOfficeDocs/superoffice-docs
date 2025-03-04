@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=at
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Bauch-Flatley",
-    "ToolTip": "Corrupti alias aliquam.",
-    "Deleted": true,
-    "Rank": 868,
-    "Type": "ut",
+    "Id": 507,
+    "Name": "Wilderman Group",
+    "ToolTip": "Dolores rerum non ipsam recusandae perspiciatis.",
+    "Deleted": false,
+    "Rank": 299,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Jaskolski, Lebsack and Kiehn",
-        "ToolTip": "Omnis soluta est laboriosam eos sit aut suscipit.",
+        "Id": 80,
+        "Name": "Cartwright Group",
+        "ToolTip": "Quo animi.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "aliquid",
+        "Rank": 643,
+        "Type": "omnis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 630,
-        "ExtraInfo": "eum",
-        "StyleHint": "voluptatem",
-        "FullName": "Kiana Von",
+        "IconHint": "placeat",
+        "ColorBlock": 73,
+        "ExtraInfo": "tempora",
+        "StyleHint": "accusamus",
+        "FullName": "Gilbert Armstrong II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 331
+            "FieldLength": 571
           }
         }
       }
     ],
-    "IconHint": "explicabo",
-    "ColorBlock": 129,
-    "ExtraInfo": "aut",
-    "StyleHint": "expedita",
-    "FullName": "Aimee Effertz",
+    "IconHint": "nisi",
+    "ColorBlock": 602,
+    "ExtraInfo": "velit",
+    "StyleHint": "et",
+    "FullName": "Prof. Rosa Armando VonRueden DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 471
       }
     }
   }

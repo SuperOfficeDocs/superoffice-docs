@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Haley Group",
-    "DisplayName": "Oberbrunner-Ebert",
-    "Description": "Sharable asynchronous time-frame",
-    "ShortLabel": "accusamus",
+    "FieldName": "Dooley-Streich",
+    "DisplayName": "Kautzer Inc and Sons",
+    "Description": "Monitored human-resource throughput",
+    "ShortLabel": "harum",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 387,
-    "TemplateVariableName": "Schmeler-Franecki"
+    "Rank": 644,
+    "TemplateVariableName": "Torphy, Dibbert and Ebert"
   }
 ]
 ```

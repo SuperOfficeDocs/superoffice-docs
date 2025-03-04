@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 395,
-  "Name": "Gottlieb Inc and Sons",
-  "Tooltip": "laboriosam",
-  "Rank": 392,
-  "Rate": 28600.884,
-  "Units": 2660.766,
-  "Deleted": true
+  "CurrencyId": 63,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "at",
+  "Rank": 205,
+  "Rate": 29271.559999999998,
+  "Units": 7778.588,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 711,
-  "Name": "Wisoky Inc and Sons",
-  "Tooltip": "est",
-  "Rank": 412,
-  "Rate": 16729.291999999998,
-  "Units": 12184.992,
-  "Deleted": true,
+  "CurrencyId": 170,
+  "Name": "Erdman-Gislason",
+  "Tooltip": "tenetur",
+  "Rank": 917,
+  "Rate": 20455.618,
+  "Units": 22285.874,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 613
     }
   }
 }

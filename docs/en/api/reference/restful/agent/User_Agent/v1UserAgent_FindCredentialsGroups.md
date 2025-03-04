@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "maxime",
-  "SearchString": "omnis"
+  "Type": "sunt",
+  "SearchString": "dolorum"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McGlynn-Moore",
-    "DisplayName": "Yundt, Spinka and Doyle",
+    "Name": "Glover, Lowe and Kuvalis",
+    "DisplayName": "Jacobi Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 669
       }
     }
   },
   {
-    "Name": "McGlynn-Moore",
-    "DisplayName": "Yundt, Spinka and Doyle",
+    "Name": "Glover, Lowe and Kuvalis",
+    "DisplayName": "Jacobi Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 669
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Heathcote LLC",
-  "Tooltip": "veniam",
+  "Id": 208,
+  "Name": "Collier LLC",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "UdListDefinitionId": 595,
-  "Rank": 911,
+  "UdListDefinitionId": 186,
+  "Rank": 130,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 151
     }
   }
 }

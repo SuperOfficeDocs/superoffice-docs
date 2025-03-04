@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 319,
-  "ColumnId": 846,
-  "FieldDefault": "perferendis",
-  "FieldHeight": 8,
-  "FieldLabel": "adipisci",
-  "FieldLeft": 435,
-  "FieldTop": 819,
+  "UDefFieldId": 793,
+  "ColumnId": 899,
+  "FieldDefault": "enim",
+  "FieldHeight": 222,
+  "FieldLabel": "corporis",
+  "FieldLeft": 577,
+  "FieldTop": 112,
   "FieldType": "Checkbox",
-  "FieldWidth": 906,
-  "FormatMask": "veniam",
+  "FieldWidth": 870,
+  "FormatMask": "dolorum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 155,
-  "LabelLeft": 360,
-  "LabelTop": 563,
-  "LabelWidth": 469,
-  "LastVersionId": 72,
-  "ListTableId": 351,
+  "IsIndexed": true,
+  "LabelHeight": 939,
+  "LabelLeft": 863,
+  "LabelTop": 466,
+  "LabelWidth": 616,
+  "LastVersionId": 430,
+  "ListTableId": 187,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 296,
-  "ProgId": "perferendis",
+  "Page1LineNo": 929,
+  "ProgId": "excepturi",
   "IsReadOnly": false,
-  "ShortLabel": "possimus",
-  "TabOrder": 520,
-  "TextLength": 390,
-  "Tooltip": "dolore",
-  "UdefIdentity": 30,
-  "UDListDefinitionId": 173,
+  "ShortLabel": "qui",
+  "TabOrder": 609,
+  "TextLength": 749,
+  "Tooltip": "quia",
+  "UdefIdentity": 32,
+  "UDListDefinitionId": 925,
   "Justification": "Center",
-  "Version": 385,
-  "TemplateVariableName": "Goldner, Barrows and Monahan",
-  "HasBeenPublished": false,
-  "MdoListName": "Prohaska, Leffler and Reichert",
+  "Version": 618,
+  "TemplateVariableName": "Pouros Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Wisoky LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/ShadowMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "reprehenderit",
+  "odata.nextLink": "aut",
   "value": [
     {
-      "PrimaryKey": 8774,
-      "EntityName": "person",
-      "personId": 8774,
-      "fullName": "Colin Herzog"
+      "PrimaryKey": 685,
+      "EntityName": "sale",
+      "saleId": 685,
+      "contactId": 8360,
+      "name": "Spinka, Connelly and Wiza"
     },
     {
-      "PrimaryKey": 7573,
-      "EntityName": "person",
-      "personId": 7573,
-      "fullName": "Carroll O'Hara"
+      "PrimaryKey": 7628,
+      "EntityName": "sale",
+      "saleId": 7628,
+      "contactId": 6020,
+      "name": "Pagac, Raynor and Feil"
     }
   ]
 }

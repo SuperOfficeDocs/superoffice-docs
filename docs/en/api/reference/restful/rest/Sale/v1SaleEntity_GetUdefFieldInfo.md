@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 600,
-  "ColumnId": 503,
-  "FieldDefault": "beatae",
-  "FieldHeight": 780,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 40,
-  "FieldTop": 794,
+  "UDefFieldId": 390,
+  "ColumnId": 237,
+  "FieldDefault": "aspernatur",
+  "FieldHeight": 752,
+  "FieldLabel": "voluptatum",
+  "FieldLeft": 260,
+  "FieldTop": 295,
   "FieldType": "Checkbox",
-  "FieldWidth": 491,
-  "FormatMask": "ad",
+  "FieldWidth": 117,
+  "FormatMask": "rem",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 472,
-  "LabelLeft": 778,
-  "LabelTop": 506,
-  "LabelWidth": 364,
-  "LastVersionId": 990,
-  "ListTableId": 114,
+  "LabelHeight": 572,
+  "LabelLeft": 18,
+  "LabelTop": 185,
+  "LabelWidth": 273,
+  "LastVersionId": 633,
+  "ListTableId": 342,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 150,
-  "ProgId": "delectus",
+  "Page1LineNo": 50,
+  "ProgId": "occaecati",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 373,
-  "TextLength": 294,
-  "Tooltip": "aut",
-  "UdefIdentity": 652,
-  "UDListDefinitionId": 995,
+  "ShortLabel": "laudantium",
+  "TabOrder": 750,
+  "TextLength": 118,
+  "Tooltip": "fuga",
+  "UdefIdentity": 54,
+  "UDListDefinitionId": 539,
   "Justification": "Center",
-  "Version": 972,
-  "TemplateVariableName": "Koepp-Schroeder",
+  "Version": 836,
+  "TemplateVariableName": "Grant, Ritchie and Kuhic",
   "HasBeenPublished": true,
-  "MdoListName": "Grimes-Keeling",
+  "MdoListName": "Kutch, Baumbach and Predovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 227
     }
   }
 }

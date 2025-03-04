@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 508,
-    "Name": "Windler, Pfeffer and Romaguera",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 338,
-    "UdListDefinitionId": 671
+    "HeadingId": 872,
+    "Name": "Effertz Group",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 901,
+    "UdListDefinitionId": 669
   },
   {
-    "HeadingId": 508,
-    "Name": "Windler, Pfeffer and Romaguera",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "Rank": 338,
-    "UdListDefinitionId": 671
+    "HeadingId": 872,
+    "Name": "Effertz Group",
+    "Tooltip": "consectetur",
+    "Deleted": false,
+    "Rank": 901,
+    "UdListDefinitionId": 669
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 389,
-    "Name": "Aufderhar-Labadie",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "Rank": 843,
-    "UdListDefinitionId": 250,
+    "HeadingId": 287,
+    "Name": "Brown, Conn and Effertz",
+    "Tooltip": "ipsum",
+    "Deleted": false,
+    "Rank": 201,
+    "UdListDefinitionId": 450,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 304
       }
     }
   }

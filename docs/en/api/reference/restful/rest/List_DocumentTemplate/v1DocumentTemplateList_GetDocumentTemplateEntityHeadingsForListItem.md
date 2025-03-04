@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Block-Runolfsdottir",
-    "ToolTip": "Aliquam laboriosam labore quae quia.",
-    "Deleted": false,
-    "Rank": 216,
-    "Type": "a",
-    "ColorBlock": 473,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2007-01-22T12:01:33.511353+01:00",
+    "Id": 695,
+    "Name": "Weber-Feest",
+    "ToolTip": "Quisquam nostrum.",
+    "Deleted": true,
+    "Rank": 637,
+    "Type": "alias",
+    "ColorBlock": 138,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2009-05-30T14:13:49.9781847+02:00",
     "ChildItems": [
       {
-        "Id": 220,
-        "Name": "Hickle-Corwin",
-        "ToolTip": "Sit velit fugit nulla.",
+        "Id": 296,
+        "Name": "Fritsch-Renner",
+        "ToolTip": "Nihil aut rerum omnis.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "laborum",
-        "ColorBlock": 908,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2004-12-19T12:01:33.511353+01:00",
+        "Rank": 544,
+        "Type": "odio",
+        "ColorBlock": 982,
+        "IconHint": "sunt",
+        "Selected": false,
+        "LastChanged": "2011-01-07T14:13:49.9781847+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corporis",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Ms. Rosalia Deron Reichel",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Saige Okuneva",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 20
+            "FieldType": "System.String",
+            "FieldLength": 950
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Brisa Turner",
+    "ExtraInfo": "culpa",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Prof. Eunice Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 433
       }
     }
   }

@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 697,
-  "Name": "Schinner LLC",
-  "Tooltip": "magnam",
-  "Rank": 561,
-  "Rate": 16845.25,
-  "Units": 6145.7739999999994,
-  "Deleted": true,
+  "CurrencyId": 167,
+  "Name": "Dibbert, Orn and Strosin",
+  "Tooltip": "asperiores",
+  "Rank": 519,
+  "Rate": 18133.324,
+  "Units": 28083.773999999998,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

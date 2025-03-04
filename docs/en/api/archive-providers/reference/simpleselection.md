@@ -82,7 +82,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSelection?$select=lastMembershipChange,selectionAssociate/personId
+GET /api/v1/archive/SimpleSelection?$select=getNoRows,visibleFor,selectionAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 802,
+    "HierarchyId": 322,
     "Domain": "Dashboards",
-    "Name": "Huel LLC",
-    "Fullname": "consequatur",
-    "ParentId": 241,
+    "Name": "Dicki Inc and Sons",
+    "Fullname": "nostrum",
+    "ParentId": 984,
     "Children": [
       {
-        "HierarchyId": 470,
+        "HierarchyId": 991,
         "Domain": "Dashboards",
-        "Name": "Ebert LLC",
-        "Fullname": "dolorem",
-        "ParentId": 632,
+        "Name": "Harvey, Haag and Hoeger",
+        "Fullname": "perferendis",
+        "ParentId": 734,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2005-05-05T12:01:32.9175621+02:00",
-        "RegisteredAssociateId": 81,
-        "Updated": "2003-06-11T12:01:32.9175621+02:00",
-        "UpdatedAssociateId": 782,
+        "Registered": "2002-08-25T14:13:48.8993207+02:00",
+        "RegisteredAssociateId": 398,
+        "Updated": "2007-11-19T14:13:48.8993207+01:00",
+        "UpdatedAssociateId": 533,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 652
+            "FieldType": "System.String",
+            "FieldLength": 859
           }
         }
       }
     ],
-    "Registered": "1999-01-03T12:01:32.9175621+01:00",
-    "RegisteredAssociateId": 347,
-    "Updated": "1999-02-24T12:01:32.9175621+01:00",
-    "UpdatedAssociateId": 542,
+    "Registered": "2024-10-02T14:13:48.8993207+02:00",
+    "RegisteredAssociateId": 480,
+    "Updated": "2005-03-01T14:13:48.8993207+01:00",
+    "UpdatedAssociateId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 824
+        "FieldType": "System.Int32",
+        "FieldLength": 386
       }
     }
   }

@@ -88,8 +88,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 337,
-  "Type": "ea"
+  "AssociateId": 16,
+  "Type": "quis"
 }
 ```
 
@@ -101,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2008-07-11T12:01:28.6190891+02:00",
-    "ValidTo": "2005-01-20T12:01:28.6190891+01:00",
-    "Comment": "in",
-    "SecretValue": "reiciendis",
-    "PublicValue": "rem",
-    "IsActive": false,
+    "ValidFrom": "2006-06-14T14:13:41.7039902+02:00",
+    "ValidTo": "2013-07-25T14:13:41.7039902+02:00",
+    "Comment": "dolor",
+    "SecretValue": "laudantium",
+    "PublicValue": "ut",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 712
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

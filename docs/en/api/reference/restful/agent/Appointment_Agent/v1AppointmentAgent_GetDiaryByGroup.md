@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 763,
-  "GroupType": 560,
-  "StartTime": "2023-02-28T12:01:27.0252114+01:00",
-  "EndTime": "2009-09-24T12:01:27.0252114+02:00",
-  "Count": 225
+  "GroupId": 959,
+  "GroupType": 980,
+  "StartTime": "2022-04-02T14:13:38.9849467+02:00",
+  "EndTime": "2020-07-24T14:13:38.9849467+02:00",
+  "Count": 178
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 213,
-    "StartDate": "2015-05-05T12:01:27.0252114+02:00",
-    "EndDate": "2014-03-21T12:01:27.0252114+01:00",
+    "AppointmentId": 406,
+    "StartDate": "2002-10-28T14:13:38.9849467+01:00",
+    "EndDate": "2007-12-26T14:13:38.9849467+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nobis",
-    "AssociateFullName": "Opal Welch",
-    "ContactName": "Flatley, Zboncak and Heaney",
-    "Description": "Right-sized well-modulated approach",
-    "PersonFullName": "Olen Johns",
-    "PersonId": 553,
-    "ContactId": 583,
-    "ProjectId": 397,
-    "ProjectName": "Spinka-Gottlieb",
-    "IsPublished": true,
-    "AssociateId": 753,
-    "ColorIndex": 483,
-    "IsFree": false,
-    "HasAlarm": false,
+    "Task": "sunt",
+    "AssociateFullName": "Madeline Lubowitz",
+    "ContactName": "Hilpert, Johnston and Walsh",
+    "Description": "Profound foreground portal",
+    "PersonFullName": "Alysha Medhurst",
+    "PersonId": 285,
+    "ContactId": 230,
+    "ProjectId": 656,
+    "ProjectName": "Schulist, Ullrich and Bradtke",
+    "IsPublished": false,
+    "AssociateId": 939,
+    "ColorIndex": 723,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 58,
-    "PriorityName": "Hane, Carter and Morar",
+    "PriorityId": 503,
+    "PriorityName": "Collins, Armstrong and Goldner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-11-11T12:01:27.0252114+01:00",
+    "ActiveDate": "2008-04-16T14:13:38.9849467+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-07-12T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1999-11-01T12:01:27.0252114+01:00",
-    "MotherId": 615,
-    "AssignedBy": 593,
-    "AssignedByFullName": "Jace Hilpert",
+    "RecurringStartDate": "1998-08-07T14:13:38.9849467+02:00",
+    "RecurringEndDate": "2015-10-04T14:13:38.9849467+02:00",
+    "MotherId": 60,
+    "AssignedBy": 97,
+    "AssignedByFullName": "Mrs. Elvera Jones DVM",
     "RejectReason": "",
-    "Location": "soluta",
-    "AlarmLeadTime": "occaecati",
-    "SaleId": 60,
-    "SaleName": "Wilderman-O'Kon",
-    "AssociateName": "VonRueden-Murazik",
-    "CreatedDate": "2003-03-09T12:01:27.0252114+01:00",
-    "CreatedBy": "molestias",
-    "CreatedByFullName": "Dominique Smitham",
-    "CreatedByAssociateId": 524,
+    "Location": "in",
+    "AlarmLeadTime": "recusandae",
+    "SaleId": 588,
+    "SaleName": "Schmeler, Roberts and Bogan",
+    "AssociateName": "Mertz, Sipes and Harber",
+    "CreatedDate": "2019-08-06T14:13:38.9849467+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Ms. Leo Isabel Douglas",
+    "CreatedByAssociateId": 97,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 975,
-    "Title": "repellendus",
-    "Agenda": "ab",
-    "InternalNotes": "ea",
+    "PreferredTZLocation": 423,
+    "Title": "magni",
+    "Agenda": "fuga",
+    "InternalNotes": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 30
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

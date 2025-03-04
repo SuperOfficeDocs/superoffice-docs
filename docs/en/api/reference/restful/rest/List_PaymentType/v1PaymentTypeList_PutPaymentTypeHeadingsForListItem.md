@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Thompson-Hammes",
-    "ToolTip": "Nisi aspernatur doloribus earum est consequatur.",
-    "Deleted": true,
-    "Rank": 695,
-    "Type": "excepturi",
-    "ColorBlock": 921,
-    "IconHint": "sit",
+    "Id": 63,
+    "Name": "Morissette-Armstrong",
+    "ToolTip": "Itaque nihil rerum repellat qui natus.",
+    "Deleted": false,
+    "Rank": 399,
+    "Type": "odit",
+    "ColorBlock": 179,
+    "IconHint": "repellat",
     "Selected": false,
-    "LastChanged": "2016-07-19T12:01:33.5426053+02:00",
+    "LastChanged": "2007-01-15T14:13:50.0406714+01:00",
     "ChildItems": [
       {
-        "Id": 261,
-        "Name": "Tremblay-Stoltenberg",
-        "ToolTip": "Excepturi repudiandae.",
-        "Deleted": true,
-        "Rank": 389,
-        "Type": "rem",
-        "ColorBlock": 644,
-        "IconHint": "pariatur",
+        "Id": 337,
+        "Name": "Walker LLC",
+        "ToolTip": "Reprehenderit velit in voluptatum ea optio ipsum ut.",
+        "Deleted": false,
+        "Rank": 283,
+        "Type": "blanditiis",
+        "ColorBlock": 839,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2020-12-24T12:01:33.5426053+01:00",
+        "LastChanged": "2016-09-15T14:13:50.0406714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aperiam",
-        "Hidden": true,
-        "FullName": "Lacy Dickens"
+        "ExtraInfo": "accusamus",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "Elza Leuschke"
       }
     ],
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Nina Vandervort"
+    "ExtraInfo": "eos",
+    "StyleHint": "enim",
+    "Hidden": false,
+    "FullName": "Ms. Bianka Bergstrom"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 278,
-    "Name": "Littel-Murazik",
-    "ToolTip": "Illum eos similique officiis omnis autem amet.",
-    "Deleted": false,
-    "Rank": 36,
-    "Type": "dolor",
-    "ColorBlock": 122,
-    "IconHint": "vel",
+    "Id": 613,
+    "Name": "Beer Group",
+    "ToolTip": "Sed accusamus quo.",
+    "Deleted": true,
+    "Rank": 513,
+    "Type": "modi",
+    "ColorBlock": 568,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2006-06-23T12:01:33.5426053+02:00",
+    "LastChanged": "2020-04-24T14:13:50.0406714+02:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Langworth-Bosco",
-        "ToolTip": "Quos eligendi debitis.",
-        "Deleted": true,
-        "Rank": 479,
-        "Type": "cum",
-        "ColorBlock": 135,
-        "IconHint": "nihil",
+        "Id": 172,
+        "Name": "Stamm Group",
+        "ToolTip": "Deserunt ipsa similique.",
+        "Deleted": false,
+        "Rank": 277,
+        "Type": "est",
+        "ColorBlock": 23,
+        "IconHint": "porro",
         "Selected": false,
-        "LastChanged": "2004-08-21T12:01:33.5426053+02:00",
+        "LastChanged": "2002-08-31T14:13:50.0406714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Koby Heller",
+        "ExtraInfo": "maxime",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Adell Towne",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "est",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Barney Friesen",
+    "FullName": "Levi Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 12
       }
     }
   }

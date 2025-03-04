@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 669,
-  "Name": "Nienow LLC",
-  "Tooltip": "reiciendis",
-  "Rank": 1002,
-  "Key": "qui",
+  "LegalBaseId": 235,
+  "Name": "Ruecker Group",
+  "Tooltip": "non",
+  "Rank": 478,
+  "Key": "porro",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 825
     }
   }
 }

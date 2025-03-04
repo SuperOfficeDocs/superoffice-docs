@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptate",
+  "RawValue": "optio",
   "Specification": null,
-  "DisplayValue": "fugiat",
-  "DisplayTooltip": "qui",
+  "DisplayValue": "eveniet",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 178,
-  "PrefDescId": 395,
-  "TableName": "Wisoky-Hartmann",
-  "UserPreferenceId": 23
+  "TargetId": 772,
+  "PrefDescId": 538,
+  "TableName": "Parker-Bahringer",
+  "UserPreferenceId": 420
 }
 ```
 

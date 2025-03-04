@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 652,
-  "ERPPriceListKey": "eos",
-  "QuoteConnectionId": 61,
-  "Name": "Hermiston LLC",
-  "Description": "Vision-oriented asynchronous alliance",
-  "Currency": "sit",
-  "CurrencyName": "Mills, Hegmann and Brekke",
-  "ValidFrom": "2007-08-02T12:01:33.5582313+02:00",
-  "ValidTo": "2019-02-14T12:01:33.5582313+01:00",
-  "IsActive": false
+  "PriceListId": 668,
+  "ERPPriceListKey": "ab",
+  "QuoteConnectionId": 461,
+  "Name": "Muller, Rippin and Harris",
+  "Description": "Multi-lateral 24 hour neural-net",
+  "Currency": "provident",
+  "CurrencyName": "Murazik Inc and Sons",
+  "ValidFrom": "2023-09-12T14:13:50.0562893+02:00",
+  "ValidTo": "1998-08-17T14:13:50.0562893+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 607,
-  "ERPPriceListKey": "ut",
-  "QuoteConnectionId": 545,
-  "Name": "Wunsch-Jacobi",
-  "Description": "Enterprise-wide uniform framework",
-  "Currency": "quia",
-  "CurrencyName": "McClure Inc and Sons",
-  "ValidFrom": "2004-09-22T12:01:33.5582313+02:00",
-  "ValidTo": "1998-04-15T12:01:33.5582313+02:00",
-  "IsActive": true,
+  "PriceListId": 211,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 139,
+  "Name": "Romaguera Inc and Sons",
+  "Description": "Compatible next generation collaboration",
+  "Currency": "illo",
+  "CurrencyName": "Wehner LLC",
+  "ValidFrom": "2023-06-19T14:13:50.0562893+02:00",
+  "ValidTo": "2021-02-06T14:13:50.0562893+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 486
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

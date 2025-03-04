@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 132,
-    "Name": "Labadie, Wyman and Parker",
-    "Tooltip": "illum",
+    "HeadingId": 483,
+    "Name": "Jakubowski, Turner and Lang",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 955,
-    "UdListDefinitionId": 848,
+    "Rank": 86,
+    "UdListDefinitionId": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

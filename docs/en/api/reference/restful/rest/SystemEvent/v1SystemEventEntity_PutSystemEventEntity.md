@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 842,
+  "SystemEventId": 613,
   "Scope": "Database",
-  "Eta": "2014-05-03T12:01:33.2144574+02:00",
-  "Eventkey": "vero",
-  "Eventmess": "pariatur",
-  "ExtraInfo": 650,
-  "Owner": 745,
-  "UpdatedCount": 216,
-  "Registered": "2021-08-25T12:01:33.2144574+02:00",
+  "Eta": "2010-04-10T14:13:49.2743418+02:00",
+  "Eventkey": "suscipit",
+  "Eventmess": "est",
+  "ExtraInfo": 511,
+  "Owner": 386,
+  "UpdatedCount": 800,
+  "Registered": "2014-08-29T14:13:49.2743418+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 142,
+  "SystemEventId": 261,
   "Scope": "Database",
-  "Eta": "2000-07-04T12:01:33.2144574+02:00",
-  "Eventkey": "tenetur",
-  "Eventmess": "sed",
-  "ExtraInfo": 874,
-  "Owner": 464,
-  "UpdatedCount": 290,
-  "Registered": "1998-09-11T12:01:33.2144574+02:00",
+  "Eta": "2006-05-27T14:13:49.2743418+02:00",
+  "Eventkey": "modi",
+  "Eventmess": "est",
+  "ExtraInfo": 730,
+  "Owner": 893,
+  "UpdatedCount": 882,
+  "Registered": "2006-07-05T14:13:49.2743418+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldLength": 878
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

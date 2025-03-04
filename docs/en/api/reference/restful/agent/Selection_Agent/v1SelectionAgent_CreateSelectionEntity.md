@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Cormier Group"
+  "TargetTableName": "Wilderman, Collier and Renner"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile didactic alliance",
-  "Postit": "saepe",
+  "Description": "Grass-roots interactive website",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 847,
-  "IncludePerson": 249,
+  "GroupIdx": 912,
+  "IncludePerson": 486,
   "MemberCount": 99.99,
-  "Name": "Schumm-Schneider",
-  "PostitTextId": 686,
-  "CreatedDate": "1998-01-28T12:01:28.2909425+01:00",
-  "SelectionId": 787,
-  "SoundEx": "totam",
-  "Source": 731,
-  "TextId": 124,
-  "UpdatedDate": "2023-08-28T12:01:28.2909425+02:00",
-  "UpdatedCount": 363,
-  "Visibility": 958,
+  "Name": "Koepp, Balistreri and Cartwright",
+  "PostitTextId": 509,
+  "CreatedDate": "2005-02-07T14:13:41.2821041+01:00",
+  "SelectionId": 85,
+  "SoundEx": "odit",
+  "Source": 855,
+  "TextId": 330,
+  "UpdatedDate": "2008-08-12T14:13:41.2821041+02:00",
+  "UpdatedCount": 640,
+  "Visibility": 854,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 884,
-  "TargetTableName": "Brown, Heller and Wilderman",
+  "CompanyUnique": true,
+  "TargetTableNumber": 480,
+  "TargetTableName": "Toy, McLaughlin and Wuckert",
   "Completed": false,
-  "LeftSelectionId": 237,
-  "RightSelectionId": 599,
+  "LeftSelectionId": 583,
+  "RightSelectionId": 194,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roberts, Hodkiewicz and Purdy",
-  "ShadowProviderName": "Waelchi, Simonis and Reinger",
-  "ChartKey": "facilis",
-  "LastLoaded": "2001-08-03T12:01:28.2909425+02:00",
-  "LastLoadedBy": 36,
+  "MainProviderName": "Hermiston Inc and Sons",
+  "ShadowProviderName": "Roob LLC",
+  "ChartKey": "distinctio",
+  "LastLoaded": "1998-07-01T14:13:41.2821041+02:00",
+  "LastLoadedBy": 200,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-02-02T12:01:28.2909425+01:00",
-  "LastMembershipChangeBy": 968,
+  "LastMembershipChange": "1999-03-17T14:13:41.2821041+01:00",
+  "LastMembershipChangeBy": 510,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "ratione",
-  "MailingsProviderName": "Huel Group",
-  "DashboardTileDefinitionId": 646,
+  "MainHeading": "perferendis",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Kuhic, Waters and Metz",
+  "DashboardTileDefinitionId": 259,
   "VisibleFor": [
     {
-      "VisibleId": 183,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 706
         }
       }
     },
     {
-      "VisibleId": 183,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 706
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 560
     }
   }
 }

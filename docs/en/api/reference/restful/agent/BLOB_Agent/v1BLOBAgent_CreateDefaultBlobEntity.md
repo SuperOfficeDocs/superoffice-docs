@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 851,
-  "BlobSize": 381,
-  "Description": "Synergized zero defect product",
-  "ExtraInfo": "aut",
+  "BlobId": 611,
+  "BlobSize": 435,
+  "Description": "Object-based high-level pricing structure",
+  "ExtraInfo": "autem",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "hic",
-  "OriginalSize": 757,
-  "CreatedDate": "2007-04-13T12:01:27.3533761+02:00",
-  "UpdatedDate": "2005-10-22T12:01:27.3533761+02:00",
+  "MimeType": "dolor",
+  "OriginalSize": 446,
+  "CreatedDate": "2017-03-18T14:13:39.3911033+01:00",
+  "UpdatedDate": "2001-01-24T14:13:39.3911033+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nulla",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldLength": 436
     }
   }
 }

@@ -39,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Appointment:Credentials>
  <SOAP-ENV:Body>
    <Appointment:GetDayInformationListByDatesAndAssociate>
-    <Appointment:StartDate xsi:type="xsd:dateTime">2025-02-10T10:58:47Z</Appointment:StartDate>
-    <Appointment:EndDate xsi:type="xsd:dateTime">2025-02-10T10:58:47Z</Appointment:EndDate>
+    <Appointment:StartDate xsi:type="xsd:dateTime">2025-02-24T13:10:56Z</Appointment:StartDate>
+    <Appointment:EndDate xsi:type="xsd:dateTime">2025-02-24T13:10:56Z</Appointment:EndDate>
     <Appointment:AssociateId xsi:type="xsd:int">0</Appointment:AssociateId>
    </Appointment:GetDayInformationListByDatesAndAssociate>
 
@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Appointment:IsOwnCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOwnCountryHoliday>
       <Appointment:IsOtherCountryHoliday xsi:type="xsd:boolean">false</Appointment:IsOtherCountryHoliday>
      </Appointment:RedLetterInformation>
-     <Appointment:Date xsi:type="xsd:dateTime">2025-02-10T10:58:47Z</Appointment:Date>
+     <Appointment:Date xsi:type="xsd:dateTime">2025-02-24T13:10:56Z</Appointment:Date>
     </Appointment:DayInformationListItem>
    </Appointment:Response>
   </Appointment:GetDayInformationListByDatesAndAssociateResponse>

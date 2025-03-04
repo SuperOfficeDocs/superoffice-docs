@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 326,
-    "ColumnId": 851,
-    "FieldDefault": "exercitationem",
-    "FieldHeight": 935,
-    "FieldLabel": "qui",
-    "FieldLeft": 969,
-    "FieldTop": 305,
+    "UDefFieldId": 142,
+    "ColumnId": 243,
+    "FieldDefault": "et",
+    "FieldHeight": 401,
+    "FieldLabel": "et",
+    "FieldLeft": 133,
+    "FieldTop": 56,
     "FieldType": "Checkbox",
-    "FieldWidth": 364,
-    "FormatMask": "reiciendis",
+    "FieldWidth": 775,
+    "FormatMask": "aperiam",
     "HideLabel": false,
     "IsIndexed": true,
-    "LabelHeight": 599,
-    "LabelLeft": 869,
-    "LabelTop": 221,
-    "LabelWidth": 8,
-    "LastVersionId": 644,
-    "ListTableId": 909,
+    "LabelHeight": 130,
+    "LabelLeft": 729,
+    "LabelTop": 849,
+    "LabelWidth": 492,
+    "LastVersionId": 281,
+    "ListTableId": 896,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 752,
-    "ProgId": "laudantium",
+    "Page1LineNo": 483,
+    "ProgId": "veniam",
     "IsReadOnly": false,
-    "ShortLabel": "aliquid",
-    "TabOrder": 188,
-    "TextLength": 690,
-    "Tooltip": "et",
-    "UdefIdentity": 893,
-    "UDListDefinitionId": 930,
+    "ShortLabel": "aut",
+    "TabOrder": 37,
+    "TextLength": 409,
+    "Tooltip": "ut",
+    "UdefIdentity": 778,
+    "UDListDefinitionId": 625,
     "Justification": "Center",
-    "Version": 431,
-    "TemplateVariableName": "Corkery-Bode",
-    "HasBeenPublished": true,
-    "MdoListName": "Jacobs-Swaniawski",
+    "Version": 65,
+    "TemplateVariableName": "Wiegand, Auer and Predovic",
+    "HasBeenPublished": false,
+    "MdoListName": "Funk LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 5
+        "FieldType": "System.String",
+        "FieldLength": 901
       }
     }
   }

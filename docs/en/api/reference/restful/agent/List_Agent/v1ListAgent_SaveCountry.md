@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 254,
-  "Name": "Auer Inc and Sons",
-  "CurrencyId": 504,
-  "EnglishName": "Adams-Franecki",
+  "CountryId": 309,
+  "Name": "Lowe Group",
+  "CurrencyId": 796,
+  "EnglishName": "Nicolas-Grady",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Universal bottom-line protocol",
-  "OrgNrText": "1323403",
-  "InterAreaPrefix": "sapiente",
-  "DialInPrefix": "aut",
-  "ZipPrefix": "reiciendis",
-  "DomainName": "King-Bosco",
-  "AddressLayoutId": 563,
-  "DomesticAddressLayoutId": 318,
-  "ForeignAddressLayoutId": 481,
-  "Rank": 223,
-  "Tooltip": "modi",
-  "Deleted": false,
+  "ImageDescription": "Proactive demand-driven installation",
+  "OrgNrText": "1372206",
+  "InterAreaPrefix": "blanditiis",
+  "DialInPrefix": "in",
+  "ZipPrefix": "accusantium",
+  "DomainName": "Buckridge Group",
+  "AddressLayoutId": 548,
+  "DomesticAddressLayoutId": 420,
+  "ForeignAddressLayoutId": 647,
+  "Rank": 385,
+  "Tooltip": "quae",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldLength": 356
     }
   }
 }

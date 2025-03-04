@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 205,
-  "Name": "Ernser-Pagac",
-  "Tooltip": "aut",
+  "Id": 125,
+  "Name": "Orn-Watsica",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 368,
-  "Rank": 160
+  "UdListDefinitionId": 269,
+  "Rank": 458
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Stokes Group",
-  "Tooltip": "necessitatibus",
+  "Id": 873,
+  "Name": "Connelly, Gorczany and Halvorson",
+  "Tooltip": "magnam",
   "Deleted": true,
-  "UdListDefinitionId": 990,
-  "Rank": 569,
+  "UdListDefinitionId": 367,
+  "Rank": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

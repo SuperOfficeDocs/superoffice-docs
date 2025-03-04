@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 757,
-  "Name": "Hahn LLC",
-  "Description": "Multi-tiered 24 hour secured line",
+  "ReportLabelLayoutId": 75,
+  "Name": "Bartoletti, Mohr and Hegmann",
+  "Description": "Grass-roots executive encryption",
   "Orientation": "Landscape",
-  "PaperWidth": 739,
-  "PaperHeight": 173,
-  "LeftMargin": 828,
-  "RightMargin": 750,
-  "TopMargin": 86,
-  "BottomMargin": 250,
-  "CountColumns": 926,
-  "CountRows": 262
+  "PaperWidth": 938,
+  "PaperHeight": 846,
+  "LeftMargin": 758,
+  "RightMargin": 518,
+  "TopMargin": 941,
+  "BottomMargin": 450,
+  "CountColumns": 178,
+  "CountRows": 613
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 233,
-  "Name": "Lind LLC",
-  "Description": "Horizontal even-keeled knowledge user",
+  "ReportLabelLayoutId": 204,
+  "Name": "Kozey-Quitzon",
+  "Description": "Cross-group client-server time-frame",
   "Orientation": "Landscape",
-  "PaperWidth": 805,
-  "PaperHeight": 375,
-  "LeftMargin": 393,
-  "RightMargin": 38,
-  "TopMargin": 841,
-  "BottomMargin": 659,
-  "CountColumns": 674,
-  "CountRows": 533,
+  "PaperWidth": 468,
+  "PaperHeight": 674,
+  "LeftMargin": 921,
+  "RightMargin": 546,
+  "TopMargin": 753,
+  "BottomMargin": 745,
+  "CountColumns": 299,
+  "CountRows": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldLength": 304
     }
   }
 }

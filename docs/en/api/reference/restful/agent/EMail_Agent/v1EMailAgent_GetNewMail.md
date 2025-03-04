@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    895,
-    76
+    320,
+    609
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 181,
-    "MessageId": "minima",
-    "Subject": "dolorem",
+    "ServerId": 684,
+    "MessageId": "sed",
+    "Subject": "maiores",
     "From": null,
     "To": [
       {
-        "ContactId": 571,
-        "ContactName": "Hoeger, Kub and Hermiston",
-        "PersonId": 79,
-        "PersonName": "Quitzon Group",
-        "AssociateId": 725,
-        "Address": "repellendus",
-        "EmailId": 836,
+        "ContactId": 518,
+        "ContactName": "Schmitt, Schuppe and Leannon",
+        "PersonId": 288,
+        "PersonName": "Ferry, Lubowitz and Kuhn",
+        "AssociateId": 364,
+        "Address": "occaecati",
+        "EmailId": 642,
         "DuplicatePersonIds": [
-          379,
-          628
+          799,
+          801
         ],
-        "Name": "Torphy LLC",
+        "Name": "Lockman-Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldLength": 741
           }
         }
       }
     ],
-    "Sent": "2021-08-03T12:01:27.7909064+02:00",
+    "Sent": "2004-01-03T14:13:40.1722829+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 123,
+    "Size": 503,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldLength": 303
       }
     }
   }

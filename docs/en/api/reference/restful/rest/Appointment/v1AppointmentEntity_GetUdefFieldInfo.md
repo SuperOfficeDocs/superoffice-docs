@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 6,
-  "ColumnId": 575,
-  "FieldDefault": "soluta",
-  "FieldHeight": 247,
-  "FieldLabel": "a",
-  "FieldLeft": 580,
-  "FieldTop": 711,
+  "UDefFieldId": 313,
+  "ColumnId": 311,
+  "FieldDefault": "eum",
+  "FieldHeight": 44,
+  "FieldLabel": "qui",
+  "FieldLeft": 315,
+  "FieldTop": 413,
   "FieldType": "Checkbox",
-  "FieldWidth": 241,
-  "FormatMask": "sequi",
+  "FieldWidth": 178,
+  "FormatMask": "natus",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 592,
-  "LabelLeft": 850,
-  "LabelTop": 628,
-  "LabelWidth": 656,
-  "LastVersionId": 104,
-  "ListTableId": 138,
+  "LabelHeight": 751,
+  "LabelLeft": 851,
+  "LabelTop": 733,
+  "LabelWidth": 424,
+  "LastVersionId": 340,
+  "ListTableId": 531,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 261,
-  "ProgId": "inventore",
+  "Page1LineNo": 853,
+  "ProgId": "nostrum",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 850,
-  "TextLength": 35,
-  "Tooltip": "harum",
-  "UdefIdentity": 931,
-  "UDListDefinitionId": 541,
+  "ShortLabel": "assumenda",
+  "TabOrder": 35,
+  "TextLength": 748,
+  "Tooltip": "rerum",
+  "UdefIdentity": 948,
+  "UDListDefinitionId": 758,
   "Justification": "Center",
-  "Version": 974,
-  "TemplateVariableName": "Farrell LLC",
-  "HasBeenPublished": false,
-  "MdoListName": "Conn, Hettinger and Bednar",
+  "Version": 629,
+  "TemplateVariableName": "Lehner, Dietrich and Simonis",
+  "HasBeenPublished": true,
+  "MdoListName": "Murazik Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 825
     }
   }
 }

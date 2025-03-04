@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 395,
-  "ERPPriceListKey": "aliquid",
-  "QuoteConnectionId": 222,
-  "Name": "Stoltenberg, Price and Weber",
-  "Description": "Customizable contextually-based conglomeration",
-  "Currency": "necessitatibus",
-  "CurrencyName": "Gutkowski-Renner",
-  "ValidFrom": "2009-06-04T12:01:28.1815588+02:00",
-  "ValidTo": "2019-07-26T12:01:28.1815588+02:00",
+  "PriceListId": 945,
+  "ERPPriceListKey": "in",
+  "QuoteConnectionId": 821,
+  "Name": "Hermiston, Gorczany and Larkin",
+  "Description": "Total composite application",
+  "Currency": "omnis",
+  "CurrencyName": "O'Hara, Murazik and Heaney",
+  "ValidFrom": "2021-11-21T14:13:41.0783269+01:00",
+  "ValidTo": "2007-09-22T14:13:41.0783269+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 871,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 889,
-  "Name": "Brekke-Harris",
-  "Description": "Extended 24/7 forecast",
-  "Currency": "omnis",
-  "CurrencyName": "Nader-Mann",
-  "ValidFrom": "2013-04-13T12:01:28.1815588+02:00",
-  "ValidTo": "2003-06-02T12:01:28.1815588+02:00",
+  "PriceListId": 434,
+  "ERPPriceListKey": "eveniet",
+  "QuoteConnectionId": 836,
+  "Name": "Baumbach-Schmidt",
+  "Description": "Innovative directional strategy",
+  "Currency": "voluptas",
+  "CurrencyName": "Thiel-Bernier",
+  "ValidFrom": "2021-05-07T14:13:41.0783269+02:00",
+  "ValidTo": "2007-03-13T14:13:41.0783269+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   }
 }

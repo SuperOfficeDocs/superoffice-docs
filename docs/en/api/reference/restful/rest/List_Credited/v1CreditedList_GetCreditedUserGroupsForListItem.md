@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 126,
-    "Name": "Klocko-Abbott",
-    "ToolTip": "Aut est architecto quidem omnis tempora cum est.",
-    "Deleted": false,
-    "Rank": 687,
-    "Type": "suscipit",
-    "ColorBlock": 759,
-    "IconHint": "facere",
+    "Id": 266,
+    "Name": "Gibson-Hauck",
+    "ToolTip": "Rerum est praesentium sit minus quaerat dolorem officiis.",
+    "Deleted": true,
+    "Rank": 20,
+    "Type": "et",
+    "ColorBlock": 686,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2016-09-26T12:01:33.4801008+02:00",
+    "LastChanged": "2014-06-21T14:13:49.7429847+02:00",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Stracke, Lakin and Kunde",
-        "ToolTip": "Iste sit vero quas aut labore eveniet.",
+        "Id": 86,
+        "Name": "Lindgren-O'Conner",
+        "ToolTip": "Aspernatur totam voluptatum et iure cum.",
         "Deleted": false,
-        "Rank": 507,
-        "Type": "illo",
-        "ColorBlock": 156,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2017-10-13T12:01:33.4801008+02:00",
+        "Rank": 698,
+        "Type": "id",
+        "ColorBlock": 383,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2024-06-07T14:13:49.7429847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "voluptatibus",
-        "Hidden": false,
-        "FullName": "Saul Lisa Rohan DDS",
+        "ExtraInfo": "rerum",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Leatha Stanton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 562
+            "FieldType": "System.String",
+            "FieldLength": 380
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quam",
-    "Hidden": false,
-    "FullName": "Miss Mozelle Smith",
+    "ExtraInfo": "eum",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Tate Paxton Shields IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 773
+        "FieldLength": 917
       }
     }
   }

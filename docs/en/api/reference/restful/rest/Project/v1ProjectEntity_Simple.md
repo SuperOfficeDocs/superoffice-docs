@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 810,
-  "Name": "Gibson Inc and Sons",
-  "Description": "Right-sized multimedia capacity",
+  "ProjectId": 778,
+  "Name": "Kris, Schowalter and Towne",
+  "Description": "Face to face holistic matrices",
   "URL": "http://www.example.com/",
-  "Type": "est",
-  "AssociateId": 503,
-  "AssociateFullName": "Prof. Evans Jarrod Greenholt DVM",
-  "TypeId": 84,
-  "Updated": "2015-11-21T12:01:33.0269443+01:00",
-  "StatusId": 248,
-  "Status": "unde",
-  "TextId": 810,
-  "PublishTo": "2008-08-06T12:01:33.0269443+02:00",
-  "PublishFrom": "2001-11-12T12:01:33.0269443+01:00",
+  "Type": "molestiae",
+  "AssociateId": 648,
+  "AssociateFullName": "Nedra Boehm",
+  "TypeId": 76,
+  "Updated": "2015-11-19T14:13:49.0712625+01:00",
+  "StatusId": 409,
+  "Status": "non",
+  "TextId": 766,
+  "PublishTo": "2014-05-26T14:13:49.0712625+02:00",
+  "PublishFrom": "2018-11-13T14:13:49.0712625+01:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "779085",
-  "ActiveErpLinks": 314,
+  "ProjectNumber": "961268",
+  "ActiveErpLinks": 368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldLength": 8
     }
   }
 }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Gislason Group",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 239,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 66,
+  "Name": "Kutch, Goyette and Berge",
+  "Tooltip": "laudantium",
+  "Deleted": true,
+  "Rank": 121,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "error",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Gleason Inc and Sons",
-  "Tooltip": "commodi",
+  "Id": 257,
+  "Name": "Howe, Smitham and Bednar",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 712,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": false,
+  "Rank": 910,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 88
     }
   }
 }

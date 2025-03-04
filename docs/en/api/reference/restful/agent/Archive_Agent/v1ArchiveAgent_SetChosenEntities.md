@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Barrows LLC",
-  "ProviderName": "Considine-Doyle",
+  "GuiName": "Kub, Boyer and Nolan",
+  "ProviderName": "Nienow, Corwin and Harvey",
   "Entities": [
-    "eum",
-    "tempora"
+    "et",
+    "maiores"
   ]
 }
 ```

@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 836,
-    "Section": "reprehenderit",
-    "Key": "sunt",
-    "Name": "Hansen-Marks",
+    "PrefDescId": 574,
+    "Section": "sit",
+    "Key": "in",
+    "Name": "Reynolds Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Seamless well-modulated firmware",
-    "IsBuiltin": true,
-    "TableName": "Labadie Inc and Sons",
-    "UserDefinedListId": 373,
-    "Rank": 658,
-    "SubGroup": "nemo",
-    "MinLevel": 328,
-    "MaxValue": 409,
-    "MinValue": 262,
-    "RequiredLicense": "dolores",
+    "Description": "Synchronised web-enabled challenge",
+    "IsBuiltin": false,
+    "TableName": "Mraz, Marvin and Breitenberg",
+    "UserDefinedListId": 687,
+    "Rank": 242,
+    "SubGroup": "aut",
+    "MinLevel": 596,
+    "MaxValue": 477,
+    "MinValue": 487,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

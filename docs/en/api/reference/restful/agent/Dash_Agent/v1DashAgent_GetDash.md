@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=599
+POST /api/v1/Agents/Dash/GetDash?dashId=597
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 982,
-  "UniqueId": "ea",
-  "Name": "Goodwin-Dibbert",
-  "Description": "Cross-group neutral architecture",
-  "AssociateId": 588,
-  "Columns": 514,
+  "DashboardId": 41,
+  "UniqueId": "aut",
+  "Name": "Bergstrom LLC",
+  "Description": "Balanced analyzing solution",
+  "AssociateId": 48,
+  "Columns": 710,
   "Theme": null,
-  "VisibleForAll": 825,
+  "VisibleForAll": 884,
   "VisibleForAssociates": [
-    453,
-    714
+    465,
+    836
   ],
   "VisibleForGroups": [
-    277,
-    344
-  ],
-  "PinForAll": 291,
-  "PinForAssociates": [
     364,
-    237
+    319
+  ],
+  "PinForAll": 691,
+  "PinForAssociates": [
+    880,
+    74
   ],
   "PinForGroups": [
-    360,
-    688
+    182,
+    742
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 804
+      "FieldLength": 843
     }
   }
 }

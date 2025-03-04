@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Wisozk Group",
-      "Comment": "omnis",
-      "StakeholderRoleId": 657,
-      "CountryId": 915,
-      "PersonId": 999,
-      "EmailDescription": "corine.grant@dubuque.biz",
-      "EmailId": 23,
-      "EmailAddress": "lilyan@bogisich.ca",
-      "PhoneId": 614,
-      "ContactName": "Doyle-Stehr",
-      "ContactId": 440,
-      "SaleId": 937,
-      "Mrmrs": "id",
-      "Firstname": "Pearl",
-      "MiddleName": "Ullrich, Corwin and Hoppe",
-      "Lastname": "Casper",
-      "SaleStakeholderId": 483,
-      "Rank": 925,
-      "Phone": "1-148-174-7123 x458"
+      "StakeholderRoleName": "Harvey LLC",
+      "Comment": "repellat",
+      "StakeholderRoleId": 837,
+      "CountryId": 699,
+      "PersonId": 42,
+      "EmailDescription": "duane@prohaska.info",
+      "EmailId": 999,
+      "EmailAddress": "vern@kuvalis.co.uk",
+      "PhoneId": 632,
+      "ContactName": "Beer Inc and Sons",
+      "ContactId": 678,
+      "SaleId": 822,
+      "Mrmrs": "sequi",
+      "Firstname": "Declan",
+      "MiddleName": "Jerde-Gleason",
+      "Lastname": "Baumbach",
+      "SaleStakeholderId": 542,
+      "Rank": 206,
+      "Phone": "767.794.9816"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Cole-Kling",
-    "Comment": "est",
-    "StakeholderRoleId": 502,
-    "CountryId": 362,
-    "PersonId": 538,
-    "EmailDescription": "roderick@gerlach.us",
-    "EmailId": 183,
-    "EmailAddress": "hattie_bode@pouros.name",
-    "PhoneId": 848,
-    "ContactName": "Lowe, Hayes and Howell",
-    "ContactId": 586,
-    "SaleId": 941,
-    "Mrmrs": "similique",
-    "Firstname": "Tianna",
-    "MiddleName": "Leuschke, Strosin and Hills",
-    "Lastname": "Olson",
-    "SaleStakeholderId": 802,
-    "Rank": 352,
-    "Phone": "019-821-9504 x3686",
+    "StakeholderRoleName": "Wintheiser Inc and Sons",
+    "Comment": "consequuntur",
+    "StakeholderRoleId": 602,
+    "CountryId": 791,
+    "PersonId": 894,
+    "EmailDescription": "princess@rice.name",
+    "EmailId": 38,
+    "EmailAddress": "coleman_cole@quigleyhaley.co.uk",
+    "PhoneId": 370,
+    "ContactName": "Dietrich-Koelpin",
+    "ContactId": 900,
+    "SaleId": 999,
+    "Mrmrs": "vero",
+    "Firstname": "Everardo",
+    "MiddleName": "Cassin Group",
+    "Lastname": "Tremblay",
+    "SaleStakeholderId": 393,
+    "Rank": 917,
+    "Phone": "342-640-7267",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldLength": 629
       }
     }
   }

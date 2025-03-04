@@ -87,7 +87,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,31 +97,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 159,
-  "Name": "Murray Inc and Sons",
+  "WebhookId": 576,
+  "Name": "Kshlerin-Weimann",
   "Events": [
-    "rerum",
-    "ad"
+    "possimus",
+    "eveniet"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "cum",
+  "Secret": "est",
   "State": "Active",
-  "Type": "maxime",
+  "Type": "eum",
   "Headers": {
-    "Headers1": "harum",
-    "Headers2": "tenetur"
+    "Headers1": "magni",
+    "Headers2": "ea"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-11-15T12:01:33.4019705+01:00",
+  "Registered": "2003-12-31T14:13:49.6023951+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-02-28T12:01:33.4019705+01:00",
+  "Updated": "2016-09-28T14:13:49.6023951+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "marilou@jasthahn.ca",
+  "ErrorsEmail": "rickey@kubwolff.co.uk",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

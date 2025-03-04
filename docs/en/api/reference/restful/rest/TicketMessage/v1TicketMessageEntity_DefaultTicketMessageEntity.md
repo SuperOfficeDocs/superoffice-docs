@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 608,
+  "EjMessageId": 385,
   "Ticket": null,
-  "CreatedAt": "2013-10-20T12:01:33.2769618+02:00",
+  "CreatedAt": "2006-04-02T14:13:49.3680741+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "assumenda",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "error",
-  "TimeSpent": 528,
-  "Body": "maiores",
-  "HtmlBody": "necessitatibus",
-  "EmailHeader": "marjolaine_stanton@kuhlman.com",
-  "DebugInfo": "sit",
-  "MailSorter": "laborum",
+  "MessageId": "alias",
+  "TimeSpent": 688,
+  "Body": "accusamus",
+  "HtmlBody": "atque",
+  "EmailHeader": "kiel.mcdermott@schaefer.us",
+  "DebugInfo": "nisi",
+  "MailSorter": "aliquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "quis",
   "MessageHeaders": [
     {
-      "Id": 908,
-      "Name": "Wilkinson-Denesik",
-      "Value": "qui",
+      "Id": 740,
+      "Name": "Abernathy, Abbott and Dibbert",
+      "Value": "illum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 35
+          "FieldType": "System.Int32",
+          "FieldLength": 390
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "ut",
-  "Sentiment": 856,
-  "SentimentConfidence": 688,
+  "Important": false,
+  "Language": "sed",
+  "Sentiment": 57,
+  "SentimentConfidence": 69,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 944,
-      "Name": "Hartmann LLC",
-      "ContentType": "nihil",
-      "AttSize": 150,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "est",
+      "AttachmentId": 876,
+      "Name": "Sipes, Braun and Stokes",
+      "ContentType": "esse",
+      "AttSize": 872,
+      "InlineImage": true,
+      "ContentId": "hic",
+      "AuthKey": "dolore",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 508
+          "FieldLength": 124
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "sed"
+    "CustomFields1": "esse",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 506
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Blanda, Little and Hills",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 94
+    "Id": 498,
+    "Name": "Brekke, Hessel and Wisozk",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "UdListDefinitionId": 331,
+    "Rank": 809
   },
   {
-    "Id": 36,
-    "Name": "Blanda, Little and Hills",
-    "Tooltip": "atque",
-    "Deleted": false,
-    "UdListDefinitionId": 637,
-    "Rank": 94
+    "Id": 498,
+    "Name": "Brekke, Hessel and Wisozk",
+    "Tooltip": "officiis",
+    "Deleted": true,
+    "UdListDefinitionId": 331,
+    "Rank": 809
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Streich, Hayes and Dickens",
-    "Tooltip": "corporis",
+    "Id": 698,
+    "Name": "Lueilwitz Inc and Sons",
+    "Tooltip": "reprehenderit",
     "Deleted": true,
-    "UdListDefinitionId": 962,
-    "Rank": 428,
+    "UdListDefinitionId": 34,
+    "Rank": 65,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 944
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Role/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 48,
-  "Name": "Murazik-Boyle",
-  "Tooltip": "officia",
+  "RoleId": 385,
+  "Name": "Parker-Zemlak",
+  "Tooltip": "cupiditate",
   "RoleType": "Anonymous",
-  "Deleted": 950,
-  "Rank": 867,
-  "Created": "2005-07-20T12:01:33.0269443+02:00",
-  "UseCategories": 772,
+  "Deleted": 480,
+  "Rank": 743,
+  "Created": "2002-03-14T14:13:49.0868575+01:00",
+  "UseCategories": 842,
   "CreatedBy": null,
-  "Updated": "1998-03-15T12:01:33.0269443+01:00",
+  "Updated": "2024-09-18T14:13:49.0868575+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 515
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=excepturi
+GET /api/v1/List/PaymentTerm/MDOItems?query=velit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Stiedemann-Jacobson",
-    "ToolTip": "Voluptatem voluptate eos et quia similique.",
-    "Deleted": true,
-    "Rank": 504,
-    "Type": "quaerat",
+    "Id": 600,
+    "Name": "Goodwin Inc and Sons",
+    "ToolTip": "Minima a dolor ad quia architecto ipsam ipsam.",
+    "Deleted": false,
+    "Rank": 412,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 427,
-        "Name": "Veum-Mosciski",
-        "ToolTip": "Minus consequatur molestias ut et nemo.",
-        "Deleted": true,
-        "Rank": 487,
-        "Type": "ipsa",
+        "Id": 394,
+        "Name": "Reichel Group",
+        "ToolTip": "Dicta iure explicabo.",
+        "Deleted": false,
+        "Rank": 702,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 863,
-        "ExtraInfo": "et",
-        "StyleHint": "sequi",
-        "FullName": "Jocelyn Rutherford",
+        "IconHint": "aperiam",
+        "ColorBlock": 953,
+        "ExtraInfo": "possimus",
+        "StyleHint": "voluptatum",
+        "FullName": "Isabella Liza O'Conner III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 931
+            "FieldType": "System.Int32",
+            "FieldLength": 579
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 381,
-    "ExtraInfo": "vel",
-    "StyleHint": "at",
-    "FullName": "Teresa Mertz III",
+    "IconHint": "et",
+    "ColorBlock": 953,
+    "ExtraInfo": "sit",
+    "StyleHint": "accusantium",
+    "FullName": "Brittany Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 110
+        "FieldLength": 87
       }
     }
   }

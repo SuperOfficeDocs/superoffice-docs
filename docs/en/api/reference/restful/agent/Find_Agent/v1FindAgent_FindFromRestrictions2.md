@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ea",
-  "ProviderName": "Pfannerstill-Oberbrunner",
-  "PageSize": 12,
-  "PageNumber": 526
+  "Restrictions": "autem",
+  "ProviderName": "Stamm-Breitenberg",
+  "PageSize": 394,
+  "PageNumber": 163
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wunsch Group",
-      "DisplayTooltip": "atque",
-      "DisplayType": "amet",
-      "CanOrderBy": true,
-      "Name": "Terry, McDermott and Padberg",
+      "DisplayName": "White Group",
+      "DisplayTooltip": "porro",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Hudson Group",
       "CanRestrictBy": false,
-      "RestrictionType": "corporis",
-      "RestrictionListName": "Upton-Kreiger",
-      "IsVisible": true,
-      "ExtraInfo": "incidunt",
-      "Width": "rerum",
-      "IconHint": "possimus",
-      "HeadingIconHint": "laudantium"
+      "RestrictionType": "asperiores",
+      "RestrictionListName": "Hirthe, Krajcik and Yundt",
+      "IsVisible": false,
+      "ExtraInfo": "qui",
+      "Width": "quia",
+      "IconHint": "asperiores",
+      "HeadingIconHint": "qui"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Cole-Johns",
-      "PrimaryKey": 149,
+      "EntityName": "Gleichner Group",
+      "PrimaryKey": 906,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "placeat",
-          "TooltipHint": "ex",
-          "LinkHint": "aliquid"
+          "DisplayValue": "facere",
+          "TooltipHint": "veritatis",
+          "LinkHint": "adipisci"
         }
       },
-      "LinkHint": "odit",
-      "StyleHint": "non",
+      "LinkHint": "et",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 55
+          "FieldLength": 357
         }
       }
     }
   ],
-  "RowCount": 952,
+  "RowCount": 956,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 544
     }
   }
 }

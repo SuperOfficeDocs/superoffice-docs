@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ut",
-  "ProviderName": "Tremblay LLC",
-  "StorageKey": "itaque",
-  "Rank": 589,
-  "Context": "voluptas"
+  "StorageType": "et",
+  "ProviderName": "Gibson-Goyette",
+  "StorageKey": "sunt",
+  "Rank": 930,
+  "Context": "optio"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Satterfield, Anderson and Schimmel",
-  "Description": "Digitized uniform internet solution",
-  "Rank": 761,
+  "Name": "Erdman, King and Roberts",
+  "Description": "Adaptive assymetric hierarchy",
+  "Rank": 858,
   "Restrictions": [
     {
-      "Name": "Veum-Abshire",
-      "Operator": "voluptas",
+      "Name": "Tillman-Gottlieb",
+      "Operator": "omnis",
       "Values": [
-        "ut",
-        "rerum"
+        "id",
+        "consequatur"
       ],
       "DisplayValues": [
-        "officia",
-        "necessitatibus"
+        "quia",
+        "blanditiis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 746,
+      "InterParenthesis": 357,
       "InterOperator": "And",
-      "UniqueHash": 779
+      "UniqueHash": 852
     }
   ]
 }

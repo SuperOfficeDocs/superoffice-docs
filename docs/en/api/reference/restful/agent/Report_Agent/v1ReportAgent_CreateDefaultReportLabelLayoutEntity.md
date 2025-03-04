@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 967,
-  "Name": "Kemmer-Spencer",
-  "Description": "Configurable 3rd generation encryption",
+  "ReportLabelLayoutId": 347,
+  "Name": "O'Conner Group",
+  "Description": "Enterprise-wide homogeneous middleware",
   "Orientation": "Landscape",
-  "PaperWidth": 713,
-  "PaperHeight": 792,
-  "LeftMargin": 323,
-  "RightMargin": 346,
-  "TopMargin": 530,
-  "BottomMargin": 785,
-  "CountColumns": 827,
-  "CountRows": 787,
+  "PaperWidth": 520,
+  "PaperHeight": 451,
+  "LeftMargin": 895,
+  "RightMargin": 122,
+  "TopMargin": 591,
+  "BottomMargin": 617,
+  "CountColumns": 339,
+  "CountRows": 926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldLength": 856
     }
   }
 }

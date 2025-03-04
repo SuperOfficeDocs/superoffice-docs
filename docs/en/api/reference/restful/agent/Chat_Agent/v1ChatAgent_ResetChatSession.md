@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/ResetChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 448
+  "ChatSessionId": 867
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 102,
-  "TopicId": 342,
+  "ChatSessionId": 35,
+  "TopicId": 960,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ea",
-  "CustomerHost": "inventore",
-  "CustomerName": "Carroll Group",
-  "CustomerEmail": "bettye.armstrong@beier.ca",
-  "CustomerPhone": "1-227-711-9382",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Spinka, Simonis and Rutherford",
+  "CustomerAlias": "beatae",
+  "CustomerHost": "delectus",
+  "CustomerName": "Volkman Inc and Sons",
+  "CustomerEmail": "percival.kling@legros.us",
+  "CustomerPhone": "325.610.7516 x56652",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Stanton LLC",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "aspernatur",
-  "WhenRequested": "2017-03-11T12:01:27.4315072+01:00",
-  "WhenStarted": "2014-08-27T12:01:27.4315072+02:00",
-  "WhenEnded": "2008-04-13T12:01:27.4315072+02:00",
-  "WhenIdle": "2011-10-27T12:01:27.4315072+02:00",
-  "WhenFetched": "2016-11-09T12:01:27.4315072+01:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 229,
-  "AlertLevel": 86,
-  "Rank": 136,
+  "FirstMessage": "ut",
+  "LastMessage": "nulla",
+  "WhenRequested": "2022-09-30T14:13:39.7035324+02:00",
+  "WhenStarted": "2013-04-17T14:13:39.7035324+02:00",
+  "WhenEnded": "2006-08-29T14:13:39.7035324+02:00",
+  "WhenIdle": "2007-11-11T14:13:39.7035324+01:00",
+  "WhenFetched": "2012-06-26T14:13:39.7035324+02:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 85,
+  "AlertLevel": 578,
+  "Rank": 933,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 874,
+  "Rating": 916,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 479
     }
   }
 }

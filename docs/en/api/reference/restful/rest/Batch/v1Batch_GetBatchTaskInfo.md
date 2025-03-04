@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 754,
-  "Name": "Howe Group",
-  "AssociateId": 370,
-  "DetailsTable": 900,
-  "DetailsRecord": 96,
+  "Id": 830,
+  "Name": "Ullrich, Ryan and Douglas",
+  "AssociateId": 478,
+  "DetailsTable": 149,
+  "DetailsRecord": 384,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "sint",
+    "ParameterObject2": "nihil"
   },
-  "LastStarted": "2016-04-16T12:01:33.308214+02:00",
-  "Created": "2021-11-01T12:01:33.308214+01:00",
-  "StartCount": 683,
-  "DatabaseSerialNumber": "959930",
-  "Context": "totam",
-  "Result": "deserunt",
+  "LastStarted": "2006-04-15T14:13:49.4305556+02:00",
+  "Created": "2005-12-20T14:13:49.4305556+01:00",
+  "StartCount": 357,
+  "DatabaseSerialNumber": "610264",
+  "Context": "ut",
+  "Result": "minus",
   "State": "All",
-  "Description": "Cloned web-enabled middleware",
-  "Response": "quas",
-  "Request": "quas",
-  "ProgressDescription": "Inverse system-worthy time-frame",
-  "ProgressPercent": 947,
-  "FileName": "Fisher Group",
+  "Description": "Exclusive real-time monitoring",
+  "Response": "aut",
+  "Request": "alias",
+  "ProgressDescription": "Multi-lateral zero administration interface",
+  "ProgressPercent": 290,
+  "FileName": "Pouros Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 358
     }
   }
 }

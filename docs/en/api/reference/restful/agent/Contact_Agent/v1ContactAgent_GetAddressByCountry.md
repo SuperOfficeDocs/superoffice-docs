@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 22,
-  "CountryId": 742
+  "ContactId": 164,
+  "CountryId": 13
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 29773.0,
-  "Wgs84Longitude": 23091.311999999998,
+  "Wgs84Latitude": 28472.39,
+  "Wgs84Longitude": 24131.8,
   "LocalizedAddress": [
     [
       {
-        "Name": "Jacobs Group",
-        "Value": "aut",
-        "Tooltip": "iste",
-        "Label": "sed",
-        "ValueLength": 911,
-        "AddressType": "ad",
+        "Name": "O'Kon-Gleichner",
+        "Value": "sequi",
+        "Tooltip": "illo",
+        "Label": "error",
+        "ValueLength": 921,
+        "AddressType": "facere",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 138
+            "FieldType": "System.Int32",
+            "FieldLength": 137
           }
         }
       }
     ],
     [
       {
-        "Name": "Wintheiser LLC",
-        "Value": "et",
-        "Tooltip": "repellat",
-        "Label": "eligendi",
-        "ValueLength": 64,
-        "AddressType": "tenetur",
+        "Name": "Weber, Kovacek and Treutel",
+        "Value": "expedita",
+        "Tooltip": "laborum",
+        "Label": "alias",
+        "ValueLength": 839,
+        "AddressType": "vero",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 987
           }
         }
       }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

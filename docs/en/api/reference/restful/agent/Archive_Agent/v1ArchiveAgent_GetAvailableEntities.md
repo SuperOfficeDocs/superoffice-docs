@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McCullough, Thiel and O'Hara",
-  "Context": "fugiat"
+  "ProviderName": "Morar-Adams",
+  "Context": "architecto"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Schamberger, Lynch and Shields",
-    "ToolTip": "Mollitia accusantium quam beatae eos.",
+    "Id": 997,
+    "Name": "Moore Inc and Sons",
+    "ToolTip": "Sint qui non molestiae.",
     "Deleted": false,
-    "Rank": 168,
-    "Type": "nulla",
+    "Rank": 285,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 218,
-        "Name": "Jenkins Inc and Sons",
-        "ToolTip": "Tempore velit sed voluptas sunt omnis harum.",
+        "Id": 849,
+        "Name": "Ankunding LLC",
+        "ToolTip": "Accusamus ut ipsa.",
         "Deleted": true,
-        "Rank": 410,
-        "Type": "quod",
+        "Rank": 316,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 433,
-        "ExtraInfo": "ipsum",
-        "StyleHint": "laudantium",
-        "FullName": "Mrs. Meredith Henriette Breitenberg",
+        "IconHint": "odio",
+        "ColorBlock": 434,
+        "ExtraInfo": "dolor",
+        "StyleHint": "cum",
+        "FullName": "Ophelia Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldType": "System.String",
+            "FieldLength": 590
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 212,
-    "ExtraInfo": "ut",
-    "StyleHint": "minima",
-    "FullName": "Jacklyn Bahringer",
+    "IconHint": "quas",
+    "ColorBlock": 124,
+    "ExtraInfo": "velit",
+    "StyleHint": "velit",
+    "FullName": "Estell Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 778
       }
     }
   }

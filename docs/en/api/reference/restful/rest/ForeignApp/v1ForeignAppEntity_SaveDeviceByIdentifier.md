@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 812,
-  "Name": "Kris, Barton and Rodriguez",
-  "CreatedDate": "2016-12-01T12:01:32.9175621+01:00",
-  "UpdatedDate": "2010-03-08T12:01:32.9175621+01:00",
-  "AssociateFullName": "Kathlyn Zemlak",
-  "CreatedBy": "aut",
-  "UpdatedBy": "officiis",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 814
+  "ForeignDeviceId": 226,
+  "Name": "Windler Group",
+  "CreatedDate": "2010-02-18T14:13:48.8836985+01:00",
+  "UpdatedDate": "1998-12-15T14:13:48.8836985+01:00",
+  "AssociateFullName": "Chelsey Harvey",
+  "CreatedBy": "at",
+  "UpdatedBy": "corrupti",
+  "DeviceIdentifier": "molestias",
+  "ForeignAppId": 851
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 146,
-  "Name": "Sipes, Hodkiewicz and Padberg",
-  "CreatedDate": "2004-04-24T12:01:32.9175621+02:00",
-  "UpdatedDate": "2012-05-09T12:01:32.9175621+02:00",
-  "AssociateFullName": "Carmelo Littel",
-  "CreatedBy": "tempore",
-  "UpdatedBy": "nostrum",
-  "DeviceIdentifier": "numquam",
-  "ForeignAppId": 529,
+  "ForeignDeviceId": 470,
+  "Name": "Ferry, Kreiger and Boehm",
+  "CreatedDate": "2021-05-20T14:13:48.8993207+02:00",
+  "UpdatedDate": "2017-08-18T14:13:48.8993207+02:00",
+  "AssociateFullName": "Miss Miguel Crystal Predovic",
+  "CreatedBy": "laudantium",
+  "UpdatedBy": "odit",
+  "DeviceIdentifier": "mollitia",
+  "ForeignAppId": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 398
+      "FieldType": "System.Int32",
+      "FieldLength": 55
     }
   }
 }

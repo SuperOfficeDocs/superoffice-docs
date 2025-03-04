@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "similique",
-  "Tags": "eos"
+  "DeviceIdentifier": "magnam",
+  "Tags": "cupiditate"
 }
 ```
 

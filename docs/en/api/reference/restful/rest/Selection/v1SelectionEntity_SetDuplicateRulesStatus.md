@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Welch-Hansen",
-    "DisplayName": "Lowe Inc and Sons",
-    "DisplayTooltip": "aut",
+    "Name": "Bergnaum-Schulist",
+    "DisplayName": "Bednar-Deckow",
+    "DisplayTooltip": "et",
     "IsActive": false
   },
   {
-    "Name": "Welch-Hansen",
-    "DisplayName": "Lowe Inc and Sons",
-    "DisplayTooltip": "aut",
+    "Name": "Bergnaum-Schulist",
+    "DisplayName": "Bednar-Deckow",
+    "DisplayTooltip": "et",
     "IsActive": false
   }
 ]

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 312,
+  "UdListDefinitionId": 648,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 19,
-  "Name": "Keebler-Rowe",
-  "Tooltip": "dolor",
+  "Id": 623,
+  "Name": "Baumbach-Krajcik",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "UdListDefinitionId": 219,
-  "Rank": 327,
+  "UdListDefinitionId": 155,
+  "Rank": 939,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 521
+      "FieldLength": 891
     }
   }
 }

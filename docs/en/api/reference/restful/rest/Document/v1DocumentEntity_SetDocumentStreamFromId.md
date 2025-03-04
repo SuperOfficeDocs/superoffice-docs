@@ -99,7 +99,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,88 +109,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 872,
+  "DocumentId": 189,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolorum",
-  "Header": "nihil",
-  "Name": "Mante-Haley",
-  "OurRef": "mollitia",
-  "YourRef": "beatae",
-  "CreatedDate": "2016-11-03T12:01:32.8863099+01:00",
-  "UpdatedDate": "2018-04-30T12:01:32.8863099+02:00",
-  "Description": "Digitized systemic strategy",
+  "Attention": "qui",
+  "Header": "aut",
+  "Name": "Lemke LLC",
+  "OurRef": "ad",
+  "YourRef": "est",
+  "CreatedDate": "2018-12-10T14:13:48.8368342+01:00",
+  "UpdatedDate": "2016-04-09T14:13:48.8368342+02:00",
+  "Description": "Business-focused assymetric policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-01-15T12:01:32.8863099+01:00",
-  "ExternalRef": "molestiae",
+  "Date": "2010-05-26T14:13:48.8368342+02:00",
+  "ExternalRef": "nemo",
   "Completed": "Completed",
-  "ActiveLinks": 90,
+  "ActiveLinks": 238,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reynolds Group",
-      "Id": 774,
-      "Description": "Versatile optimizing service-desk",
-      "ExtraInfo": "rem",
-      "LinkId": 496,
+      "EntityName": "Gutmann, Thiel and Lowe",
+      "Id": 941,
+      "Description": "Extended maximized help-desk",
+      "ExtraInfo": "quia",
+      "LinkId": 603,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldType": "System.Int32",
+          "FieldLength": 750
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 214,
-  "Snum": 233,
+  "SuggestedDocumentId": 814,
+  "Snum": 496,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Tyrell Olaf Christiansen IV",
-    "SuperOffice:2": "Kale Bayer"
+    "SuperOffice:1": "1125336926",
+    "SuperOffice:2": "Buster Koch Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "cum"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "2018-11-21T12:01:32.8863099+01:00",
-  "PublishTo": "2014-03-06T12:01:32.8863099+01:00",
-  "PublishFrom": "2000-07-08T12:01:32.8863099+02:00",
+  "PublishEventDate": "2007-09-05T14:13:48.8368342+02:00",
+  "PublishTo": "2001-04-30T14:13:48.8368342+02:00",
+  "PublishFrom": "2009-08-20T14:13:48.8368342+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 426,
+      "VisibleId": 91,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     },
     {
-      "VisibleId": 426,
+      "VisibleId": 91,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     }
@@ -200,7 +200,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 148
     }
   }
 }

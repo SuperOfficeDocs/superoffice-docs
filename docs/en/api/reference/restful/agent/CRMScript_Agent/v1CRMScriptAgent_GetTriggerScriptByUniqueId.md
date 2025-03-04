@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ut"
+  "TriggerScriptUniqueId": "vel"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 468,
-  "Name": "Gaylord, Schowalter and Schulist",
+  "ScreenChooserId": 71,
+  "Name": "Leannon Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "dolores",
-  "Source": "voluptatem",
-  "Registered": "2018-10-06T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 75,
-  "Updated": "2012-12-24T12:01:27.5408902+01:00",
-  "UpdatedAssociateId": 21,
+  "Enabled": false,
+  "UniqueIdentifier": "consequatur",
+  "Source": "animi",
+  "Registered": "2017-09-03T14:13:39.9223399+02:00",
+  "RegisteredAssociateId": 657,
+  "Updated": "2009-02-11T14:13:39.9223399+01:00",
+  "UpdatedAssociateId": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 86
     }
   }
 }

@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "impedit",
-  "PercentSmaller": 965,
-  "IsoLangCode": "corporis"
+  "Text": "beatae",
+  "PercentSmaller": 178,
+  "IsoLangCode": "occaecati"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dignissimos"
+"ullam"
 ```

@@ -803,7 +803,7 @@ This is the archive Provider for the Selection Project archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectSelection?$select=sale/who,appointment/associate/credentialType,document/ourref,projectMember/middleName,projectMember/personNoMail
+GET /api/v1/archive/AssociateProjectSelection?$select=projectAssociate/otherGroups,projectUdef/SuperOffice:7,sale/hasGuide,appointment/appointmentId,projectMember/birthYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

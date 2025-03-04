@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 790
+  "Id": 270
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 570,
-  "Rank": 149,
-  "DefaultTask": 554,
-  "DefaultTaskText": "dicta",
+  "OwnerTable": 502,
+  "Rank": 428,
+  "DefaultTask": 835,
+  "DefaultTaskText": "odio",
   "IsVisual": false,
-  "LastGenerated": "2013-07-02T12:01:28.2284376+02:00",
-  "Description": "Stand-alone holistic knowledge base",
-  "Name": "Moore-Treutel",
-  "StatusMonitorId": 534,
-  "PictureId": 468,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 666,
-  "NumNeedUpdate": 974,
-  "GenerationStart": "2016-03-02T12:01:28.2284376+01:00",
+  "LastGenerated": "2023-06-19T14:13:41.172056+02:00",
+  "Description": "De-engineered hybrid utilisation",
+  "Name": "Casper, Jacobson and Nitzsche",
+  "StatusMonitorId": 336,
+  "PictureId": 970,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 981,
+  "NumNeedUpdate": 950,
+  "GenerationStart": "2011-01-12T14:13:41.172056+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 939
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   }
 }

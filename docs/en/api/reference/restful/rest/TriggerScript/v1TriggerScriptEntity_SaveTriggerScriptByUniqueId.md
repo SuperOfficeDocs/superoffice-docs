@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 310,
-  "Name": "Wilkinson, Hand and Medhurst",
+  "ScreenChooserId": 660,
+  "Name": "Rau LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "sed",
-  "Source": "totam",
-  "Registered": "2001-02-28T12:01:33.2925881+01:00",
-  "RegisteredAssociateId": 295,
-  "Updated": "1998-01-24T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 945
+  "UniqueIdentifier": "voluptatem",
+  "Source": "nihil",
+  "Registered": "2023-04-18T14:13:49.4305556+02:00",
+  "RegisteredAssociateId": 476,
+  "Updated": "2019-01-19T14:13:49.4305556+01:00",
+  "UpdatedAssociateId": 752
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 24,
-  "Name": "Grant Inc and Sons",
+  "ScreenChooserId": 506,
+  "Name": "Cummings Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "facilis",
-  "Registered": "2016-06-29T12:01:33.308214+02:00",
-  "RegisteredAssociateId": 767,
-  "Updated": "2010-10-20T12:01:33.308214+02:00",
-  "UpdatedAssociateId": 878,
+  "UniqueIdentifier": "qui",
+  "Source": "provident",
+  "Registered": "2018-07-20T14:13:49.4305556+02:00",
+  "RegisteredAssociateId": 857,
+  "Updated": "2001-01-10T14:13:49.4305556+01:00",
+  "UpdatedAssociateId": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 198
     }
   }
 }

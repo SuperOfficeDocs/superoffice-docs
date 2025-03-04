@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Luettgen, Rolfson and Dare",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 571,
-    "Rank": 581
+    "Id": 859,
+    "Name": "Bauch-Nicolas",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "UdListDefinitionId": 210,
+    "Rank": 388
   },
   {
-    "Id": 524,
-    "Name": "Luettgen, Rolfson and Dare",
-    "Tooltip": "neque",
-    "Deleted": false,
-    "UdListDefinitionId": 571,
-    "Rank": 581
+    "Id": 859,
+    "Name": "Bauch-Nicolas",
+    "Tooltip": "aperiam",
+    "Deleted": true,
+    "UdListDefinitionId": 210,
+    "Rank": 388
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 960,
-    "Name": "Herman-Ritchie",
-    "Tooltip": "ullam",
+    "Id": 915,
+    "Name": "Rau Group",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "UdListDefinitionId": 917,
-    "Rank": 820,
+    "UdListDefinitionId": 19,
+    "Rank": 66,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 36
+        "FieldType": "System.String",
+        "FieldLength": 341
       }
     }
   }

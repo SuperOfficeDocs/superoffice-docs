@@ -102,46 +102,46 @@ OK
 POST /api/v1/DashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 416,
-  "Caption": "cupiditate",
-  "Description": "Cross-platform 4th generation conglomeration",
-  "ChartName": "Roob Inc and Sons",
-  "ChartId": "et",
-  "IsDefault": false,
-  "AssociateId": 796,
-  "GroupId": 190,
-  "SelectionId": 527,
-  "Config": "labore",
+  "DashboardTileId": 348,
+  "Caption": "minus",
+  "Description": "Advanced secondary monitoring",
+  "ChartName": "Windler, Hilpert and Klocko",
+  "ChartId": "exercitationem",
+  "IsDefault": true,
+  "AssociateId": 722,
+  "GroupId": 871,
+  "SelectionId": 83,
+  "Config": "nisi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Boyer Group",
-      "Description": "Polarised logistical customer loyalty",
+      "Name": "Dach LLC",
+      "Description": "Re-engineered disintermediate array",
       "Type": "Boolean",
-      "ListName": "Runte-Reinger",
+      "ListName": "Hermann-Kemmer",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ipsum",
+      "Value": "voluptatibus",
       "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 416,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "libero"
     },
     {
-      "VisibleId": 416,
+      "VisibleId": 35,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "libero"
     }
   ]
 }
@@ -154,64 +154,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 58,
-  "Caption": "ipsa",
-  "Description": "Profit-focused responsive middleware",
-  "ChartName": "Cole-Pacocha",
-  "ChartId": "velit",
+  "DashboardTileId": 155,
+  "Caption": "omnis",
+  "Description": "Future-proofed zero administration firmware",
+  "ChartName": "Dooley, Keebler and Donnelly",
+  "ChartId": "error",
   "IsDefault": false,
-  "AssociateId": 476,
-  "GroupId": 427,
-  "SelectionId": 292,
-  "Config": "est",
+  "AssociateId": 659,
+  "GroupId": 980,
+  "SelectionId": 648,
+  "Config": "occaecati",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Walter, Howe and Turcotte",
-      "Description": "Decentralized background throughput",
+      "Name": "Mraz Group",
+      "Description": "Horizontal composite encryption",
       "Type": "Boolean",
-      "ListName": "Jewess, Daniel and Donnelly",
+      "ListName": "Wehner, Johnson and Legros",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "qui",
-      "DefaultDataOption": true,
+      "Value": "nisi",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 321
+          "FieldType": "System.Int32",
+          "FieldLength": 906
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 399,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
@@ -221,12 +221,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 357
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

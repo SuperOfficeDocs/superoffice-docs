@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "cum",
-    "consequuntur"
+    "sed",
+    "amet"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 249,
-    "ResourceId": 902,
-    "Text": "quaerat",
+    "LanguageId": 496,
+    "ResourceId": 483,
+    "Text": "aspernatur",
     "Type": "Column",
-    "LocalizedTextId": 617,
+    "LocalizedTextId": 821,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 804
+        "FieldType": "System.String",
+        "FieldLength": 634
       }
     }
   }

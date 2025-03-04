@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 546,
-    "Name": "Herzog-Moore",
-    "Tooltip": "dolore",
-    "Deleted": true,
-    "Rank": 850,
-    "UdListDefinitionId": 955,
+    "HeadingId": 785,
+    "Name": "Davis-Frami",
+    "Tooltip": "vero",
+    "Deleted": false,
+    "Rank": 695,
+    "UdListDefinitionId": 398,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

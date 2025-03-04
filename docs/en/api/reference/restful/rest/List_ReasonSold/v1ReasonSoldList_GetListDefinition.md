@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 732,
-  "Name": "Jacobi-Schneider",
-  "Tooltip": "quam",
+  "Id": 62,
+  "Name": "Olson LLC",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 331,
+  "Rank": 550,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
+  "ListType": "vitae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   },
   "_Links": {

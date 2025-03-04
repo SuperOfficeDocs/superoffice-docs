@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 235,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "architecto",
+    "HeadingId": 499,
+    "Name": "Von Inc and Sons",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 440,
-    "UdListDefinitionId": 921
+    "Rank": 830,
+    "UdListDefinitionId": 98
   },
   {
-    "HeadingId": 235,
-    "Name": "Schiller Inc and Sons",
-    "Tooltip": "architecto",
+    "HeadingId": 499,
+    "Name": "Von Inc and Sons",
+    "Tooltip": "autem",
     "Deleted": false,
-    "Rank": 440,
-    "UdListDefinitionId": 921
+    "Rank": 830,
+    "UdListDefinitionId": 98
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Ondricka LLC",
-    "Tooltip": "iste",
+    "HeadingId": 148,
+    "Name": "Mayer-O'Keefe",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 807,
-    "UdListDefinitionId": 678,
+    "Rank": 943,
+    "UdListDefinitionId": 722,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 757
       }
     }
   }

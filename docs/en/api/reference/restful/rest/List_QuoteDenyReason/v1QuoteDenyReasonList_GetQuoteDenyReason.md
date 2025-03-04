@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 309,
-  "Name": "Gerlach-Bergstrom",
-  "Tooltip": "ut",
+  "Id": 323,
+  "Name": "Ankunding, Zulauf and Hayes",
+  "Tooltip": "esse",
   "Deleted": true,
-  "UdListDefinitionId": 336,
-  "Rank": 369,
+  "UdListDefinitionId": 686,
+  "Rank": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 624
     }
   }
 }

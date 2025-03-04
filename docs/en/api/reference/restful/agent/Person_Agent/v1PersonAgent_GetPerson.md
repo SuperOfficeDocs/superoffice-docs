@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=474
+POST /api/v1/Agents/Person/GetPerson?personId=950
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "nisi",
-  "PersonId": 249,
-  "Mrmrs": "ipsa",
-  "Firstname": "Kira",
-  "Lastname": "Breitenberg",
-  "MiddleName": "Smitham Group",
-  "Title": "autem",
-  "Description": "Ameliorated global groupware",
-  "Email": "hunter_cormier@bednar.com",
-  "FullName": "Miss Travis Virgil Adams",
-  "DirectPhone": "(987)322-1775",
-  "FormalName": "Harber-Mayer",
-  "CountryId": 596,
-  "ContactId": 923,
-  "ContactName": "Hessel Group",
-  "Retired": 685,
-  "Rank": 889,
-  "ActiveInterests": 307,
+  "Position": "rerum",
+  "PersonId": 960,
+  "Mrmrs": "explicabo",
+  "Firstname": "Ayana",
+  "Lastname": "Price",
+  "MiddleName": "Dietrich Group",
+  "Title": "aut",
+  "Description": "Monitored user-facing standardization",
+  "Email": "misael@cassin.uk",
+  "FullName": "Karelle Jamie Fritsch Sr.",
+  "DirectPhone": "959-112-0610",
+  "FormalName": "Wunsch-Goldner",
+  "CountryId": 947,
+  "ContactId": 583,
+  "ContactName": "Blick-Osinski",
+  "Retired": 298,
+  "Rank": 960,
+  "ActiveInterests": 192,
   "ContactDepartment": "",
-  "ContactCountryId": 980,
-  "ContactOrgNr": "1619648",
-  "FaxPhone": "1-642-756-1604",
-  "MobilePhone": "1-481-541-3001 x811",
-  "ContactPhone": "274.170.8190 x05800",
-  "AssociateName": "Prohaska, Brown and Douglas",
-  "AssociateId": 911,
+  "ContactCountryId": 203,
+  "ContactOrgNr": "533833",
+  "FaxPhone": "247-099-9531",
+  "MobilePhone": "1-244-392-9179",
+  "ContactPhone": "359.177.3777 x5810",
+  "AssociateName": "Wolf, Adams and Rath",
+  "AssociateId": 138,
   "UsePersonAddress": false,
-  "ContactFax": "natus",
-  "Kanafname": "et",
-  "Kanalname": "impedit",
-  "Post1": "quidem",
-  "Post2": "consequatur",
-  "Post3": "optio",
-  "EmailName": "carleton@schmidt.ca",
-  "ContactFullName": "Idella Zieme",
-  "ActiveErpLinks": 822,
-  "TicketPriorityId": 10,
-  "SupportLanguageId": 601,
-  "SupportAssociateId": 580,
+  "ContactFax": "magnam",
+  "Kanafname": "voluptas",
+  "Kanalname": "sit",
+  "Post1": "est",
+  "Post2": "magni",
+  "Post3": "non",
+  "EmailName": "lukas_fisher@schaden.us",
+  "ContactFullName": "Davonte Anderson",
+  "ActiveErpLinks": 33,
+  "TicketPriorityId": 132,
+  "SupportLanguageId": 531,
+  "SupportAssociateId": 219,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1644896",
+  "PersonNumber": "1306494",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

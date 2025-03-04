@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 981,
-    "Name": "Kovacek-Wintheiser",
-    "Tooltip": "iste",
-    "Rank": 171,
+    "SaleTypeId": 369,
+    "Name": "Lowe LLC",
+    "Tooltip": "pariatur",
+    "Rank": 864,
     "DurationUnit": "Century",
-    "SaleDuration": 162,
-    "SaleTypeCatId": 111,
+    "SaleDuration": 490,
+    "SaleTypeCatId": 148,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
+    "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 272,
-    "QuoteLinesTemplate": 868,
-    "ConfirmationLinesTemplate": 881,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 945,
-    "MinEarningPercent": 878,
-    "GroupQuoteLinesBy": 784,
-    "SortGroupLinesBy": 129,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 366,
+    "QuoteLinesTemplate": 181,
+    "ConfirmationLinesTemplate": 335,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 817,
+    "MinEarningPercent": 540,
+    "GroupQuoteLinesBy": 637,
+    "SortGroupLinesBy": 586,
     "Stages": [
       {
-        "Id": 259,
-        "Name": "Bernhard, Becker and Homenick",
-        "ToolTip": "Explicabo delectus iusto consequatur placeat.",
+        "Id": 54,
+        "Name": "Kuphal-Ruecker",
+        "ToolTip": "Aut sint eos enim natus animi corrupti.",
         "Deleted": false,
-        "Rank": 691,
-        "Type": "est",
-        "ColorBlock": 36,
-        "IconHint": "provident",
+        "Rank": 748,
+        "Type": "optio",
+        "ColorBlock": 178,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-01-15T12:01:33.6519877+01:00",
+        "LastChanged": "2008-05-17T14:13:50.2283063+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "nulla",
+        "ExtraInfo": "ea",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Virgil Kuhic",
+        "FullName": "Miss Abe Stark V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 62
+            "FieldLength": 873
           }
         }
       }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldType": "System.Int32",
+        "FieldLength": 884
       }
     }
   }

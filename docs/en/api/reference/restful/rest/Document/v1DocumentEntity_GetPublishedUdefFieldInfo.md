@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 221,
-  "ColumnId": 624,
-  "FieldDefault": "consectetur",
-  "FieldHeight": 461,
-  "FieldLabel": "excepturi",
-  "FieldLeft": 292,
-  "FieldTop": 682,
+  "UDefFieldId": 875,
+  "ColumnId": 224,
+  "FieldDefault": "animi",
+  "FieldHeight": 8,
+  "FieldLabel": "laborum",
+  "FieldLeft": 164,
+  "FieldTop": 773,
   "FieldType": "Checkbox",
-  "FieldWidth": 707,
-  "FormatMask": "ut",
+  "FieldWidth": 9,
+  "FormatMask": "dolorum",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 300,
-  "LabelLeft": 443,
-  "LabelTop": 372,
-  "LabelWidth": 868,
-  "LastVersionId": 897,
-  "ListTableId": 788,
+  "LabelHeight": 273,
+  "LabelLeft": 678,
+  "LabelTop": 20,
+  "LabelWidth": 61,
+  "LastVersionId": 317,
+  "ListTableId": 789,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 856,
-  "ProgId": "neque",
+  "Page1LineNo": 447,
+  "ProgId": "rerum",
   "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 215,
-  "TextLength": 744,
-  "Tooltip": "quod",
-  "UdefIdentity": 726,
-  "UDListDefinitionId": 264,
+  "ShortLabel": "eum",
+  "TabOrder": 705,
+  "TextLength": 241,
+  "Tooltip": "nobis",
+  "UdefIdentity": 476,
+  "UDListDefinitionId": 941,
   "Justification": "Center",
-  "Version": 397,
-  "TemplateVariableName": "Farrell, Hodkiewicz and Feeney",
+  "Version": 336,
+  "TemplateVariableName": "Murazik Group",
   "HasBeenPublished": false,
-  "MdoListName": "O'Hara-Steuber",
+  "MdoListName": "Weimann Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

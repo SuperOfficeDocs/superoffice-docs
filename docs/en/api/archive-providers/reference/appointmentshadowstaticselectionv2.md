@@ -730,7 +730,7 @@ Shadow contact provider for the static appointment provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowStaticSelectionV2?$select=contact/restrictionAddress/addressId,associate/assocType,person/contactId
+GET /api/v1/archive/AppointmentShadowStaticSelectionV2?$select=contact/SaintStatus2,contact/saintAmountClass,person/personNumber,person/personDeletedDate,person/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

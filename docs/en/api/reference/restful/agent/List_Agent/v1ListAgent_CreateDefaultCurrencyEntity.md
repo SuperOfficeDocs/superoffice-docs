@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 152,
-  "Name": "VonRueden Group",
-  "Tooltip": "occaecati",
-  "Rank": 971,
-  "Rate": 20819.162,
-  "Units": 16986.28,
+  "CurrencyId": 966,
+  "Name": "Lindgren, Wiza and Crooks",
+  "Tooltip": "totam",
+  "Rank": 978,
+  "Rate": 18819.67,
+  "Units": 23298.156,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 996
+      "FieldLength": 334
     }
   }
 }

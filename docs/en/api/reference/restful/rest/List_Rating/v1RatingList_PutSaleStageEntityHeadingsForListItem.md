@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Skiles, Powlowski and Brakus",
-    "ToolTip": "Nihil laborum eligendi nisi quos.",
+    "Id": 861,
+    "Name": "Purdy, Ullrich and Nienow",
+    "ToolTip": "Aut sunt mollitia ut soluta.",
     "Deleted": false,
-    "Rank": 269,
-    "Type": "aut",
-    "ColorBlock": 662,
-    "IconHint": "ipsa",
+    "Rank": 792,
+    "Type": "et",
+    "ColorBlock": 434,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "1998-05-23T12:01:33.6207356+02:00",
+    "LastChanged": "2010-11-02T14:13:50.1812638+01:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Christiansen-Mraz",
-        "ToolTip": "Perspiciatis animi at.",
-        "Deleted": false,
-        "Rank": 921,
-        "Type": "dolore",
-        "ColorBlock": 954,
-        "IconHint": "labore",
+        "Id": 857,
+        "Name": "Kertzmann-Nicolas",
+        "ToolTip": "Sunt ducimus ipsa quasi.",
+        "Deleted": true,
+        "Rank": 668,
+        "Type": "id",
+        "ColorBlock": 160,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2012-05-29T12:01:33.6207356+02:00",
+        "LastChanged": "2021-11-25T14:13:50.1812638+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "amet",
+        "ExtraInfo": "sed",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Janiya Flatley"
+        "FullName": "Twila Carter"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "veritatis",
-    "Hidden": false,
-    "FullName": "Coralie Marcus Jacobi MD"
+    "ExtraInfo": "quia",
+    "StyleHint": "tenetur",
+    "Hidden": true,
+    "FullName": "Michele Satterfield"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Hane LLC",
-    "ToolTip": "Et iste et ipsum natus porro.",
-    "Deleted": false,
-    "Rank": 282,
-    "Type": "officiis",
-    "ColorBlock": 84,
-    "IconHint": "cupiditate",
+    "Id": 697,
+    "Name": "VonRueden-Lebsack",
+    "ToolTip": "Doloribus eveniet magnam.",
+    "Deleted": true,
+    "Rank": 426,
+    "Type": "earum",
+    "ColorBlock": 978,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2012-10-30T12:01:33.6207356+01:00",
+    "LastChanged": "2020-01-28T14:13:50.1812638+01:00",
     "ChildItems": [
       {
-        "Id": 657,
-        "Name": "Sporer, Doyle and McClure",
-        "ToolTip": "Officiis aliquam eum autem repellat sed.",
-        "Deleted": false,
-        "Rank": 811,
-        "Type": "blanditiis",
-        "ColorBlock": 573,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2004-09-12T12:01:33.6207356+02:00",
+        "Id": 707,
+        "Name": "Emard Inc and Sons",
+        "ToolTip": "Et tempora id accusamus praesentium dolores.",
+        "Deleted": true,
+        "Rank": 552,
+        "Type": "sit",
+        "ColorBlock": 53,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2002-08-10T14:13:50.1812638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Zion Clemens Mertz III",
+        "FullName": "Miss Blaise Wilderman IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldType": "System.String",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "itaque",
-    "Hidden": true,
-    "FullName": "Mya Gerhold II",
+    "ExtraInfo": "rem",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Alfred Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 453
       }
     }
   }

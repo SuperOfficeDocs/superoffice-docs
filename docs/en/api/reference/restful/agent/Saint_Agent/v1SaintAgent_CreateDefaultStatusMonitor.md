@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 226,
-  "Rank": 761,
-  "DefaultTask": 663,
-  "DefaultTaskText": "optio",
+  "OwnerTable": 845,
+  "Rank": 367,
+  "DefaultTask": 5,
+  "DefaultTaskText": "sed",
   "IsVisual": false,
-  "LastGenerated": "2001-10-09T12:01:28.2284376+02:00",
-  "Description": "Automated exuding focus group",
-  "Name": "Feest-Altenwerth",
-  "StatusMonitorId": 953,
-  "PictureId": 803,
+  "LastGenerated": "2016-07-21T14:13:41.172056+02:00",
+  "Description": "Streamlined impactful approach",
+  "Name": "O'Reilly, Kuhic and Little",
+  "StatusMonitorId": 480,
+  "PictureId": 919,
   "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 461,
-  "NumNeedUpdate": 308,
-  "GenerationStart": "2002-06-22T12:01:28.2284376+02:00",
+  "Deleted": false,
+  "NumMatches": 501,
+  "NumNeedUpdate": 663,
+  "GenerationStart": "2007-08-27T14:13:41.172056+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 379
     }
   }
 }

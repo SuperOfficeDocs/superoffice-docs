@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 327,
+  "LatestKnownEventId": 401,
   "PublishEvents": [
     {
-      "EventId": 653,
-      "EventName": "Cummings Group",
+      "EventId": 444,
+      "EventName": "Morissette, Okuneva and Daniel",
       "EntityType": "et",
-      "EntityKey": 633,
-      "AssociateId": 562,
-      "AssociateName": "Dooley-Conroy",
-      "EventDateTime": "2001-09-11T12:01:28.6347153+02:00"
+      "EntityKey": 129,
+      "AssociateId": 454,
+      "AssociateName": "Rodriguez, Bradtke and Franecki",
+      "EventDateTime": "2009-09-13T14:13:41.7508542+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Wisoky, Mills and Stiedemann",
-      "Value": 297
+      "Name": "Kuvalis-O'Kon",
+      "Value": 9
     },
     {
-      "Name": "Wisoky, Mills and Stiedemann",
-      "Value": 297
+      "Name": "Kuvalis-O'Kon",
+      "Value": 9
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 94,
-    "EventName": "Parker, Daniel and Powlowski",
-    "EntityType": "perferendis",
-    "EntityKey": 358,
-    "AssociateId": 263,
-    "AssociateName": "Hauck Inc and Sons",
-    "EventDateTime": "2013-05-27T12:01:28.6347153+02:00",
+    "EventId": 610,
+    "EventName": "Mohr Group",
+    "EntityType": "et",
+    "EntityKey": 919,
+    "AssociateId": 578,
+    "AssociateName": "Goodwin Inc and Sons",
+    "EventDateTime": "2021-07-23T14:13:41.7508542+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 114
       }
     }
   }

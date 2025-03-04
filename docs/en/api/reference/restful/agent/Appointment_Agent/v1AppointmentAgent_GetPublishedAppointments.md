@@ -125,13 +125,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    315,
-    805
+    243,
+    280
   ]
 }
 ```
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 519,
-    "StartDate": "2014-06-24T12:01:27.0252114+02:00",
-    "EndDate": "2001-03-23T12:01:27.0252114+01:00",
+    "AppointmentId": 408,
+    "StartDate": "1999-07-25T14:13:38.9693251+02:00",
+    "EndDate": "2001-12-03T14:13:38.9693251+01:00",
     "Type": "BookingForChecklist",
-    "Task": "blanditiis",
-    "AssociateFullName": "Dr. Princess Wunsch",
-    "ContactName": "Nikolaus LLC",
-    "Description": "Re-engineered bi-directional adapter",
-    "PersonFullName": "Dayana Windler",
-    "PersonId": 142,
-    "ContactId": 599,
-    "ProjectId": 78,
-    "ProjectName": "Lockman, Kiehn and Rutherford",
+    "Task": "molestias",
+    "AssociateFullName": "Keven O'Reilly",
+    "ContactName": "Hagenes, Murphy and Ankunding",
+    "Description": "Networked discrete utilisation",
+    "PersonFullName": "Dr. Enoch Nasir Erdman",
+    "PersonId": 541,
+    "ContactId": 614,
+    "ProjectId": 104,
+    "ProjectName": "Wehner-Rolfson",
     "IsPublished": true,
-    "AssociateId": 88,
-    "ColorIndex": 850,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 617,
+    "ColorIndex": 289,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Dietrich Group",
+    "PriorityId": 209,
+    "PriorityName": "Bernier, Gleichner and Bergnaum",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-09-06T12:01:27.0252114+02:00",
+    "ActiveDate": "2022-07-27T14:13:38.9849467+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-05-17T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1998-03-12T12:01:27.0252114+01:00",
-    "MotherId": 485,
-    "AssignedBy": 487,
-    "AssignedByFullName": "Harley Julia Reynolds MD",
+    "RecurringStartDate": "2020-11-19T14:13:38.9849467+01:00",
+    "RecurringEndDate": "2011-03-29T14:13:38.9849467+02:00",
+    "MotherId": 757,
+    "AssignedBy": 103,
+    "AssignedByFullName": "Marta Nolan",
     "RejectReason": "",
-    "Location": "maxime",
-    "AlarmLeadTime": "nulla",
-    "SaleId": 98,
-    "SaleName": "Bergstrom LLC",
-    "AssociateName": "Bosco Group",
-    "CreatedDate": "2007-04-02T12:01:27.0252114+02:00",
-    "CreatedBy": "vitae",
-    "CreatedByFullName": "Heber Olson",
-    "CreatedByAssociateId": 747,
+    "Location": "et",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 561,
+    "SaleName": "Skiles Inc and Sons",
+    "AssociateName": "Quigley-Nitzsche",
+    "CreatedDate": "2012-06-14T14:13:38.9849467+02:00",
+    "CreatedBy": "assumenda",
+    "CreatedByFullName": "Maximillian Powlowski",
+    "CreatedByAssociateId": 936,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 482,
-    "Title": "nihil",
-    "Agenda": "qui",
-    "InternalNotes": "nemo",
+    "PreferredTZLocation": 289,
+    "Title": "et",
+    "Agenda": "aut",
+    "InternalNotes": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 951
       }
     }
   }

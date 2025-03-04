@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Mayert, Reilly and Braun",
-      "DisplayName": "Bechtelar Inc and Sons",
-      "DisplayTooltip": "dolor",
+      "Name": "Gleason Inc and Sons",
+      "DisplayName": "Prosacco, Hodkiewicz and Herzog",
+      "DisplayTooltip": "dolorum",
       "IsActive": false
     },
     {
-      "Name": "Mayert, Reilly and Braun",
-      "DisplayName": "Bechtelar Inc and Sons",
-      "DisplayTooltip": "dolor",
+      "Name": "Gleason Inc and Sons",
+      "DisplayName": "Prosacco, Hodkiewicz and Herzog",
+      "DisplayTooltip": "dolorum",
       "IsActive": false
     }
   ]

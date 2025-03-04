@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 915,
-  "Name": "Boehm Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 285,
-  "UdListDefinitionId": 201
+  "HeadingId": 518,
+  "Name": "Leuschke-Kassulke",
+  "Tooltip": "blanditiis",
+  "Deleted": true,
+  "Rank": 618,
+  "UdListDefinitionId": 920
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 533,
-  "Name": "McCullough Group",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 730,
-  "UdListDefinitionId": 548,
+  "HeadingId": 26,
+  "Name": "Little, Kohler and Medhurst",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 185,
+  "UdListDefinitionId": 108,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldLength": 75
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 128,
-  "ColumnId": 635,
-  "FieldDefault": "est",
-  "FieldHeight": 577,
-  "FieldLabel": "enim",
-  "FieldLeft": 713,
-  "FieldTop": 619,
+  "UDefFieldId": 325,
+  "ColumnId": 319,
+  "FieldDefault": "sit",
+  "FieldHeight": 500,
+  "FieldLabel": "perspiciatis",
+  "FieldLeft": 622,
+  "FieldTop": 94,
   "FieldType": "Checkbox",
-  "FieldWidth": 200,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 75,
+  "FormatMask": "fugit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 39,
-  "LabelLeft": 78,
-  "LabelTop": 156,
-  "LabelWidth": 407,
-  "LastVersionId": 802,
-  "ListTableId": 377,
-  "IsMandatory": true,
+  "LabelHeight": 903,
+  "LabelLeft": 769,
+  "LabelTop": 563,
+  "LabelWidth": 621,
+  "LastVersionId": 963,
+  "ListTableId": 917,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 608,
-  "ProgId": "non",
-  "IsReadOnly": true,
-  "ShortLabel": "nostrum",
-  "TabOrder": 143,
-  "TextLength": 214,
-  "Tooltip": "maiores",
-  "UdefIdentity": 134,
-  "UDListDefinitionId": 287,
+  "Page1LineNo": 876,
+  "ProgId": "odit",
+  "IsReadOnly": false,
+  "ShortLabel": "quia",
+  "TabOrder": 673,
+  "TextLength": 177,
+  "Tooltip": "omnis",
+  "UdefIdentity": 476,
+  "UDListDefinitionId": 526,
   "Justification": "Center",
-  "Version": 853,
-  "TemplateVariableName": "Quitzon Group",
+  "Version": 570,
+  "TemplateVariableName": "Will Group",
   "HasBeenPublished": true,
-  "MdoListName": "Boyer-Wyman",
+  "MdoListName": "Brekke LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 585
     }
   }
 }

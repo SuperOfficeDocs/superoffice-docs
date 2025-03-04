@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 843
+  "ShipmentId": 1000
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2001-08-18T12:01:27.9940463+02:00",
+  "StartDate": "2008-03-31T14:13:40.5784406+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 546,
-  "ShipmentDescription": "Virtual mission-critical middleware",
-  "FromAddress": "aut",
-  "Configuration": 281,
-  "PersonId": 140,
-  "PersonFullName": "Dr. Megane Kshlerin",
-  "ShipmentType": "est",
-  "MessageId": 236,
-  "MessageSubject": "dolore",
-  "DocumentMessageId": 307,
-  "NumSent": 620,
-  "NumOpened": 723,
-  "NumBounced": 169,
-  "NumClicks": 517,
+  "ShipmentId": 864,
+  "ShipmentDescription": "User-friendly high-level matrices",
+  "FromAddress": "nostrum",
+  "Configuration": 313,
+  "PersonId": 576,
+  "PersonFullName": "Miss Arlene Tyree Lang DDS",
+  "ShipmentType": "aut",
+  "MessageId": 419,
+  "MessageSubject": "non",
+  "DocumentMessageId": 57,
+  "NumSent": 942,
+  "NumOpened": 503,
+  "NumBounced": 705,
+  "NumClicks": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 452
     }
   }
 }

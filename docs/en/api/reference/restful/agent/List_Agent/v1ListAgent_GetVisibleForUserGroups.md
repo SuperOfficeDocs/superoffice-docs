@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 333,
-  "ListItemId": 454
+  "UdListDefinitionId": 203,
+  "ListItemId": 350
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "O'Hara-Hilll",
-    "ToolTip": "In sit officiis.",
-    "Deleted": false,
-    "Rank": 714,
-    "Type": "necessitatibus",
-    "ColorBlock": 656,
-    "IconHint": "sed",
+    "Id": 702,
+    "Name": "Hackett-Swift",
+    "ToolTip": "Error numquam laboriosam.",
+    "Deleted": true,
+    "Rank": 541,
+    "Type": "ullam",
+    "ColorBlock": 740,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2012-04-20T12:01:27.9471677+02:00",
+    "LastChanged": "2006-06-14T14:13:40.4690906+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Altenwerth Group",
-        "ToolTip": "Iure odio.",
+        "Id": 845,
+        "Name": "Thompson-Hayes",
+        "ToolTip": "Saepe ea dicta aut nihil voluptate eligendi non.",
         "Deleted": false,
-        "Rank": 810,
-        "Type": "at",
-        "ColorBlock": 631,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2020-11-28T12:01:27.9471677+01:00",
+        "Rank": 501,
+        "Type": "sint",
+        "ColorBlock": 95,
+        "IconHint": "cumque",
+        "Selected": false,
+        "LastChanged": "2020-05-18T14:13:40.4690906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Mrs. Marcelle Kiehn",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Prof. Mason Murray II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 332
+            "FieldLength": 704
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Emilie Berge",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Louisa Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 178
       }
     }
   }

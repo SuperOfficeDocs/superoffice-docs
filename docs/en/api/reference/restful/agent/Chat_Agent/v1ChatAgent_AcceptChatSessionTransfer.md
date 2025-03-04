@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 719
+  "ChatSessionId": 970
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 331,
-  "TopicId": 502,
+  "ChatSessionId": 262,
+  "TopicId": 203,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rem",
-  "CustomerHost": "voluptatum",
-  "CustomerName": "Schuster Group",
-  "CustomerEmail": "edgardo_ondricka@hilll.co.uk",
-  "CustomerPhone": "1-737-895-5281 x48094",
+  "CustomerAlias": "aut",
+  "CustomerHost": "eius",
+  "CustomerName": "Paucek LLC",
+  "CustomerEmail": "justine@rogahn.us",
+  "CustomerPhone": "197.226.8256",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Hansen, Douglas and Osinski",
+  "CustomerCompanyName": "Abbott Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "reiciendis",
-  "WhenRequested": "2021-01-10T12:01:27.4002546+01:00",
-  "WhenStarted": "2013-12-25T12:01:27.4002546+01:00",
-  "WhenEnded": "2000-07-13T12:01:27.4002546+02:00",
-  "WhenIdle": "1998-02-25T12:01:27.4002546+01:00",
-  "WhenFetched": "2019-05-05T12:01:27.4002546+02:00",
-  "SessionKey": "dolore",
-  "InitialQueuePos": 396,
-  "AlertLevel": 594,
-  "Rank": 481,
+  "FirstMessage": "magnam",
+  "LastMessage": "accusamus",
+  "WhenRequested": "2012-08-20T14:13:39.6566681+02:00",
+  "WhenStarted": "2001-04-10T14:13:39.6566681+02:00",
+  "WhenEnded": "2012-01-23T14:13:39.6566681+01:00",
+  "WhenIdle": "2021-08-09T14:13:39.6566681+02:00",
+  "WhenFetched": "2015-01-26T14:13:39.6566681+01:00",
+  "SessionKey": "enim",
+  "InitialQueuePos": 451,
+  "AlertLevel": 374,
+  "Rank": 632,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 548,
+  "Rating": 902,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 188
     }
   }
 }

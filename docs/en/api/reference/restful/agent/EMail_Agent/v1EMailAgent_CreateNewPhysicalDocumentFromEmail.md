@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 23,
-  "EmailItemId": 220
+  "DocumentId": 731,
+  "EmailItemId": 103
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 657,
+  "DocumentId": 117,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "officiis",
-  "Header": "praesentium",
-  "Name": "Leffler Inc and Sons",
-  "OurRef": "officia",
-  "YourRef": "rerum",
-  "CreatedDate": "2017-02-17T12:01:27.7909064+01:00",
-  "UpdatedDate": "2016-10-29T12:01:27.7909064+02:00",
-  "Description": "Open-source composite access",
+  "Attention": "perferendis",
+  "Header": "delectus",
+  "Name": "Altenwerth-McClure",
+  "OurRef": "sit",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2017-04-22T14:13:40.203526+02:00",
+  "UpdatedDate": "2010-09-03T14:13:40.203526+02:00",
+  "Description": "Enhanced tertiary methodology",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-08-06T12:01:27.7909064+02:00",
-  "ExternalRef": "voluptate",
+  "Date": "2022-12-31T14:13:40.203526+01:00",
+  "ExternalRef": "enim",
   "Completed": "Completed",
-  "ActiveLinks": 740,
+  "ActiveLinks": 536,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan Group",
-      "Id": 483,
-      "Description": "User-friendly national protocol",
-      "ExtraInfo": "laboriosam",
-      "LinkId": 910,
+      "EntityName": "Lueilwitz, Olson and Rippin",
+      "Id": 557,
+      "Description": "Business-focused foreground database",
+      "ExtraInfo": "aut",
+      "LinkId": 883,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 380
+          "FieldLength": 32
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 761,
-  "Snum": 578,
+  "SuggestedDocumentId": 369,
+  "Snum": 395,
   "UserDefinedFields": {
-    "SuperOffice:1": "1717334276",
-    "SuperOffice:2": "615039089"
+    "SuperOffice:1": "Mrs. Dalton O'Hara IV",
+    "SuperOffice:2": "Jay Sanford"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "saepe",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "quia",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2004-09-06T12:01:27.8065326+02:00",
-  "PublishTo": "2009-06-01T12:01:27.8065326+02:00",
-  "PublishFrom": "2013-05-21T12:01:27.8065326+02:00",
+  "PublishEventDate": "2003-09-04T14:13:40.203526+02:00",
+  "PublishTo": "2012-03-25T14:13:40.203526+02:00",
+  "PublishFrom": "2023-10-31T14:13:40.203526+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 866,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     },
     {
-      "VisibleId": 866,
+      "VisibleId": 587,
       "Visibility": "All",
-      "DisplayValue": "quibusdam",
+      "DisplayValue": "ullam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldType": "System.String",
+          "FieldLength": 646
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 537
     }
   }
 }

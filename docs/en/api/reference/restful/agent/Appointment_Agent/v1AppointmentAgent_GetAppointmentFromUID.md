@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "placeat"
+  "UID": "omnis"
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-11-21T12:01:27.2908716+01:00",
-  "AppointmentId": 998,
-  "Description": "Sharable tangible superstructure",
-  "Title": "quod",
-  "Agenda": "nihil",
-  "InternalNotes": "debitis",
-  "StartDate": "2003-12-14T12:01:27.2908716+01:00",
-  "EndDate": "2009-06-18T12:01:27.2908716+02:00",
+  "CreatedDate": "1998-04-16T14:13:39.2973748+02:00",
+  "AppointmentId": 138,
+  "Description": "Polarised logistical functionalities",
+  "Title": "voluptas",
+  "Agenda": "repudiandae",
+  "InternalNotes": "et",
+  "StartDate": "2015-05-20T14:13:39.2973748+02:00",
+  "EndDate": "2006-11-24T14:13:39.2973748+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 841,
+  "MotherId": 613,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-02-29T12:01:27.2908716+01:00",
+  "UpdatedDate": "1997-11-25T14:13:39.2973748+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 57,
+  "ActiveLinks": 68,
   "Links": [
     {
-      "EntityName": "Schaefer, Goodwin and Stamm",
-      "Id": 210,
-      "Description": "Horizontal asynchronous throughput",
-      "ExtraInfo": "est",
-      "LinkId": 711,
+      "EntityName": "Ward LLC",
+      "Id": 701,
+      "Description": "Persevering background website",
+      "ExtraInfo": "asperiores",
+      "LinkId": 298,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 306
+          "FieldType": "System.String",
+          "FieldLength": 758
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
-  "HasAlarm": true,
-  "ColorIndex": 476,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "eum",
-  "LeadTime": "quibusdam",
-  "Location": "aut",
-  "RejectCounter": 27,
+  "AlarmLeadTime": "error",
+  "HasAlarm": false,
+  "ColorIndex": 17,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "dicta",
+  "LeadTime": "architecto",
+  "Location": "facilis",
+  "RejectCounter": 266,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 177,
-      "PersonId": 618,
-      "ContactId": 65,
-      "EmailId": 773,
-      "SendEmail": false,
+      "AssociateId": 430,
+      "PersonId": 654,
+      "ContactId": 492,
+      "EmailId": 212,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "annabel@sauermurray.name",
-      "Description": "Phased heuristic hub"
+      "EmailAddress": "gus@torp.ca",
+      "Description": "Realigned leading edge pricing structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-09-08T12:01:27.2908716+02:00",
+  "ActiveDate": "2008-09-10T14:13:39.2973748+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 327,
+  "PreferredTZLocation": 931,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 221,
+  "SuggestedAppointmentId": 108,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolor",
+  "CentralserviceVideomeetId": "quasi",
   "UserDefinedFields": {
-    "SuperOffice:1": "1090180407",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "432740282",
+    "SuperOffice:2": "309731730"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "et",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2019-07-14T12:01:27.2908716+02:00",
-  "PublishTo": "2021-04-12T12:01:27.2908716+02:00",
-  "PublishFrom": "2011-01-17T12:01:27.2908716+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-03-31T14:13:39.2973748+02:00",
+  "PublishTo": "2010-10-06T14:13:39.2973748+02:00",
+  "PublishFrom": "2012-06-26T14:13:39.2973748+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 372,
+      "VisibleId": 126,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     },
     {
-      "VisibleId": 372,
+      "VisibleId": 126,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 721
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldLength": 738
     }
   }
 }

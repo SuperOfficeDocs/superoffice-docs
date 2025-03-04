@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Greenholt Inc and Sons",
-  "ProviderName": "Wyman-Wisoky",
-  "SortOrder": "aut",
-  "Restriction": "voluptatum",
-  "Entities": "error",
-  "Page": 697,
-  "PageSize": 140,
-  "Context": "ab"
+  "GuiName": "Mueller Group",
+  "ProviderName": "Lynch Group",
+  "SortOrder": "distinctio",
+  "Restriction": "quod",
+  "Entities": "aliquid",
+  "Page": 985,
+  "PageSize": 955,
+  "Context": "sunt"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Vandervort, Stiedemann and Jakubowski",
-    "PrimaryKey": 447,
+    "EntityName": "Stroman-Bogan",
+    "PrimaryKey": 662,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "doloribus",
-        "TooltipHint": "non",
-        "LinkHint": "officia"
+        "DisplayValue": "labore",
+        "TooltipHint": "et",
+        "LinkHint": "facilis"
       }
     },
-    "LinkHint": "alias",
-    "StyleHint": "dolor",
+    "LinkHint": "non",
+    "StyleHint": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

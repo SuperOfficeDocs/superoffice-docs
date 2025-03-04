@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Greenfelder-Stamm",
-  "Context": "dolores"
+  "TableName": "Hilll Group",
+  "Context": "earum"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "rerum",
-    "ValueType": "aut",
-    "Mandatory": true,
-    "EncodedDisplayName": "Senger Inc and Sons",
-    "EncodedDisplayDescription": "Future-proofed mission-critical internet solution",
-    "IconHint": "quia",
+    "Key": "impedit",
+    "ValueType": "assumenda",
+    "Mandatory": false,
+    "EncodedDisplayName": "Kessler, Metz and Bins",
+    "EncodedDisplayDescription": "Organized 24/7 knowledge user",
+    "IconHint": "quam",
     "ControlInfos": [
       {
-        "Type": "nemo",
-        "Label": "ea",
-        "Dimension": 479,
-        "ListProviderName": "Reilly Group",
-        "ListProviderExtraInfo": "incidunt",
-        "ListProviderPrimaryKeyName": "Spencer-Hand",
-        "ListLeadText": "similique",
+        "Type": "sequi",
+        "Label": "consectetur",
+        "Dimension": 962,
+        "ListProviderName": "Brown Inc and Sons",
+        "ListProviderExtraInfo": "fugiat",
+        "ListProviderPrimaryKeyName": "Flatley Group",
+        "ListLeadText": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 899
+            "FieldLength": 731
           }
         }
       }
     ],
-    "EncodedDataCaption": "modi",
-    "EncodedDataCaptionDescription": "Adaptive solution-oriented challenge",
-    "CurrentOperationType": "distinctio",
+    "EncodedDataCaption": "commodi",
+    "EncodedDataCaptionDescription": "Adaptive value-added access",
+    "CurrentOperationType": "neque",
     "Values": [
-      "est",
-      "cupiditate"
+      "error",
+      "vitae"
     ],
     "DisplayValues": [
-      "aut",
-      "molestias"
+      "consectetur",
+      "delectus"
     ],
     "OperationInfos": [
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
+        "Key": "et",
+        "EncodedDisplayName": "Muller LLC",
         "EncodedLeadTexts": [
-          "occaecati",
-          "fugit"
+          "reprehenderit",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldType": "System.Int32",
+            "FieldLength": 280
           }
         }
       },
       {
-        "Key": "dolor",
-        "EncodedDisplayName": "Armstrong, Ortiz and Carter",
+        "Key": "et",
+        "EncodedDisplayName": "Muller LLC",
         "EncodedLeadTexts": [
-          "occaecati",
-          "fugit"
+          "reprehenderit",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 889
+            "FieldType": "System.Int32",
+            "FieldLength": 280
           }
         }
       }

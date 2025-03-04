@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 214,
-    "ParentId": 806,
-    "Name": "Flatley Inc and Sons",
-    "Fullname": "odio",
-    "CategoryMaster": 471,
+    "TicketCategoryId": 928,
+    "ParentId": 617,
+    "Name": "Murazik Inc and Sons",
+    "Fullname": "eius",
+    "CategoryMaster": 552,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Grimes, Connelly and Harvey",
+    "ExternalName": "Paucek, Blanda and Breitenberg",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 819,
-    "ReplyTemplate": 917,
-    "NotificationEmail": "randal.langosh@mcculloughrolfson.com",
+    "AssignmentLag": 445,
+    "ReplyTemplate": 75,
+    "NotificationEmail": "elaina.hammes@howe.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 841,
+    "EffectiveReplyTemplateId": 434,
     "ExtraFields": {
-      "ExtraFields1": "magni",
-      "ExtraFields2": "iure"
+      "ExtraFields1": "totam",
+      "ExtraFields2": "sed"
     },
     "CustomFields": {
-      "CustomFields1": "qui",
-      "CustomFields2": "aperiam"
+      "CustomFields1": "magnam",
+      "CustomFields2": "omnis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 605
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "veritatis",
+  "SaleText": "reprehenderit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-04-20T12:01:28.2440639+02:00",
-  "Amount": 9226.496,
-  "SaleId": 877,
-  "Earning": 26382.012,
-  "EarningPercent": 11232.256,
-  "Heading": "ut",
-  "Number": "1150138",
-  "Probability": 176,
-  "CreatedDate": "2002-03-16T12:01:28.2440639+01:00",
-  "UpdatedDate": "2018-06-28T12:01:28.2440639+02:00",
+  "Saledate": "2007-02-20T14:13:41.1876773+01:00",
+  "Amount": 26137.559999999998,
+  "SaleId": 72,
+  "Earning": 9342.454,
+  "EarningPercent": 10470.694,
+  "Heading": "omnis",
+  "Number": "1078325",
+  "Probability": 468,
+  "CreatedDate": "2008-06-20T14:13:41.1876773+02:00",
+  "UpdatedDate": "2024-02-15T14:13:41.1876773+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 593,
+  "ActiveLinks": 744,
   "Links": [
     {
-      "EntityName": "Raynor Inc and Sons",
-      "Id": 545,
-      "Description": "Centralized discrete service-desk",
-      "ExtraInfo": "molestiae",
-      "LinkId": 39,
+      "EntityName": "Price-Kunze",
+      "Id": 843,
+      "Description": "Reactive attitude-oriented interface",
+      "ExtraInfo": "odit",
+      "LinkId": 484,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldLength": 884
         }
       }
     }
   ],
-  "NextDueDate": "2020-06-10T12:01:28.2440639+02:00",
-  "Postit": "odit",
+  "NextDueDate": "2012-02-06T14:13:41.1876773+01:00",
+  "Postit": "natus",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-08-30T12:01:28.2440639+02:00",
+  "ReopenDate": "2017-12-15T14:13:41.1876773+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Mosciski, Zboncak and Rippin",
-      "Comment": "in",
-      "StakeholderRoleId": 825,
-      "CountryId": 824,
-      "PersonId": 604,
-      "EmailDescription": "althea_becker@russel.ca",
-      "EmailId": 379,
-      "EmailAddress": "makayla@bauch.us",
-      "PhoneId": 778,
-      "ContactName": "Bartell LLC",
-      "ContactId": 376,
-      "SaleId": 628,
-      "Mrmrs": "ex",
-      "Firstname": "Heath",
-      "MiddleName": "Stracke Group",
-      "Lastname": "Leffler",
-      "SaleStakeholderId": 659,
-      "Rank": 71,
-      "Phone": "816.147.3881 x1366",
+      "StakeholderRoleName": "Schumm-Shields",
+      "Comment": "ad",
+      "StakeholderRoleId": 614,
+      "CountryId": 784,
+      "PersonId": 56,
+      "EmailDescription": "roosevelt@feil.info",
+      "EmailId": 884,
+      "EmailAddress": "elna@rolfson.info",
+      "PhoneId": 694,
+      "ContactName": "Jakubowski-Walsh",
+      "ContactId": 19,
+      "SaleId": 913,
+      "Mrmrs": "accusantium",
+      "Firstname": "Mona",
+      "MiddleName": "Williamson Group",
+      "Lastname": "Brakus",
+      "SaleStakeholderId": 248,
+      "Rank": 502,
+      "Phone": "495-783-1001",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 684
         }
       }
     }
   ],
-  "ActiveErpLinks": 48,
+  "ActiveErpLinks": 384,
   "UserDefinedFields": {
-    "SuperOffice:1": "1857768622",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1962894252",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "neque",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "sunt"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2019-03-19T12:01:28.2440639+01:00",
-  "PublishTo": "2007-04-11T12:01:28.2440639+02:00",
-  "PublishFrom": "2021-01-10T12:01:28.2440639+01:00",
+  "PublishEventDate": "2011-01-01T14:13:41.1876773+01:00",
+  "PublishTo": "2022-01-25T14:13:41.1876773+01:00",
+  "PublishFrom": "2018-04-09T14:13:41.1876773+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 314,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     },
     {
-      "VisibleId": 314,
+      "VisibleId": 934,
       "Visibility": "All",
-      "DisplayValue": "nam",
+      "DisplayValue": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 610
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldLength": 581
     }
   }
 }

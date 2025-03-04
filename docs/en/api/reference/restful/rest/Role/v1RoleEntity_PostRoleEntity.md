@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 367,
-  "Name": "Jacobi Group",
-  "Tooltip": "perferendis",
+  "RoleId": 171,
+  "Name": "Hegmann-Homenick",
+  "Tooltip": "deleniti",
   "RoleType": "Anonymous",
-  "Deleted": 971,
-  "Rank": 156,
-  "Created": "2017-08-21T12:01:33.0269443+02:00",
-  "UseCategories": 85,
+  "Deleted": 718,
+  "Rank": 690,
+  "Created": "2016-02-18T14:13:49.0868575+01:00",
+  "UseCategories": 78,
   "CreatedBy": null,
-  "Updated": "2014-06-19T12:01:33.0269443+02:00",
+  "Updated": "2005-07-13T14:13:49.0868575+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 363,
-  "Name": "Roberts, Bogisich and Predovic",
-  "Tooltip": "eius",
+  "RoleId": 795,
+  "Name": "Schulist Inc and Sons",
+  "Tooltip": "adipisci",
   "RoleType": "Anonymous",
-  "Deleted": 165,
-  "Rank": 563,
-  "Created": "2006-11-24T12:01:33.0269443+01:00",
-  "UseCategories": 54,
+  "Deleted": 860,
+  "Rank": 250,
+  "Created": "2010-01-03T14:13:49.1025081+01:00",
+  "UseCategories": 935,
   "CreatedBy": null,
-  "Updated": "2003-04-22T12:01:33.0269443+02:00",
+  "Updated": "2008-02-08T14:13:49.1025081+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldLength": 12
     }
   },
   "_Links": {

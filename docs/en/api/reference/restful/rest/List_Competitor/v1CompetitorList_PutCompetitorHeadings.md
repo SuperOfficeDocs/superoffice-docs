@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 108,
-    "Name": "Murray, Gleason and Kris",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 531,
-    "UdListDefinitionId": 733
+    "HeadingId": 115,
+    "Name": "Reilly, DuBuque and Wilderman",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 613,
+    "UdListDefinitionId": 533
   },
   {
-    "HeadingId": 108,
-    "Name": "Murray, Gleason and Kris",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "Rank": 531,
-    "UdListDefinitionId": 733
+    "HeadingId": 115,
+    "Name": "Reilly, DuBuque and Wilderman",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "Rank": 613,
+    "UdListDefinitionId": 533
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 192,
-    "Name": "Konopelski Inc and Sons",
-    "Tooltip": "laborum",
+    "HeadingId": 611,
+    "Name": "Rosenbaum-Torp",
+    "Tooltip": "at",
     "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 406,
+    "Rank": 107,
+    "UdListDefinitionId": 411,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldLength": 442
       }
     }
   }

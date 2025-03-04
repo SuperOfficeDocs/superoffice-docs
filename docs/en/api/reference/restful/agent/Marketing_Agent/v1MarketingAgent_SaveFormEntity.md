@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 95,
-  "FormKey": "totam",
-  "Name": "Ryan-O'Hara",
-  "Description": "Organic mission-critical monitoring",
-  "Config": "veritatis",
-  "FolderId": 342,
-  "ScriptId": 635,
-  "ResponseShipmentId": 755,
+  "FormId": 490,
+  "FormKey": "harum",
+  "Name": "Feeney-Maggio",
+  "Description": "Secured scalable methodology",
+  "Config": "impedit",
+  "FolderId": 905,
+  "ScriptId": 995,
+  "ResponseShipmentId": 188,
   "Active": false,
-  "Expires": "2016-01-20T12:01:27.9940463+01:00",
-  "MaxSubmits": 665,
+  "Expires": "1999-11-23T14:13:40.5628193+01:00",
+  "MaxSubmits": 116,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 206,
-  "NewTicket": false,
+  "Recipe": "ab",
+  "GroupId": 130,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2023-05-05T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2017-05-16T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 574,
-  "UpdatedCount": 629,
+  "Registered": "2018-10-03T14:13:40.5628193+02:00",
+  "RegisteredAssociateId": 9,
+  "Updated": "2007-08-14T14:13:40.5628193+02:00",
+  "UpdatedAssociateId": 780,
+  "UpdatedCount": 869,
   "EmailFlows": [
-    383,
-    403
+    249,
+    776
   ],
-  "FolderName": "Hermiston-Jast"
+  "FolderName": "Murazik-Bernhard"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 743,
-  "FormKey": "voluptas",
-  "Name": "Cartwright, Blanda and Heathcote",
-  "Description": "Exclusive incremental extranet",
-  "Config": "ut",
-  "FolderId": 866,
-  "ScriptId": 842,
-  "ResponseShipmentId": 804,
+  "FormId": 290,
+  "FormKey": "asperiores",
+  "Name": "Grady LLC",
+  "Description": "User-friendly empowering capacity",
+  "Config": "non",
+  "FolderId": 548,
+  "ScriptId": 975,
+  "ResponseShipmentId": 80,
   "Active": false,
-  "Expires": "2013-03-08T12:01:27.9940463+01:00",
-  "MaxSubmits": 237,
+  "Expires": "2008-08-01T14:13:40.5628193+02:00",
+  "MaxSubmits": 610,
   "Type": "Normal",
-  "Recipe": "facilis",
-  "GroupId": 688,
-  "NewTicket": true,
+  "Recipe": "perferendis",
+  "GroupId": 689,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2003-05-11T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 732,
-  "Updated": "2021-01-06T12:01:27.9940463+01:00",
-  "UpdatedAssociateId": 269,
-  "UpdatedCount": 862,
+  "Registered": "2020-08-12T14:13:40.5628193+02:00",
+  "RegisteredAssociateId": 508,
+  "Updated": "2019-01-16T14:13:40.5628193+01:00",
+  "UpdatedAssociateId": 97,
+  "UpdatedCount": 644,
   "EmailFlows": [
-    780,
-    631
+    790,
+    696
   ],
-  "FolderName": "O'Conner Group",
+  "FolderName": "Schmeler Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldLength": 303
     }
   }
 }

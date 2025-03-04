@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "neque"
+  "FromAddress": "et"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 387,
-  "EMailAddress": "quibusdam",
-  "AssociateId": 865,
+  "EMailAccountId": 19,
+  "EMailAddress": "enim",
+  "AssociateId": 262,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 385,
-  "ErrorCount": 21,
+  "AccountStatus": 410,
+  "ErrorCount": 149,
   "ErrorReason": "",
-  "InboxFolder": "deserunt",
-  "SentFolder": "pariatur",
-  "SimpleMode": 298,
-  "LastFetch": "2013-01-02T12:01:27.8221586+01:00",
+  "InboxFolder": "quidem",
+  "SentFolder": "iusto",
+  "SimpleMode": 925,
+  "LastFetch": "2009-08-06T14:13:40.2347688+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

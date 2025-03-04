@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Bechtelar, Hodkiewicz and Brakus",
-    "Tooltip": "quis",
+    "Id": 226,
+    "Name": "Legros, Gutmann and Schaden",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 233,
-    "Rank": 559
+    "UdListDefinitionId": 25,
+    "Rank": 987
   },
   {
-    "Id": 317,
-    "Name": "Bechtelar, Hodkiewicz and Brakus",
-    "Tooltip": "quis",
+    "Id": 226,
+    "Name": "Legros, Gutmann and Schaden",
+    "Tooltip": "provident",
     "Deleted": false,
-    "UdListDefinitionId": 233,
-    "Rank": 559
+    "UdListDefinitionId": 25,
+    "Rank": 987
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 865,
-    "Name": "Huels Group",
-    "Tooltip": "quidem",
+    "Id": 953,
+    "Name": "Weber, Klein and Lakin",
+    "Tooltip": "doloremque",
     "Deleted": false,
-    "UdListDefinitionId": 532,
-    "Rank": 913,
+    "UdListDefinitionId": 209,
+    "Rank": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldLength": 795
       }
     }
   }

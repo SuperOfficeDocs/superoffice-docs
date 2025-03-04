@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consequatur",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -152,52 +152,52 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 813,
-  "UniqueIdentifier": "cumque",
-  "Name": "Littel, Harber and Stoltenberg",
-  "Description": "Decentralized 6th generation paradigm",
-  "IncludeId": "sunt",
-  "AccessKey": "est",
-  "HierarchyId": 847,
-  "Source": "ut",
-  "SourceCode": "ut",
+  "EjscriptId": 419,
+  "UniqueIdentifier": "suscipit",
+  "Name": "Stanton-Kessler",
+  "Description": "Cloned transitional toolset",
+  "IncludeId": "quae",
+  "AccessKey": "reprehenderit",
+  "HierarchyId": 504,
+  "Source": "et",
+  "SourceCode": "suscipit",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 248,
+  "HtmlOutput": 97,
   "Includes": [
-    619,
-    830
+    306,
+    421
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 341,
-      "LineNumberTo": 462,
-      "Delta": 163,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 789,
+      "LineNumberTo": 65,
+      "Delta": 773,
+      "IncludeId": "ab",
       "IncludedFrom": [
-        "magni",
-        "qui"
+        "ad",
+        "cum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 244
+          "FieldType": "System.Int32",
+          "FieldLength": 701
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-01-20T12:01:32.8550575+01:00",
-  "RegisteredAssociateId": 776,
-  "Updated": "2017-10-23T12:01:32.8550575+02:00",
-  "UpdatedAssociateId": 635,
+  "Registered": "2020-05-21T14:13:48.7587273+02:00",
+  "RegisteredAssociateId": 899,
+  "Updated": "1999-05-16T14:13:48.7587273+02:00",
+  "UpdatedAssociateId": 44,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 329
     }
   },
   "_Links": {

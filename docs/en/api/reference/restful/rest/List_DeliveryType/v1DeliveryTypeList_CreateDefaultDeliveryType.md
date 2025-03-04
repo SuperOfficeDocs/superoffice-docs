@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Padberg Inc and Sons",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "UdListDefinitionId": 994,
-  "Rank": 308,
+  "Id": 690,
+  "Name": "Lindgren, Klocko and Kerluke",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "UdListDefinitionId": 913,
+  "Rank": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 452
     }
   }
 }

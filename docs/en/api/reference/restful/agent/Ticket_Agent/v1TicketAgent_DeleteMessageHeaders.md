@@ -71,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    337,
-    457
+    685,
+    888
   ]
 }
 ```

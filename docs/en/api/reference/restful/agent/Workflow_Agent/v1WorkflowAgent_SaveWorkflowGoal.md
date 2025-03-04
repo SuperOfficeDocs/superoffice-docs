@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 186,
-  "WorkflowId": 784,
+  "WorkflowGoalId": 859,
+  "WorkflowId": 985,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Towne-Nienow",
-      "Description": "Front-line coherent forecast",
-      "Rank": 363,
+      "Name": "Funk, Pollich and Larson",
+      "Description": "Polarised contextually-based approach",
+      "Rank": 129,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Towne-Nienow",
-      "Description": "Front-line coherent forecast",
-      "Rank": 363,
+      "Name": "Funk, Pollich and Larson",
+      "Description": "Polarised contextually-based approach",
+      "Rank": 129,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 514,
-  "WorkflowId": 830,
+  "WorkflowGoalId": 36,
+  "WorkflowId": 979,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Wilkinson, Blanda and Wuckert",
-      "Description": "Re-engineered empowering standardization",
-      "Rank": 538,
+      "Name": "Murphy-Gerlach",
+      "Description": "Reactive client-driven array",
+      "Rank": 937,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wilkinson, Blanda and Wuckert",
-      "Description": "Re-engineered empowering standardization",
-      "Rank": 538,
+      "Name": "Murphy-Gerlach",
+      "Description": "Reactive client-driven array",
+      "Rank": 937,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 807
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "D'Amore, Boyer and Boehm",
-    "ToolTip": "Et et recusandae sit tempore accusantium ut.",
-    "Deleted": false,
-    "Rank": 812,
-    "Type": "sint",
-    "ColorBlock": 479,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-10-05T12:01:33.448849+02:00",
+    "Id": 819,
+    "Name": "Bergnaum, Johnson and Cummings",
+    "ToolTip": "Illum optio.",
+    "Deleted": true,
+    "Rank": 979,
+    "Type": "sed",
+    "ColorBlock": 366,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2022-02-16T14:13:49.6804997+01:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Bode LLC",
-        "ToolTip": "Error maxime.",
-        "Deleted": true,
-        "Rank": 808,
-        "Type": "harum",
-        "ColorBlock": 399,
-        "IconHint": "quibusdam",
+        "Id": 383,
+        "Name": "Hagenes Group",
+        "ToolTip": "Est nam est magnam dolores quia.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "provident",
+        "ColorBlock": 664,
+        "IconHint": "consectetur",
         "Selected": false,
-        "LastChanged": "2019-07-30T12:01:33.448849+02:00",
+        "LastChanged": "2003-01-29T14:13:49.6804997+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "esse",
+        "ExtraInfo": "libero",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Victor Veum"
+        "FullName": "Beryl Kerluke"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dolores",
+    "ExtraInfo": "autem",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Johanna Daniel"
+    "FullName": "Carlie Hermiston"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Frami, Considine and Hyatt",
-    "ToolTip": "Velit quisquam assumenda veniam minus omnis labore.",
-    "Deleted": true,
-    "Rank": 161,
-    "Type": "necessitatibus",
-    "ColorBlock": 80,
-    "IconHint": "molestiae",
+    "Id": 536,
+    "Name": "Stoltenberg Inc and Sons",
+    "ToolTip": "Maxime quam molestias et perspiciatis cumque tenetur laudantium.",
+    "Deleted": false,
+    "Rank": 361,
+    "Type": "harum",
+    "ColorBlock": 914,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "1998-02-15T12:01:33.448849+01:00",
+    "LastChanged": "2024-09-09T14:13:49.6804997+02:00",
     "ChildItems": [
       {
-        "Id": 401,
-        "Name": "Fisher, Morar and Dicki",
-        "ToolTip": "Asperiores quam aliquam perspiciatis nesciunt aut et.",
+        "Id": 227,
+        "Name": "Schamberger, Schimmel and Berge",
+        "ToolTip": "Omnis et tempora sed dolores.",
         "Deleted": false,
-        "Rank": 977,
-        "Type": "quas",
-        "ColorBlock": 906,
-        "IconHint": "est",
+        "Rank": 256,
+        "Type": "dignissimos",
+        "ColorBlock": 719,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2022-09-15T12:01:33.448849+02:00",
+        "LastChanged": "2011-07-18T14:13:49.6804997+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Prof. Domenico Larkin",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "labore",
+        "Hidden": true,
+        "FullName": "Mrs. Sophie Rath Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 406
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Soledad Runolfsdottir",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Ms. Mustafa Johnson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 377
       }
     }
   }

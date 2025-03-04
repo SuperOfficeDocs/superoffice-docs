@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 951,
-  "Name": "Ankunding-Kris",
+  "ScreenChooserId": 572,
+  "Name": "Armstrong, Stiedemann and Buckridge",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "hic",
-  "Source": "et",
-  "Registered": "2013-09-11T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 909,
-  "Updated": "2014-08-23T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 219
+  "Enabled": true,
+  "UniqueIdentifier": "qui",
+  "Source": "ipsam",
+  "Registered": "2012-12-28T14:13:39.9067187+01:00",
+  "RegisteredAssociateId": 329,
+  "Updated": "2022-08-28T14:13:39.9067187+02:00",
+  "UpdatedAssociateId": 63
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 987,
-  "Name": "Ratke-Gutmann",
+  "ScreenChooserId": 187,
+  "Name": "Oberbrunner, Stoltenberg and Balistreri",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "corrupti",
-  "Source": "cum",
-  "Registered": "2016-01-08T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 811,
-  "Updated": "2022-07-05T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 615,
+  "UniqueIdentifier": "aut",
+  "Source": "sunt",
+  "Registered": "2001-01-22T14:13:39.9067187+01:00",
+  "RegisteredAssociateId": 699,
+  "Updated": "2014-12-21T14:13:39.9067187+01:00",
+  "UpdatedAssociateId": 62,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 911
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

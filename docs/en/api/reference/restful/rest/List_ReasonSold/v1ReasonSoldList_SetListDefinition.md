@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Bruen Inc and Sons",
-  "Tooltip": "debitis",
+  "Id": 711,
+  "Name": "Kshlerin-Donnelly",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 534,
+  "Rank": 207,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ducimus",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "architecto",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 526,
-  "Name": "Moore, Sauer and O'Hara",
-  "Tooltip": "natus",
+  "Id": 217,
+  "Name": "Eichmann, Collier and Bailey",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 125,
+  "Rank": 440,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "beatae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldLength": 620
     }
   }
 }

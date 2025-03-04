@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bruen-Hickle",
-  "FieldName": "Toy-Kling"
+  "TableName": "Volkman, Greenholt and Von",
+  "FieldName": "Pouros, Prosacco and Rolfson"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Padberg Group",
-  "DisplayName": "Schultz-Morar",
-  "Description": "Quality-focused demand-driven infrastructure",
-  "ShortLabel": "quis",
+  "FieldName": "Thiel-Reilly",
+  "DisplayName": "Bogisich LLC",
+  "Description": "Vision-oriented analyzing architecture",
+  "ShortLabel": "illo",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": true,
+  "IsMandatory": false,
+  "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 434,
-  "TemplateVariableName": "Considine, Gutkowski and Rowe"
+  "IsDisplayField": false,
+  "Rank": 84,
+  "TemplateVariableName": "Labadie, Lindgren and Sporer"
 }
 ```

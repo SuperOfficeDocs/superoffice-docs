@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 630,
-  "Name": "Ondricka-Dibbert",
-  "Tooltip": "tempore",
+  "Id": 969,
+  "Name": "Prosacco Inc and Sons",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 757,
-  "IsCustomList": true,
+  "Rank": 476,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": true
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Schowalter Group",
-  "Tooltip": "ducimus",
+  "Id": 314,
+  "Name": "Spencer-Kulas",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 314,
+  "Rank": 680,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 263
     }
   }
 }

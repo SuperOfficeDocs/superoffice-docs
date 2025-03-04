@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "commodi"
+  "QuoteListType": "in"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "velit",
-    "DisplayValue": "a",
-    "DisplayDescription": "Optimized interactive encoding",
+    "ERPQuoteListItemKey": "illo",
+    "DisplayValue": "quas",
+    "DisplayDescription": "User-centric human-resource installation",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 10
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "velit",
-    "DisplayValue": "a",
-    "DisplayDescription": "Optimized interactive encoding",
+    "ERPQuoteListItemKey": "illo",
+    "DisplayValue": "quas",
+    "DisplayDescription": "User-centric human-resource installation",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 897
+        "FieldLength": 10
       }
     }
   }

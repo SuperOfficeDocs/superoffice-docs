@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 455,
-  "Name": "Wilkinson, Cole and Klein",
-  "Description": "Exclusive high-level hardware",
-  "DefaultHeight": 863,
-  "DefaultWidth": 336,
+  "DashboardTileDefinitionId": 242,
+  "Name": "Haag Inc and Sons",
+  "Description": "Centralized high-level system engine",
+  "DefaultHeight": 585,
+  "DefaultWidth": 100,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kiehn, Roob and Parisian",
-  "SelectionId": 889,
+  "EntityName": "O'Keefe, Fay and Haley",
+  "SelectionId": 203,
   "CurrencyMode": "Base",
-  "CurrencyCode": "consequatur",
+  "CurrencyCode": "qui",
   "Measure": "Average",
-  "MeasureField": "asperiores",
-  "SortBy": "quibusdam",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 498,
-  "MeasureByField": "iste",
+  "MeasureField": "officiis",
+  "SortBy": "amet",
+  "LayoutConfig": "esse",
+  "SecondarySelectionId": 328,
+  "MeasureByField": "dolorem",
   "Usage": "Dashboard",
-  "ProviderName": "Rice, Ratke and Swaniawski"
+  "ProviderName": "Emard Inc and Sons"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 742,
-  "Name": "Lubowitz, McDermott and Weimann",
-  "Description": "Digitized well-modulated approach",
-  "DefaultHeight": 108,
-  "DefaultWidth": 115,
+  "DashboardTileDefinitionId": 437,
+  "Name": "Hamill, Gerhold and Willms",
+  "Description": "Exclusive national groupware",
+  "DefaultHeight": 509,
+  "DefaultWidth": 464,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Thiel Group",
-  "SelectionId": 134,
+  "EntityName": "Gleason-Dietrich",
+  "SelectionId": 425,
   "CurrencyMode": "Base",
-  "CurrencyCode": "omnis",
+  "CurrencyCode": "pariatur",
   "Measure": "Average",
-  "MeasureField": "fugiat",
-  "SortBy": "earum",
-  "LayoutConfig": "laboriosam",
-  "SecondarySelectionId": 992,
-  "MeasureByField": "sed",
+  "MeasureField": "consequatur",
+  "SortBy": "nostrum",
+  "LayoutConfig": "odio",
+  "SecondarySelectionId": 404,
+  "MeasureByField": "voluptates",
   "Usage": "Dashboard",
-  "ProviderName": "Fay, Bernhard and Wilkinson",
+  "ProviderName": "Oberbrunner, Homenick and Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 269
     }
   },
   "_Links": {

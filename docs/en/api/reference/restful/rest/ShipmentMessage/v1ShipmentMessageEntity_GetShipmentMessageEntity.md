@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 180,
-  "PlainMessage": "similique",
-  "HtmlMessage": "quidem",
-  "SmsMessage": "autem",
-  "Description": "Universal even-keeled algorithm",
-  "Subject": "est",
-  "FolderId": 911,
-  "HeaderField": "officiis",
-  "Design": "aut",
+  "ShipmentMessageId": 359,
+  "PlainMessage": "voluptas",
+  "HtmlMessage": "voluptas",
+  "SmsMessage": "enim",
+  "Description": "Self-enabling user-facing application",
+  "Subject": "dolores",
+  "FolderId": 866,
+  "HeaderField": "perferendis",
+  "Design": "eius",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Multi-tiered empowering moderator",
-  "AccessKey": "soluta",
-  "DocumentMessage": 154,
-  "Registered": "2022-02-05T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2015-04-25T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 866,
-  "UpdatedCount": 633,
+  "LongDescription": "Exclusive client-driven architecture",
+  "AccessKey": "reprehenderit",
+  "DocumentMessage": 763,
+  "Registered": "2006-02-12T14:13:49.2587235+01:00",
+  "RegisteredAssociateId": 286,
+  "Updated": "2019-05-24T14:13:49.2587235+02:00",
+  "UpdatedAssociateId": 609,
+  "UpdatedCount": 998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldType": "System.String",
+      "FieldLength": 367
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

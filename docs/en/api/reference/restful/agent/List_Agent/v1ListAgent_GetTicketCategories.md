@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 420,
-    "ParentId": 275,
-    "Name": "Gibson-Gusikowski",
-    "Fullname": "debitis",
-    "CategoryMaster": 462,
+    "TicketCategoryId": 997,
+    "ParentId": 52,
+    "Name": "Stoltenberg LLC",
+    "Fullname": "ut",
+    "CategoryMaster": 142,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Harris Group",
+    "ExternalName": "Rau Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 572,
-    "ReplyTemplate": 235,
-    "NotificationEmail": "jovany@satterfieldhills.uk",
+    "AssignmentLag": 840,
+    "ReplyTemplate": 201,
+    "NotificationEmail": "darlene_jacobs@brownweissnat.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 400,
+    "EffectiveReplyTemplateId": 420,
     "ExtraFields": {
-      "ExtraFields1": "totam",
-      "ExtraFields2": "delectus"
+      "ExtraFields1": "sequi",
+      "ExtraFields2": "praesentium"
     },
     "CustomFields": {
-      "CustomFields1": "adipisci",
-      "CustomFields2": "accusamus"
+      "CustomFields1": "et",
+      "CustomFields2": "quia"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldLength": 692
       }
     }
   }

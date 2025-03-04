@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 170,
-  "Name": "Hodkiewicz LLC",
-  "Tooltip": "et",
+  "Id": 989,
+  "Name": "Homenick-Marvin",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 78,
+  "Rank": 231,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "omnis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Dietrich, Hegmann and Kirlin",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 21,
+  "Id": 329,
+  "Name": "Parisian-Roberts",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 804,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "tempora",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 954
     }
   }
 }

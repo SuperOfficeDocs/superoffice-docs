@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=411
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=209
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,79 +102,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 271,
+  "EjMessageId": 95,
   "Ticket": null,
-  "CreatedAt": "2006-01-29T12:01:28.5409587+01:00",
+  "CreatedAt": "2015-01-21T14:13:41.5790183+01:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "non",
-  "TimeSpent": 326,
-  "Body": "placeat",
-  "HtmlBody": "amet",
-  "EmailHeader": "davon@becker.co.uk",
-  "DebugInfo": "qui",
-  "MailSorter": "quae",
+  "MessageId": "ducimus",
+  "TimeSpent": 826,
+  "Body": "sit",
+  "HtmlBody": "aut",
+  "EmailHeader": "garfield@runolfsson.ca",
+  "DebugInfo": "quibusdam",
+  "MailSorter": "nulla",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "maxime",
   "MessageHeaders": [
     {
-      "Id": 308,
-      "Name": "Jacobs Inc and Sons",
-      "Value": "reprehenderit",
+      "Id": 588,
+      "Name": "Keebler, Kling and Shields",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     }
   ],
   "Important": false,
-  "Language": "rerum",
-  "Sentiment": 977,
-  "SentimentConfidence": 942,
+  "Language": "earum",
+  "Sentiment": 545,
+  "SentimentConfidence": 984,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 697,
-      "Name": "O'Reilly, Crona and Blick",
-      "ContentType": "hic",
-      "AttSize": 144,
+      "AttachmentId": 993,
+      "Name": "Rowe-Mayert",
+      "ContentType": "alias",
+      "AttSize": 19,
       "InlineImage": false,
-      "ContentId": "quam",
-      "AuthKey": "molestiae",
-      "IsSafeFileExtension": false,
+      "ContentId": "facilis",
+      "AuthKey": "qui",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 801
+          "FieldLength": 148
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "beatae",
-    "ExtraFields2": "magni"
+    "ExtraFields1": "officia",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "eum"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "quia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 695
+      "FieldType": "System.Int32",
+      "FieldLength": 256
     }
   }
 }

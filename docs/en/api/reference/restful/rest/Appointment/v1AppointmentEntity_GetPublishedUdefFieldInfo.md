@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 257,
-  "ColumnId": 696,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 271,
-  "FieldLabel": "quia",
-  "FieldLeft": 271,
-  "FieldTop": 238,
+  "UDefFieldId": 97,
+  "ColumnId": 726,
+  "FieldDefault": "rerum",
+  "FieldHeight": 755,
+  "FieldLabel": "doloribus",
+  "FieldLeft": 492,
+  "FieldTop": 671,
   "FieldType": "Checkbox",
-  "FieldWidth": 431,
-  "FormatMask": "rerum",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 274,
-  "LabelLeft": 25,
-  "LabelTop": 991,
-  "LabelWidth": 406,
-  "LastVersionId": 511,
-  "ListTableId": 734,
-  "IsMandatory": true,
+  "FieldWidth": 514,
+  "FormatMask": "deserunt",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 36,
+  "LabelLeft": 543,
+  "LabelTop": 830,
+  "LabelWidth": 66,
+  "LastVersionId": 419,
+  "ListTableId": 510,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 671,
-  "ProgId": "voluptatem",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsam",
-  "TabOrder": 943,
-  "TextLength": 12,
-  "Tooltip": "doloribus",
-  "UdefIdentity": 771,
-  "UDListDefinitionId": 79,
+  "Page1LineNo": 312,
+  "ProgId": "culpa",
+  "IsReadOnly": false,
+  "ShortLabel": "a",
+  "TabOrder": 609,
+  "TextLength": 524,
+  "Tooltip": "esse",
+  "UdefIdentity": 74,
+  "UDListDefinitionId": 300,
   "Justification": "Center",
-  "Version": 321,
-  "TemplateVariableName": "Kuphal-Altenwerth",
+  "Version": 453,
+  "TemplateVariableName": "Gaylord Group",
   "HasBeenPublished": false,
-  "MdoListName": "Stokes, Funk and Mann",
+  "MdoListName": "Cronin-Hickle",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 152
     }
   }
 }

@@ -85,13 +85,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Associates": [
-    94,
-    91
+    191,
+    353
   ],
-  "StartTime": "2002-12-20T12:01:27.0408377+01:00",
-  "EndTime": "2007-04-08T12:01:27.0408377+02:00",
-  "Count": 718,
-  "IsAllDay": false
+  "StartTime": "2003-05-27T14:13:39.0161892+02:00",
+  "EndTime": "2009-07-07T14:13:39.0161892+02:00",
+  "Count": 558,
+  "IsAllDay": true
 }
 ```
 
@@ -103,30 +103,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AvailableTimeStart": "2013-07-27T12:01:27.0408377+02:00",
-    "AvailableTimeEnd": "2023-09-21T12:01:27.0408377+02:00",
-    "RecommendedTimeStart": "2015-12-03T12:01:27.0408377+01:00",
-    "RecommendedTimeEnd": "2004-10-18T12:01:27.0408377+02:00",
+    "AvailableTimeStart": "2016-06-29T14:13:39.0161892+02:00",
+    "AvailableTimeEnd": "2017-08-20T14:13:39.0161892+02:00",
+    "RecommendedTimeStart": "2015-02-27T14:13:39.0161892+01:00",
+    "RecommendedTimeEnd": "2017-01-25T14:13:39.0161892+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 352
       }
     }
   },
   {
-    "AvailableTimeStart": "2013-07-27T12:01:27.0408377+02:00",
-    "AvailableTimeEnd": "2023-09-21T12:01:27.0408377+02:00",
-    "RecommendedTimeStart": "2015-12-03T12:01:27.0408377+01:00",
-    "RecommendedTimeEnd": "2004-10-18T12:01:27.0408377+02:00",
+    "AvailableTimeStart": "2016-06-29T14:13:39.0161892+02:00",
+    "AvailableTimeEnd": "2017-08-20T14:13:39.0161892+02:00",
+    "RecommendedTimeStart": "2015-02-27T14:13:39.0161892+01:00",
+    "RecommendedTimeEnd": "2017-01-25T14:13:39.0161892+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 352
       }
     }
   }

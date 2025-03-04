@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "eum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "assumenda",
+    "path": "eum",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 686,
+  "HierarchyId": 585,
   "Domain": "Dashboards",
-  "Name": "Wuckert Inc and Sons",
-  "Fullname": "eius",
-  "ParentId": 188,
+  "Name": "Muller LLC",
+  "Fullname": "magni",
+  "ParentId": 371,
   "Children": [
     {
-      "HierarchyId": 737,
+      "HierarchyId": 709,
       "Domain": "Dashboards",
-      "Name": "Sawayn, Conroy and Rohan",
-      "Fullname": "quis",
-      "ParentId": 455,
+      "Name": "Treutel, Altenwerth and Bogisich",
+      "Fullname": "sequi",
+      "ParentId": 602,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-12-18T12:01:32.9175621+01:00",
-      "RegisteredAssociateId": 8,
-      "Updated": "2008-10-01T12:01:32.9175621+02:00",
-      "UpdatedAssociateId": 260,
+      "Registered": "2002-06-03T14:13:48.8993207+02:00",
+      "RegisteredAssociateId": 396,
+      "Updated": "2007-05-08T14:13:48.8993207+02:00",
+      "UpdatedAssociateId": 169,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldType": "System.Int32",
+          "FieldLength": 27
         }
       }
     }
   ],
-  "Registered": "2019-08-13T12:01:32.9175621+02:00",
-  "RegisteredAssociateId": 291,
-  "Updated": "2002-08-31T12:01:32.9175621+02:00",
-  "UpdatedAssociateId": 520,
+  "Registered": "2021-04-11T14:13:48.8993207+02:00",
+  "RegisteredAssociateId": 643,
+  "Updated": "2000-04-04T14:13:48.8993207+02:00",
+  "UpdatedAssociateId": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 76
     }
   },
   "_Links": {

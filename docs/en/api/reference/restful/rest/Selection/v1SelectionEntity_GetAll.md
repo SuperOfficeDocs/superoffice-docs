@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=aperiam
-GET /api/v1/Selection?$top=642
-GET /api/v1/Selection?$skip=919
+GET /api/v1/Selection?$entities=natus
+GET /api/v1/Selection?$top=560
+GET /api/v1/Selection?$skip=110
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=et
+GET /api/v1/Selection?$context=dolores
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "mollitia",
+  "odata.nextLink": "cumque",
   "value": [
     {
-      "PrimaryKey": 3254,
-      "EntityName": "person",
-      "personId": 3254,
-      "fullName": "Arnold Padberg"
+      "PrimaryKey": 1195,
+      "EntityName": "sale",
+      "saleId": 1195,
+      "contactId": 3478,
+      "name": "Schaden, Hodkiewicz and Abbott"
     },
     {
-      "PrimaryKey": 8688,
-      "EntityName": "person",
-      "personId": 8688,
-      "fullName": "Mikel Eldora Gerlach MD"
+      "PrimaryKey": 9959,
+      "EntityName": "sale",
+      "saleId": 9959,
+      "contactId": 6374,
+      "name": "Aufderhar Group"
     }
   ]
 }

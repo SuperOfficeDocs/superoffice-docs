@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "molestias"
+  "UniqueIdentifier": "deserunt"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "vero",
-  "Name": "Bechtelar Group",
-  "Description": "Exclusive directional adapter",
-  "IncludeId": "et",
-  "Source": "sapiente",
-  "Registered": "2024-09-19T12:01:27.5408902+02:00",
-  "RegisteredBy": "et",
-  "Updated": "2022-05-27T12:01:27.5408902+02:00",
-  "UpdatedBy": "explicabo",
-  "Path": "maxime",
+  "UniqueIdentifier": "omnis",
+  "Name": "Morissette-Adams",
+  "Description": "Realigned homogeneous ability",
+  "IncludeId": "sed",
+  "Source": "totam",
+  "Registered": "2014-01-24T14:13:39.9067187+01:00",
+  "RegisteredBy": "quia",
+  "Updated": "2002-12-16T14:13:39.9067187+01:00",
+  "UpdatedBy": "ut",
+  "Path": "ullam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldLength": 991
     }
   }
 }

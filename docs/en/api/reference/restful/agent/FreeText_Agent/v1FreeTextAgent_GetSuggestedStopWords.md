@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 825
+  "CountWords": 530
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Jones Inc and Sons",
-    "ToolTip": "Ut quas eveniet quis molestiae pariatur aut repellat.",
+    "Id": 223,
+    "Name": "Barrows Group",
+    "ToolTip": "Saepe vel doloribus enim consectetur.",
     "Deleted": true,
-    "Rank": 50,
-    "Type": "doloribus",
+    "Rank": 584,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 847,
-        "Name": "Mertz LLC",
-        "ToolTip": "Officia unde sit et rem iusto tempora.",
-        "Deleted": true,
-        "Rank": 901,
-        "Type": "aspernatur",
+        "Id": 550,
+        "Name": "Romaguera Group",
+        "ToolTip": "Officiis modi cum pariatur modi.",
+        "Deleted": false,
+        "Rank": 222,
+        "Type": "minima",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 46,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "enim",
-        "FullName": "Amy Ricky Kris DDS",
+        "IconHint": "omnis",
+        "ColorBlock": 328,
+        "ExtraInfo": "dicta",
+        "StyleHint": "est",
+        "FullName": "Lexus Zboncak III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldLength": 664
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 717,
-    "ExtraInfo": "soluta",
-    "StyleHint": "aut",
-    "FullName": "Dedrick Beer",
+    "IconHint": "ad",
+    "ColorBlock": 467,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "laudantium",
+    "FullName": "Kathlyn Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

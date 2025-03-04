@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 25,
-  "Name": "Howell, West and Schamberger",
-  "Tooltip": "vitae",
+  "Id": 268,
+  "Name": "O'Kon LLC",
+  "Tooltip": "corrupti",
   "Deleted": true,
-  "Rank": 705,
+  "Rank": 480,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ea",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dignissimos",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 12
     }
   },
   "_Links": {

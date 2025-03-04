@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 276,
-  "Name": "Heidenreich, Gislason and Tromp",
-  "Rank": 785,
-  "Tooltip": "sint",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "qui",
+  "ResourceId": 316,
+  "Name": "Dickinson-Fay",
+  "Rank": 574,
+  "Tooltip": "quam",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 815
     }
   }
 }

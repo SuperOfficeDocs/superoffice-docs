@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Turner, Conn and Brown",
-  "Tooltip": "sunt",
+  "Id": 118,
+  "Name": "Brakus-Johnston",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 449,
+  "Rank": 529,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 223
     }
   },
   "_Links": {

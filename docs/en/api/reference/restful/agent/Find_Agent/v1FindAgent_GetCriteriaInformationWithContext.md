@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "at",
-  "ProviderName": "Willms-Christiansen",
-  "StorageKey": "id",
+  "StorageType": "voluptates",
+  "ProviderName": "Schultz, Keebler and Hartmann",
+  "StorageKey": "in",
   "StaticColumns": [
-    "consequatur",
-    "eos"
+    "vero",
+    "nesciunt"
   ],
-  "Context": "reprehenderit"
+  "Context": "quisquam"
 }
 ```
 
@@ -106,81 +106,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Denesik Group",
-      "Operator": "accusamus",
+      "Name": "Anderson Inc and Sons",
+      "Operator": "aliquam",
       "Values": [
-        "et",
-        "occaecati"
+        "voluptates",
+        "illum"
       ],
       "DisplayValues": [
-        "quisquam",
-        "cupiditate"
+        "ad",
+        "tempora"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 928,
+      "InterParenthesis": 762,
       "InterOperator": "And",
-      "UniqueHash": 866
+      "UniqueHash": 457
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Cartwright LLC",
-      "DisplayTooltip": "quo",
-      "DisplayType": "vitae",
-      "CanOrderBy": false,
-      "Name": "Williamson-Hoeger",
-      "CanRestrictBy": true,
-      "RestrictionType": "ex",
-      "RestrictionListName": "Bruen, Kuphal and DuBuque",
+      "DisplayName": "Windler, Ratke and Pfeffer",
+      "DisplayTooltip": "et",
+      "DisplayType": "corporis",
+      "CanOrderBy": true,
+      "Name": "Bosco Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "et",
+      "RestrictionListName": "Langworth, Jacobi and Parisian",
       "IsVisible": true,
-      "ExtraInfo": "quia",
-      "Width": "praesentium",
-      "IconHint": "a",
-      "HeadingIconHint": "voluptas"
+      "ExtraInfo": "officiis",
+      "Width": "quae",
+      "IconHint": "voluptate",
+      "HeadingIconHint": "esse"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Abbott-Pfannerstill",
-      "PrimaryKey": 644,
+      "EntityName": "Huels Group",
+      "PrimaryKey": 100,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "corporis",
-          "TooltipHint": "consectetur",
-          "LinkHint": "voluptas"
+          "DisplayValue": "maiores",
+          "TooltipHint": "veniam",
+          "LinkHint": "voluptates"
         }
       },
-      "LinkHint": "error",
-      "StyleHint": "labore",
+      "LinkHint": "distinctio",
+      "StyleHint": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldType": "System.String",
+          "FieldLength": 763
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schaden, Schmitt and Schulist",
-      "Description": "Reactive assymetric groupware",
-      "Rank": 12,
+      "Name": "Jakubowski Group",
+      "Description": "Assimilated mission-critical algorithm",
+      "Rank": 195,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden, Schmitt and Schulist",
-      "Description": "Reactive assymetric groupware",
-      "Rank": 12,
+      "Name": "Jakubowski Group",
+      "Description": "Assimilated mission-critical algorithm",
+      "Rank": 195,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldType": "System.String",
+      "FieldLength": 809
     }
   }
 }

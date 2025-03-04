@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 596
+  "DepartmentId": 470
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(872)900-4885",
-    "PersonCellPhone": "495.651.3407",
-    "PersonPrivatePhone": "581-791-8543",
-    "PersonFaxNumber": "1410230",
-    "PersonPagerNumber": "986466",
-    "PersonEmail": "stewart@frami.co.uk",
-    "Id": 111,
-    "Name": "Stamm-Rosenbaum",
-    "Tooltip": "iste",
-    "UniqueId": "molestiae",
+    "PersonDirectPhone": "050-534-8639 x013",
+    "PersonCellPhone": "258-571-5836 x920",
+    "PersonPrivatePhone": "060-583-8412",
+    "PersonFaxNumber": "1025403",
+    "PersonPagerNumber": "951895",
+    "PersonEmail": "brayan@terryschmeler.info",
+    "Id": 225,
+    "Name": "Champlin-Hessel",
+    "Tooltip": "maiores",
+    "UniqueId": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 614
       }
     }
   }

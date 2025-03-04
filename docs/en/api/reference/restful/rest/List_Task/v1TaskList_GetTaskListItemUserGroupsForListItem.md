@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Schaden Inc and Sons",
-    "ToolTip": "Numquam et nulla sapiente eum.",
+    "Id": 515,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Accusantium itaque debitis sit et molestias.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "quasi",
-    "ColorBlock": 522,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2001-07-18T12:01:33.6832402+02:00",
+    "Rank": 251,
+    "Type": "accusamus",
+    "ColorBlock": 423,
+    "IconHint": "quibusdam",
+    "Selected": false,
+    "LastChanged": "2002-11-26T14:13:50.2752013+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Dach, Schroeder and Stroman",
-        "ToolTip": "Optio autem iure rerum magni quo quam et.",
-        "Deleted": false,
-        "Rank": 912,
-        "Type": "iusto",
-        "ColorBlock": 98,
-        "IconHint": "quo",
+        "Id": 64,
+        "Name": "Schuppe, Smitham and Parisian",
+        "ToolTip": "Mollitia sint doloremque qui temporibus omnis.",
+        "Deleted": true,
+        "Rank": 811,
+        "Type": "ut",
+        "ColorBlock": 837,
+        "IconHint": "mollitia",
         "Selected": false,
-        "LastChanged": "2019-04-08T12:01:33.6832402+02:00",
+        "LastChanged": "2024-09-24T14:13:50.2752013+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "illo",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Gilbert Lowe",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Lila Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 550
+            "FieldType": "System.Int32",
+            "FieldLength": 693
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Miss Bessie Anjali Harber",
+    "ExtraInfo": "sequi",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Ila Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 530
       }
     }
   }

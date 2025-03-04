@@ -25,7 +25,7 @@ Deletes the AppointmentEntity
 | AppointmentEntityId | int32 | **Required** The id of the AppointmentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=478
+POST /api/v1/Agents/Appointment/DeleteAppointmentEntity?AppointmentEntityId=693
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Appointment/DeleteAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

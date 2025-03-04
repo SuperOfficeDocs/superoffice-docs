@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "King, Huels and Leannon",
-    "ToolTip": "Qui facere itaque cum molestiae praesentium veritatis ut.",
+    "Id": 38,
+    "Name": "Ziemann, Kuhic and Mertz",
+    "ToolTip": "Dignissimos optio et natus.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "iure",
-    "ColorBlock": 670,
-    "IconHint": "architecto",
+    "Rank": 86,
+    "Type": "occaecati",
+    "ColorBlock": 26,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "1998-03-10T12:01:33.6676138+01:00",
+    "LastChanged": "2024-01-08T14:13:50.2595794+01:00",
     "ChildItems": [
       {
-        "Id": 205,
-        "Name": "Wisozk-Breitenberg",
-        "ToolTip": "Perferendis tempore dolorum sint iusto libero dignissimos est.",
-        "Deleted": false,
-        "Rank": 458,
-        "Type": "et",
-        "ColorBlock": 4,
-        "IconHint": "inventore",
-        "Selected": false,
-        "LastChanged": "2012-06-28T12:01:33.6676138+02:00",
+        "Id": 573,
+        "Name": "Wolff-Connelly",
+        "ToolTip": "Fuga corporis.",
+        "Deleted": true,
+        "Rank": 28,
+        "Type": "eum",
+        "ColorBlock": 142,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "2007-01-30T14:13:50.2595794+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "magnam",
+        "ExtraInfo": "nihil",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Kolby Hermiston"
+        "FullName": "Corene Welch"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "tempora",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Yasmeen Jacobi"
+    "FullName": "Savanah Kaya Lind II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 477,
-    "Name": "Bailey, Bogisich and Zulauf",
-    "ToolTip": "Est vel quos laboriosam ut iusto sint.",
+    "Id": 149,
+    "Name": "Mosciski, Farrell and Reinger",
+    "ToolTip": "Laborum sint hic molestiae rerum.",
     "Deleted": false,
-    "Rank": 990,
-    "Type": "ab",
-    "ColorBlock": 460,
-    "IconHint": "fugiat",
-    "Selected": false,
-    "LastChanged": "2015-07-03T12:01:33.6676138+02:00",
+    "Rank": 22,
+    "Type": "recusandae",
+    "ColorBlock": 821,
+    "IconHint": "nesciunt",
+    "Selected": true,
+    "LastChanged": "2000-07-17T14:13:50.2595794+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "Klein Group",
-        "ToolTip": "Hic suscipit.",
-        "Deleted": true,
-        "Rank": 421,
-        "Type": "molestiae",
-        "ColorBlock": 908,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2024-01-02T12:01:33.6676138+01:00",
+        "Id": 168,
+        "Name": "Howe-Dibbert",
+        "ToolTip": "Asperiores ratione et voluptas.",
+        "Deleted": false,
+        "Rank": 198,
+        "Type": "maiores",
+        "ColorBlock": 621,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2006-03-21T14:13:50.2595794+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "ea",
+        "ExtraInfo": "omnis",
+        "StyleHint": "accusamus",
         "Hidden": true,
-        "FullName": "Miss Anderson Talia Keeling",
+        "FullName": "Zoila Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 683
+            "FieldType": "System.Int32",
+            "FieldLength": 631
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "nisi",
+    "ExtraInfo": "qui",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Ms. Peyton Maritza Corwin V",
+    "FullName": "Clotilde Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 581
+        "FieldType": "System.Int32",
+        "FieldLength": 931
       }
     }
   }

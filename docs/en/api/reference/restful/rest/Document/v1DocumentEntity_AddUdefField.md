@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 260,
-  "ColumnId": 97,
-  "FieldDefault": "quo",
-  "FieldHeight": 287,
-  "FieldLabel": "sequi",
-  "FieldLeft": 276,
-  "FieldTop": 680,
+  "UDefFieldId": 658,
+  "ColumnId": 797,
+  "FieldDefault": "enim",
+  "FieldHeight": 5,
+  "FieldLabel": "quia",
+  "FieldLeft": 231,
+  "FieldTop": 614,
   "FieldType": "Checkbox",
-  "FieldWidth": 522,
-  "FormatMask": "aut",
-  "HideLabel": false,
+  "FieldWidth": 559,
+  "FormatMask": "rerum",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 746,
-  "LabelLeft": 227,
-  "LabelTop": 66,
-  "LabelWidth": 553,
-  "LastVersionId": 532,
-  "ListTableId": 566,
+  "LabelHeight": 792,
+  "LabelLeft": 859,
+  "LabelTop": 744,
+  "LabelWidth": 135,
+  "LastVersionId": 845,
+  "ListTableId": 540,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 7,
-  "ProgId": "temporibus",
+  "Page1LineNo": 993,
+  "ProgId": "eius",
   "IsReadOnly": true,
-  "ShortLabel": "molestiae",
-  "TabOrder": 755,
-  "TextLength": 856,
-  "Tooltip": "sit",
-  "UdefIdentity": 249,
-  "UDListDefinitionId": 341,
+  "ShortLabel": "libero",
+  "TabOrder": 419,
+  "TextLength": 790,
+  "Tooltip": "et",
+  "UdefIdentity": 369,
+  "UDListDefinitionId": 417,
   "Justification": "Center",
-  "Version": 815,
-  "TemplateVariableName": "Ratke, Mueller and Blick",
-  "HasBeenPublished": false,
-  "MdoListName": "Hudson Group",
+  "Version": 570,
+  "TemplateVariableName": "Wolff-Ernser",
+  "HasBeenPublished": true,
+  "MdoListName": "Nienow LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 395
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 628,
-    "Name": "Ruecker, Christiansen and Miller",
-    "Tooltip": "quia",
+    "HeadingId": 75,
+    "Name": "Sipes-Bradtke",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 889,
-    "UdListDefinitionId": 556,
+    "Rank": 247,
+    "UdListDefinitionId": 692,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldLength": 151
       }
     }
   }

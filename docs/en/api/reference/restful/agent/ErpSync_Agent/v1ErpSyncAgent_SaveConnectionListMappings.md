@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Flatley-Bailey",
+      "ErpListName": "Walker-Hagenes",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Hoeger-Abernathy",
-      "ErpFieldId": 667,
+      "ErpActorTypeName": "Windler-Schimmel",
+      "ErpFieldId": 132,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 504
+          "FieldLength": 203
         }
       }
     }
   ],
-  "ErpConnectionId": 678,
-  "ErpConnectionName": "O'Conner LLC",
+  "ErpConnectionId": 195,
+  "ErpConnectionName": "Renner Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldLength": 124
     }
   }
 }

@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 884,
-  "Name": "Olson, Schmidt and Gutkowski",
-  "Tooltip": "quasi",
-  "SaveInDb": 923,
-  "Filename": "perferendis",
-  "DefaultOref": "quis",
+  "DocumentTemplateId": 444,
+  "Name": "Yost, Little and Davis",
+  "Tooltip": "voluptas",
+  "SaveInDb": 499,
+  "Filename": "ducimus",
+  "DefaultOref": "nobis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 643,
-  "IntentId": 501,
+  "AutoeventId": 817,
+  "IntentId": 648,
   "IsDefaultPublished": true,
-  "Rank": 68,
-  "LoadTemplateFromPlugin": 154,
-  "MimeType": "ea",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 503,
+  "Rank": 73,
+  "LoadTemplateFromPlugin": 601,
+  "MimeType": "beatae",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 713,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "uriah_abbott@labadie.us",
-  "IncludeSignature": false,
+  "EmailSubject": "eulalia.corkery@schimmel.ca",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dustin.blick@kassulkeboyle.biz",
+  "SenderEmailAddress": "mariah@greenfelder.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 153,
-  "Name": "DuBuque LLC",
-  "Tooltip": "quo",
-  "SaveInDb": 667,
-  "Filename": "culpa",
-  "DefaultOref": "sequi",
+  "DocumentTemplateId": 636,
+  "Name": "Kuhn, Boyle and Davis",
+  "Tooltip": "hic",
+  "SaveInDb": 539,
+  "Filename": "minus",
+  "DefaultOref": "ut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 602,
-  "IntentId": 923,
-  "IsDefaultPublished": false,
-  "Rank": 868,
-  "LoadTemplateFromPlugin": 761,
-  "MimeType": "facere",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 540,
+  "AutoeventId": 15,
+  "IntentId": 28,
+  "IsDefaultPublished": true,
+  "Rank": 72,
+  "LoadTemplateFromPlugin": 856,
+  "MimeType": "omnis",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 695,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dianna.auer@pfannerstill.us",
+  "EmailSubject": "rogelio_smitham@larkin.biz",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "odessa@wiza.ca",
+  "SenderEmailAddress": "donato.muller@conroyklocko.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 860
     }
   }
 }

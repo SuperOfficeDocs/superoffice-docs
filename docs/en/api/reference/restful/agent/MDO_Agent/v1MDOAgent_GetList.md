@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corkery-Dooley",
-  "ForceFlatList": true,
-  "AdditionalInfo": "doloremque",
+  "Name": "Ryan-Torphy",
+  "ForceFlatList": false,
+  "AdditionalInfo": "velit",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Turcotte-Halvorson",
-    "ToolTip": "Aut enim modi ut quidem non.",
+    "Id": 334,
+    "Name": "Johnson, Fahey and Baumbach",
+    "ToolTip": "Aut accusantium perspiciatis eveniet temporibus repellendus quia natus.",
     "Deleted": true,
-    "Rank": 803,
-    "Type": "animi",
+    "Rank": 634,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Durgan-McClure",
-        "ToolTip": "Non labore ut velit eum.",
+        "Id": 438,
+        "Name": "Buckridge LLC",
+        "ToolTip": "Quo culpa.",
         "Deleted": false,
-        "Rank": 547,
-        "Type": "recusandae",
+        "Rank": 18,
+        "Type": "numquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 332,
+        "IconHint": "nam",
+        "ColorBlock": 613,
         "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Wyatt Jewess",
+        "StyleHint": "ab",
+        "FullName": "Korey Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 514
+            "FieldType": "System.Int32",
+            "FieldLength": 174
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 58,
-    "ExtraInfo": "nobis",
-    "StyleHint": "dolor",
-    "FullName": "Fletcher Schmitt",
+    "IconHint": "et",
+    "ColorBlock": 22,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "a",
+    "FullName": "Prof. Imogene Calista Wehner II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 28
       }
     }
   }

@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 892,
-  "SourcePersonId": 264,
-  "DestinationContactId": 968,
-  "DestinationPersonId": 94,
-  "RelationId": 387,
-  "Comment": "suscipit",
-  "RelationDefinitionId": 959,
-  "Reversed": 631,
-  "UpdatedDate": "2010-04-01T12:01:32.8394314+02:00",
-  "CreatedDate": "2024-09-07T12:01:32.8394314+02:00",
+  "SourceContactId": 259,
+  "SourcePersonId": 497,
+  "DestinationContactId": 107,
+  "DestinationPersonId": 755,
+  "RelationId": 289,
+  "Comment": "fuga",
+  "RelationDefinitionId": 505,
+  "Reversed": 99,
+  "UpdatedDate": "2015-04-26T14:13:48.6007718+02:00",
+  "CreatedDate": "2023-08-04T14:13:48.6007718+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Murray Inc and Sons",
-  "SourcePersonName": "Reichel-Gislason",
-  "DestinationContactName": "Schowalter Inc and Sons",
-  "DestinationPersonName": "Tromp-Lockman",
-  "ActiveText": "ut",
-  "PassiveText": "reiciendis"
+  "SourceContactName": "Veum, Hettinger and Boyle",
+  "SourcePersonName": "Dibbert LLC",
+  "DestinationContactName": "Botsford Inc and Sons",
+  "DestinationPersonName": "Rice Group",
+  "ActiveText": "velit",
+  "PassiveText": "officia"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 744,
-  "SourcePersonId": 481,
-  "DestinationContactId": 182,
-  "DestinationPersonId": 773,
-  "RelationId": 457,
-  "Comment": "ut",
-  "RelationDefinitionId": 224,
-  "Reversed": 295,
-  "UpdatedDate": "2013-08-20T12:01:32.8394314+02:00",
-  "CreatedDate": "2021-05-21T12:01:32.8394314+02:00",
+  "SourceContactId": 579,
+  "SourcePersonId": 742,
+  "DestinationContactId": 942,
+  "DestinationPersonId": 225,
+  "RelationId": 539,
+  "Comment": "quia",
+  "RelationDefinitionId": 978,
+  "Reversed": 873,
+  "UpdatedDate": "2009-05-03T14:13:48.7430769+02:00",
+  "CreatedDate": "1998-08-13T14:13:48.7430769+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Hauck LLC",
-  "SourcePersonName": "Balistreri, Bayer and Bergstrom",
-  "DestinationContactName": "White-Dach",
-  "DestinationPersonName": "Koepp LLC",
-  "ActiveText": "iure",
-  "PassiveText": "odit",
+  "SourceContactName": "Predovic-Labadie",
+  "SourcePersonName": "D'Amore LLC",
+  "DestinationContactName": "Harber, Bednar and Johns",
+  "DestinationPersonName": "Kreiger LLC",
+  "ActiveText": "ut",
+  "PassiveText": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldType": "System.Int32",
+      "FieldLength": 876
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

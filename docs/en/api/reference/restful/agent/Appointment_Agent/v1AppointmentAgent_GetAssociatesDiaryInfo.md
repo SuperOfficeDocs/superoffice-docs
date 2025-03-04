@@ -97,16 +97,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    65,
-    554
+    312,
+    116
   ],
-  "StartTime": "2006-08-15T12:01:27.0252114+02:00",
-  "EndTime": "1997-12-05T12:01:27.0252114+01:00"
+  "StartTime": "2016-10-16T14:13:39.0005676+02:00",
+  "EndTime": "2004-11-19T14:13:39.0005676+01:00"
 }
 ```
 
@@ -118,25 +118,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 601,
-    "AssociateId": 882,
-    "MotherId": 843,
-    "StartDate": "2024-12-16T12:01:27.0252114+01:00",
-    "EndDate": "1999-10-17T12:01:27.0252114+02:00",
+    "AppointmentId": 729,
+    "AssociateId": 828,
+    "MotherId": 459,
+    "StartDate": "2001-10-12T14:13:39.0005676+02:00",
+    "EndDate": "2003-04-28T14:13:39.0005676+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Rath-Dare",
-    "ContactName": "Robel, Ankunding and Leuschke",
-    "ProjectName": "Abbott, Hilll and Parker",
-    "Title": "nam",
-    "Agenda": "quaerat",
+    "TaskName": "Funk LLC",
+    "ContactName": "Thompson LLC",
+    "ProjectName": "Jaskolski Inc and Sons",
+    "Title": "dolores",
+    "Agenda": "vel",
     "IsAllDay": false,
-    "IsBusy": false,
-    "IsRecurring": false,
+    "IsBusy": true,
+    "IsRecurring": true,
     "IsVideoMeeting": false,
     "HasAlarm": false,
-    "IsCompleted": true,
-    "IsTentative": true,
-    "IsBookingMain": true,
+    "IsCompleted": false,
+    "IsTentative": false,
+    "IsBookingMain": false,
     "SendEmail": false,
     "AnySendEmail": true,
     "IsPrivate": false,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 769
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 662
+  "ErpSyncConnectionId": 996
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Little-Sporer",
-  "DisplayDescription": "Vision-oriented fault-tolerant neural-net",
+  "DisplayName": "Johnson-Braun",
+  "DisplayDescription": "Monitored impactful encryption",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2007-07-09T12:01:27.8690369+02:00",
+  "LastSync": "2003-11-27T14:13:40.3284976+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "vitae",
-      "Mappings": "soluta",
+      "HasMappings": true,
+      "Defaults": "dolore",
+      "Mappings": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 109
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "vitae",
-      "Mappings": "soluta",
+      "HasMappings": true,
+      "Defaults": "dolore",
+      "Mappings": "praesentium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldLength": 109
         }
       }
     }
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 109
+      "FieldType": "System.Int32",
+      "FieldLength": 101
     }
   }
 }

@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Ledner-Trantow"
+  "ConnectorName": "White-Heathcote"
 }
 ```
 
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 910,
-  "ERPName": "Brown LLC",
-  "DisplayName": "Senger LLC",
-  "DisplayDescription": "Programmable contextually-based knowledge base",
-  "Rank": 781,
-  "ConnectorName": "Wisoky LLC",
-  "ErpConnectionId": 432,
-  "ExtraData": "atque",
+  "QuoteConnectionId": 309,
+  "ERPName": "Schmitt LLC",
+  "DisplayName": "Kiehn Group",
+  "DisplayDescription": "Vision-oriented fault-tolerant access",
+  "Rank": 958,
+  "ConnectorName": "Harris, Schroeder and Weber",
+  "ErpConnectionId": 391,
+  "ExtraData": "nisi",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 995,
-      "ERPPriceListKey": "inventore",
-      "QuoteConnectionId": 561,
-      "Name": "Harvey Inc and Sons",
-      "Description": "Self-enabling 3rd generation extranet",
-      "Currency": "minima",
-      "CurrencyName": "Gerlach, Bosco and Smith",
-      "ValidFrom": "2014-06-12T12:01:28.1971849+02:00",
-      "ValidTo": "2015-11-13T12:01:28.1971849+01:00",
+      "PriceListId": 573,
+      "ERPPriceListKey": "accusamus",
+      "QuoteConnectionId": 827,
+      "Name": "Tromp LLC",
+      "Description": "Synergized scalable productivity",
+      "Currency": "illum",
+      "CurrencyName": "Cummerata-Gutmann",
+      "ValidFrom": "2020-04-09T14:13:41.1095702+02:00",
+      "ValidTo": "2021-03-01T14:13:41.1095702+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldLength": 786
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": true,
   "UserGroupAccessIds": [
-    804,
-    945
+    846,
+    752
   ],
   "AssociateAccessIds": [
-    465,
-    65
+    728,
+    641
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldLength": 473
     }
   }
 }

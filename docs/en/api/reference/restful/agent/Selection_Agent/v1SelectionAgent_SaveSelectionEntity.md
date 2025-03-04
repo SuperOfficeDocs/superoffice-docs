@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented actuating archive",
-  "Postit": "et",
+  "Description": "De-engineered background product",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 750,
-  "IncludePerson": 379,
+  "GroupIdx": 557,
+  "IncludePerson": 519,
   "MemberCount": 99.99,
-  "Name": "Schmidt-Swaniawski",
-  "PostitTextId": 293,
-  "CreatedDate": "2002-02-04T12:01:28.275316+01:00",
-  "SelectionId": 754,
-  "SoundEx": "magnam",
-  "Source": 761,
-  "TextId": 42,
-  "UpdatedDate": "2005-11-29T12:01:28.275316+01:00",
-  "UpdatedCount": 763,
-  "Visibility": 499,
+  "Name": "Nikolaus Inc and Sons",
+  "PostitTextId": 849,
+  "CreatedDate": "2004-02-07T14:13:41.2664827+01:00",
+  "SelectionId": 574,
+  "SoundEx": "exercitationem",
+  "Source": 507,
+  "TextId": 852,
+  "UpdatedDate": "2004-05-08T14:13:41.2664827+02:00",
+  "UpdatedCount": 825,
+  "Visibility": 722,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 942,
-  "TargetTableName": "Dooley Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 72,
-  "RightSelectionId": 268,
+  "TargetTableNumber": 418,
+  "TargetTableName": "Mante, Wuckert and Wiegand",
+  "Completed": false,
+  "LeftSelectionId": 87,
+  "RightSelectionId": 199,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hoeger-Sawayn",
-  "ShadowProviderName": "Mitchell, Halvorson and Gusikowski",
-  "ChartKey": "cum",
-  "LastLoaded": "2005-03-03T12:01:28.275316+01:00",
-  "LastLoadedBy": 467,
+  "MainProviderName": "Eichmann, Schuppe and Gorczany",
+  "ShadowProviderName": "King LLC",
+  "ChartKey": "temporibus",
+  "LastLoaded": "2007-03-31T14:13:41.2664827+02:00",
+  "LastLoadedBy": 484,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-10-09T12:01:28.275316+02:00",
-  "LastMembershipChangeBy": 486,
+  "LastMembershipChange": "2006-12-03T14:13:41.2664827+01:00",
+  "LastMembershipChangeBy": 42,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "placeat",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Auer-Rice",
-  "DashboardTileDefinitionId": 255,
+  "MainHeading": "nam",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Koss-Lakin",
+  "DashboardTileDefinitionId": 864,
   "VisibleFor": [
     {
-      "VisibleId": 155,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "dolores"
     },
     {
-      "VisibleId": 155,
+      "VisibleId": 115,
       "Visibility": "All",
-      "DisplayValue": "voluptatem"
+      "DisplayValue": "dolores"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive user-facing budgetary management",
-  "Postit": "qui",
+  "Description": "Inverse asynchronous knowledge base",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 98,
-  "IncludePerson": 371,
+  "GroupIdx": 111,
+  "IncludePerson": 197,
   "MemberCount": 99.99,
-  "Name": "McGlynn, Roberts and Gislason",
-  "PostitTextId": 640,
-  "CreatedDate": "2003-02-24T12:01:28.275316+01:00",
-  "SelectionId": 881,
-  "SoundEx": "debitis",
-  "Source": 940,
-  "TextId": 964,
-  "UpdatedDate": "2004-03-19T12:01:28.275316+01:00",
-  "UpdatedCount": 842,
-  "Visibility": 121,
+  "Name": "Rath-Klocko",
+  "PostitTextId": 329,
+  "CreatedDate": "2022-05-21T14:13:41.2664827+02:00",
+  "SelectionId": 452,
+  "SoundEx": "odit",
+  "Source": 628,
+  "TextId": 149,
+  "UpdatedDate": "2021-05-17T14:13:41.2664827+02:00",
+  "UpdatedCount": 640,
+  "Visibility": 752,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 553,
-  "TargetTableName": "Klocko-Mayert",
-  "Completed": false,
-  "LeftSelectionId": 887,
-  "RightSelectionId": 358,
+  "TargetTableNumber": 815,
+  "TargetTableName": "Hintz, Satterfield and Pagac",
+  "Completed": true,
+  "LeftSelectionId": 64,
+  "RightSelectionId": 291,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kris LLC",
-  "ShadowProviderName": "Ratke Inc and Sons",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "2011-04-21T12:01:28.275316+02:00",
-  "LastLoadedBy": 270,
+  "MainProviderName": "Schuppe, Gerlach and Klocko",
+  "ShadowProviderName": "McGlynn-Luettgen",
+  "ChartKey": "quia",
+  "LastLoaded": "2004-06-18T14:13:41.2664827+02:00",
+  "LastLoadedBy": 21,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-04-22T12:01:28.275316+02:00",
-  "LastMembershipChangeBy": 846,
+  "LastMembershipChange": "2019-06-24T14:13:41.2664827+02:00",
+  "LastMembershipChangeBy": 982,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "perspiciatis",
-  "MailingsProviderName": "Borer-Herman",
-  "DashboardTileDefinitionId": 592,
+  "MainHeading": "qui",
+  "MemberTabHeading": "alias",
+  "MailingsProviderName": "Leannon-Kulas",
+  "DashboardTileDefinitionId": 93,
   "VisibleFor": [
     {
-      "VisibleId": 821,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 117
         }
       }
     },
     {
-      "VisibleId": 821,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldType": "System.String",
+          "FieldLength": 117
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 717
+      "FieldLength": 612
     }
   }
 }

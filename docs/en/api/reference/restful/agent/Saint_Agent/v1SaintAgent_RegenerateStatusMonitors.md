@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Saint/RegenerateStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 730,
-  "Name": "Smitham LLC",
-  "AssociateId": 119,
-  "DetailsTable": 705,
-  "DetailsRecord": 37,
-  "IsSystemTask": false,
+  "Id": 820,
+  "Name": "Hermann-Collins",
+  "AssociateId": 794,
+  "DetailsTable": 244,
+  "DetailsRecord": 15,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "necessitatibus",
-    "ParameterObject2": "impedit"
+    "ParameterObject1": "voluptatibus",
+    "ParameterObject2": "veniam"
   },
-  "LastStarted": "2008-01-01T12:01:28.2284376+01:00",
-  "Created": "2007-06-01T12:01:28.2284376+02:00",
-  "StartCount": 458,
-  "DatabaseSerialNumber": "917537",
-  "Context": "debitis",
-  "Result": "fuga",
+  "LastStarted": "2002-07-24T14:13:41.172056+02:00",
+  "Created": "2001-01-08T14:13:41.172056+01:00",
+  "StartCount": 731,
+  "DatabaseSerialNumber": "1165673",
+  "Context": "quidem",
+  "Result": "sint",
   "State": "All",
-  "Description": "Organic discrete encryption",
-  "Response": "incidunt",
-  "Request": "delectus",
-  "ProgressDescription": "Multi-channelled solution-oriented hub",
-  "ProgressPercent": 92,
-  "FileName": "Rempel Inc and Sons",
+  "Description": "Secured hybrid portal",
+  "Response": "dolore",
+  "Request": "placeat",
+  "ProgressDescription": "Phased context-sensitive neural-net",
+  "ProgressPercent": 156,
+  "FileName": "Greenfelder, Mante and Lowe",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 597
     }
   }
 }

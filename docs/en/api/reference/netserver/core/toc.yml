@@ -19885,6 +19885,14 @@
     name: iCalendarUtility
   - uid: SuperOffice.Util.ImageUtilities
     name: ImageUtilities
+  - uid: SuperOffice.Util.ImageUtilities.FallbackStrategy
+    name: ImageUtilities.FallbackStrategy
+  - uid: SuperOffice.Util.ImageUtilities.ImageSize
+    name: ImageUtilities.ImageSize
+  - uid: SuperOffice.Util.ImageUtilities.ScaleStrategy
+    name: ImageUtilities.ScaleStrategy
+  - uid: SuperOffice.Util.ImageUtilities.VerticalAlignment
+    name: ImageUtilities.VerticalAlignment
   - uid: SuperOffice.Util.ImportDefaults
     name: ImportDefaults
   - uid: SuperOffice.Util.ITextEncodingDetector

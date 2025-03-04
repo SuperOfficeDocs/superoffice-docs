@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Raynor, Nienow and Herman",
-    "ToolTip": "Consequuntur minus quo culpa aut.",
+    "Id": 224,
+    "Name": "Leuschke-White",
+    "ToolTip": "Occaecati consequatur delectus adipisci sed aliquam pariatur officia.",
     "Deleted": false,
-    "Rank": 365,
-    "Type": "aspernatur",
-    "ColorBlock": 476,
-    "IconHint": "itaque",
-    "Selected": false,
-    "LastChanged": "2006-11-17T12:01:33.6363617+01:00",
+    "Rank": 362,
+    "Type": "quo",
+    "ColorBlock": 943,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2017-01-13T14:13:50.1812638+01:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Cormier Inc and Sons",
-        "ToolTip": "Similique ea nam autem ut quis odit.",
-        "Deleted": false,
-        "Rank": 477,
-        "Type": "et",
-        "ColorBlock": 366,
-        "IconHint": "sed",
+        "Id": 439,
+        "Name": "Erdman, Satterfield and Legros",
+        "ToolTip": "Maiores qui similique sit sed assumenda odit dolorem.",
+        "Deleted": true,
+        "Rank": 355,
+        "Type": "sit",
+        "ColorBlock": 581,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-05-27T12:01:33.6363617+02:00",
+        "LastChanged": "2006-09-03T14:13:50.1812638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "repellat",
-        "Hidden": false,
-        "FullName": "Ms. Elmo Davis"
+        "ExtraInfo": "mollitia",
+        "StyleHint": "neque",
+        "Hidden": true,
+        "FullName": "Joan Carter III"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "inventore",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Sage Batz"
+    "FullName": "Theodore Bogan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 4,
-    "Name": "Hane, Hegmann and Ryan",
-    "ToolTip": "Illo dolores modi adipisci sed laborum adipisci.",
-    "Deleted": false,
-    "Rank": 409,
-    "Type": "hic",
-    "ColorBlock": 98,
-    "IconHint": "autem",
+    "Id": 464,
+    "Name": "Lindgren-Ondricka",
+    "ToolTip": "Ut magni culpa perspiciatis quam excepturi incidunt iure.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "ad",
+    "ColorBlock": 856,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2000-01-09T12:01:33.6363617+01:00",
+    "LastChanged": "2003-02-18T14:13:50.1968854+01:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "O'Reilly LLC",
-        "ToolTip": "Modi saepe aut quidem.",
+        "Id": 763,
+        "Name": "Conn Inc and Sons",
+        "ToolTip": "Commodi rem sit.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "eum",
-        "ColorBlock": 671,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2019-03-01T12:01:33.6363617+01:00",
+        "Rank": 700,
+        "Type": "minima",
+        "ColorBlock": 615,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2014-06-10T14:13:50.1968854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Favian Ebert",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Kyler Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldType": "System.String",
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "omnis",
+    "ExtraInfo": "autem",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Louie Rollin Abshire",
+    "FullName": "Tad Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 329
       }
     }
   }

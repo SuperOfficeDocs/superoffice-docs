@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 640,
-  "StartTime": "2013-09-23T12:01:27.0095855+02:00",
-  "EndTime": "2008-01-03T12:01:27.0095855+01:00",
-  "Count": 545,
+  "ContactId": 396,
+  "StartTime": "2005-09-02T14:13:38.9693251+02:00",
+  "EndTime": "2012-09-10T14:13:38.9693251+02:00",
+  "Count": 650,
   "TaskIds": [
-    162,
-    660
+    646,
+    147
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 247,
-    "StartDate": "2012-12-31T12:01:27.0095855+01:00",
-    "EndDate": "2000-07-20T12:01:27.0095855+02:00",
+    "AppointmentId": 93,
+    "StartDate": "2020-03-24T14:13:38.9693251+01:00",
+    "EndDate": "2012-05-16T14:13:38.9693251+02:00",
     "Type": "BookingForChecklist",
-    "Task": "vero",
-    "AssociateFullName": "Mrs. Asa Murray I",
-    "ContactName": "Hoeger-Barrows",
-    "Description": "Synergized foreground moderator",
-    "PersonFullName": "Nikko Welch",
-    "PersonId": 822,
-    "ContactId": 749,
-    "ProjectId": 458,
-    "ProjectName": "Dicki, Huel and Roberts",
+    "Task": "placeat",
+    "AssociateFullName": "Lina Shane Christiansen III",
+    "ContactName": "Williamson Group",
+    "Description": "Secured 24 hour core",
+    "PersonFullName": "Kyla Braden Ortiz Jr.",
+    "PersonId": 856,
+    "ContactId": 585,
+    "ProjectId": 866,
+    "ProjectName": "Leuschke LLC",
     "IsPublished": false,
-    "AssociateId": 485,
-    "ColorIndex": 111,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "AssociateId": 300,
+    "ColorIndex": 764,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 658,
-    "PriorityName": "Pfannerstill-Schimmel",
+    "PriorityId": 46,
+    "PriorityName": "Orn Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2024-11-04T12:01:27.0095855+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2001-03-16T14:13:38.9693251+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-04-02T12:01:27.0095855+02:00",
-    "RecurringEndDate": "2017-06-08T12:01:27.0095855+02:00",
-    "MotherId": 636,
-    "AssignedBy": 182,
-    "AssignedByFullName": "Domingo Waters",
+    "RecurringStartDate": "1998-01-30T14:13:38.9693251+01:00",
+    "RecurringEndDate": "2010-08-14T14:13:38.9693251+02:00",
+    "MotherId": 702,
+    "AssignedBy": 201,
+    "AssignedByFullName": "Earlene Kshlerin",
     "RejectReason": "",
-    "Location": "aliquid",
-    "AlarmLeadTime": "sit",
-    "SaleId": 113,
-    "SaleName": "Nienow, Ritchie and Blanda",
-    "AssociateName": "Konopelski LLC",
-    "CreatedDate": "2015-07-30T12:01:27.0095855+02:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Jaycee Steuber",
-    "CreatedByAssociateId": 699,
+    "Location": "aut",
+    "AlarmLeadTime": "voluptate",
+    "SaleId": 233,
+    "SaleName": "O'Conner, Schimmel and Mraz",
+    "AssociateName": "Langosh Inc and Sons",
+    "CreatedDate": "2022-08-16T14:13:38.9693251+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Ms. Tremaine Jenkins I",
+    "CreatedByAssociateId": 887,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 178,
-    "Title": "laboriosam",
-    "Agenda": "doloremque",
-    "InternalNotes": "placeat",
+    "PreferredTZLocation": 505,
+    "Title": "dolores",
+    "Agenda": "facilis",
+    "InternalNotes": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldType": "System.String",
+        "FieldLength": 539
       }
     }
   }

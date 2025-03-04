@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 578
+  "MailItemId": 562
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 503,
-  "StartDate": "2017-01-17T12:01:27.8065326+01:00",
-  "EndDate": "2000-02-25T12:01:27.8065326+01:00",
-  "RecurrenceCounter": 554,
+  "RecurrenceId": 672,
+  "StartDate": "2023-07-25T14:13:40.2191476+02:00",
+  "EndDate": "2006-12-23T14:13:40.2191476+01:00",
+  "RecurrenceCounter": 136,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2014-10-08T12:01:27.8065326+02:00",
-      "IsConflict": true,
-      "Description": "Open-source encompassing data-warehouse",
-      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
-      "Tooltip": "facere"
+      "Date": "2000-12-14T14:13:40.2191476+01:00",
+      "IsConflict": false,
+      "Description": "Distributed attitude-oriented monitoring",
+      "DescriptionStyleHint": "Upgradable human-resource open system",
+      "Tooltip": "molestiae"
     },
     {
-      "Date": "2014-10-08T12:01:27.8065326+02:00",
-      "IsConflict": true,
-      "Description": "Open-source encompassing data-warehouse",
-      "DescriptionStyleHint": "Adaptive maximized data-warehouse",
-      "Tooltip": "facere"
+      "Date": "2000-12-14T14:13:40.2191476+01:00",
+      "IsConflict": false,
+      "Description": "Distributed attitude-oriented monitoring",
+      "DescriptionStyleHint": "Upgradable human-resource open system",
+      "Tooltip": "molestiae"
     }
   ],
   "IsRecurrence": false

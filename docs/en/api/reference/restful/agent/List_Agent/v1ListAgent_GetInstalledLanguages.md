@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 294,
-    "LCID": 413,
-    "EnglishName": "Hermann LLC",
-    "NativeName": "Witting Inc and Sons",
-    "ThreeLetterISOLanguageName": "Wolff Group",
-    "TwoLetterISOLanguageName": "Schmitt Group",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 400,
+    "LCID": 732,
+    "EnglishName": "Kemmer-Carroll",
+    "NativeName": "Paucek, Lubowitz and Douglas",
+    "ThreeLetterISOLanguageName": "Smitham Group",
+    "TwoLetterISOLanguageName": "Bahringer Group",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldLength": 729
       }
     }
   }

@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "McKenzie, Satterfield and Kessler",
-  "SaleDate": "2014-05-24T12:01:33.1832049+02:00",
-  "SaleId": 305,
-  "Probability": 25,
-  "Title": "harum",
-  "Amount": 20317.721999999998,
-  "Currency": "perferendis",
-  "ProjectName": "Lowe, Witting and Nitzsche",
-  "AssociateFullName": "Delmer Emmerich",
-  "Description": "Decentralized next generation groupware",
+  "ContactName": "Dooley Group",
+  "SaleDate": "2023-02-04T14:13:49.2118561+01:00",
+  "SaleId": 820,
+  "Probability": 598,
+  "Title": "voluptatibus",
+  "Amount": 29964.174,
+  "Currency": "voluptatem",
+  "ProjectName": "Ryan, Terry and Rowe",
+  "AssociateFullName": "Triston Jast",
+  "Description": "Optional 24/7 collaboration",
   "Status": "Lost",
-  "WeightedAmount": 27945.878,
-  "ProjectId": 768,
-  "EarningPercent": 10332.797999999999,
-  "Earning": 28365.834,
-  "ContactId": 387,
-  "AssociateId": 876,
-  "PersonId": 834,
-  "SaleTypeId": 30,
-  "SaleTypeName": "Padberg, Jewess and Spinka",
-  "PersonFullName": "Ara Tremblay",
+  "WeightedAmount": 13125.192,
+  "ProjectId": 568,
+  "EarningPercent": 29600.629999999997,
+  "Earning": 30857.363999999998,
+  "ContactId": 334,
+  "AssociateId": 921,
+  "PersonId": 157,
+  "SaleTypeId": 670,
+  "SaleTypeName": "Wiza-Moore",
+  "PersonFullName": "Carroll Harvey",
   "Completed": "Completed",
-  "ActiveErpLinks": 423,
-  "NextDueDate": "2000-11-29T12:01:33.1832049+01:00",
-  "Number": "1255320",
+  "ActiveErpLinks": 587,
+  "NextDueDate": "2002-04-08T14:13:49.2118561+02:00",
+  "Number": "1095666",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldLength": 587
     }
   }
 }

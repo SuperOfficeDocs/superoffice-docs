@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 982,
-      "FieldName": "Wiza, Bayer and Jenkins",
-      "Label": "et",
-      "Tooltip": "quasi",
+      "QuoteLineConfigurationId": 656,
+      "FieldName": "Shanahan, Schneider and Aufderhar",
+      "Label": "non",
+      "Tooltip": "modi",
       "Editable": true,
-      "InUse": true,
+      "InUse": false,
       "Mandatory": true,
-      "Rank": 427,
+      "Rank": 4,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 129,
-    "FieldName": "Fisher Group",
-    "Label": "aut",
-    "Tooltip": "voluptatibus",
+    "QuoteLineConfigurationId": 380,
+    "FieldName": "Bogisich Group",
+    "Label": "recusandae",
+    "Tooltip": "sed",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 587,
+    "Rank": 878,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 415
       }
     }
   }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 640,
-    "Value": "voluptas",
-    "Tooltip": "neque",
+    "Id": 571,
+    "Value": "ut",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 230
       }
     }
   },
   {
-    "Id": 640,
-    "Value": "voluptas",
-    "Tooltip": "neque",
+    "Id": 571,
+    "Value": "ut",
+    "Tooltip": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 230
       }
     }
   }

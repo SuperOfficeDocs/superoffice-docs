@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 399
+  "PersonId": 413
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 937,
-    "Name": "Goodwin, Hayes and Mayer",
-    "Description": "Polarised value-added orchestration",
+    "ProjectId": 822,
+    "Name": "Willms Group",
+    "Description": "Grass-roots 24 hour complexity",
     "URL": "http://www.example.com/",
-    "Type": "consequatur",
-    "AssociateId": 848,
-    "AssociateFullName": "Will Ledner",
-    "TypeId": 573,
-    "Updated": "2006-07-15T12:01:28.1659327+02:00",
-    "StatusId": 356,
-    "Status": "tempora",
-    "TextId": 1002,
-    "PublishTo": "2013-10-19T12:01:28.1659327+02:00",
-    "PublishFrom": "2007-10-22T12:01:28.1659327+02:00",
-    "IsPublished": true,
+    "Type": "ad",
+    "AssociateId": 384,
+    "AssociateFullName": "Prof. Christop Jacobson",
+    "TypeId": 371,
+    "Updated": "2009-08-24T14:13:41.047084+02:00",
+    "StatusId": 972,
+    "Status": "aut",
+    "TextId": 527,
+    "PublishTo": "2016-10-19T14:13:41.047084+02:00",
+    "PublishFrom": "2023-09-23T14:13:41.047084+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "617531",
-    "ActiveErpLinks": 279,
+    "ProjectNumber": "1398135",
+    "ActiveErpLinks": 181,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldType": "System.String",
+        "FieldLength": 553
       }
     }
   }

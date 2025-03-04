@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 126,
-    "Name": "Rowe, Luettgen and Feest",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 601,
-    "UdListDefinitionId": 37,
+    "HeadingId": 8,
+    "Name": "Torp Group",
+    "Tooltip": "dolor",
+    "Deleted": false,
+    "Rank": 236,
+    "UdListDefinitionId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 145
+        "FieldLength": 303
       }
     }
   }

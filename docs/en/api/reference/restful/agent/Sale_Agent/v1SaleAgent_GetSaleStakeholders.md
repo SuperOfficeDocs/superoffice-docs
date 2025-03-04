@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 330
+  "SaleId": 221
 }
 ```
 
@@ -107,31 +107,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Schmidt, Windler and O'Connell",
-    "Comment": "mollitia",
-    "StakeholderRoleId": 53,
-    "CountryId": 349,
-    "PersonId": 780,
-    "EmailDescription": "laila@pourossatterfield.com",
-    "EmailId": 31,
-    "EmailAddress": "miracle.hagenes@towne.uk",
-    "PhoneId": 876,
-    "ContactName": "Yost, Stehr and Bednar",
-    "ContactId": 522,
-    "SaleId": 727,
-    "Mrmrs": "error",
-    "Firstname": "Myrna",
-    "MiddleName": "Cole, Schumm and Kemmer",
-    "Lastname": "Borer",
-    "SaleStakeholderId": 364,
-    "Rank": 926,
-    "Phone": "314-023-6383 x28471",
+    "StakeholderRoleName": "Crona LLC",
+    "Comment": "est",
+    "StakeholderRoleId": 390,
+    "CountryId": 554,
+    "PersonId": 878,
+    "EmailDescription": "elroy@gloverhartmann.co.uk",
+    "EmailId": 835,
+    "EmailAddress": "jamarcus_hegmann@flatley.uk",
+    "PhoneId": 183,
+    "ContactName": "Hickle Group",
+    "ContactId": 582,
+    "SaleId": 518,
+    "Mrmrs": "repudiandae",
+    "Firstname": "Diamond",
+    "MiddleName": "Collins-Larson",
+    "Lastname": "Kovacek",
+    "SaleStakeholderId": 137,
+    "Rank": 166,
+    "Phone": "473-870-5206",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 662
       }
     }
   }

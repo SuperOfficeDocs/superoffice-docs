@@ -71,12 +71,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brakus-Ledner",
+  "TableName": "West, Waters and Breitenberg",
   "RecordIds": [
-    828,
-    260
+    683,
+    604
   ],
-  "AssociateId": 343,
+  "AssociateId": 100,
   "ExtraInfo": "non"
 }
 ```

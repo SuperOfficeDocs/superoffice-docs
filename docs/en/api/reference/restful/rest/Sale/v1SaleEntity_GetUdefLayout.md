@@ -90,7 +90,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 660,
-    "ColumnId": 197,
-    "FieldDefault": "laudantium",
-    "FieldHeight": 279,
-    "FieldLabel": "corrupti",
-    "FieldLeft": 498,
-    "FieldTop": 713,
+    "UDefFieldId": 817,
+    "ColumnId": 804,
+    "FieldDefault": "deserunt",
+    "FieldHeight": 702,
+    "FieldLabel": "sint",
+    "FieldLeft": 39,
+    "FieldTop": 561,
     "FieldType": "Checkbox",
-    "FieldWidth": 805,
-    "FormatMask": "sed",
+    "FieldWidth": 831,
+    "FormatMask": "culpa",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 501,
-    "LabelLeft": 330,
-    "LabelTop": 218,
-    "LabelWidth": 167,
-    "LastVersionId": 83,
-    "ListTableId": 760,
+    "LabelHeight": 435,
+    "LabelLeft": 939,
+    "LabelTop": 753,
+    "LabelWidth": 348,
+    "LastVersionId": 674,
+    "ListTableId": 972,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 358,
-    "ProgId": "consectetur",
+    "Page1LineNo": 287,
+    "ProgId": "reiciendis",
     "IsReadOnly": false,
-    "ShortLabel": "cupiditate",
-    "TabOrder": 146,
-    "TextLength": 64,
-    "Tooltip": "suscipit",
-    "UdefIdentity": 670,
-    "UDListDefinitionId": 234,
+    "ShortLabel": "sed",
+    "TabOrder": 727,
+    "TextLength": 860,
+    "Tooltip": "fugit",
+    "UdefIdentity": 337,
+    "UDListDefinitionId": 642,
     "Justification": "Center",
-    "Version": 946,
-    "TemplateVariableName": "Pfannerstill, Predovic and Hyatt",
+    "Version": 4,
+    "TemplateVariableName": "Stracke-Nader",
     "HasBeenPublished": false,
-    "MdoListName": "Beier-Gottlieb",
+    "MdoListName": "Mayert Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 440
+        "FieldLength": 973
       }
     }
   }

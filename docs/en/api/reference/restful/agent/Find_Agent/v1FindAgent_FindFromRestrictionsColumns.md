@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Green-Schulist",
-      "Operator": "distinctio",
+      "Name": "Shields, Bauch and Leuschke",
+      "Operator": "eos",
       "Values": [
-        "nemo",
-        "omnis"
+        "asperiores",
+        "aperiam"
       ],
       "DisplayValues": [
-        "corrupti",
-        "dolor"
+        "quasi",
+        "aspernatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 505,
+      "InterParenthesis": 72,
       "InterOperator": "And",
-      "UniqueHash": 225
+      "UniqueHash": 631
     }
   ],
-  "ProviderName": "Dickinson Group",
+  "ProviderName": "Daugherty, Tillman and Hayes",
   "DesiredColumns": [
-    "sed",
-    "possimus"
+    "adipisci",
+    "perspiciatis"
   ],
-  "PageSize": 461,
-  "PageNumber": 709
+  "PageSize": 728,
+  "PageNumber": 385
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "White-Veum",
-      "DisplayTooltip": "ut",
-      "DisplayType": "voluptas",
-      "CanOrderBy": false,
-      "Name": "Predovic, Grimes and Goodwin",
+      "DisplayName": "Bergstrom, Robel and Abbott",
+      "DisplayTooltip": "optio",
+      "DisplayType": "veniam",
+      "CanOrderBy": true,
+      "Name": "White, Zboncak and Witting",
       "CanRestrictBy": false,
-      "RestrictionType": "doloribus",
-      "RestrictionListName": "Zemlak LLC",
+      "RestrictionType": "quod",
+      "RestrictionListName": "Langosh, Hilll and Dare",
       "IsVisible": true,
-      "ExtraInfo": "natus",
-      "Width": "eius",
-      "IconHint": "impedit",
-      "HeadingIconHint": "dicta"
+      "ExtraInfo": "dicta",
+      "Width": "quia",
+      "IconHint": "ipsam",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Lynch, Fadel and Gottlieb",
-      "PrimaryKey": 210,
+      "EntityName": "Nicolas-Hyatt",
+      "PrimaryKey": 393,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nostrum",
-          "TooltipHint": "temporibus",
-          "LinkHint": "numquam"
+          "DisplayValue": "vel",
+          "TooltipHint": "vitae",
+          "LinkHint": "earum"
         }
       },
-      "LinkHint": "quos",
-      "StyleHint": "quo",
+      "LinkHint": "aut",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 521
         }
       }
     }
   ],
-  "RowCount": 870,
+  "RowCount": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 401
     }
   }
 }

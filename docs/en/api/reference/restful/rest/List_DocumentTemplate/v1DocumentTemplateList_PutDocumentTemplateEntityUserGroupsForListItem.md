@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "O'Reilly LLC",
-    "ToolTip": "Rerum cupiditate aut ea impedit.",
+    "Id": 38,
+    "Name": "Willms-Balistreri",
+    "ToolTip": "Animi quam ullam at et labore qui architecto.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "enim",
-    "ColorBlock": 986,
-    "IconHint": "adipisci",
-    "Selected": false,
-    "LastChanged": "2018-03-02T12:01:33.511353+01:00",
+    "Rank": 155,
+    "Type": "reiciendis",
+    "ColorBlock": 180,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2020-10-22T14:13:49.9625606+02:00",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Brakus, Baumbach and Hermann",
-        "ToolTip": "Aut ut odio iste in molestiae qui.",
-        "Deleted": false,
-        "Rank": 801,
-        "Type": "eum",
-        "ColorBlock": 84,
-        "IconHint": "vel",
+        "Id": 667,
+        "Name": "Graham Inc and Sons",
+        "ToolTip": "Illo omnis dignissimos placeat dignissimos mollitia.",
+        "Deleted": true,
+        "Rank": 249,
+        "Type": "maxime",
+        "ColorBlock": 361,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2000-06-19T12:01:33.511353+02:00",
+        "LastChanged": "2004-03-21T14:13:49.9625606+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "tempora",
+        "ExtraInfo": "rerum",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Sandrine Nitzsche"
+        "FullName": "Albina Lehner"
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "et",
+    "ExtraInfo": "modi",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Prof. Virginie Stracke"
+    "FullName": "Dr. Jayde Stanton Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Olson-Willms",
-    "ToolTip": "Sint reprehenderit dolore.",
+    "Id": 959,
+    "Name": "Mayer, Breitenberg and Wuckert",
+    "ToolTip": "Sit impedit.",
     "Deleted": true,
-    "Rank": 961,
-    "Type": "incidunt",
-    "ColorBlock": 254,
-    "IconHint": "nam",
-    "Selected": false,
-    "LastChanged": "2014-03-15T12:01:33.511353+01:00",
+    "Rank": 252,
+    "Type": "unde",
+    "ColorBlock": 272,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2001-05-15T14:13:49.9781847+02:00",
     "ChildItems": [
       {
         "Id": 616,
-        "Name": "Konopelski-Lemke",
-        "ToolTip": "Consequatur perspiciatis sunt veniam.",
+        "Name": "Kerluke-West",
+        "ToolTip": "Modi sapiente nobis sed voluptate veritatis qui.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "quod",
-        "ColorBlock": 709,
-        "IconHint": "voluptatem",
+        "Rank": 290,
+        "Type": "dignissimos",
+        "ColorBlock": 262,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2020-02-20T12:01:33.511353+01:00",
+        "LastChanged": "2010-09-30T14:13:49.9781847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "nam",
+        "ExtraInfo": "fugit",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Nathaniel Ortiz",
+        "FullName": "Jordyn Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 813
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "soluta",
+    "ExtraInfo": "est",
+    "StyleHint": "mollitia",
     "Hidden": false,
-    "FullName": "Rosetta Gorczany Jr.",
+    "FullName": "Jan Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 731
       }
     }
   }

@@ -111,7 +111,7 @@ This is the archive Provider for the Product Archive is SoAdmin.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/credentialDisplayValue,document/yourref,document/documentPublish/publishedBy
+GET /api/v1/archive/SaleTypeQuoteAttachment?$select=document/associate/credentialType,document/documentUdef/SuperOffice:2,document/yourref
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

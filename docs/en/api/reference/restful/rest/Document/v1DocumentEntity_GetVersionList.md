@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ut",
-    "DocumentId": 199,
-    "VersionId": "eligendi",
-    "CheckedInDate": "1998-02-24T12:01:32.9019357+01:00",
-    "CheckedInByName": "Shanahan-Pouros",
-    "CheckedInByAssociateId": 977,
-    "Description": "Cross-platform demand-driven circuit",
-    "DisplayText": "vel",
+    "ExternalReference": "ea",
+    "DocumentId": 16,
+    "VersionId": "est",
+    "CheckedInDate": "2009-04-06T14:13:48.852456+02:00",
+    "CheckedInByName": "Howell-Harber",
+    "CheckedInByAssociateId": 420,
+    "Description": "Seamless tertiary process improvement",
+    "DisplayText": "repellendus",
     "ExtraFields": [
-      "voluptas",
-      "molestiae"
+      "labore",
+      "ipsa"
     ]
   }
 ]

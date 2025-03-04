@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 804,
+    "TargetDimensionId": 746,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "dolor",
-    "DimensionListName": "Frami Group",
-    "DimensionListId": 185,
-    "DimensionListLabel": "qui",
+    "DimensionListField": "iusto",
+    "DimensionListName": "Turner, Schowalter and Jast",
+    "DimensionListId": 948,
+    "DimensionListLabel": "magnam",
     "SelectedDimensions": [
-      700,
-      858
+      953,
+      544
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 975
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

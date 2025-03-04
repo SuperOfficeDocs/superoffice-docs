@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 340,
-  "TargetDimensionId": 324
+  "UserGroupId": 417,
+  "TargetDimensionId": 656
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 843,
+    "TargetAssignmentInfoId": 242,
     "Values": [
-      819,
-      189
+      189,
+      592
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 810,
-    "DimensionListItemDisplayName": "Turcotte-Hoppe",
+    "DimensionListItem": 395,
+    "DimensionListItemDisplayName": "Cremin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "earum",
-  "ProviderName": "Hagenes Group",
-  "StorageKey": "pariatur",
-  "Restrictions": "nisi",
-  "StaticColumns": "ut"
+  "StorageType": "asperiores",
+  "ProviderName": "Rodriguez LLC",
+  "StorageKey": "enim",
+  "Restrictions": "aperiam",
+  "StaticColumns": "quia"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Lesch, Heidenreich and Dietrich",
-      "Operator": "corporis",
+      "Name": "Anderson Group",
+      "Operator": "autem",
       "Values": [
-        "placeat",
-        "eos"
+        "at",
+        "sed"
       ],
       "DisplayValues": [
-        "officiis",
-        "quae"
+        "minima",
+        "eligendi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 431,
+      "InterParenthesis": 644,
       "InterOperator": "And",
-      "UniqueHash": 545
+      "UniqueHash": 193
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "West-Marvin",
-      "DisplayTooltip": "harum",
-      "DisplayType": "voluptas",
+      "DisplayName": "Skiles-Rath",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "ducimus",
       "CanOrderBy": false,
-      "Name": "Eichmann, Reichel and Padberg",
-      "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Prohaska-Friesen",
-      "IsVisible": true,
+      "Name": "Ankunding-Grady",
+      "CanRestrictBy": true,
+      "RestrictionType": "vitae",
+      "RestrictionListName": "Greenfelder LLC",
+      "IsVisible": false,
       "ExtraInfo": "est",
-      "Width": "odio",
-      "IconHint": "deserunt",
-      "HeadingIconHint": "voluptas"
+      "Width": "deserunt",
+      "IconHint": "qui",
+      "HeadingIconHint": "velit"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Stokes, Douglas and Kozey",
-      "PrimaryKey": 710,
+      "EntityName": "Zboncak-Pagac",
+      "PrimaryKey": 370,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "dolore",
-          "LinkHint": "ad"
+          "DisplayValue": "non",
+          "TooltipHint": "eveniet",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "eveniet",
-      "StyleHint": "fugiat",
+      "LinkHint": "ut",
+      "StyleHint": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldLength": 163
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Wisozk-Eichmann",
-      "Description": "Pre-emptive optimal interface",
-      "Rank": 670,
+      "Name": "Pagac Group",
+      "Description": "User-friendly interactive project",
+      "Rank": 799,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Wisozk-Eichmann",
-      "Description": "Pre-emptive optimal interface",
-      "Rank": 670,
+      "Name": "Pagac Group",
+      "Description": "User-friendly interactive project",
+      "Rank": 799,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 685
+      "FieldLength": 772
     }
   }
 }

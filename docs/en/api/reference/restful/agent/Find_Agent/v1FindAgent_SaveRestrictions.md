@@ -71,30 +71,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Macejkovic Group",
-  "StorageKey": "voluptatem",
+  "StorageType": "et",
+  "ProviderName": "Blanda Inc and Sons",
+  "StorageKey": "blanditiis",
   "Restrictions": [
     {
-      "Name": "Cremin Group",
-      "Operator": "incidunt",
+      "Name": "Rath Inc and Sons",
+      "Operator": "nihil",
       "Values": [
-        "reprehenderit",
-        "blanditiis"
+        "cupiditate",
+        "dolores"
       ],
       "DisplayValues": [
-        "sed",
-        "dolorem"
+        "et",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 864,
+      "InterParenthesis": 912,
       "InterOperator": "And",
-      "UniqueHash": 259
+      "UniqueHash": 495
     }
   ]
 }

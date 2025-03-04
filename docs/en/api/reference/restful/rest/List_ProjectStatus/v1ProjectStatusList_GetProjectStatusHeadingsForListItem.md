@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Mann LLC",
-    "ToolTip": "Sint magnam distinctio.",
-    "Deleted": true,
-    "Rank": 862,
-    "Type": "minus",
-    "ColorBlock": 176,
-    "IconHint": "ea",
+    "Id": 461,
+    "Name": "Toy Inc and Sons",
+    "ToolTip": "Amet in excepturi ut.",
+    "Deleted": false,
+    "Rank": 162,
+    "Type": "et",
+    "ColorBlock": 19,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2023-02-17T12:01:33.5894836+01:00",
+    "LastChanged": "2024-08-10T14:13:50.1187745+02:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Hartmann, Lynch and Nolan",
-        "ToolTip": "Vel autem deleniti rerum voluptatum.",
+        "Id": 77,
+        "Name": "Corwin, Gleichner and Johnson",
+        "ToolTip": "Beatae velit.",
         "Deleted": false,
-        "Rank": 928,
-        "Type": "quibusdam",
-        "ColorBlock": 27,
-        "IconHint": "quis",
-        "Selected": true,
-        "LastChanged": "2003-10-12T12:01:33.5894836+02:00",
+        "Rank": 345,
+        "Type": "saepe",
+        "ColorBlock": 703,
+        "IconHint": "vero",
+        "Selected": false,
+        "LastChanged": "2021-08-19T14:13:50.1187745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptate",
-        "StyleHint": "aut",
+        "ExtraInfo": "eaque",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Lucious Larson",
+        "FullName": "Woodrow Kathlyn Langosh DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Milan VonRueden",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Dr. Renee River Rutherford Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 839
+        "FieldType": "System.Int32",
+        "FieldLength": 328
       }
     }
   }

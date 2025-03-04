@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 458,
-  "Name": "Gleason Group",
-  "Tooltip": "ex",
+  "Id": 211,
+  "Name": "Koss-Keebler",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "UdListDefinitionId": 685,
-  "Rank": 238
+  "UdListDefinitionId": 657,
+  "Rank": 336
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 134,
-  "Name": "Walsh-Swaniawski",
-  "Tooltip": "quasi",
-  "Deleted": true,
-  "UdListDefinitionId": 340,
-  "Rank": 814,
+  "Id": 449,
+  "Name": "O'Reilly, Schamberger and Toy",
+  "Tooltip": "recusandae",
+  "Deleted": false,
+  "UdListDefinitionId": 876,
+  "Rank": 129,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

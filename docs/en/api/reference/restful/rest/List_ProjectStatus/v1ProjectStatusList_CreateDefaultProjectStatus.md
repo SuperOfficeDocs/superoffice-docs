@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Weissnat Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "UdListDefinitionId": 482,
-  "Rank": 528,
+  "Id": 299,
+  "Name": "Wiza LLC",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "UdListDefinitionId": 296,
+  "Rank": 102,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 904
     }
   }
 }

@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 934,
-  "StartDate": "2022-01-15T12:01:27.2127411+01:00",
-  "EndDate": "2015-09-22T12:01:27.2127411+02:00",
-  "RecurrenceCounter": 128,
+  "RecurrenceId": 405,
+  "StartDate": "2021-09-27T14:13:39.1411603+02:00",
+  "EndDate": "2013-08-17T14:13:39.1411603+02:00",
+  "RecurrenceCounter": 331,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "Date": "2004-10-17T14:13:39.1411603+02:00",
       "IsConflict": false,
-      "Description": "Visionary radical benchmark",
-      "DescriptionStyleHint": "Face to face secondary standardization",
-      "Tooltip": "et"
+      "Description": "Synchronised dynamic archive",
+      "DescriptionStyleHint": "Monitored global workforce",
+      "Tooltip": "veritatis"
     },
     {
-      "Date": "1998-07-30T12:01:27.2127411+02:00",
+      "Date": "2004-10-17T14:13:39.1411603+02:00",
       "IsConflict": false,
-      "Description": "Visionary radical benchmark",
-      "DescriptionStyleHint": "Face to face secondary standardization",
-      "Tooltip": "et"
+      "Description": "Synchronised dynamic archive",
+      "DescriptionStyleHint": "Monitored global workforce",
+      "Tooltip": "veritatis"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

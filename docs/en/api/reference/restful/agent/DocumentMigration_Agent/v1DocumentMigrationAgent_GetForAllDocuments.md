@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 153,
+  "DocumentPluginId": 379,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 623,
-  "NumDocumentsAlreadyMigrated": 193,
+  "NumDocumentsOmitted": 301,
+  "NumDocumentsAlreadyMigrated": 599,
   "Documents": [
     {
-      "DocumentId": 284,
-      "ContactId": 549,
-      "PersonId": 360,
-      "SaleId": 183,
-      "ProjectId": 278,
-      "DocTmplId": 364,
-      "AssociateId": 61,
-      "UserGroupId": 138,
-      "VisibleForId": 682
+      "DocumentId": 140,
+      "ContactId": 346,
+      "PersonId": 711,
+      "SaleId": 121,
+      "ProjectId": 320,
+      "DocTmplId": 534,
+      "AssociateId": 833,
+      "UserGroupId": 327,
+      "VisibleForId": 495
     }
   ],
   "Associates": [
     {
-      "AssociateId": 527,
-      "EmailAddress": "malinda.stokes@heidenreich.com"
+      "AssociateId": 226,
+      "EmailAddress": "jose@hillsfeeney.biz"
     },
     {
-      "AssociateId": 527,
-      "EmailAddress": "malinda.stokes@heidenreich.com"
+      "AssociateId": 226,
+      "EmailAddress": "jose@hillsfeeney.biz"
     }
   ]
 }

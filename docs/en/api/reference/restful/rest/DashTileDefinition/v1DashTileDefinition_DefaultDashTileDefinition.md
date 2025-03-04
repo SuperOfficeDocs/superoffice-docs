@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 208,
-  "Name": "McCullough Group",
-  "Description": "Right-sized object-oriented circuit",
-  "DefaultHeight": 653,
-  "DefaultWidth": 686,
+  "DashboardTileDefinitionId": 96,
+  "Name": "Greenholt LLC",
+  "Description": "Optional neutral hierarchy",
+  "DefaultHeight": 628,
+  "DefaultWidth": 956,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Douglas-O'Conner",
-  "SelectionId": 11,
+  "EntityName": "Boehm LLC",
+  "SelectionId": 755,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "ad",
   "Measure": "Average",
-  "MeasureField": "amet",
-  "SortBy": "odio",
-  "LayoutConfig": "quis",
-  "SecondarySelectionId": 431,
-  "MeasureByField": "expedita",
+  "MeasureField": "porro",
+  "SortBy": "qui",
+  "LayoutConfig": "tempore",
+  "SecondarySelectionId": 339,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Gutmann-Satterfield",
+  "ProviderName": "Torp LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 303
     }
   }
 }

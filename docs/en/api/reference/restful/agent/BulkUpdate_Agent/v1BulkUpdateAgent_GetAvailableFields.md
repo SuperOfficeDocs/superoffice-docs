@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "contact"
+  "Tablename": "project"
 }
 ```
 
@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "similique",
-    "ValueType": "id",
+    "Key": "aperiam",
+    "ValueType": "molestiae",
     "Mandatory": false,
-    "EncodedDisplayName": "Hickle-Stanton",
-    "EncodedDisplayDescription": "Progressive full-range functionalities",
-    "IconHint": "quas",
+    "EncodedDisplayName": "Jacobson LLC",
+    "EncodedDisplayDescription": "Realigned discrete capacity",
+    "IconHint": "magnam",
     "ControlInfos": [
       {
-        "Type": "ut",
-        "Label": "dicta",
-        "Dimension": 982,
-        "ListProviderName": "Lehner, Windler and Jenkins",
-        "ListProviderExtraInfo": "sapiente",
-        "ListProviderPrimaryKeyName": "Greenfelder LLC",
-        "ListLeadText": "omnis",
+        "Type": "error",
+        "Label": "aut",
+        "Dimension": 241,
+        "ListProviderName": "Nicolas, Greenfelder and McGlynn",
+        "ListProviderExtraInfo": "aut",
+        "ListProviderPrimaryKeyName": "Miller LLC",
+        "ListLeadText": "ratione",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 53
           }
         }
       }
     ],
-    "EncodedDataCaption": "asperiores",
-    "EncodedDataCaptionDescription": "Managed local artificial intelligence",
-    "CurrentOperationType": "quia",
+    "EncodedDataCaption": "est",
+    "EncodedDataCaptionDescription": "Focused optimal conglomeration",
+    "CurrentOperationType": "cumque",
     "Values": [
-      "non",
-      "tenetur"
+      "aut",
+      "repellat"
     ],
     "DisplayValues": [
-      "eum",
-      "maxime"
+      "autem",
+      "provident"
     ],
     "OperationInfos": [
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
+        "Key": "est",
+        "EncodedDisplayName": "Gaylord, Olson and Lakin",
         "EncodedLeadTexts": [
-          "sit",
-          "dignissimos"
+          "ad",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldLength": 1001
           }
         }
       },
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Kohler, Stoltenberg and Franecki",
+        "Key": "est",
+        "EncodedDisplayName": "Gaylord, Olson and Lakin",
         "EncodedLeadTexts": [
-          "sit",
-          "dignissimos"
+          "ad",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 114
+            "FieldLength": 1001
           }
         }
       }

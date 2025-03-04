@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 740,
-  "DocumentId": 155,
+  "SelectionId": 482,
+  "DocumentId": 766,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "dolorem",
+  "CustomAttention": "hic",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "et",
+  "CustomMailBody": "iste",
   "TaskEntity": null,
-  "AddCompanyInterest": 490,
-  "AddPersonInterest": 688,
-  "RemoveCompanyInterest": 267,
-  "RemovePersonInterest": 447,
+  "AddCompanyInterest": 732,
+  "AddPersonInterest": 183,
+  "RemoveCompanyInterest": 249,
+  "RemovePersonInterest": 226,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 387,
-  "IncludeRetiredRecipients": false,
-  "IncludeStoppedRecipients": true,
-  "CustomMailSubject": "dolores",
-  "ExtraInfo": "quis",
+  "ProjectId": 756,
+  "IncludeRetiredRecipients": true,
+  "IncludeStoppedRecipients": false,
+  "CustomMailSubject": "est",
+  "ExtraInfo": "vel",
   "Synchronous": false,
   "IsTemporarySelection": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 350
+      "FieldType": "System.Int32",
+      "FieldLength": 146
     }
   }
 }

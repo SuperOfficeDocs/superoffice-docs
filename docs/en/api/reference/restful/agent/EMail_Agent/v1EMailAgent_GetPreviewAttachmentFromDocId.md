@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 790,
-  "AttachmentId": "aut"
+  "DocId": 343,
+  "AttachmentId": "magni"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered 24 hour migration",
-  "Filename": "rerum",
-  "Size": 108,
-  "Type": "repudiandae",
-  "Encoding": "animi",
-  "Id": "perspiciatis",
-  "Disposition": "architecto",
-  "IsSafeFileExtension": true,
+  "Description": "Vision-oriented demand-driven capacity",
+  "Filename": "temporibus",
+  "Size": 509,
+  "Type": "quis",
+  "Encoding": "numquam",
+  "Id": "nostrum",
+  "Disposition": "nemo",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

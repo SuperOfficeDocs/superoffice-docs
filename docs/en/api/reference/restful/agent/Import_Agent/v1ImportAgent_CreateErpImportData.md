@@ -83,32 +83,32 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Lang, Bradtke and Thiel",
-      "Operator": "voluptatibus",
+      "Name": "Jacobs-Satterfield",
+      "Operator": "corrupti",
       "Values": [
-        "doloribus",
-        "repellat"
+        "eveniet",
+        "beatae"
       ],
       "DisplayValues": [
-        "impedit",
-        "quas"
+        "qui",
+        "praesentium"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 813,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 729
+      "UniqueHash": 526
     }
   ],
   "Columns": [
-    "asperiores",
-    "assumenda"
+    "et",
+    "nostrum"
   ],
-  "ConnectionId": 327,
+  "ConnectionId": 176,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "ullam",
-        "sint"
+        "qui",
+        "et"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "ea",
+      "ExternalKey": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldType": "System.Int32",
+          "FieldLength": 352
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Murphy, Nicolas and Waters",
-      "DisplayName": "Gerhold-Littel",
+      "Name": "Abernathy, Kerluke and Torp",
+      "DisplayName": "Kris LLC",
       "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldType": "System.String",
+          "FieldLength": 673
         }
       }
     },
     {
-      "Name": "Murphy, Nicolas and Waters",
-      "DisplayName": "Gerhold-Littel",
+      "Name": "Abernathy, Kerluke and Torp",
+      "DisplayName": "Kris LLC",
       "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 194
+          "FieldType": "System.String",
+          "FieldLength": 673
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldLength": 70
     }
   }
 }

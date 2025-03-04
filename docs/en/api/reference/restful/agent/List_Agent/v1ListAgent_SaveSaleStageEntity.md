@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveSaleStageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 687,
-  "Value": "laboriosam",
-  "Tooltip": "qui",
-  "Probability": 917,
+  "SaleStageId": 799,
+  "Value": "molestiae",
+  "Tooltip": "sit",
+  "Probability": 889,
   "Deleted": true,
-  "Rank": 903
+  "Rank": 680
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 61,
-  "Value": "provident",
-  "Tooltip": "unde",
-  "Probability": 115,
-  "Deleted": false,
-  "Rank": 531,
+  "SaleStageId": 115,
+  "Value": "fuga",
+  "Tooltip": "nihil",
+  "Probability": 1000,
+  "Deleted": true,
+  "Rank": 478,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 865
     }
   }
 }

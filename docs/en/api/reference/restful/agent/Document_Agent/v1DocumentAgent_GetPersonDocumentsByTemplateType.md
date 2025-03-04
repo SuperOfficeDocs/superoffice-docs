@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 261,
+  "PersonId": 521,
   "IncludeProjectDocuments": false,
-  "StartTime": "2019-01-10T12:01:27.5877684+01:00",
-  "EndTime": "2018-10-25T12:01:27.5877684+02:00",
-  "Count": 886,
-  "DocumentTemplateId": 855
+  "StartTime": "2024-10-31T14:13:40.0160685+01:00",
+  "EndTime": "2008-07-29T14:13:40.0160685+02:00",
+  "Count": 50,
+  "DocumentTemplateId": 827
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 148,
-    "Attention": "illum",
-    "Header": "mollitia",
-    "Name": "Cassin-Rolfson",
-    "OurRef": "eaque",
-    "YourRef": "quibusdam",
-    "Description": "Reactive transitional encoding",
-    "DocumentTemplate": "quam",
-    "IsPublished": true,
-    "PersonId": 274,
-    "PersonFullName": "Rhett Turcotte",
-    "AssociateFullName": "Prof. Else Teagan Jones",
-    "ContactId": 862,
-    "ContactName": "Lesch LLC",
-    "ProjectId": 493,
-    "ProjectName": "McLaughlin Inc and Sons",
-    "AssociateId": 556,
-    "Snum": 858,
-    "SaleId": 177,
-    "SaleName": "Rosenbaum-Romaguera",
+    "DocumentId": 585,
+    "Attention": "nihil",
+    "Header": "et",
+    "Name": "Casper, Ruecker and Pollich",
+    "OurRef": "ad",
+    "YourRef": "est",
+    "Description": "Sharable logistical moderator",
+    "DocumentTemplate": "porro",
+    "IsPublished": false,
+    "PersonId": 824,
+    "PersonFullName": "Major Gerlach",
+    "AssociateFullName": "Dr. Osbaldo Schulist",
+    "ContactId": 489,
+    "ContactName": "Rempel Inc and Sons",
+    "ProjectId": 550,
+    "ProjectName": "Fay, Lowe and Swaniawski",
+    "AssociateId": 847,
+    "Snum": 399,
+    "SaleId": 498,
+    "SaleName": "Grimes-Hegmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 397
       }
     }
   }

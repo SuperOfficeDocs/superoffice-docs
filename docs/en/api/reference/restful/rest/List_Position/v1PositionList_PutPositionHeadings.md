@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 342,
-    "Name": "Padberg-Kub",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 320,
-    "UdListDefinitionId": 936
+    "HeadingId": 751,
+    "Name": "Medhurst Group",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "Rank": 369,
+    "UdListDefinitionId": 245
   },
   {
-    "HeadingId": 342,
-    "Name": "Padberg-Kub",
-    "Tooltip": "temporibus",
-    "Deleted": false,
-    "Rank": 320,
-    "UdListDefinitionId": 936
+    "HeadingId": 751,
+    "Name": "Medhurst Group",
+    "Tooltip": "reprehenderit",
+    "Deleted": true,
+    "Rank": 369,
+    "UdListDefinitionId": 245
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Bergnaum, Daugherty and Gleason",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 665,
-    "UdListDefinitionId": 427,
+    "HeadingId": 739,
+    "Name": "Beer Inc and Sons",
+    "Tooltip": "libero",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 862
       }
     }
   }

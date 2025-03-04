@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 708,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 77,
-  "ERPProductKey": "aut",
+  "QuoteLineId": 812,
+  "ERPQuoteLineKey": "quod",
+  "QuoteAlternativeId": 401,
+  "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 22893.87,
-  "DeliveredQuantity": 7104.7779999999993,
-  "Rank": 299,
-  "Name": "Satterfield, Brakus and Runolfsson",
-  "Description": "Exclusive systematic moratorium",
-  "Code": "ut",
-  "QuantityUnit": "totam",
-  "PriceUnit": "maiores",
-  "ItemNumber": "700203",
+  "Quantity": 15566.578,
+  "DeliveredQuantity": 3948.8399999999997,
+  "Rank": 752,
+  "Name": "Roberts-Haley",
+  "Description": "Cross-platform optimizing array",
+  "Code": "culpa",
+  "QuantityUnit": "pariatur",
+  "PriceUnit": "expedita",
+  "ItemNumber": "778484",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ullam",
-  "ProductTypeKey": "harum",
-  "Supplier": "dicta",
-  "SupplierCode": "ut",
-  "Thumbnail": "esse",
-  "VATInfo": "voluptatem",
-  "VAT": 811.706,
-  "UnitCost": 7292.818,
-  "UnitMinimumPrice": 5876.25,
-  "UnitListPrice": 21552.518,
+  "ProductFamilyKey": "in",
+  "ProductTypeKey": "perspiciatis",
+  "Supplier": "sapiente",
+  "SupplierCode": "fugit",
+  "Thumbnail": "vel",
+  "VATInfo": "qui",
+  "VAT": 2394.3759999999997,
+  "UnitCost": 12056.498,
+  "UnitMinimumPrice": 1686.0919999999999,
+  "UnitListPrice": 21286.128,
   "ExtraInfo": [
     {
-      "Name": "Dickens-Jacobs",
-      "Value": "voluptatem",
+      "Name": "Fahey-Cremin",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 863
+          "FieldType": "System.Int32",
+          "FieldLength": 31
         }
       }
     },
     {
-      "Name": "Dickens-Jacobs",
-      "Value": "voluptatem",
+      "Name": "Fahey-Cremin",
+      "Value": "fugit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 863
+          "FieldType": "System.Int32",
+          "FieldLength": 31
         }
       }
     }
   ],
-  "RawExtraInfo": "officiis",
+  "RawExtraInfo": "consequatur",
   "IsSubscription": false,
-  "SubscriptionUnit": "saepe",
-  "SubscriptionQuantity": 16522.448,
-  "SubscriptionStart": "2003-01-28T12:01:28.2128113+01:00",
-  "ERPDiscountPercent": 17857.532,
-  "ERPDiscountAmount": 22655.685999999998,
-  "DiscountPercent": 2265.882,
-  "DiscountAmount": 26795.7,
+  "SubscriptionUnit": "esse",
+  "SubscriptionQuantity": 11649.078,
+  "SubscriptionStart": "2007-06-10T14:13:41.1251915+02:00",
+  "ERPDiscountPercent": 21179.572,
+  "ERPDiscountAmount": 16293.666,
+  "DiscountPercent": 5691.344,
+  "DiscountAmount": 473.234,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 18863.546,
-  "EarningAmount": 11570.728,
-  "SubTotal": 19825.684,
-  "TotalPrice": 9411.402,
-  "Rights": "ut",
-  "Rule": "nam",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "quia",
-  "ExtraField3": "a",
-  "ExtraField4": "vitae",
-  "ExtraField5": "optio",
+  "EarningPercent": 10655.6,
+  "EarningAmount": 26146.962,
+  "SubTotal": 22188.719999999998,
+  "TotalPrice": 26510.505999999998,
+  "Rights": "quia",
+  "Rule": "doloribus",
+  "ExtraField1": "et",
+  "ExtraField2": "et",
+  "ExtraField3": "provident",
+  "ExtraField4": "molestias",
+  "ExtraField5": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 243
     }
   }
 }

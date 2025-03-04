@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Krajcik LLC",
-  "Tooltip": "omnis",
+  "Id": 653,
+  "Name": "Marks, O'Connell and Corwin",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 844,
-  "Rank": 677
+  "UdListDefinitionId": 755,
+  "Rank": 80
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 448,
-  "Name": "Zieme LLC",
-  "Tooltip": "ut",
+  "Id": 601,
+  "Name": "Rogahn-Shields",
+  "Tooltip": "dignissimos",
   "Deleted": false,
-  "UdListDefinitionId": 241,
-  "Rank": 806,
+  "UdListDefinitionId": 514,
+  "Rank": 55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 119
     }
   }
 }

@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gusikowski-Wisoky",
-  "ContactGroupId": 718,
-  "ContactAssociateId": 685
+  "TableName": "Torphy-Quigley",
+  "ContactGroupId": 575,
+  "ContactAssociateId": 61
 }
 ```
 

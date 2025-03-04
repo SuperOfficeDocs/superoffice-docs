@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 976,
-  "LanguageId": 459,
-  "PersonId": 442,
-  "TicketId": 390
+  "ReplyTemplateId": 240,
+  "LanguageId": 720,
+  "PersonId": 488,
+  "TicketId": 732
 }
 ```
 
@@ -98,25 +98,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 142,
-  "PlainParsed": "quia",
-  "HtmlParsed": "maiores",
+  "ReplyTemplateId": 635,
+  "PlainParsed": "dolor",
+  "HtmlParsed": "necessitatibus",
   "Attachments": [
     {
-      "AttachmentId": 210,
-      "Name": "VonRueden-Lesch",
-      "ContentType": "autem",
-      "AttSize": 703,
+      "AttachmentId": 304,
+      "Name": "Windler Group",
+      "ContentType": "sit",
+      "AttSize": 653,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "velit",
-      "IsSafeFileExtension": false,
+      "ContentId": "voluptatum",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 623
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 38
     }
   }
 }
