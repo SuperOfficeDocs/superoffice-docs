@@ -1,49 +1,45 @@
 ---
 uid: help-da-company-copy
-title: Kopiering af firmaer
-description: Kopiering af firmaer
-keywords: firma
-author: SuperOffice RnD
-date: 08.27.2024
-version: 10.3.8
+title: Kopiér et firma
+description: Trin til at kopiere et firma
+keywords: kopier firma, administrer firmaer
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Kopiering af firmaer
+# Kopiér et firma
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Du får måske brug for at kopiere et eksisterende firma til et nyt firma. Eksempel: Et eksisterende firma har oprettet en ny afdeling. Den nye afdeling vil stort set bruge samme firmaoplysninger som det eksisterende.
+Du kan kopiere et eksisterende firma for at oprette et nyt. For eksempel, hvis et firma åbner en ny afdeling, kan du genbruge de fleste af dets oplysninger til den nye post.
 
 > [!NOTE]
-> Aktiviteter, salg, interesser, projektmedlemskab eller udvalgsmedlemskab kopieres ikke.
+> Aktiviteter, salg, interesser, projektmedlemskab og udvalgsmedlemskab kopieres ikke.
 
-## Sådan gør du for at kopiere firmaet
+## Trin
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i øverste højre hjørne af firmakortet.
+    Vælg **Administrer firmaer** > **Kopiér firma** i menuen.
+    Dialogboksen **Kopiér firma** vises, med kildefirmaet angivet under **Fra**.
 
-1. Vælg **Vedligehold firmaer** fra ![ikon][img1] **Opgave**, og klik på **Kopier firma**.
-    Dialogboksen **Kopiér firma** åbnes. Kildefirmaet er angivet under **Fra**.
+1. Indtast navnet på det nye firma under **Til**. Tilføj om nødvendigt en afdeling.
 
-1. Indtast navnet på det nye firma og eventuelt afdeling under **Til**.
+1. Under **Kopiér personer med alle oplysninger**, vælg en af følgende muligheder:
 
-1. Vælg en af følgende under **Kopiér personer med alle oplysninger**:
+    * **Kopiér ikke**: Kun firmadetaljer kopieres.
+    * **Kopiér**: Firmadetaljer og tilknyttede personer kopieres.
 
-    * **Kopiér ikke**. Hvis du vælger dette alternativ, kopieres firmadetaljer, men ikke personer.
-    * **Kopiér**. Hvis du vælger dette alternativ, kopieres firmadetaljer og personer.
+1. Klik på **Kopiér**. Det nye firma oprettes med eget nummer og egen kode. Om nødvendigt kan du [redigere firmaoplysningerne][2] bagefter.
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
-
-1. Klik på **Kopiér**. Det nye firma oprettes med de oplysninger, du har angivet, og får eget nummer og egen kode. Du kan derefter eventuelt [redigere firmaoplysningerne][2].
-
-Dialogboksen ![Kopiér firma -screenshot][img3]
+![Dialogboksen Kopiér firma viser muligheder for at navngive det nye firma, tilføje en afdeling og vælge, om personer skal kopieres. -screenshot][img3]
 
 <!-- Referenced links -->
 [2]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img3]: ../../../media/loc/en/company/copy-company.png
