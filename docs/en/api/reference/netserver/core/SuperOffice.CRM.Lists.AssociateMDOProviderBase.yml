@@ -26,7 +26,6 @@ items:
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemsAndHeadingsQuery
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemType(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetSimpleListQuery
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.HistoryInfo
   - SuperOffice.CRM.Lists.AssociateMDOProviderBase.OnAddHeadingElementToCollection(SuperOffice.CRM.Lists.SoListHeading)
@@ -589,38 +588,6 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  id: GetPersonImage(System.Int32)
-  parent: SuperOffice.CRM.Lists.AssociateMDOProviderBase
-  langs:
-  - csharp
-  - vb
-  name: GetPersonImage(Int32)
-  nameWithType: AssociateMDOProviderBase.GetPersonImage(Int32)
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage(System.Int32)
-  type: Method
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Lists
-  syntax:
-    content: public static Image GetPersonImage(int personId)
-    parameters:
-    - id: personId
-      type: System.Int32
-    return:
-      type: System.Drawing.Image
-    content.vb: Public Shared Function GetPersonImage(personId As Integer) As Image
-  overload: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
 - uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   id: GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
@@ -2824,24 +2791,6 @@ references:
   name: GetItemName
   nameWithType: AssociateMDOProviderBase.GetItemName
   fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetItemName
-- uid: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage*
-  commentId: Overload:SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage
-  isExternal: true
-  name: GetPersonImage
-  nameWithType: AssociateMDOProviderBase.GetPersonImage
-  fullName: SuperOffice.CRM.Lists.AssociateMDOProviderBase.GetPersonImage
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Drawing.Image
-  isExternal: true
-  name: Image
-  nameWithType: Image
-  fullName: System.Drawing.Image
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   parent: SuperOffice.CRM.Lists.MDOProviderBase
