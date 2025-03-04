@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Leuschke, Towne and Bashirian",
-  "DeviceName": "Ritchie-Pagac"
+  "ApplicationName": "Shanahan-Kertzmann",
+  "DeviceName": "Gleason, Lind and Schinner"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 960,
-  "Name": "Jast, Funk and Feest",
-  "CreatedDate": "2012-02-08T12:01:27.9002891+01:00",
-  "UpdatedDate": "2014-04-24T12:01:27.9002891+02:00",
-  "AssociateFullName": "Lucinda Krajcik",
-  "CreatedBy": "atque",
-  "UpdatedBy": "vitae",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 649,
+  "ForeignDeviceId": 627,
+  "Name": "Kshlerin LLC",
+  "CreatedDate": "2010-06-30T14:13:40.3909833+02:00",
+  "UpdatedDate": "2017-08-12T14:13:40.3909833+02:00",
+  "AssociateFullName": "Ashly Stehr",
+  "CreatedBy": "numquam",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "voluptatibus",
+  "ForeignAppId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 98
     }
   }
 }

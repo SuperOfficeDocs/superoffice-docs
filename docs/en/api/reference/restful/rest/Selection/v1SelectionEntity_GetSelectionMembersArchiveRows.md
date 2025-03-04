@@ -86,19 +86,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sed",
+  "odata.nextLink": "impedit",
   "value": [
     {
-      "PrimaryKey": 8697,
-      "EntityName": "person",
-      "personId": 8697,
-      "fullName": "Mrs. Glenna Ahmad Boyle"
+      "PrimaryKey": 1682,
+      "EntityName": "sale",
+      "saleId": 1682,
+      "contactId": 1101,
+      "name": "Abernathy Inc and Sons"
     },
     {
-      "PrimaryKey": 5737,
-      "EntityName": "person",
-      "personId": 5737,
-      "fullName": "Jeanne Prosacco"
+      "PrimaryKey": 7625,
+      "EntityName": "sale",
+      "saleId": 7625,
+      "contactId": 9099,
+      "name": "Ullrich-Stroman"
     }
   ]
 }

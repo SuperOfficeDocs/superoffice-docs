@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 33,
-  "Name": "Wisoky Group",
-  "Tooltip": "recusandae",
-  "Rank": 987,
+  "SaleTypeId": 486,
+  "Name": "Turner LLC",
+  "Tooltip": "excepturi",
+  "Rank": 338,
   "DurationUnit": "Century",
-  "SaleDuration": 915,
-  "SaleTypeCatId": 572,
+  "SaleDuration": 541,
+  "SaleTypeCatId": 666,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 919,
-  "QuoteLinesTemplate": 636,
-  "ConfirmationLinesTemplate": 101,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 491,
+  "QuoteLinesTemplate": 933,
+  "ConfirmationLinesTemplate": 95,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 647,
-  "MinEarningPercent": 768,
-  "GroupQuoteLinesBy": 502,
-  "SortGroupLinesBy": 750,
+  "MaxDiscountPercent": 544,
+  "MinEarningPercent": 47,
+  "GroupQuoteLinesBy": 136,
+  "SortGroupLinesBy": 916,
   "Stages": [
     {
-      "Id": 725,
-      "Name": "Bradtke, Will and Jakubowski",
-      "ToolTip": "Distinctio dolor et quia rerum et dignissimos.",
-      "Deleted": true,
-      "Rank": 576,
-      "Type": "soluta",
-      "ColorBlock": 297,
-      "IconHint": "animi",
+      "Id": 69,
+      "Name": "Prosacco, Baumbach and Kessler",
+      "ToolTip": "Quidem velit amet qui qui blanditiis.",
+      "Deleted": false,
+      "Rank": 947,
+      "Type": "quia",
+      "ColorBlock": 693,
+      "IconHint": "expedita",
       "Selected": false,
-      "LastChanged": "1999-10-14T12:01:27.97842+02:00",
+      "LastChanged": "1999-10-14T14:13:40.5471977+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "dolor",
-      "Hidden": true,
-      "FullName": "Miss Howard Pfannerstill IV",
+      "ExtraInfo": "quo",
+      "StyleHint": "minus",
+      "Hidden": false,
+      "FullName": "Alvena Davis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 810
+          "FieldLength": 305
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldLength": 160
     }
   }
 }

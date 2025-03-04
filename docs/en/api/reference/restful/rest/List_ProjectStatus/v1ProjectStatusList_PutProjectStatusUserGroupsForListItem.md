@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Donnelly-Rau",
-    "ToolTip": "Eum facere et.",
+    "Id": 917,
+    "Name": "Wisoky-Reichel",
+    "ToolTip": "Est omnis.",
     "Deleted": true,
-    "Rank": 310,
-    "Type": "quis",
-    "ColorBlock": 972,
-    "IconHint": "saepe",
-    "Selected": false,
-    "LastChanged": "2023-02-19T12:01:33.5894836+01:00",
+    "Rank": 29,
+    "Type": "molestiae",
+    "ColorBlock": 89,
+    "IconHint": "repellat",
+    "Selected": true,
+    "LastChanged": "1998-07-29T14:13:50.1187745+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Buckridge, Shanahan and Roob",
-        "ToolTip": "At ut aut sit odit.",
+        "Id": 36,
+        "Name": "Luettgen-Upton",
+        "ToolTip": "Voluptates ut voluptatem.",
         "Deleted": false,
-        "Rank": 585,
+        "Rank": 149,
         "Type": "inventore",
-        "ColorBlock": 233,
-        "IconHint": "ea",
+        "ColorBlock": 886,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2003-07-30T12:01:33.5894836+02:00",
+        "LastChanged": "2016-05-24T14:13:50.1187745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "dolor",
+        "ExtraInfo": "aut",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Tanner Homenick"
+        "FullName": "Maggie Lowe"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "qui",
+    "ExtraInfo": "ratione",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Mrs. Stacy Tabitha Wuckert"
+    "FullName": "Kamren Simonis"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Heidenreich Group",
-    "ToolTip": "Voluptas iure sed nisi placeat velit.",
+    "Id": 464,
+    "Name": "Abernathy Group",
+    "ToolTip": "Numquam nostrum atque similique mollitia dolorem sequi ut.",
     "Deleted": true,
-    "Rank": 948,
-    "Type": "incidunt",
-    "ColorBlock": 806,
-    "IconHint": "deserunt",
-    "Selected": false,
-    "LastChanged": "2017-05-18T12:01:33.5894836+02:00",
+    "Rank": 994,
+    "Type": "labore",
+    "ColorBlock": 539,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2009-10-03T14:13:50.1187745+02:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Upton, Kuhic and O'Conner",
-        "ToolTip": "Ipsam ipsa illo vel ut autem doloribus.",
-        "Deleted": false,
-        "Rank": 813,
-        "Type": "id",
-        "ColorBlock": 909,
-        "IconHint": "officiis",
-        "Selected": true,
-        "LastChanged": "2011-08-28T12:01:33.5894836+02:00",
+        "Id": 1001,
+        "Name": "Roberts-McLaughlin",
+        "ToolTip": "Quas eligendi ut consequatur.",
+        "Deleted": true,
+        "Rank": 635,
+        "Type": "voluptatem",
+        "ColorBlock": 937,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2018-07-11T14:13:50.1187745+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Evangeline Armstrong",
+        "ExtraInfo": "fuga",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Octavia Murray II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldType": "System.String",
+            "FieldLength": 833
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "voluptatibus",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Jaquelin Romaguera Sr.",
+    "FullName": "Rickie Bulah Roberts MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 498
       }
     }
   }

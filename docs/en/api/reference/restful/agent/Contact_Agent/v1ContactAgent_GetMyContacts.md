@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 80,
-    "Name": "Jerde, Kovacek and Jerde",
-    "OrgNr": "910306",
+    "ContactId": 566,
+    "Name": "Orn-Kuhlman",
+    "OrgNr": "1058808",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "vero",
-    "DirectPhone": "631.324.0147",
-    "AssociateId": 179,
-    "CountryId": 970,
-    "EmailAddress": "juliet.stokes@kiehn.co.uk",
-    "Kananame": "labore",
-    "EmailAddressName": "ali@kutch.com",
+    "City": "enim",
+    "DirectPhone": "451.387.2254 x8280",
+    "AssociateId": 656,
+    "CountryId": 732,
+    "EmailAddress": "marlin@brown.us",
+    "Kananame": "dolor",
+    "EmailAddressName": "karen@leffler.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Eloise Schinner",
+    "AssociateFullName": "Lola Hilpert",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "unde",
-    "FullName": "Arno Berge DVM",
-    "IsOwnerContact": true,
-    "ActiveErpLinks": 533,
-    "Number1": "1381519",
-    "Number2": "734303",
+    "FormattedAddress": "voluptatem",
+    "FullName": "Bell Lynch",
+    "IsOwnerContact": false,
+    "ActiveErpLinks": 978,
+    "Number1": "1435079",
+    "Number2": "471849",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldType": "System.String",
+        "FieldLength": 613
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Marquardt-King",
-  "Comment": "ea",
-  "StakeholderRoleId": 345,
-  "CountryId": 354,
-  "PersonId": 128,
-  "EmailDescription": "leonie@walker.uk",
-  "EmailId": 291,
-  "EmailAddress": "kennedi@marks.uk",
-  "PhoneId": 896,
-  "ContactName": "Reichert-Yundt",
-  "ContactId": 676,
-  "SaleId": 988,
-  "Mrmrs": "voluptate",
-  "Firstname": "Eula",
-  "MiddleName": "Leannon-Waters",
-  "Lastname": "Swaniawski",
-  "SaleStakeholderId": 421,
-  "Rank": 478,
-  "Phone": "779-203-7030 x380",
+  "StakeholderRoleName": "Harber-Baumbach",
+  "Comment": "ad",
+  "StakeholderRoleId": 87,
+  "CountryId": 340,
+  "PersonId": 191,
+  "EmailDescription": "alexanne.hodkiewicz@davis.name",
+  "EmailId": 594,
+  "EmailAddress": "enid@towne.us",
+  "PhoneId": 861,
+  "ContactName": "Crona LLC",
+  "ContactId": 6,
+  "SaleId": 290,
+  "Mrmrs": "quia",
+  "Firstname": "Lucinda",
+  "MiddleName": "Price, Orn and O'Connell",
+  "Lastname": "McGlynn",
+  "SaleStakeholderId": 159,
+  "Rank": 293,
+  "Phone": "246.843.1876 x82053",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 634
     }
   }
 }

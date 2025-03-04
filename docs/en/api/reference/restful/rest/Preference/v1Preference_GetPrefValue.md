@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "reprehenderit",
+  "RawValue": "a",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "omnis",
+  "DisplayValue": "consequatur",
+  "DisplayTooltip": "explicabo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 387,
-  "PrefDescId": 279,
-  "TableName": "Cremin Inc and Sons",
-  "UserPreferenceId": 362,
+  "TargetId": 748,
+  "PrefDescId": 315,
+  "TableName": "Reinger-Hahn",
+  "UserPreferenceId": 884,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

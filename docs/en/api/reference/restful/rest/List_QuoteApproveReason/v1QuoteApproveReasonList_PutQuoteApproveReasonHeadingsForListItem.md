@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 886,
-    "Name": "Swift-DuBuque",
-    "ToolTip": "Nesciunt aut.",
+    "Id": 297,
+    "Name": "Herman LLC",
+    "ToolTip": "Exercitationem error odio deleniti.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "nemo",
-    "ColorBlock": 784,
-    "IconHint": "totam",
-    "Selected": true,
-    "LastChanged": "2000-04-02T12:01:33.6051097+02:00",
+    "Rank": 3,
+    "Type": "corporis",
+    "ColorBlock": 341,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2000-01-02T14:13:50.1500173+01:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Prosacco-Predovic",
-        "ToolTip": "Aut numquam.",
-        "Deleted": false,
-        "Rank": 254,
-        "Type": "non",
-        "ColorBlock": 954,
-        "IconHint": "consequuntur",
+        "Id": 254,
+        "Name": "Goldner-Waelchi",
+        "ToolTip": "Soluta quaerat iusto quod eaque explicabo.",
+        "Deleted": true,
+        "Rank": 471,
+        "Type": "explicabo",
+        "ColorBlock": 699,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2009-02-08T12:01:33.6051097+01:00",
+        "LastChanged": "2004-05-30T14:13:50.1500173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "soluta",
+        "ExtraInfo": "harum",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Miss Liliane Fahey II"
+        "FullName": "Mr. Lilian Ashly Gleason MD"
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Aubree Batz DVM"
+    "ExtraInfo": "qui",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Dr. Shakira Selina Price"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Von-Botsford",
-    "ToolTip": "Distinctio quos vel culpa culpa minus.",
+    "Id": 25,
+    "Name": "Streich-Hilpert",
+    "ToolTip": "Nulla aspernatur eveniet corporis dolorum rerum similique.",
     "Deleted": false,
-    "Rank": 490,
-    "Type": "reiciendis",
-    "ColorBlock": 356,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2007-10-14T12:01:33.6051097+02:00",
+    "Rank": 732,
+    "Type": "fugiat",
+    "ColorBlock": 651,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2016-04-08T14:13:50.1500173+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Zemlak, Beer and Berge",
-        "ToolTip": "Et iure deserunt itaque esse aut.",
+        "Id": 196,
+        "Name": "Ritchie-Mueller",
+        "ToolTip": "Est est nulla iusto occaecati cupiditate doloribus sunt.",
         "Deleted": false,
-        "Rank": 680,
-        "Type": "quo",
-        "ColorBlock": 747,
-        "IconHint": "consequatur",
+        "Rank": 938,
+        "Type": "modi",
+        "ColorBlock": 883,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2016-04-25T12:01:33.6051097+02:00",
+        "LastChanged": "1998-12-10T14:13:50.1500173+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Lester Dietrich",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Rosemary Herzog DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 357
+            "FieldType": "System.String",
+            "FieldLength": 264
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "itaque",
+    "ExtraInfo": "officiis",
+    "StyleHint": "eum",
     "Hidden": true,
-    "FullName": "Cyril Simonis",
+    "FullName": "Audie Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

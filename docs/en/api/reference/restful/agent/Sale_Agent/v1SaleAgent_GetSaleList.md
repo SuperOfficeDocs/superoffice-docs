@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Leffler-Waelchi",
-    "SaleDate": "1999-12-05T12:01:28.2596899+01:00",
-    "SaleId": 659,
-    "Probability": 203,
-    "Title": "vel",
-    "Amount": 23128.92,
-    "Currency": "repellendus",
-    "ProjectName": "Mann Group",
-    "AssociateFullName": "Emie Schinner",
-    "Description": "Compatible needs-based model",
+    "ContactName": "Bergstrom, Ebert and Prosacco",
+    "SaleDate": "2004-12-30T14:13:41.240351+01:00",
+    "SaleId": 406,
+    "Probability": 41,
+    "Title": "distinctio",
+    "Amount": 19374.388,
+    "Currency": "laborum",
+    "ProjectName": "Marks LLC",
+    "AssociateFullName": "Bryana Cummerata",
+    "Description": "Total 24/7 utilisation",
     "Status": "Lost",
-    "WeightedAmount": 6236.66,
-    "ProjectId": 745,
-    "EarningPercent": 7825.598,
-    "Earning": 8135.864,
-    "ContactId": 896,
-    "AssociateId": 975,
-    "PersonId": 732,
-    "SaleTypeId": 869,
-    "SaleTypeName": "Gislason-Toy",
-    "PersonFullName": "Mrs. Kenna Rodriguez",
+    "WeightedAmount": 12078.436,
+    "ProjectId": 477,
+    "EarningPercent": 20624.854,
+    "Earning": 6753.7699999999995,
+    "ContactId": 655,
+    "AssociateId": 491,
+    "PersonId": 761,
+    "SaleTypeId": 913,
+    "SaleTypeName": "Huels-Fritsch",
+    "PersonFullName": "Nikki Weimann",
     "Completed": "Completed",
-    "ActiveErpLinks": 15,
-    "NextDueDate": "1998-01-02T12:01:28.2596899+01:00",
-    "Number": "1510143",
+    "ActiveErpLinks": 326,
+    "NextDueDate": "2021-03-01T14:13:41.240351+01:00",
+    "Number": "1460956",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldType": "System.String",
+        "FieldLength": 394
       }
     }
   }

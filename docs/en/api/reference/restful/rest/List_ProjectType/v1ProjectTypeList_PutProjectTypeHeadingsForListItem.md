@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 970,
-    "Name": "Altenwerth-Friesen",
-    "ToolTip": "Dolores animi sint ratione nesciunt voluptates rerum.",
+    "Id": 391,
+    "Name": "Swift, Weissnat and Lueilwitz",
+    "ToolTip": "Et ut odio at.",
     "Deleted": false,
-    "Rank": 605,
-    "Type": "iste",
-    "ColorBlock": 993,
-    "IconHint": "fugiat",
-    "Selected": true,
-    "LastChanged": "2012-12-06T12:01:33.6051097+01:00",
+    "Rank": 79,
+    "Type": "eaque",
+    "ColorBlock": 352,
+    "IconHint": "accusamus",
+    "Selected": false,
+    "LastChanged": "2009-03-31T14:13:50.1343965+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Ryan LLC",
-        "ToolTip": "Quo aperiam id.",
+        "Id": 218,
+        "Name": "Bins LLC",
+        "ToolTip": "Molestias voluptatum iste expedita libero enim iste vitae.",
         "Deleted": false,
-        "Rank": 15,
-        "Type": "debitis",
-        "ColorBlock": 355,
-        "IconHint": "quibusdam",
+        "Rank": 236,
+        "Type": "quia",
+        "ColorBlock": 962,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2001-04-29T12:01:33.6051097+02:00",
+        "LastChanged": "1999-01-25T14:13:50.1343965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Patrick Gutkowski"
+        "ExtraInfo": "saepe",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Alivia Gottlieb"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "id",
+    "ExtraInfo": "non",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Alaina Stanton MD"
+    "FullName": "Josefa Idell Steuber III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Miller, O'Hara and Macejkovic",
-    "ToolTip": "At dolores hic aliquid ea sit quas.",
-    "Deleted": true,
-    "Rank": 910,
-    "Type": "minus",
-    "ColorBlock": 26,
-    "IconHint": "laboriosam",
-    "Selected": false,
-    "LastChanged": "2002-12-05T12:01:33.6051097+01:00",
+    "Id": 376,
+    "Name": "Zulauf, Nolan and Keeling",
+    "ToolTip": "Nesciunt delectus reprehenderit nihil sint officia et.",
+    "Deleted": false,
+    "Rank": 347,
+    "Type": "est",
+    "ColorBlock": 247,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2023-06-28T14:13:50.1343965+02:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Kemmer Inc and Sons",
-        "ToolTip": "In distinctio enim repudiandae reiciendis.",
-        "Deleted": false,
-        "Rank": 535,
-        "Type": "quibusdam",
-        "ColorBlock": 565,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2000-03-27T12:01:33.6051097+02:00",
+        "Id": 60,
+        "Name": "Powlowski, Rath and Pollich",
+        "ToolTip": "Autem sit reprehenderit voluptatem corporis quod quis.",
+        "Deleted": true,
+        "Rank": 490,
+        "Type": "veniam",
+        "ColorBlock": 213,
+        "IconHint": "magnam",
+        "Selected": true,
+        "LastChanged": "2007-03-21T14:13:50.1343965+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "ea",
-        "Hidden": true,
-        "FullName": "Mrs. Heber Crona Jr.",
+        "ExtraInfo": "saepe",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Nasir Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldType": "System.Int32",
+            "FieldLength": 618
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Prof. Marta Cummings Jr.",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "facere",
+    "Hidden": true,
+    "FullName": "Roxanne Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 525
       }
     }
   }

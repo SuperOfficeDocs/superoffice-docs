@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 309,
-      "ContactId": 727
+      "PersonId": 711,
+      "ContactId": 474
     },
     {
-      "PersonId": 309,
-      "ContactId": 727
+      "PersonId": 711,
+      "ContactId": 474
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable exuding moderator",
-  "Postit": "quia",
+  "Description": "Up-sized scalable interface",
+  "Postit": "voluptatibus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 419,
-  "IncludePerson": 556,
+  "GroupIdx": 465,
+  "IncludePerson": 806,
   "MemberCount": 99.99,
-  "Name": "Strosin Inc and Sons",
-  "PostitTextId": 608,
-  "CreatedDate": "2012-06-15T12:01:28.2909425+02:00",
-  "SelectionId": 818,
-  "SoundEx": "dolores",
-  "Source": 136,
-  "TextId": 773,
-  "UpdatedDate": "2007-08-10T12:01:28.2909425+02:00",
-  "UpdatedCount": 858,
-  "Visibility": 281,
+  "Name": "Graham-Kling",
+  "PostitTextId": 698,
+  "CreatedDate": "2005-07-25T14:13:41.2977255+02:00",
+  "SelectionId": 528,
+  "SoundEx": "earum",
+  "Source": 656,
+  "TextId": 747,
+  "UpdatedDate": "2013-07-04T14:13:41.2977255+02:00",
+  "UpdatedCount": 122,
+  "Visibility": 787,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 311,
-  "TargetTableName": "Macejkovic, McKenzie and Koepp",
+  "TargetTableNumber": 685,
+  "TargetTableName": "Rogahn, Rippin and Kerluke",
   "Completed": false,
-  "LeftSelectionId": 656,
-  "RightSelectionId": 296,
+  "LeftSelectionId": 118,
+  "RightSelectionId": 649,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Greenholt, Turcotte and Purdy",
-  "ShadowProviderName": "Stamm Group",
-  "ChartKey": "cum",
-  "LastLoaded": "2023-01-21T12:01:28.2909425+01:00",
-  "LastLoadedBy": 288,
+  "MainProviderName": "Terry Group",
+  "ShadowProviderName": "Feeney-Greenholt",
+  "ChartKey": "eligendi",
+  "LastLoaded": "2017-05-09T14:13:41.2977255+02:00",
+  "LastLoadedBy": 629,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-07-17T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 101,
+  "LastMembershipChange": "2016-10-10T14:13:41.2977255+02:00",
+  "LastMembershipChangeBy": 29,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Wisozk-Shanahan",
-  "DashboardTileDefinitionId": 623,
+  "MainHeading": "aliquid",
+  "MemberTabHeading": "nostrum",
+  "MailingsProviderName": "Crist, Keebler and Ondricka",
+  "DashboardTileDefinitionId": 902,
   "VisibleFor": [
     {
-      "VisibleId": 359,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 483
         }
       }
     },
     {
-      "VisibleId": 359,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 483
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 312
     }
   }
 }

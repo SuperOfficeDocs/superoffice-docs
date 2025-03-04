@@ -93,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 851,
-  "PrefDescId": 877,
-  "PrefValue": "minus",
-  "PrefShowValue": "tempora",
-  "Description": "Profit-focused 3rd generation utilisation",
+  "PrefDescLineId": 793,
+  "PrefDescId": 322,
+  "PrefValue": "voluptatem",
+  "PrefShowValue": "at",
+  "Description": "Open-architected mission-critical model",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 756,
-  "PrefDescId": 325,
-  "PrefValue": "quasi",
-  "PrefShowValue": "eligendi",
-  "Description": "Pre-emptive national synergy",
-  "IsBuiltin": false,
+  "PrefDescLineId": 59,
+  "PrefDescId": 359,
+  "PrefValue": "qui",
+  "PrefShowValue": "nihil",
+  "Description": "Assimilated multi-state info-mediaries",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 690
     }
   },
   "_Links": {

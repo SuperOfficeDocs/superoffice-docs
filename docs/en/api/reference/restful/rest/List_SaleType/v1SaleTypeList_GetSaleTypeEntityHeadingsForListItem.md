@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 551,
-    "Name": "Lubowitz-O'Keefe",
-    "ToolTip": "Sint debitis praesentium.",
+    "Id": 630,
+    "Name": "Hane-Grimes",
+    "ToolTip": "Ipsum quibusdam vero a sunt laborum dolores nesciunt.",
     "Deleted": false,
-    "Rank": 374,
-    "Type": "rem",
-    "ColorBlock": 463,
-    "IconHint": "repellat",
+    "Rank": 727,
+    "Type": "fugiat",
+    "ColorBlock": 499,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2020-01-21T12:01:33.6519877+01:00",
+    "LastChanged": "2010-03-05T14:13:50.2439578+01:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "O'Hara-Nader",
-        "ToolTip": "Et neque fugiat placeat quo quia nisi.",
+        "Id": 809,
+        "Name": "Halvorson Group",
+        "ToolTip": "Reprehenderit repellendus cupiditate.",
         "Deleted": false,
-        "Rank": 386,
-        "Type": "totam",
-        "ColorBlock": 520,
-        "IconHint": "quia",
+        "Rank": 584,
+        "Type": "adipisci",
+        "ColorBlock": 328,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2005-01-17T12:01:33.6519877+01:00",
+        "LastChanged": "2010-05-21T14:13:50.2439578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Orland Batz",
+        "ExtraInfo": "qui",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Keyshawn Konopelski III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 330
+            "FieldType": "System.Int32",
+            "FieldLength": 90
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Mrs. Alvena Ebert",
+    "ExtraInfo": "nam",
+    "StyleHint": "laudantium",
+    "Hidden": false,
+    "FullName": "Oscar Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 831
+        "FieldType": "System.Int32",
+        "FieldLength": 118
       }
     }
   }

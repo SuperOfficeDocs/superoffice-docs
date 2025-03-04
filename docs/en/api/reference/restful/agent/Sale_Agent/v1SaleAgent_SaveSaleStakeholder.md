@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Rath, Bogisich and Dibbert",
-  "Comment": "cupiditate",
-  "StakeholderRoleId": 717,
-  "CountryId": 411,
-  "PersonId": 204,
-  "EmailDescription": "mollie_altenwerth@stehr.co.uk",
-  "EmailId": 859,
-  "EmailAddress": "genevieve@renner.ca",
-  "PhoneId": 940,
-  "ContactName": "Abbott-Turner",
-  "ContactId": 49,
-  "SaleId": 812,
-  "Mrmrs": "similique",
-  "Firstname": "Paris",
-  "MiddleName": "Trantow, Corwin and Schamberger",
-  "Lastname": "Nikolaus",
-  "SaleStakeholderId": 230,
-  "Rank": 858,
-  "Phone": "871-294-4437 x705"
+  "StakeholderRoleName": "Prohaska, Hyatt and Reichert",
+  "Comment": "eligendi",
+  "StakeholderRoleId": 382,
+  "CountryId": 153,
+  "PersonId": 342,
+  "EmailDescription": "vance@hodkiewicz.us",
+  "EmailId": 257,
+  "EmailAddress": "samir.yost@kihn.info",
+  "PhoneId": 545,
+  "ContactName": "Armstrong, Wisoky and Sanford",
+  "ContactId": 1002,
+  "SaleId": 930,
+  "Mrmrs": "sunt",
+  "Firstname": "Saige",
+  "MiddleName": "Runolfsdottir LLC",
+  "Lastname": "Sawayn",
+  "SaleStakeholderId": 937,
+  "Rank": 381,
+  "Phone": "1-784-326-3245 x11219"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Gutkowski LLC",
-  "Comment": "eum",
-  "StakeholderRoleId": 91,
-  "CountryId": 649,
-  "PersonId": 413,
-  "EmailDescription": "haven@leuschke.info",
-  "EmailId": 98,
-  "EmailAddress": "marion@cartwright.name",
-  "PhoneId": 974,
-  "ContactName": "Powlowski, Nikolaus and Legros",
-  "ContactId": 321,
-  "SaleId": 638,
-  "Mrmrs": "id",
-  "Firstname": "Dewayne",
-  "MiddleName": "Gutkowski-Schulist",
-  "Lastname": "Kris",
-  "SaleStakeholderId": 825,
-  "Rank": 714,
-  "Phone": "(507)223-9429",
+  "StakeholderRoleName": "Gibson Inc and Sons",
+  "Comment": "consectetur",
+  "StakeholderRoleId": 240,
+  "CountryId": 736,
+  "PersonId": 894,
+  "EmailDescription": "hunter.runte@schoen.co.uk",
+  "EmailId": 719,
+  "EmailAddress": "granville_bayer@fisher.ca",
+  "PhoneId": 593,
+  "ContactName": "Leffler-Schoen",
+  "ContactId": 218,
+  "SaleId": 506,
+  "Mrmrs": "aliquam",
+  "Firstname": "Erick",
+  "MiddleName": "Bahringer-Swift",
+  "Lastname": "Vandervort",
+  "SaleStakeholderId": 931,
+  "Rank": 989,
+  "Phone": "1-343-521-3229 x8431",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 387
     }
   }
 }

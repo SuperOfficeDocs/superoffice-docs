@@ -132,12 +132,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 787
+  "AssociateId": 633
 }
 ```
 
@@ -152,120 +152,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-03-03T12:01:27.2439933+01:00",
-  "AppointmentId": 726,
-  "Description": "Persevering incremental productivity",
-  "Title": "velit",
-  "Agenda": "iste",
-  "InternalNotes": "tempore",
-  "StartDate": "2011-10-02T12:01:27.2439933+02:00",
-  "EndDate": "2012-11-08T12:01:27.2439933+01:00",
+  "CreatedDate": "2018-09-23T14:13:39.2036462+02:00",
+  "AppointmentId": 30,
+  "Description": "Devolved motivating complexity",
+  "Title": "rerum",
+  "Agenda": "delectus",
+  "InternalNotes": "ab",
+  "StartDate": "1998-03-08T14:13:39.2192678+01:00",
+  "EndDate": "2020-02-18T14:13:39.2192678+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 100,
+  "MotherId": 469,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-09-09T12:01:27.2439933+02:00",
+  "UpdatedDate": "2011-05-28T14:13:39.2192678+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 45,
+  "ActiveLinks": 747,
   "Links": [
     {
-      "EntityName": "Murphy-Torp",
-      "Id": 802,
-      "Description": "Assimilated composite access",
-      "ExtraInfo": "vel",
-      "LinkId": 934,
+      "EntityName": "Lockman Inc and Sons",
+      "Id": 152,
+      "Description": "Quality-focused value-added customer loyalty",
+      "ExtraInfo": "aspernatur",
+      "LinkId": 607,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 226
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 974,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "aperiam",
-  "Location": "animi",
-  "RejectCounter": 665,
+  "AlarmLeadTime": "vel",
+  "HasAlarm": true,
+  "ColorIndex": 696,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "et",
+  "LeadTime": "eveniet",
+  "Location": "reiciendis",
+  "RejectCounter": 708,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 761,
-      "PersonId": 585,
-      "ContactId": 732,
-      "EmailId": 551,
-      "SendEmail": false,
+      "AssociateId": 813,
+      "PersonId": 495,
+      "ContactId": 581,
+      "EmailId": 11,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lemuel@swaniawski.biz",
-      "Description": "Enterprise-wide coherent moratorium"
+      "EmailAddress": "mac_jast@hauckharris.info",
+      "Description": "Self-enabling contextually-based migration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-03-20T12:01:27.2439933+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2024-04-24T14:13:39.2192678+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 39,
+  "PreferredTZLocation": 554,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 870,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 369,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "natus",
+  "CentralserviceVideomeetId": "rerum",
   "UserDefinedFields": {
-    "SuperOffice:1": "4690133",
-    "SuperOffice:2": "Meta Konopelski DVM"
+    "SuperOffice:1": "Laurine Ansel Konopelski V",
+    "SuperOffice:2": "Wellington Bartell"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "amet"
+    "CustomFields1": "atque",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2003-11-01T12:01:27.2439933+01:00",
-  "PublishTo": "2020-05-19T12:01:27.2439933+02:00",
-  "PublishFrom": "2012-03-30T12:01:27.2439933+02:00",
+  "PublishEventDate": "2012-02-06T14:13:39.2192678+01:00",
+  "PublishTo": "2003-04-25T14:13:39.2192678+02:00",
+  "PublishFrom": "2001-04-09T14:13:39.2192678+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 654,
+      "VisibleId": 461,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 160
         }
       }
     },
     {
-      "VisibleId": 654,
+      "VisibleId": 461,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 5
+          "FieldLength": 160
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

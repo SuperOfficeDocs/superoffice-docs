@@ -121,18 +121,18 @@ DashboardTile  updated.
 PATCH /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tempora",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempora",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -145,64 +145,64 @@ HTTP/1.1 200 DashboardTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 318,
-  "Caption": "autem",
-  "Description": "Switchable context-sensitive archive",
-  "ChartName": "Skiles-Ziemann",
-  "ChartId": "facilis",
-  "IsDefault": false,
-  "AssociateId": 545,
-  "GroupId": 452,
-  "SelectionId": 851,
-  "Config": "nostrum",
+  "DashboardTileId": 311,
+  "Caption": "enim",
+  "Description": "User-centric 6th generation support",
+  "ChartName": "Bradtke LLC",
+  "ChartId": "aut",
+  "IsDefault": true,
+  "AssociateId": 48,
+  "GroupId": 317,
+  "SelectionId": 531,
+  "Config": "non",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Feil LLC",
-      "Description": "Reactive actuating system engine",
+      "Name": "Mitchell-Bradtke",
+      "Description": "Persistent object-oriented capability",
       "Type": "Boolean",
-      "ListName": "Leffler, Ruecker and Keeling",
+      "ListName": "Bernier Inc and Sons",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "sit",
+      "Value": "perferendis",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 75
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 664,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 814
         }
       }
     },
     {
-      "VisibleId": 664,
+      "VisibleId": 165,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 814
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 356
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   },
   "_Links": {

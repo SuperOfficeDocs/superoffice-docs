@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=567
+PUT /api/v1/Project/{id}/ImageInfo?projectId=415
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 822,
-  "BlobSize": 807,
-  "Description": "De-engineered analyzing hub",
-  "ExtraInfo": "doloribus",
+  "BlobId": 499,
+  "BlobSize": 39,
+  "Description": "Phased leading edge forecast",
+  "ExtraInfo": "magnam",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "tempore",
-  "OriginalSize": 60,
-  "CreatedDate": "2005-04-07T12:01:33.0269443+02:00",
-  "UpdatedDate": "2025-01-19T12:01:33.0269443+01:00",
+  "MimeType": "dolor",
+  "OriginalSize": 540,
+  "CreatedDate": "2015-09-15T14:13:49.0868575+02:00",
+  "UpdatedDate": "2003-10-03T14:13:49.0868575+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "libero"
+  "ConceptualType": "rerum"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 687,
-  "BlobSize": 647,
-  "Description": "Versatile methodical conglomeration",
-  "ExtraInfo": "similique",
+  "BlobId": 349,
+  "BlobSize": 721,
+  "Description": "Cross-group static utilisation",
+  "ExtraInfo": "animi",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 651,
-  "CreatedDate": "2002-06-01T12:01:33.0269443+02:00",
-  "UpdatedDate": "2023-12-06T12:01:33.0269443+01:00",
+  "MimeType": "sunt",
+  "OriginalSize": 943,
+  "CreatedDate": "2024-03-09T14:13:49.0868575+01:00",
+  "UpdatedDate": "2024-02-10T14:13:49.0868575+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "non",
+  "ConceptualType": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldLength": 569
     }
   }
 }

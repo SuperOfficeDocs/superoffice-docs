@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 375,
-    "Value": "soluta",
-    "Tooltip": "autem",
+    "Id": 548,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 940
       }
     }
   },
   {
-    "Id": 375,
-    "Value": "soluta",
-    "Tooltip": "autem",
+    "Id": 548,
+    "Value": "est",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 940
       }
     }
   }

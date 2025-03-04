@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "aspernatur",
+      "RawValue": "ullam",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "quibusdam",
+      "DisplayTooltip": "voluptate",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 601,
-      "PrefDescId": 851,
-      "TableName": "Haley-Keeling",
-      "UserPreferenceId": 661
+      "TargetId": 782,
+      "PrefDescId": 570,
+      "TableName": "Kunde LLC",
+      "UserPreferenceId": 677
     }
   ]
 }

@@ -109,13 +109,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "dolores",
-    "et"
+    "sit",
+    "dolores"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +129,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 716,
-    "ColumnId": 423,
-    "FieldDefault": "temporibus",
-    "FieldHeight": 29,
-    "FieldLabel": "dolore",
-    "FieldLeft": 437,
-    "FieldTop": 29,
+    "UDefFieldId": 226,
+    "ColumnId": 166,
+    "FieldDefault": "explicabo",
+    "FieldHeight": 70,
+    "FieldLabel": "enim",
+    "FieldLeft": 427,
+    "FieldTop": 487,
     "FieldType": "Checkbox",
-    "FieldWidth": 106,
-    "FormatMask": "aut",
-    "HideLabel": false,
+    "FieldWidth": 275,
+    "FormatMask": "dolores",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 635,
-    "LabelLeft": 815,
-    "LabelTop": 536,
-    "LabelWidth": 668,
-    "LastVersionId": 80,
-    "ListTableId": 931,
-    "IsMandatory": true,
+    "LabelHeight": 152,
+    "LabelLeft": 722,
+    "LabelTop": 882,
+    "LabelWidth": 136,
+    "LastVersionId": 36,
+    "ListTableId": 633,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 820,
-    "ProgId": "commodi",
-    "IsReadOnly": true,
-    "ShortLabel": "et",
-    "TabOrder": 376,
-    "TextLength": 988,
-    "Tooltip": "quo",
-    "UdefIdentity": 604,
-    "UDListDefinitionId": 517,
+    "Page1LineNo": 383,
+    "ProgId": "recusandae",
+    "IsReadOnly": false,
+    "ShortLabel": "quisquam",
+    "TabOrder": 523,
+    "TextLength": 24,
+    "Tooltip": "vero",
+    "UdefIdentity": 172,
+    "UDListDefinitionId": 277,
     "Justification": "Center",
-    "Version": 583,
-    "TemplateVariableName": "Medhurst Inc and Sons",
+    "Version": 996,
+    "TemplateVariableName": "Shields Group",
     "HasBeenPublished": false,
-    "MdoListName": "Considine, Bartoletti and Jones",
+    "MdoListName": "Nicolas-Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

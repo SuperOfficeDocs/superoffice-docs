@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 593,
-  "Name": "Davis Group",
-  "Tooltip": "quis",
-  "Rank": 946,
+  "ProjTypeId": 542,
+  "Name": "Connelly, Rippin and Rohan",
+  "Tooltip": "voluptate",
+  "Rank": 505,
   "DurationUnit": "Century",
-  "ProjectDuration": 776,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 661,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 794,
-      "Name": "Mraz Group",
-      "ToolTip": "Dolores alias dolorem.",
+      "Id": 593,
+      "Name": "Bergnaum, Weissnat and Metz",
+      "ToolTip": "Impedit eos omnis suscipit omnis.",
       "Deleted": false,
-      "Rank": 138,
-      "Type": "molestias",
-      "ColorBlock": 467,
-      "IconHint": "aliquid",
+      "Rank": 411,
+      "Type": "perspiciatis",
+      "ColorBlock": 393,
+      "IconHint": "accusamus",
       "Selected": false,
-      "LastChanged": "2004-02-04T12:01:27.97842+01:00",
+      "LastChanged": "2004-10-03T14:13:40.5315763+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "in",
-      "StyleHint": "ex",
+      "ExtraInfo": "est",
+      "StyleHint": "autem",
       "Hidden": false,
-      "FullName": "Joannie Erwin Zemlak PhD",
+      "FullName": "Miss Christophe Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldType": "System.Int32",
+          "FieldLength": 417
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 505
     }
   }
 }

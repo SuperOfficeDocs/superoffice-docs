@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 777,
-    "Name": "Zieme-Legros",
-    "ToolTip": "Rerum sequi voluptate sequi.",
+    "Id": 555,
+    "Name": "Wintheiser-O'Keefe",
+    "ToolTip": "Est voluptatibus et dolorem provident odit dicta esse.",
     "Deleted": false,
-    "Rank": 794,
-    "Type": "eaque",
-    "ColorBlock": 225,
-    "IconHint": "numquam",
+    "Rank": 83,
+    "Type": "eum",
+    "ColorBlock": 712,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2010-05-14T12:01:33.6207356+02:00",
+    "LastChanged": "2004-02-02T14:13:50.1656413+01:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Huel-Little",
-        "ToolTip": "Vel quis impedit.",
+        "Id": 235,
+        "Name": "Gutmann Inc and Sons",
+        "ToolTip": "Possimus tempora enim voluptatem ipsum.",
         "Deleted": false,
-        "Rank": 848,
-        "Type": "officiis",
-        "ColorBlock": 500,
-        "IconHint": "iusto",
+        "Rank": 951,
+        "Type": "quod",
+        "ColorBlock": 246,
+        "IconHint": "tenetur",
         "Selected": false,
-        "LastChanged": "2020-03-27T12:01:33.6207356+01:00",
+        "LastChanged": "2021-04-05T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "similique",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Prof. Gina Bechtelar"
+        "FullName": "Georgianna Greenholt"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "enim",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Jules Kayleigh Koch MD"
+    "FullName": "Mr. Eliseo Else Lindgren IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "Dach-Cummerata",
-    "ToolTip": "Illo consequatur fuga.",
+    "Id": 385,
+    "Name": "Ankunding Inc and Sons",
+    "ToolTip": "Quia aut numquam eum nostrum.",
     "Deleted": false,
-    "Rank": 2,
-    "Type": "distinctio",
-    "ColorBlock": 457,
-    "IconHint": "eum",
+    "Rank": 251,
+    "Type": "ut",
+    "ColorBlock": 745,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2005-07-11T12:01:33.6207356+02:00",
+    "LastChanged": "2003-04-06T14:13:50.1656413+02:00",
     "ChildItems": [
       {
-        "Id": 546,
-        "Name": "Cummings LLC",
-        "ToolTip": "Dolores ab labore optio sint earum ullam nihil.",
+        "Id": 119,
+        "Name": "Crooks, Smith and Beier",
+        "ToolTip": "Et tenetur ut aperiam recusandae.",
         "Deleted": true,
-        "Rank": 113,
-        "Type": "sit",
-        "ColorBlock": 369,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2007-02-12T12:01:33.6207356+01:00",
+        "Rank": 366,
+        "Type": "deleniti",
+        "ColorBlock": 810,
+        "IconHint": "a",
+        "Selected": true,
+        "LastChanged": "1999-04-09T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "tempora",
-        "Hidden": true,
-        "FullName": "Dr. Niko Quigley",
+        "ExtraInfo": "sit",
+        "StyleHint": "fuga",
+        "Hidden": false,
+        "FullName": "Miss Brook Kylie Goldner Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 521
+            "FieldType": "System.String",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Lina Streich",
+    "ExtraInfo": "maxime",
+    "StyleHint": "minus",
+    "Hidden": false,
+    "FullName": "Dr. Rene Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=61
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=54
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "tenetur",
+  "SaleText": "ut",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-09-25T12:01:28.2596899+02:00",
-  "Amount": 26783.164,
-  "SaleId": 980,
-  "Earning": 8790.869999999999,
-  "EarningPercent": 8016.772,
-  "Heading": "ut",
-  "Number": "825821",
-  "Probability": 455,
-  "CreatedDate": "2022-05-31T12:01:28.2596899+02:00",
-  "UpdatedDate": "1998-05-19T12:01:28.2596899+02:00",
+  "Saledate": "2001-12-27T14:13:41.2189201+01:00",
+  "Amount": 29979.843999999997,
+  "SaleId": 679,
+  "Earning": 22755.974,
+  "EarningPercent": 15378.537999999999,
+  "Heading": "perferendis",
+  "Number": "1099755",
+  "Probability": 625,
+  "CreatedDate": "1999-11-30T14:13:41.2189201+01:00",
+  "UpdatedDate": "2009-07-02T14:13:41.2189201+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 844,
+  "ActiveLinks": 170,
   "Links": [
     {
-      "EntityName": "Dare-Kunze",
-      "Id": 502,
-      "Description": "Implemented bifurcated extranet",
-      "ExtraInfo": "voluptates",
-      "LinkId": 805,
+      "EntityName": "Russel-Lindgren",
+      "Id": 23,
+      "Description": "Upgradable exuding productivity",
+      "ExtraInfo": "eligendi",
+      "LinkId": 961,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 698
+          "FieldLength": 287
         }
       }
     }
   ],
-  "NextDueDate": "2019-04-12T12:01:28.2596899+02:00",
-  "Postit": "commodi",
+  "NextDueDate": "2014-12-22T14:13:41.2189201+01:00",
+  "Postit": "quis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-12-13T12:01:28.2596899+01:00",
+  "ReopenDate": "1998-12-10T14:13:41.2189201+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Herzog-Dach",
-      "Comment": "voluptatum",
-      "StakeholderRoleId": 939,
-      "CountryId": 815,
-      "PersonId": 94,
-      "EmailDescription": "maverick_mckenzie@mayert.com",
-      "EmailId": 656,
-      "EmailAddress": "joannie@pfefferchamplin.name",
-      "PhoneId": 225,
-      "ContactName": "Jewess-Bechtelar",
-      "ContactId": 88,
-      "SaleId": 312,
-      "Mrmrs": "saepe",
-      "Firstname": "Cassandra",
-      "MiddleName": "Abbott-Heller",
-      "Lastname": "Schaden",
-      "SaleStakeholderId": 225,
-      "Rank": 558,
-      "Phone": "(089)338-6929",
+      "StakeholderRoleName": "Friesen, Dibbert and Kiehn",
+      "Comment": "vel",
+      "StakeholderRoleId": 376,
+      "CountryId": 612,
+      "PersonId": 485,
+      "EmailDescription": "claire_glover@kuhlman.name",
+      "EmailId": 8,
+      "EmailAddress": "lela@casperrutherford.name",
+      "PhoneId": 218,
+      "ContactName": "Bruen-Mann",
+      "ContactId": 464,
+      "SaleId": 261,
+      "Mrmrs": "minima",
+      "Firstname": "Henry",
+      "MiddleName": "Braun Inc and Sons",
+      "Lastname": "Pagac",
+      "SaleStakeholderId": 876,
+      "Rank": 149,
+      "Phone": "1-143-243-8977",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldLength": 12
         }
       }
     }
   ],
-  "ActiveErpLinks": 550,
+  "ActiveErpLinks": 560,
   "UserDefinedFields": {
-    "SuperOffice:1": "1334549368",
-    "SuperOffice:2": "Orion Bergnaum"
+    "SuperOffice:1": "Kade Ward",
+    "SuperOffice:2": "Meda Abbott"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "ipsa",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "at",
-    "CustomFields2": "et"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2017-12-29T12:01:28.2596899+01:00",
-  "PublishTo": "2006-07-30T12:01:28.2596899+02:00",
-  "PublishFrom": "1999-03-13T12:01:28.2596899+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-06-06T14:13:41.2189201+02:00",
+  "PublishTo": "2023-03-19T14:13:41.2189201+01:00",
+  "PublishFrom": "2002-08-06T14:13:41.2189201+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 535,
+      "VisibleId": 476,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 883
         }
       }
     },
     {
-      "VisibleId": 535,
+      "VisibleId": 476,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 883
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldLength": 682
     }
   }
 }

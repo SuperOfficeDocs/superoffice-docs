@@ -87,18 +87,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "recusandae",
-  "ProviderName": "Price-Wolf",
-  "StorageKey": "beatae",
+  "StorageType": "blanditiis",
+  "ProviderName": "Koch Inc and Sons",
+  "StorageKey": "accusantium",
   "DesiredColumnNames": [
-    "Price, Gleason and Kub",
-    "Kshlerin Group"
+    "Marquardt Inc and Sons",
+    "Schiller-Lockman"
   ],
   "StaticColumns": [
-    "eaque",
-    "similique"
+    "architecto",
+    "dicta"
   ],
-  "Context": "eos"
+  "Context": "in"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kuphal, Reinger and Carter",
-      "Operator": "sint",
+      "Name": "Ankunding, Herman and Crona",
+      "Operator": "non",
       "Values": [
-        "atque",
-        "doloribus"
+        "qui",
+        "expedita"
       ],
       "DisplayValues": [
-        "nesciunt",
-        "fuga"
+        "ullam",
+        "veritatis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 790,
+      "InterParenthesis": 711,
       "InterOperator": "And",
-      "UniqueHash": 645
+      "UniqueHash": 906
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Zboncak Inc and Sons",
-      "DisplayTooltip": "dolores",
-      "DisplayType": "ab",
-      "CanOrderBy": false,
-      "Name": "Glover-Rutherford",
-      "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Gislason, Ziemann and McClure",
+      "DisplayName": "Kuphal Inc and Sons",
+      "DisplayTooltip": "quis",
+      "DisplayType": "quidem",
+      "CanOrderBy": true,
+      "Name": "O'Keefe-Mann",
+      "CanRestrictBy": true,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Greenholt Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "nemo",
-      "Width": "sint",
-      "IconHint": "aut",
-      "HeadingIconHint": "similique"
+      "ExtraInfo": "vel",
+      "Width": "praesentium",
+      "IconHint": "id",
+      "HeadingIconHint": "at"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Goldner Group",
-      "PrimaryKey": 995,
+      "EntityName": "Weissnat, Quigley and Haley",
+      "PrimaryKey": 471,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolor",
-          "TooltipHint": "voluptas",
-          "LinkHint": "alias"
+          "DisplayValue": "dicta",
+          "TooltipHint": "vel",
+          "LinkHint": "non"
         }
       },
-      "LinkHint": "minima",
-      "StyleHint": "id",
+      "LinkHint": "placeat",
+      "StyleHint": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 829
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Gutmann, Powlowski and Purdy",
-      "Description": "Up-sized transitional website",
-      "Rank": 604,
+      "Name": "Hettinger LLC",
+      "Description": "Virtual intangible groupware",
+      "Rank": 162,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gutmann, Powlowski and Purdy",
-      "Description": "Up-sized transitional website",
-      "Rank": 604,
+      "Name": "Hettinger LLC",
+      "Description": "Virtual intangible groupware",
+      "Rank": 162,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 328
+      "FieldType": "System.Int32",
+      "FieldLength": 474
     }
   }
 }

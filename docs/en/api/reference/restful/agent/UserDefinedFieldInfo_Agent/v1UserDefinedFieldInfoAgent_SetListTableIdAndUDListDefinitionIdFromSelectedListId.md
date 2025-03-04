@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 38
+  "SelectedListId": 683
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 735,
-  "ColumnId": 164,
-  "FieldDefault": "odio",
-  "FieldHeight": 467,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 906,
-  "FieldTop": 164,
+  "UDefFieldId": 387,
+  "ColumnId": 417,
+  "FieldDefault": "delectus",
+  "FieldHeight": 474,
+  "FieldLabel": "iure",
+  "FieldLeft": 241,
+  "FieldTop": 272,
   "FieldType": "Checkbox",
-  "FieldWidth": 708,
-  "FormatMask": "in",
+  "FieldWidth": 927,
+  "FormatMask": "aut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 87,
-  "LabelLeft": 515,
-  "LabelTop": 490,
-  "LabelWidth": 19,
-  "LastVersionId": 954,
-  "ListTableId": 769,
-  "IsMandatory": false,
+  "LabelHeight": 25,
+  "LabelLeft": 297,
+  "LabelTop": 98,
+  "LabelWidth": 582,
+  "LastVersionId": 124,
+  "ListTableId": 231,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 861,
-  "ProgId": "dolorum",
+  "Page1LineNo": 464,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "itaque",
-  "TabOrder": 893,
-  "TextLength": 201,
-  "Tooltip": "blanditiis",
-  "UdefIdentity": 591,
-  "UDListDefinitionId": 470,
+  "ShortLabel": "aliquid",
+  "TabOrder": 62,
+  "TextLength": 443,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 624,
+  "UDListDefinitionId": 914,
   "Justification": "Center",
-  "Version": 804,
-  "TemplateVariableName": "Gutkowski Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Gulgowski Inc and Sons",
+  "Version": 723,
+  "TemplateVariableName": "Botsford Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Hegmann-Marvin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 107
     }
   }
 }

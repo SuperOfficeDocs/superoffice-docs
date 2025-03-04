@@ -88,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Mills-Hahn",
-  "Tooltip": "autem",
+  "Id": 772,
+  "Name": "Harber, Bogan and Moen",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "Rank": 894,
-  "IsCustomList": true,
+  "Rank": 534,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Weimann, Lockman and Lubowitz",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "Rank": 108,
+  "Id": 199,
+  "Name": "Braun LLC",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 585,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 824
     }
   }
 }

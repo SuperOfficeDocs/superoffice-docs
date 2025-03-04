@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Smitham Group",
-    "ToolTip": "Ipsam quasi tenetur voluptates ea eaque.",
-    "Deleted": true,
-    "Rank": 257,
-    "Type": "quam",
-    "ColorBlock": 798,
-    "IconHint": "totam",
+    "Id": 380,
+    "Name": "McClure-Kuvalis",
+    "ToolTip": "Corrupti officia voluptate harum magnam tempora placeat.",
+    "Deleted": false,
+    "Rank": 207,
+    "Type": "qui",
+    "ColorBlock": 120,
+    "IconHint": "earum",
     "Selected": true,
-    "LastChanged": "2010-10-02T12:01:33.5269792+02:00",
+    "LastChanged": "2001-12-28T14:13:50.0094247+01:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Abernathy, Wintheiser and Abshire",
-        "ToolTip": "Voluptas magni magnam ex ut inventore esse.",
+        "Id": 569,
+        "Name": "White Group",
+        "ToolTip": "Velit molestias reiciendis aut molestiae vel.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "non",
-        "ColorBlock": 141,
-        "IconHint": "voluptates",
+        "Rank": 845,
+        "Type": "nihil",
+        "ColorBlock": 241,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2004-07-01T12:01:33.5269792+02:00",
+        "LastChanged": "2000-12-30T14:13:50.0094247+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "sequi",
+        "ExtraInfo": "optio",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Gracie Funk"
+        "FullName": "Joy Kuhic"
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "nihil",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Kaia McGlynn"
+    "FullName": "Myah Rempel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Satterfield, Stroman and Schaden",
-    "ToolTip": "Doloremque voluptatum voluptatem et iste tenetur a sit.",
+    "Id": 29,
+    "Name": "Jenkins, Gislason and Bode",
+    "ToolTip": "Tenetur ut.",
     "Deleted": true,
-    "Rank": 583,
-    "Type": "nisi",
-    "ColorBlock": 469,
-    "IconHint": "nobis",
-    "Selected": true,
-    "LastChanged": "2010-01-30T12:01:33.5269792+01:00",
+    "Rank": 743,
+    "Type": "in",
+    "ColorBlock": 371,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2020-11-06T14:13:50.0094247+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Heathcote-Bogan",
-        "ToolTip": "Deleniti velit illum quaerat.",
+        "Id": 27,
+        "Name": "Reinger LLC",
+        "ToolTip": "Quaerat consequatur ratione exercitationem facilis dolor odit.",
         "Deleted": true,
-        "Rank": 273,
-        "Type": "magnam",
-        "ColorBlock": 159,
-        "IconHint": "rem",
-        "Selected": false,
-        "LastChanged": "2003-01-18T12:01:33.5269792+01:00",
+        "Rank": 438,
+        "Type": "explicabo",
+        "ColorBlock": 858,
+        "IconHint": "nobis",
+        "Selected": true,
+        "LastChanged": "2001-03-02T14:13:50.0094247+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Linwood Boyer V",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Nakia Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldLength": 351
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "qui",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Lonie Gulgowski",
+    "FullName": "Ms. Lulu Heller IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 962
       }
     }
   }

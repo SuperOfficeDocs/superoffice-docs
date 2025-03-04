@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "distinctio"
+  "ChatId": "consectetur"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
-    "UserPrompt": "quod",
-    "UserDisplayText": "omnis",
-    "BotResponse": "vel",
+    "Timestamp": "2008-01-15T14:13:38.9068394+01:00",
+    "UserPrompt": "possimus",
+    "UserDisplayText": "quisquam",
+    "BotResponse": "laudantium",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ut"
+      "BotActions1": "nobis",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "excepturi",
-      "numquam"
+      "praesentium",
+      "eveniet"
     ]
   },
   {
-    "Timestamp": "2003-01-26T12:01:26.9783334+01:00",
-    "UserPrompt": "quod",
-    "UserDisplayText": "omnis",
-    "BotResponse": "vel",
+    "Timestamp": "2008-01-15T14:13:38.9068394+01:00",
+    "UserPrompt": "possimus",
+    "UserDisplayText": "quisquam",
+    "BotResponse": "laudantium",
     "BotActions": {
-      "BotActions1": "voluptatibus",
-      "BotActions2": "ut"
+      "BotActions1": "nobis",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "excepturi",
-      "numquam"
+      "praesentium",
+      "eveniet"
     ]
   }
 ]

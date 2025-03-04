@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nostrum"
+  "Type": "error"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2014-07-28T12:01:28.6190891+02:00",
-    "ValidTo": "2018-02-01T12:01:28.6190891+01:00",
-    "Comment": "assumenda",
-    "SecretValue": "laudantium",
-    "PublicValue": "voluptates",
-    "IsActive": true,
+    "ValidFrom": "2002-12-02T14:13:41.7039902+01:00",
+    "ValidTo": "2023-03-29T14:13:41.7039902+02:00",
+    "Comment": "laudantium",
+    "SecretValue": "voluptas",
+    "PublicValue": "repellendus",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 635
+        "FieldLength": 512
       }
     }
   }

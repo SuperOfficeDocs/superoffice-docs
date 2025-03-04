@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Hickle-Jast",
-  "Tooltip": "consectetur",
-  "Deleted": false,
-  "Rank": 652,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 36,
+  "Name": "Stark-Dibbert",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 618,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "hic",
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 611,
-  "Name": "Torphy-Rau",
-  "Tooltip": "sit",
-  "Deleted": true,
-  "Rank": 537,
+  "Id": 287,
+  "Name": "Effertz Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 11,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 39
     }
   }
 }

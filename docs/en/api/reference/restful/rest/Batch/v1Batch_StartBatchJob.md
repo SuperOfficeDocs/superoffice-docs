@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Rath-Macejkovic",
-  "AssociateId": 860,
-  "DetailsTable": 972,
-  "DetailsRecord": 174,
+  "Id": 939,
+  "Name": "McClure-Gulgowski",
+  "AssociateId": 740,
+  "DetailsTable": 508,
+  "DetailsRecord": 980,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sed",
-    "ParameterObject2": "sit"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "in"
   },
-  "LastStarted": "2013-05-04T12:01:33.308214+02:00",
-  "Created": "2010-06-11T12:01:33.308214+02:00",
-  "StartCount": 248,
-  "DatabaseSerialNumber": "1303180",
-  "Context": "dolorem",
-  "Result": "ea",
+  "LastStarted": "1999-10-14T14:13:49.4305556+02:00",
+  "Created": "2002-11-17T14:13:49.4305556+01:00",
+  "StartCount": 424,
+  "DatabaseSerialNumber": "1012338",
+  "Context": "sed",
+  "Result": "ut",
   "State": "All",
-  "Description": "Mandatory contextually-based functionalities",
-  "Response": "aut",
-  "Request": "officia",
-  "ProgressDescription": "Ergonomic zero defect architecture",
-  "ProgressPercent": 155,
-  "FileName": "Tremblay, Veum and Konopelski",
+  "Description": "Customer-focused next generation portal",
+  "Response": "sunt",
+  "Request": "aut",
+  "ProgressDescription": "Optimized object-oriented customer loyalty",
+  "ProgressPercent": 226,
+  "FileName": "Mohr-Hansen",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-714
+5
 ```

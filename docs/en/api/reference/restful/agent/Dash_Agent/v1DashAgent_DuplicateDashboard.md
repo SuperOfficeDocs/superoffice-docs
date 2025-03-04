@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 416,
-  "Name": "Daniel Group"
+  "DashboardId": 276,
+  "Name": "Schuster Group"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 981,
-  "UniqueId": "quas",
-  "Name": "Marks-Miller",
-  "Description": "Digitized multimedia workforce",
-  "AssociateId": 353,
-  "Columns": 888,
+  "DashboardId": 8,
+  "UniqueId": "illo",
+  "Name": "Leffler Inc and Sons",
+  "Description": "Focused full-range utilisation",
+  "AssociateId": 139,
+  "Columns": 478,
   "Theme": null,
-  "VisibleForAll": 761,
+  "VisibleForAll": 411,
   "VisibleForAssociates": [
-    84,
-    979
+    303,
+    978
   ],
   "VisibleForGroups": [
-    346,
-    477
+    275,
+    823
   ],
-  "PinForAll": 382,
+  "PinForAll": 184,
   "PinForAssociates": [
-    598,
-    719
+    97,
+    390
   ],
   "PinForGroups": [
-    387,
-    61
+    587,
+    700
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldType": "System.String",
+      "FieldLength": 172
     }
   }
 }

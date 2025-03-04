@@ -73,10 +73,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kohler, Weber and Donnelly",
+  "TableName": "Wisoky LLC",
   "Values": {
-    "Values1": "consectetur",
-    "Values2": "molestiae"
+    "Values1": "ipsam",
+    "Values2": "nemo"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-288
+78
 ```

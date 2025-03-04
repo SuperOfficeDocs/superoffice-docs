@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 783,
-  "Name": "Bode-Brekke",
-  "Tooltip": "ipsam",
-  "Rank": 819,
+  "ProjTypeId": 560,
+  "Name": "Weber, Hessel and Baumbach",
+  "Tooltip": "quis",
+  "Rank": 346,
   "DurationUnit": "Century",
-  "ProjectDuration": 184,
-  "Deleted": false,
+  "ProjectDuration": 652,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 756,
-      "Name": "Carter, Nicolas and Fay",
-      "ToolTip": "Atque laborum sed eaque eius est enim sunt.",
-      "Deleted": false,
-      "Rank": 588,
-      "Type": "sit",
-      "ColorBlock": 146,
-      "IconHint": "dignissimos",
+      "Id": 859,
+      "Name": "Howe-Kling",
+      "ToolTip": "Molestiae assumenda qui voluptatem neque officiis.",
+      "Deleted": true,
+      "Rank": 466,
+      "Type": "ut",
+      "ColorBlock": 221,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2016-11-27T12:01:27.97842+01:00",
+      "LastChanged": "2019-12-08T14:13:40.5315763+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "repellendus",
+      "ExtraInfo": "qui",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Gloria Sauer"
+      "FullName": "Dr. Misty Metz I"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 874,
-  "Name": "Nitzsche, Lueilwitz and McGlynn",
-  "Tooltip": "vitae",
-  "Rank": 187,
+  "ProjTypeId": 664,
+  "Name": "Welch-Tillman",
+  "Tooltip": "ut",
+  "Rank": 848,
   "DurationUnit": "Century",
-  "ProjectDuration": 45,
-  "Deleted": true,
+  "ProjectDuration": 852,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 676,
-      "Name": "Schumm-Doyle",
-      "ToolTip": "Et rerum accusantium.",
+      "Id": 281,
+      "Name": "Gerlach-Schaden",
+      "ToolTip": "Placeat deserunt.",
       "Deleted": false,
-      "Rank": 829,
-      "Type": "est",
-      "ColorBlock": 391,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "2016-10-26T12:01:27.97842+02:00",
+      "Rank": 581,
+      "Type": "occaecati",
+      "ColorBlock": 965,
+      "IconHint": "quibusdam",
+      "Selected": true,
+      "LastChanged": "2015-01-30T14:13:40.5471977+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "minima",
-      "StyleHint": "odit",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "qui",
       "Hidden": true,
-      "FullName": "Orville Beier DVM",
+      "FullName": "Alva Hayes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldType": "System.String",
+          "FieldLength": 484
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 169
     }
   }
 }

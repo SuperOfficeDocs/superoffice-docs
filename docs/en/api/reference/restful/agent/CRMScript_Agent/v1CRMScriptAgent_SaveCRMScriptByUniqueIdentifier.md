@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "in",
+  "UniqueIdentifier": "soluta",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatum",
-  "Name": "Goyette-Johns",
-  "Description": "Organized intangible strategy",
-  "IncludeId": "reprehenderit",
-  "Source": "quae",
-  "Registered": "2004-02-18T12:01:27.5408902+01:00",
-  "RegisteredBy": "minima",
-  "Updated": "2017-05-01T12:01:27.5408902+02:00",
-  "UpdatedBy": "doloremque",
-  "Path": "dolores",
+  "UniqueIdentifier": "ut",
+  "Name": "Runte, Kris and Bins",
+  "Description": "Fundamental uniform flexibility",
+  "IncludeId": "animi",
+  "Source": "hic",
+  "Registered": "2019-10-23T14:13:39.9067187+02:00",
+  "RegisteredBy": "non",
+  "Updated": "2010-02-26T14:13:39.9067187+01:00",
+  "UpdatedBy": "pariatur",
+  "Path": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 318
     }
   }
 }

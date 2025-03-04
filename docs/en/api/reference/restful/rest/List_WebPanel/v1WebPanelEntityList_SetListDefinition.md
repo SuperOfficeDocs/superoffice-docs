@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 660,
-  "Name": "Shields-Kuvalis",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "Rank": 690,
-  "IsCustomList": true,
+  "Id": 14,
+  "Name": "Kovacek LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 684,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": false
+  "ListType": "quam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Mayert-Grant",
-  "Tooltip": "non",
+  "Id": 324,
+  "Name": "Roberts, Feil and Larkin",
+  "Tooltip": "ab",
   "Deleted": true,
-  "Rank": 201,
+  "Rank": 301,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "officia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 420
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 903,
-  "Name": "Hudson, Schowalter and Carroll",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 607,
-  "UdListDefinitionId": 461
+  "HeadingId": 866,
+  "Name": "Russel Group",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 141,
+  "UdListDefinitionId": 506
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 855,
-  "Name": "Shields, Hermiston and Reinger",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 656,
-  "UdListDefinitionId": 432,
+  "HeadingId": 567,
+  "Name": "Senger Group",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 357,
+  "UdListDefinitionId": 210,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldType": "System.String",
+      "FieldLength": 917
     }
   }
 }

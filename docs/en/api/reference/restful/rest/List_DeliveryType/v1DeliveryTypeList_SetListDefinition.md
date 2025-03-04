@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Armstrong Group",
-  "Tooltip": "vel",
+  "Id": 439,
+  "Name": "Berge LLC",
+  "Tooltip": "incidunt",
   "Deleted": true,
-  "Rank": 843,
+  "Rank": 263,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Purdy, Thiel and Swift",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 175,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "Id": 868,
+  "Name": "Brown Inc and Sons",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "Rank": 29,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 262
     }
   }
 }

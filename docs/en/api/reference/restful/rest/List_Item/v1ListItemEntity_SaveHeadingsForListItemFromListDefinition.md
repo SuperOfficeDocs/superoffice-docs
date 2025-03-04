@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Harber Inc and Sons",
-    "ToolTip": "Amet a similique enim ut molestiae et illum.",
+    "Id": 829,
+    "Name": "Mayert Group",
+    "ToolTip": "Quisquam est odio sint repellendus.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "hic",
-    "ColorBlock": 550,
-    "IconHint": "impedit",
+    "Rank": 278,
+    "Type": "non",
+    "ColorBlock": 162,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2017-02-25T12:01:33.4175965+01:00",
+    "LastChanged": "2019-08-03T14:13:49.6336384+02:00",
     "ChildItems": [
       {
-        "Id": 287,
-        "Name": "Tremblay LLC",
-        "ToolTip": "Aliquam nemo.",
-        "Deleted": true,
-        "Rank": 487,
-        "Type": "aut",
-        "ColorBlock": 309,
-        "IconHint": "at",
+        "Id": 494,
+        "Name": "Schumm LLC",
+        "ToolTip": "Consequatur quidem qui aut omnis doloremque praesentium.",
+        "Deleted": false,
+        "Rank": 895,
+        "Type": "est",
+        "ColorBlock": 72,
+        "IconHint": "molestiae",
         "Selected": false,
-        "LastChanged": "2019-01-12T12:01:33.4175965+01:00",
+        "LastChanged": "2007-01-28T14:13:49.6336384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quia",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "culpa",
         "Hidden": false,
-        "FullName": "Ryley Klein"
+        "FullName": "Billie Marian Morar IV"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sint",
-    "Hidden": false,
-    "FullName": "Wyatt Nicolas"
+    "ExtraInfo": "id",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Dora O'Kon"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Braun, Stroman and Leannon",
-    "ToolTip": "Rerum et laudantium dignissimos.",
-    "Deleted": false,
-    "Rank": 175,
-    "Type": "qui",
-    "ColorBlock": 116,
-    "IconHint": "repellat",
+    "Id": 70,
+    "Name": "Prohaska, Metz and Macejkovic",
+    "ToolTip": "Ipsam et alias totam vel assumenda.",
+    "Deleted": true,
+    "Rank": 434,
+    "Type": "dolores",
+    "ColorBlock": 920,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2021-03-15T12:01:33.4175965+01:00",
+    "LastChanged": "2011-08-16T14:13:49.6336384+02:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Mohr, Glover and Gerhold",
-        "ToolTip": "Voluptatum ratione delectus deserunt quisquam quas dolorem quis.",
-        "Deleted": true,
-        "Rank": 486,
-        "Type": "expedita",
-        "ColorBlock": 839,
-        "IconHint": "et",
+        "Id": 805,
+        "Name": "VonRueden Inc and Sons",
+        "ToolTip": "Eum labore sit id placeat.",
+        "Deleted": false,
+        "Rank": 31,
+        "Type": "omnis",
+        "ColorBlock": 674,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2009-12-24T12:01:33.4175965+01:00",
+        "LastChanged": "2017-02-05T14:13:49.6336384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ducimus",
+        "ExtraInfo": "est",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Jaylan Purdy",
+        "FullName": "Ms. Lane Moen III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Briana Goyette",
+    "ExtraInfo": "totam",
+    "StyleHint": "inventore",
+    "Hidden": true,
+    "FullName": "Liliane Will",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 555
+        "FieldLength": 666
       }
     }
   }

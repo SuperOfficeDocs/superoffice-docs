@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 583,
-  "Name": "Cassin, Daniel and Torphy",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 968,
-  "UdListDefinitionId": 930
+  "HeadingId": 695,
+  "Name": "Gottlieb LLC",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "Rank": 600,
+  "UdListDefinitionId": 751
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 761,
-  "Name": "Conn Group",
-  "Tooltip": "quos",
-  "Deleted": false,
-  "Rank": 638,
-  "UdListDefinitionId": 963,
+  "HeadingId": 224,
+  "Name": "Corwin-Batz",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 285,
+  "UdListDefinitionId": 824,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldLength": 268
     }
   }
 }

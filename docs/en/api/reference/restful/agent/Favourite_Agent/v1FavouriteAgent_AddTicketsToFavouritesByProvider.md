@@ -71,18 +71,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pfannerstill Group",
+  "ProviderName": "Davis, Fisher and Brown",
   "Restrictions": [
     {
-      "Name": "Erdman LLC",
-      "Operator": "ut",
+      "Name": "Roberts-Kozey",
+      "Operator": "laborum",
       "Values": [
-        "minima",
-        "reiciendis"
+        "dolore",
+        "exercitationem"
       ],
       "DisplayValues": [
-        "tempore",
-        "natus"
+        "et",
+        "dolorem"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 151,
+      "InterParenthesis": 613,
       "InterOperator": "And",
-      "UniqueHash": 284
+      "UniqueHash": 989
     }
   ],
-  "AssociateId": 131,
-  "ExtraInfo": "atque"
+  "AssociateId": 87,
+  "ExtraInfo": "nesciunt"
 }
 ```
 

@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 32,
-  "LeadDescription": "Multi-channelled homogeneous core",
-  "Relation": "aut",
-  "RelationId": 583,
-  "LeadContact": "voluptate",
-  "LeadPersonFirstname": "Kadin",
-  "LeadPersonLastname": "Pacocha",
-  "LeadPersonEmail": "moshe_schinner@damore.name",
-  "LeadPhoneNumber": "814049",
-  "CreatorsContact": "iure",
-  "CreatorsFirstname": "Vicky",
-  "CreatorsLastname": "Schulist"
+  "AssociateIdForNewContact": 677,
+  "LeadDescription": "Adaptive attitude-oriented monitoring",
+  "Relation": "sint",
+  "RelationId": 798,
+  "LeadContact": "maxime",
+  "LeadPersonFirstname": "Rosalia",
+  "LeadPersonLastname": "Corkery",
+  "LeadPersonEmail": "loraine@wintheiser.uk",
+  "LeadPhoneNumber": "642975",
+  "CreatorsContact": "dolor",
+  "CreatorsFirstname": "Ida",
+  "CreatorsLastname": "Cronin"
 }
 ```
 
@@ -117,35 +117,35 @@ Content-Type: application/json; charset=utf-8
   "RequestedContacts": [
     {
       "ContactId": 504,
-      "Name": "Turcotte LLC",
-      "OrgNr": "1035218",
+      "Name": "Ebert Group",
+      "OrgNr": "679803",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "quo",
-      "DirectPhone": "202.792.1411",
-      "AssociateId": 649,
-      "CountryId": 451,
-      "EmailAddress": "libby.heathcote@terrykunze.com",
-      "Kananame": "ipsum",
-      "EmailAddressName": "aleen@harveyhauck.name",
+      "City": "dolor",
+      "DirectPhone": "(264)483-1939 x658",
+      "AssociateId": 156,
+      "CountryId": 804,
+      "EmailAddress": "oren@bogan.name",
+      "Kananame": "eum",
+      "EmailAddressName": "lloyd@jones.co.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Ernestina Drew Farrell III",
+      "AssociateFullName": "Haylee Mills",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "officia",
-      "FullName": "Lessie Jerrod Von III",
-      "IsOwnerContact": false,
-      "ActiveErpLinks": 663,
-      "Number1": "1365548",
-      "Number2": "1483936",
+      "FormattedAddress": "voluptatibus",
+      "FullName": "Glen Kreiger",
+      "IsOwnerContact": true,
+      "ActiveErpLinks": 491,
+      "Number1": "828004",
+      "Number2": "1178071",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldType": "System.Int32",
+          "FieldLength": 410
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

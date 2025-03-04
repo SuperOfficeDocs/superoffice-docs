@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Document/GetSanitizedTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Howe-Fisher",
+  "TemplateName": "Harvey, Cummerata and Bergstrom",
   "AllowPersonal": false,
-  "UiCulture": "quibusdam"
+  "UiCulture": "deleniti"
 }
 ```
 

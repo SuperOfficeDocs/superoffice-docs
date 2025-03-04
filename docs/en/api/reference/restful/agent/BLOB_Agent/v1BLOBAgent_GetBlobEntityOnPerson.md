@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 905
+  "PersonId": 929
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 339,
-  "BlobSize": 598,
-  "Description": "Right-sized optimal neural-net",
-  "ExtraInfo": "tempore",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "dolore",
-  "OriginalSize": 469,
-  "CreatedDate": "2005-10-10T12:01:27.3533761+02:00",
-  "UpdatedDate": "2022-06-22T12:01:27.3533761+02:00",
+  "BlobId": 327,
+  "BlobSize": 54,
+  "Description": "Networked optimal intranet",
+  "ExtraInfo": "rem",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "incidunt",
+  "OriginalSize": 89,
+  "CreatedDate": "2006-06-16T14:13:39.4067248+02:00",
+  "UpdatedDate": "2015-03-24T14:13:39.4067248+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FreeTextEnabled": true,
+  "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 997,
-  "Occurrences": 219,
-  "LastGenerated": "2024-04-18T12:01:27.9002891+02:00",
-  "AutoEnableTravelAreas": true,
+  "CountWords": 289,
+  "Occurrences": 793,
+  "LastGenerated": "1998-03-17T14:13:40.4066046+01:00",
+  "AutoEnableTravelAreas": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 298
     }
   }
 }

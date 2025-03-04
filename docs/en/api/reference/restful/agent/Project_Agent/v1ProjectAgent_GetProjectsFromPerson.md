@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 579
+  "PersonId": 550
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 342,
-    "Name": "Howell Inc and Sons",
-    "Description": "Function-based scalable capacity",
+    "ProjectId": 936,
+    "Name": "Nienow-Ernser",
+    "Description": "Horizontal incremental customer loyalty",
     "URL": "http://www.example.com/",
-    "Type": "quis",
-    "AssociateId": 473,
-    "AssociateFullName": "Mrs. Angelita Bosco Jr.",
-    "TypeId": 800,
-    "Updated": "2011-07-30T12:01:28.1659327+02:00",
-    "StatusId": 45,
-    "Status": "maxime",
-    "TextId": 818,
-    "PublishTo": "2022-08-18T12:01:28.1659327+02:00",
-    "PublishFrom": "2011-04-30T12:01:28.1659327+02:00",
-    "IsPublished": false,
+    "Type": "est",
+    "AssociateId": 294,
+    "AssociateFullName": "Earnestine Stehr",
+    "TypeId": 93,
+    "Updated": "2023-03-06T14:13:41.0314634+01:00",
+    "StatusId": 972,
+    "Status": "assumenda",
+    "TextId": 436,
+    "PublishTo": "2004-11-23T14:13:41.0314634+01:00",
+    "PublishFrom": "2021-10-06T14:13:41.0314634+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "114271",
-    "ActiveErpLinks": 733,
+    "ProjectNumber": "947354",
+    "ActiveErpLinks": 723,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 1000
       }
     }
   }

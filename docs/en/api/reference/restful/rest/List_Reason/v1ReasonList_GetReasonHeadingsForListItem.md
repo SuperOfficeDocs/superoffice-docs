@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Morar LLC",
-    "ToolTip": "Dolorem minima.",
+    "Id": 586,
+    "Name": "Kohler LLC",
+    "ToolTip": "Quae sint magnam veniam exercitationem autem.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "aut",
-    "ColorBlock": 32,
-    "IconHint": "porro",
+    "Rank": 793,
+    "Type": "aliquid",
+    "ColorBlock": 759,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-04-30T12:01:33.6363617+02:00",
+    "LastChanged": "2008-03-12T14:13:50.1968854+01:00",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Kuvalis-Bode",
-        "ToolTip": "Dignissimos voluptas tenetur.",
+        "Id": 351,
+        "Name": "Bednar, Douglas and Rowe",
+        "ToolTip": "Ut vel sint ut tempore.",
         "Deleted": false,
-        "Rank": 650,
-        "Type": "ut",
-        "ColorBlock": 991,
-        "IconHint": "eveniet",
-        "Selected": false,
-        "LastChanged": "2005-03-13T12:01:33.6363617+01:00",
+        "Rank": 821,
+        "Type": "voluptate",
+        "ColorBlock": 883,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2011-07-16T14:13:50.1968854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "odit",
+        "ExtraInfo": "qui",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "Deron Hills",
+        "FullName": "Lila Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldType": "System.String",
+            "FieldLength": 997
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Isobel Quigley PhD",
+    "ExtraInfo": "quis",
+    "StyleHint": "animi",
+    "Hidden": false,
+    "FullName": "Fredrick Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldType": "System.Int32",
+        "FieldLength": 866
       }
     }
   }

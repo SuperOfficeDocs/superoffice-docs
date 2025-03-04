@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Parisian, Schinner and Glover",
-    "ToolTip": "At voluptatem aliquam non possimus.",
-    "Deleted": false,
-    "Rank": 177,
-    "Type": "tempore",
-    "ColorBlock": 269,
-    "IconHint": "quia",
+    "Id": 65,
+    "Name": "Nikolaus, Reinger and Legros",
+    "ToolTip": "Repellat omnis architecto sunt consequatur.",
+    "Deleted": true,
+    "Rank": 600,
+    "Type": "reprehenderit",
+    "ColorBlock": 960,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2010-08-15T12:01:33.6051097+02:00",
+    "LastChanged": "2021-07-12T14:13:50.1500173+02:00",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Towne-Rath",
-        "ToolTip": "Consequatur dolorem autem consequatur ut possimus autem sit.",
+        "Id": 343,
+        "Name": "Ratke-Boyle",
+        "ToolTip": "In quis.",
         "Deleted": false,
-        "Rank": 49,
-        "Type": "rerum",
-        "ColorBlock": 701,
-        "IconHint": "corporis",
+        "Rank": 378,
+        "Type": "veritatis",
+        "ColorBlock": 302,
+        "IconHint": "tempora",
         "Selected": true,
-        "LastChanged": "2006-05-05T12:01:33.6051097+02:00",
+        "LastChanged": "2020-07-06T14:13:50.1500173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "sit",
+        "ExtraInfo": "cumque",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Prof. Leola Breitenberg",
+        "FullName": "Tyree Christian Lueilwitz DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 535
+            "FieldType": "System.String",
+            "FieldLength": 466
           }
         }
       }
     ],
     "ExtraInfo": "qui",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Ford Harvey",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Prof. Karlee Arielle Hamill Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 585
       }
     }
   }

@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "est",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 814,
-  "PrefDescId": 353,
-  "PrefValue": "neque",
-  "PrefShowValue": "voluptatum",
-  "Description": "Switchable zero administration methodology",
+  "PrefDescLineId": 58,
+  "PrefDescId": 698,
+  "PrefValue": "natus",
+  "PrefShowValue": "voluptatem",
+  "Description": "Visionary explicit open architecture",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 53
     }
   },
   "_Links": {

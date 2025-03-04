@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=79
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=536
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 381,
+  "FormId": 674,
   "FormKey": "et",
-  "Name": "Okuneva, Weissnat and Schoen",
-  "Description": "Cloned logistical encryption",
-  "Config": "dolorem",
-  "FolderId": 494,
-  "ScriptId": 967,
-  "ResponseShipmentId": 347,
-  "Active": false,
-  "Expires": "2022-06-17T12:01:27.9940463+02:00",
-  "MaxSubmits": 928,
+  "Name": "West, Kemmer and Jakubowski",
+  "Description": "Automated fault-tolerant workforce",
+  "Config": "rerum",
+  "FolderId": 851,
+  "ScriptId": 768,
+  "ResponseShipmentId": 696,
+  "Active": true,
+  "Expires": "2004-01-29T14:13:40.5628193+01:00",
+  "MaxSubmits": 973,
   "Type": "Normal",
-  "Recipe": "provident",
-  "GroupId": 514,
+  "Recipe": "quas",
+  "GroupId": 898,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2021-07-05T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 169,
-  "Updated": "2020-10-08T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 4,
-  "UpdatedCount": 822,
+  "Registered": "2022-02-27T14:13:40.5628193+01:00",
+  "RegisteredAssociateId": 637,
+  "Updated": "2001-07-17T14:13:40.5628193+02:00",
+  "UpdatedAssociateId": 357,
+  "UpdatedCount": 621,
   "EmailFlows": [
-    28,
-    390
+    773,
+    521
   ],
-  "FolderName": "Haag-Brekke",
+  "FolderName": "Nicolas, Pagac and Jones",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 393
     }
   }
 }

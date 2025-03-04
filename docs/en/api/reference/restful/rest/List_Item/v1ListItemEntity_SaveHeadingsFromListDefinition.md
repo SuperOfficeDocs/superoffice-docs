@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 470,
-    "Name": "Hermiston-Dickinson",
-    "Tooltip": "nostrum",
+    "HeadingId": 996,
+    "Name": "Dare-Bins",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 510
+    "Rank": 400,
+    "UdListDefinitionId": 843
   },
   {
-    "HeadingId": 470,
-    "Name": "Hermiston-Dickinson",
-    "Tooltip": "nostrum",
+    "HeadingId": 996,
+    "Name": "Dare-Bins",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 510
+    "Rank": 400,
+    "UdListDefinitionId": 843
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 416,
-    "Name": "Halvorson, Prohaska and Larkin",
-    "Tooltip": "ea",
+    "HeadingId": 30,
+    "Name": "Halvorson-Stokes",
+    "Tooltip": "sed",
     "Deleted": true,
-    "Rank": 516,
-    "UdListDefinitionId": 339,
+    "Rank": 86,
+    "UdListDefinitionId": 816,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 811
+        "FieldLength": 932
       }
     }
   }

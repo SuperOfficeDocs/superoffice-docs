@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 724,
-  "Name": "Cremin, Bashirian and Kuvalis",
-  "Description": "Multi-channelled bottom-line monitoring"
+  "SourceId": 285,
+  "Name": "Tillman, Reichert and Goyette",
+  "Description": "Managed global database"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 365,
+  "ReportId": 17,
   "ReportCategory": "All",
-  "Description": "Robust coherent concept",
+  "Description": "De-engineered full-range help-desk",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wehner, Kub and Barrows",
-  "AssociateId": 162,
-  "TemplateId": 420,
+  "Name": "Donnelly LLC",
+  "AssociateId": 708,
+  "TemplateId": 479,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 625
+      "FieldType": "System.Int32",
+      "FieldLength": 350
     }
   }
 }

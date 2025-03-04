@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 965,
+  "QuoteVersionId": 234,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 218
+  "CountryId": 911
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 29334.239999999998,
-  "Wgs84Longitude": 15695.072,
+  "Wgs84Latitude": 20743.946,
+  "Wgs84Longitude": 7111.0459999999994,
   "LocalizedAddress": [
     [
       {
-        "Name": "Goodwin, Barton and Terry",
-        "Value": "et",
-        "Tooltip": "inventore",
-        "Label": "ut",
-        "ValueLength": 141,
-        "AddressType": "natus",
+        "Name": "Abernathy, Casper and Goodwin",
+        "Value": "atque",
+        "Tooltip": "enim",
+        "Label": "vel",
+        "ValueLength": 767,
+        "AddressType": "minima",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 34
+            "FieldLength": 568
           }
         }
       }
     ],
     [
       {
-        "Name": "Kshlerin-Kris",
-        "Value": "dolor",
-        "Tooltip": "rerum",
-        "Label": "non",
-        "ValueLength": 381,
-        "AddressType": "placeat",
+        "Name": "Legros, Toy and O'Conner",
+        "Value": "dolorem",
+        "Tooltip": "eos",
+        "Label": "ratione",
+        "ValueLength": 857,
+        "AddressType": "perferendis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldType": "System.String",
+            "FieldLength": 338
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "laborum",
+  "Formatted": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

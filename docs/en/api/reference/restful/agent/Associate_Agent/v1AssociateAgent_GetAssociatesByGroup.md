@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 345,
-  "Type": 41
+  "GroupId": 742,
+  "Type": 793
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 615,
-    "Name": "Tromp LLC",
-    "PersonId": 45,
-    "Rank": 709,
-    "Tooltip": "esse",
+    "AssociateId": 327,
+    "Name": "Mitchell-Wolf",
+    "PersonId": 906,
+    "Rank": 799,
+    "Tooltip": "est",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 523,
-    "FullName": "Paolo Daniel",
-    "FormalName": "Rogahn Inc and Sons",
-    "Deleted": true,
-    "EjUserId": 409,
-    "UserName": "Reinger Group",
+    "GroupIdx": 27,
+    "FullName": "Daisha Spinka",
+    "FormalName": "Jacobi, Volkman and Wolff",
+    "Deleted": false,
+    "EjUserId": 846,
+    "UserName": "Hirthe, Torp and Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 527
       }
     }
   }

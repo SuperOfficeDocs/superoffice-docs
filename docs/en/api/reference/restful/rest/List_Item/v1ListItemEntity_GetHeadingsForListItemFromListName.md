@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Wolf, Schamberger and Gutkowski",
-    "ToolTip": "Sed aut natus quaerat velit.",
+    "Id": 670,
+    "Name": "Schuster Inc and Sons",
+    "ToolTip": "Dolor qui mollitia in possimus in voluptas.",
     "Deleted": false,
-    "Rank": 866,
-    "Type": "sed",
-    "ColorBlock": 234,
-    "IconHint": "et",
+    "Rank": 669,
+    "Type": "natus",
+    "ColorBlock": 887,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2021-07-29T12:01:33.4175965+02:00",
+    "LastChanged": "2003-07-03T14:13:49.6336384+02:00",
     "ChildItems": [
       {
-        "Id": 111,
-        "Name": "Bahringer, Sipes and Tromp",
-        "ToolTip": "Rerum similique quis iste similique fugiat.",
-        "Deleted": false,
-        "Rank": 533,
-        "Type": "neque",
-        "ColorBlock": 244,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2002-11-05T12:01:33.4175965+01:00",
+        "Id": 652,
+        "Name": "Schultz-Marvin",
+        "ToolTip": "Dolorum est et veniam repudiandae deleniti iure.",
+        "Deleted": true,
+        "Rank": 735,
+        "Type": "enim",
+        "ColorBlock": 831,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2017-01-07T14:13:49.6336384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "facere",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "nobis",
         "Hidden": true,
-        "FullName": "Prof. Velma Arlie Koepp",
+        "FullName": "Keagan Hermann V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 401
+            "FieldLength": 852
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "eum",
+    "ExtraInfo": "facilis",
+    "StyleHint": "atque",
     "Hidden": false,
-    "FullName": "Sabryna Senger",
+    "FullName": "Dr. Gina Wisoky",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldLength": 608
       }
     }
   }

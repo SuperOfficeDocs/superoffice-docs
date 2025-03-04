@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "incidunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "incidunt",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Nikolaus-Hessel",
-  "Comment": "nihil",
-  "StakeholderRoleId": 971,
-  "CountryId": 188,
-  "PersonId": 839,
-  "EmailDescription": "francisca.lockman@zulaufcorwin.us",
-  "EmailId": 494,
-  "EmailAddress": "laurel.bailey@koch.co.uk",
-  "PhoneId": 840,
-  "ContactName": "Green-Hackett",
-  "ContactId": 347,
-  "SaleId": 482,
-  "Mrmrs": "cum",
-  "Firstname": "Clara",
-  "MiddleName": "Grady-Hessel",
-  "Lastname": "Dicki",
-  "SaleStakeholderId": 268,
-  "Rank": 561,
-  "Phone": "551.075.9355",
+  "StakeholderRoleName": "Tillman, Johnston and Robel",
+  "Comment": "dolores",
+  "StakeholderRoleId": 707,
+  "CountryId": 520,
+  "PersonId": 910,
+  "EmailDescription": "ferne_veum@abernathy.com",
+  "EmailId": 724,
+  "EmailAddress": "ashly_konopelski@naderbrekke.uk",
+  "PhoneId": 290,
+  "ContactName": "Mertz-Yundt",
+  "ContactId": 396,
+  "SaleId": 211,
+  "Mrmrs": "harum",
+  "Firstname": "Kory",
+  "MiddleName": "Hamill Inc and Sons",
+  "Lastname": "Schmitt",
+  "SaleStakeholderId": 90,
+  "Rank": 551,
+  "Phone": "1-716-972-9983",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 211
     }
   },
   "_Links": {

@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 338,
-  "UniqueIdentifier": "est",
-  "Name": "Fritsch, Bernier and Kuhn",
-  "Description": "Devolved multi-state application",
-  "IncludeId": "dolor",
-  "AccessKey": "voluptatem",
-  "HierarchyId": 738,
-  "Source": "dolore",
-  "SourceCode": "dignissimos",
+  "EjscriptId": 231,
+  "UniqueIdentifier": "ullam",
+  "Name": "Wilkinson Group",
+  "Description": "Integrated next generation synergy",
+  "IncludeId": "dolorem",
+  "AccessKey": "nemo",
+  "HierarchyId": 766,
+  "Source": "molestiae",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 467,
+  "HtmlOutput": 935,
   "Includes": [
-    921,
-    799
+    91,
+    70
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 831,
-      "LineNumberTo": 985,
-      "Delta": 425,
-      "IncludeId": "minima",
+      "LineNumberFrom": 466,
+      "LineNumberTo": 176,
+      "Delta": 26,
+      "IncludeId": "libero",
       "IncludedFrom": [
-        "ut",
-        "deleniti"
+        "et",
+        "ut"
       ]
     },
     {
-      "LineNumberFrom": 831,
-      "LineNumberTo": 985,
-      "Delta": 425,
-      "IncludeId": "minima",
+      "LineNumberFrom": 466,
+      "LineNumberTo": 176,
+      "Delta": 26,
+      "IncludeId": "libero",
       "IncludedFrom": [
-        "ut",
-        "deleniti"
+        "et",
+        "ut"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-10-03T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 411,
-  "Updated": "2011-11-08T12:01:32.8394314+01:00",
-  "UpdatedAssociateId": 296
+  "Registered": "2018-08-25T14:13:48.7587273+02:00",
+  "RegisteredAssociateId": 592,
+  "Updated": "2003-02-10T14:13:48.7587273+01:00",
+  "UpdatedAssociateId": 749
 }
 ```
 
@@ -171,52 +171,52 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 921,
-  "UniqueIdentifier": "neque",
-  "Name": "Legros, Harvey and Jaskolski",
-  "Description": "Customer-focused methodical emulation",
-  "IncludeId": "corporis",
-  "AccessKey": "blanditiis",
-  "HierarchyId": 985,
-  "Source": "beatae",
-  "SourceCode": "reiciendis",
+  "EjscriptId": 890,
+  "UniqueIdentifier": "commodi",
+  "Name": "Abshire, Greenholt and Robel",
+  "Description": "Object-based even-keeled local area network",
+  "IncludeId": "voluptate",
+  "AccessKey": "molestiae",
+  "HierarchyId": 338,
+  "Source": "reprehenderit",
+  "SourceCode": "cumque",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 191,
+  "HtmlOutput": 205,
   "Includes": [
-    720,
-    850
+    525,
+    268
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 216,
-      "LineNumberTo": 638,
-      "Delta": 361,
-      "IncludeId": "amet",
+      "LineNumberFrom": 825,
+      "LineNumberTo": 426,
+      "Delta": 456,
+      "IncludeId": "dolore",
       "IncludedFrom": [
-        "harum",
-        "ut"
+        "architecto",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 379
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-05-06T12:01:32.8394314+02:00",
-  "RegisteredAssociateId": 489,
-  "Updated": "1999-09-16T12:01:32.8394314+02:00",
-  "UpdatedAssociateId": 976,
+  "Registered": "1998-12-17T14:13:48.7587273+01:00",
+  "RegisteredAssociateId": 58,
+  "Updated": "2008-07-09T14:13:48.7587273+02:00",
+  "UpdatedAssociateId": 762,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 472
     }
   },
   "_Links": {

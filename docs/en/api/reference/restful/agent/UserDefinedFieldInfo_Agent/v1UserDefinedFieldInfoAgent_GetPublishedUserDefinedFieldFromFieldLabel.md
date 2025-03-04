@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aliquam",
+  "FieldLabel": "molestias",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 690,
-  "ColumnId": 430,
-  "FieldDefault": "exercitationem",
-  "FieldHeight": 820,
-  "FieldLabel": "sunt",
-  "FieldLeft": 146,
-  "FieldTop": 551,
+  "UDefFieldId": 894,
+  "ColumnId": 633,
+  "FieldDefault": "sit",
+  "FieldHeight": 98,
+  "FieldLabel": "autem",
+  "FieldLeft": 305,
+  "FieldTop": 388,
   "FieldType": "Checkbox",
-  "FieldWidth": 203,
-  "FormatMask": "cupiditate",
+  "FieldWidth": 553,
+  "FormatMask": "repellendus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 652,
-  "LabelLeft": 702,
-  "LabelTop": 138,
-  "LabelWidth": 182,
-  "LastVersionId": 733,
-  "ListTableId": 503,
+  "LabelHeight": 983,
+  "LabelLeft": 223,
+  "LabelTop": 303,
+  "LabelWidth": 459,
+  "LastVersionId": 245,
+  "ListTableId": 497,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 887,
-  "ProgId": "aliquam",
+  "Page1LineNo": 57,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 96,
-  "TextLength": 963,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 966,
-  "UDListDefinitionId": 306,
+  "ShortLabel": "aspernatur",
+  "TabOrder": 787,
+  "TextLength": 855,
+  "Tooltip": "quia",
+  "UdefIdentity": 179,
+  "UDListDefinitionId": 872,
   "Justification": "Center",
-  "Version": 554,
-  "TemplateVariableName": "Marks Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Toy-Marquardt",
+  "Version": 471,
+  "TemplateVariableName": "Feest Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Rowe, Champlin and Keebler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldLength": 936
     }
   }
 }

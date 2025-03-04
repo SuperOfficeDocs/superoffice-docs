@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein, Hilll and Halvorson",
-    "Description": "Re-contextualized methodical moratorium",
-    "Rank": 938,
+    "Name": "Kuphal, Bruen and Ondricka",
+    "Description": "Vision-oriented bottom-line framework",
+    "Rank": 131,
     "Restrictions": [
       {
-        "Name": "Ratke-Bahringer",
-        "Operator": "nostrum",
+        "Name": "Donnelly, Connelly and Franecki",
+        "Operator": "illo",
         "Values": [
-          "autem",
-          "ratione"
+          "et",
+          "maiores"
         ],
         "DisplayValues": [
-          "molestiae",
-          "quas"
+          "facere",
+          "corrupti"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 515,
+        "InterParenthesis": 633,
         "InterOperator": "And",
-        "UniqueHash": 20
+        "UniqueHash": 583
       }
     ]
   },
   {
-    "Name": "Klein, Hilll and Halvorson",
-    "Description": "Re-contextualized methodical moratorium",
-    "Rank": 938,
+    "Name": "Kuphal, Bruen and Ondricka",
+    "Description": "Vision-oriented bottom-line framework",
+    "Rank": 131,
     "Restrictions": [
       {
-        "Name": "Ratke-Bahringer",
-        "Operator": "nostrum",
+        "Name": "Donnelly, Connelly and Franecki",
+        "Operator": "illo",
         "Values": [
-          "autem",
-          "ratione"
+          "et",
+          "maiores"
         ],
         "DisplayValues": [
-          "molestiae",
-          "quas"
+          "facere",
+          "corrupti"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 515,
+        "InterParenthesis": 633,
         "InterOperator": "And",
-        "UniqueHash": 20
+        "UniqueHash": 583
       }
     ]
   }
@@ -144,20 +144,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Turcotte-Jerde",
-    "Description": "Upgradable stable moderator",
-    "Rank": 435,
+    "Name": "O'Connell-Howe",
+    "Description": "Grass-roots impactful analyzer",
+    "Rank": 638,
     "Restrictions": [
       {
-        "Name": "Hessel LLC",
-        "Operator": "culpa",
+        "Name": "Leuschke, Connelly and Pouros",
+        "Operator": "provident",
         "Values": [
-          "alias",
-          "ea"
+          "hic",
+          "eum"
         ],
         "DisplayValues": [
-          "nobis",
-          "ipsam"
+          "labore",
+          "culpa"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -165,27 +165,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 731,
+        "InterParenthesis": 519,
         "InterOperator": "And",
-        "UniqueHash": 110
+        "UniqueHash": 453
       }
     ]
   },
   {
-    "Name": "Turcotte-Jerde",
-    "Description": "Upgradable stable moderator",
-    "Rank": 435,
+    "Name": "O'Connell-Howe",
+    "Description": "Grass-roots impactful analyzer",
+    "Rank": 638,
     "Restrictions": [
       {
-        "Name": "Hessel LLC",
-        "Operator": "culpa",
+        "Name": "Leuschke, Connelly and Pouros",
+        "Operator": "provident",
         "Values": [
-          "alias",
-          "ea"
+          "hic",
+          "eum"
         ],
         "DisplayValues": [
-          "nobis",
-          "ipsam"
+          "labore",
+          "culpa"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -193,9 +193,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 731,
+        "InterParenthesis": 519,
         "InterOperator": "And",
-        "UniqueHash": 110
+        "UniqueHash": 453
       }
     ]
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=saepe
+GET /api/v1/List/Category/MDOItems?query=eum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Walter-Bergstrom",
-    "ToolTip": "Consequuntur nemo velit officia est nemo.",
+    "Id": 377,
+    "Name": "Schinner-Weimann",
+    "ToolTip": "Et dolore qui.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "voluptates",
+    "Rank": 157,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "Rohan, Nader and Boyer",
-        "ToolTip": "Nam optio tempore nihil soluta cumque dolorem.",
+        "Id": 452,
+        "Name": "Wolff-Jacobs",
+        "ToolTip": "Quo et qui ut sit.",
         "Deleted": true,
-        "Rank": 683,
-        "Type": "culpa",
+        "Rank": 697,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 360,
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
-        "FullName": "Joanne Okuneva",
+        "IconHint": "laboriosam",
+        "ColorBlock": 381,
+        "ExtraInfo": "nam",
+        "StyleHint": "quo",
+        "FullName": "Dr. Corene Kelli Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 899
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 83,
-    "ExtraInfo": "neque",
-    "StyleHint": "non",
-    "FullName": "Haleigh Adams MD",
+    "IconHint": "rerum",
+    "ColorBlock": 914,
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "aut",
+    "FullName": "Prof. Citlalli Gabe Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 656
+        "FieldLength": 658
       }
     }
   }

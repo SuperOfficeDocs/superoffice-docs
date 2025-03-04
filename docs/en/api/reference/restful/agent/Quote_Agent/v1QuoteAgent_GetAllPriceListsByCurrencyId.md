@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 728,
-  "CurrencyId": 674
+  "QuoteConnectionId": 879,
+  "CurrencyId": 314
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 957,
-    "ERPPriceListKey": "voluptatem",
-    "QuoteConnectionId": 212,
-    "Name": "Aufderhar Inc and Sons",
-    "Description": "Upgradable neutral synergy",
-    "Currency": "cum",
-    "CurrencyName": "Littel-Mills",
-    "ValidFrom": "2015-02-02T12:01:28.1971849+01:00",
-    "ValidTo": "2012-12-03T12:01:28.1971849+01:00",
+    "PriceListId": 541,
+    "ERPPriceListKey": "nisi",
+    "QuoteConnectionId": 678,
+    "Name": "Effertz, VonRueden and Fahey",
+    "Description": "User-friendly 6th generation approach",
+    "Currency": "voluptas",
+    "CurrencyName": "Mayer Group",
+    "ValidFrom": "2010-05-03T14:13:41.1095702+02:00",
+    "ValidTo": "2015-11-17T14:13:41.1095702+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 519
+        "FieldType": "System.String",
+        "FieldLength": 506
       }
     }
   }

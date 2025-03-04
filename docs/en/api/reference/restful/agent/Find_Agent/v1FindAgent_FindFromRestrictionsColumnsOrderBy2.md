@@ -165,16 +165,16 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "error",
-  "ProviderName": "Murray Inc and Sons",
-  "DesiredColumns": "reprehenderit",
-  "OrderBy": "ut",
-  "PageSize": 752,
-  "PageNumber": 575
+  "Restrictions": "doloribus",
+  "ProviderName": "Hane Inc and Sons",
+  "DesiredColumns": "at",
+  "OrderBy": "et",
+  "PageSize": 160,
+  "PageNumber": 650
 }
 ```
 
@@ -187,51 +187,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kemmer, Wisozk and Dibbert",
-      "DisplayTooltip": "et",
-      "DisplayType": "sed",
-      "CanOrderBy": true,
-      "Name": "Boyle, McLaughlin and VonRueden",
-      "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Harris-Cummings",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "ut",
+      "DisplayName": "Skiles Inc and Sons",
+      "DisplayTooltip": "expedita",
+      "DisplayType": "voluptatem",
+      "CanOrderBy": false,
+      "Name": "VonRueden Inc and Sons",
+      "CanRestrictBy": false,
+      "RestrictionType": "eveniet",
+      "RestrictionListName": "Donnelly, Lockman and Haley",
+      "IsVisible": false,
+      "ExtraInfo": "eveniet",
+      "Width": "inventore",
       "IconHint": "et",
-      "HeadingIconHint": "voluptatem"
+      "HeadingIconHint": "quos"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Toy LLC",
-      "PrimaryKey": 17,
+      "EntityName": "Crona, Muller and Jakubowski",
+      "PrimaryKey": 624,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consectetur",
-          "TooltipHint": "unde",
-          "LinkHint": "nostrum"
+          "DisplayValue": "sit",
+          "TooltipHint": "et",
+          "LinkHint": "rerum"
         }
       },
-      "LinkHint": "quisquam",
-      "StyleHint": "non",
+      "LinkHint": "cum",
+      "StyleHint": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 892
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
   ],
-  "RowCount": 596,
+  "RowCount": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

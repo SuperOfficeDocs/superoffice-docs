@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 426,
-    "Name": "Bartoletti, Wuckert and Runolfsson",
-    "ToolTip": "Nesciunt repellendus reprehenderit maxime eum impedit iste.",
-    "Deleted": false,
-    "Rank": 671,
-    "Type": "et",
-    "ColorBlock": 257,
-    "IconHint": "esse",
+    "Id": 361,
+    "Name": "Predovic-Douglas",
+    "ToolTip": "Quis provident distinctio qui consequatur.",
+    "Deleted": true,
+    "Rank": 392,
+    "Type": "ut",
+    "ColorBlock": 93,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2023-05-24T12:01:33.5738574+02:00",
+    "LastChanged": "2016-11-16T14:13:50.0875321+01:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Ward, Tillman and Tromp",
-        "ToolTip": "At et dolorem autem illum repellat sequi.",
+        "Id": 934,
+        "Name": "Kshlerin-Shields",
+        "ToolTip": "Dolore voluptatem enim consequatur.",
         "Deleted": false,
-        "Rank": 392,
-        "Type": "et",
-        "ColorBlock": 441,
-        "IconHint": "sunt",
+        "Rank": 90,
+        "Type": "ipsa",
+        "ColorBlock": 532,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2022-12-16T12:01:33.5738574+01:00",
+        "LastChanged": "2019-12-19T14:13:50.0875321+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "et",
+        "ExtraInfo": "omnis",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Cristopher Mayer",
+        "FullName": "Trisha Feeney DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 543
+            "FieldLength": 816
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "hic",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Dr. Jerrell Bashirian",
+    "FullName": "Roberto Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 242
       }
     }
   }

@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 847,
+  "TicketId": 141,
   "MessageIds": [
-    586,
-    897
+    494,
+    226
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 313,
+    "EjMessageId": 575,
     "Ticket": null,
-    "CreatedAt": "2020-09-16T12:01:28.5409587+02:00",
+    "CreatedAt": "2007-04-30T14:13:41.5633969+02:00",
     "CreatedBy": null,
-    "Author": "asperiores",
+    "Author": "architecto",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "illo",
-    "TimeSpent": 706,
-    "Body": "consequatur",
-    "HtmlBody": "nam",
-    "EmailHeader": "maymie_king@gaylord.co.uk",
-    "DebugInfo": "ex",
-    "MailSorter": "distinctio",
+    "MessageId": "explicabo",
+    "TimeSpent": 84,
+    "Body": "eaque",
+    "HtmlBody": "neque",
+    "EmailHeader": "jordane_dooley@greenfelder.name",
+    "DebugInfo": "beatae",
+    "MailSorter": "suscipit",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "voluptatum",
+    "SearchTitle": "perspiciatis",
     "MessageHeaders": [
       {
-        "Id": 292,
-        "Name": "Hudson-O'Keefe",
-        "Value": "nesciunt",
+        "Id": 990,
+        "Name": "Will LLC",
+        "Value": "exercitationem",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 43
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "quia",
-    "Sentiment": 363,
-    "SentimentConfidence": 692,
+    "Important": false,
+    "Language": "error",
+    "Sentiment": 507,
+    "SentimentConfidence": 634,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 299,
-        "Name": "Pacocha, Mayer and Wiza",
-        "ContentType": "minus",
-        "AttSize": 25,
+        "AttachmentId": 550,
+        "Name": "Williamson Group",
+        "ContentType": "vitae",
+        "AttSize": 363,
         "InlineImage": false,
-        "ContentId": "similique",
-        "AuthKey": "aperiam",
+        "ContentId": "alias",
+        "AuthKey": "voluptas",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 972
+            "FieldLength": 126
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "quod",
-      "ExtraFields2": "voluptatibus"
+      "ExtraFields1": "sit",
+      "ExtraFields2": "aut"
     },
     "CustomFields": {
-      "CustomFields1": "dignissimos",
-      "CustomFields2": "impedit"
+      "CustomFields1": "dolores",
+      "CustomFields2": "reiciendis"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 67
+        "FieldType": "System.String",
+        "FieldLength": 588
       }
     }
   }

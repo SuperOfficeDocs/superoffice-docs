@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 493,
-    "Name": "White, Crona and Terry",
-    "Rank": 568,
-    "Tooltip": "et",
-    "Icon": "laborum",
-    "DefaultTicketStatus": 746,
+    "TicketTypeId": 711,
+    "Name": "Effertz, Bode and Blick",
+    "Rank": 555,
+    "Tooltip": "porro",
+    "Icon": "quae",
+    "DefaultTicketStatus": 332,
     "TicketStatuses": [
-      528,
-      422
+      377,
+      359
     ],
-    "DefaultTicketPriority": 20,
+    "DefaultTicketPriority": 455,
     "TicketPriorities": [
-      745,
-      518
+      816,
+      236
     ],
-    "ReplyTemplate": 94,
+    "ReplyTemplate": 459,
     "IsExternalVisible": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
+    "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      43,
-      947
+      860,
+      358
     ],
     "ReplyForwardNoSignature": true,
     "ReplyExternalAsDefault": false,
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 698
+        "FieldType": "System.String",
+        "FieldLength": 580
       }
     }
   }

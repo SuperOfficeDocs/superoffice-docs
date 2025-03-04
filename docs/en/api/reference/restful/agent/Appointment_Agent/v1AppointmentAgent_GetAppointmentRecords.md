@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 949,
-  "RecurrenceRuleId": 650
+  "MotherId": 208,
+  "RecurrenceRuleId": 446
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 747,
-    "StartDate": "2008-08-28T12:01:27.0252114+02:00",
-    "EndDate": "2007-09-04T12:01:27.0252114+02:00",
+    "AppointmentId": 345,
+    "StartDate": "2018-12-30T14:13:39.0005676+01:00",
+    "EndDate": "2008-05-18T14:13:39.0005676+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsa",
-    "AssociateFullName": "Jarrett Windler I",
-    "ContactName": "Grant, Kuphal and Altenwerth",
-    "Description": "Fully-configurable homogeneous local area network",
-    "PersonFullName": "Jabari Hegmann",
-    "PersonId": 385,
-    "ContactId": 380,
-    "ProjectId": 232,
-    "ProjectName": "Fadel Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 36,
-    "ColorIndex": 344,
+    "Task": "similique",
+    "AssociateFullName": "Ms. Glenda Destany Waelchi III",
+    "ContactName": "Lind-O'Hara",
+    "Description": "Ameliorated composite structure",
+    "PersonFullName": "Miss Aubrey Tanya Wintheiser V",
+    "PersonId": 164,
+    "ContactId": 108,
+    "ProjectId": 969,
+    "ProjectName": "Zemlak LLC",
+    "IsPublished": true,
+    "AssociateId": 946,
+    "ColorIndex": 944,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 300,
-    "PriorityName": "Fay, Langosh and Daniel",
+    "PriorityId": 640,
+    "PriorityName": "Schneider, Rempel and Christiansen",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-03-10T12:01:27.0252114+01:00",
+    "ActiveDate": "2017-05-05T14:13:39.0005676+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1999-06-25T12:01:27.0252114+02:00",
-    "RecurringEndDate": "1998-03-15T12:01:27.0252114+01:00",
-    "MotherId": 800,
-    "AssignedBy": 966,
-    "AssignedByFullName": "Westley Hirthe",
+    "RecurringStartDate": "2017-06-13T14:13:39.0005676+02:00",
+    "RecurringEndDate": "2010-12-23T14:13:39.0005676+01:00",
+    "MotherId": 57,
+    "AssignedBy": 212,
+    "AssignedByFullName": "Julianne Hettinger",
     "RejectReason": "",
-    "Location": "dolor",
-    "AlarmLeadTime": "ad",
-    "SaleId": 630,
-    "SaleName": "Lueilwitz Group",
-    "AssociateName": "Jewess-Walter",
-    "CreatedDate": "2006-01-31T12:01:27.0252114+01:00",
-    "CreatedBy": "ut",
-    "CreatedByFullName": "Oleta Stoltenberg",
-    "CreatedByAssociateId": 751,
+    "Location": "eum",
+    "AlarmLeadTime": "sed",
+    "SaleId": 362,
+    "SaleName": "Feest-Romaguera",
+    "AssociateName": "Braun Inc and Sons",
+    "CreatedDate": "2017-06-29T14:13:39.0005676+02:00",
+    "CreatedBy": "non",
+    "CreatedByFullName": "Jay Runte",
+    "CreatedByAssociateId": 180,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 376,
-    "Title": "qui",
-    "Agenda": "nihil",
-    "InternalNotes": "earum",
+    "PreferredTZLocation": 261,
+    "Title": "quod",
+    "Agenda": "porro",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 288
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Wilkinson, Heaney and Prohaska",
-    "ToolTip": "Sint laborum excepturi.",
+    "Id": 838,
+    "Name": "Kiehn, Beier and Leffler",
+    "ToolTip": "Cupiditate repellat.",
     "Deleted": false,
-    "Rank": 111,
-    "Type": "cumque",
-    "ColorBlock": 798,
-    "IconHint": "quod",
+    "Rank": 713,
+    "Type": "tempora",
+    "ColorBlock": 948,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2005-11-13T12:01:33.6832402+01:00",
+    "LastChanged": "2008-05-28T14:13:50.2908221+02:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Daniel-Mitchell",
-        "ToolTip": "Cum debitis ullam non eum alias.",
+        "Id": 889,
+        "Name": "Gottlieb LLC",
+        "ToolTip": "Quia sit saepe quia.",
         "Deleted": true,
-        "Rank": 434,
-        "Type": "autem",
-        "ColorBlock": 348,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2006-07-27T12:01:33.6832402+02:00",
+        "Rank": 693,
+        "Type": "inventore",
+        "ColorBlock": 824,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "2012-05-29T14:13:50.2908221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Ole Pouros",
+        "ExtraInfo": "quis",
+        "StyleHint": "nemo",
+        "Hidden": false,
+        "FullName": "Mrs. Berry Ivah Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 680
+            "FieldLength": 789
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Jacinthe Wiegand",
+    "ExtraInfo": "maiores",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Mr. Alessia Cremin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 530
       }
     }
   }

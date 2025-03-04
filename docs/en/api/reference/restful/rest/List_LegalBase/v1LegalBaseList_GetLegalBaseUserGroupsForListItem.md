@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Bogan-Zboncak",
-    "ToolTip": "A tenetur et repellendus.",
+    "Id": 846,
+    "Name": "Hills, McGlynn and Wolff",
+    "ToolTip": "Excepturi dolores.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "sint",
-    "ColorBlock": 674,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2021-04-17T12:01:33.5269792+02:00",
+    "Rank": 362,
+    "Type": "quaerat",
+    "ColorBlock": 602,
+    "IconHint": "incidunt",
+    "Selected": true,
+    "LastChanged": "2023-03-11T14:13:49.9781847+01:00",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Sipes, Kovacek and Rippin",
-        "ToolTip": "Sed voluptatem.",
+        "Id": 604,
+        "Name": "Hilll, Keeling and Toy",
+        "ToolTip": "Velit quas repellat non.",
         "Deleted": false,
-        "Rank": 502,
-        "Type": "sunt",
-        "ColorBlock": 211,
-        "IconHint": "vel",
+        "Rank": 945,
+        "Type": "asperiores",
+        "ColorBlock": 206,
+        "IconHint": "necessitatibus",
         "Selected": true,
-        "LastChanged": "2009-11-10T12:01:33.5269792+01:00",
+        "LastChanged": "2001-04-09T14:13:49.9781847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Mrs. Alexis Eloisa Nitzsche III",
+        "ExtraInfo": "non",
+        "StyleHint": "labore",
+        "Hidden": false,
+        "FullName": "Casimir Olson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 475
+            "FieldType": "System.String",
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "soluta",
+    "ExtraInfo": "iure",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Mrs. Garrett Jacobi",
+    "FullName": "Vidal Marquardt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 695
+        "FieldType": "System.Int32",
+        "FieldLength": 397
       }
     }
   }

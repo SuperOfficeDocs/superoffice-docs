@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 838,
-  "Name": "Kirlin Inc and Sons",
-  "Tooltip": "tenetur",
-  "Deleted": false,
-  "Rank": 428,
+  "Id": 63,
+  "Name": "Terry, Thompson and Eichmann",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 312,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "illum",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Klein-Morissette",
-  "Tooltip": "ratione",
+  "Id": 81,
+  "Name": "Lubowitz, Zboncak and Labadie",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 585,
+  "Rank": 120,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
+  "ListType": "libero",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 856
     }
   }
 }

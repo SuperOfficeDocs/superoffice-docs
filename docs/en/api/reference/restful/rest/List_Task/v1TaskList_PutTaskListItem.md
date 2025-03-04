@@ -94,21 +94,21 @@ OK
 PUT /api/v1/List/Task/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 37,
-  "Value": "voluptas",
+  "TaskListItemId": 336,
+  "Value": "modi",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "et",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "IntentId": 702,
-  "Rank": 215,
+  "IntentId": 657,
+  "Rank": 210,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 928,
-  "Value": "ex",
+  "TaskListItemId": 73,
+  "Value": "magni",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "exercitationem",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "IntentId": 92,
-  "Rank": 778,
+  "IntentId": 266,
+  "Rank": 968,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 199
     }
   }
 }

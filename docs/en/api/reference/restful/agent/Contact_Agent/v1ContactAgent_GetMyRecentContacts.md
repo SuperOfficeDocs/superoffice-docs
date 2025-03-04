@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 289,
-    "Name": "Leffler-Marks",
-    "OrgNr": "877371",
-    "Department": "e-enable robust eyeballs",
+    "ContactId": 949,
+    "Name": "Leffler, Gerhold and Terry",
+    "OrgNr": "872931",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "qui",
-    "DirectPhone": "708-308-8315 x18971",
-    "AssociateId": 306,
-    "CountryId": 175,
-    "EmailAddress": "dolores.purdy@rolfson.ca",
-    "Kananame": "rem",
-    "EmailAddressName": "baron@lind.biz",
+    "City": "sint",
+    "DirectPhone": "1-174-175-9544",
+    "AssociateId": 222,
+    "CountryId": 275,
+    "EmailAddress": "bill.jacobi@nitzsche.us",
+    "Kananame": "labore",
+    "EmailAddressName": "lyda@ondrickaaufderhar.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Bailee Gerlach",
+    "AssociateFullName": "Marlen Barney Kemmer I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "error",
-    "FullName": "Dr. Ladarius Danika Prohaska",
+    "FormattedAddress": "dolores",
+    "FullName": "Miss Amaya Darby Rosenbaum Jr.",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 972,
-    "Number1": "1276615",
-    "Number2": "944607",
+    "ActiveErpLinks": 421,
+    "Number1": "924058",
+    "Number2": "1255862",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 120
+        "FieldType": "System.Int32",
+        "FieldLength": 949
       }
     }
   }

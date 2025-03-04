@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 859,
-  "TopicId": 641,
+  "ChatSessionId": 180,
+  "TopicId": 942,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eveniet",
-  "CustomerHost": "facilis",
-  "CustomerName": "Hilll-Stracke",
-  "CustomerEmail": "carmella.yundt@jast.uk",
-  "CustomerPhone": "(294)238-4327 x49893",
+  "CustomerAlias": "architecto",
+  "CustomerHost": "a",
+  "CustomerName": "Casper, Beier and Dibbert",
+  "CustomerEmail": "rubye@harveyyost.co.uk",
+  "CustomerPhone": "1-208-756-6741",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Ullrich Inc and Sons",
+  "CustomerCompanyName": "Deckow Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "quibusdam",
-  "LastMessage": "earum",
-  "WhenRequested": "2023-12-06T12:01:32.6987969+01:00",
-  "WhenStarted": "2023-01-28T12:01:32.6987969+01:00",
-  "WhenEnded": "2001-05-11T12:01:32.6987969+02:00",
-  "WhenIdle": "2017-02-04T12:01:32.6987969+01:00",
-  "WhenFetched": "2006-01-05T12:01:32.6987969+01:00",
-  "SessionKey": "molestias",
-  "InitialQueuePos": 183,
-  "AlertLevel": 238,
-  "Rank": 577,
+  "FirstMessage": "necessitatibus",
+  "LastMessage": "adipisci",
+  "WhenRequested": "2001-11-29T14:13:48.3352073+01:00",
+  "WhenStarted": "2016-10-22T14:13:48.3352073+02:00",
+  "WhenEnded": "2010-04-04T14:13:48.3352073+02:00",
+  "WhenIdle": "2021-08-26T14:13:48.3352073+02:00",
+  "WhenFetched": "1998-12-03T14:13:48.3352073+01:00",
+  "SessionKey": "sit",
+  "InitialQueuePos": 944,
+  "AlertLevel": 897,
+  "Rank": 858,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 672,
+  "Rating": 577,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 147
     }
   },
   "_Links": {

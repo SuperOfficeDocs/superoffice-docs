@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 649,
-  "ErpConnectorId": 724,
-  "DisplayName": "Wisozk-Glover",
-  "DisplayDescription": "Re-contextualized even-keeled model",
+  "ErpConnectionId": 676,
+  "ErpConnectorId": 781,
+  "DisplayName": "McClure, Krajcik and Bahringer",
+  "DisplayDescription": "Down-sized well-modulated definition",
   "Active": true,
-  "ConnectionId": "recusandae",
-  "MostRecentTimestamp": "aut",
+  "ConnectionId": "sed",
+  "MostRecentTimestamp": "amet",
   "ConfigFields": {
-    "ConfigFields1": "cumque",
-    "ConfigFields2": "delectus"
+    "ConfigFields1": "neque",
+    "ConfigFields2": "alias"
   },
-  "Deleted": false,
-  "AllAccess": true,
+  "Deleted": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    301,
-    937
+    684,
+    421
   ],
   "AssociateAccessIds": [
-    437,
-    424
+    195,
+    859
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldType": "System.String",
+      "FieldLength": 732
     }
   }
 }

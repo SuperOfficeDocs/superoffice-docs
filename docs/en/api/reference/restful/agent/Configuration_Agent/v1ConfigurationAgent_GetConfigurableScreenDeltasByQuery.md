@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 318,
-    "Name": "Gaylord-Kutch",
-    "Description": "Reduced composite protocol",
-    "DeltaJson": "quia",
+    "ConfigurableScreenDeltaId": 952,
+    "Name": "Ward LLC",
+    "Description": "Progressive 5th generation open architecture",
+    "DeltaJson": "vero",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "consequatur",
-    "UpdatedDate": "2015-09-07T12:01:27.4471334+02:00",
-    "CreatedDate": "2000-11-17T12:01:27.4471334+01:00",
+    "RecipeId": "commodi",
+    "UpdatedDate": "2020-11-03T14:13:39.7347754+01:00",
+    "CreatedDate": "2010-03-16T14:13:39.7347754+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      219,
-      707
+      86,
+      446
     ],
-    "AppliesToKey": "aut",
+    "AppliesToKey": "eius",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 912
       }
     }
   }

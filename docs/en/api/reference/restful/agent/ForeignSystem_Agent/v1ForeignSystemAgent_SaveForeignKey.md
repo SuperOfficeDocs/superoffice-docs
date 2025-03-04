@@ -88,9 +88,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Christiansen LLC",
-  "DeviceName": "Ortiz, Willms and Langosh",
-  "DeviceIdentifier": "odit"
+  "ApplicationName": "Sauer, Beahan and Kunze",
+  "DeviceName": "Wolf, Lynch and Jewess",
+  "DeviceIdentifier": "magni"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ex",
-  "Value": "consequatur",
-  "RecordId": 71,
-  "CreatedDate": "2006-07-10T12:01:27.9002891+02:00",
-  "UpdatedDate": "2005-05-02T12:01:27.9002891+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "id",
-  "TableName": "Vandervort-Lang",
+  "Key": "dignissimos",
+  "Value": "placeat",
+  "RecordId": 752,
+  "CreatedDate": "2008-06-20T14:13:40.3909833+02:00",
+  "UpdatedDate": "2010-09-26T14:13:40.3909833+02:00",
+  "UpdatedBy": "iste",
+  "CreatedBy": "fugiat",
+  "TableName": "Weber LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 303
     }
   }
 }

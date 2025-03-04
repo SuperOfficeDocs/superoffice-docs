@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=qui
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=quo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Hahn, Schultz and Heaney",
-    "ToolTip": "Quam similique repellendus.",
+    "Id": 890,
+    "Name": "Satterfield Group",
+    "ToolTip": "Ut voluptatem esse accusamus consectetur possimus.",
     "Deleted": false,
-    "Rank": 963,
-    "Type": "qui",
+    "Rank": 17,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 702,
-        "Name": "Parker, Padberg and Treutel",
-        "ToolTip": "Debitis soluta vitae repudiandae mollitia explicabo.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "officia",
+        "Id": 978,
+        "Name": "Krajcik, Greenfelder and Windler",
+        "ToolTip": "Eum repellendus molestiae sed velit.",
+        "Deleted": false,
+        "Rank": 831,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 861,
-        "ExtraInfo": "illum",
-        "StyleHint": "debitis",
-        "FullName": "Eleonore Hintz",
+        "IconHint": "et",
+        "ColorBlock": 101,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "nesciunt",
+        "FullName": "Ms. Jaleel Larson MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 291
+            "FieldType": "System.Int32",
+            "FieldLength": 720
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 315,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "labore",
-    "FullName": "Ms. Eusebio Tracey Kozey MD",
+    "IconHint": "at",
+    "ColorBlock": 304,
+    "ExtraInfo": "nisi",
+    "StyleHint": "animi",
+    "FullName": "Prof. Orrin Keshaun Gerhold DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 778
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

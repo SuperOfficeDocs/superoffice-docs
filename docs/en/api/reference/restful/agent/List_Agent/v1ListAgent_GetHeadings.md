@@ -93,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 967,
-  "ListItemId": 264,
+  "UdListDefinitionId": 251,
+  "ListItemId": 75,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Schulist Inc and Sons",
-    "ToolTip": "Dolorem in ut tempora.",
+    "Id": 577,
+    "Name": "Herman-Shields",
+    "ToolTip": "A quod eum vel omnis voluptates.",
     "Deleted": false,
-    "Rank": 592,
-    "Type": "non",
-    "ColorBlock": 930,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2016-06-11T12:01:27.9471677+02:00",
+    "Rank": 469,
+    "Type": "veniam",
+    "ColorBlock": 250,
+    "IconHint": "odio",
+    "Selected": true,
+    "LastChanged": "2016-10-08T14:13:40.4847118+02:00",
     "ChildItems": [
       {
-        "Id": 612,
-        "Name": "Koss, Goldner and Rath",
-        "ToolTip": "Fuga iure laboriosam nihil.",
-        "Deleted": false,
-        "Rank": 522,
-        "Type": "est",
-        "ColorBlock": 130,
-        "IconHint": "itaque",
+        "Id": 158,
+        "Name": "Wisoky Inc and Sons",
+        "ToolTip": "Inventore velit ut nisi quia et molestiae.",
+        "Deleted": true,
+        "Rank": 297,
+        "Type": "quo",
+        "ColorBlock": 380,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2017-04-24T12:01:27.9471677+02:00",
+        "LastChanged": "2018-02-20T14:13:40.4847118+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "animi",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Mr. Ray Nitzsche I",
+        "FullName": "Troy Osbaldo Block IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 210
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "autem",
+    "ExtraInfo": "quia",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Miss Adolph Callie Dibbert",
+    "FullName": "Cristian Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

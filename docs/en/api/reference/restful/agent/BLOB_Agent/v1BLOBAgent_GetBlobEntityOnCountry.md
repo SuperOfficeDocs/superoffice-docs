@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 47
+  "CountryId": 317
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 611,
-  "BlobSize": 834,
-  "Description": "Reverse-engineered incremental encryption",
-  "ExtraInfo": "odio",
-  "IsEncrypted": false,
+  "BlobId": 29,
+  "BlobSize": 18,
+  "Description": "Upgradable zero tolerance functionalities",
+  "ExtraInfo": "ipsum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptate",
-  "OriginalSize": 454,
-  "CreatedDate": "2000-03-11T12:01:27.3533761+01:00",
-  "UpdatedDate": "2006-01-22T12:01:27.3533761+01:00",
+  "MimeType": "fugiat",
+  "OriginalSize": 562,
+  "CreatedDate": "1999-06-27T14:13:39.4067248+02:00",
+  "UpdatedDate": "2002-02-11T14:13:39.4067248+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "sequi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldType": "System.Int32",
+      "FieldLength": 152
     }
   }
 }

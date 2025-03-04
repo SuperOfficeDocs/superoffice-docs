@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 571,
-  "Name": "Gutmann, Deckow and Grady",
-  "Tooltip": "esse",
+  "Id": 914,
+  "Name": "Schumm Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 372,
+  "Rank": 907,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
+  "ListType": "est",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Krajcik, Stracke and Homenick",
-  "Tooltip": "fugiat",
+  "Id": 211,
+  "Name": "Koch Inc and Sons",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 103,
-  "IsCustomList": true,
+  "Rank": 227,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "in",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldLength": 189
     }
   }
 }

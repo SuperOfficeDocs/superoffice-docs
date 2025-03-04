@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 28,
-    "Name": "Ryan-Sauer",
-    "Description": "Fundamental human-resource portal",
+    "ProjectId": 994,
+    "Name": "Mayert, Mante and Aufderhar",
+    "Description": "Total multi-tasking model",
     "URL": "http://www.example.com/",
-    "Type": "distinctio",
-    "AssociateId": 893,
-    "AssociateFullName": "Shania Funk",
-    "TypeId": 879,
-    "Updated": "2010-09-14T12:01:28.1659327+02:00",
-    "StatusId": 754,
-    "Status": "optio",
-    "TextId": 438,
-    "PublishTo": "2024-04-27T12:01:28.1659327+02:00",
-    "PublishFrom": "1997-12-14T12:01:28.1659327+01:00",
+    "Type": "consequatur",
+    "AssociateId": 849,
+    "AssociateFullName": "Mrs. Alessia Roberto Greenfelder",
+    "TypeId": 807,
+    "Updated": "2009-09-03T14:13:41.047084+02:00",
+    "StatusId": 653,
+    "Status": "facere",
+    "TextId": 769,
+    "PublishTo": "2004-07-11T14:13:41.047084+02:00",
+    "PublishFrom": "1998-10-22T14:13:41.047084+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "184998",
-    "ActiveErpLinks": 666,
+    "ProjectNumber": "1104809",
+    "ActiveErpLinks": 963,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 352
       }
     }
   }

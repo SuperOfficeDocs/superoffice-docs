@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "deserunt",
+    "Id": 949,
+    "Name": "Hansen, VonRueden and Kub",
+    "Tooltip": "optio",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 673
+    "UdListDefinitionId": 327,
+    "Rank": 964
   },
   {
-    "Id": 98,
-    "Name": "Gutmann Inc and Sons",
-    "Tooltip": "deserunt",
+    "Id": 949,
+    "Name": "Hansen, VonRueden and Kub",
+    "Tooltip": "optio",
     "Deleted": false,
-    "UdListDefinitionId": 14,
-    "Rank": 673
+    "UdListDefinitionId": 327,
+    "Rank": 964
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 904,
-    "Name": "Wuckert-Legros",
-    "Tooltip": "optio",
-    "Deleted": true,
-    "UdListDefinitionId": 723,
-    "Rank": 145,
+    "Id": 423,
+    "Name": "Lebsack, Eichmann and McKenzie",
+    "Tooltip": "perferendis",
+    "Deleted": false,
+    "UdListDefinitionId": 885,
+    "Rank": 62,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

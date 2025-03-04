@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Bernier-Stark",
-  "Tooltip": "voluptate",
+  "Id": 635,
+  "Name": "Reinger, Huel and Koch",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 797,
-  "Rank": 437
+  "UdListDefinitionId": 528,
+  "Rank": 206
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Rutherford Group",
-  "Tooltip": "nisi",
-  "Deleted": false,
-  "UdListDefinitionId": 706,
-  "Rank": 600,
+  "Id": 998,
+  "Name": "Reichert, Feil and Franecki",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 355,
+  "Rank": 167,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 855
     }
   }
 }

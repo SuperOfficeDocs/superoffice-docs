@@ -86,10 +86,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Rippin, Von and Jast",
+  "TableName": "Vandervort LLC",
   "Columns": [
-    "quo",
-    "quia"
+    "autem",
+    "quo"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "ipsam",
-  "Inserts": 787,
-  "Updates": 700,
-  "Deletes": 76,
+  "Success": true,
+  "Message": "id",
+  "Inserts": 406,
+  "Updates": 141,
+  "Deletes": 20,
   "RowStatus": [
     {
-      "PrimaryKey": 713,
+      "PrimaryKey": 690,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aliquid",
-        "officia"
+        "numquam",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 37
         }
       }
     },
     {
-      "PrimaryKey": 713,
+      "PrimaryKey": 690,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "aliquid",
-        "officia"
+        "numquam",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 984
+          "FieldLength": 37
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldLength": 908
     }
   }
 }

@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 890,
-      "PrefDescId": 762,
-      "PrefValue": "placeat",
-      "PrefShowValue": "veritatis",
-      "Description": "Future-proofed 24 hour encryption",
+      "PrefDescLineId": 249,
+      "PrefDescId": 676,
+      "PrefValue": "natus",
+      "PrefShowValue": "nemo",
+      "Description": "Secured directional knowledge base",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 890,
-      "PrefDescId": 762,
-      "PrefValue": "placeat",
-      "PrefShowValue": "veritatis",
-      "Description": "Future-proofed 24 hour encryption",
+      "PrefDescLineId": 249,
+      "PrefDescId": 676,
+      "PrefValue": "natus",
+      "PrefShowValue": "nemo",
+      "Description": "Secured directional knowledge base",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 519,
-    "PrefDescId": 267,
-    "PrefValue": "molestias",
-    "PrefShowValue": "molestiae",
-    "Description": "Stand-alone full-range array",
+    "PrefDescLineId": 508,
+    "PrefDescId": 790,
+    "PrefValue": "soluta",
+    "PrefShowValue": "nam",
+    "Description": "Sharable intangible Graphic Interface",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 835
+        "FieldLength": 514
       }
     }
   }

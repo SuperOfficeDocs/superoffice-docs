@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 269,
-  "ViewState": "minima",
-  "FromDate": "2006-05-20T12:01:27.5877684+02:00"
+  "AssociateId": 64,
+  "ViewState": "repellat",
+  "FromDate": "2010-02-23T14:13:39.9848261+01:00"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

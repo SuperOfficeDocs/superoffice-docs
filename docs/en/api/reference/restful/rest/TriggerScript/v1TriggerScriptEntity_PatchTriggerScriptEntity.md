@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolor",
+    "path": "nobis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolor",
+    "path": "nobis",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 27,
-  "Name": "Becker Group",
+  "ScreenChooserId": 253,
+  "Name": "Ferry Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "cumque",
-  "Source": "culpa",
-  "Registered": "2023-05-10T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 657,
-  "Updated": "2016-03-15T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 932,
+  "UniqueIdentifier": "non",
+  "Source": "eligendi",
+  "Registered": "2024-05-09T14:13:49.414935+02:00",
+  "RegisteredAssociateId": 738,
+  "Updated": "2010-05-21T14:13:49.414935+02:00",
+  "UpdatedAssociateId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 855
     }
   },
   "_Links": {

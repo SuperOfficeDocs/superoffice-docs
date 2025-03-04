@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "delectus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "delectus",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 882,
-  "Name": "D'Amore, Reynolds and Flatley",
-  "Rank": 335,
-  "Tooltip": "voluptates",
-  "Icon": "vel",
-  "DefaultTicketStatus": 818,
+  "TicketTypeId": 778,
+  "Name": "Daugherty Inc and Sons",
+  "Rank": 334,
+  "Tooltip": "eos",
+  "Icon": "consequatur",
+  "DefaultTicketStatus": 278,
   "TicketStatuses": [
-    398,
-    273
+    57,
+    759
   ],
-  "DefaultTicketPriority": 913,
+  "DefaultTicketPriority": 988,
   "TicketPriorities": [
-    561,
-    163
+    604,
+    211
   ],
-  "ReplyTemplate": 305,
+  "ReplyTemplate": 951,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    346,
-    819
+    86,
+    278
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -183,7 +183,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldLength": 651
     }
   },
   "_Links": {

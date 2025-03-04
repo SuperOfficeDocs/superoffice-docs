@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Borer Group"
+  "ParameterName": "Schowalter LLC"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 71,
-  "Name": "Botsford-Herman",
-  "Value": "hic",
-  "CreatedDate": "2019-04-16T12:01:27.3377499+02:00",
-  "UpdatedDate": "2016-05-04T12:01:27.3377499+02:00",
-  "CreatedBy": "aut",
-  "UpdatedBy": "minus",
+  "AudienceLayoutId": 287,
+  "Name": "Abbott, Goyette and Murphy",
+  "Value": "et",
+  "CreatedDate": "2006-01-29T14:13:39.3754818+01:00",
+  "UpdatedDate": "2005-02-07T14:13:39.3754818+01:00",
+  "CreatedBy": "consequuntur",
+  "UpdatedBy": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 215
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 394,
-  "PlainMessage": "sunt",
-  "HtmlMessage": "corrupti",
-  "SmsMessage": "consequatur",
-  "Description": "Adaptive empowering frame",
-  "Subject": "modi",
-  "FolderId": 999,
-  "HeaderField": "expedita",
-  "Design": "earum",
+  "ShipmentMessageId": 451,
+  "PlainMessage": "necessitatibus",
+  "HtmlMessage": "delectus",
+  "SmsMessage": "earum",
+  "Description": "Configurable intangible hierarchy",
+  "Subject": "ut",
+  "FolderId": 547,
+  "HeaderField": "itaque",
+  "Design": "vel",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Centralized context-sensitive definition",
-  "AccessKey": "sed",
-  "DocumentMessage": 692,
-  "Registered": "2005-12-03T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2001-01-14T12:01:33.2144574+01:00",
-  "UpdatedAssociateId": 598,
-  "UpdatedCount": 496,
+  "InlineImages": false,
+  "LongDescription": "Persistent dedicated adapter",
+  "AccessKey": "quia",
+  "DocumentMessage": 532,
+  "Registered": "2014-07-06T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 28,
+  "Updated": "2008-03-19T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 517,
+  "UpdatedCount": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 900
     }
   }
 }

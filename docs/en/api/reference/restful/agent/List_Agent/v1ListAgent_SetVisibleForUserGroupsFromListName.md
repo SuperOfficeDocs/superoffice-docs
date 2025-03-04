@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Aufderhar-Feeney",
-  "ListItemId": 250,
+  "UdListDefinitionName": "Grimes LLC",
+  "ListItemId": 26,
   "UserGroups": [
     {
-      "Id": 296,
-      "Name": "Zemlak Group",
-      "ToolTip": "Est sed consequatur non non quia.",
-      "Deleted": true,
-      "Rank": 92,
-      "Type": "autem",
-      "ColorBlock": 3,
-      "IconHint": "sit",
+      "Id": 689,
+      "Name": "Brekke, Swift and Wiza",
+      "ToolTip": "Accusamus quidem natus temporibus quidem.",
+      "Deleted": false,
+      "Rank": 290,
+      "Type": "quod",
+      "ColorBlock": 123,
+      "IconHint": "sequi",
       "Selected": true,
-      "LastChanged": "2008-06-23T12:01:27.9471677+02:00",
+      "LastChanged": "2000-03-05T14:13:40.4690906+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "provident",
-      "Hidden": false,
-      "FullName": "Dr. Stan Fernando Lindgren Jr."
+      "ExtraInfo": "sed",
+      "StyleHint": "est",
+      "Hidden": true,
+      "FullName": "Dakota Price"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Kunde, Spencer and Wiegand",
-    "ToolTip": "Quia laudantium sed assumenda et.",
+    "Id": 663,
+    "Name": "Nikolaus-Zieme",
+    "ToolTip": "Excepturi et necessitatibus illum quia voluptatem iure praesentium.",
     "Deleted": false,
-    "Rank": 693,
-    "Type": "voluptatem",
-    "ColorBlock": 587,
-    "IconHint": "voluptatem",
+    "Rank": 62,
+    "Type": "molestiae",
+    "ColorBlock": 874,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2024-02-26T12:01:27.9471677+01:00",
+    "LastChanged": "2006-07-01T14:13:40.4690906+02:00",
     "ChildItems": [
       {
-        "Id": 543,
-        "Name": "Haley-Williamson",
-        "ToolTip": "Ut quos saepe beatae dignissimos.",
-        "Deleted": false,
-        "Rank": 721,
-        "Type": "vitae",
-        "ColorBlock": 174,
-        "IconHint": "et",
+        "Id": 245,
+        "Name": "Stiedemann-Barton",
+        "ToolTip": "Nisi totam cumque.",
+        "Deleted": true,
+        "Rank": 511,
+        "Type": "velit",
+        "ColorBlock": 226,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2002-05-14T12:01:27.9471677+02:00",
+        "LastChanged": "2007-06-02T14:13:40.4690906+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "eos",
+        "ExtraInfo": "quis",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Kurtis Lemke DVM",
+        "FullName": "Miguel Marvin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldType": "System.String",
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "et",
+    "ExtraInfo": "dolores",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Ms. August Kurtis Schuppe II",
+    "FullName": "Christy Keeling III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 253
       }
     }
   }

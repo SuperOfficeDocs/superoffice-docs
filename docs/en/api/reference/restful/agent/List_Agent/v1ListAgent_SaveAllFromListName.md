@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rutherford-Kuhn",
+  "UdListDefinitionName": "Hills LLC",
   "Items": [
     {
-      "Id": 14,
-      "Name": "Stark, Collins and Schmeler",
-      "Tooltip": "repellendus",
-      "Deleted": false,
-      "UdListDefinitionId": 594,
-      "Rank": 847
+      "Id": 429,
+      "Name": "Gusikowski-Mayert",
+      "Tooltip": "totam",
+      "Deleted": true,
+      "UdListDefinitionId": 636,
+      "Rank": 423
     },
     {
-      "Id": 14,
-      "Name": "Stark, Collins and Schmeler",
-      "Tooltip": "repellendus",
-      "Deleted": false,
-      "UdListDefinitionId": 594,
-      "Rank": 847
+      "Id": 429,
+      "Name": "Gusikowski-Mayert",
+      "Tooltip": "totam",
+      "Deleted": true,
+      "UdListDefinitionId": 636,
+      "Rank": 423
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 234,
-    "Name": "Skiles-Steuber",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 897,
-    "Rank": 958,
+    "Id": 270,
+    "Name": "Friesen, Hermann and Medhurst",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "UdListDefinitionId": 577,
+    "Rank": 184,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 855
       }
     }
   }

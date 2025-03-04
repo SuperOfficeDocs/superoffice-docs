@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 788,
-    "Name": "O'Connell Group",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 2,
-    "Rank": 473
+    "Id": 407,
+    "Name": "Friesen Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": true,
+    "UdListDefinitionId": 97,
+    "Rank": 744
   },
   {
-    "Id": 788,
-    "Name": "O'Connell Group",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 2,
-    "Rank": 473
+    "Id": 407,
+    "Name": "Friesen Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": true,
+    "UdListDefinitionId": 97,
+    "Rank": 744
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Heller-Fay",
-    "Tooltip": "maiores",
+    "Id": 329,
+    "Name": "Mertz, Dare and Crooks",
+    "Tooltip": "corrupti",
     "Deleted": false,
-    "UdListDefinitionId": 392,
-    "Rank": 316,
+    "UdListDefinitionId": 376,
+    "Rank": 269,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 369
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

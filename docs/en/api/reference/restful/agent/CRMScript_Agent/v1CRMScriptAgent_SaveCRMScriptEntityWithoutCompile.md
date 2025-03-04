@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 307,
-  "UniqueIdentifier": "maxime",
-  "Name": "Wintheiser, Runte and Von",
-  "Description": "Innovative leading edge circuit",
-  "IncludeId": "quia",
-  "AccessKey": "debitis",
-  "HierarchyId": 444,
-  "Source": "velit",
-  "SourceCode": "similique",
+  "EjscriptId": 288,
+  "UniqueIdentifier": "ullam",
+  "Name": "Schowalter LLC",
+  "Description": "Enterprise-wide actuating local area network",
+  "IncludeId": "harum",
+  "AccessKey": "beatae",
+  "HierarchyId": 578,
+  "Source": "optio",
+  "SourceCode": "qui",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 760,
+  "HtmlOutput": 325,
   "Includes": [
-    242,
-    770
+    150,
+    930
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 591,
-      "LineNumberTo": 204,
-      "Delta": 873,
-      "IncludeId": "vitae",
+      "LineNumberFrom": 752,
+      "LineNumberTo": 320,
+      "Delta": 974,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "nobis",
-        "quo"
+        "est",
+        "dignissimos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 731
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2014-11-18T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 939,
-  "Updated": "2013-08-21T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 64,
+  "Registered": "2002-12-19T14:13:39.9067187+01:00",
+  "RegisteredAssociateId": 346,
+  "Updated": "2002-10-05T14:13:39.9067187+02:00",
+  "UpdatedAssociateId": 519,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

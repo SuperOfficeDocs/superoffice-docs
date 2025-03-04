@@ -72,7 +72,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Wintheiser, Weber and Schuppe",
-  "DisplayName": "Bergnaum Group",
-  "Description": "Front-line 5th generation adapter",
-  "ShortLabel": "dicta",
+  "FieldName": "Collins LLC",
+  "DisplayName": "Parker-Weber",
+  "Description": "Operative explicit frame",
+  "ShortLabel": "rem",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": true,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 399,
-  "TemplateVariableName": "Huels-Stroman"
+  "Rank": 748,
+  "TemplateVariableName": "Huels Group"
 }
 ```

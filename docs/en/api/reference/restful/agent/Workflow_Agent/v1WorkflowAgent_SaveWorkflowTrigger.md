@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 498,
-  "WorkflowId": 572,
+  "WorkflowTriggerId": 436,
+  "WorkflowId": 202,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Nikolaus, Roberts and Langosh",
-      "Description": "Right-sized exuding migration",
-      "Rank": 607,
+      "Name": "Bogan, Schumm and Bailey",
+      "Description": "Optimized 5th generation leverage",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nikolaus, Roberts and Langosh",
-      "Description": "Right-sized exuding migration",
-      "Rank": 607,
+      "Name": "Bogan, Schumm and Bailey",
+      "Description": "Optimized 5th generation leverage",
+      "Rank": 262,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 909,
-  "WorkflowId": 148,
+  "WorkflowTriggerId": 875,
+  "WorkflowId": 217,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Langosh, Sipes and Feil",
-      "Description": "Diverse 24/7 circuit",
-      "Rank": 414,
+      "Name": "Schaden-Jewess",
+      "Description": "Centralized disintermediate contingency",
+      "Rank": 613,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Langosh, Sipes and Feil",
-      "Description": "Diverse 24/7 circuit",
-      "Rank": 414,
+      "Name": "Schaden-Jewess",
+      "Description": "Centralized disintermediate contingency",
+      "Rank": 613,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 679
     }
   }
 }

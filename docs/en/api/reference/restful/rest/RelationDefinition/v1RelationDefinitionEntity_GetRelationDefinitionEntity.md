@@ -90,20 +90,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 232,
-  "Name": "Franecki-Yundt",
-  "Tooltip": "optio",
-  "PassiveText": "dignissimos",
-  "Deleted": false,
-  "Rank": 248,
+  "ReldefId": 695,
+  "Name": "Gleichner Inc and Sons",
+  "Tooltip": "consequatur",
+  "PassiveText": "et",
+  "Deleted": true,
+  "Rank": 899,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   },
   "_Links": {

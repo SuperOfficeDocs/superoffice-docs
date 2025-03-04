@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 194
+  "ErpConnectionId": 850
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 757,
-  "ErpConnectorId": 992,
-  "DisplayName": "Spinka Inc and Sons",
-  "DisplayDescription": "Realigned asynchronous forecast",
-  "Active": true,
-  "ConnectionId": "nobis",
-  "MostRecentTimestamp": "ducimus",
+  "ErpConnectionId": 699,
+  "ErpConnectorId": 228,
+  "DisplayName": "Heller LLC",
+  "DisplayDescription": "Object-based value-added archive",
+  "Active": false,
+  "ConnectionId": "corporis",
+  "MostRecentTimestamp": "placeat",
   "ConfigFields": {
-    "ConfigFields1": "sapiente",
-    "ConfigFields2": "est"
+    "ConfigFields1": "necessitatibus",
+    "ConfigFields2": "distinctio"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    248,
-    502
+    112,
+    941
   ],
   "AssociateAccessIds": [
-    924,
-    642
+    150,
+    331
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 654
     }
   }
 }

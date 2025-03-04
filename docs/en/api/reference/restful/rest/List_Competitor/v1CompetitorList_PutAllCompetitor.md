@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Hayes, Tillman and Haag",
-    "Tooltip": "culpa",
+    "Id": 72,
+    "Name": "Wyman-Beahan",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 359,
-    "Rank": 266
+    "UdListDefinitionId": 421,
+    "Rank": 589
   },
   {
-    "Id": 135,
-    "Name": "Hayes, Tillman and Haag",
-    "Tooltip": "culpa",
+    "Id": 72,
+    "Name": "Wyman-Beahan",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "UdListDefinitionId": 359,
-    "Rank": 266
+    "UdListDefinitionId": 421,
+    "Rank": 589
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Name": "Blanda Group",
-    "Tooltip": "accusantium",
+    "Id": 568,
+    "Name": "Tremblay, Kunde and Wunsch",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 863,
-    "Rank": 779,
+    "UdListDefinitionId": 514,
+    "Rank": 616,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldLength": 663
       }
     }
   }

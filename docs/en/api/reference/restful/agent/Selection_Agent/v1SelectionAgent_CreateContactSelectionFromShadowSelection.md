@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 314,
-  "Name": "Heller-Cummerata"
+  "SelectionId": 614,
+  "Name": "Friesen-Marks"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Proactive directional conglomeration",
-  "Postit": "corrupti",
+  "Description": "Streamlined homogeneous open architecture",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 897,
-  "IncludePerson": 495,
+  "GroupIdx": 509,
+  "IncludePerson": 899,
   "MemberCount": 99.99,
-  "Name": "Pfannerstill, Nitzsche and Schaefer",
-  "PostitTextId": 454,
-  "CreatedDate": "2000-04-08T12:01:28.3065684+02:00",
-  "SelectionId": 863,
-  "SoundEx": "natus",
-  "Source": 881,
-  "TextId": 6,
-  "UpdatedDate": "2010-05-11T12:01:28.3065684+02:00",
-  "UpdatedCount": 254,
-  "Visibility": 261,
+  "Name": "Kub-Lubowitz",
+  "PostitTextId": 640,
+  "CreatedDate": "2024-07-01T14:13:41.3289686+02:00",
+  "SelectionId": 964,
+  "SoundEx": "et",
+  "Source": 209,
+  "TextId": 654,
+  "UpdatedDate": "2018-05-17T14:13:41.3289686+02:00",
+  "UpdatedCount": 883,
+  "Visibility": 856,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 655,
-  "TargetTableName": "Pfannerstill Group",
-  "Completed": false,
-  "LeftSelectionId": 270,
-  "RightSelectionId": 477,
+  "TargetTableNumber": 847,
+  "TargetTableName": "Thiel, Schaden and Zulauf",
+  "Completed": true,
+  "LeftSelectionId": 300,
+  "RightSelectionId": 349,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Terry-Lang",
-  "ShadowProviderName": "Bernhard, Veum and Russel",
-  "ChartKey": "pariatur",
-  "LastLoaded": "2021-05-06T12:01:28.3065684+02:00",
-  "LastLoadedBy": 889,
+  "MainProviderName": "O'Hara Inc and Sons",
+  "ShadowProviderName": "Ledner-Haag",
+  "ChartKey": "nostrum",
+  "LastLoaded": "2006-11-14T14:13:41.3289686+01:00",
+  "LastLoadedBy": 847,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-09-10T12:01:28.3065684+02:00",
-  "LastMembershipChangeBy": 501,
+  "LastMembershipChange": "2023-12-31T14:13:41.3289686+01:00",
+  "LastMembershipChangeBy": 364,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nesciunt",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "McDermott, Brakus and Pfeffer",
-  "DashboardTileDefinitionId": 609,
+  "MainHeading": "laudantium",
+  "MemberTabHeading": "doloremque",
+  "MailingsProviderName": "Heller, Rutherford and Bruen",
+  "DashboardTileDefinitionId": 986,
   "VisibleFor": [
     {
-      "VisibleId": 866,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     },
     {
-      "VisibleId": 866,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 790
+          "FieldType": "System.String",
+          "FieldLength": 259
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

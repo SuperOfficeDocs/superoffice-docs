@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 989,
-  "ParentId": 460,
-  "Name": "Stroman-Pfeffer",
-  "Fullname": "consequatur",
-  "CategoryMaster": 965,
+  "TicketCategoryId": 654,
+  "ParentId": 613,
+  "Name": "Zieme LLC",
+  "Fullname": "quos",
+  "CategoryMaster": 362,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schmitt, Stracke and Johnson",
+  "ExternalName": "Smitham-Keeling",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 970,
-  "ReplyTemplate": 149,
-  "NotificationEmail": "gordon_jacobson@ferry.biz",
+  "AssignmentLag": 513,
+  "ReplyTemplate": 845,
+  "NotificationEmail": "koby.marvin@boganleannon.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 431,
+  "EffectiveReplyTemplateId": 503,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "voluptatum"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "hic"
+    "CustomFields1": "deserunt",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 576
     }
   }
 }

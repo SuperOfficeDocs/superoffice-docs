@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kessler, Robel and Ryan",
+  "UdListDefinitionName": "Parisian, Okuneva and Lang",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Parker-Glover",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 115,
-    "Rank": 404,
+    "Id": 252,
+    "Name": "Crona-Kohler",
+    "Tooltip": "reprehenderit",
+    "Deleted": false,
+    "UdListDefinitionId": 216,
+    "Rank": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldLength": 670
       }
     }
   }

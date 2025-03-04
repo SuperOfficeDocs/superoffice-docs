@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 136
+  "ShipmentAddrId": 424
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2008-12-01T12:01:27.9940463+01:00",
+  "SendingTime": "2002-06-09T14:13:40.5784406+02:00",
   "Status": "Blocked",
-  "ShipmentId": 506,
-  "ShipmentDescription": "Open-source empowering project",
-  "FromAddress": "aut",
-  "Configuration": 58,
-  "ContactId": 282,
-  "ContactName": "King Group",
-  "PersonId": 479,
-  "PersonFullName": "Ms. Viva Crona III",
-  "ShipmentType": "vel",
-  "MessageId": 29,
-  "MessageSubject": "saepe",
-  "DocumentMessageId": 765,
-  "Opened": "2008-09-12T12:01:27.9940463+02:00",
-  "LinkClicks": 941,
+  "ShipmentId": 414,
+  "ShipmentDescription": "Reduced intangible methodology",
+  "FromAddress": "ut",
+  "Configuration": 795,
+  "ContactId": 746,
+  "ContactName": "Nikolaus, Heathcote and Christiansen",
+  "PersonId": 45,
+  "PersonFullName": "Prof. Trever Pete Hermann DDS",
+  "ShipmentType": "in",
+  "MessageId": 134,
+  "MessageSubject": "qui",
+  "DocumentMessageId": 132,
+  "Opened": "2010-06-20T14:13:40.5784406+02:00",
+  "LinkClicks": 808,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   }
 }

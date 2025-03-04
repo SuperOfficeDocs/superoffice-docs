@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 216,
-  "Count": 322
+  "WeightedAmountLimit": 236,
+  "Count": 624
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bartell Group",
-    "SaleDate": "2014-12-08T12:01:28.2596899+01:00",
-    "SaleId": 720,
-    "Probability": 940,
-    "Title": "animi",
-    "Amount": 17600.543999999998,
-    "Currency": "nihil",
-    "ProjectName": "Lowe-Kohler",
-    "AssociateFullName": "Bernardo Ratke",
-    "Description": "Advanced multi-state software",
+    "ContactName": "Lueilwitz-Dickens",
+    "SaleDate": "2019-08-11T14:13:41.240351+02:00",
+    "SaleId": 212,
+    "Probability": 284,
+    "Title": "occaecati",
+    "Amount": 9395.732,
+    "Currency": "quam",
+    "ProjectName": "Langworth-Johns",
+    "AssociateFullName": "Dr. Giovanna Ima Breitenberg MD",
+    "Description": "Grass-roots encompassing instruction set",
     "Status": "Lost",
-    "WeightedAmount": 14350.586,
-    "ProjectId": 958,
-    "EarningPercent": 14648.315999999999,
-    "Earning": 31327.464,
-    "ContactId": 394,
-    "AssociateId": 167,
-    "PersonId": 870,
-    "SaleTypeId": 340,
-    "SaleTypeName": "Treutel, Senger and Torphy",
-    "PersonFullName": "Donna Crooks",
+    "WeightedAmount": 25767.748,
+    "ProjectId": 723,
+    "EarningPercent": 18756.989999999998,
+    "Earning": 22937.746,
+    "ContactId": 820,
+    "AssociateId": 560,
+    "PersonId": 956,
+    "SaleTypeId": 358,
+    "SaleTypeName": "Jacobi Group",
+    "PersonFullName": "Jamarcus Eichmann",
     "Completed": "Completed",
-    "ActiveErpLinks": 919,
-    "NextDueDate": "2012-04-11T12:01:28.2596899+02:00",
-    "Number": "1497641",
+    "ActiveErpLinks": 218,
+    "NextDueDate": "2019-01-05T14:13:41.240351+01:00",
+    "Number": "771245",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 396
       }
     }
   }

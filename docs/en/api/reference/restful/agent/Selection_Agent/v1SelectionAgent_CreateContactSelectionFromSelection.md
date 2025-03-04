@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 569,
-  "Name": "Bayer-Runolfsdottir",
+  "SelectionId": 587,
+  "Name": "Nolan, Quitzon and Tremblay",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned mobile standardization",
-  "Postit": "repudiandae",
+  "Description": "Re-engineered zero tolerance website",
+  "Postit": "unde",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 351,
-  "IncludePerson": 374,
+  "GroupIdx": 1000,
+  "IncludePerson": 491,
   "MemberCount": 99.99,
-  "Name": "Senger, Hills and Robel",
-  "PostitTextId": 279,
-  "CreatedDate": "2012-04-04T12:01:28.2909425+02:00",
-  "SelectionId": 940,
-  "SoundEx": "eveniet",
-  "Source": 976,
-  "TextId": 681,
-  "UpdatedDate": "2012-01-13T12:01:28.2909425+01:00",
+  "Name": "Bernier-Sanford",
+  "PostitTextId": 876,
+  "CreatedDate": "2013-09-19T14:13:41.2821041+02:00",
+  "SelectionId": 887,
+  "SoundEx": "distinctio",
+  "Source": 798,
+  "TextId": 408,
+  "UpdatedDate": "2014-03-09T14:13:41.2821041+01:00",
   "UpdatedCount": 955,
-  "Visibility": 749,
+  "Visibility": 268,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 225,
-  "TargetTableName": "Kulas LLC",
+  "TargetTableNumber": 960,
+  "TargetTableName": "Stiedemann Group",
   "Completed": false,
-  "LeftSelectionId": 641,
-  "RightSelectionId": 818,
+  "LeftSelectionId": 864,
+  "RightSelectionId": 381,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stehr, Goldner and Torphy",
-  "ShadowProviderName": "Schaden, Hodkiewicz and Nader",
-  "ChartKey": "omnis",
-  "LastLoaded": "2012-07-28T12:01:28.2909425+02:00",
-  "LastLoadedBy": 823,
+  "MainProviderName": "McGlynn-Walsh",
+  "ShadowProviderName": "Kertzmann-Schinner",
+  "ChartKey": "fugiat",
+  "LastLoaded": "2017-07-15T14:13:41.2821041+02:00",
+  "LastLoadedBy": 165,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-06-21T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 869,
+  "LastMembershipChange": "1998-12-22T14:13:41.2821041+01:00",
+  "LastMembershipChangeBy": 538,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "facere",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "Block Inc and Sons",
-  "DashboardTileDefinitionId": 626,
+  "MainHeading": "corporis",
+  "MemberTabHeading": "sequi",
+  "MailingsProviderName": "Schowalter-Graham",
+  "DashboardTileDefinitionId": 146,
   "VisibleFor": [
     {
-      "VisibleId": 465,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldLength": 737
         }
       }
     },
     {
-      "VisibleId": 465,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldLength": 737
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 665
     }
   }
 }

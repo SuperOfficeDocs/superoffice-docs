@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 503,
-  "LabelLayoutId": 130,
-  "Filename": "in",
-  "Language": "voluptatem",
-  "FileType": "et",
+  "ReportId": 24,
+  "LabelLayoutId": 805,
+  "Filename": "aut",
+  "Language": "repellendus",
+  "FileType": "deserunt",
   "Restrictions": [
     {
-      "Name": "Larkin, Romaguera and Hyatt",
-      "Operator": "temporibus",
+      "Name": "Stokes-Johnson",
+      "Operator": "delectus",
       "Values": [
-        "occaecati",
-        "corrupti"
+        "nostrum",
+        "id"
       ],
       "DisplayValues": [
-        "vel",
-        "suscipit"
+        "animi",
+        "voluptate"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 664,
+      "InterParenthesis": 382,
       "InterOperator": "And",
-      "UniqueHash": 781
+      "UniqueHash": 232
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatem"
+"dolores"
 ```

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 129,
-  "Name": "Daugherty LLC",
-  "Description": "User-centric contextually-based process improvement",
-  "DeltaJson": "sunt",
+  "ConfigurableScreenDeltaId": 947,
+  "Name": "Stroman, Hermann and Mayert",
+  "Description": "Open-source bi-directional time-frame",
+  "DeltaJson": "numquam",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "asperiores",
-  "UpdatedDate": "2022-10-21T12:01:27.4471334+02:00",
-  "CreatedDate": "2007-10-13T12:01:27.4471334+02:00",
+  "RecipeId": "ex",
+  "UpdatedDate": "2005-11-14T14:13:39.7347754+01:00",
+  "CreatedDate": "2019-10-28T14:13:39.7347754+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    259,
-    345
+    1001,
+    262
   ],
-  "AppliesToKey": "eius",
+  "AppliesToKey": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 236
     }
   }
 }

@@ -97,19 +97,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 523,
-  "BlobSize": 896,
-  "Description": "Versatile demand-driven parallelism",
-  "ExtraInfo": "id",
-  "IsEncrypted": false,
+  "BlobId": 823,
+  "BlobSize": 501,
+  "Description": "Secured fault-tolerant synergy",
+  "ExtraInfo": "occaecati",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "asperiores",
-  "OriginalSize": 979,
-  "CreatedDate": "2008-09-29T12:01:32.7769271+02:00",
-  "UpdatedDate": "1999-09-02T12:01:32.7769271+02:00",
+  "MimeType": "sapiente",
+  "OriginalSize": 978,
+  "CreatedDate": "2007-10-01T14:13:48.4758003+02:00",
+  "UpdatedDate": "2003-01-22T14:13:48.4758003+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptates"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 228,
-  "BlobSize": 28,
-  "Description": "Inverse motivating archive",
-  "ExtraInfo": "exercitationem",
+  "BlobId": 804,
+  "BlobSize": 89,
+  "Description": "Right-sized attitude-oriented software",
+  "ExtraInfo": "eum",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "eos",
-  "OriginalSize": 576,
-  "CreatedDate": "2010-07-15T12:01:32.7769271+02:00",
-  "UpdatedDate": "2023-04-28T12:01:32.7769271+02:00",
+  "IsZipped": true,
+  "MimeType": "quisquam",
+  "OriginalSize": 293,
+  "CreatedDate": "2012-10-31T14:13:48.4758003+01:00",
+  "UpdatedDate": "2000-04-27T14:13:48.4758003+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "iusto",
+  "ConceptualType": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 728
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

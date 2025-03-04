@@ -72,16 +72,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "sint",
+      "RawValue": "incidunt",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "ex",
+      "DisplayValue": "expedita",
+      "DisplayTooltip": "est",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 97,
-      "PrefDescId": 246,
-      "TableName": "Kilback-Hand",
-      "UserPreferenceId": 538
+      "TargetId": 836,
+      "PrefDescId": 851,
+      "TableName": "Hermiston, Kutch and Swift",
+      "UserPreferenceId": 503
     }
   ],
   "RemoveLowerLevels": false

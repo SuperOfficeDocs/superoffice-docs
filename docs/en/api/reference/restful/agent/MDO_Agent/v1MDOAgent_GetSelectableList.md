@@ -94,10 +94,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gorczany Inc and Sons",
-  "ForceFlatList": true,
-  "AdditionalInfo": "saepe",
-  "OnlyHistory": false
+  "Name": "VonRueden-Stark",
+  "ForceFlatList": false,
+  "AdditionalInfo": "voluptatibus",
+  "OnlyHistory": true
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Upton, VonRueden and Walter",
-    "ToolTip": "Deserunt eius maiores.",
+    "Id": 355,
+    "Name": "Braun-Carter",
+    "ToolTip": "Dolores ipsa deserunt fugiat.",
     "Deleted": true,
-    "Rank": 721,
-    "Type": "architecto",
-    "ColorBlock": 96,
-    "IconHint": "dolores",
+    "Rank": 548,
+    "Type": "consequatur",
+    "ColorBlock": 319,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2018-02-03T12:01:28.0096725+01:00",
+    "LastChanged": "2002-03-24T14:13:40.5940621+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Hirthe, Upton and Balistreri",
-        "ToolTip": "Quia tempora qui sint consequatur nesciunt eveniet.",
+        "Id": 156,
+        "Name": "Mueller Group",
+        "ToolTip": "Quis earum labore.",
         "Deleted": false,
-        "Rank": 524,
-        "Type": "facere",
-        "ColorBlock": 324,
-        "IconHint": "ut",
+        "Rank": 369,
+        "Type": "corrupti",
+        "ColorBlock": 770,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2021-03-08T12:01:28.0096725+01:00",
+        "LastChanged": "2013-10-31T14:13:40.5940621+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "quae",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Everette Murphy",
+        "FullName": "Lindsay Brenda Orn V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 574
+            "FieldType": "System.String",
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "harum",
+    "ExtraInfo": "delectus",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mrs. Gust Kohler",
+    "FullName": "Mr. Alexandrea Becker DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 152
       }
     }
   }

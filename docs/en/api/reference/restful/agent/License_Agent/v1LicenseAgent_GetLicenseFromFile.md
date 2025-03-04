@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "vero"
+  "FileContent": "itaque"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 921,
-      "NumberOfLicensesFree": 578,
-      "NumberOfLicensesAdded": 751,
-      "NumberOfLicensesNewTotal": 655,
-      "NumberOfLicensesNewFree": 235,
-      "NumberOfLicensesTotal": 141
+      "NumberOfLicensesInUse": 489,
+      "NumberOfLicensesFree": 703,
+      "NumberOfLicensesAdded": 82,
+      "NumberOfLicensesNewTotal": 889,
+      "NumberOfLicensesNewFree": 733,
+      "NumberOfLicensesTotal": 792
     }
   ],
-  "AccumulatedNextCheckDate": "2002-10-01T12:01:27.9159153+02:00"
+  "AccumulatedNextCheckDate": "1999-11-30T14:13:40.4066046+01:00"
 }
 ```

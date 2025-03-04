@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 437,
-      "AssociateName": "Murazik Group",
-      "AssociateId": 504
+      "AccountId": 94,
+      "AssociateName": "Rodriguez LLC",
+      "AssociateId": 884
     },
     {
-      "AccountId": 437,
-      "AssociateName": "Murazik Group",
-      "AssociateId": 504
+      "AccountId": 94,
+      "AssociateName": "Rodriguez LLC",
+      "AssociateId": 884
     }
   ]
 }

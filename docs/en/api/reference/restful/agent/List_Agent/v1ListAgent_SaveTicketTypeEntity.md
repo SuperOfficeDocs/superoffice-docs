@@ -103,33 +103,33 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 363,
-  "Name": "Runte-Mayert",
-  "Rank": 480,
-  "Tooltip": "autem",
-  "Icon": "placeat",
-  "DefaultTicketStatus": 131,
+  "TicketTypeId": 157,
+  "Name": "Dickinson-Jast",
+  "Rank": 347,
+  "Tooltip": "corporis",
+  "Icon": "nam",
+  "DefaultTicketStatus": 107,
   "TicketStatuses": [
-    215,
-    754
+    543,
+    524
   ],
-  "DefaultTicketPriority": 186,
+  "DefaultTicketPriority": 87,
   "TicketPriorities": [
-    190,
-    579
+    339,
+    17
   ],
-  "ReplyTemplate": 506,
+  "ReplyTemplate": 873,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    350,
-    653
+    64,
+    346
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -141,31 +141,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 928,
-  "Name": "Barton Group",
-  "Rank": 495,
-  "Tooltip": "voluptates",
-  "Icon": "ut",
-  "DefaultTicketStatus": 157,
+  "TicketTypeId": 587,
+  "Name": "Wolff Group",
+  "Rank": 545,
+  "Tooltip": "consequatur",
+  "Icon": "doloremque",
+  "DefaultTicketStatus": 688,
   "TicketStatuses": [
-    342,
-    835
+    767,
+    997
   ],
-  "DefaultTicketPriority": 605,
+  "DefaultTicketPriority": 439,
   "TicketPriorities": [
-    572,
-    508
+    88,
+    91
   ],
-  "ReplyTemplate": 242,
+  "ReplyTemplate": 898,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    826,
-    886
+    37,
+    43
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 894
+      "FieldLength": 969
     }
   }
 }

@@ -1396,7 +1396,7 @@ Contact + Person selection archive with OR-able selection groups. Each group is 
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=appointment/appointmentUdef/SuperOffice:8,appointment/associate/assocName,correspondingAssociate/contactFullName,projectMembers/projectAssociate/assocType,sale/quote/quoteId
+GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=appointment/associate/userName,appointment/appointment/titleHtml,document/documentPublish/publishedTo,personDirectPhone/description,personTargetRelation/hasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

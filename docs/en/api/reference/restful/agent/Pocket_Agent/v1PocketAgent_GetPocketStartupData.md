@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "dolore",
-    "eos"
+    "aut",
+    "qui"
   ],
-  "CurrentClientTime": "2012-03-01T12:01:28.1190543+01:00"
+  "CurrentClientTime": "2023-10-13T14:13:40.9533555+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "quos",
-    "beatae"
+    "ipsa",
+    "itaque"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 413,
-  "NotificationsCount": 256,
+  "OverdueSalesCount": 972,
+  "NotificationsCount": 840,
   "SystemWebPanels": [
     {
-      "WebPanelId": 495,
-      "Name": "Kertzmann, Schaefer and Ruecker",
-      "Tooltip": "voluptatibus",
-      "Deleted": false,
-      "Rank": 233,
+      "WebPanelId": 286,
+      "Name": "Ankunding Inc and Sons",
+      "Tooltip": "perspiciatis",
+      "Deleted": true,
+      "Rank": 341,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": true,
-      "OnTravel": false,
+      "OnSatellite": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
-      "ShowInMenuBar": false,
-      "ShowInToolBar": true,
+      "OnSalesMarketingPocket": false,
+      "ShowInMenuBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": true,
       "ShowInStatusBar": false,
-      "WindowName": "Jacobs, Steuber and Gibson",
+      "WindowName": "Dare, Will and Purdy",
       "Url": "http://www.example.com/",
-      "ProgId": "molestias",
-      "Icon": 63,
+      "ProgId": "rerum",
+      "Icon": 461,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": false,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldType": "System.String",
+          "FieldLength": 93
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "consequatur",
+      "RawValue": "repudiandae",
       "Specification": null,
-      "DisplayValue": "quae",
-      "DisplayTooltip": "illum",
+      "DisplayValue": "quo",
+      "DisplayTooltip": "temporibus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 594,
-      "PrefDescId": 289,
-      "TableName": "Kunze Inc and Sons",
-      "UserPreferenceId": 23,
+      "TargetId": 284,
+      "PrefDescId": 467,
+      "TableName": "Champlin Inc and Sons",
+      "UserPreferenceId": 624,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldLength": 330
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "ab",
+  "CustomData": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 115
     }
   }
 }

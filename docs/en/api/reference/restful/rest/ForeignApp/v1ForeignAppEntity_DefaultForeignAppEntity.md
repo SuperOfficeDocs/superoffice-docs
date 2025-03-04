@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 28 Oct 2008 12:01:32 G10T
+Last-Modified: Thu, 23 Apr 2015 14:13:48 G4T
 
 {
-  "ForeignAppId": 217,
-  "Name": "Wyman, Waters and Predovic",
-  "CreatedDate": "2020-05-04T12:01:32.9175621+02:00",
-  "UpdatedDate": "2008-10-28T12:01:32.9175621+01:00",
+  "ForeignAppId": 958,
+  "Name": "Berge, Schimmel and Hane",
+  "CreatedDate": "2008-08-30T14:13:48.8680781+02:00",
+  "UpdatedDate": "2015-04-23T14:13:48.8680781+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 814,
-      "Name": "Marvin, Kiehn and Welch",
-      "CreatedDate": "2013-01-12T12:01:32.9175621+01:00",
-      "UpdatedDate": "2006-01-30T12:01:32.9175621+01:00",
-      "AssociateFullName": "Napoleon Murray",
-      "CreatedBy": "tempora",
-      "UpdatedBy": "explicabo",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 559,
+      "ForeignDeviceId": 342,
+      "Name": "Bartell LLC",
+      "CreatedDate": "2005-12-27T14:13:48.8680781+01:00",
+      "UpdatedDate": "2002-04-06T14:13:48.8680781+02:00",
+      "AssociateFullName": "Paula Crist",
+      "CreatedBy": "id",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "ex",
+      "ForeignAppId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldType": "System.String",
+          "FieldLength": 161
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Tue, 28 Oct 2008 12:01:32 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   }
 }

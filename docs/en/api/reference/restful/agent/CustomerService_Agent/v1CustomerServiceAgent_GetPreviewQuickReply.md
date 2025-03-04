@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 22
+  "QuickReplyId": 292
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fisher LLC",
-  "UpdatedByFullName": "Yoshiko Schinner",
-  "Updated": "2002-09-05T12:01:27.5565162+02:00",
-  "HtmlBody": "qui",
+  "Name": "Corwin Group",
+  "UpdatedByFullName": "Jovani Huel",
+  "Updated": "1998-08-28T14:13:39.9379614+02:00",
+  "HtmlBody": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldLength": 230
     }
   }
 }

@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Crist, Stehr and Rath",
-  "DeviceName": "Stark-Cruickshank",
-  "KeyName": "Barton-Wilderman",
-  "TableName": "Johns, Hegmann and Walter",
-  "RecordId": 349
+  "ApplicationName": "Ledner-Crooks",
+  "DeviceName": "Cremin, Rodriguez and Rowe",
+  "KeyName": "Gibson Group",
+  "TableName": "Wolf, Pollich and Jast",
+  "RecordId": 76
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magnam",
-  "Value": "natus",
-  "RecordId": 462,
-  "CreatedDate": "2003-03-29T12:01:27.9002891+01:00",
-  "UpdatedDate": "2000-11-25T12:01:27.9002891+01:00",
-  "UpdatedBy": "ut",
-  "CreatedBy": "est",
-  "TableName": "Nienow Group",
+  "Key": "hic",
+  "Value": "corrupti",
+  "RecordId": 598,
+  "CreatedDate": "2010-03-26T14:13:40.3909833+01:00",
+  "UpdatedDate": "2021-09-17T14:13:40.3909833+02:00",
+  "UpdatedBy": "voluptatem",
+  "CreatedBy": "itaque",
+  "TableName": "Crooks Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 875
+      "FieldLength": 28
     }
   }
 }

@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 843,
-  "AttachmentId": "voluptatem"
+  "MailItemId": 787,
+  "AttachmentId": "voluptatum"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented human-resource approach",
-  "Filename": "qui",
-  "Size": 130,
-  "Type": "esse",
-  "Encoding": "odit",
-  "Id": "minima",
-  "Disposition": "illo",
+  "Description": "Focused web-enabled matrix",
+  "Filename": "est",
+  "Size": 768,
+  "Type": "reprehenderit",
+  "Encoding": "minima",
+  "Id": "nostrum",
+  "Disposition": "qui",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 152
     }
   }
 }

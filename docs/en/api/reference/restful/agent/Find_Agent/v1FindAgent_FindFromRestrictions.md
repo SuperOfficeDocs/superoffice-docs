@@ -99,36 +99,36 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Dibbert, Lynch and Bauch",
-      "Operator": "voluptate",
+      "Name": "Padberg, Rau and Will",
+      "Operator": "rem",
       "Values": [
-        "nam",
-        "incidunt"
+        "accusamus",
+        "dolor"
       ],
       "DisplayValues": [
-        "ducimus",
-        "sit"
+        "velit",
+        "veritatis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 255,
+      "InterParenthesis": 81,
       "InterOperator": "And",
-      "UniqueHash": 364
+      "UniqueHash": 453
     }
   ],
-  "ProviderName": "Hayes-Langworth",
-  "PageSize": 800,
-  "PageNumber": 98
+  "ProviderName": "Anderson-Nitzsche",
+  "PageSize": 669,
+  "PageNumber": 137
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Pfeffer, Swaniawski and Reichel",
-      "DisplayTooltip": "odit",
-      "DisplayType": "ut",
+      "DisplayName": "Kunde, Grady and Mertz",
+      "DisplayTooltip": "sunt",
+      "DisplayType": "necessitatibus",
       "CanOrderBy": true,
-      "Name": "Flatley Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "aliquam",
-      "RestrictionListName": "Renner-Cummerata",
-      "IsVisible": false,
-      "ExtraInfo": "inventore",
-      "Width": "eius",
-      "IconHint": "totam",
-      "HeadingIconHint": "qui"
+      "Name": "Tremblay, Brekke and Lakin",
+      "CanRestrictBy": true,
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Nienow Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "provident",
+      "Width": "laboriosam",
+      "IconHint": "in",
+      "HeadingIconHint": "hic"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Crona Inc and Sons",
-      "PrimaryKey": 306,
+      "EntityName": "Schroeder, Bernier and Hills",
+      "PrimaryKey": 828,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "omnis",
-          "TooltipHint": "quas",
-          "LinkHint": "consequatur"
+          "DisplayValue": "dolorum",
+          "TooltipHint": "tempore",
+          "LinkHint": "sit"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "est",
+      "LinkHint": "amet",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 164
+          "FieldType": "System.Int32",
+          "FieldLength": 331
         }
       }
     }
   ],
-  "RowCount": 941,
+  "RowCount": 997,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 627
     }
   }
 }

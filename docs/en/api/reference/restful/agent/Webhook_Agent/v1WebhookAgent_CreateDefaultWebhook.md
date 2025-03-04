@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 857,
-  "Name": "Lockman Inc and Sons",
+  "WebhookId": 879,
+  "Name": "Pfannerstill, Borer and Cummerata",
   "Events": [
-    "soluta",
-    "nam"
+    "a",
+    "consequatur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptates",
+  "Secret": "quae",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "tempora",
   "Headers": {
-    "Headers1": "aliquam",
-    "Headers2": "in"
+    "Headers1": "unde",
+    "Headers2": "accusantium"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-09-26T12:01:28.6347153+02:00",
+  "Registered": "2020-11-11T14:13:41.7508542+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2021-09-25T12:01:28.6503413+02:00",
+  "Updated": "2012-02-29T14:13:41.7508542+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sienna.kozey@heathcote.uk"
+  "ErrorsEmail": "wade_mills@gerlachturner.uk"
 }
 ```

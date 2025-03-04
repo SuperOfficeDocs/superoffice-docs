@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": true
+  "IsIndexed": false
 }
 ```
 
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 996,
-  "ColumnId": 530,
-  "FieldDefault": "sit",
-  "FieldHeight": 605,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 373,
-  "FieldTop": 763,
+  "UDefFieldId": 200,
+  "ColumnId": 661,
+  "FieldDefault": "nihil",
+  "FieldHeight": 295,
+  "FieldLabel": "quibusdam",
+  "FieldLeft": 520,
+  "FieldTop": 25,
   "FieldType": "Checkbox",
-  "FieldWidth": 462,
-  "FormatMask": "ipsum",
+  "FieldWidth": 168,
+  "FormatMask": "voluptas",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 333,
-  "LabelLeft": 10,
-  "LabelTop": 499,
-  "LabelWidth": 310,
-  "LastVersionId": 844,
-  "ListTableId": 991,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 565,
+  "LabelLeft": 352,
+  "LabelTop": 600,
+  "LabelWidth": 671,
+  "LastVersionId": 916,
+  "ListTableId": 497,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 955,
-  "ProgId": "quia",
+  "Page1LineNo": 154,
+  "ProgId": "facere",
   "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 370,
-  "TextLength": 943,
-  "Tooltip": "sequi",
-  "UdefIdentity": 620,
-  "UDListDefinitionId": 992,
+  "ShortLabel": "fuga",
+  "TabOrder": 955,
+  "TextLength": 391,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 991,
+  "UDListDefinitionId": 682,
   "Justification": "Center",
-  "Version": 1001,
-  "TemplateVariableName": "McKenzie-Reinger",
+  "Version": 124,
+  "TemplateVariableName": "Hermiston, Torphy and O'Keefe",
   "HasBeenPublished": true,
-  "MdoListName": "Schaefer, West and Lemke",
+  "MdoListName": "Effertz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 408
     }
   }
 }

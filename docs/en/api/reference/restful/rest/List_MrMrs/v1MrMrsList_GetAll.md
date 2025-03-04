@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Rogahn Group",
-    "Tooltip": "molestias",
+    "Id": 674,
+    "Name": "Trantow, Hammes and Gleichner",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 571,
-    "Rank": 775,
+    "UdListDefinitionId": 561,
+    "Rank": 574,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 504
+        "FieldType": "System.Int32",
+        "FieldLength": 486
       }
     }
   }

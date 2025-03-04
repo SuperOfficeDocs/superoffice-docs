@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "fuga",
-    "Type": "commodi",
-    "Description": "Organized tertiary neural-net",
+    "DisplayType": "velit",
+    "Type": "officia",
+    "Description": "Optimized hybrid time-frame",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 599
+        "FieldType": "System.String",
+        "FieldLength": 807
       }
     }
   }

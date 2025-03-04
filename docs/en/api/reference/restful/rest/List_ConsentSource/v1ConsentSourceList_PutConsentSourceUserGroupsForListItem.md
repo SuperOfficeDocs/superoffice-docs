@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 666,
-    "Name": "Hartmann-Rutherford",
-    "ToolTip": "Dolores amet nesciunt ea.",
-    "Deleted": false,
-    "Rank": 249,
-    "Type": "vitae",
-    "ColorBlock": 801,
-    "IconHint": "quibusdam",
+    "Id": 885,
+    "Name": "Welch Inc and Sons",
+    "ToolTip": "Consequatur fugit molestiae qui perferendis.",
+    "Deleted": true,
+    "Rank": 519,
+    "Type": "omnis",
+    "ColorBlock": 950,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2010-03-27T12:01:33.4644748+01:00",
+    "LastChanged": "2017-03-23T14:13:49.7117421+01:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "Ullrich, Monahan and Prohaska",
-        "ToolTip": "Velit sed odit eum reiciendis quidem.",
+        "Id": 81,
+        "Name": "Purdy, Jakubowski and Shields",
+        "ToolTip": "Aut facere mollitia quo dolorem.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "sed",
-        "ColorBlock": 493,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2007-05-22T12:01:33.4644748+02:00",
+        "Rank": 459,
+        "Type": "distinctio",
+        "ColorBlock": 132,
+        "IconHint": "inventore",
+        "Selected": true,
+        "LastChanged": "1998-04-24T14:13:49.7117421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Westley Dickens"
+        "ExtraInfo": "aut",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Lauriane Batz"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Dr. Vicky Jorge Konopelski Sr."
+    "ExtraInfo": "voluptas",
+    "StyleHint": "aliquam",
+    "Hidden": true,
+    "FullName": "Weston Kiehn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Kunze-Metz",
-    "ToolTip": "Quasi omnis delectus asperiores est nobis aut.",
+    "Id": 222,
+    "Name": "Rolfson-Mante",
+    "ToolTip": "Excepturi enim.",
     "Deleted": false,
-    "Rank": 495,
+    "Rank": 305,
     "Type": "vel",
-    "ColorBlock": 928,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2010-02-11T12:01:33.4644748+01:00",
+    "ColorBlock": 702,
+    "IconHint": "laudantium",
+    "Selected": false,
+    "LastChanged": "2007-08-24T14:13:49.7273664+02:00",
     "ChildItems": [
       {
-        "Id": 654,
-        "Name": "Kautzer LLC",
-        "ToolTip": "Dolores qui molestiae debitis doloremque aliquam architecto alias.",
+        "Id": 732,
+        "Name": "Mann LLC",
+        "ToolTip": "Placeat similique accusantium ut eligendi.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "dicta",
-        "ColorBlock": 717,
+        "Rank": 65,
+        "Type": "quia",
+        "ColorBlock": 558,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2003-11-27T12:01:33.4644748+01:00",
+        "LastChanged": "2005-11-24T14:13:49.7273664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
+        "ExtraInfo": "excepturi",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Howard Frami",
+        "Hidden": false,
+        "FullName": "Rosemary Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 97
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "maiores",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Dr. Katrina Tremblay Jr.",
+    "FullName": "Rick Legros PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 539
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "Auer LLC",
-  "Tooltip": "sint",
+  "Id": 256,
+  "Name": "Zulauf, Rau and Thiel",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 695,
+  "Rank": 826,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 184,
-  "Name": "Runolfsdottir, Renner and McGlynn",
-  "Tooltip": "possimus",
-  "Deleted": false,
+  "Id": 587,
+  "Name": "Price, Jaskolski and O'Hara",
+  "Tooltip": "consequatur",
+  "Deleted": true,
   "Rank": 464,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": true,
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldLength": 331
     }
   }
 }

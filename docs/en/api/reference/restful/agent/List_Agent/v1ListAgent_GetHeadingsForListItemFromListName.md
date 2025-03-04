@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Ernser, Schowalter and Torphy",
-  "ListItemId": 347,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Metz-Feeney",
+  "ListItemId": 527,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Lubowitz, Ebert and Kertzmann",
-    "ToolTip": "Deleniti facere et et.",
+    "Id": 211,
+    "Name": "Swaniawski, Cremin and Windler",
+    "ToolTip": "Ullam explicabo occaecati.",
     "Deleted": true,
-    "Rank": 679,
-    "Type": "ea",
-    "ColorBlock": 679,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2018-07-31T12:01:27.9471677+02:00",
+    "Rank": 702,
+    "Type": "est",
+    "ColorBlock": 3,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2021-11-29T14:13:40.4847118+01:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Cummerata, McLaughlin and Jast",
-        "ToolTip": "Impedit debitis nihil blanditiis architecto.",
+        "Id": 840,
+        "Name": "Bauch-Grimes",
+        "ToolTip": "Cum sunt quibusdam et id.",
         "Deleted": false,
-        "Rank": 94,
-        "Type": "tempora",
-        "ColorBlock": 787,
-        "IconHint": "odio",
+        "Rank": 318,
+        "Type": "sint",
+        "ColorBlock": 13,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2001-08-12T12:01:27.9471677+02:00",
+        "LastChanged": "2016-12-26T14:13:40.4847118+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Loy Rath",
+        "ExtraInfo": "non",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Dr. Harmon Kuhic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldType": "System.String",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Virgie Aiden Green I",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quasi",
+    "Hidden": true,
+    "FullName": "Noble Orpha Marvin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 582
       }
     }
   }

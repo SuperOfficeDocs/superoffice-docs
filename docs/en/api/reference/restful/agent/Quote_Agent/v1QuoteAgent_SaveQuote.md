@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 76,
-  "SaleId": 847,
-  "QuoteConnectionId": 591,
-  "ERPQuoteKey": "corporis",
-  "ERPOrderKey": "sit",
-  "ActiveQuoteVersionId": 281,
-  "AcceptedQuoteAlternativeId": 550,
-  "UseValuesFromQuote": 24,
-  "DocumentId": 200,
-  "PoNumber": "698543",
-  "OrderComment": "rerum",
-  "PreferredEmailCulture": "jeffry_nolan@pourosreichert.co.uk",
+  "QuoteId": 474,
+  "SaleId": 512,
+  "QuoteConnectionId": 312,
+  "ERPQuoteKey": "aperiam",
+  "ERPOrderKey": "iure",
+  "ActiveQuoteVersionId": 99,
+  "AcceptedQuoteAlternativeId": 130,
+  "UseValuesFromQuote": 166,
+  "DocumentId": 226,
+  "PoNumber": "510412",
+  "OrderComment": "sint",
+  "PreferredEmailCulture": "andre@gerholdhane.name",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 576
     }
   }
 }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 280,
+  "TargetDimensionId": 868,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "praesentium",
-  "DimensionListName": "Pollich Group",
-  "DimensionListId": 464,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "quas",
+  "DimensionListName": "Barton LLC",
+  "DimensionListId": 953,
+  "DimensionListLabel": "accusamus",
   "SelectedDimensions": [
-    569,
-    236
+    61,
+    147
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 522,
+  "TargetDimensionId": 966,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "culpa",
-  "DimensionListName": "Weissnat Group",
-  "DimensionListId": 982,
-  "DimensionListLabel": "eligendi",
+  "DimensionListField": "sequi",
+  "DimensionListName": "Altenwerth Inc and Sons",
+  "DimensionListId": 875,
+  "DimensionListLabel": "aut",
   "SelectedDimensions": [
-    123,
-    732
+    118,
+    6
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 889
     }
   }
 }

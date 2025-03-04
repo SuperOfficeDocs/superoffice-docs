@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=sit
+GET /api/v1/List/DeliveryType/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Name": "Kessler-Lehner",
-    "ToolTip": "Et animi ipsam.",
+    "Id": 536,
+    "Name": "Douglas-Veum",
+    "ToolTip": "Molestias doloribus optio at.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "autem",
+    "Rank": 443,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Borer Group",
-        "ToolTip": "Et qui itaque beatae sequi.",
+        "Id": 10,
+        "Name": "Bins, Zieme and Breitenberg",
+        "ToolTip": "Omnis quasi sapiente tempore.",
         "Deleted": false,
-        "Rank": 107,
-        "Type": "numquam",
+        "Rank": 787,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 790,
-        "ExtraInfo": "amet",
-        "StyleHint": "maiores",
-        "FullName": "Elnora Shanny Kuhlman IV",
+        "IconHint": "qui",
+        "ColorBlock": 575,
+        "ExtraInfo": "quas",
+        "StyleHint": "inventore",
+        "FullName": "Miss Charley Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 454
+            "FieldLength": 36
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 947,
-    "ExtraInfo": "et",
-    "StyleHint": "eos",
-    "FullName": "Mr. Fred Grimes II",
+    "IconHint": "aut",
+    "ColorBlock": 222,
+    "ExtraInfo": "aut",
+    "StyleHint": "dolores",
+    "FullName": "Gretchen Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 289
       }
     }
   }

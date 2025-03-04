@@ -104,27 +104,27 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 782,
-  "Name": "Breitenberg, Carter and Langworth",
-  "CurrencyId": 83,
-  "EnglishName": "Strosin LLC",
+  "CountryId": 386,
+  "Name": "Renner-Mosciski",
+  "CurrencyId": 991,
+  "EnglishName": "Pagac, Kulas and Emard",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered motivating time-frame",
-  "OrgNrText": "945659",
-  "InterAreaPrefix": "sint",
-  "DialInPrefix": "asperiores",
-  "ZipPrefix": "doloribus",
-  "DomainName": "Mayert LLC",
-  "AddressLayoutId": 857,
-  "DomesticAddressLayoutId": 904,
-  "ForeignAddressLayoutId": 917,
-  "Rank": 552,
-  "Tooltip": "ut",
+  "ImageDescription": "Diverse mobile monitoring",
+  "OrgNrText": "1394461",
+  "InterAreaPrefix": "alias",
+  "DialInPrefix": "quae",
+  "ZipPrefix": "et",
+  "DomainName": "Feeney Group",
+  "AddressLayoutId": 626,
+  "DomesticAddressLayoutId": 993,
+  "ForeignAddressLayoutId": 480,
+  "Rank": 13,
+  "Tooltip": "inventore",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 94,
-  "Name": "Marvin, Adams and Dickinson",
-  "CurrencyId": 323,
-  "EnglishName": "Beier, Prohaska and Thiel",
+  "CountryId": 916,
+  "Name": "Johnson-Kuphal",
+  "CurrencyId": 348,
+  "EnglishName": "Feil LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Seamless empowering migration",
-  "OrgNrText": "1370220",
-  "InterAreaPrefix": "cum",
-  "DialInPrefix": "ex",
-  "ZipPrefix": "omnis",
-  "DomainName": "Fahey-Bartoletti",
-  "AddressLayoutId": 873,
-  "DomesticAddressLayoutId": 916,
-  "ForeignAddressLayoutId": 12,
-  "Rank": 513,
-  "Tooltip": "dolorum",
+  "ImageDescription": "Synergistic 6th generation Graphic Interface",
+  "OrgNrText": "1034398",
+  "InterAreaPrefix": "delectus",
+  "DialInPrefix": "dolorum",
+  "ZipPrefix": "veritatis",
+  "DomainName": "Lueilwitz-Pagac",
+  "AddressLayoutId": 863,
+  "DomesticAddressLayoutId": 505,
+  "ForeignAddressLayoutId": 111,
+  "Rank": 369,
+  "Tooltip": "officia",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 835
+      "FieldType": "System.Int32",
+      "FieldLength": 940
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 26 May 2018 12:01:32 G5T
+Last-Modified: Sat, 09 Jul 2022 14:13:48 G7T
 
 {
-  "Key": "enim",
-  "Value": "praesentium",
-  "RecordId": 591,
-  "CreatedDate": "2023-01-11T12:01:32.9175621+01:00",
-  "UpdatedDate": "2018-05-26T12:01:32.9175621+02:00",
-  "UpdatedBy": "blanditiis",
-  "CreatedBy": "asperiores",
-  "TableName": "Bechtelar-Nader",
+  "Key": "et",
+  "Value": "numquam",
+  "RecordId": 598,
+  "CreatedDate": "2007-11-02T14:13:48.8993207+01:00",
+  "UpdatedDate": "2022-07-09T14:13:48.8993207+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "enim",
+  "TableName": "Stamm, Quitzon and Runte",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 335
+      "FieldType": "System.Int32",
+      "FieldLength": 841
     }
   }
 }

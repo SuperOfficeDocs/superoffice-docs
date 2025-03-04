@@ -87,18 +87,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 418,
+  "SelectionId": 896,
   "Criteria": [
     {
-      "Name": "Rodriguez, Reichel and Moen",
-      "Operator": "eveniet",
+      "Name": "Jakubowski, Reichel and Hilpert",
+      "Operator": "non",
       "Values": [
-        "officiis",
-        "sed"
+        "temporibus",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "sequi",
-        "sed"
+        "magni",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 506,
+      "InterParenthesis": 876,
       "InterOperator": "And",
-      "UniqueHash": 836
+      "UniqueHash": 818
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Collier, Langworth and Schowalter",
-    "Operator": "qui",
+    "Name": "Ebert, Cormier and Treutel",
+    "Operator": "delectus",
     "Values": [
-      "hic",
-      "incidunt"
+      "earum",
+      "ipsum"
     ],
     "DisplayValues": [
-      "cumque",
-      "in"
+      "eos",
+      "explicabo"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Wisozk-Murazik",
-        "Operator": "molestias",
+        "Name": "Rempel LLC",
+        "Operator": "sed",
         "Values": [
-          "est",
-          "ipsum"
+          "harum",
+          "aut"
         ],
         "DisplayValues": [
-          "sed",
-          "quis"
+          "reiciendis",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 705,
+        "InterParenthesis": 6,
         "InterOperator": "And",
-        "UniqueHash": 89
+        "UniqueHash": 511
       }
     ],
-    "InterParenthesis": 37,
+    "InterParenthesis": 530,
     "InterOperator": "And",
-    "UniqueHash": 503
+    "UniqueHash": 526
   }
 ]
 ```

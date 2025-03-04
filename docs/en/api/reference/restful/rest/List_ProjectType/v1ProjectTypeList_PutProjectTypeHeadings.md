@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 62,
-    "Name": "Ritchie, Moore and Bauch",
-    "Tooltip": "labore",
+    "HeadingId": 957,
+    "Name": "Huel, Stoltenberg and Johnson",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 759,
-    "UdListDefinitionId": 103
+    "Rank": 322,
+    "UdListDefinitionId": 194
   },
   {
-    "HeadingId": 62,
-    "Name": "Ritchie, Moore and Bauch",
-    "Tooltip": "labore",
+    "HeadingId": 957,
+    "Name": "Huel, Stoltenberg and Johnson",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 759,
-    "UdListDefinitionId": 103
+    "Rank": 322,
+    "UdListDefinitionId": 194
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 7,
-    "Name": "Marvin-Block",
-    "Tooltip": "enim",
+    "HeadingId": 166,
+    "Name": "Wolff LLC",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 266,
-    "UdListDefinitionId": 403,
+    "Rank": 212,
+    "UdListDefinitionId": 939,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 493
       }
     }
   }

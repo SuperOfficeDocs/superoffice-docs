@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schaden-Bogan",
-  "ProviderName": "Muller LLC",
-  "Context": "nihil",
-  "OwnerKeys": "eos",
+  "GuiName": "Daugherty LLC",
+  "ProviderName": "Hansen, Crist and Hoeger",
+  "Context": "et",
+  "OwnerKeys": "delectus",
   "Entities": [
-    "enim",
-    "id"
+    "dolores",
+    "iure"
   ]
 }
 ```

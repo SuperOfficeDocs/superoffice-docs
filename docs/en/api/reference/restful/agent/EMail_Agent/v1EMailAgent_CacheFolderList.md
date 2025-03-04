@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schimmel Group",
-    "Delimiter": "doloremque",
-    "Flags": "veritatis",
-    "TotalItems": 211,
-    "UnreadItems": 767,
-    "Subscribed": false,
-    "EmailFolderId": 91,
+    "Name": "Upton-Rohan",
+    "Delimiter": "cupiditate",
+    "Flags": "rerum",
+    "TotalItems": 214,
+    "UnreadItems": 595,
+    "Subscribed": true,
+    "EmailFolderId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldLength": 490
       }
     }
   }

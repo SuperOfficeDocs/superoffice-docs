@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Anderson Inc and Sons",
-    "ToolTip": "Doloribus hic consequuntur pariatur molestiae quis et.",
+    "Id": 395,
+    "Name": "Spencer, Graham and Lubowitz",
+    "ToolTip": "Soluta molestiae et.",
     "Deleted": false,
-    "Rank": 724,
-    "Type": "esse",
-    "ColorBlock": 851,
-    "IconHint": "qui",
+    "Rank": 280,
+    "Type": "sequi",
+    "ColorBlock": 519,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2008-01-14T12:01:33.4175965+01:00",
+    "LastChanged": "2021-10-11T14:13:49.6336384+02:00",
     "ChildItems": [
       {
-        "Id": 487,
-        "Name": "Barrows Group",
-        "ToolTip": "Voluptatem tenetur voluptate eveniet in quos dolorem.",
+        "Id": 871,
+        "Name": "Bashirian LLC",
+        "ToolTip": "Quia quas et qui omnis impedit a saepe.",
         "Deleted": false,
-        "Rank": 50,
-        "Type": "tempora",
-        "ColorBlock": 740,
+        "Rank": 90,
+        "Type": "qui",
+        "ColorBlock": 156,
         "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2017-08-09T12:01:33.4175965+02:00",
+        "LastChanged": "2010-10-30T14:13:49.6336384+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "placeat",
-        "Hidden": true,
-        "FullName": "Jordyn Stiedemann Jr."
+        "ExtraInfo": "qui",
+        "StyleHint": "libero",
+        "Hidden": false,
+        "FullName": "Savion Prosacco"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Wendy Romaguera"
+    "ExtraInfo": "dolore",
+    "StyleHint": "saepe",
+    "Hidden": true,
+    "FullName": "Sofia Bechtelar"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Kemmer-Krajcik",
-    "ToolTip": "Omnis omnis officiis animi est quasi voluptatem.",
-    "Deleted": false,
-    "Rank": 937,
-    "Type": "vitae",
-    "ColorBlock": 916,
-    "IconHint": "exercitationem",
+    "Id": 707,
+    "Name": "Murray-O'Reilly",
+    "ToolTip": "Quam blanditiis distinctio et consequatur voluptate sit.",
+    "Deleted": true,
+    "Rank": 393,
+    "Type": "voluptatem",
+    "ColorBlock": 432,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2011-04-21T12:01:33.4175965+02:00",
+    "LastChanged": "2017-10-17T14:13:49.6336384+02:00",
     "ChildItems": [
       {
-        "Id": 336,
-        "Name": "Johnson, Kiehn and Kautzer",
-        "ToolTip": "Quae placeat deserunt vel facere.",
+        "Id": 759,
+        "Name": "Lang, Nolan and Breitenberg",
+        "ToolTip": "Aut quam quia eos expedita natus.",
         "Deleted": false,
-        "Rank": 612,
-        "Type": "non",
-        "ColorBlock": 476,
-        "IconHint": "suscipit",
+        "Rank": 761,
+        "Type": "soluta",
+        "ColorBlock": 640,
+        "IconHint": "quos",
         "Selected": true,
-        "LastChanged": "2017-03-17T12:01:33.4175965+01:00",
+        "LastChanged": "1998-12-07T14:13:49.6336384+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "odio",
-        "Hidden": false,
-        "FullName": "Ms. Miguel Manley Ritchie",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Cortney Torphy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 733
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "asperiores",
-    "Hidden": true,
-    "FullName": "Edison Cummings",
+    "ExtraInfo": "quod",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Estefania McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 178
       }
     }
   }

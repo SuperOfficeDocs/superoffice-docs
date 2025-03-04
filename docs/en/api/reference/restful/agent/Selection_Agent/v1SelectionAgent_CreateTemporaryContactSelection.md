@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Open-architected secondary approach",
-  "Postit": "sed",
+  "Description": "Mandatory next generation installation",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 927,
-  "IncludePerson": 980,
+  "GroupIdx": 883,
+  "IncludePerson": 533,
   "MemberCount": 99.99,
-  "Name": "Hermiston-Kautzer",
-  "PostitTextId": 555,
-  "CreatedDate": "2006-03-12T12:01:28.2909425+01:00",
-  "SelectionId": 761,
-  "SoundEx": "dicta",
-  "Source": 157,
-  "TextId": 174,
-  "UpdatedDate": "2010-02-23T12:01:28.2909425+01:00",
-  "UpdatedCount": 486,
-  "Visibility": 125,
+  "Name": "Tromp Inc and Sons",
+  "PostitTextId": 310,
+  "CreatedDate": "1998-08-12T14:13:41.2977255+02:00",
+  "SelectionId": 131,
+  "SoundEx": "consequatur",
+  "Source": 581,
+  "TextId": 964,
+  "UpdatedDate": "2023-12-17T14:13:41.2977255+01:00",
+  "UpdatedCount": 297,
+  "Visibility": 508,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 27,
-  "TargetTableName": "Macejkovic Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 531,
-  "RightSelectionId": 110,
+  "CompanyUnique": false,
+  "TargetTableNumber": 859,
+  "TargetTableName": "Keebler Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 182,
+  "RightSelectionId": 973,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Parker-O'Connell",
-  "ShadowProviderName": "Jacobs-Brown",
-  "ChartKey": "molestiae",
-  "LastLoaded": "2016-10-31T12:01:28.2909425+01:00",
-  "LastLoadedBy": 723,
+  "MainProviderName": "Flatley Inc and Sons",
+  "ShadowProviderName": "Boehm, Gutmann and Lueilwitz",
+  "ChartKey": "fugiat",
+  "LastLoaded": "2016-03-15T14:13:41.2977255+01:00",
+  "LastLoadedBy": 896,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-10-28T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 261,
+  "LastMembershipChange": "2021-07-20T14:13:41.2977255+02:00",
+  "LastMembershipChangeBy": 478,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laudantium",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Thompson-Ziemann",
-  "DashboardTileDefinitionId": 762,
+  "MainHeading": "dicta",
+  "MemberTabHeading": "numquam",
+  "MailingsProviderName": "Kris-Lind",
+  "DashboardTileDefinitionId": 595,
   "VisibleFor": [
     {
-      "VisibleId": 601,
+      "VisibleId": 203,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldLength": 652
         }
       }
     },
     {
-      "VisibleId": 601,
+      "VisibleId": 203,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "ipsum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldLength": 652
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

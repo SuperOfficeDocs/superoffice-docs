@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 293
+  "UserGroupId": 612
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 339,
-    "ColumnId": 955,
-    "FieldDefault": "ullam",
-    "FieldHeight": 157,
-    "FieldLabel": "rem",
-    "FieldLeft": 824,
-    "FieldTop": 866,
+    "UDefFieldId": 679,
+    "ColumnId": 617,
+    "FieldDefault": "sed",
+    "FieldHeight": 115,
+    "FieldLabel": "ut",
+    "FieldLeft": 467,
+    "FieldTop": 772,
     "FieldType": "Checkbox",
-    "FieldWidth": 837,
-    "FormatMask": "atque",
+    "FieldWidth": 71,
+    "FormatMask": "in",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 106,
-    "LabelLeft": 590,
-    "LabelTop": 337,
-    "LabelWidth": 304,
-    "LastVersionId": 710,
-    "ListTableId": 554,
-    "IsMandatory": true,
+    "LabelHeight": 528,
+    "LabelLeft": 461,
+    "LabelTop": 168,
+    "LabelWidth": 901,
+    "LastVersionId": 933,
+    "ListTableId": 502,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 841,
-    "ProgId": "ut",
-    "IsReadOnly": true,
-    "ShortLabel": "quas",
-    "TabOrder": 288,
-    "TextLength": 549,
-    "Tooltip": "ipsam",
-    "UdefIdentity": 280,
-    "UDListDefinitionId": 714,
+    "Page1LineNo": 946,
+    "ProgId": "facilis",
+    "IsReadOnly": false,
+    "ShortLabel": "neque",
+    "TabOrder": 850,
+    "TextLength": 503,
+    "Tooltip": "omnis",
+    "UdefIdentity": 709,
+    "UDListDefinitionId": 917,
     "Justification": "Center",
-    "Version": 622,
-    "TemplateVariableName": "Crona-Pollich",
-    "HasBeenPublished": true,
-    "MdoListName": "Tromp-Jerde",
+    "Version": 523,
+    "TemplateVariableName": "Waelchi Inc and Sons",
+    "HasBeenPublished": false,
+    "MdoListName": "Murphy, Streich and Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 304
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

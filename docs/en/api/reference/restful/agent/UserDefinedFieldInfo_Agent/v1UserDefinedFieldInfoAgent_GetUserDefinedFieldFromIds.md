@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    232,
-    925
+    300,
+    164
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 62,
-    "ColumnId": 781,
-    "FieldDefault": "sint",
-    "FieldHeight": 418,
-    "FieldLabel": "recusandae",
-    "FieldLeft": 948,
-    "FieldTop": 506,
+    "UDefFieldId": 25,
+    "ColumnId": 236,
+    "FieldDefault": "recusandae",
+    "FieldHeight": 886,
+    "FieldLabel": "omnis",
+    "FieldLeft": 61,
+    "FieldTop": 648,
     "FieldType": "Checkbox",
-    "FieldWidth": 206,
-    "FormatMask": "quasi",
+    "FieldWidth": 395,
+    "FormatMask": "commodi",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 534,
-    "LabelLeft": 215,
-    "LabelTop": 700,
-    "LabelWidth": 874,
-    "LastVersionId": 293,
-    "ListTableId": 303,
+    "IsIndexed": true,
+    "LabelHeight": 859,
+    "LabelLeft": 507,
+    "LabelTop": 908,
+    "LabelWidth": 938,
+    "LastVersionId": 588,
+    "ListTableId": 397,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 704,
-    "ProgId": "et",
+    "Page1LineNo": 490,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "ullam",
-    "TabOrder": 97,
-    "TextLength": 273,
-    "Tooltip": "occaecati",
-    "UdefIdentity": 790,
-    "UDListDefinitionId": 817,
+    "ShortLabel": "rem",
+    "TabOrder": 394,
+    "TextLength": 636,
+    "Tooltip": "laboriosam",
+    "UdefIdentity": 965,
+    "UDListDefinitionId": 25,
     "Justification": "Center",
-    "Version": 48,
-    "TemplateVariableName": "Wiegand Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Waelchi Inc and Sons",
+    "Version": 313,
+    "TemplateVariableName": "Hartmann, Gerlach and Fahey",
+    "HasBeenPublished": false,
+    "MdoListName": "Dietrich-O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 297
       }
     }
   }

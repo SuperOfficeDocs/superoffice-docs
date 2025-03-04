@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 589,
-  "Name": "Cremin-Hand",
-  "Tooltip": "eos",
-  "Rank": 671,
-  "AmountFrom": 28428.514,
-  "AmountTo": 15438.083999999999,
-  "Deleted": true,
-  "CurrencyId": 739,
+  "AmountClassId": 1001,
+  "Name": "Fahey, Shields and Hickle",
+  "Tooltip": "consectetur",
+  "Rank": 77,
+  "AmountFrom": 13037.439999999999,
+  "AmountTo": 968.406,
+  "Deleted": false,
+  "CurrencyId": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 242
     }
   }
 }

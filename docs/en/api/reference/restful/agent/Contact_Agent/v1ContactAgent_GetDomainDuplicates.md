@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "quae"
+  "Domain": "iure"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Treutel-Moen",
-    "SoPrimaryKey": 60,
-    "EntryName": "Doyle, Lemke and Bartoletti",
-    "EntryIdentifier": "provident",
-    "RuleDisplayName": "Rath, Johnson and Prosacco",
+    "RuleName": "Armstrong, Cummerata and Smith",
+    "SoPrimaryKey": 139,
+    "EntryName": "Lockman LLC",
+    "EntryIdentifier": "ea",
+    "RuleDisplayName": "Blick LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldLength": 950
       }
     }
   }

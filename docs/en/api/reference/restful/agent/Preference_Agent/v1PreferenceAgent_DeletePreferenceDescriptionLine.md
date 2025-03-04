@@ -25,7 +25,7 @@ Deletes the PreferenceDescriptionLine
 | PreferenceDescriptionLineId | int32 | **Required** The id of the PreferenceDescriptionLine to be deleted. |
 
 ```http
-POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=895
+POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine?PreferenceDescriptionLineId=956
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Preference/DeletePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

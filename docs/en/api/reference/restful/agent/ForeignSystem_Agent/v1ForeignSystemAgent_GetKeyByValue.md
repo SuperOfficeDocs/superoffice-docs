@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weissnat, Moen and Gutkowski",
-  "DeviceName": "DuBuque, Trantow and O'Kon",
-  "KeyName": "Streich, Dicki and Wunsch",
-  "KeyValue": "accusamus",
-  "TableName": "Crist Group"
+  "ApplicationName": "Romaguera, Bernier and Ledner",
+  "DeviceName": "Casper, Kessler and Rogahn",
+  "KeyName": "Hermann LLC",
+  "KeyValue": "et",
+  "TableName": "Bergnaum, McDermott and Jewess"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "sequi",
-  "RecordId": 1001,
-  "CreatedDate": "2009-07-18T12:01:27.9002891+02:00",
-  "UpdatedDate": "2001-12-05T12:01:27.9002891+01:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "omnis",
-  "TableName": "Prosacco Inc and Sons",
+  "Key": "voluptatem",
+  "Value": "iusto",
+  "RecordId": 793,
+  "CreatedDate": "2010-10-06T14:13:40.3909833+02:00",
+  "UpdatedDate": "2015-11-07T14:13:40.3909833+01:00",
+  "UpdatedBy": "quia",
+  "CreatedBy": "ut",
+  "TableName": "Gibson-Emmerich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 131
     }
   }
 }

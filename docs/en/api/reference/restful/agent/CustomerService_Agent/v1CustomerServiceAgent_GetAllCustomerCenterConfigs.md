@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 675,
+    "CustConfigId": 137,
     "Type": "Options",
-    "Config": "rerum",
-    "CustLangId": 388,
-    "Registered": "2015-11-17T12:01:27.5565162+01:00",
-    "RegisteredAssociateId": 99,
-    "Updated": "2008-09-26T12:01:27.5565162+02:00",
-    "UpdatedAssociateId": 495,
+    "Config": "aliquid",
+    "CustLangId": 85,
+    "Registered": "2009-06-25T14:13:39.9379614+02:00",
+    "RegisteredAssociateId": 189,
+    "Updated": "2010-04-12T14:13:39.9379614+02:00",
+    "UpdatedAssociateId": 91,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 370
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Mueller, Haag and Schimmel",
-    "ToolTip": "Ab ipsum dolorem tenetur rerum et.",
-    "Deleted": true,
-    "Rank": 544,
-    "Type": "officia",
-    "ColorBlock": 847,
-    "IconHint": "rerum",
+    "Id": 134,
+    "Name": "Stroman Inc and Sons",
+    "ToolTip": "Aut numquam.",
+    "Deleted": false,
+    "Rank": 947,
+    "Type": "quia",
+    "ColorBlock": 337,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2023-12-29T12:01:33.5269792+01:00",
+    "LastChanged": "1998-10-03T14:13:50.0094247+02:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Quitzon LLC",
-        "ToolTip": "Cupiditate omnis asperiores consequatur aut.",
-        "Deleted": false,
-        "Rank": 950,
-        "Type": "dolorem",
-        "ColorBlock": 140,
-        "IconHint": "debitis",
-        "Selected": false,
-        "LastChanged": "2004-06-10T12:01:33.5269792+02:00",
+        "Id": 863,
+        "Name": "Stehr LLC",
+        "ToolTip": "At aperiam quidem quia.",
+        "Deleted": true,
+        "Rank": 293,
+        "Type": "ut",
+        "ColorBlock": 933,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2003-10-16T14:13:50.0094247+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "itaque",
+        "ExtraInfo": "sequi",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Brooklyn Senger"
+        "FullName": "Prof. Salvador Mueller"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Mrs. Francesca Nicolette Leffler"
+    "ExtraInfo": "et",
+    "StyleHint": "facere",
+    "Hidden": false,
+    "FullName": "Sigrid Danielle Borer DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Beatty-Kunze",
-    "ToolTip": "Aspernatur aliquid voluptatibus.",
+    "Id": 228,
+    "Name": "Nolan Inc and Sons",
+    "ToolTip": "Esse beatae dolores id nesciunt quia.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "magnam",
-    "ColorBlock": 278,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2013-04-15T12:01:33.5269792+02:00",
+    "Rank": 183,
+    "Type": "optio",
+    "ColorBlock": 43,
+    "IconHint": "nobis",
+    "Selected": false,
+    "LastChanged": "2016-05-08T14:13:50.0094247+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Weber LLC",
-        "ToolTip": "Nostrum sint error.",
-        "Deleted": true,
-        "Rank": 565,
-        "Type": "excepturi",
-        "ColorBlock": 136,
-        "IconHint": "vel",
+        "Id": 24,
+        "Name": "Abernathy Inc and Sons",
+        "ToolTip": "Recusandae voluptatum autem animi consequuntur.",
+        "Deleted": false,
+        "Rank": 836,
+        "Type": "placeat",
+        "ColorBlock": 993,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2002-02-22T12:01:33.5269792+01:00",
+        "LastChanged": "2024-04-23T14:13:50.0094247+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ut",
+        "ExtraInfo": "nam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Maeve Wyman",
+        "FullName": "Ms. Kaia Osinski MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 234
+            "FieldType": "System.Int32",
+            "FieldLength": 981
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Vernon Taurean Cormier I",
+    "ExtraInfo": "ut",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Prof. Joanny Garret Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 376
+        "FieldType": "System.String",
+        "FieldLength": 582
       }
     }
   }

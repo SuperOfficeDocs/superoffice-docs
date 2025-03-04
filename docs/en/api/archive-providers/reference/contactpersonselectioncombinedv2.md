@@ -1209,7 +1209,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=targetRelation/updatedByFullName,sale/saleType,appointment/time,appointment/intention,appointment/appointment/agendaHtml
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=searchPhone/description,streetAddress/formattedMultiLineAddress,LastTicket,sale/type,sale/saleUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

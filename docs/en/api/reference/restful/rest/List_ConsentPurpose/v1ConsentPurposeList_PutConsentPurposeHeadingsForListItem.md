@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 654,
-    "Name": "Schoen, Reinger and Leannon",
-    "ToolTip": "Nobis sed consequatur vel voluptas nisi consequuntur.",
+    "Id": 135,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Iste ut nemo quis.",
     "Deleted": false,
     "Rank": 145,
-    "Type": "in",
-    "ColorBlock": 679,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-03-27T12:01:33.4644748+02:00",
+    "Type": "dolore",
+    "ColorBlock": 434,
+    "IconHint": "dolorum",
+    "Selected": false,
+    "LastChanged": "2015-12-06T14:13:49.7117421+01:00",
     "ChildItems": [
       {
-        "Id": 743,
-        "Name": "Mann-Rippin",
-        "ToolTip": "Culpa possimus cum.",
-        "Deleted": true,
-        "Rank": 654,
-        "Type": "in",
-        "ColorBlock": 44,
-        "IconHint": "et",
+        "Id": 19,
+        "Name": "Hermiston Inc and Sons",
+        "ToolTip": "Voluptatem nihil.",
+        "Deleted": false,
+        "Rank": 628,
+        "Type": "animi",
+        "ColorBlock": 673,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2004-12-24T12:01:33.4644748+01:00",
+        "LastChanged": "2021-07-26T14:13:49.7117421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "harum",
-        "Hidden": false,
-        "FullName": "Providenci O'Kon"
+        "ExtraInfo": "veritatis",
+        "StyleHint": "autem",
+        "Hidden": true,
+        "FullName": "Jed Trisha Rath IV"
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Mohamed Fay II"
+    "ExtraInfo": "totam",
+    "StyleHint": "expedita",
+    "Hidden": true,
+    "FullName": "Lauren Ritchie V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Farrell-Feeney",
-    "ToolTip": "Qui quia et ipsum.",
+    "Id": 128,
+    "Name": "Ferry, Wuckert and Jaskolski",
+    "ToolTip": "Ad necessitatibus aut.",
     "Deleted": true,
-    "Rank": 605,
-    "Type": "magni",
-    "ColorBlock": 163,
-    "IconHint": "nostrum",
+    "Rank": 697,
+    "Type": "laboriosam",
+    "ColorBlock": 652,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2013-02-15T12:01:33.4644748+01:00",
+    "LastChanged": "2000-12-23T14:13:49.7117421+01:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Feeney Inc and Sons",
-        "ToolTip": "Et quia.",
-        "Deleted": false,
-        "Rank": 86,
-        "Type": "nostrum",
-        "ColorBlock": 761,
-        "IconHint": "facere",
-        "Selected": false,
-        "LastChanged": "2003-12-27T12:01:33.4644748+01:00",
+        "Id": 408,
+        "Name": "Strosin LLC",
+        "ToolTip": "Perspiciatis illum rerum voluptas voluptatem et sed tempore.",
+        "Deleted": true,
+        "Rank": 656,
+        "Type": "eveniet",
+        "ColorBlock": 560,
+        "IconHint": "rem",
+        "Selected": true,
+        "LastChanged": "2007-05-13T14:13:49.7117421+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "quas",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Geoffrey Gaylord",
+        "FullName": "Zachariah Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Mrs. Pearl Okuneva Sr.",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Jabari Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 8
       }
     }
   }

@@ -39,7 +39,7 @@ Archive provider for the list of ListItems
 ## Sample
 
 ```http!
-GET /api/v1/archive/ListItems?$select=listItemsName,listItemsTooltip
+GET /api/v1/archive/ListItems?$select=listItemsId,listItemsEmailTemplateType,listItemsName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "White-Kirlin",
-      "EntityOrParentId": 144,
-      "RequestForNewRecord": false
+      "EntityName": "Rosenbaum-King",
+      "EntityOrParentId": 395,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "White-Kirlin",
-      "EntityOrParentId": 144,
-      "RequestForNewRecord": false
+      "EntityName": "Rosenbaum-King",
+      "EntityOrParentId": 395,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 642,
-    "Id": 889,
-    "HistoryName": "Swift-Hartmann",
-    "HistoryId": 671,
-    "AssociateId": 328,
-    "Name": "Kihn, Lowe and Stroman",
-    "ItemInfo": "quae",
+    "Rank": 953,
+    "Id": 910,
+    "HistoryName": "Heaney LLC",
+    "HistoryId": 5,
+    "AssociateId": 316,
+    "Name": "Rice-Nicolas",
+    "ItemInfo": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 317
+        "FieldType": "System.Int32",
+        "FieldLength": 739
       }
     }
   }

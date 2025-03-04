@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 805,
-  "AttachmentId": "dolore"
+  "MessageServerId": 651,
+  "AttachmentId": "ullam"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored tangible intranet",
-  "Filename": "deleniti",
-  "Size": 734,
-  "Type": "quia",
-  "Encoding": "rem",
-  "Id": "id",
-  "Disposition": "qui",
-  "IsSafeFileExtension": true,
+  "Description": "Sharable directional application",
+  "Filename": "quas",
+  "Size": 348,
+  "Type": "dolores",
+  "Encoding": "autem",
+  "Id": "ea",
+  "Disposition": "laborum",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 19
+      "FieldLength": 533
     }
   }
 }

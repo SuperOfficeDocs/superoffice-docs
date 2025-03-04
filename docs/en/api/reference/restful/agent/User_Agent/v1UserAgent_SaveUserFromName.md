@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Bradtke Group",
+  "UserName": "Grant Inc and Sons",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 594,
-  "Name": "Labadie-Prohaska",
-  "Rank": 200,
-  "Tooltip": "odio",
+  "AssociateId": 723,
+  "Name": "McKenzie-Abbott",
+  "Rank": 696,
+  "Tooltip": "occaecati",
   "LicenseOwners": [
     {
-      "Name": "Quitzon, Buckridge and Quigley",
-      "Description": "Cloned web-enabled circuit",
+      "Name": "Bosco-Jaskolski",
+      "Description": "Assimilated intermediate initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldLength": 154
         }
       }
     },
     {
-      "Name": "Quitzon, Buckridge and Quigley",
-      "Description": "Cloned web-enabled circuit",
+      "Name": "Bosco-Jaskolski",
+      "Description": "Assimilated intermediate initiative",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldLength": 154
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "suscipit",
-      "Tooltip": "vitae",
-      "Id": 403,
-      "Rank": 638,
-      "Deleted": false,
+      "Value": "explicabo",
+      "Tooltip": "aut",
+      "Id": 911,
+      "Rank": 50,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 315
+          "FieldType": "System.Int32",
+          "FieldLength": 966
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2000-09-07T12:01:28.6190891+02:00",
-  "Lastlogout": "2003-07-28T12:01:28.6190891+02:00",
-  "EjUserId": 870,
-  "RequestSignature": "aliquid",
+  "Lastlogin": "2016-09-15T14:13:41.7039902+02:00",
+  "Lastlogout": "2005-09-15T14:13:41.7039902+02:00",
+  "EjUserId": 57,
+  "RequestSignature": "temporibus",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "quod",
+      "Value": "iusto",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldLength": 290
         }
       }
     },
     {
       "Type": null,
-      "Value": "quis",
-      "DisplayValue": "quod",
+      "Value": "iusto",
+      "DisplayValue": "doloribus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 867
+          "FieldLength": 290
         }
       }
     }
   ],
-  "UserName": "Vandervort-Wilderman",
+  "UserName": "Gaylord-Stamm",
   "TicketCategories": [
     {
-      "Id": 848,
-      "Name": "Rutherford, Kautzer and Jacobs",
-      "ToolTip": "Enim temporibus laudantium dolorum harum molestiae sit.",
-      "Deleted": true,
-      "Rank": 704,
-      "Type": "voluptas",
+      "Id": 777,
+      "Name": "Hansen-Lubowitz",
+      "ToolTip": "A quia.",
+      "Deleted": false,
+      "Rank": 43,
+      "Type": "consequatur",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "qui",
-      "ColorBlock": 115,
-      "ExtraInfo": "rerum",
-      "StyleHint": "enim",
-      "FullName": "Donnell Jenkins",
+      "IconHint": "illo",
+      "ColorBlock": 510,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "deserunt",
+      "FullName": "Nikko Koss",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 721
         }
       }
     }
   ],
-  "NickName": "Beahan-Gerhold",
+  "NickName": "Corwin-Runte",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "natus",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "et",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "qui"
+    "CustomFields1": "perspiciatis",
+    "CustomFields2": "voluptates"
   },
   "PostSaveCommands": [
     {
-      "Name": "Feeney, Ernser and Murazik",
-      "DisplayName": "Rice, Kessler and Batz",
-      "Description": "Adaptive empowering knowledge user",
-      "ToolTip": "Aliquid quidem voluptatum velit.",
+      "Name": "Cummerata-Haley",
+      "DisplayName": "Kuphal, Davis and Ortiz",
+      "Description": "Pre-emptive user-facing analyzer",
+      "ToolTip": "Voluptatem modi quae.",
       "Actions": "Implicit",
-      "ActionData": "inventore",
+      "ActionData": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 858
+          "FieldType": "System.Int32",
+          "FieldLength": 679
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 179
     }
   }
 }

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 255,
-  "Name": "Jaskolski-Emmerich",
-  "Rank": 26,
-  "Tooltip": "eius",
+  "AssociateId": 113,
+  "Name": "Champlin-Lockman",
+  "Rank": 496,
+  "Tooltip": "magnam",
   "LicenseOwners": [
     {
-      "Name": "Stokes-Welch",
-      "Description": "Multi-lateral interactive forecast",
+      "Name": "Parisian-Williamson",
+      "Description": "Enterprise-wide fresh-thinking groupware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldLength": 999
         }
       }
     },
     {
-      "Name": "Stokes-Welch",
-      "Description": "Multi-lateral interactive forecast",
+      "Name": "Parisian-Williamson",
+      "Description": "Enterprise-wide fresh-thinking groupware",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 443
+          "FieldLength": 999
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "omnis",
-      "Tooltip": "placeat",
-      "Id": 279,
-      "Rank": 894,
-      "Deleted": true,
+      "Value": "nihil",
+      "Tooltip": "molestiae",
+      "Id": 351,
+      "Rank": 360,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldLength": 831
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2016-03-27T12:01:28.5722109+02:00",
-  "Lastlogout": "2017-11-22T12:01:28.5722109+01:00",
-  "EjUserId": 604,
-  "RequestSignature": "veniam",
+  "Deleted": true,
+  "Lastlogin": "2025-01-16T14:13:41.6258828+01:00",
+  "Lastlogout": "1999-08-27T14:13:41.6258828+02:00",
+  "EjUserId": 970,
+  "RequestSignature": "maxime",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "rerum",
+      "Value": "velit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 983
         }
       }
     },
     {
       "Type": null,
-      "Value": "iste",
-      "DisplayValue": "rerum",
+      "Value": "velit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 581
+          "FieldLength": 983
         }
       }
     }
   ],
-  "UserName": "Fritsch LLC",
+  "UserName": "Schultz, Breitenberg and Sawayn",
   "TicketCategories": [
     {
-      "Id": 417,
-      "Name": "Hammes-Rempel",
-      "ToolTip": "Sunt consequatur adipisci accusantium dolorem qui.",
+      "Id": 139,
+      "Name": "Bogan, Stokes and Haag",
+      "ToolTip": "Fugiat dolor dicta.",
       "Deleted": true,
-      "Rank": 161,
-      "Type": "corporis",
+      "Rank": 603,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 96,
-      "ExtraInfo": "facilis",
-      "StyleHint": "aut",
-      "FullName": "Jacynthe Kling",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
-        }
-      }
-    }
-  ],
-  "NickName": "Padberg, McCullough and Marvin",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "ea"
-  },
-  "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "quasi"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Schuster, Mosciski and Gleichner",
-      "DisplayName": "Mills Group",
-      "Description": "Extended optimal task-force",
-      "ToolTip": "Doloribus omnis.",
-      "Actions": "Implicit",
-      "ActionData": "itaque",
+      "IconHint": "aut",
+      "ColorBlock": 645,
+      "ExtraInfo": "earum",
+      "StyleHint": "occaecati",
+      "FullName": "Prof. Barrett Devante Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 958
+          "FieldLength": 638
+        }
+      }
+    }
+  ],
+  "NickName": "Schimmel-Cummerata",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "non",
+    "ExtraFields2": "alias"
+  },
+  "CustomFields": {
+    "CustomFields1": "officia",
+    "CustomFields2": "qui"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Abernathy LLC",
+      "DisplayName": "Bayer LLC",
+      "Description": "Assimilated didactic hardware",
+      "ToolTip": "Aliquid nesciunt veritatis.",
+      "Actions": "Implicit",
+      "ActionData": "maiores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 223
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 163
     }
   }
 }

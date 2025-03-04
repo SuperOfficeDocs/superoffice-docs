@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Walsh, Doyle and Shields",
-    "AssociateId": 494,
-    "DetailsTable": 194,
-    "DetailsRecord": 257,
-    "IsSystemTask": false,
+    "Id": 984,
+    "Name": "Konopelski, Barton and Rolfson",
+    "AssociateId": 498,
+    "DetailsTable": 501,
+    "DetailsRecord": 738,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "nulla",
-      "ParameterObject2": "ab"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "reiciendis"
     },
-    "LastStarted": "2022-07-29T12:01:33.308214+02:00",
-    "Created": "2001-09-29T12:01:33.308214+02:00",
-    "StartCount": 235,
-    "DatabaseSerialNumber": "1667882",
-    "Context": "rerum",
-    "Result": "expedita",
+    "LastStarted": "2008-01-17T14:13:49.4305556+01:00",
+    "Created": "2016-10-28T14:13:49.4305556+02:00",
+    "StartCount": 934,
+    "DatabaseSerialNumber": "831420",
+    "Context": "facilis",
+    "Result": "sint",
     "State": "All",
-    "Description": "Multi-layered bandwidth-monitored encoding",
-    "Response": "eius",
-    "Request": "sit",
-    "ProgressDescription": "De-engineered national instruction set",
-    "ProgressPercent": 708,
-    "FileName": "Connelly Group",
+    "Description": "Face to face demand-driven protocol",
+    "Response": "similique",
+    "Request": "ut",
+    "ProgressDescription": "Organized context-sensitive Graphic Interface",
+    "ProgressPercent": 500,
+    "FileName": "Emard LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 462
       }
     }
   }

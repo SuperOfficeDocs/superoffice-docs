@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ruecker, Crist and McDermott"
+  "ApplicationName": "Moen, Dietrich and Turner"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 673,
-  "Name": "Little, Bailey and Weber",
-  "CreatedDate": "1999-01-12T12:01:27.9002891+01:00",
-  "UpdatedDate": "2024-07-21T12:01:27.9002891+02:00",
+  "ForeignAppId": 540,
+  "Name": "Pacocha LLC",
+  "CreatedDate": "2022-03-17T14:13:40.3909833+01:00",
+  "UpdatedDate": "2019-07-23T14:13:40.3909833+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 498,
-      "Name": "Schimmel-Rath",
-      "CreatedDate": "2010-02-05T12:01:27.9002891+01:00",
-      "UpdatedDate": "2002-03-25T12:01:27.9002891+01:00",
-      "AssociateFullName": "Mireille Nicolas",
+      "ForeignDeviceId": 149,
+      "Name": "Mraz Inc and Sons",
+      "CreatedDate": "2023-05-23T14:13:40.3909833+02:00",
+      "UpdatedDate": "2003-03-24T14:13:40.3909833+01:00",
+      "AssociateFullName": "Mr. Lelah Bridgette Brakus DVM",
       "CreatedBy": "et",
-      "UpdatedBy": "delectus",
-      "DeviceIdentifier": "adipisci",
-      "ForeignAppId": 319,
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "repellat",
+      "ForeignAppId": 128,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 346
+          "FieldType": "System.String",
+          "FieldLength": 682
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 777
     }
   }
 }

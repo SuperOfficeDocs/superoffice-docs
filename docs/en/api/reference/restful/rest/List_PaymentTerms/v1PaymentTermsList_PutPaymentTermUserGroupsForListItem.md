@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Jewess Group",
-    "ToolTip": "Consequatur nobis officia.",
-    "Deleted": false,
-    "Rank": 238,
-    "Type": "et",
-    "ColorBlock": 892,
-    "IconHint": "cum",
+    "Id": 308,
+    "Name": "Erdman, Lindgren and Heathcote",
+    "ToolTip": "Sit numquam.",
+    "Deleted": true,
+    "Rank": 320,
+    "Type": "dolorum",
+    "ColorBlock": 606,
+    "IconHint": "natus",
     "Selected": true,
-    "LastChanged": "2002-02-18T12:01:33.5426053+01:00",
+    "LastChanged": "2006-09-02T14:13:50.0094247+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Harris, Stoltenberg and Sipes",
-        "ToolTip": "Soluta eius nihil reiciendis unde voluptatem hic.",
+        "Id": 937,
+        "Name": "Welch-Predovic",
+        "ToolTip": "Ex magni sed occaecati.",
         "Deleted": false,
-        "Rank": 335,
-        "Type": "sunt",
-        "ColorBlock": 343,
-        "IconHint": "enim",
+        "Rank": 777,
+        "Type": "eaque",
+        "ColorBlock": 668,
+        "IconHint": "doloribus",
         "Selected": false,
-        "LastChanged": "2000-03-18T12:01:33.5426053+01:00",
+        "LastChanged": "2000-12-23T14:13:50.0094247+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "ullam",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Prof. Otto Sawayn DDS"
+        "FullName": "Mrs. Brigitte Morar"
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "quos",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Chelsie Jayden Labadie Jr."
+    "FullName": "Orlando Friesen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Haley LLC",
-    "ToolTip": "Soluta est quibusdam repellat aut.",
-    "Deleted": false,
-    "Rank": 380,
-    "Type": "dolores",
-    "ColorBlock": 618,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "1997-12-14T12:01:33.5426053+01:00",
+    "Id": 502,
+    "Name": "O'Keefe, Ziemann and Crona",
+    "ToolTip": "Quia voluptatem labore aut sapiente.",
+    "Deleted": true,
+    "Rank": 582,
+    "Type": "eligendi",
+    "ColorBlock": 924,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2004-11-26T14:13:50.0094247+01:00",
     "ChildItems": [
       {
-        "Id": 342,
-        "Name": "Shanahan-O'Conner",
-        "ToolTip": "Necessitatibus deleniti et quibusdam voluptatem nesciunt et.",
+        "Id": 824,
+        "Name": "Greenholt, Jacobi and Romaguera",
+        "ToolTip": "Voluptatem doloremque.",
         "Deleted": false,
-        "Rank": 27,
-        "Type": "alias",
-        "ColorBlock": 22,
-        "IconHint": "fugit",
+        "Rank": 423,
+        "Type": "enim",
+        "ColorBlock": 172,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2000-12-22T12:01:33.5426053+01:00",
+        "LastChanged": "2016-06-24T14:13:50.0094247+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "aspernatur",
-        "StyleHint": "sed",
+        "StyleHint": "earum",
         "Hidden": true,
-        "FullName": "Judah Angela Sipes IV",
+        "FullName": "Dr. Silas Flatley IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 914
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "tempora",
+    "ExtraInfo": "eaque",
+    "StyleHint": "eius",
     "Hidden": true,
-    "FullName": "Johathan Mills",
+    "FullName": "Ms. Fanny Regan Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 531
       }
     }
   }

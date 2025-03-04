@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,22 +108,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 139,
-    "Name": "Yundt, Bergstrom and O'Reilly",
-    "Description": "Re-contextualized disintermediate methodology",
-    "WelcomeMessage": "est",
+    "ChatTopicId": 382,
+    "Name": "Bartell, Thiel and Zulauf",
+    "Description": "Managed analyzing toolset",
+    "WelcomeMessage": "accusantium",
     "Language": null,
-    "LastAccept": "2010-02-02T12:01:27.4315072+01:00",
-    "SecondsPrAccept": 834,
-    "AlertRecipient": "ex",
+    "LastAccept": "2016-04-15T14:13:39.7035324+02:00",
+    "SecondsPrAccept": 453,
+    "AlertRecipient": "vero",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "a",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "laboriosam",
-    "WarnNewChatMinutes": 372,
-    "WarnManagerNewChatMinutes": 689,
-    "TicketEnabled": false,
+    "CollectConsent": false,
+    "BadgeHeader": "sed",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "ut",
+    "WarnNewChatMinutes": 616,
+    "WarnManagerNewChatMinutes": 86,
+    "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
@@ -131,20 +131,20 @@ Content-Type: application/json; charset=utf-8
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": true,
-    "WarnChatMessageMinutes": 632,
-    "WarnManagerChatMessageMinutes": 271,
+    "OfflineCollectConsent": false,
+    "WarnChatMessageMinutes": 646,
+    "WarnManagerChatMessageMinutes": 280,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 410,
-    "OfflineFormQueueLength": 404,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "voluptates",
+    "OfflineFormTimeLimit": 576,
+    "OfflineFormQueueLength": 649,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 91
+        "FieldLength": 935
       }
     }
   }

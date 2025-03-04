@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 962,
-  "Field": "nisi",
-  "RecordId": 655,
+  "RefCountsId": 643,
+  "Field": "eum",
+  "RecordId": 877,
   "SuggestedRecords": [
     {
-      "Id": 735,
-      "Name": "Altenwerth Group",
-      "ToolTip": "Aut omnis numquam omnis.",
-      "Deleted": true,
-      "Rank": 838,
-      "Type": "voluptas",
+      "Id": 627,
+      "Name": "Collier LLC",
+      "ToolTip": "Asperiores modi aut.",
+      "Deleted": false,
+      "Rank": 438,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 337,
-      "ExtraInfo": "natus",
-      "StyleHint": "architecto",
-      "FullName": "Katheryn Muller",
+      "IconHint": "inventore",
+      "ColorBlock": 18,
+      "ExtraInfo": "exercitationem",
+      "StyleHint": "neque",
+      "FullName": "Gabrielle Fanny Wisozk II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 393
+          "FieldLength": 281
         }
       }
     }
   ],
-  "CurrentValue": 440,
-  "TravelPrefix": 926,
-  "SatPrefix": 278,
+  "CurrentValue": 830,
+  "TravelPrefix": 974,
+  "SatPrefix": 757,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": false,
+  "Unique": true,
+  "ReadOnly": true,
   "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   }
 }

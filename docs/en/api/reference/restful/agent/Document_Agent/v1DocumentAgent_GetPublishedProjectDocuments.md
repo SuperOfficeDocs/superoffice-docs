@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 311
+  "ProjectId": 544
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 517,
-    "Attention": "nostrum",
-    "Header": "natus",
-    "Name": "Casper, Schowalter and Turcotte",
-    "OurRef": "rerum",
-    "YourRef": "consectetur",
-    "Description": "Quality-focused full-range leverage",
-    "DocumentTemplate": "iusto",
+    "DocumentId": 280,
+    "Attention": "reiciendis",
+    "Header": "odit",
+    "Name": "Ebert Inc and Sons",
+    "OurRef": "nihil",
+    "YourRef": "maiores",
+    "Description": "Expanded assymetric analyzer",
+    "DocumentTemplate": "facere",
     "IsPublished": false,
-    "PersonId": 223,
-    "PersonFullName": "Laila Feeney",
-    "AssociateFullName": "Camryn Funk",
-    "ContactId": 169,
-    "ContactName": "Kerluke Inc and Sons",
-    "ProjectId": 131,
-    "ProjectName": "Spinka Group",
-    "AssociateId": 917,
-    "Snum": 509,
-    "SaleId": 443,
-    "SaleName": "McCullough Inc and Sons",
+    "PersonId": 285,
+    "PersonFullName": "Miss Lina Cole",
+    "AssociateFullName": "Mr. Hilton Maria Dach V",
+    "ContactId": 590,
+    "ContactName": "Johns Inc and Sons",
+    "ProjectId": 132,
+    "ProjectName": "Mosciski-White",
+    "AssociateId": 379,
+    "Snum": 82,
+    "SaleId": 71,
+    "SaleName": "Durgan-Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 391
       }
     }
   }

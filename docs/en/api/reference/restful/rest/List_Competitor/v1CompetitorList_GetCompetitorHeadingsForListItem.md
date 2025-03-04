@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Hintz-Tillman",
-    "ToolTip": "Deleniti aut incidunt nulla veniam quia.",
+    "Id": 838,
+    "Name": "Funk-Kozey",
+    "ToolTip": "Voluptatem voluptatum odio omnis id.",
     "Deleted": false,
-    "Rank": 853,
-    "Type": "dignissimos",
-    "ColorBlock": 827,
-    "IconHint": "consequuntur",
+    "Rank": 238,
+    "Type": "aut",
+    "ColorBlock": 775,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2015-12-17T12:01:33.448849+01:00",
+    "LastChanged": "2010-08-22T14:13:49.696121+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "Douglas LLC",
-        "ToolTip": "Et veniam eligendi.",
+        "Id": 578,
+        "Name": "Nicolas-Lind",
+        "ToolTip": "Commodi est aut sunt nam sed dolorem soluta.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "vel",
-        "ColorBlock": 771,
-        "IconHint": "cum",
+        "Rank": 663,
+        "Type": "sit",
+        "ColorBlock": 436,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-10-14T12:01:33.448849+02:00",
+        "LastChanged": "2014-03-18T14:13:49.696121+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Chelsea Auer",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "sunt",
+        "Hidden": true,
+        "FullName": "Eloy Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 312
+            "FieldType": "System.String",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "quod",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dasia Rippin",
+    "FullName": "Theodore Quinten Spencer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 593
       }
     }
   }

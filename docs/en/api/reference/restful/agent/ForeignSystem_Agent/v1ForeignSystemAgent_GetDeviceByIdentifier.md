@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kling, Rutherford and Smitham",
-  "DeviceName": "Hoeger-Boyle",
-  "DeviceIdentifier": "suscipit"
+  "ApplicationName": "Ratke Inc and Sons",
+  "DeviceName": "Bayer, Stanton and Welch",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 556,
-  "Name": "Leuschke-Kessler",
-  "CreatedDate": "1998-09-24T12:01:27.9002891+02:00",
-  "UpdatedDate": "2000-04-26T12:01:27.9002891+02:00",
-  "AssociateFullName": "Murray Walter",
+  "ForeignDeviceId": 631,
+  "Name": "Boehm-Anderson",
+  "CreatedDate": "1998-09-07T14:13:40.3909833+02:00",
+  "UpdatedDate": "2001-05-13T14:13:40.3909833+02:00",
+  "AssociateFullName": "Randall Runolfsson",
   "CreatedBy": "quia",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "eligendi",
-  "ForeignAppId": 423,
+  "UpdatedBy": "ea",
+  "DeviceIdentifier": "cum",
+  "ForeignAppId": 784,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 501
     }
   }
 }

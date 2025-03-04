@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 694,
-    "Name": "Nader-Ritchie",
-    "Tooltip": "totam",
+    "Id": 441,
+    "Name": "Reichel, Altenwerth and Hansen",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 998,
-    "Rank": 840
+    "UdListDefinitionId": 633,
+    "Rank": 591
   },
   {
-    "Id": 694,
-    "Name": "Nader-Ritchie",
-    "Tooltip": "totam",
+    "Id": 441,
+    "Name": "Reichel, Altenwerth and Hansen",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 998,
-    "Rank": 840
+    "UdListDefinitionId": 633,
+    "Rank": 591
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Wiza Group",
-    "Tooltip": "praesentium",
-    "Deleted": false,
-    "UdListDefinitionId": 88,
-    "Rank": 324,
+    "Id": 420,
+    "Name": "Hartmann, Rice and Huel",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "UdListDefinitionId": 961,
+    "Rank": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 109
       }
     }
   }

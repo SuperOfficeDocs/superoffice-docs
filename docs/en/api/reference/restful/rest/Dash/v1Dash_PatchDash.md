@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolorum",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 758,
-  "UniqueId": "id",
-  "Name": "Pfeffer, Dibbert and D'Amore",
-  "Description": "Advanced eco-centric function",
-  "AssociateId": 841,
-  "Columns": 599,
+  "DashboardId": 798,
+  "UniqueId": "explicabo",
+  "Name": "Ortiz-Sawayn",
+  "Description": "Digitized intangible support",
+  "AssociateId": 508,
+  "Columns": 999,
   "Theme": null,
-  "VisibleForAll": 366,
+  "VisibleForAll": 401,
   "VisibleForAssociates": [
-    438,
-    129
+    235,
+    459
   ],
   "VisibleForGroups": [
-    888,
-    957
+    940,
+    157
   ],
-  "PinForAll": 139,
+  "PinForAll": 185,
   "PinForAssociates": [
-    822,
-    740
+    313,
+    621
   ],
   "PinForGroups": [
-    404,
-    977
+    990,
+    168
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 491
     }
   },
   "_Links": {

@@ -88,10 +88,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 79,
+  "TargetYear": 484,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 639
+  "Id": 792
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 536,
+  "TargetAssignmentInfoId": 862,
   "Values": [
-    794,
-    619
+    381,
+    452
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 324,
-  "DimensionListItemDisplayName": "Stoltenberg, Crona and Walsh",
+  "DimensionListItem": 191,
+  "DimensionListItemDisplayName": "Mante Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldLength": 898
     }
   }
 }

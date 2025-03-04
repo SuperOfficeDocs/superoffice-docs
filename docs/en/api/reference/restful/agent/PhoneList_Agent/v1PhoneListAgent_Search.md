@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "sed"
+  "SearchString": "soluta"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "761-738-7797 x455",
-    "PersonCellPhone": "(135)392-5803",
-    "PersonPrivatePhone": "683-315-0913 x420",
-    "PersonFaxNumber": "260277",
-    "PersonPagerNumber": "324539",
-    "PersonEmail": "ozella@miller.uk",
-    "Id": 400,
-    "Name": "Lakin, Fay and Terry",
-    "Tooltip": "in",
-    "UniqueId": "voluptate",
+    "PersonDirectPhone": "(471)933-6989",
+    "PersonCellPhone": "(394)083-6724",
+    "PersonPrivatePhone": "(791)162-4406",
+    "PersonFaxNumber": "443237",
+    "PersonPagerNumber": "732201",
+    "PersonEmail": "austin.bartell@schulist.biz",
+    "Id": 255,
+    "Name": "Olson LLC",
+    "Tooltip": "itaque",
+    "UniqueId": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 604
       }
     }
   }

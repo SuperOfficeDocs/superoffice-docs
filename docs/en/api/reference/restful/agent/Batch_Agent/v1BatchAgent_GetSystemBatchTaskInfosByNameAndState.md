@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Rau LLC",
+  "TaskName": "Douglas, Barrows and Mohr",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 909,
-    "Name": "Muller-Funk",
-    "AssociateId": 756,
-    "DetailsTable": 389,
-    "DetailsRecord": 784,
+    "Id": 620,
+    "Name": "Eichmann Group",
+    "AssociateId": 515,
+    "DetailsTable": 821,
+    "DetailsRecord": 556,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "iure"
+      "ParameterObject1": "voluptatem",
+      "ParameterObject2": "dicta"
     },
-    "LastStarted": "2016-08-18T12:01:27.3533761+02:00",
-    "Created": "2025-01-09T12:01:27.3533761+01:00",
-    "StartCount": 277,
-    "DatabaseSerialNumber": "996341",
-    "Context": "minus",
-    "Result": "tempore",
+    "LastStarted": "2017-01-23T14:13:39.3911033+01:00",
+    "Created": "2000-01-20T14:13:39.3911033+01:00",
+    "StartCount": 335,
+    "DatabaseSerialNumber": "888716",
+    "Context": "qui",
+    "Result": "optio",
     "State": "All",
-    "Description": "Innovative foreground throughput",
-    "Response": "quisquam",
-    "Request": "voluptatem",
-    "ProgressDescription": "Secured homogeneous synergy",
-    "ProgressPercent": 529,
-    "FileName": "Bartoletti, Boehm and Kemmer",
+    "Description": "Synergistic methodical core",
+    "Response": "voluptatibus",
+    "Request": "quaerat",
+    "ProgressDescription": "Customer-focused explicit projection",
+    "ProgressPercent": 503,
+    "FileName": "Conn Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldLength": 425
       }
     }
   }

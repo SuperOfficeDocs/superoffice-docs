@@ -87,19 +87,19 @@ OK
 POST /api/v1/Agents/Appointment/SaveTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 694,
-  "Value": "velit",
+  "TaskListItemId": 852,
+  "Value": "aut",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "adipisci",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "IntentId": 798,
-  "Rank": 494,
-  "IsDefaultAlldayEvent": true,
+  "IntentId": 787,
+  "Rank": 253,
+  "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -114,17 +114,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 231,
-  "Value": "officiis",
+  "TaskListItemId": 929,
+  "Value": "aut",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "tenetur",
-  "Deleted": true,
-  "IntentId": 404,
-  "Rank": 564,
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "IntentId": 513,
+  "Rank": 659,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldLength": 852
     }
   }
 }

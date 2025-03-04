@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 153
+  "ErpFieldId": 964
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 65,
-  "DefaultValue": "optio",
+  "ErpFieldId": 413,
+  "DefaultValue": "sed",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "maxime",
-  "PromptUser": false,
-  "Mandatory": true,
-  "ErpFieldKey": "officia",
+  "FirstSyncDefaultValue": "laudantium",
+  "PromptUser": true,
+  "Mandatory": false,
+  "ErpFieldKey": "explicabo",
   "FieldType": "Checkbox",
-  "ListName": "Walsh Group",
+  "ListName": "Romaguera LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 319
     }
   }
 }

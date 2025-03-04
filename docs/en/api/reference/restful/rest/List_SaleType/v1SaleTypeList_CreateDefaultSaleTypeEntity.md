@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 949,
-  "Name": "Cruickshank-Klocko",
-  "Tooltip": "provident",
-  "Rank": 262,
+  "SaleTypeId": 680,
+  "Name": "Pacocha Inc and Sons",
+  "Tooltip": "qui",
+  "Rank": 691,
   "DurationUnit": "Century",
-  "SaleDuration": 764,
-  "SaleTypeCatId": 969,
+  "SaleDuration": 942,
+  "SaleTypeCatId": 394,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 262,
-  "QuoteLinesTemplate": 445,
-  "ConfirmationLinesTemplate": 101,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 424,
-  "MinEarningPercent": 876,
-  "GroupQuoteLinesBy": 897,
-  "SortGroupLinesBy": 894,
+  "DefaultQuoteValidity": 112,
+  "QuoteLinesTemplate": 746,
+  "ConfirmationLinesTemplate": 457,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 7,
+  "MinEarningPercent": 434,
+  "GroupQuoteLinesBy": 474,
+  "SortGroupLinesBy": 167,
   "Stages": [
     {
-      "Id": 579,
-      "Name": "Stark Group",
-      "ToolTip": "Quia esse id illo.",
-      "Deleted": false,
-      "Rank": 998,
-      "Type": "aut",
-      "ColorBlock": 137,
-      "IconHint": "maiores",
+      "Id": 154,
+      "Name": "Kunde LLC",
+      "ToolTip": "Provident adipisci dolores nam aut maiores ratione.",
+      "Deleted": true,
+      "Rank": 715,
+      "Type": "consequatur",
+      "ColorBlock": 55,
+      "IconHint": "odio",
       "Selected": false,
-      "LastChanged": "2007-09-06T12:01:33.6519877+02:00",
+      "LastChanged": "2016-10-17T14:13:50.2283063+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "quos",
-      "Hidden": true,
-      "FullName": "Earnest Medhurst",
+      "ExtraInfo": "placeat",
+      "StyleHint": "corrupti",
+      "Hidden": false,
+      "FullName": "Marietta Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 576
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 749
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=dolor
+GET /api/v1/List/Business/MDOItems?query=incidunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Morar, Hartmann and Bernhard",
-    "ToolTip": "Dolor necessitatibus tenetur ad.",
-    "Deleted": true,
-    "Rank": 882,
-    "Type": "perferendis",
+    "Id": 94,
+    "Name": "Okuneva, Denesik and Kozey",
+    "ToolTip": "Aut aliquid omnis numquam rem unde laudantium.",
+    "Deleted": false,
+    "Rank": 356,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Shanahan Group",
-        "ToolTip": "Animi autem nobis minus aperiam repellat.",
+        "Id": 919,
+        "Name": "Russel, Gibson and Beahan",
+        "ToolTip": "Distinctio laboriosam consequuntur.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "nisi",
+        "Rank": 48,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 718,
-        "ExtraInfo": "numquam",
-        "StyleHint": "totam",
-        "FullName": "Loraine Forrest O'Keefe DDS",
+        "IconHint": "aut",
+        "ColorBlock": 767,
+        "ExtraInfo": "est",
+        "StyleHint": "aut",
+        "FullName": "Marielle Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 323
+            "FieldLength": 219
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 106,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "debitis",
-    "FullName": "Kathryne Murphy",
+    "IconHint": "repellendus",
+    "ColorBlock": 633,
+    "ExtraInfo": "sed",
+    "StyleHint": "dolor",
+    "FullName": "Evie Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

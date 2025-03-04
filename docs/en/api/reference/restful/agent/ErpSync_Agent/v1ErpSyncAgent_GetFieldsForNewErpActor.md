@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 735,
+  "ErpConnectionId": 503,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "sunt",
-    "Rank": 557,
-    "DisplayName": "D'Amore-Gorczany",
-    "DisplayDescription": "Optional incremental flexibility",
+    "FieldKey": "voluptatem",
+    "Rank": 698,
+    "DisplayName": "Haley, Mante and Heidenreich",
+    "DisplayDescription": "Streamlined executive firmware",
     "FieldType": "Checkbox",
-    "ListName": "Luettgen-Streich",
-    "DefaultValue": "ut",
-    "MaxLength": 323,
+    "ListName": "Ankunding-Berge",
+    "DefaultValue": "nesciunt",
+    "MaxLength": 770,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 198
       }
     }
   }

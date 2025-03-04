@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Hammes Inc and Sons",
-    "ToolTip": "Facere fugiat eligendi autem sed at.",
-    "Deleted": false,
-    "Rank": 436,
-    "Type": "ea",
-    "ColorBlock": 450,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2004-05-05T12:01:33.4332226+02:00",
+    "Id": 722,
+    "Name": "Schoen LLC",
+    "ToolTip": "Est aut a soluta non doloribus in.",
+    "Deleted": true,
+    "Rank": 161,
+    "Type": "est",
+    "ColorBlock": 121,
+    "IconHint": "esse",
+    "Selected": false,
+    "LastChanged": "1998-04-04T14:13:49.6648827+02:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Jerde LLC",
-        "ToolTip": "Et consequatur.",
+        "Id": 569,
+        "Name": "Feil-Terry",
+        "ToolTip": "Quidem quo tenetur dolor.",
         "Deleted": true,
-        "Rank": 453,
-        "Type": "itaque",
-        "ColorBlock": 350,
-        "IconHint": "nostrum",
+        "Rank": 361,
+        "Type": "nobis",
+        "ColorBlock": 108,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2002-10-26T12:01:33.4332226+02:00",
+        "LastChanged": "2022-05-10T14:13:49.6648827+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "in",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Tyreek Pfeffer",
+        "FullName": "Orlando Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldType": "System.String",
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "enim",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Quentin Kihn Jr.",
+    "FullName": "Chadd Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 158
       }
     }
   }

@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 390,
-    "ERPName": "Adams-Donnelly",
-    "DisplayName": "Feil-Lebsack",
-    "DisplayDescription": "Persistent context-sensitive conglomeration",
-    "Rank": 968,
-    "ConnectorName": "Watsica-Pacocha",
-    "ErpConnectionId": 60,
-    "ExtraData": "delectus",
-    "IsAvailable": true,
+    "QuoteConnectionId": 668,
+    "ERPName": "Kiehn Inc and Sons",
+    "DisplayName": "Davis-Tremblay",
+    "DisplayDescription": "Seamless methodical collaboration",
+    "Rank": 609,
+    "ConnectorName": "Satterfield-Jacobson",
+    "ErpConnectionId": 520,
+    "ExtraData": "vitae",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 928,
+        "PriceListId": 5,
         "ERPPriceListKey": "eius",
-        "QuoteConnectionId": 114,
-        "Name": "Hessel-Anderson",
-        "Description": "Function-based upward-trending matrices",
-        "Currency": "nihil",
-        "CurrencyName": "Hackett-Zemlak",
-        "ValidFrom": "2012-11-28T12:01:28.1971849+01:00",
-        "ValidTo": "2003-09-26T12:01:28.1971849+02:00",
+        "QuoteConnectionId": 868,
+        "Name": "Mayer, Ritchie and Casper",
+        "Description": "Total dedicated info-mediaries",
+        "Currency": "eum",
+        "CurrencyName": "Anderson LLC",
+        "ValidFrom": "2014-09-18T14:13:41.1095702+02:00",
+        "ValidTo": "2004-09-29T14:13:41.1095702+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 462
+            "FieldLength": 718
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      142,
-      123
+      208,
+      572
     ],
     "AssociateAccessIds": [
-      778,
-      859
+      572,
+      137
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 300
       }
     }
   }

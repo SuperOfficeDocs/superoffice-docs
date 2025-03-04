@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=False
+POST /api/v1/TicketMessage?notify=True
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 627,
+  "EjMessageId": 543,
   "Ticket": null,
-  "CreatedAt": "1998-06-23T12:01:33.2769618+02:00",
+  "CreatedAt": "2023-11-02T14:13:49.3836927+01:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "cumque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "optio",
-  "TimeSpent": 401,
-  "Body": "sed",
-  "HtmlBody": "excepturi",
-  "EmailHeader": "alec@faheyjakubowski.uk",
-  "DebugInfo": "tempore",
-  "MailSorter": "vitae",
+  "MessageId": "aut",
+  "TimeSpent": 871,
+  "Body": "qui",
+  "HtmlBody": "quidem",
+  "EmailHeader": "ned_koelpin@cummingsbruen.uk",
+  "DebugInfo": "nam",
+  "MailSorter": "non",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "reiciendis",
+  "SearchTitle": "maxime",
   "MessageHeaders": [
     {
-      "Id": 573,
-      "Name": "Hand-Greenfelder",
-      "Value": "debitis",
+      "Id": 552,
+      "Name": "Shanahan, Smitham and Lemke",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 573,
-      "Name": "Hand-Greenfelder",
-      "Value": "debitis",
+      "Id": 552,
+      "Name": "Shanahan, Smitham and Lemke",
+      "Value": "sit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "in",
-  "Sentiment": 331,
-  "SentimentConfidence": 951,
+  "Language": "error",
+  "Sentiment": 80,
+  "SentimentConfidence": 193,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 692,
-      "Name": "Ondricka Group",
-      "ContentType": "in",
-      "AttSize": 184,
+      "AttachmentId": 635,
+      "Name": "Bartoletti-Schoen",
+      "ContentType": "ut",
+      "AttSize": 147,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "temporibus",
+      "ContentId": "est",
+      "AuthKey": "qui",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "optio",
-    "ExtraFields2": "inventore"
+    "ExtraFields1": "eum",
+    "ExtraFields2": "laudantium"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "quos"
+    "CustomFields1": "aspernatur",
+    "CustomFields2": "quia"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 476,
+  "EjMessageId": 640,
   "Ticket": null,
-  "CreatedAt": "2023-03-11T12:01:33.2769618+01:00",
+  "CreatedAt": "2020-12-08T14:13:49.3836927+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nihil",
-  "TimeSpent": 841,
-  "Body": "voluptatem",
-  "HtmlBody": "repellendus",
-  "EmailHeader": "francisca@balistreri.biz",
-  "DebugInfo": "consequatur",
-  "MailSorter": "numquam",
+  "MessageId": "dolores",
+  "TimeSpent": 239,
+  "Body": "qui",
+  "HtmlBody": "dolor",
+  "EmailHeader": "mariana.stamm@roob.co.uk",
+  "DebugInfo": "molestiae",
+  "MailSorter": "eum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "assumenda",
+  "SearchTitle": "cumque",
   "MessageHeaders": [
     {
-      "Id": 748,
-      "Name": "Berge Inc and Sons",
-      "Value": "architecto",
+      "Id": 831,
+      "Name": "Cronin, Rosenbaum and Von",
+      "Value": "libero",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldLength": 120
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "asperiores",
-  "Sentiment": 510,
-  "SentimentConfidence": 553,
+  "Important": true,
+  "Language": "laboriosam",
+  "Sentiment": 351,
+  "SentimentConfidence": 477,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 505,
-      "Name": "Mante, Jenkins and Toy",
-      "ContentType": "nemo",
-      "AttSize": 875,
-      "InlineImage": true,
-      "ContentId": "hic",
-      "AuthKey": "atque",
+      "AttachmentId": 916,
+      "Name": "Friesen, Marvin and Stracke",
+      "ContentType": "rem",
+      "AttSize": 686,
+      "InlineImage": false,
+      "ContentId": "omnis",
+      "AuthKey": "odio",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldType": "System.Int32",
+          "FieldLength": 172
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "perferendis"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "pariatur"
+    "CustomFields1": "debitis",
+    "CustomFields2": "incidunt"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 728
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

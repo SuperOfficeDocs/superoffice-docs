@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=385
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=921
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 746,
-  "StartDate": "2021-03-02T12:01:27.1658627+01:00",
-  "EndDate": "2023-08-08T12:01:27.1658627+02:00",
+  "AppointmentId": 563,
+  "StartDate": "1999-09-11T14:13:39.0786746+02:00",
+  "EndDate": "2024-03-05T14:13:39.0786746+01:00",
   "Type": "BookingForChecklist",
-  "Task": "impedit",
-  "AssociateFullName": "Daphne Zemlak",
-  "ContactName": "Pfannerstill-Hudson",
-  "Description": "Polarised incremental approach",
-  "PersonFullName": "Alexandria Orn",
-  "PersonId": 521,
-  "ContactId": 842,
-  "ProjectId": 703,
-  "ProjectName": "Blick Group",
+  "Task": "sapiente",
+  "AssociateFullName": "Mr. Clay Duncan Harris III",
+  "ContactName": "Koch-Kshlerin",
+  "Description": "Open-source real-time knowledge base",
+  "PersonFullName": "Prof. Maiya Littel",
+  "PersonId": 629,
+  "ContactId": 383,
+  "ProjectId": 311,
+  "ProjectName": "Yundt, Zulauf and Bashirian",
   "IsPublished": false,
-  "AssociateId": 366,
-  "ColorIndex": 412,
-  "IsFree": true,
+  "AssociateId": 309,
+  "ColorIndex": 380,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 370,
-  "PriorityName": "Ortiz, Windler and Bechtelar",
+  "PriorityId": 989,
+  "PriorityName": "Mills, Reilly and Krajcik",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": false,
-  "ActiveDate": "2021-09-17T12:01:27.1658627+02:00",
+  "IsRecurrence": false,
+  "IsBooking": true,
+  "ActiveDate": "2022-02-08T14:13:39.0786746+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1999-12-01T12:01:27.1658627+01:00",
-  "RecurringEndDate": "2013-01-28T12:01:27.1658627+01:00",
-  "MotherId": 417,
-  "AssignedBy": 472,
-  "AssignedByFullName": "Miss Monserrate Ortiz Sr.",
+  "RecurringStartDate": "1998-12-15T14:13:39.0786746+01:00",
+  "RecurringEndDate": "2016-07-04T14:13:39.0786746+02:00",
+  "MotherId": 996,
+  "AssignedBy": 565,
+  "AssignedByFullName": "Matteo Hyatt",
   "RejectReason": "",
-  "Location": "consequatur",
-  "AlarmLeadTime": "neque",
-  "SaleId": 524,
-  "SaleName": "Hirthe-Lehner",
-  "AssociateName": "Bartell-Daniel",
-  "CreatedDate": "2017-02-27T12:01:27.1658627+01:00",
-  "CreatedBy": "nam",
-  "CreatedByFullName": "Quincy Ayla Conn Sr.",
-  "CreatedByAssociateId": 593,
+  "Location": "reprehenderit",
+  "AlarmLeadTime": "doloremque",
+  "SaleId": 722,
+  "SaleName": "Little Group",
+  "AssociateName": "Effertz-Kovacek",
+  "CreatedDate": "2024-09-25T14:13:39.0786746+02:00",
+  "CreatedBy": "molestiae",
+  "CreatedByFullName": "Jaquan Hauck",
+  "CreatedByAssociateId": 737,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 520,
-  "Title": "fugit",
-  "Agenda": "ea",
-  "InternalNotes": "vel",
+  "PreferredTZLocation": 795,
+  "Title": "illo",
+  "Agenda": "eum",
+  "InternalNotes": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 849
     }
   }
 }

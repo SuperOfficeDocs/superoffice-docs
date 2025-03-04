@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 49,
-  "ERPProductKey": "eum",
-  "Rank": 436
+  "QuoteConnectionId": 981,
+  "ERPProductKey": "unde",
+  "Rank": 476
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repudiandae"
+"distinctio"
 ```

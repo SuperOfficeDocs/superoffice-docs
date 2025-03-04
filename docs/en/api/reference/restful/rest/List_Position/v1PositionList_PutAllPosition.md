@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 529,
-    "Name": "Funk LLC",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "UdListDefinitionId": 82,
-    "Rank": 240
+    "Id": 26,
+    "Name": "Watsica, Ledner and Paucek",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 518
   },
   {
-    "Id": 529,
-    "Name": "Funk LLC",
-    "Tooltip": "distinctio",
-    "Deleted": true,
-    "UdListDefinitionId": 82,
-    "Rank": 240
+    "Id": 26,
+    "Name": "Watsica, Ledner and Paucek",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 518
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Larson-VonRueden",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "UdListDefinitionId": 837,
-    "Rank": 324,
+    "Id": 52,
+    "Name": "Marquardt Inc and Sons",
+    "Tooltip": "soluta",
+    "Deleted": false,
+    "UdListDefinitionId": 551,
+    "Rank": 61,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 995
       }
     }
   }

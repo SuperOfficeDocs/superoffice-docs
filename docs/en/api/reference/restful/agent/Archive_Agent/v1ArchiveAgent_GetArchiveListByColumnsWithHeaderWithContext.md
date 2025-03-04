@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Runolfsson Inc and Sons",
+  "ProviderName": "Satterfield-Jacobi",
   "Columns": [
-    "ea",
-    "tenetur"
+    "soluta",
+    "recusandae"
   ],
   "SortOrder": [
     {
-      "Name": "Schultz-Beahan",
+      "Name": "Herzog Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Schultz-Beahan",
+      "Name": "Herzog Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lowe LLC",
-      "Operator": "officiis",
+      "Name": "Mertz-Schultz",
+      "Operator": "qui",
       "Values": [
-        "nam",
-        "est"
+        "enim",
+        "dolor"
       ],
       "DisplayValues": [
-        "accusantium",
-        "delectus"
+        "quia",
+        "vel"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 580,
+      "InterParenthesis": 457,
       "InterOperator": "And",
-      "UniqueHash": 899
+      "UniqueHash": 671
     }
   ],
   "Entities": [
-    "est",
-    "corrupti"
+    "reiciendis",
+    "laboriosam"
   ],
-  "Page": 710,
-  "PageSize": 188,
-  "Options": "voluptas",
-  "Context": "qui"
+  "Page": 579,
+  "PageSize": 174,
+  "Options": "corporis",
+  "Context": "ipsam"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 710,
+  "RowCount": 666,
   "Rows": [
     {
-      "EntityName": "Pacocha, McGlynn and Gulgowski",
-      "PrimaryKey": 545,
+      "EntityName": "Legros-Volkman",
+      "PrimaryKey": 316,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "porro",
-          "LinkHint": "similique"
+          "DisplayValue": "at",
+          "TooltipHint": "rerum",
+          "LinkHint": "doloribus"
         }
       },
-      "LinkHint": "quis",
-      "StyleHint": "ratione",
+      "LinkHint": "dignissimos",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 925
+          "FieldType": "System.Int32",
+          "FieldLength": 314
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 253
     }
   }
 }

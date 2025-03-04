@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Murray, Considine and Lubowitz",
-    "Id": 899,
-    "Description": "Vision-oriented uniform open system",
-    "ExtraInfo": "voluptatem",
-    "LinkId": 470,
+    "EntityName": "Kulas, Berge and Borer",
+    "Id": 632,
+    "Description": "Streamlined 24 hour implementation",
+    "ExtraInfo": "occaecati",
+    "LinkId": 924,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldLength": 843
       }
     }
   }

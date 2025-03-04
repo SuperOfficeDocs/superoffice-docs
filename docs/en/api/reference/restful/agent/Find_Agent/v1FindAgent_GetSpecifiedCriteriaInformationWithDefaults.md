@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "cum",
-  "ProviderName": "Pacocha-Olson",
-  "StorageKey": "facilis",
+  "StorageType": "voluptatum",
+  "ProviderName": "Prohaska, Connelly and Auer",
+  "StorageKey": "dolor",
   "DesiredColumnNames": [
-    "Stark-Hahn",
-    "Osinski, VonRueden and Auer"
+    "Lindgren, Jakubowski and Gusikowski",
+    "Rau, Rosenbaum and Rodriguez"
   ],
   "StaticColumns": [
-    "odit",
-    "quia"
+    "consectetur",
+    "ipsum"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Leuschke-Oberbrunner",
-      "Operator": "eligendi",
+      "Name": "Larkin-Effertz",
+      "Operator": "fuga",
       "Values": [
-        "sed",
-        "iusto"
+        "dicta",
+        "consectetur"
       ],
       "DisplayValues": [
-        "facilis",
-        "odio"
+        "et",
+        "autem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 527,
+      "InterParenthesis": 412,
       "InterOperator": "And",
-      "UniqueHash": 159
+      "UniqueHash": 898
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Heidenreich-Runolfsdottir",
-      "DisplayTooltip": "excepturi",
-      "DisplayType": "aliquid",
-      "CanOrderBy": false,
-      "Name": "Romaguera, Casper and Hettinger",
+      "DisplayName": "Farrell, Green and Kuhic",
+      "DisplayTooltip": "natus",
+      "DisplayType": "et",
+      "CanOrderBy": true,
+      "Name": "Dickinson, Metz and Wyman",
       "CanRestrictBy": false,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Friesen, Frami and Ankunding",
+      "RestrictionType": "ut",
+      "RestrictionListName": "Emard LLC",
       "IsVisible": false,
-      "ExtraInfo": "aliquid",
-      "Width": "enim",
-      "IconHint": "dolor",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "ea",
+      "Width": "modi",
+      "IconHint": "aut",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Mann-Friesen",
-      "PrimaryKey": 904,
+      "EntityName": "Jewess Group",
+      "PrimaryKey": 760,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "veritatis",
-          "TooltipHint": "quos",
-          "LinkHint": "nulla"
+          "DisplayValue": "porro",
+          "TooltipHint": "beatae",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "neque",
-      "StyleHint": "vel",
+      "LinkHint": "nostrum",
+      "StyleHint": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldLength": 996
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mueller, Bernhard and Yundt",
-      "Description": "Digitized incremental secured line",
-      "Rank": 924,
+      "Name": "Koss Inc and Sons",
+      "Description": "Monitored systemic open architecture",
+      "Rank": 447,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mueller, Bernhard and Yundt",
-      "Description": "Digitized incremental secured line",
-      "Rank": 924,
+      "Name": "Koss Inc and Sons",
+      "Description": "Monitored systemic open architecture",
+      "Rank": 447,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 200
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Abshire LLC",
-    "ToolTip": "Ea aut veritatis voluptas rerum.",
+    "Id": 734,
+    "Name": "Auer Inc and Sons",
+    "ToolTip": "Tempora quam quis facilis ratione ullam assumenda aliquam.",
     "Deleted": false,
-    "Rank": 497,
-    "Type": "dolore",
-    "ColorBlock": 390,
-    "IconHint": "voluptas",
-    "Selected": false,
-    "LastChanged": "2004-03-21T12:01:33.5582313+01:00",
+    "Rank": 961,
+    "Type": "non",
+    "ColorBlock": 184,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2000-12-17T14:13:50.0719138+01:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Weissnat Inc and Sons",
-        "ToolTip": "Molestias dolor ut.",
-        "Deleted": false,
-        "Rank": 56,
-        "Type": "vel",
-        "ColorBlock": 922,
+        "Id": 127,
+        "Name": "Baumbach, Thiel and Klocko",
+        "ToolTip": "Maiores qui.",
+        "Deleted": true,
+        "Rank": 986,
+        "Type": "id",
+        "ColorBlock": 751,
         "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2019-11-05T12:01:33.5582313+01:00",
+        "LastChanged": "2017-07-12T14:13:50.0719138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Theron Ferry",
+        "ExtraInfo": "vitae",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "Lorine Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 904
+            "FieldLength": 841
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "fugit",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Duane Walter",
+    "FullName": "Uriel Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 644
+        "FieldType": "System.Int32",
+        "FieldLength": 341
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Daugherty, Schneider and Bogan",
-    "ToolTip": "Quas maxime omnis nihil maxime dolores iusto.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "expedita",
-    "ColorBlock": 164,
-    "IconHint": "sed",
+    "Id": 749,
+    "Name": "Towne Group",
+    "ToolTip": "Quasi itaque rerum earum quod nemo quidem ut.",
+    "Deleted": true,
+    "Rank": 307,
+    "Type": "quo",
+    "ColorBlock": 957,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2009-10-26T12:01:33.495727+01:00",
+    "LastChanged": "2017-10-15T14:13:49.9312861+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Williamson-Cassin",
-        "ToolTip": "Sapiente voluptas distinctio.",
+        "Id": 979,
+        "Name": "Buckridge Group",
+        "ToolTip": "Laborum eligendi.",
         "Deleted": true,
-        "Rank": 196,
-        "Type": "repellendus",
-        "ColorBlock": 900,
-        "IconHint": "optio",
+        "Rank": 952,
+        "Type": "unde",
+        "ColorBlock": 181,
+        "IconHint": "unde",
         "Selected": true,
-        "LastChanged": "2001-10-05T12:01:33.495727+02:00",
+        "LastChanged": "2007-01-25T14:13:49.9312861+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "ut",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mr. Titus McGlynn"
+        "FullName": "Prof. Susanna Addison O'Conner Jr."
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Ernestine Reilly"
+    "ExtraInfo": "quia",
+    "StyleHint": "amet",
+    "Hidden": false,
+    "FullName": "Jarrell Donnelly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Gulgowski-Stanton",
-    "ToolTip": "Minima dolor.",
+    "Id": 753,
+    "Name": "Harber, Pfannerstill and Hintz",
+    "ToolTip": "A hic eius ut cum.",
     "Deleted": true,
-    "Rank": 161,
-    "Type": "esse",
-    "ColorBlock": 889,
-    "IconHint": "est",
+    "Rank": 268,
+    "Type": "cum",
+    "ColorBlock": 181,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2019-03-22T12:01:33.495727+01:00",
+    "LastChanged": "2015-09-18T14:13:49.9312861+02:00",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Greenholt-Erdman",
-        "ToolTip": "Molestias nihil ut occaecati.",
+        "Id": 706,
+        "Name": "Wilkinson-Schmidt",
+        "ToolTip": "Autem incidunt sit.",
         "Deleted": false,
-        "Rank": 662,
-        "Type": "voluptatum",
-        "ColorBlock": 828,
-        "IconHint": "est",
+        "Rank": 372,
+        "Type": "quo",
+        "ColorBlock": 234,
+        "IconHint": "similique",
         "Selected": true,
-        "LastChanged": "2008-10-28T12:01:33.495727+01:00",
+        "LastChanged": "2021-05-12T14:13:49.9312861+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "minima",
+        "ExtraInfo": "commodi",
+        "StyleHint": "in",
         "Hidden": true,
-        "FullName": "Ms. Joelle Russel Sauer",
+        "FullName": "Miss Jalon Herman Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldLength": 637
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "facere",
+    "ExtraInfo": "iusto",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Natalie Beier",
+    "FullName": "Jake Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 256
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

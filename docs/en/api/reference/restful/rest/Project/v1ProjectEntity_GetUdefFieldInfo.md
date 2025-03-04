@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 930,
-  "ColumnId": 2,
-  "FieldDefault": "magni",
-  "FieldHeight": 389,
-  "FieldLabel": "fugit",
-  "FieldLeft": 459,
-  "FieldTop": 161,
+  "UDefFieldId": 231,
+  "ColumnId": 916,
+  "FieldDefault": "tenetur",
+  "FieldHeight": 950,
+  "FieldLabel": "totam",
+  "FieldLeft": 648,
+  "FieldTop": 724,
   "FieldType": "Checkbox",
-  "FieldWidth": 844,
-  "FormatMask": "necessitatibus",
+  "FieldWidth": 919,
+  "FormatMask": "quo",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 719,
-  "LabelLeft": 898,
-  "LabelTop": 845,
-  "LabelWidth": 755,
-  "LastVersionId": 639,
-  "ListTableId": 766,
+  "LabelHeight": 790,
+  "LabelLeft": 423,
+  "LabelTop": 534,
+  "LabelWidth": 121,
+  "LastVersionId": 979,
+  "ListTableId": 877,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 235,
-  "ProgId": "quisquam",
-  "IsReadOnly": false,
-  "ShortLabel": "necessitatibus",
-  "TabOrder": 284,
-  "TextLength": 977,
-  "Tooltip": "vel",
-  "UdefIdentity": 268,
-  "UDListDefinitionId": 955,
+  "Page1LineNo": 240,
+  "ProgId": "quis",
+  "IsReadOnly": true,
+  "ShortLabel": "officiis",
+  "TabOrder": 970,
+  "TextLength": 974,
+  "Tooltip": "eius",
+  "UdefIdentity": 865,
+  "UDListDefinitionId": 512,
   "Justification": "Center",
-  "Version": 540,
-  "TemplateVariableName": "Quigley-Corwin",
+  "Version": 821,
+  "TemplateVariableName": "O'Conner, Bradtke and Harris",
   "HasBeenPublished": false,
-  "MdoListName": "Kris Group",
+  "MdoListName": "Donnelly-Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 102
     }
   }
 }

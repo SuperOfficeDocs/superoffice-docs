@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 64,
-    "Name": "Wunsch, Fay and Blick",
-    "ToolTip": "Officiis tempora.",
+    "Id": 40,
+    "Name": "Fadel, Raynor and Breitenberg",
+    "ToolTip": "Tempora aut veritatis ipsam velit.",
     "Deleted": false,
-    "Rank": 653,
-    "Type": "nostrum",
-    "ColorBlock": 887,
-    "IconHint": "ut",
+    "Rank": 532,
+    "Type": "qui",
+    "ColorBlock": 300,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2002-12-30T12:01:33.4801008+01:00",
+    "LastChanged": "2016-04-12T14:13:49.7429847+02:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Becker-Dietrich",
-        "ToolTip": "Officiis nobis necessitatibus porro.",
+        "Id": 947,
+        "Name": "Wisozk-Stokes",
+        "ToolTip": "Et sunt quia dolor.",
         "Deleted": false,
-        "Rank": 118,
-        "Type": "voluptatem",
-        "ColorBlock": 159,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2008-11-23T12:01:33.4801008+01:00",
+        "Rank": 240,
+        "Type": "veniam",
+        "ColorBlock": 573,
+        "IconHint": "facere",
+        "Selected": true,
+        "LastChanged": "2019-05-27T14:13:49.7429847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Mr. Gino Beier DDS",
+        "ExtraInfo": "eum",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Denis Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Jerry Kling",
+    "ExtraInfo": "et",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Kailyn Winifred Labadie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

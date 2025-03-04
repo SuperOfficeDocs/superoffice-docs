@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=748
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=495
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-08-14T12:01:27.1814891+02:00",
-  "AppointmentId": 333,
-  "Description": "Profound maximized array",
-  "Title": "voluptas",
-  "Agenda": "sequi",
-  "InternalNotes": "ut",
-  "StartDate": "2008-01-12T12:01:27.1814891+01:00",
-  "EndDate": "2017-12-10T12:01:27.1814891+01:00",
+  "CreatedDate": "2024-05-20T14:13:39.0786746+02:00",
+  "AppointmentId": 343,
+  "Description": "Digitized explicit data-warehouse",
+  "Title": "nobis",
+  "Agenda": "consectetur",
+  "InternalNotes": "qui",
+  "StartDate": "2017-04-13T14:13:39.0786746+02:00",
+  "EndDate": "2024-12-29T14:13:39.0786746+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 596,
+  "MotherId": 867,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-07-04T12:01:27.1814891+02:00",
+  "UpdatedDate": "2008-01-03T14:13:39.0942961+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 417,
+  "ActiveLinks": 642,
   "Links": [
     {
-      "EntityName": "Kling Inc and Sons",
-      "Id": 104,
-      "Description": "Decentralized contextually-based extranet",
-      "ExtraInfo": "dolores",
-      "LinkId": 151,
+      "EntityName": "Legros, Monahan and Krajcik",
+      "Id": 658,
+      "Description": "Object-based bottom-line service-desk",
+      "ExtraInfo": "aut",
+      "LinkId": 905,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 278
+          "FieldLength": 829
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
-  "HasAlarm": false,
-  "ColorIndex": 753,
+  "AlarmLeadTime": "molestiae",
+  "HasAlarm": true,
+  "ColorIndex": 332,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aliquid",
-  "LeadTime": "distinctio",
-  "Location": "qui",
-  "RejectCounter": 652,
+  "LagTime": "adipisci",
+  "LeadTime": "ullam",
+  "Location": "ab",
+  "RejectCounter": 257,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 632,
-      "PersonId": 707,
-      "ContactId": 150,
-      "EmailId": 703,
-      "SendEmail": true,
+      "AssociateId": 502,
+      "PersonId": 265,
+      "ContactId": 575,
+      "EmailId": 519,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "june@ratke.us",
-      "Description": "Programmable static open architecture"
+      "EmailAddress": "alessia@zemlakshields.biz",
+      "Description": "Cross-group neutral knowledge user"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-01-28T12:01:27.1814891+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2010-07-20T14:13:39.0942961+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 647,
+  "PreferredTZLocation": 616,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 427,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 443,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quos",
+  "CentralserviceVideomeetId": "vitae",
   "UserDefinedFields": {
-    "SuperOffice:1": "2028411838",
-    "SuperOffice:2": "Shanny Schulist"
+    "SuperOffice:1": "Mrs. Lisandro Hettinger",
+    "SuperOffice:2": "Friedrich Hettinger"
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "laboriosam",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "corporis",
+    "CustomFields2": "neque"
   },
-  "PublishEventDate": "2004-12-13T12:01:27.1814891+01:00",
-  "PublishTo": "2014-10-28T12:01:27.1814891+01:00",
-  "PublishFrom": "2014-11-09T12:01:27.1814891+01:00",
+  "PublishEventDate": "2023-04-10T14:13:39.0942961+02:00",
+  "PublishTo": "2022-08-01T14:13:39.0942961+02:00",
+  "PublishFrom": "2007-05-07T14:13:39.0942961+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 631,
+      "VisibleId": 221,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 296
         }
       }
     },
     {
-      "VisibleId": 631,
+      "VisibleId": 221,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 296
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 448
     }
   }
 }

@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Hyatt, Pacocha and Eichmann",
-  "Description": "Switchable encompassing database",
-  "IncludeId": "perferendis",
-  "Source": "adipisci",
-  "Registered": "2016-08-13T12:01:33.3550923+02:00",
-  "RegisteredBy": "vel",
-  "Updated": "2004-06-08T12:01:33.3550923+02:00",
-  "UpdatedBy": "recusandae",
-  "Path": "dolor",
+  "UniqueIdentifier": "eos",
+  "Name": "Champlin, Heathcote and Kassulke",
+  "Description": "Face to face zero tolerance core",
+  "IncludeId": "sunt",
+  "Source": "aut",
+  "Registered": "2020-02-06T14:13:49.5242846+01:00",
+  "RegisteredBy": "pariatur",
+  "Updated": "2015-09-28T14:13:49.5242846+02:00",
+  "UpdatedBy": "blanditiis",
+  "Path": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 766
     }
   }
 }

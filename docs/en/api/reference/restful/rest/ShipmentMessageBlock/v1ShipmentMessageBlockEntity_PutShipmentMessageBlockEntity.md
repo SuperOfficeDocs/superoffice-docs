@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 794,
-  "AssociateId": 284,
-  "Block": "ea",
-  "Registered": "2020-01-16T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 810,
-  "Updated": "2013-07-25T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 45,
-  "UpdatedCount": 678
+  "ShipmentMessageBlockId": 648,
+  "AssociateId": 291,
+  "Block": "deleniti",
+  "Registered": "2014-12-02T14:13:49.2587235+01:00",
+  "RegisteredAssociateId": 418,
+  "Updated": "2013-11-27T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 900,
+  "UpdatedCount": 233
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 760,
-  "AssociateId": 556,
-  "Block": "non",
-  "Registered": "1998-01-02T12:01:33.2144574+01:00",
-  "RegisteredAssociateId": 932,
-  "Updated": "2009-10-14T12:01:33.2144574+02:00",
-  "UpdatedAssociateId": 511,
-  "UpdatedCount": 874,
+  "ShipmentMessageBlockId": 267,
+  "AssociateId": 35,
+  "Block": "exercitationem",
+  "Registered": "2020-09-29T14:13:49.2587235+02:00",
+  "RegisteredAssociateId": 828,
+  "Updated": "2008-01-03T14:13:49.2587235+01:00",
+  "UpdatedAssociateId": 970,
+  "UpdatedCount": 284,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   },
   "_Links": {

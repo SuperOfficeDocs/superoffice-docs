@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 111,
-  "Name": "Nader-Legros",
+  "TicketPriorityId": 513,
+  "Name": "Koch-Terry",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 419,
+  "SortOrder": 111,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 991,
-  "MonStart": "2010-11-02T12:01:27.97842+01:00",
-  "MonStop": "2013-09-20T12:01:27.97842+02:00",
-  "TueStart": "2008-05-01T12:01:27.97842+02:00",
-  "TueStop": "1998-03-07T12:01:27.97842+01:00",
-  "WedStart": "2013-04-01T12:01:27.97842+02:00",
-  "WedStop": "2001-04-23T12:01:27.97842+02:00",
-  "ThuStart": "2008-07-19T12:01:27.97842+02:00",
-  "ThuStop": "2010-01-13T12:01:27.97842+01:00",
-  "FriStart": "2006-02-17T12:01:27.97842+01:00",
-  "FriStop": "2024-06-14T12:01:27.97842+02:00",
-  "SatStart": "2017-04-16T12:01:27.97842+02:00",
-  "SatStop": "2005-03-30T12:01:27.97842+02:00",
-  "SunStart": "2014-03-06T12:01:27.97842+01:00",
-  "SunStop": "2016-04-13T12:01:27.97842+02:00",
+  "Deadline": 361,
+  "MonStart": "2008-05-13T14:13:40.5471977+02:00",
+  "MonStop": "2000-05-13T14:13:40.5471977+02:00",
+  "TueStart": "2001-01-11T14:13:40.5471977+01:00",
+  "TueStop": "1998-10-13T14:13:40.5471977+02:00",
+  "WedStart": "2002-10-12T14:13:40.5471977+02:00",
+  "WedStop": "2017-07-08T14:13:40.5471977+02:00",
+  "ThuStart": "2018-04-17T14:13:40.5471977+02:00",
+  "ThuStop": "2017-07-30T14:13:40.5471977+02:00",
+  "FriStart": "2001-09-29T14:13:40.5471977+02:00",
+  "FriStop": "2006-11-25T14:13:40.5471977+01:00",
+  "SatStart": "2000-03-17T14:13:40.5471977+01:00",
+  "SatStop": "2008-06-10T14:13:40.5471977+02:00",
+  "SunStart": "2023-09-23T14:13:40.5471977+02:00",
+  "SunStop": "2021-03-08T14:13:40.5471977+01:00",
   "NonDates": [
-    "deserunt",
-    "nostrum"
+    "dolor",
+    "corrupti"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 1000,
-      "AlertLevel": 478,
-      "AlertTimeout": 169,
-      "Action": 557,
-      "DelegateTo": 121,
-      "ScriptId": 170,
-      "EmailTo": "rashawn_gorczany@bashirian.us",
-      "SmsTo": "aliquam",
-      "ReplyTemplateIdCustomer": 115,
-      "ReplyTemplateIdUser": 960,
-      "ReplyTemplateIdCatmast": 34,
-      "ReplyTemplateIdEmail": 568,
-      "RtiCustomerSms": 422,
-      "ReplyTemplateIdUserSms": 359,
-      "ReplyTemplateIdCatmastSms": 754,
-      "ReplyTemplateIdSms": 679,
+      "TicketAlertId": 973,
+      "AlertLevel": 71,
+      "AlertTimeout": 234,
+      "Action": 879,
+      "DelegateTo": 112,
+      "ScriptId": 547,
+      "EmailTo": "jerod@murray.ca",
+      "SmsTo": "mollitia",
+      "ReplyTemplateIdCustomer": 914,
+      "ReplyTemplateIdUser": 130,
+      "ReplyTemplateIdCatmast": 92,
+      "ReplyTemplateIdEmail": 39,
+      "RtiCustomerSms": 358,
+      "ReplyTemplateIdUserSms": 702,
+      "ReplyTemplateIdCatmastSms": 426,
+      "ReplyTemplateIdSms": 364,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 17
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 242
     }
   }
 }

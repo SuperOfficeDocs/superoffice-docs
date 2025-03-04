@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Cremin LLC",
-    "ToolTip": "Aliquam est quisquam.",
+    "Id": 282,
+    "Name": "Grant, Botsford and Lesch",
+    "ToolTip": "Non eos optio corrupti ut earum.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "adipisci",
-    "ColorBlock": 306,
-    "IconHint": "sunt",
+    "Rank": 611,
+    "Type": "voluptatibus",
+    "ColorBlock": 884,
+    "IconHint": "veniam",
     "Selected": false,
-    "LastChanged": "2017-02-21T12:01:33.5269792+01:00",
+    "LastChanged": "2011-07-02T14:13:49.9938028+02:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "O'Kon LLC",
-        "ToolTip": "Ducimus et iure commodi dolor.",
+        "Id": 305,
+        "Name": "Dare-Dare",
+        "ToolTip": "Quam ut molestiae et est.",
         "Deleted": false,
-        "Rank": 280,
-        "Type": "porro",
-        "ColorBlock": 473,
-        "IconHint": "vel",
-        "Selected": false,
-        "LastChanged": "2010-10-09T12:01:33.5269792+02:00",
+        "Rank": 908,
+        "Type": "ad",
+        "ColorBlock": 429,
+        "IconHint": "rerum",
+        "Selected": true,
+        "LastChanged": "2009-06-09T14:13:49.9938028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolor",
+        "ExtraInfo": "alias",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Sophia Kihn"
+        "FullName": "Christophe Davis"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Percy Wilkinson III"
+    "ExtraInfo": "fugit",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Dejah Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Dibbert LLC",
-    "ToolTip": "Illo qui voluptas at temporibus quidem necessitatibus commodi.",
+    "Id": 113,
+    "Name": "Russel Inc and Sons",
+    "ToolTip": "Laborum rerum eaque aliquam.",
     "Deleted": true,
-    "Rank": 437,
-    "Type": "consequatur",
-    "ColorBlock": 144,
-    "IconHint": "totam",
+    "Rank": 61,
+    "Type": "iusto",
+    "ColorBlock": 914,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2000-05-20T12:01:33.5269792+02:00",
+    "LastChanged": "2021-07-22T14:13:49.9938028+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Dicki, Grant and Walker",
-        "ToolTip": "Distinctio veritatis iure voluptas distinctio porro.",
+        "Id": 33,
+        "Name": "McDermott-Von",
+        "ToolTip": "Maxime voluptas sit sint.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "molestias",
-        "ColorBlock": 337,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2002-12-27T12:01:33.5269792+01:00",
+        "Rank": 932,
+        "Type": "laudantium",
+        "ColorBlock": 804,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2009-10-17T14:13:49.9938028+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "nulla",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Dr. Amara Gorczany",
+        "FullName": "Margarett Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldLength": 603
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "at",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mckenna Reilly",
+    "FullName": "Jewell Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 232
+        "FieldLength": 592
       }
     }
   }

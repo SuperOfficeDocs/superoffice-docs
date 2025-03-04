@@ -70,14 +70,14 @@ Content-Type: application/json; charset=utf-8
 {
   "CustConfigs": [
     {
-      "CustConfigId": 109,
+      "CustConfigId": 299,
       "Type": "Options",
-      "Config": "magnam",
-      "CustLangId": 526,
-      "Registered": "2008-03-27T12:01:27.5565162+01:00",
-      "RegisteredAssociateId": 382,
-      "Updated": "2002-11-15T12:01:27.5565162+01:00",
-      "UpdatedAssociateId": 760
+      "Config": "sunt",
+      "CustLangId": 124,
+      "Registered": "2003-04-26T14:13:39.9379614+02:00",
+      "RegisteredAssociateId": 448,
+      "Updated": "2023-04-10T14:13:39.9379614+02:00",
+      "UpdatedAssociateId": 55
     }
   ]
 }

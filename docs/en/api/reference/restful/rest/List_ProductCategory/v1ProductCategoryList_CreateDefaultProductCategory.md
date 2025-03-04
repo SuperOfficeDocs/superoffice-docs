@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Harber Group",
-  "Tooltip": "delectus",
+  "Id": 945,
+  "Name": "Rau-Auer",
+  "Tooltip": "hic",
   "Deleted": false,
-  "UdListDefinitionId": 292,
-  "Rank": 518,
+  "UdListDefinitionId": 856,
+  "Rank": 392,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 787
+      "FieldLength": 569
     }
   }
 }

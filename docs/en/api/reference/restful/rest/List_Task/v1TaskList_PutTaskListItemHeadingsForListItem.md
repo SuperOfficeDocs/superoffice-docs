@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Paucek-Tromp",
-    "ToolTip": "Tempore voluptas.",
-    "Deleted": false,
-    "Rank": 760,
-    "Type": "suscipit",
-    "ColorBlock": 259,
-    "IconHint": "ratione",
+    "Id": 931,
+    "Name": "Hegmann-Swift",
+    "ToolTip": "Doloremque maxime iure molestias qui.",
+    "Deleted": true,
+    "Rank": 993,
+    "Type": "velit",
+    "ColorBlock": 596,
+    "IconHint": "sequi",
     "Selected": true,
-    "LastChanged": "2014-05-01T12:01:33.6832402+02:00",
+    "LastChanged": "1999-09-30T14:13:50.2908221+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Hirthe, Torphy and Pfannerstill",
-        "ToolTip": "Ipsum placeat.",
-        "Deleted": false,
-        "Rank": 963,
+        "Id": 367,
+        "Name": "Wintheiser, Bradtke and Dickens",
+        "ToolTip": "Nihil eos optio consequuntur.",
+        "Deleted": true,
+        "Rank": 316,
         "Type": "voluptatem",
-        "ColorBlock": 178,
-        "IconHint": "eos",
+        "ColorBlock": 382,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2023-11-29T12:01:33.6832402+01:00",
+        "LastChanged": "2020-09-03T14:13:50.2908221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Lavinia Gulgowski"
+        "ExtraInfo": "unde",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Mrs. Ciara Chelsey Cummings V"
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "aut",
+    "ExtraInfo": "labore",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Casandra McDermott"
+    "FullName": "Wilbert Jerde"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Johnson Inc and Sons",
-    "ToolTip": "Voluptas aut.",
+    "Id": 677,
+    "Name": "Schinner, Feeney and Raynor",
+    "ToolTip": "Doloremque et dolor ullam dolorem.",
     "Deleted": false,
-    "Rank": 182,
-    "Type": "et",
-    "ColorBlock": 1000,
-    "IconHint": "voluptas",
+    "Rank": 24,
+    "Type": "fuga",
+    "ColorBlock": 661,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2019-09-11T12:01:33.6832402+02:00",
+    "LastChanged": "2008-01-09T14:13:50.2908221+01:00",
     "ChildItems": [
       {
-        "Id": 946,
-        "Name": "Ward Group",
-        "ToolTip": "Consectetur eos rerum velit voluptatibus voluptas.",
-        "Deleted": true,
-        "Rank": 177,
-        "Type": "nam",
-        "ColorBlock": 940,
-        "IconHint": "beatae",
+        "Id": 537,
+        "Name": "Pollich, Koepp and Fay",
+        "ToolTip": "Illum excepturi dolorem.",
+        "Deleted": false,
+        "Rank": 273,
+        "Type": "accusantium",
+        "ColorBlock": 754,
+        "IconHint": "id",
         "Selected": true,
-        "LastChanged": "2014-11-03T12:01:33.6832402+01:00",
+        "LastChanged": "2021-09-07T14:13:50.2908221+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Kurtis Dare",
+        "ExtraInfo": "natus",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Will Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 657
+            "FieldType": "System.Int32",
+            "FieldLength": 742
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Mrs. Buddy Dibbert I",
+    "ExtraInfo": "numquam",
+    "StyleHint": "totam",
+    "Hidden": true,
+    "FullName": "Dr. Hudson Ottis Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

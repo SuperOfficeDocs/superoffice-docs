@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=doloribus
+GET /api/v1/List/MrMrs/MDOItems?query=similique
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Blick, Rosenbaum and Herman",
-    "ToolTip": "Expedita omnis officia non.",
-    "Deleted": false,
-    "Rank": 468,
-    "Type": "delectus",
+    "Id": 473,
+    "Name": "Senger LLC",
+    "ToolTip": "Et exercitationem.",
+    "Deleted": true,
+    "Rank": 895,
+    "Type": "possimus",
     "ChildItems": [
       {
-        "Id": 683,
-        "Name": "Reinger-Rodriguez",
-        "ToolTip": "Totam optio enim libero.",
-        "Deleted": false,
-        "Rank": 765,
-        "Type": "modi",
+        "Id": 620,
+        "Name": "Fahey-Barton",
+        "ToolTip": "Qui maxime fugiat.",
+        "Deleted": true,
+        "Rank": 925,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 100,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "enim",
-        "FullName": "Dagmar Grimes",
+        "IconHint": "nisi",
+        "ColorBlock": 885,
+        "ExtraInfo": "magni",
+        "StyleHint": "modi",
+        "FullName": "Daren Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 581
+            "FieldType": "System.Int32",
+            "FieldLength": 243
           }
         }
       }
     ],
-    "IconHint": "quia",
-    "ColorBlock": 219,
-    "ExtraInfo": "tenetur",
-    "StyleHint": "nam",
-    "FullName": "Abraham Verner Kuphal II",
+    "IconHint": "similique",
+    "ColorBlock": 706,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quam",
+    "FullName": "Daphnee Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 578
       }
     }
   }

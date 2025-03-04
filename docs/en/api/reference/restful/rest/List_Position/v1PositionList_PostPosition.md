@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Kling Inc and Sons",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "UdListDefinitionId": 883,
-  "Rank": 272
+  "Id": 95,
+  "Name": "O'Connell, Ankunding and Lemke",
+  "Tooltip": "doloremque",
+  "Deleted": true,
+  "UdListDefinitionId": 28,
+  "Rank": 730
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Hand-Schamberger",
-  "Tooltip": "exercitationem",
+  "Id": 862,
+  "Name": "Waters, Gutkowski and Littel",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "UdListDefinitionId": 282,
-  "Rank": 51,
+  "UdListDefinitionId": 122,
+  "Rank": 607,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 161
     }
   }
 }

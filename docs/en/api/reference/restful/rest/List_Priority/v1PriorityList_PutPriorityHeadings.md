@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 424,
-    "Name": "Lindgren-Greenfelder",
-    "Tooltip": "temporibus",
+    "HeadingId": 212,
+    "Name": "Ratke Inc and Sons",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 142,
-    "UdListDefinitionId": 956
+    "Rank": 805,
+    "UdListDefinitionId": 452
   },
   {
-    "HeadingId": 424,
-    "Name": "Lindgren-Greenfelder",
-    "Tooltip": "temporibus",
+    "HeadingId": 212,
+    "Name": "Ratke Inc and Sons",
+    "Tooltip": "repellendus",
     "Deleted": true,
-    "Rank": 142,
-    "UdListDefinitionId": 956
+    "Rank": 805,
+    "UdListDefinitionId": 452
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 790,
-    "Name": "Kohler Group",
-    "Tooltip": "enim",
+    "HeadingId": 613,
+    "Name": "Buckridge Inc and Sons",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 645,
-    "UdListDefinitionId": 831,
+    "Rank": 807,
+    "UdListDefinitionId": 821,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 52
+        "FieldType": "System.Int32",
+        "FieldLength": 68
       }
     }
   }

@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nikolaus Group",
-  "Type": "reiciendis",
-  "Size": 677,
+  "Name": "Batz, Kub and Kuvalis",
+  "Type": "non",
+  "Size": 438,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldType": "System.Int32",
+      "FieldLength": 508
     }
   }
 }

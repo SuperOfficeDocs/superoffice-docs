@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 73,
-  "ParentId": 873,
-  "Name": "Kris, Wolff and Stoltenberg",
-  "Fullname": "praesentium",
-  "CategoryMaster": 948,
+  "TicketCategoryId": 318,
+  "ParentId": 195,
+  "Name": "Wiegand-Bergstrom",
+  "Fullname": "aspernatur",
+  "CategoryMaster": 94,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Volkman, Lynch and Daniel",
+  "ExternalName": "Schiller Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 471,
-  "ReplyTemplate": 632,
-  "NotificationEmail": "wayne_denesik@rippin.us",
+  "AssignmentLag": 129,
+  "ReplyTemplate": 471,
+  "NotificationEmail": "micaela.stamm@beer.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 362,
+  "EffectiveReplyTemplateId": 60,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "delectus"
+    "ExtraFields1": "animi",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "itaque"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 66,
-  "ParentId": 719,
-  "Name": "Wiza, Konopelski and Jacobson",
-  "Fullname": "non",
-  "CategoryMaster": 20,
+  "TicketCategoryId": 871,
+  "ParentId": 792,
+  "Name": "Dietrich, Spinka and Kertzmann",
+  "Fullname": "animi",
+  "CategoryMaster": 874,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rau LLC",
+  "ExternalName": "Aufderhar Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 771,
-  "ReplyTemplate": 330,
-  "NotificationEmail": "jamison_koelpin@lowe.co.uk",
+  "AssignmentLag": 795,
+  "ReplyTemplate": 459,
+  "NotificationEmail": "cody@ferry.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 777,
+  "EffectiveReplyTemplateId": 120,
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "eaque"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "error"
+    "CustomFields1": "libero",
+    "CustomFields2": "itaque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldLength": 161
     }
   }
 }

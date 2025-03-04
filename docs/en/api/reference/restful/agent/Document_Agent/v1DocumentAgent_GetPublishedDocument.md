@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 772
+  "DocumentId": 28
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 803,
-  "Attention": "sed",
-  "Header": "perferendis",
-  "Name": "Emmerich, Tremblay and Morissette",
-  "OurRef": "alias",
-  "YourRef": "voluptatum",
-  "Description": "Customer-focused eco-centric utilisation",
-  "DocumentTemplate": "explicabo",
-  "IsPublished": false,
-  "PersonId": 837,
-  "PersonFullName": "Pearl Hintz",
-  "AssociateFullName": "Avery Emard",
-  "ContactId": 454,
-  "ContactName": "Nicolas Group",
-  "ProjectId": 274,
-  "ProjectName": "Runte Group",
-  "AssociateId": 995,
-  "Snum": 1001,
-  "SaleId": 673,
-  "SaleName": "Nienow, Lockman and Green",
+  "DocumentId": 729,
+  "Attention": "ullam",
+  "Header": "tempora",
+  "Name": "Ferry-Hoppe",
+  "OurRef": "delectus",
+  "YourRef": "ea",
+  "Description": "Polarised even-keeled archive",
+  "DocumentTemplate": "facilis",
+  "IsPublished": true,
+  "PersonId": 853,
+  "PersonFullName": "Wilton Christiansen",
+  "AssociateFullName": "Ms. Jermey Webster O'Conner",
+  "ContactId": 913,
+  "ContactName": "Bayer, Gusikowski and Robel",
+  "ProjectId": 155,
+  "ProjectName": "Bergnaum-Beer",
+  "AssociateId": 146,
+  "Snum": 917,
+  "SaleId": 695,
+  "SaleName": "Cassin Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 147
     }
   }
 }

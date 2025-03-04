@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    698,
-    82
+    363,
+    637
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "Hoeger-Jaskolski",
-    "AssociateId": 944,
-    "DetailsTable": 168,
-    "DetailsRecord": 133,
+    "Id": 909,
+    "Name": "Baumbach Group",
+    "AssociateId": 906,
+    "DetailsTable": 778,
+    "DetailsRecord": 620,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ex",
-      "ParameterObject2": "fuga"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "qui"
     },
-    "LastStarted": "2011-11-18T12:01:27.3533761+01:00",
-    "Created": "2019-09-17T12:01:27.3533761+02:00",
-    "StartCount": 734,
-    "DatabaseSerialNumber": "1197773",
-    "Context": "et",
-    "Result": "aliquid",
+    "LastStarted": "2022-04-22T14:13:39.3911033+02:00",
+    "Created": "2010-02-03T14:13:39.3911033+01:00",
+    "StartCount": 315,
+    "DatabaseSerialNumber": "558484",
+    "Context": "placeat",
+    "Result": "ipsum",
     "State": "All",
-    "Description": "Decentralized demand-driven toolset",
-    "Response": "mollitia",
-    "Request": "officia",
-    "ProgressDescription": "Reduced global strategy",
-    "ProgressPercent": 743,
-    "FileName": "Harvey LLC",
+    "Description": "Future-proofed user-facing complexity",
+    "Response": "dolorum",
+    "Request": "et",
+    "ProgressDescription": "Reduced directional installation",
+    "ProgressPercent": 794,
+    "FileName": "Kertzmann Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 419
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

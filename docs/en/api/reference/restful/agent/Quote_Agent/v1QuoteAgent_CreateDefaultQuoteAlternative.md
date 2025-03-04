@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 24,
-  "ERPQuoteAlternativeKey": "enim",
-  "QuoteVersionId": 125,
-  "Name": "Heaney, Johnson and Brakus",
-  "Description": "User-friendly homogeneous infrastructure",
+  "QuoteAlternativeId": 742,
+  "ERPQuoteAlternativeKey": "ipsam",
+  "QuoteVersionId": 772,
+  "Name": "D'Amore Group",
+  "Description": "Seamless exuding workforce",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 17077.166,
-  "ERPDiscountAmount": 26272.322,
-  "DiscountPercent": 14168.814,
-  "DiscountAmount": 23423.516,
+  "ERPDiscountPercent": 30810.354,
+  "ERPDiscountAmount": 29769.865999999998,
+  "DiscountPercent": 14146.876,
+  "DiscountAmount": 5399.882,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "at",
-  "VAT": 13400.984,
-  "EarningPercent": 6490.514,
-  "EarningAmount": 15441.217999999999,
-  "SubTotal": 23201.002,
-  "TotalPrice": 6496.782,
-  "ExtraField1": "enim",
-  "ExtraField2": "consequatur",
-  "ExtraField3": "doloribus",
-  "ExtraField4": "velit",
-  "ExtraField5": "est",
+  "VATInfo": "officia",
+  "VAT": 16124.43,
+  "EarningPercent": 8276.894,
+  "EarningAmount": 28074.372,
+  "SubTotal": 20863.038,
+  "TotalPrice": 29099.19,
+  "ExtraField1": "provident",
+  "ExtraField2": "doloremque",
+  "ExtraField3": "aut",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 780
     }
   }
 }

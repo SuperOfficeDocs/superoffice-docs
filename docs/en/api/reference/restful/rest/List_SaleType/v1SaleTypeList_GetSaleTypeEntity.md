@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 698,
-  "Name": "Shields Inc and Sons",
-  "Tooltip": "nostrum",
-  "Rank": 716,
+  "SaleTypeId": 440,
+  "Name": "Stark, Schuster and Goldner",
+  "Tooltip": "libero",
+  "Rank": 62,
   "DurationUnit": "Century",
-  "SaleDuration": 804,
-  "SaleTypeCatId": 449,
-  "Deleted": true,
+  "SaleDuration": 810,
+  "SaleTypeCatId": 489,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 508,
-  "QuoteLinesTemplate": 696,
-  "ConfirmationLinesTemplate": 128,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 720,
-  "MinEarningPercent": 708,
-  "GroupQuoteLinesBy": 464,
-  "SortGroupLinesBy": 967,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 627,
+  "QuoteLinesTemplate": 862,
+  "ConfirmationLinesTemplate": 201,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 543,
+  "MinEarningPercent": 210,
+  "GroupQuoteLinesBy": 821,
+  "SortGroupLinesBy": 644,
   "Stages": [
     {
-      "Id": 408,
-      "Name": "Jaskolski Inc and Sons",
-      "ToolTip": "Rerum esse iusto suscipit.",
-      "Deleted": true,
-      "Rank": 932,
-      "Type": "vel",
-      "ColorBlock": 215,
-      "IconHint": "eum",
+      "Id": 581,
+      "Name": "Gaylord, Hand and White",
+      "ToolTip": "Id deleniti nihil dicta deleniti inventore assumenda.",
+      "Deleted": false,
+      "Rank": 198,
+      "Type": "ipsam",
+      "ColorBlock": 325,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2019-03-20T12:01:33.6519877+01:00",
+      "LastChanged": "2015-02-28T14:13:50.2283063+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "temporibus",
-      "StyleHint": "sed",
+      "ExtraInfo": "quia",
+      "StyleHint": "rerum",
       "Hidden": false,
-      "FullName": "Mrs. Claire Botsford",
+      "FullName": "Esperanza Heller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldType": "System.String",
+          "FieldLength": 943
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 113
+      "FieldLength": 401
     }
   }
 }

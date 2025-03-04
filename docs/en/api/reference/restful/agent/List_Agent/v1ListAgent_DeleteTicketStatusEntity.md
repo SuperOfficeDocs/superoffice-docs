@@ -25,7 +25,7 @@ Deletes the TicketStatusEntity
 | TicketStatusEntityId | int32 | **Required** The id of the TicketStatusEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketStatusEntity?TicketStatusEntityId=318
+POST /api/v1/Agents/List/DeleteTicketStatusEntity?TicketStatusEntityId=617
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

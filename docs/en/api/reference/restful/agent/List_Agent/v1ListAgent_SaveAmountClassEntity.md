@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 218,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "laborum",
-  "Rank": 724,
-  "AmountFrom": 1626.546,
-  "AmountTo": 10874.98,
+  "AmountClassId": 863,
+  "Name": "Walsh-McLaughlin",
+  "Tooltip": "quo",
+  "Rank": 258,
+  "AmountFrom": 27996.022,
+  "AmountTo": 26040.406,
   "Deleted": false,
-  "CurrencyId": 721
+  "CurrencyId": 925
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 511,
-  "Name": "Hand LLC",
-  "Tooltip": "atque",
-  "Rank": 798,
-  "AmountFrom": 24683.384,
-  "AmountTo": 7675.166,
+  "AmountClassId": 598,
+  "Name": "Bartoletti, Harber and Kohler",
+  "Tooltip": "molestias",
+  "Rank": 451,
+  "AmountFrom": 206.844,
+  "AmountTo": 17142.98,
   "Deleted": true,
-  "CurrencyId": 99,
+  "CurrencyId": 205,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 383
     }
   }
 }

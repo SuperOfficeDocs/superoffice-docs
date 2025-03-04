@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Watsica, Blick and Satterfield",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 312,
-    "UdListDefinitionId": 907,
+    "HeadingId": 446,
+    "Name": "Trantow LLC",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "Rank": 274,
+    "UdListDefinitionId": 763,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 309
       }
     }
   }

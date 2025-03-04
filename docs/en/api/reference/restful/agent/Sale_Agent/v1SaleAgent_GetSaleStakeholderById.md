@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    114,
-    560
+    758,
+    587
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Labadie Inc and Sons",
-    "Comment": "a",
-    "StakeholderRoleId": 116,
-    "CountryId": 349,
-    "PersonId": 279,
-    "EmailDescription": "percival@rathschimmel.ca",
-    "EmailId": 43,
-    "EmailAddress": "peter.hilll@wolff.com",
-    "PhoneId": 197,
-    "ContactName": "Funk LLC",
-    "ContactId": 619,
-    "SaleId": 156,
-    "Mrmrs": "repellat",
-    "Firstname": "Arno",
-    "MiddleName": "Walsh, Tremblay and Runolfsdottir",
-    "Lastname": "Glover",
-    "SaleStakeholderId": 286,
-    "Rank": 507,
-    "Phone": "1-685-761-3508",
+    "StakeholderRoleName": "Wiegand, White and Schmidt",
+    "Comment": "sequi",
+    "StakeholderRoleId": 317,
+    "CountryId": 285,
+    "PersonId": 551,
+    "EmailDescription": "monserrate_frami@lakin.biz",
+    "EmailId": 862,
+    "EmailAddress": "itzel.kunze@sanford.com",
+    "PhoneId": 453,
+    "ContactName": "Gerlach-McClure",
+    "ContactId": 207,
+    "SaleId": 653,
+    "Mrmrs": "quas",
+    "Firstname": "Richard",
+    "MiddleName": "Jewess Group",
+    "Lastname": "Wilkinson",
+    "SaleStakeholderId": 444,
+    "Rank": 706,
+    "Phone": "1-023-712-2724 x0877",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldLength": 705
       }
     }
   }

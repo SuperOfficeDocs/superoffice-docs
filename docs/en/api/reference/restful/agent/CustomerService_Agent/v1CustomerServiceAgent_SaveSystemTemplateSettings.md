@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/CustomerService/SaveSystemTemplateSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 475,
-  "CustomerCustomerReplyTemplateId": 386,
-  "CustomerPasswordTemplateId": 720,
-  "CustomerConfirmEmailTemplateId": 47,
-  "CustomerChatLogTemplateId": 785,
-  "NewLinkTemplateId": 713,
-  "HotlistNewMessageTemplateId": 34,
-  "HotlistTicketActivatedTemplateId": 875,
-  "UserTicketAlarmTemplateId": 822,
-  "HotlistTicketTakenOverTemplateId": 430,
-  "UserActiveTicketsTemplateId": 385,
-  "UserNewMessageTemplateId": 771,
-  "UserTicketActivatedTemplateId": 206,
-  "UserNewTicketTemplateId": 429,
-  "PublishKbQuestionTemplateId": 594,
-  "PublishKbAnswerTemplateId": 524,
-  "UserTicketTakenOverTemplateId": 344,
-  "PrintTicketTemplateId": 336,
-  "WeekStatTemplateId": 316,
-  "TicketAlarmHotlistTemplateId": 205,
-  "EmailAddresses": "weston@mayertwitting.com",
+  "CustomerNewCustomerTemplateId": 458,
+  "CustomerCustomerReplyTemplateId": 455,
+  "CustomerPasswordTemplateId": 930,
+  "CustomerConfirmEmailTemplateId": 55,
+  "CustomerChatLogTemplateId": 835,
+  "NewLinkTemplateId": 725,
+  "HotlistNewMessageTemplateId": 700,
+  "HotlistTicketActivatedTemplateId": 758,
+  "UserTicketAlarmTemplateId": 846,
+  "HotlistTicketTakenOverTemplateId": 318,
+  "UserActiveTicketsTemplateId": 793,
+  "UserNewMessageTemplateId": 507,
+  "UserTicketActivatedTemplateId": 298,
+  "UserNewTicketTemplateId": 295,
+  "PublishKbQuestionTemplateId": 292,
+  "PublishKbAnswerTemplateId": 577,
+  "UserTicketTakenOverTemplateId": 809,
+  "PrintTicketTemplateId": 635,
+  "WeekStatTemplateId": 777,
+  "TicketAlarmHotlistTemplateId": 99,
+  "EmailAddresses": "brennon@medhurst.info",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 632
     }
   }
 }

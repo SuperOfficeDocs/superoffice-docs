@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 528,
-  "CrmRecordId": 708,
+  "ErpConnectionId": 96,
+  "CrmRecordId": 115,
   "CrmActorType": "Contact",
-  "ErpKey": "libero",
+  "ErpKey": "ut",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Rodriguez Group",
-      "CrmFieldKey": "et",
-      "Value": "qui",
-      "DisplayValue": "debitis",
+      "DisplayName": "Kerluke-Fisher",
+      "CrmFieldKey": "autem",
+      "Value": "magni",
+      "DisplayValue": "non",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Rodriguez Group",
-      "CrmFieldKey": "et",
-      "Value": "qui",
-      "DisplayValue": "debitis",
+      "DisplayName": "Kerluke-Fisher",
+      "CrmFieldKey": "autem",
+      "Value": "magni",
+      "DisplayValue": "non",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }
@@ -111,5 +111,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

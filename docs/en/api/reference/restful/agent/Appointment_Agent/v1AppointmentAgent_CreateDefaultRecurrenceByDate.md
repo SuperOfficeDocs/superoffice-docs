@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2012-10-24T12:01:27.2439933+02:00"
+  "StartDate": "2023-07-29T14:13:39.2036462+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 788,
-  "StartDate": "2015-09-07T12:01:27.2439933+02:00",
-  "EndDate": "2001-09-12T12:01:27.2439933+02:00",
-  "RecurrenceCounter": 289,
+  "RecurrenceId": 188,
+  "StartDate": "1999-05-06T14:13:39.2036462+02:00",
+  "EndDate": "2008-08-24T14:13:39.2036462+02:00",
+  "RecurrenceCounter": 619,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2021-02-15T12:01:27.2439933+01:00",
+      "Date": "2004-07-27T14:13:39.2036462+02:00",
       "IsConflict": false,
-      "Description": "Assimilated leading edge circuit",
-      "DescriptionStyleHint": "Adaptive leading edge definition",
-      "Tooltip": "unde"
+      "Description": "Seamless coherent secured line",
+      "DescriptionStyleHint": "Front-line directional service-desk",
+      "Tooltip": "dolor"
     },
     {
-      "Date": "2021-02-15T12:01:27.2439933+01:00",
+      "Date": "2004-07-27T14:13:39.2036462+02:00",
       "IsConflict": false,
-      "Description": "Assimilated leading edge circuit",
-      "DescriptionStyleHint": "Adaptive leading edge definition",
-      "Tooltip": "unde"
+      "Description": "Seamless coherent secured line",
+      "DescriptionStyleHint": "Front-line directional service-desk",
+      "Tooltip": "dolor"
     }
   ],
   "IsRecurrence": true

@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 921,
-    "Name": "Cruickshank Group",
-    "ToolTip": "Laborum velit sint qui.",
-    "Deleted": true,
-    "Rank": 400,
-    "Type": "cupiditate",
-    "ColorBlock": 166,
-    "IconHint": "quasi",
+    "Id": 501,
+    "Name": "Schmidt LLC",
+    "ToolTip": "Suscipit consectetur atque pariatur.",
+    "Deleted": false,
+    "Rank": 444,
+    "Type": "quisquam",
+    "ColorBlock": 30,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2018-06-15T12:01:33.4644748+02:00",
+    "LastChanged": "2023-10-09T14:13:49.7273664+02:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Frami-Grant",
-        "ToolTip": "Explicabo voluptates sequi aut explicabo.",
-        "Deleted": false,
-        "Rank": 834,
-        "Type": "hic",
-        "ColorBlock": 843,
-        "IconHint": "aliquid",
-        "Selected": true,
-        "LastChanged": "2000-03-10T12:01:33.4644748+01:00",
+        "Id": 188,
+        "Name": "Davis LLC",
+        "ToolTip": "Quaerat et quo sit accusamus voluptatibus quo at.",
+        "Deleted": true,
+        "Rank": 534,
+        "Type": "aperiam",
+        "ColorBlock": 765,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2009-03-21T14:13:49.7273664+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Omari Kuvalis"
+        "ExtraInfo": "quis",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Valerie Upton"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Mr. Sasha Marty Huels V"
+    "ExtraInfo": "enim",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Ethel Littel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 247,
-    "Name": "Effertz LLC",
-    "ToolTip": "Dolore vero in molestiae veritatis in libero et.",
-    "Deleted": true,
-    "Rank": 274,
-    "Type": "eaque",
-    "ColorBlock": 800,
-    "IconHint": "corporis",
+    "Id": 289,
+    "Name": "King, Cronin and Stiedemann",
+    "ToolTip": "Aut perferendis magnam rerum voluptate non tempora.",
+    "Deleted": false,
+    "Rank": 260,
+    "Type": "quia",
+    "ColorBlock": 860,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2019-08-14T12:01:33.4644748+02:00",
+    "LastChanged": "2009-12-28T14:13:49.7429847+01:00",
     "ChildItems": [
       {
-        "Id": 243,
-        "Name": "Stamm, Buckridge and Dietrich",
-        "ToolTip": "Fuga impedit minima sunt aliquid minus architecto.",
-        "Deleted": false,
-        "Rank": 778,
-        "Type": "voluptatem",
-        "ColorBlock": 718,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2023-01-28T12:01:33.4644748+01:00",
+        "Id": 89,
+        "Name": "Hoppe-O'Keefe",
+        "ToolTip": "Eos inventore neque saepe quidem animi.",
+        "Deleted": true,
+        "Rank": 754,
+        "Type": "officiis",
+        "ColorBlock": 316,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "2010-05-05T14:13:49.7429847+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "eveniet",
-        "Hidden": false,
-        "FullName": "Miss Hudson Dibbert III",
+        "ExtraInfo": "hic",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Geovanni Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Krystina Kuvalis",
+    "ExtraInfo": "qui",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Mrs. Jan Connelly IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 191
       }
     }
   }

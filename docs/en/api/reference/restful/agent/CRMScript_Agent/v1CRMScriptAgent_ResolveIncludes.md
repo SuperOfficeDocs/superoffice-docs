@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/CRMScript/ResolveIncludes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "molestias",
+  "Script": "eius",
   "IgnoreErrors": false
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  799,
-  138
+  885,
+  923
 ]
 ```

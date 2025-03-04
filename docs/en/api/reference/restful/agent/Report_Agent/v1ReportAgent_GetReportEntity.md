@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Report/GetReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 437,
+  "ReportId": 880,
   "ReportCategory": "All",
-  "Description": "Universal homogeneous strategy",
+  "Description": "Team-oriented multi-tasking matrix",
   "ReportLayout": "CalendarMonth",
-  "Name": "Baumbach Inc and Sons",
-  "AssociateId": 283,
-  "TemplateId": 45,
+  "Name": "Satterfield Group",
+  "AssociateId": 167,
+  "TemplateId": 160,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 619
     }
   }
 }

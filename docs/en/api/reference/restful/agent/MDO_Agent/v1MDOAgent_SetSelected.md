@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermiston Group",
-  "AdditionalInfo": "accusantium",
+  "Name": "Von-Kovacek",
+  "AdditionalInfo": "sunt",
   "SelectableMDOList": [
     {
-      "Id": 637,
-      "Name": "Adams LLC",
-      "ToolTip": "Veritatis sit dicta culpa dicta sed veniam deleniti.",
-      "Deleted": true,
-      "Rank": 30,
-      "Type": "temporibus",
-      "ColorBlock": 380,
-      "IconHint": "quasi",
-      "Selected": true,
-      "LastChanged": "2009-11-27T12:01:28.0096725+01:00",
+      "Id": 904,
+      "Name": "Willms Inc and Sons",
+      "ToolTip": "Accusantium numquam itaque et ducimus et.",
+      "Deleted": false,
+      "Rank": 953,
+      "Type": "corporis",
+      "ColorBlock": 142,
+      "IconHint": "consequatur",
+      "Selected": false,
+      "LastChanged": "2015-04-22T14:13:40.5940621+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "iusto",
-      "Hidden": false,
-      "FullName": "Russel Beer"
+      "ExtraInfo": "quia",
+      "StyleHint": "quasi",
+      "Hidden": true,
+      "FullName": "Edmund Hills"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Goldner-Quitzon",
-    "ToolTip": "Magnam quae omnis et libero.",
+    "Id": 254,
+    "Name": "Schmidt-Torp",
+    "ToolTip": "Qui enim.",
     "Deleted": true,
-    "Rank": 393,
-    "Type": "enim",
-    "ColorBlock": 193,
-    "IconHint": "eligendi",
+    "Rank": 747,
+    "Type": "sit",
+    "ColorBlock": 746,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1998-08-07T12:01:28.0096725+02:00",
+    "LastChanged": "2014-07-03T14:13:40.5940621+02:00",
     "ChildItems": [
       {
-        "Id": 194,
-        "Name": "Barrows, Thiel and Kirlin",
-        "ToolTip": "Ad qui eligendi qui quod porro.",
-        "Deleted": true,
-        "Rank": 423,
-        "Type": "ullam",
-        "ColorBlock": 246,
-        "IconHint": "voluptates",
+        "Id": 323,
+        "Name": "Barrows, Gusikowski and Wiegand",
+        "ToolTip": "Quo tenetur at sed.",
+        "Deleted": false,
+        "Rank": 592,
+        "Type": "quia",
+        "ColorBlock": 892,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2018-05-11T12:01:28.0096725+02:00",
+        "LastChanged": "2008-09-04T14:13:40.5940621+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "officia",
+        "ExtraInfo": "beatae",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Dudley Smitham",
+        "FullName": "Ms. Cody Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 512
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "ea",
+    "ExtraInfo": "ut",
+    "StyleHint": "excepturi",
     "Hidden": false,
-    "FullName": "Guillermo Romaguera",
+    "FullName": "Manley Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 522
       }
     }
   }

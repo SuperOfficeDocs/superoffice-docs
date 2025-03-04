@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 415,
-  "Name": "O'Conner, Klocko and Zieme",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "Rank": 266,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "Id": 695,
+  "Name": "Davis-West",
+  "Tooltip": "pariatur",
+  "Deleted": true,
+  "Rank": 106,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 203,
-  "Name": "Osinski-Windler",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 348,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dignissimos",
-  "InUseByUserDefinedFields": true,
+  "Id": 639,
+  "Name": "Prohaska-Walsh",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 730,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 241,
-  "Name": "Wilderman LLC",
-  "Tooltip": "reprehenderit",
-  "Deleted": true,
-  "UdListDefinitionId": 380,
-  "Rank": 248
+  "Id": 369,
+  "Name": "O'Conner LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 863,
+  "Rank": 280
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 644,
-  "Name": "Torphy, Romaguera and Champlin",
-  "Tooltip": "ut",
+  "Id": 851,
+  "Name": "Prosacco, Little and Barton",
+  "Tooltip": "animi",
   "Deleted": false,
-  "UdListDefinitionId": 253,
-  "Rank": 991,
+  "UdListDefinitionId": 510,
+  "Rank": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldLength": 846
     }
   }
 }

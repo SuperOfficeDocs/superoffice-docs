@@ -103,16 +103,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 71,
-  "Name": "Beier, Herman and Stehr",
+  "ScreenChooserId": 156,
+  "Name": "Schaden Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aut",
-  "Source": "natus",
-  "Registered": "2013-04-20T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 36,
-  "Updated": "2017-10-15T12:01:33.2925881+02:00",
-  "UpdatedAssociateId": 843
+  "UniqueIdentifier": "ut",
+  "Source": "ipsum",
+  "Registered": "2023-11-19T14:13:49.414935+01:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "1997-11-22T14:13:49.414935+01:00",
+  "UpdatedAssociateId": 822
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 489,
-  "Name": "Mueller LLC",
+  "ScreenChooserId": 895,
+  "Name": "Mertz, Will and Friesen",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "qui",
-  "Registered": "2000-09-06T12:01:33.2925881+02:00",
-  "RegisteredAssociateId": 662,
-  "Updated": "2012-03-05T12:01:33.2925881+01:00",
-  "UpdatedAssociateId": 793,
+  "UniqueIdentifier": "velit",
+  "Source": "aperiam",
+  "Registered": "1998-06-04T14:13:49.414935+02:00",
+  "RegisteredAssociateId": 314,
+  "Updated": "2003-06-08T14:13:49.414935+02:00",
+  "UpdatedAssociateId": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 388
+      "FieldLength": 987
     }
   },
   "_Links": {

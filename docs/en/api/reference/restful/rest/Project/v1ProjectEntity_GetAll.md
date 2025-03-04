@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project?$select=name,department,category/id
 GET /api/v1/Project?$filter=name begins 'S'
 GET /api/v1/Project?$orderBy=name asc
-GET /api/v1/Project?$entities=dicta
-GET /api/v1/Project?$top=135
-GET /api/v1/Project?$skip=641
+GET /api/v1/Project?$entities=suscipit
+GET /api/v1/Project?$top=252
+GET /api/v1/Project?$skip=291
 GET /api/v1/Project?$mode=Full
 GET /api/v1/Project?$options=GrandTotal=true
-GET /api/v1/Project?$context=quibusdam
+GET /api/v1/Project?$context=numquam
 GET /api/v1/Project?$format=JSON
-GET /api/v1/Project?$jsonSafe=True
+GET /api/v1/Project?$jsonSafe=False
 GET /api/v1/Project?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Project
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quae",
+  "odata.nextLink": "debitis",
   "value": [
     {
-      "PrimaryKey": 2893,
-      "EntityName": "person",
-      "personId": 2893,
-      "fullName": "Prof. Lula Katrine Barton"
+      "PrimaryKey": 5373,
+      "EntityName": "sale",
+      "saleId": 5373,
+      "contactId": 5087,
+      "name": "Kuvalis-Toy"
     },
     {
-      "PrimaryKey": 8346,
-      "EntityName": "person",
-      "personId": 8346,
-      "fullName": "Mrs. Horacio Hassie Jacobi"
+      "PrimaryKey": 8605,
+      "EntityName": "sale",
+      "saleId": 8605,
+      "contactId": 2834,
+      "name": "Lesch, DuBuque and Witting"
     }
   ]
 }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 563,
+  "HierarchyId": 907,
   "Domain": "Dashboards",
-  "Name": "Willms-Johnson",
-  "Fullname": "maxime",
-  "ParentId": 299,
+  "Name": "Anderson, Greenfelder and Hackett",
+  "Fullname": "asperiores",
+  "ParentId": 606,
   "Children": [
     {
-      "HierarchyId": 486,
+      "HierarchyId": 721,
       "Domain": "Dashboards",
-      "Name": "Orn Inc and Sons",
-      "Fullname": "omnis",
-      "ParentId": 323,
+      "Name": "Pfeffer LLC",
+      "Fullname": "neque",
+      "ParentId": 280,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-10-15T12:01:32.933188+02:00",
-      "RegisteredAssociateId": 872,
-      "Updated": "2023-12-28T12:01:32.933188+01:00",
-      "UpdatedAssociateId": 198,
+      "Registered": "2013-11-22T14:13:48.8993207+01:00",
+      "RegisteredAssociateId": 80,
+      "Updated": "2022-04-07T14:13:48.8993207+02:00",
+      "UpdatedAssociateId": 114,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 834
         }
       }
     }
   ],
-  "Registered": "2008-07-04T12:01:32.933188+02:00",
-  "RegisteredAssociateId": 347,
-  "Updated": "2002-08-24T12:01:32.933188+02:00",
-  "UpdatedAssociateId": 792,
+  "Registered": "2000-10-04T14:13:48.8993207+02:00",
+  "RegisteredAssociateId": 829,
+  "Updated": "2011-08-23T14:13:48.8993207+02:00",
+  "UpdatedAssociateId": 58,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 102
+      "FieldLength": 763
     }
   }
 }

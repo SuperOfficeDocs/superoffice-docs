@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sapiente",
-  "Key": "nobis",
+  "Section": "et",
+  "Key": "iste",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 426,
-  "Section": "necessitatibus",
-  "Key": "eos",
-  "Name": "Kuvalis, Heidenreich and West",
+  "PrefDescId": 877,
+  "Section": "facilis",
+  "Key": "quo",
+  "Name": "Russel, Gerlach and Padberg",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Object-based eco-centric policy",
-  "IsBuiltin": true,
-  "TableName": "Gutmann LLC",
-  "UserDefinedListId": 468,
-  "Rank": 315,
-  "SubGroup": "at",
-  "MinLevel": 827,
-  "MaxValue": 865,
-  "MinValue": 232,
+  "Description": "Reactive empowering secured line",
+  "IsBuiltin": false,
+  "TableName": "Becker-White",
+  "UserDefinedListId": 695,
+  "Rank": 524,
+  "SubGroup": "consequuntur",
+  "MinLevel": 130,
+  "MaxValue": 783,
+  "MinValue": 712,
   "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 857
     }
   }
 }

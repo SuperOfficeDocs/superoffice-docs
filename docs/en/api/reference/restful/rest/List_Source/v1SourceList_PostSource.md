@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 985,
-  "Name": "Hermann Group",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "UdListDefinitionId": 137,
-  "Rank": 969
+  "Id": 558,
+  "Name": "Lehner LLC",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "UdListDefinitionId": 983,
+  "Rank": 715
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Mayert-Wehner",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 390,
-  "Rank": 790,
+  "Id": 80,
+  "Name": "Padberg, Collins and McDermott",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "UdListDefinitionId": 572,
+  "Rank": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

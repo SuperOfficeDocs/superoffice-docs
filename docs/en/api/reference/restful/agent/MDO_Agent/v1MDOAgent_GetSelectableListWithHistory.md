@@ -91,18 +91,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hayes-Beier",
+  "Name": "Braun, Turner and Weimann",
   "ForceFlatList": false,
-  "AdditionalInfo": "qui",
+  "AdditionalInfo": "ea",
   "HistoryItems": [
-    861,
-    557
+    503,
+    375
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Tromp, Schaefer and Schinner",
-    "ToolTip": "Ab soluta.",
+    "Id": 108,
+    "Name": "Kutch Group",
+    "ToolTip": "Eligendi reprehenderit sed aspernatur.",
     "Deleted": false,
-    "Rank": 710,
+    "Rank": 578,
     "Type": "est",
-    "ColorBlock": 464,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2017-01-26T12:01:28.0096725+01:00",
+    "ColorBlock": 332,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2011-02-03T14:13:40.5940621+01:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Wintheiser LLC",
-        "ToolTip": "Quaerat vero dolore maiores nulla possimus sequi.",
-        "Deleted": true,
-        "Rank": 790,
-        "Type": "tenetur",
-        "ColorBlock": 517,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2019-05-15T12:01:28.0096725+02:00",
+        "Id": 112,
+        "Name": "Greenholt, Kub and Ratke",
+        "ToolTip": "Ipsa voluptas quo voluptatum aut ducimus repellat rem.",
+        "Deleted": false,
+        "Rank": 243,
+        "Type": "labore",
+        "ColorBlock": 765,
+        "IconHint": "asperiores",
+        "Selected": true,
+        "LastChanged": "2012-11-22T14:13:40.5940621+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "quam",
+        "ExtraInfo": "maxime",
+        "StyleHint": "officiis",
         "Hidden": false,
-        "FullName": "Delores Muller",
+        "FullName": "Dr. Conor Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldLength": 741
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Meagan Bernier",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Eleonore Cruz Christiansen II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 930
       }
     }
   }

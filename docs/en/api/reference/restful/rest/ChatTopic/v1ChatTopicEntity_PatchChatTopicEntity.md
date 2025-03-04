@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "consectetur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "aliquam",
+    "path": "consectetur",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 733,
-  "Name": "Halvorson-Lehner",
-  "Description": "Secured 5th generation neural-net",
-  "WelcomeMessage": "expedita",
+  "ChatTopicId": 346,
+  "Name": "Quitzon Group",
+  "Description": "Innovative 24/7 matrices",
+  "WelcomeMessage": "sapiente",
   "Language": null,
-  "LastAccept": "2017-01-08T12:01:32.7613009+01:00",
-  "SecondsPrAccept": 839,
-  "AlertRecipient": "voluptatem",
+  "LastAccept": "2015-03-26T14:13:48.4601787+01:00",
+  "SecondsPrAccept": 759,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "doloremque",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 700,
-  "WarnManagerNewChatMinutes": 821,
-  "TicketEnabled": true,
+  "CollectConsent": false,
+  "BadgeHeader": "debitis",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "quae",
+  "WarnNewChatMinutes": 68,
+  "WarnManagerNewChatMinutes": 39,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 112,
-  "WarnManagerChatMessageMinutes": 827,
+  "WarnChatMessageMinutes": 948,
+  "WarnManagerChatMessageMinutes": 277,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 985,
-  "OfflineFormQueueLength": 371,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "saepe",
+  "OfflineFormTimeLimit": 479,
+  "OfflineFormQueueLength": 829,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 163
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

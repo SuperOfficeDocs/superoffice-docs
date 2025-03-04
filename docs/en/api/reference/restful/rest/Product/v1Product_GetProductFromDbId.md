@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 696,
-  "ERPProductKey": "nam",
-  "ERPPriceListKey": "eum",
-  "Name": "Rolfson Group",
-  "Description": "Reduced motivating forecast",
-  "Code": "rerum",
-  "PriceUnit": "provident",
-  "QuantityUnit": "sed",
+  "ProductId": 226,
+  "ERPProductKey": "velit",
+  "ERPPriceListKey": "quasi",
+  "Name": "Stark, Stamm and Auer",
+  "Description": "Optional context-sensitive portal",
+  "Code": "maiores",
+  "PriceUnit": "vel",
+  "QuantityUnit": "deserunt",
   "IsSubscription": true,
-  "SubscriptionUnit": "placeat",
-  "DefaultSubscriptionQuantity": 23169.662,
-  "ItemNumber": "404614",
+  "SubscriptionUnit": "deserunt",
+  "DefaultSubscriptionQuantity": 8063.782,
+  "ItemNumber": "1295462",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eaque",
-  "ProductTypeKey": "eveniet",
-  "VAT": 13632.9,
-  "VATInfo": "dolor",
-  "UnitCost": 26504.237999999998,
-  "UnitMinimumPrice": 13485.601999999999,
-  "UnitListPrice": 18894.886,
+  "ProductFamilyKey": "ex",
+  "ProductTypeKey": "veritatis",
+  "VAT": 27488.314,
+  "VATInfo": "modi",
+  "UnitCost": 16926.734,
+  "UnitMinimumPrice": 23852.874,
+  "UnitListPrice": 3347.112,
   "InAssortment": false,
-  "Supplier": "unde",
-  "SupplierCode": "corporis",
-  "Rights": "omnis",
-  "Rule": "cum",
+  "Supplier": "neque",
+  "SupplierCode": "expedita",
+  "Rights": "voluptatum",
+  "Rule": "architecto",
   "ExtraInfo": [
     {
-      "Name": "Rice-Macejkovic",
-      "Value": "iure",
+      "Name": "Hane, Anderson and Abbott",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     },
     {
-      "Name": "Rice-Macejkovic",
-      "Value": "iure",
+      "Name": "Hane, Anderson and Abbott",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 60
+          "FieldType": "System.Int32",
+          "FieldLength": 166
         }
       }
     }
   ],
-  "RawExtraInfo": "delectus",
-  "ExtraField1": "modi",
-  "ExtraField2": "quisquam",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "amet",
+  "RawExtraInfo": "ratione",
+  "ExtraField1": "sit",
+  "ExtraField2": "officiis",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "suscipit",
   "ExtraField5": "est",
-  "InStock": 27406.829999999998,
+  "InStock": 11401.492,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 706
     }
   }
 }

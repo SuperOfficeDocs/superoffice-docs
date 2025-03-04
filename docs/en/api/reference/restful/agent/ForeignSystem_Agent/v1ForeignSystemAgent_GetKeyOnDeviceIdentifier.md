@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Homenick, Williamson and Wilderman",
-  "DeviceName": "Bechtelar LLC",
-  "DeviceIdentifier": "consequatur",
-  "KeyName": "Ziemann Inc and Sons",
-  "TableName": "Mertz-Maggio",
-  "RecordId": 18
+  "ApplicationName": "O'Connell-Jacobi",
+  "DeviceName": "Hoppe LLC",
+  "DeviceIdentifier": "adipisci",
+  "KeyName": "White-McClure",
+  "TableName": "Jones Inc and Sons",
+  "RecordId": 593
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nihil",
-  "Value": "officiis",
-  "RecordId": 620,
-  "CreatedDate": "2010-03-04T12:01:27.9002891+01:00",
-  "UpdatedDate": "2009-10-22T12:01:27.9002891+02:00",
-  "UpdatedBy": "qui",
-  "CreatedBy": "odio",
-  "TableName": "Gulgowski Group",
+  "Key": "velit",
+  "Value": "et",
+  "RecordId": 634,
+  "CreatedDate": "2009-03-13T14:13:40.3909833+01:00",
+  "UpdatedDate": "2016-02-04T14:13:40.3909833+01:00",
+  "UpdatedBy": "ducimus",
+  "CreatedBy": "fuga",
+  "TableName": "Herman-Corwin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

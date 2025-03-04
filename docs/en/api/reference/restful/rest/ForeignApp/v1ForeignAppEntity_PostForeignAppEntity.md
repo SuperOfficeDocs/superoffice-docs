@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 451,
-  "Name": "Kshlerin-Kemmer",
-  "CreatedDate": "2001-01-30T12:01:32.9175621+01:00",
-  "UpdatedDate": "2011-10-20T12:01:32.9175621+02:00",
+  "ForeignAppId": 177,
+  "Name": "McLaughlin, Romaguera and Block",
+  "CreatedDate": "2021-06-04T14:13:48.8836985+02:00",
+  "UpdatedDate": "2014-10-16T14:13:48.8836985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 605,
-      "Name": "Maggio, Lind and Howe",
-      "CreatedDate": "2002-03-03T12:01:32.9175621+01:00",
-      "UpdatedDate": "2013-07-09T12:01:32.9175621+02:00",
-      "AssociateFullName": "Anjali Weimann",
-      "CreatedBy": "minus",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "unde",
-      "ForeignAppId": 809
+      "ForeignDeviceId": 759,
+      "Name": "Gleichner, Greenholt and Wisoky",
+      "CreatedDate": "2019-04-18T14:13:48.8836985+02:00",
+      "UpdatedDate": "2016-02-10T14:13:48.8836985+01:00",
+      "AssociateFullName": "Miss Carli Yasmin Reilly III",
+      "CreatedBy": "soluta",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "cum",
+      "ForeignAppId": 999
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 765,
-  "Name": "Beahan Group",
-  "CreatedDate": "2000-04-11T12:01:32.9175621+02:00",
-  "UpdatedDate": "2010-05-20T12:01:32.9175621+02:00",
+  "ForeignAppId": 261,
+  "Name": "Cormier-Carroll",
+  "CreatedDate": "2015-08-10T14:13:48.8836985+02:00",
+  "UpdatedDate": "2014-02-21T14:13:48.8836985+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 390,
-      "Name": "Pouros-Emmerich",
-      "CreatedDate": "2006-09-14T12:01:32.9175621+02:00",
-      "UpdatedDate": "2008-02-29T12:01:32.9175621+01:00",
-      "AssociateFullName": "Newell Sanford",
-      "CreatedBy": "expedita",
-      "UpdatedBy": "inventore",
-      "DeviceIdentifier": "quas",
-      "ForeignAppId": 59,
+      "ForeignDeviceId": 7,
+      "Name": "Nikolaus Inc and Sons",
+      "CreatedDate": "2021-06-13T14:13:48.8836985+02:00",
+      "UpdatedDate": "2005-01-18T14:13:48.8836985+01:00",
+      "AssociateFullName": "Citlalli Parisian",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "sint",
+      "ForeignAppId": 404,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 759
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 674
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

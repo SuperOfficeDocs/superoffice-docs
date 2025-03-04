@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 661
+  "RoleId": 937
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 784,
-    "Name": "Cole Inc and Sons",
-    "ToolTip": "Quo laborum consequatur.",
+    "Id": 336,
+    "Name": "Baumbach-O'Reilly",
+    "ToolTip": "Et tempora et libero.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "et",
-    "ColorBlock": 552,
-    "IconHint": "adipisci",
+    "Rank": 224,
+    "Type": "deserunt",
+    "ColorBlock": 408,
+    "IconHint": "esse",
     "Selected": false,
-    "LastChanged": "2017-07-31T12:01:28.6034631+02:00",
+    "LastChanged": "2001-01-09T14:13:41.6727478+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "McCullough, D'Amore and Shanahan",
-        "ToolTip": "Modi reiciendis necessitatibus error.",
+        "Id": 171,
+        "Name": "Klocko Inc and Sons",
+        "ToolTip": "Unde ad velit est est nemo repudiandae.",
         "Deleted": true,
-        "Rank": 174,
-        "Type": "labore",
-        "ColorBlock": 508,
-        "IconHint": "provident",
+        "Rank": 595,
+        "Type": "quas",
+        "ColorBlock": 424,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "1998-08-01T12:01:28.6034631+02:00",
+        "LastChanged": "2022-06-15T14:13:41.6727478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "culpa",
+        "ExtraInfo": "ea",
+        "StyleHint": "dignissimos",
         "Hidden": false,
-        "FullName": "Chance Lind",
+        "FullName": "Mr. Noemy Devin Predovic Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 21
+            "FieldLength": 183
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "ea",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Aliya Mitchel Hansen MD",
+    "FullName": "Miss Emile John Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 858
+        "FieldLength": 290
       }
     }
   }

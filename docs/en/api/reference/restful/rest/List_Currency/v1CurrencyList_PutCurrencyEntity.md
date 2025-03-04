@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 278,
-  "Name": "Gorczany, Dietrich and Renner",
-  "Tooltip": "iste",
-  "Rank": 615,
-  "Rate": 27535.324,
-  "Units": 20198.63,
-  "Deleted": false
+  "CurrencyId": 452,
+  "Name": "Stamm LLC",
+  "Tooltip": "iusto",
+  "Rank": 550,
+  "Rate": 6926.1399999999994,
+  "Units": 29672.712,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 835,
-  "Name": "Toy-Fay",
-  "Tooltip": "qui",
-  "Rank": 47,
-  "Rate": 13563.952,
-  "Units": 28306.288,
-  "Deleted": true,
+  "CurrencyId": 265,
+  "Name": "Jones-Howell",
+  "Tooltip": "veniam",
+  "Rank": 27,
+  "Rate": 21051.077999999998,
+  "Units": 7270.88,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 39
     }
   }
 }

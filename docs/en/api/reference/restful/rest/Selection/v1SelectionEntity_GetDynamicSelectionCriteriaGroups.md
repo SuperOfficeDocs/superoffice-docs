@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abernathy-Gottlieb",
-    "Description": "Organized explicit contingency",
-    "Rank": 839,
+    "Name": "Quigley LLC",
+    "Description": "Assimilated local pricing structure",
+    "Rank": 504,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
-        "Operator": "iste",
+        "Name": "Kirlin, Jacobi and Williamson",
+        "Operator": "deserunt",
         "Values": [
-          "atque",
-          "deserunt"
+          "praesentium",
+          "doloribus"
         ],
         "DisplayValues": [
-          "tenetur",
-          "doloremque"
+          "et",
+          "quae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 578,
+        "InterParenthesis": 531,
         "InterOperator": "And",
-        "UniqueHash": 681
+        "UniqueHash": 733
       }
     ]
   },
   {
-    "Name": "Abernathy-Gottlieb",
-    "Description": "Organized explicit contingency",
-    "Rank": 839,
+    "Name": "Quigley LLC",
+    "Description": "Assimilated local pricing structure",
+    "Rank": 504,
     "Restrictions": [
       {
-        "Name": "Hessel Group",
-        "Operator": "iste",
+        "Name": "Kirlin, Jacobi and Williamson",
+        "Operator": "deserunt",
         "Values": [
-          "atque",
-          "deserunt"
+          "praesentium",
+          "doloribus"
         ],
         "DisplayValues": [
-          "tenetur",
-          "doloremque"
+          "et",
+          "quae"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 578,
+        "InterParenthesis": 531,
         "InterOperator": "And",
-        "UniqueHash": 681
+        "UniqueHash": 733
       }
     ]
   }

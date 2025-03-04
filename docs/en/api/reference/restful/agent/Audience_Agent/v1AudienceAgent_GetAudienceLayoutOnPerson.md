@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 598
+  "PersonId": 765
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 664,
-  "InstanceLayout": "eveniet",
-  "InstanceName": "Terry, Kerluke and Runte",
-  "CreatedDate": "2012-09-17T12:01:27.3377499+02:00",
-  "UpdatedDate": "2016-08-04T12:01:27.3377499+02:00",
+  "AudienceLayoutId": 733,
+  "InstanceLayout": "laboriosam",
+  "InstanceName": "Cummings-Runolfsson",
+  "CreatedDate": "2024-07-04T14:13:39.3911033+02:00",
+  "UpdatedDate": "2012-04-08T14:13:39.3911033+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

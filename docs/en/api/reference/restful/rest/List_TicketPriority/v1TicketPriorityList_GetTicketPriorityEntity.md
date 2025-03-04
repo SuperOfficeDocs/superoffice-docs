@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 519,
-  "Name": "Dach-Ullrich",
+  "TicketPriorityId": 734,
+  "Name": "Spencer-Romaguera",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 960,
+  "SortOrder": 977,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 413,
-  "MonStart": "2016-06-24T12:01:33.6832402+02:00",
-  "MonStop": "2000-06-10T12:01:33.6832402+02:00",
-  "TueStart": "2021-08-01T12:01:33.6832402+02:00",
-  "TueStop": "2018-08-01T12:01:33.6832402+02:00",
-  "WedStart": "2015-04-16T12:01:33.6832402+02:00",
-  "WedStop": "2010-06-17T12:01:33.6832402+02:00",
-  "ThuStart": "2022-02-20T12:01:33.6832402+01:00",
-  "ThuStop": "2002-02-05T12:01:33.6832402+01:00",
-  "FriStart": "2017-07-17T12:01:33.6832402+02:00",
-  "FriStop": "2014-01-03T12:01:33.6832402+01:00",
-  "SatStart": "2002-11-27T12:01:33.6832402+01:00",
-  "SatStop": "2011-05-09T12:01:33.6832402+02:00",
-  "SunStart": "2002-07-20T12:01:33.6832402+02:00",
-  "SunStop": "2013-02-17T12:01:33.6832402+01:00",
+  "Deadline": 95,
+  "MonStart": "2011-01-05T14:13:50.3064464+01:00",
+  "MonStop": "2005-10-22T14:13:50.3064464+02:00",
+  "TueStart": "2001-06-29T14:13:50.3064464+02:00",
+  "TueStop": "2002-06-26T14:13:50.3064464+02:00",
+  "WedStart": "2021-09-06T14:13:50.3064464+02:00",
+  "WedStop": "2015-07-25T14:13:50.3064464+02:00",
+  "ThuStart": "2018-06-19T14:13:50.3064464+02:00",
+  "ThuStop": "2011-08-18T14:13:50.3064464+02:00",
+  "FriStart": "2003-11-19T14:13:50.3064464+01:00",
+  "FriStop": "2021-03-05T14:13:50.3064464+01:00",
+  "SatStart": "2000-09-08T14:13:50.3064464+02:00",
+  "SatStop": "2016-04-25T14:13:50.3064464+02:00",
+  "SunStart": "1998-05-27T14:13:50.3064464+02:00",
+  "SunStop": "2009-06-05T14:13:50.3064464+02:00",
   "NonDates": [
-    "voluptatum",
-    "unde"
+    "sapiente",
+    "doloremque"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 222,
-      "AlertLevel": 36,
-      "AlertTimeout": 947,
-      "Action": 926,
-      "DelegateTo": 872,
-      "ScriptId": 543,
-      "EmailTo": "dakota@okunevaritchie.co.uk",
-      "SmsTo": "et",
-      "ReplyTemplateIdCustomer": 587,
-      "ReplyTemplateIdUser": 531,
-      "ReplyTemplateIdCatmast": 635,
-      "ReplyTemplateIdEmail": 896,
-      "RtiCustomerSms": 160,
-      "ReplyTemplateIdUserSms": 899,
-      "ReplyTemplateIdCatmastSms": 616,
-      "ReplyTemplateIdSms": 782,
+      "TicketAlertId": 319,
+      "AlertLevel": 482,
+      "AlertTimeout": 593,
+      "Action": 860,
+      "DelegateTo": 236,
+      "ScriptId": 79,
+      "EmailTo": "lisette@torphy.com",
+      "SmsTo": "veritatis",
+      "ReplyTemplateIdCustomer": 867,
+      "ReplyTemplateIdUser": 659,
+      "ReplyTemplateIdCatmast": 876,
+      "ReplyTemplateIdEmail": 521,
+      "RtiCustomerSms": 128,
+      "ReplyTemplateIdUserSms": 338,
+      "ReplyTemplateIdCatmastSms": 956,
+      "ReplyTemplateIdSms": 164,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldLength": 225
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

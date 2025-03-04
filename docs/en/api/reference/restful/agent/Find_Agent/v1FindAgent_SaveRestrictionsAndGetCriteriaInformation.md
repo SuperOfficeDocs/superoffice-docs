@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ducimus",
-  "ProviderName": "Windler LLC",
-  "StorageKey": "nam",
+  "StorageType": "qui",
+  "ProviderName": "Thiel, Kuvalis and Pfeffer",
+  "StorageKey": "provident",
   "Restrictions": [
     {
-      "Name": "O'Keefe LLC",
-      "Operator": "in",
+      "Name": "Metz, Huel and Gerlach",
+      "Operator": "atque",
       "Values": [
-        "ipsa",
-        "similique"
+        "qui",
+        "illum"
       ],
       "DisplayValues": [
-        "asperiores",
-        "ex"
+        "voluptatem",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 92,
+      "InterParenthesis": 225,
       "InterOperator": "And",
-      "UniqueHash": 980
+      "UniqueHash": 627
     }
   ],
   "StaticColumns": [
-    "minus",
-    "quibusdam"
+    "qui",
+    "ut"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hyatt Group",
-      "Operator": "a",
+      "Name": "Gislason LLC",
+      "Operator": "hic",
       "Values": [
-        "architecto",
-        "quos"
+        "dolor",
+        "modi"
       ],
       "DisplayValues": [
-        "recusandae",
-        "esse"
+        "optio",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 745,
+      "InterParenthesis": 246,
       "InterOperator": "And",
-      "UniqueHash": 578
+      "UniqueHash": 607
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schamberger Inc and Sons",
-      "DisplayTooltip": "harum",
-      "DisplayType": "qui",
+      "DisplayName": "Walker LLC",
+      "DisplayTooltip": "cumque",
+      "DisplayType": "officiis",
       "CanOrderBy": false,
-      "Name": "Hansen, Fay and Bogan",
-      "CanRestrictBy": false,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "D'Amore-Bradtke",
-      "IsVisible": false,
-      "ExtraInfo": "nam",
-      "Width": "quam",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "cupiditate"
+      "Name": "O'Keefe LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "dolore",
+      "RestrictionListName": "Bosco Group",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "doloremque",
+      "IconHint": "ea",
+      "HeadingIconHint": "laudantium"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crona LLC",
-      "PrimaryKey": 586,
+      "EntityName": "Upton Inc and Sons",
+      "PrimaryKey": 4,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "ea",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "eum",
+          "TooltipHint": "molestias",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "hic",
-      "StyleHint": "sit",
+      "LinkHint": "et",
+      "StyleHint": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldType": "System.String",
+          "FieldLength": 335
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Klein-Cremin",
-      "Description": "Diverse high-level portal",
-      "Rank": 113,
+      "Name": "Crona, Kreiger and Lubowitz",
+      "Description": "Horizontal motivating hardware",
+      "Rank": 274,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klein-Cremin",
-      "Description": "Diverse high-level portal",
-      "Rank": 113,
+      "Name": "Crona, Kreiger and Lubowitz",
+      "Description": "Horizontal motivating hardware",
+      "Rank": 274,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 78
+      "FieldType": "System.Int32",
+      "FieldLength": 500
     }
   }
 }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 77
+  "PersonId": 615
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 369,
-    "Name": "Yundt, Collins and Wiza",
-    "Value": "rerum",
-    "CreatedDate": "2012-05-06T12:01:27.3377499+02:00",
-    "UpdatedDate": "2007-06-22T12:01:27.3377499+02:00",
-    "CreatedBy": "culpa",
-    "UpdatedBy": "occaecati",
+    "AudienceLayoutId": 839,
+    "Name": "Quigley, Moen and Wolff",
+    "Value": "omnis",
+    "CreatedDate": "2008-04-14T14:13:39.3754818+02:00",
+    "UpdatedDate": "2017-05-14T14:13:39.3754818+02:00",
+    "CreatedBy": "debitis",
+    "UpdatedBy": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldType": "System.Int32",
+        "FieldLength": 549
       }
     }
   }

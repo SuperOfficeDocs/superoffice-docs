@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 818,
-    "Name": "Daniel LLC",
-    "Tooltip": "reiciendis",
+    "HeadingId": 270,
+    "Name": "Connelly-Goldner",
+    "Tooltip": "aliquid",
     "Deleted": true,
-    "Rank": 448,
-    "UdListDefinitionId": 848,
+    "Rank": 886,
+    "UdListDefinitionId": 355,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

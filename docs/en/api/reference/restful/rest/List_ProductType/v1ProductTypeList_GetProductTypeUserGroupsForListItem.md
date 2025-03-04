@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Stanton-Casper",
-    "ToolTip": "Enim dolorem doloribus.",
-    "Deleted": false,
-    "Rank": 628,
-    "Type": "iure",
-    "ColorBlock": 628,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "1999-09-08T12:01:33.5894836+02:00",
+    "Id": 392,
+    "Name": "Parker Inc and Sons",
+    "ToolTip": "Libero sint nemo.",
+    "Deleted": true,
+    "Rank": 103,
+    "Type": "amet",
+    "ColorBlock": 843,
+    "IconHint": "blanditiis",
+    "Selected": false,
+    "LastChanged": "1998-05-07T14:13:50.1031526+02:00",
     "ChildItems": [
       {
-        "Id": 191,
-        "Name": "Schoen, Padberg and Klein",
-        "ToolTip": "Voluptatum non.",
+        "Id": 238,
+        "Name": "Reilly-Klocko",
+        "ToolTip": "Voluptatem ut eos enim temporibus qui corrupti.",
         "Deleted": false,
-        "Rank": 403,
-        "Type": "voluptatem",
-        "ColorBlock": 718,
-        "IconHint": "tenetur",
-        "Selected": false,
-        "LastChanged": "2001-01-13T12:01:33.5894836+01:00",
+        "Rank": 863,
+        "Type": "soluta",
+        "ColorBlock": 812,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2011-02-10T14:13:50.1031526+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Andres Stracke",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Twila Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Mr. Enoch Lila Hilpert",
+    "ExtraInfo": "iusto",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Nikita Naomi Senger III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 281
       }
     }
   }

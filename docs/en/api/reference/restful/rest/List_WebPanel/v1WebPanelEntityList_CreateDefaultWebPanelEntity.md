@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 939,
-  "Name": "Jenkins, O'Conner and Christiansen",
-  "Tooltip": "perspiciatis",
+  "WebPanelId": 749,
+  "Name": "Donnelly-Waters",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 838,
+  "Rank": 301,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Kling Group",
+  "WindowName": "Klocko Group",
   "Url": "http://www.example.com/",
-  "ProgId": "dolorum",
-  "Icon": 109,
+  "ProgId": "qui",
+  "Icon": 407,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 390
     }
   }
 }

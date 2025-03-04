@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 423,
-    "FieldName": "Leannon Inc and Sons",
-    "Label": "ex",
-    "Tooltip": "aut",
-    "Editable": true,
+    "QuoteLineConfigurationId": 89,
+    "FieldName": "Jerde-Skiles",
+    "Label": "sapiente",
+    "Tooltip": "sequi",
+    "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 306,
+    "Mandatory": true,
+    "Rank": 179,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 171
+        "FieldLength": 916
       }
     }
   }

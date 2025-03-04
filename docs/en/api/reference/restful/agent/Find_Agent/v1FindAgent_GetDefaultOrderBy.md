@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "delectus",
-  "ProviderName": "Breitenberg-Casper",
-  "StorageKey": "ea"
+  "StorageType": "debitis",
+  "ProviderName": "Kovacek-Waelchi",
+  "StorageKey": "ad"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Towne-Effertz",
+    "Name": "Simonis-Fritsch",
     "Direction": "ASC"
   },
   {
-    "Name": "Towne-Effertz",
+    "Name": "Simonis-Fritsch",
     "Direction": "ASC"
   }
 ]

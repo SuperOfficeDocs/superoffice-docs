@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 720,
-  "Name": "Cassin Group",
-  "CreatedDate": "2001-05-12T12:01:32.9175621+02:00",
-  "UpdatedDate": "2013-09-02T12:01:32.9175621+02:00",
+  "ForeignAppId": 966,
+  "Name": "Mann Group",
+  "CreatedDate": "2012-08-23T14:13:48.8836985+02:00",
+  "UpdatedDate": "2015-10-03T14:13:48.8836985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 69,
-      "Name": "Gleason Inc and Sons",
-      "CreatedDate": "2003-07-04T12:01:32.9175621+02:00",
-      "UpdatedDate": "1998-10-09T12:01:32.9175621+02:00",
-      "AssociateFullName": "Caitlyn Ledner",
-      "CreatedBy": "et",
-      "UpdatedBy": "consequuntur",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 953,
+      "ForeignDeviceId": 682,
+      "Name": "Little LLC",
+      "CreatedDate": "2023-05-10T14:13:48.8836985+02:00",
+      "UpdatedDate": "2011-04-28T14:13:48.8836985+02:00",
+      "AssociateFullName": "Dr. Arvid Dicki",
+      "CreatedBy": "ipsum",
+      "UpdatedBy": "unde",
+      "DeviceIdentifier": "consequuntur",
+      "ForeignAppId": 942,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 997
         }
       }
     }
@@ -170,12 +170,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 475
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

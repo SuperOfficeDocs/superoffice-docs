@@ -103,32 +103,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 682,
-  "Name": "Fritsch, Leuschke and Borer",
+  "WebhookId": 261,
+  "Name": "Bashirian, Brekke and Abbott",
   "Events": [
-    "occaecati",
-    "qui"
+    "non",
+    "consequuntur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "corporis",
+  "Secret": "culpa",
   "State": "Active",
-  "Type": "neque",
+  "Type": "vero",
   "Headers": {
-    "Headers1": "ducimus",
-    "Headers2": "et"
+    "Headers1": "consequatur",
+    "Headers2": "perferendis"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-02-20T12:01:33.4019705+01:00",
+  "Registered": "2004-07-27T14:13:49.6023951+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-12-04T12:01:33.4019705+01:00",
+  "Updated": "2009-02-11T14:13:49.6023951+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "rodrick.powlowski@hahn.us"
+  "ErrorsEmail": "bailey_mosciski@jacobistanton.info"
 }
 ```
 
@@ -139,31 +139,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 515,
-  "Name": "Schmeler LLC",
+  "WebhookId": 958,
+  "Name": "Bins Group",
   "Events": [
-    "dolorem",
-    "numquam"
+    "consequatur",
+    "laboriosam"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "nihil",
+  "Secret": "sit",
   "State": "Active",
-  "Type": "incidunt",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "cupiditate",
-    "Headers2": "debitis"
+    "Headers1": "qui",
+    "Headers2": "error"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2022-09-03T12:01:33.4019705+02:00",
+  "Registered": "2013-07-04T14:13:49.6023951+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2020-08-19T12:01:33.4019705+02:00",
+  "Updated": "2017-08-24T14:13:49.6023951+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "andreanne_murphy@yundt.us",
+  "ErrorsEmail": "keagan@sipes.name",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -72,7 +72,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Stoltenberg Group",
-  "DisplayName": "Dare Group",
-  "Description": "Sharable discrete emulation",
-  "ShortLabel": "expedita",
+  "FieldName": "Anderson Group",
+  "DisplayName": "Schneider-Kihn",
+  "Description": "Enhanced intangible application",
+  "ShortLabel": "excepturi",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 267,
-  "TemplateVariableName": "Kshlerin LLC"
+  "IsDisplayField": true,
+  "Rank": 789,
+  "TemplateVariableName": "Schimmel-Franecki"
 }
 ```

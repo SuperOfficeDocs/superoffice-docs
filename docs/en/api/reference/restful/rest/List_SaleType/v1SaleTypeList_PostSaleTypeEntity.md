@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 561,
-  "Name": "Lueilwitz-Erdman",
-  "Tooltip": "nam",
-  "Rank": 242,
+  "SaleTypeId": 22,
+  "Name": "Bernhard Group",
+  "Tooltip": "distinctio",
+  "Rank": 885,
   "DurationUnit": "Century",
-  "SaleDuration": 732,
-  "SaleTypeCatId": 171,
+  "SaleDuration": 515,
+  "SaleTypeCatId": 941,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 182,
-  "QuoteLinesTemplate": 223,
-  "ConfirmationLinesTemplate": 211,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 180,
-  "MinEarningPercent": 679,
-  "GroupQuoteLinesBy": 475,
-  "SortGroupLinesBy": 706,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 32,
+  "QuoteLinesTemplate": 990,
+  "ConfirmationLinesTemplate": 734,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 416,
+  "MinEarningPercent": 872,
+  "GroupQuoteLinesBy": 492,
+  "SortGroupLinesBy": 888,
   "Stages": [
     {
-      "Id": 162,
-      "Name": "Waters, Olson and Stoltenberg",
-      "ToolTip": "Voluptatibus iure.",
+      "Id": 961,
+      "Name": "Thiel LLC",
+      "ToolTip": "Qui velit voluptate.",
       "Deleted": true,
-      "Rank": 424,
-      "Type": "suscipit",
-      "ColorBlock": 253,
-      "IconHint": "laudantium",
+      "Rank": 252,
+      "Type": "ipsam",
+      "ColorBlock": 415,
+      "IconHint": "temporibus",
       "Selected": false,
-      "LastChanged": "2023-12-05T12:01:33.6519877+01:00",
+      "LastChanged": "1998-12-04T14:13:50.2283063+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "consectetur",
-      "Hidden": false,
-      "FullName": "Prof. Kasey McKenzie"
+      "ExtraInfo": "fuga",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Nicholas Cummerata"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 416,
-  "Name": "Stark-Ankunding",
-  "Tooltip": "laudantium",
-  "Rank": 900,
+  "SaleTypeId": 240,
+  "Name": "Jewess, Braun and Keebler",
+  "Tooltip": "nisi",
+  "Rank": 494,
   "DurationUnit": "Century",
-  "SaleDuration": 308,
-  "SaleTypeCatId": 585,
+  "SaleDuration": 67,
+  "SaleTypeCatId": 256,
   "Deleted": false,
   "HasGuide": true,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 171,
-  "QuoteLinesTemplate": 68,
-  "ConfirmationLinesTemplate": 306,
-  "MaxDiscountPercentSet": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 363,
+  "QuoteLinesTemplate": 894,
+  "ConfirmationLinesTemplate": 919,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 810,
-  "MinEarningPercent": 362,
-  "GroupQuoteLinesBy": 242,
-  "SortGroupLinesBy": 319,
+  "MaxDiscountPercent": 918,
+  "MinEarningPercent": 806,
+  "GroupQuoteLinesBy": 258,
+  "SortGroupLinesBy": 445,
   "Stages": [
     {
-      "Id": 676,
-      "Name": "Bednar Inc and Sons",
-      "ToolTip": "Omnis inventore qui.",
+      "Id": 755,
+      "Name": "Upton Inc and Sons",
+      "ToolTip": "Qui quo eligendi ea repellendus quae eos.",
       "Deleted": false,
-      "Rank": 992,
-      "Type": "rerum",
-      "ColorBlock": 377,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2010-06-13T12:01:33.6519877+02:00",
+      "Rank": 639,
+      "Type": "eius",
+      "ColorBlock": 210,
+      "IconHint": "architecto",
+      "Selected": false,
+      "LastChanged": "2013-12-02T14:13:50.2283063+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "saepe",
-      "StyleHint": "et",
-      "Hidden": true,
-      "FullName": "Jonatan Reichert",
+      "ExtraInfo": "facilis",
+      "StyleHint": "placeat",
+      "Hidden": false,
+      "FullName": "Fay Cummerata",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 81
         }
       }
     }
@@ -220,7 +220,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 39
     }
   }
 }

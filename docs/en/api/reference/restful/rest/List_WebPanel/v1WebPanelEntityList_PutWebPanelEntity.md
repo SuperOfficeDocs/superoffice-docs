@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 416,
-  "Name": "Hackett, Shanahan and Treutel",
-  "Tooltip": "quod",
+  "WebPanelId": 963,
+  "Name": "Schultz Inc and Sons",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 848,
+  "Rank": 46,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Purdy-Lehner",
+  "WindowName": "Altenwerth, Gerlach and Walker",
   "Url": "http://www.example.com/",
-  "ProgId": "est",
-  "Icon": 732,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "quia",
+  "Icon": 610,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -148,11 +148,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 97,
-  "Name": "Kozey, Reynolds and Block",
-  "Tooltip": "perferendis",
+  "WebPanelId": 311,
+  "Name": "Greenholt-Leannon",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 39,
+  "Rank": 260,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -160,22 +160,22 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Doyle-Abbott",
+  "ShowInStatusBar": true,
+  "WindowName": "Bartell Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "vel",
-  "Icon": 265,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "quo",
+  "Icon": 744,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 274,
-  "StartTime": "1998-05-02T12:01:27.5877684+02:00",
-  "EndTime": "1998-07-23T12:01:27.5877684+02:00",
-  "Count": 543,
-  "DocumentTemplateId": 948
+  "ContactId": 428,
+  "StartTime": "2009-11-05T14:13:40.0004493+01:00",
+  "EndTime": "2009-10-05T14:13:40.0004493+02:00",
+  "Count": 421,
+  "DocumentTemplateId": 946
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 453,
-    "Attention": "dicta",
-    "Header": "dicta",
-    "Name": "Murray Inc and Sons",
-    "OurRef": "et",
-    "YourRef": "dolores",
-    "Description": "Visionary system-worthy alliance",
-    "DocumentTemplate": "temporibus",
-    "IsPublished": true,
-    "PersonId": 679,
-    "PersonFullName": "Ms. Malcolm Boyle",
-    "AssociateFullName": "Flavio Veum I",
-    "ContactId": 330,
-    "ContactName": "Carter, Zemlak and Sauer",
-    "ProjectId": 169,
-    "ProjectName": "Schmidt, Macejkovic and Dare",
-    "AssociateId": 133,
-    "Snum": 444,
-    "SaleId": 394,
-    "SaleName": "Kovacek LLC",
+    "DocumentId": 846,
+    "Attention": "unde",
+    "Header": "rerum",
+    "Name": "Cummerata, Lubowitz and Padberg",
+    "OurRef": "non",
+    "YourRef": "libero",
+    "Description": "Down-sized intangible migration",
+    "DocumentTemplate": "nisi",
+    "IsPublished": false,
+    "PersonId": 82,
+    "PersonFullName": "Monroe Pollich",
+    "AssociateFullName": "Mr. Loraine Nedra Jerde",
+    "ContactId": 903,
+    "ContactName": "Stehr LLC",
+    "ProjectId": 962,
+    "ProjectName": "Mills, Borer and Glover",
+    "AssociateId": 287,
+    "Snum": 421,
+    "SaleId": 94,
+    "SaleName": "Skiles Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 123
       }
     }
   }

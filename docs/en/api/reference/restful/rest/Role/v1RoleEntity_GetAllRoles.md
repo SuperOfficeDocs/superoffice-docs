@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 221,
-    "Name": "Corwin, Cruickshank and Raynor",
-    "ToolTip": "Delectus recusandae recusandae.",
-    "Deleted": true,
-    "Rank": 248,
-    "Type": "at",
-    "ColorBlock": 859,
-    "IconHint": "totam",
+    "Id": 145,
+    "Name": "Hagenes Inc and Sons",
+    "ToolTip": "Eligendi et dolorem.",
+    "Deleted": false,
+    "Rank": 457,
+    "Type": "explicabo",
+    "ColorBlock": 650,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "2001-09-05T12:01:33.0425704+02:00",
+    "LastChanged": "1997-11-30T14:13:49.1025081+01:00",
     "ChildItems": [
       {
-        "Id": 149,
-        "Name": "Kovacek LLC",
-        "ToolTip": "Illum consequatur sit in libero adipisci aut ut.",
+        "Id": 789,
+        "Name": "Auer, Brakus and Bahringer",
+        "ToolTip": "Minima repudiandae ad a et consequatur voluptatibus possimus.",
         "Deleted": true,
-        "Rank": 278,
-        "Type": "in",
-        "ColorBlock": 37,
-        "IconHint": "voluptatem",
+        "Rank": 362,
+        "Type": "aliquid",
+        "ColorBlock": 756,
+        "IconHint": "esse",
         "Selected": false,
-        "LastChanged": "2018-05-18T12:01:33.0425704+02:00",
+        "LastChanged": "2020-09-25T14:13:49.1025081+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Jewel Lemke",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "aliquid",
+        "Hidden": false,
+        "FullName": "Miss Melany Cheyanne Dickinson III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 490
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Bianka Berge",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Wilford Hayley Ankunding DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 834
+        "FieldLength": 624
       }
     }
   }

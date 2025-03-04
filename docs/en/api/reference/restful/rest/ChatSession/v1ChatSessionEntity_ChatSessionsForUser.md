@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 52,
-    "TopicId": 31,
+    "ChatSessionId": 998,
+    "TopicId": 89,
     "User": null,
     "Person": null,
-    "CustomerAlias": "atque",
-    "CustomerHost": "dolores",
-    "CustomerName": "Von Inc and Sons",
-    "CustomerEmail": "alfreda.russel@gerholdemard.info",
-    "CustomerPhone": "(857)547-7925 x1022",
+    "CustomerAlias": "deleniti",
+    "CustomerHost": "quia",
+    "CustomerName": "Marks-Bednar",
+    "CustomerEmail": "clifford@block.us",
+    "CustomerPhone": "144-844-3891",
     "CustomerConsented": false,
-    "CustomerCompanyName": "Gerhold Inc and Sons",
+    "CustomerCompanyName": "Dickens-Jones",
     "Status": "Closed",
-    "FirstMessage": "est",
-    "LastMessage": "sunt",
-    "WhenRequested": "2020-10-17T12:01:32.7144227+02:00",
-    "WhenStarted": "2012-03-31T12:01:32.7144227+02:00",
-    "WhenEnded": "2003-06-28T12:01:32.7144227+02:00",
-    "WhenIdle": "2002-09-05T12:01:32.7144227+02:00",
-    "WhenFetched": "2015-06-08T12:01:32.7144227+02:00",
-    "SessionKey": "expedita",
-    "InitialQueuePos": 338,
-    "AlertLevel": 749,
-    "Rank": 738,
+    "FirstMessage": "vero",
+    "LastMessage": "ducimus",
+    "WhenRequested": "2007-07-25T14:13:48.3664499+02:00",
+    "WhenStarted": "1999-09-03T14:13:48.3664499+02:00",
+    "WhenEnded": "2011-12-20T14:13:48.3664499+01:00",
+    "WhenIdle": "2011-04-11T14:13:48.3664499+02:00",
+    "WhenFetched": "2013-06-27T14:13:48.3664499+02:00",
+    "SessionKey": "ipsum",
+    "InitialQueuePos": 435,
+    "AlertLevel": 820,
+    "Rank": 803,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 330,
+    "Rating": 730,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 938
       }
     }

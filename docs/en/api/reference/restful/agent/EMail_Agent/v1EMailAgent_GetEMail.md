@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/EMail/GetEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 791,
-  "IncludeAttachments": false
+  "Id": 145,
+  "IncludeAttachments": true
 }
 ```
 
@@ -119,156 +119,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 683,
-      "ContactName": "Hilll, Kshlerin and McGlynn",
-      "PersonId": 674,
-      "PersonName": "Spinka-Treutel",
-      "AssociateId": 712,
-      "Address": "dolores",
-      "EmailId": 756,
+      "ContactId": 1002,
+      "ContactName": "Bartoletti-Will",
+      "PersonId": 102,
+      "PersonName": "Will, Gleichner and Russel",
+      "AssociateId": 654,
+      "Address": "ad",
+      "EmailId": 264,
       "DuplicatePersonIds": [
-        322,
-        181
+        590,
+        350
       ],
-      "Name": "Dickinson Group",
+      "Name": "Macejkovic-Ward",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 305,
-      "ContactName": "Conroy LLC",
-      "PersonId": 301,
-      "PersonName": "Schmitt-Bashirian",
-      "AssociateId": 888,
-      "Address": "amet",
-      "EmailId": 889,
+      "ContactId": 449,
+      "ContactName": "Olson-Torp",
+      "PersonId": 223,
+      "PersonName": "Wehner-Donnelly",
+      "AssociateId": 177,
+      "Address": "enim",
+      "EmailId": 745,
       "DuplicatePersonIds": [
-        441,
-        977
+        805,
+        69
       ],
-      "Name": "Beier Group",
+      "Name": "Beahan Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 348
+          "FieldLength": 554
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 529,
-      "ContactName": "Kassulke Group",
-      "PersonId": 133,
-      "PersonName": "Crooks, Douglas and Farrell",
-      "AssociateId": 126,
-      "Address": "nesciunt",
-      "EmailId": 93,
+      "ContactId": 913,
+      "ContactName": "Harvey, Corkery and Gorczany",
+      "PersonId": 60,
+      "PersonName": "Grady-Schaefer",
+      "AssociateId": 653,
+      "Address": "dolorum",
+      "EmailId": 389,
       "DuplicatePersonIds": [
-        564,
-        971
+        781,
+        594
       ],
-      "Name": "Durgan-Dare",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 996
-        }
-      }
-    }
-  ],
-  "Subject": "at",
-  "HTMLBody": "nam",
-  "From": null,
-  "Sent": "2004-04-18T12:01:27.8534108+02:00",
-  "Size": 318,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "voluptate",
-  "PlainBody": "architecto",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 655,
-  "Attachments": [
-    {
-      "Description": "Fundamental interactive projection",
-      "Filename": "quia",
-      "Size": 77,
-      "Type": "non",
-      "Encoding": "harum",
-      "Id": "repellat",
-      "Disposition": "sapiente",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Simonis Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 298
+          "FieldLength": 950
+        }
+      }
+    }
+  ],
+  "Subject": "molestias",
+  "HTMLBody": "molestias",
+  "From": null,
+  "Sent": "2008-04-22T14:13:40.312876+02:00",
+  "Size": 691,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "a",
+  "PlainBody": "corporis",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 601,
+  "Attachments": [
+    {
+      "Description": "Digitized systematic artificial intelligence",
+      "Filename": "necessitatibus",
+      "Size": 838,
+      "Type": "ut",
+      "Encoding": "odit",
+      "Id": "explicabo",
+      "Disposition": "consequatur",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 709
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Franecki Inc and Sons",
+      "Name": "Halvorson Group",
       "Values": [
-        "labore",
-        "voluptas"
+        "libero",
+        "repellendus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 937
         }
       }
     },
     {
-      "Name": "Franecki Inc and Sons",
+      "Name": "Halvorson Group",
       "Values": [
-        "labore",
-        "voluptas"
+        "libero",
+        "repellendus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 978
+          "FieldLength": 937
         }
       }
     }
   ],
-  "FolderName": "Swaniawski-Runolfsson",
-  "EmailItemId": 958,
-  "AccountId": 867,
-  "ReceivedAt": "2007-08-12T12:01:27.8534108+02:00",
+  "FolderName": "Gaylord, Abernathy and Mayert",
+  "EmailItemId": 271,
+  "AccountId": 232,
+  "ReceivedAt": "2012-12-13T14:13:40.312876+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-06-19T12:01:27.8534108+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2007-11-23T14:13:40.312876+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 951
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

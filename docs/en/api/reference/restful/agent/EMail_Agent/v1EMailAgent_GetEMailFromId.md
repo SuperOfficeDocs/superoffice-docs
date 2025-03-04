@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 112,
+  "MessageServerId": 861,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": true
@@ -125,97 +125,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 430,
-      "ContactName": "Batz, Harvey and Kassulke",
-      "PersonId": 81,
-      "PersonName": "Breitenberg Inc and Sons",
-      "AssociateId": 232,
-      "Address": "aut",
-      "EmailId": 909,
+      "ContactId": 459,
+      "ContactName": "Powlowski, Bergnaum and Quigley",
+      "PersonId": 353,
+      "PersonName": "Hessel-Goyette",
+      "AssociateId": 674,
+      "Address": "vitae",
+      "EmailId": 11,
       "DuplicatePersonIds": [
-        88,
-        11
+        131,
+        289
       ],
-      "Name": "Romaguera, Fadel and Osinski",
+      "Name": "Bradtke-Witting",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 631,
-      "ContactName": "Schowalter-Abbott",
-      "PersonId": 967,
-      "PersonName": "Kertzmann Group",
-      "AssociateId": 987,
-      "Address": "excepturi",
-      "EmailId": 105,
+      "ContactId": 234,
+      "ContactName": "Wintheiser-Corkery",
+      "PersonId": 216,
+      "PersonName": "Zieme-Harvey",
+      "AssociateId": 970,
+      "Address": "et",
+      "EmailId": 458,
       "DuplicatePersonIds": [
-        314,
-        891
+        275,
+        438
       ],
-      "Name": "Nikolaus-Beatty",
+      "Name": "Romaguera Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldLength": 136
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 381,
-      "ContactName": "Marks LLC",
-      "PersonId": 551,
-      "PersonName": "Mills, Zulauf and Schamberger",
-      "AssociateId": 304,
-      "Address": "nihil",
-      "EmailId": 900,
+      "ContactId": 234,
+      "ContactName": "Cummings, Swaniawski and Reinger",
+      "PersonId": 456,
+      "PersonName": "Kiehn, Kirlin and Cartwright",
+      "AssociateId": 496,
+      "Address": "omnis",
+      "EmailId": 102,
       "DuplicatePersonIds": [
-        653,
-        363
+        383,
+        139
       ],
-      "Name": "Gerlach Group",
+      "Name": "Rippin, Dare and Hessel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 520
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "dicta",
+  "Subject": "est",
+  "HTMLBody": "reprehenderit",
   "From": null,
-  "Sent": "2020-12-09T12:01:27.8377848+01:00",
-  "Size": 986,
+  "Sent": "1999-12-22T14:13:40.2660122+01:00",
+  "Size": 885,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "reiciendis",
-  "PlainBody": "qui",
-  "IsSent": true,
+  "MessageID": "veritatis",
+  "PlainBody": "consectetur",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 694,
+  "ServerId": 94,
   "Attachments": [
     {
-      "Description": "Organic tangible projection",
-      "Filename": "et",
-      "Size": 214,
-      "Type": "quas",
-      "Encoding": "accusantium",
-      "Id": "asperiores",
-      "Disposition": "qui",
+      "Description": "Organized neutral info-mediaries",
+      "Filename": "at",
+      "Size": 290,
+      "Type": "praesentium",
+      "Encoding": "et",
+      "Id": "veniam",
+      "Disposition": "nemo",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -223,49 +223,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 896
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Heathcote-Willms",
+      "Name": "Waelchi-Sawayn",
       "Values": [
-        "sunt",
-        "quam"
+        "a",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 880
         }
       }
     },
     {
-      "Name": "Heathcote-Willms",
+      "Name": "Waelchi-Sawayn",
       "Values": [
-        "sunt",
-        "quam"
+        "a",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 880
         }
       }
     }
   ],
-  "FolderName": "Schowalter LLC",
-  "EmailItemId": 919,
-  "AccountId": 115,
-  "ReceivedAt": "2009-06-18T12:01:27.8377848+02:00",
+  "FolderName": "Braun-Kemmer",
+  "EmailItemId": 80,
+  "AccountId": 175,
+  "ReceivedAt": "2003-08-22T14:13:40.2660122+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-01-07T12:01:27.8377848+01:00",
+  "RepliedAt": "2024-07-09T14:13:40.2660122+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -274,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldLength": 30
     }
   }
 }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "officia"
+  "ProgId": "ab"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 801,
-  "Name": "Mante, Kuphal and Kuhn",
-  "Tooltip": "laudantium",
-  "TableName": "Waelchi Group",
-  "Area": "voluptatem",
+  "TaskMenuId": 457,
+  "Name": "Auer Inc and Sons",
+  "Tooltip": "error",
+  "TableName": "Gerhold-Kunde",
+  "Area": "asperiores",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 384,
+  "CrmScriptId": 268,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 294,
+  "Rank": 534,
   "Encoding": "ANSI",
-  "ProgId": "et",
+  "ProgId": "corrupti",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 726
+      "FieldLength": 775
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=tenetur
+GET /api/v1/List/PaymentType/MDOItems?query=perferendis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 985,
-    "Name": "Macejkovic Group",
-    "ToolTip": "Nemo autem quibusdam quia iusto rerum necessitatibus sit.",
+    "Id": 668,
+    "Name": "Gleason, Murazik and Abshire",
+    "ToolTip": "Non quo atque consequatur esse excepturi.",
     "Deleted": false,
-    "Rank": 454,
-    "Type": "aut",
+    "Rank": 825,
+    "Type": "tempore",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Ritchie LLC",
-        "ToolTip": "Et recusandae consequatur repellat laudantium.",
-        "Deleted": true,
-        "Rank": 521,
-        "Type": "fugiat",
+        "Id": 686,
+        "Name": "Lemke Group",
+        "ToolTip": "Eum quae facere qui minima aut vitae.",
+        "Deleted": false,
+        "Rank": 799,
+        "Type": "doloremque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 322,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "nihil",
-        "FullName": "Telly Cartwright",
+        "IconHint": "ut",
+        "ColorBlock": 310,
+        "ExtraInfo": "vitae",
+        "StyleHint": "nostrum",
+        "FullName": "Scottie Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 924
+            "FieldType": "System.Int32",
+            "FieldLength": 173
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 346,
-    "ExtraInfo": "at",
-    "StyleHint": "porro",
-    "FullName": "Clinton Kuhic",
+    "IconHint": "animi",
+    "ColorBlock": 389,
+    "ExtraInfo": "iste",
+    "StyleHint": "odit",
+    "FullName": "Aylin Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

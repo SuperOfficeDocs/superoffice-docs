@@ -728,7 +728,7 @@ Appointment shadow selection archive with OR-able selection groups. Each group i
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/stop,person/personAssociate/userName,project/endDate,project/projectAssociate/lastName,project/LastActivity
+GET /api/v1/archive/AppointmentShadowDynamicSelectionV2?$select=contact/searchPhone/formattedNumber,person/whenUpdatedByWorkflow,person/personPager/description,person/personUdef/SuperOffice:5,project/projectPublish/isPublished
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

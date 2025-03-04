@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentIds": [
-    76,
-    776
+    322,
+    147
   ]
 }
 ```
@@ -92,14 +92,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 911,
-    "IsValid": false,
-    "ErrorMessage": "enim"
+    "AttachmentId": 272,
+    "IsValid": true,
+    "ErrorMessage": "incidunt"
   },
   {
-    "AttachmentId": 911,
-    "IsValid": false,
-    "ErrorMessage": "enim"
+    "AttachmentId": 272,
+    "IsValid": true,
+    "ErrorMessage": "incidunt"
   }
 ]
 ```

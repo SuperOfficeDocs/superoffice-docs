@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Lindgren-Carter",
-  "Tooltip": "consequuntur",
+  "Id": 712,
+  "Name": "Kemmer-Skiles",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 525,
-  "Rank": 685
+  "UdListDefinitionId": 361,
+  "Rank": 614
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 575,
-  "Name": "Marks, Walker and Cruickshank",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "UdListDefinitionId": 388,
-  "Rank": 948,
+  "Id": 279,
+  "Name": "Turcotte Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 695,
+  "Rank": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 322
     }
   }
 }

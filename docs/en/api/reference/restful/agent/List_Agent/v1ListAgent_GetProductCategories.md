@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Value": "praesentium",
-    "Tooltip": "omnis",
+    "Id": 47,
+    "Value": "fugiat",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 131
       }
     }
   },
   {
-    "Id": 352,
-    "Value": "praesentium",
-    "Tooltip": "omnis",
+    "Id": 47,
+    "Value": "fugiat",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 131
       }
     }
   }

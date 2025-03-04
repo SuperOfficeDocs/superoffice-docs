@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hoppe LLC",
-  "Context": "sit"
+  "ProviderName": "Langosh, Thiel and Carter",
+  "Context": "doloribus"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Konopelski LLC",
-    "DisplayTooltip": "iure",
-    "DisplayType": "fuga",
-    "CanOrderBy": true,
-    "Name": "Keebler, Wisoky and Hermann",
-    "CanRestrictBy": false,
-    "RestrictionType": "cumque",
-    "RestrictionListName": "Veum LLC",
+    "DisplayName": "Lesch Group",
+    "DisplayTooltip": "assumenda",
+    "DisplayType": "deleniti",
+    "CanOrderBy": false,
+    "Name": "Morar-Yundt",
+    "CanRestrictBy": true,
+    "RestrictionType": "ipsum",
+    "RestrictionListName": "Stark LLC",
     "IsVisible": false,
-    "ExtraInfo": "aliquid",
-    "Width": "incidunt",
-    "IconHint": "autem",
-    "HeadingIconHint": "reprehenderit"
+    "ExtraInfo": "explicabo",
+    "Width": "ipsa",
+    "IconHint": "repellendus",
+    "HeadingIconHint": "numquam"
   }
 ]
 ```

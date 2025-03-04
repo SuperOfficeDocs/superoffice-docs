@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Hickle LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 551,
-  "Rank": 89,
+  "Id": 825,
+  "Name": "Hansen Group",
+  "Tooltip": "quam",
+  "Deleted": true,
+  "UdListDefinitionId": 355,
+  "Rank": 605,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 754
     }
   }
 }

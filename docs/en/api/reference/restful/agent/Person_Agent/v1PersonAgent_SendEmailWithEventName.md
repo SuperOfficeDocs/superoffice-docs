@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "numquam",
-  "To": "quia",
-  "Subject": "qui",
-  "PlainBody": "enim",
-  "HtmlBody": "omnis",
+  "From": "nostrum",
+  "To": "in",
+  "Subject": "blanditiis",
+  "PlainBody": "qui",
+  "HtmlBody": "maiores",
   "AttachmentIds": [
-    4,
-    244
+    690,
+    78
   ],
-  "EventName": "Kirlin-Dach"
+  "EventName": "Shields Inc and Sons"
 }
 ```
 

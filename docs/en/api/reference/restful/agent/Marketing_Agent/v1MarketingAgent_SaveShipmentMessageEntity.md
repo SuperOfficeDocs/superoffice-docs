@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 822,
-  "PlainMessage": "eos",
-  "HtmlMessage": "est",
-  "SmsMessage": "aut",
-  "Description": "Enterprise-wide radical paradigm",
-  "Subject": "ducimus",
-  "FolderId": 149,
-  "HeaderField": "rerum",
-  "Design": "magnam",
+  "ShipmentMessageId": 123,
+  "PlainMessage": "quasi",
+  "HtmlMessage": "quibusdam",
+  "SmsMessage": "possimus",
+  "Description": "Balanced composite project",
+  "Subject": "quia",
+  "FolderId": 371,
+  "HeaderField": "soluta",
+  "Design": "excepturi",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Horizontal optimal project",
-  "AccessKey": "magni",
-  "DocumentMessage": 972,
-  "Registered": "2005-09-21T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 941,
-  "Updated": "2005-08-29T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 358,
-  "UpdatedCount": 938
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Profit-focused national benchmark",
+  "AccessKey": "reprehenderit",
+  "DocumentMessage": 512,
+  "Registered": "2011-06-11T14:13:40.5628193+02:00",
+  "RegisteredAssociateId": 790,
+  "Updated": "2007-03-11T14:13:40.5628193+01:00",
+  "UpdatedAssociateId": 202,
+  "UpdatedCount": 152
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 152,
-  "PlainMessage": "consequuntur",
-  "HtmlMessage": "repellat",
-  "SmsMessage": "autem",
-  "Description": "Fundamental even-keeled middleware",
-  "Subject": "laborum",
-  "FolderId": 40,
-  "HeaderField": "voluptas",
-  "Design": "et",
+  "ShipmentMessageId": 715,
+  "PlainMessage": "fugit",
+  "HtmlMessage": "necessitatibus",
+  "SmsMessage": "dolores",
+  "Description": "Programmable national encryption",
+  "Subject": "est",
+  "FolderId": 911,
+  "HeaderField": "perspiciatis",
+  "Design": "tenetur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Optional encompassing workforce",
-  "AccessKey": "quod",
-  "DocumentMessage": 768,
-  "Registered": "2024-05-20T12:01:27.9940463+02:00",
-  "RegisteredAssociateId": 382,
-  "Updated": "2002-09-02T12:01:27.9940463+02:00",
-  "UpdatedAssociateId": 311,
-  "UpdatedCount": 145,
+  "LongDescription": "Function-based incremental benchmark",
+  "AccessKey": "excepturi",
+  "DocumentMessage": 160,
+  "Registered": "2024-09-23T14:13:40.5628193+02:00",
+  "RegisteredAssociateId": 115,
+  "Updated": "2024-04-30T14:13:40.5628193+02:00",
+  "UpdatedAssociateId": 81,
+  "UpdatedCount": 469,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 301
     }
   }
 }

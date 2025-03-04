@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 731,
-  "Name": "Bergnaum LLC",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 291,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 897,
+  "Name": "Medhurst, Cassin and Fahey",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 415,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": false
+  "ListType": "sequi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 717,
-  "Name": "Kub-Thompson",
-  "Tooltip": "aut",
+  "Id": 669,
+  "Name": "Predovic LLC",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "Rank": 553,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "Rank": 726,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 798
+      "FieldType": "System.Int32",
+      "FieldLength": 935
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Fay-Roberts",
-  "DeviceName": "Wiegand LLC",
-  "DeviceIdentifier": "ut",
-  "TableName": "Wisozk-Hammes",
-  "RecordId": 852
+  "ApplicationName": "Casper, Douglas and Hudson",
+  "DeviceName": "Douglas-McGlynn",
+  "DeviceIdentifier": "qui",
+  "TableName": "Dickinson, Hand and Jacobi",
+  "RecordId": 522
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ipsum",
-    "Value": "porro",
-    "RecordId": 956,
-    "CreatedDate": "2017-04-27T12:01:27.9002891+02:00",
-    "UpdatedDate": "2015-10-11T12:01:27.9002891+02:00",
-    "UpdatedBy": "et",
-    "CreatedBy": "laboriosam",
-    "TableName": "Roob, Hilpert and Nitzsche",
+    "Key": "eius",
+    "Value": "impedit",
+    "RecordId": 624,
+    "CreatedDate": "2021-06-07T14:13:40.4066046+02:00",
+    "UpdatedDate": "2014-11-10T14:13:40.4066046+01:00",
+    "UpdatedBy": "impedit",
+    "CreatedBy": "dolores",
+    "TableName": "Ferry LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 681
       }
     }
   }

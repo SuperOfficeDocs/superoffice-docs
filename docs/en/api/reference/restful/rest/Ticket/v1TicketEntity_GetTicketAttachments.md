@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 611,
-    "Name": "Doyle-Grady",
-    "ContentType": "unde",
-    "AttSize": 183,
-    "InlineImage": false,
-    "ContentId": "id",
-    "AuthKey": "impedit",
+    "AttachmentId": 250,
+    "Name": "Bayer, Pacocha and Hodkiewicz",
+    "ContentType": "voluptatem",
+    "AttSize": 972,
+    "InlineImage": true,
+    "ContentId": "vel",
+    "AuthKey": "dolores",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 506
+        "FieldType": "System.String",
+        "FieldLength": 577
       }
     }
   }

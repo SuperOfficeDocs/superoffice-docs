@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=522
+POST /api/v1/Agents/User/GetUser?userId=583
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 846,
-  "Name": "O'Conner Inc and Sons",
-  "Rank": 892,
-  "Tooltip": "quis",
+  "AssociateId": 197,
+  "Name": "Hilpert LLC",
+  "Rank": 72,
+  "Tooltip": "fugiat",
   "LicenseOwners": [
     {
-      "Name": "Goldner, Crist and Treutel",
-      "Description": "Cross-platform demand-driven throughput",
+      "Name": "Gleason-Schroeder",
+      "Description": "Multi-lateral high-level interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,14 +123,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     },
     {
-      "Name": "Goldner, Crist and Treutel",
-      "Description": "Cross-platform demand-driven throughput",
+      "Name": "Gleason-Schroeder",
+      "Description": "Multi-lateral high-level interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldType": "System.Int32",
+          "FieldLength": 609
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequatur",
-      "Tooltip": "explicabo",
-      "Id": 493,
-      "Rank": 797,
+      "Value": "perspiciatis",
+      "Tooltip": "ipsa",
+      "Id": 136,
+      "Rank": 783,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1001
+          "FieldLength": 144
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2012-05-14T12:01:28.6034631+02:00",
-  "Lastlogout": "2004-09-05T12:01:28.6034631+02:00",
-  "EjUserId": 774,
-  "RequestSignature": "reiciendis",
+  "Lastlogin": "2003-08-20T14:13:41.6883687+02:00",
+  "Lastlogout": "2002-07-19T14:13:41.6883687+02:00",
+  "EjUserId": 631,
+  "RequestSignature": "aliquid",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "iste",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "accusamus",
-      "DisplayValue": "iste",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 741
-        }
-      }
-    }
-  ],
-  "UserName": "Hansen-Kohler",
-  "TicketCategories": [
-    {
-      "Id": 903,
-      "Name": "Ullrich, Daugherty and Turcotte",
-      "ToolTip": "Quia repellat nisi unde.",
-      "Deleted": true,
-      "Rank": 277,
-      "Type": "quidem",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "corrupti",
-      "ColorBlock": 36,
-      "ExtraInfo": "nemo",
-      "StyleHint": "dolorem",
-      "FullName": "Mrs. Jakayla Adams",
+      "Value": "animi",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 676
+          "FieldLength": 109
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "animi",
+      "DisplayValue": "incidunt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 109
         }
       }
     }
   ],
-  "NickName": "Schroeder, Trantow and Wuckert",
+  "UserName": "Howell, Mueller and Quigley",
+  "TicketCategories": [
+    {
+      "Id": 168,
+      "Name": "Gleason Inc and Sons",
+      "ToolTip": "Quidem ipsa distinctio in veritatis cum hic.",
+      "Deleted": false,
+      "Rank": 856,
+      "Type": "unde",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "velit",
+      "ColorBlock": 388,
+      "ExtraInfo": "vero",
+      "StyleHint": "doloribus",
+      "FullName": "Jarrett Buckridge",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 909
+        }
+      }
+    }
+  ],
+  "NickName": "Cartwright-Eichmann",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "aspernatur"
+    "CustomFields1": "non",
+    "CustomFields2": "soluta"
   },
   "PostSaveCommands": [
     {
-      "Name": "Klocko Group",
-      "DisplayName": "Medhurst-Marvin",
-      "Description": "Optimized didactic info-mediaries",
-      "ToolTip": "Ratione velit numquam eum et.",
+      "Name": "Gottlieb Inc and Sons",
+      "DisplayName": "Bashirian Group",
+      "Description": "Re-engineered local emulation",
+      "ToolTip": "Laudantium consequatur est expedita nihil cum facilis.",
       "Actions": "Implicit",
-      "ActionData": "fugiat",
+      "ActionData": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 5
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldType": "System.String",
+      "FieldLength": 969
     }
   }
 }

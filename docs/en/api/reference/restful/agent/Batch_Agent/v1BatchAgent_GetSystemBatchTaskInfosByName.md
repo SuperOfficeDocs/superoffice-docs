@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kutch, Wilderman and Hayes"
+  "TaskName": "Lesch, Keebler and Homenick"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Donnelly-Cormier",
-    "AssociateId": 135,
-    "DetailsTable": 67,
-    "DetailsRecord": 569,
-    "IsSystemTask": true,
+    "Id": 648,
+    "Name": "King, Trantow and Wolf",
+    "AssociateId": 406,
+    "DetailsTable": 496,
+    "DetailsRecord": 977,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "repudiandae",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "in",
+      "ParameterObject2": "harum"
     },
-    "LastStarted": "2013-01-24T12:01:27.3533761+01:00",
-    "Created": "2006-11-13T12:01:27.3533761+01:00",
-    "StartCount": 264,
-    "DatabaseSerialNumber": "1091028",
-    "Context": "aut",
-    "Result": "soluta",
+    "LastStarted": "2017-12-12T14:13:39.3911033+01:00",
+    "Created": "2014-12-11T14:13:39.3911033+01:00",
+    "StartCount": 972,
+    "DatabaseSerialNumber": "289793",
+    "Context": "hic",
+    "Result": "incidunt",
     "State": "All",
-    "Description": "Reduced homogeneous moderator",
-    "Response": "magnam",
-    "Request": "adipisci",
-    "ProgressDescription": "Polarised client-driven contingency",
-    "ProgressPercent": 160,
-    "FileName": "Quitzon Inc and Sons",
+    "Description": "Proactive composite local area network",
+    "Response": "quo",
+    "Request": "commodi",
+    "ProgressDescription": "Secured reciprocal website",
+    "ProgressPercent": 85,
+    "FileName": "Cassin, Frami and Fadel",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

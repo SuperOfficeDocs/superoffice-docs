@@ -763,7 +763,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=createdBy/otherGroups,person/mrMrs,person/personCountry,person/email/emailAddress,person/email/emailHasBounced
+GET /api/v1/archive/Ticket?$select=person/personPager/formattedNumber,contact/LastSale,project/saintIntention
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

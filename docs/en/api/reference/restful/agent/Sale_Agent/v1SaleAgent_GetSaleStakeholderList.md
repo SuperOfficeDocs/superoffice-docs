@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Lindgren, Reichel and Schamberger",
-    "Comment": "a",
-    "StakeholderRoleId": 757,
-    "CountryId": 417,
-    "PersonId": 329,
-    "EmailDescription": "bernice_thiel@greenfelder.com",
-    "EmailId": 901,
-    "EmailAddress": "samara.jewess@jakubowskicassin.biz",
-    "PhoneId": 146,
-    "ContactName": "Reynolds, Corkery and Wilderman",
-    "ContactId": 149,
-    "SaleId": 916,
-    "Mrmrs": "nesciunt",
-    "Firstname": "Horace",
-    "MiddleName": "Cremin, Moen and Baumbach",
-    "Lastname": "Dickens",
-    "SaleStakeholderId": 771,
-    "Rank": 482,
-    "Phone": "276-503-1116 x153",
+    "StakeholderRoleName": "O'Reilly LLC",
+    "Comment": "vel",
+    "StakeholderRoleId": 420,
+    "CountryId": 628,
+    "PersonId": 600,
+    "EmailDescription": "richie@thiel.us",
+    "EmailId": 953,
+    "EmailAddress": "savannah@watsica.ca",
+    "PhoneId": 880,
+    "ContactName": "Treutel, Vandervort and Mosciski",
+    "ContactId": 111,
+    "SaleId": 42,
+    "Mrmrs": "a",
+    "Firstname": "Major",
+    "MiddleName": "Bailey-Cremin",
+    "Lastname": "Schulist",
+    "SaleStakeholderId": 412,
+    "Rank": 942,
+    "Phone": "934.103.6836 x341",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldLength": 381
       }
     }
   }

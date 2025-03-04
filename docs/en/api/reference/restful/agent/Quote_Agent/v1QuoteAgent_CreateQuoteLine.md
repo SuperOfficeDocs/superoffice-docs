@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 550,
-  "ERPProductKey": "quia"
+  "QuoteAlternativeId": 113,
+  "ERPProductKey": "laboriosam"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 654,
-  "ERPQuoteLineKey": "consequatur",
-  "QuoteAlternativeId": 358,
+  "QuoteLineId": 22,
+  "ERPQuoteLineKey": "possimus",
+  "QuoteAlternativeId": 966,
   "ERPProductKey": "inventore",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 12767.916,
-  "DeliveredQuantity": 13469.931999999999,
-  "Rank": 491,
-  "Name": "Schowalter, Keeling and Hauck",
-  "Description": "Adaptive 24 hour definition",
-  "Code": "ullam",
-  "QuantityUnit": "magnam",
-  "PriceUnit": "neque",
-  "ItemNumber": "1153938",
+  "Quantity": 29547.352,
+  "DeliveredQuantity": 20549.638,
+  "Rank": 813,
+  "Name": "Graham LLC",
+  "Description": "Synergized radical firmware",
+  "Code": "qui",
+  "QuantityUnit": "dignissimos",
+  "PriceUnit": "maxime",
+  "ItemNumber": "669412",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "qui",
-  "Supplier": "eos",
-  "SupplierCode": "dicta",
-  "Thumbnail": "deleniti",
-  "VATInfo": "assumenda",
-  "VAT": 28685.502,
-  "UnitCost": 2529.138,
-  "UnitMinimumPrice": 103.422,
-  "UnitListPrice": 28738.78,
+  "ProductFamilyKey": "error",
+  "ProductTypeKey": "autem",
+  "Supplier": "et",
+  "SupplierCode": "nobis",
+  "Thumbnail": "et",
+  "VATInfo": "consectetur",
+  "VAT": 20837.966,
+  "UnitCost": 12040.828,
+  "UnitMinimumPrice": 11583.264,
+  "UnitListPrice": 22257.667999999998,
   "ExtraInfo": [
     {
-      "Name": "Grant-Huel",
-      "Value": "adipisci",
+      "Name": "Stamm-Abernathy",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 385
         }
       }
     },
     {
-      "Name": "Grant-Huel",
-      "Value": "adipisci",
+      "Name": "Stamm-Abernathy",
+      "Value": "suscipit",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 385
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "IsSubscription": true,
-  "SubscriptionUnit": "nihil",
-  "SubscriptionQuantity": 7449.518,
-  "SubscriptionStart": "2011-12-17T12:01:28.2128113+01:00",
-  "ERPDiscountPercent": 13353.974,
-  "ERPDiscountAmount": 4641.454,
-  "DiscountPercent": 23244.878,
-  "DiscountAmount": 14889.634,
+  "RawExtraInfo": "tenetur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 3619.77,
+  "SubscriptionStart": "2016-07-26T14:13:41.1251915+02:00",
+  "ERPDiscountPercent": 20433.68,
+  "ERPDiscountAmount": 13096.985999999999,
+  "DiscountPercent": 8665.51,
+  "DiscountAmount": 20361.597999999998,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21875.32,
-  "EarningAmount": 24761.734,
-  "SubTotal": 1802.05,
-  "TotalPrice": 3137.134,
-  "Rights": "officiis",
-  "Rule": "consectetur",
-  "ExtraField1": "est",
-  "ExtraField2": "illum",
-  "ExtraField3": "deserunt",
-  "ExtraField4": "impedit",
-  "ExtraField5": "tempore",
+  "EarningPercent": 10827.97,
+  "EarningAmount": 15318.992,
+  "SubTotal": 7650.094,
+  "TotalPrice": 1892.936,
+  "Rights": "sit",
+  "Rule": "totam",
+  "ExtraField1": "et",
+  "ExtraField2": "et",
+  "ExtraField3": "error",
+  "ExtraField4": "ipsam",
+  "ExtraField5": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

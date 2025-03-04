@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 102,
-  "Name": "Emard Inc and Sons",
-  "CurrencyId": 997,
-  "EnglishName": "Robel-McCullough",
+  "CountryId": 651,
+  "Name": "Collins Inc and Sons",
+  "CurrencyId": 854,
+  "EnglishName": "Schaden Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "De-engineered heuristic help-desk",
-  "OrgNrText": "926709",
-  "InterAreaPrefix": "expedita",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Halvorson, Bartell and Gusikowski",
-  "AddressLayoutId": 484,
-  "DomesticAddressLayoutId": 414,
-  "ForeignAddressLayoutId": 319,
-  "Rank": 608,
-  "Tooltip": "autem",
+  "ImageDescription": "Stand-alone secondary approach",
+  "OrgNrText": "669076",
+  "InterAreaPrefix": "ratione",
+  "DialInPrefix": "et",
+  "ZipPrefix": "quo",
+  "DomainName": "Little LLC",
+  "AddressLayoutId": 469,
+  "DomesticAddressLayoutId": 870,
+  "ForeignAddressLayoutId": 142,
+  "Rank": 596,
+  "Tooltip": "expedita",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 602,
-  "Name": "Ziemann, Gibson and Conroy",
-  "CurrencyId": 931,
-  "EnglishName": "Maggio-Conroy",
+  "CountryId": 204,
+  "Name": "Keebler, Ratke and Schumm",
+  "CurrencyId": 449,
+  "EnglishName": "Dicki-Schmitt",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergistic cohesive parallelism",
-  "OrgNrText": "1941143",
-  "InterAreaPrefix": "illum",
-  "DialInPrefix": "ex",
-  "ZipPrefix": "veniam",
-  "DomainName": "Runolfsson-Wolff",
-  "AddressLayoutId": 822,
-  "DomesticAddressLayoutId": 344,
-  "ForeignAddressLayoutId": 149,
-  "Rank": 444,
-  "Tooltip": "voluptatem",
-  "Deleted": false,
+  "ImageDescription": "Future-proofed grid-enabled installation",
+  "OrgNrText": "1156152",
+  "InterAreaPrefix": "eos",
+  "DialInPrefix": "asperiores",
+  "ZipPrefix": "delectus",
+  "DomainName": "Miller Inc and Sons",
+  "AddressLayoutId": 6,
+  "DomesticAddressLayoutId": 702,
+  "ForeignAddressLayoutId": 55,
+  "Rank": 252,
+  "Tooltip": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 450
     }
   }
 }

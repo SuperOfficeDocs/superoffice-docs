@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Schroeder, Kertzmann and Grady",
-    "ToolTip": "Ipsum quae.",
+    "Id": 69,
+    "Name": "Ankunding-Rath",
+    "ToolTip": "Repudiandae porro ipsum.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "accusamus",
-    "ColorBlock": 556,
-    "IconHint": "veritatis",
-    "Selected": true,
-    "LastChanged": "2009-05-11T12:01:33.6676138+02:00",
+    "Rank": 283,
+    "Type": "animi",
+    "ColorBlock": 162,
+    "IconHint": "iure",
+    "Selected": false,
+    "LastChanged": "2016-06-02T14:13:50.2752013+02:00",
     "ChildItems": [
       {
-        "Id": 34,
-        "Name": "Lindgren, Lindgren and Lemke",
-        "ToolTip": "Illo assumenda.",
-        "Deleted": true,
-        "Rank": 593,
-        "Type": "nobis",
-        "ColorBlock": 641,
-        "IconHint": "eveniet",
+        "Id": 964,
+        "Name": "Stamm Group",
+        "ToolTip": "Ipsa amet fugit explicabo et consectetur blanditiis.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "voluptatem",
+        "ColorBlock": 733,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2021-08-03T12:01:33.6676138+02:00",
+        "LastChanged": "2015-05-12T14:13:50.2752013+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Anastasia Herzog",
+        "ExtraInfo": "qui",
+        "StyleHint": "minus",
+        "Hidden": false,
+        "FullName": "Carolyne Freda Sporer V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldLength": 147
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Miss Rupert Taurean Koss PhD",
+    "ExtraInfo": "qui",
+    "StyleHint": "praesentium",
+    "Hidden": true,
+    "FullName": "Dr. Ramon Angeline Weber MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 625
       }
     }
   }

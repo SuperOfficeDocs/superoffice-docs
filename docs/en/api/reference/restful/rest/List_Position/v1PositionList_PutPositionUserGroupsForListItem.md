@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 148,
-    "Name": "Kertzmann Group",
-    "ToolTip": "Est accusamus sit eveniet libero cumque.",
-    "Deleted": true,
-    "Rank": 415,
-    "Type": "libero",
-    "ColorBlock": 213,
-    "IconHint": "voluptas",
+    "Id": 933,
+    "Name": "Bechtelar Group",
+    "ToolTip": "Sapiente et deserunt voluptate ipsa.",
+    "Deleted": false,
+    "Rank": 922,
+    "Type": "sit",
+    "ColorBlock": 975,
+    "IconHint": "illo",
     "Selected": true,
-    "LastChanged": "2000-01-25T12:01:33.5582313+01:00",
+    "LastChanged": "2007-03-07T14:13:50.0406714+01:00",
     "ChildItems": [
       {
-        "Id": 331,
-        "Name": "Hyatt-Walker",
-        "ToolTip": "Vel facilis culpa accusamus corporis nisi in nesciunt.",
+        "Id": 999,
+        "Name": "Cassin Group",
+        "ToolTip": "Est quam est qui.",
         "Deleted": false,
-        "Rank": 440,
-        "Type": "adipisci",
-        "ColorBlock": 173,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2001-02-06T12:01:33.5582313+01:00",
+        "Rank": 866,
+        "Type": "quibusdam",
+        "ColorBlock": 458,
+        "IconHint": "doloribus",
+        "Selected": false,
+        "LastChanged": "1998-09-26T14:13:50.0406714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "earum",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Mrs. Janae Brekke DDS"
+        "ExtraInfo": "illum",
+        "StyleHint": "distinctio",
+        "Hidden": false,
+        "FullName": "Prof. Libbie Miller V"
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Mackenzie Zulauf"
+    "ExtraInfo": "dolores",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Miss Domenico Kuphal III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Konopelski, Hamill and Shanahan",
-    "ToolTip": "Aliquam voluptatem qui et.",
+    "Id": 543,
+    "Name": "Gorczany-Hammes",
+    "ToolTip": "Itaque quidem qui cum rerum esse.",
     "Deleted": false,
-    "Rank": 275,
-    "Type": "nulla",
-    "ColorBlock": 570,
-    "IconHint": "laboriosam",
-    "Selected": true,
-    "LastChanged": "1997-11-07T12:01:33.5582313+01:00",
+    "Rank": 14,
+    "Type": "iure",
+    "ColorBlock": 4,
+    "IconHint": "molestiae",
+    "Selected": false,
+    "LastChanged": "2012-03-04T14:13:50.0406714+01:00",
     "ChildItems": [
       {
-        "Id": 445,
-        "Name": "Rempel-Roberts",
-        "ToolTip": "Culpa aliquid perspiciatis nisi.",
+        "Id": 835,
+        "Name": "Mayer-Nikolaus",
+        "ToolTip": "Possimus vitae.",
         "Deleted": false,
-        "Rank": 208,
-        "Type": "iusto",
-        "ColorBlock": 602,
-        "IconHint": "ut",
+        "Rank": 497,
+        "Type": "necessitatibus",
+        "ColorBlock": 661,
+        "IconHint": "fugit",
         "Selected": false,
-        "LastChanged": "2023-05-05T12:01:33.5582313+02:00",
+        "LastChanged": "2008-07-07T14:13:50.0406714+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Juanita Hayes",
+        "ExtraInfo": "ut",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Mrs. Alicia Janiya Maggio DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 475
+            "FieldType": "System.Int32",
+            "FieldLength": 212
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "natus",
+    "StyleHint": "rem",
     "Hidden": false,
-    "FullName": "Selena Hilpert",
+    "FullName": "Elfrieda Wunsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

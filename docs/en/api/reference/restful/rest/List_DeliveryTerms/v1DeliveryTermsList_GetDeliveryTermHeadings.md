@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Abshire LLC",
-    "Tooltip": "saepe",
+    "HeadingId": 868,
+    "Name": "Hickle-Eichmann",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 139,
-    "UdListDefinitionId": 533,
+    "Rank": 142,
+    "UdListDefinitionId": 67,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldType": "System.String",
+        "FieldLength": 950
       }
     }
   }

@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 474,
+  "EmailId": 368,
   "AttachmentIds": [
-    "dicta",
-    "facilis"
+    "odio",
+    "quisquam"
   ],
   "IncludeAttachments": false
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 855,
-      "ContactName": "Blanda, Brown and Barrows",
-      "PersonId": 993,
-      "PersonName": "Hintz-Doyle",
-      "AssociateId": 814,
-      "Address": "qui",
-      "EmailId": 208,
+      "ContactId": 797,
+      "ContactName": "Ledner Group",
+      "PersonId": 174,
+      "PersonName": "Little, Robel and Hyatt",
+      "AssociateId": 278,
+      "Address": "perspiciatis",
+      "EmailId": 319,
       "DuplicatePersonIds": [
-        210,
-        302
+        505,
+        521
       ],
-      "Name": "Schroeder LLC",
+      "Name": "Koch, Leuschke and McGlynn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 670
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 413,
-      "ContactName": "Schulist-Mante",
-      "PersonId": 768,
-      "PersonName": "Strosin LLC",
-      "AssociateId": 203,
-      "Address": "molestiae",
-      "EmailId": 225,
+      "ContactId": 854,
+      "ContactName": "Monahan-Witting",
+      "PersonId": 602,
+      "PersonName": "Rolfson Group",
+      "AssociateId": 346,
+      "Address": "sed",
+      "EmailId": 587,
       "DuplicatePersonIds": [
-        985,
-        896
+        877,
+        730
       ],
-      "Name": "Welch, Ortiz and Fay",
+      "Name": "Leuschke Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 852
+          "FieldType": "System.Int32",
+          "FieldLength": 455
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 602,
-      "ContactName": "Hermiston, Grimes and Mann",
-      "PersonId": 790,
-      "PersonName": "Thompson Inc and Sons",
-      "AssociateId": 42,
-      "Address": "quis",
-      "EmailId": 41,
+      "ContactId": 113,
+      "ContactName": "Thompson-Block",
+      "PersonId": 430,
+      "PersonName": "Kreiger, Emard and Lakin",
+      "AssociateId": 625,
+      "Address": "qui",
+      "EmailId": 747,
       "DuplicatePersonIds": [
-        999,
-        178
+        76,
+        537
       ],
-      "Name": "Ritchie-Bernier",
+      "Name": "Graham, Nienow and Veum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldLength": 255
         }
       }
     }
   ],
-  "Subject": "veniam",
-  "HTMLBody": "omnis",
+  "Subject": "magnam",
+  "HTMLBody": "alias",
   "From": null,
-  "Sent": "1998-01-22T12:01:27.8377848+01:00",
-  "Size": 996,
+  "Sent": "1997-12-08T14:13:40.2816332+01:00",
+  "Size": 723,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "id",
-  "IsSent": false,
+  "MessageID": "distinctio",
+  "PlainBody": "ut",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 290,
+  "ServerId": 271,
   "Attachments": [
     {
-      "Description": "Diverse value-added installation",
-      "Filename": "dignissimos",
-      "Size": 823,
-      "Type": "nulla",
-      "Encoding": "veritatis",
-      "Id": "voluptate",
-      "Disposition": "omnis",
+      "Description": "Ergonomic directional frame",
+      "Filename": "nemo",
+      "Size": 492,
+      "Type": "eum",
+      "Encoding": "neque",
+      "Id": "impedit",
+      "Disposition": "quia",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,58 +225,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 167
+          "FieldLength": 179
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Emard Group",
+      "Name": "Jast Group",
       "Values": [
-        "ad",
-        "expedita"
+        "accusamus",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldLength": 427
         }
       }
     },
     {
-      "Name": "Emard Group",
+      "Name": "Jast Group",
       "Values": [
-        "ad",
-        "expedita"
+        "accusamus",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 954
+          "FieldLength": 427
         }
       }
     }
   ],
-  "FolderName": "Hartmann Group",
-  "EmailItemId": 156,
-  "AccountId": 436,
-  "ReceivedAt": "2021-01-07T12:01:27.8377848+01:00",
+  "FolderName": "Hackett Inc and Sons",
+  "EmailItemId": 757,
+  "AccountId": 285,
+  "ReceivedAt": "2012-04-13T14:13:40.2816332+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-06-17T12:01:27.8377848+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-12-06T14:13:40.2816332+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 556
     }
   }
 }

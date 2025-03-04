@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 152,
-    "Name": "Schroeder Group",
+    "TicketPriorityId": 510,
+    "Name": "Hermiston, Mante and Johns",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 770,
+    "SortOrder": 244,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 978,
-    "MonStart": "2003-10-26T12:01:33.6832402+01:00",
-    "MonStop": "2018-07-26T12:01:33.6832402+02:00",
-    "TueStart": "2004-11-02T12:01:33.6832402+01:00",
-    "TueStop": "2010-11-07T12:01:33.6832402+01:00",
-    "WedStart": "2024-10-13T12:01:33.6832402+02:00",
-    "WedStop": "2016-03-03T12:01:33.6832402+01:00",
-    "ThuStart": "2022-05-07T12:01:33.6832402+02:00",
-    "ThuStop": "2013-02-09T12:01:33.6832402+01:00",
-    "FriStart": "2014-09-20T12:01:33.6832402+02:00",
-    "FriStop": "2011-08-05T12:01:33.6832402+02:00",
-    "SatStart": "2014-06-23T12:01:33.6832402+02:00",
-    "SatStop": "2002-10-01T12:01:33.6832402+02:00",
-    "SunStart": "2021-01-18T12:01:33.6832402+01:00",
-    "SunStop": "2022-03-15T12:01:33.6832402+01:00",
+    "Deadline": 283,
+    "MonStart": "2012-09-23T14:13:50.3064464+02:00",
+    "MonStop": "2022-02-08T14:13:50.3064464+01:00",
+    "TueStart": "2000-06-26T14:13:50.3064464+02:00",
+    "TueStop": "2023-11-14T14:13:50.3064464+01:00",
+    "WedStart": "1998-01-13T14:13:50.3064464+01:00",
+    "WedStop": "2007-08-01T14:13:50.3064464+02:00",
+    "ThuStart": "2018-03-08T14:13:50.3064464+01:00",
+    "ThuStop": "2023-09-12T14:13:50.3064464+02:00",
+    "FriStart": "2010-11-12T14:13:50.3064464+01:00",
+    "FriStop": "2017-12-17T14:13:50.3064464+01:00",
+    "SatStart": "2005-10-30T14:13:50.3064464+01:00",
+    "SatStop": "1999-08-04T14:13:50.3064464+02:00",
+    "SunStart": "2010-10-27T14:13:50.3064464+02:00",
+    "SunStop": "2021-09-17T14:13:50.3064464+02:00",
     "NonDates": [
-      "reiciendis",
-      "maxime"
+      "quia",
+      "est"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 166,
-        "AlertLevel": 705,
-        "AlertTimeout": 711,
-        "Action": 765,
-        "DelegateTo": 448,
-        "ScriptId": 216,
-        "EmailTo": "olga@sanford.uk",
-        "SmsTo": "velit",
-        "ReplyTemplateIdCustomer": 526,
-        "ReplyTemplateIdUser": 14,
-        "ReplyTemplateIdCatmast": 370,
-        "ReplyTemplateIdEmail": 398,
-        "RtiCustomerSms": 108,
-        "ReplyTemplateIdUserSms": 808,
-        "ReplyTemplateIdCatmastSms": 3,
-        "ReplyTemplateIdSms": 401,
+        "TicketAlertId": 414,
+        "AlertLevel": 853,
+        "AlertTimeout": 570,
+        "Action": 298,
+        "DelegateTo": 292,
+        "ScriptId": 324,
+        "EmailTo": "elenor@bashirian.us",
+        "SmsTo": "iusto",
+        "ReplyTemplateIdCustomer": 31,
+        "ReplyTemplateIdUser": 513,
+        "ReplyTemplateIdCatmast": 172,
+        "ReplyTemplateIdEmail": 90,
+        "RtiCustomerSms": 921,
+        "ReplyTemplateIdUserSms": 579,
+        "ReplyTemplateIdCatmastSms": 370,
+        "ReplyTemplateIdSms": 155,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 298
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldType": "System.String",
+        "FieldLength": 742
       }
     }
   }

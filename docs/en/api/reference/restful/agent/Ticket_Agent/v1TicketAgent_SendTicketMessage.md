@@ -70,26 +70,26 @@ No Content
 POST /api/v1/Agents/Ticket/SendTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 647,
+  "TicketMessageEntityId": 750,
   "To": [
-    "sed",
-    "et"
+    "explicabo",
+    "nostrum"
   ],
   "Cc": [
-    "magni",
-    "ea"
+    "rerum",
+    "dicta"
   ],
   "Bcc": [
-    "accusamus",
-    "accusantium"
+    "laborum",
+    "ea"
   ],
-  "Subject": "quaerat",
-  "ReplyTemplateId": 720,
-  "GdprSource": "id"
+  "Subject": "ad",
+  "ReplyTemplateId": 552,
+  "GdprSource": "unde"
 }
 ```
 

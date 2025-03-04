@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Schaden Inc and Sons",
-    "ToolTip": "Quia omnis exercitationem aut provident eius.",
+    "Id": 701,
+    "Name": "Hoppe, Hilll and Casper",
+    "ToolTip": "Autem dolor est consectetur.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "quibusdam",
-    "ColorBlock": 832,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2011-05-03T12:01:28.5878372+02:00",
+    "Rank": 192,
+    "Type": "qui",
+    "ColorBlock": 348,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2000-12-08T14:13:41.6727478+01:00",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Thiel, O'Reilly and Schaden",
-        "ToolTip": "Quisquam rerum quo.",
+        "Id": 569,
+        "Name": "Ritchie, Gleichner and McClure",
+        "ToolTip": "Ut est deserunt quibusdam facere ipsam expedita in.",
         "Deleted": false,
-        "Rank": 487,
-        "Type": "facere",
-        "ColorBlock": 975,
-        "IconHint": "unde",
+        "Rank": 308,
+        "Type": "autem",
+        "ColorBlock": 621,
+        "IconHint": "culpa",
         "Selected": false,
-        "LastChanged": "2001-08-12T12:01:28.6034631+02:00",
+        "LastChanged": "2024-04-09T14:13:41.6727478+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Vaughn Bednar",
+        "ExtraInfo": "commodi",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Miss Maya Caesar Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldType": "System.String",
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sunt",
-    "Hidden": true,
-    "FullName": "Alexander Wisoky",
+    "ExtraInfo": "quod",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Jamar Alessia Gulgowski Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 765
+        "FieldLength": 20
       }
     }
   }

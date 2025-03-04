@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 161,
-    "FieldName": "Ebert-Huel",
-    "Label": "et",
-    "Tooltip": "sint",
+    "QuoteLineConfigurationId": 832,
+    "FieldName": "Ziemann, Murphy and Mante",
+    "Label": "voluptas",
+    "Tooltip": "possimus",
     "Editable": false,
     "InUse": false,
-    "Mandatory": true,
-    "Rank": 655,
-    "RestrictEdit": false,
+    "Mandatory": false,
+    "Rank": 20,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 602
       }
     }
   }

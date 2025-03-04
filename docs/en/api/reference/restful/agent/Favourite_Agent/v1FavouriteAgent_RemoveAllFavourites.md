@@ -69,8 +69,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Howell-Boehm",
-  "AssociateId": 695
+  "TableName": "Kuhn-Walker",
+  "AssociateId": 309
 }
 ```
 

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Connelly Group",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "UdListDefinitionId": 159,
-    "Rank": 565
+    "Id": 923,
+    "Name": "Skiles, Gorczany and Jacobson",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "UdListDefinitionId": 473,
+    "Rank": 467
   },
   {
-    "Id": 204,
-    "Name": "Connelly Group",
-    "Tooltip": "perspiciatis",
-    "Deleted": true,
-    "UdListDefinitionId": 159,
-    "Rank": 565
+    "Id": 923,
+    "Name": "Skiles, Gorczany and Jacobson",
+    "Tooltip": "officiis",
+    "Deleted": false,
+    "UdListDefinitionId": 473,
+    "Rank": 467
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Shields-Harris",
-    "Tooltip": "vitae",
-    "Deleted": true,
-    "UdListDefinitionId": 314,
-    "Rank": 5,
+    "Id": 431,
+    "Name": "Ondricka-Rodriguez",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "UdListDefinitionId": 408,
+    "Rank": 861,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldType": "System.Int32",
+        "FieldLength": 304
       }
     }
   }

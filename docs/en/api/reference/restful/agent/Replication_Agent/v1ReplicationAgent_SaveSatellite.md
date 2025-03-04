@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 694,
-  "Created": "2002-11-12T12:01:28.2128113+01:00",
+  "SatelliteId": 144,
+  "Created": "2017-09-21T14:13:41.1408128+02:00",
   "CreatedBy": null,
-  "Updated": "2010-04-23T12:01:28.2128113+02:00",
+  "Updated": "2016-06-10T14:13:41.1408128+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Mayert-Cummings",
-      "Description": "Phased 24/7 function",
+      "Name": "Kris Group",
+      "Description": "Face to face upward-trending function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Mayert-Cummings",
-      "Description": "Phased 24/7 function",
+      "Name": "Kris Group",
+      "Description": "Face to face upward-trending function",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 965,
-  "Created": "2022-08-18T12:01:28.2128113+02:00",
+  "SatelliteId": 394,
+  "Created": "2018-10-13T14:13:41.1564348+02:00",
   "CreatedBy": null,
-  "Updated": "2000-07-22T12:01:28.2128113+02:00",
+  "Updated": "2021-06-01T14:13:41.1564348+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cassin, Conn and Smith",
-      "Description": "Progressive empowering ability",
+      "Name": "Schuster Group",
+      "Description": "User-centric responsive productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 994
         }
       }
     },
     {
-      "Name": "Cassin, Conn and Smith",
-      "Description": "Progressive empowering ability",
+      "Name": "Schuster Group",
+      "Description": "User-centric responsive productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 994
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

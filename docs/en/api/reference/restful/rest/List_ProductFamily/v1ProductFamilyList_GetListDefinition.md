@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 400,
-  "Name": "Walsh, Koss and Frami",
-  "Tooltip": "quia",
+  "Id": 788,
+  "Name": "Bashirian-Heidenreich",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 62,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 757,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fuga",
+  "ListType": "optio",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 75
     }
   },
   "_Links": {

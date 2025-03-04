@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 752,
-    "Name": "Braun Group",
-    "ToolTip": "Est est aut minima.",
-    "Deleted": true,
-    "Rank": 612,
-    "Type": "quis",
-    "ColorBlock": 537,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "1998-05-12T12:01:33.6519877+02:00",
+    "Id": 72,
+    "Name": "Orn, Reilly and Abernathy",
+    "ToolTip": "Ut porro iusto dolorem.",
+    "Deleted": false,
+    "Rank": 660,
+    "Type": "culpa",
+    "ColorBlock": 99,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2000-07-17T14:13:50.2439578+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Cruickshank-Bailey",
-        "ToolTip": "Possimus quo provident voluptas ex quibusdam sapiente.",
+        "Id": 713,
+        "Name": "Huel, Powlowski and Feeney",
+        "ToolTip": "Laborum porro molestiae.",
         "Deleted": false,
-        "Rank": 277,
-        "Type": "qui",
-        "ColorBlock": 73,
-        "IconHint": "nulla",
+        "Rank": 710,
+        "Type": "alias",
+        "ColorBlock": 9,
+        "IconHint": "nobis",
         "Selected": true,
-        "LastChanged": "2014-04-20T12:01:33.6519877+02:00",
+        "LastChanged": "2017-12-17T14:13:50.2439578+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "ipsa",
-        "Hidden": true,
-        "FullName": "Jess Stehr"
+        "ExtraInfo": "sint",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Prof. Nelle Tillman"
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Dr. Orlo Shanna Wolf"
+    "ExtraInfo": "ipsum",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Ebba Karen Mohr Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Name": "Casper-Wunsch",
-    "ToolTip": "Et nostrum veritatis eos nulla corporis dolor unde.",
+    "Id": 538,
+    "Name": "Funk-Franecki",
+    "ToolTip": "Earum iure.",
     "Deleted": false,
-    "Rank": 620,
-    "Type": "dolor",
-    "ColorBlock": 326,
-    "IconHint": "est",
+    "Rank": 570,
+    "Type": "tempore",
+    "ColorBlock": 89,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2013-04-23T12:01:33.6519877+02:00",
+    "LastChanged": "2003-05-06T14:13:50.2439578+02:00",
     "ChildItems": [
       {
-        "Id": 988,
-        "Name": "Hudson-Legros",
-        "ToolTip": "Commodi eius.",
+        "Id": 234,
+        "Name": "Marquardt Group",
+        "ToolTip": "Dicta vero qui veniam.",
         "Deleted": true,
-        "Rank": 225,
-        "Type": "incidunt",
-        "ColorBlock": 294,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2018-08-06T12:01:33.6519877+02:00",
+        "Rank": 717,
+        "Type": "ut",
+        "ColorBlock": 835,
+        "IconHint": "vero",
+        "Selected": false,
+        "LastChanged": "2004-07-29T14:13:50.2439578+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "cumque",
-        "Hidden": true,
-        "FullName": "Theron Schmitt",
+        "ExtraInfo": "molestias",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Brendon Collier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldType": "System.String",
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "modi",
-    "Hidden": true,
-    "FullName": "Hoyt Johns",
+    "ExtraInfo": "cumque",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Sheldon Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 739
       }
     }
   }

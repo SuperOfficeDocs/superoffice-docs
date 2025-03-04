@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Crooks LLC",
+  "Name": "Walter, Franecki and Harber",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 417,
-  "Name": "Daniel, Kub and Luettgen",
-  "Tooltip": "vero",
+  "Id": 601,
+  "Name": "Crona-Ferry",
+  "Tooltip": "magni",
   "Deleted": false,
-  "Rank": 267,
+  "Rank": 254,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
-  "InUseByUserDefinedFields": true,
+  "ListType": "modi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 528
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 749,
+  "EjMessageId": 270,
   "Ticket": null,
-  "CreatedAt": "2023-04-01T12:01:28.3534468+02:00",
+  "CreatedAt": "2018-09-22T14:13:41.422697+02:00",
   "CreatedBy": null,
-  "Author": "autem",
+  "Author": "laudantium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "odio",
-  "TimeSpent": 653,
-  "Body": "voluptatem",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "annie_price@farrellgulgowski.biz",
-  "DebugInfo": "necessitatibus",
-  "MailSorter": "eos",
+  "MessageId": "ut",
+  "TimeSpent": 512,
+  "Body": "doloremque",
+  "HtmlBody": "amet",
+  "EmailHeader": "myrtis_hessel@stoltenberg.us",
+  "DebugInfo": "veniam",
+  "MailSorter": "distinctio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "in",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 54,
-      "Name": "Gibson-Braun",
-      "Value": "nulla",
+      "Id": 67,
+      "Name": "Schaden Group",
+      "Value": "ad",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldLength": 36
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "explicabo",
-  "Sentiment": 788,
-  "SentimentConfidence": 63,
+  "Important": false,
+  "Language": "porro",
+  "Sentiment": 123,
+  "SentimentConfidence": 875,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 490,
-      "Name": "King, Crist and Bogisich",
-      "ContentType": "eius",
-      "AttSize": 794,
+      "AttachmentId": 349,
+      "Name": "Prohaska-VonRueden",
+      "ContentType": "nobis",
+      "AttSize": 719,
       "InlineImage": false,
-      "ContentId": "nam",
-      "AuthKey": "delectus",
+      "ContentId": "dolore",
+      "AuthKey": "facilis",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 185
+          "FieldType": "System.Int32",
+          "FieldLength": 208
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
+    "ExtraFields1": "et",
     "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "et"
+    "CustomFields1": "provident",
+    "CustomFields2": "qui"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

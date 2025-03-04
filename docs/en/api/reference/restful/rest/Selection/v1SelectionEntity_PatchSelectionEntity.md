@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented global utilisation",
-  "Postit": "blanditiis",
+  "Description": "Synergistic mission-critical protocol",
+  "Postit": "similique",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 310,
-  "IncludePerson": 680,
+  "GroupIdx": 802,
+  "IncludePerson": 143,
   "MemberCount": 99.99,
-  "Name": "Connelly, O'Hara and Greenfelder",
-  "PostitTextId": 792,
-  "CreatedDate": "2007-04-23T12:01:33.1988321+02:00",
-  "SelectionId": 870,
-  "SoundEx": "dolor",
-  "Source": 940,
-  "TextId": 934,
-  "UpdatedDate": "2005-06-23T12:01:33.1988321+02:00",
-  "UpdatedCount": 200,
-  "Visibility": 417,
+  "Name": "Rogahn, Runolfsdottir and Simonis",
+  "PostitTextId": 973,
+  "CreatedDate": "2022-08-14T14:13:49.2587235+02:00",
+  "SelectionId": 23,
+  "SoundEx": "at",
+  "Source": 102,
+  "TextId": 263,
+  "UpdatedDate": "2013-10-24T14:13:49.2587235+02:00",
+  "UpdatedCount": 440,
+  "Visibility": 971,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 476,
-  "TargetTableName": "Jones Inc and Sons",
-  "Completed": true,
-  "LeftSelectionId": 351,
-  "RightSelectionId": 140,
+  "CompanyUnique": true,
+  "TargetTableNumber": 776,
+  "TargetTableName": "Durgan Group",
+  "Completed": false,
+  "LeftSelectionId": 542,
+  "RightSelectionId": 872,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Carter-Jewess",
-  "ShadowProviderName": "Ritchie, Schuppe and Feest",
-  "ChartKey": "odio",
-  "LastLoaded": "2021-06-25T12:01:33.1988321+02:00",
-  "LastLoadedBy": 222,
+  "MainProviderName": "Roberts Inc and Sons",
+  "ShadowProviderName": "Bergstrom-Botsford",
+  "ChartKey": "itaque",
+  "LastLoaded": "2023-03-06T14:13:49.2587235+01:00",
+  "LastLoadedBy": 329,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-02-02T12:01:33.2144574+01:00",
-  "LastMembershipChangeBy": 333,
+  "LastMembershipChange": "2018-01-17T14:13:49.2587235+01:00",
+  "LastMembershipChangeBy": 857,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Jacobi-Beier",
-  "DashboardTileDefinitionId": 967,
+  "MainHeading": "ut",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Deckow Inc and Sons",
+  "DashboardTileDefinitionId": 335,
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 936,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 936,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 779
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 483
     }
   },
   "_Links": {

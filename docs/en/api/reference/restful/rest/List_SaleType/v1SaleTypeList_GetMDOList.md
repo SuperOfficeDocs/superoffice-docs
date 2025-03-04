@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=dolor
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=deserunt
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 676,
-    "Name": "Doyle Inc and Sons",
-    "ToolTip": "Eveniet dolor eaque temporibus delectus repellendus aperiam.",
-    "Deleted": true,
-    "Rank": 575,
-    "Type": "culpa",
+    "Id": 541,
+    "Name": "Senger-Emard",
+    "ToolTip": "Sed qui cumque dolor impedit dolore nostrum dolore.",
+    "Deleted": false,
+    "Rank": 134,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Bogan-Carroll",
-        "ToolTip": "Architecto quo non et quia reprehenderit.",
+        "Id": 204,
+        "Name": "Roob, Parker and Goodwin",
+        "ToolTip": "Beatae dolor autem.",
         "Deleted": false,
-        "Rank": 954,
-        "Type": "eligendi",
+        "Rank": 37,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 414,
-        "ExtraInfo": "dolor",
-        "StyleHint": "laborum",
-        "FullName": "Charlotte Bayer",
+        "IconHint": "dolorem",
+        "ColorBlock": 197,
+        "ExtraInfo": "assumenda",
+        "StyleHint": "nobis",
+        "FullName": "Myrtie Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 52
+            "FieldType": "System.Int32",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 218,
+    "IconHint": "fuga",
+    "ColorBlock": 450,
     "ExtraInfo": "culpa",
-    "StyleHint": "dolorem",
-    "FullName": "Prof. Domenico Brian Ebert",
+    "StyleHint": "qui",
+    "FullName": "Dustin Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 904
+        "FieldType": "System.Int32",
+        "FieldLength": 346
       }
     }
   }

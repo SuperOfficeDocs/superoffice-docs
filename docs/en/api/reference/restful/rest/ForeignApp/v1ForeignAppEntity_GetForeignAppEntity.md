@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 03 Oct 2018 12:01:32 G10T
+Last-Modified: Fri, 25 Jun 1999 14:13:48 G6T
 
 {
-  "ForeignAppId": 933,
-  "Name": "Frami, O'Kon and Ryan",
-  "CreatedDate": "2009-06-23T12:01:32.9175621+02:00",
-  "UpdatedDate": "2018-10-03T12:01:32.9175621+02:00",
+  "ForeignAppId": 435,
+  "Name": "Gleichner, Hagenes and Bosco",
+  "CreatedDate": "2000-10-22T14:13:48.8836985+02:00",
+  "UpdatedDate": "1999-06-25T14:13:48.8836985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 588,
-      "Name": "Auer-Lynch",
-      "CreatedDate": "2025-01-22T12:01:32.9175621+01:00",
-      "UpdatedDate": "2002-06-18T12:01:32.9175621+02:00",
-      "AssociateFullName": "Noble Ondricka",
-      "CreatedBy": "quia",
-      "UpdatedBy": "libero",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 32,
+      "ForeignDeviceId": 837,
+      "Name": "Bergnaum-Hyatt",
+      "CreatedDate": "2019-11-02T14:13:48.8836985+01:00",
+      "UpdatedDate": "1998-09-16T14:13:48.8836985+02:00",
+      "AssociateFullName": "Bernadine Hessel",
+      "CreatedBy": "corporis",
+      "UpdatedBy": "architecto",
+      "DeviceIdentifier": "voluptatem",
+      "ForeignAppId": 55,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 992
+          "FieldLength": 640
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Wed, 03 Oct 2018 12:01:32 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 4
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

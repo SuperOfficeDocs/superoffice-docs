@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "recusandae",
-  "PrefKey": "perspiciatis",
+  "PrefSection": "et",
+  "PrefKey": "hic",
   "PrefLevel": "Database",
-  "OwnerId": 506
+  "OwnerId": 213
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "accusamus",
   "Specification": null,
-  "DisplayValue": "dignissimos",
-  "DisplayTooltip": "minus",
+  "DisplayValue": "minima",
+  "DisplayTooltip": "eos",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 514,
-  "PrefDescId": 291,
-  "TableName": "Lemke-O'Conner",
-  "UserPreferenceId": 466,
+  "TargetId": 431,
+  "PrefDescId": 548,
+  "TableName": "Ondricka Group",
+  "UserPreferenceId": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 423
+      "FieldType": "System.Int32",
+      "FieldLength": 71
     }
   }
 }

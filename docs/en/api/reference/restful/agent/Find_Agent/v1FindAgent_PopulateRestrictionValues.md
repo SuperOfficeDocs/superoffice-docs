@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hamill, Paucek and Franecki",
-      "Operator": "eaque",
+      "Name": "Romaguera-Sporer",
+      "Operator": "id",
       "Values": [
-        "eveniet",
-        "quia"
+        "sint",
+        "corrupti"
       ],
       "DisplayValues": [
-        "quia",
-        "veritatis"
+        "reiciendis",
+        "dignissimos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 465,
+      "InterParenthesis": 651,
       "InterOperator": "And",
-      "UniqueHash": 802
+      "UniqueHash": 478
     }
   ]
 }
@@ -120,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Keebler-Koelpin",
-    "Operator": "esse",
+    "Name": "Gottlieb, Powlowski and Mills",
+    "Operator": "voluptas",
     "Values": [
-      "vel",
-      "omnis"
+      "provident",
+      "illum"
     ],
     "DisplayValues": [
-      "magni",
-      "provident"
+      "inventore",
+      "at"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "O'Reilly LLC",
-        "Operator": "in",
+        "Name": "Sipes-Boyer",
+        "Operator": "reprehenderit",
         "Values": [
-          "non",
-          "veritatis"
+          "ut",
+          "fugiat"
         ],
         "DisplayValues": [
-          "soluta",
-          "sit"
+          "sapiente",
+          "fugiat"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 8,
+        "InterParenthesis": 814,
         "InterOperator": "And",
-        "UniqueHash": 687
+        "UniqueHash": 460
       }
     ],
-    "InterParenthesis": 933,
+    "InterParenthesis": 552,
     "InterOperator": "And",
-    "UniqueHash": 750
+    "UniqueHash": 696
   }
 ]
 ```

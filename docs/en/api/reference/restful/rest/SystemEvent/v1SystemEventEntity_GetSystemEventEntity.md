@@ -92,22 +92,22 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 134,
+  "SystemEventId": 535,
   "Scope": "Database",
-  "Eta": "2019-05-15T12:01:33.2144574+02:00",
-  "Eventkey": "accusantium",
-  "Eventmess": "a",
-  "ExtraInfo": 10,
-  "Owner": 861,
-  "UpdatedCount": 974,
-  "Registered": "2024-08-14T12:01:33.2144574+02:00",
+  "Eta": "2020-08-02T14:13:49.2743418+02:00",
+  "Eventkey": "quisquam",
+  "Eventmess": "accusantium",
+  "ExtraInfo": 381,
+  "Owner": 817,
+  "UpdatedCount": 284,
+  "Registered": "2006-01-30T14:13:49.2743418+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldType": "System.String",
+      "FieldLength": 139
     }
   },
   "_Links": {

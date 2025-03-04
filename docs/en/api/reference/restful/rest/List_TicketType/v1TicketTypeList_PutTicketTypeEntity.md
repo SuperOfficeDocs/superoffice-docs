@@ -106,38 +106,38 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 665,
-  "Name": "Schamberger Group",
-  "Rank": 590,
-  "Tooltip": "odit",
-  "Icon": "excepturi",
-  "DefaultTicketStatus": 499,
+  "TicketTypeId": 698,
+  "Name": "Treutel, Ondricka and Huels",
+  "Rank": 986,
+  "Tooltip": "tempora",
+  "Icon": "tempore",
+  "DefaultTicketStatus": 433,
   "TicketStatuses": [
-    379,
-    445
+    756,
+    806
   ],
-  "DefaultTicketPriority": 546,
+  "DefaultTicketPriority": 33,
   "TicketPriorities": [
-    730,
-    864
+    366,
+    492
   ],
-  "ReplyTemplate": 28,
+  "ReplyTemplate": 489,
   "IsExternalVisible": true,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    166,
-    564
+    297,
+    645
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -148,40 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 755,
-  "Name": "Thompson-Botsford",
-  "Rank": 378,
-  "Tooltip": "facere",
-  "Icon": "optio",
-  "DefaultTicketStatus": 783,
+  "TicketTypeId": 588,
+  "Name": "Klocko Inc and Sons",
+  "Rank": 790,
+  "Tooltip": "rerum",
+  "Icon": "id",
+  "DefaultTicketStatus": 817,
   "TicketStatuses": [
-    137,
-    960
+    945,
+    905
   ],
-  "DefaultTicketPriority": 393,
+  "DefaultTicketPriority": 871,
   "TicketPriorities": [
-    395,
-    5
+    362,
+    419
   ],
-  "ReplyTemplate": 184,
+  "ReplyTemplate": 651,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    894,
-    404
+    633,
+    811
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

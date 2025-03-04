@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lueilwitz-Stanton",
+  "TableName": "Ortiz-Wisozk",
   "Columns": [
-    "velit",
-    "eveniet"
+    "veniam",
+    "numquam"
   ],
   "Keys": [
-    "odit",
-    "enim"
+    "temporibus",
+    "asperiores"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "nihil",
-  "Inserts": 329,
-  "Updates": 279,
-  "Deletes": 350,
+  "Message": "adipisci",
+  "Inserts": 723,
+  "Updates": 73,
+  "Deletes": 733,
   "RowStatus": [
     {
-      "PrimaryKey": 112,
+      "PrimaryKey": 348,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptatem",
-        "quasi"
+        "provident",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 628
         }
       }
     },
     {
-      "PrimaryKey": 112,
+      "PrimaryKey": 348,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "voluptatem",
-        "quasi"
+        "provident",
+        "consequatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 628
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 953
     }
   }
 }

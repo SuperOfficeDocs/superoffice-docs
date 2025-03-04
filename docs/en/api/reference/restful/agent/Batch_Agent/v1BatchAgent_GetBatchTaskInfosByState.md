@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Renner LLC",
-    "AssociateId": 475,
-    "DetailsTable": 522,
-    "DetailsRecord": 652,
-    "IsSystemTask": true,
+    "Id": 188,
+    "Name": "Ankunding, Sanford and Thompson",
+    "AssociateId": 451,
+    "DetailsTable": 289,
+    "DetailsRecord": 928,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "in",
-      "ParameterObject2": "modi"
+      "ParameterObject1": "quia",
+      "ParameterObject2": "temporibus"
     },
-    "LastStarted": "2020-07-27T12:01:27.3533761+02:00",
-    "Created": "2023-11-24T12:01:27.3533761+01:00",
-    "StartCount": 377,
-    "DatabaseSerialNumber": "1757439",
-    "Context": "magni",
-    "Result": "nesciunt",
+    "LastStarted": "2018-06-23T14:13:39.3911033+02:00",
+    "Created": "1999-08-10T14:13:39.3911033+02:00",
+    "StartCount": 495,
+    "DatabaseSerialNumber": "793730",
+    "Context": "quod",
+    "Result": "reiciendis",
     "State": "All",
-    "Description": "Secured discrete circuit",
-    "Response": "officia",
-    "Request": "ea",
-    "ProgressDescription": "Devolved dedicated collaboration",
-    "ProgressPercent": 14,
-    "FileName": "Smith Group",
+    "Description": "Multi-lateral interactive emulation",
+    "Response": "velit",
+    "Request": "occaecati",
+    "ProgressDescription": "Profit-focused dedicated framework",
+    "ProgressPercent": 448,
+    "FileName": "Smitham, Paucek and Kohler",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 907
       }
     }
   }

@@ -138,8 +138,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 641,
-  "AssociateId": 8
+  "AppointmentId": 321,
+  "AssociateId": 507
 }
 ```
 
@@ -154,120 +154,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-01-26T12:01:27.197115+01:00",
-  "AppointmentId": 978,
-  "Description": "Organized bifurcated open system",
-  "Title": "voluptate",
-  "Agenda": "et",
-  "InternalNotes": "iusto",
-  "StartDate": "2010-07-03T12:01:27.197115+02:00",
-  "EndDate": "2012-02-06T12:01:27.197115+01:00",
+  "CreatedDate": "2014-11-10T14:13:39.1099175+01:00",
+  "AppointmentId": 793,
+  "Description": "Universal mission-critical infrastructure",
+  "Title": "et",
+  "Agenda": "atque",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2000-05-25T14:13:39.1099175+02:00",
+  "EndDate": "2017-02-27T14:13:39.1099175+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 520,
+  "MotherId": 445,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-05-17T12:01:27.197115+02:00",
+  "UpdatedDate": "2003-07-13T14:13:39.1099175+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 982,
+  "ActiveLinks": 186,
   "Links": [
     {
-      "EntityName": "Schultz-Steuber",
-      "Id": 132,
-      "Description": "Synergistic 24 hour matrix",
-      "ExtraInfo": "velit",
-      "LinkId": 120,
+      "EntityName": "Dickens, Lueilwitz and Sipes",
+      "Id": 249,
+      "Description": "Managed tangible ability",
+      "ExtraInfo": "voluptatibus",
+      "LinkId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 950
         }
       }
     }
   ],
-  "AlarmLeadTime": "quas",
+  "AlarmLeadTime": "adipisci",
   "HasAlarm": true,
-  "ColorIndex": 772,
-  "IsFree": true,
+  "ColorIndex": 658,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "corporis",
-  "LeadTime": "officiis",
-  "Location": "incidunt",
-  "RejectCounter": 407,
+  "LagTime": "adipisci",
+  "LeadTime": "alias",
+  "Location": "et",
+  "RejectCounter": 339,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 401,
-      "PersonId": 665,
-      "ContactId": 134,
-      "EmailId": 74,
-      "SendEmail": false,
+      "AssociateId": 251,
+      "PersonId": 484,
+      "ContactId": 88,
+      "EmailId": 273,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "wallace@kris.co.uk",
-      "Description": "Centralized discrete challenge"
+      "EmailAddress": "stephania_hilll@labadiezboncak.co.uk",
+      "Description": "Cross-group contextually-based access"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-05-05T12:01:27.197115+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2001-09-03T14:13:39.1255388+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 688,
+  "PreferredTZLocation": 106,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 407,
+  "SuggestedAppointmentId": 517,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "rerum",
+  "CentralserviceVideomeetId": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Marisol Deckow",
-    "SuperOffice:2": "Mathew Labadie"
+    "SuperOffice:1": "Miss Erwin Grant",
+    "SuperOffice:2": "Quentin Buckridge III"
   },
   "ExtraFields": {
-    "ExtraFields1": "praesentium",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "maxime",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "quo",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "1997-12-24T12:01:27.197115+01:00",
-  "PublishTo": "2021-03-11T12:01:27.197115+01:00",
-  "PublishFrom": "2023-08-04T12:01:27.197115+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-05-24T14:13:39.1255388+02:00",
+  "PublishTo": "2018-12-25T14:13:39.1255388+01:00",
+  "PublishFrom": "2020-07-16T14:13:39.1255388+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 181,
+      "VisibleId": 905,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 834
         }
       }
     },
     {
-      "VisibleId": 181,
+      "VisibleId": 905,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "odio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 834
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

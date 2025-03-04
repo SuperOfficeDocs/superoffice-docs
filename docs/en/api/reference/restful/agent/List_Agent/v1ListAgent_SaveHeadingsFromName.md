@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rutherford-King",
+  "Name": "Leannon LLC",
   "Entities": [
     {
-      "HeadingId": 660,
-      "Name": "Goyette, Jacobi and Labadie",
-      "Tooltip": "voluptatem",
-      "Deleted": true,
-      "Rank": 82,
-      "UdListDefinitionId": 288
+      "HeadingId": 95,
+      "Name": "Stehr-Schuppe",
+      "Tooltip": "perspiciatis",
+      "Deleted": false,
+      "Rank": 799,
+      "UdListDefinitionId": 325
     },
     {
-      "HeadingId": 660,
-      "Name": "Goyette, Jacobi and Labadie",
-      "Tooltip": "voluptatem",
-      "Deleted": true,
-      "Rank": 82,
-      "UdListDefinitionId": 288
+      "HeadingId": 95,
+      "Name": "Stehr-Schuppe",
+      "Tooltip": "perspiciatis",
+      "Deleted": false,
+      "Rank": 799,
+      "UdListDefinitionId": 325
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 810,
-    "Name": "Orn, Eichmann and Bailey",
-    "Tooltip": "ullam",
-    "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 830,
+    "HeadingId": 865,
+    "Name": "Von, Feeney and Reinger",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "Rank": 582,
+    "UdListDefinitionId": 194,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

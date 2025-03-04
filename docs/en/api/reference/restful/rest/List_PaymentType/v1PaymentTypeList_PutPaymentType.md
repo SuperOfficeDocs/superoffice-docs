@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Boehm Inc and Sons",
-  "Tooltip": "earum",
-  "Deleted": true,
-  "UdListDefinitionId": 300,
-  "Rank": 731
+  "Id": 850,
+  "Name": "Heidenreich Inc and Sons",
+  "Tooltip": "ipsa",
+  "Deleted": false,
+  "UdListDefinitionId": 716,
+  "Rank": 37
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 755,
-  "Name": "Johns-Connelly",
-  "Tooltip": "unde",
+  "Id": 34,
+  "Name": "Wilkinson, Larkin and Gaylord",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 803,
-  "Rank": 686,
+  "UdListDefinitionId": 352,
+  "Rank": 405,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 214
+      "FieldLength": 659
     }
   }
 }

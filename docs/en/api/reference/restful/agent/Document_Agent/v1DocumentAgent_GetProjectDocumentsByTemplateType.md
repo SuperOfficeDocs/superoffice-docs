@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 51,
-  "StartTime": "2009-01-19T12:01:27.5877684+01:00",
-  "EndTime": "2014-01-03T12:01:27.5877684+01:00",
-  "Count": 632,
-  "DocumentTemplateId": 39
+  "ProjectId": 405,
+  "StartTime": "2010-06-20T14:13:40.0160685+02:00",
+  "EndTime": "2023-03-04T14:13:40.0160685+01:00",
+  "Count": 608,
+  "DocumentTemplateId": 256
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 964,
-    "Attention": "voluptas",
-    "Header": "quo",
-    "Name": "Goldner-Mosciski",
-    "OurRef": "voluptas",
-    "YourRef": "sit",
-    "Description": "Team-oriented radical analyzer",
-    "DocumentTemplate": "labore",
-    "IsPublished": true,
-    "PersonId": 56,
-    "PersonFullName": "Miss Hulda Kirlin",
-    "AssociateFullName": "Mr. Hayden Dibbert",
-    "ContactId": 772,
-    "ContactName": "Effertz, Eichmann and Haley",
-    "ProjectId": 607,
-    "ProjectName": "Russel Group",
-    "AssociateId": 88,
-    "Snum": 929,
-    "SaleId": 526,
-    "SaleName": "Rohan, Kreiger and Kuhn",
+    "DocumentId": 426,
+    "Attention": "temporibus",
+    "Header": "incidunt",
+    "Name": "Cormier-Schmidt",
+    "OurRef": "sit",
+    "YourRef": "non",
+    "Description": "Diverse grid-enabled algorithm",
+    "DocumentTemplate": "assumenda",
+    "IsPublished": false,
+    "PersonId": 279,
+    "PersonFullName": "Berniece Haag",
+    "AssociateFullName": "Miracle Kerluke",
+    "ContactId": 839,
+    "ContactName": "Buckridge-Murazik",
+    "ProjectId": 714,
+    "ProjectName": "Carter LLC",
+    "AssociateId": 149,
+    "Snum": 979,
+    "SaleId": 516,
+    "SaleName": "Deckow Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 363
+        "FieldLength": 67
       }
     }
   }

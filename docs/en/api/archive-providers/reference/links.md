@@ -1479,7 +1479,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/Links?$select=contact/streetAddress/wgs84latitude,person/personSource,person/correspondingAssociate/personId,project/nextMilestone,saleStakeholder/saleId
+GET /api/v1/archive/Links?$select=personId,contact/contactAssociate/assocType,person/supportAssociateFullName,person/restrictionAddress/line2,person/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

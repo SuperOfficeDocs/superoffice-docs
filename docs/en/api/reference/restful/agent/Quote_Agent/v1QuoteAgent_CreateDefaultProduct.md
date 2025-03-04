@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 462,
-  "ERPProductKey": "ea",
-  "ERPPriceListKey": "ratione",
-  "Name": "Wisozk LLC",
-  "Description": "Mandatory radical benchmark",
-  "Code": "ut",
-  "PriceUnit": "commodi",
-  "QuantityUnit": "et",
+  "ProductId": 128,
+  "ERPProductKey": "rem",
+  "ERPPriceListKey": "sequi",
+  "Name": "Effertz-Kuvalis",
+  "Description": "Persevering stable forecast",
+  "Code": "modi",
+  "PriceUnit": "quam",
+  "QuantityUnit": "est",
   "IsSubscription": false,
-  "SubscriptionUnit": "ea",
-  "DefaultSubscriptionQuantity": 19916.57,
-  "ItemNumber": "438352",
+  "SubscriptionUnit": "quos",
+  "DefaultSubscriptionQuantity": 18634.764,
+  "ItemNumber": "1813423",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "repellat",
-  "VAT": 24793.074,
-  "VATInfo": "sit",
-  "UnitCost": 11874.725999999999,
-  "UnitMinimumPrice": 9182.619999999999,
-  "UnitListPrice": 25780.284,
+  "ProductFamilyKey": "autem",
+  "ProductTypeKey": "soluta",
+  "VAT": 9417.67,
+  "VATInfo": "recusandae",
+  "UnitCost": 24235.221999999998,
+  "UnitMinimumPrice": 9828.224,
+  "UnitListPrice": 12865.07,
   "InAssortment": false,
-  "Supplier": "odio",
-  "SupplierCode": "dolor",
-  "Rights": "inventore",
-  "Rule": "porro",
+  "Supplier": "reprehenderit",
+  "SupplierCode": "rerum",
+  "Rights": "perferendis",
+  "Rule": "odio",
   "ExtraInfo": [
     {
-      "Name": "Crona, Walter and Grant",
-      "Value": "consequatur",
+      "Name": "Waters Inc and Sons",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 699
         }
       }
     },
     {
-      "Name": "Crona, Walter and Grant",
-      "Value": "consequatur",
+      "Name": "Waters Inc and Sons",
+      "Value": "sint",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 900
+          "FieldLength": 699
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptate",
-  "ExtraField1": "velit",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "libero",
-  "ExtraField4": "corporis",
-  "ExtraField5": "dolor",
-  "InStock": 20054.466,
+  "RawExtraInfo": "dolorum",
+  "ExtraField1": "iusto",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "et",
+  "ExtraField5": "quidem",
+  "InStock": 23536.34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 319,
-  "UniqueIdentifier": "quasi",
-  "Name": "O'Connell, Hermann and Doyle",
-  "Description": "Team-oriented coherent Graphic Interface",
-  "IncludeId": "aut",
-  "AccessKey": "tempora",
-  "HierarchyId": 114,
-  "Source": "similique",
-  "SourceCode": "qui",
+  "EjscriptId": 706,
+  "UniqueIdentifier": "ipsam",
+  "Name": "Rosenbaum LLC",
+  "Description": "Cross-platform multi-tasking approach",
+  "IncludeId": "harum",
+  "AccessKey": "inventore",
+  "HierarchyId": 622,
+  "Source": "dolore",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 14,
+  "HtmlOutput": 758,
   "Includes": [
-    255,
-    776
+    225,
+    750
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 943,
-      "LineNumberTo": 243,
-      "Delta": 886,
-      "IncludeId": "qui",
+      "LineNumberFrom": 503,
+      "LineNumberTo": 445,
+      "Delta": 88,
+      "IncludeId": "ut",
       "IncludedFrom": [
-        "qui",
-        "eveniet"
+        "tempore",
+        "vel"
       ]
     },
     {
-      "LineNumberFrom": 943,
-      "LineNumberTo": 243,
-      "Delta": 886,
-      "IncludeId": "qui",
+      "LineNumberFrom": 503,
+      "LineNumberTo": 445,
+      "Delta": 88,
+      "IncludeId": "ut",
       "IncludedFrom": [
-        "qui",
-        "eveniet"
+        "tempore",
+        "vel"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-08-23T12:01:27.5408902+02:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2008-10-17T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 221
+  "Registered": "2013-01-24T14:13:39.9067187+01:00",
+  "RegisteredAssociateId": 709,
+  "Updated": "2015-03-28T14:13:39.9067187+01:00",
+  "UpdatedAssociateId": 408
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 965,
-  "UniqueIdentifier": "dolore",
-  "Name": "Bayer Group",
-  "Description": "Cloned homogeneous project",
-  "IncludeId": "accusamus",
-  "AccessKey": "totam",
-  "HierarchyId": 599,
-  "Source": "repudiandae",
-  "SourceCode": "et",
+  "EjscriptId": 178,
+  "UniqueIdentifier": "quod",
+  "Name": "Leannon, Dibbert and Goodwin",
+  "Description": "Organized client-server knowledge base",
+  "IncludeId": "quia",
+  "AccessKey": "dolor",
+  "HierarchyId": 139,
+  "Source": "esse",
+  "SourceCode": "maxime",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 874,
+  "HtmlOutput": 969,
   "Includes": [
-    257,
-    562
+    741,
+    541
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 569,
-      "LineNumberTo": 136,
-      "Delta": 917,
-      "IncludeId": "dolor",
+      "LineNumberFrom": 182,
+      "LineNumberTo": 190,
+      "Delta": 932,
+      "IncludeId": "quia",
       "IncludedFrom": [
-        "dolore",
-        "dolorem"
+        "dolorum",
+        "corporis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 918
+          "FieldLength": 24
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2006-02-14T12:01:27.5408902+01:00",
-  "RegisteredAssociateId": 729,
-  "Updated": "2012-10-21T12:01:27.5408902+02:00",
-  "UpdatedAssociateId": 524,
+  "Registered": "2022-03-31T14:13:39.9067187+02:00",
+  "RegisteredAssociateId": 252,
+  "Updated": "2017-03-04T14:13:39.9067187+01:00",
+  "UpdatedAssociateId": 523,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 492
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

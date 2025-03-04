@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 369,
-  "Id": 899,
-  "HistoryName": "Koss, Schultz and Stoltenberg",
-  "HistoryId": 186,
-  "AssociateId": 121,
-  "Name": "Ritchie Inc and Sons",
-  "ItemInfo": "debitis",
+  "Rank": 448,
+  "Id": 993,
+  "HistoryName": "Mante Inc and Sons",
+  "HistoryId": 81,
+  "AssociateId": 752,
+  "Name": "Fadel, Hirthe and Ondricka",
+  "ItemInfo": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldLength": 71
     }
   }
 }

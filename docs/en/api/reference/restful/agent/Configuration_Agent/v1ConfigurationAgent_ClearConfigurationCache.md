@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "voluptatem",
-  "Instance": "qui",
+  "Application": "aliquid",
+  "Instance": "quis",
   "ForAllAssociates": false
 }
 ```

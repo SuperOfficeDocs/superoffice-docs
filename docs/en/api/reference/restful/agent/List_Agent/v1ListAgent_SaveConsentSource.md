@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 93,
-  "Name": "White Group",
-  "Tooltip": "sunt",
-  "Rank": 253,
-  "Key": "et",
-  "MailTemplateId": 945,
+  "ConsentSourceId": 691,
+  "Name": "Gibson Group",
+  "Tooltip": "doloribus",
+  "Rank": 972,
+  "Key": "eaque",
+  "MailTemplateId": 168,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 337
     }
   }
 }

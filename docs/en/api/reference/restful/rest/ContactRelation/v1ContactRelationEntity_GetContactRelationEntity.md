@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 13 Jul 2001 12:01:32 G7T
+Last-Modified: Wed, 08 Mar 2000 14:13:48 G3T
 
 {
-  "SourceContactId": 837,
-  "SourcePersonId": 925,
-  "DestinationContactId": 645,
-  "DestinationPersonId": 427,
-  "RelationId": 246,
-  "Comment": "possimus",
-  "RelationDefinitionId": 809,
-  "Reversed": 268,
-  "UpdatedDate": "2001-07-13T12:01:32.8394314+02:00",
-  "CreatedDate": "1999-01-25T12:01:32.8394314+01:00",
+  "SourceContactId": 31,
+  "SourcePersonId": 98,
+  "DestinationContactId": 457,
+  "DestinationPersonId": 145,
+  "RelationId": 750,
+  "Comment": "est",
+  "RelationDefinitionId": 987,
+  "Reversed": 626,
+  "UpdatedDate": "2000-03-08T14:13:48.7430769+01:00",
+  "CreatedDate": "2016-10-17T14:13:48.7430769+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Deckow-Johns",
-  "SourcePersonName": "Hahn, Powlowski and Roberts",
-  "DestinationContactName": "Senger-Jacobson",
-  "DestinationPersonName": "Gislason-Boyle",
-  "ActiveText": "ut",
-  "PassiveText": "aut",
+  "SourceContactName": "Botsford LLC",
+  "SourcePersonName": "Watsica, Hackett and Moen",
+  "DestinationContactName": "Torphy, Stoltenberg and Cummings",
+  "DestinationPersonName": "Hintz-Hirthe",
+  "ActiveText": "excepturi",
+  "PassiveText": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 139
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   },
   "_Links": {

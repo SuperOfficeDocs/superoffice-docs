@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,26 +93,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 788,
-  "Name": "Hills Group",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 546,
+  "WebPanelId": 840,
+  "Name": "Barton-Lueilwitz",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 59,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Bahringer-Gulgowski",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Fisher, Waelchi and Hegmann",
   "Url": "http://www.example.com/",
-  "ProgId": "rem",
-  "Icon": 291,
+  "ProgId": "sequi",
+  "Icon": 864,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 755
     }
   }
 }

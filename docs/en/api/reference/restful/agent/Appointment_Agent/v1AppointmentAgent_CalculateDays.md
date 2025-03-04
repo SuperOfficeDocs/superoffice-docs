@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 797,
-  "StartDate": "2001-03-20T12:01:27.2127411+01:00",
-  "EndDate": "2012-03-09T12:01:27.2127411+01:00",
-  "RecurrenceCounter": 835,
+  "RecurrenceId": 728,
+  "StartDate": "2005-02-28T14:13:39.1411603+01:00",
+  "EndDate": "2014-02-24T14:13:39.1411603+01:00",
+  "RecurrenceCounter": 455,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2016-08-08T12:01:27.2127411+02:00",
+      "Date": "2005-08-01T14:13:39.1411603+02:00",
       "IsConflict": false,
-      "Description": "Ameliorated background flexibility",
-      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
-      "Tooltip": "labore"
+      "Description": "Self-enabling high-level extranet",
+      "DescriptionStyleHint": "Customer-focused zero defect superstructure",
+      "Tooltip": "laboriosam"
     },
     {
-      "Date": "2016-08-08T12:01:27.2127411+02:00",
+      "Date": "2005-08-01T14:13:39.1411603+02:00",
       "IsConflict": false,
-      "Description": "Ameliorated background flexibility",
-      "DescriptionStyleHint": "Self-enabling 6th generation strategy",
-      "Tooltip": "labore"
+      "Description": "Self-enabling high-level extranet",
+      "DescriptionStyleHint": "Customer-focused zero defect superstructure",
+      "Tooltip": "laboriosam"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

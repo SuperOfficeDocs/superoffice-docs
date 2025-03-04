@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Russel-Hand",
+  "Name": "Keeling, Hodkiewicz and Gorczany",
   "AssociateIds": [
-    423,
-    402
+    968,
+    894
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Hahn LLC",
-    "AssociateId": 710,
-    "DetailsTable": 195,
-    "DetailsRecord": 172,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 622,
+    "Name": "Blick LLC",
+    "AssociateId": 608,
+    "DetailsTable": 409,
+    "DetailsRecord": 806,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "neque",
-      "ParameterObject2": "et"
+      "ParameterObject1": "numquam",
+      "ParameterObject2": "molestiae"
     },
-    "LastStarted": "2022-04-01T12:01:27.3533761+02:00",
-    "Created": "2000-01-17T12:01:27.3533761+01:00",
-    "StartCount": 199,
-    "DatabaseSerialNumber": "718894",
-    "Context": "nulla",
-    "Result": "officiis",
+    "LastStarted": "2001-05-05T14:13:39.3911033+02:00",
+    "Created": "2013-06-13T14:13:39.3911033+02:00",
+    "StartCount": 965,
+    "DatabaseSerialNumber": "1342851",
+    "Context": "voluptas",
+    "Result": "qui",
     "State": "All",
-    "Description": "Integrated leading edge complexity",
-    "Response": "sapiente",
-    "Request": "aspernatur",
-    "ProgressDescription": "Mandatory value-added collaboration",
-    "ProgressPercent": 272,
-    "FileName": "Bartell Group",
+    "Description": "Secured modular methodology",
+    "Response": "impedit",
+    "Request": "libero",
+    "ProgressDescription": "Switchable holistic matrices",
+    "ProgressPercent": 531,
+    "FileName": "Jacobi Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldType": "System.String",
+        "FieldLength": 65
       }
     }
   }

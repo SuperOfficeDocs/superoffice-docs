@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 75,
-    "Name": "Shanahan-Bednar",
-    "Tooltip": "voluptatem",
-    "Rank": 877,
-    "Key": "distinctio",
-    "MailTemplateId": 949,
+    "ConsentSourceId": 562,
+    "Name": "Deckow-Botsford",
+    "Tooltip": "et",
+    "Rank": 454,
+    "Key": "explicabo",
+    "MailTemplateId": 2,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldType": "System.String",
+        "FieldLength": 882
       }
     }
   }

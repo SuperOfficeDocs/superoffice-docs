@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 452,
-      "ContactName": "Windler Group",
-      "PersonId": 243,
-      "PersonName": "Torphy Group",
-      "AssociateId": 319,
-      "Address": "quo",
-      "EmailId": 223,
+      "ContactId": 155,
+      "ContactName": "Cremin-Legros",
+      "PersonId": 275,
+      "PersonName": "Bode-Krajcik",
+      "AssociateId": 887,
+      "Address": "commodi",
+      "EmailId": 774,
       "DuplicatePersonIds": [
-        725,
-        68
+        324,
+        726
       ],
-      "Name": "Berge, Johnson and Schiller",
+      "Name": "Larson-Champlin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 817
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 180,
-      "ContactName": "Weber Group",
-      "PersonId": 551,
-      "PersonName": "Roob Group",
-      "AssociateId": 960,
-      "Address": "dolores",
-      "EmailId": 271,
+      "ContactId": 754,
+      "ContactName": "Glover, Bernier and Greenholt",
+      "PersonId": 311,
+      "PersonName": "Franecki, Kreiger and Leffler",
+      "AssociateId": 744,
+      "Address": "rerum",
+      "EmailId": 532,
       "DuplicatePersonIds": [
-        704,
-        45
+        498,
+        710
       ],
-      "Name": "Upton-Green",
+      "Name": "Runolfsdottir, Braun and Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 271
+          "FieldLength": 96
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 350,
-      "ContactName": "Macejkovic Inc and Sons",
-      "PersonId": 729,
-      "PersonName": "Blick, Nolan and Hauck",
-      "AssociateId": 366,
-      "Address": "a",
-      "EmailId": 7,
+      "ContactId": 751,
+      "ContactName": "Bergnaum-Bechtelar",
+      "PersonId": 186,
+      "PersonName": "Leuschke-Deckow",
+      "AssociateId": 690,
+      "Address": "aut",
+      "EmailId": 679,
       "DuplicatePersonIds": [
-        888,
-        633
+        34,
+        470
       ],
-      "Name": "Hirthe-Olson",
+      "Name": "Hermann, O'Connell and Hane",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 442
         }
       }
     }
   ],
-  "Subject": "doloribus",
-  "HTMLBody": "assumenda",
+  "Subject": "delectus",
+  "HTMLBody": "officiis",
   "From": null,
-  "Sent": "2005-10-24T12:01:27.7752804+02:00",
-  "Size": 480,
+  "Sent": "2007-03-01T14:13:40.1566615+01:00",
+  "Size": 519,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ad",
-  "PlainBody": "in",
-  "IsSent": true,
+  "MessageID": "ipsum",
+  "PlainBody": "mollitia",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 60,
+  "ServerId": 872,
   "Attachments": [
     {
-      "Description": "Function-based stable structure",
-      "Filename": "et",
-      "Size": 868,
-      "Type": "eum",
-      "Encoding": "impedit",
-      "Id": "earum",
-      "Disposition": "alias",
-      "IsSafeFileExtension": false,
+      "Description": "Centralized exuding focus group",
+      "Filename": "molestiae",
+      "Size": 396,
+      "Type": "officia",
+      "Encoding": "ea",
+      "Id": "dolores",
+      "Disposition": "quia",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldType": "System.String",
+          "FieldLength": 95
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Windler-Pagac",
+      "Name": "Bednar LLC",
       "Values": [
-        "repellendus",
-        "nulla"
+        "eum",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldType": "System.String",
+          "FieldLength": 653
         }
       }
     },
     {
-      "Name": "Windler-Pagac",
+      "Name": "Bednar LLC",
       "Values": [
-        "repellendus",
-        "nulla"
+        "eum",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldType": "System.String",
+          "FieldLength": 653
         }
       }
     }
   ],
-  "FolderName": "Ernser LLC",
-  "EmailItemId": 370,
-  "AccountId": 286,
-  "ReceivedAt": "2019-04-12T12:01:27.7752804+02:00",
+  "FolderName": "Becker LLC",
+  "EmailItemId": 152,
+  "AccountId": 657,
+  "ReceivedAt": "2001-11-25T14:13:40.1566615+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-10-18T12:01:27.7752804+02:00",
+  "RepliedAt": "1997-11-24T14:13:40.1566615+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 681
     }
   }
 }

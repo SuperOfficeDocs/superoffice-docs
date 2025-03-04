@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 423,
-  "CountryId": 986
+  "PersonId": 714,
+  "CountryId": 595
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 21840.845999999998,
-  "Wgs84Longitude": 28227.938,
+  "Wgs84Latitude": 3904.964,
+  "Wgs84Longitude": 5108.42,
   "LocalizedAddress": [
     [
       {
-        "Name": "Stanton-Padberg",
-        "Value": "ut",
-        "Tooltip": "asperiores",
-        "Label": "sunt",
-        "ValueLength": 16,
-        "AddressType": "ratione",
+        "Name": "Larkin LLC",
+        "Value": "aut",
+        "Tooltip": "aut",
+        "Label": "sint",
+        "ValueLength": 134,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldLength": 907
           }
         }
       }
     ],
     [
       {
-        "Name": "Schinner Inc and Sons",
-        "Value": "magni",
-        "Tooltip": "modi",
-        "Label": "optio",
-        "ValueLength": 487,
-        "AddressType": "alias",
+        "Name": "Jacobs, Mayert and Schowalter",
+        "Value": "eum",
+        "Tooltip": "et",
+        "Label": "iste",
+        "ValueLength": 556,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 780
+            "FieldType": "System.String",
+            "FieldLength": 655
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "consequatur",
+  "Formatted": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 293
     }
   }
 }

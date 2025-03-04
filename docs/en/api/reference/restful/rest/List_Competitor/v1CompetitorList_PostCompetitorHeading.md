@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 249,
-  "Name": "Jacobs LLC",
-  "Tooltip": "qui",
+  "HeadingId": 380,
+  "Name": "Kuhn Group",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 479,
-  "UdListDefinitionId": 905
+  "Rank": 372,
+  "UdListDefinitionId": 793
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 21,
-  "Name": "Beer, Gibson and Jerde",
-  "Tooltip": "aliquid",
-  "Deleted": true,
-  "Rank": 589,
-  "UdListDefinitionId": 719,
+  "HeadingId": 196,
+  "Name": "Ratke, Gutkowski and Lesch",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 33,
+  "UdListDefinitionId": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

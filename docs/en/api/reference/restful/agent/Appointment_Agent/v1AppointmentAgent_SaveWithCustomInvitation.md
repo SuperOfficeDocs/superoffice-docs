@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "cora_rolfson@padberg.co.uk",
-  "Subject": "est",
-  "TemplateLanguage": "qui"
+  "EmailBody": "fidel_emard@kuhlmandaugherty.com",
+  "Subject": "exercitationem",
+  "TemplateLanguage": "dolorem"
 }
 ```
 
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 232
+      "FieldLength": 192
     }
   }
 }

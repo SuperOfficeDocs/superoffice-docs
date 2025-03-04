@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 29
+  "QuoteId": 625
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 562,
-    "ERPQuoteVersionKey": "praesentium",
-    "QuoteId": 479,
-    "Description": "Grass-roots heuristic synergy",
-    "Number": "1478655",
+    "QuoteVersionId": 442,
+    "ERPQuoteVersionKey": "ab",
+    "QuoteId": 473,
+    "Description": "User-friendly methodical local area network",
+    "Number": "890342",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 572,
-    "SentDate": "2022-10-29T12:01:28.1815588+02:00",
-    "FollowupId": 357,
-    "ExpirationDate": "2013-02-09T12:01:28.1815588+01:00",
-    "DeliveryCountryId": 835,
+    "LikelyQuoteAlternativeId": 28,
+    "SentDate": "2006-06-14T14:13:41.0627059+02:00",
+    "FollowupId": 78,
+    "ExpirationDate": "2010-10-10T14:13:41.0627059+02:00",
+    "DeliveryCountryId": 377,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 231,
-    "HasOwnInvoiceAddress": true,
-    "ERPPaymentTermsKey": "aut",
-    "ERPPaymentTypeKey": "ut",
-    "ERPDeliveryTermsKey": "quasi",
-    "ERPDeliveryTypeKey": "earum",
-    "Rank": 916,
-    "ApprovedBy": 515,
-    "ApprovedText": "unde",
-    "ApprovedRegisteredBy": 895,
-    "ApprovedRegisteredDate": "2017-03-28T12:01:28.1815588+02:00",
-    "ExtraField1": "ea",
-    "ExtraField2": "numquam",
-    "ExtraField3": "eos",
-    "ExtraField4": "odio",
-    "ExtraField5": "veritatis",
-    "LastRecalculated": "2005-09-19T12:01:28.1815588+02:00",
-    "Updated": "2023-10-25T12:01:28.1815588+02:00",
-    "UpdatedAssociateId": 91,
-    "Registered": "2019-10-07T12:01:28.1815588+02:00",
-    "RegisteredAssociateId": 94,
-    "RequestAssociateId": 693,
-    "RequestComment": "et",
+    "InvoiceCountryId": 304,
+    "HasOwnInvoiceAddress": false,
+    "ERPPaymentTermsKey": "saepe",
+    "ERPPaymentTypeKey": "doloremque",
+    "ERPDeliveryTermsKey": "dignissimos",
+    "ERPDeliveryTypeKey": "qui",
+    "Rank": 431,
+    "ApprovedBy": 693,
+    "ApprovedText": "aut",
+    "ApprovedRegisteredBy": 126,
+    "ApprovedRegisteredDate": "1998-04-27T14:13:41.0627059+02:00",
+    "ExtraField1": "aspernatur",
+    "ExtraField2": "ex",
+    "ExtraField3": "quasi",
+    "ExtraField4": "et",
+    "ExtraField5": "ut",
+    "LastRecalculated": "2020-01-02T14:13:41.0627059+01:00",
+    "Updated": "2015-04-21T14:13:41.0627059+02:00",
+    "UpdatedAssociateId": 577,
+    "Registered": "1999-01-23T14:13:41.0627059+01:00",
+    "RegisteredAssociateId": 731,
+    "RequestAssociateId": 202,
+    "RequestComment": "totam",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 827,
-        "ERPQuoteAlternativeKey": "quo",
-        "QuoteVersionId": 4,
-        "Name": "Wisozk-Lowe",
-        "Description": "Reduced next generation infrastructure",
+        "QuoteAlternativeId": 909,
+        "ERPQuoteAlternativeKey": "et",
+        "QuoteVersionId": 322,
+        "Name": "West, Nitzsche and Cole",
+        "Description": "Persistent intangible solution",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 9138.744,
-        "ERPDiscountAmount": 25316.451999999997,
-        "DiscountPercent": 9699.73,
-        "DiscountAmount": 15297.054,
+        "ERPDiscountPercent": 3218.618,
+        "ERPDiscountAmount": 23915.554,
+        "DiscountPercent": 8395.985999999999,
+        "DiscountAmount": 20439.948,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "odio",
-        "VAT": 21351.942,
-        "EarningPercent": 31170.764,
-        "EarningAmount": 31264.784,
-        "SubTotal": 20067.002,
-        "TotalPrice": 21969.34,
-        "ExtraField1": "beatae",
-        "ExtraField2": "quo",
-        "ExtraField3": "doloribus",
-        "ExtraField4": "mollitia",
-        "ExtraField5": "expedita",
+        "VATInfo": "numquam",
+        "VAT": 24639.507999999998,
+        "EarningPercent": 18988.906,
+        "EarningAmount": 5885.652,
+        "SubTotal": 291.462,
+        "TotalPrice": 7769.186,
+        "ExtraField1": "voluptas",
+        "ExtraField2": "aliquid",
+        "ExtraField3": "qui",
+        "ExtraField4": "excepturi",
+        "ExtraField5": "nihil",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 541
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 18
+        "FieldLength": 313
       }
     }
   }

@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 985,
-  "Name": "Kutch-Goldner",
-  "CreatedDate": "2022-06-30T12:01:27.9002891+02:00",
-  "UpdatedDate": "2021-07-28T12:01:27.9002891+02:00",
+  "ForeignAppId": 843,
+  "Name": "Moore-Mante",
+  "CreatedDate": "2017-02-24T14:13:40.3753617+01:00",
+  "UpdatedDate": "2021-09-23T14:13:40.3753617+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 884,
-      "Name": "Halvorson, Walker and Lehner",
-      "CreatedDate": "2003-06-03T12:01:27.9002891+02:00",
-      "UpdatedDate": "2016-03-07T12:01:27.9002891+01:00",
-      "AssociateFullName": "Erick Lindgren",
-      "CreatedBy": "velit",
-      "UpdatedBy": "fuga",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 298
+      "ForeignDeviceId": 741,
+      "Name": "Stamm LLC",
+      "CreatedDate": "2019-03-23T14:13:40.3753617+01:00",
+      "UpdatedDate": "2020-08-27T14:13:40.3753617+02:00",
+      "AssociateFullName": "Odessa Hettinger DVM",
+      "CreatedBy": "enim",
+      "UpdatedBy": "incidunt",
+      "DeviceIdentifier": "eos",
+      "ForeignAppId": 991
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 888,
-  "Name": "Larkin, Murazik and Senger",
-  "CreatedDate": "1999-02-02T12:01:27.9002891+01:00",
-  "UpdatedDate": "2023-12-02T12:01:27.9002891+01:00",
+  "ForeignAppId": 183,
+  "Name": "Hodkiewicz Inc and Sons",
+  "CreatedDate": "2002-03-18T14:13:40.3753617+01:00",
+  "UpdatedDate": "2008-11-10T14:13:40.3753617+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 852,
-      "Name": "Fahey LLC",
-      "CreatedDate": "2011-10-15T12:01:27.9002891+02:00",
-      "UpdatedDate": "2010-02-06T12:01:27.9002891+01:00",
-      "AssociateFullName": "Rosendo Lockman DVM",
-      "CreatedBy": "eveniet",
-      "UpdatedBy": "ratione",
-      "DeviceIdentifier": "porro",
-      "ForeignAppId": 340,
+      "ForeignDeviceId": 492,
+      "Name": "Nitzsche LLC",
+      "CreatedDate": "2003-02-03T14:13:40.3753617+01:00",
+      "UpdatedDate": "2014-09-19T14:13:40.3753617+02:00",
+      "AssociateFullName": "Prof. Julius Sibyl Kertzmann",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "dignissimos",
+      "DeviceIdentifier": "odit",
+      "ForeignAppId": 602,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 610
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

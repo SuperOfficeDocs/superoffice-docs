@@ -117,24 +117,24 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 121,
-  "Section": "aperiam",
-  "Key": "facere",
-  "Name": "Torp-Funk",
+  "PrefDescId": 4,
+  "Section": "et",
+  "Key": "molestiae",
+  "Name": "Kozey Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Balanced secondary ability",
-  "IsBuiltin": true,
-  "TableName": "Sanford Group",
-  "UserDefinedListId": 423,
-  "Rank": 979,
-  "SubGroup": "fuga",
-  "MinLevel": 55,
-  "MaxValue": 103,
-  "MinValue": 561,
-  "RequiredLicense": "eos"
+  "Description": "Reactive optimizing analyzer",
+  "IsBuiltin": false,
+  "TableName": "Wolff-Murray",
+  "UserDefinedListId": 903,
+  "Rank": 333,
+  "SubGroup": "modi",
+  "MinLevel": 348,
+  "MaxValue": 370,
+  "MinValue": 745,
+  "RequiredLicense": "beatae"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 486,
-  "Section": "qui",
-  "Key": "atque",
-  "Name": "Schumm, Heller and Block",
+  "PrefDescId": 989,
+  "Section": "ut",
+  "Key": "earum",
+  "Name": "Gutkowski-McCullough",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Cross-group transitional adapter",
-  "IsBuiltin": true,
-  "TableName": "Kuhn Inc and Sons",
-  "UserDefinedListId": 604,
-  "Rank": 785,
-  "SubGroup": "a",
-  "MinLevel": 76,
-  "MaxValue": 34,
-  "MinValue": 679,
-  "RequiredLicense": "quae",
+  "Description": "Versatile background encryption",
+  "IsBuiltin": false,
+  "TableName": "Quitzon, Raynor and Brakus",
+  "UserDefinedListId": 822,
+  "Rank": 730,
+  "SubGroup": "omnis",
+  "MinLevel": 86,
+  "MaxValue": 821,
+  "MinValue": 686,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldLength": 142
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

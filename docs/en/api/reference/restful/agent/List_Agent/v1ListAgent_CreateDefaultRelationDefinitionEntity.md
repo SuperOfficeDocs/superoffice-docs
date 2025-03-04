@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 503,
-  "Name": "Reynolds LLC",
-  "Tooltip": "nemo",
-  "PassiveText": "dolorem",
+  "ReldefId": 518,
+  "Name": "Reichel, Bruen and Pfannerstill",
+  "Tooltip": "ut",
+  "PassiveText": "ducimus",
   "Deleted": true,
-  "Rank": 357,
+  "Rank": 52,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 15
     }
   }
 }

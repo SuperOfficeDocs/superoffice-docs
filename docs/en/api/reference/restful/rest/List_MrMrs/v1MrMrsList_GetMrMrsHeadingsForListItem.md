@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Altenwerth Inc and Sons",
-    "ToolTip": "Quia rem aperiam accusamus.",
-    "Deleted": true,
-    "Rank": 433,
-    "Type": "excepturi",
-    "ColorBlock": 509,
-    "IconHint": "laudantium",
-    "Selected": true,
-    "LastChanged": "2017-06-02T12:01:33.5269792+02:00",
+    "Id": 927,
+    "Name": "Grant LLC",
+    "ToolTip": "Recusandae sint.",
+    "Deleted": false,
+    "Rank": 179,
+    "Type": "iste",
+    "ColorBlock": 73,
+    "IconHint": "fugit",
+    "Selected": false,
+    "LastChanged": "2007-03-27T14:13:50.0094247+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Cartwright-Roberts",
-        "ToolTip": "Itaque est dolor mollitia quod in nesciunt aut.",
-        "Deleted": true,
-        "Rank": 198,
-        "Type": "nobis",
-        "ColorBlock": 439,
-        "IconHint": "voluptas",
+        "Id": 490,
+        "Name": "Blanda-Stoltenberg",
+        "ToolTip": "Qui non ducimus sed dicta sint amet et.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "repudiandae",
+        "ColorBlock": 711,
+        "IconHint": "quam",
         "Selected": true,
-        "LastChanged": "2001-02-23T12:01:33.5269792+01:00",
+        "LastChanged": "2020-03-05T14:13:50.0094247+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "quidem",
-        "Hidden": true,
-        "FullName": "Leonora Torphy",
+        "ExtraInfo": "ut",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Miguel Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 367
+            "FieldType": "System.String",
+            "FieldLength": 597
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Ozella Gutmann",
+    "FullName": "Virgie Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 687
       }
     }
   }

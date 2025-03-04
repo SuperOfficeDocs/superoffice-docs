@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 456,
+  "ReportId": 925,
   "ReportCategory": "All",
-  "Description": "Optional real-time adapter",
+  "Description": "Open-source neutral encoding",
   "ReportLayout": "CalendarMonth",
-  "Name": "Skiles, Hoppe and Gibson",
-  "AssociateId": 966,
-  "TemplateId": 291,
-  "Published": true,
+  "Name": "Goyette LLC",
+  "AssociateId": 90,
+  "TemplateId": 240,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldType": "System.String",
+      "FieldLength": 851
     }
   }
 }

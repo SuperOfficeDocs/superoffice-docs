@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Predovic-Jacobs",
-      "DisplayName": "Lebsack, Boyle and Sauer",
-      "DisplayTooltip": "quia",
-      "IsActive": false
+      "Name": "Doyle, Hauck and Smith",
+      "DisplayName": "Senger, Ernser and McCullough",
+      "DisplayTooltip": "reprehenderit",
+      "IsActive": true
     },
     {
-      "Name": "Predovic-Jacobs",
-      "DisplayName": "Lebsack, Boyle and Sauer",
-      "DisplayTooltip": "quia",
-      "IsActive": false
+      "Name": "Doyle, Hauck and Smith",
+      "DisplayName": "Senger, Ernser and McCullough",
+      "DisplayTooltip": "reprehenderit",
+      "IsActive": true
     }
   ]
 }

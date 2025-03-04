@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 991,
-  "Name": "Borer, Ebert and Barton",
-  "Tooltip": "sapiente",
-  "Deleted": false,
-  "UdListDefinitionId": 176,
-  "Rank": 485,
+  "Id": 618,
+  "Name": "Beier LLC",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "UdListDefinitionId": 488,
+  "Rank": 375,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldLength": 585
     }
   }
 }

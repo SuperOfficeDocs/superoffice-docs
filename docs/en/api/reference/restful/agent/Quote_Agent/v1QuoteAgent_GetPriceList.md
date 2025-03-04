@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=7
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=566
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 864,
-  "ERPPriceListKey": "sapiente",
-  "QuoteConnectionId": 752,
-  "Name": "Marks-Doyle",
-  "Description": "User-centric homogeneous benchmark",
-  "Currency": "doloremque",
-  "CurrencyName": "Dickinson, Franecki and Schoen",
-  "ValidFrom": "2009-06-11T12:01:28.1815588+02:00",
-  "ValidTo": "1998-06-14T12:01:28.1815588+02:00",
-  "IsActive": false,
+  "PriceListId": 100,
+  "ERPPriceListKey": "iste",
+  "QuoteConnectionId": 497,
+  "Name": "Welch-Weimann",
+  "Description": "Balanced upward-trending success",
+  "Currency": "ea",
+  "CurrencyName": "Parker-Ruecker",
+  "ValidFrom": "2001-07-01T14:13:41.0939485+02:00",
+  "ValidTo": "2020-03-08T14:13:41.0939485+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 763
     }
   }
 }

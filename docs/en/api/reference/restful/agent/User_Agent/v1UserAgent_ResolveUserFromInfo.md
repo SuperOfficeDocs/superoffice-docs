@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 648,
-  "PersonName": "Tremblay-Metz",
+  "ContactId": 482,
+  "PersonName": "Johnston-Stark",
   "PhoneNumbers": [
-    "1269768",
-    "1036691"
+    "1759737",
+    "1585832"
   ],
   "Emails": [
-    "arnulfo_kunde@millsbrakus.biz",
-    "toy@considine.us"
+    "alfred@gerlach.co.uk",
+    "orlo@prosaccomorissette.co.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 677
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

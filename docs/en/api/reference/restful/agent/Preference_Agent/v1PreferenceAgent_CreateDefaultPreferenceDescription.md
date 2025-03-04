@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 395,
-  "Section": "autem",
-  "Key": "cupiditate",
-  "Name": "Gibson LLC",
+  "PrefDescId": 665,
+  "Section": "sequi",
+  "Key": "voluptate",
+  "Name": "Legros, Strosin and Kuhic",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse fault-tolerant groupware",
+  "Description": "Enterprise-wide modular approach",
   "IsBuiltin": true,
-  "TableName": "Hammes LLC",
-  "UserDefinedListId": 470,
-  "Rank": 870,
-  "SubGroup": "rem",
-  "MinLevel": 952,
-  "MaxValue": 518,
-  "MinValue": 570,
-  "RequiredLicense": "dolores",
+  "TableName": "Lind Inc and Sons",
+  "UserDefinedListId": 807,
+  "Rank": 628,
+  "SubGroup": "perspiciatis",
+  "MinLevel": 120,
+  "MaxValue": 703,
+  "MinValue": 511,
+  "RequiredLicense": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 906
+      "FieldLength": 799
     }
   }
 }

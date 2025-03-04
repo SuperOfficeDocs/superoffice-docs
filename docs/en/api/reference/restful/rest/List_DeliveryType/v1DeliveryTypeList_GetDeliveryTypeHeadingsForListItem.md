@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Flatley-Graham",
-    "ToolTip": "Inventore repellendus at.",
+    "Id": 244,
+    "Name": "Gaylord Inc and Sons",
+    "ToolTip": "Enim quasi quae mollitia et.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "cupiditate",
-    "ColorBlock": 820,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2002-04-29T12:01:33.495727+02:00",
+    "Rank": 599,
+    "Type": "est",
+    "ColorBlock": 87,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2024-06-18T14:13:49.9469396+02:00",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Keeling-Miller",
-        "ToolTip": "Ex eos provident.",
+        "Id": 119,
+        "Name": "Kuvalis-Ratke",
+        "ToolTip": "Accusamus veritatis quisquam consequatur non voluptas molestias.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "nostrum",
-        "ColorBlock": 680,
-        "IconHint": "voluptatem",
+        "Rank": 839,
+        "Type": "ratione",
+        "ColorBlock": 231,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2011-08-15T12:01:33.495727+02:00",
+        "LastChanged": "2013-08-12T14:13:49.9469396+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "nam",
+        "ExtraInfo": "ut",
+        "StyleHint": "corrupti",
         "Hidden": false,
-        "FullName": "Casper Rohan",
+        "FullName": "Cassandra Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "quibusdam",
-    "Hidden": false,
-    "FullName": "Sheldon Sanford",
+    "ExtraInfo": "sunt",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Ms. Regan Dare IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 106
+        "FieldType": "System.Int32",
+        "FieldLength": 61
       }
     }
   }

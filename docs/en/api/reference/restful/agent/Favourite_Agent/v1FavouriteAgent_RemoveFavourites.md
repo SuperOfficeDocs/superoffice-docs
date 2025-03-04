@@ -70,12 +70,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Batz, Walsh and Mayert",
+  "TableName": "Mayert, Kemmer and Frami",
   "RecordIds": [
-    269,
-    709
+    346,
+    600
   ],
-  "AssociateId": 620
+  "AssociateId": 752
 }
 ```
 

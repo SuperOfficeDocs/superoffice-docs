@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "deserunt",
-      "HTMLBody": "voluptatibus",
+      "Subject": "voluptas",
+      "HTMLBody": "neque",
       "From": null,
-      "Sent": "2006-07-31T12:01:27.8377848+02:00",
-      "Size": 170,
+      "Sent": "2023-06-02T14:13:40.2660122+02:00",
+      "Size": 934,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "minus",
-      "PlainBody": "ducimus",
+      "MessageID": "est",
+      "PlainBody": "ut",
       "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 501,
+      "ServerId": 420,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Murray Group",
-      "EmailItemId": 333,
-      "AccountId": 940,
-      "ReceivedAt": "2015-06-15T12:01:27.8377848+02:00",
+      "FolderName": "Becker, McDermott and McKenzie",
+      "EmailItemId": 453,
+      "AccountId": 346,
+      "ReceivedAt": "2008-07-21T14:13:40.2660122+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2008-08-30T12:01:27.8377848+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2001-10-06T14:13:40.2660122+02:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 669,
-        "ContactName": "Kautzer LLC",
-        "PersonId": 44,
-        "PersonName": "Rath, Hyatt and Bosco",
-        "AssociateId": 446,
-        "Address": "laborum",
-        "EmailId": 578,
+        "ContactId": 524,
+        "ContactName": "Heathcote LLC",
+        "PersonId": 780,
+        "PersonName": "Smith Group",
+        "AssociateId": 505,
+        "Address": "porro",
+        "EmailId": 393,
         "DuplicatePersonIds": [
-          462,
-          26
+          808,
+          908
         ],
-        "Name": "Towne-Hand",
+        "Name": "Pouros Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 551
+            "FieldLength": 593
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 168,
-        "ContactName": "Nader-Pagac",
-        "PersonId": 781,
-        "PersonName": "Reinger, Torp and Grady",
-        "AssociateId": 824,
-        "Address": "tempore",
-        "EmailId": 785,
+        "ContactId": 670,
+        "ContactName": "Fay-Haley",
+        "PersonId": 787,
+        "PersonName": "Bashirian, Metz and Dooley",
+        "AssociateId": 915,
+        "Address": "natus",
+        "EmailId": 931,
         "DuplicatePersonIds": [
-          140,
-          404
+          468,
+          939
         ],
-        "Name": "Wilderman LLC",
+        "Name": "Corkery-Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 162
+            "FieldType": "System.String",
+            "FieldLength": 148
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 198,
-        "ContactName": "Ward-Tillman",
-        "PersonId": 669,
-        "PersonName": "Hane, Beahan and Schroeder",
-        "AssociateId": 542,
-        "Address": "recusandae",
-        "EmailId": 668,
+        "ContactId": 31,
+        "ContactName": "Baumbach Group",
+        "PersonId": 495,
+        "PersonName": "Marquardt, Renner and Romaguera",
+        "AssociateId": 29,
+        "Address": "qui",
+        "EmailId": 418,
         "DuplicatePersonIds": [
-          354,
-          833
+          459,
+          971
         ],
-        "Name": "Koch Inc and Sons",
+        "Name": "Berge Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 778
+            "FieldLength": 834
           }
         }
       }
     ],
-    "Subject": "corrupti",
-    "HTMLBody": "rerum",
+    "Subject": "expedita",
+    "HTMLBody": "nisi",
     "From": null,
-    "Sent": "2007-04-13T12:01:27.8377848+02:00",
-    "Size": 223,
+    "Sent": "2016-04-03T14:13:40.2660122+02:00",
+    "Size": 48,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "molestiae",
-    "PlainBody": "itaque",
+    "MessageID": "rem",
+    "PlainBody": "aut",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 457,
+    "ServerId": 497,
     "Attachments": [
       {
-        "Description": "Re-engineered neutral adapter",
-        "Filename": "est",
-        "Size": 44,
-        "Type": "vel",
-        "Encoding": "non",
-        "Id": "placeat",
-        "Disposition": "molestiae",
+        "Description": "Assimilated heuristic system engine",
+        "Filename": "eius",
+        "Size": 728,
+        "Type": "quae",
+        "Encoding": "eum",
+        "Id": "sunt",
+        "Disposition": "ut",
         "IsSafeFileExtension": true,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,49 +264,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 23
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Torphy Inc and Sons",
+        "Name": "Koch-Ritchie",
         "Values": [
-          "laboriosam",
-          "pariatur"
+          "totam",
+          "vel"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 586
           }
         }
       },
       {
-        "Name": "Torphy Inc and Sons",
+        "Name": "Koch-Ritchie",
         "Values": [
-          "laboriosam",
-          "pariatur"
+          "totam",
+          "vel"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 586
           }
         }
       }
     ],
-    "FolderName": "Davis Inc and Sons",
-    "EmailItemId": 207,
-    "AccountId": 664,
-    "ReceivedAt": "2023-03-14T12:01:27.8377848+01:00",
+    "FolderName": "Kautzer Group",
+    "EmailItemId": 301,
+    "AccountId": 360,
+    "ReceivedAt": "1997-10-15T14:13:40.2660122+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2019-02-08T12:01:27.8377848+01:00",
+    "RepliedAt": "2005-11-03T14:13:40.2660122+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 70
+        "FieldLength": 1002
       }
     }
   }

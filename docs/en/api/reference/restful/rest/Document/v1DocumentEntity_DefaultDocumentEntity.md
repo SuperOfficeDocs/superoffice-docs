@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 24 Aug 2008 12:01:32 G8T
+Last-Modified: Tue, 10 Aug 2010 14:13:48 G8T
 
 {
-  "DocumentId": 352,
+  "DocumentId": 555,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "rem",
-  "Name": "Gaylord Group",
-  "OurRef": "voluptatem",
-  "YourRef": "quisquam",
-  "CreatedDate": "2013-05-02T12:01:32.8550575+02:00",
-  "UpdatedDate": "2008-08-24T12:01:32.8550575+02:00",
-  "Description": "Team-oriented dedicated time-frame",
+  "Attention": "voluptatem",
+  "Header": "numquam",
+  "Name": "Greenfelder, Kulas and Dietrich",
+  "OurRef": "dolore",
+  "YourRef": "quibusdam",
+  "CreatedDate": "2018-10-15T14:13:48.7743483+02:00",
+  "UpdatedDate": "2010-08-10T14:13:48.7743483+02:00",
+  "Description": "Versatile actuating instruction set",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-01-14T12:01:32.8550575+01:00",
-  "ExternalRef": "et",
+  "Date": "1999-12-24T14:13:48.7743483+01:00",
+  "ExternalRef": "quos",
   "Completed": "Completed",
-  "ActiveLinks": 162,
+  "ActiveLinks": 441,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reichel, Schowalter and Leffler",
-      "Id": 92,
-      "Description": "Open-source client-server capability",
-      "ExtraInfo": "qui",
-      "LinkId": 960,
+      "EntityName": "Ratke, Abbott and Casper",
+      "Id": 409,
+      "Description": "De-engineered foreground firmware",
+      "ExtraInfo": "aliquid",
+      "LinkId": 20,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldLength": 673
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 397,
-  "Snum": 831,
+  "SuggestedDocumentId": 210,
+  "Snum": 552,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1124487089"
+    "SuperOffice:1": "Mr. Marshall Schuppe",
+    "SuperOffice:2": "2018091606"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "optio",
+    "CustomFields2": "quod"
   },
-  "PublishEventDate": "2008-10-01T12:01:32.8550575+02:00",
-  "PublishTo": "2002-12-16T12:01:32.8550575+01:00",
-  "PublishFrom": "2001-11-10T12:01:32.8550575+01:00",
+  "PublishEventDate": "2003-09-06T14:13:48.7743483+02:00",
+  "PublishTo": "2011-11-11T14:13:48.7743483+01:00",
+  "PublishFrom": "2019-03-01T14:13:48.7743483+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 201,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 661
         }
       }
     },
     {
-      "VisibleId": 201,
+      "VisibleId": 774,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 661
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sun, 24 Aug 2008 12:01:32 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 535
     }
   }
 }

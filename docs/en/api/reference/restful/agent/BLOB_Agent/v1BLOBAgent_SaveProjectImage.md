@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/BLOB/SaveProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound modular portal",
+  "Description": "Enterprise-wide homogeneous help-desk",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

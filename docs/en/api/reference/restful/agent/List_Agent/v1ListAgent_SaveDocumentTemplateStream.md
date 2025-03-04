@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 211,
+  "DocumentTemplateId": 84,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ullam",
-  "PluginId": 969
+  "LanguageCode": "perspiciatis",
+  "PluginId": 671
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hartmann-Treutel",
-  "Description": "Stand-alone zero administration concept",
-  "ExternalReference": "et",
-  "MimeType": "illo",
-  "PluginId": 844
+  "Name": "Hayes-Cruickshank",
+  "Description": "Cloned high-level orchestration",
+  "ExternalReference": "delectus",
+  "MimeType": "consequuntur",
+  "PluginId": 781
 }
 ```

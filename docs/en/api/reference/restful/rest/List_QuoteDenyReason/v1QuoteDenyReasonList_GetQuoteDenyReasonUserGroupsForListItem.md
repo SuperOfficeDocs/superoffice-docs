@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Powlowski, Fisher and Boehm",
-    "ToolTip": "Asperiores cupiditate.",
+    "Id": 135,
+    "Name": "Hegmann-Franecki",
+    "ToolTip": "Blanditiis iste.",
     "Deleted": false,
-    "Rank": 135,
-    "Type": "voluptate",
-    "ColorBlock": 182,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1999-05-18T12:01:33.6207356+02:00",
+    "Rank": 421,
+    "Type": "delectus",
+    "ColorBlock": 575,
+    "IconHint": "voluptas",
+    "Selected": false,
+    "LastChanged": "2024-07-24T14:13:50.1656413+02:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Shanahan-Kautzer",
-        "ToolTip": "Eveniet consequatur placeat dolor mollitia eaque voluptates fugit.",
+        "Id": 263,
+        "Name": "Pouros-Hayes",
+        "ToolTip": "Voluptas saepe rerum animi.",
         "Deleted": false,
-        "Rank": 460,
-        "Type": "qui",
-        "ColorBlock": 666,
-        "IconHint": "accusantium",
-        "Selected": true,
-        "LastChanged": "2008-06-20T12:01:33.6207356+02:00",
+        "Rank": 701,
+        "Type": "quia",
+        "ColorBlock": 858,
+        "IconHint": "dolore",
+        "Selected": false,
+        "LastChanged": "2017-08-05T14:13:50.1656413+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "saepe",
-        "Hidden": false,
-        "FullName": "Jeffery Williamson Sr.",
+        "ExtraInfo": "tempora",
+        "StyleHint": "id",
+        "Hidden": true,
+        "FullName": "Priscilla Rigoberto Quitzon II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 463
+            "FieldType": "System.Int32",
+            "FieldLength": 448
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "neque",
-    "Hidden": false,
-    "FullName": "Miss Nicolette Deven Bode",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Ms. Ariane Adriel Hansen PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldType": "System.String",
+        "FieldLength": 845
       }
     }
   }

@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 537,
-  "QuoteAlternativeName": "Gleichner, Brekke and Schulist",
-  "QuoteAlternativeDescription": "Organized content-based array"
+  "QuoteVersionId": 542,
+  "QuoteAlternativeName": "Jenkins Inc and Sons",
+  "QuoteAlternativeDescription": "Horizontal interactive alliance"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 148,
-  "ERPQuoteAlternativeKey": "harum",
-  "QuoteVersionId": 461,
-  "Name": "Smitham-Padberg",
-  "Description": "Networked maximized artificial intelligence",
+  "QuoteAlternativeId": 151,
+  "ERPQuoteAlternativeKey": "commodi",
+  "QuoteVersionId": 541,
+  "Name": "Mosciski, Smith and Botsford",
+  "Description": "Enterprise-wide 24/7 archive",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 13670.508,
-  "ERPDiscountAmount": 25303.915999999997,
-  "DiscountPercent": 10445.622,
-  "DiscountAmount": 7227.004,
+  "ERPDiscountPercent": 6377.69,
+  "ERPDiscountAmount": 15087.076,
+  "DiscountPercent": 17462.648,
+  "DiscountAmount": 7085.974,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quis",
-  "VAT": 16650.942,
-  "EarningPercent": 8120.1939999999995,
-  "EarningAmount": 6430.968,
-  "SubTotal": 31139.424,
-  "TotalPrice": 29519.146,
-  "ExtraField1": "exercitationem",
-  "ExtraField2": "nulla",
-  "ExtraField3": "velit",
-  "ExtraField4": "saepe",
-  "ExtraField5": "quia",
+  "VATInfo": "quod",
+  "VAT": 12163.054,
+  "EarningPercent": 30265.038,
+  "EarningAmount": 16086.822,
+  "SubTotal": 24382.52,
+  "TotalPrice": 26968.07,
+  "ExtraField1": "tempora",
+  "ExtraField2": "ut",
+  "ExtraField3": "enim",
+  "ExtraField4": "sequi",
+  "ExtraField5": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 764
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

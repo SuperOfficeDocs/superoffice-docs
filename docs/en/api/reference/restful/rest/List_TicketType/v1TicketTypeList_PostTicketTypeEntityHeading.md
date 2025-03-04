@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 533,
-  "Name": "Kuhn, Lemke and Parisian",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "Rank": 116,
-  "UdListDefinitionId": 488
+  "HeadingId": 505,
+  "Name": "Beatty Inc and Sons",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 204,
+  "UdListDefinitionId": 136
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 618,
-  "Name": "Funk Group",
-  "Tooltip": "quibusdam",
+  "HeadingId": 787,
+  "Name": "Medhurst-Predovic",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "Rank": 831,
-  "UdListDefinitionId": 328,
+  "Rank": 673,
+  "UdListDefinitionId": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 429
     }
   }
 }

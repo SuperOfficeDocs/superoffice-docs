@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 870
+  "ProjectId": 115
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Down-sized responsive interface",
-  "Postit": "beatae",
+  "Description": "Balanced 6th generation productivity",
+  "Postit": "dolor",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 783,
-  "IncludePerson": 534,
+  "GroupIdx": 244,
+  "IncludePerson": 544,
   "MemberCount": 99.99,
-  "Name": "Herman-Kunde",
-  "PostitTextId": 448,
-  "CreatedDate": "2011-12-27T12:01:28.2909425+01:00",
-  "SelectionId": 315,
-  "SoundEx": "ullam",
-  "Source": 305,
-  "TextId": 820,
-  "UpdatedDate": "2014-03-11T12:01:28.2909425+01:00",
-  "UpdatedCount": 542,
-  "Visibility": 177,
+  "Name": "Kerluke LLC",
+  "PostitTextId": 348,
+  "CreatedDate": "2012-10-17T14:13:41.2977255+02:00",
+  "SelectionId": 879,
+  "SoundEx": "vel",
+  "Source": 774,
+  "TextId": 455,
+  "UpdatedDate": "2006-11-17T14:13:41.2977255+01:00",
+  "UpdatedCount": 631,
+  "Visibility": 432,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 734,
-  "TargetTableName": "Spinka, Lang and Walter",
+  "TargetTableNumber": 272,
+  "TargetTableName": "Rohan-Homenick",
   "Completed": true,
-  "LeftSelectionId": 493,
-  "RightSelectionId": 869,
+  "LeftSelectionId": 506,
+  "RightSelectionId": 37,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mueller, Lakin and Gaylord",
-  "ShadowProviderName": "Pacocha-Okuneva",
-  "ChartKey": "nam",
-  "LastLoaded": "2004-01-22T12:01:28.2909425+01:00",
-  "LastLoadedBy": 655,
+  "MainProviderName": "Legros-Luettgen",
+  "ShadowProviderName": "Gerlach Group",
+  "ChartKey": "facilis",
+  "LastLoaded": "2001-09-14T14:13:41.2977255+02:00",
+  "LastLoadedBy": 449,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-01-13T12:01:28.2909425+01:00",
-  "LastMembershipChangeBy": 69,
+  "LastMembershipChange": "2009-01-14T14:13:41.2977255+01:00",
+  "LastMembershipChangeBy": 967,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugiat",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Thiel LLC",
-  "DashboardTileDefinitionId": 976,
+  "MainHeading": "dolore",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "Green Group",
+  "DashboardTileDefinitionId": 665,
   "VisibleFor": [
     {
-      "VisibleId": 926,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 776
         }
       }
     },
     {
-      "VisibleId": 926,
+      "VisibleId": 995,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldType": "System.String",
+          "FieldLength": 776
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 645
     }
   }
 }

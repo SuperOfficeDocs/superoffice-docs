@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=quo
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=odio
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Name": "Gaylord-Pacocha",
-    "ToolTip": "Aut similique neque officiis quia id provident.",
+    "Id": 396,
+    "Name": "Turcotte, Herman and Hansen",
+    "ToolTip": "Id ex.",
     "Deleted": false,
-    "Rank": 866,
-    "Type": "nihil",
+    "Rank": 375,
+    "Type": "fuga",
     "ChildItems": [
       {
-        "Id": 600,
-        "Name": "Wyman-Walker",
-        "ToolTip": "Mollitia soluta repellat et magnam pariatur perferendis repellat.",
+        "Id": 274,
+        "Name": "Bashirian-Grant",
+        "ToolTip": "Assumenda eos qui.",
         "Deleted": false,
-        "Rank": 262,
-        "Type": "earum",
+        "Rank": 439,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 353,
-        "ExtraInfo": "inventore",
-        "StyleHint": "vel",
-        "FullName": "Ulices Hoeger",
+        "IconHint": "nisi",
+        "ColorBlock": 759,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "quia",
+        "FullName": "Akeem Huels Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 725
+            "FieldType": "System.Int32",
+            "FieldLength": 342
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 217,
-    "ExtraInfo": "eos",
-    "StyleHint": "nam",
-    "FullName": "Prof. Leo Jerome Predovic",
+    "IconHint": "nobis",
+    "ColorBlock": 658,
+    "ExtraInfo": "rem",
+    "StyleHint": "non",
+    "FullName": "Mrs. Henriette Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldType": "System.String",
+        "FieldLength": 501
       }
     }
   }

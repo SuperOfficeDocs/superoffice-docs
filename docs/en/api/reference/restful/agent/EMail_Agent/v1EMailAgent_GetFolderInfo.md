@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "ut",
-    "quia"
+    "sint",
+    "animi"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfeffer Group",
-    "Delimiter": "qui",
-    "Flags": "sunt",
-    "TotalItems": 281,
-    "UnreadItems": 954,
-    "Subscribed": true,
-    "EmailFolderId": 936,
+    "Name": "Mayer, Williamson and Feeney",
+    "Delimiter": "vitae",
+    "Flags": "et",
+    "TotalItems": 718,
+    "UnreadItems": 770,
+    "Subscribed": false,
+    "EmailFolderId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 244
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lindgren, Halvorson and Ernser",
+  "LayoutName": "Heathcote Group",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 830,
-  "Name": "Bahringer Group",
-  "Value": "voluptatibus",
-  "CreatedDate": "2022-02-04T12:01:27.3377499+01:00",
-  "UpdatedDate": "2021-07-07T12:01:27.3377499+02:00",
-  "CreatedBy": "voluptas",
-  "UpdatedBy": "modi",
+  "AudienceLayoutId": 542,
+  "Name": "Torp Group",
+  "Value": "praesentium",
+  "CreatedDate": "2004-07-17T14:13:39.3754818+02:00",
+  "UpdatedDate": "2013-06-16T14:13:39.3754818+02:00",
+  "CreatedBy": "hic",
+  "UpdatedBy": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 829
+      "FieldType": "System.String",
+      "FieldLength": 626
     }
   }
 }

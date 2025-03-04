@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Stark LLC",
-  "AssociateId": 112,
-  "DetailsTable": 850,
-  "DetailsRecord": 842,
+  "Id": 721,
+  "Name": "Becker, Howe and Daniel",
+  "AssociateId": 727,
+  "DetailsTable": 58,
+  "DetailsRecord": 122,
   "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "qui",
-    "ParameterObject2": "aut"
+    "ParameterObject1": "explicabo",
+    "ParameterObject2": "explicabo"
   },
-  "LastStarted": "2006-12-11T12:01:27.9002891+01:00",
-  "Created": "2006-10-23T12:01:27.9002891+02:00",
-  "StartCount": 916,
-  "DatabaseSerialNumber": "1034684",
-  "Context": "fugiat",
-  "Result": "dolorem",
+  "LastStarted": "2001-09-22T14:13:40.4066046+02:00",
+  "Created": "2021-12-18T14:13:40.4066046+01:00",
+  "StartCount": 684,
+  "DatabaseSerialNumber": "1813715",
+  "Context": "adipisci",
+  "Result": "placeat",
   "State": "All",
-  "Description": "Right-sized radical customer loyalty",
+  "Description": "Multi-channelled modular moderator",
   "Response": "autem",
-  "Request": "velit",
-  "ProgressDescription": "Open-architected human-resource focus group",
-  "ProgressPercent": 401,
-  "FileName": "Erdman, Grant and Gislason",
+  "Request": "labore",
+  "ProgressDescription": "Intuitive cohesive project",
+  "ProgressPercent": 264,
+  "FileName": "Stanton, Ritchie and Senger",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 798
     }
   }
 }

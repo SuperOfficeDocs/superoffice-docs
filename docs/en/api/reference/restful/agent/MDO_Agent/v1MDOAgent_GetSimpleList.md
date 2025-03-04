@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hyatt, Bauch and Frami"
+  "Name": "Shields Inc and Sons"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 30,
-    "Name": "Cormier Inc and Sons",
-    "ToolTip": "Aut maiores.",
-    "Deleted": false,
-    "Rank": 433,
-    "Type": "voluptatum",
+    "Id": 80,
+    "Name": "Turcotte-Schulist",
+    "ToolTip": "Eligendi a aut fugit deleniti aut.",
+    "Deleted": true,
+    "Rank": 275,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Bartell, Zulauf and Gleichner",
-        "ToolTip": "Incidunt corporis beatae suscipit modi praesentium.",
-        "Deleted": true,
-        "Rank": 851,
-        "Type": "eaque",
+        "Id": 646,
+        "Name": "Pacocha-Krajcik",
+        "ToolTip": "Similique perferendis earum numquam ullam aspernatur consequuntur rerum.",
+        "Deleted": false,
+        "Rank": 357,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 522,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "repellendus",
-        "FullName": "Maryam Rosenbaum",
+        "IconHint": "numquam",
+        "ColorBlock": 584,
+        "ExtraInfo": "distinctio",
+        "StyleHint": "quaerat",
+        "FullName": "Mack Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldLength": 772
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 474,
-    "ExtraInfo": "atque",
-    "StyleHint": "reiciendis",
-    "FullName": "Jarod Wehner",
+    "IconHint": "est",
+    "ColorBlock": 190,
+    "ExtraInfo": "magnam",
+    "StyleHint": "fugiat",
+    "FullName": "Carey Ernser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 571
+        "FieldLength": 322
       }
     }
   }

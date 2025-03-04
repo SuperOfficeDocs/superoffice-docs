@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Smitham Group",
-  "Id": 111
+  "ListName": "Bahringer Group",
+  "Id": 809
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Raynor-Heaney",
-  "ToolTip": "Nobis corporis necessitatibus.",
+  "Id": 654,
+  "Name": "Prohaska Group",
+  "ToolTip": "Voluptatem consequatur odio ea asperiores ipsum nihil dolores.",
   "Deleted": true,
-  "Rank": 614,
-  "Type": "vero",
+  "Rank": 810,
+  "Type": "commodi",
   "ChildItems": [
     {
-      "Id": 570,
-      "Name": "Gorczany-Kuvalis",
-      "ToolTip": "Consequatur iure ut ea sunt illum.",
+      "Id": 671,
+      "Name": "Glover, Emmerich and Cronin",
+      "ToolTip": "Esse et optio et illo expedita et.",
       "Deleted": false,
-      "Rank": 140,
-      "Type": "vel",
+      "Rank": 89,
+      "Type": "eum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 350,
-      "ExtraInfo": "nostrum",
-      "StyleHint": "explicabo",
-      "FullName": "Prof. Clement Carli Spencer DDS",
+      "IconHint": "quo",
+      "ColorBlock": 268,
+      "ExtraInfo": "est",
+      "StyleHint": "sunt",
+      "FullName": "Prof. Kevin Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldType": "System.String",
+          "FieldLength": 258
         }
       }
     }
   ],
-  "IconHint": "et",
-  "ColorBlock": 993,
-  "ExtraInfo": "a",
-  "StyleHint": "deserunt",
-  "FullName": "Ms. Breanne Lenora Goodwin III",
+  "IconHint": "sit",
+  "ColorBlock": 919,
+  "ExtraInfo": "odit",
+  "StyleHint": "quidem",
+  "FullName": "Miss Tyshawn Jasen Hane",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 167
     }
   }
 }

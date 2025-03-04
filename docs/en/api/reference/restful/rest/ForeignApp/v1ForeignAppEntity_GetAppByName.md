@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Jun 2019 12:01:32 G6T
+Last-Modified: Thu, 01 Jun 2017 14:13:48 G6T
 
 {
-  "ForeignAppId": 23,
-  "Name": "Homenick Inc and Sons",
-  "CreatedDate": "2024-05-17T12:01:32.9175621+02:00",
-  "UpdatedDate": "2019-06-03T12:01:32.9175621+02:00",
+  "ForeignAppId": 940,
+  "Name": "Bayer, Gibson and Kilback",
+  "CreatedDate": "2006-03-24T14:13:48.8836985+01:00",
+  "UpdatedDate": "2017-06-01T14:13:48.8836985+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 542,
-      "Name": "Yundt Group",
-      "CreatedDate": "2009-11-14T12:01:32.9175621+01:00",
-      "UpdatedDate": "2016-09-16T12:01:32.9175621+02:00",
-      "AssociateFullName": "Diego Hosea Skiles MD",
-      "CreatedBy": "reiciendis",
-      "UpdatedBy": "laboriosam",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 235,
+      "ForeignDeviceId": 786,
+      "Name": "Denesik-Schroeder",
+      "CreatedDate": "2005-11-28T14:13:48.8836985+01:00",
+      "UpdatedDate": "2004-08-27T14:13:48.8836985+02:00",
+      "AssociateFullName": "Mr. Abbey Cecil Hoeger III",
+      "CreatedBy": "fuga",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "aliquid",
+      "ForeignAppId": 512,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 165
         }
       }
     }
@@ -108,7 +108,7 @@ Last-Modified: Mon, 03 Jun 2019 12:01:32 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 151
     }
   }
 }

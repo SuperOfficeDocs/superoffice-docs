@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=235
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=279
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Versatile intermediate open architecture",
-  "Postit": "animi",
+  "Description": "Phased well-modulated capacity",
+  "Postit": "iusto",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 490,
-  "IncludePerson": 317,
+  "GroupIdx": 997,
+  "IncludePerson": 409,
   "MemberCount": 99.99,
-  "Name": "Rutherford Group",
-  "PostitTextId": 687,
-  "CreatedDate": "1998-10-26T12:01:28.2909425+01:00",
-  "SelectionId": 592,
-  "SoundEx": "iure",
-  "Source": 559,
-  "TextId": 790,
-  "UpdatedDate": "2014-01-10T12:01:28.2909425+01:00",
-  "UpdatedCount": 554,
-  "Visibility": 661,
+  "Name": "Bayer, Parker and Moen",
+  "PostitTextId": 345,
+  "CreatedDate": "2016-10-08T14:13:41.2821041+02:00",
+  "SelectionId": 376,
+  "SoundEx": "et",
+  "Source": 869,
+  "TextId": 938,
+  "UpdatedDate": "2016-09-20T14:13:41.2821041+02:00",
+  "UpdatedCount": 614,
+  "Visibility": 264,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 482,
-  "TargetTableName": "Daniel-Cassin",
-  "Completed": false,
-  "LeftSelectionId": 565,
-  "RightSelectionId": 45,
+  "TargetTableNumber": 641,
+  "TargetTableName": "Purdy, Kuhic and Stanton",
+  "Completed": true,
+  "LeftSelectionId": 569,
+  "RightSelectionId": 902,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Konopelski-Franecki",
-  "ShadowProviderName": "Bartoletti LLC",
-  "ChartKey": "accusantium",
-  "LastLoaded": "2004-09-15T12:01:28.2909425+02:00",
-  "LastLoadedBy": 917,
+  "MainProviderName": "Durgan, Altenwerth and Littel",
+  "ShadowProviderName": "Heller Inc and Sons",
+  "ChartKey": "pariatur",
+  "LastLoaded": "2021-10-25T14:13:41.2821041+02:00",
+  "LastLoadedBy": 671,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-04-28T12:01:28.2909425+02:00",
-  "LastMembershipChangeBy": 842,
+  "LastMembershipChange": "2024-08-30T14:13:41.2821041+02:00",
+  "LastMembershipChangeBy": 490,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quod",
-  "MemberTabHeading": "distinctio",
-  "MailingsProviderName": "Grant, Schumm and Kuhlman",
-  "DashboardTileDefinitionId": 212,
+  "MainHeading": "labore",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Kulas Group",
+  "DashboardTileDefinitionId": 341,
   "VisibleFor": [
     {
-      "VisibleId": 119,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 83
         }
       }
     },
     {
-      "VisibleId": 119,
+      "VisibleId": 87,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 344
+          "FieldLength": 83
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 551
     }
   }
 }

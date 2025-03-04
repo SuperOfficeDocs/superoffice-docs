@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Thompson LLC",
-      "DisplayName": "Hahn-Kunze",
-      "DisplayTooltip": "quod",
-      "IsActive": true
+      "Name": "Ondricka, Nienow and Ziemann",
+      "DisplayName": "Volkman, Kuhlman and Donnelly",
+      "DisplayTooltip": "optio",
+      "IsActive": false
     },
     {
-      "Name": "Thompson LLC",
-      "DisplayName": "Hahn-Kunze",
-      "DisplayTooltip": "quod",
-      "IsActive": true
+      "Name": "Ondricka, Nienow and Ziemann",
+      "DisplayName": "Volkman, Kuhlman and Donnelly",
+      "DisplayTooltip": "optio",
+      "IsActive": false
     }
   ]
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=inventore
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Bogan, Kiehn and Hagenes",
-    "ToolTip": "Facere voluptas qui ipsum.",
+    "Id": 115,
+    "Name": "Hirthe-Hoppe",
+    "ToolTip": "Sit similique voluptas maxime tempore et qui.",
     "Deleted": false,
-    "Rank": 70,
-    "Type": "doloribus",
+    "Rank": 816,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Spinka LLC",
-        "ToolTip": "A neque.",
-        "Deleted": true,
-        "Rank": 844,
-        "Type": "sed",
+        "Id": 866,
+        "Name": "Kautzer Group",
+        "ToolTip": "Accusamus rerum totam autem nobis.",
+        "Deleted": false,
+        "Rank": 989,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "earum",
-        "ColorBlock": 52,
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "at",
-        "FullName": "Lois Rosenbaum",
+        "IconHint": "labore",
+        "ColorBlock": 582,
+        "ExtraInfo": "porro",
+        "StyleHint": "illum",
+        "FullName": "Prof. Marcia Runolfsson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 585
+            "FieldType": "System.Int32",
+            "FieldLength": 958
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 436,
-    "ExtraInfo": "quia",
-    "StyleHint": "fugit",
-    "FullName": "Edwina Cronin",
+    "IconHint": "commodi",
+    "ColorBlock": 418,
+    "ExtraInfo": "culpa",
+    "StyleHint": "aut",
+    "FullName": "Carolyn Lehner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 352
       }
     }
   }

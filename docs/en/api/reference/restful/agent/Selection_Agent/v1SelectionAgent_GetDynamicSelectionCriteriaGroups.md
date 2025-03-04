@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 382
+  "SelectionId": 404
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bradtke, Carter and Pacocha",
-    "Description": "Grass-roots asynchronous Graphic Interface",
-    "Rank": 598,
+    "Name": "Wyman LLC",
+    "Description": "Customer-focused 6th generation middleware",
+    "Rank": 538,
     "Restrictions": [
       {
-        "Name": "Nicolas, Russel and Schuster",
-        "Operator": "qui",
+        "Name": "Mueller-Davis",
+        "Operator": "dicta",
         "Values": [
-          "sit",
+          "veritatis",
           "non"
         ],
         "DisplayValues": [
-          "esse",
-          "illo"
+          "ullam",
+          "deleniti"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 201,
         "InterOperator": "And",
-        "UniqueHash": 740
+        "UniqueHash": 18
       }
     ]
   },
   {
-    "Name": "Bradtke, Carter and Pacocha",
-    "Description": "Grass-roots asynchronous Graphic Interface",
-    "Rank": 598,
+    "Name": "Wyman LLC",
+    "Description": "Customer-focused 6th generation middleware",
+    "Rank": 538,
     "Restrictions": [
       {
-        "Name": "Nicolas, Russel and Schuster",
-        "Operator": "qui",
+        "Name": "Mueller-Davis",
+        "Operator": "dicta",
         "Values": [
-          "sit",
+          "veritatis",
           "non"
         ],
         "DisplayValues": [
-          "esse",
-          "illo"
+          "ullam",
+          "deleniti"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 186,
+        "InterParenthesis": 201,
         "InterOperator": "And",
-        "UniqueHash": 740
+        "UniqueHash": 18
       }
     ]
   }

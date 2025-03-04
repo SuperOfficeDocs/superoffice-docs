@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 116,
+  "TargetYear": 852,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 297,
-  "DimensionId": 281
+  "Id": 196,
+  "DimensionId": 487
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 508,
+  "TargetAssignmentInfoId": 260,
   "Values": [
-    387,
-    589
+    905,
+    32
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 739,
-  "DimensionListItemDisplayName": "Rath LLC",
+  "DimensionListItem": 903,
+  "DimensionListItemDisplayName": "Price LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 321
+      "FieldLength": 961
     }
   }
 }

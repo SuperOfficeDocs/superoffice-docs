@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "autem",
-  "Data": "repellendus"
+  "Key": "soluta",
+  "Data": "tenetur"
 }
 ```
 

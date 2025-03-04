@@ -81,12 +81,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 696,
-  "Name": "Gleichner, Macejkovic and Rodriguez",
-  "Tooltip": "natus",
-  "PassiveText": "consequatur",
+  "ReldefId": 345,
+  "Name": "Heidenreich, Weber and Considine",
+  "Tooltip": "quasi",
+  "PassiveText": "placeat",
   "Deleted": false,
-  "Rank": 532,
+  "Rank": 47,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -99,12 +99,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 381,
-  "Name": "Johnston Group",
-  "Tooltip": "quaerat",
-  "PassiveText": "reiciendis",
-  "Deleted": true,
-  "Rank": 917,
+  "ReldefId": 524,
+  "Name": "Mueller, Botsford and Cremin",
+  "Tooltip": "ut",
+  "PassiveText": "autem",
+  "Deleted": false,
+  "Rank": 823,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 162
     }
   }
 }

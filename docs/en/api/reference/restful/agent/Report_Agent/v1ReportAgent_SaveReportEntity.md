@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 345,
+  "ReportId": 265,
   "ReportCategory": "All",
-  "Description": "User-centric national concept",
+  "Description": "Multi-lateral holistic adapter",
   "ReportLayout": "CalendarMonth",
-  "Name": "Satterfield-Reinger",
-  "AssociateId": 591,
-  "TemplateId": 475,
+  "Name": "Torphy, Heller and Pouros",
+  "AssociateId": 852,
+  "TemplateId": 84,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 607,
+  "ReportId": 588,
   "ReportCategory": "All",
-  "Description": "Cross-platform impactful internet solution",
+  "Description": "Exclusive systemic algorithm",
   "ReportLayout": "CalendarMonth",
-  "Name": "Lang-Lindgren",
-  "AssociateId": 943,
-  "TemplateId": 4,
+  "Name": "Crooks LLC",
+  "AssociateId": 682,
+  "TemplateId": 539,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 821
     }
   }
 }

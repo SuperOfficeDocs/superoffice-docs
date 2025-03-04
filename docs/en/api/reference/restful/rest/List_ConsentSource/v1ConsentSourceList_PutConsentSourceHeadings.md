@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 669,
-    "Name": "Bartoletti Group",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 982,
-    "UdListDefinitionId": 553
+    "HeadingId": 607,
+    "Name": "West Inc and Sons",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 971,
+    "UdListDefinitionId": 969
   },
   {
-    "HeadingId": 669,
-    "Name": "Bartoletti Group",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 982,
-    "UdListDefinitionId": 553
+    "HeadingId": 607,
+    "Name": "West Inc and Sons",
+    "Tooltip": "quibusdam",
+    "Deleted": true,
+    "Rank": 971,
+    "UdListDefinitionId": 969
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "Considine Inc and Sons",
-    "Tooltip": "aut",
+    "HeadingId": 919,
+    "Name": "Christiansen-Nolan",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 136,
-    "UdListDefinitionId": 144,
+    "Rank": 19,
+    "UdListDefinitionId": 221,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 971
+        "FieldLength": 136
       }
     }
   }

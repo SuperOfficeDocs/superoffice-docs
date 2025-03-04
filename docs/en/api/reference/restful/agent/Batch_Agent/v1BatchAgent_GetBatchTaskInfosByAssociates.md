@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    94,
-    666
+    641,
+    867
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Dare-Ankunding",
-    "AssociateId": 878,
-    "DetailsTable": 776,
-    "DetailsRecord": 628,
-    "IsSystemTask": false,
+    "Id": 476,
+    "Name": "Nolan-Trantow",
+    "AssociateId": 314,
+    "DetailsTable": 897,
+    "DetailsRecord": 29,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "asperiores",
-      "ParameterObject2": "beatae"
+      "ParameterObject1": "cum",
+      "ParameterObject2": "sit"
     },
-    "LastStarted": "2000-09-30T12:01:27.3377499+02:00",
-    "Created": "2000-10-29T12:01:27.3377499+01:00",
-    "StartCount": 914,
-    "DatabaseSerialNumber": "693972",
-    "Context": "eum",
-    "Result": "dicta",
+    "LastStarted": "2007-02-28T14:13:39.3911033+01:00",
+    "Created": "2016-11-15T14:13:39.3911033+01:00",
+    "StartCount": 452,
+    "DatabaseSerialNumber": "1539933",
+    "Context": "nemo",
+    "Result": "aut",
     "State": "All",
-    "Description": "Profit-focused zero administration info-mediaries",
-    "Response": "at",
-    "Request": "minus",
-    "ProgressDescription": "Virtual local moratorium",
-    "ProgressPercent": 361,
-    "FileName": "Bins, Grimes and Herzog",
+    "Description": "Public-key client-driven strategy",
+    "Response": "sit",
+    "Request": "est",
+    "ProgressDescription": "Cross-group client-driven info-mediaries",
+    "ProgressPercent": 13,
+    "FileName": "Kulas Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 55
       }
     }
   }

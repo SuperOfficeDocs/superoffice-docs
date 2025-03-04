@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
+  "Id": 229,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 429,
+  "EjMessageId": 390,
   "Ticket": null,
-  "CreatedAt": "2011-10-04T12:01:28.5565847+02:00",
+  "CreatedAt": "2023-09-22T14:13:41.6102613+02:00",
   "CreatedBy": null,
-  "Author": "natus",
+  "Author": "nulla",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "exercitationem",
-  "TimeSpent": 357,
-  "Body": "perferendis",
-  "HtmlBody": "suscipit",
-  "EmailHeader": "leonard@waelchibergnaum.uk",
-  "DebugInfo": "eveniet",
-  "MailSorter": "nam",
+  "MessageId": "animi",
+  "TimeSpent": 192,
+  "Body": "quam",
+  "HtmlBody": "quaerat",
+  "EmailHeader": "lemuel.homenick@osinskiullrich.us",
+  "DebugInfo": "hic",
+  "MailSorter": "asperiores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 497,
-      "Name": "McKenzie Inc and Sons",
-      "Value": "non",
+      "Id": 484,
+      "Name": "Legros Group",
+      "Value": "aspernatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 532
         }
       }
     }
   ],
   "Important": false,
-  "Language": "omnis",
-  "Sentiment": 415,
-  "SentimentConfidence": 206,
+  "Language": "eaque",
+  "Sentiment": 723,
+  "SentimentConfidence": 834,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 879,
-      "Name": "Abshire-McClure",
-      "ContentType": "eaque",
-      "AttSize": 930,
-      "InlineImage": true,
-      "ContentId": "dicta",
-      "AuthKey": "quis",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 527,
+      "Name": "Okuneva Inc and Sons",
+      "ContentType": "ea",
+      "AttSize": 527,
+      "InlineImage": false,
+      "ContentId": "molestiae",
+      "AuthKey": "quasi",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 420
+          "FieldLength": 724
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "officia"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 51
+  "PersonId": 788
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 140,
-  "Name": "Gulgowski-Kassulke",
-  "PersonId": 1000,
-  "Rank": 955,
-  "Tooltip": "dolor",
+  "AssociateId": 46,
+  "Name": "Boyer Group",
+  "PersonId": 135,
+  "Rank": 385,
+  "Tooltip": "quod",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 433,
-  "FullName": "Vincenza Hammes",
-  "FormalName": "Block Group",
+  "GroupIdx": 93,
+  "FullName": "Ms. Beau Stracke",
+  "FormalName": "Spencer-Dach",
   "Deleted": false,
-  "EjUserId": 462,
-  "UserName": "Simonis-O'Connell",
+  "EjUserId": 225,
+  "UserName": "Yost LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 50
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

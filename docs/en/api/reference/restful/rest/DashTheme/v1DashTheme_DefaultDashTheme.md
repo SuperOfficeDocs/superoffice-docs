@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 424,
-  "Name": "Jenkins, Bruen and Koch",
-  "Config": "laborum",
-  "Rank": 903,
-  "Client": "est",
+  "DashboardThemeId": 320,
+  "Name": "Ferry-Swift",
+  "Config": "corporis",
+  "Rank": 454,
+  "Client": "excepturi",
   "Style": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 805
     }
   }
 }

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Ritchie Group"
+  "ApplicationName": "Greenholt Group"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 941,
-  "Name": "Bauch LLC",
-  "CreatedDate": "1999-12-19T12:01:27.9002891+01:00",
-  "UpdatedDate": "2008-09-18T12:01:27.9002891+02:00",
-  "AssociateFullName": "Dr. Mike Lehner",
-  "CreatedBy": "laborum",
-  "UpdatedBy": "iusto",
-  "DeviceIdentifier": "necessitatibus",
-  "ForeignAppId": 961,
+  "ForeignDeviceId": 844,
+  "Name": "Ankunding-Homenick",
+  "CreatedDate": "2022-09-07T14:13:40.3909833+02:00",
+  "UpdatedDate": "2015-08-14T14:13:40.3909833+02:00",
+  "AssociateFullName": "Miss Tanner Considine",
+  "CreatedBy": "et",
+  "UpdatedBy": "voluptatem",
+  "DeviceIdentifier": "itaque",
+  "ForeignAppId": 806,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldType": "System.String",
+      "FieldLength": 522
     }
   }
 }

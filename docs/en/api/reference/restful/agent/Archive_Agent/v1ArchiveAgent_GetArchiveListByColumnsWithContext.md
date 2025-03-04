@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cummings-Graham",
+  "ProviderName": "Simonis-Toy",
   "Columns": [
-    "et",
-    "necessitatibus"
+    "sit",
+    "aut"
   ],
   "SortOrder": [
     {
-      "Name": "Hodkiewicz, Wilderman and Auer",
+      "Name": "Wilderman Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hodkiewicz, Wilderman and Auer",
+      "Name": "Wilderman Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Langosh Inc and Sons",
-      "Operator": "qui",
+      "Name": "Rohan-Schowalter",
+      "Operator": "ut",
       "Values": [
-        "officiis",
-        "impedit"
+        "quaerat",
+        "provident"
       ],
       "DisplayValues": [
-        "quam",
-        "totam"
+        "quis",
+        "nesciunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 545,
+      "InterParenthesis": 967,
       "InterOperator": "And",
-      "UniqueHash": 381
+      "UniqueHash": 795
     }
   ],
   "Entities": [
-    "est",
-    "asperiores"
+    "aspernatur",
+    "et"
   ],
-  "Page": 51,
-  "PageSize": 968,
-  "Context": "quasi"
+  "Page": 582,
+  "PageSize": 502,
+  "Context": "asperiores"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Durgan-Boyle",
-    "PrimaryKey": 169,
+    "EntityName": "Bergnaum, Metz and Marvin",
+    "PrimaryKey": 4,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ipsum",
-        "TooltipHint": "adipisci",
-        "LinkHint": "doloremque"
+        "DisplayValue": "occaecati",
+        "TooltipHint": "deserunt",
+        "LinkHint": "id"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "ad",
+    "LinkHint": "aliquid",
+    "StyleHint": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 65
       }
     }
   }

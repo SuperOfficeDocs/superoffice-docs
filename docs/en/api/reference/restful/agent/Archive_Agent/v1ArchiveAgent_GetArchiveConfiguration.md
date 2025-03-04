@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hoeger, Howe and Nitzsche",
-  "ProviderName": "Hauck Inc and Sons"
+  "GuiName": "Altenwerth, Ernser and Crooks",
+  "ProviderName": "Sipes-Doyle"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Batz, Ledner and Torp",
-      "DisplayTooltip": "cum",
-      "DisplayType": "voluptatum",
+      "DisplayName": "Keebler, Mann and Weissnat",
+      "DisplayTooltip": "quisquam",
+      "DisplayType": "consequuntur",
       "CanOrderBy": false,
-      "Name": "Crooks-Goodwin",
-      "CanRestrictBy": false,
-      "RestrictionType": "nihil",
-      "RestrictionListName": "Daugherty-Baumbach",
-      "IsVisible": true,
-      "ExtraInfo": "et",
-      "Width": "excepturi",
-      "IconHint": "pariatur",
-      "HeadingIconHint": "reprehenderit"
+      "Name": "Ernser LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "architecto",
+      "RestrictionListName": "Jewess, Collier and Gutmann",
+      "IsVisible": false,
+      "ExtraInfo": "voluptas",
+      "Width": "qui",
+      "IconHint": "deserunt",
+      "HeadingIconHint": "illum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 47,
-      "Name": "Stamm Group",
-      "ToolTip": "Sint quos quidem rerum dignissimos.",
-      "Deleted": true,
-      "Rank": 688,
-      "Type": "aut",
-      "ColorBlock": 173,
-      "IconHint": "accusamus",
+      "Id": 388,
+      "Name": "Stroman Inc and Sons",
+      "ToolTip": "Corporis quaerat amet omnis aut ipsam possimus pariatur.",
+      "Deleted": false,
+      "Rank": 454,
+      "Type": "corrupti",
+      "ColorBlock": 710,
+      "IconHint": "quidem",
       "Selected": false,
-      "LastChanged": "2023-04-20T12:01:27.3221238+02:00",
+      "LastChanged": "2023-05-05T14:13:39.3442417+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ad",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "ratione",
+      "StyleHint": "hic",
       "Hidden": false,
-      "FullName": "Urban Rice",
+      "FullName": "Ms. Alvena Axel Beer Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 298
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Fay Inc and Sons",
+      "Name": "Hane LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Fay Inc and Sons",
+      "Name": "Hane LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "dolore",
+  "OwnerKeys": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 360
     }
   }
 }

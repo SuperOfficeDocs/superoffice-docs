@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=velit
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=saepe
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Wilkinson-Bailey",
-    "ToolTip": "Voluptatibus est occaecati.",
+    "Id": 468,
+    "Name": "Dare-Kirlin",
+    "ToolTip": "Ex et unde accusamus et est a.",
     "Deleted": false,
-    "Rank": 876,
-    "Type": "eum",
+    "Rank": 369,
+    "Type": "optio",
     "ChildItems": [
       {
-        "Id": 749,
-        "Name": "Gulgowski-O'Connell",
-        "ToolTip": "Assumenda et et ut quasi.",
+        "Id": 368,
+        "Name": "Lind, Lowe and Anderson",
+        "ToolTip": "Assumenda ipsa sed repellendus nulla.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "nihil",
+        "Rank": 288,
+        "Type": "culpa",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 172,
-        "ExtraInfo": "doloremque",
-        "StyleHint": "reprehenderit",
-        "FullName": "Wanda Durgan",
+        "IconHint": "recusandae",
+        "ColorBlock": 315,
+        "ExtraInfo": "ducimus",
+        "StyleHint": "adipisci",
+        "FullName": "Makenzie Boyer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldLength": 476
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 562,
-    "ExtraInfo": "quos",
-    "StyleHint": "qui",
-    "FullName": "Leonard Padberg",
+    "IconHint": "hic",
+    "ColorBlock": 270,
+    "ExtraInfo": "ratione",
+    "StyleHint": "et",
+    "FullName": "Miracle Chelsey Kuphal II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 359
       }
     }
   }

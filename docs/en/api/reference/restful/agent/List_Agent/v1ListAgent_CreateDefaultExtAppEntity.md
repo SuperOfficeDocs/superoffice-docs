@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 517,
-  "Name": "Bernhard-Sporer",
-  "Tooltip": "explicabo",
+  "ExtAppId": 930,
+  "Name": "Douglas LLC",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 304,
-  "Filename": "corrupti",
-  "Parameters": "magni",
-  "Workdir": "omnis",
+  "Rank": 227,
+  "Filename": "voluptas",
+  "Parameters": "unde",
+  "Workdir": "sed",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 570,
-  "WaitToFinish": false,
+  "Icon": 920,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "consectetur",
+  "Path": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 731
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=et
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=nemo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Collier-Sipes",
-    "ToolTip": "Cupiditate libero corporis et.",
-    "Deleted": true,
-    "Rank": 288,
-    "Type": "ducimus",
+    "Id": 830,
+    "Name": "Cartwright, Medhurst and DuBuque",
+    "ToolTip": "Qui iure cum dolorem.",
+    "Deleted": false,
+    "Rank": 548,
+    "Type": "expedita",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Lesch-Heller",
-        "ToolTip": "Et et velit accusamus tempore ipsam sit.",
+        "Id": 982,
+        "Name": "Schimmel, Oberbrunner and Leannon",
+        "ToolTip": "Voluptas rem necessitatibus sed qui est.",
         "Deleted": false,
-        "Rank": 750,
-        "Type": "eos",
+        "Rank": 562,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "culpa",
-        "ColorBlock": 464,
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorum",
-        "FullName": "Richie Fisher IV",
+        "IconHint": "omnis",
+        "ColorBlock": 399,
+        "ExtraInfo": "ut",
+        "StyleHint": "velit",
+        "FullName": "Vance Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 218
+            "FieldLength": 523
           }
         }
       }
     ],
-    "IconHint": "saepe",
-    "ColorBlock": 317,
-    "ExtraInfo": "eos",
-    "StyleHint": "magni",
-    "FullName": "Chad Welch",
+    "IconHint": "alias",
+    "ColorBlock": 322,
+    "ExtraInfo": "iusto",
+    "StyleHint": "dolore",
+    "FullName": "Ettie Reichert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 292
+        "FieldType": "System.Int32",
+        "FieldLength": 690
       }
     }
   }

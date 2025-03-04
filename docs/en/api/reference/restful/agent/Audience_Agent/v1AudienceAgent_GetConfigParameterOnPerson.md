@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Goyette-Ferry",
-  "PersonId": 665
+  "ParameterName": "Quitzon Inc and Sons",
+  "PersonId": 400
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 182,
-  "Name": "Barton-Bernhard",
-  "Value": "sapiente",
-  "CreatedDate": "2005-04-26T12:01:27.3377499+02:00",
-  "UpdatedDate": "2022-03-08T12:01:27.3377499+01:00",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "dolorem",
+  "AudienceLayoutId": 951,
+  "Name": "Schroeder, Doyle and Howe",
+  "Value": "voluptatem",
+  "CreatedDate": "2001-01-12T14:13:39.3754818+01:00",
+  "UpdatedDate": "2019-02-06T14:13:39.3754818+01:00",
+  "CreatedBy": "dolorem",
+  "UpdatedBy": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

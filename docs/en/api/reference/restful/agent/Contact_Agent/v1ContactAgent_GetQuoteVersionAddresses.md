@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 356
+  "QuoteVersionId": 111
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 13554.55,
-    "Wgs84Longitude": 16077.42,
+    "Wgs84Latitude": 5769.6939999999995,
+    "Wgs84Longitude": 20781.554,
     "LocalizedAddress": [
       [
         {
-          "Name": "Russel-Crona",
-          "Value": "ut",
-          "Tooltip": "voluptate",
-          "Label": "nulla",
-          "ValueLength": 681,
-          "AddressType": "voluptatem",
+          "Name": "Daugherty LLC",
+          "Value": "mollitia",
+          "Tooltip": "est",
+          "Label": "non",
+          "ValueLength": 588,
+          "AddressType": "deleniti",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 60
+              "FieldType": "System.Int32",
+              "FieldLength": 129
             }
           }
         }
       ],
       [
         {
-          "Name": "Abbott, Torp and Kunde",
-          "Value": "voluptatem",
-          "Tooltip": "corrupti",
-          "Label": "molestias",
-          "ValueLength": 744,
-          "AddressType": "id",
+          "Name": "Marquardt, Cremin and Kirlin",
+          "Value": "et",
+          "Tooltip": "dolor",
+          "Label": "magnam",
+          "ValueLength": 60,
+          "AddressType": "nihil",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 973
+              "FieldLength": 906
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "similique",
+    "Formatted": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 230
       }
     }
   }

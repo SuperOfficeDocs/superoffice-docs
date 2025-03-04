@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 542,
-  "SelectionId": 968,
-  "Restrictions": "eos"
+  "DashboardTileId": 468,
+  "SelectionId": 156,
+  "Restrictions": "porro"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Thompson, Boyle and Hintz",
-        "DisplayTooltip": "sunt",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Beier Group",
+        "DisplayName": "McLaughlin-Schuppe",
+        "DisplayTooltip": "ut",
+        "DisplayType": "maxime",
+        "CanOrderBy": false,
+        "Name": "Koepp LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "perspiciatis",
-        "RestrictionListName": "Larson, Brown and Hills",
+        "RestrictionType": "nostrum",
+        "RestrictionListName": "Kling Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "nihil",
-        "Width": "at",
-        "IconHint": "mollitia",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "quasi",
+        "Width": "beatae",
+        "IconHint": "voluptate",
+        "HeadingIconHint": "corrupti"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Thompson, Boyle and Hintz",
-        "DisplayTooltip": "sunt",
-        "DisplayType": "sint",
-        "CanOrderBy": true,
-        "Name": "Beier Group",
+        "DisplayName": "McLaughlin-Schuppe",
+        "DisplayTooltip": "ut",
+        "DisplayType": "maxime",
+        "CanOrderBy": false,
+        "Name": "Koepp LLC",
         "CanRestrictBy": false,
-        "RestrictionType": "perspiciatis",
-        "RestrictionListName": "Larson, Brown and Hills",
+        "RestrictionType": "nostrum",
+        "RestrictionListName": "Kling Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "nihil",
-        "Width": "at",
-        "IconHint": "mollitia",
-        "HeadingIconHint": "et"
+        "ExtraInfo": "quasi",
+        "Width": "beatae",
+        "IconHint": "voluptate",
+        "HeadingIconHint": "corrupti"
       }
     ],
     "Result": null

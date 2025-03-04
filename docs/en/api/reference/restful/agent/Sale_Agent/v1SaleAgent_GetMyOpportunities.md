@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 990
+  "Count": 423
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dach, Conroy and Huel",
-    "SaleDate": "2002-12-16T12:01:28.2596899+01:00",
-    "SaleId": 752,
-    "Probability": 878,
-    "Title": "molestiae",
-    "Amount": 18572.084,
-    "Currency": "quae",
-    "ProjectName": "Mayert, Anderson and Witting",
-    "AssociateFullName": "Jedediah Bogan",
-    "Description": "Up-sized static productivity",
+    "ContactName": "Mitchell Inc and Sons",
+    "SaleDate": "2007-10-14T14:13:41.240351+02:00",
+    "SaleId": 713,
+    "Probability": 333,
+    "Title": "voluptas",
+    "Amount": 30070.73,
+    "Currency": "eius",
+    "ProjectName": "Carroll, Wilderman and Kertzmann",
+    "AssociateFullName": "Anya Terry",
+    "Description": "Assimilated bottom-line open architecture",
     "Status": "Lost",
-    "WeightedAmount": 15171.694,
-    "ProjectId": 10,
-    "EarningPercent": 20928.852,
-    "Earning": 28447.318,
-    "ContactId": 263,
-    "AssociateId": 467,
-    "PersonId": 554,
-    "SaleTypeId": 742,
-    "SaleTypeName": "Nitzsche-Reynolds",
-    "PersonFullName": "Ted Graham",
+    "WeightedAmount": 1438.5059999999999,
+    "ProjectId": 935,
+    "EarningPercent": 18393.446,
+    "Earning": 21054.212,
+    "ContactId": 235,
+    "AssociateId": 690,
+    "PersonId": 713,
+    "SaleTypeId": 9,
+    "SaleTypeName": "Bashirian-Leffler",
+    "PersonFullName": "Soledad Rogahn V",
     "Completed": "Completed",
-    "ActiveErpLinks": 232,
-    "NextDueDate": "2015-10-01T12:01:28.2596899+02:00",
-    "Number": "972533",
+    "ActiveErpLinks": 673,
+    "NextDueDate": "2021-06-22T14:13:41.240351+02:00",
+    "Number": "1004206",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 719
+        "FieldType": "System.Int32",
+        "FieldLength": 591
       }
     }
   }

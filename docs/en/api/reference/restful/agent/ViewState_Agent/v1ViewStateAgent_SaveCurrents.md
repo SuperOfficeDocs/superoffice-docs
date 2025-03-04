@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 869,
-      "Id": 159,
-      "HistoryName": "Kuhlman Inc and Sons",
-      "HistoryId": 620,
-      "AssociateId": 625,
-      "Name": "Russel, Schmidt and Lindgren",
-      "ItemInfo": "et"
+      "Rank": 24,
+      "Id": 391,
+      "HistoryName": "West, Rosenbaum and Koch",
+      "HistoryId": 643,
+      "AssociateId": 35,
+      "Name": "Ziemann Inc and Sons",
+      "ItemInfo": "rerum"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 586,
-    "Id": 765,
-    "HistoryName": "Rolfson-Kris",
-    "HistoryId": 612,
-    "AssociateId": 63,
-    "Name": "Barton Inc and Sons",
-    "ItemInfo": "culpa",
+    "Rank": 936,
+    "Id": 696,
+    "HistoryName": "Kling-Marvin",
+    "HistoryId": 790,
+    "AssociateId": 99,
+    "Name": "Schamberger Group",
+    "ItemInfo": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 579
+        "FieldType": "System.Int32",
+        "FieldLength": 22
       }
     }
   }

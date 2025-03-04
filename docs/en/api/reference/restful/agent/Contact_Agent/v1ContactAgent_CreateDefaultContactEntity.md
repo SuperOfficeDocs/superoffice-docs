@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Contact/CreateDefaultContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,157 +110,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 912,
-  "Name": "Hilpert, Langworth and Kirlin",
+  "ContactId": 1001,
+  "Name": "Nikolaus-Schumm",
   "Department": "",
-  "OrgNr": "937622",
-  "Number1": "471731",
-  "Number2": "1486702",
-  "UpdatedDate": "2001-07-20T12:01:27.4627597+02:00",
-  "CreatedDate": "2016-01-03T12:01:27.4627597+01:00",
+  "OrgNr": "207915",
+  "Number1": "477340",
+  "Number2": "454098",
+  "UpdatedDate": "2021-08-22T14:13:39.7660185+02:00",
+  "CreatedDate": "2018-04-16T14:13:39.7660185+02:00",
   "Emails": [
     {
-      "Value": "et",
-      "StrippedValue": "hic",
-      "Description": "Reverse-engineered maximized benchmark",
+      "Value": "incidunt",
+      "StrippedValue": "incidunt",
+      "Description": "Customizable tertiary internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "hic",
-      "Description": "Reverse-engineered maximized benchmark",
+      "Value": "incidunt",
+      "StrippedValue": "incidunt",
+      "Description": "Customizable tertiary internet solution",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 433
+          "FieldType": "System.String",
+          "FieldLength": 706
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 870,
-      "Name": "Legros-Ortiz",
-      "ToolTip": "Veritatis consectetur occaecati sit atque.",
-      "Deleted": true,
-      "Rank": 276,
-      "Type": "ut",
-      "ColorBlock": 400,
-      "IconHint": "possimus",
-      "Selected": true,
-      "LastChanged": "2020-12-19T12:01:27.4627597+01:00",
+      "Id": 713,
+      "Name": "Reynolds-Cremin",
+      "ToolTip": "Sed ullam ex ducimus et.",
+      "Deleted": false,
+      "Rank": 253,
+      "Type": "ipsam",
+      "ColorBlock": 114,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2014-05-16T14:13:39.7660185+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "aut",
+      "ExtraInfo": "fugit",
+      "StyleHint": "non",
       "Hidden": false,
-      "FullName": "Dr. Lera Merl Zulauf",
+      "FullName": "Nayeli Franecki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 904
+          "FieldLength": 324
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "tempore",
-      "StrippedValue": "qui",
-      "Description": "Future-proofed zero tolerance artificial intelligence",
+      "Value": "quod",
+      "StrippedValue": "ea",
+      "Description": "Fully-configurable non-volatile capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldType": "System.Int32",
+          "FieldLength": 701
         }
       }
     },
     {
-      "Value": "tempore",
-      "StrippedValue": "qui",
-      "Description": "Future-proofed zero tolerance artificial intelligence",
+      "Value": "quod",
+      "StrippedValue": "ea",
+      "Description": "Fully-configurable non-volatile capacity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 914
+          "FieldType": "System.Int32",
+          "FieldLength": 701
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "autem",
-      "StrippedValue": "vel",
-      "Description": "Upgradable attitude-oriented function",
+      "Value": "quam",
+      "StrippedValue": "incidunt",
+      "Description": "Managed grid-enabled access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 885
+          "FieldLength": 564
         }
       }
     },
     {
-      "Value": "autem",
-      "StrippedValue": "vel",
-      "Description": "Upgradable attitude-oriented function",
+      "Value": "quam",
+      "StrippedValue": "incidunt",
+      "Description": "Managed grid-enabled access",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 885
+          "FieldLength": 564
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "placeat",
-      "StrippedValue": "assumenda",
-      "Description": "Secured well-modulated groupware",
+      "Value": "laboriosam",
+      "StrippedValue": "animi",
+      "Description": "Inverse zero administration initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 243
         }
       }
     },
     {
-      "Value": "placeat",
-      "StrippedValue": "assumenda",
-      "Description": "Secured well-modulated groupware",
+      "Value": "laboriosam",
+      "StrippedValue": "animi",
+      "Description": "Inverse zero administration initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 342
+          "FieldType": "System.String",
+          "FieldLength": 243
         }
       }
     }
   ],
-  "Description": "Reduced responsive toolset",
+  "Description": "Operative next generation standardization",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -269,101 +269,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "rem",
-      "PersonId": 353,
-      "Mrmrs": "voluptas",
-      "Firstname": "Harvey",
-      "Lastname": "Wisoky",
-      "MiddleName": "Hauck Inc and Sons",
-      "Title": "dolorem",
-      "Description": "Versatile leading edge knowledge base",
-      "Email": "gisselle@stiedemann.biz",
-      "FullName": "Presley Berge II",
-      "DirectPhone": "675.080.5850 x5793",
-      "FormalName": "Carroll Inc and Sons",
-      "CountryId": 299,
-      "ContactId": 788,
-      "ContactName": "Hansen Group",
-      "Retired": 546,
-      "Rank": 910,
-      "ActiveInterests": 581,
-      "ContactDepartment": "streamline clicks-and-mortar networks",
-      "ContactCountryId": 1002,
-      "ContactOrgNr": "560834",
-      "FaxPhone": "579-330-4239",
-      "MobilePhone": "573.287.1535 x68489",
-      "ContactPhone": "(317)235-1108 x575",
-      "AssociateName": "Murazik, Roob and Fisher",
-      "AssociateId": 331,
-      "UsePersonAddress": true,
-      "ContactFax": "ea",
-      "Kanafname": "expedita",
-      "Kanalname": "at",
-      "Post1": "in",
-      "Post2": "corrupti",
-      "Post3": "aut",
-      "EmailName": "jaquelin_dibbert@kris.com",
-      "ContactFullName": "Kyleigh Witting",
-      "ActiveErpLinks": 610,
-      "TicketPriorityId": 653,
-      "SupportLanguageId": 906,
-      "SupportAssociateId": 352,
+      "Position": "ullam",
+      "PersonId": 430,
+      "Mrmrs": "provident",
+      "Firstname": "Michel",
+      "Lastname": "Rath",
+      "MiddleName": "Jacobi-Ratke",
+      "Title": "cumque",
+      "Description": "Automated dynamic analyzer",
+      "Email": "dayna@johnsonrussel.uk",
+      "FullName": "Trisha Schmitt",
+      "DirectPhone": "379.547.6579",
+      "FormalName": "Beer Inc and Sons",
+      "CountryId": 735,
+      "ContactId": 976,
+      "ContactName": "Bode, McGlynn and Kohler",
+      "Retired": 699,
+      "Rank": 891,
+      "ActiveInterests": 692,
+      "ContactDepartment": "",
+      "ContactCountryId": 742,
+      "ContactOrgNr": "1705563",
+      "FaxPhone": "(322)834-3326 x7664",
+      "MobilePhone": "395-501-4232",
+      "ContactPhone": "1-981-139-3086 x60088",
+      "AssociateName": "Dicki-Runolfsdottir",
+      "AssociateId": 362,
+      "UsePersonAddress": false,
+      "ContactFax": "praesentium",
+      "Kanafname": "rem",
+      "Kanalname": "exercitationem",
+      "Post1": "sit",
+      "Post2": "illum",
+      "Post3": "corrupti",
+      "EmailName": "jacinthe.kuhn@lang.uk",
+      "ContactFullName": "Brandi Simonis",
+      "ActiveErpLinks": 705,
+      "TicketPriorityId": 734,
+      "SupportLanguageId": 155,
+      "SupportAssociateId": 291,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "894993",
+      "PersonNumber": "879496",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 898
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "molestias",
+  "Kananame": "et",
   "Xstop": false,
-  "ActiveInterests": 302,
-  "GroupId": 338,
-  "ActiveStatusMonitorId": 498,
+  "ActiveInterests": 314,
+  "GroupId": 649,
+  "ActiveStatusMonitorId": 224,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 30,
-  "DbiAgentId": 192,
-  "DbiLastSyncronized": "2017-10-09T12:01:27.4627597+02:00",
-  "DbiKey": "eos",
-  "DbiLastModified": "2011-07-26T12:01:27.4627597+02:00",
+  "Deleted": 582,
+  "DbiAgentId": 109,
+  "DbiLastSyncronized": "2024-04-25T14:13:39.7660185+02:00",
+  "DbiKey": "odio",
+  "DbiLastModified": "2003-01-09T14:13:39.7660185+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 871,
-  "ActiveErpLinks": 663,
+  "Source": 971,
+  "ActiveErpLinks": 894,
   "BounceEmails": [
-    "selena.collier@considine.name",
-    "baron.stoltenberg@ornfeest.name"
+    "lionel@dietrichgreenfelder.biz",
+    "coleman_medhurst@stoltenberg.uk"
   ],
   "Domains": [
-    "mollitia",
-    "numquam"
+    "animi",
+    "iste"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Quinten Lemke",
-    "SuperOffice:2": "823184485"
+    "SuperOffice:1": "335344949",
+    "SuperOffice:2": "Amiya Balistreri"
   },
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "est"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "nihil"
+    "CustomFields1": "culpa",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldLength": 102
     }
   }
 }

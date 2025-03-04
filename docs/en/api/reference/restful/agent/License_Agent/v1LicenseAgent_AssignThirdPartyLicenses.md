@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 113,
-  "ModuleOwner": "maxime",
+  "AssociateId": 791,
+  "ModuleOwner": "nulla",
   "ModuleLicenseNames": [
-    "Kilback, Leannon and Batz",
-    "Mitchell Inc and Sons"
+    "Huel Inc and Sons",
+    "Lang-Gislason"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 474,
-    "Tooltip": "dolorum",
-    "CanAssign": false,
-    "Free": 130,
-    "InUse": 331,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 434,
-    "Name": "Rempel Group",
-    "Description": "Grass-roots maximized neural-net",
-    "PrerequisiteModuleName": "Erdman LLC",
-    "SortOrder": 986,
-    "ExtraFlags": 236,
+    "Total": 454,
+    "Tooltip": "sunt",
+    "CanAssign": true,
+    "Free": 702,
+    "InUse": 421,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 362,
+    "Name": "Zemlak, Schroeder and Lind",
+    "Description": "Persistent zero administration local area network",
+    "PrerequisiteModuleName": "Dooley LLC",
+    "SortOrder": 683,
+    "ExtraFlags": 666,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldType": "System.Int32",
+        "FieldLength": 766
       }
     }
   }

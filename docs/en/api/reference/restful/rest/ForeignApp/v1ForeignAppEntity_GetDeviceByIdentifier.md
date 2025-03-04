@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Sep 2023 12:01:32 G9T
+Last-Modified: Mon, 15 Nov 1999 14:13:48 G11T
 
 {
-  "ForeignDeviceId": 383,
-  "Name": "Toy Group",
-  "CreatedDate": "2009-04-17T12:01:32.9175621+02:00",
-  "UpdatedDate": "2023-09-12T12:01:32.9175621+02:00",
-  "AssociateFullName": "Orville Grady",
-  "CreatedBy": "explicabo",
-  "UpdatedBy": "illo",
-  "DeviceIdentifier": "magnam",
-  "ForeignAppId": 482,
+  "ForeignDeviceId": 7,
+  "Name": "Klocko, Kohler and Pacocha",
+  "CreatedDate": "2009-10-07T14:13:48.8836985+02:00",
+  "UpdatedDate": "1999-11-15T14:13:48.8836985+01:00",
+  "AssociateFullName": "Nicolette Kreiger",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "praesentium",
+  "DeviceIdentifier": "dolorem",
+  "ForeignAppId": 556,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

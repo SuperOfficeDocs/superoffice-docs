@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 674,
-    "Name": "Hayes, Fisher and Weissnat",
-    "Tooltip": "illum",
-    "SaveInDb": 588,
-    "Filename": "nesciunt",
-    "DefaultOref": "nulla",
+    "DocumentTemplateId": 512,
+    "Name": "Osinski Inc and Sons",
+    "Tooltip": "et",
+    "SaveInDb": 221,
+    "Filename": "veniam",
+    "DefaultOref": "dolore",
     "RecordType": "Appointment",
     "Deleted": true,
     "Direction": "Incoming",
-    "AutoeventId": 323,
-    "IntentId": 585,
+    "AutoeventId": 567,
+    "IntentId": 233,
     "IsDefaultPublished": false,
-    "Rank": 907,
-    "LoadTemplateFromPlugin": 367,
-    "MimeType": "sit",
+    "Rank": 522,
+    "LoadTemplateFromPlugin": 687,
+    "MimeType": "iste",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 753,
+    "DocumentTypeKey": 88,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "cleo_franecki@maggiokoelpin.uk",
+    "EmailSubject": "floy_nader@stamm.ca",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "erich_davis@stanton.us",
+    "SenderEmailAddress": "haskell@kozey.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 906
       }
     }
   }

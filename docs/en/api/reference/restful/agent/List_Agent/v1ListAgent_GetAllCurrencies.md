@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 800,
-    "Name": "Greenfelder-Price",
-    "Tooltip": "perspiciatis",
-    "Rank": 140,
-    "Rate": 8599.696,
-    "Units": 21223.448,
+    "CurrencyId": 957,
+    "Name": "Hahn LLC",
+    "Tooltip": "qui",
+    "Rank": 448,
+    "Rate": 29453.332,
+    "Units": 27171.78,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 175
       }
     }
   }

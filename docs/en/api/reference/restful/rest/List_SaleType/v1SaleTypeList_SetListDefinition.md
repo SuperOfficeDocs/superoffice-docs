@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 49,
-  "Name": "Hansen, King and Dooley",
-  "Tooltip": "expedita",
+  "Id": 171,
+  "Name": "Littel LLC",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 21,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 693,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "quas",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Heidenreich, Barrows and Emard",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "Rank": 93,
+  "Id": 493,
+  "Name": "Connelly Inc and Sons",
+  "Tooltip": "mollitia",
+  "Deleted": false,
+  "Rank": 97,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 97
     }
   }
 }

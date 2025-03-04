@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Schuppe, Kovacek and Stiedemann",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 696,
-  "Rank": 524
+  "Id": 928,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 779,
+  "Rank": 65
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866,
-  "Name": "Schamberger Inc and Sons",
-  "Tooltip": "et",
+  "Id": 847,
+  "Name": "Satterfield, Hammes and Hessel",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 394,
-  "Rank": 913,
+  "UdListDefinitionId": 595,
+  "Rank": 25,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldType": "System.Int32",
+      "FieldLength": 737
     }
   }
 }

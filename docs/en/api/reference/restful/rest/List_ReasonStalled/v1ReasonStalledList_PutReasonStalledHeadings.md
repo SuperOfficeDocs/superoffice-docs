@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 795,
-    "Name": "Tillman, McKenzie and Wisoky",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 34,
-    "UdListDefinitionId": 747
+    "HeadingId": 597,
+    "Name": "Bernhard, Hettinger and Muller",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 894,
+    "UdListDefinitionId": 514
   },
   {
-    "HeadingId": 795,
-    "Name": "Tillman, McKenzie and Wisoky",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 34,
-    "UdListDefinitionId": 747
+    "HeadingId": 597,
+    "Name": "Bernhard, Hettinger and Muller",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "Rank": 894,
+    "UdListDefinitionId": 514
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 134,
-    "Name": "Orn, Raynor and Stark",
-    "Tooltip": "molestiae",
+    "HeadingId": 666,
+    "Name": "Halvorson, Bailey and Rohan",
+    "Tooltip": "enim",
     "Deleted": true,
-    "Rank": 179,
-    "UdListDefinitionId": 52,
+    "Rank": 736,
+    "UdListDefinitionId": 518,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 419
       }
     }
   }

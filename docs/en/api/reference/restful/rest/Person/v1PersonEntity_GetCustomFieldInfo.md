@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Watsica Group",
-  "DisplayName": "Kutch Inc and Sons",
-  "Description": "Customer-focused high-level protocol",
-  "ShortLabel": "quaerat",
-  "HideLabel": false,
+  "FieldName": "DuBuque-Stark",
+  "DisplayName": "Zemlak, Tillman and Halvorson",
+  "Description": "Synergistic value-added product",
+  "ShortLabel": "iusto",
+  "HideLabel": true,
   "HideField": true,
-  "IsIndexed": true,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 770,
-  "TemplateVariableName": "Schamberger LLC"
+  "IsDisplayField": true,
+  "Rank": 941,
+  "TemplateVariableName": "Stracke-Halvorson"
 }
 ```

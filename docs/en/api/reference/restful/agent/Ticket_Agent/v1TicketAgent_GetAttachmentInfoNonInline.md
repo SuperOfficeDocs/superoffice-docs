@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 227
+  "TicketMessageEntityId": 625
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 414,
-    "Name": "Wilderman, Beer and Bailey",
-    "ContentType": "quae",
-    "AttSize": 87,
+    "AttachmentId": 432,
+    "Name": "Ondricka Group",
+    "ContentType": "sit",
+    "AttSize": 497,
     "InlineImage": false,
-    "ContentId": "dicta",
-    "AuthKey": "fugiat",
+    "ContentId": "officiis",
+    "AuthKey": "eligendi",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 967
+        "FieldType": "System.Int32",
+        "FieldLength": 610
       }
     }
   }

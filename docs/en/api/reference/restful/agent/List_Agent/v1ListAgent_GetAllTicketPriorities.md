@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 558,
-    "Name": "Breitenberg, Eichmann and Lebsack",
+    "TicketPriorityId": 581,
+    "Name": "Ebert-Rowe",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 356,
+    "SortOrder": 397,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 250,
-    "MonStart": "2008-02-28T12:01:27.9159153+01:00",
-    "MonStop": "2024-08-04T12:01:27.9159153+02:00",
-    "TueStart": "2020-07-05T12:01:27.9159153+02:00",
-    "TueStop": "2001-05-30T12:01:27.9159153+02:00",
-    "WedStart": "2021-04-22T12:01:27.9159153+02:00",
-    "WedStop": "2014-07-09T12:01:27.9159153+02:00",
-    "ThuStart": "1998-04-25T12:01:27.9159153+02:00",
-    "ThuStop": "1998-02-10T12:01:27.9159153+01:00",
-    "FriStart": "2015-07-02T12:01:27.9159153+02:00",
-    "FriStop": "1999-04-14T12:01:27.9159153+02:00",
-    "SatStart": "1999-03-26T12:01:27.9159153+01:00",
-    "SatStop": "2017-03-02T12:01:27.9159153+01:00",
-    "SunStart": "2005-03-28T12:01:27.9159153+02:00",
-    "SunStop": "2021-07-22T12:01:27.9159153+02:00",
+    "Deadline": 117,
+    "MonStart": "2002-02-22T14:13:40.422226+01:00",
+    "MonStop": "2013-11-04T14:13:40.422226+01:00",
+    "TueStart": "2024-04-19T14:13:40.422226+02:00",
+    "TueStop": "2005-05-23T14:13:40.422226+02:00",
+    "WedStart": "2019-04-09T14:13:40.422226+02:00",
+    "WedStop": "2012-08-28T14:13:40.422226+02:00",
+    "ThuStart": "2019-11-24T14:13:40.422226+01:00",
+    "ThuStop": "2003-11-13T14:13:40.422226+01:00",
+    "FriStart": "2016-10-26T14:13:40.422226+02:00",
+    "FriStop": "2024-05-17T14:13:40.422226+02:00",
+    "SatStart": "2008-08-26T14:13:40.422226+02:00",
+    "SatStop": "2015-12-30T14:13:40.422226+01:00",
+    "SunStart": "2022-11-08T14:13:40.422226+01:00",
+    "SunStop": "2009-07-02T14:13:40.422226+02:00",
     "NonDates": [
-      "veritatis",
-      "voluptas"
+      "omnis",
+      "aperiam"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 847,
-        "AlertLevel": 271,
-        "AlertTimeout": 128,
-        "Action": 178,
-        "DelegateTo": 654,
-        "ScriptId": 216,
-        "EmailTo": "willy.zieme@bayer.uk",
-        "SmsTo": "necessitatibus",
-        "ReplyTemplateIdCustomer": 122,
-        "ReplyTemplateIdUser": 193,
-        "ReplyTemplateIdCatmast": 594,
-        "ReplyTemplateIdEmail": 564,
-        "RtiCustomerSms": 661,
-        "ReplyTemplateIdUserSms": 146,
-        "ReplyTemplateIdCatmastSms": 986,
-        "ReplyTemplateIdSms": 981,
+        "TicketAlertId": 179,
+        "AlertLevel": 986,
+        "AlertTimeout": 744,
+        "Action": 39,
+        "DelegateTo": 771,
+        "ScriptId": 184,
+        "EmailTo": "garret_champlin@metzleuschke.co.uk",
+        "SmsTo": "quisquam",
+        "ReplyTemplateIdCustomer": 844,
+        "ReplyTemplateIdUser": 987,
+        "ReplyTemplateIdCatmast": 516,
+        "ReplyTemplateIdEmail": 103,
+        "RtiCustomerSms": 143,
+        "ReplyTemplateIdUserSms": 747,
+        "ReplyTemplateIdCatmastSms": 296,
+        "ReplyTemplateIdSms": 862,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldLength": 26
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 201
+        "FieldLength": 343
       }
     }
   }

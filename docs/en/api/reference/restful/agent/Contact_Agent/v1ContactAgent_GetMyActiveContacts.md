@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2016-03-07T12:01:27.4783858+01:00",
+  "ActivityStartTime": "1999-11-20T14:13:39.797478+01:00",
   "ContactCategories": [
-    289,
-    82
+    193,
+    466
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 546,
+    "ContactId": 398,
     "Department": "",
-    "OrgNr": "540848",
-    "Name": "Weissnat LLC",
+    "OrgNr": "1049445",
+    "Name": "Herman Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Kaya O'Hara",
+    "AssociateFullName": "Wyatt Milton Bechtelar Sr.",
     "Action": "ActivityCompleted",
-    "ActionTime": "2014-10-18T12:01:27.4783858+02:00",
+    "ActionTime": "2020-10-10T14:13:39.7984831+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Krajcik-Kiehn",
-    "ActionId": 284,
-    "PersonId": 37,
-    "ActivityPersonId": 568,
-    "AssociateId": 725,
+    "ActivityPersonName": "Jast-Medhurst",
+    "ActionId": 846,
+    "PersonId": 623,
+    "ActivityPersonId": 1002,
+    "AssociateId": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 681
       }
     }
   }

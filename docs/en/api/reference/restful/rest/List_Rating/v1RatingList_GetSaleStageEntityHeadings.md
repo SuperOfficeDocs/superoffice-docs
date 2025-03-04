@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 223,
-    "Name": "Koelpin, Breitenberg and McCullough",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 853,
-    "UdListDefinitionId": 961,
+    "HeadingId": 805,
+    "Name": "Gottlieb-Heaney",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 155,
+    "UdListDefinitionId": 390,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 256
+        "FieldType": "System.String",
+        "FieldLength": 833
       }
     }
   }
