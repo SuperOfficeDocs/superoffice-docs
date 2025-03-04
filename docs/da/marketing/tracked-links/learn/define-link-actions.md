@@ -1,7 +1,7 @@
 ---
 uid: help-da-define-link-actions
 title: Definer automatiserede linkhandlinger
-description: "I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger."
+description: I denne vejledning lærer du, hvordan du bruger links i udsendelser til at automatisere handlinger.
 keywords: Marketing, udsendelse, linkhandling, automatisere
 author: Bergfrid Dias
 date: 11.19.2024
@@ -85,7 +85,7 @@ Aktivér denne funktion ved at vælge **Opfølgning**.
 > [!TIP]
 > Som beskrivelse skal du angive, hvilken udsendelse det drejer sig om, hvilket link modtageren klikkede på, og eventuelt hvordan opgaven eller mødet skal følges op.
 >
-> Når du angiver **Oprettet af** eller **Standardmodtager**, kan du klikke på knappen **Angiv aktiv bruger** ![ikon][img1] for at vælge dig selv.
+> Når du angiver **Oprettet af** eller **Standardmodtager**, kan du klikke på knappen **Angiv aktiv bruger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) for at vælge dig selv.
 
 ## <a id="request"></a>Sag
 
@@ -103,12 +103,11 @@ Variabler tilgængelige i scriptet inkluderer custId, linkId, shipmentId, linkUr
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

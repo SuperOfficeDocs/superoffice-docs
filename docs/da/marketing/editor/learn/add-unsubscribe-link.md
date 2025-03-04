@@ -1,15 +1,15 @@
 ---
 uid: help-da-mailing-add-unsubscribe-link
 title: Tilføje abonnement-links
-description: "Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning."
+description: Når du sender en mail ud, er det nødvendigt at give modtagerne mulighed for at afmelde sig. Få mere at vide om, hvordan du kan føje et afmeldingslink til din udsendelse, i denne vejledning.
 keywords: marketing
 author: SuperOffice RnD
 date: 02.26.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Tilføje abonnement-links
@@ -30,7 +30,7 @@ Du bestemmer, hvor afmeldingslinket vises, hvilken formulering, der anvendes og 
 
 2. Indtast og vælg den tekst, som modtageren skal klikke på, f.eks. "Klik her for at afmelde dig" eller "Klik her for at administrere dine abonnementer".
 
-3. Klik på knappen **Indsæt/rediger link** ![ikon][img3] på værktøjslinjen.
+3. Klik på knappen **Indsæt/rediger link** (<i class="ph ph-link" aria-hidden="true"></i>) på værktøjslinjen.
 
 4. Klik på **Særlige link**, og vælg en af følgende indstillinger:
     * **Administrer abonnementer**: Indsætter et link til en webside, hvor modtagerne kan vælge hvilke udsendelsestyper, de vil modtage. Linket er som standard gyldigt i 21 dage.
@@ -52,5 +52,4 @@ Baseret på feedback fra modtagerne opdateres abonnementsindstillingerne på fan
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

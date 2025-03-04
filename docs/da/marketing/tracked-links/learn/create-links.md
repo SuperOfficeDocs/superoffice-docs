@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.26.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Opret sporede links
@@ -24,7 +24,7 @@ Du kan også oprette nye links, mens du redigerer indholdet.
 
 2. Valgfrit: Vælg mappe eller [opret ny mappe][2].
 
-3. Klik på ![ikonet][img1] **Tilføj**.
+3. Klik på **Tilføj**.
 
 4. Angiv et beskrivende **Navn** for linket.
 
@@ -37,6 +37,3 @@ En lille prik på fanen linkhandlinger viser, hvilke linkhandlinger der er aktiv
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

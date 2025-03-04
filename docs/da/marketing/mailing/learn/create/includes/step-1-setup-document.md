@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Hvis du vil have vist og udskrive en eksisterende dokumentforsendelse, skal du lukke trinnet **Opsætning** (klik på **Annuller** eller **Gem + Luk**). Vælg fanen **Udsendelser** find dokumentet, klik på ![ikon][img1] og vælg  **Se**. Klik på knappen under **Download genereret dokument**. Filen downloades til din browser. Åbn og udskriv dokumentet.
+> Hvis du vil have vist og udskrive en eksisterende dokumentforsendelse, skal du lukke trinnet **Opsætning** (klik på **Annuller** eller **Gem + Luk**). Vælg fanen **Udsendelser** find dokumentet, klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> og vælg  **Se**. Klik på knappen under **Download genereret dokument**. Filen downloades til din browser. Åbn og udskriv dokumentet.
 
 Ved hjælp af arbejdsgangen dokumentudsendelse kan du generere et PDF-dokument, der skal udskrives og sendes til dine kunder. Det første trin ved oprettelse af en udsendelse kaldes **Opsætning**. Her kan du indstille udsendelsens navn, dokumentets overskrift og fokus-tekst og indstille arkiveringsvalg for udsendelsen.
 
@@ -45,6 +45,3 @@ Du kan koble udsendelsen til et specifikt salg. Det kan være relevant, hvis du 
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

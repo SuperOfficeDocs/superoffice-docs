@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.11.2024
 version: 10
 topic: tutorial
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Sådan oprettes en kontakt-mig formular
@@ -42,7 +42,7 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 
 1. Vælg feltet **Kontakt - Navn**, og klik på den røde X for at fjerne dette felt.
 
-1. Klik på knappen **Tilføj** ![ikon][img1], og tilføj følgende felter:
+1. Klik på <i class="ph ph-plus" aria-label="Add"></i>, og tilføj følgende felter:
 
     * For-og efternavn.
 
@@ -121,7 +121,6 @@ Eksemplerne dækker ikke alle felter og muligheder, men du kan finde detaljerede
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

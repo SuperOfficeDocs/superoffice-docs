@@ -7,9 +7,9 @@ author: Bergfrid Dias, Jeanette Small Strøm
 date: 06.14.2024
 version: 10.3.5
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Bedste praksis
@@ -91,7 +91,7 @@ Indholdsforfattere vil se en meddelelse, hvis de bruger en ikke-validerbar e-mai
 
 Beskeden tilpasses automatisk til visning på mindre skærme.
 
-Klik på ![ikon][img1] **Mobil** i den globale menu for at se, hvordan det ser ud på en smartphone. Du kan også klikke på et afsnit i meddelelsen og klikke på **Mobil** under **Indhold** i sidepanelet.
+Klik på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i den globale menu for at se, hvordan det ser ud på en smartphone. Du kan også klikke på et afsnit i meddelelsen og klikke på **Mobil** under **Indhold** i sidepanelet.
 
 Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du vælge et afsnit i meddelelsen og klikke på **Mobil** i sidepanelet. Du kan nu definere formateringen for visning af meddelelsen på mobilenheder og også vælge, hvilke elementer (f.eks. billeder) der skal udelades fra mobilenheder.
 
@@ -107,5 +107,4 @@ Hvis du vil justere mobilspecifikke indstillinger for en meddelelse, skal du væ
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/mobile.png
 [img2]: ../../../media/loc/en/marketing/from-name.gif

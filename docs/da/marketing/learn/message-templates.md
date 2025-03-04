@@ -1,15 +1,15 @@
 ---
 uid: help-da-marketing-message-templates
 title: Sådan arbejder du med meddelelser og skabeloner
-description: "At udvikle en 'masterskabelon' (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand."
+description: At udvikle en 'masterskabelon' (corporate) er den bedste måde til at sikre, at alle dine mailudsendelser ser godt ud, har det samme design og afspejler dit brand.
 keywords: marketing, meddelelsesskabelon, skabeloner, mailudsendelser
 author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # At arbejde med meddelelsesskabeloner
@@ -59,7 +59,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 
 3. Hvis det er nødvendigt, kan du bruge søgefeltet til at finde en bestemt skabelon.
 
-4. Klik på ![ikonet][img1] menuknappen ved siden af den skabelon, du gerne vil bruge.
+4. Klik på <i class="ph ph-list" aria-label="Task menu"></i> menuknappen ved siden af den skabelon, du gerne vil bruge.
 
 5. Vælg **Opret udsendelse**. Skabelonen åbnes nu i [udsendelsesguiden][1].
 
@@ -93,7 +93,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 
 1. Gå til fanen **Meddelelsesskabeloner**.
 
-2. Klik på ![ikonet][img2] **Tilføj SMS**. Skærmbilledet **Rediger skabelon** vises.
+2. Klik på **Tilføj SMS**. Skærmbilledet **Rediger skabelon** vises.
 
 3. Angiv et beskrivende navn på skabelonen i feltet **Navn**.
 
@@ -104,7 +104,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 ## Opret skabelon med udgangspunkt i en tidligere mailudsendelse
 
 1. Gå til fanen **Udsendelser**.
-2. Klik på menuknappens ![ikon][img1] ved siden af den mailudsendelse, du gerne vil bruge som udgangspunkt for skabelonen.
+2. Klik på menuknappens <i class="ph ph-list" aria-label="Task menu"></i> ved siden af den mailudsendelse, du gerne vil bruge som udgangspunkt for skabelonen.
 3. Vælg **Kopiér til skabelon**.
 4. I skærmbilledet **Redigér formular**, feltet **Skabelonens navn**, giver du skabelonen et deskriptivt navn.
 5. Klik eventuelt på **Mappe** for at vælge en mappe til skabelonen.
@@ -113,7 +113,7 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 ## Opret skabelon med udgangspunkt i en tidligere mailudsendelse (kopi)
 
 1. Gå til fanen **Meddelelsesskabeloner**.
-2. Klik på ![ikonet][img1] menuknappen ved siden af den skabelon, du gerne vil bruge.
+2. Klik på <i class="ph ph-list" aria-label="Task menu"></i> menuknappen ved siden af den skabelon, du gerne vil bruge.
 3. Vælg **Lav kopi**.
 4. I skærmbilledet **Redigér formular**, feltet **Skabelonens navn**, giver du skabelonen et deskriptivt navn.
 5. Foretag de nødvendige ændringer og klik **OK**.
@@ -134,6 +134,4 @@ Ud over de skabeloner, der er oprettet af dig og dine kolleger, har du også adg
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

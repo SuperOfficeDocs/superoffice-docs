@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 06.14.2024
 version: 10.3.5
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Definer formularhandlinger
@@ -63,7 +63,7 @@ Her kan du vælge handlinger, der skal udføres, når en formular behandles (aut
 > [!NOTE]
 > Når du opdaterer et formular, skal du huske, at det kan blive brugt af flere kampagner og/eller automatiserede flows. Sørg for, at der ikke er nogen duplikerede eller modstridende handlinger.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Udgiv formularer][2]
 
@@ -71,7 +71,7 @@ Her kan du vælge handlinger, der skal udføres, når en formular behandles (aut
 [2]: publish.md
 [6]: process-submissions.md
 [7]: ../../mailing/learn/create/tutorial-form-mailing.yml
-[8]: ../../../request/learn/howto/create.md
+[8]: ../../../request/learn/create.md
 [9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
 
 <!-- Referenced images -->
