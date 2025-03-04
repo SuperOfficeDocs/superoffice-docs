@@ -1,11 +1,15 @@
 ---
 uid: help-da-document-send
 title: Send et dokument som e-mail
-description: "Det er hurtigt og nemt at sende dokumenter, der er gemt i SuperOffice CRM som vedhæftede filer i e-mails."
-author: SuperOffice RnD
-date: 02.10.2023
+description: Det er hurtigt og nemt at sende dokumenter, der er gemt i SuperOffice CRM som vedhæftede filer i e-mails.
 keywords: dokument, e-mail, vedhæftning
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -21,7 +25,7 @@ language: da
         2. Højreklik, og vælg **Send som e-mail**.
     * Fra dialogboksen Dokument
         1. Åbn dokumentet i **redigeringstilstand**.
-        2. Klik på knappen **Opgave**.
+        2. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Vælg **Send som e-mail**.
 
         > [!NOTE]

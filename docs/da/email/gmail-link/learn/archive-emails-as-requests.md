@@ -29,7 +29,7 @@ Du kan oprette en sag i SuperOffice Service baseret på en e-mail i Gmail-indbak
 
 6. (valgfrit) I bekræftelsesmeddelelsen skal du vælge **Klik her for at se den** for at se nærmere på anmodningen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivering af indgående e-mail][1]
 * [Arkivering af udgående e-mail][2]

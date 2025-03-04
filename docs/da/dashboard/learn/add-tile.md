@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-tile-add
 title: Tilføj rude/rediger layout i dashboard
-description: "I denne vejledning lærer du, hvordan du opretter en rude i dashboard."
+description: I denne vejledning lærer du, hvordan du opretter en rude i dashboard.
+keywords: dashboard
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: dashboard
 topic: howto
 language: da
 ---
@@ -13,10 +13,12 @@ language: da
 
 Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede felter i SuperOffice Dashboard, kan du altid oprette din egen.
 
-Se denne video, eller følg nedenstående trin for at lære, hvordan du opretter et din egen rude i dashboard (videoens længde - 7:20):
+Se denne video, eller følg nedenstående trin for at lære, hvordan du opretter et din egen rude i dashboard:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+
+(videoens længde - 7:20)
 
 ## Trin
 
@@ -24,7 +26,7 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du opretter
 
 2. Vælg det dashboard, du vil redigere.
 
-3. Klik på knappen **Opgave**, og vælg **Tilføj rude/Rediger layout** . I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
+3. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælg **Tilføj rude/Rediger layout**. I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
 
     ![Vælg rudetype -screenshot][img1]
 
@@ -69,7 +71,7 @@ Fanen for Layout giver dig mange muligheder for at finjustere rudens visuelle ud
 
 Vælg den ønskede diagramtype og de nødvendige indstillinger. Rudens output vises på højre side
 
-## Relaterede emner
+## Relateret indhold
 
 * [Redigering af rude][1]
 * [Fjern en rude][3]

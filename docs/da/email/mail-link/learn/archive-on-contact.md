@@ -46,7 +46,7 @@ Du kan arkivere en e-mail (inklusive vedhæftede filer) i din e-mailklientindbak
 
 13. Klik på **OK**. Den eller de valgte e-mails samt eventuelle vedhæftede filer arkiveres i SuperOffice CRM som nye dokumenter. Du kan herefter dobbeltklikke på alle disse dokumenter i fanebladet **Aktiviteter** for at åbne e-mailen i din e-mailklient.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivere e-mails som aktiviteter][2]
 * [Arkiver vedhæftede filer][3]

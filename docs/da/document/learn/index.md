@@ -4,15 +4,16 @@ title: Dokument
 description: Denne vejledning viser dig, hvordan du kan oprette og gemme dokumenter i SuperOffice CRM, og hvordan du kan sende og modtage dokumenter direkte i din CRM-løsning.
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Dokument ![ikon][img1]
+# Dokument <i class="ph ph-files" aria-hidden="true"></i>
 
 Lagring af alle dokumenter på ét sted hjælper dig og dit team med at få adgang til opdaterede oplysninger og bevare kontrollen over kunderelationer.
 
@@ -27,14 +28,14 @@ Du kan åbne et dokument i [redigeringstilstand eller læsetilstand][7]. Når du
 
 | Icon | Egenskab | Beskrivelse |
 |:-:|---|---|
-| ![icon][img11] | Sprog | En liste over tilgængelige oversættelser af skabelonen. "Standard" hvis ikke oversat. |
-| ![icon][img4] | Dato | Dagens dato (standard). Klik på pilen ved siden af **Dato**-feltet for at åbne en månedlig kalender, hvor du kan vælge den ønskede dato. |
-| ![icon][img3] | Emne | Overskriften på dokumentet. |
-| ![icon][img2] | Skabelon | En liste over tilgængelige [dokumentskabeloner][11] såsom Brev eller Tilbud. |
-| ![icon][img7], ![icon][img8] | Firma / kontakt | Hvem dokumentet vedrører. |
-| ![icon][img5] | Salg | Et salg, der er knyttet til dokumentet. |
-| ![icon][img6] | Projekt | Et projekt, der er knyttet til dokumentet. |
-| | Vores ref | Tildelt dokumentnummer. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Sprog | En liste over tilgængelige oversættelser af skabelonen. "Standard" hvis ikke oversat. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Dato | Dagens dato (standard). Klik på pilen ved siden af **Dato**-feltet for at åbne en månedlig kalender, hvor du kan vælge den ønskede dato. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Emne | Overskriften på dokumentet. |
+| <i class="ph ph-files" aria-label="Document"></i> | Skabelon | En liste over tilgængelige [dokumentskabeloner][11] såsom Brev eller Tilbud. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Firma / kontakt | Hvem dokumentet vedrører. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Salg | Et salg, der er knyttet til dokumentet. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Projekt | Et projekt, der er knyttet til dokumentet. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i> | Vores ref | Tildelt dokumentnummer. |
 | | Din ref | Modtagerens reference fra deres kommunikation. |
 
 ## Opret ny
@@ -51,7 +52,7 @@ Uanset hvor du er i SuperOffice CRM, kan du oprette eller uploade et nyt dokumen
 
 ## Tilføj post som foretrukken
 
-Hvis du vil tilføje posten i foretrukne, skal du klikke på stjerneikonet ![ikon][img13] i hjørnet på det aktuelle kort, den aktuelle fane eller den aktuelle dialogboks. Stjernen bliver gul ![ikon][img12], og udvalget føjes med det samme til foretrukne. Du behøver ikke at klikke på **Gem**.
+Hvis du vil tilføje posten i foretrukne, skal du klikke på <i class="ph ph-star" aria-label="Star icon"></i> på det aktuelle kort, den aktuelle fane eller den aktuelle dialogboks. Stjernen bliver gul, og udvalget føjes med det samme til foretrukne. Du behøver ikke at klikke på **Gem**.
 
 ## Standardiser dine dokumenter
 
@@ -67,7 +68,7 @@ I SuperOffice CRM kan du nemt oprette dokumentskabeloner til Word, E-mail, Excel
 
 [Fanen **Mere**][12] viser brugerdefinerede felter for dokumentet.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Forbind mail, dokumenter og dagbog][9]
 * [Oprettelse af nye dokumenter][3]
@@ -83,17 +84,3 @@ I SuperOffice CRM kan du nemt oprette dokumentskabeloner til Word, E-mail, Excel
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/document-h32.png
-[img2]: ../../../../common/icons/singlecolour/document.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diaryblack.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-
-[img11]: ../../../../common/icons/az.png
-[img12]: ../../../../common/icons/favourite-yes.png
-[img13]: ../../../../common/icons/favourite-no.png

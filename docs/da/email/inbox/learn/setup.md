@@ -1,10 +1,10 @@
 ---
 uid: help-da-email-inbox-setup
 title: Opsætning af SuperOffice Indbakke
-description: "SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din SuperOffice CRM til e-mailklienter, der ikke kan forbindes via WebTools. Lær, hvordan du konfigurerer det og logger ind første gang."
+description: SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din SuperOffice CRM til e-mailklienter, der ikke kan forbindes via WebTools. Lær, hvordan du konfigurerer det og logger ind første gang.
+keywords: e-mail, indbakke
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: e-mail, indbakke
 topic: howto
 language: da
 ---
@@ -25,10 +25,12 @@ SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din Supe
 
 For at få adgang til e-mail skal du først angive detaljer om din e-mail-konto.
 
-Se denne video for at se, hvor hurtigt og nemt du kan konfigurere din SuperOffice-indbakke, eller følg nedenstående trin (videoens længde -1:34):
+Se denne video for at se, hvor hurtigt og nemt du kan konfigurere din SuperOffice-indbakke, eller følg nedenstående trin:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/QoAanZgQs5A]
+
+(videoens længde: 1:34)
 
 ### Trin
 
@@ -82,12 +84,11 @@ Hvis du vil sende e-mails fra SuperOffice CRM, skal du indtaste dine SMTP-server
 Nogle e-mailudbydere, f.eks. Gmail, blokerer fosøg på login fra ukendte apps. Tjek din indbakke for at se, om din e-mailudbyder har sendt dig oplysninger om et uautoriseret forsøg på at logge ind. Følg instruktionerne i e-mailen for at give SuperOffice adgang til din konto.
 
 > [!TIP]
-> Hvis du vil have adgang til e-mailindstillingerne, skal du gå til ![ikon][img1] **Personlige indstillinger** > **E-mailindstillinger**.
+> Hvis du vil have adgang til e-mailindstillingerne, skal du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **E-mailindstillinger**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
 [img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png

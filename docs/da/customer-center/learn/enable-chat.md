@@ -1,7 +1,7 @@
 ---
 uid: help-da-customer-center-chat
 title: Aktivér chat i kundecenter
-description: "Få mere at vide om, hvordan du tilknytter en chatkanal til dit kundecenter, i denne vejledning."
+description: Få mere at vide om, hvordan du tilknytter en chatkanal til dit kundecenter, i denne vejledning.
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: chat, kundecenter
@@ -35,7 +35,7 @@ Du skal [konfigurere din chatwidget][3] før du føjer den til dit kundecenter.
 
 1. Klik på **Gem** for at gemme dine indstillinger.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Konfigurer kundecenter][2]
 * [Kundesprog][1]

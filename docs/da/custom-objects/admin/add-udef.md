@@ -37,7 +37,7 @@ Se denne video for at finde ud af, hvordan du kan oprette dine egne ekstrafelter
 
 1. [Valgfrit, justér feltets placering][3]. Dette kræver licensen Development Tools!
 
-1. Fortsæt med at tilføje felter. Klik på **Udgiv**, når du er færdig, for at gøre feltet tilgængeligt for SuperOffice-brugere. Upublicerede felter ![ikon][img1] og felter med upublicerede ændringer ![ikon][img2] vises i fed tekst i listen **Felt**.
+1. Fortsæt med at tilføje felter. Klik på **Udgiv**, når du er færdig, for at gøre feltet tilgængeligt for SuperOffice-brugere. Upublicerede felter og felter med upublicerede ændringer vises i fed tekst i listen **Felt**.
 
 ## <a id="properties"></a>Feltegenskaber
 
@@ -72,7 +72,7 @@ Hvis du finder ud af, at du ikke har tilladelse til at oprette et nyt felt, kan 
 
 Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis du f.eks. ikke markerer nogen felter, der kan søges i, kan du kun angive seks decimalfelter.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Placering af felter][3]
 * [Redigering af feltegenskaber][4]
@@ -88,6 +88,4 @@ Fire af hver felttype (kort tekst, lang tekst, tal, decimal) er søgbare. Hvis d
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

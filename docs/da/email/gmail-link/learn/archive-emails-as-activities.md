@@ -1,7 +1,7 @@
 ---
 uid: help-da-gmail-link-archive-as-activity
 title: Arkiver e-mail som aktivitet
-description: "Hvis du gemmer en e-mail direkte som en opfølging i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller sag." 
+description: Hvis du gemmer en e-mail direkte som en opfølging i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller sag.
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
@@ -31,7 +31,7 @@ Med denne funktion kan du hurtigt tilføje en aktivitet i SuperOffice baseret p�
 
 5. Klik på **Gem**. Aktiviteten gemmes i detaljekortet **Aktiviteter** i SuperOffice. Klik på linket i popup-meddelelsen for at åbne aktiviteten i SuperOffice.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivering af indgående e-mail][3]
 * [Arkivering af udgående e-mail][3]

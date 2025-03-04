@@ -4,9 +4,10 @@ title: Indtjekning/udtjekning af dokumenter
 description: Indtjekning/udtjekning af dokumenter
 keywords: dokument, indtjek, udtjek, tilbage til gemt version, redigeringstilstand, læsetilstand, spørg før redigering eller læsning
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -24,33 +25,15 @@ I SuperOffice CRM er der mange, der opretter, redigerer og læser dokumenter på
 
 * Læsetilstand: Dokumentet åbnes for læsning. Hvis du foretager ændringer i dokumentet, gemmes de ikke. For at [gemme dokumentet med ændringer][1] skal du oprette et nyt dokument i SuperOffice CRM og uploade filen med ændringerne.
 
-Som standard åbnes et dokument i redigeringstilstand. Hvis du foretrækker at vælge læsetilstand eller redigeringstilstand, når du åbner et dokument, skal du gå til ![ikon][img2] **Personlige indstillinger** > **Indstillinger** > **Funktioner** og indstille **Spørg før redigering eller læsning** til **Ja**.
+Som standard åbnes et dokument i redigeringstilstand. Hvis du foretrækker at vælge læsetilstand eller redigeringstilstand, når du åbner et dokument, skal du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Indstillinger** > **Funktioner** og indstille **Spørg før redigering eller læsning** til **Ja**.
 
 ## Hvordan ved jeg, hvornår et dokument er tjekket ud?
 
-<!-- markdownlint-disable MD051 -->
-### [Ny (fra version 10.3.11)](#tab/lock-new)
-
 I dialogboksen **Dokument** viser et udtjekket dokument en banner med information om, hvem der redigerer det.
 
-![ikon][img5] **Du** redigerer dette dokument.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> **Du** redigerer dette dokument.
 
-![ikon][img5] Du kan ikke redigere dette dokument, fordi det er låst af **NN**.
-
-### [Klassisk (onsite)](#tab/lock-old)
-
-I dialogboksen **Dokument** har et udtjekket dokument et af følgende ikoner:
-
-![ikon][img3] Dokumentet er i øjeblikket tjekket ud til redigering af dig.
-
-![ikon][img4] Dokumentet er i øjeblikket tjekket ud til redigering af en anden bruger.
-
-Hold musemarkøren over et ikon for at vise oplysninger om den bruger, der har tjekket dokumentet ud.
-
-Hvis du prøver at åbne et udtjekket dokument, vises en dialogboks med oplysninger om, hvem der har tjekket dokumentet ud. Du kan kun åbne dokumentet i læsetilstand.
-
-***
-<!-- markdownlint-restore -->
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> Du kan ikke redigere dette dokument, fordi det er låst af **NN**.
 
 ## Tjek et dokument ud til redigering
 
@@ -72,13 +55,7 @@ Du skal have særlige rettigheder for at få adgang til dette alternativ. Du ska
 Hvis du eller en anden har tjekket et dokument ud, og du gerne vil redigere dokumentet kan du annullere udtjekningen:
 
 1. Højreklik på dokumentet, og vælg **Dokument**.
-2. På dialogboksen Dokument skal du klikke på **Opgave** og vælge **Tilbage til gemt version**.
+2. På dialogboksen Dokument skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgave-knappen"></i> og vælge **Tilbage til gemt version**.
 
 <!-- Referenced links -->
 [1]: edit.md
-
-<!-- Referenced images -->
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/document-lock-editing.png
-[img4]: ../../../media/icons/document-lock-locked.png
-[img5]: ../../../../common/icons/ops.png

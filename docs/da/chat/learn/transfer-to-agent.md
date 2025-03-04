@@ -1,10 +1,10 @@
 ---
 uid: help-da-chat-transfer-to-agent
 title: Overførsel af en chatsamtale til en anden repræsentant
-description: "I denne vejledning lærer du, hvordan du overfører en chat til en anden repræsentant."
+description: I denne vejledning lærer du, hvordan du overfører en chat til en anden repræsentant.
+keywords: chat
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: chat
 topic: howto
 language: da
 ---
@@ -20,10 +20,10 @@ Du kan overføre chatsamtaler til andre repræsentanter og modtage overførte ch
 
 ## Sådan overfører du
 
-1. Klik på ![ikon][img1], og vælg **Overfør**.
+1. Klik på <i class="ph ph-list" aria-label="Task menu"></i>, og vælg **Overfør**.
 2. Vælg en repræsentant på listen **Overfør til**. Kun repræsentanter med **status Præsenter** vises her.
 3. Klik på **Overfør**. Chatsamtalen fremhæves på sessionslisten. Nu sker ét af følgende:
-    * Hvis den modtagende repræsentant accepterer den overførte chatsamtale, skifter du til lyttetilstand. Du kan få vist den aktuelle chatsamtale, men du kan ikke svare på meddelelser. Du kan lukke denne chatsession ved at klikke på ![ikon][img1] og vælge**Luk vindue**.
+    * Hvis den modtagende repræsentant accepterer den overførte chatsamtale, skifter du til lyttetilstand. Du kan få vist den aktuelle chatsamtale, men du kan ikke svare på meddelelser. Du kan lukke denne chatsession ved at klikke på <i class="ph ph-list" aria-label="Task menu"></i> og vælge**Luk vindue**.
     * Hvis den modtagende repræsentant afviser den overførte chatsamtale, vises den ikke længere som fremhævet på sessionslisten. Du kan fortsætte chatsamtalen eller [oprette en sag][1], som skal håndteres af en anden.
     * Hvis den modtagende repræsentant ikke svarer, klikker du på **Annuller overførsel**. Du kan fortsætte chatsamtalen eller [oprette en sag][1], som skal håndteres af en anden.
 
@@ -37,13 +37,10 @@ Hvis en repræsentant overfører en chatsamtale til dig, vises samtalen automati
 1. (hvis relevant) Vælg den overførte chatsamtale i sessionslisten for at vise den.
 2. Klik på **Accepter overførsel** (under chatsamtalen) for at acceptere samtalen. Hvis du ikke vil acceptere chatsamtalen, klikker du på **Afvis overførsel**.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Svar på en chat, og knyt den til en person][2]
 
 <!-- Referenced links -->
 [1]: create-request.md
 [2]: respond.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

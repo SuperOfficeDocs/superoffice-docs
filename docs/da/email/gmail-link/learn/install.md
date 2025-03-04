@@ -1,7 +1,7 @@
 ---
 uid: help-da-gmail-link-install
 title: Installer SuperOffice Gmail Link
-description: "Få flere oplysninger om, hvordan du installerer browserudvidelsen til Gmail, i denne vejledning."
+description: Få flere oplysninger om, hvordan du installerer browserudvidelsen til Gmail, i denne vejledning.
 author: SuperOffice RnD
 date: 02.14.2023
 keywords: Gmail Link, e-mail
@@ -27,7 +27,7 @@ Se denne video for at få mere at vide om, hvordan du konfigurerer dit Gmail-lin
 
 1. Det sidste trin for begge browsere er at logge ind på din SuperOffice CRM-konto. SuperOffice og Gmail registrerer automatisk, at udvidelsen blev tilføjet.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Redigering af Gmail Link-indstillinger][8]
 

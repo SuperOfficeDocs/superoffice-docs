@@ -4,8 +4,8 @@ title: Oprettelse af et skabelondokument
 description: Oprettelse af et skabelondokument
 keywords: document template, document, template
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
-date: 07.31.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 language: da
 ---
@@ -48,7 +48,7 @@ For at indsætte felter i din skabelon kan du bruge en af følgende metoder:
 
 1. I **Feltegenskaber** skal du skrive dit [feltnavn][3] (uden «»):
 
-    ![Feltegenskaber -screenshot][img2]
+    ![Feltegenskaber i Microsoft Word -screenshot][img2]
 
 1. Klik på **OK**, og variablen vil blive indsat i dit dokument:
 
@@ -107,6 +107,6 @@ For at vise prisen pr. enhed efter rabatter kan du tilføje et fletfelt som dett
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

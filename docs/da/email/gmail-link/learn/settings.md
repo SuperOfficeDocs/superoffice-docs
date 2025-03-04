@@ -26,9 +26,9 @@ Nogle gange vises dialogboksen **Arkivér mail i SuperOffice** altid:
 
 ## Medtag skabeloner, som ikke er e-mailskabeloner, i skabelonlisten
 
-Markeret ![ikon][img2]: Alle dokumentskabeloner, der vises på listen **Type** i dialogboksen**Arkiver e-mail i SuperOffice**.
+Markeret (<i class="ph ph-check" aria-hidden="true"></i>): Alle dokumentskabeloner, der vises på listen **Type** i dialogboksen**Arkiver e-mail i SuperOffice**.
 
-Ikke-markeret ![ikon][img3]: Kun dokumentskabeloner af typen **E-mail** vises.
+Ikke-markeret: Kun dokumentskabeloner af typen **E-mail** vises.
 
 ## Standardskabelon for udgående e-mail
 
@@ -65,5 +65,3 @@ Klik på denne knap for at linke til en anden SuperOffice-installation. Følg ve
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

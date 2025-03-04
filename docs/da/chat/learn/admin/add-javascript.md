@@ -1,10 +1,10 @@
 ---
 uid: help-da-chat-add-javascript
 title: Tilføj JavaScript til dit websted
-description: "Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du kan føje en chatwidget til din webside."
+description: Live Chat er en populær måde for dine kunder og kundeemner at komme i kontakt med dig, når de besøger dit websted. Denne video viser dig, hvordan du kan føje en chatwidget til din webside.
+keywords: chat
 author: SuperOffice RnD
 date: 02.22.2023
-keywords: chat
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +23,7 @@ Nu hvor du har [konfigureret chatwidgeten][1], viser dette trin dig, hvordan du 
 ## Trin
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Vælg ![ikonet][img2] **Chat** i navigatoren.
+1. Vælg i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
 1. Vælg en chatkanal på listen, og klik på **Vis**. JavaScript for den valgte chatkanal vises.
 1. Vælg og kopier scriptet.
 1. Log ind på redigeringssiden på dit websted.
@@ -39,7 +39,7 @@ Chatwidgetten er nu tilgængelig og live. Besøgende på dit websted kan begynde
 >
 > Parameteren *DEFER* sikrer, at dette script ikke blokerer for åbning af en side. Scriptet kører, efter at siden er indlæst.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Knyt chat til dit kundecenter][3]
 * [Kunstig intelligens-tjenester][2]
@@ -48,6 +48,3 @@ Chatwidgetten er nu tilgængelig og live. Besøgende på dit websted kan begynde
 [1]: channel-create.md
 [2]: ../../../ai/learn/index.md
 [3]: ../../../customer-center/learn/enable-chat.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png

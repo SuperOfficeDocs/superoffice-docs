@@ -24,7 +24,7 @@ AI kan omdanne disse enorme dataindsamlinger til meningsfulde oplysninger, så m
 
 AI kan hjælpe dig med at få mening ud af de data, du har, og hjælpe dig med at automatisere processer, der sparer tid. Det vil også hjælpe dig med at være mere proaktiv i dit kundeengagement.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tekstanalyse][1]
 * [Kategorisering][2]

@@ -2,9 +2,9 @@
 uid: help-da-chat-screen
 title: Skærmbilledet Chat
 description: Skærmbilledet Chat
+keywords: chat
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: chat
 topic: reference
 language: da
 ---
@@ -32,7 +32,7 @@ Fanen **Chat-samtaler** har tre hovedområder:
 
 * Liste over aktive/seneste chatsessioner (til venstre)
 * Chatsamtale (i midten)
-* Sidepanelet Person (højre side) → viser kundeoplysninger
+* Sidepanelet Person (højre side), viser kundeoplysninger
 
 ### Liste over aktive/seneste chatsessioner
 
@@ -49,7 +49,7 @@ Følgende ikoner bruges til de aktive chatsessioner på listen:
 |---|---|
 | ![ikon][img2] | Den sidste meddelelse i samtalen fra kunden og agenten. |
 | ![ikon][img3] | Antal ulæste meddelelser fra kunden. |
-| ![ikon][img4] | Overført chatsamtale til dig eller fra dig. Venter på at blive accepteret. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Overført chatsamtale til dig eller fra dig. Venter på at blive accepteret. |
 
 ### Chatsamtale
 
@@ -83,5 +83,4 @@ Hvis kunden findes i SuperOffice, kan du vise kontaktinformation, sager, salg, o
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

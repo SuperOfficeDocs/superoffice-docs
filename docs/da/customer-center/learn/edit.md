@@ -2,9 +2,9 @@
 uid: help-da-customer-center-edit
 title: Kundecenter-kildefiler
 description: Kundecenter-kildefiler
+keywords: Kundecenter, CEP
 author: Bergfrid Dias
 date: 03.16.2023
-keywords: Kundecenter, CEP
 topic: howto
 language: da
 ---
@@ -15,7 +15,7 @@ Du kan opdatere standardsiderne i dit kundecenter ved at redigere kildefilerne.
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Vælg ![ikon][img1] **Systemindstillinger** > **Kundecenter-kildefiler**.
+1. Vælg <i class="ph ph-list" aria-label="Main menu"></i> **Systemindstillinger** > **Kundecenter-kildefiler**.
 
 2. Klik på en webside på listen.
 
@@ -29,8 +29,3 @@ Du kan opdatere standardsiderne i dit kundecenter ved at redigere kildefilerne.
 5. Klik på **Anvend** for at gemme dine ændringer uden at lukke vinduet, eller klik på **OK** for at gemme og afslutte.
 
 Hvis du senere vil lade en side vende tilbage til det oprindelige indhold, skal du åbne siden og klikke på **Genopret standard**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

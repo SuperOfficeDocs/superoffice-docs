@@ -1,12 +1,13 @@
 ---
 uid: help-da-document-create
 title: Opret nyt dokument
-description: "Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele."
+description: Opret et nyt dokument direkte i SuperOffice CRM eller upload eksisterende, så du og dine kolleger altid har adgang til de nyeste dokumenter og versioner. Denne vejledning viser dig, hvordan du gør begge dele.
 keywords: dokument
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -89,8 +90,6 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 8. Klik på linket for at uploade dokumentet eller trække og slippe dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 
-    ![Opret et nyt dokument -screenshot][img2]
-
 9. Luk dialogboksen **Dokument** ved at klikke på **Gem**.
 
 ***
@@ -98,7 +97,7 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 ## <a id="fields"></a>Sådan indtastes information
 
 > [!NOTE]
-> Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på pilen ![icon][img5] for at udvide listen. Vælg derefter en værdi for det pågældende felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, f.eks. et firmanavn.
+> Mange felter har en liste over foruddefinerede værdier, du kan vælge imellem. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> for at udvide listen. Vælg derefter en værdi for det pågældende felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, f.eks. et firmanavn.
 
 ![Opret dokument fra skabelon (ny) -screenshot][img4]
 
@@ -136,16 +135,13 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 
 2. Træk og slip dokumentet fra Windows Stifinder til dialogboksen **Dokument**.
 
-3. (valgfrit) Marker dokumentet som udført:
-
-    * Ny (fra version 10.3.11): Vælg afkrydsningsfeltet i footeren.
-    * Klassisk dialog (onsite): Klik på flueben-ikonet øverst til højre i dialogboksen.
+3. (valgfrit) Vælg afkrydsningsfeltet i footeren for at markere dokumentet som udført.
 
 4. Indtast de ønskede oplysninger i felterne.
 
 5. Klik på knappen **Opret** for at oprette det nye dokument i SuperOffice CRM. Dokumentet tilføjes til detaljekortet **Aktiviteter**.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Redigering af dokumenter][1]
 * [Indtjekning/udtjekning af dokumenter][3]
@@ -165,6 +161,4 @@ Hvis du ikke har installeret SuperOffice Web Tools, skal du downloade dokumenter
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

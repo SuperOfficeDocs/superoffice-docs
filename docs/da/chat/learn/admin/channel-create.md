@@ -2,9 +2,9 @@
 uid: help-da-chat-channel-create
 title: Opret en chatkanal
 description: Opret en chatkanal
+keywords: chat
 author: Bergfrid Dias
 date: 03.24.2023
-keywords: chat
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,14 +15,16 @@ language: da
 
 Du kan oprette chatkanaler til bestemte formål, for eksempel teknisk support, produkthenvendelser og salgssupport, og tildele de aktuelle repræsentanter til hver kanal.
 
-Se denne video for at få at lære, hvordan du opsætter og konfigurer din chatwidget (videoens længde - 4:37):
+Se denne video for at få at lære, hvordan du opsætter og konfigurer din chatwidget:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/94uhmeP1Xig]
 
+(videoens længde - 4:37)
+
 ## Trin
 
-1. Vælg ![ikonet][img2] **Chat** i navigatoren.
+1. Vælg <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** i navigatoren.
 
 2. Klik på **Tilføj** nederst på listen over chatkanaler.
 
@@ -35,7 +37,7 @@ Se denne video for at få at lære, hvordan du opsætter og konfigurer din chatw
 5. Klik på **Gem**, når du er færdig.
 
 > [!NOTE]
-> Felter med røde rammer er obligatoriske. Faner med ikonet ![ikon][img4] indeholder tomme obligatoriske felter.
+> Felter med røde rammer er obligatoriske. Faner med ikonet <i class="ph ph-warning-circle" aria-label="Warning icon"></i> indeholder tomme obligatoriske felter.
 
 ## Egenskaber
 
@@ -144,9 +146,3 @@ Forhåndsvisningen til højre viser chatvinduet med de gældende indstillinger.
 ### Kan jeg slette en chatkanal?
 
 Ja, men sørg for at chatkanalen ikke bruges på et websted. Ellers vil chatvinduet være synligt, men uden at fungere.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

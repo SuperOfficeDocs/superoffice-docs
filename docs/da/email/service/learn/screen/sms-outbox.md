@@ -2,9 +2,9 @@
 uid: help-da-sms-outbox
 title: Udbakke til sms
 description: Udbakke til sms
+keywords: Tjeneste
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Tjeneste
 topic: reference
 language: da
 ---
@@ -16,7 +16,7 @@ Fanen **Udbakke til sms** indeholder alle udgående sms'er, der endnu ikke er bl
 > [!NOTE]
 > Hvis denne fane ikke vises, tyder det på, at du ikke har sms-modulet, eller at sms-modulet ikke er aktiveret for den licens, du bruger. Kontakt den systemansvarlige for at få flere oplysninger.
 
-Følgende alternativer er også tilgængelige fra menuknappen ![ikon][img1]:
+Følgende alternativer er også tilgængelige fra menuknappen:
 
 * **Eksporter**: Bruges til at eksportere listen til en fil. Du kan vælge mellem disse formater: Excel, HTML og almindelig tekst.
 
@@ -28,8 +28,3 @@ Følgende alternativer er også tilgængelige fra menuknappen ![ikon][img1]:
     > Du kan ikke fortryde denne handling.
 
 Hvis du klikker på en af meddelelserne på denne fane, vises skærmbilledet **Udgående sms**. Hér finder du oplysninger om den aktuelle meddelelse, f.eks. størrelse og hvem der har oprettet den. Eventuelle fejlmeddelelser vises også.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

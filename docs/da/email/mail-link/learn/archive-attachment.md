@@ -1,10 +1,10 @@
 ---
 uid: help-da-mail-link-archive-attachment
 title: Arkiver vedhæftede filer
-description: "Hvis du vil gemme en vedhæftet fil i en e-mail, men ikke selve mailen i SuperOffice CRM, kan du arkivere den vedhæftede fil som et dokument."
+description: Hvis du vil gemme en vedhæftet fil i en e-mail, men ikke selve mailen i SuperOffice CRM, kan du arkivere den vedhæftede fil som et dokument.
+keywords: Mail Link, e-mail, vedhæftning
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Mail Link, e-mail, vedhæftning
 topic: howto
 language: da
 ---
@@ -47,7 +47,7 @@ Hvis den vedhæftede fil er den eneste del af e-mailen, du gerne vil beholde til
 
 12. Klik på **OK**. Den valgte vedhæftede fil arkiveres i SuperOffice CRM som et nyt dokument. Du kan åbne dokumentet ved at dobbeltklikke på fanebladet **Aktiviteter**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivere e-mails på firmaer/personer][2]
 * [Arkivere e-mails som aktiviteter][3]

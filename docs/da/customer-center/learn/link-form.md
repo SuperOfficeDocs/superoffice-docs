@@ -1,10 +1,10 @@
 ---
 uid: help-da-customer-centre-form
 title: Sådan linker du en webformular til kundecenteret
-description: "I denne vejledning lærer du, hvordan du bruger en webformular."
+description: I denne vejledning lærer du, hvordan du bruger en webformular.
+keywords: formular, Kundecenter
 author: Bergfrid Dias
 date: 03.20.2023
-keywords: formular, Kundecenter
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -43,7 +43,7 @@ Når en kunde udfylder denne formular, gemmes oplysningerne og detaljerne automa
 
 ![Webformular på siden Kontakt os -screenshot][img4]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Konfigurer kundecenter][2]
 * [Arbejde med formularer][1]

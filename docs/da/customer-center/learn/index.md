@@ -30,7 +30,7 @@ På skærmbilledet Kundecenter definerer du indstillinger for kundecenteret og a
 
 * [Kundecenter-kildefiler][3]. På denne fane kan du redigere standardsiderne i dit kundecenter.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Kundesprog][1]
 

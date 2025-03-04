@@ -28,7 +28,7 @@ Hvis den vedhæftede fil er den eneste del af e-mailen, som du vil beholde til s
 
 5. Klik på **Gem**. Den valgte vedhæftede fil arkiveres i SuperOffice CRM som et nyt dokument. Derefter kan du dobbeltklikke på dokumentet i detaljekortet **Aktiviteter** for at åbne det.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivering af indgående e-mail][3]
 * [Arkivering af udgående e-mail][3]

@@ -2,10 +2,10 @@
 uid: help-da-email-inbox-preview
 title: forhåndsvisningsfelt
 description: forhåndsvisningsfelt
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
-topic: help
+topic: howto
 language: da
 ---
 
@@ -24,9 +24,9 @@ Fanen **Forhåndsvisning** indeholder følgende felter:
 | Vedhæftede filer | Her vises eventuelle filer, der er vedhæftet meddelelsen. |
 
 > [!NOTE]
-> Gå til ![ikon][img1] **Personlige indstillinger** > **E-mailindstillinger**. Gå til fanen **Generelt**. Hvis du markerer **Vis inline-billeder**, vises inline-billeder i forhåndsvisningsfeltet.
+> Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **E-mailindstillinger**. Gå til fanen **Generelt**. Hvis du markerer **Vis inline-billeder**, vises inline-billeder i forhåndsvisningsfeltet.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tilføj e-mailadresser i SuperOffice CRM][1]
 * [Arkivering eller åbning af vedhæftede filer][2]
@@ -40,6 +40,3 @@ Fanen **Forhåndsvisning** indeholder følgende felter:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

@@ -27,7 +27,7 @@ Skærmbilledet **Indbakke** består af følgende to hoveddele:
 * Til venstre i skærmbilledet finder du indbakken. Du kan nemt skifte mellem at vise for eksempel indbakken og sendt e-mail.
 * Til højre kan du se den valgte meddelelse og udføre forskellige handlinger.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Visning af e-mailmeddelelser][1]
 * [Sammensæt en e-mail][2]

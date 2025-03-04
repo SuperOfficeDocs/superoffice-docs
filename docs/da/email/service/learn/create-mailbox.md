@@ -2,10 +2,10 @@
 uid: help-da-service-mailbox-create
 title: Oprettelse af e-mailkonti
 description: Oprettelse af e-mailkonti
+keywords: e-mail
 author: SuperOffice RnD
 date: 12.12.2023
 version: 10.2.11
-keywords: e-mail
 topic: howto
 language: da
 ---
@@ -80,13 +80,13 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå til fanen **Alias**. Her kan du indtaste ethvert e-mail-alias for en postkasse (for eksempel hvis <sales@company.com> og <sale@company.com> gå til den samme postkasse). Du tilføjer et alias ved at indtaste en e-mailadresse og derefter klikke på ![ikon][img1].
+1. Gå til fanen **Alias**. Her kan du indtaste ethvert e-mail-alias for en postkasse (for eksempel hvis <sales@company.com> og <sale@company.com> gå til den samme postkasse). Du tilføjer et alias ved at indtaste en e-mailadresse og derefter klikke på **+**.
 
 1. [!include[Import stuff](includes/step-import.md)]
 
 1. Klik på **OK**. E-mailkontoen oprettes.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Sletning af e-mail-konti][1]
 
@@ -95,6 +95,3 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

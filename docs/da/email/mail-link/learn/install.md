@@ -1,7 +1,7 @@
 ---
 uid: help-da-mail-link-install
 title: Installer SuperOffice WebTools
-description: "Få mere at vide om, hvordan du installerer maillinket/WebTools."
+description: Få mere at vide om, hvordan du installerer maillinket/WebTools.
 author: Kirsti Aakerholt
 date: 04.12.2023
 keywords: Gmail Link, e-mail
@@ -20,7 +20,7 @@ Med WebTools [installerer][4] du:
 
 Læs mere om, hvordan du [forbinder mail og dokumenter][5].
 
-## Relaterede emner
+## Relateret indhold
 
 * [Installer WebTools][3]
 * [Konfigurer indbakken][6]

@@ -2,9 +2,9 @@
 uid: help-da-automation-trigger
 title: Triggere
 description: Triggere
+keywords: CRMScript, trigger
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: CRMScript, trigger
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ Dette er et eksempel på en meget enkel udløser. Du kan for eksempel tilføje b
 Vi vil nu oprette en række handlinger baseret på det ovenstående eksempel.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Klik på ![ikon][img2] **CRMScript**, **og vælg fanen Udløsere** .
+1. Klik på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript**, **og vælg fanen Udløsere** .
 1. Klik på knappen **Ny udløser (makro)**. Skærmbilledet **Vælg udløser** viser de tilgængelige udløsere. Det er handlinger i systemet, som kan bruges til at aktivere handlinger/makroer. I vores eksempel vælger vi **Sag afsluttet**, så makroen køres, når en sag afsluttes i SuperOffice Service.
 1. Skriv "sag" i søgefeltet, og vælg udløseren med navnet **Sag lukket**.
 1. Angiv en kort beskrivelse af udløseren i feltet **Beskrivelse**.
@@ -43,7 +43,7 @@ Vi vil nu oprette en række handlinger baseret på det ovenstående eksempel.
 1. Klik på **Anvend**.
 1. Klik på **Ny handling**, og vælg **Send en e-mail eller SMS**. Nu vil vi tilpasse den e-mail, som skal sendes til kunden.
 1. Marker **Emnelinje**.
-1. Klik på ![ikonet][img1] parameterikonet til højre, og klik derefter på feltet **Vælg parameter**.
+1. Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre, og klik derefter på feltet **Vælg parameter**.
 1. Vælg **Ændre en sag** > **Titel**. Det anbringer sagstitlen i e-mailens emne.
 1. Marker **Fra**, og vælg **Ændre en sag** > **Ejer**.
 1. Marker **Til**, og vælg **Ændr en sag** > **Person: E-mailadresse**.
@@ -51,9 +51,3 @@ Vi vil nu oprette en række handlinger baseret på det ovenstående eksempel.
 1. Klik på **Anvend**.
 
 Du har nu oprettet en makro, som sender en e-mail med "Sag lukket" til kunden, når en sag er lukket. Denne udløser bliver aktiveret øjeblikkeligt, hvis du har markeret **Aktiveret** øverst.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/gearblack.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png
