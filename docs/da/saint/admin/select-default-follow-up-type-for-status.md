@@ -30,7 +30,7 @@ Du kan angive en standardopfølgningstype og en beskrivende tekst, der skal vise
 
 1. Klik på fanen **Opret opfølgning**.
 
-1. Klik på ![ikon][img1] pileknap til højrefor feltet **Type**, og vælg opfølgning.
+1. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> til højrefor feltet **Type**, og vælg opfølgning.
 
 1. Angiv den ønskede beskrivelse.
 
@@ -44,6 +44,3 @@ Du kan angive en standardopfølgningstype og en beskrivende tekst, der skal vise
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png

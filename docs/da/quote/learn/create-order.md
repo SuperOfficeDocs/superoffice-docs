@@ -1,7 +1,7 @@
 ---
 uid: help-da-quote-create-order
 title: tilbud opret ordre
-description: "I denne vejledning lærer du, hvordan du registrerer en ordre."
+description: I denne vejledning lærer du, hvordan du registrerer en ordre.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: tilbud

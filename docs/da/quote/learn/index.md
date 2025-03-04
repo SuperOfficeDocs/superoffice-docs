@@ -1,7 +1,7 @@
 ---
 uid: help-da-quote
 title: Arbejde med tilbud
-description: "SuperOffice Quote er en funktion, der hjælper dig med at generere tilbud hurtigt og præcist – hvilket sparer dig tid og minimerer fejl."
+description: SuperOffice Quote er en funktion, der hjælper dig med at generere tilbud hurtigt og præcist – hvilket sparer dig tid og minimerer fejl.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: tilbud

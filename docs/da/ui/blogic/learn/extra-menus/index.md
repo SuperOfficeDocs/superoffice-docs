@@ -22,7 +22,7 @@ På skærmbilledet **Ekstramenuer** kan du tilføje ekstramenuer (knapper, menue
 * **Topmenu**
 
 * Ruden **Status** på dashboardet
-  * ![ikon][img1] **Opgave**-knapper på hovedskærmbillederne
+  * **Opgave**-knapper (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) på hovedskærmbillederne
   * Menuknapper i ekstratabelvisningen
 
 * **Navigator**
@@ -40,7 +40,7 @@ På skærmbilledet **Ekstramenuer** kan du tilføje ekstramenuer (knapper, menue
 
 Se også [Egenskaber for menu][1].
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Knappen Tilføj funktion til menu (Opgave)][2]
 * [Tilføj en ekstra browserfane (webpanel)][3]
@@ -49,6 +49,3 @@ Se også [Egenskaber for menu][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

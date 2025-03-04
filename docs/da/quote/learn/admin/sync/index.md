@@ -20,7 +20,7 @@ På fanen **Sync** i skærmbilledet Tilbud/Sync vises Sync Connectors og tilknyt
 
 [!include[How to set up ERP](../includes/set-up-erp.md)]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføje en Sync Connector][1]
 * [Tilføje et ERP-link][2]

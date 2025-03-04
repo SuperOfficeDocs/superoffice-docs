@@ -28,7 +28,7 @@ Oprettelse af brugerdefinerede faner gør det muligt for dig at gruppere relater
 
 2. Under Fanetitel, erstat teksten "Ny fane" med det nye fanenavn.
 
-    Du kan også klikke på **A-Z** knappen for at tilføje titel på andre sprog.
+    Du kan også klikke på <i class="ph ph-translate" aria-label="Translate"></i> for at tilføje titel på andre sprog.
 
 3. Vælg det antal kolonner, du vil bruge i den nye fane.
 
@@ -69,7 +69,7 @@ Etiketter og skillelinjer hjælper med at organisere felter inden for en fane, h
 
 3. For at tilføje en overskrift skal du trække elementet **Etiket** ind i layoutet.
 
-    * I sektionen **Indstillinger**, erstat "Ny etiket" med den nye etiketnavn. Du kan eventuelt klikke på **A-Z** knappen ved siden af etiketten for at [tilføje etiketten på andre sprog][9].
+    * I sektionen **Indstillinger**, erstat "Ny etiket" med den nye etiketnavn. Du kan eventuelt klikke på <i class="ph ph-translate" aria-label="Translate"></i> ved siden af etiketten for at [tilføje etiketten på andre sprog][9].
     * Juster skriften efter behov.
 
 4. For at tilføje en vandret skillelinje, træk elementet **Skillelinje** ind i layoutet. Ændr afstandsstykketypen, hvis det er nødvendigt.

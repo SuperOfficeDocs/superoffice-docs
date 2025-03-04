@@ -15,7 +15,7 @@ Her kan du redigere egenskaberne for et skærmbillede. Du kan blandt andet opret
 
 ## Egenskaber
 
-* **Mappe:** Hvis du har organiseret skærmbillederne i en mappestruktur, skal du klikke på ![ikon][img1] og vælge en mappe.
+* **Mappe:** Hvis du har organiseret skærmbillederne i en mappestruktur, skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en mappe.
 * **Navn**: Et beskrivende navn på skærmbilledet.
 * **Id-streng**: En streng, der entydigt identificerer dette skærmbillede, så der kan henvises til det i webadresser
 * **Godkendelsesnøgle**: Det er muligt at køre et eget defineret skærmbillede uden at være logget ind som bruger. For at gøre dette skal du angive en godkendelsesnøgle.
@@ -30,7 +30,4 @@ Her kan du redigere egenskaberne for et skærmbillede. Du kan blandt andet opret
 * **Skjult variabel**: Variablerne, der er defineret her, gemmes, når skærmbilledet tilføjes, således at det næste skærmbillede har adgang til disse variabler.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[1]: ../../../request/learn/create.md

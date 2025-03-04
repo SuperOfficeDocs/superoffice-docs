@@ -1,7 +1,7 @@
 ---
 uid: help-da-product-configure
 title: Konfiguration af produkt
-description: "Du kan tilpasse og konfigurere funktionerne til tilbudshåndtering i Indstillinger og vedligeholdelse, så de svarer til de navne og etiketter, som brugerne kender."
+description: Du kan tilpasse og konfigurere funktionerne til tilbudshåndtering i Indstillinger og vedligeholdelse, så de svarer til de navne og etiketter, som brugerne kender.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: produkt, tilbud
@@ -58,7 +58,7 @@ Marker her, om brugerne skal redigere feltet og/eller være forpligtet til at ud
 
 ### Rækkefølge
 
-Klik på ![ikonet][img1] ![ikon][img2] pile for at vælge feltets placering. Denne ordre bruges også i dialogboksen **Tilføj/rediger produkt** .
+Klik på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> for at vælge feltets placering. Denne ordre bruges også i dialogboksen **Tilføj/rediger produkt** .
 
 ## Relateret indhold
 
@@ -70,6 +70,4 @@ Klik på ![ikonet][img1] ![ikon][img2] pile for at vælge feltets placering. Den
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

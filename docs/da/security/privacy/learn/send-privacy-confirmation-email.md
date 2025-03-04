@@ -17,10 +17,12 @@ I den nye GDPR-verden har enkeltpersoner "ret til at blive informeret". Det bety
 
 Ved at bruge integrerede formularer, der er tilgængelige i din CRM-løsning, kan du indhente en persons samtykke, samtidig med at vedkommende udfylder en webformular og giver dig sine personoplysninger. Dette samtykke dokumenteres automatisk i SuperOffice CRM ved hjælp af funktionerne til samtykkehåndtering.
 
-Denne video viser dig, hvordan du opretter en grundlæggende webformular og tilføjer den til din webside (videolængde – 7:49):
+Denne video viser dig, hvordan du opretter en grundlæggende webformular og tilføjer den til din webside:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(videolængde – 7:49)
 
 ## Send automatiske e-mailbekræftelser
 
@@ -36,7 +38,7 @@ Fra skærmbilledet Person kan du sende eller gensende e-mailen med bekræftelse 
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klik på **Opgave** (![ikon][img1]) &gt; **Send e-mail med bekræftelse om personbeskyttelse**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> > **Send e-mail med bekræftelse om personbeskyttelse**.
 
     ![Send en bekræftelses-e-mail for at informere personerne om, at deres oplysninger gemmes i din CRM-database -screenshot][img2]
 
@@ -62,7 +64,7 @@ E-mailen med bekræftelsen om personbeskyttelse vil normalt informere personen o
 
 E-mailen kan også indeholde et link til et kundecenter, hvor personen kan vedligeholde abonnementer og samtykke. Linket er som standard gyldigt i 21 dage.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Rediger e-mailen med bekræftelse om personbeskyttelse i Indstillinger og vedligeholdelse][1]
 
@@ -70,5 +72,4 @@ E-mailen kan også indeholde et link til et kundecenter, hvor personen kan vedli
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

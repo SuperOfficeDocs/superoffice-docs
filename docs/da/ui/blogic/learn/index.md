@@ -15,7 +15,7 @@ language: da
 
 For at bruge dit SuperOffice på en mere effektiv måde og gøre systemet endnu smartere, er avancerede indstillinger tilgængelige via Expander-serviceudviklingsværktøjerne.
 
-Forudsat at du har adgang til udviklingsværktøjerne, vil du se ![ikonet][img1] **Systemdesign** i navigatoren. Du kan oprette ekstra tabeller og felter, lave tilpassede workflows via CRM Script og redigere de forskellige hovedkort og dialogbokse, så de passer til dine særlige forretningsbehov. Disse værktøjer hjælper dig med at tilpasse SuperOffice på en sådan måde, at dit sagssystem bliver endnu stærkere og relevant for dit firma.
+Forudsat at du har adgang til udviklingsværktøjerne, vil du se <i class="ph ph-selection-all" aria-hidden="true"></i> **Systemdesign** i navigatoren. Du kan oprette ekstra tabeller og felter, lave tilpassede workflows via CRM Script og redigere de forskellige hovedkort og dialogbokse, så de passer til dine særlige forretningsbehov. Disse værktøjer hjælper dig med at tilpasse SuperOffice på en sådan måde, at dit sagssystem bliver endnu stærkere og relevant for dit firma.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -63,4 +63,3 @@ Ved [at tilføje ekstra tabeller og felter][1] til SuperOffice kan du gemme fors
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

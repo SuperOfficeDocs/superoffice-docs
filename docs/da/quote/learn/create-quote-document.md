@@ -24,7 +24,7 @@ Når du har oprettet tilbuddet og tilføjet de ønskede produkter, kan du oprett
 5. Indtast dokumentets indhold, og gem og luk det på den sædvanlige måde i programmet. Dokumentet vises derefter på fanen **Aktiviteter** på skærmbilledet Salg (og på skærmbillederne Firma og Dagbog).
 
 > [!TIP]
-> Der er en [liste over de variabler du kan indsætte i dokumenter, du opretter.
+> Der er en liste over de variabler du kan indsætte i dokumenter, du opretter.
 
 ## Hvordan kan jeg ændre tilbudsdokumentet?
 
@@ -32,7 +32,7 @@ Hvis du har oprettet et tilbudsdokument til et tilbud, men vil bruge et andet do
 
 1. Åbn tilbuddet.
 
-2. Klik på knappen ![ikon][img1] **Opgave**, og vælg **Skift tilbudsdokument**.
+2. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, og vælg **Skift tilbudsdokument**.
 
 3. Vælg tilbudsdokument på listen.
 
@@ -49,6 +49,3 @@ Hvis du har oprettet et tilbudsdokument til et tilbud, men vil bruge et andet do
 [2]: ../../document/learn/create.md#fields
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

@@ -38,7 +38,7 @@ E-mailskabelonen med bekræftelse om personbeskyttelse er en **e-mailskabelon**,
 
 [Sådan tilføjer du en e-mailskabelon][1]
 
-## Tilknyttet
+## Relateret indhold
 
 * [Send en privacy-e-mail om dine personers ret til at blive informeret][2]
 

@@ -1,7 +1,7 @@
 ---
 uid: help-da-saint-admin
 title: Konfigurer SAINT
-description: "Lær, hvordan du konfigurerer SuperOffice SAINT i denne guide."
+description: Lær, hvordan du konfigurerer SuperOffice SAINT i denne guide.
 keywords: SAINT, statusovervågning
 author: SuperOffice RnD
 date: 02.22.2023

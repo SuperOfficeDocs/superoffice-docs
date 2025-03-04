@@ -1,7 +1,7 @@
 ---
 uid: help-da-quote-create
 title: Opret et tilbud
-description: "I denne vejledning lærer du, hvordan du opretter et tilbud, tilføjer og redigerer et produkt inde i tilbuddet, og hvordan du sender et tilbud."
+description: I denne vejledning lærer du, hvordan du opretter et tilbud, tilføjer og redigerer et produkt inde i tilbuddet, og hvordan du sender et tilbud.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: tilbud
@@ -38,7 +38,7 @@ Hvis dialogboksen **Vælg ERP-kobling** vises, når du skal oprette et tilbud, k
 
 Når du har valgt en ERP-forbindelse, kan du fortsætte med at oprette et tilbud.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Rediger et sendt tilbud (versioner)][3]
 * [Dialogboksen Rediger tilbud][4]
