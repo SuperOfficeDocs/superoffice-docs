@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.31.2024
 version: 10
 topic: tutorial
-language: da
 audience: settings
 audience_tooltip: Settings and maintenance
+language: da
 ---
 
 # Tilpas ordrebekræftelsesskabelon
@@ -143,7 +143,7 @@ Produkterne vil nu blive sorteret efter produktnavn inden for hvert alternativ. 
 
 1. Gem skabelondokumentet og bekræft som beskrevet ovenfor.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Opret et skabelondokument][2]
 * [Skabelonvariabelreference][3]

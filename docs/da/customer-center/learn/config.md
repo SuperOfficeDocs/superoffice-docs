@@ -1,15 +1,15 @@
 ---
 uid: help-da-customer-center-config
 title: Kundecenterkonfiguration
-description: "Få mere at vide om, hvordan du konfigurerer dit kundecenter, i denne vejledning."
+description: Få mere at vide om, hvordan du konfigurerer dit kundecenter, i denne vejledning.
+keywords: Tjeneste, Kundecenter, CEP
 author: SuperOffice RnD
 date: 03.16.2023
-keywords: Tjeneste, Kundecenter, CEP
 topic: howto
 language: da
 ---
 
-# Konfigurer kundecenter
+# Konfigurer kundecenter <i class="ph ph-question" aria-label="Question mark"></i>
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
@@ -26,7 +26,7 @@ Hvis dit kundecenter er flersproget, kan du angive indstillinger (f.eks. velkoms
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Vælg ![ikon][img1] **Kundecenter** > **Konfigurer**. Der er 2 faner på skærmen Kundecenter **Kundecenter**: **Styling** og **Indstillinger**. Øverst på denne side finder du et link til forhåndsvisning af kundecenterets webside.
+1. Vælg **Kundecenter** > **Konfigurer**. Der er 2 faner på skærmen Kundecenter **Kundecenter**: **Styling** og **Indstillinger**. Øverst på denne side finder du et link til forhåndsvisning af kundecenterets webside.
 
 1. Under fanen **Styling** kan du redigere forskellige indstillinger for kundecentrets udseende og funktionalitet: Logo, foretrukken bredde, farver og skrifttyper. Eksemplet opdateres automatisk.
 
@@ -66,6 +66,5 @@ Hvis dit kundecenter er flersproget, kan du angive indstillinger (f.eks. velkoms
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
 [img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

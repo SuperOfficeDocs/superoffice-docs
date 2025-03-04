@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 06.11.2024
 version: 10.3.7
 topic: concept
-language: da
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Ekstrafelt
@@ -30,7 +30,7 @@ Et *ekstra felt* er et brugerdefineret felt, du tilføjer til en eksisterende Su
 > [!NOTE]
 > Ekstra felter på firma eller person er ikke det samme som brugerdefinerede felter på disse enheder!
 
-Ekstra felter administreres i **Indstillinger og vedligeholdelse**, på **Tabeller**-skærmen.
+Ekstra felter administreres i Indstillinger og vedligeholdelse, på **Tabeller**-skærmen.
 
 ## <a id="field-types"></a>Felttyper
 

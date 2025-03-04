@@ -4,9 +4,10 @@ title: Redigering af dokumenter
 description: Redigering af dokumenter
 keywords: dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -125,7 +126,7 @@ Dialogboksen er lidt anderledes i Chrome, Edge, Firefox og Safari.
 
 Når du ser et specifikt dokument:
 
-1. Klik på knappen **Opgave** i **Dokument**-dialogen.
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i **Dokument**-dialogen.
 2. Vælg **Slet**.
 3. Bekræft eller annullér sletningen i bekræftelsesdialogen.
 
@@ -137,7 +138,7 @@ Hvis du dobbeltklikker på et dokument, og der ikke sker noget, kan du prøve at
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Ændring af status Udført for en aktivitet][4]
 

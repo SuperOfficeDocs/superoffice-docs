@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-requests
 title: Brug af sager i ruder
-description: "I denne vejledning lærer du, hvordan du får et hurtigt overblik over alle åbne sager i SuperOffice-dashboards."
+description: I denne vejledning lærer du, hvordan du får et hurtigt overblik over alle åbne sager i SuperOffice-dashboards.
+keywords: dashboard, sag
 author: Bergfrid Dias
 date: 03.14.2023
-keywords: dashboard, sag
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +23,7 @@ Det er almindelig praksis at starte dagen med at få et overblik over den aktuel
 
 Hvis du eller din rolle har tilstrækkelige rettigheder, kan du vælge det indhold, som skal vises i de fire ruder på dashboardet.
 
-1. Klik på knappen **Opgave**, og vælg **Tilføj rude/Rediger layout** .
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Tilføj rude/Rediger layout** .
 
 2. På listen **Vis ruder for** vælger du **Sag** og vælger en af de foruddefinerede ruder eller vælger **Tom sagsrude**
 
@@ -59,7 +59,7 @@ Viser sager, der tilhører dig, og som har status **Åbn**. Med andre ord indeho
 
 Her vises de sager, som ingen er tildelt ansvaret for. Hvis du vil [overtage ansvaret for en af sagerne][2], er det vigtigt, at du klikker på **Accepter sag**. Ellers kan en anden besvare sagen på samme tid.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Opret et nyt dashboard][1]
 * [Tilføj rude/rediger layout i dashboard][7]
@@ -69,8 +69,8 @@ Her vises de sager, som ingen er tildelt ansvaret for. Hvis du vil [overtage ans
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

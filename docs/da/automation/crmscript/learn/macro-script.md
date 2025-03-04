@@ -2,18 +2,18 @@
 uid: help-da-automation-macro
 title: Makroer og script
 description: Makroer og script
+keywords: CRMScript, makro, script
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: script, makro
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Makroer og script
+# Makroer og script <i class="ph ph-code-block" aria-hidden="true"></i>
 
-På fanen **Macroer og scripts** på![ikon][img2] **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at [vise, redigere eller køre den][1].
+På fanen **Macroer og scripts** på **CRMScript** finder du en liste over scripts og makroer i systemet, grupperet i mapper. Klik på et script eller en makro på listen for at [vise, redigere eller køre den][1].
 
 ## Om makroer
 
@@ -25,7 +25,7 @@ Makroer har et antal funktioner i SuperOffice. De kan knyttes til bestemte [udl�
 
 Du kan for eksempel bruge makroer:
 
-* Som en opgave/funktion i et menupunkt (for eksempel i ![ikon][img1] **Opgave** på skærmen Sag)
+* Som en opgave/funktion i et menupunkt (for eksempel i **Opgave** på skærmen Sag)
 * Når en sag eskaleres via advarselsniveauer for prioritet
 * Som en planlagt opgave
 * Når de aktiveres af et e-mailfilter
@@ -37,7 +37,7 @@ En makro er et sæt af foruddefinerede handlinger, som udføres i en bestemt ræ
 
 Et script er et lille program, der er skrevet til at udføre bestemte opgaver, og som kræver programmeringsviden i forbindelse med opsætningen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Visning af script/makro][1]
 * [Opret et script][2]
@@ -49,7 +49,3 @@ Et script er et lille program, der er skrevet til at udføre bestemte opgaver, o
 [2]: create-script.md
 [3]: create-macro.md
 [4]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

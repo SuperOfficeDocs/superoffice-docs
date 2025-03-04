@@ -103,7 +103,7 @@ Præfikser sikrer, at det du opretter, ikke konflikter med fremtidige SuperOffic
 * Skal være et enkelt ord
 * Må kun indeholde understreger, bogstaver fra a til z og tal
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tilføj ekstra tabeller][2]
 * [Tilføj ekstra felter][3]

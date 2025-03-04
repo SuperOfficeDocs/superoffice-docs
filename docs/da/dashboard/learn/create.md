@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-create
 title: Opret et nyt dashboard
-description: "Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye faner i dashboard."
+description: Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye faner i dashboard.
+keywords: dashboard
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: dashboard
 topic: howto
 language: da
 ---
@@ -15,21 +15,23 @@ Du kan have flere dashboardfaner i skærmbilledet Dashboard, så du kan vise lig
 
 ## Opret ny dashboardfane
 
-Se denne video, eller følg nedenstående trin for at lære, hvordan du tilføjer nye dashboardfaner til SuperOffice CRM (videoens længde - 4:29):
+Se denne video, eller følg nedenstående trin for at lære, hvordan du tilføjer nye dashboardfaner til SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
+(videoens længde - 4:29)
+
 1. Åbn skærmbilledet **Dashboard**.
 
-2. Klik på knappen **Opgave**, og vælg Opret et nyt **dashboard**.
+2. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg Opret et nyt **dashboard**.
 
 3. Angiv navnet på dashboardet i dialogboksen. Dette vil være navnet på fanen dashboard.
 
 4. Angiv en beskrivelse af dashboardet. Beskrivelsen vises øverst på dashboardet.
 
     > [!TIP]
-    > Du kan også tilføje navn og beskrivelse [på andre sprog][1] ved at klikke på ![ikon][img1].
+    > Du kan også tilføje navn og beskrivelse [på andre sprog][1] ved at klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Vælg temaet for dashboardet listen **Tema**.
 
@@ -49,7 +51,7 @@ Der er mange standardruder at vælge imellem i biblioteket, men du kan også opr
 
 ![Vælg ønskede ruder, og træk og slip dem i gittervisningen -screenshot][img2]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Redigering af dashboard][3]
 * [Tilføj ruder/rediger layout][2]
@@ -66,5 +68,4 @@ Der er mange standardruder at vælge imellem i biblioteket, men du kan også opr
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

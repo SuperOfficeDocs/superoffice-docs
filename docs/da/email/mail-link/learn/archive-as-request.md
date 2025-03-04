@@ -1,10 +1,10 @@
 ---
 uid: help-da-mail-link-archive-as-request
 title: Arkiver e-mail som sager
-description: "Få flere oplysninger om, hvordan du arkiverer mails som anmodninger i denne vejledning."
+description: Få flere oplysninger om, hvordan du arkiverer mails som anmodninger i denne vejledning.
+keywords: Mail Link
 author: SuperOffice RnD
 date: 03.14.2023
-keywords: Mail Link
 topic: howto
 language: da
 ---
@@ -49,7 +49,7 @@ Du kan arkivere en e-mail i din mailklientindbakke som en anmodning i SuperOffic
 8. Klik på **OK**. Der vises en meddelelse for at bekræfte, at sagen er blevet opdateret. Hvis sagen tidligere er blevet afsluttet, bliver den nu reaktiveret.
 9. I bekræftelsesmeddelelsen kan du vælge **Klik her for at åbne sagen**, hvis du gerne vil se nærmere på sagen, eller **Luk** for at lukke bekræftelsesmeddelelsen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkiver vedhæftede filer][1]
 

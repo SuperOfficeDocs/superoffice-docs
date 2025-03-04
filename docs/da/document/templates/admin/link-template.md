@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.12.2024
 version: 10
 topic: howto
-language: da
 audience: settings
 audience_tooltip: Settings and maintenance
+language: da
 ---
 
 # Tilføjelse af dokumentskabelon
@@ -18,10 +18,12 @@ Hvis du opretter nye skabeloner eller ændrer en standardskabelon og gemmer den 
 
 Skabeloner vises som forekomster på listen **Dokument – Skabelon**, og du knytter en skabelon til SuperOffice CRM ved at tilføje den som en forekomst på listen.
 
-Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilføje en dokumentskabelon (videoens længde - 2:30):
+Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilføje en dokumentskabelon:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(videoens længde - 2:30)
 
 ## Trin
 
@@ -73,13 +75,13 @@ Se denne video, eller følg nedenstående trin for at lære, hvordan du kan tilf
 
 Angiv følgende information på fanen **Detaljer**:
 
-1. I feltet **Retning** angiver du, om skabelonen skal være udgående eller indgående ved at klikke på ![icon][img1] pilen og vælge fra rullemenuen.
+1. I feltet **Retning** angiver du, om skabelonen skal være udgående eller indgående ved at klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge fra rullemenuen.
 
 2. I feltet **Dokumenttype** skal du vælge enten **Dokument** eller **Fax** som skabelontype.
 
 3. I feltet **Dokument gemt i** kan du vælge at gemme dokumentet et andet sted end standardindstillingen.
 
-4. I feltet **Hensigt** skal du klikke på ![icon][img1] og vælge en af de foruddefinerede valgmuligheder fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][4]).
+4. I feltet **Hensigt** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en af de foruddefinerede valgmuligheder fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][4]).
 
     > [!TIP]
     > Du kan oprette nye indstillinger, ud over de foruddefinerede indstillinger, ved at tilføje forekomster på listen **Opfølgning - Hensigt** i Indstillinger og vedligeholdelse.
@@ -127,7 +129,6 @@ Here you can add translated versions of the document template.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

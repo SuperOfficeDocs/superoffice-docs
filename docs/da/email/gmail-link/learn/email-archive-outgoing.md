@@ -37,7 +37,7 @@ Klik på linket i popup-meddelelsen for at åbne dokumentet i SuperOffice.
 > [!TIP]
 > Hvis du ikke arkiverer meddelelsen, når du sender den, kan du stadig [gå til mappen Sendt og arkivere meddelelsen][3].
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivering af indgående e-mail][3]
 * [Arkiver vedhæftede filer][4]

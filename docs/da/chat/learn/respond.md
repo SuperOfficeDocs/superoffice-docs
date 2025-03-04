@@ -1,10 +1,10 @@
 ---
 uid: help-da-chat-respond
 title: Svare på en chatsamtale
-description: "Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort."
+description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort.
+keywords: chat
 author: Bergfrid Dias
 date: 02.14.2023
-keywords: chat
 topic: howto
 language: da
 ---
@@ -44,7 +44,7 @@ Indgående chatsamtaler annonceres på følgende måder:
 
 5. For at chatte skal du indtaste teksten i den nederste del af skærmbilledet og trykke på **Enter** eller klikke på **Send**.
 
-6. Hvis du vil bruge emojier/etiketter, skal du klikke på ![ikon][img5] ved siden af tekstfeltet.
+6. Hvis du vil bruge emojier/etiketter, skal du klikke på <i class="ph ph-smiley" aria-label="Smiley"></i> ved siden af tekstfeltet.
 
 7. Hvis du ikke kan svare på det, kunden spørger om, kan du gøre en af følgende:
 
@@ -55,7 +55,7 @@ Indgående chatsamtaler annonceres på følgende måder:
     * [Send en FAQ, en svarskabelon eller et hurtigt svar][4], og/eller
     * [Send en fil][5]
 
-9. Når samtalen er afsluttet, kan du klikke på ![ikon][img1] og vælge **Afslut chat** (medmindre kunden lukker chatvinduet først). Chatsamtale flyttes til **Seneste chat-sessioner**. Chatsamtalen er også opført i detaljekortet **Aktiviteter** i SuperOffice CRM.
+9. Når samtalen er afsluttet, kan du klikke på <i class="ph ph-list" aria-label="Task menu"></i> og vælge **Afslut chat** (medmindre kunden lukker chatvinduet først). Chatsamtale flyttes til **Seneste chat-sessioner**. Chatsamtalen er også opført i detaljekortet **Aktiviteter** i SuperOffice CRM.
 
 > [!NOTE]
 > Hvis slutskemaet for chat er aktiveret for denne chatkanal, kan kunden vælge at vende tilbage til chatsamtalen. Så aktiveres chatsamtalen igen.
@@ -68,7 +68,7 @@ Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgs
 
 ![Fra knappen for tilføj foruddefineret tekst kan du vælge tekst fra FAQ, Svarskabeloner og Hurtige svar -screenshot][img6]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Anvendelse af chatfunktion fra kundens perspektiv][6]
 * [Oprette eller uploade et dokument][7]
@@ -83,9 +83,7 @@ Spar tid ved at bruge foruddefinerede tekster, når du besvarer kundeforespørgs
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

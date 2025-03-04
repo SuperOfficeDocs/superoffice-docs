@@ -1,10 +1,10 @@
 ---
 uid: help-da-mail-link-archive-as-activity
 title: Arkiver e-mail som aktivitet
-description: "Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et telefonopkald i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller sag."
+description: Hvis du gemmer en e-mail direkte som en opgave, en aftale eller et telefonopkald i din SuperOffice-dagbog, sikrer du, at du aldrig glemmer at følge op på en kunde eller sag.
+keywords: Mail Link, e-mail
 author: SuperOffice RnD
 date: 02.10.2023
-keywords: Mail Link, e-mail
 topic: howto
 language: da
 ---
@@ -50,7 +50,7 @@ Hvis du modtager en e-mail, hvori du anmodes om at udføre en handling, kan du k
 
 15. Klik på **OK**. Den eller de valgte e-mails arkiveres i SuperOffice CRM som aktiviteter. Du kan herefter åbne alle disse aktiviteter ved at dobbeltklikke på dem i fanen **Aktiviteter** eller i tjeklisten i skærmbilledet Dagbog.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivere e-mails på firmaer/personer][2]
 * [Arkiver vedhæftede filer][3]

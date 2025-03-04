@@ -48,7 +48,7 @@ language: da
     4. Klik på **Tilføj** for at tilføje værdien.
 
         > [!TIP]
-        > Du kan slette værdier igen ved at markere den ønskede værdi og derefter klikke på ![ikon][img1] sletteikonet.
+        > Du kan slette værdier igen ved at markere den ønskede værdi og derefter klikke på <i class="ph ph-x-circle" aria-label="Remove icon"></i>.
 
 1. På fanen **Angiv egenskaber** kan du angive bestemte egenskaber for sager, der registreres fra e-mails, som matcher det aktuelle filter:
 
@@ -67,6 +67,3 @@ language: da
 [1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../request/reply-templates/learn/index.md
 [3]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

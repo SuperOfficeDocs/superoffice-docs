@@ -2,9 +2,9 @@
 uid: help-da-email-inbox-archive
 title: Arkiver e-mails
 description: Arkiver e-mails
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
 topic: howto
 language: da
 ---
@@ -17,7 +17,7 @@ Du kan arkivere en indgående e-mail (med eventuelle vedhæftede filer) som et d
 
 1. Gå til indbakken eller den relevante mappe.
 2. Vælg den ønskede meddelelse.
-3. Klik på ikonet **Arkivér** ![.][img1]
+3. Klik på <i class="ph ph-archive" aria-hidden="true"></i> **Arkivér**.
 4. Klik på **Arkivér e-mail**. Dialogboksen [**Dokument** åbnes][1].
 
 ## <a id="out"></a>Arkiver udgående e-mail
@@ -41,6 +41,3 @@ Hvis du vil sende meddelelsen og arkivere den som et dokument i SuperOffice CRM,
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

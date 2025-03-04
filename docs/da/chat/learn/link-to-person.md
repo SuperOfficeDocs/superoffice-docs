@@ -1,10 +1,10 @@
 ---
 uid: help-da-chat-link-to-person
 title: Link chat til en eksisterende person
-description: "Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort."
+description: Når en kunde sender en forespørgsel via chatwidgetten på hjemmesiden, er det ikke kun vigtigt at svare på den, men også at registrere den på deres kontaktkort.
+keywords: chat
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: chat
 topic: howto
 language: da
 ---
@@ -35,7 +35,7 @@ Hvis du har valgt den forkerte person, kan du klikke på **Skift person** neders
 
 Hvis kunden ikke findes i SuperOffice CRM-database, kan du [oprette en ny person og et nyt firma][1] i sidepanelet.
 
-## Relaterede emner
+## Relateret indhold
 
 <!-- Referenced links -->
 [1]: create-contact.md

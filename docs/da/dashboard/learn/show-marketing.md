@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-tile-marketing
 title: Brug af forsendelser og formularer i felter
-description: "Opret dashboards til dine marketingopgaver, f.eks. formularindsendelser og forsendelser, for at spore og analysere deres ydeevne, tendenser og produktivitet på tværs af alle marketingaktiviteter."
+description: Opret dashboards til dine marketingopgaver, f.eks. formularindsendelser og forsendelser, for at spore og analysere deres ydeevne, tendenser og produktivitet på tværs af alle marketingaktiviteter.
+keywords: dashboard, marketing
 author: SuperOffice RnD
 date: 02.16.2023
-keywords: dashboard, marketing
 topic: howto
 language: da
 ---
@@ -38,7 +38,7 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 
 ![Eksemplet viser forskellige formularafsendelse, du kan bruge til at få et overblik over dine data -screenshot][img2]
 
-## Tilknyttet
+## Relateret indhold
 
 * [Videnskaben bag e-mail åbne satser -][1] blog
 * [Tilføj et nyt dashboard][5]

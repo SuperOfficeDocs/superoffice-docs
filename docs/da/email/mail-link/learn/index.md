@@ -31,7 +31,7 @@ Disse knapper vises på værktøjslinjerne i Microsoft Outlook:
 | ![ikon][img2] | Sådan søges efter afsenderen af en e-mail |
 | ![ikon][img3] | Klik på den lille pil til højre for knappen **SuperOffice** for at åbne dialogboksen**SuperOffice CRM indstillinger**. |
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkivere e-mails i SuperOffice CRM][1]
 * [Opret e-mails fra SuperOffice CRM][5]

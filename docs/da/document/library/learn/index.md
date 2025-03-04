@@ -37,7 +37,7 @@ Denne integration giver dig mulighed for at gemme alle dokumenter og e-mails i S
 > [!NOTE]
 > Før du kan starte denne konfiguration, skal du oprette webstedstilladelser og bibliotekstilladelser i SharePoint. Alle brugere skal autentificere sig ved hjælp af Microsoft 365.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Om SuperOffice cloud dokumentintegrationer][2]
 * [Krav til SharePoint dokumentbibliotek][3]

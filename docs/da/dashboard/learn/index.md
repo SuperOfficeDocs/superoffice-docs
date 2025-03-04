@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard
 title: Dashboards
-description: "Konfigurer SuperOffice Dashboard, og brug foruddefinerede felter. Dashboards er ideelle til alle brugere og ledere. Du kan få et overblik over dit individuelle arbejde eller din teampræstation."
+description: Konfigurer SuperOffice Dashboard, og brug foruddefinerede felter. Dashboards er ideelle til alle brugere og ledere. Du kan få et overblik over dit individuelle arbejde eller din teampræstation.
+keywords: dashboard
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: dashboard
 topic: concept
 language: da
 ---
@@ -84,10 +84,10 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 
 | Ikon / knap | Beskrivelse |
 |---|---|
-| ![ikon][img1] | Dashboardet fastgøres af en administrator og distribueres sandsynligvis til flere brugere. |
-| ![ikon][img2] | Klik på stjernen i øverste højre hjørne for at angive et dashboard som favorit. |
-| ![ikon][img3] | Klik på knappen **Opdater** for at opdatere data i alle ruder. |
-| **Opgave** | Klik for at få adgang til forskellige funktioner. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashboardet fastgøres af en administrator og distribueres sandsynligvis til flere brugere. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Klik på stjernen i øverste højre hjørne for at angive et dashboard som favorit. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klik på knappen **Opdater** for at opdatere data i alle ruder. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klik for at få adgang til forskellige funktioner. |
 
 **Funktioner på knappen Opgave:**
 
@@ -106,7 +106,4 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
