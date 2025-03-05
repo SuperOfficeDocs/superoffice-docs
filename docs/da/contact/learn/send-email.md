@@ -1,61 +1,65 @@
 ---
 uid: help-da-contact-send-email
-title: Afsendelse af e-mail til en person
-description: Afsendelse af e-mails via SuperOffice CRM gør det nemmere at dele og gemme al din kundekommunikation ét sted.
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: person, contact
+title: Send e-mail til en person
+description: At sende e-mails via SuperOffice CRM gør det nemmere at dele og gemme al din kundekommunikation ét sted.
+keywords: e-mail person, send e-mail, e-mail, mail
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Afsendelse af e-mail til en person
+# Send e-mail til en person
 
-Du kan forberede en e-mail fra både skærmbilledet Person og skærmbilledet Firma. Derefter er trinene til at sende e-mailen de samme.
+Du kan sende e-mails til personer fra både **skærmbilledet Person** og **skærmbilledet Firma**. Processen er den samme, når du har valgt modtagerne.
 
-## Opret e-mail fra skærmbilledet Person
+## Send e-mail fra skærmbilledet Person
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Gør ét af følgende:
-    * Klik på e-mailadressen i fanen **Person**. Hvis personen har mere end én e-mailadresse, skal du vælge hvilken der skal bruges.
+    * Klik på e-mailadressen i fanen **Person**.
     * Klik på **Ny** i toplinjen, og vælg **E-mail**.
-    * Klik på ![ikon][img1] **Opgave**, og vælg **Send e-mail**.
+    * Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg **Send e-mail**.
 
-    Der åbnes en meddelelse til den angivne modtager i dit standard-e-mailprogram.
+    Hvis personen har flere e-mailadresser, skal du vælge, hvilken der skal bruges. Dit standard-e-mailprogram åbnes med modtagerens adresse udfyldt.
 
-1. Skriv e-mailmeddelelsen.
-1. Gå til (#send) nedenfor.
-
-## Opret e-mail fra skærmbilledet Firma
+## Send e-mail fra skærmbilledet Firma
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Vælg detaljekortet **Personer**.
+1. I detaljekortet **Personer**, vælg en eller flere personer.
 
-1. Marker et eller flere firmaer.
-
-1. Højreklik, og vælg **Send e-mail**. Der åbnes en meddelelse til den angivne modtager(e) i dit standard-e-mailprogram.
+1. Højreklik, og vælg **Send e-mail**.
 
     > [!NOTE]
-    > Det er kun personer, hvor der er angivet e-mailadresse, der vises i feltet **Til**. Personer uden en angivet e-mailadresse udelades.
+    > Kun personer med en e-mailadresse inkluderes i feltet **Til**. Personer uden en angivet e-mailadresse udelades.
 
-## Send
+## Skriv og send
 
-![Find personen, højreklik og vælg derefter Send mail i menuen -screenshot][img2]
+1. Skriv e-mailen.
 
-1. Send e-mailmeddelelsen ved at klikke på en af følgende knapper:
+2. Klik på en af følgende muligheder:
 
-    * **Send:** E-mailen sendes og er tilgængelig i detaljekortet **Aktiviteter**.
+    * **Send:** E-mailen sendes og logges i detaljekortet **Aktiviteter**.
     * **Send og arkiver:** E-mailen sendes og gemmes som et dokument.
 
-1. Hvis du har valgt **Send og arkiver**, åbnes skærmen [Dokument][1], når du sender e-mailen. Indtast oplysninger i denne dialogboks efter behov.
+    Hvis du vælger **Send og arkiver**, åbnes skærmen [Dokument][1]. Indtast eventuelle nødvendige oplysninger, og klik på **Opret** for at gemme.
 
-1. Klik på **Opret** i skærmen Dokument.
+![Find personen, højreklik, og vælg Send e-mail -screenshot][img2]
+
+## Relateret indhold
+
+* [Arkivér e-mails i SuperOffice Indbakke][2]
+* [SuperOffice til Outlook][3]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
+[2]: ../../email/inbox/learn/archive.md
+[3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/contact/email-send-email.png
+[img2]: ../../../media/loc/en/contact/send-email.png
