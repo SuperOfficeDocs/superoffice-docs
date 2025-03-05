@@ -1,15 +1,18 @@
 ---
 uid: help-da-search-intro
 title: Søgemuligheder i CRM
-description: "Lær, hvordan du søger og finder data i SuperOffice CRM med blot et par klik."
-author: Bergfrid Dias
-date: 05.25.2023
+description: Lær, hvordan du søger og finder data i SuperOffice CRM med blot et par klik.
 keywords: søge, finde
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Søgemuligheder
+# Søgemuligheder <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Søgning efter information i din CRM-database er noget, du gør hver dag. Uanset om du leder efter et telefonnummer eller en liste over alle dine åbne salg, hjælper funktionen Find dig med at finde informationen hurtigere.
 
@@ -78,7 +81,7 @@ Brug søgefeltet [Fritekstsøgning][2] i øverste højre hjørne til at søge ef
 
 Brug **%** som jokertegn, når du søger. Procenttegnet (%) svarer til alle strenge på 0 eller flere tegn. For eksempel: J%son matcher Jackson, Johnson, Jason og Json.
 
-## Klik på knappen Find
+## Klik på knappen Find <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
 
 Hvis du klikker **på knappen Find** i toplinjen, åbner du [Find skærmbillede][1], hvor du kan søge efter data i SuperOffice. Knappen Find hjælper dig med at finde poster [baseret på kriterier][6] fra firmaer, personer, projekter, udvalg, salg, produkter, opfølgninger, dokumenter og sager.
 
@@ -100,10 +103,12 @@ Denne søgning giver dig en liste over alle de aktiviteter, du endnu ikke har ud
 
 Typiske søgninger er der for at hjælpe dig med at komme i gang og oprette din egen søgning efter CRM-data. Når du har valgt en typisk søgning, kan du tilføje og redigere søgekriterierne. Og når du har oprettet en nyttig søgning, som du gerne vil bruge igen, kan du gemme den som et udvalg.
 
-Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder (videolængde – 3:01):
+Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolængde – 3:01)
 
 ## <a id="search-to-selection"></a>Opret en søgning, og gem den som et udvalg
 
@@ -123,10 +128,12 @@ Du kan gemme søgeresultaterne som et udvalg på tre måder:
 
 * **Du kan føj til eksisterende statiske udvalg:** Du kan føje alle de poster, du fandt i søgningen, til et eksisterende statisk udvalg i stedet for at oprette et nyt udvalg.
 
-Se denne video, eller følg trinnene nedenunder for at lære, hvordan du kan oprette en søgning og gemme den som et dynamisk udvalg (videoens længde – 1:26):
+Se denne video, eller følg trinnene nedenunder for at lære, hvordan du kan oprette en søgning og gemme den som et dynamisk udvalg:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/b1YsCcHwz-o]
+
+(videoens længde – 1:26)
 
 ## Relateret indhold
 
@@ -149,4 +156,4 @@ Se denne video, eller følg trinnene nedenunder for at lære, hvordan du kan opr
 [img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png
 [img2]: ../../../media/loc/en/search-options/getstarted-search-find-findscreen.png
 [img3]: ../../../media/loc/en/search-options/freetext-search-find.png
-[img5]: ../../../media/loc/en/search-options/typical-search.png
+[img5]: ../../../media/loc/en/request/typical-searches-for-request.png

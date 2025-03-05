@@ -100,7 +100,7 @@ Brug denne indstilling til at føje de valgte poster til et eksisterende statisk
 
 1. Højreklik, og vælg **Fjern**. Medlemmerne fjernes straks fra det aktive udvalg.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Kopiering til udvalg][3]
 * [Udførelse af opgaver med udvalg][4]

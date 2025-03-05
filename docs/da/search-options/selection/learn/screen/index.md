@@ -33,20 +33,18 @@ Medlemslisten ser lidt forskellig ud afhængig af, hvad udvalget indeholder. All
 | Udsendelser | Opret en udsendelse til personer i et udvalg. [Vis de udsendelser,](#mailing) der arkiveres for dette udvalg. |
 
 > [!TIP]
-> Klik på ![ikon][img3] til højre for kolonnetitlerne i et udvalg for at gruppere og filtrere poster, tilføje/fjerne kolonner, og angive beregninger. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**. Se også [Detaljekortene][9] for yderligere funktioner.
+> Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonnetitlerne i et udvalg for at gruppere og filtrere poster, tilføje/fjerne kolonner, og angive beregninger. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**. Se også [Detaljekortene][9] for yderligere funktioner.
 
-Hvis du vil gå frem og tilbage mellem udvalg, skal du klikke på knapperne forrige/næste (![ikon][img2] ![ikon][img1]) øverst til højre i skærmbilledet.
+Hvis du vil gå frem og tilbage mellem udvalg, skal du klikke på knapperne forrige/næste (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) øverst til højre i skærmbilledet.
 
 ### <a id="filter"></a>Filtrering af listen over medlemmer
 
 > [!NOTE]
 > Før du filtrerer listen over medlemmer (for eksempel salg eller opfølgninger), skal du klikke på **Vis alle** i sidefoden på fanen. Det sikrer, at fanen viser alle poster i udvalget. For at sikre den bedst mulige ydelse, når du arbejder med store udvalg, indlæses som regel kun de første 100 poster på listen over medlemmer.
 
-For at aktivere kolonnefilteret skal du klikke på ![ikon][img3] længst til højre for kolonnetitlerne og klikke på **Aktivér filter**. Filterknappen (![ikon][img7]) vises nu på kolonnen, hvilket kan [filtreres][8].
+For at aktivere kolonnefilteret skal du klikke på <i class="ph ph-gear" aria-label="Gear"></i> længst til højre for kolonnetitlerne og klikke på **Aktivér filter**. Filterknappen (<i class="ph ph-funnel" aria-hidden="true"></i>) vises nu på kolonnen, hvilket kan [filtreres][8].
 
-### Knappen Opgave
-
-![ikon][img6]
+### Knappen Opgave <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
 Brug knappen **Opgave** for at udføre forskellige opgaver for medlemmerne eller nogle af medlemmerne i udvalget. Eksempler: afsendelse af e-mails, masseredigering og eksport. Hvilke opgaver der vises, afhænger af, hvilken type poster udvalget består af (hvad der er valgt i feltet **Udvalg af**).
 
@@ -59,9 +57,9 @@ Brug knappen **Opgave** for at udføre forskellige opgaver for medlemmerne eller
 * **Vis alle**. Bruges til at vise alle udvalgsmedlemmer.
 
     > [!NOTE]
-    > Som standard viser listen kun de første 100 poster i udvalget. For at ændre denne værdi skal du gå til ![ikon][img4] **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Arkivsidestørrelse**.
+    > Som standard viser listen kun de første 100 poster i udvalget. For at ændre denne værdi skal du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer** > **Funktioner** > **Arkivsidestørrelse**.
 
-* ![ikon][img5]: Opdaterer dataene på listen.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Opdaterer dataene på listen.
 
 ### <a id="mailing"></a> Vis udsendelser arkiveret efter udvalg
 
@@ -73,7 +71,7 @@ Dobbeltklik på en udsendelse for at redigere den.
 
 **Eksporter**: Bruges til at eksportere listen til et regneark.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Udførelse af opgaver med udvalg][4]
 * [Brug af filtre i detaljekortene][8]
@@ -89,12 +87,3 @@ Dobbeltklik på en udsendelse for at redigere den.
 [8]: ../../../../learn/section-tabs/filter.md
 [9]: ../../../../learn/section-tabs/index.md
 [4]: ../../../../learn/getting-started/index.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../../common/icons/cog-wheel.png
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/arrow-left.png
-[img4]: ../../../../../media/icons/personal-settings-small.png
-[img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../../media/loc/en/learn/task.png

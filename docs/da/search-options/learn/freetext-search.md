@@ -43,13 +43,13 @@ Tekstfeltet øverst til højre i SuperOffice CRM kan bruges til fritekstsøgning
 
 Du kan søge efter tekst fra dialogboksen **Dokument**, men du kan ikke søge i det faktiske indhold af dokumenter. Der søges altid først efter tekst, som står i feltet **Vores ref.** i dialogboksen **Dokument**.
 
-Enkelte ord ignoreres i en fritekstsøgning.[!include[SM](../../learn/includes/are-defined-sm.md)]
+Enkelte ord ignoreres i en fritekstsøgning. Disse er defineret i Indstillinger og vedligeholdelse.
 
 ## Hvorfor får jeg ingen søgeresultater, når jeg ved, at de findes i databasen?
 
 Hvis du ingen søgeresultater får på et søgeord, som findes i SuperOffice-databasen, skal du muligvis oprette indekset til fritekstsøgning i Indstillinger og vedligeholdelse.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Brug skærmbilledet Søg][2]
 * [Hurtigsøgning][3]

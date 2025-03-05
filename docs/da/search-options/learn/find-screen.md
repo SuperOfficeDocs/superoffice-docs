@@ -2,14 +2,17 @@
 uid: help-da-find-screen
 title: Skærmbilledet Find
 description: Skærmbilledet Find
-author: SuperOffice RnD
-date: 05.25.2023
 keywords: søge, finde
-topic: howto
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Skærmbilledet Find
+# Skærmbilledet Find <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 Hvis du vil søge efter poster og data i SuperOffice CRM, skal du bruge skærmbilledet **Find**.
 
@@ -20,15 +23,13 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 
 ## Trin
 
-1. Klik på knappen **Find** på [toplinjen][1].
-
-    ![Søg][img2]
+1. Klik på knappen **Find** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) på [toplinjen][1].
 
 2. Klik på den posttype, du vil søge efter, eller klik på **Typiske søgninger** for at få vist en liste over foruddefinerede søgninger. Fanen **Kriterier** åbnes.
 
 3. Skærmbilledet **Søg** indeholder foruddefinerede søgekriterier eller de søgekriterier, du brugte sidste gang. Gør ét af følgende:
 
-    * Klik på ![ikon][img3] for at fjerne de kriterier, du ikke vil bruge.
+    * Klik på <i class="ph ph-x-circle" aria-label="X"></i> for at fjerne de kriterier, du ikke vil bruge.
     * Klik på knappen **Tilføj** for at tilføje nye søgekriterier. Der tilføjes en ny linje til kriterielisten.
 
 4. Vælg det felt, du vil søge efter oplysninger i, i den første liste på linjen. Du kan også [indtaste begyndelsen af navnet i det ønskede felt][2]. Der findes [forskellige felttyper][3].
@@ -39,7 +40,7 @@ Der er nærmest ingen grænser for, hvad du kan søge efter i SuperOffice CRM. I
 
 6. Du kan klikke på **Tilføj** under kriterielisten igen for at angive flere søgekriterier. Derefter tilføjes det til en ny linje på kriterielisten, og du gentager trin 4 og 5.
 
-7. Hvis du vil flytte kriterier, skal du klikke og trække ![ikon][img4].
+7. Hvis du vil flytte kriterier, skal du klikke og trække <i class="ph ph-equals" aria-label="="></i>.
 
 8. Klik på **Eller** for at tilføje et andet sæt kriterier.
 
@@ -54,10 +55,12 @@ Funktionen Find gør det muligt for dig at udføre en søgning ved at kombinere 
 
 Lad os se på nogle praktiske eksempler på, hvordan du kan bruge funktionen ELLER. Du kan søge efter alle kunder, der har købt "Produkt A", og kunder, der ikke har købt "Produkt B", for at øge dit krydssalg. Eller du kan søge efter alle store kunder med base i Liverpool eller Manchester, så du kan kontakte dem om et kommende arrangement i en af disse byer.
 
-Se denne video for at få at vide, hvordan du opretter en søgning ved hjælp af funktionen ELLER (videoens længde – 4:08):
+Se denne video for at få at vide, hvordan du opretter en søgning ved hjælp af funktionen ELLER:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+(videoens længde – 4:08)
 
 ## <a id="results"></a>Arbejde med søgeresultater
 
@@ -94,9 +97,9 @@ Som leder af salgsafdelingen vil du gerne holde en præsentation for resten af l
 
 4. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]. Klik først på **ikonet** ![Salg][img5] og derefter på **Beløb**.
+5. [!include[Select field](includes/select-field.md)]. Klik først på **Salg** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) og derefter på **Beløb**.
 
-6. I rullemenuen til højre for **Beløb** skal du klikke på pilen ![ikon][img1] og vælge **>** (større end).
+6. I rullemenuen til højre for **Beløb** skal du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge **>** (større end).
 
 7. I det sidste felt på linjen skal du indtaster du minimumsbeløbet. For eksempel "100.000".
 
@@ -104,9 +107,9 @@ Som leder af salgsafdelingen vil du gerne holde en præsentation for resten af l
 
 9. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)], som vises. Klik først på **Salg** ![ikon][img5] og derefter på **Registreret dato**.
+10. [!include[Select field](includes/select-field.md)], som vises. Klik først på **Salg** og derefter på **Registreret dato**.
 
-11. I den anden rullemenu skal du klikke på pilen ![ikon][img1] og derefter vælge **Mellem**.
+11. I den anden rullemenu skal du klikke på pilen og derefter vælge **Mellem**.
 
 12. I den tredje rullemenu angiver du startdatoen for den ønskede periode, og i den fjerde rullemenu angiver du slutdatoen for den ønskede periode.
 
@@ -116,7 +119,7 @@ Som leder af salgsafdelingen vil du gerne holde en præsentation for resten af l
 
 15. På den liste, der vises, skal du indtaste "Status" for at foretage en hurtigsøgning i feltet.
 
-16. På den liste, der vises, skal du vælge **Salg** - **Status** (med salgsikonet ![ikon][img5] foran).
+16. På den liste, der vises, skal du vælge **Salg** - **Status** (med salgsikonet foran).
 
 17. I den anden liste vælger du **Er en af**.
 
@@ -143,7 +146,7 @@ Lad os sige, at du skal på en konference i Norge. Når du alligevel er der, vil
 
 4. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** ![ikon][img6] og derefter på **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** (<i class="ph ph-buildings" aria-hidden="true"></i>) og derefter på **Land**.
 
 6. I den anden liste vælger du **Er en af**.
 
@@ -153,7 +156,7 @@ Lad os sige, at du skal på en konference i Norge. Når du alligevel er der, vil
 
 9. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** ![ikon][img6] og derefter på **Vores kontakt**.
+10. [!include[Select field](includes/select-field.md)]: Klik først på **Firma** og derefter på **Vores kontakt**.
 
 11. I den anden rullemenu vælger du **Aktuel bruger**. Dit navn vises i det sidste felt på linjen.
 
@@ -177,7 +180,7 @@ Lad os sige, at du er leder af en virksomhed, og du vil finde ud af, hvilken typ
 
 4. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Salg** ![ikon][img5] og derefter på **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klik først på **Salg** og derefter på **Status**.
 
 6. I den anden liste vælger du **Er en af**.
 
@@ -200,7 +203,7 @@ Lad os sige, at lønforhandlingerne nærmer sig, og at du synes, du fortjener en
 
 4. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Person** ![ikon][img7] og derefter på **Efternavn**.
+5. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-user-circle" aria-hidden="true"></i> **Person** og derefter på **Efternavn**.
 
 6. I den anden rullemenu vælger du **Er lig med**.
 
@@ -210,7 +213,7 @@ Lad os sige, at lønforhandlingerne nærmer sig, og at du synes, du fortjener en
 
 9. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik først på **Projekt** ![ikon][img8] og derefter på **Fra dato**.
+10. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Projekt** og derefter på **Fra dato**.
 
 11. I den anden rullemenu vælger du **Efter**.
 
@@ -236,7 +239,7 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 
 4. Klik på **Tilføj**.
 
-5. [!include[Select field](includes/select-field.md)]: Klik først på **Opfølgning** ![ikon][img9] og derefter på **Hensigt**.
+5. [!include[Select field](includes/select-field.md)]: Klik først på <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Opfølgning** og derefter på **Hensigt**.
 
 6. I den anden liste vælger du **Er en af**.
 
@@ -246,7 +249,7 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 
 9. Klik på **Tilføj**.
 
-10. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** ![ikon][img9] og derefter på **Slutdato**.
+10. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Slutdato**.
 
 11. I den anden liste vælger du **Forrige**.
 
@@ -258,7 +261,7 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 
 15. Klik på **Tilføj**.
 
-16. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** ![ikon][img9] og derefter på **Udført**.
+16. [!include[Select field](includes/select-field.md)]. Klik først på **Opfølgning** og derefter på **Udført**.
 
 17. Marker indstillingen **Ja**. Du har nu angivet, at du vil søge efter opfølgninger, der er sat til **Udført**.
 
@@ -268,7 +271,7 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 
 19. [!include[Explore results](includes/use-results.md)]
 
-## Hvad vil du nu foretage dig?
+## Relateret indhold
 
 * [Udføre opgaver][7]
 * [Brug af fritekstsøgning][5]
@@ -288,13 +291,4 @@ Lad os sige, at du er leder af markedsafdelingen, og at I skal have et idéudvik
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/learn/find.png
-[img3]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/singlecolour/sale.png
-[img6]: ../../../../common/icons/singlecolour/contact.png
-[img7]: ../../../../common/icons/singlecolour/person.png
-[img8]: ../../../../common/icons/singlecolour/project.png
-[img9]: ../../../../common/icons/singlecolour/appointment.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png

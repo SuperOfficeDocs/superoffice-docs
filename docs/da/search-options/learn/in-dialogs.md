@@ -2,10 +2,13 @@
 uid: help-da-fastsearcher-dialog
 title: Brug af hurtigsøgning i dialogbokse
 description: Brug af hurtigsøgning i dialogbokse
-author: Bergfrid Dias
-date: 06.29.2022
 keywords: søge, FastSearcher, dialogboks
-topic: howto
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -27,7 +30,7 @@ Hvis du skriver et procenttegn (%) foran søgeteksten, vises alle de poster, som
 
 Du kan bruge %% til at se alle poster for en bestemt type, for eksempel alle firmaer, alle udvalg, alle projekter.
 
-Hvis du for eksempel vil se alle de dokumentskabeloner, der er tilgængelige i SuperOffice CRM, skal du gå til menuen **+Ny** og klikke på **Dokument**. I det øverste felt i dialogboksen Dokument, der angiver typer af dokumentskabeloner, skal du indtaste %%. Du vil derefter se en rulleliste, der indeholder den fulde liste over tilgængelige dokumentskabeloner.
+Hvis du for eksempel vil se alle de dokumentskabeloner, der er tilgængelige i SuperOffice CRM, skal du gå til menuen **Ny** og klikke på **Dokument**. I det øverste felt i dialogboksen Dokument, der angiver typer af dokumentskabeloner, skal du indtaste %%. Du vil derefter se en rulleliste, der indeholder den fulde liste over tilgængelige dokumentskabeloner.
 
 ![Indtast to procenttegn i Hurtigsøgning for at se alle poster -screenshot][img4]
 
