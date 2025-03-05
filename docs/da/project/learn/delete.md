@@ -1,24 +1,34 @@
 ---
 uid: help-da-project-delete
-title: Slet et projekt
-description: Sådan sletter du et projekt i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt
+title: Slet et projekt og tilhørende data
+description: Sådan sletter du et projekt og tilhørende data i SuperOffice
+keywords: slet projekt, projektstyring, projekt
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Slet et helt projekt med tilhørende data
+# Slet et projekt og tilhørende data
 
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klik på ![ikonet][img1] **Opgave**.
-3. Vælg **Slet projektnavn**.
-4. Når du bliver spurgt, om du vil slette udvalget, klikker du på **Ja**.
+1. Åbn skærmbilledet **Projekt** for det projekt, du vil slette.
 
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) øverst til højre på projektkortet.
+    Vælg **Slet** i menuen.
+
+    > [!NOTE]
+    > Hvis muligheden **Slet** er nedtonet, har du ikke de nødvendige brugerrettigheder til at slette dette projekt. Du kan ikke slette projekter, der ikke tilhører dig, medmindre du har de rette tilladelser.
+
+1. I dialogboksen **Slet projekt** skal du kontrollere projektoplysningerne for at sikre, at du sletter det rigtige projekt.
+
+1. Klik på **Ja** for at bekræfte sletningen.
+
+## Relateret indhold
+
+* [Slå sammen projekter][1]
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[1]: merge-projects.md

@@ -1,45 +1,54 @@
 ---
 uid: help-da-project-merge
-title: Flet projekter
-description: Sådan sammenfletter du et projekt i SuperOffice
+title: Slå projekter sammen
+description: Sådan slår du projekter sammen i SuperOffice
 keywords: projekt
-author: SuperOffice
-date: 10.29.2024
-version: 10.3.11
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Flet projekter
+# Slå projekter sammen
 
-Hvis du har to projekter, som er næsten ens, er det nu muligt at lægge dem sammen, inklusive projektdeltagere og aktiviteter. Kildeprojektet vil blive slettet.
+Hvis du har to næsten ens projekter, kan du slå dem sammen, inklusive projektdeltagere og aktiviteter. Kildeprojektet vil derefter blive slettet.
 
-1. Gå til det projekt, som du vil flette ind i et andet projekt. Se [Brug skærmbilledet Søg][1].
+## Trin
 
-2. Klik på ![ikon][img1] **Opgave** på kortet **Projekt**, og vælg **Slå projekter sammen**.
+1. Gå til det projekt, du vil slå sammen med et andet projekt. Se [Brug skærmbilledet Søg][1].
 
-3. I dialogboksen **Sammenflet projekter** under **Til** vælger du det projekt, som du vil lægge sammen med det eksisterende projekt. Begynd at skrive i feltet for at søge efter et projekt. Hvis du vil bytte om på **Fra-** og **Til-**projekterne, skal du klikke på pilknappen.
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i øverste højre hjørne af projektkortet, og vælg **Slå projekter sammen**.
 
-    ![Dialogboksen Slå projekter sammen -screenshot][img2]
+    > [!NOTE]
+    > Hvis valget **Slå projekter sammen** er nedtonet, har du ikke de nødvendige brugerrettigheder til at udføre handlingen.
 
-4. Markér **Overskriv tomme felter...**, hvis du vil opdatere tomme felter i målprojektet med detaljer fra kildeprojektet.
+1. I dialogboksen **Slå projekter sammen**:
 
-5. Klik på **Slå sammen**. Følgende sker:
-    * Projekterne slås sammen.
-    * Detaljer bliver lagt sammen (hvis angivet).
+    * Under **Til** vælger du det projekt, du vil slå sammen med det aktuelle projekt. Begynd at skrive for at søge efter et projekt.
+    * Hvis du vil bytte om på **Fra**- og **Til**-projekterne, skal du klikke på pileknappen (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
+
+    > [!CAUTION]
+    > Sørg for, at du vælger de korrekte projekter i felterne **Fra** og **Til**, før du fortsætter. **Sammenlægning kan ikke fortrydes**.
+
+1. (Valgfrit) Vælg **Overskriv tomme felter med data fra [kildeprojekt]** for at opdatere tomme felter i målprojektet med data fra kildeprojektet.
+
+1. Klik på **Slå sammen**. Følgende sker:
     * Projektdeltagere flyttes eller slås sammen.
-    * Eventuelle tilknyttede salg flyttes.
     * Alle aktiviteter flyttes.
-        Hvis du sammenlægger et projekt, som er tilknyttet en projektguide, med et projekt, som har en anden projektguide eller ikke har nogen projektguide, fjernes projektguiden fra kildeprojektet. Alle oprettede opfølgninger og dokumenter flyttes imidlertid over til det nye projekt og vises på detaljekortet **Aktiviteter**.
-    * Eventuel tidligere udgivelse af kilde- og målprojektet deaktiveres.
+    * Eventuelle tilknyttede salg flyttes.
+    * Detaljer slås sammen (hvis angivet).
+    * Hvis kildeprojektet er tilknyttet en projektguide, og målprojektet har en anden eller ingen projektguide, fjernes projektguiden fra kildeprojektet.
     * Kildeprojektet slettes.
 
-## Relaterede emner
+![Dialogboksen Slå projekter sammen -screenshot][img2]
 
-* [Redigering af projekter][3]
-* [Flet kontakter][2]
+## Relateret indhold
+
+* [Rediger projekter][3]
+* [Slå firmaer sammen][2]
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/find-screen.md
@@ -47,5 +56,4 @@ Hvis du har to projekter, som er næsten ens, er det nu muligt at lægge dem sam
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/project/merge-project.png
+[img2]: ../../../media/loc/en/project/merge-projects.png

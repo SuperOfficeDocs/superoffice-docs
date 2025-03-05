@@ -1,29 +1,49 @@
 ---
 uid: help-da-project-edit
-title: Rediger et projekt
+title: Rediger projektoplysninger
 description: Sådan redigerer du et projekt i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt
+keywords: rediger projekt, opdater projekt, projektstyring, projekt
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Redigering af projekter
+# Rediger projektoplysninger
 
-Du kan redigere oplysningerne om projekterne fra fanerne på projektkortet.
+Du kan redigere projektoplysninger direkte fra fanerne i skærmbilledet Projekt.
 
-1. [!include[Go to project](includes/goto-project.md)]
+## Trin
 
-2. Klik på **Rediger**.
+1. Åbn skærmbilledet **Projekt** for det projekt, du vil opdatere. Se [Brug skærmbilledet Søg][5].
 
-    Fanerne i skærmbilledet Projekt skifter til redigeringstilstand. Du kan skifte mellem fanerne uden at gå ud af redigeringstilstand.
+1. Klik på <i class="ph ph-pencil-simple" aria-label="Rediger"></i> øverst til højre på projektkortet.
 
-3. Når du er færdig, skal du klikke på **Gem** for at lukke og gemme. Hvis du ikke vil gemme ændringerne alligevel, kan du klikke på **Afbryd**.
+1. Foretag de nødvendige ændringer. Du kan skifte mellem fanerne, mens du er i redigeringstilstand.
+
+    > [!CAUTION]
+    > Hvis du ændrer en projekttype, der er knyttet til en [projektguide][4], fjernes guiden. Aktiviteter og dokumenter forbliver på fanen **Aktiviteter** og vil blive tilknyttet igen, hvis du skifter tilbage til den oprindelige type.
+
+1. Klik på **Gem** for at gemme ændringerne og afslutte redigeringstilstand, eller klik på **Afbryd** for at fortryde ændringerne.
+
+    > [!NOTE]
+    > Hvis knappen **Gem** er nedtonet, skal du kontrollere, at alle obligatoriske felter er udfyldt. Påkrævede felter skal udfyldes, før du kan gemme.
+
+![Skærmbilledet Projekt i redigeringstilstand -screenshot][img1]
 
 ## Relateret indhold
 
-* [Tilføj link til dokument, opfølgning, salg, eller websted][6]
+* [Tilføj link til dokument, opfølgning, salg eller websted][6]
+* [Tilføj projektbillede][1]
 
 <!-- Referenced links -->
+[1]: add-image.md
+[4]: project-guides.md
+[5]: ../../search-options/learn/find-screen.md
 [6]: ../../learn/basics/links.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/edit-project.png
