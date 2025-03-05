@@ -15,7 +15,7 @@ Et statisk udvalg indeholder i modsætning til et [dynamisk udvalg][1] kun de me
 
 Arbejde med statisk udvalg giver dig mulighed for manuelt at tilføje og slette udvalgsmedlemmer enten en efter en eller via en søgning.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Opret et udvalg][2] – selvstudium
 * [Tilføj og fjern medlemmer i statiske udvalg][3]

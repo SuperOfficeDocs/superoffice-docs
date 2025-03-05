@@ -2,10 +2,13 @@
 uid: help-da-search-criteria
 title: Brug af søgekriterier
 description: Brug af søgekriterier
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: søge, kriterier, finde
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -17,10 +20,12 @@ Overalt, hvor du kan tilføje søgekriterier, finder du en lis kriterieliste med
 
 Typiske søgninger er der for at hjælpe dig med at komme i gang og oprette din egen søgning efter CRM-data. Når du har valgt en typisk søgning, kan du tilføje og redigere søgekriterierne. Og når du har oprettet en nyttig søgning, som du gerne vil bruge igen, kan du gemme den som et udvalg.
 
-Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder (videolængde – 3:01):
+Se denne video for at lære, hvordan du foretager en typisk søgning og ændrer den ved at tilføje nye søgekriterier, eller følg trin for trin-guiden nedenunder:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(videolængde – 3:01)
 
 ## Tilføjelse af søgekriterier
 
@@ -65,7 +70,7 @@ Hvis søgefeltet er et datofelt, for eksempel feltet **Dato** i dialogboksen **D
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet automatisk med en dato eller et datointerval, eller du kan angive den ønskede dato. Du kan også vælge en dato i kalenderen, som vises, når du klikker på pileknappen ![ikon][img1].
+Vælg det ønskede alternativ. Afhængigt af, hvad du vælger, udfyldes feltet automatisk med en dato eller et datointerval, eller du kan angive den ønskede dato. Du kan også vælge en dato i kalenderen, som vises, når du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i>.
 
 ### <a id="number"></a>Talfelt
 
@@ -119,11 +124,11 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 
 | Opgave | Trin |
 |---|---|
-| Flytte søgekriterier (en linje) | Klik og træk ![ikon][img2]. |
+| Flytte søgekriterier (en linje) | Klik og træk <i class="ph ph-equals" aria-label="="></i>. |
 | Ændre et søgekriterium | Klik på det og vælg et andet på den liste, der vises. |
 | Deaktivere et eller flere søgekriterier | Lad værdifeltet være tomt. |
 | Deaktivere alle søgekriterierne | Klik **Ryd alle**. |
-| Slette et søgekriterium | Klikke på ![ikon][img3]. |
+| Slette et søgekriterium | Klikke på <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Nulstille kriterielisten til standardkriterierne | Klik **Nulstil til standard**. |
 
 > [!NOTE]
@@ -131,7 +136,7 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 >
 > Et deaktiveret søgekriterium bliver stående på kriterielisten og kan nemt og enkelt aktiveres igen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Brug skærmbilledet Søg][1]
 
@@ -139,8 +144,3 @@ Når du åbner skærmbilledet **Søg**, indeholder det standardsøgekriterier el
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

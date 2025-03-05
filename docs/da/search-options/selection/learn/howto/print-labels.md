@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 10.08.2024
 version: 10.3.10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Udskrivning af etiketter

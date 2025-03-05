@@ -54,7 +54,7 @@ Du kan oprette et udvalg, der indeholder alle åbne sager, som ikke er blevet op
 
 Med **SAINT** aktiveret (kræver Sales-Premium eller Service-Premium) kan du bruge [aktivitetsmonitorer][4] som kriterier for at oprette dynamiske udvalg. Dette giver dig et overblik over firmaer, personer eller projekter, der opfylder bestemte statuskriterier. SAINT-kriterierne findes under **Tællere (SAINT)** i [kriterielisten][3] i skærmbilledet **Find**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af dynamiske udvalg][2]
 

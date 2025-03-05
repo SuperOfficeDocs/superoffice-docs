@@ -1,7 +1,7 @@
 ---
 uid: help-da-selection-display-as-charts
 title: Visualiser udvalg med diagrammer
-description: "Når du har oprettet et udvalg, kan du vise dine resultater visuelt og få en mere øjeblikkelig forståelse af dataene. Denne vejledning viser dig, hvordan du visualiserer udvalg ved hjælp af diagrammer i SuperOffice CRM."
+description: Når du har oprettet et udvalg, kan du vise dine resultater visuelt og få en mere øjeblikkelig forståelse af dataene. Denne vejledning viser dig, hvordan du visualiserer udvalg ved hjælp af diagrammer i SuperOffice CRM.
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: selection, diagram
@@ -33,7 +33,7 @@ På fanen **Diagrammer** kan du klikke på en diagramtype for at få vist dataen
 
 * ![ikon][img1]: Åbner en forhåndsvisning af et diagram. Her kan du også se datakildetabellen for diagrammet.
 
-* ![ikon][img2]: Opdaterer diagrammet med opdaterede data.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Opdaterer diagrammet med opdaterede data.
 
 > [!NOTE]
 > Gå til **Dashboard** i navigatoren at få vist diagrammer for ALLE SuperOffice-data.
@@ -42,7 +42,7 @@ På fanen **Diagrammer** kan du klikke på en diagramtype for at få vist dataen
 
 Ved visse diagrammer får du muligvis beskeden Ingen tilgængelige data. Det betyder, at dit udvalg ikke indeholder den information, som dette diagram forsøger at vise. Rediger kriterierne for dit udvalg, eller vælg en anden diagramtype.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Arbejde med dashboardruder][2]
 
@@ -52,5 +52,4 @@ Ved visse diagrammer får du muligvis beskeden Ingen tilgængelige data. Det bet
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
