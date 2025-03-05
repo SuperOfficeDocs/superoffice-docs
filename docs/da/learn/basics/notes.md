@@ -1,11 +1,11 @@
 ---
 uid: help-da-notes
 title: Tage noter
-description: Tage noter
-keywords: bemærkning, notesblok
+description: Lær, hvordan du opretter og sletter noter i SuperOffice CRM.
+keywords: fanen Bemærkning, tage noter, oprette noter, slette noter
 author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+date: 03.07.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,20 +14,23 @@ language: da
 
 # Tage noter
 
-I SuperOffice CRM kan du knytte et notat til det aktuelle firma, person, salg, projekt eller udvalgskort.
+I SuperOffice CRM kan du knytte noter til firmaer, personer, salg, projekter og udvalg. Noter kan bruges til at gemme enhver form for information og kan søges frem ved hjælp af [Fritekst-søgning][1].
 
-## Oprettelse af bemærkning
+## Opret en bemærkning
 
-1. Gå til det ønskede firma, salg, udvalg, projekt eller til den ønskede person.
-2. Vælg fanen **Bemærkning**, og klik på **Rediger**.
-3. Skriv de ønskede oplysninger på lappen.
-4. Klik på **Gem**.
+1. Gå til det ønskede firma, person, salg, projekt eller udvalg.
 
-En prik på fanen **Notat** betyder, at en bemærkning er tilføjet.
+1. Vælg fanen **Bemærkning**, og klik på <i class="ph ph-pencil-simple" aria-label="Rediger"></i> i øverste højre hjørne af kortet.
 
-## Sletning af bemærkning
+1. Indtast de ønskede oplysninger i bemærkningsfeltet.
 
-Du kan nemt slette en bemærkning ved at slette al teksten i bemærkningen. Prikken forsvinder fra fanen **Bemærkning**.
+1. Klik på **Gem**.
+
+En prik på fanen **Bemærkning** angiver, at der er tilføjet en bemærkning.
+
+## Slet en bemærkning
+
+For at slette en bemærkning skal du blot fjerne al teksten i feltet. Prikken forsvinder fra fanen **Bemærkning**.
 
 <!-- Referenced links -->
-<!-- Referenced images -->
+[1]: ../../search-options/learn/freetext-search.md
