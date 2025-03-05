@@ -4,8 +4,8 @@ title: Gruppering af lister
 description: Du kan gruppere en liste på en eller flere datatyper for at få et bedre overblik over posterne under et detaljekort (arkiv).
 keywords: detaljekort, arkiv
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,14 +20,16 @@ Du kan gruppere oplysningerne i et arkiv efter alle felter/kolonner i arkivet. D
 
 Gruppering er personlig. De kolonner, du bruger til at gruppere dine oplysninger, er kun synlige for dig, og du kan tilføje og fjerne så mange grupper, du vil.
 
-Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner med denne korte video, eller læs vejledningen nedenfor (videolængde - 1:43):
+Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner med denne korte video, eller læs vejledningen nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
 
+(videolængde - 1:43)
+
 ## Aktivér gruppering
 
-1. ![Klik på ikonet][img1] ikonindstillinger til højre for kolonneoverskriften, og vælg **Aktivér gruppering**.
+1. Klik på ikonet <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskriften, og vælg **Aktivér gruppering**.
 
     ![Aktivér gruppering -screenshot][img5]
 
@@ -55,13 +57,9 @@ Der vises nu en ny række over kolonneoverskrifterne.
 
 1. Hvis du vil fjerne en grupperingskolonne, du har valgt, skal du klikke på X bag kolonnen. Listen over poster i arkivet opdateres straks.
 
-    ![Tryk på X for at fjerne en grupperingskolonne -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

@@ -4,8 +4,8 @@ title: Sagsfanen
 description: Lær, hvordan du kan se, tilføje og administrere Service-sager i SuperOffice CRM, så du effektivt kan spore kundesamtaler på tværs af firmaer og personer.
 keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -65,7 +65,7 @@ For at redigere en sag direkte fra detaljekortet **Sager**:
 
 1. Find og dobbeltklik på sagen, du vil arbejde med.
 
-1. I vinduet, der åbnes, klik på **Rediger** for at begynde at opdatere sagsdetaljerne.
+1. I vinduet, der åbnes, klik på **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) for at begynde at opdatere sagsdetaljerne.
 
 ## Yderligere tips
 
@@ -79,8 +79,8 @@ For at redigere en sag direkte fra detaljekortet **Sager**:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

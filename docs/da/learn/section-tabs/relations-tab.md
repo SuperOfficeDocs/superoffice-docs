@@ -4,8 +4,8 @@ title: Relationsfanen
 description: Lær, hvordan du kan se, tilføje og administrere relationer mellem firmaer og personer i SuperOffice CRM, og sikre, at vigtige forretningsforbindelser er let tilgængelige og veldokumenterede.
 keywords: Relationer-fanen, Relationsfanen, fanen Relationer, detaljekortet Relationer, detaljekort, relation
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
