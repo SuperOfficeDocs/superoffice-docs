@@ -2,79 +2,87 @@
 uid: help-da-ui-navigator
 title: Navigator
 description: Navigator
+keywords: navigator, navigering, menu, side menu, venstre menu, brugergrænseflade
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: navigator, menu, brugergrænseflade
+date: 07.03.2025
+version: 10.5.2
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Navigatoren
 
-Du bevæger dig mellem hovedsektionerne i SuperOffice ved hjælp af Navigator i venstre side.
+Du navigerer mellem hovedsektionerne i SuperOffice ved hjælp af navigatoren i venstre side.
 
 > [!TIP]
-> Du kan ændre navigatorens bredde ved at klikke på ![ikon][img21] og ![ikon][img22] over navigatoren.
+> Du kan ændre bredden på navigatoren ved at klikke på <i class="ph ph-sidebar-simple" aria-label="Sidebar ikon"></i> over navigatoren.
+
+## SuperOffice-logoet ![SuperOffice logo][img1]
+
+Øverst til venstre i navigatoren findes SuperOffice-logoet. Klik på logoet for at åbne [SuperOffice Community-webstedet][30]. Hvis du holder **CTRL** nede, mens du klikker på logoet, åbnes dit eget firmakort. (Hovedfirmaet er en [præference][31], som du kan ændre).
 
 ## Navigatoren i Standard CRM
 
-| Knap | Beskrivelse | Læs mere |
+Navigatoren giver hurtig adgang til vigtige funktioner i SuperOffice CRM. Hvert ikon åbner en specifik skærm.
+
+| Ikon | Skærm | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img3] |Åbner skærmbilledet **Dashboard**, som indeholder rapporter og diagrammer over dine SuperOffice-data.| [Dashboard][1] |
-| ![ikon][img4] | Åbner skærmbilledet Firma og viser alle firmaer, du er i kontakt med. | [Kontakter][2] |
-| ![ikon][img5] | Åbner skærmbilledet Person med alle dine kontakpersoner. | [Kontaktperson][3] |
-| ![ikon][img6] | Åbner skærmbilledet Dagbog, en form for avanceret kalender. |  [Dagbog][4] |
-| ![ikon][img7] | Åbner skærmbilledet Salg, der indeholder oplysninger om alle salg. | [Salg][5] |
-| ![ikon][img8] | Åbner skærmbilledet Projekt, som indeholder oplysninger om forskellige projekter. | [Projekt][6] |
-| ![ikon][img9] | Åbner skærmbilledet Udvalg, hvor du kan registrere de firmaer, personer, projekter, salg, dokumenter og opfølgninger, som du arbejder meget sammen med, i separate udvalg. Udvalg kan blandt andet bruges til udsendelser. | [Udvalg][7] |
-| ![ikon][img10] | Åbner din **indbakke**, hvor du kan læse og besvare indkommende meddelelser.| [Indbakke/e-mail][8] |
-| ![ikon][img11] | Åbner skærmbilledet **Chat**, hvor du kan besvare henvendelser, som er sendt via chatfunktionen på din virksomheds hjemmeside. | [Chat][9] |
-| ![ikon][img13] | Åbner skærmbilledet **Markedsføring**. Herfra kan du oprette og sende udsendelser (e-mails, SMS og dokumenter) samt oprette og udgive formularer. | [Marketing][11] |
-| ![ikon][img14] | Åbner **Service** (ældre) | |
-| ![ikon][img15] | Åbner en menu, der giver dig adgang til eksterne programmer og websteder. De elementer du får adgang til, defineres i Indstillinger og vedligeholdelse. | |
+| <i class="ph ph-gauge" aria-label="Dashboard ikon"></i> | **[Dashboard][1]** | Se **rapporter og diagrammer**, der opsummerer dine CRM-data. |
+| <i class="ph ph-buildings" aria-label="Firma ikon"></i> | **[Firmaer][2]** | Administrer dine **firmaoplysninger** og relateret information. |
+| <i class="ph ph-user-circle" aria-label="Kontakt ikon"></i> | **[Personer][3]** | Få adgang til og administrer **individuelle kontaktoplysninger**. |
+| <i class="ph ph-calendar" aria-label="Kalender ikon"></i> | **[Dagbog][4]** | Planlæg og følg op på **aktiviteter**. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Salg ikon"></i> | **[Salg][5]** | Spor og administrer dine **salg**. |
+| <i class="ph ph-clipboard-text" aria-label="Projekt ikon"></i> | **[Projekter][6]** | Organiser og overvåg **projektaktiviteter**. |
+| <i class="ph ph-subtract-square" aria-label="Udvalg ikon"></i> | **[Udvalg][7]** | Opret og administrer **udvalg** til kampagner eller arbejdsgange. |
+| <i class="ph ph-at" aria-label="E-mail ikon"></i> | **[Indbakke][8]** | Læs og besvar **indkommende meddelelser**. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat ikon"></i> | **[Chat][9]** | Besvar **chatforespørgsler** fra din hjemmeside. |
+| <i class="ph ph-target" aria-label="Marketing ikon"></i> | **[Marketing][11]** | Opret og send **udsendelser og formularer**. |
+| <i class="ph ph-ticket" aria-label="Sag ikon"></i> | **[Sager][34]** | Få adgang til **kundesager**. |
+| <i class="ph ph-wrench" aria-label="Værktøj ikon"></i> | **Værktøjer** | Åbn eksterne **applikationer og websteder**. |
 
 ## Navigatoren i Indstillinger og vedligeholdelse
 
-| Knap | Funktion | Læs mere |
+| Ikon | Skærm | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img42] | **Licenser**: På fanen **SuperOffice** kan du downloade ny licensinformation til din version af SuperOffice CRM og tilhørende funktioner. På fanen**Status** kan du vise databaseinformation og systemmeddelelser. | [Licenser][45] |
-| ![ikon][img43] | Åbner skærmbilledet **Brugere**, hvor du kan definere bruger-id'er, adgangskoder, brugergrupper og forskellige adgangsindstillinger. På fanen **Vores firmaer** kan du tilføje firmaer ud over hovedfirmaet. | [Status][46] |
-| ![ikon][img44] | Åbner skærmbilledet **Roller** hvor du kan definere roller for at få adgang til data og funktioner i SuperOffice CRM. Brugernes adgangsniveauer bestemmes af den rolle, de tilhører. | [Roller][47] |
-| ![ikon][img45] | Åbner skærmbilledet **Beskyttelse af personoplysninger**, hvor du kan definere indstillinger for beskyttelse af personoplysninger og samtykke i SuperOffice CRM. | [Beskyttelse af personlige oplysninger][48] |
-| ![ikon][img46] | **SAINT**: Åbner skærmbilledet for statusovervågning (Sales Intelligence), hvor du kan oprette statusser for firmaer og projekter. | [SAINT][49] |
-| ![ikon][img47] | **AI-tjenester**: åbner skærmen for AI-tjenester, hvor du kan konfigurere indstillinger til tekstanalyse, analyse af synspunkt og kategorisering af sager. | [AI-tjenester][20] |
-| ![ikon][img48] | Åbner skærmbilledet **Lister**, der indeholder beskrivelser og definitioner på listerne i SuperOffice CRM. | [Lister][21] |
-| ![ikon][img49] | Åbner skærmbilledet **Tilbud/sync** hvor du kan administrere link og indstillinger for ERP-systemer, som er logget på SuperOffice CRM. Her kan du også arbejde med prislisterne og produkterne, som ligger i SuperOffice-databasen. | [Tilbud/Sync][22] |
-| ![ikon][img50] | Åbner skærmbilledet **Arbejdsproces**, hvor du kan definere salgsguider og projektguider til SuperOffice CRM. | |
-| ![ikon][img51] | **Skærmdesigner**: åbner skærmdesignerskærmen, hvor du kan oprette brugerdefinerede skærmlayouter til bestemte brugergrupper. | [Skærmdesigner][24] |
-| ![ikon][img52] | Åbner skærmbilledet **Præferencer**, hvor du kan angive indstillinger for forskellige dele i SuperOffice CRM, f.eks. antallet af elementer, der skal vises i historiklisten osv. Her kan du også konfigurere [videomøder][42] og dokumentbiblioteket [][43]. | [Præferencer][25] |
-| ![ikon][img41] | Åbner skærmbilledet **Chat**, hvor du kan oprette chatkanaler og konfigurere chatfunktionen. | [Chat][2] |
-| ![ikon][img53] | **Indstillinger**: Åbner skærmen Indstillinger, hvor du kan definere systemdækkende indstillinger. For eksempel indstillinger for fritekstsøgning, tidszoner, nummerallokering og etiketter. | [Muligheder][26] |
-| ![ikon][img54] | **Import**: Åbner skærmbilledet Import, hvor du kan importere data til SuperOffice-databasen. | [Import][27] |
-| ![ikon][img55] | **Felter**: åbner skærmbilledet Felter, hvor du kan angive brugerdefinerede felter til SuperOffice CRM. | [Felter][28] |
-| ![ikon][img56] | **CRMScript**: åbner skærmbilledet med forskellige funktioner for script og automatisering, f.eks. makroer, hændelseshåndtering og planlagte opgaver. | [CRMScript][41] |
-| ![ikon][img57] | **Sager**: Her kan du finde forskellige indstillinger for sager i SuperOffice Service. | [Sager][34] |
-| ![ikon][img58] | **Kundecenter**: Her kan du konfigurere kundecenteret. Du kan redigere indholdet og layoutet af kundecenteret og redigere standardindholdet. | |
-| ![ikon][img59] | **Systemdesign**: Her kan du finde forskellige avancerede indstillinger for SuperOffice Service. | |
-| ![ikon][img60] | **App store**: Åbner [SuperOffice App Store][44], hvor du kan udforske standard-apps, moduler og integrationer, der kan udvide SuperOffice CRM Online. | |
+| <i class="ph ph-lock-simple" aria-label="Lås ikon"></i> | **[Licenser][45]** | Administrer SuperOffice-licenser, vis systemmeddelelser og databaseoplysninger. |
+| <i class="ph ph-user" aria-label="Bruger ikon"></i> | **[Brugere][46]** | Definer bruger-id'er, grupper, roller og adgangsindstillinger. |
+| <i class="ph ph-traffic-signal" aria-label="Rolle ikon"></i> | **[Roller][47]** | Indstil roller til at styre adgang til CRM-data og funktioner. |
+| <i class="ph ph-shield" aria-label="Skjold ikon"></i> | **[Beskyttelse af personlige oplysninger][48]** | Juster indstillinger for persondata og samtykke. |
+| <i class="ph ph-chart-bar" aria-label="SAINT ikon"></i> | **[SAINT][49]** | Opret og administrer statusovervågning for firmaer og projekter. |
+| <i class="ph ph-sparkle" aria-label="AI tjenester"></i> | **[AI-tjenester][20]** | Konfigurer AI-drevet tekstanalyse, sentimentanalyse og kategorisering af sager. |
+| <i class="ph ph-list-bullets" aria-label="Lister ikon"></i> | **[Lister][21]** | Tilpas og administrer lister brugt i hele CRM-systemet. |
+| <i class="ph ph-barcode" aria-label="Tilbud/Synk ikon"></i> | **[Tilbud/Synk][22]** | Administrer ERP-integration, prislister og produkter. |
+| <i class="ph ph-arrows-left-right" aria-label="Workflow ikon"></i> | **Arbejdsproces** | Definer salgs- og projektprocesser. |
+| <i class="ph ph-squares-four" aria-label="Skærmdesigner ikon"></i> | **[Skærmdesigner][24]** | Tilpas skærmlayouts til specifikke brugergrupper. |
+| <i class="ph ph-gear" aria-label="Indstillinger ikon"></i> | **[Præferencer][25]** | Juster standardindstillinger for aktiviteter, [videomøder][42] og [dokumentbiblioteket][43]. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat ikon"></i> | **[Chat][2]** | Opsæt chatkanaler. |
+| <i class="ph ph-sliders-horizontal" aria-label="Indstillinger ikon"></i> | **[Indstillinger][26]** | Konfigurer globale indstillinger såsom søgning, tidszoner, etiketter og nummerering. |
+| <i class="ph ph-file-arrow-up" aria-label="Import ikon"></i> | **[Import][27]** | Importer data til SuperOffice CRM. |
+| <i class="ph ph-rows" aria-label="Felter ikon"></i> | **[Felter][28]** | Angiv brugerdefinerede felter. |
+| <i class="ph ph-code-block" aria-label="CRMScript ikon"></i> | **[CRMScript][41]** | Automatiser opgaver med scripts, makroer og hændelseshåndtering. |
+| <i class="ph ph-ticket" aria-label="Sager ikon"></i> | **[Sager][34]** | Juster sagsbehandling for SuperOffice Service. |
+| <i class="ph ph-question" aria-label="Kundecenter ikon"></i> | **Kundecenter** | Rediger og administrer layout og indhold for kundecenteret. |
+| <i class="ph ph-selection-all" aria-label="Systemdesign ikon"></i> | **Systemdesign** | Avancerede SuperOffice Service-indstillinger. |
+| <i class="ph ph-basket" aria-label="App Store ikon"></i> | **[App Store][44]** | Få adgang til apps og integrationer for SuperOffice CRM. |
 
 ## <a id="navigator"></a>Navigator-valgmuligheder
 
-Når du klikker på en navigatorknap, vises en eller flere af knapperne nedenfor.
+Når du klikker på en navigatorknap, vises en eller flere af følgende muligheder:
 
-| Knap | Beskrivelse |
-|:-:|---|
-| ![ikon][img26] | **Handlinger/lister**: Klik på denne knap for at få vist de tilgængelige handlinger/funktioner, lister og lignende for den valgte navigatorknap. |
-| ![ikon][img23] | **Historik**: Klik på denne knap for at få vist nyligt åbnede poster, for eksempel sag, personer eller udvalg. |
-| ![ikon][img24] | **Foretrukne**: Klik på denne knap for at få vist de poster, som du har [indstillet som foretrukne][15]. |
-| ![ikon][img25] | **Søg**: Klik på denne knap for at få vist resultaterne af den sidste søgning. Søgefeltet over knapperne er dynamisk, så du skal blot begynde at skrive dit søgeudtryk for at starte søgningen. |
+| Ikon | Funktion | Beskrivelse |
+|:-:|---|---|
+| <i class="ph ph-clock" aria-label="Historik ikon"></i> | **[Historik][16]** | Viser nyligt åbnede poster såsom sager, personer eller udvalg. |
+| <i class="ph ph-star" aria-label="Favoritter ikon"></i> | **[Foretrukne][15]** | Vis de poster, du har markeret som favoritter. |
+| <i class="ph ph-magnifying-glass" aria-label="Søg ikon"></i> | **Søg** | Viser resultaterne af den seneste søgning. Søgefeltet over knapperne starter en søgning, mens du skriver. |
 
 > [!NOTE]
-> Når du klikker på knappen **Dashboard**, åbnes kun dashboardet.
+> Klikker du på **Dashboard**, åbnes kun dashboardet.
 
-Hvis du holder musemarkøren over en post på en af listerne, vises et værktøjstip med yderligere data om posten.
+Hvis du holder musemarkøren over en post i en af listerne, vises en værktøjstip med yderligere oplysninger om posten.
 
-![Eksempel -screenshot][img2]
+![Navigator-valgmuligheder i SuperOffice -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
@@ -88,6 +96,7 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
+[16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
@@ -101,7 +110,7 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md
-[43]: ../../../admin/preferences/learn/document-library/index.md
+[43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md
@@ -109,45 +118,9 @@ Hvis du holder musemarkøren over en post på en af listerne, vises et værktøj
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 
+[30]: https://community.superoffice.com
+[31]: ../preferences.md
+
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
-[img3]: ../../../../../common/icons/nav-dashboard-h32.png
-[img4]: ../../../../../common/icons/nav-company-h32.png
-[img5]: ../../../../../common/icons/nav-contact-h32.png
-[img6]: ../../../../../common/icons/nav-diary-h32.png
-[img7]: ../../../../../common/icons/nav-sale-h32.png
-[img8]: ../../../../../common/icons/nav-project-h32.png
-[img9]: ../../../../../common/icons/nav-selection-h32.png
-[img10]: ../../../../../common/icons/nav-inbox-h32.png
-[img11]: ../../../../../common/icons/nav-chat-h32.png
-[img13]: ../../../../../common/icons/nav-marketing-h32.png
-[img14]: ../../../../../common/icons/nav-cs-h32.png
-[img15]: ../../../../../common/icons/nav-tools-h32.png
-
-[img21]: ../../../../../common/icons/left-collapse.png
-[img22]: ../../../../../common/icons/left-expand.png
-[img23]: ../../../../../common/icons/nav-history-h32.png
-[img24]: ../../../../../common/icons/nav-fav-h32.png
-[img25]: ../../../../../common/icons/nav-search-h32.png
-[img26]: ../../../../../common/icons/nav-list-h32.png
-
-[img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
-[img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png
-[img43]: ../../../../../common/icons/nav-admin-users-active-h32.png
-[img44]: ../../../../../common/icons/nav-admin-roles-active-h32.png
-[img45]: ../../../../../common/icons/nav-admin-privacy-active-h32.png
-[img46]: ../../../../../common/icons/nav-admin-saint-active-h32.png
-[img47]: ../../../../../common/icons/nav-ai-services-active-h32.png
-[img48]: ../../../../../common/icons/nav-admin-lists-active-h32.png
-[img49]: ../../../../../common/icons/nav-admin-products-active-h32.png
-[img50]: ../../../../../common/icons/nav-admin-workflow-active-h32.png
-[img51]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
-[img52]: ../../../../../common/icons/nav-admin-preferences-active-h32.png
-[img53]: ../../../../../common/icons/pref-system-active-h32.png
-[img54]: ../../../../../common/icons/nav-admin-import-active-h32.png
-[img55]: ../../../../../common/icons/nav-admin-fields-active-h32.png
-[img56]: ../../../../../common/icons/nav-admin-crmscript-active-h32.png
-[img57]: ../../../../../common/icons/nav-admin-requests-active-h32.png
-[img58]: ../../../../../common/icons/nav-admin-custcenter-active-h32.png
-[img59]: ../../../../../common/icons/nav-admin-systemdesign-active-h32.png
-[img60]: ../../../../../common/icons/nav-admin-appstore-active-h32.png
+[img2]: ../../../../media/loc/en/learn/navigator-options.png
+[img1]: ../../../../../common/icons/hugo-green.png

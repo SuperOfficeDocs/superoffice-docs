@@ -3,13 +3,13 @@ uid: help-da-connect-email-doc-cal
 title: Tilslut e-mail, dokumenter og kalender
 description: Lær hvilke integrationsmuligheder du har brug for, baseret på dit operativsystem, din e-mailklient og de dokumentprogrammer, du bruger, i denne vejledning.
 keywords: e-mail, document, kalender, invitation
-author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Tilslut e-mail, dokumenter og kalender
@@ -25,9 +25,9 @@ Tilslutning af dine e-mails, dokumenter og kalender til SuperOffice vil hjælpe 
 
 | | Applikation | Beskrivelse | Muligheder |
 |-|---|---|---|
-| ![icon][img4] | **E-mail** | Arkiver indgående og udgående e-mails.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Dokumenter** | Arkiver filer fra kommunikation med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools til Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Kalender** | Send og modtag invitationer. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools til Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **E-mail** | Arkiver indgående og udgående e-mails.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumenter** | Arkiver filer fra kommunikation med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools til Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Send og modtag invitationer. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools til Mac][5]|
 
 ## Hvilken løsning bruger din virksomhed?
 
@@ -75,6 +75,3 @@ De integrationer, du har brug for, afhænger af dit operativsystem, din e-mailkl
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

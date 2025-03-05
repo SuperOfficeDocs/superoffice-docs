@@ -2,16 +2,17 @@
 uid: help-da-preferences-intro
 title: Præferencer
 description: Oversigt over personlige indstillinger og hvordan du ændrer dem.
-author: Bergfrid Dias
-date: 08.24.2023
 keywords: præference, indstilling
+author: Bergfrid Dias
+date: 01.29.2025
+version: 10.5
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Sådan ændrer du en præference
+# Sådan ændrer du en præference <i class="ph ph-user-circle" aria-hidden="true"></i>
 
 Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for eksempel hvor mange elementer der skal vises på historiklisten, og standardvalutaen for salg. Alle præferenceindstillinger defineres i Indstillinger og vedligeholdelse, men brugere kan ændre nogle af disse enkeltvist i SuperOffice CRM.
 
@@ -19,7 +20,7 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 
 ## Trin
 
-1. Vælg ![ikon][img12] **Personlige indstillinger** > **Præferencer**.
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer**.
 
 2. Vælg den ønskede præference fra listen til venstre i dialogboksen **Præferencer** .
 
@@ -28,24 +29,24 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 4. Klik på **Gem** for at gemme ændringerne og lukke dialogboksen **Præferencer**. Eller du kan klikke på **Afbryd** for at se bort fra ændringerne.
 
 > [!NOTE]
-> Hvis du vil ændre sproget i din Mobile CRM-app, skal du klikke på knappen **Opgave** i nederste venstre hjørne, trykke på **Indstillinger**, klikke på Sprog**Sprog** og vælge mellem indstillingerne.
+> Hvis du vil ændre sproget i din Mobile CRM-app, skal du klikke på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), trykke på **Indstillinger**, klikke på **Sprog** og vælge mellem indstillingerne.
 
 ## <a id="options"></a>Dialogboksen Præferencer - indstillinger
 
 | Knap | Mulighed | Beskrivelse |
 |---|---|---|
-| ![ikon][img1] | Standardværdier | Standardværdierne i SuperOffice CRM. F.eks. standardbranche for nyt firma, standardvarighed på poster, standardskabelon for udgående dokumenter. |
-| ![ikon][img2] | Dagbog | Standardindstillinger for dagbog og opfølginger, f.eks. standardstarttidspunkt for arbejdsdagen og varigheden af alarmer. |
-| ![ikon][img3] | Funktioner | De generelle indstillinger og funktioner, du kan bl.a. vælge, om du vil vise Dagens tip, når du starter SuperOffice (Vis tip ved opstart). |
-| ![ikon][img14] | Kommunikation i appen | Indstillinger for meddelelser i appen.|
-| ![ikon][img4] | E-mail | Indstillingerne for e-mail og fax, f.eks. den e-mail-klient, du har installeret. |
-| ![ikon][img5] | Meddelelser via popup; Meddelelser via e-mail; Meddelelser via SMS | Indstillinger for sagsbeskeder. |
-| ![ikon][img6] | Kontaktperson | Indstillingerne for kontakter. |
-| ![ikon][img7] | Sag | Indstillingerne for sager. For at få oplysninger om indstillinger for beskeder kan du se "Beskeder via..." ovenfor. |
-| ![ikon][img8] | Salg | Indstillinger for salgsfunktionen. |
-| ![ikon][img9] | Sortering | Hvordan medarbejdere, lister og personer skal sorteres, f.eks. om medarbejdere skal sorteres efter efternavn. |
-| ![ikon][img10] | System | Systemindstillinger såsom hjemland, valuta og standarddokumentarkiv. |
-| ![ikon][img11] | Visuelle effekter | Indstillinger for visuelle effekter, for eksempel hvor mange elementer historiklisten skal indeholde eller om du vil have, at søndag skal være første ugedag. |
+| <i class="ph ph-list-checks" aria-label="Check"></i> | Standardværdier | Standardværdierne i SuperOffice CRM. F.eks. standardbranche for nyt firma, standardvarighed på poster, standardskabelon for udgående dokumenter. |
+| <i class="ph ph-calendar-blank" aria-label="Diary icon"></i> | Dagbog | Standardindstillinger for dagbog og opfølginger, f.eks. standardstarttidspunkt for arbejdsdagen og varigheden af alarmer. |
+| <i class="ph ph-toggle-right" aria-label="Functions"></i> | Funktioner | De generelle indstillinger og funktioner, du kan bl.a. vælge, om du vil vise Dagens tip, når du starter SuperOffice (Vis tip ved opstart). |
+| <i class="ph ph-question" aria-label="Question mark"></i> | Kommunikation i appen | Indstillinger for meddelelser i appen. |
+| <i class="ph ph-at" aria-label="Email icon"></i> | E-mail | Indstillingerne for e-mail og fax, f.eks. den e-mail-klient, du har installeret. |
+| <i class="ph ph-bell" aria-label="Bell icon"></i> | Meddelelser via popup; Meddelelser via e-mail; Meddelelser via SMS | Indstillinger for sagsbeskeder. |
+| <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Kontaktperson | Indstillingerne for kontakter. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | Sag | Indstillingerne for sager. For at få oplysninger om indstillinger for beskeder kan du se "Beskeder via..." ovenfor. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Salg | Indstillinger for salgsfunktionen. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> | Sortering | Hvordan medarbejdere, lister og personer skal sorteres, f.eks. om medarbejdere skal sorteres efter efternavn. |
+| <i class="ph ph-gear" aria-label="Gear icon"></i> | System | Systemindstillinger såsom hjemland, valuta og standarddokumentarkiv. |
+| <i class="ph ph-magic-wand" aria-label="Magic wand"></i> | Visuelle effekter | Indstillinger for visuelle effekter, for eksempel hvor mange elementer historiklisten skal indeholde eller om du vil have, at søndag skal være første ugedag. |
 
 ## Relateret indhold
 
@@ -57,17 +58,4 @@ Du kan specificere indstillinger for forskellige dele af SuperOffice CRM, for ek
 [2]: ../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pref-defaultvalues-h32.png
-[img2]: ../../../../common/icons/pref-diary-h32.png
-[img3]: ../../../../common/icons/pref-function-h32.png
-[img4]: ../../../../common/icons/pref-email-h32.png
-[img5]: ../../../../common/icons/pref-notification-h32.png
-[img6]: ../../../../common/icons/pref-person-h32.png
-[img7]: ../../../../common/icons/pref-request-h32.png
-[img8]: ../../../../common/icons/pref-sale-h32.png
-[img9]: ../../../../common/icons/pref-sorting-h32.png
-[img10]: ../../../../common/icons/pref-system-h32.png
-[img11]: ../../../../common/icons/pref-visualeffects-h32.png
-[img14]: ../../../../common/icons/pref-learn-active-h32.png
-[img12]: ../../../media/icons/personal-settings-small.png
 [img13]: ../../../media/loc/en/learn/getstarted-personalsettings.png

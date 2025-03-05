@@ -1,10 +1,11 @@
 ---
 uid: help-da-ui-side-panel
-title: Brug sidepanel til at arbejde mere effektivt
-description: "Sidepanelet giver dig adgang til oplysninger, der er gemt i andre dele af SuperOffice CRM, uden at forlade den skærm, du er på."
+title: Brug sidepanelet til at arbejde mere effektivt
+description: Sidepanelet giver dig adgang til oplysninger, der er gemt i andre dele af SuperOffice CRM, uden at forlade den skærm, du er på.
+keywords: sidepanel
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 03.07.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,139 +14,128 @@ language: da
 
 # Sidepanelet
 
-Sidepanelet er et multifunktionelt panel placeret yderst til højre på hver skærm i SuperOffice (undtagen indbakken).
+**Sidepanelet** er et multifunktionelt værktøj placeret i højre side af alle skærmbilleder i SuperOffice CRM (undtagen Indbakken). Det giver hurtig adgang til relevante oplysninger og supplerer hovedskærmbilledet.
 
-Brug sidepanelet til at få vist og bruge oplysninger fra andre dele af din CRM-løsning. For eksempel til at arbejde dig gennem lister over kontaktpersoner, der skal ringes til, salg, der skal opdateres, eller salgsforslag, der skal følges op. Du kan vælge mellem forskellige visninger ved at klikke på ![ikonpilen][img3] ud for sidepanelets navn.
+Brug det til at administrere opgaver, få overblik eller følge op på aktiviteter, salg eller personer. Indholdet i panelet tilpasser sig afhængigt af det aktive skærmbillede, og det husker din seneste visning for hver skærm.
 
 ![Sidepanelet vises i højre side af SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
-> Du kan minimere sidepanelet ved at klikke på ![ikonet][img4] minimerikon i øverste højre hjørne for at få mere plads til hovedkortene og arkiverne.
+> Du kan minimere sidepanelet for at få mere plads ved at klikke på <i class="ph ph-sidebar-simple" aria-label="Sidebar ikon"></i> i øverste højre hjørne.
 
-Sidepanelet er nyttigt, når du ønsker at få vist udførlige oplysninger om det aktive skærmbillede. Du kan for eksempel få vist månedskalenderen, samtidig med at dagskalenderen vises i skærmbilledet Dagbog for at få en bedre oversigt, eller du kan få vist medlemmerne i et udvalg, der er tilknyttet det projekt, du ser på i skærmbilledet Projekt. I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sidepanelet.
+## Skift visning i sidepanelet
 
-Sidepanelet viser som standard et eksempel på den valgte post. SuperOffice CRM husker den oversigt, du har valgt på en fane i et skærmbillede til næste gang, du viser samme fane.
+Som standard viser sidepanelet en forhåndsvisning af den valgte post. Du kan skifte mellem forskellige visninger for at se de oplysninger, der er mest relevante for din opgave.
 
-## Firma
+For eksempel kan du vise månedskalenderen, mens du ser dagskalenderen i skærmbilledet **Dagbog** for et bedre overblik, eller du kan vise medlemmerne af et udvalg, der er tilknyttet et projekt, du ser på i skærmbilledet **Projekt**.
 
-Viser en oversigt over oplysninger om det aktuelle firma i skærmbilledet Firma.
+1. Klik på <i class="ph ph-caret-down" aria-label="Pil ned ikon"></i> ved siden af sidepanelets navn.
 
-> [!TIP]
-> Hvis du vil have vist andre firmaer uden at skulle skifte projekt i skærmbilledet Firma, kan du bruge [historiklisten][1], som åbnes ved at klikke på pilen ud for firmanavnet
-
-## Kontaktperson
-
-Viser oplysninger om den person, som er markeret i skærmbilledet **Firma** eller Udvalg.
-
-> [!TIP]
-> Hvis du klikker på personens navn, åbnes [personkortet][2], hvor du kan få vist og ændre yderligere oplysninger om personen.
-
-### Hvorfor er sidepanelet tomt?
-
-I et [dynamisk udvalg][7] kan du vælge, at der kun skal vises firmaer, uden at angive en person. Hvis **Medtag den primære person** ikke er valgt i det dynamiske udvalg, vises der ikke nogen oplysninger i oversigten Person på sidepanelet, selvom du har markeret en person.
-
-## Dag
-
-Viser en dags dagsorden. Fungerer på samme måde som fanen **Dag** i [skærmbilledet Dagbog][4].
+1. Vælg den ønskede visning fra listen.
 
 > [!NOTE]
-> Du kan kun få vist din egen dagbog i sidepanelet. Hvis du vil se andre personers dagbøger, skal du gå til skærmen Dagbog.
+> Tilgængelige visninger afhænger af det aktive skærmbillede.
 
-## Næste dag
+## Standardvisninger
 
-Viser en dagsplan for næste dag. Denne fungerer på samme måde som oversigten **Dag**.
+Her er de mest almindelige visninger i sidepanelet, tilpasset det aktive skærmbillede.
 
-## Uge
+> [!TIP]
+> Hvis du hurtigt vil se andre poster uden at skifte skærmbillede, kan du klikke på pilen (<i class="ph ph-caret-down" aria-hidden="true"></i>) ved siden af postens navn i sidepanelet. Dette åbner [historiklisten][1], hvor du kan vælge en anden post.
 
-Viser en ugeplan med en oversigt over opfølgninger den pågældende uge.
+### Forhåndsvisning (standard)
 
-## Måned
+Viser en hurtig forhåndsvisning af valgte poster, såsom personer eller aktiviteter, med links til relaterede data. Klik på et link for at åbne den tilhørende dialog, f.eks. [Opfølgning][6] eller [Dokument][5].
 
-Viser en månedsplan med en oversigt over opfølgninger de(n) nærmeste måned(er). Du kan udvide sidepanelet for at vise flere måneder.
+### Kalenderoversigter
 
-Hvis du holder musemarkøren over en sådan dag, vises der en infoboks med en oversigt over de aktuelle opfølgninger.
+Hold styr på din kalender med disse visninger:
 
-| Ikon | Beskrivelse |
-|---|---|
-| ![ikon][img7] | "Linjen" under datoen angiver aktivitetsniveauet denne dag og gør det nemmere at planlægge møder. |
-| ![ikon][img8] | I dag. |
-| ![ikon][img9] | Valgte dato i dagbogen. |
+* **Dag:** Dagsplan. Samme som fanen **Dag** i [skærmbilledet Dagbog][4].
+* **Næste dag:** Viser agendaen for i morgen.
+* **Uge:** Ugeoversigt over opfølgninger.
+* **Måned:** Månedskalender med infobokse for aktiviteter og en "bar" indikator for daglig arbejdsbyrde. Udvid sidepanelet for at vise flere måneder.
 
-Du kan skifte mellem månederne ved at klikke på ![ikon][img1] ![ikon][img2] pileknapperne nederst på sidepanelet.
+Du kan navigere mellem datoer, uger eller måneder med knapperne **Forrige** og **Næste** (<i class="ph ph-caret-left" aria-hidden="true"></i><i class="ph ph-caret-right" aria-hidden="true"></i>) nederst i sidepanelet.
 
-## Min foretrukne
+Hvis du er i **Dagbog**, vil navigering i sidepanelet automatisk opdatere Dagbog-visningen, og omvendt.
+
+> [!NOTE]
+> Du kan kun se din egen dagbog i sidepanelet. Brug **Dagbog**-skærmbilledet for at se andres kalendere.
+
+### Firma
+
+Viser en oversigt over det aktuelle firma i skærmbilledet **Firma**.
+
+### Person
+
+Viser detaljer om den markerede person i skærmbilledet **Firma** eller **Udvalg**.
+
+Klik på personens navn for at åbne [personkortet][2].
+
+### Mine foretrukne
 
 Viser alle dine [foretrukne][8].
 
-* Hvis du kun vil vise foretrukne for det aktuelle skærmbillede, klikker du på afkrydsningsfeltet nederst på sidepanelet. Eksempel: Hvis skærmbilledet Kun Salg er åbent, klikker du på **kun salg** for kun at vise salg.
-* Hvis du vil fjerne foretrukne, vælger du én eller flere foretrukne på listen og klikker på **Fjern**.
-* Klik på **Opdater** for at opdatere listen over foretrukne.
-* Højreklik på en foretrukken for at åbne genvejsmenuen.
+* Marker afkrydsningsfeltet i bunden for kun at vise foretrukne for det aktive skærmbillede (f.eks. **Kun salg** i skærmbilledet Salg).
+* Fjern elementer ved at markere dem og klikke på **Fjern**.
+* Klik på <i class="ph ph-arrow-clockwise" aria-label="Opdater"></i> for at opdatere listen.
+* Højreklik på en favorit for at åbne genvejsmenuen.
 
-## Forhåndsvisning
+### Projekt
 
-Viser en forhåndsvisning af typen aktivitet, projekt, person, projektdeltager eller udvalgsmedlem på sidepanelet. Afhængig af, hvilket element der er valgt, kan vinduet indeholde forbindelser til personer og aktiviteter. Hvis du klikker på et sådant link, åbnes [personkortet][2], [dialogboksen Dokument][5] eller [dialogboksen Opfølgning][6], hvor du kan åbne og redigere personen eller aktiviteten.
+Viser en oversigt over det aktuelle projekt i skærmbilledet **Projekt**.
 
-[Hvad skal jeg gøre, når jeg får "Dokument Lukket" på sidepanelet i SuperOffice CRM, når dokumentfremviseren bruges?][11] - FAQ
+### Projektdeltagere
 
-## Projekt
+Viser en liste over deltagere i det aktuelle projekt i skærmbilledet **Projekt**.
 
-Viser en oversigt over oplysninger om det aktuelle projekt i skærmbilledet Projekt.
+Dobbeltklik på et navn for at åbne [personkortet][2].
 
-> [!TIP]
-> Hvis du vil have vist andre firmaer uden at skulle skifte projekter på skærmbilledet Projekt, skal du klikke på pilen ![ikon][img3] ved siden af produktnavnet for at åbne [historiklisten][1].
+### Salg
 
-## Projektdeltager
+Viser en oversigt over det aktuelle salg i skærmbilledet **Salg**.
 
-Viser en oversigt over projektdeltagere i det aktuelle projekt i skærmbilledet Projekt.
+### Udvalg
 
-> [!TIP]
-> Dobbeltklik på navnet på et projektmedlem for at åbne [personkortet][2], hvor du kan se og redigere detaljerede oplysninger om projektmedlemmet.
+Viser en oversigt over det aktuelle udvalg i skærmbilledet **Udvalg**.
 
-## Salg
+### Udvalgsmedlemmer
 
-Viser en opsummering af oplysningerne om det aktuelle salg i skærmbilledet Salg.
+Viser en liste over medlemmer i det aktuelle udvalg i skærmbilledet **Udvalg**.
 
-> [!TIP]
-> Hvis du vil have vist andre salg uden at skulle skifte salg på skærmbilledet Salg, skal du klikke på pilen ![ikon][img3] ved siden af navnet på salget for at åbne [historiklisten][1].
+## Brugerdefinerede visninger
 
-[Sådan bruges sidepanelet effektivt til salg][10]
+Administratorer kan definere tilpassede visninger for sidepanelet i **Indstillinger og vedligeholdelse**, så det passer til teamets behov.
 
-## Udvalg
+## Ofte stillede spørgsmål og tips
 
-Viser en opsummering af oplysninger om det aktuelle udvalg i skærmbilledet Udvalg.
+* Fastgør ofte brugte sidepaneler øverst på listen ved at klikke på **stjerneikonet**.
 
-> [!TIP]
-> Hvis du vil have vist andre udvalg uden at skulle skifte udvalg i skærmbilledet Udvalg, skal du klikke på pilen ![ikon][img3] ved siden af udvalgsnavnet for at åbne [historiklisten][1].
+    ![Eksempel på fastgjorte sidepaneler -screenshot][img1]
 
-## Udvalgsmedlemmer
+* **Hvorfor er sidepanelet tomt?**
 
-Viser en oversigt over medlemmerne af det aktuelle udvalg i skærmbilledet Udvalg.
+  Hvis ingen person er angivet (f.eks. i et dynamisk udvalg uden **Medtag den primære person**), vil oversigten **Personer** i sidepanelet ikke vise nogen oplysninger.
 
-> [!TIP]
-> Hvis skærmbilledet Dagbog er åbent, og du markerer en dato i en anden uge i dagbogen, skifter ugeoversigten, så ugen med den markerede dato vises i stedet.
+* **Hvorfor ser jeg "Dokument lukket" i sidepanelet?**
 
-## Brugerdefinerede oversigter
+  Dette skyldes optimering af systemressourcer, når du bruger InfoBridge Document Viewer. For at se dokumentet igen, gå tilbage til dokumentfanen og vælg det igen. Læs mere i [denne supportartikel][11].
 
-I Indstillinger og vedligeholdelse kan du også definere egne oversigter for sidepanelet.
+* **Hvordan bruger jeg sidepanelet effektivt til salg?**
+
+  Brug det til at spore salgsmuligheder, overvåge forfaldne aktiviteter og følge op på tilbud uden at skifte skærmbillede. Læs mere i [Sådan bruger du sidepanelet til salg][10].
 
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[4]: ../../../diary/learn/screen/index.md
+[4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[10]: ../../../sale/learn/use-side-panel.md
+[10]: ../../../sale/learn/index.md#side-panel
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-left.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../../common/icons/right-collapse.png
-[img7]: ../../../../media/icons/mini-card-level.png
-[img8]: ../../../../media/icons/mini-card-today.png
-[img9]: ../../../../media/icons/mini-card-selected.png
+[img1]: ../../../../media/loc/en/learn/pin-side-panel-favs.png
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

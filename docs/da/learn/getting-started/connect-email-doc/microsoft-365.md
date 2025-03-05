@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 08.28.2023
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Microsoft 365-integration som din løsning

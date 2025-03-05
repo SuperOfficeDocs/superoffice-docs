@@ -2,9 +2,10 @@
 uid: help-da-sign-in-to-superoffice
 title: Sådan logger du ind
 description: Log ind for at aktivere din SuperOffice CRM-konto ved hjælp af en SuperOffice CRM-adgangskode eller en single sign-on-indstilling.
-author: SuperOffice RnD
-date: 08.28.2023
 keywords: CRM, log ind, login, adgangskode
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -101,7 +102,7 @@ Du skal tilhøre rollen *Brugerniveau 0* eller en rolle, der giver dig rettighed
 
 ## Sådan ændrer du din adgangskode
 
-1. Vælg ![ikon][img1] **Personlige indstillinger &gt; Skift adgangskode**.
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Skift adgangskode**.
 2. Indtast den nye adgangskode i feltet **Ny adgangskode**.
 3. Indtast den igen i feltet **Gentag adgangskode** for at sikre, at du indtastede den korrekt første gang.
 4. Klik på **OK**.
@@ -140,7 +141,6 @@ Kontakt SuperOffice-administratoren for at få en ny adgangskode.
 [7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png
