@@ -2,10 +2,13 @@
 uid: help-da-duplicates
 title: Dubletter
 description: Dubletter
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: dublet
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -19,14 +22,9 @@ Du kan fortsætte med at arbejde med den aktuelle post, eller gå til en af post
 
 Hvis du vil ændre indstillingerne for dubletkontrollen, skal du klikke på knappen **Indstillinger** i dialogboksen **Dubletter** .
 
-Du kan også få adgang til disse indstillinger fra hovedmenuikonet ![ikon][img1].
+Du kan også få adgang til disse indstillinger fra hovedmenuen (<i class="ph ph-list" aria-hidden="true"></i>).
 
 ## Deaktiver dubletkontrol
 
 1. Gå til Indstillinger og vedligeholdelse.
 1. Vælg **Præferencer** > **Funktioner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

@@ -3,9 +3,9 @@ uid: help-da-print
 title: Udskrivning af poster i SuperOffice CRM
 description: Denne vejledning giver et overblik over, hvordan du udskriver poster, såsom firmaer, personer, salg, projekter og opfølgninger, så det bliver nemt at have papirversioner til møder, dokumentation eller yderligere analyse.
 keywords: udskriv
-author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ De generelle trin for udskrivning af en post i SuperOffice CRM er stort set de s
 
 1. Gå til den ønskede post: Gå til Firma, Person, Salg, Projekt eller Sag for at finde det element, du vil udskrive.
 
-1. Klik på **Opgave**-knappen i det relevante kort, fane eller dialog.
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i det relevante kort, fane eller dialog.
 
 1. Vælg **Udskriv** fra menuen.
 
@@ -42,7 +42,7 @@ De generelle trin for udskrivning af en post i SuperOffice CRM er stort set de s
 
 1. Åbn den ønskede opfølgning på detaljekortet **Aktiviteter** i Firma, Person, Dagbog, Salg eller Projekt-skærmene.
 
-1. Klik på **Opgave**, og vælg **Udskriv**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, og vælg **Udskriv**.
 
 ### Udskriv opfølgning fra Dagbog
 

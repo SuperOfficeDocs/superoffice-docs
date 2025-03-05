@@ -4,8 +4,8 @@ title: Links
 description: Links
 keywords: Tilføj link, fanen Links, Links-fanen, link
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ En prik vises på faneoverskriften **Links**, når fanen indeholder et eller fle
 
 1. Vælg fanen **Links**.
 
-1. Klik på **Rediger** og derefter **Tilføj**.
+1. Klik på **Rediger** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) og derefter **Tilføj**.
 
 1. I dialogboksen **Tilføj link**:
 
@@ -50,7 +50,7 @@ En prik vises på faneoverskriften **Links**, når fanen indeholder et eller fle
 ## Fjern et link
 
 1. Gå til fanen **Links**.
-1. Klik på **Rediger**.
+1. Klik på <i class="ph ph-pencil-simple" aria-label="Rediger"></i>.
 1. Klik på **Slet-knappen** (rød X) ved siden af det link, du vil fjerne.
 1. Klik på **Gem**.
 

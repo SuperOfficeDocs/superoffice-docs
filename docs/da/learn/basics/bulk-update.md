@@ -1,23 +1,28 @@
 ---
 uid: help-da-bulk-update
-title: Masseredigering
-description: Masseredigering
+title: Masseopdatering
+description: Opdater flere poster samtidigt i SuperOffice CRM.
+keywords: masseopdatering, masseredigering, bulk update
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: masseredigering
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Sådan opdaterer du flere poster (masseopdatering)
+# Opdater flere poster (masseopdatering)
 
-Masseredigering giver dig mulighed for at ændre værdier på tværs af flere poster af samme type. Du kan udføre masseredigeringen på alle eller udvalgte poster i detaljekort (arkiver), udvalg og skærmbilledet **Søg**. Denne opgave kan også bruges til at slette flere poster.
+Masseopdatering giver dig mulighed for at ændre værdier på tværs af flere poster af samme type. Du kan bruge masseopdatering på alle eller udvalgte poster i detaljekort, udvalg og skærmbilledet **Søg**. Denne funktion kan også bruges til at slette flere poster på én gang.
+
+## Trin
 
 1. Åbn udvalget, detaljekortet (arkiv) eller søgeresultaterne (skærmbilledet **Søg**), der indeholder poster, som du vil opdatere.
 
-2. Udvalg: Klik på knappen **Opgave**, og vælg **Masseopdatering**.
-    eller
-    Marker de poster, du vil opdatere, højreklik på dem, og vælg **Masseredigering ...**
+2. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælg **Masseopdatering**.
+    Eller, marker de poster, du vil opdatere, højreklik på dem, og vælg **Masseredigering ...**
+
     Dialogboksen **Masseredigering** åbnes. Nederst i denne dialogboks kan du se typen post og hvor mange poster, der skal opdateres. Eksempel: Antal personer i kø til masseredigering: 7.
 
     > [!NOTE]
@@ -38,17 +43,14 @@ Masseredigering giver dig mulighed for at ændre værdier på tværs af flere po
 
 5. Hvis du vil tilføje flere felter, der skal opdateres, skal du klikke på **Tilføj** og gentage trin 3 og 4.
 
-6. Sørg for at markere (![ikon][img1]) de felter, du vil opdatere, og fjern markeringen (![ikon][img2]) af felter, som du IKKE VIL opdatere.
+6. Marker (<i class="ph ph-check" aria-hidden="true"></i>) de felter, du vil opdatere, og fjern markeringen for de felter, der ikke skal opdateres.
 
 7. Klik på **Opdater**. Dialogboksen **Bekræft** åbnes, og der vises en liste over opdateringerne.
 
-    > [!NOTE]
-    > Når en opdatering er installeret, kan den ikke fortrydes.
-
 8. Klik på **Ja** at implementere ændringerne i de valgte poster.
 
-    > [!NOTE]
-    > Det er muligt at stoppe opdateringen, så snart du har startet det. Elementer, som endnu ikke er blevet opdateret, bliver ikke opdateret.
+   > [!CAUTION]
+   > Når en opdatering er gennemført, kan den ikke fortrydes. Du kan dog stoppe opdateringen, mens den er i gang. Eventuelle resterende poster vil ikke blive opdateret.
 
 9. Klik på **LOG** for at vise ændringsloggen. Hvis nogle poster ikke blev opdateret, er årsagen angivet i kolonnen **Årsag**.
 
@@ -89,9 +91,3 @@ Du har opdaget, at feltet **Stilling** for personer sjældent anvendes. For at k
 ## Opdatering af projekt
 
 Du vil rydde op i alle de "gamle" projekter, som ikke er angivet som fuldførte. Opret et udvalg af alle de gamle projekter, for eksempel alle projekter, der går mere end 2 år tilbage i tiden, og som ikke er blevet opdateret gennem det sidste år. Brug **Masseredigering** til at opdatere status **Fuldført** for disse projekter med indholdet **Ja**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

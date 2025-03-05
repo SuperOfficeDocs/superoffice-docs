@@ -1,24 +1,25 @@
 ---
 uid: help-da-notifications
 title: Underretninger
-description: "Meddelelser om invitationer, beskeder og sager"
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
+description: Meddelelser om invitationer, beskeder og sager
 keywords: notifikation, invitation, sag, meddelels
-topic: concept
+author: Bergfrid Skaara Dias
+date: 02.25.2025
+version: 10.5.2
+topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Underretninger
+# Underretninger <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-Når du klikker på **klokkeikonikonet** ![ikon][img1] i øverste højre hjørne af SuperOffice CRM, vises meddelelsespanelet som et overlay i højre side af skærmen, der viser de seneste forekomster øverst. Her kan du gøre følgende:
+Når du klikker på **klokkeikonikonet** i øverste højre hjørne af SuperOffice CRM, vises meddelelsespanelet som et overlay i højre side af skærmen, der viser de seneste forekomster øverst. Her kan du gøre følgende:
 
 * Klik på et listeelement for at åbne det.
-* Klik på ![ikonet][img2] for at indstille dine notifikationspræferencer.
+* Klik på <i class="ph ph-gear" aria-label="Gear"></i> for at indstille dine notifikationspræferencer.
 * Klik på **Ryd alt** nederst i meddelelsesruden for at rydde listen over meddelelser. Du kan også klikke på **Forstået** under en notifikation for at fjerne den.
-* Klik på ![ikonet][img3] eller et vilkårligt sted uden for meddelelsespanelet for at lukke det.
+* Klik på <i class="ph ph-x" aria-label="X"></i> eller et vilkårligt sted uden for meddelelsespanelet for at lukke det.
 
 ![Pop op-meddelelsen vises, der viser både meddelelser om sager og invitationer -screenshot][img5]
 
@@ -29,7 +30,7 @@ Når du modtager en aktivitetsmeddelelse, vises den i dit meddelelsespanel. Klik
 Dette er de forskellige aktivitetsmeddelelser:
 
 * **Nyt møde**: Svar ved at klikke på **Acceptér** eller **Afvis**. Når du har svaret, forsvinder invitationen fra meddelelsespanelet.
-* **Nyt tilbagevendende møde**: Hvis invitationen er til en tilbagevendende begivenhed, afspejles dette med et ikon ![ikon][img4] under linket.
+* **Nyt tilbagevendende møde**: Hvis invitationen er til en tilbagevendende begivenhed, vises <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> under linket.
 * **Mødet er blevet ændret**: Hvis tidspunktet eller datoen for et møde, du allerede har accepteret, ændres, modtager du en ny meddelelse, der fortæller dig, hvad der er ændret, og kræver, at du accepterer eller afviser det.
 * **Møde aflyst**: Mødet er aflyst. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
 * **Invitation afslået**: En mødedeltager har afvist invitationen. Klik på linket for at åbne kalenderelementet, eller klik på **Forstået** for at fjerne det fra dine meddelelser.
@@ -56,7 +57,7 @@ Dette er de forskellige sagsnotifikationer:
 
 ## Beskedindstillinger
 
-Når du klikker på ikonet ![ikon][img2] vises panelet med meddelelsesindstillinger. Her kan du vælge, hvilke meddelelser du gerne vil se i meddelelsespanelet.
+Når du klikker på <i class="ph ph-gear" aria-label="Gear"></i> vises panelet med meddelelsesindstillinger. Her kan du vælge, hvilke meddelelser du gerne vil se i meddelelsespanelet.
 
 Dette er meddelelsesmulighederne:
 
@@ -105,12 +106,7 @@ Dette er meddelelsesmulighederne:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
-[img2]: ../../../../common/icons/cog-wheel.png
-[img3]: ../../../../common/icons/remove-icon.png
-[img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
-
 [img11]: ../../../media/loc/en/learn/system-notification-chrome.png
 [img12]: ../../../media/loc/en/learn/system-notification-edge.png
 [img13]: ../../../media/loc/en/learn/system-notification-firefox.png
