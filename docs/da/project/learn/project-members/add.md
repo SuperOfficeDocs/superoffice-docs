@@ -2,7 +2,7 @@
 uid: help-da-project-member-add
 title: Tilføj projektdeltagere
 description: Sådan tilføjer du en projektdeltager i SuperOffice
-keywords: projekt, deltager
+keywords: tilføj projektdeltager, ny projektdeltager, dialogboksen Tilføj/rediger projektdeltagere, projektdeltager, projekt
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
@@ -32,11 +32,11 @@ Når du tilføjer deltagere til et projekt, kan du tildele funktioner individuel
 
       ![Tilføj/rediger projektdeltagere dialog, historik -screenshot][img5]
 
-    * **Brugergruppe**: Klik på ![ikon][img2] for at gennemse medarbejdere efter gruppe.
+    * **Brugergruppe**: Klik på <i class="ph ph-users" aria-label="Associate icon"></i> for at gennemse medarbejdere efter gruppe.
 
       ![Tilføj/rediger projektdeltagere dialog, gruppe -screenshot][img6]
 
-    * **Firma**: Klik på ![ikon][img3] for at gennemse personer i en firma eller tilføje en firma som deltager.
+    * **Firma**: Klik på <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> for at gennemse personer i en firma eller tilføje en firma som deltager.
 
       ![Tilføj/rediger projektdeltagere dialog, firma -screenshot][img7]
 
@@ -79,7 +79,7 @@ Du kan tilføje projektdeltagere og interessenter fra personoversigterne på for
 
 * **Tilføj kommentarer**
 
-    Hvis der er tilføjet en kommentar, vises der et ![ikon][img1] papirclip ved siden af kolonnen **Projektdeltagerinformation** i detaljekortet **Projektdeltagere**. Hold musen over clipsen for at se kommentartipset.
+    Hvis der er tilføjet en kommentar, vises der et papirclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) ved siden af kolonnen **Projektdeltagerinformation** i detaljekortet **Projektdeltagere**. Hold musen over clipsen for at se kommentartipset.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ Du kan tilføje projektdeltagere og interessenter fra personoversigterne på for
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

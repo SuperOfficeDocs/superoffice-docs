@@ -2,10 +2,13 @@
 uid: help-da-project-member-invite
 title: Invitation af projektdeltagere til et møde
 description: Sådan inviterer du en projektdeltager til et møde i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt, deltager, inviter, opfølging
+keywords: Anmod om et møde, inviter projektdeltager, invitation, projektdeltager, projekt
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

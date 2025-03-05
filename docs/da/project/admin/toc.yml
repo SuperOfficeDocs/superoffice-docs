@@ -1,0 +1,11 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilføj projektstatus
+  href: project-status.md
+- name: Tilføj projekttype
+  href: project-type.md
+- name: Opret ny projektguide
+  href: create-project-guide.md
+- name: Rediger eller deaktiver projektguide
+  href: edit-project-guide.md
