@@ -16,11 +16,11 @@ language: da
 
 **Firmaskærmbilledet** giver et øjebliksbillede af alle oplysninger relateret til et firma, såsom kunder, samarbejdspartnere eller leverandører.
 
-![Firmaskærmbilledet med firmainfo, detaljefanen Personer og firmasidepanelet. -screenshot][img3]
+![Firmaskærmbilledet med firmainfo, detaljekortet Personer og firmasidepanelet. -screenshot][img3]
 
 Øverst viser **firmakortet** nøgleoplysninger om virksomheden, såsom kontaktoplysninger, kategori og hovedkontaktperson. Du kan navigere mellem firmaer ved hjælp af knapperne **Forrige** og **Næste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til højre på kortet.
 
-Under kortet giver **detaljefanerne** dig mulighed for at se yderligere oplysninger og administrere relaterede poster, såsom personer eller aktiviteter.
+Under kortet giver **detaljekorterne** dig mulighed for at se yderligere oplysninger og administrere relaterede poster, såsom personer eller aktiviteter.
 
 Skærmbilledet giver dig også mulighed for at søge efter firmaer, oprette nye poster, administrere personer, skrive dokumenter og oprette opfølgninger.
 
@@ -34,15 +34,15 @@ Skærmbilledet giver dig også mulighed for at søge efter firmaer, oprette nye 
 | [Firma][2] | Hovedfanen til indtastning af centrale firmaoplysninger, herunder adresse og kontaktfelter. |
 | [Mere][19] | Tilpassede felter til yderligere virksomhedsoplysninger. |
 | [Interesser][2] | Afkrydsningsfelter til angivelse af firmaets interesser til udvalg eller kampagner. En prik vises, når interesser er valgt. |
-| [Notat][20] | Fritekstområde til at tilføje noter om firmaet. Noter er markeret med en prik, når de er udfyldt. |
+| [Bemærkning][20] | Fritekstområde til at tilføje noter om firmaet. Noter er markeret med en prik, når de er udfyldt. |
 | [www][21] | Genvej til en URL for visning af websider eller eksterne data relateret til firmaet. |
 | [ERP][22] | Forbinder firmaer til ERP-systemet, hvilket muliggør datasynkronisering og sammenkobling af personer. |
 
-## <a id="section-tabs"></a>Detaljefaner på firma
+## <a id="section-tabs"></a>Detaljekort på firma
 
-Nederst i skærmbilledet findes følgende [standard detaljefaner][18]:
+Nederst i skærmbilledet findes følgende [standard detaljekort][18]:
 
-| Detaljefane | Beskrivelse |
+| Detaljekort | Beskrivelse |
 |---|---|
 | [Personer][11] | Indeholder oplysninger om medarbejdere i det aktive firma. |
 | [Relationer][12] | Viser forbindelser mellem firmaer og/eller personer. |
