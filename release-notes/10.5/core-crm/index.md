@@ -2,7 +2,7 @@
 uid: news-core-crm-10.5
 title: What's new in SuperOffice Core CRM 10.5
 description: Release notes. What's new in SuperOffice Core CRM 10.5
-keywords: new UI, top bar, New button, freetext, in-app Resource centre, dashboard, main cards, diary, side panel, dashboard, drill down, export
+keywords: new UI, top bar, New button, freetext, in-app Resource centre, dashboard, main cards, diary, side panel, drill down, export
 author: SuperOffice AS – Product and Engineering
 date: 03.11.2025
 version: 10.5

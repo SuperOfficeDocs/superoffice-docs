@@ -13,7 +13,8 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Requests - Add button from the footer of requests section tabs (10.5.3)][3]
+* [Requests - Quickly add a request from the section tab (10.5.3)][3]
+* [Requests – Preference for expanded messages (10.5.3)][3]
 
 <!-- Referenced links-->
 [3]: 10.5.3-update.md

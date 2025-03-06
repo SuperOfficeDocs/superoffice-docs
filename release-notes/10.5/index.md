@@ -2,7 +2,7 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: Service, Requests, add, requests tab, section tabs
+keywords: Service, request, Requests tab, section tab
 author: SuperOffice AS – Product and Engineering
 date: 03.11.2025
 version: 10.5
@@ -49,8 +49,8 @@ Check out our **Product release** overview for more details in our [Community][1
 
 * 10.5.3 (11.03.2025):
   * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
-  * [Requests - Add button from the footer of requests section tabs (10.5.3)][21] in Service
-
+  * [Requests - Quickly add a request from the section tab (10.5.3)][21] in Service
+  * [Requests – Preference for expanded messages (10.5.3)][21] in Service
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
   * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
