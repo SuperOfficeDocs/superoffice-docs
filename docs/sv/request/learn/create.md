@@ -2,10 +2,10 @@
 uid: help-sv-request-create
 title: Skapa ett ärende
 description: Skapa ett ärende
-keywords: ärende
+keywords: skapa ärende, nytt ärende, ärende
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -21,9 +21,11 @@ Ett ärende kan komma in i systemet via ett e-postmeddelande från kunden, eller
 
 1. Klicka på **Nytt** i toppraden och välj **Ärende**.
 
+    Alternativt, om du är i detaljfanen **Ärenden** på en kontakt, klicka på **Lägg till** för att skapa ett ärende med kontakten förifylld.
+
 1. I fältet **Titel** anger du ett beskrivande namn på ärendet.
 
-1. Lägg till en kontakt i fältet **Sök efter kontakt**. Börja skriva kontaktens namn (eller telefonnummer) och välj från resultatlistan.
+1. Lägg till en kontakt i fältet **Sök efter kontakt** (om inte förifyllt). Börja skriva kontaktens namn (eller telefonnummer) och välj från resultatlistan.
     * Om du har bråttom kan du hoppa över detta steg och lägga till kontakten senare.
 
 1. Använd panelen **Egenskaper** på höger sida för att tilldela och prioritera ärendet.

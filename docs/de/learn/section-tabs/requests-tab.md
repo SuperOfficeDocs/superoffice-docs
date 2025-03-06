@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Anfragen
 description: Erfahren Sie, wie Sie Serviceanfragen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um Kundeninteraktionen effizient über Firmen und Personen hinweg zu verfolgen.
 keywords: requests tab, section tab, request archive, ticket archive
 author: Bergfrid Skaara Dias
-date: 02.11.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ Die **Bereichsregisterkarte Anfragen** enthält die folgenden Spalten, um wichti
 ### Geschlossene Anfragen einschließen
 
 Um geschlossene Anfragen in der Liste einzuschließen, aktivieren Sie das Kontrollkästchen **Geschlossen** am unteren Rand der Bereichsregisterkarte. Dies bietet eine vollständige Übersicht über sowohl offene als auch geschlossene Anfragen, die mit der Entität verknüpft sind.
+
+## Erstellen einer Anfrage
+
+1. Klicken Sie in der Registerkarte **Anfrage** auf **Hinzufügen**, um eine neue Anfrage für den Person zu erstellen.
+
+1. Füllen Sie die Anfragedetails nach Bedarf aus. Das Feld **Person** wird basierend auf der angezeigten Person vorausgefüllt.
+
+1. Klicken Sie auf **Speichern**, um die Anfrage zu registrieren.
 
 ## Eine Anfrage bearbeiten
 

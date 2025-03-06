@@ -4,8 +4,8 @@ title: Requests tab
 description: Learn how to view, add, and manage Service requests in SuperOffice CRM, helping you efficiently track customer interactions across companies and contacts.
 keywords: requests tab, section tab, request archive, ticket archive
 author: Bergfrid Skaara Dias
-date: 01.29.2025
-version: 10.5
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ The **Requests** section tab contains the following columns to provide key infor
 ### Include closed requests
 
 To include closed requests in the list, check the **Closed** box at the bottom of the section tab. This provides a complete view of both open and closed requests associated with the entity.
+
+## Creating a request
+
+1. In the **Requests** section tab, click **Add** to create a new request for the contact.
+
+1. Fill in the request details as needed. The **Contact** field is prefilled based on the person you were viewing.
+
+1. Click **Save** to register the request.
 
 ## Editing a request
 

@@ -4,8 +4,8 @@ title: Create a request
 description: Create a request
 keywords: create request, add request, new request, request properties, request details, message, request, ticket
 author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5.1
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -21,9 +21,11 @@ A request can arrive in the system via an email from the customer, or you can re
 
 1. Click **New** on the top bar and select **Request**.
 
+    Alternatively, if you are in the **Requests** section tab on a contact, click **Add** to create a request with the contact prefilled.
+
 1. In the **Title** field, give the request a descriptive name.
 
-1. Add a contact in the **Search for contact** field. Start typing the name (or phone number) and choose from the results.
+1. Add a contact in the **Search for contact** field (if not prefilled). Start typing the name (or phone number) and choose from the results.
     * Optionally, you can skip this step and add the contact later.
 
 1. Use the **Request properties** panel on the right to assign and prioritize the request.

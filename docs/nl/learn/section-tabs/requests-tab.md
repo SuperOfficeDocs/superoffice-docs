@@ -4,8 +4,8 @@ title: Sectietabblad Verzoeken
 description: Leer hoe u Serviceverzoeken in SuperOffice CRM kunt bekijken, toevoegen en beheren, zodat u klantinteracties efficiënt kunt volgen tussen bedrijven en personen.
 keywords: sectietabblad Verzoeken, tabblad Verzoeken, sectietabblad
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ Het sectietabblad **Verzoeken** bevat de volgende kolommen om belangrijke inform
 ### Gesloten verzoeken insluiten
 
 Om gesloten verzoeken in de lijst op te nemen, vinkt u het vakje **Gesloten** onderaan het sectietabblad aan. Dit biedt een volledig overzicht van zowel open als gesloten verzoeken die aan de entiteit zijn gekoppeld.
+
+## Een verzoek aanmaken
+
+1. Klik in het tabblad **Verzoek** op **Toevoegen** om een nieuw verzoek voor de persoon aan te maken.
+
+2. Vul de verzoekgegevens in naar behoefte. Het veld **Persoon** wordt vooraf ingevuld op basis van de persoon die je bekeek.
+
+3. Klik op **Opslaan** om het verzoek te registreren.
 
 ## Een verzoek bewerken
 

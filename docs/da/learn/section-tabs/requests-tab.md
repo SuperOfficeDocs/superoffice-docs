@@ -4,8 +4,8 @@ title: Sagsfanen
 description: Lær, hvordan du kan se, tilføje og administrere Service-sager i SuperOffice CRM, så du effektivt kan spore kundesamtaler på tværs af firmaer og personer.
 keywords: Sags-fanen, Sagsfanen, Sager-fanen, detaljekortet Sager, detaljekort, sagsarkiv, anmodning, forespørgsler, forespørgsel, sag
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ Detaljekortet **Sager** indeholder følgende kolonner for at give nøgleinformat
 ### Inkluder lukkede sager
 
 For at inkludere lukkede sager i listen, marker **Lukket**-boksen nederst i seksionsfanen. Dette giver et komplet overblik over både åbne og lukkede sager knyttet til enheden.
+
+## Oprettelse af en sag
+
+1. I fanen **Sag**, klik på **Tilføj** for at oprette en ny sag for personen.
+
+1. Udfyld sagens detaljer efter behov. Feltet **Person** er forudfyldt baseret på den person, du så.
+
+1. Klik på **Gem** for at registrere sagen.
 
 ## Redigering af en sag
 
