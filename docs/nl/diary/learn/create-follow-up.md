@@ -4,7 +4,7 @@ title: Vervolgactiviteiten toevoegen
 description: Vervolgactiviteiten toevoegen of kopiëren
 keywords: agenda, vervolgactiviteit, bellen, telefoongesprek, telefoon, vergadering, taak, afspraak
 author: Bergfrid Dias
-date: 02.21.2025
+date: 03.06.2025
 version: 10.5.2
 topic: howto
 license: salesessentials, serviceessentials, marketingessentials
@@ -121,7 +121,7 @@ U kunt ook een nieuwe follow-up maken door een bestaande follow-up naar een ande
 
 2. Als de follow-up is voltooid, klik er met de rechtermuisknop op en kies **Voltooid** om bewerken mogelijk te maken. (Vergeet niet om de status na het kopiëren opnieuw in te stellen.)
 
-3. Houd de **CTRL**-toets ingedrukt terwijl u de follow-up naar een andere tijd versleept.
+3. Houd de **Shift**-toets ingedrukt terwijl u de follow-up naar een andere tijd versleept.
 
 ## Gerelateerde inhoud
 

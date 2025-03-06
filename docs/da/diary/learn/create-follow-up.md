@@ -4,7 +4,7 @@ title: Tilføjelse af opfølgning
 description: Tilføje eller kopiere møde, opgave, samtale i SuperOffice
 keywords: dagbog, opfølgning, ring til, telefon, møde, aftale, telefonopkal
 author: Bergfrid Dias
-date: 02.21.2025
+date: 03.06.2025
 version: 10.5.2
 topic: howto
 license: salesessentials, serviceessentials, marketingessentials
@@ -121,7 +121,7 @@ Du kan også oprette en ny opfølgning ved at kopiere en eksisterende opfølgnin
 
 2. Hvis opfølgningen er udført, højreklik på den og vælg **Fuldført** for at aktivere redigering. (Husk at nulstille statussen efter kopiering.)
 
-3. Hold **CTRL**-tasten nede, mens du trækker og slipper opfølgningen til en anden tid.
+3. Hold **Shift**-tasten nede, mens du trækker og slipper opfølgningen til en anden tid.
 
 ## Relateret indhold
 

@@ -4,7 +4,7 @@ title: Lägga till händelser
 description: Lägga till eller kopiera möter, uppgifter och samtal i SuperOffice
 keywords: kalender, händelse, ringa upp, telefon, möte, bokning, samtal, att göra, uppgift
 author: Bergfrid Dias
-date: 02.21.2025
+date: 03.06.2025
 version: 10.5.2
 topic: howto
 license: salesessentials, serviceessentials, marketingessentials
@@ -121,7 +121,7 @@ Du kan också skapa en ny uppföljning genom att kopiera en befintlig uppföljni
 
 2. Om uppföljningen är slutförd, högerklicka på den och välj **Slutförd** för att aktivera redigering. (Kom ihåg att återställa statusen efter att du har kopierat den.)
 
-3. Håll ned **CTRL**-tangenten medan du drar och släpper uppföljningen till en annan tid.
+3. Håll ned **Shift**-tangenten medan du drar och släpper uppföljningen till en annan tid.
 
 ## Relaterat innehåll
 
