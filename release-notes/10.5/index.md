@@ -2,9 +2,9 @@
 uid: release-notes-10.5
 title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
-keywords: new UI, diary, Copilot, AI, CRMScript, close Request tab, trigger split request
+keywords: Service, request, Requests tab, section tab
 author: SuperOffice AS – Product and Engineering
-date: 02.11.2025
+date: 03.11.2025
 version: 10.5
 topic: reference
 ---
@@ -47,6 +47,10 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
+* 10.5.3 (11.03.2025):
+  * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
+  * [Requests - Quickly add a request from the section tab (10.5.3)][21] in Service
+  * [Requests – Preference for expanded messages (10.5.3)][21] in Service
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
   * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
@@ -76,13 +80,14 @@ Check out our **Product release** overview for more details in our [Community][1
 
 Latest released versions:
 
+* SuperOffice for Outlook 6.0 (24.02.2025)
+* SuperOffice Copilot 1.5 (23.01.2025)
+* SharePoint Documents 3.3 (05.11.2024)
+* Video Meetings 2.6 (20.06.2024)
+* WebTools for Mac 13.0 (10.04.2024)
+* SuperOffice for Gmail 2.10 (11.03.2024)
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
-* SuperOffice for Outlook 5.0 (10.07.2024)
-* WebTools for Mac 13.0 (10.04.2024)
-* SharePoint Documents 3.2 (24.09.2023)
-* SuperOffice for Gmail 2.10 (11.03.2024)
-* Video Meetings 2.6 (20.06.2024)
 
 ### SuperOffice App Store
 
@@ -127,5 +132,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [17]: admin/10.5.2-update.md#split-request
 [18]: admin/10.5.2-update.md#close-request
 [19]: core-crm/10.5.2-update.md
+[20]: core-crm/10.5.3-update.md
+[21]: service/10.5.3-update.md
 
 <!-- Referenced images -->
