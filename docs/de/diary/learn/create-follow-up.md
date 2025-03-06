@@ -4,7 +4,7 @@ title: Folgeaufgaben hinzufügen
 description: Folgeaufgaben hinzufügen oder kopieren
 keywords: Folgeaufgabe hinzufügen, Kalender, Folgeaufgabe, Zu erledigen, Anruf, Telefon, Besprechung, Termin
 author: Bergfrid Dias
-date: 02.11.2025
+date: 03.06.2025
 version: 10.5.2
 topic: howto
 license: salesessentials, serviceessentials, marketingessentials
@@ -121,7 +121,7 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 
 2. Wenn die Folgeaufgabe abgeschlossen ist, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Abgeschlossen**, um die Bearbeitung zu aktivieren. (Denken Sie daran, den Status nach dem Kopieren zurückzusetzen.)
 
-3. Halten Sie die **STRG**-Taste gedrückt, während Sie die Folgeaufgabe an eine andere Zeit ziehen und ablegen.
+3. Halten Sie die **Shift**-Taste gedrückt, während Sie die Folgeaufgabe an eine andere Zeit ziehen und ablegen.
 
 ## Verwandte Inhalte
 

@@ -4,7 +4,7 @@ title: Legge til oppfølging
 description: Legge til eller kopiere møte, oppgave, samtale i SuperOffice
 keywords: dagbok, oppfølging, avtale, oppgave, samtale, møte, telefon
 author: Bergfrid Dias
-date: 02.05.2025
+date: 03.06.2025
 version: 10.5.2
 topic: howto
 license: salesessentials, serviceessentials, marketingessentials
@@ -121,7 +121,7 @@ Du kan også lage en oppfølging ved å kopiere en eksistterende oppfølging til
 
 2. Hvis oppfølgingen er utført, høyreklikk på den og velg **Utført**. (Husk å tilbakestille statusen etter kopiering.)
 
-3. Holder nede **CTRL**-tasten mens du drar og slipper oppfølgingen til en annen tid.
+3. Holder nede **Shift**-tasten mens du drar og slipper oppfølgingen til en annen tid.
 
 ## Aktuelt innhold
 
