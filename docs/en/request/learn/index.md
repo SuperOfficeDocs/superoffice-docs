@@ -4,8 +4,8 @@ title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
 author: Bergfrid Dias
-date: 01.15.2025
-version: 10.5
+date: 03.11.2025
+version: 10.5.3
 topic: concept
 license: serviceessentials
 audience: person
@@ -89,6 +89,26 @@ Different companies have different routines for request handling and can use Sup
     * [Gets help from outside][8].
 1. The request handler [sends a response to the contact][2].
 1. The request handler [closes the request][3] and proceeds to deal with other requests.
+
+## Personal preferences
+
+You can customize requests to suit your workflow:
+
+1. Go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences**.
+
+1. Select **Request** and adjust settings such as:
+    * Show the last message at the top.
+    * Preview image attachments in messages.
+    * No. of expanded messages.
+    * Automatically quote the last message.
+    * Show only own categories.
+    * Default owner, category, and status for new requests.
+
+1. Select **Notifications via e-mail** and adjust settings such as:
+    * New requests or messages.
+    * Request escalated.
+
+1. Click **Save** to apply your changes.
 
 ## Related content
 

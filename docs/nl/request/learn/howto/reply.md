@@ -3,7 +3,8 @@ uid: help-nl-request-reply
 title: Antwoorden aan contact
 description: In deze gids staat hoe u alle binnenkomende verzoeken in SuperOffice kunt beantwoorden.
 author: Bergfrid Dias
-date: 03.14.2023
+date: 03.11.2025
+version: 10.5.3
 keywords: verzoek, antwoordsjabloon
 topic: howto
 audience: person
@@ -18,6 +19,9 @@ Bij verzoekverwerking is het uw belangrijkste taak om vragen te beantwoorden.
 Wanneer u een verzoek opent en **Beantwoorden** selecteert, verschijnt automatisch de [e-mailhandtekening][7] die u hebt ingesteld en kunt u uw bericht toevoegen aan de persoon met het antwoord op hun vraag of de oplossing voor hun probleem.
 
 ![Een verzoek beantwoorden -screenshot][img4]
+
+> [!TIP]
+> Stel de voorkeur *Aantal uitgebreide berichten* in (onder <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Verzoek**) om te bepalen hoeveel berichten worden weergegeven bij het bekijken van een verzoek.
 
 ## Beantwoord (voeg bericht toe)
 

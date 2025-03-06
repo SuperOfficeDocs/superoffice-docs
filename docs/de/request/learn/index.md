@@ -4,8 +4,8 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: concept
 license: serviceessentials
 audience: person
@@ -87,6 +87,26 @@ Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt Sup
     * [Er holt Hilfe von außen ein][8].
 1. Der Bearbeiter [sendet die Antwort an den Kunden][2].
 1. Die Anfrage wird [geschlossen][3] und der Bearbeiter bearbeitet die nächste Anfrage.
+
+## Persönliche Einstellungen
+
+Sie können Anfragen an Ihren Arbeitsablauf anpassen:
+
+1. Gehen Sie zu <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen**.
+
+1. Wählen Sie **Anfrage** und passen Sie Einstellungen an wie:
+    * Neueste Nachricht am Anfang der Liste anzeigen.
+    * Vorschau für Bilder in Nachrichten.
+    * Anzahl der erweiterten Nachrichten.
+    * Letzte Nachricht automatisch einfügen.
+    * Nur eigene Kategorien anzeigen.
+    * Standardbesitzer, -kategorie und -status für neue Anfragen.
+
+1. Wählen Sie **E-Mail-Benachrichtigungen** und passen Sie Einstellungen an wie:
+    * Neue Anfragen oder Nachrichten.
+    * Anfrage eskaliert.
+
+1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen.
 
 ## Verwandte Inhalte
 

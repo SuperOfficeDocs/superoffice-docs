@@ -4,8 +4,8 @@ title: Svara kontakt
 description: I den här guiden får du lära dig hur du svarar på alla inkommande ärenden i SuperOffice.
 keywords: ärende, svara på ärende, svara, svara alla, lägga till meddelande, lägga till kommentar, kommentar, internt, externt, ärende,
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -20,6 +20,9 @@ Vid ärendehantering är din viktigaste uppgift att besvara förfrågningar. Du 
 När du öppnar ett ärende och väljer **Svara**, visas automatiskt den [e-postsignatur][7] du har ställt in. Därefter kan du lägga till ditt meddelande till kontakten med svaret på deras fråga eller lösningen på deras problem.
 
 ![Svara på ett ärende -screenshot][img4]
+
+> [!TIP]
+> Ställ in *Antal expanderade meddelanden*-inställningen (under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Preferenser** > **Ärende**) för att bestämma hur många meddelanden som visas när du visar ett ärende.
 
 ## Svara på ett ärende
 

@@ -4,8 +4,8 @@ title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, sak, service
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: concept
 license: serviceessentials
 audience: person
@@ -90,7 +90,25 @@ Ulike firmaer har ulike rutiner for saksbehandling og kan bruke SuperOffice Serv
 1. Saksbehandleren [sender et svar til personen][2].
 1. Saksbehandleren [avslutter saken][3] og fortsetter med andre saker.
 
-## Aktuelle emner
+## Personlige innstillinger
+
+Du kan tilpasse saker slik at de passer din arbeidsflyt:
+
+1. Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser**.
+
+1. Velg **Sak**, og juster innstillinger som:
+    * Vis siste melding øverst.
+    * Forhåndsvisning av bildevedlegg i meldinger.
+    * Antall ekspanderte meldinger.
+    * Lim inn siste melding automatisk.
+    * Vis bare egne kategorier.
+    * Standard eier, kategori og status for nye saker.
+
+1. Velg **Varsling via e-post**, og juster innstillinger som:
+    * Nye saker eller meldinger.
+    * Sak eskalert.
+
+1. Klikk **Lagre** for å bruke endringene.
 
 ## Aktuelt innhold
 

@@ -3,7 +3,8 @@ uid: help-da-request
 title: Sager
 description: Introduktion til sager i SuperOffice
 author: Bergfrid Dias
-date: 03.14.2023
+date: 03.11.2025
+version: 10.5.3
 keywords: sag, ticket, service
 topic: concept
 audience: person
@@ -93,6 +94,26 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
     * [Indhenter hjælp udefra][18].
 1. Sagsbehandleren [sender svar til personen][19].
 1. Sagsbehandleren [afslutter sagen][21] og fortsætter med andre sager.
+
+## Personlige præferencer
+
+Du kan tilpasse sager, så de passer til din arbejdsproces:
+
+1. Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer**.
+
+1. Vælg **Sag**, og juster indstillinger som:
+    * Vis den sidste meddelelse øverst.
+    * Visning af eksempel på billedvedhæftning i meddelelser.
+    * Antal ekspanderede meddelelser.
+    * Indsæt sidste meddelelse automatisk.
+    * Vis kun egne kategorier.
+    * Standardejer, -kategori og -status for nye sager.
+
+1. Vælg **Besked via e-mail**, og juster indstillinger som:
+    * Nye sager eller meddelelser.
+    * Sag eskaleret.
+
+1. Klik på **Gem** for at anvende dine ændringer.
 
 ## Relaterede emner
 

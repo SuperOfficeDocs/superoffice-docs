@@ -4,8 +4,8 @@ title: Einer Person antworten
 description: In dieser Anleitung lernen Sie, wie Sie alle eingehenden Anfragen in SuperOffice beantworten können.
 keywords: Anfrage, Antwortvorlage, Antwort, Antworten, Kommentar, intern, extern
 author: Bergfrid Dias
-date: 02.112025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -20,6 +20,9 @@ Die wichtigste Aufgabe bei der Anfragenbearbeitung besteht darin, auf eingehende
 Wenn Sie eine Anfrage öffnen und **Antworten** auswählen, wird automatisch die von Ihnen eingerichtete [E-Mail-Signatur][7] eingefügt. Sie können nun Ihre Mitteilung mit der Antwort auf die Frage oder die Lösung des Problems verfassen.
 
 ![Anfrage beantworten -screenshot][img4]
+
+> [!TIP]
+> Legen Sie die *Anzahl der erweiterten Nachrichten*-Einstellung fest (unter <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Anfrage**), um zu steuern, wie viele Nachrichten beim Anzeigen einer Anfrage angezeigt werden.
 
 ## Auf eine Anfrage antworten
 

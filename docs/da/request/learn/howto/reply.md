@@ -3,7 +3,8 @@ uid: help-da-request-reply
 title: Svar til person
 description: "I denne guide lærer du, hvordan du besvarer alle indgående sager i SuperOffice."
 author: Bergfrid Dias
-date: 03.14.2023
+date: 03.11.2025
+version: 10.5.3
 keywords: sag, svarskabelon
 topic: howto
 audience: person
@@ -18,6 +19,9 @@ I sagsbehandling er din vigtigste opgave at besvare henvendelser.
 Når du åbner en anmodning og vælger **Svar**, vises den [e-mailsignatur][7], du har konfigureret, automatisk, og du kan føje din meddelelse til personen, der indeholder svaret på deres spørgsmål eller løsningen på deres problem.
 
 ![Sådan svar du på en sag -screenshot][img4]
+
+> [!TIP]
+> Indstil *Antal ekspanderede meddelelser* præferencen (under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer** > **Sag**) for at vælge, hvor mange beskeder der vises, når du ser en sag.
 
 ## Svar (tilføj besked)
 
