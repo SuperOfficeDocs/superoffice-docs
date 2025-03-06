@@ -3,8 +3,8 @@ uid: help-nl-request-create
 title: Een verzoek maken
 description: Een verzoek maken
 author: Hanne Gunnarsson
-date: 03.22.24
-version: 10.3.2
+date: 03.11.2025
+version: 10.5.3
 keywords: verzoek
 topic: howto
 audience: person
@@ -22,7 +22,9 @@ Een verzoek kan in het systeem worden ontvangen via een e-mailbericht van de kla
 
 1. Geef in het veld **Titel** een beschrijvende naam aan het verzoek.
 
-1. Voeg een persoon toe in het veld **Persoon zoeken**.
+    Als alternatief, als je je in het sectietabblad **Verzoeken** bij een contact bevindt, klik dan op **Toevoegen** om een verzoek aan te maken met de persoon vooraf ingevuld.
+
+1. Voeg een persoon toe in het veld **Persoon zoeken** (als niet vooraf ingevuld).
    Wilt u geen persoon toevoegen? Als u weinig tijd hebt kunt u een ticket maken zonder een persoon toe te voegen en dit later doen.
 
 1. Wanneer u een nieuw verzoek maakt, heeft het veld **Aan** de volgende doeleinden:

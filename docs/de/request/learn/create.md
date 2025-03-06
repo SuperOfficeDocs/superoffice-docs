@@ -4,8 +4,8 @@ title: Anfrage erstellen
 description: Anfrage erstellen
 keywords: Anfrage erstellen, neue Anfrage, Anfrage hinzufügen, Anfrageneigenschaften, Nachricht, Ticket
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -21,9 +21,11 @@ Eine Anfrage kann per E-Mail vom Kunden im System eingehen oder manuell über de
 
 1. Klicken Sie in der oberen Leiste auf **Neu** und wählen Sie **Anfrage**.
 
+    Alternativ können Sie in der Bereichsregisterkarte **Anfragen** eines Persons auf **Hinzufügen** klicken, um eine Anfrage mit dem vorausgefüllten Person zu erstellen.
+
 1. Geben Sie im Feld **Titel** eine aussagekräftige Bezeichnung für die Anfrage ein.
 
-1. Fügen Sie eine Person im Feld **Suche nach Person** hinzu. Beginnen Sie mit der Eingabe des Namens (oder der Telefonnummer) und wählen Sie aus den Ergebnissen.
+1. Fügen Sie eine Person im Feld **Suche nach Person** hinzu (wenn nicht vorausgefüllt). Beginnen Sie mit der Eingabe des Namens (oder der Telefonnummer) und wählen Sie aus den Ergebnissen.
     * Optional: Sie können diesen Schritt überspringen und die Person später hinzufügen.
 
 1. Nutzen Sie das **Eigenschaften**-Panel auf der rechten Seite, um die Anfrage zuzuweisen und zu priorisieren.

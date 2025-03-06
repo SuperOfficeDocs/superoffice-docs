@@ -4,8 +4,8 @@ title: Ärendenfliken
 description: Lär dig hur du kan visa, lägga till och hantera Service-ärenden i SuperOffice CRM, så att du effektivt kan spåra kundinteraktioner mellan företag och kontakter.
 keywords: Ärenden-fliken, Ärendenfliken, fliken Ärenden, detaljkortet Ärenden, detaljkort, ärendearkiv
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ Detaljkortet **Ärenden** innehåller följande kolumner för att ge viktig info
 ### Inkludera stängda ärenden
 
 För att inkludera stängda ärenden i listan, markera **Stängda**-rutan längst ner i sektionsfliken. Detta ger en fullständig översikt över både öppna och stängda ärenden som är kopplade till enheten.
+
+## Skapa ett ärende
+
+1. Klicka på **Lägg till** i fliken **Ärende** för att skapa ett nytt ärende för kontakten.
+
+1. Fyll i ärendedetaljerna efter behov. Fältet **Kontakt** är förifyllt baserat på personen du visade.
+
+1. Klicka på **Spara** för att registrera ärendet.
 
 ## Redigera ett ärende
 

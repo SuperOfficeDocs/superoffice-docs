@@ -4,8 +4,8 @@ title: Opprette en sak
 description: Opprette en sak
 keywords: opprett sak, legg til sak, ny sak, saksdetaljer, melding, sak
 author: Bergfrid Dias
-date: 02.04.2025
-version: 10.5.1
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -21,9 +21,11 @@ En sak kan komme inn i systemet via en e-post fra kunden, eller du kan registrer
 
 1. Klikk **Ny** i toppraden, og velg **Sak**.
 
+    Alternativt, hvis du er i detaljkortet **Saker** for en person, kan du klikke på **Legg til** for å opprette en sak med personen forhåndsutfylt.
+
 1. I feltet **Tittel** gir du saken et beskrivende navn.
 
-1. Legg til en person i feltet **Søk etter person**. Begynn å skrive navnet (eller telefonnummeret), og velg fra resultatene.
+1. Legg til en person i feltet **Søk etter person** (hvis ikke forhåndsutfylt). Begynn å skrive navnet (eller telefonnummeret), og velg fra resultatene.
     * Du kan eventuelt hoppe over dette trinnet og legge til personen senere.
 
 1. Bruk panelet **Egenskaper** til høyre for å tildele og prioritere saken.

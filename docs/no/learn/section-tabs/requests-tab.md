@@ -4,8 +4,8 @@ title: Saksfanen
 description: Lær hvordan du kan se, legge til og administrere Service-saker i SuperOffice CRM, slik at du effektivt kan spore kundeinteraksjoner på tvers av firmaer og personer.
 keywords: Saksfanen, Saker-fanen, detaljkortet Saker, detaljkort, saksarkiv, sak, henvendelse, forespørsel, forespørsler
 author: Bergfrid Skaara Dias
-date: 01.29.2025
-version: 10.5
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -58,6 +58,14 @@ Detaljkortet **Saker** inneholder følgende kolonner for å gi nøkkelinformasjo
 ### Inkluder avsluttede saker
 
 For å inkludere lukkede saker i listen, merk av i **Avsluttet**-boksen nederst i detaljkortet. Dette gir en fullstendig oversikt over både åpne og avsluttede saker tilknyttet enheten.
+
+## Opprette en sak
+
+1. I detaljkortet **Saker**, klikk på **Legg til** for å opprette en ny sak for personen.
+
+1. Fyll inn saksdetaljene etter behov. Feltet **Person** er forhåndsutfylt basert på personen du så på.
+
+1. Klikk på **Lagre** for å registrere saken.
 
 ## Redigere en sak
 

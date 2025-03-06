@@ -3,8 +3,8 @@ uid: help-da-request-create
 title: Opret en sag
 description: Opret en sag
 author: Hanne Gunnarsson
-date: 03.22.24
-version: 10.3.2
+date: 03.11.2025
+version: 10.5.3
 keywords: sag
 topic: howto
 audience: person
@@ -20,9 +20,11 @@ En sag kan komme ind i systemet via en e-mail-meddelelse fra kunden, eller du ka
 
 1. Vælg **Ny** > **Sag**.
 
+    Alternativt, hvis du er i detaljekortet **Sager** for en kontakt, kan du klikke på **Tilføj** for at oprette en sag med personen forudfyldt.
+
 1. I feltet **Titel** skal du angive et beskrivende navn på sagen.
 
-1. Tilføj en person i feltet **Søg efter person**.
+1. Tilføj en person i feltet **Søg efter person** (hvis ikke forudfyldt).
    Vil du ikke tilføje en person? Du kan oprette en billet uden at tilføje en person og tilføje disse informationer senere, hvis du har travlt.
 
 1. Når du opretter en ny sag, har feltet **Til** følgende formål:
