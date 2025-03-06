@@ -4,8 +4,8 @@ title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 03.11.2025
+version: 10.5.3
 topic: concept
 license: serviceessentials
 audience: person
@@ -88,6 +88,26 @@ Olika företag har olika rutiner för ärendehantering och kan använda SuperOff
     * [Ber om extern hjälp][8].
 1. Ärendehandläggaren [skickar ett svar till kunden][2].
 1. Ärendehandläggaren [avslutar ärendet][3] och fortsätter med nästa ärende.
+
+## Personliga inställningar
+
+Du kan anpassa ärenden så att de passar ditt arbetsflöde:
+
+1. Gå till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Inställningar**.
+
+1. Välj **Ärende**, och justera inställningar som:
+    * Visa det senaste meddelandet högst upp.
+    * Förhandsgranskning av bildbilaga i meddelanden.
+    * Antal expanderade meddelanden.
+    * Klistra in senaste meddelande automatiskt.
+    * Visa bara egna kategorier.
+    * Standardägare, -kategori och -status för nya ärenden.
+
+1. Välj **E-postavisering**, och justera inställningar som:
+    * Nya ärenden eller meddelanden.
+    * Ärende eskalerat.
+
+1. Klicka på **Spara** för att tillämpa dina ändringar.
 
 ## Relaterat innehåll
 

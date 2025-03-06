@@ -4,8 +4,8 @@ title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
 keywords: reply to request, reply, reply all, add message, add comment, comment, internal, external, request,
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 01.15.2025
-version: 10.5
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -20,6 +20,9 @@ In request handling, your most important task is to respond to inquiries. Replie
 When you open a request and select **Reply**, the [email signature][7] you have set up will automatically appear and you can to add your message to the contact containing the answer to their question or the solution to their problem.
 
 ![Replying to a request -screenshot][img4]
+
+> [!TIP]
+> Set the *No. of expanded messages* preference (under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Request**) to control how many messages are shown when viewing a request.
 
 ## Reply to a request
 

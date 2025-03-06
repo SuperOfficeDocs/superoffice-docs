@@ -4,8 +4,8 @@ title: Svar til person
 description: I denne veiledningen lærer du hvordan du svarer på alle innkommende saker i SuperOffice.
 keywords: svare på sak, svare, svar til alle, legge til melding, legge til kommentar, kommentar, intern, ekstern, sak
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 01.15.2025
-version: 10.5
+date: 03.11.2025
+version: 10.5.3
 topic: howto
 license: serviceessentials
 audience: person
@@ -20,6 +20,9 @@ I saksbehandling er den viktigste oppgaven din å svare på henvendelser. Du kan
 Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har konfigurert, automatisk. Deretter kan du legge til meldingen med svaret på spørsmålet eller løsningen på problemet.
 
 ![Svare på en sak -screenshot][img4]
+
+> [!TIP]
+> Angi *Antall ekspanderte meldinger*-innstillingen (under <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige innstillinger** > **Preferanser** > **Sak**) for å kontrollere hvor mange meldinger som vises når du ser en sak.
 
 ## Svare på en sak
 

@@ -3,7 +3,8 @@ uid: help-nl-request
 title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 author: Bergfrid Dias
-date: 03.14.2023
+date: 03.11.2025
+version: 10.5.3
 keywords: verzoek, ticket, service
 topic: concept
 audience: person
@@ -93,6 +94,26 @@ Verschillende bedrijven hebben verschillende routines voor verzoekafhandeling en
     * [Roept externe hulp in.][18]
 1. De verzoekbehandelaar [stuurt een antwoord naar de klant][19].
 1. De verzoekbehandelaar [sluit het verzoek][21] en gaat verder met andere verzoeken.
+
+## Persoonlijke voorkeuren
+
+Je kunt verzoeken aanpassen aan je workflow:
+
+1. Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren**.
+
+1. Selecteer **Verzoek** en pas instellingen aan zoals:
+    * Laatste bericht bovenaan weergeven.
+    * Afbeeldingsbijlagen weergeven in berichten.
+    * Aantal uitgebreide berichten.
+    * Automatisch laatste bericht citeren.
+    * Alleen eigen categorieën weergeven.
+    * Standaardeigenaar, -categorie en -status voor nieuwe verzoeken.
+
+1. Selecteer **Meldingen via e-mail** en pas instellingen aan zoals:
+    * Nieuwe verzoeken of berichten.
+    * Verzoek geëscaleerd.
+
+1. Klik op **Opslaan** om je wijzigingen toe te passen.
 
 ## Verwante onderwerpen
 
