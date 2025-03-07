@@ -1,0 +1,45 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Sagstyper
+  topicHref: type/index.md
+  items:
+  - name: Oversigt
+    href: type/index.md
+  - name: Opret sagstype
+    href: type/create.md
+  - name: Slet sagstype
+    href: type/delete.md
+- name: Kategorier
+  topicHref: category/index.md
+  items:
+  - name: Oversigt
+    href: category/index.md
+  - name: Opret sagskategori
+    href: category/create.md
+  - name: Slet sagskategori
+    href: category/delete.md
+- name: Prioriteter
+  topicHref: priority/index.md
+  items:
+  - name: Oversigt
+    href: priority/index.md
+  - name: Opret prioritet
+    href: priority/create.md
+  - name: Slet prioritet
+    href: priority/delete.md
+  - name: Opret eskaleringsniveauer
+    href: priority/escalation-levels.md
+- name: Sagsstatus
+  topicHref: status/index.md
+  items:
+  - name: Oversigt
+    href: status/index.md
+  - name: Opret sagsstatus
+    href: status/create.md
+  - name: Slet sagsstatus
+    href: status/delete.md
+- name: Hent næste sag i køen
+  href: next-in-queue.md
+- name: Systemskabeloner
+  href: system-templates.md

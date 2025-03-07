@@ -13,8 +13,6 @@ language: da
 
 # Sagsskærmbillede
 
-![Oversigt over sagsskærmbilledet eller sagsfanen -screenshot][img3]
-
 ## Sagsoversigt
 
 Skærmbilledet Sag har følgende sektioner:
@@ -28,7 +26,7 @@ Skærmbilledet Sag har følgende sektioner:
 
 ### Sagsoverskrift
 
-Sagens header indeholder de egenskaber, der blev angivet, da [sagen blev oprettet][12]. Headeren består af sagstitel, person, tidsfrist og sags-id (på fanen). Desuden kan du klikke på ![ikon][img6] for at angive sagen som et foretrukkent. Sagen vil derefter være tilgængelig via **Mine foretrukne** på **Sager** i Navigator og i ruden**Mine foretrukne** på et [dashboard][17].
+Sagens header indeholder de egenskaber, der blev angivet, da [sagen blev oprettet][12]. Headeren består af sagstitel, person, tidsfrist og sags-id (på fanen). Desuden kan du klikke på <i class="ph ph-star" aria-label="Star icon"></i> for at angive sagen som et foretrukkent. Sagen vil derefter være tilgængelig via **Mine foretrukne** på **Sager** i Navigator og i ruden**Mine foretrukne** på et [dashboard][17].
 
 ### Meddelelsestyper
 
@@ -39,22 +37,22 @@ Der er typer meddelelser:
 * Interne kommentarer om sagen som for eksempel spørgsmål til en kollega
 
 > [!TIP]
-> Interne meddelelser er markeret med ![ikon][img5].
+> Interne meddelelser er markeret med <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Fanen Meddelelser
 
 Fanen **Meddelelser** viser meddelelser vedrørende sagen.
 
-Du kan ændre,hvor mange meddelelser der vises, i ![ikon][img2] **Personlige indstillinger**:
+Du kan ændre,hvor mange meddelelser der vises, i **Personlige indstillinger**:
 
-1. Vælg ![ikon][img2] **Personlige indstillinger** > **Præferencer**.
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer**.
 1. Vælg gruppen for **Sag**.
 1. Angiv antal meddelelser i feltet **Antal ekspanderede meddelelser**.
 1. Klik på **OK**.
 
 ### Meddelelsesopgaver
 
-Klik på ![ikonet][img1] for knappen **Opgave** på en meddelelse for at få adgang til yderligere indstillinger for meddelelsen:
+Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> på en meddelelse for at få adgang til yderligere indstillinger for meddelelsen:
 
 * **Rediger**: Klik her for at [redigere][8] eller slette meddelelsen.
 * **Svar**: Klik her for at svare personen i feltet Til.
@@ -96,7 +94,7 @@ Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
 
 ### Indstillinger for opgave
 
-![ikon][img1] knappen **Opgave**: Klik på denne knap for at få adgang til følgende valgmuligheder:
+Knappen **Opgave**: Klik på denne knap for at få adgang til følgende valgmuligheder:
 
 * **Rediger**: Klik her for at ændre egenskaberne for denne sag. Du kan for eksempel tildele sagen til en anden sagsbehandler, hvis du har brug for at [indhente råd fra en kollega][1].
 * **Accepter**: Klik her for at [overtage sagen][5]. Du bliver så sagens nye ejer.
@@ -105,7 +103,7 @@ Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
 * **Udskriv**: Klik her, hvis du vil udskrive sagen.
 * **Slet**: Klik her for at slette sagen.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Opret sag][12]
 * [Søgning][10]
@@ -120,27 +118,20 @@ Sidepanelet Egenskaber for sag indeholder følgende indstillinger:
 * [Afslut sag][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

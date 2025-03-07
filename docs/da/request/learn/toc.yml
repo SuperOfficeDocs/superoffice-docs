@@ -5,7 +5,40 @@ items:
   href: screen/index.md
 - name: Håndter sager med AI
   href: handle-request-ai.md
-- name: Arbejd med sager
-  href: howto/toc.yml
-  topicHref: find.md
-  
+- name: Find sag
+  href: find.md
+- name: Opret sag
+  href: create.md
+- name: Rediger meddelelse
+  href: edit-message.md
+- name: Automatisk tildeling
+  href: assign.md
+- name: Tag ansvar for sag
+  href: accept.md
+- name: Bed en anden sagsbehandler om hjælp
+  href: transfer.md
+- name: Videresend til ekstern person
+  href: forward.md
+- name: Svar til kunde
+  href: reply.md
+- name: Føj poster i ofte stillede spørgsmål til meddelelser
+  href: ../../faq/learn/add-to-request.md
+- name: Tags
+  href: tags.md
+- name: Hold styr på meddelelser
+  href: flag-message.md
+- name: Del sag
+  href: split-request.md
+- name: Slå sammen sager
+  href: merge.md
+- name: Del meddelelse
+  href: split-message.md
+- name: Luk sag
+  href: close.md
+- name: Slet sag
+  href: delete.md
+- name: Sagslog
+  href: screen/ticket-log.md
+- name: For admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md
