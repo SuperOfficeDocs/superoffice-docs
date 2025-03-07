@@ -1,22 +1,13 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Arbejd med svarskabeloner
-  topicHref: create.md
-  items:
-  - name: Opret svarskabelon
-    href: create.md
-  - name: Kopiér eksisterende skabelon
-    href: copy.md
-  - name: Oversæt en svarskabelon
-    href: new-language.md
-  - name: Rediger svarskabelon
-    href: edit.md
-  - name: Slet svarskabelon
-    href: delete.md
-  - name: Søg efter svarskabelon
-    href: find.md
-  - name: Administrer mapper med svarskabeloner
-    href: manage-folders.md
+- name: Opret svarskabelon
+  href: create.md
+- name: Oversæt en svarskabelon
+  href: new-language.md
+- name: Rediger eller slet svarskabelon
+  href: edit.md
+- name: Administrer mapper med svarskabeloner
+  href: manage-folders.md
 - name: Variabler for svarskabeloner
   href: template-variables.md

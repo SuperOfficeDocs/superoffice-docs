@@ -2,10 +2,13 @@
 uid: help-da-reply-template-language
 title: Oprettelse af ny sprogversion af svarskabelon
 description: Oprettelse af ny sprogversion af svarskabelon
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: sag
+keywords: oversæt svarskabelon, ny sprogversion, svarskabelon, sag
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -17,7 +20,7 @@ Det kan være aktuelt at have samme svarskabelon tilgængelig på flere sprog, h
 
 ## Tilføj sprog til svarskabelon
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Svarskabeloner**.
 
 2. Gå til den mappe, som svarskabelonen ligger i.
 
@@ -36,9 +39,17 @@ Det kan være aktuelt at have samme svarskabelon tilgængelig på flere sprog, h
 > [!TIP]
 > Klik på knappen **Slet valgt sprogversion** for at slette den aktive sprogversion (den valgte sprogfane).
 
+## Fejlfinding
+
+### Hvorfor er knappen "Ny sprogversion" ikke synlig i footeren?
+
+Hvis knappen **Ny sprogversion** ikke er synlig, betyder det, at der ikke er defineret nogen kundesprog i systemet. For at løse dette skal en administrator [tilføje kundesprog][3] i **Indstillinger og vedligeholdelse** under **Valgmuligheder** > **Kundesprog**.
+
+### Hvorfor er et specifikt sprog ikke tilgængeligt på listen?
+
+Hvis et specifikt sprog mangler i rullemenuen **Sprog**, er det ikke blevet føjet til listen over kundesprog. Bed din administrator om at tilføje det manglende sprog i **Indstillinger og vedligeholdelse**.
+
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[3]: ../../../admin/options/learn/custlang/update.md
