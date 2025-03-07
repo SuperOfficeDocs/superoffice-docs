@@ -2,10 +2,12 @@
 uid: help-da-template-variables-service
 title: Skabelonvariabler
 description: Skabelonvariabler
+keywords: sag
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: sag
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 
@@ -236,7 +238,3 @@ Formater dato:
 Formater klokkeslæt:
 
 \[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
