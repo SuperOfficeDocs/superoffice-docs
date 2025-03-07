@@ -2,10 +2,12 @@
 uid: help-da-stakeholder-create
 title: Opret en interessent
 description: Sådan knyttes et salg til en interessent (firma eller person) i SuperOffice.
-keywords: salg, interessent
+keywords: Tilføj interessent, ny interessent, Tilføj/rediger interessenter-dialog, Interessent fanen, interessent, salg
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 02.25.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -32,11 +34,11 @@ Et firma/en person kan tilføjes som en interessent flere gange, forudsat at for
 
       ![Tilføj/rediger interessenter dialog, historik -screenshot][img5]
 
-    * **Brugergruppe:** Klik ![ikon][img2] for at gennemse samarbejdspartnere efter gruppe.
+    * **Brugergruppe:** Klik <i class="ph ph-users" aria-label="Associate icon"></i> for at gennemse samarbejdspartnere efter gruppe.
 
       ![Tilføj/rediger interessenter dialog, gruppe -screenshot][img6]
 
-    * **Firma:** Klik ![ikon][img3] for at gennemse personer efter firma eller tilføje et firma som interessent.
+    * **Firma:** Klik <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> for at gennemse personer efter firma eller tilføje et firma som interessent.
 
       ![Tilføj/rediger interessenter dialog, firma -screenshot][img7]
 
@@ -64,19 +66,16 @@ Et firma/en person kan tilføjes som en interessent flere gange, forudsat at for
 
 * **Tilføj kommentarer**
 
-    Hvis der tilføjes en kommentar, vises et ![ikon][img1] papirclip ved siden af **Salgsrolle**-kolonnen i **Interessenter**-detaljekortet. Hold musen over clipsen for at se kommentarens tooltip.
+    Hvis der tilføjes en kommentar, vises et papirclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) ved siden af **Salgsrolle**-kolonnen i **Interessenter**-detaljekortet. Hold musen over clipsen for at se kommentarens tooltip.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
-[4]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../admin/sale-type.md
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png

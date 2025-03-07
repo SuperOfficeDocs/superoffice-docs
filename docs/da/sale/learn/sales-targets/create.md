@@ -1,7 +1,7 @@
 ---
 uid: help-da-sales-targets-create
 title: Opsæt salgsmål
-description: "Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid."
+description: Hold styr på dine budgetter ved at opsætte salgsmål. Dette vil hjælpe dig med at sætte de rigtige forventninger, planlægge din vækst, øge motivationen og spare tid.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
@@ -67,7 +67,7 @@ Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ti
 > [!TIP]
 > Standardmåltypen er **Alle salg – Beløb**. Hvis du har licensen Sales Targets Unlimited, kan du oprette yderligere måltyper.
 
-1. Klik på ![ikon][img1] **Hovedmenu,** og vælg **Mål**. Hvis der endnu ikke er oprettet nogen salgsmål, er listen tom.
+1. Klik på **Hovedmenu** (<i class="ph ph-list" aria-hidden="true"></i>) og vælg **Mål**. Hvis der endnu ikke er oprettet nogen salgsmål, er listen tom.
 
 2. I skærmbilledet **Salgsmål** skal du vælge det år, du gerne vil oprette et salgsmål for, på listen **Vælg år**. Du kan også oprette mål for tidligere år for at oprette budgetstatistikker tilbage i tiden.
 
@@ -82,16 +82,16 @@ Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ti
 
 6. Hvis det er relevant, skal du ændre valutaen for firmaet eller koncernen. Standardvalutaen er den basisvaluta, der er angivet for dit firma. Du kan ikke angive valuta for individuelle brugere.
 
-7. Juster tallene manuelt ved hjælp af **TAB-tasten** gå til det næste felt. Du kan også [kopiere og indsætte tal fra Excel](#import) eller klikke på menuknappens ![ikon][img2] for enden af en række og vælge **Juster tal**. Muligheder:
+7. Juster tallene manuelt ved hjælp af **TAB-tasten** gå til det næste felt. Du kan også [kopiere og indsætte tal fra Excel](#import) eller klikke på menuknappen <i class="ph ph-list" aria-label="menyknappen"></i> for enden af en række og vælge **Juster tal**. Muligheder:
 
     * **Angiv indledende beløb**: Angiv beløbet for hele året. Beløbet deles ligeligt mellem månederne eller kvartalerne på den gældende række.
     * **Kopier fra**: Kopiér værdierne fra en anden gruppe eller bruger.
     * **Kopiér fra sidste år**: Kopiér værdier fra sidste år, og øg værdierne med en bestemt procentdel. Denne indstilling er deaktiveret, hvis sidste år ikke har nogen værdier.
         Klik på **Gem**, når du er færdig. Summen for alle brugere føjes til rækken **Alle** øverst på listen over brugere.
 
-8. Valgfrit: Når du har fuldført en række, kan du låse den![ikon][img3]-![ikon][img4] for at deaktivere redigering. For eksempel når et budget er godkendt og ikke skal redigeres. Låste rækker kan ikke fjernes, ryddes eller redigeres.
+8. Valgfrit: Når du har fuldført en række, kan du låse den (<i class="ph ph-lock-simple" aria-hidden="true"></i>) for at deaktivere redigering. For eksempel når et budget er godkendt og ikke skal redigeres. Låste rækker kan ikke fjernes, ryddes eller redigeres.
 
-9. Hvis en bestemt gruppe eller bruger ikke skal have et salgsmål, skal du klikke på menuknappens ![ikon][img2] og vælge **Ryd** for at rydde værdierne.
+9. Hvis en bestemt gruppe eller bruger ikke skal have et salgsmål, skal du klikke på menuknappen <i class="ph ph-list" aria-label="menyknappen"></i> og vælge **Ryd** for at rydde værdierne.
 
 10. Klik på **Gem**.
 
@@ -100,7 +100,7 @@ Før du begynder at bruge funktionen Salgsmål, skal du konfigurere nogle få ti
 12. Gå til trin 2 for at tilføje salgsmål for endnu et år, eller klik på **Gem og luk** for at afslutte dette skærmbillede.
 
 > [!NOTE]
-> Hvis du vil fjerne et mål for et firma eller en gruppe, skal du klikke på menuknappens ![ikon][img2] og vælge **Fjern firmamål** eller **Fjern gruppemål**.
+> Hvis du vil fjerne et mål for et firma eller en gruppe, skal du klikke på menuknappen <i class="ph ph-list" aria-label="menyknappen"></i> og vælge **Fjern firmamål** eller **Fjern gruppemål**.
 
 ## Funktionen Lås/Lås op
 
@@ -127,7 +127,7 @@ Du kan kopiere måldata fra Excel og indsætte dataene i tabellen i SuperOffice.
 
 Det gøres på følgende måde:
 
-1. Klik på knappen **Opgave** for at eksportere salgsmålet for det valgte år til Excel.
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) for at eksportere salgsmålet for det valgte år til Excel.
 
 2. Rediger måldataene (beløbene) i det eksporterede regneark.
 
@@ -137,9 +137,9 @@ Det gøres på følgende måde:
 
 ## Revisionshistorik
 
-Hvis du vil have vist revisionshistorik for et salgsmål (række), skal du klikke på menuknappens ![ikon][img2] og vælge **Revisionhistorik**. I det skærmbillede, der vises, kan du se alle ændringer af det gældende salgsmål. Dette omfatter ændrede værdier og låsning/oplåsning, hvornår ændringen blev foretaget og af hvem. Brug knapperne til udvid/skjul øverst til at se/skjule detaljer.
+Hvis du vil have vist revisionshistorik for et salgsmål (række), skal du klikke på menuknappen <i class="ph ph-list" aria-label="menyknappen"></i> og vælge **Revisionhistorik**. I det skærmbillede, der vises, kan du se alle ændringer af det gældende salgsmål. Dette omfatter ændrede værdier og låsning/oplåsning, hvornår ændringen blev foretaget og af hvem. Brug knapperne til udvid/skjul øverst til at se/skjule detaljer.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Dashboard][1]
 * [Brug af salgsmål i ruder][2]
@@ -149,9 +149,5 @@ Hvis du vil have vist revisionshistorik for et salgsmål (række), skal du klikk
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
-[img2]: ../../../../../common/icons/context-menu.png
-[img3]: ../../../../../common/icons/lock-on.png
-[img4]: ../../../../../common/icons/lock-off.png
 [img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
 [img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

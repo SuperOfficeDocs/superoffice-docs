@@ -1,7 +1,7 @@
 ---
 uid: help-da-sales-target-types
 title: Opret en salgsmåltype med undertyper
-description: "Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål."
+description: Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: salg
@@ -30,7 +30,7 @@ Du kan angive en måltype for både brugere og grupper samt angive andre målpar
 
 ## Tilføj ny måltype
 
-1. Klik på **Tilføj ny måltype**. Eller klik på ![ikonet][img5] (**Konfigurer mål**) på fanen for at redigere en eksisterende måltype.
+1. Klik på **Tilføj ny måltype**. Eller klik på <i class="ph ph-gear" aria-label="Gear"></i> (**Konfigurer mål**) på fanen for at redigere en eksisterende måltype.
 
 2. Klik på **Måltype** for at vælge den måltype (dimension), du vil bruge.
 
@@ -92,7 +92,7 @@ Når det kommer til måltyperne med målundertypelisten, kan du klikke på knapp
 
 For at slette en måltype skal du klikke på Målindstillinger og derefter klikke på knappen Slet. Husk, at sletning af en måltype er en handling, der ikke kan fortrydes, og denne handling vil slette alle data for måltypen på forrige, gældende og fremtidige år. Det er ikke muligt at slette standardmåltypen Alle salg – Beløb.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Brug af salgsmål i dashboardruder][2]
 
@@ -101,7 +101,6 @@ For at slette en måltype skal du klikke på Målindstillinger og derefter klikk
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png
