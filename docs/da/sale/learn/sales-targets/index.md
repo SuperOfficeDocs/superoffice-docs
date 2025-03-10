@@ -53,7 +53,7 @@ For at få adgang til denne funktion skal du bruge datarettigheder til **Mål**.
 **Funktionelle rettigheder**
 Kun brugere med den funktionelle ret **Kan låse og oplåse mål** kan låse og oplåse mål.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Dashboard][1]
 * [Brug af salgsmål i ruder][2]

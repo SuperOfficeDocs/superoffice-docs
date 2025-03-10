@@ -2,9 +2,9 @@
 uid: help-da-faq
 title: Arbejde med FAQ-poster
 description: dokument faq
+keywords: FAQ
 author: Bergfrid Dias
 date: 03.14.2023
-keywords: FAQ
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -27,7 +27,7 @@ Ofte stillede spørgsmål (FAQ) er en vigtig del af håndteringen af servicesage
 
 [!include[FAQ vs. reply template](../../learn/includes/faq-vs-reply-template.md)]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Visning af FAQ-poster][1]
 * [Oprettelse af FAQ-poster][2]

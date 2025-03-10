@@ -2,9 +2,9 @@
 uid: help-da-chat-as-customer
 title: Anvendelse af chatfunktion fra kundens perspektiv
 description: Anvendelse af chatfunktion fra kundens perspektiv
+keywords: chat
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: chat
 topic: howto
 language: da
 ---
@@ -27,7 +27,7 @@ language: da
 
 5. Kunden chatter med repræsentanten.
 
-6. Når samtalen er færdig, kan kunden afslutte chatsamtalen ved at lukke chatvinduet. Alternativt kan agenten afslutte chatten ved at vælge ![ikon][img1] &gt; **Afslut chat**.
+6. Når samtalen er færdig, kan kunden afslutte chatsamtalen ved at lukke chatvinduet. Alternativt kan agenten afslutte chatten ved at vælge <i class="ph ph-list" aria-label="Task menu"></i> > **Afslut chat**.
 
     * Hvis slutskemaet for chat er aktiveret for denne chatkanal, kan kunden vælge at vende tilbage til chatsamtalen.
     * Hvis funktionen **Aktiver chatlog** er aktiveret for denne chatkanal, kan kunden vælge at modtage en log over samtalen via e-mail. E-mailen bruger en svarskabelon i SuperOffice Service.
@@ -37,8 +37,3 @@ language: da
 Hvis der ikke er repræsentanter til stede (som regel uden for arbejdstiden), vises en kort meddelelse i chatvinduet. Eksempel: "Vi beklager. Chatten er lukket. Åbningstiderne er ..."
 
 Hvis sagsindsendelse er aktiveret for denne chatkanal, kan kunden angive navn, e-mailadresse og et spørgsmål. Sags-ID'et vises i chatvinduet.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

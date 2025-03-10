@@ -7,9 +7,9 @@ date: 01.29.2024
 version: 10
 keywords: brugerdefinerede objekter, udef, ekstrafelt, ekstra tabel, tilpassede felter
 topic: concept
-language: da
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Brugerdefinerede objekterog felter

@@ -7,19 +7,19 @@ author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Rediger indhold
 
-![ikon][img1]
+![Edit content -screenshot][img1]
 
 > [!TIP]
 > Hvis du vil redigere globale egenskaber og layout for meddelelsen, skal du vælge **Brødtekst** i sidepanelet. Hvis du har angivet bestemte egenskaber for enkelte afsnit, tilsidesættes disse ikke af globale egenskaber.
 >
-> Brug **PC** ![ikon][img3] og **Mobil** ![ikon][img4] øverst i sidepanelet til at redigere egenskaber for ulige versioner af meddelelsen.
+> Brug **PC** (<i class="ph ph-monitor" aria-hidden="true"></i>) og **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) øverst i sidepanelet til at redigere egenskaber for ulige versioner af meddelelsen.
 
 ## Rediger tekstindhold (tekstblokke) i en meddelelse
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Føj sporede links til meddelelsen][8]. Du kan f.eks. føje et link til en informationsside for et produkt. Du kan oprette et nyt link eller tilføje et eksisterende link.
 
-    Sådan tilføjes et almindeligt link (ikke sporet): Vælg en tekst, og klik på ![ikon][img6] på værktøjslinjen. Angiv linket i feltet **URL**.
+    Sådan tilføjes et almindeligt link (ikke sporet): Vælg en tekst, og klik på <i class="ph ph-link" aria-label="Link"></i> på værktøjslinjen. Angiv linket i feltet **URL**.
 
 6. Rediger formateringen af teksten ved hjælp af felterne i sidepanelet.
 
@@ -66,7 +66,7 @@ Du kan redigere følgende afsnit:
 
 Klik på **Næste**, hvis du er færdig med at redigere.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføj indhold][5]
 * [Brug af fletfelter i meddelelser][2]
@@ -84,7 +84,4 @@ Klik på **Næste**, hvis du er færdig med at redigere.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png

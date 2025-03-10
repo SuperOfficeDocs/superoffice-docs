@@ -2,9 +2,9 @@
 uid: help-da-adding-external-applications-to-application-list
 title: Tilføjelse af eksterne programmer til programlisten
 description: Tilføjelse af eksterne programmer til programlisten
+keywords: listen GUI – Applikation
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: liste
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: da
 1. Under **Tilføj som** vælger du, hvad programmet skal tilføjes som:
 
     * **Knap**: Programikonet vises i navigatoren. Brugeren kan nu åbne programmet direkte ved at klikke på ikonet i navigatoren.
-    * **Menuvalg**: Brugeren får adgang til programmet ved at klikke på knappen **Værktøj** ( ![icon][img2] ) i navigatoren og/eller ved at vælge **Andre programmer** i hovedmenuen (![icon][img1]).
+    * **Menuvalg**: Brugeren får adgang til programmet ved at klikke på knappen **Værktøj** (<i class="ph ph-wrench" aria-hidden="true"></i>) i navigatoren og/eller ved at vælge **Andre programmer** i hovedmenuen (<i class="ph ph-list" aria-hidden="true"></i>).
     * **Hændelse**: Programmet køres, når SuperOffice CRM startes eller afsluttes, eller ved lokal opdatering (Travel). Se trin 8. Du kan for eksempel køre et synkroniseringsprogram for en PDA, når SuperOffice CRM afsluttes.
     * **Opgave**: Vælg en indstilling i denne rullemenu for at gøre programmet tilgængeligt fra fanen **Opgave** i skærmbilledet Udvalg eller knapperne **Opgave**.
 
@@ -69,7 +69,7 @@ language: da
 
 1. På listen **Vis** vælger du den ønskede indstilling. Denne liste vises kun, hvis du har valgt **Menuvalg** under **Tilføj som**.
 
-    * **Værktøjsmenuen**: Brugeren får adgang til programmet ved at klikke på knappen **Værktøj** (![icon][img2]) i navigatoren eller ved at vælge **Andre programmer** i hovedmenuen (![icon][img1]) i SuperOffice CRM.
+    * **Værktøjsmenuen**: Brugeren får adgang til programmet ved at klikke på knappen **Værktøj** i navigatoren eller ved at vælge **Andre programmer** i hovedmenuen i SuperOffice CRM.
     * **Menuen Vis**: Brugeren får adgang til programmet via menupunktet **Andre programmer** i menuen **Vis** i SuperOffice CRM.
 
 1. På listen **Kør når** vælger du, hvornår programmet skal startes. Denne liste vises kun, hvis du har valgt **Hændelse** under **Tilføj som**.
@@ -93,9 +93,3 @@ language: da
 
 > [!NOTE]
 > Brugerne skal logge på SuperOffice CRM på ny, før programmet vises.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

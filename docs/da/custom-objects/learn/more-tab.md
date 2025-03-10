@@ -48,13 +48,13 @@ For at se data i Mere-fanen:
 
 ## Rediger information i Mere-fanen
 
-Klik på **Rediger** for at redigere oplysningerne i **Mere-fanen**.
+Klik på <i class="ph ph-pencil-simple" aria-label="Edit"></i> for at redigere oplysningerne i **Mere-fanen**.
 
 ## Yderligere tips
 
 * **Tilpas felterne**: Tilføjelse af brugerdefinerede felter eller justering af layout kræver administrativ adgang og i nogle tilfælde en licens til Development Tools.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Oversigt over brugerdefinerede felter][1]
 * [Tilføj brugerdefinerede felter][2]

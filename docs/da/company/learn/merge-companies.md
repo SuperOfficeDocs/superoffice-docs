@@ -1,66 +1,58 @@
 ---
 uid: help-da-company-merge
-title: Flet kontakter
-description: For at kunne være effektiv i arbejdet med kunder og kontakter er det vigtigt at have et miljø uden rod. Det betyder at slette ubrugte virksomheder og kontakter og flette duplikerede virksomheder og kontakter.
-keywords: firma
-author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+title: Slå firmaer sammen
+description: Hold din kundedatabase ren og effektiv ved at slå sammen dublerede firmaer eller kombinere poster, når et firma opkøber et andet.
+keywords: flet firmaer, administrer firmaer, flet identiske personer, firma
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Flet kontakter
+# Slå firmaer sammen
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Du kan flette dublerede databaseposter for firmaer. Personer og aktiviteter bliver flyttet til målfirmaet, og kildefirmaet bliver slettet.
-
-Hvis to firmaer i kundedatabasen beslutter at fusionere, eller et af firmaerne har købt det andet firma, kan du slå disse firmaer sammen til ét firma. Personer (og relaterede anmodninger), fakturaer og registrerede domæner opbevares for begge firmaer.
+For at holde din kundedatabase ren og effektiv kan du slå sammen dublerede firmaer eller kombinere poster, når et firma opkøber et andet. Personer, aktiviteter, fakturaer, registrerede domæner og andre detaljer flyttes eller flettes, og kildefirmaet slettes.
 
 ## Trin
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) i øverste højre hjørne af firmakortet.
+    Vælg **Vedligehold firmaer** > **Slå firmaer sammen** i menuen.
+    Dialogboksen **Slå firmaer sammen** vises, med kildefirmaet angivet under **Fra**.
 
-1. Vælg **Vedligehold firmaer** fra knappen ![ikon][img3] **Opgave** og klik på **Læg firmaer sammen**.
-    Dialogboksen **Slå firmaer sammen** åbnes. Kildefirmaet er angivet under **Fra**.
-
-1. Under **Til firma** vælger du det firma, som skal opdateres med oplysninger fra kildefirmaet. Begynd at skrive i feltet for at søge efter et firma. Hvis du vil bytte om på **Fra-** og **Til-**firmaer, skal du klikke på pilknappen.
+2. Under **Til firma** skal du søge efter og vælge det firma, som kildefirmaet skal flettes med. Hvis du vil bytte om på **Fra**- og **Til**-firmaer, skal du klikke på pilknappen <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
 
     > [!CAUTION]
-    > Vælg det korrekte firma i Fra-felt OG i Til-felt.
+    > Sørg for at vælge det korrekte firma i både **Fra**- og **Til**-felterne, før du fortsætter.
 
-1. Under **Detaljeoplysninger om firma og personer** kan du markere følgende:
+3. Under **Detaljeoplysninger om firma og personer** kan du vælge en eller begge af følgende indstillinger:
 
-    * Læg identiske personer sammen. Hvis denne indstilling er valgt, flettes kontakter med identiske navne.
+    * **Læg identiske personer sammen:** Personer med præcis samme fornavn, mellemnavn og efternavn flettes.
+    * **Erstat tomme felter med værdier fra kildefirmaet:** Tomme felter i målfirmaet opdateres med data fra kildefirmaet.
 
-        Navnene skal være HELT identiske for at blive lagt sammen, både fornavn, mellemnavn og efternavn.
+4. Klik på **Slå sammen**. Følgende sker:
 
-    * **Erstat tomme felter...**. Hvis du vælger denne indstilling, bliver det tomme datafelt i **Til**-firmaet opdateret med data fra **Fra**-firmaet.
-
-1. Klik på **Slå sammen**. Følgende sker:
-
-    * Firmaerne lægges sammen.
-    * Personer flyttes eller lægges sammen.
-    * Alle aktiviteter flyttes.
-    * Projektmedlemskab og medlemskab i statiske udvalg følger firmaet.
-    * Alle detaljer lægges sammen, hvis du har valgt **Erstat tomme felter...**.
+    * Personer (og relaterede sager) flyttes eller flettes.
+    * Aktiviteter flyttes.
+    * Projektmedlemskab og medlemskab i statiske udvalg følger målfirmaet.
+    * Tomme felter opdateres, hvis du har valgt **Erstat tomme felter...**.
     * Kildefirmaet slettes.
 
-![Slå firmaer sammen -screenshot][img4]
+![Dialogboksen Slå firmaer sammen med felter til valg af kilde- og målfirma, indstillinger for fletning af identiske personer, erstatning af tomme felter og en oversigt over de handlinger, der udføres. -screenshot][img4]
 
 > [!TIP]
-> Du kan også lægge firmaer i dynamiske og statiske udvalg sammen.
+> Du kan også flette firmaer i dynamiske og statiske udvalg.
 
-## Relaterede emner
+## Relateret indhold
 
-* [Flette kontaktpersoner][2]
+* [Flet personer][2]
 
 <!-- Referenced links -->
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png

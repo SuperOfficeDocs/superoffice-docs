@@ -1,7 +1,7 @@
 ---
 uid: help-da-privacy-implementation
 title: Vedligehold dine Privacy-indstillinger (GDPR)
-description: "Før du begynder at konfigurere din SuperOffice CRM-database, så den er i overensstemmelse med GDPR, skal du først gøre noget forarbejde."
+description: Før du begynder at konfigurere din SuperOffice CRM-database, så den er i overensstemmelse med GDPR, skal du først gøre noget forarbejde.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: GDPR, samtykke
@@ -264,7 +264,7 @@ GDPR-overholdelse – et igangværende projekt
 
 Ved at gennemføre de tre trin har du taget vigtige skridt i retning af overholdelse af GDPR. At overholde GDPR er dog et løbende projekt og involverer alle de IT-systemer, dit firma bruger. Fra nu af bør du fokusere på at opretholde korrekt håndtering af personlige kundedata i dit SuperOffice CRM – i overensstemmelse med dit firmas privacy-politikker og GDPR-kravene.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Download vores skabelon "Forbered dig på GDPR"][3]
 * [Rediger e-mailen med bekræftelse om personbeskyttelse][6]

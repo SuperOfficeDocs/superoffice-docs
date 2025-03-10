@@ -25,7 +25,7 @@ language: da
 
 Produkterne i tilbuddet vises på denne fane.
 
-Hvis tilbuddet indeholder flere alternativer, angives favoritalternativet med ![ikonet][img1] ud for fanenavnet. Hvis alternativet indeholder [advarsler eller meddelelser][9] for et eller flere produkter, vises der et ikon ud for fanenavnet. Der vises også en meddelelse for at forklare årsagen til fejlen.
+Hvis tilbuddet indeholder flere alternativer, angives favoritalternativet med <i class="ph ph-star" aria-label="Star icon"></i> ud for fanenavnet. Hvis alternativet indeholder [advarsler eller meddelelser][9] for et eller flere produkter, vises der et ikon ud for fanenavnet. Der vises også en meddelelse for at forklare årsagen til fejlen.
 
 * **Rabat**: Her kan du angive en samlet rabat (rabatprocent eller rabatbeløb) for hele alternativet. Den samlede rabat anvendes ud over eventuelle rabatter, der anvendes på de forskellige produkter.
 
@@ -37,7 +37,7 @@ Hvis tilbuddet indeholder flere alternativer, angives favoritalternativet med ![
 * Dobbeltklik på et produkt for at redigere det.
 * **Slet**: Sletter de(t) valgte produkt(er).
 * **Eksporter**: Bruges til at [eksportere listen][7] til et regneark.
-* Sortér:  ![Brug ikon][img2] / ![ikon][img3] piletasterne til at ændre rækkefølgen af produkterne.
+* Sortér:  Brug <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> til at ændre rækkefølgen af produkterne.
 
 > [!TIP]
 > Du kan dobbeltklikke på fanerne for at ændre navnene på alternativerne i tilbuddet.
@@ -62,8 +62,3 @@ Den nederste del af dialogboksen
 [8]: ../index.md#status
 [9]: ../add-product.md#warning
 [7]: ../../../learn/section-tabs/export-archives.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

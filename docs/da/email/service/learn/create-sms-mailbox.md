@@ -28,7 +28,7 @@ SuperOffice kan importere SMS-beskeder. For at dette kan fungere, skal du oprett
 
 1. Klik på **OK**. SMS-mailboksen oprettes.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Indbakke til sms][2]
 * [Udbakke til sms][3]

@@ -17,7 +17,7 @@ Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sag
 
 ![Ændringsloggen på en sag viser alle de forskellige ændringer, der er foretaget på sagen -screenshot][img1]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Opret sag][11]
 * [Søgning][10]
@@ -31,16 +31,16 @@ Dette skærmbillede viser loggen for sagen. Den indeholder alle hændelser i sag
 * [Afslut sag][7]
 
 <!-- Referenced links -->
-[1]: ../howto/accept.md
-[2]: ../howto/transfer.md
-[3]: ../howto/forward.md
-[4]: ../howto/reply.md
-[5]: ../howto/split-request.md
-[7]: ../howto/close.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/assign.md
+[1]: ../accept.md
+[2]: ../transfer.md
+[3]: ../forward.md
+[4]: ../reply.md
+[5]: ../split-request.md
+[7]: ../close.md
+[8]: ../edit-message.md
+[9]: ../assign.md
 [10]: ../find.md
-[11]: ../howto/create.md
+[11]: ../create.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/request-change-log.png

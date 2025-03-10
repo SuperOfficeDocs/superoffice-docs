@@ -2,10 +2,12 @@
 uid: help-da-add-email-template
 title: Tilføjelse af e-mailskabelon
 description: Tilføjelse af e-mailskabelon
+keywords: e-mailskabelon
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 02.28.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -48,9 +50,9 @@ Skabeloner vises som forekomster på listen **E-mail – Skabelon**, og du kan t
 
 Angiv følgende information på fanen **Detaljer**:
 
-1. (valgfrit) Rediger navnet på skabelonen i feltet **Navn**. Du kan også [tilføje fanenavnet på andre sprog][1] ved at klikke på ![icon][img1].
+1. (valgfrit) Rediger navnet på skabelonen i feltet **Navn**. Du kan også [tilføje fanenavnet på andre sprog][1] ved at klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
-2. Indtast titlen på e-mailmeddelelsen i feltet **Emne**. Du kan også [tilføje emnet på andre sprog][1] ved at klikke på ![icon][img1].
+2. Indtast titlen på e-mailmeddelelsen i feltet **Emne**. Du kan også [tilføje emnet på andre sprog][1] ved at klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
 
 3. Vælg **Brug signatur i ny e-mail** for at føje din signatur til nye e-mails. Hvis du ikke har en personlig signatur, bruges systemsignaturen.
 
@@ -58,9 +60,9 @@ Angiv følgende information på fanen **Detaljer**:
 
 5. Angiv eventuelt en beskrivelse af skabelonen i feltet **Beskrivelse**.
 
-6. I feltet **Retning** angiver du, om skabelonen skal være udgående eller indgående ved at klikke på pilen (![icon][img2] ) og vælge fra rullemenuen. Vælg **Udgående**, hvis skabelonen skal være tilgængelig i **Indbakke**.
+6. I feltet **Retning** angiver du, om skabelonen skal være udgående eller indgående ved at klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge fra rullemenuen. Vælg **Udgående**, hvis skabelonen skal være tilgængelig i **Indbakke**.
 
-7. I feltet **Hensigt** klikkes på pilen (![icon][img2] ), hvorefter en af de foruddefinerede valgmuligheder vælges fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][5]).
+7. I feltet **Hensigt** klikkes på <i class="ph ph-caret-down" aria-label="Chevron"></i>, hvorefter en af de foruddefinerede valgmuligheder vælges fra listen. Disse forekomster bruges i forbindelse med statusovervågning (kræver licens til [Sales Intelligence][5]).
 
     > [!TIP]
     > Du kan oprette nye indstillinger ud over de foruddefinerede indstillinger ved at tilføje forekomster på listen **Opfølgning - Hensigt** i Indstillinger og vedligeholdelse.
@@ -83,15 +85,11 @@ Her kan du tilføjer oversatte versioner af dokumentskabelonen.
 5. Gentag ovenstående trin for at tilføje flere sprog.
 
 > [!TIP]
-> Klik på ![icon][img1] ud for det relevante felt for at [tilføje oversættelser][1] af skabelonnavnet og e-mailens emne.
+> Klik på <i class="ph ph-translate" aria-label="Translate"></i> ud for det relevante felt for at [tilføje oversættelser][1] af skabelonnavnet og e-mailens emne.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

@@ -4,8 +4,8 @@ title: Aktivitetsfanen
 description: Lær hvordan du bruger aktivitetsdetaljekortet i SuperOffice CRM til at se, administrere og følge op på aktiviteter, opgaver og dokumenter for firmaer, personer, projekter og salg – alt samlet ét sted.
 keywords: Aktivitets-fanen, Aktivitetsfanen, Fanen Aktiviteter, detaljekortet Aktiviteter, detaljekort, aktivitetsarkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -38,7 +38,7 @@ Detaljekortet **Aktiviteter** indeholder følgende kolonner til at vise vigtig i
 
 | Kolonne | Beskrivelse |
 |---------|-------------|
-| Udført | Afkrydsningsfelt, der angiver, om aktiviteten er fuldført. Et afkrydset felt (![icon][img3]) betyder udført, mens et tomt felt betyder, at aktiviteten er i gang. |
+| Udført | Afkrydsningsfelt, der angiver, om aktiviteten er fuldført. Et afkrydset felt (<i class="ph ph-check" aria-hidden="true"></i>) betyder udført, mens et tomt felt betyder, at aktiviteten er i gang. |
 | Kategpri-ikon | Viser [aktivitetstypen][1] (som møde, opkald, dokument). Matcher teksten i **Type**-kolonnen. |
 | Dato | Viser, hvornår dokumentet blev oprettet, eller hvornår opfølgningen finder sted. |
 | Type | Aktivitetstypen, såsom møde, opgave eller e-mail. |
@@ -104,10 +104,9 @@ For at inkludere fuldførte aktiviteter i listen, skal du sørge for, at afkryds
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

@@ -2,9 +2,9 @@
 uid: help-da-chat-create-quick-reply
 title: Oprettelse af et hurtigt svar
 description: Oprettelse af et hurtigt svar
+keywords: chat
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: CRM
 topic: howto
 language: da
 ---
@@ -15,8 +15,8 @@ Et hurtigt svar er en foruddefineret tekst, som du kan bruge i en chat med en ku
 
 **Trin:**
 
-1. I en igangværende chat skal du klikke på ![ikon][img1] i den nederste del af chatpanelet.
-2. Klik på ![ikon][img2] **Rediger**.
+1. I en igangværende chat skal du klikke på <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> i den nederste del af chatpanelet.
+2. Klik på <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 3. Vinduet **Hurtige svar** åbnes, klik på **Tilføj**. Et nyt svar føjes til listen.
 4. Klik på feltet **Ny titel**, og angiv en titel for det hurtige svar. Dette vil ikke være synligt for kunden.
 5. Klik på feltet **Nyt indhold**, og indtast den svartekst, du vil sende til kunderne.
@@ -24,7 +24,3 @@ Et hurtigt svar er en foruddefineret tekst, som du kan bruge i en chat med en ku
 
 <!-- Referenced links -->
 [1]: send-faq-or-reply-template.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/chat-h32.png
-[img2]: ../../../../common/icons/edit-black.png

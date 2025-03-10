@@ -13,11 +13,6 @@ language: da
 
 Sådan bruger du Indstillinger og vedligeholdelse på et andet sprog:
 
-1. Gå til ![ikon][img1] **Personlige indstillinger** > **Lokale indstillinger**.
+1. Gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Lokale indstillinger**.
 2. Vælg det ønskede sprog på listen **Aktivt sprog**.
 3. Klik på **OK**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

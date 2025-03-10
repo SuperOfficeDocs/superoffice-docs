@@ -2,11 +2,12 @@
 uid: help-da-request
 title: Sager
 description: Introduktion til sager i SuperOffice
+keywords: sag, ticket, service
 author: Bergfrid Dias
 date: 03.11.2025
 version: 10.5.3
-keywords: sag, ticket, service
 topic: concept
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -16,60 +17,53 @@ language: da
 
 Vores ticket-system giver dig mulighed for effektivt at håndtere indgående sager og hjælper dig med at tilbyde fremragende kundeservice hver dag. Dette udvalg af vejledninger indeholder retningslinjer, der hjælper dig med at holde styr på, besvare og analysere alle indgående spørgsmål og forespørgsler ved hjælp af SuperOffice Service. Uanset om de kommer ind via telefon, e-mail, chat, webformular eller andre kanaler.
 
-**Sager** er en af de vigtigste funktioner i SuperOffice. Her behandler du sager og henvendelser i systemet. Du kan også oprette interne og eksterne sager, besvare indkommende henvendelser og få en oversigt over status for alle sager i systemet. Klik på knappen ![ikon][img2] **Sager** for at åbne skærmbilledet Sager, eller klik på teksten **Sager** for at åbne navigatorindstillingerne med søgning, historik og foretrukne.
+**Sager** er en af de vigtigste funktioner i SuperOffice. Her behandler du sager og henvendelser i systemet. Du kan også oprette interne og eksterne sager, besvare indkommende henvendelser og få en oversigt over status for alle sager i systemet. Klik på knappen <i class="ph ph-ticket" aria-hidden="true"></i> **Sager** for at åbne skærmbilledet Sager, eller klik på teksten **Sager** for at åbne navigatorindstillingerne med søgning, historik og foretrukne.
 
-Hvert spørgsmål og hver sag kan defineres som en sag. Disse spørgsmål spænder fra supportproblemer, spørgsmål om produktet og tjenesterne eller spørgsmål om fakturaer. Når en sag kommer ind, skal du gerne håndtere dem så hurtigt og effektivt som muligt, mens du yder professionel kundeservice.
+Hver forespørgsel eller henvendelse defineres som en sag. Disse kan spænde fra supportproblemer og produktspørgsmål til fakturaforespørgsler. Når en sag oprettes, skal den håndteres hurtigt og effektivt med professionel kundeservice.
 
-![Sag med liste over Ikke fordelte sager med forhåndsvisning -screenshot][img1]
+![Sag med liste over ikke fordelte sager med forhåndsvisning -screenshot][img1]
 
-<!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
+Ny i sagsstyring i SuperOffice? Start med denne korte produktgennemgang for at få en introduktion til, hvad du kan forvente:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-<!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
+> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
+
+(Videolængde - 2:52)
 
 ## <a id="open"></a>Hvor kan jeg få adgang til sager?
 
-* Arkiver i alle hovedkort såsom Firma, Salg, Projekt
-* [Brugerdefinerede lister][11]
-* [Søg][12]
-* [Favoritter][8]
+* Detaljekort i Firma, Person, Salg og Projekt
+* [Forhåndsdefinerede lister][10]
+* [Søgning][12]
+* [Favoritter][18]
 * [Meddelelser markeret med flag][5]
 
-Når du dobbeltklikker på en række i skærmbilledet [søgeresultater][13], kommer du til skærmbilledet Sag.
+Når du dobbeltklikker på en række i søgeresultaterne, åbnes skærmbilledet Sag.
 
 ### <a id="customers"></a>Personer
 
-Sager kan knyttes til [personer][2], som igen kan være tilknyttet et [firma][3]. Det betyder, at sager ikke kan knyttes direkte til firmaer (kun indirekte via personer). Når nye e-mailmeddelelser importeres og gemmes som sager, knyttes sagen automatisk til den rigtige person via e-mailadressen. Når du ser på en sag, kan du derfor meget nemt se, hvem personen er, og hvis du klikker på personens navn, kan du se, hvilke sager der er registreret på denne person. På denne måde kan du hurtigt få et overblik over den tidligere kommunikation med den samme person.
-
-### Hvad ønsker du at foretage dig nu?
-
-* Lær om sagsbehandling trin for trin
-* [Modtagelse af sager][6]
-* [Oprettelse af sager][4]
-* [Find anmodninger][10]
-* [7 tips til at yde den bedste kundeservice med SuperOffice Service][20] - blog
+Sager kan knyttes til [personer][14], som igen kan være tilknyttet et [firma][13]. Sager kan ikke direkte knyttes til firmaer (kun indirekte via personer). Når nye e-mails importeres og gemmes som sager, tilknyttes sagen automatisk den korrekte person via e-mailadressen. Når du ser en sag, kan du hurtigt se, hvem personen er, og ved at klikke på deres navn kan du se deres tidligere sager. Dette giver et hurtigt overblik over tidligere kommunikation.
 
 ## <a id="request-mgt"></a>Sagshåndtering
 
-Indgående sager kan ankomme via mange kanaler, og der er mere end én måde at registrere og besvare dem på. Det varierer fra sag til sag, hvordan sagsbehandlingen foregår.
+Indgående sager kan komme fra forskellige kanaler, og der er flere måder at registrere og besvare dem på. Processen varierer fra sag til sag.
 
-Et personservicesystem handler om at give personer de svar, de leder efter, og gemme deres kontaktoplysninger. Når du svarer på en sag, modtager de en e-mail fra dig. Derfor er det vigtigt at [oprette din e-mail-signatur][15].
+SuperOffice Service hjælper dig med at give personer de svar, de har brug for, samtidig med at deres kontaktoplysninger gemmes. Når du svarer på en sag, sendes en e-mail til personen. Derfor er det vigtigt at [oprette din e-mail-signatur][15].
 
-### Typiske arbejdsopgaver
+### Typiske opgaver
 
 * [Overtag ansvaret for sager][1]
-* [Bede en anden sagsbehandler om hjælp][16]
-* [Svar til person][19]
+* [Bed en anden sagsbehandler om hjælp][7]
+* [Svar til person][2]
 * [Rediger meddelelse][9]
-* [Deling af sager][21]
-* [Videresend meddelelser eller flere sager til eksterne parter][18]
-* [Tilføj sager til listen over foretrukne][8]
-* [Luk sager][22]
+* [Del sager][11]
+* [Videresend meddelelser eller flere sager til eksterne parter][8]
+* [Tilføj sager til listen over favoritter][18]
+* [Luk sager][3]
 
 Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge SuperOffice Service på forskellige måder. Nedenfor har vi sat to scenarier fra den virkelige verden op, der viser nogle af de muligheder, der findes. Disse scenarier viser dig, hvordan du kan svare effektivt, når en person har sendt en sag via e-mail, og når en person ringer ind med et problem eller et spørgsmål.
 
 ![Dashboard til sager med lister over egne åbne sager og en kø til ikke fordelte sager. Her kan du vælge en sag, der skal håndteres -screenshot][img3]
-*Dashboard til sager med lister over egne åbne sager og en kø til ikke fordelte sager. Her kan du vælge en sag, der skal håndteres.*
 
 ### Scenarie 1: Personen sender sagen via e-mail
 
@@ -80,20 +74,20 @@ Forskellige firmaer har forskellige rutiner for sagsbehandling og kan bruge Supe
 1. Sagen ender hos en sagsbehandler i SuperOffice CRM. Se [Tildel sager][6] og [Find sager][10].
 1. Sagsbehandleren gennemlæser sagen.
 1. Sagsbehandleren kan ikke afslutte sagen alene og gør et af følgende:
-    * [Spørger en kollega][16].
-    * [Indhenter hjælp udefra][18].
-1. Sagsbehandleren [sender svar til personen][19].
-1. Sagsbehandleren [afslutter sagen][21] og fortsætter med andre sager.
+    * [Spørger en kollega][7].
+    * [Indhenter hjælp udefra][8].
+1. Sagsbehandleren [sender svar til personen][2].
+1. Sagsbehandleren [lukker sagen][3] og fortsætter til næste sag.
 
-### Scenarie 2: Personen ringer til sagsbehandleren
+### Scenarie 2: Personen ringer til support
 
-1. Personen har et problem med et produkt og ringer til brugersupport.
-1. Sagsbehandleren, der besvarer opkaldet, [registrerer sagen][14].
-1. Sagsbehandleren kan ikke afslutte sagen alene og gør et af følgende:
-    * [Spørger en kollega][16].
-    * [Indhenter hjælp udefra][18].
-1. Sagsbehandleren [sender svar til personen][19].
-1. Sagsbehandleren [afslutter sagen][21] og fortsætter med andre sager.
+1. Personen har et problem og ringer til support.
+1. Sagsbehandleren, der besvarer opkaldet, [registrerer sagen][4].
+1. Sagsbehandleren har brug for hjælp og gør et af følgende:
+    * [Spørger en kollega][7].
+    * [Indhenter hjælp udefra][8].
+1. Sagsbehandleren [sender svar til personen][2].
+1. Sagsbehandleren [lukker sagen][3] og fortsætter til næste sag.
 
 ## Personlige præferencer
 
@@ -115,47 +109,36 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 
 1. Klik på **Gem** for at anvende dine ændringer.
 
-## Relaterede emner
+## Relateret inhold
 
-* [Derfor bør masseredigering være din yndlingsfunktion][17] – blog
-* [E-mail-signatur][15]
-* [Opret sag][14]
-* [Søgning][10]
+* [Opret sag][4]
 * [Accepter][1]
-* [Overfør][16]
-* [Videresend][18]
-* [Tildel][6]
-* [Svar][19]
-* [Del sag][21]
-* [Rediger meddelelse][9]
-* [Foretrukne][8]
-* [Afslut sag][22]
+* [Svar][2]
+* [Tildel automatisk][6]
+* [7 tips til bedre kundeservice med SuperOffice Service][20] - blog
+* [Derfor bør masseredigering være din yndlingsfunktion][21] - blog
 
 <!-- Referenced links -->
-[1]: howto/accept.md
-[2]: ../../contact/learn/index.md
-[3]: ../../company/learn/index.md
-[4]: howto/create.md
-[5]: howto/flag-message.md
-[6]: howto/assign.md
-[8]: ../../learn/basics/fav.md
-[9]: howto/edit-message.md
+[1]: accept.md
+[2]: reply.md
+[3]: close.md
+[4]: create.md
+[5]: flag-message.md
+[6]: assign.md
+[7]: transfer.md
+[8]: forward.md
+[9]: edit-message.md
 [10]: find.md
-[11]: find.md#list
+[11]: split-request.md
 [12]: ../../search-options/learn/index.md
-[13]: find.md#result
-[14]: howto/create.md
+[13]: ../../company/learn/index.md
+[14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
-[16]: howto/transfer.md
-[17]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
-[18]: howto/forward.md
-[19]: howto/reply.md
+[18]: ../../learn/basics/fav.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: howto/split-request.md
-[22]: howto/close.md
+[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 [23]: ../reply-templates/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
-[img2]: ../../../../common/icons/nav-cs.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png

@@ -65,7 +65,7 @@ Der findes to måder at oprette en e-mail på i Microsoft Outlook. Du kan bruge 
 
 [!include[Icons with description](includes/buttons-in-email-window.md)]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Opret e-mailskabeloner][3]
 

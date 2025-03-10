@@ -1,7 +1,7 @@
 ---
 uid: help-da-user-add
 title: Tilføjelse af bruger
-description: "I denne vejledning lærer du, hvordan du tilføjer en ny bruger til SuperOffice CRM."
+description: I denne vejledning lærer du, hvordan du tilføjer en ny bruger til SuperOffice CRM.
 author: SuperOffice RnD
 date: 12.11.2024
 keywords: user, medarbejder

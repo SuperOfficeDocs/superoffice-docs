@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 09.17.2024
 version: 10.3.9
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice CRM
+language: da
 ---
 
 # Udvalg
@@ -126,7 +126,7 @@ Du kan oprette et udvalg, som indeholder
 * Udsendelser med en bestemt åben-rate eller klikfrekvens
 * Udsendelser med høje afvisningsprocenter
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføj post som foretrukken][11]
 * [Oprettelse af udvalg][2]

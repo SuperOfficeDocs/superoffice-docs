@@ -4,8 +4,8 @@ title: Salg-fanen
 description: Lær hvordan du administrerer og ser salgsinformation i Salg-detaljekortet i SuperOffice CRM, herunder tilføjelse af salg, filtrering og opfølgning på salgsaktiviteter på tværs af firmaer, personer og projekter.
 keywords: Salgs-fanen, Salgsfanen, fanen Salg, detaljekortet Salg, detaljekort, salgsarkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ Detaljekortet **Salg** indeholder følgende kolonner til at vise nøgleinformati
 
 | Kolonne | Beskrivelse |
 |---|---|
-| Udført | Afkrydsningsfelt, der angiver, om salget er gennemført. Et afkrydset felt (![ikon][img3]) betyder udført, mens et tomt felt betyder, at det stadig er i gang. |
+| Udført | Afkrydsningsfelt, der angiver, om salget er gennemført. Et afkrydset felt (<i class="ph ph-check" aria-hidden="true"></i>) betyder udført, mens et tomt felt betyder, at det stadig er i gang. |
 | Statusikon | Viser den aktuelle [status for salget][4], f.eks. solgt, tabt eller udsat. |
 | Salgsdato | Datoen knyttet til salget, som kan være estimeret, solgt eller tabt dato. |
 | Beløb | Salgets økonomiske værdi. |
@@ -59,7 +59,7 @@ Detaljekortet **Salg** indeholder følgende kolonner til at vise nøgleinformati
 
 ### Filtrer salg
 
-Du kan filtrere listen over salg efter dato, bruger eller gruppe ved at klikke på **Filter**-knappen (![ikon][img2]). Dette hjælper dig med at fokusere på specifikke salgsaktiviteter, der kræver opmærksomhed.
+Du kan filtrere listen over salg efter dato, bruger eller gruppe ved at klikke på **Filter**-knappen (<i class="ph ph-funnel" aria-hidden="true"></i>). Dette hjælper dig med at fokusere på specifikke salgsaktiviteter, der kræver opmærksomhed.
 
 ### Inkluder interessenter
 
@@ -105,16 +105,14 @@ For at oprette et nyt salg direkte fra detaljekortet **Salg**:
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/check.png

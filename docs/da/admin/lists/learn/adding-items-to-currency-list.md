@@ -2,10 +2,12 @@
 uid: help-da-adding-items-to-currency-list
 title: Tilføjelse af forekomster på listen Valuta
 description: Tilføjelse af forekomster på listen Valuta
+keywords: listen Generelt – Valuta
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
  

@@ -1,10 +1,10 @@
 ---
 uid: help-da-customer-center-faq
 title: Publicer ofte stillede spørgsmål i kundecenteret
-description: "I denne vejledning lærer du, hvordan du publicerer ofte stillede spørgsmål i kundecenteret."
+description: I denne vejledning lærer du, hvordan du publicerer ofte stillede spørgsmål i kundecenteret.
+keywords: FAQ, Kundecenter
 author: Bergfrid Dias
 date: 03.16.2023
-keywords: FAQ, Kundecenter
 topic: howto
 language: da
 ---
@@ -21,7 +21,7 @@ Du kan [oprette ofte stillede spørgsmål][1] som dine servicemedarbejdere kan v
 
 Dine kunder kan endda få adgang til disse ofte stillede spørgsmål via kundecentret (webportalen) uden at kontakte dig. Dette gør det praktisk for dine kunder at finde svar på ofte stillede spørgsmål døgnet rundt. Mens du får færre anmodninger at håndtere.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Konfigurer kundecenter][2]
 * [Publicer en FAQ][3]

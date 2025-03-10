@@ -19,7 +19,7 @@ På fanen **E-mail-konti** finder du en oversigt over de installerede e-mail-kon
 * **Videresendelsesadresse**: Hvis du ikke bruger e-mailfunktionerne i SuperOffice, videresendes e-mails til denne adresse.
 * **Protokol**: Den protokol, som e-mail-kontoen bruger.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af e-mailkonti][1]
 * [Sletning af e-mail-konti][2]

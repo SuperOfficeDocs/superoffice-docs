@@ -2,10 +2,13 @@
 uid: help-da-project-member-email
 title: Send e-mail til projektdeltagere
 description: Sådan mailer du til interessenter eller projektdeltagere i SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: projekt, deltager, interessent, e-mail
+keywords: Send e-mail, e-mail projektdeltager, e-mail interessent, projektdeltager, interessent, projekt
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

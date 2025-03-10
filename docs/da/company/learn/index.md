@@ -1,64 +1,75 @@
 ---
 uid: help-da-company
 title: Firma
-description: Alle oplysninger relateret til en virksomhed – det være sig din kunde, samarbejdspartner eller leverandør – gemmes på virksomhedskortet/skærmen i SuperOffice CRM.
+description: Alle oplysninger relateret til et firma – det være sig din kunde, samarbejdspartner eller leverandør – gemmes på firmakortet/-skærmbilledet i SuperOffice CRM.
+keywords: firmakort, firmaskærmbillede, firma, kunde, samarbejdspartner, leverandør
 author: Bergfrid Dias
-date: 12.15.2022
-keywords: firma
+date: 03.07.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Firma
 
-Alle oplysninger relateret til en virksomhed – det være sig din kunde, samarbejdspartner eller leverandør – gemmes på virksomhedskortet/skærmen. Dette kort giver dig et øjebliksbillede af firmaet på en skærm.
+**Firmaskærmbilledet** giver et øjebliksbillede af alle oplysninger relateret til et firma, såsom kunder, samarbejdspartnere eller leverandører.
 
-Skærmbilledet ![Firma -screenshot][img3]
+![Firmaskærmbilledet med firmainfo, detaljekortet Personer og firmasidepanelet. -screenshot][img3]
 
-[!include[Intro](includes/company-screen-intro.md)]
+Øverst viser **firmakortet** nøgleoplysninger om virksomheden, såsom kontaktoplysninger, kategori og hovedkontaktperson. Du kan navigere mellem firmaer ved hjælp af knapperne **Forrige** og **Næste** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) nederst til højre på kortet.
 
-I skærmbilledet **Firma** vises hver post i databasen som et arkivkort med alle oplysninger for det pågældende firma.
+Under kortet giver **detaljekorterne** dig mulighed for at se yderligere oplysninger og administrere relaterede poster, såsom personer eller aktiviteter.
 
-Hvis du vil gå frem og tilbage mellem firmaer, skal du klikke på knapperne forrige/næste (![ikon][img2] ![ikon][img1]) nederst til højre på kortene.
+Skærmbilledet giver dig også mulighed for at søge efter firmaer, oprette nye poster, administrere personer, skrive dokumenter og oprette opfølgninger.
 
-Du kan søge efter bestemte firmaer baseret på de kriterier, du angiver. Du kan også skrive dokumenter, foretage opfølgninger og oprette nye firmaer og personer.
+> [!TIP]
+> Du kan åbne firmaets webside fra SuperOffice CRM ved at klikke på adressen, der er angivet i feltet **Websted** på firma- eller projektkortet. Siden åbnes derefter i din standardbrowser.
 
-## <a id="section-tabs"></a>Detaljefaner på Firma
+## Faner på firmakortet
 
-Nederst i skærmbilledet vises følgende [standard-detaljefaner][18]:
+| Fane | Beskrivelse |
+|---|---|
+| [Firma][2] | Hovedfanen til indtastning af centrale firmaoplysninger, herunder adresse og kontaktfelter. |
+| [Mere][19] | Tilpassede felter til yderligere virksomhedsoplysninger. |
+| [Interesser][2] | Afkrydsningsfelter til angivelse af firmaets interesser til udvalg eller kampagner. En prik vises, når interesser er valgt. |
+| [Bemærkning][20] | Fritekstområde til at tilføje noter om firmaet. Noter er markeret med en prik, når de er udfyldt. |
+| [www][21] | Genvej til en URL for visning af websider eller eksterne data relateret til firmaet. |
+| [ERP][22] | Forbinder firmaer til ERP-systemet, hvilket muliggør datasynkronisering og sammenkobling af personer. |
+
+## <a id="section-tabs"></a>Detaljekort på firma
+
+Nederst i skærmbilledet findes følgende [standard detaljekort][18]:
 
 | Detaljekort | Beskrivelse |
 |---|---|
-| [Kontaktpersoner][11] | Det indeholder oplysninger om medarbejdere i det aktive firma. |
-| [Relationer][12] | Viser eventuelle forbindelser mellem virksomheder og/eller personer. |
-| [Aktiviteter][13] | Indeholder alle de aktiviteter, der er knyttet til det aktive firma. |
-| [Projekter][14] | Viser alle projekter for den aktive virksomhed. |
-| [Salg][15] | Indeholder oplysninger om eventuelle salg, som er knyttet til firmaet. |
-| [Sager][16] | Viser SuperOffice Service-anmodninger for det aktive firma. |
-| [ERP][17] | Du kan knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
+| [Personer][11] | Indeholder oplysninger om medarbejdere i det aktive firma. |
+| [Relationer][12] | Viser forbindelser mellem firmaer og/eller personer. |
+| [Aktiviteter][13] | Indeholder alle aktiviteter knyttet til det aktive firma. |
+| [Projekter][14] | Viser alle projekter for det aktive firma. |
+| [Salg][15] | Indeholder oplysninger om salg tilknyttet firmaet. |
+| [Sager][16] | Viser SuperOffice Service-sager for det aktive firma. |
+| [ERP][17] | Her kan du knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
 
 > [!NOTE]
-> [Personer][1], der ikke tilhører et firma, kan findes i skærmbilledet Person.
+> [Personer][1], der ikke er knyttet til et firma, kan findes i skærmbilledet Person.
 
-## Hvad vil du foretage dig?
+## Relateret indhold
 
-* [Oprette et nyt firma][2]
-* [Redigere et firma][3]
-* [Kopiere et firma][4]
-* [Flet kontakter][5]
-* [Slette et firma][6]
-* [Udskrive oplysninger om et firma][7]
-* [Opdatere mange Virksomhedsoplysninger][9]
-* [Masseslette kontakter og firmaer fra markeringen][10]
-* [Bruge papirkurven til at gendanne firmaer og personer][8]
+* [Opret et nyt firma][2]
+* [Rediger et firma][3]
+* [Flet firmaer][5]
+* [Udskriv firmaoplysninger][7]
+* [Masseredigér firmaoplysninger][9]
+* [Masseslet personer og firmaer fra et udvalg][10]
+* [Brug papirkurven til at gendanne firmaer og personer][8]
 
 <!-- Referenced links -->
 [1]: ../../contact/learn/index.md
 [2]: create.md
 [3]: edit.md
-[4]: copy.md
 [5]: merge-companies.md
-[6]: delete.md
 [7]: ../../learn/basics/print.md
 [8]: ../../learn/basics/deleting-elements.md#restore
 [9]: ../../search-options/selection/learn/howto/bulk-update.md
@@ -72,8 +83,10 @@ Nederst i skærmbilledet vises følgende [standard-detaljefaner][18]:
 [16]: ../../learn/section-tabs/requests-tab.md
 [17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/company/company-month-mini.png
+[img3]: ../../../media/loc/en/company/company-screen.png

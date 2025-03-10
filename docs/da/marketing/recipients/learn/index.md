@@ -1,15 +1,15 @@
 ---
 uid: help-da-mailing-targets
 title: Oprette en målliste
-description: "Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste."
+description: Formålet med din mailudsendelse er bestemmende for din målgruppe. Når du ved, hvad du vil opnå med din udsendelse, skal du oprette en specifik målliste.
 keywords: Marketing, udsendelse
 author: Bergfrid Dias
 date: 02.09.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Oprette en målliste
@@ -61,7 +61,7 @@ Det du skal tænke på, når du vil segmentere databasen:
 
 ![Tjek, hvad din kontaktpersons interesser er, under fanen Interesse på visitkortet -screenshot][img1]
 
-## <a id ="selections" />Markeringer til mållister
+## <a id ="selections"></a>Markeringer til mållister
 
 Markér et udvalg af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
 

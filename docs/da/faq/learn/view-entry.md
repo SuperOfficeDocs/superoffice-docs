@@ -2,9 +2,9 @@
 uid: help-da-faq-view-entry
 title: Visning af FAQ-poster
 description: Visning af FAQ-poster
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: FAQ
+author: Bergfrid Dias
+date: 02.25.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -13,7 +13,7 @@ language: da
 
 # Visning af FAQ-poster (i SuperOffice)
 
-1. Gå til ![ikonet][img1] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **FAQ**. Du kommer til skærmbilledet FAQ, som indeholder FAQ-poster i en [mappestruktur][1], som du selv kan oprette og redigere.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **FAQ**. Du kommer til skærmbilledet FAQ, som indeholder FAQ-poster i en [mappestruktur][1], som du selv kan oprette og redigere.
 
 2. Hvis listen indeholder flere undermapper, skal du gå til den ønskede undermappe.
 
@@ -26,7 +26,7 @@ For at redigere den aktuelle FAQ-post skal du klikke på knappen **Rediger post*
 
 Hvis du vil publicere den aktuelle post med ofte stillede spørgsmål, skal du vælge **Gå fremad i arbejdsgangen**. Hvis du vil annullere publiceringen, skal du vælge **Flyt tilbage i arbejdsgangen**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af FAQ-poster][5]
 * [Udgivelse af FAQ-poster][4]
@@ -41,6 +41,3 @@ Hvis du vil publicere den aktuelle post med ofte stillede spørgsmål, skal du v
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

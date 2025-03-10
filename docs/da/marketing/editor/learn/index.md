@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
 topic: concept
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Træk og slip-editor
@@ -27,7 +27,7 @@ På trinet **Indhold** kan du redigere meddelelsens udseende og indhold.
 SuperOffice Markedsføring leveres med flere [færdige meddelelsesskabeloner][9], og du kan nemt flytte indhold rundt, så meddelelsen får det ønskede udseende. Gem ofte brugt indhold som blokke for at spare tid.
 
 > [!TIP]
-> Vi anbefaler normalt en maksimal bredde på 600 pixel for udsendelser. Du kan også styre, hvordan udsendelsen ser ud på f.eks. smartphones ved at klikke på **Mobil** ![ikon][img4] i menuen i nederste venstre hjørne. Se også [Tilpasse meddelelsen til visning på mobile enheder][3].
+> Vi anbefaler normalt en maksimal bredde på 600 pixel for udsendelser. Du kan også styre, hvordan udsendelsen ser ud på f.eks. smartphones ved at klikke på **Mobil** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) i menuen i nederste venstre hjørne. Se også [Tilpasse meddelelsen til visning på mobile enheder][3].
 
 ## Rediger kolonner og blokke/afsnit
 
@@ -87,8 +87,8 @@ Fra den globale menu kan du få vist, fortryde eller gentage handlinger og se, h
 | Ikon | Navn | Funktion |
 |:-:|---|---|
 | ![ikon][img11] | Fortryd/Gendan | Fortryder den sidste handling eller gendanner en fortrudt handling. |
-| ![ikon][img2] | Forhåndsvisning | Åbner en forhåndsvisning af meddelelsen på en computer- eller mobilskærm. |
-| ![ikon][img3],![ikon][img4] | Skift visning for pc- eller mobilenheder | Bruges til at se, hvordan det ser ud på en pc eller smartphone. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Forhåndsvisning | Åbner en forhåndsvisning af meddelelsen på en computer- eller mobilskærm. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Skift visning for pc- eller mobilenheder | Bruges til at se, hvordan det ser ud på en pc eller smartphone. |
 
 ## Genvejsmenu
 
@@ -139,7 +139,7 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 
 [Læs om den gamle editor][2]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføj indhold][1]
 * [Rediger indhold][5]
@@ -159,9 +159,6 @@ I begyndelsen af 2021 tilføjede SuperOffice en ny meddelelseseditor ("Træk og 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

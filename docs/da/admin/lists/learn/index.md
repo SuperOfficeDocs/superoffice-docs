@@ -59,7 +59,7 @@ Se denne video for at se, hvordan du kan redigere dine salgslister, så de passe
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
-## Relaterede emner
+## Relateret indhold
 
 * [Forekomster][2]
 * [Organisering af lister][3]

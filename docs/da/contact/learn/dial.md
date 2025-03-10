@@ -1,40 +1,43 @@
 ---
 uid: help-da-contact-dial
-title: Opringning af kontakter
-description: Opringning af kontakter og telefonegenskaber
-author: SuperOffice RnD
-date: 09.22.2023
-keywords: dagbog, opfølgning, telefon, ring til, ring op
+title: Ring til personer
+description: Sådan ringer du til personer i SuperOffice CRM.
+keywords: dagbog, opfølgning, telefon, ring til, ring op, telefonegenskaber
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Opkald til personer
+# Ring til personer
 
-Hvis IP-telefoniløsningen er konfigureret korrekt, kan du ringe til en person direkte fra SuperOffice CRM på en af følgende måder:
+Hvis din IP-telefoniløsning er konfigureret korrekt, kan du ringe til en person direkte fra SuperOffice CRM på en af følgende måder:
 
-* Klikke på et telefonnummer i skærmbilledet Firma
-* Klik på ![ikon][img1] i en dialogboks.
-* Højreklikke på en person i et detaljekort og vælge**Ring*navn***.
-* Opkald til personer.
+* Klik på et telefonnummer i skærmbilledet **Firma**.
+* Klik på <i class="ph ph-phone" aria-label="Telefonikon"></i> i en dialogboks.
+* Højreklik på en person i et detaljekort, og vælg **Ring *navn***.
+* Foretag opkald til personer.
 
-## Opkald til en person fra dialogboksene Aftale, opgave, Samtale og Dokument
+## Ring til en person fra dialogboksene Opfølgning og Dokument
 
-Dette kan du gøre ved hjælp af telefonknappen i blandt andre dialogboksene **Aftale**, **Opgave**, **Samtale** og **Dokument**:
+Dette kan du gøre ved hjælp af telefonknappen i blandt andet dialogboksene **Opfølgning** og **Dokument**:
 
-1. Åbning af en aftale, en opgave, en samtale eller et dokument.
+1. Åbn en opfølgning eller et dokument.
 2. Vælg den ønskede person i feltet **Person** i dialogboksen.
-3. Klik på knappen ved siden af personfeltet ![ikon][img1]. Der vises en liste over numrene til den aktuelle person.
+3. Klik på opkaldsknappen ved siden af personfeltet. Der vises en liste over numrene til den valgte person.
 4. Vælg det telefonnummer, du vil ringe til. Personen ringes op.
 
-## Opkald fra detaljekort (til personer, udvalgsmedlemmer, interessenter og deltagere)
+## Ring fra detaljekort (til personer, udvalgsmedlemmer, interessenter og deltagere)
 
 1. Gå til et detaljekort, som indeholder personer.
 2. Klik på et telefonnummer i en kolonne, der indeholder telefonnumre. Personen ringes op.
 
 ## Tekniske krav
 
-Hvis du vil bruge telefonfunktionerne i SuperOffice, skal du måske installere softwaren TAPI.
+Hvis du vil bruge telefonfunktionerne i SuperOffice, skal du muligvis installere TAPI-software.
 
 ### Anbefalede leverandører
 
@@ -44,18 +47,15 @@ Hvis du vil bruge telefonfunktionerne i SuperOffice, skal du måske installere s
 
 ## Præferencer
 
-Hvis du har installeret IP-telefon, Skype eller FaceTime, kan du ringe fra SuperOffice CRM. Præferencen for **telefonforbindelsesformat** skal være indstillet korrekt, enten under **Præferencer** > **Standardværdier** eller under Indstillinger og vedligeholdelse. I Indstillinger og vedligeholdelse kan telefonegenskaberne indstilles for enkelte brugere, grupper af brugere eller hele systemet.
+Hvis IP-telefon, Skype eller FaceTime er installeret, kan du foretage opkald fra SuperOffice CRM. Præferencen **Telefonforbindelsesformat** skal være korrekt indstillet, enten under **Præferencer** > **Standardværdier** eller i Indstillinger og vedligeholdelse. I Indstillinger og vedligeholdelse kan telefonpræferencer indstilles for individuelle brugere, brugergrupper eller hele systemet.
 
 ### Tilgængelige parametre
 
-**IP-telefon**: tel:%p (standardværdi)
-**Skype**: callto:%p
-**FaceTime**: facetime:%p
+* **IP-telefon**: `tel:%p` (standardværdi)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
-Det er også muligt at anvende [Skabelonvariabler][2] i telefonparametrene.
+Det er også muligt at anvende [skabelonvariabler][2] i telefonparametrene.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png

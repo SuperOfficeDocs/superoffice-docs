@@ -1,7 +1,7 @@
 ---
 uid: help-da-quote-add-products
-title: "Tilføj produkter, der skal med i tilbuddet"
-description: "Tilføj produkter, der skal med i tilbuddet"
+title: Tilføj produkter, der skal med i tilbuddet
+description: Tilføj produkter, der skal med i tilbuddet
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: tilbud
@@ -24,7 +24,7 @@ I dialogboksen **Tilføj/rediger produkt** kan du tilføje et produkt og angive 
 1. Begynd at skrive navnet på produktet eller produktkoden i feltet **Produktsøgning** . Resultatlisten opdateres automatisk. Du kan søge på hele eller dele af både produktnavnet og produktkoden.
 
     > [!TIP]
-    > Hvis avanceret søgning understøttes, kan du klikke på søgeknap ![ikon][img1] i **feltet Produktsøgning** for at søge efter og [tilføje flere produkter samtidigt](#add-multiple).
+    > Hvis avanceret søgning understøttes, kan du klikke på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> i feltet **Produktsøgning** for at søge efter og [tilføje flere produkter samtidigt](#add-multiple).
 
 1. Klik på det ønskede produkt på listen. Dialogboksen opdateres med produktinformation.
 
@@ -40,7 +40,7 @@ I dialogboksen **Tilføj/rediger produkt** kan du tilføje et produkt og angive 
 
 1. Klik på **Tilføj** nederst på fanen **Produkter** i dialogboksen **Rediger tilbud for**.
 
-2. Begynd at skrive et produktnavn i feltet **Produktsøgning** for at søge efter et produkt. Klik på søgeikonet ![ikon][img1] for at søge efter produkter ved hjælp af mange forskellige kriterier, for eksempel efter sortiment produktgrupper/kategorier, navn, varekoder osv. Søgningen omfatter alle aktive prislister med den aktuelle valuta.
+2. Begynd at skrive et produktnavn i feltet **Produktsøgning** for at søge efter et produkt. Klik på <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> for at søge efter produkter ved hjælp af mange forskellige kriterier, for eksempel efter sortiment produktgrupper/kategorier, navn, varekoder osv. Søgningen omfatter alle aktive prislister med den aktuelle valuta.
 
 3. Når du har fundet de produkter, du vil tilføje tilbuddet, markerer du dem (**Ctrl+klik**), og klikker på **OK**. Produkterne vises på fanen **Produkter** (eller på fanen for det alternativ, du har oprettet).
 
@@ -86,7 +86,7 @@ Under Indstillinger og vedligeholdelse kan der defineres forskellige regler for,
 
 * I dialogboksen **Tilføj/rediger produkt**
 * I dialogboksen **Rediger tilbud**
-* På produktlinjer under detaljekorter **Tilbud** og fanen **Produkter** (og alternativer) i et tilbud
+* På produktlinjer under detaljekortet **Tilbud** og fanen **Produkter** (og alternativer) i et tilbud
 
 ### Hvad forårsager disse advarsler og meddelelser?
 
@@ -101,6 +101,3 @@ Advarsler og meddelelser kan f.eks. skyldes:
 
 <!-- Referenced links -->
 [1]: approve.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png

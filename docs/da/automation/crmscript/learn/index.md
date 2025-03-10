@@ -1,10 +1,10 @@
 ---
 uid: help-da-crmscript
 title: CRMScript
-description: "CRMScript er en funktion, der giver dig mulighed for at automatisere opgaver i eller ændre funktionsmåden for SuperOffice."
+description: CRMScript er en funktion, der giver dig mulighed for at automatisere opgaver i eller ændre funktionsmåden for SuperOffice.
+keywords: CRMScript
 author: SuperOffice RnD
 date: 02.22.2023
-keywords: CRMScript
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ De forskellige værktøjer, makroer og scripts, udløsere og planlagte opgaver, 
 
 ## Få adgang til CRMScript
 
-For at få adgang til funktionerne i CRMScript skal du åbne SuperOffice Indstillinger og vedligeholdelse og klikke på ![ikonet][img1] **CRMScript** i navigatoren.
+For at få adgang til funktionerne i CRMScript skal du åbne SuperOffice Indstillinger og vedligeholdelse og klikke på <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** i navigatoren.
 
 Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. når der oprettes et nyt salg, eller når en sag lukkes. Udløsere kan reagere lydløst på, hvad der sker, eller blokere handlingen og vise en forklaring tilbage til brugeren.
 
@@ -31,7 +31,7 @@ Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. n�
 * [Fejlfindingssessioner][4] - Find og ret fejl inde i dine scripts og makroer.
 * [Sporing][5] - Spor alle detaljer i udførelsen af et script eller en makro, og gem i en logfil.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Lær CRMScript-sproget][6]
 * [CRMScript API-reference][7]
@@ -44,6 +44,3 @@ Udløsere er scripts, der udføres for bestemte hændelser i systemet, f.eks. n�
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

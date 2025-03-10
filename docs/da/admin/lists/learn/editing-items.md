@@ -1,10 +1,10 @@
 ---
 uid: help-da-edit-items
 title: Redigering af forekomster
-description: "I denne vejledning lærer du, hvordan du redigerer en forekomst."
+description: I denne vejledning lærer du, hvordan du redigerer en forekomst.
+keywords: forekomst, lister
 author: SuperOffice RnD
-date: 02.23.2023
-keywords: forekomst
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -58,6 +58,6 @@ Se denne video for at få mere at vide om, hvordan du kan redigere forekomster i
 [1]: deleting-items.md
 [2]: specialized-lists.md
 [3]: privacy-source-add.md
-[4]: sale-type.md
+[4]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

@@ -4,7 +4,7 @@ title: Tilføj sag eller meddelelse
 description: Tilføj sag eller meddelelse
 keywords: SuperOffice for Outlook, Outlook, e-mail, tilføj sag, tilføj meddelelse
 author: Erik Lebiko, Bergfrid Dias
-date: 10.29.2024
+date: 02.25.2025
 version_sofo: 2024.8.12
 topic: howto
 audience: person
@@ -38,6 +38,6 @@ Du kan oprette en [sag][1] i SuperOffice direkte fra Outlook. Hvis e-mailen vedr
 > Du kan også oprette en opfølgning eller et salg direkte fra e-mailen.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

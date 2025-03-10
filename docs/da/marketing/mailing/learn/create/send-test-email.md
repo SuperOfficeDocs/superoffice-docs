@@ -1,7 +1,7 @@
 ---
 uid: help-da-mailing-send-test
 title: Test mailudsendelsen ved at sende en test-e-mail
-description: "I denne vejledning lærer du, hvordan du bruger en webformular."
+description: I denne vejledning lærer du, hvordan du bruger en webformular.
 author: SuperOffice RnD
 date: 02.20.2023
 keywords: Marketing
@@ -42,11 +42,10 @@ Når du tester en udsendelse, er det vigtigt at kontrollere følgende:
 Når du har afsendt en testudsendelse, skal du nulstille links-tællerne i meddelelsen. Ellers vil listen vise både dine egne og andres klik på links i forbindelse med testen.
 
 1. Gå til fanebladet **Sporede links**
-2. Klik på ![ikonet][img1] menuknappen ud for det relevante link og vælg **Nulstil**. Kolonnen **Klik** indstilles på **0**. Oplysninger om hvilke kunder, der har klikket på linket, bliver også slettet.
+2. Klik på menuknappen ud for det relevante link og vælg **Nulstil**. Kolonnen **Klik** indstilles på **0**. Oplysninger om hvilke kunder, der har klikket på linket, bliver også slettet.
 
 <!-- Referenced links -->
 [1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png
 [img2]: ../../../../../media/loc/en/marketing/test-mailing.png

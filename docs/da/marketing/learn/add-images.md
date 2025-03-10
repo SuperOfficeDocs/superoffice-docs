@@ -5,7 +5,7 @@ description: Tilføj billeder
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Marketing
-topic: help
+topic: howto
 language: da
 ---
 
@@ -17,7 +17,7 @@ language: da
 
     [Hvordan opretter jeg en mappe til mailudsendelser][2]
 
-3. Klik på ![ikonet][img1] **Opgave**. Du kommer til skærmbilledet **Egenskaber for billede**.
+3. Klik på **Tilføj** (<i class="ph ph-plus" aria-hidden="true"></i>). Du kommer til skærmbilledet **Egenskaber for billede**.
 
 4. Angiv et beskrivende navn for billedet i feltet **Navn**.
 
@@ -39,6 +39,3 @@ language: da
 <!-- Referenced links -->
 [1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

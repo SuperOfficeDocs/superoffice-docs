@@ -15,7 +15,7 @@ language: da
 
 Ved hjælp af fanen **Etiketter** på skærmbilledet Indstillinger kan du ændre navnet på ethvert felt i SuperOffice. Du kan f.eks. beslutte, at alle **Firma**-felter skal kaldes *Organisation* i stedet.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Ændring af etiketter][1]
 * [Nulstilling af etiketter][2]

@@ -1,7 +1,7 @@
 ---
 uid: help-da-automation-macro-create
 title: Opret en makro - eksempel fra SuperOffice
-description: "Eksempel på, hvordan du opretter en makro i SuperOffice."
+description: Eksempel på, hvordan du opretter en makro i SuperOffice.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: script, makro
@@ -24,7 +24,7 @@ Vi vil nu oprette en makro baseret på det ovenstående eksempel.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Vælg ![ikonet][img2] **CRMScript** og fanen for **Makroer og script**. Gør ét af følgende:
+1. Vælg <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** og fanen for **Makroer og script**. Gør ét af følgende:
     * Sådan opretter du en ny makro: Klik på **Ny makro**.
     * Sådan redigeres en eksisterende makro: Klik på makronavnet.
 
@@ -51,6 +51,3 @@ Vi vil nu oprette en makro baseret på det ovenstående eksempel.
 
 <!-- Referenced links -->
 [1]: trigger.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

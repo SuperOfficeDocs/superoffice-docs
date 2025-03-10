@@ -30,7 +30,7 @@ Statiske og dynamiske udvalg oprettes på en lignende måde:
 Trin 1 er anderledes for kombinationsudvalg, fordi du starter med to eksisterende udvalg i stedet for at søge efter data.
 
 > [!TIP]
-> Klik på ![ikon][img4] til højre for kolonneoverskrifterne. Her kan du gruppere og filtrere poster og tilføje/fjerne kolonner. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**. Se også [Detaljekortene][4] for yderligere funktioner.
+> Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskrifterne. Her kan du gruppere og filtrere poster og tilføje/fjerne kolonner. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**. Se også [Detaljekortene][4] for yderligere funktioner.
 
 ## Hvad ønsker du at foretage dig nu?
 
@@ -46,6 +46,3 @@ Trin 1 er anderledes for kombinationsudvalg, fordi du starter med to eksisterend
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md
 [6]: ../update/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../../common/icons/cog-wheel.png

@@ -1,7 +1,7 @@
 ---
 uid: help-da-users
 title: Brugere
-description: "Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools."
+description: Lær hvordan du tilføjer nye brugere, hvordan du tildeler de rette brugerroller og grupper og hjælper brugerne med opsætning og WebTools.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: user

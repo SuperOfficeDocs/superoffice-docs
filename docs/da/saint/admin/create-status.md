@@ -32,7 +32,7 @@ Du vil overvåge firmaer, som du har meget få aktiviteter med, for at undgå ut
 
     * **Navn**: Angiv et beskrivende navn for den status, du vil tilføje.
 
-        Valgfrit: Klik på **A-Z** for at [tilføje oversættelser][8] af statusnavnet.
+        Valgfrit: Klik på <i class="ph ph-translate" aria-label="Translate"></i> for at [tilføje oversættelser][8] af statusnavnet.
 
     * **Beskrivelse**: Angiv en forklarende beskrivelse af status, og hvilke foranstaltninger der kræves eller anbefales. I dette felt kan du også bruge [skabelonvariabler][9] til at skræddersy teksten til det relevante firma, den relevante person eller det relevante projekt.
 
@@ -44,13 +44,13 @@ Du vil overvåge firmaer, som du har meget få aktiviteter med, for at undgå ut
 
 ### Hvad indeholder statuslisten?
 
-![ikon][img3] – ikonet **Visualiser** angiver, om der skal [vises et statusbillede][3] for firma, person eller projektkort, der opfylder statuskriterierne. Ikonet vises kun, hvis du har valgt **Visualiser** på fanen **Billede** for den pågældende status.
+* Ikonet **Visualiser** (<i class="ph ph-eye" aria-hidden="true"></i>) angiver, om der skal [vises et statusbillede][3] for firma, person eller projektkort, der opfylder statuskriterierne. Ikonet vises kun, hvis du har valgt **Visualiser** på fanen **Billede** for den pågældende status.
 
-![ikon][img4] – et rødt kryds angiver, at statussen skal genoprettes. [Statussen skal genoprettes][4], hver gang du tilføjer, redigerer eller sletter et kriterium, eller hvis du for eksempel ændrer en hensigt for en opgave. Statusser med røde kryds opdateres ikke og returnerer ikke aktuelle data, når du bruger SuperOffice CRM.
+* Et rødt kryds angiver, at statussen skal genoprettes. [Statussen skal genoprettes][4], hver gang du tilføjer, redigerer eller sletter et kriterium, eller hvis du for eksempel ændrer en hensigt for en opgave. Statusser med røde kryds opdateres ikke og returnerer ikke aktuelle data, når du bruger SuperOffice CRM.
 
-**Navn** – navnet på statusserne. Slettede statusser vises med rødt, hvis afkrydsningsfeltet **Vis slettede** er på.
+* **Navn** – navnet på statusserne. Slettede statusser vises med rødt, hvis afkrydsningsfeltet **Vis slettede** er på.
 
-**Prioritet** – statussernes prioritet. Prioriteten bestemmer, hvilken status der skal vises, hvis et firma, en person eller et projekt opfylder kriterierne for flere statusser.
+* **Prioritet** – statussernes prioritet. Prioriteten bestemmer, hvilken status der skal vises, hvis et firma, en person eller et projekt opfylder kriterierne for flere statusser.
 
 ## Hvorfor skal jeg angive, hvilken prioritet en status har?
 
@@ -77,6 +77,4 @@ Hvis et firma, en person eller et projekt har flere aktive statusser, vises stat
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

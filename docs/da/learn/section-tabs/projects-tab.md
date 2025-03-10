@@ -4,8 +4,8 @@ title: Projektfanen
 description: Lær hvordan du kan se, tilføje og administrere projekter ved hjælp af detaljekortet Projekter i SuperOffice CRM. Gør det nemmere at holde styr på projekter på tværs af firmaer, personer og mere.
 keywords: fanen Projekter, Projektfanen, Projekter-fanen, detaljekort, projektarkiv
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Detaljekortet **Projekter** indeholder følgende kolonner til at vise nøgleinfo
 
 | Kolonne | Beskrivelse |
 |---|---|
-| Udført | Afkrydsningsfelt, der angiver, om projektet er fuldført. Et markeret felt (![ikon][img3]) betyder udført, mens et tomt felt betyder, at det stadig er i gang. |
+| Udført | Afkrydsningsfelt, der angiver, om projektet er fuldført. Et markeret felt (<i class="ph ph-check" aria-hidden="true"></i>) betyder udført, mens et tomt felt betyder, at det stadig er i gang. |
 | Projektnavn | Navnet på projektet. |
 | Projekttype | Angiver hvilken type projekt det er, såsom internt eller kundeorienteret. |
 | Status | Projektets nuværende status. |
@@ -66,7 +66,7 @@ For at [tilføje projektmedlemmer][4] direkte fra detaljekortet **Projekter**:
 
 ## Yderligere tips
 
-* **Hurtig navigation:** Brug [Navigatøren][7] til hurtigt at skifte mellem forskellige enheder og deres tilhørende faner.
+* **Hurtig navigation:** Brug [Navigatoren][7] til hurtigt at skifte mellem forskellige enheder og deres tilhørende faner.
 
 ## Relateret indhold
 
@@ -86,4 +86,3 @@ For at [tilføje projektmedlemmer][4] direkte fra detaljekortet **Projekter**:
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png

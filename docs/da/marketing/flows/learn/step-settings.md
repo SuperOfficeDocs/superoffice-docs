@@ -7,15 +7,15 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.17.2024
 version: 10.3.9
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Trinindstillinger
 
 > [!NOTE]
-> Mange felter har en liste over foruddefinerede værdier, du kan vælge fra. Klik på pilen ![icon][img4] for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, såsom et udvalgsnavn.
+> Mange felter har en liste over foruddefinerede værdier, du kan vælge fra. Klik på <i class="ph ph-caret-down" aria-label="Chevron"></i> for at udvide listen. Vælg derefter en værdi for det felt. Alternativt kan du begynde at skrive i feltet for at søge efter en bestemt værdi, såsom et udvalgsnavn.
 
 ## Tilføj til udvalg og/eller projekt
 
@@ -159,7 +159,4 @@ Dette fungerer på samme måde som [masseopdatering][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png
+[14]: ../../../sale/learn/sales-guides.md

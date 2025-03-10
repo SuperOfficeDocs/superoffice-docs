@@ -17,9 +17,9 @@ language: da
 
 For at illustrere denne funktion vil vi tilføje en ny navigatorgruppe i navigatoren til venstre i SuperOffice. Vi vil tilføje en ekstramenu i den nye navigatorgruppe. I vores eksempel vil vi tilføje navigatorgruppe "Websteder" med nogle nyttige websteder.
 
-1. Vælg ![ikon][img2] **Systemindstillinger** > **Systemdesign** > **Ekstramenuer**.
+1. Vælg <i class="ph ph-list" aria-label="Main menu"></i> **Systemindstillinger** > **Systemdesign** > **Ekstramenuer**.
 
-2. Hold musemarkøren over mappen **Navigator**, og klik på ![ikon][img1].
+2. Hold musemarkøren over mappen **Navigator**, og klik på **+**.
 
 3. Indtast "Websteder" i feltet **Overskrift** (maks. 14 tegn).
 
@@ -29,11 +29,11 @@ For at illustrere denne funktion vil vi tilføje en ny navigatorgruppe i navigat
 
 6. Klik på **OK**. Den nye navigatorgruppe vises til venstre. Navigatorgruppen er tom, så vi skal tilføje websted. I dette tilfælde tilføjer vi Google.
 
-7. Hold musemarkøren hen over den navigatorgruppe, du netop har oprettet, og klik på ![ikon][img1]. Skærmbilledet **Egenskaber for menu** vises.
+7. Hold musemarkøren hen over den navigatorgruppe, du netop har oprettet, og klik på **+**. Skærmbilledet **Egenskaber for menu** vises.
 
 8. Indtast "Google" i feltet **Overskrift** (maks. 20 tegn).
 
-9. Vælg **Brug URL**, og indtast "<http://www.google.com>" i feltet **URL**.
+9. Vælg **Brug URL**, og indtast `http://www.google.com` i feltet **URL**.
 
 10. Du må IKKE vælge **Tilføj id** eller **Tilføj &lt;usec&gt;**, da der så vil blive tilføjet værdier bag den URL, som du har defineret.
 
@@ -47,7 +47,3 @@ For at illustrere denne funktion vil vi tilføje en ny navigatorgruppe i navigat
 
 <!-- Referenced links -->
 [1]: properties.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

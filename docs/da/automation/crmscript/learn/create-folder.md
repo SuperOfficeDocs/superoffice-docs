@@ -17,7 +17,7 @@ Dette skærmbillede anvendes til at redigere egenskaberne for en ny eller eksist
 
 ## Oprettelse af mapper
 
-1. Klik på ![ikon][img1] **Ny mappe** øverst på skærmen.
+1. Klik på <i class="ph ph-folder" aria-hidden="true"></i> **Ny mappe** øverst på skærmen.
 2. I feltet **Mappe** vælger du en overordnet mappe på listen.
 3. Angiv et beskrivende navn på mappen i feltet **Navn**.
 4. Klik på **OK**. Den nye mappe oprettes.
@@ -39,8 +39,3 @@ Når du sletter en mappe, slettes alt dens indhold (såsom valg, FAQ-poster, sva
 2. Klik på selve mappenavnet.
 3. Klik på **Slet**.
 4. Klik på **OK** for at bekræfte. Mappen og indholdet i den fjernes fra SuperOffice.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

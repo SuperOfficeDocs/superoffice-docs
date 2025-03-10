@@ -23,7 +23,7 @@ language: da
 
 4. Foretag dine ændringer, og klik på **Gem**.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Rediger anonym bruger eller systembruger (onsite)][1]
 

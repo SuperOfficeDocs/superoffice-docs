@@ -38,7 +38,7 @@ Du kan starte følgende hændelsestyper fra fanen **Status** på skærmbilledet 
 
 [!include[Terminate events](includes/note-terminate-event.md)]
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af systemhandlinger][1]
 

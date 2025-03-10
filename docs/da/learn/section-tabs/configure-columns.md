@@ -4,8 +4,8 @@ title: Ændre kolonnevisningen
 description: Ændre kolonnevisningen
 keywords: detaljekort, arkiv, kolonne
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,10 +16,12 @@ language: da
 
 Du kan tilpasse kolonnerne i detaljekortene, så de viser præcis de oplysninger, du har brug for. Du kan ændre, hvilke kolonner der skal vises i oversigterne, samt hvilken rækkefølge og bredde.
 
-Ved at konfigurere kolonner kan du tilpasse viste oplysninger og arbejde med CRM-data på den måde, du har brug for. Lær, hvordan du konfigurerer kolonner med denne video, eller følg fremgangsmåden nedenfor (videoens længde - 1:44):
+Ved at konfigurere kolonner kan du tilpasse viste oplysninger og arbejde med CRM-data på den måde, du har brug for. Lær, hvordan du konfigurerer kolonner med denne video, eller følg fremgangsmåden nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
+
+(videoens længde - 1:44)
 
 ## Ændring af kolonnernes rækkefølge
 
@@ -28,7 +30,7 @@ Hvis du vil ændre rækkefølgen af kolonnerne under et detaljekort, skal du kli
 ## Tilføj eller fjern kolonne
 
 1. Gå til det detaljekort, du vil redigere.
-2. Klik på ![ikon][img1] til højre for kolonneoverskrifterne. Der vises en dialogboks.
+2. Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskrifterne. Der vises en dialogboks.
 3. Vælg eller fravælg de relevante kolonner. Brug felterne **Filtrer kolonner** til at filtrere de kolonner, der vises.
 4. Klik på **OK**.
 
@@ -71,11 +73,11 @@ Du kan udføre beregninger som sum, gennemsnit eller min/max på dato- og talfel
 Du kan angive kolonnernes bredder, så de skal justeres automatisk i henhold til kolonnernes indhold. Når kolonner tilføjes eller fjernes, justeres alle kolonnebredder efter, så de passer bedst muligt hver gang. Hvis der er for mange kolonner til at kunne være på den tilgængelige plads, vises et horisontalt rullefelt.
 
 1. Gå til det detaljekort, du vil redigere.
-2. Klik på ![ikon][img1] til højre for kolonneoverskrifterne. Der vises en dialogboks.
+2. Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskrifterne. Der vises en dialogboks.
 3. Vælg **Tilpas kolonnebredde automatisk**.
 4. Klik på **OK**.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Gruppelister][3]
 * [Filtrer detaljekortene][1]
@@ -87,7 +89,6 @@ Du kan angive kolonnernes bredder, så de skal justeres automatisk i henhold til
 [3]: group.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

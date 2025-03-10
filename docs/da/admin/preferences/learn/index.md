@@ -1,21 +1,21 @@
 ---
 uid: help-da-preferences
 title: Præferencer
-description: "Administratorer kan indstille præferencer for forskellige funktioner i systemet for bestemte brugere, brugergrupper eller for hele SuperOffice CRM (globale præferencer)."
-author: Bergfrid Dias
-date: 03.21.2023
+description: Administratorer kan indstille præferencer for forskellige funktioner i systemet for bestemte brugere, brugergrupper eller for hele SuperOffice CRM (globale præferencer).
 keywords: indstillinger, præferencer
+author: Bergfrid Dias
+date: 02.28.2025
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
 ---
 
-# Præferencer
+# Præferencer <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 På skærmbilledet Præferencer kan du angive præferencer for hele systemet (globalt), én database, én brugergruppe eller en individuel bruger. Præferencer, der kun kan angives på globalt (system)niveau, findes under fanen **[Globale præferencer][1]**.
 
-Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at tilpasse dem til egen brug ved at gå til **Personlige indstillinger** > **Præferencer** i toplinjen. Hvilke præferencer der vises for brugeren, afhænger af, hvad der er angivet i Indstillinger og vedligeholdelse.
+Brugerne kan redigere indstillingerne for [individuelle præferencer][4] for at tilpasse dem til egen brug ved at gå til **Personlige indstillinger** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Præferencer** i toplinjen. Hvilke præferencer der vises for brugeren, afhænger af, hvad der er angivet i Indstillinger og vedligeholdelse.
 
 Derudover kan du konfigurere videomøder under fanen [Videomøder][8] og dokumentbiblioteket under fanen [Dokumentbibliotek][9].
 
@@ -58,7 +58,7 @@ Nogle [præferencer][1] kan kun indstilles på globalt niveau:
 
 ### Ændring af globale præferencer
 
-Hvis du vil redigere disse indstillinger, skal du gå til skærmbilledet ![icon][img1] **Præferencer** og vælge fanen **Globale præferencer**.
+Hvis du vil redigere disse indstillinger, skal du gå til skærmbilledet **Præferencer** og vælge fanen **Globale præferencer**.
 
 * De forskellige præferencer er opdelt i sektioner.
 * Hold musemarkøren over en præference for at få vist yderligere oplysninger.
@@ -121,6 +121,3 @@ Du kan sortere rækkerne i kolonnerne ved at klikke på den ønskede kolonneover
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

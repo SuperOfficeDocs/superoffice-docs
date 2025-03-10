@@ -1,11 +1,16 @@
 ---
 uid: help-da-reply-template-folder
 title: Administration af mapper med svarskabeloner
-description: Administration af mapper med svarskabeloner
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: sag, svar, mappe
+description: Organiser svargabeloner ved hjælp af en tilpasselig mappestruktur for nem adgang og logisk gruppering. Opret undermapper og administrer skabeloner effektivt.
+keywords: opret mappe, slet mappe, svarskabelon, mappestruktur, undermappe, sag, svar, mappe
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
+audience_tooltip: SuperOffice Service
 language: da
 ---
 
@@ -30,7 +35,5 @@ Før du sletter en svarskabelonmappe, skal du fjerne alle posterne i den. Dette 
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: delete.md
+[2]: edit.md#delete
 [3]: edit.md
-
-<!-- Referenced images -->

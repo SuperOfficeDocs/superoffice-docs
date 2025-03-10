@@ -3,7 +3,7 @@ uid: help-da-email-filter
 title: E-mailfiltre
 description: E-mailfiltre
 author: SuperOffice RnD
-date: 12.12.2023
+date: 02.25.2025
 version: 10.2.11
 keywords: e-mail
 topic: concept
@@ -72,7 +72,7 @@ På fanen **E-mail-filter** finder du en oversigt over eksisterende e-mail-filtr
 
 * **Marker e-mail som returpost**: Hvis du markerer denne valgmulighed, vil e-mails, der håndteres af dette filter, blive markeret som returpost. Det kan være relevant for e-mails modtaget fra postmaster, mailer-daemon osv.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af e-mail-filtre][1]
 * [Slet e-mail-filtre][2]
@@ -80,6 +80,6 @@ På fanen **E-mail-filter** finder du en oversigt over eksisterende e-mail-filtr
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
-[3]: ../../../../request/learn/type/index.md
+[3]: ../../../../request/admin/type/index.md
 
 <!-- Referenced images -->

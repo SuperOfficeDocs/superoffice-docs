@@ -1,7 +1,7 @@
 ---
 uid: help-da-add-consent-purpose
 title: Tilføjelse af samtykkeformål
-description: "Få flere oplysninger om, hvordan du konfigurerer indstillingerne for Privacy for dit firma."
+description: Få flere oplysninger om, hvordan du konfigurerer indstillingerne for Privacy for dit firma.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: Indstillinger og vedligeholdelse, personbeskyttelse, samtykke
@@ -18,7 +18,7 @@ Se denne video, og find ud af, hvordan du tilføjer og redigerer formål med beh
 
 ## Trin
 
-1. Gå til Indstillinger og vedligeholdelse, og klik på knappen **Privacy** i Navigator (![ikon][img2]).
+1. Gå til Indstillinger og vedligeholdelse, og klik på knappen **Privacy** i Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Klik på **Tilføj** under listen over formål.
 
@@ -45,11 +45,11 @@ Se denne video, og find ud af, hvordan du tilføjer og redigerer formål med beh
         * Bekræftelse af, at dataene ikke deles med andre parter og gemmes sikkert
         * Information om, hvordan de til enhver tid kan ændre eller trække samtykke tilbage
 
-4. Klik på ![ikon][img1] ud for et felt for at tilføje nye eller redigere eksisterende [oversættelser][1] af feltteksterne.
+4. Klik på <i class="ph ph-translate" aria-label="Translate"></i> ud for et felt for at tilføje nye eller redigere eksisterende [oversættelser][1] af feltteksterne.
 
 5. Klik på **Gem**, når du er færdig.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Personbeskyttelse – Retsgrundlag][2]
 * [Personbeskyttelse – Kilde][3]
@@ -58,7 +58,3 @@ Se denne video, og find ud af, hvordan du tilføjer og redigerer formål med beh
 [1]: ../../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../index.md#legal-basis
 [3]: ../index.md#source
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

@@ -1,7 +1,7 @@
 ---
 uid: help-da-import-products-from-excel
 title: Import af produkter fra Excel
-description: "I denne guide lærer du, hvordan du kan importere alle dine produkter, beskrivelser og produktkoder."
+description: I denne guide lærer du, hvordan du kan importere alle dine produkter, beskrivelser og produktkoder.
 author: Bergfrid Dias
 date: 02.22.2023
 keywords: importer, produkt, Excel
@@ -69,7 +69,7 @@ Da Excel-regnearket kan indeholde alt fra nogle få kolonner til et meget stort 
 
     | Ikon | Beskrivelse |
     |---|---|
-    | ![icon][img2] | Der er et problem med dataene i denne række. Se forklaringsteksten i tabeloverskriften. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | Der er et problem med dataene i denne række. Se forklaringsteksten i tabeloverskriften. |
     | ![icon][img3] | Produktet findes ikke allerede og vil blive tilføjet. |
     | ![icon][img4] | Produktet findes allerede og vil blive opdateret. |
     | tom | Ingen opdatering. |
@@ -95,6 +95,5 @@ Når importen er fuldført, vises en liste over de importerede produkter. Over l
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.11.2024
 version: 10
 topic: howto
-language: da
 audience: settings
 audience_tooltip: Settings and maintenance
+language: da
 ---
 
 # Rediger dokumentskabelon
@@ -41,7 +41,7 @@ Du kan redigere de standardskabeloner, der følger med SuperOffice CRM, og gemme
 > [!NOTE]
 > Hvis du forsøger at erstatte den eksisterende dokumentskabelon uden at ændre navnet, omdøber SuperOffice den opdaterede version af skabelonen.
 
-## Relateret
+## Relateret indhold
 
 * [Oprettelse af et skabelondokument][2]
 * [Skabelonreference][3]

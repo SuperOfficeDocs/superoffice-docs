@@ -4,8 +4,8 @@ title: Filtrer detaljekortene
 description: Sådan bruger du filtre i detaljekortene.
 keywords: detaljekort, filtrere
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,18 +24,19 @@ Filtre er personlige. De filtre, du bruger, er kun synlige for dig, og du kan ti
 
 Flere filtre kan være aktive samtidig. Hvis et detaljekort ikke viser de forventede poster, skal du kontrollere filterindstillingerne.
 
-Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner med denne korte video, eller læs vejledningen nedenfor (videolængde - 2:10):
+Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner med denne korte video, eller læs vejledningen nedenfor:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(videolængde - 2:10)
 
 ## Muligheder
 
 | Mulighed | Beskrivelse |
 |---|---|
-| ![ikon][img2] (filterikonet) | Du kan filtrere aktiviteter og salgssektionsfaner efter dato, brugere og grupper. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | Du kan filtrere aktiviteter og salgssektionsfaner efter dato, brugere og grupper. Klik på tragtikonet på en kolonneoverskrift for at filtrere på den pågældende kolonne. |
 | Aktivitetsfiltre (afkrydsningsfelter) | Du kan filtrere aktiviteter efter type (foruddefinerede filtre). Klik på pilen, og vælg det ønskede. |
-| ![ikon][img3] (kolonnefilter) | Klik på tragtikonet på en kolonneoverskrift for at filtrere på den pågældende kolonne. |
 
 > [!NOTE]
 > Kolonnefilteret er ikke tilgængeligt i alle detaljekort. Ikke alle kolonner kan filtreres.
@@ -46,7 +47,7 @@ Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner 
 
 2. Vælg detaljekortet **Aktiviteter** eller **Salg**.
 
-3. Marker ![ikonet][img2] filterikon.
+3. Marker <i class="ph ph-funnel" aria-label="filterikon"></i>.
 
 4. I feltet **Fra** angiver du datoen for, hvor langt tilbage i tiden du vil have vist aktiviteter eller salg fra.
 
@@ -67,13 +68,13 @@ Få mere at vide om, hvordan du tilpasser visninger ved at konfigurere kolonner 
 7. Klik på **OK**. Fanerne viser alle aktiviteter eller salg, der matcher de kriterier, du har angivet.
 
 > [!TIP]
-> Hold musemarkøren over ![ikon][img2] Filter for at vise de aktive filterindstillinger.
+> Hold musemarkøren over filterikon for at vise de aktive filterindstillinger.
 >
 > Klik på **Vis antal** nederst til højre i detaljekortet for at se, hvor mange poster der vises. Antallet ændres afhængigt af de aktive filtre.
 
 ## Aktivering af kolonnefilteret
 
-1. Klik på ![ikon][img1] til højre for kolonneoverskrifterne, og vælg **Aktivér filter**.
+1. Klik på <i class="ph ph-funnel" aria-label="Filter icon"></i> til højre for kolonneoverskrifterne, og vælg **Aktivér filter**.
 
     ![Klik på knappen Indstillinger på det arkiv, du har valgt. -screenshot][img11]
 
@@ -97,13 +98,9 @@ Nu har alle kolonnerne i dit arkiv et tragtikon bag sig.
 
     Hvis du f.eks. leder efter et dokument, der er oprettet af en af dine kolleger, skal du vælge vedkommendes navn og den type dokument, du leder efter.
 
-    ![Klik på Filter for at indstille det og vise det filtrerede arkiv -screenshot][img13]
-
 1. Klik på **Filtrer**. Detaljekortet opdateres med poster, der svarer til filteret. Filtrerede kolonner vises med fed tekst.
 
 1. Gentag det forrige trin for at filtrere efter endnu en kolonne.
-
-    ![Se arkivet med færre enheder.-screenshot][img14]
 
 ## Fjern filter
 
@@ -113,9 +110,20 @@ Nu har alle kolonnerne i dit arkiv et tragtikon bag sig.
 
 ## Nulstilling af kolonnefilteret
 
-Klik på ![ikon][img2] og **Nulstil** for at nulstille filteret.
+Klik på <i class="ph ph-funnel" aria-label="Filter icon"></i> og **Nulstil** for at nulstille filteret.
 
-## Relaterede emner
+## Fejlfinding
+
+* **Jeg kan ikke se tragtikonet:**
+    Sørg for, at kolonnefiltre er aktiveret. Klik på <i class="ph ph-gear" aria-label="Gear"></i>-ikonet ved siden af kolonneoverskrifterne, og vælg **Aktivér filter**.
+
+* **De forventede poster vises ikke:**
+    Gennemgå dine aktive filtre ved at holde musen over tragtikonet, eller tjek dine filterindstillinger for hver kolonne. Nulstil filtre om nødvendigt ved at klikke på **Nulstil**.
+
+* **Jeg kan ikke se den kolonne, jeg har brug for:**
+    Klik på <i class="ph ph-gear" aria-label="Gear"></i>-ikonet ved siden af kolonneoverskrifterne, og kontroller **Valgte kolonner**. Tilføj den manglende kolonne ved at vælge den fra listen.
+
+## Relateret indhold
 
 * [Gruppering af lister][1]
 * [Filtrer liste over udvalgsmedlemmer][2]
@@ -125,11 +133,5 @@ Klik på ![ikon][img2] og **Nulstil** for at nulstille filteret.
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

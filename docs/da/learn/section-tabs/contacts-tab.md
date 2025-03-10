@@ -4,8 +4,8 @@ title: Contacts tab
 description: Lær hvordan du administrerer og interagerer med personinformation knyttet til firmaer ved hjælp af Personfanen i SuperOffice CRM. Spor persondata og vedligehold kommunikationsoptegnelser for problemfri kundeforhold.
 keywords: detaljekortet Personer, Personer-fanen, Personfanen, fanen Personer, fanen Kontaktpersoner, detaljekort, personarkiv, aktiver mellemnavn
 author: Bergfrid Skaara Dias
-date: 12.11.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,13 +24,13 @@ Detaljekortet **Personer** indeholder følgende kolonner for at vise nøgleinfor
 
 | Kolonne | Beskrivelse |
 |---|---|
-| Info           | Viser et papirklipsikon (![ikon][img3]) hvis **Bemærkning**-fanen i Personkortet har en note. Hold musemarkøren over ikonet for at se det. |
-| Interesser     | Viser en pin-ikon (![ikon][img2]) hvis personen har interesser. Hold musemarkøren over ikonet for at se interesserne. |
-| Hr./Fr.       | Viser hvordan personen bør adresseres. |
-| Fornavn / Mellemnavn / Efternavn | Personens fulde navn. Brugen af mellemnavne kan konfigureres i **Indstillinger og vedligeholdelse**. |
-| Titel          | Viser personens professionelle titel eller rolle inden for firmaet. |
-| Mobiltelefon   | Personens mobiltelefonnummer. |
-| E-mail         | Personens e-mailadresse. Klik på e-mailen for at [åbne en ny meddelelse][7] i dit foretrukne e-mailprogram. |
+| Info | Viser et papirklipsikon (<i class="ph ph-paperclip" aria-hidden="true"></i>) hvis **Bemærkning**-fanen i Personkortet har en note. Hold musemarkøren over ikonet for at se det. |
+| Interesser | Viser en prik hvis personen har interesser. Hold musemarkøren over ikonet for at se interesserne. |
+| Hr./Fr. | Viser hvordan personen bør adresseres. |
+| Fornavn / Mellemnavn / Efternavn | Personens fulde navn. Brugen af mellemnavne kan konfigureres i Indstillinger og vedligeholdelse. |
+| Titel | Viser personens professionelle titel eller rolle inden for firmaet. |
+| Mobiltelefon | Personens mobiltelefonnummer. |
+| E-mail | Personens e-mailadresse. Klik på e-mailen for at [åbne en ny meddelelse][7] i dit foretrukne e-mailprogram. |
 
 [!include[Konfigurer kolonner](../includes/tip-configure-columns.md)]
 
@@ -103,5 +103,3 @@ Hvis denne præference er aktiveret, vil den første del af efternavnet blive br
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../media/icons/pin.png
-[img3]: ../../../media/icons/binders.png

@@ -31,8 +31,6 @@ The Navigator FastSearcher runs two parallel searches:
 
 * Du kan søge efter et salg ved at indtaste navnet på salget eller navnet på et firma, der er knyttet til salget, i hurtigsøgningsfeltet for **Salg** i navigatoren.
 
-    ![Hurtigsøgning -screenshot][img2]
-
 * Du kan søge efter en person i hurtigsøgningsfeltet for **Firma** i navigatoren.
 
 <!-- Referenced links -->
@@ -40,5 +38,4 @@ The Navigator FastSearcher runs two parallel searches:
 [2]: ../../../en/api/osql/soundx.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/search-options/quicksearch-company.png
-[img2]: ../../../media/loc/en/search-options/quicksearch-sale.png
+[img1]: ../../../media/loc/en/search-options/search-find-fastsearcher.png

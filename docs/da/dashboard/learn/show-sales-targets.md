@@ -2,9 +2,9 @@
 uid: help-da-dashboard-tile-sales-targets
 title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
+keywords: dashboard, salg, mål, diagram
 author: SuperOffice RnD
 date: 12.13.2022
-keywords: dashboard, salg, mål, diagram
 topic: howto
 language: da
 ---
@@ -23,16 +23,16 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
 2. Vælg det dashboard, du vil redigere.
 
-3. Klik på knappen **Opgave**, og vælg **Tilføj rude/Rediger layout** . I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
+3. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Tilføj rude/Rediger layout** . I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
 
 4. Vælg **Salg** på listen**Vis ruder for**.
 
 5. Vælg et af følgende diagrammer på fanen **Bibliotek** :
 
-    * ![ikon][img2] - Stort nummer
-    * ![ikon][img3] - Søjlediagram
-    * ![ikon][img4] - Kolonnediagram
-    * ![ikon][img5] - Målediagram
+    * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Stort nummer
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Søjlediagram
+    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Kolonnediagram
+    * <i class="ph ph-gauge" aria-hidden="true"></i> - Målediagram
     * Tom salgsrude
 
     > [!TIP]
@@ -46,7 +46,7 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
     * Klik på overskriften i en rude, og træk den til en anden position.
 
-8. Klik på ikonet **Rediger rude** ![ikon][img6] på den nye rude.
+8. Klik på ikonet **Rediger rude** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nye rude.
 
 9. På fanen **Datasæt** skal du indstille **Salgsdato** til dette år, kvartal eller måned. Rediger de andre [kriterier][2] efter behov. Husk at opdatere rudens navn for at afspejle eventuelle ændringer, der er foretaget her.
 
@@ -66,7 +66,7 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
     * Stort antal: Du kan redigere de farver, der bruges til at vise mål.
     * Målediagram: Brug indstillingen **Markér mål på** for at indstille målet på målediagrammet.
 
-12. Klik på ![ikon][img1] to [for at tilføje][3] en oversættelse til rudens navn, titler og etiketter.
+12. Klik på <i class="ph ph-translate" aria-label="Translate"></i> to [for at tilføje][3] en oversættelse til rudens navn, titler og etiketter.
 
 13. Klik på **Gem**. Klik derefter på **Udført**.
 
@@ -78,7 +78,7 @@ Hvis du ser feltet Sammenlign med mål, men det er deaktiveret, kan du holde mus
 
 Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt den korrekte diagramtype, og at du har brugt salgsdatoen som kriterier under fanen Datasæt.
 
-## Tilknyttet
+## Relateret indhold
 
 * [Tilføj et nyt dashboard][5]
 * [Rediger eller opret felter][2]
@@ -95,11 +95,5 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 [7]: ../../sale/learn/sales-targets/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
-[img2]: ../../../../common/icons/big-numbers.png
-[img3]: ../../../../common/icons/column-bar.png
-[img4]: ../../../../common/icons/bar.png
-[img5]: ../../../../common/icons/gauge.png
-[img6]: ../../../../common/icons/edit-pen.png
 [img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
 [img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png

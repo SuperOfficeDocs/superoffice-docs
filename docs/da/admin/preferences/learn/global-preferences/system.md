@@ -7,14 +7,14 @@ author: SuperOffice RnD
 date: 03.22.2024
 version: 10
 topic: reference
-language: da
 audience: settings
 audience_tooltip: Settings and maintenance
+language: da
 ---
 
-# Globale præferencer
+# Globale præferencer <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-De **Globale præferencer** under ![icon][img1] **Præferencer** bruges til at konfigurere nogle af nøgleindstillingerne i SuperOffice CRM.
+De **Globale præferencer** under **Præferencer** bruges til at konfigurere nogle af nøgleindstillingerne i SuperOffice CRM.
 
 Områder, du kan konfigurere præferencer for:
 
@@ -39,6 +39,3 @@ Områder, du kan konfigurere præferencer for:
 [3]: password.md
 [4]: sms.md
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

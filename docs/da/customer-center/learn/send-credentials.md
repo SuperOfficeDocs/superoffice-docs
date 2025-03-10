@@ -18,7 +18,7 @@ En person, der skal have adgang til et kundecenter, har brug for brugernavn og a
 
 1. Åbn skærmbilledet Person.
 
-1. Klik på ![ikonet][img1] **Opgave** og vælg **Administrer kundecenterbruger**.
+1. Klik på **Opgave** og vælg **Administrer kundecenterbruger**.
 
 1. Klik på **Send adgangskode**.
 
@@ -30,8 +30,3 @@ En person, der skal have adgang til et kundecenter, har brug for brugernavn og a
 
 > [!TIP]
 > Indholdet i meddelelsen hentes fra en systemskabelon, der er installeret. Du finder den under **Vidensbase** > **Svarskabeloner**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png

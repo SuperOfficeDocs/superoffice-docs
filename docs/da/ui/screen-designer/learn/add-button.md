@@ -79,7 +79,7 @@ Navnet og infobokssteksten kan oversættes til andre sprog.
 
 Når elementet er valgt:
 
-1. Klik på **A-Z** knappen ved siden af etiketten.
+1. Klik på <i class="ph ph-translate" aria-label="Translate"></i> ved siden af etiketten.
 1. Klik på **Tilføj** og vælg et sprog fra listen.
 1. Indtast tekst for det nye sprog.
 

@@ -35,7 +35,7 @@ Da et dynamisk udvalg ikke indeholder nogen fysiske personer, men bare er et sæ
 
 For at lave en kopi af et dynamisk udvalg, kan du bruge funktionen **Kopier udvalget** på fanen **Opgave**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Kopiering af udvalg][3]
 

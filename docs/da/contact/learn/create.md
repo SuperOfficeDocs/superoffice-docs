@@ -1,106 +1,190 @@
 ---
 uid: help-da-contact-create
-title: Opret person
-description: Sådan opretter du en ny person i SuperOffice
-author: SuperOffice RnD
-date: 12.11.2024
-keywords: person, contact
+title: Opret en ny person
+description: Sådan opretter du en ny person i SuperOffice CRM.
+keywords: opret person, tilføj interesse, fanen Interesser, kontaktbillede, foretrukket sprog, retsgrundlag, person
+author: Bergfrid Dias
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Opret ny person
+# Opret en ny person
 
-Der er mange måder, du kan føje kontakter til SuperOffice CRM på:
+Du kan tilføje en person i SuperOffice CRM på flere måder:
 
-* Tilføj en kontakt fra den øverste bjælke **eller** virksomhedsskærmen - se trin nedenfor.
-* [Scan et visitkort][1] med SuperOffice Mobile CRM-appen.
-* [Masseimport][2] af et større antal kontakter (kræver administratorrettigheder).
-
-![Du kan tilføje en person fra virksomhedskortet i to trin -screenshot][img1]
+* Fra **toplinjen** eller **skærmbilledet Firma** (trin nedenfor).
+* [Scan et visitkort][1] ved hjælp af SuperOffice Mobile CRM-appen.
+* [Masseimportér personer][2] (kræver administratorrettigheder).
 
 ## Trin
 
-1. Åbn skærmbilledet Person.
+1. **Åbn skærmbilledet Person**:
 
-    * Klik på **Ny** i toplinjen, og vælg **Person**.
-    * Eller gå til det ønskede firma på skærmbilledet Firma, vælg detaljekortet **Personer** sektion, og klik på knappen **Tilføj** under sektionsfanen.
+    * Klik på **Ny** i **toplinjen**, og vælg **Person**.
+    * Eller gå til det ønskede firma i **skærmbilledet Firma**, vælg detaljekortet **Personer**, og klik på knappen **Tilføj**.
 
-2. Indtast følgende oplysninger i øverste del af fanen:
+1. **Indtast personens grundlæggende oplysninger**:
 
-    * Personens fornavn og/eller efternavn. Obligatorisk: Du skal enten angive et fornavn eller et efternavn.
-    * Titulering (***Hr/Fr***)
-    * Firma. Vælg et firma fra listen, eller begynd at skrive et firmanavn for at søge. Hvis personen ikke er tilknyttet et firma, kan du vælge **(Ingen valgt)**.
-    * Personbillede. Du kan tilføje et billede ved at trække billedfilen fra Windows Stifinder og slippe den i billedfeltet øverst til venstre i fanen.
+    * Indtast **Fornavn** og/eller **Efternavn** (obligatorisk: mindst ét af felterne skal udfyldes).
+    * Valgfrit: Vælg titulering (***Hr/Fr***).
+    * Vælg **Firma**:
+      * Begynd at skrive for at søge efter et firma, eller vælg **(Ingen valgt)**, hvis personen ikke er tilknyttet et firma.
+    * Valgfrit: Tilføj et **Personbillede** ved at trække en billedfil til billedfeltet eller højreklikke for at uploade et billede.
 
-    Du kan også tilføje et billede ved at højreklikke på billedfeltet øverst til venstre i fanen. Klik på linket, og gå til det ønskede billede, og klik på **Åbn** for at tilføje billedet.
+    ![Tomt personkort med obligatoriske felter markeret og valgfrie felter som titel og firma. -screenshot][img1]
 
-3. Indtast personinformation i fanen **Person**.
+1. Udfyld felterne i fanen **Person**.
 
-    <details><summary>Hvad skal der stå i de forskellige felter?</summary>
+    * Udfyld feltet **Land**. Dette opdaterer adresseformatet for det valgte land automatisk. Standardlandet er det land, som firmaet er registreret i.
+    * Udfyld eventuelle yderligere felter som **Mobilnummer** og **E-mail**.
 
-    [!include[Steps to populate company fields](includes/contact-fields.md)]
+1. Tilføj yderligere oplysninger i **fanen Detaljer** (valgfrit):
 
-    </details>
+    * Indtast vigtige oplysninger som **Stilling**, **Fødselsdato** og **Foretrukket sprog**.
+    * Tilføj personens kommunikationsoplysninger: **Websted**, **Chat** og **Internettelefon** (for eksempel Skype eller Microsoft Teams).
+    * Hvis relevant, angiv serviceprioritet, og vælg en servicekontaktperson (kræver en SuperOffice Service- eller Customer Centre-licens).
 
-4. Gå til fanen **Detaljer**. Her kan du angive yderligere information om personen.
+    ![Fanen Detaljer med yderligere felter -screenshot][img2]
 
-    <details><summary>Hvad skal der stå i de forskellige felter?</summary>
+1. Gå til fanen **Interesser** for at angive interesser og abonnementer:
 
-    [!include[Steps to populate company details](includes/contact-details.md)]
+    * Marker afkrydsningsfelterne for relevante interesser (defineres i Indstillinger og vedligeholdelse).
+    * Konfigurer **E-markedsføring/abonnement** for at administrere juridisk samtykke til e-mailkampagner.
 
-    </details>
+1. **Gennemgå privatlivsindstillinger**:
 
-5. Gå til [Mere-fanen][12] for at indtaste oplysninger. Denne fane viser brugerdefinerede felter specifikke for den valgte person.
+    * Klik på **Retsgrundlag** nederst på personkortet for at [gennemgå eller opdatere GDPR-samtykke][7] og privatlivsoplysninger. Klik på **Luk**, når du er færdig.
 
-6. Gå til fanen **Interesser**. Her kan du angive interesser og alternativer for e-markedsføring/abonnement for personen.
+1. **Marker som fratrådt** (valgfrit):
 
-7. Gå til fanen **Bemærkning**. Her kan du indtaste oplysninger af enhver slags.
+    * Marker **Fratrådt**, hvis personen ikke længere arbejder i firmaet. Fratrådte personer vises ikke i lister over personer eller projektdeltagere.
 
-8. Gå til fanen **www**. Se detaljer nedenunder.
+1. Klik på **Gem** for at gemme personens oplysninger.
 
-9. Klik på **Retsgrundlag** nederst på personkortet.
+Personoplysningerne gemmes derefter i databasen og vises på personkortet. Hvis personen er knyttet til et firma, vises de også i fanen **Personer** i skærmbilledet Firma.
 
-    I dialogboksen **Privacy** skal du [Gennemgå og rediger dine samtykkeoplysningerne,][7] hvis det er nødvendigt. Klik på **Luk**, når du er færdig.
+## <a id="fields"></a>Vigtige felter forklaret
 
-10. Marker **Fratrådt** (nederst på personkortet), hvis denne person ikke længere arbejder hos firmaet. En person, hvis ansættelsesforhold er registreret som fratrådt, vises ikke på listerne over personer eller projektdeltagere.
+Følgende felter er tilgængelige i personkortet. Nogle felter udfyldes automatisk, mens andre kræver input.
 
-11. Når du har tilføjet de ønskede oplysninger, skal du klikke på knappen **Gem**.
+> [!NOTE]
+> Felter og layout kan variere afhængigt af konfigurationer i [Skærmdesigner][9] og andre UI-tilpasninger.
 
-    Oplysningerne om personen gemmes nu i databasen og vises på personkortet. Hvis du har knyttet personen til et firma, vises personen i fanen **Personer** i skærmbilledet Firma.
+<!-- markdownlint-disable-file MD051 -->
+### [Fanen Person](#tab/contacts)
 
-12. Gå til detaljekortet **Relationer**. Her kan du [tilføje relationer][8] mellem denne person og en anden person eller et andet firma.
+**Grundlæggende oplysninger:**
 
-## <a id="interests-tab"></a>Fanen Interesser (skærmbilledet Person)
+* **Fornavn** / **Efternavn**: Mindst ét af disse felter skal udfyldes (obligatorisk).
+* **Titulering**: Valgfrit. Vælg **Hr/Fr** afhængigt af personens præference.
+* **Titel**: Angiv personens jobtitel eller stilling.
 
-På fanen **Interesser** finder du følgende alternativer:
+**Kontaktoplysninger:**
 
-* **Interesser:** Her kan du vælge en persons interesser. Interesser bruges til at oprette udvalg til udsendelser og lignende.[!include[SM](../../learn/includes/are-defined-sm.md)]
+* **E-mail**: Tilføj flere e-mailadresser med beskrivelser, såsom *Arbejde* eller *Privat*.
+* **Mobil** / **Direkte telefon**: Tilføj flere telefonnumre med etiketter, såsom *Mobil* eller *Arbejde*.
+  * Tryk på **TAB** eller klik uden for tabellen for at gemme indtastningerne.
 
-    > [!TIP]
-    > Interesser kan være nyttige, hvis du skal definere udvalg. Hvis du for eksempel har defineret *referencekunde* som interesse, kan du lave et udvalg, som indeholder alle dine referencekunder. Efterfølgende er det så nemt og enkelt at lave markedsføringskampagner, der er rettet mod denne kundegruppe.
+**Adresse:**
 
-* **E-markedsføring/abonnement:** Hvis personen har indvilget i (givet samtykke til) at modtage elektronisk markedsføringsmateriale (udsendelser), kan du klikke på **E-markedsføring**. Ved at aktivere **E-markedsføring** for en person angiver du samtidig retsgrundlaget for formålet **E-markedsføring**. Den ændres til **Berettiget interesse**.
+* **Privat adresse**: Udfyld personens adresseoplysninger.
+  * Adresseformatet opdateres automatisk baseret på feltet **Land**.
+* **Land**: Angiver personens land. Standardværdien er firmaets registrerede land.
+* **Brug som postadresse**: Markér dette felt, hvis du vil sende post direkte til personens adresse i stedet for firmaets adresse.
 
-    Du kan også angive hvilke typer e-markedsføring, vedkommende skal modtage (også kaldet abonnementstyper). Disse indstillinger kan være blevet redigeret af kunderne selv via en kundeportal.
+**Arvede felter:**
 
-## Fanen www (skærmbilledet Person)
+* **Vores kontakt**: Tildeles automatisk dit navn. Klik på pilen for at vælge en anden person fra din organisation.
+* **Kategori**: Vælg en kategori fra en foruddefineret liste. Standardværdien er firmaets kategori, hvis personen er tilknyttet et firma.
+* **Branche**: Vælg den relevante branchetype. Standardværdien er firmaets branche, hvis personen er tilknyttet et firma.
 
-[!include[About the www tab](../../learn/includes/www-tab.md)]
+**Systemfelter:**
 
-## Fanen ERP (skærmbilledet Person)
+* **Nummer**: Genereres automatisk som det næste ledige personnummer, hvis dette er konfigureret i **Indstillinger og vedligeholdelse**. Du kan redigere dette manuelt om nødvendigt.
 
-[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
+[!include[3 udef](../../learn/includes/more-udef.md)]
 
-## Fanen Notat (skærmbilledet Person)
+### [Fanen Detaljer](#tab/details)
 
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
+**Personlige oplysninger:**
 
-[!include[Tip](../../learn/includes/tip-open-website.md)]
+* **Stilling:** Vælg personens stilling fra en foruddefineret liste (konfigureret i Indstillinger og vedligeholdelse).
+* **Fødselsdato:** Tilføj personens fødselsdato.
 
-## Relaterede emner
+**Kommunikationsoplysninger:**
 
-* [Tilføj post som foretrukken][4]
+* **Websted:** Indtast en URL til personens hjemmeside, LinkedIn, Facebook eller andre sider. Tilføj en titel for tydelighed.
+* **Chat**: Tilføj chatapplikationer (såsom Microsoft Teams, Google Chat). Vælg en tjenesteudbyder fra listen.
+* **Internettelefon:** Tilføj en VOIP-adresse, såsom Skype eller en anden internetbaseret telefontjeneste.
+* **Direkte fax:** Indtast personens faxnummer.
+
+**Service-specifikke felter** *(kræver SuperOffice Service eller Customer Centre-licens)*
+
+* **Foretrukket sprog:** Vælg personens foretrukne sprog for alle svarskabeloner.
+* **Tjenesteprioritet:** Angiv prioriteten for nye sager (for eksempel Lav, Middel, Høj eller brugerdefineret). Hvis ikke angivet, arves firmaets prioritet.
+* **Vores servicekontakt:** Vælg en servicekontaktperson, der skal håndtere denne persons anmodninger.
+
+**Private felter:**
+
+* **Privat:** Tilføj private telefonnumre eller kontaktoplysninger, der ikke er knyttet til firmaet.
+
+### [Fanen Mere](#tab/more)
+
+Indtast eventuelle [brugerdefinerede felter][12], der er specifikke for din CRM-opsætning.
+
+### [Fanen Interesser](#tab/interests)
+
+**Interesser og abonnementer:**
+
+* **Interesser**: Vælg personens interesser ved at markere de relevante afkrydsningsfelter. Interesser bruges til at oprette målrettede udvalg, f.eks. til udsendelser eller kampagner.
+
+  * Interesser er foruddefinerede i **Indstillinger og vedligeholdelse**.
+  * En prik vises ud for fanen **Interesser**, når én eller flere interesser er valgt.
+
+* **E-markedsføring/abonnement**: Administrer samtykke til at sende e-mailkampagner.
+
+  * Hvis personen har givet samtykke, skal du aktivere **E-markedsføring** for at bekræfte juridisk samtykke til at sende udsendelser. Dette sætter automatisk retsgrundlaget til **Berettiget interesse**.
+  * Angiv abonnementsmuligheder for at specificere, hvilke typer e-markedsføring personen accepterer at modtage.
+  * Abonnementsindstillinger kan også justeres af personen via en kundeportal.
+
+### [Fanen Bemærkning](#tab/note)
+
+[Tilføj fritekstnoter][5] om personen.
+
+***
+
+## <a id="interests-tab"></a>Tilføj interesser
+
+Interesser er nyttige til at oprette målrettede udvalg, f.eks. markedsføringskampagner for specifikke kundegrupper. For eksempel kan du definere *referencekunde* som en interesse og hurtigt oprette et udvalg af alle referencekunder.
+
+1. Gå til fanen **Interesser**.
+
+1. I redigeringstilstand skal du vælge relevante interesser ved at markere afkrydsningsfelterne. De tilgængelige interesser defineres i **Indstillinger og vedligeholdelse**.
+
+1. Hvis du vælger én eller flere interesser, vises en prik ud for fanens navn.
+
+1. Klik på **Gem** for at gemme ændringerne.
+
+## Tips
+
+* Du kan tilføje flere telefonnumre, e-mailadresser og andre poster med beskrivelser (for eksempel *Omstilling*).
+
+    Hvis du klikker på personens e-mailadresse i fanen **Person**, kan du vælge den ønskede e-mailadresse i listen, der vises. En tom e-mailmeddelelse åbnes, hvor e-mailadressen er indsat i **Til**-feltet.
+
+* Brug telefonikonet til at ringe direkte, hvis dit system er konfigureret til det.
+
+* Hvis personen er tilknyttet et firma, arver felter som **Kategori**, **Branche** og **Vores kontakt** firmaets værdier og kan ikke redigeres.
+
+* Gå til [detaljekortet Relationer][8] for at knytte denne person til andre firmaer eller personer.
+
+## Relateret indhold
+
+* [Tilføj person som foretrukken][4]
+* [Scan et visitkort][1]
 
 <!-- Referenced links -->
 [1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
@@ -108,7 +192,10 @@ På fanen **Interesser** finder du følgende alternativer:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[5]: ../../learn/basics/notes.md
+[9]: ../../ui/screen-designer/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png
+[img1]: ../../../media/loc/en/contact/new-contact.png
+[img2]: ../../../media/loc/en/contact/contact-details.png

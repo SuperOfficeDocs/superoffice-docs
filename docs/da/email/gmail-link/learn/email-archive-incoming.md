@@ -32,9 +32,9 @@ Du kan arkivere en indgående e-mail (med eventuelle vedhæftede filer) som et d
 Klik på linket i popup-meddelelsen for at åbne dokumentet i SuperOffice.
 
 > [!NOTE]
-> Du kan også [gemme vedhæftede filer som dokumenter.
+> Du kan også gemme vedhæftede filer som dokumenter.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Arkiver vedhæftede filer][3]
 * [Oprettelse af aktivitet][5]

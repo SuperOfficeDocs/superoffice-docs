@@ -2,9 +2,9 @@
 uid: help-da-email-inbox-compose
 title: Skrivning af e-mail
 description: Skrivning af mail
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
 topic: howto
 language: da
 ---
@@ -26,7 +26,7 @@ Udfyld felterne nedenfor, klik på **Opret**, og skriv e-mailen som beskrevet ov
 
 | Felt | Beskrivelse |
 |---|---|
-| Dokumentskabelon | Hvis du klikker på pilen ![ikon][img2] ved siden af typefeltet øverst i dialogboksen, åbnes en liste over de dokumentskabeloner, som du kan vælge mellem. Skabelonerne, som kan vælges, defineres i Indstillinger og vedligeholdelse. |
+| Dokumentskabelon | Hvis du klikker på <i class="ph ph-caret-down" aria-label="Chevron"></i> ved siden af typefeltet øverst i dialogboksen, åbnes en liste over de dokumentskabeloner, som du kan vælge mellem. Skabelonerne, som kan vælges, defineres i Indstillinger og vedligeholdelse. |
 | Firma | Her skriver du navnet på det firma, du skriver et dokument til. |
 | Kontaktperson | Hvis du klikker på pilen efter dette felt, åbnes en liste over de personer, som er registreret på firmaet. |
 | Projekt | Angiv navnet på det projekt, som e-mailen skal knyttes til. |
@@ -44,12 +44,8 @@ Når du har fuldført meddelelsen og vil sende den, har du følgende alternative
 > [!TIP]
 > Hvis du ikke arkiverer meddelelsen, når du sender den, kan du stadig [gå til mappen Sendt og arkivere meddelelsen][2].
 >
-> Du kan redigere signaturskabelonen nederst i meddelelsen i ![ikon][img1] **Personlige indstillinger** > **Rediger personlige e-mailsignatur**.
+> Du kan redigere signaturskabelonen nederst i meddelelsen i <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Rediger personlige e-mailsignatur**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

@@ -2,11 +2,12 @@
 uid: help-da-sale-stakeholder-edit
 title: Rediger eller fjern interessenter
 description: Sådan redigerer eller fjerner du interessenter i et salg i SuperOffice.
-keywords: salg
+keywords: Opdater interessent, rediger interessent, fjern interessent, Tilføj/rediger interessenter-dialog, Interessent fanen, interessent, salg
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 02.25.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -39,7 +40,7 @@ Du kan opdatere **salgsrolle** og **kommentar**-felterne for interessenter eller
 
 1. Vælg de interessenter, du vil fjerne fra listen i **Interessenter**-detaljekortet.
 
-1. Klik på **Fjern**. I bekræftelsesdialogen, der vises, skal du klikke på **Ja** for at bekræfte.
+1. Klik på **Fjern**. I bekræftelsesdialogen, der vises, skal du klikke på **Ja**.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

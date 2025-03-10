@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-tiles
 title: Arbejde med ruder
-description: "I denne vejledning lærer du, hvordan du får adgang til oplysningerne i dit dashboard, så du bedre kan få et klart overblik og prioritere dine næste skridt."
+description: I denne vejledning lærer du, hvordan du får adgang til oplysningerne i dit dashboard, så du bedre kan få et klart overblik og prioritere dine næste skridt.
+keywords: dashboard
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: dashboard
 topic: howto
 language: da
 ---
@@ -23,7 +23,7 @@ Det er de data, der ligger bag ruderne, der gør et dashboard nyttigt. Lær, hvo
 
 * Klik på dataetiketterne (tekst) under ruden for at skjule/vise bestemte data. Dette kan være nyttigt til udskrivning eller eksport af ruderne.
 
-* Klik på ![ikon][img1] i sidehovedet på en rude og vælg **Vis i fuld skærm** for at åbne ruden i fuld skærm. Nyttigt for ruder med meget indhold.
+* Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidehovedet på en rude og vælg **Vis i fuld skærm** for at åbne ruden i fuld skærm. Nyttigt for ruder med meget indhold.
 
 ### Undersøg underliggende data
 
@@ -43,13 +43,13 @@ Følg trinnene i denne GIF eller nedenstående trin for at se, hvordan du kan f�
 
     * Dobbeltklik på en post for at åbne den (eller vælg en post, og klik på **Åbn**).
 
-    * Hvis du vil [kopiere posterne til en markering][4], skal du klikke på knappen **Opgave** og vælge **Kopier til markering**. Hvis du ikke vælger poster, kopieres alle poster.
+    * Hvis du vil [kopiere posterne til en markering][4], skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælge **Kopier til markering**. Hvis du ikke vælger poster, kopieres alle poster.
 
 5. Klik på **Luk**, når du er færdig.
 
 ## Eksporter ruder
 
-Klik på ![ikon][img1] i sidehovedet på et felt for at få adgang til følgende indstillinger:
+Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidehovedet på et felt for at få adgang til følgende indstillinger:
 
 * **Download PDF-dokument** / **Download PNG-dokument**: Download ruden i PDF- eller PNG-format. Eksportfilerne downloades til browseren (**mappen Overførsler).**
 
@@ -58,7 +58,7 @@ Klik på ![ikon][img1] i sidehovedet på et felt for at få adgang til følgende
 > [!TIP]
 > Hvis du vil skjule bestemte data, før du eksporterer eller udskriver en rude, skal du klikke på dataetiketterne (beskrivelse) ud for eller under ruden for at skjule data.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Tilføj et nyt dashboard][1]
 * [Redigering af rude][2]
@@ -73,5 +73,4 @@ Klik på ![ikon][img1] i sidehovedet på et felt for at få adgang til følgende
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

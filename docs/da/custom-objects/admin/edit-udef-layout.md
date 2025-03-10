@@ -34,7 +34,7 @@ Når du [tilføjer nye felter][2], placeres de som standard under hinanden. Hver
 
 * Klik og træk med musen. Felterne tilpasses automatisk gitteret.
 * Klik på et felt og brug piletasterne på tastaturet.
-* Klik på et felt og brug piletasterne nederst til højre ( ![ikon][img2] ![ikon][img1] ![ikon][img4] ![ikon][img3] ).
+* Klik på et felt og brug piletasterne nederst til højre (<i class="ph ph-arrow-circle-left" aria-hidden="true"></i> <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> <i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 * Dobbeltklik på et felt og angiv positionsværdierne **X** og **Y** i dialogen **Felt**.
 
 ## Angiv position
@@ -53,7 +53,7 @@ Når du [tilføjer nye felter][2], placeres de som standard under hinanden. Hver
 
 ## Justér felter (højre/venstre)
 
-Vælg de felter, du vil justere, og klik på venstrejustér ![ikon][img5] eller højrejustér ![ikon][img6] under gitteret.
+Vælg de felter, du vil justere, og klik på venstrejustér (<i class="ph ph-text-align-left" aria-hidden="true"></i>) eller højrejustér (<i class="ph ph-text-align-right" aria-hidden="true"></i>) under gitteret.
 
 ## Ændr bredden på et felt
 
@@ -71,7 +71,7 @@ TAB-rækkefølgen vises i listen **Navn** til venstre på skærmen. Denne række
 
 1. Vælg det ønskede felt under listen.
 
-1. Klik på en af pilene under listen for at flytte feltet enten op ![ikon][img3] eller ned ![ikon][img4].
+1. Klik på <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> under listen for at flytte feltet enten op eller ned.
 
 1. Klik på **Udgiv** for at gøre ændringerne tilgængelige for SuperOffice CRM-brugere.
 
@@ -97,11 +97,3 @@ Hvis du vælger **(alle brugergrupper)** i listen **Brugergruppe**, vælger et f
 <!-- Referenced links -->
 [1]: ../../ui/screen-designer/learn/index.md
 [2]: add-udef.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/admin/align-left.png
-[img6]: ../../../media/icons/admin/align-right.png

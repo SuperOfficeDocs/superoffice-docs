@@ -2,10 +2,12 @@
 uid: help-da-adding-items
 title: Tilføjelse af forekomster
 description: Tilføjelse af forekomster
+keywords: tilføjelse af elementer, tilføjelse af listeelementer, lister
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse
-topic: help
+date: 02.28.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -30,7 +32,7 @@ language: da
 
 6. Klik på **Gem**. Forekomsten bliver nu tilføjet på listen **Forekomster**. Gentag proceduren, hvis du vil tilføje flere forekomster.
 
-Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne under listen (![icon][img3] ![icon][img4] ).
+Forekomsterne vises i den rækkefølge, du indtastede dem. For at ændre rækkefølgen skal du vælge et element og flytte det op eller ned ved hjælp af pileknapperne under listen (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 Når du har tilføjet forekomster, kan du angive detaljer for hvert enkelt element. Du kan angive de [brugergrupper, forekomsten er synlig for][2], og de [overskrifter][3], den skal vises under.
 
@@ -38,7 +40,3 @@ Når du har tilføjet forekomster, kan du angive detaljer for hvert enkelt eleme
 [1]: specialized-lists.md
 [2]: organize/user-group-filtering.md
 [3]: organize/headings.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png

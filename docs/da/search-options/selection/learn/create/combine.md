@@ -1,7 +1,7 @@
 ---
 uid: help-da-selection-combine
 title: Oprettelse af kombinationsudvalg
-description: "I denne vejledning lærer du, hvordan du opretter et kombinationsudvalg."
+description: I denne vejledning lærer du, hvordan du opretter et kombinationsudvalg.
 author: Bergfrid Dias
 date: 03.29.2023
 keywords: selection

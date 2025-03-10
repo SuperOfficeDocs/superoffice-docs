@@ -9,7 +9,7 @@ topic: concept
 language: da
 ---
 
-# Beskyttelse af personlige oplysninger
+# Beskyttelse af personlige oplysninger <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 Funktionen **Privacy** i SuperOffice hjælper dig med at beskytte dine kunders data-privacy og overholde EU's generelle forordning om databeskyttelse (GDPR).
 
@@ -17,7 +17,7 @@ Funktionen **Privacy** i SuperOffice hjælper dig med at beskytte dine kunders d
 
 Det er to forskellige formål med at indhente en persons samtykke. I SuperOffice kaldes disse formål **Salg og service** og **E-markedsføring**. Der kan også være andre formål, der er relevante for din virksomhed.
 
-Unde fanen **Samtykke** på skærmbilledet **Privacy** (![ikon][img1]) kan du [oprette og redigere formål][2].
+Unde fanen **Samtykke** på skærmbilledet **Privacy** kan du [oprette og redigere formål][2].
 
 Til hvert formål skal der dokumenteres et retsgrundlag og en kilde til samtykke (under import eller i SuperOffice CRM for individuelle eller flere brugere).
 
@@ -68,4 +68,3 @@ Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsførin
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

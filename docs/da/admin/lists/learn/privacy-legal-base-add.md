@@ -1,7 +1,7 @@
 ---
 uid: help-da-privacy-legal-base-add
-title: "Personbeskyttelse – Retsgrundlag, tilføjelse"
-description: "Få mere at vide om, hvordan du ændrer listerne over personbeskyttelse i denne vejledning."
+title: Personbeskyttelse – Retsgrundlag, tilføjelse
+description: Få mere at vide om, hvordan du ændrer listerne over personbeskyttelse i denne vejledning.
 author: SuperOffice RnD
 date: 02.23.2023
 keywords: personbeskyttelse, samtykke

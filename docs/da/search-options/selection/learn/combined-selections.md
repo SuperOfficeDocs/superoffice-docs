@@ -44,7 +44,7 @@ Du kan vælge, hvilke poster du vil medtage i kombinationsudvalget. Disse indsti
 > [!NOTE]
 > Hvis du kun vil sammenligne de firmaer, der er knyttet til disse to udvalg, skal du markere **Sammenlign kun firmaer**.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Oprettelse af kombinationsudvalg][1]
 

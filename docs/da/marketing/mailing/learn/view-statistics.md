@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.12.2024
 version: 10
 topic: howto
-language: da
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Analysere resultaterne af dine udsendelser

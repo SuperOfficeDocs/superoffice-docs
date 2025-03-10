@@ -1,19 +1,16 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Arbejd med firma
-  topicHref: create.md
-  items:
-  - name: Opret nyt firma
-    href: create.md
-  - name: Rediger et firma
-    href: edit.md
-  - name: Kopiér et firma
-    href: copy.md
-  - name: Læg firmaer sammen
-    href: merge-companies.md
-  - name: Slet et firma
-    href: delete.md
+- name: Opret nyt firma
+  href: create.md
+- name: Rediger firmainfo
+  href: edit.md
+- name: Kopiér et firma
+  href: copy.md
+- name: Læg firmaer sammen
+  href: merge-companies.md
+- name: Slet et firma
+  href: delete.md
 - name: Adresseformater for lande
   href: address-formats.md
 - name: ERP-link

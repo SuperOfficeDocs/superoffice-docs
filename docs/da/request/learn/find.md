@@ -1,11 +1,13 @@
 ---
 uid: help-da-request-find
 title: Find en sag
-description: "I denne vejledning lærer du, hvordan du finder sager i SuperOffice"
+description: I denne vejledning lærer du, hvordan du finder sager i SuperOffice.
+keywords: find sag, lokalisere sag, seneste sager, egne aktive sager, ufordelte sager, vis kun egne kategorier, søg, finde, sag
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: sag, søge, finde
+date: 03.07.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: da
@@ -13,21 +15,21 @@ language: da
 
 # Find en sag
 
-Som kundesupportagent får du mange indgående opkald og e-mails om afventende eller gamle kundesager. Derfor er det vigtigt at vide, hvordan du kan finde en enkelt sag eller grupper af sag så hurtigt som muligt.
+Som kundesupportagent modtager du mange opkald og e-mails om afventende eller tidligere sager. Derfor er det vigtigt at vide, hvordan du hurtigt finder en enkelt sag eller grupper af sager.
 
-Gør ét af følgende:
+Du kan gøre følgende:
 
-* Brug af lister, som i virkeligheden er foruddefinerede søgninger.
-* Brug søgeskærmbilledet til sager i Find sag.
-* Brug [fritekstsøgningen][3] i øverste højre hjørne.
-* Brug [dashboards][9].
+* Brug lister, som i virkeligheden er foruddefinerede søgninger.
+* Brug søgeskærmbilledet **Find sag**.
+* Brug [fritekstsøgningen][12] i toplinjen.
+* Brug [dashboards][18].
 * Brug [udvalg][10] til sager.
-* Brug [navigatorsøgningen][12] på Sager.
-* Brug [Find][11] i den øverste bjælke, vælg en af de typiske søgninger, eller tilføj ønskede kriterier.
+* Brug [navigator-søgningen][19] på Sager.
+* Brug [Find][11] i toplinjen, vælg en af de typiske søgninger, eller tilføj ønskede kriterier.
 
 ## <a id="list"></a>Brug lister
 
-Den nemmeste måde at søge efter sager på er at bruge søgefeltet i menuen for den første fane **Find sag** på skærmbilledet Sager.
+Den nemmeste måde at finde sager på er at bruge søgefeltet i menuen for den første fane **Find sag** på skærmbilledet Sager.
 
 ![Søgning efter sager -screenshot][img3]
 
@@ -39,79 +41,87 @@ Den nemmeste måde at søge efter sager på er at bruge søgefeltet i menuen for
 
 * **Mine foretrukne**: Viser de sager, du har gemt som foretrukne.
 
-* **Hent næste i køen**: Hvis [køsystemet er sat op][5] for dit firma, kan du klikke på denne valgmulighed for at få den næste sag uden tildeling i køen for den kategori, du tilhører.
+* **Hent næste i køen**: Hvis [køsystemet er sat op][9] for dit firma, kan du klikke på denne valgmulighed for at få den næste sag uden tildeling i køen for den kategori, du tilhører.
 
-* **Sagsudvalg**: Dit eget valg af sag vises i menuen.
+* **Sagsudvalg:** Viser dine gemte sagsudvalg.
 
 ### Vis kun egne kategorier
 
-1. Vælg ![ikon][img2] **Personlige indstillinger** > **Præferencer**.
+1. Vælg <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **Præferencer**.
 1. Vælg gruppen **Sag**.
-1. Markér Ja ved **Vis kun egne kategorier**.
+1. Sæt **Vis kun egne kategorier** til **Ja**.
 1. Klik på **Gem**.
+
+## Brug søgekriterier
+
+Du kan tilpasse søgekriterier for at finde specifikke sager.
+
+### Sådan tilgår du søgekriterier
+
+Fanen **Find sag** har to interaktive elementer:
+
+* **Fantekst:** Klik på teksten for at åbne skærmbilledet med søgekriterier.
+
+* **Dropdown-menu:** Klik på pilen (<i class="ph ph-caret-down" aria-label="Dropdown icon"></i>) for at åbne en menu med foruddefinerede søgninger, såsom *Seneste sager* eller *Egne aktive sager*.
+Hvis du ikke ser skærmbilledet med søgekriterier, skal du sikre dig, at du klikker på teksten, ikke pilen.
 
 ### Tilpas søgekriterier
 
-Alle disse lister er i praksis foruddefinerede søgninger, og hvis du ønsker det, kan du tilpasse søgekriterierne:
+1. Klik på **Find sag**-teksten i overskriften på skærmbilledet **Sager**.
 
-1. Klik på fanen **Find sag** i overskriften på skærmbilledet Sager.
-1. [Tilpas kriterier][4].
-1. Klik på **Find** i nederste højre hjørne for at starte søgningen ved hjælp af de nye søgekriterier. Hvis du markerer en af sagerne på listen, vises dens indhold i skærmbilledet med eksempel til højre. Hvis du markerer en af sagerne på listen, vises dens indholdet i afsnittet [forhåndsvisning](#preview).
-1. Hvis du vil beholde denne søgning, kan du gemme dette søgeresultat som et [udvalg][13] og gå tilbage til listen igen når som helst.
+1. Justér [søgekriterierne][14] ved at tilføje eller redigere filtre:
 
-> [!TIP]
-> Hvis du vil gendanne standardindstillingerne, skal du vælge **Nulstil til standard**.
->
-> Hvis du vil rydde alle dine kriterier, skal du vælge **Ryd alle**.
+   * Brug dropdowns til at vælge kriterier som **Ejer**, **Intern status**, eller **Kategori**.
+   * Tilføj flere kriterier ved at klikke på **Tilføj kriterium**, eller fjern eksisterende ved at klikke på <i class="ph ph-x" aria-label="Fjern kriterium"></i>.
+   * Kombinér filtre ved hjælp af **OG** eller **ELLER** for at præcisere din søgning.
+
+   ![Søgning efter sager -screenshot][img2]
+
+1. Klik på **Find** i nederste højre hjørne for at køre søgningen.
+
+    > [!TIP]
+    > Du kan gemme ofte anvendte kriterier som et [udvalg][13] for nem adgang senere.
+
+1. For at nulstille søgningen til standardindstillinger, vælg **Nulstil til standard**. For at rydde alle filtre, vælg **Ryd alle**.
 
 ### <a id="result"></a>Søgeresultat
 
-Resultaterne indeholder en liste over sager, der modsvarer de kriterier, der er angivet ovenfor. Her kan du gøre følgende:
+Søgeresultaterne vises som en liste over sager i fanen **Resultater**. Du kan:
 
-* Du kan sortere sagerne ved at klikke på den ønskede kolonneoverskrift.
-* Du kan markere en række for at få vist indholdet i den aktuelle sag i afsnittet med eksempelvisning.
-* Du kan åbne en sag ved at dobbeltklikke på den ønskede række.
-* I nederste venstre hjørne skal du klikke på knappen for at **Vise/skjule forhåndsvisning**.
-* På knappen ![ikon][img1] **Opgave** i nederste venstre hjørne kan du få adgang til forskellige opgaver, der skal køres på valgte sager.
+* Sortere sagerne ved at klikke på kolonneoverskrifterne.
+* Klikke på en sag for at se dens detaljer i forhåndsvisningen til højre.
+* Dobbeltklikke på en sag for at åbne den.
+* Bruge knappen **Vis/skjul forhåndsvisning** nederst for at vise eller skjule forhåndsvisningen.
+* Udføre massehandlinger ved at klikke på <i class="ph ph-list" aria-hidden="true"></i> **Opgave**-knappen, f.eks. tilføje favoritter eller slette sager.
 
 > [!TIP]
-> Statussen **Åbn** sammen med kolonnen **Læs** giver et overblik over, om sagen er blevet **læst af ejeren**,**Nye oplysninger** eller **Ikke læst af ejeren**.
-
-På sidefoden under listen kan du klikke på menuknappen ![ikon][img1] **Opgave** for at få adgang til følgende valgmuligheder:
-
-* **Eksportér til Excel**: Klik her, hvis du vil eksportere listen under **Resultat** til en excelfil.
-
-* **Masseredigering**: Hvis du markerer en eller flere sager på listen, kan du klikke på denne valgmulighed og vælge en handling, du ønsker at udføre på alle sagerne samtidig. Du kan f.eks. vælge at [tilføje samme meddelelse til flere sager][8], [videresende flere sager][7] eller slette flere sager i én handling.
+> Statussen **Åben** sammen med kolonnen **Læs** giver et overblik over, om sagen er blevet **Læst af ejer**, **Har nye oplysninger**, eller **Ikke læst af ejer**.
 
 ### <a id="preview"></a>Forhåndsvisning
 
-I denne del af skærmbilledet vises indholdet i sagen, der er markeret under **Søgeresultat**. Du har de samme muligheder som ved [behandling af sager][6].
+I denne sektion vises indholdet af den markerede sag under **Søgeresultat**. Du har de samme muligheder som ved [behandling af sager][6].
 
-Hvis forhåndsvisningssektionen ikke er synlig, skal du klikke på **Vis forhåndsvisning** nederst på skærmen.
+Hvis forhåndsvisningen ikke er synlig, klik på **Vis forhåndsvisning** nederst på skærmen.
 
-## Relaterede emner
+## Relateret indhold
 
 * [Brug tags i sager][1]
 * [Skærmbilledet Find][11]
-* [Brug navigatorsøgningen][12]
+* [Brug navigator-søgningen][19]
 * [Opret udvalg][13]
-* [Hent næste sag i køen][5]
 
 <!-- Referenced links -->
 [1]: tags.md
-[3]: ../../search-options/learn/freetext-search.md
-[4]: ../../search-options/learn/search-criteria.md
-[5]: next-in-queue.md
-[6]: howto/accept.md
-[7]: howto/forward.md
-[8]: howto/reply.md
-[9]: ../../dashboard/learn/index.md
+[6]: accept.md
+[9]: ../admin/next-in-queue.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
+[12]: ../../search-options/learn/freetext-search.md
 [13]: ../../search-options/selection/learn/create/tutorial.yml
+[14]: ../../search-options/learn/search-criteria.md
+[18]: ../../dashboard/learn/index.md
+[19]: ../../learn/getting-started/main-screen/navigator.md#navigator
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/loc/en/request/find-requests.png
+[img2]: ../../../media/loc/en/request/find-request-criteria.png
+[img3]: ../../../media/loc/en/request/find-request-dropdown.png

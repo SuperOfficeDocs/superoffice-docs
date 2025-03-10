@@ -18,7 +18,7 @@ Ved hjælp af funktionen til fritekstsøgning i SuperOffice CRM kan brugerne sø
 
 Du kan definere præcis, hvordan dette skal fungere i SuperOffice CRM, fra denne fane i Indstillinger og vedligeholdelse. Bemærk: fritekstsøgning kan kun deaktiveres for onsite-løsninger, ikke for online-/cloud-versioner.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Aktivering af fritekstsøgning (onsite)][1]
 * [Angivelse af søgekriterier][2]

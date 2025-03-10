@@ -20,7 +20,7 @@ language: da
 
     Synkroniseringsforbindelsen vises på listen.
 
-## Hvad vil du foretage dig nu?
+## Relateret indhold
 
 * [Tilføje et ERP-link][1]
 
