@@ -1,21 +1,21 @@
 ---
 uid: help-nl-preferences
 title: Voorkeuren
-description: "Beheerders kunnen voorkeuren instellen voor verschillende functies in het systeem voor specifieke gebruikers, gebruikersgroepen of voor de gehele SuperOffice CRM (algemene voorkeuren)."
+description: Beheerders kunnen voorkeuren instellen voor verschillende functies in het systeem voor specifieke gebruikers, gebruikersgroepen of voor de gehele SuperOffice CRM (algemene voorkeuren).
+keywords: instellingen, voorkeuren
 author: Bergfrid Dias
 date: 03.21.2023
-keywords: instellingen, voorkeuren
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Voorkeuren
+# Voorkeuren <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 In het scherm Voorkeuren kunt u voorkeuren instellen voor het hele systeem (globaal), één database, één gebruikersgroep of een individuele gebruiker. Voorkeuren die alleen op algemeen (systeem)niveau kunnen worden ingesteld, zijn te vinden in het tabblad **[Algemene voorkeuren][1]**.
 
-Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** > **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
+Gebruikers kunnen de instellingen van [individuele voorkeuren][4] bewerken om ze voor eigen gebruik aan te passen door naar **Persoonlijke instellingen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Voorkeuren** in de bovenste balk te gaan. De voorkeuren die beschikbaar zijn voor de gebruiker, zijn afhankelijk van hetgeen is opgegeven in Instellingen en onderhoud.
 
 Daarnaast kunt u videovergaderingen configureren op het tabblad [Videovergaderingen][8] en de documentbibliotheek op het tabblad [Documentbibliotheek][9].
 
@@ -58,7 +58,7 @@ Sommige [voorkeuren][1] kunnen alleen op algemeen niveau worden ingesteld:
 
 ### Algemene voorkeuren wijzigen
 
-Als u deze voorkeuren wilt bewerken, gaat u naar het ![pictogram][img1] scherm **Voorkeuren** en selecteert u het tabblad **Algemene voorkeuren**.
+Als u deze voorkeuren wilt bewerken, gaat u naar het scherm **Voorkeuren** en selecteert u het tabblad **Algemene voorkeuren**.
 
 * De verschillende voorkeuren zijn verdeeld in secties.
 * Plaats de muisaanwijzer op een voorkeur om aanvullende informatie weer te geven.
@@ -121,6 +121,3 @@ U kunt de rijen in de kolommen sorteren door op de gewenste kolomkop te klikken.
 [4]: update-preferences.md#personal
 [8]: video-meetings/index.md
 [9]: ../../../document/library/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

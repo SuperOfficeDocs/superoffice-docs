@@ -2,10 +2,12 @@
 uid: help-nl-adding-items-to-currency-list
 title: Items toevoegen aan de lijst Valuta
 description: Items toevoegen aan de lijst Valuta
+keywords: lijst Algemeen - Valuta
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
  

@@ -2,9 +2,9 @@
 uid: help-nl-mail-link-create-template
 title: E-mailsjablonen maken
 description: E-mailsjablonen maken
+keywords: E-mailsjablonen maken, e-mailsjabloon, documentsjabloon
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Mail-koppeling
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,19 +29,19 @@ U kunt uw eigen sjablonen maken om te gebruiken bij het maken van e-mails vanuit
 
 7. [!include[Click arrow and select](includes/expand-list.md)] **Documentsjabloon** in de vervolgkeuze **Lijst**.
 
-8. Klik op de knop **Toevoegen** ![pictogram][img2] onder de lijst **Items**.
+8. Klik op de knop **Toevoegen** onder de lijst **Items**.
 
 9. Voer in het dialoogvenster de vereiste naam van de sjabloon in het verplichte veld **Naam** in.
 
-10. Klik in het veld **Bestandsnaam** op de pijl ![pictogram][img1] en selecteer het bestand *.somail* dat u zojuist hebt gemaakt.
+10. Klik in het veld **Bestandsnaam** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer het bestand *.somail* dat u zojuist hebt gemaakt.
 
-11. Klik in het veld **Richting** op de pijl ![pictogram][img1] en kies **Uitgaand** in de vervolgkeuze.
+11. Klik in het veld **Richting** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en kies **Uitgaand** in de vervolgkeuze.
 
-12. Klik in het veld **Recordtype** op de pijl ![pictogram][img1] en kies **E-mail**.
+12. Klik in het veld **Recordtype** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en kies **E-mail**.
 
-13. Selecteer in het veld **Documentplug-in** het programma dat u wilt gebruiken om het document weer te geven door te klikken op de pijl ![pictogram][img1] en een keuze te maken in de keuzelijst.
+13. Selecteer in het veld **Documentplug-in** het programma dat u wilt gebruiken om het document weer te geven door te klikken op <i class="ph ph-caret-down" aria-label="Chevron"></i> en een keuze te maken in de keuzelijst.
 
-14. Klik in het veld **Intentie** op de pijl ![pictogram][img1] en selecteer een van de vooraf gedefinieerde opties in de keuzelijst. Deze items worden met statuscontroles gebruikt in SuperOffice CRM (SAINT-licentie is vereist).
+14. Klik in het veld **Intentie** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer een van de vooraf gedefinieerde opties in de keuzelijst. Deze items worden met statuscontroles gebruikt in SuperOffice CRM (SAINT-licentie is vereist).
 
 15. Schakel het vakje **Publiceren** in om een gebruiker toe te staan te selecteren in het Dialoogvenster Document dat de desbetreffende documentsjabloon beschikbaar moet worden gesteld aan externe gebruikers.
 
@@ -58,7 +58,3 @@ U kunt uw eigen sjablonen maken om te gebruiken bij het maken van e-mails vanuit
 21. Klik op **Opslaan**.
 
 U kunt nu nieuwe e-mails maken vanuit SuperOffice CRM met behulp van deze sjabloon.
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
-[img2]: ../../../../media/icons/btn-add.png

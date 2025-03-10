@@ -5,7 +5,7 @@ description: Verwijderde items en kopteksten
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+topic: howto
 language: nl
 ---
 

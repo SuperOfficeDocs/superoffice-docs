@@ -54,7 +54,7 @@ Licenties voor SuperOffice CRM voor Windows (laatste release [SuperOffice G8 8.5
 
 Lees meer over licenties in [eerdere versies van SuperOffice][7].
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Licenties kopen activeren][1]
 * [Over het scherm Licenties][4]

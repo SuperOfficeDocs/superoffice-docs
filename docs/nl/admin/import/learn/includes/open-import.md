@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Open het scherm Import door te klikken op de knop Import ![pictogram][img1] in de Navigator.
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-import-active.png
+Open het scherm Import door te klikken op de knop Import (<i class="ph ph-file-arrow-up" aria-hidden="true"></i>) in de navigator.

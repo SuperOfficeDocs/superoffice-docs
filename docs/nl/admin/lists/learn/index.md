@@ -2,9 +2,9 @@
 uid: help-nl-lists
 title: Lijsten
 description: Lijsten bewerken
-author: SuperOffice RnD
-date: 02.23.2023
 keywords: lijst
+author: SuperOffice RnD
+date: 03.14.2025
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -59,7 +59,7 @@ Bekijk deze video om te zien hoe u uw verkooplijsten kunt bewerken zodat ze pass
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/2fIAT0-EjX0]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Items][2]
 * [Lijsten organiseren][3]

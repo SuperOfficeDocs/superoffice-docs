@@ -2,9 +2,9 @@
 uid: help-nl-adding-external-applications-to-application-list
 title: Externe toepassingen toevoegen aan de lijst Toepassing
 description: Externe toepassingen toevoegen aan de lijst Toepassing
+keywords: lijst GUI - Toepassing
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: lijst
+date: 03.14.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -28,7 +28,7 @@ language: nl
 1. Geef onder **Toevoegen als** aan hoe de toepassing moet worden toegevoegd:
 
     * **Knop**: het toepassingspictogram wordt weergegeven in de navigator. Gebruikers kunnen de toepassing rechtstreeks starten door te klikken op het pictogram in de navigator.
-    * **Menu-item**: de gebruiker kan de toepassing starten door te klikken op de knop **Hulpmiddelen** (![pictogram][img2]) in de navigator en/of door **Andere toepassingen** te selecteren in het hoofdmenu (![pictogram][img1]).
+    * **Menu-item**: de gebruiker kan de toepassing starten door te klikken op de knop **Hulpmiddelen** (<i class="ph ph-wrench" aria-hidden="true"></i>) in de navigator en/of door **Andere toepassingen** te selecteren in het hoofdmenu (<i class="ph ph-list" aria-hidden="true"></i>).
     * **Gebeurtenis**: de toepassing wordt uitgevoerd wanneer SuperOffice CRM wordt gestart of afgesloten, of bij een lokale update (Travel). Zie stap 8. U kunt bijvoorbeeld een synchronisatieprogramma uitvoeren voor een PDA wanneer SuperOffice CRM wordt afgesloten.
     * **Taak**: selecteer een optie in deze keuzelijst om de toepassing toegankelijk te maken vanaf het tabblad **Taak** op het scherm Selectie, of de knoppen **Taak**.
 
@@ -69,7 +69,7 @@ language: nl
 
 1. Selecteer de gewenste optie in de keuzelijst **Weergeven**. Deze keuzelijst is alleen beschikbaar wanneer u **Menu-item** hebt geselecteerd onder **Toevoegen als**.
 
-    * **Modulemenu**: de gebruiker kan de toepassing starten door te klikken op de knop **Hulpmiddelen** (![pictogram][img2]) in de navigator of door **Andere toepassingen** te selecteren in het hoofdmenu (![pictogram][img1]) in SuperOffice CRM.
+    * **Modulemenu**: de gebruiker kan de toepassing starten door te klikken op de knop **Hulpmiddelen** in de navigator of door **Andere toepassingen** te selecteren in het hoofdmenu in SuperOffice CRM.
     * **Weergavemenu**: de gebruiker kan de toepassing openen via de optie **Andere toepassingen** in het menu **Weergave** in SuperOffice CRM.
 
 1. Kies in de keuzelijst **Starten als** wanneer de toepassing moet worden uitgevoerd. Deze keuzelijst is alleen beschikbaar wanneer u **Gebeurtenis** hebt geselecteerd onder **Toevoegen als**.
@@ -93,9 +93,3 @@ language: nl
 
 > [!NOTE]
 > gebruikers moeten zich opnieuw aanmelden bij SuperOffice CRM om de toepassing weer te geven.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

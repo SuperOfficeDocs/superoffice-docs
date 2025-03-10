@@ -4,17 +4,17 @@ title: Algemene voorkeuren
 description: Algemene voorkeuren
 keywords: voorkeuren, instellingen, algemeen
 author: SuperOffice RnD
-date: 03.22.2024
+date: 03.14.2025
 version: 10
 topic: reference
-language: nl
 audience: settings
 audience_tooltip: Settings and maintenance
+language: nl
 ---
 
-# Algemene voorkeuren
+# Algemene voorkeuren <i class="ph ph-gear" aria-label="Gear icon"></i>
 
-De **Algemene voorkeuren** onder ![pictogram][img1] **Voorkeuren** wordt gebruikt om enkele van de belangrijkste voorkeuren in SuperOffice CRM te configureren.
+De **Algemene voorkeuren** onder **Voorkeuren** wordt gebruikt om enkele van de belangrijkste voorkeuren in SuperOffice CRM te configureren.
 
 Gebieden waarvoor u voorkeuren kunt configureren:
 
@@ -39,6 +39,3 @@ Gebieden waarvoor u voorkeuren kunt configureren:
 [3]: password.md
 [4]: sms.md
 [5]: ../../../../../en/mirroring/mirroring-task.md#options
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

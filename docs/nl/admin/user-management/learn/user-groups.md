@@ -2,9 +2,9 @@
 uid: help-nl-user-group-manage
 title: Gebruikersgroepen beheren
 description: Gebruikersgroepen maken en verwijderen
+keywords: gebruikersgroep
 author: Bergfrid Dias
 date: 08.25.2023
-keywords: gebruikersgroep
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,11 +19,11 @@ Om collega's te groeperen en hen toegang te geven tot CRM-gegevens op basis van 
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Selecteer ![pictogram][img2] **Lijsten** in de Navigator (1).
+1. Selecteer <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lijsten** in de Navigator.
 
     ![Gebruikersgroepen maken -screenshot][img3]
 
-1. Kies **Algemeen - Gebruikersgroep** in de lijst (2) en klik op **+Nieuw** (3).
+1. Kies **Algemeen - Gebruikersgroep** in de lijst en klik op **Nieuw**.
 
 1. Voer informatie in het dialoogvenster in. Optioneel, kies een of meerdere [verzoekcategorieën][4] voor deze groep.
 
@@ -49,10 +49,9 @@ Om collega's te groeperen en hen toegang te geven tot CRM-gegevens op basis van 
 [1]: add-associate.md
 [2]: import-users.md
 [3]: role/index.md
-[4]: ../../../request/learn/category/index.md
+[4]: ../../../request/admin/category/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-lists-active.png
 [img3]: ../../../../media/loc/en/admin/add-user-group.png
 [img4]: ../../../../media/loc/en/admin/edit-list-item.png
 [img5]: ../../../../media/loc/en/admin/user-dialog.png

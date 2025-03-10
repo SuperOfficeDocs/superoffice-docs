@@ -2,9 +2,9 @@
 uid: help-nl-edit-items
 title: Items bewerken
 description: In deze handleiding leert u hoe u een lijstitem bewerkt.
+keywords: lijstitem, lijsten
 author: SuperOffice RnD
-date: 02.23.2023
-keywords: lijstitem
+date: 03.14.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -58,6 +58,6 @@ Bekijk deze video om te leren hoe u lijstitems kunt bewerken in SuperOffice CRM 
 [1]: deleting-items.md
 [2]: specialized-lists.md
 [3]: privacy-source-add.md
-[4]: sale-type.md
+[4]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

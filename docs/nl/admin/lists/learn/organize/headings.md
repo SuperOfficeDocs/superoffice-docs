@@ -5,7 +5,7 @@ description: Kopteksten
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+topic: concept
 language: nl
 ---
 
@@ -22,7 +22,7 @@ De lijst **Kopteksten** (rechtsonder in het scherm **Lijsten**) geeft aan onder 
 
 Als een lijst heel lang is (het bevat een groot aantal items), kunt u kopteksten gebruiken om deze logisch te groeperen. De items in de lijst **Documentsjablonen** bijvoorbeeld worden gegroepeerd in de kopteksten **Brief**, **Fax**, **E-mai**l, enzovoort.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items groeperen onder kopjes][2]
 * [Kopteksten toevoegen][1]

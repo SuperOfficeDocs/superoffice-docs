@@ -2,9 +2,9 @@
 uid: help-nl-role-create
 title: Rol maken
 description: Rol maken
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: rol, gebruikersbeheer
+author: Bergfrid Dias
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -33,8 +33,8 @@ language: nl
 
 6. Selecteer een van de volgende opties:
 
-    * Klik op de ![pictogram][img5] pijl naast het vak **Rechten kopiëren van** en selecteer de rol waarop u de nieuwe rol wilt baseren.
-    * Klik op de ![pictogram][img5] pijl en selecteer **Beginnen met blanco rechten** om een geheel nieuwe rol te maken.
+    * Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het vak **Rechten kopiëren van** en selecteer de rol waarop u de nieuwe rol wilt baseren.
+    * Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer **Beginnen met blanco rechten** om een geheel nieuwe rol te maken.
 
 7. Klik op **Opslaan**. De nieuwe rol wordt weergegeven in de lijst **Rollen**.
 
@@ -55,7 +55,7 @@ language: nl
 
     De wijzigingen worden automatisch opgeslagen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Gebruikers toevoegen][5]
 * [Rollen bewerken][4]
@@ -65,6 +65,3 @@ language: nl
 [5]: ../add-associate.md
 [6]: functional-rights.md
 [7]: set-data-rights-for-role.md
-
-<!-- Referenced images -->
-[img5]: ../../../../../media/icons/arrow-down.png

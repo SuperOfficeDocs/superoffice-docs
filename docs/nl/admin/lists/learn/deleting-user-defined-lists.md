@@ -2,10 +2,12 @@
 uid: help-nl-deleting-user-defined-lists
 title: Door gebruikers gedefinieerde lijsten verwijderen
 description: Door gebruikers gedefinieerde lijsten verwijderen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+author: SuperOffice RnD
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

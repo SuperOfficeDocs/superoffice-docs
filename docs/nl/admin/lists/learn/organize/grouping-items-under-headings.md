@@ -2,10 +2,12 @@
 uid: help-nl-grouping-items-under-headings
 title: Items groeperen onder kopteksten
 description: Items groeperen onder kopteksten
+keywords: items groeperen, kopjes, koptekst, lijst Kopteksten, lijst Items
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+topic: howto
+audience: settings
+audience_tooltip: Indstillinger og vedligeholdelse
 language: nl
 ---
 
@@ -28,7 +30,7 @@ Als u een lijst wilt met twee niveaus, moet u kopteksten selecteren voor elk afz
 
 4. Schakel **Groeperen en filteren gebruikersgroep voor deze lijst gebruiken** rechtsboven in.
 
-5. Klik op het vak voor de naam van de gewenste koptekst in de lijst **Kopteksten** om aan te geven dat het geselecteerde lijstitem eronder wordt weergegeven. Het vak wordt gemarkeerd met een vinkje (![pictogram][img1]).
+5. Klik op het vak voor de naam van de gewenste koptekst in de lijst **Kopteksten** om aan te geven dat het geselecteerde lijstitem eronder wordt weergegeven. Het vak wordt gemarkeerd met een vinkje (<i class="ph ph-check" aria-hidden="true"></i>)
 
     De wijzigingen worden automatisch opgeslagen.
 
@@ -63,6 +65,3 @@ Als u een lijst wilt met twee niveaus, moet u kopteksten selecteren voor elk afz
 <!-- Referenced links -->
 [1]: adding-headings.md
 [2]: index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-selected.png

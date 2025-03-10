@@ -38,7 +38,7 @@ U kunt de volgende typen gebeurtenissen starten vanaf het licentiescherm in het 
 
 [!include[Terminate events](includes/note-terminate-event.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Systeemgebeurtenissen toevoegen][1]
 

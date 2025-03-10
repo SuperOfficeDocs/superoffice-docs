@@ -2,10 +2,12 @@
 uid: help-nl-country
 title: Land
 description: Land
+keywords: lijst Algemeen - Land
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -13,7 +15,7 @@ language: nl
 
 Op verschillende plaatsen in SuperOffice CRM kunt u het gewenste land selecteren in een selectielijst. De lijst met landen (en hun vlaggen) wordt verkregen via de ISO-standaardlijst met landen. De lijst met landen wordt vooraf gedefinieerd in het scherm **Lijsten** in Instellingen en onderhoud. U kunt desgewenst de vooraf gedefinieerde landen bewerken en nieuwe landen toevoegen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst Algemeen - Land][1]
 

@@ -2,9 +2,9 @@
 uid: help-nl-visibility
 title: Zichtbaarheid
 description: Zichtbaarheid
+keywords: zichtbaarheid, gebruiker, rol, beschikbaar
 author: SuperOffice RnD
 date: 03.07.2023
-keywords: zichtbaarheid, gebruiker, rol, beschikbaar
 topic: concept
 language: nl
 ---
@@ -15,10 +15,7 @@ Of u bepaalde documenten, verkopen, vervolgactiviteiten en selecties kunt weerge
 
 Hiervoor is de licentie **Vertrouwelijke activiteiten** vereist.
 
-Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op het tabblad **Licenties** en klikt u vervolgens op het selectievakje op ![pictogram][img1] voor **Vertrouwelijke activiteiten**.
+Als u deze licentie wilt instellen, zoekt u de gewenste gebruiker, klikt u op het tabblad **Licenties** en klikt u vervolgens op het selectievakje voor **Vertrouwelijke activiteiten**.
 
 <!-- Referenced links -->
 [1]: role/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-selected.png

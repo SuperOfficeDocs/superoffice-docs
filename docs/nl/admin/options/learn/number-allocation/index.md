@@ -2,9 +2,9 @@
 uid: help-nl-number-allocation
 title: Nummertoewijzing
 description: Nummertoewijzing
+keywords: nummer, teller
 author: Bergfrid Dias
 date: 03.24.2023
-keywords: nummer, teller
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,7 +29,7 @@ In het bovenste gedeelte van het tabblad **Nummertoewijzing** ziet u een tabel m
 
 | Kolom | Beschrijving |
 |---|---|
-| \[Icon\] | Geeft aan waar de teller wordt toegepast, bijvoorbeeld ![pictogram][img1] voor het scherm Bedrijf. |
+| \[Icon\] | Geeft aan waar de teller wordt toegepast, bijvoorbeeld <i class="ph ph-buildings" aria-label="Company icon"></i> voor het scherm Bedrijf. |
 | Teller | Geeft de naam van de teller weer, bijvoorbeeld **Nummer bedrijf**, die geldt voor het veld **Nummer** in het scherm Bedrijf. |
 | Volgende | Geeft de volgende waarde weer voor de desbetreffende teller. |
 | Toewijzen | Geeft aan of de automatische tellerfunctie wordt gebruikt, waardoor automatisch een volgnummer wordt ingevoerd. |
@@ -58,7 +58,7 @@ De volgende tabel laat de gevolgen zien van de verschillende combinaties van de 
 | | | x | x | Er wordt geen nummer toegewezen en de gebruiker kan ook geen nummer opgeven. Dit is handig wanneer u tellers van andere leveranciers gebruikt. |
 | | | x | | Er wordt geen nummer toegewezen en de gebruiker kan ook geen nummer opgeven. De database kan slechts één leeg veld hebben. (niet aanbevolen). |
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Nummertoewijzing opgeven][2]
 * [Standaardwaarden voor nieuwe documentsjablonen opgeven][3]
@@ -66,6 +66,3 @@ De volgende tabel laat de gevolgen zien van de verschillende combinaties van de 
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

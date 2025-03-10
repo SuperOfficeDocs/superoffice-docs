@@ -2,10 +2,12 @@
 uid: help-nl-follow-up-type
 title: Vervolgactiviteit - Type
 description: Vervolgactiviteit - Type
+keywords: lijst Vervolgactiviteit - Type
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -13,7 +15,7 @@ language: nl
 
 Typen vervolgactiviteiten worden gedefinieerd in het scherm **Lijsten** in Instellingen en onderhoud. De typen worden weergegeven als items in de lijst **Vervolgactiviteit - Type**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst Vervolgactiviteit - Type][1]
 

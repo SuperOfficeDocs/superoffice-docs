@@ -2,9 +2,9 @@
 uid: help-nl-deleting-role
 title: Een rol verwijderen
 description: Een rol verwijderen
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: gebruikersbeheer, rol
+author: Bergfrid Dias
+date: 02.28.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -32,11 +32,6 @@ Wanneer u een rol verwijdert, moet u de gebruikers met die rol verplaatsen naar 
 
     Is de knop Verwijderen uitgeschakeld (grijs)? U kunt de rol waartoe u zelf behoort of de rol van systeemgebruiker (**User level 0**) niet verwijderen. Als er nog maar één rol over is, kunt u deze niet verwijderen.
 
-5. Klik in het dialoogvenster **Rol verwijderen** op de ![pictogram][img3] pijl naast het veld **Alle gebruikers met deze rol toewijzen aan** en selecteer een andere rol voor de gebruikers van de rol die u wilt verwijderen.
+5. Klik in het dialoogvenster **Rol verwijderen** op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het veld **Alle gebruikers met deze rol toewijzen aan** en selecteer een andere rol voor de gebruikers van de rol die u wilt verwijderen.
 
 6. Klik op **Verwijd.**. De rol wordt verwijderd uit de lijst. U kunt de verwijdering van een rol niet ongedaan maken.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

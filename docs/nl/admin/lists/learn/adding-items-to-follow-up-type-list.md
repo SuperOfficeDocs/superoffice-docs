@@ -2,10 +2,12 @@
 uid: help-nl-adding-items-to-follow-up-type-list
 title: Items toevoegen aan de lijst Vervolgactiviteit - Type
 description: Items toevoegen aan de lijst Vervolgactiviteit - Type
+keywords: lijst Vervolgactiviteit - Type
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -20,7 +22,7 @@ language: nl
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klik op de ![pictogram][img1] pijl achter het veld **Type** en selecteer het gewenste type vervolgactiviteit in de keuzelijst.
+2. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> achter het veld **Type** en selecteer het gewenste type vervolgactiviteit in de keuzelijst.
 
 3. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op de pijl en een keuze te maken in de keuzelijst.
 
@@ -41,6 +43,3 @@ language: nl
 
 <!-- Referenced links -->
 [2]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

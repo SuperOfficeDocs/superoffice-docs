@@ -31,7 +31,8 @@ U kunt een gebruiker van het ene bedrijf naar het andere verplaatsen als uw orga
 
     [!include[Select action](../../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../../learn/includes/note-preview-results.md)]
+    > [!NOTE]
+    > Als u de resultaten wilt bekijken voordat u de actie bevestigt, klikt u op <i class="ph ph-info" aria-label="Resultaten weergeven"></i>.
 
 1. Klik op **Verplaatsen**. De gebruiker wordt verplaatst naar het opgegeven bedrijf.
 

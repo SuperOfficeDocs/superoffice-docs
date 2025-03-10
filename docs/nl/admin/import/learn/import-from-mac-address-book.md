@@ -2,10 +2,10 @@
 uid: help-nl-import-from-mac-address-book
 title: Importeren vanuit Mac-adresboek
 description: Importeren vanuit Mac-adresboek
+keywords: Instellingen en onderhoud, import
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Instellingen en onderhoud, import
-topic: help
+topic: howto
 language: nl
 ---
 

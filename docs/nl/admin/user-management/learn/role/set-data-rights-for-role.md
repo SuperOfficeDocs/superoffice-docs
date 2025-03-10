@@ -28,7 +28,7 @@ U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar
 
 3. Selecteer de betreffende rol in de lijst **Rollen**. De rechten voor de geselecteerde rol worden weergegeven op het tabblad **Gegevensrechten**.
 
-4. Klik op de ![pictogram][img3] pijl naast het recht dat u wilt wijzigen en selecteer het vereiste recht.
+4. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het recht dat u wilt wijzigen en selecteer het vereiste recht.
 
     | Naam | Rechten | Knopinfo |
     |---|---|---|
@@ -62,7 +62,7 @@ U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar
 
 Als de gegevensobjecten (bedrijven, projecten, documenten enzovoort) toegankelijk moeten zijn voor externe gebruikers (Audience-gebruikers), is het niet voldoende leesrechten toe te wijzen aan de externe gebruikers. De gegevensobjecten moeten ook worden gepubliceerd in SuperOffice.
 
-## Aanvervandt
+## Gerelateerde inhoud
 
 * [Gegevensrechten][3]
 
@@ -70,6 +70,3 @@ Als de gegevensobjecten (bedrijven, projecten, documenten enzovoort) toegankelij
 [1]: edit-rights-for-anonymous-users.md
 [2]: index.md
 [3]: functional-rights.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../media/icons/arrow-down.png

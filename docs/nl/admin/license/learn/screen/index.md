@@ -69,7 +69,7 @@ Onder **Systeemmeldingen** vindt u de volgende kolommen:
 | Voltooid | Geeft aan wanneer de gebeurtenis naar verwachting voltooid zal zijn. |
 | Type | Geeft aan of de gebeurtenis van toepassing is op het hele systeem. |
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [SuperOffice en licenties][3]
 * [Licenties kopen][5]

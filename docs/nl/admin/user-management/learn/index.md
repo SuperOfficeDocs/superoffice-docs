@@ -1,7 +1,7 @@
 ---
 uid: help-nl-users
 title: Gebruikers
-description: "Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools."
+description: Leer hoe u nieuwe gebruikers toevoegt, hoe u de juiste gebruikersrollen en groepen toewijst en de gebruikers helpt met instellingen en WebTools.
 author: SuperOffice RnD
 date: 02.21.2023
 keywords: gebruiker

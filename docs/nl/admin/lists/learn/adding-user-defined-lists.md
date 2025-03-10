@@ -2,10 +2,12 @@
 uid: help-nl-adding-user-defined-lists
 title: Door gebruikers gedefinieerde lijsten toevoegen
 description: Door gebruikers gedefinieerde lijsten toevoegen
+keywords: Lijst maken, gebruikers gedefinieerde lijsten
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

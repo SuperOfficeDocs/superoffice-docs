@@ -59,7 +59,7 @@ Als het totaal aantal nieuwe licenties minder is dan het aantal licenties in geb
 
 [!include[Tip](includes/tip-user-licenses.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Soorten licenties][3]
 * [Het tabblad Status in het scherm Licenties][1]

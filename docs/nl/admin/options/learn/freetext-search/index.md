@@ -18,7 +18,7 @@ Met de functie Vrije-tekstzoekbewerking van SuperOffice CRM kunnen gebruikers ov
 
 Met dit tabblad in Instellingen en onderhoud kunt u precies bepalen op welke manier dit werkt in SuperOffice CRM. De vrije tekst-zoekfunctie kan alleen worden gedeactiveerd voor onsite-oplossingen, niet voor online-/cloud-versies.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Zoeken op vrije tekst inschakelen (onsite)][1]
 * [Zoekcriteria opgeven][2]

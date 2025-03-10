@@ -68,7 +68,7 @@ U kunt bijvoorbeeld bepalen of een persoon informatie kan verwijderen, bijwerken
 | Bijwerken | Kan bijwerken |  | X | X | X |  |
 | Verwijderen | Kan verwijderen |  | X | X | X | X |
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een rol maken][1]
 * [Een rol bewerken][2]

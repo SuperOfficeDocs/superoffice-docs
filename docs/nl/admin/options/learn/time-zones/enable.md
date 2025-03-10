@@ -23,7 +23,7 @@ language: nl
 > [!TIP]
 > Ga naar **Voorkeuren** gaan de tijdzonekiezer weer te geven en de standaardtijdzone in te stellen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Selecteer welke tijdzones u wilt weergeven][1]
 

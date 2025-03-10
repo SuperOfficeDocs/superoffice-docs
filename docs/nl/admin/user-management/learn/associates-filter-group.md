@@ -2,9 +2,9 @@
 uid: help-nl-users-associates-filter-group
 title: Gebruikers filteren en groeperen
 description: Gebruikers filteren en groeperen
+keywords: gebruiker, medewerker
 author: Bergfrid
 date: 03.15.2023
-keywords: gebruiker, medewerker
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -25,7 +25,7 @@ Gebruik deze dynamische zoekfunctie om specifieke gebruikers snel te vinden op n
 
 Selecteer deze optie om alleen gebruikers weer te geven die actief zijn (die niet zijn gedeactiveerd).
 
-## De lijst filteren
+## De lijst filteren <i class="ph ph-funnel" aria-hidden="true"></i>
 
 U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
 
@@ -33,10 +33,10 @@ U kunt de lijst met gebruikers filteren op een van de kolomkoppen.
 > Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt filteren.
 
 1. Ga naar het tabblad **Medewerkers**.
-2. Klik met de rechtermuisknop op een kolomkop of klik op ![pictogram][img1] in de rechterbovenhoek van de lijst.
+2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
 3. Selecteer **Filter inschakelen**.
-4. Klik op **OK.** Aan elke kolomkop worden filterknoppen (![pictogram][img2]) toegevoegd.
-5. Klik op ![pictogram][img2] in de kolom die u wilt filteren.
+4. Klik op **OK.** Aan elke kolomkop worden filterknoppen toegevoegd.
+5. Klik op <i class="ph ph-funnel" aria-label="Filter icon"></i> in de kolom die u wilt filteren.
 6. Selecteer de relevante waarden in de lijst. Gebruik de zoekfunctie als de lijst lang is.
 7. Klik op **Filter**.
 8. Herhaal de stappen 5-7 om op extra kolommen te filteren.
@@ -49,7 +49,7 @@ U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep 
 > Klik met de rechtermuisknop op een kolom om extra kolommen toe te voegen waarop u wilt groeperen (zie ook [Weergaven aanpassen][1]).
 
 1. Ga naar het tabblad **Medewerkers**.
-2. Klik met de rechtermuisknop op een kolomkop of klik op ![pictogram][img1] in de rechterbovenhoek van de lijst.
+2. Klik met de rechtermuisknop op een kolomkop of klik op <i class="ph ph-gear" aria-label="Gear"></i> in de rechterbovenhoek van de lijst.
 3. Selecteer **Groepering inschakelen**.
 4. Klik op **OK**.
 5. Klik op de kolomkop voor de waarde waarmee wilt groeperen en sleep deze naar het gebied boven de kolommen ("Sleep een kolomkop en ..."). De lijst is gegroepeerd op deze waarde.
@@ -62,7 +62,3 @@ U kunt de lijst met gebruikers groeperen op rol, gebruikersplan, primaire groep 
 
 <!-- Referenced links -->
 [1]: ../../learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png
-[img2]: ../../../../media/icons/filter-column.png

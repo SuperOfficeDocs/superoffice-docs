@@ -1,6 +1,6 @@
 ---
 uid: help-nl-our-companies-manage
-title: "'Onze bedrijven' beheren"
+title: 'Onze bedrijven' beheren
 description: Bedrijven toevoegen aan en verwijderen van het tabblad Onze bedrijven
 author: Bergfrid
 date: 03.15.2023

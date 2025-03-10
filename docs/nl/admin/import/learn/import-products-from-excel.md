@@ -1,10 +1,10 @@
 ---
 uid: help-nl-import-products-from-excel
 title: Producten importeren uit Excel
-description: "In deze handleiding leert u hoe u al uw producten, beschrijvingen en product kunt importeren."
+description: In deze handleiding leert u hoe u al uw producten, beschrijvingen en product kunt importeren.
+keywords: import, product, Excel
 author: Bergfrid Dias
 date: 02.22.2023
-keywords: import, product, Excel
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -69,7 +69,7 @@ Aangezien de Excel-spreadsheet alles kan bevatten van slechts enkele tot een gro
 
     | Pictogram | Beschrijving |
     |---|---|
-    | ![pictogram][img2] | Er is een probleem met de data in deze rij. Zie de uitleg in de koptekst van de tabel. |
+    | <i class="ph ph-warning" aria-label="Warning"></i> | Er is een probleem met de data in deze rij. Zie de uitleg in de koptekst van de tabel. |
     | ![pictogram][img3] | Het product bestaat nog niet en zal worden toegevoegd. |
     | ![pictogram][img4] | Het product bestaat al en zal worden bijgewerkt. |
     | legen | Niet bijwerken. |
@@ -95,6 +95,5 @@ Wanneer het importeren is voltooid, wordt een lijst met de geïmporteerde gegeve
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-excel-small.png
-[img2]: ../../../../../common/icons/warning.png
 [img3]: ../../../../media/icons/admin/import-preview-icon-product-new.png
 [img4]: ../../../../media/icons/admin/import-preview-icon-product-changed.png

@@ -15,7 +15,7 @@ language: nl
 
 Via het tabblad **Labels** in het scherm Opties kunt u de naam van elk veld in SuperOffice wijzigen. U kunt bijvoorbeeld beslissen dat alle velden **Bedrijf** de naam *Organisatie* moeten krijgen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Labels wijzigen][1]
 * [Labels opnieuw instellen][2]
