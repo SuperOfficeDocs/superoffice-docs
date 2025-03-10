@@ -86,7 +86,7 @@ Under Indstillinger og vedligeholdelse kan der defineres forskellige regler for,
 
 * I dialogboksen **Tilføj/rediger produkt**
 * I dialogboksen **Rediger tilbud**
-* På produktlinjer under detaljekorter **Tilbud** og fanen **Produkter** (og alternativer) i et tilbud
+* På produktlinjer under detaljekortet **Tilbud** og fanen **Produkter** (og alternativer) i et tilbud
 
 ### Hvad forårsager disse advarsler og meddelelser?
 

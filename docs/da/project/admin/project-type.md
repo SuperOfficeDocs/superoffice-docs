@@ -96,4 +96,4 @@ Hvis en projekttype er blevet slettet, kan du gendanne den fra listen **Projekt 
 [5]: ../learn/project-guides.md#change-status
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/da/project/edit-project-type.png
+[img1]: ../../../media/loc/en/project/edit-project-type.png

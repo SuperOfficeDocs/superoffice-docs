@@ -66,7 +66,7 @@ For at [tilføje projektmedlemmer][4] direkte fra detaljekortet **Projekter**:
 
 ## Yderligere tips
 
-* **Hurtig navigation:** Brug [Navigatøren][7] til hurtigt at skifte mellem forskellige enheder og deres tilhørende faner.
+* **Hurtig navigation:** Brug [Navigatoren][7] til hurtigt at skifte mellem forskellige enheder og deres tilhørende faner.
 
 ## Relateret indhold
 

@@ -15,7 +15,7 @@ language: da
 
 # Oprettelse af ny projektguide
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 I Indstillinger og vedligeholdelse kan du definere, hvilke projekttyper der er tilknyttet en projektguide, og hvilke statusser og aktiviteter projektguiderne skal indeholde. Det kan derfor variere, hvordan en projektguide ser ud.
 
