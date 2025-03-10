@@ -15,7 +15,7 @@ language: da
 
 # Opret en ny salgsguide
 
-[!include[Skal være administrator](../../../learn/includes/req-admin.md)]
+[!include[Skal være administrator](../../learn/includes/req-admin.md)]
 
 I **Indstillinger og vedligeholdelse** definerer du, hvilke salgstyper der skal have en salgsguide, og hvilke faser og aktiviteter, de skal indeholde. Hvordan en salgsguide ser ud, afhænger derfor af dine konfigurationer.
 

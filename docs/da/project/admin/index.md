@@ -13,7 +13,7 @@ audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 ---
 
-# Administrer projekttyper, statuser og guider (NOT CHECKED)
+# Administrer projekttyper, statuser og guider
 
 SuperOffice CRM giver administratorer værktøjer til at standardisere projektarbejdsgange ved hjælp af **projekttyper**, **statuser** og **guider**. Disse funktioner sikrer ensartet projektsporing, opgavestyring og dokumentation på tværs af teams.
 
