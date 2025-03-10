@@ -4,8 +4,8 @@ title: Arbejde med eksterne dokumenter
 description: Arbejde med eksterne dokumenter
 keywords: sag, dokument
 author: Bergfrid Dias
-date: 10.29.2023
-version: 10.3.11
+date: 03.07.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -20,20 +20,20 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 
 ## Vis dokument
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den ønskede mappe.
 
 1. Gør ét af følgende:
     * Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**. Her kan du også få vist og redigere indholdet af bestemte dokumenttyper, f.eks. html, txt og det lokale ejr-format.
-    * Klik på ![ikon][img1] **Download** for at downloade dokumenter, som ikke kan vises i browseren, f.eks. PDF- og Microsoft Office-filer. Et ikon i dokumentlisten angiver dokumenttypen.
+    * Klik på <i class="ph ph-download-simple" aria-label="Download"></i> for at downloade dokumenter, som ikke kan vises i browseren, f.eks. PDF- og Microsoft Office-filer. Et ikon i dokumentlisten angiver dokumenttypen.
 
 ## Tilføj dokument
 
 > [!NOTE]
 > Du skal oprette selve det fysiske dokument, før du kan føje det til SuperOffice. Hvis du f.eks. skal oprette en prisliste, kan du bruge Microsoft Word eller Excel til at skrive indholdet.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den mappe, du vil placere dokumentet i. Hvis den endnu ikke findes, kan du oprette en ny mappe som beskrevet nedenfor.
 
@@ -41,7 +41,7 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 
 1. Angiv et beskrivende navn på dokumentet i feltet **Navn**.
 
-1. I feltet **I mappe** vises navnet på den mappe, du har valgt, automatisk. Hvis du har ombestemt dig, kan du klikke på ![ikon][img2] listeknappen og vælge en anden mappe på den liste, der vises.
+1. I feltet **I mappe** vises navnet på den mappe, du har valgt, automatisk. Hvis du har ombestemt dig, kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en anden mappe på den liste, der vises.
 
 1. I feltet **Adgang** skal du vælge, hvem der skal have adgang til at læse og ændre det aktuelle dokument.
 
@@ -62,9 +62,9 @@ Dette gælder f.eks., når du bruger fanen **Meddelelse**, når du [besvarer sag
 
 Visse dokumenttyper, f.eks. html, txt og det lokale ejr-format, kan redigeres direkte i skærmbilledet **Egenskaber for dokument**. For andre typer, f.eks. PDF, skal du bruge det program, som dokumentet oprindeligt blev oprettet i.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
-1. Klik på ![ikon][img1] **Download** for at downloade et dokument.
+1. Klik på <i class="ph ph-download-simple" aria-label="Download"></i> for at downloade et dokument.
 1. Rediger og gem dokumentet ved hjælp af det program, som dokumentet oprindeligt blev oprettet i.
 1. Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**.
 1. Klik på knappen **Gennemse** ved siden af **Fil**, og vælg det dokument, du har redigeret, i den dialogboks, der vises.
@@ -74,7 +74,7 @@ Visse dokumenttyper, f.eks. html, txt og det lokale ejr-format, kan redigeres di
 
 Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have adgang til dokumentet.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
 1. Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**.
 1. Foretag de nødvendige ændringer (se ovenfor).
@@ -85,7 +85,7 @@ Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have a
 
 ## Slet dokument
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den mappe, som dokumentet ligger i.
 1. Klik på dokumentets navn for at gå til skærmbilledet **Egenskaber for dokument**.
 1. Klik på knappen **Slet** nederst i skærmbilledet.
@@ -95,7 +95,7 @@ Ved at redigere dokumentegenskaberne kan du f.eks. justere, hvem der skal have a
 
 Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, der gør det let for andre at finde oplysningerne. Du kan oprette undermapper i alle mapper, og i hver af disse mapper kan du tilføje de dokumenter, der hører hjemme der.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 
 1. Gå til den mappe, som du vil oprette undermappen under. Du kan vælge at oprette den lige under **Dokumenter** eller i en vilkårlig undermappe under denne.
 
@@ -103,7 +103,7 @@ Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, 
 
 1. Angiv et beskrivende navn på mappen i feltet **Navn**.
 
-1. I feltet **I mappe** vises automatisk navnet på den overordnede mappe, du har valgt. Hvis du har ombestemt dig, kan du klikke på ![ikon][img2] listeknappen og vælge en anden mappe på den liste, der vises.
+1. I feltet **I mappe** vises automatisk navnet på den overordnede mappe, du har valgt. Hvis du har ombestemt dig, kan du klikke på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælge en anden mappe på den liste, der vises.
 
 1. I rullemenuen **Adgang** skal du vælge, hvem der skal have adgang til at læse og ændre den aktuelle mappe.
 
@@ -113,17 +113,12 @@ Du kan oprette en mappestruktur til dokumenter, så du får en logisk struktur, 
 
 Når du sletter en mappe, slettes alle dokumenterne i den også fra SuperOffice.
 
-1. Gå til ![ikon][img3] **Hovedmenu** på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
+1. Gå til <i class="ph ph-list" aria-label="Main menu"></i> på toplinjen, og vælg **Vidensbase** > **Eksterne dokumenter**.
 1. Gå til den ønskede mappe.
 1. Klik på **Rediger mappe**. Du kommer til skærmbilledet **Egenskaber for dokumentmappe**.
 1. Klik på **Slet**.
 1. Klik på **OK** for at bekræfte. Mappen og indholdet i den fjernes fra SuperOffice.
 
 <!-- Referenced links -->
-[1]: howto/reply.md
+[1]: reply.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
-[img2]: ../../../../common/icons/dropdown-arrow.png
-[img3]: ../../../media/icons/main-menu.png
