@@ -4,8 +4,8 @@ title: Sectietabblad Verzoeken
 description: Leer hoe u Serviceverzoeken in SuperOffice CRM kunt bekijken, toevoegen en beheren, zodat u klantinteracties efficiënt kunt volgen tussen bedrijven en personen.
 keywords: sectietabblad Verzoeken, tabblad Verzoeken, sectietabblad
 author: Bergfrid Skaara Dias
-date: 03.11.2025
-version: 10.5.3
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -73,7 +73,7 @@ Om een verzoek rechtstreeks vanuit het sectietabblad **Verzoeken** te bewerken:
 
 1. Zoek het verzoek dat u wilt bewerken en dubbelklik erop.
 
-1. Klik in het venster dat wordt geopend op **Bewerken** om de details van het verzoek bij te werken.
+1. Klik in het venster dat wordt geopend op **Bewerken** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) om de details van het verzoek bij te werken.
 
 ## Aanvullende tips
 
@@ -87,8 +87,8 @@ Om een verzoek rechtstreeks vanuit het sectietabblad **Verzoeken** te bewerken:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

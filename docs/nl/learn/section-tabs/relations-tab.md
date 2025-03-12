@@ -4,8 +4,8 @@ title: Sectietabblad Relaties
 description: Leer hoe u relaties tussen bedrijven en personen kunt bekijken, toevoegen en beheren in SuperOffice CRM, zodat belangrijke zakelijke connecties gemakkelijk toegankelijk en goed gedocumenteerd zijn.
 keywords: Sectietabblad Relaties, tabblad Relaties, sectietabblad, relaties
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
