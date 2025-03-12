@@ -29,7 +29,7 @@ Een relatie moet altijd twee partijen hebben: één actief en één passief. Bij
 
 1. Klik op **Opslaan**.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Relatie verwijderen][3]
 

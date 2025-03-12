@@ -1,41 +1,54 @@
 ---
 uid: help-nl-contact
 title: Persoon
-description: Een persoonskaart slaat waardevolle informatie op over al je communicatie en interactie met een persoon, evenals hun AVG-toestemmingsdocumentatie.
+description: Het scherm Persoon biedt een overzicht van alle communicatie en interactie met een persoon. Hier beheert u contactgegevens, volgt u activiteiten en hebt u toegang tot AVG-gerelateerde documentatie.
+keywords: scherm Persoon, persoon, contactpersoon
 author: Bergfrid Dias
-date: 12.14.2022
-keywords: persoon, contactpersoon
+date: 03.14.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Persoon
 
-Een persoonskaart slaat waardevolle informatie op over al je communicatie en interactie met een persoon, evenals hun AVG-toestemmingsdocumentatie. Alles wat u wilt weten over een contactpersoon is beschikbaar vanaf één scherm.
+Het **scherm Persoon** biedt een overzicht van alle communicatie en interactie met een persoon. Hier beheert u contactgegevens, volgt u activiteiten en hebt u toegang tot AVG-gerelateerde documentatie—alles vanuit één scherm.
 
-![Scherm Persoon -screenshot][img3]
+![Het scherm Persoon met kerninformatie over een contactpersoon, sectietabbladen en navigatieknoppen. -screenshot][img3]
 
-[!include[Intro](includes/contacts-screen-intro.md)]
+Personen die aan een bedrijf zijn gekoppeld, kunnen ook worden bekeken in het sectietabblad **Personen** van het [scherm Bedrijf][8]. Alle activiteiten die aan een persoon worden toegevoegd, worden automatisch gekoppeld aan het bedrijf.
 
-In het scherm **Persoon** wordt elke record in de database weergegeven als een indexkaart, die alle informatie voor die persoon bevat.
+U kunt tussen personen navigeren met de knoppen **Vorige** en **Volgende** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) rechtsonder in het scherm.
 
-Als u tussen personen wilt schakelen, klikt u op de knoppen vorige/volgende - ![pictogram][img2] ![pictogram][img1] - rechtsonder op de kaarten.
+Gebruik de functie **Zoeken** om specifieke personen te vinden of records te filteren. Vanuit het scherm Persoon kunt u ook documenten maken, e-mails verzenden en vervolgactiviteiten genereren.
 
-U kunt op personen [zoeken][1] aan de hand van criteria die u zelf opgeeft. Ook kunt u documenten maken, vervolgactiviteiten genereren en nieuwe personen maken.
+## Tabbladen op de persoonskaart
+
+| Tabblad | Beschrijving |
+|---|---|
+| [Persoon][2] | Hoofdtabel voor het invoeren van belangrijke contactgegevens, zoals titel, telefoonnummer, e-mail en adresvelden. |
+| Details | Uitgebreide contactgegevens, zoals geboortedatum en voorkeurstaal. |
+| [Meer][19] | Aangepaste velden voor het invoeren van extra contactspecifieke informatie. |
+| [Interesses][2] | Contactinteresses opgeven voor selecties of campagnes. Een punt verschijnt wanneer interesses zijn geselecteerd. |
+| [Opmerking][20] | Vrij tekstveld om notities over de contactpersoon toe te voegen. Notities worden gemarkeerd met een punt als ze zijn ingevuld. |
+| [www][21] | Snelkoppeling naar een URL voor toegang tot externe gegevens of webpagina’s over de contactpersoon. |
+| [ERP][22] | Verbindt de contactpersoon met het ERP-systeem voor integratie of synchronisatie. |
 
 ## <a id="section-tabs"></a>Sectietabbladen op het scherm Persoon
 
-Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectietabbladen][16] met informatie die zijn gekoppeld aan de huidige persoon:
+Onder de persoonskaart bieden [sectietabbladen][16] snelle toegang tot informatie die is gekoppeld aan de persoon:
 
 | Sectietabblad | Beschrijving |
 |---|---|
 | [Activiteiten][11] | Bevat alle activiteiten die aan de persoon zijn gekoppeld. |
-| [Verkoop][12] | Bevat informatie over verkopen met betrekking tot de persoon. |
-| [Verzoeken][13] | Toont SuperOffice Service-aanvragen voor de persoon. |
-| [Projecten][14] | Toont alle projecten waarbij de actieve persoon een projectlid is. |
-| [Relaties][15] | Hier worden eventuele verbindingen weergegeven tussen de huidige persoon en andere personen of bedrijven. |
+| [Verkoop][12] | Bevat informatie over verkopen die aan de persoon zijn gekoppeld. |
+| [Verzoeken][13] | Toont SuperOffice Service-verzoeken voor de persoon. |
+| [Projecten][14] | Toont alle projecten waarin de persoon een projectlid is. |
+| [Relaties][15] | Geeft eventuele connecties weer tussen de huidige persoon en andere personen of bedrijven. |
 
-## Wat wilt u doen?
+## Gerelateerde inhoud
 
 * [Een nieuwe contactpersoon maken][2]
 * [Privacy-instellingen voor een persoon bewerken][3]
@@ -43,21 +56,15 @@ Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectieta
 * [Contactpersonen samenvoegen][5]
 * [Contactpersonen verwijderen][6]
 * [E-mail verzenden naar een contactpersoon][7]
-* [Contactgegevens bulksgewijs bijwerken][8]
-* [Massaal contacten en bedrijven uit selectie verwijderen][9]
-* [De Prullenbak gebruiken om bedrijven en contactpersonen te herstellen][10]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
-[8]: ../../search-options/selection/learn/howto/bulk-update.md
-[9]: ../../search-options/selection/learn/howto/mass-delete.md
-[10]: ../../learn/basics/deleting-elements.md#restore
+[8]: ../../company/learn/index.md
 
 [11]: ../../learn/section-tabs/activities-tab.md
 [12]: ../../learn/section-tabs/sales-tab.md
@@ -65,8 +72,10 @@ Het onderste deel van het scherm **Persoon** bestaat uit vijf [standaardsectieta
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/relations-tab.md
 [16]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/contact/edit-person.png
+[img3]: ../../../media/loc/en/contact/contact-screen.png
