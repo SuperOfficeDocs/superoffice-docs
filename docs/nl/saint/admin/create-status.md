@@ -32,7 +32,7 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
     * **Naam**: voer een beschrijvende naam in voor de status die u wilt toevoegen.
 
-        Optioneel: Klik op **A-Z** om [vertalingen toe te voegen][8] van de statusnaam.
+        Optioneel: Klik op <i class="ph ph-translate" aria-label="Translate"></i> om [vertalingen toe te voegen][8] van de statusnaam.
 
     * **Beschrijving**: voer een toelichting bij de status in en geef daarbij aan welke maatregelen vereist zijn of aanbevolen worden. U kunt in dit veld ook [sjabloonvariabelen][9] gebruiken om de tekst aan specifieke bedrijf, persoon of project aan te passen.
 
@@ -44,13 +44,13 @@ U wilt bedrijven bewaken waar u heel weinig activiteiten mee hebt, om ontevreden
 
 ### Waaruit bestaat de statuslijst?
 
-![pictogram][img3] – het pictogram **Visualiseren** geeft aan of een [statusafbeelding][3] moet worden weergegeven voor bedrijven, personen of projectkaarten die aan de statuscriteria voldoen. Het pictogram wordt alleen weergegeven als u **Visualiseren** hebt aangevinkt op het tabblad **Afbeelding** voor de betreffende status.
+* Het pictogram **Visualiseren** (<i class="ph ph-eye" aria-hidden="true"></i>) geeft aan of een [statusafbeelding][3] moet worden weergegeven voor bedrijven, personen of projectkaarten die aan de statuscriteria voldoen. Het pictogram wordt alleen weergegeven als u **Visualiseren** hebt aangevinkt op het tabblad **Afbeelding** voor de betreffende status.
 
-![pictogram][img4] - een rood kruis geeft aan dat de status opnieuw moet worden gegenereerd. Telkens wanneer u een criterium toevoegt, bewerkt of verwijdert, of bijvoorbeeld een intentie voor een taak wijzigt, moet de [status opnieuw worden gegenereerd][4]. Statussen met rode kruizen worden niet bijgewerkt en leveren geen actuele gegevens op bij gebruik van SuperOffice CRM.
+* Een rood kruis geeft aan dat de status opnieuw moet worden gegenereerd. Telkens wanneer u een criterium toevoegt, bewerkt of verwijdert, of bijvoorbeeld een intentie voor een taak wijzigt, moet de [status opnieuw worden gegenereerd][4]. Statussen met rode kruizen worden niet bijgewerkt en leveren geen actuele gegevens op bij gebruik van SuperOffice CRM.
 
-**Naam** – de naam van de statussen. Verwijderde statussen worden in rood weergegeven als u **Verwijderde items weergeven** hebt ingeschakeld.
+* **Naam** – de naam van de statussen. Verwijderde statussen worden in rood weergegeven als u **Verwijderde items weergeven** hebt ingeschakeld.
 
-**Prioriteit** – de prioriteit van de statussen. De prioriteit bepaalt welke status weergegeven wordt als een bedrijf, persoon of project aan de criteria voor meerdere statussen voldoet.
+* **Prioriteit** – de prioriteit van de statussen. De prioriteit bepaalt welke status weergegeven wordt als een bedrijf, persoon of project aan de criteria voor meerdere statussen voldoet.
 
 ## Waarom moet ik een prioriteit voor een status opgeven?
 
@@ -77,6 +77,4 @@ Als een bedrijf, persoon of project meerdere actieve statussen heeft, worden de 
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

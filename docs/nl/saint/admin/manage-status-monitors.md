@@ -28,32 +28,25 @@ U moet statussen en/of tellers opnieuw genereren als de indicatoren aangeven dat
 
 ### Hoe u kunt zien of het is bijgewerkt
 
-Als een item niet wordt bijgewerkt, wordt het weergegeven als ![pictogram][img1] (statussen) en ![pictogram][img3] / ![pictogram][img4] / ![pictogram][img5] (tellers) in SuperOffice CRM.
+Als een item niet wordt bijgewerkt, wordt het weergegeven als grijs gemaakt in SuperOffice CRM.
 
-## Statussen opnieuw genereren
+## Statussen opnieuw genereren <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>
 
 Wanneer u een [criterium toevoegt, bewerkt of verwijdert][2], of bijvoorbeeld een intentie voor een taak in SuperOffice CRM bewerkt, staat er een rood kruis in de statuslijst links van de betreffende status(sen). Statussen die met een rood kruis zijn gemarkeerd, zijn niet beschikbaar.
 
 U moet deze statussen dan opnieuw genereren door te klikken op een van deze knoppen:
 
-| Pictogram | Naam | Beschrijving | Locatie |
-|---|---|---|---|
-| ![pictogram][img2] | Geselecteerde statuscontrole opnieuw genereren | Selecteer om de geselecteerde statussen te regenereren | Onder aan het tabblad **Bedrijf**, **Persoon** of **Project** |
-| ![pictogram][img2] | Alle statuscontroles opnieuw genereren | Selecteer om alle statussen te regenereren | Onder aan het tabblad **Status** |
+| Naam | Beschrijving | Locatie |
+|---|---|---|
+| Geselecteerde statuscontrole opnieuw genereren | Selecteer om de geselecteerde statussen te regenereren | Onder aan het tabblad **Bedrijf**, **Persoon** of **Project** |
+| Alle statuscontroles opnieuw genereren | Selecteer om alle statussen te regenereren | Onder aan het tabblad **Status** |
 
 ## Tellerwaarden opnieuw genereren
 
-| Pictogram | Naam | Beschrijving |
-|---|---|---|
-| ![pictogram][img2] | Alle tellers regenereren | Selecteer om alle tellers te regenereren |
+| Naam | Beschrijving |
+|---|---|
+| Alle tellers regenereren | Selecteer om alle tellers te regenereren |
 
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: select-status-criteria.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/admin/status-inactive.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/admin/saint-counter-company-dis.png
-[img4]: ../../../media/icons/admin/saint-counter-project-dis.png
-[img5]: ../../../media/icons/admin/saint-counter-sale-disabled.png

@@ -1,7 +1,7 @@
 ---
 uid: help-nl-quote-create
 title: Een offerte maken
-description: "In deze gids leert u hoe u een offerte kunt maken, een product in de offerte kunt toevoegen en bewerken en hoe u een offerte kunt verzenden."
+description: In deze gids leert u hoe u een offerte kunt maken, een product in de offerte kunt toevoegen en bewerken en hoe u een offerte kunt verzenden.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: offerte
@@ -38,7 +38,7 @@ Als het dialoogvenster **ERP-verbinding selecteren** wordt weergegeven terwijl u
 
 Nadat u een ERP-verbinding hebt geselecteerd, kunt doorgaan naar Een offerte maken.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een verzonden offerte bewerken (versies)][3]
 * [Het dialoogvenster Offerte bewerken][4]

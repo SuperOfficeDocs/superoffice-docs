@@ -1,7 +1,7 @@
 ---
 uid: help-nl-privacy-implementation
 title: Uw privacy-instellingen beheren (AVG)
-description: "Voordat u begint met het configureren van uw SuperOffice CRM-database om AVG-compatibel te worden, moet u eerst wat basiswerk vastleggen."
+description: Voordat u begint met het configureren van uw SuperOffice CRM-database om AVG-compatibel te worden, moet u eerst wat basiswerk vastleggen.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: GDPR, toestemming
@@ -264,7 +264,7 @@ AVG-compliance – een doorlopend project
 
 Door de drie stappen te doorlopen, hebt u belangrijke stappen gezet richting AVG-compliance. Voldoen aan de AVG is echter een doorlopend project en omvat alle IT-systemen die uw bedrijf gebruikt. Vanaf nu moet u zich richten op het handhaven van het juiste beheer van persoonlijke klantgegevens in uw SuperOffice CRM - volgens het privacybeleid van uw bedrijf en de eisen van de AVG.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Download onze sjabloon "Voorbereiden op AVG"][3]
 * [E-mail met privacybevestiging bewerken][6]

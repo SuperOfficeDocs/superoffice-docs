@@ -20,7 +20,7 @@ language: nl
 
     De Sync Connector wordt weergegeven in de lijst.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een ERP-verbinding toevoegen][1]
 

@@ -9,7 +9,7 @@ topic: concept
 language: nl
 ---
 
-# Privacy
+# Privacy <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 De functie **Privacy** in SuperOffice helpt u de gegevensprivacy van uw klanten te beschermen en te voldoen aan de General Data Protection Regulation (GDPR) (Algemene verordening gegevensbescherming, AVG) van de EU.
 
@@ -17,7 +17,7 @@ De functie **Privacy** in SuperOffice helpt u de gegevensprivacy van uw klanten 
 
 Dit zijn twee verschillende doelen om toestemming van een persoon te verkrijgen. In SuperOffice worden deze doelen **Verkopen en service** en **E-marketing** genoemd. Er kunnen ook andere relevante doelen voor uw bedrijf zijn.
 
-In het tabblad **Toestemming** in het scherm **Privacy** (![pictogram][img1]) kunt u[doelen maken en bewerken][2].
+In het tabblad **Toestemming** in het scherm **Privacy** kunt u [doelen maken en bewerken][2].
 
 Voor elk doel moet een rechtsgrondslag en een toestemmingsbron worden gedocumenteerd (tijdens het importeren of in SuperOffice CRM voor individuele of meerdere gebruikers).
 
@@ -57,7 +57,7 @@ Als u deze optie selecteert, worden alleen personen die expliciet toestemming he
 
 Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** hebben ingesteld op **UIT** en de rechtsgrondslag op **Ingetrokken** uit de ontvangerslijst gefilterd. Dit werkt op dezelfde manier als bij **Geen mailings**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst Privacy - Rechtsgrondslag][3]
 * [Items toevoegen aan de lijst Privacy - Bron][4]
@@ -66,6 +66,3 @@ Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** h
 [2]: admin/add-consent-purpose.md
 [3]: ../../../admin/lists/learn/privacy-legal-base-add.md
 [4]: ../../../admin/lists/learn/privacy-source-add.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

@@ -19,7 +19,7 @@ Een globaal profiel wordt gebruikt als het standaardprofiel en is van toepassing
 
 Volg de instructies voor het [maken van een gemeenschappelijk profiel][1] om een algemeen profiel te maken, alleen moet u ook de optie **Instellen als standaardprofiel** inschakelen boven in het scherm **Elementprofiel bewerken**.
 
-## Waarover zou u meer te weten willen komen?
+## Gerelateerde inhoud
 
 * [Persoonlijke profielen][2]
 * [Algemene profielen][3]

@@ -12,7 +12,7 @@ audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Schermontwerper ![icon][img1]
+# Schermontwerper <i class="ph ph-squares-four" aria-hidden="true"></i>
 
 De **Schermontwerper** in SuperOffice CRM stelt u in staat om de opmaak van belangrijke schermen binnen de applicatie aan te passen, zodat de interface voldoet aan de specifieke behoeften van verschillende gebruikersgroepen in uw organisatie. Deze functie vervangt het oude [PageBuilder][9]-hulpmiddel en biedt een meer gestroomlijnde en flexibele manier om schermen te configureren, zonder codering.
 
@@ -127,7 +127,6 @@ Door de schermopmaken aan te passen met de Schermontwerper kunt u overbodige inf
 [9]: ../../../../en/ui/web-app/pagebuilder/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
 [img2]: ../../../../media/icons/btn-menu.png
 [img3]: ../../../../media/loc/en/ui/status-draft.png
 [img4]: ../../../../media/loc/en/ui/status-published.png

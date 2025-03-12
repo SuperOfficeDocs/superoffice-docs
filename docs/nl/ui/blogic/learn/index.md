@@ -15,7 +15,7 @@ language: nl
 
 Om uw SuperOffice efficiënter te gebruiken en het systeem nog slimmer te maken, zijn geavanceerde opties beschikbaar via de Expander Services Development Tools.
 
-Indien u toegang hebt tot de ontwikkeltools, ziet u het ![pictogram][img1] **Systeemontwerp** in de navigator. U kunt extra tabellen en velden maken, aangepaste workflows maken via CRM Script en de verschillende hoofdkaarten en dialoogvensters bewerken zodat ze passen bij aan uw specifieke bedrijfsbehoeften. Deze tools helpen u SuperOffice zodanig aan te passen dat uw verzoeksysteem nog krachtiger en relevanter wordt voor uw bedrijf.
+Indien u toegang hebt tot de ontwikkeltools, ziet u het <i class="ph ph-selection-all" aria-hidden="true"></i> **Systeemontwerp** in de navigator. U kunt extra tabellen en velden maken, aangepaste workflows maken via CRM Script en de verschillende hoofdkaarten en dialoogvensters bewerken zodat ze passen bij aan uw specifieke bedrijfsbehoeften. Deze tools helpen u SuperOffice zodanig aan te passen dat uw verzoeksysteem nog krachtiger en relevanter wordt voor uw bedrijf.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -63,4 +63,3 @@ Door [extra tabellen en velden toe te voegen][1] aan SuperOffice kunt u een vers
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

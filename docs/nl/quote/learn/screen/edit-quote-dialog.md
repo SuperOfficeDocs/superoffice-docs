@@ -25,7 +25,7 @@ language: nl
 
 De producten in de offerte worden in dit tabblad weergegeven
 
-Als de offerte verschillende alternatieven bevat, wordt het favoriete alternatief aangegeven met het ![pictogram][img1] naast de tabbladnaam. Als het alternatief[waarschuwingen of berichten][9] bevat voor een of meer producten, wordt er een pictogram weergegeven naast de tabbladnaam. Er wordt ook een bericht weergegeven met uitleg over de oorzaak van de fout.
+Als de offerte verschillende alternatieven bevat, wordt het favoriete alternatief aangegeven met <i class="ph ph-star" aria-label="Star icon"></i> naast de tabbladnaam. Als het alternatief[waarschuwingen of berichten][9] bevat voor een of meer producten, wordt er een pictogram weergegeven naast de tabbladnaam. Er wordt ook een bericht weergegeven met uitleg over de oorzaak van de fout.
 
 * **Korting**: hier kunt u een totaalkorting opgeven (kortingspercentage of kortingsbedrag) voor het volledige alternatief. De totaalkorting wordt toegepast boven op de kortingen die al zijn gegeven op de verschillende producten.
 
@@ -37,7 +37,7 @@ Als de offerte verschillende alternatieven bevat, wordt het favoriete alternatie
 * Dubbelklik op een product om het bewerken.
 * **Verwijderen**: Verwijdert het geselecteerde product/geselecteerde producten.
 * **Exporteren**: klik hier om de [lijst te exporteren][7] naar een spreadsheet.
-* Sorteren: Gebruik het ![pictogram][img2] / ![pictogram][img3] pijltoetsen om de volgorde van de producten te wijzigen.
+* Sorteren: Gebruik <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> om de volgorde van de producten te wijzigen.
 
 > [!TIP]
 > U kunt dubbelklikken op de tabbladen om de namen van alternatieven in de offerte te wijzigen.
@@ -62,8 +62,3 @@ Het onderste deel van het dialoogvenster
 [8]: ../index.md#status
 [9]: ../add-product.md#warning
 [7]: ../../../learn/section-tabs/export-archives.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

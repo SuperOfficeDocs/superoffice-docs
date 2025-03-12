@@ -36,11 +36,11 @@ Alternatieven worden weergegeven als tabbladen in de offerte (in het dialoogvens
 
 7. Om de naam van het tabblad **Producten** te wijzigen in een passende beschrijving van dit alternatief, dubbelklikt u op de naam van het tabblad.
 
-## <a id="fav"></a>Favoriet alternatief
+## <a id="fav"></a>Favoriet alternatief <i class="ph ph-star" aria-label="Star icon"></i>
 
-Als u verschillende alternatieven maakt in een offerte, wordt de eerste (meestal het tabblad **Producten**) gemarkeerd als favoriet ( ![pictogram][img2] **alternatief Favoriet**). Geschatte verkoopbedragen voor de verkoop (prognose) worden verkregen via het totaalbedrag voor het favoriete alternatief.
+Als u verschillende alternatieven maakt in een offerte, wordt de eerste (meestal het tabblad **Producten**) gemarkeerd als favoriet (![pictogram][img2] **alternatief Favoriet**). Geschatte verkoopbedragen voor de verkoop (prognose) worden verkregen via het totaalbedrag voor het favoriete alternatief.
 
-Als u wilt dat een ander alternatief de favoriet is, selecteer dan het bijbehorende tabblad en klik onderaan op het ![pictogram][img3] **alternatief Favoriet**.
+Als u wilt dat een ander alternatief de favoriet is, selecteer dan het bijbehorende tabblad en klik onderaan op <i class="ph ph-star" aria-label="Star icon"></i> **alternatief Favoriet**.
 
 Bij het[verzenden van de offerte][3], kunt u ervoor kiezen om uitsluitend het alternatief Favoriet op te nemen.
 
@@ -56,4 +56,3 @@ U kunt een alternatief verwijderen door het ![pictogram][img1] **Taak** > **Verw
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

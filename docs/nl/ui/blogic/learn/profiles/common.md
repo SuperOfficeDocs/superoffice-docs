@@ -24,10 +24,10 @@ Algemene profielen zijn gekoppeld aan een [rol][2] en gelden van toepassing voor
 
 In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm **Verzoeken zoeken**.
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Klik op **Zoek**.
-4. Plaats de cursor op **Verzoeken zoeken** en klik op ![pictogram][img2] (**Nieuw algemeen profiel**) rechts van de naam. Het scherm **Elementprofiel bewerken** wordt geopend.
+4. Plaats de cursor op **Verzoeken zoeken** en klik op <i class="ph ph-list" aria-label="Main menu"></i> (**Nieuw algemeen profiel**) rechts van de naam. Het scherm **Elementprofiel bewerken** wordt geopend.
 5. Voer in het veld **Naam** de naam van het profiel in.
 6. Klik op de knop **Criteria toevoegen**.
 7. Ga in het dialoogvenster als volgt te werk:
@@ -38,7 +38,7 @@ In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm
 
 ## Informatie in een gemeenschappelijk profiel bewerken
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Ga naar een gedetailleerder niveau in de hiërarchie totdat u het gewenste profiel hebt gevonden.
 4. Klik op de profielnaam. Het scherm **Elementprofiel bewerken** wordt geopend.
@@ -47,13 +47,13 @@ In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm
 
 ## Eem gemeenschappelijk profiel verwijderen
 
-1. Selecteer ![het pictogram][img1] **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
+1. Selecteer **Systeeminstellingen** > **Profiel**. Het scherm **Profielen weergeven** wordt geopend.
 2. Klik op **Systeem**. Er wordt een hiërarchische lijst met alle profielen in het systeem weergegeven.
 3. Ga naar een gedetailleerder niveau in de hiërarchie totdat u het gewenste profiel hebt gevonden.
 4. Klik op de profielnaam. Het scherm **Elementprofiel bewerken** wordt geopend.
 5. Klik op de knop **Standaardwaarden herstellen (dit profiel wordt verwijderd)** onder in het scherm. Het profiel wordt verwijderd.
 
-## Waarover zou u meer te weten willen komen?
+## Gerelateerde inhoud
 
 * [Persoonlijke profielen][4]
 * [Globale profielen][5]
@@ -64,7 +64,3 @@ In de volgende stappen ziet u bijvoorbeeld hoe u een veld toevoegt in het scherm
 [3]: ../../../../admin/user-management/learn/role/create-role.md
 [4]: personal.md
 [5]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

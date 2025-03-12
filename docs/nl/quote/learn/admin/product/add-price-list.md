@@ -56,7 +56,7 @@ Het aanpassen van prijslijsten helpt uw verkopers de juiste prijsdetails te gebr
     > [!NOTE]
     > nadat de prijslijst is gemaakt, kunt u de valuta en geldigheid niet meer wijzigen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Producten toevoegen aan een prijslijst][1]
 * [Synchroniseren][2]

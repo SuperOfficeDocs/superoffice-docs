@@ -20,7 +20,7 @@ Het tabblad **Sync** op het scherm Offerte/Synchroniseren geeft Sync Connectors 
 
 [!include[How to set up ERP](../includes/set-up-erp.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een Sync Connector toevoegen][1]
 * [Een ERP-verbinding toevoegen][2]

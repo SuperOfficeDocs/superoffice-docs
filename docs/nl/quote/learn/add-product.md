@@ -24,7 +24,7 @@ In het dialoogvenster **Product toevoegen/bewerken** kunt een product toevoegen 
 1. Begin de naam of de productcode van het product te typen in het veld **Productzoekopdracht**. De lijst met treffers wordt automatisch bijgewerkt. U kunt zoeken op volledige of gedeeltelijke productnamen of -codes.
 
     > [!TIP]
-    > Als geavanceerde zoekopdrachten worden ondersteund, kunt u klikken op de zoekknop ![pictogram][img1] in het veld **Zoeken naar product** om [verschillende producten tegelijk te zoeken en toe te voegen](#add-multiple).
+    > Als geavanceerde zoekopdrachten worden ondersteund, kunt u klikken op <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> in het veld **Zoeken naar product** om [verschillende producten tegelijk te zoeken en toe te voegen](#add-multiple).
 
 1. Klik op het gewenste product in de lijst. Het dialoogvenster is bijgewerkt met de productinformatie.
 
@@ -40,7 +40,7 @@ In het dialoogvenster **Product toevoegen/bewerken** kunt een product toevoegen 
 
 1. Klik op **Toevoegen** onder aan het tabblad **Producten** in het dialoogvenster **Offerte bewerken**.
 
-2. Begin een productnaam te typen in het veld **Product zoeken** om te zoeken naar een product. Klik op het zoekpictogram ![pictogram][img1] om producten te zoeken op basis van diverse, verschillende criteria, zoals op basis van productassortiment, productgroep/-categorie, naam en itemcodes. De zoekopdracht bevat alle actieve prijslijsten met de toepasselijke valuta.
+2. Begin een productnaam te typen in het veld **Product zoeken** om te zoeken naar een product. Klik op <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> om producten te zoeken op basis van diverse, verschillende criteria, zoals op basis van productassortiment, productgroep/-categorie, naam en itemcodes. De zoekopdracht bevat alle actieve prijslijsten met de toepasselijke valuta.
 
 3. Nadat u eenmaal de producten hebt gevonden die u aan de offerte wilt toevoegen, selecteert u deze (**Ctrl+klik**) en klikt u op **OK**. De producten worden weergegeven op het tabblad **Producten** (of op het tabblad van het door u gemaakte alternatief).
 
@@ -101,6 +101,3 @@ Waarschuwingen en berichten kunnen bijvoorbeeld worden veroorzaakt door:
 
 <!-- Referenced links -->
 [1]: approve.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png

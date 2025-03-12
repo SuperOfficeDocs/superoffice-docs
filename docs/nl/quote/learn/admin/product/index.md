@@ -29,7 +29,7 @@ In de lijst **Prijslijst** selecteert u de vereiste prijslijst. De producten in 
 
 ## Een prijslijst exporteren
 
-U kunt een open prijslijst exporteren door te klikken op het ![pictogram][img1] **Exporteren** onder aan het tabblad **SuperOffice-producten**. Als u alleen een paar producten wilt exporteren, kunt u deze selecteren in de prijslijst. Als u geen producten selecteert, worden alle producten in de prijslijst geëxporteerd.
+U kunt een open prijslijst exporteren door te klikken op <i class="ph ph-download-simple" aria-hidden="true"></i> **Exporteren** onder aan het tabblad **SuperOffice-producten**. Als u alleen een paar producten wilt exporteren, kunt u deze selecteren in de prijslijst. Als u geen producten selecteert, worden alle producten in de prijslijst geëxporteerd.
 
 ### Is de export niet zichtbaar?
 
@@ -38,7 +38,7 @@ Of u hebt geen [toegangsrechten][4] voor de exportfunctie of deze [voorkeur][5] 
 > [!TIP]
 > Voordat u de prijslijst exporteert, kan het nuttig zijn aan te geven welke kolommen u wilt en in welke volgorde.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een prijslijst toevoegen][2]
 * [Producten toevoegen aan een prijslijst][1]
@@ -50,6 +50,3 @@ Of u hebt geen [toegangsrechten][4] voor de exportfunctie of deze [voorkeur][5] 
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

@@ -42,7 +42,7 @@ U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Af
 
 1. Klik op **Toevoegen** om het secties **Tabblad** te openen.
 
-1. Vervang "Nieuw tabblad" door de naam van het archief en voer een beschrijving in voor het nieuwe tabblad. Optioneel kunt u op de **A-Z** knop klikken om de teksten in andere talen toe te voegen.
+1. Vervang "Nieuw tabblad" door de naam van het archief en voer een beschrijving in voor het nieuwe tabblad. Optioneel kunt u op <i class="ph ph-translate" aria-label="Translate"></i> klikken om de teksten in andere talen toe te voegen.
 
 1. Pas de **Unieke naam voor tabblad** (soprotocol) indien nodig aan.
 
@@ -57,7 +57,7 @@ U kunt op elk scherm met een sectietabbladgebied een nieuw tabblad toevoegen. Af
 1. (Optioneel) Gebruik **Geavanceerde opties** om acties voor enkele klikken en dubbele klikken aan te passen. Standaard selecteert een enkele klik een rij en opent een dubbele klik een record/entiteit in SuperOffice.
 
     > [!TIP]
-    > Houd de muisaanwijzer boven het informatiepictogram ![icon][img4] voor voorbeelden.
+    > Houd de muisaanwijzer boven het informatiepictogram <i class="ph ph-info" aria-label="Info"></i> voor voorbeelden.
 
 1. Sleep het archief naar de gewenste positie in de voorbeeldweergave.
 
@@ -96,7 +96,6 @@ Om deze wijzigingen ongedaan te maken, klikt u op **Tabbladen herstellen**.
 [4]: add-layout.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/info-ball.png
 [img1]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive.png
 [img5]: ../../../../media/loc/en/ui/admin-screendesigner-edit-archive-add-tab.png
 [img6]: ../../../../media/loc/en/ui/admin-screendesigner-add-archive-layout.png

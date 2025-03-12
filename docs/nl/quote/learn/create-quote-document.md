@@ -1,7 +1,7 @@
 ---
 uid: help-nl-quote-create-quote-document
-title: offerte offertedocument aanmaken
-description: offerte offertedocument aanmaken
+title: Een offertedocument maken
+description: Offerte offertedocument aanmaken
 author: SuperOffice RnD
 date: 07.04.2022
 keywords: offerte
@@ -32,7 +32,7 @@ Als u een offertedocument voor een offerte hebt gemaakt, maar een ander document
 
 1. Open de offerte.
 
-2. Klik op de ![pictogram][img1] knop **Taak** en selecteer **Offertedocument aanpassen**.
+2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> en selecteer **Offertedocument aanpassen**.
 
 3. Selecteer de offerte in de lijst.
 
@@ -50,6 +50,3 @@ Als u een offertedocument voor een offerte hebt gemaakt, maar een ander document
 [3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

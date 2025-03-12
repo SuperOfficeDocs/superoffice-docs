@@ -17,9 +17,9 @@ language: nl
 
 Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe in de navigator aan de linkerkant in SuperOffice. We voegen een extra menu toe in de nieuwe navigatorgroep. In ons voorbeeld voegen we de navigatorgroep 'Websites' toe met een aantal nuttige websites.
 
-1. Selecteer ![pictogram][img2] **Systeeminstellingen** > **Systeemontwerp** > **Extra menu's**.
+1. Selecteer <i class="ph ph-list" aria-label="Main menu"></i> **Systeeminstellingen** > **Systeemontwerp** > **Extra menu's**.
 
-2. Plaats de muisaanwijzer op de map **Navigator** en klik op ![pictogram][img1].
+2. Plaats de muisaanwijzer op de map **Navigator** en klik op **+**.
 
 3. Geef 'Websites' in het veld **Label** in (maximaal 14 tekens).
 
@@ -29,11 +29,11 @@ Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe i
 
 6. Klik op **OK**. De nieuwe navigatorgroep wordt links weergegeven. De navigatorgroep is leeg, dus moeten we een website toevoegen. In dit geval voegen we Google toe.
 
-7. Houd de muisaanwijzer boven de navigatorgroep die u zojuist hebt gemaakt en klik op ![pictogram][img1]. Het scherm **Menu-eigenschappen** wordt geopend.
+7. Houd de muisaanwijzer boven de navigatorgroep die u zojuist hebt gemaakt en klik op **+**. Het scherm **Menu-eigenschappen** wordt geopend.
 
 8. Geef 'Google' in het veld **Label** in (maximaal 20 tekens).
 
-9. Selecteer **Gebruik URL** en voer "<http://www.google.com>" in het veld **URL** in.
+9. Selecteer **Gebruik URL** en voer `http://www.google.com` in het veld **URL** in.
 
 10. Selecteer **ID toevoegen** of **&lt;usec&gt; toevoegen** NIET, anders worden waarden toegevoegd achter de URL die u hebt opgegeven.
 
@@ -47,7 +47,3 @@ Om deze functionaliteit te illustreren voegen we een nieuwe navigatorgroep toe i
 
 <!-- Referenced links -->
 [1]: properties.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png
