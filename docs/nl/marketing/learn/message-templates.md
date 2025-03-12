@@ -1,15 +1,15 @@
 ---
 uid: help-nl-marketing-message-templates
 title: Werken met de berichtsjablonen
-description: "Het maken van een hoofd- (bedrijfs-)sjabloon is de beste manier om ervoor te zorgen dat al uw mailings er goed uitzien, hetzelfde ontwerp hebben en uw merk vertegenwoordigen."
+description: Het maken van een hoofd- (bedrijfs-)sjabloon is de beste manier om ervoor te zorgen dat al uw mailings er goed uitzien, hetzelfde ontwerp hebben en uw merk vertegenwoordigen.
 keywords: marketing, berichtsjablonen
 author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Werken met de berichtsjablonen
@@ -59,7 +59,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 
 3. Gebruik indien nodig het zoekveld om een specifieke sjabloon te vinden.
 
-4. Klik op de ![pictogram][img1] menuknop naast de sjabloon die u wilt gebruiken.
+4. Klik op de <i class="ph ph-list" aria-label="Task menu"></i> menuknop naast de sjabloon die u wilt gebruiken.
 
 5. Selecteer **Mailing maken**. De sjabloon wordt geopend in de [mailings-wizard][1].
 
@@ -93,7 +93,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 
 1. Ga naar het tabblad **Berichtsjablonen**.
 
-2. Klik op ![pictogram][img2] **SMS toevoegen**. Het scherm **Sjabloon bewerken** wordt geopend.
+2. Klik op **SMS toevoegen**. Het scherm **Sjabloon bewerken** wordt geopend.
 
 3. Voer in het veld **Naam** een herkenbare naam in voor de sjabloon.
 
@@ -104,7 +104,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 ## Een sjabloon maken op basis van een bestaande mailing
 
 1. Ga naar het tabblad **Mailings**.
-2. Klik op de ![pictogram][img1] menuknop naast de mailing die u wilt gebruiken als basis voor de sjabloon.
+2. Klik op de <i class="ph ph-list" aria-label="Task menu"></i> menuknop naast de mailing die u wilt gebruiken als basis voor de sjabloon.
 3. Selecteer **Kopiëren naar sjabloon**.
 4. Voer in het scherm **Sjabloon bewerken** een beschrijvende naam voor de sjabloon in het veld **Naam** in.
 5. Als u een map voor de sjabloon wilt selecteren, klikt u op **Map**.
@@ -113,7 +113,7 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 ## Een sjabloon maken op basis van een bestaande sjabloon (kopie)
 
 1. Ga naar het tabblad **Berichtsjablonen**.
-2. Klik op de ![pictogram][img1] menuknop naast de sjabloon die u wilt gebruiken.
+2. Klik op de <i class="ph ph-list" aria-label="Task menu"></i> menuknop naast de sjabloon die u wilt gebruiken.
 3. Selecteer **Kopie maken**.
 4. Voer in het scherm **Sjabloon bewerken** een beschrijvende naam voor de sjabloon in het veld **Naam** in.
 5. Breng de benodigde wijzigingen aan en klik op **OK**.
@@ -134,6 +134,4 @@ Naast de sjablonen die door u en uw collega's zijn gemaakt, hebt u toegang tot e
 [6]: ../editor/learn/add-unsubscribe-link.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/btn-add.png
 [img3]: ../../../media/loc/en/marketing/work-with-templates.png

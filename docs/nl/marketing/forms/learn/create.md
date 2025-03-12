@@ -7,19 +7,21 @@ author: SuperOffice RnD
 date: 03.19.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Een nieuw formulier maken
 
 Webformulieren maken het gemakkelijker om te communiceren met klanten en prospects via uw website Customer Centre. U heeft drie opties: maak een formulier vanaf nul, maak en gebruik een aangepaste formuliersjabloon of selecteer een gratis sjabloon uit de **Online Template Library** in SuperOffice Marketing.
 
-Bekijk deze video om te leren hoe u een webformulier kunt maken (videolengte - 7:49) of volg de onderstaande stappen.
+Bekijk deze video om te leren hoe u een webformulier kunt maken  of volg de onderstaande stappen.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(videolengte - 7:49)
 
 ## Nieuw maken (vanaf nul)
 
@@ -36,7 +38,7 @@ Bekijk deze video om te leren hoe u een webformulier kunt maken (videolengte - 7
 
 1. Selecteer het tabblad **Formuliersjablonen**.
 2. Klik op **Alle sjablonen**.
-3. Klik op de ![pictogram][img1] menuknop naast de sjabloon die u wilt gebruiken.
+3. Klik op de <i class="ph ph-list" aria-label="Task menu"></i> menuknop naast de sjabloon die u wilt gebruiken.
 4. Selecteer **Kopiëren naar nieuw formulier**. De sjabloon wordt geopend in het dialoogvenster **Formulier bewerken**.
 5. [Activeer en publiceer het formulier][2].
 
@@ -46,7 +48,7 @@ Om de gebruiksvriendelijkheid te vergroten en de leesbaarheid te verbeteren, ove
 
 1. Maak een formulier zoals hierboven beschreven.
 2. Selecteer **Velden** uit het linkermenu (in het dialoogvenster).
-3. Klik op de knop **Toevoegen** ![pictogram][img2].
+3. Klik op de knop **Toevoegen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 4. Selecteer in het venster **Element toevoegen** de optie **Elementen weergeven**.
 5. Selecteer **Sectie** en klik op **Toevoegen**. Het venster sluit en er wordt een sectie aan het formulier toegevoegd. U kunt de sectie ook zien in de voorbeeldweergave van het formulier.
 6. Klik op ![pictogram][img3] boven aan de sectie en sleep naar de gewenste positie in het formulier. De velden boven en onder de sectie staan op twee afzonderlijke pagina's in het formulier.
@@ -83,7 +85,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 1. Selecteer **Velden** uit het linkermenu. Standaard worden het veld **Persoon - naam** en de knop **OK** toegevoegd aan het nieuwe formulier.
 
-2. Klik op de knop **Toevoegen** ![pictogram][img2].
+2. Klik op de knop **Toevoegen** (<i class="ph ph-plus" aria-hidden="true"></i>).
 
 3. Selecteer in het venster **Element toevoegen** een van de volgende veldcategorieën:
 
@@ -107,7 +109,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
     * Schakel het vakje **Verplicht** in als dit veld moet worden ingevuld. Het formulier kan niet worden ingediend als verplichte velden niet zijn ingevuld.
 
-    * Klik op **Geavanceerde opties** ![pictogram][img5] om het veld **ID** weer te geven, waarin u een ID kunt toevoegen voor het veld. Dit is een unieke ID voor dit veld en zal niet wijzigen, zelfs niet als de naam/het label van het veld of de talen wijzigen. Op deze manier kunt u ervoor zorgen dat koppelingen naar dit veld niet worden verbroken na publicatie van het formulier.
+    * Klik op **Geavanceerde opties** (<i class="ph ph-gear" aria-hidden="true"></i>) om het veld **ID** weer te geven, waarin u een ID kunt toevoegen voor het veld. Dit is een unieke ID voor dit veld en zal niet wijzigen, zelfs niet als de naam/het label van het veld of de talen wijzigen. Op deze manier kunt u ervoor zorgen dat koppelingen naar dit veld niet worden verbroken na publicatie van het formulier.
 
     * Klik op het selectievakje **Volledige breedte** als u wilt dat het geselecteerde veld dezelfde breedte heeft als het formulier.
 
@@ -115,7 +117,7 @@ In de categorie **Velden** voegt u de velden toe die moeten worden opgenomen in 
 
 10. Klik op **Nu toepassen** wanneer u klaar bent.
 
-11. Herhaal stap 2-10 om een ander veld toe te voegen. U kunt ook klikken op **Veld dupliceren** ![pictogram][img6] om een kopie van een veld te maken.
+11. Herhaal stap 2-10 om een ander veld toe te voegen. U kunt ook klikken op **Veld dupliceren** (<i class="ph ph-copy" aria-hidden="true"></i>) om een kopie van een veld te maken.
 
 ### Stijl
 
@@ -149,7 +151,7 @@ Bekijk deze video om te leren hoe u de dubbele opt-in-functie op uw webformulier
 
     3. **Bevestigingstekst**: Voer de hoofdtekst van de e-mail in.
 
-    4. Selecteer **Bevestigingskoppeling invoegen** ![icoon][img9] uit de werkbalk (klik op ![icoon][img7] om te tonen). De koppeling wordt in de hoofdtekst ingevoegd. Als u de koppeling wilt bewerken, klikt u erop en selecteert u **Koppeling bewerken**![pictogram][img8].
+    4. Selecteer **Bevestigingskoppeling invoegen** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) uit de werkbalk (klik op <i class="ph ph-text-a-underline" aria-label="Show toolbar"></i> om te tonen). De koppeling wordt in de hoofdtekst ingevoegd. Als u de koppeling wilt bewerken, klikt u erop en selecteert u **Koppeling bewerken** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
 
 4. Klik op **Nu toepassen** wanneer u klaar bent.
 
@@ -164,10 +166,12 @@ Wanneer een persoon een formulier invult en indient, moet u hem bedanken en late
 
 Gebruik de "Dank u"-pagina om andere producten of evenementen te promoten en te linken naar relevante delen van uw website. Dit verbetert de klantervaring en bevordert de klantenbinding.
 
-Bekijk deze video om te leren hoe u een 'Dank u'-pagina toevoegt aan uw webformulier (videolengte - 1:48) of volg de onderstaande stappen.
+Bekijk deze video om te leren hoe u een 'Dank u'-pagina toevoegt aan uw webformulier of volg de onderstaande stappen.
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/xaVXR-Ltfuo]
+
+(videolengte - 1:48)
 
 Kies een van de volgende opties:
 
@@ -189,7 +193,7 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 * Hoe moet een formulierverzending worden verwerkt?
 * Wat moet er gebeuren wanneer het formulier wordt verwerkt?
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Formulieren publiceren][2]
 
@@ -201,12 +205,5 @@ Hier kunt u [definiëren wat er gebeurt wanneer iemand een reactie op een formul
 [8]: ../../learn/create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/move-field.png
-[img7]: ../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img5]: ../../../../../common/icons/cog-wheel.png
-[img6]: ../../../../../common/icons/duplicate-icon.png
-[img9]: ../../../../../common/icons/new-window-icon.png
-[img8]: ../../../../../common/icons/edit-black.png
 [img15]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

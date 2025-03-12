@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.18.2024
 version: 10
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Werken met formulieren
@@ -69,7 +69,7 @@ Bovenaan heb je de volgende opties:
 | Inactief/Actief | Schakel deze schuifknop in om het formulier te activeren of deactiveren. |
 | Vernieuwen | Vernieuwt het scherm. |
 | Bewerken | Opent het formulier in de bewerkingsmodus. |
-| ![icoon][img5] | Stelt het formulier in als [favoriet][11]. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Stelt het formulier in als [favoriet][11]. |
 
 Het scherm **Formulier weergeven** bestaat uit de volgende tabbladen:
 
@@ -118,4 +118,3 @@ Het gebruik van de dubbele opt-in-functie garandeert dat mensen het juiste e-mai
 [img2]: ../../../../media/loc/en/marketing/find-forms.png
 [img4]: ../../../../media/loc/en/marketing/view-form-screen.png
 [img3]: ../../../../media/loc/en/marketing/form-notification.png
-[img5]: ../../../../../common/icons/favourite-no.png

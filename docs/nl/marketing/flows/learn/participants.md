@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.17.2024
 version: 10.3.5
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Deelnemers
@@ -25,7 +25,7 @@ Om de lijst met deelnemers voor een specifieke flow te bekijken:
 
 ![Deelnemerslijst van de flow -screenshot][img1]
 
-Gebruik het tandwielpictogram ![icon][img4] in de kop van de lijst om de kolommen aan te passen.
+Gebruik het tandwielpictogram (<i class="ph ph-gear" aria-hidden="true"></i>) in de kop van de lijst om de kolommen aan te passen.
 
 ![Deelnemerslijst van de flow, kolommen aanpassen -screenshot][img2]
 
@@ -83,4 +83,3 @@ In een splitsing volgen deelnemers de eerste (meest linkse) tak waar ze aan de g
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-participants.png
 [img2]: ../../../../media/loc/en/marketing/flow-participant-columns.png
-[img4]: ../../../../../common/icons/mobile/gear.png

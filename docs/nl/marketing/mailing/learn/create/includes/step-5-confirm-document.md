@@ -16,12 +16,9 @@ Klik op de mailing in de lijst om de [verzendstatus en de statistieken weer te g
 ## <a id="open-and-print-the-document"></a>Het document openen en afdrukken
 
 1. Selecteer het tabblad **Mailings**.
-2. Zoek het document, klik op ![pictogram][img2] en selecteer **Weergeven**.
+2. Zoek het document, klik op <i class="ph ph-list" aria-label="Task menu"></i> en selecteer **Weergeven**.
 3. Klik op de knop onder **Gegenereerd document downloaden**. Het document wordt gedownload naar uw browser.
 4. Open het document en druk het af.
 
 <!-- Referenced links -->
 [1]: ../../view-statistics.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../../media/icons/btn-menu.png

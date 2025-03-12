@@ -1,9 +1,5 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Klik op **Werkbalk weergeven/verbergen** ![pictogram][img7] om opmaaktopties voor de tekst weer te geven.
+> Klik op **Werkbalk weergeven/verbergen** <i class="ph ph-text-a-underline" aria-hidden="true"></i> om opmaaktopties voor de tekst weer te geven.
 >
-> Klik op **Tekstverwerker openen in dialoogvenster** ![pictogram][img8] om de tekst te bewerken in een grotere editor.
-
-<!-- Referenced images -->
-[img7]: ../../../../../media/icons/marketing-and-forms/toolbar-show-hide.png
-[img8]: ../../../../../../common/icons/pop-out-icon.png
+> Klik op **Tekstverwerker openen in dialoogvenster** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>) om de tekst te bewerken in een grotere editor.

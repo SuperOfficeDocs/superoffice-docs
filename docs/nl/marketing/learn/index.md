@@ -1,22 +1,22 @@
 ---
 uid: help-nl-marketing
 title: SuperOffice Marketing
-description: "De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen."
+description: De functies voor marketing omvatten mailings en webformulieren en helpen gebruikers om informatie te verzamelen en beter te communiceren met prospects en klanten. Gecombineerd kunnen ze u helpen meer leads te genereren, meer te verkopen aan bestaande klanten en klantenbinding op te bouwen.
 keywords: Marketing
 author: SuperOffice RnD
 date: 06.17.2024
 version: 10.3.5
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
-# SuperOffice Marketing
+# SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marketing is gericht op uitgaande communicatie en formulieren. Gebruik mailings om klanten bijvoorbeeld te informeren over upgrades en nieuwe producten. Gebruik formulieren voor de registratie van producten/nieuwsbrieven, toestemmingsbeheer, bijwerking van gegevens en eenvoudige "neem contact met mij op"-formulieren.
 
-Als u SuperOffice Marketing wilt openen, klikt u op het pictogram **Marketing** ![pictogram][img2] in de Navigator.
+Als u SuperOffice Marketing wilt openen, klikt u op het pictogram **Marketing** (<i class="ph ph-target" aria-hidden="true"></i>) in de Navigator.
 
 Met SuperOffice Marketing kunt u het volgende maken:
 
@@ -24,10 +24,12 @@ Met SuperOffice Marketing kunt u het volgende maken:
 * **Formulieren**. [Aan de slag met uw eerste formulier][1].
 * **Flows** (automatisering).
 
-Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies (videolengte - 2:31):
+Bekijk deze producttourvideo en krijg een inleiding tot de SuperOffice Marketing-functies:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/tFHXsDQIpvA]
+
+(videolengte - 2:31)
 
 ## Info mailings
 
@@ -105,15 +107,15 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 |---|---|---|
 | Mailings | Bevat alle mailings en maakt nieuwe aan. | [Nieuwe mailing maken][5] |
 | Berichtsjablonen | Bevat de standaardsjablonen voor SuperOffice Marketing en de sjablonen die u zelf hebt gemaakt, naast een breed scala aan sjablonen uit de online sjabloonbibliotheek. | [Werken met de berichtsjablonen][13] |
-| Gevolgde links | Bevat alle gevolgde koppelingen die zijn gebruikt in uw mailings. Klik op de ![pictogram][img1] knop **Toevoegen** om een nieuwe koppeling te maken. | [Gevolgde links maken][14] |
-| Afbeeldingen | Bevat alle beschikbare afbeeldingen in SuperOffice Marketing. Klik op de ![pictogram][img1] knop **Toevoegen** om nieuwe afbeeldingen toe te voegen. | [Afbeeldingen toevoegen][15] |
+| Gevolgde links | Bevat alle gevolgde koppelingen die zijn gebruikt in uw mailings. Klik op **Toevoegen** om een nieuwe koppeling te maken. | [Gevolgde links maken][14] |
+| Afbeeldingen | Bevat alle beschikbare afbeeldingen in SuperOffice Marketing. Klik op **Toevoegen** om nieuwe afbeeldingen toe te voegen. | [Afbeeldingen toevoegen][15] |
 | Geblokkeerde e-mailadressen | Geretourneerde e-mails en spamklachten behandelen. | [Geblokkeerde e-mailadressen][12], [spam][16] |
 | Formulieren | Bevat alle formulieren en maakt nieuwe aan. | [Een nieuw formulier maken][1] |
 | Formuliersjablonen | Bevat alle formuliersjablonen. | [Werken met de formuliersjablonen][18] |
 | Formulierverzendingen | Bevat ingediende formulieren. | [Formulierverzendingen][19] |
 | Flows | Bevat alle flows en nieuwe maken. | [Maak een flow][20] |
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Nieuwe mailing maken][5]
 * [Een nieuw formulier maken][1]
@@ -138,7 +140,3 @@ SuperOffice Marketing wordt aangeboden als online toepassing (cloud-gebaseerd) e
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

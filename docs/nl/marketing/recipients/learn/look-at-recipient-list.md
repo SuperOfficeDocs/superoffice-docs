@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.27.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Bekijk de lijst met ontvangers na de mailing
@@ -26,7 +26,7 @@ Nadat de mailing is verzonden, verzamelt SuperOffice Marketing gegevens over de 
 
 2. Klik in het scherm **Mailing weergeven** op het tabblad **Ontvangers**.
 
-    De lijst toont de 100 eerste ontvangers. Klik op ![pictogram][img1] om de volgende 100 weer te geven.
+    De lijst toont de 100 eerste ontvangers. Klik op <i class="ph ph-arrow-right" aria-label="Arrow right"></i> om de volgende 100 weer te geven.
 
 3. [Filter de lijst](#filters) met de selectievakjes onder aan de lijst.
 
@@ -69,7 +69,7 @@ Als de status **Gereed voor verzending** is, hoeft u niets te doen. SuperOffice 
 Met de **Acties** menuknop kunt u ontvangers en klikkers toevoegen aan een selectie of project.
 
 > [!NOTE]
-> Alleen personen die al zijn geregistreerd in de database van SuperOffice, worden toegevoegd aan de selectie of het project. Een contactpictogram ![pictogram][img3] in de kolom **Type** geeft aan dat een persoon is geregistreerd in de database van SuperOffice. Ontvangers die zijn geïmporteerd vanaf externe lijsten, worden niet geregistreerd.
+> Alleen personen die al zijn geregistreerd in de database van SuperOffice, worden toegevoegd aan de selectie of het project. Een contactpictogram (<i class="ph ph-user-circle" aria-hidden="true"></i>) in de kolom **Type** geeft aan dat een persoon is geregistreerd in de database van SuperOffice. Ontvangers die zijn geïmporteerd vanaf externe lijsten, worden niet geregistreerd.
 
 ### Klikkers toevoegen aan een nieuw(e) selectie of project
 
@@ -90,7 +90,7 @@ Met de **Acties** menuknop kunt u ontvangers en klikkers toevoegen aan een selec
 
 Open de selectie of het project om te controleren of de personen zijn toegevoegd.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Werken met gevolgde koppelingen na de mailing][1]
 
@@ -101,6 +101,4 @@ Open de selectie of het project om te controleren of de personen zijn toegevoegd
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

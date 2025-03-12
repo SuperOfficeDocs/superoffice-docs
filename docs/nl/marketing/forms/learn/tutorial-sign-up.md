@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.18.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Handleiding - Aanmelden nieuwsbrief
@@ -42,7 +42,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 1. Selecteer het veld **Persoon - Naam** en klik op het rode X om dit veld te verwijderen.
 
-1. Klik op de knop **Toevoegen** ![pictogram][img1] en voeg de volgende velden toe:
+1. Klik op <i class="ph ph-plus" aria-label="Add"></i> en voeg de volgende velden toe:
 
     * Voor-en achternaam.
 
@@ -107,9 +107,9 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
     Het SuperShop-team
     </details>
 
-1. Klik op **Bevestigingskoppeling invoegen** ![pictogram][img3]. De bevestigingskoppeling wordt in de hoofdtekst ingevoegd.
+1. Klik op **Bevestigingskoppeling invoegen** (<i class="ph ph-arrow-square-out" aria-hidden="true"></i>). De bevestigingskoppeling wordt in de hoofdtekst ingevoegd.
 
-1. Klik op de bevestigingskoppeling, selecteer **Koppeling bewerken** ![pictogram][img5] en wijzig de koppelingstekst in "Klik hier om uw e-mailadres te bevestigen". De koppeling is standaard 30 minuten geldig.
+1. Klik op de bevestigingskoppeling, selecteer **Koppeling bewerken** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) en wijzig de koppelingstekst in "Klik hier om uw e-mailadres te bevestigen". De koppeling is standaard 30 minuten geldig.
 
 1. Klik op **Nu toepassen** om het formulier op te slaan en door te gaan met bewerken.
 
@@ -165,9 +165,6 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 [7]: ../../../search-options/selection/learn/create/tutorial.yml
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/edit-black.png
-[img3]: ../../../../../common/icons/new-window-icon.png
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img4]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img6]: ../../../../media/loc/en/marketing/sign-up-form-actions.png

@@ -28,7 +28,7 @@ Door koppelingen in te stellen die lezers naar verschillende inhoud op uw websit
 
     * U voegt als volgt een gevolgde link toe:
 
-      * Tekst: Klik op ![pictogram][img1] op de werkbalk, selecteer **Speciale koppelingen** > **Gevolgde koppelingen** en selecteer een koppeling.
+      * Tekst: Klik op <i class="ph ph-link" aria-label="Insert/edit link"></i> op de werkbalk, selecteer **Speciale koppelingen** > **Gevolgde koppelingen** en selecteer een koppeling.
       * Afbeelding: Selecteer in het zijpaneel (onder **Actie**), **Speciale links** > **Gevolgde links** en selecteer een link.
 
     * Als u [een nieuwe gevolgde link wilt maken][5], klikt u onder in het scherm op **Een nieuwe gevolgde link** maken. Het dialoogvenster **Link-eigenschappen** wordt geopend.
@@ -37,11 +37,11 @@ Door koppelingen in te stellen die lezers naar verschillende inhoud op uw websit
 
 ## Tips
 
-U kunt gewone (niet-gevolgde) links toevoegen. Voor tekstkoppelingen klikt u op ![pictogram][img1] in de werkbalk. Voor afbeeldingskoppelingen gebruikt u het veld **Afbeeldings-URL** in het zijpaneel.
+U kunt gewone (niet-gevolgde) links toevoegen. Voor tekstkoppelingen klikt u op <i class="ph ph-link" aria-label="Insert/edit link"></i> in de werkbalk. Voor afbeeldingskoppelingen gebruikt u het veld **Afbeeldings-URL** in het zijpaneel.
 
 Als u later besluit deze koppelingen ook te volgen, selecteert u de optie **Alle koppelingen traceren** onder **Traceren** in Stap 1: Instellingen. Deze koppelingen worden echter alleen gevolgd voor de betreffende mailing en zijn niet beschikbaar voor andere mailings of in flows.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Gevolgde links maken][5]
 * [Linkacties definiëren][6]
@@ -57,5 +57,4 @@ Als u later besluit deze koppelingen ook te volgen, selecteert u de optie **Alle
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

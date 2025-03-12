@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 03.18.2024
 version: 10
 topic: reference
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Veldopties
@@ -49,17 +49,17 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 
   * **Verticaal:** Geef de waarden horizontaal of verticaal weer.
 
-  * **Gegevens:** Hier geeft u de waarden op voor elk keuzerondje. Geef een waarde op in dit veld en klik op de knop Toevoegen ![pictogram][img1]. Herhaal dit om meer waarden toe te voegen.
+  * **Gegevens:** Hier geeft u de waarden op voor elk keuzerondje. Geef een waarde op in dit veld en klik op **+**. Herhaal dit om meer waarden toe te voegen.
 
 * **Selectievakje:** Een selectieveld waarin u meerdere waarden kunt selecteren.
 
   * **Verticaal:** Geef de waarden horizontaal of verticaal weer.
 
-  * **Gegevens:** Hier geeft u de waarden op voor elk selectievakje. Geef een waarde op in dit veld en klik op de knop Toevoegen ![pictogram][img1]. Herhaal dit om meer waarden toe te voegen.
+  * **Gegevens:** Hier geeft u de waarden op voor elk selectievakje. Geef een waarde op in dit veld en klik op **+**. Herhaal dit om meer waarden toe te voegen.
 
 * **Vervolgkeuze:** Een selectieveld waarin u een waarde kunt selecteren uit een lijst.
 
-  * **Gegevens:** Hier geeft u de lijstwaarden op. Geef een waarde op in dit veld en klik op de knop Toevoegen ![pictogram][img1]. Herhaal dit om meer waarden toe te voegen.
+  * **Gegevens:** Hier geeft u de lijstwaarden op. Geef een waarde op in dit veld en klik op **+**. Herhaal dit om meer waarden toe te voegen.
 
 * **Verborgen:** Een veld dat niet zichtbaar is in het gepubliceerde formulier. In het veld **Standaardwaarde** kunt u een code, een projectnaam/nummer of andere informatie opgeven die moet worden gekoppeld aan dit formulier.
 
@@ -92,6 +92,3 @@ Dit is een overzicht van speciale opties in sommige beschikbare velden.
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
 [4]: ../../../security/privacy/learn/admin/add-consent-purpose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/add-icon.png

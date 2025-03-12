@@ -19,7 +19,7 @@ U kunt ontvangers toevoegen uit selecties (zowel uit SuperOffice CRM als uit Sup
 
 3. Klik op een selectie of project in de lijst.
 
-4. Klik op ![pictogram][img1]. De selectie of het project wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
+4. Klik op **+**. De selectie of het project wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
 
 5. Herhaal stap 1-4 om meer selecties of projecten toe te voegen.
 
@@ -36,7 +36,7 @@ U kunt individuele personen toevoegen uit SuperOffice.
 
 3. Selecteer de persoon in de lijst die wordt weergegeven.
 
-4. Klik op ![pictogram][img1]. De persoon wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
+4. Klik op **+**. De persoon wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
 
 5. Herhaal stap 2-5 om meer personen toe te voegen. Aanvullende personen zullen worden toegevoegd aan dezelfde rij in de lijst **Ontvangerbronnen** en het aantal personen zal worden weergegeven in de kolom **Naam**.
 
@@ -52,7 +52,7 @@ Wanneer u een lijst met namen en e-mailadressen importeert, probeert SuperOffice
 
 2. Zoek het desbetreffende bestand (.txt, .csv of vergelijkbare tekstindeling).
 
-3. Klik op ![pictogram][img1]. De lijst wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
+3. Klik op **+**. De lijst wordt toegevoegd aan de lijst **Ontvangerbronnen** en de lijst **Ontvangers** wordt bijgewerkt.
 
 4. Herhaal stap 2-4 om meer ontvangers toe te voegen. Aanvullende ontvangers zullen worden toegevoegd aan dezelfde rij in de lijst **Ontvangerbronnen**. Het totaalaantal ontvangers zal worden weergegeven in de kolom **Naam**.
 
@@ -118,7 +118,7 @@ Nadat u ontvangers hebt toegevoegd aan de lijst **Ontvangers**, kunt u een voorb
 
 3. Klik op de koppelingen om te controleren of deze werken, maar vergeet niet om de koppelingen opnieuw in te stellen als deze worden getraceerd.
 
-4. Klik op ![pictogram][img2] om het het venster **Voorbeeldweergave** te sluiten.
+4. Klik op X om het het venster **Voorbeeldweergave** te sluiten.
 
 ## Lijst met ontvangers controleren en bijwerken
 
@@ -132,6 +132,4 @@ Daarnaast kunt u klikken op de knop **Lijst bijwerken** onder de lijst **Ontvang
 Klik op **Volgende** om naar stap 5 te gaan: Bevestigen. U kunt nog altijd teruggaan naar de stap **Ontvangers** om de lijst met ontvangers te bewerken.
 
 <!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-add.png
-[img2]: ../../../../../../../common/icons/salelost.png
 [img3]: ../../../../../../media/loc/en/marketing/add-target-list.png

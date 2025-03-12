@@ -1,7 +1,7 @@
 ---
 uid: help-nl-mailing-tracked-links
 title: Gevolgde links
-description: "Een koppeling die u in een mailing opneemt, kan worden gebruikt om reacties van uw klanten en prospects bij te houden. Wanneer de ontvangers van uw mailing op de koppeling klikken, wordt een actie geactiveerd." 
+description: Een koppeling die u in een mailing opneemt, kan worden gebruikt om reacties van uw klanten en prospects bij te houden. Wanneer de ontvangers van uw mailing op de koppeling klikken, wordt een actie geactiveerd.
 keywords: Marketing, koppelingen, mailing, nieuwsbrief, gevolgde links
 author: Bergfrid Dias
 date: 11.19.2024
@@ -38,10 +38,10 @@ Het tabblad **Gevolgde links** bevat de volgende opties:
 
 | Pictogram | Optie | Lees meer |
 |:-:|---|---|
-| ![pictogram][img2] | Bericht | [Een nieuwe koppeling maken][1], [Linkacties definiëren][7] |
-| ![pictogram][img3] | Map toevoegen | [Een map maken][5] voor uw koppelingen |
+| <i class="ph ph-plus" aria-label="Plus"></i> | Bericht | [Een nieuwe koppeling maken][1], [Linkacties definiëren][7] |
+| <i class="ph ph-folder" aria-label="Folder"></i> | Map toevoegen | [Een map maken][5] voor uw koppelingen |
 | Koppeling | Klik op een link om het scherm **Link weergeven** te openen. | [Werken met gevolgde koppelingen na de mailing][2] |
-| ![pictogram][img1] | Menu | Klik op de knop naast een koppeling om meer opties te gebruiken. |
+| <i class="ph ph-list" aria-label="Task menu"></i> | Menu | Klik op de knop naast een koppeling om meer opties te gebruiken. |
 
 Menuopties:
 
@@ -111,7 +111,4 @@ De Google Analytics-functie in SuperOffice Marketing identificeert uw mailings i
 [9]: ../../../search-options/selection/learn/static-selections.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/btn-add.png
-[img3]: ../../../../../common/icons/folder.png
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

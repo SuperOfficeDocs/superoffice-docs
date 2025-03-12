@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Als u een bestaande mailing met document wilt weergeven en afdrukken, sluit u de stap **Instellingen** (klik op **Annuleren** of **Opslaan + sluiten**). Selecteer het tabblad **Mailings**, zoek het document, klik op ![pictogram][img1] en selecteer **Weergeven**. Klik op de knop onder **Gegenereerd document downloaden**. Het document wordt gedownload naar uw browser. Open het document en druk het af.
+> Als u een bestaande mailing met document wilt weergeven en afdrukken, sluit u de stap **Instellingen** (klik op **Annuleren** of **Opslaan + sluiten**). Selecteer het tabblad **Mailings**, zoek het document, klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> en selecteer **Weergeven**. Klik op de knop onder **Gegenereerd document downloaden**. Het document wordt gedownload naar uw browser. Open het document en druk het af.
 
 Met gebruik van de workflow voor de mailing met document kunt u een PDF-document genereren om af te drukken en te verzenden naar uw klanten. De eerste stap bij het maken van een mailing met document is **Instellingen**. Hier kunt u de naam van de mailing, de koptekst en de t.a.v.-tekst in het document instellen en de archiveringsopties voor de mailing instellen.
 
@@ -45,6 +45,3 @@ U kunt de mailing met document koppelen aan een bepaalde verkoop. Dit kan releva
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

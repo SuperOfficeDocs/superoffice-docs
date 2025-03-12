@@ -7,15 +7,15 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.17.2024
 version: 10.3.9
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Stap instellingen
 
 > [!NOTE]
-> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit je kunt kiezen. Klik op de pijl ![icon][img4] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Je kunt ook beginnen met typen in het veld om een specifieke waarde te zoeken, zoals een selectienaam.
+> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit je kunt kiezen. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Je kunt ook beginnen met typen in het veld om een specifieke waarde te zoeken, zoals een selectienaam.
 
 ## Toevoegen aan selectie/project
 
@@ -159,7 +159,4 @@ Dit werkt vergelijkbaar met [bulk update][10].
 [1]: content.md
 [10]: ../../../learn/basics/bulk-update.md
 [11]: ../../../learn/basics/activity.md
-[14]: ../../../sale/learn/sales-guide/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../common/icons/dropdown-icon.png
+[14]: ../../../sale/learn/sales-guides.md

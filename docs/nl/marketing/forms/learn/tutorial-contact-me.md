@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.18.2024
 version: 10
 topic: tutorial
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Handleiding - Neem contact met mij op-formulier maken
@@ -42,7 +42,7 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 
 1. Selecteer het veld **Persoon - Naam** en klik op het rode X om dit veld te verwijderen.
 
-1. Klik op de knop **Toevoegen** ![pictogram][img1] en voeg de volgende velden toe:
+1. Klik op <i class="ph ph-plus" aria-label="Add"></i> en voeg de volgende velden toe:
 
     * Voor- en achternaam.
 
@@ -121,7 +121,6 @@ De voorbeelden dekken niet elk veld en elke optie, maar u kunt uitgebreide instr
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

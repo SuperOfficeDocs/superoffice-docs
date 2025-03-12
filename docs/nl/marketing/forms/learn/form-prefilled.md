@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 03.18.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Vooraf ingevulde velden in formulieren gebruiken
@@ -22,7 +22,7 @@ Een veldidentificator is een unieke ID voor een specifiek veld. Het zal niet ver
 
 1. [Een nieuw formulier maken][1].
 
-2. Voor elk veld dat u vooraf wilt invullen: Klik op **Geavanceerde opties** ![pictogram][img1] om het veld **ID** weer te geven, waarin u een ID kunt toevoegen voor het veld.
+2. Voor elk veld dat u vooraf wilt invullen: Klik op **Geavanceerde opties** (<i class="ph ph-gear" aria-hidden="true"></i>) om het veld **ID** weer te geven, waarin u een ID kunt toevoegen voor het veld.
 
 3. [Formulieren publiceren][2].
 
@@ -48,6 +48,3 @@ Een veldidentificator is een unieke ID voor een specifiek veld. Het zal niet ver
 [1]: create.md
 [2]: publish.md
 [3]: ../../../request/reply-templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/cog-wheel.png

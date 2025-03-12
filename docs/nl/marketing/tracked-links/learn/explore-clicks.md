@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.27.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Werken met gevolgde koppelingen na de mailing

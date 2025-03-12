@@ -1,7 +1,7 @@
 ---
 uid: help-nl-mailings-resend
 title: Uw mailing opnieuw verzenden
-description: "Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden."
+description: Nadat u de geretourneerde e-mails hebt afgehandeld, is het een goed idee om uw mailing opnieuw te verzenden.
 author: Bergfrid Dias
 date: 02.21.2023
 keywords: Marketing
