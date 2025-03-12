@@ -21,7 +21,7 @@ U kunt [veelgestelde vragen][1] maken waaruit uw servicemedewerkers kunnen kieze
 
 Uw klanten hebben zelfs toegang tot deze veelgestelde vragen via het klantportaal (webportaal) zonder contact met u op te nemen. Dit maakt het handig voor uw klanten om de klok rond antwoorden te vinden op veelgestelde vragen. Terwijl u minder verzoeken krijgt om af te handelen.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Klantportaal configureren][2]
 * [Veelgestelde vragen publiceren][3]

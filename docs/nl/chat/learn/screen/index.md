@@ -32,7 +32,7 @@ Het tabblad **Chats** heeft drie hoofd-area's:
 
 * Lijst van actieve/recente chatsessies (links)
 * Chatgesprek (midden)
-* Zijpaneel Persoon (rechts) → weergave van klantinformatie
+* Zijpaneel Persoon (rechts), weergave van klantinformatie
 
 ### Lijst van actieve/recente chatsessies
 
@@ -49,7 +49,7 @@ De volgende pictogrammen worden gebruikt voor de actieve chatsessies in de lijst
 |---|---|
 | ![pictogram][img2] | Het laatste bericht in het gesprek van de klant en agent. |
 | ![pictogram][img3] | Aantal ongelezen berichten van de klant. |
-| ![pictogram][img4] | Overgebrachte chat naar u of van u. Wachten op acceptatie. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Overgebrachte chat naar u of van u. Wachten op acceptatie. |
 
 ### Chatgesprek
 
@@ -83,5 +83,4 @@ Als de klant is gevonden in SuperOffice, kunt u de contactgegevens, verzoeken, v
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

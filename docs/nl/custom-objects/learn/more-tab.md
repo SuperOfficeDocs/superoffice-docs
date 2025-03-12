@@ -48,13 +48,13 @@ Om gegevens in het tabblad Meer te bekijken:
 
 ## Informatie bewerken in het tabblad Meer
 
-Klik op **Bewerken** om de informatie in het **tabblad Meer** te bewerken.
+Klik op <i class="ph ph-pencil-simple" aria-label="Edit"></i> om de informatie in het **tabblad Meer** te bewerken.
 
 ## Extra tips
 
 * **Velden aanpassen**: Het toevoegen van door de gebruiker gedefinieerde velden of het aanpassen van de lay-outs vereist administratieve toegang en in sommige gevallen een licentie voor **Development Tools**.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Overzicht van door de gebruiker gedefinieerde velden][1]
 * [Door de gebruiker gedefinieerde velden toevoegen][2]

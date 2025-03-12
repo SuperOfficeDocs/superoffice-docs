@@ -2,9 +2,9 @@
 uid: help-nl-dashboard-create
 title: Een nieuw dashboard maken
 description: Krijg meer inzicht in uw CRM-gegevens door verschillende dashboards te maken. In deze handleiding vindt u meer informatie over het maken van nieuwe dashboard-tabbladen.
+keywords: dashboard
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: dashboard
 topic: howto
 language: nl
 ---
@@ -15,21 +15,23 @@ In het scherm Dashboard kunt u meerdere dashboard-tabs maken om een onbeperkt aa
 
 ## Nieuw dashboardtabblad maken
 
-Bekijk deze video of volg de onderstaande stappen om te leren hoe u nieuwe dashboardtabbladen toevoegt aan SuperOffice CRM (videolengte – 4:29):
+Bekijk deze video of volg de onderstaande stappen om te leren hoe u nieuwe dashboardtabbladen toevoegt aan SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
+(videolengte – 4:29)
+
 1. Open het scherm **Dashboard**.
 
-2. Klik op de knop **Taak** en selecteer **Een nieuw dashboard maken**.
+2. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en selecteer **Een nieuw dashboard maken**.
 
 3. Geef in het dialoogvenster de naam van het dashboard op. Dit wordt de naam van het dashboardtabblad.
 
 4. Voer een beschrijving in van het dashboard. De beschrijving wordt boven aan het dashboard weergegeven.
 
     > [!TIP]
-    > U kunt de naam en beschrijving ook [in andere talen][1] toevoegen door te klikken op ![pictogram][img1].
+    > U kunt de naam en beschrijving ook [in andere talen][1] toevoegen door te klikken op <i class="ph ph-translate" aria-label="Translate"></i>.
 
 5. Selecteer het thema van het dashboard in de lijst **Thema**.
 
@@ -49,7 +51,7 @@ Er zijn veel standaardtegels om uit te kiezen in de bibliotheek, maar u kunt ook
 
 ![Selecteer gewenste tegels en sleep ze naar de rasterweergave -screenshot][img2]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een dashboard bewerken][3]
 * [Tegels toevoegen/Opmaak bewerken][2]
@@ -66,5 +68,4 @@ Er zijn veel standaardtegels om uit te kiezen in de bibliotheek, maar u kunt ook
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/az.png
 [img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png

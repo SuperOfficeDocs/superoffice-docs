@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.31.2024
 version: 10
 topic: tutorial
-language: nl
 audience: settings
 audience_tooltip: Settings and maintenance
+language: nl
 ---
 
 # Opdrachtbevestigingssjabloon aanpassen

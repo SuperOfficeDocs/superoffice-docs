@@ -2,9 +2,9 @@
 uid: help-nl-dashboard
 title: Dashboards
 description: SuperOffice Dashboard instellen in en vooraf gedefinieerde tegels gebruiken. Dashboards zijn ideaal voor alle gebruikers en managers. U kunt een overzicht krijgen van uw individuele werk of uw teamprestaties.
+keywords: dashboard
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: dashboard
 topic: concept
 language: nl
 ---
@@ -84,10 +84,10 @@ Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde te
 
 | Pictogram / knop | Beschrijving |
 |---|---|
-| ![pictogram][img1] | Het dashboard wordt vastgemaakt door een beheerder en wordt waarschijnlijk gedistribueerd naar meerdere gebruikers. |
-| ![pictogram][img2] | Klik op de ster in de rechterbovenhoek om een dashboard als favoriet in te stellen. |
-| ![pictogram][img3] | Klik op de knop **Vernieuwen** om de gegevens in alle tegels bij te werken. |
-| **Taak** | Klik om toegang te krijgen tot verschillende functies. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Het dashboard wordt vastgemaakt door een beheerder en wordt waarschijnlijk gedistribueerd naar meerdere gebruikers. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Klik op de ster in de rechterbovenhoek om een dashboard als favoriet in te stellen. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klik op de knop **Vernieuwen** om de gegevens in alle tegels bij te werken. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klik om toegang te krijgen tot verschillende functies. |
 
 **Functies op de taakknop:**
 
@@ -106,7 +106,4 @@ Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde te
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

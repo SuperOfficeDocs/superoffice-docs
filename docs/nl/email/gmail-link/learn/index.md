@@ -18,7 +18,7 @@ SuperOffice Gmail Link is een plug-in waarmee de client van Google Gmail wordt g
 * Verzoeken op basis van e-mails in Gmail.
 * Afzenders opzoeken in SuperOffice: eenvoudig te volgen wizards die u helpen bij het maken van een nieuw bedrijf, contactpersoon of e-mailadres in uw SuperOffice CRM-database, als de afzender niet onbekend is.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [SuperOffice Gmail Link inschakelen][1]
 * [Binnenkomende e-mail archiveren][3]

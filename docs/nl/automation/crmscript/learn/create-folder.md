@@ -17,7 +17,7 @@ Via dit scherm kunt u eigenschappen van een nieuwe of bestaande map met macro's/
 
 ## Mappen maken
 
-1. Klik op ![pictogram][img1] **Nieuwe map** boven in het scherm.
+1. Klik op <i class="ph ph-folder" aria-hidden="true"></i> **Nieuwe map** boven in het scherm.
 2. Selecteer in het veld **Map** een bovenliggende map in de lijst.
 3. Voer in het veld **Naam** een beschrijvende naam in voor de map.
 4. Klik op **OK**. De nieuwe map wordt gemaakt.
@@ -39,8 +39,3 @@ Wanneer u een map verwijdert, wordt ook alle inhoud (zoals selecties, items in V
 2. Klik op de naam van de map.
 3. Klik op **Verwijd.**.
 4. Klik ter bevestiging op **OK**. De map en de inhoud ervan worden verwijderd uit SuperOffice.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/folder.png

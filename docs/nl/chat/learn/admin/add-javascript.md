@@ -2,9 +2,9 @@
 uid: help-nl-chat-add-javascript
 title: JavaScript voor uw website toevoegen
 description: Live Chat is een populaire manier voor uw klanten en prospects om contact met u op te nemen wanneer ze uw website bezoeken. Deze handleiding laat u zien hoe u een chatwidget aan uw website kunt toevoegen.
+keywords: chatten
 author: SuperOffice RnD
 date: 02.22.2023
-keywords: chatten
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -23,7 +23,7 @@ Nu u [de chatwidget hebt geconfigureerd][1], laat deze stap u zien hoe u deze aa
 ## Stappen
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Selecteer ![pictogram][img2] **Chatten** in de Navigator.
+1. Selecteer <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chatten** in de Navigator.
 1. Selecteer een chatkanaal uit de lijst en klik op **Weergeven**. Het JavaScript voor het geselecteerde chatkanaal wordt weergegeven.
 1. Selecteer en kopieer het script.
 1. Meld u aan bij de editorpagina van uw website.
@@ -39,7 +39,7 @@ De chatwidget is nu beschikbaar en live. Bezoekers van uw website kunnen met u g
 >
 > De parameter *DEFER* zorgt ervoor dat dit script het laden van de pagina niet blokkeert. Het script wordt uitgevoerd nadat het laden van de pagina is voltooid.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Chatten koppelen aan uw Customer Centre][3]
 * [Kunstmatige intelligentie-diensten][2]
@@ -48,6 +48,3 @@ De chatwidget is nu beschikbaar en live. Bezoekers van uw website kunnen met u g
 [1]: channel-create.md
 [2]: ../../../ai/learn/index.md
 [3]: ../../../customer-center/learn/enable-chat.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png

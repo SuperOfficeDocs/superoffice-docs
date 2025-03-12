@@ -30,7 +30,7 @@ In het scherm Customer Centre definieert u instellingen voor het klantportaal en
 
 * [Customer Centre-bronbestanden][3]. Op dit tabblad kunt u de standaardpagina's in uw klantportaal bewerken.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Klanttalen][1]
 

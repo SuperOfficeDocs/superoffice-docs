@@ -63,7 +63,7 @@ U kunt bijvoorbeeld de volgende kolommen met gegevens verwerken: In assortiment,
 > [!NOTE]
 > Voor grotere en complexe importen raden we altijd aan om een van onze bekwame consultants te gebruiken om ervoor te zorgen dat de kwaliteit van de gegevens die u in SuperOffice CRM importeert op zijn best is.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Instellingen voor uw import kiezen][3]
 * [Contactpersonen importeren in SuperOffice CRM][4]

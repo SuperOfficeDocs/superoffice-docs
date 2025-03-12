@@ -28,7 +28,7 @@ SuperOffice kan SMS-berichten importeren. Als u dit wilt gebruiken, moet u een S
 
 1. Klik op **OK**. De SMS-postbus wordt gemaakt.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [SMS-postvak IN][2]
 * [SMS-postvak UIT][3]

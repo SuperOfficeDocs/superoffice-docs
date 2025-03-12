@@ -1,10 +1,10 @@
 ---
 uid: help-nl-mail-link-archive-attachment
 title: Bijlagen archiveren
-description: "Als u een e-mailbijlage wilt opslaan, maar niet de e-mail zelf in SuperOffice CRM, kunt u de bijlage archiveren als een document."
+description: Als u een e-mailbijlage wilt opslaan, maar niet de e-mail zelf in SuperOffice CRM, kunt u de bijlage archiveren als een document.
+keywords: Mail-koppeling, e-mail, bijlage
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Mail-koppeling, e-mail, bijlage
 topic: howto
 language: nl
 ---
@@ -47,7 +47,7 @@ Als de bijlage het enige onderdeel van een e-mail is dat u wilt bewaren voor toe
 
 12. Klik op **OK**. De geselecteerde bijlage wordt gearchiveerd in SuperOffice CRM als een nieuw document. U kunt het document vervolgens openen door erop te dubbelklikken in het sectietabblad **Activiteiten**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mails archiveren op bedrijven/personen][2]
 * [E-mails archiveren als activiteiten][3]

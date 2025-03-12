@@ -1,11 +1,11 @@
 ---
 uid: help-nl-email-inbox-preview
-title: voorbeeldveld
-description: voorbeeldveld
+title: Voorbeeldveld
+description: Voorbeeldveld
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
-topic: help
+topic: howto
 language: nl
 ---
 
@@ -24,9 +24,9 @@ Het tabblad **Voorbeeld** bevat de volgende velden:
 | Bijlagen | Hier worden eventuele bijlagen weergegeven. |
 
 > [!NOTE]
-> Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **E-mailopties**. Selecteer het tabblad **Algemeen**. Als u de optie **Inline afbeeldingen weergeven** inschakelt, worden inline-afbeeldingen weergegeven in het de voorbeeldweergave.
+> Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **E-mailopties**. Selecteer het tabblad **Algemeen**. Als u de optie **Inline afbeeldingen weergeven** inschakelt, worden inline-afbeeldingen weergegeven in het de voorbeeldweergave.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [E-mailadressen toevoegen in SuperOffice CRM][1]
 * [Bijlagen archiveren of openen][2]
@@ -40,6 +40,3 @@ Het tabblad **Voorbeeld** bevat de volgende velden:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

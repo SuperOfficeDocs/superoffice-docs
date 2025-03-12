@@ -2,9 +2,13 @@
 uid: help-nl-document-send
 title: Een document als e-mail verzenden
 description: Het verzenden van documenten die zijn opgeslagen in SuperOffice CRM als bijlagen in e-mails is snel en eenvoudig.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: document, e-mail, bijlage
+author: Bergfrid Dias
+date: 02.25.2025
+version: 10.5.2
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 topic: howto
 language: nl
 ---
@@ -21,7 +25,7 @@ language: nl
         2. Klik met de rechtermuisknop en selecteer **Verzenden als e-mail**.
     * Vanaf het dialoogvenster Document
         1. Open het document in de modus **Bewerken**.
-        2. Klik op de knop **Taak**.
+        2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>.
         3. Selecteer **Verzenden als e-mail**.
 
         > [!NOTE]

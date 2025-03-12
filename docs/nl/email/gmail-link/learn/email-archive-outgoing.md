@@ -37,7 +37,7 @@ Klik op de koppeling in het pop-upbericht om het document te openen in SuperOffi
 > [!TIP]
 > Als u het bericht niet archiveert wanneer u het verzendt, kunt u altijd nog naar de [map Verzonden items gaan en het bericht archiveren][3].
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Binnenkomende e-mail archiveren][3]
 * [Bijlagen archiveren][4]

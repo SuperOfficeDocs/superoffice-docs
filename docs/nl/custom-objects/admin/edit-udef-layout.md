@@ -34,7 +34,7 @@ Wanneer je [nieuwe velden toevoegt][2], worden ze standaard onder elkaar geplaat
 
 * Klik en sleep met de muis. De velden worden automatisch aangepast om in het raster te passen.
 * Klik op een veld en gebruik de pijltoetsen op het toetsenbord.
-* Klik op een veld en gebruik de pijltoetsen in de rechterbenedenhoek ( ![icoon][img2] ![icoon][img1] ![icoon][img4] ![icoon][img3] ).
+* Klik op een veld en gebruik de pijltoetsen in de rechterbenedenhoek (<i class="ph ph-arrow-circle-left" aria-hidden="true"></i> <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> <i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 * Dubbelklik op een veld en specificeer positiewaarden **X** en **Y** in het dialoogvenster **Velden**.
 
 ## Stel positie in
@@ -53,7 +53,7 @@ Wanneer je [nieuwe velden toevoegt][2], worden ze standaard onder elkaar geplaat
 
 ## Richt velden uit (rechts/links)
 
-Selecteer de velden die je wilt aanpassen en klik op links uitlijnen ![icoon][img5] of rechts uitlijnen ![icoon][img6] onder het raster.
+Selecteer de velden die je wilt aanpassen en klik op links uitlijnen (<i class="ph ph-text-align-left" aria-hidden="true"></i>) of rechts uitlijnen (<i class="ph ph-text-align-right" aria-hidden="true"></i>) onder het raster.
 
 ## Wijzig de breedte van een veld
 
@@ -71,7 +71,7 @@ De TAB-volgorde wordt weergeven in de lijst **Naam** links in het scherm. Deze v
 
 1. Selecteer het gewenste veld onder de lijst.
 
-1. Klik op een van de pijlen onder de lijst om het veld omhoog ![pictogram][img1] of omlaag ![pictogram][img2] te verplaatsen.
+1. Klik op <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> onder de lijst om het veld omhoog of omlaag te verplaatsen.
 
 1. Klik op **Publiceren** als u de wijzigingen beschikbaar wilt maken voor SuperOffice CRM-gebruikers.
 
@@ -99,11 +99,3 @@ Als u **(alle gebruikersgroepen)** selecteert in de lijst **Gebruikersgroep**, e
 <!-- Referenced links -->
 [1]: ../../ui/screen-designer/learn/index.md
 [2]: add-udef.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/admin/align-left.png
-[img6]: ../../../media/icons/admin/align-right.png

@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 08.27.2024
 version: 10.3.8
 topic: howto
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
 ---
@@ -103,7 +103,7 @@ Prefixen zorgen ervoor dat wat u maakt niet in conflict komt met toekomstige Sup
 * Moet een enkel woord zijn
 * Mag alleen underscores, letters van a tot z en cijfers bevatten
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Extra tabellen toevoegen][2]
 * [Extra velden toevoegen][3]

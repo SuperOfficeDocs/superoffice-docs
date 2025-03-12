@@ -65,7 +65,7 @@ Er zijn twee manieren om een e-mail te maken vanuit Microsoft Outlook. U kunt Su
 
 [!include[Icons with description](includes/buttons-in-email-window.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [E-mailsjablonen maken][3]
 

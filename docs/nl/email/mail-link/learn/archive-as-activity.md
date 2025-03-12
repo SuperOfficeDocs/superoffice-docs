@@ -1,10 +1,10 @@
 ---
 uid: help-nl-mail-link-archive-as-activity
 title: E-mail archiveren als activiteit
-description: "Het direct opslaan van een e-mail als een taak, een afspraak of een telefoongesprek in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen."
+description: Het direct opslaan van een e-mail als een taak, een afspraak of een telefoongesprek in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen.
+keywords: Mail-koppeling, e-mail
 author: SuperOffice RnD
 date: 02.10.2023
-keywords: Mail-koppeling, e-mail
 topic: howto
 language: nl
 ---
@@ -50,7 +50,7 @@ Als u een e-mail ontvangt waarin u wordt gevraagd actie te ondernemen, kunt u de
 
 15. Klik op **OK**. De geselecteerde e-mail(s) worden als activiteiten gearchiveerd in SuperOffice CRM. U kunt vervolgens een van deze activiteiten openen door erop te dubbelklikken in het sectietabblad **Activiteiten** of in de controlelijsten op het scherm Agenda.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mails archiveren op bedrijven/personen][2]
 * [Bijlagen archiveren][3]

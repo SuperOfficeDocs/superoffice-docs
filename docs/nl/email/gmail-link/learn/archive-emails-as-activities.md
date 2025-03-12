@@ -1,7 +1,7 @@
 ---
 uid: help-nl-gmail-link-archive-as-activity
 title: E-mail archiveren als activiteit
-description: "Het direct opslaan van een e-mail als een vervolgactiviteit in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen." 
+description: Het direct opslaan van een e-mail als een vervolgactiviteit in uw SuperOffice-agenda zorgt ervoor dat u nooit vergeet een klant of vraag op te volgen.
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: Gmail Link
@@ -31,7 +31,7 @@ Met deze functie kunt u snel een activiteit toevoegen in SuperOffice op basis va
 
 5. Klik op **Opslaan**. De activiteit wordt opgeslagen op het sectietabblad **Activiteiten** in SuperOffice CRM. Klik op de koppeling in het pop-upbericht om de activiteit te openen in SuperOffice.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Binnenkomende e-mail archiveren][3]
 * [Uitgaande e-mail archiveren][4]

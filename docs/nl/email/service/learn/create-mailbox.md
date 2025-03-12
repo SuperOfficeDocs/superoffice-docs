@@ -2,10 +2,10 @@
 uid: help-nl-service-mailbox-create
 title: Postbussen maken
 description: Postbussen maken
+keywords: e-mail
 author: SuperOffice RnD
 date: 12.12.2023
 version: 10.2.11
-keywords: e-mail
 topic: howto
 language: nl
 ---
@@ -80,13 +80,13 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Ga naar het tabblad **Alias**. Hier kunt u elke e-mailalias voor een postvak invoeren (bijvoorbeeld als <sales@company.com> en <sale@company.com> ga naar hetzelfde postvak). U voegt een alias toe door een e-mailadres in te vullen en vervolgens op ![pictogram][img1] te klikken.
+1. Ga naar het tabblad **Alias**. Hier kunt u elke e-mailalias voor een postvak invoeren (bijvoorbeeld als <sales@company.com> en <sale@company.com> ga naar hetzelfde postvak). U voegt een alias toe door een e-mailadres in te vullen en vervolgens op **+** te klikken.
 
 1. [!include[Import stuff](includes/step-import.md)]
 
 1. Klik op **OK**. De postbus wordt gemaakt.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Postbussen verwijderen][1]
 
@@ -95,6 +95,3 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 [2]: ../../../ai/learn/text-analysis.md
 [3]: ../../../ai/learn/categorization.md
 [4]: ../../../ai/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

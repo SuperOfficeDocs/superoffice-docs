@@ -13,11 +13,6 @@ language: nl
 
 Om Instellingen en onderhoud in een andere taal te gebruiken:
 
-1. Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **Lokale instellingen**.
+1. Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Lokale instellingen**.
 2. Selecteer de gewenste taal in de lijst **Actieve taal**.
 3. Klik op **OK**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png

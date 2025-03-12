@@ -2,9 +2,9 @@
 uid: help-nl-chat-transfer-to-agent
 title: Een chat overbrengen naar een andere agent
 description: In deze handleiding leert u hoe u een chat overbrengt naar een andere agent.
+keywords: chatten
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: chatten
 topic: howto
 language: nl
 ---
@@ -20,10 +20,10 @@ U kunt chats overbrengen naar andere agenten en overgebrachte chats ontvangen va
 
 ## Overbrengen
 
-1. Klik op ![pictogram][img1] en selecteer **Overbrengen**.
+1. Klik op <i class="ph ph-list" aria-label="Task menu"></i> en selecteer **Overbrengen**.
 2. Selecteer een agent in de lijst **Overbrengen naar**. Alleen agenten met de status **Aanwezig** worden hier weergegeven.
 3. Klik op **Overbrengen**. De chat wordt gemarkeerd in de lijst met sessies. Daarna vindt het volgende plaats:
-    * Als de ontvangende agent de overgebrachte chat accepteert, gaat u zelf in de luistermodus. U kunt de lopende chat bekijken, maar u kunt niet op berichten antwoorden. Als u deze chatsessie wilt sluiten, klikt u op ![pictogram][img1] en selecteert u **Venster sluiten**.
+    * Als de ontvangende agent de overgebrachte chat accepteert, gaat u zelf in de luistermodus. U kunt de lopende chat bekijken, maar u kunt niet op berichten antwoorden. Als u deze chatsessie wilt sluiten, klikt u op <i class="ph ph-list" aria-label="Task menu"></i> en selecteert u **Venster sluiten**.
     * Als de ontvangende agent de overgebrachte chat weigert, zal deze niet langer gemarkeerd worden weergegeven in de lijst met sessies. U kunt doorgaan met de chat of [een verzoek maken][1] dat deze door iemand anders moet worden afgehandeld.
     * Als de ontvangende agent niet antwoordt, klikt u op **Overdracht annuleren**. U kunt doorgaan met de chat of [een verzoek maken][1] dat deze door iemand anders moet worden afgehandeld.
 
@@ -37,13 +37,10 @@ Als een agent een chat naar u overbrengt, wordt de chat automatisch weergegeven 
 1. (indien relevant) selecteer de overgebrachte chat in de lijst met sessies om deze weer te geven.
 2. Klik op **Overdracht accepteren** (onder het chatgesprek) om de chat te accepteren. Als u de chat niet wilt accepteren, klikt u op **Overdracht afwijzen**.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Reageren op een chat en deze koppelen aan een contactpersoon][2]
 
 <!-- Referenced links -->
 [1]: create-request.md
 [2]: respond.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

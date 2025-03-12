@@ -2,9 +2,9 @@
 uid: help-nl-faq-view-entry
 title: Items in Veelgestelde vragen weergeven
 description: Items in Veelgestelde vragen weergeven
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: Veelgestelde vragen
+author: Bergfrid Dias
+date: 03.14.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -13,7 +13,7 @@ language: nl
 
 # Items van veelgestelde vragen weergeven (in SuperOffice)
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**. Dit brengt u naar het scherm Veelgestelde vragen. Dit scherm bevat items in Veelgestelde vragen in een [mapstructuur][1] die u zelf kunt maken en bewerken.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**. Dit brengt u naar het scherm Veelgestelde vragen. Dit scherm bevat items in Veelgestelde vragen in een [mapstructuur][1] die u zelf kunt maken en bewerken.
 
 2. Wanneer deze map verschillende submappen bevat, kiest u de gewenste map.
 
@@ -26,7 +26,7 @@ Als u het huidige item in Veelgestelde vragen wilt bewerken, klikt u op de knop 
 
 Als u de huidige veelgestelde vragen wilt publiceren, selecteert u **Naar voren verplaatsen in workflow**. Als u de publicatie ongedaan wilt maken, selecteert u **Naar achteren verplaatsen in workflow**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items in Veelgestelde vragen maken][5]
 * [Items in Veelgestelde vragen publiceren][4]
@@ -41,6 +41,3 @@ Als u de huidige veelgestelde vragen wilt publiceren, selecteert u **Naar voren 
 [5]: create.md
 [6]: delete.md
 [7]: workflow.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

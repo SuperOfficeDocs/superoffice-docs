@@ -37,7 +37,7 @@ Met deze integratie kunt u alle documenten en e-mails opslaan in SharePoint Onli
 > [!NOTE]
 > Voordat u deze configuratie kunt starten, moet u site- en bibliotheekmachtigingen instellen in SharePoint. Alle gebruikers moeten zich authenticeren met Microsoft 365.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Over SuperOffice cloud documentintegraties][2]
 * [Vereisten voor SharePoint documentbibliotheek][3]

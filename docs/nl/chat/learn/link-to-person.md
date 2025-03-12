@@ -1,10 +1,10 @@
 ---
 uid: help-nl-chat-link-to-person
 title: Chat koppelen aan een bestaande contactpersoon
-description: "Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart."
+description: Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart.
+keywords: chatten
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: chatten
 topic: howto
 language: nl
 ---
@@ -35,7 +35,7 @@ Als u de verkeerde persoon hebt geselecteerd, kunt u op **Persoon wijzigen** kli
 
 Als een klant niet wordt gevonden in de SuperOffice CRM-database, kunt [een nieuwe persoon en nieuw bedrijf maken][1] in het zijpaneel.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 <!-- Referenced links -->
 [1]: create-contact.md

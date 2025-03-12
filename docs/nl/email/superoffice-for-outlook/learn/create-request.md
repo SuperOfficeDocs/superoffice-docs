@@ -38,6 +38,6 @@ U kunt een [verzoek][1] in SuperOffice direct vanuit Outlook aanmaken. Als de e-
 > U kunt ook direct vanuit de e-mail een vervolgactiviteit of verkoop aanmaken.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

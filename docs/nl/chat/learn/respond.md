@@ -1,10 +1,10 @@
 ---
 uid: help-nl-chat-respond
 title: Antwoorden op een chat
-description: "Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart."
+description: Wanneer een klant een vraag verstuurt via de chatwidget op de website, is het niet alleen belangrijk om hierop te reageren, maar ook om deze te registreren op hun Persoonskaart.
+keywords: chatten
 author: Bergfrid Dias
 date: 02.14.2023
-keywords: chatten
 topic: howto
 language: nl
 ---
@@ -44,7 +44,7 @@ In de rechterbovenhoek op het scherm **Chat** kunt u uw aanwezigheid instellen:
 
 5. Als u wilt chatten, geeft u de tekst op in het onderste deel van het scherm en drukt u op **ENTER** of klikt u op **Verzenden**.
 
-6. Als u emojis/stickers wilt gebruiken, klikt u op ![pictogram][img5] naast het tekstveld.
+6. Als u emojis/stickers wilt gebruiken, klikt u op <i class="ph ph-smiley" aria-label="Smiley"></i> naast het tekstveld.
 
 7. Als u de klant niet kunt helpen met zijn vraag, voert u een van de volgende handelingen uit:
 
@@ -55,7 +55,7 @@ In de rechterbovenhoek op het scherm **Chat** kunt u uw aanwezigheid instellen:
     * [Veelgestelde vragen, een antwoordsjabloon of een snel antwoord verzenden][4], en/of
     * [Een bestand verzenden][5]
 
-9. Wanneer het gesprek is afgesloten, kunt u op ![pictogram][img1] klikken en **Chat beëindigen** selecteren (tenzij de klant als eerste het chatvenster sluit). De chat is verplaatst naar **Recente chatsessies**. U kunt ook een record van de chat zoeken in het sectietabblad **Activiteiten** in SuperOffice CRM.
+9. Wanneer het gesprek is afgesloten, kunt u op <i class="ph ph-list" aria-label="Task menu"></i> klikken en **Chat beëindigen** selecteren (tenzij de klant als eerste het chatvenster sluit). De chat is verplaatst naar **Recente chatsessies**. U kunt ook een record van de chat zoeken in het sectietabblad **Activiteiten** in SuperOffice CRM.
 
 > [!NOTE]
 > Als het post-chatformulier voor dit chatkanaal actief is, kan de klant teruggaan naar de chat. De chat wordt opnieuw geactiveerd.
@@ -68,7 +68,7 @@ Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden
 
 ![Via de knop voor het toevoegen van vooraf gedefinieerde tekst kunt u tekst kiezen uit veelgestelde vragen, antwoordsjablonen en snelle antwoorden -screenshot][img6]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [De chatfunctie gebruiken vanuit klantperspectief][6]
 * [Een document maken of uploaden][7]
@@ -83,9 +83,7 @@ Bespaar tijd door vooraf gedefinieerde teksten te gebruiken bij het beantwoorden
 [7]: ../../document/learn/create.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../media/loc/en/chat/chat-tab-dashboard.png
 [img3]: ../../../media/loc/en/chat/chat-status-present.png
 [img4]: ../../../media/loc/en/chat/chat-status-away.png
-[img5]: ../../../../common/icons/smiley-icon.png
 [img6]: ../../../media/loc/en/chat/chat-quickreply.png

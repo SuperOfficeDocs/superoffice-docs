@@ -2,9 +2,9 @@
 uid: help-nl-faq-edit
 title: Items in Veelgestelde vragen bewerken
 description: Items in Veelgestelde vragen bewerken
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Veelgestelde vragen
+author: Bergfrid Dias
+date: 03.14.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -13,7 +13,7 @@ language: nl
 
 # Items in Veelgestelde vragen bewerken
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 1. Ga naar de map waar het item in Veelgestelde vragen zich bevindt.
 1. Klik op het gewenste item in Veelgestelde vragen.
 1. Klik in het scherm **Item Veelgestelde vragen** op **Item bewerken**.
@@ -25,6 +25,3 @@ language: nl
 
 <!-- Referenced links -->
 [1]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

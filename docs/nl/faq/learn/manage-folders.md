@@ -2,9 +2,9 @@
 uid: help-nl-faq-folder
 title: Mappen met items in Veelgestelde vragen beheren
 description: Mappen met items in Veelgestelde vragen beheren
-author: Bergfrid Dias
-date: 03.16.2023
 keywords: Veelgestelde vragen, map
+author: Bergfrid Dias
+date: 03.14.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -17,7 +17,7 @@ U kunt een mapstructuur voor veelgestelde vragen maken, zodat deze logisch worde
 
 ## Mappen maken
 
-1. Ga naar ![pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 
 1. Klik op de knop **Nieuwe map**. Het scherm **Eigenschappen map Veelgestelde vragen** wordt geopend.
 
@@ -47,7 +47,7 @@ Voordat u een map Veelgestelde vragen verwijdert, moet u alle items verwijderen 
 
 [!include[How to delete a folder](../../learn/includes/howto-delete-folder-kb.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items in Veelgestelde vragen maken][3]
 
@@ -55,6 +55,3 @@ Voordat u een map Veelgestelde vragen verwijdert, moet u alle items verwijderen 
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

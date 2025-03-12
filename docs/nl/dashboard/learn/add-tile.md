@@ -2,9 +2,9 @@
 uid: help-nl-dashboard-tile-add
 title: Tegel toevoegen/Opmaak bewerken in dashboard
 description: In deze handleiding leert u hoe u een dashboardtegel maakt.
+keywords: dashboard
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: dashboard
 topic: howto
 language: nl
 ---
@@ -13,10 +13,12 @@ language: nl
 
 Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde tegels in SuperOffice Dashboard, kunt u altijd uw eigen tegel maken.
 
-Bekijk deze video of volg de onderstaande stappen om te leren hoe u uw eigen dashboard maakt (videolengte – 7:20):
+Bekijk deze video of volg de onderstaande stappen om te leren hoe u uw eigen dashboard maakt:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+
+(videolengte – 7:20)
 
 ## Stappen
 
@@ -24,7 +26,7 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u uw eigen das
 
 2. Selecteer het dashboard dat u wilt bewerken.
 
-3. Klik op de knop **Taak** en selecteer **Tegel toevoegen/Opmaak bewerken**. Aan de rechterkant van het geselecteerde dashboard wordt de sectie **Tegel toevoegen/Opmaak bewerken** weergegeven.
+3. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en selecteer **Tegel toevoegen/Opmaak bewerken**. Aan de rechterkant van het geselecteerde dashboard wordt de sectie **Tegel toevoegen/Opmaak bewerken** weergegeven.
 
     ![Selecteer tegeltype -screenshot][img1]
 
@@ -69,7 +71,7 @@ Het tabblad voor Opmaak geeft u veel mogelijkheden om het visuele uiterlijk van 
 
 Kies het gewenste grafiektype en de benodigde instellingen. De uitvoer van de tegel wordt aan de rechterkant weergegeven
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een tegel bewerken][1]
 * [Een tegel verwijderen][3]

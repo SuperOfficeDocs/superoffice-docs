@@ -4,15 +4,16 @@ title: Werken met documenten
 description: Deze handleiding laat u zien hoe u documenten kunt maken en opslaan in SuperOffice CRM en hoe u documenten rechtstreeks in uw CRM-oplossing kunt verzenden en ontvangen.
 keywords: document
 author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+date: 02.25.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Werken met documenten ![pictogram][img1]
+# Werken met documenten <i class="ph ph-files" aria-hidden="true"></i>
 
 Door alle documenten op één plek op te slaan, krijgen u en uw team toegang tot actuele informatie en behouden u de controle over klantrelaties.
 
@@ -27,14 +28,14 @@ U kunt een document openen in [bewerkingsmodus of in leesmodus][7]. Wanneer u ee
 
 | Icoon | Eigenschap | Beschrijving |
 |:-:|---|---|
-| ![icon][img11] | Taal | Een lijst met beschikbare vertalingen van de sjabloon. "Standaard" indien niet vertaald. |
-| ![icon][img4] | Datum | De datum van vandaag (standaard). Klik op de pijl naast het **Datum**-veld om een maandkalender te openen waarin u de gewenste datum kunt selecteren. |
-| ![icon][img3] | Onderwerp | De kop van het document. |
-| ![icon][img2] | Sjabloon | Een lijst met beschikbare [documentsjablonen][11] zoals Brief of Offerte. |
-| ![icon][img7], ![icon][img8] | Bedrijf / contact | Over wie het document gaat. |
-| ![icon][img5] | Verkoop | Een verkoop gekoppeld aan het document. |
-| ![icon][img6] | Project | Een project gekoppeld aan het document. |
-| | Onze ref | Toegewezen documentnummer. |
+| <i class="ph ph-translate" aria-label="Translate"></i> | Taal | Een lijst met beschikbare vertalingen van de sjabloon. "Standaard" indien niet vertaald. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Datum | De datum van vandaag (standaard). Klik op de pijl naast het **Datum**-veld om een maandkalender te openen waarin u de gewenste datum kunt selecteren. |
+| <i class="ph ph-text-align-left" aria-label="Align left"></i> | Onderwerp | De kop van het document. |
+| <i class="ph ph-files" aria-label="Document"></i> | Sjabloon | Een lijst met beschikbare [documentsjablonen][11] zoals Brief of Offerte. |
+| <i class="ph ph-buildings" aria-label="Company icon"></i>, <i class="ph ph-user-circle" aria-label="Contact icon"></i> | Bedrijf / contact | Over wie het document gaat. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Verkoop | Een verkoop gekoppeld aan het document. |
+| <i class="ph ph-clipboard-text" aria-label="Clipboard"></i> | Project | Een project gekoppeld aan het document. |
+| <i class="ph ph-bookmarks" aria-label="Bookmarks icon"></i> | Onze ref | Toegewezen documentnummer. |
 | | Uw ref | De referentie van de geadresseerde uit hun communicatie. |
 
 ## Nieuwe maken
@@ -51,7 +52,7 @@ Waar u ook bent in SuperOffice CRM, u kunt een nieuw document maken of uploaden 
 
 ## Record toevoegen als een favoriet
 
-Als u een record wilt toevoegen aan favorieten, klikt u op het sterpictogram ![pictogram][img13] in de hoek van de relevante kaart of van het relevante tabblad of dialoogvenster. Het sterretje wordt geel ![pictogram][img12] en de record wordt direct toegevoegd aan favorieten. U hoeft niet op **Opslaan** te klikken.
+Als u een record wilt toevoegen aan favorieten, klikt u op <i class="ph ph-star" aria-label="Star icon"></i> in de relevante kaart of van het relevante tabblad of dialoogvenster. Het sterretje wordt geel en de record wordt direct toegevoegd aan favorieten. U hoeft niet op **Opslaan** te klikken.
 
 ## Uw documenten standaardiseren
 
@@ -67,7 +68,7 @@ In SuperOffice CRM kunt u eenvoudig documentsjablonen maken voor Word, E-mail, E
 
 Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor de document.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [E-mail, documenten en agenda verbinden][9]
 * [Nieuwe documenten maken][3]
@@ -83,17 +84,3 @@ Het [tabblad **Meer**][12] bevat door gebruikers gedefinieerde velden voor de do
 [9]: ../../learn/getting-started/connect-email-doc/index.md
 [11]: ../templates/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/document-h32.png
-[img2]: ../../../../common/icons/singlecolour/document.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diaryblack.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-
-[img11]: ../../../../common/icons/az.png
-[img12]: ../../../../common/icons/favourite-yes.png
-[img13]: ../../../../common/icons/favourite-no.png

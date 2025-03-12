@@ -2,9 +2,9 @@
 uid: help-nl-email-inbox-setup
 title: SuperOffice Postvak IN instellen
 description: SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met uw SuperOffice CRM voor e-mailclients die niet via WebTools kunnen worden verbonden. Leer hoe u het instelt en voor de eerste keer inlogt.
+keywords: e-mail, postvak IN
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: e-mail, postvak IN
 topic: howto
 language: nl
 ---
@@ -25,10 +25,12 @@ SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met 
 
 Als u toegang wilt tot e-mail, moet u eerst details over uw e-mailaccount opgeven.
 
-Bekijk deze video om te zien hoe snel en eenvoudig u uw SuperOffice Postvak IN kunt instellen of volg de onderstaande stappen (videolengte -1:34):
+Bekijk deze video om te zien hoe snel en eenvoudig u uw SuperOffice Postvak IN kunt instellen of volg de onderstaande stappen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/QoAanZgQs5A]
+
+(videolengte -1:34)
 
 ### Stappen
 
@@ -82,12 +84,11 @@ Als u e-mails wilt verzenden vanuit SuperOffice CRM, voert u de gegevens van uw 
 Sommige e-mailproviders, zoals Gmail, zullen pogingen tot aanmelding vanuit onbekende apps blokkeren. Controleer uw Postvak IN om te zien of uw e-mailprovider informatie naar u heeft verzonden over een onbevoegde aanmeldingspoging. Volg de instructies in de e-mail om SuperOffice toegang te geven tot uw account.
 
 > [!TIP]
-> Als u toegang wilt tot de e-mailopties, gaat u naar ![pictogram][img1] **Persoonlijke instellingen** > **E-mailopties**.
+> Als u toegang wilt tot de e-mailopties, gaat u naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **E-mailopties**.
 
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
 [img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
 [img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png

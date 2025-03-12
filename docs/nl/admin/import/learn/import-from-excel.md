@@ -91,7 +91,7 @@ U moet alle verplichte SuperOffice-velden aan de bijbehorende kolommen koppelen 
 
 [!include[Step: complete the import](includes/import-complete.md)]
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Importinstellingen configureren][3]
 * [Importeren uit Outlook][4]

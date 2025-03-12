@@ -35,7 +35,7 @@ U moet [uw chatwidget instellen][3] voordat u deze toevoegt aan uw klantencentru
 
 1. Klik op **Opslaan** om uw instellingen op te slaan.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Klantencentrum configureren][2]
 * [Klanttalen][1]

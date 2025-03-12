@@ -24,7 +24,7 @@ We maken nu een macro gebaseerd op het bovenstaande voorbeeld.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Selecteer ![pictogram][img2] **CRMScript** en het tabblad voor **Macro's en script**. Voer een van de volgende handelingen uit:
+1. Selecteer <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** en het tabblad voor **Macro's en script**. Voer een van de volgende handelingen uit:
     * Een nieuwe macro maken: Klik op **Nieuwe macro**.
     * Een bestaande macro bewerken: Klik op de macronaam.
 
@@ -51,6 +51,3 @@ We maken nu een macro gebaseerd op het bovenstaande voorbeeld.
 
 <!-- Referenced links -->
 [1]: trigger.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

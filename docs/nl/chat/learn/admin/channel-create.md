@@ -2,9 +2,9 @@
 uid: help-nl-chat-channel-create
 title: Een chatkanaal maken
 description: Een chatkanaal maken
+keywords: chatten
 author: Bergfrid Dias
 date: 03.24.2023
-keywords: chatten
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,14 +15,16 @@ language: nl
 
 U kunt chatkanalen maken voor specifieke doelen, zoals technische ondersteuning, vragen over producten en verkoopondersteuning en aan elk kanaal de relevante agents toewijzen.
 
-Bekijk deze video om te leren hoe u uw chatwidget instelt en configureert (videolengte - 4:37):
+Bekijk deze video om te leren hoe u uw chatwidget instelt en configureert:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/94uhmeP1Xig]
 
+(videolengte - 4:37)
+
 ## Stappen
 
-1. Klik op ![pictogram][img2] **Chatten** in de Navigator.
+1. Klik op <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chatten** in de Navigator.
 
 2. Klik op **Toevoegen** onder aan de lijst met chatkanalen.
 
@@ -35,7 +37,7 @@ Bekijk deze video om te leren hoe u uw chatwidget instelt en configureert (video
 5. Klik op **Opslaan** wanneer u klaar bent.
 
 > [!NOTE]
-> Velden met rode kaders zijn verplicht. Tabbladen met het pictogram ![pictogram][img4] bevatten lege verplichte velden.
+> Velden met rode kaders zijn verplicht. Tabbladen met het pictogram <i class="ph ph-warning-circle" aria-label="Warning icon"></i> bevatten lege verplichte velden.
 
 ## Eigenschappen
 
@@ -144,9 +146,3 @@ Het voorbeeld rechts geeft het chatvenster weer met de huidige instellingen.
 ### Kan ik een chatkanaal verwijderen?
 
 Ja, maar zorg ervoor dat het chatkanaal niet wordt gebruikt op een website. Anders is het chatvenster zichtbaar, maar niet functioneel.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png
-[img4]: ../../../../../common/icons/mandatory.png

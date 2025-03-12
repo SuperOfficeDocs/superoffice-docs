@@ -2,9 +2,9 @@
 uid: help-nl-faq-add-to-request
 title: Items in Veelgestelde vragen toevoegen aan berichten
 description: Items in Veelgestelde vragen toevoegen aan berichten
+keywords: Veelgestelde vragen
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Veelgestelde vragen
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -26,7 +26,7 @@ Wanneer u een vraag van een klant beantwoordt, kunt u tijd besparen door in uw a
 1. Er wordt een **koppeling** ingevoegd op de positie van de cursor. De klant kan erop klikken om het relevante item in Veelgestelde vragen in het klantportaal weer te geven.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

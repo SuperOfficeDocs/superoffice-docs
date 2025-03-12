@@ -4,9 +4,10 @@ title: Documenten bewerken
 description: Documenten bewerken
 keywords: document
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -123,7 +124,7 @@ De dialoog is enigszins verschillend in Chrome, Edge, Firefox en Safari.
 
 Bij het bekijken van een specifiek document:
 
-1. Klik op de knop **Taak** in het **Document**-dialoogvenster.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in het **Document**-dialoogvenster.
 2. Kies **Verwijderen**.
 3. Bevestig of annuleer de verwijdering in het bevestigingsdialoogvenster.
 
@@ -135,7 +136,7 @@ Als u dubbelklikt op een document en er gebeurt niets, klikt u er met de rechter
 
 [!include[How to check document library](includes/webtools-or-sharepoint.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [De status Voltooid voor een activiteit wijzigen][4]
 

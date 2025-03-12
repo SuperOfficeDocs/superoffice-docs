@@ -28,7 +28,7 @@ Als de bijlage het enige onderdeel van een e-mail is dat u wilt bewaren voor toe
 
 5. Klik op **Opslaan**. De geselecteerde bijlage wordt gearchiveerd in SuperOffice CRM als een nieuw document. U kunt vervolgens dubbelklikken op het document in het sectietabblad **Activiteiten** om het te openen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Binnenkomende e-mail archiveren][3]
 * [Uitgaande e-mail archiveren][4]

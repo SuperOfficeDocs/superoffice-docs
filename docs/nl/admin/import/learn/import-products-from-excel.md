@@ -82,7 +82,7 @@ Aangezien de Excel-spreadsheet alles kan bevatten van slechts enkele tot een gro
 
 Wanneer het importeren is voltooid, wordt een lijst met de geïmporteerde gegevens getoond. Boven de lijst ziet u een koppeling naar de bijgewerkte prijslijst.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Importinstellingen configureren][3]
 * [Importeren vanuit ERP][6]
