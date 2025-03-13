@@ -12,29 +12,11 @@ language: en
 
 # Centralized deployment
 
-You can perform centralized deployment either through the Microsoft 365 Admin Center or PowerShell. The Centralized Deployment service lets you deploy **Office Web add-ins** to users of Excel, Outlook, PowerPoint, and Word.
+You can perform centralized deployment through the Microsoft 365 Admin Center.
 
 > [!TIP]
 > Install for a single user instead? [Go to the user guide][5].
 
-## Deploy via PowerShell
-
-After you create a remote Windows PowerShell session on your Exchange server, you can install an Outlook add-in using the **New-App** cmdlet with this PowerShell command:
-
-```powershell
-New-App -URL:"https://superofficeforoutlook.superoffice.com/manifest/manifest.xml">
-```
-
-> [!TIP]
-> Read how to [install an add-in by using remote powershell][1] in Microsoft docs.
-
-You can manage mailbox add-ins with the following PowerShell cmdlets:
-
-| cmdlet | Description |
-|---|---|
-| Get-App | Lists the enabled add-ins for a mailbox. |
-| Set-App | Enables or disables an add-in on a mailbox. |
-| Remove-App | Removes a previously installed add-in from an Exchange server. |
 
 ## Deploy via Microsoft 365 admin center
 
