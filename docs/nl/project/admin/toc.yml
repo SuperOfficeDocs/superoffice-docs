@@ -1,0 +1,11 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Projectstatus toevoegen
+  href: project-status.md
+- name: Projecttype toevoegen
+  href: project-type.md
+- name: Een nieuwe projectgids maken
+  href: create-project-guide.md
+- name: Projectgids bewerken of deactiveren
+  href: edit-project-guide.md

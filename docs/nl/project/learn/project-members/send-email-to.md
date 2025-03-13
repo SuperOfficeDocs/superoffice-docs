@@ -2,10 +2,13 @@
 uid: help-nl-project-member-email
 title: E-mail versturen naar projectleden
 description: E-mail verzenden naar belanghebbenden of projectleden
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: project, lid, belanghebbende, e-mail
+keywords: E-mail verzenden, e-mail projectlid, e-mail stakeholder, projectlid, stakeholder, project, lid, belanghebbende, e-mail
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
