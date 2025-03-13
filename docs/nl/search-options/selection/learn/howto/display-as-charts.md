@@ -1,7 +1,7 @@
 ---
 uid: help-nl-selection-display-as-charts
 title: Visualiseer selecties met grafieken
-description: "Nadat u een selectie hebt gemaakt, kunt u uw resultaten visueel presenteren voor een directer begrip van de gegevens. In deze gids staat hoe u in SuperOffice CRM selecties kunt visualiseren met behulp van grafieken."
+description: Nadat u een selectie hebt gemaakt, kunt u uw resultaten visueel presenteren voor een directer begrip van de gegevens. In deze gids staat hoe u in SuperOffice CRM selecties kunt visualiseren met behulp van grafieken.
 author: SuperOffice RnD
 date: 02.15.2023
 keywords: selectie, grafiek
@@ -33,7 +33,7 @@ In het tabblad **Grafieken** kunt u op een grafiektype klikken om de gegevens in
 
 * ![pictogram][img1]: Opent een voorbeeld van een grafiek. Hier kunt u ook de gegevensbron van de tabel zien voor de grafiek.
 
-* ![pictogram][img2]: Ververst de grafiek met bijgewerkte gegevens.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Ververst de grafiek met bijgewerkte gegevens.
 
 > [!NOTE]
 > Ga naar **Dashboard** in de navigator om de grafieken van ALLE gegevens in SuperOffice weer te geven.
@@ -42,7 +42,7 @@ In het tabblad **Grafieken** kunt u op een grafiektype klikken om de gegevens in
 
 Sommige grafieken geven misschien aan dat er geen gegevens beschikbaar zijn. Dit betekent dat uw selectie niet de informatie bevat die deze grafiek probeert te tonen. Wijzig de criteria van uw selectie of kies een ander grafiektype.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Werken met dashboardtegels][2]
 
@@ -52,5 +52,4 @@ Sommige grafieken geven misschien aan dat er geen gegevens beschikbaar zijn. Dit
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

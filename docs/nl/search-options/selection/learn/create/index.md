@@ -30,7 +30,7 @@ Statische en dynamische selecties worden op dezelfde manier gemaakt:
 Stap 1 is anders voor gecombineerde selecties omdat u begint met twee bestaande selecties in plaats van te zoeken naar gegevens.
 
 > [!TIP]
-> Klik op ![pictogram][img4] rechts van de kolomkoppen. U kunt hier records groeperen en filteren en kolommen toevoegen/verwijderen. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][4] voor extra functies.
+> Klik op <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen. U kunt hier records groeperen en filteren en kolommen toevoegen/verwijderen. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][4] voor extra functies.
 
 ## Wat wilt u doen?
 
@@ -46,6 +46,3 @@ Stap 1 is anders voor gecombineerde selecties omdat u begint met twee bestaande 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md
 [6]: ../update/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../../common/icons/cog-wheel.png

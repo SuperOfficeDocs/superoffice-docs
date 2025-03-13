@@ -54,7 +54,7 @@ U kunt een selectie maken met alle openstaande verzoeken die al meer dan een wee
 
 Met **SAINT** ingeschakeld (vereist Sales-Premium of Service-Premium) kun je [statussen][4] gebruiken als criteria voor het maken van dynamische selecties. Dit geeft je een overzicht van bedrijven, personen of projecten die voldoen aan specifieke statuscriteria. De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][3] op het scherm **Zoeken**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Dynamische selectie maken][2]
 

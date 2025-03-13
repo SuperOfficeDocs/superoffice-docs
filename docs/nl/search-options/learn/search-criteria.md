@@ -2,10 +2,13 @@
 uid: help-nl-search-criteria
 title: Zoekcriteria gebruiken
 description: Zoekcriteria gebruiken
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: zoeken, criteria
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -17,10 +20,12 @@ Overal waar u zoekcriteria kunt invoeren, vindt u een criterialijst met de gesel
 
 Frequente zoekacties zijn er om u te helpen aan de slag te gaan en uw eigen zoekopdracht voor CRM-gegevens te maken. Nadat u een frequente zoekactie hebt geselecteerd, kunt u de zoekcriteria toevoegen en bewerken. En nadat u een nuttige zoekopdracht hebt gemaakt die u opnieuw wilt gebruiken, kunt u deze opslaan als een selectie.
 
-Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wijzigt door nieuwe zoekcriteria toe te voegen of volg de stapsgewijze handleiding hieronder (duur van de video - 3:01):
+Bekijk deze video om te leren hoe u een frequente zoekactie uitvoert en deze wijzigt door nieuwe zoekcriteria toe te voegen of volg de stapsgewijze handleiding hieronder:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/gx-vXm-b_7g]
+
+(duur van de video - 3:01)
 
 ## Zoekcriteria toevoegen
 
@@ -65,7 +70,7 @@ Als het veld waarin u zoekt een datumveld is (bijvoorbeeld het veld **Datum** in
 
 [!include[Search criteria](includes/list-date-criteria.md)]
 
-Selecteer de gewenste optie. Afhankelijk van uw keuze wordt het veld automatisch gevuld met een datum of datumbereik. U kunt ook zelf een datum invoeren. U kunt ook een datum in de kalender selecteren die wordt weergegeven wanneer u op de pijlknop ![pictogram][img1] klikt.
+Selecteer de gewenste optie. Afhankelijk van uw keuze wordt het veld automatisch gevuld met een datum of datumbereik. U kunt ook zelf een datum invoeren. U kunt ook een datum in de kalender selecteren die wordt weergegeven wanneer u op <i class="ph ph-caret-down" aria-label="Chevron"></i> klikt.
 
 ### <a id="number"></a>Nummerveld
 
@@ -117,11 +122,11 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 
 | Taak | Stap |
 |---|---|
-| Zoekcriteria (een regel) verplaatsen | Klik en sleep met ![Symbol][img2]. |
+| Zoekcriteria (een regel) verplaatsen | Klik en sleep met <i class="ph ph-equals" aria-label="="></i>. |
 | Zoekcriteria wijzigen | Klikt u erop en selecteert u een ander criterium in de lijst die wordt weergegeven. |
 | Een of meer zoekcriteria deactiveren | Geen waarde op te geven voor het veld. |
 | Inaktivera alla sökkriterierna | Klik op **Alles deactiverena**. |
-| Zoekcriteria verwijderen | Klik op ![Symbol][img3]. |
+| Zoekcriteria verwijderen | Klik op <i class="ph ph-x-circle" aria-label="X"></i>. |
 | Standaardzoekcriteria opnieuw instellen | Klikt u op **Standaardwaarde opnieuw instellen**. |
 
 > [!NOTE]
@@ -129,7 +134,7 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 >
 > Een gedeactiveerd zoekcriterium blijft in de criterialijst staan en kan zo nodig opnieuw worden geactiveerd.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Het scherm Zoeken gebruiken][1]
 
@@ -137,8 +142,3 @@ Wanneer u het scherm **Zoeken** opent, bevat het de standaardzoekcriteria of de 
 [1]: find-screen.md
 [2]: in-navigator.md
 [3]: ../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/icons/criteria-move.png
-[img3]: ../../../../common/icons/delete-circle-red.png

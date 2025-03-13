@@ -2,9 +2,10 @@
 uid: help-nl-search-freetext
 title: Vrije-tekst zoekbewerking
 description: Vrije-tekst zoekbewerking
-author: SuperOffice RnD
-date: 05.25.2023
 keywords: vrije tekst, zoeken
+author: SuperOffice RnD
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 language: nl
 ---
@@ -44,14 +45,14 @@ U kunt met het tekstveld rechtsboven in SuperOffice CRM naar vrije tekst zoeken.
 U kunt zoeken naar tekst in het dialoogvenster **Document**, maar u kunt de werkelijke inhoud van documenten niet doorzoeken. Een zoekbewerking wordt altijd eerst uitgevoerd op tekst in het veld **Onze ref.** in het dialoogvenster **Document**.
 
 > [!NOTE]
-> U kunt afzonderlijke woorden opgeven die moeten worden genegeerd bij een vrije-tekstzoekbewerking. [!include[SM](../../learn/includes/are-defined-sm.md)]
+> U kunt afzonderlijke woorden opgeven die moeten worden genegeerd bij een vrije-tekstzoekbewerking. Deze zijn gedefinieerd in Instellingen en onderhoud.
 
 <!-- markdownlint-disable-next-line MD013 -->
 ## Waarom vind ik geen treffers voor een zoekwoord waarvan ik zeker weet dat het in de database voorkomt?
 
 Wanneer u voor een zoekwoord dat in de SuperOffice-database voorkomt, geen treffers vindt, moet u mogelijk de index voor vrije-tekstzoekbewerking in Instellingen en onderhoud opnieuw opbouwen.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Het scherm Zoeken gebruiken][2]
 * [Snel zoeken][3]

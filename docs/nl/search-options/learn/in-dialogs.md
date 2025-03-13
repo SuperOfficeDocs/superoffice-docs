@@ -2,10 +2,13 @@
 uid: help-nl-fastsearcher-dialog
 title: De functie Snel zoeken gebruiken in dialoogvensters
 description: De functie Snel zoeken gebruiken in dialoogvensters
-author: Bergfrid Dias
-date: 05.25.2023
 keywords: zoeken, Snel zoeken, dialoogvensters
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -27,7 +30,7 @@ Als u een percentageteken (%) typt voor de zoektekst, worden alle records weerge
 
 U kunt %% gebruiken om alle records van een bepaald type te bekijken, zoals alle bedrijven, alle selecties, alle projecten.
 
-Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in SuperOffice CRM, gaat u naar het menu **+Nieuw** en klikt u op **Document**. Schrijf %% in het bovenste veld in het dialoogvenster Document waar typen documentsjablonen staan. U krijgt dan een vervolgkeuzelijst met de volledige lijst met beschikbare documentsjablonen.
+Als u bijvoorbeeld alle documentsjablonen wilt zien die beschikbaar zijn in SuperOffice CRM, gaat u naar het menu **Nieuw** en klikt u op **Document**. Schrijf %% in het bovenste veld in het dialoogvenster Document waar typen documentsjablonen staan. U krijgt dan een vervolgkeuzelijst met de volledige lijst met beschikbare documentsjablonen.
 
 ![Typ twee percentagetekens in de Snel zoeken om alle records te bekijken -screenshot][img4]
 
