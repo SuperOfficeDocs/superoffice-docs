@@ -4,12 +4,12 @@ title: Handtekening bewerken
 description: E-mail-handtekening of Verzoekhandtekening bewerken
 keywords: e-mail, handtekening
 author: Bergfrid Dias
-date: 02.25.2025
+date: 03.14.2025
 version: 10.5.2
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 ---
 
 # Handtekeningen bewerken
@@ -25,27 +25,29 @@ De standaard sjablonen bevatten sjabloonvariabelen die worden vervangen door geg
 
 ## Stappen
 
-1. Klik op de knop **Persoonlijke instellingen** in de bovenste balk.
+1. Klik op de knop **Persoonlijke instellingen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) in de bovenste balk.
 
-2. Selecteer **Persoonlijke handtekening bewerken**.
+1. Selecteer **Persoonlijke handtekening bewerken**.
 
-3. Selecteer in het dialoogvenster het tabblad **Handtekening E-mail** of het tabblad **Handtekening Verzoek**.
+1. Selecteer in het dialoogvenster het tabblad **Handtekening E-mail** of het tabblad **Handtekening Verzoek**.
 
-4. Klik op ![icon][img2] om de werkbalk van de teksteditor te openen. Hier heeft u verschillende opties voor het bewerken van tekst en het toevoegen van extra inhoud.
+1. Teksten bewerken en extra inhoud toevoegen.
 
     ![Persoonlijke handtekening bewerken -screenshot][img1]
 
-    * Klik op ![icon][img3] in de werkbalk om variabelen toe te voegen, of ga naar de hierboven gelinkte referenties voor de volledige lijst van beschikbare variabelen.
+    * Klik op **[v]** in de werkbalk om variabelen toe te voegen, of ga naar de hierboven gelinkte referenties voor de volledige lijst van beschikbare variabelen.
 
     * Voeg afbeeldingen en links toe met behulp van de knoppen in de werkbalk. U kunt ook links en afbeeldingen slepen en neerzetten. Selecteer **Link invoegen** om links naar relevante bronnen of sociale media toe te voegen.
 
-5. Klik op **Opslaan** wanneer u klaar bent.
+1. Klik op **Opslaan** wanneer u klaar bent.
 
-6. Optioneel: Test de handtekening door een e-mail naar uzelf te sturen (voor e-mailhandtekeningen) of door een nieuw verzoek aan te maken (voor verzoekhandtekeningen). Controleer of alle informatie correct wordt weergegeven, de links werken en de afbeeldingen zoals bedoeld worden weergegeven.
+1. Optioneel: Test de handtekening door een e-mail naar uzelf te sturen (voor e-mailhandtekeningen) of door een nieuw verzoek aan te maken (voor verzoekhandtekeningen). Controleer of alle informatie correct wordt weergegeven, de links werken en de afbeeldingen zoals bedoeld worden weergegeven.
 
 ## Voorbeeld
 
 Dit is een voorbeeld van een handtekening die door iedereen in uw bedrijf kan worden gebruikt.
+
+**Sjabloon:**
 
 ```text
 Met vriendelijke groet,
@@ -57,7 +59,11 @@ Phone: {audp}
 Mobiel nummer: {aupc}
 {auem}
 {owww}
+```
 
+**Resultaat:**
+
+```text
 Met vriendelijke groet,
 John Jones
 Verkoopmanager
@@ -69,7 +75,7 @@ jj@supershop.com
 supershop.com
 ```
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Standaard-e-mailclient wijzigen in SuperOffice][1]
 
@@ -79,6 +85,4 @@ supershop.com
 [3]: ../../document/templates/variables/for-selected-contact.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/editor-toolbar-icon.png
-[img3]: ../../../media/icons/sign-editor-variables.png
 [img1]: ../../../media/loc/en/learn/getstarted-preferences-email-signature.png

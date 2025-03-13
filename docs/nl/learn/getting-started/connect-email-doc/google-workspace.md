@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 08.28.2023
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 ---
 
 # Google Workspace als jouw oplossing

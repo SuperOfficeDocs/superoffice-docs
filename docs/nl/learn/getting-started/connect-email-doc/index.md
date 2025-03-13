@@ -4,12 +4,12 @@ title: E-mail, document en agenda koppelen
 description: Leer welke integratie-opties je nodig hebt op basis van je besturingssysteem, e-mailclient en de documentprogramma's die je gebruikt in deze handleiding.
 keywords: e-mail, document, agenda, uitnodigingen
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 ---
 
 # E-mail, document en agenda koppelen
@@ -25,9 +25,9 @@ Door je e-mails, documenten en agenda aan SuperOffice te koppelen, kun je effici
 
 | | Applicatie | Beschrijving | Opties |
 |-|---|---|---|
-| ![icon][img4] | **E-mail** | Archiveer inkomende en uitgaande e-mails.| [WebTools][4] (alleen Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice voor Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Documenten** | Archiveer bestanden van communicatie met klanten en contacten. | SuperOffice documentbibliotheek ([WebTools][4] (Windows) / [WebTools voor Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Agenda** | Uitnodigingen verzenden en ontvangen. | [SuperOffice Inbox][6]<br/> [Synchronizer voor SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools voor Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **E-mail** | Archiveer inkomende en uitgaande e-mails.| [WebTools][4] (alleen Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice voor Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Documenten** | Archiveer bestanden van communicatie met klanten en contacten. | SuperOffice documentbibliotheek ([WebTools][4] (Windows) / [WebTools voor Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Agenda** | Uitnodigingen verzenden en ontvangen. | [SuperOffice Inbox][6]<br/> [Synchronizer voor SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools voor Mac][5]|
 
 ## Welke oplossing gebruikt jouw bedrijf?
 
@@ -75,6 +75,3 @@ De integraties die je nodig hebt, hangen af van je besturingssysteem, je e-mailc
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

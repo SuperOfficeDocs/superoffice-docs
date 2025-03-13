@@ -1,11 +1,11 @@
 ---
 uid: help-nl-ui-side-panel
 title: Het zijpaneel gebruiken om efficiënter te werken
-description: "Met het zijpaneel hebt u toegang tot informatie die is opgeslagen in andere delen van SuperOffice CRM, zonder het scherm te verlaten waarop u zich bevindt."
+description: Met het zijpaneel hebt u toegang tot informatie die is opgeslagen in andere delen van SuperOffice CRM, zonder het scherm te verlaten waarop u zich bevindt.
 keywords: zijpaneel
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,139 +14,128 @@ language: nl
 
 # Het zijpaneel
 
-Het zijpaneel is een multifunctioneel paneel dat zich het meest rechts op elk scherm in SuperOffice bevindt (behalve Postvak IN).
+Het **zijpaneel** is een multifunctioneel paneel dat zich aan de rechterkant van elk scherm in SuperOffice CRM bevindt (behalve in Postvak IN). Het biedt snelle toegang tot relevante informatie en vult het hoofdscherm aan.
 
-Gebruik het zijpaneel om informatie uit andere delen van uw CRM-oplossing weer te geven en te gebruiken. Bijvoorbeeld om u een weg te banen door lijsten met personen die u moet bellen, verkopen om bij te werken of verkoopvoorstellen om op te volgen. U kunt kiezen uit verschillende weergaven door op de ![pictogram][img3] pijl naast de naam van het zijpaneel te klikken.
+Gebruik het om taken te beheren, overzichten te bekijken of vervolgactiviteiten, verkopen of contactpersonen te volgen. De inhoud van het paneel past zich aan op basis van het scherm waarin u zich bevindt en onthoudt uw laatste weergave per scherm.
 
 ![Het zijpaneel bevindt zich aan de rechterkant van SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
-> U kunt het zijpaneel minimaliseren door op het ![pictogram][img4] pictogram voor minimaliseren in de rechterbovenhoek te klikken om meer ruimte te krijgen voor de hoofdkaarten en archieven.
+> Minimaliseer het zijpaneel voor meer werkruimte door op <i class="ph ph-sidebar-simple" aria-label="Zijbalkpictogram"></i> in de rechterbovenhoek te klikken.
 
-Het zijpaneel is nuttig voor de weergave van informatie ter aanvulling van het actieve scherm. Zo kunt u bijvoorbeeld in het scherm Agenda tegelijk met de dagkalender ook een maandkalender weergeven voor een beter overzicht, of de leden weergeven van een selectie die is gekoppeld aan een project dat u in het scherm Project aan het bekijken bent. U kunt ook aangepaste weergaven toevoegen aan het zijpaneel vanuit Instellingen en onderhoud.
+## De weergave van het zijpaneel wijzigen
 
-Standaard wordt in het zijpaneel een voorbeeld van de geselecteerde record weergegeven. Nadat u een weergave op een tabblad in een scherm hebt geselecteerd, wordt deze in SuperOffice CRM weergegeven wanneer datzelfde tabblad de volgende keer wordt weergegeven.
+Standaard toont het zijpaneel een voorbeeld van de geselecteerde record. U kunt schakelen tussen verschillende weergaven om de informatie weer te geven die het meest relevant is voor uw taak.
 
-## Bedrijf
+U kunt bijvoorbeeld de maandkalender weergeven terwijl u tegelijkertijd de dagkalender in het scherm Agenda bekijkt voor een beter overzicht. Of u kunt de leden van een selectie tonen die is gekoppeld aan een project dat u in het scherm Project bekijkt.
 
-Hiermee wordt een overzicht van de informatie over het huidige bedrijf in het scherm Bedrijf weergegeven.
+1. Klik op <i class="ph ph-caret-down" aria-label="Pijl omlaag pictogram"></i> naast de naam van het zijpaneel.
 
-> [!TIP]
-> Als u andere bedrijven wilt weergeven zonder dat u in het scherm Bedrijf van bedrijf hoeft te wisselen, klikt u op de pijl naast de bedrijfsnaam om de [historielijst][1] te openen
-
-## Persoon
-
-Hiermee wordt informatie weergegeven over de contactpersoon die is geselecteerd in het scherm **Bedrijf** of Selectie.
-
-> [!TIP]
-> Klik op de naam van de contactpersoon om de [persoonskaart][2] te openen waar u gedetailleerde informatie over de contactpersoon kunt bekijken en bewerken.
-
-### Waarom is het zijpaneel leeg?
-
-In een [dynamische selectie][7] kunt u ervoor kiezen om alleen bedrijven weer te geven, zonder een contactpersoon op te geven. Als **Hoofdcontactpersoon opnemen** niet is gekozen voor de dynamische selectie, wordt er geen informatie weergegeven in de weergave Persoon voor het zijpaneel, zelfs niet als u een persoon hebt geselecteerd.
-
-## Dag
-
-Toont de agenda van een dag. Werkt op dezelfde manier als het tabblad **Dag** in het [scherm Agenda][4].
+1. Selecteer de gewenste weergave uit de lijst.
 
 > [!NOTE]
-> U kunt alleen uw eigen agenda in het zijpaneel weergeven. Als u de agenda's van anderen wilt bekijken, gaat u naar het scherm [Agenda][4].
+> De beschikbare weergaven zijn afhankelijk van het actieve scherm.
 
-## Volgende dag
+## Standaardweergaven
 
-Er wordt een dagagenda voor de volgende dag weergegeven. Deze werkt hetzelfde als de weergave **Dag**.
+Hier zijn de meest gebruikte weergaven in het zijpaneel, afgestemd op het actieve scherm.
 
-## Week
+> [!TIP]
+> Wilt u snel andere records bekijken zonder van scherm te wisselen? Klik op de pijl (<i class="ph ph-caret-down" aria-hidden="true"></i>) naast de recordnaam in het zijpaneel om de [historielijst][1] te openen.
 
-Er wordt een weekagenda weergegeven, waarmee u overzicht hebt over de vervolgactiviteiten voor de huidige week.
+### Voorbeeld (standaard)
 
-## Maand
+Toont een snel overzicht van geselecteerde records, zoals contactpersonen of activiteiten, met koppelingen naar gerelateerde gegevens. Door op een koppeling te klikken, opent het bijbehorende dialoogvenster, zoals het [Vervolgactiviteitenscherm][6] of het [Documentenscherm][5].
 
-Er wordt een maandagenda weergegeven, waarmee u overzicht hebt over de vervolgactiviteiten voor de volgende maand(en). U kunt het zijpaneel uitbreiden om meerdere maanden weer te geven.
+### Agendaweergaven
 
-Als u de muisaanwijzer op deze dagen plaatst, wordt er knopinfo met een lijst relevante vervolgactiviteiten weergegeven.
+Blijf op de hoogte van uw planning met deze weergaven:
 
-| Pictogram | Beschrijving |
-|---|---|
-| ![pictogram][img7] | De 'balk' onder de datum geeft het activiteitenniveau van die dag weer, waardoor het makkelijker wordt om vergaderingen te plannen. |
-| ![pictogram][img8] | Vandaag. |
-| ![pictogram][img9] | De geselecteerde datum in de agenda. |
+* **Dag:** Agenda voor vandaag. Vergelijkbaar met het tabblad **Dag** in het [scherm Agenda][4].
+* **Volgende dag:** Agenda voor morgen.
+* **Week:** Weekoverzicht van vervolgactiviteiten.
+* **Maand:** Maandkalender met knopinfo voor activiteiten en een "balk" die de werklast per dag aangeeft. Breid het zijpaneel uit om meerdere maanden weer te geven.
 
-U kunt van maand tot maand gaan door op de ![pictogram][img1] ![pictogram][img2] pijlpictogrammen onder aan het zijpaneel te klikken.
+U kunt tussen datums, weken of maanden navigeren met de knoppen **Vorige** en **Volgende** (<i class="ph ph-caret-left" aria-hidden="true"></i><i class="ph ph-caret-right" aria-hidden="true"></i>) onderaan het zijpaneel.
 
-## Mijn favorieten
+Wanneer u zich in het **Agenda**-scherm bevindt, synchroniseert het navigeren in het zijpaneel automatisch met de hoofdagenda en vice versa.
 
-Geeft al uw [favorieten][8] weer.
+> [!NOTE]
+> Alleen uw eigen agenda kan in het zijpaneel worden weergegeven. Gebruik het **Agenda**-scherm om de agenda’s van anderen te bekijken.
 
-* Als u alleen favorieten wilt weergeven voor het huidige scherm, klikt u op het selectievakje aan de onderkant van het zijpaneel. Bijvoorbeeld: Als het scherm Verkoop open is, klikt u op **Alleen verkoop** om alleen verkopen weer te geven.
-* Als u favorieten wilt verwijderen, selecteert u één of meer favorieten in de lijst en klikt u op **Verwijderen**.
-* Klik op **Vernieuwen** om de lijst met favorieten bij te werken.
+### Bedrijf
+
+Toont een samenvatting van informatie over het huidige bedrijf in het **Bedrijf**-scherm.
+
+### Persoon
+
+Geeft details weer over de geselecteerde contactpersoon in het **Bedrijf**- of **Selectie**-scherm.
+
+Klik op de naam van de contactpersoon om hun [persoonskaart][2] te openen.
+
+### Mijn favorieten
+
+Lijst met al uw [favorieten][8].
+
+* Schakel het selectievakje in de voettekst in om te filteren op scherm (bijvoorbeeld **Alleen verkoop** in het Verkoop-scherm).
+* Verwijder items door ze te selecteren en op **Verwijderen** te klikken.
+* Klik op <i class="ph ph-arrow-clockwise" aria-label="Vernieuwen"></i> om de lijst bij te werken.
 * Klik met de rechtermuisknop op een favoriet om het contextmenu te openen.
 
-## Afdrukvoorbeeld
+### Project
 
-Er wordt een afdrukvoorbeeld van de geselecteerde activiteit, het geselecteerde project, de geselecteerde persoon, het geselecteerde projectlid of het geselecteerde selectielid in het zijpaneel weergegeven. Afhankelijk van het geselecteerde item kan het venster koppelingen naar contactpersonen en activiteiten bevatten. Als u op een van deze koppelingen klikt, wordt het [persoonskaart][2], het [dialoogvenster Document][5] of het [Dialoogvenster Vervolgactiviteiten][6] geopend, waar u de persoon of activiteit kunt weergeven en bewerken.
+Geeft een snel overzicht van het huidige project in het **Project**-scherm.
 
-[Wat moet ik doen als ik "Document gesloten" krijg in het zijpaneel van SuperOffice CRM wanneer Document Viewer wordt gebruikt?][11] - FAQ
+### Projectleden
 
-## Project
+Lijst met leden van het huidige project in het **Project**-scherm.
 
-Hiermee wordt een overzicht van de informatie over het huidige project in het scherm Project weergegeven.
+Dubbelklik op een naam om de [persoonskaart][2] te openen.
 
-> [!TIP]
-> Als u andere projecten wilt bekijken zonder dat u van project hoeft te wisselen in het projectscherm, klikt u op de pijl ![pictogram][img3] naast de productnaam om de [historielijst][1] te openen.
+### Verkoop
 
-## Projectleden
+Toont een samenvatting van de huidige verkoop in het **Verkoop**-scherm.
 
-Hiermee wordt een lijst met projectleden in het huidige project in het scherm Project weergegeven.
+### Selectie
 
-> [!TIP]
-> Als u dubbelklikt op de naam van een projectlid, wordt de [persoonskaart][2] geopend, waarop u gedetailleerde informatie over het projectlid kunt bekijken en bewerken.
+Geeft een overzicht van de huidige selectie in het **Selectie**-scherm.
 
-## Verkoop
+### Selectieleden
 
-Hiermee wordt een overzicht van de informatie over het huidige project in het scherm Verkoop weergegeven.
-
-> [!TIP]
-> Als u andere verkopen wilt bekijken zonder dat u van verkoop hoeft te wisselen in het verkoopscherm, klikt u op de pijl (![pictogram][img3]) naast de naam van de verkoop om de [historielijst][1] te openen.
-
-[Efficiënt gebruik van het zijpaneel efficiënt voor verkopen][10]
-
-## Selectie
-
-Hiermee wordt een overzicht van de informatie over de huidige selectie in het scherm Selectie weergegeven.
-
-> [!TIP]
-> Als u andere selecties wilt weergeven zonder dat u van selectie hoeft te wisselen in het scherm Selectie, klikt u op de pijl (![pictogram][img3]) naast de naam van de selectie om de [historielijst][1] te openen.
-
-## Selectieleden
-
-Hiermee wordt een lijst met leden van de huidige selectie in het scherm Selectie weergegeven.
-
-> [!TIP]
-> Als het scherm Agenda actief is en u een datum in de andere week in de agenda selecteert, verandert de weekweergave in de weergave van de week met de geselecteerde datum.
+Lijst met leden van de huidige selectie in het **Selectie**-scherm.
 
 ## Door gebruikers gedefinieerde weergaven
 
-In Instellingen en onderhoud kunt u ook uw eigen weergaven voor het zijpaneel definiëren.
+Beheerders kunnen aangepaste weergaven definiëren in **Instellingen en onderhoud**, zodat het zijpaneel beter aansluit op de behoeften van uw team.
+
+## Veelgestelde vragen en tips
+
+* **Veelgebruikte zijpanelen vastzetten:** Klik op het **ster**-pictogram om ze bovenaan de lijst te plaatsen.
+
+    ![Voorbeeld van het zijpaneel met vastgezette favorieten voor snelle toegang. -screenshot][img1]
+
+* **Waarom is het zijpaneel leeg?**
+
+  Als er geen contactpersoon is opgegeven (bijvoorbeeld in een dynamische selectie zonder **Hoofdcontactpersoon opnemen**), wordt er geen informatie weergegeven in het zijpaneel.
+
+* **Waarom zie ik "Document gesloten" in het zijpaneel?**
+
+  Dit is een normale werking om systeembronnen te optimaliseren bij gebruik van de InfoBridge Document Viewer. Om het document opnieuw te bekijken, ga terug naar het tabblad Document en selecteer het opnieuw. Lees meer in [dit supportartikel][11].
+
+* **Hoe kan ik het zijpaneel efficiënt gebruiken voor verkoop?**
+
+  Gebruik het zijpaneel om kansen te volgen, openstaande activiteiten te bewaken en verkoopvoorstellen snel op te volgen zonder het hoofdscherm te verlaten. Bekijk de gedetailleerde stappen in [Het zijpaneel gebruiken voor verkoop][10].
 
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[4]: ../../../diary/learn/screen/index.md
+[4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
+[10]: ../../../sale/learn/index.md#side-panel
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[10]: ../../../sale/learn/use-side-panel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-left.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../../common/icons/right-collapse.png
-[img7]: ../../../../media/icons/mini-card-level.png
-[img8]: ../../../../media/icons/mini-card-today.png
-[img9]: ../../../../media/icons/mini-card-selected.png
+[img1]: ../../../../media/loc/en/learn/pin-side-panel-favs.png
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

@@ -1,77 +1,67 @@
 ---
-title: Handleidingen voor SuperOffice CRM
 uid: help-nl-start
+title: Handleidingen voor SuperOffice CRM
 description: Startpagina voor SuperOffice CRM-handleidingen
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: gebruikershandleiding, help
+date: 03.14.2025
+version: 10.5.2
+keywords: gebruikershandleiding, help, SuperOffice CRM, kernfuncties
 topic: concept
-version: 10
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
-envir:
-client:
 ---
 
 # Handleidingen voor SuperOffice CRM
 
-SuperOffice CRM is uw enige platform voor bedrijfsgroei. Met alle standaardtoepassingen verbonden met hetzelfde klantenbestand, combineert SuperOffice CRM al uw klantgerichte processen -–verkoop, marketing en klantenservice – in één technologiestack.
+SuperOffice CRM helpt u bij het organiseren en beheren van klantgerichte processen, waaronder verkoop, marketing en service. Deze handleiding introduceert de kernfuncties en biedt stapsgewijze instructies om u snel op weg te helpen.
 
-Organiseer al uw marketing-, verkoop- en klantenserviceactiviteiten op één plek. omdat alle klantgerelateerde informatie wordt opgeslagen in de SuperOffice CRM-oplossing, krijgt elke gebruiker in uw bedrijf altijd een 360-gradenoverzicht van elke prospect of klant. Dit zal u helpen om meer relevante, gepersonaliseerde en tijdige communicatie en service aan te bieden.
+## Wat is SuperOffice CRM?
 
-Bekijk deze video voor een snel overzicht van wat SuperOffice CRM voor uw bedrijf kan betekenen (videolengte - 2:15):
+SuperOffice CRM centraliseert klantgegevens, zodat iedereen in uw organisatie een 360-gradenoverzicht heeft van elke klant en prospect. Deze gedeelde kennis helpt bij het leveren van relevantere, gepersonaliseerde en tijdige communicatie.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
+Bekijk de [introductievideo](https://www.youtube.com/embed/10VQCTgxODc) voor een overzicht van hoe SuperOffice CRM uw bedrijf kan ondersteunen.
+
 > [!Video https://www.youtube.com/embed/10VQCTgxODc]
 
-## SuperOffice CRM - Kernsysteem
+(videolengte - 2:15)
 
-Of u nu een marketeer, een verkoper of een ondersteuningsmedewerker bent – SuperOffice CRM is gebouwd voor iedereen. Onze set kernfuncties helpt alle teams hun contactgegevens te organiseren, alle gegevens op één plek te bewaren, taken, documenten en e-mails te beheren en klanten op te volgen!
+## Kernfuncties
 
-Een systeem voor het beheren en opvolgen van alle personen, verkopen en projecten. De kern van het systeem zijn de bedrijfskaart en de persoonskaart. Alle informatie en communicatie over een bedrijf en persoon worden opgeslagen op deze kaarten.
+### Persoon- en bedrijfsbeheer
 
-## SuperOffice Sales
+Organiseer en beheer alle klantcommunicatie op één centrale plek. De bedrijfs- en persoonskaarten slaan essentiële gegevens op, zodat uw team altijd over de benodigde informatie beschikt.
 
-Verkoop is een spel van doorzettingsvermogen, planning en tijd. Gebouwd op 30+ jaar ervaring in het optimaliseren van verkoopprocessen, is SuperOffice CRM ontworpen om u te helpen meer te doen met uw meest waardevolle bezit: tijd. SuperOffice Sales biedt u de juiste tools om u te concentreren op het beheren van uw pijplijn, het verbeteren van prognoses, slimmer werken, het ontwikkelen van winstgevende klantrelaties en simpelweg het sluiten van meer deals.
+### Verkoopbeheer
 
-## SuperOffice Marketing
+SuperOffice CRM biedt tools om uw pijplijn te beheren, prognoses te verbeteren en sterkere klantrelaties op te bouwen. Sluit deals efficiënter af en bespaar tijd.
 
-Wij geloven dat elke betrokkenheid bij een klant een kans biedt – als je het goed aanpakt. SuperOffice Marketing is ontworpen om uw marketingteams te helpen de juiste boodschap op het juiste moment naar de juiste klanten te sturen. We geven u de hulpmiddelen om communicatie te automatiseren en te personaliseren, uw doelgroep beter te bereiken en zinvolle gesprekken te initiëren die leiden tot inkomsten.
+### Marketingcampagnes
 
-SuperOffice Marketing is gericht op uitgaande communicatie en formulieren. U kunt bulkmailings per e-mail of sms verzenden naar alle of delen van uw klantenbestand, bijvoorbeeld om klanten te informeren over upgrades of productnieuws. Gebruik formulieren voor de registratie van producten/nieuwsbrieven, toestemmingsbeheer en bijwerking van gegevens.
+Creëer gepersonaliseerde campagnes om uw klanten te betrekken. Met SuperOffice Marketing kunt u e-mails en sms'jes verzenden, formulieren beheren en workflows automatiseren.
 
-## SuperOffice Verzoeken
+### Klantenservice
 
-Een systeem voor de behandeling van klantenverzoeken/tickets. Alle communicatie met betrekking tot een specifiek verzoek dat op één locatie is opgeslagen, ongeacht of dit per e-mail, webformulier, telefoon of een ander kanaal is.
+Behandel klantvragen efficiënt. SuperOffice Service houdt alle communicatie over een verzoek op één plek, ongeacht het kanaal, zodat geen enkele vraag onbeantwoord blijft.
 
-## Instellingen en onderhoud
+### Beheer (Instellingen en onderhoud)
 
-Instellingen en onderhoud is de beheershub voor SuperOffice CRM. Door slechts eenmaal te klikken op de navigatorknoppen in Instellingen en onderhoud, start u de bijbehorende functies. Zo kunt u snel navigeren tussen de verschillende onderdelen van het systeem.
+Pas SuperOffice CRM aan uw bedrijfsprocessen aan, stel gebruikersrollen in en krijg toegang tot integraties via de App Store.
 
-## SuperOffice CRM aanpassen aan de manier waarop u werkt
+## SuperOffice CRM aanpassen aan uw manier van werken
 
-U kunt SuperOffice direct uit de doos gebruiken. U hoeft geen wijzigingen aan te brengen of aan te passen om het te gebruiken.
+SuperOffice CRM werkt direct uit de doos. U kunt het meteen gebruiken zonder wijzigingen aan te brengen.
 
-Wanneer u echter uw eigen routines hebt ontwikkeld, uw unieke manier van werken, begrijpen we dat u deze processen mogelijk wilt implementeren in uw CRM-oplossing.
+Door SuperOffice CRM echter aan te passen aan de werkwijze van uw team, kunnen gebruikers zich sneller aanpassen en productiever werken.
 
-Door SuperOffice CRM aan te passen aan de manier waarop uw team werkt, kunnen ze sneller vertrouwd raken met uw CRM-oplossing en deze implementeren. Wanneer het systeem uw gebruikers ondersteunt in hun dagelijkse werk, zullen ze het eerder omarmen.
+### Voorbeelden van aanpassingen
 
-### De voordelen van het aanpassen van uw oplossing
+* Voeg aangepaste velden en tags toe om gegevens te categoriseren op basis van uw bedrijfsbehoeften.
+* Maak e-mailsjablonen, antwoordsjablonen en formulieren om tijd te besparen en consistentie te waarborgen.
+* Configureer toegangsrechten om de zichtbaarheid van klantinformatie te regelen.
+* Maak aangepaste lay-outs met de [Schermontwerper][1].
 
-* **Verhoogd gebruik:** Studies tonen aan dat hoe intuïtiever de keuzes in een CRM-systeem zijn, hoe gemakkelijker het voor gebruikers is om het te adopteren.
-
-* **Verhoogde effectiviteit:** Wanneer uw CRM-systeem de manier weerspiegelt waarop uw gebruikers werken, helpt het systeem elke gebruiker efficiënter te werken.
-
-* **Betere targeting:** Door uw CRM-software aan te passen, kunt u uw gegevens segmenteren op uw eigen waarden en velden.
-
-* **Nauwkeurige prognoses:** Als de vervolgactiviteiten en andere acties in uw CRM-systeem uw verkoopproces weerspiegelen, kunt u nauwkeurigere verkoopprognoses maken.
-
-## Bent u klaar om meer te ontdekken?
-
-Klaar om de kracht van SuperOffice CRM te ontdekken en meer te leren? Begin vanaf het allereerste begin en laat ons u meenemen op een spannende CRM-reis met handleidingen, of spring gewoon direct naar een specifiek onderwerp in het menu.
-
-> [!NOTE]
-> Heeft u een andere CRM-versie dan wat er in deze handleiding staat? Selecteer in uw CRM-systeem **F1** om helponderwerpen te krijgen op basis van uw SuperOffice-versie en uw taal.
+Door SuperOffice CRM op maat te maken, werkt het systeem op de manier die het beste bij uw organisatie past en helpt het uw team georganiseerd en efficiënt te blijven.
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
+[1]: ../ui/screen-designer/learn/index.md
