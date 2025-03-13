@@ -4,8 +4,8 @@ title: Het afdrukken van records in SuperOffice CRM
 description: This guide provides an overview of how to print records such as companies, contacts, sales, projects, and follow-ups, making it convenient to have hard copies for meetings, documentation, or further analysis.
 keywords: afdrukken
 author: Bergfrid Dias
-date: 11.29.2024
-version: 10.3
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -22,7 +22,7 @@ De algemene stappen voor het afdrukken van een record in SuperOffice CRM zijn gr
 
 1. Navigeer naar het gewenste record: Ga naar het scherm Bedrijf, Persoon, Verkoop, Project of Verzoek om het item te vinden dat u wilt afdrukken.
 
-1. Klik in de relevante kaart, tab of dialoogvenster op de knop **Taak**, selecteer **Afdrukken**, en bevestig vervolgens in het printvoorbeeldvenster.
+1. Klik in de relevante kaart, tab of dialoogvenster op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), selecteer **Afdrukken**, en bevestig vervolgens in het printvoorbeeldvenster.
 
 ## Specifieke scenario's
 
@@ -30,7 +30,7 @@ De algemene stappen voor het afdrukken van een record in SuperOffice CRM zijn gr
 
 1. Ga naar het betreffende bedrijf.
 
-1. Selecteer het sectietabblad **Contactpersonen**.
+1. Selecteer het sectietabblad **Personen**.
 
 1. Klik met de rechtermuisknop op het gewenste persoon en selecteer **Afdrukken**.
 
@@ -38,7 +38,7 @@ De algemene stappen voor het afdrukken van een record in SuperOffice CRM zijn gr
 
 1. Open de vereiste vervolgactiviteit-up op de sectietabblad **Activiteiten** in de schermen Bedrijf, Persoon, Agenda, Verkoop of Project.
 
-1. Klik op **Taak** en selecteer **Afdrukken**.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Afdrukken**.
 
 ### Vervolgactiviteit afdrukken vanuit Agenda
 

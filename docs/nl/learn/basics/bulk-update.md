@@ -1,11 +1,14 @@
 ---
 uid: help-nl-bulk-update
 title: Bulksgewijs bijwerken
-description: Bulksgewijs bijwerken
+description: Gegevens in bulk bijwerken in SuperOffice CRM.
+keywords: bulk, bulk update, gegevens bijwerken
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: bulkgewijs bijwerken
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -13,11 +16,13 @@ language: nl
 
 Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen van hetzelfde type. U kunt alle of geselecteerde records bulksgewijs bijwerken in sectietabbladen (archieven), selecties en het scherm **Zoeken**. Deze taak kan ook worden gebruikt om meerdere records te verwijderen.
 
-1. Open de selectie, het sectietabblad (archiveren) of de zoekresultaten (scherm **Zoeken**) met de records die u wilt bijwerken.
+## Stappen
 
-2. Selecties: Klik op de knop **Taak** en selecteer **Bulkgewijs bijwerken**.
-    of
-    Selecteer de records die u wilt bijwerken, klik er met de rechtermuisknop op en selecteer **Bulkgewijs bijwerken...**.
+1. Open de selectie, het sectietabblad (archief) of de zoekresultaten (scherm **Zoeken**) met de records die u wilt bijwerken.
+
+2. Klik op de **Taak**-knop (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Bulk update**.
+    Of, selecteer de records die u wilt bijwerken, klik met de rechtermuisknop en kies **Bulk update...**.
+
     Het dialoogvenster **Bulkgewijs bijwerken** wordt geopend. Onder aan dit dialoogvenster kunt u het type record zien en hoeveel records er moeten worden bijgewerkt. Bijvoorbeeld: Aantal personen in wachtrij voor bulkgewijs bijwerken: 7.
 
     > [!NOTE]
@@ -38,17 +43,14 @@ Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen va
 
 5. Klik op **Toevoegen** en herhaal stappen 3 en 4 om meer velden toe te voegen die moeten worden bijgewerkt.
 
-6. Zorg ervoor dat u (![pictogram][img1]) de velden selecteert die u wilt bijwerken en hef de selecties op ![pictogram][img2] voor de velden die u NIET wilt bijwerken.
+6. Zorg ervoor dat de velden die u wilt bijwerken zijn geselecteerd (<i class="ph ph-check" aria-hidden="true"></i>) en dat niet-bijgewerkte velden zijn uitgeschakeld.
 
 7. Klik op **Bijwerken**. Het dialoogvenster **Bevestigen** wordt geopend en geeft een overzicht van de updates weer.
 
-    > [!NOTE]
-    > Nadat een update is toegepast, kan deze niet meer ongedaan worden gemaakt.
-
 8. Klik op **Ja** om de wijzigingen in de geselecteerde records te implementeren.
 
-    > [!NOTE]
-    > Het is mogelijk het bijwerken te stoppen nadat u het bijwerken hebt gestart. Entiteiten die nog niet zijn bijgewerkt, zullen niet worden bijgewerkt.
+    > [!CAUTION]
+    > Eenmaal toegepast, kunnen bulkupdates niet ongedaan worden gemaakt. U kunt het bijwerken echter onderbreken terwijl het bezig is. Alle records die nog niet zijn bijgewerkt, blijven dan ongewijzigd.
 
 9. Klik op **Logboek** om het wijzigingenlogboek weer te geven. Als bepaalde records niet zijn bijgewerkt, wordt de reden weergegeven in de kolom **Redenen waarom**.
 
@@ -89,9 +91,3 @@ U ontdekt dat het contactveld **Positie** zelden wordt gebruikt. Omdat u in elk 
 ## Project bijwerken
 
 U wilt alle "oude" projecten opschonen die niet zijn ingesteld als voltooid. Maak een selectie van al uw oude projecten, bijvoorbeeld van alle projecten die meer dan 2 jaar geleden zijn gemaakt en die de laatste jaren niet zijn bijgewerkt. Gebruik **Bulkgewijs bijwerken** om de status **Voltooid** voor deze projecten in stellen als **Ja**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

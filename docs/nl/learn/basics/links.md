@@ -4,8 +4,8 @@ title: Koppelingen
 description: Koppelingen
 keywords: Koppeling toevoegen, tabblad Koppelingen, Koppeling
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Een punt verschijnt naast het tabblad **Koppelingen** wanneer het een of meer ko
 
 2. Selecteer het tabblad **Koppelingen**.
 
-3. Klik op **Bewerken** en vervolgens op **Toevoegen**.
+3. Klik op **Bewerken** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) en vervolgens op **Toevoegen**.
 
 4. In de dialoogvenster **Koppeling toevoegen**:
 
@@ -50,7 +50,7 @@ Een punt verschijnt naast het tabblad **Koppelingen** wanneer het een of meer ko
 ## Een koppeling verwijderen
 
 1. Ga naar het tabblad **Koppelingen**.
-2. Klik op **Bewerken**.
+2. Klik op <i class="ph ph-pencil-simple" aria-label="Rediger"></i>.
 3. Klik op de **Verwijderknop** (rood kruisje) naast de koppeling die u wilt verwijderen.
 4. Klik op **Opslaan**.
 
