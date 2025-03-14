@@ -4,7 +4,7 @@ title: Edit or delete reply templates
 description: Edit or delete reply templates
 keywords: request, reply, template
 author: Bergfrid Dias
-date: 03.16.2023
+date: 02.11.2025
 version: 10.5
 topic: howto
 license: serviceessentials

@@ -17,6 +17,8 @@ language: en
 
 As a request handler, you are not always able to answer the request on your own. You may sometimes need to ask for help from a colleague.
 
+## Steps
+
 1. [Open the request][1].
 
 1. Select the person you want help from in the **Owner** list box from the **Request properties** sidebar. This means that you are transferring responsibility for the request to that person.

@@ -4,8 +4,8 @@ title: Register a sale
 description: Register sales in SuperOffice Sales to have all your opportunities and customer information in one place. This how-to guide will show you how to register sales.
 keywords: create sale, new sale, add sale, register sale, sale
 author: Bergfrid Dias
-date: 01.06.2025
-version: 10.5
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 license: salesessentials
 audience: person
@@ -15,10 +15,12 @@ language: en
 
 # Register a sale
 
-You can create a sale in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to create a sale (video length - 2:10):
+You can create a sale in SuperOffice CRM using the **New** button on the top bar. Watch this video or follow the steps below to create a sale:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/7Am9pqMyHSA]
+
+(video length - 2:10)
 
 ## Steps
 
@@ -58,7 +60,7 @@ The following fields are available in the Sale card. Some fields are filled auto
 > [!NOTE]
 > Fields and layout may vary based on **Screen designer** configurations and other UI customizations.
 
-<!-- markdownlint-disable MD051 -->
+<!-- markdownlint-disable-file MD051 -->
 ### [Sale tab](#tab/sale)
 
 * **Title:** A mandatory field for identifying the sale.
@@ -83,7 +85,7 @@ The **Details** tab focuses on financial details of the sale.
 
 * **Number:** Auto-generated sale ID.
 * **Source:** Displays the sale's source.
-* **Competitor:** Select a predefined competitor linked to the sale.
+* **Competitor:** Select a predefined competitor linked to the sale (only one).
 * **Total cost:** Cost associated with the sale. Updates profit automatically.
 * **Profit:** Profit calculated based on the sale amount and cost.
 * **Credited:** Assigns the sale to a department responsible for it.
@@ -96,7 +98,6 @@ Values for *Competitor* and *Credited* are defined in Settings and maintenance.
 * **Note tab**: Add free-text notes for tracking additional information.
 
 ***
-<!-- markdownlint-enable MD051 -->
 
 ## Related content
 

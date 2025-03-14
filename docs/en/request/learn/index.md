@@ -64,7 +64,6 @@ A contact service system is all about providing your contacts the answers they a
 Different companies have different routines for request handling and can use SuperOffice Service in different ways. Below we have set up two real-life scenarios showing some of the available options. These scenarios will show you how you can reply efficiently when a contact has submitted a request by email and when a contact calls in with a problem or a question.
 
 ![Dashboard for Requests with lists of own open requests and a queue for unassigned requests. Here you can pick a request to handle -screenshot][img3]
-*Dashboard for Requests with lists of own open requests and a queue for unassigned requests. Here you can pick a request to handle.*
 
 ### Scenario 1: The contact submits the request by email
 

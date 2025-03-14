@@ -5,7 +5,7 @@ description: Add sale type
 keywords: add sale type, Sale - Type Stages Quote list, Sale - Category list, Quote attachments tab, Quote defaults, Quote approval, sale type, sale, quote
 author: Bergfrid Dias
 date: 01.03.2025
-version: 10.5
+version: 10.5.2
 topic: howto
 license: salesessentials
 audience: settings

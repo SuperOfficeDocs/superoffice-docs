@@ -26,7 +26,7 @@ language: en
 
 1. Click **Save** to store your changes, or click **Cancel** to discard them. Both actions will exit edit mode.
 
-   If the **Save** button appears dimmed, ensure all mandatory fields are filled in. Required fields must be completed before saving.
+    If the **Save** button appears dimmed, ensure all mandatory fields are filled in. Required fields must be completed before saving.
 
 ![The Contact screen in edit mode, showing contact details. -screenshot][img1]
 

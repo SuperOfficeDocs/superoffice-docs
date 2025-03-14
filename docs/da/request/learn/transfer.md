@@ -50,4 +50,4 @@ Det er ikke altid, at du som sagsbehandler kan løse en sag alene. Nogle gange k
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/reassign-a-request.png
+[img1]: ../../../media/loc/en/request/reassign-a-request.png

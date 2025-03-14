@@ -5,7 +5,7 @@ description: Introduction to sales guides in SuperOffice.
 keywords: sales guide, guide, workflow, Sales guide section tab, sale
 author: Bergfrid Dias
 date: 01.07.2025
-version: 10.5
+version: 10.5.2
 topic: howto
 license: salespremium
 audience: person
@@ -42,10 +42,12 @@ Sales guides are set up in Settings and maintenance and can be tailored to fit y
 
 ## How a sales guide works
 
-Watch this video to learn how easy it is to use the Sales guide (video length - 1:24):
+Watch this video to learn how easy it is to use the Sales guide:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IyETjAtn3po]
+
+(video length - 1:24)
 
 ### Steps
 

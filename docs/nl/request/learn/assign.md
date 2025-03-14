@@ -102,9 +102,9 @@ Stel dat uw bedrijf een categorie heeft gemaakt voor elke afdeling binnen het be
 [5]: transfer.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/assign-requests.png
-[img2]: ../../../../media/loc/en/request/assign-requests-even.png
-[img3]: ../../../../media/loc/en/request/assign-requests-weighted-diagram.png
-[img4]: ../../../../media/loc/en/request/assign-requests-weighted.png
-[img5]: ../../../../media/loc/en/request/assign-requests-fewest.png
-[img6]: ../../../../media/loc/en/request/assign-requests-not.png
+[img1]: ../../../media/loc/en/request/assign-requests.png
+[img2]: ../../../media/loc/en/request/assign-requests-even.png
+[img3]: ../../../media/loc/en/request/assign-requests-weighted-diagram.png
+[img4]: ../../../media/loc/en/request/assign-requests-weighted.png
+[img5]: ../../../media/loc/en/request/assign-requests-fewest.png
+[img6]: ../../../media/loc/en/request/assign-requests-not.png

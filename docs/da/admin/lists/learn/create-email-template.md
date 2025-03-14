@@ -35,7 +35,7 @@ Du kan oprette dine egne skabeloner til oprettelse af e-mails i SuperOffice CRM.
 
 10. I feltet **Filnavn** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælger den *.somail*-fil, som du lige har oprettet.
 
-11. I feltet **Retning** klikker du på  og vælger **Udgående** på rullelisten.
+11. I feltet **Retning** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælger **Udgående** på rullelisten.
 
 12. I feltet **Posttype** klikker du på <i class="ph ph-caret-down" aria-label="Chevron"></i> og vælger **E-mail**.
 

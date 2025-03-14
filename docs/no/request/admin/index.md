@@ -1,5 +1,5 @@
 ---
-uid: help-en-service-settings
+uid: help-no-service-settings
 title: System settings
 description: System settings
 keywords: Service

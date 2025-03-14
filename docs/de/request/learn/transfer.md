@@ -50,4 +50,4 @@ Als Bearbeiter können Sie die Anfrage nicht immer alleine beantworten. Es kann 
 [4]: forward.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/request/reassign-a-request.png
+[img1]: ../../../media/loc/en/request/reassign-a-request.png

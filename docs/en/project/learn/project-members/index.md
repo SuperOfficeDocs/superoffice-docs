@@ -4,8 +4,8 @@ title: Project members
 description: Project members
 keywords: Project members section tab, project member, project
 author: SuperOffice RnD
-date: 01.06.2025
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM

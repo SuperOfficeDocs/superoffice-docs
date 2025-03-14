@@ -15,7 +15,7 @@ language: sv
 
 # Skapa en ny säljguide
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 I **Inställningar och underhåll** definierar du vilka försäljningstyper som ska ha en säljguide och vilka faser och aktiviteter som ska ingå. En säljguide kan därför se olika ut beroende på konfigurationen.
 

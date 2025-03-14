@@ -2,8 +2,8 @@
 uid: help-en-request-category
 title: Request categories
 description: Request categories
-author: Hanne Gunnarsson
 keywords: request category, Categories tab, request, category
+author: Bergfrid Dias
 date: 01.15.2025
 version: 10.5
 topic: concept
@@ -31,7 +31,7 @@ Users can be added as members in the categories individually or via the user gro
 
 ## Where can I find the request categories?
 
-* **In Settings and maintenance**, select **Requests** in the navigator and then the **Categories** tab.
+* In **Settings and maintenance**, select **Requests** in the navigator and then the **Categories** tab.
 
 The categories are arranged in a tree structure.
 

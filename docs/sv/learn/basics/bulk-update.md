@@ -1,7 +1,7 @@
 ---
 uid: help-sv-bulk-update
 title: Massredigering
-description: Massredigering2
+description: Massredigering
 keywords: massredigering
 author: Bergfrid Skaara Dias
 date: 02.25.2025

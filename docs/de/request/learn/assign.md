@@ -71,13 +71,13 @@ Weist keine Anfragen an bestimmte Mitglieder zu. Alle Anfragen werden standardm�
 
 ![Request assignment methods, do not assign -screenshot][img6]
 
-[!include[Get next request in queue](includes/howto-get-next-request.md)]
+**Nächste Anfrage in der Warteschlange abrufen**: Wenn das Warteschlangensystem für Ihr Unternehmen eingerichtet ist, können Sie diese Option anklicken, um die nächste nicht zugewiesene Anfrage in der Warteschlange für die Kategorie abzurufen, zu der Sie gehören.
 
 ## Zuordnungsmethode für Kategorie festlegen
 
 Ein Bearbeiter, der über Rechte für die Verwaltung von Kategorien verfügt, kann die Zuordnungsmethode für die Kategorien festlegen:
 
-1. [!include[Go to](../../../learn/includes/goto-sm.md)]
+1. [!include[Go to](../../learn/includes/goto-sm.md)]
 1. Wählen Sie **Anfragen** > **Kategorien** aus.
 1. Wählen Sie die gewünschte Kategorie aus.
 1. Wählen Sie die Registerkarte **Zuordnungsmethode**.

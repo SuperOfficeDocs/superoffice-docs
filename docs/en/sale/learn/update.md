@@ -88,7 +88,7 @@ If the sale has the status **Sold** or **Lost**, you can check the **Completed**
 
 1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in the upper-right corner of the Sale card and select **Delete**.
 
-1. In the **Delete sale** dialog, review the sale details to ensure you are deleting the correct sale. This cannot be undone.
+1. In the **Delete sale** dialog, review the sale details to ensure you are deleting the correct sale. **This cannot be undone.**
 
     > [!NOTE]
     > If the **Delete** option is unavailable, you may lack sufficient permissions to delete the sale. You cannot delete sales that do not belong to you unless you have the necessary permissions.

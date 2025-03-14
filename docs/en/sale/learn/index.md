@@ -21,10 +21,12 @@ The **Sale** feature in SuperOffice CRM helps you manage sales opportunities eff
 
 You can link sales to companies, contacts, and projects, enabling seamless collaboration across teams. Sales can also be guided using sales guides, assuming the selected sale type has a guide defined.
 
-Watch this video and see how easy pursuing sales opportunities can be with SuperOffice CRM (video length - 2:16):
+Watch this video and see how easy pursuing sales opportunities can be with SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/VTgBzMk_qvk]
+
+(video length - 2:16)
 
 The Sale screen organizes sales like index cards, providing a detailed overview of each opportunity. Navigate between sales using the **Previous** and **Next** buttons (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) at the lower right of the cards. By default all sales are displayed. If you do not want to show completed sales (sold or lost), click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Skip completed sales**.
 
@@ -74,7 +76,7 @@ In the **Stage** field on the **Sale** tab, you can:
 
 Keep your sales organized so that you are always focused on the sales that matter the most to you.
 
-After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** tab and in your Diary. You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are sales amount, sales date and sale stage.
+After you have registered all your sales in SuperOffice CRM, they will appear in your personal sales overview in the **Sales** section tab and in your Diary. You can organize your sales list by [filtering, grouping and adding the columns][3] that are most important for you. The most used columns are sales amount, sales date and sale stage.
 
 The **Sales** tab also acts like a sales secretary by highlighting all your upcoming planned activities in the **Next Activity** field, as well as drawing your attention to those that you may have forgotten in red font.
 
@@ -116,8 +118,8 @@ For more details on setting up your sales opportunities, see the [guide to sales
 [2]: update.md#stalled
 [5]: stakeholders/create.md
 [15]: stakeholders/index.md
-[6]: sales-guide/working-with-sales-guide.md
-[16]: sales-guide/index.md
+[6]: tutorial.md
+[16]: sales-guides.md
 [7]: sales-targets/index.md
 [21]: forecasting.md
 [10]: ../../learn/basics/fav.md

@@ -4,8 +4,8 @@ title: Project status
 description: Find out how to add a new project status in SuperOffice CRM. Create and manage predefined statuses to track project phases and streamline workflows efficiently.
 keywords: add project status, project status, project
 author: Bergfrid Dias
-date: 01.03.2025
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 license: salespremium, servicepremium, marketingessentials
 audience: settings
@@ -42,8 +42,8 @@ Statuses can be linked to [project types][1], specifying which statuses are avai
 1. Follow steps 1–2 in **Add a Status** to access the **Project - Status** list.
 
 1. To edit:
-   1. Double-click the required status to open the **Edit list item** dialog.
-   1. Update the fields as needed and click **Save**.
+    1. Double-click the required status to open the **Edit list item** dialog.
+    1. Update the fields as needed and click **Save**.
 
 1. To delete:
    1. Select the status in the list and click **Delete**.

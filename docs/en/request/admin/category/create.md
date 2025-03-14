@@ -59,7 +59,7 @@ language: en
         * **Even**: Assigns requests evenly among the members of the category.
         * **Weighted**: Assigns requests based on the weightings specified for members of the category.
 
-           Example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
+            Example: If contact A has a weighting of 1, contact B a weighting of 2 and contact C a weighting of 5, then over the course of 8 requests each of these contacts will be assigned the same number of requests as their weighting indicates.
 
         * **To user with fewest open requests**: Assigns new requests to the category members who has the fewest active requests.
         * **Do not assign**: Does not assign requests to specific users, but places all requests in a queue as default. Either under **Requests** > **Unassigned requests** (default) or in the queue system **Get next request in queue**.

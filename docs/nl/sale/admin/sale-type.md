@@ -15,7 +15,7 @@ language: nl
 
 # Verkooptype toevoegen
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Het veld **Verkooptype** in het scherm Verkoop categoriseert verkopen en bepaalt hun workflows. Deze typen zijn vooraf gedefinieerd in de lijst **Verkoop - Type, Fasen, Offerte**, die u kunt beheren in **Instellingen en onderhoud** onder **Lijsten**.
 

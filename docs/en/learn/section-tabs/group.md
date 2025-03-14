@@ -20,10 +20,12 @@ You can group the information in an archive by all the fields/columns in the arc
 
 Grouping is personal. The columns you use to group your information, are visible only for you and you can add and remove as many groups as you like.
 
-Learn how to customize views by configuring columns with this short video, or read the instructions below (video length - 1:43):
+Learn how to customize views by configuring columns with this short video, or read the instructions below:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
+
+(video length - 1:43)
 
 ## Enable grouping
 

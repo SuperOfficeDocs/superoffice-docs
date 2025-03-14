@@ -14,7 +14,7 @@ language: nl
 
 # Een nieuwe verkoopgids maken
 
-[!include[Moet een beheerder zijn](../../../learn/includes/req-admin.md)]
+[!include[Moet een beheerder zijn](../../learn/includes/req-admin.md)]
 
 In Instellingen en onderhoud kunt u definiëren welke verkooptypen een verkoopgids moeten krijgen en welke fasen en activiteiten deze gidsen moeten bevatten. Hierdoor kan het uiterlijk van een verkoopgids variëren.
 

@@ -5,7 +5,7 @@ description: How to use filters in the section tabs.
 keywords: section tab, filter
 author: Bergfrid Dias
 date: 01.29.2025
-version: 10.5
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,10 +24,12 @@ Filters are personal. The filters you use, are visible only for you and you can 
 
 Multiple filters can be active at the same time. If a section tab does not display the expected records, check your filter settings.
 
-Learn how to customize views by configuring columns with this short video, or read the instructions below (video length - 2:10):
+Learn how to customize views by configuring columns with this short video, or read the instructions below:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(video length - 2:10)
 
 ## Options
 

@@ -97,7 +97,7 @@ Standard varighet er **1 time for møter** og **15 minutter for telefonsamtaler*
 1. Velg **Standardverdier**.
 1. Angi en ny verdi for én eller begge av følgende alternativer, og klikk **Lagre**:
     * **Varighet for ny avtale**
-    * **Varighet for ny amtale**
+    * **Varighet for ny samtale**
 
 ## <a id="more-tab"></a>Mer-fanen
 

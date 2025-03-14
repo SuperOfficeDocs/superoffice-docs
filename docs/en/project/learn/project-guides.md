@@ -45,19 +45,19 @@ Project guides are set up in Settings and maintenance and can be tailored to fit
 1. **Start with a status:** When you create or update a project with a linked project guide, the first status is automatically set. The **Project guide** section tab displays the follow-ups and documents associated with this status.
 
 1. **Create activities:** Each follow-up or document in the guide can be created directly from the section tab:
-   * Click **Create** next to the follow-up or document name.
-   * Complete the prefilled fields in the dialog and save.
+    * Click **Create** next to the follow-up or document name.
+    * Complete the prefilled fields in the dialog and save.
 
-   > [!TIP]
-   > Assign follow-ups to team members for efficient collaboration. The **Assign task to project member** dialog appears for selected follow-ups.
+    > [!TIP]
+    > Assign follow-ups to team members for efficient collaboration. The **Assign task to project member** dialog appears for selected follow-ups.
 
 1. **Mark tasks as completed:** After completing an activity, check the box next to its name in the **Project guide** section tab. Documents are marked as completed automatically upon creation.
 
     Completed items also appear in the **Activities** section tab.
 
 1. **Move to the next status:** Once all activities for a status are complete, or as needed:
-   * Move the project to the next status manually or automatically (if defined in **Settings and maintenance**).
-   * The guide updates to display follow-ups and documents for the new status.
+    * Move the project to the next status manually or automatically (if defined in **Settings and maintenance**).
+    * The guide updates to display follow-ups and documents for the new status.
 
 1. **Repeat for all statuses:** Work through each status, completing the suggested activities, until the project is marked as finished.
 
@@ -104,9 +104,9 @@ To create a follow-up or document linked to a project guide:
 1. Locate the follow-up or document under the current status.
 1. Click **Create** next to the item.
 
-   * For follow-ups, the [Follow-up dialog][7] opens with prefilled fields based on the project guide's settings. Modify as needed, then click **Save**.
+    * For follow-ups, the [Follow-up dialog][7] opens with prefilled fields based on the project guide's settings. Modify as needed, then click **Save**.
 
-   * For documents, the [Document dialog][8] opens with a preselected template. Complete the required fields and click **Save**.
+    * For documents, the [Document dialog][8] opens with a preselected template. Complete the required fields and click **Save**.
 
 > [!TIP]
 > You can create multiple follow-ups or documents of the same type by right-clicking an item and selecting **Create another**.
@@ -155,7 +155,7 @@ You can manually move the project to the next status if needed, without completi
 
 * Consistency: Ensures a standardized approach to project management across your team.
 * Visibility: Keeps the entire team updated on the current status, next steps, and key milestones.
-* Customization: Tailor guides to match your organization’s unique workflows and processes.
+* Customization: Tailor guides to match your organization's unique workflows and processes.
 
 ## Related content
 

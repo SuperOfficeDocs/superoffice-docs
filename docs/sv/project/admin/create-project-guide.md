@@ -156,11 +156,11 @@ Planeringsmöte:
 * [Redigera en projektguide][5]
 
 <!-- Referenced links -->
-[1]: ../../../document/templates/variables/from-project-card.md
-[2]: ../../../admin/lists/learn/project-status.md
-[3]: ../../../admin/lists/learn/project-type.md
-[4]: ../../../document/templates/learn/index.md
+[1]: ../../document/templates/variables/from-project-card.md
+[4]: ../../document/templates/learn/index.md
+[2]: project-status.md
+[3]: project-type.md
 [5]: edit-project-guide.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/project/create-project-guide.png
+[img2]: ../../../media/loc/en/project/create-project-guide.png

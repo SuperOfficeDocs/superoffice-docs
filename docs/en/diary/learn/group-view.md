@@ -23,7 +23,7 @@ The **Group view** in the Diary allows you to view and manage multiple users' or
 
 1. Select a group from the list (<i class="ph ph-caret-down" aria-label="Dropdown icon"></i>).
 
-   * Predefined groups are based on your organization's setup and include user groups or resources, such as departments or conference rooms.
+    * Predefined groups are based on your organization's setup and include user groups or resources, such as departments or conference rooms.
 
 1. The selected group's diaries will be displayed in the **View** tab, where you can check schedules or plan follow-ups.
 

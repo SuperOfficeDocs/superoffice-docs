@@ -14,7 +14,7 @@ language: nl
 
 # Een verkoopfase toevoegen
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Het veld **Fase** op de verkoopkaart helpt bij het categoriseren en volgen van de voortgang van een verkoop. Deze fasen worden vooraf gedefinieerd in de lijst **Verkoop - Fase**, die u kunt beheren in **Instellingen en onderhoud** onder **Lijsten**.
 

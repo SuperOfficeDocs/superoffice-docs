@@ -29,13 +29,13 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 1. [Open the request][1].
 
 1. Click <i class="ph ph-arrow-bend-up-left" aria-label="Reply"></i> or <i class="ph ph-arrow-bend-double-up-left" aria-label="Reply all"></i>.
-   * Alternatively, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Reply** or **Reply all**.
+    * Alternatively, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Reply** or **Reply all**.
 
 1. The contact is automatically added as a recipient in the **To** field. You can add or remove recipients as needed.
 
 1. [Type your message][2] in the **Message** tab.
-   * Use [reply templates][8] to save time. If the template is available in multiple languages, you can select a language (<i class="ph ph-globe" aria-label="Languages"></i>).
-   * Ensure **External** is selected in the **Access level** field if the contact should see the message.
+    * Use [reply templates][8] to save time. If the template is available in multiple languages, you can select a language (<i class="ph ph-globe" aria-label="Languages"></i>).
+    * Ensure **External** is selected in the **Access level** field if the contact should see the message.
 
     ![Replying to a request -screenshot][img3]
 
@@ -57,8 +57,8 @@ You can save time by using [reply templates][8] as a starting point for your rep
 You can reply to several requests simultaneously, for example, if multiple inquiries relate to the same issue.
 
 1. Select the requests you want to reply to:
-   * Use a **saved selection** in the Selection screen.
-   * Use the **Find requests** screen results.
+    * Use a **saved selection** in the Selection screen.
+    * Use the **Find requests** screen results.
 
 1. Click the **Task** button and choose **Reply to customers**.
 
@@ -78,7 +78,7 @@ Comments allow you to add internal notes to a request without sending them to th
 1. [Open the request][1].
 1. Click<i class="ph ph-chat-text" aria-hidden="Comment"></i> above the message thread.
 1. Add your comment in the text field.
-   * Select **Internal** in the toolbar to ensure the comment is visible only to your colleagues.
+    * Select **Internal** in the toolbar to ensure the comment is visible only to your colleagues.
 1. Click **Save**.
 
 > [!TIP]
@@ -89,8 +89,8 @@ Comments allow you to add internal notes to a request without sending them to th
 When you reply to a request, you can track the time spent on the response.
 
 1. In the toolbar at the bottom of the **Message** tab, check the timer:
-   * Click <i class="ph ph-play" aria-label="Play"></i> to start tracking time.
-   * Click <i class="ph ph-pause" aria-label="Pause"></i> to stop the timer.
+    * Click <i class="ph ph-play" aria-label="Play"></i> to start tracking time.
+    * Click <i class="ph ph-pause" aria-label="Pause"></i> to stop the timer.
 1. Edit the time manually if needed.
 1. Save the request to log the time spent.
 

@@ -15,7 +15,7 @@ language: nl
 
 # Verkoopgids bewerken of deactiveren
 
-[!include[Moet een beheerder zijn](../../../learn/includes/req-admin.md)]
+[!include[Moet een beheerder zijn](../../learn/includes/req-admin.md)]
 
 ## Een verkoopgids bewerken
 

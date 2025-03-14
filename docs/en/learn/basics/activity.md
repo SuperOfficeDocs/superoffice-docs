@@ -78,7 +78,7 @@ After an activity is completed, it is removed from the activities list by the ne
 
 1. Go to **Personal settings** > **Preferences**.
 2. Select **Functions** and find the **Show days ahead** option.
-3. Define how many days ahead you want completed activities to be visible for. For example, entering 7 here would display to-dos for the next week.
+3. Define how many days ahead you want activities to be visible for. For example, entering 7 here would display to-dos for the next week.
 
 ### Remove activity from list when completed
 

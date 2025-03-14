@@ -15,7 +15,7 @@ language: sv
 
 # Försäljningstyp
 
-[!include[Must be admin](../../../learn/includes/req-admin.md)]
+[!include[Must be admin](../../learn/includes/req-admin.md)]
 
 Fältet **Försäljningstyp** i fönstret Försäljning kategoriserar försäljningar och definierar deras arbetsflöden. Dessa typer är fördefinierade i listan **Försäljning - Typ, Faser, Offert**, som du kan hantera i **Inställningar och underhåll** under **Listor**.
 

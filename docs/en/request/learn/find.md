@@ -21,7 +21,7 @@ Do one of the following:
 
 * Use lists, which are actually predefined searches.
 * Use the search screen for requests in the Find request.
-* Use the [free-text search][12] in the upper right corner.
+* Use the [free-text search][12] in the top bar.
 * Use [dashboards][18].
 * Use [selections][10] for requests.
 * Use the [navigator][19] search on Requests.
@@ -97,7 +97,7 @@ The results of your search are displayed as a list of requests in the **Results*
 > [!TIP]
 > The status **Open** together with the **Read** column will give an overview if the request were **Read by owner**, **New information**, or **Not read by owner**.
 
-### Preview
+### <a id="preview"></a>Preview
 
 This section of the screen displays the contents of the request selected under **Search result**. You have the same options as when [processing requests][6].
 

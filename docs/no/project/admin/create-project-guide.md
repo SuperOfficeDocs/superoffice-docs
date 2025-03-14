@@ -17,7 +17,7 @@ language: no
 
 [!include[Må være administrator](../../learn/includes/req-admin.md)]
 
-I **Innstillinger og vedlikehold** definerer du hvilke prosjekttyper som skal være tilknyttet en prosjektguide, og hvilke statuser og aktiviteter prosjektguidene skal inneholde. Hvordan en prosjektguide ser ut kan derfor variere, men nedenfor er et eksempel på hvordan et prosjekt med en prosjektguide kan se ut.
+I **Innstillinger og vedlikehold** definerer du hvilke prosjekttyper som skal være tilknyttet en prosjektguide, og hvilke statuser og aktiviteter prosjektguidene skal inneholde. Hvordan en prosjektguide ser ut kan derfor variere.
 
 For eksempel kan du ha en prosjekttype kalt **Konferanse**. Denne prosjekttypen kan være knyttet til en prosjektguide som inneholder følgende statuser, oppfølginger og dokumenter:
 

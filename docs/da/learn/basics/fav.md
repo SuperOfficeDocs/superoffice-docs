@@ -18,7 +18,7 @@ Funktionen Favoritter giver nem adgang til dine foretrukne poster, for eksempel 
 
 ## Tilføj post som foretrukken
 
-Hvis du vil tilføje posten i foretrukne, skal du klikke på stjerneikonet (i class="ph ph-star" aria-hidden="true"></i>) i det aktuelle kort, den aktuelle fane eller den aktuelle dialogboks. Stjernen bliver gul, og udvalget føjes med det samme til foretrukne. Du behøver ikke at klikke på **Gem**.
+Hvis du vil tilføje posten i foretrukne, skal du klikke på stjerneikonet (<i class="ph ph-star" aria-hidden="true"></i>) i det aktuelle kort, den aktuelle fane eller den aktuelle dialogboks. Stjernen bliver gul, og udvalget føjes med det samme til foretrukne. Du behøver ikke at klikke på **Gem**.
 
 På listerne (for eksempel detaljekortene og Søg) kan du højreklikke på en post og vælge **Føj til Foretrukne** i menuen.
 
@@ -51,7 +51,7 @@ Nu kan du hurtigt få adgang til posten ved at klikke på <i class="ph ph-star" 
 
 1. Åbn posten.
 
-1. Klik på favoritikonet (i class="ph ph-star" aria-hidden="true"></i>) i toppen. Ikonet skifter tilbage til standard, hvilket indikerer, at posten ikke længere er en favorit.
+1. Klik på favoritikonet (<i class="ph ph-star" aria-hidden="true"></i>) i toppen. Ikonet skifter tilbage til standard, hvilket indikerer, at posten ikke længere er en favorit.
 
 ## Yderligere tips
 
