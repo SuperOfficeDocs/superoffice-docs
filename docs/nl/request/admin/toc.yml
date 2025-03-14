@@ -1,0 +1,45 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Verzoektypen
+  topicHref: type/index.md
+  items:
+  - name: Overzicht
+    href: type/index.md
+  - name: Verzoektype aanmaken
+    href: type/create.md
+  - name: Verzoektype verwijderen
+    href: type/delete.md
+- name: Categorieën
+  topicHref: category/index.md
+  items:
+  - name: Overzicht
+    href: category/index.md
+  - name: Verzoekcategorie aanmaken
+    href: category/create.md
+  - name: Verzoekcategorie verwijderen
+    href: category/delete.md
+- name: Prioriteiten
+  topicHref: priority/index.md
+  items:
+  - name: Overzicht
+    href: priority/index.md
+  - name: Prioriteit maken
+    href: priority/create.md
+  - name: Prioriteit verwijderen
+    href: priority/delete.md
+  - name: Escalatieniveaus maken
+    href: priority/escalation-levels.md
+- name: Verzoekstatus
+  topicHref: status/index.md
+  items:
+  - name: Overzicht
+    href: status/index.md
+  - name: Verzoekstatus maken
+    href: status/create.md
+  - name: Verzoekstatus verwijderen
+    href: status/delete.md
+- name: Volgend verzoek in wachtrij ophalen
+  href: next-in-queue.md
+- name: Systeemsjablonen
+  href: system-templates.md
