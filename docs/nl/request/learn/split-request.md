@@ -59,7 +59,7 @@ Wanneer hetzelfde verzoek meerdere vragen bevat, bijvoorbeeld als de klant eerst
 <!-- Referenced links -->
 [1]: split-message.md
 [2]: index.md#open
-[3]: ../priority/escalation-levels.md
+[3]: ../admin/priority/escalation-levels.md
 [4]: reply.md
 [5]: transfer.md
 [6]: forward.md

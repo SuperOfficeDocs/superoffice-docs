@@ -55,4 +55,4 @@ Op het tabblad **Afbeelding** kunt u een afbeelding voor een project uploaden en
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/nl/project/project-image.png
+[img1]: ../../../media/loc/en/project/project-image.png

@@ -46,4 +46,4 @@ U kunt projectinformatie direct bewerken via de tabbladen in het scherm **Projec
 [6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/nl/project/edit-project.png
+[img1]: ../../../media/loc/en/project/edit-project.png

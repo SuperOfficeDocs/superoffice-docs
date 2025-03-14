@@ -75,7 +75,7 @@ Wijst geen verzoeken toe aan specifieke leden. Alle verzoeken worden standaard i
 
 Een verzoekbehandelaar met rechten voor categoriebeheer kan de toewijzingsmethode voor categorieën opgeven:
 
-1. [!include[Ga naar](../../../learn/includes/goto-sm.md)]
+1. [!include[Ga naar](../../learn/includes/goto-sm.md)]
 1. Selecteer **Verzoeken** > **Categorieën**.
 1. Selecteer de gewenste categorie.
 1. Selecteer het tabblad **Toewijzingsmethode**.
@@ -95,9 +95,9 @@ Stel dat uw bedrijf een categorie heeft gemaakt voor elke afdeling binnen het be
 * [Andere verzoekbehandelaar om hulp vragen (overbrengen)][5]
 
 <!-- Referenced links -->
-[1]: ../index.md
+[1]: index.md
 [2]: create.md
-[3]: ../category/create.md
+[3]: ../admin/category/create.md
 [4]: accept.md
 [5]: transfer.md
 

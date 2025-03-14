@@ -1,5 +1,5 @@
 ---
-uid: help-nl-service-settings-redirect
+uid: help-nl-service-settings
 title: Systeeminstellingen
 description: Systeeminstellingen
 keywords: Service

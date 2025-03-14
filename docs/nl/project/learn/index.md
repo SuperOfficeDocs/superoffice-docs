@@ -83,4 +83,4 @@ Het onderste deel van het scherm Project bestaat uit sectietabbladen.
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/nl/project/projects.png
+[img1]: ../../../media/loc/en/project/projects.png

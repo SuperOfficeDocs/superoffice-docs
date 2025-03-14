@@ -87,6 +87,6 @@ Om een ander sjabloon te selecteren, klikt u op <i class="ph ph-caret-down" aria
 * [Overzicht Veelgestelde vragen][3]
 
 <!-- Referenced links -->
-[1]: ../../../email/service/learn/kb-aliases/index.md
-[2]: ../../reply-templates/learn/index.md
-[3]: ../../../faq/learn/index.md
+[1]: ../../email/service/learn/kb-aliases/index.md
+[2]: ../reply-templates/learn/index.md
+[3]: ../../faq/learn/index.md

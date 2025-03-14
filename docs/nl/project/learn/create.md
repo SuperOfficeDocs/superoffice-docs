@@ -97,4 +97,4 @@ Als de projectnaam overeenkomt met of vergelijkbaar is met een bestaande record,
 [13]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/nl/project/create-project.png
+[img1]: ../../../media/loc/en/project/create-project.png

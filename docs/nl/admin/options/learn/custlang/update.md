@@ -42,7 +42,7 @@ language: nl
 
 [!include[Language codes](includes/language-codes.md)]
 
-## Waarover zou u meer te weten willen komen?
+## Gerelateerde inhoud
 
 * [Werken met externe categorieën][1]
 * [Hoe SuperOffice de klanttaal voor nieuwe personen selecteert][2]
