@@ -12,7 +12,7 @@ Nadat u hebt bedacht welk ontwerp u wilt gebruiken, kunt u met een paar klikken 
 
 1. Selecteer een sjabloon op een van volgende manieren:
     * Selecteer een van de beschikbare tabbladen (**Online-sjablonenbibliotheek**, **Recente sjablonen**,**Alle sjablonen**, enzovoort) om de beschikbare mailings of sjablonen weer te geven waarop u uw nieuwe mailing kunt baseren.
-    * Voer een zoekfrase in bij **Sjablonen zoeken** en druk op **ENTER** of klik op het zoekpictogram ![pictogram][img1].
+    * Voer een zoekfrase in bij **Sjablonen zoeken** en druk op **ENTER** of klik op <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. In de lijst hieronder klikt u op een sjabloon om deze te selecteren.
 
@@ -25,5 +25,4 @@ Nadat u hebt bedacht welk ontwerp u wilt gebruiken, kunt u met een paar klikken 
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

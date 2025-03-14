@@ -4,9 +4,10 @@ title: Nieuw document maken
 description: Maak een nieuw document rechtstreeks in SuperOffice CRM of upload bestaande documenten, om ervoor te zorgen dat u en uw collega's altijd toegang hebben tot de nieuwste documenten en versies. Deze handleiding laat u zien hoe u beide kunt doen.
 keywords: document
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -89,8 +90,6 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 8. Klik op de koppeling om het document te uploaden of gebruik Slepen en neerzetten om het document vanuit Windows Verkenner naar het dialoogvenster **Document** te verplaatsen.
 
-    ![Een nieuw document maken -screenshot][img2]
-
 9. Sluit het dialoogvenster **Document** door te klikken op **Opslaan**.
 
 ***
@@ -98,7 +97,7 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 ## <a id="fields"></a>Hoe informatie in te voeren
 
 > [!NOTE]
-> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op de pijl ![icon][img5] om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
+> Veel velden hebben een lijst met vooraf gedefinieerde waarden waaruit u kunt kiezen. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> om de lijst uit te vouwen. Selecteer vervolgens een waarde voor dat veld. Typ alternatief in het veld om te zoeken naar een specifieke waarde, zoals een bedrijfsnaam.
 
 ![Document maken vanuit sjabloon (Nieuw) -screenshot][img4]
 
@@ -136,16 +135,13 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 
 2. Gebruik slepen en neerzetten om het document te verplaatsen vanuit Windows Explorer naar het dialoogvenster **Document**.
 
-3. (optioneel) Markeer het document als voltooid:
-
-     * Nieuw (vanaf versie 10.3.11): Selecteer het selectievakje in de voettekst.
-     * Klassieke dialoog (onsite): Klik op het vinkje pictogram rechtsboven in de dialoog.
+3. (optioneel) Selecteer het selectievakje in de voettekst om het document als voltooid markeren.
 
 4. [Typ de gewenste informatie in de verschillende velden.](#fields)
 
 5. Klik op de knop **Maken** om een nieuw document te maken in SuperOffice CRM. Het document wordt toegevoegd aan het sectietabblad **Activiteiten**.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Documenten bewerken][1]
 * [Documenten aan/afmelden][3]
@@ -165,6 +161,4 @@ Als u SuperOffice Web Tools niet hebt geïnstalleerd, moet u documenten handmati
 [10]: ../../custom-objects/learn/udef.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/document/upload.png
 [img4]: ../../../media/loc/en/document/create-document.png
-[img5]: ../../../../common/icons/dropdown-icon.png

@@ -53,30 +53,22 @@ items:
       href: adding-items-to-follow-up-type-list.md
 
   - name: Verkoop
-    topicHref: ../../../sale/learn/screen/sale-stage.md
+    topicHref: ../../../sale/admin/index.md
     items:
-    - name: Verkoopfase
-      href: ../../../sale/learn/screen/sale-stage.md
     - name: Verkoopfase toevoegen
-      href: sale-stage.md
-    - name: "Verkooptype, fasen, offerte"
-      href: ../../../sale/learn/screen/sales-type-for-stages.md
+      topicHref: ../../../sale/admin/sale-stage.md
     - name: Verkooptype toevoegen
-      href: sale-type.md
+      topicHref: ../../../sale/admin/sale-type.md
     - name: Verkoopbedragklasse toevoegen
       href: sale-amount-class.md
 
   - name: Project
-    topicHref: ../../../project/learn/screen/project-status-admin.md
+    topicHref: ../../../project/admin/index.md
     items:
-    - name: Projectstatus
-      href: ../../../project/learn/screen/project-status-admin.md
     - name: Projectstatus toevoegen
-      href: project-status.md
-    - name: Projecttype
-      href: ../../../project/learn/screen/project-type-admin.md
+      topicHref: ../../../project/admin/project-status.md
     - name: Projecttype toevoegen
-      href: project-type.md
+      topicHref: ../../../project/admin/project-type.md
 
   - name: Algemeen
     topicHref: country.md

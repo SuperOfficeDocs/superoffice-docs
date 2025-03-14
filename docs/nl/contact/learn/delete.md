@@ -1,62 +1,59 @@
 ---
 uid: help-nl-contact-delete
-title: persoon verwijderen
-description: persoon verwijderen
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: persoon, contactpersoon
+title: Een contactpersoon verwijderen
+description: Een contactpersoon verwijderen
+keywords: contactpersoon verwijderen, persoon verwijderen, contact verwijderen, persoon, contactpersoon
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Contactpersonen verwijderen
+# Een contactpersoon verwijderen
 
-Waarom zou u personen uit SuperOffice willen verwijderen? Een persoon is bijvoorbeeld per ongeluk toegevoegd of is een duplicaat, of een persoon is toegevoegd met alleen een voornaam.
-
-Er zijn drie manieren om een persoon uit SuperOffice CRM te verwijderen:
-
-* [Eén persoon verwijderen][1]
-* [Personen bulksgewijs verwijderen][3]
-
-> [!TIP]
-> In plaats van een persoon te verwijderen kunt u ook **Voormalige werknemer** op het visitekaartje inschakelen (zie [Nieuwe persoon maken][6]). Dan zal de naam van deze persoon niet verdwijnen uit activiteiten waaraan ze zijn gekoppeld.
-
+Soms moet u personen in SuperOffice CRM verwijderen, bijvoorbeeld wanneer er duplicaten zijn, onvolledige invoeren, of wanneer een persoon per ongeluk is toegevoegd.
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Een persoon verwijderen vanaf het scherm Persoon
+> [!TIP]
+> In plaats van een persoon te verwijderen, kunt u deze markeren als **Voormalige werknemer**. Zo blijft de naam gekoppeld aan activiteiten.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+## Een contactpersoon verwijderen vanaf het scherm Persoon
 
-1. Klik op de ![pictogram][img1] knop **Taak** en selecteer **Verwijderen**.
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. Klik in het dialoogvenster **Persoon verwijderen** op **Ja** om te bevestigen dat u de persoon echt wilt verwijderen.
+1. Klik op de **Taak**-knop (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in de rechterbovenhoek van de contactkaart.
 
-## Een persoon verwijderen vanaf het scherm Bedrijf
+1. Selecteer **Verwijderen**.
+
+1. Klik in het dialoogvenster **Persoon verwijderen** op **Ja** om te bevestigen.
+
+## Een contactpersoon verwijderen vanaf het scherm Bedrijf
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Selecteer het sectietabblad **Contactpersonen**.
+1. Selecteer het [sectietabblad Personen][4].
 
-1. Selecteer de betreffende contactpersoon.
+1. Selecteer een of meerdere contactpersonen die u wilt verwijderen.
 
-    > [!NOTE]
-    > u kunt meerdere contactpersonen tegelijk verwijderen.
+1. Klik op **Verwijderen** in de voettekst van het sectietabblad **Personen**. U kunt ook met de rechtermuisknop klikken en **Verwijderen** selecteren.
 
-1. Klik op de knop **Verwijderen** in de voettekst van het sectietabblad **Contactpersonen**. U kunt ook met de rechtermuisknop klikken op de persoon en **Verwijderen** selecteren.
+1. Klik in het dialoogvenster **Persoon verwijderen** op **Ja** om te bevestigen.
 
-1. Klik in het dialoogvenster **Persoon verwijderen** op **Ja** om te bevestigen dat u de persoon echt wilt verwijderen.
+[!include[Note about restore](../../learn/includes/note-restore.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Contactpersonen samenvoegen][2]
+* [Contactpersonen bulksgewijs verwijderen][3]
+* [Massaal contacten en bedrijven uit selectie verwijderen][9]
 * [Verwijderde bedrijven en personen herstellen][5]
 
 <!-- Referenced links -->
-[1]: delete.md
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
-[6]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[4]: ../../learn/section-tabs/contacts-tab.md
+[9]: ../../search-options/selection/learn/howto/mass-delete.md

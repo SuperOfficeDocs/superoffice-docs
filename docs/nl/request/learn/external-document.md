@@ -20,20 +20,20 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 
 ## Document bekijken
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de gewenste map.
 
 1. Voer een van de volgende handelingen uit:
     * Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan. Hier kunt u ook de inhoud van bepaalde documenten, zoals html, txt en de programmaspecifieke EJR-indeling bewerken en weergeven.
-    * Klik op het ![pictogram][img1] **Downloaden** om documenten te downloaden die niet in de browser kunnen worden weergegeven, zoals PDF- en Microsoft Office-bestanden. Een pictogram in de documentenlijst geeft het type document weer.
+    * Klik op <i class="ph ph-download-simple" aria-label="Download"></i> om documenten te downloaden die niet in de browser kunnen worden weergegeven, zoals PDF- en Microsoft Office-bestanden. Een pictogram in de documentenlijst geeft het type document weer.
 
 ## Document toevoegen
 
 > [!NOTE]
 > U moet het fysieke document zelf maken voordat u het aan SuperOffice kunt toevoegen. Gebruik bijvoorbeeld Microsoft Word of Excel om de inhoud te maken.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de map waar u het document wilt opslaan. Als de gewenste map nog niet bestaat, kunt u deze volgens onderstaande beschrijving maken.
 
@@ -41,7 +41,7 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 
 1. Voer in het veld **Naam** een herkenbare naam in voor het document.
 
-1. Het veld **In map** toont automatisch de naam van de door u gekozen map. Als u van gedachten verandert, klikt u op de ![pictogram][img2] lijstknop en selecteert u een andere map in de lijst die wordt weergegeven.
+1. Het veld **In map** toont automatisch de naam van de door u gekozen map. Als u van gedachten verandert, klikt u op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteert u een andere map in de lijst die wordt weergegeven.
 
 1. Via het veld **Toegang** kunt u aangeven wie lees- en bewerktoegang moet krijgen tot het document.
 
@@ -62,9 +62,9 @@ Dit is bijvoorbeeld van toepassing wanneer u via het tabblad **Bericht**[verzoek
 
 Bepaalde soorten documenten, zoals html, txt en de programmaspecifieke EJR-indeling, kunnen direct worden bewerkt in het scherm **Documenteigenschappen**. Voor andere typen, zoals PDF moet u de toepassing gebruiken waarin het document werd gemaakt.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
-1. Klik op het ![pictogram][img1] **Downloaden** om een document te downloaden.
+1. Klik op <i class="ph ph-download-simple" aria-label="Download"></i> om een document te downloaden.
 1. Bewerk en sla het document op met behulp van de toepassing waarin het document werd gemaakt.
 1. Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan.
 1. Klik op de knop **Bestand kiezen** naast het veld **Bestand** en selecteer het bewerkte document in het dialoogvenster dat wordt geopend.
@@ -74,7 +74,7 @@ Bepaalde soorten documenten, zoals html, txt en de programmaspecifieke EJR-indel
 
 Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen die toegang tot het document moet hebben.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
 1. Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan.
 1. Breng de gewenste wijzigingen aan (zie hierboven).
@@ -85,7 +85,7 @@ Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen
 
 ## Document verwijderen
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de map waar het document zich bevindt.
 1. Klik op de naam van het document om naar het scherm **Documenteigenschappen** te gaan.
 1. Klik op de knop **Verwijderen** onder in het scherm.
@@ -95,7 +95,7 @@ Wanneer u de eigenschappen van het document bewerkt, kunt u bijvoorbeeld bepalen
 
 U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangschikt en het voor anderen makkelijker wordt om informatie te vinden. U kunt in alle mappen submappen maken en de documenten in elke gewenste map opnemen.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 
 1. Ga naar de map waaronder u een submap wilt maken. U kunt deze direct onder de map **Documenten** maken of onder een van de submappen ervan.
 
@@ -103,7 +103,7 @@ U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangs
 
 1. Voer in het veld **Naam** een beschrijvende naam in voor de map.
 
-1. In het veld **In map** wordt automatisch de naam getoond van de gekozen bovenliggende map. Als u van gedachten verandert, klikt u op de ![pictogram][img2] lijstknop en selecteert u een andere map in de lijst die wordt weergegeven.
+1. In het veld **In map** wordt automatisch de naam getoond van de gekozen bovenliggende map. Als u van gedachten verandert, klikt u op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteert u een andere map in de lijst die wordt weergegeven.
 
 1. Via de keuzelijst **Toegang** kunt u aangeven wie lees- en bewerktoegang moet krijgen tot de map.
 
@@ -113,17 +113,12 @@ U kunt een mapstructuur voor documenten maken, zodat deze logisch worden gerangs
 
 Wanneer u een map verwijdert, worden ook alle documenten in die map verwijderd uit SuperOffice.
 
-1. Ga naar ![het pictogram][img3] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Externe documenten**.
 1. Ga naar de gewenste map.
 1. Klik op **Map bewerken**. Het scherm **Eigenschappen documentmap** wordt geopend.
 1. Klik op **Verwijd.**.
 1. Klik ter bevestiging op **OK**. De map en de inhoud ervan worden verwijderd uit SuperOffice.
 
 <!-- Referenced links -->
-[1]: howto/reply.md
+[1]: reply.md
 [9]: ../../../../release-notes/10.3/service/10.3.11-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/archive-icon.png
-[img2]: ../../../../common/icons/dropdown-arrow.png
-[img3]: ../../../media/icons/main-menu.png

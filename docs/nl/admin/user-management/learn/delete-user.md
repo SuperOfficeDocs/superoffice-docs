@@ -33,7 +33,7 @@ language: nl
 
 6. Klik op **OK**.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Anonieme gebruikers of systeemgebruikers verwijderen (lokaal)][5]
 

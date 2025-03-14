@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 10.08.2024
 version: 10.3.10
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Editor slepen en neerzetten
@@ -27,7 +27,7 @@ Bij de stap **Inhoud** kunt u het uiterlijk en de inhoud van het bericht bewerke
 SuperOffice Marketing wordt geleverd met verschillende [kant-en-klare berichtsjablonen][9] en u kunt inhoud makkelijk verplaatsen om een eigen uiterlijk te creëren. Sla veelgebruikte inhoud op als blokken om tijd te besparen.
 
 > [!TIP]
-> Voor mailings bevelen we een maximale breedte van 600 pixels aan. U kunt ook controleren hoe de mailing eruit zal zien, bijvoorbeeld op smartphones, door te klikken op **Mobiel** ![pictogram\\][img4] in het menu in de linkerbenedenhoek. Zie ook [Het bericht aanpassen voor weergave op mobiele apparaten][3].
+> Voor mailings bevelen we een maximale breedte van 600 pixels aan. U kunt ook controleren hoe de mailing eruit zal zien, bijvoorbeeld op smartphones, door te klikken op **Mobiel** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) in het menu in de linkerbenedenhoek. Zie ook [Het bericht aanpassen voor weergave op mobiele apparaten][3].
 
 ## Kolommen en blokken/secties bewerken
 
@@ -87,8 +87,8 @@ In het algemene menu kunt u acties bekijken, ongedaan maken of herhalen en zien 
 | Pictogram | Naam | Functie |
 |:-:|---|---|
 | ![pictogram][img11] | Ongedaan maken/Opnieuw doen | Maakt de laatste actie ongedaan of voert een ongedaan gemaakte actie opnieuw uit. |
-| ![pictogram][img2] | Afdrukvoorbeeld | Opent een voorbeeld van het bericht op een desktop of mobiel scherm. |
-| ![pictogram][img3], ![pictogram][img4] | Weergeven in-/uitschakelen voor desktop of mobiele apparaten | Gebruikt om het uiterlijk op een desktop of smartphone te zien. |
+| <i class="ph ph-eye" aria-label="Preview"></i> | Afdrukvoorbeeld | Opent een voorbeeld van het bericht op een desktop of mobiel scherm. |
+| <i class="ph ph-monitor" aria-label="Desktop"></i>, <i class="ph ph-device-mobile" aria-label="Mobile icon"></i> | Weergeven in-/uitschakelen voor desktop of mobiele apparaten | Gebruikt om het uiterlijk op een desktop of smartphone te zien. |
 
 ## Contextmenu
 
@@ -139,7 +139,7 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 
 [Lees meer over de oude editor][2]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Inhoud toevoegen][1]
 * [Inhoud bewerken][5]
@@ -159,9 +159,6 @@ Begin 2021 heeft SuperOffice een nieuwe berichteditor (de "Drag & drop-editor") 
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-template.png
-[img2]: ../../../../media/icons/marketing-and-forms/preview.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile-2.png
 [img5]: ../../../../media/icons/marketing-and-forms/add-row.png
 [img6]: ../../../../media/icons/marketing-and-forms/move-2.png
 [img7]: ../../../../media/icons/marketing-and-forms/cancel.png

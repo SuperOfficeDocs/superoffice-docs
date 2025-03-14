@@ -1,7 +1,7 @@
 ---
 uid: help-nl-quote-admin
 title: Offerte synchroniseren
-description: "SuperOffice Quote helpt u bij het maken, valideren en beheren van offertes en orders gedurende de gehele levenscyclus van de order."
+description: SuperOffice Quote helpt u bij het maken, valideren en beheren van offertes en orders gedurende de gehele levenscyclus van de order.
 author: SuperOffice RnD
 date: 12.13.2023
 keywords: offerte, synchroniseren, verkoop

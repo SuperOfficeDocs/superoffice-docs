@@ -2,9 +2,9 @@
 uid: help-nl-automation-script-debug
 title:  Foutopsporingssessies
 description: Foutopsporingssessies
+keywords: CRMScript
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: CRMScript
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -27,24 +27,19 @@ Het tabblad **Foutopsporingssessies** bevat een lijst met alle actieve foutopspo
 
 U kunt een van deze sessie starten door een script vanuit het scherm **Script** uit te voeren in de foutopsporingsmodus, of door de functie "Void enableDebug(String key)" aan te roepen vanuit een CRMScript.
 
-U kunt ook klikken op ![pictogram][img1] **Traceringsscripts starten** om de[tracering][2] van de scripts in de lijst te starten.
+U kunt ook klikken op **Traceringsscripts starten** om de [tracering][2] van de scripts in de lijst te starten.
 
 ## Foutopsporing
 
 Met het hulpprogramma voor foutopsporing kunt u gemakkelijk de fouten in uw scripts en macro's zoeken en deze verhelpen. U kunt de fouten in uw scripts en macro's opsporen in een productieomgeving, zonder de andere gebruikers van SuperOffice te hinderen. U kunt op deze manier real-time uw scripts en macro's onderzoeken tijdens de uitvoering ervan. U kunt de uitvoering van uw script doorlopen, gebruikmaken van onderbrekingspunten en de variabele waarden weergeven.
 
-U kunt de fouten in een script of macro opsporen door een script of macro te openen in het tabblad **Macro's en scripts** en te klikken op ![pictogram][img4] **Fouten opsporen in script**.
+U kunt de fouten in een script of macro opsporen door een script of macro te openen in het tabblad **Macro's en scripts** en te klikken op <i class="ph ph-bug" aria-hidden="true"></i> **Fouten opsporen in script**.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
 1. Klik op **CRMScript** en selecteer het tabblad **Macro's en scripts** .
 
-U kunt ook klikken op ![pictogram][img3] **Script traceren** om de [tracering van een script][2] te starten.
+U kunt ook klikken op **Script traceren** om de [tracering van een script][2] te starten.
 
 <!-- Referenced links -->
 [2]: tracing.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/run-script.png
-[img3]: ../../../../media/icons/btn-script-trace-small.png
-[img4]: ../../../../../common/icons/bug.png

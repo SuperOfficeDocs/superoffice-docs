@@ -2,9 +2,9 @@
 uid: help-nl-dashboard-tile-delete
 title: Een tegel verwijderen
 description: Een tegel uit een dashboard verwijderen
+keywords: dashboard
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: dashboard
 topic: howto
 language: nl
 ---
@@ -20,14 +20,11 @@ U kunt tegels uit een dashboard verwijderen, zolang u er bewerkingstoegang toe h
 
 1. Ga naar het gewenste dashboard.
 
-2. Klik op de knop **Taak** en selecteer **Tegel toevoegen/Opmaak bewerken**.
+2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Tegel toevoegen/Opmaak bewerken**.
 
-3. Klik in het dashboard op het pictogram **Tegel verwijderen** ![pictogram][img1] op de tegel die u wilt verwijderen.
+3. Klik in het dashboard op <i class="ph ph-x-circle" aria-label="Remove icon"></i> op de tegel die u wilt verwijderen.
 
 4. Klik ter bevestiging op **OK**.
 
 <!-- Referenced links -->
 [1]: add-tile.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png

@@ -4,8 +4,8 @@ title: Elementen verwijderen
 description: Elementen samenvoegen, verwijderen en herstellen.
 keywords: delete, herstellen, prullenbak
 author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,7 +60,7 @@ Verwijderde bedrijven en personen blijven standaard 14 dagen in de prullenbak. D
 
 U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruikers te herstellen, vink gewoon Verwijderde bedrijven voor alle gebruikers weergeven AAN aan.
 
-1. Kies ![pictogram][img1] **Persoonlijke instellingen** > **Prullenbak**.
+1. Kies <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Prullenbak**.
 
 2. Selecteer in het dialoogvenster het tabblad **Bedrijf** of **Persoon**. De bedrijven en personen die u hebt verwijderd, worden weergegeven.
 
@@ -84,7 +84,7 @@ U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruike
 | Annuleren | Hiermee annuleert u het verwijderen van alle geselecteerde elementen. Het dialoogvenster wordt gesloten zonder dat er iets wordt verwijderd. |
 
 * U kunt dit dialoogvenster als volgt uitschakelen: Schakel het selectievakje **Dit dialoogvenster voortaan niet meer weergeven** onder in het dialoogvenster voor verwijderen uit.
-* U kunt dit dialoogvenster als volgt weer inschakelen: Ga naar ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en zet de optie **Bevestigingsvenster weergeven** op **Nee**.
+* U kunt dit dialoogvenster als volgt weer inschakelen: Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en zet de optie **Bevestigingsvenster weergeven** op **Nee**.
 
 > [!NOTE]
 > wanneer u een bedrijf, selectie of project wilt verwijderen, wordt u altijd gevraagd of u zeker weet dat u het item wilt verwijderen. Voor dit soort verwijderingen is de optie **Dit dialoogvenster voortaan niet meer weergeven** dan ook niet beschikbaar.
@@ -107,6 +107,5 @@ U hebt ook een optie om de verwijderde bedrijven en personen van andere gebruike
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
 [img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

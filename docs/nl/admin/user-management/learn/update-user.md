@@ -23,7 +23,7 @@ language: nl
 
 4. Breng de gewenste wijzigingen aan en klik op **Opslaan**.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Anonieme gebruikers of systeemgebruikers bewerken (lokaal)][1]
 

@@ -7,9 +7,9 @@ author: SuperOffice RnD, Jeanette Small Strøm
 date: 02.27.2024
 version: 10
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Werken met mailings

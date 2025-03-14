@@ -17,10 +17,12 @@ In de nieuwe AVG-wereld hebben individuen het "recht om geïnformeerd te worden"
 
 Door geïntegreerde formulieren te gebruiken die beschikbaar zijn in uw CRM-oplossing, kunt u de toestemming van een persoon verzamelen op hetzelfde moment dat deze een webformulier invult en zijn/haar persoonlijke gegevens aan u verstrekt. Deze toestemming wordt automatisch gedocumenteerd in SuperOffice CRM met behulp van de functies voor Toestemmingsbeheer.
 
-In deze video ziet u hoe u een eenvoudig webformulier maakt en toevoegt aan uw webpagina (duur van de video - 7:49):
+In deze video ziet u hoe u een eenvoudig webformulier maakt en toevoegt aan uw webpagina:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/18m6Dx1t9wI]
+
+(duur van de video - 7:49)
 
 ## Automatische e-mailbevestigingen verzenden
 
@@ -36,7 +38,7 @@ Vanaf het scherm Persoon kunt u de privacybevestigings-e-mail verzenden of opnie
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 
-1. Klik op **Taak** (![pictogram][img1]) &gt; **Privacybevestigings-e-mail verzenden**.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> > **Privacybevestigings-e-mail verzenden**.
 
     ![Stuur een bevestigingsmail om de contactpersonen te informeren dat hun informatie wordt opgeslagen in uw CRM-database -screenshot][img2]
 
@@ -62,7 +64,7 @@ De privacybevestigings-e-mail zal normaalgesproken de persoon informeren over he
 
 De e-mail kan ook een koppeling bevatten naar een Customer Centre waar de persoon zijn abonnementen en toestemming kan beheren. De koppeling is standaard 21 dagen geldig.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [E-mail met de privacybevestiging bewerken in Instellingen en onderhoud][1]
 
@@ -70,5 +72,4 @@ De e-mail kan ook een koppeling bevatten naar een Customer Centre waar de persoo
 [1]: edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

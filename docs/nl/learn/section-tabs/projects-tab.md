@@ -4,8 +4,8 @@ title: Projecten-tabblad
 description: Leer hoe u projecten kunt bekijken, toevoegen en beheren met behulp van het sectietabblad Projecten in SuperOffice CRM. Vereenvoudig het bijhouden van projecten voor bedrijven, personen en meer.
 keywords: sectietabblad Projecten, Projecten-sectietabblad, Projecten-tabblad, tabblad Projecten, sectietabblad
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Het sectietabblad **Projecten** bevat de volgende kolommen om belangrijke inform
 
 | Kolom | Beschrijving |
 |---|---|
-| Voltooid | Checkbox die aangeeft of het project is voltooid. Een aangevinkt vakje (![icon][img3]) betekent voltooid, terwijl een leeg vakje betekent dat het nog bezig is. |
+| Voltooid | Checkbox die aangeeft of het project is voltooid. Een aangevinkt vakje (<i class="ph ph-check" aria-hidden="true"></i>) betekent voltooid, terwijl een leeg vakje betekent dat het nog bezig is. |
 | Projectnaam | De naam van het project. |
 | Projecttype | Geeft aan om wat voor soort project het gaat, zoals intern of klantgericht. |
 | Status | De huidige status van het project. |
@@ -86,4 +86,3 @@ Om [projectleden toe te voegen][4] direct vanuit het sectietabblad **Projecten**
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/projects-detail.png
-[img3]: ../../../media/icons/check.png

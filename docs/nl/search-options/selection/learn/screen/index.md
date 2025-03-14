@@ -33,20 +33,18 @@ Het uiterlijk van de lijst met leden varieert iets, afhankelijk van de inhoud va
 | Mailings | Een mailing maken voor personen in een selectie. [Bekijk de mailings](#mailing) die op deze selectie zijn gearchiveerd. |
 
 > [!TIP]
-> Klik op het ![pictogram][img3] rechts van de kolomkoppen in een selectie om records te groeperen en te filteren, kolommen toe te voegen/te verwijderen, en berekeningen te specificeren. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][9] voor extra functies.
+> Klik op <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen in een selectie om records te groeperen en te filteren, kolommen toe te voegen/te verwijderen, en berekeningen te specificeren. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][9] voor extra functies.
 
-Om tussen selecties te schakelen, klikt u op de knoppen vorige/volgende (![pictogram][img2] ![pictogram][img1]) rechtsboven op het scherm.
+Om tussen selecties te schakelen, klikt u op de knoppen vorige/volgende (<i class="ph ph-arrow-left" aria-hidden="true"></i><i class="ph ph-arrow-right" aria-hidden="true"></i>) rechtsboven op het scherm.
 
 ### <a id="filter"></a>Lijst met leden filteren
 
 > [!NOTE]
 > Voordat u de lijst met leden filtert (bijvoorbeeld op verkopen of vervolgactiviteiten), moet u op **Alles weergeven** klikken in de voettekst van het tabblad. Op deze manier bent u er zeker van dat het tabblad alle records binnen de selectie weergeeft. Ter optimalisering van de prestaties tijdens het werken met grote selecties worden meestal alleen de eerste 100 records geladen in de lijst met leden.
 
-Om het kolomfilter te activeren, klikt u op het ![pictogram][img3] rechts van de kolomkoppen en op **Kolomfilter inschakelen**. De filterknop (![pictogram][img7]) wordt nu weergegeven op kolom die kan worden [gefilterd][8].
+Om het kolomfilter te activeren, klikt u op <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen en op **Kolomfilter inschakelen**. De filterknop (<i class="ph ph-funnel" aria-hidden="true"></i>) wordt nu weergegeven op kolom die kan worden [gefilterd][8].
 
-### De knop Taak
-
-![pictogram][img6]
+### De knop Taak <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
 Gebruik de knop **Taak** om tegelijkertijd verschillende taken uit te voeren voor alle leden in de selectie of een deel hiervan. Voorbeelden: verzenden van e-mails, massabewerking en export. Welke taken worden weergegeven, is afhankelijk van het type records binnen de selectie (wat is geselecteerd in het veld **Selectie van**).
 
@@ -59,9 +57,9 @@ Gebruik de knop **Taak** om tegelijkertijd verschillende taken uit te voeren voo
 * **Alles weergeven**. Gebruikt om alle selectieleden weer te geven.
 
     > [!NOTE]
-    > Standaard geeft de lijst alleen de eerste 100 records in de selectie weer. Om deze waarde te wijzigen, gaat u naar ![pictogram][img4] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Paginagrootte archief**.
+    > Standaard geeft de lijst alleen de eerste 100 records in de selectie weer. Om deze waarde te wijzigen, gaat u naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Functies** > **Paginagrootte archief**.
 
-* ![pictogram][img5]: Ververst de gegevens in de lijst.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Ververst de gegevens in de lijst.
 
 ### <a id="mailing"></a> Bekijk mailings gearchiveerd op selectie
 
@@ -73,7 +71,7 @@ Dubbelklik op een mailing om deze te openen.
 
 **Exporteren**: wordt gebruikt om de lijst te exporteren naar een spreadsheet.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Taken uitvoeren met selecties][4]
 * [Filters gebruiken in de sectietabbladen][8]
@@ -89,12 +87,3 @@ Dubbelklik op een mailing om deze te openen.
 [8]: ../../../../learn/section-tabs/filter.md
 [9]: ../../../../learn/section-tabs/index.md
 [4]: ../../../../learn/getting-started/index.md
-
-<!-- Referenced images -->
-[img3]: ../../../../../../common/icons/cog-wheel.png
-[img1]: ../../../../../media/icons/arrow-right.png
-[img2]: ../../../../../media/icons/arrow-left.png
-[img4]: ../../../../../media/icons/personal-settings-small.png
-[img5]: ../../../../../media/icons/refresh.png
-[img7]: ../../../../../media/icons/filter-column.png
-[img6]: ../../../../../media/loc/en/learn/task.png

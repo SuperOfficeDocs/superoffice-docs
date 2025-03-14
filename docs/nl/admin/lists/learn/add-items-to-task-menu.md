@@ -2,10 +2,10 @@
 uid: help-nl-task-menu-add
 title: Items toevoegen aan de lijst Taakmenu
 description: Items toevoegen aan de lijst Taakmenu
+keywords: lijst Taakmenu
 author: SuperOffice RnD
-date: 01.11.2023
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -52,7 +52,7 @@ Zo vult u de velden in het dialoogvenster Items in lijst bewerken voor het menu 
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een webpaneelitem toevoegen][1]
 * [Een vertaling toevoegen][7]

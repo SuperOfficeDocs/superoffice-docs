@@ -2,10 +2,12 @@
 uid: help-nl-adding-items
 title: Items toevoegen
 description: Items toevoegen
+keywords: Items toevoegen, lijst
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -30,7 +32,7 @@ language: nl
 
 6. Klik op **Opslaan**. Het item wordt nu toegevoegd aan de lijst **Items**. Herhaal deze procedure om meer items toe te voegen.
 
-De items worden weergegeven in de volgorde waarin u ze hebt ingevoerd. Als u de volgorde wilt wijzigen, selecteert u het item en plaatst u het met behulp van de pijltoetsen links van de lijst hoger of lager (![pictogram][img3] ![pictogram][img4] ).
+De items worden weergegeven in de volgorde waarin u ze hebt ingevoerd. Als u de volgorde wilt wijzigen, selecteert u het item en plaatst u het met behulp van de pijltoetsen links van de lijst hoger of lager (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 
 Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven. U kunt de [gebruikersgroepen opgeven waarvoor het item zichtbaar is][2] en onder welke [kopteksten][3] het wordt weergegeven.
 
@@ -38,7 +40,3 @@ Nadat u items hebt ingevoerd, kunt u voor elk afzonderlijk item details opgeven.
 [1]: specialized-lists.md
 [2]: organize/user-group-filtering.md
 [3]: organize/headings.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png

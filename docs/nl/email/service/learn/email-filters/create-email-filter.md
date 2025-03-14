@@ -48,7 +48,7 @@ language: nl
     4. Klik op **Toevoegen** om de waarde toe te voegen.
 
         > [!TIP]
-        > U kunt een waarde weer verwijderen door deze te selecteren en op het ![pictogram][img1] verwijderpictogram te klikken.
+        > U kunt een waarde weer verwijderen door deze te selecteren en op <i class="ph ph-x-circle" aria-label="Remove icon"></i> te klikken.
 
 1. Op het tabblad **Eigenschappen instellen** kunt u de specifieke eigenschappen instellen voor verzoeken die worden gegenereerd door e-mails die voldoen aan het huidige filter:
 
@@ -67,6 +67,3 @@ language: nl
 [1]: ../../../../automation/crmscript/learn/index.md
 [2]: ../../../../request/reply-templates/learn/index.md
 [3]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/delete-circle-red.png

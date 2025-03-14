@@ -100,7 +100,7 @@ Gebruik deze optie om de geselecteerde records toe te voegen aan een bestaande s
 
 1. Klik met de rechtermuisknop en selecteer **Verwijderen**. De leden worden direct verwijderd uit de actieve selectie.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Kopiëren naar selecties][3]
 * [Taken uitvoeren met selecties][4]

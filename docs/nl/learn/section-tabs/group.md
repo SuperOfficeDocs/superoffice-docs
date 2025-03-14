@@ -4,8 +4,8 @@ title: Lijsten groeperen
 description: U kunt een lijst groeperen op een of meer gegevenstypen om een beter overzicht te krijgen van de records op een sectietabblad (archief).
 keywords: sectietabblad, archief
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,14 +20,16 @@ U kunt de informatie in een archief groeperen op basis van alle velden/kolommen 
 
 Groeperen is persoonlijk. De kolommen die u gebruikt om uw gegevens te groeperen, zijn alleen voor u zichtbaar en u kunt zoveel groepen toevoegen en verwijderen als u wilt.
 
-Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte video of lees de onderstaande instructies (videolengte - 1:43):
+Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte video of lees de onderstaande instructies:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
 
+(videolengte - 1:43)
+
 ## Groepering inschakelen
 
-1. Klik op het ![pictogram][img1] instellingenpictogram rechts van de kolomkop en selecteer **Groepering inschakelen**.
+1. Klik op het pictogram <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkop en selecteer **Groepering inschakelen**.
 
     ![Groepering inschakelen -screenshot][img5]
 
@@ -55,13 +57,9 @@ Nu wordt een nieuwe rij weergegeven boven de kolomkoppen.
 
 1. Als u een geselecteerde groeperingskolom wilt verwijderen, klikt u op de X achter de kolom. De lijst met records in het archief wordt onmiddellijk bijgewerkt.
 
-    ![Druk op de X om een groeperingskolom te verwijderen -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

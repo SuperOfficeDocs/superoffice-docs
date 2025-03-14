@@ -1,10 +1,10 @@
 ---
 uid: help-nl-dashboard-tiles
 title: Werken met tegels
-description: "In deze handleiding leert u hoe u toegang krijgt tot de informatie in uw dashboard, zodat u een duidelijk overzicht krijgt en uw volgende stappen beter kunt rangschikken."
+description: In deze handleiding leert u hoe u toegang krijgt tot de informatie in uw dashboard, zodat u een duidelijk overzicht krijgt en uw volgende stappen beter kunt rangschikken.
+keywords: dashboard
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: dashboard
 topic: howto
 language: nl
 ---
@@ -23,7 +23,7 @@ Het zijn de gegevens die achter de tegels liggen die een dashboard nuttig maken.
 
 * Klik op de gegevenslabels (legenda) onder de tegel om specifieke gegevens in de tegels te verbergen/weer te geven. Dit kan handig zijn voor het afdrukken of exporteren van de tegels.
 
-* Klik op ![pictogram][img1] in de koptekst van een tegel en selecteer **Weergeven op volledig scherm** om de tegel op het volledige scherm te openen. Handig voor tegels met veel inhoud.
+* Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> in de koptekst van een tegel en selecteer **Weergeven op volledig scherm** om de tegel op het volledige scherm te openen. Handig voor tegels met veel inhoud.
 
 ### Onderliggende gegevens onderzoeken
 
@@ -43,13 +43,13 @@ Volg de stappen in deze GIF of de onderstaande stappen om te zien hoe u toegang 
 
     * Dubbelklik op een record om deze te openen (of selecteer een record en klik op **Openen**).
 
-    * Als u [de records naar een selectie wilt kopiëren][4], klikt u op de knop **Taak** en selecteert u **Kopiëren naar selectie**. Als u geen records selecteert, worden alle records gekopieerd.
+    * Als u [de records naar een selectie wilt kopiëren][4], klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteert u **Kopiëren naar selectie**. Als u geen records selecteert, worden alle records gekopieerd.
 
 5. Klik op **Sluiten** wanneer u klaar bent.
 
 ## Tegels exporteren
 
-Klik op ![pictogram][img1] in de koptekst van een tegel om de volgende opties te openen:
+Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> in de koptekst van een tegel om de volgende opties te openen:
 
 * **PDF-document downloaden**/**PNG-document downloaden**: download de tegel in PDF- of PNG-indeling. De exportbestanden worden gedownload naar uw browser (map **Downloads**).
 
@@ -58,7 +58,7 @@ Klik op ![pictogram][img1] in de koptekst van een tegel om de volgende opties te
 > [!TIP]
 > Als u specifieke gegevens wilt verbergen voordat u een tegel exporteert of afdrukt, klikt u op de gegevenslabels (legenda) naast of onder de tegel om gegevens te verbergen.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een nieuwe dashboard toevoegen][1]
 * [Een tegel bewerken][2]
@@ -73,5 +73,4 @@ Klik op ![pictogram][img1] in de koptekst van een tegel om de volgende opties te
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/context-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

@@ -5,7 +5,7 @@ description: Knowledge Base
 author: SuperOffice RnD
 date: 03.24.2023
 keywords: verzoek, kennisdatabase
-topic: help
+topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -26,7 +26,7 @@ De **kennisdatabase** is toegankelijk vanuit het **Hoofdmenu** in de bovenste ba
 <!-- Referenced links -->
 [1]: ../external-document.md
 [2]: ../../../faq/learn/index.md
-[3]: ../../../../en/request/reply-templates/index.md
+[3]: ../../reply-templates/learn/index.md
 [4]: ../../../email/service/learn/kb-aliases/index.md
 
 <!-- Referenced images -->

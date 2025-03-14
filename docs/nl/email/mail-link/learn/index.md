@@ -31,7 +31,7 @@ Deze knoppen worden weergegeven op de werkbalk van Microsoft Outlook:
 | ![pictogram][img2] | Zoeken naar de afzender van een e-mail |
 | ![pictogram][img3] | Klik op de kleine pijl rechts naast de knop **SuperOffice** om het dialoogvenster **SuperOffice CRM-opties** te openen. |
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mails archiveren naar SuperOffice CRM][1]
 * [E-mails maken vanuit SuperOffice CRM][5]

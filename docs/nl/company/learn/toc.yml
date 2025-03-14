@@ -1,19 +1,16 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Werken met bedrijf
-  topicHref: create.md
-  items:
-  - name: Nieuw bedrijf maken
-    href: create.md
-  - name: Een bedrijf bewerken
-    href: edit.md
-  - name: Een bedrijf kopiëren
-    href: copy.md
-  - name: Bedrijven samenvoegen
-    href: merge-companies.md
-  - name: Een bedrijf verwijderen
-    href: delete.md
+- name: Nieuw bedrijf maken
+  href: create.md
+- name: Bewerk bedrijfsinformatie
+  href: edit.md
+- name: Een bedrijf kopiëren
+  href: copy.md
+- name: Bedrijven samenvoegen
+  href: merge-companies.md
+- name: Een bedrijf verwijderen
+  href: delete.md
 - name: Adresnotaties voor landen
   href: address-formats.md
 - name: ERP-verbinding

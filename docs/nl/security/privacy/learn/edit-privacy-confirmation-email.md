@@ -38,7 +38,7 @@ De e-mailsjabloon voor privacybevestiging is een **e-mailsjabloon**, die op deze
 
 [Een e-mailsjabloon toevoegen][1]
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Een privacy e-mail naar personen versturen voor het recht om geïnformeerd te worden][2]
 

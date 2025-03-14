@@ -35,7 +35,7 @@ Omdat een dynamische selectie geen fysieke personen bevat, maar alleen een set z
 
 Om een kopie te maken van een dynamische selectie, kunt u de functie **Selectie kopiëren** gebruiken op het tabblad **Taak**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Selecties kopiëren][3]
 

@@ -2,9 +2,9 @@
 uid: help-nl-adding-items-to-web-panel-list
 title: Items toevoegen aan de lijst Webpaneel
 description: Items toevoegen aan de lijst Webpaneel
+keywords: lijst GUI - Webpaneel, lijst, webpaneel
 author: SuperOffice RnD
-date: 01.20.2023
-keywords: lijst, webpaneel
+date: 03.14.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -77,7 +77,7 @@ language: nl
 
 ### Menu
 
-* **Modulemenu**: het URL-adres wordt weergegeven wanneer de gebruiker op de knop **Hulpmiddelen** ![pictogram][img1] klikt in de Navigator of **Andere toepassingen** selecteert in SuperOffice CRM.
+* **Modulemenu**: het URL-adres wordt weergegeven wanneer de gebruiker op de knop **Hulpmiddelen** (<i class="ph ph-wrench" aria-hidden="true"></i>) klikt in de Navigator of **Andere toepassingen** selecteert in SuperOffice CRM.
 
 * **Weergavemenu**: het URL-adres wordt weergegeven wanneer de gebruiker **Andere toepassingen** selecteert in SuperOffice CRM.
 
@@ -85,7 +85,7 @@ language: nl
 
 [!include[HTTPS restriction](includes/web-panels-and-https.md)]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Een taakmenu-item toevoegen][1]
 * [Een vertaling toevoegen][3]
@@ -94,6 +94,3 @@ language: nl
 [1]: add-items-to-task-menu.md
 [2]: ../../../../en/ui/web-panels/url-encoding.md
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

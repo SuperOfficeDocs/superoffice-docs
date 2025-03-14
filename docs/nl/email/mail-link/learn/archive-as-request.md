@@ -2,9 +2,9 @@
 uid: help-nl-mail-link-archive-as-request
 title: E-mail archiveren als verzoek
 description: Meer informatie over het archiveren van e-mails als verzoeken vindt u in deze handleiding.
+keywords: Mail-koppeling
 author: SuperOffice RnD
 date: 03.14.2023
-keywords: Mail-koppeling
 topic: howto
 language: nl
 ---
@@ -49,7 +49,7 @@ U kunt een e-mail in het Postvak IN van uw e-mailclient archiveren als een verzo
 8. Klik op **OK**. Er verschijnt een bericht om te bevestigen dat het verzoek is bijgewerkt. Als het verzoek eerder was gesloten, wordt het nu opnieuw geactiveerd.
 9. In het bevestigingsbericht kunt u **Klik hier om het verzoek te bekijken** selecteren als u het verzoek nader wilt bekijken of **Sluiten** om het bevestigingsbericht te sluiten.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Bijlagen archiveren][1]
 

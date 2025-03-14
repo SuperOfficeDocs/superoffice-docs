@@ -1,44 +1,58 @@
 ---
 uid: help-nl-project-image-add
-title: Een projectafbeelding toevoegen
-description: Zo voegt u een projectafbeelding toe
-keywords: project
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+title: Een projectafbeelding toevoegen of wijzigen
+description: Een projectafbeelding toevoegen of wijzigen
+keywords: tabblad Afbeelding, projectafbeelding, project
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Een projectafbeelding toevoegen
+# Een projectafbeelding toevoegen of wijzigen
 
-Op het tabblad **Afbeelding** kunt u een afbeelding voor het project toevoegen. De projectafbeelding wordt voornamelijk gebruikt bij weergave van het project in SuperOffice Audience (hiervoor is een afzonderlijke licentie vereist), maar kan ook worden gebruikt voor andere typen projectweergaven.
+Op het tabblad **Afbeelding** kunt u een afbeelding voor een project uploaden en beheren.
 
-1. Open het scherm Project. Voer een van de volgende handelingen uit:
+![Projectkaart met projectafbeelding -screenshot][img1]
 
-    * Klik op de knop **Project**in de Navigator.
-    * Gebruik de [historielijst][1] of navigator zoeken.
-    * Dubbelklik op een project in een zoekresultaat of op het sectietabblad **Project** in het scherm Bedrijf.
+## Stappen om een projectafbeelding toe te voegen
 
-2. Selecteer het tabblad **Afbeelding**.
+1. Open het scherm **Project** en ga naar het tabblad **Afbeelding**.
 
-3. Klik op **Bewerken**.
+1. Klik op <i class="ph ph-pencil-simple" aria-label="Bewerken"></i> om de bewerkingsmodus te openen.
 
-4. Klik op de knop **Toevoegen**.
+1. Klik op **Foto toevoegen**.
 
-5. Voer in het dialoogvenster **Afbeelding selecteren** een van de volgende handelingen uit:
-    * Als de gewenste afbeelding onder **Afbeeldingen** staat, selecteert u deze om een afdrukvoorbeeld onder **Afdrukvoorbeeld** weer te geven.
-    * Om een nieuwe afbeelding toe te voegen, klikt u op **Toevoegen** en selecteert u de afbeelding die u nodig hebt, en voegt u een beschrijving toe die het beeld beter beschrijft dan alleen de bestandsnaam. Klik vervolgens op **OK/Opslaan**. Selecteer de afbeelding om een afdrukvoorbeeld weer te geven onder **Afdrukvoorbeeld**.
-    * Als u een afbeelding uit de database wilt verwijderen, selecteert u de afbeelding en klikt u op **Verwijderen**.
+1. Upload of sleep een afbeeldingsbestand:
 
-6. Klik op **OK** om de afbeelding toe te voegen. De afbeelding wordt weergegeven op het tabblad **Afbeelding** en de beschrijving in het veld **Afbeelding**.
+    * Sleep het afbeeldingsbestand naar het uploadgebied.
+    * Of klik op **Bestand uploaden** om een afbeelding van uw computer te selecteren.
 
-7. Klik op **Opslaan** om uw wijzigingen op te slaan of op **Annuleren** om te sluiten zonder op te slaan.
+    Na het uploaden verschijnt de afbeelding als voorbeeld aan de rechterkant.
 
-    > [!NOTE]
-    > klik op **Verwijderen** links van de beschrijving om een actieve projectafbeelding te verwijderen.
+1. Selecteer een afbeelding:
+
+    * Klik op een geüploade afbeelding in de lijst om deze als voorbeeld weer te geven.
+
+1. Klik op **OK** om de geselecteerde afbeelding in te stellen voor het project.
+
+1. Klik op **Opslaan** om uw wijzigingen toe te passen of op **Annuleren** om ze te negeren.
+
+## Stappen om een projectafbeelding te wijzigen of resetten
+
+1. Open het tabblad **Afbeelding** en klik op <i class="ph ph-pencil-simple" aria-label="Bewerken"></i>.
+
+1. Om de huidige afbeelding te verwijderen, klikt u op **Verwijderen**.
+
+1. Nadat u de afbeelding hebt verwijderd, kunt u:
+
+    * Klikken op **OK** en **Opslaan** om terug te keren naar de standaardafbeelding.
+    * Of een nieuwe afbeelding uploaden/selecteren en vervolgens op **OK** en **Opslaan** klikken om de wijzigingen toe te passen.
 
 <!-- Referenced links -->
-[1]: ../../learn/basics/history.md
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/project-image.png

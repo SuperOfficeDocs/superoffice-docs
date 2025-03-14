@@ -2,9 +2,9 @@
 uid: help-nl-currency
 title: Valuta
 description: Valuta
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: valuta, verkoop
+author: SuperOffice RnD
+date: 03.14.2025
 topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -18,7 +18,7 @@ Op het scherm Verkoop van SuperOffice CRM geeft u het verkoopbedrag, de kosten e
 > [!NOTE]
 > Als u het gebruik van valuta wilt inschakelen, gaat u naar **Voorkeuren** > **Gebruik van valuta inschakelen**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst Algemeen - Valuta][1]
 

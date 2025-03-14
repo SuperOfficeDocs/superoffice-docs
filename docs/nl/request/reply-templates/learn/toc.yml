@@ -1,22 +1,13 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Werken met antwoordsjablonen
-  topicHref: create.md
-  items:
-  - name: Antwoordsjabloon maken
-    href: create.md
-  - name: Bestaande sjabloon kopiëren
-    href: copy.md
-  - name: Een antwoordsjabloon vertalen
-    href: new-language.md
-  - name: Antwoordsjabloon bewerken
-    href: edit.md
-  - name: Antwoordsjablonen verwijderen
-    href: delete.md
-  - name: Zoeken naar antwoordsjabloon
-    href: find.md
-  - name: Mappen met antwoordsjablonen beheren
-    href: manage-folders.md
+- name: Antwoordsjabloon maken
+  href: create.md
+- name: Een antwoordsjabloon vertalen
+  href: new-language.md
+- name: Antwoordsjabloon bewerken of verwijderen
+  href: edit.md
+- name: Mappen met antwoordsjablonen beheren
+  href: manage-folders.md
 - name: Variabelen antwoordsjabloon
   href: template-variables.md

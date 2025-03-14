@@ -20,7 +20,7 @@ Met de WebTools [installeert][4] u:
 
 Lees meer over het verbinden van [e-mail en documenten][5].
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [WebTools installeren][3]
 * [Het Postvak IN instellen][6]

@@ -7,9 +7,9 @@ keywords: selectie, etiket, afdrukken
 date: 10.08.2024
 version: 10.3.10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 ---
 
 # Etiketten afdrukken

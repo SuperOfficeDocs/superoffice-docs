@@ -11,11 +11,11 @@ language: nl
 
 # Standaardarchivering aan-/uitzetten
 
-Als u alle e-mails wilt [archiveren][1] die u vanuit uw e-mailclient in SuperOffice CRM verzendt schakelt u de standaardfunctie archiveren in door een van de opties onder **E-mail standaard archiveren wanneer:** in het dialoogvenster **SuperOffice CRM****opties** te selecteren. Alle e-mails die u verzendt, worden dan standaard gearchiveerd naar SuperOffice CRM.
+Als u alle e-mails wilt [archiveren][1] die u vanuit uw e-mailclient in SuperOffice CRM verzendt schakelt u de standaardfunctie archiveren in door een van de opties onder **E-mail standaard archiveren wanneer:** in het dialoogvenster **SuperOffice CRM opties** te selecteren. Alle e-mails die u verzendt, worden dan standaard gearchiveerd naar SuperOffice CRM.
 
 Klik op de knop **Archiveren is AAN/UIT** in het nieuwe e-mailvenster om de standaardfunctie archiveren in of uit te schakelen voor e-mails die in uw e-mailclient zijn gemaakt.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [E-mails archiveren][3]
 

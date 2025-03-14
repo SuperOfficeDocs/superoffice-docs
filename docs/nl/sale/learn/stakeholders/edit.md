@@ -2,11 +2,13 @@
 uid: help-nl-sale-stakeholder-edit
 title: Belanghebbenden bewerken
 description: Het bewerken en verwijderen van belanghebbenden in een verkoop in SuperOffice.
+keywords: Belanghebbende bijwerken, belanghebbende bewerken, belanghebbende verwijderen, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende, verkoop
 keywords: verkoop, belanghebbend, aandeelhouder, stakeholder
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 03.14.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -39,7 +41,7 @@ U kunt de velden **Verkooprol** en **Opmerking** voor belanghebbenden bijwerken,
 
 1. Selecteer de belanghebbenden die u wilt verwijderen uit de lijst in het sectietabblad **Belanghebbenden**.
 
-1. Klik op **Verwijderen**. In het bevestigingsdialoogvenster dat verschijnt, klikt u op **Ja** om te bevestigen.
+1. Klik op **Verwijderen**. In het bevestigingsdialoogvenster dat verschijnt, klikt u op **Ja**.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

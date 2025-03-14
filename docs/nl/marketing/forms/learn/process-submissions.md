@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 03.19.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Formulierverzendingen verwerken
@@ -74,7 +74,7 @@ In het venster **Formulierinzending**:
 
 ![Formulierverzending, Gegevens van formulier -screenshot][img1]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Formulierverzendingen traceren en statistieken weergeven][1]
 * [Analyseer uw mailingresultaten][4]

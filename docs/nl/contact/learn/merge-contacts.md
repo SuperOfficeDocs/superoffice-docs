@@ -1,55 +1,62 @@
 ---
 uid: help-nl-contact-merge
-title: Contactpersonen samenvoegen
-description: Contactpersonen samenvoegen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: bedrijf
+title: Personen samenvoegen
+description: Leer hoe u dubbele personen in SuperOffice CRM samenvoegt om activiteiten, verkopen en projectlidmaatschappen te consolideren. Bevat stapsgewijze instructies voor het gebruik van het dialoogvenster Personen samenvoegen.
+keywords: Personen samenvoegen, contact, persoon
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Contactpersonen samenvoegen
+# Personen samenvoegen
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-Als een fysieke persoon in SuperOffice CRM is geregistreerd als twee verschillende contactpersonen, kunt u deze contactpersonen samenvoegen. Bijvoorbeeld als de persoon onder twee verschillende namen bij hetzelfde bedrijf was geregistreerd ("Jonathan Clark" en "Jonathon Clarke"), of als de persoon was geregistreerd bij zowel zijn oude als zijn nieuwe werkgever.
+Als dezelfde persoon onder verschillende namen of bedrijven in SuperOffice CRM is geregistreerd (zoals "Jonathan Clark" en "Jonathon Clarke"), kunt u hun contactrecords samenvoegen om activiteiten, verkopen en projectlidmaatschappen te consolideren.
 
-Projectlidmaatschap en activiteiten worden verplaatst naar de doelcontactpersoon. De broncontactpersoon kan worden verwijderd of worden gemarkeerd als ex-werknemer.
+> [!NOTE]
+> U kunt geen personen (SuperOffice-gebruikers) in uw eigen bedrijf samenvoegen. Wel kunt u een persoon van een ander bedrijf samenvoegen met een persoon in uw eigen bedrijf.
 
-1. Open het dialoogvenster **Personen samenvoegen** en voer een van de volgende handelingen uit:
-    * In het scherm Bedrijf: Ga naar het sectietabblad **Personen**, selecteer en klik met de rechtermuisknop op een of twee personen die u wilt samenvoegen, selecteer **Personen beheren** en **Personen samenvoegen**.
-    * In het scherm Persoon: Ga naar de gewenste persoon, klik op de knop ![pictogram][img1] **Taak** in het visitekaartje en selecteer **Personen beheren** en **Personen samenvoegen**.
+## Stappen
 
-2. Als u slechts één contactpersoon hebt geselecteerd, selecteert u een andere contactpersoon onder **Aan** (begin te typen als u een persoon wilt zoeken). De twee personen die u gaat samenvoegen, worden nu weergegeven onder **Van** en **Naar**.
+1. Open het dialoogvenster **Personen samenvoegen**:
 
-    > [!TIP]
-    > Als u wilt schakelen tussen de contactpersonen **Van** en **Naar** klikt u op de ![pictogram][img2] knop.
+    * In het **scherm Persoon**: Ga naar de gewenste persoon, klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakknop"></i> en selecteer **Personen beheren** > **Personen samenvoegen** in het menu.
 
-3. Selecteer een van de volgende opties onder **Actie bij \[contact/company\] na samenvoegen**:
-    * **Verwijderen...**: als u deze optie selecteert, wordt de broncontactpersoon na het samenvoegen verwijderd.
-        Bijvoorbeeld als u dezelfde persoon twee keer bij hetzelfde bedrijf hebt geregistreerd.
-    * **Markeren als voormalige werknemer**: als u deze optie selecteert, wordt de bronpersoon na het samenvoegen gemarkeerd als een voormalige werknemer.
-        Bijvoorbeeld als iemand van baan is veranderd, maar u nog steeds wilt dat hij of zij onder het oude bedrijf wordt geregistreerd.
+    * In het **scherm Bedrijf**: Ga naar het sectietabblad **Personen**, selecteer één of twee Personen, klik met de rechtermuisknop en kies **Personen beheren** > **Personen samenvoegen**.
 
-4. Selecteer een van de volgende opties bij **Actie op alle bestaande activiteiten en verkopen**:
+1. Als u slechts één persoon hebt geselecteerd, kies dan een tweede persoon onder **Aan**. Begin te typen om te zoeken naar de persoon. Om de Personen bij **Van** en **Naar** te wisselen, klikt u op de pijlknop <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
+
+1. Onder **Actie bij \[bedrijf/persoon\] na samenvoegen**, kies een van de volgende opties:
+
+    * **Verwijderen van \[bronpersoon\]:** Verwijdert de bronpersoon na het samenvoegen (handig voor duplicaten).
+    * **Markeren als voormalige werknemer:** Markeert de bronpersoon als een voormalige werknemer (handig als de persoon van baan is veranderd).
+
+1. Onder **Actie op alle bestaande activiteiten en verkopen**, kies een van de volgende opties:
 
     [!include[Select action](../../learn/includes/select-action-on-activity.md)]
 
-    [!include[Preview results](../../learn/includes/note-preview-results.md)]
+1. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
 
-5. Klik op **Samenvoegen**. De contactpersonen worden samengevoegd. Projectlidmaatschappen en lidmaatschappen van statische selecties worden verplaatst.
+    * Alle details worden samengevoegd.
+    * Activiteiten en verkopen blijven gekoppeld aan de doelpersoon of worden verplaatst, afhankelijk van de geselecteerde optie.
+    * Project- en statische selectielidmaatschappen volgen het doelbedrijf.
+    * De opgegeven actie (verwijderen of markeren als voormalige werknemer) wordt toegepast op de bronpersoon.
 
-> [!NOTE]
-> U kunt contactpersonen (SuperOffice-gebruikers) in uw eigen bedrijf niet samenvoegen, maar u kunt wel een contactpersoon van een ander bedrijf samenvoegen met een contactpersoon in uw eigen bedrijf.
+![Dialoogvenster Personen samenvoegen met opties om dubbele Personen (inclusief hun activiteiten) te verwerken en post-samenvoegacties te kiezen. -screenshot][img4]
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Bedrijven samenvoegen][1]
+* [Verwijderde bedrijven en personen herstellen][2]
 
 <!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
+[2]: ../../learn/basics/deleting-elements.md#restore
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/info-ball.png
+[img4]: ../../../media/loc/en/contact/merge-contacts.png

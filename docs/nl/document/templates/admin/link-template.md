@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 07.12.2024
 version: 10
 topic: howto
-language: nl
 audience: settings
 audience_tooltip: Settings and maintenance
+language: nl
 ---
 
 # Een documentsjabloon toevoegen
@@ -18,10 +18,12 @@ Als u nieuwe sjablonen maakt of een standaardsjabloon wijzigt en hebt opgeslagen
 
 Sjablonen worden weergegeven als items in de lijst **Document - Sjabloon** en u koppelt een sjabloon met SuperOffice CRM door de sjabloon als een item in te voeren in de lijst.
 
-Bekijk deze video of volg de onderstaande stappen om te leren hoe u een documentsjabloon kunt toevoegen (videolengte - 2:30):
+Bekijk deze video of volg de onderstaande stappen om te leren hoe u een documentsjabloon kunt toevoegen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(videolengte - 2:30)
 
 ## Stappen
 
@@ -73,13 +75,13 @@ Bekijk deze video of volg de onderstaande stappen om te leren hoe u een document
 
 Geef de volgende informatie op op het tabblad **Details**:
 
-1. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op de pijl ![pictogram][img1] en een keuze te maken in de keuzelijst.
+1. Geef in het veld **Richting** op of de sjabloon uitgaand of binnenkomend is door te klikken op <i class="ph ph-caret-down" aria-label="Chevron"></i> en een keuze te maken in de keuzelijst.
 
 2. Kies in het veld **Documenttype** de optie **Document** of **Fax** als sjabloontype.
 
 3. In het veld **Document opgeslagen in** kunt u kiezen om het document op een andere plaats dan op de standaardplaats op te slaan.
 
-4. Klik in het veld **Intentie** op ![pictogram][img1] en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
+4. Klik in het veld **Intentie** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer een van de vooraf gedefinieerde opties in de lijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][4]).
 
     > [!TIP]
     > U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
@@ -127,7 +129,6 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

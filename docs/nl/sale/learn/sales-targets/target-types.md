@@ -1,7 +1,7 @@
 ---
 uid: help-nl-sales-target-types
 title: Een verkooptargettype met subtypen instellen
-description: "Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger."
+description: Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: verkoop
@@ -30,7 +30,7 @@ U kunt een targettype instellen voor zowel gebruikers als groepen naast andere t
 
 ## Nieuw targettype toevoegen
 
-1. Klik op **Nieuw targettype toevoegen**. Of klik op ![pictogram][img5] (**Target configureren**) op het tabblad om een bestaand targettype te bewerken.
+1. Klik op **Nieuw targettype toevoegen**. Of klik op <i class="ph ph-gear" aria-label="Gear"></i> (**Target configureren**) op het tabblad om een bestaand targettype te bewerken.
 
 2. Klik op **Targettype** om het targettype (dimensie) te selecteren dat u wilt gebruiken.
 
@@ -92,7 +92,7 @@ Als het gaat om de targettypen met de lijst met targetsubtypen, kunt u op de kno
 
 Als u een targettype wilt verwijderen, klikt u op de targetinstellingen en klikt u op de knop Verwijderen. Houd er rekening mee dat het verwijderen van een targettype een niet-omkeerbare actie is en dat alle gegevens voor het targettype in eerdere, huidige en toekomstige jaren worden verwijderd. Het standaard targettype Alle verkopen - Bedrag kan niet worden verwijderd.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Verkooptargets gebruiken op dashboardtegels][2]
 
@@ -101,7 +101,6 @@ Als u een targettype wilt verwijderen, klikt u op de targetinstellingen en klikt
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png

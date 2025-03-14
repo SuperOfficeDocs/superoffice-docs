@@ -15,7 +15,7 @@ Een statische selectie bevat alleen de leden die u individueel of door een zoeko
 
 Werken met statische selectie geeft u de mogelijkheid om handmatig selectieleden toe te voegen en te verwijderen, één voor één of via een zoekopdracht.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Selectie maken][2] - zelfstudie
 * [Leden toevoegen en verwijderen in statische selecties][3]

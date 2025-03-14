@@ -2,9 +2,9 @@
 uid: help-nl-email-inbox-options
 title: Opties
 description: Opties
+keywords: e-mail, postvak IN
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail, postvak IN
 topic: reference
 language: nl
 ---
@@ -18,23 +18,16 @@ Postvak IN bevat de volgende opties:
 | Pictogram | Beschrijving |
 |---|---|
 | Nieuw | Wordt gebruikt om [een nieuw bericht te maken][1]. |
-| Verwijderen | |
-| Zoeken | typ tekst in dit veld om met zoeken te beginnen in de geopende map. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | typ tekst in dit veld om met zoeken te beginnen in de geopende map. |
 | POSTVAK IN | Wordt gebruikt om een map te selecteren. De standaardmap is Postvak IN. |
-| ![pictogram][img2] ![pictogram][img5] | Standaard worden de berichten gesorteerd op datum, met de nieuwste berichten bovenin de lijst. U kunt ook in oplopende of aflopende volgorde sorteren op afzender en onderwerp. |
+| <i class="ph ph-sort-ascending" aria-label="Sort icon"></i> <i class="ph ph-sort-descending" aria-hidden="true"></i> | Standaard worden de berichten gesorteerd op datum, met de nieuwste berichten bovenin de lijst. U kunt ook in oplopende of aflopende volgorde sorteren op afzender en onderwerp. |
 
 ## Werkbalk onderaan
 
 | Pictogram | Beschrijving |
 |---|---|
-| ![pictogram][img3] | Hiermee filtert u de berichten in het Postvak IN. |
-| ![pictogram][img4] | Hiermee vernieuwt u het postvak IN. |
+| <i class="ph ph-funnel" aria-label="Filter"></i> | Hiermee filtert u de berichten in het Postvak IN. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Hiermee vernieuwt u het postvak IN. |
 
 <!-- Referenced links -->
 [1]: compose.md
-
-<!-- Referenced images -->
-[img2]: ../../../../../common/icons/dropdown-arrow.png
-[img5]: ../../../../../common/icons/arrow-down-icon.png
-[img3]: ../../../../../common/icons/filter-icon.png
-[img4]: ../../../../../common/icons/refresh-icon.png

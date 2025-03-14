@@ -4,8 +4,8 @@ title: Een sjabloondocument maken
 description: Een sjabloondocument maken
 keywords: documentsjabloon, document, sjabloon
 author: Bergfrid Dias, Terje Nøstdahl, samuelholmstroem
-date: 07.31.2024
-version: 10
+date: 02.25.2025
+version: 10.5.2
 topic: howto
 language: nl
 ---
@@ -48,7 +48,7 @@ Om velden in uw sjabloon in te voegen, kunt u een van de volgende methoden gebru
 
 1. Typ in **Veldeigenschappen** uw [veldnaam][3] (zonder «»):
 
-    ![Veldeigenschappen -screenshot][img2]
+    ![Veldeigenschappen in Microsoft Word -screenshot][img2]
 
 1. Klik op **OK** en de variabele wordt in uw document ingevoegd:
 
@@ -107,6 +107,6 @@ Om de prijs per eenheid na kortingen weer te geven, kunt u een samenvoegveld zoa
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

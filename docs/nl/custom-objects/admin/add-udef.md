@@ -37,7 +37,7 @@ Bekijk deze video om erachter te komen hoe u uw eigen extra velden kunt maken in
 
 1. [Optioneel, pas de positie van het veld aan][3]. Dit vereist een licentie voor Development Tools!
 
-1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden ![pictogram][img1] en velden met niet-gepubliceerde wijzigingen ![pictogram][img2] worden vet weergegeven in de lijst **Velden**.
+1. Ga door met het toevoegen van velden. Klik op **Publiceren** als u klaar bent om het veld beschikbaar te maken voor SuperOffice-gebruikers. Niet-gepubliceerde velden  en velden met niet-gepubliceerde wijzigingen worden vet weergegeven in de lijst **Velden**.
 
 ## <a id="properties"></a>Veld eigenschappen
 
@@ -72,7 +72,7 @@ als u geen toestemming krijgt om een nieuw veld te maken, kan het zijn dat u ree
 
 Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoekbaar. Als u bijvoorbeeld geen doorzoekbare velden markeert, kunt u slechts zes decimale velden opgeven.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Velden plaatsen][3]
 * [Velden bewerken][4]
@@ -88,6 +88,4 @@ Vier van elk type veld (korte tekst, lange tekst, getal, decimaal) zijn doorzoek
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

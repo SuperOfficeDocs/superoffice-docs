@@ -24,7 +24,7 @@ AI kan die enorme gegevensverzamelingen omzetten in zinvolle informatie, waardoo
 
 AI kan u helpen inzicht te krijgen in de gegevens die u hebt en u helpen processen te automatiseren die tijd besparen. Het zal u ook helpen proactiever te zijn in uw klantbetrokkenheid.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Tekstanalyse][1]
 * [Categorisatie][2]

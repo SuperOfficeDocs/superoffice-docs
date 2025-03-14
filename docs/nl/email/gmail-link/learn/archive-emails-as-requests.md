@@ -29,7 +29,7 @@ U kunt een verzoek maken in SuperOffice Service op basis van een e-mail in Postv
 
 6. (optioneel) Selecteer in het bevestigingsbericht **Klik hier om het te bekijken** om het verzoek nader te bekijken.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Binnenkomende e-mail archiveren][1]
 * [Uitgaande e-mail archiveren][2]

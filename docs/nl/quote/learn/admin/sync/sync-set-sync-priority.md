@@ -18,11 +18,5 @@ Als SuperOffice is verbonden met verschillende ERP-systemen en er verschillende 
 1. Ga naar het tabblad **Synchroniseren** op het scherm Offerte/Synchroniseren.
 2. Klik op **Synchronisatieprioriteit instellen** onder aan de lijst **ERP-verbindingen**.
 3. Selecteer in het dialoogvenster een ERP-verbinding waarvoor u de synchronisatieprioriteit wilt instellen.
-4. Klik op de ![pictogram][img1] ![pictogram][img2] pijlen onderaan om de prioriteit in te stellen.
+4. Klik op <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> onderaan om de prioriteit in te stellen.
 5. Klik op **Gereed** wanneer u de prioriteit voor de ERP-verbindingen hebt ingesteld.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

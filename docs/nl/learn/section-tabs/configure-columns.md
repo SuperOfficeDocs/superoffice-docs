@@ -4,8 +4,8 @@ title: De kolomweergave wijzigen
 description: De kolomweergave wijzigen
 keywords: sectietabblad, archief, kolom
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,10 +16,12 @@ language: nl
 
 U kunt de kolommen in de sectietabbladen aanpassen, zodat ze precies de informatie weergeven die u nodig hebt. U kunt wijzigen welke kolommen worden weergegeven, evenals hun volgorde en breedte.
 
-Door kolommen te configureren, kunt u weergegeven informatie aanpassen en met CRM-gegevens werken zoals u dat nodig hebt. Leer hoe u kolommen configureert met deze video of volg de onderstaande stappen (videolengte - 1:44):
+Door kolommen te configureren, kunt u weergegeven informatie aanpassen en met CRM-gegevens werken zoals u dat nodig hebt. Leer hoe u kolommen configureert met deze video of volg de onderstaande stappen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/IjlPSN-u0MA]
+
+(videolengte - 1:44)
 
 ## De volgorde van de kolommen wijzigen
 
@@ -28,7 +30,7 @@ Als u de volgorde van de kolommen op een sectietabblad wilt wijzigen, klikt u op
 ## Kolom toevoegen of verwijderen
 
 1. Ga naar het sectietabblad dat u wilt bewerken.
-2. Klik ![pictogram][img1] rechts van de kolomkoppen. Er wordt een dialoogvenster weergegeven.
+2. Klik <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen. Er wordt een dialoogvenster weergegeven.
 3. Selecteer of schakel de betreffende kolommen uit. Gebruik de velden **Kolommen filteren** om de weergegeven kolommen te filteren.
 4. Klik op **OK**.
 
@@ -71,11 +73,11 @@ Je kunt berekeningen uitvoeren zoals som, gemiddelde of min/max op datum- en get
 U kunt instellen dat de kolombreedte automatisch wordt aangepast aan de inhoud van de kolom. Wanneer u een kolom toevoegt of verwijdert, wordt de kolombreedte aangepast aan de meest geschikte breedte. Als er te veel kolommen zijn voor de beschikbare ruimte, wordt er een horizontale schuifbalk weergegeven.
 
 1. Ga naar het sectietabblad dat u wilt bewerken.
-2. Klik ![pictogram][img1] rechts van de kolomkoppen. Er wordt een dialoogvenster weergegeven.
+2. Klik <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen. Er wordt een dialoogvenster weergegeven.
 3. Selecteer **Kolombreedte automatisch aanpassen**.
 4. Klik op **OK**.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Gegroepeerde lijsten][3]
 * [De sectietabbladen filteren][1]
@@ -87,7 +89,6 @@ U kunt instellen dat de kolombreedte automatisch wordt aangepast aan de inhoud v
 [2]: export-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../media/loc/en/company/company-sectiontab-settings.png
-[img3]: ../../../media/loc/en/company/company-sales-column-calculation.png
+[img2]: ../../../media/loc/en/learn/section-tab-sum-amount.png
+[img3]: ../../../media/loc/en/learn/group-sales-by-status.png
 [img5]: ../../../media/loc/en/sale/currency-adjusted-sale-amount-calculation.png

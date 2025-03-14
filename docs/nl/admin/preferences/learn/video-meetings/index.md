@@ -31,7 +31,7 @@ Om ervoor te zorgen dat de gebruikers videovergaderingen in het dialoogvenster V
 
 Elke videoprovider heeft zijn eigen vereisten om zijn services te verbinden met SuperOffice CRM. Bijvoorbeeld, u heeft een Microsoft 365-abonnement voor bedrijven nodig. Videomeetings met Microsoft Teams ondersteunen geen Persoonlijke of Familiale accounts.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Videovergaderingen configureren][2]
 * [E-mailinstellingen voor videovergaderingen][3]

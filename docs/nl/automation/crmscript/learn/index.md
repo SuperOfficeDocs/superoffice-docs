@@ -2,9 +2,9 @@
 uid: help-nl-crmscript
 title: CRMScript
 description: CRMScript is een functie waarmee u taken in of het gedrag van SuperOffice kunt automatiseren of wijzigen.
+keywords: CRMScript
 author: SuperOffice RnD
 date: 02.22.2023
-keywords: CRMScript
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -19,7 +19,7 @@ De verschillende hulpmiddelen, macro's en scripts, triggers en geplande taken, h
 
 ## Toegang tot CRMScript
 
-Om toegang te krijgen tot de functies in CRMScript, opent u SuperOffice-instellingen en onderhoud en klikt u op ![pictogram][img1] **CRMScript** in de navigator.
+Om toegang te krijgen tot de functies in CRMScript, opent u SuperOffice-instellingen en onderhoud en klikt u op <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** in de navigator.
 
 Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in het systeem, zoals wanneer een nieuwe verkoop wordt gemaakt of een verzoek wordt gesloten. Triggers kunnen in stilte reageren op wat er gebeurt, of de bewerking blokkeren en de gebruiker voorzien van uitleg hierover.
 
@@ -31,7 +31,7 @@ Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in he
 * [Foutopsporingssessies][4] - Zoek de fouten in uw scripts en macro's en verhelp deze.
 * [Traceren][5] - Leg alle details van de uitvoering van een script of macro vast en sla deze op in een logboek.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [De CRMScript-taal leren][6]
 * [CRMScript API-referentie][7]
@@ -44,6 +44,3 @@ Triggers zijn scripts die worden uitgevoerd voor specifieke gebeurtenissen in he
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

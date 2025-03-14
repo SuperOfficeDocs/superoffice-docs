@@ -1,86 +1,99 @@
 ---
 uid: help-nl-company-create
-title: Nieuwe bedrijven maken
-description: Nieuwe bedrijven maken
-author: SuperOffice RnD
-date: 11.29.2024
-keywords: bedrijf
+title: Een nieuw bedrijf maken
+description: Stappen om een nieuw bedrijf te maken
+keywords: nieuw bedrijf, bedrijf maken, bedrijfsinteresses, bedrijf
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Een nieuw bedrijf maken
 
-In het scherm Bedrijf kunt u op verschillende niveaus informatie over bedrijven registreren. Deze niveaus worden weergegeven op de drie tabbladen **Bedrijf**, **Meer** en **Interesses**. Om een bedrijf in te geven, maakt u gebruik van het tabblad **Opmerking**
+In het **Bedrijf-scherm** kunt u bedrijven aanmaken en beheren, inclusief aangepaste velden en aanvullende gegevens. Bekijk deze [videohandleiding over het maken van een nieuw bedrijf][1].
 
-Bekijk de video over [een bedrijf maken][1].
+## Stappen om een bedrijf te maken
 
-## Het tabblad Bedrijf
+1. Klik op **Nieuw** in de bovenste balk en selecteer **Bedrijf**.
 
-1. Klik op **Nieuw** op de bovenste balk en selecteer **Bedrijf**.
+2. Voer in het tabblad **Bedrijf** de volgende informatie in:
+    * **Bedrijfsnaam** (verplicht, rood gemarkeerd).
+    * **Land**. Het adresformaat wordt automatisch bijgewerkt op basis van het geselecteerde land. Uw thuisland wordt standaard geselecteerd en kan worden aangepast in **Instellingen** > **Systeem**.
+    * Vul indien nodig aanvullende velden in, zoals **Postcode**, **Telefoon**, **E-mail** en **Website**.
 
-1. Voer in de lege bedrijfskaart de naam van het bedrijf in het veld boven aan het tabblad **Bedrijf** in. ***Bedrijfsnaam*** is verplicht en gemarkeerd met rode tekst.
+    ![Lege bedrijfskaart met verplichte en optionele velden -screenshot][img1]
 
-    ![Lege bedrijfskaart -screenshot][img1]
+3. Kies een categorie en branche in de velden **Categorie** en **Branche**. Beide zijn verplicht om de gegevens op te slaan.
 
-1. Typ in het veld **Land** het land van het bedrijf. De correcte adresnotatie voor dit land wordt automatisch bijgewerkt in het tabblad **Bedrijf**. U kunt uw huidige thuisland instellen via **Systeem** in de voorkeuren.
+4. (Optioneel) Vul meer details in:
+    * Ga naar het **Meer-tabblad** om [aangepaste velden in te voeren][12].
+    * Ga naar het **Interesses-tabblad** om [interesses toe te voegen](#interests-tab).
+    * Ga naar het **Opmerking-tabblad** om [notities toe te voegen][5].
 
-1. Vul de benodigde gegevens in de andere velden in.
+5. Klik op **Opslaan** om de gegevens op te slaan.
 
-    > [!NOTE]
-    > Standaardveldwaarden en de lijstwaarden (zoals bedrijf en categorie) worden opgegeven in het [dialoogvenster Voorkeuren][3].
+## <a id="fields"></a>Belangrijke velden en hun betekenis
 
-1. Klik op **Opslaan** om de ingevoerde informatie op te slaan. Vervolgens kunt u op het [tabblad Meer][12] klikken om extra aangepaste informatie voor het bedrijf in te voeren.
+De volgende velden zijn beschikbaar op de bedrijfskaart. Sommige velden worden automatisch ingevuld, terwijl andere handmatige invoer vereisen.
 
-### Wat in de verschillende velden wordt ingevoerd
+> [!NOTE]
+> Velden en lay-out kunnen variëren afhankelijk van [Schermontwerper][9]-instellingen en andere aanpassingen.
 
-[!include[Steps to populate company fields](includes/company-fields.md)]
+* **Afdeling:** Specificeer een afdeling als het bedrijf meerdere filialen of divisies heeft.
+* **Adresvelden:** Worden automatisch aangepast op basis van het geselecteerde land.
+* **Postcode en plaats:** Als u een postcode invoert die in de SuperOffice-database is gedefinieerd, wordt de plaats automatisch ingevuld als dit veld leeg is. U kunt ook een plaatsnaam invoeren en een postcode wordt voorgesteld.
+* **Telefoon/Fax/E-mail/Website:** Voer meerdere vermeldingen in met beschrijvingen, zoals *Centrale*. Klik buiten de tabel of druk op TAB om de invoer te beëindigen.
+* **Onze contactpersoon:** Uw naam wordt automatisch toegewezen. Klik op de pijl om iemand anders uit uw organisatie te kiezen.
+* **Hoofdcontactpersoon:** Kies de persoon die de hoofdcontactpersoon voor deze klant moet zijn. Personen moeten eerst aan het bedrijf worden toegevoegd.
+* **Code:** Wordt automatisch gegenereerd na het opslaan van het bedrijf. De code is gebaseerd op de bedrijfsnaam, maar kan handmatig worden gewijzigd.
+* **Nummer:** Het eerstvolgende beschikbare bedrijfsnummer wordt automatisch toegewezen. Standaard begint dit nummer bij 10001 en wordt het met 1 verhoogd voor elk nieuw bedrijf. Deze instelling kan worden aangepast in **Instellingen en onderhoud**.
+* **BTW-nr.:** Voer het BTW-nummer of een vergelijkbare identificatie van het bedrijf in.
+* **Stoppen** en **Geen mailings**-selectievakjes:
+  * **Stoppen:** Geeft aan dat het bedrijf bijzondere aandacht vereist. Als u **Stoppen** selecteert, wordt een stopteken weergegeven op de bedrijfskaart. U kunt ook een opmerking toevoegen om de reden te verklaren. Deze optie is alleen beschikbaar in de bewerkingsmodus.
+  * **Geen mailings:** Voorkomt dat er direct mailings naar dit bedrijf worden gestuurd. Deze optie is alleen beschikbaar in de bewerkingsmodus.
 
-## <a id="interests-tab"></a> Het tabblad Interesses (scherm Bedrijf)
+[!include[3 udef](../../learn/includes/more-udef.md)]
+
+## Duplicaten detecteren
+
+Als u een bedrijf invoert dat lijkt op een bedrijf dat al in SuperOffice CRM staat, wordt het **Duplicaten**-dialoogvenster weergegeven. Dit helpt om [per ongeluk dubbele vermeldingen te voorkomen][2].
+
+* Controleer de weergegeven duplicaten om gegevensconsistentie te waarborgen.
+* Kies of u met de nieuwe record wilt doorgaan of naar een van de vermelde bedrijven wilt gaan.
+
+## <a id="interests-tab"></a>Interesses toevoegen
+
+Interesses kunnen u helpen om gerichte selecties te maken. Bijvoorbeeld, u kunt *Referentieaccount* als interesse definiëren en een selectie maken voor marketingcampagnes gericht op deze klanten.
 
 1. Selecteer het tabblad **Interesses**.
 
-2. In de bewerkingsmodus kiest u interesses door de bijbehorende selectievakjes in te schakelen. In Instellingen en onderhoud is vastgelegd welke interesses worden weergegeven.
+2. Selecteer in de bewerkingsmodus de relevante selectievakjes. Beschikbare interesses worden gedefinieerd in **Instellingen en onderhoud**.
 
     > [!NOTE]
-    > wanneer de weergavemodus van het tabblad is ingeschakeld, worden alleen de geselecteerde interesses weergegeven. Het is derhalve mogelijk dat u uit meer interesses kunt kiezen wanneer de bewerkingsmodus is ingeschakeld.
+    > In de weergavemodus worden alleen de geselecteerde interesses weergegeven. In de bewerkingsmodus kunnen aanvullende opties zichtbaar zijn.
 
-3. Wanneer u op het tabblad **Interesses** een of meer interesses selecteert, wordt naast de naam van het tabblad een stip weergegeven.
+3. Als u een of meer interesses selecteert, verschijnt er een stip naast de naam van het tabblad **Interesses**.
 
-    ![Tabblad Interesses bedrijf -screenshot][img2]
+    ![Het tabblad Interesses met selectievakjes voor bedrijfsinteresses -screenshot][img2]
 
-4. Wanneer u op de drie tabbladen in het scherm Bedrijf de benodigde informatie hebt ingevoerd, klikt u op **Opslaan**. U hebt nu een bedrijfskaart voor het nieuwe bedrijf aangemaakt.
+4. Klik op **Opslaan** om de geselecteerde interesses op te slaan.
 
-> [!TIP]
-> interesses kunnen goed van pas komen bij het definiëren van selecties. Als u bijvoorbeeld *Referentieaccount* hebt gedefinieerd als interesse, kunt u een selectie maken met daarin alle referentieaccounts. Dit maakt het makkelijk een marketingcampagne te maken die op deze klantgroep is gericht.
-
-## De tab WWW (scherm Bedrijf)
-
-[!include[About the www tab](../../learn/includes/www-tab.md)]
-
-## De tab ERP (scherm Bedrijf)
-
-[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
-
-## De tab Opmerking (scherm Bedrijf)
-
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
-
-## Duplicaten
-
-Als u een bedrijf probeert in te voeren dat lijkt op een bedrijf dat al in SuperOffice CRM staat, wordt het dialoogvenster **Duplicaten** weergegeven om te voorkomen dat u [onbedoeld een bestaand bedrijf registreert.][2] Kies of u met de huidige record wilt blijven werken of ga naar een van de records die onder aan het dialoogvenster worden weergegeven.
-
-[!include[Tip](../../learn/includes/tip-open-website.md)]
-
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Record toevoegen als een favoriet][4]
+* [Dialoogvenster Voorkeuren][3] – standaardwaarden en lijstwaarden
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/company--contact/add-company.mp4
 [2]: ../../learn/basics/duplicates.md
 [3]: ../../learn/getting-started/preferences.md
 [4]: ../../learn/basics/fav.md
+[5]: ../../learn/basics/notes.md
+[9]: ../../ui/screen-designer/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->

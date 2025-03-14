@@ -27,7 +27,7 @@ Bekijk deze video voor meer informatie over het instellen van uw Gmail-link en h
 
 1. De laatste stap voor beide browsers is om in te loggen op uw SuperOffice CRM-account. SuperOffice en Gmail detecteren automatisch dat de extensie is toegevoegd.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Instellingen Gmail Link bewerken][8]
 

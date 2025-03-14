@@ -44,7 +44,7 @@ U kunt aangeven welke items u wilt opnemen in de gecombineerde selectie. Dit zij
 > [!NOTE]
 > als u de bedrijven die aan deze twee selecties zijn gekoppeld slechts wilt vergelijken, schakelt u het selectievakje **Alleen bedrijven vergelijken** in.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Gecombineerde selectie maken][1]
 

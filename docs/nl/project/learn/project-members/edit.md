@@ -2,7 +2,7 @@
 uid: help-nl-project-member-edit
 title: Projectleden bewerken
 description: Een projectlid in SuperOffice bewerken of verwijderen.
-keywords: project, lid
+keywords: projectlid bewerken, projectlid bijwerken, projectlid verwijderen, dialoogvenster Projectleden toevoegen/bewerken, projectlid, project
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
@@ -24,11 +24,11 @@ U kunt de velden **Functie** en **Opmerking** voor projectleden bijwerken of mee
 
 1. In het dialoogvenster **Projectleden toevoegen/bewerken** brengt u de benodigde wijzigingen aan:
 
-   * **Functie**: Werk de functie bij voor de geselecteerde projectleden.
-   * **Opmerking**: Bewerk de opmerkingen om extra details over de functie van de leden binnen het project toe te voegen.
+    * **Functie:** Werk de functie bij voor de geselecteerde projectleden.
+    * **Opmerking:** Bewerk de opmerkingen om extra details over de functie van de leden binnen het project toe te voegen.
 
-   > [!TIP]
-   > U kunt meerdere projectleden selecteren (houd **Ctrl** of **Shift** ingedrukt). Alle wijzigingen in de velden **Functie** of **Opmerking** worden toegepast op alle geselecteerde leden.
+    > [!TIP]
+    > U kunt meerdere projectleden selecteren (houd **Ctrl** of **Shift** ingedrukt). Alle wijzigingen in de velden **Functie** of **Opmerking** worden toegepast op alle geselecteerde leden.
 
 1. Klik op **OK** om uw wijzigingen op te slaan, of op **Annuleren** om ze te verwerpen.
 
@@ -42,5 +42,3 @@ U kunt de velden **Functie** en **Opmerking** voor projectleden bijwerken of mee
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
-
-<!-- Referenced images -->

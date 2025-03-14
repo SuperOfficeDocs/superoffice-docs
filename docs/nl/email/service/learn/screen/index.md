@@ -19,7 +19,7 @@ Het tabblad **Postbussen** bevat een lijst met geïnstalleerde postbussen. Deze 
 * **Doorstuuradres**: Wanneer u de e-mailfuncties in SuperOffice niet gebruikt, wordt het e-mailbericht naar dit adres doorgestuurd.
 * **Protocol**: Het protocol dat door de postbus wordt gebruikt.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Postbussen maken][1]
 * [Postbussen verwijderen][2]

@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 06.17.2024
 version: 10.3.5
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Formulieracties definiëren
@@ -63,7 +63,7 @@ Hier kunt u acties selecteren die worden uitgevoerd wanneer een formulier wordt 
 > [!NOTE]
 > Houd er bij het bijwerken van een formulier rekening mee dat dit mogelijk wordt gebruikt in meerdere mailings en/of geautomatiseerde flows. Zorg ervoor dat er geen dubbele of conflicterende acties zijn.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Formulieren publiceren][2]
 
@@ -71,7 +71,7 @@ Hier kunt u acties selecteren die worden uitgevoerd wanneer een formulier wordt 
 [2]: publish.md
 [6]: process-submissions.md
 [7]: ../../mailing/learn/create/tutorial-form-mailing.yml
-[8]: ../../../request/learn/howto/create.md
+[8]: ../../../request/learn/create.md
 [9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
 
 <!-- Referenced images -->

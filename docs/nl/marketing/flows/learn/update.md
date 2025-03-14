@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.17.2024
 version: 10.3.7
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Flow bewerken
@@ -64,7 +64,7 @@ Handige bronnen:
 ## Stap verplaatsen, dupliceren of verwijderen
 
 * **Verplaatsen:** Klik op een stap en sleep deze naar een nieuwe locatie.
-* **Dupliceren:** Wijs naar een stap en klik op het **Dupliceren** pictogram ![icon][img11]. Hiermee wordt een nieuwe stap gemaakt op basis van de huidige en toegevoegd als volgende stap. Gebruik deze optie om een stap opnieuw te gebruiken in dezelfde flow.
+* **Dupliceren:** Wijs naar een stap en klik op het **Dupliceren** pictogram (<i class="ph ph-copy" aria-hidden="true"></i>). Hiermee wordt een nieuwe stap gemaakt op basis van de huidige en toegevoegd als volgende stap. Gebruik deze optie om een stap opnieuw te gebruiken in dezelfde flow.
 * **Verwijderen:** Wijs naar een stap en klik op het rode X-pictogram. Hiermee wordt de stap uit de flow verwijderd (maar de inhoud ervan niet).
 
 > [!NOTE]
@@ -115,6 +115,3 @@ Ga naar het tabblad **Flow** om te controleren of er iemand op de tak zit. Indie
 [9]: define-flow-actions.md#create
 [10]: ../../forms/learn/create.md
 [11]: ../../../search-options/selection/learn/create/tutorial.yml
-
-<!-- Referenced images -->
-[img11]: ../../../../../common/icons/duplicate-icon.png

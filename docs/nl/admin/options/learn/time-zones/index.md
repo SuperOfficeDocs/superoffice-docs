@@ -21,7 +21,7 @@ Voordat u tijdzones gebruikt, moet u de [tijdzonefunctie inschakelen][1].
 
 Daarnaast kunt u naar **Voorkeuren** gaan om de tijdzonekiezer weer te geven en de standaardtijdzone in te stellen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Selecteer welke tijdzones u wilt weergeven][2]
 

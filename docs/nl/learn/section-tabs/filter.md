@@ -4,8 +4,8 @@ title: De sectietabbladen filteren
 description: Filters gebruiken op de sectietabbladen.
 keywords: sectietabblad, filter
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,18 +24,19 @@ Filters zijn persoonlijk. De filters die u gebruikt, zijn alleen voor u zichtbaa
 
 er kunnen meerdere filters tegelijk actief zijn. Als een sectietabblad niet de verwachte records weergeeft, moet u uw filterinstellingen controleren.
 
-Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte video of lees de onderstaande instructies (videolengte - 2:10):
+Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte video of lees de onderstaande instructies:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(videolengte - 2:10)
 
 ## Opties
 
 | Optie | Beschrijving |
 |---|---|
-| ![pictogram][img2] (het filterpictogram) | U kunt de tabbladen van activiteiten en verkoopsecties filteren op datum, gebruikers en groepen. |
+| <i class="ph ph-funnel" aria-label="filterpictogram"></i> | U kunt de tabbladen van activiteiten en verkoopsecties filteren op datum, gebruikers en groepen.  Klik op het trechterpictogram in een kolomkop om op die kolom te filteren.|
 | Activiteitenfilters (selectievakjes) | U kunt activiteiten filteren op type (vooraf gedefinieerde filters). Klik op de pijl en selecteer wat u wilt doen. |
-| ![pictogram][img3] (kolomfilter) | Klik op het trechterpictogram in een kolomkop om op die kolom te filteren. |
 
 > [!NOTE]
 > Het kolomfilter is niet in alle sectietabbladen beschikbaar. Niet alle kolommen kunnen worden gefilterd.
@@ -46,7 +47,7 @@ Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte
 
 2. Selecteer de sectietabbladen **Activiteiten** of **Verkopen**.
 
-3. Klik op het ![pictogram][img2] filterpictogram.
+3. Klik op <i class="ph ph-funnel" aria-label="filterpictogram"></i>.
 
 4. Geef in het vak **Van** het beginpunt op voor de activiteiten of verkopen die u wilt weergeven.
 
@@ -67,13 +68,13 @@ Leer hoe u weergaven kunt aanpassen door kolommen te configureren met deze korte
 7. Klik op **OK**. Op de tabbladen worden alle activiteiten of verkopen weergegeven die voldoen aan de criteria die u hebt opgegeven.
 
 > [!TIP]
-> Plaats de muisaanwijzer op het ![pictogram][img2] filterpictogram om de actieve filterinstellingen weer te geven.
+> Plaats de muisaanwijzer op het filterpictogram om de actieve filterinstellingen weer te geven.
 >
 > Klik op **Aantal tonen** in de rechterbenedenhoek van het sectietabblad om te zien hoeveel records worden weergegeven. Het aantal hangt af van het aantal actieve filters.
 
 ## Het kolomfilter activeren
 
-1. Klik ![pictogram][img1] rechts van de kolomkoppen en selecteer **Filter inschakelen**.
+1. Klik <i class="ph ph-funnel" aria-label="filterpictogram"></i> rechts van de kolomkoppen en selecteer **Filter inschakelen**.
 
     ![Klik op de knop Instellingen in het archief dat u hebt geselecteerd. -screenshot][img11]
 
@@ -97,13 +98,9 @@ Nu hebben alle kolommen in uw archief een trechterpictogram erachter.
 
     Als u bijvoorbeeld op zoek bent naar een document dat is gemaakt door een van uw collega's, selecteert u hun naam en het type document dat u zoekt.
 
-    ![Klik op Filter om het in te stellen en het gefilterde archief weer te geven -screenshot][img13]
-
 1. Klik op **Filter**. Het sectietabblad wordt bijgewerkt met de records die overeenkomen met het filter. Gefilterde kolommen worden weergegeven in vette tekst.
 
 1. Herhaal de vorige stap om op een tweede kolom te filteren.
-
-    ![Zie het archief met minder entiteiten.-screenshot][img14]
 
 ## Filter verwijderen
 
@@ -113,9 +110,20 @@ Nu hebben alle kolommen in uw archief een trechterpictogram erachter.
 
 ## Het kolomfilter resetten
 
-Klik op ![pictogram][img2] en **Opnieuw instellen** om het filter te herstellen.
+Klik op <i class="ph ph-funnel" aria-label="filterpictogram"></i> en **Opnieuw instellen** om het filter te herstellen.
 
-## Verwante onderwerpen
+## Problemen oplossen
+
+* **Ik zie het trechterpictogram niet:**
+    Zorg ervoor dat kolomfilters zijn ingeschakeld. Klik op het <i class="ph ph-gear" aria-label="Tandwiel"></i>-pictogram naast de kolomkoppen en selecteer **Filter inschakelen**.
+
+* **De verwachte records worden niet weergegeven:**
+    Controleer uw actieve filters door over het trechterpictogram te bewegen of bekijk uw filterinstellingen per kolom. Reset filters indien nodig door op **Resetten** te klikken.
+
+* **Ik zie de kolom die ik nodig heb niet:**
+    Klik op het <i class="ph ph-gear" aria-label="Tandwiel"></i>-pictogram naast de kolomkoppen en controleer **Geselecteerde kolommen**. Voeg de ontbrekende kolom toe door deze uit de lijst te selecteren.
+
+## Gerelateerde inhoud
 
 * [Lijsten groeperen][1]
 * [De lijst met selectieleden filteren][2]
@@ -125,11 +133,5 @@ Klik op ![pictogram][img2] en **Opnieuw instellen** om het filter te herstellen.
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

@@ -2,10 +2,10 @@
 uid: help-nl-project-members
 title: Projectleden
 description: Projectleden
-keywords: project, lid
+keywords: Sectietabblad projectleden, projectlid, project
 author: SuperOffice RnD
-date: 12.04.24
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM

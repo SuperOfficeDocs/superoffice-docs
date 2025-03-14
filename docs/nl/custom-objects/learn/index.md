@@ -7,7 +7,7 @@ author: Bergfrid Dias
 date: 01.30.2024
 version: 10
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
 ---

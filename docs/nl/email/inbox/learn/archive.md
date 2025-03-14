@@ -2,9 +2,9 @@
 uid: help-nl-email-inbox-archive
 title: E-mails archiveren
 description: E-mails archiveren
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
 topic: howto
 language: nl
 ---
@@ -17,7 +17,7 @@ U kunt een binnenkomende e-mail archiveren (inclusief eventuele bijlagen) als ee
 
 1. Ga naar Postvak IN van de relevante map.
 2. Selecteer het gewenste bericht.
-3. Klik op **Archiveren** ![pictogram][img1].
+3. Klik op <i class="ph ph-archive" aria-hidden="true"></i> **Archiveren**.
 4. Klik op **E-mail archiveren**. Het [dialoogvenster **Document** wordt geopend][1].
 
 ## <a id="out"></a>Uitgaande e-mail archiveren
@@ -41,6 +41,3 @@ Als u een bericht wilt verzenden en het wilt archiveren als een document in Supe
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

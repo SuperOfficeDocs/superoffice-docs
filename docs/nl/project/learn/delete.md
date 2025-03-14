@@ -1,24 +1,34 @@
 ---
 uid: help-nl-project-delete
-title: Een project verwijderen
-description: Zo verwijdert u een project uit SuperOffice
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: project
+title: Een project en bijbehorende gegevens verwijderen
+description: Hoe u een project en bijbehorende gegevens in SuperOffice verwijdert
+keywords: project verwijderen, projectbeheer, project
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Verwijder project verwijdert een compleet project en de bijbehorende gegevens
+# Een project en bijbehorende gegevens verwijderen
 
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klik op de ![pictogram][img1] knop **Taak**.
-3. Selecteer **'Projectnaam' verwijderen**.
-4. Klik op **Ja** om het verwijderen van het project te bevestigen.
+1. Open het scherm **Project** voor het project dat u wilt verwijderen.
 
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+1. Klik op de **Taak**-knop (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in de rechterbovenhoek van de projectkaart.
+    Selecteer **Verwijderen** in het menu.
+
+    > [!NOTE]
+    > Als de optie **Verwijderen** is uitgeschakeld, betekent dit dat u niet over de juiste gebruikersrechten beschikt om dit project te verwijderen. U kunt geen projecten verwijderen die niet van u zijn, tenzij u de juiste machtigingen hebt.
+
+1. Controleer in het dialoogvenster **Project verwijderen** de projectgegevens om er zeker van te zijn dat u het juiste project verwijdert.
+
+1. Klik op **Ja** om de verwijdering te bevestigen.
+
+## Gerelateerde inhoud
+
+* [Projecten samenvoegen][1]
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[1]: merge-projects.md

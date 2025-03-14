@@ -1,24 +1,25 @@
 ---
 uid: help-nl-notifications
 title: Meldingen
-description: "Meldingen van uitnodigingen, berichten en verzoeken"
-author: Hanne Gunnarsson, Bergfrid Dias
-date: 08.30.2023
+description: Meldingen van uitnodigingen, berichten en verzoeken
 keywords: melding, uitnodigingen, verzoeken, berichten
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Meldingen
+# Meldingen <i class="ph ph-bell" aria-label="Bell icon"></i>
 
-Wanneer u op het **belpictogram** ![pictogram][img1] in de rechterbovenhoek van SuperOffice CRM klikt, verschijnt het meldingenpaneel als een overlay aan de rechterkant van het scherm, met de nieuwste voorvallen bovenaan. Hier kunt u het volgende doen:
+Wanneer u op het **belpictogram** in de rechterbovenhoek van SuperOffice CRM klikt, verschijnt het meldingenpaneel als een overlay aan de rechterkant van het scherm, met de nieuwste voorvallen bovenaan. Hier kunt u het volgende doen:
 
 * Klik op een lijstitem om het te openen.
-* Klik op ![pictogram][img2] om uw meldingsvoorkeuren in te stellen.
+* Klik op <i class="ph ph-gear" aria-label="Gear"></i> om uw meldingsvoorkeuren in te stellen.
 * Klik op **Alles wissen** in de voettekst van het meldingenpaneel om de lijst met meldingen te wissen. U kunt ook klikken op **Duidelijk** onder een melding om het te verwijderen.
-* Klik op ![pictogram][img3] of ergens buiten het meldingenpaneel om het te sluiten.
+* Klik op <i class="ph ph-x" aria-label="X"></i> of ergens buiten het meldingenpaneel om het te sluiten.
 
 ![De melding verschijnt met zowel meldingen over verzoeken als uitnodigingen -screenshot][img5]
 
@@ -29,7 +30,7 @@ Wanneer u een activiteitsmelding ontvangt, wordt deze weergegeven in uw meldinge
 Dit zijn de verschillende activiteitsmeldingen:
 
 * **Nieuwe vergadering**: Reageer door op **Accepteren** of **Afwijzen** te klikken. Zodra u hebt gereageerd, verdwijnt de uitnodiging uit het meldingenpaneel.
-* **Nieuwe terugkerende vergadering**: Als de uitnodiging voor een terugkerende gebeurtenis is, wordt dit weergegeven met een pictogram ![pictogram][img4] onder de link.
+* **Nieuwe terugkerende vergadering**: Als de uitnodiging voor een terugkerende gebeurtenis is, verschijnt <i class="ph ph-arrows-clockwise" aria-label="Recurrence icon"></i> onder de link.
 * **Vergadering is gewijzigd**: Als de tijd of datum van een vergadering die u al hebt geaccepteerd, verandert, ontvangt u een nieuwe melding waarin u weet wat er is gewijzigd en waarin u wordt gevraagd deze te accepteren of te weigeren.
 * **Vergadering geannuleerd**: De vergadering wordt geannuleerd. Klik op de koppeling om het agenda-item te openen of klik op **Duidelijk** om het uit uw meldingen te verwijderen.
 * **Uitnodiging geweigerd**: Een deelnemer aan de vergadering heeft de uitnodiging afgewezen. Klik op de koppeling om het agenda-item te openen of klik op **Duidelijk** om het uit uw meldingen te verwijderen.
@@ -56,7 +57,7 @@ Dit zijn de verschillende verzoekmeldingen:
 
 ## Instellingen voor meldingen
 
-Wanneer u op het ![pictogram][img2] pictogram klikt, wordt het deelvenster met meldingsinstellingen weergegeven. Hier kunt u selecteren welke meldingen u wilt zien in het meldingenpaneel.
+Wanneer u op <i class="ph ph-gear" aria-label="Gear"></i> klikt, wordt het deelvenster met meldingsinstellingen weergegeven. Hier kunt u selecteren welke meldingen u wilt zien in het meldingenpaneel.
 
 Dit zijn de meldingsopties:
 
@@ -105,12 +106,7 @@ Dit zijn de meldingsopties:
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/notice-new.png
-[img2]: ../../../../common/icons/cog-wheel.png
-[img3]: ../../../../common/icons/remove-icon.png
-[img4]: ../../../../common/icons/diary-recurring.png
 [img5]: ../../../media/loc/en/learn/core-notifications.png
-
 [img11]: ../../../media/loc/en/learn/system-notification-chrome.png
 [img12]: ../../../media/loc/en/learn/system-notification-edge.png
 [img13]: ../../../media/loc/en/learn/system-notification-firefox.png

@@ -39,7 +39,7 @@ Nadat u uw producten hebt toegevoegd, handmatig of door te importeren, kunt u af
 
 [!include[File type and size](../../../../learn/includes/image-type-and-size.md)]
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Een product toevoegen aan een prijslijst][1]
 

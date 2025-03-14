@@ -118,7 +118,7 @@ Binnen de groep (tussen TableStart en TableEnd), kun je velden toevoegen die spe
 
 Om de volgorde van offerte-lijnen te wijzigen, gebruik je de **OrderBy** tag, met een lijn-niveau suffix. Bijvoorbeeld, `OrderBy:name` sorteert producten alfabetisch op naam, en `OrderBy:vatInfo` sorteert producten op btw-status. Slechts één niveau van sortering wordt ondersteund.
 
-### <a id ="culture" />Opmaak van numerieke en datumvelden
+### <a id ="culture"></a>Opmaak van numerieke en datumvelden
 
 Numerieke en datumvelden kunnen worden opgemaakt om overeen te komen met de geselecteerde taal/cultuurinstellingen (beïnvloedt weergavevolgorde en scheidingstekens):
 

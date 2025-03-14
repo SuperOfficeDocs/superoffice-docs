@@ -93,7 +93,7 @@ In het onderste deel van de gebruikerskaart kunt u aanmeldrechten van de geselec
 3. Selecteer de gewenste gebruiker in de lijst met gebruikers.
 4. Breng de gewenste wijzigingen aan en klik op **Opslaan**.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Anonieme gebruikers of systeemgebruikers toevoegen (lokaal)][5]
 

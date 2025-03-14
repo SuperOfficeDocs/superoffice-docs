@@ -2,9 +2,9 @@
 uid: help-nl-admin-primer
 title: Overzicht
 description: Inleiding tot het beheer van SuperOffice.
+keywords: beheerder, Instellingen en onderhoud
 author: Bergfrid Dias
 date: 02.21.2023
-keywords: beheerder, Instellingen en onderhoud
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -66,7 +66,7 @@ De beste manier om uw eigen project- of verkoopgidsen te definiëren, is door uw
 > [!NOTE]
 > Als u de taal in Mobile CRM wilt wijzigen, klikt u op de knop **Taak** in de linkerbenedenhoek. Selecteer **Instellingen**, klik op **Taal** en selecteer uit de opties.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Lijsten beheren][6]
 * [Documentsjablonen beheren][7]
@@ -78,7 +78,7 @@ De beste manier om uw eigen project- of verkoopgidsen te definiëren, is door uw
 [1]: ../user-management/learn/index.md
 [2]: ../../../assets/downloads/configuration-preparation-document.pdf
 [3]: ../import/learn/index.md
-[4]: ../../sale/learn/sales-guide/index.md
+[4]: ../../sale/learn/sales-guides.md
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md
 [7]: ../../document/templates/learn/index.md

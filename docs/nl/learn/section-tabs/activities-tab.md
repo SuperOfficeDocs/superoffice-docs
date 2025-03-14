@@ -4,8 +4,8 @@ title: Sectietabblad Activiteiten
 description: Leer hoe u het sectietabblad Activiteiten in SuperOffice CRM kunt gebruiken om activiteiten, vervolgactiviteiten en documenten voor bedrijven, personen, projecten en verkopen te bekijken, beheren en volgen — alles in één georganiseerde sectie.
 keywords: sectietabblad Activiteiten, tabblad Activiteiten, sectietabblad, activiteiten
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -38,7 +38,7 @@ Het sectietabblad **Activiteiten** bevat de volgende kolommen om belangrijke inf
 
 | Kolom | Beschrijving |
 |---|---|
-| Voltooid | Checkbox die aangeeft of de activiteit is voltooid. Een vinkje (![icon][img3]) betekent voltooid, terwijl een leeg vakje betekent dat het nog loopt. |
+| Voltooid | Checkbox die aangeeft of de activiteit is voltooid. Een vinkje (<i class="ph ph-check" aria-hidden="true"></i>) betekent voltooid, terwijl een leeg vakje betekent dat het nog loopt. |
 | Activiteitspictogram | Toont het [activiteitscategorie][1] (zoals vergadering, oproep, document). Komt overeen met de tekst in de kolom **Type**. |
 | Datum | Geeft aan wanneer een document is gemaakt of wanneer een vervolgactiviteit is gepland. |
 | Type | Het type activiteit, zoals een vergadering, taak of e-mail. |
@@ -104,10 +104,9 @@ Om voltooide activiteiten in de lijst op te nemen, zorgt u ervoor dat het vakje 
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

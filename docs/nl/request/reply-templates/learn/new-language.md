@@ -2,10 +2,13 @@
 uid: help-nl-reply-template-language
 title: Antwoordsjabloon in een nieuwe taal maken
 description: Antwoordsjabloon in een nieuwe taal maken
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: verzoek
+keywords: vertaal antwoordsjabloon, nieuwe taalversie, antwoordsjabloon, verzoek
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -17,7 +20,7 @@ Het kan nuttig zijn dezelfde antwoordsjabloon in meerdere talen op te stellen, b
 
 ## Talen toevoegen aan antwoordsjabloon
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 
 2. Ga naar de map waar de antwoordsjabloon zich bevindt.
 
@@ -36,9 +39,17 @@ Het kan nuttig zijn dezelfde antwoordsjabloon in meerdere talen op te stellen, b
 > [!TIP]
 > Klik op de knop **Geselecteerde taalhoofdtekst verwijderen** om de actieve taalhoofdtekst te verwijderen (het geselecteerde taaltabblad).
 
+## Probleemoplossing
+
+### Waarom is de knop "Nieuwe taalversie" niet zichtbaar in de voettekst?
+
+Als de knop **Nieuwe taalversie** niet zichtbaar is, betekent dit dat er geen klanttalen zijn gedefinieerd in het systeem. Om dit op te lossen, moet een beheerder [klanttalen toevoegen][3] in **Instellingen en onderhoud** onder **Opties** > **Klanttalen**.
+
+### Waarom is een specifieke taal niet beschikbaar in de lijst?
+
+Als een bepaalde taal ontbreekt in de **Taal**-keuzelijst, is deze niet toegevoegd aan de lijst met klanttalen. Vraag je beheerder om de ontbrekende taal toe te voegen in **Instellingen en onderhoud**.
+
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[3]: ../../../admin/options/learn/custlang/update.md

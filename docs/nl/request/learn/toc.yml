@@ -5,7 +5,40 @@ items:
   href: screen/index.md
 - name: Verzoeken behandelen met AI
   href: handle-request-ai.md
-- name: Werken met verzoeken
-  href: howto/toc.yml
-  topicHref: find.md
-  
+- name: Verzoek zoeken
+  href: find.md
+- name: Verzoek maken
+  href: create.md
+- name: Bericht bewerken
+  href: edit-message.md
+- name: Automatische toewijzing
+  href: assign.md
+- name: Verantwoordelijkheid voor verzoeken opeisen
+  href: accept.md
+- name: Andere verzoekbehandelaar om hulp vragen
+  href: transfer.md
+- name: Doorsturen naar externe contactpersoon
+  href: forward.md
+- name: Klant beantwoorden
+  href: reply.md
+- name: Items in Veelgestelde vragen toevoegen aan berichten
+  href: ../../faq/learn/add-to-request.md
+- name: Labels
+  href: tags.md
+- name: Berichten bijhouden
+  href: flag-message.md
+- name: Verzoek opsplitsen
+  href: split-request.md
+- name: Verzoeken samenvoegen
+  href: merge.md
+- name: Bericht opsplitsen
+  href: split-message.md
+- name: Verzoek sluiten
+  href: close.md
+- name: Verzoek verwijderen
+  href: delete.md
+- name: Verzoeklogboek
+  href: screen/ticket-log.md
+- name: Voor beheerders
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

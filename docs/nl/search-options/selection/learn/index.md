@@ -126,7 +126,7 @@ U kunt een selectie maken met
 * Een specifiek percentage geopende mailings of een specifieke klikratio
 * Mailings met hoge retourneringspercentages
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Record toevoegen als een favoriet][11]
 * [Selecties maken][2]

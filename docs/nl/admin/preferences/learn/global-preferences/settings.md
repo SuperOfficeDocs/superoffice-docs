@@ -2,10 +2,10 @@
 uid: help-nl-service-settings-system-settings
 title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
+keywords: Service, instellingen, systeeminstellingen, Algemene voorkeuren
 author: SuperOffice RnD
-date: 03.27.2023
-keywords: Service, instellingen
-topic: help
+date: 03.14.2025
+topic: reference
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -13,7 +13,7 @@ language: nl
 
 # Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 
-Ga naar ![pictogram][img2] **Voorkeuren** in de navigator en selecteer het tabblad **Algemene voorkeuren**. De sectie voor **SuperOffice Service-systeeminstellingen** bevat de volgende opties:
+Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navigator en selecteer het tabblad **Algemene voorkeuren**. De sectie voor **SuperOffice Service-systeeminstellingen** bevat de volgende opties:
 
 * **Standaardlettertype in editor**: Selecteer welk lettertype, welke lettergrootte en welke opmaak standaard worden gebruikt voor berichtregistratie.
 
@@ -21,7 +21,7 @@ Ga naar ![pictogram][img2] **Voorkeuren** in de navigator en selecteer het tabbl
 
 * **Standaardlettertypegewicht**: Gewicht (dikte) van het standaardlettertype in de Verzoekeditor.
 
-* **E-mailmelding sturen voor openstaande verzoeken**: Geeft aan of een e-mailbericht over openstaande verzoeken wordt verzonden naar de gebruikers. Als u **Gebruiker mag kiezen** selecteert, kunnen gebruikers de e-mailmelding inschakelen en uitschakelen in ![pictogram][img1] **Persoonlijke instellingen** > **Voorkeuren** > **Melding via e-mail & SMS**.
+* **E-mailmelding sturen voor openstaande verzoeken**: Geeft aan of een e-mailbericht over openstaande verzoeken wordt verzonden naar de gebruikers. Als u **Gebruiker mag kiezen** selecteert, kunnen gebruikers de e-mailmelding inschakelen en uitschakelen in <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Melding via e-mail & SMS**.
 
 * **Nieuwe status bij acceptatie verzoek**: Selecteer welke status wordt gebruikt wanneer een verzoek wordt geaccepteerd door een gebruiker.
 
@@ -31,7 +31,7 @@ Ga naar ![pictogram][img2] **Voorkeuren** in de navigator en selecteer het tabbl
 
 * **Systeembeheerder**: Het e-mailadres van de persoon die verantwoordelijk is voor het functioneren van SuperOffice Service. Dit moet een e-mailadres zijn dat niet door SuperOffice Service is geïmporteerd/verwerkt.
 
-* **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, <support@company.com>.
+* **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, `<support@company.com>`.
 
 * **E-mailcode**: De e-mailcode die, samen met de verzoek-ID, wordt gebruikt om een unieke sleutel te maken voor de onderwerpregel van e-mailberichten die vanuit SuperOffice Service worden verstuurd. Deze waarde mag alleen worden gewijzigd wanneer u exact weet wat voor gevolgen dit kan hebben! Wanneer deze waarde wordt gewijzigd, worden ontvangen e-mailberichten niet meer goed gelinkt aan bestaande verzoeken.
 
@@ -69,7 +69,3 @@ Ga naar ![pictogram][img2] **Voorkeuren** in de navigator en selecteer het tabbl
 
 <!-- Referenced links -->
 [1]: ../../../../request/reply-templates/learn/create.md#faq
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../../common/icons/nav-admin-preferences-active.png

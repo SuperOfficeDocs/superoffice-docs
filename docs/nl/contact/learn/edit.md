@@ -1,11 +1,14 @@
 ---
 uid: help-nl-contact-update
-title: Persoon bewerken
-description: Persoon bewerken
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: bedrijf
+title: Contactgegevens bewerken
+description: Stappen om de gegevens van een contactpersoon te bewerken.
+keywords: contact bewerken, persoon bewerken, medewerker bewerken, contactgegevens wijzigen
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -13,20 +16,26 @@ language: nl
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Selecteer het sectietabblad **Contactpersonen**.
+1. Selecteer het sectietabblad **Personen**.
 
-1. Dubbelklik op de betreffende contactpersoon.
+1. Dubbelklik op de persoon die u wilt bewerken.
 
-1. Klik op **Bewerken** in het visitekaartje in het scherm Persoon.
+1. Klik op <i class="ph ph-pencil-simple" aria-label="Bewerken"></i> in de rechterbovenhoek van de persoonkaart.
 
-1. [Breng de gewenste wijzigingen aan][1].
+1. Breng de gewenste wijzigingen aan.
 
-1. Klik ten slotte op **Opslaan** om het dialoogvenster te sluiten en uw wijzigingen op te slaan.
+1. Klik op **Opslaan** om de wijzigingen op te slaan, of klik op **Annuleren** om ze te verwerpen. Beide acties sluiten de bewerkingsmodus.
 
-> [!NOTE]
-> als u op **Annuleren** klikt, wordt het dialoogvenster gesloten zonder de wijzigingen op te slaan.
+    Als de knop **Opslaan** is uitgeschakeld, controleer dan of alle verplichte velden zijn ingevuld. Verplichte velden moeten worden ingevuld voordat u kunt opslaan.
+
+![Het scherm Persoon in bewerkingsmodus, met contactgegevens. -screenshot][img1]
+
+## Gerelateerde inhoud
+
+* [Contactgegevens bulksgewijs bijwerken][8]
 
 <!-- Referenced links -->
-[1]: create.md
+[8]: ../../search-options/selection/learn/howto/bulk-update.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/contact/edit-person.png

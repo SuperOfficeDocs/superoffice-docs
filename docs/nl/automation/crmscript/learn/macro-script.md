@@ -1,19 +1,19 @@
 ---
 uid: help-nl-automation-macro
-title: "Macro's en scripts"
-description: "Macro's en scripts"
+title: Macro's en scripts
+description: Macro's en scripts
+keywords: CRMScript, script, macro
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: script, macro
 topic: concept
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
 ---
 
-# Macro's en scripts
+# Macro's en scripts <i class="ph ph-code-block" aria-hidden="true"></i>
 
-Op het tabblad **Macro's en scripts** op ![pictogram][img2] **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor [weergave, bewerking of uitvoering][1].
+Op het tabblad **Macro's en scripts** op **CRMScript** ziet u een lijst met de scripts en macro's in het systeem, gegroepeerd in mappen. Klik op een script of macro in de lijst voor [weergave, bewerking of uitvoering][1].
 
 ## Over macro's
 
@@ -25,7 +25,7 @@ Macro's hebben meerdere functies in SuperOffice. Ze kunnen worden gekoppeld aan 
 
 U kunt macro's bijvoorbeeld gebruiken:
 
-* Als een taak/functie in een menu-item (zoals in ![pictogram][img1] **Taak** in het scherm Verzoek)
+* Als een taak/functie in een menu-item (zoals in **Taak** in het scherm Verzoek)
 * Wanneer het verzoek wordt geëscaleerd via de waarschuwingsniveaus voor prioriteit
 * Als een geplande taak
 * Wanneer deze worden geactiveerd door een e-mailfilter
@@ -37,7 +37,7 @@ Een macro is een set van vooraf gedefinieerde acties uitgevoerd in een specifiek
 
 Een script is een klein programma geschreven om specifieke taken uit te voeren; het instellen vereist programmeerkennis.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een script/macro weergeven][1]
 * [Een script maken][2]
@@ -49,7 +49,3 @@ Een script is een klein programma geschreven om specifieke taken uit te voeren; 
 [2]: create-script.md
 [3]: create-macro.md
 [4]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

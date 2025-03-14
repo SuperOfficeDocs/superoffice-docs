@@ -2,14 +2,17 @@
 uid: help-nl-find-screen
 title: Scherm zoeken
 description: Scherm zoeken
-author: SuperOffice RnD
-date: 12.13.2023
-keywords: zoeken, zoeken
-topic: howto
+keywords: zoeken
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
+topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Het scherm Zoeken
+# Het scherm Zoeken <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i>
 
 Gebruik het scherm **Zoeken** voor het zoeken in SuperOffice CRM naar records en gegevens.
 
@@ -20,15 +23,13 @@ Er zijn feitelijk geen beperkingen op waar u naar kunt zoeken in SuperOffice CRM
 
 ## Stappen
 
-1. Klik op de knop **Zoeken** op de [bovenste balk][1].
-
-    ![Zoeken][img2]
+1. Klik op de knop **Zoeken** (<i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>) op de [bovenste balk][1].
 
 2. Klik op het type record dat u wilt zoeken of klik op **Typische zoekopdrachten** om een lijst met vooraf gedefinieerde zoekopdrachten weer te geven. Het tabblad **Criteria** wordt geopend.
 
 3. Het scherm **Zoeken** bevat vooraf gedefinieerde zoekcriteria of de zoekcriteria die u de laatste keer hebt gebruikt. Voer een van de volgende handelingen uit:
 
-    * Klik op ![pictogram][img3] als u de criteria wilt verwijderen die u niet wilt gebruiken.
+    * Klik op <i class="ph ph-x-circle" aria-label="X"></i> als u de criteria wilt verwijderen die u niet wilt gebruiken.
     * Om een nieuw zoekcriterium toe te voegen, klikt u op de knop **Toevoegen**. Er wordt een nieuwe regel aan de criterialijst toegevoegd.
 
 4. Selecteer in de eerste keuzelijst op de regel het veld waarin u naar informatie wilt zoeken. U kunt ook het [begin van de naam invoeren in het juiste veld][2]. Er zijn[verschillende typen velden][3].
@@ -39,7 +40,7 @@ Er zijn feitelijk geen beperkingen op waar u naar kunt zoeken in SuperOffice CRM
 
 6. U kunt nogmaals op de knop **Toevoegen** onder de criterialijst klikken om meer zoekcriteria op te geven. Er wordt een nieuwe regel aan de criterialijst toegevoegd en u kunt stappen 4 en 5 herhalen.
 
-7. Klik en sleep als u criteria wilt verplaatsen ![pictogram][img4].
+7. Klik <i class="ph ph-equals" aria-label="="></i> en sleep als u criteria wilt verplaatsen.
 
 8. Klik op **Of** als u een andere set criteria wilt toevoegen.
 
@@ -54,10 +55,12 @@ Met de functie Zoeken kunt u een zoekopdracht uitvoeren door zoekcriteria te com
 
 Laten we eens kijken hoe u de OR-functie kunt gebruiken. U kunt zoeken naar alle klanten die "Product A" hebben gekocht en klanten die "Product B" niet hebben gekocht om uw cross-verkopen te stimuleren. Of u kunt zoeken naar alle grote klanten in Rotterdam of Eindhoven, zodat u contact met hen kunt opnemen over een aankomende gebeurtenis in een van deze steden.
 
-Bekijk deze video om te zien hoe u een zoekopdracht maakt met de OF-functie (duur van de video - 4:08):
+Bekijk deze video om te zien hoe u een zoekopdracht maakt met de OF-functie:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/Z-fSLJSdp2k]
+
+(duur van de video - 4:08)
 
 ## <a id="results"></a>Werken met zoekresultaten
 
@@ -94,9 +97,9 @@ Als manager van een verkoopafdeling wilt u een presentatie geven voor de rest va
 
 4. Klik op **Toev.**
 
-5. [!include[Select field](includes/select-field.md)]. Klik eerst op **Verkoop** ![pictogram][img5] en vervolgens op **Bedrag**.
+5. [!include[Select field](includes/select-field.md)]. Klik eerst op **Verkoop** (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) en vervolgens op **Bedrag**.
 
-6. Klik in de keuzelijst rechts van **Bedrag** op de pijl ![pictogram][img1] en selecteer **>** (groter dan).
+6. Klik in de keuzelijst rechts van **Bedrag** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer **>** (groter dan).
 
 7. Voer in het laatste veld op de regel het minimumbedrag in. Bijvoorbeeld, "100 000".
 
@@ -104,9 +107,9 @@ Als manager van een verkoopafdeling wilt u een presentatie geven voor de rest va
 
 9. Klik op **Toevoegen**.
 
-10. [!include[Select field](includes/select-field.md)]. Klik eerst op **Verkoop** ![pictogram][img5] en vervolgens op **Geregistreerde datum**.
+10. [!include[Select field](includes/select-field.md)]. Klik eerst op **Verkoop** en vervolgens op **Geregistreerde datum**.
 
-11. Klik in de tweede keuzelijst op de pijl ![pictogram][img1] en selecteer **Tussen**.
+11. Klik in de tweede keuzelijst op de pijl en selecteer **Tussen**.
 
 12. Geef in de derde keuzelijst de begindatum op van de gewenste periode en in de vierde keuzelijst de einddatum.
 
@@ -116,7 +119,7 @@ Als manager van een verkoopafdeling wilt u een presentatie geven voor de rest va
 
 15. Voer in de weergegeven lijst "Status" in om snel te zoeken in het veld.
 
-16. Selecteer **Verkoop** - **Status** in de lijst die wordt weergegeven (met het verkooppictogram ![pictogram][img5] ervoor).
+16. Selecteer **Verkoop** - **Status** in de lijst die wordt weergegeven (met het verkooppictogram ervoor).
 
 17. Selecteer in de tweede keuzelijst **Is een van**.
 
@@ -143,7 +146,7 @@ Stelt u zich voor dat u deelneemt aan een conferentie in Denemarken. Als u daar 
 
 4. Klik op **Toev.**
 
-5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Bedrijf** ![pictogram][img6] en vervolgens op **Land**.
+5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Bedrijf** (<i class="ph ph-buildings" aria-hidden="true"></i>) en vervolgens op **Land**.
 
 6. Selecteer in de tweede keuzelijst **Is een van**.
 
@@ -153,7 +156,7 @@ Stelt u zich voor dat u deelneemt aan een conferentie in Denemarken. Als u daar 
 
 9. Klik op **Toevoegen**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik eerst op **Bedrijf** ![pictogram][img6] en vervolgens op **Onze contactpersoon**.
+10. [!include[Select field](includes/select-field.md)]: Klik eerst op **Bedrijf** en vervolgens op **Onze contactpersoon**.
 
 11. Selecteer **Huidige gebruiker** in de tweede keuzelijst. Uw naam wordt weergegeven in het laatste veld op de regel.
 
@@ -177,7 +180,7 @@ Veronderstel, u bent manager van een bedrijf en wilt weten welke typen verkoop g
 
 4. Klik op **Toev.**
 
-5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Verkoop** ![pictogram][img5] en vervolgens op **Status**.
+5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Verkoop** en vervolgens op **Status**.
 
 6. Selecteer in de tweede keuzelijst **Is een van**.
 
@@ -200,7 +203,7 @@ Stelt u zich voor dat de tijd voor uw betalingsoverzicht nadert en u denkt dat u
 
 4. Klik op **Toev.**
 
-5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Persoon** ![pictogram][img7] en vervolgens op **Achternaam**.
+5. [!include[Select field](includes/select-field.md)]: Klik eerst op <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoon** en vervolgens op **Achternaam**.
 
 6. Selecteer **Is gelijk aan** in de tweede keuzelijst.
 
@@ -210,7 +213,7 @@ Stelt u zich voor dat de tijd voor uw betalingsoverzicht nadert en u denkt dat u
 
 9. Klik op **Toevoegen**.
 
-10. [!include[Select field](includes/select-field.md)]: Klik eerst op **Project** ![pictogram][img8] en vervolgens op **Datum vanaf**.
+10. [!include[Select field](includes/select-field.md)]: Klik eerst op <i class="ph ph-clipboard-text" aria-hidden="true"></i> **Project** en vervolgens op **Datum vanaf**.
 
 11. Selecteer **Na** in de tweede keuzelijst.
 
@@ -236,7 +239,7 @@ Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstor
 
 4. Klik op **Toev.**
 
-5. [!include[Select field](includes/select-field.md)]: Klik eerst op **Vervolgactiviteit** ![pictogram][img9] en vervolgens op **Intentie**.
+5. [!include[Select field](includes/select-field.md)]: Klik eerst op <i class="ph ph-calendar-blank" aria-hidden="true"></i> **Vervolgactiviteit** en vervolgens op **Intentie**.
 
 6. Selecteer in de tweede keuzelijst **Is een van**.
 
@@ -246,7 +249,7 @@ Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstor
 
 9. Klik op **Toevoegen**.
 
-10. [!include[Select field](includes/select-field.md)]. Klik eerst op **Vervolgactiviteit** ![pictogram][img9] en vervolgens op **Einddatum**.
+10. [!include[Select field](includes/select-field.md)]. Klik eerst op **Vervolgactiviteit** en vervolgens op **Einddatum**.
 
 11. Selecteer **Vorige** in de tweede keuzelijst.
 
@@ -258,7 +261,7 @@ Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstor
 
 15. Klik op **Toevoegen**.
 
-16. Selecteer in de lijst die wordt weergegeven het veld waarin u naar gegevens wilt zoeken. Klik eerst op **Vervolgactiviteit** ![pictogram][img9] en vervolgens op **Voltooid**.
+16. Selecteer in de lijst die wordt weergegeven het veld waarin u naar gegevens wilt zoeken. Klik eerst op **Vervolgactiviteit** en vervolgens op **Voltooid**.
 
 17. Selecteer **Ja**. U hebt nu opgegeven dat u wilt zoeken naar vervolgactiviteiten met de status **Voltooid**.
 
@@ -268,7 +271,7 @@ Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstor
 
 19. [!include[Explore results](includes/use-results.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Taken uitvoeren][7]
 * [Vrije-tekst zoekbewerking gebruiken][5]
@@ -288,13 +291,4 @@ Stelt u zich voor dat u manager van een marketingafdeling bent en wilt brainstor
 [9]: ../selection/learn/update/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/dropdown-icon.png
-[img2]: ../../../media/loc/en/learn/find.png
-[img3]: ../../../../common/icons/delete-circle-red.png
-[img4]: ../../../media/icons/criteria-move.png
-[img5]: ../../../../common/icons/singlecolour/sale.png
-[img6]: ../../../../common/icons/singlecolour/contact.png
-[img7]: ../../../../common/icons/singlecolour/person.png
-[img8]: ../../../../common/icons/singlecolour/project.png
-[img9]: ../../../../common/icons/singlecolour/appointment.png
 [img10]: ../../../media/loc/en/search-options/task-menu.png

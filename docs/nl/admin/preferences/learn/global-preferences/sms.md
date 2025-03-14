@@ -2,10 +2,10 @@
 uid: help-nl-service-settings-system-sms
 title: SMS
 description: SMS
-author: SuperOffice RnD
-date: 03.27.2023
 keywords: Service, instellingen
-topic: help
+author: SuperOffice RnD
+date: 03.14.2025
+topic: refence
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -13,7 +13,7 @@ language: nl
 
 # SMS-configuratie in Algemene voorkeuren
 
-Ga naar ![pictogram][img1] **Voorkeuren** in de navigator en selecteer het tabblad **Algemene voorkeuren**. De sectie voor **SMS-configuratie** bevat opties voor het configureren van SMS-oplossingen in SuperOffice.
+Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navigator en selecteer het tabblad **Algemene voorkeuren**. De sectie voor **SMS-configuratie** bevat opties voor het configureren van SMS-oplossingen in SuperOffice.
 
 ## Algemene velden
 
@@ -38,8 +38,3 @@ Als u de instellingen wilt testen, voert u een mobiel telefoonnummer en een will
 * **SMS-eindpunt**: Dit veld moet de code bevatten waaraan SuperOffice Service een inkomend SMS-bericht kan herkennen.
 * **Gebruikersnaam**: hier voert u de gebruikersnaam in die u hebt ontvangen van PsWinCom.
 * **Wachtwoord**: hier voert u het wachtwoord in dat u hebt ontvangen van PsWinCom.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

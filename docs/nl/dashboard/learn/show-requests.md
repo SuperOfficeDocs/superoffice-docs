@@ -2,9 +2,9 @@
 uid: help-nl-dashboard-requests
 title: Verzoeken in tegels gebruiken
 description: In deze handleiding leert u hoe u een snel overzicht krijgt van alle openstaande verzoeken in SuperOffice-dashboards.
+keywords: dashboard, verzoek
 author: Bergfrid Dias
 date: 03.14.2023
-keywords: dashboard, verzoek
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +23,7 @@ Het is gebruikelijk om uw dag te beginnen met het krijgen van een overzicht van 
 
 Wanneer u of uw rol de juiste rechten heeft, kunt u de inhoud van de tegels op het dashboard bepalen.
 
-1. Klik op de knop **Taak** en selecteer **Tegel toevoegen/Opmaak bewerken**.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Tegel toevoegen/Opmaak bewerken**.
 
 2. Selecteer in de lijst **Tegels weergeven voor** de optie **Verzoek** en selecteer een van de vooraf gedefinieerde tegels of kies **Tegelverzoek leegmaken**
 
@@ -59,7 +59,7 @@ Geeft verzoeken weer die bij u horen en die de status **Open** hebben. Met ander
 
 Toont verzoeken die aan niemand zijn toegewezen. Om [verantwoordelijkheid voor een van de verzoeken te nemen][2], is het belangrijk te klikken op **Verzoek accepteren**. Anders kan iemand anders het verzoek tegelijkertijd beantwoorden.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Een nieuw dashboard maken][1]
 * [Tegel toevoegen/Opmaak bewerken in dashboard][7]
@@ -69,8 +69,8 @@ Toont verzoeken die aan niemand zijn toegewezen. Om [verantwoordelijkheid voor e
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../request/learn/howto/accept.md
-[4]: ../../request/learn/howto/create.md
+[2]: ../../request/learn/accept.md
+[4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
 [7]: add-tile.md

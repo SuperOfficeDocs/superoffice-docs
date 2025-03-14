@@ -2,14 +2,14 @@
 uid: help-nl-customer-center-config
 title: Customer Centre-configuratie
 description: Lees in deze handleiding hoe u uw Customer Centre configureert.
+keywords: Service, Klantportaal, CEP
 author: SuperOffice RnD
 date: 03.16.2023
-keywords: Service, Klantportaal, CEP
 topic: howto
 language: nl
 ---
 
-# Customer Centre configureren
+# Customer Centre configureren <i class="ph ph-question" aria-label="Question mark"></i>
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
@@ -26,7 +26,7 @@ Als uw Customer Centre meertalig is, kunt u opties (zoals welkomsttekst, opening
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Selecteer ![pictogram][img1] **Customer Centre** > **Configureren**. Er zijn 2 tabbladen op het scherm van het **Customer Centre**: **Styling** en **opties**. Bovenaan deze pagina staat een link naar een voorbeeldweergave van de pagina Customer Centre.
+1. Selecteer **Customer Centre** > **Configureren**. Er zijn 2 tabbladen op het scherm van het **Customer Centre**: **Styling** en **opties**. Bovenaan deze pagina staat een link naar een voorbeeldweergave van de pagina Customer Centre.
 
 1. In het tabblad **Styling** kunt u verschillende instellingen bewerken voor de Look & Feel van het Customer Centre: Logo, gewenste breedte, kleuren en lettertypen. De voorbeeldweergave wordt automatisch bijgewerkt.
 
@@ -66,6 +66,5 @@ Als uw Customer Centre meertalig is, kunt u opties (zoals welkomsttekst, opening
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
 [img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

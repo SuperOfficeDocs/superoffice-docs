@@ -31,7 +31,7 @@ Op het tabblad **Instellingen** op het scherm Offerte/Synchroniseren kunt u de i
 Geeft de gebruikte velden weer in elke offerteregel in de offerte. Klik op de veldnaamkoppelingen of de knop **Product configureren** om [deze velden te bewerken][2].
 
 <!-- Referenced links -->
-[1]: ../../../sale/learn/screen/sales-type-for-stages.md
+[1]: ../../../sale/admin/sale-type.md
 [2]: product/configure.md
 [3]: ../../../document/templates/learn/quote-templates.md
 

@@ -1,7 +1,7 @@
 ---
 uid: help-nl-sales-targets-create
 title: Verkooptargets instellen
-description: "Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u om de juiste verwachtingen te stellen, uw groei te plannen, de motivatie te verhogen en tijd te besparen."
+description: Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u om de juiste verwachtingen te stellen, uw groei te plannen, de motivatie te verhogen en tijd te besparen.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: verkoop
@@ -67,7 +67,7 @@ Voordat u de functie Verkooptargets gaat gebruiken, moet u een aantal dingen ins
 > [!TIP]
 > Het standaard targettype is **Alle verkopen - Bedrag**. Als u de licentie Sales Targets Unlimited hebt, kunt u extra targettypen maken.
 
-1. Klik op ![pictogram][img1] **Hoofdmenu** en selecteer **Targets**. Als er nog geen verkooptargets zijn gemaakt, is de lijst leeg.
+1. Klik op **Hoofdmenu** (<i class="ph ph-list" aria-hidden="true"></i>) en selecteer **Targets**. Als er nog geen verkooptargets zijn gemaakt, is de lijst leeg.
 
 2. Selecteer in het scherm **Verkooptargets** het jaar waarvoor u een verkoopdoel wilt maken in de lijst **Jaar selecteren**. U kunt ook targets instellen voor voorgaande jaren, om budgetstatistieken terug in de tijd te maken.
 
@@ -82,16 +82,16 @@ Voordat u de functie Verkooptargets gaat gebruiken, moet u een aantal dingen ins
 
 6. Wijzig indien van toepassing de valuta voor het bedrijf of de groep. De standaardvaluta is de basisvaluta die voor uw bedrijf is ingesteld. U kunt geen valuta instellen voor individuele gebruikers.
 
-7. Pas de getallen handmatig aan en ga met de toets **TAB** naar het volgende veld. U kunt ook [getallen uit Excel kopiëren en plakken](#import) of op de ![pictogram][img2] menuknop achteraan elke rij klikken en **Getallen aanpassen** selecteren . Opties:
+7. Pas de getallen handmatig aan en ga met de toets **TAB** naar het volgende veld. U kunt ook [getallen uit Excel kopiëren en plakken](#import) of op <i class="ph ph-list" aria-label="Menu icon"></i> achteraan elke rij klikken en **Getallen aanpassen** selecteren . Opties:
 
     * **Beginbedrag instellen**: voer het bedrag voor het hele jaar in. Het bedrag wordt gelijkelijk verdeeld over de maanden of kwartalen op de huidige rij.
     * **Kopiëren van**: kopieer de waarden van een andere groep of gebruiker.
     * **Kopiëren van vorig jaar**: kopieer waarden van vorig jaar en verhoog de waarden met een bepaald percentage. Deze optie is uitgeschakeld als vorig jaar geen waarden heeft.
         Klik op **Opslaan** wanneer u klaar bent. De totalen voor alle gebruikers worden toegevoegd aan de rij **Alles** boven aan de lijst met gebruikers.
 
-8. Optioneel: wanneer u een rij hebt voltooid, kunt u deze vergrendelen ![pictogram][img3] ![pictogram][img4] om bewerking uit te schakelen. Bijvoorbeeld nadat een budget is goedgekeurd en niet mag worden bewerkt. Vergrendelde rijen kunnen niet worden verwijderd, gewist of bewerkt.
+8. Optioneel: wanneer u een rij hebt voltooid, kunt u deze vergrendelen (<i class="ph ph-lock-simple" aria-hidden="true"></i>) om bewerking uit te schakelen. Bijvoorbeeld nadat een budget is goedgekeurd en niet mag worden bewerkt. Vergrendelde rijen kunnen niet worden verwijderd, gewist of bewerkt.
 
-9. Als een specifieke groep of gebruiker geen verkooptarget moet hebben, klikt u op de menuknop ![pictogram][img2] en selecteert u **Wissen** om de waarden leeg te maken.
+9. Als een specifieke groep of gebruiker geen verkooptarget moet hebben, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Wissen** om de waarden leeg te maken.
 
 10. Klik op **Opslaan**.
 
@@ -100,7 +100,7 @@ Voordat u de functie Verkooptargets gaat gebruiken, moet u een aantal dingen ins
 12. Ga naar stap 2 om verkooptargets voor nog een jaar toe te voegen of klik op **Opslaan en sluiten** om dit scherm te verlaten.
 
 > [!NOTE]
-> Om een bedrijfs- of groepstarget te verwijderen, klikt u op de menuknop ![pictogram][img2] en selecteert u **Bedrijfstarget verwijderen** of **Groepstarget verwijderen**.
+> Om een bedrijfs- of groepstarget te verwijderen, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Bedrijfstarget verwijderen** of **Groepstarget verwijderen**.
 
 ## Vergrendelings-/ontgrendelingsfunctie
 
@@ -127,7 +127,7 @@ U kunt targetgegevens uit Excel kopiëren en de gegevens in de tabel in SuperOff
 
 Ga hiertoe als volgt te werk:
 
-1. Klik op de knop **Taak** om het verkooptarget voor het geselecteerde jaar te exporteren naar Excel.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) om het verkooptarget voor het geselecteerde jaar te exporteren naar Excel.
 
 2. Bewerk de targetgegevens (bedragen) in de spreadsheet.
 
@@ -137,9 +137,9 @@ Ga hiertoe als volgt te werk:
 
 ## Revisiehistorie
 
-Om de revisiehistorie voor een verkooptarget (rij) weer te geven, klikt u op de menuknop ![pictogram][img2] en selecteert u **Revisiehistorie**. In het scherm dat wordt weergegeven, kunt u alle wijzigingen bekijken die zijn aangebracht in het huidige verkooptarget. Dit omvat gewijzigde waarden en vergrendeling/ontgrendeling, wanneer de wijziging plaatsvond en door wie. Gebruik de knoppen voor uitvouwen/samenvouwen bovenaan voor het weergeven/verbergen van details.
+Om de revisiehistorie voor een verkooptarget (rij) weer te geven, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Revisiehistorie**. In het scherm dat wordt weergegeven, kunt u alle wijzigingen bekijken die zijn aangebracht in het huidige verkooptarget. Dit omvat gewijzigde waarden en vergrendeling/ontgrendeling, wanneer de wijziging plaatsvond en door wie. Gebruik de knoppen voor uitvouwen/samenvouwen bovenaan voor het weergeven/verbergen van details.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Dashboard][1]
 * [Verkooptargets gebruiken in tegels][2]
@@ -149,9 +149,5 @@ Om de revisiehistorie voor een verkooptarget (rij) weer te geven, klikt u op de 
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
-[img2]: ../../../../../common/icons/context-menu.png
-[img3]: ../../../../../common/icons/lock-on.png
-[img4]: ../../../../../common/icons/lock-off.png
 [img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
 [img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

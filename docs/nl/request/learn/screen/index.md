@@ -13,8 +13,6 @@ language: nl
 
 # Verzoekscherm
 
-![Overzicht van het verzoekscherm of het verzoektabblad -screenshot][img3]
-
 ## Overzicht verzoeken
 
 Het scherm Verzoeken bevat de volgende secties:
@@ -28,7 +26,7 @@ Het scherm Verzoeken bevat de volgende secties:
 
 ### Koptekst van verzoek
 
-In de koptekst van het verzoek staan de eigenschappen die zijn gedefinieerd toen het [verzoek werd gemaakt][12]. De koptekst bestaat uit de verzoekstitel, persoon, deadline en verzoek-ID (in het tabblad). Daarnaast kunt u op ![pictogram][img6] klikken om het verzoek in te stellen als een favoriet. Het verzoek zal dan toegankelijk zijn via **Mijn favorieten** op **Verzoeken** in de Navigator en in de tegel **Mijn favorieten** op een [dashboard][17].
+In de koptekst van het verzoek staan de eigenschappen die zijn gedefinieerd toen het [verzoek werd gemaakt][12]. De koptekst bestaat uit de verzoekstitel, persoon, deadline en verzoek-ID (in het tabblad). Daarnaast kunt u op <i class="ph ph-star" aria-label="Star icon"></i> klikken om het verzoek in te stellen als een favoriet. Het verzoek zal dan toegankelijk zijn via **Mijn favorieten** op **Verzoeken** in de Navigator en in de tegel **Mijn favorieten** op een [dashboard][17].
 
 ### Berichttypen
 
@@ -39,22 +37,22 @@ Er zijn drie soorten berichten:
 * interne opmerkingen over het verzoek, zoals vragen aan een collega
 
 > [!TIP]
-> Interne berichten worden aangegeven met ![pictogram][img5].
+> Interne berichten worden aangegeven met <i class="ph ph-dots-three" aria-label="Three dots"></i>.
 
 ## Tabblad Berichten
 
 Het tabblad **Berichten** geeft de berichten weer met betrekking tot het verzoek.
 
-In ![pictogram][img2] **Persoonlijke instellingen** kunt u wijzigen hoeveel berichten worden weergegeven:
+In **Persoonlijke instellingen** kunt u wijzigen hoeveel berichten worden weergegeven:
 
-1. Kies het ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren**.
+1. Kies het <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren**.
 1. Selecteer de groep voor **Verzoek**.
 1. Geef in het veld **Aantal uitgebreide berichten** het aantal berichten op.
 1. Klik op **OK**.
 
 ### Berichttaken
 
-Klik op de ![pictogram][img1] knop **Taak** op een bericht voor extra opties voor het bericht:
+Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> op een bericht voor extra opties voor het bericht:
 
 * **Wijzigen**: klik hierop om het bericht te [bewerken][8] of te verwijderen.
 * **Beantwoord**: klik hierop om de persoon te beantwoorden in het veld Aan.
@@ -96,7 +94,7 @@ De zijbalk met verzoekeigenschappen bevat de volgende opties:
 
 ### Taakopties
 
-De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot de volgende opties:
+De knop **Taak**: klik op deze knop om toegang te krijgen tot de volgende opties:
 
 * **Bewerken**: klik hierop om de eigenschappen voor dit verzoek te bewerken. U kunt het verzoek bijvoorbeeld toewijzen aan een andere verzoekbehandelaar als u [een collega advies wilt vragen][1].
 * **Accepteren**: klik hierop om het [verzoek over te nemen][5]. U wordt dan de nieuwe eigenaar van het verzoek.
@@ -105,7 +103,7 @@ De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot
 * **Afdrukken**: klik hierop om het verzoek af te drukken.
 * **Verwijderen**: klik hierop om het verzoek te verwijderen.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Verzoek maken][12]
 * [Zoeken][10]
@@ -120,27 +118,20 @@ De ![pictogram][img1] knop **Taak**: klik op deze knop om toegang te krijgen tot
 * [Verzoek sluiten][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

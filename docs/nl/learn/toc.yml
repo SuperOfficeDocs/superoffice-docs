@@ -89,30 +89,12 @@ items:
       topicHref: ../quote/learn/admin/index.md
 
     - name: Workflow
-      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      topicHref: ../sale/admin/create-sales-guide.md
       items:
       - name: Verkoopgids
-        topicHref: ../sale/learn/screen/sales-guide-admin.md
-        items:
-        - name: Overzicht
-          href: ../sale/learn/screen/sales-guide-admin.md
-        - name: Nieuwe verkoopgids maken
-          href: ../sale/learn/sales-guide/create.md
-        - name: Verkoopgids bewerken
-          href: ../sale/learn/sales-guide/edit.md
-        - name: Een verkoopgids deactiveren
-          href: ../sale/learn/sales-guide/deactivate.md
+        topicHref: ../sale/admin/create-sales-guide.md
       - name: Projectgids
-        topicHref: ../project/learn/screen/project-guide-admin.md
-        items:
-        - name: Overzicht
-          href: ../project/learn/screen/project-guide-admin.md
-        - name: Een nieuwe projectgids maken
-          href: ../project/learn/project-guide/create.md
-        - name: Projectgids bewerken
-          href: ../project/learn/project-guide/edit.md
-        - name: Projectgids deactiveren
-          href: ../project/learn/project-guide/deactivate.md
+        topicHref: ../project/admin/create-project-guide.md
 
     - name: Aangepaste objecten
       href: ../custom-objects/learn/toc.yml
@@ -141,55 +123,11 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Verzoeken
-      topicHref: ../request/learn/admin/index.md
-      items:
-      - name: Overzicht
-        href: ../request/learn/admin/index.md
-      - name: Verzoektypen
-        topicHref: ../request/learn/type/index.md
-        items:
-        - name: Overzicht
-          href: ../request/learn/type/index.md
-        - name: Verzoektype aanmaken
-          href: ../request/learn/type/create.md
-        - name: Verzoektype verwijderen
-          href: ../request/learn/type/delete.md
-      - name: Categorieën
-        href: ../request/learn/category/index.md
-        items:
-        - name: Overzicht
-          href: ../request/learn/category/index.md
-        - name: Verzoekcategorie aanmaken
-          href: ../request/learn/category/create.md
-        - name: Verzoekcategorie verwijderen
-          href: ../request/learn/category/delete.md
-      - name: Prioriteiten
-        href: ../request/learn/priority/index.md
-        items:
-        - name: Overzicht
-          href: ../request/learn/priority/index.md
-        - name: Prioriteit maken
-          href: ../request/learn/priority/create.md
-        - name: Prioriteit verwijderen
-          href: ../request/learn/priority/delete.md
-        - name: Escalatieniveaus maken
-          href: ../request/learn/priority/escalation-levels.md
-      - name: Verzoekstatus
-        href: ../request/learn/status/index.md
-        items:
-        - name: Overzicht
-          href: ../request/learn/status/index.md
-        - name: Verzoekstatus maken
-          href: ../request/learn/status/create.md
-        - name: Verzoekstatus verwijderen
-          href: ../request/learn/status/delete.md
-        - name: Volgend verzoek in wachtrij ophalen
-          href: ../request/learn/next-in-queue.md
-      - name: E-mail
-        href: ../email/service/learn/toc.yml
-        topicHref: ../email/service/learn/index.md
-      - name: Systeemsjablonen
-        href: ../request/learn/screen/system-templates.md
+      topicHref: ../request/admin/index.md
+
+    - name: E-mail
+      href: ../email/service/learn/toc.yml
+      topicHref: ../email/service/learn/index.md
 
     - name: Klantportaal
       href: ../customer-center/learn/toc.yml

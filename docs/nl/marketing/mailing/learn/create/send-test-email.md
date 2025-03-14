@@ -42,11 +42,10 @@ Wanneer u een mailing test, moet u de volgende zaken controleren:
 Wanneer u een testmailing hebt verzonden, moet u de tellers voor de koppeling(en) in het bericht opnieuw instellen. Als u dat niet doet, bevat de lijst zowel uw eigen klikken op koppelingen als die van anderen die tijdens het testen zijn uitgevoerd.
 
 1. ga naar het koppelingentabblad **Gevolgde koppelingen**.
-2. klik op de ![pictogram][img1] menuknop naast de desbetreffende koppeling en selecteer **Opnieuw instellen**. De kolom **Klikken** is op **0** gezet. Informatie over klanten die op de koppeling hebben geklikt, wordt ook verwijderd.
+2. klik op de menuknop naast de desbetreffende koppeling en selecteer **Opnieuw instellen**. De kolom **Klikken** is op **0** gezet. Informatie over klanten die op de koppeling hebben geklikt, wordt ook verwijderd.
 
 <!-- Referenced links -->
 [1]: ../../../learn/best-practices.md#mobile
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png
 [img2]: ../../../../../media/loc/en/marketing/test-mailing.png

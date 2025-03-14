@@ -17,7 +17,7 @@ Als uw organisatie een ERP-systeem gebruikt en het is verbonden met SuperOffice 
 
 Op de hoofdkaarten **Bedrijf**, **Persoon** en **Project** wordt het tabblad **ERP** weergegeven. Hier kunt u een SuperOffice-bedrijf koppelen aan een klant/leverancier in het ERP-systeem. Personen die zijn geregistreerd onder het SuperOffice-bedrijf kunnen vervolgens worden gekoppeld aan individuen in het ERP-systeem. Op gelijke wijze kunnen SuperOffice-projecten worden gekoppeld aan projecten in het ERP-systeem. Nadat u de koppeling hebt ingesteld, worden de gegevens tussen het ERP-systeem en SuperOffice CRM gesynchroniseerd.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Verbinding maken met ERP][1]
 * [Een actor maken in het ERP-systeem][2]

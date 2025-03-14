@@ -7,9 +7,9 @@ author: Bergfrid Dias, Jeanette Small Strøm
 date: 06.17.2024
 version: 10.3.5
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Beste praktijken
@@ -91,7 +91,7 @@ Auteurs zien een bericht als ze een niet-gevalideerd e-mailadres in het From-vel
 
 Het bericht wordt automatisch aangepast voor weergave op kleinere schermen.
 
-Klik op ![pictogram][img1] **Mobiel** in het algemene menu om het uiterlijk op een smartphone te zien. U kunt ook op een sectie in het bericht klikken en op **Mobiel** onder **Inhoud** in het zijpaneel klikken.
+Klik op **Mobiel** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) in het algemene menu om het uiterlijk op een smartphone te zien. U kunt ook op een sectie in het bericht klikken en op **Mobiel** onder **Inhoud** in het zijpaneel klikken.
 
 Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selecteert u een sectie in het bericht en klikt u op **Mobiel** in het zijpaneel. U kunt nu de opmaak definiëren voor de weergave van het bericht op mobiele apparaten en ook selecteren welke elementen (zoals afbeeldingen) u wilt uitsluiten van mobiele apparaten.
 
@@ -107,5 +107,4 @@ Als u de mobielspecifieke instellingen voor een bericht wilt aanpassen, selectee
 [11]: https://putsmail.com/
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/marketing-and-forms/mobile.png
 [img2]: ../../../media/loc/en/marketing/from-name.gif

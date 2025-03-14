@@ -1,7 +1,7 @@
 ---
 uid: help-nl-ui-extra-menu
 title: Extra menu's
-description: "Extra menu's in de SuperOffice UI"
+description: Extra menu's in de SuperOffice UI
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: extra menu's
@@ -22,7 +22,7 @@ In het scherm **Extra menu's** kunt u extra menu's (knoppen, menu's, koppelingen
 * **Bovenste menu**
 
 * De tegel **Status** op het dashboard
-  * ![pictogram][img1] **Taak** knoppen in het hoofdscherm
+  * **Taak** knoppen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in het hoofdscherm
   * Menuknoppen in de weergave extra tabel
 
 * **Navigator**
@@ -40,7 +40,7 @@ In het scherm **Extra menu's** kunt u extra menu's (knoppen, menu's, koppelingen
 
 Zie ook [Menu-eigenschappen][1].
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Functie toevoegen aan menuknop (Taak)][2]
 * [Voeg een extra browsertabblad toe (webvenster)][3]
@@ -49,6 +49,3 @@ Zie ook [Menu-eigenschappen][1].
 [1]: properties.md
 [2]: actions.md
 [3]: ../../../web-panels/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-menu.png

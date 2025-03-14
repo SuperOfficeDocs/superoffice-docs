@@ -2,9 +2,9 @@
 uid: help-nl-chat-as-customer
 title: De chatfunctie gebruiken vanuit klantperspectief
 description: De chatfunctie gebruiken vanuit klantperspectief
+keywords: chatten
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: chatten
 topic: howto
 language: nl
 ---
@@ -27,7 +27,7 @@ language: nl
 
 5. De klant chat met de agent.
 
-6. Als de conversatie is beëindigd, kan de klant de chat beëindigen door het chatvenster te sluiten. De agent kan de chat ook beëindigen door ![pictogram][img1] &gt; **Chat beëindigen** te selecteren.
+6. Als de conversatie is beëindigd, kan de klant de chat beëindigen door het chatvenster te sluiten. De agent kan de chat ook beëindigen door <i class="ph ph-list" aria-label="Task menu"></i> > **Chat beëindigen** te selecteren.
 
     * Als het post-chatformulier voor dit chatkanaal actief is, heeft de klant de mogelijkheid terug te gaan naar de chat.
     * Als de functie **Transcriptie inschakelen** is geactiveerd voor dit chatkanaal, kan de klant ervoor kiezen via e-mail een logboek te ontvangen van de conversatie. De e-mail maakt gebruik van een antwoordsjabloon in SuperOffice Service.
@@ -37,8 +37,3 @@ language: nl
 Als er geen agents aanwezig zijn (meestal buiten kantooruren), wordt er een kort bericht weergegeven in het chatvenster. Bijvoorbeeld: "Sorry. We zijn gesloten. Onze openingstijden zijn ..."
 
 Als de verzoekindiening is geactiveerd voor dit chatkanaal, kunnen klanten hun naam, e-mailadres en een vraag opgeven. De verzoek-ID wordt weergegeven in het chatvenster.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

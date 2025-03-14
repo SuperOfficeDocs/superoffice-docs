@@ -30,7 +30,7 @@ U kunt een standaardtype vervolgactiviteit en een standaardbeschrijving opgeven 
 
 1. Klik op het tabblad **Vervolgactiviteit maken**.
 
-1. Klik op de ![pictogram][img1] pijlknop rechts van het veld **Type** en selecteer een vervolgactiviteit.
+1. Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> rechts van het veld **Type** en selecteer een vervolgactiviteit.
 
 1. Voer de gevraagde gegevens in.
 
@@ -44,6 +44,3 @@ U kunt een standaardtype vervolgactiviteit en een standaardbeschrijving opgeven 
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png

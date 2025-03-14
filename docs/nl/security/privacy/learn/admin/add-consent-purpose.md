@@ -18,7 +18,7 @@ Bekijk deze video en ontdek hoe u doeleinden voor het verwerken van persoonsgege
 
 ## Stappen
 
-1. Ga naar Instellingen en onderhoud en klik op de knop **Privacy** in de Navigator (![pictogram][img2]).
+1. Ga naar Instellingen en onderhoud en klik op de knop **Privacy** in de Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Klik op **Toevoegen** onder de lijst met doelen.
 
@@ -45,11 +45,11 @@ Bekijk deze video en ontdek hoe u doeleinden voor het verwerken van persoonsgege
         * Bevestiging dat gegevens niet worden gedeeld met andere partijen en veilig worden opgeslagen
         * Informatie over de wijze waarop klanten op elk moment hun toestemming kunnen wijzigen of intrekken
 
-4. Klik op ![pictogram][img1] naast een veld om nieuwe [vertalingen][1] van de veldteksten toe te voegen of bestaande te bewerken.
+4. Klik op <i class="ph ph-translate" aria-label="Translate"></i> naast een veld om nieuwe [vertalingen][1] van de veldteksten toe te voegen of bestaande te bewerken.
 
 5. Klik op **Opslaan** wanneer u klaar bent.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Privacy - Rechtsgrondslag][2]
 * [Privacy - Bron][3]
@@ -58,7 +58,3 @@ Bekijk deze video en ontdek hoe u doeleinden voor het verwerken van persoonsgege
 [1]: ../../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../index.md#legal-basis
 [3]: ../index.md#source
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

@@ -5,7 +5,7 @@ description: Afbeeldingen toevoegen
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Marketing
-topic: help
+topic: howto
 language: nl
 ---
 
@@ -17,7 +17,7 @@ language: nl
 
     [Hoe maak ik een mailingmap?][2]
 
-3. Klik op de knop ![pictogram][img1] **Toevoegen**. Het scherm **Afbeeldingseigenschappen** wordt geopend.
+3. Klik op de knop **Toevoegen** (<i class="ph ph-plus" aria-hidden="true"></i>). Het scherm **Afbeeldingseigenschappen** wordt geopend.
 
 4. Voer in het veld **Naam** een herkenbare naam in voor de afbeelding.
 
@@ -32,13 +32,10 @@ language: nl
 > [!TIP]
 > Wanneer u een bericht bewerkt, kunt u ook afbeeldingen toevoegen uit de royaltyvrije afbeeldingsbibliotheek.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Afbeelding toevoegen aan een bericht][1]
 
 <!-- Referenced links -->
 [1]: ../editor/learn/insert-images-in-message.md
 [2]: create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png

@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.09.2024
 version: 10
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # E-mailabonnementen beheren
@@ -69,7 +69,7 @@ Uw klant heeft de controle over de mailings die ze ontvangen en u kunt ervoor zo
 
 Met SuperOffice CRM respecteert u de communicatievoorkeuren van uw contacten en kunt u ervoor zorgen dat u binnen de regels van de AVG werkt. Zo riskeert u nooit een boete van 20.000.000 euro.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [AVG en privacy][2]
 * [Privacyverklaring SuperOffice][4]

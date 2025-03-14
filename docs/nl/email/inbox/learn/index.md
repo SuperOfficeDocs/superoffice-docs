@@ -2,9 +2,9 @@
 uid: help-nl-email-inbox
 title: SuperOffice Postvak IN
 description: SuperOffice Postvak IN
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
 topic: concept
 language: nl
 ---
@@ -27,7 +27,7 @@ Het scherm **Postvak IN** bestaat uit de volgende hoofdonderdelen:
 * Links op het scherm ziet u Postvak IN. U kunt heel eenvoudig schakelen tussen, bijvoorbeeld, het Postvak IN en verzonden e-mailberichten.
 * Rechts kunt u het geselecteerde bericht weergeven en verschillende acties uitvoeren.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mailberichten weergeven][1]
 * [Een e-mailbericht schrijven][2]

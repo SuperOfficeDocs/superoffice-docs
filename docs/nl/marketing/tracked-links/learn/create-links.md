@@ -7,9 +7,9 @@ author: Bergfrid Dias
 date: 02.27.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Gevolgde links maken
@@ -24,7 +24,7 @@ U kunt ook nieuwe links maken op het moment dat u de inhoud bewerkt.
 
 2. Optioneel: Selecteer een map of [maak een nieuwe map][2].
 
-3. Klik op de knop ![pictogram][img1] **Toevoegen**.
+3. Klik op **Toevoegen**.
 
 4. Voer in een herkenbare **Naam** voor de link.
 
@@ -37,6 +37,3 @@ Een kleine stip op de linkactietabbladen geeft aan welke linkacties actief zijn.
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

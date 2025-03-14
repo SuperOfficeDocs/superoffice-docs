@@ -43,7 +43,7 @@ Het instellen van herhaling betekent het plannen van de startdatum van follow-up
 
 [!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
 
-## Waarover zou u meer te weten willen komen?
+## Gerelateerde inhoud
 
 * [Herhalende vervolgactiviteiten bewerken][1]
 * [Herhalende vervolgactiviteiten stoppen][3]

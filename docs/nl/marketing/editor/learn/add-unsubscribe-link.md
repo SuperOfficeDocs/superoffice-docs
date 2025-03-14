@@ -1,15 +1,15 @@
 ---
 uid: help-nl-mailing-add-unsubscribe-link
 title: Koppeling voor uitschrijven toevoegen
-description: "Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen."
+description: Wanneer u een mailing verstuurt, is het verplicht om ontvangers de mogelijkheid te geven om zich af te melden. Lees in deze handleiding hoe u een afmeldlink aan uw mailing kunt toevoegen.
 keywords: marketing
 author: SuperOffice RnD
 date: 02.27.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Links voor abonnement toevoegen
@@ -30,7 +30,7 @@ U bepaalt waar deze koppeling voor uitschrijven wordt weergegeven en de formuler
 
 2. Typ en selecteer de tekst waarop de ontvanger moet klikken, bijvoorbeeld "Klik hier voor uitschrijven" of "Klik hier om uw abonnementen te beheren".
 
-3. Klik op de knop **Koppeling invoegen/bewerken** ![pictogram][img3] op de werkbalk.
+3. Klik op de knop **Koppeling invoegen/bewerken** (<i class="ph ph-link" aria-hidden="true"></i>) op de werkbalk.
 
 4. Klik op **Speciale links** en selecteer een van de volgende opties:
     * **Abonnementen beheren**: Voegt een koppeling naar een webpagina in waarop de ontvangers kunnen selecteren welke typen mailing ze willen ontvangen. De koppeling is standaard 21 dagen geldig.
@@ -52,5 +52,4 @@ Op basis van de feedback van de ontvangers worden de voorkeuren van het abonneme
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

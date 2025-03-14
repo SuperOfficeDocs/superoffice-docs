@@ -2,10 +2,12 @@
 uid: help-nl-resource
 title: Bron
 description: Bron
+keywords: lijst Algemeen - Bron
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: concept
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -13,7 +15,7 @@ language: nl
 
 Bronnen worden weergegeven in het dialoogvenster voor vervolgactiviteiten in SuperOffice CRM. Hier kunt u bronnen toevoegen uit het tabblad **Deelnemers**. U kunt bijvoorbeeld bronnen toevoegen, zoals vergaderruimtes en projectoren.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen aan de lijst Algemeen - Bron][1]
 

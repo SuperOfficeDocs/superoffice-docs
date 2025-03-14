@@ -2,10 +2,12 @@
 uid: help-nl-add-email-template
 title: E-mailsjabloon toevoegen
 description: E-mailsjabloon toevoegen
+keywords: e-mailsjabloon
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 
@@ -48,9 +50,9 @@ Sjablonen worden weergegeven als items in de lijst **E-mail - Sjabloon** en u ku
 
 Geef de volgende informatie op op het tabblad **Details**:
 
-1. (optioneel) Bewerk de naam van de sjabloon in het veld **Naam**. U kunt [de sjabloonnaam ook in andere talen toevoegen][1] door op ![pictogram][img1] te klikken.
+1. (optioneel) Bewerk de naam van de sjabloon in het veld **Naam**. U kunt [de sjabloonnaam ook in andere talen toevoegen][1] door op <i class="ph ph-translate" aria-label="Translate"></i> te klikken.
 
-2. Voer in het veld **Onderwerp** de titel van de e-mail in. U kunt [het onderwerp ook in andere talen toevoegen][1] door op ![pictogram][img1] te klikken.
+2. Voer in het veld **Onderwerp** de titel van de e-mail in. U kunt [het onderwerp ook in andere talen toevoegen][1] door op <i class="ph ph-translate" aria-label="Translate"></i> te klikken.
 
 3. Selecteer **Handtekening gebruiken in nieuwe e-mail** om uw handtekening toe te voegen aan nieuwe e-mails. Als u geen persoonlijke handtekening hebt, wordt de systeemhandtekening gebruikt.
 
@@ -58,9 +60,9 @@ Geef de volgende informatie op op het tabblad **Details**:
 
 5. Typ zo nodig een beschrijving voor de sjabloon in het veld **Beschrijving**.
 
-6. Geef in het veld **Richting** op of de sjabloon binnenkomend of uitgaand is door te klikken op de pijl (![pictogram][img2]) en een keuze te maken in de keuzelijst. Selecteer **Uitgaand** als u wilt dat de sjabloon beschikbaar is in **Postvak IN**.
+6. Geef in het veld **Richting** op of de sjabloon binnenkomend of uitgaand is door te klikken op <i class="ph ph-caret-down" aria-label="Chevron"></i> en een keuze te maken in de keuzelijst. Selecteer **Uitgaand** als u wilt dat de sjabloon beschikbaar is in **Postvak IN**.
 
-7. Klik in het veld **Intentie** op de pijl (![pictogram][img2]) en selecteer een van de vooraf gedefinieerde opties in de keuzelijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][5]).
+7. Klik in het veld **Intentie** op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteer een van de vooraf gedefinieerde opties in de keuzelijst. Deze items worden gebruikt samen met statuscontroles (vereist een licentie voor [Sales Intelligence][5]).
 
     > [!TIP]
     > U kunt nieuwe opties maken en toevoegen aan de vooraf gedefinieerde opties door deze toe te voegen aan de lijst **Vervolgactiviteit - Intentie** in Instellingen en onderhoud.
@@ -83,15 +85,11 @@ Hier kunt u vertaalde versies van de documentsjabloon toevoegen.
 5. Herhaal de stappen hierboven om extra talen toe te voegen.
 
 > [!TIP]
-> Klik op het ![pictogram][img1] naast het relevante veld om [vertalingen][1] van de sjabloonnaam en het e-mailonderwerp toe te voegen.
+> Klik op het <i class="ph ph-translate" aria-label="Translate"></i> naast het relevante veld om [vertalingen][1] van de sjabloonnaam en het e-mailonderwerp toe te voegen.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

@@ -2,9 +2,9 @@
 uid: help-nl-faq
 title: Werken met items in Veelgestelde vragen
 description: document veelgestelde vragen
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: Veelgestelde vragen
+author: Bergfrid Dias
+date: 03.14.2025
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -27,7 +27,7 @@ Veelgestelde vragen (FAQ's) zijn een belangrijk onderdeel van de afhandeling van
 
 [!include[FAQ vs. reply template](../../learn/includes/faq-vs-reply-template.md)]
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items in Veelgestelde vragen weergeven][1]
 * [Items in Veelgestelde vragen maken][2]

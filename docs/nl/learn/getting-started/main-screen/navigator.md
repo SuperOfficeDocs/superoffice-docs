@@ -2,10 +2,13 @@
 uid: help-nl-ui-navigator
 title: Navigator
 description: Navigator
+keywords: navigator, menu, gebruikersinterface, hoofdsecties
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: navigator, menu, gebruikersinterface
+date: 03.14.2025
+version: 10.5.2
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -14,67 +17,72 @@ language: nl
 U verplaatst zich tussen de hoofdsecties van SuperOffice met behulp van de navigator aan de linkerkant.
 
 > [!TIP]
-> U kunt de breedte van de navigator wijzigen door op ![pictogram][img21] en ![pictogram][img22] boven de navigator te klikken .
+> U kunt de breedte van de navigator wijzigen door op <i class="ph ph-sidebar-simple" aria-label="Zijbalkpictogram"></i> boven de navigator te klikken.
+
+## Het SuperOffice-logo ![SuperOffice-logo][img1]
+
+Links bovenin de navigator staat het SuperOffice-logo. Klik op het logo om de [SuperOffice Community website][30] te openen. Houd **CTRL** ingedrukt terwijl u op het logo klikt om snel naar uw eigen bedrijfskaart te gaan. (Uw hoofdbedrijf is een [voorkeur][31] die u kunt wijzigen.)
 
 ## De navigator in Standaard CRM
 
-| Knop | Beschrijving | Lees meer |
-|:-:|---|---|
-| ![pictogram][img3] |Hiermee opent u het scherm **Dashboard** met rapporten en grafieken van uw SuperOffice-gegevens.| [Dashboard][1] |
-| ![pictogram][img4] | Hiermee opent u het scherm Bedrijf met alle bedrijven waarmee u contact hebt. | [Bedrijven][2] |
-| ![pictogram][img5] | Hiermee opent u het scherm Persoon met al uw contactpersonen. | [Persoon][3] |
-| ![pictogram][img6] | Hiermee opent u het scherm Agenda, een soort geavanceerde papieren agenda. |  [Agenda][4] |
-| ![pictogram][img7] | Hiermee opent u het scherm Verkoop, waarin u gegevens van alle verkopen kunt opvragen. | [Verkoop][5] |
-| ![pictogram][img8] | Hiermee opent u het scherm Project, waar u gegevens van verschillende projecten kunt opvragen. | [Project][6] |
-| ![pictogram][img9] | Hiermee opent u het scherm Selectie, waar u in aparte selecties bedrijven, personen, projecten, verkopen, documenten en vervolgactiviteiten kunt invoeren waarmee u regelmatig werkt. Selecties kunnen onder meer worden gebruikt voor mailings. | [Selectie][7] |
-| ![pictogram][img10] | Hiermee opent u het **postvak IN**, waar u binnengekomen berichten kunt lezen en beantwoorden.| [Postvak IN/E-mail][8] |
-| ![pictogram][img11] | Hiermee opent u het scherm **Chat** waar u kunt antwoorden op vragen die zijn verzonden via de chatfunctie op de webpagina van uw bedrijf. | [Chatten][9] |
-| ![pictogram][img13] | Hiermee opent u het scherm **Marketing**. Hier kunt u mailings maken en verzenden (e-mails, SMS en documenten) en formulieren maken en publiceren. | [Marketing][11] |
-| ![pictogram][img14] | Hiermee opent u **Service** (verouderd) | |
-| ![pictogram][img15] | Hiermee opent u een menu dat u toegang biedt tot externe toepassingen en websites. De beschikbare items worden gedefinieerd in Instellingen en onderhoud. | |
+De navigator biedt snelle toegang tot belangrijke functies in SuperOffice CRM. Elk pictogram opent een specifiek scherm.
 
-## De Navigator in Instellingen en onderhoud
-
-| Knop | Functie | Lees meer |
+| Pictogram | Scherm | Beschrijving |
 |:-:|---|---|
-| ![pictogram][img42] | **Licenties**: In het tabblad **SuperOfficen** kunt u de licentiegegevens voor uw versie van SuperOffice CRM en de bijbehorende functies downloaden. In het tabblad **Status** kunt u databasegegevens en systeemmeldingen weergeven. | [Licenties][45] |
-| ![pictogram][img43] | **Gebruikers**: hiermee opent u het scherm Gebruikers, waarin u gebruikers-ID's, wachtwoorden, gebruikersgroepen, rollen en verschillende typen toegangsopties kunt definiëren. In het tabblad **Onze bedrijven** kunt u behalve uw hoofdbedrijf ook andere bedrijven toevoegen. | [Status][46] |
-| ![pictogram][img44] | **Rollen**: hiermee opent u het scherm Rollen, waarin u rollen kunt definiëren voor de toegang tot gegevens en functies in SuperOffice CRM. De toegangsniveaus van gebruikers worden bepaald door de rol waartoe zij behoren. | [Rollen][47] |
-| ![pictogram][img45] | **Privacy**: hiermee opent u het scherm Privacy, waarin u instellingen voor privacy en toestemming kunt definiëren in SuperOffice CRM. | [Privacy][48] |
-| ![pictogram][img46] | **SAINT**: hiermee opent u het scherm voor statuscontroles (Sales Intelligence), waarin u statussen voor bedrijven en projecten kunt maken. | [SAINT][49] |
-| ![pictogram][img47] | **AI-diensten**: hiermee opent u het scherm voor AI-diensten, waarop u instellingen kunt configureren voor tekstanalyse, sentimentanalyse en de categorisering van verzoeken. | [AI-diensten][20] |
-| ![pictogram][img48] | **Lijsten**: hiermee opent u het scherm Lijsten, dat beschrijvingen en definities bevat van de lijsten in SuperOffice CRM. | [Lijsten][21] |
-| ![pictogram][img49] | **Offerte/Synchroniseren**: hiermee opent u het scherm Offerte/Synchroniseren, waarin u verbindingen en instellingen kunt beheren voor ERP-systemen die zijn verbonden met SuperOffice CRM. Hier kunt u ook werken aan de prijslijsten en producten in de SuperOffice-database. | [Offerte/Synchroniseren][22] |
-| ![pictogram][img50] | **Workflow**: hiermee opent u het scherm Workflow, waarin u projectgidsen en verkoopgidsen kunt definiëren voor SuperOffice CRM. | |
-| ![pictogram][img51] | **Schermontwerper**: hiermee opent u het scherm Schermontwerper, waar u aangepaste schermopmaken kunt maken voor specifieke gebruikersgroepen. | [Schermontwerper][24] |
-| ![pictogram][img52] | **Voorkeuren**: hiermee opent u het scherm Voorkeuren, waarin u instellingen kunt definiëren voor verschillende aspecten van SuperOffice CRM, zoals het aantal elementen dat wordt weergegeven in de historielijst, het standaardtype van nieuwe activiteiten, enzovoort. Hier kunt u ook [Videovergaderingen][42] en de [Documentbibliotheek][43] configureren. | [Voorkeuren][25] |
-| ![pictogram][img41] | **Chat**: hiermee opent u het scherm Chat, waarin u chatkanalen kunt maken en de chatfunctie kunt instellen. | [Chatten][2] |
-| ![pictogram][img53] | **Opties**: hiermee opent u het scherm Opties waar u systeembrede instellingen kunt definiëren. Bijvoorbeeld instellingen voor zoeken in vrije tekst, tijdzones, nummertoewijzing en labels. | [Opties][26] |
-| ![pictogram][img54] | **Import**: hiermee opent u het scherm Import, waarin u gegevens kunt importeren in de SuperOffice-database. | [Import][27] |
-| ![pictogram][img55] | **Velden**: hiermee opent u het scherm Velden, waarin u zelf velden kunt definiëren voor SuperOffice CRM. | [Velden][28] |
-| ![pictogram][img56] | **CRMScript**: hiermee opent u een scherm met verschillende functies voor scriptverwerking en automatisering, zoals macro's, gebeurtenisregistraties en geplande taken. | [CRMScript][41] |
-| ![pictogram][img57] | **Verzoeken**: hier vindt u verschillende instellingen voor verzoeken in SuperOffice Service. | [Verzoeken][34] |
-| ![pictogram][img58] | **Customer Centre**: hier kunt u het Customer Centre configureren. U kunt de inhoud en opmaak van het Customer Centre bewerken en de standaardinhoud bewerken. | |
-| ![pictogram][img59] | **Systeemontwerp**: hier vindt u verschillende geavanceerde instellingen voor SuperOffice Service. | |
-| ![pictogram][img60] | **App Store**: Hiermee opent u de [SuperOffice App Store][44], waar u standaard-apps en integraties kunt verkennen die SuperOffice CRM Online kunnen uitbreiden. | |
+| <i class="ph ph-gauge" aria-label="Dashboardpictogram"></i> | **[Dashboard][1]** | Bekijk **rapporten en grafieken** die uw CRM-gegevens samenvatten. |
+| <i class="ph ph-buildings" aria-label="Bedrijfspictogram"></i> | **[Bedrijven][2]** | Beheer uw **bedrijfsgegevens** en gerelateerde informatie. |
+| <i class="ph ph-user-circle" aria-label="Persoonpictogram"></i> | **[Personen][3]** | Beheer **individuele contactgegevens**. |
+| <i class="ph ph-calendar" aria-label="Kalenderpictogram"></i> | **[Agenda][4]** | Plan en volg **vervolgactiviteiten**. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Verkooppictogram"></i> | **[Verkoop][5]** | Beheer en volg uw **verkoopkansen**. |
+| <i class="ph ph-clipboard-text" aria-label="Projectpictogram"></i> | **[Projecten][6]** | Organiseer en bewaak **projectactiviteiten**. |
+| <i class="ph ph-subtract-square" aria-label="Selectiepictogram"></i> | **[Selecties][7]** | Maak en beheer **selecties** voor campagnes of workflows. |
+| <i class="ph ph-at" aria-label="E-mailpictogram"></i> | **[Postvak IN][8]** | Lees en beantwoord **inkomende berichten**. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chatpictogram"></i> | **[Chat][9]** | Beantwoord **chatvragen** van uw website. |
+| <i class="ph ph-target" aria-label="Marketingpictogram"></i> | **[Marketing][11]** | Maak en verzend **mailings en formulieren**. |
+| <i class="ph ph-ticket" aria-label="Verzoekpictogram"></i> | **[Verzoeken][34]** | Beheer **serviceverzoeken**. |
+| <i class="ph ph-wrench" aria-label="Hulppictogram"></i> | **Tools** | Open externe **applicaties en websites**. |
+
+## De navigator in Instellingen en onderhoud
+
+| Pictogram | Scherm | Beschrijving |
+|:-:|---|---|
+| <i class="ph ph-lock-simple" aria-label="Slotpictogram"></i> | **[Licenties][45]** | Beheer SuperOffice-licenties, bekijk systeemmeldingen en databasegegevens. |
+| <i class="ph ph-user" aria-label="Gebruikerspictogram"></i> | **[Gebruikers][46]** | Definieer gebruikersaccounts, groepen, rollen en toegangsmogelijkheden. Beheer uw bedrijfsgegevens. |
+| <i class="ph ph-traffic-signal" aria-label="Verkeerslichtpictogram"></i> | **[Rollen][47]** | Beheer rollen voor controle over CRM-toegang en functies. |
+| <i class="ph ph-shield" aria-label="Schildpictogram"></i> | **[Privacy][48]** | Pas privacy- en toestemmingsinstellingen aan. |
+| <i class="ph ph-chart-bar" aria-label="SAINT"></i> | **[SAINT][49]** | (Sales Intelligence) Beheer statusmonitors voor bedrijven en projecten. |
+| <i class="ph ph-sparkle" aria-label="Sprankelpictogram"></i> | **[AI-diensten][20]** | Configureer AI-aangedreven tekstanalyse en categorisatie van verzoeken. |
+| <i class="ph ph-list-bullets" aria-label="Lijstenpictogram"></i> | **[Lijsten][21]** | Beheer en pas lijsten aan die in CRM worden gebruikt. |
+| <i class="ph ph-barcode" aria-label="Barcodepictogram"></i> | **[Offerte/Synchroniseren][22]** | Beheer ERP-integratie-instellingen, prijslijsten en producten. |
+| <i class="ph ph-arrows-left-right" aria-label="Workflowpictogram"></i> | **Workflow** | Definieer verkoop- en projectworkflows. |
+| <i class="ph ph-squares-four" aria-label="Schermontwerper"></i> | **[Schermontwerper][24]** | Pas lay-outs aan voor specifieke gebruikersgroepen. |
+| <i class="ph ph-gear" aria-label="Instellingenpictogram"></i> | **[Voorkeuren][25]** | Pas standaardinstellingen aan, zoals [videovergaderingen][42] en de [documentbibliotheek][43]. |
+| <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> | **[Chat][2]** | Stel chatkanalen in en beheer de chatfunctie voor SuperOffice CRM. |
+| <i class="ph ph-sliders-horizontal" aria-label="Horizontal slider icon"></i> | **[Opties][26]** | Configureer wereldwijde systeeminstellingen, zoals vrije tekst zoeken, tijdzones, labels en nummering. |
+| <i class="ph ph-file-arrow-up" aria-label="Import icon"></i> | **[Import][27]** | Importeer gegevens in SuperOffice CRM. |
+| <i class="ph ph-rows" aria-label="Fields icon"></i> | **[Velden][28]** | Definieer en beheer aangepaste velden voor SuperOffice CRM. |
+| <i class="ph ph-code-block" aria-label="Script icon"></i> | **[CRMScript][41]** | Automatiseer taken met scripts, macro's en gebeurtenisregistraties. |
+
+| <i class="ph ph-ticket" aria-label="Verzoekpictogram"></i> | **[Verzoeken][34]** | Pas instellingen voor SuperOffice Service aan. |
+| <i class="ph ph-question" aria-label="Vraagtekenpictogram"></i> | **Customer Center** | Beheer de opmaak en inhoud van het Customer Center. |
+| <i class="ph ph-basket" aria-label="Winkelmandpictogram"></i> | [**App Store**][44] | Ontdek apps en integraties voor SuperOffice CRM. |
 
 ## <a id="navigator"></a>Navigator-opties
 
-Wanneer u op een navigatorknop klikt, worden één of meer van de knoppen hieronder weergegeven.
+Wanneer u op een navigatorknop klikt, worden één of meer van de volgende opties weergegeven:
 
-| Knop | Beschrijving |
-|:-:|---|
-| ![pictogram][img26] | **Acties/lijsten**: klik op deze knop om beschikbare acties/functies, lijsten en dergelijke voor de geselecteerde navigatorknop weer te geven. |
-| ![pictogram][img23] | **Historie**: klik op deze knop om de onlangs geopende items te bekijken, bijvoorbeeld verzoeken, personen of selecties. |
-| ![pictogram][img24] | **Favorieten**: Klik op deze knop om de records weer te geven die u hebt [ingesteld als favorieten][15]. |
-| ![pictogram][img25] | **Zoeken**: klik op deze knop om de resultaten van de laatste zoekopdracht weer te geven. Het zoekveld boven de knoppen is dynamisch - begin uw zoekterm te typen om de zoekopdracht te starten. |
+| Pictogram | Functie | Beschrijving |
+|:-:|---|---|
+| <i class="ph ph-clock" aria-label="Klokpictogram"></i> | **[Historie][16]** | Bekijk recent geopende records, zoals verzoeken, personen of selecties. |
+| <i class="ph ph-star" aria-label="Sterpictogram"></i> | **[Favorieten][15]** | Bekijk records die u als favoriet hebt gemarkeerd. |
+| <i class="ph ph-magnifying-glass" aria-label="Vergrootglas"></i> | **Zoeken** | Toont de resultaten van de laatste zoekopdracht. Het zoekveld start dynamisch een zoekopdracht terwijl u typt. |
 
 > [!NOTE]
-> Als u op de knop **Dashboard** klikt, wordt alleen het Dashboard geopend.
+> Als u op de **Dashboard**-knop klikt, wordt alleen het dashboard geopend.
 
-Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo weergegeven met aanvullende informatie over die record.
+Als u de muisaanwijzer op een record in een lijst plaatst, verschijnt er een tooltip met extra informatie.
 
-![Voorbeeld -screenshot][img2]
+![Navigatoropties in SuperOffice -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
@@ -88,6 +96,7 @@ Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo wee
 [9]: ../../../chat/learn/index.md
 [11]: ../../../marketing/learn/index.md
 [15]: ../../basics/fav.md
+[16]: ../../basics/history.md
 [34]: ../../../request/learn/index.md
 
 [20]: ../../../ai/learn/index.md
@@ -101,7 +110,7 @@ Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo wee
 
 [41]: ../../../automation/crmscript/learn/index.md
 [42]: ../../../admin/preferences/learn/video-meetings/index.md
-[43]: ../../../admin/preferences/learn/document-library/index.md
+[43]: ../../../document/library/learn/index.md
 [44]: https://online.superoffice.com/appstore
 [45]: ../../../admin/license/learn/index.md
 [46]: ../../../admin/user-management/learn/index.md
@@ -109,45 +118,9 @@ Als u de muisaanwijzer op een record in een lijst plaatst, wordt er knopinfo wee
 [48]: ../../../security/privacy/learn/index.md
 [49]: ../../../saint/learn/index.md
 
+[30]: https://community.superoffice.com
+[31]: ../preferences.md
+
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/learn/navigator-preview-sales.png
-[img3]: ../../../../../common/icons/nav-dashboard-h32.png
-[img4]: ../../../../../common/icons/nav-company-h32.png
-[img5]: ../../../../../common/icons/nav-contact-h32.png
-[img6]: ../../../../../common/icons/nav-diary-h32.png
-[img7]: ../../../../../common/icons/nav-sale-h32.png
-[img8]: ../../../../../common/icons/nav-project-h32.png
-[img9]: ../../../../../common/icons/nav-selection-h32.png
-[img10]: ../../../../../common/icons/nav-inbox-h32.png
-[img11]: ../../../../../common/icons/nav-chat-h32.png
-[img13]: ../../../../../common/icons/nav-marketing-h32.png
-[img14]: ../../../../../common/icons/nav-cs-h32.png
-[img15]: ../../../../../common/icons/nav-tools-h32.png
-
-[img21]: ../../../../../common/icons/left-collapse.png
-[img22]: ../../../../../common/icons/left-expand.png
-[img23]: ../../../../../common/icons/nav-history-h32.png
-[img24]: ../../../../../common/icons/nav-fav-h32.png
-[img25]: ../../../../../common/icons/nav-search-h32.png
-[img26]: ../../../../../common/icons/nav-list-h32.png
-
-[img41]: ../../../../../common/icons/nav-admin-chat-active-h32.png
-[img42]: ../../../../../common/icons/nav-admin-licenses-active-h32.png
-[img43]: ../../../../../common/icons/nav-admin-users-active-h32.png
-[img44]: ../../../../../common/icons/nav-admin-roles-active-h32.png
-[img45]: ../../../../../common/icons/nav-admin-privacy-active-h32.png
-[img46]: ../../../../../common/icons/nav-admin-saint-active-h32.png
-[img47]: ../../../../../common/icons/nav-ai-services-active-h32.png
-[img48]: ../../../../../common/icons/nav-admin-lists-active-h32.png
-[img49]: ../../../../../common/icons/nav-admin-products-active-h32.png
-[img50]: ../../../../../common/icons/nav-admin-workflow-active-h32.png
-[img51]: ../../../../../common/icons/nav-admin-confscreen-active-h32.png
-[img52]: ../../../../../common/icons/nav-admin-preferences-active-h32.png
-[img53]: ../../../../../common/icons/pref-system-active-h32.png
-[img54]: ../../../../../common/icons/nav-admin-import-active-h32.png
-[img55]: ../../../../../common/icons/nav-admin-fields-active-h32.png
-[img56]: ../../../../../common/icons/nav-admin-crmscript-active-h32.png
-[img57]: ../../../../../common/icons/nav-admin-requests-active-h32.png
-[img58]: ../../../../../common/icons/nav-admin-custcenter-active-h32.png
-[img59]: ../../../../../common/icons/nav-admin-systemdesign-active-h32.png
-[img60]: ../../../../../common/icons/nav-admin-appstore-active-h32.png
+[img2]: ../../../../media/loc/en/learn/navigator-options.png
+[img1]: ../../../../../common/icons/hugo-green.png

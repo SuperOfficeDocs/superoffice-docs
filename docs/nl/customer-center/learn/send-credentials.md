@@ -18,7 +18,7 @@ Een persoon die toegang moet kunnen hebben tot een klantencentrum heeft een gebr
 
 1. Open het scherm Persoon.
 
-1. Klik op ![pictogram][img1] **Taak** en selecteer **Customer Centre-gebruiker beheren**.
+1. Klik op **Taak** en selecteer **Customer Centre-gebruiker beheren**.
 
 1. Klik op **Wachtwoord verzenden**.
 
@@ -30,8 +30,3 @@ Een persoon die toegang moet kunnen hebben tot een klantencentrum heeft een gebr
 
 > [!TIP]
 > de inhoud van het bericht wordt opgehaald via een geïnstalleerde systeemsjabloon. Deze staan bij **Kennisdatabase** > **Antwoordsjablonen**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png

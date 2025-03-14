@@ -2,10 +2,12 @@
 uid: help-nl-deleting-items
 title: Items verwijderen
 description: Items verwijderen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+author: SuperOffice RnD
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

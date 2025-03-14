@@ -4,8 +4,8 @@ title: Tabblad Personen
 description: Leer hoe u contactinformatie kunt beheren en ermee kunt interacteren die is gekoppeld aan bedrijven in SuperOffice CRM. Volg efficiënt personeelsgegevens en onderhoud communicatiegegevens voor naadloze klantrelaties.
 keywords: tabblad Personen, Sectietabblad Personen, sectietabblad, tussenvoegsel inschakeln
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,8 +24,8 @@ Het sectietabblad **Personen** bevat de volgende kolommen om belangrijke informa
 
 | Kolom | Beschrijving |
 |---|---|
-| Info | Toont een paperclip-pictogram (![icon][img3]) als het tabblad **Opmerking** in de contactkaart een notitie bevat. Houd de muisaanwijzer op het pictogram om de notitie te bekijken. |
-| Interesses | Toont een pin-pictogram (![icon][img2]) als de persoon interesses heeft. Houd de muisaanwijzer op het pictogram om de interesses te bekijken. |
+| Info | Toont een paperclip-pictogram (<i class="ph ph-paperclip" aria-hidden="true"></i>) als het tabblad **Opmerking** in de contactkaart een notitie bevat. Houd de muisaanwijzer op het pictogram om de notitie te bekijken. |
+| Interesses | Toont een punt als de persoon interesses heeft. Houd de muisaanwijzer op het pictogram om de interesses te bekijken. |
 | Dhr./Mw. | Geeft de juiste manier aan om de persoon aan te spreken. |
 | Voornaam / Tussenvoegsel / Achternaam | De volledige naam van de persoon. Het gebruik van een tussenvoegsel kan worden geconfigureerd in **Instellingen en onderhoud**. |
 | Titel | Geeft de professionele titel of rol van de persoon binnen het bedrijf weer. |
@@ -103,5 +103,3 @@ Als de voorkeur is ingeschakeld, wordt het eerste deel van de achternaam gebruik
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../media/icons/pin.png
-[img3]: ../../../media/icons/binders.png

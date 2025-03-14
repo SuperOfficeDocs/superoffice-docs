@@ -15,7 +15,7 @@ Hier kunt u de eigenschappen van een scherm bewerken. U kunt een script maken om
 
 ## Eigenschappen
 
-* **Map:** als u de schermen in een mapstructuur hebt georganiseerd, klikt u op ![pictogram][img1] en selecteert u een map.
+* **Map:** als u de schermen in een mapstructuur hebt georganiseerd, klikt u op <i class="ph ph-caret-down" aria-label="Chevron"></i> en selecteert u een map.
 * **Naam**: een beschrijvende naam voor het scherm.
 * **ID-tekenreeks**: een tekenreeks waarmee dit scherm uniek wordt aangeduid, zodat ernaar kan worden verwezen in URL's.
 * **Verificatiesleutel**: het is mogelijk een aangepast scherm uit te voeren zonder als gebruiker te zijn aangemeld. Om dit te doen, moet u een verificatiesleutel opgeven.
@@ -30,7 +30,4 @@ Hier kunt u de eigenschappen van een scherm bewerken. U kunt een script maken om
 * **Verborgen variabelen**: de variabelen die hier worden gedefinieerd, worden opgeslagen wanneer het scherm wordt verzonden, zodat het volgende scherm er toegang toe heeft.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[1]: ../../../request/learn/create.md

@@ -2,7 +2,7 @@
 uid: help-nl-project-member-add
 title: Projectlid toevoegen
 description: Een projectlid toevoegen in SuperOffice
-keywords: project, lid
+keywords: projectlid toevoegen, nieuw projectlid, dialoogvenster Projectleden toevoegen/bewerken, projectlid, lid, project
 author: Bergfrid Dias
 date: 11.19.2024
 version: 10.3.12
@@ -32,11 +32,11 @@ Bij het toevoegen van leden aan een project kunt u functies individueel toewijze
 
       ![Dialoogvenster Projectleden toevoegen/bewerken, geschiedenis -screenshot][img5]
 
-    * **Gebruikersgroep**: Klik op ![icoon][img2] om medewerkers per groep te doorzoeken.
+    * **Gebruikersgroep**: Klik op <i class="ph ph-users" aria-label="Associate icon"></i> om medewerkers per groep te doorzoeken.
 
       ![Dialoogvenster Projectleden toevoegen/bewerken, groep -screenshot][img6]
 
-    * **Bedrijf**: Klik op ![icoon][img3] om personen binnen een bedrijf te doorzoeken of om een bedrijf als lid toe te voegen.
+    * **Bedrijf**: Klik op <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> om personen binnen een bedrijf te doorzoeken of om een bedrijf als lid toe te voegen.
 
       ![Dialoogvenster Projectleden toevoegen/bewerken, bedrijf -screenshot][img7]
 
@@ -79,7 +79,7 @@ U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op ver
 
 * **Voeg opmerkingen toe**
 
-    Als een opmerking is toegevoegd, verschijnt er een ![icoon][img1] paperclip naast de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
+    Als een opmerking is toegevoegd, verschijnt er een paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) naast de kolom **Projectlidgegevens** op het sectietabblad **Projectleden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ U kunt projectleden en aandeelhouders toevoegen vanuit de personenlijsten op ver
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

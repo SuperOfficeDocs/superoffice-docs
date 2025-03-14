@@ -2,9 +2,9 @@
 uid: help-nl-time-zones
 title: Tijdzones
 description: Tijdzones
+keywords: tijdzone
 author: Bergfrid Dias
 date: 05.25.2023
-keywords: CRM
 topic: concept
 language: nl
 ---
@@ -29,7 +29,7 @@ Deze functie ondersteunt zomertijd.
 
 ## Hoe selecteert u tijdzones?
 
-Tijdzones worden weergegeven in een keuzelijst in [Agenda][1] en voor [vervolgactiviteiten][3]. De standaard tijdzone voor uw SuperOffice-database wordt bovenaan weergegeven met behulp van dit pictogram: ![pictogram][img1].
+Tijdzones worden weergegeven in een keuzelijst in [Agenda][1] en voor [vervolgactiviteiten][3]. De standaard tijdzone voor uw SuperOffice-database wordt bovenaan weergegeven.
 
 De tijdzonelijst wordt gesorteerd op land. Boven aan de lijst bevindt zich de naam en de vlag van het geselecteerde land.
 
@@ -57,6 +57,3 @@ Gebruik het veld bovenaan met het geselecteerde land en de vlag als zoekveld. U 
 <!-- Referenced links -->
 [1]: ../../diary/learn/index.md
 [3]: ../../diary/learn/follow-ups.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/time-zone-local.png

@@ -2,16 +2,20 @@
 uid: help-nl-sale-stakeholders
 title: Belanghebbenden
 description: Belanghebbenden
-author: SuperOffice RnD
-date: 07.04.2022
 keywords: verkoop, belanghebbende
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: concept
+license: salespremium
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Belanghebbenden
 
-![pictogram][img1]
+![Het sectietabblad Belanghebbenden in het scherm Verkoop -screenshot][img1]
 
 Een verkoop heeft een hoofdcontactpersoon, maar partners en onderaannemers kunnen ook bij de verkoop betrokken zijn. Zij worden belanghebbenden genoemd en kunnen worden ingevoerd via het sectietabblad **Belanghebbenden** onder in het scherm Verkoop. Belanghebbenden kunnen zowel personen als organisaties omvatten.
 
@@ -28,14 +32,14 @@ De rol van elke belanghebbende in de verkoop wordt getoond. Deze verkooprollen w
 
 U moet tevens de voorkeur **Belanghebbenden inschakelen** in de voorkeursgroep **Verkoop** instellen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Belanghebbenden registreren][1]
 * [Belanghebbenden toevoegen vanuit sectietabbladen][2]
 * [Aandeelhouders bewerken of verwijderen][3]
 * [E-mail verzenden naar belanghebbenden][4]
-* [Items toevoegen aan de lijst Verkoop - Verkooptype (voor fasen)][5]
-* Items toevoegen aan, bewerken in en verwijderen uit de lijst [Verkoop - Rol belanghebbende][6]
+* [Verkooptypen toevoegen en bewerken][5]
+* [Verkoopfasen toevoegen, bewerken en verwijderen][6]
 * [Voorkeursinstellingen toevoegen][7]
 
 <!-- Referenced links -->
@@ -43,9 +47,9 @@ U moet tevens de voorkeur **Belanghebbenden inschakelen** in de voorkeursgroep *
 [3]: edit.md
 [2]: ../../../project/learn/project-members/add.md#from-section-tab
 [4]: ../../../project/learn/project-members/send-email-to.md
-[5]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../admin/sale-type.md
 [6]: ../../../admin/lists/learn/items.md
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.png
+[img1]: ../../../../media/loc/en/sale/stakeholders-section-tab.png

@@ -1,10 +1,10 @@
 ---
 uid: help-nl-chat-statistics
 title: Chatstatistieken weergeven
-description: "In deze handleiding leert u hoe u chatstatistieken kunt bekijken, zowel in een dashboard als op het chatscherm."
+description: In deze handleiding leert u hoe u chatstatistieken kunt bekijken, zowel in een dashboard als op het chatscherm.
+keywords: chatten
 author: SuperOffice RnD
 date: 02.14.2023
-keywords: chatten
 topic: howto
 language: nl
 ---

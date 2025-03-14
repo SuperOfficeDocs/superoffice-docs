@@ -64,7 +64,7 @@ Een geweldige manier om relevante e-mailcommunicatie met klanten bij te houden, 
 
 Door WebTools te installeren, krijgt u uw e-mail en documenten geïntegreerd met SuperOffice. U kunt elke inkomende of uitgaande e-mail met één klik opslaan. De gebruikers hebben beheerdersrechten nodig om WebTools te installeren, dus help hen het correct te installeren.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Wat is SuperOffice WebTools en wat doet het?][1] - Veelgestelde vragen
 * [Meer informatie over het installeren van WebTools][2]

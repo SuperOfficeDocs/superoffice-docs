@@ -28,7 +28,7 @@ Het maken van aangepaste tabbladen stelt u in staat om gerelateerde velden te gr
 
 2. Vervang onder **Titel tabblad** de tekst "Nieuw tabblad" door de nieuwe naam van het tabblad.
 
-    U kunt ook op de **A-Z** knop klikken om de naam van het tabblad in andere talen toe te voegen.
+    U kunt ook op <i class="ph ph-translate" aria-label="Translate"></i> klikken om de naam van het tabblad in andere talen toe te voegen.
 
 3. Selecteer het aantal kolommen dat u in het nieuwe tabblad wilt gebruiken.
 
@@ -69,7 +69,7 @@ Labels en scheidingslijnen helpen bij het organiseren van velden binnen een tabb
 
 3. Om een kop toe te voegen, sleept u het element **Label** naar het opmaak.
 
-    * Vervang in het secties **Instellingen** de tekst "Nieuw label" door de nieuwe labelnaam. Optioneel kunt u op de **A-Z** knop naast het label klikken om de naam van het label in andere talen toe te voegen.
+    * Vervang in het secties **Instellingen** de tekst "Nieuw label" door de nieuwe labelnaam. Optioneel kunt u op <i class="ph ph-translate" aria-label="Translate"></i> naast het label klikken om de naam van het label in andere talen toe te voegen.
     * Wijzig de lettertype-indeling indien nodig.
 
 4. Om een horizontale scheidingslijn toe te voegen, sleept u het element **Scheidingslijn** naar het opmaak. Wijzig indien relevant het type ruimte.

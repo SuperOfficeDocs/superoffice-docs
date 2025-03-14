@@ -33,7 +33,7 @@ Elk schermelement kan persoonlijke profielen, algemene profielen en een globaal 
 
 Door profielen te gebruiken kan SuperOffice Service worden aangepast aan de behoeften van individuele gebruikers, gebruikersgroepen of de volledige organisatie.
 
-## Waarover zou u meer te weten willen komen?
+## Gerelateerde inhoud
 
 * [Persoonlijke profielen][1]
 * [Algemene profielen][2]

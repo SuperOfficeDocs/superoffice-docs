@@ -2,9 +2,9 @@
 uid: help-nl-settings-soap-configure
 title: SOAP-interface configureren
 description: SOAP-interface configureren
+keywords: Service, SOAP
 author: SuperOffice RnD
 date: 03.23.2023
-keywords: Service, SOAP
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -29,9 +29,4 @@ language: nl
 1. Klik op de knop **Toevoegen** om het IP-adresbereik toe te voegen aan de lijst hieronder.
 
 > [!TIP]
-> Als u een IP-adresbereik wilt verwijderen uit de lijst, klikt u op het pictogram voor verwijderen ![pictogram][img1].
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png
+> Als u een IP-adresbereik wilt verwijderen uit de lijst, klikt u op <i class="ph ph-x-circle" aria-label="Remove icon"></i>.

@@ -58,7 +58,7 @@ Vink hier aan als de gebruikers het veld mogen bewerken en/of verplicht zijn het
 
 ### Order
 
-Klik op de ![pictogram][img1] ![pictogram][img2] pijlen uiterst rechts om de positie van het veld te kiezen. Deze volgorde wordt ook gebruikt in het dialoogvenster **Product toevoegen/bewerken**.
+Klik op <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> uiterst rechts om de positie van het veld te kiezen. Deze volgorde wordt ook gebruikt in het dialoogvenster **Product toevoegen/bewerken**.
 
 ## Gerelateerde inhoud
 
@@ -70,6 +70,4 @@ Klik op de ![pictogram][img1] ![pictogram][img2] pijlen uiterst rechts om de pos
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

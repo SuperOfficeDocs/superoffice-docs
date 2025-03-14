@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 09.17.2024
 version: 10.3.9
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Marketing automatisering - flows
@@ -74,7 +74,7 @@ Kies tussen de weergave in **lijst- of tegelmodus** in de rechterbenedenhoek.
 
 | Pictogram | Modus | Beschrijving |
 |:-:|---|---|
-| ![pictogram][img9] | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op de menuknop ![pictogram][img3] om de flow te openen, bewerken, kopiëren of verwijderen. |
+| ![pictogram][img9] | Tegel (miniatuur) | Toont een miniatuur van elke flow met essentiële gegevens. Klik op <i class="ph ph-list" aria-label="Task menu"></i> om de flow te openen, bewerken, kopiëren of verwijderen. |
 | ![pictogram][img8] | Lijst (archief, raster) | Toont een lijst van alle flows met informatie gepresenteerd in kolommen. Je kunt groeperen, filteren en de kolommen aanpassen vergelijkbaar met kolommen in [sectietabbladen][12]. Klik met de rechtermuisknop om het contextmenu te openen om de flow te openen, bewerken, kopiëren of verwijderen. |
 
 ## <a id="view"></a>Het scherm Flow weergeven
@@ -156,6 +156,5 @@ Toegang tot flows en flowinhoud wordt beheerd door de rol en [functionele rechte
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flows-panel.png
 [img2]: ../../../../media/loc/en/marketing/flow-editor-with-step-menu.png
-[img3]: ../../../../media/icons/btn-menu.png
 [img8]: ../../../../../common/icons/view-list.png
 [img9]: ../../../../../common/icons/view-thumbs.png

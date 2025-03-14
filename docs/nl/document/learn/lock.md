@@ -4,9 +4,10 @@ title: Documenten aan/afmelden
 description: Documenten aan/afmelden
 keywords: document
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 02.25.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -24,33 +25,15 @@ In SuperOffice CRM worden door veel verschillende mensen en op verschillende mom
 
 * Leesmodus: Het document is geopend voor lezen. Als u wijzigingen aanbrengt, worden deze niet opgeslagen. Als u [de wijzigingen in uw document wilt opslaan][1], moet u een nieuw document maken in SuperOffice CRM en het bestand met uw wijzigingen uploaden.
 
-Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar ![pictogram][img2] **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
+Een document wordt standaard in de bewerkingsmodus geopend. Als u liever de leesmodus of bewerkingsmodus selecteert wanneer u een document opent, gaat u naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Voorkeuren** > **Functies** en stelt u **Vragen om te bewerken of te lezen** in op **Ja**.
 
 ## Hoe weet ik wanneer een document is afgemeld?
 
-<!-- markdownlint-disable MD051 -->
-### [Nieuw (vanaf versie 10.3.11)](#tab/lock-new)
-
 In het dialoogvenster **Document** toont een afgemeld document een banner die aangeeft wie het bewerkt.
 
-![pictogram][img5] **Jij** bewerkt dit document.
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> **Jij** bewerkt dit document.
 
-![pictogram][img5] Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
-
-### [Klassiek (onsite)](#tab/lock-old)
-
-In het dialoogvenster **Document** heeft een afgemeld document een van de volgende pictogrammen:
-
-![pictogram][img3] Het document is momenteel afgemeld voor bewerking door uzelf.
-
-![pictogram][img4] Het document is momenteel afgemeld voor bewerking door een andere gebruiker.
-
-Houd de muisaanwijzer op een pictogram om informatie over de gebruiker weer te geven die het document heeft afgemeld.
-
-Als u probeert een afgemeld document te openen, wordt er een dialoogvenster weergegeven met informatie over de persoon die het document heeft afgemeld. U kunt het document alleen in leesmodus openen.
-
-***
-<!-- markdownlint-restore -->
+<i class="ph ph-warning-circle" aria-label="Warning icon"></i> Je kunt dit document niet bewerken omdat het is vergrendeld door **NN**.
 
 ## Een document afmelden voor bewerking
 
@@ -72,13 +55,7 @@ U hebt speciale bevoegdheden nodig om toegang te krijgen tot deze optie. U hebt 
 Als u of iemand anders een document heeft uitgecheckt en u het document wilt bewerken, kunt u het afmelden annuleren:
 
 1. Klik met de rechtermuisknop op het document en selecteer **Document**.
-2. Klik in het dialoogvenster Document op **Taak** en selecteer **Opgeslagen versie gebruiken**.
+2. Klik in het dialoogvenster Document op <i class="ph ph-dots-three-circle-vertical" aria-label="Opgave-knappen"></i> en selecteer **Opgeslagen versie gebruiken**.
 
 <!-- Referenced links -->
 [1]: edit.md
-
-<!-- Referenced images -->
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/document-lock-editing.png
-[img4]: ../../../media/icons/document-lock-locked.png
-[img5]: ../../../../common/icons/ops.png

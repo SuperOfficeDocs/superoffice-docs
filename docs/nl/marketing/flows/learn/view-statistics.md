@@ -7,9 +7,9 @@ author: Bergfrid Dias, Trude Lien Smedbråten
 date: 06.17.2024
 version: 10.3.5
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Statistieken weergeven

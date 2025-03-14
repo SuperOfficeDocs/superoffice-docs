@@ -34,7 +34,7 @@ Klik op de koppeling in het pop-upbericht om het document te openen in SuperOffi
 > [!NOTE]
 > U kunt [bijlagen ook archiveren als documenten][3].
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Bijlagen archiveren][3]
 * [Activiteit maken][5]

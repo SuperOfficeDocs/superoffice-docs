@@ -85,7 +85,7 @@ Op het tabblad **Gebruikerslicenties** in het scherm Gebruikers kunt u zien hoev
 
 Op het tabblad **Gebruikersgroepen** in het scherm Gebruikers, kunt u een overzicht krijgen van de gebruikers en gebruikersgroepen. Klik op een groepsnaam in de lijst **Beschikbare groepen** voor een lijst van gebruikers die momenteel zijn toegewezen aan de groep.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Gebruikers toevoegen][2]
 * [Gebruikers verplaatsen][3]

@@ -2,10 +2,12 @@
 uid: help-nl-adding-items-to-resource-list
 title: Items toevoegen aan de lijst Bron
 description: Items toevoegen aan de lijst Bron
+keywords: lijst Algemeen - Bron
 author: SuperOffice RnD
-date: 06.29.2022
-keywords: Instellingen en onderhoud
-topic: help
+date: 03.14.2025
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: nl
 ---
 

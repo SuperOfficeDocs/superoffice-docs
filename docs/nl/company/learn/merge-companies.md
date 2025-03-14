@@ -1,11 +1,11 @@
 ---
 uid: help-nl-company-merge
 title: Bedrijven samenvoegen
-description: Om efficiënt te kunnen werken met klanten en contacten, is het van vitaal belang om een omgeving 'zonder rommel' te hebben. Dit betekent ongebruikte bedrijven en contacten verwijderen en gedupliceerde bedrijven en personen samenvoegen.
-keywords: bedrijf
-author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+description: Houd uw klantendatabase schoon en efficiënt door dubbele bedrijven samen te voegen of records te combineren wanneer een bedrijf een ander overneemt.
+keywords: bedrijven samenvoegen, bedrijven beheren, identieke contactpersonen samenvoegen, bedrijf
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -16,45 +16,38 @@ language: nl
 
 [!include[Requirement](../../learn/includes/note-req-manage-entities.md)]
 
-U kunt dubbele databaserecords van bedrijven samenvoegen. Contactpersonen en activiteiten worden verplaatst naar het doelbedrijf en het bronbedrijf wordt verwijderd.
-
-Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bedrijf het andere heeft gekocht, kunt u deze bedrijven samenvoegen tot één bedrijf. Personen (en gerelateerde verzoeken), facturen en geregistreerde domeinen blijven behouden voor beide bedrijven.
+Houd uw klantendatabase schoon en efficiënt door dubbele bedrijven samen te voegen of records te combineren wanneer een bedrijf een ander overneemt. Contactpersonen, activiteiten, facturen, geregistreerde domeinen en andere details worden verplaatst of samengevoegd, en het bronbedrijf wordt verwijderd.
 
 ## Stappen
 
-[!include[Go to company](../../learn/includes/goto-company.md)]
+1. Klik op de **Taak**-knop (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in de rechterbovenhoek van de bedrijfskaart.
+    Selecteer **Bedrijven beheren** > **Bedrijven samenvoegen** in het menu.
+    Het dialoogvenster **Bedrijven samenvoegen** verschijnt, met het bronbedrijf aangegeven onder **Van**.
 
-1. Selecteer **Bedrijven beheren** in het menu ![pictogram][img3] **Taak** en klik vervolgens op **Bedrijven samenvoegen**.
-    Het dialoogvenster **Bedrijven samenvoegen** wordt geopend. Het bronbedrijf staat bij **Van**.
-
-1. Selecteer bij **Aan bedrijf** het bedrijf dat u wilt bijwerken met gegevens van het bronbedrijf. Begin in het veld te typen om naar een bedrijf te zoeken. Als u de bedrijven bij **Van** en bij **Naar** wilt omkeren, klikt u op de pijl knop.
+2. Zoek in de sectie **Aan bedrijf** naar het doelbedrijf waarmee u wilt samenvoegen en selecteer het. Om de bedrijven bij **Van** en **Aan** om te wisselen, klikt u op de pijlknop <i class="ph ph-arrows-left-right" aria-hidden="true"></i>.
 
     > [!CAUTION]
-    > Controleer in het dialoogvenster Bedrijven samenvoegen of u het juiste bedrijf selecteert in het veld Van EN in het veld T/m.
+    > Controleer of u het juiste bedrijf selecteert in zowel de **Van** als de **Aan** velden voordat u doorgaat.
 
-1. Bij **Gegevens van contactpersonen en bedrijf** kunt u kiezen uit:
+3. Onder **Gegevens van contactpersonen en bedrijf**, kies een of beide van de volgende opties:
 
-    * Identieke contactpersonen samenvoegen. Als deze optie is geselecteerd, worden contactpersonen met identieke namen samengevoegd.
+    * **Identieke contactpersonen samenvoegen:** Contactpersonen met exact dezelfde voornaam, tussenvoegsel en achternaam worden samengevoegd.
+    * **Lege velden vervangen door waarden van het bronbedrijf:** Lege velden in het doelbedrijf worden aangevuld met gegevens van het bronbedrijf.
 
-        De namen moeten EXACT hetzelfde zijn, voornaam, tussenvoegsel en achternaam, om samengevoegd te worden.
+4. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
 
-    * **Vervang lege velden...**. Als deze optie is geselecteerd, worden lege gegevensvelden in het bedrijf bij **Aan** bijgewerkt met gegevens van het bedrijf bij **Van**.
-
-1. Klik op **Samenvoegen**. Vervolgens gebeurt het volgende:
-
-    * De bedrijven worden samengevoegd.
-    * Contactpersonen worden verplaatst of samengevoegd.
-    * Alle activiteiten worden verplaatst.
-    * Projectlidmaatschappen en lidmaatschappen van statische selecties volgen het bedrijf.
-    * Alle gegevens worden samengevoegd als u **Lege velden vervangen...** selecteert.
+    * Contactpersonen (en gerelateerde verzoeken) worden verplaatst of samengevoegd.
+    * Activiteiten worden verplaatst.
+    * Projectlidmaatschappen en lidmaatschappen van statische selecties volgen het doelbedrijf.
+    * Lege velden worden bijgewerkt als u **Lege velden vervangen...** hebt geselecteerd.
     * Het bronbedrijf wordt verwijderd.
 
-![Dialoogvenster Bedrijven samenvoegen -screenshot][img4]
+![Dialoogvenster Bedrijven samenvoegen met velden voor het selecteren van bron- en doelbedrijf, opties om identieke contactpersonen samen te voegen, lege velden te vervangen en een samenvatting van de uit te voeren acties. -screenshot][img4]
 
 > [!TIP]
-> u kunt bedrijven ook samenvoegen in dynamische en statische selecties.
+> U kunt bedrijven ook samenvoegen in dynamische en statische selecties.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Contactpersonen samenvoegen][2]
 
@@ -62,5 +55,4 @@ Als twee bedrijven in uw klantendatabase besluiten te fuseren of als het ene bed
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/btn-menu.png
 [img4]: ../../../media/loc/en/company/merge-companies.png

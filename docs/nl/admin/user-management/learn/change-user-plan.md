@@ -34,7 +34,7 @@ Gebruikersinstellingen in SuperOffice CRM waar u gebruikersplannen wijzigt Gebru
 
 4. Klik op Opslaan. De volgende keer dat de gebruiker zich aanmeldt bij SuperOffice CRM, wordt de gebruiker bijgewerkt met de nieuwe functies en functies die beschikbaar zijn.
 
-## Aanverwant
+## Gerelateerde inhoud
 
 * [Overzicht rollen][2]
 * [Nieuwe gebruiker toevoegen][1]

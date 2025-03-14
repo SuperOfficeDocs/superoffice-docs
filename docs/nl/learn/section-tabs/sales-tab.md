@@ -4,8 +4,8 @@ title: Verkoop-tabblad
 description: Leer hoe u verkoopinformatie kunt beheren en bekijken in het sectietabblad Verkoop in SuperOffice CRM, inclusief het toevoegen van verkoop, filteren en het bijhouden van verkoopactiviteiten voor bedrijven, contacten en projecten.
 keywords: Tabblad Verkoop, Verkoop-tabblad, sectietabblad Verkoop, sectietabblad
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -35,7 +35,7 @@ Het sectietabblad **Verkoop**  bevat de volgende kolommen om belangrijke informa
 
 | Kolom | Beschrijving |
 |---|---|
-| Voltooid | Vinkvakje dat aangeeft of de verkoop is voltooid. Een aangevinkt vakje (![icoon][img3]) betekent voltooid, terwijl een leeg vakje betekent dat het nog gaande is. |
+| Voltooid | Vinkvakje dat aangeeft of de verkoop is voltooid. Een aangevinkt vakje (<i class="ph ph-check" aria-hidden="true"></i>) betekent voltooid, terwijl een leeg vakje betekent dat het nog gaande is. |
 | Statusicoon | Toont de huidige [status van de verkoop][4], zoals verkocht, verloren of vastgelopen. |
 | Verkoopdatum | De datum gerelateerd aan de verkoop, die geschat, verkocht of verloren kan zijn. |
 | Bedrag | De financiële waarde van de verkoop. |
@@ -59,7 +59,7 @@ Het sectietabblad **Verkoop**  bevat de volgende kolommen om belangrijke informa
 
 ### Verkopen filteren
 
-Je kunt de lijst met [verkopen filteren][8] op datum, gebruiker of groep door op de **Filter**-knop (![icoon][img2]) te klikken. Dit helpt je te focussen op specifieke verkoopactiviteiten die aandacht nodig hebben.
+Je kunt de lijst met [verkopen filteren][8] op datum, gebruiker of groep door op de **Filter**-knop (<i class="ph ph-funnel" aria-hidden="true"></i>) te klikken. Dit helpt je te focussen op specifieke verkoopactiviteiten die aandacht nodig hebben.
 
 ### Inclusief belanghebbenden
 
@@ -105,16 +105,14 @@ Om een nieuwe verkoop rechtstreeks vanuit het sectietabblad **Verkoop** toe te v
 [1]: ../../sale/learn/index.md
 [2]: ../../sale/learn/create.md
 [3]: ../../sale/learn/stakeholders/index.md
-[4]: ../../sale/learn/stages.md
+[4]: ../../sale/learn/update.md#stalled
 [5]: configure-columns.md#calculate
 [7]: ../getting-started/main-screen/navigator.md
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/sale-detail.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/check.png

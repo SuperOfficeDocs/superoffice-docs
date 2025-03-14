@@ -60,7 +60,7 @@ In de rechter lijst kunt u productinformatie toevoegen. Deze kan het volgende be
 
 * Lijsten: Hier selecteert u alternatieven uit de lijst, zoals eenheden, producttypen en productgroepen. U kunt meer alternatieven toevoegen aan deze lijsten op het scherm **Lijsten**, zie [Items toevoegen aan een lijst][4].
 
-* Lijsten met ![pictogram][img1] zoekopties : Hier kunt u kiezen uit een lijst van recente records, tekst invoeren om een zoekopdracht te beginnen, of op de zoekknop ![pictogram][img1] klikken om een geavanceerde zoekopdracht te starten.
+* Lijsten met zoekopties: Hier kunt u kiezen uit een lijst van recente records, tekst invoeren om een zoekopdracht te beginnen, of op de zoekknop (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) klikken om een geavanceerde zoekopdracht te starten.
 
 ### Naam en volgorde wijzigen en velden bewerkbaar en/of verplicht maken
 
@@ -82,5 +82,4 @@ Om te weten welke velden getoond worden, gaat u naar het tabblad **Instellingen*
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
 [img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

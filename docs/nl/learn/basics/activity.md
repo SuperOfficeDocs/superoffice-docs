@@ -2,107 +2,105 @@
 uid: help-nl-activity
 title: Activiteiten
 description: Activiteiten in SuperOffice CRM
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
 keywords: activiteit
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: concept
-language: nl
 audience: person
 audience_tooltip: SuperOffice CRM
+language: nl
 ---
 
 # Activiteiten
 
 ![Activiteiten in SuperOffice CRM -screenshot][img3]
 
-## Types
+## Typen activiteiten
 
-Er zijn twee typen activiteiten – documenten en vervolgactiviteiten. Daarnaast worden mailings, formulierverzendingen en chatrecords weergegeven op het sectietabblad **Activiteiten**.
+Er zijn twee hoofdtypen activiteiten: documenten en vervolgactiviteiten. Daarnaast worden mailings, formulierinzendingen en chatgesprekken weergegeven op het sectietabblad **Activiteiten**.
 
 * [Vervolgactiviteiten][1]
-  * ![icon][img11] Vergadering (afsprak)
-  * ![icon][img13] Vervolgactiviteit (gesprekken)
-  * ![icon][img12] Taak
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Vergadering (afspraak)
+  * <i class="ph ph-calendar-blank" aria-hidden="true"></i> Vervolgactiviteit (gesprek)
+  * <i class="ph ph-calendar-check" aria-hidden="true"></i> Taak
 * [Documenten][4]
-  * ![icon][img14] Document (brieven en andere documenten)
-  * ![icon][img15] E-mail
-* ![icon][img16] [Mailings][3] (bulkmailings op samengevoegd document, e-mail of SMS)
-* ![icon][img18] [Chatrecords][12]
-* ![icon][img17] Formulierverzendingen
+  * <i class="ph ph-files" aria-hidden="true"></i> Document (brieven en andere documenten)
+  * <i class="ph ph-at" aria-hidden="true"></i> E-mail
+* <i class="ph ph-target" aria-hidden="true"></i> [Mailings][3] (bulkmailings via samengevoegde documenten, e-mail of SMS)
+* <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> [Chatrecords][12]
+* <i class="ph ph-rows" aria-hidden="true"></i> Formulierverzendingen
 
 ## Waar vind ik activiteiten?
 
-Het [Activiteiten-tabblad][18] is beschikbaar in de schermen voor Bedrijf, Persoon, Project, Verkoop en Agenda.
+Het [sectietabblad Activiteiten][18] is beschikbaar in de schermen voor Bedrijf, Persoon, Project, Verkoop en Agenda.
 
 > [!NOTE]
 > Activiteiten worden ook weergegeven in de [verschillende weergaven][7] in het scherm Agenda.
 
 ## <a id="view"></a>Activiteiten weergeven
 
-Welke activiteiten worden weergegeven, is afhankelijk van de filters die je onderaan het sectietabblad selecteert. U kunt naar keus alle activiteiten weergeven of slechts één type. Klik op de ![icoon][img5] Filter-knop om activiteiten te [filteren][17] op datum en gebruiker.
+Welke activiteiten worden weergegeven, hangt af van de geselecteerde filters onderaan het sectietabblad. U kunt alle activiteiten weergeven of een specifiek type selecteren. Klik op de knop **Filter** (<i class="ph ph-funnel" aria-hidden="true"></i>) om activiteiten te [filteren][17] op datum en gebruiker.
 
-![Activities section tabs shows filter options of different record types -screenshot][img4]
+![Het sectietabblad Activiteiten met filteropties voor verschillende activiteitstypen -screenshot][img4]
 
 ## Kolommen
 
 De activiteitenlijst bevat de volgende informatie:
 
-* ![pictogram][img1]: de eerste kolom in de activiteitenlijst geeft de status **Voltooid** aan voor een activiteit. Een vinkje betekent dat de activiteit is voltooid, een leeg vakje dat de activiteit nog niet is voltooid.
+* De eerste kolom geeft de **Voltooid**-status van een activiteit aan. Een vinkje (<i class="ph ph-check" aria-hidden="true"></i>) betekent dat de activiteit is voltooid, terwijl een leeg vakje aangeeft dat de activiteit nog openstaat.
 
-* De kolom Categorie bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een kalenderpictogram geeft een vergadering aan. Deze pictogrammen hebben dezelfde betekenis als de tekst in de kolom **Type**.
+* De **Categorie**-kolom bevat pictogrammen die het type activiteit aangeven, bijvoorbeeld een kalender voor een vergadering. Deze pictogrammen komen overeen met de tekst in de **Type**-kolom.
 
-* De andere kolommen in de activiteitenlijst geven uiteenlopende informatie weer over de activiteit. Als u niet alle tekst in een veld kunt zien, plaatst u de muisaanwijzer op de tekst om het in de vorm van knopinfo weer te geven.
+* De overige kolommen tonen aanvullende informatie over de activiteit. Als niet alle tekst zichtbaar is, plaats de muisaanwijzer erop om de volledige tekst als tooltip weer te geven.
 
 ## Activiteit maken
 
-U creëert activiteiten met het menu **Nieuw** in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad.
+U kunt activiteiten maken via het **Nieuw**-menu in de bovenste balk of door te klikken op de knop **Toevoegen** in het sectietabblad **Activiteiten**.
 
 ## <a id="delete"></a>Activiteit verwijderen
 
-U kunt activiteiten als volgt verwijderen uit elk scherm waarin activiteiten worden weergegeven:
+U kunt activiteiten verwijderen vanuit elk scherm waarin ze worden weergegeven:
 
-1. Selecteer een of meer activiteiten die u wilt verwijderen.
-
-2. Klik met de rechtermuisknop op de geselecteerde activiteit(en) en selecteer **Verwijderen**.
-
-3. Klik op **Ja** om het verwijderen van de activiteit te bevestigen.
+1. Selecteer een of meerdere activiteiten die u wilt verwijderen.
+2. Klik met de rechtermuisknop op de geselecteerde activiteit(en) en kies **Verwijderen**.
+3. Bevestig het verwijderen door op **Ja** te klikken.
 
 [!include[Deleting items](../includes/tip-deletion.md)]
 
-## Voorkeuren ![pictogram][img2]
+## Voorkeuren <i class="ph ph-user-circle" aria-label="Contact icoon"></i>
 
-Wanneer een activiteit is voltooid, wordt deze de volgende dag uit de activiteitenlijst verwijderd. Het sectietabblad **Activiteiten** toont de taken die u op de huidige datum nog niet hebt voltooid.
+Zodra een activiteit is voltooid, wordt deze de volgende dag automatisch uit de lijst verwijderd. Standaard toont het sectietabblad **Activiteiten** taken die u op de huidige datum nog niet hebt voltooid.
 
 ### Toekomstige taken weergeven
 
 1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
 2. Selecteer **Functies** en zoek de optie **Volgende dagen weergeven**.
-3. Bepaal hoeveel dagen vooruit u voltooide taken zichtbaar wilt maken. Als u bijvoorbeeld hier 7 invoert, worden taken voor de komende week weergegeven.
+3. Voer in hoeveel dagen vooruit u taken zichtbaar wilt maken. Bijvoorbeeld, een invoer van **7** toont taken voor de komende week.
 
 ### Activiteit verwijderen uit lijst wanneer voltooid
 
 1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
 2. Selecteer **Visuele effecten**.
-3. Werk de **Voltooide activiteiten verwijderen** [voorkeur][2] bij.
+3. Werk de [voorkeur][2] **Voltooide activiteiten verwijderen** bij.
 
 ### Verlopen activiteiten markeren
 
-Als een activiteit met rode tekst is gemarkeerd, betekent dit dat de geplande datum is verstreken. Om deze instelling te wijzigen:
+Wanneer een activiteit in rode tekst wordt weergegeven, betekent dit dat de geplande datum is verstreken. U kunt deze instelling wijzigen:
 
 1. Ga naar **Persoonlijke instellingen** > **Voorkeuren**.
 2. Selecteer **Functies**.
 3. Werk de optie **Nog niet uitgevoerde activiteiten markeren** bij.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Activiteiten filteren][17]
 * [De status Voltooid voor een activiteit wijzigen][10]
-* [Vervolgactiviteiten toevoegen][8]
+* [Vervolgactiviteit toevoegen (vergadering, taak, gesprek)][8]
 * [Contactpersonen bellen][11]
 * [Werken met documenten][4]
-* [Een e-mailbericht schrijven][5]
-* [The Activities tab][18]
+* [Een e-mailbericht opstellen][5]
+* [Het sectietabblad Activiteiten][18]
 
 <!-- Referenced links -->
 [1]: ../../diary/learn/follow-ups.md
@@ -110,7 +108,7 @@ Als een activiteit met rode tekst is gemarkeerd, betekent dit dat de geplande da
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
 [5]: ../../email/learn/compose.md
-[7]: ../../diary/learn/screen/index.md
+[7]: ../../diary/learn/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md
 [11]: ../../contact/learn/dial.md
@@ -119,16 +117,5 @@ Als een activiteit met rode tekst is gemarkeerd, betekent dit dat de geplande da
 [18]: ../section-tabs/activities-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/check.png
-[img2]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/diary/activities-detail.png
 [img4]: ../../../media/loc/en/learn/activities-filter.png
-[img5]: ../../../../common/icons/filter-icon.png
-[img11]: ../../../../common/icons/appointment.png
-[img12]: ../../../../common/icons/appointment-task.png
-[img13]: ../../../../common/icons/appointment-followup.png
-[img14]: ../../../../common/icons/document.png
-[img15]: ../../../../common/icons/email.png
-[img16]: ../../../../common/icons/marketing.png
-[img17]: ../../../../common/icons/webforms.png
-[img18]: ../../../../common/icons/chat.png

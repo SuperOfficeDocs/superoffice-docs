@@ -2,10 +2,10 @@
 uid: help-nl-notes
 title: Notities maken
 description: Notities maken
-keywords: opmerking, kladblok
+keywords: notitie maken, opmerking, kladblok
 author: SuperOffice RnD
-date: 09.17.2024
-version: 10.3.9
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,20 +14,23 @@ language: nl
 
 # Notities maken
 
-In SuperOffice CRM kunt u afzonderlijke notities toevoegen aan het huidige bedrijf, de contactpersoon, de verkoop, het project of de selectie.
+In SuperOffice CRM kunt u notities toevoegen aan een bedrijf, persoon, verkoop, project of selectie. Deze notities kunnen worden gebruikt om allerlei informatie op te slaan en zijn doorzoekbaar via [Zoeken in vrije tekst][1].
 
-## Een opmerking maken
+## Een notitie maken
 
 1. Ga naar het gewenste bedrijf, de persoon, de verkoop, de selectie of het project.
-2. Selecteer de tab **Opmerking** en klik op **Bewerken**.
-3. Typ de gewenste informatie in het briefje.
-4. Klik op **Opslaan**.
 
-Een stip op het tabblad **Opmerking** geeft aan dat er een opmerking is toegevoegd.
+1. Selecteer de tab **Opmerking** en klik op <i class="ph ph-pencil-simple" aria-label="Bewerken"></i> in de rechterbovenhoek van de kaart.
 
-## Een opmerking verwijderen
+1. Voer de gewenste informatie in de notitie in.
 
-Als u een opmerking wilt verwijderen, verwijdert u simpelweg alle tekst in de opmerking. De stip verdwijnt uit het tabblad **Opmerking**.
+1. Klik op **Opslaan**.
+
+Een stip op het tabblad **Opmerking** geeft aan dat er een notitie is toegevoegd.
+
+## Een notitie verwijderen
+
+Om een notitie te verwijderen, verwijdert u simpelweg alle tekst in de opmerking. De stip verdwijnt dan uit het tabblad **Opmerking**.
 
 <!-- Referenced links -->
-<!-- Referenced images -->
+[1]: ../../search-options/learn/freetext-search.md

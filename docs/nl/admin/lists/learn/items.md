@@ -2,9 +2,9 @@
 uid: help-nl-items
 title: Items
 description: Items
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: lijst
+author: SuperOffice RnD
+date: 03.14.2025
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,7 +15,7 @@ language: nl
 
 In tegenstelling tot lijsten, kunt u items wijzigen in, toevoegen aan en verwijderen uit zowel vooraf gedefinieerde lijsten als door gebruikers gedefinieerde lijsten.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items toevoegen][1]
 * [Items bewerken][2]

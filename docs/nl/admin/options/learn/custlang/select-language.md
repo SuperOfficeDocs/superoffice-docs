@@ -5,7 +5,7 @@ description: Hoe SuperOffice de klanttaal voor nieuwe personen selecteert
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: taal
-topic: help
+topic: howto
 language: nl
 ---
 

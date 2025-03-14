@@ -72,7 +72,7 @@ Het tabblad **E-mailfilters** bevat een lijst met bestaande e-mailfilters. Deze 
 
 * **E-mail markeren als geretourneerd**: Wanneer u deze optie inschakelt, worden de e-mailberichten die met dit filter worden verwerkt, als geretourneerd gemarkeerd. Dit kan relevant zijn voor e-mailberichten afkomstig van postmaster, mailer-daemon, enzovoort.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mailfilters maken][1]
 * [E-mailfilters verwijderen][2]
@@ -80,6 +80,6 @@ Het tabblad **E-mailfilters** bevat een lijst met bestaande e-mailfilters. Deze 
 <!-- Referenced links -->
 [1]: create-email-filter.md
 [2]: delete-email-filter.md
-[3]: ../../../../request/learn/type/index.md
+[3]: ../../../../request/admin/type/index.md
 
 <!-- Referenced images -->

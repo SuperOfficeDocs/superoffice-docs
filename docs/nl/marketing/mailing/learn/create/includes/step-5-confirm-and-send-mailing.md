@@ -21,7 +21,7 @@ Om uw servers niet te overbelasten tijdens werkuren, is het een goed idee om een
 
 1. Klik op **Plannen**.
 2. Bij **Gepland voor verzenden om** selecteert u een van de volgende opties:
-    * Klik op het pictogram **Datum kiezen** ![pictogram][img3] en selecteer de datum en de tijd waarop de mailing moet starten.
+    * Klik op het pictogram **Datum kiezen** (<i class="ph ph-calendar-blank" aria-hidden="true"></i>) en selecteer de datum en de tijd waarop de mailing moet starten.
     * Klik op **Nu instellen** om de huidige datum en tijd in te voegen.
 3. Klik op **OK**. De workflow wordt gesloten en u gaat terug naar het tabblad **Mailings**.
 
@@ -35,5 +35,4 @@ Als u de mailing wilt stoppen of een geplande mailing eerder dan gepland wilt st
 [1]: ../../view-statistics.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../../../common/icons/singlecolour/appointment.png
 [img4]: ../../../../../../media/loc/en/marketing/send-or-schedule.png

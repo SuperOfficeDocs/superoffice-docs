@@ -46,7 +46,7 @@ Het is mogelijk om een e-mail (inclusief eventuele bijlagen) te archiveren op be
 
 13. Klik op **OK**. De geselecteerde e-mail en eventuele bijlagen worden gearchiveerd in SuperOffice CRM als nieuwe documenten. U kunt vervolgens dubbelklikken op een van deze documenten in het sectietabblad **Activiteiten** om de e-mail in uw e-mailclient te openen.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [E-mails archiveren als activiteiten][2]
 * [Bijlagen archiveren][3]

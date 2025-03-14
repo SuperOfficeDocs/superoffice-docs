@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.27.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Tellers voor koppelingen opnieuw instellen
@@ -20,10 +20,7 @@ Soms moet u het aantal klikken terugzetten op nul. Dit is bijvoorbeeld het geval
 
 2. Klik op **Alle links** als uw link niet wordt weergegeven in de lijst. Als u mappen gebruikt voor koppelingen, gaat u eerst naar de map waarin de koppeling zich bevindt.
 
-3. Klik op de ![pictogram][img1] menuknop naast de koppeling en selecteer **Opnieuw instellen**. De teller in de kolom **Klikken** gaat naar 0. Informatie over klanten die op de link hebben geklikt, wordt ook verwijderd.
+3. Klik op <i class="ph ph-list" aria-label="Task menu"></i> naast de koppeling en selecteer **Opnieuw instellen**. De teller in de kolom **Klikken** gaat naar 0. Informatie over klanten die op de link hebben geklikt, wordt ook verwijderd.
 
 <!-- Referenced links -->
 [6]: ../../mailing/learn/create/send-test-email.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

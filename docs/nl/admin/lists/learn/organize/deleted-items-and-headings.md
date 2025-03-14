@@ -5,7 +5,7 @@ description: Verwijderde items en kopteksten
 author: SuperOffice RnD
 date: 06.29.2022
 keywords: Instellingen en onderhoud
-topic: help
+topic: howto
 language: nl
 ---
 
@@ -15,7 +15,7 @@ Wanneer u items of kopteksten verwijdert, worden deze verwijderd van de lijsten 
 
 Als een bestaand record verwijst naar het verwijderde item of de verwijderde koptekst, wordt de naam nog steeds weergegeven in deze records, zelfs wanneer het item of de koptekst is verwijderd uit de lijst waarin u het item of de koptekst oorspronkelijk had geselecteerd.
 
-Daarom zijn de verwijderingen in deze tabbladen niet definitief. U kunt de items en kopteksten die u hebt verwijderd, weergeven door het vakje **Verwijderde items en kopteksten weergeven****** in te schakelen. De verwijderde items worden vervolgens weergegeven in de lijsten, maar doorgestreept in het rood.
+Daarom zijn de verwijderingen in deze tabbladen niet definitief. U kunt de items en kopteksten die u hebt verwijderd, weergeven door het vakje **Verwijderde items en kopteksten weergeven** in te schakelen. De verwijderde items worden vervolgens weergegeven in de lijsten, maar doorgestreept in het rood.
 
 ## Verwijdering ongedaan maken
 

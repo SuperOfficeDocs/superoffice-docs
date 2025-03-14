@@ -53,7 +53,7 @@ Voor toegang tot deze functie, hebt u gegevensrechten nodig voor **Targets**.
 **Functionele rechten**
 Alleen gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen** kunnen targets vergrendelen en ontgrendelen.
 
-## Verwante onderwerpen
+## Gerelateerde inhoud
 
 * [Dashboard][1]
 * [Verkooptargets gebruiken in tegels][2]

@@ -2,9 +2,10 @@
 uid: help-nl-sign-in-to-superoffice
 title: Aanmelden
 description: Meld u aan om uw SuperOffice CRM-account te activeren met een SuperOffice CRM-wachtwoord of een optie voor eenmalige aanmelding.
-author: SuperOffice RnD
-date: 08.28.2023
 keywords: CRM, aanmelden, aanmelden, wachtwoord
+author: SuperOffice RnD
+date: 03.14.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -101,7 +102,7 @@ Hiervoor dient u een rol op *Gebruikersniveau 0* te hebben, of een andere rol wa
 
 ## Uw wachtwoord wijzigen
 
-1. Kies het ![pictogram][img1] **Persoonlijke instellingen &gt; Wachtwoord wijzigen**.
+1. Kies het <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Wachtwoord wijzigen**.
 2. Typ het nieuwe wachtwoord in het veld **Nieuw wachtwoord**.
 3. Voer in het veld **Wachtwoord bevestigen** het wachtwoord nogmaals in om er zeker van te zijn dat u dit juist hebt opgegeven.
 4. Klik op **OK**.
@@ -140,7 +141,6 @@ Neem contact op met uw SuperOffice-beheerder om een nieuw wachtwoord te ontvange
 [7]: ../../../en/identity-management/single-sign-on/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img3]: ../../../media/loc/en/learn/create-password-strenght-indicator.png
 [img4]: ../../../media/loc/en/learn/login-screen.png
 [img5]: ../../../media/loc/en/learn/activate-now-email.png

@@ -7,9 +7,9 @@ author: SuperOffice RnD
 date: 02.09.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Retourneringen beheren
@@ -46,7 +46,7 @@ Gebruik de filterknoppen (Verzonden, Geretourneerd en Geopend) om [uw lijst met 
 
 1. Selecteer de e-mail in de lijst en klik op **Openen** in het zijpaneel om de persoon te bewerken.
 2. Ga naar het tabblad **Details**.
-3. Een waarschuwingspictogram ![pictogram][img1] naast het e-mailadres geeft een probleem aan. Houd de muisaanwijzer boven het pictogram om de oorzaak van het probleem weer te geven.
+3. Een waarschuwingspictogram (<i class="ph ph-warning" aria-hidden="true"></i>) naast het e-mailadres geeft een probleem aan. Houd de muisaanwijzer boven het pictogram om de oorzaak van het probleem weer te geven.
 
 > [!TIP]
 > Klik op een kolom om toegang te krijgen tot sorteer- en groeperingsfuncties.
@@ -129,5 +129,4 @@ Gebruik deze optie om een persoon in te stellen als voormalige werknemer.
 [1]: look-at-recipient-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/warning.png
 [img2]: ../../../../media/loc/en/marketing/handle-bounced-emails.png

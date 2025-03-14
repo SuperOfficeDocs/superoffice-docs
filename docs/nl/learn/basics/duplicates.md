@@ -2,10 +2,13 @@
 uid: help-nl-duplicates
 title: Duplicaten
 description: Duplicaten
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: duplicaat
+author: SuperOffice RnD
+date: 03.14.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -19,14 +22,9 @@ U kunt met de huidige record blijven werken of naar een van de records gaan die 
 
 Klik om de instellingen voor de controle op duplicaten te wijzigen op de knop **Instellingen** in het dialoogvenster **Duplicaten**.
 
-U kunt deze instellingen ook bereiken vanuit het hoofdmenu ![pictogram][img1].
+U kunt deze instellingen ook bereiken vanuit het hoofdmenu (<i class="ph ph-list" aria-hidden="true"></i>).
 
 ## Controle op duplicaten deactiveren
 
 1. Ga naar Instellingen en onderhoud.
 1. Selecteer **Voorkeuren** > **functies**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

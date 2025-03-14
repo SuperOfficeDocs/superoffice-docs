@@ -1,7 +1,7 @@
 ---
 uid: help-nl-preferences-manage
 title: Werken met voorkeuren
-description: "Voorkeursinstellingen toevoegen, bewerken en verwijderen."
+description: Voorkeursinstellingen toevoegen, bewerken en verwijderen.
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: voorkeur, instelling

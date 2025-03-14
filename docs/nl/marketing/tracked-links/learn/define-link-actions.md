@@ -86,7 +86,7 @@ Activeer deze functie door **Vervolgactiviteit** te selecteren.
 > [!TIP]
 > Geef als beschrijving aan bij welke mailing het hoort, welke link de ontvanger heeft geklikt, en mogelijk hoe het taak of de vergadering moet worden opgevolgd.
 >
-> Bij het instellen van **Gemaakt door** of **Standaardontvanger** kun je op de knop **Actieve gebruiker selecteren** ![pictogram][img1] klikken om jezelf te kiezen.
+> Bij het instellen van **Gemaakt door** of **Standaardontvanger** kun je op de knop **Actieve gebruiker selecteren** (<i class="ph ph-user-circle" aria-hidden="true"></i>) klikken om jezelf te kiezen.
 
 ## <a id="request"></a>Verzoek
 
@@ -104,12 +104,11 @@ Variabelen die beschikbaar zijn in het script zijn custId, linkId, shipmentId, l
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

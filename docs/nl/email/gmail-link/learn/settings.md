@@ -26,9 +26,9 @@ Soms wordt het dialoogvenster **E-mail archiveren in SuperOffice** altijd weerge
 
 ## Andere sjablonen dan e-mailsjablonen opnemen in de sjablonenlijst
 
-Ingeschakeld ![pictogram][img2]: Alle documentsjablonen worden weergegeven in de lijst **Type** in het dialoogvenster **E-mail archiveren in SuperOffice**.
+Ingeschakeld (<i class="ph ph-check" aria-hidden="true"></i>): Alle documentsjablonen worden weergegeven in de lijst **Type** in het dialoogvenster **E-mail archiveren in SuperOffice**.
 
-Uitgeschakeld ![pictogram][img3]: Alleen documentsjablonen van het type **E-mail** worden weergegeven.
+Uitgeschakeld: Alleen documentsjablonen van het type **E-mail** worden weergegeven.
 
 ## Sjabloon standaard uitgaande e-mail
 
@@ -65,5 +65,3 @@ Klik op deze knop om een verbinding te maken met een andere installatie van Supe
 
 <!-- Referenced images -->
 [img1]: ../../../../../common/icons/soarchive.png
-[img2]: ../../../../media/icons/btn-selected.png
-[img3]: ../../../../media/icons/btn-unselected.png

@@ -2,9 +2,9 @@
 uid: help-nl-email-inbox-compose
 title: E-mail schrijven
 description: E-mail schrijven
+keywords: e-mail
 author: SuperOffice RnD
 date: 07.04.2022
-keywords: e-mail
 topic: howto
 language: nl
 ---
@@ -26,7 +26,7 @@ Vul de velden hieronder in, klik op **Maken** en stel de e-mail samen zoals hier
 
 | Veld | Beschrijving |
 |---|---|
-| Documentsjabloon | Klik op de pijl ![pictogram][img2] naast het typeveld boven in het dialoogvenster, zodat een lijst met documentsjablonen wordt weergegeven waaruit u een keuze kunt maken. De beschikbare sjablonen worden gedefinieerd in Instellingen en onderhoud. |
+| Documentsjabloon | Klik op <i class="ph ph-caret-down" aria-label="Chevron"></i> naast het typeveld boven in het dialoogvenster, zodat een lijst met documentsjablonen wordt weergegeven waaruit u een keuze kunt maken. De beschikbare sjablonen worden gedefinieerd in Instellingen en onderhoud. |
 | Bedrijf | Typ hier de naam van het bedrijf waarvoor u een document wilt schrijven. |
 | Persoon | Als u klikt op de pijl achter dit veld, wordt een lijst weergegeven met contactpersonen die zijn geregistreerd voor het bedrijf. |
 | Project | Voer de naam in van het project waaraan de e-mail moet worden gekoppeld. |
@@ -44,12 +44,8 @@ Wanneer u klaar bent met het bericht en het wilt verzenden, hebt u de volgende o
 > [!TIP]
 > Als u het bericht niet archiveert wanneer u het verzendt, kunt u altijd nog naar de [map Verzonden items gaan en het bericht archiveren][2].
 >
-> De handtekeningsjabloon aan de onderkant van het bericht kan worden bewerkt in ![pictogram][img1] **Persoonlijke instellingen** > **Persoonlijke e-mailhandtekening bewerken**.
+> De handtekeningsjabloon aan de onderkant van het bericht kan worden bewerkt in <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** > **Persoonlijke e-mailhandtekening bewerken**.
 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md
 [2]: archive.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png
-[img2]: ../../../../../common/icons/dropdown-icon.png

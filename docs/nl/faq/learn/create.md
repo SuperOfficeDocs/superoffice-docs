@@ -2,9 +2,9 @@
 uid: help-nl-faq-create
 title: Items in Veelgestelde vragen maken
 description: Items in Veelgestelde vragen maken
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: Veelgestelde vragen
+author: Bergfrid Dias
+date: 03.14.2025
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -35,7 +35,7 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 
 1. [Open een verzoek][1].
 
-1. Klik op de ![pictogram][img1] knop **Taak** en kies **Publiceren naar Veelgestelde vragen**. Het scherm **Eigenschappen item Veelgestelde vragen** wordt geopend.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> en kies **Publiceren naar Veelgestelde vragen**. Het scherm **Eigenschappen item Veelgestelde vragen** wordt geopend.
 
    ![Het scherm Eigenschappen item in Veelgestelde vragen -screenshot][img5]
 
@@ -69,14 +69,14 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 
     1. Klik op **Bestand kiezen** naast het veld **Bijlage**.
     2. Blader in het dialoogvenster naar het gewenste document.
-    3. Klik op ![pictogram][img1] om de bijlage toe te voegen.
+    3. Klik op **+** om de bijlage toe te voegen.
     4. Herhaal deze procedure om meer bijlagen toe te voegen.
 
 1. Via het veld **Koppeling** kunt u een of meer adressen van relevante websites toevoegen:
 
     1. Typ in het linkerveld de naam die voor de koppeling moet worden weergegeven.
     2. Typ in het rechterveld het daadwerkelijke webadres is achter `http://`
-    3. Klik op ![pictogram][img1] **Toevoegen** om de koppeling toe te voegen.
+    3. Klik op **+** om de koppeling toe te voegen.
     4. Herhaal deze procedure om meer koppelingen toe te voegen.
 
 1. Ga naar het tabblad **Vraag**.
@@ -84,7 +84,7 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 1. Voer de vraag in die het item in Veelgestelde vragen moet bevatten. Standaard wordt het eerste bericht in het verzoek geplakt in het tabblad **Vraag**.
 
     > [!TIP]
-    > Klik op de knop ![pictogram][img2] **Lettertype opmaken** om de opmaak van de tekst te wijzigen.
+    > Klik op de knop **Lettertype opmaken** (<i class="ph ph-text-a-underline" aria-hidden="true"></i>) om de opmaak van de tekst te wijzigen.
 
 1. Ga naar het tabblad **Antwoord** en voer de vraag in. Standaard worden de volgende berichten in het verzoek geplakt in het tabblad **Antwoord**.
 
@@ -94,7 +94,7 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 
 ## Nieuwe Veelgestelde vraag maken
 
-1. Ga naar ![pictogram][img4] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> in de bovenste balk en selecteer **Kennisdatabase** > **Veelgestelde vragen**.
 
 1. Ga naar de map waar u het item in Veelgestelde vragen wilt opslaan. Als deze nog niet bestaat, kunt u [een nieuwe map maken][2].
 
@@ -106,7 +106,7 @@ Wanneer u een verzoek beantwoordt en denkt dat dezelfde vraag mogelijk vaker zal
 
 Aangezien de optie voor het rechtstreeks maken van items in Veelgestelde vragen via deze manier alleen beschikbaar is voor **beheerders**, hoeft u geen aparte publicatiestap uit te voeren. De beheerder kan tegelijk maken en publiceren.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Items in Veelgestelde vragen bewerken][4]
 * [Veelgestelde vragen toevoegen aan een bericht][5]
@@ -121,8 +121,5 @@ Aangezien de optie voor het rechtstreeks maken van items in Veelgestelde vragen 
 [6]: ../../admin/options/learn/custlang/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/service/msg-toolbar.png
 [img3]: ../../../media/loc/en/faq/create-publish-faq.png
-[img4]: ../../../media/icons/main-menu.png
 [img5]: ../../../media/loc/en/faq/faq-create.png

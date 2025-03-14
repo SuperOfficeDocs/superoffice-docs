@@ -2,10 +2,10 @@
 uid: help-nl-import-from-outlook
 title: Importeren uit Outlook
 description: Importeren uit Outlook
+keywords: Instellingen en onderhoud, import
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Instellingen en onderhoud, import
-topic: help
+topic: howto
 language: nl
 ---
 

@@ -7,19 +7,19 @@ author: SuperOffice RnD
 date: 02.07.2024
 version: 10
 topic: howto
-language: nl
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Inhoud bewerken
 
-![pictogram][img1]
+![Inhoud bewerken -screenshot][img1]
 
 > [!TIP]
 > Als u de algemene eigenschappen en layout voor het bericht wilt bewerken, selecteert u **Hoofdtekst** in het zijpaneel. Als u specifieke eigenschappen hebt gedefinieerd voor afzonderlijke secties, worden die niet overschreven door de algemene eigenschappen.
 >
-> Gebruik de **Desktop** ![pictogram][img3] en **Mobiel** ![pictogram][img4] aan de bovenkant van het zijpaneel om eigenschappen voor versies het bericht te bewerken.
+> Gebruik de **Desktop** (<i class="ph ph-monitor" aria-hidden="true"></i>) en **Mobiel** (<i class="ph ph-device-mobile" aria-hidden="true"></i>) aan de bovenkant van het zijpaneel om eigenschappen voor versies het bericht te bewerken.
 
 ## Tekstinhoud (tekstblokken) in een bericht bewerken
 
@@ -34,7 +34,7 @@ audience_tooltip: SuperOffice Marketing
 
 5. [Voeg traceerbare links toe aan een bericht][8]. U kunt bijvoorbeeld een link toevoegen aan een informatiepagina voor een product. U kunt een nieuwe link maken of een bestaande link toevoegen.
 
-    Een gewone link toevoegen (niet-getraceerd): Selecteer een tekst en klik op ![pictogram][img6] in de werkbalk. Voer de link in het veld **URL** in.
+    Een gewone link toevoegen (niet-getraceerd): Selecteer een tekst en klik op <i class="ph ph-link" aria-label="Link"></i> in de werkbalk. Voer de link in het veld **URL** in.
 
 6. Bewerk de opmaak van de tekst met de velden in het zijpaneel.
 
@@ -66,7 +66,7 @@ U kunt de volgende secties bewerken:
 
 Klik op **Volgende** als u klaar bent met bewerken.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Inhoud toevoegen][5]
 * [Variabelen gebruiken in berichten][2]
@@ -84,7 +84,4 @@ Klik op **Volgende** als u klaar bent met bewerken.
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/edit-section.png
-[img3]: ../../../../media/icons/marketing-and-forms/desktop-2.png
-[img4]: ../../../../media/icons/marketing-and-forms/mobile.png
 [img5]: ../../../../media/loc/en/marketing/toolbar.png
-[img6]: ../../../../media/icons/marketing-and-forms/link.png

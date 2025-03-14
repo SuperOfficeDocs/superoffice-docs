@@ -43,7 +43,7 @@ U kunt dit labels wijzigen in alle beschikbare talen in SuperOffice. U kunt bijv
 
 1. Klik op **Opslaan**.
 
-## Wat wilt u nu doen?
+## Gerelateerde inhoud
 
 * [Labels opnieuw instellen][1]
 

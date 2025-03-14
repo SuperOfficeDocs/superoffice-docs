@@ -33,7 +33,7 @@ Veel van de schermen in Instellingen en onderhoud bestaan uit verschillende tabb
 
 In Instellingen en onderhoud hebt u de beschikking over verschillende lijstweergaven, zoals lijsten van voorkeuren, lijsten van lijsten, en lijsten van door gebruikers gedefinieerde velden. U kunt de kolombreedte in deze weergaven als volgt aanpassen:
 
-1. Plaats de muisaanwijzer op de verticale streep links of rechts van een kolomkop. De muisaanwijzer verandert in een ![pictogram][img3] dubbele verticale lijn met pijlen.
+1. Plaats de muisaanwijzer op de verticale streep links of rechts van een kolomkop. De muisaanwijzer verandert in een dubbele verticale lijn met pijlen (<i class="ph ph-split-horizontal" aria-hidden="true"></i>).
 2. Klik en sleep de scheidingslijn met de muisknop ingedrukt in de gewenste richting om de kolom breder of smaller te maken.
 
 De ingestelde kolombreedte blijft behouden wanneer u het programma de volgende keer start.
@@ -46,22 +46,13 @@ U kunt selecteren welke kolommen in de lijsten worden weergegeven, en in welke v
 
 2. Breng de gewenste wijzigingen aan in de kolommen:
 
-    * Kolommen toevoegen: Selecteer in het deelvenster **Beschikbare kolommen** de kolommen die u wilt toevoegen en klik op de pijl-rechts ![pictogram][img1] om deze naar het deelvenster **Geselecteerde kolommen** te verplaatsen.
+    * Kolommen toevoegen: Selecteer in het deelvenster **Beschikbare kolommen** de kolommen die u wilt toevoegen en klik op de pijl-rechts om deze naar het deelvenster **Geselecteerde kolommen** te verplaatsen.
 
-    * Kolommen verwijderen: Selecteer in het deelvenster **Geselecteerde kolommen** de kolommen die u wilt verwijderen en klik op de pijl-links ![pictogram][img2] om deze naar het deelvenster **Beschikbare kolommen** te verplaatsen.
+    * Kolommen verwijderen: Selecteer in het deelvenster **Geselecteerde kolommen** de kolommen die u wilt verwijderen en klik op de pijl-links om deze naar het deelvenster **Beschikbare kolommen** te verplaatsen.
 
-    * De volgorde van de kolommen wijzigen: Selecteer in het deelvenster **Geselecteerde kolommen** de kolom die u in de weergave naar links of naar rechts wilt verplaatsen en klik op pijl-omhoog ![pictogram][img4] of pijl-omlaag ![pictogram][img5].
+    * De volgorde van de kolommen wijzigen: Selecteer in het deelvenster **Geselecteerde kolommen** de kolom die u in de weergave naar links of naar rechts wilt verplaatsen en klik op <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> of <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>.
 
 3. Klik op **Opslaan**.
 
 > [!TIP]
 > klik op **Herstellen** onder in het deelvenster **Geselecteerde kolommen** om de kolomopmaak te herstellen.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/admin/resize-horizontal.png
-[img4]: ../../../media/icons/arrow-up.png
-[img5]: ../../../media/icons/arrow-down.png
