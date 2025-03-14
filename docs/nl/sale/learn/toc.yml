@@ -4,7 +4,7 @@ items:
 - name: Verkoop maken
   href: create.md
 - name: Verkoop bewerken of verwijderen
-  href: delete.md
+  href: update.md
 - name: Belanghebbenden
   href: stakeholders/index.md
   items:
