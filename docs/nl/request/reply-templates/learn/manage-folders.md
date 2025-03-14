@@ -2,10 +2,15 @@
 uid: help-nl-reply-template-folder
 title: Mappen met antwoordsjablonen beheren
 description: Mappen met antwoordsjablonen beheren
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: verzoek, beantwoorden, map
+keywords: map maken, map verwijderen, antwoordsjablonen, verzoek, beantwoorden, mapstructuur, map
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 
@@ -30,7 +35,5 @@ Voordat u een map met antwoordsjablonen verwijdert, moet u alle antwoordsjablone
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: delete.md
+[2]: edit.md#delete
 [3]: edit.md
-
-<!-- Referenced images -->

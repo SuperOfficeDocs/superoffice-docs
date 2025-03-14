@@ -2,10 +2,12 @@
 uid: help-nl-template-variables-service
 title: Sjabloonvariabelen
 description: Sjabloonvariabelen
+keywords: verzoek
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: verzoek
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: nl
 ---
 

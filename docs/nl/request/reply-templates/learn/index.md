@@ -1,11 +1,14 @@
 ---
 uid: help-nl-reply-template
 title: Werken met antwoordsjablonen
-description: Werken met antwoordsjablonen
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: verzoek
+description: Leer hoe u antwoordsjablonen kunt bekijken, zoeken en beheren in SuperOffice Service.
+keywords: verzoek, antwoordsjabloon, kennisdatabase
+author: Bergfrid Dias
+date: 03.14.2025
+version: 10.5.2
 topic: concept
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: nl
@@ -19,34 +22,40 @@ Een antwoordsjabloon kan bijvoorbeeld een specifieke opmaak zijn die bij het ant
 
 [!include[FAQ vs. reply template](../../../learn/includes/faq-vs-reply-template.md)]
 
-## Een antwoordsjabloon weergeven
+## Antwoordsjablonen zoeken en bekijken
 
-In het scherm Antwoordsjablonen vindt u de antwoordsjablonen die voor u beschikbaar zijn. De antwoordsjablonen staan in een [mapstructuur][10] die u zelf kunt maken.
+Antwoordsjablonen worden georganiseerd in een mapstructuur die u zelf kunt maken en beheren. Om een antwoordsjabloon te openen:
 
-1. Ga naar ![het pictogram][img1] **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
-1. Ga naar de gewenste map.
-1. Klik op de gewenste antwoordsjabloon. Het scherm **Antwoordsjablonen weergeven** wordt geopend, met informatie over toegangsniveau, taal en eigenaar. Via de onderstaande tabbladen kunt u onder andere de tekst van de antwoordsjabloon en de bijlagen bekijken.
+1. Ga naar <i class="ph ph-list" aria-label="Main menu"></i> **Hoofdmenu** in de bovenste balk en selecteer **Kennisdatabase** > **Antwoordsjablonen**.
 
-## Wat wilt u nu doen?
+1. Blader naar de gewenste map.
+
+1. Klik op de antwoordsjabloon om het scherm **Antwoordsjablonen weergeven** te openen. Hier ziet u:
+    * Informatie over toegangsniveau, taal en eigenaar.
+    * Tabbladen met de sjabloontekst en eventuele bijlagen (per taalversie).
+
+### Antwoordsjablonen zoeken
+
+In het overzicht van antwoordsjablonen klikt u op de knop **Zoeken** om een specifieke antwoordsjabloon te vinden:
+
+1. Voer de tekst of criteria in waarop u wilt zoeken.
+1. Klik op **Zoeken**. Er verschijnt een lijst met overeenkomende sjablonen.
+1. Klik op een sjabloon om deze te openen en te bekijken.
+
+> [!TIP]
+> Organiseer sjablonen in een logische [mappenstructuur][1] om ze gemakkelijker te vinden.
+
+## Gerelateerde inhoud
 
 * [Antwoordsjablonen maken][3]
 * [Antwoordsjabloon in een nieuwe taal maken][4]
-* [Antwoordsjablonen bewerken][6]
-* [Antwoordsjablonen kopiëren][7]
-* [Antwoordsjablonen verwijderen][8]
-* [Antwoordsjablonen zoeken][9]
-* [Mappen met antwoordsjablonen beheren][10]
+* [Antwoordsjablonen bewerken of verwijderen][6]
+* [Mappen met antwoordsjablonen beheren][1]
 * [Antwoordsjablonen toevoegen aan berichten][11]
 
 <!-- Referenced links -->
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md
-[7]: copy.md
-[8]: delete.md
-[9]: find.md
-[10]: manage-folders.md
-[11]: ../../learn/howto/reply.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[1]: manage-folders.md
+[11]: ../../learn/reply.md
