@@ -1,0 +1,11 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Verkoopfase toevoegen
+  href: sale-stage.md
+- name: Verkooptype toevoegen
+  href: sale-type.md
+- name: Nieuwe verkoopgids maken
+  href: create-sales-guide.md
+- name: Verkoopgids bewerken en deactiveren
+  href: edit-sales-guide.md

@@ -3,10 +3,12 @@ uid: help-nl-stakeholder-create
 title: Een belanghebbende maken
 description: Het koppelen in SuperOffice van een verkoop aan een belanghebbende (bedrijf of persoon).
 keywords: verkoop, belanghebbend, aandeelhouder, stakeholder
+keywords: Belanghebbende toevoegen, nieuwe belanghebbende, Belanghebbenden toevoegen/bewerken dialoog, Belanghebbenden sectietabblad, belanghebbende, verkoop
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 03.14.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -32,11 +34,11 @@ Een bedrijf/contactpersoon kan meerdere keren als belanghebbende worden toegevoe
 
       ![Toevoegen/bewerken belanghebbenden dialoog, geschiedenis -screenshot][img5]
 
-    * **Gebruikersgroep**: Klik op ![icoon][img2] om medewerkers per groep te doorzoeken.
+    * **Gebruikersgroep**: Klik op <i class="ph ph-users" aria-label="Associate icon"></i> om medewerkers per groep te doorzoeken.
 
       ![Toevoegen/bewerken belanghebbenden dialoog, groep -screenshot][img6]
 
-    * **Bedrijf**: Klik op ![icoon][img3] om personen binnen een specifiek bedrijf te doorzoeken of om een bedrijf toe te voegen als belanghebbende.
+    * **Bedrijf**: Klik op <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i> om personen binnen een specifiek bedrijf te doorzoeken of om een bedrijf toe te voegen als belanghebbende.
 
       ![Toevoegen/bewerken belanghebbenden dialoog, bedrijf -screenshot][img7]
 
@@ -64,19 +66,16 @@ Een bedrijf/contactpersoon kan meerdere keren als belanghebbende worden toegevoe
 
 * **Opmerkingen toevoegen**
 
-    Als er een opmerking is toegevoegd, verschijnt er een ![icoon][img1] paperclip naast de kolom **Verkooprol** in het tabblad **Belanghebbenden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
+    Als er een opmerking is toegevoegd, verschijnt er een paperclip (<i class="ph ph-paperclip" aria-hidden="true"></i>) naast de kolom **Verkooprol** in het tabblad **Belanghebbenden**. Beweeg de muis over de paperclip om de tooltip met de opmerking weer te geven.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
-[4]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../admin/sale-type.md
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png
