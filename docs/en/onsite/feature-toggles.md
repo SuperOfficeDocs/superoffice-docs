@@ -71,7 +71,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
 | Feature                 | Toggle name |  Released in version | Available from version |
 |---|---|---|---|
 | Marketing Premium        | Flows                          |  10.3.9  | 10.3.5 |
-| Custom Objects v3        | CustomObjectsV3                |  10.?.?  | 10.3.9 |
+| Custom Objects v3 (*4)   | CustomObjectsV2                |  10.?.?  | 10.3.9 |
 | Custom Objects v2        | CustomObjectsV2                |  10.?.?  | 10.3.7 |
 | Custom Objects v1        | CustomObjectsV1                |  10.?.?  | 10.3.4 |
 | New Follow-up            | NewFollowUpDialog              |  10.3.6  | 10.2.11 |
@@ -104,6 +104,8 @@ To enable toggled features - you need to add two sections manually in your NetSe
  *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
  
  *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requries Service Premium and Developer tools
+ 
+ *3 = v3 features are added to the V2 tag
 
 ## Look up enabled features
 
