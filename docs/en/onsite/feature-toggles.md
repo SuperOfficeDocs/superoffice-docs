@@ -105,7 +105,7 @@ To enable toggled features - you need to add two sections manually in your NetSe
  
  *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requries Service Premium and Developer tools
  
- *3 = v3 features are added to the V2 tag
+ *4 = v3 features are added to the V2 tag
 
 ## Look up enabled features
 
