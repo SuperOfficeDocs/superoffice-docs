@@ -1,4 +1,4 @@
 ---
-uid: help-da-selection-create-redirect
+uid: help-da-tutorial-selection-create-redirect
 redirect_url: https://docs.superoffice.com/da/search-options/selection/learn/create.html
 ---

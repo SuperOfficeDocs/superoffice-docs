@@ -33,14 +33,10 @@ U kunt een selectie niet naar een bestaande dynamische selectie of gecombineerde
 
 Omdat een dynamische selectie geen fysieke personen bevat, maar alleen een set zoekcriteria, kunt u alleen bij het kopiëren van een dynamische selectie kiezen tussen **Statisch** en **Dynamisch** in de keuzelijst **Selectie**. Als u een statische selectie kopieert, bevat de keuzelijst **Selectie is** alleen de optie **Statisch**.
 
-Om een kopie te maken van een dynamische selectie, kunt u de functie **Selectie kopiëren** gebruiken op het tabblad **Taak**.
-
-## Gerelateerde inhoud
-
-* [Selecties kopiëren][3]
+Om [een kopie te maken][3] van een dynamische selectie, kunt u de functie **Selectie kopiëren** gebruiken op het tabblad **Taak**.
 
 <!-- Referenced links -->
-[2]: ../create/tutorial.yml
-[3]: ../create/copy.md
+[2]: ../create.md
+[3]: ../create.md#copy
 
 <!-- Referenced images -->

@@ -1,7 +1,0 @@
-items:
-- name: Översikt
-  href: index.md
-- name: Skapa ett urval
-  href: tutorial.ymld
-- name: Kopiera urval
-  href: copy.md

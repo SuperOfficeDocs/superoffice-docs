@@ -1,7 +1,0 @@
-items:
-- name: Oversikt
-  href: index.md
-- name: Opprett et utvalg
-  href: tutorial.yml
-- name: Kopiere merket område
-  href: copy.md

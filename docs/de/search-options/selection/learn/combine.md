@@ -53,6 +53,6 @@ Legen Sie die Eigenschaften gemäß den Anweisungen im Schritt 2 im Lernprogramm
 Nachdem Sie die Selektion gespeichert haben, können Sie diese [bearbeiten][3], um sowohl den Kombinationstyp als auch die zu kombinierenden Selektionen zu ändern. Es ist jedoch nicht möglich, das Feld **Selektion aus** zu ändern.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

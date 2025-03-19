@@ -60,7 +60,7 @@ With **SAINT** enabled (requires Sales-Premium or Service-Premium), you can use 
 
 <!-- Referenced links -->
 [1]: static-selections.md
-[2]: create/tutorial.yml
+[2]: create.md
 [3]: ../../learn/search-criteria.md
 [4]: ../../../saint/learn/index.md
 

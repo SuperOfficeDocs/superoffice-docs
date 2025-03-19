@@ -53,6 +53,6 @@ Set properties following the instructions of step 2 in the [Create selection][1]
 After saving the selection, you can [edit it][3] to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

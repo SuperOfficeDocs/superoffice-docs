@@ -12,7 +12,7 @@ language: sv
 # Redigera urval
 
 > [!NOTE]
-> För att kunna redigera ett urval måste du äga det eller ha administratörsbehörighet.
+> För att kunna redigera ett urval måste du äga det eller ha administratörsbehörighet, eller så måste du ha redigeringsåtkomst via inställningen för **Funktioner**.
 >
 > Du kan inte redigera fältet **Urval av**.
 >

@@ -33,14 +33,10 @@ Du kan inte kopiera ett urval till ett befintligt dynamiskt urval eller ett komb
 
 Eftersom ett dynamiskt urval inte innehåller några fysiska kontakter, utan endast en uppsättning sökkriterier, visas alternativen **Statiskt** och **Dynamisk** i listrutan **Urvalet är** endast när du kopierar dynamiska urval. När du kopierar ett statiskt urval innehåller listrutan **Urvalet är** endast alternativet **Statiskt**.
 
-För att skapa en kopia av ett dynamiskt urval kan du använda funktionen **Kopiera urvalet** på fliken **Uppgift**.
-
-## Vad vill du göra nu?
-
-* [Kopiera urval][3]
+För att [skapa en kopia][3] av ett dynamiskt urval kan du använda funktionen **Kopiera urvalet** på fliken **Uppgift**.
 
 <!-- Referenced links -->
-[2]: ../create/tutorial.yml
-[3]: ../create/copy.md
+[2]: ../create.md
+[3]: ../create.md#copy
 
 <!-- Referenced images -->

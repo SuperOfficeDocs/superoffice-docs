@@ -10,8 +10,7 @@ items:
 - name: Kombinationsurval
   href: combined-selections.md
 - name: Skapa urval
-  href: create/toc.yml
-  topicHref: create/index.md
+  href: create.md
 - name: Kombinera urval
   href: combine.md
 - name: Uppdatera urval

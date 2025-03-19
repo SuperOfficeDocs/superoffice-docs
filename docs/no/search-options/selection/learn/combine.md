@@ -53,6 +53,6 @@ Angi egenskaper ved å følge instruksjonene i trinn 2 i opplæringen [Opprett u
 Når du har lagret utvalget, kan du [redigere det][3] for å endre både kombinasjonstypen og hvilke utvalg som kombineres. Men det er ikke mulig å endre feltet **Utvalg av**.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

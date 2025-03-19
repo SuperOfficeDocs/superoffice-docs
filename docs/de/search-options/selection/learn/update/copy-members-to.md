@@ -33,14 +33,10 @@ Sie können eine Selektion nicht in eine bestehende dynamische Selektion oder ko
 
 Weil eine dynamische Selektion keine physischen Personen, sondern nur eine Reihe von Suchkriterien enthält, können Sie nur beim Kopieren einer dynamischen Selektion im Listenfeld **Selektion ist** zwischen **Statisch** und **Dynamisch** wählen. Wenn Sie eine statische Selektion kopieren, enthält das Listenfeld **Selektion ist** nur die Option **Statisch**.
 
-Um eine Kopie einer dynamischen Selektion zu erstellen, können Sie auf der Registerkarte **Aufgabe** die Funktion **Selektion kopieren** verwenden.
-
-## Was möchten Sie jetzt tun?
-
-* [Selektionen kopieren][3]
+Um eine [Kopie einer dynamischen Selektion][3] zu erstellen, können Sie auf der Registerkarte **Aufgabe** die Funktion **Selektion kopieren** verwenden.
 
 <!-- Referenced links -->
-[2]: ../create/tutorial.yml
-[3]: ../create/copy.md
+[2]: ../create.md
+[3]: ../create.md#copy
 
 <!-- Referenced images -->

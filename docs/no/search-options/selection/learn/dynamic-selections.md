@@ -60,7 +60,7 @@ Med **SAINT** aktivert (krever Sales-Premium eller Service-Premium) kan du bruke
 
 <!-- Referenced links -->
 [1]: static-selections.md
-[2]: create/tutorial.yml
+[2]: create.md
 [3]: ../../learn/search-criteria.md
 [4]: ../../../saint/learn/index.md
 

@@ -1,4 +1,4 @@
 ---
-uid: help-nl-selection-create-redirect
+uid: help-nl-tutorial-selection-create
 redirect_url: https://docs.superoffice.com/nl/search-options/selection/learn/create.html
 ---

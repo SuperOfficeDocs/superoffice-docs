@@ -12,7 +12,7 @@ language: de
 # Selektionen bearbeiten
 
 > [!NOTE]
-> Um eine Selektion bearbeiten zu können, müssen Sie die Selektion entweder selbst erstellt haben oder über Administratorrechte verfügen.
+> Um eine Selektion bearbeiten zu können, müssen Sie die Selektion entweder selbst erstellt haben oder über Administratorrechte verfügen bzw. über die Einstellung **Funktionen** Bearbeitungsrechte haben
 >
 > Sie können das Feld **Selektion aus** nicht bearbeiten.
 >
@@ -43,7 +43,7 @@ Nachdem Mitglieder zu einer Selektion hinzugefügt wurden, gilt Folgendes:
 
 * Das Umwandeln einer kombinierten Selektion in eine statische Selektion ist möglich. Das Suchergebnis wird anschließend in einer festen, statischen Selektion gespeichert.
 
-## Was möchten Sie tun?
+## Verwandte Inhalte
 
 * [Mitglieder zu/von einer statischen Selektion hinzufügen und entfernen][2]
 

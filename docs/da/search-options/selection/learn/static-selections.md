@@ -22,7 +22,7 @@ Arbejde med statisk udvalg giver dig mulighed for manuelt at tilføje og slette 
 
 <!-- Referenced links -->
 [1]: dynamic-selections.md
-[2]: create/tutorial.yml
+[2]: create.md
 [3]: update/add-remove-members-static.md
 
 <!-- Referenced images -->

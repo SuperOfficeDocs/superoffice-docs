@@ -10,8 +10,7 @@ items:
 - name: Kombinerede udvalg
   href: combined-selections.md
 - name: Opret udvalg
-  href: create/toc.yml
-  topicHref: create/index.md
+  href: create.md
 - name: Kombiner udvalg
   href: combine.md
 - name: Opdater udvalg

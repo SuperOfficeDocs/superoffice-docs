@@ -12,9 +12,9 @@ language: nl
 # Selecties bewerken
 
 > [!NOTE]
-> u kunt een selectie alleen bewerken als u eigenaar bent van de selectie of beheerdersrechten hebt.
+> U kunt een selectie alleen bewerken als u eigenaar bent van de selectie of beheerdersrechten hebt, of u moet toegang voor bewerken hebben via de voorkeur **Functies**.
 >
-> u kunt het veld **Selectie van** niet bewerken.
+> U kunt het veld **Selectie van** niet bewerken.
 >
 > U kunt een dynamische selectie of een gecombineerde selectie veranderen in een statische selectie, maar een statische selectie kan niet worden veranderd in een dynamische of gecombineerde selectie.
 

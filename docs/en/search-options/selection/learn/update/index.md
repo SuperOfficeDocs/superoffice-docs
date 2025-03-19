@@ -12,7 +12,7 @@ language: en
 # Edit selections
 
 > [!NOTE]
-> To edit a selection, you must own it or have administrator access.
+> To edit a selection, you must own it or have administrator access, or you must have editing access via the **Functions** preference
 >
 > You cannot edit the **Selection of** field.
 >

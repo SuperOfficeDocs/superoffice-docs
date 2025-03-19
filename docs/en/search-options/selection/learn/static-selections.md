@@ -22,7 +22,7 @@ Work with static selection gives you the option to manually add an delete select
 
 <!-- Referenced links -->
 [1]: dynamic-selections.md
-[2]: create/tutorial.yml
+[2]: create.md
 [3]: update/add-remove-members-static.md
 
 <!-- Referenced images -->

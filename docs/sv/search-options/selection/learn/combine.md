@@ -53,6 +53,6 @@ Ange egenskaper enligt anvisningarna i steg 2 i instruktionsguiden [Skapa urval]
 När urvalet har sparats, kan du [redigera det][3] för att ändra både kombinationstypen och vilka urval som ska kombineras. Det går däremot inte att ändra fältet **Urval av**.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

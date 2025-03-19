@@ -12,7 +12,7 @@ language: no
 # Rediger utvalg
 
 > [!NOTE]
-> Hvis du vil redigere et utvalg, må du eie det eller ha administratortilgang.
+> Hvis du vil redigere et utvalg, må du eie det eller ha administratortilgang, eller du må ha redigeringstilgang via preferansen **Funksjoner**.
 >
 > Du kan ikke redigere feltet **Utvalg av**.
 >

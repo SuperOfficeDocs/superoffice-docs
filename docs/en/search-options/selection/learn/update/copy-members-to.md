@@ -33,14 +33,10 @@ You cannot copy a selection to an existing dynamic selection or combined selecti
 
 because a dynamic selection does not contain any physical contacts, but just a set of search criteria, it is only when you copy a dynamic selection that you can choose between **Static** and **Dynamic** in the **Selection is** list box. If you copy a static selection, the **Selection is** list box will only contain the **Static** option.
 
-To create a copy of a dynamic selection, you can use the **Copy the selection** function on the **Task** tab.
-
-## What would you like to do now?
-
-* [Copy selections][3]
+To [create a copy][3] of a dynamic selection, you can use the **Copy the selection** function on the **Task** tab.
 
 <!-- Referenced links -->
-[2]: ../create/tutorial.yml
-[3]: ../create/copy.md
+[2]: ../create.md
+[3]: ../create.md#copy
 
 <!-- Referenced images -->

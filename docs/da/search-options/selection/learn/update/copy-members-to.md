@@ -33,14 +33,10 @@ Du kan ikke kopiere et udvalg til eksisterende dynamiske udvalg eller kombinatio
 
 Da et dynamisk udvalg ikke indeholder nogen fysiske personer, men bare er et sæt af søgekriterier, er det kun, når du kopierer et dynamisk udvalg, at du kan vælge mellem **Statisk** og **Dynamisk** på listen **Udvalget er**. Hvis du kopierer et statisk udvalg, vil rullemenuen **Udvalget er** kun indeholde indstillingen **Statisk**.
 
-For at lave en kopi af et dynamisk udvalg, kan du bruge funktionen **Kopier udvalget** på fanen **Opgave**.
-
-## Relateret indhold
-
-* [Kopiering af udvalg][3]
+For at [lave en kopi][3] af et dynamisk udvalg, kan du bruge funktionen **Kopier udvalget** på fanen **Opgave**.
 
 <!-- Referenced links -->
-[2]: ../create/tutorial.yml
-[3]: ../create/copy.md
+[2]: ../create.md
+[3]: ../create.md#copy
 
 <!-- Referenced images -->

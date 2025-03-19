@@ -137,7 +137,7 @@ You can create a selection that contains
 
 <!-- Referenced links -->
 [1]: howto/index.md
-[2]: create/index.md
+[2]: create.md
 [4]: howto/display-as-charts.md
 [5]: update/index.md
 [6]: update/delete.md

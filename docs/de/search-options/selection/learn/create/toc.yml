@@ -1,7 +1,0 @@
-items:
-- name: Überblick
-  href: index.md
-- name: Selektion erstellen
-  href: tutorial.yml
-- name: Selektion kopieren
-  href: copy.md

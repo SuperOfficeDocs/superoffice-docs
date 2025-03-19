@@ -53,6 +53,6 @@ Angiv egenskaber ved at følge vejledningen i trin 2 i [Opret et udvalg][1].
 Når udvalget er gemt, kan du [redigere det][3] for at ændre både kombinationstypen og hvilke udvalg, der skal kombineres. Det er dog ikke muligt at ændre feltet **Udvalg af**.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

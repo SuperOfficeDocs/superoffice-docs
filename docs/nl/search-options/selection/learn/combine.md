@@ -53,6 +53,6 @@ Stel eigenschappen in volgens de instructies van stap 2 in de zelfstudie [Select
 Na het opslaan van de selectie, kunt u [deze bewerken][3] door het combinatietype en de selecties te wijzigen die zijn gecombineerd. Het is echter niet mogelijk de waarde in het veld **Selectie van** te wijzigen.
 
 <!-- Referenced links -->
-[1]: create/tutorial.yml
+[1]: create.md
 [3]: update/index.md
 [2]: ../../../learn/basics/fav.md

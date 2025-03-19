@@ -78,7 +78,7 @@ Dobbeltklikk på en utsendelse for å åpne den.
 * [Opprett utvalg][1]
 
 <!-- Referenced links -->
-[1]: ../create/index.md
+[1]: ../create.md
 [2]: ../update/add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
 [3]: ../../../learn/search-criteria.md

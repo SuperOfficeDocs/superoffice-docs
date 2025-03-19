@@ -10,8 +10,7 @@ items:
 - name: Gecombineerde selecties
   href: combined-selections.md
 - name: Selectie maken
-  href: create/toc.yml
-  topicHref: create/index.md
+  href: create.md
 - name: Selecties combineren
   href: combine.md
 - name: Selectie bijwerken
