@@ -1,10 +1,10 @@
 ---
-title: Feature toggles
 uid: feature_toggles
+title: Feature toggles
 description: Feature toggles
-author: Bergfrid Dias
-date: 12.10.2021
 keywords: feature toggle, FeatureToggles, feature_toggle, web.config, SuperOffice.config
+author: Bergfrid Dias, Frode Berntsen
+date: 03.19.2025
 topic: howto
 envir: onsite
 client: web
