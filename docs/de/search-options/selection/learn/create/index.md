@@ -41,7 +41,7 @@ Schritt 1 unterscheidet sich bei kombinierten Selektionen, da Sie mit zwei vorha
 
 <!-- Referenced links -->
 [1]: tutorial.yml
-[3]: combine.md
+[3]: ../combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

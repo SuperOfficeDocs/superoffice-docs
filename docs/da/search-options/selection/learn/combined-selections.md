@@ -24,9 +24,7 @@ De to udvalg, der kombineres, kan være statiske eller dynamiske. Når du har op
 
 ## Hvordan kombineres de to udvalg?
 
-Du kan vælge, hvilke poster du vil medtage i kombinationsudvalget. Disse indstillinger er tilgængelige:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+Du kan vælge, hvilke poster du vil medtage i kombinationsudvalget.
 
 ## Eksempler på kombinationsudvalg
 
@@ -49,6 +47,6 @@ Du kan vælge, hvilke poster du vil medtage i kombinationsudvalget. Disse indsti
 * [Oprettelse af kombinationsudvalg][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->

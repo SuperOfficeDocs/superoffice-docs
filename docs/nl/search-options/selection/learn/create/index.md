@@ -41,7 +41,7 @@ Stap 1 is anders voor gecombineerde selecties omdat u begint met twee bestaande 
 
 <!-- Referenced links -->
 [1]: tutorial.yml
-[3]: combine.md
+[3]: ../combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

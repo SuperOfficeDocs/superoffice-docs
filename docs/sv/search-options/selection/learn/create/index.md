@@ -41,7 +41,7 @@ Steg 1 är annorlunda för kombinationsurval, eftersom du då börjar med två b
 
 <!-- Referenced links -->
 [1]: tutorial.yml
-[3]: combine.md
+[3]: ../combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

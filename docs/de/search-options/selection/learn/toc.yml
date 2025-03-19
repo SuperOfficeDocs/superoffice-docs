@@ -12,6 +12,8 @@ items:
 - name: Selektion erstellen
   href: create/toc.yml
   topicHref: create/index.md
+- name: Selektionen kombinieren
+  href: combine.md
 - name: Auswahl aktualisieren
   href: update/toc.yml
   topicHref: update/index.md

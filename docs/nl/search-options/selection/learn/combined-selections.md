@@ -24,9 +24,7 @@ De twee selecties die moeten worden gecombineerd, kunnen statisch of dynamisch z
 
 ## Hoe worden de twee selecties gecombineerd?
 
-U kunt aangeven welke items u wilt opnemen in de gecombineerde selectie. Dit zijn de beschikbare opties:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+U kunt aangeven welke items u wilt opnemen in de gecombineerde selectie.
 
 ## Voorbeelden van gecombineerde selecties
 
@@ -49,6 +47,6 @@ U kunt aangeven welke items u wilt opnemen in de gecombineerde selectie. Dit zij
 * [Gecombineerde selectie maken][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->

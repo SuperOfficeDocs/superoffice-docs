@@ -24,9 +24,7 @@ Die zwei zu kombinierenden Selektionen können statisch oder dynamisch sein. Nac
 
 ## Wie werden die zwei Selektionen kombiniert?
 
-Sie können auswählen, welche Einträge in der kombinierten Selektion enthalten sein sollen. Die folgenden Optionen stehen zur Verfügung:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+Sie können auswählen, welche Einträge in der kombinierten Selektion enthalten sein sollen.
 
 ## Beispiele für kombinierte Selektionen
 
@@ -49,6 +47,6 @@ Sie können auswählen, welche Einträge in der kombinierten Selektion enthalten
 * [Kombinierte Selektion erstellen][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->

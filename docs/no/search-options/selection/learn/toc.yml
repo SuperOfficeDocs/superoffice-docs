@@ -12,6 +12,8 @@ items:
 - name: Opprett utvalg
   href: create/toc.yml
   topicHref: create/index.md
+- name: Kombinere utvalg
+  href: combine.md
 - name: Oppdater utvalg
   href: update/toc.yml
   topicHref: update/index.md

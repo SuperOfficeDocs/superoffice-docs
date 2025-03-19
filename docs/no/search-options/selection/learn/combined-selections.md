@@ -24,9 +24,7 @@ De to utvalgene som kombineres, kan være statiske eller dynamiske. Når du har 
 
 ## Hvordan kombineres de to utvalgene?
 
-Du kan velge hvilke oppføringer du vil inkludere i kombinasjonsutvalget. Disse alternativene er tilgjengelige:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+Du kan velge hvilke oppføringer du vil inkludere i kombinasjonsutvalget.
 
 ## Eksempler på kombinasjonsutvalg
 
@@ -49,6 +47,6 @@ Du kan velge hvilke oppføringer du vil inkludere i kombinasjonsutvalget. Disse 
 * [Opprett et kombinasjonsutvalg][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->

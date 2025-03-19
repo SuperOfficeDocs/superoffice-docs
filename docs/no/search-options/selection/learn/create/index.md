@@ -41,7 +41,7 @@ Trinn 1 er forskjellig for kombinasjonsutvalg fordi du starter med to eksisteren
 
 <!-- Referenced links -->
 [1]: tutorial.yml
-[3]: combine.md
+[3]: ../combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

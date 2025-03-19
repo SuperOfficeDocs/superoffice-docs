@@ -3,7 +3,5 @@ items:
   href: index.md
 - name: Create a selection
   href: tutorial.yml
-- name: Combine selections
-  href: combine.md
 - name: Copy selection
   href: copy.md

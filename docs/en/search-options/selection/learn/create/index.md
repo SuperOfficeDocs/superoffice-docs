@@ -41,7 +41,7 @@ Step 1 is different for combined selections because you start with two existing 
 
 <!-- Referenced links -->
 [1]: tutorial.yml
-[3]: combine.md
+[3]: ../combine.md
 
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md

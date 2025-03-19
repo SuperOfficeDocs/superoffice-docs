@@ -24,9 +24,7 @@ The two selections to be combined can be static or dynamic. After creating a com
 
 ## How are the two selections combined?
 
-You can select which entries you want to include in the combined selection. These are the available options:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+You can select which entries you want to include in the combined selection.
 
 ## Examples of combined selections
 
@@ -49,6 +47,6 @@ You can select which entries you want to include in the combined selection. Thes
 * [Create a combined selection][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->

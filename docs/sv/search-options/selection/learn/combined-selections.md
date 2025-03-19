@@ -24,9 +24,7 @@ De två urvalen som kombineras kan vara statiska eller dynamiska. När du har sk
 
 ## Hur kombineras de två urvalen?
 
-Du kan välja vilka händelser du vill ska ingå i kombinationsurvalet. Dessa alternativ finns tillgängliga:
-
-[!include[Options for combining selections](includes/table-selection-combinations.md)]
+Du kan välja vilka händelser du vill ska ingå i kombinationsurvalet.
 
 ## Exempel på kombinationsurval
 
@@ -49,6 +47,6 @@ Du kan välja vilka händelser du vill ska ingå i kombinationsurvalet. Dessa al
 * [Skapa kombinationsurval][1]
 
 <!-- Referenced links -->
-[1]: create/combine.md
+[1]: combine.md
 
 <!-- Referenced images -->
