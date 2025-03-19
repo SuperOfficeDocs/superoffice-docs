@@ -1,12 +1,12 @@
 ---
-title: Migration guide
 uid: sharepoint-documents-migration
+title: Migration guide
 description: Introduction to SuperOffice SharePoint document migration.
-author: Frode Berntsen, Bergfrid Dias
-date: 01.15.2024
 keywords: SharePoint, document, Microsoft, Microsoft Entra, ME-ID, AAD
-topic: concept
+author: Frode Berntsen, Bergfrid Dias
+date: 03.19.2025
 version:
+topic: concept
 envir: cloud
 client: online
 ---
@@ -69,9 +69,7 @@ To move orphaned documents (those without a SharePoint owner), we need a **Globa
 
 ## Limitations
 
-* Maximum 20 000 documents can be migrated in one migration job. You can select how many documents to migrate per job by creating a document selection. If you plan to migrate more than this limit, divide the documents into multiple migration jobs, each within the limit.
-
-* The process of migrating documents is time-consuming since both the document itself and its metadata needs to be transferred.
+* The process of migrating documents can be time-consuming since both the document itself and its metadata needs to be transferred.
 
     The API of SharePoint sets restrictions on speed and synchronous file-transfer and is usually the limiting factor. If you plan to migrate thousands of documents, it might take days to complete! We recommend that you take this into account in your project plan.
 
