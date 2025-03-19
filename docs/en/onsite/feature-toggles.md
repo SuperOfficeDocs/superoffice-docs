@@ -1,10 +1,10 @@
 ---
-title: Feature toggles
 uid: feature_toggles
+title: Feature toggles
 description: Feature toggles
-author: Bergfrid Dias
-date: 12.10.2021
 keywords: feature toggle, FeatureToggles, feature_toggle, web.config, SuperOffice.config
+author: Bergfrid Dias, Frode Berntsen
+date: 03.19.2025
 topic: howto
 envir: onsite
 client: web
@@ -70,7 +70,11 @@ To enable toggled features - you need to add two sections manually in your NetSe
 
 | Feature                 | Toggle name |  Released in version | Available from version |
 |---|---|---|---|
-| New Follow-up            | NewFollowUpDialog              |  10.?.?  | 10.2.11 |
+| Marketing Premium        | Flows                          |  10.3.9  | 10.3.5 |
+| Custom Objects v3 (*4)   | CustomObjectsV2                |  10.?.?  | 10.3.9 |
+| Custom Objects v2        | CustomObjectsV2                |  10.?.?  | 10.3.7 |
+| Custom Objects v1        | CustomObjectsV1                |  10.?.?  | 10.3.4 |
+| New Follow-up            | NewFollowUpDialog              |  10.3.6  | 10.2.11 |
 | Request types (*3)       | NSTicketType                   |  10.3.2  | 10.2.10 |
 | New Service (*1)         | NewServiceRequest              |  10.2.5  | 10.2.1  |
 | New Notifications        | NewNotifications               |  10.2.5  | 10.2.5  |
@@ -100,6 +104,8 @@ To enable toggled features - you need to add two sections manually in your NetSe
  *2 = The ConfigurableSale and ConfigurableProject feature toggle is dependent on the SCILHostedArchives feature toggle
  
  *3 = The NSTicketType feature toggle is dependent on the NewServiceRequest feature toggle, and requries Service Premium and Developer tools
+ 
+ *4 = v3 features are added to the V2 tag
 
 ## Look up enabled features
 
