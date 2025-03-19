@@ -1,12 +1,12 @@
 ---
-title: Migration guide
 uid: sharepoint-documents-migration
+title: Migration guide
 description: Introduction to SuperOffice SharePoint document migration.
-author: Frode Berntsen, Bergfrid Dias
-date: 01.15.2024
 keywords: SharePoint, document, Microsoft, Microsoft Entra, ME-ID, AAD
-topic: concept
+author: Frode Berntsen, Bergfrid Dias
+date: 03.19.2025
 version:
+topic: concept
 envir: cloud
 client: online
 ---
