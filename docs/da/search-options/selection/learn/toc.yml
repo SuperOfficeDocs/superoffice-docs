@@ -13,9 +13,12 @@ items:
   href: create.md
 - name: Kombiner udvalg
   href: combine.md
-- name: Opdater udvalg
-  href: update/toc.yml
-  topicHref: update/index.md
+- name: Rediger eller slet udvalg
+  href: update.md
+- name: Tilføj og fjern medlemmer (statisk)
+  href: add-remove-members-static.md
+- name: Kopiér medlemmer til et andet udvalg
+  href: copy-members-to.md
 - name: Udfør opgaver ved hjælp af udvalg
   href: howto/toc.yml
   topicHref: howto/index.md

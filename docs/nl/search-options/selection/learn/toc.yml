@@ -13,8 +13,12 @@ items:
   href: create.md
 - name: Selecties combineren
   href: combine.md
-- name: Selectie bijwerken
-  href: update/toc.yml
+- name: Selectie bewerken of verwijderen
+  href: update.md
+- name: Leden toevoegen en verwijderen (statisch)
+  href: add-remove-members-static.md
+- name: Leden naar een andere selectie kopiëren
+  href: copy-members-to.md
   topicHref: update/index.md
 - name: Taken uitvoeren met selecties
   href: howto/toc.yml

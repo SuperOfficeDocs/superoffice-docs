@@ -75,8 +75,6 @@ För att massradera kontakter från ett urval kan du välja funktionen **Radera 
 
 ![Från knappen Uppgift på urvalsskärmen kan du massradera företag och kontakter -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Gå till ett urval. Till exempel, [använd fönstret Sök][1].
 
 1. För att endast ta bort några av urvalsmedlemmarna markerar du dem i listan över medlemmar.

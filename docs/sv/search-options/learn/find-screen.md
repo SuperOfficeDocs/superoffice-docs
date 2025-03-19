@@ -288,7 +288,7 @@ Säg nu att du är ansvarig för marknadsavdelningen och att ni ska ha en idéda
 [6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
 [8]: ../selection/learn/create/index.md
-[9]: ../selection/learn/update/add-remove-members-static.md
+[9]: ../selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img10]: ../../../media/loc/en/search-options/task-menu.png

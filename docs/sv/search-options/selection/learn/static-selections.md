@@ -23,6 +23,6 @@ Om man arbetar med statiska urval har man möjlighet att manuellt lägga till oc
 <!-- Referenced links -->
 [1]: dynamic-selections.md
 [2]: create.md
-[3]: update/add-remove-members-static.md
+[3]: add-remove-members-static.md
 
 <!-- Referenced images -->

@@ -79,7 +79,7 @@ Dobbeltklik på en udsendelse for at redigere den.
 
 <!-- Referenced links -->
 [1]: ../create.md
-[2]: ../update/add-remove-members-static.md
+[2]: ../add-remove-members-static.md
 [5]: ../howto/display-as-charts.md
 [3]: ../../../learn/search-criteria.md
 [6]: ../../../../dashboard/learn/create.md

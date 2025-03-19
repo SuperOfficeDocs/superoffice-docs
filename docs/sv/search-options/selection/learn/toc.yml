@@ -13,9 +13,12 @@ items:
   href: create.md
 - name: Kombinera urval
   href: combine.md
-- name: Uppdatera urval
-  href: update/toc.yml
-  topicHref: update/index.md
+- name: Redigera eller ta bort urval
+  href: update.md
+- name: Lägga till och ta bort medlemmar (statisk)
+  href: add-remove-members-static.md
+- name: Kopiera medlemmar till ett annat urval
+  href: copy-members-to.md
 - name: Utföra uppgifter för urval
   href: howto/toc.yml
   topicHref: howto/index.md

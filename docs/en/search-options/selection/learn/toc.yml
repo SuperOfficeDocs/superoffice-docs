@@ -13,9 +13,12 @@ items:
   href: create.md
 - name: Combine selections
   href: combine.md
-- name: Update selection
-  href: update/toc.yml
-  topicHref: update/index.md
+- name: Edit or delete selection
+  href: update.md
+- name: Add and remove members (static)
+  href: add-remove-members-static.md
+- name: Copy members to another selection
+  href: copy-members-to.md
 - name: Perform tasks using selection
   href: howto/toc.yml
   topicHref: howto/index.md

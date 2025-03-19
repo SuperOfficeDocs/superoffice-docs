@@ -1,9 +1,0 @@
-items:
-- name: Selektion bearbeiten
-  href: index.md
-- name: Mitglieder hinzufügen und entfernen (statisch)
-  href: add-remove-members-static.md
-- name: Mitglieder in eine andere Selektion kopieren
-  href: copy-members-to.md
-- name: Selektion löschen
-  href: delete.md

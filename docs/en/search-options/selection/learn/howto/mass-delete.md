@@ -75,8 +75,6 @@ To mass delete contacts from a selection, you can choose the **Delete all contac
 
 ![From the Task button on the selection screen you can mass delete companies and contacts -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Go to a selection. For example, [use the Find screen][1].
 
 1. To delete just some of the selection members, select them in the list of members.

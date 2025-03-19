@@ -75,8 +75,6 @@ Als u personen groepsgewijs uit een selectie wilt verwijderen, kunt u de functie
 
 ![Via de knop Taak op het selectiescherm kunt u bedrijven en contacten groepsgewijs verwijderen -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Ga naar een selectie. Bijvoorbeeld [Het scherm Zoeken gebruiken][1].
 
 1. Om slechts enkele van de selectieleden te verwijderen, selecteert u deze in de lijst met leden.

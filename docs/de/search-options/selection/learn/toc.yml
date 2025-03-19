@@ -13,9 +13,12 @@ items:
   href: create.md
 - name: Selektionen kombinieren
   href: combine.md
-- name: Auswahl aktualisieren
-  href: update/toc.yml
-  topicHref: update/index.md
+- name: Selektion bearbeiten oder löschen
+  href: update.md
+- name: Mitglieder hinzufügen und entfernen (statisch)
+  href: add-remove-members-static.md
+- name: Mitglieder in eine andere Selektion kopieren
+  href: copy-members-to.md
 - name: Aufgaben in der Ansicht Selektion ausführen
   href: howto/toc.yml
   topicHref: howto/index.md

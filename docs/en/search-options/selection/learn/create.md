@@ -54,7 +54,7 @@ You start off with a set of criteria from the **Find** screen by using a typical
 
 1. When you have finished defining the core data for the selection, click **Save**.
 
-## Copy a selection
+## <a id="copy"></a>Copy a selection
 
 Selecting the **Copy the selection** task provides a quick and easy way of making an exact copy of a selection.
 

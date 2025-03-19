@@ -75,8 +75,6 @@ Um eine Massenlöschung von Personen aus einer Selektion durchzuführen, können
 
 ![Über die Schaltfläche Aufgabe auf der Ansicht Selektion können Sie eine Massenlöschung von Firmen und Personen durchführen -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Wechseln Sie zu einer Selektion. Zum Beispiel[Suchansicht verwenden][1].
 
 1. Wählen Sie die Selektionsmitglieder in der Mitgliederliste aus, wenn Sie nur einige von ihnen löschen möchten.

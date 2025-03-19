@@ -75,8 +75,6 @@ For at masseslette kontakter fra et udvalg kan du vælge funktionen **Slet perso
 
 ![Fra knappen Opgave på skærmbilledet for Udvalg kan du masseslette firmaer og personer -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Gå til et udvalg. Brug for eksempel skærmbilledet [Find][1].
 
 1. Hvis du kun vil slette nogle af udvalgsmedlemmerne, skal du vælge dem på listen over medlemmer.

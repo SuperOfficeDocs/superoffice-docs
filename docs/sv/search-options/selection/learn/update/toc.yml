@@ -1,9 +1,0 @@
-items:
-- name: Redigera urval
-  href: index.md
-- name: Lägga till och ta bort medlemmar (statisk)
-  href: add-remove-members-static.md
-- name: Kopiera medlemmar till ett annat urval
-  href: copy-members-to.md
-- name: Ta bort urval
-  href: delete.md

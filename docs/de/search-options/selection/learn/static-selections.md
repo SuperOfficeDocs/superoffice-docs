@@ -23,6 +23,6 @@ Die Arbeit mit statistischer Selektion ermöglicht Ihnen, manuell Selektionsmitg
 <!-- Referenced links -->
 [1]: dynamic-selections.md
 [2]: create.md
-[3]: update/add-remove-members-static.md
+[3]: add-remove-members-static.md
 
 <!-- Referenced images -->

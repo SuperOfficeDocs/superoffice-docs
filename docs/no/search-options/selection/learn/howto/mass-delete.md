@@ -75,8 +75,6 @@ Hvis du vil masseslette personer fra et utvalg, kan du velge funksjonen **Slett 
 
 ![Fra Oppgave-knappen på utvalgskjermen kan du masseslette firmaer og personer -screenshot][img2]
 
-[!include[Open Selections](../includes/goto-selections.md)]
-
 1. Gå til et utvalg. For eksempel [bruk Finn-skjermbildet][1].
 
 1. Hvis du bare vil slette noen av medlemmene i utvalget, merker du dem av i medlemslisten.
