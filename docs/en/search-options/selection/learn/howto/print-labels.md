@@ -4,12 +4,12 @@ title: Printing labels Selection
 description: Printing labels Selection
 keywords: selection, label, print
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 03.21.2025
+version: 10.5.3
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Print labels
@@ -31,9 +31,12 @@ Label printing can be useful when you need to send letters to multiple recipient
 
     ![Selection task print - choose label layout -screenshot][img1]
 
-1. Review the required settings and click **OK**.
+1. Review the required settings and click **OK**. For example:
 
-    ![Selection - Print labels setup and required settings -screenshot][img2]
+    * Scale: Actual size, default or 100%
+    * Margins: None
+    * Orientation: Portrait
+    * Paper size: A4
 
 1. Adjust your browser's print settings (such as scale, margins, orientation, and paper size) to ensure the addresses fit correctly within the label area without overlapping.
 
@@ -47,5 +50,4 @@ Label printing can be useful when you need to send letters to multiple recipient
 <!-- Referenced links -->
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
-[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
 [img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png
