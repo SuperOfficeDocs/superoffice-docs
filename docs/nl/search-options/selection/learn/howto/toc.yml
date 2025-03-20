@@ -17,5 +17,3 @@ items:
     href: print.md
   - name: Exporteren naar Excel of bestand
     href: export.md
-  - name: Records permanent verwijderen
-    href: mass-delete.md

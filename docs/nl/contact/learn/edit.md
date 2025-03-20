@@ -35,7 +35,7 @@ language: nl
 * [Contactgegevens bulksgewijs bijwerken][8]
 
 <!-- Referenced links -->
-[8]: ../../search-options/selection/learn/howto/bulk-update.md
+[8]: ../../learn/basics/bulk-update.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/edit-person.png

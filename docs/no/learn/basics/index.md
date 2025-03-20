@@ -56,7 +56,6 @@ Skjermbildene Firma og Person inneholder all informasjon relatert til kundene di
 * [Legge til personer][3]
 * [Slå sammen, slett eller gjenopprett firmaer og personer][4]
 * [Importere flere firma og/eller personer][1]
-* [Masseredigering av firma- og personinformasjon][5]
 * [Opprette utvalg for videre handling][6]
 
 ### Dagbok og oppfølginger
@@ -106,7 +105,6 @@ Administratoren kan [legge til og tilpasse prosjektguider][1] for deg.
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

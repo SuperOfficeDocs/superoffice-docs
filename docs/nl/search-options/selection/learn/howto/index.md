@@ -72,7 +72,7 @@ De knop **Taak** bevat taken, zoals de verzending van e-mail, massabewerking en 
 [9]: print-labels.md
 [10]: print.md
 [12]: export.md
-[13]: mass-delete.md
+[13]: ../../../../security/privacy/learn/mass-delete.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/selection-task.png

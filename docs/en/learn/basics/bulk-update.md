@@ -101,5 +101,5 @@ You want to clean up all the "old" projects that have not been set to completed.
 * [Mass delete contacts and companies from selection][1]
 
 <!-- Referenced links -->
-[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[1]: ../../security/privacy/learn/mass-delete.md
 [3]: ../../security/privacy/learn/edit-legal-base.md#bulk

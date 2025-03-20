@@ -58,7 +58,6 @@ Skærmbillederne Firma og Person indeholder alle oplysninger relateret til dine 
 * [Tilføjelse af personer][3]
 * [Flet, slet eller gendan firmaer og personer][4]
 * [Importer flere firmaer og/eller personer][1]
-* [Masseopdater firma- og personoplysninger][5]
 * [Opret valg til yderligere handling][6]
 
 ## Dagbog og opfølginger
@@ -108,7 +107,6 @@ Din administrator kan [tilføje og tilpasse projektguider][1] for dig.
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

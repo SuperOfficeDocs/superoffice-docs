@@ -7,3 +7,5 @@ items:
     href: send-privacy-confirmation-email.md
   - name: Generer persondatarapport
     href: generate-personal-data-report.md
+  - name: Slett poster permanent
+    href: mass-delete.md

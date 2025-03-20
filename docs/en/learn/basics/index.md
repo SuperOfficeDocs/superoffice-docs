@@ -56,7 +56,6 @@ The Company and Contact screens hold all information related to your customers a
 * [Add contacts][3]
 * [Merge, delete or restore companies and contacts][4]
 * [Import multiple companies and/or contacts][1]
-* [Bulk update company and contact information][5]
 * [Create selections for further action][6]
 
 ## Diary and follow-ups
@@ -106,7 +105,6 @@ Your administrator can [add and customize project guides][1] for you.
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

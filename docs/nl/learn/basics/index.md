@@ -58,7 +58,6 @@ De bedrijfs- en persoonsschermen bevatten alle informatie met betrekking tot uw 
 * [Personen toevoegen][3]
 * [Verwijderde bedrijven en personen samenvoegen, verwijderen of herstellen][4]
 * [Meerdere bedrijven en/of personen importeren][1]
-* [Bedrijfs- en persoonsgegevens bulksgewijs bijwerken][5]
 * [Selecties maken voor verdere actie][6]
 
 ## Agenda en vervolgactiviteiten
@@ -108,7 +107,6 @@ Uw systeembeheerder kan [projectgidsen handleidingen voor u toevoegen en aanpass
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

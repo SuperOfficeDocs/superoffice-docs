@@ -17,5 +17,3 @@ items:
     href: print.md
   - name: Exportera till Excel eller fil
     href: export.md
-  - name: Ta bort poster permanent
-    href: mass-delete.md

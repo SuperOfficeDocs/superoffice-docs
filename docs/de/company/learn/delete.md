@@ -30,5 +30,5 @@ language: de
 
 <!-- Referenced links -->
 [2]: ../../learn/basics/deleting-elements.md#restore
-[3]: ../../search-options/selection/learn/howto/mass-delete.md
+[3]: ../../security/privacy/learn/mass-delete.md
 [4]: merge-companies.md

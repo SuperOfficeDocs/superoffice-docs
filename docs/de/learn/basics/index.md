@@ -56,7 +56,6 @@ Die Anzeigen Firma und Person enthalten alle Informationen über Ihre Kunden und
 * [Hinzufügen von Personen][3]
 * [Firmen und Personen zusammenführen, löschen oder wiederherstellen][4]
 * [Mehrere Firmen und/oder Personen importieren][1]
-* [Massenabgleich der Firma und Personeninformation][5]
 * [Selektionen für weitere Aktionen erstellen][6]
 
 ## Kalender und Folgeaufgabe
@@ -106,7 +105,6 @@ Ihr Administrator kann für Sie [Projektleitfäden hinzufügen und anpassen][1].
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

@@ -101,5 +101,5 @@ U wilt alle "oude" projecten opschonen die niet zijn ingesteld als voltooid. Maa
 * [Massaal personen en bedrijven uit selectie verwijderen][1]
 
 <!-- Referenced links -->
-[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[1]: ../../security/privacy/learn/mass-delete.md
 [3]: ../../security/privacy/learn/edit-legal-base.md#bulk

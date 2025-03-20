@@ -101,5 +101,5 @@ Du vil rydde op i alle de "gamle" projekter, som ikke er angivet som fuldførte.
 * [Masseslette personer og firmaer fra markeringen][1]
 
 <!-- Referenced links -->
-[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[1]: ../../security/privacy/learn/mass-delete.md
 [3]: ../../security/privacy/learn/edit-legal-base.md#bulk
