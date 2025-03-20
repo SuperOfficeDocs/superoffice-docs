@@ -2,57 +2,54 @@
 uid: help-da-selection-generate-follow-ups
 title: Generering af opfølgninger
 description: Generering af opfølgninger
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection
+keywords: udvalg
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Generering af opfølgninger
 
-Du kan oprette en opfølgning, som for eksempel vises på aktivitetslisten til alle medlemmerne af et udvalg. Et eksempel kan være, hvis dit firma har lanceret et nyt produkt, og du vil huske alle sælgerne på, at de skal invitere deres kunder til en præsentation.
+Du kan oprette en opfølgning, som for eksempel vises på aktivitetslisten for alle medlemmerne af et udvalg. Dette er nyttigt, hvis du f.eks. lancerer et nyt produkt og vil minde sælgerne om at invitere kunder til en produktpræsentation.
 
-1. Følg fremgangsmåden beskrevet under [Udførelse af opgaver med udvalg][1], og vælg fanen **Firma/person**.
+## Trin
 
-2. Klik på knappen **Opgave**.
+1. Gå til det ønskede udvalg, og vælg fanen **Firma/person**.
 
-3. Vælg opgaven **Generering af opfølgninger**.
+1. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælg **Generering af opfølgninger**.
 
-4. I dialogboksen **Opret opfølgninger** skal du vælge en foruddefineret opfølgningstype i feltet **Type**.
+1. I dialogboksen **Opret opfølgninger**:
 
-5. I feltet **Start** skriver du datoen for opfølgningens start.
+    * Vælg en foruddefineret opfølgningstype i feltet **Type**.
+    * Angiv startdato i feltet **Start**.
+    * Indtast en titel for opfølgningen i feltet **Titel**.
+    * (Valgfrit) Tilføj flere detaljer i feltet **Agenda**.
 
-6. Angiv en beskrivelse af opfølgningen i feltet **Beskrivelse**.
+1. (Valgfrit) Vælg et projekt, som opfølgningen skal knyttes til, i feltet **Projekt**.
 
-7. Vælg, hvilket projekt opfølgningen skal knyttes til, i feltet **Projekt**. Gør ét af følgende:
+1. Vælg prioritet for opfølgningen i feltet **Prioritet**.
 
-    * Klik på pilen, og vælg et projekt på listen.
-    * Indtastning af hele eller begyndelsen af projektnavnet.
+1. (Valgfrit) Marker **Udført**, hvis opfølgningen skal markeres som afsluttet.
 
-8. I feltet **Prioritet** angiver du, hvordan du vil prioritere opfølgningen. Hvis du klikker på pilen, vises en liste med standardindstillingerne høj, middel og lav prioritet.
+1. Marker **Opret kun én opfølgning for hvert firma**, hvis du kun vil oprette én opfølgning pr. firma i stedet for én pr. kontaktperson. Det første firmamedlem, der føjes til udvalget, inviteres.
 
-9. Marker for **Udført**, hvis opfølgningen skal indstilles til at være afsluttet.
+1. Under **Vælg ejeren af disse opfølgninger**, vælg hvem der skal modtage opfølgningerne:
 
-    Den vil så ikke blive taget med ved søgning med Hurtigsøgning og i tællinger, men den vil fortsat blive vist på historiklisten.
+    * **Min aktivitetsliste**: Tilføjer alle opfølgninger til din egen aktivitetsliste.
 
-10. Marker **Opret kun én opfølgning** for hvert firma, hvis du ikke vil oprette en opfølgning for hver person hos hvert firma i udvalget.
+    * **Firmaejers aktivitetsliste (vores kontakt)**: Fordeler opfølgningerne til de ansvarlige firmaejere (kræver rettigheder i Indstillinger og vedligeholdelse).
 
-    For hvert firma oprettes der kun en enkelt opfølgning – for det første firmamedlem, der føjes til udvalget.
+    * **Anden person**: Tildeler opfølgningerne til en anden person fra listen. Tilgængelige personer afhænger af dit **rettighedsniveau**.
 
-11. Vælg ejeren af disse opfølgninger:
+1. Klik på **Gem** for at oprette opfølgningerne.
 
-    * **Min aktivitetsliste**: Alle opfølgninger havner på din egen aktivitetsliste.
+![Udvalg-opgave: Generering af opfølgninger -screenshot][img1]
 
-    * **Firmaejers aktivitetsliste (vores kontakt)**: Opfølgningerne fordeles på aktivitetslisterne til de personer, der er defineret som *vores kontakt* for hvert firma.
-        Brugeren skal være tildelt rettigheder til dette i Indstillinger og vedligeholdelse.
+<!-- Referencerede links -->
 
-    * **Anden person**: Her kan du vælge den ønskede indstilling på listen over aktuelle personer.
-        Hvilke personer der kan vælges, afhænger af dit **rettighedsniveau**.
-
-12. Klik på knappen **Gem**.
-
-<!-- Referenced links -->
-[1]: index.md
-
-<!-- Referenced images -->
+<!-- Referencerede billeder -->
+[img1]: ../../../../../media/loc/en/search-options/generate-follow-ups-from-selection.png

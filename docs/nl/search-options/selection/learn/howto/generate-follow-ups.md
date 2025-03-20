@@ -2,57 +2,54 @@
 uid: help-nl-selection-generate-follow-ups
 title: Vervolgactiviteiten genereren
 description: Vervolgactiviteiten genereren
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selectie
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Vervolgactiviteiten genereren
 
-U kunt een vervolgactiviteit maken die bijvoorbeeld in de activiteitenlijst van alle selectieleden wordt weergegeven. Dit kan bijvoorbeeld handig zijn wanneer uw bedrijf een nieuw product introduceert en u de verkoopafdeling eraan wilt herinneren dat de klanten moeten worden uitgenodigd voor een presentatie.
+U kunt een vervolgactiviteit maken die bijvoorbeeld in de activiteitenlijst van alle selectieleden wordt weergegeven. Dit kan handig zijn als uw bedrijf een nieuw product introduceert en u de verkoopafdeling eraan wilt herinneren om klanten uit te nodigen voor een productpresentatie.
 
-1. Volg de procedure die is beschreven in [Taken uitvoeren met selecties][1] en selecteer het tabblad **Bedrijf/persoon**.
+## Stappen
 
-2. Klik op de knop **Taak**.
+1. Ga naar de gewenste selectie en selecteer het tabblad **Bedrijf/persoon**.
 
-3. Kies de taak **Vervolgactiviteiten genereren**.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Vervolgactiviteiten genereren**.
 
-4. Selecteer in het dialoogvenster **Vervolgactiviteiten genereren** een vooraf gedefinieerd type vervolgactiviteit in het veld **Type** .
+1. In het dialoogvenster **Vervolgactiviteiten genereren**:
 
-5. Typ in het veld **Start** de datum waarop de vervolgactiviteit moet beginnen.
+    * Selecteer een vooraf gedefinieerd type vervolgactiviteit in het veld **Type**.
+    * Vul de startdatum in het veld **Start** in.
+    * Voer een titel voor de vervolgactiviteit in het veld **Titel** in.
+    * (Optioneel) Voeg extra details toe in het veld **Agenda**.
 
-6. Voer een beschrijving van de vervolgactiviteit in het veld **Beschrijving** in.
+1. (Optioneel) Kies een project in het veld **Project** om de vervolgactiviteit aan te koppelen.
 
-7. Kies in het veld **Project** het project waaraan de vervolgactiviteit moet worden gekoppeld. Voer een van de volgende handelingen uit:
+1. Kies de prioriteit voor de vervolgactiviteit in het veld **Prioriteit**.
 
-    * Klik op de pijl en selecteer een naam in de lijst.
-    * Typ het geheel of het begin van de projectnaam.
+1. (Optioneel) Vink **Voltooid** aan als de vervolgactiviteit als voltooid moet worden gemarkeerd.
 
-8. Geef in het veld **Prioriteit** de prioriteit van de vervolgactiviteit op. Klik op de pijl om een lijst weer te geven met de standaardopties Hoog, Normaal en Laag.
+1. Vink **Slechts één vervolgactiviteit per bedrijf genereren** aan om slechts één vervolgactiviteit per bedrijf te maken in plaats van één per contactpersoon. Het eerste bedrijfslid dat aan de selectie wordt toegevoegd, wordt uitgenodigd.
 
-9. Schakel het selectievakje **Voltooid** in als de vervolgactiviteit is voltooid.
+1. Onder **Kies de eigenaar van deze vervolgactiviteiten**, selecteer wie de vervolgactiviteiten ontvangt:
 
-    Deze wordt dan niet meegenomen bij Snel zoeken en in tellers, maar wordt wel weergegeven in de Historielijst.
+    * **Mijn activiteitenlijst**: Voegt alle vervolgactiviteiten toe aan uw eigen activiteitenlijst.
 
-10. Schakel het selectievakje **Slechts één vervolgactiviteit per bedrijf genereren** in wanneer u niet voor iedere persoon in elk bedrijf van de selectie een vervolgactiviteit wilt maken.
+    * **Activiteitenlijst van de eigenaar (onze contactpersoon) van het bedrijf**: Verdeelt de vervolgactiviteiten naar de verantwoordelijke contacten voor elk bedrijf (vereist rechten in Instellingen en onderhoud).
 
-    Voor elk bedrijf wordt slechts één vervolgactiviteit gemaakt, en wel voor het eerste bedrijfslid dat aan de selectie is toegevoegd.
+    * **Andere medewerker**: Wijs de vervolgactiviteiten toe aan een andere medewerker uit de lijst. De beschikbare medewerkers hangen af van uw **gebruikersniveau**.
 
-11. Selecteer de eigenaar van deze vervolgactiviteiten:
+1. Klik op **Opslaan** om de vervolgactiviteiten te genereren.
 
-    * **Mijn activiteitenlijst**: alle vervolgactiviteiten worden toegevoegd aan uw eigen activiteitenlijst.
+![Selectietaak: Vervolgactiviteiten genereren -screenshot][img1]
 
-    * **Activiteitenlijst van de eigenaar (ons contactpersoon) van het bedrijf**: de vervolgactiviteiten worden opgenomen in de activiteitenlijsten van de personen die voor elk bedrijf zijn gedefinieerd als *onze contactpersoon*.
-        Hiervoor moeten in Instellingen en onderhoud rechten aan de gebruiker zijn toegewezen.
+<!-- Referentielinks -->
 
-    * **Andere medewerker**: hier kunt u een optie kiezen in de lijst met huidige personen.
-        De beschikbare contactpersonen zijn afhankelijk van uw **gebruikersniveau**.
-
-12. Klik op de knop **Opslaan**.
-
-<!-- Referenced links -->
-[1]: index.md
-
-<!-- Referenced images -->
+<!-- Referentieafbeeldingen -->
+[img1]: ../../../../../media/loc/en/search-options/generate-follow-ups-from-selection.png

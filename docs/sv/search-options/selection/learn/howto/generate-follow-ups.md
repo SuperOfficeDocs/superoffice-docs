@@ -2,57 +2,54 @@
 uid: help-sv-selection-generate-follow-ups
 title: Skapa händelser
 description: Skapa händelser
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection
+keywords: urval
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Generera händelser
 
-Du kan skapa en händelse som till exempel visas på aktivitetslistan för alla medlemmar i ett visst urval. Detta kan vara bra när ditt företag lanserar en ny produkt, och du måste påminna säljarna om att bjuda in kunder till en presentation av produkten.
+Du kan skapa en händelse som till exempel visas på aktivitetslistan för alla medlemmar i ett urval. Detta är användbart när ditt företag lanserar en ny produkt och du vill påminna säljarna om att bjuda in kunder till en produktpresentation.
 
-1. Följ instruktionerna som finns under [Utföra uppgifter för urval][1] och välj fliken **Företag/kontakt**.
+## Steg
 
-2. Klicka på **Uppgift**-knappen.
+1. Gå till det önskade urvalet och välj fliken **Företag/kontakt**.
 
-3. Välj uppgiften **Skapa händelser**.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Skapa händelser**.
 
-4. I dialogrutan **Skapa händelser** ska du välja en fördefinierad händelsetyp i fältet **Typ**.
+1. I dialogrutan **Skapa händelser**:
 
-5. I fältet **Start** skriver du startdatum för händelsen.
+    * Välj en fördefinierad händelsetyp i fältet **Typ**.
+    * Ange startdatum i fältet **Start**.
+    * Skriv en titel för händelsen i fältet **Titel**.
+    * (Valfritt) Lägg till fler detaljer i fältet **Agenda**.
 
-6. Ange en beskrivning av händelsen i fältet **Beskrivning**.
+1. (Valfritt) Välj ett projekt i fältet **Projekt** för att koppla händelsen till.
 
-7. Välj vilka projekt händelsen ska kopplas till i fältet **Projekt**. Gör något av följande:
+1. I fältet **Prioritet** väljer du prioriteten för händelsen.
 
-    * Klicka på pilen och välj ett projekt i listan.
-    * Skriv hela eller början av projektnamnet.
+1. (Valfritt) Markera **Slutfört** om händelsen ska markeras som slutförd.
 
-8. I fältet **Prioritet** anger du prioritet för händelsen. Om du klickar på pilen visas en lista med standardalternativ för hög, normal och låg prioritet.
+1. Markera **Skapa endast en händelse per företag** för att skapa en händelse per företag istället för en per kontakt. Den första medlemmen i företaget som har lagts till i urvalet blir inbjuden.
 
-9. Markera **Slutfört** om händelsen ska markeras som slutförd.
+1. Under **Välj ägare till dessa händelser**, välj vem som ska ta emot händelserna:
 
-    Den tas då inte med vid snabbsökning eller i beräkningar, men visas fortfarande i historiklistan.
+    * **Min aktivitetslista**: Lägger till alla händelser i din egen aktivitetslista.
 
-10. Markera **Skapa endast en händelselogg för varje företag** om du inte vill att en händelse ska skapas för varje kontakt på varje företag i urvalet.
+    * **Företagsägarens aktivitetslista (vår kontakt)**: Fördelar händelserna till de ansvariga kontaktpersonerna för varje företag (kräver behörigheter i Inställningar och underhåll).
 
-    För varje företag skapas bara en händelse, på den första medlemmen som har lagts till i urvalet.
+    * **Annan kontakt**: Tilldelar händelserna till en annan kontakt från listan. Tillgängliga kontakter beror på din **behörighetsnivå**.
 
-11. Välj ägare till dessa händelser:
+1. Klicka på **Spara** för att skapa händelserna.
 
-    * **Min aktivitetslista**: Alla händelser placeras i din egen aktivitetslista.
+![Urvalsuppgift: Generera händelser -screenshot][img1]
 
-    * **Företagsägarens aktivitetslista (vår kontakt)**: Händelserna visas i checklistorna för de kontakter som är definierade som *vår kontakt* på varje företag.
-        Användaren måste ha tilldelats behörighet till detta i Inställningar och underhåll.
+<!-- Refererade länkar -->
 
-    * **Annan kontakt**: Här kan du välja ett alternativ i listan över aktuella kontakter.
-        Vilka kontakter som kan väljas beror på din **behörighetsnivå**.
-
-12. Klicka på **Spara**-knappen.
-
-<!-- Referenced links -->
-[1]: index.md
-
-<!-- Referenced images -->
+<!-- Refererade bilder -->
+[img1]: ../../../../../media/loc/en/search-options/generate-follow-ups-from-selection.png

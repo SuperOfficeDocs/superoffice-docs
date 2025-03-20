@@ -2,57 +2,54 @@
 uid: help-de-selection-generate-follow-ups
 title: Folgeaufgaben erstellen
 description: Folgeaufgaben erstellen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Folgeaufgaben erstellen
 
-Sie können eine Folgeaufgabe erstellen, die beispielsweise in der Aktivitätenliste für alle Mitglieder einer Selektion angezeigt wird. Dies ist z. B. dann hilfreich, wenn Ihre Firma gerade ein neues Produkt eingeführt hat und Sie alle Vertriebssachbearbeiter daran erinnern möchten, ihre Kunden zu einer Präsentation einzuladen.
+Sie können eine Folgeaufgabe erstellen, die beispielsweise in der Aktivitätenliste aller Mitglieder einer Selektion angezeigt wird. Dies ist nützlich, wenn Sie beispielsweise ein neues Produkt einführen und Vertriebsmitarbeiter daran erinnern möchten, Kunden zu einer Präsentation einzuladen.
 
-1. Gehen Sie wie unter [Aufgaben in der Ansicht Selektion ausführen][1] beschrieben vor, und wählen Sie die Registerkarte **Firma/Person** aus.
+## Schritte
 
-2. Klicken Sie auf die Schaltfläche **Aufgabe**.
+1. Wechseln Sie zur gewünschten Selektion und wählen Sie die Registerkarte **Firma/Person** aus.
 
-3. Wählen Sie die Aufgabe **Folgeaufgaben erstellen** aus.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Folgeaufgaben erstellen**.
 
-4. Wählen Sie im **Folgeaufgaben erstellen** einen vordefinierten Folgeaufgabentyp aus dem Feld **Typ** aus.
+1. Im Dialogfeld **Folgeaufgaben erstellen**:
 
-5. Geben Sie im Feld **Start** das Datum ein, an dem die Folgeaufgabe beginnen soll.
+    * Wählen Sie einen vordefinierten Folgeaufgabentyp aus dem Feld **Typ**.
+    * Geben Sie das Startdatum im Feld **Start** ein.
+    * Geben Sie eine Bezeichnung für die Folgeaufgabe im Feld **Titel** ein.
+    * (Optional) Fügen Sie zusätzliche Details im Feld **Agenda** hinzu.
 
-6. Geben Sie eine Beschreibung der Folgeaufgabe in das Feld **Beschreibung** ein.
+1. (Optional) Wählen Sie im Feld **Projekt** ein Projekt aus, mit dem die Folgeaufgabe verknüpft werden soll.
 
-7. Wählen Sie im Feld **Projekt** das Projekt aus, das mit der Folgeaufgabe verknüpft werden soll. Führen Sie einen der folgenden Schritte aus:
+1. Wählen Sie im Feld **Priorität** die gewünschte Prioritätsstufe für die Folgeaufgabe.
 
-    * Klicken Sie auf den Pfeil und wählen Sie von der Liste ein Projekt aus.
-    * Geben Sie den gesamten oder den Anfang des Projektnamens ein.
+1. (Optional) Aktivieren Sie **Abgeschlossen**, wenn die Folgeaufgabe als abgeschlossen markiert werden soll.
 
-8. Geben Sie im Feld **Priorität** an, welche Priorität für die Folgeaufgabe gelten soll. Klicken Sie auf den Pfeil, um eine Standard-Auswahlliste mit den Optionen für hohe, mittlere und niedrige Priorität aufzurufen.
+1. Aktivieren Sie **Nur eine Folgeaufgabe für jede Firma erzeugen**, um nur eine Aufgabe pro Firma zu erstellen, anstatt eine pro Kontaktperson. Der erste hinzugefügte Firmenkontakt wird eingeladen.
 
-9. Markieren Sie **Abgeschlossen**, wenn die Folgeaufgabe als abgeschlossen gekennzeichnet werden soll.
+1. Unter **Eigentümer dieser Folgeaufgaben auswählen** wählen Sie aus, wer die Folgeaufgaben erhalten soll:
 
-    Diese wird anschließend nicht mehr bei der Schnellsuche und bei Zählern berücksichtigt, wird jedoch weiterhin in der Verlaufsliste angezeigt.
+    * **Meine Aktivitätenliste**: Fügt alle Folgeaufgaben zu Ihrer eigenen Aktivitätenliste hinzu.
 
-10. Wählen Sie **Nur eine Folgeaufgabe für jede Firma erzeugen**, wenn Sie nicht möchten, dass für jede Person bei jeder Firma der Selektion eine Folgeaufgabe erstellt wird.
+    * **Aktivitätenliste des Firmenbesitzers (Verantwortlich)**: Weist die Folgeaufgaben den zuständigen Firmenkontakten zu (erfordert Rechte in Einstellungen und Verwaltung).
 
-    Für jede Firma wird nur eine Folgeaufgabe erstellt, die an den ersten Mitarbeiter der Firma gerichtet ist, der der Selektion hinzugefügt wurde.
+    * **Anderer Mitarbeiter**: Weist die Folgeaufgaben einem anderen Mitarbeiter aus der Liste zu. Die verfügbaren Personen hängen von Ihrer **Benutzerebene** ab.
 
-11. Wählen Sie den Eigentümer dieser Folgeaufgaben aus:
+1. Klicken Sie auf **Speichern**, um die Folgeaufgaben zu generieren.
 
-    * **Meine Aktivitätenliste**: Alle Folgeaufgaben werden in Ihrer eigenen Aktivitätenliste gespeichert.
+![Selektionsaufgabe: Folgeaufgaben erstellen -screenshot][img1]
 
-    * **Aktivitätenliste des Firmenbesitzers (Verantwortlich)**: Die Folgeaufgaben werden auf die in den Aktivitätenlisten der als *verantwortlich* angegebenen Personen für jede Firma verteilt.
-        Dem Benutzer müssen in Einstellungen und Verwaltung die hierfür erforderlichen Rechte zugeordnet sein.
+<!-- Referenzierte Links -->
 
-    * **Anderer Mitarbeiter**: Wählen Sie aus der Liste der aktuellen Personen die gewünschte Person aus.
-        Die verfügbaren Personen hängen von Ihrer **Benutzerebene** ab.
-
-12. Klicken Sie auf die Schaltfläche **Speichern**.
-
-<!-- Referenced links -->
-[1]: index.md
-
-<!-- Referenced images -->
+<!-- Referenzierte Bilder -->
+[img1]: ../../../../../media/loc/en/search-options/generate-follow-ups-from-selection.png
