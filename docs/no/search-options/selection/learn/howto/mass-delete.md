@@ -1,11 +1,14 @@
 ---
 uid: help-no-mass-delete
 title: Masseslette poster (permanent)
-description: "I tråd med GDPR-kravene må du ha hjemmel for å lagre dataene til alle personene dine. Og når du ikke lenger har hjemmel for å gjøre det, må du fjerne dataene deres fra alle systemene dine."
-author: Bergfrid Dias
-date: 02.15.2023
+description: I tråd med GDPR-kravene må du ha hjemmel for å lagre dataene til alle personene dine. Og når du ikke lenger har hjemmel for å gjøre det, må du fjerne dataene deres fra alle systemene dine.
 keywords: utvalg, GDPR
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -57,56 +60,40 @@ SAINT står for "SAles INTelligence" og fungerer ved å legge til noen smarte al
 
 Sagt på en enkel måte overvåker SuperOffice SAINT dataene du har lagret i CRM-løsningen, og varsler deg om ulike statuser eller handlingssaker du har definert som viktige. Dette kan være alt fra handlinger som ennå ikke har skjedd på et gitt tidspunkt, til verdier som er oppfylt eller ikke oppfylt, og som du ønsker å bli varslet om, slik at du kan utføre nødvendige handlinger.
 
-SAINT kan også brukes til å overvåke kontaktinformasjon.
+SAINT kan også brukes til å overvåke kontaktinformasjon. Dette betyr at du for eksempel kan bruke SAINT til å identifisere personer du ikke har hatt kontakt med i det hele tatt i en gitt periode. Da får du en liste over personer som du kanskje vil fjerne fra CRM-databasen eller behandle på en bestemt måte, basert på firmaets GDPR-policyer.
 
-Dette betyr at du for eksempel kan bruke SAINT til å identifisere personer du ikke har hatt kontakt med i det hele tatt i en gitt periode. Da får du en liste over personer som du kanskje vil fjerne fra CRM-databasen eller behandle på en bestemt måte, basert på firmaets GDPR-policyer.
-
-Her er mer informasjon om [hvordan du konfigurere et SAINT-utvalg][3].
+SAINT-kriteriene finnes under **Tellere (SAINT)** i [kriterielisten][9] på **Finn**-skjermen.
 
 Hvis SAINT er helt nytt for deg, kan det være nyttig å bruke en SuperOffice CRM-ekspert til å hjelpe deg med å komme i gang. Din lokale SuperOffice-kontakt kan hjelpe deg med dette.
 
-## Masseredigering eller sletting av personer
+## Masseredigering av personer
 
-Når du har opprettet en liste over alle personer som enten må oppdateres eller slettes, er det på tide å faktisk utføre de ønskede endringene.
+Når du har [opprettet et utvalg][8] med personer som må oppdateres, kan du raskt endre opplysningene deres i bulk.
 
-For å utføre en masseredigering av for eksempel hjemmel eller lignende, velg [masseredigering][5] fra utvalgets **Oppgave**fane.
+1. Åpne ønsket utvalg og gå til fanen **Firma/person**.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Masseredigering**.
+1. Velg feltet du vil oppdatere (for eksempel hjemmel eller kategori).
+1. Utfør endringene og bekreft.
 
-Hvis du vil masseslette personer fra et utvalg, kan du velge funksjonen **Slett alle personer** fra **Oppgave**-knappen nederst til høyre på hovedskjermbildet.
+> [!TIP]
+> [Masseredigering][5] hjelper deg med å holde databasen konsekvent og i samsvar med bedriftens retningslinjer.
 
-![Fra Oppgave-knappen på utvalgskjermen kan du masseslette firmaer og personer -screenshot][img2]
+## Massesletting av personer og firmaer
 
-1. Gå til et utvalg. For eksempel [bruk Finn-skjermbildet][1].
+For å overholde GDPR må du slette personopplysninger når du ikke lenger har et gyldig rettslig grunnlag for å lagre dem.
 
-1. Hvis du bare vil slette noen av medlemmene i utvalget, merker du dem av i medlemslisten.
+> [!CAUTION]
+> Bare administratorer kan utføre denne handlingen. **Slettede poster kan ikke gjenopprettes.**
 
-1. Klikk på **Oppgave**-knappen og velg **Slett alle**.
+### Trinn
 
-    ![På utvalget klikker du på Oppgave-knappen og velger en av de ønskede Slett-funksjonene -screenshot][img1]
-
-1. Når du blir spurt om du vil slette postene, klikker du på **Ja**.
-
-1. Når du blir spurt om du virkelig vil slette postene fra databasen, klikker du på **Ja**.
-
-[!include[Note about restore](../../../../learn/includes/note-restore.md)]
-
-## Hva om du sletter personer med et uhell?
-
-Det kan noen ganger være vanskelig å slette personer. Hvis en person eller et firma slettes ved en feiltakelse, kan du angre det ved hjelp av [Papirkurv][4].
-
-Selv om en slettet person eller firma umiddelbart skjules for alle brukere, er de fortsatt tilgjengelige i papirkurven i opptil 14 dager, herfra kan du gjenopprette et firma eller en person som ble slettet ved en feiltakelse.
-
-Du finner papirkurven i menyen Personlige preferanser. Du kan se alle personene du har slettet, men også alle personene som ble slettet av andre brukere.
-
-![Du kan gjenopprette elementer du har slettet ved å åpne papirkurven i menyen Personlige innstillinger -screenshot][img3]
+1. Åpne ønsket utvalg og gå til fanen **Firma/person**.
+1. Hvis du kun vil slette spesifikke personer, markerer du dem i fanen Firma/person.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Slett alle personer** eller **Slett alle firmaer og personer**.
+1. Bekreft slettingen når du blir bedt om det.
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-screen.md
+[9]: ../../../learn/search-criteria.md
+[8]: ../../../selection/learn/create.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../create.md
-[4]: ../../../../learn/basics/deleting-elements.md#restore
-[5]: bulk-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img3]: ../../../../../media/loc/en/learn/recycle-bin-personal-settings.png
+[5]: ../../../../learn/basics/bulk-update.md

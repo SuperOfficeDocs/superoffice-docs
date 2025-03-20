@@ -2,10 +2,13 @@
 uid: help-nl-mass-delete
 title: Massaverwijdering records (permanent)
 description: In overeenstemming met de AVG-vereisten moet u een wettelijke basis hebben voor het opslaan van de gegevens van al uw contacten. En wanneer u niet langer een wettelijke basis hebt hiervoor, moet u hun gegevens uit al uw systemen verwijderen.
-author: Bergfrid Dias
-date: 02.15.2023
 keywords: selectie, GDPR
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -57,56 +60,40 @@ SAINT staat voor "SAles INTelligence" en werkt door enkele slimme algoritmes toe
 
 Simpel gezegd, SuperOffice SAINT bewaakt de gegevens die u hebt opgeslagen in uw CRM-systeem en waarschuwt u voor verschillende statussen of actieverzoeken die u als belangrijk hebt gedefinieerd. Dit kan van alles zijn, van acties die in een bepaalde tijd nog niet zijn gebeurd, tot waarden waaraan wel of niet wordt voldaan en waarover u gewaarschuwd wilt worden, zodat u de nodige actie kunt ondernemen.
 
-SAINT kan ook worden gebruikt om contactgegevens te bewaken.
+SAINT kan ook worden gebruikt om contactgegevens te bewaken. Dit betekent dat u SAINT bijvoorbeeld kunt gebruiken om personen te identificeren waar u in een bepaalde periode helemaal geen contact mee hebt gehad. Dit geeft u een lijst met personen die u mogelijk uit uw CRM-database wilt verwijderen of op een bepaalde manier wilt behandelen, op basis van het AVG-beleid van uw bedrijf.
 
-Dit betekent dat u SAINT bijvoorbeeld kunt gebruiken om personen te identificeren waar u in een bepaalde periode helemaal geen contact mee hebt gehad. Dit geeft u een lijst met personen die u mogelijk uit uw CRM-database wilt verwijderen of op een bepaalde manier wilt behandelen, op basis van het AVG-beleid van uw bedrijf.
-
-Hier vindt u meer informatie over [het instellen van een SAINT-selectie][3].
+De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][9] op het scherm **Zoeken**.
 
 Als u helemaal nieuw bent bij SAINT, kan het nuttig zijn om een SuperOffice CRM-expert te raadplegen om u op weg te helpen. Uw lokale SuperOffice contactpersoon kan u hierbij helpen.
 
-## Personen groepsgewijs bijwerken of verwijderen
+## Personen groepsgewijs bijwerken
 
-Nadat u een lijst hebt gemaakt met alle personen die bijgewerkt of verwijderd moeten worden, kunt u de gewenste wijzigingen daadwerkelijk uitvoeren.
+Nadat u een [selectie hebt gemaakt][8] met personen die moeten worden bijgewerkt, kunt u hun gegevens snel in bulk aanpassen.
 
-Als u groepsgewijs wilt bijwerken, bijvoorbeeld rechtsgrondslag of iets dergelijks, selecteert u [bulksgewijs bijwerken][5] op het tabblad **Taak** van uw selectie.
+1. Open de gewenste selectie en ga naar het tabblad **Bedrijf/persoon**.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Bulksgewijs bijwerken**.
+1. Selecteer het veld dat u wilt bijwerken (bijvoorbeeld rechtsgrondslag of categorie).
+1. Pas de wijzigingen toe en bevestig.
 
-Als u personen groepsgewijs uit een selectie wilt verwijderen, kunt u de functie **Alle contactpersonen verwijderen** kiezen op de knop **Taak** in de rechterbenedenhoek van het hoofdscherm.
+> [!TIP]
+> [Bulksgewijs bijwerken][5] helpt uw database consistent en in lijn met het bedrijfsbeleid te houden.
 
-![Via de knop Taak op het selectiescherm kunt u bedrijven en contacten groepsgewijs verwijderen -screenshot][img2]
+## Personen en bedrijven groepsgewijs verwijderen
 
-1. Ga naar een selectie. Bijvoorbeeld [Het scherm Zoeken gebruiken][1].
+Om te voldoen aan de AVG-wetgeving moet u persoonsgegevens verwijderen zodra u geen rechtsgrond meer hebt om deze op te slaan.
 
-1. Om slechts enkele van de selectieleden te verwijderen, selecteert u deze in de lijst met leden.
+> [!CAUTION]
+> Alleen beheerders kunnen deze actie uitvoeren. **Verwijderde records kunnen niet worden hersteld.**
 
-1. Klik op de knop **Taak** en selecteer **Alles verwijderen**.
+### Stappen
 
-    ![Klik in de selectie op de knop Taak en selecteer een van de gewenste verwijderfuncties -screenshot][img1]
-
-1. Als u wordt gevraagd of u de records wilt verwijderen, klikt u op **Ja**.
-
-1. Als u wordt gevraagd of u de records daadwerkelijk wilt verwijderen uit de database, klikt u op **Ja**.
-
-[!include[Note about restore](../../../../learn/includes/note-restore.md)]
-
-## Wat als u per ongeluk personen verwijdert?
-
-Het verwijderen van personen kan soms lastig zijn. Als een persoon of een bedrijf per ongeluk wordt verwijderd, kunt u dit ongedaan maken via de [Prullenbak][4].
-
-Hoewel een verwijderde persoon of bedrijf onmiddellijk niet meer zichtbaar is voor alle gebruikers, zijn ze nog steeds maximaal 14 dagen beschikbaar in de prullenbak. Hieruit kunt u een bedrijf of persoon herstellen wanneer die per ongeluk is verwijderd.
-
-De Prullenbak bevindt zich in uw menu Persoonlijke voorkeuren. U kunt alle personen zien die u hebt verwijderd, maar ook alle personen die door andere gebruikers zijn verwijderd.
-
-![U kunt items die u hebt verwijderd herstellen door de Prullenbak in het menu Persoonlijke instellingen te openen -screenshot][img3]
+1. Open de gewenste selectie en ga naar het tabblad **Bedrijf/persoon**.
+1. Om alleen bepaalde personen te verwijderen, selecteert u deze in het tabblad Bedrijf/persoon.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Alle personen verwijderen** of **Alle bedrijven en personen verwijderen**.
+1. Bevestig de verwijdering wanneer daarom wordt gevraagd.
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-screen.md
+[9]: ../../../learn/search-criteria.md
+[8]: ../../../selection/learn/create.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../create.md
-[4]: ../../../../learn/basics/deleting-elements.md#restore
-[5]: bulk-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img3]: ../../../../../media/loc/en/search-options/recycle-bin-personal-settings.png
+[5]: ../../../../learn/basics/bulk-update.md

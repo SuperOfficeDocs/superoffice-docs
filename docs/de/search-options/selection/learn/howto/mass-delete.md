@@ -1,11 +1,14 @@
 ---
 uid: help-de-mass-delete
 title: Massenlöschung von Datensätzen (unwiederbringlich)
-description: "Gemäß den Anforderungen der DSGVO müssen Sie eine Rechtsgrundlage für die Speicherung der Daten aller Ihrer Personen haben. Und wenn Sie keine Rechtsgrundlage mehr dafür haben, müssen Sie ihre Daten aus allen Ihren Systemen entfernen."
-author: Bergfrid Dias
-date: 02.15.2023
+description: Gemäß den Anforderungen der DSGVO müssen Sie eine Rechtsgrundlage für die Speicherung der Daten aller Ihrer Personen haben. Und wenn Sie keine Rechtsgrundlage mehr dafür haben, müssen Sie ihre Daten aus allen Ihren Systemen entfernen.
 keywords: Selektion, DSGVO
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -57,56 +60,40 @@ SAINT steht für "SAles INTelligence" und funktioniert, indem es Ihren CRM-Daten
 
 Einfach ausgedrückt überwacht SuperOffice SAINT die Daten, die Sie in Ihrer CRM-Lösung gespeichert haben, und benachrichtigt Sie über verschiedene Status oder Aktionsanfragen, die Sie als wichtig definiert haben. Dies kann alles sein, was mit Aktionen verbunden ist, die in einem bestimmten Zeitraum noch nicht stattgefunden haben. Dazu gehören auch Werte, die erfüllt oder nicht erfüllt werden und über die Sie benachrichtigt werden möchten, damit Sie entsprechend handeln können.
 
-SAINT kann auch zur Überwachung von Personeninformationen verwendet werden.
+SAINT kann auch zur Überwachung von Personeninformationen verwendet werden. Das bedeutet, dass Sie zum Beispiel mit SAINT Personen identifizieren können, mit denen Sie über einen bestimmten Zeitraum überhaupt keinen Kontakt hatten. Auf diese Weise erhalten Sie eine Liste von Personen, die Sie möglicherweise gemäß den DSGVO-Richtlinien Ihrer Firma aus Ihrer CRM-Datenbank entfernen oder auf eine bestimmte Weise behandeln möchten.
 
-Das bedeutet, dass Sie zum Beispiel mit SAINT Personen identifizieren können, mit denen Sie über einen bestimmten Zeitraum überhaupt keinen Kontakt hatten. Auf diese Weise erhalten Sie eine Liste von Personen, die Sie möglicherweise gemäß den DSGVO-Richtlinien Ihrer Firma aus Ihrer CRM-Datenbank entfernen oder auf eine bestimmte Weise behandeln möchten.
-
-Hier finden Sie weitere Informationen darüber, [wie man eine SAINT-Selektion einrichtet][3].
+Die SAINT-Kriterien finden Sie unter **Zähler (SAINT)** in der [Kriterienliste][9] in der Ansicht **Suchen**.
 
 Wenn Sie ganz neu bei SAINT sind, kann es hilfreich sein, sich von einem SuperOffice CRM-Experten beim Einstieg helfen zu lassen. Ihr lokaler SuperOffice-Ansprechpartner kann Ihnen dabei behilflich sein.
 
-## Massenabgleich oder -löschung von Personen
+## Massenaktualisierung von Personen
 
-Nachdem Sie eine Liste aller zu aktualisierenden oder zu löschenden Personen erstellt haben, ist es an der Zeit, die gewünschten Änderungen tatsächlich vorzunehmen.
+Nachdem Sie eine [Selektion erstellt haben][8] mit Personen, deren Daten aktualisiert werden müssen, können Sie deren Details schnell in einem Schritt bearbeiten.
 
-Um einen Massenabgleich bezüglich der Rechtsgrundlage usw. durchzuführen, müssen Sie [Massenabgleich][5] auf der Registerkarte **Aufgabe** in Ihrer Selektion auswählen.
+1. Öffnen Sie die gewünschte Selektion und wechseln Sie zur Registerkarte **Firma/Person**.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Massenabgleich**.
+1. Wählen Sie das Feld aus, das Sie aktualisieren möchten (zum Beispiel Rechtsgrundlage oder Kategorie).
+1. Nehmen Sie die Änderungen vor und bestätigen Sie.
 
-Um eine Massenlöschung von Personen aus einer Selektion durchzuführen, können Sie die Funktion **Alle Kontakte löschen** über die Schaltfläche **Aufgabe** in der unteren rechten Ecke der Hauptansicht auswählen.
+> [!TIP]
+> [Massenaktualisierung][5] hilft dabei, Ihre Datenbank konsistent und konform mit den Unternehmensrichtlinien zu halten.
 
-![Über die Schaltfläche Aufgabe auf der Ansicht Selektion können Sie eine Massenlöschung von Firmen und Personen durchführen -screenshot][img2]
+## Massenlöschung von Personen und Firmen
 
-1. Wechseln Sie zu einer Selektion. Zum Beispiel[Suchansicht verwenden][1].
+Um die DSGVO einzuhalten, müssen personenbezogene Daten gelöscht werden, sobald es keine rechtliche Grundlage mehr für deren Speicherung gibt.
 
-1. Wählen Sie die Selektionsmitglieder in der Mitgliederliste aus, wenn Sie nur einige von ihnen löschen möchten.
+> [!CAUTION]
+> Nur Administratoren können diese Aktion ausführen. **Gelöschte Datensätze können nicht wiederhergestellt werden.**
 
-1. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Alle löschen**.
+### Schritte
 
-    ![Klicken Sie bei der Selektion auf die Schaltfläche Aufgabe und wählen Sie eine der gewünschten Löschfunktionen aus -screenshot][img1]
-
-1. Wenn Sie gefragt werden, ob Sie die Datensätze löschen möchten, bestätigen Sie dies mit **Ja**.
-
-1. Wenn Sie gefragt werden, ob Sie die Datensätze wirklich aus der Datenbank löschen möchten, bestätigen Sie dies mit **Ja**.
-
-[!include[Note about restore](../../../../learn/includes/note-restore.md)]
-
-## Was ist, wenn Sie versehentlich Personen löschen?
-
-Das Löschen von Personen kann manchmal schwierig sein. Wenn eine Person oder eine Firma versehentlich gelöscht wird, können Sie dies mithilfe des [Papierkorbs][4] rückgängig machen.
-
-Auch wenn eine gelöschte Person oder eine gelöschte Firma sofort für alle Benutzer verborgen wird, sind sie dennoch bis zu 14 Tage im Papierkorb verfügbar, von wo aus Sie eine Firma oder eine Person wiederherstellen können, die versehentlich gelöscht wurde.
-
-Der Papierkorb befindet sich in Ihrem Menü persönlichen Menü Einstellungen. Sie können alle gelöschten Personen, aber auch alle Personen sehen, die von anderen Benutzern gelöscht wurden.
-
-![Sie können Objekte wiederherstellen, indem Sie den Papierkorb im Menü Persönliche Einstellungen öffnen -screenshot][img3]
+1. Öffnen Sie die gewünschte Selektion und wechseln Sie zur Registerkarte **Firma/Person**.
+1. Wenn Sie nur bestimmte Personen löschen möchten, markieren Sie diese in der Registerkarte Firma/Person.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Alle Personen löschen** oder **Alle Firmen und Personen löschen**.
+1. Bestätigen Sie die Löschung, wenn Sie dazu aufgefordert werden.
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-screen.md
+[9]: ../../../learn/search-criteria.md
+[8]: ../../../selection/learn/create.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../create.md
-[4]: ../../../../learn/basics/deleting-elements.md#restore
-[5]: bulk-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img3]: ../../../../../media/loc/en/search-options/recycle-bin-personal-settings.png
+[5]: ../../../../learn/basics/bulk-update.md

@@ -1,11 +1,14 @@
 ---
 uid: help-sv-mass-delete
 title: Ta bort flera poster (permanent)
-description: "I enlighet med GDPR-kraven måste du ha en rättslig grund för att lagra uppgifter för alla dina kontakter. Och när du inte längre har en rättslig grund för att göra detta, måste du ta bort deras uppgifter från alla dina system."
-author: Bergfrid Dias
-date: 02.15.2023
+description: I enlighet med GDPR-kraven måste du ha en rättslig grund för att lagra uppgifter för alla dina kontakter. Och när du inte längre har en rättslig grund för att göra detta, måste du ta bort deras uppgifter från alla dina system.
 keywords: selection, GDPR
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -57,56 +60,40 @@ SAINT står för "SAles INTelligence" och fungerar genom att bidra med några sm
 
 Enkelt uttryckt övervakar SuperOffice SAINT de data du har lagrat i din CRM-lösning och varnar dig om olika statusar eller åtgärdsärenden som du har definierat som viktiga. Det kan vara allt från åtgärder som ännu inte har hänt under en viss tid, till värden som uppfylls eller inte uppfylls, och som du vill bli varnad om, så att du kan vidta de åtgärder som krävs.
 
-SAINT kan också användas för att övervaka kontaktinformation.
+SAINT kan också användas för att övervaka kontaktinformation. Det innebär att du till exempel kan använda SAINT för att identifiera kontakter som du inte har haft kontakt med alls under en viss period. Detta skulle ge dig en lista över kontakter som du kanske vill ta bort från din CRM-databas eller behandla på ett visst sätt, baserat på ditt företags GDPR-policy.
 
-Det innebär att du till exempel kan använda SAINT för att identifiera kontakter som du inte har haft kontakt med alls under en viss period. Detta skulle ge dig en lista över kontakter som du kanske vill ta bort från din CRM-databas eller behandla på ett visst sätt, baserat på ditt företags GDPR-policy.
-
-Här finns mer information om [hur du konfigurerar ett SAINT-urval][3].
+SAINT-kriterierna finns under **Räknare (SAINT)** i [kriterielistan][9] i fönstret **Sök**.
 
 Om SAINT är helt nytt för dig, kan det vara bra att ta hjälp av en SuperOffice CRM-expert för att komma igång. Din lokala SuperOffice-kontakt kan hjälpa dig med detta.
 
-## Massuppdatering eller -radering av kontakter
+## Massuppdatering av kontakter
 
-När du har skapat en lista över alla kontakter som behöver uppdateras eller tas bort, är det dags att faktiskt utföra de ändringar du vill ha.
+När du har [skapat ett urval][8] med kontakter som behöver uppdateras kan du snabbt ändra deras uppgifter i bulk.
 
-För massuppdatering, exempelvis av rättslig grund eller liknande, välj [massuppdatering][5] från ditt urvals flik för **Uppgift**.
+1. Öppna det önskade urvalet och gå till fliken **Företag/kontakt**.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Massuppdatering**.
+1. Välj vilket fält du vill uppdatera (till exempel rättslig grund eller kategori).
+1. Utför ändringarna och bekräfta.
 
-För att massradera kontakter från ett urval kan du välja funktionen **Radera alla kontakter** från knappen **Uppgift** längst ned till höger på huvudskärmen.
+> [!TIP]
+> [Massuppdatering][5] hjälper dig att hålla databasen konsekvent och i linje med företagets riktlinjer.
 
-![Från knappen Uppgift på urvalsskärmen kan du massradera företag och kontakter -screenshot][img2]
+## Massradering av kontakter och företag
 
-1. Gå till ett urval. Till exempel, [använd fönstret Sök][1].
+För att följa GDPR måste du radera personuppgifter när du inte längre har en rättslig grund för att lagra dem.
 
-1. För att endast ta bort några av urvalsmedlemmarna markerar du dem i listan över medlemmar.
+> [!CAUTION]
+> Endast administratörer kan utföra denna åtgärd. **Raderade poster kan inte återställas.**
 
-1. Klicka på **Uppgift**-knappen och välj **Ta bort alla**.
+### Steg
 
-    ![Klicka på knappen Uppgift på markeringen och välj en av de önskade raderingsfunktionerna -screenshot][img1]
-
-1. Klicka på **Ja** när du tillfrågas om du vill ta bort posterna.
-
-1. Nu visas en fråga om du verkligen vill ta bort posterna från databasen. Klicka då på **Ja**.
-
-[!include[Note about restore](../../../../learn/includes/note-restore.md)]
-
-## Vad händer om du tar bort kontakter av misstag?
-
-Det kan ibland vara svårt att ta bort kontakter. Om en kontakt eller ett företag tas bort av misstag, kan du ångra det med hjälp av [papperskorgen][4].
-
-Även om en borttagen kontakt eller ett företag omedelbart döljs för alla användare är de fortfarande tillgängliga i upp till 14 dagar i papperskorgen, varifrån du kan återställa ett företag eller en kontakt som togs bort av misstag.
-
-Papperskorgen finns i menyn Personliga inställningar. Du kan se alla kontakter som du har tagit bort, men också alla kontakter som har tagits bort av andra användare.
-
-![Du kan återställa poster som har tagits bort genom att öppna papperskorgen i menyn Personliga inställningar -screenshot][img3]
+1. Öppna det önskade urvalet och gå till fliken **Företag/kontakt**.
+1. Om du bara vill radera vissa kontakter markerar du dem i fliken Företag/kontakt.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Ta bort alla kontakter** eller **Ta bort alla företag och kontakter**.
+1. Bekräfta raderingen när du uppmanas till det.
 
 <!-- Referenced links -->
-[1]: ../../../learn/find-screen.md
+[9]: ../../../learn/search-criteria.md
+[8]: ../../../selection/learn/create.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../create.md
-[4]: ../../../../learn/basics/deleting-elements.md#restore
-[5]: bulk-update.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img2]: ../../../../../media/loc/en/search-options/company-selection-task-delete.png
-[img3]: ../../../../../media/loc/en/search-options/recycle-bin-personal-settings.png
+[5]: ../../../../learn/basics/bulk-update.md
