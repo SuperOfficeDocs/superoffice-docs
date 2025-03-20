@@ -2,32 +2,36 @@
 uid: help-de-selection-send-email
 title: Eine E-Mail an mehrere Empfänger gleichzeitig senden
 description: Eine E-Mail an mehrere Empfänger gleichzeitig senden
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion, E-Mail
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # E-Mail an mehrere Empfänger senden
 
-Angenommen, Sie haben Personen zu einer Besprechung eingeladen und müssen ihnen ein Programm senden. In diesem Fall ist es hilfreich, wenn eine E-Mail gleichzeitig an mehrere Empfänger gesendet werden kann.
+Angenommen, Sie laden Personen zu einer Besprechung ein und müssen ihnen eine Tagesordnung senden. Sie können eine einzelne E-Mail gleichzeitig an mehrere Empfänger senden.
 
-1. Um die Aufgabe nur für einige der Personen in der Selektion auszuführen, wählen Sie sie auf der Registerkarte **Firma/Person** aus. Die Option **Aufgabe nur für ausgew. Mitglieder** ist damit automatisch aktiviert.
+> [!TIP]
+> Um die E-Mail nur an bestimmte Personen in der Selektion zu senden, wählen Sie diese in der Registerkarte **Firma/Person** aus, bevor Sie fortfahren. Die Option **Aufgabe nur für ausgewählte Mitglieder** wird automatisch aktiviert.
 
-2. Klicken Sie auf die Schaltfläche **Aufgabe**.
+## Schritte
 
-3. Wählen Sie die Aufgabe **E-Mail senden** aus.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **E-Mail senden**.
 
-4. Geben Sie im Dialogfeld **E-Mail senden** an, wo die Empfänger platziert werden sollen.
+1. Geben Sie im Dialogfeld **E-Mail senden** an, wo die Empfänger platziert werden sollen.
 
-    * **An**: Feld für die Hauptadressaten (alle Personen, von denen Sie eine Antwort auf die Mitteilung erwarten).
-    * **Cc**: Feld für Personen, die Sie über den Inhalt der E-Mail informieren möchten und die daher eine Kopie davon erhalten sollen.
-    * **Bcc**: Feld für andere Empfänger, denen Sie eine Kopie zukommen lassen möchten. Die in diesem Feld aufgeführten Empfänger werden den anderen Empfängern weder angezeigt, noch können diese selbst sehen, wer die Mitteilung sonst noch erhalten hat.
+    * **An**: Hauptempfänger (Personen, von denen Sie eine Antwort erwarten).
+    * **Cc**: Personen, die eine Kopie zur Information erhalten.
+    * **Bcc**: Personen, die eine Kopie erhalten, ohne für andere sichtbar zu sein.
 
     > [!NOTE]
-    > Die Empfänger sind alle Personen mit gültigen E-Mail-Adressen, die zudem nicht mit **Mailsperre** gekennzeichnet sind.
+    > Nur Personen mit gültigen E-Mail-Adressen, die nicht als **Mailsperre** gekennzeichnet sind, werden einbezogen.
 
-5. Klicken Sie im Dialogfeld **E-Mail senden** auf die Schaltfläche **OK**.
+1. Klicken Sie auf **OK**, um zu bestätigen.
 
-6. Eine an die ausgewählten Empfänger adressierte E-Mail-Mitteilung wird in Ihrem Standard-E-Mail-Programm geöffnet. Geben Sie hier den Inhalt Ihrer Nachricht ein, und schicken Sie die Nachricht anschließend wie gewohnt ab.
+1. Eine E-Mail mit den ausgewählten Empfängern wird in Ihrem Standard-E-Mail-Programm geöffnet. Geben Sie Ihre Nachricht ein und senden Sie sie wie gewohnt.

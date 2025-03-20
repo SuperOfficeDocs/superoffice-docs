@@ -2,32 +2,36 @@
 uid: help-no-selection-send-email
 title: Sende e-post til flere mottakere samtidig
 description: Sende e-post til flere mottakere samtidig
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg, e-post
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Send e-post til flere mottakere
 
-Tenk deg at du har invitert folk til et møte og trenger å sende en agenda til dem. Da ville være nyttig hvis du kunne sende en enkelt e-post til flere mottakere på en gang.
+Tenk deg at du inviterer folk til et møte og trenger å sende en agenda til dem. Du kan sende en enkelt e-post til flere mottakere samtidig.
 
-1. Hvis du bare vil utføre oppgaven på noen av personene i utvalget, velger du dem i **fanen Firma/person**. Da merkes det automatisk av for alternativet **Utfør oppgaven bare på valgte medlemmer**.
+> [!TIP]
+> Hvis du bare vil sende e-posten til bestemte personer i utvalget, velger du dem i fanen **Firma/person** før du fortsetter. Alternativet **Utfør oppgaven bare på valgte medlemmer** blir automatisk aktivert.
 
-2. Klikk på **Oppgave**-knappen.
+## Trinn
 
-3. Velg oppgaven **Send e-post**.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Send e-post**.
 
-4. I dialogboksen **Send e-post** angir du hvor mottakerne skal plasseres.
+1. I dialogboksen **Send e-post** angir du hvor mottakerne skal plasseres.
 
-    * **Til**: Felt for primærmottakere (de personene du forventer skal svare på meldingen).
-    * **Kopi til**: Felt for mottakere du ønsker skal få en kopi av meldingen, hovedsakelig til informasjon.
-    * **Blindkopi til**: Felt for andre personer du vil sende en kopi til. Disse mottakerne er ikke synlige for de andre mottakerne, og de kan ikke se hvilke andre personer som mottok meldingen.
+    * **Til**: Primærmottakere (de du forventer skal svare).
+    * **Kopi til**: Mottakere som får en kopi til informasjon.
+    * **Blindkopi til**: Mottakere som får en kopi uten at andre kan se det.
 
     > [!NOTE]
-    > Mottakerne her er alle personer med gyldige e-postadresser og som ikke er merket med **Ingen utsendelser**.
+    > Kun personer med gyldige e-postadresser som ikke er merket **Ingen utsendelser**, vil bli inkludert.
 
-5. Klikk på **OK** i dialogboksen **Send e-post**.
+1. Klikk på **OK** for å bekrefte.
 
-6. En e-postmelding adressert til de valgte mottakerne åpnes i ditt standard e-postprogram. Her skriver du meldingen din og sender den på vanlig måte.
+1. En e-post med de valgte mottakerne åpnes i ditt standard e-postprogram. Skriv meldingen din og send den som vanlig.
