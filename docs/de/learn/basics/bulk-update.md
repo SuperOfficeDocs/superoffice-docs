@@ -1,18 +1,25 @@
 ---
 uid: help-de-bulk-update
 title: Massenabgleich
-description: Massenabgleich
+description: Beim Massenabgleich können Sie Details für eine große Gruppe von Personen, Aktivitäten, Verkäufen, Projekten usw. ändern.
 keywords: Massenabgleich
-author: SuperOffice RnD
-date: 02.11.2025
-version: 10.5.2
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Mehrere Datensätze abgleichen (Massenabgleich)
 
-Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs ändern. Sie können den Massenabgleich für alle oder ausgewählte Datensätze in Bereichsregisterkarten (Archiven), Selektionen und in der Ansicht **Suchen** ausführen. Mit dieser Aufgabe können auch mehrere Datensätze gelöscht werden.
+Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs ändern. Sie können den Massenabgleich für alle oder ausgewählte Datensätze in Bereichsregisterkarten (Archiven), Selektionen und in der Ansicht **Suchen** ausführen. Sie können bestimmte Werte abgleichen oder löschen. Mit dieser Aufgabe können auch mehrere Datensätze gelöscht werden.
+
+> [!NOTE]
+> Sie benötigen bestimmte Rechte, um den Massenabgleich verwenden zu können. Diese Rechte werden in Einstellungen und Verwaltung zugeordnet.
+
+## Schritte
 
 1. Öffnen Sie die Selektion, Bereichsregisterkarte (Archiv) oder Suchergebnisse (Ansicht **Suchen**) mit den abzugleichenden Datensätzen.
 
@@ -90,3 +97,12 @@ Sie haben festgestellt, dass das Feld **Position** für Personen selten verwende
 ## Projekt abgleichen
 
 Sie möchten alle "alten" Projekte, die nicht als abgeschlossen gekennzeichnet sind, aufräumen. Erstellen Sie eine Selektion mit allen alten Projekten, beispielsweise allen Projekten, die vor mehr als 2 Jahren erstellt und im letzten Jahr nicht abgeglichen wurden. Stellen Sie mit **Massenabgleich** den Status **Abgeschlossen** bei diesen Projekten auf **Ja** ein.
+
+## Verwandter Info
+
+* [Wie fülle ich die Felder "Rechtsgrundlage", "Einwilligungsnachweis" und "Zweck" für viele Personen in SuperOffice CRM gleichzeitig aus?][3]
+* [Massenlöschung von Personen und Firmen aus der Selektion][1]
+
+<!-- Referenced links -->
+[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk

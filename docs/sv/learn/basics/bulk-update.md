@@ -1,11 +1,11 @@
 ---
 uid: help-sv-bulk-update
 title: Massredigering
-description: Massredigering
+description: Med massuppdatering kan du ändra information för en stor samling kontakter, aktiviteter, försäljningar, projekt med mera.
 keywords: massredigering
-author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,12 @@ language: sv
 
 # Uppdatera flera poster (massuppdatering)
 
-Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter av samma typ. Du kan utföra massredigeringen på alla eller utvalda poster på detaljkort (arkiv), urval och fönstret **Sök**. Den här uppgiften kan också användas för att ta bort flera poster.
+Med hjälp av uppgiften Massuppdatering kan du ändra värden i flera uppgifter av samma typ. Du kan utföra massredigeringen på alla eller utvalda poster på detaljkort (arkiv), urval och fönstret **Sök**. Du kan uppdatera vissa värden och rensa vissa värden. Den här uppgiften kan också användas för att ta bort flera poster.
+
+> [!NOTE]
+> Du behöver specifika behörigheter för att kunna använda massuppdatering. Dessa behörigheter tilldelas i Inställningar och underhåll.
+
+## Steg
 
 1. Öppna urvalet, detaljkortet (arkiv) eller sökresultaten (fönstret **Sök**) som innehåller uppgifterna du vill uppdatera.
 
@@ -89,3 +94,12 @@ Du har upptäckt att fältet **Ställning** för kontakter sällan används. Fö
 ## Uppdatera projekt
 
 Du vill röja upp bland alla "gamla" projekt som inte har angetts som slutförda. Skapa ett urval av alla dina gamla projekt, till exempel alla projekt som går mer än 2 år bakåt i tiden och som inte har uppdaterats det senaste året. Använd **Massredigering** för att ställa in status **Slutförd** för de här projekten till **Ja**.
+
+## Relaterad innhåll
+
+* [Hur fyller jag i fälten "Rättslig grund", "Samtyckeskälla" och "Syfte" för flera kontakter samtidigt i SuperOffice CRM?][3]
+* [Ta bort flera kontakter och företag samtidigt från ett urval][1]
+
+<!-- Referenced links -->
+[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk

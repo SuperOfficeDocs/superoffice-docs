@@ -3,9 +3,9 @@ uid: help-da-bulk-update
 title: Masseopdatering
 description: Opdater flere poster samtidigt i SuperOffice CRM.
 keywords: masseopdatering, masseredigering, bulk update
-author: SuperOffice RnD
-date: 03.07.2025
-version: 10.5.2
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,10 @@ language: da
 
 # Opdater flere poster (masseopdatering)
 
-Masseopdatering giver dig mulighed for at ændre værdier på tværs af flere poster af samme type. Du kan bruge masseopdatering på alle eller udvalgte poster i detaljekort, udvalg og skærmbilledet **Søg**. Denne funktion kan også bruges til at slette flere poster på én gang.
+Masseopdatering giver dig mulighed for at ændre værdier på tværs af flere poster af samme type. Du kan bruge masseopdatering på alle eller udvalgte poster i detaljekort, udvalg og skærmbilledet **Søg**. Du kan opdatere bestemte værdier og tømme bestemte værdier. Denne funktion kan også bruges til at slette flere poster på én gang.
+
+> [!NOTE]
+> Du skal have specifikke rettigheder for at kunne bruge Masseredigering. Disse rettigheder tildeles i Indstillinger og vedligeholdelse.
 
 ## Trin
 
@@ -91,3 +94,12 @@ Du har opdaget, at feltet **Stilling** for personer sjældent anvendes. For at k
 ## Opdatering af projekt
 
 Du vil rydde op i alle de "gamle" projekter, som ikke er angivet som fuldførte. Opret et udvalg af alle de gamle projekter, for eksempel alle projekter, der går mere end 2 år tilbage i tiden, og som ikke er blevet opdateret gennem det sidste år. Brug **Masseredigering** til at opdatere status **Fuldført** for disse projekter med indholdet **Ja**.
+
+## Relateret indhold
+
+* [Hvordan udfylder jeg felterne "Retsgrundlag", "Samtykkekilde" og "Formål" til mange personer i SuperOffice CRM på samme tid?][3]
+* [Masseslette personer og firmaer fra markeringen][1]
+
+<!-- Referenced links -->
+[1]: ../../search-options/selection/learn/howto/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk
