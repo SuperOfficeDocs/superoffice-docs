@@ -2,7 +2,7 @@
 uid: help-da-selection-combine
 title: Oprettelse af kombinationsudvalg
 description: I denne vejledning lærer du, hvordan du opretter et kombinationsudvalg.
-keywords: selection
+keywords: kombinere udvalg, kombinationsudvalg, udvalg, 
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -13,6 +13,11 @@ language: da
 ---
 
 # Oprettelse af kombinationsudvalg
+
+De to udvalg, der kombineres, kan være statiske eller dynamiske. Der er dog begrænsninger for, hvad der kan kombineres:
+
+* Hvis du vælger at oprette et kombinationsudvalg, som består af firmaer, bliver alle typer udvalg tilgængelige.
+* Hvis du derimod vælger at oprette et kombinationsudvalg, som består af salg, projekter, dokumenter, opfølgninger eller produkter, bliver kun den valgte type udvalg tilgængelige.
 
 ## Find dataene
 
@@ -51,6 +56,22 @@ Angiv egenskaber ved at følge vejledningen i trin 2 i [Opret et udvalg][1].
 1. Klik på **Gem**.
 
 Når udvalget er gemt, kan du [redigere det][3] for at ændre både kombinationstypen og hvilke udvalg, der skal kombineres. Det er dog ikke muligt at ændre feltet **Udvalg af**.
+
+## Eksempler på kombinationsudvalg
+
+### Firmaer og salg
+
+1. Opret et kombinationsudvalg for firmaer/personer på grundlag af to eksisterende udvalg: "Kunder i Sverige" (udvalg 1) og "Gennemførte salg sidste år" (udvalg 2).
+2. Vælg kombinationstypen **Kun i udvalg 1**. Resultatet vil indeholde kunder i Sverige, som der ikke blev solgt noget til sidste år.
+3. Gem resultatet som et statisk udvalg under navnet "Kunder i Sverige uden salg", og giv en af sælgerne ansvaret for at følge op på disse kunder.
+
+### Opfølgninger
+
+1. Opret et kombinationsudvalg for opfølgninger på grundlag af to eksisterende udvalg: "Opfølgninger knyttet til mine kunder" (udvalg 1) og "Planlagte opfølgninger i næste måned" (udvalg 2).
+2. Vælg kombinationstypen **Fælles**. Resultatet er en liste over opfølgninger, du skal gennemføre næste måned. Disse kan du for eksempel eksportere til en fil ved hjælp af opgaven **Eksporter til fil**.
+
+> [!NOTE]
+> Hvis du kun vil sammenligne de firmaer, der er knyttet til disse to udvalg, skal du markere **Sammenlign kun firmaer**.
 
 <!-- Referenced links -->
 [1]: create.md

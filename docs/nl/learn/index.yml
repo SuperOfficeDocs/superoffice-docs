@@ -158,7 +158,7 @@ conceptualContent:
       - text: Selectie maken
         itemType: list
         typeDesc: how-to-guide
-        url: ../search-options/selection/learn/create/index.md
+        url: ../search-options/selection/learn/create.md
 
     # Card
     - title: Bedrijf en Persoon

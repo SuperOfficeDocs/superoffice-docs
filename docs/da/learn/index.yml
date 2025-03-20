@@ -158,7 +158,7 @@ conceptualContent:
       - text: Nytt udvalg
         itemType: list
         typeDesc: how-to-guide
-        url: ../search-options/selection/learn/create/index.md
+        url: ../search-options/selection/learn/create.md
 
     # Card
     - title: Firma og kontakt

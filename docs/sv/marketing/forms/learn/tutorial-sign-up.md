@@ -162,7 +162,7 @@ Exemplen behandlar inte alla fält och alternativ, men du kan hitta omfattande i
 [1]: create.md
 [2]: ../../mailing/learn/create/tutorial-form-mailing.yml
 [6]: ../../recipients/learn/manage-email-subscriptions.md
-[7]: ../../../search-options/selection/learn/create/tutorial.yml
+[7]: ../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png

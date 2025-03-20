@@ -121,7 +121,7 @@ SAINT **values** are simple binary values (on or off) that determine the look an
 
 <!-- Referenced links -->
 [1]: status-dialog.md
-[2]: ../../search-options/selection/learn/dynamic-selections.md#saint
+[2]: ../../search-options/selection/learn/create.md
 [3]: ../../database/tables/countervalue.md
 [4]: ../../database/tables/statusvalue.md
 [5]: ../admin/index.md

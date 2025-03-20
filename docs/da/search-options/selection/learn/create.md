@@ -2,7 +2,7 @@
 uid: help-da-selection-create
 title: Opret udvalg
 description: Arbejd med dynamiske og statiske markeringer
-keywords: selection
+keywords: nyt udvalg, opret udvalg, kopier udvalg, gem som udvalg, udvalg
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -72,9 +72,11 @@ Der bliver så oprettet en kopi af udvalget med teksten (kopi) bag udvalgsnavnet
 
 * Klik på <i class="ph ph-star" aria-label="Star icon"></i> for eventuelt at føje udvalget til [dine favoritter][7].
 
-* Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskrifterne. Her kan du gruppere og filtrere poster og tilføje/fjerne kolonner. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**. Se også [Detaljekortene][4] for yderligere funktioner.
+* Klik på <i class="ph ph-gear" aria-label="Gear"></i> til højre for kolonneoverskrifterne. Her kan du gruppere og filtrere poster og tilføje/fjerne kolonner. Disse indstillinger kan gemmes til det aktive udvalg ved kun at vælge **Gem kun kolonner for det aktuelle udvalg**.
 
 * Marker **Udført** for at angive, at udvalget er inaktivt. Hvis du ønsker, at udvalget skal være aktivt, lader du afkrydsningsfeltet være tomt.
+
+* Med **SAINT** aktiveret (kræver Sales-Premium eller Service-Premium) kan du bruge [aktivitetsmonitorer][14] som kriterier for at oprette dynamiske udvalg. Dette giver dig et overblik over firmaer, personer eller projekter, der opfylder bestemte statuskriterier. SAINT-kriterierne findes under **Tællere (SAINT)** i [kriterielisten][9] i skærmbilledet **Find**.
 
 ## Relateret indhold
 
@@ -84,11 +86,11 @@ Der bliver så oprettet en kopi af udvalget med teksten (kopi) bag udvalgsnavnet
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
+[14]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

@@ -2,7 +2,7 @@
 uid: help-no-selection-combine
 title: Opprett et kombinasjonsutvalg
 description: I denne veiledningen lærer du hvordan du lager et kombinasjonsutvalg.
-keywords: utvalg
+keywords: kombiner utvalg, kombinasjonsutvalg, utvalg
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -13,6 +13,11 @@ language: no
 ---
 
 # Opprett et kombinasjonsutvalg
+
+De to utvalgene som kombineres, kan være statiske eller dynamiske. Det er imidlertid visse begrensninger for hva som kan kombineres:
+
+* Hvis du velger å opprette et kombinasjonsutvalg som består av firmaer, er alle typer utvalg tilgjengelig.
+* Hvis du derimot velger å opprette et kombinasjonsutvalg som består av salg, prosjekter, dokumenter, oppfølginger eller produkter, blir bare utvalg av den valgte typen tilgjengelig.
 
 ## Finn dataen
 
@@ -51,6 +56,22 @@ Angi egenskaper ved å følge instruksjonene i trinn 2 i opplæringen [Opprett u
 1. Klikk på **Lagre**.
 
 Når du har lagret utvalget, kan du [redigere det][3] for å endre både kombinasjonstypen og hvilke utvalg som kombineres. Men det er ikke mulig å endre feltet **Utvalg av**.
+
+## Eksempler på kombinasjonsutvalg
+
+### Firmaer og salg
+
+1. Opprett et kombinasjonsutvalg for firmaer/personer basert på to eksisterende utvalg: "Kunder i Sverige" (utvalg 1) og "Gjennomførte salg i fjor" (utvalg 2).
+2. Velg kombinasjonstypen **Kun i utvalg 1**. Resultatet vil inneholde kunder i Sverige som dere ikke solgte noe til i fjor.
+3. Lagre resultatet som et statisk utvalg med navnet "Kunder i Sverige uten salg", og gi en av selgerne ansvaret for å følge opp disse kundene.
+
+### Oppfølginger
+
+1. Opprett et kombinasjonsutvalg for oppfølginger basert på to eksisterende utvalg: "Oppfølginger knyttet til mine kunder" (utvalg 1) og "Planlagte oppfølginger i neste måned" (utvalg 2).
+2. Velg kombinasjonstypen **Felles**. Resultatet er en liste over oppfølginger du må håndtere neste måned. Disse kan du for eksempel eksportere til en fil ved hjelp av oppgaven **Eksporter til fil**.
+
+> [!NOTE]
+> Dersom du bare vil sammenligne firmaer som er knyttet mot disse to utvalgene, merker du av for **Sammenligne bare firmaer**.
 
 <!-- Referenced links -->
 [1]: create.md

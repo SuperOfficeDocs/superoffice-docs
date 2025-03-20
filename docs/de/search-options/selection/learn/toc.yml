@@ -1,20 +1,12 @@
 items:
 - name: Überblick
   href: index.md
-- name: Ansicht Selektion
-  href: screen/index.md
-- name: Statische Selektionen
-  href: static-selections.md
-- name: Dynamische Selektionen
-  href: dynamic-selections.md
-- name: Kombinierte Selektionen
-  href: combined-selections.md
 - name: Selektion erstellen
   href: create.md
-- name: Selektionen kombinieren
-  href: combine.md
 - name: Selektion bearbeiten oder löschen
   href: update.md
+- name: Selektionen kombinieren
+  href: combine.md
 - name: Mitglieder hinzufügen und entfernen (statisch)
   href: add-remove-members-static.md
 - name: Mitglieder in eine andere Selektion kopieren

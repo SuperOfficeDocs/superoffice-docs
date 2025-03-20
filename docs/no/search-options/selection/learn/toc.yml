@@ -1,20 +1,12 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Utvalg-bildet
-  href: screen/index.md
-- name: Statiske utvalg
-  href: static-selections.md
-- name: Dynamiske utvalg
-  href: dynamic-selections.md
-- name: Kombinasjonsutvalg
-  href: combined-selections.md
 - name: Opprett utvalg
   href: create.md
-- name: Kombinere utvalg
-  href: combine.md
 - name: Redigere eller slett utvalg
   href: index.md
+- name: Kombinere utvalg
+  href: combine.md
 - name: Legge til og fjerne medlemmer (statisk)
   href: add-remove-members-static.md
 - name: Kopiere medlemmer til et annet utvalg

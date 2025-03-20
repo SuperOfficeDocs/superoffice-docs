@@ -1,20 +1,12 @@
 items:
 - name: Översikt
   href: index.md
-- name: Fönstret urval
-  href: screen/index.md
-- name: Statiska urval
-  href: static-selections.md
-- name: Dynamiska urval
-  href: dynamic-selections.md
-- name: Kombinationsurval
-  href: combined-selections.md
 - name: Skapa urval
   href: create.md
-- name: Kombinera urval
-  href: combine.md
 - name: Redigera eller ta bort urval
   href: update.md
+- name: Kombinera urval
+  href: combine.md
 - name: Lägga till och ta bort medlemmar (statisk)
   href: add-remove-members-static.md
 - name: Kopiera medlemmar till ett annat urval

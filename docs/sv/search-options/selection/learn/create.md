@@ -72,9 +72,11 @@ Då skapas en kopia av urvalet med texten (kopia) bakom urvalsnamnet. Det vill s
 
 * Klicka på <i class="ph ph-star" aria-label="Star icon"></i> för att lägga till urvalet i [dina favoriter][7].
 
-* Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna. Här kan du gruppera och filtrera poster och lägga till/ta bort kolumner. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**. Se även [Detaljkorten][4] för fler funktioner.
+* Klicka på <i class="ph ph-gear" aria-label="Gear"></i> till höger om kolumnrubrikerna. Här kan du gruppera och filtrera poster och lägga till/ta bort kolumner. Dessa inställningar kan sparas för det aktiva urvalet genom att du väljer **Spara kolumner endast för markerat urval**.
 
 * Markera **Slutfört** för att ange att urvalet är inaktivt. Om du vill att urvalet ska vara aktivt låter du kryssrutan stå tom.
+
+* Med **SAINT** aktiverat (kräver Sales-Premium eller Service-Premium) kan du använda [statuslägen][14] som kriterier för att skapa dynamiska urval. Detta ger dig en översikt över företag, kontakter eller projekt som uppfyller specifika statuskriterier. SAINT-kriterierna finns under **Räknare (SAINT)** i [kriterielistan][9] i fönstret **Sök**.
 
 ## Relaterat innehåll
 
@@ -84,11 +86,11 @@ Då skapas en kopia av urvalet med texten (kopia) bakom urvalsnamnet. Det vill s
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
+[14]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

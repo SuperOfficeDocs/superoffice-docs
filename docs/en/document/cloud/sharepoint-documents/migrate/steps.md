@@ -79,7 +79,7 @@ Click **Next step** to proceed. The button doesn't turn green and clickable unti
 [3]: index.md#requirements
 [4]: troubleshooting.md
 [5]: best-practices.md
-[6]: ../../../../search-options/selection/learn/create/index.md
+[6]: ../../../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
 [img2]: ../../../../../media/loc/en/document/migration-started.png

@@ -63,13 +63,13 @@ Waar u aan moet denken als u uw database wilt segmenteren:
 
 ## <a id ="selections"></a>Selecties als doellijsten
 
-Gebruik selecties om uw doellijsten te maken om ervoor te zorgen dat u de juiste doelgroep hebt om uw mailings te ontvangen.
+Gebruik [selecties][3] om uw doellijsten te maken om ervoor te zorgen dat u de juiste doelgroep hebt om uw mailings te ontvangen.
 
 [Een selectie maken][2]
 
 ### Statische selectie
 
-Een [statische selectie][3] is een handmatig gemaakte lijst van records, ofwel door specifieke criteria te selecteren of door individuele records toe te voegen uit de database.
+Een statische selectie is een handmatig gemaakte lijst van records, ofwel door specifieke criteria te selecteren of door individuele records toe te voegen uit de database.
 
 Het belangrijkste kenmerk van een statische selectie is de consistentie - het **blijft onveranderd** totdat u het handmatig wijzigt, in tegenstelling tot een dynamische selectie die automatisch wordt bijgewerkt bij veranderingen in uw CRM-database.
 
@@ -77,7 +77,7 @@ Een statische selectie is bijzonder nuttig wanneer u volledige controle wilt heb
 
 ### Dynamische selectie
 
-Een [dynamische selectie][4] lijkt op een opgeslagen zoekopdracht op basis van specifieke criteria. Het kan op elk moment worden bijgewerkt en zal automatisch lijstitems opnemen, zoals ontvangers, die aan uw ingestelde criteria voldoen.
+Een dynamische selectie lijkt op een opgeslagen zoekopdracht op basis van specifieke criteria. Het kan op elk moment worden bijgewerkt en zal automatisch lijstitems opnemen, zoals ontvangers, die aan uw ingestelde criteria voldoen.
 
 Bijvoorbeeld, u zou een dynamische selectie kunnen maken van al uw klanten. Deze selectie wordt automatisch bijgewerkt om uw huidige klantenbestand weer te geven, zelfs als u nieuwe klanten krijgt of bestaande verliest.
 
@@ -91,9 +91,8 @@ Dynamische selecties zijn bijzonder nuttig wanneer u **de meest actuele gegevens
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
-[2]: ../../../search-options/selection/learn/create/index.md
-[3]: ../../../search-options/selection/learn/static-selections.md
-[4]: ../../../search-options/selection/learn/dynamic-selections.md
+[2]: ../../../search-options/selection/learn/create.md
+[3]: ../../../search-options/selection/learn/index.md
 [7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md

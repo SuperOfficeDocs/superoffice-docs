@@ -72,9 +72,11 @@ Når du klikker på denne knappen, opprettes en kopi av utvalget med teksten (ko
 
 * Klikk på <i class="ph ph-star" aria-label="Star icon"></i> for å legge utvalget til [favorittene dine][7].
 
-* Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene. Her kan du gruppere og filtrere poster, og legge til/fjerne kolonner. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**. Se også [Detaljkortene][4] for flere funksjoner.
+* Klikk på <i class="ph ph-gear" aria-label="Gear"></i> til høyre for kolonneoverskriftene. Her kan du gruppere og filtrere poster, og legge til/fjerne kolonner. Disse innstillingene kan lagres for det aktive utvalget ved å velge **Lagre kolonner bare for gjeldende utvalg**.
 
 * Merk av for **Utført** for å angi at valget er inaktivt. Hvis du vil at utvalget skal være aktivt, lar du avmerkingsboksen stå tom.
+
+* Med **SAINT** aktivert (krever Sales-Premium eller Service-Premium) kan du bruke [statuser][14] som kriterier for å opprette dynamiske utvalg. Dette gir deg en oversikt over firmaer, personer eller prosjekter som oppfyller spesifikke statuskriterier. SAINT-kriteriene finnes under **Tellere (SAINT)** i [kriterielisten][9] på **Finn**-skjermen.
 
 ## Relatert innhold
 
@@ -84,11 +86,11 @@ Når du klikker på denne knappen, opprettes en kopi av utvalget med teksten (ko
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
+[14]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

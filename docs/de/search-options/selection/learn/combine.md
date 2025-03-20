@@ -2,7 +2,7 @@
 uid: help-de-selection-combine
 title: Kombinierte Selektion erstellen
 description: In dieser Anleitung lernen Sie, wie Sie eine kombinierte Selektion erstellen.
-keywords: Selektion
+keywords: Selektionen kombinieren, Kombinierte Selektion, Selektion
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -13,6 +13,11 @@ language: de
 ---
 
 # Kombinierte Selektion erstellen
+
+Die zwei zu kombinierenden Selektionen können statisch oder dynamisch sein. Es gibt jedoch bestimmte Einschränkungen für Kombinationen:
+
+* Wenn Sie eine kombinierte Selektion bestehend aus Firmen erstellen, sind alle Selektionstypen verfügbar.
+* Wenn Sie jedoch eine kombinierte Selektion bestehend aus Verkäufen, Projekten, Dokumenten, Folgeaufgaben oder Produkten erstellen, sind nur Selektionen des ausgewählten Typs verfügbar.
 
 ## Daten suchen
 
@@ -51,6 +56,22 @@ Legen Sie die Eigenschaften gemäß den Anweisungen im Schritt 2 im Lernprogramm
 1. Klicken Sie auf **Speichern**.
 
 Nachdem Sie die Selektion gespeichert haben, können Sie diese [bearbeiten][3], um sowohl den Kombinationstyp als auch die zu kombinierenden Selektionen zu ändern. Es ist jedoch nicht möglich, das Feld **Selektion aus** zu ändern.
+
+## Beispiele für kombinierte Selektionen
+
+### Firmen und Verkäufe
+
+1. Erstellen Sie eine kombinierte Selektion mit Firmen/Personen auf Grundlage von zwei vorhandenen Selektionen: "Kunden in Schweden" (Selektion 1) und "Verkäufe im letzten Jahr" (Selektion 2).
+2. Wählen Sie den Kombinationstyp **Nur in Selektion 1**. Als Ergebnis werden Kunden in Schweden angezeigt, für die im letzten Jahr keine Verkäufe stattgefunden haben.
+3. Speichern Sie das Ergebnis als statische Selektion unter dem Namen "Kunden in Schweden ohne Verkäufe", und beauftragen Sie einen Ihrer Vertriebsmitarbeiter damit, diese Kunden zu betreuen.
+
+### Folgeaufgaben
+
+1. Erstellen Sie eine kombinierte Selektion mit Folgeaufgaben auf Grundlage von zwei vorhandenen Selektionen: "Folgeaufgaben, die mit meinen Kunden verknüpft sind" (Selektion 1) und "Geplante Folgeaufgaben im nächsten Monat" (Selektion 2).
+2. Wählen Sie den Kombinationstyp **Schnittmenge**. Als Ergebnis wird eine Liste der Folgeaufgaben angezeigt, die im nächsten Monat anstehen. Sie können dieses Ergebnis nun über die Aufgabe **Export in Datei** in eine Datei exportieren.
+
+> [!NOTE]
+> Wenn Sie die Firmen vergleichen möchten, die mit diesen beiden Selektionen verknüpft sind, wählen Sie **Nur Firmen vergleichen**.
 
 <!-- Referenced links -->
 [1]: create.md

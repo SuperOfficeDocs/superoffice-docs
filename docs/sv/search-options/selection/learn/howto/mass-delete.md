@@ -102,7 +102,7 @@ Papperskorgen finns i menyn Personliga inställningar. Du kan se alla kontakter 
 <!-- Referenced links -->
 [1]: ../../../learn/find-screen.md
 [2]: https://community.superoffice.com/no/learning/best-practices-tips/standard-crm/saint-proactive-customer-follow-up/
-[3]: ../dynamic-selections.md#saint
+[3]: ../create.md
 [4]: ../../../../learn/basics/deleting-elements.md#restore
 [5]: bulk-update.md
 

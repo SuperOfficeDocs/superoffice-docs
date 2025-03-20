@@ -61,15 +61,15 @@ Hva du bør tenke på når du vil segmentere databasen:
 
 ![Finn ut hvilke interesser en person har i fanen Interesse på personkortet -screenshot][img1]
 
-## <a id ="selections" />Utvalg som mållister
+## <a id ="selections"></a>Utvalg som mållister
 
-Bruk utvalgene til å opprette mållistene dine for å sikre at du har riktig målgruppe for utsendelsene.
+Bruk [utvalgene][3] til å opprette mållistene dine for å sikre at du har riktig målgruppe for utsendelsene.
 
 [Slik oppretter du et utvalg][2]
 
 ### Statisk utvalg
 
-Et [statisk utvalg][3] er en manuelt opprettet liste over poster, enten ved å velge spesifikke kriterier eller ved å legge til individuelle poster fra databasen.
+Et statisk utvalg er en manuelt opprettet liste over poster, enten ved å velge spesifikke kriterier eller ved å legge til individuelle poster fra databasen.
 
 Den viktigste funksjonen til et statisk utvalg er dets konsistens - det **forblir uendret** til du manuelt endrer det, i motsetning til et dynamisk utvalg som oppdateres automatisk med endringer i CRM-databasen din.
 
@@ -77,7 +77,7 @@ Et statisk utvalg er spesielt nyttig når du trenger full kontroll over kontakte
 
 ### Dynamisk utvalg
 
-Et [dynamisk utvalg][4] ligner på en lagret søk basert på spesifikke kriterier. Det kan oppdateres når som helst og vil automatisk inkludere forekomstene, for eksempel mottakere, som oppfyller dine angitte kriterier.
+Et dynamisk utvalg ligner på en lagret søk basert på spesifikke kriterier. Det kan oppdateres når som helst og vil automatisk inkludere forekomstene, for eksempel mottakere, som oppfyller dine angitte kriterier.
 
 For eksempel kan du opprette et dynamisk utvalg av alle dine kunder. Dette utvalget vil automatisk oppdatere seg for å gjenspeile din nåværende kundebase, selv når du får nye kunder eller mister eksisterende.
 
@@ -91,9 +91,8 @@ Dynamiske utvalg er spesielt nyttige når du trenger **de mest oppdaterte dataen
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
-[2]: ../../../search-options/selection/learn/create/index.md
-[3]: ../../../search-options/selection/learn/static-selections.md
-[4]: ../../../search-options/selection/learn/dynamic-selections.md
+[2]: ../../../search-options/selection/learn/create.md
+[3]: ../../../search-options/selection/learn/index.md
 [7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md

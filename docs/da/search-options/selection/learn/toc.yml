@@ -1,20 +1,12 @@
 items:
 - name: Oversigt
   href: index.md
-- name: Skærmbilledet Udvalg
-  href: screen/index.md
-- name: Statiske udvalg
-  href: static-selections.md
-- name: Dynamiske udvalg
-  href: dynamic-selections.md
-- name: Kombinerede udvalg
-  href: combined-selections.md
 - name: Opret udvalg
   href: create.md
-- name: Kombiner udvalg
-  href: combine.md
 - name: Rediger eller slet udvalg
   href: update.md
+- name: Kombiner udvalg
+  href: combine.md
 - name: Tilføj og fjern medlemmer (statisk)
   href: add-remove-members-static.md
 - name: Kopiér medlemmer til et andet udvalg

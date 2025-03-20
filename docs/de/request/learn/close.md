@@ -69,7 +69,7 @@ Sie können mehrere Anfragen schnell schließen, indem Sie im Dialog **Massenakt
 [3]: reply.md
 [4]: find.md
 [5]: ../admin/status/index.md
-[6]: ../../search-options/selection/learn/create/index.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

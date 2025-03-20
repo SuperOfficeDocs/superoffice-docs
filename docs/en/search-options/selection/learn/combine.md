@@ -14,6 +14,11 @@ language: en
 
 # Create a combined selection
 
+The two selections to be combined can be static or dynamic. There are however certain limitations on what can be combined:
+
+* If you choose to create a combined selection consisting of companies, all types of selection are available.
+* But if you choose to create a combined selection consisting of sales, projects, documents, follow-ups or products, only selections of the selected type are available.
+
 ## Find the data
 
 1. Open one of the selections you want to combine.
@@ -52,7 +57,23 @@ Set properties following the instructions of step 2 in the [Create selection][1]
 
 After saving the selection, you can [edit it][3] to change both the combination type and which selections are combined. But it is not possible to change the **Selection of** field.
 
+## Examples
+
+### Companies and sales
+
+1. Create a combined selection of companies/contacts based on two existing selections: "Customers in Sweden" (selection 1) and "Sales made last year" (selection 2).
+2. Select the combination type **Only in Selection 1**. The result will contain customers in Sweden to whom you sold nothing last year.
+3. Save the result as a static selection under the name "Customers in Sweden with no sales", and give one of your sales staff responsibility for following up these customers.
+
+### Follow-ups
+
+1. Create a combined selection of follow-ups based on two existing selections: "Follow-ups linked to my customers" (selection 1) and "Planned follow-ups next month" (selection 2).
+2. Choose the combination type **Common**. The result is a list of follow-ups you need to act on next month. You could then export this to a file using the **Export to file** task.
+
+> [!NOTE]
+> If you simply want to compare the companies linked to these two selections, check **Compare companies only**.
+
 <!-- Referenced links -->
 [1]: create.md
-[3]: update/index.md
+[3]: update.md
 [2]: ../../../learn/basics/fav.md

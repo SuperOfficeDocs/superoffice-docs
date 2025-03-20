@@ -152,7 +152,7 @@ Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du kan oppr
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/history.md
 [6]: search-criteria.md
-[7]: ../selection/learn/create/index.md
+[7]: ../selection/learn/create.md
 [8]: in-dialogs.md
 
 <!-- Referenced images -->

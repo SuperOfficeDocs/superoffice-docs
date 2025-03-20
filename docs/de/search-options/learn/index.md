@@ -149,7 +149,7 @@ Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus, um z
 [4]: ../../learn/basics/fav.md
 [5]: ../../learn/basics/history.md
 [6]: search-criteria.md
-[7]: ../selection/learn/create/index.md
+[7]: ../selection/learn/create.md
 [8]: in-dialogs.md
 
 <!-- Referenced images -->

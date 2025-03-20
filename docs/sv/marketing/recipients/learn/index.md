@@ -63,13 +63,13 @@ Att tänka på när du vill segmentera databasen:
 
 ## <a id ="selections"></a>Urval som mållistor
 
-Använd urval för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
+Använd [urval][3] för att skapa dina mållistor och se till att du har rätt målgrupp som tar emot dina utskick.
 
 [Så här skapar du ett urval][2]
 
 ### Statiskt urval
 
-Ett [statisk urval][3] är en manuellt skapad lista över poster, antingen genom att välja specifika kriterier eller genom att lägga till individuella poster från databasen.
+Ett statisk urval är en manuellt skapad lista över poster, antingen genom att välja specifika kriterier eller genom att lägga till individuella poster från databasen.
 
 Den viktigaste funktionen hos ett statisk urval är dess konsistens - det **förändras inte** förrän du manuellt modifierar den, till skillnad från ett dynamisk urval som uppdateras automatiskt med förändringar i din CRM-databas.
 
@@ -77,7 +77,7 @@ Ett statisk urval är särskilt användbar när du behöver full kontroll över 
 
 ### Dynamisk urval
 
-Ett [dynamisk urval][4] liknar en sparad sökning baserad på specifika kriterier. Det kan uppdateras när som helst och kommer automatiskt att inkludera listelement, som mottagare, som uppfyller dina angivna kriterier.
+Ett dynamisk urval liknar en sparad sökning baserad på specifika kriterier. Det kan uppdateras när som helst och kommer automatiskt att inkludera listelement, som mottagare, som uppfyller dina angivna kriterier.
 
 Till exempel kan du skapa ett dynamisk urval av alla dina kunder. Detta urval kommer automatiskt att uppdateras för att återspegla din nuvarande kundbas, även när du får nya kunder eller förlorar befintliga.
 
@@ -91,9 +91,8 @@ Dynamiska urval är särskilt användbara när du behöver **de mest aktuella da
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
-[2]: ../../../search-options/selection/learn/create/index.md
-[3]: ../../../search-options/selection/learn/static-selections.md
-[4]: ../../../search-options/selection/learn/dynamic-selections.md
+[2]: ../../../search-options/selection/learn/create.md
+[3]: ../../../search-options/selection/learn/index.md
 [7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md

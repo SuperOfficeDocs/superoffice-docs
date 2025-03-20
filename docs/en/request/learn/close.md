@@ -69,7 +69,7 @@ You can quickly close multiple requests by setting the **Status** field to *Clos
 [3]: reply.md
 [4]: find.md
 [5]: ../admin/status/index.md
-[6]: ../../search-options/selection/learn/create/index.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

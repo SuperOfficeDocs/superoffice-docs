@@ -130,7 +130,7 @@ Klicken Sie auf <i class="ph ph-funnel" aria-label="Filter icon"></i> und **Zur√
 
 <!-- Referenced links -->
 [1]: group.md
-[2]: ../../search-options/selection/learn/screen/index.md#filter
+[2]: ../../search-options/selection/learn/index.md#filter
 
 <!-- Referenced images -->
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png

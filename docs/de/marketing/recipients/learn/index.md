@@ -63,13 +63,13 @@ Woran Sie denken sollten, wenn Sie Ihre Datenbank segmentieren möchten:
 
 ## <a id ="selections"></a>Selektionen als Ziellisten
 
-Verwenden Sie Selektionen, um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
+Verwenden Sie [Selektionen][3], um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
 
 [Wie man eine Selektion erstellt][2]
 
 ### Statische Selektion
 
-Eine [statische Selektion][3] ist eine manuell erstellte Liste von Datensätzen, entweder durch Selektion bestimmter Kriterien oder durch Hinzufügen einzelner Datensätze aus der Datenbank.
+Eine statische Selektion ist eine manuell erstellte Liste von Datensätzen, entweder durch Selektion bestimmter Kriterien oder durch Hinzufügen einzelner Datensätze aus der Datenbank.
 
 Das Schlüsselmerkmal einer statischen Selektion ist ihre Konsistenz - sie **bleibt unverändert**, bis Sie sie manuell ändern, im Gegensatz zu einer dynamischen Selektion, die sich automatisch mit Änderungen in Ihrer CRM-Datenbank aktualisiert.
 
@@ -77,7 +77,7 @@ Eine statische Selektion ist besonders nützlich, wenn Sie die volle Kontrolle d
 
 ### Dynamische Selektion
 
-Eine [dynamische Selektion][4] ähnelt einer gespeicherten Suche basierend auf bestimmten Kriterien. Sie können jederzeit aktualisiert werden und wird automatisch Listelemente wie Empfänger, die Ihren festgelegten Kriterien entsprechen, einbeziehen.
+Eine dynamische Selektion ähnelt einer gespeicherten Suche basierend auf bestimmten Kriterien. Sie können jederzeit aktualisiert werden und wird automatisch Listelemente wie Empfänger, die Ihren festgelegten Kriterien entsprechen, einbeziehen.
 
 Sie könnten beispielsweise eine dynamische Selektion aller Ihrer Kunden erstellen. Diese Selektion wird sich automatisch aktualisieren, um Ihre aktuelle Kundenbasis widerzuspiegeln, auch wenn Sie neue Kunden gewinnen oder bestehende verlieren.
 
@@ -91,9 +91,8 @@ Dynamische Selektionlmöglichkeiten sind besonders nützlich, wenn Sie **die akt
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
-[2]: ../../../search-options/selection/learn/create/index.md
-[3]: ../../../search-options/selection/learn/static-selections.md
-[4]: ../../../search-options/selection/learn/dynamic-selections.md
+[2]: ../../../search-options/selection/learn/create.md
+[3]: ../../../search-options/selection/learn/index.md
 [7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md

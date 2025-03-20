@@ -36,7 +36,7 @@ Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een st
 * [Het dialoogvenster Vervolgactiviteit][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/selection/learn/dynamic-selections.md#saint
+[1]: ../../search-options/selection/learn/create.md
 [2]: index.md
 [3]: ../../diary/learn/create-follow-up.md
 

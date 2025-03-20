@@ -1,20 +1,12 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Scherm Selectie
-  href: screen/index.md
-- name: Statische selecties
-  href: static-selections.md
-- name: Dynamische selecties
-  href: dynamic-selections.md
-- name: Gecombineerde selecties
-  href: combined-selections.md
 - name: Selectie maken
   href: create.md
-- name: Selecties combineren
-  href: combine.md
 - name: Selectie bewerken of verwijderen
   href: update.md
+- name: Selecties combineren
+  href: combine.md
 - name: Leden toevoegen en verwijderen (statisch)
   href: add-remove-members-static.md
 - name: Leden naar een andere selectie kopiëren

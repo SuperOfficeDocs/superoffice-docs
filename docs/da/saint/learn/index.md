@@ -121,7 +121,7 @@ SAINT-værdier er simple binære værdier (til eller fra), der bestemmer udseend
 
 <!-- Referenced links -->
 [1]: status-dialog.md
-[2]: ../../search-options/selection/learn/dynamic-selections.md#saint
+[2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md
 [5]: ../admin/index.md

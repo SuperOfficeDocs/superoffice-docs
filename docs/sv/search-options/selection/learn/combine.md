@@ -2,7 +2,7 @@
 uid: help-sv-selection-combine
 title: Skapa kombinationsurval
 description: I den här guiden lär du dig hur du skapar ett kombinerat urval.
-keywords: selection
+keywords: kombinera urval, kombinationsurval, urval
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -13,6 +13,11 @@ language: sv
 ---
 
 # Skapa kombinationsurval
+
+De två urvalen som kombineras kan vara statiska eller dynamiska. Det finns vissa emellertid begränsningar för vad som kan kombineras:
+
+* Om du väljer att skapa ett kombinationsurval som består av företag, blir alla typer av urval tillgängliga.
+* Om du däremot väljer att skapa ett kombinationsurval som består av försäljningar, projekt, dokument händelser eller produkter, blir bara urval av den valda typen tillgängliga.
 
 ## Hitta data
 
@@ -51,6 +56,22 @@ Ange egenskaper enligt anvisningarna i steg 2 i instruktionsguiden [Skapa urval]
 1. Klicka på **Spara**.
 
 När urvalet har sparats, kan du [redigera det][3] för att ändra både kombinationstypen och vilka urval som ska kombineras. Det går däremot inte att ändra fältet **Urval av**.
+
+## Exempel på kombinationsurval
+
+### Företag och försäljning
+
+1. Skapa ett kombinationsurval för företag/kontakter baserat på två befintliga urval: "Kunder i Sverige" (urval 1) och "Genomförda försäljningar i fjol" (urval 2).
+2. Välj kombinationstypen **Endast i urval 1**. Resultatet innehåller då kunder i Sverige som ni inte sålde något till i fjol.
+3. Spara resultatet som ett statiskt urval med namnet "Kunder i Sverige utan försäljning" och ge någon av säljarna ansvaret att följa upp dessa kunder.
+
+### Händelser
+
+1. Skapa ett kombinationsurval för händelser baserat på två befintliga urval: "Händelser som är kopplade till mina kunder" (urval 1) och "Planerade händelser nästa månad" (urval 2).
+2. Välj kombinationstypen **Gemensamma**. Resultatet är då en översikt över händelser som du måste genomföra nästa månad. Du kan till exempel exportera dem till en fil med hjälp av funktionen **Exportera till fil**.
+
+> [!NOTE]
+> Om du bara vill jämföra de kontakter som är knutna till de här två urvalen markerar du **Jämför bara företag**.
 
 <!-- Referenced links -->
 [1]: create.md

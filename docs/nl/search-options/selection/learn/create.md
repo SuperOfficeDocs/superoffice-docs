@@ -2,7 +2,7 @@
 uid: help-nl-selection-create
 title: Selectie maken
 description: Werken met dynamische en statische selecties
-keywords: selectie
+keywords: selectie maken, nieuw selectie, opslaan als selectie, selectie
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -72,9 +72,11 @@ Wanneer u op deze knop klinkt, wordt een kopie van de selectie gemaakt met de te
 []
 * Klik op <i class="ph ph-star" aria-label="Star icon"></i> om de selectie aan [je favorieten][7] toe te voegen.
 
-* Klik op <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen. U kunt hier records groeperen en filteren en kolommen toevoegen/verwijderen. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren. Zie ook [De sectietabbladen][4] voor extra functies.
+* Klik op <i class="ph ph-gear" aria-label="Gear"></i> rechts van de kolomkoppen. U kunt hier records groeperen en filteren en kolommen toevoegen/verwijderen. U kunt deze instellingen opslaan voor de actieve selectie door **Kolommen alleen opslaan voor huidige selectie** te selecteren.
 
 * Schakel de optie **Voltooid** in om aan te geven dat de selectie inactief is. Als u de selectie actief wilt laten, schakelt u dit selectievakje niet in.
+
+* Met **SAINT** ingeschakeld (vereist Sales-Premium of Service-Premium) kun je [statussen][14] gebruiken als criteria voor het maken van dynamische selecties. Dit geeft je een overzicht van bedrijven, personen of projecten die voldoen aan specifieke statuscriteria. De SAINT-criteria vind je onder **Tellers (SAINT)** in de [criterialijst][9] op het scherm **Zoeken**.
 
 ## Gerelateerde inhoud
 
@@ -84,9 +86,9 @@ Wanneer u op deze knop klinkt, wordt een kopie van de selectie gemaakt met de te
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
+[14]: ../../../saint/learn/index.md

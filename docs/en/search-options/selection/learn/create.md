@@ -72,9 +72,11 @@ When you click this button, a copy of the selection is created, with the text (c
 
 * Click <i class="ph ph-star" aria-label="Star icon"></i> to add the selection to [your favorites][7].
 
-* Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**. See also [The section tabs][4] for additional functions.
+* Click <i class="ph ph-gear" aria-label="Gear"></i> to the right of the column headers. Here you can group and filter records, and add/remove columns. These settings can be saved for the active selection by selecting **Save columns for current selection only**.
 
 * Check **Completed** to specify that the selection is inactive. If you want the selection to be active, leave this box unchecked.
+
+* With **SAINT** enabled (requires Sales-Premium or Service-Premium), you can use [activity monitors][14] as criteria for creating dynamic selections. This allows you to get an overview of companies, contacts, or projects that meet specific status criteria. SAINT criteria are located under **Counters (SAINT)** in the [list of criteria][9] on the **Find** screen.
 
 ## Related content
 
@@ -84,11 +86,9 @@ When you click this button, a copy of the selection is created, with the text (c
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
-
-<!-- Referenced images -->
+[14]: ../../../saint/learn/index.md

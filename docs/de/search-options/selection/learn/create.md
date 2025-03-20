@@ -2,7 +2,7 @@
 uid: help-de-selection-create
 title: Selektion erstellen
 description: Arbeiten mit dynamischen und statischen Selektionen
-keywords: Selektion
+keywords: Selektion erstellen, neue Selektion als Selektion speichern, Selektion
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
@@ -72,9 +72,11 @@ Wenn Sie auf diese Schaltfläche klicken, wird eine Kopie der Selektion erstellt
 
 * Klicken Sie auf <i class="ph ph-star" aria-label="Star icon"></i>, um die Selektion zu [Ihren Favoriten][7] hinzuzufügen.
 
-* Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenkopfzeilen. Hier können Sie Datensätze gruppieren und filtern sowie Spalten hinzufügen/entfernen. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][4] für zusätzliche Funktionen.
+* Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenkopfzeilen. Hier können Sie Datensätze gruppieren und filtern sowie Spalten hinzufügen/entfernen. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen.
 
 * Markieren Sie **Abgeschlossen**, um anzugeben, dass die Selektion inaktiv ist. Wenn Sie die Selektion aktivieren möchten, heben Sie die Markierung dieser Option auf.
+
+* Mit aktiviertem **SAINT** (erfordert Sales-Premium oder Service-Premium) können Sie [Statusangaben][14] als Kriterien für die Erstellung dynamischer Selektion verwenden. Dies ermöglicht Ihnen einen Überblick über Firmen, Personen oder Projekte, die bestimmten Statuskriterien entsprechen. Die SAINT-Kriterien finden Sie unter **Zähler (SAINT)** in der [Kriterienliste][9] in der Ansicht **Suchen**.
 
 ## Verwandte Inhalte
 
@@ -84,9 +86,9 @@ Wenn Sie auf diese Schaltfläche klicken, wird eine Kopie der Selektion erstellt
 
 <!-- Referenced links -->
 [3]: combine.md
-[4]: ../../../learn/section-tabs/index.md
 [7]: ../../../learn/basics/fav.md
 [8]: ../../../learn/basics/duplicates.md
 [5]: howto/index.md
-[6]: update/index.md
+[6]: update.md
 [9]: ../../learn/search-criteria.md
+[14]: ../../../saint/learn/index.md

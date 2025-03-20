@@ -285,7 +285,7 @@ Imagine that you are a marketing department manager and you want to brainstorm a
 [5]: freetext-search.md
 [6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
-[8]: ../selection/learn/create/index.md
+[8]: ../selection/learn/create.md
 [9]: ../selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->

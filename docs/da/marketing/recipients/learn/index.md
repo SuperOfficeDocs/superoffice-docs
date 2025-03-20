@@ -63,13 +63,13 @@ Det du skal tænke på, når du vil segmentere databasen:
 
 ## <a id ="selections"></a>Markeringer til mållister
 
-Markér et udvalg af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
+Markér et [udvalg][3] af kontakter til at oprette dine mållister, så du sikrer dig, at du har fat i den rigtige målgruppe som modtager af dine mails.
 
 [Sådan oprettes et udvalg][2].
 
 ### Statisk udvalg
 
-Et [statisk udvalg][3] er en manuelt oprettet liste over poster, enten ved at vælge specifikke kriterier eller ved at tilføje individuelle poster fra databasen.
+Et statisk udvalg er en manuelt oprettet liste over poster, enten ved at vælge specifikke kriterier eller ved at tilføje individuelle poster fra databasen.
 
 Den nøglefunktion ved et statisk udvalg er dets konsistens - det **forbliver uændret** indtil du manuelt ændrer det, modsat et dynamisk udvalg, der opdateres automatisk med ændringer i din CRM-database.
 
@@ -77,7 +77,7 @@ Et statisk udvalg er særligt nyttig, når du har brug for fuld kontrol over de 
 
 ### Dynamisk udvalg
 
-Et [dynamisk udvalg][4] ligner en gemt søgning baseret på specifikke kriterier. Det kan opdateres når som helst og vil automatisk omfatte listeelementer, såsom modtagere, der opfylder dine angivne kriterier.
+Et dynamisk udvalg ligner en gemt søgning baseret på specifikke kriterier. Det kan opdateres når som helst og vil automatisk omfatte listeelementer, såsom modtagere, der opfylder dine angivne kriterier.
 
 For eksempel kan du oprette et dynamisk udvalg af alle dine kunder. Dette udvalg vil automatisk opdatere sig for at afspejle din nuværende kundebase, selv når du får nye kunder eller mister eksisterende.
 
@@ -91,9 +91,8 @@ Dynamiske udvalg er særligt nyttige, når du har brug for **de mest aktuelle da
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-marketing-segmentation-mistake/
-[2]: ../../../search-options/selection/learn/create/index.md
-[3]: ../../../search-options/selection/learn/static-selections.md
-[4]: ../../../search-options/selection/learn/dynamic-selections.md
+[2]: ../../../search-options/selection/learn/create.md
+[3]: ../../../search-options/selection/learn/index.md
 [7]: ../../mailing/learn/view-statistics.md
 [5]: ../../tracked-links/learn/index.md
 [9]: ../../tracked-links/learn/explore-clicks.md

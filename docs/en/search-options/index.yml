@@ -63,11 +63,7 @@ conceptualContent:
       - text: How to create a search and save it as a selection
         itemType: school
         typeDesc: learn
-        url: selection/learn/create/index.md
-      - text: How to create a selection
-        itemType: school
-        typeDesc: learn
-        url: selection/learn/create/tutorial.yml
+        url: selection/learn/create.md
       - text: How to broaden a search using the "OR" function
         itemType: school
         typeDesc: learn
