@@ -2,10 +2,13 @@
 uid: help-nl-selection-export
 title: Selectie exporteren
 description: Een selectie exporteren naar Excel of een bestand.
+keywords: exporteren naar Excel, exporteren naar bestand, selectie, exporteren, Excel
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: selectie, exporteren, Excel
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -16,6 +19,8 @@ language: nl
 [!include[Start](../includes/steps-start-task.md)]
 
 1. Klik op de knop **Taak** en selecteer **Exporteren naar Excel**.
+
+1. Klik op **Ja** om te bevestigen.
 
 1. Klik op het geëxporteerde bestand om het in Excel te openen.
 
