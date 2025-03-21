@@ -9,8 +9,6 @@ items:
     href: generate-follow-ups.md
   - name: Selectie weergeven als grafiek
     href: display-as-charts.md
-  - name: Bulksgewijs bijwerken
-    href: bulk-update.md
   - name: Etiketten afdrukken
     href: print-labels.md
   - name: Selectie afdrukken

@@ -61,5 +61,5 @@ Hvis et diagram viser beskeden **Ingen tilgængelige data**, betyder det, at udv
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Refererede billeder -->
-[img1]: ../../../../../media/loc/da/search-options/use-a-chart-to-visualize-your-selection.png
-[img2]: ../../../../../media/loc/da/search-options/explore-selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

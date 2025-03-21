@@ -11,7 +11,6 @@ items:
   href: add-remove-members-static.md
 - name: Leden naar een andere selectie kopiëren
   href: copy-members-to.md
-  topicHref: update/index.md
 - name: Taken uitvoeren met selecties
   href: howto/toc.yml
   topicHref: howto/index.md

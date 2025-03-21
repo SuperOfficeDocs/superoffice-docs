@@ -61,5 +61,5 @@ Als een grafiek de melding **Geen gegevens beschikbaar** toont, betekent dit dat
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Referentieafbeeldingen -->
-[img1]: ../../../../../media/loc/nl/search-options/use-a-chart-to-visualize-your-selection.png
-[img2]: ../../../../../media/loc/nl/search-options/explore-selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

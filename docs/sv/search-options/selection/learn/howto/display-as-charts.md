@@ -61,5 +61,5 @@ Om ett diagram visar meddelandet **Inga data tillgängliga** betyder det att dit
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Refererade bilder -->
-[img1]: ../../../../../media/loc/sv/search-options/use-a-chart-to-visualize-your-selection.png
-[img2]: ../../../../../media/loc/sv/search-options/explore-selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

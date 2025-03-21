@@ -61,5 +61,5 @@ Hvis et diagram viser meldingen **Ingen data tilgjengelig**, betyr det at utvalg
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Refererte bilder -->
-[img1]: ../../../../../media/loc/no/search-options/use-a-chart-to-visualize-your-selection.png
-[img2]: ../../../../../media/loc/no/search-options/explore-selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

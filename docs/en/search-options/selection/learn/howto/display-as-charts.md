@@ -61,5 +61,5 @@ If a chart displays a **No data available** message, it means your selection doe
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]:../../../../../media/loc/en/search-options/selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
 [img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

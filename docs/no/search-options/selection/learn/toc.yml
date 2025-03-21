@@ -4,7 +4,7 @@ items:
 - name: Opprett utvalg
   href: create.md
 - name: Redigere eller slett utvalg
-  href: index.md
+  href: update.md
 - name: Kombinere utvalg
   href: combine.md
 - name: Legge til og fjerne medlemmer (statisk)

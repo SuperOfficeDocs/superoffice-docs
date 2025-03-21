@@ -61,5 +61,5 @@ Wenn ein Diagramm die Meldung **Keine Daten verfügbar** anzeigt, bedeutet das, 
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Referenzierte Bilder -->
-[img1]: ../../../../../media/loc/de/search-options/use-a-chart-to-visualize-your-selection.png
-[img2]: ../../../../../media/loc/de/search-options/explore-selection-chart.png
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

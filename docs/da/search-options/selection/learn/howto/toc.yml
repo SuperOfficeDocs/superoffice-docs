@@ -9,8 +9,6 @@ items:
     href: generate-follow-ups.md
   - name: Få vist udvalg som diagram
     href: display-as-charts.md
-  - name: Masseredigering
-    href: bulk-update.md
   - name: Udskriv etiketter
     href: print-labels.md
   - name: Udskriv udvalg
