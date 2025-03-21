@@ -1,13 +1,10 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Arbeide med dashbord
-  topicHref: create.md
-  items:
-  - name: Opprette eller dupliser et dashbord
-    href: create.md
-  - name: Redigere/slette et dashbord
-    href: update.md
+- name: Opprette/dupliser dashbord
+  href: create.md
+- name: Rediger/slett dashbord
+  href: update.md
 - name: Arbeide med figurer
   topicHref: working-with-tiles.md
   items:

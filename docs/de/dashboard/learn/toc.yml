@@ -1,13 +1,10 @@
 items:
 - name: Überblick
   href: index.md
-- name: Mit dem Dashboard arbeiten
-  topicHref: create.md
-  items:
-  - name: Dashboard erstellen oder duplizieren
-    href: create.md
-  - name: Dashboards bearbeiten oder löschen
-    href: update.md
+- name: Dashboard erstellen oder duplizieren
+  href: create.md
+- name: Dashboard bearbeiten oder löschen
+  href: update.md
 - name: Mit Kacheln arbeiten
   topicHref: working-with-tiles.md
   items:

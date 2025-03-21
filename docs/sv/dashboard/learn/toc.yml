@@ -1,13 +1,10 @@
 items:
 - name: Översikt
   href: index.md
-- name: Arbeta med dashboard
-  topicHref: create.md
-  items:
-  - name: Skapa eller duplicera en dashboard
-    href: create.md
-  - name: Redigera/ta bort en dashboard
-    href: update.md
+- name: Skapa eller duplicera dashboard
+  href: create.md
+- name: Redigera/ta bort dashboard
+  href: update.md
 - name: Arbeta med figurer
   topicHref: working-with-tiles.md
   items:

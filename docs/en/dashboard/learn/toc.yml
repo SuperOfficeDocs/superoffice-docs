@@ -1,13 +1,10 @@
 items:
 - name: Overview
   href: index.md
-- name: Work with dashboard
-  topicHref: create.md
-  items:
-  - name: Create or copy a dashboard
-    href: create.md
-  - name: Edit/delete a dashboard
-    href: update.md
+- name: Create/copy a dashboard
+  href: create.md
+- name: Edit/delete a dashboard
+  href: update.md
 - name: Work with tiles
   topicHref: working-with-tiles.md
   items:
