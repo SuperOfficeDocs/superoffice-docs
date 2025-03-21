@@ -91,15 +91,13 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 
 **Funksjoner på Oppgave-knappen:**
 
-* [Opprette et nytt dashbord][1]
-* [Duplisere et dashbord][2]
+* [Opprette et nytt dashbord eller dupkliser et eksisterende][1]
 * [Redigere et dashbord][3]
 * [Legg til figurer / rediger layout][4]
 * [Slette et dashbord][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md

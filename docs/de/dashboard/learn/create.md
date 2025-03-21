@@ -1,11 +1,14 @@
 ---
 uid: help-de-dashboard-create
 title: Neues Dashboard erstellen
-description: "Erstellen Sie mehrere Dashboards, um sich einen besseren Einblick in Ihre CRM-Daten zu schaffen. In dieser Anleitung lernen Sie, wie Sie neue Dashboard-Registerkarten erstellen."
-author: SuperOffice RnD
-date: 02.14.2023
+description: Erstellen Sie mehrere Dashboards, um sich einen besseren Einblick in Ihre CRM-Daten zu schaffen. In dieser Anleitung lernen Sie, wie Sie neue Dashboard-Registerkarten erstellen.
 keywords: Dashboard
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -13,12 +16,14 @@ language: de
 
 In der Ansicht Dashboard können Sie mehrere Dashboard-Registerkarten zur Anzeige einer Vielzahl von Diagrammen und Statistiken erstellen. Wenn Sie Ihr eigenes Dashboard erstellen, können Sie auch auswählen, ob Sie es mit anderen teilen möchten.
 
-## Neue Dashboard-Registerkarte erstellen
-
-Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie neue Dashboard-Registerkarten zu SuperOffice CRM hinzufügen (Videolänge – 4:29):
+Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie neue Dashboard zu SuperOffice CRM hinzufügen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
+
+(Videolänge – 4:29)
+
+## Neue Dashboard-Registerkarte erstellen
 
 1. Öffnen Sie die Ansicht **Dashboard**.
 
@@ -49,11 +54,26 @@ In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können ab
 
 ![Wählen Sie die gewünschten Kacheln aus und bringen Sie sie durch Ziehen und Ablegen in die Rasteransicht -screenshot][img2]
 
+## <a id="copy"></a>Dashboards duplizieren
+
+Sie können eine Kopie eines vorhandenen Dashboards erstellen. Dies kann hilfreich sein, um zum Beispiel eine eigene Version eines angehefteten Dashboards mit einigen eigenen Änderungen zu erstellen.
+
+1. Öffnen Sie die Ansicht **Dashboard**.
+
+2. Wählen Sie das zu duplizierende Dashboard aus.
+
+3. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Dashboard duplizieren** aus.
+
+    Das Duplikat öffnet sich, wobei eine "2" an den Namen angefügt wird.
+
+4. Um den Namen des Dashboards zu ändern und andere Einstellungen vorzunehmen, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dashboard bearbeiten** aus.
+
+5. Zum Hinzufügen, Bearbeiten oder Löschen von Kacheln und Bearbeiten des Dashboard-Layouts klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen **Kachel hinzufügen/Layout bearbeiten** aus.
+
 ## Verwandte Themen
 
 * [Dashboards bearbeiten][3]
 * [Kacheln hinzufügen/Layout bearbeiten][2]
-* [Dashboards duplizieren][4]
 * [Dashboards löschen][5]
 * [Suche erstellen und als Selektion speichern][6]
 
@@ -61,7 +81,6 @@ In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können ab
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[4]: copy.md
 [5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 

@@ -91,15 +91,13 @@ Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde te
 
 **Functies op de taakknop:**
 
-* [Een nieuw dashboard maken][1]
-* [Een dashboard dupliceren][2]
+* [Een nieuw dashboard maken of dupliceren][1]
 * [Een dashboard bewerken][3]
 * [Tegels toevoegen/Opmaak bewerken][4]
 * [Een dashboard verwijderen][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md

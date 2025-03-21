@@ -2,10 +2,13 @@
 uid: help-no-dashboard-create
 title: Opprette et nytt dashbord
 description: Opprett flere dashbord for å få mer innsikt i CRM-dataene dine. Finn ut hvordan du oppretter nye dashbordfaner i denne guiden.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: dashbord
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -13,12 +16,14 @@ language: no
 
 I Dashbord-bildet kan du ha flere dashbordfaner, slik at du kan vise så mange diagrammer og statistikker du vil. Når du oppretter ditt eget dashbord, kan du også velge om du vil dele det med andre.
 
-## Opprette ny dashbordfane
-
-Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger til nye faner på dashbordet i SuperOffice CRM (videolengde – 4.29):
+Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger til nye dashbord i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
+
+(videolengde – 4.29)
+
+## Opprette ny dashbordfane
 
 1. Åpne skjermbildet **Dashbord**.
 
@@ -49,11 +54,26 @@ Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lag
 
 ![Velg ønskede figurer, og dra og slipp dem i rutenettet -screenshot][img2]
 
-## Aktuelle emner
+## <a id="copy"></a>Duplisere et dashbord
+
+Du kan lage en kopi av et eksisterende dashbord. For eksempel for å lage din egen versjon av et festet dashbord med dine egne endringer.
+
+1. Åpne skjermbildet **Dashbord**.
+
+2. Velg dashbordet du vil duplisere.
+
+3. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og velg **Dupliser dashbord**.
+
+    Duplikatet åpnes med en "2" etter navnet.
+
+4. Hvis du vil endre navnet på dashbordet og justere andre innstillinger, klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velger **Rediger dashbord**.
+
+5. Hvis du vil legge til, endre eller slette figurer og redigere dashbordlayouten, klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velger **Legg til figur / rediger layout**.
+
+## Aktuelt innhold
 
 * [Redigere et dashbord][3]
 * [Legg til figurer / rediger layout][2]
-* [Duplisere et dashbord][4]
 * [Slette et dashbord][5]
 * [Opprette et søk og lagre det som et utvalg][6]
 
@@ -61,7 +81,6 @@ Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lag
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[4]: copy.md
 [5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 

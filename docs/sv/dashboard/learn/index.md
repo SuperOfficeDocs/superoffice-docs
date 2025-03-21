@@ -91,15 +91,13 @@ Om du inte hittar den figur du behöver bland de fördefinierade figurerna i Sup
 
 **Funktioner under knappen Uppgift:**
 
-* [Skapa en ny dashboard][1]
-* [Duplicera en dashboard][2]
+* [Skapa en ny dashboard eller duplicera][1]
 * [Redigera ett dashboard][3]
 * [Lägg till figurer/Redigera layout][4]
 * [Ta bort ett dashboard][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md

@@ -4,12 +4,10 @@ items:
 - name: Arbeide med dashbord
   topicHref: create.md
   items:
-  - name: Opprette et nytt dashbord
+  - name: Opprette eller dupliser et dashbord
     href: create.md
   - name: Redigere et dashbord
     href: update.md
-  - name: Duplisere et dashbord
-    href: copy.md
   - name: Slette et dashbord
     href: delete.md
 - name: Arbeide med figurer

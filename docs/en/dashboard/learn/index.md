@@ -93,8 +93,7 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 
 **Functions on the Task button:**
 
-* [Create a new dashboard][1]
-* [Duplicate a dashboard][2]
+* [Create a new dashboard or duplicate an existing one][1]
 * [Edit a dashboard][3]
 * [Add tiles / Edit layout][4]
 * [Delete a dashboard][5]
@@ -103,7 +102,6 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md

@@ -3,9 +3,12 @@ uid: help-sv-dashboard-create
 title: Skapa en ny dashboard
 description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden förklarar vi hur du skapar nya dashboardflikar.
 keywords: dashboard
-author: SuperOffice RnD
-date: 02.14.2023
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -13,14 +16,14 @@ language: sv
 
 I Dashboard-fönstret kan du ha flera dashboardflikar för att visa olika typer av diagram och statistik. När du skapar en egen dashboard kan du också välja om du vill dela den med andra.
 
-## Skapa en ny dashboardflik
-
-Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till nya dashboardflikar i SuperOffice CRM:
+Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till nya dashboard i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 (filmens längd: 4:29)
+
+## Skapa en ny dashboardflik
 
 1. Öppna skärmen **Dashboard**.
 
@@ -51,11 +54,26 @@ Det finns många standardfigurer att välja bland i biblioteket, men du kan ocks
 
 ![Välj önskade figurer och dra och släpp dem i rutnätsvyn -screenshot][img2]
 
+## <a id="copy"></a>Duplicera en dashboard
+
+Du kan skapa en kopia av en befintlig dashboard. Till exempel för att skapa en egen version av en fastnålad dashboard med vissa egna ändringar.
+
+1. Öppna skärmen **Dashboard**.
+
+2. Välj den dashboard som du vill duplicera.
+
+3. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Duplicera dashboard**.
+
+    Dubbletten öppnas med siffran "2" tillagd efter namnet.
+
+4. För att byta namn på dashboarden och justera andra inställningar klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och väljer **Redigera dashboard**.
+
+5. För att lägga till, redigera eller ta bort figurer och redigera dashboard-layouten klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och väljer **Lägg till figur/Redigera layout**.
+
 ## Relaterat innehåll
 
 * [Redigera ett dashboard][3]
 * [Lägg till figurer/Redigera layout][2]
-* [Duplicera en dashboard][4]
 * [Ta bort ett dashboard][5]
 * [Skapa en sökning och spara den som ett urval][6]
 
@@ -63,7 +81,6 @@ Det finns många standardfigurer att välja bland i biblioteket, men du kan ocks
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[4]: copy.md
 [5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 

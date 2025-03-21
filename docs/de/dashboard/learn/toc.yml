@@ -4,12 +4,10 @@ items:
 - name: Mit dem Dashboard arbeiten
   topicHref: create.md
   items:
-  - name: Neues Dashboard erstellen
+  - name: Dashboard erstellen oder duplizieren
     href: create.md
   - name: Dashboards bearbeiten
     href: update.md
-  - name: Dashboards duplizieren
-    href: copy.md
   - name: Dashboards löschen
     href: delete.md
 - name: Mit Kacheln arbeiten

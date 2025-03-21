@@ -2,10 +2,13 @@
 uid: help-en-dashboard-create
 title: Create a new dashboard
 description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboard tabs in this how-to-guide.
-author: SuperOffice RnD
-date: 02.14.2023
 keywords: dashboard
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,12 +16,14 @@ language: en
 
 In the Dashboard screen you can have multiple dashboard tabs to display any number of charts and statistics. When you create your own dashboard, you can also choose whether you want to share it with others.
 
-## Create new dashboard tab
-
-Watch this video or follow the steps below to learn how to add new dashboard tabs to SuperOffice CRM (video length – 4:29):
+Watch this video or follow the steps below to learn how to add new dashboards to SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
+
+(video length – 4:29)
+
+## Create new dashboard tab
 
 1. Open the **Dashboard** screen.
 
@@ -49,11 +54,26 @@ There is a lot of standard tiles to choose from in the library, but you can also
 
 ![Select wanted tiles and drag and drop them into the grid view -screenshot][img2]
 
-## Related topics
+## <a id="copy"></a>Duplicate a dashboard
+
+You can create a copy of an existing dashboard. For example, to create your own version of a pinned dashboard with some changes of your own.
+
+1. Open the **Dashboard** screen.
+
+2. Select the dashboard you want to duplicate.
+
+3. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), and select **Duplicate dashboard**.
+
+    The duplicate opens with a "2" added after the name.
+
+4. To change the name of the dashboard and adjust other settings, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Edit dashboard**.
+
+5. To add, edit or delete tiles, and edit the dashboard layout, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
+
+## Related content
 
 * [Edit a dashboard][3]
 * [Add tiles / Edit layout][2]
-* [Duplicate a dashboard][4]
 * [Delete a dashboard][5]
 * [Create a search and save it as a selection][6]
 
@@ -61,7 +81,6 @@ There is a lot of standard tiles to choose from in the library, but you can also
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[4]: copy.md
 [5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 

@@ -3,9 +3,12 @@ uid: help-nl-dashboard-create
 title: Een nieuw dashboard maken
 description: Krijg meer inzicht in uw CRM-gegevens door verschillende dashboards te maken. In deze handleiding vindt u meer informatie over het maken van nieuwe dashboard-tabbladen.
 keywords: dashboard
-author: SuperOffice RnD
-date: 02.14.2023
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -13,14 +16,14 @@ language: nl
 
 In het scherm Dashboard kunt u meerdere dashboard-tabs maken om een onbeperkt aantal grafieken en statistieken weer te geven. Wanneer u uw eigen dashboard maakt, kunt u ook kiezen of u het met anderen wilt delen.
 
-## Nieuw dashboardtabblad maken
-
-Bekijk deze video of volg de onderstaande stappen om te leren hoe u nieuwe dashboardtabbladen toevoegt aan SuperOffice CRM:
+Bekijk deze video of volg de onderstaande stappen om te leren hoe u nieuwe dashboard toevoegt aan SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 (videolengte – 4:29)
+
+## Nieuw dashboardtabblad maken
 
 1. Open het scherm **Dashboard**.
 
@@ -50,6 +53,22 @@ Aan de rechterkant van het nieuwe dashboard wordt de sectie **Tegel toevoegen/Op
 Er zijn veel standaardtegels om uit te kiezen in de bibliotheek, maar u kunt ook uw eigen tegels maken, hetzij op basis van een bestaande tegel of beginnen vanaf nul.
 
 ![Selecteer gewenste tegels en sleep ze naar de rasterweergave -screenshot][img2]
+
+## <a id="copy"></a>Een dashboard dupliceren
+
+U kunt een kopie van een bestaand dashboard maken. Bijvoorbeeld om uw eigen versie van een vastgemaakt dashboard te maken met enkele eigen wijzigingen.
+
+1. Open het scherm **Dashboard**.
+
+2. Selecteer het dashboard dat u wilt dupliceren.
+
+3. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en selecteer **Dashboard dupliceren**.
+
+    Het duplicaat wordt geopend, met een "2" achter de naam.
+
+4. Als u de naam van het dashboard wilt wijzigen en andere instellingen wilt aanpassen, klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteert u **Dashboard bewerken**.
+
+5. Als u tegels wilt toevoegen, bewerken of verwijderen en de dashboardopmaak wilt bewerken, klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteert u **Tegel toevoegen/Opmaak bewerken**.
 
 ## Gerelateerde inhoud
 

@@ -4,12 +4,10 @@ items:
 - name: Arbeta med dashboard
   topicHref: create.md
   items:
-  - name: Skapa en ny dashboard
+  - name: Skapa eller duplicera en dashboard
     href: create.md
   - name: Redigera en dashboard
     href: update.md
-  - name: Duplicera en dashboard
-    href: copy.md
   - name: Ta bort en dashboard
     href: delete.md
 - name: Arbeta med figurer

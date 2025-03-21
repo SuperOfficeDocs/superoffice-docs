@@ -4,12 +4,10 @@ items:
 - name: Work with dashboard
   topicHref: create.md
   items:
-  - name: Create a new dashboard
+  - name: Create or copy a dashboard
     href: create.md
   - name: Edit a dashboard
     href: update.md
-  - name: Duplicate a dashboard
-    href: copy.md
   - name: Delete a dashboard
     href: delete.md
 - name: Work with tiles

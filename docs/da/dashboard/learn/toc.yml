@@ -4,12 +4,10 @@ items:
 - name: Arbejd med dashboard
   topicHref: create.md
   items:
-  - name: Opret et nyt dashboard
+  - name: Opret/dubler et dashboard
     href: create.md
   - name: Rediger et dashboard
     href: update.md
-  - name: Dublere et dashboard
-    href: copy.md
   - name: Slet et dashboard
     href: delete.md
 - name: Arbejd med ruder

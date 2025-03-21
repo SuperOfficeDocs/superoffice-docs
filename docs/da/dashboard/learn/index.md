@@ -91,15 +91,13 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 
 **Funktioner på knappen Opgave:**
 
-* [Opret et nyt dashboard][1]
-* [Dupliker et dashboard][2]
+* [Opret et nyt dashboard eller dupliker et dashboard][1]
 * [Redigering af dashboard][3]
 * [Tilføj ruder/rediger layout][4]
 * [Sletning af dashboard][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md

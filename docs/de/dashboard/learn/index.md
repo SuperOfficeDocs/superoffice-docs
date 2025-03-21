@@ -91,15 +91,13 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 
 **Funktionen auf der Schaltfläche Aufgabe:**
 
-* [Neues Dashboard erstellen][1]
-* [Dashboards duplizieren][2]
+* [Dashboard erstellen oder duplizieren][1]
 * [Dashboards bearbeiten][3]
 * [Kacheln hinzufügen/Layout bearbeiten][4]
 * [Dashboards löschen][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
 [4]: add-tile.md
 [5]: delete.md
