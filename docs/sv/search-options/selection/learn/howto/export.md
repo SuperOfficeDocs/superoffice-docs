@@ -2,10 +2,13 @@
 uid: help-sv-selection-export
 title: Exportera urval
 description: Så här exporterar du ett urval till Excel eller en fil.
+keywords: exportera till Excel, exportera till fil, urval, export, Excel
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: selection, export, Excel
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -16,6 +19,8 @@ language: sv
 [!include[Start](../includes/steps-start-task.md)]
 
 1. Klicka på **Uppgift**-knappen och välj **Exportera till Excel**.
+
+1. Klicka på **Ja** för att bekräfta.
 
 1. Klicka på den exporterade filen för att öppna den i Excel.
 

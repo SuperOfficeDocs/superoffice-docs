@@ -2,10 +2,13 @@
 uid: help-en-selection-user
 title: Performing tasks using selections
 description: Performing tasks using selections
-author: SuperOffice RnD
-date: 02.15.2023
 keywords: selection
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -66,13 +69,13 @@ The **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="tr
 [3]: send-email.md
 [4]: generate-follow-ups.md
 [5]: ../../../../learn/basics/bulk-update.md
-[6]: ../update/index.md
-[7]: ../update/delete.md
+[6]: ../update.md
+[7]: ../update.md#delete
 [8]: ../../../../admin/user-management/learn/role/index.md
 [9]: print-labels.md
 [10]: print.md
 [12]: export.md
-[13]: mass-delete.md
+[13]: ../../../../security/privacy/learn/mass-delete.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/selection-task.png

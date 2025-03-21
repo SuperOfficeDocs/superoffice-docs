@@ -225,7 +225,7 @@ Na het ontwerpen van een flow en het opslaan ervan, sluit de **Flow-editor** en 
 [8]: ../../learn/create-folder.md
 [12]: ../../../admin/lists/learn/add-items-to-mailing-domain.md
 [13]: ../../../search-options/learn/search-criteria.md
-[14]: ../../../search-options/selection/learn/static-selections.md
+[14]: ../../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/marketing/flow-settings.png

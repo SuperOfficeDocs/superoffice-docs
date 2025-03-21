@@ -2,10 +2,10 @@
 uid: help-nl-selection-print-labels
 title: Selectie labels afdrukken
 description: Selectie labels afdrukken
-author: Bergfrid Dias
 keywords: selectie, etiket, afdrukken
-date: 10.08.2024
-version: 10.3.10
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -31,9 +31,12 @@ Het afdrukken van etiketten kan handig zijn wanneer u brieven naar meerdere ontv
 
     ![Selectie taak afdrukken - kies etiketopmaken -screenshot][img1]
 
-1. Controleer de vereiste instellingen en klik op **OK**.
+1. Controleer de vereiste instellingen en klik op **OK**. Bijvoorbeeld:
 
-    ![Selectie - Etiketten instellen en vereiste instellingen -screenshot][img2]
+    * Scale: Actual size, default or 100%
+    * Margins: None
+    * Orientation: Portrait
+    * Paper size: A4
 
 1. Pas de afdrukinstellingen van uw browser aan (zoals schaal, marges, oriëntatie en papierformaat) om ervoor te zorgen dat de adressen correct binnen het etiketgebied passen zonder te overlappen.
 
@@ -47,5 +50,4 @@ Het afdrukken van etiketten kan handig zijn wanneer u brieven naar meerdere ontv
 <!-- Referenced links -->
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
-[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
 [img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png

@@ -2,10 +2,13 @@
 uid: help-de-mailing-create-with-selection
 title: Kampagne an alle Personen in einer Selektion erstellen
 description: Kampagnen erstellen
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Selektion, Kampagne
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

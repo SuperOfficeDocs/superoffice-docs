@@ -2,45 +2,55 @@
 uid: help-nl-selection-display-as-charts
 title: Visualiseer selecties met grafieken
 description: Nadat u een selectie hebt gemaakt, kunt u uw resultaten visueel presenteren voor een directer begrip van de gegevens. In deze gids staat hoe u in SuperOffice CRM selecties kunt visualiseren met behulp van grafieken.
-author: SuperOffice RnD
-date: 02.15.2023
 keywords: selectie, grafiek
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Selectie weergeven als een grafiek
 
-Nadat u een selectie hebt gemaakt, kunt u uw resultaten visueel presenteren voor een directer begrip van de gegevens.
+Nadat u een selectie hebt gemaakt, kunt u uw gegevens visualiseren met grafieken voor een duidelijker en directer inzicht. De beschikbare grafiektypen zijn afhankelijk van het selectietype – bijvoorbeeld, alleen verkoopgerelateerde grafieken zijn beschikbaar voor verkoopselecties. Grafieken van dynamische selecties kunnen ook worden gebruikt in [dashboards][1].
 
-In het tabblad **Grafieken** kunt u op een grafiektype klikken om de gegevens in de actieve selectie als een grafiek weer te geven. De beschikbare grafiektypen zijn afhankelijk van het selectietype (voor verkoopselecties zijn alleen aan verkopen gerelateerde grafieken beschikbaar). Dynamische selecties met grafieken kunnen ook in [dashboards][1] worden gebruikt.
+![Een grafiek gebruiken om uw selectie te visualiseren -screenshot][img1]
 
-![Een grafiek gebruiken om uw selectie te visualiseren -screenshot][img3]
+## Stappen om een grafiek te openen
 
-## Een selectie in een grafiek visualiseren
+1. Open de selectie die u wilt visualiseren.
 
-1. Ga naar de Selectie in het navigatormenu en open een bestaande selectie of maak een nieuwe selectie. Selecteer vervolgens het tabblad Grafieken in de bovenste balk van uw scherm Selectie.
+1. Ga naar het tabblad **Grafieken**.
 
-1. U ziet nu alle grafieken die voor u beschikbaar zijn. Kies de grafiek die u wilt gebruiken. De titel van elke grafiek geeft aan wat de grafiek zal visualiseren.
+1. Klik op <i class="ph ph-chart-bar" aria-label="Bar chart"></i> en selecteer een grafiektype om de gegevens visueel weer te geven. De grafiektitels geven aan welke gegevens worden weergegeven.
 
-### Verken de grafiek
-
-* Klik op een grafiek om de grafiekgegevens weer te geven.
-
-* Plaats de muisaanwijzer op bepaalde grafieksectoren om gedetailleerde brongegevens weer te geven.
-
-* Klik op de gegevenslabels (legenda) naast of onder de grafiek om specifieke gegevens in de grafieken te verbergen/weer te geven. Dit kan nuttig zijn als u de grafieken wilt afdrukken of opslaan vanaf het voorbeeldvenster.
-
-* ![pictogram][img1]: Opent een voorbeeld van een grafiek. Hier kunt u ook de gegevensbron van de tabel zien voor de grafiek.
-
-* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Ververst de grafiek met bijgewerkte gegevens.
+1. (Optioneel) Klik op <i class="ph ph-pencil" aria-label="pencil icon"></i> boven de grafiek om het instellingenpaneel te openen en de grafiek verder te configureren.
 
 > [!NOTE]
-> Ga naar **Dashboard** in de navigator om de grafieken van ALLE gegevens in SuperOffice weer te geven.
+> Ga in het navigator naar **Dashboard** om grafieken voor **alle SuperOffice-gegevens** weer te geven.
 
-## Heeft u een melding gekregen dat er geen gegevens beschikbaar zijn?
+## Grafiek verkennen
 
-Sommige grafieken geven misschien aan dat er geen gegevens beschikbaar zijn. Dit betekent dat uw selectie niet de informatie bevat die deze grafiek probeert te tonen. Wijzig de criteria van uw selectie of kies een ander grafiektype.
+* Klik op gegevenslabels (legenda) om specifieke waarden te verbergen of weer te geven.
+
+* Beweeg de muisaanwijzer over delen van de grafiek om gedetailleerde brongegevens te bekijken.
+
+* Klik op een deel van de grafiek om dieper in de gegevens te duiken. Selecteer een rij om een voorbeeld weer te geven.
+
+    ![Grafiek van selectie verkennen -screenshot][img2]
+
+* Klik op <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> om de grafiek met de nieuwste gegevens bij te werken.
+
+* Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> bovenaan het tabblad met de grafiek en selecteer **Volledig scherm weergeven** om een gedetailleerde weergave van de grafiek te openen, inclusief datatabellen en exportopties (**PDF, PNG, SVG, CSV en XLS**).
+
+## Probleemoplossing: Geen gegevens beschikbaar
+
+Als een grafiek de melding **Geen gegevens beschikbaar** toont, betekent dit dat uw selectie niet de vereiste informatie bevat. Probeer het volgende:
+
+* Pas de selectiecriteria aan.
+* Kies een ander grafiektype dat beter past bij uw gegevens.
 
 ## Gerelateerde inhoud
 
@@ -50,6 +60,6 @@ Sommige grafieken geven misschien aan dat er geen gegevens beschikbaar zijn. Dit
 [1]: ../../../../dashboard/learn/index.md
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/maximize-dark.png
-[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
+<!-- Referentieafbeeldingen -->
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

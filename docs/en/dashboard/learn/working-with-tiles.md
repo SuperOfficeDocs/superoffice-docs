@@ -69,7 +69,7 @@ Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile 
 [1]: create.md
 [2]: edit-tile.md
 [3]: remove-tile.md
-[4]: ../../search-options/selection/learn/update/add-remove-members-static.md
+[4]: ../../search-options/selection/learn/add-remove-members-static.md
 [5]: show-sales-targets.md
 
 <!-- Referenced images -->

@@ -1,26 +1,4 @@
 ---
-uid: help-nl-selection-delete
-title: Selecties verwijderen
-description: Selecties verwijderen
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: selectie
-topic: howto
-language: nl
+uid: help-nl-selection-delete-redirect
+redirect_url: https://docs.superoffice.com/nl/search-options/selection/learn/update.html#delete
 ---
-
-# Selectie verwijderen
-<!-- markdownlint-disable-file MD029 -->
-[!include[Open Selections](../includes/goto-selections.md)]
-<!-- List starts in the include. Next line MUST be 2. -->
-2. Klik op de knop **Taak**.
-
-3. Selecteer **Deze selectie verwijderen**.
-
-4. Klik op **Ja** om het verwijderen van de selectie te bevestigen.
-
-[!include[Deleting items](../../../../learn/includes/tip-deletion.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->

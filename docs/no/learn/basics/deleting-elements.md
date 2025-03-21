@@ -103,7 +103,7 @@ Du har også muligheten til å gjenopprette andre brukeres slettede firma og per
 [5]: ../../contact/learn/move.md
 
 [6]: ../../diary/learn/recurrence/stop.md
-[7]: ../../search-options/selection/learn/howto/mass-delete.md
+[7]: ../../security/privacy/learn/mass-delete.md
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->

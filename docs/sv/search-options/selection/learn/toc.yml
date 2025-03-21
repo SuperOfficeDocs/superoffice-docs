@@ -1,20 +1,16 @@
 items:
 - name: Översikt
   href: index.md
-- name: Fönstret urval
-  href: screen/index.md
-- name: Statiska urval
-  href: static-selections.md
-- name: Dynamiska urval
-  href: dynamic-selections.md
-- name: Kombinationsurval
-  href: combined-selections.md
 - name: Skapa urval
-  href: create/toc.yml
-  topicHref: create/index.md
-- name: Uppdatera urval
-  href: update/toc.yml
-  topicHref: update/index.md
+  href: create.md
+- name: Redigera eller ta bort urval
+  href: update.md
+- name: Kombinera urval
+  href: combine.md
+- name: Lägga till och ta bort medlemmar (statisk)
+  href: add-remove-members-static.md
+- name: Kopiera medlemmar till ett annat urval
+  href: copy-members-to.md
 - name: Utföra uppgifter för urval
   href: howto/toc.yml
   topicHref: howto/index.md

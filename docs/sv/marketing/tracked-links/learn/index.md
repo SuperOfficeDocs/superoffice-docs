@@ -108,7 +108,7 @@ Google Analytics-funktionen i SuperOffice Marknadsföring identifierar dina utsk
 [4]: ../../editor/learn/add-unsubscribe-link.md
 [5]: ../../learn/create-folder.md
 [8]: ../../../request/learn/index.md
-[9]: ../../../search-options/selection/learn/static-selections.md
+[9]: ../../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
 [img4]: ../../../../media/loc/en/marketing/link-properties.png

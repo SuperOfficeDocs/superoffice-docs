@@ -4,12 +4,12 @@ title: Skrive ut etiketter Utvalg
 description: Skrive ut etiketter Utvalg
 keywords: utvalg, etikett, skriv ut
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 03.21.2025
+version: 10.5.3
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 ---
 
 # Skriv ut etiketter
@@ -31,9 +31,12 @@ Etikettskriving kan være nyttig når du trenger å sende brev til flere mottake
 
     ![Utvalg oppgave utskrift - velg etikettformat -screenshot][img1]
 
-1. Gå gjennom de nødvendige innstillingene, og klikk på **OK**.
+1. Gå gjennom de nødvendige innstillingene, og klikk på **OK**. For eksempel
 
-    ![Utvalg - Oppsett for utskrift av etiketter og nødvendige innstillinger -screenshot][img2]
+    * Scale: Actual size, default or 100%
+    * Margins: None
+    * Orientation: Portrait
+    * Paper size: A4
 
 1. Juster nettleserens utskriftsinnstillinger (for eksempel skalering, marger, retning og papirstørrelse) for å sikre at adressene passer riktig innenfor etikettområdet uten overlapping.
 
@@ -47,5 +50,4 @@ Etikettskriving kan være nyttig når du trenger å sende brev til flere mottake
 <!-- Referenced links -->
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
-[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
 [img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png

@@ -58,7 +58,6 @@ Rutan Företag och Kontakt innehåller all information relaterad till dina kunde
 * [Lägga till kontakter][3]
 * [Slå samman, ta bort eller återställ företag och kontakter][4]
 * [Importera flera företag och/eller kontakter][1]
-* [Massuppdatera företags- och kontaktinformation][5]
 * [Skapa val för vidare åtgärder][6]
 
 ## Kalender och händelser
@@ -108,7 +107,6 @@ Administratören kan [lägga till och anpassa projektguider][1] åt dig.
 [1]: ../../project/admin/create-project-guide.md
 [2]: ../../company/learn/create.md
 [3]: ../../contact/learn/create.md
-[5]: ../../search-options/selection/learn/howto/bulk-update.md
 [6]: ../../search-options/selection/learn/howto/index.md
 [4]: deleting-elements.md
 [7]: ../../project/learn/create.md

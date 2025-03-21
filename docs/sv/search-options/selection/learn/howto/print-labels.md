@@ -4,12 +4,12 @@ title: Skriva ut etiketter urval
 description: Skriva ut etiketter urval
 keywords: urval, etikett, skriv ut
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 03.21.2025
+version: 10.5.3
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+language: sv
 ---
 
 # Skriva ut etiketter
@@ -31,9 +31,12 @@ Etikettutskrift kan vara användbart när du behöver skicka brev till flera mot
 
     ![Urval uppgiftsutskrift - välj etikettformat -screenshot][img1]
 
-1. Granska de nödvändiga inställningarna och klicka på **OK**.
+1. Granska de nödvändiga inställningarna och klicka på **OK**. Till exempel:
 
-    ![Urval - Utskriftsinställningar och nödvändiga inställningar -screenshot][img2]
+    * Scale: Actual size, default or 100%
+    * Margins: None
+    * Orientation: Portrait
+    * Paper size: A4
 
 1. Justera webbläsarens utskriftsinställningar (såsom skala, marginaler, orientering och papperstorlek) för att säkerställa att adresserna passar korrekt inom etikettområdet utan att överlappa.
 
@@ -47,5 +50,4 @@ Etikettutskrift kan vara användbart när du behöver skicka brev till flera mot
 <!-- Referenced links -->
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/search-options/choose-label-layout-dialog.png
-[img2]: ../../../../../media/loc/en/search-options/selection-task-print-labels-dialog.png
 [img3]: ../../../../../media/loc/en/search-options/selection-task-print-labels-print-settings.png

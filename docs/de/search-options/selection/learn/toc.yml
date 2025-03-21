@@ -1,20 +1,16 @@
 items:
 - name: Überblick
   href: index.md
-- name: Ansicht Selektion
-  href: screen/index.md
-- name: Statische Selektionen
-  href: static-selections.md
-- name: Dynamische Selektionen
-  href: dynamic-selections.md
-- name: Kombinierte Selektionen
-  href: combined-selections.md
 - name: Selektion erstellen
-  href: create/toc.yml
-  topicHref: create/index.md
-- name: Auswahl aktualisieren
-  href: update/toc.yml
-  topicHref: update/index.md
+  href: create.md
+- name: Selektion bearbeiten oder löschen
+  href: update.md
+- name: Selektionen kombinieren
+  href: combine.md
+- name: Mitglieder hinzufügen und entfernen (statisch)
+  href: add-remove-members-static.md
+- name: Mitglieder in eine andere Selektion kopieren
+  href: copy-members-to.md
 - name: Aufgaben in der Ansicht Selektion ausführen
   href: howto/toc.yml
   topicHref: howto/index.md

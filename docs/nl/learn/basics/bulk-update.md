@@ -1,11 +1,11 @@
 ---
 uid: help-nl-bulk-update
 title: Bulksgewijs bijwerken
-description: Gegevens in bulk bijwerken in SuperOffice CRM.
-keywords: bulk, bulk update, gegevens bijwerken
-author: SuperOffice RnD
-date: 03.14.2025
-version: 10.5.2
+description: Met bulksgewijs bijwerken kunt u details wijzigen voor een grote groep personen, activiteiten, verkopen, projecten en meer.
+keywords: bulkgewijs bijwerken, bulk, bulk update, gegevens bijwerken
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,7 +14,10 @@ language: nl
 
 # Meerdere records bijwerken (bulksgewijs bijwerken)
 
-Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen van hetzelfde type. U kunt alle of geselecteerde records bulksgewijs bijwerken in sectietabbladen (archieven), selecties en het scherm **Zoeken**. Deze taak kan ook worden gebruikt om meerdere records te verwijderen.
+Met Bulkgewijs bijwerken kunt u in meerdere records tegelijk waarden wijzigen van hetzelfde type. U kunt alle of geselecteerde records bulksgewijs bijwerken in sectietabbladen (archieven), selecties en het scherm **Zoeken**. U kunt specifieke waarden bijwerken of wissen. Deze taak kan ook worden gebruikt om meerdere records te verwijderen.
+
+> [!NOTE]
+> U hebt specifieke rechten nodig om Bulksgewijs bijwerken te kunnen gebruiken. Deze rechten worden toegewezen in de Instellingen en het onderhoud.
 
 ## Stappen
 
@@ -91,3 +94,12 @@ U ontdekt dat het contactveld **Positie** zelden wordt gebruikt. Omdat u in elk 
 ## Project bijwerken
 
 U wilt alle "oude" projecten opschonen die niet zijn ingesteld als voltooid. Maak een selectie van al uw oude projecten, bijvoorbeeld van alle projecten die meer dan 2 jaar geleden zijn gemaakt en die de laatste jaren niet zijn bijgewerkt. Gebruik **Bulkgewijs bijwerken** om de status **Voltooid** voor deze projecten in stellen als **Ja**.
+
+## Gerelateerde inhoud
+
+* [Hoe vul ik voor veel personen in één keer de velden "Juridische basis", "Toestemmingsbron" en "Doel" in in SuperOffice CRM?][3]
+* [Massaal personen en bedrijven uit selectie verwijderen][1]
+
+<!-- Referenced links -->
+[1]: ../../security/privacy/learn/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk

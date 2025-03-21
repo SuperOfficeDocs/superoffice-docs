@@ -2,10 +2,13 @@
 uid: help-da-mailing-create-with-selection
 title: Oprettelse af udsendelser til alle personer i et udvalg
 description: Oprettelse af udsendelser
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: selection, udsendelse
+keywords: udvalg, udsendelse
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

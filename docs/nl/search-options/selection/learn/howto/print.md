@@ -1,11 +1,11 @@
 ---
-uid: help-nl-selection-print-company-reports
+uid: help-nl-selection-print
 title: Selectie afdrukken
 description: Selectie afdrukken
 keywords: selectie, selectie afdrukken
 author: Bergfrid Dias
-date: 10.29.2024
-version: 10.3.11
+date: 03.21.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

@@ -9,13 +9,9 @@ items:
     href: generate-follow-ups.md
   - name: Selectie weergeven als grafiek
     href: display-as-charts.md
-  - name: Bulksgewijs bijwerken
-    href: bulk-update.md
   - name: Etiketten afdrukken
     href: print-labels.md
   - name: Selectie afdrukken
     href: print.md
   - name: Exporteren naar Excel of bestand
     href: export.md
-  - name: Records permanent verwijderen
-    href: mass-delete.md

@@ -2,32 +2,36 @@
 uid: help-da-selection-send-email
 title: Afsendelse af e-mail til flere modtagere samtidig
 description: Afsendelse af e-mail til flere modtagere samtidig
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection, e-mail
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Send mail til flere modtagere
+# Send e-mail til flere modtagere
 
-Forestil dig, at du skal indkalde til et møde og sende sagslister til deltagerne. Da er det nyttigt at kunne sende en enkelt e-mail ud til flere modtagere samtidig.
+Forestil dig, at du skal indkalde til et møde og sende en dagsorden til deltagerne. Du kan sende en enkelt e-mail til flere modtagere på én gang.
 
-1. Hvis du kun vil udføre opgaven på nogle af personerne i udvalget, skal du vælge dem under fanen **Firma/person**. I så fald markeres afkrydsningsfeltet **Udfør kun opgaven på valgte medlemmer** automatisk.
+> [!TIP]
+> Hvis du kun vil sende e-mailen til bestemte personer i udvalget, skal du vælge dem i fanen **Firma/person** inden du fortsætter. Afkrydsningsfeltet **Udfør kun opgaven på valgte medlemmer** markeres automatisk.
 
-2. Klik på knappen **Opgave**.
+## Trin
 
-3. Vælg opgaven **Send e-mail**.
+1. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælg **Send e-mail**.
 
-4. I dialogboksen **Send e-mail** skal du angive, hvor modtagerne skal placeres.
+1. I dialogboksen **Send e-mail** skal du angive, hvor modtagerne skal placeres.
 
-    * **Til**: Felt til primære modtagere (dvs. de modtagere, du forventer at få svar fra).
-    * **Kopi til**: Felt til modtagere, du ønsker at sende en kopi af meddelelsen til, først og fremmest til information.
-    * **Bcc**: Felt til andre, du vil sende en kopi til. Modtagerne i dette felt vises ikke for de andre modtagere, og de kan heller ikke se, hvem der ellers har modtaget meddelelsen.
+    * **Til**: Primære modtagere (dem, du forventer svar fra).
+    * **Kopi til**: Modtagere, der modtager en kopi til information.
+    * **Bcc**: Modtagere, der modtager en kopi uden at være synlige for andre.
 
     > [!NOTE]
-    > Modtagerne her er alle personer med gyldige e-mailadresser, og som ikke er markeret **Ingen udsendelser**.
+    > Kun personer med gyldige e-mailadresser, som ikke er markeret **Ingen udsendelser**, vil blive inkluderet.
 
-5. Klik på **OK** i dialogboksen **Send e-mail**.
+1. Klik på **OK** for at bekræfte.
 
-6. I dit standard-e-mailprogram åbnes der en e-mail adresseret til de valgte modtagere. Her kan du skrive det ønskede indhold og derefter sende meddelelsen på den sædvanlige måde.
+1. En e-mail med de valgte modtagere åbnes i dit standard-e-mailprogram. Skriv din besked, og send den som normalt.

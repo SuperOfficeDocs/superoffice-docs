@@ -1,17 +1,25 @@
 ---
 uid: help-no-bulk-update
 title: Masseredigering
-description: Masseredigering
-author: SuperOffice RnD
-date: 06.29.2022
+description: Med masseredigering kan du endre detaljer for en stor gruppe personer, aktiviteter, salg, prosjekter og mer.
 keywords: masseredigering
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Oppdatere flere poster (masseredigering)
 
-Med masseredigering kan du endre verdier på tvers av flere oppføringer av samme type. Du kan utføre masseredigeringen på alle eller utvalgte oppføringer i detaljkort (arkiver), utvalg og **Finn**-skjermbildet. Denne oppgaven kan også brukes til å slette flere oppføringer.
+Med masseredigering kan du endre verdier på tvers av flere oppføringer av samme type. Du kan utføre masseredigeringen på alle eller utvalgte oppføringer i detaljkort (arkiver), utvalg og **Finn**-skjermbildet. Du kan oppdatere bestemte verdier og tømme bestemte verdier. Denne oppgaven kan også brukes til å slette flere oppføringer.
+
+> [!NOTE]
+> Du trenger spesifikke rettigheter for å kunne bruke masseredigering. Disse rettighetene er tildelt i Innstillinger og vedlikehold.
+
+## Trinn
 
 1. Åpne utvalget, detaljkortet (arkiv) eller søkeresultatene (**Finn**-skjermbildet) som inneholder oppføringene du vil oppdatere.
 
@@ -86,3 +94,12 @@ Du oppdager at kontaktfeltet **Posisjon** sjelden brukes. For å komme i gang me
 ## Oppdatere prosjekt
 
 Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fullføres. Opprett et utvalg av alle de gamle prosjektene dine, for eksempel alle prosjekter som går mer enn 2 år tilbake i tid, og som ikke har vært oppdatert det siste året. Bruk **Masseredigering** til å angi statusen **Utført** for disse prosjektene til **Ja**.
+
+## Relatert innhold
+
+* [Hvordan fyller jeg ut feltene "Hjemmel", "Samtykkekilde" og "Formål" for mange personer i SuperOffice CRM samtidig?][3]
+* [Massesletting av personer og firmaer fra utvalg][1]
+
+<!-- Referenced links -->
+[1]: ../../security/privacy/learn/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk

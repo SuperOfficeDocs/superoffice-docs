@@ -2,57 +2,54 @@
 uid: help-no-selection-generate-follow-ups
 title: Genererer oppfølging
 description: Genererer oppfølging
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Lag oppfølginger
 
-Du kan lage en oppfølging som for eksempel vises på aktivitetslisten til alle medlemmene av et utvalg. Et eksempel kan være hvis firmaet ditt har lansert et nytt produkt, og du vil minne alle selgerne på at di må invitere kundene sine til en produktpresentasjon.
+Du kan lage en oppfølging som for eksempel vises på aktivitetslisten til alle medlemmene av et utvalg. Dette er nyttig hvis firmaet ditt har lansert et nytt produkt, og du vil minne selgerne på å invitere kundene til en produktpresentasjon.
 
-1. Følg fremgangsmåten som er beskrevet under [Utfør oppgaver ved hjelp av utvalg][1], og velg fanen **Firma/person**.
+## Trinn
 
-2. Klikk på **Oppgave**-knappen.
+1. Gå til ønsket utvalg og velg fanen **Firma/person**.
 
-3. Velg oppgaven **Lag oppfølginger**.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Lag oppfølginger**.
 
-4. I dialogboksen **Generer oppfølginger** velger du en forhåndsdefinert oppfølgingstype fra **Type**-feltet.
+1. I dialogboksen **Generer oppfølginger**:
 
-5. I feltet **Start** skriver du inn datoen for når oppfølgingen skal starte.
+    * Velg en forhåndsdefinert oppfølgingstype fra **Type**-feltet.
+    * Angi startdato i **Start**-feltet.
+    * Skriv inn en tittel for oppfølgingen i **Tittel**-feltet.
+    * (Valgfritt) Legg til flere detaljer i **Agenda**-feltet.
 
-6. Angi en beskrivelse av oppfølgingen i feltet **Beskrivelse**.
+1. (Valgfritt) Velg et prosjekt i **Prosjekt**-feltet for å knytte oppfølgingen til.
 
-7. Velg hvilket prosjekt du vil koble oppfølgingen til, i **Prosjekt**-feltet. Gjør ett av følgende:
+1. Velg prioritet for oppfølgingen i **Prioritet**-feltet.
 
-    * Klikk på pilen, og velg et prosjekt fra listen.
-    * Skriv inn hele eller starten av prosjektnavnet.
+1. (Valgfritt) Merk av for **Utført** hvis oppfølgingen skal markeres som avsluttet.
 
-8. I feltet **Prioritet** angir du hvordan du vil prioritere oppfølgingen. Hvis du klikker på pilen, vises en liste med standardalternativene høy, middels og lav prioritet.
+1. Merk av for **Opprett bare én oppfølging på hvert firma** for å opprette én oppfølging per firma i stedet for én per kontaktperson. Det første firmamedlemmet som legges til i utvalget, inviteres.
 
-9. Merk av for **Utført** hvis oppfølgingen skal angis som avsluttet.
+1. Under **Velg eieren av disse oppfølgingene**, velg hvem som skal motta oppfølgingene:
 
-    Da blir det ikke inkludert ved bruk av hurtigsøk og i tellere, men vil fortsatt vises i historikklisten.
+    * **Min aktivitetsliste**: Alle oppfølginger legges til i din egen aktivitetsliste.
 
-10. Merk av for **Opprett bare én oppfølging på hvert firma** hvis du ikke vil opprette en oppfølging for hver person hos hvert firma i utvalget.
+    * **Bedriftseierens (vår kontaktpersons) aktivitetsliste**: Fordeler oppfølgingene til de ansvarlige kontaktpersonene for hvert firma (krever rettigheter i Innstillinger og vedlikehold).
 
-    For hvert firma opprettes det bare én oppfølging for det første firmamedlemmet som legges til i utvalget.
+    * **Annen medarbeider**: Tildeler oppfølgingene til en annen medarbeider fra listen. Tilgjengelige personer avhenger av ditt **brukernivå**.
 
-11. Velg eieren av disse oppfølgingene:
+1. Klikk på **Lagre** for å generere oppfølgingene.
 
-    * **Min aktivitetsliste**: Alle oppfølginger havner i din egen aktivitetsliste.
+![Utvalgsoppgave: Lag oppfølginger -screenshot][img1]
 
-    * **Bedriftseierens (vår kontaktpersons) aktivitetsliste**: Oppfølgingene fordeles på aktivitetslistene til personene som er definert som *vår kontaktperson* for hvert firma.
-        Brukeren må ha være tildelt rettigheter for dette i Innstillinger og vedlikehold.
+<!-- Refererte lenker -->
 
-    * **Annen medarbeider**: Velg ønsket alternativ fra listen over aktuelle personer.
-        Hvilke personer som er tilgjengelige, avhenger av ditt **brukernivå**.
-
-12. Klikk på **Lagre**-knappen.
-
-<!-- Referenced links -->
-[1]: index.md
-
-<!-- Referenced images -->
+<!-- Refererte bilder -->
+[img1]: ../../../../../media/loc/en/search-options/generate-follow-ups-from-selection.png

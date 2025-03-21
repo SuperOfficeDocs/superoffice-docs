@@ -2,10 +2,13 @@
 uid: help-da-selection-export
 title: Eksporter udvalg
 description: Sådan eksporteres et udvalg til Excel eller en fil.
+keywords: eksportér til Excel, eksporter til fil, udvalg, eksport, Excel
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: selection, eksport, Excel
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -16,6 +19,8 @@ language: da
 [!include[Start](../includes/steps-start-task.md)]
 
 1. Klik på knappen **Opgave,** og vælg **Eksporter til Excel**.
+
+1. Klik på **Ja** for at bekræfte.
 
 1. Klik på den eksporterede fil for at åbne den i Excel.
 

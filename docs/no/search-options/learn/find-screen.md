@@ -287,8 +287,8 @@ La oss si at du er leder for en markedsavdeling, og at dere skal ha en idédugna
 [5]: freetext-search.md
 [6]: ../../learn/basics/history.md
 [7]: ../selection/learn/howto/index.md
-[8]: ../selection/learn/create/index.md
-[9]: ../selection/learn/update/add-remove-members-static.md
+[8]: ../selection/learn/create.md
+[9]: ../selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
 

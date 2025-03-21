@@ -69,7 +69,7 @@ Du kan raskt avslutte flere saker samtidig ved å sette **Status**-feltet til *A
 [3]: reply.md
 [4]: find.md
 [5]: ../admin/status/index.md
-[6]: ../../search-options/selection/learn/create/index.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/request/bulk-update-requests.png

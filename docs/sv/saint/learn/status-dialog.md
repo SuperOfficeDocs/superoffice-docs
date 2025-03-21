@@ -36,7 +36,7 @@ Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett pr
 * [Dialogrutan Händelse][3]
 
 <!-- Referenced links -->
-[1]: ../../search-options/selection/learn/dynamic-selections.md#saint
+[1]: ../../search-options/selection/learn/create.md
 [2]: index.md
 [3]: ../../diary/learn/create-follow-up.md
 

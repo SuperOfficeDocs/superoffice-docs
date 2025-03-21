@@ -7,3 +7,5 @@ items:
     href: send-privacy-confirmation-email.md
   - name: Rapport met persoonlijke gegevens genereren
     href: generate-personal-data-report.md
+  - name: Records permanent verwijderen
+    href: mass-delete.md

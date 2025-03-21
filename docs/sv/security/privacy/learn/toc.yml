@@ -7,3 +7,5 @@ items:
     href: send-privacy-confirmation-email.md
   - name: Generera personuppgiftsrapport
     href: generate-personal-data-report.md
+  - name: Ta bort poster permanent
+    href: mass-delete.md

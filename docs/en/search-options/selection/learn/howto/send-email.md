@@ -2,32 +2,36 @@
 uid: help-en-selection-send-email
 title: Sending email to several recipients simultaneously
 description: Sending email to several recipients simultaneously
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection, email
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Send email to multiple recipients
 
-Suppose you were inviting people to a meeting and needed to send them an agenda. It would then be useful if you could send a single email to several recipients in one go.
+Suppose you are inviting people to a meeting and need to send them an agenda. You can send a single email to multiple recipients at once.
 
-1. To perform the task on only some of the contacts in the selection, select them in the **Company/contact** tab. The **Perform task on selected members only** option is then checked automatically.
+> [!TIP]
+> To send the email only to specific contacts in the selection, select them in the Company/contact tab before continuing. The **Perform task on selected members only** option will be checked automatically.
 
-2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
+## Steps
 
-3. Choose the **Send email** task.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Send email**.
 
-4. In the **Send email** dialog, specify where to place the recipients.
+1. In the **Send email** dialog, specify where to place the recipients.
 
-    * **To**: field for the primary recipients (the people you expect to reply to the message).
-    * **Cc**: field for the people you want to have a copy of the message, mainly for information.
-    * **Bcc**: field for other people you want to send a copy to. These recipients are not visible to the other recipients and they themselves cannot see who else received the message.
+    * **To**: Primary recipients (those expected to reply).
+    * **Cc**: People receiving a copy for information.
+    * **Bcc**: People receiving a copy without visibility to others.
 
     > [!NOTE]
-    > The recipients here are all contacts with valid email addresses and which are not marked **No Mailings**.
+    > Only contacts with valid email addresses who are not marked **No Mailings** will be included.
 
-5. Click **OK** in the **Send email** dialog.
+1. Click **OK** to confirm.
 
-6. An email message addressed to the selected recipients is opened in your default email program. Enter your message and send in the usual way.
+1. An email message with the selected recipients opens in your default email program. Enter your message and send it as usual.

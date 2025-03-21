@@ -9,13 +9,9 @@ items:
     href: generate-follow-ups.md
   - name: Få vist udvalg som diagram
     href: display-as-charts.md
-  - name: Masseredigering
-    href: bulk-update.md
   - name: Udskriv etiketter
     href: print-labels.md
   - name: Udskriv udvalg
     href: print.md
   - name: Eksportér til Excel eller fil
     href: export.md
-  - name: Slet poster permanent
-    href: mass-delete.md

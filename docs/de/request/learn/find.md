@@ -117,7 +117,7 @@ Falls die Vorschau nicht sichtbar ist, klicken Sie auf **Vorschau anzeigen** am 
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
 [12]: ../../search-options/learn/freetext-search.md
-[13]: ../../search-options/selection/learn/create/tutorial.yml
+[13]: ../../search-options/selection/learn/create.md
 [14]: ../../search-options/learn/search-criteria.md
 [18]: ../../dashboard/learn/index.md
 [19]: ../../learn/getting-started/main-screen/navigator.md#navigator

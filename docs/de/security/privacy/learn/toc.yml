@@ -7,3 +7,5 @@ items:
     href: send-privacy-confirmation-email.md
   - name: Bericht zu personenbezogenen Daten generieren
     href: generate-personal-data-report.md
+  - name: Datensätze unwiederbringlich löschen
+    href: mass-delete.md

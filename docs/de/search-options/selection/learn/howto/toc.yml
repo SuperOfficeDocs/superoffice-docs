@@ -9,13 +9,9 @@ items:
     href: generate-follow-ups.md
   - name: Selektion als Diagramm anzeigen
     href: display-as-charts.md
-  - name: Massenabgleich
-    href: bulk-update.md
   - name: Etiketten drucken
     href: print-labels.md
   - name: Selektion drucken
     href: print.md
   - name: In Excel oder eine Datei exportieren
     href: export.md
-  - name: Datensätze unwiederbringlich löschen
-    href: mass-delete.md

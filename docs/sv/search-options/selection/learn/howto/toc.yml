@@ -9,13 +9,9 @@ items:
     href: generate-follow-ups.md
   - name: Visa urval som diagram
     href: display-as-charts.md
-  - name: Massuppdatering
-    href: bulk-update.md
   - name: Skriva ut ledtexter
     href: print-labels.md
   - name: Skriva ut urval
     href: print.md
   - name: Exportera till Excel eller fil
     href: export.md
-  - name: Ta bort poster permanent
-    href: mass-delete.md

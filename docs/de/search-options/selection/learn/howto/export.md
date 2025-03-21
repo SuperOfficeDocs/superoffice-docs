@@ -2,10 +2,13 @@
 uid: help-de-selection-export
 title: Selektion exportieren
 description: Wie man eine Selektion in Excel oder eine Datei exportiert.
+keywords: in Excel exportieren, Export in Datei, Selektion, exportieren, Excel
 author: Bergfrid Dias
-date: 03.29.2023
-keywords: Selektion, exportieren, Excel
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -16,6 +19,8 @@ language: de
 [!include[Start](../includes/steps-start-task.md)]
 
 1. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **In Excel exportieren** aus.
+
+1. Klicken Sie auf **Ja**, um zu bestätigen.
 
 1. Klicken Sie auf die exportierte Datei, um sie in Excel zu öffnen.
 

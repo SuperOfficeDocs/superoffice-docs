@@ -1,17 +1,23 @@
 ---
 uid: help-en-bulk-update
 title: Bulk update
-description: Bulk update
-author: SuperOffice RnD
-date: 06.29.2022
+description: Bulk update allows you to change details for a large group of contacts, activities, sales, projects, and more.
 keywords: bulk update
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Update multiple records (bulk update)
 
-Bulk update allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. This task can also be used to delete multiple records.
+Bulk update allows you to change values across multiple records of the same type. You can perform the bulk update on all or selected records in section tabs (archives), selections and the **Find** screen. You can update specific values or clear specific values. This task can also be used to delete multiple records.
+
+> [!NOTE]
+> You need specific rights to be able to use Bulk update. These rights are assigned in the Settings and maintenance.
 
 ## Steps
 
@@ -88,3 +94,12 @@ You discover that the contact field **Position** is rarely used. To at least sta
 ## Update project
 
 You want to clean up all the "old" projects that have not been set to completed. Create a selection of all your old projects, for example all projects created more than 2 years ago and that has not been updated in the last year. Use **Bulk update** to set the **Completed** status for these projects to **Yes**.
+
+## Related content
+
+* [How do I fill in the "Legal base", "Consent source" and "Purpose" fields to many contacts in SuperOffice CRM all at the same time?][3]
+* [Mass delete contacts and companies from selection][1]
+
+<!-- Referenced links -->
+[1]: ../../security/privacy/learn/mass-delete.md
+[3]: ../../security/privacy/learn/edit-legal-base.md#bulk

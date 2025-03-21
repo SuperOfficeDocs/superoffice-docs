@@ -55,4 +55,4 @@ Sometimes you need to delete contacts in SuperOffice CRM — for example, duplic
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
 [4]: ../../learn/section-tabs/contacts-tab.md
-[9]: ../../search-options/selection/learn/howto/mass-delete.md
+[9]: ../../security/privacy/learn/mass-delete.md

@@ -72,8 +72,8 @@ The bottom of the screen contains the following [default section tabs][18]:
 [5]: merge-companies.md
 [7]: ../../learn/basics/print.md
 [8]: ../../learn/basics/deleting-elements.md#restore
-[9]: ../../search-options/selection/learn/howto/bulk-update.md
-[10]: ../../search-options/selection/learn/howto/mass-delete.md
+[9]: ../../learn/basics/bulk-update.md
+[10]: ../../security/privacy/learn/mass-delete.md
 
 [11]: ../../learn/section-tabs/contacts-tab.md
 [12]: ../../learn/section-tabs/relations-tab.md

@@ -2,10 +2,13 @@
 uid: help-en-mailing-create-with-selection
 title: Create mailings to all contacts in a selection
 description: Create mailings
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: selection, mailing
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 

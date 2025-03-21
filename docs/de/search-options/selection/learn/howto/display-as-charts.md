@@ -1,48 +1,58 @@
 ---
 uid: help-de-selection-display-as-charts
 title: Selektionen mit Diagrammen anzeigen
-description: "Nachdem Sie eine Selektion erstellt haben, können Sie Ihre Ergebnisse visuell anzeigen, um die Daten augenblicklicher zu verstehen. Diese Anleitung zeigt Ihnen, wie Sie Selektionen mit Hilfe von Diagrammen in SuperOffice CRM anzeigen können."
-author: SuperOffice RnD
-date: 02.15.2023
+description: Nachdem Sie eine Selektion erstellt haben, können Sie Ihre Ergebnisse visuell anzeigen, um die Daten augenblicklicher zu verstehen. Diese Anleitung zeigt Ihnen, wie Sie Selektionen mit Hilfe von Diagrammen in SuperOffice CRM anzeigen können.
 keywords: Selektion, Diagramm
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Selektion als Diagramm anzeigen
 
-Nachdem Sie eine Selektion erstellt haben, können Sie Ihre Ergebnisse visuell anzeigen, um die Daten augenblicklicher zu verstehen.
+Nachdem Sie eine Selektion erstellt haben, können Sie Ihre Daten mithilfe von Diagrammen visualisieren, um eine klarere und direktere Übersicht zu erhalten. Die verfügbaren Diagrammtypen hängen vom Selektionstyp ab – zum Beispiel stehen für Verkaufsselektionen nur verkaufsbezogene Diagramme zur Verfügung. Diagramme aus dynamischen Selektionen können auch in [Dashboards][1] verwendet werden.
 
-Auf der Registerkarte **Diagramme** können Sie die Daten in der aktiven Selektion als Diagramm anzeigen, indem Sie auf einen Diagrammtyp klicken. Welche Diagrammtypen verfügbar sind, hängt vom Selektionstyp ab. Für Selektionen des Typs Verkauf stehen nur verkaufsbezogene Diagramme zur Verfügung. Dynamische Selektionen mit Diagrammen können auch in [Dashboards][1] verwendet werden.
+![Verwenden Sie ein Diagramm, um Ihre Selektion anzuzeigen -screenshot][img1]
 
-![Verwenden Sie ein Diagramm, um Ihre Selektion anzuzeigen -screenshot][img3]
+## Schritte zum Öffnen eines Diagramms
 
-## Wie man eine Selektion in einem Diagramm anzeigt
+1. Öffnen Sie die Selektion, die Sie visualisieren möchten.
 
-1. Gehen Sie im Navigator-Menü zur Selektion und öffnen Sie entweder eine vorhandene Selektion oder erstellen Sie eine neue. Wählen Sie dann die Registerkarte Diagramme in der oberen Leiste Ihrer Ansicht Selektion aus..
+1. Gehen Sie zur Registerkarte **Diagramme**.
 
-1. Sie sehen jetzt alle für Sie verfügbaren Diagramme. Wählen Sie das Diagramm aus, das Sie verwenden möchten. Der Titel jedes Diagramms sagt Ihnen, was das Diagramm für Sie anzeigen wird.
+1. Klicken Sie auf <i class="ph ph-chart-bar" aria-label="Bar chart"></i> und wählen Sie einen Diagrammtyp aus, um die Daten visuell anzuzeigen. Die Diagrammtitel zeigen an, welche Daten dargestellt werden.
 
-### Diagramm untersuchen
-
-* Klicken Sie auf ein Diagramm, um detaillierte Diagrammdaten einzublenden.
-
-* Zeigen Sie mit dem Mauszeiger auf Diagrammbereiche, um detaillierte Quelldaten anzuzeigen.
-
-* Klicken Sie auf die Datenbezeichnungen (Legende) neben oder unter dem Diagramm, um die betreffenden Daten im Diagramm aus- bzw. einzublenden. Dies kann beim Drucken oder Speichern von Diagrammen über das Vorschaufenster hilfreich sein.
-
-* ![Symbol][img1]: Öffnet eine Vorschau eines Diagramms. In dieser Ansicht sind die Quelldaten im Tabellenformat zu sehen.
-
-* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Aktualisiert das Diagramm mit aktualisierten Daten.
+1. (Optional) Klicken Sie oberhalb des Diagramms auf <i class="ph ph-pencil" aria-label="pencil icon"></i>, um das Einstellungsfeld zu öffnen und das Diagramm weiter anzupassen.
 
 > [!NOTE]
-> Gehen Sie im Navigator zum **Dashboard**, um Diagramme ALLER SuperOffice-Daten anzuzeigen.
+> Um Diagramme für **alle SuperOffice-Daten** (nicht nur Selektionen) anzuzeigen, wählen Sie im Navigator **Dashboard**.
 
-## Haben Sie eine Meldung erhalten, dass keine Daten zur Verfügung stehen?
+## Diagramm erkunden
 
-Einige Diagramme sagen Ihnen möglicherweise, dass Keine Daten verfügbar sind. Das bedeutet, dass Ihre Selektion nicht die Information enthält, die dieses Diagramm anzuzeigen versucht. Ändern Sie die Kriterien für die Selektion oder wählen Sie einen anderen Diagrammtyp.
+* Klicken Sie auf Datenbezeichnungen (Legende), um bestimmte Werte ein- oder auszublenden.
 
-## Verwandt
+* Bewegen Sie den Mauszeiger über die Diagrammteile, um die zugehörigen Quelldaten anzuzeigen.
+
+* Klicken Sie auf einen Diagrammbereich, um tiefer in die Daten einzutauchen. Wählen Sie eine Zeile aus, um eine Vorschau anzuzeigen.
+
+    ![Diagramm erkunden -screenshot][img2]
+
+* Klicken Sie auf <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>, um das Diagramm mit den neuesten Daten zu aktualisieren.
+
+* Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> oben in der Registerkarte und wählen Sie **Vollbildansicht**, um eine detaillierte Diagrammansicht mit Datentabellen und Exportoptionen (**PDF, PNG, SVG, CSV und XLS**) zu öffnen.
+
+## Fehlerbehebung: Keine Daten verfügbar
+
+Wenn ein Diagramm die Meldung **Keine Daten verfügbar** anzeigt, bedeutet das, dass Ihre Selektion nicht die notwendigen Informationen enthält. Versuchen Sie Folgendes:
+
+* Passen Sie die Selektionskriterien an.
+* Wählen Sie einen anderen Diagrammtyp, der besser zu den Daten passt.
+
+## Verwandte Inhalte
 
 * [Arbeiten mit Dashboard-Kacheln][2]
 
@@ -50,6 +60,6 @@ Einige Diagramme sagen Ihnen möglicherweise, dass Keine Daten verfügbar sind. 
 [1]: ../../../../dashboard/learn/index.md
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/maximize-dark.png
-[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
+<!-- Referenzierte Bilder -->
+[img1]: ../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png
