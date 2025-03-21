@@ -2,54 +2,64 @@
 uid: help-sv-selection-display-as-charts
 title: Visualisera urval med diagram
 description: När du har skapat ett urval kan du visa dina resultat visuellt för att få en mer omedelbar förståelse av data. Den här guiden visar hur du visualiserar urval med hjälp av diagram i SuperOffice CRM.
-author: SuperOffice RnD
-date: 02.15.2023
 keywords: selection, diagram
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Visa urval som ett diagram
 
-När du har skapat ett urval kan du visa dina resultat visuellt för att få en mer omedelbar förståelse av data.
+När du har skapat ett urval kan du visualisera dina data med hjälp av diagram för att få en tydligare och mer omedelbar förståelse. Tillgängliga diagramtyper beror på typen av urval – till exempel visas endast försäljningsrelaterade diagram för säljurval. Diagram från dynamiska urval kan också användas i [dashboards][1].
 
-På fliken **Diagram** kan du klicka på en diagramtyp för att visa data i det aktiva urvalet som ett diagram. Vilka diagramtyper som är tillgängliga beror på urvalstyp (endast försäljningsrelaterade diagram är tillgängliga för säljurval). Dynamiska urval med diagram kan också användas i [dashboards][1].
+![Använd ett diagram för att visualisera ditt urval -screenshot][img1]
 
-![Använd ett diagram för att visualisera ditt urval -screenshot][img3]
+## Steg för att öppna ett diagram
 
-## Så här visualiserar du ett urval i ett diagram
+1. Öppna det urval du vill visualisera.
 
-1. Gå till Urval i navigatormenyn och öppna antingen ett befintligt urval eller skapa ett nytt urval. Välj sedan fliken Diagram i det övre fältet i fönstret Urval.
+1. Gå till fliken **Diagram**.
 
-1. Du kommer nu att se alla diagram som är tillgängliga för dig. Välj det diagram du vill använda. Titeln på varje diagram kommer att berätta vad diagrammet kommer att visualisera åt dig.
+1. Klicka på <i class="ph ph-chart-bar" aria-label="Bar chart"></i> och välj en diagramtyp för att visa data visuellt. Diagramtitlarna anger vilken data som visas.
 
-### Utforska diagrammet
-
-* Klicka på ett diagram för att borra ner i diagramdata.
-
-* Placera muspekaren över diagramsektorer för att visa detaljerade källdata.
-
-* Klicka på dataetiketterna (förklaringen) bredvid eller under diagrammet för att dölja/visa specifika data i diagrammen. Detta kan vara användbart om du vill skriva ut eller spara diagram från förhandsgranskningsfönstret.
-
-* ![ikon][img1]: Öppnar en förhandsgranskning av ett diagram. Här kan du också se datakälltabellen för diagrammet.
-
-* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Uppdatera diagrammet med de uppdaterade uppgifterna.
+1. (Valfritt) Klicka på <i class="ph ph-pencil" aria-label="pencil icon"></i> ovanför diagrammet för att öppna inställningspanelen där du kan justera diagrammet ytterligare.
 
 > [!NOTE]
-> Gå till **Dashboard** i navigatorn för att visa diagram för ALLA SuperOffice-data.
+> Om du vill se diagram för **alla SuperOffice-data** (inte bara urval), välj **Dashboard** i navigatorn.
 
-## Fick du ett meddelande om att det inte finns någon tillgänglig data?
+## Utforska diagrammet
 
-Vissa diagram kan visa att inga data är tillgängliga. Detta innebär att ditt urval inte innehåller den information som diagrammet försöker visa. Ändra villkoren för ditt urval eller välj en annan diagramtyp.
+* Klicka på dataetiketterna (förklaring) för att dölja eller visa specifika värden.
 
-## Relaterat
+* Håll muspekaren över diagramsektorer för att visa detaljerad källdata.
 
-* [Arbeta med figurer på dashboard][2]
+* Klicka på en del av diagrammet för att gräva djupare i datan. Välj en rad för att förhandsgranska den.
+
+    ![Utforska diagram över urval -screenshot][img2]
+
+* Klicka på <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> för att uppdatera diagrammet med de senaste uppgifterna.
+
+* Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> ovanför fliken med diagrammet och välj **Visa i helskärm** för att öppna en detaljerad vy av diagrammet med datatabeller och exportalternativ (**PDF, PNG, SVG, CSV och XLS**).
+
+## Felsökning: Inga data tillgängliga
+
+Om ett diagram visar meddelandet **Inga data tillgängliga** betyder det att ditt urval inte innehåller nödvändig information. Prova följande:
+
+* Justera kriterierna för urvalet.
+* Välj en annan diagramtyp som passar bättre till datan.
+
+## Relaterat innehåll
+
+* [Arbeta med dashboard][2]
 
 <!-- Referenced links -->
 [1]: ../../../../dashboard/learn/index.md
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/maximize-dark.png
-[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
+<!-- Refererade bilder -->
+[img1]: ../../../../../media/loc/sv/search-options/use-a-chart-to-visualize-your-selection.png
+[img2]: ../../../../../media/loc/sv/search-options/explore-selection-chart.png

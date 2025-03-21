@@ -1,48 +1,58 @@
 ---
 uid: help-en-selection-display-as-charts
 title: Visualize selections with charts
-description: After you have created a selection you can display your results visually for a more instant understanding of the data. This how-to guide will show you how to visualize selections with the help of charts in SuperOffice CRM.
-author: SuperOffice RnD
-date: 02.15.2023
+description: After you have created a selection you can display your results visually for a more instant understanding of the data. This how-to guide will show you how to visualize selections with the help of charts in SuperOffice CRM.+
 keywords: selection, chart
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Display selection as a chart
 
-After you have created a selection you can display your results visually for a more instant understanding of the data.
+After creating a selection, you can visualize your data using charts for a clearer and more immediate understanding. The available chart types depend on the selection type—for example, only sales-related charts are available for sales selections. Charts from dynamic selections can also be used in [dashboards][1].
 
-In the **Charts** tab you can click a chart type to display the data in the active selection as a chart. The available chart types depend on the selection type (only sales-related charts are available for sale selections). Dynamic selections with charts can also be used in [dashboards][1].
+![Use a chart to visualize your selection -screenshot][img1]
 
-![Use a chart to visualize your selection -screenshot][img3]
+## Steps to open a chart
 
-## How to visualize a selection in a chart
+1. Open the selection you wish to visualize.
 
-1. Go to the Selection in the navigator menu and either open an existing or create a new selection. Then select the Charts tab in the top bar of your Selection screen.
+1. Go to the **Charts** tab.
 
-1. You will now see all the charts that are available to you. Choose the chart you wish to use. The title of each chart will tell you what the chart will visualize for you.
+1. Click <i class="ph ph-chart-bar" aria-label="Bar chart"></i> and select a chart type to display the data visually. The chart titles indicate what data will be shown.
 
-### Explore the chart
-
-* Click on a chart to drill down on the chart data.
-
-* Place the mouse-pointer over chart sectors to view detailed source data.
-
-* Click the data labels (legend) next to or under the chart to hide/show specific data in the charts. This can be useful for printing or saving the charts from the preview window.
-
-* ![icon][img1]: Opens a preview of a chart. Here you can also see the data source table for the chart.
-
-* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> : Refreshes the chart with updated data.
+1. (Optional) Click <i class="ph ph-pencil" aria-label="pencil icon"></i> above the chart to open the settings panel, where you can configure the chart further.
 
 > [!NOTE]
-> Go to **Dashboard** in the navigator to view charts of ALL SuperOffice data.
+> To see charts for **all SuperOffice data** (not just selections), select **Dashboard** in the Navigator.
 
-## Did you get a message saying there is no data available?
+## Explore the chart
 
-Some charts might tell you there is No data available. This means that your selection does not contain the information this chart is trying to show. Change the criteria of your selection or choose another chart type.
+* Click the data labels (legend) to hide or show specific values.
 
-## Related
+* Hover over chart sections to see detailed source data.
+
+* Click a chart section to drill down into the data. Select a row to preview it.
+
+    ![Explore chart of selection -screenshot][img2]
+
+* Click <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> to update the chart with the latest data.
+
+* Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> on the tab above the chart and select **View in full screen** to open a detailed view of the chart, including data tables and export options (**PDF, PNG, SVG, CSV, and XLS**).
+
+## Troubleshooting: No data available
+
+If a chart displays a **No data available** message, it means your selection does not contain the necessary information. Try these solutions:
+
+* Adjust the selection criteria.
+* Choose a different chart type that aligns with your selection data.
+
+## Related content
 
 * [Working with dashboard tiles][2]
 
@@ -51,5 +61,5 @@ Some charts might tell you there is No data available. This means that your sele
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/maximize-dark.png
-[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
+[img1]:../../../../../media/loc/en/search-options/selection-chart.png
+[img2]: ../../../../../media/loc/en/search-options/drill-down-selection-chart.png

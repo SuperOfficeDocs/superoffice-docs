@@ -1,55 +1,65 @@
 ---
 uid: help-no-selection-display-as-charts
 title: Visualiser utvalg med diagrammer
-description: "Når du har opprettet et utvalg, kan du vise resultatene visuelt for en mer umiddelbar forståelse av dataene. Denne veiledningen viser deg hvordan du visualiserer valg ved hjelp av diagrammer i SuperOffice CRM."
-author: SuperOffice RnD
-date: 02.15.2023
+description: Når du har opprettet et utvalg, kan du vise resultatene visuelt for en mer umiddelbar forståelse av dataene. Denne veiledningen viser deg hvordan du visualiserer valg ved hjelp av diagrammer i SuperOffice CRM.
 keywords: utvalg, diagram
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Vis utvalg som et diagram
 
-Når du har opprettet et utvalg, kan du vise resultatene visuelt for en mer umiddelbar forståelse av dataene.
+Når du har opprettet et utvalg, kan du visualisere dataene dine med diagrammer for en raskere og tydeligere forståelse. De tilgjengelige diagramtypene avhenger av utvalgstypen – for eksempel er det kun salgsrelaterte diagrammer tilgjengelig for salgsutvalg. Diagrammer fra dynamiske utvalg kan også brukes i [dashbord][1].
 
-I fanen **Diagrammer** kan du klikke på en diagramtype for å vise dataene i det aktive utvalget som et diagram. De tilgjengelige diagramtypene avhenger av utvalgstypen (bare salgsrelaterte diagrammer er tilgjengelige for salgsutvalg). Dynamiske utvalg med diagrammer kan også brukes i [dashbord][1].
+![Bruk et diagram til å visualisere utvalget -screenshot][img1]
 
-![Bruk et diagram til å visualisere utvalget -screenshot][img3]
+## Trinn for å åpne et diagram
 
-## Slik visualiserer du et utvalg i et diagram
+1. Åpne utvalget du vil visualisere.
 
-1. Gå til Utvalg i navigatormenyen og åpne et eksisterende utvalg eller opprett et nytt utvalg. Velg deretter fanen Diagrammer i toppraden på utvalgskjermen.
+1. Gå til fanen **Diagrammer**.
 
-1. Nå ser du alle diagrammene som er tilgjengelige for deg. Velg diagrammet du vil bruke. Tittelen på diagrammet forteller deg hva diagrammet vil visualisere for deg.
+1. Klikk på <i class="ph ph-chart-bar" aria-label="Bar chart"></i> og velg en diagramtype for å vise dataene visuelt. Tittelen på hvert diagram forteller deg hvilke data som blir vist.
 
-### Utforsk diagrammet
-
-* Klikk på et diagram for å bla nedover i diagramdataene.
-
-* Plasser musepekeren over diagramsektorer for å se detaljerte kildedata.
-
-* Klikk på dataetikettene (tekst) ved siden av eller under diagrammet for å skjule/vise bestemte data i diagrammene. Dette kan være nyttig hvis du vil skrive ut eller lagre diagrammene fra forhåndsvisningsvinduet.
-
-* ![ikon][img1]: Åpner en forhåndsvisning av et diagram. Her kan du også se datakildetabellen for diagrammet.
-
-* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Oppdaterer diagrammet med oppdaterte data.
+1. (Valgfritt) Klikk på <i class="ph ph-pencil" aria-label="pencil icon"></i> over diagrammet for å åpne innstillingspanelet og konfigurere diagrammet videre.
 
 > [!NOTE]
-> Gå til **Dashboard** i navigatoren for å vise diagrammer over ALLE SuperOffice-data.
+> For å se diagrammer for **alle SuperOffice-data** (ikke bare utvalg), gå til **Dashboard** i navigatoren.
 
-## Fikk du en melding om at det ikke finnes noen tilgjengelige data?
+## Utforsk diagrammet
 
-Noen diagrammer kan fortelle deg at Ingen data er tilgjengelig. Dette betyr at utvalget ditt ikke inneholder informasjonen som dette diagrammet prøver å vise. Endre kriteriene for utvalget ditt, eller velg en annen diagramtype.
+* Klikk på dataetikettene (forklaring) for å skjule eller vise spesifikke verdier.
 
-## Beslektet
+* Hold musepekeren over diagramsektorer for å se detaljerte kildedata.
 
-* [Arbeide med dashbordbordfigurer][2]
+* Klikk på en del av diagrammet for å bore ned i dataene. Velg en rad for å vise forhåndsvisning.
+
+    ![Utforsk utvalg i diagramvisning -screenshot][img2]
+
+* Klikk på <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> for å oppdatere diagrammet med de nyeste dataene.
+
+* Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task"></i> over fanen for diagrammet og velg **Vis i fullskjerm** for å åpne en detaljert visning med datatabeller og eksportalternativer (**PDF, PNG, SVG, CSV og XLS**).
+
+## Feilsøking: Ingen data tilgjengelig
+
+Hvis et diagram viser meldingen **Ingen data tilgjengelig**, betyr det at utvalget ditt ikke inneholder nødvendig informasjon. Prøv dette:
+
+* Juster kriteriene for utvalget.
+* Velg en annen diagramtype som passer til datagrunnlaget ditt.
+
+## Relatert innhold
+
+* [Arbeide med dashbordfliser][2]
 
 <!-- Referenced links -->
 [1]: ../../../../dashboard/learn/index.md
 [2]: ../../../../dashboard/learn/working-with-tiles.md
 
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/maximize-dark.png
-[img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif
+<!-- Refererte bilder -->
+[img1]: ../../../../../media/loc/no/search-options/use-a-chart-to-visualize-your-selection.png
+[img2]: ../../../../../media/loc/no/search-options/explore-selection-chart.png
