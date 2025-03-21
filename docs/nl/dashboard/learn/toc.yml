@@ -6,10 +6,8 @@ items:
   items:
   - name: Een nieuw dashboard maken of dupliceren
     href: create.md
-  - name: Een dashboard bewerken
+  - name: Een dashboard bewerken of verwijderen
     href: update.md
-  - name: Een dashboard verwijderen
-    href: delete.md
 - name: Werken met tegels
   topicHref: working-with-tiles.md
   items:

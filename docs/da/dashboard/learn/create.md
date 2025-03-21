@@ -72,16 +72,14 @@ Du kan oprette en kopi af et eksisterende dashboard. For eksempel for at oprette
 
 ## Relateret indhold
 
-* [Redigering af dashboard][3]
+* [Redigering/sletning af dashboard][3]
 * [Tilføj ruder/rediger layout][2]
-* [Sletning af dashboard][5]
 * [Opret en søgning og gem det som et valg][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

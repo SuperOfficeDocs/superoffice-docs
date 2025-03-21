@@ -72,16 +72,14 @@ Sie können eine Kopie eines vorhandenen Dashboards erstellen. Dies kann hilfrei
 
 ## Verwandte Themen
 
-* [Dashboards bearbeiten][3]
+* [Dashboards bearbeiten oder löschen][3]
 * [Kacheln hinzufügen/Layout bearbeiten][2]
-* [Dashboards löschen][5]
 * [Suche erstellen und als Selektion speichern][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

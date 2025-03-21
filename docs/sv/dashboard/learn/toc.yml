@@ -6,10 +6,8 @@ items:
   items:
   - name: Skapa eller duplicera en dashboard
     href: create.md
-  - name: Redigera en dashboard
+  - name: Redigera/ta bort en dashboard
     href: update.md
-  - name: Ta bort en dashboard
-    href: delete.md
 - name: Arbeta med figurer
   topicHref: working-with-tiles.md
   items:

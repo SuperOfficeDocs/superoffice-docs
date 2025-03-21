@@ -1,11 +1,14 @@
 ---
-uid: help-sv-dashboard-edit
+uid: help-sv-dashboard-update
 title: Redigera ett dashboard
 description: Redigera ett dashboard
 keywords: dashboard, figur, layout
 author: Bergfrid Dias
-date: 02.25.2025
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -23,6 +26,14 @@ language: sv
 
 > [!NOTE]
 > Om du minskar antalet figurer tas alla extrafigurer bort från dashboarden (den senaste figuren först). Panelerna ordnas vänster till höger, uppifrån och ned. Om du ökar antalet figurer sorteras de befintliga figurerna om och nya, tomma figurer läggs till.
+
+## <a id="delete"></a>Ta bort ett dashboard
+
+1. Öppna skärmen **Dashboard**.
+2. Markera den dashboard som du vill redigera, klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Ta bort den här dashboarden**.
+3. Bekräfta genom att klicka på **OK**. Dashboardet tas bort.
+
+    Om dashboarden är fastnålad på andra användare eller användargrupper har de inte längre tillgång till den.
 
 ## Relaterat innehåll
 

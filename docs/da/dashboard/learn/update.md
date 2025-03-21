@@ -1,11 +1,14 @@
 ---
-uid: help-da-dashboard-edit
+uid: help-da-dashboard-update
 title: Redigering af dashboard
 description: Redigering af dashboard
 keywords: dashboard, rude, layout
 author: Bergfrid Dias
-date: 03.15.2023
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -23,6 +26,14 @@ language: da
 
 > [!NOTE]
 > Hvis du reducerer antal figurer, slettes alle overskydende figurer fra dashboardet (fra den sidste figur). Ruderne ordnes fra venstre mod højre og fra top til bund. Hvis du øger antal figurer, ændres rækkefølgen på de eksisterende figurer, og nye tomme figurer tilføjes.
+
+## <a id="delete"></a>Sletning af dashboard
+
+1. Åbn skærmbilledet **Dashboard**.
+2. Vælg det dashboard, du vil redigere, klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Slet dette dashboard**.
+3. Klik på **OK** for at bekræfte. Dashboardet slettes.
+
+    Hvis du har fastgjort dashboardet til andre brugere eller brugergrupper, har de ikke længere adgang til det.
 
 ## Relateret indhold
 

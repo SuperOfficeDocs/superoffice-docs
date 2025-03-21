@@ -72,16 +72,14 @@ Du kan lage en kopi av et eksisterende dashbord. For eksempel for å lage din eg
 
 ## Aktuelt innhold
 
-* [Redigere et dashbord][3]
+* [Redigere/slette et dashbord][3]
 * [Legg til figurer / rediger layout][2]
-* [Slette et dashbord][5]
 * [Opprette et søk og lagre det som et utvalg][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

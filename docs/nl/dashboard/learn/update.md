@@ -1,11 +1,14 @@
 ---
-uid: help-nl-dashboard-edit
+uid: help-nl-dashboard-update
 title: Een dashboard bewerken
 description: Een dashboard bewerken
 keywords: dashboard, tegel, opmaak
 author: Bergfrid Dias
-date: 03.15.2023
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -23,6 +26,14 @@ language: nl
 
 > [!NOTE]
 > Als u het aantal tegels vermindert, worden alle extra tegels van het dashboard verwijderd (beginnend met de laatste tegel). De tegels zijn gerangschikt van links naar rechts, van boven naar beneden. Als u het aantal tegels verhoogt, worden de bestaande tegels opnieuw geordend en worden nieuwe lege tegels toegevoegd.
+
+## <a id="delete"></a>Een dashboard verwijderen
+
+1. Open het scherm **Dashboard**.
+2. Selecteer het dashboard dat u wilt bewerken, klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Dit dashboard verwijderen**.
+3. Klik ter bevestiging op **OK**. Het dashboard wordt verwijderd.
+
+    Als het dashboard aan andere gebruikers of gebruikersgroepen is vastgemaakt, hebben zij er geen toegang meer toe.
 
 ## Gerelateerde inhoud
 

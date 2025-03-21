@@ -1,11 +1,14 @@
 ---
-uid: help-no-dashboard-edit
+uid: help-no-dashboard-update
 title: Redigere et dashbord
 description: Redigere et dashbord
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: dashbord, figur, format
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -23,6 +26,14 @@ language: no
 
 > [!NOTE]
 > Hvis du reduserer antall figurer, vil alle ekstra figurer bli slettet fra dashbordet (den siste figuren slettes først). Figurene er organisert fra venstre mot høyre, øverst til nederst. Hvis du øker antall figurer, vil eksisterende figurer bli omorganisert, og nye tomme figurer blir lagt til.
+
+## <a id="delete"></a>Slette et dashbord
+
+1. Åpne skjermbildet **Dashbord**.
+2. Velg dashbordet du vil redigere, klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Slett dette dashbordet** .
+3. Klikk på **OK** for å bekrefte. Dashbordet er slettet.
+
+    Hvis dashbordet er festet til andre brukere eller brukergrupper, vil de ikke lenger ha tilgang til det.
 
 ## Aktuelle emner
 

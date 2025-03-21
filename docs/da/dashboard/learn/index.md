@@ -94,13 +94,12 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 * [Opret et nyt dashboard eller dupliker et dashboard][1]
 * [Redigering af dashboard][3]
 * [Tilføj ruder/rediger layout][4]
-* [Sletning af dashboard][5]
+* Sletning af dashboard
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

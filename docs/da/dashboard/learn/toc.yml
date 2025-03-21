@@ -6,10 +6,8 @@ items:
   items:
   - name: Opret/dubler et dashboard
     href: create.md
-  - name: Rediger et dashboard
+  - name: Rediger eller slet et dashboard
     href: update.md
-  - name: Slet et dashboard
-    href: delete.md
 - name: Arbejd med ruder
   topicHref: working-with-tiles.md
   items:

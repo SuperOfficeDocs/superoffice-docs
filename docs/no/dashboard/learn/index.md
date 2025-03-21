@@ -94,13 +94,12 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 * [Opprette et nytt dashbord eller dupkliser et eksisterende][1]
 * [Redigere et dashbord][3]
 * [Legg til figurer / rediger layout][4]
-* [Slette et dashbord][5]
+* Slette et dashbord
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

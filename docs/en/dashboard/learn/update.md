@@ -1,11 +1,14 @@
 ---
-uid: help-en-dashboard-edit
+uid: help-en-dashboard-update
 title: Edit a dashboard
 description: Edit a dashboard
-author: Bergfrid Dias
-date: 03.15.2023
 keywords: dashboard, tile, layout
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -24,7 +27,15 @@ language: en
 > [!NOTE]
 > If you reduce the number of tiles, all extra tiles are deleted from the dashboard (beginning with the last tile). The tiles are ordered left to right, top to bottom. If you increase the number of tiles, existing tiles are rearranged, and new empty tiles will be added.
 
-## Related topics
+## <a id="delete"></a>Delete a dashboard
+
+1. Open the **Dashboard** screen.
+2. Select the dashboard you want to edit, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Delete this dashboard**.
+3. Click **OK** to confirm. The dashboard is deleted.
+
+    If the dashboard is pinned to other users or user groups, they will no longer have access to it.
+
+## Related content
 
 * [Create a new dashboard][1]
 * [Add tiles and edit layout][2]

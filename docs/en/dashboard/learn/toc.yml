@@ -6,10 +6,8 @@ items:
   items:
   - name: Create or copy a dashboard
     href: create.md
-  - name: Edit a dashboard
+  - name: Edit/delete a dashboard
     href: update.md
-  - name: Delete a dashboard
-    href: delete.md
 - name: Work with tiles
   topicHref: working-with-tiles.md
   items:

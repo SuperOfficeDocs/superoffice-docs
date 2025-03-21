@@ -72,16 +72,14 @@ You can create a copy of an existing dashboard. For example, to create your own 
 
 ## Related content
 
-* [Edit a dashboard][3]
+* [Edit or delete a dashboard][3]
 * [Add tiles / Edit layout][2]
-* [Delete a dashboard][5]
 * [Create a search and save it as a selection][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

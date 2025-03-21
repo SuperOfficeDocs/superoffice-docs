@@ -72,18 +72,14 @@ U kunt een kopie van een bestaand dashboard maken. Bijvoorbeeld om uw eigen vers
 
 ## Gerelateerde inhoud
 
-* [Een dashboard bewerken][3]
+* [Een dashboard bewerken of verwijderen][3]
 * [Tegels toevoegen/Opmaak bewerken][2]
-* [Een dashboard dupliceren][4]
-* [Een dashboard verwijderen][5]
 * [Een zoekopdracht maken en opslaan als een selectie][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[4]: copy.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

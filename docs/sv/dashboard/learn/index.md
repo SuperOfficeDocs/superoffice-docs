@@ -94,13 +94,12 @@ Om du inte hittar den figur du behöver bland de fördefinierade figurerna i Sup
 * [Skapa en ny dashboard eller duplicera][1]
 * [Redigera ett dashboard][3]
 * [Lägg till figurer/Redigera layout][4]
-* [Ta bort ett dashboard][5]
+* Ta bort ett dashboard
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

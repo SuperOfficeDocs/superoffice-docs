@@ -72,16 +72,14 @@ Du kan skapa en kopia av en befintlig dashboard. Till exempel för att skapa en 
 
 ## Relaterat innehåll
 
-* [Redigera ett dashboard][3]
+* [Redigera/ta bort ett dashboard][3]
 * [Lägg till figurer/Redigera layout][2]
-* [Ta bort ett dashboard][5]
 * [Skapa en sökning och spara den som ett urval][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[5]: delete.md
 [6]: ../../search-options/learn/index.md#search-to-selection
 
 <!-- Referenced images -->

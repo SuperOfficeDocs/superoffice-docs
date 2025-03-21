@@ -94,13 +94,12 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 * [Dashboard erstellen oder duplizieren][1]
 * [Dashboards bearbeiten][3]
 * [Kacheln hinzufügen/Layout bearbeiten][4]
-* [Dashboards löschen][5]
+* Dashboards löschen
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->

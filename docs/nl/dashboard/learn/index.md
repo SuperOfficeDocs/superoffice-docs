@@ -94,13 +94,12 @@ Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde te
 * [Een nieuw dashboard maken of dupliceren][1]
 * [Een dashboard bewerken][3]
 * [Tegels toevoegen/Opmaak bewerken][4]
-* [Een dashboard verwijderen][5]
+* Een dashboard verwijderen
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
