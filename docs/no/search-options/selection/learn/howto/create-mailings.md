@@ -2,10 +2,13 @@
 uid: help-no-mailing-create-with-selection
 title: Opprette masseutsendelser til alle personer i et utvalg
 description: Lag utsendelser
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: utvalg, utsendelse
+author: Bergfrid Dias
+date: 03.21.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
