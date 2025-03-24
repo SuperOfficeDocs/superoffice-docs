@@ -18,6 +18,8 @@ Med **Dashbord**-funksjonen i SuperOffice CRM får du rask tilgang til diagramme
 
 Dashbord vises som faner øverst på skjermen. Festede dashbord og dashbord som er valgt som favoritter, vises her sammen med dashbordet som ble brukt sist. Hvis du vil vise andre dashbord som du har tilgang til, kan du søke i navigatoren.
 
+![Tilpass dashbordet ditt for å gjøre det mer verdifullt for deg -screenshot][img4]
+
 ## Terminologi
 
 * **Dashbord:** Et dashbord er en måte å vise ulike typer visuelle data på ett sted på. Vanligvis skal et dashbord formidle forskjellig, men relatert informasjon på en lett forståelig måte.
@@ -59,26 +61,12 @@ Det finnes flere typer diagrammer:
 | Kolonne + linje | (To akser) Et diagram med to akser som kombinerer et stolpe- og linjediagram. |
 | Stolpe + linje | (To akser) Et diagram med dobbel akse som kombinerer et stolpe- og linjediagram. |
 
-## Tilpasse dashbordet ditt
-
-Du kan velge blant mange forhåndsdefinerte figurer for å visualisere og evaluere arbeidet ditt, med et øyeblikksbilde av aktivitetsnivåer, kundesegmenter, produktstatistikk, prosjektdetaljer og salg. Ved å tilpasse dashbordfigurene dine kan du vise grafene og oversiktene som er viktigst for deg.
-
-![Tilpass dashbordet ditt for å gjøre det mer verdifullt for deg -screenshot][img4]
-
-### Lage din egen graf for dashbordet
-
-Hvis du ikke finner riktig figur, kan du opprette dine egne figurer basert på valgene dine. Du kan visualisere alle dynamiske valg i grafer for å få den informasjonen du trenger, på en rask og lettfattelig måte. Du kan også opprette dine egne figurer fra bunnen av ved hjelp av ønskede kriterier og oppsettet som viser dataene på riktig måte.
-
-### Opprette flere faner
+## Opprette flere faner
 
 Som standard er bare én dashbordfane, kalt Status, konfigurert. Den inneholder forskjellige figurer med forhåndsdefinerte diagrammer. Du kan redigere denne fanen og/eller legge til ekstra dashbordfaner for å vise alle figurene og diagrammene du ønsker.
 
 > [!NOTE]
 > Tilgangsrettigheter og konfidensialitet gjelder figurdata, så figurene viser bare informasjon du har tilgang til.
-
-### Redigere eller opprette dine egne figurer
-
-Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i SuperOffice Dashboard, kan du [lage din egen][4].
 
 ## Alternativer i dashbordbildet
 
@@ -96,11 +84,49 @@ Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i S
 * [Legg til figurer / rediger layout][4]
 * Slette et dashbord
 
+Et dashbord kan bestå av et hvilket som helst antall figurer. Hver figur inneholder en grafisk eller numerisk fremstilling av SuperOffice-data.
+
+Det er dataene som ligger bak figurene, som gjør dashbordet nyttig. Finn ut hvordan du får tilgang til informasjonen på dashbordet, slik at du kan få en klar oversikt og kan prioritere de neste trinnene bedre.
+
+## Vise figurer og data
+
+* Klikk på data i en figur (for eksempel en bransje i et sektordiagram) for å vise de underliggende dataene.
+
+* Plasser musepekeren over en del av en figur for å vise kildedata i en popup-boks.
+
+* Klikk på dataetikettene (tekst) under figuren for å skjule/vise bestemte figurer. Dette kan være nyttig hvis du skal skrive ut eller eksportere figurene.
+
+* Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i toppteksten på en figur, og velg deretter **Fullskjermvisning** for å åpne figuren i fullskjerm. Nyttig for figurer med mye innhold.
+
+### Se nærmere på underliggende data
+
+Følg trinnene i denne GIF-en eller trinnene nedenfor for å se hvordan du får tilgang til dataene bak figurene:
+
+![Vis dataene bak grafen din ved å se nærmere på dashbordet -screenshot][img2]
+
+1. Åpne skjermbildet **Dashbord**.
+
+2. Velg det relevante dashbordet.
+
+3. Klikk på data i en figur (for eksempel en kolonne i et kolonnediagram). Et nytt vindu viser oppføringene i delen du klikket på.
+
+4. Her har du følgende alternativer:
+
+    * Velg en oppføring for å forhåndsvise den.
+
+    * Dobbeltklikk på en oppføring for å åpne den (eller velg en oppføring og klikk **Åpne**).
+
+    * Hvis du vil [kopiere oppføringer til et utvalg][8], klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, og deretter velger du **Kopier til utvalg**. Hvis du ikke velger noen oppføringer, kopieres alle oppføringene.
+
+5. Klikk på **Lukk** når du er ferdig.
+
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
 [6]: working-with-tiles.md
+[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

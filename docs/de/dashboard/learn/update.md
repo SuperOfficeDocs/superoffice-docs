@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Dashboards bearbeiten
+# Dashboard personalisieren
+
+Sie können aus vielen vordefinierten Kacheln auswählen, um Ihre Arbeit mit einer Momentaufnahme von Aktivitätsniveaus, Kundensegmenten, Produktstatistiken, Projektdetails und Verkäufen anzuzeigen. Um Ihre Dashboard-Kacheln zu personalisieren, können Sie die Diagramme und Übersichten anzeigen, die für Sie persönlich am wertvollsten sind.
+
+## Ihr eigenes Diagramm für das Dashboard erstellen
+
+Wenn Sie nicht die richtige Kachel für sich finden, können Sie je nach den Selektionen Ihre eigenen Kacheln erstellen. Sie können alle dynamischen Selektionen in Diagrammen anzeigen, um die benötigten Informationen schnell und leicht verständlich zu erhalten. Sie können auch von Anfang an Ihre eigenen Kacheln mit den gewünschten Kriterien und dem Layout erstellen, die Ihre Daten korrekt anzeigen.
+
+## Dashboards bearbeiten
 
 1. Öffnen Sie die Ansicht **Dashboard**.
 

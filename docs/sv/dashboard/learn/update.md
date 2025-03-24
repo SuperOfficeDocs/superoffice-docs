@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Redigera ett dashboard
+# Anpassa din dashboard
+
+Du kan välja mellan många fördefinierade figurer för att visualisera och utvärdera ditt arbete, med en översikt över aktivitetsnivåer, kundsegment, produktstatistik, projektinformation och försäljning. Genom att anpassa figurerna på din dashboard kan du visa de diagram och översikter som är mest värdefulla just för dig.
+
+## Skapa ett eget diagram för dashboarden
+
+Om du inte hittar den figur du behöver kan du skapa egna figurer baserat på dina urval. Du kan visualisera alla dynamiska urval som diagram så att du får den information du behöver på ett snabbt och lättförståeligt sätt. Du kan också skapa egna figurer från början med önskade kriterier och en layout som visar dina data på rätt sätt.
+
+## Redigera ett dashboard
 
 1. Öppna skärmen **Dashboard**.
 

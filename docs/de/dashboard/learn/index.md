@@ -18,6 +18,8 @@ Das **Dashboard** in SuperOffice CRM ermöglicht den schnellen Zugriff auf Diagr
 
 Dashboards werden als Registerkarten oben in der Ansicht angezeigt. Hier werden angeheftete Dashboards und als Favoriten eingestellte Dashboards zusätzlich zum zuletzt verwendeten Dashboard angezeigt. Suchen Sie im Navigator, um andere Dashboards anzuzeigen, auf die Sie Zugriff haben.
 
+![Personalisieren Sie Ihr Dashboard, damit es nützlicher für Sie wird -screenshot][img4]
+
 ## Terminologie
 
 * **Dashboard:** Ein Dashboard ist eine Möglichkeit, verschiedene Arten von visuellen Daten an einem Ort anzuzeigen. Normalerweise dient ein Dashboard dazu gedacht, verschiedene, aber verwandte Informationen in einer leicht verständlichen Form zu vermitteln.
@@ -59,26 +61,12 @@ Zur Auswahl stehen folgende Diagrammtypen:
 | Spalte + Linie | (2 Achsen) Ein Diagramm mit zwei Achsen, das ein Säulen- und ein Liniendiagramm kombiniert. |
 | Balken + Linie | (2 Achsen) Ein Diagramm mit zwei Achsen, das ein Balken- und ein Liniendiagramm kombiniert. |
 
-## Dashboard personalisieren
-
-Sie können aus vielen vordefinierten Kacheln auswählen, um Ihre Arbeit mit einer Momentaufnahme von Aktivitätsniveaus, Kundensegmenten, Produktstatistiken, Projektdetails und Verkäufen anzuzeigen. Um Ihre Dashboard-Kacheln zu personalisieren, können Sie die Diagramme und Übersichten anzeigen, die für Sie persönlich am wertvollsten sind.
-
-![Personalisieren Sie Ihr Dashboard, damit es nützlicher für Sie wird -screenshot][img4]
-
-### Ihr eigenes Diagramm für das Dashboard erstellen
-
-Wenn Sie nicht die richtige Kachel für sich finden, können Sie je nach den Selektionen Ihre eigenen Kacheln erstellen. Sie können alle dynamischen Selektionen in Diagrammen anzeigen, um die benötigten Informationen schnell und leicht verständlich zu erhalten. Sie können auch von Anfang an Ihre eigenen Kacheln mit den gewünschten Kriterien und dem Layout erstellen, die Ihre Daten korrekt anzeigen.
-
 ### Zusätzliche Registerkarten erstellen
 
 Standardmäßig ist nur eine Dashboard-Registerkarte mit dem Namen Status eingerichtet. Sie enthält verschiedene Kacheln mit vordefinierten Diagrammen. Sie können diese Registerkarte bearbeiten und/oder zusätzliche Dashboard-Registerkarten hinzufügen, auf denen Sie alle Kacheln und Diagramme Ihrer Wahl darstellen können.
 
 > [!NOTE]
 > Da die Kacheldaten Zugriffsrechten und Vertraulichkeitsregeln unterliegen, werden in den Kacheln nur Informationen angezeigt, auf die Sie Zugriff haben.
-
-### Ihre eigenen Kacheln bearbeiten oder erstellen
-
-Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im SuperOffice-Dashboard finden, können Sie immer [Ihre eigene Kachel erstellen][4].
 
 ## Optionen in der Ansicht Dashboard
 
@@ -96,11 +84,49 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 * [Kacheln hinzufügen/Layout bearbeiten][4]
 * Dashboards löschen
 
+Dashboards können beliebig viele Kacheln enthalten. Jede Kachel enthält eine grafische oder numerische Darstellung von SuperOffice-Daten.
+
+Die Daten in den Kacheln machen die Nützlichkeit des Dashboards aus. Lernen Sie, wie Sie auf die Information in Ihrem Dashboard zugreifen können, damit Sie sich einen klaren Überblick verschaffen und die Prioritäten für Ihre nächsten Schritte besser setzen können.
+
+## Kacheln und Daten anzeigen
+
+* Klicken Sie auf Daten in einer Kachel (beispielsweise einen Sektor in einem Kreisdiagramm), um die zugrunde liegenden Daten anzuzeigen.
+
+* Stellen Sie den Mauszeiger über einen Bereich einer Kachel, um die Quelldaten in einem Popup-Fenster anzuzeigen.
+
+* Klicken Sie auf die Datenbezeichnungen (Legende) unter der Kachel, um die betreffenden Daten in den Kacheln aus- bzw. einzublenden. Dies kann zum Drucken oder Exportieren von Kacheln nützlich sein.
+
+* Klicken Sie <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel und wählen Sie **Vollbildansicht anzeigen** aus, um die Kachel als Vollbild zu öffnen. Dies ist für Kacheln mit viel Inhalt nützlich.
+
+### Basisdaten untersuchen
+
+Befolgen Sie die folgenden Schritte in diesem GIF oder die folgenden Schritte, um zu sehen, wie Sie auf die Daten zugreifen können, auf denen die Kacheln basieren:
+
+![Legen Sie die Daten offen, auf denen das Diagramm mit einem Dashboard-Drill-Down basiert -screenshot][img2]
+
+1. Öffnen Sie die Ansicht **Dashboard**.
+
+2. Wählen Sie das betreffende Dashboard aus.
+
+3. Klicken Sie auf Daten in einer Kachel (beispielsweise eine Säule in einem Säulendiagramm). In einem neuen Fenster werden die Datensätze in dem Bereich angezeigt, auf den Sie geklickt haben.
+
+4. Sie haben hier die folgenden Optionen:
+
+    * Wählen Sie einen Datensatz aus, um ihn in der Vorschau anzuzeigen.
+
+    * Doppelklicken Sie auf einen Datensatz, um ihn zu öffnen (bzw. wählen Sie einen Datensatz aus und klicken Sie auf **Öffnen**).
+
+    * Um die Option [**Datensätze in eine Selektion kopieren**][8] auszuführen, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **In Selektion kopieren** aus. Wenn Sie keine Datensätze auswählen, werden alle Datensätze kopiert.
+
+5. Klicken Sie, sobald Sie fertig sind, auf **Schließen**.
+
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
 [6]: working-with-tiles.md
+[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif

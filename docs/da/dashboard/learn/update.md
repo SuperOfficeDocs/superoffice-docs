@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Redigering af dashboard
+# Tilpas dit dashboard
+
+Du kan vælge mellem mange foruddefinerede ruder for at visualisere og evaluere dit arbejde med et øjebliksbillede af aktivitetsniveauer, kundesegmenter, produktstatistik, projektdetaljer og salg. Ved at tilpasse dine dashboardruder får du vist de grafer og oversigter, der er mest værdifulde for dig personligt.
+
+## Opret din egen graf til dashboardet
+
+Hvis du ikke kan finde den rette rude til dig, kan du oprette dine egne ruder baseret på dine valg. Du kan visualisere alle dynamiske markeringer i grafer for at give dig de oplysninger, du har brug for, på en hurtig og letforståelig måde. Du kan også oprette dine egne ruder fra starten med ønskede kriterier og det layout, der viser dine data korrekt.
+
+## Redigering af dashboard
 
 1. Åbn skærmbilledet **Dashboard**.
 

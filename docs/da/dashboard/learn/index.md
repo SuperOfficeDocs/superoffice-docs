@@ -16,6 +16,8 @@ language: da
 
 Med **Dashbord**-funktionen i SuperOffice CRM får du hurtig adgang til de diagrammer, rapporter og statistikker, som er vigtigst for dig. Du kan vælge mellem en lang række foruddefinerede ruder og også tilføje ruder fra dynamiske markeringer eller oprette dine egne.
 
+![Tilpas dit dashboard for at gøre det mere værdifuldt for dig -screenshot][img4]
+
 Dashboards vises som faner øverst på skærmen. Fastgjorte dashboards og dashboards, der er angivet som foretrukne, vises her ud over det senest anvendte dashboard. Hvis du vil have vist andre dashboards, som du har adgang til, skal du søge i navigatoren.
 
 ## Terminologi
@@ -59,26 +61,12 @@ Der er forskellige diagramtyper:
 | Kolonne + linje | (2 akser) Et diagram med to akser, der kombinerer et søjle- og kurvediagram. |
 | Sølje + linje | (2 akser) Et diagram med to akser, der kombinerer et søjle- og linjediagram. |
 
-## Tilpas dit dashboard
-
-Du kan vælge mellem mange foruddefinerede ruder for at visualisere og evaluere dit arbejde med et øjebliksbillede af aktivitetsniveauer, kundesegmenter, produktstatistik, projektdetaljer og salg. Ved at tilpasse dine dashboardruder får du vist de grafer og oversigter, der er mest værdifulde for dig personligt.
-
-![Tilpas dit dashboard for at gøre det mere værdifuldt for dig -screenshot][img4]
-
-### Opret din egen graf til dashboardet
-
-Hvis du ikke kan finde den rette rude til dig, kan du oprette dine egne ruder baseret på dine valg. Du kan visualisere alle dynamiske markeringer i grafer for at give dig de oplysninger, du har brug for, på en hurtig og letforståelig måde. Du kan også oprette dine egne ruder fra starten med ønskede kriterier og det layout, der viser dine data korrekt.
-
-### Opret flere faner
+## Opret flere faner
 
 Der er som standard kun konfigureret én dashboardfane, kaldet Status. Det indeholder fire ruder med forhåndsdefinerede diagrammer. Du kan redigere denne fane og/eller tilføje ekstra dashboardfaner, hvor du kan præsentere alle ruder og diagrammer efter eget valg.
 
 > [!NOTE]
 > Adgangsrettigheder og fortrolighed gælder rudedata, så ruderne viser kun den information, du har adgang til.
-
-### Rediger eller opret dine egne ruder
-
-Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede felter i SuperOffice Dashboard, kan du altid [oprette din egen rude][4].
 
 ## Indstillinger på skærmbilledet Dashboard
 
@@ -96,11 +84,49 @@ Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede f
 * [Tilføj ruder/rediger layout][4]
 * Sletning af dashboard
 
+Et dashboard kan bestå af et vilkårligt antal ruder. Hver rude indeholder et diagram, som er en grafisk fremstilling af SuperOffice-data.
+
+Det er de data, der ligger bag ruderne, der gør et dashboard nyttigt. Lær, hvordan du får adgang til oplysningerne i dit dashboard, så du bedre kan få et klart overblik og prioritere dine næste skridt.
+
+## Vis felter og data
+
+* Klik på data i en rude (f.eks. en sektor i et cirkeldiagram) for at få vist de underliggende data.
+
+* Placer musemarkøren over en sektion i en rude for at få vist kildedata i en popup.
+
+* Klik på dataetiketterne (tekst) under ruden for at skjule/vise bestemte data. Dette kan være nyttigt til udskrivning eller eksport af ruderne.
+
+* Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidehovedet på en rude og vælg **Vis i fuld skærm** for at åbne ruden i fuld skærm. Nyttigt for ruder med meget indhold.
+
+### Undersøg underliggende data
+
+Følg trinnene i denne GIF eller nedenstående trin for at se, hvordan du kan få adgang til dataene bag felterne:
+
+![Afslør dataene bag din graf med dashboard drill down -screenshot][img2]
+
+1. Åbn skærmbilledet **Dashboard**.
+
+2. Vælg det relevante dashboard.
+
+3. Klik på data i en rude (f.eks. en kolonne i et søjlediagram). Et nyt vindue viser posterne i den sektion, du har klikket på.
+
+4. Her har du følgende alternativer:
+
+    * Vælg en post for at få vist den.
+
+    * Dobbeltklik på en post for at åbne den (eller vælg en post, og klik på **Åbn**).
+
+    * Hvis du vil [kopiere posterne til en markering][8], skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælge **Kopier til markering**. Hvis du ikke vælger poster, kopieres alle poster.
+
+5. Klik på **Luk**, når du er færdig.
+
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
 [6]: working-with-tiles.md
+[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

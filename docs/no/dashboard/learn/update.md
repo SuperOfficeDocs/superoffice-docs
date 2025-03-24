@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Redigere et dashbord
+# Tilpasse dashbordet ditt
+
+Du kan velge blant mange forhåndsdefinerte figurer for å visualisere og evaluere arbeidet ditt, med et øyeblikksbilde av aktivitetsnivåer, kundesegmenter, produktstatistikk, prosjektdetaljer og salg. Ved å tilpasse dashbordfigurene dine kan du vise grafene og oversiktene som er viktigst for deg.
+
+## Lage din egen graf for dashbordet
+
+Hvis du ikke finner riktig figur, kan du opprette dine egne figurer basert på valgene dine. Du kan visualisere alle dynamiske valg i grafer for å få den informasjonen du trenger, på en rask og lettfattelig måte. Du kan også opprette dine egne figurer fra bunnen av ved hjelp av ønskede kriterier og oppsettet som viser dataene på riktig måte.
+
+## Redigere et dashbord
 
 1. Åpne skjermbildet **Dashbord**.
 

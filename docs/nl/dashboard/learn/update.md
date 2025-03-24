@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Een dashboard bewerken
+# Uw dashboard aanpassen
+
+U kunt kiezen uit vele vooraf gedefinieerde tegels om uw werk te visualiseren en te evalueren, met een momentopname van activiteitsniveaus, klantsegmenten, productstatistieken, projectdetails en verkopen. Door uw dashboardtegels aan te passen, kunt u de grafieken en overzichten tonen die voor u persoonlijk het meest waardevol zijn.
+
+## Maak uw eigen grafiek voor het dashboard
+
+Als u de juiste tegel niet kunt vinden, kunt u uw eigen tegels maken op basis van uw selecties. U kunt alle dynamische selecties in grafieken visualiseren om u op een snelle en gemakkelijk te begrijpen manier de informatie te geven die u nodig hebt. U kunt ook uw eigen tegels maken vanaf het begin met gewenste criteria en de opmaak die uw gegevens correct weergeven.
+
+## Een dashboard bewerken
 
 1. Open het scherm **Dashboard**.
 

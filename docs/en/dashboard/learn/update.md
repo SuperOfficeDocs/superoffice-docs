@@ -12,7 +12,15 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Edit a dashboard
+# Customize your dashboard
+
+You can pick from many pre-defined tiles to visualize and evaluate your work, with a snapshot of activity levels, customer segments, product statistics, project details, and sales. By customizing your dashboard tiles, you get to show the graphs and overviews that are most valuable for you personally.
+
+## Create your own graph for the dashboard
+
+If you cannot find the right tile for you, you can create your own tiles based on your selections. You can visualize all dynamic selections in graphs to give you the information you need in a quick and easy-to-understand way. You can also create your own tiles from start with wanted criteria and the layout that show your data correctly.
+
+## Edit a dashboard
 
 1. Open the **Dashboard** screen.
 

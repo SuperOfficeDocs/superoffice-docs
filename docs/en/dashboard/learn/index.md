@@ -63,24 +63,12 @@ The tiles can also be customized to show only data from selections. Access right
 | ![icon][img14] | Column + line (2 axes) | A dual axis chart that combines a column and line chart. |
 | ![icon][img15] | Bar + line (2 axes) | A dual axis chart that combines a bar and line chart. |
 
-## Customize your dashboard
-
-You can pick from many pre-defined tiles to visualize and evaluate your work, with a snapshot of activity levels, customer segments, product statistics, project details, and sales. By customizing your dashboard tiles, you get to show the graphs and overviews that are most valuable for you personally.
-
-### Create your own graph for the dashboard
-
-If you cannot find the right tile for you, you can create your own tiles based on your selections. You can visualize all dynamic selections in graphs to give you the information you need in a quick and easy-to-understand way. You can also create your own tiles from start with wanted criteria and the layout that show your data correctly.
-
-### Create additional tabs
+## Create additional tabs
 
 By default, only one dashboard tab, called Status, is set up. It contains different tiles with pre-defined charts. You can edit this tab and/or add extra dashboard tabs, where you can present all the tiles and charts of your choice.
 
 > [!NOTE]
 > Access rights and confidentiality apply to the tile data, so tiles will only display information you have access to.
-
-### Edit or create your own tiles
-
-If you do not find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always [create your own tile][4].
 
 ## Options in the Dashboard screen
 
@@ -100,15 +88,53 @@ If you do not find the tile you need among the set of pre-defined tiles in Super
 * [Targets][7]
 * Help (F1)
 
+A dashboard can consist of any number of tiles. Each tile contains a graphical or numerical representation of SuperOffice data.
+
+It is the data that lies behind the tiles that makes a dashboard useful. Learn how to access the information in your dashboard, so that you can get a clear overview and prioritize your next steps better.
+
+## View tiles and data
+
+* Click on data in a tile (for instance a sector in a pie chart) to display the underlying data.
+
+* Place the mouse-pointer over a section of a tile to view source data in a pop-up box.
+
+* Click the data labels (legend) under the tile to hide/show specific data in the tiles. This can be useful for printing or exporting the tiles.
+
+* Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile and select **View in full screen** to open the tile in full screen. Useful for tiles with much content.
+
+### Examine underlying data
+
+Follow the steps in this GIF or the steps below to see how you can access the data behind the tiles:
+
+![Reveal the data behind your graph with dashboard drill down -screenshot][img2]
+
+1. Open the **Dashboard** screen.
+
+2. Select the relevant dashboard.
+
+3. Click on data in a tile (for instance a column in a column chart). A new window displays the records in the section you clicked.
+
+4. Here you have the following options:
+
+    * Select a record to preview it.
+
+    * Double-click a record to open it (or select a record and click **Open**).
+
+    * To [copy the records to a selection][8], click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Copy into selection**. If you do not select any records, all records are copied.
+
+5. Click **Close** when you are done.
+
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
 [4]: add-tile.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/index.md
+[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
 [img12]: ../../../../common/icons/area.png
 [img14]: ../../../../common/icons/combined.png
 [img15]: ../../../../common/icons/combined-bar.png
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
