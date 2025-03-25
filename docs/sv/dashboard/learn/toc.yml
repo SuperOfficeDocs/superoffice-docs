@@ -6,19 +6,10 @@ items:
 - name: Redigera/ta bort dashboard
   href: update.md
 - name: Arbeta med figurer
-  topicHref: working-with-tiles.md
-  items:
-  - name: Översikt
-    href: working-with-tiles.md
-  - name: Lägga till figur/redigera layout på dashboard
-    href: add-tile.md
-  - name: Redigera en figur
-    href: edit-tile.md
-  - name: Ta bort en figur
-    href: remove-tile.md
-  - name: Använda försäljningsmål i figurer
-    href: show-sales-targets.md
-  - name: Använda utskick och formulär i figurer
-    href: show-marketing.md
-  - name: Använda ärenden i figurer
-    href: show-requests.md
+  href: working-with-tiles.md
+- name: Använda försäljningsmål i figurer
+  href: show-sales-targets.md
+- name: Använda utskick och formulär i figurer
+  href: show-marketing.md
+- name: Använda ärenden i figurer
+  href: show-requests.md

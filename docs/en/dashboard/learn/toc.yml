@@ -6,19 +6,10 @@ items:
 - name: Edit/delete a dashboard
   href: update.md
 - name: Work with tiles
-  topicHref: working-with-tiles.md
-  items:
-  - name: Overview
-    href: working-with-tiles.md
-  - name: Add tile / edit layout in dashboard
-    href: add-tile.md
-  - name: Edit a tile
-    href: edit-tile.md
-  - name: Remove a tile
-    href: remove-tile.md
-  - name: Use sales targets in tiles
-    href: show-sales-targets.md
-  - name: Use mailing and forms in tiles
-    href: show-marketing.md
-  - name: Use requests in tiles
-    href: show-requests.md
+  href: working-with-tiles.md
+- name: Use sales targets in tiles
+  href: show-sales-targets.md
+- name: Use mailing and forms in tiles
+  href: show-marketing.md
+- name: Use requests in tiles
+  href: show-requests.md
