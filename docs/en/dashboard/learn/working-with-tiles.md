@@ -1,8 +1,9 @@
 ---
 uid: help-en-dashboard-tiles
 title: Working with tiles
-description: In this how-to guide, you will learn how to create a dashboard tile.
-keywords: dashboard, tile
+description: Learn how to add, customize, and manage tiles in your SuperOffice dashboards.
+keywords: add tile, edit tile, copy tile, duplicate tile, remove tile, customize tile, dataset, dashboard, tile
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -11,104 +12,155 @@ audience_tooltip: SuperOffice CRM
 language: en
 ---
 
-# Working with tiles / edit layout in dashboard
+# Working with tiles
 
-If you do not find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own tile.
+Learn how to add, customize, and manage tiles in your SuperOffice dashboards. Tiles are visual summaries based on CRM data—ideal for tracking requests, sales, activities, or marketing results.
 
-## Add tile
+You can use pre-defined tiles or create your own.
 
-If you do not find the tile you need among the set of pre-defined tiles in SuperOffice Dashboard, you can always create your own.
+## Prerequisite: switch to layout mode
 
-Watch this video or follow the steps below to learn how to create your own dashboard tile (video length – 7:20):
+To manage tiles, you must first enter layout mode:
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+1. Open the dashboard you wish to customize.
 
-### Steps
+1. In the dashboard header, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Edit dashboard tiles**.
 
-1. Open the **Dashboard** screen.
+    The dashboard enters layout mode:
+    * The **Edit dashboard tiles** sidebar opens on the right.
+    * Each tile shows an edit icon (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * You can add, move, resize, or edit tiles.
 
-2. Select the dashboard you want to edit.
+## <a id="add"></a>Add tile
 
-3. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+1. In the **Edit dashboard tiles** sidebar, choose the type of data (such as company, sale, or request) from the **Show tiles for** list.
 
-    ![Select tile type -screenshot][img1]
+    ![Edit dashboard tiles sidebar -screenshot][img1]
 
-    > [!NOTE]
-    > If the **Layout** tab and the fields are disabled, this means you do not have sufficient user rights. Please contact your administrator to get the right access.
+1. Choose a tile from either the **Library** (pre-defined tiles) or **Selections** (tiles based on your own dynamic selections).
 
-4. In the **Show tiles for** list, select the type of records you want to use, for instance companies, follow-ups or sales. Relevant tiles are displayed in the **Library** and **Selections** tabs below:
+    * Use the **search field** to quickly locate tiles.
+    * Each tile has an icon indicating its type—such as chart, list, or big number.
 
-    * **Library**: This tab contains a set of pre-defined tiles from the online template library. The icon next to the tile name indicates the tile type.
+1. Add the tile to the dashboard:
+    * **Drag and drop** the tile into an available slot.
+    * Or, click the <i class="ph ph-plus" aria-label="Add button"></i> icon that appears when hovering the tile name.
 
-        > [!TIP]
-        > You can also select an empty tile to create a tile from scratch.
+    The tile will automatically adjust to the available space and align with the dashboard layout.
 
-    * **Selections**: This tab contains dynamic selections with [charts][2], and will only show selections of the same record/entity type selected in the **View** list above (for example, company or sale).
+1. Resize or reposition tiles as needed.
 
-    > [!NOTE]
-    > When using a selection chart, the dataset is copied, and any changes to the selection will not be reflected in the tile.
+1. Click **Done** to exit layout mode.
 
-5. Optional: Use the search field to find specific tiles.
+### Create a tile from scratch
 
-6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
+1. Select the **Empty tile** option for the type of data you want to visualize.
+1. Add it to the dashboard.
+1. In the **Edit tile** dialog, enter a descriptive name.
+1. Select the **Dataset** tab and [define the criteria][4] to control what data the tile will display.
 
-7. Repeat steps 4-6 to add more tiles.
+    ![Edit tile dialog, Dataset tab -screenshot][img2]
 
-8. Adjust the tiles on the dashboard:
+    This tab works like [the Find screen][5]. Use it to define filters such as owner, date range, or category.
 
-    * Hold the mouse-pointer over a tile and click and drag the frame to adjust the tile size. Available slots/spaces in the dashboard are highlighted in yellow when the tile can fit in that position.
+1. Go to the **Layout** tab to configure the tile's appearance. Choose [chart type][3], labels, sorting, and other formatting options.
 
-    * Click the header of a tile and drag it to another position.
+    ![Edit tile dialog, Layout tab -screenshot][img3]
 
-9. Click **Done**.
+1. Click **Save**, then click **Done** to exit layout mode.
 
-### The dataset tab
+### <a id="selection-chart"></a>About selection-based tiles
 
-The tab for Dataset will show the criteria overview like you are used to in Find and Selection. The different criteria you select here will filter the wanted data for your tile.
+When you add a tile from the **Selections** tab, you are not linking the tile to a live selection. Instead, you are copying the current dataset and layout from the [chart defined in the selection][2]. After that point, the tile and the selection are independent.
 
-You have various edit options for your dashboard tiles, including the Source of the data
+The **Selections** tab only shows:
 
-### The layout tab
+* Dynamic selections
+* Selections matching the type chosen in **Show tiles for**
+* Selections with a saved chart on the **Chart** tab
 
-The tab for Layout gives you a lot of possibilities to fine-tune the visual look of the tile. If you are happy with the layout of a tile, you can also duplicate the tile to change the dataset behind without changing the layout.
+If a selection is missing from the list, check:
 
-Choose the wanted chart type and the settings needed. The output of the tile is shown on the right side
+* Is it a static selection? Static selections are not supported here.
+* Does the record type (company, sale, and so on) match the selected type?
+* Has a chart been defined and saved on the **Chart** tab?
 
-## Edit a tile
+After you add the tile:
 
-1. Go to the required dashboard.
+* Changes to the **criteria** or **chart** in the selection do **not** affect the tile.
+* Changes to the **dataset** or **layout** in the tile do **not** affect the selection.
+* The **tile does not stay in sync** with the selection, but it still updates dynamically based on its own dataset.
 
-2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
+If you want the tile to reflect updates from a selection, either adjust the tile manually or delete and re-add it from the updated selection.
 
-3. In the dashboard, click the **Edit tile** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>).
+### Add a web panel tile
 
-4. In the **Dataset** tab, you can [edit the criteria][11] for the data displayed in the tile. Remember to update the tile name to reflect any changes made here.
+Use this tile to embed a webpage inside the dashboard:
 
-5. In the **Layout** tab, you can edit various settings, values and formatting of the tile. The preview on the right will update with the selected settings.
+1. Set **Show tiles for** to **Other**.
+1. In the **Library** tab, select **Web panel**.
+1. Enter the URL you want to display.
+1. If the URL uses HTTP (not HTTPS), enable **Allow insecure address**.
+1. Click **Save**, then click **Done** to exit layout mode.
 
-6. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][12] to the tile name, titles and labels.
+### Add an HTML tile
 
-7. Click **Save**.
+Use this tile to display formatted text in your dashboard. For example, a welcome message, legend, or internal explanation.
 
-## Remove a tile
+1. Set **Show tiles for** to **Other**.
+1. In the **Library** tab, select **HTML**.
+1. Click **Add** to select at least one language for the content.
+1. Use the built-in editor to enter and format your content.
 
-You can remove tiles from a dashboard, as long as you have editing access to it.
+    You can use the same formatting options available in Chat and Forms. Add content in multiple languages to ensure the tile displays correctly for all users.
 
-> [!NOTE]
-> Removed tiles are still available to add to dashboards.
+1. Click **Save**, then click **Done** to exit layout mode.
 
-**Steps:**
+## <a id="edit"></a>Edit a tile
 
-1. Go to the required dashboard.
+1. While in layout mode, click the **Edit** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>) on the tile.
+1. In the **Dataset** tab, adjust the filters as needed.
+1. In the **Layout** tab, select the chart type and visual settings.
+1. Update the tile name to match the updated data or layout.
+1. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][12] to the tile title and labels.
+1. Click **Save**.
 
-2. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
+## <a id="copy"></a>Duplicate or copy a tile
 
-3. In the dashboard, click the **Remove tile** icon (<i class="ph ph-x-circle" aria-hidden="true"></i>) on the tile you want to remove.
+You can reuse an existing tile by either duplicating it in the same dashboard or copying it to another dashboard. You must have **edit access to the target dashboard** to copy a tile to it.
 
-4. Click **OK** to confirm.
+1. Click <i class="ph ph-list" aria-label="Task menu"></i> on the tile and select the duplicate or copy option.
 
-## Export tiles
+| Option | What it does | What to do next | Use case |
+|---|---|---|---|
+| **Duplicate tile** | Creates a copy of the tile in the current dashboard. The name is updated (for example, *Tile name 2*). | Typically, you edit the duplicated tile: change the name, update the dataset or layout. | Show the same type of data with a different layout, or show similar data using the same layout. |
+| **Copy tile to dashboard** | Adds the tile to another dashboard. Choose a target dashboard from the list. Hover over a dashboard name to preview its current tiles before copying. | Optionally open the target dashboard. Edit the tile there if needed. | Reuse a useful tile you found in a coworker's dashboard. Add it to one of your own dashboards. |
+
+**Copy to dashboard** is also available outside layout mode (normal dashboard view).
+
+## <a id="move"></a>Rearrange or resize tiles
+
+While in layout mode:
+
+* **Drag a tile by its header** to move it to a new position.
+* **Resize a tile** by dragging its bottom or right edge, or the lower-right corner.
+
+Tiles automatically snap to the dashboard's grid layout.
+
+To change the number of columns, exit layout mode and update the dashboard details.
+
+## <a id="remove"></a>Remove a tile
+
+You can remove tiles from a dashboard, as long as you have editing access.
+
+1. While in layout mode, click <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> on the tile.
+1. Select **Remove tile**.
+1. Confirm the deletion.
+
+> [!CAUTION]
+> Custom tiles, such as HTML, web panel, and selection-based tiles, are permanently deleted when removed. Only pre-defined tiles from the Library can be safely re-added later.
+
+## <a id="export"></a>Export tiles
 
 Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile to access the following options:
 
@@ -119,21 +171,51 @@ Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile 
 > [!TIP]
 > To hide specific data before exporting or printing a tile, click the data labels (legend) next to or under the tile to hide data.
 
+## Tips
+
+* **Hide currency labels:** To save space on tiles that show amounts, set **Currency** to **Hide** in the Layout tab.
+
+* **Compare to target:** For sales dashboards, enable **Compare to target** in the Layout tab to visualize progress toward sales goals. This option depends on the chart type and dataset setup.
+
+* **Use short numbers for better readability:** For tiles with large values, enable **Short number** format to display values in millions (for example, *1.2M*).
+
+* **Big number tiles:** Use these for key metrics, like revenue or open requests. Keep the tile name short so the number stands out clearly.
+
+* **Show duration on follow-up tiles:** When using follow-up tiles, set **Measure** to **Duration** to track time spent more effectively.
+
+## Troubleshooting
+
+* **I do not see the edit icon on the tile**
+  * Is the dashboard in layout mode?
+
+* **I do not find the option I am looking for in the Task menu**
+  * Did you click the correct Task button? (dashboard vs. tile)
+  * Is the dashboard in layout mode?
+
+* **I cannot access the layout tab or fields**
+  * You may not have the required functional rights. Contact your administrator.
+
+* **A selection is missing from the Selections tab**
+  * See [About selection-based tiles](#selection-chart)
+
+* **I accidentally removed a custom tile**
+  * These tiles cannot be restored. To avoid this, copy them to a private dashboard (for example, “Archived tiles”) before deletion.
+
 ## Related content
 
 * [Add a new dashboard][1]
 * [Use dashboards to manage your sales pipeline][15]
-* [Read more about criteria][4]
-* [The Find screen][5]
 
 <!-- Referenced links -->
 [1]: create.md
+[3]: index.md#charts
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[12]: ../../globalization-and-localization/learn/translate-fields.md
+[15]: show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png
