@@ -1,11 +1,14 @@
 ---
 uid: help-sv-dashboard-tile-marketing
 title: Använda utskick och formulär i figurer
-description: "Skapa dashboards för dina marknadsföringsuppgifter, till exempel formulärinlämningar och utskick, för att spåra och analysera resultat, trender och produktivitet i alla marknadsföringsaktiviteter."
-author: SuperOffice RnD
-date: 02.16.2023
+description: Skapa dashboards för dina marknadsföringsuppgifter, till exempel formulärinlämningar och utskick, för att spåra och analysera resultat, trender och produktivitet i alla marknadsföringsaktiviteter.
 keywords: dashboard, marknadsföring
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: sv
 ---
 
@@ -38,18 +41,16 @@ I exemplen nedan hittar du förslag på figurer som du kan lägga till i dashboa
 
 ![Exemplet visar olika formulärinlämningsfigurer som du kan använda för att få en översikt över dina data -screenshot][img2]
 
-## Relaterat
+## Relaterat innhåll
 
 * [Vetenskapen bakom öppningsfrekvensen för e-post][1] – blogg
 * [Lägg till en ny dashboard][5]
-* [Redigera eller skapa figurer][3]
 * [Arbeta med figurer][6]
-* [Läs mer om kriterier under Sök och urval][2]
+* [Läs mer om kriterier][2]
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
 [2]: ../../search-options/learn/search-criteria.md
-[3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md
 

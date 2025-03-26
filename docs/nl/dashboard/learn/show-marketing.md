@@ -3,9 +3,12 @@ uid: help-nl-dashboard-tile-marketing
 title: Mailing en formulieren gebruiken in tegels
 description: Maak dashboards voor uw marketingtaken, zoals formulierverzendingen en mailings, om hun prestaties, trends en productiviteit bij alle marketingactiviteiten bij te houden en te analyseren.
 keywords: dashboard, marketing
-author: SuperOffice RnD
-date: 02.16.2023
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: nl
 ---
 
@@ -42,14 +45,12 @@ Bestudeer de onderstaande voorbeelden om ideeën op te doen voor tegels die u ku
 
 * [De wetenschap achter e-mail open percentages][1]-blog
 * [Een nieuwe dashboard toevoegen][5]
-* [Tegels bewerken of maken][3]
 * [Werken met tegels][6]
-* [Lees meer over criteria in Zoeken & selectie][2]
+* [Lees meer over criteria][2]
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
 [2]: ../../search-options/learn/search-criteria.md
-[3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md
 
