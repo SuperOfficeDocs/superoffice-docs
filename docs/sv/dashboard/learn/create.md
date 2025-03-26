@@ -1,71 +1,96 @@
 ---
 uid: help-sv-dashboard-create
 title: Skapa en ny dashboard
-description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden förklarar vi hur du skapar nya dashboardflikar.
-keywords: dashboard
-author: SuperOffice RnD
-date: 02.14.2023
+description: Få bättre koll på dina CRM-data genom att skapa flera dashboards. I den här guiden får du lära dig hur du skapar nya dashboards.
+keywords: skapa dashboard, lägga till dashboard, ny dashboard, fäst dashboard, duplicera dashboard, dashboard
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Skapa en ny dashboard
 
-I Dashboard-fönstret kan du ha flera dashboardflikar för att visa olika typer av diagram och statistik. När du skapar en egen dashboard kan du också välja om du vill dela den med andra.
+Dashboards hjälper dig att visualisera viktiga nyckeltal i olika delar av CRM-systemet. Du kan skapa flera dashboards för att följa upp teamets prestationer, hantera ärenden, följa försäljning och mer.
 
-## Skapa en ny dashboardflik
-
-Titta på den här filmen eller följ anvisningarna nedan om du vill lägga till nya dashboardflikar i SuperOffice CRM:
+Titta på den här videon eller följ stegen nedan för att lära dig hur du skapar dashboards i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 (filmens längd: 4:29)
 
-1. Öppna skärmen **Dashboard**.
+## Steg för att skapa en ny dashboard
 
-2. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Skapa en ny dashboard**.
+1. Klicka på **Dashboard**-ikonen i navigatorn (<i class="ph ph-gauge" aria-label="gauge icon"></i>) för att öppna dashboardskärmen.
 
-3. Ange dashboardens namn i dialogrutan. Detta blir dashboardflikens namn.
+1. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Skapa en ny dashboard**.
 
-4. Skriv en beskrivning av dashboarden. Beskrivningen visas högst upp på dashboarden.
+1. Ange ett **namn** för dashboarden i dialogrutan.
 
-    > [!TIP]
-    > Du kan också lägga till namnet och beskrivningen [på andra språk][1] genom att klicka på <i class="ph ph-translate" aria-label="Translate"></i>.
+    ![Dialogruta för ny dashboard -screenshot][img1]
 
-5. Välj tema för dashboarden i listan **Tema**.
+1. Ange en **beskrivning** om du vill. Den visas högst upp i dashboarden.
 
-6. Välj antal kolumner som ska användas i dashboarden i fältet **Kolumner**.
+    Klicka på <i class="ph ph-translate" aria-label="Translate"></i> om du vill lägga till namn och beskrivning [på andra språk][5].
 
-7. I fältet **Synlig för** kan du ange vem som ska se figuren. Som standard är dashboarden bara synlig för dig. Om du ytterligare funktionsbehörigheter kan du göra en dashboard synlig/åtkomlig för en eller flera användargrupper eller individuella användare.
+1. Välj ett tema i listan **Tema**.
 
-8. Använd funktionen **Fäst på** för att alltid visa denna dashboard för utvalda användare. Du kan använda denna funktion för alla användare eller för utvalda användargrupper eller användare. Funktionella behörigheter krävs för att du ska kunna använda denna funktion.
+1. Välj antal kolumner som ska användas i dashboarden i fältet **Kolumner**.
 
-9. Klicka på **Spara**.
+1. Klicka på **Spara**.
 
-    Den nya dashboarden öppnas och innehåller inga figurer.
+    Den nya dashboarden öppnas utan paneler. Sidopanelen **Redigera dashboard-paneler** visas så att du kan [lägga till paneler][2] direkt.
 
-Till höger på den nya dashboarden visas avsnittet **Lägg till figur/Redigera layout**. Nu kan du börja [lägga till figurer till dashboarden][2].
+> [!NOTE]
+> Den som skapar dashboarden anges automatiskt som **ägare**. Detta kan inte ändras senare.
 
-Det finns många standardfigurer att välja bland i biblioteket, men du kan också skapa egna, antingen baserat på en befintlig figur eller börja med ett tomt ark.
+## <a id="pin"></a>Dela eller fäst en dashboard
 
-![Välj önskade figurer och dra och släpp dem i rutnätsvyn -screenshot][img2]
+Om du har behörigheten **Dashboardadministratör** (eller allmän administratör) visas även följande fält när du skapar eller redigerar:
+
+* **Synlig för:** Dela dashboarden med specifika användare eller grupper.
+* **Fäst på:** Visa dashboarden för utvalda användare eller grupper.
+
+![Fäst dashboard / ange Synlig för -screenshot][img2]
+
+Dessa fält är endast synliga om du har behörighet.
+
+## <a id="copy"></a>Duplicera en dashboard
+
+Du kan duplicera en befintlig dashboard för att återanvända layout eller innehåll. Till exempel om du vill skapa en egen version av en fastnålad dashboard.
+
+1. Välj dashboarden du vill duplicera.
+
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Duplicera dashboard**.
+
+    Den nya dashboarden öppnas med "2" tillagt i namnet.
+
+    * Välj **Redigera dashboard-information** för att byta namn eller ändra inställningar.
+    * Välj **Redigera dashboard-paneler** för att uppdatera innehållet.
+
+## Tips
+
+* Använd tydliga namn för att hålla ordning när du har många dashboards.
+* Sortera dashboards efter syfte eller team.
+* Vill du bara återanvända en panel? Du kan [kopiera en panel till en annan dashboard][1] utan att duplicera allt.
 
 ## Relaterat innehåll
 
-* [Redigera ett dashboard][3]
-* [Lägg till figurer/Redigera layout][2]
-* [Duplicera en dashboard][4]
-* [Ta bort ett dashboard][5]
-* [Skapa en sökning och spara den som ett urval][6]
+* [Redigera eller ta bort en dashboard][3]
+* [Redigera dashboard-paneler][2]
+* [Skapa ett urval][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
-[2]: add-tile.md
+[1]: working-with-tiles.md#copy
+[2]: working-with-tiles.md
 [3]: update.md
-[4]: copy.md
-[5]: delete.md
-[6]: ../../search-options/learn/index.md#search-to-selection
+[5]: ../../globalization-and-localization/learn/translate-fields.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png
+[img1]: ../../../media/loc/en/dashboard/create-dashboard-dialog.png
+[img2]: ../../../media/loc/en/dashboard/pin-dashboard.png

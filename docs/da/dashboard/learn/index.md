@@ -1,109 +1,163 @@
 ---
 uid: help-da-dashboard
 title: Dashboards
-description: Konfigurer SuperOffice Dashboard, og brug foruddefinerede felter. Dashboards er ideelle til alle brugere og ledere. Du kan få et overblik over dit individuelle arbejde eller din teampræstation.
-keywords: dashboard
-author: SuperOffice RnD
-date: 07.04.2022
+description: SuperOffice Dashboard er ideelle for både brugere og ledere. Få overblik over dit eget arbejde eller dit teams præstationer med foruddefinerede ruder, eller opret dine egne.
+keywords: dashboard administrator, diagram, rapport, datasæt, stort tal, måling, dashboard, rude
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Dashboard
+# Dashboards
+
+Dashboards i SuperOffice CRM giver dig øjeblikkelig visuel indsigt i dit arbejde, dit teams fremskridt og vigtige virksomhedsdata. De viser centrale tal og tendenser ved hjælp af ruder, der er knyttet til udvalg eller andre datakilder.
+
+Brug dashboards til at holde styr på aktiviteter, salg, sager og meget mere. Du kan bruge foruddefinerede dashboards eller oprette dine egne.
+
+![Sags-dashboard -screenshot][img4]
 
 > [!NOTE]
-> Nogle af de funktioner, der beskrives her, kræver særlige funktionelle rettigheder eller licenser.
+> Din adgang til dashboards og rudedata afhænger af din brugerplan og tildelte rettigheder.
 
-Med **Dashbord**-funktionen i SuperOffice CRM får du hurtig adgang til de diagrammer, rapporter og statistikker, som er vigtigst for dig. Du kan vælge mellem en lang række foruddefinerede ruder og også tilføje ruder fra dynamiske markeringer eller oprette dine egne.
+## Hvad er et dashboard?
 
-Dashboards vises som faner øverst på skærmen. Fastgjorte dashboards og dashboards, der er angivet som foretrukne, vises her ud over det senest anvendte dashboard. Hvis du vil have vist andre dashboards, som du har adgang til, skal du søge i navigatoren.
+Et dashboard er en tilpasset visning af dine CRM-data. Det viser en eller flere ruder—små visuelle rapporter, der viser summer, antal eller diagrammer baseret på dine data. Dashboards hjælper dig med at holde dig informeret og træffe hurtigere beslutninger.
 
-## Terminologi
+Hver rude indeholder en grafisk eller numerisk visning af SuperOffice-data. Det er dataene bag ruderne, der gør et dashboard nyttigt.
 
-* **Dashboard:** Et dashboard er en måde at vise forskellige typer visuelle data på ét sted. Normalt er et dashboard beregnet til at formidle forskellige, men relaterede oplysninger i en letfordøjelig form.
+### Terminologi
 
-* **Rapporter: En liste eller markering,** der vises i en rude
+* **Dashboard:** Et skærmbillede, der viser CRM-data visuelt ved hjælp af en eller flere ruder.
+* **Rude:** Et konfigurerbart panel i et dashboard. Ruder kan vise diagrammer, lister eller tal.
+* **Diagram:** En grafisk repræsentation af rudedata, som f.eks. et cirkeldiagram eller søjlediagram.
+* **Datasæt:** Den underliggende datakilde for en rude, typisk baseret på søgekriterier.
 
-* **Ruder:** Justerbar firkant, der kan visualisere forskellige data i dit dashboard.
+## Få adgang til dine dashboards
 
-  * **Diagrammer type:** Et diagram er en grafisk repræsentation til datavisualisering (også kaldet grafer).
-  * **Liste:** En liste, der viser en defineret markering.
-  * **Store tal:** Gør det muligt at fremhæve en vigtig samlet metric eller KPI (key performance indicator).
-  * **Webpanel:**  Vis en url/webside inde i en rude.
-  * **HTML-koder:** Vis HTML-kode inde i en rude.
+Vælg **Dashboard** i navigatoren for at åbne dashboard-skærmbilledet. Du har adgang til:
 
-* **Datasæt:** Markering af data, der vises i feltet, f.eks. en dynamisk markering med søgekriterier.
+* **Fastgjorte dashboards:** Distribueret til dig af en administrator
+* **Favoritdashboards:** Markerede med en stjerne
+* **Egne dashboards:** Dashboards, du selv har oprettet
 
-* **Layout:** Rediger indstillingerne for at justere, hvordan dataene vises i et felt.
+Som standard er et dashboard kaldet **Status** tilgængeligt og fastgjort. Det indeholder ruder med foruddefinerede diagrammer og nøgletal. Hvis du har SuperOffice Service-brugerplanen, er et andet dashboard kaldet **Sager** også tilgængeligt.
 
-* **Faner i Dashboard:** Hver fane indeholder et dashboard, der viser forskellige felter med forskellige data, der kan give indsigt og fungere som en beslutningsvejledning.
+Du kan oprette flere dashboards eller duplikere eksisterende for at tilpasse dem.
+
+Fastgjorte og foretrukne dashboards vises øverst på skærmen sammen med det senest anvendte dashboard. Brug søgefeltet i navigatoren for at finde andre dashboards, du har adgang til.
+
+| Ikon | Beskrivelse |
+|:-:|---|
+| <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Fastgjort dashboard. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favoritdashboard. Klik for at slå til/fra. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Opdater alle rudedata. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Opgavemenu til dashboardhandlinger. |
 
 ## Ruder
 
-I SuperOffice Dashboard har du mange [foruddefinerede standardruder][6] at vælge imellem, og diagrammer, der er knyttet til dynamiske valg. Ruderne falder i otte forskellige kategorier: Firma, Person, Opfølgning, Salg, Projekt, Dokument, Produkt og Anmodning.
+Ruder er byggestenene i et dashboard. Rudedata relaterer sig typisk til dig, dine grupper og en specifik periode (såsom denne måned, de seneste 6 måneder).
 
-Hvert felt i et dashboard indeholder enten et diagram, en liste eller et tal. Et dashboard kan indeholde flere felter.
+En rude kan vise:
 
-Ruderne kan også tilpasses, så de kun viser data fra udvalg. Adgangsrettigheder og fortrolighed gælder rudedata, så ruderne viser kun den information, du har adgang til. Rudedata gælder normalt for dig eller dine grupper samt for en bestemt periode (såsom denne måned, sidste 6 måneder)
+* Et **diagram**, f.eks. søjle- eller cirkeldiagram. Diagrammer er grafiske visualiseringer af data (også kaldet grafer).
+* En **liste** med op til 100 poster fra et udvalg.
+* Et **stort tal**, såsom samlet salg. Fremhæver en vigtig KPI (key performance indicator).
+* Et **webpanel**, der indlæser en URL.
+* **HTML-indhold**, formateret direkte i ruden.
 
-Der er forskellige diagramtyper:
+Du kan tilføje foruddefinerede ruder eller oprette dine egne.
 
-| Type | Beskrivelse |
-|---|---|
-| Cirkel | En cirkulær graf. |
-| Kolonne | Et søjlediagram afbilder variabelværdien lodret. |
-| Søjle | Et søjlediagram afbilder variabelværdien vandret. |
-| Linje | En række datapunkter med en kontinuerlig linje. |
-| Område | En graf, der kombinerer et kurvediagram og et søjlediagram. |
-| Måling | Også kendt som opkaldsdiagrammer eller speedometerdiagrammer, brug nåle til at vise oplysninger som en aflæsning på en urskive. |
-| Kolonne + linje | (2 akser) Et diagram med to akser, der kombinerer et søjle- og kurvediagram. |
-| Sølje + linje | (2 akser) Et diagram med to akser, der kombinerer et søjle- og linjediagram. |
+## <a id="charts"></a>Diagramtyper
 
-## Tilpas dit dashboard
+Diagramtypen bestemmer, hvordan data vises i ruden.
 
-Du kan vælge mellem mange foruddefinerede ruder for at visualisere og evaluere dit arbejde med et øjebliksbillede af aktivitetsniveauer, kundesegmenter, produktstatistik, projektdetaljer og salg. Ved at tilpasse dine dashboardruder får du vist de grafer og oversigter, der er mest værdifulde for dig personligt.
+| Ikon | Type | Beskrivelse |
+|:-:|---|---|
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Cirkeldiagram | En cirkulær graf. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stort tal | Et tal med store bogstaver og mulighed for sammenligning. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | En listevisning med maks. 100 poster. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonnediagram | Placerer værdier lodret. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Søjlediagram | Placerer værdier vandret. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Linjediagram | En serie datapunkter forbundet med en linje. |
+| <i class="ph ph-chart-line-up ph-fill" aria-label="Line chart"></i> | Områdediagram | Kombinerer linje- og søjlediagram. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Målerdiagram | Viser data med visere på en skive. Også kendt som speedometerdiagram. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonne + linje (2 akser) | Diagram med to akser. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Søjle + linje (2 akser) | Diagram med to akser, der kombinerer et søjle- og linjediagram. |
 
-![Tilpas dit dashboard for at gøre det mere værdifuldt for dig -screenshot][img4]
+## Vis og interagér med ruder
 
-### Opret din egen graf til dashboardet
+Hver rude viser et øjebliksbillede af realtidsdata fra kilden. Du kan interagere med ruderne for at udforske de underliggende data.
 
-Hvis du ikke kan finde den rette rude til dig, kan du oprette dine egne ruder baseret på dine valg. Du kan visualisere alle dynamiske markeringer i grafer for at give dig de oplysninger, du har brug for, på en hurtig og letforståelig måde. Du kan også oprette dine egne ruder fra starten med ønskede kriterier og det layout, der viser dine data korrekt.
+* **Hold markøren over** diagramområder for at se detaljer i værktøjstip.
+* **Klik på en værdi i diagramforklaringen** for at skjule eller vise dataserier. Dette kan være nyttigt til udskrivning eller eksport af ruderne.
+* Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Vis i fuld skærm** for at udvide en rude.
 
-### Opret flere faner
+    ![Rudens opgavemenu -screenshot][img1]
 
-Der er som standard kun konfigureret én dashboardfane, kaldet Status. Det indeholder fire ruder med forhåndsdefinerede diagrammer. Du kan redigere denne fane og/eller tilføje ekstra dashboardfaner, hvor du kan præsentere alle ruder og diagrammer efter eget valg.
+* **Klik på datapunkter** (f.eks. en søjle eller cirkel) for at se de underliggende poster i et nyt vindue.
+
+I visningen med underliggende data:
+
+* Vælg en post for at få vist et forhåndsvisningspanel.
+* Dobbeltklik for at åbne posten, eller klik på **Åbn**.
+* Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og vælg **Kopier til udvalg** for at kopiere poster til opfølgning. Hvis ingen poster er valgt, kopieres alle.
+
+![Drill-down til underliggende data -screenshot][img2]
+
+## Krav
+
+Dashboardfunktioner afhænger af dine funktionelle rettigheder og licensniveau. Alle brugere kan:
+
+* Se dashboards, der er fastgjort eller delt med dem
+* Oprette, tilpasse og slette deres egne dashboards
 
 > [!NOTE]
-> Adgangsrettigheder og fortrolighed gælder rudedata, så ruderne viser kun den information, du har adgang til.
+> Ruder viser kun data, du har adgang til.
 
-### Rediger eller opret dine egne ruder
+Hvis du ikke kan redigere eller fastgøre et dashboard, skal du kontakte din administrator for at tjekke dine funktionelle rettigheder.
 
-Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede felter i SuperOffice Dashboard, kan du altid [oprette din egen rude][4].
+### Funktionelle rettigheder
 
-## Indstillinger på skærmbilledet Dashboard
+Funktionelle rettigheder tildeles brugerroller i **Indstillinger og vedligeholdelse**. Disse rettigheder styrer, hvem der kan dele og administrere dashboards.
 
-| Ikon / knap | Beskrivelse |
-|---|---|
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashboardet fastgøres af en administrator og distribueres sandsynligvis til flere brugere. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Klik på stjernen i øverste højre hjørne for at angive et dashboard som favorit. |
-| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klik på knappen **Opdater** for at opdatere data i alle ruder. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klik for at få adgang til forskellige funktioner. |
+* **Dashboardadministrator:**
+  * Fastgør dashboards til brugere eller grupper
+* **Generel administrator:**
+  * Opdater dashboards oprettet af andre
+  * Kan ikke slette dashboards, de ikke ejer
 
-**Funktioner på knappen Opgave:**
+Kun **ejeren** af et dashboard kan slette det.
 
-* [Opret et nyt dashboard][1]
-* [Dupliker et dashboard][2]
-* [Redigering af dashboard][3]
-* [Tilføj ruder/rediger layout][4]
-* [Sletning af dashboard][5]
+### Licensspecifikke dashboardfunktioner
+
+| Licens | Inkluderede dashboards | Rudetyper |
+|---|---|---|
+| Alle CRM-planer | Status-dashboard med standardruder | Diagrammer, lister, store tal |
+| **Service** | Sager-dashboard | Ruder relateret til sager |
+| **Marketing** (Essentials eller højere) | – | Mails, formularindsendelser, chats |
+| **Sales Premium** | – | Prognoser, KPI’er, salgsmål, tilbud |
+| **Sales eller Service Premium** | – | Aktivitetsmonitorer (SAINT) |
+
+## Tips
+
+* Brug **favoritter** <i class="ph ph-star" aria-label="Star icon"></i> for hurtig adgang til dine mest anvendte dashboards.
+
+## Relateret indhold
+
+* [Opret et nyt dashboard eller dupliker et eksisterende][1]
+* [Rediger et dashboard][3]
+* [Tilføj ruder / rediger layout][6]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
-[4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

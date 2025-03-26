@@ -3,9 +3,12 @@ uid: help-nl-dashboard-tile-sales-targets
 title: Verkooptargets gebruiken in tegels
 description: Gebruik dashboards en tegels om uw verkooptargets te vergelijken met uw werkelijke verkopen.
 keywords: dashboard, verkoop, target, Grafiek
-author: SuperOffice RnD
-date: 12.13.2022
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -23,20 +26,20 @@ Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in
 
 2. Selecteer het dashboard dat u wilt bewerken.
 
-3. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Tegel toevoegen/Opmaak bewerken**. Aan de rechterkant van het geselecteerde dashboard wordt de sectie **Tegel toevoegen/Opmaak bewerken** weergegeven.
+3. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Dashboardtegels beverken**. Aan de rechterkant van het geselecteerde dashboard wordt de sectie **Dashboardtegels beverken** weergegeven.
 
 4. Selecteer in de lijst **Tegels weergeven voor** de optie **Verkoop**.
 
 5. Selecteer op het tabblad **Bibliotheek** een van de volgende grafieken:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Groot weergegeven getal
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Staafdiagram
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> - Staafdiagram
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Kolomdiagram
     * <i class="ph ph-gauge" aria-hidden="true"></i> - Meterdiagram
     * Lege verkooptegel
 
     > [!TIP]
-    > U kunt ook [een lege tegel selecteren][1] om een geheel nieuwe tegel te maken, maar het grafiektype moet een van de bovenstaande zijn.
+    > U kunt ook een lege tegel selecteren om [een geheel nieuwe tegel te maken][6], maar het grafiektype moet een van de bovenstaande zijn.
 
 6. Als u een tegel aan het dashboard wilt toevoegen, sleept u deze op de gewenste positie op het dashboard en zet u deze neer. U kunt ook op **Toevoegen** klikken om een tegel toe te voegen aan de volgende beschikbare positie. De tegel wordt automatisch aangepast aan de beschikbare ruimte en wordt uitgelijnd op basis van de instelling van het raster en de kolommen.
 
@@ -46,7 +49,7 @@ Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in
 
     * Klik op de koptekst van een tegel en sleep deze naar een andere positie.
 
-8. Klik in het dashboard op  **Tegel bewerken** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) op de nieuwe tegel.
+8. Klik in het dashboard op  **Tegel bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>) op de nieuwe tegel.
 
 9. Stel op het tabblad **Gegevensset** de **Verkoopdatum** in op dit jaar, kwartaal of deze maand. Bewerk de andere [criteria][2] indien nodig. Vergeet niet om de naam van de tegel bij te werken om de wijzigingen weer te geven die hier zijn aangebracht.
 
@@ -81,12 +84,10 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 ## Gerelateerde inhoud
 
 * [Een nieuwe dashboard toevoegen][5]
-* [Tegels bewerken of maken][2]
+* [Tegels bewerken of maken][6]
 * [Verkooptargets instellen][7]
-* [Dashboardgegevens][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

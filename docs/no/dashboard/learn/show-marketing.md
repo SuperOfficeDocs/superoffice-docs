@@ -1,11 +1,14 @@
 ---
 uid: help-no-dashboard-tile-marketing
 title: Bruke utsendelse og skjemaer i figurer
-description: "Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendinger og utsendelser, for å spore og analysere ytelse, trender og produktivitet på tvers av alle markedsføringsaktiviteter."
-author: SuperOffice RnD
-date: 02.16.2023
+description: Opprett dashbord for markedsføringsoppgavene dine, for eksempel skjemainnsendinger og utsendelser, for å spore og analysere ytelse, trender og produktivitet på tvers av alle markedsføringsaktiviteter.
 keywords: dashbord, markedsføring
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: no
 ---
 
@@ -38,18 +41,16 @@ Studer eksemplene nedenfor for å få ideer til figurer som du kan legge til i d
 
 ![Eksemplet viser ulike skjemainnsendingsfigurer du kan bruke til å få en oversikt over dataene dine -screenshot][img2]
 
-## Relatert
+## Relatert innhold
 
 * [Vitenskapen bak antall åpnede e-poster][1] – blogg
 * [Legge til nytt dashbord][5]
-* [Redigere eller opprette figurer][3]
 * [Arbeide med figurer][6]
-* [Les mer om kriterier i Finn og utvalg][2]
+* [Les mer om kriterier][2]
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
 [2]: ../../search-options/learn/search-criteria.md
-[3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md
 

@@ -1,31 +1,15 @@
 items:
 - name: Überblick
   href: index.md
-- name: Mit dem Dashboard arbeiten
-  topicHref: create.md
-  items:
-  - name: Neues Dashboard erstellen
-    href: create.md
-  - name: Dashboards bearbeiten
-    href: update.md
-  - name: Dashboards duplizieren
-    href: copy.md
-  - name: Dashboards löschen
-    href: delete.md
+- name: Dashboard erstellen oder duplizieren
+  href: create.md
+- name: Dashboard bearbeiten oder löschen
+  href: update.md
 - name: Mit Kacheln arbeiten
-  topicHref: working-with-tiles.md
-  items:
-  - name: Überblick
-    href: working-with-tiles.md
-  - name: Im Dashboard Kachel hinzufügen/Layout bearbeiten
-    href: add-tile.md
-  - name: Kacheln bearbeiten
-    href: edit-tile.md
-  - name: Kacheln entfernen
-    href: remove-tile.md
-  - name: Verwenden von Vertriebszielen in Kacheln
-    href: show-sales-targets.md
-  - name: Kampagne und Formulare in Kacheln verwenden
-    href: show-marketing.md
-  - name: Anfragen in Kacheln verwenden
-    href: show-requests.md
+  href: working-with-tiles.md
+- name: Verwenden von Vertriebszielen in Kacheln
+  href: show-sales-targets.md
+- name: Kampagne und Formulare in Kacheln verwenden
+  href: show-marketing.md
+- name: Anfragen in Kacheln verwenden
+  href: show-requests.md

@@ -1,31 +1,15 @@
 items:
 - name: Översikt
   href: index.md
-- name: Arbeta med dashboard
-  topicHref: create.md
-  items:
-  - name: Skapa en ny dashboard
-    href: create.md
-  - name: Redigera en dashboard
-    href: update.md
-  - name: Duplicera en dashboard
-    href: copy.md
-  - name: Ta bort en dashboard
-    href: delete.md
-- name: Arbeta med figurer
-  topicHref: working-with-tiles.md
-  items:
-  - name: Översikt
-    href: working-with-tiles.md
-  - name: Lägga till figur/redigera layout på dashboard
-    href: add-tile.md
-  - name: Redigera en figur
-    href: edit-tile.md
-  - name: Ta bort en figur
-    href: remove-tile.md
-  - name: Använda försäljningsmål i figurer
-    href: show-sales-targets.md
-  - name: Använda utskick och formulär i figurer
-    href: show-marketing.md
-  - name: Använda ärenden i figurer
-    href: show-requests.md
+- name: Skapa eller duplicera dashboard
+  href: create.md
+- name: Redigera/ta bort dashboard
+  href: update.md
+- name: Arbeta med paneler
+  href: working-with-tiles.md
+- name: Använda försäljningsmål i paneler
+  href: show-sales-targets.md
+- name: Använda utskick och formulär i paneler
+  href: show-marketing.md
+- name: Använda ärenden i paneler
+  href: show-requests.md

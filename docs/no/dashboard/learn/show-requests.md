@@ -2,9 +2,10 @@
 uid: help-no-dashboard-requests
 title: Bruke saker i figurer
 description: I denne veiledningen lærer du hvordan du får en rask oversikt over alle åpne saker i SuperOffice-dashbord.
-author: Bergfrid Dias
-date: 03.14.2023
 keywords: dashbord, sak
+author: Bergfrid Dias
+date: 03.25.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +24,7 @@ Det er vanlig å starte dagen med å få oversikt over gjeldende status for de �
 
 Hvis du eller din rolle har tilstrekkelige rettigheter, kan du velge innholdet som skal vises i figurene på dashbordet.
 
-1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Rediger dashbordfigurer**.
 
 2. I listen **Vis figurer for** velger du **Sak**, og deretter velger du en av de forhåndsdefinerte figurene eller **Tom saksfigur**
 
@@ -33,8 +34,6 @@ Du kan for eksempel velge å vise:
 * Statuser for dine egne saker
 * Egne aktive saker
 * Ufordelte saker
-
-Les mer om [Legg til figur/ rediger layout i dashbord][7].
 
 ## Statistikk
 
@@ -59,10 +58,10 @@ Her vises sakene som tilhører deg, og som har statusen **Åpen**. Denne listen 
 
 Viser saker som ingen har blitt tildelt ansvaret for. Hvis du vil [ta ansvar for en av sakene][2], må du klikke på **Godta sak**. Ellers kan flere svare på saken samtidig.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Opprette et nytt dashbord][1]
-* [Legg til figur/ rediger layout][7]
+* [Redigere dashbordfigurer][7]
 * [Opprette en sak][4]
 * [Håndtere sak][6]
 * [Finne saker][5]
@@ -73,7 +72,7 @@ Viser saker som ingen har blitt tildelt ansvaret for. Hvis du vil [ta ansvar for
 [4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
-[7]: add-tile.md
+[7]: working-with-tiles.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/service-dashboard.png

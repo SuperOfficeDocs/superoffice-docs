@@ -1,40 +1,70 @@
 ---
-uid: help-no-dashboard-edit
-title: Redigere et dashbord
-description: Redigere et dashbord
+uid: help-no-dashboard-update
+title: Tilpass dashbordet ditt
+description: Lær hvordan du omdøper, konfigurerer og sletter dashbord i SuperOffice CRM. Tilpass layout, kolonner og synlighetsinnstillinger etter dine behov.
+keywords: rediger dashbord, slett dashbord, dashbordkolonner, dashbord, figur, flis, layout
 author: Bergfrid Dias
-date: 03.15.2023
-keywords: dashbord, figur, format
+date: 03.26.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Redigere et dashbord
+# Tilpass dashbordet ditt
+
+Du kan tilpasse hvert dashbord for å vise den informasjonen som er mest relevant for deg. Velg mellom forhåndsdefinerte figurer, eller lag dine egne for å visualisere aktiviteter, kundesegmenter, produkttrender, prosjektstatus eller salgsresultater.
+
+## Rediger dashbordinnstillinger
+
+Du kan endre navn, beskrivelse, layout eller synlighet for et eksisterende dashbord.
 
 1. Åpne skjermbildet **Dashbord**.
 
-2. Velg dashbordet du vil redigere.
+1. Velg dashbordet du vil redigere.
 
-3. Hvis du vil endre navnet på dashbordet og justere andre innstillinger, klikker du på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velger **Rediger dashbord**.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Rediger dashborddetaljer**.
 
-4. Hvis du vil legge til figurer og redigere dashbordlayouten, klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velger **Legg til figur / rediger layout**.
+1. Gjør ønskede endringer:
+    * Endre **navn** eller **beskrivelse**
+    * Velg et annet **tema**
+    * Juster antall **kolonner**
+    * Hvis du har de nødvendige funksjonelle rettighetene, kan du oppdatere feltene **Synlig for** og **Fest til**
 
-5. Klikk på **Lagre**.
+    > [!NOTE]
+    > Personen som oppretter dashbordet er **eier**. Eierforholdet kan ikke endres senere.
+
+1. Klikk på **Lagre**.
 
 > [!NOTE]
-> Hvis du reduserer antall figurer, vil alle ekstra figurer bli slettet fra dashbordet (den siste figuren slettes først). Figurene er organisert fra venstre mot høyre, øverst til nederst. Hvis du øker antall figurer, vil eksisterende figurer bli omorganisert, og nye tomme figurer blir lagt til.
+> Hvis du endrer antall kolonner, blir figurene automatisk justert for det nye oppsettet. Ingen figurer blir slettet, men layouten kan få tomme mellomrom. Du kan flytte eller endre størrelsen på figurene etterpå for å forbedre visningen.
 
-## Aktuelle emner
+## Rediger figurer og layout
 
-* [Opprette et nytt dashbord][1]
-* [Legge til figurer og redigere layout][2]
-* [Redigere en figur][3]
-* [Fjerne en figur][4]
+Slik legger du til, flytter, redigerer eller fjerner figurer:
+
+1. Åpne dashbordet.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Rediger dashbordfigurer**.
+1. [Følg disse trinnene for å administrere figurer][2].
+
+## <a id="delete"></a>Slett et dashbord
+
+Bare **eieren** av et dashbord kan slette det. Selv administratorer kan ikke slette dashbord de ikke eier. Eierforholdet kan ikke overføres.
+
+1. Åpne skjermbildet **Dashbord**.
+1. Velg dashbordet du vil slette.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Slett dette dashbordet**.
+1. Klikk på **OK** for å bekrefte.
+
+> [!NOTE]
+> Hvis dashbordet var festet til andre, fjernes det også fra deres dashbordvisning.
+
+## Aktuelt innhold
+
+* [Opprett et nytt dashbord][1]
+* [Legg til, rediger og fjern figurer][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: add-tile.md
-[3]: edit-tile.md
-[4]: remove-tile.md
-
-<!-- Referenced images -->
+[2]: working-with-tiles.md

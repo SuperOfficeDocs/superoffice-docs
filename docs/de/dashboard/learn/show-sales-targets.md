@@ -1,11 +1,14 @@
 ---
 uid: help-de-dashboard-tile-sales-targets
 title: Verwenden von Vertriebszielen in Kacheln
-description: "Verwenden Sie Dashboards und Kacheln, um Ihre Verkaufsziele mit Ihren tatsächlichen Verkäufen zu vergleichen."
-author: SuperOffice RnD
-date: 12.13.2022
+description: Verwenden Sie Dashboards und Kacheln, um Ihre Verkaufsziele mit Ihren tatsächlichen Verkäufen zu vergleichen.
 keywords: Dashboard, Verkauf, Ziel, Diagramm
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -23,20 +26,20 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
 2. Wählen Sie das zu bearbeitende Dashboard aus.
 
-3. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
+3. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dashboard-Kacheln bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Dashboard-Kacheln bearbeiten** angezeigt.
 
 4. Wählen Sie **Verkauf** in der Liste **Kacheln anzeigen für** aus.
 
 5. Wählen Sie auf der Registerkarte **Bibliothek** eines der folgenden Diagramme aus:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Diagramm mit großen Zahlen
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Balkendiagramm
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> - Balkendiagramm
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Säulendiagramm
     * <i class="ph ph-gauge" aria-hidden="true"></i> - Messdiagramm
     * Leere Verkaufskachel
 
     > [!TIP]
-    > Sie können auch eine [leere Kachel auswählen][1], um eine Kachel von Grund auf zu erstellen, jedoch muss der Diagrammtyp einer der oben aufgeführten sein.
+    > Sie können auch eine leere Kachel auswählen, um eine [Kachel von Grund auf zu erstellen][6], jedoch muss der Diagrammtyp einer der oben aufgeführten sein.
 
 6. Zum Hinzufügen einer Kachel zum Dashboard ziehen Sie sie per Drag and Drop an die gewünschte Position im Dashboard. Sie können auch auf **Hinzufügen** klicken, um eine Kachel an der nächsten verfügbaren Position hinzuzufügen. Die Kachel wird automatisch an den verfügbaren Platz angepasst und am Raster- und Spalten-Setup ausgerichtet.
 
@@ -46,7 +49,7 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
     * Klicken Sie auf die Kopfzeile einer Kachel und ziehen Sie sie an eine andere Position.
 
-8. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) auf der neuen Kachel.
+8. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>) auf der neuen Kachel.
 
 9. Legen Sie auf der Registerkarte **Datensatz** das **Verkaufsdatum** auf dieses Jahr, Quartal bzw. diesen Monat fest. Bearbeiten Sie gegebenenfalls die anderen [Kriterien][2]. Aktualisieren Sie unbedingt den Kachelnamen, damit dieser Aufschluss über hier vorgenommene Änderungen gibt.
 
@@ -78,15 +81,13 @@ Wenn Sie das Feld Mit Ziel vergleichen zwar sehen, aber deaktiviert ist, können
 
 Wenn Mit Ziel vergleichen überhaupt nicht sichtbar, müssen Sie sicherstellen, dass Sie den richtigen Diagrammtyp ausgewählt und das Verkaufsdatum als Kriterium auf der Registerkarte Datensatz verwendet haben.
 
-## Verwandt
+## Verwandte Inhalt
 
 * [Neues Dashboard hinzufügen][5]
-* [Kacheln bearbeiten oder erstellen][2]
+* [Kacheln bearbeiten oder erstellen][6]
 * [Verkaufsziele festlegen][7]
-* [Dashboarddaten][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

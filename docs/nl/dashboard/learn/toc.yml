@@ -1,31 +1,15 @@
 items:
 - name: Overzicht
   href: index.md
-- name: Werken met dashboard
-  topicHref: create.md
-  items:
-  - name: Een nieuw dashboard maken
-    href: create.md
-  - name: Een dashboard bewerken
-    href: update.md
-  - name: Een dashboard dupliceren
-    href: copy.md
-  - name: Een dashboard verwijderen
-    href: delete.md
+- name: Een dashboard maken of dupliceren
+  href: create.md
+- name: Een dashboard bewerken of verwijderen
+  href: update.md
 - name: Werken met tegels
-  topicHref: working-with-tiles.md
-  items:
-  - name: Overzicht
-    href: working-with-tiles.md
-  - name: Tegel toevoegen/Opmaak bewerken in dashboard
-    href: add-tile.md
-  - name: Een tegel bewerken
-    href: edit-tile.md
-  - name: Een tegel verwijderen
-    href: remove-tile.md
-  - name: Verkooptargets gebruiken in tegels
-    href: show-sales-targets.md
-  - name: Mailing en formulieren gebruiken in tegels
-    href: show-marketing.md
-  - name: Verzoeken in tegels gebruiken
-    href: show-requests.md
+  href: working-with-tiles.md
+- name: Verkooptargets gebruiken in tegels
+  href: show-sales-targets.md
+- name: Mailing en formulieren gebruiken in tegels
+  href: show-marketing.md
+- name: Verzoeken in tegels gebruiken
+  href: show-requests.md

@@ -2,10 +2,13 @@
 uid: help-de-dashboard-tile-marketing
 title: Kampagne und Formulare in Kacheln verwenden
 description: "Erstellen Sie Dashboards für Ihre Marketingaufgaben, wie zum Beispiel Formularübermittlungen und Kampagnen, um deren Leistung, Trends und Produktivität überall in allen Marketingaktivitäten zu verfolgen und zu analysieren."
-author: SuperOffice RnD
-date: 02.16.2023
 keywords: Dashboard, Marketing
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: de
 ---
 
@@ -38,18 +41,16 @@ Sehen Sie sich die folgenden Beispiele an, um Ideen für Kacheln zu erhalten, di
 
 ![Das Beispiel zeigt verschiedene Kacheln für die Formularübermittlung, die Sie verwenden können, um einen Überblick über Ihre Daten zu erhalten -screenshot][img2]
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Die Wissenschaft hinter den E-Mail-Öffnungsraten][1] - Blog
 * [Neues Dashboard hinzufügen][5]
-* [Kacheln bearbeiten oder erstellen][3]
 * [Arbeiten mit Kacheln][6]
-* [Weitere Infos über Kriterien in Suchen und Selektion][2]
+* [Weitere Infos über Kriterien][2]
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
 [2]: ../../search-options/learn/search-criteria.md
-[3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md
 

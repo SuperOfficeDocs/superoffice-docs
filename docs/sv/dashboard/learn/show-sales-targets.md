@@ -1,54 +1,57 @@
 ---
 uid: help-sv-dashboard-tile-sales-targets
-title: Använda försäljningsmål i figurer
-description: Använd dashboards och figurer för att jämföra dina försäljningsmål med din faktiska försäljning.
+title: Använda försäljningsmål i paneler
+description: Använd dashboards och paneler för att jämföra dina försäljningsmål med din faktiska försäljning.
 keywords: dashboard, försäljning, mål, diagram
-author: SuperOffice RnD
-date: 02.25.2025
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Använda mål i figurer
+# Använda mål i paneler
 
-Om [försäljningsmål][4] har definierats för ditt företag, dina team/grupper och/eller dina säljare kan du lägga till dessa mål i dina dashboardfigurer. Du kommer då att få en visuell presentation av din faktiska försäljning och dina mål.
+Om [försäljningsmål][4] har definierats för ditt företag, dina team/grupper och/eller dina säljare kan du lägga till dessa mål i dina dashboardpaneler. Du kommer då att få en visuell presentation av din faktiska försäljning och dina mål.
 
-För att du ska kunna visualisera dina mål i en figur måste du först lägga till eller redigera figurerna på dashboarden. När du har valt rätt figur kan du redigera figurens layout och diagramtyp.
+För att du ska kunna visualisera dina mål i en panel måste du först lägga till eller redigera panelerna på dashboarden. När du har valt rätt panel kan du redigera panelens layout och diagramtyp.
 
 ![Gå till fliken Layout och välj Jämför med mål i sektionen Gruppering -screenshot][img7]
 
-## Lägg till figur med försäljningsmål på en dashboard
+## Lägg till panel med försäljningsmål på en dashboard
 
 1. Öppna skärmen **Dashboard**.
 
 2. Välj den dashboard som du vill redigera.
 
-3. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
+3. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Redigera dashboard-paneler**. Till höger på den dashboard som du har valt visas avsnittet **Redigera dashboard-paneler**.
 
-4. I listan **Visa figurer för** väljer du **Försäljning**.
+4. I listan **Visa paneler för** väljer du **Försäljning**.
 
 5. Välj något av följande diagram under fliken **Bibliotek**:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> – Stora siffror
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Stapeldiagram
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> – Stapeldiagram
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Kolumndiagram
     * <i class="ph ph-gauge" aria-hidden="true"></i> – Mätardiagram
     * Tom försäljningspanel
 
     > [!TIP]
-    > Du kan också [välja en tom figur][1] för att skapa en figur från grunden, men diagramtypen måste vara någon av de som listas ovan.
+    > Du kan också välja en tom panel för att [skapa en panel från grunden][6], men diagramtypen måste vara någon av de som listas ovan.
 
-6. För att lägga till en figur i dashboarden drar du och släpper den i önskad position på dashboarden. Du kan även klicka på **Lägg till** för att lägga till en figur i nästa tilgängliga position. Figuren anpassas automatiskt till den tillgängliga ytan och justeras efter rutnätet och kolumnerna.
+6. För att lägga till en panel i dashboarden drar du och släpper den i önskad position på dashboarden. Du kan även klicka på **Lägg till** för att lägga till en panel i nästa tilgängliga position. Figuren anpassas automatiskt till den tillgängliga ytan och justeras efter rutnätet och kolumnerna.
 
-7. Justera figurerna på dashboarden:
+7. Justera panelerna på dashboarden:
 
-    * Håll muspekaren över en figur och klicka och dra i ramen för att justera storleken på figuren. Tillgängliga platser/ytor på dashboarden gulmarkeras om figuren får plats i den aktuella positionen.
+    * Håll muspekaren över en panel och klicka och dra i ramen för att justera storleken på panelen. Tillgängliga platser/ytor på dashboarden gulmarkeras om panelen får plats i den aktuella positionen.
 
-    * Klicka på rubriken för en figur och dra denna till en annan position.
+    * Klicka på rubriken för en panel och dra denna till en annan position.
 
-8. Klicka på **Redigera figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nya figuren.
+8. Klicka på **Redigera panel** (<i class="ph ph-pencil" aria-hidden="true"></i>) på den nya panelen.
 
-9. Under fliken **Dataset**, ställ in **Försäljningsdatum** på innevarande år, kvartal eller månad. Redigera övriga [kriterier][2] efter behov. Kom ihåg att uppdatera figurens namn för att spegla eventuella ändringar som har gjorts här.
+9. Under fliken **Dataset**, ställ in **Försäljningsdatum** på innevarande år, kvartal eller månad. Redigera övriga [kriterier][2] efter behov. Kom ihåg att uppdatera panelens namn för att spegla eventuella ändringar som har gjorts här.
 
 10. Redigera layouten på fliken **Layout**:
 
@@ -58,7 +61,7 @@ För att du ska kunna visualisera dina mål i en figur måste du först lägga t
     * **Per**: Välj **Försäljning &gt; Ägare** (ägare, fullständigt namn eller grupp) eller **Försäljning &gt; Försäljningsdatum**. Det här alternativet är bara relevant för stapeldiagram och kolumndiagram.
     * **Gruppering** eller **Sidfot**: Välj **Jämför med mål**.
       * Om det här alternativet inte är synligt eller är inaktiverat dubbelkollar du att du har utfört stegen ovan. Om du inte ser alternativet **Jämför med mål** (om det är inaktiverat) kan du hålla muspekaren över texten. Detta visar ett verktygstips som förklarar vad du behöver ändra för att aktivera och välja alternativet.
-    * **Mål**: Välj det mål som du vill lägga till i figuren. (Inte relevant för stapeldiagram.)
+    * **Mål**: Välj det mål som du vill lägga till i panelen. (Inte relevant för stapeldiagram.)
     * **Visa som %**: Välj detta alternativ för att visa procentandel av målet istället för summor eller antal. (Inte relevant för kolumndiagram och stora siffror.)
 
 11. Redigera formateringen. Beroende på vilken diagramtyp du har valt har du ytterligare alternativ under **Formatering**:
@@ -81,12 +84,10 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 ## Relaterat
 
 * [Lägg till en ny dashboard][5]
-* [Redigera eller skapa figurer][2]
+* [Redigera eller skapa paneler][6]
 * [Konfigurera försäljningsmål][7]
-* [Dashboarddata][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

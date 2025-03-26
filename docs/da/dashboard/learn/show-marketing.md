@@ -3,9 +3,12 @@ uid: help-da-dashboard-tile-marketing
 title: Brug af forsendelser og formularer i felter
 description: Opret dashboards til dine marketingopgaver, f.eks. formularindsendelser og forsendelser, for at spore og analysere deres ydeevne, tendenser og produktivitet på tværs af alle marketingaktiviteter.
 keywords: dashboard, marketing
-author: SuperOffice RnD
-date: 02.16.2023
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice Marketing
 language: da
 ---
 
@@ -42,14 +45,12 @@ Tag et kig på eksemplerne nedenfor for at få ideer til ruder, du kan føje til
 
 * [Videnskaben bag e-mail åbne satser -][1] blog
 * [Tilføj et nyt dashboard][5]
-* [Rediger eller opret felter][3]
 * [Arbejde med ruder][6]
-* [Læs mere om kriterier i Find & selection][2]
+* [Læs mere om kriterier][2]
 
 <!-- Referenced links -->
 [1]: https://www.superoffice.com/blog/email-open-rates/
 [2]: ../../search-options/learn/search-criteria.md
-[3]: edit-tile.md
 [5]: create.md
 [6]: working-with-tiles.md
 

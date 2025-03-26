@@ -1,38 +1,70 @@
 ---
-uid: help-da-dashboard-edit
-title: Redigering af dashboard
-description: Redigering af dashboard
-keywords: dashboard, rude, layout
+uid: help-da-dashboard-update
+title: Tilpas dit dashboard
+description: Lær, hvordan du omdøber, konfigurerer og sletter dashboards i SuperOffice CRM. Tilpas layout, kolonner og synlighedsindstillinger, så de passer til dine behov.
+keywords: rediger dashboard, slet dashboard, dashboardkolonner, dashboard, rude, layout
 author: Bergfrid Dias
-date: 03.15.2023
+date: 03.26.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
-# Redigering af dashboard
+# Tilpas dit dashboard
+
+Du kan tilpasse hvert dashboard, så det fokuserer på de oplysninger, der er vigtigst for dig. Vælg mellem foruddefinerede ruder, eller opret dine egne for at visualisere aktiviteter, kundesegmenter, produkttrends, projektstatus eller salgsresultater.
+
+## Rediger dashboardindstillinger
+
+Du kan opdatere navn, beskrivelse, layout eller synlighed for et eksisterende dashboard.
 
 1. Åbn skærmbilledet **Dashboard**.
 
-2. Vælg det dashboard, du vil redigere.
+1. Vælg det dashboard, du vil redigere.
 
-3. Hvis du vil ændre navnet på dashboardet og justere andre indstillinger, skal du klikke på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælge **Rediger dashboard**.
+1. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg **Rediger dashboarddetaljer**.
 
-4. Hvis du vil tilføje felter og redigere dashboardlayoutet, skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælge **Tilføj rude/rediger layout**.
+1. Foretag de ønskede ændringer:
+    * Skift **navn** eller **beskrivelse**
+    * Vælg et andet **tema**
+    * Justér antal **kolonner**
+    * Hvis du har de nødvendige funktionsrettigheder, kan du opdatere felterne **Synlig for** og **Fastgør til**
 
-5. Klik på **Gem**.
+    > [!NOTE]
+    > Den person, der har oprettet dashboardet, er **ejer**. Ejerskabet kan ikke ændres.
+
+1. Klik på **Gem**.
 
 > [!NOTE]
-> Hvis du reducerer antal figurer, slettes alle overskydende figurer fra dashboardet (fra den sidste figur). Ruderne ordnes fra venstre mod højre og fra top til bund. Hvis du øger antal figurer, ændres rækkefølgen på de eksisterende figurer, og nye tomme figurer tilføjes.
+> Hvis du ændrer antallet af kolonner, justeres ruderne automatisk til det nye layout. Ingen ruder fjernes, men layoutet kan ændres, så der opstår tomme områder. Du kan efterfølgende flytte eller ændre størrelsen på ruderne for at forbedre visningen.
+
+## Rediger ruder og layout
+
+Sådan tilføjer, flytter, redigerer eller fjerner du ruder:
+
+1. Åbn det ønskede dashboard.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Rediger dashboardruder**.
+1. [Følg disse trin for at administrere ruder][2].
+
+## <a id="delete"></a>Slet et dashboard
+
+Kun **ejeren** af et dashboard kan slette det. Selv administratorer kan ikke slette dashboards, de ikke ejer. Ejerskab kan ikke overføres.
+
+1. Åbn skærmbilledet **Dashboard**.
+1. Vælg det dashboard, du vil slette.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Slet dette dashboard**.
+1. Klik på **OK** for at bekræfte.
+
+> [!NOTE]
+> Hvis dashboardet var fastgjort til andre, fjernes det også fra deres dashboardskærm.
 
 ## Relateret indhold
 
 * [Opret et nyt dashboard][1]
-* [Tilføj ruder/rediger layout][2]
-* [Redigering af rude][3]
-* [Fjern en rude][4]
+* [Tilføj, rediger og fjern ruder][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: add-tile.md
-[3]: edit-tile.md
-[4]: remove-tile.md
+[2]: working-with-tiles.md

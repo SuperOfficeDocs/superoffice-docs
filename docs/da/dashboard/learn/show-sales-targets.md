@@ -3,9 +3,12 @@ uid: help-da-dashboard-tile-sales-targets
 title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
 keywords: dashboard, salg, mål, diagram
-author: SuperOffice RnD
-date: 12.13.2022
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -23,20 +26,20 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
 2. Vælg det dashboard, du vil redigere.
 
-3. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Tilføj rude/Rediger layout** . I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
+3. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Rediger dashboardfelter**. I højre side af det valgte dashboard vises sektionen **Rediger dashboardfelter** .
 
 4. Vælg **Salg** på listen**Vis ruder for**.
 
 5. Vælg et af følgende diagrammer på fanen **Bibliotek** :
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Stort nummer
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Søjlediagram
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> - Søjlediagram
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Kolonnediagram
     * <i class="ph ph-gauge" aria-hidden="true"></i> - Målediagram
     * Tom salgsrude
 
     > [!TIP]
-    > Du kan også [vælge en tom rude][1] for at oprette en rude fra bunden, men diagramtypen skal være en af dem, der er anført ovenfor.
+    > Du kan også vælge en tom rude for at [oprette en rude fra bunden][6], men diagramtypen skal være en af dem, der er anført ovenfor.
 
 6. Hvis du vil føje en rude til dashboardet, skal du trække og slippe den på den ønskede position på dashboardet. Du kan også klikke på **Tilføj** for at føje en rude til næste tilgængelige position. Ruden tilpasses automatisk efter den tilgængelige plads og justeres med gitter- og kolonneopsætningen.
 
@@ -46,7 +49,7 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
     * Klik på overskriften i en rude, og træk den til en anden position.
 
-8. Klik på ikonet **Rediger rude** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nye rude.
+8. Klik på ikonet **Rediger rude** (<i class="ph ph-pencil" aria-hidden="true"></i>) på den nye rude.
 
 9. På fanen **Datasæt** skal du indstille **Salgsdato** til dette år, kvartal eller måned. Rediger de andre [kriterier][2] efter behov. Husk at opdatere rudens navn for at afspejle eventuelle ændringer, der er foretaget her.
 
@@ -81,12 +84,10 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 ## Relateret indhold
 
 * [Tilføj et nyt dashboard][5]
-* [Rediger eller opret felter][2]
-* [Opsæt salgsmål][7].
-* [Data i dashboard:][6]
+* [Rediger eller opret felter][6]
+* [Opsæt salgsmål][7]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

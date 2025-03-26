@@ -1,10 +1,11 @@
 ---
 uid: help-de-dashboard-requests
 title: Anfragen in Kacheln verwenden
-description: "In dieser Anleitung lernen Sie, wie Sie sich einen schnellen Überblick über alle offenen Anfragen in SuperOffice-Dashboards erhalten können."
-author: Bergfrid Dias
-date: 03.14.2023
+description: In dieser Anleitung lernen Sie, wie Sie sich einen schnellen Überblick über alle offenen Anfragen in SuperOffice-Dashboards erhalten können.
 keywords: Dashboard, Anfrage
+author: Bergfrid Dias
+date: 03.25.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +24,7 @@ Es ist üblich, sich zu Beginn des Tages einen Überblick über den aktuellen St
 
 Wenn Sie bzw. Ihre Rolle über die erforderlichen Rechte verfügen, können Sie den in den Kacheln im Dashboard angezeigten Inhalt auswählen.
 
-1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dashboard-Kacheln bearbeiten** aus.
 
 2. Wählen Sie in der Liste **Kacheln anzeigen für** die Option **Anfrage** und eine der vordefinierten Kacheln aus, oder nehmen Sie **Kachelanfrage löschen**
 
@@ -33,8 +34,6 @@ Sie können zum Beispiel folgende Inhalte anzeigen:
 * Status Ihrer eigenen Anfragen
 * Eigene aktive Anfragen
 * Nicht zugeordnete Anfragen
-
-Lesen Sie mehr über [Im Dashboard Kachel hinzufügen/Layout bearbeiten][7].
 
 ## Statistik
 
@@ -59,10 +58,10 @@ Zeigt Ihre Anfragen an, die den Status **Offen** haben. In anderen Worten ausged
 
 Listet Anfragen auf, die noch niemandem zugeordnet sind. Wenn Sie die [Verantwortung für eine der Anfragen übernehmen][2] möchten, müssen Sie auf **Anfrage akzeptieren** klicken. Anderenfalls kann jemand anderer die Anfrage zur gleichen Zeit beantworten.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Neues Dashboard erstellen][1]
-* [Im Dashboard Kachel hinzufügen/Layout bearbeiten][7]
+* [Dashboard-Kacheln bearbeiten][7]
 * [Anfrage erstellen][4]
 * [Anfragenmanagement][6]
 * [Anfragen suchen][5]

@@ -1,69 +1,96 @@
 ---
 uid: help-en-dashboard-create
 title: Create a new dashboard
-description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboard tabs in this how-to-guide.
-author: SuperOffice RnD
-date: 02.14.2023
-keywords: dashboard
+description: Get more insight into your CRM data by creating several dashboards. Learn how to create new dashboards in this how-to-guide.
+keywords: create dashboard, add dashboard, new dashboard, pin dashboard, duplicate dashboard, dashboard
+author: Bergfrid Dias
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Create a new dashboard
 
-In the Dashboard screen you can have multiple dashboard tabs to display any number of charts and statistics. When you create your own dashboard, you can also choose whether you want to share it with others.
+Dashboards let you visualize key metrics across different areas of your CRM. You can create multiple dashboards to track team performance, manage requests, follow up on sales, and more.
 
-## Create new dashboard tab
-
-Watch this video or follow the steps below to learn how to add new dashboard tabs to SuperOffice CRM (video length – 4:29):
+Watch this video or follow the steps below to learn how to create dashboards in SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
-1. Open the **Dashboard** screen.
+(video length – 4:29)
 
-2. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Create a new dashboard**.
+## Steps to create a new dashboard
 
-3. In the dialog, enter the name of the dashboard. This becomes the name of the dashboard tab.
+1. In the navigator, click the **Dashboard** icon (<i class="ph ph-gauge" aria-label="gauge icon"></i>) to open the Dashboard screen.
 
-4. Enter a description of the dashboard. The description is displayed at the top of the dashboard.
+1. Click the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **Create a new dashboard**.
 
-    > [!TIP]
-    > You can also add the name and description [in other languages][1] by clicking <i class="ph ph-translate" aria-label="Translate"></i>.
+1. In the dialog, enter a **name** for the dashboard.
 
-5. Select the theme of the dashboard in the **Theme** list.
+    ![Create a new dashboard dialog -screenshot][img1]
 
-6. Select the number of columns to use for the dashboard, in the **Columns** field.
+1. Optionally enter a **description**. This text appears at the top of the dashboard.
 
-7. In the **Visible for** field, specify who should see this tile. By default, the dashboard is visible only to you. If you have additional functional rights, you can make the dashboard visible/accessible for one or more user groups, or individual users.
+    Click <i class="ph ph-translate" aria-label="Translate"></i> to add the name and description [in other languages][5].
 
-8. Use the **Pin to** function to always show this dashboard for selected users. You can use this function for all users or for selected user groups or users. Using this function requires functional rights.
+1. Select a theme from the **Theme** list to control the visual style.
 
-9. Click **Save**.
+1. Choose how many columns the dashboard should have from the **Columns** field.
 
-    The new dashboard opens, containing no tiles.
+1. Click **Save**.
 
-On the right side of the new dashboard, the **Add tile / Edit layout** section is displayed. You can now start [adding tiles to the dashboard][2].
+    The dashboard opens with no tiles. The **Edit dashboard tiles** sidebar is displayed so you can [add tiles][2] right away.
 
-There is a lot of standard tiles to choose from in the library, but you can also create your own, either based on an existing tile or start with clean sheets.
+> [!NOTE]
+> The person who creates the dashboard is automatically set as the **owner**. Ownership cannot be changed later.
 
-![Select wanted tiles and drag and drop them into the grid view -screenshot][img2]
+## <a id="pin"></a>Share or pin a dashboard
 
-## Related topics
+If you have the **Dashboard administrator** (or general administrator) functional right, you will also see these fields when creating or editing a dashboard:
 
-* [Edit a dashboard][3]
-* [Add tiles / Edit layout][2]
-* [Duplicate a dashboard][4]
-* [Delete a dashboard][5]
-* [Create a search and save it as a selection][6]
+* **Visible for:** Share the dashboard with specific users or groups.
+* **Pin to:** Always display this dashboard for selected users or groups.
+
+![Pin dashboard / set Visible for -screenshot][img2]
+
+These options are only available if you have the required functional rights.
+
+## <a id="copy"></a>Duplicate a dashboard
+
+You can duplicate an existing dashboard to reuse its layout or content. For example, to create your own version of a pinned dashboard.
+
+1. Select the dashboard you want to duplicate.
+
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and choose **Duplicate dashboard**.
+
+    The new dashboard opens with "2" added to the name.
+
+    * To rename or update the dashboard, select **Edit dashboard** from the Task menu.
+    * To modify its tiles, select **Edit dashboard tiles**.
+
+## Tips
+
+* Use clear names when creating multiple dashboards to stay organized.
+* Organize dashboards by purpose or team.
+* Want to reuse just one tile? You can [copy a tile to another dashboard][1] instead of duplicating the whole dashboard.
+
+## Related content
+
+* [Edit or delete a dashboard][3]
+* [Edit dashboard tiles][2]
+* [Create a selection][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
-[2]: add-tile.md
+[1]: working-with-tiles.md#copy
+[2]: working-with-tiles.md
 [3]: update.md
-[4]: copy.md
-[5]: delete.md
-[6]: ../../search-options/learn/index.md#search-to-selection
+[5]: ../../globalization-and-localization/learn/translate-fields.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png
+[img1]: ../../../media/loc/en/dashboard/create-dashboard-dialog.png
+[img2]: ../../../media/loc/en/dashboard/pin-dashboard.png

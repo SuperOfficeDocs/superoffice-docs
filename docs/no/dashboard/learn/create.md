@@ -1,69 +1,96 @@
 ---
 uid: help-no-dashboard-create
-title: Opprette et nytt dashbord
-description: Opprett flere dashbord for å få mer innsikt i CRM-dataene dine. Finn ut hvordan du oppretter nye dashbordfaner i denne guiden.
-author: SuperOffice RnD
-date: 02.14.2023
-keywords: dashbord
+title: Opprett et nytt dashbord
+description: Få mer innsikt i CRM-dataene dine ved å opprette flere dashbord. Denne veiledningen viser hvordan du oppretter nye dashbord.
+keywords: opprett dashbord, legg til dashbord, nytt dashbord, fest dashbord, dupliser dashbord, dashbord
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Opprette et nytt dashbord
+# Opprett et nytt dashbord
 
-I Dashbord-bildet kan du ha flere dashbordfaner, slik at du kan vise så mange diagrammer og statistikker du vil. Når du oppretter ditt eget dashbord, kan du også velge om du vil dele det med andre.
+Dashbord lar deg visualisere viktige nøkkeltall på tvers av ulike deler av CRM-systemet. Du kan opprette flere dashbord for å følge med på teamets fremdrift, håndtere saker, følge opp salg og mer.
 
-## Opprette ny dashbordfane
-
-Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du legger til nye faner på dashbordet i SuperOffice CRM (videolengde – 4.29):
+Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du oppretter dashbord i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
-1. Åpne skjermbildet **Dashbord**.
+(videolengde – 4:29)
 
-2. Klikk på **Oppgave** -knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og velg **Opprett et nytt dashbord**.
+## Slik oppretter du et nytt dashbord
 
-3. Skriv inn dashbordets navn i dialogboksen. Dette blir navnet på dashbordfanen.
+1. Klikk på **Dashbord**-ikonet i navigatoren (<i class="ph ph-gauge" aria-label="gauge icon"></i>) for å åpne dashbord-skjermbildet.
 
-4. Skriv inn en beskrivelse av dashbordet. Beskrivelsen vises øverst på dashbordet.
+1. Klikk på **Oppgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Opprett et nytt dashbord**.
 
-    > [!TIP]
-    > Du kan også legge til navn og beskrivelse [på andre språk][1] ved å klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
+1. Skriv inn et **navn** for dashbordet i dialogboksen.
 
-5. Velg temaet for dashbordet i **Tema** -listen.
+    ![Dialogboks for nytt dashbord -screenshot][img1]
 
-6. Velg antall kolonner som skal brukes på dashbordet i **Kolonner** -feltet.
+1. Skriv eventuelt inn en **beskrivelse**. Denne teksten vises øverst i dashbordet.
 
-7. I feltet **Synlig for** velger du hvem som skal kunne se denne figuren. Som standard er dashbordet bare synlig for deg. Hvis du har flere funksjonelle rettigheter, kan du gjøre dashbordet synlig/tilgjengelig for én eller flere brukergrupper eller enkeltbrukere.
+    Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å legge til navn og beskrivelse [på andre språk][5].
 
-8. Bruk **Fest til** -funksjonen for å alltid vise dette dashbordet for utvalgte brukere. Du kan bruke denne funksjonen for alle brukere eller for valgte brukergrupper eller brukere. Bruk av denne funksjonen krever funksjonelle rettigheter.
+1. Velg tema i listen **Tema**.
 
-9. Klikk på **Lagre**.
+1. Velg antall kolonner i feltet **Kolonner**.
 
-    Det nye dashbordet åpnes, og inneholder ingen figurer.
+1. Klikk på **Lagre**.
 
-Til høyre i det nye dashbordet vises delen **Legg til figur / rediger layout.** Nå kan du begynne å [legge til figurer på dashbordet][2].
+    Det nye dashbordet åpnes uten figurer. Sidepanelet **Rediger dashbordfigurer** vises slik at du kan [legge til figurer][2] med én gang.
 
-Det er mange standardfigurer å velge mellom i biblioteket, men du kan også lage dine egne, enten basert på en eksisterende figur eller ved å starte med blanke ark.
+> [!NOTE]
+> Personen som oppretter dashbordet, blir automatisk satt som **eier**. Dette kan ikke endres senere.
 
-![Velg ønskede figurer, og dra og slipp dem i rutenettet -screenshot][img2]
+## <a id="pin"></a>Del eller fest et dashbord
 
-## Aktuelle emner
+Hvis du har rettigheten **Dashbordadministrator** (eller generell administrator), vil du også se disse feltene ved oppretting/redigering:
 
-* [Redigere et dashbord][3]
-* [Legg til figurer / rediger layout][2]
-* [Duplisere et dashbord][4]
-* [Slette et dashbord][5]
-* [Opprette et søk og lagre det som et utvalg][6]
+* **Synlig for:** Del dashbordet med bestemte brukere eller grupper.
+* **Fest til:** Vis dashbordet automatisk for utvalgte brukere eller grupper.
+
+![Fest dashbord / angi Synlig for -screenshot][img2]
+
+Disse alternativene er kun synlige hvis du har nødvendige rettigheter.
+
+## <a id="copy"></a>Dupliser et dashbord
+
+Du kan duplisere et eksisterende dashbord for å gjenbruke innhold eller utforming, f.eks. lage en personlig versjon av et festet dashbord.
+
+1. Velg dashbordet du vil duplisere.
+
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Dupliser dashbord**.
+
+    Det nye dashbordet åpnes med "2" lagt til navnet.
+
+    * Velg **Rediger dashborddetailjer** for å endre navn eller innstillinger.
+    * Velg **Rediger dashbordfigurer** for å endre innholdet.
+
+## Tips
+
+* Bruk tydelige navn for å holde oversikt når du har flere dashbord.
+* Organiser dashbordene etter formål eller team.
+* Trenger du bare én figur? Du kan [kopiere en figur til et annet dashbord][1] i stedet for å duplisere alt.
+
+## Relatert innhold
+
+* [Rediger eller slett et dashbord][3]
+* [Rediger dashbordfigurer][2]
+* [Opprett et utvalg][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
-[2]: add-tile.md
+[1]: working-with-tiles.md#copy
+[2]: working-with-tiles.md
 [3]: update.md
-[4]: copy.md
-[5]: delete.md
-[6]: ../../search-options/learn/index.md#search-to-selection
+[5]: ../../globalization-and-localization/learn/translate-fields.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png
+[img1]: ../../../media/loc/en/dashboard/create-dashboard-dialog.png
+[img2]: ../../../media/loc/en/dashboard/pin-dashboard.png

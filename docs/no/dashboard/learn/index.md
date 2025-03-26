@@ -1,109 +1,163 @@
 ---
 uid: help-no-dashboard
-title: Dashboard
-description: Konfigurere SuperOffice Dashboard og bruke forhåndsdefinerte figurer. Dashbord er ideelle for alle brukere og ledere. Du kan få en oversikt over arbeidet ditt eller teamets innsats.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: dashbord
+title: Dashbord
+description: SuperOffice Dashbord er ideelle for både brukere og ledere. Få oversikt over arbeidet ditt eller teamets innsats med forhåndsdefinerte figurer, eller lag dine egne.
+keywords: dashboard administrator, diagram, rapport, datasett, stort tall, måler, dashbord, figur
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Dashbord
 
+Dashbord i SuperOffice CRM gir deg umiddelbar visuell innsikt i arbeidet ditt, teamets fremdrift og nøkkeltall i virksomheten. De viser viktige tall og trender ved hjelp av figurer koblet til utvalg eller andre datakilder.
+
+Bruk dashbord for å følge opp aktiviteter, salg, saker og mer. Du kan bruke forhåndsdefinerte dashbord eller opprette dine egne.
+
+![Saksdashbord -screenshot][img4]
+
 > [!NOTE]
-> Noen av funksjonene som beskrives her, krever spesifikke funksjonelle rettigheter eller lisenser.
+> Tilgang til dashbord og Figurdata avhenger av brukerplanen og tildelte rettigheter.
 
-Med **Dashbord**-funksjonen i SuperOffice CRM får du rask tilgang til diagrammene, rapportene og statistikken som er viktigst for deg. Du kan velge mellom en rekke forhåndsdefinerte figurer, og du kan også legge til figurer fra dynamiske utvalg eller opprette dine egne.
+## Hva er et dashbord?
 
-Dashbord vises som faner øverst på skjermen. Festede dashbord og dashbord som er valgt som favoritter, vises her sammen med dashbordet som ble brukt sist. Hvis du vil vise andre dashbord som du har tilgang til, kan du søke i navigatoren.
+Et dashbord er en tilpasset visning av CRM-dataene dine. Det viser én eller flere figurer – små visuelle rapporter som viser summer, tellinger eller diagrammer basert på dataene dine. Dashbord hjelper deg med å holde deg oppdatert og ta beslutninger raskere.
 
-## Terminologi
+Hver figur inneholder en grafisk eller numerisk fremstilling av SuperOffice-data. Det er dataene bak figurene som gjør dashbordet nyttig.
 
-* **Dashbord:** Et dashbord er en måte å vise ulike typer visuelle data på ett sted på. Vanligvis skal et dashbord formidle forskjellig, men relatert informasjon på en lett forståelig måte.
+### Terminologi
 
-* **Rapporter:** En liste eller et utvalg som vises i en figur
+* **Dashbord:** Et skjermbilde som viser CRM-data visuelt ved hjelp av én eller flere figurer.
+* **Figur:** Et konfigurerbart panel i et dashbord. Figurer kan vise diagrammer, lister eller tall.
+* **Diagram:** En grafisk fremstilling av Figurdata, som et sektordiagram eller stolpediagram.
+* **Datasett:** Den underliggende datakilden for en figur. Vanligvis basert på søkekriterier.
 
-* **Figurer:** Justerbar firkant som kan visualisere forskjellige data i dashbordet ditt.
+## Åpne dashbord
 
-  * **Diagramtype:** Et diagram er en grafisk representasjon for datavisualisering (noen ganger kalt grafer).
-  * **Liste:** En liste som viser et definert utvalg.
-  * **Store tall:** Lar deg fremheve en viktig samlet beregning eller KPI (nøkkelytelsesindikator).
-  * **Webpanel:**  Vis en URL/webside i en figur.
-  * **HTML-kode:** Vis HTML-kode i en figur.
+Velg **Dashbord** i navigatoren for å åpne dashbordskjermbildet. Du har tilgang til:
 
-* **Datasett:** Utvalg av data som vises i figuren, for eksempel et dynamisk utvalg med søkekriterier.
+* **Festede dashbord:** Delt ut av en administrator
+* **Favorittdashbord:** Merket med stjerne
+* **Egne dashbord:** Dashbord du selv har opprettet
 
-* **Utseende:** Endre innstillingene for å justere hvordan dataene vises i en figur.
+Som standard er et dashbord kalt **Status** tilgjengelig og festet. Det inneholder figurer med forhåndsdefinerte diagrammer og nøkkeltall. Hvis du har brukerplanen SuperOffice Service, er et annet dashbord kalt **Saker** også tilgjengelig.
 
-* **Dashbord-faner:** Hver fane inneholder et dashbord som viser forskjellige figurer med forskjellige data som kan gi innsikt og brukes som en beslutningsveiledning.
+Du kan opprette flere dashbord eller duplisere eksisterende for å tilpasse dem.
+
+Festede og favorittdashbord vises øverst i skjermbildet sammen med det sist brukte dashbordet. Bruk søkefeltet i navigatoren for å finne andre tilgjengelige dashbord.
+
+| Ikon | Beskrivelse |
+|:-:|---|
+| <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Festet dashbord. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorittdashbord. Klikk for å slå av/på. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Oppdater alle figurdata. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Oppgavemeny for dashbordhandlinger. |
 
 ## Figurer
 
-I SuperOffice Dashboard har du mange [forhåndsdefinerte standardfigurer][6] å velge mellom, og diagrammer som er koblet til dynamiske utvalg. Figurene er fordelt på åtte kategorier: Firma, Person, Oppfølging, Salg, Prosjekt, Dokument, Produkt og Sak.
+Figurer er byggesteinene i et dashbord. Figurdata er vanligvis relatert til deg, gruppene dine og en bestemt periode (for eksempel denne måneden eller siste 6 måneder).
 
-Hver figur i et dashbord inneholder enten et diagram, en liste eller et tall. Et dashbord kan inneholde flere figurer.
+En figur kan vise:
 
-Figurene kan også tilpasses for å bare vise data fra utvalg. Tilgangsrettigheter og konfidensialitet gjelder for figurdataene, så figurer viser bare informasjon du har tilgang til. Figurdata er vanligvis relatert til deg eller gruppene dine, og til en bestemt periode (for eksempel denne måneden eller siste seks måneder)
+* Et **diagram**, som stolpe- eller sektordiagram. Diagrammer er visuelle fremstillinger av data (noen ganger kalt grafer).
+* En **liste** med opptil 100 oppføringer fra et utvalg.
+* Et **stort tall**, som totalsalg. Fremhever en KPI (nøkkelytelsesindikator).
+* Et **webpanel** som viser en URL.
+* **HTML-innhold**, formatert direkte i figuren.
 
-Det finnes flere typer diagrammer:
+Du kan legge til forhåndsdefinerte figurer eller lage dine egne.
 
-| Type | Beskrivelse |
-|---|---|
-| Sektor | En rund graf. |
-| Kolonne | Et stående stolpediagram som viser variabelverdiene loddrett. |
-| Stolpe | Et liggende stolpediagram som viser variabelverdiene vannrett. |
-| Linje | En serie datapunkter med en kontinuerlig linje. |
-| Område | En graf som kombinerer et linjediagram og et stolpediagram. |
-| Måler | Også kjent som skivediagrammer eller speedometerdiagrammer, og bruker nåler til å vise informasjon som avlesning av en måler. |
-| Kolonne + linje | (To akser) Et diagram med to akser som kombinerer et stolpe- og linjediagram. |
-| Stolpe + linje | (To akser) Et diagram med dobbel akse som kombinerer et stolpe- og linjediagram. |
+## <a id="charts"></a>Diagramtyper
 
-## Tilpasse dashbordet ditt
+Diagramtypen bestemmer hvordan dataene vises i figuren.
 
-Du kan velge blant mange forhåndsdefinerte figurer for å visualisere og evaluere arbeidet ditt, med et øyeblikksbilde av aktivitetsnivåer, kundesegmenter, produktstatistikk, prosjektdetaljer og salg. Ved å tilpasse dashbordfigurene dine kan du vise grafene og oversiktene som er viktigst for deg.
+| Ikon | Type | Beskrivelse |
+|:-:|---|---|
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Sektordiagram | En sirkelgraf. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stort tall | Et tall i stor skrift, med mulighet for sammenligning. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | En listevisning med maks 100 elementer. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonnediagram | Viser verdier loddrett. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Stolpediagram | Viser verdier vannrett. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Linjediagram | En serie datapunkter med en kontinuerlig linje. |
+| <i class="ph ph-chart-line-up ph-fill" aria-label="Line chart"></i> | Områdediagram | Kombinerer linje- og stolpediagram. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Målediagram | Viser data med visere på en skive. Også kjent som skivediagram eller speedometerdiagram. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolonne + linje (2 akser) | Diagram med to akser. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Stolpe + linje (2 akser) | Diagram med to akser som kombinerer et stolpe- og linjediagram. |
 
-![Tilpass dashbordet ditt for å gjøre det mer verdifullt for deg -screenshot][img4]
+## Vis og samhandle med figurer
 
-### Lage din egen graf for dashbordet
+Hver figur viser et øyeblikksbilde av sanntidsdata. Du kan samhandle med figurene for å utforske underliggende data.
 
-Hvis du ikke finner riktig figur, kan du opprette dine egne figurer basert på valgene dine. Du kan visualisere alle dynamiske valg i grafer for å få den informasjonen du trenger, på en rask og lettfattelig måte. Du kan også opprette dine egne figurer fra bunnen av ved hjelp av ønskede kriterier og oppsettet som viser dataene på riktig måte.
+* **Hold musepekeren over** diagramområder for å vise verktøytips.
+* **Klikk på en verdi i forklaringen** for å vise eller skjule dataserier.
+* Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Fullskjermvisning** for å utvide en figur.
 
-### Opprette flere faner
+    ![Dashbordfigurens oppgavemeny -screenshot][img1]
 
-Som standard er bare én dashbordfane, kalt Status, konfigurert. Den inneholder forskjellige figurer med forhåndsdefinerte diagrammer. Du kan redigere denne fanen og/eller legge til ekstra dashbordfaner for å vise alle figurene og diagrammene du ønsker.
+* **Klikk på datapunkter** (for eksempel en stolpe eller sektor) for å vise de underliggende oppføringene i et nytt vindu.
+
+I visningen for underliggende data:
+
+* Velg en oppføring for forhåndsvisning.
+* Dobbeltklikk for å åpne, eller klikk på **Åpne**.
+* Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> og velg **Kopier til utvalg** for å kopiere oppføringer til oppfølging. Hvis ingen er valgt, kopieres alle.
+
+![Se nærmere på underliggende data -screenshot][img2]
+
+## Krav
+
+Dashbordfunksjoner avhenger av funksjonelle rettigheter og lisensnivå. Alle brukere kan:
+
+* Se dashbord som er festet eller delt med dem
+* Lage, tilpasse og slette egne dashbord
 
 > [!NOTE]
-> Tilgangsrettigheter og konfidensialitet gjelder figurdata, så figurene viser bare informasjon du har tilgang til.
+> Figurer viser bare data du har tilgang til.
 
-### Redigere eller opprette dine egne figurer
+Hvis du ikke kan redigere eller feste et dashbord, må du be administratoren sjekke dine funksjonelle rettigheter.
 
-Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i SuperOffice Dashboard, kan du [lage din egen][4].
+### Funksjonelle rettigheter
 
-## Alternativer i dashbordbildet
+Funksjonelle rettigheter tildeles roller i **Innstillinger og vedlikehold**. Disse styrer hvem som kan dele og administrere dashbord.
 
-| Ikon/knapp | Beskrivelse |
-|---|---|
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashbordet er festet av en administrator, og det er sannsynligvis distribuert til flere brukere. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Klikk på stjernen øverst til høyre for å velge et dashbord som favoritt. |
-| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klikk på **Oppdater** -knappen for å oppdatere dataene i alle figurer. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klikk for å få tilgang til ulike funksjoner. |
+* **Dashbordadministrator:**
+  * Feste dashbord til brukere eller grupper
+* **Generell administrator:**
+  * Oppdatere dashbord laget av andre
+  * Kan ikke slette dashbord de ikke eier
 
-**Funksjoner på Oppgave-knappen:**
+Bare **eieren** av et dashbord kan slette det.
 
-* [Opprette et nytt dashbord][1]
-* [Duplisere et dashbord][2]
+### Lisensspesifikke dashbordfunksjoner
+
+| Lisens | Inkluderte dashbord | Figurtyper |
+|---|---|---|
+| Alle CRM-planer | Status-dashbord med standardfigurer | Diagrammer, lister, store tall |
+| **Service** | Saker-dashbord | Sakrelaterte figurer |
+| **Marketing** (Essentials eller høyere) | – | Utsendelser, skjemaer, chat |
+| **Sales Premium** | – | Prognoser, KPI-er, salgsmål, tilbud |
+| **Sales eller Service Premium** | – | Aktivitetsmonitorer (SAINT) |
+
+## Tips
+
+* Bruk **favoritter** <i class="ph ph-star" aria-label="Star icon"></i> for rask tilgang til de mest brukte dashbordene.
+
+## Relatert innhold
+
+* [Opprette et nytt dashbord eller duplisere et eksisterende][1]
 * [Redigere et dashbord][3]
-* [Legg til figurer / rediger layout][4]
-* [Slette et dashbord][5]
+* [Rediger dashbordfigurer][6]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: copy.md
 [3]: update.md
-[4]: add-tile.md
-[5]: delete.md
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
+[img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
