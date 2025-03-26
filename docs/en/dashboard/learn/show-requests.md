@@ -2,9 +2,10 @@
 uid: help-en-dashboard-requests
 title: Using requests in tiles
 description: In this how-to guide you will learn how to get a quick overview of all open requests in SuperOffice dashboards.
+keywords: dashboard, request, tile
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: dashboard, request
+date: 03.25.2025
+version: 10.5.3
 topic: howto
 audience: person
 audience_tooltip: SuperOffice Service
@@ -23,7 +24,7 @@ It is common practice to start your day getting an overview of the current statu
 
 If you or your role have sufficient rights, you can choose the content you want to display in the tiles on the dashboard.
 
-1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**.
+1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Edit dashboard tiles**.
 
 2. In the **Show tiles for** list, select **Request** and select one of the pre-defined tiles or choose **Empty request tile**
 
@@ -33,8 +34,6 @@ You can choose to display, for example:
 * Statuses of your own requests
 * Own active requests
 * Unassigned requests
-
-Read more about [Add tile / edit layout in dashboard][7].
 
 ## Statistics
 
@@ -59,10 +58,10 @@ Shows requests that belong to you and that have the **Open** status. In other wo
 
 Lists requests that no-one is assigned responsibility for. To [take responsibility for one of the requests][2], it is important you click **Accept request**. Otherwise, someone else might answer the request at the same time.
 
-## What would you like to do now?
+## Related content
 
 * [Create a new dashboard][1]
-* [Add tile / edit layout in dashboard][7]
+* [Edit dashboard tiles][7]
 * [Create a request][4]
 * [Request management][6]
 * [Find requests][5]
@@ -73,7 +72,7 @@ Lists requests that no-one is assigned responsibility for. To [take responsibili
 [4]: ../../request/learn/create.md
 [5]: ../../request/learn/find.md
 [6]: ../../request/learn/index.md#request-mgt
-[7]: add-tile.md
+[7]: working-with-tiles.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/service-dashboard.png
