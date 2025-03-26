@@ -26,7 +26,7 @@ By default statistics are shown for all available channels, but you can select a
 
 ## Create a dashboard for chat conversation
 
-You can visualize statistics from chat conversations in a dashboard to get an informative overview of the data. After you [create a dashboard][2], you can [add and edit tiles][3].
+You can visualize statistics from chat conversations in a dashboard to get an informative overview of the data. After you [create a dashboard][2], you can add and edit tiles.
 
 ### Examples - tiles you can add to your dashboard for chat conversations
 
@@ -51,7 +51,6 @@ Double-click a row in the **Ongoing chat sessions** list to listen in on (watch)
 <!-- Referenced links -->
 [1]: respond.md
 [2]: ../../dashboard/learn/create.md
-[3]: ../../dashboard/learn/add-tile.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/chat/chat-dashboard-statistics.png

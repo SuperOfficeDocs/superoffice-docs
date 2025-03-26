@@ -42,13 +42,13 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 * [Introduction to dashboards][4]
 * [Drill down on Dashboard (in Mobile CRM)][1]
 * [Create dashboard (in SuperOffice CRM)][3]
-* [Add tile / edit layout in dashboard (in SuperOffice CRM)][2]
+* [Edit dashboard tiles (in SuperOffice CRM)][2]
 * [Using requests in tiles][5]
 * [Using sales targets in tiles][6]
 
 <!-- Referenced links -->
 [1]: drill-down.md
-[2]: ../../../dashboard/learn/add-tile.md
+[2]: ../../../dashboard/learn/working-with-tiles.md
 [3]: ../../../dashboard/learn/create.md
 [4]: ../../../dashboard/learn/index.md
 [5]: ../../../dashboard/learn/show-requests.md

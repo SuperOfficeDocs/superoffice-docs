@@ -71,7 +71,7 @@ To manage tiles, you must first enter layout mode:
 
 ### <a id="selection-chart"></a>About selection-based tiles
 
-When you add a tile from the **Selections** tab, you are not linking the tile to a live selection. Instead, you are copying the current dataset and layout from the [chart defined in the selection][2]. After that point, the tile and the selection are independent.
+When you add a tile from the **Selections** tab, you are not linking the tile to a live selection. Instead, you are copying the current dataset and layout from the [chart defined in the selection][6]. After that point, the tile and the selection are independent.
 
 The **Selections** tab only shows:
 
@@ -122,7 +122,7 @@ Use this tile to display formatted text in your dashboard. For example, a welcom
 1. In the **Dataset** tab, adjust the filters as needed.
 1. In the **Layout** tab, select the chart type and visual settings.
 1. Update the tile name to match the updated data or layout.
-1. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][12] to the tile title and labels.
+1. Click <i class="ph ph-translate" aria-label="Translate"></i> to [add a translation][7] to the tile title and labels.
 1. Click **Save**.
 
 ## <a id="copy"></a>Duplicate or copy a tile
@@ -204,16 +204,16 @@ Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile 
 ## Related content
 
 * [Add a new dashboard][1]
-* [Use dashboards to manage your sales pipeline][15]
+* [Use dashboards to manage your sales pipeline][2]
 
 <!-- Referenced links -->
 [1]: create.md
+[2]: show-sales-targets.md
 [3]: index.md#charts
-[2]: ../../search-options/selection/learn/howto/display-as-charts.md
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png

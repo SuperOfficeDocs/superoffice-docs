@@ -35,8 +35,7 @@ Watch this video or follow the steps below to learn how to create dashboards in 
 
 1. Optionally enter a **description**. This text appears at the top of the dashboard.
 
-    > [!TIP]
-    > Click <i class="ph ph-translate" aria-label="Translate"></i> to add the name and description [in other languages][1].
+    Click <i class="ph ph-translate" aria-label="Translate"></i> to add the name and description [in other languages][5].
 
 1. Select a theme from the **Theme** list to control the visual style.
 
@@ -45,6 +44,9 @@ Watch this video or follow the steps below to learn how to create dashboards in 
 1. Click **Save**.
 
     The dashboard opens with no tiles. The **Edit dashboard tiles** sidebar is displayed so you can [add tiles][2] right away.
+
+> [!NOTE]
+> The person who creates the dashboard is automatically set as the **owner**. Ownership cannot be changed later.
 
 ## <a id="pin"></a>Share or pin a dashboard
 
@@ -74,7 +76,7 @@ You can duplicate an existing dashboard to reuse its layout or content. For exam
 
 * Use clear names when creating multiple dashboards to stay organized.
 * Organize dashboards by purpose or team.
-* Want to reuse just one tile? You can [copy a tile to another dashboard][4] instead of duplicating the whole dashboard.
+* Want to reuse just one tile? You can [copy a tile to another dashboard][1] instead of duplicating the whole dashboard.
 
 ## Related content
 
@@ -83,10 +85,10 @@ You can duplicate an existing dashboard to reuse its layout or content. For exam
 * [Create a selection][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
+[1]: working-with-tiles.md#copy
 [2]: working-with-tiles.md
-[4]: working-with-tiles.md#copy
 [3]: update.md
+[5]: ../../globalization-and-localization/learn/translate-fields.md
 [6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->

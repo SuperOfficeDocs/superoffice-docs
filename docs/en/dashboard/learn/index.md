@@ -18,7 +18,7 @@ Dashboards in SuperOffice CRM give you instant visual insight into your work, yo
 
 Use dashboards to track activities, sales, requests, and more. You can view pre-defined dashboards or create your own.
 
-![Custom dashboard -screenshot][img4]
+![Request dashboard -screenshot][img4]
 
 > [!NOTE]
 > Your access to dashboards and tile data depends on your user plan and assigned rights.
@@ -159,5 +159,5 @@ Only the **owner** of a dashboard can delete it.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
-[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
