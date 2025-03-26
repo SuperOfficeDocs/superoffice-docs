@@ -1,10 +1,10 @@
 ---
 uid: help-de-dashboard-create
 title: Neues Dashboard erstellen
-description: Erstellen Sie mehrere Dashboards, um sich einen besseren Einblick in Ihre CRM-Daten zu schaffen. In dieser Anleitung lernen Sie, wie Sie neue Dashboard-Registerkarten erstellen.
-keywords: Dashboard
+description: Erstellen Sie mehrere Dashboards, um mehr Einblick in Ihre CRM-Daten zu erhalten. Diese Anleitung zeigt Ihnen, wie Sie neue Dashboards erstellen.
+keywords: dashboard erstellen, neues dashboard, dashboard hinzufügen, dashboard anheften, dashboard duplizieren, dashboard
 author: Bergfrid Dias
-date: 03.21.2025
+date: 03.26.2025
 version: 10.5.3
 topic: howto
 audience: person
@@ -14,73 +14,82 @@ language: de
 
 # Neues Dashboard erstellen
 
-In der Ansicht Dashboard können Sie mehrere Dashboard-Registerkarten zur Anzeige einer Vielzahl von Diagrammen und Statistiken erstellen. Wenn Sie Ihr eigenes Dashboard erstellen, können Sie auch auswählen, ob Sie es mit anderen teilen möchten.
+Dashboards bieten eine visuelle Übersicht über wichtige Kennzahlen in Ihrem CRM. Sie können mehrere Dashboards erstellen, um Teamleistungen zu verfolgen, Anfragen zu verwalten, Verkaufszahlen nachzuvollziehen und mehr.
 
-Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie neue Dashboard zu SuperOffice CRM hinzufügen:
+Sehen Sie sich dieses Video an oder folgen Sie den untenstehenden Schritten, um Dashboards in SuperOffice CRM zu erstellen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
 (Videolänge – 4:29)
 
-## Neue Dashboard-Registerkarte erstellen
+## So erstellen Sie ein neues Dashboard
 
-1. Öffnen Sie die Ansicht **Dashboard**.
+1. Klicken Sie auf das Symbol **Dashboard** im Navigator (<i class="ph ph-gauge" aria-label="gauge icon"></i>), um die Dashboard-Ansicht zu öffnen.
 
-2. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Neues Dashboard erstellen**.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Neues Dashboard erstellen**.
 
-3. Geben Sie Im Dialogfeld den Namen für das Dashboard ein. Es erhält den Namen der Dashboard-Registerkarte.
+1. Geben Sie im Dialogfeld einen **Namen** für das Dashboard ein.
 
-4. Geben Sie eine Beschreibung für das Dashboard ein. Die Beschreibung wird oben im Dashboard angezeigt.
+    ![Dialog Neues Dashboard erstellen -screenshot][img1]
 
-    > [!TIP]
-    > Sie können auch den Namen und die Beschreibung [in anderen Sprachen][1] hinzufügen, indem Sie auf <i class="ph ph-translate" aria-label="Translate"></i> klicken.
+1. Geben Sie optional eine **Beschreibung** ein. Dieser Text erscheint oben im Dashboard.
 
-5. Wählen Sie das Design des Dashboards in der Liste **Design** aus.
+    Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um Namen und Beschreibung [in anderen Sprachen][1] hinzuzufügen.
 
-6. Wählen Sie im Feld **Spalten** die Anzahl der Spalten für das Dashboard aus.
+1. Wählen Sie ein Design im Feld **Design** aus.
 
-7. Geben Sie im Feld **Sichtbar für** an, wer diese Kachel sehen kann. Standardmäßig ist das Dashboard nur für Sie sichtbar. Wenn Sie über zusätzliche funktionelle Rechte verfügen, können Sie das Dashboard für eine oder mehrere Benutzergruppen oder einzelne Benutzer sichtbar/zugänglich machen.
+1. Wählen Sie die Anzahl der Spalten im Feld **Spalten**.
 
-8. Mit der Funktion **Anheften** kann dieses Dashboard ausgewählten Benutzern immer angezeigt werden. Sie können diese Funktion für alle Benutzer oder für ausgewählte Benutzergruppen oder Benutzer verwenden. Für diese Funktion sind funktionelle Rechte erforderlich.
+1. Klicken Sie auf **Speichern**.
 
-9. Klicken Sie auf **Speichern**.
+    Das neue Dashboard wird ohne Kacheln geöffnet. Die Seitenleiste **Dashboard-Kacheln bearbeiten** wird angezeigt, damit Sie direkt [Kacheln hinzufügen][2] können.
 
-    Das neue Dashboard wird ohne Kacheln geöffnet.
+> [!NOTE]
+> Die Person, die das Dashboard erstellt, wird automatisch als **Eigentümer** festgelegt. Die Eigentümerschaft kann später nicht geändert werden.
 
-Auf der rechten Seite des neuen Dashboards wird der Bereich **Kacheln hinzufügen/Layout bearbeiten** angezeigt. Sie können jetzt mit dem Vorgang [Kacheln zum Dashboard hinzufügen][2] beginnen.
+## <a id="pin"></a>Dashboard teilen oder anheften
 
-In der Bibliothek gibt es eine große Auswahl an Standardkacheln, Sie können aber auch mithilfe einer vorhandenen Kachel oder ausgehend von leeren Blättern Ihre eigenen Kacheln erstellen.
+Wenn Sie über das funktionelle Recht **Dashboard-Administrator** (oder allgemeiner Administrator) verfügen, werden beim Erstellen oder Bearbeiten folgende Felder angezeigt:
 
-![Wählen Sie die gewünschten Kacheln aus und bringen Sie sie durch Ziehen und Ablegen in die Rasteransicht -screenshot][img2]
+* **Sichtbar für:** Dashboard mit bestimmten Benutzern oder Gruppen teilen.
+* **Anheften für:** Dashboard dauerhaft für ausgewählte Benutzer oder Gruppen anzeigen.
 
-## <a id="copy"></a>Dashboards duplizieren
+![Dashboard anheften / Sichtbar für -screenshot][img2]
 
-Sie können eine Kopie eines vorhandenen Dashboards erstellen. Dies kann hilfreich sein, um zum Beispiel eine eigene Version eines angehefteten Dashboards mit einigen eigenen Änderungen zu erstellen.
+Diese Felder sind nur sichtbar, wenn Sie die erforderlichen Rechte haben.
 
-1. Öffnen Sie die Ansicht **Dashboard**.
+## <a id="copy"></a>Ein Dashboard duplizieren
 
-2. Wählen Sie das zu duplizierende Dashboard aus.
+Sie können ein vorhandenes Dashboard duplizieren, um Layout oder Inhalt wiederzuverwenden – z. B. um eine persönliche Version eines angehefteten Dashboards zu erstellen.
 
-3. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Dashboard duplizieren** aus.
+1. Wählen Sie das Dashboard aus, das Sie duplizieren möchten.
 
-    Das Duplikat öffnet sich, wobei eine "2" an den Namen angefügt wird.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dashboard duplizieren**.
 
-4. Um den Namen des Dashboards zu ändern und andere Einstellungen vorzunehmen, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Dashboard bearbeiten** aus.
+    Das neue Dashboard wird mit einer "2" am Ende des Namens geöffnet.
 
-5. Zum Hinzufügen, Bearbeiten oder Löschen von Kacheln und Bearbeiten des Dashboard-Layouts klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen **Kachel hinzufügen/Layout bearbeiten** aus.
+    * Wählen Sie **Dashboard-Details bearbeiten**, um Name oder Einstellungen zu ändern.
+    * Wählen Sie **Dashboard-Kachel bearbeiten**, um den Inhalt anzupassen.
 
-## Verwandte Themen
+## Tipps
 
-* [Dashboards bearbeiten oder löschen][3]
-* [Kacheln hinzufügen/Layout bearbeiten][2]
-* [Suche erstellen und als Selektion speichern][6]
+* Verwenden Sie klare Namen, wenn Sie mehrere Dashboards erstellen.
+* Organisieren Sie Dashboards nach Zweck oder Team.
+* Möchten Sie nur eine Kachel wiederverwenden? Sie können [eine Kachel in ein anderes Dashboard kopieren][1], ohne das gesamte Dashboard zu duplizieren.
+
+## Verwandte Inhalte
+
+* [Dashboard bearbeiten oder löschen][3]
+* [Dashboard-Kacheln bearbeiten][2]
+* [Selektion erstellen][6]
 
 <!-- Referenced links -->
 [1]: ../../globalization-and-localization/learn/translate-fields.md
 [2]: add-tile.md
 [3]: update.md
-[6]: ../../search-options/learn/index.md#search-to-selection
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png
+[img1]: ../../../media/loc/en/dashboard/create-dashboard-dialog.png
+[img2]: ../../../media/loc/en/dashboard/pin-dashboard.png

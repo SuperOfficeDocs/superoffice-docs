@@ -1,10 +1,10 @@
 ---
 uid: help-da-dashboard-create
 title: Opret et nyt dashboard
-description: Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye faner i dashboard.
-keywords: dashboard
+description: Få mere indsigt i dine CRM-data ved at oprette flere dashboards. I denne vejledning lærer du, hvordan du opretter nye dashboards.
+keywords: opret dashboard, tilføj dashboard, nyt dashboard, fastgør dashboard, duplikér dashboard, dashboard
 author: Bergfrid Dias
-date: 03.21.2025
+date: 03.26.2025
 version: 10.5.3
 topic: howto
 audience: person
@@ -14,73 +14,83 @@ language: da
 
 # Opret et nyt dashboard
 
-Du kan have flere dashboardfaner i skærmbilledet Dashboard, så du kan vise lige så mange diagrammer og statistikker, som du ønsker. Når du opretter dit eget dashboard, kan du også vælge, om du vil dele det med andre.
+Dashboards gør det nemt at visualisere vigtige nøgletal i forskellige dele af dit CRM. Du kan oprette flere dashboards for at følge op på teamets præstationer, håndtere sager, følge op på salg og meget mere.
 
-Se denne video, eller følg nedenstående trin for at lære, hvordan du tilføjer nye dashboard til SuperOffice CRM:
+Se denne video, eller følg trinnene nedenfor for at lære, hvordan du opretter dashboards i SuperOffice CRM:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/W68M1IOke0Y]
 
-(videoens længde - 4:29)
+(videoens længde – 4:29)
 
-## Opret ny dashboardfane
+## Trin til at oprette et nyt dashboard
 
-1. Åbn skærmbilledet **Dashboard**.
+1. Klik på **Dashboard**-ikonet i navigatoren (<i class="ph ph-gauge" aria-label="gauge icon"></i>) for at åbne dashboard-skærmbilledet.
 
-2. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg Opret et nyt **dashboard**.
+1. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg **Opret et nyt dashboard**.
 
-3. Angiv navnet på dashboardet i dialogboksen. Dette vil være navnet på fanen dashboard.
+1. Indtast et **navn** på dashboardet i dialogboksen.
 
-4. Angiv en beskrivelse af dashboardet. Beskrivelsen vises øverst på dashboardet.
+    ![Dialogboks til oprettelse af nyt dashboard -screenshot][img1]
 
-    > [!TIP]
-    > Du kan også tilføje navn og beskrivelse [på andre sprog][1] ved at klikke på <i class="ph ph-translate" aria-label="Translate"></i>.
+1. Angiv evt. en **beskrivelse**. Denne tekst vises øverst i dashboardet.
 
-5. Vælg temaet for dashboardet listen **Tema**.
+    Klik på <i class="ph ph-translate" aria-label="Translate"></i> for at tilføje navn og beskrivelse [på andre sprog][5].
 
-6. Vælg det antal kolonner, der skal bruges til dashboardet, i feltet **Kolonner.**
+1. Vælg et tema i listen **Tema** for at styre det visuelle udtryk.
 
-7. I feltet **Synlig for** kan du angive, hvem der skal kunne se denne rude. Som standard er dashboardet kun synligt for dig. Hvis du har yderligere funktionsrettigheder, kan du gøre dashboardet synligt/tilgængeligt for en eller flere brugergrupper eller individuelle brugere.
+1. Vælg antal kolonner i feltet **Kolonner**.
 
-8. Brug funktionen **Fastgør** til altid at vise dette dashboard for udvalgte brugere. Du kan bruge denne funktion til alle brugere eller til udvalgte brugergrupper eller brugere. Brug af denne funktion kræver funktionsrettigheder.
+1. Klik på **Gem**.
 
-9. Klik på **Gem**.
+    Dashboardet åbnes uden ruder. Sidepanelet **Rediger dashboardruder** vises, så du kan [tilføje ruder][2] med det samme.
 
-    Det nye dashboard åbnes uden ruder.
+> [!NOTE]
+> Den person, der opretter dashboardet, bliver automatisk angivet som **ejer**. Ejerskab kan ikke ændres senere.
 
-I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** . Du kan nu begynde [at tilføje felter til dashboardet][2].
+## <a id="pin"></a>Del eller fastgør et dashboard
 
-Der er mange standardruder at vælge imellem i biblioteket, men du kan også oprette dine egne, enten baseret på en eksisterende rude eller starte med rene ark.
+Hvis du har funktionsrettigheden **Dashboardadministrator** (eller generel administrator), ser du også disse felter, når du opretter eller redigerer et dashboard:
 
-![Vælg ønskede ruder, og træk og slip dem i gittervisningen -screenshot][img2]
+* **Synlig for:** Del dashboardet med bestemte brugere eller grupper.
+* **Fastgør til:** Vis altid dette dashboard for valgte brugere eller grupper.
 
-## <a id="copy"></a>Dupliker et dashboard
+![Fastgør dashboard / angiv Synlig for -screenshot][img2]
 
-Du kan oprette en kopi af et eksisterende dashboard. For eksempel for at oprette din egen version af et fastgjort dashboard med nogle ændringer af dine egne.
+Disse felter er kun tilgængelige, hvis du har de nødvendige rettigheder.
 
-1. Åbn skærmbilledet **Dashboard**.
+## <a id="copy"></a>Duplikér et dashboard
 
-2. Vælg det dashboard, du vil dublikere.
+Du kan duplikere et eksisterende dashboard og genbruge layoutet eller indholdet. For eksempel for at lave din egen version af et fastgjort dashboard.
 
-3. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), og vælg **Dupliker dashboard** .
+1. Vælg det dashboard, du vil duplikere.
 
-    Det duplikerede åbnes med et "2" tilføjet efter navnet.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, og vælg **Duplikér dashboard**.
 
-4. Hvis du vil ændre navnet på dashboardet og justere andre indstillinger, skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælge **Rediger dashboard**.
+    Det nye dashboard åbnes med "2" tilføjet til navnet.
 
-5. Hvis du vil tilføje, redigere eller slette felter og redigere dashboardlayoutet, skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælge **Tilføj rude/rediger layout**.
+    * Vælg **Rediger dashboarddetaljer** i opgavemenuen for at ændre navn eller indstillinger.
+    * Vælg **Rediger dashboardruder** for at ændre ruderne.
+
+## Tips
+
+* Brug tydelige navne, hvis du opretter flere dashboards.
+* Organisér dashboards efter formål eller team.
+* Vil du kun genbruge én rude? Du kan [kopiere en rude til et andet dashboard][1] i stedet for at duplikere hele dashboardet.
 
 ## Relateret indhold
 
-* [Redigering/sletning af dashboard][3]
-* [Tilføj ruder/rediger layout][2]
-* [Opret en søgning og gem det som et valg][6]
+* [Rediger eller slet et dashboard][3]
+* [Rediger dashboardruder][2]
+* [Opret et udvalg][6]
 
 <!-- Referenced links -->
-[1]: ../../globalization-and-localization/learn/translate-fields.md
-[2]: add-tile.md
+[1]: working-with-tiles.md#copy
+[2]: working-with-tiles.md
 [3]: update.md
-[6]: ../../search-options/learn/index.md#search-to-selection
+[5]: ../../globalization-and-localization/learn/translate-fields.md
+[6]: ../../search-options/selection/learn/create.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/en/dashboard/10-dashboard-create-dashboard_dragdrop.png
+[img1]: ../../../media/loc/en/dashboard/create-dashboard-dialog.png
+[img2]: ../../../media/loc/en/dashboard/pin-dashboard.png
