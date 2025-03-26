@@ -162,14 +162,30 @@ Du kan fjerne figurer fra et dashbord hvis du har redigeringstilgang.
 
 ## <a id="export"></a>Eksportere figurer
 
+### Last ned eller skriv ut figurrapporten
+
 Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i overskriften til en figur for å få tilgang til følgende alternativer:
 
-* **Last ned PDF-dokument** / **Last ned PNG-dokument**: Last ned figuren i PDF- eller PNG-format. Eksportfilene lagres i nettleserens **Nedlastinger**-mappe.
+* **Last ned PDF-dokument** / **Last ned PNG-dokument**: Last ned figuren i PDF- eller PNG-format. Eksportfilene lastes ned til nettleseren (**Nedlastinger**-mappen).
+
+    For andre formater (**SVG, CSV og XLS**), velg **Vis i fullskjerm** fra menyen.
 
 * **Skriv ut**: Åpne figuren i utskriftsdialogboksen.
 
 > [!TIP]
-> Hvis du vil skjule bestemte data før du eksporterer eller skriver ut en figur, klikker du på dataetikettene (teksten) ved siden av eller under figuren for å skjule data.
+> Hvis du vil skjule bestemte data før eksport eller utskrift, klikker du på dataetikettene (forklaring) ved siden av eller under figuren.
+
+### Eksportér ALLE rader i et datasett til Excel
+
+1. Klikk på et datapunkt i figuren for å vise tilhørende data.
+
+    Et nytt vindu åpnes med relaterte oppføringer.
+
+1. Klikk på <i class="ph ph-download-simple" aria-label="Download"></i> **Eksportér** under listen.
+
+1. Klikk på **Ja** for å bekrefte.
+
+    Denne handlingen kan ta litt tid. Du kan fortsette å jobbe i SuperOffice mens du venter. Du blir varslet når eksporten er fullført.
 
 ## Tips
 

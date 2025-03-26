@@ -162,14 +162,30 @@ U kunt tegels uit een dashboard verwijderen, zolang u bewerkingstoegang hebt.
 
 ## <a id="export"></a>Tegels exporteren
 
+### Tegelrapport downloaden of afdrukken
+
 Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in de koptekst van een tegel om toegang te krijgen tot de volgende opties:
 
 * **PDF-document downloaden** / **PNG-document downloaden**: Download de tegel in PDF- of PNG-indeling. De exportbestanden worden gedownload naar uw browser (map **Downloads**).
+
+    Voor andere indelingen (**SVG, CSV en XLS**), kies **Volledig scherm weergeven** in het menu.
 
 * **Afdrukken**: Open de tegel in het afdrukvenster.
 
 > [!TIP]
 > Als u specifieke gegevens wilt verbergen voordat u een tegel exporteert of afdrukt, klikt u op de gegevenslabels (legenda) naast of onder de tegel om gegevens te verbergen.
+
+### ALLE rijen in een dataset naar Excel exporteren
+
+1. Klik op een gegevenspunt in de tegel om de bijbehorende gegevens te openen.
+
+    Er wordt een nieuw venster geopend met de gerelateerde records.
+
+1. Klik onder de lijst op <i class="ph ph-download-simple" aria-label="Download"></i> **Exporteren**.
+
+1. Klik op **Ja** om te bevestigen.
+
+    Deze bewerking kan even duren. U kunt ondertussen gewoon doorwerken in SuperOffice. U krijgt een melding zodra de export is voltooid.
 
 ## Tips
 

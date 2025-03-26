@@ -162,14 +162,30 @@ Sie können Kacheln aus einem Dashboard entfernen, sofern Sie über die erforder
 
 ## <a id="export"></a>Kacheln exportieren
 
-Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel, um folgende Optionen zu öffnen:
+### Kachelbericht herunterladen oder drucken
+
+Klicken Sie im Kopfbereich einer Kachel auf <i class="ph ph-dots-three-vertical" aria-label="Aufgabe"></i>, um folgende Optionen anzuzeigen:
 
 * **PDF-Dokument herunterladen** / **PNG-Dokument herunterladen**: Exportieren Sie die Kachel im PDF- oder PNG-Format. Die Dateien werden im **Download**-Ordner Ihres Browsers gespeichert.
 
-* **Drucken**: Öffnet die Kachel im Druckdialogfenster.
+    Für andere Formate (**SVG, CSV und XLS**) wählen Sie **Vollbild anzeigen** im Menü.
+
+* **Drucken**: Öffnet die Kachel im Druckdialog.
 
 > [!TIP]
-> Um bestimmte Daten vor dem Exportieren oder Drucken auszublenden, klicken Sie auf die Datenbeschriftungen (Legende) neben oder unter der Kachel.
+> Um bestimmte Daten vor dem Exportieren oder Drucken auszublenden, klicken Sie auf die Datenbezeichnungen (Legende) neben oder unter der Kachel.
+
+### ALLE Zeilen eines Datensatzes nach Excel exportieren
+
+1. Klicken Sie auf einen Datenpunkt in der Kachel, um die zugrunde liegenden Daten anzuzeigen.
+
+    Ein neues Fenster mit den zugehörigen Datensätzen wird geöffnet.
+
+1. Klicken Sie unter der Liste auf <i class="ph ph-download-simple" aria-label="Download"></i> **Exportieren**.
+
+1. Klicken Sie auf **Ja**, um zu bestätigen.
+
+    Dieser Vorgang kann eine Weile dauern. Sie können währenddessen in SuperOffice weiterarbeiten. Sie erhalten eine Benachrichtigung, wenn der Export abgeschlossen ist.
 
 ## Tipps
 

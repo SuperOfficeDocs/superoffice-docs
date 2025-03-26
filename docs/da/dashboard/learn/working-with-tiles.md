@@ -162,14 +162,30 @@ Du kan fjerne ruder fra et dashboard, så længe du har redigeringstilladelse.
 
 ## <a id="export"></a>Eksportér ruder
 
-Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i sidehovedet på en rude for at få adgang til følgende muligheder:
+### Download eller udskriv ruderapporten
 
-* **Download PDF-dokument** / **Download PNG-dokument**: Download ruden i PDF- eller PNG-format. Filen gemmes i din browsers **Overførsler**-mappe.
+Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i rudens sidehoved for at få adgang til følgende indstillinger:
 
-* **Udskriv**: Åbner ruden i udskriftsdialogboksen.
+* **Download PDF-dokument** / **Download PNG-dokument**: Download ruden som PDF- eller PNG-fil. Eksportfilerne downloades til din browser (**Overførsler**-mappen).
+
+    For andre formater (**SVG, CSV og XLS**) skal du vælge **Vis i fuld skærm** i menuen.
+
+* **Udskriv**: Åbn ruden i udskriftsdialogboksen.
 
 > [!TIP]
-> Hvis du vil skjule specifikke data, før du eksporterer eller udskriver en rude, skal du klikke på dataetiketterne (forklaringer) ved siden af eller under ruden for at skjule dem.
+> Hvis du vil skjule bestemte data før eksport eller udskrivning, kan du klikke på dataetiketterne (forklaring) ved siden af eller under ruden for at skjule data.
+
+### Eksportér ALLE rækker i et datasæt til Excel
+
+1. Klik på et datapunkt i ruden for at se de underliggende data.
+
+    Et nyt vindue åbnes med de relaterede poster.
+
+1. Klik på <i class="ph ph-download-simple" aria-label="Download"></i> **Eksportér** under listen.
+
+1. Klik på **Ja** for at bekræfte.
+
+    Denne handling kan tage lidt tid. Du kan fortsætte med at arbejde i SuperOffice, mens du venter. Du får besked, når eksporten er fuldført.
 
 ## Tips
 

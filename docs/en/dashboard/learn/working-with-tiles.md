@@ -162,14 +162,30 @@ You can remove tiles from a dashboard, as long as you have editing access.
 
 ## <a id="export"></a>Export tiles
 
+### Download or print the tile report
+
 Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in the header of a tile to access the following options:
 
 * **Download PDF document** / **Download PNG document**: Download the tile in PDF or PNG format. The export files are downloaded to your browser (**Downloads** folder).
+
+    For other formats (**SVG, CSV, and XLS**), choose **View in full screen** from the menu.
 
 * **Print**: Open the tile in the print dialog.
 
 > [!TIP]
 > To hide specific data before exporting or printing a tile, click the data labels (legend) next to or under the tile to hide data.
+
+### Export ALL rows in a dataset to Excel
+
+1. Click a data point in the tile to drill down into the data.
+
+    A new window opens with the related records.
+
+1. Click <i class="ph ph-download-simple" aria-label="Download"></i> **Export** below the list.
+
+1. Click **Yes** to confirm.
+
+    This operation may take a while. You can continue working in SuperOffice while waiting. You will be notified when the export is complete.
 
 ## Tips
 

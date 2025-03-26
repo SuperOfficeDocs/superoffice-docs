@@ -162,14 +162,30 @@ Du kan ta bort paneler från en dashboard, så länge du har behörighet att red
 
 ## <a id="export"></a>Exportera paneler
 
-Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i sidhuvudet för en panel för att få tillgång till följande alternativ:
+### Ladda ner eller skriv ut panelrapporten
+
+Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i panelens rubrik för att öppna följande alternativ:
 
 * **Ladda ner PDF-dokument** / **Ladda ner PNG-dokument**: Ladda ner panelen i PDF- eller PNG-format. Exportfilerna sparas i din webbläsares mapp **Nedladdningar**.
 
-* **Skriv ut**: Öppna panelen i utskriftsdialogrutan.
+    För andra format (**SVG, CSV och XLS**) väljer du **Visa i helskärm** i menyn.
+
+* **Skriv ut**: Öppna panelen i dialogrutan för utskrift.
 
 > [!TIP]
-> Om du vill dölja specifika data innan du exporterar eller skriver ut en panel, klicka på dataetiketterna (förklarande text) bredvid eller under panelen för att dölja data.
+> För att dölja specifika data innan du exporterar eller skriver ut en panel klickar du på datamärkningarna (förklaringar) bredvid eller under panelen.
+
+### Exportera ALLA rader i ett dataset till Excel
+
+1. Klicka på en datapunkt i panelen för att visa detaljerade data.
+
+    Ett nytt fönster öppnas med relaterade poster.
+
+1. Klicka på <i class="ph ph-download-simple" aria-label="Download"></i> **Exportera** under listan.
+
+1. Klicka på **Ja** för att bekräfta.
+
+    Den här åtgärden kan ta en stund. Du kan fortsätta arbeta i SuperOffice medan du väntar. Du får ett meddelande när exporten är klar.
 
 ## Tips
 
