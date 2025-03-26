@@ -1,10 +1,10 @@
 ---
 uid: help-nl-dashboard-update
-title: Een dashboard bewerken
-description: Een dashboard bewerken
-keywords: dashboard, tegel, opmaak
+title: Een dashboard aanpassen
+description: Leer hoe u dashboards in SuperOffice CRM hernoemt, instelt of verwijdert. Pas de lay-out, kolommen en zichtbaarheid aan uw wensen aan.
+keywords: dashboard bewerken, dashboard verwijderen, dashboard kolommen, dashboard, tegel, opmaak
 author: Bergfrid Dias
-date: 03.21.2025
+date: 03.26.2025
 version: 10.5.3
 topic: howto
 audience: person
@@ -12,46 +12,59 @@ audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Uw dashboard aanpassen
+# Een dashboard aanpassen
 
-U kunt kiezen uit vele vooraf gedefinieerde tegels om uw werk te visualiseren en te evalueren, met een momentopname van activiteitsniveaus, klantsegmenten, productstatistieken, projectdetails en verkopen. Door uw dashboardtegels aan te passen, kunt u de grafieken en overzichten tonen die voor u persoonlijk het meest waardevol zijn.
+U kunt elk dashboard aanpassen aan de informatie die voor u het belangrijkst is. Kies uit vooraf gedefinieerde tegels of maak uw eigen om activiteiten, klantsegmenten, producttrends, projectupdates of verkoopresultaten te visualiseren.
 
-## Maak uw eigen grafiek voor het dashboard
+## Dashboardinstellingen bewerken
 
-Als u de juiste tegel niet kunt vinden, kunt u uw eigen tegels maken op basis van uw selecties. U kunt alle dynamische selecties in grafieken visualiseren om u op een snelle en gemakkelijk te begrijpen manier de informatie te geven die u nodig hebt. U kunt ook uw eigen tegels maken vanaf het begin met gewenste criteria en de opmaak die uw gegevens correct weergeven.
-
-## Een dashboard bewerken
+U kunt de naam, beschrijving, lay-out of zichtbaarheid van een bestaand dashboard aanpassen.
 
 1. Open het scherm **Dashboard**.
 
-2. Selecteer het dashboard dat u wilt bewerken.
+1. Selecteer het dashboard dat u wilt bewerken.
 
-3. Als u de naam van het dashboard wilt wijzigen en andere instellingen wilt aanpassen, klikt u op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en selecteert u **Dashboard bewerken**.
+1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en kies **Dashboarddetails bewerken**.
 
-4. Als u tegels wilt toevoegen en de dashboardopmaak wilt bewerken, klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteert u **Tegel toevoegen/Opmaak bewerken**.
+1. Breng de gewenste wijzigingen aan:
+    * Wijzig **naam** of **beschrijving**
+    * Kies een ander **thema**
+    * Pas het aantal **kolommen** aan
+    * Als u de juiste rechten hebt, werk de velden **Zichtbaar voor** en **Vastmaken aan** bij
 
-5. Klik op **Opslaan**.
+    > [!NOTE]
+    > Degene die het dashboard heeft gemaakt, is de **eigenaar**. Eigenaarschap kan later niet worden gewijzigd.
+
+1. Klik op **Opslaan**.
 
 > [!NOTE]
-> Als u het aantal tegels vermindert, worden alle extra tegels van het dashboard verwijderd (beginnend met de laatste tegel). De tegels zijn gerangschikt van links naar rechts, van boven naar beneden. Als u het aantal tegels verhoogt, worden de bestaande tegels opnieuw geordend en worden nieuwe lege tegels toegevoegd.
+> Als u het aantal kolommen wijzigt, worden de tegels automatisch herschikt. Er worden geen tegels verwijderd, maar het raster kan anders worden ingedeeld, wat lege plekken kan veroorzaken. U kunt de tegels daarna handmatig verplaatsen of aanpassen.
+
+## Tegels en opmaak bewerken
+
+Zo voegt u tegels toe, verplaatst u ze of verwijdert u ze:
+
+1. Open het dashboard.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Dashboardtegels bewerken**.
+1. [Volg deze stappen om tegels te beheren][2].
 
 ## <a id="delete"></a>Een dashboard verwijderen
 
-1. Open het scherm **Dashboard**.
-2. Selecteer het dashboard dat u wilt bewerken, klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Dit dashboard verwijderen**.
-3. Klik ter bevestiging op **OK**. Het dashboard wordt verwijderd.
+Alleen de **eigenaar** van een dashboard kan het verwijderen. Zelfs beheerders kunnen geen dashboards van anderen verwijderen. Eigenaarschap kan niet worden overgedragen.
 
-    Als het dashboard aan andere gebruikers of gebruikersgroepen is vastgemaakt, hebben zij er geen toegang meer toe.
+1. Open het scherm **Dashboard**.
+1. Selecteer het dashboard dat u wilt verwijderen.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Dit dashboard verwijderen**.
+1. Klik op **OK** om te bevestigen.
+
+> [!NOTE]
+> Als het dashboard vastgemaakt was aan andere gebruikers, wordt het ook uit hun dashboard verwijderd.
 
 ## Gerelateerde inhoud
 
 * [Een nieuw dashboard maken][1]
-* [Tegels toevoegen en opmaak bewerken][2]
-* [Een tegel bewerken][3]
-* [Een tegel verwijderen][4]
+* [Tegels toevoegen, bewerken of verwijderen][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: add-tile.md
-[3]: edit-tile.md
-[4]: remove-tile.md
+[2]: working-with-tiles.md
