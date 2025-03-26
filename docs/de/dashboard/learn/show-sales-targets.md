@@ -49,7 +49,7 @@ Um Ihre Ziele in einem Dashboard visualisieren zu können, müssen Sie zunächst
 
     * Klicken Sie auf die Kopfzeile einer Kachel und ziehen Sie sie an eine andere Position.
 
-8. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) auf der neuen Kachel.
+8. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>) auf der neuen Kachel.
 
 9. Legen Sie auf der Registerkarte **Datensatz** das **Verkaufsdatum** auf dieses Jahr, Quartal bzw. diesen Monat fest. Bearbeiten Sie gegebenenfalls die anderen [Kriterien][2]. Aktualisieren Sie unbedingt den Kachelnamen, damit dieser Aufschluss über hier vorgenommene Änderungen gibt.
 

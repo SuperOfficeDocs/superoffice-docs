@@ -51,7 +51,7 @@ You can create additional dashboards or duplicate existing ones to customize the
 Pinned and favorite dashboards are displayed across the top of the screen, along with the most recently used dashboard. Use the search field in the navigator to find other dashboards available to you.
 
 | Icon | Description |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Pinned dashboard. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favorite dashboard. Click to toggle. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Refresh all tile data. |

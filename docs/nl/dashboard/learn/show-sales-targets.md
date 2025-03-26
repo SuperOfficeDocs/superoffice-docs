@@ -49,7 +49,7 @@ Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in
 
     * Klik op de koptekst van een tegel en sleep deze naar een andere positie.
 
-8. Klik in het dashboard op  **Tegel bewerken** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) op de nieuwe tegel.
+8. Klik in het dashboard op  **Tegel bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>) op de nieuwe tegel.
 
 9. Stel op het tabblad **Gegevensset** de **Verkoopdatum** in op dit jaar, kwartaal of deze maand. Bewerk de andere [criteria][2] indien nodig. Vergeet niet om de naam van de tegel bij te werken om de wijzigingen weer te geven die hier zijn aangebracht.
 

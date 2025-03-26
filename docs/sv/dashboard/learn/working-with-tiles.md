@@ -118,7 +118,7 @@ Använd den här panelen för att visa formaterad text i dashboarden. Exempelvis
 
 ## <a id="edit"></a>Redigera en panel
 
-1. När du är i layoutläge, klicka på ikonen **Redigera** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på panelen.
+1. När du är i layoutläge, klicka på ikonen **Redigera** (<i class="ph ph-pencil" aria-hidden="true"></i>) på panelen.
 1. På fliken **Dataset**, justera filtren vid behov.
 1. Gå till fliken **Layout** och välj diagramtyp och visuella inställningar.
 1. Uppdatera panelens namn för att spegla uppdaterade data eller layout.

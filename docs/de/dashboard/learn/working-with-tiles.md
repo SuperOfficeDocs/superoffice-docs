@@ -118,7 +118,7 @@ Verwenden Sie diese Kachel, um formatierten Text in Ihrem Dashboard anzuzeigen, 
 
 ## <a id="edit"></a>Kachel bearbeiten
 
-1. Klicken Sie im Layout-Modus auf das Symbol **Bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) auf der Kachel.
+1. Klicken Sie im Layout-Modus auf das Symbol **Bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>) auf der Kachel.
 1. Passen Sie auf der Registerkarte **Datensatz** die Filter nach Bedarf an.
 1. Wählen Sie auf der Registerkarte **Layout** den Diagrammtyp und die visuellen Einstellungen aus.
 1. Aktualisieren Sie den Namen der Kachel, um die geänderten Daten oder das Layout widerzuspiegeln.

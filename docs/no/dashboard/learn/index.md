@@ -51,7 +51,7 @@ Du kan opprette flere dashbord eller duplisere eksisterende for å tilpasse dem.
 Festede og favorittdashbord vises øverst i skjermbildet sammen med det sist brukte dashbordet. Bruk søkefeltet i navigatoren for å finne andre tilgjengelige dashbord.
 
 | Ikon | Beskrivelse |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Festet dashbord. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favorittdashbord. Klikk for å slå av/på. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Oppdater alle figurdata. |

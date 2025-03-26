@@ -49,7 +49,7 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
     * Click the header of a tile and drag it to another position.
 
-8. In the dashboard, click the **Edit tile** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>) on the new tile.
+8. In the dashboard, click the **Edit tile** icon (<i class="ph ph-pencil" aria-hidden="true"></i>) on the new tile.
 
 9. In the **Dataset** tab, set **Sale date** to this year, quarter or month. Edit the other [criteria][2] as necessary. Remember to update the tile name to reflect any changes made here.
 

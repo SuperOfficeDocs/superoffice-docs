@@ -118,7 +118,7 @@ Gebruik deze tegel om opgemaakte tekst in uw dashboard weer te geven, zoals een 
 
 ## <a id="edit"></a>Een tegel bewerken
 
-1. Terwijl u zich in de opmaakmodus bevindt, klikt u op het pictogram **Bewerken** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) op de tegel.
+1. Terwijl u zich in de opmaakmodus bevindt, klikt u op het pictogram **Bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>) op de tegel.
 1. Pas op het tabblad **Dataset** de filters aan zoals gewenst.
 1. Selecteer op het tabblad **Opmaak** het gewenste grafiektype en de visuele instellingen.
 1. Werk de naam van de tegel bij zodat deze overeenkomt met de nieuwe gegevens of opmaak.

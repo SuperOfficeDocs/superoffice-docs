@@ -118,7 +118,7 @@ Brug denne rude til at vise formateret tekst i dashboardet. Det kan for eksempel
 
 ## <a id="edit"></a>Rediger en rude
 
-1. Når du er i layouttilstand, skal du klikke på **Rediger**-ikonet (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på ruden.
+1. Når du er i layouttilstand, skal du klikke på **Rediger**-ikonet (<i class="ph ph-pencil" aria-hidden="true"></i>) på ruden.
 1. I fanen **Datasæt** kan du justere kriterierne efter behov.
 1. I fanen **Layout** vælger du diagramtype og visuelle indstillinger.
 1. Opdater rudens navn, så det afspejler de nye data eller layoutændringer.

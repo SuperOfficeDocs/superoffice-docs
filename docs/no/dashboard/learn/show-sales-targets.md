@@ -49,7 +49,7 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
     * Klikk på overskriften på en figur, og dra den til en annen plassering.
 
-8. I dashbordet klikker du på **Rediger figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nye figuren.
+8. I dashbordet klikker du på **Rediger figur** (<i class="ph ph-pencil" aria-hidden="true"></i>) på den nye figuren.
 
 9. I **Datasett**-fanen angir du **Salgsdato** til gjeldende år, kvartal eller måned. Rediger de andre [kriteriene][2] etter behov. Husk å oppdatere figurnavnet for å gjenspeile eventuelle endringer.
 

@@ -51,7 +51,7 @@ U kunt extra dashboards maken of bestaande dupliceren en aanpassen.
 Vastgemaakte en favoriete dashboards worden bovenaan het scherm weergegeven, samen met het laatst gebruikte dashboard. Gebruik het zoekveld in de navigator om andere beschikbare dashboards te vinden.
 
 | Pictogram | Beschrijving |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Vastgemaakt dashboard. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favoriet dashboard. Klik om in/uit te schakelen. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Alle tegelgegevens vernieuwen. |

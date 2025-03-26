@@ -49,7 +49,7 @@ För att du ska kunna visualisera dina mål i en panel måste du först lägga t
 
     * Klicka på rubriken för en panel och dra denna till en annan position.
 
-8. Klicka på **Redigera panel** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nya panelen.
+8. Klicka på **Redigera panel** (<i class="ph ph-pencil" aria-hidden="true"></i>) på den nya panelen.
 
 9. Under fliken **Dataset**, ställ in **Försäljningsdatum** på innevarande år, kvartal eller månad. Redigera övriga [kriterier][2] efter behov. Kom ihåg att uppdatera panelens namn för att spegla eventuella ändringar som har gjorts här.
 

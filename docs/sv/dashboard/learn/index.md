@@ -51,7 +51,7 @@ Du kan skapa fler dashboards eller duplicera befintliga för att anpassa dem.
 Fastnålade och favoritdashboards visas högst upp på skärmen tillsammans med det senast använda. Använd sökfältet i navigatorn för att hitta andra dashboards som du har åtkomst till.
 
 | Ikon | Beskrivning |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Fastnålade dashboards. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favoritdashboard. Klicka för att växla. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Uppdatera all paneldata. |

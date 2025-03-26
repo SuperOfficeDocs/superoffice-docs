@@ -118,7 +118,7 @@ Use this tile to display formatted text in your dashboard. For example, a welcom
 
 ## <a id="edit"></a>Edit a tile
 
-1. While in layout mode, click the **Edit** icon (<i class="ph ph-note-pencil" aria-hidden="true"></i>) on the tile.
+1. While in layout mode, click the **Edit** icon (<i class="ph ph-pencil" aria-hidden="true"></i>) on the tile.
 1. In the **Dataset** tab, adjust the filters as needed.
 1. In the **Layout** tab, select the chart type and visual settings.
 1. Update the tile name to match the updated data or layout.

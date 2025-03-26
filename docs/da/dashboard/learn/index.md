@@ -51,7 +51,7 @@ Du kan oprette flere dashboards eller duplikere eksisterende for at tilpasse dem
 Fastgjorte og foretrukne dashboards vises øverst på skærmen sammen med det senest anvendte dashboard. Brug søgefeltet i navigatoren for at finde andre dashboards, du har adgang til.
 
 | Ikon | Beskrivelse |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Fastgjort dashboard. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favoritdashboard. Klik for at slå til/fra. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Opdater alle rudedata. |

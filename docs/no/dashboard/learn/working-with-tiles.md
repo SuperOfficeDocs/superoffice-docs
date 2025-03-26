@@ -118,7 +118,7 @@ Bruk denne typen figur til å vise formatert tekst i dashbordet. For eksempel en
 
 ## Redigere en figur
 
-1. Når du er i redigeringsmodus for dashbordet, klikker du på **Rediger**-ikonet (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på figuren.
+1. Når du er i redigeringsmodus for dashbordet, klikker du på **Rediger**-ikonet (<i class="ph ph-pencil" aria-hidden="true"></i>) på figuren.
 2. I **Datasett**-fanen justerer du filtrene etter behov.
 3. I **Layout**-fanen velger du diagramtype og visuelle innstillinger.
 4. Oppdater figurnavnet for å gjenspeile nye data eller layout.

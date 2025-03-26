@@ -51,7 +51,7 @@ Sie können zusätzliche Dashboards erstellen oder bestehende duplizieren, um di
 Angeheftete und favorisierte Dashboards werden oben auf dem Bildschirm zusammen mit dem zuletzt verwendeten angezeigt. Verwenden Sie das Suchfeld im Navigator, um andere verfügbare Dashboards zu finden.
 
 | Symbol | Beschreibung |
-|---|---|
+|:-:|---|
 | <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Angeheftetes Dashboard. |
 | <i class="ph ph-star" aria-label="Star icon"></i> | Favoriten-Dashboard. Klicken, um umzuschalten. |
 | <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Alle Kacheldaten aktualisieren. |

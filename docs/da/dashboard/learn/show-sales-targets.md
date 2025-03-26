@@ -49,7 +49,7 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
     * Klik på overskriften i en rude, og træk den til en anden position.
 
-8. Klik på ikonet **Rediger rude** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på den nye rude.
+8. Klik på ikonet **Rediger rude** (<i class="ph ph-pencil" aria-hidden="true"></i>) på den nye rude.
 
 9. På fanen **Datasæt** skal du indstille **Salgsdato** til dette år, kvartal eller måned. Rediger de andre [kriterier][2] efter behov. Husk at opdatere rudens navn for at afspejle eventuelle ændringer, der er foretaget her.
 
