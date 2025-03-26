@@ -2,10 +2,13 @@
 uid: help-en-dashboard-tile-sales-targets
 title: Using sales targets in tiles
 description: Use dashboards and tiles to compare your sales targets to your actual sales.
-author: SuperOffice RnD
-date: 12.13.2022
 keywords: dashboard, sale, target, chart
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -23,20 +26,20 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
 2. Select the dashboard you want to edit.
 
-3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Add tile / Edit layout**. On the right side of the selected dashboard, the **Add tile / Edit layout** section is displayed.
+3. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Edit dashboard tiles**. On the right side of the selected dashboard, the **Edit dashboard tiles** section is displayed.
 
 4. In the **Show tiles for** list, select **Sale**.
 
 5. In the **Library** tab, select one of the following charts:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> - Big number
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Bar chart
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> - Bar chart
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> - Column chart
     * <i class="ph ph-gauge" aria-hidden="true"></i> - Gauge chart
     * Empty sale tile
 
     > [!TIP]
-    > You can also [select an empty tile][1] to create a tile from scratch, but the chart type must be one of those listed above.
+    > You can also select an empty tile to [create a tile from scratch][6], but the chart type must be one of those listed above.
 
 6. To add a tile to the dashboard, drag and drop it on the desired position on the dashboard. You can also click **Add** to add a tile to next available position. The tile will automatically adjust to the available space, and will align with the grid and columns setup.
 
@@ -78,15 +81,13 @@ If you see the field Compare to target, but it is disabled, you can hover your m
 
 Is the Compare to target not visible at all, make sure that you have selected the correct chart type and you have used the Sales date as criteria in the Dataset tab.
 
-## Related
+## Related content
 
 * [Add new dashboard][5]
-* [Edit or create tiles][2]
+* [Edit or create tiles][6]
 * [Set up sales targets][7]
-* [Dashboard data][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

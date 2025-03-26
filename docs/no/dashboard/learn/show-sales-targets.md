@@ -2,10 +2,13 @@
 uid: help-no-dashboard-tile-sales-targets
 title: Bruke salgsmål i figurer
 description: Bruke dashbord og figurer til å sammenligne salgsmålene med det faktiske salget.
-author: SuperOffice RnD
-date: 12.13.2022
 keywords: dashbord, salg, mål, diagram
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
@@ -23,20 +26,20 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
 2. Velg dashbordet du vil redigere.
 
-3. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
+3. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Rediger dashbordfigurer**. Til høyre i det valgte dashbordet vises delen **Rediger dashbordfigurer**.
 
 4. Velg **Salg**i listen **Vis figurer for**.
 
 5. Velg ett av følgende diagrammer i fanen **Bibliotek**:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> – enkelt tall
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – stolpediagram
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> – stolpediagram
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> – kolonnediagram
     * <i class="ph ph-gauge" aria-hidden="true"></i> – målerdiagram
     * Tom salgsfigur
 
     > [!TIP]
-    > Du kan også [velge en tom figur][1] for å opprette en figur fra bunnen av, men diagramtypen må være en av dem som er oppført ovenfor.
+    > Du kan også velge en tom figur for å [opprette en figur fra bunnen av][6], men diagramtypen må være en av dem som er oppført ovenfor.
 
 6. Hvis du vil legge til en figur på dashbordet, drar og slipper du den på ønsket posisjon på dashbordet. Du kan også klikke på **Legg til** for å legge til en figur i neste tilgjengelige posisjon. Figuren justeres automatisk til tilgjengelig plass, og justeres etter rutenett- og kolonneoppsettet.
 
@@ -81,12 +84,10 @@ Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt rikt
 ## Relatert
 
 * [Legge til nytt dashbord][5]
-* [Redigere eller opprette figurer][2]
+* [Redigere eller opprette figurer][6]
 * [Definere salgsmål][7]
-* [Dashborddata][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md

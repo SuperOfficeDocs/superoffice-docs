@@ -3,9 +3,12 @@ uid: help-sv-dashboard-tile-sales-targets
 title: Använda försäljningsmål i figurer
 description: Använd dashboards och figurer för att jämföra dina försäljningsmål med din faktiska försäljning.
 keywords: dashboard, försäljning, mål, diagram
-author: SuperOffice RnD
-date: 02.25.2025
+author: SuperOffice Product and Engineering
+date: 03.25.2025
+version: 10.5.3
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -23,20 +26,20 @@ För att du ska kunna visualisera dina mål i en figur måste du först lägga t
 
 2. Välj den dashboard som du vill redigera.
 
-3. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
+3. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Redigera dashboard-paneler**. Till höger på den dashboard som du har valt visas avsnittet **Redigera dashboard-paneler**.
 
 4. I listan **Visa figurer för** väljer du **Försäljning**.
 
 5. Välj något av följande diagram under fliken **Bibliotek**:
 
     * <i class="ph ph-number-square-three" aria-hidden="true"></i> – Stora siffror
-    * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Stapeldiagram
+    * <i class="ph ph-chart-bar-horizontal" aria-hidden="true"></i> – Stapeldiagram
     * <i class="ph ph-chart-bar" aria-hidden="true"></i> – Kolumndiagram
     * <i class="ph ph-gauge" aria-hidden="true"></i> – Mätardiagram
     * Tom försäljningspanel
 
     > [!TIP]
-    > Du kan också [välja en tom figur][1] för att skapa en figur från grunden, men diagramtypen måste vara någon av de som listas ovan.
+    > Du kan också välja en tom figur för att [skapa en figur från grunden][6], men diagramtypen måste vara någon av de som listas ovan.
 
 6. För att lägga till en figur i dashboarden drar du och släpper den i önskad position på dashboarden. Du kan även klicka på **Lägg till** för att lägga till en figur i nästa tilgängliga position. Figuren anpassas automatiskt till den tillgängliga ytan och justeras efter rutnätet och kolumnerna.
 
@@ -81,12 +84,10 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 ## Relaterat
 
 * [Lägg till en ny dashboard][5]
-* [Redigera eller skapa figurer][2]
+* [Redigera eller skapa figurer][6]
 * [Konfigurera försäljningsmål][7]
-* [Dashboarddata][6]
 
 <!-- Referenced links -->
-[1]: edit-tile.md
 [2]: ../../search-options/learn/search-criteria.md
 [3]: ../../globalization-and-localization/learn/translate-fields.md
 [4]: ../../sale/learn/sales-targets/index.md
