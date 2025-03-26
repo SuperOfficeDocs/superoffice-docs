@@ -1,8 +1,9 @@
 ---
 uid: help-nl-dashboard-tiles
 title: Werken met tegels
-description: In deze handleiding leert u hoe u toegang krijgt tot de informatie in uw dashboard, zodat u een duidelijk overzicht krijgt en uw volgende stappen beter kunt rangschikken.
-keywords: dashboard
+description: Leer hoe u tegels kunt toevoegen, aanpassen en beheren in uw SuperOffice-dashboards.
+keywords: tegel toevoegen, tegel bewerken, tegel kopiëren, tegel dupliceren, tegel verwijderen, tegel aanpassen, dataset, dashboard, tegel
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -13,131 +14,208 @@ language: nl
 
 # Werken met tegels
 
-## Uw eigen tegels bewerken of maken
+Leer hoe u tegels kunt toevoegen, aanpassen en beheren in uw SuperOffice-dashboards. Tegels zijn visuele samenvattingen op basis van CRM-gegevens – ideaal voor het volgen van verzoeken, verkoop, activiteiten of marketingresultaten.
 
-Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde tegels in SuperOffice Dashboard, kunt u altijd [uw eigen tegel maken][4].
+U kunt vooraf gedefinieerde tegels gebruiken of uw eigen tegels maken.
 
-## Tegel toevoegen/Opmaak bewerken in dashboard
+## Vereiste: overschakelen naar de opmaakmodus
 
-Als u de tegel die u nodig hebt niet vindt tussen de set vooraf gedefinieerde tegels in SuperOffice Dashboard, kunt u altijd uw eigen tegel maken.
+Om tegels te beheren, moet u eerst de opmaakmodus activeren:
 
-Bekijk deze video of volg de onderstaande stappen om te leren hoe u uw eigen dashboard maakt:
+1. Open het dashboard dat u wilt aanpassen.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+1. Klik in de koptekst van het dashboard op <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> en selecteer **Dashboardtegels beverken**.
 
-(videolengte – 7:20)
+    Het dashboard gaat naar de opmaakmodus:
+    * De zijbalk **Dashboardtegels beverken** wordt rechts weergegeven.
+    * Elke tegel toont een bewerkpictogram (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * U kunt tegels toevoegen, verplaatsen, herschalen of bewerken.
 
-### Stappen
+## <a id="add"></a>Tegel toevoegen
 
-1. Open het scherm **Dashboard**.
+1. Kies in de zijbalk **Dashboardtegels beverken** het gegevenstype (zoals bedrijf, verkoop of verzoek) uit de lijst **Tegels weergeven voor**.
 
-2. Selecteer het dashboard dat u wilt bewerken.
+    ![Dashboardtegels beverken -zijbalk -screenshot][img1]
 
-3. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) en selecteer **Tegel toevoegen/Opmaak bewerken**. Aan de rechterkant van het geselecteerde dashboard wordt de sectie **Tegel toevoegen/Opmaak bewerken** weergegeven.
+1. Kies een tegel uit de tabbladen **Bibliotheek** (vooraf gedefinieerde tegels) of **Selecties** (tegels op basis van uw eigen dynamische selecties).
 
-    ![Selecteer tegeltype -screenshot][img1]
+    * Gebruik het **zoekveld** om snel tegels te vinden.
+    * Elke tegel heeft een pictogram dat het type aangeeft, zoals grafiek, lijst of groot getal.
 
-    > [!NOTE]
-    > Als het tabblad **Opmaak** de velden zijn uitgeschakeld, betekent dit dat u niet over voldoende gebruikersrechten beschikt. Neem contact op met uw beheerder voor de juiste toegang.
+1. Voeg de tegel toe aan het dashboard:
+    * **Sleep** de tegel naar een beschikbare plek.
+    * Of klik op het pictogram <i class="ph ph-plus" aria-label="+"></i> dat verschijnt wanneer u met de muis over de tegelnaam beweegt.
 
-4. Selecteer in de lijst **Tegels weergeven voor** het type records dat u wilt gebruiken, bijvoorbeeld bedrijven, vervolgactiviteiten of verkopen. Relevante tegels worden weergegeven in de tabbladen **Bibliotheek** en **Selecties** hieronder:
+    De tegel wordt automatisch aangepast aan de beschikbare ruimte en uitgelijnd volgens de dashboardindeling.
 
-    * **Bibliotheek**: dit tabblad bevat een set vooraf gedefinieerde tegels uit de online sjablonenbibliotheek. Het pictogram naast de naam van de tegel geeft het tegeltype aan.
+1. Pas indien nodig de grootte of positie van de tegel aan.
 
-        > [!TIP]
-        > U kunt ook een lege tegel selecteren om een geheel nieuwe tegel te maken.
+1. Klik op **Gereed** om de opmaakmodus te verlaten.
 
-    * **Selecties**: Dit tabblad bevat dynamische selecties met [grafieken][2] en toont alleen selecties van dezelfde record/hetzelfde entiteitstype die zijn geselecteerd in de lijst **Weergeven** hierboven (bijv. bedrijf of verkoop).
+### Een tegel helemaal zelf maken
 
-    > [!NOTE]
-    > Wanneer u een selectiegrafiek gebruikt, wordt de dataset gekopieerd en worden eventuele wijzigingen in de selectie niet in de tegel weergegeven.
+1. Selecteer de optie **Lege tegel** voor het gegevenstype dat u wilt visualiseren.
+1. Voeg deze toe aan het dashboard.
+1. Geef in het dialoogvenster **Tegel bewerken** een beschrijvende naam op.
+1. Ga naar het tabblad **Dataset** en [stel de criteria in][4] voor welke gegevens de tegel moet weergeven.
 
-5. Optioneel: gebruik het zoekveld om specifieke tegels te zoeken.
+    ![Dialoogvenster Tegel bewerken, tabblad Dataset -screenshot][img2]
 
-6. Als u een tegel aan het dashboard wilt toevoegen, sleept u deze op de gewenste positie op het dashboard en zet u deze neer. U kunt ook op **Toevoegen** klikken om een tegel toe te voegen aan de volgende beschikbare positie. De tegel wordt automatisch aangepast aan de beschikbare ruimte en wordt uitgelijnd op basis van de instelling van het raster en de kolommen.
+    Dit tabblad werkt net als [het scherm Zoeken][5]. Gebruik het om filters te definiëren zoals eigenaar, datumbereik of categorie.
 
-7. Herhaal stap 4-6 om meer tegels toe te voegen.
+1. Ga naar het tabblad **Opmaak** om het uiterlijk van de tegel te configureren. Kies het [grafiektype][3], labels, sortering en andere opmaakopties.
 
-8. Pas de tegels op het dashboard aan:
+    ![Dialoogvenster Tegel bewerken, tabblad Opmaak -screenshot][img3]
 
-    * Houd de muisaanwijzer boven een tegel en klik en sleep het kader om de tegelgrootte aan te passen. Beschikbare uitsparingen/ruimtes binnen het dashboard worden geel gemarkeerd als de tegel in die positie past.
+1. Klik op **Opslaan** en vervolgens op **Gereed** om de opmaakmodus te verlaten.
 
-    * Klik op de koptekst van een tegel en sleep deze naar een andere positie.
+### <a id="selection-chart"></a>Over selectie-gebaseerde tegels
 
-9. Klik op **Gereed**.
+Wanneer u een tegel toevoegt vanuit het tabblad **Selecties**, koppelt u de tegel niet aan een live selectie. In plaats daarvan wordt de huidige dataset en opmaak gekopieerd uit het [diagram dat in de selectie is gedefinieerd][6]. Vanaf dat moment zijn de tegel en selectie onafhankelijk van elkaar.
 
-## Het tabblad Dataset
+Het tabblad **Selecties** toont alleen:
 
-Het tabblad voor Dataset toont het criteriaoverzicht zoals u gewend bent in Zoeken en Selectie. De verschillende criteria die u hier selecteert, filteren de gewenste gegevens voor uw tegel.
+* Dynamische selecties
+* Selecties die overeenkomen met het geselecteerde type in **Tegels weergeven voor**
+* Selecties met een opgeslagen diagram op het tabblad **Diagram**
 
-U hebt verschillende bewerkingsopties voor uw dashboardtegels, waaronder de bron van de gegevens
+Als een selectie ontbreekt in de lijst, controleer dan:
 
-## Het tabblad Opmaak
+* Is het een statische selectie? Statische selecties worden hier niet ondersteund.
+* Komt het gegevenstype (bedrijf, verkoop, enz.) overeen met het gekozen type?
+* Is er een diagram gedefinieerd en opgeslagen op het tabblad **Diagram**?
 
-Het tabblad voor Opmaak geeft u veel mogelijkheden om het visuele uiterlijk van de tegel te verfijnen. Als u tevreden bent met de opmaak van een tegel, kunt u de tegel ook dupliceren om de gegevensset erachter te wijzigen zonder de opmaak te wijzigen.
+Na het toevoegen van de tegel:
 
-Kies het gewenste grafiektype en de benodigde instellingen. De uitvoer van de tegel wordt aan de rechterkant weergegeven.
+* Wijzigingen in de **criteria** of het **diagram** van de selectie hebben **geen** invloed op de tegel.
+* Wijzigingen in de **dataset** of **opmaak** van de tegel hebben **geen** invloed op de selectie.
+* De **tegel blijft niet gesynchroniseerd** met de selectie, maar wordt nog steeds dynamisch bijgewerkt op basis van zijn eigen dataset.
 
-## Een tegel bewerken
+Als u wilt dat de tegel updates van een selectie weerspiegelt, pas dan de tegel handmatig aan of verwijder en voeg deze opnieuw toe vanuit de bijgewerkte selectie.
 
-1. Ga naar het gewenste dashboard.
+### Een tegel met een webpaneel toevoegen
 
-2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Tegel toevoegen/Opmaak bewerken**.
+Gebruik deze tegel om een webpagina in het dashboard op te nemen:
 
-3. Klik in het dashboard op **Tegel bewerken** (<i class="ph ph-note-pencil" aria-hidden="true"></i>).
+1. Stel **Tegels weergeven voor** in op **Overig**.
+1. Selecteer in het tabblad **Bibliotheek** de optie **Webpaneel**.
+1. Voer de URL in die u wilt weergeven.
+1. Als de URL HTTP gebruikt (niet HTTPS), schakel dan **Onveilig adres toestaan** in.
+1. Klik op **Opslaan** en vervolgens op **Gereed** om de opmaakmodus te verlaten.
 
-4. Op het tabblad **Dataset** kunt u [de criteria bewerken][11] voor de gegevens die in de tegel worden weergegeven. Vergeet niet om de naam van de tegel bij te werken om de wijzigingen weer te geven die hier zijn aangebracht.
+### Een HTML-tegel toevoegen
 
-5. Op het tabblad **Opmaak** kunt u verschillende instellingen, waarden en indelingen van de tegel bewerken. De voorbeeldweergave aan de rechterkant wordt bijgewerkt met de geselecteerde instellingen.
+Gebruik deze tegel om opgemaakte tekst in uw dashboard weer te geven, zoals een welkomstbericht, legenda of interne uitleg.
 
-6. Klik op <i class="ph ph-translate" aria-label="Translate"></i> om een [vertaling toe te voegen][12] aan de naam, titels en labels van de tegel.
+1. Stel **Tegels weergeven voor** in op **Overig**.
+1. Selecteer in het tabblad **Bibliotheek** de optie **HTML**.
+1. Klik op **Toevoegen** om ten minste één taal voor de inhoud te selecteren.
+1. Gebruik de ingebouwde editor om uw inhoud in te voeren en op te maken.
 
-7. Klik op **Opslaan**.
+    U kunt dezelfde opmaakopties gebruiken die beschikbaar zijn in Chat en Formulieren. Voeg inhoud toe in meerdere talen zodat de tegel correct wordt weergegeven voor alle gebruikers.
 
-## Een tegel verwijderen
+1. Klik op **Opslaan** en vervolgens op **Gereed** om de opmaakmodus te verlaten.
 
-U kunt tegels uit een dashboard verwijderen, zolang u er bewerkingstoegang toe hebt.
+## <a id="edit"></a>Een tegel bewerken
 
-> [!NOTE]
-> Verwijderde tegels zijn nog steeds beschikbaar om toe te voegen aan dashboards.
+1. Terwijl u zich in de opmaakmodus bevindt, klikt u op het pictogram **Bewerken** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) op de tegel.
+1. Pas op het tabblad **Dataset** de filters aan zoals gewenst.
+1. Selecteer op het tabblad **Opmaak** het gewenste grafiektype en de visuele instellingen.
+1. Werk de naam van de tegel bij zodat deze overeenkomt met de nieuwe gegevens of opmaak.
+1. Klik op <i class="ph ph-translate" aria-label="Translate"></i> om een [vertaling toe te voegen][7] aan de tegelnaam en labels.
+1. Klik op **Opslaan**.
 
-**Stappen:**
+## <a id="copy"></a>Een tegel dupliceren of kopiëren
 
-1. Ga naar het gewenste dashboard.
+U kunt een bestaande tegel opnieuw gebruiken door deze te dupliceren in hetzelfde dashboard of te kopiëren naar een ander dashboard. U moet **bewerkingstoegang tot het doeldashboard** hebben om een tegel daarheen te kopiëren.
 
-2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteer **Tegel toevoegen/Opmaak bewerken**.
+1. Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> op de tegel en selecteer de optie dupliceren of kopiëren.
 
-3. Klik in het dashboard op <i class="ph ph-x-circle" aria-label="Remove icon"></i> op de tegel die u wilt verwijderen.
+| Optie | Wat het doet | Wat u vervolgens doet | Gebruikssituatie |
+|---|---|---|---|
+| **Tegel dupliceren** | Maakt een kopie van de tegel in het huidige dashboard. De naam wordt bijgewerkt (bijvoorbeeld *Tegelnaam 2*). | Meestal bewerkt u de gedupliceerde tegel: wijzig de naam, pas het dataset of de opmaak aan. | Toon hetzelfde type gegevens in een andere opmaak, of toon vergelijkbare gegevens met dezelfde opmaak. |
+| **Tegel kopiëren naar dashboard** | Voegt de tegel toe aan een ander dashboard. Kies een doeldashboard uit de lijst. Beweeg de muisaanwijzer over een dashboardnaam om een voorbeeld van de huidige tegels te bekijken voordat u kopieert. | Open eventueel het doeldashboard. Bewerk de tegel daar indien nodig. | Hergebruik een nuttige tegel die u hebt gevonden in het dashboard van een collega. Voeg deze toe aan een van uw eigen dashboards. |
 
-4. Klik ter bevestiging op **OK**.
+**Tegel kopiëren naar dashboard** is ook beschikbaar buiten de opmaakmodus (normale dashboardweergave).
 
-## Tegels exporteren
+## <a id="move"></a>Tegels herschikken of formaat wijzigen
 
-Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> in de koptekst van een tegel om de volgende opties te openen:
+In de opmaakmodus:
 
-* **PDF-document downloaden**/**PNG-document downloaden**: download de tegel in PDF- of PNG-indeling. De exportbestanden worden gedownload naar uw browser (map **Downloads**).
+* **Sleep een tegel via de koptekst** om deze naar een nieuwe positie te verplaatsen.
+* **Wijzig het formaat van een tegel** door aan de onder- of rechterrand of de rechterbenedenhoek te slepen.
 
-* **Afdrukken**: open de tegel in het dialoogvenster Afdrukken.
+Tegels worden automatisch uitgelijnd op het raster van het dashboard.
+
+Als u het aantal kolommen wilt wijzigen, verlaat u de opmaakmodus en werkt u de dashboardinstellingen bij.
+
+## <a id="remove"></a>Een tegel verwijderen
+
+U kunt tegels uit een dashboard verwijderen, zolang u bewerkingstoegang hebt.
+
+1. Klik in de opmaakmodus op <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> op de tegel.
+1. Selecteer **Tegel verwijderen**.
+1. Bevestig de verwijdering.
+
+> [!CAUTION]
+> Aangepaste tegels, zoals HTML-, webpaneel- en selectie-gebaseerde tegels, worden permanent verwijderd als u ze verwijdert. Alleen vooraf gedefinieerde tegels uit de bibliotheek kunnen later opnieuw worden toegevoegd.
+
+## <a id="export"></a>Tegels exporteren
+
+Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in de koptekst van een tegel om toegang te krijgen tot de volgende opties:
+
+* **PDF-document downloaden** / **PNG-document downloaden**: Download de tegel in PDF- of PNG-indeling. De exportbestanden worden gedownload naar uw browser (map **Downloads**).
+
+* **Afdrukken**: Open de tegel in het afdrukvenster.
 
 > [!TIP]
 > Als u specifieke gegevens wilt verbergen voordat u een tegel exporteert of afdrukt, klikt u op de gegevenslabels (legenda) naast of onder de tegel om gegevens te verbergen.
 
+## Tips
+
+* **Valutalabels verbergen:** Als u ruimte wilt besparen op tegels die bedragen tonen, stelt u **Valuta** in op **Verbergen** in het tabblad Opmaak.
+
+* **Vergelijken met doelstelling:** Voor verkoopdashboards kunt u **Vergelijken met doelstelling** inschakelen in het tabblad Opmaak om voortgang ten opzichte van verkoopdoelen weer te geven. Deze optie is afhankelijk van het grafiektype en de datasetconfiguratie.
+
+* **Korte getallen voor betere leesbaarheid:** Voor tegels met grote waarden schakelt u de optie **Kort getal** in om waarden in miljoenen weer te geven (bijvoorbeeld *1,2M*).
+
+* **Tegels met groot getal:** Gebruik deze voor kerncijfers, zoals omzet of open verzoeken. Houd de tegelnaam kort zodat het getal goed opvalt.
+
+* **Duur tonen op vervolgactiviteittegels:** Stel bij vervolgactiviteittegels **Meten** in op **Duur** om bestede tijd beter te volgen.
+
+## Problemen oplossen
+
+* **Ik zie het bewerkingspictogram op de tegel niet**
+  * Staat het dashboard in de opmaakmodus?
+
+* **Ik vind de optie die ik zoek niet in het taakmenu**
+  * Hebt u op de juiste taakknop geklikt? (dashboard versus tegel)
+  * Staat het dashboard in de opmaakmodus?
+
+* **Ik heb geen toegang tot het tabblad Opmaak of tot velden**
+  * U hebt mogelijk niet de vereiste functionele rechten. Neem contact op met uw beheerder.
+
+* **Een selectie ontbreekt in het tabblad Selecties**
+  * Zie [Over selectie-gebaseerde tegels](#selection-chart)
+
+* **Ik heb per ongeluk een aangepaste tegel verwijderd**
+  * Deze tegels kunnen niet worden hersteld. Kopieer ze indien nodig naar een privé-dashboard (bijvoorbeeld "Gearchiveerde tegels") voordat u ze verwijdert.
+
 ## Gerelateerde inhoud
 
-* [Een nieuwe dashboard toevoegen][1]
-* [Dashboards gebruiken om uw verkooppijplijn te beheren][15]
-* [Lees meer over criteria][4]
-* [Het scherm Zoeken][5]
+* [Een nieuw dashboard toevoegen][1]
+* [Dashboards gebruiken om uw verkooppijplijn te beheren][2]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[3]: index.md#charts
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png

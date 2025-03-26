@@ -1,8 +1,9 @@
 ---
 uid: help-sv-dashboard-tiles
-title: Arbeta med figurer
-description: I den här guiden förklarar vi hur du kommer åt informationen på din dashboard så att du får en tydlig översikt och kan prioritera nästa steg bättre.
-keywords: dashboard
+title: Arbeta med paneler
+description: Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM.
+keywords: dashboard, panel, lägga till panel, redigera panel, kopiera panel, ta bort panel, dataset, layout
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -11,133 +12,210 @@ audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Arbeta med figurer
+# Arbeta med paneler
 
-## Redigera eller skapa egna figurer
+Lär dig hur du lägger till, anpassar och hanterar paneler i dina dashboards i SuperOffice CRM. Paneler är visuella sammanfattningar baserade på CRM-data – perfekta för att följa upp ärenden, försäljning, aktiviteter eller marknadsföringsresultat.
 
-Om du inte hittar den figur du behöver bland de fördefinierade figurerna i SuperOffice Dashboard kan du [skapa en egen][4].
+Du kan använda fördefinierade paneler eller skapa egna.
 
-## Lägg till figur/redigera layout på dashboard
+## Förutsättning: växla till layoutläge
 
-Om du inte hittar den figur du behöver bland de fördefinierade figurerna i SuperOffice Dashboard kan du skapa en egen.
+För att kunna hantera paneler måste du först gå in i layoutläge:
 
-Titta på den här filmen eller följ anvisningarna nedan om du vill skapa en egen dashboardfigur:
+1. Öppna den dashboard du vill anpassa.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+2. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) i dashboardens rubrik och välj **Redigera dashboard-paneler**.
 
-(filmens längd: 7:20)
+    Dashboarden öppnas nu i layoutläge:
+    * Sidopanelen **Redigera dashboard-paneler** visas till höger.
+    * Varje panel visar en redigeringsikon (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * Du kan lägga till, flytta, ändra storlek på eller redigera paneler.
 
-### Steg
+## <a id="add"></a>Lägg till en panel
 
-1. Öppna skärmen **Dashboard**.
+1. I sidopanelen **Redigera dashboard-paneler**, välj datatyp (till exempel företag, försäljning eller ärende) i listan **Visa paneler för**.
 
-2. Välj den dashboard som du vill redigera.
+    ![Redigera dashboard-paneler -screenshot][img1]
 
-3. Klicka på **Uppgift**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) och välj **Lägg till figur/Redigera layout**. Till höger på den dashboard som du har valt visas avsnittet **Lägg till figur/Redigera layout**.
+2. Välj en panel från antingen **Bibliotek** (fördefinierade paneler) eller **Urval** (paneler baserade på dina egna dynamiska urval).
 
-    ![Välj figurtyp -screenshot][img1]
+    * Använd **sökfältet** för att snabbt hitta paneler.
+    * Varje panel har en ikon som visar paneltypen – till exempel diagram, lista eller stora siffror.
 
-    > [!NOTE]
-    > Om fliken **Layout** och fälten är inaktiverade har du inte tillräckliga användarbehörigheter. Kontakta administratören för att få rätt behörighet.
+3. Lägg till panelen på dashboarden:
+    * **Dra och släpp** panelen till en ledig plats.
+    * Eller klicka på ikonen <i class="ph ph-plus" aria-label="+"></i> som visas när du håller muspekaren över panelnamnet.
 
-4. I listan **Visa figurer för** kan du välja den typ av poster som du vill använda, till exempel företag, händelser eller försäljningar. Relevanta figurer visas i flikarna **Bibliotek** och **Urval** nedan:
+    Panelen anpassas automatiskt till det tillgängliga utrymmet och justeras enligt dashboardens layout.
 
-    * **Bibliotek**: Den här fliken innehåller en uppsättning fördefinierade figurer från online-mallbiblioteket. Ikonen bredvid figurens namn anger figurtyp.
+4. Justera storlek eller position vid behov.
 
-        > [!TIP]
-        > Du kan också välja en tom panel för att skapa en figur från början.
+5. Klicka på **Klar** för att lämna layoutläget.
 
-    * Urval: Den här fliken innehåller dynamiska urval med [diagram][2] och visar endast urval av samma post-/enhetstyp som har valts i listan **Visa** ovan (till exempel företag eller försäljning).
+### Skapa en panel från grunden
 
-    > [!NOTE]
-    > När du använder ett urvalsdiagram kopieras datauppsättningen och eventuella ändringar av urvalet avspeglas inte i figuren.
+1. Välj alternativet **Tom panel** för den typ av data du vill visualisera.
+2. Lägg till panelen i dashboarden.
+3. I dialogrutan **Redigera panel**, ange ett beskrivande namn.
+4. Gå till fliken **Dataset** och [definiera kriterier][4] för att styra vilken data panelen ska visa.
 
-5. Tillval: Använd sökfältet för att hitta specifika figurer.
+    ![Redigera panel: Dataset -screenshot][img2]
 
-6. För att lägga till en figur i dashboarden drar du och släpper den i önskad position på dashboarden. Du kan även klicka på **Lägg till** för att lägga till en figur i nästa tilgängliga position. Figuren anpassas automatiskt till den tillgängliga ytan och justeras efter rutnätet och kolumnerna.
+    Denna flik fungerar som [sökfönstret][5]. Använd den för att ange filter som ägare, datumintervall eller kategori.
 
-7. Upprepa steg 4–6 om du vill lägga till fler figurer.
+5. Gå till fliken **Layout** för att konfigurera panelens utseende. Välj [diagramtyp][3], etiketter, sortering och andra formateringsalternativ.
 
-8. Justera figurerna på dashboarden:
+    ![Redigera panel: Layout -screenshot][img3]
 
-    * Håll muspekaren över en figur och klicka och dra i ramen för att justera storleken på figuren. Tillgängliga platser/ytor på dashboarden gulmarkeras om figuren får plats i den aktuella positionen.
+6. Klicka på **Spara**, sedan på **Klar** för att lämna layoutläget.
 
-    * Klicka på rubriken för en figur och dra denna till en annan position.
+### <a id="selection-chart"></a>Om paneler baserade på urval
 
-9. Klicka på **Klar**.
+När du lägger till en panel från fliken **Urval**, länkar du inte till ett aktivt urval. I stället kopieras datasetet och layouten från [diagrammet som definierats i urvalet][6]. Därefter är panelen och urvalet oberoende av varandra.
 
-### Fliken Dataset
+Fliken **Urval** visar endast:
 
-På fliken Dataset visas kriterieöversikten på samma sätt som du är van vid från Sök och Urval. De olika kriterier du väljer här filtrerar önskade data för din figur.
+* Dynamiska urval
+* Urval som matchar typen vald i **Visa paneler för**
+* Urval där ett diagram har sparats på fliken **Diagram**
 
-Du har olika redigeringsalternativ för dina dashboardfigurer, bland annat datakällan
+Om ett urval saknas i listan, kontrollera följande:
 
-### Fliken Layout
+* Är det ett statiskt urval? Statisk urval stöds inte här.
+* Matchar posttypen (till exempel företag, försäljning) den valda typen?
+* Har ett diagram definierats och sparats på fliken **Diagram**?
 
-På fliken Layout kan du finjustera figurens utseende på många olika sätt. Om du är nöjd med en figurs layout kan du också duplicera den för att ändra det bakomliggande datasetet utan att ändra layouten.
+När du har lagt till panelen:
 
-Välj önskad diagramtyp och nödvändiga inställningar. Den färdiga figuren visas till höger
+* Ändringar i **kriterier** eller **diagram** i urvalet påverkar **inte** panelen.
+* Ändringar i **dataset** eller **layout** i panelen påverkar **inte** urvalet.
+* **Panelen synkroniseras inte** med urvalet, men uppdateras fortfarande dynamiskt baserat på sitt eget dataset.
 
-## Redigera en figur
+Om du vill att panelen ska återspegla ändringar i ett urval, kan du antingen justera panelen manuellt eller ta bort den och lägga till den igen från det uppdaterade urvalet.
 
-1. Gå till önskat dashboard.
+### Lägg till en webbpanels-panel
 
-2. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**.
+Använd den här panelen för att bädda in en webbsida i dashboarden:
 
-3. Klicka på ikonen **Redigera figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på dashboarden.
+1. Ställ in **Visa paneler för** på **Annat**.
+1. Gå till fliken **Bibliotek** och välj **Webbpanel**.
+1. Ange den URL som du vill visa.
+1. Om URL:en använder HTTP (inte HTTPS), aktivera **Tillåt osäker adress**.
+1. Klicka på **Spara** och sedan på **Klar** för att avsluta layoutläget.
 
-4. På fliken **Dataset** kan du [redigera kriterierna][11] för de data som visas i figuren. Kom ihåg att uppdatera figurens namn för att spegla eventuella ändringar som har gjorts här.
+### Lägg till en HTML-panel
 
-5. Under fliken **Layout** kan du redigera olika inställningar, värden och formatering av figuren. Förhandsgranskningen till höger kommer att uppdateras med de valda inställningarna.
+Använd den här panelen för att visa formaterad text i dashboarden. Exempelvis ett välkomstmeddelande, en förklaring eller en beskrivning.
 
-6. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att [lägga till en översättning][12] till figurnamnet, rubrikerna och ledtexterna.
+1. Ställ in **Visa paneler för** på **Annat**.
+1. Gå till fliken **Bibliotek** och välj **HTML**.
+1. Klicka på **Lägg till** för att välja minst ett språk för innehållet.
+1. Använd redigeraren för att lägga till och formatera innehållet.
 
-7. Klicka på **Spara**.
+    Du kan använda samma formateringsalternativ som i Chat och Formulär. Lägg till innehåll på flera språk för att säkerställa att panelen visas korrekt för alla användare.
 
-## Ta bort en figur
+1. Klicka på **Spara** och sedan på **Klar** för att avsluta layoutläget.
 
-Du kan ta bort figurer från en dashboard så länge du har redigeringsåtkomst till den.
+## <a id="edit"></a>Redigera en panel
 
-> [!NOTE]
-> Borttagna figurer kan fortfarande läggas till på dashboards.
+1. När du är i layoutläge, klicka på ikonen **Redigera** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på panelen.
+1. På fliken **Dataset**, justera filtren vid behov.
+1. Gå till fliken **Layout** och välj diagramtyp och visuella inställningar.
+1. Uppdatera panelens namn för att spegla uppdaterade data eller layout.
+1. Klicka på <i class="ph ph-translate" aria-label="Translate"></i> för att [lägga till en översättning][7] för panelens titel och etiketter.
+1. Klicka på **Spara**.
 
-**Steg:**
+## <a id="copy"></a>Duplicera eller kopiera en panel
 
-1. Gå till önskat dashboard.
+Du kan återanvända en befintlig panel genom att antingen duplicera den i samma dashboard eller kopiera den till en annan dashboard. Du måste ha **redigeringsbehörighet till mål-dashboarden** för att kunna kopiera en panel dit.
 
-2. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Lägg till figur/Redigera layout**.
+1. Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> på panelen och välj alternativet för duplicering eller kopiering.
 
-3. På dashboarden klickar du på <i class="ph ph-x-circle" aria-label="Remove icon"></i> på den figur du vill ta bort.
+| Alternativ | Vad det gör | Vad du gör sedan | Exempel på användning |
+|---|---|---|---|
+| **Duplicera panel** | Skapar en kopia av panelen i samma dashboard. Namnet uppdateras (till exempel *Panelnamn2*). | Redigera panelen: byt namn, uppdatera dataset eller layout. | Visa samma typ av data i en annan layout eller visa liknande data i samma layout. |
+| **Kopiera panel till dashboard** | Lägger till panelen i en annan dashboard. Välj en måldashboard från listan. Håll muspekaren över ett dashboardnamn för att förhandsgranska dess aktuella paneler innan kopiering. | Öppna måldashboarden om du vill. Redigera panelen där vid behov. | Återanvänd en användbar panel du hittat i en kollegas dashboard. Lägg till den i en av dina egna dashboards. |
 
-4. Bekräfta genom att klicka på **OK**.
+**Kopiera till dashboard** är även tillgängligt utanför layoutläget (normal visning).
 
-## Exportera figurer
+## <a id="move"></a>Ordna om eller ändra storlek på paneler
 
-Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidhuvudet för en figur för att få tillgång till följande alternativ:
+När du är i layoutläge:
 
-* **Ladda ner PDF-dokument** / **Ladda ner PNG-dokument**: Ladda ner figuren i PDF- eller PNG-format. The export files are downloaded to your browser (mappen **Nedladdningar**).
+* **Dra en panel via rubriken** för att flytta den till en ny plats.
+* **Ändra storlek på en panel** genom att dra dess nederkant, högra kant eller nedre högra hörn.
 
-* **Skriv ut**: Öppna figuren i dialogrutan Skriv ut.
+Panelerna snäpps automatiskt in i dashboardens rutnätslayout.
+
+För att ändra antalet kolumner, avsluta layoutläget och redigera dashboardinställningarna.
+
+## <a id="remove"></a>Ta bort en panel
+
+Du kan ta bort paneler från en dashboard, så länge du har behörighet att redigera.
+
+1. När du är i layoutläge, klicka på <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> på panelen.
+1. Välj **Ta bort panel**.
+1. Bekräfta borttagningen.
+
+> [!CAUTION]
+> Anpassade paneler, som HTML-, webbpanel- och urvalsbaserade paneler, tas bort permanent när de tas bort. Endast fördefinierade paneler från biblioteket kan läggas till igen senare.
+
+## <a id="export"></a>Exportera paneler
+
+Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i sidhuvudet för en panel för att få tillgång till följande alternativ:
+
+* **Ladda ner PDF-dokument** / **Ladda ner PNG-dokument**: Ladda ner panelen i PDF- eller PNG-format. Exportfilerna sparas i din webbläsares mapp **Nedladdningar**.
+
+* **Skriv ut**: Öppna panelen i utskriftsdialogrutan.
 
 > [!TIP]
-> Om du vill dölja specifika data innan du exporterar eller skriver ut en figur klickar du på ledtexterna (textförklaringen) bredvid eller under figuren för att dölja data.
+> Om du vill dölja specifika data innan du exporterar eller skriver ut en panel, klicka på dataetiketterna (förklarande text) bredvid eller under panelen för att dölja data.
+
+## Tips
+
+* **Dölj valutamärkning:** Om du vill spara utrymme i paneler som visar belopp, kan du ställa in **Valuta** till **Dölj** i fliken Layout.
+
+* **Jämför med mål:** I dashboards för försäljning kan du aktivera **Jämför med mål** i fliken Layout för att visualisera framsteg mot försäljningsmål. Alternativet beror på diagramtyp och dataset.
+
+* **Använd korta tal för bättre läsbarhet:** För paneler med stora värden kan du aktivera formatet **Korta tal** för att visa värden i miljoner (t.ex. *1,2M*).
+
+* **Paneler med stora tal:** Använd dessa för nyckeltal, som intäkter eller öppna ärenden. Håll panelnamnet kort så att siffran blir tydlig.
+
+* **Visa varaktighet i uppföljningspaneler:** När du använder uppföljningspaneler, ställ in **Mätvärde** till **Varaktighet** för att spåra tidsanvändning mer effektivt.
+
+## Felsökning
+
+* **Jag ser inte redigeringsikonen i panelen**
+  * Är dashboarden i layoutläge?
+
+* **Jag hittar inte alternativet i uppgiftsmenyn**
+  * Klickade du på rätt Uppgift-knapp? (dashboard vs. panel)
+  * Är dashboarden i layoutläge?
+
+* **Jag har inte tillgång till layoutfliken eller fälten**
+  * Du har kanske inte rätt funktionsbehörigheter. Kontakta administratören.
+
+* **Ett urval saknas i fliken Urval**
+  * Se [Om paneler baserade på urval](#selection-chart)
+
+* **Jag råkade ta bort en anpassad panel**
+  * Dessa paneler kan inte återställas. Kopiera dem till en privat dashboard (t.ex. "Arkiverade paneler") innan du tar bort dem.
 
 ## Relaterat innehåll
 
 * [Lägg till en ny dashboard][1]
-* [Använd dashboards för att hantera din säljpipeline][15]
-* [Läs mer om kriterier][4]
-* [Fönstret Sök][5]
+* [Använd dashboards för att hantera din säljpipeline][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[2]: show-sales-targets.md
+[3]: index.md#charts
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png

@@ -1,8 +1,9 @@
 ---
 uid: help-da-dashboard-tiles
 title: Arbejde med ruder
-description: I denne vejledning lærer du, hvordan du får adgang til oplysningerne i dit dashboard, så du bedre kan få et klart overblik og prioritere dine næste skridt.
-keywords: dashboard
+description: Lær hvordan du tilføjer, tilpasser og administrerer ruder i dine SuperOffice dashboards.
+keywords: tilføj rude, rediger rude, kopier rude, dupliker rude, fjern rude, tilpas rude, datasæt, dashboard, rude
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -13,131 +14,208 @@ language: da
 
 # Arbejde med ruder
 
-## Rediger eller opret dine egne ruder
+Lær hvordan du tilføjer, tilpasser og administrerer ruder i dine SuperOffice dashboards. Ruder er visuelle oversigter baseret på CRM-data – ideelle til at holde styr på sager, salg, aktiviteter eller markedsføringsresultater.
 
-Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede felter i SuperOffice Dashboard, kan du altid [oprette din egen rude][4].
+Du kan bruge foruddefinerede ruder eller oprette dine egne.
 
-## Tilføj rude/rediger layout i dashboard
+## Forudsætning: skift til layouttilstand
 
-Hvis du ikke finder den rude, du har brug for, blandt det sæt foruddefinerede felter i SuperOffice Dashboard, kan du altid oprette din egen.
+For at administrere ruder skal du først gå til layouttilstand:
 
-Se denne video, eller følg nedenstående trin for at lære, hvordan du opretter et din egen rude i dashboard:
+1. Åbn det dashboard, du vil tilpasse.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> i dashboardets sidehoved, og vælg **Rediger dashboardruder**.
 
-(videoens længde - 7:20)
+    Dashboardet skifter til layouttilstand:
+    * Sidepanelet **Rediger dashboardruder** vises til højre.
+    * Hver rude viser et redigeringsikon (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * Du kan tilføje, flytte, ændre størrelse på eller redigere ruder.
 
-### Trin
+## <a id="add"></a>Tilføj en rude
 
-1. Åbn skærmbilledet **Dashboard**.
+1. I sidepanelet **Rediger dashboardruder** skal du vælge datatypen (f.eks. firma, salg eller sag) fra listen **Vis ruder for**.
 
-2. Vælg det dashboard, du vil redigere.
+    ![Sidepanel til redigering af dashboardruder -screenshot][img1]
 
-3. Klik på knappen **Opgave** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og vælg **Tilføj rude/Rediger layout**. I højre side af det valgte dashboard vises sektionen **Tilføj rude/Rediger layout** .
+1. Vælg en rude fra fanen **Bibliotek** (foruddefinerede ruder) eller **Udvalg** (ruder baseret på dine egne dynamiske udvalg).
 
-    ![Vælg rudetype -screenshot][img1]
+    * Brug **søgefeltet** til hurtigt at finde ruder.
+    * Hver rude har et ikon, der viser rudetypen – f.eks. diagram, liste eller stort tal.
 
-    > [!NOTE]
-    > Hvis fanen **Layout** og felterne er deaktiveret, betyder det, at du ikke har tilstrækkelige brugerrettigheder. Kontakt din administrator for at få de korrekte rettigheder.
+1. Tilføj ruden til dashboardet:
+    * **Træk og slip** ruden til en ledig plads.
+    * Eller klik på <i class="ph ph-plus" aria-label="+"></i>, som vises, når du holder musen over rudens navn.
 
-4. Vælg den type poster, du vil bruge, f.eks. virksomheder, opfølgninger eller salg, på listen **Vis ruder for** . Relevante ruder vises under fanerne **Bibliotek** og **Valg** nedenfor:
+    Ruden tilpasser sig automatisk til den tilgængelige plads og justeres med layoutet.
 
-    * **Bibliotek**: Denne fane indeholder et sæt foruddefinerede ruder fra onlineskabelonbiblioteket. Ikonet ved siden af rudens navn angiver rudens type.
+1. Ændr størrelse på eller flyt ruderne efter behov.
 
-        > [!TIP]
-        > Du kan også vælge en tom rude for at oprette et felt fra bunden.
+1. Klik på **Udført** for at afslutte layouttilstanden.
 
-    * **Udvalg**: Denne fane indeholder dynamiske valg med [diagrammer][2] og viser kun v af samme pose/entitetstype, som er valgt på listen **Vis** ovenfor (f.eks. firma eller salg).
+### Opret en rude fra bunden
 
-    > [!NOTE]
-    > Når du bruger et udvælgelsesdiagram, kopieres datasættet, og eventuelle ændringer af markeringen afspejles ikke i ruden.
+1. Vælg **Tom rude** for den datatype, du vil visualisere.
+1. Tilføj ruden til dashboardet.
+1. I dialogen **Rediger rude** skal du angive et beskrivende navn.
+1. Gå til fanen **Datasæt**, og [definér kriterierne][4], som bestemmer hvilke data ruden skal vise.
 
-5. Valgfrit: Brug søgefeltet til at finde specifikke ruder.
+    ![Dialog til redigering af rude, fanen Datasæt -screenshot][img2]
 
-6. Hvis du vil føje en rude til dashboardet, skal du trække og slippe den på den ønskede position på dashboardet. Du kan også klikke på **Tilføj** for at føje en rude til næste tilgængelige position. Ruden tilpasses automatisk efter den tilgængelige plads og justeres med gitter- og kolonneopsætningen.
+    Denne fane fungerer som [søgeskærmbilledet][5]. Brug den til at tilføje filtre som ejer, datointerval eller kategori.
 
-7. Gentag trin 4-6 ovenfor, hvis du vil tilføje flere brugere.
+1. Gå til fanen **Layout** for at konfigurere rudens udseende. Vælg [diagramtype][3], etiketter, sortering og andre formateringsmuligheder.
 
-8. Juster ruderne på dashboardet på:
+    ![Dialog til redigering af rude, fanen Layout -screenshot][img3]
 
-    * Hold musemarkøren over en rude, og klik og træk rammen for at justere rudens størrelse. Tilgængelige slots/mellemrum på dashboardet vil blive fremhævet med gult, når ruden kan passe ind i placeringen.
+1. Klik på **Gem**, og derefter på **Udført** for at afslutte layouttilstanden.
 
-    * Klik på overskriften i en rude, og træk den til en anden position.
+### <a id="selection-chart"></a>Om udvalg-baserede ruder
 
-9. Klik på **Udført**.
+Når du tilføjer en rude fra fanen **Udvalg**, opretter du ikke en live-kobling til udvalget. I stedet kopieres det aktuelle datasæt og layout fra [diagrammet, der er defineret i udvalget][6]. Derefter fungerer ruden og udvalget uafhængigt af hinanden.
 
-### Fanen Datasæt
+Fanen **Udvalg** viser kun:
 
-Fanen for datasæt viser kriterieoversigten, som du er vant til i Søg og Valg. De forskellige kriterier, du vælger her, filtrerer de ønskede data for din rude.
+* Dynamiske udvalg
+* Udvalg, der matcher den type, du har valgt i **Vis ruder for**
+* Udvalg, der har et gemt diagram under fanen **Diagram**
 
-Du har forskellige redigeringsindstillinger for dine dashboard-ruder, herunder datakilden
+Hvis et udvalg mangler på listen, skal du kontrollere:
 
-### Fanen Layout
+* Er det et statisk udvalg? Statisk udvalg understøttes ikke her.
+* Matcher posttypen (firma, salg osv.) den valgte type?
+* Er der defineret og gemt et diagram på fanen **Diagram**?
 
-Fanen for Layout giver dig mange muligheder for at finjustere rudens visuelle udseende. Hvis du er tilfreds med layoutet af en rude, kan du også duplikere ruden for at ændre datasættet bagved uden at ændre layoutet.
+Efter du har tilføjet ruden:
 
-Vælg den ønskede diagramtype og de nødvendige indstillinger. Rudens output vises på højre side.
+* Ændringer i **kriterier** eller **diagram** i udvalget påvirker **ikke** ruden.
+* Ændringer i **datasættet** eller **layoutet** i ruden påvirker **ikke** udvalget.
+* **Ruden holdes ikke synkroniseret** med udvalget, men opdateres stadig dynamisk baseret på sit eget datasæt.
 
-## Redigering af rude
+Hvis du vil have ruden til at afspejle ændringer i et udvalg, skal du enten opdatere ruden manuelt eller fjerne og tilføje den igen fra det opdaterede udvalg.
 
-1. Gå til det ønskede dashboard.
+### Tilføj en webpanel-rude
 
-2. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Tilføj rude/Rediger layout** .
+Brug denne rude til at integrere en webside i dashboardet:
 
-3. Klik på **Rediger rude** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på dashboardet.
+1. Sæt **Vis ruder for** til **Andet**.
+1. Gå til fanen **Bibliotek**, og vælg **Webpanel**.
+1. Indtast den URL, du vil vise.
+1. Hvis URL'en bruger HTTP (ikke HTTPS), skal du aktivere **Tillad usikker adresse**.
+1. Klik på **Gem**, og derefter på **Udført** for at afslutte layouttilstanden.
 
-4. Under fanen **Datasæt** kan du [redigere kriterierne][11] for de data, der vises i ruden. Husk at opdatere rudens navn for at afspejle eventuelle ændringer, der er foretaget her.
+### Tilføj en HTML-rude
 
-5. Under fanen **Layout** kan du redigere forskellige indstillinger, værdier og formatering af ruden. Forhåndsvisningen til højre opdateres med de valgte indstillinger.
+Brug denne rude til at vise formateret tekst i dashboardet. Det kan for eksempel være en velkomstbesked, forklaring eller intern note.
 
-6. Klik på <i class="ph ph-translate" aria-label="Translate"></i> to [for at tilføje][12] en oversættelse til rudens navn, titler og etiketter.
+1. Sæt **Vis ruder for** til **Andet**.
+1. Gå til fanen **Bibliotek**, og vælg **HTML**.
+1. Klik på **Tilføj** for at vælge mindst ét sprog til indholdet.
+1. Brug den indbyggede editor til at indtaste og formatere dit indhold.
 
-7. Klik på **Gem**.
+    Du har adgang til de samme formateringsmuligheder som i Chat og Formularer. Tilføj indhold på flere sprog for at sikre, at ruden vises korrekt for alle brugere.
 
-## Fjern en rude
+1. Klik på **Gem**, og derefter på **Udført** for at afslutte layouttilstanden.
 
-Du kan fjerne felter fra et dashboard, så længe du har adgang til at redigere det.
+## <a id="edit"></a>Rediger en rude
 
-> [!NOTE]
-> Fjernede ruder vil stadig kunne tilføjes dashboards.
+1. Når du er i layouttilstand, skal du klikke på **Rediger**-ikonet (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på ruden.
+1. I fanen **Datasæt** kan du justere kriterierne efter behov.
+1. I fanen **Layout** vælger du diagramtype og visuelle indstillinger.
+1. Opdater rudens navn, så det afspejler de nye data eller layoutændringer.
+1. Klik på <i class="ph ph-translate" aria-label="Translate"></i> for at [tilføje en oversættelse][7] af rudens titel og etiketter.
+1. Klik på **Gem**.
 
-**Trin:**
+## <a id="copy"></a>Duplikér eller kopier en rude
 
-1. Gå til det ønskede dashboard.
+Du kan genbruge en eksisterende rude ved enten at duplikere den i samme dashboard eller kopiere den til et andet dashboard. Du skal have **redigeringstilladelse til måldashboardet** for at kunne kopiere en rude til det.
 
-2. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og vælg **Tilføj rude/Rediger layout** .
+1. Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> på ruden, og vælg duplikér- eller kopieringsindstillingen.
 
-3. Klik på <i class="ph ph-x-circle" aria-label="Remove icon"></i> på den rude, du vil fjerne.
+| Indstilling | Hvad den gør | Næste trin | Anvendelse |
+|---|---|---|---|
+| **Duplikér rude** | Opretter en kopi af ruden i det aktuelle dashboard. Navnet opdateres (f.eks. *Rudenavn2*). | Rediger typisk den duplikerede rude: ændr navnet, opdater datasæt eller layout. | Vis samme type data med et andet layout, eller vis lignende data med samme layout. |
+| **Kopiér rude til dashboard** | Tilføjer ruden til et andet dashboard. Vælg et måldashboard fra listen. Hold musen over dashboardnavnet for at få vist en forhåndsvisning af dets nuværende ruder. | Åbn eventuelt måldashboardet. Rediger ruden der, hvis nødvendigt. | Genbrug en nyttig rude, du fandt i en kollegas dashboard. Tilføj den til et af dine egne dashboards. |
 
-4. Klik på **OK** for at bekræfte.
+**Kopiér til dashboard** er også tilgængelig uden for layouttilstand (almindelig visning af dashboardet).
 
-## Eksporter ruder
+## <a id="move"></a>Flyt eller ændr størrelsen på ruder
 
-Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidehovedet på et felt for at få adgang til følgende indstillinger:
+Når du er i layouttilstand:
 
-* **Download PDF-dokument** / **Download PNG-dokument**: Download ruden i PDF- eller PNG-format. Eksportfilerne downloades til browseren (**mappen Overførsler).**
+* **Træk ruden i overskriften** for at flytte den til en ny placering.
+* **Ændr størrelsen på ruden** ved at trække i bunden, højre side eller nederste højre hjørne.
 
-* **Udskriv**: Åbn feltet i udskriftsdialogboksen.
+Ruderne tilpasses automatisk dashboardets gitterlayout.
+
+Hvis du vil ændre antallet af kolonner, skal du afslutte layouttilstanden og redigere dashboarddetaljerne.
+
+## <a id="remove"></a>Fjern en rude
+
+Du kan fjerne ruder fra et dashboard, så længe du har redigeringstilladelse.
+
+1. Når du er i layouttilstand, skal du klikke på <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> på ruden.
+1. Vælg **Fjern rude**.
+1. Bekræft sletningen.
+
+> [!CAUTION]
+> Brugerdefinerede ruder, som HTML, webpanel og ruder baseret på udvalg, slettes permanent, når de fjernes. Kun foruddefinerede ruder fra biblioteket kan sikkert tilføjes igen senere.
+
+## <a id="export"></a>Eksportér ruder
+
+Klik på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i sidehovedet på en rude for at få adgang til følgende muligheder:
+
+* **Download PDF-dokument** / **Download PNG-dokument**: Download ruden i PDF- eller PNG-format. Filen gemmes i din browsers **Overførsler**-mappe.
+
+* **Udskriv**: Åbner ruden i udskriftsdialogboksen.
 
 > [!TIP]
-> Hvis du vil skjule bestemte data, før du eksporterer eller udskriver en rude, skal du klikke på dataetiketterne (beskrivelse) ud for eller under ruden for at skjule data.
+> Hvis du vil skjule specifikke data, før du eksporterer eller udskriver en rude, skal du klikke på dataetiketterne (forklaringer) ved siden af eller under ruden for at skjule dem.
+
+## Tips
+
+* **Skjul valutaetiketter:** Hvis du vil spare plads i ruder, der viser beløb, skal du vælge **Skjul** under **Valuta** i fanen Layout.
+
+* **Sammenlign med mål:** I dashboards for salg kan du aktivere **Sammenlign med mål** i fanen Layout for at visualisere fremdrift mod salgsbudgettet. Denne mulighed afhænger af diagramtype og datasæt.
+
+* **Brug korte talformater:** For ruder med store værdier kan du aktivere **Kort talformat** for at vise tal i millioner (f.eks. *1,2M*).
+
+* **Store tal-ruder:** Brug disse til nøglemålinger som omsætning eller åbne sager. Hold rudens navn kort, så tallet fremhæves tydeligt.
+
+* **Vis varighed i opfølgningsruder:** Når du bruger opfølgningsruder, kan du sætte **Måleenhed** til **Varighed** for at spore tidsforbrug mere effektivt.
+
+## Fejlfinding
+
+* **Jeg kan ikke se redigeringsikonet på ruden**
+  * Er dashboardet i layouttilstand?
+
+* **Jeg kan ikke finde den ønskede indstilling i Opgave-menuen**
+  * Har du klikket på den korrekte Opgave-knap? (dashboard vs. rude)
+  * Er dashboardet i layouttilstand?
+
+* **Jeg har ikke adgang til fanen Layout eller felterne**
+  * Du har muligvis ikke de nødvendige funktionelle rettigheder. Kontakt din administrator.
+
+* **Et udvalg mangler i fanen Udvalg**
+  * Se [Om ruder baseret på udvalg](#selection-chart)
+
+* **Jeg kom til at fjerne en brugerdefineret rude**
+  * Disse ruder kan ikke gendannes. For at undgå dette kan du kopiere dem til et privat dashboard (f.eks. "Arkiverede ruder") inden du sletter dem.
 
 ## Relateret indhold
 
 * [Tilføj et nyt dashboard][1]
-* [Brug dashboards til at administrere din salgspipeline][15]
-* [Læs mere om kriterier][4]
-* [Skærmbilledet Søg][5]
+* [Brug dashboards til at administrere din salgspipeline][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[2]: show-sales-targets.md
+[3]: index.md#charts
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png

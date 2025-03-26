@@ -1,8 +1,9 @@
 ---
 uid: help-de-dashboard-tiles
 title: Arbeiten mit Kacheln
-description: In dieser Anleitung lernen Sie, wie Sie auf die Information in Ihrem Dashboard zugreifen können, damit Sie sich einen klaren Überblick verschaffen und die Prioritäten für Ihre nächsten Schritte besser setzen können.
-keywords: Dashboard
+description: Erfahren Sie, wie Sie Kacheln in Ihren SuperOffice-Dashboards hinzufügen, anpassen und verwalten.
+keywords: Kachel hinzufügen, Kachel bearbeiten, Kachel kopieren, Kachel duplizieren, Kachel entfernen, Kachel anpassen, Datensatz, Dashboard, Kachel
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -13,129 +14,208 @@ language: de
 
 # Arbeiten mit Kacheln
 
-## Ihre eigenen Kacheln bearbeiten oder erstellen
+Erfahren Sie, wie Sie Kacheln in Ihren SuperOffice-Dashboards hinzufügen, anpassen und verwalten. Kacheln sind visuelle Zusammenfassungen auf Basis von CRM-Daten – ideal zur Verfolgung von Anfragen, Verkäufen, Aktivitäten oder Marketingergebnissen.
 
-Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im SuperOffice-Dashboard finden, können Sie immer [Ihre eigene Kachel erstellen][4].
+Sie können vordefinierte Kacheln verwenden oder eigene erstellen.
 
-## Im Dashboard Kachel hinzufügen/Layout bearbeiten
+## Voraussetzung: in den Layoutmodus wechseln
 
-Wenn Sie die gewünschte Kachel nicht unter den vordefinierten Kacheln im SuperOffice-Dashboard finden, können Sie immer Ihre eigene erstellen.
+Um Kacheln zu verwalten, müssen Sie zuerst in den Layoutmodus wechseln:
 
-Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte, um zu lernen, wie Sie Ihre eigene Dashboard-Kachel erstellen (Videolänge – 7:20):
+1. Öffnen Sie das Dashboard, das Sie anpassen möchten.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+1. Klicken Sie in der Kopfzeile des Dashboards auf <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> und wählen Sie **Dashboard-Kacheln bearbeiten**.
 
-### Schritte
+    Das Dashboard wechselt in den Layoutmodus:
+    * Die Seitenleiste **Dashboard-Kacheln bearbeiten** wird rechts angezeigt.
+    * Jede Kachel zeigt ein Bearbeitungssymbol (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * Sie können Kacheln hinzufügen, verschieben, in der Größe ändern oder bearbeiten.
 
-1. Öffnen Sie die Ansicht **Dashboard**.
+## <a id="add"></a>Kachel hinzufügen
 
-2. Wählen Sie das zu bearbeitende Dashboard aus.
+1. Wählen Sie in der Seitenleiste **Dashboard-Kacheln bearbeiten** den gewünschten Datentyp (z. B. Firma, Verkauf oder Anfrage) aus der Liste **Kacheln anzeigen für**.
 
-3. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus. Auf der rechten Seite des ausgewählten Dashboards wird der Bereich **Kachel hinzufügen/Layout bearbeiten** angezeigt.
+    ![Seitenleiste Dashboard-Kacheln bearbeiten -screenshot][img1]
 
-    ![Kacheltyp auswählen -screenshot][img1]
+1. Wählen Sie eine Kachel aus dem **Bibliothek**-Tab (vordefinierte Kacheln) oder dem Tab **Selektionen** (basierend auf eigenen dynamischen Selektionen).
 
-    > [!NOTE]
-    > Wenn die Registerkarte **Layout** und die Felder deaktiviert sind, verfügen Sie nicht über ausreichende Benutzerrechte. Wenden Sie sich an Ihren Administrator, um die richtigen Zugriffsrechte zu erhalten.
+    * Verwenden Sie das **Suchfeld**, um Kacheln schneller zu finden.
+    * Ein Symbol zeigt den Kacheltyp an – zum Beispiel Diagramm, Liste oder große Zahl.
 
-4. Wählen Sie in der Liste **Kacheln anzeigen für** den Typ der gewünschten Datensätze aus, beispielsweise Firmen, Folgeaufgaben oder Verkäufe. Relevante Kacheln werden auf den Registerkarten **Bibliothek** und **Selektionen** unten angezeigt:
+1. Fügen Sie die Kachel dem Dashboard hinzu:
+    * **Ziehen Sie die Kachel** in einen freien Bereich, oder
+    * klicken Sie auf das Symbol <i class="ph ph-plus" aria-label="+"></i>, das erscheint, wenn Sie mit der Maus über den Kachelnamen fahren.
 
-    * **Bibliothek**: Diese Registerkarte enthält eine Reihe vordefinierter Kacheln aus der Online-Vorlagenbibliothek. Das Symbol neben dem Namen der Kachel gibt deren Typ an.
+    Die Kachel wird automatisch an den verfügbaren Platz angepasst und am Layout des Dashboards ausgerichtet.
 
-        > [!TIP]
-        > Sie können auch eine leere Kachel auswählen, um von Grund auf eine neue Kachel zu erstellen.
+1. Ändern Sie bei Bedarf die Größe oder Position der Kachel.
 
-    * Selektionen: Diese Registerkarte enthält dynamische Selektionen mit [Diagrammen][2] und zeigt nur Selektionen desselben Datensatz-//Entitätstyps an, der oben in der Liste **Ansicht** ausgewählt wurde (zum Beispiel Firma oder Verkauf).
+1. Klicken Sie auf **Fertig**, um den Layoutmodus zu verlassen.
 
-    > [!NOTE]
-    > Bei der Verwendung eines Selektionsdiagramms wird der Datensatz kopiert und es werden keine Änderungen an der Selektion in der Kachel widergespiegelt.
+### Eine Kachel von Grund auf neu erstellen
 
-5. Optional: Suchen Sie mit dem Suchfeld nach bestimmten Kacheln.
+1. Wählen Sie die Option **Leere Kachel** für den gewünschten Datentyp.
+1. Fügen Sie die Kachel dem Dashboard hinzu.
+1. Geben Sie im Dialogfeld **Kachel bearbeiten** einen aussagekräftigen Namen ein.
+1. Wählen Sie den Tab **Datensatz** und [definieren Sie die Kriterien][4], um zu steuern, welche Daten angezeigt werden.
 
-6. Zum Hinzufügen einer Kachel zum Dashboard ziehen Sie sie per Drag and Drop an die gewünschte Position im Dashboard. Sie können auch auf **Hinzufügen** klicken, um eine Kachel an der nächsten verfügbaren Position hinzuzufügen. Die Kachel wird automatisch an den verfügbaren Platz angepasst und am Raster- und Spalten-Setup ausgerichtet.
+    ![Dialog Kachel bearbeiten, Tab Datensatz -screenshot][img2]
 
-7. Wiederholen Sie die Schritte 4-6, um weitere Kacheln hinzuzufügen.
+    Dieser Tab funktioniert wie der [Bildschirm Suchen][5]. Verwenden Sie ihn, um Filter wie Besitzer, Zeitraum oder Kategorie festzulegen.
 
-8. Passen Sie die Kacheln wie folgt an das Dashboard an:
+1. Wechseln Sie zum Tab **Layout**, um das Erscheinungsbild der Kachel zu konfigurieren. Wählen Sie [Diagrammtyp][3], Beschriftungen, Sortierung und andere Formatierungsoptionen.
 
-    * Halten Sie den Mauszeiger über eine Kachel, klicken Sie auf den Rahmen und ziehen Sie ihn, um die Kachelgröße einzustellen. Verfügbare Nischen/Leerbereiche im Dashboard werden gelb hervorgehoben, wenn die Kachel in diese Position passt.
+    ![Dialog Kachel bearbeiten, Tab Layout -screenshot][img3]
 
-    * Klicken Sie auf die Kopfzeile einer Kachel und ziehen Sie sie an eine andere Position.
+1. Klicken Sie auf **Speichern**, und anschließend auf **Fertig**, um den Layoutmodus zu beenden.
 
-9. Klicken Sie auf **Fertig**.
+### <a id="selection-chart"></a>Über selektionsbasierte Kacheln
 
-### Die Registerkarte Datensatz
+Wenn Sie eine Kachel über den Tab **Selektionen** hinzufügen, wird sie **nicht** mit der Selektion verknüpft. Stattdessen wird der aktuelle Datensatz und das Layout aus dem [Diagramm der Selektion][6] kopiert. Danach sind die Kachel und die Selektion voneinander unabhängig.
 
-Auf der Registerkarte Datensatz wird die Kriterienübersicht angezeigt, die auch für Suchen und Auswählen verwendet wird. Die verschiedenen Kriterien, die Sie hier auswählen, filtern die gewünschten Daten für Ihre Kachel.
+Der Tab **Selektionen** zeigt nur:
 
-Sie haben verschiedene Bearbeitungsoptionen für Ihre Dashboard-Kacheln, einschließlich der Quelle der Daten
+* Dynamische Selektionen
+* Selektionen, die dem Typ in **Kacheln anzeigen für** entsprechen
+* Selektionen mit einem gespeicherten Diagramm im Tab **Diagramm**
 
-### Die Registerkarte Layout
+Wenn eine Selektion nicht angezeigt wird, prüfen Sie:
 
-In der Registerkarte Layout haben Sie viele Möglichkeiten, das visuelle Erscheinungsbild der Kachel zu optimieren. Wenn Sie mit dem Layout einer Kachel zufrieden sind, können Sie die Kachel auch duplizieren, um den zugrundeliegenden liegenden Datensatz zu ändern, ohne Änderungen am Layout vorzunehmen.
+* Handelt es sich um eine statische Selektion? Nur dynamische Selektionen werden unterstützt.
+* Stimmt der Datensatztyp (Firma, Verkauf usw.) mit dem ausgewählten Typ überein?
+* Wurde im Tab **Diagramm** ein Diagramm gespeichert?
 
-Wählen Sie den gewünschten Diagrammtyp und die erforderlichen Einstellungen aus. Das Ergebnis der Kachel wird auf der rechten Seite angezeigt
+Nach dem Hinzufügen:
 
-## Kacheln bearbeiten
+* Änderungen an den **Kriterien** oder dem **Diagramm** der Selektion wirken sich **nicht** auf die Kachel aus.
+* Änderungen am **Datensatz** oder **Layout** der Kachel wirken sich **nicht** auf die Selektion aus.
+* Die **Kachel bleibt nicht synchronisiert** mit der Selektion, wird aber weiterhin dynamisch basierend auf dem eigenen Datensatz aktualisiert.
 
-1. Wechseln Sie zum gewünschten Dashboard.
+Wenn Sie möchten, dass die Kachel spätere Änderungen an der Selektion widerspiegelt, müssen Sie entweder die Kachel manuell anpassen oder sie löschen und erneut aus der aktualisierten Selektion hinzufügen.
 
-2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
+### Kachel für Web-Bildschirm hinzufügen
 
-3. Klicken Sie im Dashboard auf **Kachel bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>).
+Verwenden Sie diese Kachel, um eine Webseite im Dashboard einzubetten:
 
-4. In der Registerkarte **Datensatz** können Sie für die in der Kachel angezeigten Daten die [Kriterien bearbeiten][11]. Aktualisieren Sie unbedingt den Kachelnamen, damit dieser Aufschluss über hier vorgenommene Änderungen gibt.
+1. Setzen Sie **Kacheln anzeigen für** auf **Sonstige**.
+1. Wählen Sie im Tab **Bibliothek** die Option **Web-Bildschirm**.
+1. Geben Sie die URL ein, die angezeigt werden soll.
+1. Wenn die URL HTTP (nicht HTTPS) verwendet, aktivieren Sie **Unsichere Adresse zulassen**.
+1. Klicken Sie auf **Speichern** und dann auf **Fertig**, um den Layout-Modus zu verlassen.
 
-5. Auf der Registerkarte **Layout** können Sie verschiedene Einstellungen, Werte und Formatierungen für die Kachel bearbeiten. Die Vorschau auf der rechten Seite wird anhand der ausgewählten Einstellungen aktualisiert.
+### HTML-Kachel hinzufügen
 
-6. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um für den Kachelnamen, die Titel und die Bezeichnungen die Option [Übersetzung hinzufügen][12] auszuführen.
+Verwenden Sie diese Kachel, um formatierten Text in Ihrem Dashboard anzuzeigen, z. B. eine Willkommensnachricht, Legende oder interne Erläuterung.
 
-7. Klicken Sie auf **Speichern**.
+1. Setzen Sie **Kacheln anzeigen für** auf **Sonstige**.
+1. Wählen Sie im Tab **Bibliothek** die Option **HTML**.
+1. Klicken Sie auf **Hinzufügen**, um mindestens eine Sprache für den Inhalt auszuwählen.
+1. Verwenden Sie den integrierten Editor, um den Inhalt einzugeben und zu formatieren.
 
-## Kacheln entfernen
+    Sie können dieselben Formatierungsoptionen verwenden, die auch im Chat und in Formularen zur Verfügung stehen. Fügen Sie Inhalte in mehreren Sprachen hinzu, um sicherzustellen, dass die Kachel für alle Benutzer korrekt angezeigt wird.
 
-Sie können Kacheln aus einem Dashboard entfernen, sofern Sie Schreibzugriff dafür haben.
+1. Klicken Sie auf **Speichern** und dann auf **Fertig**, um den Layout-Modus zu verlassen.
 
-> [!NOTE]
-> Entfernte Kacheln sind weiterhin für Zu Dashboards hinzufügen verfügbar.
+## <a id="edit"></a>Kachel bearbeiten
 
-**Schritte:**
+1. Klicken Sie im Layout-Modus auf das Symbol **Bearbeiten** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) auf der Kachel.
+1. Passen Sie auf der Registerkarte **Datensatz** die Filter nach Bedarf an.
+1. Wählen Sie auf der Registerkarte **Layout** den Diagrammtyp und die visuellen Einstellungen aus.
+1. Aktualisieren Sie den Namen der Kachel, um die geänderten Daten oder das Layout widerzuspiegeln.
+1. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um eine [Übersetzung][7] für den Kacheltitel und die Beschriftungen hinzuzufügen.
+1. Klicken Sie auf **Speichern**.
 
-1. Wechseln Sie zum gewünschten Dashboard.
+## <a id="copy"></a>Eine Kachel duplizieren oder kopieren
 
-2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
+Sie können eine vorhandene Kachel wiederverwenden, indem Sie sie entweder im selben Dashboard duplizieren oder in ein anderes Dashboard kopieren. Um eine Kachel zu kopieren, benötigen Sie **Bearbeitungsrechte für das Ziel-Dashboard**.
 
-3. Klicken Sie im Dashboard auf das Symbol **Kachel entfernen** (<i class="ph ph-x-circle" aria-hidden="true"></i>) auf der Kachel, die Sie entfernen möchten.
+1. Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Aufgabe"></i> in der Kachel und wählen Sie die Option zum Duplizieren oder Kopieren.
 
-4. Klicken Sie zur Bestätigung auf **OK**.
+| Option | Funktion | Nächster Schritt | Anwendungsfall |
+|---|---|---|---|
+| **Kachel duplizieren** | Erstellt eine Kopie der Kachel im aktuellen Dashboard. Der Name wird angepasst (z. B. *Kachelname 2*). | Bearbeiten Sie in der Regel die duplizierte Kachel: Ändern Sie den Namen, das Dataset oder Layout. | Zeigen Sie dieselben Daten in einem anderen Layout an oder ähnliche Daten mit gleichem Layout. |
+| **Kachel in Dashboard kopieren** | Fügt die Kachel einem anderen Dashboard hinzu. Wählen Sie das Ziel-Dashboard aus der Liste. Wenn Sie mit der Maus über den Dashboardnamen fahren, sehen Sie eine Vorschau der enthaltenen Kacheln. | Öffnen Sie optional das Ziel-Dashboard und bearbeiten Sie die Kachel dort. | Nutzen Sie eine hilfreiche Kachel aus dem Dashboard eines Kollegen in einem eigenen Dashboard. |
 
-## Kacheln exportieren
+**Kachel in Dashboard kopieren** ist auch außerhalb des Layoutmodus (Standard-Dashboardansicht) verfügbar.
 
-Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel, um auf folgenden Optionen zuzugreifen:
+## <a id="move"></a>Kacheln verschieben oder skalieren
 
-* **PDF-Dokument herunterladen**/**PNG-Dokument herunterladen**: Laden Sie die Kachel im PDF- oder PNG-Format herunter. Die Exportdateien werden in den Browser heruntergeladen (Ordner **Downloads**).
+Im Layoutmodus können Sie:
 
-* **Drucken**: Öffnen Sie die Kachel im Dialogfeld Drucken.
+* **Eine Kachel über die Kopfzeile ziehen**, um sie an eine andere Position zu verschieben.
+* **Eine Kachel skalieren**, indem Sie den unteren oder rechten Rand oder die Ecke unten rechts ziehen.
+
+Die Kacheln rasten automatisch in das Rasterlayout des Dashboards ein.
+
+Wenn Sie die Anzahl der Spalten ändern möchten, verlassen Sie den Layoutmodus und aktualisieren Sie die Dashboard-Details.
+
+## <a id="remove"></a>Eine Kachel entfernen
+
+Sie können Kacheln aus einem Dashboard entfernen, sofern Sie über die erforderlichen Bearbeitungsrechte verfügen.
+
+1. Klicken Sie im Layoutmodus auf <i class="ph ph-dots-three-vertical" aria-label="Aufgabe Kachel"></i> in der Kachel.
+1. Wählen Sie **Kachel entfernen**.
+1. Bestätigen Sie die Löschung.
+
+> [!CAUTION]
+> Benutzerdefinierte Kacheln wie HTML, Web-Bildschirm und Kacheln aus Selektionen werden beim Entfernen dauerhaft gelöscht. Nur vordefinierte Kacheln aus der Bibliothek können später sicher erneut hinzugefügt werden.
+
+## <a id="export"></a>Kacheln exportieren
+
+Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel, um folgende Optionen zu öffnen:
+
+* **PDF-Dokument herunterladen** / **PNG-Dokument herunterladen**: Exportieren Sie die Kachel im PDF- oder PNG-Format. Die Dateien werden im **Download**-Ordner Ihres Browsers gespeichert.
+
+* **Drucken**: Öffnet die Kachel im Druckdialogfenster.
 
 > [!TIP]
-> Um bestimmte Daten vor dem Exportieren oder Drucken einer Kachel auszublenden, klicken Sie auf die entsprechenden Datenbezeichnungen (Legende) neben oder unter der Kachel.
+> Um bestimmte Daten vor dem Exportieren oder Drucken auszublenden, klicken Sie auf die Datenbeschriftungen (Legende) neben oder unter der Kachel.
+
+## Tipps
+
+* **Währungsbezeichnung ausblenden:** Um Platz zu sparen, setzen Sie **Währung** auf **Ausblenden** in der Registerkarte Layout.
+
+* **Mit Zielwert vergleichen:** Aktivieren Sie **Mit Ziel vergleichen** auf der Registerkarte Layout, um den Fortschritt gegenüber Verkaufszielen anzuzeigen. Diese Option hängt vom Diagrammtyp und Dataset ab.
+
+* **Kurze Zahlenformate verwenden:** Für Kacheln mit großen Zahlenwerten aktivieren Sie das Format **Kurze Zahl**, um Werte in Millionen darzustellen (z. B. *1,2 M*).
+
+* **Große Zahlen-Kacheln:** Nutzen Sie diese für zentrale Kennzahlen wie Umsatz oder offene Anfragen. Halten Sie den Kachelnamen kurz, damit der Wert gut sichtbar ist.
+
+* **Dauer bei Folgeaufgaben anzeigen:** Wenn Sie Kacheln für Folgeaufgaben verwenden, setzen Sie **Messung** auf **Dauer**, um die aufgewendete Zeit besser zu verfolgen.
+
+## Fehlerbehebung
+
+* **Ich sehe kein Bearbeitungssymbol auf der Kachel**
+  * Ist das Dashboard im Layoutmodus?
+
+* **Ich finde eine Option im Aufgabenmenü nicht**
+  * Haben Sie auf die richtige Schaltfläche geklickt? (Dashboard vs. Kachel)
+  * Ist das Dashboard im Layoutmodus?
+
+* **Ich kann die Registerkarte Layout oder Felder nicht öffnen**
+  * Möglicherweise fehlen Ihnen die erforderlichen funktionellen Rechte. Wenden Sie sich an Ihren Administrator.
+
+* **Eine Selektion fehlt auf der Registerkarte Selektionen**
+  * Siehe [Über Kacheln auf Basis von Selektionen](#selection-chart)
+
+* **Ich habe versehentlich eine benutzerdefinierte Kachel gelöscht**
+  * Diese Kacheln können nicht wiederhergestellt werden. Um das zu vermeiden, kopieren Sie sie vor dem Löschen in ein privates Dashboard (z. B. "Archivierte Kacheln").
 
 ## Verwandte Themen
 
 * [Neues Dashboard hinzufügen][1]
-* [Verwenden Sie Dashboards, um Ihre Vertriebspipeline zu verwalten][15]
-* [Weitere Infos über Kriterien][4]
-* [Die Ansicht Suchen][5]
+* [Verwenden Sie Dashboards, um Ihre Vertriebspipeline zu verwalten][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[2]: show-sales-targets.md
+[3]: index.md#charts
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png

@@ -1,8 +1,9 @@
 ---
 uid: help-no-dashboard-tiles
 title: Arbeide med figurer
-description: "I denne guiden lærer du hvordan du får tilgang til informasjonen i dashbordet ditt, slik at du kan få en klar oversikt og prioritere de neste trinnene dine bedre."
-keywords: dashbord
+description: Lær hvordan du legger til, tilpasser og administrerer figurer i SuperOffice-dashbordene dine.
+keywords: legg til figur, ny figur, rediger figurm kopier figur, dupliser figur, fjern figur, tilpass figur, datasett, figur, dashbord
+author: Bergfrid Dias
 date: 03.25.2025
 version: 10.5.3
 topic: howto
@@ -13,129 +14,208 @@ language: no
 
 # Arbeide med figurer
 
-## Redigere eller opprette dine egne figurer
+Lær hvordan du legger til, tilpasser og administrerer figurer i SuperOffice-dashbordene dine. Figurer er visuelle sammendrag basert på CRM-data – ideelle for å følge opp saker, salg, aktiviteter eller markedsføringsresultater.
 
-Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i SuperOffice Dashboard, kan du [lage din egen][4].
+Du kan bruke forhåndsdefinerte figurer eller lage dine egne.
 
-## Legg til figur / rediger layout i dashbord
+## Forutsetning: gå til layoutmodus
 
-Hvis du ikke finner figuren du trenger, blant de forhåndsdefinerte figurene i SuperOffice Dashboard, kan du lage din egen.
+For å administrere figurer må du først gå inn i layoutmodus:
 
-Se denne videoen, eller følg trinnene nedenfor for å lære hvordan du oppretter din egen dashbordfigur (videolengde – 7.20):
+1. Åpne dashbordet du vil tilpasse.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/zoAuq0IK_6k]
+2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgave-meny"></i> i dashbordoverskriften og velg **Rediger dashbordfigurer**.
 
-### Trinn
+    Dashbordet åpnes i layoutmodus:
+    * Sidepanelet **Rediger dashbordfigurer** vises til høyre.
+    * Hver figur viser et redigeringsikon (<i class="ph ph-pencil" aria-hidden="true"></i>).
+    * Du kan legge til, flytte, endre størrelse eller redigere figurer.
 
-1. Åpne skjermbildet **Dashbord**.
+## <a id="add"></a>Legge til en figur
 
-2. Velg dashbordet du vil redigere.
+1. I sidepanelet **Rediger dashbordfigurer**, velg hvilken type data du vil bruke (for eksempel firma, salg eller sak) i listen **Vis figurer for**.
 
-3. Klikk på **Oppgave** -knappen (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) og velg **Legg til figurer / rediger layout**. Til høyre i det valgte dashbordet vises delen **Legg til figur / rediger layout**.
+    ![Velg figurtype i redigeringspanelet -screenshot][img1]
 
-    ![Velg figurtype -screenshot][img1]
+2. Velg en figur fra enten **Bibliotek** (forhåndsdefinerte figurer) eller **Utvalg** (figurer basert på dine egne dynamiske utvalg).
 
-    > [!NOTE]
-    > Hvis fanen **Layout** og feltene er deaktiverte, betyr det at du ikke har tilstrekkelige brukerrettigheter. Kontakt systemansvarlig for å få riktig tilgang.
+    * Bruk **søkefeltet** for å finne figurer raskt.
+    * Hver figur har et ikon som viser typen – for eksempel diagram, liste eller stort tall.
 
-4. I listen **Vis figurer for** velger du hvilken type oppføringer du vil bruke, for eksempel firmaer, oppfølginger eller salg. Relevante figurer vises i fanene **Bibliotek** og **Utvalg** nedenfor:
+3. Legg til figuren i dashbordet:
+    * **Dra og slipp** figuren til en ledig plass.
+    * Eller klikk på <i class="ph ph-plus" aria-label="+"></i> som vises når du holder markøren over figurnavnet.
 
-    * **Bibliotek**: Denne fanen inneholder et sett med forhåndsdefinerte figurer fra online malbiblioteket. Ikonet ved siden av figurnavnet angir figurtypen.
+    Figuren justeres automatisk etter tilgjengelig plass og tilpasses dashbordoppsettet.
 
-        > [!TIP]
-        > Du kan også velge en tom figur for å opprette en figur fra bunnen av.
+4. Endre størrelse eller flytt figuren etter behov.
 
-    * **Utvalg**: Denne fanen inneholder dynamiske utvalg med [diagrammer][2], og den viser bare utvalg av samme oppførings-/enhetstype som er valgt i **Vis**-listen over (for eksempel firma eller salg).
+5. Klikk på **Fullført** for å avslutte layoutmodus.
 
-    > [!NOTE]
-    > Når du bruker et utvalgsdiagram, kopieres datasettet, og eventuelle endringer i utvalget vil ikke gjenspeiles i figuren.
+### Lage en figur fra bunnen av
 
-5. Valgfritt: Bruk søkefeltet til å finne bestemte figurer.
+1. Velg **Tom figur** for datatypen du ønsker å visualisere.
+2. Legg den til på dashbordet.
+3. I dialogboksen **Rediger figur**, skriv inn et beskrivende navn.
+4. Gå til fanen **Datasett** og [angi kriteriene][4] som bestemmer hvilke data figuren skal vise.
 
-6. Hvis du vil legge til en figur på dashbordet, drar og slipper du den på ønsket posisjon på dashbordet. Du kan også klikke på **Legg til** for å legge til en figur i neste tilgjengelige posisjon. Figuren justeres automatisk til tilgjengelig plass, og justeres etter rutenett- og kolonneoppsettet.
+    ![Rediger figur: datasettfanen -screenshot][img2]
 
-7. Gjenta trinn 4–6 hvis du vil legge til flere figurer.
+    Denne fanen fungerer på samme måte som [Finn-bildet][5]. Du kan angi filtre som eier, datoperiode eller kategori.
 
-8. Juster figurene på dashbordet:
+5. Gå til fanen **Layout** for å konfigurere figurens utseende. Velg [diagramtype][3], etiketter, sortering og andre formateringsvalg.
 
-    * Hold musepekeren over en figur, og klikk og dra rammen for å justere figurstørrelsen. Tilgjengelige spor/plasser på dashbordet merkes i gult når figuren får plass i posisjonen.
+    ![Rediger figur: layoutfanen -screenshot][img3]
 
-    * Klikk på overskriften på en figur, og dra den til en annen plassering.
+6. Klikk på **Lagre**, og deretter på **Fullført** for å avslutte layoutmodus.
 
-9. Klikk på **Fullført**.
+### <a id="selection-chart"></a>Om figurer basert på utvalg
 
-### Datasett-fanen
+Når du legger til en figur fra fanen **Utvalg**, kobles ikke figuren direkte til et levende utvalg. I stedet kopieres datasettet og oppsettet fra [diagrammet som er definert i utvalget][6]. Etter det er figuren og utvalget uavhengige av hverandre.
 
-Datasett-fanen viser oversikt over kriterier slik du er vant til fra Finn og Utvalg. Kriteriene du velger her, filtrerer de ønskede dataene for figuren.
+Fanen **Utvalg** viser kun:
 
-Du har forskjellige redigeringsalternativer for dashbordfigurene, inkludert datakilden
+* Dynamiske utvalg
+* Utvalg som samsvarer med typen valgt i **Vis figurer for**
+* Utvalg der det er lagret et diagram på fanen **Diagram**
 
-### Layout-fanen
+Hvis et utvalg mangler i listen, kontroller følgende:
 
-Layout-fanen gir deg mange muligheter til å finjustere figurens visuelle utseende. Hvis du er fornøyd med figurens layout, kan du også duplisere den for å endre datasettet som ligger bak, uten å endre layouten.
+* Er det et statisk utvalg? Statisk utvalg støttes ikke her.
+* Samsvarer posttypen (firma, salg osv.) med valgt type?
+* Er det definert og lagret et diagram i fanen **Diagram**?
 
-Velg ønsket diagramtype og nødvendige innstillinger. Figurens utdata vises på høyre side
+Etter at du har lagt til figuren:
+
+* Endringer i **kriterier** eller **diagram** i utvalget påvirker **ikke** figuren.
+* Endringer i **datasett** eller **layout** i figuren påvirker **ikke** utvalget.
+* **Figuren holdes ikke synkronisert** med utvalget, men den oppdateres fortsatt dynamisk basert på sitt eget datasett.
+
+Hvis du vil at figuren skal reflektere oppdateringer fra et utvalg, må du enten oppdatere figuren manuelt eller slette og legge den til på nytt fra det oppdaterte utvalget.
+
+### Legge til en webpanelfigur
+
+Bruk denne typen figur for å vise en nettside direkte i dashbordet:
+
+1. Angi **Vis figurer for** til **Annet**.
+2. I fanen **Bibliotek**, velg **Webpanel**.
+3. Skriv inn nettadressen (URL-en) du vil vise.
+4. Hvis adressen bruker HTTP (ikke HTTPS), aktiver **Tillat usikker adresse**.
+5. Klikk på **Lagre**, og deretter **Fullført** for å avslutte redigeringsmodus.
+
+### Legge til en HTML-figur
+
+Bruk denne typen figur til å vise formatert tekst i dashbordet. For eksempel en velkomstmelding, en forklaring eller en intern oversikt.
+
+1. Angi **Vis figurer for** til **Annet**.
+2. I fanen **Bibliotek**, velg **HTML**.
+3. Klikk på **Legg til** for å velge minst ett språk for innholdet.
+4. Bruk den innebygde editoren til å skrive og formatere innholdet.
+
+    Du kan bruke de samme formateringsverktøyene som i Chat og Skjemaer. Legg til innhold på flere språk for å sikre at figuren vises korrekt for alle brukere.
+
+5. Klikk på **Lagre**, og deretter **Fullført** for å avslutte redigeringsmodus.
 
 ## Redigere en figur
 
-1. Gå til ønsket dashbord.
+1. Når du er i redigeringsmodus for dashbordet, klikker du på **Rediger**-ikonet (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på figuren.
+2. I **Datasett**-fanen justerer du filtrene etter behov.
+3. I **Layout**-fanen velger du diagramtype og visuelle innstillinger.
+4. Oppdater figurnavnet for å gjenspeile nye data eller layout.
+5. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til oversettelser][7] av figurens tittel og etiketter.
+6. Klikk på **Lagre**.
 
-2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**.
+## <a id="copy"></a>Duplisere eller kopiere en figur
 
-3. Klikk på **Rediger figur** (<i class="ph ph-note-pencil" aria-hidden="true"></i>) på dashbordet.
+Du kan gjenbruke en eksisterende figur ved å duplisere den i samme dashbord eller kopiere den til et annet. Du må ha **redigeringstilgang til måldashbordet** for å kunne kopiere figurer dit.
 
-4. I **Datasett** -fanen kan du [redigere kriteriene][11] for dataene som vises i figuren. Husk å oppdatere figurnavnet for å gjenspeile eventuelle endringer.
+1. Klikk på <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> på figuren, og velg ønsket alternativ for duplisering eller kopiering.
 
-5. I **Layout** -fanen kan du redigere ulike innstillinger, verdier og formatering av figuren. Forhåndsvisningen til høyre oppdateres med de valgte innstillingene.
+| Alternativ | Hva det gjør | Neste trinn | Når skal det brukes |
+|---|---|---|---|
+| **Dupliser figur** | Lager en kopi i samme dashbord. Navnet får et tillegg (f.eks. *Figurnavn 2*). | Rediger den nye figuren: endre navn, datasett eller layout. | Vis samme type data med en annen layout, eller vis lignende data med samme layout. |
+| **Kopier figur til dashbord** | Legger til figuren i et annet dashbord. Velg et måldashbord fra listen. Hold markøren over dashbordnavnet for forhåndsvisning. | Åpne måldashbordet og rediger figuren der om nødvendig. | Gjenbruk en nyttig figur du fant i en kollegas dashbord. Legg den til i ditt eget. |
 
-6. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> for å [legge til en oversettelse][12] til figurnavnet, titlene og etikettene.
+**Kopier til dashbord** er også tilgjengelig utenfor layoutmodus (normal visning).
 
-7. Klikk på **Lagre**.
+## <a id="move"></a>Flytte eller endre størrelse på figurer
 
-## Fjerne en figur
+Mens du er i redigeringsmodus for dashbordet:
 
-Du kan fjerne figurer fra et dashbord så lenge du har redigeringstilgang.
+* **Dra figuren fra overskriften** for å flytte den til en ny posisjon.
+* **Endre størrelsen** ved å dra i nedre kant, høyre kant eller nederste høyre hjørne.
 
-> [!NOTE]
-> Fjernede figurer er fortsatt tilgjengelige for å legges til dashbord.
+Figurene tilpasses automatisk rutenettet i dashbordet.
 
-**Trinn:**
+For å endre antall kolonner, avslutt redigeringsmodus og oppdater dashbordinnstillingene.
 
-1. Gå til ønsket dashbord.
+## <a id="remove"></a>Fjerne en figur
 
-2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Legg til figurer / rediger layout**.
+Du kan fjerne figurer fra et dashbord hvis du har redigeringstilgang.
 
-3. Klikk på <i class="ph ph-x-circle" aria-label="Remove icon"></i> på figuren du vil fjerne, i dashbordet.
+1. Mens du er i redigeringsmodus, klikker du på <i class="ph ph-dots-three-vertical" aria-label="Tile task menu"></i> på figuren.
+2. Velg **Fjern figur**.
+3. Bekreft ved å klikke **OK**.
 
-4. Klikk på **OK** for å bekrefte.
+> [!CAUTION]
+> Egendefinerte figurer, som HTML, webpanel og figurer basert på utvalg, slettes permanent når de fjernes. Bare forhåndsdefinerte figurer fra biblioteket kan trygt legges til igjen senere.
 
-## Eksportere figurer
+## <a id="export"></a>Eksportere figurer
 
-Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i overskriften til en figur for å få tilgang til følgende alternativer:
+Klikk på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> i overskriften til en figur for å få tilgang til følgende alternativer:
 
-* **Last ned PDF-dokument** / **Last ned PNG-dokument**: Last ned figuren i PDF- eller PNG-format. Eksportfilene lastes ned til nettleseren (**Nedlastinger** -mappen).
+* **Last ned PDF-dokument** / **Last ned PNG-dokument**: Last ned figuren i PDF- eller PNG-format. Eksportfilene lagres i nettleserens **Nedlastinger**-mappe.
 
-* **Utskrift**: Åpne figuren i utskriftsdialogboksen.
+* **Skriv ut**: Åpne figuren i utskriftsdialogboksen.
 
 > [!TIP]
-> Hvis du vil skjule bestemte data før du eksporterer eller skriver ut en figur, klikker du på dataetikettene (tekst) ved siden av eller under figuren for å skjule data.
+> Hvis du vil skjule bestemte data før du eksporterer eller skriver ut en figur, klikker du på dataetikettene (teksten) ved siden av eller under figuren for å skjule data.
 
-## Aktuelle emner
+## Tips
+
+* **Skjul valutabetegnelser:** For å spare plass i figurer som viser beløp, kan du angi **Valuta** til **Skjul** i Layout-fanen.
+
+* **Sammenlign med mål:** I salgstabeller kan du aktivere **Sammenlign med mål** i Layout-fanen for å visualisere fremdriften mot salgsbudsjettene. Dette alternativet avhenger av diagramtype og datasettoppsett.
+
+* **Bruk korte tall for bedre lesbarhet:** For figurer med store verdier kan du aktivere formatet **Kort tall** for å vise verdier i millioner (for eksempel *1,2M*).
+
+* **Figurer med store tall:** Bruk disse for viktige nøkkeltall, som omsetning eller åpne saker. Hold figurnavnet kort, slik at tallet fremheves tydelig.
+
+* **Vis varighet i oppfølgingsfigurer:** Når du bruker oppfølgingsfigurer, kan du angi **Mål** til **Varighet** for bedre oversikt over tidsbruk.
+
+## Feilsøking
+
+* **Jeg ser ikke redigeringsikonet på figuren**
+  * Er dashbordet i layoutmodus?
+
+* **Jeg finner ikke alternativet jeg leter etter i Oppgave-menyen**
+  * Klikket du på riktig Oppgave-knapp? (dashbord vs. figur)
+  * Er dashbordet i layoutmodus?
+
+* **Jeg har ikke tilgang til Layout-fanen eller felt**
+  * Du har kanskje ikke nødvendige funksjonelle rettigheter. Kontakt systemansvarlig.
+
+* **Et utvalg mangler på fanen Utvalg**
+  * Se [Om figurer basert på utvalg](#selection-chart)
+
+* **Jeg fjernet ved et uhell en egendefinert figur**
+  * Disse figurene kan ikke gjenopprettes. For å unngå dette kan du kopiere dem til et privat dashbord (for eksempel «Arkiverte figurer») før du sletter dem.
+
+## Relatert innhold
 
 * [Legge til et nytt dashbord][1]
-* [Bruke dashbord til å administrere salgspipelinen din][15]
-* [Les mer om kriterier][4]
-* [Finn-bildet][5]
+* [Bruke dashbord til å administrere salgspipelinen din][2]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../search-options/selection/learn/howto/display-as-charts.md
-[11]: ../../search-options/learn/search-criteria.md
-[12]: ../../globalization-and-localization/learn/translate-fields.md
-[15]: show-sales-targets.md
+[2]: show-sales-targets.md
+[3]: index.md#charts
 [4]: ../../search-options/learn/search-criteria.md
 [5]: ../../search-options/learn/find-screen.md
+[6]: ../../search-options/selection/learn/howto/display-as-charts.md
+[7]: ../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/dashboard/dashboard-add-tile-sale.png
+[img1]: ../../../media/loc/en/dashboard/edit-dashboard-tiles-sidebar.png
+[img2]: ../../../media/loc/en/dashboard/edit-tile-dataset.png
+[img3]: ../../../media/loc/en/dashboard/edit-tile-layout.png

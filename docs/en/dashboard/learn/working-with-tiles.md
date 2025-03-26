@@ -44,7 +44,7 @@ To manage tiles, you must first enter layout mode:
 
 1. Add the tile to the dashboard:
     * **Drag and drop** the tile into an available slot.
-    * Or, click the <i class="ph ph-plus" aria-label="Add button"></i> icon that appears when hovering the tile name.
+    * Or, click the <i class="ph ph-plus" aria-label="+"></i> icon that appears when hovering the tile name.
 
     The tile will automatically adjust to the available space and align with the dashboard layout.
 
@@ -129,7 +129,7 @@ Use this tile to display formatted text in your dashboard. For example, a welcom
 
 You can reuse an existing tile by either duplicating it in the same dashboard or copying it to another dashboard. You must have **edit access to the target dashboard** to copy a tile to it.
 
-1. Click <i class="ph ph-list" aria-label="Task menu"></i> on the tile and select the duplicate or copy option.
+1. Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> on the tile and select the duplicate or copy option.
 
 | Option | What it does | What to do next | Use case |
 |---|---|---|---|
@@ -162,7 +162,7 @@ You can remove tiles from a dashboard, as long as you have editing access.
 
 ## <a id="export"></a>Export tiles
 
-Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile to access the following options:
+Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> in the header of a tile to access the following options:
 
 * **Download PDF document** / **Download PNG document**: Download the tile in PDF or PNG format. The export files are downloaded to your browser (**Downloads** folder).
 
@@ -199,7 +199,7 @@ Click <i class="ph ph-list" aria-label="Task menu"></i> in the header of a tile 
   * See [About selection-based tiles](#selection-chart)
 
 * **I accidentally removed a custom tile**
-  * These tiles cannot be restored. To avoid this, copy them to a private dashboard (for example, “Archived tiles”) before deletion.
+  * These tiles cannot be restored. To avoid this, copy them to a private dashboard (for example, "Archived tiles") before deletion.
 
 ## Related content
 
