@@ -1,132 +1,163 @@
 ---
 uid: help-sv-dashboard
 title: Dashboards
-description: Konfigurera SuperOffice Dashboard och använd fördefinierade figurer. Dashboards är perfekta för alla användare och chefer. Du får en översikt över ditt arbete eller teamets resultat.
-keywords: dashboard
-author: SuperOffice RnD
-date: 02.25.2025
+description: SuperOffice Dashboards är perfekta för både användare och chefer. Få en översikt över ditt arbete eller teamets resultat med fördefinierade paneler eller skapa egna.
+keywords: dashboard administrator, diagram, rapport, dataset, stora siffror, mätare, dashboard, panel
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Panel
+# Dashboards
+
+Dashboards i SuperOffice CRM ger dig omedelbar visuell insikt i ditt arbete, teamets framsteg och viktiga nyckeltal. De visar viktiga siffror och trender med hjälp av paneler som är kopplade till urval eller andra datakällor.
+
+Använd dashboards för att följa upp aktiviteter, försäljning, ärenden med mera. Du kan visa fördefinierade dashboards eller skapa egna.
+
+![Ärendedashboard -screenshot][img4]
 
 > [!NOTE]
-> Vissa av de funktioner som beskrivs här kräver specifika funktionella behörigheter eller licenser.
+> Åtkomst till dashboards och paneldata beror på din användarplan och tilldelade rättigheter.
 
-Med **Dashboard**-funktionen i SuperOffice CRM får du snabb tillgång till diagrammen, rapporterna och statistiken som är viktigast för dig. Du kan välja bland ett stort anal fördefinierade figurer och även lägga till figurer med dynamiska urval eller skapa egna.
+## Vad är ett dashboard?
 
-Dashboards visas som flikar högst upp på skärmen. Fastnålade dashboards och dashboards som har valts som favoriter visas här, liksom den senast använda dashboarden. Om du vill se andra dashboards som du har åtkomst till söker du i navigatorn.
+Ett dashboard är en anpassningsbar vy av dina CRM-data. Det visar en eller flera paneler – små visuella rapporter som visar sammanfattningar, antal eller diagram baserat på dina data. Dashboards hjälper dig att hålla dig uppdaterad och fatta snabbare beslut.
 
-![Anpassa din dashboard så att du har större användning av den -screenshot][img4]
+Varje panel innehåller en grafisk eller numerisk representation av SuperOffice-data. Det är data bakom panelerna som gör ett dashboard användbart.
 
-## Terminologi
+### Terminologi
 
-* **Dashboard:** En dashboard är ett sätt att visa olika typer av visuella data på ett och samma ställe. Vanligtvis används en dashboard för att förmedla olika typer av, men relaterad, information i en överskådlig form.
+* **Dashboard:** En skärmbild som visar CRM-data visuellt med en eller flera paneler.
+* **Panel:** Ett konfigurerbart fält i ett dashboard. Paneler kan visa diagram, listor eller siffror.
+* **Diagram:** En grafisk visualisering av paneldata, till exempel cirkeldiagram eller stapeldiagram.
+* **Dataset:** Den underliggande datakällan för en panel. Vanligtvis baserat på sökkriterier.
 
-* **Rapporter:** en lista eller ett urval som visas i en figur
+## Öppna dina dashboards
 
-* **Figurer:** Justerbar fyrkant som kan visualisera olika data på din dashboard.
+Välj **Dashboard** i navigatorn för att öppna dashboard-skärmen. Du har åtkomst till:
 
-  * **Diagramtyp:** Ett diagram är en grafisk framställning som visualiserar data (kallas ibland graf).
-  * **Lista:** En lista som visar ett definierat urval.
-  * **Stora siffror:** Gör det möjligt att framhäva viktiga totalmått eller nyckeltal.
-  * **Webbpanel:**  Visa en URL/webbsida inuti en figur.
-  * **HTML-kod:** Visa HTML-kod inuti en figur.
+* **Fastnålade dashboards:** Distribuerade av en administratör
+* **Favoritdashboards:** Markerade med stjärnikon
+* **Egna dashboards:** Dashboards du själv har skapat
 
-* **Dataset:** Ett dataurval som visas i figuren, till exempel ett dynamiskt urval med sökkriterier.
+Som standard finns ett dashboard som heter **Status** tillgängligt och fastnålat. Det innehåller paneler med fördefinierade diagram och nyckeltal. Om du har användarplanen SuperOffice Service är ett andra dashboard som heter **Ärenden** också tillgängligt.
 
-* **Layout:** Ändra inställningarna för att justera hur data visas i en figur.
+Du kan skapa fler dashboards eller duplicera befintliga för att anpassa dem.
 
-* **Dashboard-flikar:** Varje flik innehåller en dashboard som visar olika figurer med olika data som kan ge insikter och fungera som beslutsstöd.
+Fastnålade och favoritdashboards visas högst upp på skärmen tillsammans med det senast använda. Använd sökfältet i navigatorn för att hitta andra dashboards som du har åtkomst till.
 
-## Figurer
-
-I SuperOffice Dashboard finns många [fördefinierade standardfigurer][6] att välja mellan och diagram som är kopplade till dynamiska urval. Figurerna kan delas in i åtta olika kategorier: Företag, Kontakt, Händelse, Försäljning, Projekt, Dokument, Produkt och Ärende.
-
-Varje figur på en dashboard innehåller antingen ett diagram, en lista eller en siffra. Ett dashboard kan innehålla flera figurer.
-
-Figurerna kan också anpassas för att endast visa data från urval. Eftersom figurdata kräver åtkomstbehörigheter visar figurerna bara information som du har åtkomst till. Figurdata gäller vanligtvis dig eller dina grupper och en specifik tidsperiod (till exempel den här månaden eller de senaste 6 månaderna)
-
-Det finns flera typer av diagram:
-
-| Typ | Beskrivning |
+| Ikon | Beskrivning |
 |---|---|
-| Cirkeldiagram | Ett cirkelformat diagram. |
-| Kolumn | Ett kolumndiagram ställer upp variabelvärdena vertikalt. |
-| Stapel | Ett stapeldiagram ställer upp variabelvärdena horisontellt. |
-| Linje | En serie datapunkter med en heldragen linje. |
-| Område | Ett diagram som kombinerar ett linjediagram och ett stapeldiagram. |
-| Mätare | Använder visare för att förmedla information som en avläsning på en nummerskiva. |
-| Kolumn + linje | (2 axlar) Ett diagram med två axlar som kombinerar ett kolumn- och ett linjediagram. |
-| Stapel + linje | (2 axlar) Ett diagram med två axlar som kombinerar ett stapel- och ett linjediagram. |
+| <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Fastnålade dashboards. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favoritdashboard. Klicka för att växla. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Uppdatera all paneldata. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Åtgärdsmeny för dashboardfunktioner. |
 
-### Skapa fler flikar
+## Paneler
 
-Som standard har dashboarden bar en flik: Status. Den innehåller olika figurer med fördefinierade diagram. Du kan redigera den här fliken och/eller lägga till fler flikar där du infogar alla figurer och diagram du behöver.
+Paneler är byggstenarna i ett dashboard. Paneldata är vanligtvis relaterad till dig, dina grupper och en viss tidsperiod (till exempel denna månad eller de senaste 6 månaderna).
+
+En panel kan visa:
+
+* Ett **diagram**, som stapel- eller cirkeldiagram. Diagram är grafiska visualiseringar av data (kallas ibland graf).
+* En **lista** med upp till 100 poster från ett urval.
+* En **stor siffra**, till exempel total försäljning. Visar en KPI.
+* Ett **webbpanel** som laddar en URL.
+* **HTML-innehåll**, formaterat direkt i panelen.
+
+Du kan lägga till fördefinierade paneler eller skapa egna.
+
+## <a id="charts"></a>Diagramtyper
+
+Diagramtypen bestämmer hur data visas i panelen.
+
+| Ikon | Typ | Beskrivning |
+|:-:|---|---|
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Cirkeldiagram | Ett cirkelformat diagram. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Stora siffror | Ett stort värde med möjlighet att jämföra. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Lista | Visar upp till 100 poster. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolumndiagram | Visar värden vertikalt. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Stapeldiagram | Visar värden horisontellt. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Linjediagram | Datapunkter förenade med en linje. |
+| <i class="ph ph-chart-line-up ph-fill" aria-label="Line chart"></i> | Områdesdiagram | Kombinerar linje- och stapeldiagram. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Mätare | Visar data med visare på en skiva. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolumn + linje (2 axlar) | Diagram med dubbla axlar. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Stapel + linje (2 axlar) | Diagram med dubbla axlar. |
+
+## Visa och interagera med paneler
+
+Varje panel visar en ögonblicksbild av realtidsdata. Du kan interagera med panelerna för att utforska underliggande data.
+
+* **Hovra** över diagramytor för att se detaljerade verktygstips.
+* **Klicka på en värdeetikett i förklaringen** för att visa/dölja dataserier.
+* Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Visa i helskärmsläge** för att förstora en panel.
+
+    ![Panelens åtgärdsmeny -screenshot][img1]
+
+* **Klicka på datapunkter** (till exempel stapel eller sektor) för att se relaterade poster i ett nytt fönster.
+
+I vyn med bakomliggande data:
+
+* Markera en post för att förhandsgranska.
+* Dubbelklicka för att öppna posten, eller klicka på **Öppna**.
+* Klicka på <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> och välj **Kopiera till urval** för att kopiera poster. Om inget är markerat kopieras alla.
+
+![Granska bakomliggande data -screenshot][img2]
+
+## Krav
+
+Dashboardfunktioner beror på funktionella rättigheter och licensnivå. Alla användare kan:
+
+* Visa dashboards som är fastnålade eller delade med dem
+* Skapa, anpassa och ta bort egna dashboards
 
 > [!NOTE]
-> Eftersom figurdata kräver åtkomstbehörigheter visar figurerna bara information som du har åtkomst till.
+> Paneler visar endast data du har behörighet till.
 
-## Alternativ i skärmen Dashboard
+Om du inte kan redigera eller nåla fast ett dashboard, kontakta administratören för att kontrollera dina rättigheter.
 
-| Ikon/knapp | Beskrivning |
-|---|---|
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Dashboarden har nålats fast av en administratör och distribueras förmodligen till flera användare. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Klicka på ikonen längst upp till höger för att välja en dashboard som favorit. |
-| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klicka på knappen **Uppdatera** om du vill uppdatera data i alla figurer. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klicka för att komma åt olika funktioner. |
+### Funktionella rättigheter
 
-**Funktioner under knappen Uppgift:**
+Funktionella rättigheter tilldelas roller i **Inställningar och underhåll**. Dessa styr vem som kan dela och hantera dashboards.
 
-* [Skapa en ny dashboard eller duplicera][1]
+* **Dashboardadministratör:**
+  * Nåla fast dashboards till användare eller grupper
+* **Allmän administratör:**
+  * Uppdatera dashboards skapade av andra
+  * Kan inte ta bort dashboards de inte äger
+
+Endast **ägaren** av ett dashboard kan ta bort det.
+
+### Licensspecifika dashboardfunktioner
+
+| Licens | Inkluderade dashboards | Paneltyper |
+|---|---|---|
+| Alla CRM-planer | Status-dashboard med standardpaneler | Diagram, listor, stora siffror |
+| **Service** | Ärenden-dashboard | Paneler relaterade till ärenden |
+| **Marketing** (Essentials eller högre) | – | Utskick, formulärsvar, chattar |
+| **Sales Premium** | – | Prognoser, nyckeltal, säljmål, offerter |
+| **Sales eller Service Premium** | – | Aktivitetsövervakning (SAINT) |
+
+## Tips
+
+* Använd **favoriter** <i class="ph ph-star" aria-label="Star icon"></i> för att snabbt nå dina mest använda dashboards.
+
+## Relaterat innehåll
+
+* [Skapa ett nytt dashboard eller duplicera ett befintlig][1]
 * [Redigera ett dashboard][3]
-* [Lägg till figurer/Redigera layout][4]
-* Ta bort ett dashboard
-
-En dashboard kan bestå av valfritt antal figurer. Varje figur innehåller en grafisk eller numerisk framställning av SuperOffice-data.
-
-Det är de data som ligger bakom figurerna som gör dashboarden användbar. Lär dig hur du kommer åt informationen på din dashboard så att du får en tydlig översikt och kan prioritera nästa steg bättre.
-
-## Visa figurer och data
-
-* Klicka på data i en figur (till exempel en sektor i ett cirkeldiagram) för att visa underliggande data.
-
-* Placera muspekaren över en del av en figur för att visa källdata i en popup-ruta.
-
-* Klicka på dataetiketterna (text) under figuren för att dölja/visa specifika data i figurerna. Detta kan vara användbart om du vill skriva ut eller exportera figurer.
-
-* Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> i sidhuvudet för en figur och välj **Visa i helskärmsläge** för att öppna figuren i helskärmsläge. Praktiskt för figurer med mycket innehåll.
-
-### Granska bakomliggande data
-
-Följ anvisningarna i den här GIF-filen eller anvisningarna nedan för att se hur du kommer åt datauppgifterna bakom figurerna:
-
-![Visa data bakom diagrammet med en detaljgranskning av din dashboard -screenshot][img2]
-
-1. Öppna skärmen **Dashboard**.
-
-2. Välj relevant dashboard.
-
-3. Klicka på data i en figur (till exempel en kolumn i ett kolumndiagram). Ett nytt fönster visar posterna i den sektion som du klickade på.
-
-4. Här har du följande alternativ:
-
-    * Välj en post för att förhandsgranska den.
-
-    * Dubbelklicka på en post för att öppna den (eller välj en post och klicka på **Öppna**).
-
-    * Om du vill [kopiera posterna till ett urval][8] klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och väljer **Kopiera till urval**. Om du inte väljer några poster kopieras alla poster.
-
-5. Klicka på **Stäng** när du är klar.
+* [Redigera paneler][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
-[4]: add-tile.md
 [6]: working-with-tiles.md
-[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

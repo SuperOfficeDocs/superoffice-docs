@@ -1,133 +1,163 @@
 ---
 uid: help-nl-dashboard
 title: Dashboards
-description: SuperOffice Dashboard instellen in en vooraf gedefinieerde tegels gebruiken. Dashboards zijn ideaal voor alle gebruikers en managers. U kunt een overzicht krijgen van uw individuele werk of uw teamprestaties.
-keywords: dashboard
-author: SuperOffice RnD
-date: 07.04.2022
+description: SuperOffice Dashboards zijn ideaal voor gebruikers en managers. Krijg een overzicht van uw werk of de prestaties van uw team met vooraf gedefinieerde tegels of maak uw eigen dashboards.
+keywords: dashboard administrator, grafiek, rapport, dataset, groot getal, meter, dashboard, tegel
+author: Bergfrid Dias, Kirsti Aakerholt
+date: 03.26.2025
+version: 10.5.3
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Dashboard
+# Dashboards
+
+Dashboards in SuperOffice CRM geven u direct visueel inzicht in uw werk, de voortgang van uw team en belangrijke bedrijfsgegevens. Ze tonen kerncijfers en trends met behulp van tegels die gekoppeld zijn aan selecties of andere gegevensbronnen.
+
+Gebruik dashboards om activiteiten, verkoop, verzoeken en meer te volgen. U kunt vooraf gedefinieerde dashboards bekijken of uw eigen dashboards maken.
+
+![Verzoekendashboard -screenshot][img4]
 
 > [!NOTE]
-> Sommige functies die hier worden beschreven, vereisen specifieke functionele rechten of licenties.
+> Uw toegang tot dashboards en tegelgegevens is afhankelijk van uw gebruikersplan en toegewezen rechten.
 
-De functie **Dashboard** in SuperOffice CRM biedt u een snelle toegang tot de grafieken, rapporten en statistieken die het belangrijkst voor u zijn. U kunt kiezen uit een breed scala aan vooraf gedefinieerde tegels en ook tegels toevoegen uit dynamische selecties of uw eigen tegels maken.
+## Wat is een dashboard?
 
-Dashboards worden boven aan het scherm als tabbladen weergegeven. Vastgemaakte dashboards en dashboards die als favoriet zijn ingesteld, worden hier weergegeven, naast het meest recent gebruikte dashboard. Als u andere dashboards wilt bekijken waartoe u toegang hebt, zoekt u in de navigator.
+Een dashboard is een aanpasbare weergave van uw CRM-gegevens. Het toont een of meerdere tegels – kleine visuele rapporten met samenvattingen, aantallen of grafieken op basis van uw gegevens. Dashboards helpen u om sneller beslissingen te nemen.
 
-![Uw dashboard aanpassen om deze waardevoller voor u te maken -screenshot][img4]
+Elke tegel bevat een grafische of numerieke weergave van SuperOffice-gegevens. De gegevens achter de tegels maken een dashboard waardevol.
 
-## Terminologie
+### Terminologie
 
-* **Dashboard:** Een dashboard is een manier om verschillende soorten visuele gegevens op één plek weer te geven. Meestal is een dashboard bedoeld om verschillende, maar gerelateerde informatie over te brengen in een gemakkelijk te begrijpen vorm.
+* **Dashboard:** Een scherm waarin CRM-gegevens visueel worden weergegeven via een of meerdere tegels.
+* **Tegel:** Een configureerbaar paneel in een dashboard. Tegels kunnen grafieken, lijsten of cijfers tonen.
+* **Grafiek:** Een grafische visualisatie van tegelgegevens, zoals een taart- of staafdiagram.
+* **Dataset:** De onderliggende gegevensbron van een tegel. Meestal gebaseerd op zoekcriteria.
 
-* **Rapporten:** een lijst of selectie die in een tegel wordt weergegeven
+## Uw dashboards openen
 
-* **Tegels:** Verstelbaar vierkant dat verschillende gegevens in uw dashboard kan visualiseren.
+Selecteer **Dashboard** in de navigator om het dashboardscherm te openen. U hebt toegang tot:
 
-  * **Type grafieken:** Een grafiek is een grafische weergave voor gegevensvisualisatie (ook wel grafieken genoemd).
-  * **Lijst:** Een lijst met een gedefinieerde selectie.
-  * **Groot weergegeven getallen:** Hiermee kunt u een belangrijke geaggregeerde statistiek of KPI (key performance indicator) benadrukken.
-  * **Webpaneel:**  Een url/webpagina weergeven in een tegel.
-  * **HTML-code:** HTML-code in een tegel weergeven.
+* **Vastgemaakte dashboards:** Door een beheerder gedeeld
+* **Favoriete dashboards:** Gemarkeerd met een ster
+* **Eigen dashboards:** Door uzelf gemaakte dashboards
 
-* **Dataset:** Selectie van gegevens die in de tegel worden weergegeven, zoals een dynamische selectie met zoekcriteria.
+Standaard is een dashboard met de naam **Status** beschikbaar en vastgemaakt. Dit bevat tegels met vooraf gedefinieerde grafieken en belangrijke cijfers. Als u het SuperOffice Service-plan hebt, is een tweede dashboard genaamd **Verzoeken** ook beschikbaar.
 
-* **Opmaak:** De instellingen wijzigen om aan te passen hoe de gegevens in een tegel worden weergegeven.
+U kunt extra dashboards maken of bestaande dupliceren en aanpassen.
 
-* **Dashboard-tabbladen:** Elk tabblad bevat een dashboard met verschillende tegels met verschillende gegevens die inzicht kunnen bieden en als leidraad voor besluitvorming kunnen dienen.
+Vastgemaakte en favoriete dashboards worden bovenaan het scherm weergegeven, samen met het laatst gebruikte dashboard. Gebruik het zoekveld in de navigator om andere beschikbare dashboards te vinden.
+
+| Pictogram | Beschrijving |
+|---|---|
+| <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Vastgemaakt dashboard. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favoriet dashboard. Klik om in/uit te schakelen. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Alle tegelgegevens vernieuwen. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Actiemenu voor dashboardopties. |
 
 ## Tegels
 
-In SuperOffice Dashboard hebt u veel van de [vooraf gedefinieerde standaardtegels][6] om uit te kiezen en grafieken die zijn gekoppeld aan dynamische selecties . De tegels vallen in acht verschillende categorieën: Bedrijf, Persoon, Vervolgactiviteit-up, Verkoop, Project, Document, Product en Verzoek.
+Tegels vormen de bouwstenen van een dashboard. Gegevens in tegels zijn meestal gerelateerd aan u, uw groepen en een bepaalde periode (bijv. deze maand of de afgelopen 6 maanden).
 
-Elke tegel in een dashboard bevat een grafiek, een lijst of een nummer. Een dashboard kan meerdere tegels bevatten.
+Een tegel kan het volgende tonen:
 
-De tegels kunnen ook worden aangepast om alleen gegevens van selecties weer te geven. Toegangsrechten en vertrouwelijkheid zijn van toepassing op de tegelgegevens, daarom zullen tegels alleen informatie weergeven waartoe u toegang hebt. Tegelgegevens zijn met name gerelateerd aan u of uw groepen en aan een specifieke periode (zoals deze maand, laatste 6 maanden)
+* Een **grafiek**, zoals een kolom- of taartdiagram. Grafieken visualiseren gegevens.
+* Een **lijst** met maximaal 100 records uit een selectie
+* Een **groot getal**, bijvoorbeeld totale verkoop. Beklemtoont een KPI.
+* Een **webpaneel** dat een URL laadt
+* **HTML-inhoud**, rechtstreeks opgemaakt binnen de tegel
 
-Er zijn verschillende typen grafieken:
+U kunt vooraf gedefinieerde tegels toevoegen of zelf tegels aanmaken.
 
-| Type | Beschrijving |
-|---|---|
-| Taart | Een cirkelvormige grafiek. |
-| Kolom | In een kolomdiagram wordt de waarde van de variabele verticaal weergegeven. |
-| Staaf | In een staafdiagram wordt de waarde van de variabele verticaal weergegeven. |
-| Regel | Een reeks gegevenspunten met een doorlopende lijn. |
-| Entiteit | Een grafiek die een lijndiagram en een staafdiagram combineert. |
-| Meter | Ook bekend als wijzerplaatdiagrammen of snelheidsmeterkaarten. Er worden naalden gebruikt om informatie weer te geven als een meting op een wijzerplaat. |
-| Kolom + lijn | (2 assen) Een diagram met twee assen dat een kolom- en lijndiagram combineert. |
-| Staaf + lijn | (2 assen) Een diagram met twee assen dat een staaf- en lijndiagram combineert. |
+## <a id="charts"></a>Grafiektypen
 
-### Extra tabbladen maken
+Het type grafiek bepaalt hoe de gegevens in de tegel worden weergegeven.
 
-Standaard is slechts één dashboardtabblad met de naam Status ingesteld. Dit bevat vier tegels met voorgedefinieerde grafieken. U kunt dit tabblad bewerken en/of extra dashboardtabbladen toevoegen, waar u alle tegels en grafieken van uw keuze kunt presenteren.
+| Pictogram | Type | Beschrijving |
+|:-:|---|---|
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Taartdiagram | Cirkelvormige grafiek. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Groot getal | Groot cijfer met vergelijking mogelijk. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Lijst | Maximaal 100 records. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolomdiagram | Toont waarden verticaal. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Staafdiagram | Toont waarden horizontaal. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Lijndiagram (Regel) | Reeks gegevenspunten met een lijn. |
+| <i class="ph ph-chart-line-up ph-fill" aria-label="Line chart"></i> | Gebiedsgrafiek (Entiteit) | Combinatie van lijn- en kolomdiagram. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Meter | Visualisatie met wijzer op een schaal. Ook bekend als wijzerplaatdiagrammen of snelheidsmeterkaarten. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Kolom + lijn (2 assen) | Diagram met dubbele assen. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Staaf + lijn (2 assen) | Diagram met dubbele assen. |
+
+## Tegels bekijken en ermee werken
+
+Elke tegel toont realtimegegevens uit de bron. U kunt met tegels interageren om dieper in te zoomen op de gegevens.
+
+* **Beweeg de muisaanwijzer** over grafiekelementen om extra details te zien.
+* **Klik op een waarde in de legenda** (gegevenslabels) om gegevensreeksen te tonen/verbergen.
+* Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Weergeven op volledig scherm** om de tegel uit te vergroten.
+
+    ![Tegelmenu -screenshot][img1]
+
+* **Klik op gegevenspunten** (zoals een kolom of taartsegment) om gerelateerde records in een nieuw venster te bekijken.
+
+In de detailweergave:
+
+* Selecteer een record om een voorbeeld te zien.
+* Dubbelklik om het record te openen, of klik op **Openen**.
+* Klik op <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> en kies **Kopiëren naar selectie** om records toe te voegen. Indien niets geselecteerd is, worden alle records gekopieerd.
+
+![Onderliggende gegevens bekijken -screenshot][img2]
+
+## Vereisten
+
+Dashboardfuncties zijn afhankelijk van uw rechten en licentieniveau. Alle gebruikers kunnen:
+
+* Dashboards bekijken die voor hen zijn vastgemaakt of gedeeld
+* Eigen dashboards maken, bewerken en verwijderen
 
 > [!NOTE]
-> Toegangsrechten en vertrouwelijkheid zijn van toepassing op de tegelgegevens, daarom zullen tegels alleen informatie weergeven waartoe u toegang hebt.
+> Tegels tonen alleen gegevens waartoe u toegang hebt.
 
-## Opties in het scherm Dashboard
+Kunt u geen dashboard bewerken of vastmaken? Vraag uw beheerder om uw rechten te controleren.
 
-| Pictogram / knop | Beschrijving |
-|---|---|
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Het dashboard wordt vastgemaakt door een beheerder en wordt waarschijnlijk gedistribueerd naar meerdere gebruikers. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Klik op de ster in de rechterbovenhoek om een dashboard als favoriet in te stellen. |
-| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klik op de knop **Vernieuwen** om de gegevens in alle tegels bij te werken. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Klik om toegang te krijgen tot verschillende functies. |
+### Functionele rechten
 
-**Functies op de taakknop:**
+Functionele rechten worden toegewezen aan gebruikersrollen in **Instellingen en onderhoud**. Ze bepalen wie dashboards kan beheren en delen.
 
-* [Een nieuw dashboard maken of dupliceren][1]
+* **Dashboardbeheerder:**
+  * Dashboards vastmaken voor gebruikers of groepen
+* **Algemene beheerder:**
+  * Dashboards van anderen bijwerken
+  * Kan geen dashboards verwijderen die hij/zij niet bezit
+
+Alleen de **eigenaar** van een dashboard kan het verwijderen.
+
+### Licentiespecifieke dashboardfuncties
+
+| Licentie | Inbegrepen dashboards | Tegeltypes |
+|---|---|---|
+| Alle CRM-plannen | Status-dashboard met standaardtegels | Grafieken, lijsten, grote getallen |
+| **Service** | Verzoeken-dashboard | Verzoekgerelateerde tegels |
+| **Marketing** (Essentials of hoger) | – | Mailings, formulierinzendingen, chats |
+| **Sales Premium** | – | Prognoses, KPI’s, verkoopdoelen, offertes |
+| **Sales of Service Premium** | – | Activiteitsmonitoren (SAINT) |
+
+## Tips
+
+* Gebruik **favorieten** <i class="ph ph-star" aria-label="Star icon"></i> om snel toegang te krijgen tot uw meest gebruikte dashboards.
+
+## Gerelateerde inhoud
+
+* [Een nieuw dashboard maken of een bestaand dupliceren][1]
 * [Een dashboard bewerken][3]
-* [Tegels toevoegen/Opmaak bewerken][4]
-* Een dashboard verwijderen
-
-Een dashboard kan uit een willekeurig aantal tegels bestaan. Elke tegel bevat een grafische of numerieke weergave van SuperOffice-gegevens.
-
-Het zijn de gegevens die achter de tegels liggen die een dashboard nuttig maken. Leer hoe u toegang krijgt tot de informatie in uw dashboard, zodat u een duidelijk overzicht krijgt en uw volgende stappen beter kunt rangschikken.
-
-## Tegels en gegevens weergeven
-
-* Klik op gegevens in een tegel (bijvoorbeeld een sector in een cirkeldiagram) om de onderliggende gegevens weer te geven.
-
-* Plaats de muisaanwijzer op een gedeelte van een tegel om de brongegevens in een pop-upvenster weer te geven.
-
-* Klik op de gegevenslabels (legenda) onder de tegel om specifieke gegevens in de tegels te verbergen/weer te geven. Dit kan handig zijn voor het afdrukken of exporteren van de tegels.
-
-* Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> in de koptekst van een tegel en selecteer **Weergeven op volledig scherm** om de tegel op het volledige scherm te openen. Handig voor tegels met veel inhoud.
-
-### Onderliggende gegevens onderzoeken
-
-Volg de stappen in deze GIF of de onderstaande stappen om te zien hoe u toegang krijgt tot de gegevens achter de tegels:
-
-![Onthul de gegevens achter uw grafiek met inzoomen op het dashboard -screenshot][img2]
-
-1. Open het scherm **Dashboard**.
-
-2. Selecteer het relevante dashboard.
-
-3. Klik op gegevens in een tegel (bijvoorbeeld een kolom in een kolomdiagram). In een nieuw venster worden de records weergegeven van de sectie waarop u hebt geklikt.
-
-4. U hebt hier de volgende opties:
-
-    * Selecteer een record om er een voorbeeldweergave van te bekijken.
-
-    * Dubbelklik op een record om deze te openen (of selecteer een record en klik op **Openen**).
-
-    * Als u [de records naar een selectie wilt kopiëren][8], klikt u op <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> en selecteert u **Kopiëren naar selectie**. Als u geen records selecteert, worden alle records gekopieerd.
-
-5. Klik op **Sluiten** wanneer u klaar bent.
+* [Tegels bewerken][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
-[4]: add-tile.md
 [6]: working-with-tiles.md
-[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
-<!-- Referenced images -->
+[img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

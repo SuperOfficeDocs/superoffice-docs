@@ -14,7 +14,7 @@ language: en
 
 # Dashboards
 
-Dashboards in SuperOffice CRM give you instant visual insight into your work, your team's progress, and key company metrics. They display key numbers and trends using tiles linked to selections or other data sources.
+Dashboards in SuperOffice CRM give you instant visual insight into your work, your team's progress, and key company metrics. They display key numbers and trends using tiles linked to typical searches or other data sources.
 
 Use dashboards to track activities, sales, requests, and more. You can view pre-defined dashboards or create your own.
 
@@ -34,7 +34,7 @@ Each tile contains a graphical or numerical representation of SuperOffice data. 
 * **Dashboard:** A screen that displays CRM data visually using one or more tiles.
 * **Tile:** A configurable panel in a dashboard. Tiles can show charts, lists, or numbers.
 * **Chart:** A graphical representation of tile data, such as a pie chart or bar chart.
-* **Dataset:** The underlying data source for a tile. Usually based on a dynamic selection.
+* **Dataset:** The underlying data source for a tile, typically based on criteria.
 
 ## Access your dashboards
 
@@ -64,10 +64,10 @@ Tiles are the building blocks of a dashboard. Tile data typically relates to you
 A tile can show:
 
 * A **chart**, such as a bar or pie chart. Charts are graphical visualizations of data, sometimes called a graph.
-* A **list** of up to 100 records from a selection
+* A **list** of up to 100 records from a selection.
 * A **big number**, such as total sales. Highlights a key performance indicator (KPI).
-* A **web panel** that loads a URL
-* **HTML content**, formatted directly in the tile
+* A **web panel** that loads a URL.
+* **HTML content**, formatted directly in the tile.
 
 You can add pre-defined tiles or create your own.
 
@@ -94,7 +94,7 @@ Each tile shows a snapshot of real-time data from its source. You can interact w
 
 * **Hover** over chart areas to view tooltips with more detail.
 * **Click a value in the chart legend** to show or hide data series. This is useful when printing or exporting tiles.
-* To **expand a tile**, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **View in full screen**.
+* To **expand a tile**, click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **View in full screen**.
 
     ![Tile Task menu -screenshot][img1]
 
@@ -104,7 +104,7 @@ In the drill-down view:
 
 * Select a record to preview it.
 * Double-click a record to open it, or select a record and click **Open**.
-* Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
+* Click <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> and select **Copy into selection** to copy one or more records for follow-up. If no records are selected, the entire result set is copied.
 
 ![Drill down to underlying data -screenshot][img2]
 
@@ -149,8 +149,8 @@ Only the **owner** of a dashboard can delete it.
 ## Related content
 
 * [Create a new dashboard or duplicate an existing one][1]
-* [Edit a dashboard][3]
-* [Add tiles / Edit layout][6]
+* [Edit dashboard settings][3]
+* [Edit dashboard tiles][6]
 
 <!-- Referenced links -->
 [1]: create.md

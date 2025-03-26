@@ -1,132 +1,163 @@
 ---
 uid: help-de-dashboard
-title: "Dashboards:"
-description: Richten Sie das SuperOffice Dashboard ein und verwenden Sie vordefinierte Kacheln. Dashboards sind gleichermaßen ideal für alle Benutzer und Manager. Sie erhalten einen Überblick über Ihre individuelle Arbeit oder Ihre Teamleistung.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Dashboard
+title: Dashboards
+description: SuperOffice Dashboards sind ideal für Benutzer und Manager. Verschaffen Sie sich einen Überblick über Ihre Arbeit oder die Leistung Ihres Teams mit vordefinierten Kacheln oder erstellen Sie eigene.
+keywords: dashboard administrator, diagramm, bericht, datensatz, große zahl, messanzeige, dashboard, kachel
+author: Bergfrid Dias
+date: 03.26.2025
+version: 10.5.3
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Dashboard
+# Dashboards
+
+Dashboards in SuperOffice CRM bieten Ihnen sofortige visuelle Einblicke in Ihre Arbeit, den Fortschritt Ihres Teams und wichtige Unternehmenskennzahlen. Sie zeigen Schlüsseldaten und Trends in Kacheln an, die mit Selektionen oder anderen Datenquellen verknüpft sind.
+
+Verwenden Sie Dashboards, um Aktivitäten, Verkäufe, Anfragen und mehr zu verfolgen. Sie können vordefinierte Dashboards anzeigen oder eigene erstellen.
+
+![Anfragendashboard -screenshot][img4]
 
 > [!NOTE]
-> Für einige der hier beschriebenen Funktionen sind spezielle funktionelle Rechte oder Lizenzen erforderlich.
+> Ihr Zugriff auf Dashboards und Kacheldaten hängt von Ihrem Benutzerplan und den zugewiesenen Rechten ab.
 
-Das **Dashboard** in SuperOffice CRM ermöglicht den schnellen Zugriff auf Diagramme, Berichte und Statistiken, die für Sie besonders wichtig sind. Sie können von einer breiten Palette an vordefinierten Kacheln auswählen und auch Kacheln aus dynamischen Selektionen hinzufügen oder eigene Diagramme erstellen.
+## Was ist ein Dashboard?
 
-Dashboards werden als Registerkarten oben in der Ansicht angezeigt. Hier werden angeheftete Dashboards und als Favoriten eingestellte Dashboards zusätzlich zum zuletzt verwendeten Dashboard angezeigt. Suchen Sie im Navigator, um andere Dashboards anzuzeigen, auf die Sie Zugriff haben.
+Ein Dashboard ist eine anpassbare Ansicht Ihrer CRM-Daten. Es zeigt eine oder mehrere Kacheln – kleine visuelle Berichte, die Zusammenfassungen, Zählungen oder Diagramme basierend auf Ihren Daten anzeigen. Dashboards helfen Ihnen, informiert zu bleiben und schneller Entscheidungen zu treffen.
 
-![Personalisieren Sie Ihr Dashboard, damit es nützlicher für Sie wird -screenshot][img4]
+Jede Kachel enthält eine grafische oder numerische Darstellung von SuperOffice-Daten. Die Daten hinter den Kacheln machen ein Dashboard nützlich.
 
-## Terminologie
+### Terminologie
 
-* **Dashboard:** Ein Dashboard ist eine Möglichkeit, verschiedene Arten von visuellen Daten an einem Ort anzuzeigen. Normalerweise dient ein Dashboard dazu gedacht, verschiedene, aber verwandte Informationen in einer leicht verständlichen Form zu vermitteln.
+* **Dashboard:** Ein Bildschirm, der CRM-Daten visuell über eine oder mehrere Kacheln darstellt.
+* **Kachel:** Ein konfigurierbares Panel in einem Dashboard. Kacheln können Diagramme, Listen oder Zahlen anzeigen.
+* **Diagramm:** Eine grafische Darstellung von Kacheldaten, zum Beispiel ein Kreis- oder Balkendiagramm.
+* **Datensatz:** Die zugrunde liegende Datenquelle einer Kachel. In der Regel basierend auf Suchkriterien.
 
-* **Berichte:** eine Liste oder Selektion, die in einer Kachel angezeigt wird
+## Auf Ihre Dashboards zugreifen
 
-* **Kacheln:** Einstellbares Quadrat, das verschiedene Daten in Ihrem Dashboard anzeigen kann.
+Wählen Sie **Dashboard** im Navigator, um den Dashboard-Bildschirm zu öffnen. Sie haben Zugriff auf:
 
-  * **Diagrammtyp:** Ein Diagramm ist eine grafische Darstellung zur Datenvisualisierung (wird manchmal auch als Diagramme bezeichnet).
-  * **Liste:** Eine Liste, die eine definierte Auswahl anzeigt.
-  * **Diagramm mit großen Zahlen:** Hiermit können Sie eine wichtige aggregierte Metrik oder einen KPI (Key Performance Indicator) hervorheben.
-  * **Web-Bildschirm:**  Zeigt eine URL/Webseite in einer Kachel an.
-  * **HTML-Code:** Zeigt einen HTML-Code in einer Kachel an.
+* **Angeheftete Dashboards:** Vom Administrator zugewiesen
+* **Favoriten-Dashboards:** Mit einem Sternsymbol markiert
+* **Eigene Dashboards:** Von Ihnen erstellte Dashboards
 
-* **Datensatz:** Auswahl der Daten, die in der Kachel angezeigt werden, wie zum Beispiel eine dynamische Selektion mit Suchkriterien.
+Standardmäßig ist ein Dashboard namens **Status** verfügbar und angeheftet. Es enthält Kacheln mit vordefinierten Diagrammen und Kennzahlen. Wenn Sie den SuperOffice Service-Plan haben, steht auch ein weiteres Dashboard namens **Anfragen** zur Verfügung.
 
-* **Layout:** Ändern Sie die Einstellungen, um anzugleichen, wie die Daten in einer Kachel angezeigt werden.
+Sie können zusätzliche Dashboards erstellen oder bestehende duplizieren, um diese anzupassen.
 
-* **Registerkarte Dashboard:** Jede Registerkarte enthält ein Dashboard, das verschiedene Kacheln mit unterschiedlichen Daten anzeigt, die Einblicke geben und als Entscheidungshilfe dienen können.
+Angeheftete und favorisierte Dashboards werden oben auf dem Bildschirm zusammen mit dem zuletzt verwendeten angezeigt. Verwenden Sie das Suchfeld im Navigator, um andere verfügbare Dashboards zu finden.
+
+| Symbol | Beschreibung |
+|---|---|
+| <i class="ph ph-push-pin" aria-label="Pin icon"></i> | Angeheftetes Dashboard. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favoriten-Dashboard. Klicken, um umzuschalten. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Alle Kacheldaten aktualisieren. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> | Aufgabenmenü für Dashboard-Aktionen. |
 
 ## Kacheln
 
-Im SuperOffice Dashboard stehen Ihnen viele [vordefinierte Standardkacheln][6] zur Auswahl und Diagramme, die mit dynamischen Selektionen verknüpft sind. Die Kacheln in acht verschiedene Kategorien unterteilbar: Firma, Person, Folgeaufgabe, Verkauf, Projekt, Dokument, Produkt und Anfrage.
+Kacheln sind die Bausteine eines Dashboards. Kacheldaten beziehen sich normalerweise auf Sie, Ihre Gruppen und einen bestimmten Zeitraum (z. B. diesen Monat oder die letzten 6 Monate).
 
-Jede Kachel in einem Dashboard enthält entweder ein Diagramm, eine Liste oder eine Zahl. Ein Dashboard kann mehrere Kacheln enthalten.
+Eine Kachel kann anzeigen:
 
-Die Kacheln können so angepasst werden, dass sie nur Daten aus Selektionen zeigen. Da die Kacheldaten Zugriffsrechten und Vertraulichkeitsregeln unterliegen, werden in den Kacheln nur Informationen angezeigt, auf die Sie Zugriff haben. Die Kacheldaten betreffen üblicherweise Sie oder Ihre Gruppen und stammen aus einem bestimmten Zeitraum (wie in diesem Monat, in den letzten 6 Monaten).
+* Ein **Diagramm**, wie ein Balken- oder Kreisdiagramm. Diagramme sind visuelle Darstellungen von Daten.
+* Eine **Liste** mit bis zu 100 Datensätzen aus einer Selektion.
+* Eine **große Zahl**, z. B. Gesamtumsatz. Hebt eine wichtige Kennzahl (KPI) hervor.
+* Ein **Web-Bildschirm**, der eine URL lädt.
+* **HTML-Inhalt**, direkt in der Kachel formatiert.
 
-Zur Auswahl stehen folgende Diagrammtypen:
+Sie können vordefinierte Kacheln hinzufügen oder eigene erstellen.
 
-| Typ | Beschreibung |
-|---|---|
-| Kreis | Ein Tortendiagramm. |
-| Spalte | In einem Säulendiagramm wird der Variablenwert vertikal ausgegeben. |
-| Balken | In einem Balkendiagramm wird der Variablenwert horizontal ausgegeben. |
-| Linie | Eine Reihe von Datenpunkten mit einer kontinuierlichen Linie. |
-| Bereich | Ein Diagramm, das ein Liniendiagramm und ein Balkendiagramm kombiniert. |
-| Messanzeige | Sie ist auch als Skalen- oder Tachodiagramme bekannt und benutzt Nadeln, um Informationen als Messwert auf einem Zifferblatt anzuzeigen. |
-| Spalte + Linie | (2 Achsen) Ein Diagramm mit zwei Achsen, das ein Säulen- und ein Liniendiagramm kombiniert. |
-| Balken + Linie | (2 Achsen) Ein Diagramm mit zwei Achsen, das ein Balken- und ein Liniendiagramm kombiniert. |
+## <a id="charts"></a>Diagrammtypen
 
-### Zusätzliche Registerkarten erstellen
+Der Diagrammtyp bestimmt, wie die Daten in der Kachel angezeigt werden.
 
-Standardmäßig ist nur eine Dashboard-Registerkarte mit dem Namen Status eingerichtet. Sie enthält verschiedene Kacheln mit vordefinierten Diagrammen. Sie können diese Registerkarte bearbeiten und/oder zusätzliche Dashboard-Registerkarten hinzufügen, auf denen Sie alle Kacheln und Diagramme Ihrer Wahl darstellen können.
+| Symbol | Typ | Beschreibung |
+|:-:|---|---|
+| <i class="ph ph-chart-pie" aria-label="Pie chart"></i> | Kreisdiagramm/Tortendiagramm | Ein rundes Diagramm. |
+| <i class="ph ph-number-square-three" aria-label="Big numbers"></i> | Große Zahl | Große Zahl mit Vergleichsoption. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Liste | Listendarstellung mit maximal 100 Elementen. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Säulendiagramm (Spalte) | Zeigt Werte vertikal. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Balkendiagramm | Zeigt Werte horizontal. |
+| <i class="ph ph-chart-line-up" aria-label="Line chart"></i> | Liniendiagramm | Serie von Datenpunkten mit durchgezogener Linie. |
+| <i class="ph ph-chart-line-up ph-fill" aria-label="Line chart"></i> | Flächendiagramm (Bereich) | Kombination aus Linien- und Balkendiagramm. |
+| <i class="ph ph-gauge" aria-label="Gauge chart icon"></i> | Messanzeige | Zeigt Werte mit Zeigern auf einer Skala. Auch als Skalen- oder Tachodiagramme bekannt. |
+| <i class="ph ph-chart-bar" aria-label="Column chart"></i> | Säule + Linie (2 Achsen) | Kombiniertes diagramm mit zwei Achsen. |
+| <i class="ph ph-chart-bar-horizontal" aria-label="Bar chart"></i> | Balken + Linie (2 Achsen) | Kombiniertes Diagramm mit zwei Achsen. |
+
+## Kacheln anzeigen und verwenden
+
+Jede Kachel zeigt einen Schnappschuss von Echtzeitdaten. Sie können mit Kacheln interagieren, um zugrunde liegende Daten zu erkunden.
+
+* **Fahren Sie mit der Maus über** Diagrammbereiche, um Tooltips mit Details anzuzeigen.
+* **Klicken Sie auf einen Wert in der Legende** (die Datenbezeichnungen), um Datenreihen ein- oder auszublenden. Dies kann zum Drucken oder Exportieren von Kacheln nützlich sein.
+* Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **Vollbild anzeigen**, um die Kachel zu vergrößern.
+
+    ![Kachel-Menü -screenshot][img1]
+
+* **Klicken Sie auf Datenpunkte** (z. B. Balken oder Kreisabschnitte), um die Quelldatensätze in einem neuen Fenster anzuzeigen.
+
+Im Drilldown-Fenster:
+
+* Wählen Sie einen Datensatz zur Vorschau aus.
+* Doppelklicken Sie zum Öffnen oder klicken Sie auf **Öffnen**.
+* Klicken Sie auf <i class="ph ph-dots-three-vertical" aria-label="Task menu"></i> und wählen Sie **In Selektion kopieren**, um Datensätze zu übernehmen. Ohne Auswahl werden alle kopiert.
+
+![Drilldown zu Basisdaten -screenshot][img2]
+
+## Anforderungen
+
+Dashboard-Funktionen hängen von Ihren funktionellen Rechten und Ihrem Lizenzlevel ab. Alle Benutzer können:
+
+* Dashboards anzeigen, die für sie angeheftet oder freigegeben wurden
+* Eigene Dashboards erstellen, anpassen und löschen
 
 > [!NOTE]
-> Da die Kacheldaten Zugriffsrechten und Vertraulichkeitsregeln unterliegen, werden in den Kacheln nur Informationen angezeigt, auf die Sie Zugriff haben.
+> Kacheln zeigen nur Daten an, auf die Sie Zugriff haben.
 
-## Optionen in der Ansicht Dashboard
+Wenn Sie kein Dashboard bearbeiten oder anheften können, wenden Sie sich an Ihren Administrator.
 
-| Symbol/Schaltfläche | Beschreibung |
-|---|---|
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Das Dashboard wird von einem Administrator angeheftet und wahrscheinlich an mehrere Benutzer verteilt. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Klicken Sie auf den Stern in der Ecke oben rechts, um ein Dashboard als Favoriten festzulegen. |
-| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klicken Sie auf die Schaltfläche **Aktualisieren**, um die Daten in allen Kacheln zu aktualisieren. |
-| <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> | Klicken Sie darauf, um auf verschiedene Funktionen zuzugreifen. |
+### Funktionelle Rechte
 
-**Funktionen auf der Schaltfläche Aufgabe:**
+Funktionelle Rechte werden Rollen in **Einstellungen und Verwaltung** zugewiesen. Sie steuern, wer Dashboards freigeben und verwalten kann.
 
-* [Dashboard erstellen oder duplizieren][1]
-* [Dashboards bearbeiten][3]
-* [Kacheln hinzufügen/Layout bearbeiten][4]
-* Dashboards löschen
+* **Dashboard-Administrator:**
+  * Dashboards für Benutzer oder Gruppen anheften
+* **Allgemeiner Administrator:**
+  * Dashboards anderer Benutzer aktualisieren
+  * Kann keine Dashboards löschen, die er nicht besitzt
 
-Dashboards können beliebig viele Kacheln enthalten. Jede Kachel enthält eine grafische oder numerische Darstellung von SuperOffice-Daten.
+Nur der **Eigentümer** eines Dashboards kann es löschen.
 
-Die Daten in den Kacheln machen die Nützlichkeit des Dashboards aus. Lernen Sie, wie Sie auf die Information in Ihrem Dashboard zugreifen können, damit Sie sich einen klaren Überblick verschaffen und die Prioritäten für Ihre nächsten Schritte besser setzen können.
+### Lizenzspezifische Dashboard-Funktionen
 
-## Kacheln und Daten anzeigen
+| Lizenz | Inklusive Dashboards | Kacheltypen |
+|---|---|---|
+| Alle CRM-Pläne | Status-Dashboard mit Standardkacheln | Diagramme, Listen, große Zahlen |
+| **Service** | Anfragen-Dashboard | Anfragebezogene Kacheln |
+| **Marketing** (Essentials oder höher) | – | Mailings, Formularantworten, Chats |
+| **Sales Premium** | – | Prognosen, KPIs, Verkaufsziele, Angebote |
+| **Sales oder Service Premium** | – | Aktivitätsüberwachung (SAINT) |
 
-* Klicken Sie auf Daten in einer Kachel (beispielsweise einen Sektor in einem Kreisdiagramm), um die zugrunde liegenden Daten anzuzeigen.
+## Tipps
 
-* Stellen Sie den Mauszeiger über einen Bereich einer Kachel, um die Quelldaten in einem Popup-Fenster anzuzeigen.
+* Verwenden Sie **Favoriten** <i class="ph ph-star" aria-label="Star icon"></i>, um Ihre wichtigsten Dashboards schnell zu öffnen.
 
-* Klicken Sie auf die Datenbezeichnungen (Legende) unter der Kachel, um die betreffenden Daten in den Kacheln aus- bzw. einzublenden. Dies kann zum Drucken oder Exportieren von Kacheln nützlich sein.
+## Verwandte Inhalte
 
-* Klicken Sie <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Kopfzeile einer Kachel und wählen Sie **Vollbildansicht anzeigen** aus, um die Kachel als Vollbild zu öffnen. Dies ist für Kacheln mit viel Inhalt nützlich.
-
-### Basisdaten untersuchen
-
-Befolgen Sie die folgenden Schritte in diesem GIF oder die folgenden Schritte, um zu sehen, wie Sie auf die Daten zugreifen können, auf denen die Kacheln basieren:
-
-![Legen Sie die Daten offen, auf denen das Diagramm mit einem Dashboard-Drill-Down basiert -screenshot][img2]
-
-1. Öffnen Sie die Ansicht **Dashboard**.
-
-2. Wählen Sie das betreffende Dashboard aus.
-
-3. Klicken Sie auf Daten in einer Kachel (beispielsweise eine Säule in einem Säulendiagramm). In einem neuen Fenster werden die Datensätze in dem Bereich angezeigt, auf den Sie geklickt haben.
-
-4. Sie haben hier die folgenden Optionen:
-
-    * Wählen Sie einen Datensatz aus, um ihn in der Vorschau anzuzeigen.
-
-    * Doppelklicken Sie auf einen Datensatz, um ihn zu öffnen (bzw. wählen Sie einen Datensatz aus und klicken Sie auf **Öffnen**).
-
-    * Um die Option [**Datensätze in eine Selektion kopieren**][8] auszuführen, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **In Selektion kopieren** aus. Wenn Sie keine Datensätze auswählen, werden alle Datensätze kopiert.
-
-5. Klicken Sie, sobald Sie fertig sind, auf **Schließen**.
+* [Ein neues Dashboard erstellen oder ein vorhandenes duplizieren][1]
+* [Ein Dashboard bearbeiten][3]
+* [Kacheln bearbeiten][6]
 
 <!-- Referenced links -->
 [1]: create.md
 [3]: update.md
-[4]: add-tile.md
 [6]: working-with-tiles.md
-[8]: ../../search-options/selection/learn/add-remove-members-static.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
+[img1]: ../../../media/loc/en/dashboard/tile-task-menu.png
 [img2]: ../../../media/loc/en/dashboard/10-drill-down.gif
+[img4]: ../../../media/loc/en/dashboard/dashboard-overview.png
