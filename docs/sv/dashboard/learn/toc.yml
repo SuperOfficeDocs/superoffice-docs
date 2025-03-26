@@ -5,11 +5,11 @@ items:
   href: create.md
 - name: Redigera/ta bort dashboard
   href: update.md
-- name: Arbeta med figurer
+- name: Arbeta med paneler
   href: working-with-tiles.md
-- name: Använda försäljningsmål i figurer
+- name: Använda försäljningsmål i paneler
   href: show-sales-targets.md
-- name: Använda utskick och formulär i figurer
+- name: Använda utskick och formulär i paneler
   href: show-marketing.md
-- name: Använda ärenden i figurer
+- name: Använda ärenden i paneler
   href: show-requests.md
