@@ -10,7 +10,7 @@ envir: cloud
 client: online
 ---
 
-# Creating Your First Application and Connecting to SuperOffice Web Services
+# Create Your First Application and Connect to SuperOffice Web Services
 
 This guide walks you through creating a new application in SuperOffice Online and using it to authenticate, obtain tokens, and finally make an API call to retrieve data.
 
