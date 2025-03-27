@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 94,
-  "Count": 295
+  "AmountLimit": 843,
+  "Count": 9
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Feil, Greenholt and Pollich",
-    "SaleDate": "2021-08-18T14:13:41.240351+02:00",
-    "SaleId": 400,
-    "Probability": 837,
-    "Title": "neque",
-    "Amount": 25821.025999999998,
-    "Currency": "provident",
-    "ProjectName": "Harris-Anderson",
-    "AssociateFullName": "Dan Howell",
-    "Description": "Customizable national strategy",
+    "ContactName": "Kling-Klein",
+    "SaleDate": "2009-01-17T02:38:21.8544876+01:00",
+    "SaleId": 407,
+    "Probability": 539,
+    "Title": "magnam",
+    "Amount": 14679.655999999999,
+    "Currency": "rerum",
+    "ProjectName": "Hintz Group",
+    "AssociateFullName": "Jalon Kuhlman",
+    "Description": "Versatile leading edge conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 22498.986,
-    "ProjectId": 420,
-    "EarningPercent": 28741.914,
-    "Earning": 31183.3,
-    "ContactId": 861,
-    "AssociateId": 486,
-    "PersonId": 708,
-    "SaleTypeId": 883,
-    "SaleTypeName": "Streich-Jewess",
-    "PersonFullName": "Kareem Geovany Prohaska V",
+    "WeightedAmount": 31123.753999999997,
+    "ProjectId": 100,
+    "EarningPercent": 19647.046,
+    "Earning": 4622.65,
+    "ContactId": 536,
+    "AssociateId": 441,
+    "PersonId": 432,
+    "SaleTypeId": 951,
+    "SaleTypeName": "Larkin, Lueilwitz and Schmidt",
+    "PersonFullName": "Nyasia Hahn",
     "Completed": "Completed",
-    "ActiveErpLinks": 412,
-    "NextDueDate": "2009-02-06T14:13:41.240351+01:00",
-    "Number": "1292933",
+    "ActiveErpLinks": 213,
+    "NextDueDate": "2024-04-26T02:38:21.8544876+02:00",
+    "Number": "1619590",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

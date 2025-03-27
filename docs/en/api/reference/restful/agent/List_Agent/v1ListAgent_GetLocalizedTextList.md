@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 313,
-    "ResourceId": 130,
-    "Text": "occaecati",
+    "LanguageId": 363,
+    "ResourceId": 155,
+    "Text": "nulla",
     "Type": "Column",
-    "LocalizedTextId": 189,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 544,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldType": "System.String",
+        "FieldLength": 110
       }
     }
   }

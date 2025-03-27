@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 935,
-    "Name": "Nikolaus-Welch",
-    "Tooltip": "non",
+    "HeadingId": 280,
+    "Name": "Dickinson, Lueilwitz and Rohan",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 106,
-    "UdListDefinitionId": 81,
+    "Rank": 786,
+    "UdListDefinitionId": 291,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 74
+        "FieldType": "System.Int32",
+        "FieldLength": 143
       }
     }
   }

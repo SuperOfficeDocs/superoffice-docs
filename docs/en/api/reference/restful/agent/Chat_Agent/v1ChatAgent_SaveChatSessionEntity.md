@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 952,
-  "TopicId": 208,
+  "ChatSessionId": 709,
+  "TopicId": 728,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Steuber LLC",
-  "CustomerEmail": "tess@purdy.us",
-  "CustomerPhone": "1-213-039-4989 x83201",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Schimmel, Dicki and Wyman",
+  "CustomerAlias": "possimus",
+  "CustomerHost": "rem",
+  "CustomerName": "Kub, Brown and Littel",
+  "CustomerEmail": "caterina@langworth.info",
+  "CustomerPhone": "023-796-8227",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Stark-Lakin",
   "Status": "Closed",
-  "FirstMessage": "repellendus",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2007-08-11T14:13:39.4379679+02:00",
-  "WhenStarted": "2008-06-08T14:13:39.4379679+02:00",
-  "WhenEnded": "2021-02-12T14:13:39.4379679+01:00",
-  "WhenIdle": "1998-11-23T14:13:39.4379679+01:00",
-  "WhenFetched": "2000-01-25T14:13:39.4379679+01:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 834,
-  "AlertLevel": 366,
-  "Rank": 936,
+  "FirstMessage": "aliquid",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2004-11-19T02:38:20.9170935+01:00",
+  "WhenStarted": "2016-12-11T02:38:20.9170935+01:00",
+  "WhenEnded": "2001-05-28T02:38:20.9170935+02:00",
+  "WhenIdle": "2012-04-17T02:38:20.9170935+02:00",
+  "WhenFetched": "2018-01-06T02:38:20.9170935+01:00",
+  "SessionKey": "ut",
+  "InitialQueuePos": 628,
+  "AlertLevel": 204,
+  "Rank": 98,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 580
+  "Rating": 826
 }
 ```
 
@@ -168,29 +168,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 212,
-  "TopicId": 918,
+  "ChatSessionId": 634,
+  "TopicId": 771,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "eum",
-  "CustomerName": "Feil-Gusikowski",
-  "CustomerEmail": "eloy@price.us",
-  "CustomerPhone": "(883)456-0947 x529",
+  "CustomerAlias": "nostrum",
+  "CustomerHost": "deleniti",
+  "CustomerName": "Toy Inc and Sons",
+  "CustomerEmail": "emmitt.bruen@nikolausreilly.com",
+  "CustomerPhone": "539-979-6361",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Johnson Inc and Sons",
+  "CustomerCompanyName": "Feeney, Conn and Stanton",
   "Status": "Closed",
-  "FirstMessage": "saepe",
-  "LastMessage": "nostrum",
-  "WhenRequested": "1998-11-01T14:13:39.4535892+01:00",
-  "WhenStarted": "2019-08-08T14:13:39.4535892+02:00",
-  "WhenEnded": "2000-04-19T14:13:39.4535892+02:00",
-  "WhenIdle": "2008-06-24T14:13:39.4535892+02:00",
-  "WhenFetched": "2002-10-04T14:13:39.4535892+02:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 681,
-  "AlertLevel": 996,
-  "Rank": 272,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "commodi",
+  "WhenRequested": "2012-09-28T02:38:20.9170935+02:00",
+  "WhenStarted": "2012-12-28T02:38:20.9170935+01:00",
+  "WhenEnded": "1999-01-28T02:38:20.9170935+01:00",
+  "WhenIdle": "2013-07-29T02:38:20.9170935+02:00",
+  "WhenFetched": "2006-12-14T02:38:20.9170935+01:00",
+  "SessionKey": "sed",
+  "InitialQueuePos": 611,
+  "AlertLevel": 219,
+  "Rank": 855,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +198,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 839,
+  "Rating": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 353
     }
   }
 }

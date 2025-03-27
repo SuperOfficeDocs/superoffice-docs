@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 402,
-  "FormId": 822,
-  "WhenSubmitted": "2003-09-20T14:13:40.5628193+02:00",
-  "ContactId": 77,
-  "PersonId": 301,
-  "EmailAddress": "anderson@bednar.ca",
-  "ResponseShipmentAddrId": 950,
-  "Response": "autem",
+  "FormSubmissionId": 142,
+  "FormId": 620,
+  "WhenSubmitted": "2002-05-22T02:38:21.5576497+02:00",
+  "ContactId": 585,
+  "PersonId": 215,
+  "EmailAddress": "deborah@hickle.us",
+  "ResponseShipmentAddrId": 205,
+  "Response": "sequi",
   "Status": "EmailVerification",
-  "ProcessingLog": "inventore",
+  "ProcessingLog": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 440
     }
   }
 }

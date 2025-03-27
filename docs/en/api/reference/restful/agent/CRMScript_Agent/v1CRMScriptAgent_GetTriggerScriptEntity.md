@@ -28,7 +28,7 @@ Gets a TriggerScriptEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=22
+POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?triggerScriptEntityId=844
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,22 +88,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 242,
-  "Name": "Rolfson-Stanton",
+  "ScreenChooserId": 333,
+  "Name": "Jaskolski Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "est",
-  "Source": "quia",
-  "Registered": "2018-09-12T14:13:39.9223399+02:00",
-  "RegisteredAssociateId": 3,
-  "Updated": "2000-08-10T14:13:39.9223399+02:00",
-  "UpdatedAssociateId": 955,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptas",
+  "Source": "ad",
+  "Registered": "2010-08-31T02:38:21.182685+02:00",
+  "RegisteredAssociateId": 740,
+  "Updated": "2012-08-22T02:38:21.182685+02:00",
+  "UpdatedAssociateId": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldLength": 802
     }
   }
 }

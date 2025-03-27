@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 741,
-  "EmailItemId": 3,
-  "AttachmentId": "et"
+  "DocumentId": 118,
+  "EmailItemId": 638,
+  "AttachmentId": "laudantium"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 118,
+  "DocumentId": 777,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "aut",
-  "Name": "White Group",
-  "OurRef": "ducimus",
-  "YourRef": "sed",
-  "CreatedDate": "2021-02-01T14:13:40.1879044+01:00",
-  "UpdatedDate": "2011-02-04T14:13:40.1879044+01:00",
-  "Description": "Devolved hybrid emulation",
+  "Attention": "maiores",
+  "Header": "voluptas",
+  "Name": "Reilly LLC",
+  "OurRef": "qui",
+  "YourRef": "et",
+  "CreatedDate": "2000-07-20T02:38:21.3389145+02:00",
+  "UpdatedDate": "2014-11-27T02:38:21.3389145+01:00",
+  "Description": "Innovative needs-based intranet",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-09-08T14:13:40.1879044+02:00",
-  "ExternalRef": "quibusdam",
+  "Date": "2016-11-12T02:38:21.3389145+01:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 648,
+  "ActiveLinks": 315,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Johns, Kutch and Hegmann",
-      "Id": 26,
-      "Description": "De-engineered empowering groupware",
-      "ExtraInfo": "facilis",
-      "LinkId": 124,
+      "EntityName": "Davis-Cormier",
+      "Id": 91,
+      "Description": "Configurable reciprocal intranet",
+      "ExtraInfo": "laudantium",
+      "LinkId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 441
+          "FieldLength": 84
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 684,
-  "Snum": 897,
+  "SuggestedDocumentId": 572,
+  "Snum": 765,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Alexandre Immanuel Langworth V",
-    "SuperOffice:2": "Patience Clementine Roberts Sr."
+    "SuperOffice:1": "Mr. Lorine Kreiger",
+    "SuperOffice:2": "Norwood O'Reilly"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2006-06-22T14:13:40.1879044+02:00",
-  "PublishTo": "2004-10-16T14:13:40.1879044+02:00",
-  "PublishFrom": "2002-05-06T14:13:40.1879044+02:00",
+  "PublishEventDate": "2020-08-02T02:38:21.3389145+02:00",
+  "PublishTo": "2023-02-19T02:38:21.3389145+01:00",
+  "PublishFrom": "2002-12-31T02:38:21.3389145+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 537,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 219
         }
       }
     },
     {
-      "VisibleId": 537,
+      "VisibleId": 441,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 219
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 469
     }
   }
 }

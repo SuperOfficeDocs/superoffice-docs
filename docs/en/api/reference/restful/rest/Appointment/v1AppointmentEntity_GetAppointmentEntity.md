@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -134,7 +134,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -142,127 +142,127 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 09 Aug 2001 14:13:48 G8T
+Last-Modified: Sun, 13 May 2007 02:38:25 G5T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-12-01T14:13:48.2414791+01:00",
-  "AppointmentId": 755,
-  "Description": "Future-proofed zero tolerance software",
-  "Title": "sit",
-  "Agenda": "sit",
-  "InternalNotes": "quo",
-  "StartDate": "2019-05-12T14:13:48.2414791+02:00",
-  "EndDate": "1998-05-20T14:13:48.2414791+02:00",
+  "CreatedDate": "2014-08-17T02:38:25.7923444+02:00",
+  "AppointmentId": 60,
+  "Description": "Function-based tangible productivity",
+  "Title": "quia",
+  "Agenda": "aut",
+  "InternalNotes": "voluptas",
+  "StartDate": "2000-12-22T02:38:25.7923444+01:00",
+  "EndDate": "2021-06-30T02:38:25.7923444+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 850,
+  "MotherId": 70,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-08-09T14:13:48.2414791+02:00",
+  "UpdatedDate": "2007-05-13T02:38:25.7923444+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 498,
+  "ActiveLinks": 175,
   "Links": [
     {
-      "EntityName": "Nolan-Nienow",
-      "Id": 260,
-      "Description": "Reduced dynamic local area network",
-      "ExtraInfo": "consequatur",
-      "LinkId": 119,
+      "EntityName": "Jast Group",
+      "Id": 402,
+      "Description": "Reverse-engineered bi-directional throughput",
+      "ExtraInfo": "atque",
+      "LinkId": 154,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 452
         }
       }
     }
   ],
-  "AlarmLeadTime": "est",
-  "HasAlarm": true,
-  "ColorIndex": 711,
+  "AlarmLeadTime": "explicabo",
+  "HasAlarm": false,
+  "ColorIndex": 296,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "animi",
-  "Location": "molestiae",
-  "RejectCounter": 344,
+  "IsAlldayEvent": true,
+  "LagTime": "aperiam",
+  "LeadTime": "et",
+  "Location": "error",
+  "RejectCounter": 102,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 72,
-      "PersonId": 514,
-      "ContactId": 975,
-      "EmailId": 285,
+      "AssociateId": 916,
+      "PersonId": 451,
+      "ContactId": 681,
+      "EmailId": 739,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "justus@little.name",
-      "Description": "Synergized optimal budgetary management"
+      "EmailAddress": "jevon.pfannerstill@runolfsdottir.co.uk",
+      "Description": "Multi-lateral human-resource customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-10-15T14:13:48.2414791+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-09-16T02:38:25.7923444+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 716,
+  "PreferredTZLocation": 40,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 34,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 89,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "distinctio",
+  "CentralserviceVideomeetId": "suscipit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Judge Maggio",
-    "SuperOffice:2": "1442839119"
+    "SuperOffice:1": "1811868174",
+    "SuperOffice:2": "Miss Genevieve Stokes"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "illo"
+    "CustomFields1": "porro",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2002-01-16T14:13:48.2414791+01:00",
-  "PublishTo": "2024-10-22T14:13:48.2414791+02:00",
-  "PublishFrom": "1999-07-06T14:13:48.2414791+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-07-28T02:38:25.7923444+02:00",
+  "PublishTo": "2006-05-06T02:38:25.7923444+02:00",
+  "PublishFrom": "2007-05-25T02:38:25.7923444+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 358,
+      "VisibleId": 368,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 239
         }
       }
     },
     {
-      "VisibleId": 358,
+      "VisibleId": 368,
       "Visibility": "All",
-      "DisplayValue": "veritatis",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 239
         }
       }
     }
@@ -272,7 +272,7 @@ Last-Modified: Thu, 09 Aug 2001 14:13:48 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 471
     }
   },
   "_Links": {

@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 456,
-  "ParentId": 254,
-  "Name": "Dibbert, Emard and Rosenbaum",
-  "Fullname": "dolores",
-  "CategoryMaster": 436,
+  "TicketCategoryId": 974,
+  "ParentId": 375,
+  "Name": "Lueilwitz, Wunsch and Luettgen",
+  "Fullname": "dolorem",
+  "CategoryMaster": 204,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Emmerich-Brekke",
+  "ExternalName": "Balistreri, Tremblay and Gutkowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 193,
-  "ReplyTemplate": 952,
-  "NotificationEmail": "aurelio.johnston@willms.uk",
+  "AssignmentLag": 453,
+  "ReplyTemplate": 360,
+  "NotificationEmail": "jesse@kleingibson.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 840,
+  "EffectiveReplyTemplateId": 416,
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "et"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "sint",
+    "CustomFields2": "occaecati"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 860,
-  "ParentId": 126,
-  "Name": "Larson-Grant",
-  "Fullname": "ut",
-  "CategoryMaster": 95,
+  "TicketCategoryId": 46,
+  "ParentId": 13,
+  "Name": "Towne, Rohan and Hackett",
+  "Fullname": "et",
+  "CategoryMaster": 814,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fay, Muller and Klocko",
+  "ExternalName": "Thompson-Hamill",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 522,
-  "ReplyTemplate": 378,
-  "NotificationEmail": "whitney@hilpert.us",
+  "AssignmentLag": 752,
+  "ReplyTemplate": 667,
+  "NotificationEmail": "coralie@wehner.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 257,
+  "EffectiveReplyTemplateId": 196,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "at",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "iste"
+    "CustomFields1": "est",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 605
     }
   }
 }

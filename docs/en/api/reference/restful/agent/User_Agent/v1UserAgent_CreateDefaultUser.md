@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 868,
-  "Name": "Rutherford Group",
-  "Rank": 72,
-  "Tooltip": "necessitatibus",
+  "AssociateId": 417,
+  "Name": "Mitchell-Beatty",
+  "Rank": 373,
+  "Tooltip": "debitis",
   "LicenseOwners": [
     {
-      "Name": "Gerhold-Windler",
-      "Description": "Diverse empowering knowledge user",
+      "Name": "Schaefer, Koepp and Sporer",
+      "Description": "Progressive didactic architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -114,14 +114,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     },
     {
-      "Name": "Gerhold-Windler",
-      "Description": "Diverse empowering knowledge user",
+      "Name": "Schaefer, Koepp and Sporer",
+      "Description": "Progressive didactic architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 92
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "earum",
-      "Id": 24,
-      "Rank": 794,
-      "Deleted": true,
+      "Value": "dolor",
+      "Tooltip": "perspiciatis",
+      "Id": 828,
+      "Rank": 388,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 967
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2010-05-06T14:13:41.6571261+02:00",
-  "Lastlogout": "2012-06-09T14:13:41.6571261+02:00",
-  "EjUserId": 452,
-  "RequestSignature": "consequatur",
+  "Lastlogin": "2009-01-26T02:38:22.1825743+01:00",
+  "Lastlogout": "2011-04-05T02:38:22.1825743+02:00",
+  "EjUserId": 969,
+  "RequestSignature": "ullam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "praesentium",
-      "DisplayValue": "deleniti",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 806
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "praesentium",
-      "DisplayValue": "deleniti",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 806
-        }
-      }
-    }
-  ],
-  "UserName": "Waelchi-Hansen",
-  "TicketCategories": [
-    {
-      "Id": 985,
-      "Name": "Kreiger-Parker",
-      "ToolTip": "Est ea hic et.",
-      "Deleted": true,
-      "Rank": 773,
-      "Type": "qui",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "qui",
-      "ColorBlock": 386,
-      "ExtraInfo": "suscipit",
-      "StyleHint": "tenetur",
-      "FullName": "Dr. Tyrel Eleazar Parisian",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 353
-        }
-      }
-    }
-  ],
-  "NickName": "Senger, O'Kon and Dach",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "sed"
-  },
-  "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "doloremque"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Wiza-Wunsch",
-      "DisplayName": "Jacobs-Lehner",
-      "Description": "Ergonomic uniform open architecture",
-      "ToolTip": "Sit nihil et error magni.",
-      "Actions": "Implicit",
-      "ActionData": "qui",
+      "Value": "explicabo",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 52
+          "FieldLength": 758
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "explicabo",
+      "DisplayValue": "autem",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 758
+        }
+      }
+    }
+  ],
+  "UserName": "Rippin-D'Amore",
+  "TicketCategories": [
+    {
+      "Id": 848,
+      "Name": "Bergstrom-Bode",
+      "ToolTip": "Corrupti qui commodi et perferendis delectus pariatur voluptas.",
+      "Deleted": false,
+      "Rank": 344,
+      "Type": "rerum",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "eos",
+      "ColorBlock": 209,
+      "ExtraInfo": "ut",
+      "StyleHint": "distinctio",
+      "FullName": "Miss Audra Hermiston Jr.",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 500
+        }
+      }
+    }
+  ],
+  "NickName": "Reichel-Stark",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "nam",
+    "ExtraFields2": "modi"
+  },
+  "CustomFields": {
+    "CustomFields1": "qui",
+    "CustomFields2": "voluptates"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "O'Keefe Inc and Sons",
+      "DisplayName": "Hand LLC",
+      "Description": "Devolved zero tolerance leverage",
+      "ToolTip": "Nisi quos deserunt non in.",
+      "Actions": "Implicit",
+      "ActionData": "eos",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 728
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   }
 }

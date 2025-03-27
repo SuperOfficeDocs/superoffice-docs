@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 912,
-      "UniqueId": "dicta",
-      "Name": "Kuphal Inc and Sons",
-      "Description": "Enhanced modular projection",
-      "AssociateId": 438,
-      "Columns": 22,
+      "DashboardId": 710,
+      "UniqueId": "perspiciatis",
+      "Name": "Armstrong Inc and Sons",
+      "Description": "Adaptive 4th generation task-force",
+      "AssociateId": 662,
+      "Columns": 794,
       "Theme": null,
-      "VisibleForAll": 314,
+      "VisibleForAll": 852,
       "VisibleForAssociates": [
-        516,
-        490
+        472,
+        487
       ],
       "VisibleForGroups": [
-        152,
-        311
+        44,
+        535
       ],
-      "PinForAll": 213,
+      "PinForAll": 71,
       "PinForAssociates": [
-        578,
-        703
+        831,
+        629
       ],
       "PinForGroups": [
-        411,
-        105
+        448,
+        148
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 775
+          "FieldLength": 625
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 132,
-      "UniqueId": "et",
-      "Name": "Wisozk-Frami",
-      "Description": "Self-enabling asynchronous project",
-      "AssociateId": 294,
-      "Columns": 575,
+      "DashboardId": 140,
+      "UniqueId": "tempora",
+      "Name": "Padberg, Walsh and Okuneva",
+      "Description": "Implemented 24 hour open architecture",
+      "AssociateId": 700,
+      "Columns": 475,
       "Theme": null,
-      "VisibleForAll": 56,
+      "VisibleForAll": 814,
       "VisibleForAssociates": [
-        356,
-        416
+        137,
+        313
       ],
       "VisibleForGroups": [
-        57,
-        614
+        303,
+        638
       ],
-      "PinForAll": 713,
+      "PinForAll": 391,
       "PinForAssociates": [
-        345,
-        728
+        855,
+        230
       ],
       "PinForGroups": [
-        589,
-        290
+        40,
+        823
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 875
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 613,
-      "UniqueId": "necessitatibus",
-      "Name": "Rau, Rolfson and Jacobs",
-      "Description": "Versatile mobile middleware",
-      "AssociateId": 840,
-      "Columns": 642,
+      "DashboardId": 524,
+      "UniqueId": "maiores",
+      "Name": "Terry Group",
+      "Description": "Realigned coherent Graphical User Interface",
+      "AssociateId": 554,
+      "Columns": 653,
       "Theme": null,
-      "VisibleForAll": 148,
+      "VisibleForAll": 654,
       "VisibleForAssociates": [
-        679,
-        359
+        99,
+        957
       ],
       "VisibleForGroups": [
-        759,
-        272
+        103,
+        916
       ],
-      "PinForAll": 161,
+      "PinForAll": 140,
       "PinForAssociates": [
-        720,
-        171
+        228,
+        540
       ],
       "PinForGroups": [
-        56,
-        972
+        709,
+        307
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 250
         }
       }
     }
@@ -184,8 +184,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

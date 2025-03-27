@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 913,
-  "Name": "Gleichner, Stroman and Lockman",
-  "Tooltip": "amet",
+  "RoleId": 991,
+  "Name": "Sporer-Gorczany",
+  "Tooltip": "ducimus",
   "RoleType": "Anonymous",
-  "Deleted": 906,
-  "Rank": 127,
-  "Created": "2005-07-21T14:13:41.6415043+02:00",
-  "UseCategories": 976,
+  "Deleted": 660,
+  "Rank": 355,
+  "Created": "2024-02-05T02:38:22.1825743+01:00",
+  "UseCategories": 816,
   "CreatedBy": null,
-  "Updated": "2020-01-18T14:13:41.6415043+01:00",
+  "Updated": "2011-10-26T02:38:22.1825743+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 351,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "odit",
+  "RoleId": 67,
+  "Name": "Towne, Russel and Windler",
+  "Tooltip": "possimus",
   "RoleType": "Anonymous",
-  "Deleted": 734,
-  "Rank": 50,
-  "Created": "2017-07-09T14:13:41.6415043+02:00",
-  "UseCategories": 792,
+  "Deleted": 852,
+  "Rank": 540,
+  "Created": "2017-12-23T02:38:22.1825743+01:00",
+  "UseCategories": 887,
   "CreatedBy": null,
-  "Updated": "2000-03-13T14:13:41.6415043+01:00",
+  "Updated": "2005-09-07T02:38:22.1825743+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 28
     }
   }
 }

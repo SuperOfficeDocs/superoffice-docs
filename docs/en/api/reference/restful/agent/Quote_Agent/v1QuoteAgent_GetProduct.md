@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 421,
-  "ERPProductKey": "omnis"
+  "QuoteConnectionId": 82,
+  "ERPProductKey": "pariatur"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 398,
-  "ERPProductKey": "qui",
-  "ERPPriceListKey": "doloremque",
-  "Name": "Bode, Stoltenberg and Medhurst",
-  "Description": "Ergonomic foreground framework",
-  "Code": "quasi",
-  "PriceUnit": "aliquid",
-  "QuantityUnit": "natus",
+  "ProductId": 185,
+  "ERPProductKey": "eaque",
+  "ERPPriceListKey": "praesentium",
+  "Name": "Wolff, Bogisich and Bayer",
+  "Description": "De-engineered full-range instruction set",
+  "Code": "officiis",
+  "PriceUnit": "est",
+  "QuantityUnit": "vel",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptate",
-  "DefaultSubscriptionQuantity": 27453.84,
-  "ItemNumber": "1808418",
+  "SubscriptionUnit": "dolore",
+  "DefaultSubscriptionQuantity": 22332.884,
+  "ItemNumber": "1688253",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "distinctio",
-  "VAT": 31123.753999999997,
-  "VATInfo": "quis",
-  "UnitCost": 5487.634,
-  "UnitMinimumPrice": 29647.64,
-  "UnitListPrice": 19694.056,
-  "InAssortment": false,
-  "Supplier": "ex",
-  "SupplierCode": "rerum",
-  "Rights": "qui",
-  "Rule": "dolores",
+  "ProductFamilyKey": "labore",
+  "ProductTypeKey": "accusantium",
+  "VAT": 28318.824,
+  "VATInfo": "dignissimos",
+  "UnitCost": 25513.894,
+  "UnitMinimumPrice": 22254.534,
+  "UnitListPrice": 15497.63,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "nihil",
+  "Rights": "inventore",
+  "Rule": "maiores",
   "ExtraInfo": [
     {
-      "Name": "Botsford LLC",
-      "Value": "deleniti",
+      "Name": "Abshire, Gorczany and Gislason",
+      "Value": "accusamus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 1000
         }
       }
     },
     {
-      "Name": "Botsford LLC",
-      "Value": "deleniti",
+      "Name": "Abshire, Gorczany and Gislason",
+      "Value": "accusamus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 624
+          "FieldLength": 1000
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "et",
-  "ExtraField2": "laudantium",
-  "ExtraField3": "sit",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "enim",
-  "InStock": 4848.298,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "quia",
+  "ExtraField2": "at",
+  "ExtraField3": "magnam",
+  "ExtraField4": "vero",
+  "ExtraField5": "quam",
+  "InStock": 11564.46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 972
     }
   }
 }

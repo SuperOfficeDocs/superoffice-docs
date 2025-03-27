@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 272,
+  "SystemEventId": 559,
   "Scope": "Database",
-  "Eta": "2012-03-31T14:13:49.2743418+02:00",
-  "Eventkey": "molestiae",
-  "Eventmess": "vel",
-  "ExtraInfo": 503,
-  "Owner": 427,
-  "UpdatedCount": 358,
-  "Registered": "1999-11-23T14:13:49.2743418+01:00",
+  "Eta": "2003-07-01T02:38:26.4329026+02:00",
+  "Eventkey": "quibusdam",
+  "Eventmess": "dolorem",
+  "ExtraInfo": 576,
+  "Owner": 502,
+  "UpdatedCount": 572,
+  "Registered": "2016-08-06T02:38:26.4329026+02:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 553,
+  "SystemEventId": 566,
   "Scope": "Database",
-  "Eta": "2001-09-24T14:13:49.2743418+02:00",
-  "Eventkey": "numquam",
-  "Eventmess": "est",
-  "ExtraInfo": 244,
-  "Owner": 635,
-  "UpdatedCount": 317,
-  "Registered": "2020-06-08T14:13:49.2743418+02:00",
+  "Eta": "2021-04-17T02:38:26.4329026+02:00",
+  "Eventkey": "consequuntur",
+  "Eventmess": "nostrum",
+  "ExtraInfo": 41,
+  "Owner": 607,
+  "UpdatedCount": 635,
+  "Registered": "2015-10-14T02:38:26.4329026+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldType": "System.String",
+      "FieldLength": 757
     }
   },
   "_Links": {

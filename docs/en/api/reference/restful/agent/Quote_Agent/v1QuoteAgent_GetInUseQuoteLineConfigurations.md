@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 89,
-    "FieldName": "Jerde-Skiles",
-    "Label": "sapiente",
-    "Tooltip": "sequi",
+    "QuoteLineConfigurationId": 668,
+    "FieldName": "Reilly, O'Keefe and Schumm",
+    "Label": "autem",
+    "Tooltip": "in",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": true,
-    "Rank": 179,
-    "RestrictEdit": true,
+    "InUse": true,
+    "Mandatory": false,
+    "Rank": 113,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldLength": 161
       }
     }
   }

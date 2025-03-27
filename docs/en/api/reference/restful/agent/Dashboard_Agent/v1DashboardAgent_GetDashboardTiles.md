@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    934,
-    84
+    948,
+    324
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 221,
-    "Caption": "numquam",
-    "Description": "Customizable radical matrices",
-    "ChartName": "Leuschke, Hilll and Shields",
-    "ChartId": "et",
+    "DashboardTileId": 463,
+    "Caption": "nihil",
+    "Description": "Multi-channelled neutral protocol",
+    "ChartName": "Fisher, Brakus and O'Reilly",
+    "ChartId": "corrupti",
     "IsDefault": false,
-    "AssociateId": 849,
-    "GroupId": 666,
-    "SelectionId": 888,
-    "Config": "earum",
+    "AssociateId": 313,
+    "GroupId": 665,
+    "SelectionId": 837,
+    "Config": "inventore",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Hamill Inc and Sons",
-        "Description": "Switchable tangible approach",
+        "Name": "Weimann, Turner and Hudson",
+        "Description": "Devolved bifurcated database",
         "Type": "Boolean",
-        "ListName": "Hirthe-Abshire",
+        "ListName": "Runolfsdottir-Batz",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "possimus",
-        "DefaultDataOption": false,
+        "Value": "quia",
+        "DefaultDataOption": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 37
+            "FieldLength": 443
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 351,
+        "VisibleId": 198,
         "Visibility": "All",
-        "DisplayValue": "nam",
+        "DisplayValue": "nemo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 558
+            "FieldType": "System.Int32",
+            "FieldLength": 25
           }
         }
       },
       {
-        "VisibleId": 351,
+        "VisibleId": 198,
         "Visibility": "All",
-        "DisplayValue": "nam",
+        "DisplayValue": "nemo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 558
+            "FieldType": "System.Int32",
+            "FieldLength": 25
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 246
       }
     }
   }

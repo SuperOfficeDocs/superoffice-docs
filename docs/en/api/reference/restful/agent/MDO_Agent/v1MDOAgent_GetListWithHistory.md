@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Littel LLC",
+  "Name": "Ernser, Lebsack and Lueilwitz",
   "ForceFlatList": false,
-  "AdditionalInfo": "iusto",
+  "AdditionalInfo": "aut",
   "HistoryItems": [
-    885,
-    96
+    864,
+    883
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Welch LLC",
-    "ToolTip": "Dignissimos ad fugiat.",
-    "Deleted": true,
-    "Rank": 89,
-    "Type": "rerum",
+    "Id": 568,
+    "Name": "O'Kon-Brown",
+    "ToolTip": "Cumque rerum eius.",
+    "Deleted": false,
+    "Rank": 908,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "Bernier-Murray",
-        "ToolTip": "Autem sit.",
+        "Id": 172,
+        "Name": "Volkman-Pfannerstill",
+        "ToolTip": "Esse error molestiae placeat.",
         "Deleted": false,
-        "Rank": 538,
-        "Type": "et",
+        "Rank": 398,
+        "Type": "corporis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "rerum",
-        "ColorBlock": 547,
-        "ExtraInfo": "ex",
-        "StyleHint": "in",
-        "FullName": "Ms. Maximo Wolff II",
+        "IconHint": "cum",
+        "ColorBlock": 683,
+        "ExtraInfo": "labore",
+        "StyleHint": "et",
+        "FullName": "Lennie Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldLength": 27
           }
         }
       }
     ],
-    "IconHint": "libero",
-    "ColorBlock": 15,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "magni",
-    "FullName": "Lon Bauch",
+    "IconHint": "perspiciatis",
+    "ColorBlock": 226,
+    "ExtraInfo": "aut",
+    "StyleHint": "sed",
+    "FullName": "Anibal Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 224
       }
     }
   }

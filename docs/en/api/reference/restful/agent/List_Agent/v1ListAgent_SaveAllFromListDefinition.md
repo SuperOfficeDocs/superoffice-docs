@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 929,
+  "UdListDefinitionId": 811,
   "Items": [
     {
-      "Id": 244,
-      "Name": "Walter, Douglas and Mosciski",
-      "Tooltip": "quidem",
+      "Id": 703,
+      "Name": "Ryan LLC",
+      "Tooltip": "rerum",
       "Deleted": false,
-      "UdListDefinitionId": 832,
-      "Rank": 721
+      "UdListDefinitionId": 468,
+      "Rank": 559
     },
     {
-      "Id": 244,
-      "Name": "Walter, Douglas and Mosciski",
-      "Tooltip": "quidem",
+      "Id": 703,
+      "Name": "Ryan LLC",
+      "Tooltip": "rerum",
       "Deleted": false,
-      "UdListDefinitionId": 832,
-      "Rank": 721
+      "UdListDefinitionId": 468,
+      "Rank": 559
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Adams-Kris",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 969,
-    "Rank": 339,
+    "Id": 430,
+    "Name": "Yundt, Turcotte and Spencer",
+    "Tooltip": "aspernatur",
+    "Deleted": false,
+    "UdListDefinitionId": 791,
+    "Rank": 318,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldLength": 258
       }
     }
   }

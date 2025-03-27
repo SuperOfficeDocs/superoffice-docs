@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 891,
-  "Width": 305,
-  "Height": 317
+  "ProjectId": 730,
+  "Width": 782,
+  "Height": 670
 }
 ```
 

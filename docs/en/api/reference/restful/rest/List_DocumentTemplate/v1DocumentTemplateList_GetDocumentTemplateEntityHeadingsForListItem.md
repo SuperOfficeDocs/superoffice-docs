@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 695,
-    "Name": "Weber-Feest",
-    "ToolTip": "Quisquam nostrum.",
-    "Deleted": true,
-    "Rank": 637,
-    "Type": "alias",
-    "ColorBlock": 138,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2009-05-30T14:13:49.9781847+02:00",
+    "Id": 443,
+    "Name": "Dickinson-Ruecker",
+    "ToolTip": "Vero libero excepturi.",
+    "Deleted": false,
+    "Rank": 510,
+    "Type": "dolorem",
+    "ColorBlock": 986,
+    "IconHint": "optio",
+    "Selected": false,
+    "LastChanged": "2008-10-12T02:38:26.7767326+02:00",
     "ChildItems": [
       {
-        "Id": 296,
-        "Name": "Fritsch-Renner",
-        "ToolTip": "Nihil aut rerum omnis.",
+        "Id": 974,
+        "Name": "Keeling, Beahan and Conn",
+        "ToolTip": "Dolorem fugit et repellat pariatur.",
         "Deleted": false,
-        "Rank": 544,
-        "Type": "odio",
-        "ColorBlock": 982,
-        "IconHint": "sunt",
+        "Rank": 178,
+        "Type": "corrupti",
+        "ColorBlock": 359,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2011-01-07T14:13:49.9781847+01:00",
+        "LastChanged": "2022-09-26T02:38:26.7767326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "dolore",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Saige Okuneva",
+        "FullName": "Denis Erdman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 950
+            "FieldType": "System.Int32",
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "corporis",
+    "ExtraInfo": "sit",
+    "StyleHint": "dolor",
     "Hidden": true,
-    "FullName": "Prof. Eunice Schaefer",
+    "FullName": "Daphney Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 613
       }
     }
   }

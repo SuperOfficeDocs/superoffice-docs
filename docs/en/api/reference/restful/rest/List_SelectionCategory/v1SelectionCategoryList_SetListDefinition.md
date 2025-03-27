@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Homenick-Marvin",
-  "Tooltip": "modi",
+  "Id": 453,
+  "Name": "Nicolas, Johnston and Greenfelder",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 231,
-  "IsCustomList": false,
+  "Rank": 409,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 329,
-  "Name": "Parisian-Roberts",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 804,
+  "Id": 705,
+  "Name": "Olson, Bailey and Wolf",
+  "Tooltip": "neque",
+  "Deleted": true,
+  "Rank": 32,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "soluta",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldType": "System.String",
+      "FieldLength": 264
     }
   }
 }

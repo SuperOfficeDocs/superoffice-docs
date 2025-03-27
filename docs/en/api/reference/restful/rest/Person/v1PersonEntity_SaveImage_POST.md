@@ -71,5 +71,5 @@ Accept-Language: sv
 HTTP/1.1 200 The image blob id
 Content-Type: application/json; charset=utf-8
 
-954
+593
 ```

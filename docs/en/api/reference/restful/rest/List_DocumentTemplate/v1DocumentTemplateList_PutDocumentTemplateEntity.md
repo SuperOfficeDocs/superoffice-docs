@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 152,
-  "Name": "Homenick-Bergstrom",
-  "Tooltip": "repellat",
-  "SaveInDb": 36,
-  "Filename": "mollitia",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 541,
+  "Name": "Olson, Mayert and Beahan",
+  "Tooltip": "autem",
+  "SaveInDb": 329,
+  "Filename": "inventore",
+  "DefaultOref": "nostrum",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 564,
-  "IntentId": 888,
-  "IsDefaultPublished": false,
-  "Rank": 501,
-  "LoadTemplateFromPlugin": 50,
-  "MimeType": "repellendus",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 292,
+  "AutoeventId": 361,
+  "IntentId": 154,
+  "IsDefaultPublished": true,
+  "Rank": 64,
+  "LoadTemplateFromPlugin": 688,
+  "MimeType": "rerum",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 158,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rosemary.hilll@monahan.name",
+  "EmailSubject": "myles@jaskolski.com",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dion_armstrong@oconnell.ca",
+  "SenderEmailAddress": "jovany@rath.us",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 305,
-  "Name": "Wunsch LLC",
-  "Tooltip": "et",
-  "SaveInDb": 520,
-  "Filename": "iure",
-  "DefaultOref": "earum",
+  "DocumentTemplateId": 135,
+  "Name": "Jacobson, Kunze and VonRueden",
+  "Tooltip": "aut",
+  "SaveInDb": 242,
+  "Filename": "voluptates",
+  "DefaultOref": "recusandae",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 667,
-  "IntentId": 152,
-  "IsDefaultPublished": true,
-  "Rank": 475,
-  "LoadTemplateFromPlugin": 324,
-  "MimeType": "omnis",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 597,
+  "AutoeventId": 628,
+  "IntentId": 332,
+  "IsDefaultPublished": false,
+  "Rank": 966,
+  "LoadTemplateFromPlugin": 159,
+  "MimeType": "animi",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 593,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alphonso_beer@collins.uk",
+  "EmailSubject": "caleigh_collier@volkman.biz",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "emiliano_kuvalis@lednermetz.com",
+  "SenderEmailAddress": "marlen.schroeder@oconnell.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

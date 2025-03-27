@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 270,
+  "EjMessageId": 985,
   "Ticket": null,
-  "CreatedAt": "2018-09-22T14:13:41.422697+02:00",
+  "CreatedAt": "2013-07-21T02:38:22.0419723+02:00",
   "CreatedBy": null,
-  "Author": "laudantium",
+  "Author": "reiciendis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 512,
-  "Body": "doloremque",
-  "HtmlBody": "amet",
-  "EmailHeader": "myrtis_hessel@stoltenberg.us",
-  "DebugInfo": "veniam",
-  "MailSorter": "distinctio",
+  "MessageId": "illo",
+  "TimeSpent": 377,
+  "Body": "quibusdam",
+  "HtmlBody": "consequatur",
+  "EmailHeader": "hellen@strosinokuneva.com",
+  "DebugInfo": "nostrum",
+  "MailSorter": "expedita",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "ea",
   "MessageHeaders": [
     {
-      "Id": 67,
-      "Name": "Schaden Group",
-      "Value": "ad",
+      "Id": 178,
+      "Name": "Champlin LLC",
+      "Value": "distinctio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 36
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
   ],
   "Important": false,
-  "Language": "porro",
-  "Sentiment": 123,
-  "SentimentConfidence": 875,
+  "Language": "voluptatem",
+  "Sentiment": 547,
+  "SentimentConfidence": 71,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 349,
-      "Name": "Prohaska-VonRueden",
-      "ContentType": "nobis",
-      "AttSize": 719,
+      "AttachmentId": 980,
+      "Name": "Franecki, Lockman and Ferry",
+      "ContentType": "incidunt",
+      "AttSize": 640,
       "InlineImage": false,
-      "ContentId": "dolore",
-      "AuthKey": "facilis",
-      "IsSafeFileExtension": true,
+      "ContentId": "quibusdam",
+      "AuthKey": "expedita",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldLength": 118
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "qui"
+    "CustomFields1": "quis",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 790
     }
   }
 }

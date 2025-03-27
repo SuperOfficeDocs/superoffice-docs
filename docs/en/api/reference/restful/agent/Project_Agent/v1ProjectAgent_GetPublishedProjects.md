@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    511,
-    35
+    652,
+    208
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 780,
-    "Name": "Konopelski-Kovacek",
-    "Description": "Organized encompassing productivity",
+    "ProjectId": 540,
+    "Name": "Schaden LLC",
+    "Description": "Virtual regional hub",
     "URL": "http://www.example.com/",
-    "Type": "ullam",
-    "AssociateId": 567,
-    "AssociateFullName": "Chelsea Turcotte",
-    "TypeId": 733,
-    "Updated": "2016-08-28T14:13:41.0314634+02:00",
-    "StatusId": 677,
-    "Status": "autem",
-    "TextId": 308,
-    "PublishTo": "2016-01-21T14:13:41.0314634+01:00",
-    "PublishFrom": "2003-07-21T14:13:41.0314634+02:00",
-    "IsPublished": false,
+    "Type": "quo",
+    "AssociateId": 569,
+    "AssociateFullName": "Jedediah Mayert",
+    "TypeId": 507,
+    "Updated": "1999-12-19T02:38:21.7451279+01:00",
+    "StatusId": 128,
+    "Status": "illo",
+    "TextId": 225,
+    "PublishTo": "1997-11-23T02:38:21.7451279+01:00",
+    "PublishFrom": "2020-11-11T02:38:21.7451279+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "627817",
-    "ActiveErpLinks": 22,
+    "ProjectNumber": "1179379",
+    "ActiveErpLinks": 447,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 375
       }
     }
   }

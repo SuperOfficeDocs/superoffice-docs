@@ -714,7 +714,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=person/kanaFirstName,person/correspondingAssociate/fullName,project/icon,associate/simultaneousEjUser,sale/saleId
+GET /api/v1/archive/DocumentSelectionV2?$select=contact/contactUdef/SuperOffice:8,contact/contactExtra/x_contact_longtext,contact/NumberOfNotCompletedSalesInPeriod,sale/text,sale/soldReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

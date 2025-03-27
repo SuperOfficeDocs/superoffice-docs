@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 147
+  "ContactId": 590
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 467,
-  "BlobSize": 329,
-  "Description": "Business-focused asynchronous neural-net",
-  "ExtraInfo": "quas",
-  "IsEncrypted": true,
+  "BlobId": 1000,
+  "BlobSize": 934,
+  "Description": "Re-engineered 24 hour projection",
+  "ExtraInfo": "nobis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quo",
-  "OriginalSize": 761,
-  "CreatedDate": "2020-11-22T14:13:39.4223465+01:00",
-  "UpdatedDate": "2007-03-05T14:13:39.4223465+01:00",
+  "MimeType": "error",
+  "OriginalSize": 460,
+  "CreatedDate": "2016-05-08T02:38:20.9014648+02:00",
+  "UpdatedDate": "2018-11-25T02:38:20.9014648+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nobis",
+  "ConceptualType": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 286
     }
   }
 }

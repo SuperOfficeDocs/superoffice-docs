@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ortiz-Wisozk",
+  "TableName": "Klocko Inc and Sons",
   "Columns": [
-    "veniam",
-    "numquam"
+    "delectus",
+    "suscipit"
   ],
   "Keys": [
-    "temporibus",
-    "asperiores"
+    "saepe",
+    "inventore"
   ],
   "Data": [
     [
@@ -107,7 +107,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": true
+  "ReturnRowStatus": false
 }
 ```
 
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "adipisci",
-  "Inserts": 723,
-  "Updates": 73,
-  "Deletes": 733,
+  "Message": "ut",
+  "Inserts": 64,
+  "Updates": 927,
+  "Deletes": 148,
   "RowStatus": [
     {
-      "PrimaryKey": 348,
+      "PrimaryKey": 850,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "provident",
-        "consequatur"
+        "ut",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     },
     {
-      "PrimaryKey": 348,
+      "PrimaryKey": 850,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "provident",
-        "consequatur"
+        "ut",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 628
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldType": "System.String",
+      "FieldLength": 773
     }
   }
 }

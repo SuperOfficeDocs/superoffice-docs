@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 892
+  "ChatTopicId": 629
 }
 ```
 
@@ -118,29 +118,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 31,
-  "TopicId": 789,
+  "ChatSessionId": 648,
+  "TopicId": 496,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ex",
-  "CustomerHost": "ea",
-  "CustomerName": "Monahan-O'Conner",
-  "CustomerEmail": "dolly@wildermansawayn.uk",
-  "CustomerPhone": "(069)675-6088",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Kreiger-Barrows",
+  "CustomerAlias": "alias",
+  "CustomerHost": "enim",
+  "CustomerName": "Hessel LLC",
+  "CustomerEmail": "erick@hane.biz",
+  "CustomerPhone": "904.580.8165",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Strosin-Reichert",
   "Status": "Closed",
-  "FirstMessage": "quisquam",
-  "LastMessage": "repudiandae",
-  "WhenRequested": "2021-05-23T14:13:39.719154+02:00",
-  "WhenStarted": "2014-07-06T14:13:39.719154+02:00",
-  "WhenEnded": "2025-01-10T14:13:39.719154+01:00",
-  "WhenIdle": "2021-02-11T14:13:39.719154+01:00",
-  "WhenFetched": "2001-10-02T14:13:39.719154+02:00",
-  "SessionKey": "corporis",
-  "InitialQueuePos": 269,
-  "AlertLevel": 322,
-  "Rank": 999,
+  "FirstMessage": "molestiae",
+  "LastMessage": "et",
+  "WhenRequested": "2008-12-18T02:38:20.995206+01:00",
+  "WhenStarted": "2010-10-29T02:38:20.995206+02:00",
+  "WhenEnded": "2009-11-26T02:38:20.995206+01:00",
+  "WhenIdle": "2017-02-21T02:38:20.995206+01:00",
+  "WhenFetched": "1998-10-01T02:38:20.995206+02:00",
+  "SessionKey": "inventore",
+  "InitialQueuePos": 225,
+  "AlertLevel": 752,
+  "Rank": 971,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +148,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 715,
+  "Rating": 12,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 739
     }
   }
 }

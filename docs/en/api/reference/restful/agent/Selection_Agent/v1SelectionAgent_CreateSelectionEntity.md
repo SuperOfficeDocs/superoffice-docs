@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Wilderman, Collier and Renner"
+  "TargetTableName": "Mosciski Group"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots interactive website",
-  "Postit": "enim",
+  "Description": "Customer-focused multi-tasking solution",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 912,
-  "IncludePerson": 486,
+  "GroupIdx": 901,
+  "IncludePerson": 642,
   "MemberCount": 99.99,
-  "Name": "Koepp, Balistreri and Cartwright",
-  "PostitTextId": 509,
-  "CreatedDate": "2005-02-07T14:13:41.2821041+01:00",
-  "SelectionId": 85,
-  "SoundEx": "odit",
-  "Source": 855,
-  "TextId": 330,
-  "UpdatedDate": "2008-08-12T14:13:41.2821041+02:00",
-  "UpdatedCount": 640,
-  "Visibility": 854,
+  "Name": "Metz, Beahan and Bogan",
+  "PostitTextId": 987,
+  "CreatedDate": "2015-11-08T02:38:21.8701125+01:00",
+  "SelectionId": 846,
+  "SoundEx": "repellat",
+  "Source": 973,
+  "TextId": 327,
+  "UpdatedDate": "2024-09-07T02:38:21.8701125+02:00",
+  "UpdatedCount": 992,
+  "Visibility": 144,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 480,
-  "TargetTableName": "Toy, McLaughlin and Wuckert",
+  "CompanyUnique": false,
+  "TargetTableNumber": 992,
+  "TargetTableName": "Huel-Bechtelar",
   "Completed": false,
-  "LeftSelectionId": 583,
-  "RightSelectionId": 194,
+  "LeftSelectionId": 329,
+  "RightSelectionId": 555,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hermiston Inc and Sons",
-  "ShadowProviderName": "Roob LLC",
-  "ChartKey": "distinctio",
-  "LastLoaded": "1998-07-01T14:13:41.2821041+02:00",
-  "LastLoadedBy": 200,
+  "MainProviderName": "Leffler, Keeling and Dickens",
+  "ShadowProviderName": "Casper, Boehm and Cummerata",
+  "ChartKey": "ea",
+  "LastLoaded": "2018-07-20T02:38:21.8701125+02:00",
+  "LastLoadedBy": 542,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-17T14:13:41.2821041+01:00",
-  "LastMembershipChangeBy": 510,
+  "LastMembershipChange": "2015-10-17T02:38:21.8701125+02:00",
+  "LastMembershipChangeBy": 597,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "perferendis",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Kuhic, Waters and Metz",
-  "DashboardTileDefinitionId": 259,
+  "MainHeading": "omnis",
+  "MemberTabHeading": "nisi",
+  "MailingsProviderName": "Goldner-Jenkins",
+  "DashboardTileDefinitionId": 872,
   "VisibleFor": [
     {
-      "VisibleId": 87,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 709
         }
       }
     },
     {
-      "VisibleId": 87,
+      "VisibleId": 809,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 706
+          "FieldType": "System.String",
+          "FieldLength": 709
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 978
     }
   }
 }

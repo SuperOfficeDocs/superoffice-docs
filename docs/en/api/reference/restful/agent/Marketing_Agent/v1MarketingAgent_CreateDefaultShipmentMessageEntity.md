@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 9,
+  "ShipmentMessageId": 724,
   "PlainMessage": "nihil",
-  "HtmlMessage": "in",
-  "SmsMessage": "temporibus",
-  "Description": "Business-focused heuristic website",
-  "Subject": "voluptas",
-  "FolderId": 934,
-  "HeaderField": "ratione",
-  "Design": "dolores",
+  "HtmlMessage": "qui",
+  "SmsMessage": "id",
+  "Description": "Front-line dynamic model",
+  "Subject": "aspernatur",
+  "FolderId": 278,
+  "HeaderField": "aliquid",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Cross-platform multi-state collaboration",
-  "AccessKey": "quia",
-  "DocumentMessage": 975,
-  "Registered": "2003-07-30T14:13:40.5628193+02:00",
-  "RegisteredAssociateId": 361,
-  "Updated": "2004-05-17T14:13:40.5628193+02:00",
-  "UpdatedAssociateId": 879,
-  "UpdatedCount": 445,
+  "LongDescription": "Compatible intermediate info-mediaries",
+  "AccessKey": "deserunt",
+  "DocumentMessage": 330,
+  "Registered": "2014-08-24T02:38:21.5576497+02:00",
+  "RegisteredAssociateId": 878,
+  "Updated": "2002-04-16T02:38:21.5576497+02:00",
+  "UpdatedAssociateId": 224,
+  "UpdatedCount": 234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 504
     }
   }
 }

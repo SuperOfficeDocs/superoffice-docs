@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Morar-Adams",
-  "Context": "architecto"
+  "ProviderName": "Walter-Mueller",
+  "Context": "similique"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Moore Inc and Sons",
-    "ToolTip": "Sint qui non molestiae.",
+    "Id": 264,
+    "Name": "Mayert, Swaniawski and Emmerich",
+    "ToolTip": "Alias molestiae harum magnam quia voluptas.",
     "Deleted": false,
-    "Rank": 285,
-    "Type": "quaerat",
+    "Rank": 402,
+    "Type": "magni",
     "ChildItems": [
       {
-        "Id": 849,
-        "Name": "Ankunding LLC",
-        "ToolTip": "Accusamus ut ipsa.",
-        "Deleted": true,
-        "Rank": 316,
-        "Type": "blanditiis",
+        "Id": 721,
+        "Name": "Runolfsdottir, Reilly and McKenzie",
+        "ToolTip": "Alias voluptatem.",
+        "Deleted": false,
+        "Rank": 562,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odio",
-        "ColorBlock": 434,
-        "ExtraInfo": "dolor",
-        "StyleHint": "cum",
-        "FullName": "Ophelia Hansen",
+        "IconHint": "natus",
+        "ColorBlock": 544,
+        "ExtraInfo": "at",
+        "StyleHint": "dolor",
+        "FullName": "Melvin Zieme",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 590
+            "FieldType": "System.Int32",
+            "FieldLength": 71
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 124,
-    "ExtraInfo": "velit",
-    "StyleHint": "velit",
-    "FullName": "Estell Collins",
+    "IconHint": "quod",
+    "ColorBlock": 402,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "similique",
+    "FullName": "Jerome Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 156
       }
     }
   }

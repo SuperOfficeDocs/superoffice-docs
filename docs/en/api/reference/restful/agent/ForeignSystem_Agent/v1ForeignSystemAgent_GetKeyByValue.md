@@ -88,11 +88,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Romaguera, Bernier and Ledner",
-  "DeviceName": "Casper, Kessler and Rogahn",
-  "KeyName": "Hermann LLC",
-  "KeyValue": "et",
-  "TableName": "Bergnaum, McDermott and Jewess"
+  "ApplicationName": "Howe LLC",
+  "DeviceName": "Howell Inc and Sons",
+  "KeyName": "Stamm, Williamson and Franecki",
+  "KeyValue": "vel",
+  "TableName": "Shields-Waelchi"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "iusto",
-  "RecordId": 793,
-  "CreatedDate": "2010-10-06T14:13:40.3909833+02:00",
-  "UpdatedDate": "2015-11-07T14:13:40.3909833+01:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "ut",
-  "TableName": "Gibson-Emmerich",
+  "Key": "doloribus",
+  "Value": "odio",
+  "RecordId": 81,
+  "CreatedDate": "2014-09-07T02:38:21.4639053+02:00",
+  "UpdatedDate": "2009-11-04T02:38:21.4639053+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "atque",
+  "TableName": "Pfannerstill-Brown",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 924
     }
   }
 }

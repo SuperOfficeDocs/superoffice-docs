@@ -659,7 +659,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingDeleted,associate/isActiveText,emailFlow/mediumThumbnail,project/projectAssociate/title
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingSent,contactId,registeredBy,mailingAddr/contact/contactAssociate/middleName,mailingAddr/contact/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

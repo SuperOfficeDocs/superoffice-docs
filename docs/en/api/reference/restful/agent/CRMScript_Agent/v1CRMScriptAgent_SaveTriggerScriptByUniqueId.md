@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "inventore",
+  "TriggerScriptUniqueId": "tempore",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 650,
-  "Name": "Zemlak LLC",
+  "ScreenChooserId": 184,
+  "Name": "Rath Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "culpa",
-  "Source": "aliquam",
-  "Registered": "2007-04-18T14:13:39.9223399+02:00",
-  "RegisteredAssociateId": 666,
-  "Updated": "2010-04-21T14:13:39.9223399+02:00",
-  "UpdatedAssociateId": 876,
+  "Enabled": false,
+  "UniqueIdentifier": "expedita",
+  "Source": "voluptatem",
+  "Registered": "2011-09-24T02:38:21.182685+02:00",
+  "RegisteredAssociateId": 808,
+  "Updated": "2005-02-09T02:38:21.182685+01:00",
+  "UpdatedAssociateId": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 56
     }
   }
 }

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 781
+  "QuoteAlternativeId": 701
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 92,
-    "ERPQuoteLineKey": "neque",
-    "QuoteAlternativeId": 574,
-    "ERPProductKey": "iusto",
+    "QuoteLineId": 224,
+    "ERPQuoteLineKey": "quia",
+    "QuoteAlternativeId": 687,
+    "ERPProductKey": "error",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 423.09,
-    "DeliveredQuantity": 29779.268,
-    "Rank": 156,
-    "Name": "Nienow-Price",
-    "Description": "Self-enabling impactful interface",
-    "Code": "et",
-    "QuantityUnit": "doloribus",
-    "PriceUnit": "a",
-    "ItemNumber": "1102258",
+    "Quantity": 30910.642,
+    "DeliveredQuantity": 5804.168,
+    "Rank": 320,
+    "Name": "O'Kon-Cremin",
+    "Description": "Compatible explicit knowledge base",
+    "Code": "excepturi",
+    "QuantityUnit": "a",
+    "PriceUnit": "odit",
+    "ItemNumber": "1067224",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "commodi",
-    "ProductTypeKey": "deserunt",
-    "Supplier": "dicta",
-    "SupplierCode": "laborum",
-    "Thumbnail": "enim",
-    "VATInfo": "ipsam",
-    "VAT": 25846.097999999998,
-    "UnitCost": 24194.48,
-    "UnitMinimumPrice": 16215.315999999999,
-    "UnitListPrice": 5236.914,
+    "ProductFamilyKey": "cupiditate",
+    "ProductTypeKey": "excepturi",
+    "Supplier": "harum",
+    "SupplierCode": "corporis",
+    "Thumbnail": "quaerat",
+    "VATInfo": "consequatur",
+    "VAT": 28162.124,
+    "UnitCost": 18995.174,
+    "UnitMinimumPrice": 996.612,
+    "UnitListPrice": 19969.847999999998,
     "ExtraInfo": [
       {
-        "Name": "Marks Inc and Sons",
-        "Value": "aut",
+        "Name": "Hilpert, Lockman and Greenholt",
+        "Value": "sed",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       },
       {
-        "Name": "Marks Inc and Sons",
-        "Value": "aut",
+        "Name": "Hilpert, Lockman and Greenholt",
+        "Value": "sed",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 550
+            "FieldType": "System.String",
+            "FieldLength": 341
           }
         }
       }
     ],
-    "RawExtraInfo": "itaque",
-    "IsSubscription": true,
-    "SubscriptionUnit": "blanditiis",
-    "SubscriptionQuantity": 1635.9479999999999,
-    "SubscriptionStart": "2009-02-03T14:13:41.1408128+01:00",
-    "ERPDiscountPercent": 19697.19,
-    "ERPDiscountAmount": 23172.796,
-    "DiscountPercent": 7759.784,
-    "DiscountAmount": 3741.996,
+    "RawExtraInfo": "hic",
+    "IsSubscription": false,
+    "SubscriptionUnit": "et",
+    "SubscriptionQuantity": 29139.932,
+    "SubscriptionStart": "2015-02-26T02:38:21.7919947+01:00",
+    "ERPDiscountPercent": 21690.414,
+    "ERPDiscountAmount": 30957.652,
+    "DiscountPercent": 16541.252,
+    "DiscountAmount": 28390.906,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 15011.859999999999,
-    "EarningAmount": 26278.59,
-    "SubTotal": 3977.046,
-    "TotalPrice": 23950.028,
-    "Rights": "aut",
-    "Rule": "rerum",
-    "ExtraField1": "praesentium",
-    "ExtraField2": "consequatur",
-    "ExtraField3": "quas",
-    "ExtraField4": "dolores",
-    "ExtraField5": "minus",
+    "EarningPercent": 8916.23,
+    "EarningAmount": 15394.207999999999,
+    "SubTotal": 9166.9499999999989,
+    "TotalPrice": 8950.704,
+    "Rights": "et",
+    "Rule": "reiciendis",
+    "ExtraField1": "aut",
+    "ExtraField2": "illum",
+    "ExtraField3": "qui",
+    "ExtraField4": "soluta",
+    "ExtraField5": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 818
+        "FieldLength": 886
       }
     }
   }

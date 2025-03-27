@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": true,
-      "IsActive": true,
-      "Key": "incidunt",
-      "ValueType": "enim",
+      "IsActive": false,
+      "Key": "et",
+      "ValueType": "magnam",
       "Mandatory": false,
-      "EncodedDisplayName": "Marvin-Rohan",
-      "EncodedDisplayDescription": "Seamless next generation approach",
-      "IconHint": "omnis",
+      "EncodedDisplayName": "Weber LLC",
+      "EncodedDisplayDescription": "Open-architected empowering throughput",
+      "IconHint": "similique",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "et",
-      "EncodedDataCaptionDescription": "Future-proofed multi-state architecture",
-      "CurrentOperationType": "exercitationem",
+      "EncodedDataCaption": "corrupti",
+      "EncodedDataCaptionDescription": "Implemented composite customer loyalty",
+      "CurrentOperationType": "repellendus",
       "Values": [
-        "soluta",
-        "commodi"
+        "dolores",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "perferendis",
-        "sunt"
+        "eaque",
+        "veniam"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Schmeler LLC",
-  "Context": "maxime",
-  "SelectionId": 956,
+  "TableName": "Dooley, Cremin and Berge",
+  "Context": "quis",
+  "SelectionId": 811,
   "IsShadow": true
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-652
+911
 ```

@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 144,
-  "BlobSize": 332,
-  "Description": "Open-architected motivating infrastructure",
-  "ExtraInfo": "architecto",
-  "IsEncrypted": false,
+  "BlobId": 663,
+  "BlobSize": 156,
+  "Description": "Pre-emptive impactful firmware",
+  "ExtraInfo": "autem",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "cupiditate",
-  "OriginalSize": 477,
-  "CreatedDate": "2012-04-28T14:13:49.4930437+02:00",
-  "UpdatedDate": "2004-11-03T14:13:49.4930437+01:00",
+  "MimeType": "maxime",
+  "OriginalSize": 525,
+  "CreatedDate": "2009-12-09T02:38:26.5735222+01:00",
+  "UpdatedDate": "2016-06-03T02:38:26.5735222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "at"
+  "ConceptualType": "error"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 317,
-  "BlobSize": 356,
-  "Description": "Open-source bifurcated data-warehouse",
-  "ExtraInfo": "molestiae",
-  "IsEncrypted": false,
+  "BlobId": 768,
+  "BlobSize": 96,
+  "Description": "Fundamental impactful attitude",
+  "ExtraInfo": "est",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "porro",
-  "OriginalSize": 388,
-  "CreatedDate": "2017-02-07T14:13:49.4930437+01:00",
-  "UpdatedDate": "2008-01-23T14:13:49.4930437+01:00",
+  "MimeType": "et",
+  "OriginalSize": 171,
+  "CreatedDate": "2019-02-09T02:38:26.5735222+01:00",
+  "UpdatedDate": "1999-10-28T02:38:26.5735222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 876
     }
   }
 }

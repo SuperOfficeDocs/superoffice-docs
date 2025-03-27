@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kautzer LLC",
+  "ProviderName": "Satterfield, Herzog and Douglas",
   "Restrictions": [
     {
-      "Name": "Yost Group",
-      "Operator": "aut",
+      "Name": "Sporer, Fadel and Leffler",
+      "Operator": "qui",
       "Values": [
-        "dolorem",
-        "nulla"
+        "numquam",
+        "pariatur"
       ],
       "DisplayValues": [
-        "animi",
-        "cum"
+        "vel",
+        "a"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 730,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 450
+      "UniqueHash": 330
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  342,
-  731
+  787,
+  254
 ]
 ```

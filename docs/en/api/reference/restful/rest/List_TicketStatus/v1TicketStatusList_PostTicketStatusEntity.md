@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 21,
-  "Name": "Hettinger, Reinger and Veum",
+  "TicketStatusId": 581,
+  "Name": "Marvin Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
   "IsDefault": true,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 
@@ -98,8 +98,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 77,
-  "Name": "Fay Inc and Sons",
+  "TicketStatusId": 952,
+  "Name": "Smitham, Schimmel and Bogan",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 578
+      "FieldLength": 893
     }
   }
 }

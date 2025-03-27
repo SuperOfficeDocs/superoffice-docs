@@ -43,6 +43,7 @@ items:
   - SuperOffice.CRM.Services.BulkUpdateAgent
   - SuperOffice.CRM.Services.Business
   - SuperOffice.CRM.Services.Cache
+  - SuperOffice.CRM.Services.CacheInvalidation
   - SuperOffice.CRM.Services.CallerID
   - SuperOffice.CRM.Services.CallerIDCollection
   - SuperOffice.CRM.Services.CategorizationModelDetails
@@ -527,6 +528,7 @@ items:
   - SuperOffice.CRM.Services.UsageStats
   - SuperOffice.CRM.Services.User
   - SuperOffice.CRM.Services.UserAgent
+  - SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
   - SuperOffice.CRM.Services.UserCandidate
   - SuperOffice.CRM.Services.UserDefinedFieldInfo
   - SuperOffice.CRM.Services.UserDefinedFieldInfoAgent
@@ -1584,6 +1586,12 @@ references:
   name: Cache
   nameWithType: Cache
   fullName: SuperOffice.CRM.Services.Cache
+- uid: SuperOffice.CRM.Services.CacheInvalidation
+  commentId: T:SuperOffice.CRM.Services.CacheInvalidation
+  isExternal: true
+  name: CacheInvalidation
+  nameWithType: CacheInvalidation
+  fullName: SuperOffice.CRM.Services.CacheInvalidation
 - uid: SuperOffice.CRM.Services.CallerID
   commentId: T:SuperOffice.CRM.Services.CallerID
   isExternal: true
@@ -4119,6 +4127,13 @@ references:
   name: User
   nameWithType: User
   fullName: SuperOffice.CRM.Services.User
+- uid: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  commentId: T:SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus
+  fullName: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
 - uid: SuperOffice.CRM.Services.UserCandidate
   commentId: T:SuperOffice.CRM.Services.UserCandidate
   parent: SuperOffice.CRM.Services

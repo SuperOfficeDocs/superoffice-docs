@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    317,
-    1001
+    210,
+    671
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 6,
-    "Attention": "officia",
-    "Header": "voluptatem",
-    "Name": "Reynolds-Schmeler",
-    "OurRef": "rem",
-    "YourRef": "et",
-    "Description": "Focused logistical emulation",
-    "DocumentTemplate": "est",
+    "DocumentId": 697,
+    "Attention": "non",
+    "Header": "temporibus",
+    "Name": "Wunsch, Terry and Bauch",
+    "OurRef": "voluptatem",
+    "YourRef": "accusantium",
+    "Description": "Innovative leading edge focus group",
+    "DocumentTemplate": "voluptate",
     "IsPublished": true,
-    "PersonId": 828,
-    "PersonFullName": "Prof. Noemy Wiegand",
-    "AssociateFullName": "Ruthe Abshire",
-    "ContactId": 632,
-    "ContactName": "Hilll Group",
-    "ProjectId": 885,
-    "ProjectName": "Runolfsdottir LLC",
-    "AssociateId": 701,
-    "Snum": 553,
-    "SaleId": 339,
-    "SaleName": "Predovic Group",
+    "PersonId": 326,
+    "PersonFullName": "Mr. Stephon Albina Mohr",
+    "AssociateFullName": "Jaeden Rempel",
+    "ContactId": 182,
+    "ContactName": "Bashirian, Frami and Deckow",
+    "ProjectId": 376,
+    "ProjectName": "Nienow, Kuhic and Tillman",
+    "AssociateId": 87,
+    "Snum": 7,
+    "SaleId": 248,
+    "SaleName": "Stamm LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 841
+        "FieldLength": 979
       }
     }
   }

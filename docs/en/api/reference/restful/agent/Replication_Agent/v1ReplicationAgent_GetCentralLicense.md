@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka, Nitzsche and Collins",
-    "Description": "Fundamental 4th generation complexity",
+    "Name": "Schroeder Inc and Sons",
+    "Description": "Inverse foreground function",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 130,
-        "Tooltip": "atque",
+        "Total": 821,
+        "Tooltip": "incidunt",
         "CanAssign": true,
-        "Free": 889,
-        "InUse": 666,
+        "Free": 490,
+        "InUse": 542,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 529,
-        "Name": "Crooks, Nolan and Cartwright",
-        "Description": "Business-focused mobile superstructure",
-        "PrerequisiteModuleName": "Carroll, Wolf and Ortiz",
-        "SortOrder": 389,
-        "ExtraFlags": 370,
+        "Assigned": false,
+        "ModuleLicenseId": 441,
+        "Name": "Jerde-Pacocha",
+        "Description": "Multi-tiered client-server superstructure",
+        "PrerequisiteModuleName": "Osinski-Dibbert",
+        "SortOrder": 438,
+        "ExtraFlags": 916,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 347
+            "FieldType": "System.String",
+            "FieldLength": 444
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "non",
+        "Unrestricted": true,
+        "Total": 542,
+        "Tooltip": "optio",
         "CanAssign": true,
-        "Free": 384,
-        "InUse": 615,
+        "Free": 801,
+        "InUse": 721,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 444,
-        "Name": "Botsford-Beahan",
-        "Description": "Ameliorated exuding success",
-        "PrerequisiteModuleName": "Nolan, Hamill and Pollich",
-        "SortOrder": 488,
-        "ExtraFlags": 4,
+        "ModuleLicenseId": 578,
+        "Name": "Schmitt, Schultz and Vandervort",
+        "Description": "Stand-alone discrete extranet",
+        "PrerequisiteModuleName": "Rath, Haley and Hammes",
+        "SortOrder": 945,
+        "ExtraFlags": 520,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 576
           }
         }
       }
@@ -139,62 +139,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   },
   {
-    "Name": "Ondricka, Nitzsche and Collins",
-    "Description": "Fundamental 4th generation complexity",
+    "Name": "Schroeder Inc and Sons",
+    "Description": "Inverse foreground function",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 130,
-        "Tooltip": "atque",
+        "Total": 821,
+        "Tooltip": "incidunt",
         "CanAssign": true,
-        "Free": 889,
-        "InUse": 666,
+        "Free": 490,
+        "InUse": 542,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 529,
-        "Name": "Crooks, Nolan and Cartwright",
-        "Description": "Business-focused mobile superstructure",
-        "PrerequisiteModuleName": "Carroll, Wolf and Ortiz",
-        "SortOrder": 389,
-        "ExtraFlags": 370,
+        "Assigned": false,
+        "ModuleLicenseId": 441,
+        "Name": "Jerde-Pacocha",
+        "Description": "Multi-tiered client-server superstructure",
+        "PrerequisiteModuleName": "Osinski-Dibbert",
+        "SortOrder": 438,
+        "ExtraFlags": 916,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 347
+            "FieldType": "System.String",
+            "FieldLength": 444
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 305,
-        "Tooltip": "non",
+        "Unrestricted": true,
+        "Total": 542,
+        "Tooltip": "optio",
         "CanAssign": true,
-        "Free": 384,
-        "InUse": 615,
+        "Free": 801,
+        "InUse": 721,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 444,
-        "Name": "Botsford-Beahan",
-        "Description": "Ameliorated exuding success",
-        "PrerequisiteModuleName": "Nolan, Hamill and Pollich",
-        "SortOrder": 488,
-        "ExtraFlags": 4,
+        "ModuleLicenseId": 578,
+        "Name": "Schmitt, Schultz and Vandervort",
+        "Description": "Stand-alone discrete extranet",
+        "PrerequisiteModuleName": "Rath, Haley and Hammes",
+        "SortOrder": 945,
+        "ExtraFlags": 520,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 131
+            "FieldType": "System.Int32",
+            "FieldLength": 576
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 994
       }
     }
   }

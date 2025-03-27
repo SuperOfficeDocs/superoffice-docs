@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "quae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloribus",
+    "path": "quae",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 966,
-  "Name": "Mann Group",
-  "CreatedDate": "2012-08-23T14:13:48.8836985+02:00",
-  "UpdatedDate": "2015-10-03T14:13:48.8836985+02:00",
+  "ForeignAppId": 477,
+  "Name": "Simonis, Bergstrom and Kreiger",
+  "CreatedDate": "2015-10-21T02:38:26.1204323+02:00",
+  "UpdatedDate": "2018-09-12T02:38:26.1204323+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 682,
-      "Name": "Little LLC",
-      "CreatedDate": "2023-05-10T14:13:48.8836985+02:00",
-      "UpdatedDate": "2011-04-28T14:13:48.8836985+02:00",
-      "AssociateFullName": "Dr. Arvid Dicki",
-      "CreatedBy": "ipsum",
-      "UpdatedBy": "unde",
-      "DeviceIdentifier": "consequuntur",
-      "ForeignAppId": 942,
+      "ForeignDeviceId": 947,
+      "Name": "Gleichner-Schinner",
+      "CreatedDate": "2019-04-22T02:38:26.1204323+02:00",
+      "UpdatedDate": "2001-05-02T02:38:26.1204323+02:00",
+      "AssociateFullName": "Richie Predovic",
+      "CreatedBy": "unde",
+      "UpdatedBy": "quod",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 449,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 318
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 572
     }
   },
   "_Links": {

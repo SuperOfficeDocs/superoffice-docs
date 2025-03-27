@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 839,
-    "Name": "Glover, Lang and Muller",
-    "Tooltip": "dignissimos",
+    "HeadingId": 948,
+    "Name": "Lebsack, Weimann and Schmitt",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 762,
-    "UdListDefinitionId": 545,
+    "Rank": 39,
+    "UdListDefinitionId": 811,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 461
       }
     }
   }

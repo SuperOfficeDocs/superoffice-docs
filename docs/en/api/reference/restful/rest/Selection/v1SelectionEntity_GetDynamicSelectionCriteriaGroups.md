@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley LLC",
-    "Description": "Assimilated local pricing structure",
-    "Rank": 504,
+    "Name": "DuBuque, Lockman and Maggio",
+    "Description": "Fully-configurable non-volatile time-frame",
+    "Rank": 855,
     "Restrictions": [
       {
-        "Name": "Kirlin, Jacobi and Williamson",
-        "Operator": "deserunt",
+        "Name": "Becker-Ondricka",
+        "Operator": "hic",
         "Values": [
-          "praesentium",
-          "doloribus"
+          "dolorem",
+          "occaecati"
         ],
         "DisplayValues": [
-          "et",
-          "quae"
+          "facere",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 531,
+        "InterParenthesis": 33,
         "InterOperator": "And",
-        "UniqueHash": 733
+        "UniqueHash": 196
       }
     ]
   },
   {
-    "Name": "Quigley LLC",
-    "Description": "Assimilated local pricing structure",
-    "Rank": 504,
+    "Name": "DuBuque, Lockman and Maggio",
+    "Description": "Fully-configurable non-volatile time-frame",
+    "Rank": 855,
     "Restrictions": [
       {
-        "Name": "Kirlin, Jacobi and Williamson",
-        "Operator": "deserunt",
+        "Name": "Becker-Ondricka",
+        "Operator": "hic",
         "Values": [
-          "praesentium",
-          "doloribus"
+          "dolorem",
+          "occaecati"
         ],
         "DisplayValues": [
-          "et",
-          "quae"
+          "facere",
+          "aut"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 531,
+        "InterParenthesis": 33,
         "InterOperator": "And",
-        "UniqueHash": 733
+        "UniqueHash": 196
       }
     ]
   }

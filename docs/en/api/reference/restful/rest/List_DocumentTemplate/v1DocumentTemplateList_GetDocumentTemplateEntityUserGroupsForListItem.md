@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 686,
-    "Name": "Corwin, Anderson and Turcotte",
-    "ToolTip": "Impedit et maxime facere qui sequi inventore.",
-    "Deleted": true,
-    "Rank": 418,
-    "Type": "asperiores",
-    "ColorBlock": 316,
-    "IconHint": "molestias",
+    "Id": 726,
+    "Name": "Langworth, Larkin and Haley",
+    "ToolTip": "Sit debitis vitae tempore.",
+    "Deleted": false,
+    "Rank": 370,
+    "Type": "quos",
+    "ColorBlock": 311,
+    "IconHint": "cupiditate",
     "Selected": false,
-    "LastChanged": "2017-06-25T14:13:49.9625606+02:00",
+    "LastChanged": "2004-12-13T02:38:26.7611442+01:00",
     "ChildItems": [
       {
-        "Id": 460,
-        "Name": "Harris, Russel and Blanda",
-        "ToolTip": "Ducimus nihil ullam odit non et officia.",
+        "Id": 131,
+        "Name": "Boyle LLC",
+        "ToolTip": "Cumque similique fugit omnis.",
         "Deleted": false,
-        "Rank": 396,
-        "Type": "minima",
-        "ColorBlock": 430,
-        "IconHint": "et",
+        "Rank": 310,
+        "Type": "repudiandae",
+        "ColorBlock": 43,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2003-12-02T14:13:49.9625606+01:00",
+        "LastChanged": "2019-11-06T02:38:26.7611442+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "esse",
-        "Hidden": false,
-        "FullName": "Prof. Desmond Mabelle Mosciski IV",
+        "ExtraInfo": "quasi",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Mrs. Stephen William Dibbert IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldType": "System.String",
+            "FieldLength": 985
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "nulla",
+    "ExtraInfo": "nisi",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Shanel Thiel",
+    "FullName": "Dr. Amie Kerluke III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

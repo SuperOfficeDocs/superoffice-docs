@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 675,
-  "Year": 820,
+  "TargetGroupId": 804,
+  "Year": 810,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 855,
+      "TargetAssignmentInfoId": 50,
       "Values": [
-        915,
-        925
+        501,
+        65
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 817,
-      "DimensionListItemDisplayName": "Little, VonRueden and Collins",
+      "DimensionListItem": 521,
+      "DimensionListItemDisplayName": "Collier Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldType": "System.Int32",
+          "FieldLength": 8
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 696
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

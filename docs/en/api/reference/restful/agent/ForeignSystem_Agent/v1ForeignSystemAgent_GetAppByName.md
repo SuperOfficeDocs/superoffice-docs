@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Moen, Dietrich and Turner"
+  "ApplicationName": "Rolfson, Farrell and Zulauf"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 540,
-  "Name": "Pacocha LLC",
-  "CreatedDate": "2022-03-17T14:13:40.3909833+01:00",
-  "UpdatedDate": "2019-07-23T14:13:40.3909833+02:00",
+  "ForeignAppId": 67,
+  "Name": "Roob Inc and Sons",
+  "CreatedDate": "2000-07-17T02:38:21.4482803+02:00",
+  "UpdatedDate": "2003-07-10T02:38:21.4482803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 149,
-      "Name": "Mraz Inc and Sons",
-      "CreatedDate": "2023-05-23T14:13:40.3909833+02:00",
-      "UpdatedDate": "2003-03-24T14:13:40.3909833+01:00",
-      "AssociateFullName": "Mr. Lelah Bridgette Brakus DVM",
-      "CreatedBy": "et",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "repellat",
-      "ForeignAppId": 128,
+      "ForeignDeviceId": 496,
+      "Name": "Christiansen, Wunsch and Willms",
+      "CreatedDate": "2016-07-24T02:38:21.4482803+02:00",
+      "UpdatedDate": "2012-06-21T02:38:21.4482803+02:00",
+      "AssociateFullName": "Orville Bogisich",
+      "CreatedBy": "quod",
+      "UpdatedBy": "alias",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 44,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 129
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 777
+      "FieldLength": 751
     }
   }
 }

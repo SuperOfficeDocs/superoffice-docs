@@ -125,7 +125,7 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SourceContactId": 554,
-  "SourcePersonId": 272,
-  "DestinationContactId": 652,
-  "DestinationPersonId": 869,
-  "RelationId": 893,
-  "Comment": "veniam",
-  "RelationDefinitionId": 363,
-  "Reversed": 879,
-  "UpdatedDate": "2024-07-11T14:13:48.7430769+02:00",
-  "CreatedDate": "2024-09-15T14:13:48.7430769+02:00",
+  "SourcePersonId": 465,
+  "DestinationContactId": 34,
+  "DestinationPersonId": 538,
+  "RelationId": 438,
+  "Comment": "vitae",
+  "RelationDefinitionId": 772,
+  "Reversed": 370,
+  "UpdatedDate": "2018-11-12T02:38:26.0423248+01:00",
+  "CreatedDate": "2024-06-05T02:38:26.0423248+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Klein Group",
-  "SourcePersonName": "Jaskolski, Wilderman and Grimes",
-  "DestinationContactName": "Abernathy Inc and Sons",
-  "DestinationPersonName": "Christiansen, Brekke and Langosh",
-  "ActiveText": "recusandae",
-  "PassiveText": "dicta",
+  "SourceContactName": "Schulist, Bahringer and Considine",
+  "SourcePersonName": "Simonis Inc and Sons",
+  "DestinationContactName": "Rohan, Jerde and Lynch",
+  "DestinationPersonName": "Ziemann LLC",
+  "ActiveText": "omnis",
+  "PassiveText": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   },
   "_Links": {

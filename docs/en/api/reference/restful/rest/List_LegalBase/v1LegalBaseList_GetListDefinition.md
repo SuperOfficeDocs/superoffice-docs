@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Name": "Lueilwitz-Grady",
-  "Tooltip": "voluptatibus",
+  "Id": 427,
+  "Name": "Halvorson, Hartmann and Schaden",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 638,
-  "IsCustomList": false,
+  "Rank": 655,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "ListType": "quas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 757
     }
   },
   "_Links": {

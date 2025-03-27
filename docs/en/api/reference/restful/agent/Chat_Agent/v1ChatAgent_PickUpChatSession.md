@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/PickUpChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 562
+  "ChatSessionId": 438
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 979,
-  "TopicId": 750,
+  "ChatSessionId": 137,
+  "TopicId": 772,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sequi",
-  "CustomerHost": "amet",
-  "CustomerName": "Kub Group",
-  "CustomerEmail": "kiera.effertz@weissnat.com",
-  "CustomerPhone": "(752)939-4946 x9542",
+  "CustomerAlias": "ut",
+  "CustomerHost": "officia",
+  "CustomerName": "Denesik-Yundt",
+  "CustomerEmail": "rosalyn@schulist.com",
+  "CustomerPhone": "(584)081-5698",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Weimann, Schinner and Beier",
+  "CustomerCompanyName": "Swift Group",
   "Status": "Closed",
-  "FirstMessage": "dolore",
-  "LastMessage": "qui",
-  "WhenRequested": "2000-11-05T14:13:39.6722896+01:00",
-  "WhenStarted": "2022-02-13T14:13:39.6722896+01:00",
-  "WhenEnded": "2013-07-02T14:13:39.6722896+02:00",
-  "WhenIdle": "2004-08-24T14:13:39.6722896+02:00",
-  "WhenFetched": "2005-11-09T14:13:39.6722896+01:00",
-  "SessionKey": "incidunt",
-  "InitialQueuePos": 677,
-  "AlertLevel": 270,
-  "Rank": 444,
+  "FirstMessage": "est",
+  "LastMessage": "fugit",
+  "WhenRequested": "2007-12-19T02:38:20.9639576+01:00",
+  "WhenStarted": "2024-10-09T02:38:20.9639576+02:00",
+  "WhenEnded": "2009-11-06T02:38:20.9639576+01:00",
+  "WhenIdle": "2020-09-13T02:38:20.9639576+02:00",
+  "WhenFetched": "2011-08-14T02:38:20.9639576+02:00",
+  "SessionKey": "est",
+  "InitialQueuePos": 313,
+  "AlertLevel": 423,
+  "Rank": 906,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 533,
+  "Rating": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   }
 }

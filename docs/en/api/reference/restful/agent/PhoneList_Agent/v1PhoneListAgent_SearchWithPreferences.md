@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "id",
+  "SearchString": "rem",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-583-536-7884 x515",
-    "PersonCellPhone": "(512)887-7645",
-    "PersonPrivatePhone": "(190)500-5108",
-    "PersonFaxNumber": "372495",
-    "PersonPagerNumber": "1204187",
-    "PersonEmail": "pearl.mitchell@turcotte.biz",
-    "Id": 709,
-    "Name": "Hermann Inc and Sons",
-    "Tooltip": "et",
-    "UniqueId": "rerum",
+    "PersonDirectPhone": "(192)464-2318",
+    "PersonCellPhone": "(104)768-3848 x59234",
+    "PersonPrivatePhone": "1-938-122-1430 x152",
+    "PersonFaxNumber": "984206",
+    "PersonPagerNumber": "860445",
+    "PersonEmail": "hilma@cormier.us",
+    "Id": 995,
+    "Name": "Terry, Stoltenberg and Bartell",
+    "Tooltip": "porro",
+    "UniqueId": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 911
+        "FieldType": "System.Int32",
+        "FieldLength": 757
       }
     }
   }

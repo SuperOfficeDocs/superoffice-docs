@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Stanton, Kemmer and Kris",
-    "ToolTip": "Quam expedita.",
-    "Deleted": false,
-    "Rank": 312,
-    "Type": "aliquam",
-    "ColorBlock": 928,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2009-10-21T14:13:49.6648827+02:00",
+    "Id": 467,
+    "Name": "Huels-Goyette",
+    "ToolTip": "Sed optio nemo explicabo suscipit quis dolor.",
+    "Deleted": true,
+    "Rank": 447,
+    "Type": "hic",
+    "ColorBlock": 20,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2007-05-03T02:38:26.6830285+02:00",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Gaylord-Reinger",
-        "ToolTip": "Placeat voluptas et ut.",
-        "Deleted": false,
-        "Rank": 739,
-        "Type": "sapiente",
-        "ColorBlock": 917,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2023-06-18T14:13:49.6648827+02:00",
+        "Id": 158,
+        "Name": "Predovic, Hermiston and Doyle",
+        "ToolTip": "Quisquam quia iure commodi ex.",
+        "Deleted": true,
+        "Rank": 910,
+        "Type": "et",
+        "ColorBlock": 755,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2019-11-11T02:38:26.6830285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "recusandae",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mrs. Janie Prohaska",
+        "ExtraInfo": "porro",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Jenifer Colby Rowe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 299
+            "FieldType": "System.String",
+            "FieldLength": 836
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "magnam",
+    "ExtraInfo": "aut",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Cletus Purdy",
+    "FullName": "Gabe Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 965
       }
     }
   }

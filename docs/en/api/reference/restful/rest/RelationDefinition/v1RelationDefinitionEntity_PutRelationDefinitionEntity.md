@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 895,
-  "Name": "Dooley Group",
-  "Tooltip": "ut",
-  "PassiveText": "qui",
-  "Deleted": false,
-  "Rank": 38,
+  "ReldefId": 505,
+  "Name": "Towne Group",
+  "Tooltip": "molestiae",
+  "PassiveText": "error",
+  "Deleted": true,
+  "Rank": 161,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 808,
-  "Name": "Hudson LLC",
-  "Tooltip": "veniam",
-  "PassiveText": "et",
-  "Deleted": true,
-  "Rank": 927,
+  "ReldefId": 988,
+  "Name": "Walter LLC",
+  "Tooltip": "nisi",
+  "PassiveText": "molestiae",
+  "Deleted": false,
+  "Rank": 2,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   },
   "_Links": {

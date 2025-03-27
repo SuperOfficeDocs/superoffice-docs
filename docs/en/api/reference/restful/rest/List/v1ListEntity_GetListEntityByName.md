@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Bosco-Auer",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "Rank": 937,
+  "Id": 262,
+  "Name": "Grimes-Boyle",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 672,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aspernatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 636
     }
   }
 }

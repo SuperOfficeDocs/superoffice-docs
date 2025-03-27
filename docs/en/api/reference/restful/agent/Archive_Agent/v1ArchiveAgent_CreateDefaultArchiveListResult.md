@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 469,
+  "RowCount": 639,
   "Rows": [
     {
-      "EntityName": "Romaguera-Ebert",
-      "PrimaryKey": 42,
+      "EntityName": "Abernathy-Pacocha",
+      "PrimaryKey": 864,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "exercitationem",
-          "TooltipHint": "pariatur",
-          "LinkHint": "aut"
+          "DisplayValue": "libero",
+          "TooltipHint": "doloribus",
+          "LinkHint": "impedit"
         }
       },
-      "LinkHint": "quidem",
-      "StyleHint": "et",
+      "LinkHint": "dignissimos",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldType": "System.Int32",
+          "FieldLength": 500
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 431
+      "FieldLength": 734
     }
   }
 }

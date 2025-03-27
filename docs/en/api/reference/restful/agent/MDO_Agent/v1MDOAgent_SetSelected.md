@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Von-Kovacek",
-  "AdditionalInfo": "sunt",
+  "Name": "Heller LLC",
+  "AdditionalInfo": "nesciunt",
   "SelectableMDOList": [
     {
-      "Id": 904,
-      "Name": "Willms Inc and Sons",
-      "ToolTip": "Accusantium numquam itaque et ducimus et.",
+      "Id": 437,
+      "Name": "Kozey LLC",
+      "ToolTip": "Molestiae nam illum deserunt.",
       "Deleted": false,
-      "Rank": 953,
-      "Type": "corporis",
-      "ColorBlock": 142,
-      "IconHint": "consequatur",
+      "Rank": 63,
+      "Type": "sapiente",
+      "ColorBlock": 115,
+      "IconHint": "sint",
       "Selected": false,
-      "LastChanged": "2015-04-22T14:13:40.5940621+02:00",
+      "LastChanged": "2009-06-13T02:38:21.5732692+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "quasi",
+      "ExtraInfo": "modi",
+      "StyleHint": "ab",
       "Hidden": true,
-      "FullName": "Edmund Hills"
+      "FullName": "Aimee Kuhn"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Schmidt-Torp",
-    "ToolTip": "Qui enim.",
+    "Id": 334,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "A ducimus dicta voluptatibus velit quidem quis.",
     "Deleted": true,
-    "Rank": 747,
-    "Type": "sit",
-    "ColorBlock": 746,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2014-07-03T14:13:40.5940621+02:00",
+    "Rank": 137,
+    "Type": "et",
+    "ColorBlock": 493,
+    "IconHint": "voluptatum",
+    "Selected": true,
+    "LastChanged": "2003-01-24T02:38:21.5732692+01:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "Barrows, Gusikowski and Wiegand",
-        "ToolTip": "Quo tenetur at sed.",
+        "Id": 736,
+        "Name": "Schaden Inc and Sons",
+        "ToolTip": "Ut ex quis deleniti quidem.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "quia",
-        "ColorBlock": 892,
-        "IconHint": "non",
+        "Rank": 62,
+        "Type": "modi",
+        "ColorBlock": 591,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2008-09-04T14:13:40.5940621+02:00",
+        "LastChanged": "2014-08-07T02:38:21.5732692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "ducimus",
-        "Hidden": false,
-        "FullName": "Ms. Cody Koelpin",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Ms. Jose Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldLength": 252
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Manley Anderson",
+    "FullName": "Douglas Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 475
       }
     }
   }

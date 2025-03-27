@@ -128,12 +128,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 208,
-  "RecurrenceRuleId": 446
+  "MotherId": 689,
+  "RecurrenceRuleId": 743
 }
 ```
 
@@ -145,65 +145,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 345,
-    "StartDate": "2018-12-30T14:13:39.0005676+01:00",
-    "EndDate": "2008-05-18T14:13:39.0005676+02:00",
+    "AppointmentId": 368,
+    "StartDate": "2004-12-29T02:38:20.6514919+01:00",
+    "EndDate": "2023-11-04T02:38:20.6514919+01:00",
     "Type": "BookingForChecklist",
-    "Task": "similique",
-    "AssociateFullName": "Ms. Glenda Destany Waelchi III",
-    "ContactName": "Lind-O'Hara",
-    "Description": "Ameliorated composite structure",
-    "PersonFullName": "Miss Aubrey Tanya Wintheiser V",
-    "PersonId": 164,
-    "ContactId": 108,
-    "ProjectId": 969,
-    "ProjectName": "Zemlak LLC",
+    "Task": "repellendus",
+    "AssociateFullName": "Newell Eichmann",
+    "ContactName": "Cassin, Deckow and Erdman",
+    "Description": "Distributed empowering contingency",
+    "PersonFullName": "Suzanne Bernhard",
+    "PersonId": 788,
+    "ContactId": 994,
+    "ProjectId": 27,
+    "ProjectName": "Raynor-Casper",
     "IsPublished": true,
-    "AssociateId": 946,
-    "ColorIndex": 944,
-    "IsFree": true,
+    "AssociateId": 926,
+    "ColorIndex": 86,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 640,
-    "PriorityName": "Schneider, Rempel and Christiansen",
+    "PriorityId": 396,
+    "PriorityName": "Connelly, Johnston and Steuber",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2017-05-05T14:13:39.0005676+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2000-01-21T02:38:20.6514919+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2017-06-13T14:13:39.0005676+02:00",
-    "RecurringEndDate": "2010-12-23T14:13:39.0005676+01:00",
-    "MotherId": 57,
-    "AssignedBy": 212,
-    "AssignedByFullName": "Julianne Hettinger",
+    "RecurringStartDate": "2006-01-19T02:38:20.6514919+01:00",
+    "RecurringEndDate": "2021-08-08T02:38:20.6514919+02:00",
+    "MotherId": 830,
+    "AssignedBy": 644,
+    "AssignedByFullName": "Clifford Steuber",
     "RejectReason": "",
-    "Location": "eum",
-    "AlarmLeadTime": "sed",
-    "SaleId": 362,
-    "SaleName": "Feest-Romaguera",
-    "AssociateName": "Braun Inc and Sons",
-    "CreatedDate": "2017-06-29T14:13:39.0005676+02:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Jay Runte",
-    "CreatedByAssociateId": 180,
+    "Location": "maiores",
+    "AlarmLeadTime": "est",
+    "SaleId": 822,
+    "SaleName": "Ernser, Mitchell and Kulas",
+    "AssociateName": "Stanton Group",
+    "CreatedDate": "2004-05-25T02:38:20.6514919+02:00",
+    "CreatedBy": "sequi",
+    "CreatedByFullName": "Nola Kulas",
+    "CreatedByAssociateId": 315,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 261,
-    "Title": "quod",
-    "Agenda": "porro",
+    "PreferredTZLocation": 662,
+    "Title": "perspiciatis",
+    "Agenda": "quo",
     "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 852
       }
     }
   }

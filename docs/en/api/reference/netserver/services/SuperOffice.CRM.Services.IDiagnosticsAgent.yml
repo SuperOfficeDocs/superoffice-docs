@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
@@ -175,6 +176,38 @@ items:
   nameWithType.vb: IDiagnosticsAgent.GetCacheState(String())
   fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String())
   name.vb: GetCacheState(String())
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
+  id: GetCacheInvalidationGenerations(System.String[])
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCacheInvalidationGenerations(String[])
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerations(String[])
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet generation for provided names\n"
+  syntax:
+    content: CacheInvalidation[] GetCacheInvalidationGenerations(string[] names)
+    parameters:
+    - id: names
+      type: System.String[]
+      description: Name of caches
+    return:
+      type: SuperOffice.CRM.Services.CacheInvalidation[]
+      description: Array of caches with generation number
+    content.vb: Function GetCacheInvalidationGenerations(names As String()) As CacheInvalidation()
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations*
+  nameWithType.vb: IDiagnosticsAgent.GetCacheInvalidationGenerations(String())
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations(System.String())
+  name.vb: GetCacheInvalidationGenerations(String())
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
   id: GetEntityCountsForCurrentUser
@@ -749,6 +782,38 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations
+  isExternal: true
+  name: GetCacheInvalidationGenerations
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerations
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheInvalidationGenerations
+- uid: SuperOffice.CRM.Services.CacheInvalidation[]
+  isExternal: true
+  name: CacheInvalidation[]
+  nameWithType: CacheInvalidation[]
+  fullName: SuperOffice.CRM.Services.CacheInvalidation[]
+  nameWithType.vb: CacheInvalidation()
+  fullName.vb: SuperOffice.CRM.Services.CacheInvalidation()
+  name.vb: CacheInvalidation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.CRM.Services.CacheInvalidation
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.CRM.Services.CacheInvalidation
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
   isExternal: true

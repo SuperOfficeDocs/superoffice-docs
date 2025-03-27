@@ -131,15 +131,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 244,
-  "StartTime": "2021-12-28T14:13:38.9693251+01:00",
-  "EndTime": "2015-09-12T14:13:38.9693251+02:00",
-  "Count": 404,
-  "TaskId": 370
+  "ContactId": 339,
+  "StartTime": "2010-01-02T02:38:20.557605+01:00",
+  "EndTime": "2023-06-20T02:38:20.557605+02:00",
+  "Count": 40,
+  "TaskId": 226
 }
 ```
 
@@ -151,65 +151,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 427,
-    "StartDate": "1997-11-15T14:13:38.9693251+01:00",
-    "EndDate": "2011-04-16T14:13:38.9693251+02:00",
+    "AppointmentId": 927,
+    "StartDate": "2004-02-15T02:38:20.557605+01:00",
+    "EndDate": "1998-03-19T02:38:20.557605+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Miss Summer Janie Bernier I",
-    "ContactName": "Conroy, Walker and McDermott",
-    "Description": "Upgradable intermediate protocol",
-    "PersonFullName": "Elias Buckridge DDS",
-    "PersonId": 99,
-    "ContactId": 80,
-    "ProjectId": 933,
-    "ProjectName": "Powlowski Group",
+    "Task": "omnis",
+    "AssociateFullName": "Mrs. Andres Emmalee Stiedemann MD",
+    "ContactName": "Cole-Hettinger",
+    "Description": "Intuitive heuristic hardware",
+    "PersonFullName": "William Lynch",
+    "PersonId": 653,
+    "ContactId": 316,
+    "ProjectId": 81,
+    "ProjectName": "Spinka, Renner and DuBuque",
     "IsPublished": false,
-    "AssociateId": 518,
-    "ColorIndex": 201,
+    "AssociateId": 93,
+    "ColorIndex": 774,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 87,
-    "PriorityName": "Ledner-Medhurst",
+    "PriorityId": 620,
+    "PriorityName": "Mueller, Greenholt and Hand",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2025-01-21T14:13:38.9693251+01:00",
+    "ActiveDate": "2009-03-13T02:38:20.557605+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-06-03T14:13:38.9693251+02:00",
-    "RecurringEndDate": "2006-11-09T14:13:38.9693251+01:00",
-    "MotherId": 349,
-    "AssignedBy": 785,
-    "AssignedByFullName": "Erwin Wolf",
-    "RejectReason": "",
-    "Location": "ad",
-    "AlarmLeadTime": "possimus",
-    "SaleId": 335,
-    "SaleName": "Schmidt, Gerlach and Wuckert",
-    "AssociateName": "Hahn-Cartwright",
-    "CreatedDate": "2020-12-21T14:13:38.9693251+01:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Mrs. Cleveland Jettie Gusikowski Jr.",
-    "CreatedByAssociateId": 383,
+    "RecurringStartDate": "2003-03-11T02:38:20.557605+01:00",
+    "RecurringEndDate": "2010-01-04T02:38:20.557605+01:00",
+    "MotherId": 625,
+    "AssignedBy": 197,
+    "AssignedByFullName": "Mr. D'angelo Hilpert V",
+    "RejectReason": "syndicate strategic relationships",
+    "Location": "molestias",
+    "AlarmLeadTime": "illum",
+    "SaleId": 671,
+    "SaleName": "Frami Inc and Sons",
+    "AssociateName": "Cremin-Schulist",
+    "CreatedDate": "2017-07-19T02:38:20.557605+02:00",
+    "CreatedBy": "quisquam",
+    "CreatedByFullName": "Natalia Gottlieb",
+    "CreatedByAssociateId": 973,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 194,
-    "Title": "nemo",
-    "Agenda": "qui",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 12,
+    "Title": "qui",
+    "Agenda": "a",
+    "InternalNotes": "eius",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 244
+        "FieldType": "System.Int32",
+        "FieldLength": 648
       }
     }
   }

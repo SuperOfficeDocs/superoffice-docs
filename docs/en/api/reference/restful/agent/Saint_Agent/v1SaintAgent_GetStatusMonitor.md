@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270
+  "Id": 805
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 502,
-  "Rank": 428,
-  "DefaultTask": 835,
-  "DefaultTaskText": "odio",
+  "OwnerTable": 594,
+  "Rank": 522,
+  "DefaultTask": 359,
+  "DefaultTaskText": "suscipit",
   "IsVisual": false,
-  "LastGenerated": "2023-06-19T14:13:41.172056+02:00",
-  "Description": "De-engineered hybrid utilisation",
-  "Name": "Casper, Jacobson and Nitzsche",
-  "StatusMonitorId": 336,
-  "PictureId": 970,
+  "LastGenerated": "2012-05-17T02:38:21.8076201+02:00",
+  "Description": "Compatible human-resource Graphical User Interface",
+  "Name": "Bernier, Wehner and Kuhic",
+  "StatusMonitorId": 867,
+  "PictureId": 483,
   "NeedsUpdate": true,
   "Deleted": true,
-  "NumMatches": 981,
-  "NumNeedUpdate": 950,
-  "GenerationStart": "2011-01-12T14:13:41.172056+01:00",
+  "NumMatches": 715,
+  "NumNeedUpdate": 921,
+  "GenerationStart": "2013-09-08T02:38:21.8076201+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 709
     }
   }
 }

@@ -93,28 +93,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grimes LLC",
-  "ListItemId": 26,
+  "UdListDefinitionName": "Aufderhar LLC",
+  "ListItemId": 903,
   "UserGroups": [
     {
-      "Id": 689,
-      "Name": "Brekke, Swift and Wiza",
-      "ToolTip": "Accusamus quidem natus temporibus quidem.",
+      "Id": 956,
+      "Name": "Cronin Inc and Sons",
+      "ToolTip": "Laborum quam totam consequatur non aut laboriosam.",
       "Deleted": false,
-      "Rank": 290,
-      "Type": "quod",
-      "ColorBlock": 123,
-      "IconHint": "sequi",
-      "Selected": true,
-      "LastChanged": "2000-03-05T14:13:40.4690906+01:00",
+      "Rank": 682,
+      "Type": "veniam",
+      "ColorBlock": 196,
+      "IconHint": "facere",
+      "Selected": false,
+      "LastChanged": "2007-09-05T02:38:21.4951545+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "est",
+      "ExtraInfo": "ipsum",
+      "StyleHint": "ad",
       "Hidden": true,
-      "FullName": "Dakota Price"
+      "FullName": "Miss Mafalda Webster Bechtelar V"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 663,
-    "Name": "Nikolaus-Zieme",
-    "ToolTip": "Excepturi et necessitatibus illum quia voluptatem iure praesentium.",
-    "Deleted": false,
-    "Rank": 62,
-    "Type": "molestiae",
-    "ColorBlock": 874,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-07-01T14:13:40.4690906+02:00",
+    "Id": 88,
+    "Name": "Luettgen Group",
+    "ToolTip": "Voluptatem aspernatur.",
+    "Deleted": true,
+    "Rank": 564,
+    "Type": "officia",
+    "ColorBlock": 912,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "2014-09-29T02:38:21.4951545+02:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Stiedemann-Barton",
-        "ToolTip": "Nisi totam cumque.",
+        "Id": 415,
+        "Name": "Bechtelar-Botsford",
+        "ToolTip": "Ab perspiciatis sed nostrum.",
         "Deleted": true,
-        "Rank": 511,
-        "Type": "velit",
-        "ColorBlock": 226,
-        "IconHint": "id",
+        "Rank": 850,
+        "Type": "sunt",
+        "ColorBlock": 935,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2007-06-02T14:13:40.4690906+02:00",
+        "LastChanged": "1999-12-30T02:38:21.4951545+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "dolore",
+        "ExtraInfo": "sed",
+        "StyleHint": "distinctio",
         "Hidden": false,
-        "FullName": "Miguel Marvin",
+        "FullName": "Myrtice Russ Hahn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldType": "System.Int32",
+            "FieldLength": 800
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "animi",
+    "ExtraInfo": "aut",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Christy Keeling III",
+    "FullName": "Prof. Adrain Ondricka DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldLength": 501
       }
     }
   }

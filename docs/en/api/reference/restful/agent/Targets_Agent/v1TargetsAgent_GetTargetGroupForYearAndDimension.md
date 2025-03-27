@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 678,
-  "DimensionId": 441
+  "TargetYear": 927,
+  "DimensionId": 611
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 306,
-  "Year": 247,
+  "TargetGroupId": 4,
+  "Year": 642,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 510,
+      "TargetAssignmentInfoId": 558,
       "Values": [
-        330,
-        545
+        335,
+        432
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 439,
-      "DimensionListItemDisplayName": "Quitzon-Schoen",
+      "DimensionListItem": 728,
+      "DimensionListItemDisplayName": "Witting, Gaylord and Gutmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 426
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 881
     }
   }
 }

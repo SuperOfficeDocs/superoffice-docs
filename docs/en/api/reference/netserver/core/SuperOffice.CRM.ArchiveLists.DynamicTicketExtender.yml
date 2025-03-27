@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender.#ctor
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colCategoryFullName
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colOrigin
+  - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colOwnedBy
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colPriorityName
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colReadStatus
   - SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colSLevel
@@ -30,7 +31,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCustomized dynamic extender for the Ticket table\n"
-  remarks: "\nThe following special fields are handled:\n<br />ticketTypeName - Return friendly ticket type name\n<br />ticketStatusName - Return friendly ticket status name\n<br />categoryFullName - Return friendly ticket category name\n<br />priorityName - Return friendly ticket priority name\n<br />status - Return friendly internal ticket status name\n<br />origin - Return friendly ticket origin name\n<br />slevel - Return friendly ticket slevel name\n<br />readStatus - Return friendly ticket read status name\n"
+  remarks: "\nThe following special fields are handled:\n<br />ticketTypeName - Return friendly ticket type name\n<br />ownedBy - Return EjUser name corresponding to the ownedBy value\n<br />ticketStatusName - Return friendly ticket status name\n<br />categoryFullName - Return friendly ticket category name\n<br />priorityName - Return friendly ticket priority name\n<br />status - Return friendly internal ticket status name\n<br />origin - Return friendly ticket origin name\n<br />slevel - Return friendly ticket slevel name\n<br />readStatus - Return friendly ticket read status name\n"
   syntax:
     content: >-
       [DynamicExtender("ticket")]
@@ -250,6 +251,32 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colTicketType As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colOwnedBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colOwnedBy
+  id: _colOwnedBy
+  parent: SuperOffice.CRM.ArchiveLists.DynamicTicketExtender
+  langs:
+  - csharp
+  - vb
+  name: _colOwnedBy
+  nameWithType: DynamicTicketExtender._colOwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.DynamicTicketExtender._colOwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colOwnedBy
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colOwnedBy As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

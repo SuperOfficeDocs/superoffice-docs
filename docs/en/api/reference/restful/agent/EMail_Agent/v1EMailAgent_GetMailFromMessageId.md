@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "quibusdam"
+  "MessageId": "sed"
 }
 ```
 
@@ -117,96 +117,96 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 722,
-      "ContactName": "Considine, Donnelly and Sporer",
-      "PersonId": 729,
-      "PersonName": "McClure Group",
-      "AssociateId": 140,
-      "Address": "beatae",
-      "EmailId": 261,
+      "ContactId": 528,
+      "ContactName": "Ondricka, Dach and Willms",
+      "PersonId": 315,
+      "PersonName": "Grimes-Hilpert",
+      "AssociateId": 322,
+      "Address": "sed",
+      "EmailId": 437,
       "DuplicatePersonIds": [
-        597,
-        196
+        312,
+        184
       ],
-      "Name": "Trantow-Connelly",
+      "Name": "Buckridge, Hayes and Senger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 691
+          "FieldType": "System.Int32",
+          "FieldLength": 352
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 109,
-      "ContactName": "Kunde-Wilkinson",
-      "PersonId": 512,
-      "PersonName": "Hartmann, Altenwerth and Gulgowski",
-      "AssociateId": 649,
-      "Address": "consectetur",
-      "EmailId": 423,
+      "ContactId": 652,
+      "ContactName": "Weissnat-Kris",
+      "PersonId": 394,
+      "PersonName": "Cole, Yundt and Marvin",
+      "AssociateId": 413,
+      "Address": "et",
+      "EmailId": 785,
       "DuplicatePersonIds": [
-        489,
-        609
+        847,
+        124
       ],
-      "Name": "Spinka Inc and Sons",
+      "Name": "Carroll Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 397
+          "FieldType": "System.Int32",
+          "FieldLength": 167
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 423,
-      "ContactName": "Rogahn LLC",
-      "PersonId": 319,
-      "PersonName": "Ferry, Miller and Schaden",
-      "AssociateId": 597,
-      "Address": "fugiat",
-      "EmailId": 956,
+      "ContactId": 410,
+      "ContactName": "Johnston Group",
+      "PersonId": 547,
+      "PersonName": "Schimmel-Price",
+      "AssociateId": 249,
+      "Address": "dolores",
+      "EmailId": 658,
       "DuplicatePersonIds": [
-        777,
-        400
+        937,
+        70
       ],
-      "Name": "Powlowski-Steuber",
+      "Name": "Kutch-Sauer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 997
+          "FieldType": "System.Int32",
+          "FieldLength": 183
         }
       }
     }
   ],
-  "Subject": "cupiditate",
+  "Subject": "nam",
   "HTMLBody": "et",
   "From": null,
-  "Sent": "2014-08-22T14:13:40.1722829+02:00",
-  "Size": 133,
+  "Sent": "2016-02-14T02:38:21.3389145+01:00",
+  "Size": 832,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestias",
-  "PlainBody": "neque",
-  "IsSent": false,
+  "MessageID": "veniam",
+  "PlainBody": "enim",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 325,
+  "ServerId": 134,
   "Attachments": [
     {
-      "Description": "Profit-focused national extranet",
-      "Filename": "ipsa",
-      "Size": 342,
-      "Type": "ut",
-      "Encoding": "quas",
-      "Id": "ex",
+      "Description": "Customer-focused motivating hierarchy",
+      "Filename": "ipsam",
+      "Size": 113,
+      "Type": "exercitationem",
+      "Encoding": "sed",
+      "Id": "recusandae",
       "Disposition": "autem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
@@ -214,50 +214,50 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 681
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Heaney, Mitchell and Rohan",
+      "Name": "Donnelly, Schumm and Marks",
       "Values": [
-        "id",
-        "eveniet"
+        "et",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     },
     {
-      "Name": "Heaney, Mitchell and Rohan",
+      "Name": "Donnelly, Schumm and Marks",
       "Values": [
-        "id",
-        "eveniet"
+        "et",
+        "repudiandae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldType": "System.String",
+          "FieldLength": 648
         }
       }
     }
   ],
-  "FolderName": "Greenfelder-Koch",
-  "EmailItemId": 353,
-  "AccountId": 721,
-  "ReceivedAt": "1999-10-29T14:13:40.1722829+02:00",
+  "FolderName": "Purdy-Larson",
+  "EmailItemId": 380,
+  "AccountId": 426,
+  "ReceivedAt": "2006-05-30T02:38:21.3389145+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-08-11T14:13:40.1722829+02:00",
+  "RepliedAt": "2007-03-29T02:38:21.3389145+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldType": "System.String",
+      "FieldLength": 115
     }
   }
 }

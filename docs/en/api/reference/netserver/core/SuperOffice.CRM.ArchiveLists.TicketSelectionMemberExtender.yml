@@ -56,6 +56,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryFullName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityName
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTitle
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedAt
@@ -89,7 +90,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colDeadline
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colHasAttachment
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTags
-  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colContent
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colLanguageCode
@@ -99,6 +99,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketType
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatusName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatus
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.PriorityName
@@ -580,6 +581,13 @@ references:
   name: _colPriorityName
   nameWithType: TicketExtenderBase._colPriorityName
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityName
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  name: _colOwnedBy
+  nameWithType: TicketExtenderBase._colOwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketId
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketId
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
@@ -811,13 +819,6 @@ references:
   name: _colTags
   nameWithType: TicketExtenderBase._colTags
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTags
-- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
-  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
-  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
-  isExternal: true
-  name: _colOwnedBy
-  nameWithType: TicketExtenderBase._colOwnedBy
-  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
@@ -948,6 +949,13 @@ references:
   name: TicketType
   nameWithType: TicketExtenderBase.TicketType
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketType
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  name: OwnedBy
+  nameWithType: TicketExtenderBase.OwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatusName
   commentId: P:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatusName
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

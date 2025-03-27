@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 293,
-    "ResourceId": 305,
-    "Text": "non",
+    "LanguageId": 422,
+    "ResourceId": 115,
+    "Text": "doloremque",
     "Type": "Column",
-    "LocalizedTextId": 685,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 427,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 194
       }
     }
   }

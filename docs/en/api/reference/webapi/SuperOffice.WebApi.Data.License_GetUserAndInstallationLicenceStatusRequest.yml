@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  id: License_GetUserAndInstallationLicenceStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  langs:
+  - csharp
+  - vb
+  name: License_GetUserAndInstallationLicenceStatusRequest
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class License_GetUserAndInstallationLicenceStatusRequest : Object'
+    content.vb: >-
+      Public Class License_GetUserAndInstallationLicenceStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: License_GetUserAndInstallationLicenceStatusRequest()
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest.License_GetUserAndInstallationLicenceStatusRequest()
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.License_GetUserAndInstallationLicenceStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public License_GetUserAndInstallationLicenceStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.#ctor
+  isExternal: true
+  name: License_GetUserAndInstallationLicenceStatusRequest
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest.License_GetUserAndInstallationLicenceStatusRequest
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.License_GetUserAndInstallationLicenceStatusRequest
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest.AssociateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

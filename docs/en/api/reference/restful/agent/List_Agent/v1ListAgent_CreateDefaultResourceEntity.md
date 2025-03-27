@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 316,
-  "Name": "Dickinson-Fay",
-  "Rank": 574,
-  "Tooltip": "quam",
+  "ResourceId": 624,
+  "Name": "Durgan Group",
+  "Rank": 471,
+  "Tooltip": "et",
   "Deleted": true,
   "IsLocation": true,
-  "LocationAddress": "reiciendis",
+  "LocationAddress": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 251
     }
   }
 }

@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=consequuntur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sed
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Aug 2019 14:13:48 G8T
+Last-Modified: Fri, 14 Apr 2017 02:38:26 G4T
 
 {
-  "Key": "alias",
-  "Value": "vero",
-  "RecordId": 214,
-  "CreatedDate": "2009-09-30T14:13:48.8993207+02:00",
-  "UpdatedDate": "2019-08-21T14:13:48.8993207+02:00",
-  "UpdatedBy": "laudantium",
-  "CreatedBy": "ut",
-  "TableName": "Sporer LLC",
+  "Key": "a",
+  "Value": "laboriosam",
+  "RecordId": 474,
+  "CreatedDate": "2001-11-01T02:38:26.1204323+01:00",
+  "UpdatedDate": "2017-04-14T02:38:26.1204323+02:00",
+  "UpdatedBy": "exercitationem",
+  "CreatedBy": "aliquid",
+  "TableName": "Rolfson, Towne and Zulauf",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 335
     }
   }
 }

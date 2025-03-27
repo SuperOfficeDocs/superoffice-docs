@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 14,
-  "Name": "Kovacek LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 684,
+  "Id": 681,
+  "Name": "White Inc and Sons",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 737,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": true
+  "ListType": "illum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 324,
-  "Name": "Roberts, Feil and Larkin",
-  "Tooltip": "ab",
-  "Deleted": true,
-  "Rank": 301,
+  "Id": 12,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "Rank": 170,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 195
     }
   }
 }

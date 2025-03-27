@@ -80,9 +80,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "deleniti",
-  "RecordId": 1002,
-  "Fields": "doloremque"
+  "Table": "et",
+  "RecordId": 321,
+  "Fields": "error"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "nulla",
+    "Field": "repellendus",
     "FieldValue": null
   },
   {
-    "Field": "nulla",
+    "Field": "repellendus",
     "FieldValue": null
   }
 ]

@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 239,
-  "Name": "Wolf Group",
-  "AssociateId": 775,
-  "DetailsTable": 279,
-  "DetailsRecord": 955,
-  "IsSystemTask": false,
+  "Id": 358,
+  "Name": "Durgan-Collins",
+  "AssociateId": 51,
+  "DetailsTable": 715,
+  "DetailsRecord": 486,
+  "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "deserunt",
-    "ParameterObject2": "perspiciatis"
+    "ParameterObject1": "harum",
+    "ParameterObject2": "autem"
   },
-  "LastStarted": "2024-12-02T14:13:49.4305556+01:00",
-  "Created": "2007-12-15T14:13:49.4305556+01:00",
-  "StartCount": 659,
-  "DatabaseSerialNumber": "756006",
-  "Context": "odio",
-  "Result": "id",
+  "LastStarted": "2019-10-02T02:38:26.5266399+02:00",
+  "Created": "1997-11-19T02:38:26.5266399+01:00",
+  "StartCount": 902,
+  "DatabaseSerialNumber": "913549",
+  "Context": "animi",
+  "Result": "odit",
   "State": "All",
-  "Description": "Enterprise-wide intangible workforce",
-  "Response": "sint",
-  "Request": "doloremque",
-  "ProgressDescription": "User-centric bottom-line superstructure",
-  "ProgressPercent": 408,
-  "FileName": "Trantow, Green and Gleason",
+  "Description": "Enterprise-wide asynchronous productivity",
+  "Response": "rerum",
+  "Request": "voluptatem",
+  "ProgressDescription": "Ergonomic client-server task-force",
+  "ProgressPercent": 187,
+  "FileName": "Sauer, Kunze and Lakin",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Weimann Group",
-  "AssociateId": 496,
-  "DetailsTable": 701,
-  "DetailsRecord": 182,
-  "IsSystemTask": false,
+  "Id": 101,
+  "Name": "Nicolas, Zulauf and Runolfsson",
+  "AssociateId": 58,
+  "DetailsTable": 100,
+  "DetailsRecord": 400,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "rem",
-    "ParameterObject2": "quo"
+    "ParameterObject1": "ex",
+    "ParameterObject2": "quod"
   },
-  "LastStarted": "2009-02-06T14:13:49.4305556+01:00",
-  "Created": "2018-11-24T14:13:49.4305556+01:00",
-  "StartCount": 130,
-  "DatabaseSerialNumber": "623992",
-  "Context": "temporibus",
-  "Result": "hic",
+  "LastStarted": "1998-09-25T02:38:26.5266399+02:00",
+  "Created": "2021-04-08T02:38:26.5266399+02:00",
+  "StartCount": 843,
+  "DatabaseSerialNumber": "638222",
+  "Context": "corrupti",
+  "Result": "sit",
   "State": "All",
-  "Description": "Progressive scalable project",
-  "Response": "autem",
-  "Request": "in",
-  "ProgressDescription": "Cross-platform hybrid internet solution",
-  "ProgressPercent": 610,
-  "FileName": "Langworth Inc and Sons",
+  "Description": "Digitized 6th generation solution",
+  "Response": "laborum",
+  "Request": "veritatis",
+  "ProgressDescription": "Polarised multi-state capacity",
+  "ProgressPercent": 721,
+  "FileName": "Ryan Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   }
 }

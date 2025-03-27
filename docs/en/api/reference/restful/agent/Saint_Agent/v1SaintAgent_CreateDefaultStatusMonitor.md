@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 845,
-  "Rank": 367,
-  "DefaultTask": 5,
-  "DefaultTaskText": "sed",
+  "OwnerTable": 515,
+  "Rank": 393,
+  "DefaultTask": 260,
+  "DefaultTaskText": "dolores",
   "IsVisual": false,
-  "LastGenerated": "2016-07-21T14:13:41.172056+02:00",
-  "Description": "Streamlined impactful approach",
-  "Name": "O'Reilly, Kuhic and Little",
-  "StatusMonitorId": 480,
-  "PictureId": 919,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 501,
-  "NumNeedUpdate": 663,
-  "GenerationStart": "2007-08-27T14:13:41.172056+02:00",
+  "LastGenerated": "2019-05-13T02:38:21.8076201+02:00",
+  "Description": "Universal context-sensitive attitude",
+  "Name": "Wisozk, Bednar and Goldner",
+  "StatusMonitorId": 270,
+  "PictureId": 146,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 857,
+  "NumNeedUpdate": 786,
+  "GenerationStart": "2025-02-08T02:38:21.8076201+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 658
     }
   }
 }

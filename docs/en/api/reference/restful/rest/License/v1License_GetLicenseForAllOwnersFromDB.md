@@ -77,15 +77,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 416,
-        "NumberOfLicensesFree": 521,
-        "NumberOfLicensesAdded": 882,
-        "NumberOfLicensesNewTotal": 267,
-        "NumberOfLicensesNewFree": 66,
-        "NumberOfLicensesTotal": 790
+        "NumberOfLicensesInUse": 508,
+        "NumberOfLicensesFree": 538,
+        "NumberOfLicensesAdded": 688,
+        "NumberOfLicensesNewTotal": 935,
+        "NumberOfLicensesNewFree": 734,
+        "NumberOfLicensesTotal": 173
       }
     ],
-    "AccumulatedNextCheckDate": "2018-10-08T14:13:49.461799+02:00"
+    "AccumulatedNextCheckDate": "2009-06-22T02:38:26.542263+02:00"
   },
   {
     "Reason": "",
@@ -96,15 +96,15 @@ Content-Type: application/json; charset=utf-8
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 416,
-        "NumberOfLicensesFree": 521,
-        "NumberOfLicensesAdded": 882,
-        "NumberOfLicensesNewTotal": 267,
-        "NumberOfLicensesNewFree": 66,
-        "NumberOfLicensesTotal": 790
+        "NumberOfLicensesInUse": 508,
+        "NumberOfLicensesFree": 538,
+        "NumberOfLicensesAdded": 688,
+        "NumberOfLicensesNewTotal": 935,
+        "NumberOfLicensesNewFree": 734,
+        "NumberOfLicensesTotal": 173
       }
     ],
-    "AccumulatedNextCheckDate": "2018-10-08T14:13:49.461799+02:00"
+    "AccumulatedNextCheckDate": "2009-06-22T02:38:26.542263+02:00"
   }
 ]
 ```

@@ -89,7 +89,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 479,
-  "TopicId": 703,
+  "ChatSessionId": 811,
+  "TopicId": 181,
   "User": null,
   "Person": null,
-  "CustomerAlias": "qui",
-  "CustomerHost": "tempora",
-  "CustomerName": "Lindgren Group",
-  "CustomerEmail": "dedrick.bergnaum@beer.uk",
-  "CustomerPhone": "789-328-7204 x715",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Volkman, Hammes and Schuster",
+  "CustomerAlias": "quod",
+  "CustomerHost": "neque",
+  "CustomerName": "Pagac LLC",
+  "CustomerEmail": "sebastian@goyettearmstrong.name",
+  "CustomerPhone": "(764)112-2188 x70404",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Zulauf LLC",
   "Status": "Closed",
   "FirstMessage": "tempora",
-  "LastMessage": "laboriosam",
-  "WhenRequested": "2023-02-18T14:13:48.4758003+01:00",
-  "WhenStarted": "2015-12-04T14:13:48.4758003+01:00",
-  "WhenEnded": "2022-10-23T14:13:48.4758003+02:00",
-  "WhenIdle": "2003-04-22T14:13:48.4758003+02:00",
-  "WhenFetched": "2003-03-22T14:13:48.4758003+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 259,
-  "AlertLevel": 466,
-  "Rank": 139,
+  "LastMessage": "animi",
+  "WhenRequested": "2004-03-19T02:38:25.9485792+01:00",
+  "WhenStarted": "2004-08-11T02:38:25.9485792+02:00",
+  "WhenEnded": "1998-04-03T02:38:25.9485792+02:00",
+  "WhenIdle": "2009-09-07T02:38:25.9485792+02:00",
+  "WhenFetched": "2016-12-28T02:38:25.9485792+01:00",
+  "SessionKey": "quod",
+  "InitialQueuePos": 656,
+  "AlertLevel": 788,
+  "Rank": 717,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 380,
+  "ChatbotIsActive": false,
+  "Rating": 878,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldLength": 671
     }
   }
 }

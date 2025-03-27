@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 95,
-  "Name": "Swift-Sporer",
-  "Description": "Optimized radical infrastructure",
-  "DefaultHeight": 364,
-  "DefaultWidth": 170,
+  "DashboardTileDefinitionId": 496,
+  "Name": "Leuschke-Rempel",
+  "Description": "Adaptive 3rd generation toolset",
+  "DefaultHeight": 400,
+  "DefaultWidth": 785,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Grimes-Schulist",
-  "SelectionId": 438,
+  "EntityName": "McGlynn, Swaniawski and Breitenberg",
+  "SelectionId": 177,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laudantium",
+  "CurrencyCode": "deleniti",
   "Measure": "Average",
-  "MeasureField": "accusamus",
-  "SortBy": "dolor",
-  "LayoutConfig": "quis",
-  "SecondarySelectionId": 238,
-  "MeasureByField": "quasi",
+  "MeasureField": "sed",
+  "SortBy": "sunt",
+  "LayoutConfig": "nesciunt",
+  "SecondarySelectionId": 161,
+  "MeasureByField": "cum",
   "Usage": "Dashboard",
-  "ProviderName": "Hackett, Koss and Predovic",
+  "ProviderName": "Schmidt Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 591
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

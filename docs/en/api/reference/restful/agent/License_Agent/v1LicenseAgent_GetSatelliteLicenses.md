@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 556
+  "SatelliteId": 638
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Berge, Cremin and Harris",
-    "Description": "Programmable optimizing circuit",
+    "Name": "Bashirian Inc and Sons",
+    "Description": "Team-oriented exuding success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 244,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 79,
-        "InUse": 280,
+        "Unrestricted": false,
+        "Total": 937,
+        "Tooltip": "sed",
+        "CanAssign": true,
+        "Free": 167,
+        "InUse": 264,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 319,
-        "Name": "Hayes LLC",
-        "Description": "Synchronised eco-centric Graphical User Interface",
-        "PrerequisiteModuleName": "Wiegand LLC",
-        "SortOrder": 767,
-        "ExtraFlags": 549,
+        "ModuleLicenseId": 679,
+        "Name": "Thiel-Blick",
+        "Description": "Intuitive scalable customer loyalty",
+        "PrerequisiteModuleName": "Kunde-Schinner",
+        "SortOrder": 177,
+        "ExtraFlags": 825,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldLength": 992
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 661,
-        "Tooltip": "consectetur",
-        "CanAssign": true,
-        "Free": 616,
-        "InUse": 729,
+        "Total": 989,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 429,
+        "InUse": 799,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 794,
-        "Name": "Swaniawski LLC",
-        "Description": "Multi-tiered holistic focus group",
-        "PrerequisiteModuleName": "Kautzer, Friesen and Legros",
-        "SortOrder": 88,
-        "ExtraFlags": 169,
+        "Assigned": true,
+        "ModuleLicenseId": 335,
+        "Name": "Kunde LLC",
+        "Description": "Integrated dynamic capacity",
+        "PrerequisiteModuleName": "Frami Group",
+        "SortOrder": 904,
+        "ExtraFlags": 342,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 749
+            "FieldType": "System.Int32",
+            "FieldLength": 223
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   },
   {
-    "Name": "Berge, Cremin and Harris",
-    "Description": "Programmable optimizing circuit",
+    "Name": "Bashirian Inc and Sons",
+    "Description": "Team-oriented exuding success",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 244,
-        "Tooltip": "qui",
-        "CanAssign": false,
-        "Free": 79,
-        "InUse": 280,
+        "Unrestricted": false,
+        "Total": 937,
+        "Tooltip": "sed",
+        "CanAssign": true,
+        "Free": 167,
+        "InUse": 264,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 319,
-        "Name": "Hayes LLC",
-        "Description": "Synchronised eco-centric Graphical User Interface",
-        "PrerequisiteModuleName": "Wiegand LLC",
-        "SortOrder": 767,
-        "ExtraFlags": 549,
+        "ModuleLicenseId": 679,
+        "Name": "Thiel-Blick",
+        "Description": "Intuitive scalable customer loyalty",
+        "PrerequisiteModuleName": "Kunde-Schinner",
+        "SortOrder": 177,
+        "ExtraFlags": 825,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldLength": 992
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 661,
-        "Tooltip": "consectetur",
-        "CanAssign": true,
-        "Free": 616,
-        "InUse": 729,
+        "Total": 989,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 429,
+        "InUse": 799,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 794,
-        "Name": "Swaniawski LLC",
-        "Description": "Multi-tiered holistic focus group",
-        "PrerequisiteModuleName": "Kautzer, Friesen and Legros",
-        "SortOrder": 88,
-        "ExtraFlags": 169,
+        "Assigned": true,
+        "ModuleLicenseId": 335,
+        "Name": "Kunde LLC",
+        "Description": "Integrated dynamic capacity",
+        "PrerequisiteModuleName": "Frami Group",
+        "SortOrder": 904,
+        "ExtraFlags": 342,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 749
+            "FieldType": "System.Int32",
+            "FieldLength": 223
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 962
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

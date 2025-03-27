@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 796,
-  "NewName": "Carroll LLC",
-  "ValidFrom": "2016-05-05T14:13:41.0939485+02:00",
-  "ValidTo": "2022-06-17T14:13:41.0939485+02:00",
-  "NewCurrencyId": 270,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 311,
+  "NewName": "Bechtelar-Pouros",
+  "ValidFrom": "2021-12-09T02:38:21.7607486+01:00",
+  "ValidTo": "2012-04-14T02:38:21.7607486+02:00",
+  "NewCurrencyId": 844,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 623,
-  "ERPPriceListKey": "animi",
-  "QuoteConnectionId": 875,
-  "Name": "Baumbach Inc and Sons",
-  "Description": "User-friendly mission-critical capability",
-  "Currency": "dolorem",
-  "CurrencyName": "Bruen-Toy",
-  "ValidFrom": "2024-03-01T14:13:41.0939485+01:00",
-  "ValidTo": "1998-02-14T14:13:41.0939485+01:00",
-  "IsActive": false,
+  "PriceListId": 694,
+  "ERPPriceListKey": "porro",
+  "QuoteConnectionId": 221,
+  "Name": "Labadie LLC",
+  "Description": "Sharable 4th generation hub",
+  "Currency": "doloribus",
+  "CurrencyName": "Graham-Nienow",
+  "ValidFrom": "2017-10-15T02:38:21.7607486+02:00",
+  "ValidTo": "2019-02-16T02:38:21.7607486+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldLength": 200
     }
   }
 }

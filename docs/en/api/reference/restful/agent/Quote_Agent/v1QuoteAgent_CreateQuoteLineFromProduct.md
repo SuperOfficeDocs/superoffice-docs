@@ -126,7 +126,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 480,
+  "QuoteAlternativeId": 220,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 392,
-  "ERPQuoteLineKey": "eius",
-  "QuoteAlternativeId": 334,
-  "ERPProductKey": "in",
+  "QuoteLineId": 936,
+  "ERPQuoteLineKey": "unde",
+  "QuoteAlternativeId": 363,
+  "ERPProductKey": "quod",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 25112.742,
-  "DeliveredQuantity": 13670.508,
-  "Rank": 36,
-  "Name": "Leffler, Stokes and Gaylord",
-  "Description": "Advanced optimizing installation",
-  "Code": "aut",
-  "QuantityUnit": "et",
-  "PriceUnit": "omnis",
-  "ItemNumber": "719204",
+  "Reason": "extend sticky bandwidth",
+  "Quantity": 16597.664,
+  "DeliveredQuantity": 14328.648,
+  "Rank": 158,
+  "Name": "Robel Inc and Sons",
+  "Description": "Mandatory secondary superstructure",
+  "Code": "deserunt",
+  "QuantityUnit": "facilis",
+  "PriceUnit": "explicabo",
+  "ItemNumber": "113305",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quasi",
-  "ProductTypeKey": "ex",
-  "Supplier": "enim",
-  "SupplierCode": "non",
-  "Thumbnail": "voluptatum",
-  "VATInfo": "debitis",
-  "VAT": 17797.986,
-  "UnitCost": 12673.895999999999,
-  "UnitMinimumPrice": 13385.314,
-  "UnitListPrice": 21756.228,
+  "ProductFamilyKey": "in",
+  "ProductTypeKey": "quisquam",
+  "Supplier": "asperiores",
+  "SupplierCode": "voluptatibus",
+  "Thumbnail": "quibusdam",
+  "VATInfo": "dolor",
+  "VAT": 15083.942,
+  "UnitCost": 12670.761999999999,
+  "UnitMinimumPrice": 14435.204,
+  "UnitListPrice": 9655.854,
   "ExtraInfo": [
     {
-      "Name": "Murray, Green and Flatley",
-      "Value": "omnis",
+      "Name": "Klocko Group",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldLength": 572
         }
       }
     },
     {
-      "Name": "Murray, Green and Flatley",
-      "Value": "omnis",
+      "Name": "Klocko Group",
+      "Value": "voluptas",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldLength": 572
         }
       }
     }
   ],
-  "RawExtraInfo": "quod",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ratione",
-  "SubscriptionQuantity": 4553.702,
-  "SubscriptionStart": "2004-10-30T14:13:41.1251915+02:00",
-  "ERPDiscountPercent": 14855.16,
-  "ERPDiscountAmount": 29058.448,
-  "DiscountPercent": 24852.62,
-  "DiscountAmount": 833.644,
+  "RawExtraInfo": "odio",
+  "IsSubscription": false,
+  "SubscriptionUnit": "cumque",
+  "SubscriptionQuantity": 26930.462,
+  "SubscriptionStart": "1998-07-08T02:38:21.7919947+02:00",
+  "ERPDiscountPercent": 28274.948,
+  "ERPDiscountAmount": 714.552,
+  "DiscountPercent": 21618.332,
+  "DiscountAmount": 20609.184,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20756.482,
-  "EarningAmount": 15011.859999999999,
-  "SubTotal": 9590.0399999999991,
-  "TotalPrice": 17578.606,
-  "Rights": "odio",
-  "Rule": "facilis",
-  "ExtraField1": "sed",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "animi",
-  "ExtraField4": "optio",
-  "ExtraField5": "magnam",
+  "EarningPercent": 8471.202,
+  "EarningAmount": 9643.318,
+  "SubTotal": 15096.478,
+  "TotalPrice": 2924.022,
+  "Rights": "sit",
+  "Rule": "magnam",
+  "ExtraField1": "odit",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "dicta",
+  "ExtraField4": "consectetur",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 814
     }
   }
 }

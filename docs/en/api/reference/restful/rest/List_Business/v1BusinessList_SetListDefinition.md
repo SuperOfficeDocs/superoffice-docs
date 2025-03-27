@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 104,
-  "Name": "Gorczany LLC",
-  "Tooltip": "aut",
+  "Id": 944,
+  "Name": "Lehner-Dicki",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 963,
-  "IsCustomList": true,
+  "Rank": 176,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "excepturi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "earum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 954,
-  "Name": "Zulauf, Beer and Kassulke",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 433,
-  "IsCustomList": true,
+  "Id": 493,
+  "Name": "Gerhold LLC",
+  "Tooltip": "nam",
+  "Deleted": true,
+  "Rank": 678,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldLength": 262
     }
   }
 }

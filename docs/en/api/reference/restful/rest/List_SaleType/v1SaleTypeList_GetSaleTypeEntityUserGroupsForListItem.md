@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 923,
-    "Name": "Kling LLC",
-    "ToolTip": "Non minima perspiciatis earum incidunt tempora maiores in.",
-    "Deleted": true,
-    "Rank": 429,
-    "Type": "sit",
-    "ColorBlock": 930,
-    "IconHint": "alias",
+    "Id": 346,
+    "Name": "Kreiger-Schmeler",
+    "ToolTip": "Beatae sit necessitatibus quia omnis.",
+    "Deleted": false,
+    "Rank": 991,
+    "Type": "provident",
+    "ColorBlock": 36,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2015-02-17T14:13:50.2283063+01:00",
+    "LastChanged": "2001-03-13T02:38:26.9330101+01:00",
     "ChildItems": [
       {
-        "Id": 832,
-        "Name": "Sauer-O'Conner",
-        "ToolTip": "Atque ut sed.",
+        "Id": 89,
+        "Name": "Orn, Stoltenberg and Graham",
+        "ToolTip": "Nam beatae deleniti voluptas dicta.",
         "Deleted": true,
-        "Rank": 255,
-        "Type": "ad",
-        "ColorBlock": 459,
-        "IconHint": "dignissimos",
+        "Rank": 999,
+        "Type": "officiis",
+        "ColorBlock": 853,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2000-04-19T14:13:50.2283063+02:00",
+        "LastChanged": "2009-09-11T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "ea",
+        "ExtraInfo": "ut",
+        "StyleHint": "rerum",
         "Hidden": true,
-        "FullName": "Rebeka Schuyler Roob IV",
+        "FullName": "Mrs. Blanche Wehner IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 656
+            "FieldType": "System.String",
+            "FieldLength": 874
           }
         }
       }
     ],
     "ExtraInfo": "est",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Geovanny Considine",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Federico Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 859
       }
     }
   }

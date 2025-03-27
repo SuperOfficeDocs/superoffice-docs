@@ -25,7 +25,7 @@ Gets all the Position items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Position/Items?includeDeleted=True
+GET /api/v1/List/Position/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Kub LLC",
-    "Tooltip": "quos",
+    "Id": 937,
+    "Name": "Gulgowski-Hane",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 287,
-    "Rank": 953,
+    "UdListDefinitionId": 197,
+    "Rank": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldType": "System.Int32",
+        "FieldLength": 184
       }
     }
   }

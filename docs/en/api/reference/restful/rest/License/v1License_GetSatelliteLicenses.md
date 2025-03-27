@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Satterfield Inc and Sons",
-    "Description": "Object-based needs-based portal",
+    "Name": "Shields Inc and Sons",
+    "Description": "Synergistic 5th generation Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 83,
-        "InUse": 909,
+        "Total": 833,
+        "Tooltip": "quisquam",
+        "CanAssign": true,
+        "Free": 948,
+        "InUse": 975,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 363,
-        "Name": "Toy LLC",
-        "Description": "Distributed neutral policy",
-        "PrerequisiteModuleName": "Harber-Swaniawski",
-        "SortOrder": 572,
-        "ExtraFlags": 849,
+        "Assigned": false,
+        "ModuleLicenseId": 369,
+        "Name": "Boehm, Stroman and Sanford",
+        "Description": "Secured national monitoring",
+        "PrerequisiteModuleName": "Predovic Group",
+        "SortOrder": 843,
+        "ExtraFlags": 120,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldLength": 661
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 232,
-        "Tooltip": "voluptatem",
+        "Total": 511,
+        "Tooltip": "suscipit",
         "CanAssign": false,
-        "Free": 138,
-        "InUse": 467,
-        "IsHidden": false,
+        "Free": 866,
+        "InUse": 653,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 423,
-        "Name": "Cartwright, O'Keefe and Blick",
-        "Description": "Multi-channelled bifurcated paradigm",
-        "PrerequisiteModuleName": "Mueller, Johns and Gutmann",
-        "SortOrder": 15,
-        "ExtraFlags": 531,
+        "ModuleLicenseId": 595,
+        "Name": "Crooks-Cremin",
+        "Description": "Customer-focused neutral matrices",
+        "PrerequisiteModuleName": "Rogahn LLC",
+        "SortOrder": 269,
+        "ExtraFlags": 150,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldType": "System.String",
+            "FieldLength": 270
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldLength": 485
       }
     }
   },
   {
-    "Name": "Satterfield Inc and Sons",
-    "Description": "Object-based needs-based portal",
+    "Name": "Shields Inc and Sons",
+    "Description": "Synergistic 5th generation Graphic Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 171,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 83,
-        "InUse": 909,
+        "Total": 833,
+        "Tooltip": "quisquam",
+        "CanAssign": true,
+        "Free": 948,
+        "InUse": 975,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 363,
-        "Name": "Toy LLC",
-        "Description": "Distributed neutral policy",
-        "PrerequisiteModuleName": "Harber-Swaniawski",
-        "SortOrder": 572,
-        "ExtraFlags": 849,
+        "Assigned": false,
+        "ModuleLicenseId": 369,
+        "Name": "Boehm, Stroman and Sanford",
+        "Description": "Secured national monitoring",
+        "PrerequisiteModuleName": "Predovic Group",
+        "SortOrder": 843,
+        "ExtraFlags": 120,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldLength": 661
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 232,
-        "Tooltip": "voluptatem",
+        "Total": 511,
+        "Tooltip": "suscipit",
         "CanAssign": false,
-        "Free": 138,
-        "InUse": 467,
-        "IsHidden": false,
+        "Free": 866,
+        "InUse": 653,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 423,
-        "Name": "Cartwright, O'Keefe and Blick",
-        "Description": "Multi-channelled bifurcated paradigm",
-        "PrerequisiteModuleName": "Mueller, Johns and Gutmann",
-        "SortOrder": 15,
-        "ExtraFlags": 531,
+        "ModuleLicenseId": 595,
+        "Name": "Crooks-Cremin",
+        "Description": "Customer-focused neutral matrices",
+        "PrerequisiteModuleName": "Rogahn LLC",
+        "SortOrder": 269,
+        "ExtraFlags": 150,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 479
+            "FieldType": "System.String",
+            "FieldLength": 270
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 338
+        "FieldLength": 485
       }
     }
   }

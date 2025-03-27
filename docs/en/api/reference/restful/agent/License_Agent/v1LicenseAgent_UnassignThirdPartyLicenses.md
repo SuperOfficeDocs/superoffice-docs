@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 31,
-  "ModuleOwner": "enim",
+  "AssociateId": 741,
+  "ModuleOwner": "molestias",
   "ModuleLicenseNames": [
-    "Kulas-Fisher",
-    "Effertz-Schimmel"
+    "Pouros Group",
+    "Friesen-Swaniawski"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 69,
-    "Tooltip": "cumque",
-    "CanAssign": true,
-    "Free": 78,
-    "InUse": 8,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 740,
-    "Name": "Beatty, Kuvalis and Anderson",
-    "Description": "Adaptive scalable internet solution",
-    "PrerequisiteModuleName": "Koch-Cartwright",
-    "SortOrder": 26,
-    "ExtraFlags": 799,
+    "Unrestricted": false,
+    "Total": 732,
+    "Tooltip": "et",
+    "CanAssign": false,
+    "Free": 543,
+    "InUse": 28,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 399,
+    "Name": "Price LLC",
+    "Description": "Reactive non-volatile project",
+    "PrerequisiteModuleName": "Goodwin, McClure and O'Hara",
+    "SortOrder": 233,
+    "ExtraFlags": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 682
       }
     }
   }

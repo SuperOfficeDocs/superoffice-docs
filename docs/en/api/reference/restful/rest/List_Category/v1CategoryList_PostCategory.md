@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "UdListDefinitionId": 573,
-  "Rank": 821
+  "Id": 474,
+  "Name": "Champlin-Gibson",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "UdListDefinitionId": 842,
+  "Rank": 388
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Ernser-Schaden",
-  "Tooltip": "est",
+  "Id": 41,
+  "Name": "Reinger-Ritchie",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "UdListDefinitionId": 283,
-  "Rank": 403,
+  "UdListDefinitionId": 256,
+  "Rank": 526,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldType": "System.String",
+      "FieldLength": 116
     }
   }
 }

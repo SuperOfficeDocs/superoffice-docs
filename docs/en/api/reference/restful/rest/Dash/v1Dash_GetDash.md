@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 716,
-  "UniqueId": "quisquam",
-  "Name": "Emmerich Group",
-  "Description": "Fundamental national attitude",
-  "AssociateId": 231,
-  "Columns": 885,
+  "DashboardId": 31,
+  "UniqueId": "qui",
+  "Name": "Roberts-Mayer",
+  "Description": "Multi-layered bifurcated product",
+  "AssociateId": 675,
+  "Columns": 672,
   "Theme": null,
-  "VisibleForAll": 812,
+  "VisibleForAll": 268,
   "VisibleForAssociates": [
-    353,
-    968
+    831,
+    159
   ],
   "VisibleForGroups": [
-    176,
-    915
+    848,
+    329
   ],
-  "PinForAll": 630,
+  "PinForAll": 863,
   "PinForAssociates": [
-    497,
-    805
+    707,
+    72
   ],
   "PinForGroups": [
-    55,
-    815
+    233,
+    250
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 846
+      "FieldLength": 408
     }
   },
   "_Links": {

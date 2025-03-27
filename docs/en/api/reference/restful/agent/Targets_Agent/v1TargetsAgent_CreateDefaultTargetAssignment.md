@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 407,
+  "TargetAssignmentInfoId": 541,
   "Values": [
-    118,
-    175
+    941,
+    437
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 354,
-  "DimensionListItemDisplayName": "Predovic, Schmeler and Hickle",
+  "DimensionListItem": 200,
+  "DimensionListItemDisplayName": "Mann, Dooley and Willms",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 718
+  "ProjectId": 106
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "aut",
-  "SignOffText": "eligendi",
-  "SignOnConfirmationText": "quia",
-  "SignOnText": "id",
-  "EventDate": "2010-12-12T14:13:41.0314634+01:00",
+  "SignOffConfirmationText": "consequatur",
+  "SignOffText": "aspernatur",
+  "SignOnConfirmationText": "quo",
+  "SignOnText": "velit",
+  "EventDate": "2005-08-01T02:38:21.7295028+02:00",
   "Enabled": false,
-  "CreatedDate": "2003-02-14T14:13:41.0314634+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 429,
+  "CreatedDate": "2014-06-24T02:38:21.7295028+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 870,
   "SignOffTriggersAssign": false,
   "SignOn": false,
-  "SignOnTaskEnable": true,
-  "SignOnTaskId": 109,
+  "SignOnTaskEnable": false,
+  "SignOnTaskId": 510,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2009-04-20T14:13:41.0314634+02:00",
+  "UpdatedDate": "2007-02-09T02:38:21.7295028+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 64,
-  "Id": 403,
-  "PublishFrom": "2023-01-18T14:13:41.0314634+01:00",
+  "ProjectId": 76,
+  "Id": 909,
+  "PublishFrom": "2023-04-09T02:38:21.7295028+02:00",
   "PublishType": "External",
-  "PublishTo": "2017-03-01T14:13:41.0314634+01:00",
+  "PublishTo": "2025-02-20T02:38:21.7295028+01:00",
   "VisibleForCategories": [
     {
-      "Id": 52,
-      "Name": "Paucek-Hegmann",
-      "ToolTip": "Et rerum iure qui quia voluptates.",
+      "Id": 84,
+      "Name": "Klein, Haley and Boyer",
+      "ToolTip": "Officiis exercitationem quasi voluptas molestiae voluptatem.",
       "Deleted": false,
-      "Rank": 236,
-      "Type": "laboriosam",
+      "Rank": 609,
+      "Type": "veritatis",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "vel",
-      "ColorBlock": 114,
-      "ExtraInfo": "omnis",
-      "StyleHint": "quidem",
-      "FullName": "Kenyatta Stamm",
+      "ColorBlock": 746,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "nihil",
+      "FullName": "Mr. Ethyl Myra Veum PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 340
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 752,
-      "Name": "Jacobs Inc and Sons",
-      "ToolTip": "Quae iusto.",
-      "Deleted": false,
-      "Rank": 950,
-      "Type": "incidunt",
+      "Id": 307,
+      "Name": "Purdy Group",
+      "ToolTip": "Velit quod nihil.",
+      "Deleted": true,
+      "Rank": 636,
+      "Type": "molestias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sint",
-      "ColorBlock": 699,
-      "ExtraInfo": "est",
-      "StyleHint": "voluptate",
-      "FullName": "German Muller",
+      "IconHint": "cumque",
+      "ColorBlock": 538,
+      "ExtraInfo": "nisi",
+      "StyleHint": "rerum",
+      "FullName": "Nathanial Bernhard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "IsPublished": false,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsPublished": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 646,
+  "ProjectEventId": 697,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 727
     }
   }
 }

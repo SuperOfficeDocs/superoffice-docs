@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=1001
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=897
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 687,
-  "InstanceLayout": "quod",
-  "InstanceName": "Ziemann-Erdman",
-  "CreatedDate": "2001-02-15T14:13:39.3754818+01:00",
-  "UpdatedDate": "2017-09-22T14:13:39.3754818+02:00",
+  "AudienceLayoutId": 231,
+  "InstanceLayout": "voluptatum",
+  "InstanceName": "Runolfsson, Jakubowski and O'Reilly",
+  "CreatedDate": "2018-05-10T02:38:20.885843+02:00",
+  "UpdatedDate": "2019-11-22T02:38:20.885843+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 636
     }
   }
 }

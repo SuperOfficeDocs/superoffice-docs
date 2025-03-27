@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 451,
-  "PlainMessage": "necessitatibus",
-  "HtmlMessage": "delectus",
-  "SmsMessage": "earum",
-  "Description": "Configurable intangible hierarchy",
-  "Subject": "ut",
-  "FolderId": 547,
-  "HeaderField": "itaque",
-  "Design": "vel",
+  "ShipmentMessageId": 2,
+  "PlainMessage": "ea",
+  "HtmlMessage": "voluptatem",
+  "SmsMessage": "minus",
+  "Description": "Organized radical challenge",
+  "Subject": "tenetur",
+  "FolderId": 515,
+  "HeaderField": "officiis",
+  "Design": "quibusdam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Persistent dedicated adapter",
-  "AccessKey": "quia",
-  "DocumentMessage": 532,
-  "Registered": "2014-07-06T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 28,
-  "Updated": "2008-03-19T14:13:49.2587235+01:00",
-  "UpdatedAssociateId": 517,
-  "UpdatedCount": 505,
+  "InlineImages": true,
+  "LongDescription": "Ameliorated global moratorium",
+  "AccessKey": "quos",
+  "DocumentMessage": 812,
+  "Registered": "1999-11-09T02:38:26.4172802+01:00",
+  "RegisteredAssociateId": 538,
+  "Updated": "2019-03-11T02:38:26.4172802+01:00",
+  "UpdatedAssociateId": 862,
+  "UpdatedCount": 564,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 653
     }
   }
 }

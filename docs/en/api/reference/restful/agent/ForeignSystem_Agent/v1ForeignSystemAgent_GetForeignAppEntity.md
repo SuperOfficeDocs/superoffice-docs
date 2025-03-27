@@ -26,7 +26,7 @@ Gets a ForeignAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=949
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=83
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -83,29 +83,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 533,
-  "Name": "Kuhn-Senger",
-  "CreatedDate": "2014-07-16T14:13:40.3753617+02:00",
-  "UpdatedDate": "2001-12-17T14:13:40.3753617+01:00",
+  "ForeignAppId": 714,
+  "Name": "Dibbert-Leannon",
+  "CreatedDate": "2008-06-03T02:38:21.4482803+02:00",
+  "UpdatedDate": "2024-12-03T02:38:21.4482803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 804,
-      "Name": "Waters-Abernathy",
-      "CreatedDate": "2019-04-02T14:13:40.3753617+02:00",
-      "UpdatedDate": "2023-03-25T14:13:40.3753617+01:00",
-      "AssociateFullName": "Julien Micheal Cronin DVM",
-      "CreatedBy": "quos",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "tenetur",
-      "ForeignAppId": 24,
+      "ForeignDeviceId": 376,
+      "Name": "Casper, Huels and Durgan",
+      "CreatedDate": "2019-08-06T02:38:21.4482803+02:00",
+      "UpdatedDate": "2013-11-14T02:38:21.4482803+01:00",
+      "AssociateFullName": "Derek DuBuque Sr.",
+      "CreatedBy": "suscipit",
+      "UpdatedBy": "nihil",
+      "DeviceIdentifier": "eveniet",
+      "ForeignAppId": 758,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 266
         }
       }
     }
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 493
     }
   }
 }

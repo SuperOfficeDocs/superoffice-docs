@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 780,
+  "DocumentTemplateId": 355,
   "WritableUrl": false,
-  "LanguageCode": "sed"
+  "LanguageCode": "qui"
 }
 ```
 

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 658,
-  "ColumnId": 797,
-  "FieldDefault": "enim",
-  "FieldHeight": 5,
-  "FieldLabel": "quia",
-  "FieldLeft": 231,
-  "FieldTop": 614,
+  "UDefFieldId": 141,
+  "ColumnId": 659,
+  "FieldDefault": "omnis",
+  "FieldHeight": 950,
+  "FieldLabel": "nemo",
+  "FieldLeft": 821,
+  "FieldTop": 309,
   "FieldType": "Checkbox",
-  "FieldWidth": 559,
-  "FormatMask": "rerum",
-  "HideLabel": true,
+  "FieldWidth": 659,
+  "FormatMask": "ut",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 792,
-  "LabelLeft": 859,
-  "LabelTop": 744,
-  "LabelWidth": 135,
-  "LastVersionId": 845,
-  "ListTableId": 540,
+  "LabelHeight": 578,
+  "LabelLeft": 434,
+  "LabelTop": 66,
+  "LabelWidth": 671,
+  "LastVersionId": 536,
+  "ListTableId": 675,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 993,
-  "ProgId": "eius",
+  "Page1LineNo": 988,
+  "ProgId": "voluptas",
   "IsReadOnly": true,
-  "ShortLabel": "libero",
-  "TabOrder": 419,
-  "TextLength": 790,
-  "Tooltip": "et",
-  "UdefIdentity": 369,
-  "UDListDefinitionId": 417,
+  "ShortLabel": "sed",
+  "TabOrder": 859,
+  "TextLength": 991,
+  "Tooltip": "iste",
+  "UdefIdentity": 763,
+  "UDListDefinitionId": 377,
   "Justification": "Center",
-  "Version": 570,
-  "TemplateVariableName": "Wolff-Ernser",
-  "HasBeenPublished": true,
-  "MdoListName": "Nienow LLC",
+  "Version": 230,
+  "TemplateVariableName": "Upton Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Torp Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 409
     }
   }
 }

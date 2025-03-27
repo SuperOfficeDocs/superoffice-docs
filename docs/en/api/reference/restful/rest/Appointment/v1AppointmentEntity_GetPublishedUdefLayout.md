@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 696,
-    "ColumnId": 576,
-    "FieldDefault": "ut",
-    "FieldHeight": 222,
-    "FieldLabel": "sunt",
-    "FieldLeft": 78,
-    "FieldTop": 371,
+    "UDefFieldId": 45,
+    "ColumnId": 953,
+    "FieldDefault": "in",
+    "FieldHeight": 329,
+    "FieldLabel": "rerum",
+    "FieldLeft": 388,
+    "FieldTop": 662,
     "FieldType": "Checkbox",
-    "FieldWidth": 812,
-    "FormatMask": "sint",
+    "FieldWidth": 586,
+    "FormatMask": "quia",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 866,
-    "LabelLeft": 478,
-    "LabelTop": 255,
-    "LabelWidth": 349,
-    "LastVersionId": 862,
-    "ListTableId": 423,
+    "LabelHeight": 274,
+    "LabelLeft": 994,
+    "LabelTop": 456,
+    "LabelWidth": 157,
+    "LastVersionId": 321,
+    "ListTableId": 548,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 34,
-    "ProgId": "sunt",
+    "Page1LineNo": 631,
+    "ProgId": "provident",
     "IsReadOnly": true,
-    "ShortLabel": "velit",
-    "TabOrder": 522,
-    "TextLength": 313,
-    "Tooltip": "adipisci",
-    "UdefIdentity": 52,
-    "UDListDefinitionId": 778,
+    "ShortLabel": "sit",
+    "TabOrder": 155,
+    "TextLength": 49,
+    "Tooltip": "iste",
+    "UdefIdentity": 585,
+    "UDListDefinitionId": 5,
     "Justification": "Center",
-    "Version": 458,
-    "TemplateVariableName": "White-Bahringer",
+    "Version": 514,
+    "TemplateVariableName": "Botsford-Hackett",
     "HasBeenPublished": false,
-    "MdoListName": "O'Kon, Nitzsche and Wiegand",
+    "MdoListName": "Jenkins-Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldLength": 197
       }
     }
   }

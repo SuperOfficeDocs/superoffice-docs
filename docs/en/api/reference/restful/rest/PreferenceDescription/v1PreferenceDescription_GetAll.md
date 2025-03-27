@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 574,
-    "Section": "sit",
-    "Key": "in",
-    "Name": "Reynolds Inc and Sons",
+    "PrefDescId": 160,
+    "Section": "omnis",
+    "Key": "impedit",
+    "Name": "Schmeler, Johnston and Gaylord",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Synchronised web-enabled challenge",
+    "Description": "Diverse logistical model",
     "IsBuiltin": false,
-    "TableName": "Mraz, Marvin and Breitenberg",
-    "UserDefinedListId": 687,
-    "Rank": 242,
-    "SubGroup": "aut",
-    "MinLevel": 596,
-    "MaxValue": 477,
-    "MinValue": 487,
-    "RequiredLicense": "et",
+    "TableName": "Wisoky, Witting and Bailey",
+    "UserDefinedListId": 544,
+    "Rank": 401,
+    "SubGroup": "consequuntur",
+    "MinLevel": 284,
+    "MaxValue": 753,
+    "MinValue": 600,
+    "RequiredLicense": "adipisci",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 243
       }
     }
   }

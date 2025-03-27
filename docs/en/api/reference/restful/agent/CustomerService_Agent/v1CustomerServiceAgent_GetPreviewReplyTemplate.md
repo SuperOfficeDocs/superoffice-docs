@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 314
+  "ReplyTemplateId": 970
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abshire Inc and Sons",
-  "Description": "Compatible heuristic migration",
-  "OwnedByFullName": "Carlo McLaughlin",
-  "Updated": "2014-10-29T14:13:39.9379614+01:00",
-  "Body": "impedit",
-  "IsHtml": false,
+  "Name": "Block Inc and Sons",
+  "Description": "Adaptive content-based moderator",
+  "OwnedByFullName": "Ms. Hailey Crist",
+  "Updated": "2021-08-30T02:38:21.182685+02:00",
+  "Body": "pariatur",
+  "IsHtml": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldLength": 295
     }
   }
 }

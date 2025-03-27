@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 219,
-  "Name": "Heidenreich-Hahn",
-  "Tooltip": "sed",
+  "Id": 357,
+  "Name": "McDermott Group",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 545,
-  "IsCustomList": true,
+  "Rank": 131,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellendus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 660
     }
   },
   "_Links": {

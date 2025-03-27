@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "impedit",
+  "odata.nextLink": "pariatur",
   "value": [
     {
-      "PrimaryKey": 1682,
-      "EntityName": "sale",
-      "saleId": 1682,
-      "contactId": 1101,
-      "name": "Abernathy Inc and Sons"
+      "PrimaryKey": 9497,
+      "EntityName": "person",
+      "personId": 9497,
+      "fullName": "Sandra Rempel"
     },
     {
-      "PrimaryKey": 7625,
-      "EntityName": "sale",
-      "saleId": 7625,
-      "contactId": 9099,
-      "name": "Ullrich-Stroman"
+      "PrimaryKey": 4854,
+      "EntityName": "person",
+      "personId": 4854,
+      "fullName": "Jacinthe Collier"
     }
   ]
 }

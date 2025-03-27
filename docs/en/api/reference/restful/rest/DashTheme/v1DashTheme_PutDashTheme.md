@@ -89,16 +89,16 @@ DashTheme updated.
 PUT /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 845,
-  "Name": "Schinner, Kohler and Balistreri",
-  "Config": "qui",
-  "Rank": 104,
-  "Client": "et",
-  "Style": "culpa"
+  "DashboardThemeId": 98,
+  "Name": "Wolf LLC",
+  "Config": "et",
+  "Rank": 682,
+  "Client": "corporis",
+  "Style": "repellat"
 }
 ```
 
@@ -109,18 +109,18 @@ HTTP/1.1 200 DashTheme updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 654,
-  "Name": "Lehner Group",
-  "Config": "iusto",
-  "Rank": 679,
-  "Client": "commodi",
-  "Style": "vel",
+  "DashboardThemeId": 321,
+  "Name": "Hand-Borer",
+  "Config": "rerum",
+  "Rank": 655,
+  "Client": "nisi",
+  "Style": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 466
     }
   },
   "_Links": {

@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 941,
+  "TargetAssignmentInfoId": 600,
   "Values": [
-    85,
-    587
+    156,
+    821
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 141,
-  "DimensionListItemDisplayName": "Bahringer-Ritchie",
+  "DimensionListItem": 65,
+  "DimensionListItemDisplayName": "Feeney, Williamson and Crist",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 835
     }
   }
 }

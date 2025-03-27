@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 759,
-  "Name": "Funk LLC",
-  "Tooltip": "eaque",
+  "Id": 620,
+  "Name": "Terry Group",
+  "Tooltip": "ex",
   "Deleted": false,
-  "UdListDefinitionId": 874,
-  "Rank": 448,
+  "UdListDefinitionId": 158,
+  "Rank": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldType": "System.Int32",
+      "FieldLength": 451
     }
   }
 }

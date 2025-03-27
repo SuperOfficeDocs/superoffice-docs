@@ -78,8 +78,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 723,
-  "TableName": "Hammes-Hahn"
+  "RoleId": 123,
+  "TableName": "Hermiston, Koch and Swaniawski"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "similique",
-  "2": "ullam"
+  "1": "et",
+  "2": "laborum"
 }
 ```

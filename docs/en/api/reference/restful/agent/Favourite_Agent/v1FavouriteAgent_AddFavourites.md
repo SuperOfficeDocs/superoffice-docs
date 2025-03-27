@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "West, Waters and Breitenberg",
+  "TableName": "Beier, Collins and Frami",
   "RecordIds": [
-    683,
-    604
+    104,
+    535
   ],
-  "AssociateId": 100,
-  "ExtraInfo": "non"
+  "AssociateId": 854,
+  "ExtraInfo": "expedita"
 }
 ```
 

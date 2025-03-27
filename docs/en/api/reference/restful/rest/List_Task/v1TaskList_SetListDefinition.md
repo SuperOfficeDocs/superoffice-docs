@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 384,
-  "Name": "Becker LLC",
-  "Tooltip": "est",
+  "Id": 199,
+  "Name": "Bashirian, Wilderman and Hodkiewicz",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 863,
+  "Rank": 474,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "amet",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "mollitia",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 955,
-  "Name": "Stamm-Pouros",
+  "Id": 633,
+  "Name": "Zemlak LLC",
   "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 402,
-  "IsCustomList": true,
+  "Deleted": true,
+  "Rank": 283,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "deleniti",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 242
+      "FieldLength": 675
     }
   }
 }

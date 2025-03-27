@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "harum"
+  "Context": "vitae"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "necessitatibus",
-    "ValueType": "laboriosam",
+    "Key": "aut",
+    "ValueType": "sunt",
     "Mandatory": false,
-    "EncodedDisplayName": "Ledner, Schneider and Bartell",
-    "EncodedDisplayDescription": "Function-based stable website",
-    "IconHint": "aliquam",
+    "EncodedDisplayName": "Bernier-Quigley",
+    "EncodedDisplayDescription": "Pre-emptive stable product",
+    "IconHint": "laudantium",
     "ControlInfos": [
       {
-        "Type": "culpa",
-        "Label": "fuga",
-        "Dimension": 946,
-        "ListProviderName": "Feil Inc and Sons",
-        "ListProviderExtraInfo": "harum",
-        "ListProviderPrimaryKeyName": "Ziemann Inc and Sons",
-        "ListLeadText": "corporis",
+        "Type": "sed",
+        "Label": "officia",
+        "Dimension": 120,
+        "ListProviderName": "Wunsch, Schneider and Williamson",
+        "ListProviderExtraInfo": "tenetur",
+        "ListProviderPrimaryKeyName": "Wisoky, Weber and Mante",
+        "ListLeadText": "ea",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldLength": 537
           }
         }
       }
     ],
-    "EncodedDataCaption": "deleniti",
-    "EncodedDataCaptionDescription": "Automated 5th generation encryption",
-    "CurrentOperationType": "explicabo",
+    "EncodedDataCaption": "nesciunt",
+    "EncodedDataCaptionDescription": "Managed reciprocal analyzer",
+    "CurrentOperationType": "nostrum",
     "Values": [
-      "repellendus",
-      "ipsa"
+      "nisi",
+      "in"
     ],
     "DisplayValues": [
-      "minus",
-      "impedit"
+      "fugit",
+      "sed"
     ],
     "OperationInfos": [
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Olson, Morissette and Batz",
+        "Key": "rerum",
+        "EncodedDisplayName": "Dooley Group",
         "EncodedLeadTexts": [
-          "dolore",
-          "delectus"
+          "tempore",
+          "expedita"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       },
       {
-        "Key": "quia",
-        "EncodedDisplayName": "Olson, Morissette and Batz",
+        "Key": "rerum",
+        "EncodedDisplayName": "Dooley Group",
         "EncodedLeadTexts": [
-          "dolore",
-          "delectus"
+          "tempore",
+          "expedita"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       }

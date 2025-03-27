@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 418,
-    "Tooltip": "praesentium",
-    "CanAssign": false,
-    "Free": 375,
-    "InUse": 835,
+    "Unrestricted": true,
+    "Total": 899,
+    "Tooltip": "veniam",
+    "CanAssign": true,
+    "Free": 432,
+    "InUse": 649,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 627,
-    "Name": "Jaskolski LLC",
-    "Description": "Compatible global matrix",
-    "PrerequisiteModuleName": "Mante-Zulauf",
-    "SortOrder": 322,
-    "ExtraFlags": 959,
+    "Assigned": true,
+    "ModuleLicenseId": 468,
+    "Name": "Carroll-Quitzon",
+    "Description": "Diverse transitional data-warehouse",
+    "PrerequisiteModuleName": "Fahey, Flatley and Hand",
+    "SortOrder": 935,
+    "ExtraFlags": 854,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 563
       }
     }
   }

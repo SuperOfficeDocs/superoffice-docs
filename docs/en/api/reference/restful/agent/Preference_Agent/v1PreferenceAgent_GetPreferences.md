@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "est",
-      "Key": "aliquid"
+      "Section": "reiciendis",
+      "Key": "nisi"
     },
     {
-      "Section": "est",
-      "Key": "aliquid"
+      "Section": "reiciendis",
+      "Key": "nisi"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "ad",
     "Specification": null,
-    "DisplayValue": "illo",
-    "DisplayTooltip": "non",
+    "DisplayValue": "iusto",
+    "DisplayTooltip": "rem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 804,
-    "PrefDescId": 411,
-    "TableName": "Turcotte, Abshire and Maggio",
-    "UserPreferenceId": 291,
+    "TargetId": 739,
+    "PrefDescId": 239,
+    "TableName": "Bartoletti, Koelpin and Miller",
+    "UserPreferenceId": 762,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 984
+        "FieldLength": 875
       }
     }
   }

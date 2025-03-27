@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=doloremque
+GET /api/v1/List/LegalBase/MDOItems?query=quasi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Labadie-Gerlach",
-    "ToolTip": "Ex quia aut ducimus et quae.",
-    "Deleted": false,
-    "Rank": 335,
-    "Type": "delectus",
+    "Id": 262,
+    "Name": "Padberg Group",
+    "ToolTip": "Non mollitia.",
+    "Deleted": true,
+    "Rank": 853,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Aufderhar Group",
-        "ToolTip": "Est et.",
-        "Deleted": true,
-        "Rank": 512,
-        "Type": "distinctio",
+        "Id": 795,
+        "Name": "Doyle LLC",
+        "ToolTip": "Odio ut velit est.",
+        "Deleted": false,
+        "Rank": 442,
+        "Type": "iure",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sapiente",
-        "ColorBlock": 774,
-        "ExtraInfo": "debitis",
-        "StyleHint": "ut",
-        "FullName": "Mr. Yoshiko Angela VonRueden I",
+        "IconHint": "enim",
+        "ColorBlock": 904,
+        "ExtraInfo": "sunt",
+        "StyleHint": "rerum",
+        "FullName": "Miss Arianna Dandre Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 497
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 320,
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
-    "FullName": "Miss Gerson Rosario Grant III",
+    "IconHint": "expedita",
+    "ColorBlock": 999,
+    "ExtraInfo": "consectetur",
+    "StyleHint": "occaecati",
+    "FullName": "Ross Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 649
+        "FieldLength": 986
       }
     }
   }

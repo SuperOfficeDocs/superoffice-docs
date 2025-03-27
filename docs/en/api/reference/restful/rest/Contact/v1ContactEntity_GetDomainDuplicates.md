@@ -63,7 +63,7 @@ OK
 GET /api/v1/Contact/DuplicateDomains/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Windler-Powlowski",
-    "SoPrimaryKey": 233,
-    "EntryName": "Ziemann, Anderson and Carroll",
-    "EntryIdentifier": "dolore",
-    "RuleDisplayName": "Hauck, McClure and Langosh",
+    "RuleName": "Strosin-Morar",
+    "SoPrimaryKey": 931,
+    "EntryName": "O'Hara-Dooley",
+    "EntryIdentifier": "deleniti",
+    "RuleDisplayName": "Padberg-Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 270
       }
     }
   }

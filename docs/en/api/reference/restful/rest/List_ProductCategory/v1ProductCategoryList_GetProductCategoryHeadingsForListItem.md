@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Dach-Brown",
-    "ToolTip": "Hic quia voluptas.",
+    "Id": 791,
+    "Name": "Abernathy, Orn and Johnson",
+    "ToolTip": "Nostrum iusto qui cumque reiciendis odit.",
     "Deleted": true,
-    "Rank": 437,
-    "Type": "aut",
-    "ColorBlock": 929,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2012-04-19T14:13:50.0719138+02:00",
+    "Rank": 381,
+    "Type": "tempora",
+    "ColorBlock": 305,
+    "IconHint": "odit",
+    "Selected": false,
+    "LastChanged": "2020-05-15T02:38:26.8392626+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Hintz-Lesch",
-        "ToolTip": "Aut cupiditate possimus.",
-        "Deleted": true,
-        "Rank": 339,
-        "Type": "provident",
-        "ColorBlock": 357,
-        "IconHint": "ut",
+        "Id": 148,
+        "Name": "Pacocha, Johnson and Bayer",
+        "ToolTip": "Itaque reprehenderit et consequatur consequatur.",
+        "Deleted": false,
+        "Rank": 627,
+        "Type": "possimus",
+        "ColorBlock": 182,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2014-02-23T14:13:50.0719138+01:00",
+        "LastChanged": "2019-01-06T02:38:26.8392626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Dr. Sid Price Sr.",
+        "ExtraInfo": "enim",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Hadley Katarina Schinner II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 34
+            "FieldLength": 509
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Mrs. Crystel Emie Zieme II",
+    "FullName": "Gust Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldType": "System.String",
+        "FieldLength": 219
       }
     }
   }

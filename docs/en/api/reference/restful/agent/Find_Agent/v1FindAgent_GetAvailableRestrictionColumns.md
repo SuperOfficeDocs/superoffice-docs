@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Schoen Inc and Sons"
+  "StorageType": "animi",
+  "ProviderName": "O'Hara, Zemlak and Cronin"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "error",
-  "est"
+  "unde",
+  "repudiandae"
 ]
 ```

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 226,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "quasi",
-  "Name": "Stark, Stamm and Auer",
-  "Description": "Optional context-sensitive portal",
-  "Code": "maiores",
-  "PriceUnit": "vel",
-  "QuantityUnit": "deserunt",
-  "IsSubscription": true,
-  "SubscriptionUnit": "deserunt",
-  "DefaultSubscriptionQuantity": 8063.782,
-  "ItemNumber": "1295462",
+  "ProductId": 472,
+  "ERPProductKey": "sapiente",
+  "ERPPriceListKey": "sit",
+  "Name": "Mann-Jacobi",
+  "Description": "Cross-group multimedia benchmark",
+  "Code": "aut",
+  "PriceUnit": "tempore",
+  "QuantityUnit": "aliquam",
+  "IsSubscription": false,
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 9555.5659999999989,
+  "ItemNumber": "862060",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ex",
-  "ProductTypeKey": "veritatis",
-  "VAT": 27488.314,
-  "VATInfo": "modi",
-  "UnitCost": 16926.734,
-  "UnitMinimumPrice": 23852.874,
-  "UnitListPrice": 3347.112,
-  "InAssortment": false,
-  "Supplier": "neque",
-  "SupplierCode": "expedita",
-  "Rights": "voluptatum",
-  "Rule": "architecto",
+  "ProductFamilyKey": "sed",
+  "ProductTypeKey": "iure",
+  "VAT": 9276.64,
+  "VATInfo": "commodi",
+  "UnitCost": 25723.872,
+  "UnitMinimumPrice": 3751.3979999999997,
+  "UnitListPrice": 22947.148,
+  "InAssortment": true,
+  "Supplier": "aspernatur",
+  "SupplierCode": "eum",
+  "Rights": "et",
+  "Rule": "delectus",
   "ExtraInfo": [
     {
-      "Name": "Hane, Anderson and Abbott",
-      "Value": "dolor",
+      "Name": "Daugherty-Conn",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 400
         }
       }
     },
     {
-      "Name": "Hane, Anderson and Abbott",
-      "Value": "dolor",
+      "Name": "Daugherty-Conn",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 400
         }
       }
     }
   ],
-  "RawExtraInfo": "ratione",
-  "ExtraField1": "sit",
-  "ExtraField2": "officiis",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "suscipit",
-  "ExtraField5": "est",
-  "InStock": 11401.492,
+  "RawExtraInfo": "eos",
+  "ExtraField1": "sint",
+  "ExtraField2": "velit",
+  "ExtraField3": "aut",
+  "ExtraField4": "et",
+  "ExtraField5": "facere",
+  "InStock": 15691.938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 680
     }
   }
 }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 214
+  "ProjectId": 659
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 947,
-  "Name": "Hammes, Leffler and Wisoky",
-  "Description": "Quality-focused high-level benchmark",
+  "ProjectId": 600,
+  "Name": "Emmerich-Wolf",
+  "Description": "Profound asynchronous service-desk",
   "URL": "http://www.example.com/",
-  "Type": "minus",
-  "AssociateId": 940,
-  "AssociateFullName": "Janice Swaniawski",
-  "TypeId": 447,
-  "Updated": "2021-05-06T14:13:41.0314634+02:00",
-  "StatusId": 443,
-  "Status": "natus",
-  "TextId": 363,
-  "PublishTo": "2010-07-05T14:13:41.0314634+02:00",
-  "PublishFrom": "1998-07-13T14:13:41.0314634+02:00",
-  "IsPublished": true,
+  "Type": "quia",
+  "AssociateId": 486,
+  "AssociateFullName": "Adah Effertz",
+  "TypeId": 648,
+  "Updated": "2009-05-12T02:38:21.7451279+02:00",
+  "StatusId": 72,
+  "Status": "neque",
+  "TextId": 468,
+  "PublishTo": "2019-03-17T02:38:21.7451279+01:00",
+  "PublishFrom": "2017-01-16T02:38:21.7451279+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "753226",
-  "ActiveErpLinks": 432,
+  "ProjectNumber": "807946",
+  "ActiveErpLinks": 404,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 768
     }
   }
 }

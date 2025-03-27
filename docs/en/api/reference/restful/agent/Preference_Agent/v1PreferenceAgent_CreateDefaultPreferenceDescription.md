@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 665,
-  "Section": "sequi",
-  "Key": "voluptate",
-  "Name": "Legros, Strosin and Kuhic",
+  "PrefDescId": 991,
+  "Section": "nihil",
+  "Key": "quo",
+  "Name": "Herzog-Schmitt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Enterprise-wide modular approach",
+  "Description": "Down-sized encompassing migration",
   "IsBuiltin": true,
-  "TableName": "Lind Inc and Sons",
-  "UserDefinedListId": 807,
-  "Rank": 628,
-  "SubGroup": "perspiciatis",
-  "MinLevel": 120,
-  "MaxValue": 703,
-  "MinValue": 511,
-  "RequiredLicense": "accusantium",
+  "TableName": "Hartmann, Botsford and Durgan",
+  "UserDefinedListId": 699,
+  "Rank": 180,
+  "SubGroup": "vel",
+  "MinLevel": 855,
+  "MaxValue": 494,
+  "MinValue": 401,
+  "RequiredLicense": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 799
+      "FieldLength": 290
     }
   }
 }

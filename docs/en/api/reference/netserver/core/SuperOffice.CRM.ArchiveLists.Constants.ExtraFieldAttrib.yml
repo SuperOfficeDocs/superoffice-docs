@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.DisplayField
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Dynamic
+  - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Entity
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideDisplay
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.HideRestriction
   - SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Icon
@@ -336,6 +337,36 @@ items:
     return:
       type: System.String
     content.vb: Public Shared ReadOnly Dynamic As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Entity
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Entity
+  id: Entity
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib
+  langs:
+  - csharp
+  - vb
+  name: Entity
+  nameWithType: Constants.ExtraFieldAttrib.Entity
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ExtraFieldAttrib.Entity
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static readonly string Entity
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Entity As String
   modifiers.csharp:
   - public
   - static

@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact?$select=name,department,category/id
 GET /api/v1/Contact?$filter=name begins 'S'
 GET /api/v1/Contact?$orderBy=name asc
-GET /api/v1/Contact?$entities=impedit
-GET /api/v1/Contact?$top=116
-GET /api/v1/Contact?$skip=428
+GET /api/v1/Contact?$entities=dolor
+GET /api/v1/Contact?$top=671
+GET /api/v1/Contact?$skip=235
 GET /api/v1/Contact?$mode=Full
 GET /api/v1/Contact?$options=GrandTotal=true
-GET /api/v1/Contact?$context=consequatur
+GET /api/v1/Contact?$context=sunt
 GET /api/v1/Contact?$format=JSON
-GET /api/v1/Contact?$jsonSafe=True
+GET /api/v1/Contact?$jsonSafe=False
 GET /api/v1/Contact?$output=Display
 ```
 
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "eius",
   "value": [
     {
-      "PrimaryKey": 5697,
-      "EntityName": "sale",
-      "saleId": 5697,
-      "contactId": 4855,
-      "name": "Green-Reinger"
+      "PrimaryKey": 6132,
+      "EntityName": "person",
+      "personId": 6132,
+      "fullName": "Dr. Leonor Candace Mueller"
     },
     {
-      "PrimaryKey": 8008,
-      "EntityName": "sale",
-      "saleId": 8008,
-      "contactId": 5271,
-      "name": "Veum Group"
+      "PrimaryKey": 8963,
+      "EntityName": "person",
+      "personId": 8963,
+      "fullName": "Dr. Omer Greenholt"
     }
   ]
 }

@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 731,
-  "EmailItemId": 103
+  "DocumentId": 886,
+  "EmailItemId": 836
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 117,
+  "DocumentId": 119,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perferendis",
-  "Header": "delectus",
-  "Name": "Altenwerth-McClure",
-  "OurRef": "sit",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2017-04-22T14:13:40.203526+02:00",
-  "UpdatedDate": "2010-09-03T14:13:40.203526+02:00",
-  "Description": "Enhanced tertiary methodology",
+  "Attention": "aliquam",
+  "Header": "aut",
+  "Name": "Renner-Parker",
+  "OurRef": "rem",
+  "YourRef": "ab",
+  "CreatedDate": "2000-07-18T02:38:21.3389145+02:00",
+  "UpdatedDate": "2001-05-02T02:38:21.3389145+02:00",
+  "Description": "Realigned object-oriented implementation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-12-31T14:13:40.203526+01:00",
-  "ExternalRef": "enim",
+  "Date": "2018-10-30T02:38:21.3545452+01:00",
+  "ExternalRef": "tempore",
   "Completed": "Completed",
-  "ActiveLinks": 536,
+  "ActiveLinks": 816,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Lueilwitz, Olson and Rippin",
-      "Id": 557,
-      "Description": "Business-focused foreground database",
-      "ExtraInfo": "aut",
-      "LinkId": 883,
+      "EntityName": "Hamill-Ledner",
+      "Id": 822,
+      "Description": "Organic 3rd generation functionalities",
+      "ExtraInfo": "inventore",
+      "LinkId": 577,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldLength": 728
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 369,
-  "Snum": 395,
+  "SuggestedDocumentId": 923,
+  "Snum": 848,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Dalton O'Hara IV",
-    "SuperOffice:2": "Jay Sanford"
+    "SuperOffice:1": "642715438",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "amet"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "et"
+    "CustomFields1": "cum",
+    "CustomFields2": "ab"
   },
-  "PublishEventDate": "2003-09-04T14:13:40.203526+02:00",
-  "PublishTo": "2012-03-25T14:13:40.203526+02:00",
-  "PublishFrom": "2023-10-31T14:13:40.203526+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-04-04T02:38:21.3545452+02:00",
+  "PublishTo": "2019-01-11T02:38:21.3545452+01:00",
+  "PublishFrom": "2022-09-11T02:38:21.3545452+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 587,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     },
     {
-      "VisibleId": 587,
+      "VisibleId": 863,
       "Visibility": "All",
-      "DisplayValue": "ullam",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldType": "System.Int32",
+          "FieldLength": 808
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldType": "System.String",
+      "FieldLength": 339
     }
   }
 }

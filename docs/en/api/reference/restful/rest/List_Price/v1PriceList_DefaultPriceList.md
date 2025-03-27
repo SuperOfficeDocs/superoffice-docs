@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 96,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 236,
-  "Name": "Fay, Ernser and Dietrich",
-  "Description": "Open-architected dynamic info-mediaries",
-  "Currency": "hic",
-  "CurrencyName": "Stokes Group",
-  "ValidFrom": "1998-10-12T14:13:50.0562893+02:00",
-  "ValidTo": "2020-08-16T14:13:50.0562893+02:00",
-  "IsActive": false,
+  "PriceListId": 595,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 453,
+  "Name": "Larson-Johnson",
+  "Description": "Integrated radical contingency",
+  "Currency": "ut",
+  "CurrencyName": "Turcotte, Kuhn and Feil",
+  "ValidFrom": "2008-12-10T02:38:26.8236417+01:00",
+  "ValidTo": "1999-11-29T02:38:26.8236417+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldType": "System.String",
+      "FieldLength": 97
     }
   }
 }

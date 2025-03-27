@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "ad",
-  "ProgramName": "Waters, Pfannerstill and Frami",
-  "Action": "qui",
-  "ExtraParameters": "qui"
+  "Language": "facere",
+  "ProgramName": "Hackett-Leffler",
+  "Action": "culpa",
+  "ExtraParameters": "unde"
 }
 ```
 

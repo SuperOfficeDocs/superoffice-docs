@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Grimes LLC",
-  "GroupId": 225
+  "UdListDefinitionName": "Kovacek LLC",
+  "GroupId": 594
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Klocko-Gulgowski",
-    "ToolTip": "Perferendis perferendis est ab enim consequatur in enim.",
-    "Deleted": true,
-    "Rank": 418,
-    "Type": "praesentium",
-    "ColorBlock": 666,
-    "IconHint": "ab",
-    "Selected": true,
-    "LastChanged": "1997-10-24T14:13:40.4690906+02:00",
+    "Id": 269,
+    "Name": "Buckridge-Kessler",
+    "ToolTip": "Dolore iusto minus ea excepturi.",
+    "Deleted": false,
+    "Rank": 521,
+    "Type": "tempore",
+    "ColorBlock": 436,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2024-07-28T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Torp Group",
-        "ToolTip": "Voluptatem aspernatur.",
+        "Id": 692,
+        "Name": "Greenholt-Keeling",
+        "ToolTip": "Eos commodi maiores non iusto ut.",
         "Deleted": false,
-        "Rank": 480,
-        "Type": "quae",
-        "ColorBlock": 795,
-        "IconHint": "saepe",
+        "Rank": 797,
+        "Type": "eum",
+        "ColorBlock": 10,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "2025-01-04T14:13:40.4690906+01:00",
+        "LastChanged": "2003-03-28T02:38:21.5107392+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "maiores",
-        "Hidden": false,
-        "FullName": "Ms. Aaliyah Brock Sawayn",
+        "ExtraInfo": "velit",
+        "StyleHint": "excepturi",
+        "Hidden": true,
+        "FullName": "Thad Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 842
+            "FieldType": "System.Int32",
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Mr. Mitchel Lang",
+    "ExtraInfo": "rerum",
+    "StyleHint": "doloribus",
+    "Hidden": false,
+    "FullName": "Moises Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 490
+        "FieldType": "System.Int32",
+        "FieldLength": 682
       }
     }
   }

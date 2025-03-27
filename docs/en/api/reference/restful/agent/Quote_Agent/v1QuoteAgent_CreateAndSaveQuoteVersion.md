@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 552
+  "QuoteVersionId": 60
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 841,
-  "ERPQuoteVersionKey": "voluptas",
-  "QuoteId": 845,
-  "Description": "User-friendly mission-critical database",
-  "Number": "1482740",
+  "QuoteVersionId": 909,
+  "ERPQuoteVersionKey": "maiores",
+  "QuoteId": 532,
+  "Description": "Universal zero defect algorithm",
+  "Number": "1191033",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 410,
-  "SentDate": "2009-06-06T14:13:41.0627059+02:00",
-  "FollowupId": 741,
-  "ExpirationDate": "2018-07-12T14:13:41.0627059+02:00",
-  "DeliveryCountryId": 316,
+  "LikelyQuoteAlternativeId": 780,
+  "SentDate": "2017-01-25T02:38:21.7607486+01:00",
+  "FollowupId": 356,
+  "ExpirationDate": "2000-12-14T02:38:21.7607486+01:00",
+  "DeliveryCountryId": 244,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 809,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "reiciendis",
-  "ERPPaymentTypeKey": "at",
-  "ERPDeliveryTermsKey": "voluptatem",
-  "ERPDeliveryTypeKey": "qui",
-  "Rank": 846,
-  "ApprovedBy": 240,
-  "ApprovedText": "sunt",
-  "ApprovedRegisteredBy": 209,
-  "ApprovedRegisteredDate": "2016-01-27T14:13:41.0627059+01:00",
-  "ExtraField1": "temporibus",
-  "ExtraField2": "non",
-  "ExtraField3": "soluta",
-  "ExtraField4": "sed",
-  "ExtraField5": "voluptate",
-  "LastRecalculated": "2013-05-23T14:13:41.0627059+02:00",
-  "Updated": "2011-09-17T14:13:41.0627059+02:00",
-  "UpdatedAssociateId": 785,
-  "Registered": "2001-06-05T14:13:41.0627059+02:00",
-  "RegisteredAssociateId": 173,
-  "RequestAssociateId": 981,
-  "RequestComment": "sed",
+  "InvoiceCountryId": 770,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "possimus",
+  "ERPPaymentTypeKey": "et",
+  "ERPDeliveryTermsKey": "at",
+  "ERPDeliveryTypeKey": "maiores",
+  "Rank": 723,
+  "ApprovedBy": 615,
+  "ApprovedText": "deleniti",
+  "ApprovedRegisteredBy": 112,
+  "ApprovedRegisteredDate": "2025-03-02T02:38:21.7607486+01:00",
+  "ExtraField1": "corrupti",
+  "ExtraField2": "inventore",
+  "ExtraField3": "facere",
+  "ExtraField4": "explicabo",
+  "ExtraField5": "voluptates",
+  "LastRecalculated": "2015-11-15T02:38:21.7607486+01:00",
+  "Updated": "2008-10-29T02:38:21.7607486+01:00",
+  "UpdatedAssociateId": 82,
+  "Registered": "2003-05-22T02:38:21.7607486+02:00",
+  "RegisteredAssociateId": 355,
+  "RequestAssociateId": 861,
+  "RequestComment": "omnis",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 222,
-      "ERPQuoteAlternativeKey": "incidunt",
-      "QuoteVersionId": 359,
-      "Name": "Willms-Hickle",
-      "Description": "Realigned executive structure",
+      "QuoteAlternativeId": 654,
+      "ERPQuoteAlternativeKey": "impedit",
+      "QuoteVersionId": 664,
+      "Name": "Barton Inc and Sons",
+      "Description": "Compatible didactic hub",
       "Status": "Error",
-      "Reason": "",
-      "ERPDiscountPercent": 24720.992,
-      "ERPDiscountAmount": 21894.124,
-      "DiscountPercent": 614.264,
-      "DiscountAmount": 18697.444,
+      "Reason": "incubate out-of-the-box niches",
+      "ERPDiscountPercent": 14356.854,
+      "ERPDiscountAmount": 24410.726,
+      "DiscountPercent": 24216.417999999998,
+      "DiscountAmount": 2870.7439999999997,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "neque",
-      "VAT": 11996.952,
-      "EarningPercent": 15271.982,
-      "EarningAmount": 22771.644,
-      "SubTotal": 1385.228,
-      "TotalPrice": 23514.402,
-      "ExtraField1": "quis",
-      "ExtraField2": "tempore",
-      "ExtraField3": "velit",
-      "ExtraField4": "beatae",
-      "ExtraField5": "dolores",
+      "VATInfo": "omnis",
+      "VAT": 16328.14,
+      "EarningPercent": 10166.696,
+      "EarningAmount": 4989.3279999999995,
+      "SubTotal": 11699.222,
+      "TotalPrice": 26002.798,
+      "ExtraField1": "soluta",
+      "ExtraField2": "sed",
+      "ExtraField3": "aspernatur",
+      "ExtraField4": "iste",
+      "ExtraField5": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldLength": 584
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 656
+      "FieldLength": 686
     }
   }
 }

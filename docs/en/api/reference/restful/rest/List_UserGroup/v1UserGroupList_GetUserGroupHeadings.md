@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 168,
-    "Name": "Watsica-Reichel",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "Rank": 304,
-    "UdListDefinitionId": 204,
+    "HeadingId": 330,
+    "Name": "Marvin-Herman",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 530,
+    "UdListDefinitionId": 483,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 750
+        "FieldLength": 982
       }
     }
   }

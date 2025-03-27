@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 188,
+  "DocumentId": 905,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 364,
+  "DocumentId": 896,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "similique",
-  "Header": "alias",
-  "Name": "Runolfsson-Roob",
-  "OurRef": "magnam",
-  "YourRef": "eos",
-  "CreatedDate": "2014-07-25T14:13:40.1410401+02:00",
-  "UpdatedDate": "2022-12-04T14:13:40.1410401+01:00",
-  "Description": "Horizontal clear-thinking algorithm",
+  "Attention": "molestias",
+  "Header": "illum",
+  "Name": "Kuhn-Deckow",
+  "OurRef": "sunt",
+  "YourRef": "eligendi",
+  "CreatedDate": "2024-07-22T02:38:21.3076706+02:00",
+  "UpdatedDate": "2022-02-20T02:38:21.3076706+01:00",
+  "Description": "Future-proofed 6th generation Graphical User Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-09-30T14:13:40.1410401+02:00",
-  "ExternalRef": "et",
+  "Date": "2022-05-21T02:38:21.3076706+02:00",
+  "ExternalRef": "laudantium",
   "Completed": "Completed",
-  "ActiveLinks": 93,
+  "ActiveLinks": 816,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Mertz-O'Conner",
-      "Id": 103,
-      "Description": "User-centric mobile strategy",
-      "ExtraInfo": "est",
-      "LinkId": 499,
+      "EntityName": "Durgan-Koepp",
+      "Id": 731,
+      "Description": "Implemented object-oriented database",
+      "ExtraInfo": "dolores",
+      "LinkId": 913,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 607
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 602,
-  "Snum": 945,
+  "SuggestedDocumentId": 294,
+  "Snum": 472,
   "UserDefinedFields": {
-    "SuperOffice:1": "1996743635",
-    "SuperOffice:2": "187443919"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Mr. Teagan Cronin Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "delectus"
   },
-  "PublishEventDate": "1998-03-03T14:13:40.1410401+01:00",
-  "PublishTo": "2002-09-26T14:13:40.1410401+02:00",
-  "PublishFrom": "2017-01-07T14:13:40.1410401+01:00",
+  "PublishEventDate": "2001-07-14T02:38:21.3076706+02:00",
+  "PublishTo": "2019-07-25T02:38:21.3076706+02:00",
+  "PublishFrom": "2020-03-13T02:38:21.3076706+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 877,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldLength": 577
         }
       }
     },
     {
-      "VisibleId": 877,
+      "VisibleId": 282,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 341
+          "FieldLength": 577
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 937
     }
   }
 }

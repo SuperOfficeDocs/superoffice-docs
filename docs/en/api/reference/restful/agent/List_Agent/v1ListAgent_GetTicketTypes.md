@@ -94,40 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 60,
-    "Name": "Olson, Wisoky and Erdman",
-    "Rank": 116,
-    "Tooltip": "soluta",
-    "Icon": "ipsum",
-    "DefaultTicketStatus": 107,
+    "TicketTypeId": 12,
+    "Name": "Mann-Waters",
+    "Rank": 651,
+    "Tooltip": "voluptatem",
+    "Icon": "libero",
+    "DefaultTicketStatus": 183,
     "TicketStatuses": [
-      390,
-      804
+      890,
+      189
     ],
-    "DefaultTicketPriority": 130,
+    "DefaultTicketPriority": 985,
     "TicketPriorities": [
-      686,
-      497
+      536,
+      448
     ],
-    "ReplyTemplate": 977,
+    "ReplyTemplate": 944,
     "IsExternalVisible": false,
-    "IsDefault": false,
-    "ShowInNew": true,
+    "IsDefault": true,
+    "ShowInNew": false,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      531,
-      10
+      57,
+      581
     ],
-    "ReplyForwardNoSignature": true,
+    "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   }

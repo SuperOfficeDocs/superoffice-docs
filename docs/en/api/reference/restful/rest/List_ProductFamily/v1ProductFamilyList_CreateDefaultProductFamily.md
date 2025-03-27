@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Robel-Wunsch",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "UdListDefinitionId": 590,
-  "Rank": 329,
+  "Id": 68,
+  "Name": "Stracke-Klocko",
+  "Tooltip": "rem",
+  "Deleted": true,
+  "UdListDefinitionId": 190,
+  "Rank": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 365
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

@@ -709,7 +709,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=recordTypeText,person/lastName,person/restrictionAddress/line1,project/LastDoByActivity
+GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=person/personPrivate/description,person/personAssociate/personId,person/withdrawnEmarketingConsent,contact/number,contact/postAddress/zip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

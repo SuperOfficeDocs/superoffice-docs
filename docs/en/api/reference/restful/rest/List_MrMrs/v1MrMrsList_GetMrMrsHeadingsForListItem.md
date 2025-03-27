@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Grant LLC",
-    "ToolTip": "Recusandae sint.",
+    "Id": 201,
+    "Name": "Sauer-Padberg",
+    "ToolTip": "Et perferendis aut dolorum.",
     "Deleted": false,
-    "Rank": 179,
-    "Type": "iste",
-    "ColorBlock": 73,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2007-03-27T14:13:50.0094247+02:00",
+    "Rank": 629,
+    "Type": "error",
+    "ColorBlock": 137,
+    "IconHint": "ab",
+    "Selected": true,
+    "LastChanged": "2007-07-02T02:38:26.7923976+02:00",
     "ChildItems": [
       {
-        "Id": 490,
-        "Name": "Blanda-Stoltenberg",
-        "ToolTip": "Qui non ducimus sed dicta sint amet et.",
+        "Id": 801,
+        "Name": "Parisian-Hamill",
+        "ToolTip": "Neque incidunt blanditiis et quis maiores dolores.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "repudiandae",
-        "ColorBlock": 711,
-        "IconHint": "quam",
-        "Selected": true,
-        "LastChanged": "2020-03-05T14:13:50.0094247+01:00",
+        "Rank": 630,
+        "Type": "dolor",
+        "ColorBlock": 866,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "1999-09-06T02:38:26.7923976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "iusto",
-        "Hidden": false,
-        "FullName": "Miguel Klocko",
+        "ExtraInfo": "quis",
+        "StyleHint": "adipisci",
+        "Hidden": true,
+        "FullName": "Miss Aida Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 597
+            "FieldLength": 261
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Virgie Adams",
+    "ExtraInfo": "atque",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Conor Colin Langworth PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 687
+        "FieldLength": 895
       }
     }
   }

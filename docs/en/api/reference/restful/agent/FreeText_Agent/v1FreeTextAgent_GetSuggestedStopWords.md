@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 530
+  "CountWords": 502
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Barrows Group",
-    "ToolTip": "Saepe vel doloribus enim consectetur.",
-    "Deleted": true,
-    "Rank": 584,
-    "Type": "ut",
+    "Id": 756,
+    "Name": "Kohler, Rolfson and Kertzmann",
+    "ToolTip": "Delectus doloremque qui.",
+    "Deleted": false,
+    "Rank": 632,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Romaguera Group",
-        "ToolTip": "Officiis modi cum pariatur modi.",
-        "Deleted": false,
-        "Rank": 222,
-        "Type": "minima",
+        "Id": 305,
+        "Name": "Hermann-Hettinger",
+        "ToolTip": "Perferendis sunt.",
+        "Deleted": true,
+        "Rank": 841,
+        "Type": "sapiente",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 328,
-        "ExtraInfo": "dicta",
-        "StyleHint": "est",
-        "FullName": "Lexus Zboncak III",
+        "IconHint": "porro",
+        "ColorBlock": 606,
+        "ExtraInfo": "eligendi",
+        "StyleHint": "exercitationem",
+        "FullName": "Ms. Sheldon Carli Davis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldType": "System.String",
+            "FieldLength": 438
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 467,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "laudantium",
-    "FullName": "Kathlyn Tromp",
+    "IconHint": "eum",
+    "ColorBlock": 860,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ducimus",
+    "FullName": "Mrs. Roscoe Jacobson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 657
+        "FieldType": "System.Int32",
+        "FieldLength": 339
       }
     }
   }

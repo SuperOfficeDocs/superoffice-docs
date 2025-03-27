@@ -84,15 +84,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 9,
-  "Value": "doloribus",
+  "TaskListItemId": 942,
+  "Value": "iste",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "IntentId": 464,
-  "Rank": 573,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "autem",
+  "Deleted": true,
+  "IntentId": 332,
+  "Rank": 658,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 442
     }
   }
 }

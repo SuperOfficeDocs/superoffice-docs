@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Runte Group",
-    "ToolTip": "Ipsam debitis sapiente.",
+    "Id": 285,
+    "Name": "Schimmel, Dare and Orn",
+    "ToolTip": "Voluptate similique eum eligendi ipsam unde et.",
     "Deleted": false,
-    "Rank": 201,
-    "Type": "esse",
-    "ColorBlock": 963,
-    "IconHint": "id",
+    "Rank": 150,
+    "Type": "itaque",
+    "ColorBlock": 859,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2000-04-30T14:13:50.2595794+02:00",
+    "LastChanged": "2011-08-28T02:38:26.9330101+02:00",
     "ChildItems": [
       {
-        "Id": 822,
-        "Name": "Ward Group",
-        "ToolTip": "Saepe tenetur vitae deserunt voluptates consequatur id.",
+        "Id": 83,
+        "Name": "Lubowitz-Schinner",
+        "ToolTip": "Et quod voluptatem modi.",
         "Deleted": false,
-        "Rank": 359,
-        "Type": "fuga",
-        "ColorBlock": 846,
+        "Rank": 943,
+        "Type": "maiores",
+        "ColorBlock": 263,
         "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2007-06-19T14:13:50.2595794+02:00",
+        "LastChanged": "2014-08-01T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "nihil",
+        "ExtraInfo": "architecto",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Meredith Gislason",
+        "FullName": "Betty Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldType": "System.String",
+            "FieldLength": 812
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "omnis",
+    "ExtraInfo": "earum",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Isabella Kutch",
+    "FullName": "Judson Rosenbaum IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 660
       }
     }
   }

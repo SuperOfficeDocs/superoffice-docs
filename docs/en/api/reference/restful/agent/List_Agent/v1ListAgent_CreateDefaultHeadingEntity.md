@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 230,
-  "Name": "Paucek LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 635,
-  "UdListDefinitionId": 454,
+  "HeadingId": 471,
+  "Name": "Padberg, Haag and Schinner",
+  "Tooltip": "dolores",
+  "Deleted": true,
+  "Rank": 192,
+  "UdListDefinitionId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

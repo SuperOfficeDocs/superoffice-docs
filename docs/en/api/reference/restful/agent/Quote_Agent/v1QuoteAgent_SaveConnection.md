@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 531,
-  "ERPName": "Gerlach Inc and Sons",
-  "DisplayName": "Jenkins-Bode",
-  "DisplayDescription": "Synchronised systemic concept",
-  "Rank": 602,
-  "ConnectorName": "McLaughlin-Reynolds",
-  "ErpConnectionId": 312,
-  "ExtraData": "est",
+  "QuoteConnectionId": 401,
+  "ERPName": "Collins, Hermann and Hirthe",
+  "DisplayName": "Goyette, Ortiz and Sauer",
+  "DisplayDescription": "Universal stable standardization",
+  "Rank": 326,
+  "ConnectorName": "Schamberger Inc and Sons",
+  "ErpConnectionId": 381,
+  "ExtraData": "fuga",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 106,
-      "ERPPriceListKey": "eligendi",
-      "QuoteConnectionId": 578,
-      "Name": "Mohr-Strosin",
-      "Description": "Profound empowering synergy",
-      "Currency": "ab",
-      "CurrencyName": "Kuhlman-Conroy",
-      "ValidFrom": "2017-03-30T14:13:41.1095702+02:00",
-      "ValidTo": "2005-12-06T14:13:41.1095702+01:00",
-      "IsActive": false,
+      "PriceListId": 387,
+      "ERPPriceListKey": "asperiores",
+      "QuoteConnectionId": 527,
+      "Name": "Moore Group",
+      "Description": "Self-enabling multi-tasking intranet",
+      "Currency": "atque",
+      "CurrencyName": "Torp-Rodriguez",
+      "ValidFrom": "2010-05-20T02:38:21.7763357+02:00",
+      "ValidTo": "2019-05-13T02:38:21.7763357+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 773
+          "FieldType": "System.Int32",
+          "FieldLength": 234
         }
       }
     }
   ],
-  "AllAccess": false,
-  "Deleted": false,
+  "AllAccess": true,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    804,
-    326
+    468,
+    156
   ],
   "AssociateAccessIds": [
-    716,
-    567
+    799,
+    865
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 698
     }
   }
 }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Paucek, Maggio and Reilly",
-  "RecordId": 243,
-  "AssociateId": 29
+  "TableName": "Altenwerth LLC",
+  "RecordId": 424,
+  "AssociateId": 797
 }
 ```
 

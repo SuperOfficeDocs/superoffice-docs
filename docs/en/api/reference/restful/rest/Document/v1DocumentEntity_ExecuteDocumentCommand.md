@@ -32,7 +32,7 @@ Execute a custom command on a particular document, optionally a particular versi
 | additionalData | array |  Any additional data that the document command needs. This parameter can be used as a tunnel between a custom-programmed GUI and its plugin.&lt;br/&gt;It is suggested that the format is name=value, with one such pair per array item. |
 
 ```http
-POST /api/v1/Document/{documentId}/Command/{command}?versionId=ut
+POST /api/v1/Document/{documentId}/Command/{command}?versionId=aspernatur
 POST /api/v1/Document/{documentId}/Command/{command}?allowedReturnTypes=Message
 POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 ```
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Document/{documentId}/Command/{command}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,11 +87,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptas",
-  "VersionId": "perferendis",
-  "Success": false,
+  "ExternalReference": "enim",
+  "VersionId": "accusamus",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "labore",
-  "AdditionalInfo": "voluptatum"
+  "Value": "reiciendis",
+  "AdditionalInfo": "officia"
 }
 ```

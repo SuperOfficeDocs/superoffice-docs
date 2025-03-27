@@ -26,8 +26,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=sed
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=in
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Wintheiser, Koss and Hackett",
-    "ToolTip": "Consequatur temporibus magni vero temporibus aut iusto.",
+    "Id": 519,
+    "Name": "Koepp Group",
+    "ToolTip": "Quia voluptatibus quaerat tempore quisquam soluta perspiciatis fugiat.",
     "Deleted": false,
-    "Rank": 859,
-    "Type": "et",
+    "Rank": 574,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 398,
-        "Name": "Weissnat Group",
-        "ToolTip": "Tenetur ipsa iure similique earum.",
-        "Deleted": false,
-        "Rank": 250,
-        "Type": "rem",
+        "Id": 831,
+        "Name": "Collier-Zemlak",
+        "ToolTip": "Ex est ratione totam ea est.",
+        "Deleted": true,
+        "Rank": 630,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "temporibus",
-        "ColorBlock": 720,
-        "ExtraInfo": "vel",
-        "StyleHint": "qui",
-        "FullName": "Prof. Berneice Hazle Ernser III",
+        "IconHint": "cum",
+        "ColorBlock": 899,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "dolorum",
+        "FullName": "Moses Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldType": "System.String",
+            "FieldLength": 29
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 91,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ex",
-    "FullName": "Kylie Greenholt",
+    "IconHint": "illum",
+    "ColorBlock": 31,
+    "ExtraInfo": "excepturi",
+    "StyleHint": "atque",
+    "FullName": "Kianna Alia Spencer IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 107
+        "FieldType": "System.String",
+        "FieldLength": 896
       }
     }
   }

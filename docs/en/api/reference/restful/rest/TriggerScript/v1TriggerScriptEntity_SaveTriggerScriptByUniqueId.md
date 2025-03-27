@@ -90,20 +90,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 660,
-  "Name": "Rau LLC",
+  "ScreenChooserId": 230,
+  "Name": "Johnson Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "nihil",
-  "Registered": "2023-04-18T14:13:49.4305556+02:00",
-  "RegisteredAssociateId": 476,
-  "Updated": "2019-01-19T14:13:49.4305556+01:00",
-  "UpdatedAssociateId": 752
+  "Enabled": true,
+  "UniqueIdentifier": "ducimus",
+  "Source": "esse",
+  "Registered": "2007-04-07T02:38:26.5266399+02:00",
+  "RegisteredAssociateId": 215,
+  "Updated": "2019-10-12T02:38:26.5266399+02:00",
+  "UpdatedAssociateId": 278
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 506,
-  "Name": "Cummings Inc and Sons",
+  "ScreenChooserId": 188,
+  "Name": "Thompson, Wolff and Steuber",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "provident",
-  "Registered": "2018-07-20T14:13:49.4305556+02:00",
-  "RegisteredAssociateId": 857,
-  "Updated": "2001-01-10T14:13:49.4305556+01:00",
-  "UpdatedAssociateId": 853,
+  "UniqueIdentifier": "omnis",
+  "Source": "qui",
+  "Registered": "2025-03-10T02:38:26.5266399+01:00",
+  "RegisteredAssociateId": 735,
+  "Updated": "2020-10-30T02:38:26.5266399+01:00",
+  "UpdatedAssociateId": 113,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 150
     }
   }
 }

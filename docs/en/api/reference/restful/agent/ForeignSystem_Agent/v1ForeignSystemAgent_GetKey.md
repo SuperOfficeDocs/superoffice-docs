@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ledner-Crooks",
-  "DeviceName": "Cremin, Rodriguez and Rowe",
-  "KeyName": "Gibson Group",
-  "TableName": "Wolf, Pollich and Jast",
-  "RecordId": 76
+  "ApplicationName": "Haley-Cartwright",
+  "DeviceName": "Quitzon, Stoltenberg and Watsica",
+  "KeyName": "Walsh, Schulist and Johns",
+  "TableName": "Nienow-Stehr",
+  "RecordId": 837
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "hic",
-  "Value": "corrupti",
-  "RecordId": 598,
-  "CreatedDate": "2010-03-26T14:13:40.3909833+01:00",
-  "UpdatedDate": "2021-09-17T14:13:40.3909833+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "itaque",
-  "TableName": "Crooks Group",
+  "Key": "cumque",
+  "Value": "et",
+  "RecordId": 403,
+  "CreatedDate": "2023-02-04T02:38:21.4639053+01:00",
+  "UpdatedDate": "2015-04-28T02:38:21.4639053+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "soluta",
+  "TableName": "Lakin, Stoltenberg and Waelchi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 929
     }
   }
 }

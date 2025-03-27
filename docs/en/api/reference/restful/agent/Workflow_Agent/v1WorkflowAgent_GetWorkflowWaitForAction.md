@@ -26,7 +26,7 @@ Gets a WorkflowWaitForAction object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=338
+POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?workflowWaitForActionId=734
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,25 +82,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 182,
-  "WorkflowStepId": 101,
-  "WorkflowId": 594,
-  "Rank": 820,
+  "WorkflowWaitForActionId": 377,
+  "WorkflowStepId": 692,
+  "WorkflowId": 934,
+  "Rank": 592,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Shields-Fahey",
-      "Description": "Managed hybrid website",
-      "Rank": 175,
+      "Name": "Russel-Sporer",
+      "Description": "Triple-buffered bi-directional knowledge base",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Shields-Fahey",
-      "Description": "Managed hybrid website",
-      "Rank": 175,
+      "Name": "Russel-Sporer",
+      "Description": "Triple-buffered bi-directional knowledge base",
+      "Rank": 59,
       "Restrictions": [
         {},
         {}
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 398
     }
   }
 }

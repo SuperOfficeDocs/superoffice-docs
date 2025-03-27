@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kub, Boyer and Nolan",
-  "ProviderName": "Nienow, Corwin and Harvey",
+  "GuiName": "Eichmann Inc and Sons",
+  "ProviderName": "Reichert, Powlowski and Schmidt",
   "Entities": [
     "et",
-    "maiores"
+    "velit"
   ]
 }
 ```

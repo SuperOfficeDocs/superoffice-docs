@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 504,
-  "Name": "Hansen, Welch and Lynch",
-  "Tooltip": "aut",
+  "HeadingId": 835,
+  "Name": "Tremblay LLC",
+  "Tooltip": "error",
   "Deleted": false,
-  "Rank": 639,
-  "UdListDefinitionId": 505
+  "Rank": 295,
+  "UdListDefinitionId": 108
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 807,
-  "Name": "Rogahn, Schaden and Reichert",
-  "Tooltip": "consequatur",
+  "HeadingId": 56,
+  "Name": "Kihn-Steuber",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "Rank": 367,
-  "UdListDefinitionId": 293,
+  "Rank": 737,
+  "UdListDefinitionId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldLength": 972
     }
   }
 }

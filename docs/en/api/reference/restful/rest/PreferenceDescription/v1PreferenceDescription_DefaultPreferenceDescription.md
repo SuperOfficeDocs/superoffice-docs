@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 48,
-  "Section": "labore",
-  "Key": "corporis",
-  "Name": "Graham LLC",
+  "PrefDescId": 126,
+  "Section": "dolorem",
+  "Key": "veniam",
+  "Name": "Dicki, Upton and McLaughlin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line multi-tasking time-frame",
+  "Description": "Quality-focused dedicated core",
   "IsBuiltin": false,
-  "TableName": "Crona-Wintheiser",
-  "UserDefinedListId": 277,
-  "Rank": 675,
-  "SubGroup": "nemo",
-  "MinLevel": 397,
-  "MaxValue": 900,
-  "MinValue": 509,
-  "RequiredLicense": "ex",
+  "TableName": "Yost-Cole",
+  "UserDefinedListId": 678,
+  "Rank": 179,
+  "SubGroup": "dolores",
+  "MinLevel": 377,
+  "MaxValue": 508,
+  "MinValue": 586,
+  "RequiredLicense": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 82
     }
   }
 }

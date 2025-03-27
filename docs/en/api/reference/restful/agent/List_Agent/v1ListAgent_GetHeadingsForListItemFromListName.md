@@ -93,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Metz-Feeney",
-  "ListItemId": 527,
-  "ShowDeleted": false
+  "UdListDefinitionName": "O'Conner LLC",
+  "ListItemId": 242,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Swaniawski, Cremin and Windler",
-    "ToolTip": "Ullam explicabo occaecati.",
+    "Id": 395,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Dolor sed amet aut alias voluptas.",
     "Deleted": true,
-    "Rank": 702,
-    "Type": "est",
-    "ColorBlock": 3,
-    "IconHint": "consequuntur",
+    "Rank": 108,
+    "Type": "sed",
+    "ColorBlock": 880,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2021-11-29T14:13:40.4847118+01:00",
+    "LastChanged": "2014-04-25T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 840,
-        "Name": "Bauch-Grimes",
-        "ToolTip": "Cum sunt quibusdam et id.",
+        "Id": 396,
+        "Name": "Hegmann, Witting and Gleason",
+        "ToolTip": "Sed voluptate ullam.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "sint",
-        "ColorBlock": 13,
-        "IconHint": "omnis",
+        "Rank": 406,
+        "Type": "impedit",
+        "ColorBlock": 852,
+        "IconHint": "adipisci",
         "Selected": false,
-        "LastChanged": "2016-12-26T14:13:40.4847118+01:00",
+        "LastChanged": "2017-05-26T02:38:21.5107392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "omnis",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "provident",
         "Hidden": false,
-        "FullName": "Dr. Harmon Kuhic",
+        "FullName": "Giovanna Tillman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 813
+            "FieldType": "System.Int32",
+            "FieldLength": 869
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Noble Orpha Marvin III",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "architecto",
+    "Hidden": false,
+    "FullName": "Mr. Yessenia Wunsch Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 582
+        "FieldLength": 435
       }
     }
   }

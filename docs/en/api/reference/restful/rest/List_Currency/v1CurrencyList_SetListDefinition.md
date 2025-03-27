@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Schinner Inc and Sons",
-  "Tooltip": "iste",
+  "Id": 598,
+  "Name": "Torp Inc and Sons",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 137,
+  "Rank": 133,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 298,
-  "Name": "Gulgowski, Wilderman and Bradtke",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 792,
+  "Id": 632,
+  "Name": "Fadel LLC",
+  "Tooltip": "nam",
+  "Deleted": true,
+  "Rank": 803,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   }
 }

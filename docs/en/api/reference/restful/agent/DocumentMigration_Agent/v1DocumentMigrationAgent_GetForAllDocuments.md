@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 379,
-  "IncludeEmails": false
+  "DocumentPluginId": 709,
+  "IncludeEmails": true
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 301,
-  "NumDocumentsAlreadyMigrated": 599,
+  "NumDocumentsOmitted": 519,
+  "NumDocumentsAlreadyMigrated": 385,
   "Documents": [
     {
-      "DocumentId": 140,
-      "ContactId": 346,
-      "PersonId": 711,
-      "SaleId": 121,
-      "ProjectId": 320,
-      "DocTmplId": 534,
-      "AssociateId": 833,
-      "UserGroupId": 327,
-      "VisibleForId": 495
+      "DocumentId": 503,
+      "ContactId": 986,
+      "PersonId": 720,
+      "SaleId": 348,
+      "ProjectId": 336,
+      "DocTmplId": 999,
+      "AssociateId": 818,
+      "UserGroupId": 651,
+      "VisibleForId": 651
     }
   ],
   "Associates": [
     {
-      "AssociateId": 226,
-      "EmailAddress": "jose@hillsfeeney.biz"
+      "AssociateId": 223,
+      "EmailAddress": "leola.reichert@padberg.us"
     },
     {
-      "AssociateId": 226,
-      "EmailAddress": "jose@hillsfeeney.biz"
+      "AssociateId": 223,
+      "EmailAddress": "leola.reichert@padberg.us"
     }
   ]
 }

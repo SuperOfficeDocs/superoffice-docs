@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 754,
+  "ProjectId": 436,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 807,
-      "ContactId": 785,
-      "ProjectId": 620,
-      "ContactName": "Deckow-Walker",
+      "ProjectmemberId": 248,
+      "ContactId": 930,
+      "ProjectId": 347,
+      "ContactName": "Turcotte, Kihn and Yundt",
       "ContactDepartment": "",
-      "ProjectName": "Morissette Group",
-      "EmailId": 488,
-      "EmailAddress": "haskell@aufderhardietrich.uk",
-      "CountryId": 731,
-      "Firstname": "Logan",
-      "MiddleName": "Heaney, McLaughlin and Davis",
-      "Lastname": "Tromp",
-      "PersonId": 771,
-      "Mrmrs": "est",
-      "ProjectMemberTypeName": "O'Hara-Eichmann",
-      "Phone": "082.456.4485 x187",
-      "PhoneId": 692,
-      "ProjectMemberTypeId": 245,
-      "EmailAddressName": "elyssa@yost.us",
-      "Comment": "aliquam",
-      "FullName": "Meghan Stiedemann IV"
+      "ProjectName": "Daugherty, Goldner and Emard",
+      "EmailId": 525,
+      "EmailAddress": "weldon@upton.us",
+      "CountryId": 334,
+      "Firstname": "Alia",
+      "MiddleName": "Okuneva, Dietrich and Bechtelar",
+      "Lastname": "Gislason",
+      "PersonId": 778,
+      "Mrmrs": "et",
+      "ProjectMemberTypeName": "Deckow Inc and Sons",
+      "Phone": "(042)547-8682 x6799",
+      "PhoneId": 441,
+      "ProjectMemberTypeId": 760,
+      "EmailAddressName": "shania.fahey@bartonklein.name",
+      "Comment": "pariatur",
+      "FullName": "Miss Christophe Armstrong"
     }
   ]
 }

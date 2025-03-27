@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 310,
-  "FieldDefault": "veniam",
-  "FieldHeight": 821,
-  "FieldLabel": "deleniti",
-  "FieldLeft": 573,
-  "FieldTop": 338,
+  "UDefFieldId": 516,
+  "ColumnId": 81,
+  "FieldDefault": "occaecati",
+  "FieldHeight": 633,
+  "FieldLabel": "sint",
+  "FieldLeft": 574,
+  "FieldTop": 34,
   "FieldType": "Checkbox",
-  "FieldWidth": 306,
-  "FormatMask": "eos",
+  "FieldWidth": 365,
+  "FormatMask": "illum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 272,
-  "LabelLeft": 624,
-  "LabelTop": 237,
-  "LabelWidth": 677,
-  "LastVersionId": 167,
-  "ListTableId": 459,
+  "LabelHeight": 620,
+  "LabelLeft": 305,
+  "LabelTop": 882,
+  "LabelWidth": 872,
+  "LastVersionId": 392,
+  "ListTableId": 192,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 872,
-  "ProgId": "architecto",
+  "Page1LineNo": 357,
+  "ProgId": "qui",
   "IsReadOnly": true,
-  "ShortLabel": "rerum",
-  "TabOrder": 547,
-  "TextLength": 748,
-  "Tooltip": "assumenda",
-  "UdefIdentity": 45,
-  "UDListDefinitionId": 257,
+  "ShortLabel": "id",
+  "TabOrder": 777,
+  "TextLength": 166,
+  "Tooltip": "voluptatum",
+  "UdefIdentity": 792,
+  "UDListDefinitionId": 727,
   "Justification": "Center",
-  "Version": 237,
-  "TemplateVariableName": "Maggio-Barton",
-  "HasBeenPublished": true,
-  "MdoListName": "Predovic, Cronin and Kautzer",
+  "Version": 330,
+  "TemplateVariableName": "Johnston LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Senger Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 211
     }
   }
 }

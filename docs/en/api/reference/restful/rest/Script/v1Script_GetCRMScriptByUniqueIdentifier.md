@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eos",
-  "Name": "Champlin, Heathcote and Kassulke",
-  "Description": "Face to face zero tolerance core",
-  "IncludeId": "sunt",
-  "Source": "aut",
-  "Registered": "2020-02-06T14:13:49.5242846+01:00",
-  "RegisteredBy": "pariatur",
-  "Updated": "2015-09-28T14:13:49.5242846+02:00",
-  "UpdatedBy": "blanditiis",
-  "Path": "consequatur",
+  "UniqueIdentifier": "omnis",
+  "Name": "Orn-Heaney",
+  "Description": "Object-based demand-driven data-warehouse",
+  "IncludeId": "ea",
+  "Source": "optio",
+  "Registered": "2003-08-19T02:38:26.58914+02:00",
+  "RegisteredBy": "quia",
+  "Updated": "2001-05-30T02:38:26.58914+02:00",
+  "UpdatedBy": "sint",
+  "Path": "sint",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 766
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": false
+  "IncludeMemberProjects": true
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 368,
-    "Name": "Altenwerth LLC",
-    "Description": "Decentralized empowering standardization",
+    "ProjectId": 78,
+    "Name": "Labadie, Windler and Grant",
+    "Description": "Extended bifurcated concept",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 127,
-    "AssociateFullName": "Mr. Patricia Winona Becker",
-    "TypeId": 914,
-    "Updated": "2018-12-13T14:13:41.0314634+01:00",
-    "StatusId": 307,
-    "Status": "voluptatum",
-    "TextId": 855,
-    "PublishTo": "2017-01-16T14:13:41.0314634+01:00",
-    "PublishFrom": "2016-03-31T14:13:41.0314634+02:00",
+    "Type": "amet",
+    "AssociateId": 63,
+    "AssociateFullName": "Lauryn Price DVM",
+    "TypeId": 679,
+    "Updated": "2016-12-09T02:38:21.7295028+01:00",
+    "StatusId": 343,
+    "Status": "voluptate",
+    "TextId": 283,
+    "PublishTo": "2017-08-24T02:38:21.7295028+02:00",
+    "PublishFrom": "2022-11-18T02:38:21.7295028+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1111597",
-    "ActiveErpLinks": 448,
+    "ProjectNumber": "620126",
+    "ActiveErpLinks": 99,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldLength": 86
       }
     }
   }

@@ -97,20 +97,20 @@ ListEntity updated.
 PUT /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 31,
-  "Name": "Davis, Kirlin and Aufderhar",
-  "Tooltip": "repellendus",
+  "Id": 697,
+  "Name": "Flatley LLC",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 608,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 110,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": false
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 54,
-  "Name": "Smith, Effertz and Wolff",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "Rank": 604,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "impedit",
+  "Id": 753,
+  "Name": "Wilkinson Group",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "Rank": 746,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 526
+      "FieldLength": 495
     }
   },
   "_Links": {

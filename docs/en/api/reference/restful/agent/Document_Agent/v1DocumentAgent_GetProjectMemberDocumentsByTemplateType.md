@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 586,
-  "StartTime": "2015-05-20T14:13:40.0004493+02:00",
-  "EndTime": "2006-08-06T14:13:40.0004493+02:00",
-  "Count": 689,
-  "DocumentTemplateId": 750
+  "PersonId": 99,
+  "StartTime": "2005-02-22T02:38:21.2295568+01:00",
+  "EndTime": "2012-11-06T02:38:21.2295568+01:00",
+  "Count": 454,
+  "DocumentTemplateId": 254
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 897,
-    "Attention": "similique",
-    "Header": "eius",
-    "Name": "Fay, Mertz and Stanton",
-    "OurRef": "fugiat",
-    "YourRef": "eveniet",
-    "Description": "Diverse upward-trending open architecture",
-    "DocumentTemplate": "quia",
-    "IsPublished": true,
-    "PersonId": 139,
-    "PersonFullName": "Ryan Abbott",
-    "AssociateFullName": "Mr. Henri Carolanne Erdman",
-    "ContactId": 425,
-    "ContactName": "Purdy Inc and Sons",
-    "ProjectId": 396,
-    "ProjectName": "Stiedemann LLC",
-    "AssociateId": 561,
-    "Snum": 96,
-    "SaleId": 778,
-    "SaleName": "Ledner LLC",
+    "DocumentId": 784,
+    "Attention": "et",
+    "Header": "consectetur",
+    "Name": "Homenick Inc and Sons",
+    "OurRef": "et",
+    "YourRef": "libero",
+    "Description": "Inverse multimedia superstructure",
+    "DocumentTemplate": "ut",
+    "IsPublished": false,
+    "PersonId": 860,
+    "PersonFullName": "Theo Oberbrunner",
+    "AssociateFullName": "June Hyatt MD",
+    "ContactId": 329,
+    "ContactName": "Jewess LLC",
+    "ProjectId": 802,
+    "ProjectName": "Bernier, Reinger and Cormier",
+    "AssociateId": 506,
+    "Snum": 686,
+    "SaleId": 143,
+    "SaleName": "Kertzmann Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 108
       }
     }
   }

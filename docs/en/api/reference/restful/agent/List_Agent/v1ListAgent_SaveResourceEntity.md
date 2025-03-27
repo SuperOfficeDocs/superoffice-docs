@@ -79,13 +79,13 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 402,
-  "Name": "Ratke-Trantow",
-  "Rank": 135,
-  "Tooltip": "sit",
+  "ResourceId": 741,
+  "Name": "Parker LLC",
+  "Rank": 398,
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "et"
+  "IsLocation": true,
+  "LocationAddress": "error"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 212,
-  "Name": "Jast LLC",
-  "Rank": 657,
-  "Tooltip": "earum",
+  "ResourceId": 216,
+  "Name": "Cremin Inc and Sons",
+  "Rank": 413,
+  "Tooltip": "enim",
   "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "ut",
+  "LocationAddress": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 624
+      "FieldLength": 82
     }
   }
 }

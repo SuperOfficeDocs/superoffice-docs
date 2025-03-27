@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 440,
-  "Name": "Stark, Schuster and Goldner",
-  "Tooltip": "libero",
-  "Rank": 62,
+  "SaleTypeId": 602,
+  "Name": "Feil Group",
+  "Tooltip": "saepe",
+  "Rank": 940,
   "DurationUnit": "Century",
-  "SaleDuration": 810,
-  "SaleTypeCatId": 489,
+  "SaleDuration": 23,
+  "SaleTypeCatId": 193,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 627,
-  "QuoteLinesTemplate": 862,
-  "ConfirmationLinesTemplate": 201,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 543,
-  "MinEarningPercent": 210,
-  "GroupQuoteLinesBy": 821,
-  "SortGroupLinesBy": 644,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 372,
+  "QuoteLinesTemplate": 535,
+  "ConfirmationLinesTemplate": 734,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 804,
+  "MinEarningPercent": 337,
+  "GroupQuoteLinesBy": 393,
+  "SortGroupLinesBy": 628,
   "Stages": [
     {
-      "Id": 581,
-      "Name": "Gaylord, Hand and White",
-      "ToolTip": "Id deleniti nihil dicta deleniti inventore assumenda.",
+      "Id": 42,
+      "Name": "Moore Inc and Sons",
+      "ToolTip": "Repellendus sit.",
       "Deleted": false,
-      "Rank": 198,
-      "Type": "ipsam",
-      "ColorBlock": 325,
-      "IconHint": "qui",
+      "Rank": 455,
+      "Type": "non",
+      "ColorBlock": 746,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2015-02-28T14:13:50.2283063+01:00",
+      "LastChanged": "2007-11-15T02:38:26.9330101+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "rerum",
+      "ExtraInfo": "aperiam",
+      "StyleHint": "accusantium",
       "Hidden": false,
-      "FullName": "Esperanza Heller",
+      "FullName": "Mrs. Sunny Torp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 943
+          "FieldType": "System.Int32",
+          "FieldLength": 339
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldLength": 387
     }
   }
 }

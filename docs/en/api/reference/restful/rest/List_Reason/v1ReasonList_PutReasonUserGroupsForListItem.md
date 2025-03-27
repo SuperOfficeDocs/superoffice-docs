@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Leuschke-White",
-    "ToolTip": "Occaecati consequatur delectus adipisci sed aliquam pariatur officia.",
+    "Id": 715,
+    "Name": "Veum, Ritchie and Reichel",
+    "ToolTip": "Adipisci mollitia.",
     "Deleted": false,
-    "Rank": 362,
-    "Type": "quo",
-    "ColorBlock": 943,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2017-01-13T14:13:50.1812638+01:00",
+    "Rank": 670,
+    "Type": "fuga",
+    "ColorBlock": 387,
+    "IconHint": "nam",
+    "Selected": false,
+    "LastChanged": "2003-10-31T02:38:26.9017511+01:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Erdman, Satterfield and Legros",
-        "ToolTip": "Maiores qui similique sit sed assumenda odit dolorem.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "sit",
-        "ColorBlock": 581,
-        "IconHint": "et",
+        "Id": 309,
+        "Name": "Dare LLC",
+        "ToolTip": "Repellat quis voluptatem sint dolores.",
+        "Deleted": false,
+        "Rank": 244,
+        "Type": "sunt",
+        "ColorBlock": 847,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2006-09-03T14:13:50.1812638+02:00",
+        "LastChanged": "2002-06-23T02:38:26.9017511+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "neque",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Joan Carter III"
+        "FullName": "Nikolas Koss"
       }
     ],
-    "ExtraInfo": "inventore",
+    "ExtraInfo": "laboriosam",
     "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Theodore Bogan"
+    "FullName": "Justyn Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Lindgren-Ondricka",
-    "ToolTip": "Ut magni culpa perspiciatis quam excepturi incidunt iure.",
-    "Deleted": true,
-    "Rank": 243,
-    "Type": "ad",
-    "ColorBlock": 856,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2003-02-18T14:13:50.1968854+01:00",
+    "Id": 606,
+    "Name": "Collins, Mayer and Block",
+    "ToolTip": "Aut et.",
+    "Deleted": false,
+    "Rank": 529,
+    "Type": "non",
+    "ColorBlock": 313,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2024-11-17T02:38:26.9017511+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Conn Inc and Sons",
-        "ToolTip": "Commodi rem sit.",
+        "Id": 228,
+        "Name": "Konopelski Group",
+        "ToolTip": "Voluptatem adipisci doloremque sit.",
         "Deleted": false,
-        "Rank": 700,
-        "Type": "minima",
-        "ColorBlock": 615,
-        "IconHint": "est",
-        "Selected": false,
-        "LastChanged": "2014-06-10T14:13:50.1968854+02:00",
+        "Rank": 291,
+        "Type": "eum",
+        "ColorBlock": 979,
+        "IconHint": "ducimus",
+        "Selected": true,
+        "LastChanged": "2015-05-07T02:38:26.9017511+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "nulla",
+        "ExtraInfo": "qui",
+        "StyleHint": "quae",
         "Hidden": false,
-        "FullName": "Kyler Berge",
+        "FullName": "Emma Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldType": "System.Int32",
+            "FieldLength": 824
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "qui",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Tad Haley",
+    "FullName": "Patricia Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 329
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

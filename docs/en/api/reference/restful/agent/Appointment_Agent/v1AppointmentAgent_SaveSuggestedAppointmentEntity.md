@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 741,
-  "Name": "Schmitt-Howell",
-  "Tooltip": "vel",
-  "Rank": 36,
-  "Deleted": true,
-  "DaysFuture": 391,
-  "Duration": "molestiae",
+  "SuggestedAppointmentId": 757,
+  "Name": "Luettgen-Cronin",
+  "Tooltip": "ab",
+  "Rank": 990,
+  "Deleted": false,
+  "DaysFuture": 619,
+  "Duration": "fugit",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": true,
-  "Text": "veniam",
+  "Text": "ut",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 442,
-  "Name": "Dicki, Stracke and Weimann",
-  "Tooltip": "ab",
-  "Rank": 340,
+  "SuggestedAppointmentId": 638,
+  "Name": "Zboncak, Cole and Ryan",
+  "Tooltip": "voluptatem",
+  "Rank": 573,
   "Deleted": false,
-  "DaysFuture": 808,
-  "Duration": "voluptates",
+  "DaysFuture": 199,
+  "Duration": "ipsam",
   "AutoSuggest": true,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "aut",
+  "Text": "qui",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 145
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

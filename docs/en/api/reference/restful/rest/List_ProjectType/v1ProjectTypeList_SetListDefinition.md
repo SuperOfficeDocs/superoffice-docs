@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 36,
-  "Name": "Stark-Dibbert",
-  "Tooltip": "dolorem",
-  "Deleted": true,
-  "Rank": 618,
-  "IsCustomList": true,
+  "Id": 921,
+  "Name": "Runolfsson, Zemlak and Pagac",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 353,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": false
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 287,
-  "Name": "Effertz Inc and Sons",
-  "Tooltip": "non",
-  "Deleted": false,
-  "Rank": 11,
+  "Id": 96,
+  "Name": "Hamill, Ortiz and Stanton",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 938,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 815
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=deserunt
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=et
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Senger-Emard",
-    "ToolTip": "Sed qui cumque dolor impedit dolore nostrum dolore.",
+    "Id": 343,
+    "Name": "Schiller-Botsford",
+    "ToolTip": "Sed sint ad assumenda.",
     "Deleted": false,
-    "Rank": 134,
+    "Rank": 32,
     "Type": "et",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Roob, Parker and Goodwin",
-        "ToolTip": "Beatae dolor autem.",
-        "Deleted": false,
-        "Rank": 37,
-        "Type": "amet",
+        "Id": 105,
+        "Name": "Schinner Group",
+        "ToolTip": "Minima nisi neque.",
+        "Deleted": true,
+        "Rank": 868,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 197,
-        "ExtraInfo": "assumenda",
-        "StyleHint": "nobis",
-        "FullName": "Myrtie Bauch",
+        "IconHint": "vitae",
+        "ColorBlock": 512,
+        "ExtraInfo": "saepe",
+        "StyleHint": "est",
+        "FullName": "Dr. Alexzander Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldLength": 484
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 450,
-    "ExtraInfo": "culpa",
+    "IconHint": "voluptas",
+    "ColorBlock": 59,
+    "ExtraInfo": "soluta",
     "StyleHint": "qui",
-    "FullName": "Dustin Ratke",
+    "FullName": "Novella Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 346
+        "FieldType": "System.String",
+        "FieldLength": 13
       }
     }
   }

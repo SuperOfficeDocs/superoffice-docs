@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 93,
-  "ConnectorName": "Wolff-White"
+  "ConnectionId": 51,
+  "ConnectorName": "Kunde-Mayert"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "quo",
-    "Rank": 646,
-    "DisplayName": "Krajcik Inc and Sons",
-    "DisplayDescription": "Realigned fresh-thinking hardware",
+    "FieldKey": "est",
+    "Rank": 435,
+    "DisplayName": "Bogisich LLC",
+    "DisplayDescription": "Compatible bifurcated knowledge base",
     "FieldType": "Checkbox",
-    "ListName": "Jerde-Berge",
-    "DefaultValue": "voluptas",
-    "MaxLength": 880,
+    "ListName": "Gibson LLC",
+    "DefaultValue": "odit",
+    "MaxLength": 503,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldLength": 263
       }
     }
   }

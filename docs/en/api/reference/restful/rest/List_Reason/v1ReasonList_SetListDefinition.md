@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 127,
-  "Name": "Thiel Group",
-  "Tooltip": "harum",
+  "Id": 548,
+  "Name": "Rowe-Lemke",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 962,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 234,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consectetur",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "McCullough-Pouros",
-  "Tooltip": "eum",
+  "Id": 906,
+  "Name": "Kilback-Orn",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 443,
-  "IsCustomList": false,
+  "Rank": 204,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 492
     }
   }
 }

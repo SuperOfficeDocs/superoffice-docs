@@ -14,6 +14,8 @@ items:
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.SearchCriteriaGroupRow})
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.ForEach(System.Action{SuperOffice.CRM.Rows.SearchCriteriaGroupRow})
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromCustomSearch(SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch)
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId(System.Int32)
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank(System.Int32,System.Int16)
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo)
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.Remove(SuperOffice.CRM.Rows.SearchCriteriaGroupRow)
@@ -295,6 +297,78 @@ items:
       description: A new instance of the SearchCriteriaGroupRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearch(query As SearchCriteriaGroupRows.CustomSearch) As SearchCriteriaGroupRows
   overload: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromCustomSearch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId(System.Int32)
+  id: GetFromIdxSearchCriteriaId(System.Int32)
+  parent: SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxSearchCriteriaId(Int32)
+  nameWithType: SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId(Int32)
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the SearchCriteriaGroupRow object, by querying the database table via the index &apos;ISearchCriteria_idRank&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the SearchCriteriaGroup table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.SearchCriteriaGroupRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static SearchCriteriaGroupRows GetFromIdxSearchCriteriaId(int searchCriteriaId)
+    parameters:
+    - id: searchCriteriaId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxSearchCriteriaId(searchCriteriaId As Integer) As SearchCriteriaGroupRows
+  overload: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank(System.Int32,System.Int16)
+  commentId: M:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank(System.Int32,System.Int16)
+  id: GetFromIdxSearchCriteriaIdRank(System.Int32,System.Int16)
+  parent: SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxSearchCriteriaIdRank(Int32, Int16)
+  nameWithType: SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank(Int32, Int16)
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank(System.Int32, System.Int16)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the SearchCriteriaGroupRow object, by querying the database table via the index &apos;ISearchCriteria_idRank&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the SearchCriteriaGroup table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.SearchCriteriaGroupRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static SearchCriteriaGroupRows GetFromIdxSearchCriteriaIdRank(int searchCriteriaId, short rank)
+    parameters:
+    - id: searchCriteriaId
+      type: System.Int32
+    - id: rank
+      type: System.Int16
+    return:
+      type: SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxSearchCriteriaIdRank(searchCriteriaId As Integer, rank As Short) As SearchCriteriaGroupRows
+  overload: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank*
   modifiers.csharp:
   - public
   - static
@@ -2979,6 +3053,32 @@ references:
   name: SearchCriteriaGroupRows.CustomSearch
   nameWithType: SearchCriteriaGroupRows.CustomSearch
   fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId*
+  commentId: Overload:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId
+  isExternal: true
+  name: GetFromIdxSearchCriteriaId
+  nameWithType: SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank*
+  commentId: Overload:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank
+  isExternal: true
+  name: GetFromIdxSearchCriteriaIdRank
+  nameWithType: SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromIdxSearchCriteriaIdRank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromReader*
   commentId: Overload:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.GetFromReader
   isExternal: true
@@ -3011,13 +3111,6 @@ references:
   name: Add
   nameWithType: SearchCriteriaGroupRows.Add
   fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.Add
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.AddRange*
   commentId: Overload:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.AddRange
   isExternal: true

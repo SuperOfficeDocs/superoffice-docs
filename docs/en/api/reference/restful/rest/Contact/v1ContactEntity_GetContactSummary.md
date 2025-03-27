@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=298
+GET /api/v1/Contact/{contactId}/Summary?limit=428
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 631,
-      "TicketStatus": 1000,
-      "Title": "voluptatem",
-      "Registered": "2017-01-26T14:13:48.569529+01:00",
-      "IconHint": "ducimus"
+      "TicketId": 448,
+      "TicketStatus": 618,
+      "Title": "assumenda",
+      "Registered": "2016-06-10T02:38:26.011077+02:00",
+      "IconHint": "aliquam"
     },
     {
-      "TicketId": 631,
-      "TicketStatus": 1000,
-      "Title": "voluptatem",
-      "Registered": "2017-01-26T14:13:48.569529+01:00",
-      "IconHint": "ducimus"
+      "TicketId": 448,
+      "TicketStatus": 618,
+      "Title": "assumenda",
+      "Registered": "2016-06-10T02:38:26.011077+02:00",
+      "IconHint": "aliquam"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 278,
-      "DocumentId": 987,
-      "Date": "1999-04-17T14:13:48.569529+02:00",
-      "Description": "Proactive empowering groupware",
+      "AppointmentId": 99,
+      "DocumentId": 713,
+      "Date": "2015-12-29T02:38:26.011077+01:00",
+      "Description": "Implemented bi-directional adapter",
       "Completed": "Completed",
-      "Registered": "2020-05-04T14:13:48.569529+02:00"
+      "Registered": "2001-09-10T02:38:26.011077+02:00"
     },
     {
-      "AppointmentId": 278,
-      "DocumentId": 987,
-      "Date": "1999-04-17T14:13:48.569529+02:00",
-      "Description": "Proactive empowering groupware",
+      "AppointmentId": 99,
+      "DocumentId": 713,
+      "Date": "2015-12-29T02:38:26.011077+01:00",
+      "Description": "Implemented bi-directional adapter",
       "Completed": "Completed",
-      "Registered": "2020-05-04T14:13:48.569529+02:00"
+      "Registered": "2001-09-10T02:38:26.011077+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 909,
-      "DocumentId": 914,
-      "Date": "2006-11-27T14:13:48.569529+01:00",
-      "Description": "Profit-focused local orchestration",
+      "AppointmentId": 794,
+      "DocumentId": 751,
+      "Date": "1998-04-07T02:38:26.011077+02:00",
+      "Description": "Organic 6th generation software",
       "Completed": "Completed",
-      "Registered": "2012-07-06T14:13:48.569529+02:00"
+      "Registered": "2007-01-01T02:38:26.011077+01:00"
     },
     {
-      "AppointmentId": 909,
-      "DocumentId": 914,
-      "Date": "2006-11-27T14:13:48.569529+01:00",
-      "Description": "Profit-focused local orchestration",
+      "AppointmentId": 794,
+      "DocumentId": 751,
+      "Date": "1998-04-07T02:38:26.011077+02:00",
+      "Description": "Organic 6th generation software",
       "Completed": "Completed",
-      "Registered": "2012-07-06T14:13:48.569529+02:00"
+      "Registered": "2007-01-01T02:38:26.011077+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 837,
-      "SaleDate": "2009-10-22T14:13:48.569529+02:00",
-      "Probability": 222,
-      "Heading": "laudantium",
-      "Amount": 14911.572,
-      "Currency": "minus",
-      "AmountInBaseCurrency": 20374.134,
+      "SaleId": 294,
+      "SaleDate": "2019-12-11T02:38:26.011077+01:00",
+      "Probability": 976,
+      "Heading": "aperiam",
+      "Amount": 8458.666,
+      "Currency": "amet",
+      "AmountInBaseCurrency": 9850.162,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2008-12-24T14:13:48.569529+01:00"
+      "Registered": "2012-07-04T02:38:26.011077+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 360,
-      "Name": "Vandervort-Stamm",
-      "CompanyName": "Friesen Group",
-      "FirstMessage": "rem",
-      "LastMessage": "quae",
-      "WhenRequested": "2015-01-23T14:13:48.569529+01:00",
-      "WhenEnded": "1999-05-19T14:13:48.569529+02:00"
+      "ChatSessionId": 297,
+      "Name": "Kuhic-Haley",
+      "CompanyName": "Ward Inc and Sons",
+      "FirstMessage": "autem",
+      "LastMessage": "in",
+      "WhenRequested": "2022-04-14T02:38:26.011077+02:00",
+      "WhenEnded": "2024-04-16T02:38:26.011077+02:00"
     }
   ]
 }

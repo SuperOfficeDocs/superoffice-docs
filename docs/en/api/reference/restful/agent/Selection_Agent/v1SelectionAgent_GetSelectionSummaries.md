@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    967,
-    561
+    716,
+    8
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 299,
-    "Name": "Klocko Inc and Sons",
-    "TargetTable": "necessitatibus",
-    "Registered": "2013-04-30T14:13:41.3289686+02:00",
-    "ProviderName": "Trantow LLC"
+    "SelectionId": 601,
+    "Name": "Prosacco-Murray",
+    "TargetTable": "doloribus",
+    "Registered": "2001-08-24T02:38:21.9951006+02:00",
+    "ProviderName": "Rodriguez-Hayes"
   },
   {
-    "SelectionId": 299,
-    "Name": "Klocko Inc and Sons",
-    "TargetTable": "necessitatibus",
-    "Registered": "2013-04-30T14:13:41.3289686+02:00",
-    "ProviderName": "Trantow LLC"
+    "SelectionId": 601,
+    "Name": "Prosacco-Murray",
+    "TargetTable": "doloribus",
+    "Registered": "2001-08-24T02:38:21.9951006+02:00",
+    "ProviderName": "Rodriguez-Hayes"
   }
 ]
 ```

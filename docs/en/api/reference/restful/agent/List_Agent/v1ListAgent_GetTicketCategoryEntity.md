@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=109
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=902
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 191,
-  "ParentId": 813,
-  "Name": "Runolfsdottir-Welch",
-  "Fullname": "mollitia",
-  "CategoryMaster": 397,
+  "TicketCategoryId": 225,
+  "ParentId": 31,
+  "Name": "Turner-Wolff",
+  "Fullname": "occaecati",
+  "CategoryMaster": 995,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hagenes Inc and Sons",
+  "ExternalName": "Zieme-Homenick",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 766,
-  "ReplyTemplate": 423,
-  "NotificationEmail": "valentina@hoeger.info",
+  "AssignmentLag": 664,
+  "ReplyTemplate": 56,
+  "NotificationEmail": "ally@schaefermetz.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 231,
+  "EffectiveReplyTemplateId": 342,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "error"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "animi"
+    "CustomFields1": "magnam",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 618
     }
   }
 }

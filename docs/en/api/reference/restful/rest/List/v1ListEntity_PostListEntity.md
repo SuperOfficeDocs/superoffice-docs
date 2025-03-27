@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Medhurst, Cassin and Fahey",
-  "Tooltip": "autem",
+  "Id": 995,
+  "Name": "Schroeder Inc and Sons",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 415,
-  "IsCustomList": true,
+  "Rank": 488,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sequi",
+  "UseGroupsAndHeadings": true,
+  "ListType": "iste",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669,
-  "Name": "Predovic LLC",
-  "Tooltip": "veritatis",
+  "Id": 245,
+  "Name": "Cormier Group",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 726,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 296,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "tenetur",
+  "ListType": "quibusdam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 935
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   },
   "_Links": {

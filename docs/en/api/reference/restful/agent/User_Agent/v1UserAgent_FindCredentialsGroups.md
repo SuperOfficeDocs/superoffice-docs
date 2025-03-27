@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "sunt",
-  "SearchString": "dolorum"
+  "Type": "odit",
+  "SearchString": "fugiat"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Glover, Lowe and Kuvalis",
-    "DisplayName": "Jacobi Inc and Sons",
+    "Name": "Kassulke, Denesik and Howe",
+    "DisplayName": "Yundt-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldLength": 233
       }
     }
   },
   {
-    "Name": "Glover, Lowe and Kuvalis",
-    "DisplayName": "Jacobi Inc and Sons",
+    "Name": "Kassulke, Denesik and Howe",
+    "DisplayName": "Yundt-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldLength": 233
       }
     }
   }

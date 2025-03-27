@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "sint",
-    "animi"
+    "est",
+    "recusandae"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayer, Williamson and Feeney",
-    "Delimiter": "vitae",
-    "Flags": "et",
-    "TotalItems": 718,
-    "UnreadItems": 770,
-    "Subscribed": false,
-    "EmailFolderId": 476,
+    "Name": "Spencer, Ziemann and Emmerich",
+    "Delimiter": "minus",
+    "Flags": "magnam",
+    "TotalItems": 491,
+    "UnreadItems": 827,
+    "Subscribed": true,
+    "EmailFolderId": 707,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 144
       }
     }
   }

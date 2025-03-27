@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "consectetur"
+  "ChatId": "atque"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2008-01-15T14:13:38.9068394+01:00",
-    "UserPrompt": "possimus",
-    "UserDisplayText": "quisquam",
-    "BotResponse": "laudantium",
+    "Timestamp": "2023-11-18T02:38:20.5263598+01:00",
+    "UserPrompt": "aut",
+    "UserDisplayText": "ut",
+    "BotResponse": "quis",
     "BotActions": {
-      "BotActions1": "nobis",
-      "BotActions2": "nihil"
+      "BotActions1": "magnam",
+      "BotActions2": "voluptate"
     },
     "Attachments": [
-      "praesentium",
-      "eveniet"
+      "deserunt",
+      "qui"
     ]
   },
   {
-    "Timestamp": "2008-01-15T14:13:38.9068394+01:00",
-    "UserPrompt": "possimus",
-    "UserDisplayText": "quisquam",
-    "BotResponse": "laudantium",
+    "Timestamp": "2023-11-18T02:38:20.5263598+01:00",
+    "UserPrompt": "aut",
+    "UserDisplayText": "ut",
+    "BotResponse": "quis",
     "BotActions": {
-      "BotActions1": "nobis",
-      "BotActions2": "nihil"
+      "BotActions1": "magnam",
+      "BotActions2": "voluptate"
     },
     "Attachments": [
-      "praesentium",
-      "eveniet"
+      "deserunt",
+      "qui"
     ]
   }
 ]

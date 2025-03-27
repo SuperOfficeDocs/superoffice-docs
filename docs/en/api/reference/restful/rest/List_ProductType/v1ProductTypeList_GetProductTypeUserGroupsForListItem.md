@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Parker Inc and Sons",
-    "ToolTip": "Libero sint nemo.",
-    "Deleted": true,
-    "Rank": 103,
-    "Type": "amet",
-    "ColorBlock": 843,
-    "IconHint": "blanditiis",
-    "Selected": false,
-    "LastChanged": "1998-05-07T14:13:50.1031526+02:00",
+    "Id": 430,
+    "Name": "Boyer, Wunsch and Ratke",
+    "ToolTip": "Voluptas facere amet quis ratione.",
+    "Deleted": false,
+    "Rank": 745,
+    "Type": "dolor",
+    "ColorBlock": 864,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2016-08-24T02:38:26.854892+02:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Reilly-Klocko",
-        "ToolTip": "Voluptatem ut eos enim temporibus qui corrupti.",
+        "Id": 515,
+        "Name": "Kunde, Deckow and Dach",
+        "ToolTip": "Porro facere veritatis repellendus ut commodi.",
         "Deleted": false,
-        "Rank": 863,
-        "Type": "soluta",
-        "ColorBlock": 812,
-        "IconHint": "ut",
+        "Rank": 30,
+        "Type": "dolor",
+        "ColorBlock": 933,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2011-02-10T14:13:50.1031526+01:00",
+        "LastChanged": "2005-05-19T02:38:26.854892+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "est",
         "Hidden": true,
-        "FullName": "Twila Bayer",
+        "FullName": "Danika McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldType": "System.String",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Nikita Naomi Senger III",
+    "ExtraInfo": "est",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Kianna Littel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 71
       }
     }
   }

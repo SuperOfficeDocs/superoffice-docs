@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Schumm Inc and Sons",
-  "Tooltip": "et",
+  "Id": 765,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 907,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 19,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "beatae",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Koch Inc and Sons",
-  "Tooltip": "quos",
+  "Id": 72,
+  "Name": "Heller Group",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 227,
+  "Rank": 330,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "laborum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

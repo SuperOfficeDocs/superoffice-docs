@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Grady Group"
+  "HistoryName": "Greenholt Inc and Sons"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 599,
-    "Id": 265,
-    "HistoryName": "Stokes, Bahringer and Rempel",
-    "HistoryId": 103,
-    "AssociateId": 545,
-    "Name": "Fay-Wisoky",
-    "ItemInfo": "impedit",
+    "Rank": 101,
+    "Id": 465,
+    "HistoryName": "Frami Inc and Sons",
+    "HistoryId": 882,
+    "AssociateId": 394,
+    "Name": "Ferry-Glover",
+    "ItemInfo": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 410
+        "FieldLength": 102
       }
     }
   }

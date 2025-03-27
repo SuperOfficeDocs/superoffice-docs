@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "tempora"
+  "ProgId": "perferendis"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 439,
-  "Name": "Reichel-Klein",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 794,
+  "WebPanelId": 342,
+  "Name": "Bednar LLC",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "Rank": 205,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Boehm, Stehr and Schiller",
+  "ShowInStatusBar": true,
+  "WindowName": "Deckow, Smitham and Mante",
   "Url": "http://www.example.com/",
-  "ProgId": "temporibus",
-  "Icon": 35,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "nemo",
+  "Icon": 576,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 675
     }
   }
 }

@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 14 Oct 1999 14:13:48 G10T
+Last-Modified: Mon, 03 Mar 2014 02:38:26 G3T
 
 {
-  "Key": "voluptatum",
-  "Value": "incidunt",
-  "RecordId": 242,
-  "CreatedDate": "2014-05-06T14:13:48.8993207+02:00",
-  "UpdatedDate": "1999-10-14T14:13:48.8993207+02:00",
-  "UpdatedBy": "quo",
-  "CreatedBy": "voluptates",
-  "TableName": "Rosenbaum, Wintheiser and Cremin",
+  "Key": "neque",
+  "Value": "perspiciatis",
+  "RecordId": 954,
+  "CreatedDate": "2014-07-22T02:38:26.1204323+02:00",
+  "UpdatedDate": "2014-03-03T02:38:26.1204323+01:00",
+  "UpdatedBy": "accusamus",
+  "CreatedBy": "enim",
+  "TableName": "Hermiston-Tromp",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 707
     }
   }
 }

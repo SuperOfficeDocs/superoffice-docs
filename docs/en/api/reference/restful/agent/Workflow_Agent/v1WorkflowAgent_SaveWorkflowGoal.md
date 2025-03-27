@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 859,
-  "WorkflowId": 985,
+  "WorkflowGoalId": 100,
+  "WorkflowId": 193,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Funk, Pollich and Larson",
-      "Description": "Polarised contextually-based approach",
-      "Rank": 129,
+      "Name": "Rutherford-Gleason",
+      "Description": "Ergonomic non-volatile open system",
+      "Rank": 388,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Funk, Pollich and Larson",
-      "Description": "Polarised contextually-based approach",
-      "Rank": 129,
+      "Name": "Rutherford-Gleason",
+      "Description": "Ergonomic non-volatile open system",
+      "Rank": 388,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 36,
-  "WorkflowId": 979,
+  "WorkflowGoalId": 728,
+  "WorkflowId": 195,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Murphy-Gerlach",
-      "Description": "Reactive client-driven array",
-      "Rank": 937,
+      "Name": "Ryan-O'Hara",
+      "Description": "Versatile actuating application",
+      "Rank": 226,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Murphy-Gerlach",
-      "Description": "Reactive client-driven array",
-      "Rank": 937,
+      "Name": "Ryan-O'Hara",
+      "Description": "Versatile actuating application",
+      "Rank": 226,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 807
+      "FieldLength": 475
     }
   }
 }

@@ -11,9 +11,11 @@ items:
   - SuperOffice.CRM.Cache.CurrencyCache
   - SuperOffice.CRM.Cache.ExtAppCache
   - SuperOffice.CRM.Cache.ExtraFieldsCache
+  - SuperOffice.CRM.Cache.FavoritesCache
   - SuperOffice.CRM.Cache.FreetextStatus
   - SuperOffice.CRM.Cache.FreetextStatusCache
   - SuperOffice.CRM.Cache.HierarchyTreeCache
+  - SuperOffice.CRM.Cache.HistoryCache
   - SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   - SuperOffice.CRM.Cache.MDOListTableAssociateCache
   - SuperOffice.CRM.Cache.MDOListTableBusinessCache
@@ -138,6 +140,13 @@ references:
   name: ExtraFieldsCache
   nameWithType: ExtraFieldsCache
   fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
+- uid: SuperOffice.CRM.Cache.FavoritesCache
+  commentId: T:SuperOffice.CRM.Cache.FavoritesCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: FavoritesCache
+  nameWithType: FavoritesCache
+  fullName: SuperOffice.CRM.Cache.FavoritesCache
 - uid: SuperOffice.CRM.Cache.FreetextStatus
   commentId: T:SuperOffice.CRM.Cache.FreetextStatus
   parent: SuperOffice.CRM.Cache
@@ -158,6 +167,13 @@ references:
   name: HierarchyTreeCache
   nameWithType: HierarchyTreeCache
   fullName: SuperOffice.CRM.Cache.HierarchyTreeCache
+- uid: SuperOffice.CRM.Cache.HistoryCache
+  commentId: T:SuperOffice.CRM.Cache.HistoryCache
+  parent: SuperOffice.CRM.Cache
+  isExternal: true
+  name: HistoryCache
+  nameWithType: HistoryCache
+  fullName: SuperOffice.CRM.Cache.HistoryCache
 - uid: SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   commentId: T:SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   parent: SuperOffice.CRM.Cache

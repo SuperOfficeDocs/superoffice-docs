@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Trantow, Howe and Hermann",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 945,
-  "Rank": 609
+  "Id": 996,
+  "Name": "Conroy LLC",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "UdListDefinitionId": 246,
+  "Rank": 562
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "Schmitt, Stroman and Turcotte",
-  "Tooltip": "perferendis",
+  "Id": 117,
+  "Name": "Gutkowski, O'Kon and Ernser",
+  "Tooltip": "impedit",
   "Deleted": true,
-  "UdListDefinitionId": 303,
-  "Rank": 93,
+  "UdListDefinitionId": 83,
+  "Rank": 146,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 438
     }
   }
 }

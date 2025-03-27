@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=800
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=315
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 8,
-  "WorkflowId": 273,
+  "WorkflowGoalId": 962,
+  "WorkflowId": 949,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Mertz Inc and Sons",
-      "Description": "Programmable object-oriented initiative",
-      "Rank": 513,
+      "Name": "Schuster-Dare",
+      "Description": "Seamless exuding approach",
+      "Rank": 830,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mertz Inc and Sons",
-      "Description": "Programmable object-oriented initiative",
-      "Rank": 513,
+      "Name": "Schuster-Dare",
+      "Description": "Seamless exuding approach",
+      "Rank": 830,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 248
+      "FieldLength": 117
     }
   }
 }

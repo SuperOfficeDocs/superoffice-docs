@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 09 Dec 2024 14:13:49 G12T
+Last-Modified: Wed, 07 Apr 2021 02:38:26 G4T
 
 {
-  "BlobId": 899,
-  "BlobSize": 280,
-  "Description": "Decentralized national hierarchy",
-  "ExtraInfo": "aut",
+  "BlobId": 492,
+  "BlobSize": 504,
+  "Description": "Virtual exuding function",
+  "ExtraInfo": "eius",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "qui",
-  "OriginalSize": 286,
-  "CreatedDate": "2020-05-08T14:13:49.4930437+02:00",
-  "UpdatedDate": "2024-12-09T14:13:49.4930437+01:00",
+  "IsZipped": false,
+  "MimeType": "debitis",
+  "OriginalSize": 996,
+  "CreatedDate": "2012-07-13T02:38:26.5735222+02:00",
+  "UpdatedDate": "2021-04-07T02:38:26.5735222+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nemo",
+  "ConceptualType": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 938
     }
   }
 }

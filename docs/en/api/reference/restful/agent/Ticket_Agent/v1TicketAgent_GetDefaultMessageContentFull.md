@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 869,
+  "TicketId": 417,
   "MessageActionType": "Forward",
-  "TicketMessageId": 441,
-  "TicketTypeId": 220
+  "TicketMessageId": 185,
+  "TicketTypeId": 424
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "ut",
+  "Body": "reiciendis",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 403,
-      "Name": "Weissnat-Hayes",
-      "ContentType": "quidem",
-      "AttSize": 668,
+      "AttachmentId": 69,
+      "Name": "Kunde-Lueilwitz",
+      "ContentType": "odit",
+      "AttSize": 616,
       "InlineImage": false,
-      "ContentId": "eaque",
+      "ContentId": "ex",
       "AuthKey": "hic",
-      "IsSafeFileExtension": false,
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldType": "System.Int32",
+          "FieldLength": 46
         }
       }
     }

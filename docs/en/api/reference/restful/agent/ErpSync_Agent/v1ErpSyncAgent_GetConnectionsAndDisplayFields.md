@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 169
+  "EntityId": 775
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 179,
-    "ConnectionName": "Schneider, Nikolaus and Turcotte",
+    "ErpConnectionId": 461,
+    "ConnectionName": "Johnson LLC",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "laudantium",
-        "Rank": 923,
-        "DisplayName": "Huels Group",
-        "DisplayDescription": "Switchable regional budgetary management",
+        "FieldKey": "officiis",
+        "Rank": 285,
+        "DisplayName": "Kiehn LLC",
+        "DisplayDescription": "Stand-alone context-sensitive functionalities",
         "FieldType": "Checkbox",
-        "ListName": "Torphy-Rosenbaum",
-        "DefaultValue": "ut",
-        "MaxLength": 50,
+        "ListName": "Murphy LLC",
+        "DefaultValue": "praesentium",
+        "MaxLength": 117,
         "Access": "Mandatory",
         "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldType": "System.String",
+            "FieldLength": 747
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "tenetur",
-      "dolorem"
+      "quia",
+      "tempore"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 923
       }
     }
   }

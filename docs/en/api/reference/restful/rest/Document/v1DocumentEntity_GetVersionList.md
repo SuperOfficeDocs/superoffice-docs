@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "ea",
-    "DocumentId": 16,
-    "VersionId": "est",
-    "CheckedInDate": "2009-04-06T14:13:48.852456+02:00",
-    "CheckedInByName": "Howell-Harber",
-    "CheckedInByAssociateId": 420,
-    "Description": "Seamless tertiary process improvement",
-    "DisplayText": "repellendus",
+    "ExternalReference": "quia",
+    "DocumentId": 212,
+    "VersionId": "sequi",
+    "CheckedInDate": "2024-10-09T02:38:26.0891882+02:00",
+    "CheckedInByName": "Glover, Reilly and Johnston",
+    "CheckedInByAssociateId": 713,
+    "Description": "Multi-lateral content-based hardware",
+    "DisplayText": "labore",
     "ExtraFields": [
-      "labore",
-      "ipsa"
+      "natus",
+      "animi"
     ]
   }
 ]

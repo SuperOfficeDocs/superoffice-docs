@@ -68,7 +68,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Feil, Dickens and Ankunding"
+  "UdListDefinitionName": "Beer-Jerde"
 }
 ```
 

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Littel LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 693,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 935,
+  "Name": "Durgan-Kautzer",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 83,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quas",
+  "ListType": "cum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "Rank": 97,
+  "Id": 339,
+  "Name": "Koepp Group",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 186,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
+  "ListType": "voluptatibus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 365
     }
   }
 }

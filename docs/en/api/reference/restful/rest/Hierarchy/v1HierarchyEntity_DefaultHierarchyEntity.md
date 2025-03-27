@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 349,
+  "HierarchyId": 854,
   "Domain": "Dashboards",
-  "Name": "Kihn Group",
-  "Fullname": "ea",
-  "ParentId": 79,
+  "Name": "Fritsch Group",
+  "Fullname": "laboriosam",
+  "ParentId": 217,
   "Children": [
     {
-      "HierarchyId": 306,
+      "HierarchyId": 99,
       "Domain": "Dashboards",
-      "Name": "Bergstrom-Klocko",
-      "Fullname": "corporis",
-      "ParentId": 613,
+      "Name": "Bernier Inc and Sons",
+      "Fullname": "vitae",
+      "ParentId": 270,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-11-07T14:13:48.8993207+01:00",
-      "RegisteredAssociateId": 355,
-      "Updated": "2011-07-13T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 391,
+      "Registered": "2009-01-29T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 238,
+      "Updated": "1998-12-04T02:38:26.1204323+01:00",
+      "UpdatedAssociateId": 114,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 928
         }
       }
     }
   ],
-  "Registered": "2020-02-14T14:13:48.8993207+01:00",
-  "RegisteredAssociateId": 912,
-  "Updated": "2021-05-05T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 237,
+  "Registered": "2018-10-31T02:38:26.1204323+01:00",
+  "RegisteredAssociateId": 495,
+  "Updated": "2017-07-25T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldLength": 616
     }
   }
 }

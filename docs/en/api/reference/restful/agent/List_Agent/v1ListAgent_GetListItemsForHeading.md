@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 481,
-  "HeadingId": 958
+  "UdListDefinitionId": 813,
+  "HeadingId": 526
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Haley, Franecki and Dibbert",
-    "ToolTip": "Culpa autem laboriosam.",
-    "Deleted": false,
-    "Rank": 687,
-    "Type": "soluta",
-    "ColorBlock": 668,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2011-03-29T14:13:40.4847118+02:00",
+    "Id": 245,
+    "Name": "Lubowitz, Stokes and Hermann",
+    "ToolTip": "Quo expedita.",
+    "Deleted": true,
+    "Rank": 270,
+    "Type": "aut",
+    "ColorBlock": 487,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2002-01-27T02:38:21.5107392+01:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Schulist-Robel",
-        "ToolTip": "Alias ullam sit repellendus nam modi.",
+        "Id": 171,
+        "Name": "Robel Group",
+        "ToolTip": "Ut amet rerum.",
         "Deleted": false,
-        "Rank": 956,
-        "Type": "et",
-        "ColorBlock": 679,
-        "IconHint": "voluptatem",
+        "Rank": 103,
+        "Type": "quia",
+        "ColorBlock": 78,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2005-04-01T14:13:40.4847118+02:00",
+        "LastChanged": "2009-05-23T02:38:21.5107392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "id",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "optio",
         "Hidden": false,
-        "FullName": "Dr. Chauncey Glennie Harber II",
+        "FullName": "Name Marquardt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 306
+            "FieldType": "System.Int32",
+            "FieldLength": 456
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "officia",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Mr. Tessie Watson Jerde",
+    "FullName": "Edna Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 776
+        "FieldLength": 690
       }
     }
   }

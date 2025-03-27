@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 399,
-    "Attention": "totam",
-    "Header": "et",
-    "Name": "Deckow LLC",
-    "OurRef": "odio",
-    "YourRef": "magni",
-    "Description": "Mandatory motivating capacity",
-    "DocumentTemplate": "velit",
+    "DocumentId": 879,
+    "Attention": "ipsam",
+    "Header": "veritatis",
+    "Name": "Weissnat Group",
+    "OurRef": "voluptas",
+    "YourRef": "quos",
+    "Description": "Horizontal leading edge neural-net",
+    "DocumentTemplate": "voluptatibus",
     "IsPublished": true,
-    "PersonId": 980,
-    "PersonFullName": "Prof. Tyree Kayli Johns DDS",
-    "AssociateFullName": "Janet Hudson",
-    "ContactId": 585,
-    "ContactName": "Little Group",
-    "ProjectId": 391,
-    "ProjectName": "Watsica LLC",
-    "AssociateId": 221,
-    "Snum": 174,
-    "SaleId": 628,
-    "SaleName": "O'Connell-Rogahn",
+    "PersonId": 747,
+    "PersonFullName": "Ellen Niko Connelly I",
+    "AssociateFullName": "Flo Hauck",
+    "ContactId": 828,
+    "ContactName": "Cruickshank Group",
+    "ProjectId": 381,
+    "ProjectName": "Pfeffer-Bartoletti",
+    "AssociateId": 369,
+    "Snum": 396,
+    "SaleId": 768,
+    "SaleName": "Bode, Wyman and Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldLength": 318
       }
     }
   }

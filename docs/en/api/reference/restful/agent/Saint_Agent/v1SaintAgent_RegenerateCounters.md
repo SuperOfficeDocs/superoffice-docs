@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": false
+  "RunAsBatch": true
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "Gutkowski Group",
-  "AssociateId": 582,
-  "DetailsTable": 784,
-  "DetailsRecord": 986,
+  "Id": 303,
+  "Name": "Stamm LLC",
+  "AssociateId": 3,
+  "DetailsTable": 362,
+  "DetailsRecord": 798,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "adipisci",
-    "ParameterObject2": "placeat"
+    "ParameterObject1": "nihil",
+    "ParameterObject2": "est"
   },
-  "LastStarted": "2021-03-20T14:13:41.172056+01:00",
-  "Created": "2024-12-25T14:13:41.172056+01:00",
-  "StartCount": 406,
-  "DatabaseSerialNumber": "902795",
-  "Context": "aut",
-  "Result": "velit",
+  "LastStarted": "2006-03-13T02:38:21.8076201+01:00",
+  "Created": "2016-12-03T02:38:21.8076201+01:00",
+  "StartCount": 621,
+  "DatabaseSerialNumber": "917232",
+  "Context": "minima",
+  "Result": "sit",
   "State": "All",
-  "Description": "User-centric global toolset",
-  "Response": "accusamus",
-  "Request": "temporibus",
-  "ProgressDescription": "Realigned non-volatile local area network",
-  "ProgressPercent": 964,
-  "FileName": "Bosco, Willms and Stroman",
+  "Description": "Re-contextualized multi-tasking monitoring",
+  "Response": "at",
+  "Request": "fuga",
+  "ProgressDescription": "Multi-channelled stable protocol",
+  "ProgressPercent": 639,
+  "FileName": "Stoltenberg, Gorczany and Rau",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 718
     }
   }
 }

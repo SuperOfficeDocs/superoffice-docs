@@ -147,12 +147,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 841,
+  "DocumentId": 623,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "nobis",
-  "Header": "dolorem",
-  "Name": "Runte Inc and Sons",
-  "OurRef": "quis",
-  "YourRef": "ut",
-  "CreatedDate": "2022-02-25T14:13:48.8212131+01:00",
-  "UpdatedDate": "2021-10-02T14:13:48.8212131+02:00",
-  "Description": "Secured methodical groupware",
+  "Attention": "fuga",
+  "Header": "eveniet",
+  "Name": "Bailey-Kiehn",
+  "OurRef": "et",
+  "YourRef": "expedita",
+  "CreatedDate": "2010-09-26T02:38:26.0735654+02:00",
+  "UpdatedDate": "2013-02-08T02:38:26.0735654+01:00",
+  "Description": "Centralized homogeneous standardization",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-08-02T14:13:48.8212131+02:00",
-  "ExternalRef": "quaerat",
+  "Date": "2000-07-02T02:38:26.0891882+02:00",
+  "ExternalRef": "reprehenderit",
   "Completed": "Completed",
-  "ActiveLinks": 457,
+  "ActiveLinks": 189,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bins-Runolfsson",
-      "Id": 938,
-      "Description": "Organized clear-thinking concept",
-      "ExtraInfo": "tempora",
-      "LinkId": 894,
+      "EntityName": "Paucek LLC",
+      "Id": 552,
+      "Description": "Profit-focused explicit superstructure",
+      "ExtraInfo": "amet",
+      "LinkId": 44,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldLength": 812
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 440,
-  "Snum": 804,
+  "SuggestedDocumentId": 677,
+  "Snum": 239,
   "UserDefinedFields": {
-    "SuperOffice:1": "Camren Schuster",
-    "SuperOffice:2": "1419781434"
+    "SuperOffice:1": "723775624",
+    "SuperOffice:2": "1717737765"
   },
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "minima"
   },
   "CustomFields": {
-    "CustomFields1": "ab",
-    "CustomFields2": "velit"
+    "CustomFields1": "neque",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2003-01-14T14:13:48.8212131+01:00",
-  "PublishTo": "2023-11-26T14:13:48.8212131+01:00",
-  "PublishFrom": "2012-10-09T14:13:48.8212131+02:00",
+  "PublishEventDate": "2011-10-01T02:38:26.0891882+02:00",
+  "PublishTo": "2001-05-25T02:38:26.0891882+02:00",
+  "PublishFrom": "2021-10-12T02:38:26.0891882+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 918,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     },
     {
-      "VisibleId": 918,
+      "VisibleId": 796,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 773
+          "FieldType": "System.String",
+          "FieldLength": 295
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 842
     }
   },
   "_Links": {

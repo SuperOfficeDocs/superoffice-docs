@@ -284,6 +284,7 @@ items:
   - SuperOffice.WebApi.Data.BulkUpdate_RemoveStoredFieldsRequest
   - SuperOffice.WebApi.Data.Business
   - SuperOffice.WebApi.Data.Cache
+  - SuperOffice.WebApi.Data.CacheInvalidation
   - SuperOffice.WebApi.Data.CallerID
   - SuperOffice.WebApi.Data.CallerIDCollection
   - SuperOffice.WebApi.Data.CalMethod
@@ -574,6 +575,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_CollectWinUsageRequest
   - SuperOffice.WebApi.Data.Diagnostics_FlushCachesByNameRequest
   - SuperOffice.WebApi.Data.Diagnostics_FlushCachesRequest
+  - SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheNamesRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetEntityCountsForAllUsersRequest
@@ -1033,6 +1035,7 @@ items:
   - SuperOffice.WebApi.Data.License_GetSatelliteLicensesRequest
   - SuperOffice.WebApi.Data.License_GetShopUrlRequest
   - SuperOffice.WebApi.Data.License_GetThirdPartyLicenseAssignmentsRequest
+  - SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
   - SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
   - SuperOffice.WebApi.Data.License_GetUserLicensesRequest
   - SuperOffice.WebApi.Data.License_RemoveLicenseFromDBRequest
@@ -2028,6 +2031,7 @@ items:
   - SuperOffice.WebApi.Data.User_SetPasswordRequest
   - SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
   - SuperOffice.WebApi.Data.User_ValidateUserRequest
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
   - SuperOffice.WebApi.Data.UserCandidate
   - SuperOffice.WebApi.Data.UserDefinedFieldInfo
   - SuperOffice.WebApi.Data.UserDefinedFieldInfo_ChangeFieldTypeRequest
@@ -8174,6 +8178,18 @@ references:
   name: Diagnostics_GetCacheStateRequest
   nameWithType: Diagnostics_GetCacheStateRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
+- uid: SuperOffice.WebApi.Data.CacheInvalidation
+  commentId: T:SuperOffice.WebApi.Data.CacheInvalidation
+  isExternal: true
+  name: CacheInvalidation
+  nameWithType: CacheInvalidation
+  fullName: SuperOffice.WebApi.Data.CacheInvalidation
+- uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
+  isExternal: true
+  name: Diagnostics_GetCacheInvalidationGenerationsRequest
+  nameWithType: Diagnostics_GetCacheInvalidationGenerationsRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
 - uid: SuperOffice.WebApi.Data.EntityCounts
   commentId: T:SuperOffice.WebApi.Data.EntityCounts
   isExternal: true
@@ -10815,6 +10831,12 @@ references:
   name: License_GetLicenseFromDBRequest
   nameWithType: License_GetLicenseFromDBRequest
   fullName: SuperOffice.WebApi.Data.License_GetLicenseFromDBRequest
+- uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+  isExternal: true
+  name: License_GetUserAndInstallationLicenceStatusRequest
+  nameWithType: License_GetUserAndInstallationLicenceStatusRequest
+  fullName: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
 - uid: SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
   commentId: T:SuperOffice.WebApi.Data.License_ChangeSerialNumberRequest
   isExternal: true
@@ -10926,6 +10948,12 @@ references:
   name: SignedPublicKey
   nameWithType: SignedPublicKey
   fullName: SuperOffice.WebApi.Data.SignedPublicKey
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  commentId: T:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  isExternal: true
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
 - uid: SuperOffice.WebApi.Data.AccessGatewayInfo
   commentId: T:SuperOffice.WebApi.Data.AccessGatewayInfo
   isExternal: true

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Beier Inc and Sons",
-  "Tooltip": "at",
-  "Deleted": true,
-  "UdListDefinitionId": 885,
-  "Rank": 877,
+  "Id": 960,
+  "Name": "Batz, Becker and Mraz",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "UdListDefinitionId": 976,
+  "Rank": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldLength": 550
     }
   }
 }

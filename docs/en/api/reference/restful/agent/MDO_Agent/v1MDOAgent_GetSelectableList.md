@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "VonRueden-Stark",
+  "Name": "Schowalter Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "voluptatibus",
-  "OnlyHistory": true
+  "AdditionalInfo": "recusandae",
+  "OnlyHistory": false
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 355,
-    "Name": "Braun-Carter",
-    "ToolTip": "Dolores ipsa deserunt fugiat.",
-    "Deleted": true,
-    "Rank": 548,
-    "Type": "consequatur",
-    "ColorBlock": 319,
-    "IconHint": "maxime",
+    "Id": 930,
+    "Name": "Schneider Inc and Sons",
+    "ToolTip": "Architecto officiis fugit numquam reprehenderit officiis.",
+    "Deleted": false,
+    "Rank": 468,
+    "Type": "quia",
+    "ColorBlock": 128,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2002-03-24T14:13:40.5940621+01:00",
+    "LastChanged": "2001-10-01T02:38:21.5732692+02:00",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Mueller Group",
-        "ToolTip": "Quis earum labore.",
-        "Deleted": false,
-        "Rank": 369,
-        "Type": "corrupti",
-        "ColorBlock": 770,
-        "IconHint": "itaque",
+        "Id": 212,
+        "Name": "Trantow LLC",
+        "ToolTip": "Libero recusandae consequatur at ab.",
+        "Deleted": true,
+        "Rank": 237,
+        "Type": "quis",
+        "ColorBlock": 638,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2013-10-31T14:13:40.5940621+01:00",
+        "LastChanged": "2000-03-02T02:38:21.5732692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "qui",
+        "ExtraInfo": "aut",
+        "StyleHint": "excepturi",
         "Hidden": false,
-        "FullName": "Lindsay Brenda Orn V",
+        "FullName": "Dr. Garnet Van Boyle PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 490
+            "FieldType": "System.Int32",
+            "FieldLength": 890
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "sed",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Mr. Alexandrea Becker DDS",
+    "FullName": "Shakira Hessel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldType": "System.String",
+        "FieldLength": 706
       }
     }
   }

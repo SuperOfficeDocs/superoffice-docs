@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 922,
-  "SelectionId": 762,
-  "IncludeEmails": true
+  "DocumentPluginId": 818,
+  "SelectionId": 729,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 201,
-  "NumDocumentsAlreadyMigrated": 99,
+  "NumDocumentsOmitted": 438,
+  "NumDocumentsAlreadyMigrated": 364,
   "Documents": [
     {
-      "DocumentId": 412,
-      "ContactId": 940,
-      "PersonId": 220,
-      "SaleId": 196,
-      "ProjectId": 773,
-      "DocTmplId": 73,
-      "AssociateId": 85,
-      "UserGroupId": 123,
-      "VisibleForId": 525
+      "DocumentId": 64,
+      "ContactId": 503,
+      "PersonId": 274,
+      "SaleId": 443,
+      "ProjectId": 672,
+      "DocTmplId": 365,
+      "AssociateId": 723,
+      "UserGroupId": 830,
+      "VisibleForId": 317
     }
   ],
   "Associates": [
     {
-      "AssociateId": 815,
-      "EmailAddress": "gregoria_buckridge@kris.uk"
+      "AssociateId": 955,
+      "EmailAddress": "virgil.macejkovic@ratke.co.uk"
     },
     {
-      "AssociateId": 815,
-      "EmailAddress": "gregoria_buckridge@kris.uk"
+      "AssociateId": 955,
+      "EmailAddress": "virgil.macejkovic@ratke.co.uk"
     }
   ]
 }

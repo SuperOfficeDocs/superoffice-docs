@@ -159,7 +159,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quis",
+  "SaleText": "voluptas",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +168,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-09-18T14:13:41.1876773+02:00",
-  "Amount": 1943.08,
-  "SaleId": 487,
-  "Earning": 23175.93,
-  "EarningPercent": 7615.62,
-  "Heading": "enim",
-  "Number": "953266",
-  "Probability": 269,
-  "CreatedDate": "2024-06-14T14:13:41.1876773+02:00",
-  "UpdatedDate": "2003-09-18T14:13:41.1876773+02:00",
+  "Saledate": "2013-05-16T02:38:21.8232503+02:00",
+  "Amount": 1729.9679999999998,
+  "SaleId": 78,
+  "Earning": 11084.958,
+  "EarningPercent": 13338.304,
+  "Heading": "aut",
+  "Number": "143979",
+  "Probability": 49,
+  "CreatedDate": "2023-12-13T02:38:21.8232503+01:00",
+  "UpdatedDate": "2005-05-18T02:38:21.8232503+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 114,
+  "ActiveLinks": 685,
   "Links": [
     {
-      "EntityName": "Cronin Group",
-      "Id": 865,
-      "Description": "Expanded bottom-line monitoring",
-      "ExtraInfo": "aperiam",
-      "LinkId": 134
+      "EntityName": "Towne, Bednar and Herzog",
+      "Id": 144,
+      "Description": "Customer-focused scalable interface",
+      "ExtraInfo": "ut",
+      "LinkId": 146
     },
     {
-      "EntityName": "Cronin Group",
-      "Id": 865,
-      "Description": "Expanded bottom-line monitoring",
-      "ExtraInfo": "aperiam",
-      "LinkId": 134
+      "EntityName": "Towne, Bednar and Herzog",
+      "Id": 144,
+      "Description": "Customer-focused scalable interface",
+      "ExtraInfo": "ut",
+      "LinkId": 146
     }
   ],
-  "NextDueDate": "2021-04-12T14:13:41.1876773+02:00",
-  "Postit": "animi",
+  "NextDueDate": "2002-03-22T02:38:21.8232503+01:00",
+  "Postit": "eum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-12-15T14:13:41.1876773+01:00",
+  "ReopenDate": "2002-07-05T02:38:21.8232503+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schmeler, Waelchi and Kris",
-      "Comment": "sed",
-      "StakeholderRoleId": 117,
-      "CountryId": 142,
-      "PersonId": 929,
-      "EmailDescription": "hettie@millerveum.us",
-      "EmailId": 746,
-      "EmailAddress": "gilda@feeney.com",
-      "PhoneId": 774,
-      "ContactName": "Krajcik-Mills",
-      "ContactId": 197,
-      "SaleId": 982,
-      "Mrmrs": "voluptas",
-      "Firstname": "Yvette",
-      "MiddleName": "Ondricka LLC",
-      "Lastname": "Wiegand",
-      "SaleStakeholderId": 104,
-      "Rank": 42,
-      "Phone": "964-386-0288"
+      "StakeholderRoleName": "Rosenbaum, Schneider and Wilderman",
+      "Comment": "ad",
+      "StakeholderRoleId": 42,
+      "CountryId": 251,
+      "PersonId": 909,
+      "EmailDescription": "savion_denesik@ryan.uk",
+      "EmailId": 558,
+      "EmailAddress": "cesar_halvorson@yundt.com",
+      "PhoneId": 138,
+      "ContactName": "Mills, Orn and Bogisich",
+      "ContactId": 193,
+      "SaleId": 183,
+      "Mrmrs": "et",
+      "Firstname": "Rosella",
+      "MiddleName": "Bergstrom-Walker",
+      "Lastname": "Heidenreich",
+      "SaleStakeholderId": 897,
+      "Rank": 156,
+      "Phone": "583-862-9641"
     }
   ],
-  "ActiveErpLinks": 485,
+  "ActiveErpLinks": 433,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bette Ryan",
-    "SuperOffice:2": "273036618"
+    "SuperOffice:1": "92342952",
+    "SuperOffice:2": "Shad Amya Kub IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "vitae"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "id"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2022-08-30T14:13:41.1876773+02:00",
-  "PublishTo": "2020-01-07T14:13:41.1876773+01:00",
-  "PublishFrom": "2012-02-09T14:13:41.1876773+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-07-24T02:38:21.8232503+02:00",
+  "PublishTo": "2012-12-09T02:38:21.8232503+01:00",
+  "PublishFrom": "2000-07-16T02:38:21.8232503+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 426,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "sed"
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 426,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "sed"
     }
   ]
 }
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dolor",
+  "SaleText": "quibusdam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +279,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2014-08-28T14:13:41.2032985+02:00",
-  "Amount": 8048.112,
-  "SaleId": 148,
-  "Earning": 7781.722,
-  "EarningPercent": 11276.132,
-  "Heading": "ut",
-  "Number": "1686343",
-  "Probability": 294,
-  "CreatedDate": "2016-09-26T14:13:41.2032985+02:00",
-  "UpdatedDate": "2007-03-22T14:13:41.2032985+01:00",
+  "Saledate": "2016-03-19T02:38:21.8388638+01:00",
+  "Amount": 1820.854,
+  "SaleId": 682,
+  "Earning": 451.296,
+  "EarningPercent": 10495.766,
+  "Heading": "repellat",
+  "Number": "874121",
+  "Probability": 532,
+  "CreatedDate": "2007-09-10T02:38:21.8388638+02:00",
+  "UpdatedDate": "2015-04-29T02:38:21.8388638+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 86,
+  "ActiveLinks": 502,
   "Links": [
     {
-      "EntityName": "Prohaska, Koepp and Connelly",
-      "Id": 956,
-      "Description": "Organic attitude-oriented capability",
-      "ExtraInfo": "itaque",
-      "LinkId": 234,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 148
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2001-07-29T14:13:41.2032985+02:00",
-  "Postit": "mollitia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2010-09-21T14:13:41.2032985+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "McGlynn Inc and Sons",
-      "Comment": "ut",
-      "StakeholderRoleId": 245,
-      "CountryId": 137,
-      "PersonId": 504,
-      "EmailDescription": "melody@kiehn.ca",
-      "EmailId": 954,
-      "EmailAddress": "modesto@jast.name",
-      "PhoneId": 449,
-      "ContactName": "Schulist LLC",
-      "ContactId": 723,
-      "SaleId": 339,
-      "Mrmrs": "provident",
-      "Firstname": "Seamus",
-      "MiddleName": "Rolfson-Schaden",
-      "Lastname": "Hammes",
-      "SaleStakeholderId": 565,
-      "Rank": 188,
-      "Phone": "1-089-059-7309 x167",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 602
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 199,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "iste",
-    "CustomFields2": "possimus"
-  },
-  "PublishEventDate": "2021-01-31T14:13:41.2032985+01:00",
-  "PublishTo": "2005-09-15T14:13:41.2032985+02:00",
-  "PublishFrom": "2018-09-15T14:13:41.2032985+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 60,
-      "Visibility": "All",
-      "DisplayValue": "ex",
+      "EntityName": "Satterfield LLC",
+      "Id": 28,
+      "Description": "Face to face reciprocal function",
+      "ExtraInfo": "enim",
+      "LinkId": 869,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldLength": 773
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2019-11-09T02:38:21.8388638+01:00",
+  "Postit": "laudantium",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2012-11-13T02:38:21.8388638+01:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Mayert Group",
+      "Comment": "ab",
+      "StakeholderRoleId": 213,
+      "CountryId": 55,
+      "PersonId": 373,
+      "EmailDescription": "kamron_dietrich@crist.ca",
+      "EmailId": 460,
+      "EmailAddress": "tiana@russelwaters.info",
+      "PhoneId": 981,
+      "ContactName": "Blick-Dickens",
+      "ContactId": 123,
+      "SaleId": 419,
+      "Mrmrs": "esse",
+      "Firstname": "Adriana",
+      "MiddleName": "Schumm, Haley and Cronin",
+      "Lastname": "Corwin",
+      "SaleStakeholderId": 382,
+      "Rank": 269,
+      "Phone": "974-228-3097",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 363
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 817,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Clark Schulist",
+    "SuperOffice:2": "Jordi Leffler"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "quis",
+    "ExtraFields2": "blanditiis"
+  },
+  "CustomFields": {
+    "CustomFields1": "ipsa",
+    "CustomFields2": "enim"
+  },
+  "PublishEventDate": "2007-12-25T02:38:21.8388638+01:00",
+  "PublishTo": "2024-07-13T02:38:21.8388638+02:00",
+  "PublishFrom": "2007-07-19T02:38:21.8388638+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 819,
+      "Visibility": "All",
+      "DisplayValue": "eum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     },
     {
-      "VisibleId": 60,
+      "VisibleId": 819,
       "Visibility": "All",
-      "DisplayValue": "ex",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 69
+          "FieldLength": 714
         }
       }
     }
@@ -394,8 +394,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 864
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   }
 }

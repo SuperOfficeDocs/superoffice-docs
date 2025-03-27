@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 315,
-  "ColumnId": 76,
-  "FieldDefault": "velit",
-  "FieldHeight": 427,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 484,
-  "FieldTop": 937,
+  "UDefFieldId": 199,
+  "ColumnId": 133,
+  "FieldDefault": "consequatur",
+  "FieldHeight": 43,
+  "FieldLabel": "omnis",
+  "FieldLeft": 372,
+  "FieldTop": 628,
   "FieldType": "Checkbox",
-  "FieldWidth": 834,
-  "FormatMask": "est",
-  "HideLabel": false,
+  "FieldWidth": 124,
+  "FormatMask": "unde",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 216,
-  "LabelLeft": 305,
-  "LabelTop": 113,
-  "LabelWidth": 418,
-  "LastVersionId": 736,
-  "ListTableId": 596,
-  "IsMandatory": true,
+  "LabelHeight": 383,
+  "LabelLeft": 24,
+  "LabelTop": 958,
+  "LabelWidth": 33,
+  "LastVersionId": 5,
+  "ListTableId": 763,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 393,
-  "ProgId": "molestiae",
-  "IsReadOnly": false,
-  "ShortLabel": "nisi",
-  "TabOrder": 782,
-  "TextLength": 332,
-  "Tooltip": "porro",
-  "UdefIdentity": 629,
-  "UDListDefinitionId": 864,
+  "Page1LineNo": 266,
+  "ProgId": "voluptas",
+  "IsReadOnly": true,
+  "ShortLabel": "maiores",
+  "TabOrder": 762,
+  "TextLength": 885,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 640,
+  "UDListDefinitionId": 448,
   "Justification": "Center",
-  "Version": 22,
-  "TemplateVariableName": "Wehner, Keebler and Kuhn",
+  "Version": 564,
+  "TemplateVariableName": "Tromp LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Gislason Group",
+  "MdoListName": "Wintheiser Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

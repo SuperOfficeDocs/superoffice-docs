@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 452,
-  "Name": "Stamm LLC",
-  "Tooltip": "iusto",
-  "Rank": 550,
-  "Rate": 6926.1399999999994,
-  "Units": 29672.712,
-  "Deleted": true
+  "CurrencyId": 235,
+  "Name": "Wiza Group",
+  "Tooltip": "ratione",
+  "Rank": 999,
+  "Rate": 11752.5,
+  "Units": 11288.668,
+  "Deleted": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 265,
-  "Name": "Jones-Howell",
-  "Tooltip": "veniam",
-  "Rank": 27,
-  "Rate": 21051.077999999998,
-  "Units": 7270.88,
+  "CurrencyId": 587,
+  "Name": "Will-Dare",
+  "Tooltip": "soluta",
+  "Rank": 130,
+  "Rate": 22420.636,
+  "Units": 10495.766,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 915
     }
   }
 }

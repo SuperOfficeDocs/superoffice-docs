@@ -27,7 +27,7 @@ True if the ProjectEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=False
+GET /api/v1/Project/UdefLayout/Changed?columnChangesOnly=True
 ```
 
 

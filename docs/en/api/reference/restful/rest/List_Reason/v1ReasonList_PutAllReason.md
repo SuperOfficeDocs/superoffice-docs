@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Mueller-Wolf",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 460,
-    "Rank": 828
+    "Id": 903,
+    "Name": "Rutherford-Johns",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "UdListDefinitionId": 487,
+    "Rank": 323
   },
   {
-    "Id": 104,
-    "Name": "Mueller-Wolf",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 460,
-    "Rank": 828
+    "Id": 903,
+    "Name": "Rutherford-Johns",
+    "Tooltip": "recusandae",
+    "Deleted": true,
+    "UdListDefinitionId": 487,
+    "Rank": 323
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 240,
-    "Name": "Tillman Inc and Sons",
-    "Tooltip": "ex",
+    "Id": 427,
+    "Name": "Anderson Inc and Sons",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "UdListDefinitionId": 972,
-    "Rank": 563,
+    "UdListDefinitionId": 269,
+    "Rank": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 924
       }
     }
   }

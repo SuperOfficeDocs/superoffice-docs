@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 190,
+  "DocumentId": 500,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "error",
-  "Header": "quasi",
-  "Name": "Borer-Koepp",
-  "OurRef": "fuga",
-  "YourRef": "molestiae",
-  "CreatedDate": "2001-11-11T14:13:40.0316899+01:00",
-  "UpdatedDate": "2001-05-20T14:13:40.0316899+02:00",
-  "Description": "Grass-roots next generation analyzer",
+  "Attention": "velit",
+  "Header": "similique",
+  "Name": "Moen-Bosco",
+  "OurRef": "molestias",
+  "YourRef": "iusto",
+  "CreatedDate": "2023-10-01T02:38:21.2451788+02:00",
+  "UpdatedDate": "2004-10-30T02:38:21.2451788+02:00",
+  "Description": "Enhanced background policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-06-19T14:13:40.0316899+02:00",
-  "ExternalRef": "ex",
+  "Date": "2023-12-10T02:38:21.2451788+01:00",
+  "ExternalRef": "tenetur",
   "Completed": "Completed",
-  "ActiveLinks": 87,
+  "ActiveLinks": 888,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schinner-Gorczany",
-      "Id": 864,
-      "Description": "Implemented next generation synergy",
-      "ExtraInfo": "nihil",
-      "LinkId": 844,
+      "EntityName": "Metz, Cormier and Satterfield",
+      "Id": 47,
+      "Description": "Future-proofed homogeneous extranet",
+      "ExtraInfo": "mollitia",
+      "LinkId": 919,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldType": "System.Int32",
+          "FieldLength": 220
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 104,
-  "Snum": 646,
+  "SuggestedDocumentId": 568,
+  "Snum": 244,
   "UserDefinedFields": {
-    "SuperOffice:1": "452602232",
-    "SuperOffice:2": "Maverick Gleichner"
+    "SuperOffice:1": "Dr. Lura Jerry Hintz",
+    "SuperOffice:2": "Ethelyn Kozey"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "maiores"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "itaque"
+    "CustomFields1": "nihil",
+    "CustomFields2": "amet"
   },
-  "PublishEventDate": "1999-11-05T14:13:40.0316899+01:00",
-  "PublishTo": "2023-09-24T14:13:40.0316899+02:00",
-  "PublishFrom": "2012-04-05T14:13:40.0316899+02:00",
+  "PublishEventDate": "2012-09-24T02:38:21.2451788+02:00",
+  "PublishTo": "2008-06-13T02:38:21.2451788+02:00",
+  "PublishFrom": "2010-04-21T02:38:21.2451788+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 140,
+      "VisibleId": 994,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldType": "System.String",
+          "FieldLength": 535
         }
       }
     },
     {
-      "VisibleId": 140,
+      "VisibleId": 994,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "adipisci",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldType": "System.String",
+          "FieldLength": 535
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 1001
     }
   }
 }

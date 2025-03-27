@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 390,
-  "Name": "Gibson, Hintz and Pfannerstill",
-  "Tooltip": "velit",
+  "HeadingId": 602,
+  "Name": "Bradtke Inc and Sons",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 781,
-  "UdListDefinitionId": 862
+  "Rank": 446,
+  "UdListDefinitionId": 336
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 579,
-  "Name": "Marks Group",
-  "Tooltip": "necessitatibus",
-  "Deleted": false,
-  "Rank": 430,
-  "UdListDefinitionId": 433,
+  "HeadingId": 366,
+  "Name": "Kuphal Group",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "Rank": 560,
+  "UdListDefinitionId": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   }
 }

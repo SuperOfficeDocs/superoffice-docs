@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 07 Jan 2018 14:13:48 G1T
+Last-Modified: Wed, 18 Nov 1998 02:38:26 G11T
 
 {
-  "SourceContactId": 732,
-  "SourcePersonId": 291,
-  "DestinationContactId": 251,
-  "DestinationPersonId": 314,
-  "RelationId": 656,
-  "Comment": "ullam",
-  "RelationDefinitionId": 149,
-  "Reversed": 279,
-  "UpdatedDate": "2018-01-07T14:13:48.5851503+01:00",
-  "CreatedDate": "2004-06-27T14:13:48.5851503+02:00",
+  "SourceContactId": 489,
+  "SourcePersonId": 842,
+  "DestinationContactId": 229,
+  "DestinationPersonId": 421,
+  "RelationId": 30,
+  "Comment": "qui",
+  "RelationDefinitionId": 651,
+  "Reversed": 926,
+  "UpdatedDate": "1998-11-18T02:38:26.0266945+01:00",
+  "CreatedDate": "2019-01-31T02:38:26.0266945+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bayer-Denesik",
-  "SourcePersonName": "Wyman, Gutmann and Sauer",
-  "DestinationContactName": "Fadel, Dickinson and Leffler",
-  "DestinationPersonName": "Ernser Group",
-  "ActiveText": "incidunt",
-  "PassiveText": "corporis",
+  "SourceContactName": "Bergnaum, Conn and Macejkovic",
+  "SourcePersonName": "Mante, Cremin and Hilpert",
+  "DestinationContactName": "Gerhold LLC",
+  "DestinationPersonName": "Mertz, Gerlach and Torp",
+  "ActiveText": "eius",
+  "PassiveText": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldLength": 986
     }
   }
 }

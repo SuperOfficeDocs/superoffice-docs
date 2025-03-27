@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 282,
-  "Name": "Ritchie-Schumm",
-  "Tooltip": "architecto",
+  "HeadingId": 191,
+  "Name": "Considine, Lakin and Stanton",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 688,
-  "UdListDefinitionId": 363
+  "Rank": 582,
+  "UdListDefinitionId": 678
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 120,
-  "Name": "Homenick Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 10,
-  "UdListDefinitionId": 576,
+  "HeadingId": 963,
+  "Name": "Abshire-Fadel",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 280,
+  "UdListDefinitionId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 282
     }
   }
 }

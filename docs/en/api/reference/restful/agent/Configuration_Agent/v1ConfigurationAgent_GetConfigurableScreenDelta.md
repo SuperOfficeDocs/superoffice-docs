@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=614
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=529
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 903,
-  "Name": "Murray-Harris",
-  "Description": "Multi-channelled 4th generation extranet",
-  "DeltaJson": "sint",
+  "ConfigurableScreenDeltaId": 871,
+  "Name": "Lemke Inc and Sons",
+  "Description": "Digitized bandwidth-monitored matrices",
+  "DeltaJson": "facilis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sed",
-  "UpdatedDate": "2023-09-05T14:13:39.7347754+02:00",
-  "CreatedDate": "2019-12-02T14:13:39.7347754+01:00",
+  "RecipeId": "possimus",
+  "UpdatedDate": "2018-05-18T02:38:20.995206+02:00",
+  "CreatedDate": "2016-07-24T02:38:20.995206+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    220,
-    754
+    773,
+    195
   ],
-  "AppliesToKey": "tempore",
+  "AppliesToKey": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   }
 }

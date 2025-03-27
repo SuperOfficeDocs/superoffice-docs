@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 900,
-    "Name": "Lesch-Mohr",
-    "Tooltip": "quis",
-    "Rank": 170,
-    "Key": "vitae",
+    "LegalBaseId": 206,
+    "Name": "Bechtelar-Gorczany",
+    "Tooltip": "praesentium",
+    "Rank": 606,
+    "Key": "ad",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

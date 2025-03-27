@@ -97,24 +97,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 581,
-  "Name": "Christiansen, Hammes and Legros",
-  "Tooltip": "et",
+  "RoleId": 576,
+  "Name": "Gottlieb, Watsica and Bechtelar",
+  "Tooltip": "eos",
   "RoleType": "Anonymous",
-  "Deleted": 852,
-  "Rank": 510,
-  "Created": "2005-03-02T14:13:49.1025081+01:00",
-  "UseCategories": 212,
+  "Deleted": 255,
+  "Rank": 300,
+  "Created": "2001-04-27T02:38:26.3391624+02:00",
+  "UseCategories": 307,
   "CreatedBy": null,
-  "Updated": "2024-04-03T14:13:49.1025081+02:00",
+  "Updated": "2009-10-03T02:38:26.3391624+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 173
+      "FieldType": "System.Int32",
+      "FieldLength": 473
     }
   },
   "_Links": {

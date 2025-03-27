@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Lists.TicketTypeProvider.#ctor
   - SuperOffice.CRM.Lists.TicketTypeProvider._tableInfo
-  - SuperOffice.CRM.Lists.TicketTypeProvider.Admin
   - SuperOffice.CRM.Lists.TicketTypeProvider.GetMainQuery
+  - SuperOffice.CRM.Lists.TicketTypeProvider.IgnoreGroupingAndHeadingsForAdmin
   - SuperOffice.CRM.Lists.TicketTypeProvider.InfoKey_OnlyForMenu
   - SuperOffice.CRM.Lists.TicketTypeProvider.Init
   - SuperOffice.CRM.Lists.TicketTypeProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
@@ -35,7 +35,7 @@ items:
 
       [MDOAdditionalInfo("onlyForMenu", "false")]
 
-      [MDOAdditionalInfo("admin", "Describes if call is coming from admin system", "false")]
+      [MDOAdditionalInfo("IgnoreGroupingAndHeadingsForAdmin", "Flag to indicate a call is coming from admin system")]
 
       public class TicketTypeProvider : AnyTableListProviderBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
@@ -43,7 +43,7 @@ items:
 
       <MDOAdditionalInfo("onlyForMenu", "false")>
 
-      <MDOAdditionalInfo("admin", "Describes if call is coming from admin system", "false")>
+      <MDOAdditionalInfo("IgnoreGroupingAndHeadingsForAdmin", "Flag to indicate a call is coming from admin system")>
 
       Public Class TicketTypeProvider
           Inherits AnyTableListProviderBase
@@ -93,14 +93,12 @@ items:
     - type: System.String
       value: "false"
   - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
-    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.Object)
     arguments:
     - type: System.String
-      value: admin
+      value: IgnoreGroupingAndHeadingsForAdmin
     - type: System.String
-      value: Describes if call is coming from admin system
-    - type: System.String
-      value: "false"
+      value: Flag to indicate a call is coming from admin system
   modifiers.csharp:
   - public
   - class
@@ -163,16 +161,16 @@ items:
   modifiers.vb:
   - Public
   - Const
-- uid: SuperOffice.CRM.Lists.TicketTypeProvider.Admin
-  commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.Admin
-  id: Admin
+- uid: SuperOffice.CRM.Lists.TicketTypeProvider.IgnoreGroupingAndHeadingsForAdmin
+  commentId: F:SuperOffice.CRM.Lists.TicketTypeProvider.IgnoreGroupingAndHeadingsForAdmin
+  id: IgnoreGroupingAndHeadingsForAdmin
   parent: SuperOffice.CRM.Lists.TicketTypeProvider
   langs:
   - csharp
   - vb
-  name: Admin
-  nameWithType: TicketTypeProvider.Admin
-  fullName: SuperOffice.CRM.Lists.TicketTypeProvider.Admin
+  name: IgnoreGroupingAndHeadingsForAdmin
+  nameWithType: TicketTypeProvider.IgnoreGroupingAndHeadingsForAdmin
+  fullName: SuperOffice.CRM.Lists.TicketTypeProvider.IgnoreGroupingAndHeadingsForAdmin
   type: Field
   source:
     path: SoDataBase
@@ -181,10 +179,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: public const string Admin = "admin"
+    content: public const string IgnoreGroupingAndHeadingsForAdmin = "IgnoreGroupingAndHeadingsForAdmin"
     return:
       type: System.String
-    content.vb: Public Const Admin As String = "admin"
+    content.vb: Public Const IgnoreGroupingAndHeadingsForAdmin As String = "IgnoreGroupingAndHeadingsForAdmin"
   modifiers.csharp:
   - public
   - const

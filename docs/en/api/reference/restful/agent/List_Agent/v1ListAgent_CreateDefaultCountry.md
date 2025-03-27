@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 635,
-  "Name": "Schimmel, Boehm and Beatty",
-  "CurrencyId": 735,
-  "EnglishName": "Padberg Inc and Sons",
+  "CountryId": 162,
+  "Name": "Gerhold Group",
+  "CurrencyId": 821,
+  "EnglishName": "Ledner-Hermiston",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Exclusive dedicated array",
-  "OrgNrText": "667449",
-  "InterAreaPrefix": "ipsam",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "provident",
-  "DomainName": "Larkin, Koepp and Cronin",
-  "AddressLayoutId": 539,
-  "DomesticAddressLayoutId": 1002,
-  "ForeignAddressLayoutId": 913,
-  "Rank": 206,
-  "Tooltip": "saepe",
-  "Deleted": false,
+  "ImageDescription": "Networked next generation benchmark",
+  "OrgNrText": "853967",
+  "InterAreaPrefix": "quia",
+  "DialInPrefix": "occaecati",
+  "ZipPrefix": "est",
+  "DomainName": "Kuhlman Inc and Sons",
+  "AddressLayoutId": 557,
+  "DomesticAddressLayoutId": 736,
+  "ForeignAddressLayoutId": 991,
+  "Rank": 319,
+  "Tooltip": "a",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   }
 }

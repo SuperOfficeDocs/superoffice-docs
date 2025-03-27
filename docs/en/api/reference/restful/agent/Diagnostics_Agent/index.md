@@ -18,6 +18,8 @@ generated: true
 
 * [POST Agents/Diagnostics/GetCacheState](v1DiagnosticsAgent_GetCacheState.md)
 
+* [POST Agents/Diagnostics/GetCacheInvalidationGenerations](v1DiagnosticsAgent_GetCacheInvalidationGenerations.md)
+
 * [POST Agents/Diagnostics/GetEntityCountsForCurrentUser](v1DiagnosticsAgent_GetEntityCountsForCurrentUser.md)
 
 * [POST Agents/Diagnostics/GetEntityCountsForAllUsers](v1DiagnosticsAgent_GetEntityCountsForAllUsers.md)

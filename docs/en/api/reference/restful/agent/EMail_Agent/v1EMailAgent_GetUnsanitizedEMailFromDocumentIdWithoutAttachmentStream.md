@@ -107,7 +107,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 503
+  "DocumentId": 961
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 624,
-      "ContactName": "Graham, Zemlak and Lowe",
-      "PersonId": 973,
-      "PersonName": "Kub-Nitzsche",
-      "AssociateId": 401,
-      "Address": "laborum",
-      "EmailId": 808,
+      "ContactId": 492,
+      "ContactName": "McKenzie, Rippin and Greenfelder",
+      "PersonId": 387,
+      "PersonName": "Price-Dibbert",
+      "AssociateId": 623,
+      "Address": "natus",
+      "EmailId": 989,
       "DuplicatePersonIds": [
-        301,
-        857
+        847,
+        687
       ],
-      "Name": "Wunsch Group",
+      "Name": "Huels-Huels",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 331
+          "FieldType": "System.Int32",
+          "FieldLength": 765
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 365,
-      "ContactName": "Hartmann-Conroy",
-      "PersonId": 381,
-      "PersonName": "Trantow, Labadie and Runolfsdottir",
-      "AssociateId": 348,
-      "Address": "odio",
-      "EmailId": 480,
+      "ContactId": 749,
+      "ContactName": "Roberts, Runte and Kemmer",
+      "PersonId": 522,
+      "PersonName": "Turcotte, Grady and Schaefer",
+      "AssociateId": 834,
+      "Address": "voluptas",
+      "EmailId": 813,
       "DuplicatePersonIds": [
-        888,
-        44
+        846,
+        669
       ],
-      "Name": "Collier Group",
+      "Name": "Yundt Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldLength": 11
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 76,
-      "ContactName": "Rau, Lemke and Aufderhar",
-      "PersonId": 300,
-      "PersonName": "Ratke, Kling and Mitchell",
-      "AssociateId": 275,
-      "Address": "modi",
-      "EmailId": 801,
+      "ContactId": 377,
+      "ContactName": "Armstrong Inc and Sons",
+      "PersonId": 402,
+      "PersonName": "Larson Group",
+      "AssociateId": 944,
+      "Address": "corrupti",
+      "EmailId": 433,
       "DuplicatePersonIds": [
-        768,
-        238
+        980,
+        565
       ],
-      "Name": "Howell, Hermann and Jacobs",
+      "Name": "Smith, McCullough and Kuhn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 727
+          "FieldLength": 399
         }
       }
     }
   ],
-  "Subject": "repellendus",
-  "HTMLBody": "maxime",
+  "Subject": "dolorem",
+  "HTMLBody": "ut",
   "From": null,
-  "Sent": "2024-12-01T14:13:40.203526+01:00",
-  "Size": 455,
+  "Sent": "2021-12-19T02:38:21.3545452+01:00",
+  "Size": 662,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "laboriosam",
-  "IsSent": true,
+  "MessageID": "tenetur",
+  "PlainBody": "repellendus",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 776,
+  "ServerId": 902,
   "Attachments": [
     {
-      "Description": "Implemented composite productivity",
-      "Filename": "voluptatem",
-      "Size": 901,
-      "Type": "dicta",
-      "Encoding": "est",
-      "Id": "voluptatum",
-      "Disposition": "itaque",
+      "Description": "Pre-emptive incremental adapter",
+      "Filename": "repellendus",
+      "Size": 695,
+      "Type": "voluptatem",
+      "Encoding": "voluptas",
+      "Id": "doloremque",
+      "Disposition": "tempora",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,49 +218,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 289
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bechtelar Group",
+      "Name": "Gaylord LLC",
       "Values": [
-        "enim",
-        "exercitationem"
+        "dolore",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldLength": 688
         }
       }
     },
     {
-      "Name": "Bechtelar Group",
+      "Name": "Gaylord LLC",
       "Values": [
-        "enim",
-        "exercitationem"
+        "dolore",
+        "fugiat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldLength": 688
         }
       }
     }
   ],
-  "FolderName": "Simonis Group",
-  "EmailItemId": 73,
-  "AccountId": 130,
-  "ReceivedAt": "2011-06-22T14:13:40.2191476+02:00",
+  "FolderName": "West Inc and Sons",
+  "EmailItemId": 980,
+  "AccountId": 891,
+  "ReceivedAt": "2020-07-07T02:38:21.3545452+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-03-24T14:13:40.2191476+01:00",
+  "RepliedAt": "2007-10-24T02:38:21.3545452+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   }
 }

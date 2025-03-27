@@ -81,6 +81,8 @@
     name: Business
   - uid: SuperOffice.CRM.Services.Cache
     name: Cache
+  - uid: SuperOffice.CRM.Services.CacheInvalidation
+    name: CacheInvalidation
   - uid: SuperOffice.CRM.Services.CallerID
     name: CallerID
   - uid: SuperOffice.CRM.Services.CallerIDCollection
@@ -1049,6 +1051,8 @@
     name: User
   - uid: SuperOffice.CRM.Services.UserAgent
     name: UserAgent
+  - uid: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+    name: UserAndInstallationLicenceStatus
   - uid: SuperOffice.CRM.Services.UserCandidate
     name: UserCandidate
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo

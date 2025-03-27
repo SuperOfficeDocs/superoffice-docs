@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Donnelly-Frami",
-    "ToolTip": "Dolorum soluta est dolor expedita ad dolor.",
-    "Deleted": false,
-    "Rank": 87,
-    "Type": "nobis",
-    "ColorBlock": 149,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "2003-04-08T14:13:50.0250456+02:00",
+    "Id": 392,
+    "Name": "Morissette, Toy and Nader",
+    "ToolTip": "Dolorum esse.",
+    "Deleted": true,
+    "Rank": 79,
+    "Type": "explicabo",
+    "ColorBlock": 720,
+    "IconHint": "soluta",
+    "Selected": false,
+    "LastChanged": "2003-08-28T02:38:26.7923976+02:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "White, Hirthe and Boyle",
-        "ToolTip": "Officia quis iste.",
+        "Id": 958,
+        "Name": "Nolan Inc and Sons",
+        "ToolTip": "Ratione ullam dolorem.",
         "Deleted": false,
-        "Rank": 551,
-        "Type": "repellendus",
-        "ColorBlock": 656,
-        "IconHint": "consectetur",
+        "Rank": 429,
+        "Type": "nostrum",
+        "ColorBlock": 472,
+        "IconHint": "odit",
         "Selected": false,
-        "LastChanged": "2011-04-24T14:13:50.0250456+02:00",
+        "LastChanged": "2017-05-25T02:38:26.7923976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Miss Kariane Bechtelar",
+        "ExtraInfo": "odit",
+        "StyleHint": "fugit",
+        "Hidden": false,
+        "FullName": "Retta Rodriguez DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 198
+            "FieldType": "System.Int32",
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ottis Bogan",
+    "ExtraInfo": "vero",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Bernard Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 430
+        "FieldLength": 564
       }
     }
   }

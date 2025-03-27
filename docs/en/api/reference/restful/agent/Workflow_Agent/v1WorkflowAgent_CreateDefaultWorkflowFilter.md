@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Lang-Mann",
-      "Description": "Business-focused multimedia task-force",
-      "Rank": 137,
+      "Name": "Padberg, Ebert and Jones",
+      "Description": "Seamless impactful website",
+      "Rank": 976,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lang-Mann",
-      "Description": "Business-focused multimedia task-force",
-      "Rank": 137,
+      "Name": "Padberg, Ebert and Jones",
+      "Description": "Seamless impactful website",
+      "Rank": 976,
       "Restrictions": [
         {},
         {}
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

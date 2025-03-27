@@ -865,6 +865,8 @@
     name: Business
   - uid: SuperOffice.WebApi.Data.Cache
     name: Cache
+  - uid: SuperOffice.WebApi.Data.CacheInvalidation
+    name: CacheInvalidation
   - uid: SuperOffice.WebApi.Data.CallerID
     name: CallerID
   - uid: SuperOffice.WebApi.Data.CallerIDCollection
@@ -1445,6 +1447,8 @@
     name: Diagnostics_FlushCachesByNameRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_FlushCachesRequest
     name: Diagnostics_FlushCachesRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheInvalidationGenerationsRequest
+    name: Diagnostics_GetCacheInvalidationGenerationsRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheNamesRequest
     name: Diagnostics_GetCacheNamesRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_GetCacheStateRequest
@@ -2363,6 +2367,8 @@
     name: License_GetShopUrlRequest
   - uid: SuperOffice.WebApi.Data.License_GetThirdPartyLicenseAssignmentsRequest
     name: License_GetThirdPartyLicenseAssignmentsRequest
+  - uid: SuperOffice.WebApi.Data.License_GetUserAndInstallationLicenceStatusRequest
+    name: License_GetUserAndInstallationLicenceStatusRequest
   - uid: SuperOffice.WebApi.Data.License_GetUserLicensesMDOListRequest
     name: License_GetUserLicensesMDOListRequest
   - uid: SuperOffice.WebApi.Data.License_GetUserLicensesRequest
@@ -4353,6 +4359,8 @@
     name: User_SetUserPresenceStatusRequest
   - uid: SuperOffice.WebApi.Data.User_ValidateUserRequest
     name: User_ValidateUserRequest
+  - uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+    name: UserAndInstallationLicenceStatus
   - uid: SuperOffice.WebApi.Data.UserCandidate
     name: UserCandidate
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo

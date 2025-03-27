@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 299,
-  "Name": "Wiza LLC",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 296,
-  "Rank": 102,
+  "Id": 887,
+  "Name": "Carter, Quitzon and Tremblay",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 5,
+  "Rank": 61,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 910
     }
   }
 }

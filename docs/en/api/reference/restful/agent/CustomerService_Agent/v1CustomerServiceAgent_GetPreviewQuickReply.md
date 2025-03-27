@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 292
+  "QuickReplyId": 784
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Corwin Group",
-  "UpdatedByFullName": "Jovani Huel",
-  "Updated": "1998-08-28T14:13:39.9379614+02:00",
-  "HtmlBody": "fugiat",
+  "Name": "Kemmer Group",
+  "UpdatedByFullName": "Ms. Patsy Quigley",
+  "Updated": "2007-02-01T02:38:21.182685+01:00",
+  "HtmlBody": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 138
     }
   }
 }

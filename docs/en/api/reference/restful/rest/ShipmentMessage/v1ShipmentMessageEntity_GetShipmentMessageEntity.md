@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 359,
-  "PlainMessage": "voluptas",
-  "HtmlMessage": "voluptas",
-  "SmsMessage": "enim",
-  "Description": "Self-enabling user-facing application",
-  "Subject": "dolores",
-  "FolderId": 866,
-  "HeaderField": "perferendis",
-  "Design": "eius",
+  "ShipmentMessageId": 284,
+  "PlainMessage": "ab",
+  "HtmlMessage": "numquam",
+  "SmsMessage": "ullam",
+  "Description": "Multi-layered logistical synergy",
+  "Subject": "quis",
+  "FolderId": 612,
+  "HeaderField": "suscipit",
+  "Design": "molestiae",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Exclusive client-driven architecture",
-  "AccessKey": "reprehenderit",
-  "DocumentMessage": 763,
-  "Registered": "2006-02-12T14:13:49.2587235+01:00",
-  "RegisteredAssociateId": 286,
-  "Updated": "2019-05-24T14:13:49.2587235+02:00",
-  "UpdatedAssociateId": 609,
-  "UpdatedCount": 998,
+  "LongDescription": "Mandatory secondary middleware",
+  "AccessKey": "voluptate",
+  "DocumentMessage": 387,
+  "Registered": "2015-08-26T02:38:26.4329026+02:00",
+  "RegisteredAssociateId": 92,
+  "Updated": "2019-05-10T02:38:26.4329026+02:00",
+  "UpdatedAssociateId": 418,
+  "UpdatedCount": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

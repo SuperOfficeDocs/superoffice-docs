@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Lebsack Inc and Sons"
+  "FieldName": "Dooley, Rath and Flatley"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 240,
-  "FieldName": "Rippin, Pollich and Marvin",
-  "Label": "impedit",
-  "Tooltip": "dignissimos",
-  "Editable": true,
+  "QuoteLineConfigurationId": 117,
+  "FieldName": "Ledner-Emard",
+  "Label": "culpa",
+  "Tooltip": "laboriosam",
+  "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 131,
+  "Rank": 50,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 223
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

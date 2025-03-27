@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 249,
-      "PrefDescId": 676,
-      "PrefValue": "natus",
-      "PrefShowValue": "nemo",
-      "Description": "Secured directional knowledge base",
+      "PrefDescLineId": 523,
+      "PrefDescId": 286,
+      "PrefValue": "molestiae",
+      "PrefShowValue": "hic",
+      "Description": "Exclusive transitional intranet",
       "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 249,
-      "PrefDescId": 676,
-      "PrefValue": "natus",
-      "PrefShowValue": "nemo",
-      "Description": "Secured directional knowledge base",
+      "PrefDescLineId": 523,
+      "PrefDescId": 286,
+      "PrefValue": "molestiae",
+      "PrefShowValue": "hic",
+      "Description": "Exclusive transitional intranet",
       "IsBuiltin": false
     }
   ]
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 508,
-    "PrefDescId": 790,
-    "PrefValue": "soluta",
-    "PrefShowValue": "nam",
-    "Description": "Sharable intangible Graphic Interface",
+    "PrefDescLineId": 879,
+    "PrefDescId": 995,
+    "PrefValue": "eveniet",
+    "PrefShowValue": "non",
+    "Description": "Compatible executive software",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 602
       }
     }
   }

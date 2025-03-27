@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 863,
-  "Name": "Walsh-McLaughlin",
-  "Tooltip": "quo",
-  "Rank": 258,
-  "AmountFrom": 27996.022,
-  "AmountTo": 26040.406,
+  "AmountClassId": 838,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "dignissimos",
+  "Rank": 664,
+  "AmountFrom": 28428.514,
+  "AmountTo": 15773.421999999999,
   "Deleted": false,
-  "CurrencyId": 925
+  "CurrencyId": 751
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 598,
-  "Name": "Bartoletti, Harber and Kohler",
-  "Tooltip": "molestias",
-  "Rank": 451,
-  "AmountFrom": 206.844,
-  "AmountTo": 17142.98,
-  "Deleted": true,
-  "CurrencyId": 205,
+  "AmountClassId": 961,
+  "Name": "Stracke, Gleason and Von",
+  "Tooltip": "quibusdam",
+  "Rank": 201,
+  "AmountFrom": 14710.996,
+  "AmountTo": 30004.915999999997,
+  "Deleted": false,
+  "CurrencyId": 403,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

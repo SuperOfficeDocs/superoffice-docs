@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "omnis",
-  "ProviderName": "Wisozk Inc and Sons",
-  "StorageKey": "in",
-  "Context": "ratione"
+  "StorageType": "et",
+  "ProviderName": "Bergstrom LLC",
+  "StorageKey": "quo",
+  "Context": "architecto"
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermiston, Bogisich and Metz",
-  "Description": "Secured eco-centric circuit",
-  "Rank": 542,
+  "Name": "Steuber, Lemke and Lesch",
+  "Description": "Managed responsive encryption",
+  "Rank": 703,
   "Restrictions": [
     {
-      "Name": "Heller-Kshlerin",
-      "Operator": "sint",
+      "Name": "Boyer Inc and Sons",
+      "Operator": "eos",
       "Values": [
-        "voluptatem",
-        "est"
+        "est",
+        "et"
       ],
       "DisplayValues": [
-        "nihil",
-        "a"
+        "magni",
+        "consequuntur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -116,9 +116,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 188,
+      "InterParenthesis": 786,
       "InterOperator": "And",
-      "UniqueHash": 607
+      "UniqueHash": 279
     }
   ]
 }

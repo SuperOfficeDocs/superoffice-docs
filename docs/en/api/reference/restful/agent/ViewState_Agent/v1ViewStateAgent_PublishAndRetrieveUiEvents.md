@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 401,
+  "LatestKnownEventId": 25,
   "PublishEvents": [
     {
-      "EventId": 444,
-      "EventName": "Morissette, Okuneva and Daniel",
-      "EntityType": "et",
-      "EntityKey": 129,
-      "AssociateId": 454,
-      "AssociateName": "Rodriguez, Bradtke and Franecki",
-      "EventDateTime": "2009-09-13T14:13:41.7508542+02:00"
+      "EventId": 111,
+      "EventName": "Blick Inc and Sons",
+      "EntityType": "reprehenderit",
+      "EntityKey": 256,
+      "AssociateId": 530,
+      "AssociateName": "D'Amore-Kuhlman",
+      "EventDateTime": "2000-09-01T02:38:22.245036+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Kuvalis-O'Kon",
-      "Value": 9
+      "Name": "Kunze Group",
+      "Value": 937
     },
     {
-      "Name": "Kuvalis-O'Kon",
-      "Value": 9
+      "Name": "Kunze Group",
+      "Value": 937
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 610,
-    "EventName": "Mohr Group",
-    "EntityType": "et",
-    "EntityKey": 919,
-    "AssociateId": 578,
-    "AssociateName": "Goodwin Inc and Sons",
-    "EventDateTime": "2021-07-23T14:13:41.7508542+02:00",
+    "EventId": 572,
+    "EventName": "Beier-Lesch",
+    "EntityType": "sint",
+    "EntityKey": 701,
+    "AssociateId": 390,
+    "AssociateName": "Jaskolski, Davis and Effertz",
+    "EventDateTime": "2002-07-27T02:38:22.245036+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 114
+        "FieldType": "System.String",
+        "FieldLength": 699
       }
     }
   }

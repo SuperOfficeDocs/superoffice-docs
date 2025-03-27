@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schumm-Satterfield",
+  "Name": "Hamill, Moore and Lindgren",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Bayer, Kassulke and Collins",
-    "SoPrimaryKey": 548,
-    "EntryName": "Schuppe, Parisian and Volkman",
-    "EntryIdentifier": "dolores",
-    "RuleDisplayName": "Friesen, Pouros and Murray",
+    "RuleName": "Nicolas, Frami and Hirthe",
+    "SoPrimaryKey": 273,
+    "EntryName": "Luettgen-Gutmann",
+    "EntryIdentifier": "voluptatem",
+    "RuleDisplayName": "Ritchie-Waelchi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 728
       }
     }
   }

@@ -128,18 +128,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "ipsa",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "ipsa",
     "value": {}
   }
 ]
@@ -152,52 +152,52 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 419,
-  "UniqueIdentifier": "suscipit",
-  "Name": "Stanton-Kessler",
-  "Description": "Cloned transitional toolset",
-  "IncludeId": "quae",
-  "AccessKey": "reprehenderit",
-  "HierarchyId": 504,
-  "Source": "et",
-  "SourceCode": "suscipit",
+  "EjscriptId": 220,
+  "UniqueIdentifier": "quo",
+  "Name": "O'Kon, Swift and Sipes",
+  "Description": "Cross-group impactful service-desk",
+  "IncludeId": "vero",
+  "AccessKey": "sunt",
+  "HierarchyId": 61,
+  "Source": "corrupti",
+  "SourceCode": "et",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 97,
+  "HtmlOutput": 787,
   "Includes": [
-    306,
-    421
+    290,
+    954
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 789,
-      "LineNumberTo": 65,
-      "Delta": 773,
-      "IncludeId": "ab",
+      "LineNumberFrom": 418,
+      "LineNumberTo": 146,
+      "Delta": 757,
+      "IncludeId": "aliquam",
       "IncludedFrom": [
-        "ad",
-        "cum"
+        "aspernatur",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 751
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-05-21T14:13:48.7587273+02:00",
-  "RegisteredAssociateId": 899,
-  "Updated": "1999-05-16T14:13:48.7587273+02:00",
-  "UpdatedAssociateId": 44,
+  "Registered": "2013-02-05T02:38:26.0423248+01:00",
+  "RegisteredAssociateId": 885,
+  "Updated": "2007-02-15T02:38:26.0423248+01:00",
+  "UpdatedAssociateId": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   },
   "_Links": {

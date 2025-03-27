@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Swaniawski, Braun and Dooley",
-  "Tooltip": "perferendis",
+  "HeadingId": 1002,
+  "Name": "Grant Inc and Sons",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 962,
-  "UdListDefinitionId": 961
+  "Rank": 166,
+  "UdListDefinitionId": 142
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 189,
-  "Name": "Emard Group",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "Rank": 567,
-  "UdListDefinitionId": 538,
+  "HeadingId": 235,
+  "Name": "Fadel-Purdy",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 671,
+  "UdListDefinitionId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 745
     }
   }
 }

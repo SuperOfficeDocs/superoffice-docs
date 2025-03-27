@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/FreeText/GetStopWordList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,7 +70,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "qui",
-  "et"
+  "omnis",
+  "ut"
 ]
 ```

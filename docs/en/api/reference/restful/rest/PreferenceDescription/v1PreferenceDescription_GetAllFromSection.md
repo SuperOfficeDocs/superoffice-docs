@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 525,
-    "Section": "quidem",
-    "Key": "velit",
-    "Name": "Tromp-Hammes",
+    "PrefDescId": 54,
+    "Section": "ipsum",
+    "Key": "quia",
+    "Name": "Cummerata Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Decentralized multi-state matrices",
-    "IsBuiltin": false,
-    "TableName": "Hoppe Inc and Sons",
-    "UserDefinedListId": 11,
-    "Rank": 850,
-    "SubGroup": "consectetur",
-    "MinLevel": 518,
-    "MaxValue": 674,
-    "MinValue": 105,
-    "RequiredLicense": "voluptatem",
+    "Description": "Assimilated zero defect methodology",
+    "IsBuiltin": true,
+    "TableName": "Rath, Kirlin and Murray",
+    "UserDefinedListId": 953,
+    "Rank": 740,
+    "SubGroup": "quos",
+    "MinLevel": 193,
+    "MaxValue": 437,
+    "MinValue": 303,
+    "RequiredLicense": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 806
       }
     }
   }

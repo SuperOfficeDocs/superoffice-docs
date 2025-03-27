@@ -84,35 +84,35 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 342,
+  "SelectionId": 525,
   "Criteria": [
     {
-      "Name": "Reichel-Yost",
-      "Operator": "soluta",
+      "Name": "Hilpert Inc and Sons",
+      "Operator": "quia",
       "Values": [
-        "dicta",
-        "corporis"
+        "corporis",
+        "maiores"
       ],
       "DisplayValues": [
-        "amet",
-        "enim"
+        "velit",
+        "magni"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 231,
+      "InterParenthesis": 172,
       "InterOperator": "And",
-      "UniqueHash": 308
+      "UniqueHash": 627
     }
   ],
-  "Filter": "et"
+  "Filter": "enim"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Carter, Steuber and Nicolas",
-    "Operator": "animi",
+    "Name": "Durgan, Schoen and Von",
+    "Operator": "deserunt",
     "Values": [
-      "neque",
-      "assumenda"
+      "ipsum",
+      "consectetur"
     ],
     "DisplayValues": [
-      "asperiores",
-      "est"
+      "aperiam",
+      "voluptatum"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Ledner-Reynolds",
-        "Operator": "nihil",
+        "Name": "Hamill-Von",
+        "Operator": "fugit",
         "Values": [
-          "nesciunt",
-          "culpa"
+          "non",
+          "qui"
         ],
         "DisplayValues": [
-          "placeat",
-          "sed"
+          "dolorum",
+          "harum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 454,
+        "InterParenthesis": 227,
         "InterOperator": "And",
-        "UniqueHash": 115
+        "UniqueHash": 302
       }
     ],
-    "InterParenthesis": 658,
+    "InterParenthesis": 620,
     "InterOperator": "And",
-    "UniqueHash": 332
+    "UniqueHash": 718
   }
 ]
 ```

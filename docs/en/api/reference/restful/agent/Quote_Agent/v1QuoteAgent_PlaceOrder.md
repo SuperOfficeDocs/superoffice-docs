@@ -87,11 +87,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 31,
-  "MarkSaleAsSold": true,
-  "PoNumber": "1427705",
-  "OrderComment": "laborum",
-  "Culture": "at"
+  "QuoteAlternativeId": 672,
+  "MarkSaleAsSold": false,
+  "PoNumber": "716455",
+  "OrderComment": "omnis",
+  "Culture": "commodi"
 }
 ```
 
@@ -102,10 +102,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "iste",
-  "TechExplanation": "impedit",
-  "ErrorCode": "corporis",
+  "IsOk": true,
+  "UserExplanation": "laudantium",
+  "TechExplanation": "modi",
+  "ErrorCode": "ipsa",
   "Changes": null,
   "Url": "http://www.example.com/",
   "Status": "Error",
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 719
     }
   }
 }

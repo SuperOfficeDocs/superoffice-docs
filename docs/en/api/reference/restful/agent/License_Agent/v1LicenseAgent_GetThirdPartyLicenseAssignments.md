@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 334,
-  "ModuleOwner": "ab"
+  "AssociateId": 145,
+  "ModuleOwner": "dolores"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 903,
-    "Tooltip": "quaerat",
+    "Unrestricted": true,
+    "Total": 649,
+    "Tooltip": "sint",
     "CanAssign": false,
-    "Free": 882,
-    "InUse": 627,
+    "Free": 397,
+    "InUse": 461,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 438,
-    "Name": "Veum Group",
-    "Description": "Progressive tertiary knowledge base",
-    "PrerequisiteModuleName": "Keeling-Legros",
-    "SortOrder": 710,
-    "ExtraFlags": 98,
+    "ModuleLicenseId": 130,
+    "Name": "Cole, Dibbert and Carter",
+    "Description": "Centralized responsive secured line",
+    "PrerequisiteModuleName": "Olson, Runte and Spinka",
+    "SortOrder": 916,
+    "ExtraFlags": 860,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldType": "System.String",
+        "FieldLength": 176
       }
     }
   }

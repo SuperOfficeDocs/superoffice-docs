@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Lakin-Hilpert",
-    "ToolTip": "Perspiciatis vel.",
+    "Id": 242,
+    "Name": "Quitzon LLC",
+    "ToolTip": "Et sequi cum doloribus sunt deleniti quas.",
     "Deleted": true,
-    "Rank": 423,
-    "Type": "exercitationem",
-    "ColorBlock": 273,
-    "IconHint": "quas",
+    "Rank": 191,
+    "Type": "sit",
+    "ColorBlock": 95,
+    "IconHint": "magnam",
     "Selected": true,
-    "LastChanged": "2009-11-23T14:13:50.1343965+01:00",
+    "LastChanged": "2000-06-10T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 949,
-        "Name": "O'Keefe-Hoeger",
-        "ToolTip": "Ullam est quia iure magni sit quis laboriosam.",
-        "Deleted": true,
-        "Rank": 63,
-        "Type": "explicabo",
-        "ColorBlock": 905,
-        "IconHint": "adipisci",
+        "Id": 593,
+        "Name": "Pacocha LLC",
+        "ToolTip": "Sunt voluptatem velit fuga ut nobis labore deserunt.",
+        "Deleted": false,
+        "Rank": 902,
+        "Type": "porro",
+        "ColorBlock": 259,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2007-08-10T14:13:50.1343965+02:00",
+        "LastChanged": "2000-06-17T02:38:26.8705112+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "maiores",
+        "ExtraInfo": "et",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Dr. Emie Bernita Luettgen"
+        "FullName": "Adan Balistreri"
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "et",
+    "ExtraInfo": "sint",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Dr. Graciela Eleazar Roberts"
+    "FullName": "Kamren O'Keefe"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Wiza, Rau and Witting",
-    "ToolTip": "Nulla quas ut ducimus deleniti dolor.",
+    "Id": 869,
+    "Name": "King Group",
+    "ToolTip": "Ipsum laudantium perspiciatis doloremque quaerat.",
     "Deleted": true,
-    "Rank": 503,
-    "Type": "eum",
-    "ColorBlock": 425,
-    "IconHint": "similique",
+    "Rank": 226,
+    "Type": "sunt",
+    "ColorBlock": 867,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2016-03-29T14:13:50.1343965+02:00",
+    "LastChanged": "2009-08-27T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Dooley, O'Kon and Schaden",
-        "ToolTip": "Qui voluptates ipsam nostrum eos quo facere et.",
+        "Id": 425,
+        "Name": "Welch LLC",
+        "ToolTip": "Esse nisi doloremque unde architecto qui.",
         "Deleted": false,
-        "Rank": 441,
-        "Type": "rerum",
-        "ColorBlock": 749,
-        "IconHint": "quia",
+        "Rank": 973,
+        "Type": "quod",
+        "ColorBlock": 1001,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2003-07-14T14:13:50.1343965+02:00",
+        "LastChanged": "2016-07-07T02:38:26.8705112+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Angelo Heaney",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Virginie Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 826
+            "FieldType": "System.Int32",
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "iure",
-    "Hidden": false,
-    "FullName": "Faustino Mante",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "River Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 402
       }
     }
   }

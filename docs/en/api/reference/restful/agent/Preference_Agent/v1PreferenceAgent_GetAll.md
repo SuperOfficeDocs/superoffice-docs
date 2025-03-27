@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 449,
-    "Section": "nisi",
-    "Key": "ea",
-    "Name": "Koss, Greenholt and Hessel",
+    "PrefDescId": 189,
+    "Section": "at",
+    "Key": "recusandae",
+    "Name": "Altenwerth LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Reactive systemic knowledge user",
-    "IsBuiltin": false,
-    "TableName": "Pouros-Keebler",
-    "UserDefinedListId": 458,
-    "Rank": 610,
-    "SubGroup": "facere",
-    "MinLevel": 43,
-    "MaxValue": 447,
-    "MinValue": 84,
-    "RequiredLicense": "mollitia",
+    "Description": "Persevering leading edge definition",
+    "IsBuiltin": true,
+    "TableName": "Braun-Ruecker",
+    "UserDefinedListId": 953,
+    "Rank": 327,
+    "SubGroup": "pariatur",
+    "MinLevel": 216,
+    "MaxValue": 179,
+    "MinValue": 912,
+    "RequiredLicense": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldType": "System.String",
+        "FieldLength": 817
       }
     }
   }

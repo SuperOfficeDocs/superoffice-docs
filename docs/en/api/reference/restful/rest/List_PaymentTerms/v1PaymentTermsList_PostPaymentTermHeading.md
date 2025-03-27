@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 866,
-  "Name": "Russel Group",
-  "Tooltip": "voluptatem",
+  "HeadingId": 802,
+  "Name": "Smith-Gutkowski",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 141,
-  "UdListDefinitionId": 506
+  "Rank": 700,
+  "UdListDefinitionId": 874
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 567,
-  "Name": "Senger Group",
-  "Tooltip": "aut",
+  "HeadingId": 291,
+  "Name": "Kozey, Kling and Treutel",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "Rank": 357,
-  "UdListDefinitionId": 210,
+  "Rank": 89,
+  "UdListDefinitionId": 929,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 917
+      "FieldType": "System.Int32",
+      "FieldLength": 981
     }
   }
 }

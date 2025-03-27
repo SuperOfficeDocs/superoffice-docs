@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 200,
-  "ColumnId": 661,
-  "FieldDefault": "nihil",
-  "FieldHeight": 295,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 520,
-  "FieldTop": 25,
+  "UDefFieldId": 162,
+  "ColumnId": 712,
+  "FieldDefault": "ullam",
+  "FieldHeight": 830,
+  "FieldLabel": "fugit",
+  "FieldLeft": 290,
+  "FieldTop": 290,
   "FieldType": "Checkbox",
-  "FieldWidth": 168,
-  "FormatMask": "voluptas",
+  "FieldWidth": 534,
+  "FormatMask": "vitae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 565,
-  "LabelLeft": 352,
-  "LabelTop": 600,
-  "LabelWidth": 671,
-  "LastVersionId": 916,
-  "ListTableId": 497,
-  "IsMandatory": true,
+  "LabelHeight": 764,
+  "LabelLeft": 229,
+  "LabelTop": 249,
+  "LabelWidth": 325,
+  "LastVersionId": 512,
+  "ListTableId": 956,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 154,
-  "ProgId": "facere",
+  "Page1LineNo": 398,
+  "ProgId": "voluptatem",
   "IsReadOnly": false,
-  "ShortLabel": "fuga",
-  "TabOrder": 955,
-  "TextLength": 391,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 991,
-  "UDListDefinitionId": 682,
+  "ShortLabel": "neque",
+  "TabOrder": 839,
+  "TextLength": 886,
+  "Tooltip": "provident",
+  "UdefIdentity": 911,
+  "UDListDefinitionId": 306,
   "Justification": "Center",
-  "Version": 124,
-  "TemplateVariableName": "Hermiston, Torphy and O'Keefe",
-  "HasBeenPublished": true,
-  "MdoListName": "Effertz Inc and Sons",
+  "Version": 234,
+  "TemplateVariableName": "Hartmann, Lowe and Daniel",
+  "HasBeenPublished": false,
+  "MdoListName": "O'Kon, Kiehn and Koss",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 168
     }
   }
 }

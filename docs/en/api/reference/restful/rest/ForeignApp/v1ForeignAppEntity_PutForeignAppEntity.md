@@ -96,23 +96,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 67,
-  "Name": "Wuckert, Schiller and Turcotte",
-  "CreatedDate": "2001-03-13T14:13:48.8836985+01:00",
-  "UpdatedDate": "2017-10-12T14:13:48.8836985+02:00",
+  "ForeignAppId": 952,
+  "Name": "Moen-King",
+  "CreatedDate": "2003-12-03T02:38:26.1048073+01:00",
+  "UpdatedDate": "2003-09-03T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 902,
-      "Name": "Wilderman, Gottlieb and VonRueden",
-      "CreatedDate": "2017-01-05T14:13:48.8836985+01:00",
-      "UpdatedDate": "2008-10-12T14:13:48.8836985+02:00",
-      "AssociateFullName": "Prof. Jamie Sammy Stanton",
-      "CreatedBy": "temporibus",
-      "UpdatedBy": "deserunt",
-      "DeviceIdentifier": "eveniet",
-      "ForeignAppId": 566
+      "ForeignDeviceId": 226,
+      "Name": "Bartoletti, Brakus and Herman",
+      "CreatedDate": "2018-07-12T02:38:26.1048073+02:00",
+      "UpdatedDate": "2003-01-26T02:38:26.1048073+01:00",
+      "AssociateFullName": "Tessie Crooks",
+      "CreatedBy": "perferendis",
+      "UpdatedBy": "sint",
+      "DeviceIdentifier": "ipsa",
+      "ForeignAppId": 455
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 923,
-  "Name": "Bode, Pouros and Sanford",
-  "CreatedDate": "2011-08-14T14:13:48.8836985+02:00",
-  "UpdatedDate": "2019-01-01T14:13:48.8836985+01:00",
+  "ForeignAppId": 471,
+  "Name": "Huels, Zboncak and Dooley",
+  "CreatedDate": "2008-08-20T02:38:26.1048073+02:00",
+  "UpdatedDate": "2022-11-23T02:38:26.1048073+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 982,
-      "Name": "Buckridge, Monahan and Jewess",
-      "CreatedDate": "2002-06-15T14:13:48.8836985+02:00",
-      "UpdatedDate": "2025-02-24T14:13:48.8836985+01:00",
-      "AssociateFullName": "Kari Wyman",
-      "CreatedBy": "ipsa",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "eaque",
-      "ForeignAppId": 498,
+      "ForeignDeviceId": 334,
+      "Name": "Moore, Sawayn and Kertzmann",
+      "CreatedDate": "2001-10-01T02:38:26.1204323+02:00",
+      "UpdatedDate": "2024-04-22T02:38:26.1204323+02:00",
+      "AssociateFullName": "Litzy Greyson Williamson II",
+      "CreatedBy": "nobis",
+      "UpdatedBy": "voluptas",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 693,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 506
+          "FieldType": "System.Int32",
+          "FieldLength": 218
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 296
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

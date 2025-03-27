@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Innovative assymetric archive
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=nesciunt,earum
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Compatible 24 hour access
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=velit,consequatur
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "odit",
-  "VersionId": "suscipit",
+  "ExternalReference": "voluptatem",
+  "VersionId": "est",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "amet",
-  "AdditionalInfo": "repudiandae"
+  "Value": "ut",
+  "AdditionalInfo": "doloribus"
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Mosciski LLC",
-    "ToolTip": "Consequatur est est atque.",
+    "Id": 406,
+    "Name": "Rice-Rice",
+    "ToolTip": "Sapiente qui iste voluptatem.",
     "Deleted": false,
-    "Rank": 553,
-    "Type": "eligendi",
-    "ColorBlock": 324,
-    "IconHint": "commodi",
-    "Selected": true,
-    "LastChanged": "2021-04-09T14:13:50.0562893+02:00",
+    "Rank": 873,
+    "Type": "voluptate",
+    "ColorBlock": 957,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2015-01-25T02:38:26.8236417+01:00",
     "ChildItems": [
       {
-        "Id": 262,
-        "Name": "Doyle, Douglas and Homenick",
-        "ToolTip": "Provident nostrum at nemo optio quibusdam autem.",
-        "Deleted": true,
-        "Rank": 208,
-        "Type": "mollitia",
-        "ColorBlock": 795,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "1998-08-20T14:13:50.0562893+02:00",
+        "Id": 539,
+        "Name": "Parisian Inc and Sons",
+        "ToolTip": "Et et.",
+        "Deleted": false,
+        "Rank": 413,
+        "Type": "et",
+        "ColorBlock": 25,
+        "IconHint": "aspernatur",
+        "Selected": false,
+        "LastChanged": "2002-01-18T02:38:26.8236417+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "magni",
+        "ExtraInfo": "quis",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Prof. Glenna Manley Simonis",
+        "FullName": "Mr. Luther Susie Hane IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 964
+            "FieldType": "System.Int32",
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Noemy Schmidt",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "similique",
+    "Hidden": false,
+    "FullName": "Prof. Jose Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 87
       }
     }
   }

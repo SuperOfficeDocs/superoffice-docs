@@ -12,9 +12,11 @@ items:
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
@@ -563,6 +565,66 @@ items:
       type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
     content.vb: Protected ReadOnly Property RawHistoryItems As List(Of ISoListItem)
   overload: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  id: HistoryIds
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  langs:
+  - csharp
+  - vb
+  name: HistoryIds
+  nameWithType: LiteralsOnlyBase.HistoryIds
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected int[] HistoryIds { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Protected ReadOnly Property HistoryIds As Integer()
+  overload: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  id: OnlyReadHistory
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  langs:
+  - csharp
+  - vb
+  name: OnlyReadHistory
+  nameWithType: LiteralsOnlyBase.OnlyReadHistory
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected bool OnlyReadHistory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected ReadOnly Property OnlyReadHistory As Boolean
+  overload: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory*
   modifiers.csharp:
   - protected
   - get
@@ -1267,6 +1329,18 @@ references:
   name: RawHistoryItems
   nameWithType: LiteralsOnlyBase.RawHistoryItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds*
+  commentId: Overload:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  isExternal: true
+  name: HistoryIds
+  nameWithType: LiteralsOnlyBase.HistoryIds
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory*
+  commentId: Overload:SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  isExternal: true
+  name: OnlyReadHistory
+  nameWithType: LiteralsOnlyBase.OnlyReadHistory
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo*
   commentId: Overload:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   isExternal: true

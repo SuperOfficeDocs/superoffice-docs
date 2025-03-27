@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Kerluke-Barrows"
+  "TaskName": "Olson LLC"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 356,
-    "Name": "Reilly LLC",
-    "AssociateId": 307,
-    "DetailsTable": 884,
-    "DetailsRecord": 766,
+    "Id": 734,
+    "Name": "Davis-Feeney",
+    "AssociateId": 657,
+    "DetailsTable": 428,
+    "DetailsRecord": 570,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "eum",
-      "ParameterObject2": "reprehenderit"
+      "ParameterObject1": "molestiae",
+      "ParameterObject2": "animi"
     },
-    "LastStarted": "2023-09-07T14:13:39.3911033+02:00",
-    "Created": "2006-06-03T14:13:39.3911033+02:00",
-    "StartCount": 664,
-    "DatabaseSerialNumber": "510943",
-    "Context": "et",
-    "Result": "eum",
+    "LastStarted": "2010-09-05T02:38:20.885843+02:00",
+    "Created": "2011-03-20T02:38:20.885843+01:00",
+    "StartCount": 804,
+    "DatabaseSerialNumber": "688479",
+    "Context": "quidem",
+    "Result": "minima",
     "State": "All",
-    "Description": "Grass-roots non-volatile analyzer",
-    "Response": "consequatur",
-    "Request": "est",
-    "ProgressDescription": "Seamless methodical matrix",
-    "ProgressPercent": 364,
-    "FileName": "Harvey, Pacocha and Leuschke",
+    "Description": "Monitored encompassing concept",
+    "Response": "maiores",
+    "Request": "sequi",
+    "ProgressDescription": "Multi-channelled intermediate product",
+    "ProgressPercent": 344,
+    "FileName": "Bartell LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldLength": 986
       }
     }
   }

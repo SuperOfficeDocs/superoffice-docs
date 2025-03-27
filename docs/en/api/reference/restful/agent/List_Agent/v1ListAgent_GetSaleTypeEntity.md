@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=424
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=468
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 491,
-  "Name": "Kerluke-Cronin",
-  "Tooltip": "porro",
-  "Rank": 970,
+  "SaleTypeId": 567,
+  "Name": "Rutherford, Bogisich and Hettinger",
+  "Tooltip": "quia",
+  "Rank": 309,
   "DurationUnit": "Century",
-  "SaleDuration": 193,
-  "SaleTypeCatId": 699,
-  "Deleted": false,
+  "SaleDuration": 497,
+  "SaleTypeCatId": 698,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 264,
-  "QuoteLinesTemplate": 357,
-  "ConfirmationLinesTemplate": 195,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 644,
+  "QuoteLinesTemplate": 379,
+  "ConfirmationLinesTemplate": 155,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 622,
-  "MinEarningPercent": 954,
-  "GroupQuoteLinesBy": 961,
-  "SortGroupLinesBy": 424,
+  "MaxDiscountPercent": 776,
+  "MinEarningPercent": 460,
+  "GroupQuoteLinesBy": 946,
+  "SortGroupLinesBy": 282,
   "Stages": [
     {
-      "Id": 135,
-      "Name": "Quigley LLC",
-      "ToolTip": "Odit ea.",
+      "Id": 1001,
+      "Name": "Mohr, Schneider and Friesen",
+      "ToolTip": "Maiores corrupti quae et distinctio reiciendis et.",
       "Deleted": false,
-      "Rank": 623,
-      "Type": "eum",
-      "ColorBlock": 271,
-      "IconHint": "sint",
+      "Rank": 689,
+      "Type": "error",
+      "ColorBlock": 390,
+      "IconHint": "adipisci",
       "Selected": false,
-      "LastChanged": "2011-03-08T14:13:40.4534691+01:00",
+      "LastChanged": "2000-04-01T02:38:21.4951545+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestias",
-      "StyleHint": "alias",
+      "ExtraInfo": "aut",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Bridie Ricardo Kassulke II",
+      "FullName": "Ms. Roger Sidney O'Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 430
+          "FieldType": "System.Int32",
+          "FieldLength": 945
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 375
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

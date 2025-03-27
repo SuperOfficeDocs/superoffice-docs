@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    592,
-    201
+    899,
+    125
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Schiller-Weimann",
-    "ToolTip": "Quam impedit.",
+    "Id": 718,
+    "Name": "Halvorson, Waelchi and Reichel",
+    "ToolTip": "Est expedita eaque.",
     "Deleted": false,
-    "Rank": 198,
-    "Type": "totam",
+    "Rank": 520,
+    "Type": "ea",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Kuphal, Marquardt and Lowe",
-        "ToolTip": "Saepe sit eos et omnis ut ut consequatur.",
+        "Id": 59,
+        "Name": "Wehner, Gulgowski and Jast",
+        "ToolTip": "Voluptatem error accusamus.",
         "Deleted": true,
-        "Rank": 629,
-        "Type": "molestias",
+        "Rank": 91,
+        "Type": "velit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 875,
-        "ExtraInfo": "dolores",
-        "StyleHint": "magnam",
-        "FullName": "Immanuel Carmine Goodwin II",
+        "IconHint": "ullam",
+        "ColorBlock": 863,
+        "ExtraInfo": "quidem",
+        "StyleHint": "aut",
+        "FullName": "Dr. Lacey Leffler III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 571
+            "FieldType": "System.Int32",
+            "FieldLength": 92
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 845,
-    "ExtraInfo": "qui",
-    "StyleHint": "occaecati",
-    "FullName": "Ms. Darian Gislason",
+    "IconHint": "aut",
+    "ColorBlock": 543,
+    "ExtraInfo": "in",
+    "StyleHint": "illo",
+    "FullName": "Rosalia Stoltenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 366
+        "FieldLength": 319
       }
     }
   }

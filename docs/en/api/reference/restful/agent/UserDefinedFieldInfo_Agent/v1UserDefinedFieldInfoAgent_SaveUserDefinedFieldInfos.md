@@ -66,46 +66,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 291,
-      "ColumnId": 970,
-      "FieldDefault": "rerum",
-      "FieldHeight": 38,
-      "FieldLabel": "quisquam",
-      "FieldLeft": 877,
-      "FieldTop": 392,
+      "UDefFieldId": 470,
+      "ColumnId": 399,
+      "FieldDefault": "quam",
+      "FieldHeight": 449,
+      "FieldLabel": "quasi",
+      "FieldLeft": 295,
+      "FieldTop": 318,
       "FieldType": "Checkbox",
-      "FieldWidth": 279,
-      "FormatMask": "atque",
+      "FieldWidth": 190,
+      "FormatMask": "cumque",
       "HideLabel": false,
-      "IsIndexed": true,
-      "LabelHeight": 960,
-      "LabelLeft": 347,
-      "LabelTop": 319,
-      "LabelWidth": 180,
-      "LastVersionId": 468,
-      "ListTableId": 396,
+      "IsIndexed": false,
+      "LabelHeight": 892,
+      "LabelLeft": 683,
+      "LabelTop": 338,
+      "LabelWidth": 967,
+      "LastVersionId": 939,
+      "ListTableId": 30,
       "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 130,
-      "ProgId": "voluptas",
+      "Page1LineNo": 31,
+      "ProgId": "occaecati",
       "IsReadOnly": false,
-      "ShortLabel": "placeat",
-      "TabOrder": 217,
-      "TextLength": 668,
-      "Tooltip": "illo",
-      "UdefIdentity": 583,
-      "UDListDefinitionId": 200,
+      "ShortLabel": "quibusdam",
+      "TabOrder": 310,
+      "TextLength": 921,
+      "Tooltip": "eaque",
+      "UdefIdentity": 80,
+      "UDListDefinitionId": 547,
       "Justification": "Center",
-      "Version": 971,
-      "TemplateVariableName": "Veum Group",
-      "HasBeenPublished": false,
-      "MdoListName": "Daniel, Funk and Collier"
+      "Version": 627,
+      "TemplateVariableName": "Dach-Dare",
+      "HasBeenPublished": true,
+      "MdoListName": "Ryan, Ratke and Romaguera"
     }
   ]
 }

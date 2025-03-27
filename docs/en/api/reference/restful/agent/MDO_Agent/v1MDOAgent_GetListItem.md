@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Bahringer Group",
-  "Id": 809
+  "ListName": "Hansen Inc and Sons",
+  "Id": 257
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Prohaska Group",
-  "ToolTip": "Voluptatem consequatur odio ea asperiores ipsum nihil dolores.",
+  "Id": 126,
+  "Name": "Kulas-Smith",
+  "ToolTip": "Sit magni tenetur ut odit perferendis dolorem velit.",
   "Deleted": true,
-  "Rank": 810,
-  "Type": "commodi",
+  "Rank": 660,
+  "Type": "ea",
   "ChildItems": [
     {
-      "Id": 671,
-      "Name": "Glover, Emmerich and Cronin",
-      "ToolTip": "Esse et optio et illo expedita et.",
+      "Id": 504,
+      "Name": "Bayer Inc and Sons",
+      "ToolTip": "Est suscipit nostrum temporibus et eum.",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "eum",
+      "Rank": 459,
+      "Type": "sint",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 268,
-      "ExtraInfo": "est",
-      "StyleHint": "sunt",
-      "FullName": "Prof. Kevin Wehner",
+      "IconHint": "est",
+      "ColorBlock": 470,
+      "ExtraInfo": "ut",
+      "StyleHint": "assumenda",
+      "FullName": "Kamren Kutch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 258
+          "FieldLength": 94
         }
       }
     }
   ],
-  "IconHint": "sit",
-  "ColorBlock": 919,
-  "ExtraInfo": "odit",
-  "StyleHint": "quidem",
-  "FullName": "Miss Tyshawn Jasen Hane",
+  "IconHint": "asperiores",
+  "ColorBlock": 66,
+  "ExtraInfo": "iure",
+  "StyleHint": "consequuntur",
+  "FullName": "Jeanne Pfannerstill V",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 379
     }
   }
 }

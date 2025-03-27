@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "omnis",
-    "Type": "quibusdam",
-    "Description": "Secured intangible hardware",
+    "DisplayType": "recusandae",
+    "Type": "in",
+    "Description": "Reactive multi-tasking Graphical User Interface",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 411
+        "FieldLength": 11
       }
     }
   }

@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    309,
-    886
+    220,
+    986
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 168,
-    "MessageId": "ducimus",
-    "Subject": "laborum",
+    "ServerId": 537,
+    "MessageId": "eos",
+    "Subject": "iste",
     "From": null,
     "To": [
       {
-        "ContactId": 728,
-        "ContactName": "Hills-Thiel",
-        "PersonId": 289,
-        "PersonName": "Torp, Hoeger and Gibson",
-        "AssociateId": 357,
-        "Address": "est",
-        "EmailId": 17,
+        "ContactId": 400,
+        "ContactName": "Sawayn-Hilll",
+        "PersonId": 640,
+        "PersonName": "Skiles-Beahan",
+        "AssociateId": 109,
+        "Address": "reiciendis",
+        "EmailId": 845,
         "DuplicatePersonIds": [
-          457,
-          13
+          225,
+          912
         ],
-        "Name": "Cole LLC",
+        "Name": "Brown, Simonis and Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 687
+            "FieldLength": 378
           }
         }
       }
     ],
-    "Sent": "2017-02-20T14:13:40.2972545+01:00",
+    "Sent": "1998-08-02T02:38:21.401411+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 594,
+    "Size": 509,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 975
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

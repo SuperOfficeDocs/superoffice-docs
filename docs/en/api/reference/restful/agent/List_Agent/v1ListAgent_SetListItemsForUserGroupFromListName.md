@@ -71,13 +71,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Williamson Group",
-  "UsergroupId": 365,
+  "UdListDefinitionName": "Steuber Group",
+  "UsergroupId": 357,
   "ListItemsID": [
-    846,
-    988
+    859,
+    362
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

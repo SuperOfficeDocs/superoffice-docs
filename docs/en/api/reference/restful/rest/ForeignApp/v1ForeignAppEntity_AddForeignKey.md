@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quo",
-  "Value": "voluptatum",
-  "RecordId": 412,
-  "CreatedDate": "1998-01-18T14:13:48.8993207+01:00",
-  "UpdatedDate": "2014-01-20T14:13:48.8993207+01:00",
-  "UpdatedBy": "itaque",
+  "Key": "quae",
+  "Value": "impedit",
+  "RecordId": 67,
+  "CreatedDate": "2008-10-29T02:38:26.1204323+01:00",
+  "UpdatedDate": "2001-04-26T02:38:26.1204323+02:00",
+  "UpdatedBy": "voluptatem",
   "CreatedBy": "sint",
-  "TableName": "Spencer, Bruen and Abbott"
+  "TableName": "Braun-Larson"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "provident",
-  "RecordId": 156,
-  "CreatedDate": "2013-10-07T14:13:48.8993207+02:00",
-  "UpdatedDate": "2023-07-10T14:13:48.8993207+02:00",
-  "UpdatedBy": "iste",
-  "CreatedBy": "recusandae",
-  "TableName": "Blanda Inc and Sons",
+  "Key": "ut",
+  "Value": "incidunt",
+  "RecordId": 887,
+  "CreatedDate": "2000-08-15T02:38:26.1204323+02:00",
+  "UpdatedDate": "1999-10-29T02:38:26.1204323+02:00",
+  "UpdatedBy": "nobis",
+  "CreatedBy": "vitae",
+  "TableName": "Mertz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 288
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

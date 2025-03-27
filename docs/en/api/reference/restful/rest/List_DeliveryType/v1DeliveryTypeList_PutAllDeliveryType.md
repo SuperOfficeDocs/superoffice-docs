@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 441,
-    "Name": "Reichel, Altenwerth and Hansen",
-    "Tooltip": "repudiandae",
+    "Id": 251,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 633,
-    "Rank": 591
+    "UdListDefinitionId": 838,
+    "Rank": 613
   },
   {
-    "Id": 441,
-    "Name": "Reichel, Altenwerth and Hansen",
-    "Tooltip": "repudiandae",
+    "Id": 251,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 633,
-    "Rank": 591
+    "UdListDefinitionId": 838,
+    "Rank": 613
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Hartmann, Rice and Huel",
-    "Tooltip": "ratione",
-    "Deleted": true,
-    "UdListDefinitionId": 961,
-    "Rank": 280,
+    "Id": 535,
+    "Name": "Hirthe-Hauck",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "UdListDefinitionId": 412,
+    "Rank": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 109
+        "FieldType": "System.String",
+        "FieldLength": 601
       }
     }
   }

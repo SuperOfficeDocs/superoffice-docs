@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 647,
-  "ListItemId": 656,
+  "UdListDefinitionId": 78,
+  "ListItemId": 665,
   "Headings": [
     {
-      "Id": 924,
-      "Name": "Wiza Inc and Sons",
-      "ToolTip": "Aut dolor.",
-      "Deleted": false,
-      "Rank": 231,
-      "Type": "suscipit",
-      "ColorBlock": 404,
-      "IconHint": "similique",
+      "Id": 896,
+      "Name": "Langosh Group",
+      "ToolTip": "Quasi est pariatur.",
+      "Deleted": true,
+      "Rank": 584,
+      "Type": "omnis",
+      "ColorBlock": 729,
+      "IconHint": "necessitatibus",
       "Selected": true,
-      "LastChanged": "2019-08-12T14:13:40.4847118+02:00",
+      "LastChanged": "2010-03-31T02:38:21.5107392+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "qui",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "culpa",
       "Hidden": false,
-      "FullName": "Sonia Skiles"
+      "FullName": "Danika Johnston"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "McKenzie-Stark",
-    "ToolTip": "Et delectus repellat.",
-    "Deleted": true,
-    "Rank": 486,
-    "Type": "labore",
-    "ColorBlock": 699,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2003-11-25T14:13:40.4847118+01:00",
+    "Id": 197,
+    "Name": "Deckow Inc and Sons",
+    "ToolTip": "Sed dolorem labore et voluptate voluptas cum non.",
+    "Deleted": false,
+    "Rank": 240,
+    "Type": "veniam",
+    "ColorBlock": 528,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "1998-12-23T02:38:21.5107392+01:00",
     "ChildItems": [
       {
-        "Id": 468,
-        "Name": "Schowalter, Miller and Marks",
-        "ToolTip": "Et non eius non quis vitae.",
+        "Id": 821,
+        "Name": "Kohler, Bernhard and Pfannerstill",
+        "ToolTip": "Quia sint culpa tempora quia voluptatem.",
         "Deleted": false,
-        "Rank": 999,
-        "Type": "voluptatem",
-        "ColorBlock": 990,
-        "IconHint": "quae",
+        "Rank": 981,
+        "Type": "omnis",
+        "ColorBlock": 543,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2011-12-07T14:13:40.4847118+01:00",
+        "LastChanged": "2004-11-27T02:38:21.5107392+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "maxime",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "reprehenderit",
         "Hidden": false,
-        "FullName": "Micaela Roob",
+        "FullName": "Friedrich Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1002
+            "FieldLength": 798
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "sint",
+    "ExtraInfo": "velit",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mustafa Gorczany",
+    "FullName": "Prof. Tobin Berenice Paucek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 367
+        "FieldType": "System.String",
+        "FieldLength": 826
       }
     }
   }

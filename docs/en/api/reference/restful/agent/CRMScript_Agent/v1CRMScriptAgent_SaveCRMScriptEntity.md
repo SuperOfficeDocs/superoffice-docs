@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 706,
-  "UniqueIdentifier": "ipsam",
-  "Name": "Rosenbaum LLC",
-  "Description": "Cross-platform multi-tasking approach",
-  "IncludeId": "harum",
-  "AccessKey": "inventore",
-  "HierarchyId": 622,
-  "Source": "dolore",
-  "SourceCode": "et",
+  "EjscriptId": 638,
+  "UniqueIdentifier": "et",
+  "Name": "Douglas Inc and Sons",
+  "Description": "Versatile dedicated support",
+  "IncludeId": "quo",
+  "AccessKey": "et",
+  "HierarchyId": 359,
+  "Source": "voluptas",
+  "SourceCode": "minus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 758,
+  "HtmlOutput": 197,
   "Includes": [
-    225,
-    750
+    959,
+    553
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 503,
-      "LineNumberTo": 445,
-      "Delta": 88,
-      "IncludeId": "ut",
+      "LineNumberFrom": 727,
+      "LineNumberTo": 135,
+      "Delta": 140,
+      "IncludeId": "similique",
       "IncludedFrom": [
-        "tempore",
-        "vel"
+        "iusto",
+        "veritatis"
       ]
     },
     {
-      "LineNumberFrom": 503,
-      "LineNumberTo": 445,
-      "Delta": 88,
-      "IncludeId": "ut",
+      "LineNumberFrom": 727,
+      "LineNumberTo": 135,
+      "Delta": 140,
+      "IncludeId": "similique",
       "IncludedFrom": [
-        "tempore",
-        "vel"
+        "iusto",
+        "veritatis"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2013-01-24T14:13:39.9067187+01:00",
-  "RegisteredAssociateId": 709,
-  "Updated": "2015-03-28T14:13:39.9067187+01:00",
-  "UpdatedAssociateId": 408
+  "Registered": "2016-09-28T02:38:21.1670651+02:00",
+  "RegisteredAssociateId": 1002,
+  "Updated": "2008-04-02T02:38:21.1670651+02:00",
+  "UpdatedAssociateId": 347
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 178,
-  "UniqueIdentifier": "quod",
-  "Name": "Leannon, Dibbert and Goodwin",
-  "Description": "Organized client-server knowledge base",
-  "IncludeId": "quia",
-  "AccessKey": "dolor",
-  "HierarchyId": 139,
-  "Source": "esse",
-  "SourceCode": "maxime",
+  "EjscriptId": 716,
+  "UniqueIdentifier": "quas",
+  "Name": "Wuckert, Quigley and Rice",
+  "Description": "Re-engineered homogeneous definition",
+  "IncludeId": "omnis",
+  "AccessKey": "eaque",
+  "HierarchyId": 916,
+  "Source": "et",
+  "SourceCode": "molestiae",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 969,
+  "HtmlOutput": 579,
   "Includes": [
-    741,
-    541
+    720,
+    189
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 182,
-      "LineNumberTo": 190,
-      "Delta": 932,
-      "IncludeId": "quia",
+      "LineNumberFrom": 108,
+      "LineNumberTo": 149,
+      "Delta": 383,
+      "IncludeId": "quasi",
       "IncludedFrom": [
-        "dolorum",
-        "corporis"
+        "voluptatem",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 24
+          "FieldType": "System.String",
+          "FieldLength": 980
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2022-03-31T14:13:39.9067187+02:00",
-  "RegisteredAssociateId": 252,
-  "Updated": "2017-03-04T14:13:39.9067187+01:00",
-  "UpdatedAssociateId": 523,
+  "Registered": "2015-12-09T02:38:21.1670651+01:00",
+  "RegisteredAssociateId": 255,
+  "Updated": "2020-10-21T02:38:21.1670651+02:00",
+  "UpdatedAssociateId": 82,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

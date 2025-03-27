@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Beatty LLC",
-    "Tooltip": "modi",
+    "Id": 511,
+    "Name": "Mosciski-O'Keefe",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 435,
-    "Rank": 606
+    "UdListDefinitionId": 498,
+    "Rank": 666
   },
   {
-    "Id": 104,
-    "Name": "Beatty LLC",
-    "Tooltip": "modi",
+    "Id": 511,
+    "Name": "Mosciski-O'Keefe",
+    "Tooltip": "aut",
     "Deleted": true,
-    "UdListDefinitionId": 435,
-    "Rank": 606
+    "UdListDefinitionId": 498,
+    "Rank": 666
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Kilback-Balistreri",
-    "Tooltip": "cupiditate",
-    "Deleted": true,
-    "UdListDefinitionId": 207,
-    "Rank": 538,
+    "Id": 834,
+    "Name": "Casper LLC",
+    "Tooltip": "quam",
+    "Deleted": false,
+    "UdListDefinitionId": 539,
+    "Rank": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

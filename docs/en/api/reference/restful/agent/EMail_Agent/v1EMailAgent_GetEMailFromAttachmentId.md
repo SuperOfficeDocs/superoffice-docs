@@ -106,10 +106,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 215,
+  "EmailId": 284,
   "AttachmentIds": [
-    "dicta",
-    "laborum"
+    "est",
+    "in"
   ],
   "IncludeAttachments": false
 }
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 548,
-      "ContactName": "Nader LLC",
-      "PersonId": 949,
-      "PersonName": "Batz-Reinger",
-      "AssociateId": 941,
-      "Address": "omnis",
-      "EmailId": 213,
+      "ContactId": 365,
+      "ContactName": "Jacobs, Daugherty and McKenzie",
+      "PersonId": 461,
+      "PersonName": "Von Group",
+      "AssociateId": 822,
+      "Address": "fugiat",
+      "EmailId": 526,
       "DuplicatePersonIds": [
-        593,
-        997
+        45,
+        275
       ],
-      "Name": "Fay Group",
+      "Name": "Wyman Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldType": "System.Int32",
+          "FieldLength": 885
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 997,
-      "ContactName": "Zemlak, Bogan and McLaughlin",
-      "PersonId": 903,
-      "PersonName": "Feeney Group",
-      "AssociateId": 172,
-      "Address": "quisquam",
-      "EmailId": 962,
+      "ContactId": 141,
+      "ContactName": "Mosciski-Jaskolski",
+      "PersonId": 520,
+      "PersonName": "Reichert, Ritchie and Smith",
+      "AssociateId": 353,
+      "Address": "ab",
+      "EmailId": 714,
       "DuplicatePersonIds": [
-        660,
-        552
+        674,
+        739
       ],
-      "Name": "Kuhlman-Zieme",
+      "Name": "Bogisich Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 615
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 447,
-      "ContactName": "Champlin LLC",
-      "PersonId": 526,
-      "PersonName": "Dickens Group",
-      "AssociateId": 635,
-      "Address": "in",
-      "EmailId": 87,
+      "ContactId": 229,
+      "ContactName": "Boyer, Gusikowski and Luettgen",
+      "PersonId": 148,
+      "PersonName": "Toy-Rutherford",
+      "AssociateId": 27,
+      "Address": "vitae",
+      "EmailId": 577,
       "DuplicatePersonIds": [
-        93,
-        263
+        954,
+        359
       ],
-      "Name": "Harris Group",
+      "Name": "Kilback Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 689
         }
       }
     }
   ],
-  "Subject": "adipisci",
-  "HTMLBody": "excepturi",
+  "Subject": "accusamus",
+  "HTMLBody": "earum",
   "From": null,
-  "Sent": "2012-04-20T14:13:40.2816332+02:00",
-  "Size": 356,
+  "Sent": "2003-12-03T02:38:21.3857927+01:00",
+  "Size": 327,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "corrupti",
-  "PlainBody": "praesentium",
+  "MessageID": "exercitationem",
+  "PlainBody": "qui",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 493,
+  "ServerId": 739,
   "Attachments": [
     {
-      "Description": "Compatible motivating toolset",
-      "Filename": "nam",
-      "Size": 157,
-      "Type": "omnis",
-      "Encoding": "dignissimos",
-      "Id": "soluta",
-      "Disposition": "velit",
+      "Description": "Horizontal encompassing structure",
+      "Filename": "laudantium",
+      "Size": 337,
+      "Type": "non",
+      "Encoding": "officiis",
+      "Id": "officiis",
+      "Disposition": "corporis",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 148
+          "FieldLength": 883
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Satterfield Group",
+      "Name": "Jerde, Maggio and Mraz",
       "Values": [
-        "excepturi",
-        "necessitatibus"
+        "voluptas",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 452
         }
       }
     },
     {
-      "Name": "Satterfield Group",
+      "Name": "Jerde, Maggio and Mraz",
       "Values": [
-        "excepturi",
-        "necessitatibus"
+        "voluptas",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldLength": 452
         }
       }
     }
   ],
-  "FolderName": "Rath, Emard and McCullough",
-  "EmailItemId": 893,
-  "AccountId": 549,
-  "ReceivedAt": "2007-11-29T14:13:40.2816332+01:00",
+  "FolderName": "Russel, Pouros and Reichel",
+  "EmailItemId": 33,
+  "AccountId": 663,
+  "ReceivedAt": "2004-11-14T02:38:21.3857927+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-03-22T14:13:40.2816332+01:00",
+  "RepliedAt": "2022-10-10T02:38:21.3857927+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

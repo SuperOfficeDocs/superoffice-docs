@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 684,
-  "Name": "Hoppe-Orn",
-  "Config": "distinctio",
-  "Rank": 927,
-  "Client": "eaque",
-  "Style": "ut"
+  "DashboardThemeId": 85,
+  "Name": "Breitenberg-Shields",
+  "Config": "dolores",
+  "Rank": 994,
+  "Client": "repellendus",
+  "Style": "est"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 838,
-  "Name": "King-Zboncak",
-  "Config": "quis",
-  "Rank": 966,
-  "Client": "eum",
-  "Style": "dolores",
+  "DashboardThemeId": 508,
+  "Name": "Ondricka-Pfeffer",
+  "Config": "voluptatem",
+  "Rank": 362,
+  "Client": "suscipit",
+  "Style": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 701
+      "FieldLength": 143
     }
   }
 }

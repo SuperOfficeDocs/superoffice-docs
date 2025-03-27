@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 678,
-  "LanguageCode": "ex"
+  "DocumentTemplateId": 299,
+  "LanguageCode": "magnam"
 }
 ```
 

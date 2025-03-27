@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 841,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "mollitia",
-  "Deleted": false,
-  "UdListDefinitionId": 355,
-  "Rank": 475,
+  "Id": 66,
+  "Name": "Raynor-Barrows",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "UdListDefinitionId": 846,
+  "Rank": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 351
     }
   }
 }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Gibson-Goyette",
-  "StorageKey": "sunt",
-  "Rank": 930,
-  "Context": "optio"
+  "StorageType": "explicabo",
+  "ProviderName": "Hansen-Buckridge",
+  "StorageKey": "rem",
+  "Rank": 120,
+  "Context": "architecto"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman, King and Roberts",
-  "Description": "Adaptive assymetric hierarchy",
-  "Rank": 858,
+  "Name": "Maggio, Wolff and Simonis",
+  "Description": "Optional multi-tasking model",
+  "Rank": 510,
   "Restrictions": [
     {
-      "Name": "Tillman-Gottlieb",
-      "Operator": "omnis",
+      "Name": "Krajcik-McGlynn",
+      "Operator": "iste",
       "Values": [
-        "id",
-        "consequatur"
+        "iste",
+        "recusandae"
       ],
       "DisplayValues": [
-        "quia",
-        "blanditiis"
+        "commodi",
+        "atque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 357,
+      "InterParenthesis": 470,
       "InterOperator": "And",
-      "UniqueHash": 852
+      "UniqueHash": 276
     }
   ]
 }

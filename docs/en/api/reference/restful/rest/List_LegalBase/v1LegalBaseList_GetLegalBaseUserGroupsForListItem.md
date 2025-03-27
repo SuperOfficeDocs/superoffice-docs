@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 846,
-    "Name": "Hills, McGlynn and Wolff",
-    "ToolTip": "Excepturi dolores.",
+    "Id": 200,
+    "Name": "Kuhn-Kunze",
+    "ToolTip": "Est et earum et aperiam pariatur error necessitatibus.",
     "Deleted": false,
-    "Rank": 362,
-    "Type": "quaerat",
-    "ColorBlock": 602,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2023-03-11T14:13:49.9781847+01:00",
+    "Rank": 470,
+    "Type": "dolore",
+    "ColorBlock": 852,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2004-06-28T02:38:26.7767326+02:00",
     "ChildItems": [
       {
-        "Id": 604,
-        "Name": "Hilll, Keeling and Toy",
-        "ToolTip": "Velit quas repellat non.",
+        "Id": 318,
+        "Name": "Wehner-Rice",
+        "ToolTip": "Laudantium sunt.",
         "Deleted": false,
-        "Rank": 945,
-        "Type": "asperiores",
-        "ColorBlock": 206,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2001-04-09T14:13:49.9781847+02:00",
+        "Rank": 333,
+        "Type": "iusto",
+        "ColorBlock": 449,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2003-01-29T02:38:26.7767326+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "labore",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "praesentium",
         "Hidden": false,
-        "FullName": "Casimir Olson",
+        "FullName": "Marian Heidenreich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldLength": 69
           }
         }
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "occaecati",
+    "ExtraInfo": "illo",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Vidal Marquardt",
+    "FullName": "Rodrigo Zieme III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 423
       }
     }
   }

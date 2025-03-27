@@ -88,11 +88,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 927,
-  "Name": "Wisoky Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": false,
-  "Rank": 707,
+  "WebPanelId": 77,
+  "Name": "Rath Inc and Sons",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 121,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Trantow Inc and Sons",
+  "WindowName": "Hilll Group",
   "Url": "http://www.example.com/",
-  "ProgId": "porro",
-  "Icon": 891,
+  "ProgId": "perspiciatis",
+  "Icon": 170,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 963
     }
   }
 }

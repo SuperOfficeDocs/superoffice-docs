@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 16,
-  "LanguageCode": "non"
+  "DashboardTileDefinitionId": 1001,
+  "LanguageCode": "accusamus"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "sunt",
-  "Html": "quas",
+  "LanguageCode": "optio",
+  "Html": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 972
+      "FieldLength": 571
     }
   }
 }

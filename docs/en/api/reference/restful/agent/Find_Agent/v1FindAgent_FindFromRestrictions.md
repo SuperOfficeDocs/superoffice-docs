@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Padberg, Rau and Will",
-      "Operator": "rem",
+      "Name": "Pfannerstill Inc and Sons",
+      "Operator": "voluptas",
       "Values": [
-        "accusamus",
-        "dolor"
+        "nihil",
+        "deserunt"
       ],
       "DisplayValues": [
-        "velit",
-        "veritatis"
+        "aut",
+        "magni"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 81,
+      "InterParenthesis": 40,
       "InterOperator": "And",
-      "UniqueHash": 453
+      "UniqueHash": 975
     }
   ],
-  "ProviderName": "Anderson-Nitzsche",
-  "PageSize": 669,
-  "PageNumber": 137
+  "ProviderName": "Ryan, Bauch and Hilpert",
+  "PageSize": 233,
+  "PageNumber": 526
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kunde, Grady and Mertz",
-      "DisplayTooltip": "sunt",
-      "DisplayType": "necessitatibus",
-      "CanOrderBy": true,
-      "Name": "Tremblay, Brekke and Lakin",
-      "CanRestrictBy": true,
-      "RestrictionType": "repellat",
-      "RestrictionListName": "Nienow Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "provident",
-      "Width": "laboriosam",
-      "IconHint": "in",
-      "HeadingIconHint": "hic"
+      "DisplayName": "Funk-Veum",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "ullam",
+      "CanOrderBy": false,
+      "Name": "Von-Roob",
+      "CanRestrictBy": false,
+      "RestrictionType": "sint",
+      "RestrictionListName": "Ruecker-Schneider",
+      "IsVisible": false,
+      "ExtraInfo": "ut",
+      "Width": "velit",
+      "IconHint": "ea",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schroeder, Bernier and Hills",
-      "PrimaryKey": 828,
+      "EntityName": "McDermott, McLaughlin and Kilback",
+      "PrimaryKey": 558,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorum",
-          "TooltipHint": "tempore",
-          "LinkHint": "sit"
+          "DisplayValue": "debitis",
+          "TooltipHint": "eaque",
+          "LinkHint": "ipsum"
         }
       },
-      "LinkHint": "amet",
-      "StyleHint": "fugiat",
+      "LinkHint": "numquam",
+      "StyleHint": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 922
         }
       }
     }
   ],
-  "RowCount": 997,
+  "RowCount": 826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

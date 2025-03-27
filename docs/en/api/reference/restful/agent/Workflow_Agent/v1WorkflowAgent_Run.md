@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/Run
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,5 +69,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2024-09-21T14:13:41.7820973+02:00"
+"2014-11-17T02:38:22.2606593+01:00"
 ```

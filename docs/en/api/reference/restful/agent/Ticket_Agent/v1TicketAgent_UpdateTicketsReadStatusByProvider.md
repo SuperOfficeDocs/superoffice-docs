@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "exercitationem",
+  "Provider": "illum",
   "Restrictions": [
     {
-      "Name": "McClure Group",
-      "Operator": "qui",
+      "Name": "Hoppe, Denesik and Quigley",
+      "Operator": "quo",
       "Values": [
-        "odit",
-        "aut"
+        "id",
+        "consectetur"
       ],
       "DisplayValues": [
-        "ut",
-        "architecto"
+        "ea",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 572,
+      "InterParenthesis": 157,
       "InterOperator": "And",
-      "UniqueHash": 495
+      "UniqueHash": 700
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  105,
-  225
+  160,
+  341
 ]
 ```

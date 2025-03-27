@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Spencer LLC",
-    "ToolTip": "Provident earum neque vel ut.",
+    "Id": 472,
+    "Name": "Treutel Inc and Sons",
+    "ToolTip": "Eveniet nemo eum dolores quia ut expedita eos.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "et",
-    "ColorBlock": 863,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2012-01-07T14:13:50.1812638+01:00",
+    "Rank": 551,
+    "Type": "ut",
+    "ColorBlock": 880,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "1998-12-04T02:38:26.9017511+01:00",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Hermann-Satterfield",
-        "ToolTip": "Ipsam quis voluptatibus.",
+        "Id": 810,
+        "Name": "Rohan-Jenkins",
+        "ToolTip": "Sit ut mollitia praesentium eaque.",
         "Deleted": false,
-        "Rank": 636,
-        "Type": "placeat",
-        "ColorBlock": 773,
-        "IconHint": "eos",
+        "Rank": 798,
+        "Type": "et",
+        "ColorBlock": 338,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "2015-01-28T14:13:50.1812638+01:00",
+        "LastChanged": "2008-07-07T02:38:26.9017511+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nulla",
+        "ExtraInfo": "officiis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ms. Rae Ardella Yost",
+        "FullName": "Devyn Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 457
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "id",
-    "Hidden": false,
-    "FullName": "Clay Williamson",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "Mr. Korbin McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Goldner, Schultz and Gaylord",
-    "Tooltip": "illo",
+    "Id": 76,
+    "Name": "Rath-Gibson",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "UdListDefinitionId": 877,
-    "Rank": 192,
+    "UdListDefinitionId": 670,
+    "Rank": 340,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldLength": 951
       }
     }
   }

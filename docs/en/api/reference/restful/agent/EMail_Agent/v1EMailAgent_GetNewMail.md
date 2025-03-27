@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    320,
-    609
+    503,
+    147
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 684,
-    "MessageId": "sed",
-    "Subject": "maiores",
+    "ServerId": 95,
+    "MessageId": "sequi",
+    "Subject": "laborum",
     "From": null,
     "To": [
       {
-        "ContactId": 518,
-        "ContactName": "Schmitt, Schuppe and Leannon",
-        "PersonId": 288,
-        "PersonName": "Ferry, Lubowitz and Kuhn",
-        "AssociateId": 364,
-        "Address": "occaecati",
-        "EmailId": 642,
+        "ContactId": 465,
+        "ContactName": "Hintz, McClure and Renner",
+        "PersonId": 65,
+        "PersonName": "Shields-Mante",
+        "AssociateId": 595,
+        "Address": "est",
+        "EmailId": 666,
         "DuplicatePersonIds": [
-          799,
-          801
+          366,
+          669
         ],
-        "Name": "Lockman-Nikolaus",
+        "Name": "Wilderman Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 741
+            "FieldType": "System.String",
+            "FieldLength": 461
           }
         }
       }
     ],
-    "Sent": "2004-01-03T14:13:40.1722829+01:00",
+    "Sent": "2004-03-26T02:38:21.3232921+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 503,
+    "Size": 622,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 133
       }
     }
   }

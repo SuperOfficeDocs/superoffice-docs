@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 1000
+  "ShipmentId": 430
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2008-03-31T14:13:40.5784406+02:00",
+  "StartDate": "2015-11-12T02:38:21.5576497+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 864,
-  "ShipmentDescription": "User-friendly high-level matrices",
-  "FromAddress": "nostrum",
-  "Configuration": 313,
-  "PersonId": 576,
-  "PersonFullName": "Miss Arlene Tyree Lang DDS",
-  "ShipmentType": "aut",
-  "MessageId": 419,
-  "MessageSubject": "non",
-  "DocumentMessageId": 57,
-  "NumSent": 942,
-  "NumOpened": 503,
-  "NumBounced": 705,
-  "NumClicks": 854,
+  "ShipmentId": 104,
+  "ShipmentDescription": "Open-architected multi-tasking matrices",
+  "FromAddress": "eum",
+  "Configuration": 255,
+  "PersonId": 99,
+  "PersonFullName": "Jamar Kay Kemmer MD",
+  "ShipmentType": "porro",
+  "MessageId": 756,
+  "MessageSubject": "eos",
+  "DocumentMessageId": 821,
+  "NumSent": 627,
+  "NumOpened": 93,
+  "NumBounced": 184,
+  "NumClicks": 796,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 610
     }
   }
 }

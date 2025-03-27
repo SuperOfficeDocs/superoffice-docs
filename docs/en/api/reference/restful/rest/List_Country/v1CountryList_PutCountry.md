@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 386,
-  "Name": "Renner-Mosciski",
-  "CurrencyId": 991,
-  "EnglishName": "Pagac, Kulas and Emard",
+  "CountryId": 829,
+  "Name": "Baumbach, Corwin and Koch",
+  "CurrencyId": 822,
+  "EnglishName": "Torphy Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Diverse mobile monitoring",
-  "OrgNrText": "1394461",
-  "InterAreaPrefix": "alias",
-  "DialInPrefix": "quae",
-  "ZipPrefix": "et",
-  "DomainName": "Feeney Group",
-  "AddressLayoutId": 626,
-  "DomesticAddressLayoutId": 993,
-  "ForeignAddressLayoutId": 480,
-  "Rank": 13,
-  "Tooltip": "inventore",
-  "Deleted": false
+  "ImageDescription": "Synergized full-range parallelism",
+  "OrgNrText": "898293",
+  "InterAreaPrefix": "veniam",
+  "DialInPrefix": "quasi",
+  "ZipPrefix": "non",
+  "DomainName": "Rath-West",
+  "AddressLayoutId": 213,
+  "DomesticAddressLayoutId": 549,
+  "ForeignAddressLayoutId": 12,
+  "Rank": 603,
+  "Tooltip": "ab",
+  "Deleted": true
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 916,
-  "Name": "Johnson-Kuphal",
-  "CurrencyId": 348,
-  "EnglishName": "Feil LLC",
+  "CountryId": 661,
+  "Name": "Prohaska-Rodriguez",
+  "CurrencyId": 669,
+  "EnglishName": "Marks-Leuschke",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergistic 6th generation Graphic Interface",
-  "OrgNrText": "1034398",
-  "InterAreaPrefix": "delectus",
-  "DialInPrefix": "dolorum",
-  "ZipPrefix": "veritatis",
-  "DomainName": "Lueilwitz-Pagac",
-  "AddressLayoutId": 863,
-  "DomesticAddressLayoutId": 505,
-  "ForeignAddressLayoutId": 111,
-  "Rank": 369,
-  "Tooltip": "officia",
-  "Deleted": true,
+  "ImageDescription": "Enterprise-wide contextually-based infrastructure",
+  "OrgNrText": "1578103",
+  "InterAreaPrefix": "fuga",
+  "DialInPrefix": "repellendus",
+  "ZipPrefix": "cum",
+  "DomainName": "Kozey Inc and Sons",
+  "AddressLayoutId": 587,
+  "DomesticAddressLayoutId": 913,
+  "ForeignAddressLayoutId": 345,
+  "Rank": 488,
+  "Tooltip": "et",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 940
+      "FieldLength": 203
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Koss Inc and Sons",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "Rank": 620,
+  "Id": 18,
+  "Name": "Aufderhar Inc and Sons",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "Rank": 5,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatibus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 936
+      "FieldType": "System.String",
+      "FieldLength": 918
     }
   },
   "_Links": {

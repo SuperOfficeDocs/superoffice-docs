@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 933,
-    "Name": "Bechtelar Group",
-    "ToolTip": "Sapiente et deserunt voluptate ipsa.",
+    "Id": 366,
+    "Name": "Daugherty-Lubowitz",
+    "ToolTip": "Architecto aut dolorem.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "sit",
-    "ColorBlock": 975,
-    "IconHint": "illo",
-    "Selected": true,
-    "LastChanged": "2007-03-07T14:13:50.0406714+01:00",
+    "Rank": 745,
+    "Type": "quae",
+    "ColorBlock": 798,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "2013-08-25T02:38:26.8080217+02:00",
     "ChildItems": [
       {
-        "Id": 999,
-        "Name": "Cassin Group",
-        "ToolTip": "Est quam est qui.",
+        "Id": 659,
+        "Name": "Schamberger, Cassin and Adams",
+        "ToolTip": "Hic eum inventore et.",
         "Deleted": false,
-        "Rank": 866,
-        "Type": "quibusdam",
-        "ColorBlock": 458,
-        "IconHint": "doloribus",
+        "Rank": 845,
+        "Type": "ad",
+        "ColorBlock": 89,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "1998-09-26T14:13:50.0406714+02:00",
+        "LastChanged": "1999-04-18T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Prof. Libbie Miller V"
+        "FullName": "Ms. Angelo Louvenia Daugherty V"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "et",
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Miss Domenico Kuphal III"
+    "FullName": "Greta Reichel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Gorczany-Hammes",
-    "ToolTip": "Itaque quidem qui cum rerum esse.",
-    "Deleted": false,
-    "Rank": 14,
-    "Type": "iure",
-    "ColorBlock": 4,
-    "IconHint": "molestiae",
+    "Id": 945,
+    "Name": "Kihn, Ortiz and Lemke",
+    "ToolTip": "Labore neque iusto illo.",
+    "Deleted": true,
+    "Rank": 135,
+    "Type": "ipsum",
+    "ColorBlock": 613,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2012-03-04T14:13:50.0406714+01:00",
+    "LastChanged": "2008-11-21T02:38:26.8080217+01:00",
     "ChildItems": [
       {
-        "Id": 835,
-        "Name": "Mayer-Nikolaus",
-        "ToolTip": "Possimus vitae.",
+        "Id": 266,
+        "Name": "Kiehn Inc and Sons",
+        "ToolTip": "Commodi voluptatum culpa temporibus sint in beatae consectetur.",
         "Deleted": false,
-        "Rank": 497,
-        "Type": "necessitatibus",
-        "ColorBlock": 661,
-        "IconHint": "fugit",
+        "Rank": 190,
+        "Type": "saepe",
+        "ColorBlock": 159,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2008-07-07T14:13:50.0406714+02:00",
+        "LastChanged": "2013-06-12T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quo",
+        "ExtraInfo": "sunt",
+        "StyleHint": "nulla",
         "Hidden": true,
-        "FullName": "Mrs. Alicia Janiya Maggio DDS",
+        "FullName": "Melyna Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 651
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "rem",
+    "ExtraInfo": "animi",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Elfrieda Wunsch",
+    "FullName": "Ms. Xavier Bergstrom Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 436
       }
     }
   }

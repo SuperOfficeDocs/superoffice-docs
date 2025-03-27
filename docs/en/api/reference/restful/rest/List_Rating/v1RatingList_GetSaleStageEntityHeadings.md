@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 805,
-    "Name": "Gottlieb-Heaney",
-    "Tooltip": "ratione",
+    "HeadingId": 637,
+    "Name": "Toy LLC",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "Rank": 155,
-    "UdListDefinitionId": 390,
+    "Rank": 523,
+    "UdListDefinitionId": 566,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 833
+        "FieldLength": 190
       }
     }
   }

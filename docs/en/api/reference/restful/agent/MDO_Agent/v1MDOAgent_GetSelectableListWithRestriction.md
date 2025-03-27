@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Renner Group",
-  "AdditionalInfo": "molestiae",
-  "SearchValue": "dolore"
+  "Name": "Johns-Wiegand",
+  "AdditionalInfo": "velit",
+  "SearchValue": "sit"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Collier Inc and Sons",
-    "ToolTip": "Quos reprehenderit molestiae eaque eveniet omnis quo qui.",
+    "Id": 581,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "Libero iusto quibusdam placeat voluptas dolore.",
     "Deleted": true,
-    "Rank": 751,
-    "Type": "sit",
-    "ColorBlock": 729,
-    "IconHint": "qui",
+    "Rank": 755,
+    "Type": "ut",
+    "ColorBlock": 14,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-10-01T14:13:40.5940621+02:00",
+    "LastChanged": "1999-05-19T02:38:21.5732692+02:00",
     "ChildItems": [
       {
-        "Id": 350,
-        "Name": "Bins, Ruecker and Labadie",
-        "ToolTip": "Sit quia nobis reprehenderit ea ratione pariatur.",
+        "Id": 665,
+        "Name": "Dicki Group",
+        "ToolTip": "Assumenda laudantium molestias et sapiente et beatae fugit.",
         "Deleted": false,
-        "Rank": 683,
-        "Type": "at",
-        "ColorBlock": 841,
-        "IconHint": "culpa",
+        "Rank": 798,
+        "Type": "alias",
+        "ColorBlock": 25,
+        "IconHint": "occaecati",
         "Selected": true,
-        "LastChanged": "2008-06-05T14:13:40.5940621+02:00",
+        "LastChanged": "1998-07-25T02:38:21.5732692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
+        "ExtraInfo": "eum",
         "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Sydnee Carlos Jewess II",
+        "FullName": "Jacinto Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "dolore",
+    "ExtraInfo": "laborum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Turner Kulas DDS",
+    "FullName": "Kelley Lindgren",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldLength": 852
       }
     }
   }

@@ -90,7 +90,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AllUsers?$select=superoffice_outlook-synchronizer,title
+GET /api/v1/archive/AllUsers?$select=superoffice_visible-for,superoffice_outlook-synchronizer,title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

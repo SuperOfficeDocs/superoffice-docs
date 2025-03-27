@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 896,
-  "BlobSize": 77,
-  "Description": "Business-focused client-server groupware",
-  "ExtraInfo": "quisquam",
+  "BlobId": 713,
+  "BlobSize": 861,
+  "Description": "Focused zero tolerance archive",
+  "ExtraInfo": "vero",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "nostrum",
-  "OriginalSize": 388,
-  "CreatedDate": "2011-05-02T14:13:49.0243988+02:00",
-  "UpdatedDate": "2002-01-26T14:13:49.0243988+01:00",
+  "IsZipped": true,
+  "MimeType": "dignissimos",
+  "OriginalSize": 938,
+  "CreatedDate": "2023-05-06T02:38:26.1985521+02:00",
+  "UpdatedDate": "2003-10-14T02:38:26.1985521+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eos"
+  "ConceptualType": "soluta"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 800,
-  "BlobSize": 266,
-  "Description": "Diverse encompassing emulation",
-  "ExtraInfo": "dolorum",
-  "IsEncrypted": true,
+  "BlobId": 811,
+  "BlobSize": 479,
+  "Description": "Quality-focused background core",
+  "ExtraInfo": "similique",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "non",
-  "OriginalSize": 843,
-  "CreatedDate": "2001-02-27T14:13:49.0243988+01:00",
-  "UpdatedDate": "2011-08-20T14:13:49.0243988+02:00",
+  "MimeType": "quia",
+  "OriginalSize": 360,
+  "CreatedDate": "2005-10-18T02:38:26.1985521+02:00",
+  "UpdatedDate": "2013-07-11T02:38:26.1985521+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eos",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldLength": 465
     }
   }
 }

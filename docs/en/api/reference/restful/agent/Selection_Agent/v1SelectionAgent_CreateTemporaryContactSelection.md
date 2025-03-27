@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory next generation installation",
-  "Postit": "tempora",
+  "Description": "Realigned attitude-oriented database",
+  "Postit": "amet",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 883,
-  "IncludePerson": 533,
+  "GroupIdx": 460,
+  "IncludePerson": 399,
   "MemberCount": 99.99,
-  "Name": "Tromp Inc and Sons",
-  "PostitTextId": 310,
-  "CreatedDate": "1998-08-12T14:13:41.2977255+02:00",
-  "SelectionId": 131,
-  "SoundEx": "consequatur",
-  "Source": 581,
-  "TextId": 964,
-  "UpdatedDate": "2023-12-17T14:13:41.2977255+01:00",
-  "UpdatedCount": 297,
-  "Visibility": 508,
+  "Name": "Koelpin, Bins and McLaughlin",
+  "PostitTextId": 234,
+  "CreatedDate": "2024-08-26T02:38:21.9794397+02:00",
+  "SelectionId": 139,
+  "SoundEx": "delectus",
+  "Source": 395,
+  "TextId": 669,
+  "UpdatedDate": "2000-07-01T02:38:21.9794397+02:00",
+  "UpdatedCount": 289,
+  "Visibility": 754,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 859,
-  "TargetTableName": "Keebler Inc and Sons",
-  "Completed": false,
-  "LeftSelectionId": 182,
-  "RightSelectionId": 973,
+  "TargetTableNumber": 25,
+  "TargetTableName": "Christiansen-Hahn",
+  "Completed": true,
+  "LeftSelectionId": 978,
+  "RightSelectionId": 3,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Flatley Inc and Sons",
-  "ShadowProviderName": "Boehm, Gutmann and Lueilwitz",
-  "ChartKey": "fugiat",
-  "LastLoaded": "2016-03-15T14:13:41.2977255+01:00",
-  "LastLoadedBy": 896,
+  "MainProviderName": "Blanda Inc and Sons",
+  "ShadowProviderName": "Pollich-Hegmann",
+  "ChartKey": "omnis",
+  "LastLoaded": "2023-06-07T02:38:21.9794397+02:00",
+  "LastLoadedBy": 756,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2021-07-20T14:13:41.2977255+02:00",
-  "LastMembershipChangeBy": 478,
+  "LastMembershipChange": "2006-05-10T02:38:21.9794397+02:00",
+  "LastMembershipChangeBy": 742,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dicta",
-  "MemberTabHeading": "numquam",
-  "MailingsProviderName": "Kris-Lind",
-  "DashboardTileDefinitionId": 595,
+  "MainHeading": "quae",
+  "MemberTabHeading": "sunt",
+  "MailingsProviderName": "Walker Inc and Sons",
+  "DashboardTileDefinitionId": 684,
   "VisibleFor": [
     {
-      "VisibleId": 203,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 945
         }
       }
     },
     {
-      "VisibleId": 203,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "ipsum",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 945
         }
       }
     }
@@ -188,7 +188,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 86
     }
   }
 }

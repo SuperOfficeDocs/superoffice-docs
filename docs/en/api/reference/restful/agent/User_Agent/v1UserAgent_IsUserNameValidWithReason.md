@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 327,
+  "AssociateId": 889,
   "Type": "AnonymousAssociate",
-  "PersonId": 446,
-  "UserName": "Fritsch, White and Jones"
+  "PersonId": 968,
+  "UserName": "Keeling-Schmeler"
 }
 ```
 
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 848
+      "FieldLength": 543
     }
   }
 }

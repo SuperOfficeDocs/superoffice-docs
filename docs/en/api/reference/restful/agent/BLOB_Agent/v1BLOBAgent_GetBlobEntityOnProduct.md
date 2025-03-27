@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 177
+  "ProductId": 376
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 255,
-  "BlobSize": 212,
-  "Description": "Enterprise-wide logistical pricing structure",
-  "ExtraInfo": "est",
+  "BlobId": 244,
+  "BlobSize": 615,
+  "Description": "Expanded demand-driven solution",
+  "ExtraInfo": "quo",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "qui",
-  "OriginalSize": 279,
-  "CreatedDate": "2011-05-19T14:13:39.4223465+02:00",
-  "UpdatedDate": "2010-04-18T14:13:39.4223465+02:00",
+  "MimeType": "amet",
+  "OriginalSize": 437,
+  "CreatedDate": "2004-02-06T02:38:20.9014648+01:00",
+  "UpdatedDate": "2004-06-29T02:38:20.9014648+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tempora",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldLength": 37
     }
   }
 }

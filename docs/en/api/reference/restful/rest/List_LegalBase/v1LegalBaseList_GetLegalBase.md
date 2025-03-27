@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 235,
-  "Name": "Ruecker Group",
-  "Tooltip": "non",
-  "Rank": 478,
-  "Key": "porro",
+  "LegalBaseId": 487,
+  "Name": "Daniel-Quitzon",
+  "Tooltip": "quae",
+  "Rank": 688,
+  "Key": "amet",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 334
     }
   }
 }

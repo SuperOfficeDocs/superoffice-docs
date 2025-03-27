@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 879,
-  "Name": "Hudson-Abbott",
-  "Tooltip": "dolor",
+  "Id": 496,
+  "Name": "Hermiston, Maggio and Klocko",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 456,
-  "IsCustomList": true,
+  "Rank": 344,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

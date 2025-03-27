@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 177,
-  "Name": "Cronin Inc and Sons",
-  "Tooltip": "distinctio",
-  "Rank": 936,
-  "Key": "tenetur",
-  "MailTemplateId": 312,
+  "ConsentSourceId": 633,
+  "Name": "Dach Group",
+  "Tooltip": "dicta",
+  "Rank": 130,
+  "Key": "commodi",
+  "MailTemplateId": 253,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 662
+      "FieldType": "System.Int32",
+      "FieldLength": 995
     }
   }
 }

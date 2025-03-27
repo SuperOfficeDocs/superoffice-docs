@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 665,
-    "Name": "Ziemann Group",
-    "Tooltip": "libero",
+    "Id": 545,
+    "Name": "Armstrong, Corwin and Dickinson",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 843,
-    "Rank": 143,
+    "UdListDefinitionId": 563,
+    "Rank": 598,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldType": "System.Int32",
+        "FieldLength": 209
       }
     }
   }

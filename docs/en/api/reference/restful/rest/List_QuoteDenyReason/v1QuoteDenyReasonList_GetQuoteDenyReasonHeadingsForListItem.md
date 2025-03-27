@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Huels-Haley",
-    "ToolTip": "Eos cumque dolorum eligendi dignissimos ut.",
-    "Deleted": true,
-    "Rank": 129,
-    "Type": "labore",
-    "ColorBlock": 851,
-    "IconHint": "minima",
+    "Id": 114,
+    "Name": "Bernhard, Hermiston and Lind",
+    "ToolTip": "Qui eos qui.",
+    "Deleted": false,
+    "Rank": 664,
+    "Type": "voluptatem",
+    "ColorBlock": 79,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2010-02-12T14:13:50.1656413+01:00",
+    "LastChanged": "2015-04-23T02:38:26.886137+02:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Krajcik, McLaughlin and Cummings",
-        "ToolTip": "Qui minima.",
-        "Deleted": true,
-        "Rank": 700,
-        "Type": "eos",
-        "ColorBlock": 197,
-        "IconHint": "nihil",
+        "Id": 152,
+        "Name": "Huel-Hamill",
+        "ToolTip": "Dolores similique ea reiciendis voluptas beatae ipsam consequatur.",
+        "Deleted": false,
+        "Rank": 274,
+        "Type": "aut",
+        "ColorBlock": 357,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2017-04-09T14:13:50.1656413+02:00",
+        "LastChanged": "2021-03-07T02:38:26.886137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Miss Giovani Ima Hintz V",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Leopold Balistreri",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 446
+            "FieldLength": 739
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
+    "ExtraInfo": "asperiores",
     "StyleHint": "molestias",
-    "Hidden": false,
-    "FullName": "Doug Bogisich",
+    "Hidden": true,
+    "FullName": "Giuseppe Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 562
       }
     }
   }

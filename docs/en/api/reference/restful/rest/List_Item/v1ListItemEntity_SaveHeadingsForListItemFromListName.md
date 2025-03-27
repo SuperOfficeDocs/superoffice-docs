@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Spencer, Graham and Lubowitz",
-    "ToolTip": "Soluta molestiae et.",
+    "Id": 450,
+    "Name": "Runolfsson, Johns and Trantow",
+    "ToolTip": "Illum ullam sit minus ut facere sed sit.",
     "Deleted": false,
-    "Rank": 280,
-    "Type": "sequi",
-    "ColorBlock": 519,
-    "IconHint": "id",
+    "Rank": 316,
+    "Type": "praesentium",
+    "ColorBlock": 125,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2021-10-11T14:13:49.6336384+02:00",
+    "LastChanged": "2015-01-28T02:38:26.6674035+01:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Bashirian LLC",
-        "ToolTip": "Quia quas et qui omnis impedit a saepe.",
+        "Id": 315,
+        "Name": "Graham LLC",
+        "ToolTip": "Qui consequatur debitis rerum est quae.",
         "Deleted": false,
-        "Rank": 90,
-        "Type": "qui",
-        "ColorBlock": 156,
-        "IconHint": "dolorem",
+        "Rank": 658,
+        "Type": "iste",
+        "ColorBlock": 489,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2010-10-30T14:13:49.6336384+02:00",
+        "LastChanged": "2019-01-10T02:38:26.6674035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "libero",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Savion Prosacco"
+        "FullName": "Kailyn Mackenzie Mohr PhD"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "saepe",
-    "Hidden": true,
-    "FullName": "Sofia Bechtelar"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Abbey Denesik"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Murray-O'Reilly",
-    "ToolTip": "Quam blanditiis distinctio et consequatur voluptate sit.",
-    "Deleted": true,
-    "Rank": 393,
-    "Type": "voluptatem",
-    "ColorBlock": 432,
-    "IconHint": "rerum",
+    "Id": 963,
+    "Name": "Kshlerin, Pollich and Bins",
+    "ToolTip": "Corrupti pariatur et perspiciatis optio hic nihil fugit.",
+    "Deleted": false,
+    "Rank": 582,
+    "Type": "voluptatum",
+    "ColorBlock": 960,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2017-10-17T14:13:49.6336384+02:00",
+    "LastChanged": "2022-08-06T02:38:26.6674035+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Lang, Nolan and Breitenberg",
-        "ToolTip": "Aut quam quia eos expedita natus.",
+        "Id": 940,
+        "Name": "Waelchi-Sporer",
+        "ToolTip": "Vel natus vero vel voluptatem vel doloribus.",
         "Deleted": false,
-        "Rank": 761,
-        "Type": "soluta",
-        "ColorBlock": 640,
-        "IconHint": "quos",
-        "Selected": true,
-        "LastChanged": "1998-12-07T14:13:49.6336384+01:00",
+        "Rank": 874,
+        "Type": "reiciendis",
+        "ColorBlock": 790,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2018-10-12T02:38:26.6674035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "fuga",
+        "StyleHint": "accusantium",
         "Hidden": true,
-        "FullName": "Cortney Torphy",
+        "FullName": "Shea Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldLength": 542
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Estefania McCullough",
+    "ExtraInfo": "recusandae",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Brenden Becker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldType": "System.String",
+        "FieldLength": 111
       }
     }
   }

@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kunze Inc and Sons",
-  "RecordId": 182,
-  "AssociateId": 306,
-  "ExtraInfo": "nesciunt"
+  "TableName": "Schumm, Walsh and Schuppe",
+  "RecordId": 339,
+  "AssociateId": 327,
+  "ExtraInfo": "cumque"
 }
 ```
 

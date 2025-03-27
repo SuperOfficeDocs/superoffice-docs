@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "vero"
+  "Section": "sunt"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 79,
-    "Section": "dolorum",
-    "Key": "facilis",
-    "Name": "Fritsch, Reichel and Feest",
+    "PrefDescId": 163,
+    "Section": "accusantium",
+    "Key": "aut",
+    "Name": "Lemke, Crona and Jast",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Right-sized mobile core",
+    "Description": "Automated bifurcated workforce",
     "IsBuiltin": false,
-    "TableName": "Bartell, Turner and Kessler",
-    "UserDefinedListId": 339,
-    "Rank": 782,
-    "SubGroup": "et",
-    "MinLevel": 49,
-    "MaxValue": 984,
-    "MinValue": 658,
-    "RequiredLicense": "illum",
+    "TableName": "Sporer, White and Hessel",
+    "UserDefinedListId": 750,
+    "Rank": 348,
+    "SubGroup": "consequatur",
+    "MinLevel": 61,
+    "MaxValue": 311,
+    "MinValue": 25,
+    "RequiredLicense": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 844
+        "FieldLength": 864
       }
     }
   }

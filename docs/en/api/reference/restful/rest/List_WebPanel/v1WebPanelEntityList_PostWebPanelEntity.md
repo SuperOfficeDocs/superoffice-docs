@@ -107,19 +107,19 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 97,
-  "Name": "Carter, Sanford and Senger",
-  "Tooltip": "explicabo",
-  "Deleted": false,
-  "Rank": 277,
+  "WebPanelId": 437,
+  "Name": "Larkin-Kling",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "Rank": 808,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
@@ -127,12 +127,12 @@ Content-Type: application/json; charset=utf-8
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kertzmann, Greenholt and Conroy",
+  "WindowName": "Paucek-Towne",
   "Url": "http://www.example.com/",
-  "ProgId": "ipsam",
-  "Icon": 647,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "qui",
+  "Icon": 289,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 186,
-  "Name": "Mosciski-Boyle",
-  "Tooltip": "earum",
-  "Deleted": false,
-  "Rank": 732,
+  "WebPanelId": 750,
+  "Name": "Barrows-Dooley",
+  "Tooltip": "reiciendis",
+  "Deleted": true,
+  "Rank": 908,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "McCullough Group",
+  "ShowInStatusBar": true,
+  "WindowName": "Jacobs Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "nobis",
-  "Icon": 817,
+  "ProgId": "vitae",
+  "Icon": 940,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 510
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TaskMenu object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=136
+POST /api/v1/Agents/List/GetTaskMenu?taskMenuId=357
 POST /api/v1/Agents/List/GetTaskMenu?$select=name,department,category/id
 ```
 
@@ -90,26 +90,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 822,
-  "Name": "Krajcik, Nienow and Mohr",
-  "Tooltip": "impedit",
-  "TableName": "Abbott, Wuckert and Feil",
-  "Area": "laborum",
+  "TaskMenuId": 625,
+  "Name": "Reinger Group",
+  "Tooltip": "possimus",
+  "TableName": "Towne-Denesik",
+  "Area": "libero",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 697,
+  "CrmScriptId": 919,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 73,
+  "Rank": 105,
   "Encoding": "ANSI",
-  "ProgId": "enim",
-  "Deleted": false,
+  "ProgId": "quas",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldLength": 463
     }
   }
 }

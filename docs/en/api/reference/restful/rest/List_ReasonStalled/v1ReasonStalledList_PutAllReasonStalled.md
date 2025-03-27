@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Reynolds-Frami",
-    "Tooltip": "esse",
+    "Id": 932,
+    "Name": "Little, Rempel and Rempel",
+    "Tooltip": "repellat",
     "Deleted": true,
-    "UdListDefinitionId": 286,
-    "Rank": 919
+    "UdListDefinitionId": 93,
+    "Rank": 563
   },
   {
-    "Id": 303,
-    "Name": "Reynolds-Frami",
-    "Tooltip": "esse",
+    "Id": 932,
+    "Name": "Little, Rempel and Rempel",
+    "Tooltip": "repellat",
     "Deleted": true,
-    "UdListDefinitionId": 286,
-    "Rank": 919
+    "UdListDefinitionId": 93,
+    "Rank": 563
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Marvin Inc and Sons",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "UdListDefinitionId": 923,
-    "Rank": 113,
+    "Id": 322,
+    "Name": "Zulauf-Haag",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "UdListDefinitionId": 281,
+    "Rank": 613,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 198
       }
     }
   }

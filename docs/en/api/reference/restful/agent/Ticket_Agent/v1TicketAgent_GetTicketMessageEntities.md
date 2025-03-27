@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 141,
+  "TicketId": 387,
   "MessageIds": [
-    494,
-    226
+    3,
+    290
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 575,
+    "EjMessageId": 824,
     "Ticket": null,
-    "CreatedAt": "2007-04-30T14:13:41.5633969+02:00",
+    "CreatedAt": "2002-05-28T02:38:22.1357045+02:00",
     "CreatedBy": null,
-    "Author": "architecto",
+    "Author": "dicta",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "explicabo",
-    "TimeSpent": 84,
-    "Body": "eaque",
-    "HtmlBody": "neque",
-    "EmailHeader": "jordane_dooley@greenfelder.name",
-    "DebugInfo": "beatae",
-    "MailSorter": "suscipit",
+    "MessageId": "eaque",
+    "TimeSpent": 344,
+    "Body": "sit",
+    "HtmlBody": "commodi",
+    "EmailHeader": "jess@dooleyheaney.us",
+    "DebugInfo": "dolor",
+    "MailSorter": "rerum",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "perspiciatis",
+    "SearchTitle": "in",
     "MessageHeaders": [
       {
-        "Id": 990,
-        "Name": "Will LLC",
-        "Value": "exercitationem",
+        "Id": 445,
+        "Name": "Reinger LLC",
+        "Value": "sunt",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 43
+            "FieldType": "System.Int32",
+            "FieldLength": 827
           }
         }
       }
     ],
-    "Important": false,
-    "Language": "error",
-    "Sentiment": 507,
-    "SentimentConfidence": 634,
+    "Important": true,
+    "Language": "voluptas",
+    "Sentiment": 139,
+    "SentimentConfidence": 137,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 550,
-        "Name": "Williamson Group",
-        "ContentType": "vitae",
-        "AttSize": 363,
-        "InlineImage": false,
-        "ContentId": "alias",
-        "AuthKey": "voluptas",
+        "AttachmentId": 325,
+        "Name": "Prohaska Inc and Sons",
+        "ContentType": "sed",
+        "AttSize": 311,
+        "InlineImage": true,
+        "ContentId": "modi",
+        "AuthKey": "explicabo",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 126
+            "FieldLength": 903
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "sit",
-      "ExtraFields2": "aut"
+      "ExtraFields1": "nam",
+      "ExtraFields2": "et"
     },
     "CustomFields": {
-      "CustomFields1": "dolores",
-      "CustomFields2": "reiciendis"
+      "CustomFields1": "illo",
+      "CustomFields2": "laudantium"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 588
+        "FieldType": "System.Int32",
+        "FieldLength": 460
       }
     }
   }

@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 317,
-  "AssociateId": 408,
-  "Caption": "suscipit",
+  "DashboardId": 40,
+  "AssociateId": 573,
+  "Caption": "quaerat",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 35,
-      "Caption": "deserunt",
-      "Description": "Enterprise-wide incremental focus group",
-      "ChartName": "Towne, Leannon and Gutkowski",
-      "ChartId": "praesentium",
+      "DashboardTileId": 227,
+      "Caption": "dolorem",
+      "Description": "Implemented empowering conglomeration",
+      "ChartName": "Douglas-Berge",
+      "ChartId": "pariatur",
       "IsDefault": false,
-      "AssociateId": 870,
-      "GroupId": 194,
-      "SelectionId": 858,
-      "Config": "totam",
+      "AssociateId": 630,
+      "GroupId": 879,
+      "SelectionId": 400,
+      "Config": "quaerat",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "AssociateId": 455,
-  "Caption": "rerum",
+  "DashboardId": 512,
+  "AssociateId": 662,
+  "Caption": "est",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 863,
-      "Caption": "est",
-      "Description": "Cross-group tertiary interface",
-      "ChartName": "Okuneva LLC",
-      "ChartId": "consequatur",
+      "DashboardTileId": 911,
+      "Caption": "consectetur",
+      "Description": "Extended zero tolerance application",
+      "ChartName": "Roberts, Steuber and Rippin",
+      "ChartId": "ea",
       "IsDefault": false,
-      "AssociateId": 380,
-      "GroupId": 561,
-      "SelectionId": 539,
-      "Config": "blanditiis",
+      "AssociateId": 154,
+      "GroupId": 839,
+      "SelectionId": 534,
+      "Config": "eos",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldType": "System.Int32",
+          "FieldLength": 936
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 239
     }
   }
 }

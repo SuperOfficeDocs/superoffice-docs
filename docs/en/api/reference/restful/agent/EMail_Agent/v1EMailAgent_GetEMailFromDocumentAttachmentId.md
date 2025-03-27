@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 126,
+  "DocId": 682,
   "AttachmentIds": [
-    "praesentium",
-    "dignissimos"
+    "repudiandae",
+    "laboriosam"
   ],
   "IncludeAttachments": true
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 455,
-      "ContactName": "Olson LLC",
-      "PersonId": 428,
-      "PersonName": "Batz-Cormier",
-      "AssociateId": 504,
-      "Address": "similique",
-      "EmailId": 520,
+      "ContactId": 594,
+      "ContactName": "Cassin-Wilderman",
+      "PersonId": 376,
+      "PersonName": "Sporer, Brekke and Keeling",
+      "AssociateId": 763,
+      "Address": "sit",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        638,
-        933
+        258,
+        741
       ],
-      "Name": "Erdman, Schaden and Cremin",
+      "Name": "Purdy, Leuschke and Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldType": "System.Int32",
+          "FieldLength": 968
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 761,
-      "ContactName": "Treutel-Mueller",
-      "PersonId": 42,
-      "PersonName": "Corkery, Krajcik and Marquardt",
-      "AssociateId": 810,
-      "Address": "quia",
-      "EmailId": 600,
+      "ContactId": 256,
+      "ContactName": "Kuphal Group",
+      "PersonId": 886,
+      "PersonName": "Kozey, Nienow and Greenfelder",
+      "AssociateId": 493,
+      "Address": "non",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        230,
-        505
+        389,
+        990
       ],
-      "Name": "Olson Group",
+      "Name": "Wolff, Schmitt and Kreiger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 28
+          "FieldType": "System.String",
+          "FieldLength": 867
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 563,
-      "ContactName": "Hickle Inc and Sons",
-      "PersonId": 528,
-      "PersonName": "Hagenes, Pagac and Koch",
-      "AssociateId": 536,
-      "Address": "cumque",
-      "EmailId": 625,
+      "ContactId": 179,
+      "ContactName": "Gleason, Kozey and Simonis",
+      "PersonId": 836,
+      "PersonName": "Ebert-Hauck",
+      "AssociateId": 740,
+      "Address": "magnam",
+      "EmailId": 4,
       "DuplicatePersonIds": [
-        44,
-        424
+        79,
+        714
       ],
-      "Name": "Windler-Hintz",
+      "Name": "Pfannerstill-Bernier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 119
+          "FieldLength": 203
         }
       }
     }
   ],
-  "Subject": "inventore",
-  "HTMLBody": "reprehenderit",
+  "Subject": "aut",
+  "HTMLBody": "ad",
   "From": null,
-  "Sent": "2009-01-13T14:13:40.2816332+01:00",
-  "Size": 467,
+  "Sent": "2002-12-05T02:38:21.401411+01:00",
+  "Size": 75,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "et",
+  "MessageID": "perspiciatis",
+  "PlainBody": "minus",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 201,
+  "ServerId": 144,
   "Attachments": [
     {
-      "Description": "Distributed directional definition",
-      "Filename": "consequatur",
-      "Size": 848,
-      "Type": "quia",
-      "Encoding": "est",
-      "Id": "hic",
-      "Disposition": "doloribus",
-      "IsSafeFileExtension": false,
+      "Description": "Expanded analyzing paradigm",
+      "Filename": "ducimus",
+      "Size": 952,
+      "Type": "et",
+      "Encoding": "qui",
+      "Id": "perferendis",
+      "Disposition": "inventore",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 696
+          "FieldType": "System.Int32",
+          "FieldLength": 362
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Feest Group",
+      "Name": "Gottlieb, Orn and Walker",
       "Values": [
-        "voluptate",
-        "voluptas"
+        "et",
+        "at"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     },
     {
-      "Name": "Feest Group",
+      "Name": "Gottlieb, Orn and Walker",
       "Values": [
-        "voluptate",
-        "voluptas"
+        "et",
+        "at"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 42
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
   ],
-  "FolderName": "Green-Reilly",
-  "EmailItemId": 560,
-  "AccountId": 158,
-  "ReceivedAt": "2011-06-02T14:13:40.2816332+02:00",
+  "FolderName": "Keeling, Krajcik and Hoppe",
+  "EmailItemId": 417,
+  "AccountId": 643,
+  "ReceivedAt": "2020-06-26T02:38:21.401411+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-09-14T14:13:40.2816332+02:00",
+  "RepliedAt": "2018-07-31T02:38:21.401411+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 87
     }
   }
 }

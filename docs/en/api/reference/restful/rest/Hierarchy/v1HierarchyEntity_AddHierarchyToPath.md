@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 907,
+  "HierarchyId": 172,
   "Domain": "Dashboards",
-  "Name": "Anderson, Greenfelder and Hackett",
-  "Fullname": "asperiores",
-  "ParentId": 606,
+  "Name": "Cruickshank, Graham and Konopelski",
+  "Fullname": "qui",
+  "ParentId": 897,
   "Children": [
     {
-      "HierarchyId": 721,
+      "HierarchyId": 778,
       "Domain": "Dashboards",
-      "Name": "Pfeffer LLC",
-      "Fullname": "neque",
-      "ParentId": 280,
+      "Name": "Rogahn-Paucek",
+      "Fullname": "non",
+      "ParentId": 755,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-11-22T14:13:48.8993207+01:00",
-      "RegisteredAssociateId": 80,
-      "Updated": "2022-04-07T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 114,
+      "Registered": "2001-06-10T02:38:26.1204323+02:00",
+      "RegisteredAssociateId": 343,
+      "Updated": "2006-08-12T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 390,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 834
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
-  "Registered": "2000-10-04T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 829,
-  "Updated": "2011-08-23T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 58,
+  "Registered": "1998-07-27T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 172,
+  "Updated": "2015-09-26T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 137,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 763
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

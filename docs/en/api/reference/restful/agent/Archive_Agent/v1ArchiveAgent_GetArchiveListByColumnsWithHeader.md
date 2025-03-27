@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Upton LLC",
+  "ProviderName": "Sanford LLC",
   "Columns": [
-    "autem",
-    "eos"
+    "eligendi",
+    "qui"
   ],
   "SortOrder": [
     {
-      "Name": "Schiller-Baumbach",
+      "Name": "Hyatt-Stiedemann",
       "Direction": "ASC"
     },
     {
-      "Name": "Schiller-Baumbach",
+      "Name": "Hyatt-Stiedemann",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ankunding, Keeling and Osinski",
-      "Operator": "voluptas",
+      "Name": "Schowalter Group",
+      "Operator": "ab",
       "Values": [
-        "occaecati",
-        "et"
+        "quibusdam",
+        "deleniti"
       ],
       "DisplayValues": [
-        "ab",
-        "sunt"
+        "laboriosam",
+        "laboriosam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 278,
+      "InterParenthesis": 293,
       "InterOperator": "And",
-      "UniqueHash": 31
+      "UniqueHash": 557
     }
   ],
   "Entities": [
-    "adipisci",
-    "impedit"
+    "qui",
+    "dolorem"
   ],
-  "Page": 391,
-  "PageSize": 536,
-  "Options": "et"
+  "Page": 24,
+  "PageSize": 381,
+  "Options": "ea"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 817,
+  "RowCount": 663,
   "Rows": [
     {
-      "EntityName": "Leannon-Maggio",
-      "PrimaryKey": 744,
+      "EntityName": "Hirthe, Kautzer and Hintz",
+      "PrimaryKey": 537,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quasi",
+          "DisplayValue": "aut",
           "TooltipHint": "et",
-          "LinkHint": "impedit"
+          "LinkHint": "id"
         }
       },
-      "LinkHint": "enim",
-      "StyleHint": "optio",
+      "LinkHint": "repudiandae",
+      "StyleHint": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 699
+          "FieldType": "System.Int32",
+          "FieldLength": 471
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 991
     }
   }
 }

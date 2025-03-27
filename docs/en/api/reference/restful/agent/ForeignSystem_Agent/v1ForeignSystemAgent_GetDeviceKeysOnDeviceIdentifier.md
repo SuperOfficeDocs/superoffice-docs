@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Funk, Jerde and Kozey",
-  "DeviceName": "Bednar, Goldner and Runolfsdottir",
-  "DeviceIdentifier": "animi"
+  "ApplicationName": "Lind, Lebsack and Jast",
+  "DeviceName": "Walter LLC",
+  "DeviceIdentifier": "voluptates"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "incidunt",
-    "Value": "cum",
-    "RecordId": 913,
-    "CreatedDate": "2021-12-25T14:13:40.3909833+01:00",
-    "UpdatedDate": "2013-03-27T14:13:40.3909833+01:00",
-    "UpdatedBy": "non",
-    "CreatedBy": "officiis",
-    "TableName": "Spencer-Kiehn",
+    "Key": "quas",
+    "Value": "ab",
+    "RecordId": 947,
+    "CreatedDate": "2022-03-21T02:38:21.4639053+01:00",
+    "UpdatedDate": "2006-06-22T02:38:21.4639053+02:00",
+    "UpdatedBy": "sed",
+    "CreatedBy": "minus",
+    "TableName": "Schuppe, Bernier and Pacocha",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldLength": 272
       }
     }
   }

@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 44
+  "QuoteVersionId": 379
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 970,
-    "ERPQuoteAlternativeKey": "facilis",
-    "QuoteVersionId": 210,
-    "Name": "Reinger LLC",
-    "Description": "Fully-configurable multi-tasking synergy",
+    "QuoteAlternativeId": 842,
+    "ERPQuoteAlternativeKey": "voluptas",
+    "QuoteVersionId": 555,
+    "Name": "Grimes Inc and Sons",
+    "Description": "Re-engineered methodical functionalities",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 3406.658,
-    "ERPDiscountAmount": 16102.492,
-    "DiscountPercent": 24288.5,
-    "DiscountAmount": 22147.978,
+    "ERPDiscountPercent": 6029.816,
+    "ERPDiscountAmount": 4842.03,
+    "DiscountPercent": 26005.932,
+    "DiscountAmount": 8308.234,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "sit",
-    "VAT": 28970.696,
-    "EarningPercent": 29509.744,
-    "EarningAmount": 24172.541999999998,
-    "SubTotal": 2983.5679999999998,
-    "TotalPrice": 7493.3939999999993,
-    "ExtraField1": "aut",
-    "ExtraField2": "id",
-    "ExtraField3": "ratione",
-    "ExtraField4": "animi",
-    "ExtraField5": "minus",
+    "VATInfo": "libero",
+    "VAT": 19650.18,
+    "EarningPercent": 15670.0,
+    "EarningAmount": 23614.69,
+    "SubTotal": 3488.142,
+    "TotalPrice": 1808.318,
+    "ExtraField1": "voluptate",
+    "ExtraField2": "aperiam",
+    "ExtraField3": "maiores",
+    "ExtraField4": "repellat",
+    "ExtraField5": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 699
       }
     }
   }

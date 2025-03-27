@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Predovic-Douglas",
-    "ToolTip": "Quis provident distinctio qui consequatur.",
-    "Deleted": true,
-    "Rank": 392,
-    "Type": "ut",
-    "ColorBlock": 93,
-    "IconHint": "praesentium",
+    "Id": 223,
+    "Name": "Murazik-Barrows",
+    "ToolTip": "Atque recusandae aut sit.",
+    "Deleted": false,
+    "Rank": 53,
+    "Type": "non",
+    "ColorBlock": 204,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2016-11-16T14:13:50.0875321+01:00",
+    "LastChanged": "2017-01-01T02:38:26.854892+01:00",
     "ChildItems": [
       {
-        "Id": 934,
-        "Name": "Kshlerin-Shields",
-        "ToolTip": "Dolore voluptatem enim consequatur.",
-        "Deleted": false,
-        "Rank": 90,
-        "Type": "ipsa",
-        "ColorBlock": 532,
-        "IconHint": "ipsum",
+        "Id": 842,
+        "Name": "Hagenes Group",
+        "ToolTip": "Et modi dolor ea voluptas sed.",
+        "Deleted": true,
+        "Rank": 142,
+        "Type": "tenetur",
+        "ColorBlock": 565,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2019-12-19T14:13:50.0875321+01:00",
+        "LastChanged": "2011-12-14T02:38:26.854892+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "harum",
+        "ExtraInfo": "numquam",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Trisha Feeney DVM",
+        "FullName": "Mrs. Jalon Jennifer Bergstrom III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldType": "System.Int32",
+            "FieldLength": 223
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "sit",
+    "ExtraInfo": "officiis",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Roberto Hills",
+    "FullName": "Jacinto Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 298
       }
     }
   }

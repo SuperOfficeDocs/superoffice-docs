@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Renner Inc and Sons",
-  "Id": 118,
+  "TableName": "Anderson Inc and Sons",
+  "Id": 147,
   "Values": {
-    "Values1": "ea",
-    "Values2": "et"
+    "Values1": "a",
+    "Values2": "perferendis"
   }
 }
 ```

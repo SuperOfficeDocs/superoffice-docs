@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 966,
-    "Name": "Hermann Inc and Sons",
-    "Tooltip": "similique",
+    "HeadingId": 347,
+    "Name": "Kuhlman Inc and Sons",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 359,
+    "Rank": 86,
+    "UdListDefinitionId": 76,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 280
+        "FieldLength": 493
       }
     }
   }

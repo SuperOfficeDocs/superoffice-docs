@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "O'Reilly-Marvin",
-  "Tooltip": "enim",
+  "Id": 902,
+  "Name": "Schamberger-Leffler",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 299,
+  "Rank": 338,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "optio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

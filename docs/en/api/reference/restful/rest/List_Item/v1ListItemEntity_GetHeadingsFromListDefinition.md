@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 310,
-    "Name": "Christiansen-Robel",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 482,
-    "UdListDefinitionId": 852,
+    "HeadingId": 291,
+    "Name": "Schulist-Hahn",
+    "Tooltip": "nisi",
+    "Deleted": true,
+    "Rank": 813,
+    "UdListDefinitionId": 519,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldType": "System.String",
+        "FieldLength": 848
       }
     }
   }

@@ -86,9 +86,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 707,
+  "ErpConnectionId": 450,
   "ActorTypeErp": "Customer",
-  "ErpKey": "vero"
+  "ErpKey": "aspernatur"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Roberts, Macejkovic and Schuppe",
-    "CrmFieldKey": "fuga",
-    "Value": "eius",
-    "DisplayValue": "veniam",
-    "SyncToCrm": true,
+    "DisplayName": "Pouros Inc and Sons",
+    "CrmFieldKey": "quae",
+    "Value": "est",
+    "DisplayValue": "velit",
+    "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldLength": 964
       }
     }
   }

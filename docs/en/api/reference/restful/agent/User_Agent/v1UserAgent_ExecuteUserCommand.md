@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/User/ExecuteUserCommand
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Donnelly, Schiller and Vandervort",
+  "CommandName": "Altenwerth, Blanda and Kihn",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,15 +86,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "enim",
+  "Success": false,
+  "Message": "mollitia",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

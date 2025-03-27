@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Renner, Brekke and Wuckert",
+  "ProviderName": "Durgan-Buckridge",
   "Columns": [
-    "itaque",
-    "nemo"
+    "corrupti",
+    "quidem"
   ],
   "SortOrder": [
     {
-      "Name": "Moen-Prohaska",
+      "Name": "O'Connell, Jewess and Jacobson",
       "Direction": "ASC"
     },
     {
-      "Name": "Moen-Prohaska",
+      "Name": "O'Connell, Jewess and Jacobson",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lehner Inc and Sons",
-      "Operator": "earum",
+      "Name": "Bergnaum LLC",
+      "Operator": "dolorum",
       "Values": [
-        "nobis",
-        "architecto"
+        "officia",
+        "quasi"
       ],
       "DisplayValues": [
-        "autem",
-        "voluptatum"
+        "et",
+        "tempora"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 201,
+      "InterParenthesis": 86,
       "InterOperator": "And",
-      "UniqueHash": 419
+      "UniqueHash": 385
     }
   ],
   "Entities": [
-    "numquam",
-    "modi"
+    "rerum",
+    "quo"
   ],
-  "Page": 918,
-  "PageSize": 503
+  "Page": 760,
+  "PageSize": 722
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Walter Group",
-    "PrimaryKey": 237,
+    "EntityName": "Senger-Deckow",
+    "PrimaryKey": 851,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ea",
-        "TooltipHint": "quam",
-        "LinkHint": "quae"
+        "DisplayValue": "cumque",
+        "TooltipHint": "et",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "eum",
-    "StyleHint": "autem",
+    "LinkHint": "exercitationem",
+    "StyleHint": "esse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 751
+        "FieldLength": 921
       }
     }
   }

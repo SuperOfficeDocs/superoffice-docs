@@ -77,19 +77,19 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariables
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "libero",
+  "Source": "illum",
   "GeneratorEncoding": "Html",
-  "ContactId": 406,
-  "PersonId": 326,
-  "AppointmentId": 157,
-  "DocumentId": 896,
-  "SaleId": 712,
-  "SelectionId": 157,
-  "ProjectId": 966,
+  "ContactId": 241,
+  "PersonId": 702,
+  "AppointmentId": 218,
+  "DocumentId": 865,
+  "SaleId": 447,
+  "SelectionId": 501,
+  "ProjectId": 744,
   "CultureName": "sv"
 }
 ```
@@ -100,5 +100,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"at"
+"perspiciatis"
 ```

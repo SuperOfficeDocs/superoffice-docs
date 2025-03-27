@@ -80,7 +80,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Denesik, Wilkinson and Wintheiser",
-    "DisplayName": "Stracke Inc and Sons",
-    "Description": "Configurable optimal model",
-    "ShortLabel": "enim",
+    "FieldName": "Erdman-Stehr",
+    "DisplayName": "Wuckert-Nikolaus",
+    "Description": "Function-based global frame",
+    "ShortLabel": "eos",
     "HideLabel": false,
-    "HideField": false,
+    "HideField": true,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 326,
-    "TemplateVariableName": "Gibson LLC"
+    "IsExternal": true,
+    "IsDisplayField": true,
+    "Rank": 671,
+    "TemplateVariableName": "Gulgowski-Kovacek"
   }
 ]
 ```

@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 911
+  "SuggestedDocumentId": 695
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 13,
+  "DocumentId": 16,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "culpa",
-  "Header": "doloremque",
-  "Name": "Considine-Pacocha",
-  "OurRef": "dolorum",
-  "YourRef": "blanditiis",
-  "CreatedDate": "2001-01-04T14:13:40.1254187+01:00",
-  "UpdatedDate": "2013-05-21T14:13:40.1254187+02:00",
-  "Description": "Fundamental 4th generation hierarchy",
+  "Attention": "quia",
+  "Header": "ipsam",
+  "Name": "Bosco, Swaniawski and Corkery",
+  "OurRef": "quia",
+  "YourRef": "assumenda",
+  "CreatedDate": "1999-12-08T02:38:21.3076706+01:00",
+  "UpdatedDate": "2008-07-28T02:38:21.3076706+02:00",
+  "Description": "Universal homogeneous middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-08-28T14:13:40.1410401+02:00",
-  "ExternalRef": "quod",
+  "Date": "2005-08-04T02:38:21.3076706+02:00",
+  "ExternalRef": "voluptas",
   "Completed": "Completed",
-  "ActiveLinks": 532,
+  "ActiveLinks": 418,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Conn, Veum and Dickens",
-      "Id": 302,
-      "Description": "Up-sized reciprocal middleware",
-      "ExtraInfo": "dolores",
-      "LinkId": 970,
+      "EntityName": "Ryan, Hagenes and Hickle",
+      "Id": 62,
+      "Description": "Seamless 3rd generation access",
+      "ExtraInfo": "eaque",
+      "LinkId": 485,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 255
+          "FieldLength": 608
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 670,
-  "Snum": 309,
+  "SuggestedDocumentId": 966,
+  "Snum": 563,
   "UserDefinedFields": {
-    "SuperOffice:1": "1957616035",
-    "SuperOffice:2": "Obie Bartell"
+    "SuperOffice:1": "Prof. Kacie Moen",
+    "SuperOffice:2": "Dr. Isabella Balistreri"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "voluptatibus"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "est"
+    "CustomFields1": "alias",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "2001-12-06T14:13:40.1410401+01:00",
-  "PublishTo": "2009-09-30T14:13:40.1410401+02:00",
-  "PublishFrom": "1999-01-27T14:13:40.1410401+01:00",
+  "PublishEventDate": "2014-11-29T02:38:21.3076706+01:00",
+  "PublishTo": "2002-10-06T02:38:21.3076706+02:00",
+  "PublishFrom": "2020-12-29T02:38:21.3076706+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 992,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 805
         }
       }
     },
     {
-      "VisibleId": 992,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 805
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldType": "System.Int32",
+      "FieldLength": 214
     }
   }
 }

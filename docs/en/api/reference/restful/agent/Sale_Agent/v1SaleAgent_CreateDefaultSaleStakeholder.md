@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Harber-Baumbach",
-  "Comment": "ad",
-  "StakeholderRoleId": 87,
-  "CountryId": 340,
-  "PersonId": 191,
-  "EmailDescription": "alexanne.hodkiewicz@davis.name",
-  "EmailId": 594,
-  "EmailAddress": "enid@towne.us",
-  "PhoneId": 861,
-  "ContactName": "Crona LLC",
-  "ContactId": 6,
-  "SaleId": 290,
-  "Mrmrs": "quia",
-  "Firstname": "Lucinda",
-  "MiddleName": "Price, Orn and O'Connell",
-  "Lastname": "McGlynn",
-  "SaleStakeholderId": 159,
-  "Rank": 293,
-  "Phone": "246.843.1876 x82053",
+  "StakeholderRoleName": "Macejkovic, Kemmer and Kreiger",
+  "Comment": "at",
+  "StakeholderRoleId": 634,
+  "CountryId": 344,
+  "PersonId": 525,
+  "EmailDescription": "helena@mayer.ca",
+  "EmailId": 239,
+  "EmailAddress": "waldo.wiegand@schumm.us",
+  "PhoneId": 16,
+  "ContactName": "Lehner Group",
+  "ContactId": 562,
+  "SaleId": 862,
+  "Mrmrs": "sint",
+  "Firstname": "Nico",
+  "MiddleName": "Fadel-Douglas",
+  "Lastname": "Okuneva",
+  "SaleStakeholderId": 237,
+  "Rank": 764,
+  "Phone": "728.958.6889 x869",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 752
     }
   }
 }

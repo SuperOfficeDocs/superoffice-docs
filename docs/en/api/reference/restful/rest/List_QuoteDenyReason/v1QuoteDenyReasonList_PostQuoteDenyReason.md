@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Hamill Group",
-  "Tooltip": "non",
-  "Deleted": true,
-  "UdListDefinitionId": 786,
-  "Rank": 928
+  "Id": 35,
+  "Name": "Schiller Group",
+  "Tooltip": "excepturi",
+  "Deleted": false,
+  "UdListDefinitionId": 566,
+  "Rank": 991
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Johns, Lang and Jerde",
-  "Tooltip": "sunt",
+  "Id": 63,
+  "Name": "Brekke-Parisian",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 739,
-  "Rank": 433,
+  "UdListDefinitionId": 103,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 805
+      "FieldType": "System.String",
+      "FieldLength": 81
     }
   }
 }

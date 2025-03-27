@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=597
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=794
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 18,
-  "ContactId": 19,
-  "ProjectId": 811,
-  "ContactName": "Runte-Streich",
+  "ProjectmemberId": 885,
+  "ContactId": 843,
+  "ProjectId": 119,
+  "ContactName": "Reinger, Pagac and Quigley",
   "ContactDepartment": "",
-  "ProjectName": "Gorczany-Stroman",
-  "EmailId": 305,
-  "EmailAddress": "alycia_goldner@lockman.com",
-  "CountryId": 640,
-  "Firstname": "Citlalli",
-  "MiddleName": "Barrows Inc and Sons",
-  "Lastname": "Treutel",
-  "PersonId": 283,
-  "Mrmrs": "culpa",
-  "ProjectMemberTypeName": "Bernhard, Sanford and Krajcik",
-  "Phone": "065-334-5392 x727",
-  "PhoneId": 994,
-  "ProjectMemberTypeId": 39,
-  "EmailAddressName": "anais@adamsgoodwin.com",
-  "Comment": "temporibus",
-  "FullName": "Freddie Abbott",
+  "ProjectName": "Orn, Tremblay and Fay",
+  "EmailId": 244,
+  "EmailAddress": "ova.johnston@windler.biz",
+  "CountryId": 746,
+  "Firstname": "Josianne",
+  "MiddleName": "Ortiz Inc and Sons",
+  "Lastname": "Labadie",
+  "PersonId": 355,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Schuster, D'Amore and Corkery",
+  "Phone": "1-470-970-2106 x412",
+  "PhoneId": 662,
+  "ProjectMemberTypeId": 73,
+  "EmailAddressName": "kenton_oconnell@murphy.co.uk",
+  "Comment": "magni",
+  "FullName": "Eudora Yost",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldType": "System.String",
+      "FieldLength": 249
     }
   }
 }

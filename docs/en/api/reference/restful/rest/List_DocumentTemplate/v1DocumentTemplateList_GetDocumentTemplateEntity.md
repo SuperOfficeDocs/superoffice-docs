@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 578,
-  "Name": "Jacobson, Keebler and Strosin",
-  "Tooltip": "cum",
-  "SaveInDb": 467,
-  "Filename": "earum",
-  "DefaultOref": "sit",
+  "DocumentTemplateId": 650,
+  "Name": "Kozey, Schulist and Leuschke",
+  "Tooltip": "aspernatur",
+  "SaveInDb": 64,
+  "Filename": "dolor",
+  "DefaultOref": "voluptates",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 480,
-  "IntentId": 10,
+  "AutoeventId": 944,
+  "IntentId": 521,
   "IsDefaultPublished": false,
-  "Rank": 901,
-  "LoadTemplateFromPlugin": 532,
-  "MimeType": "vel",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 672,
+  "Rank": 252,
+  "LoadTemplateFromPlugin": 420,
+  "MimeType": "est",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 81,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rollin@buckridge.us",
+  "EmailSubject": "humberto.konopelski@cartwrightstracke.info",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "spencer_morar@halvorson.name",
+  "SenderEmailAddress": "christine@runolfsdottir.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 660
     }
   }
 }

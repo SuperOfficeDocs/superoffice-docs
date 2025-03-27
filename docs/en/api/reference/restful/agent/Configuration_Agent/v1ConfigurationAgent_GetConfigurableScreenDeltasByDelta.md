@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 234,
-    "Name": "Okuneva LLC",
-    "Description": "Expanded discrete framework",
-    "DeltaJson": "quae",
+    "ConfigurableScreenDeltaId": 469,
+    "Name": "Reynolds, Heathcote and Pacocha",
+    "Description": "Synergized local data-warehouse",
+    "DeltaJson": "laboriosam",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "assumenda",
-    "UpdatedDate": "2006-11-27T14:13:39.7347754+01:00",
-    "CreatedDate": "2025-01-07T14:13:39.7347754+01:00",
+    "RecipeId": "temporibus",
+    "UpdatedDate": "2014-05-09T02:38:20.995206+02:00",
+    "CreatedDate": "2005-09-26T02:38:20.995206+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      160,
-      255
+      904,
+      402
     ],
-    "AppliesToKey": "nam",
+    "AppliesToKey": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 59
+        "FieldType": "System.Int32",
+        "FieldLength": 715
       }
     }
   }

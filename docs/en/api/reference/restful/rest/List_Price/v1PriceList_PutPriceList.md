@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 168,
-  "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 853,
-  "Name": "Wolf LLC",
-  "Description": "Re-contextualized zero tolerance pricing structure",
-  "Currency": "culpa",
-  "CurrencyName": "Mitchell-Stamm",
-  "ValidFrom": "2008-04-23T14:13:50.0562893+02:00",
-  "ValidTo": "2012-10-15T14:13:50.0562893+02:00",
-  "IsActive": false
+  "PriceListId": 704,
+  "ERPPriceListKey": "necessitatibus",
+  "QuoteConnectionId": 536,
+  "Name": "Swaniawski-Schowalter",
+  "Description": "Triple-buffered attitude-oriented capability",
+  "Currency": "asperiores",
+  "CurrencyName": "Pollich Inc and Sons",
+  "ValidFrom": "2010-03-31T02:38:26.8236417+02:00",
+  "ValidTo": "2016-07-04T02:38:26.8236417+02:00",
+  "IsActive": true
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 500,
-  "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 576,
-  "Name": "McKenzie-Jacobson",
-  "Description": "Advanced regional forecast",
-  "Currency": "expedita",
-  "CurrencyName": "Ebert Group",
-  "ValidFrom": "2004-06-07T14:13:50.0562893+02:00",
-  "ValidTo": "2016-08-11T14:13:50.0562893+02:00",
+  "PriceListId": 594,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 560,
+  "Name": "Zieme, Zieme and Hegmann",
+  "Description": "Expanded foreground encryption",
+  "Currency": "facere",
+  "CurrencyName": "Herzog, Cruickshank and Kerluke",
+  "ValidFrom": "2008-09-07T02:38:26.8236417+02:00",
+  "ValidTo": "2021-03-01T02:38:26.8236417+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 984
     }
   },
   "_Links": {

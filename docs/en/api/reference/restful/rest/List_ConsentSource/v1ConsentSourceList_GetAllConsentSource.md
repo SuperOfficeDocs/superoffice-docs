@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 402,
-    "Name": "Gutmann-Corwin",
-    "Tooltip": "sed",
-    "Rank": 669,
-    "Key": "blanditiis",
-    "MailTemplateId": 341,
-    "Deleted": true,
+    "ConsentSourceId": 51,
+    "Name": "Bahringer-Baumbach",
+    "Tooltip": "numquam",
+    "Rank": 247,
+    "Key": "dolorum",
+    "MailTemplateId": 648,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 442
       }
     }
   }

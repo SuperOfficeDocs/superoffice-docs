@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered background product",
-  "Postit": "qui",
+  "Description": "Optimized responsive task-force",
+  "Postit": "beatae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 557,
-  "IncludePerson": 519,
+  "GroupIdx": 949,
+  "IncludePerson": 228,
   "MemberCount": 99.99,
-  "Name": "Nikolaus Inc and Sons",
-  "PostitTextId": 849,
-  "CreatedDate": "2004-02-07T14:13:41.2664827+01:00",
-  "SelectionId": 574,
-  "SoundEx": "exercitationem",
-  "Source": 507,
-  "TextId": 852,
-  "UpdatedDate": "2004-05-08T14:13:41.2664827+02:00",
-  "UpdatedCount": 825,
-  "Visibility": 722,
+  "Name": "Brown Group",
+  "PostitTextId": 361,
+  "CreatedDate": "2016-11-30T02:38:21.8701125+01:00",
+  "SelectionId": 834,
+  "SoundEx": "error",
+  "Source": 289,
+  "TextId": 278,
+  "UpdatedDate": "2000-07-29T02:38:21.8701125+02:00",
+  "UpdatedCount": 5,
+  "Visibility": 769,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 418,
-  "TargetTableName": "Mante, Wuckert and Wiegand",
+  "TargetTableNumber": 604,
+  "TargetTableName": "Ferry-Roob",
   "Completed": false,
-  "LeftSelectionId": 87,
-  "RightSelectionId": 199,
+  "LeftSelectionId": 523,
+  "RightSelectionId": 625,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Eichmann, Schuppe and Gorczany",
-  "ShadowProviderName": "King LLC",
-  "ChartKey": "temporibus",
-  "LastLoaded": "2007-03-31T14:13:41.2664827+02:00",
-  "LastLoadedBy": 484,
+  "MainProviderName": "Kulas, Wisozk and Rau",
+  "ShadowProviderName": "Lehner-Walker",
+  "ChartKey": "inventore",
+  "LastLoaded": "2019-06-05T02:38:21.8701125+02:00",
+  "LastLoadedBy": 91,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-12-03T14:13:41.2664827+01:00",
-  "LastMembershipChangeBy": 42,
+  "LastMembershipChange": "2003-02-01T02:38:21.8701125+01:00",
+  "LastMembershipChangeBy": 473,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nam",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Koss-Lakin",
-  "DashboardTileDefinitionId": 864,
+  "MainHeading": "et",
+  "MemberTabHeading": "ullam",
+  "MailingsProviderName": "Krajcik Group",
+  "DashboardTileDefinitionId": 604,
   "VisibleFor": [
     {
-      "VisibleId": 115,
+      "VisibleId": 751,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "eligendi"
     },
     {
-      "VisibleId": 115,
+      "VisibleId": 751,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "eligendi"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse asynchronous knowledge base",
-  "Postit": "non",
+  "Description": "Pre-emptive exuding installation",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 111,
-  "IncludePerson": 197,
+  "GroupIdx": 524,
+  "IncludePerson": 881,
   "MemberCount": 99.99,
-  "Name": "Rath-Klocko",
-  "PostitTextId": 329,
-  "CreatedDate": "2022-05-21T14:13:41.2664827+02:00",
-  "SelectionId": 452,
-  "SoundEx": "odit",
-  "Source": 628,
-  "TextId": 149,
-  "UpdatedDate": "2021-05-17T14:13:41.2664827+02:00",
-  "UpdatedCount": 640,
-  "Visibility": 752,
+  "Name": "Turner-Leuschke",
+  "PostitTextId": 670,
+  "CreatedDate": "1997-12-08T02:38:21.8701125+01:00",
+  "SelectionId": 344,
+  "SoundEx": "ea",
+  "Source": 379,
+  "TextId": 641,
+  "UpdatedDate": "2000-09-27T02:38:21.8701125+02:00",
+  "UpdatedCount": 13,
+  "Visibility": 399,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 815,
-  "TargetTableName": "Hintz, Satterfield and Pagac",
+  "CompanyUnique": false,
+  "TargetTableNumber": 65,
+  "TargetTableName": "McKenzie Group",
   "Completed": true,
-  "LeftSelectionId": 64,
-  "RightSelectionId": 291,
+  "LeftSelectionId": 1002,
+  "RightSelectionId": 872,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schuppe, Gerlach and Klocko",
-  "ShadowProviderName": "McGlynn-Luettgen",
-  "ChartKey": "quia",
-  "LastLoaded": "2004-06-18T14:13:41.2664827+02:00",
-  "LastLoadedBy": 21,
+  "MainProviderName": "Boehm Group",
+  "ShadowProviderName": "Runte-Lakin",
+  "ChartKey": "deserunt",
+  "LastLoaded": "2000-08-28T02:38:21.8701125+02:00",
+  "LastLoadedBy": 150,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-06-24T14:13:41.2664827+02:00",
-  "LastMembershipChangeBy": 982,
+  "LastMembershipChange": "2004-04-26T02:38:21.8701125+02:00",
+  "LastMembershipChangeBy": 408,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "alias",
-  "MailingsProviderName": "Leannon-Kulas",
-  "DashboardTileDefinitionId": 93,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "veniam",
+  "MailingsProviderName": "Wiza Group",
+  "DashboardTileDefinitionId": 727,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 636,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldLength": 873
     }
   }
 }

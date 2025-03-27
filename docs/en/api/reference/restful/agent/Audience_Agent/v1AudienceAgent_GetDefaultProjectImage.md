@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "O'Hara LLC"
+  "LayoutName": "Steuber, Marks and Williamson"
 }
 ```
 

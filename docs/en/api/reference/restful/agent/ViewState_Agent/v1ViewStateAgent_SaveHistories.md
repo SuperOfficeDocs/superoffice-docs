@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Lehner, Zieme and Goyette",
+  "HistoryName": "Wintheiser-Muller",
   "History": [
     {
-      "Rank": 295,
-      "Id": 160,
-      "HistoryName": "Dare-Kuvalis",
-      "HistoryId": 461,
-      "AssociateId": 717,
-      "Name": "Sporer, Ziemann and Willms",
-      "ItemInfo": "neque"
+      "Rank": 376,
+      "Id": 865,
+      "HistoryName": "Tremblay Group",
+      "HistoryId": 255,
+      "AssociateId": 281,
+      "Name": "Shields-Bradtke",
+      "ItemInfo": "sunt"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 101,
-    "Id": 416,
-    "HistoryName": "Feil-McDermott",
-    "HistoryId": 838,
-    "AssociateId": 117,
-    "Name": "Dickens Inc and Sons",
-    "ItemInfo": "sint",
+    "Rank": 764,
+    "Id": 779,
+    "HistoryName": "Leuschke Inc and Sons",
+    "HistoryId": 236,
+    "AssociateId": 291,
+    "Name": "Berge-Corkery",
+    "ItemInfo": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldType": "System.String",
+        "FieldLength": 743
       }
     }
   }

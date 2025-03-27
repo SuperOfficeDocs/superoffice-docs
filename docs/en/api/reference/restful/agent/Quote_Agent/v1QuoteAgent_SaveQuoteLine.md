@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 812,
-  "ERPQuoteLineKey": "quod",
-  "QuoteAlternativeId": 401,
+  "QuoteLineId": 864,
+  "ERPQuoteLineKey": "ipsa",
+  "QuoteAlternativeId": 331,
   "ERPProductKey": "et",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15566.578,
-  "DeliveredQuantity": 3948.8399999999997,
-  "Rank": 752,
-  "Name": "Roberts-Haley",
-  "Description": "Cross-platform optimizing array",
-  "Code": "culpa",
-  "QuantityUnit": "pariatur",
-  "PriceUnit": "expedita",
-  "ItemNumber": "778484",
+  "Quantity": 21245.386,
+  "DeliveredQuantity": 24012.708,
+  "Rank": 502,
+  "Name": "Ruecker Inc and Sons",
+  "Description": "Expanded systemic contingency",
+  "Code": "est",
+  "QuantityUnit": "vel",
+  "PriceUnit": "id",
+  "ItemNumber": "410537",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "in",
-  "ProductTypeKey": "perspiciatis",
-  "Supplier": "sapiente",
-  "SupplierCode": "fugit",
-  "Thumbnail": "vel",
+  "ProductFamilyKey": "autem",
+  "ProductTypeKey": "aut",
+  "Supplier": "quis",
+  "SupplierCode": "et",
+  "Thumbnail": "hic",
   "VATInfo": "qui",
-  "VAT": 2394.3759999999997,
-  "UnitCost": 12056.498,
-  "UnitMinimumPrice": 1686.0919999999999,
-  "UnitListPrice": 21286.128,
+  "VAT": 17672.626,
+  "UnitCost": 2729.714,
+  "UnitMinimumPrice": 15999.07,
+  "UnitListPrice": 14917.84,
   "ExtraInfo": [
     {
-      "Name": "Fahey-Cremin",
-      "Value": "fugit",
+      "Name": "Ankunding Inc and Sons",
+      "Value": "tenetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 189
         }
       }
     },
     {
-      "Name": "Fahey-Cremin",
-      "Value": "fugit",
+      "Name": "Ankunding Inc and Sons",
+      "Value": "tenetur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 31
+          "FieldLength": 189
         }
       }
     }
   ],
-  "RawExtraInfo": "consequatur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "esse",
-  "SubscriptionQuantity": 11649.078,
-  "SubscriptionStart": "2007-06-10T14:13:41.1251915+02:00",
-  "ERPDiscountPercent": 21179.572,
-  "ERPDiscountAmount": 16293.666,
-  "DiscountPercent": 5691.344,
-  "DiscountAmount": 473.234,
+  "RawExtraInfo": "esse",
+  "IsSubscription": true,
+  "SubscriptionUnit": "fugit",
+  "SubscriptionQuantity": 10878.114,
+  "SubscriptionStart": "2003-06-14T02:38:21.7919947+02:00",
+  "ERPDiscountPercent": 4237.168,
+  "ERPDiscountAmount": 2638.828,
+  "DiscountPercent": 18756.989999999998,
+  "DiscountAmount": 297.73,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10655.6,
-  "EarningAmount": 26146.962,
-  "SubTotal": 22188.719999999998,
-  "TotalPrice": 26510.505999999998,
-  "Rights": "quia",
-  "Rule": "doloribus",
-  "ExtraField1": "et",
-  "ExtraField2": "et",
-  "ExtraField3": "provident",
-  "ExtraField4": "molestias",
-  "ExtraField5": "nemo",
+  "EarningPercent": 2566.746,
+  "EarningAmount": 26667.206,
+  "SubTotal": 27005.678,
+  "TotalPrice": 12163.054,
+  "Rights": "dolores",
+  "Rule": "qui",
+  "ExtraField1": "dolor",
+  "ExtraField2": "quod",
+  "ExtraField3": "mollitia",
+  "ExtraField4": "recusandae",
+  "ExtraField5": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 455
     }
   }
 }

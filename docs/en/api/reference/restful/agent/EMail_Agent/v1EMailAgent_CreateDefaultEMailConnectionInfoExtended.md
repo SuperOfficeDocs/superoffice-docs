@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 313,
-  "ServerName": "Watsica-Gerlach",
-  "Protocol": "fuga",
-  "UserName": "Waters Group",
-  "Password": "nobis",
-  "UseSSL": false,
-  "Folder": "quas",
+  "Port": 790,
+  "ServerName": "Toy Inc and Sons",
+  "Protocol": "voluptas",
+  "UserName": "Ruecker, Hegmann and Beatty",
+  "Password": "aliquam",
+  "UseSSL": true,
+  "Folder": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   }
 }

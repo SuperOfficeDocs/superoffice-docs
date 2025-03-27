@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 646,
-  "Name": "Bergstrom Inc and Sons",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 602,
-  "UdListDefinitionId": 278
+  "HeadingId": 529,
+  "Name": "Langworth-Schultz",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 78,
+  "UdListDefinitionId": 876
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 276,
-  "Name": "Walker, Okuneva and Brown",
-  "Tooltip": "aliquid",
-  "Deleted": false,
-  "Rank": 356,
-  "UdListDefinitionId": 631,
+  "HeadingId": 543,
+  "Name": "Runolfsdottir, Glover and Barrows",
+  "Tooltip": "assumenda",
+  "Deleted": true,
+  "Rank": 631,
+  "UdListDefinitionId": 226,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 198
     }
   }
 }

@@ -83,40 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 58,
-  "Name": "Harvey, Sanford and Schumm",
-  "Rank": 375,
-  "Tooltip": "sed",
-  "Icon": "ut",
-  "DefaultTicketStatus": 1000,
+  "TicketTypeId": 53,
+  "Name": "Volkman Inc and Sons",
+  "Rank": 482,
+  "Tooltip": "soluta",
+  "Icon": "fugit",
+  "DefaultTicketStatus": 107,
   "TicketStatuses": [
-    745,
-    301
+    589,
+    141
   ],
-  "DefaultTicketPriority": 43,
+  "DefaultTicketPriority": 401,
   "TicketPriorities": [
-    165,
-    715
+    926,
+    705
   ],
-  "ReplyTemplate": 667,
+  "ReplyTemplate": 725,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    895,
-    162
+    716,
+    111
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 818
     }
   }
 }

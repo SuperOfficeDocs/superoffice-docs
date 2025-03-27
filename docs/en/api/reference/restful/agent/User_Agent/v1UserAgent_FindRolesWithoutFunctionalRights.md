@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Treutel-Howell",
-    "Nitzsche, Jenkins and Stracke"
+    "Bruen-Labadie",
+    "Turcotte-Tillman"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  998,
-  831
+  412,
+  8
 ]
 ```

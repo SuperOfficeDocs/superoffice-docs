@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "repellat",
-    "PersonId": 776,
-    "Mrmrs": "voluptatum",
-    "Firstname": "Clare",
-    "Lastname": "Ritchie",
-    "MiddleName": "Cassin Inc and Sons",
-    "Title": "qui",
-    "Description": "Reactive heuristic installation",
-    "Email": "elsa@connelly.biz",
-    "FullName": "Mrs. Wava Clotilde Kuhn Jr.",
-    "DirectPhone": "(901)363-0877 x74569",
-    "FormalName": "Howell-Bashirian",
-    "CountryId": 992,
-    "ContactId": 670,
-    "ContactName": "Hyatt, Morissette and Wiza",
-    "Retired": 516,
-    "Rank": 276,
-    "ActiveInterests": 317,
+    "Position": "deleniti",
+    "PersonId": 828,
+    "Mrmrs": "et",
+    "Firstname": "Jena",
+    "Lastname": "Rath",
+    "MiddleName": "Bechtelar-Baumbach",
+    "Title": "tempore",
+    "Description": "Customer-focused 6th generation hub",
+    "Email": "roger_vonrueden@ziemanngottlieb.info",
+    "FullName": "Abelardo Borer",
+    "DirectPhone": "(401)439-7293 x734",
+    "FormalName": "Crooks Group",
+    "CountryId": 450,
+    "ContactId": 871,
+    "ContactName": "Marquardt Inc and Sons",
+    "Retired": 836,
+    "Rank": 54,
+    "ActiveInterests": 550,
     "ContactDepartment": "",
-    "ContactCountryId": 114,
-    "ContactOrgNr": "865636",
-    "FaxPhone": "(307)675-9920",
-    "MobilePhone": "(197)050-0615 x9980",
-    "ContactPhone": "461.345.6235 x72227",
-    "AssociateName": "Jones Inc and Sons",
-    "AssociateId": 615,
+    "ContactCountryId": 118,
+    "ContactOrgNr": "1191587",
+    "FaxPhone": "727-029-4571",
+    "MobilePhone": "559-550-4787",
+    "ContactPhone": "(953)478-4064 x9280",
+    "AssociateName": "Jerde, Friesen and Gleichner",
+    "AssociateId": 261,
     "UsePersonAddress": false,
-    "ContactFax": "molestiae",
-    "Kanafname": "adipisci",
-    "Kanalname": "et",
-    "Post1": "consectetur",
-    "Post2": "odit",
-    "Post3": "nisi",
-    "EmailName": "kyle.ritchie@auerschinner.name",
-    "ContactFullName": "Mrs. Quinten Oberbrunner DDS",
-    "ActiveErpLinks": 777,
-    "TicketPriorityId": 619,
-    "SupportLanguageId": 235,
-    "SupportAssociateId": 221,
+    "ContactFax": "nihil",
+    "Kanafname": "modi",
+    "Kanalname": "similique",
+    "Post1": "unde",
+    "Post2": "debitis",
+    "Post3": "velit",
+    "EmailName": "cindy@sengerwaters.co.uk",
+    "ContactFullName": "Dr. Euna Coralie Wyman V",
+    "ActiveErpLinks": 219,
+    "TicketPriorityId": 156,
+    "SupportLanguageId": 964,
+    "SupportAssociateId": 692,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1525376",
+    "PersonNumber": "608245",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 856
       }
     }
   }

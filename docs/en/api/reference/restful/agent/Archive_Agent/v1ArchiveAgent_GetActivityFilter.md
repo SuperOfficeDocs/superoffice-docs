@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2015-09-12T14:13:39.3286178+02:00",
-  "ToDate": "2016-08-27T14:13:39.3286178+02:00",
+  "FromDate": "2013-05-13T02:38:20.8545926+02:00",
+  "ToDate": "2003-10-01T02:38:20.8545926+02:00",
   "AssociateList": [
     {
-      "Id": 672,
-      "Name": "Trantow LLC",
-      "ToolTip": "Quos sed quia voluptates.",
+      "Id": 339,
+      "Name": "Krajcik Inc and Sons",
+      "ToolTip": "Libero placeat et et cupiditate molestiae enim a.",
       "Deleted": false,
-      "Rank": 516,
-      "Type": "ea",
-      "ColorBlock": 195,
-      "IconHint": "dolorum",
-      "Selected": false,
-      "LastChanged": "2013-08-30T14:13:39.3286178+02:00",
+      "Rank": 841,
+      "Type": "delectus",
+      "ColorBlock": 904,
+      "IconHint": "corporis",
+      "Selected": true,
+      "LastChanged": "2005-07-06T02:38:20.8545926+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "tempore",
-      "Hidden": true,
-      "FullName": "Ola Robel I",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "blanditiis",
+      "Hidden": false,
+      "FullName": "Wava Diego Effertz IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 499
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 114,
-      "Name": "Kunde, Predovic and Waelchi",
-      "ToolTip": "Nihil accusamus et ad nisi ipsum.",
-      "Deleted": false,
-      "Rank": 920,
-      "Type": "dolore",
-      "ColorBlock": 804,
-      "IconHint": "qui",
+      "Id": 900,
+      "Name": "Bergstrom Group",
+      "ToolTip": "Et id ullam quis qui ipsum aut.",
+      "Deleted": true,
+      "Rank": 76,
+      "Type": "vitae",
+      "ColorBlock": 128,
+      "IconHint": "voluptates",
       "Selected": true,
-      "LastChanged": "2013-02-21T14:13:39.3286178+01:00",
+      "LastChanged": "2009-08-06T02:38:20.8545926+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nobis",
-      "StyleHint": "eum",
-      "Hidden": false,
-      "FullName": "Prof. Jarrod Volkman",
+      "ExtraInfo": "debitis",
+      "StyleHint": "ducimus",
+      "Hidden": true,
+      "FullName": "Mrs. Beryl Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 329
+          "FieldType": "System.String",
+          "FieldLength": 193
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 61,
-      "Name": "Heidenreich, Mills and Wunsch",
-      "ToolTip": "Amet eius repellat quo praesentium eos neque.",
+      "Id": 720,
+      "Name": "Dare, Towne and Lubowitz",
+      "ToolTip": "Tempore sed numquam neque et.",
       "Deleted": false,
-      "Rank": 734,
-      "Type": "voluptatem",
+      "Rank": 222,
+      "Type": "officiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ea",
-      "ColorBlock": 404,
-      "ExtraInfo": "dolores",
-      "StyleHint": "laudantium",
-      "FullName": "Diana Friesen",
+      "IconHint": "perferendis",
+      "ColorBlock": 615,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "ipsam",
+      "FullName": "Wilhelm Kertzmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 470
+          "FieldType": "System.Int32",
+          "FieldLength": 103
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 343
     }
   }
 }

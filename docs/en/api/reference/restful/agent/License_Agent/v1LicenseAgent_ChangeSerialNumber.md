@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Bernhard, Lind and Greenfelder",
-  "NewSerialNumber": "1179249"
+  "NewCompanyName": "Mayer-Purdy",
+  "NewSerialNumber": "720349"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
-  "Reason": "",
+  "Succeeded": false,
+  "Reason": "reintermediate global technologies",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 386
     }
   }
 }

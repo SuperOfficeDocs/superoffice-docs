@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 251,
-  "ListItemId": 75,
+  "UdListDefinitionId": 85,
+  "ListItemId": 876,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Herman-Shields",
-    "ToolTip": "A quod eum vel omnis voluptates.",
+    "Id": 510,
+    "Name": "Schowalter-Skiles",
+    "ToolTip": "Nemo quae.",
     "Deleted": false,
-    "Rank": 469,
-    "Type": "veniam",
-    "ColorBlock": 250,
-    "IconHint": "odio",
+    "Rank": 603,
+    "Type": "aut",
+    "ColorBlock": 442,
+    "IconHint": "nisi",
     "Selected": true,
-    "LastChanged": "2016-10-08T14:13:40.4847118+02:00",
+    "LastChanged": "2017-10-22T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Wisoky Inc and Sons",
-        "ToolTip": "Inventore velit ut nisi quia et molestiae.",
+        "Id": 10,
+        "Name": "Stamm LLC",
+        "ToolTip": "Nam animi possimus.",
         "Deleted": true,
-        "Rank": 297,
-        "Type": "quo",
-        "ColorBlock": 380,
-        "IconHint": "quo",
+        "Rank": 281,
+        "Type": "quisquam",
+        "ColorBlock": 161,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2018-02-20T14:13:40.4847118+01:00",
+        "LastChanged": "2003-12-30T02:38:21.5107392+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "totam",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Troy Osbaldo Block IV",
+        "FullName": "Maximo Kody Hammes DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Cristian Kemmer",
+    "ExtraInfo": "quis",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Abbie Boehm DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldType": "System.Int32",
+        "FieldLength": 390
       }
     }
   }

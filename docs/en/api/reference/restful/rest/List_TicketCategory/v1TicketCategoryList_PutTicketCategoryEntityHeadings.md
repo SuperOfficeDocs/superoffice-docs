@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 490,
-    "Name": "Rice-Huels",
-    "Tooltip": "eligendi",
+    "HeadingId": 291,
+    "Name": "Yost-Langosh",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 104,
-    "UdListDefinitionId": 62
+    "Rank": 124,
+    "UdListDefinitionId": 156
   },
   {
-    "HeadingId": 490,
-    "Name": "Rice-Huels",
-    "Tooltip": "eligendi",
+    "HeadingId": 291,
+    "Name": "Yost-Langosh",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 104,
-    "UdListDefinitionId": 62
+    "Rank": 124,
+    "UdListDefinitionId": 156
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 932,
-    "Name": "Simonis-Leffler",
-    "Tooltip": "tenetur",
+    "HeadingId": 653,
+    "Name": "Bode, Wolf and Schuppe",
+    "Tooltip": "ab",
     "Deleted": true,
-    "Rank": 863,
-    "UdListDefinitionId": 130,
+    "Rank": 251,
+    "UdListDefinitionId": 478,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 394
       }
     }
   }

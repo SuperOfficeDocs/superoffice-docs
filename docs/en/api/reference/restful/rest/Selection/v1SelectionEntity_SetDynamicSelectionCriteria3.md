@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jast-Ondricka",
-    "Operator": "sed",
+    "Name": "Blick, Fadel and Runolfsdottir",
+    "Operator": "quaerat",
     "Values": [
-      "voluptatem",
-      "eaque"
+      "corporis",
+      "ut"
     ],
     "DisplayValues": [
-      "ipsam",
-      "culpa"
+      "aut",
+      "placeat"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schmitt LLC",
-        "Operator": "est",
+        "Name": "Kovacek, Ferry and Runolfsson",
+        "Operator": "magnam",
         "Values": [
-          "ut",
-          "aut"
+          "omnis",
+          "accusantium"
         ],
         "DisplayValues": [
-          "placeat",
-          "qui"
+          "corrupti",
+          "maxime"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 708,
+        "InterParenthesis": 493,
         "InterOperator": "And",
-        "UniqueHash": 652
+        "UniqueHash": 778
       }
     ],
-    "InterParenthesis": 307,
+    "InterParenthesis": 888,
     "InterOperator": "And",
-    "UniqueHash": 465
+    "UniqueHash": 264
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huel, Schumm and McLaughlin",
-    "Operator": "eveniet",
+    "Name": "Wintheiser LLC",
+    "Operator": "repellat",
     "Values": [
-      "inventore",
-      "beatae"
+      "ducimus",
+      "quibusdam"
     ],
     "DisplayValues": [
-      "porro",
-      "voluptatum"
+      "deleniti",
+      "a"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Marvin Group",
-        "Operator": "fuga",
+        "Name": "Stokes, Koelpin and Jacobson",
+        "Operator": "vel",
         "Values": [
-          "qui",
-          "temporibus"
+          "fugit",
+          "possimus"
         ],
         "DisplayValues": [
-          "sint",
-          "qui"
+          "rerum",
+          "repudiandae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 576,
+        "InterParenthesis": 14,
         "InterOperator": "And",
-        "UniqueHash": 774
+        "UniqueHash": 752
       }
     ],
-    "InterParenthesis": 189,
+    "InterParenthesis": 276,
     "InterOperator": "And",
-    "UniqueHash": 694
+    "UniqueHash": 739
   }
 ]
 ```

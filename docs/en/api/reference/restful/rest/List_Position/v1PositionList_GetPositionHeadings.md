@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Davis-Frami",
-    "Tooltip": "vero",
+    "HeadingId": 387,
+    "Name": "Larson-Johns",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "Rank": 695,
-    "UdListDefinitionId": 398,
+    "Rank": 335,
+    "UdListDefinitionId": 519,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 251
       }
     }
   }

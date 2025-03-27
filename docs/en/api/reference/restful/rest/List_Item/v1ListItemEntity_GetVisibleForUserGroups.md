@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Brekke, Oberbrunner and Hudson",
-    "ToolTip": "Et odit aut.",
-    "Deleted": false,
-    "Rank": 853,
-    "Type": "inventore",
-    "ColorBlock": 16,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2016-02-20T14:13:49.6180133+01:00",
+    "Id": 831,
+    "Name": "Streich, Renner and Russel",
+    "ToolTip": "Rem consequatur ut.",
+    "Deleted": true,
+    "Rank": 451,
+    "Type": "autem",
+    "ColorBlock": 785,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "2019-04-05T02:38:26.6517427+02:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Crona, Gleichner and O'Connell",
-        "ToolTip": "Ut ut libero velit temporibus molestias ab omnis.",
-        "Deleted": false,
-        "Rank": 896,
-        "Type": "numquam",
-        "ColorBlock": 278,
-        "IconHint": "similique",
+        "Id": 38,
+        "Name": "Raynor Inc and Sons",
+        "ToolTip": "Molestiae ut.",
+        "Deleted": true,
+        "Rank": 75,
+        "Type": "dolores",
+        "ColorBlock": 517,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2011-05-21T14:13:49.6180133+02:00",
+        "LastChanged": "2019-10-17T02:38:26.6517427+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Curtis Langosh",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "vel",
+        "Hidden": true,
+        "FullName": "Prof. Hal Boehm IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 794
+            "FieldType": "System.String",
+            "FieldLength": 962
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "aut",
+    "ExtraInfo": "quo",
+    "StyleHint": "inventore",
     "Hidden": false,
-    "FullName": "Shanelle Walter",
+    "FullName": "Ms. Santina West",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 572
       }
     }
   }

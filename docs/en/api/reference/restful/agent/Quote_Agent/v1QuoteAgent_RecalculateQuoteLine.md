@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "sint",
-    "et"
+    "fugiat",
+    "ipsa"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 171,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 186,
-  "ERPProductKey": "facere",
+  "QuoteLineId": 384,
+  "ERPQuoteLineKey": "corporis",
+  "QuoteAlternativeId": 232,
+  "ERPProductKey": "tenetur",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 18998.308,
-  "DeliveredQuantity": 25347.791999999998,
-  "Rank": 883,
-  "Name": "Collins-Harvey",
-  "Description": "Distributed scalable firmware",
-  "Code": "aliquam",
-  "QuantityUnit": "asperiores",
-  "PriceUnit": "quas",
-  "ItemNumber": "528948",
+  "Quantity": 13770.796,
+  "DeliveredQuantity": 15481.96,
+  "Rank": 81,
+  "Name": "Daugherty Group",
+  "Description": "Reverse-engineered client-driven product",
+  "Code": "consequatur",
+  "QuantityUnit": "non",
+  "PriceUnit": "hic",
+  "ItemNumber": "1883595",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "voluptas",
-  "Supplier": "tenetur",
-  "SupplierCode": "molestiae",
-  "Thumbnail": "porro",
-  "VATInfo": "et",
-  "VAT": 20609.184,
-  "UnitCost": 10270.118,
-  "UnitMinimumPrice": 30616.046,
-  "UnitListPrice": 26372.61,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "architecto",
+  "Supplier": "repellat",
+  "SupplierCode": "temporibus",
+  "Thumbnail": "sequi",
+  "VATInfo": "nulla",
+  "VAT": 1601.474,
+  "UnitCost": 24736.662,
+  "UnitMinimumPrice": 9699.73,
+  "UnitListPrice": 20803.492,
   "ExtraInfo": [
     {
-      "Name": "Ullrich, Wolff and Johns",
-      "Value": "omnis",
+      "Name": "Gorczany, Friesen and Mohr",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 631
         }
       }
     },
     {
-      "Name": "Ullrich, Wolff and Johns",
-      "Value": "omnis",
+      "Name": "Gorczany, Friesen and Mohr",
+      "Value": "illum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 631
         }
       }
     }
   ],
-  "RawExtraInfo": "atque",
-  "IsSubscription": true,
-  "SubscriptionUnit": "in",
-  "SubscriptionQuantity": 13353.974,
-  "SubscriptionStart": "2012-01-30T14:13:41.0627059+01:00",
-  "ERPDiscountPercent": 25495.09,
-  "ERPDiscountAmount": 19954.178,
-  "DiscountPercent": 18938.762,
-  "DiscountAmount": 7336.6939999999995,
+  "RawExtraInfo": "sapiente",
+  "IsSubscription": false,
+  "SubscriptionUnit": "non",
+  "SubscriptionQuantity": 20753.347999999998,
+  "SubscriptionStart": "2023-01-08T02:38:21.7451279+01:00",
+  "ERPDiscountPercent": 26407.084,
+  "ERPDiscountAmount": 23768.255999999998,
+  "DiscountPercent": 29334.239999999998,
+  "DiscountAmount": 5374.8099999999995,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11533.119999999999,
-  "EarningAmount": 24222.685999999998,
-  "SubTotal": 11006.608,
-  "TotalPrice": 30130.275999999998,
-  "Rights": "alias",
-  "Rule": "sit",
-  "ExtraField1": "ipsum",
-  "ExtraField2": "ipsam",
-  "ExtraField3": "tempora",
-  "ExtraField4": "nulla",
-  "ExtraField5": "consequatur",
+  "EarningPercent": 2757.92,
+  "EarningAmount": 5628.664,
+  "SubTotal": 21677.878,
+  "TotalPrice": 25983.994,
+  "Rights": "ad",
+  "Rule": "illo",
+  "ExtraField1": "officia",
+  "ExtraField2": "qui",
+  "ExtraField3": "omnis",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 699
     }
   }
 }

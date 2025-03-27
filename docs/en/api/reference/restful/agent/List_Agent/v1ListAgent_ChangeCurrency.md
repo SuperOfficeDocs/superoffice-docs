@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Amount": 22254.534,
-  "FromCurrency": "voluptatibus",
-  "ToCurrency": "optio"
+  "Amount": 7747.248,
+  "FromCurrency": "at",
+  "ToCurrency": "iure"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-3488.142
+6167.7119999999995
 ```

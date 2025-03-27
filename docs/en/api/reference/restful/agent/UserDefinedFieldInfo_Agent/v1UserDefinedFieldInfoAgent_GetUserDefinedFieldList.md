@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 933,
-    "ColumnId": 885,
-    "FieldDefault": "ratione",
-    "FieldHeight": 79,
-    "FieldLabel": "cumque",
-    "FieldLeft": 476,
-    "FieldTop": 500,
+    "UDefFieldId": 330,
+    "ColumnId": 695,
+    "FieldDefault": "officiis",
+    "FieldHeight": 26,
+    "FieldLabel": "eum",
+    "FieldLeft": 289,
+    "FieldTop": 78,
     "FieldType": "Checkbox",
-    "FieldWidth": 441,
-    "FormatMask": "a",
-    "HideLabel": true,
+    "FieldWidth": 439,
+    "FormatMask": "odit",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 626,
-    "LabelLeft": 705,
-    "LabelTop": 594,
-    "LabelWidth": 492,
-    "LastVersionId": 349,
-    "ListTableId": 289,
-    "IsMandatory": false,
+    "LabelHeight": 404,
+    "LabelLeft": 462,
+    "LabelTop": 385,
+    "LabelWidth": 252,
+    "LastVersionId": 481,
+    "ListTableId": 47,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 70,
-    "ProgId": "nostrum",
-    "IsReadOnly": true,
-    "ShortLabel": "facere",
-    "TabOrder": 297,
-    "TextLength": 296,
-    "Tooltip": "deleniti",
-    "UdefIdentity": 549,
-    "UDListDefinitionId": 116,
+    "Page1LineNo": 704,
+    "ProgId": "quo",
+    "IsReadOnly": false,
+    "ShortLabel": "consectetur",
+    "TabOrder": 289,
+    "TextLength": 120,
+    "Tooltip": "sit",
+    "UdefIdentity": 546,
+    "UDListDefinitionId": 796,
     "Justification": "Center",
-    "Version": 837,
-    "TemplateVariableName": "Kris LLC",
+    "Version": 938,
+    "TemplateVariableName": "Torp Group",
     "HasBeenPublished": false,
-    "MdoListName": "Krajcik Inc and Sons",
+    "MdoListName": "Abshire-Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 644
+        "FieldType": "System.String",
+        "FieldLength": 267
       }
     }
   }

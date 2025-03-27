@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=False
+GET /api/v1/List/Competitor/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Schmidt-Kassulke",
-    "Tooltip": "est",
+    "Id": 513,
+    "Name": "Gislason, Cronin and Wiza",
+    "Tooltip": "fugit",
     "Deleted": false,
-    "UdListDefinitionId": 956,
-    "Rank": 90,
+    "UdListDefinitionId": 624,
+    "Rank": 289,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

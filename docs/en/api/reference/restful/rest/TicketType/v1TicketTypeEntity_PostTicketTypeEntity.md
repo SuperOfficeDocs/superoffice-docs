@@ -116,34 +116,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 216,
-  "Name": "Hane, Fritsch and Kozey",
-  "Rank": 483,
-  "Tooltip": "facere",
-  "Icon": "at",
-  "DefaultTicketStatus": 314,
+  "TicketTypeId": 143,
+  "Name": "Witting LLC",
+  "Rank": 704,
+  "Tooltip": "vitae",
+  "Icon": "autem",
+  "DefaultTicketStatus": 696,
   "TicketStatuses": [
-    200,
-    353
+    548,
+    455
   ],
-  "DefaultTicketPriority": 837,
+  "DefaultTicketPriority": 469,
   "TicketPriorities": [
-    13,
-    629
+    609,
+    516
   ],
-  "ReplyTemplate": 170,
-  "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "ReplyTemplate": 290,
+  "IsExternalVisible": true,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    932,
-    742
+    714,
+    32
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false
 }
 ```
 
@@ -154,45 +154,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 428,
-  "Name": "Toy-McGlynn",
-  "Rank": 162,
-  "Tooltip": "et",
-  "Icon": "ullam",
-  "DefaultTicketStatus": 28,
+  "TicketTypeId": 421,
+  "Name": "Kris, Osinski and Howell",
+  "Rank": 133,
+  "Tooltip": "consectetur",
+  "Icon": "possimus",
+  "DefaultTicketStatus": 488,
   "TicketStatuses": [
-    239,
-    250
+    644,
+    907
   ],
-  "DefaultTicketPriority": 462,
+  "DefaultTicketPriority": 400,
   "TicketPriorities": [
-    982,
-    466
+    563,
+    962
   ],
-  "ReplyTemplate": 710,
+  "ReplyTemplate": 862,
   "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    530,
-    498
+    521,
+    37
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 152
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Ledner Group",
-    "ToolTip": "Quidem amet architecto.",
+    "Id": 315,
+    "Name": "Abbott, Hodkiewicz and Cummings",
+    "ToolTip": "Voluptatum ut omnis.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "ratione",
-    "ColorBlock": 678,
-    "IconHint": "enim",
+    "Rank": 375,
+    "Type": "dolor",
+    "ColorBlock": 564,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2017-09-21T14:13:49.9167536+02:00",
+    "LastChanged": "2011-01-19T02:38:26.7299042+01:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Ritchie Inc and Sons",
-        "ToolTip": "Sint magni voluptates quo facilis sequi dolores.",
+        "Id": 432,
+        "Name": "Kovacek-Schmitt",
+        "ToolTip": "Cumque aliquam assumenda dolore consectetur cum.",
         "Deleted": false,
-        "Rank": 66,
-        "Type": "veniam",
-        "ColorBlock": 120,
-        "IconHint": "neque",
+        "Rank": 152,
+        "Type": "harum",
+        "ColorBlock": 230,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2005-06-13T14:13:49.9167536+02:00",
+        "LastChanged": "2003-08-14T02:38:26.7299042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Jevon Gordon O'Connell V",
+        "FullName": "Miss Antonetta Caroline Harvey III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 347
+            "FieldType": "System.Int32",
+            "FieldLength": 841
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Mr. Charlotte Durgan",
+    "ExtraInfo": "non",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Sydni Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

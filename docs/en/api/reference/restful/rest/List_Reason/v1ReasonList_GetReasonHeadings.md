@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 352,
-    "Name": "Sauer-Waters",
-    "Tooltip": "itaque",
+    "HeadingId": 757,
+    "Name": "Cruickshank-Torphy",
+    "Tooltip": "error",
     "Deleted": true,
-    "Rank": 986,
-    "UdListDefinitionId": 536,
+    "Rank": 88,
+    "UdListDefinitionId": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 408
       }
     }
   }

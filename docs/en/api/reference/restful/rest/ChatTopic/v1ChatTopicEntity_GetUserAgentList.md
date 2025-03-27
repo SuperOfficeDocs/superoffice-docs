@@ -29,7 +29,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Glover, Ritchie and Moore",
-    "ToolTip": "Sit magnam nemo.",
+    "Id": 759,
+    "Name": "Pfannerstill, Will and Walsh",
+    "ToolTip": "Est quae.",
     "Deleted": true,
-    "Rank": 897,
-    "Type": "et",
+    "Rank": 662,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Hermann, Stracke and Stokes",
-        "ToolTip": "Cupiditate aperiam sit dicta quibusdam est molestiae eos.",
-        "Deleted": false,
-        "Rank": 220,
-        "Type": "nam",
+        "Id": 528,
+        "Name": "Brekke-Gleason",
+        "ToolTip": "Distinctio numquam inventore eum non.",
+        "Deleted": true,
+        "Rank": 722,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "harum",
-        "ColorBlock": 949,
-        "ExtraInfo": "veniam",
-        "StyleHint": "voluptas",
-        "FullName": "Ms. Maybell Nikolaus I",
+        "IconHint": "cumque",
+        "ColorBlock": 809,
+        "ExtraInfo": "saepe",
+        "StyleHint": "eius",
+        "FullName": "Yolanda Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 285
+            "FieldLength": 772
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 12,
-    "ExtraInfo": "nihil",
-    "StyleHint": "molestiae",
-    "FullName": "Mya Cassin",
+    "IconHint": "molestiae",
+    "ColorBlock": 6,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "accusantium",
+    "FullName": "Otilia Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldLength": 907
       }
     }
   }

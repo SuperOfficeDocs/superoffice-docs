@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 759,
-    "ERPName": "Homenick, Ziemann and Doyle",
-    "DisplayName": "Reilly Group",
-    "DisplayDescription": "Business-focused fault-tolerant architecture",
-    "Rank": 89,
-    "ConnectorName": "O'Connell-Pfeffer",
-    "ErpConnectionId": 480,
-    "ExtraData": "quaerat",
+    "QuoteConnectionId": 140,
+    "ERPName": "Dare-Thompson",
+    "DisplayName": "Schowalter-Lowe",
+    "DisplayDescription": "Reverse-engineered well-modulated local area network",
+    "Rank": 635,
+    "ConnectorName": "Wiegand, Kozey and Abshire",
+    "ErpConnectionId": 470,
+    "ExtraData": "quisquam",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 45,
-        "ERPPriceListKey": "ipsum",
-        "QuoteConnectionId": 629,
-        "Name": "Schmidt Inc and Sons",
-        "Description": "Robust system-worthy analyzer",
-        "Currency": "explicabo",
-        "CurrencyName": "Berge Group",
-        "ValidFrom": "2022-01-01T14:13:41.1095702+01:00",
-        "ValidTo": "2010-11-04T14:13:41.1095702+01:00",
+        "PriceListId": 866,
+        "ERPPriceListKey": "at",
+        "QuoteConnectionId": 6,
+        "Name": "Sawayn-Waelchi",
+        "Description": "Ameliorated logistical info-mediaries",
+        "Currency": "recusandae",
+        "CurrencyName": "Gulgowski Group",
+        "ValidFrom": "2020-03-23T02:38:21.7763357+01:00",
+        "ValidTo": "2012-03-26T02:38:21.7763357+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 327
+            "FieldLength": 823
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      852,
-      474
+      316,
+      887
     ],
     "AssociateAccessIds": [
-      450,
-      348
+      709,
+      931
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 88
       }
     }
   }

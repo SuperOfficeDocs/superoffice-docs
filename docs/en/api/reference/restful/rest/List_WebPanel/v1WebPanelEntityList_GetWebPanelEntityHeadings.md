@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 178,
-    "Name": "Ullrich, Bartoletti and Rodriguez",
-    "Tooltip": "ut",
+    "HeadingId": 275,
+    "Name": "Heller, Willms and Reilly",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 904,
-    "UdListDefinitionId": 1002,
+    "Rank": 915,
+    "UdListDefinitionId": 368,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldLength": 473
       }
     }
   }

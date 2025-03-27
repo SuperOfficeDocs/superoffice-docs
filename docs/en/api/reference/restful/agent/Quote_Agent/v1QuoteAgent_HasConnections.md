@@ -81,17 +81,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "tempora",
-  "TechExplanation": "qui",
-  "ErrorCode": "reprehenderit",
+  "UserExplanation": "modi",
+  "TechExplanation": "expedita",
+  "ErrorCode": "qui",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 143
+      "FieldType": "System.String",
+      "FieldLength": 429
     }
   }
 }

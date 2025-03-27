@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Flat": true,
-  "OnlyPresent": true
+  "Flat": false,
+  "OnlyPresent": false
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Kozey LLC",
-    "ToolTip": "Quisquam odio dolores et tempore et minus ullam.",
+    "Id": 615,
+    "Name": "Littel Group",
+    "ToolTip": "Perspiciatis commodi aut aut nostrum cumque.",
     "Deleted": false,
-    "Rank": 316,
-    "Type": "non",
+    "Rank": 745,
+    "Type": "deserunt",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Towne-Wuckert",
-        "ToolTip": "Voluptatem consequatur et ut veritatis recusandae.",
+        "Id": 976,
+        "Name": "Hermiston Inc and Sons",
+        "ToolTip": "Maxime ullam nesciunt saepe qui dolorem quas voluptas.",
         "Deleted": true,
-        "Rank": 314,
-        "Type": "voluptatem",
+        "Rank": 128,
+        "Type": "tempora",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 519,
-        "ExtraInfo": "sit",
-        "StyleHint": "et",
-        "FullName": "Prof. Wellington Green IV",
+        "IconHint": "quos",
+        "ColorBlock": 824,
+        "ExtraInfo": "sint",
+        "StyleHint": "voluptatum",
+        "FullName": "Mr. Drake Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 180
+            "FieldLength": 888
           }
         }
       }
     ],
-    "IconHint": "delectus",
-    "ColorBlock": 713,
-    "ExtraInfo": "rerum",
-    "StyleHint": "corrupti",
-    "FullName": "Prof. Emmett Wintheiser",
+    "IconHint": "ipsa",
+    "ColorBlock": 819,
+    "ExtraInfo": "quo",
+    "StyleHint": "rerum",
+    "FullName": "Prof. Deja Christy Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldType": "System.Int32",
+        "FieldLength": 690
       }
     }
   }

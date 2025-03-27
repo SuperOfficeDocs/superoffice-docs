@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 791,
+  "SelectionId": 793,
   "Criteria": [
     {
-      "Name": "Schmidt, Zieme and Turcotte",
-      "Description": "Horizontal intermediate complexity",
-      "Rank": 907,
+      "Name": "Koch, O'Hara and Littel",
+      "Description": "Virtual static utilisation",
+      "Rank": 202,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmidt, Zieme and Turcotte",
-      "Description": "Horizontal intermediate complexity",
-      "Rank": 907,
+      "Name": "Koch, O'Hara and Littel",
+      "Description": "Virtual static utilisation",
+      "Rank": 202,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spencer-Cronin",
-    "Description": "Pre-emptive optimal complexity",
-    "Rank": 743,
+    "Name": "Klein, Bode and Muller",
+    "Description": "Self-enabling object-oriented Graphical User Interface",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Parisian, Lynch and Strosin",
-        "Operator": "debitis",
+        "Name": "Pollich-Nitzsche",
+        "Operator": "quis",
         "Values": [
-          "quia",
-          "ut"
+          "eos",
+          "est"
         ],
         "DisplayValues": [
-          "natus",
-          "repellendus"
+          "ut",
+          "culpa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 427,
+        "InterParenthesis": 689,
         "InterOperator": "And",
-        "UniqueHash": 424
+        "UniqueHash": 202
       }
     ]
   },
   {
-    "Name": "Spencer-Cronin",
-    "Description": "Pre-emptive optimal complexity",
-    "Rank": 743,
+    "Name": "Klein, Bode and Muller",
+    "Description": "Self-enabling object-oriented Graphical User Interface",
+    "Rank": 452,
     "Restrictions": [
       {
-        "Name": "Parisian, Lynch and Strosin",
-        "Operator": "debitis",
+        "Name": "Pollich-Nitzsche",
+        "Operator": "quis",
         "Values": [
-          "quia",
-          "ut"
+          "eos",
+          "est"
         ],
         "DisplayValues": [
-          "natus",
-          "repellendus"
+          "ut",
+          "culpa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 427,
+        "InterParenthesis": 689,
         "InterOperator": "And",
-        "UniqueHash": 424
+        "UniqueHash": 202
       }
     ]
   }

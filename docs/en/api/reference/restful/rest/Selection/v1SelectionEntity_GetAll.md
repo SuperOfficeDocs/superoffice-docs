@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=natus
-GET /api/v1/Selection?$top=560
-GET /api/v1/Selection?$skip=110
+GET /api/v1/Selection?$entities=voluptatem
+GET /api/v1/Selection?$top=573
+GET /api/v1/Selection?$skip=555
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=dolores
+GET /api/v1/Selection?$context=non
 GET /api/v1/Selection?$format=JSON
 GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "cumque",
+  "odata.nextLink": "quisquam",
   "value": [
     {
-      "PrimaryKey": 1195,
-      "EntityName": "sale",
-      "saleId": 1195,
-      "contactId": 3478,
-      "name": "Schaden, Hodkiewicz and Abbott"
+      "PrimaryKey": 985,
+      "EntityName": "person",
+      "personId": 985,
+      "fullName": "Miss Dawn Lawrence Anderson I"
     },
     {
-      "PrimaryKey": 9959,
-      "EntityName": "sale",
-      "saleId": 9959,
-      "contactId": 6374,
-      "name": "Aufderhar Group"
+      "PrimaryKey": 2416,
+      "EntityName": "person",
+      "personId": 2416,
+      "fullName": "Prof. Candida Fadel V"
     }
   ]
 }

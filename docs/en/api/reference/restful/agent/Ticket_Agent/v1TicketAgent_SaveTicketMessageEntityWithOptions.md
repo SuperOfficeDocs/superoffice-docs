@@ -101,17 +101,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    777,
-    528
+    723,
+    39
   ],
-  "UpdateRepliedAt": true
+  "UpdateRepliedAt": false
 }
 ```
 
@@ -122,79 +122,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 374,
+  "EjMessageId": 621,
   "Ticket": null,
-  "CreatedAt": "2021-08-14T14:13:41.6102613+02:00",
+  "CreatedAt": "2011-06-22T02:38:22.1513395+02:00",
   "CreatedBy": null,
-  "Author": "nihil",
+  "Author": "velit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ad",
-  "TimeSpent": 309,
-  "Body": "est",
-  "HtmlBody": "autem",
-  "EmailHeader": "yadira@shieldsbarrows.name",
-  "DebugInfo": "ab",
-  "MailSorter": "eos",
+  "MessageId": "quos",
+  "TimeSpent": 884,
+  "Body": "odit",
+  "HtmlBody": "tempora",
+  "EmailHeader": "jermaine.bernhard@lind.name",
+  "DebugInfo": "sint",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quia",
+  "SearchTitle": "corrupti",
   "MessageHeaders": [
     {
-      "Id": 306,
-      "Name": "Satterfield, Christiansen and Funk",
-      "Value": "ut",
+      "Id": 703,
+      "Name": "Koelpin Group",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 361
+          "FieldType": "System.Int32",
+          "FieldLength": 88
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "sit",
-  "Sentiment": 477,
-  "SentimentConfidence": 931,
+  "Important": true,
+  "Language": "sint",
+  "Sentiment": 223,
+  "SentimentConfidence": 135,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 504,
-      "Name": "Bradtke-Ritchie",
-      "ContentType": "eveniet",
-      "AttSize": 340,
+      "AttachmentId": 3,
+      "Name": "Dibbert, Carroll and Kertzmann",
+      "ContentType": "cumque",
+      "AttSize": 547,
       "InlineImage": false,
-      "ContentId": "dolorum",
-      "AuthKey": "sunt",
+      "ContentId": "consequatur",
+      "AuthKey": "fugiat",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 385
+          "FieldLength": 824
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "deleniti",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "autem"
+    "CustomFields1": "et",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldLength": 188
     }
   }
 }

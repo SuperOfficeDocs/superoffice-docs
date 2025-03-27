@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 464,
-  "Name": "Windler LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 379,
-  "Rank": 237,
+  "Id": 936,
+  "Name": "Emmerich-Kovacek",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "UdListDefinitionId": 134,
+  "Rank": 779,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 384
     }
   }
 }

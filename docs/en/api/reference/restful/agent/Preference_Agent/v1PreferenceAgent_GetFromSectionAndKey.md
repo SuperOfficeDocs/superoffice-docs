@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatem",
-  "Key": "distinctio"
+  "Section": "excepturi",
+  "Key": "in"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 19,
-  "Section": "libero",
-  "Key": "eligendi",
-  "Name": "Dickinson, Gibson and Walsh",
+  "PrefDescId": 497,
+  "Section": "sint",
+  "Key": "in",
+  "Name": "Dicki Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly national local area network",
+  "Description": "Networked needs-based initiative",
   "IsBuiltin": false,
-  "TableName": "O'Connell Group",
-  "UserDefinedListId": 621,
-  "Rank": 478,
-  "SubGroup": "ea",
-  "MinLevel": 634,
-  "MaxValue": 787,
-  "MinValue": 413,
-  "RequiredLicense": "maiores",
+  "TableName": "Frami-Hyatt",
+  "UserDefinedListId": 712,
+  "Rank": 245,
+  "SubGroup": "eum",
+  "MinLevel": 917,
+  "MaxValue": 700,
+  "MinValue": 748,
+  "RequiredLicense": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldLength": 38
     }
   }
 }

@@ -1312,7 +1312,7 @@ Shadow contact provider for the sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowSelectionV2?$select=originalStage,person/personRegisteredByFullName,person/personExtra/x_person_datetime,person/personExtra/x_person_priority_relation,person/hasEmarketingConsent
+GET /api/v1/archive/SaleShadowSelectionV2?$select=person/mrMrs,person/personAssociate/title,person/personAssociate/associateDbId,contact/registeredBy,contact/contactUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

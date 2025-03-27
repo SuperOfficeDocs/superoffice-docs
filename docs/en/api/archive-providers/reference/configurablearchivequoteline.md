@@ -749,7 +749,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=updatedDate,alternative/version/paymentTerms,alternative/version/approvedText,alternative/version/quote/registeredDate,alternative/version/quote/sale/person/personAssociate/fullName
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=priceUnit,alternative/totalPrice,alternative/version/quote/sale/person/personAssociate/credentialDisplayValue,alternative/version/quote/sale/project/updatedBy,alternative/version/quote/sale/project/projectAssociate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

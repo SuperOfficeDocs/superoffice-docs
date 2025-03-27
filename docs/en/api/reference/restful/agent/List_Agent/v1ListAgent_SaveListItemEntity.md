@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Bartell, Hansen and Rosenbaum",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "UdListDefinitionId": 714,
-  "Rank": 734,
+  "Id": 163,
+  "Name": "Yundt LLC",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 171,
+  "Rank": 227,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 951
     }
   }
 }

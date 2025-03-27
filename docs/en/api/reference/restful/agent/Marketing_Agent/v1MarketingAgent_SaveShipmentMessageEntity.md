@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 123,
-  "PlainMessage": "quasi",
-  "HtmlMessage": "quibusdam",
-  "SmsMessage": "possimus",
-  "Description": "Balanced composite project",
-  "Subject": "quia",
-  "FolderId": 371,
-  "HeaderField": "soluta",
-  "Design": "excepturi",
+  "ShipmentMessageId": 847,
+  "PlainMessage": "explicabo",
+  "HtmlMessage": "quidem",
+  "SmsMessage": "quod",
+  "Description": "Robust context-sensitive task-force",
+  "Subject": "sed",
+  "FolderId": 529,
+  "HeaderField": "harum",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Profit-focused national benchmark",
-  "AccessKey": "reprehenderit",
-  "DocumentMessage": 512,
-  "Registered": "2011-06-11T14:13:40.5628193+02:00",
-  "RegisteredAssociateId": 790,
-  "Updated": "2007-03-11T14:13:40.5628193+01:00",
-  "UpdatedAssociateId": 202,
-  "UpdatedCount": 152
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Diverse explicit migration",
+  "AccessKey": "ea",
+  "DocumentMessage": 232,
+  "Registered": "2018-01-07T02:38:21.5576497+01:00",
+  "RegisteredAssociateId": 442,
+  "Updated": "2014-08-26T02:38:21.5576497+02:00",
+  "UpdatedAssociateId": 28,
+  "UpdatedCount": 309
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 715,
-  "PlainMessage": "fugit",
-  "HtmlMessage": "necessitatibus",
-  "SmsMessage": "dolores",
-  "Description": "Programmable national encryption",
-  "Subject": "est",
-  "FolderId": 911,
-  "HeaderField": "perspiciatis",
-  "Design": "tenetur",
+  "ShipmentMessageId": 365,
+  "PlainMessage": "ducimus",
+  "HtmlMessage": "ipsam",
+  "SmsMessage": "molestiae",
+  "Description": "Robust well-modulated moratorium",
+  "Subject": "iusto",
+  "FolderId": 909,
+  "HeaderField": "aspernatur",
+  "Design": "quas",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Function-based incremental benchmark",
-  "AccessKey": "excepturi",
-  "DocumentMessage": 160,
-  "Registered": "2024-09-23T14:13:40.5628193+02:00",
-  "RegisteredAssociateId": 115,
-  "Updated": "2024-04-30T14:13:40.5628193+02:00",
-  "UpdatedAssociateId": 81,
-  "UpdatedCount": 469,
+  "LongDescription": "Enterprise-wide needs-based infrastructure",
+  "AccessKey": "omnis",
+  "DocumentMessage": 484,
+  "Registered": "2014-01-05T02:38:21.5576497+01:00",
+  "RegisteredAssociateId": 799,
+  "Updated": "2010-02-15T02:38:21.5576497+01:00",
+  "UpdatedAssociateId": 297,
+  "UpdatedCount": 746,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

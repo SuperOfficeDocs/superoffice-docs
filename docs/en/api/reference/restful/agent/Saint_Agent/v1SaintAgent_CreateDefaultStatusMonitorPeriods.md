@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,15 +69,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 153,
-  "Period2": 644,
-  "Period3": 604,
+  "Period1": 31,
+  "Period2": 737,
+  "Period3": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 25
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

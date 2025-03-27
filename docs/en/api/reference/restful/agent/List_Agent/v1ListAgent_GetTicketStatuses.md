@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 973,
-    "Name": "Hettinger Inc and Sons",
+    "TicketStatusId": 949,
+    "Name": "Hyatt-Pollich",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": true,
+    "IsDefault": false,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 875
       }
     }
   }

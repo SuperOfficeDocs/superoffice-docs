@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 964
+  "ErpFieldId": 369
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 413,
-  "DefaultValue": "sed",
+  "ErpFieldId": 672,
+  "DefaultValue": "voluptas",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "laudantium",
-  "PromptUser": true,
+  "FirstSyncDefaultValue": "officiis",
+  "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "explicabo",
+  "ErpFieldKey": "non",
   "FieldType": "Checkbox",
-  "ListName": "Romaguera LLC",
+  "ListName": "Dibbert, Harvey and Gorczany",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 319
+      "FieldType": "System.String",
+      "FieldLength": 864
     }
   }
 }

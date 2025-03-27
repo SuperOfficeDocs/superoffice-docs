@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Name": "McClure-Gulgowski",
-  "AssociateId": 740,
-  "DetailsTable": 508,
-  "DetailsRecord": 980,
+  "Id": 682,
+  "Name": "Moore, Witting and Kuhn",
+  "AssociateId": 979,
+  "DetailsTable": 867,
+  "DetailsRecord": 943,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "in"
+    "ParameterObject1": "id",
+    "ParameterObject2": "fuga"
   },
-  "LastStarted": "1999-10-14T14:13:49.4305556+02:00",
-  "Created": "2002-11-17T14:13:49.4305556+01:00",
-  "StartCount": 424,
-  "DatabaseSerialNumber": "1012338",
-  "Context": "sed",
-  "Result": "ut",
+  "LastStarted": "2010-01-15T02:38:26.5266399+01:00",
+  "Created": "2003-12-31T02:38:26.5266399+01:00",
+  "StartCount": 700,
+  "DatabaseSerialNumber": "1583577",
+  "Context": "tempore",
+  "Result": "enim",
   "State": "All",
-  "Description": "Customer-focused next generation portal",
-  "Response": "sunt",
-  "Request": "aut",
-  "ProgressDescription": "Optimized object-oriented customer loyalty",
-  "ProgressPercent": 226,
-  "FileName": "Mohr-Hansen",
+  "Description": "Compatible fault-tolerant contingency",
+  "Response": "sit",
+  "Request": "non",
+  "ProgressDescription": "Distributed 6th generation data-warehouse",
+  "ProgressPercent": 41,
+  "FileName": "Dietrich, Smith and Beatty",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-5
+486
 ```

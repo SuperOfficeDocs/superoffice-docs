@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=nam
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 296,
-    "Name": "Boyle, Mohr and Donnelly",
-    "ToolTip": "Modi et.",
-    "Deleted": false,
-    "Rank": 303,
-    "Type": "eum",
+    "Id": 770,
+    "Name": "Moen, Bode and Deckow",
+    "ToolTip": "Hic suscipit tempore quisquam reprehenderit vel.",
+    "Deleted": true,
+    "Rank": 170,
+    "Type": "accusamus",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "O'Hara Group",
-        "ToolTip": "Possimus temporibus numquam autem.",
-        "Deleted": false,
-        "Rank": 48,
-        "Type": "magnam",
+        "Id": 406,
+        "Name": "Bayer-Harvey",
+        "ToolTip": "Est eligendi laboriosam quae et ipsum.",
+        "Deleted": true,
+        "Rank": 197,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ducimus",
-        "ColorBlock": 641,
-        "ExtraInfo": "et",
-        "StyleHint": "quod",
-        "FullName": "Janiya Rau",
+        "IconHint": "voluptas",
+        "ColorBlock": 451,
+        "ExtraInfo": "quo",
+        "StyleHint": "repellendus",
+        "FullName": "Keyon Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 567
+            "FieldType": "System.String",
+            "FieldLength": 916
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 401,
-    "ExtraInfo": "deserunt",
-    "StyleHint": "voluptatem",
-    "FullName": "Anissa Runte",
+    "IconHint": "aut",
+    "ColorBlock": 525,
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "laboriosam",
+    "FullName": "Prof. Pat Ron Little III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 736
+        "FieldLength": 548
       }
     }
   }

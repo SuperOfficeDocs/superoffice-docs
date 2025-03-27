@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Abbott LLC",
-    "ToolTip": "Cumque explicabo temporibus eos doloremque qui ullam.",
+    "Id": 491,
+    "Name": "Nolan-Kutch",
+    "ToolTip": "Quidem aut odit perferendis.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "eligendi",
-    "ColorBlock": 14,
-    "IconHint": "ut",
+    "Rank": 223,
+    "Type": "dolores",
+    "ColorBlock": 130,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2010-12-26T14:13:49.6804997+01:00",
+    "LastChanged": "2018-08-16T02:38:26.6830285+02:00",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Feest, Haley and Walsh",
-        "ToolTip": "Id et.",
+        "Id": 293,
+        "Name": "Beatty, Kemmer and Satterfield",
+        "ToolTip": "Voluptate maxime odit dolorem est natus necessitatibus.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "totam",
-        "ColorBlock": 130,
-        "IconHint": "aliquam",
-        "Selected": true,
-        "LastChanged": "1998-03-16T14:13:49.6804997+01:00",
+        "Rank": 822,
+        "Type": "enim",
+        "ColorBlock": 55,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2009-06-12T02:38:26.6830285+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "et",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "nihil",
         "Hidden": true,
-        "FullName": "Theresia Kautzer DVM"
+        "FullName": "Obie Feest"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "velit",
+    "ExtraInfo": "aut",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Mrs. Sally Zemlak"
+    "FullName": "Miss Gordon Callie Krajcik II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Labadie-Hartmann",
-    "ToolTip": "Ea rerum.",
-    "Deleted": false,
-    "Rank": 217,
-    "Type": "inventore",
-    "ColorBlock": 358,
-    "IconHint": "placeat",
+    "Id": 707,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Recusandae omnis nostrum iusto harum aspernatur dolores.",
+    "Deleted": true,
+    "Rank": 904,
+    "Type": "quam",
+    "ColorBlock": 320,
+    "IconHint": "maiores",
     "Selected": false,
-    "LastChanged": "2006-03-17T14:13:49.6804997+01:00",
+    "LastChanged": "2025-01-21T02:38:26.6830285+01:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Prohaska Group",
-        "ToolTip": "Dolor nemo.",
-        "Deleted": true,
-        "Rank": 740,
-        "Type": "repellendus",
-        "ColorBlock": 626,
-        "IconHint": "pariatur",
+        "Id": 846,
+        "Name": "Reichel-Nader",
+        "ToolTip": "Facilis ad possimus voluptate amet.",
+        "Deleted": false,
+        "Rank": 811,
+        "Type": "illo",
+        "ColorBlock": 351,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2014-04-22T14:13:49.6804997+02:00",
+        "LastChanged": "2006-02-15T02:38:26.6830285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Harrison Hane",
+        "ExtraInfo": "laborum",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Kenya Amelia Kutch III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 708
+            "FieldType": "System.Int32",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "recusandae",
-    "Hidden": true,
-    "FullName": "Houston Levi Dooley IV",
+    "ExtraInfo": "alias",
+    "StyleHint": "quis",
+    "Hidden": false,
+    "FullName": "Darryl Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 79
+        "FieldLength": 959
       }
     }
   }

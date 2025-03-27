@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "alias",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "alias",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 828,
-  "ERPPriceListKey": "quia",
-  "QuoteConnectionId": 748,
-  "Name": "Jast-Brown",
-  "Description": "Robust attitude-oriented circuit",
-  "Currency": "non",
-  "CurrencyName": "Kris, Feeney and Wisozk",
-  "ValidFrom": "2024-11-24T14:13:50.0562893+01:00",
-  "ValidTo": "1999-02-05T14:13:50.0562893+01:00",
-  "IsActive": false,
+  "PriceListId": 7,
+  "ERPPriceListKey": "molestias",
+  "QuoteConnectionId": 668,
+  "Name": "Daugherty, Wehner and Abernathy",
+  "Description": "Object-based 5th generation instruction set",
+  "Currency": "autem",
+  "CurrencyName": "Kuvalis-Parisian",
+  "ValidFrom": "2003-05-27T02:38:26.8236417+02:00",
+  "ValidTo": "2020-08-25T02:38:26.8236417+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 763
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

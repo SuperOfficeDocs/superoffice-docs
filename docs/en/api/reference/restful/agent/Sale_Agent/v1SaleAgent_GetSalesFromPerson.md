@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 494,
-  "OnlyOpenSales": true
+  "PersonId": 740,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dibbert, Jacobson and Cole",
-    "SaleDate": "2007-06-07T14:13:41.2508568+02:00",
-    "SaleId": 123,
-    "Probability": 198,
-    "Title": "facilis",
-    "Amount": 10198.036,
-    "Currency": "velit",
-    "ProjectName": "Kihn-Heidenreich",
-    "AssociateFullName": "Mr. Letitia Arvilla Von II",
-    "Description": "Cross-group 24 hour monitoring",
+    "ContactName": "Casper-Kunze",
+    "SaleDate": "1999-09-21T02:38:21.8544876+02:00",
+    "SaleId": 155,
+    "Probability": 59,
+    "Title": "dolorum",
+    "Amount": 31142.557999999997,
+    "Currency": "aspernatur",
+    "ProjectName": "Ruecker Inc and Sons",
+    "AssociateFullName": "Shania Berge",
+    "Description": "Synergized intermediate forecast",
     "Status": "Lost",
-    "WeightedAmount": 28256.144,
-    "ProjectId": 618,
-    "EarningPercent": 14479.08,
-    "Earning": 7944.69,
-    "ContactId": 859,
-    "AssociateId": 808,
-    "PersonId": 658,
-    "SaleTypeId": 491,
-    "SaleTypeName": "Gaylord, Gerlach and Kulas",
-    "PersonFullName": "Prof. Tanya Crist II",
+    "WeightedAmount": 2776.7239999999997,
+    "ProjectId": 440,
+    "EarningPercent": 21455.363999999998,
+    "Earning": 26187.703999999998,
+    "ContactId": 727,
+    "AssociateId": 739,
+    "PersonId": 874,
+    "SaleTypeId": 69,
+    "SaleTypeName": "Hane Inc and Sons",
+    "PersonFullName": "Frances Gusikowski",
     "Completed": "Completed",
-    "ActiveErpLinks": 637,
-    "NextDueDate": "2011-12-14T14:13:41.2508568+01:00",
-    "Number": "684931",
+    "ActiveErpLinks": 139,
+    "NextDueDate": "2024-12-10T02:38:21.8544876+01:00",
+    "Number": "1159225",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 159
+        "FieldType": "System.Int32",
+        "FieldLength": 765
       }
     }
   }

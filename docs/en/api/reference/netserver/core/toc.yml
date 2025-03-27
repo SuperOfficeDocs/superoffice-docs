@@ -3262,12 +3262,16 @@
     name: ExtAppCache
   - uid: SuperOffice.CRM.Cache.ExtraFieldsCache
     name: ExtraFieldsCache
+  - uid: SuperOffice.CRM.Cache.FavoritesCache
+    name: FavoritesCache
   - uid: SuperOffice.CRM.Cache.FreetextStatus
     name: FreetextStatus
   - uid: SuperOffice.CRM.Cache.FreetextStatusCache
     name: FreetextStatusCache
   - uid: SuperOffice.CRM.Cache.HierarchyTreeCache
     name: HierarchyTreeCache
+  - uid: SuperOffice.CRM.Cache.HistoryCache
+    name: HistoryCache
   - uid: SuperOffice.CRM.Cache.MDOListTableAmountClassCache
     name: MDOListTableAmountClassCache
   - uid: SuperOffice.CRM.Cache.MDOListTableAssociateCache
@@ -14149,6 +14153,10 @@
     name: SearchCriteriaGroupRows
   - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch
     name: SearchCriteriaGroupRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaId
+    name: SearchCriteriaGroupRows.IdxSearchCriteriaId
+  - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
+    name: SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
   - uid: SuperOffice.CRM.Rows.SearchCriteriaRecordData
     name: SearchCriteriaRecordData
   - uid: SuperOffice.CRM.Rows.SearchCriteriaRecordDataExtensions
@@ -14189,6 +14197,10 @@
     name: SearchCriterionRows
   - uid: SuperOffice.CRM.Rows.SearchCriterionRows.CustomSearch
     name: SearchCriterionRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.SearchCriterionRows.IdxColumnName
+    name: SearchCriterionRows.IdxColumnName
+  - uid: SuperOffice.CRM.Rows.SearchCriterionRows.IdxSearchCriteriaGroupId
+    name: SearchCriterionRows.IdxSearchCriteriaGroupId
   - uid: SuperOffice.CRM.Rows.SearchCriterionValueRecordData
     name: SearchCriterionValueRecordData
   - uid: SuperOffice.CRM.Rows.SearchCriterionValueRecordDataExtensions
@@ -14203,6 +14215,8 @@
     name: SearchCriterionValueRows
   - uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch
     name: SearchCriterionValueRows.CustomSearch
+  - uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.IdxSearchCriterionId
+    name: SearchCriterionValueRows.IdxSearchCriterionId
   - uid: SuperOffice.CRM.Rows.SelectionMemberRecordData
     name: SelectionMemberRecordData
   - uid: SuperOffice.CRM.Rows.SelectionMemberRecordDataExtensions
@@ -18479,6 +18493,8 @@
     name: CacheBaseV2
   - uid: SuperOffice.Data.Cache.CacheFlusher
     name: CacheFlusher
+  - uid: SuperOffice.Data.Cache.CacheInvalidationOperations
+    name: CacheInvalidationOperations
   - uid: SuperOffice.Data.Cache.CacheManager
     name: CacheManager
   - uid: SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
@@ -18772,6 +18788,8 @@
     name: HasAll
   - uid: SuperOffice.Data.SQL.HasAny
     name: HasAny
+  - uid: SuperOffice.Data.SQL.HasFlag
+    name: HasFlag
   - uid: SuperOffice.Data.SQL.Having
     name: Having
   - uid: SuperOffice.Data.SQL.Hour

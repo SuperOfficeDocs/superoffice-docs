@@ -72,7 +72,7 @@ OK
 GET /api/v1/Sale/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kihn, Ernser and Hettinger",
-  "DisplayName": "Crooks, Goyette and Schowalter",
-  "Description": "Diverse secondary circuit",
-  "ShortLabel": "alias",
-  "HideLabel": true,
+  "FieldName": "Rice Group",
+  "DisplayName": "Bogisich, Lakin and Johnston",
+  "Description": "Seamless radical algorithm",
+  "ShortLabel": "voluptatem",
+  "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": true,
+  "IsReadOnly": false,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 441,
-  "TemplateVariableName": "Osinski-Hermiston"
+  "Rank": 532,
+  "TemplateVariableName": "Pfeffer LLC"
 }
 ```

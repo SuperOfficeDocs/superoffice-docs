@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 859,
-  "Name": "Mraz Group",
-  "Tooltip": "praesentium",
-  "SaveInDb": 923,
-  "Filename": "nisi",
-  "DefaultOref": "saepe",
+  "DocumentTemplateId": 379,
+  "Name": "Hessel, Borer and Johns",
+  "Tooltip": "aliquam",
+  "SaveInDb": 327,
+  "Filename": "id",
+  "DefaultOref": "quasi",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 385,
-  "IntentId": 1002,
-  "IsDefaultPublished": true,
-  "Rank": 86,
-  "LoadTemplateFromPlugin": 670,
-  "MimeType": "eaque",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 108,
+  "AutoeventId": 57,
+  "IntentId": 840,
+  "IsDefaultPublished": false,
+  "Rank": 461,
+  "LoadTemplateFromPlugin": 756,
+  "MimeType": "vitae",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 727,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rusty_bartell@murazik.name",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "tania_cartwright@armstrong.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ibrahim.baumbach@torphy.ca",
+  "SenderEmailAddress": "dora@corkery.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 335
     }
   }
 }

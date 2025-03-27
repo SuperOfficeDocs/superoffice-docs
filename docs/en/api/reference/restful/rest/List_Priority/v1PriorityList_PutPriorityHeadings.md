@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 212,
-    "Name": "Ratke Inc and Sons",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 805,
-    "UdListDefinitionId": 452
+    "HeadingId": 274,
+    "Name": "Wisozk Group",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 508,
+    "UdListDefinitionId": 255
   },
   {
-    "HeadingId": 212,
-    "Name": "Ratke Inc and Sons",
-    "Tooltip": "repellendus",
-    "Deleted": true,
-    "Rank": 805,
-    "UdListDefinitionId": 452
+    "HeadingId": 274,
+    "Name": "Wisozk Group",
+    "Tooltip": "ipsa",
+    "Deleted": false,
+    "Rank": 508,
+    "UdListDefinitionId": 255
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 613,
-    "Name": "Buckridge Inc and Sons",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "Rank": 807,
-    "UdListDefinitionId": 821,
+    "HeadingId": 297,
+    "Name": "Oberbrunner, Grady and Mayer",
+    "Tooltip": "dolorum",
+    "Deleted": false,
+    "Rank": 506,
+    "UdListDefinitionId": 462,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 68
+        "FieldType": "System.String",
+        "FieldLength": 598
       }
     }
   }

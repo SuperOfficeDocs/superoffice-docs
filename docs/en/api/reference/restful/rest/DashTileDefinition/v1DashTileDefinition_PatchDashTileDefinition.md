@@ -126,18 +126,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -150,36 +150,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 544,
-  "Name": "Collins, Harber and D'Amore",
-  "Description": "Customer-focused 24 hour structure",
-  "DefaultHeight": 137,
-  "DefaultWidth": 970,
+  "DashboardTileDefinitionId": 961,
+  "Name": "Halvorson, Sauer and McKenzie",
+  "Description": "Advanced solution-oriented infrastructure",
+  "DefaultHeight": 991,
+  "DefaultWidth": 133,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McClure Inc and Sons",
-  "SelectionId": 595,
+  "EntityName": "Heidenreich, Huel and Rutherford",
+  "SelectionId": 949,
   "CurrencyMode": "Base",
-  "CurrencyCode": "esse",
+  "CurrencyCode": "ipsum",
   "Measure": "Average",
-  "MeasureField": "dolores",
-  "SortBy": "ab",
-  "LayoutConfig": "natus",
-  "SecondarySelectionId": 939,
-  "MeasureByField": "odio",
+  "MeasureField": "nulla",
+  "SortBy": "et",
+  "LayoutConfig": "modi",
+  "SecondarySelectionId": 447,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Torphy, Leannon and Huels",
+  "ProviderName": "Farrell, Wiza and Kunze",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 797
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 868
+  "ErpConnectorId": 385
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "nostrum",
-    "Rank": 592,
-    "DisplayName": "King-Ryan",
-    "DisplayDescription": "Assimilated 24 hour hardware",
+    "FieldKey": "quisquam",
+    "Rank": 397,
+    "DisplayName": "Larson-Cassin",
+    "DisplayDescription": "Optional human-resource open architecture",
     "FieldType": "Checkbox",
-    "ListName": "Braun-McClure",
-    "DefaultValue": "illo",
-    "MaxLength": 997,
+    "ListName": "Wunsch-Crist",
+    "DefaultValue": "quia",
+    "MaxLength": 175,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 887
+        "FieldType": "System.Int32",
+        "FieldLength": 971
       }
     }
   }

@@ -729,7 +729,7 @@ subchannels, each split by a <see cref="!:DoneNotDoneSplitter" /> to get appoint
 ## Sample
 
 ```http!
-GET /api/v1/archive/Appointment?$select=contact/contactAssociate/fullName,contact/contactAssociate/associateDbId,contact/contactAssociate/contactFullName,person/restrictionAddress/formattedMultiLineAddress,sale/associate/ejStatus
+GET /api/v1/archive/Appointment?$select=contact/restrictionAddress/county,contact/contactAssociate/portraitThumbnail,contact/contactAssociate/isLocation,person/personExtra/x_person_contact_relation,person/personExtra/y_rental/x_amount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

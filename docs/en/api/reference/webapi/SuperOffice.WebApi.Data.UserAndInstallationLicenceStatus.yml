@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  commentId: T:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  id: UserAndInstallationLicenceStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+  - SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+  langs:
+  - csharp
+  - vb
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserAndInstallationLicenceStatus.\nResult of GetUserAndInstallationLicenceStatus    \n"
+  syntax:
+    content: 'public class UserAndInstallationLicenceStatus : Object'
+    content.vb: >-
+      Public Class UserAndInstallationLicenceStatus
+          Inherits Object
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.LicenseAgent
+    commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: UserAndInstallationLicenceStatus()
+  nameWithType: UserAndInstallationLicenceStatus.UserAndInstallationLicenceStatus()
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserAndInstallationLicenceStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserAndInstallationLicenceStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+  id: AdminWarningDate
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: AdminWarningDate
+  nameWithType: UserAndInstallationLicenceStatus.AdminWarningDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInstallations license admin warning date\n"
+  syntax:
+    content: public virtual DateTime AdminWarningDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property AdminWarningDate As DateTime
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+  id: ExpiryDate
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: ExpiryDate
+  nameWithType: UserAndInstallationLicenceStatus.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInstallations license expiry date\n"
+  syntax:
+    content: public virtual DateTime ExpiryDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ExpiryDate As DateTime
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+  id: GraceDate
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: GraceDate
+  nameWithType: UserAndInstallationLicenceStatus.GraceDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInstallations license grace date\n"
+  syntax:
+    content: public virtual DateTime GraceDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property GraceDate As DateTime
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+  id: CompanyName
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: UserAndInstallationLicenceStatus.CompanyName
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDatabase company name\n"
+  syntax:
+    content: public virtual string CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CompanyName As String
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+  id: SerialNr
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: SerialNr
+  nameWithType: UserAndInstallationLicenceStatus.SerialNr
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDatabase serial number\n"
+  syntax:
+    content: public virtual string SerialNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SerialNr As String
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+  commentId: P:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+  id: UserLicenses
+  parent: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+  langs:
+  - csharp
+  - vb
+  name: UserLicenses
+  nameWithType: UserAndInstallationLicenceStatus.UserLicenses
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe users module licenses names\n"
+  syntax:
+    content: public virtual string[] UserLicenses { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property UserLicenses As String()
+  overload: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
+  isExternal: true
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.#ctor
+  isExternal: true
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus.UserAndInstallationLicenceStatus
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserAndInstallationLicenceStatus
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+  isExternal: true
+  name: AdminWarningDate
+  nameWithType: UserAndInstallationLicenceStatus.AdminWarningDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.AdminWarningDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+  isExternal: true
+  name: ExpiryDate
+  nameWithType: UserAndInstallationLicenceStatus.ExpiryDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.ExpiryDate
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+  isExternal: true
+  name: GraceDate
+  nameWithType: UserAndInstallationLicenceStatus.GraceDate
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.GraceDate
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+  isExternal: true
+  name: CompanyName
+  nameWithType: UserAndInstallationLicenceStatus.CompanyName
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.CompanyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+  isExternal: true
+  name: SerialNr
+  nameWithType: UserAndInstallationLicenceStatus.SerialNr
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.SerialNr
+- uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses*
+  commentId: Overload:SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+  isExternal: true
+  name: UserLicenses
+  nameWithType: UserAndInstallationLicenceStatus.UserLicenses
+  fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus.UserLicenses
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 964
+  "WebhookId": 3
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"fuga"
+"nulla"
 ```

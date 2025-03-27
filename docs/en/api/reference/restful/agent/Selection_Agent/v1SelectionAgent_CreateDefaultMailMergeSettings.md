@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 482,
-  "DocumentId": 766,
+  "SelectionId": 450,
+  "DocumentId": 290,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "hic",
+  "CustomAttention": "autem",
   "AlwaysUseCustomAttention": false,
   "SaveDocument": false,
-  "CustomMailBody": "iste",
+  "CustomMailBody": "debitis",
   "TaskEntity": null,
-  "AddCompanyInterest": 732,
-  "AddPersonInterest": 183,
-  "RemoveCompanyInterest": 249,
-  "RemovePersonInterest": 226,
-  "IncludeNoMailingsRecipient": false,
-  "TestOnly": false,
-  "ProjectId": 756,
-  "IncludeRetiredRecipients": true,
-  "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "est",
-  "ExtraInfo": "vel",
-  "Synchronous": false,
-  "IsTemporarySelection": true,
+  "AddCompanyInterest": 525,
+  "AddPersonInterest": 260,
+  "RemoveCompanyInterest": 296,
+  "RemovePersonInterest": 744,
+  "IncludeNoMailingsRecipient": true,
+  "TestOnly": true,
+  "ProjectId": 20,
+  "IncludeRetiredRecipients": false,
+  "IncludeStoppedRecipients": true,
+  "CustomMailSubject": "distinctio",
+  "ExtraInfo": "modi",
+  "Synchronous": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 146
+      "FieldLength": 150
     }
   }
 }

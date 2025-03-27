@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Leannon Inc and Sons",
-  "ResourceValues": "voluptatem",
-  "Culture": "explicabo",
-  "IsActive": false
+  "ResourceName": "Stark, Brekke and Stokes",
+  "ResourceValues": "et",
+  "Culture": "dolores",
+  "IsActive": true
 }
 ```
 

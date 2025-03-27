@@ -28,7 +28,7 @@ Gets a Area object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetArea?areaId=929
+POST /api/v1/Agents/Replication/GetArea?areaId=13
 POST /api/v1/Agents/Replication/GetArea?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Replication/GetArea
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 632,
-  "Name": "Corwin-Douglas",
-  "MaxDataAge": 696,
-  "NumberOfUsers": 288,
-  "NumberOfLogins": 885,
+  "AreaId": 21,
+  "Name": "Torp LLC",
+  "MaxDataAge": 798,
+  "NumberOfUsers": 222,
+  "NumberOfLogins": 228,
   "FreetextEnabeled": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 76
     }
   }
 }

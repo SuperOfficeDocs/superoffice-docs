@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Hane-Grimes",
-    "ToolTip": "Ipsum quibusdam vero a sunt laborum dolores nesciunt.",
-    "Deleted": false,
-    "Rank": 727,
-    "Type": "fugiat",
-    "ColorBlock": 499,
-    "IconHint": "saepe",
+    "Id": 498,
+    "Name": "Stamm Inc and Sons",
+    "ToolTip": "Aut eos.",
+    "Deleted": true,
+    "Rank": 310,
+    "Type": "qui",
+    "ColorBlock": 975,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2010-03-05T14:13:50.2439578+01:00",
+    "LastChanged": "2017-04-21T02:38:26.9330101+02:00",
     "ChildItems": [
       {
-        "Id": 809,
-        "Name": "Halvorson Group",
-        "ToolTip": "Reprehenderit repellendus cupiditate.",
-        "Deleted": false,
-        "Rank": 584,
-        "Type": "adipisci",
-        "ColorBlock": 328,
-        "IconHint": "vel",
+        "Id": 42,
+        "Name": "Bahringer-Heathcote",
+        "ToolTip": "Ducimus molestiae consequuntur.",
+        "Deleted": true,
+        "Rank": 563,
+        "Type": "ea",
+        "ColorBlock": 585,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2010-05-21T14:13:50.2439578+02:00",
+        "LastChanged": "2003-04-11T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Keyshawn Konopelski III",
+        "ExtraInfo": "omnis",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Mercedes Kailyn Vandervort Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldType": "System.String",
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "magnam",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Oscar Jacobi",
+    "FullName": "Joyce Letitia Considine DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 754
       }
     }
   }

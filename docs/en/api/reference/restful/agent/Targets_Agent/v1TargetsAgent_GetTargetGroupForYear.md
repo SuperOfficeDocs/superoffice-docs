@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 568,
+  "TargetYear": 871,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 980,
-  "Year": 864,
+  "TargetGroupId": 789,
+  "Year": 165,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 731,
+      "TargetAssignmentInfoId": 934,
       "Values": [
-        533,
-        383
+        441,
+        471
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 753,
-      "DimensionListItemDisplayName": "Thompson, Dare and Jacobs",
+      "DimensionListItem": 62,
+      "DimensionListItemDisplayName": "Hudson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 106
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 584
+      "FieldType": "System.String",
+      "FieldLength": 747
     }
   }
 }

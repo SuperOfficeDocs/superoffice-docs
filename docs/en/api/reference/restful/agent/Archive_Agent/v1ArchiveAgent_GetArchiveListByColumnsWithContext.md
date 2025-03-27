@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Simonis-Toy",
+  "ProviderName": "Bauch Group",
   "Columns": [
-    "sit",
-    "aut"
+    "dolorem",
+    "neque"
   ],
   "SortOrder": [
     {
-      "Name": "Wilderman Inc and Sons",
+      "Name": "Schroeder-Schroeder",
       "Direction": "ASC"
     },
     {
-      "Name": "Wilderman Inc and Sons",
+      "Name": "Schroeder-Schroeder",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Rohan-Schowalter",
-      "Operator": "ut",
+      "Name": "Heidenreich, Hamill and McGlynn",
+      "Operator": "esse",
       "Values": [
-        "quaerat",
-        "provident"
+        "accusantium",
+        "qui"
       ],
       "DisplayValues": [
-        "quis",
-        "nesciunt"
+        "est",
+        "saepe"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 967,
+      "InterParenthesis": 88,
       "InterOperator": "And",
-      "UniqueHash": 795
+      "UniqueHash": 722
     }
   ],
   "Entities": [
-    "aspernatur",
-    "et"
+    "ex",
+    "odio"
   ],
-  "Page": 582,
-  "PageSize": 502,
-  "Context": "asperiores"
+  "Page": 875,
+  "PageSize": 685,
+  "Context": "itaque"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bergnaum, Metz and Marvin",
-    "PrimaryKey": 4,
+    "EntityName": "Kub Inc and Sons",
+    "PrimaryKey": 287,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "occaecati",
-        "TooltipHint": "deserunt",
-        "LinkHint": "id"
+        "DisplayValue": "possimus",
+        "TooltipHint": "consequatur",
+        "LinkHint": "ducimus"
       }
     },
-    "LinkHint": "aliquid",
-    "StyleHint": "sed",
+    "LinkHint": "qui",
+    "StyleHint": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 861
       }
     }
   }

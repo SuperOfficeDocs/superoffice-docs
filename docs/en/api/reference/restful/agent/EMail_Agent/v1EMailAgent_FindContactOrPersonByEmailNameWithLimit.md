@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schmitt, Gutkowski and Kunze",
-  "EmailAddress": "kelvin@schustercrooks.name",
-  "NumberOfContacts": 997,
-  "NumberOfPersons": 260
+  "Name": "Conroy-Fay",
+  "EmailAddress": "greg@white.uk",
+  "NumberOfContacts": 881,
+  "NumberOfPersons": 132
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 84,
-    "FullName": "Prof. Maye Friesen",
-    "EmailAddress": "javon.lebsack@brekkelang.uk",
-    "ContactId": 597,
-    "ContactName": "Weimann Inc and Sons",
+    "PersonId": 395,
+    "FullName": "Verna Bosco",
+    "EmailAddress": "santos.abernathy@grady.com",
+    "ContactId": 895,
+    "ContactName": "Windler-Nader",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Franecki-Hodkiewicz",
+    "SortName": "Walter, Harvey and Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 766
       }
     }
   }

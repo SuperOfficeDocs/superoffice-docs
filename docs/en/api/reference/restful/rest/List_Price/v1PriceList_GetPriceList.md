@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 525,
-  "ERPPriceListKey": "mollitia",
-  "QuoteConnectionId": 895,
-  "Name": "Stiedemann Inc and Sons",
-  "Description": "Synchronised demand-driven moderator",
-  "Currency": "maxime",
-  "CurrencyName": "Homenick-Ryan",
-  "ValidFrom": "1998-05-25T14:13:50.0562893+02:00",
-  "ValidTo": "2002-10-04T14:13:50.0562893+02:00",
+  "PriceListId": 53,
+  "ERPPriceListKey": "voluptas",
+  "QuoteConnectionId": 858,
+  "Name": "Morissette Group",
+  "Description": "Diverse high-level attitude",
+  "Currency": "unde",
+  "CurrencyName": "Gusikowski Group",
+  "ValidFrom": "2002-02-06T02:38:26.8236417+01:00",
+  "ValidTo": "2021-03-14T02:38:26.8236417+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

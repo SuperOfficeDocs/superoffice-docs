@@ -169,18 +169,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Mueller Group",
-  "ProviderName": "Lynch Group",
-  "SortOrder": "distinctio",
-  "Restriction": "quod",
-  "Entities": "aliquid",
-  "Page": 985,
-  "PageSize": 955,
-  "Context": "sunt"
+  "GuiName": "Hermiston, Gutmann and Bradtke",
+  "ProviderName": "Zieme Inc and Sons",
+  "SortOrder": "qui",
+  "Restriction": "commodi",
+  "Entities": "deserunt",
+  "Page": 957,
+  "PageSize": 187,
+  "Context": "corrupti"
 }
 ```
 
@@ -192,23 +192,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Stroman-Bogan",
-    "PrimaryKey": 662,
+    "EntityName": "Kuphal-Ferry",
+    "PrimaryKey": 512,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "labore",
-        "TooltipHint": "et",
-        "LinkHint": "facilis"
+        "DisplayValue": "animi",
+        "TooltipHint": "consequatur",
+        "LinkHint": "eaque"
       }
     },
-    "LinkHint": "non",
-    "StyleHint": "cumque",
+    "LinkHint": "et",
+    "StyleHint": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   }

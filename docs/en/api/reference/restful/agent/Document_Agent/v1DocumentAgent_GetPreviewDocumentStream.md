@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 352
+  "DocumentId": 59
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner-Padberg",
-  "Type": "at",
-  "Size": 910,
+  "Name": "McGlynn-Monahan",
+  "Type": "possimus",
+  "Size": 409,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldLength": 747
     }
   }
 }

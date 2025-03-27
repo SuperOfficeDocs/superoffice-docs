@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=necessitatibus
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quo
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 07 Mar 2015 14:13:48 G3T
+Last-Modified: Sun, 09 Feb 2014 02:38:26 G2T
 
 {
-  "Key": "nihil",
-  "Value": "alias",
-  "RecordId": 554,
-  "CreatedDate": "2008-05-02T14:13:48.8993207+02:00",
-  "UpdatedDate": "2015-03-07T14:13:48.8993207+01:00",
-  "UpdatedBy": "animi",
-  "CreatedBy": "necessitatibus",
-  "TableName": "Littel, Weber and Wolff",
+  "Key": "cupiditate",
+  "Value": "illo",
+  "RecordId": 771,
+  "CreatedDate": "2023-03-28T02:38:26.1204323+02:00",
+  "UpdatedDate": "2014-02-09T02:38:26.1204323+01:00",
+  "UpdatedBy": "enim",
+  "CreatedBy": "dolorem",
+  "TableName": "Jacobson, Satterfield and Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 713
     }
   }
 }

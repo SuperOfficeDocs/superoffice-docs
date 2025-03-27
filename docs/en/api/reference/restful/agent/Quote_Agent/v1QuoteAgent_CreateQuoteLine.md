@@ -126,8 +126,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 113,
-  "ERPProductKey": "laboriosam"
+  "QuoteAlternativeId": 335,
+  "ERPProductKey": "mollitia"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 22,
-  "ERPQuoteLineKey": "possimus",
-  "QuoteAlternativeId": 966,
-  "ERPProductKey": "inventore",
+  "QuoteLineId": 328,
+  "ERPQuoteLineKey": "rem",
+  "QuoteAlternativeId": 702,
+  "ERPProductKey": "dolorem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29547.352,
-  "DeliveredQuantity": 20549.638,
-  "Rank": 813,
-  "Name": "Graham LLC",
-  "Description": "Synergized radical firmware",
+  "Quantity": 10846.774,
+  "DeliveredQuantity": 22245.131999999998,
+  "Rank": 588,
+  "Name": "Buckridge-Kessler",
+  "Description": "Profound value-added customer loyalty",
   "Code": "qui",
-  "QuantityUnit": "dignissimos",
-  "PriceUnit": "maxime",
-  "ItemNumber": "669412",
+  "QuantityUnit": "occaecati",
+  "PriceUnit": "ullam",
+  "ItemNumber": "1216359",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "error",
-  "ProductTypeKey": "autem",
-  "Supplier": "et",
-  "SupplierCode": "nobis",
-  "Thumbnail": "et",
-  "VATInfo": "consectetur",
-  "VAT": 20837.966,
-  "UnitCost": 12040.828,
-  "UnitMinimumPrice": 11583.264,
-  "UnitListPrice": 22257.667999999998,
+  "ProductFamilyKey": "nulla",
+  "ProductTypeKey": "quo",
+  "Supplier": "porro",
+  "SupplierCode": "molestiae",
+  "Thumbnail": "consectetur",
+  "VATInfo": "culpa",
+  "VAT": 22082.164,
+  "UnitCost": 25940.118,
+  "UnitMinimumPrice": 17810.522,
+  "UnitListPrice": 1955.616,
   "ExtraInfo": [
     {
-      "Name": "Stamm-Abernathy",
-      "Value": "suscipit",
+      "Name": "Dickinson, Tromp and Hills",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 508
         }
       }
     },
     {
-      "Name": "Stamm-Abernathy",
-      "Value": "suscipit",
+      "Name": "Dickinson, Tromp and Hills",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 385
+          "FieldLength": 508
         }
       }
     }
   ],
-  "RawExtraInfo": "tenetur",
-  "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 3619.77,
-  "SubscriptionStart": "2016-07-26T14:13:41.1251915+02:00",
-  "ERPDiscountPercent": 20433.68,
-  "ERPDiscountAmount": 13096.985999999999,
-  "DiscountPercent": 8665.51,
-  "DiscountAmount": 20361.597999999998,
+  "RawExtraInfo": "est",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ut",
+  "SubscriptionQuantity": 5506.438,
+  "SubscriptionStart": "2007-04-07T02:38:21.7919947+02:00",
+  "ERPDiscountPercent": 18393.446,
+  "ERPDiscountAmount": 17189.989999999998,
+  "DiscountPercent": 23918.688,
+  "DiscountAmount": 19628.242,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 10827.97,
-  "EarningAmount": 15318.992,
-  "SubTotal": 7650.094,
-  "TotalPrice": 1892.936,
-  "Rights": "sit",
-  "Rule": "totam",
-  "ExtraField1": "et",
-  "ExtraField2": "et",
-  "ExtraField3": "error",
-  "ExtraField4": "ipsam",
-  "ExtraField5": "error",
+  "EarningPercent": 3387.854,
+  "EarningAmount": 2375.572,
+  "SubTotal": 3253.092,
+  "TotalPrice": 28350.164,
+  "Rights": "consequatur",
+  "Rule": "quasi",
+  "ExtraField1": "sapiente",
+  "ExtraField2": "magnam",
+  "ExtraField3": "tenetur",
+  "ExtraField4": "beatae",
+  "ExtraField5": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 469
     }
   }
 }

@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 842,
-  "ColumnId": 810,
-  "FieldDefault": "quas",
-  "FieldHeight": 203,
-  "FieldLabel": "in",
-  "FieldLeft": 774,
-  "FieldTop": 365,
+  "UDefFieldId": 582,
+  "ColumnId": 884,
+  "FieldDefault": "quae",
+  "FieldHeight": 657,
+  "FieldLabel": "dicta",
+  "FieldLeft": 41,
+  "FieldTop": 508,
   "FieldType": "Checkbox",
-  "FieldWidth": 316,
-  "FormatMask": "perspiciatis",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 976,
-  "LabelLeft": 988,
-  "LabelTop": 747,
-  "LabelWidth": 639,
-  "LastVersionId": 108,
-  "ListTableId": 758,
+  "FieldWidth": 535,
+  "FormatMask": "a",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 199,
+  "LabelLeft": 724,
+  "LabelTop": 705,
+  "LabelWidth": 939,
+  "LastVersionId": 837,
+  "ListTableId": 942,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 116,
-  "ProgId": "ut",
+  "Page1LineNo": 967,
+  "ProgId": "quod",
   "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 776,
-  "TextLength": 185,
-  "Tooltip": "qui",
-  "UdefIdentity": 33,
-  "UDListDefinitionId": 601,
+  "ShortLabel": "explicabo",
+  "TabOrder": 238,
+  "TextLength": 218,
+  "Tooltip": "sed",
+  "UdefIdentity": 418,
+  "UDListDefinitionId": 228,
   "Justification": "Center",
-  "Version": 488,
-  "TemplateVariableName": "Schulist, Metz and Kunde",
-  "HasBeenPublished": false,
-  "MdoListName": "Legros, Renner and Toy",
+  "Version": 522,
+  "TemplateVariableName": "Okuneva-Senger",
+  "HasBeenPublished": true,
+  "MdoListName": "Rau-Gleichner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 161
+      "FieldLength": 1001
     }
   }
 }

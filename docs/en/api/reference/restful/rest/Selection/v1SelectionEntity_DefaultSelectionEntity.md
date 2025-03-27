@@ -97,7 +97,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,73 +105,73 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 12 Aug 2020 14:13:49 G8T
+Last-Modified: Thu, 04 Feb 2010 02:38:26 G2T
 
 {
-  "Description": "Organic 5th generation core",
-  "Postit": "nemo",
+  "Description": "Self-enabling background installation",
+  "Postit": "quibusdam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 3,
-  "IncludePerson": 853,
+  "GroupIdx": 89,
+  "IncludePerson": 761,
   "MemberCount": 99.99,
-  "Name": "Leannon, Howe and Lind",
-  "PostitTextId": 442,
-  "CreatedDate": "2018-02-09T14:13:49.2274801+01:00",
-  "SelectionId": 648,
-  "SoundEx": "tenetur",
-  "Source": 299,
-  "TextId": 981,
-  "UpdatedDate": "2020-08-12T14:13:49.2274801+02:00",
-  "UpdatedCount": 681,
-  "Visibility": 709,
+  "Name": "Ebert-Von",
+  "PostitTextId": 999,
+  "CreatedDate": "2009-07-23T02:38:26.4016552+02:00",
+  "SelectionId": 418,
+  "SoundEx": "praesentium",
+  "Source": 969,
+  "TextId": 329,
+  "UpdatedDate": "2010-02-04T02:38:26.4016552+01:00",
+  "UpdatedCount": 547,
+  "Visibility": 490,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 38,
-  "TargetTableName": "Cummings LLC",
+  "TargetTableNumber": 199,
+  "TargetTableName": "Wintheiser, Schimmel and Cummerata",
   "Completed": true,
-  "LeftSelectionId": 596,
-  "RightSelectionId": 667,
+  "LeftSelectionId": 430,
+  "RightSelectionId": 235,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Nolan, Jaskolski and Bailey",
-  "ShadowProviderName": "Halvorson, Rutherford and Lesch",
-  "ChartKey": "maxime",
-  "LastLoaded": "2003-09-17T14:13:49.2274801+02:00",
-  "LastLoadedBy": 118,
+  "MainProviderName": "Smith-Thiel",
+  "ShadowProviderName": "Rogahn, Gottlieb and Walter",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2005-01-07T02:38:26.4016552+01:00",
+  "LastLoadedBy": 829,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-08-30T14:13:49.2274801+02:00",
-  "LastMembershipChangeBy": 519,
+  "LastMembershipChange": "2001-02-14T02:38:26.4016552+01:00",
+  "LastMembershipChangeBy": 43,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "tempore",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Treutel-Satterfield",
-  "DashboardTileDefinitionId": 955,
+  "MainHeading": "et",
+  "MemberTabHeading": "iusto",
+  "MailingsProviderName": "Keeling LLC",
+  "DashboardTileDefinitionId": 300,
   "VisibleFor": [
     {
-      "VisibleId": 778,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 710
         }
       }
     },
     {
-      "VisibleId": 778,
+      "VisibleId": 505,
       "Visibility": "All",
-      "DisplayValue": "saepe",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 710
         }
       }
     }
@@ -180,8 +180,8 @@ Last-Modified: Wed, 12 Aug 2020 14:13:49 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   }
 }

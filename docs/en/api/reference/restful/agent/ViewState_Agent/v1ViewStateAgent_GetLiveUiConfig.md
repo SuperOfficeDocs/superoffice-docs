@@ -76,14 +76,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsEnabled": false,
-  "PollingInterval": 928,
+  "IsEnabled": true,
+  "PollingInterval": 735,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldType": "System.String",
+      "FieldLength": 754
     }
   }
 }

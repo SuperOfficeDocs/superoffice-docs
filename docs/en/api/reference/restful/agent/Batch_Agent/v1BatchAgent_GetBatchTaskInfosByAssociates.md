@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    641,
-    867
+    650,
+    303
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Nolan-Trantow",
-    "AssociateId": 314,
-    "DetailsTable": 897,
-    "DetailsRecord": 29,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 806,
+    "Name": "Gottlieb LLC",
+    "AssociateId": 231,
+    "DetailsTable": 726,
+    "DetailsRecord": 153,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "sit"
+      "ParameterObject1": "officia",
+      "ParameterObject2": "similique"
     },
-    "LastStarted": "2007-02-28T14:13:39.3911033+01:00",
-    "Created": "2016-11-15T14:13:39.3911033+01:00",
-    "StartCount": 452,
-    "DatabaseSerialNumber": "1539933",
-    "Context": "nemo",
-    "Result": "aut",
+    "LastStarted": "2014-08-11T02:38:20.885843+02:00",
+    "Created": "1998-08-08T02:38:20.885843+02:00",
+    "StartCount": 234,
+    "DatabaseSerialNumber": "1530301",
+    "Context": "qui",
+    "Result": "dolores",
     "State": "All",
-    "Description": "Public-key client-driven strategy",
-    "Response": "sit",
-    "Request": "est",
-    "ProgressDescription": "Cross-group client-driven info-mediaries",
-    "ProgressPercent": 13,
-    "FileName": "Kulas Inc and Sons",
+    "Description": "Upgradable even-keeled strategy",
+    "Response": "temporibus",
+    "Request": "similique",
+    "ProgressDescription": "Devolved bifurcated contingency",
+    "ProgressPercent": 20,
+    "FileName": "Aufderhar, Kemmer and Becker",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

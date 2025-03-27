@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "optio",
+  "RawValue": "asperiores",
   "Specification": null,
-  "DisplayValue": "eveniet",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "qui",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 772,
-  "PrefDescId": 538,
-  "TableName": "Parker-Bahringer",
-  "UserPreferenceId": 420
+  "TargetId": 593,
+  "PrefDescId": 111,
+  "TableName": "Orn Inc and Sons",
+  "UserPreferenceId": 844
 }
 ```
 

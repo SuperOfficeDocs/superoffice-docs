@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 128,
-  "Name": "Hammes Group",
-  "TZLocationCode": "nihil",
-  "TZLocationCities": "minima",
-  "IsoNumber": 193,
+  "TZLocationID": 767,
+  "Name": "Erdman, Turcotte and Waters",
+  "TZLocationCode": "aliquam",
+  "TZLocationCities": "repellat",
+  "IsoNumber": 519,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 970,
-      "StartMonth": 742,
-      "EndDay": 490,
-      "EndMonth": 780,
-      "TZOffset": 567,
-      "StartRulePattern": "omnis",
-      "EndRulePattern": "quo"
+      "StartDay": 142,
+      "StartMonth": 907,
+      "EndDay": 507,
+      "EndMonth": 789,
+      "TZOffset": 901,
+      "StartRulePattern": "amet",
+      "EndRulePattern": "eligendi"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 959,
-      "StartMonth": 888,
-      "EndDay": 174,
-      "EndMonth": 14,
-      "TZOffset": 449,
-      "StartRulePattern": "illum",
-      "EndRulePattern": "inventore"
+      "StartDay": 876,
+      "StartMonth": 232,
+      "EndDay": 533,
+      "EndMonth": 216,
+      "TZOffset": 700,
+      "StartRulePattern": "qui",
+      "EndRulePattern": "sunt"
     }
   }
 }

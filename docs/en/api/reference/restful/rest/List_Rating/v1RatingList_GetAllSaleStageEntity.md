@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleStageEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Rating/Items?includeDeleted=False
+GET /api/v1/List/Rating/Items?includeDeleted=True
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/Rating/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 164,
-    "Value": "velit",
-    "Tooltip": "sed",
-    "Probability": 987,
+    "SaleStageId": 327,
+    "Value": "sit",
+    "Tooltip": "ipsam",
+    "Probability": 657,
     "Deleted": false,
-    "Rank": 682,
+    "Rank": 576,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

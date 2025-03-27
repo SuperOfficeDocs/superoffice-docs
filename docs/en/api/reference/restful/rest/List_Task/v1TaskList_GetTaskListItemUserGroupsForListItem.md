@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Heidenreich Group",
-    "ToolTip": "Accusantium itaque debitis sit et molestias.",
+    "Id": 255,
+    "Name": "Franecki, Hauck and Tremblay",
+    "ToolTip": "Est laborum.",
     "Deleted": false,
-    "Rank": 251,
-    "Type": "accusamus",
-    "ColorBlock": 423,
-    "IconHint": "quibusdam",
+    "Rank": 792,
+    "Type": "in",
+    "ColorBlock": 333,
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2002-11-26T14:13:50.2752013+01:00",
+    "LastChanged": "2018-04-10T02:38:27.0423674+02:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Schuppe, Smitham and Parisian",
-        "ToolTip": "Mollitia sint doloremque qui temporibus omnis.",
-        "Deleted": true,
-        "Rank": 811,
+        "Id": 869,
+        "Name": "Rohan, Upton and Tremblay",
+        "ToolTip": "Qui explicabo ut.",
+        "Deleted": false,
+        "Rank": 344,
         "Type": "ut",
-        "ColorBlock": 837,
-        "IconHint": "mollitia",
+        "ColorBlock": 617,
+        "IconHint": "cupiditate",
         "Selected": false,
-        "LastChanged": "2024-09-24T14:13:50.2752013+02:00",
+        "LastChanged": "2019-01-13T02:38:27.0423674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "omnis",
+        "ExtraInfo": "magni",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Lila Keebler",
+        "FullName": "Ariane Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldType": "System.String",
+            "FieldLength": 350
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "aut",
+    "ExtraInfo": "et",
+    "StyleHint": "minus",
     "Hidden": true,
-    "FullName": "Ila Sipes",
+    "FullName": "Jabari Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 825
       }
     }
   }

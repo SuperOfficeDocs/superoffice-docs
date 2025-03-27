@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 562,
-  "Name": "Hudson-Hackett",
-  "Tooltip": "est",
+  "Id": 870,
+  "Name": "Upton LLC",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 542,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 181,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "culpa",
-  "InUseByUserDefinedFields": false
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Keebler, Cummings and Windler",
-  "Tooltip": "et",
+  "Id": 915,
+  "Name": "Simonis Group",
+  "Tooltip": "velit",
   "Deleted": false,
-  "Rank": 526,
+  "Rank": 492,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "sunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 105
+      "FieldType": "System.String",
+      "FieldLength": 785
     }
   }
 }

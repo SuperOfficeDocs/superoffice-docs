@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 625
+  "QuoteId": 26
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 442,
-    "ERPQuoteVersionKey": "ab",
-    "QuoteId": 473,
-    "Description": "User-friendly methodical local area network",
-    "Number": "890342",
+    "QuoteVersionId": 34,
+    "ERPQuoteVersionKey": "voluptatem",
+    "QuoteId": 569,
+    "Description": "Seamless 6th generation extranet",
+    "Number": "246270",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 28,
-    "SentDate": "2006-06-14T14:13:41.0627059+02:00",
-    "FollowupId": 78,
-    "ExpirationDate": "2010-10-10T14:13:41.0627059+02:00",
-    "DeliveryCountryId": 377,
+    "LikelyQuoteAlternativeId": 706,
+    "SentDate": "2004-07-02T02:38:21.7607486+02:00",
+    "FollowupId": 378,
+    "ExpirationDate": "2017-01-06T02:38:21.7607486+01:00",
+    "DeliveryCountryId": 436,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 304,
+    "InvoiceCountryId": 558,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "saepe",
-    "ERPPaymentTypeKey": "doloremque",
-    "ERPDeliveryTermsKey": "dignissimos",
-    "ERPDeliveryTypeKey": "qui",
-    "Rank": 431,
-    "ApprovedBy": 693,
-    "ApprovedText": "aut",
-    "ApprovedRegisteredBy": 126,
-    "ApprovedRegisteredDate": "1998-04-27T14:13:41.0627059+02:00",
-    "ExtraField1": "aspernatur",
-    "ExtraField2": "ex",
-    "ExtraField3": "quasi",
-    "ExtraField4": "et",
-    "ExtraField5": "ut",
-    "LastRecalculated": "2020-01-02T14:13:41.0627059+01:00",
-    "Updated": "2015-04-21T14:13:41.0627059+02:00",
-    "UpdatedAssociateId": 577,
-    "Registered": "1999-01-23T14:13:41.0627059+01:00",
-    "RegisteredAssociateId": 731,
-    "RequestAssociateId": 202,
-    "RequestComment": "totam",
+    "ERPPaymentTermsKey": "qui",
+    "ERPPaymentTypeKey": "et",
+    "ERPDeliveryTermsKey": "et",
+    "ERPDeliveryTypeKey": "ex",
+    "Rank": 312,
+    "ApprovedBy": 119,
+    "ApprovedText": "hic",
+    "ApprovedRegisteredBy": 605,
+    "ApprovedRegisteredDate": "2007-03-26T02:38:21.7607486+02:00",
+    "ExtraField1": "reiciendis",
+    "ExtraField2": "ut",
+    "ExtraField3": "expedita",
+    "ExtraField4": "voluptatum",
+    "ExtraField5": "doloribus",
+    "LastRecalculated": "2019-08-09T02:38:21.7607486+02:00",
+    "Updated": "2019-03-14T02:38:21.7607486+01:00",
+    "UpdatedAssociateId": 243,
+    "Registered": "2010-09-05T02:38:21.7607486+02:00",
+    "RegisteredAssociateId": 446,
+    "RequestAssociateId": 2,
+    "RequestComment": "dolores",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 909,
-        "ERPQuoteAlternativeKey": "et",
-        "QuoteVersionId": 322,
-        "Name": "West, Nitzsche and Cole",
-        "Description": "Persistent intangible solution",
+        "QuoteAlternativeId": 561,
+        "ERPQuoteAlternativeKey": "quae",
+        "QuoteVersionId": 318,
+        "Name": "Tillman, Adams and Lakin",
+        "Description": "Front-line zero defect customer loyalty",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 3218.618,
-        "ERPDiscountAmount": 23915.554,
-        "DiscountPercent": 8395.985999999999,
-        "DiscountAmount": 20439.948,
+        "ERPDiscountPercent": 2974.1659999999997,
+        "ERPDiscountAmount": 4114.942,
+        "DiscountPercent": 3817.212,
+        "DiscountAmount": 11238.524,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "numquam",
-        "VAT": 24639.507999999998,
-        "EarningPercent": 18988.906,
-        "EarningAmount": 5885.652,
-        "SubTotal": 291.462,
-        "TotalPrice": 7769.186,
-        "ExtraField1": "voluptas",
-        "ExtraField2": "aliquid",
+        "VATInfo": "dolores",
+        "VAT": 11765.036,
+        "EarningPercent": 19029.648,
+        "EarningAmount": 15347.198,
+        "SubTotal": 12156.786,
+        "TotalPrice": 2851.94,
+        "ExtraField1": "facilis",
+        "ExtraField2": "aut",
         "ExtraField3": "qui",
-        "ExtraField4": "excepturi",
-        "ExtraField5": "nihil",
+        "ExtraField4": "omnis",
+        "ExtraField5": "quo",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 541
+            "FieldType": "System.String",
+            "FieldLength": 212
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 201
       }
     }
   }

@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 195
+  "ContactId": 271
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quos",
-    "PersonId": 781,
-    "Mrmrs": "quas",
-    "Firstname": "Delta",
-    "Lastname": "Kling",
-    "MiddleName": "Wuckert-Kulas",
-    "Title": "ut",
-    "Description": "Inverse zero administration functionalities",
-    "Email": "eula.veum@bergstrom.info",
-    "FullName": "Prof. Libbie Boehm",
-    "DirectPhone": "427.426.0631 x4951",
-    "FormalName": "Fritsch, Jewess and Bode",
-    "CountryId": 903,
-    "ContactId": 653,
-    "ContactName": "Herman-Hettinger",
-    "Retired": 496,
-    "Rank": 175,
-    "ActiveInterests": 510,
+    "Position": "quas",
+    "PersonId": 452,
+    "Mrmrs": "alias",
+    "Firstname": "Wyatt",
+    "Lastname": "Hilll",
+    "MiddleName": "Wilkinson, Reilly and Cremin",
+    "Title": "et",
+    "Description": "Multi-tiered web-enabled access",
+    "Email": "reece@mayerortiz.biz",
+    "FullName": "Dena King",
+    "DirectPhone": "713.473.7902",
+    "FormalName": "Wyman Inc and Sons",
+    "CountryId": 191,
+    "ContactId": 657,
+    "ContactName": "Pfeffer, Senger and Ankunding",
+    "Retired": 231,
+    "Rank": 450,
+    "ActiveInterests": 408,
     "ContactDepartment": "",
-    "ContactCountryId": 569,
-    "ContactOrgNr": "961132",
-    "FaxPhone": "116.277.9694 x705",
-    "MobilePhone": "159.563.0837 x99228",
-    "ContactPhone": "659.676.0548",
-    "AssociateName": "Vandervort Group",
-    "AssociateId": 395,
+    "ContactCountryId": 275,
+    "ContactOrgNr": "1415177",
+    "FaxPhone": "953.980.0694 x27701",
+    "MobilePhone": "1-550-832-0938 x37379",
+    "ContactPhone": "865-924-8472",
+    "AssociateName": "Senger Inc and Sons",
+    "AssociateId": 420,
     "UsePersonAddress": false,
-    "ContactFax": "sit",
-    "Kanafname": "rerum",
-    "Kanalname": "recusandae",
-    "Post1": "nesciunt",
-    "Post2": "fugiat",
-    "Post3": "vel",
-    "EmailName": "cornell_cummings@schultzstiedemann.uk",
-    "ContactFullName": "Scottie Rosenbaum",
-    "ActiveErpLinks": 482,
-    "TicketPriorityId": 417,
-    "SupportLanguageId": 469,
-    "SupportAssociateId": 495,
+    "ContactFax": "exercitationem",
+    "Kanafname": "molestiae",
+    "Kanalname": "ut",
+    "Post1": "maxime",
+    "Post2": "quia",
+    "Post3": "natus",
+    "EmailName": "laverne@wilkinson.com",
+    "ContactFullName": "Karelle Lind",
+    "ActiveErpLinks": 611,
+    "TicketPriorityId": 275,
+    "SupportLanguageId": 775,
+    "SupportAssociateId": 357,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1746073",
+    "PersonNumber": "1056363",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldType": "System.String",
+        "FieldLength": 815
       }
     }
   }

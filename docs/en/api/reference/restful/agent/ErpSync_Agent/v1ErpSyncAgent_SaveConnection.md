@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 676,
-  "ErpConnectorId": 781,
-  "DisplayName": "McClure, Krajcik and Bahringer",
-  "DisplayDescription": "Down-sized well-modulated definition",
+  "ErpConnectionId": 109,
+  "ErpConnectorId": 23,
+  "DisplayName": "Runolfsdottir-Wisozk",
+  "DisplayDescription": "Face to face eco-centric productivity",
   "Active": true,
-  "ConnectionId": "sed",
-  "MostRecentTimestamp": "amet",
+  "ConnectionId": "nostrum",
+  "MostRecentTimestamp": "dolores",
   "ConfigFields": {
-    "ConfigFields1": "neque",
-    "ConfigFields2": "alias"
+    "ConfigFields1": "quas",
+    "ConfigFields2": "et"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    684,
-    421
+    643,
+    410
   ],
   "AssociateAccessIds": [
-    195,
-    859
+    322,
+    56
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 368
     }
   }
 }

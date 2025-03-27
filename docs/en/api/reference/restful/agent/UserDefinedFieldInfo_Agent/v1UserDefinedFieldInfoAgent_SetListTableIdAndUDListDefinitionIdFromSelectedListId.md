@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 683
+  "SelectedListId": 884
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 387,
-  "ColumnId": 417,
-  "FieldDefault": "delectus",
-  "FieldHeight": 474,
-  "FieldLabel": "iure",
-  "FieldLeft": 241,
-  "FieldTop": 272,
+  "UDefFieldId": 156,
+  "ColumnId": 153,
+  "FieldDefault": "deleniti",
+  "FieldHeight": 470,
+  "FieldLabel": "omnis",
+  "FieldLeft": 267,
+  "FieldTop": 323,
   "FieldType": "Checkbox",
-  "FieldWidth": 927,
-  "FormatMask": "aut",
-  "HideLabel": false,
+  "FieldWidth": 952,
+  "FormatMask": "labore",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 25,
-  "LabelLeft": 297,
-  "LabelTop": 98,
-  "LabelWidth": 582,
-  "LastVersionId": 124,
-  "ListTableId": 231,
-  "IsMandatory": true,
+  "LabelHeight": 66,
+  "LabelLeft": 853,
+  "LabelTop": 346,
+  "LabelWidth": 544,
+  "LastVersionId": 497,
+  "ListTableId": 550,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 464,
-  "ProgId": "et",
+  "Page1LineNo": 966,
+  "ProgId": "sunt",
   "IsReadOnly": false,
-  "ShortLabel": "aliquid",
-  "TabOrder": 62,
-  "TextLength": 443,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 624,
-  "UDListDefinitionId": 914,
+  "ShortLabel": "nostrum",
+  "TabOrder": 262,
+  "TextLength": 66,
+  "Tooltip": "sequi",
+  "UdefIdentity": 175,
+  "UDListDefinitionId": 946,
   "Justification": "Center",
-  "Version": 723,
-  "TemplateVariableName": "Botsford Inc and Sons",
+  "Version": 801,
+  "TemplateVariableName": "Zulauf, Upton and Stracke",
   "HasBeenPublished": false,
-  "MdoListName": "Hegmann-Marvin",
+  "MdoListName": "Kirlin LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

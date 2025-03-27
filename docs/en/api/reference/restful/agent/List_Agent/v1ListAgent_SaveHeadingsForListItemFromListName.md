@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Bogan-Erdman",
-  "ListItemId": 328,
+  "UdListDefinitionName": "Fahey-Maggio",
+  "ListItemId": 957,
   "Headings": [
     {
-      "Id": 410,
-      "Name": "Yost LLC",
-      "ToolTip": "Eos et qui ea.",
+      "Id": 144,
+      "Name": "Corkery LLC",
+      "ToolTip": "Vero iure.",
       "Deleted": false,
-      "Rank": 26,
-      "Type": "earum",
-      "ColorBlock": 306,
-      "IconHint": "nemo",
-      "Selected": false,
-      "LastChanged": "2001-08-10T14:13:40.4847118+02:00",
+      "Rank": 111,
+      "Type": "voluptatum",
+      "ColorBlock": 348,
+      "IconHint": "vero",
+      "Selected": true,
+      "LastChanged": "2004-10-10T02:38:21.5107392+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magni",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Iva Veum"
+      "ExtraInfo": "explicabo",
+      "StyleHint": "quam",
+      "Hidden": false,
+      "FullName": "Nels Leffler"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 104,
-    "Name": "Veum, Dibbert and Marvin",
-    "ToolTip": "Ipsa aut.",
+    "Id": 927,
+    "Name": "Quigley, Nicolas and Funk",
+    "ToolTip": "Aliquam animi perferendis et quibusdam magni ullam.",
     "Deleted": false,
-    "Rank": 918,
-    "Type": "labore",
-    "ColorBlock": 189,
-    "IconHint": "dolorum",
-    "Selected": true,
-    "LastChanged": "2003-04-19T14:13:40.4847118+02:00",
+    "Rank": 341,
+    "Type": "qui",
+    "ColorBlock": 564,
+    "IconHint": "delectus",
+    "Selected": false,
+    "LastChanged": "1998-04-12T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Ruecker, Botsford and Armstrong",
-        "ToolTip": "Incidunt perferendis eligendi cum.",
-        "Deleted": false,
-        "Rank": 542,
-        "Type": "minus",
-        "ColorBlock": 377,
-        "IconHint": "corrupti",
+        "Id": 572,
+        "Name": "Russel, Bartell and Heaney",
+        "ToolTip": "Qui nostrum.",
+        "Deleted": true,
+        "Rank": 161,
+        "Type": "et",
+        "ColorBlock": 420,
+        "IconHint": "magnam",
         "Selected": false,
-        "LastChanged": "2013-05-15T14:13:40.4847118+02:00",
+        "LastChanged": "2023-09-26T02:38:21.5107392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "vitae",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Meghan Mario Swift Jr.",
+        "FullName": "Leola Prosacco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 144
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "amet",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Ms. Humberto Pouros DVM",
+    "FullName": "Ines Nora Donnelly DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldType": "System.Int32",
+        "FieldLength": 729
       }
     }
   }

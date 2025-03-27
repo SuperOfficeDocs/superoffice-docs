@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 703
+  "PersonId": 945
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 48,
-  "PlainParsed": "voluptatem",
-  "HtmlParsed": "aut",
+  "ReplyTemplateId": 379,
+  "PlainParsed": "corrupti",
+  "HtmlParsed": "cum",
   "Attachments": [
     {
-      "AttachmentId": 378,
-      "Name": "Collins Group",
-      "ContentType": "perspiciatis",
-      "AttSize": 743,
-      "InlineImage": true,
-      "ContentId": "corrupti",
-      "AuthKey": "qui",
+      "AttachmentId": 807,
+      "Name": "Kunde-Bosco",
+      "ContentType": "et",
+      "AttSize": 22,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "eaque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 350
+          "FieldLength": 201
         }
       }
     }
   ],
-  "Subject": "nemo",
+  "Subject": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldType": "System.String",
+      "FieldLength": 461
     }
   }
 }

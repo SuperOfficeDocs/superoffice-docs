@@ -34,6 +34,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
+|ownedBy|ejUser|Owner: The owner of the request| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
@@ -67,7 +68,6 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |deadline|datetime|Deadline: Deadline| x |
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
 |createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -762,7 +762,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=numberOfMessages,repliedAt,createdBy/middleName,createdBy/personId,createdBy/contactCategory
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/middleName,ownedBy/assocName,person/personAssociate/associateDbId,person/withdrawnStoreConsent,person/hasEmarketingConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

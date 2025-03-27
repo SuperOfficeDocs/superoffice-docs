@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Weber, Bogisich and Jacobson",
-  "Tooltip": "praesentium",
+  "Id": 729,
+  "Name": "Graham-Reichert",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 750,
+  "Rank": 794,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldLength": 553
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

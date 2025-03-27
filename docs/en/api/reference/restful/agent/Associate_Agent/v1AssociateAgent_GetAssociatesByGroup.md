@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 742,
-  "Type": 793
+  "GroupId": 172,
+  "Type": 7
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 327,
-    "Name": "Mitchell-Wolf",
-    "PersonId": 906,
-    "Rank": 799,
-    "Tooltip": "est",
+    "AssociateId": 364,
+    "Name": "Wilkinson LLC",
+    "PersonId": 467,
+    "Rank": 111,
+    "Tooltip": "nihil",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 27,
-    "FullName": "Daisha Spinka",
-    "FormalName": "Jacobi, Volkman and Wolff",
+    "GroupIdx": 487,
+    "FullName": "Monty Conroy",
+    "FormalName": "Hodkiewicz, Welch and Miller",
     "Deleted": false,
-    "EjUserId": 846,
-    "UserName": "Hirthe, Torp and Friesen",
+    "EjUserId": 546,
+    "UserName": "Cassin, Price and Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldType": "System.String",
+        "FieldLength": 89
       }
     }
   }

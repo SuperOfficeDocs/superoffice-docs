@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 451,
-  "Name": "Stamm-Windler",
-  "Tooltip": "esse",
-  "PassiveText": "voluptas",
+  "ReldefId": 549,
+  "Name": "Zulauf LLC",
+  "Tooltip": "repudiandae",
+  "PassiveText": "temporibus",
   "Deleted": true,
-  "Rank": 994,
+  "Rank": 117,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 994
     }
   }
 }

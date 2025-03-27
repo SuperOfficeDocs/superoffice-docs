@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 850
+  "ErpConnectionId": 959
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 699,
-  "ErpConnectorId": 228,
-  "DisplayName": "Heller LLC",
-  "DisplayDescription": "Object-based value-added archive",
+  "ErpConnectionId": 500,
+  "ErpConnectorId": 236,
+  "DisplayName": "Jones, McDermott and Bernhard",
+  "DisplayDescription": "Ameliorated 4th generation leverage",
   "Active": false,
-  "ConnectionId": "corporis",
-  "MostRecentTimestamp": "placeat",
+  "ConnectionId": "culpa",
+  "MostRecentTimestamp": "aspernatur",
   "ConfigFields": {
-    "ConfigFields1": "necessitatibus",
-    "ConfigFields2": "distinctio"
+    "ConfigFields1": "molestiae",
+    "ConfigFields2": "id"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    112,
-    941
+    325,
+    949
   ],
   "AssociateAccessIds": [
-    150,
-    331
+    709,
+    957
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 654
+      "FieldLength": 674
     }
   }
 }

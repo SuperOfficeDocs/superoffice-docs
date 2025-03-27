@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Ritchie Inc and Sons",
-  "Tooltip": "quam",
+  "Id": 458,
+  "Name": "Mante-Schmidt",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 909,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
-  "InUseByUserDefinedFields": false
+  "Rank": 279,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 646,
-  "Name": "Bergnaum, Mayert and Rolfson",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "Rank": 568,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
+  "Id": 372,
+  "Name": "Kub, Rice and Roberts",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "Rank": 786,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "itaque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 908
     }
   }
 }

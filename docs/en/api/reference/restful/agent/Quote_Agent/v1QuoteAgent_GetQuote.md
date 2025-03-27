@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 556
+  "QuoteId": 882
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 430,
-  "SaleId": 720,
-  "QuoteConnectionId": 59,
-  "ERPQuoteKey": "iusto",
-  "ERPOrderKey": "inventore",
-  "ActiveQuoteVersionId": 14,
-  "AcceptedQuoteAlternativeId": 138,
-  "UseValuesFromQuote": 904,
-  "DocumentId": 593,
-  "PoNumber": "428664",
-  "OrderComment": "cupiditate",
-  "PreferredEmailCulture": "robin.oreilly@kassulkeabernathy.us",
+  "QuoteId": 421,
+  "SaleId": 401,
+  "QuoteConnectionId": 561,
+  "ERPQuoteKey": "qui",
+  "ERPOrderKey": "officiis",
+  "ActiveQuoteVersionId": 822,
+  "AcceptedQuoteAlternativeId": 74,
+  "UseValuesFromQuote": 335,
+  "DocumentId": 270,
+  "PoNumber": "1570278",
+  "OrderComment": "quod",
+  "PreferredEmailCulture": "winfield@spencer.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldLength": 471
     }
   }
 }

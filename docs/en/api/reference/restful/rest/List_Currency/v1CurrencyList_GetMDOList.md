@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=provident
+GET /api/v1/List/Currency/MDOItems?flat=True
+GET /api/v1/List/Currency/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Murazik-Kovacek",
-    "ToolTip": "Deserunt consequatur.",
+    "Id": 737,
+    "Name": "Senger-Labadie",
+    "ToolTip": "Dignissimos facilis debitis.",
     "Deleted": true,
-    "Rank": 162,
-    "Type": "et",
+    "Rank": 7,
+    "Type": "sequi",
     "ChildItems": [
       {
-        "Id": 880,
-        "Name": "D'Amore-Stoltenberg",
-        "ToolTip": "Sint voluptatum fuga aliquid rem perferendis.",
-        "Deleted": false,
-        "Rank": 404,
-        "Type": "esse",
+        "Id": 569,
+        "Name": "Farrell, Rempel and Haley",
+        "ToolTip": "Suscipit repudiandae vero corrupti sed culpa.",
+        "Deleted": true,
+        "Rank": 818,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 898,
-        "ExtraInfo": "dolores",
-        "StyleHint": "non",
-        "FullName": "Dr. Effie Jailyn Windler V",
+        "IconHint": "tempore",
+        "ColorBlock": 855,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "voluptate",
+        "FullName": "Prof. Vaughn Borer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 43
           }
         }
       }
     ],
-    "IconHint": "praesentium",
-    "ColorBlock": 452,
-    "ExtraInfo": "qui",
-    "StyleHint": "optio",
-    "FullName": "Emilia Spinka",
+    "IconHint": "unde",
+    "ColorBlock": 293,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "voluptatem",
+    "FullName": "Vern Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 791
+        "FieldLength": 861
       }
     }
   }

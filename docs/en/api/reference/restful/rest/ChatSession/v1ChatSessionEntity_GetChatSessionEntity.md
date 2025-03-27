@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 180,
-  "TopicId": 942,
+  "ChatSessionId": 26,
+  "TopicId": 528,
   "User": null,
   "Person": null,
-  "CustomerAlias": "architecto",
-  "CustomerHost": "a",
-  "CustomerName": "Casper, Beier and Dibbert",
-  "CustomerEmail": "rubye@harveyyost.co.uk",
-  "CustomerPhone": "1-208-756-6741",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Deckow Inc and Sons",
+  "CustomerAlias": "reprehenderit",
+  "CustomerHost": "consequuntur",
+  "CustomerName": "Keeling-Emmerich",
+  "CustomerEmail": "ferne@hermann.biz",
+  "CustomerPhone": "1-759-859-5514 x596",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Schmidt LLC",
   "Status": "Closed",
-  "FirstMessage": "necessitatibus",
-  "LastMessage": "adipisci",
-  "WhenRequested": "2001-11-29T14:13:48.3352073+01:00",
-  "WhenStarted": "2016-10-22T14:13:48.3352073+02:00",
-  "WhenEnded": "2010-04-04T14:13:48.3352073+02:00",
-  "WhenIdle": "2021-08-26T14:13:48.3352073+02:00",
-  "WhenFetched": "1998-12-03T14:13:48.3352073+01:00",
-  "SessionKey": "sit",
-  "InitialQueuePos": 944,
-  "AlertLevel": 897,
-  "Rank": 858,
+  "FirstMessage": "voluptas",
+  "LastMessage": "consectetur",
+  "WhenRequested": "2006-11-14T02:38:25.8548338+01:00",
+  "WhenStarted": "2014-12-19T02:38:25.8548338+01:00",
+  "WhenEnded": "2015-09-22T02:38:25.8548338+02:00",
+  "WhenIdle": "2010-01-02T02:38:25.8548338+01:00",
+  "WhenFetched": "2003-08-08T02:38:25.8548338+02:00",
+  "SessionKey": "qui",
+  "InitialQueuePos": 243,
+  "AlertLevel": 732,
+  "Rank": 648,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 577,
+  "Rating": 958,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 147
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   },
   "_Links": {

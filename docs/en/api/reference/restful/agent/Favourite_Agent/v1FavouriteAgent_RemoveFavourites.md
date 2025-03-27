@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mayert, Kemmer and Frami",
+  "TableName": "Champlin LLC",
   "RecordIds": [
-    346,
-    600
+    708,
+    998
   ],
-  "AssociateId": 752
+  "AssociateId": 382
 }
 ```
 

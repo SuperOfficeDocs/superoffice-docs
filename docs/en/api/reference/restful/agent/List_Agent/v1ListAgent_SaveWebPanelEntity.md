@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 114,
-  "Name": "Morissette-Torp",
-  "Tooltip": "laborum",
+  "WebPanelId": 295,
+  "Name": "Cole, Gerlach and Herzog",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 361,
+  "Rank": 279,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Jakubowski-Turner",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Mante, Pacocha and Hilll",
   "Url": "http://www.example.com/",
-  "ProgId": "ducimus",
-  "Icon": 473,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "fuga",
+  "Icon": 924,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 684,
-  "Name": "Legros-Bogisich",
-  "Tooltip": "a",
+  "WebPanelId": 901,
+  "Name": "Jast Inc and Sons",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "Rank": 253,
+  "Rank": 660,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Zulauf Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Tromp LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "molestias",
-  "Icon": 271,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "perspiciatis",
+  "Icon": 813,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 29
     }
   }
 }

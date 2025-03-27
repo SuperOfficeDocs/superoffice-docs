@@ -474,7 +474,7 @@ FormSubmission selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=icon,person/hasInfoText,person/personExtra/y_rental/x_end,person/correspondingAssociate/isActiveText,contact/saintDirection
+GET /api/v1/archive/FormSubmissionDynamicSelectionSingleCriteriaGroup?$select=recordTypeText,person/personNoMail,person/personAddress/county,person/restrictionAddress/zip,contact/hasInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

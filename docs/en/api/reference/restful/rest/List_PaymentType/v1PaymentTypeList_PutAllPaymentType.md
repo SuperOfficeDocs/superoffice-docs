@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 111,
-    "Name": "Bins Inc and Sons",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 683
+    "Id": 592,
+    "Name": "Ruecker, Stehr and Ward",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 1002,
+    "Rank": 411
   },
   {
-    "Id": 111,
-    "Name": "Bins Inc and Sons",
-    "Tooltip": "adipisci",
-    "Deleted": true,
-    "UdListDefinitionId": 660,
-    "Rank": 683
+    "Id": 592,
+    "Name": "Ruecker, Stehr and Ward",
+    "Tooltip": "consequatur",
+    "Deleted": false,
+    "UdListDefinitionId": 1002,
+    "Rank": 411
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Brakus, Hirthe and Blanda",
+    "Id": 478,
+    "Name": "Anderson, Nolan and Hackett",
     "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 615,
-    "Rank": 238,
+    "UdListDefinitionId": 834,
+    "Rank": 533,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldType": "System.String",
+        "FieldLength": 958
       }
     }
   }

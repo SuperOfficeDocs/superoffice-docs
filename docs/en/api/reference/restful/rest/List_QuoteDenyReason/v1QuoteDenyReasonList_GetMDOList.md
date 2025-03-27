@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=nemo
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=ex
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 830,
-    "Name": "Cartwright, Medhurst and DuBuque",
-    "ToolTip": "Qui iure cum dolorem.",
+    "Id": 65,
+    "Name": "Smith-Kris",
+    "ToolTip": "Est illum error.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "expedita",
+    "Rank": 685,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Schimmel, Oberbrunner and Leannon",
-        "ToolTip": "Voluptas rem necessitatibus sed qui est.",
+        "Id": 674,
+        "Name": "Koepp-Rowe",
+        "ToolTip": "Ratione ducimus est.",
         "Deleted": false,
-        "Rank": 562,
-        "Type": "ut",
+        "Rank": 690,
+        "Type": "quo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 399,
-        "ExtraInfo": "ut",
-        "StyleHint": "velit",
-        "FullName": "Vance Kilback",
+        "IconHint": "totam",
+        "ColorBlock": 954,
+        "ExtraInfo": "nemo",
+        "StyleHint": "molestiae",
+        "FullName": "Mr. Dustin Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 523
+            "FieldType": "System.Int32",
+            "FieldLength": 518
           }
         }
       }
     ],
-    "IconHint": "alias",
-    "ColorBlock": 322,
-    "ExtraInfo": "iusto",
-    "StyleHint": "dolore",
-    "FullName": "Ettie Reichert",
+    "IconHint": "accusamus",
+    "ColorBlock": 499,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "sed",
+    "FullName": "Mr. Malvina Gorczany IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

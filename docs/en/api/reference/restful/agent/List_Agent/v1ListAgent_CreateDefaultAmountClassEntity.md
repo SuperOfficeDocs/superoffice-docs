@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 1001,
-  "Name": "Fahey, Shields and Hickle",
-  "Tooltip": "consectetur",
-  "Rank": 77,
-  "AmountFrom": 13037.439999999999,
-  "AmountTo": 968.406,
-  "Deleted": false,
-  "CurrencyId": 5,
+  "AmountClassId": 870,
+  "Name": "Collier Group",
+  "Tooltip": "pariatur",
+  "Rank": 572,
+  "AmountFrom": 28509.998,
+  "AmountTo": 29553.62,
+  "Deleted": true,
+  "CurrencyId": 91,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 721
     }
   }
 }

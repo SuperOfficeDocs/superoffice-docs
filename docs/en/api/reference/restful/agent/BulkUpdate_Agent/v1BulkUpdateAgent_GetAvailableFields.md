@@ -103,76 +103,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": true,
+    "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "aperiam",
-    "ValueType": "molestiae",
-    "Mandatory": false,
-    "EncodedDisplayName": "Jacobson LLC",
-    "EncodedDisplayDescription": "Realigned discrete capacity",
-    "IconHint": "magnam",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "perspiciatis",
+    "ValueType": "facilis",
+    "Mandatory": true,
+    "EncodedDisplayName": "Spinka Group",
+    "EncodedDisplayDescription": "Organic 24 hour encryption",
+    "IconHint": "doloremque",
     "ControlInfos": [
       {
-        "Type": "error",
-        "Label": "aut",
-        "Dimension": 241,
-        "ListProviderName": "Nicolas, Greenfelder and McGlynn",
-        "ListProviderExtraInfo": "aut",
-        "ListProviderPrimaryKeyName": "Miller LLC",
-        "ListLeadText": "ratione",
+        "Type": "quidem",
+        "Label": "quidem",
+        "Dimension": 538,
+        "ListProviderName": "Nader-Roberts",
+        "ListProviderExtraInfo": "natus",
+        "ListProviderPrimaryKeyName": "Langosh, Mraz and Tillman",
+        "ListLeadText": "ut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldLength": 226
           }
         }
       }
     ],
-    "EncodedDataCaption": "est",
-    "EncodedDataCaptionDescription": "Focused optimal conglomeration",
-    "CurrentOperationType": "cumque",
+    "EncodedDataCaption": "qui",
+    "EncodedDataCaptionDescription": "Adaptive global instruction set",
+    "CurrentOperationType": "ut",
     "Values": [
-      "aut",
-      "repellat"
+      "ea",
+      "maiores"
     ],
     "DisplayValues": [
-      "autem",
-      "provident"
+      "reprehenderit",
+      "cum"
     ],
     "OperationInfos": [
       {
-        "Key": "est",
-        "EncodedDisplayName": "Gaylord, Olson and Lakin",
+        "Key": "cumque",
+        "EncodedDisplayName": "Barrows Inc and Sons",
         "EncodedLeadTexts": [
-          "ad",
-          "ut"
+          "maiores",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldType": "System.String",
+            "FieldLength": 264
           }
         }
       },
       {
-        "Key": "est",
-        "EncodedDisplayName": "Gaylord, Olson and Lakin",
+        "Key": "cumque",
+        "EncodedDisplayName": "Barrows Inc and Sons",
         "EncodedLeadTexts": [
-          "ad",
-          "ut"
+          "maiores",
+          "accusamus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldType": "System.String",
+            "FieldLength": 264
           }
         }
       }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Nikolaus, Reinger and Legros",
-    "ToolTip": "Repellat omnis architecto sunt consequatur.",
+    "Id": 302,
+    "Name": "Brakus-Carter",
+    "ToolTip": "Commodi aut saepe nam rerum.",
     "Deleted": true,
-    "Rank": 600,
-    "Type": "reprehenderit",
-    "ColorBlock": 960,
-    "IconHint": "illum",
+    "Rank": 31,
+    "Type": "molestias",
+    "ColorBlock": 46,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2021-07-12T14:13:50.1500173+02:00",
+    "LastChanged": "2017-07-17T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Ratke-Boyle",
-        "ToolTip": "In quis.",
+        "Id": 332,
+        "Name": "Bailey-Zboncak",
+        "ToolTip": "Molestiae enim.",
         "Deleted": false,
-        "Rank": 378,
-        "Type": "veritatis",
-        "ColorBlock": 302,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2020-07-06T14:13:50.1500173+02:00",
+        "Rank": 582,
+        "Type": "eaque",
+        "ColorBlock": 633,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2002-01-22T02:38:26.8705112+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cumque",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Tyree Christian Lueilwitz DDS",
+        "ExtraInfo": "animi",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Kaylee Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldType": "System.Int32",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Prof. Karlee Arielle Hamill Sr.",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "id",
+    "Hidden": false,
+    "FullName": "River Klocko DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 585
+        "FieldLength": 409
       }
     }
   }

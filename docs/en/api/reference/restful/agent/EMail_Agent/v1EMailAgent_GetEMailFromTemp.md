@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromTemp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Lubowitz-Murray"
+  "FileName": "West Inc and Sons"
 }
 ```
 
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 170,
-      "ContactName": "Schuster, Larson and Bosco",
-      "PersonId": 396,
-      "PersonName": "Nolan LLC",
-      "AssociateId": 623,
-      "Address": "nulla",
-      "EmailId": 342,
+      "ContactId": 319,
+      "ContactName": "Jakubowski, Hoppe and Conn",
+      "PersonId": 779,
+      "PersonName": "Borer Group",
+      "AssociateId": 335,
+      "Address": "sapiente",
+      "EmailId": 276,
       "DuplicatePersonIds": [
-        146,
-        823
+        667,
+        216
       ],
-      "Name": "Emmerich, Wehner and Davis",
+      "Name": "Rutherford Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldType": "System.String",
+          "FieldLength": 916
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 186,
-      "ContactName": "Walter-Rolfson",
-      "PersonId": 147,
-      "PersonName": "Kuhn, McGlynn and D'Amore",
-      "AssociateId": 862,
-      "Address": "doloremque",
-      "EmailId": 608,
+      "ContactId": 454,
+      "ContactName": "Cummerata LLC",
+      "PersonId": 209,
+      "PersonName": "Koch, Lowe and Witting",
+      "AssociateId": 261,
+      "Address": "consectetur",
+      "EmailId": 261,
       "DuplicatePersonIds": [
-        496,
-        583
+        258,
+        306
       ],
-      "Name": "Jewess-Goodwin",
+      "Name": "Hansen-Jacobson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 418
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 723,
-      "ContactName": "Schmeler Group",
-      "PersonId": 635,
-      "PersonName": "Dach, Wunsch and Runolfsdottir",
-      "AssociateId": 203,
-      "Address": "qui",
-      "EmailId": 504,
+      "ContactId": 75,
+      "ContactName": "Borer, Jewess and Beatty",
+      "PersonId": 629,
+      "PersonName": "Bergnaum, Yost and Schmeler",
+      "AssociateId": 149,
+      "Address": "ipsa",
+      "EmailId": 83,
       "DuplicatePersonIds": [
-        977,
-        580
+        169,
+        857
       ],
-      "Name": "Jaskolski Inc and Sons",
+      "Name": "Runolfsson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 825
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "necessitatibus",
+  "Subject": "aspernatur",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2021-11-27T14:13:40.2972545+01:00",
-  "Size": 263,
+  "Sent": "2001-10-24T02:38:21.401411+02:00",
+  "Size": 275,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "illo",
-  "PlainBody": "sint",
+  "MessageID": "dolores",
+  "PlainBody": "voluptate",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 187,
+  "ServerId": 201,
   "Attachments": [
     {
-      "Description": "Extended zero tolerance product",
-      "Filename": "recusandae",
-      "Size": 181,
-      "Type": "modi",
-      "Encoding": "nobis",
-      "Id": "maxime",
-      "Disposition": "consequatur",
+      "Description": "Customer-focused clear-thinking solution",
+      "Filename": "ea",
+      "Size": 371,
+      "Type": "cupiditate",
+      "Encoding": "hic",
+      "Id": "vitae",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,50 +215,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 543
+          "FieldLength": 888
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ullrich-Hauck",
+      "Name": "McGlynn-Treutel",
       "Values": [
-        "velit",
-        "sequi"
+        "quis",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 598
+          "FieldType": "System.String",
+          "FieldLength": 573
         }
       }
     },
     {
-      "Name": "Ullrich-Hauck",
+      "Name": "McGlynn-Treutel",
       "Values": [
-        "velit",
-        "sequi"
+        "quis",
+        "tenetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 598
+          "FieldType": "System.String",
+          "FieldLength": 573
         }
       }
     }
   ],
-  "FolderName": "Crooks Group",
-  "EmailItemId": 156,
-  "AccountId": 435,
-  "ReceivedAt": "2016-03-08T14:13:40.2972545+01:00",
+  "FolderName": "Jewess-Johnson",
+  "EmailItemId": 641,
+  "AccountId": 132,
+  "ReceivedAt": "2009-10-02T02:38:21.401411+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-10-18T14:13:40.2972545+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2011-02-15T02:38:21.401411+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 73
     }
   }
 }

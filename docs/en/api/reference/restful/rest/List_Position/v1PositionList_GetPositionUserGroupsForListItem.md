@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Hills-Parker",
-    "ToolTip": "Et est vitae sint fuga.",
-    "Deleted": false,
-    "Rank": 373,
-    "Type": "dolor",
-    "ColorBlock": 810,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2015-04-03T14:13:50.0406714+02:00",
+    "Id": 254,
+    "Name": "Grady LLC",
+    "ToolTip": "Voluptas vitae optio tenetur qui iure impedit et.",
+    "Deleted": true,
+    "Rank": 754,
+    "Type": "qui",
+    "ColorBlock": 445,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "1999-05-13T02:38:26.8080217+02:00",
     "ChildItems": [
       {
-        "Id": 533,
-        "Name": "Jacobs Inc and Sons",
-        "ToolTip": "Occaecati fuga laudantium eum.",
-        "Deleted": true,
-        "Rank": 888,
-        "Type": "sequi",
-        "ColorBlock": 654,
-        "IconHint": "omnis",
+        "Id": 459,
+        "Name": "Homenick Group",
+        "ToolTip": "Quia nostrum perspiciatis.",
+        "Deleted": false,
+        "Rank": 29,
+        "Type": "tempore",
+        "ColorBlock": 472,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2004-04-04T14:13:50.0406714+02:00",
+        "LastChanged": "2015-05-26T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "eos",
+        "ExtraInfo": "ipsam",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Beau Vivienne Gleason III",
+        "FullName": "Leslie Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 246
+            "FieldLength": 952
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Jacinthe Roob",
+    "ExtraInfo": "tempore",
+    "StyleHint": "beatae",
+    "Hidden": false,
+    "FullName": "Ms. Jerrold Goldner II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

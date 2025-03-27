@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=950
+POST /api/v1/Agents/Person/GetPerson?personId=781
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "rerum",
-  "PersonId": 960,
-  "Mrmrs": "explicabo",
-  "Firstname": "Ayana",
-  "Lastname": "Price",
-  "MiddleName": "Dietrich Group",
-  "Title": "aut",
-  "Description": "Monitored user-facing standardization",
-  "Email": "misael@cassin.uk",
-  "FullName": "Karelle Jamie Fritsch Sr.",
-  "DirectPhone": "959-112-0610",
-  "FormalName": "Wunsch-Goldner",
-  "CountryId": 947,
-  "ContactId": 583,
-  "ContactName": "Blick-Osinski",
-  "Retired": 298,
-  "Rank": 960,
-  "ActiveInterests": 192,
+  "Position": "aut",
+  "PersonId": 755,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Chadrick",
+  "Lastname": "Kulas",
+  "MiddleName": "Walsh, Renner and Oberbrunner",
+  "Title": "sequi",
+  "Description": "Compatible composite Graphic Interface",
+  "Email": "derick@effertz.uk",
+  "FullName": "Prof. Ned Mitchell",
+  "DirectPhone": "(328)624-9930 x855",
+  "FormalName": "Hahn LLC",
+  "CountryId": 770,
+  "ContactId": 508,
+  "ContactName": "Lehner, Ryan and Feil",
+  "Retired": 657,
+  "Rank": 44,
+  "ActiveInterests": 156,
   "ContactDepartment": "",
-  "ContactCountryId": 203,
-  "ContactOrgNr": "533833",
-  "FaxPhone": "247-099-9531",
-  "MobilePhone": "1-244-392-9179",
-  "ContactPhone": "359.177.3777 x5810",
-  "AssociateName": "Wolf, Adams and Rath",
-  "AssociateId": 138,
+  "ContactCountryId": 503,
+  "ContactOrgNr": "488026",
+  "FaxPhone": "803.927.1355",
+  "MobilePhone": "320.675.0005",
+  "ContactPhone": "517.453.4491 x213",
+  "AssociateName": "Oberbrunner, Abshire and Considine",
+  "AssociateId": 626,
   "UsePersonAddress": false,
-  "ContactFax": "magnam",
-  "Kanafname": "voluptas",
-  "Kanalname": "sit",
-  "Post1": "est",
-  "Post2": "magni",
-  "Post3": "non",
-  "EmailName": "lukas_fisher@schaden.us",
-  "ContactFullName": "Davonte Anderson",
-  "ActiveErpLinks": 33,
-  "TicketPriorityId": 132,
-  "SupportLanguageId": 531,
-  "SupportAssociateId": 219,
+  "ContactFax": "harum",
+  "Kanafname": "illo",
+  "Kanalname": "aliquid",
+  "Post1": "dolor",
+  "Post2": "similique",
+  "Post3": "pariatur",
+  "EmailName": "landen.turcotte@donnelly.uk",
+  "ContactFullName": "Noemi Jaunita Ullrich V",
+  "ActiveErpLinks": 472,
+  "TicketPriorityId": 579,
+  "SupportLanguageId": 472,
+  "SupportAssociateId": 148,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1306494",
+  "PersonNumber": "1501311",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 439
     }
   }
 }

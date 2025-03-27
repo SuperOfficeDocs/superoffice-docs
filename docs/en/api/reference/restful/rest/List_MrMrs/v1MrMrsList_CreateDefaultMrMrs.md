@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 208,
-  "Name": "Collier LLC",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "UdListDefinitionId": 186,
-  "Rank": 130,
+  "Id": 475,
+  "Name": "Doyle-Gibson",
+  "Tooltip": "reprehenderit",
+  "Deleted": true,
+  "UdListDefinitionId": 575,
+  "Rank": 901,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldLength": 825
     }
   }
 }

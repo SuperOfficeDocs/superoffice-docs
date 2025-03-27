@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Hoppe, Hilll and Casper",
-    "ToolTip": "Autem dolor est consectetur.",
+    "Id": 363,
+    "Name": "Rodriguez, Little and Corwin",
+    "ToolTip": "Quibusdam distinctio.",
     "Deleted": false,
-    "Rank": 192,
-    "Type": "qui",
-    "ColorBlock": 348,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2000-12-08T14:13:41.6727478+01:00",
+    "Rank": 396,
+    "Type": "voluptas",
+    "ColorBlock": 303,
+    "IconHint": "non",
+    "Selected": false,
+    "LastChanged": "2018-11-21T02:38:22.1981664+01:00",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Ritchie, Gleichner and McClure",
-        "ToolTip": "Ut est deserunt quibusdam facere ipsam expedita in.",
+        "Id": 349,
+        "Name": "Gleichner Group",
+        "ToolTip": "Similique rerum quam.",
         "Deleted": false,
-        "Rank": 308,
-        "Type": "autem",
-        "ColorBlock": 621,
-        "IconHint": "culpa",
+        "Rank": 122,
+        "Type": "alias",
+        "ColorBlock": 966,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2024-04-09T14:13:41.6727478+02:00",
+        "LastChanged": "2015-11-01T02:38:22.1981664+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "commodi",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Miss Maya Caesar Padberg",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Casandra Heller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 871
+            "FieldType": "System.Int32",
+            "FieldLength": 552
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Jamar Alessia Gulgowski Jr.",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Kristin Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldLength": 98
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=921
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=621
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -119,7 +119,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,65 +129,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 563,
-  "StartDate": "1999-09-11T14:13:39.0786746+02:00",
-  "EndDate": "2024-03-05T14:13:39.0786746+01:00",
+  "AppointmentId": 45,
+  "StartDate": "2014-05-26T02:38:20.698363+02:00",
+  "EndDate": "2000-10-04T02:38:20.698363+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sapiente",
-  "AssociateFullName": "Mr. Clay Duncan Harris III",
-  "ContactName": "Koch-Kshlerin",
-  "Description": "Open-source real-time knowledge base",
-  "PersonFullName": "Prof. Maiya Littel",
-  "PersonId": 629,
-  "ContactId": 383,
-  "ProjectId": 311,
-  "ProjectName": "Yundt, Zulauf and Bashirian",
-  "IsPublished": false,
-  "AssociateId": 309,
-  "ColorIndex": 380,
+  "Task": "aut",
+  "AssociateFullName": "Prof. Ebba Wilkinson",
+  "ContactName": "Weimann-Schroeder",
+  "Description": "Multi-channelled analyzing adapter",
+  "PersonFullName": "Meagan Botsford",
+  "PersonId": 702,
+  "ContactId": 838,
+  "ProjectId": 757,
+  "ProjectName": "Bode, Hahn and Abbott",
+  "IsPublished": true,
+  "AssociateId": 567,
+  "ColorIndex": 856,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 989,
-  "PriorityName": "Mills, Reilly and Krajcik",
+  "PriorityId": 578,
+  "PriorityName": "Kassulke-Morar",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
-  "IsBooking": true,
-  "ActiveDate": "2022-02-08T14:13:39.0786746+01:00",
+  "IsBooking": false,
+  "ActiveDate": "2002-10-31T02:38:20.698363+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-12-15T14:13:39.0786746+01:00",
-  "RecurringEndDate": "2016-07-04T14:13:39.0786746+02:00",
-  "MotherId": 996,
-  "AssignedBy": 565,
-  "AssignedByFullName": "Matteo Hyatt",
+  "RecurringStartDate": "1998-03-01T02:38:20.698363+01:00",
+  "RecurringEndDate": "2010-09-10T02:38:20.698363+02:00",
+  "MotherId": 447,
+  "AssignedBy": 588,
+  "AssignedByFullName": "Jadon Kameron Kreiger PhD",
   "RejectReason": "",
-  "Location": "reprehenderit",
-  "AlarmLeadTime": "doloremque",
-  "SaleId": 722,
-  "SaleName": "Little Group",
-  "AssociateName": "Effertz-Kovacek",
-  "CreatedDate": "2024-09-25T14:13:39.0786746+02:00",
-  "CreatedBy": "molestiae",
-  "CreatedByFullName": "Jaquan Hauck",
-  "CreatedByAssociateId": 737,
+  "Location": "qui",
+  "AlarmLeadTime": "at",
+  "SaleId": 959,
+  "SaleName": "Connelly-Haag",
+  "AssociateName": "Kuphal-Eichmann",
+  "CreatedDate": "2023-01-29T02:38:20.698363+01:00",
+  "CreatedBy": "vero",
+  "CreatedByFullName": "Frederique Ryan",
+  "CreatedByAssociateId": 106,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 795,
-  "Title": "illo",
-  "Agenda": "eum",
-  "InternalNotes": "possimus",
+  "PreferredTZLocation": 559,
+  "Title": "expedita",
+  "Agenda": "sunt",
+  "InternalNotes": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 655
     }
   }
 }

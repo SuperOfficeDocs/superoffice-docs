@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Schmidt Inc and Sons",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 396,
-  "IsCustomList": true,
+  "Id": 113,
+  "Name": "Johns LLC",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "Rank": 23,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": false
+  "ListType": "magnam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 676,
-  "Name": "Grady, Ebert and Zemlak",
-  "Tooltip": "vel",
+  "Id": 321,
+  "Name": "Windler, Gorczany and Beatty",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 59,
+  "Rank": 146,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "in",
+  "UseGroupsAndHeadings": true,
+  "ListType": "impedit",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 796
     }
   }
 }

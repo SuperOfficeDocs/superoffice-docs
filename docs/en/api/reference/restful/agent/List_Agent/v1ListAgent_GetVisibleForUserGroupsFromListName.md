@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Nolan-Hettinger",
-  "ListItemId": 877
+  "UdListDefinitionName": "Feeney-Padberg",
+  "ListItemId": 661
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Wiza, Wilkinson and Wiegand",
-    "ToolTip": "Animi dolorum voluptatibus.",
-    "Deleted": false,
-    "Rank": 67,
-    "Type": "magnam",
-    "ColorBlock": 98,
-    "IconHint": "dolore",
+    "Id": 581,
+    "Name": "McKenzie Group",
+    "ToolTip": "Eveniet et explicabo quia placeat est.",
+    "Deleted": true,
+    "Rank": 961,
+    "Type": "quia",
+    "ColorBlock": 276,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2004-11-09T14:13:40.4690906+01:00",
+    "LastChanged": "2013-01-06T02:38:21.4951545+01:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Tromp-Windler",
-        "ToolTip": "Voluptates dolor id assumenda ad qui placeat.",
-        "Deleted": true,
-        "Rank": 602,
-        "Type": "ducimus",
-        "ColorBlock": 806,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2007-10-27T14:13:40.4690906+02:00",
+        "Id": 889,
+        "Name": "Brekke-Erdman",
+        "ToolTip": "Expedita consequatur debitis et molestiae maiores natus ut.",
+        "Deleted": false,
+        "Rank": 183,
+        "Type": "quidem",
+        "ColorBlock": 105,
+        "IconHint": "voluptate",
+        "Selected": true,
+        "LastChanged": "2020-06-20T02:38:21.4951545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Jennings Frami",
+        "ExtraInfo": "rem",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Kade Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 781
+            "FieldType": "System.String",
+            "FieldLength": 576
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "sit",
+    "ExtraInfo": "aut",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Prof. Jordon Fred Carter",
+    "FullName": "Ms. Annabel Zane Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 831
       }
     }
   }

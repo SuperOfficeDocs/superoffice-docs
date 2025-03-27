@@ -90,10 +90,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "et",
-  "PrefKey": "hic",
+  "PrefSection": "dolorem",
+  "PrefKey": "modi",
   "PrefLevel": "Database",
-  "OwnerId": 213
+  "OwnerId": 794
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "accusamus",
+  "RawValue": "consequatur",
   "Specification": null,
-  "DisplayValue": "minima",
-  "DisplayTooltip": "eos",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "magnam",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 431,
-  "PrefDescId": 548,
-  "TableName": "Ondricka Group",
-  "UserPreferenceId": 174,
+  "TargetId": 132,
+  "PrefDescId": 173,
+  "TableName": "Bahringer, Renner and Krajcik",
+  "UserPreferenceId": 810,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 485
     }
   }
 }

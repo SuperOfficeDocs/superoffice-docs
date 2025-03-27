@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "vel"
+  "TriggerScriptUniqueId": "possimus"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 71,
-  "Name": "Leannon Inc and Sons",
+  "ScreenChooserId": 861,
+  "Name": "Hessel-Marvin",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consequatur",
-  "Source": "animi",
-  "Registered": "2017-09-03T14:13:39.9223399+02:00",
-  "RegisteredAssociateId": 657,
-  "Updated": "2009-02-11T14:13:39.9223399+01:00",
-  "UpdatedAssociateId": 385,
+  "UniqueIdentifier": "provident",
+  "Source": "id",
+  "Registered": "2022-02-03T02:38:21.182685+01:00",
+  "RegisteredAssociateId": 802,
+  "Updated": "2022-06-14T02:38:21.182685+02:00",
+  "UpdatedAssociateId": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldLength": 685
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=voluptatem
+GET /api/v1/List/Country/MDOItems?query=cum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 44,
-    "Name": "Abbott, Ankunding and Krajcik",
-    "ToolTip": "Ipsum dicta nihil velit consequatur iusto.",
-    "Deleted": true,
-    "Rank": 574,
-    "Type": "ut",
+    "Id": 8,
+    "Name": "Morar-Dicki",
+    "ToolTip": "Et quaerat.",
+    "Deleted": false,
+    "Rank": 957,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Keebler-Rempel",
-        "ToolTip": "Laboriosam animi dolore ea.",
-        "Deleted": true,
-        "Rank": 731,
-        "Type": "et",
+        "Id": 623,
+        "Name": "Koelpin LLC",
+        "ToolTip": "Consequatur accusamus eos officia.",
+        "Deleted": false,
+        "Rank": 215,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minus",
-        "ColorBlock": 513,
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "FullName": "Hosea Hahn",
+        "IconHint": "tenetur",
+        "ColorBlock": 682,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "enim",
+        "FullName": "Osborne Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 158
+            "FieldType": "System.Int32",
+            "FieldLength": 982
           }
         }
       }
     ],
-    "IconHint": "ad",
-    "ColorBlock": 599,
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eos",
-    "FullName": "Kathryn McDermott",
+    "IconHint": "aliquid",
+    "ColorBlock": 830,
+    "ExtraInfo": "impedit",
+    "StyleHint": "dolorem",
+    "FullName": "Dr. Wilburn Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldType": "System.String",
+        "FieldLength": 546
       }
     }
   }

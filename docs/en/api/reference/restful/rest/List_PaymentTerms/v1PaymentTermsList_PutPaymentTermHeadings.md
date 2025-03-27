@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 609,
-    "Name": "Herman, Marvin and Bernier",
-    "Tooltip": "quisquam",
+    "HeadingId": 643,
+    "Name": "Reichert LLC",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 673
+    "Rank": 167,
+    "UdListDefinitionId": 121
   },
   {
-    "HeadingId": 609,
-    "Name": "Herman, Marvin and Bernier",
-    "Tooltip": "quisquam",
+    "HeadingId": 643,
+    "Name": "Reichert LLC",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 938,
-    "UdListDefinitionId": 673
+    "Rank": 167,
+    "UdListDefinitionId": 121
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 6,
-    "Name": "Roob Inc and Sons",
-    "Tooltip": "sint",
+    "HeadingId": 965,
+    "Name": "Hyatt LLC",
+    "Tooltip": "harum",
     "Deleted": false,
-    "Rank": 236,
-    "UdListDefinitionId": 715,
+    "Rank": 589,
+    "UdListDefinitionId": 294,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 818
       }
     }
   }

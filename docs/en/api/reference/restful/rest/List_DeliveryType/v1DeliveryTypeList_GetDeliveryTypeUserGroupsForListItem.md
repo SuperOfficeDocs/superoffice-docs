@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Mayert Group",
-    "ToolTip": "Autem quo sed rem alias nihil repudiandae.",
+    "Id": 66,
+    "Name": "Schuppe, McGlynn and Mann",
+    "ToolTip": "Dolorem fuga dolores ea officiis.",
     "Deleted": false,
-    "Rank": 232,
-    "Type": "ab",
-    "ColorBlock": 75,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2006-11-08T14:13:49.9469396+01:00",
+    "Rank": 541,
+    "Type": "doloribus",
+    "ColorBlock": 520,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2010-06-16T02:38:26.7611442+02:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Beer, Dickens and D'Amore",
-        "ToolTip": "Optio dignissimos eligendi consequatur pariatur molestiae vitae.",
+        "Id": 9,
+        "Name": "Rohan Inc and Sons",
+        "ToolTip": "Cum voluptates.",
         "Deleted": true,
-        "Rank": 409,
-        "Type": "autem",
-        "ColorBlock": 962,
-        "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2015-10-26T14:13:49.9469396+01:00",
+        "Rank": 411,
+        "Type": "quia",
+        "ColorBlock": 870,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2022-09-09T02:38:26.7611442+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "illum",
         "Hidden": false,
-        "FullName": "Mrs. Carol Braun",
+        "FullName": "Wallace Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldType": "System.String",
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "autem",
+    "ExtraInfo": "unde",
+    "StyleHint": "id",
     "Hidden": true,
-    "FullName": "Dr. Wyatt Einar Ortiz",
+    "FullName": "Don Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldType": "System.String",
+        "FieldLength": 633
       }
     }
   }

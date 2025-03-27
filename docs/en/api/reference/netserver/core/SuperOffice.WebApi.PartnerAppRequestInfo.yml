@@ -11,6 +11,7 @@ items:
   - SuperOffice.WebApi.PartnerAppRequestInfo.DeveloperPortalId
   - SuperOffice.WebApi.PartnerAppRequestInfo.ExcludeFromInvoice
   - SuperOffice.WebApi.PartnerAppRequestInfo.IsCustomCRMScript
+  - SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
   - SuperOffice.WebApi.PartnerAppRequestInfo.Method
   - SuperOffice.WebApi.PartnerAppRequestInfo.OnlineAppId
   - SuperOffice.WebApi.PartnerAppRequestInfo.OwnerName
@@ -345,6 +346,37 @@ items:
       type: System.Boolean
     content.vb: Public Property ExcludeFromInvoice As Boolean
   overload: SuperOffice.WebApi.PartnerAppRequestInfo.ExcludeFromInvoice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
+  commentId: P:SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
+  id: LogAllRequestsUntil
+  parent: SuperOffice.WebApi.PartnerAppRequestInfo
+  langs:
+  - csharp
+  - vb
+  name: LogAllRequestsUntil
+  nameWithType: PartnerAppRequestInfo.LogAllRequestsUntil
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
+  type: Property
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.WebApi
+  summary: "\nLog all requests to Application Insights until this utc-time.  This means that the \nrequest will be voted to be sampled in when logging to Application Insights.\n"
+  syntax:
+    content: public Nullable<DateTime> LogAllRequestsUntil { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+    content.vb: Public Property LogAllRequestsUntil As Nullable(Of DateTime)
+  overload: SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil*
   modifiers.csharp:
   - public
   - get
@@ -879,3 +911,52 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil*
+  commentId: Overload:SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
+  isExternal: true
+  name: LogAllRequestsUntil
+  nameWithType: PartnerAppRequestInfo.LogAllRequestsUntil
+  fullName: SuperOffice.WebApi.PartnerAppRequestInfo.LogAllRequestsUntil
+- uid: System.Nullable{System.DateTime}
+  commentId: '!:System.Nullable{System.DateTime}'
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -30,7 +30,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=387
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=484
 ```
 
 
@@ -77,7 +77,7 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,10 +87,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman Group",
-  "Description": "Programmable system-worthy help-desk",
-  "ExternalReference": "eum",
-  "MimeType": "vitae",
-  "PluginId": 749
+  "Name": "Larkin LLC",
+  "Description": "De-engineered 24 hour budgetary management",
+  "ExternalReference": "laboriosam",
+  "MimeType": "porro",
+  "PluginId": 695
 }
 ```

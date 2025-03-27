@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 293,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "laborum",
-  "Name": "Gutkowski-Collier",
-  "Description": "Profound user-facing attitude",
-  "Code": "rerum",
-  "PriceUnit": "ipsum",
+  "ProductId": 611,
+  "ERPProductKey": "dolorum",
+  "ERPPriceListKey": "iste",
+  "Name": "Daniel-Morar",
+  "Description": "Fundamental optimizing conglomeration",
+  "Code": "autem",
+  "PriceUnit": "sit",
   "QuantityUnit": "voluptate",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 25814.757999999998,
-  "ItemNumber": "1671762",
+  "IsSubscription": true,
+  "SubscriptionUnit": "qui",
+  "DefaultSubscriptionQuantity": 7440.116,
+  "ItemNumber": "1237731",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "ut",
-  "VAT": 7769.186,
-  "VATInfo": "voluptatem",
-  "UnitCost": 24059.718,
-  "UnitMinimumPrice": 9298.578,
-  "UnitListPrice": 2112.316,
+  "ProductFamilyKey": "architecto",
+  "ProductTypeKey": "et",
+  "VAT": 10502.034,
+  "VATInfo": "exercitationem",
+  "UnitCost": 18007.964,
+  "UnitMinimumPrice": 7552.94,
+  "UnitListPrice": 27651.282,
   "InAssortment": false,
-  "Supplier": "voluptates",
-  "SupplierCode": "ut",
-  "Rights": "sapiente",
-  "Rule": "vero",
+  "Supplier": "non",
+  "SupplierCode": "voluptas",
+  "Rights": "nobis",
+  "Rule": "illum",
   "ExtraInfo": [
     {
-      "Name": "Gleason, Veum and Quigley",
-      "Value": "omnis",
+      "Name": "Davis, Fahey and Langosh",
+      "Value": "quod",
       "Type": "Image"
     },
     {
-      "Name": "Gleason, Veum and Quigley",
-      "Value": "omnis",
+      "Name": "Davis, Fahey and Langosh",
+      "Value": "quod",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "rem",
-  "ExtraField1": "consequatur",
-  "ExtraField2": "qui",
-  "ExtraField3": "quo",
-  "ExtraField4": "quia",
-  "ExtraField5": "ea",
-  "InStock": 10674.404
+  "RawExtraInfo": "consequuntur",
+  "ExtraField1": "at",
+  "ExtraField2": "quis",
+  "ExtraField3": "aut",
+  "ExtraField4": "cumque",
+  "ExtraField5": "ducimus",
+  "InStock": 29500.342
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 882,
-  "ERPProductKey": "dolor",
-  "ERPPriceListKey": "aut",
-  "Name": "Lemke LLC",
-  "Description": "Intuitive systematic help-desk",
-  "Code": "nam",
-  "PriceUnit": "quo",
-  "QuantityUnit": "voluptas",
-  "IsSubscription": false,
-  "SubscriptionUnit": "nostrum",
-  "DefaultSubscriptionQuantity": 3281.298,
-  "ItemNumber": "978387",
+  "ProductId": 340,
+  "ERPProductKey": "laudantium",
+  "ERPPriceListKey": "beatae",
+  "Name": "Stark Inc and Sons",
+  "Description": "Down-sized national support",
+  "Code": "et",
+  "PriceUnit": "nesciunt",
+  "QuantityUnit": "dolor",
+  "IsSubscription": true,
+  "SubscriptionUnit": "recusandae",
+  "DefaultSubscriptionQuantity": 19778.674,
+  "ItemNumber": "1051957",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consectetur",
-  "ProductTypeKey": "eius",
-  "VAT": 999.746,
-  "VATInfo": "assumenda",
-  "UnitCost": 21577.59,
-  "UnitMinimumPrice": 15930.122,
-  "UnitListPrice": 23266.816,
-  "InAssortment": false,
-  "Supplier": "veniam",
-  "SupplierCode": "facilis",
-  "Rights": "sit",
-  "Rule": "voluptatibus",
+  "ProductFamilyKey": "qui",
+  "ProductTypeKey": "modi",
+  "VAT": 767.82999999999993,
+  "VATInfo": "laboriosam",
+  "UnitCost": 18064.376,
+  "UnitMinimumPrice": 20718.874,
+  "UnitListPrice": 4456.548,
+  "InAssortment": true,
+  "Supplier": "dolorum",
+  "SupplierCode": "in",
+  "Rights": "eligendi",
+  "Rule": "neque",
   "ExtraInfo": [
     {
-      "Name": "Borer, Rau and Daugherty",
-      "Value": "et",
+      "Name": "Klocko, Bosco and Mann",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 941
         }
       }
     },
     {
-      "Name": "Borer, Rau and Daugherty",
-      "Value": "et",
+      "Name": "Klocko, Bosco and Mann",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 659
+          "FieldLength": 941
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
-  "ExtraField1": "est",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "ut",
-  "ExtraField5": "est",
-  "InStock": 16754.363999999998,
+  "RawExtraInfo": "amet",
+  "ExtraField1": "molestiae",
+  "ExtraField2": "est",
+  "ExtraField3": "voluptas",
+  "ExtraField4": "non",
+  "ExtraField5": "impedit",
+  "InStock": 22141.71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

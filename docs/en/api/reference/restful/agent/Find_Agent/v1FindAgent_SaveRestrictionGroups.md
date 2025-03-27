@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "suscipit",
-  "ProviderName": "Towne Group",
-  "StorageKey": "quas",
+  "StorageType": "quo",
+  "ProviderName": "Bauch, Wiegand and Schaden",
+  "StorageKey": "eligendi",
   "RestrictionGroups": [
     {
-      "Name": "Koss Group",
-      "Description": "Decentralized high-level system engine",
-      "Rank": 127,
+      "Name": "Hayes, Medhurst and Fay",
+      "Description": "Organized methodical approach",
+      "Rank": 108,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss Group",
-      "Description": "Decentralized high-level system engine",
-      "Rank": 127,
+      "Name": "Hayes, Medhurst and Fay",
+      "Description": "Organized methodical approach",
+      "Rank": 108,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "aspernatur"
+  "Context": "similique"
 }
 ```
 
@@ -117,20 +117,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kreiger-Casper",
-    "Description": "Quality-focused real-time orchestration",
-    "Rank": 249,
+    "Name": "Marks-Hayes",
+    "Description": "Public-key 4th generation parallelism",
+    "Rank": 661,
     "Restrictions": [
       {
-        "Name": "Jones, Harvey and Hilll",
-        "Operator": "porro",
+        "Name": "Kassulke Inc and Sons",
+        "Operator": "earum",
         "Values": [
-          "itaque",
-          "aperiam"
+          "libero",
+          "reiciendis"
         ],
         "DisplayValues": [
-          "adipisci",
-          "incidunt"
+          "cumque",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -138,27 +138,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 564,
+        "InterParenthesis": 47,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 16
       }
     ]
   },
   {
-    "Name": "Kreiger-Casper",
-    "Description": "Quality-focused real-time orchestration",
-    "Rank": 249,
+    "Name": "Marks-Hayes",
+    "Description": "Public-key 4th generation parallelism",
+    "Rank": 661,
     "Restrictions": [
       {
-        "Name": "Jones, Harvey and Hilll",
-        "Operator": "porro",
+        "Name": "Kassulke Inc and Sons",
+        "Operator": "earum",
         "Values": [
-          "itaque",
-          "aperiam"
+          "libero",
+          "reiciendis"
         ],
         "DisplayValues": [
-          "adipisci",
-          "incidunt"
+          "cumque",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -166,9 +166,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 564,
+        "InterParenthesis": 47,
         "InterOperator": "And",
-        "UniqueHash": 741
+        "UniqueHash": 16
       }
     ]
   }

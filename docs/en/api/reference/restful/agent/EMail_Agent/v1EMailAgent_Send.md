@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "assumenda",
-      "HTMLBody": "earum",
+      "Subject": "ea",
+      "HTMLBody": "molestias",
       "From": null,
-      "Sent": "2011-06-19T14:13:40.1566615+02:00",
-      "Size": 563,
+      "Sent": "2013-11-12T02:38:21.3232921+01:00",
+      "Size": 717,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "ipsam",
-      "PlainBody": "ad",
+      "MessageID": "ullam",
+      "PlainBody": "dolor",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 923,
+      "ServerId": 582,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "O'Reilly-Terry",
-      "EmailItemId": 306,
-      "AccountId": 790,
-      "ReceivedAt": "2001-02-22T14:13:40.1566615+01:00",
+      "FolderName": "Murazik LLC",
+      "EmailItemId": 326,
+      "AccountId": 806,
+      "ReceivedAt": "2003-04-20T02:38:21.3232921+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2016-04-29T14:13:40.1566615+02:00",
-      "HasCalendarData": false,
+      "RepliedAt": "2003-08-08T02:38:21.3232921+02:00",
+      "HasCalendarData": true,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,97 +162,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 352,
-        "ContactName": "Waters, Lubowitz and Weimann",
-        "PersonId": 650,
-        "PersonName": "O'Keefe-Zulauf",
-        "AssociateId": 635,
-        "Address": "quos",
-        "EmailId": 103,
+        "ContactId": 403,
+        "ContactName": "Reichel Group",
+        "PersonId": 2,
+        "PersonName": "Rolfson-Jakubowski",
+        "AssociateId": 381,
+        "Address": "est",
+        "EmailId": 311,
         "DuplicatePersonIds": [
-          314,
-          431
+          879,
+          613
         ],
-        "Name": "Erdman, Schoen and McLaughlin",
+        "Name": "Heathcote-Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 733
+            "FieldType": "System.String",
+            "FieldLength": 805
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 379,
-        "ContactName": "Kovacek-Kohler",
-        "PersonId": 118,
-        "PersonName": "Crist-Glover",
-        "AssociateId": 49,
-        "Address": "officia",
-        "EmailId": 290,
+        "ContactId": 840,
+        "ContactName": "Wisoky-Schaefer",
+        "PersonId": 562,
+        "PersonName": "Ankunding, Dickens and Gutkowski",
+        "AssociateId": 589,
+        "Address": "veritatis",
+        "EmailId": 933,
         "DuplicatePersonIds": [
-          253,
-          554
+          20,
+          66
         ],
-        "Name": "Nicolas, Weimann and Hilpert",
+        "Name": "Durgan LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 536
+            "FieldType": "System.String",
+            "FieldLength": 46
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 390,
-        "ContactName": "Kertzmann, Marks and Dietrich",
-        "PersonId": 470,
-        "PersonName": "Emmerich-Corwin",
-        "AssociateId": 781,
-        "Address": "harum",
-        "EmailId": 340,
+        "ContactId": 733,
+        "ContactName": "Thompson-Adams",
+        "PersonId": 562,
+        "PersonName": "Gleichner Group",
+        "AssociateId": 406,
+        "Address": "vero",
+        "EmailId": 737,
         "DuplicatePersonIds": [
-          81,
-          514
+          292,
+          254
         ],
-        "Name": "Halvorson-Vandervort",
+        "Name": "Bernhard-Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 316
+            "FieldType": "System.String",
+            "FieldLength": 204
           }
         }
       }
     ],
-    "Subject": "voluptatem",
-    "HTMLBody": "omnis",
+    "Subject": "nobis",
+    "HTMLBody": "aliquam",
     "From": null,
-    "Sent": "2016-01-12T14:13:40.1722829+01:00",
-    "Size": 219,
+    "Sent": "2020-01-04T02:38:21.3232921+01:00",
+    "Size": 154,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "temporibus",
-    "PlainBody": "et",
+    "MessageID": "nam",
+    "PlainBody": "inventore",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 655,
+    "ServerId": 876,
     "Attachments": [
       {
-        "Description": "Object-based upward-trending structure",
-        "Filename": "omnis",
-        "Size": 738,
-        "Type": "et",
-        "Encoding": "nihil",
-        "Id": "nemo",
-        "Disposition": "a",
+        "Description": "Down-sized object-oriented structure",
+        "Filename": "facilis",
+        "Size": 296,
+        "Type": "cupiditate",
+        "Encoding": "non",
+        "Id": "et",
+        "Disposition": "aut",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -260,50 +260,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 445
+            "FieldLength": 669
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Kozey-Adams",
+        "Name": "Vandervort-Labadie",
         "Values": [
-          "qui",
-          "ut"
+          "nostrum",
+          "veritatis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 416
           }
         }
       },
       {
-        "Name": "Kozey-Adams",
+        "Name": "Vandervort-Labadie",
         "Values": [
-          "qui",
-          "ut"
+          "nostrum",
+          "veritatis"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 416
           }
         }
       }
     ],
-    "FolderName": "Crona Inc and Sons",
-    "EmailItemId": 234,
-    "AccountId": 574,
-    "ReceivedAt": "2024-10-18T14:13:40.1722829+02:00",
+    "FolderName": "McDermott Group",
+    "EmailItemId": 59,
+    "AccountId": 893,
+    "ReceivedAt": "2011-09-19T02:38:21.3232921+02:00",
     "InReplyTo": null,
-    "RepliedAt": "1999-06-30T14:13:40.1722829+02:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2022-05-27T02:38:21.3232921+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 365
+        "FieldLength": 222
       }
     }
   }

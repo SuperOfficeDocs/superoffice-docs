@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 735,
-  "Name": "Kuphal-Walker",
-  "CreatedDate": "2009-04-15T14:13:48.8680781+02:00",
-  "UpdatedDate": "2014-01-30T14:13:48.8680781+01:00",
+  "ForeignAppId": 452,
+  "Name": "Kling, Nitzsche and Lesch",
+  "CreatedDate": "1998-04-17T02:38:26.1048073+02:00",
+  "UpdatedDate": "2022-09-29T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 186,
-      "Name": "Larkin-Ward",
-      "CreatedDate": "2003-11-18T14:13:48.8680781+01:00",
-      "UpdatedDate": "2007-07-26T14:13:48.8680781+02:00",
-      "AssociateFullName": "Miss Ezra O'Keefe PhD",
-      "CreatedBy": "et",
-      "UpdatedBy": "in",
-      "DeviceIdentifier": "dolorem",
-      "ForeignAppId": 348,
+      "ForeignDeviceId": 106,
+      "Name": "Halvorson-Cole",
+      "CreatedDate": "2018-02-24T02:38:26.1048073+01:00",
+      "UpdatedDate": "2001-06-19T02:38:26.1048073+02:00",
+      "AssociateFullName": "Isaiah Bayer",
+      "CreatedBy": "sed",
+      "UpdatedBy": "explicabo",
+      "DeviceIdentifier": "modi",
+      "ForeignAppId": 557,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldLength": 160
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldType": "System.String",
+      "FieldLength": 293
     }
   }
 }

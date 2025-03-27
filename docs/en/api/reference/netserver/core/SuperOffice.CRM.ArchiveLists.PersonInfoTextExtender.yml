@@ -5,7 +5,7 @@ items:
   id: PersonInfoTextExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SetJoin
   langs:
   - csharp
@@ -166,8 +166,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-  - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -175,16 +173,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
   langs:
   - csharp
   - vb
-  name: PersonInfoTextExtender()
-  nameWithType: PersonInfoTextExtender.PersonInfoTextExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.PersonInfoTextExtender()
+  name: PersonInfoTextExtender(String)
+  nameWithType: PersonInfoTextExtender.PersonInfoTextExtender(String)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.PersonInfoTextExtender(System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -194,8 +192,11 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and set the field names\n"
   syntax:
-    content: public PersonInfoTextExtender()
-    content.vb: Public Sub New
+    content: public PersonInfoTextExtender(string iconHint = "Person")
+    parameters:
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(iconHint As String = "Person")
   overload: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.#ctor*
   modifiers.csharp:
   - public
@@ -5491,84 +5492,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<PersonInfoTextExtender>(PersonInfoTextExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<PersonInfoTextExtender>(PersonInfoTextExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender>(SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonInfoTextExtender)(PersonInfoTextExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)(SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-  name.vb: AssignByReflection(Of PersonInfoTextExtender)(PersonInfoTextExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<PersonInfoTextExtender>
-    nameWithType: ObjectExtensions.AssignByReflection<PersonInfoTextExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
-    name: PersonInfoTextExtender
-    nameWithType: PersonInfoTextExtender
-    fullName: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of PersonInfoTextExtender)
-    nameWithType: ObjectExtensions.AssignByReflection(Of PersonInfoTextExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
-    name: PersonInfoTextExtender
-    nameWithType: PersonInfoTextExtender
-    fullName: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<PersonInfoTextExtender>()
-  nameWithType: ObjectExtensions.GraphCopy<PersonInfoTextExtender>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonInfoTextExtender)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)()
-  name.vb: GraphCopy(Of PersonInfoTextExtender)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<PersonInfoTextExtender>
-    nameWithType: ObjectExtensions.GraphCopy<PersonInfoTextExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of PersonInfoTextExtender)
-    nameWithType: ObjectExtensions.GraphCopy(Of PersonInfoTextExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -6006,103 +5929,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -6149,12 +5975,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -6167,6 +5987,13 @@ references:
   name: PersonInfoTextExtender
   nameWithType: PersonInfoTextExtender.PersonInfoTextExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonInfoTextExtender.PersonInfoTextExtender
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.TextTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.TextTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.TextTableInfo}

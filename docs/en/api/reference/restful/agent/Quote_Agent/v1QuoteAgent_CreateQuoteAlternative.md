@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 542,
-  "QuoteAlternativeName": "Jenkins Inc and Sons",
-  "QuoteAlternativeDescription": "Horizontal interactive alliance"
+  "QuoteVersionId": 773,
+  "QuoteAlternativeName": "Collier-Pfannerstill",
+  "QuoteAlternativeDescription": "Operative grid-enabled application"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 151,
-  "ERPQuoteAlternativeKey": "commodi",
-  "QuoteVersionId": 541,
-  "Name": "Mosciski, Smith and Botsford",
-  "Description": "Enterprise-wide 24/7 archive",
+  "QuoteAlternativeId": 148,
+  "ERPQuoteAlternativeKey": "nihil",
+  "QuoteVersionId": 838,
+  "Name": "Shanahan Group",
+  "Description": "Multi-lateral clear-thinking knowledge user",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6377.69,
-  "ERPDiscountAmount": 15087.076,
-  "DiscountPercent": 17462.648,
-  "DiscountAmount": 7085.974,
+  "ERPDiscountPercent": 21452.23,
+  "ERPDiscountAmount": 12075.302,
+  "DiscountPercent": 11000.34,
+  "DiscountAmount": 23968.832,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quod",
-  "VAT": 12163.054,
-  "EarningPercent": 30265.038,
-  "EarningAmount": 16086.822,
-  "SubTotal": 24382.52,
-  "TotalPrice": 26968.07,
-  "ExtraField1": "tempora",
+  "VATInfo": "qui",
+  "VAT": 28967.561999999998,
+  "EarningPercent": 25181.69,
+  "EarningAmount": 18503.136,
+  "SubTotal": 1635.9479999999999,
+  "TotalPrice": 5741.4879999999994,
+  "ExtraField1": "modi",
   "ExtraField2": "ut",
-  "ExtraField3": "enim",
-  "ExtraField4": "sequi",
-  "ExtraField5": "pariatur",
+  "ExtraField3": "ipsum",
+  "ExtraField4": "vel",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldLength": 945
     }
   }
 }

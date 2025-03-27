@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 930,
-  "Name": "Douglas LLC",
-  "Tooltip": "voluptas",
+  "ExtAppId": 806,
+  "Name": "Rath-Ward",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 227,
-  "Filename": "voluptas",
-  "Parameters": "unde",
-  "Workdir": "sed",
+  "Rank": 801,
+  "Filename": "in",
+  "Parameters": "dolor",
+  "Workdir": "ducimus",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": true,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 920,
+  "Icon": 648,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "et",
+  "Path": "eligendi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

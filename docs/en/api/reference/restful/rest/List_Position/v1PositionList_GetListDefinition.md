@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 268,
-  "Name": "O'Kon LLC",
-  "Tooltip": "corrupti",
-  "Deleted": true,
-  "Rank": 480,
+  "Id": 806,
+  "Name": "Lehner, Weimann and Emard",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "Rank": 900,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "dignissimos",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 130
     }
   },
   "_Links": {

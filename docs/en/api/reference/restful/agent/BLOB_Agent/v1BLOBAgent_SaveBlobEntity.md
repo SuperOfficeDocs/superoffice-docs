@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 715,
-  "BlobSize": 118,
-  "Description": "Self-enabling encompassing parallelism",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
+  "BlobId": 533,
+  "BlobSize": 640,
+  "Description": "Cross-group client-server synergy",
+  "ExtraInfo": "nemo",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "voluptatum",
-  "OriginalSize": 530,
-  "CreatedDate": "2017-04-01T14:13:39.3911033+02:00",
-  "UpdatedDate": "2008-03-17T14:13:39.3911033+01:00",
+  "MimeType": "id",
+  "OriginalSize": 541,
+  "CreatedDate": "2015-06-26T02:38:20.885843+02:00",
+  "UpdatedDate": "2007-07-17T02:38:20.885843+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "neque"
+  "ConceptualType": "ipsum"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 388,
-  "BlobSize": 758,
-  "Description": "Triple-buffered executive emulation",
-  "ExtraInfo": "dolores",
-  "IsEncrypted": false,
+  "BlobId": 263,
+  "BlobSize": 753,
+  "Description": "Open-source foreground contingency",
+  "ExtraInfo": "id",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "quaerat",
-  "OriginalSize": 968,
-  "CreatedDate": "2000-07-20T14:13:39.4067248+02:00",
-  "UpdatedDate": "1999-07-19T14:13:39.4067248+02:00",
+  "MimeType": "suscipit",
+  "OriginalSize": 123,
+  "CreatedDate": "1999-07-23T02:38:20.885843+02:00",
+  "UpdatedDate": "2019-01-14T02:38:20.885843+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 323
     }
   }
 }

@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    473,
-    783
+    967,
+    406
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 632,
-    "UniqueId": "facilis",
-    "Name": "Grady, Zulauf and Jakubowski",
-    "Description": "Synergized 4th generation info-mediaries",
-    "AssociateId": 252,
-    "Columns": 79,
+    "DashboardId": 427,
+    "UniqueId": "nobis",
+    "Name": "Ondricka-Weimann",
+    "Description": "Multi-channelled bandwidth-monitored standardization",
+    "AssociateId": 332,
+    "Columns": 184,
     "Theme": null,
-    "VisibleForAll": 547,
+    "VisibleForAll": 831,
     "VisibleForAssociates": [
-      776,
-      66
+      87,
+      920
     ],
     "VisibleForGroups": [
-      909,
-      747
+      235,
+      794
     ],
-    "PinForAll": 944,
+    "PinForAll": 899,
     "PinForAssociates": [
-      513,
-      397
+      300,
+      430
     ],
     "PinForGroups": [
-      933,
-      452
+      277,
+      68
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 827
+        "FieldType": "System.Int32",
+        "FieldLength": 306
       }
     }
   }

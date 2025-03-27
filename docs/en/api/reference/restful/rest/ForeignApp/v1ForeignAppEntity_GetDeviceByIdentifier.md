@@ -77,24 +77,24 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 15 Nov 1999 14:13:48 G11T
+Last-Modified: Fri, 16 Jun 2000 02:38:26 G6T
 
 {
-  "ForeignDeviceId": 7,
-  "Name": "Klocko, Kohler and Pacocha",
-  "CreatedDate": "2009-10-07T14:13:48.8836985+02:00",
-  "UpdatedDate": "1999-11-15T14:13:48.8836985+01:00",
-  "AssociateFullName": "Nicolette Kreiger",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "praesentium",
-  "DeviceIdentifier": "dolorem",
-  "ForeignAppId": 556,
+  "ForeignDeviceId": 257,
+  "Name": "Hessel-Mosciski",
+  "CreatedDate": "2011-04-05T02:38:26.1204323+02:00",
+  "UpdatedDate": "2000-06-16T02:38:26.1204323+02:00",
+  "AssociateFullName": "Dominique Kuphal",
+  "CreatedBy": "ut",
+  "UpdatedBy": "explicabo",
+  "DeviceIdentifier": "ut",
+  "ForeignAppId": 969,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 316
+      "FieldType": "System.Int32",
+      "FieldLength": 887
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 518,
-  "Name": "Leuschke-Kassulke",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "Rank": 618,
-  "UdListDefinitionId": 920
+  "HeadingId": 442,
+  "Name": "Mayer Group",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 888,
+  "UdListDefinitionId": 909
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 26,
-  "Name": "Little, Kohler and Medhurst",
-  "Tooltip": "iusto",
+  "HeadingId": 266,
+  "Name": "Maggio-Padberg",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 185,
-  "UdListDefinitionId": 108,
+  "Rank": 30,
+  "UdListDefinitionId": 109,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldLength": 389
     }
   }
 }

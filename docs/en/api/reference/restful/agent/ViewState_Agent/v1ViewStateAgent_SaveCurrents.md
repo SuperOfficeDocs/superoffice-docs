@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 24,
-      "Id": 391,
-      "HistoryName": "West, Rosenbaum and Koch",
-      "HistoryId": 643,
-      "AssociateId": 35,
-      "Name": "Ziemann Inc and Sons",
-      "ItemInfo": "rerum"
+      "Rank": 910,
+      "Id": 454,
+      "HistoryName": "Jenkins-Steuber",
+      "HistoryId": 203,
+      "AssociateId": 756,
+      "Name": "Bartoletti-Kemmer",
+      "ItemInfo": "enim"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 936,
-    "Id": 696,
-    "HistoryName": "Kling-Marvin",
-    "HistoryId": 790,
-    "AssociateId": 99,
-    "Name": "Schamberger Group",
-    "ItemInfo": "aut",
+    "Rank": 384,
+    "Id": 337,
+    "HistoryName": "Morissette-Konopelski",
+    "HistoryId": 600,
+    "AssociateId": 58,
+    "Name": "Goldner, Windler and Kuvalis",
+    "ItemInfo": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 22
+        "FieldLength": 281
       }
     }
   }

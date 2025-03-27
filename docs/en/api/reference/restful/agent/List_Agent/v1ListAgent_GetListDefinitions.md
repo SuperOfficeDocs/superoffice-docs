@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 217,
-    "Name": "Willms-Kessler",
-    "Tooltip": "et",
+    "Id": 177,
+    "Name": "Grimes Inc and Sons",
+    "Tooltip": "quibusdam",
     "Deleted": false,
-    "Rank": 174,
-    "IsCustomList": true,
+    "Rank": 51,
+    "IsCustomList": false,
     "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "ut",
-    "InUseByUserDefinedFields": false,
+    "ListType": "dicta",
+    "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 43
+        "FieldLength": 693
       }
     }
   }

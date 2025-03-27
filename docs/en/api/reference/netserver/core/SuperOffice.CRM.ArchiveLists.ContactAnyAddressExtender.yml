@@ -5,7 +5,6 @@ items:
   id: ContactAnyAddressExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor
   - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.AddressTypes
   langs:
   - csharp
@@ -175,8 +174,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-  - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -184,31 +181,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender
-  langs:
-  - csharp
-  - vb
-  name: ContactAnyAddressExtender()
-  nameWithType: ContactAnyAddressExtender.ContactAnyAddressExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.ContactAnyAddressExtender()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public ContactAnyAddressExtender()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.AddressTypes
   commentId: P:SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.AddressTypes
   id: AddressTypes
@@ -5510,84 +5482,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ContactAnyAddressExtender>(ContactAnyAddressExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<ContactAnyAddressExtender>(ContactAnyAddressExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender>(SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ContactAnyAddressExtender)(ContactAnyAddressExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)(SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-  name.vb: AssignByReflection(Of ContactAnyAddressExtender)(ContactAnyAddressExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ContactAnyAddressExtender>
-    nameWithType: ObjectExtensions.AssignByReflection<ContactAnyAddressExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender
-    name: ContactAnyAddressExtender
-    nameWithType: ContactAnyAddressExtender
-    fullName: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ContactAnyAddressExtender)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ContactAnyAddressExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender
-    name: ContactAnyAddressExtender
-    nameWithType: ContactAnyAddressExtender
-    fullName: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ContactAnyAddressExtender>()
-  nameWithType: ObjectExtensions.GraphCopy<ContactAnyAddressExtender>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ContactAnyAddressExtender)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)()
-  name.vb: GraphCopy(Of ContactAnyAddressExtender)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ContactAnyAddressExtender>
-    nameWithType: ObjectExtensions.GraphCopy<ContactAnyAddressExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ContactAnyAddressExtender)
-    nameWithType: ObjectExtensions.GraphCopy(Of ContactAnyAddressExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -5967,103 +5861,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -6110,24 +5907,12 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.#ctor
-  isExternal: true
-  name: ContactAnyAddressExtender
-  nameWithType: ContactAnyAddressExtender.ContactAnyAddressExtender
-  fullName: SuperOffice.CRM.ArchiveLists.ContactAnyAddressExtender.ContactAnyAddressExtender
 - uid: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.AddressTypes
   commentId: P:SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.AddressTypes
   parent: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 837,
-  "Limit": 539
+  "ContactId": 704,
+  "Limit": 793
 }
 ```
 
@@ -96,79 +96,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 908,
-      "TicketStatus": 199,
-      "Title": "pariatur",
-      "Registered": "2023-02-01T14:13:39.891097+01:00",
-      "IconHint": "sit"
+      "TicketId": 215,
+      "TicketStatus": 486,
+      "Title": "voluptas",
+      "Registered": "2011-04-01T02:38:21.1514374+02:00",
+      "IconHint": "qui"
     },
     {
-      "TicketId": 908,
-      "TicketStatus": 199,
-      "Title": "pariatur",
-      "Registered": "2023-02-01T14:13:39.891097+01:00",
-      "IconHint": "sit"
+      "TicketId": 215,
+      "TicketStatus": 486,
+      "Title": "voluptas",
+      "Registered": "2011-04-01T02:38:21.1514374+02:00",
+      "IconHint": "qui"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 23,
-      "DocumentId": 1000,
-      "Date": "2007-01-21T14:13:39.891097+01:00",
-      "Description": "Team-oriented holistic success",
+      "AppointmentId": 30,
+      "DocumentId": 637,
+      "Date": "2010-11-14T02:38:21.1514374+01:00",
+      "Description": "Digitized clear-thinking local area network",
       "Completed": "Completed",
-      "Registered": "2006-03-27T14:13:39.891097+02:00"
+      "Registered": "2022-03-13T02:38:21.1514374+01:00"
     },
     {
-      "AppointmentId": 23,
-      "DocumentId": 1000,
-      "Date": "2007-01-21T14:13:39.891097+01:00",
-      "Description": "Team-oriented holistic success",
+      "AppointmentId": 30,
+      "DocumentId": 637,
+      "Date": "2010-11-14T02:38:21.1514374+01:00",
+      "Description": "Digitized clear-thinking local area network",
       "Completed": "Completed",
-      "Registered": "2006-03-27T14:13:39.891097+02:00"
+      "Registered": "2022-03-13T02:38:21.1514374+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 408,
-      "DocumentId": 757,
-      "Date": "2005-02-15T14:13:39.891097+01:00",
-      "Description": "Reduced foreground workforce",
+      "AppointmentId": 274,
+      "DocumentId": 808,
+      "Date": "2018-10-10T02:38:21.1514374+02:00",
+      "Description": "Future-proofed disintermediate open architecture",
       "Completed": "Completed",
-      "Registered": "2023-08-14T14:13:39.891097+02:00"
+      "Registered": "2002-03-23T02:38:21.1514374+01:00"
     },
     {
-      "AppointmentId": 408,
-      "DocumentId": 757,
-      "Date": "2005-02-15T14:13:39.891097+01:00",
-      "Description": "Reduced foreground workforce",
+      "AppointmentId": 274,
+      "DocumentId": 808,
+      "Date": "2018-10-10T02:38:21.1514374+02:00",
+      "Description": "Future-proofed disintermediate open architecture",
       "Completed": "Completed",
-      "Registered": "2023-08-14T14:13:39.891097+02:00"
+      "Registered": "2002-03-23T02:38:21.1514374+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 833,
-      "SaleDate": "2010-12-15T14:13:39.891097+01:00",
-      "Probability": 301,
-      "Heading": "harum",
-      "Amount": 2873.8779999999997,
-      "Currency": "est",
-      "AmountInBaseCurrency": 10417.416,
+      "SaleId": 954,
+      "SaleDate": "2014-11-10T02:38:21.1514374+01:00",
+      "Probability": 658,
+      "Heading": "illo",
+      "Amount": 9430.206,
+      "Currency": "omnis",
+      "AmountInBaseCurrency": 7844.402,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2013-09-18T14:13:39.891097+02:00"
+      "Registered": "2011-03-23T02:38:21.1514374+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 90,
-      "Name": "Prohaska LLC",
-      "CompanyName": "Johns Group",
-      "FirstMessage": "nihil",
-      "LastMessage": "dolores",
-      "WhenRequested": "2012-05-09T14:13:39.891097+02:00",
-      "WhenEnded": "2025-01-17T14:13:39.891097+01:00"
+      "ChatSessionId": 178,
+      "Name": "Fisher LLC",
+      "CompanyName": "Crona-Kunde",
+      "FirstMessage": "suscipit",
+      "LastMessage": "cumque",
+      "WhenRequested": "2012-03-11T02:38:21.1514374+01:00",
+      "WhenEnded": "1997-12-10T02:38:21.1514374+01:00"
     }
   ]
 }

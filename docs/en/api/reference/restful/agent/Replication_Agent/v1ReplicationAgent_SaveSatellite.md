@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 144,
-  "Created": "2017-09-21T14:13:41.1408128+02:00",
+  "SatelliteId": 788,
+  "Created": "2004-10-27T02:38:21.8076201+02:00",
   "CreatedBy": null,
-  "Updated": "2016-06-10T14:13:41.1408128+02:00",
+  "Updated": "2017-12-30T02:38:21.8076201+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Kris Group",
-      "Description": "Face to face upward-trending function",
+      "Name": "Metz-Kihn",
+      "Description": "Re-engineered systemic toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kris Group",
-      "Description": "Face to face upward-trending function",
+      "Name": "Metz-Kihn",
+      "Description": "Re-engineered systemic toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 394,
-  "Created": "2018-10-13T14:13:41.1564348+02:00",
+  "SatelliteId": 415,
+  "Created": "2003-02-16T02:38:21.8076201+01:00",
   "CreatedBy": null,
-  "Updated": "2021-06-01T14:13:41.1564348+02:00",
+  "Updated": "2004-03-23T02:38:21.8076201+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Schuster Group",
-      "Description": "User-centric responsive productivity",
+      "Name": "O'Reilly, Kautzer and Hansen",
+      "Description": "Cross-platform homogeneous intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     },
     {
-      "Name": "Schuster Group",
-      "Description": "User-centric responsive productivity",
+      "Name": "O'Reilly, Kautzer and Hansen",
+      "Description": "Cross-platform homogeneous intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldType": "System.String",
+          "FieldLength": 175
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

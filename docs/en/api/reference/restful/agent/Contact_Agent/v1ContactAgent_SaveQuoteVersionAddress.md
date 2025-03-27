@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 234,
+  "QuoteVersionId": 341,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 911
+  "CountryId": 902
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20743.946,
-  "Wgs84Longitude": 7111.0459999999994,
+  "Wgs84Latitude": 1435.3719999999998,
+  "Wgs84Longitude": 7198.798,
   "LocalizedAddress": [
     [
       {
-        "Name": "Abernathy, Casper and Goodwin",
-        "Value": "atque",
-        "Tooltip": "enim",
-        "Label": "vel",
-        "ValueLength": 767,
-        "AddressType": "minima",
+        "Name": "Armstrong Inc and Sons",
+        "Value": "velit",
+        "Tooltip": "at",
+        "Label": "temporibus",
+        "ValueLength": 628,
+        "AddressType": "repellendus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldType": "System.String",
+            "FieldLength": 105
           }
         }
       }
     ],
     [
       {
-        "Name": "Legros, Toy and O'Conner",
-        "Value": "dolorem",
-        "Tooltip": "eos",
-        "Label": "ratione",
-        "ValueLength": 857,
-        "AddressType": "perferendis",
+        "Name": "Sporer, Durgan and Hartmann",
+        "Value": "voluptatem",
+        "Tooltip": "veritatis",
+        "Label": "nemo",
+        "ValueLength": 875,
+        "AddressType": "minus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldType": "System.Int32",
+            "FieldLength": 349
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aspernatur",
+  "Formatted": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 760
     }
   }
 }

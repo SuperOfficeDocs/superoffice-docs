@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 504,
+  "SelectionId": 626,
   "Ids": [
-    351,
-    228
+    698,
+    424
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-755
+330
 ```

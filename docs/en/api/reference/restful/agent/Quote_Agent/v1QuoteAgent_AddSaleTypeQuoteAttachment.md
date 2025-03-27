@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/AddSaleTypeQuoteAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 887,
-  "DocumentId": 539
+  "SaleTypeId": 196,
+  "DocumentId": 654
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-172
+551
 ```

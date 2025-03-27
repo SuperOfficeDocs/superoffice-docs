@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Davis-McKenzie",
-    "ToolTip": "Modi non tenetur.",
-    "Deleted": true,
-    "Rank": 679,
-    "Type": "quia",
-    "ColorBlock": 799,
-    "IconHint": "quos",
+    "Id": 902,
+    "Name": "Mohr, Schumm and Becker",
+    "ToolTip": "Aspernatur voluptatibus esse fuga.",
+    "Deleted": false,
+    "Rank": 871,
+    "Type": "et",
+    "ColorBlock": 720,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2015-01-04T14:13:50.2752013+01:00",
+    "LastChanged": "2004-11-19T02:38:26.948622+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Gibson-Spencer",
-        "ToolTip": "Tenetur corrupti sequi occaecati necessitatibus.",
-        "Deleted": true,
-        "Rank": 69,
-        "Type": "quia",
-        "ColorBlock": 750,
-        "IconHint": "nobis",
+        "Id": 642,
+        "Name": "Padberg Inc and Sons",
+        "ToolTip": "Unde magni voluptatem et cupiditate ut accusantium esse.",
+        "Deleted": false,
+        "Rank": 869,
+        "Type": "quod",
+        "ColorBlock": 329,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2001-01-27T14:13:50.2752013+01:00",
+        "LastChanged": "2022-07-23T02:38:26.948622+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Brandy Altenwerth"
+        "ExtraInfo": "beatae",
+        "StyleHint": "veniam",
+        "Hidden": false,
+        "FullName": "Guillermo Simonis"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Aurelie Connelly"
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Isaac McClure"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Ullrich-Hane",
-    "ToolTip": "Accusantium voluptatem soluta assumenda et nihil ut eaque.",
+    "Id": 623,
+    "Name": "Mraz, Sauer and Greenfelder",
+    "ToolTip": "Enim minima voluptas blanditiis id inventore voluptatibus et.",
     "Deleted": false,
-    "Rank": 525,
-    "Type": "commodi",
-    "ColorBlock": 746,
-    "IconHint": "ut",
+    "Rank": 661,
+    "Type": "odit",
+    "ColorBlock": 662,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2011-06-09T14:13:50.2752013+02:00",
+    "LastChanged": "2010-03-13T02:38:26.9642506+01:00",
     "ChildItems": [
       {
-        "Id": 603,
-        "Name": "Jacobi, Kunze and Durgan",
-        "ToolTip": "Optio dolorem quae fugit voluptatem voluptate.",
-        "Deleted": true,
-        "Rank": 831,
-        "Type": "quod",
-        "ColorBlock": 191,
-        "IconHint": "sed",
+        "Id": 692,
+        "Name": "Dibbert-Corkery",
+        "ToolTip": "Atque tempora eum accusamus qui ea dolores delectus.",
+        "Deleted": false,
+        "Rank": 759,
+        "Type": "ullam",
+        "ColorBlock": 944,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1998-04-15T14:13:50.2752013+02:00",
+        "LastChanged": "1998-09-18T02:38:26.9642506+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "officia",
+        "ExtraInfo": "modi",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Mr. Cecil Herzog",
+        "FullName": "Lukas Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 610
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Cordia Altenwerth PhD",
+    "ExtraInfo": "aut",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Baylee Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

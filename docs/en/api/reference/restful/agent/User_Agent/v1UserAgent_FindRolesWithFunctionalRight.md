@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Hermiston Group"
+  "FunctionalRightName": "Brekke-West"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 208,
-    "Name": "Osinski LLC",
-    "ToolTip": "Ducimus aliquam quia eligendi.",
+    "Id": 250,
+    "Name": "Homenick Group",
+    "ToolTip": "Perspiciatis voluptatem aut nam sapiente hic et tempora.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "eos",
+    "Rank": 779,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Boehm-Graham",
-        "ToolTip": "Corrupti qui odit qui quaerat architecto incidunt.",
+        "Id": 802,
+        "Name": "Hickle-Fadel",
+        "ToolTip": "Sed dicta repellendus ut explicabo corporis error.",
         "Deleted": false,
-        "Rank": 791,
-        "Type": "sed",
+        "Rank": 14,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "qui",
-        "ColorBlock": 371,
-        "ExtraInfo": "enim",
-        "StyleHint": "adipisci",
-        "FullName": "Madonna Corwin",
+        "ColorBlock": 519,
+        "ExtraInfo": "delectus",
+        "StyleHint": "quam",
+        "FullName": "Felicia Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 689
+            "FieldType": "System.Int32",
+            "FieldLength": 255
           }
         }
       }
     ],
-    "IconHint": "aliquid",
-    "ColorBlock": 689,
-    "ExtraInfo": "ab",
-    "StyleHint": "et",
-    "FullName": "Nico Jast",
+    "IconHint": "aut",
+    "ColorBlock": 930,
+    "ExtraInfo": "vitae",
+    "StyleHint": "aperiam",
+    "FullName": "Opal Eldora Pacocha II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldLength": 156
       }
     }
   }

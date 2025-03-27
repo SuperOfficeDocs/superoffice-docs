@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 19,
+  "EjMessageId": 842,
   "Ticket": null,
-  "CreatedAt": "2016-01-02T14:13:41.5946398+01:00",
+  "CreatedAt": "1998-05-09T02:38:22.1513395+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "labore",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ratione",
-  "TimeSpent": 266,
-  "Body": "dolorem",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "dayna.greenfelder@stiedemann.biz",
-  "DebugInfo": "ea",
-  "MailSorter": "facere",
+  "MessageId": "est",
+  "TimeSpent": 110,
+  "Body": "rerum",
+  "HtmlBody": "nihil",
+  "EmailHeader": "kaela@reilly.uk",
+  "DebugInfo": "illo",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 537,
-      "Name": "Sanford, Spencer and Ledner",
-      "Value": "ut",
+      "Id": 745,
+      "Name": "Ziemann-Daniel",
+      "Value": "saepe",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldType": "System.String",
+          "FieldLength": 473
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "sit",
-  "Sentiment": 818,
-  "SentimentConfidence": 619,
+  "Important": false,
+  "Language": "nesciunt",
+  "Sentiment": 457,
+  "SentimentConfidence": 633,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 739,
-      "Name": "Williamson-Schamberger",
-      "ContentType": "libero",
-      "AttSize": 214,
+      "AttachmentId": 185,
+      "Name": "Ruecker, Keebler and Stiedemann",
+      "ContentType": "consequatur",
+      "AttSize": 765,
       "InlineImage": false,
-      "ContentId": "debitis",
-      "AuthKey": "et",
+      "ContentId": "pariatur",
+      "AuthKey": "id",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 718
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "quisquam"
+    "ExtraFields1": "eligendi",
+    "ExtraFields2": "fugiat"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "id",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

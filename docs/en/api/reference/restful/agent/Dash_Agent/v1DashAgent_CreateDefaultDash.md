@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 82,
-  "UniqueId": "qui",
-  "Name": "Littel, Bruen and Upton",
-  "Description": "Open-source neutral support",
-  "AssociateId": 261,
-  "Columns": 532,
+  "DashboardId": 244,
+  "UniqueId": "a",
+  "Name": "Emard Inc and Sons",
+  "Description": "Synergized local model",
+  "AssociateId": 952,
+  "Columns": 479,
   "Theme": null,
-  "VisibleForAll": 174,
+  "VisibleForAll": 683,
   "VisibleForAssociates": [
-    169,
-    692
+    844,
+    523
   ],
   "VisibleForGroups": [
-    983,
-    160
+    336,
+    352
   ],
-  "PinForAll": 966,
+  "PinForAll": 282,
   "PinForAssociates": [
-    512,
-    301
+    758,
+    290
   ],
   "PinForGroups": [
-    928,
-    414
+    968,
+    827
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 349
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 879,
-  "Name": "Pfannerstill, Borer and Cummerata",
+  "WebhookId": 935,
+  "Name": "Morar, Zieme and Kuhlman",
   "Events": [
-    "a",
-    "consequatur"
+    "sit",
+    "aut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quae",
+  "Secret": "numquam",
   "State": "Active",
-  "Type": "tempora",
+  "Type": "ut",
   "Headers": {
-    "Headers1": "unde",
-    "Headers2": "accusantium"
+    "Headers1": "nisi",
+    "Headers2": "maiores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-11-11T14:13:41.7508542+01:00",
+  "Registered": "2017-10-21T02:38:22.245036+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-02-29T14:13:41.7508542+01:00",
+  "Updated": "2007-11-01T02:38:22.245036+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "wade_mills@gerlachturner.uk"
+  "ErrorsEmail": "micaela@steuber.com"
 }
 ```

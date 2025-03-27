@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 419,
-    "Name": "Hermiston Inc and Sons",
-    "ToolTip": "Molestias commodi repellendus omnis.",
-    "Deleted": true,
-    "Rank": 707,
-    "Type": "id",
-    "ColorBlock": 737,
-    "IconHint": "voluptatibus",
+    "Id": 14,
+    "Name": "Bechtelar, Lesch and Ortiz",
+    "ToolTip": "Quo ab sit illum.",
+    "Deleted": false,
+    "Rank": 173,
+    "Type": "qui",
+    "ColorBlock": 320,
+    "IconHint": "tempora",
     "Selected": false,
-    "LastChanged": "2023-02-11T14:13:50.0094247+01:00",
+    "LastChanged": "2023-07-09T02:38:26.7923976+02:00",
     "ChildItems": [
       {
-        "Id": 731,
-        "Name": "Runolfsdottir Group",
-        "ToolTip": "Et eos iure cumque rerum.",
-        "Deleted": false,
-        "Rank": 502,
-        "Type": "reiciendis",
-        "ColorBlock": 273,
-        "IconHint": "aspernatur",
+        "Id": 921,
+        "Name": "Lemke Group",
+        "ToolTip": "Nemo non corrupti.",
+        "Deleted": true,
+        "Rank": 412,
+        "Type": "quo",
+        "ColorBlock": 355,
+        "IconHint": "nulla",
         "Selected": true,
-        "LastChanged": "2003-01-27T14:13:50.0094247+01:00",
+        "LastChanged": "2024-10-30T02:38:26.7923976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "qui",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "sit",
         "Hidden": true,
-        "FullName": "Keshawn Block",
+        "FullName": "Mr. Jackson Jazmyne Huel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 27
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "eligendi",
-    "Hidden": false,
-    "FullName": "Alexanne Mills",
+    "ExtraInfo": "est",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Mazie Dietrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldType": "System.String",
+        "FieldLength": 718
       }
     }
   }

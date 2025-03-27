@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stehr, Dietrich and Carroll",
-  "Columns": "ut",
-  "SortOrder": "iure",
-  "Restriction": "aut",
-  "Entities": "est",
-  "Page": 864,
-  "PageSize": 936,
-  "Context": "natus"
+  "ProviderName": "Denesik LLC",
+  "Columns": "minus",
+  "SortOrder": "veritatis",
+  "Restriction": "est",
+  "Entities": "aliquam",
+  "Page": 867,
+  "PageSize": 770,
+  "Context": "sed"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Huels-Wilderman",
-    "PrimaryKey": 27,
+    "EntityName": "Roob, Murray and Brakus",
+    "PrimaryKey": 582,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quos",
-        "TooltipHint": "est",
-        "LinkHint": "ex"
+        "DisplayValue": "dolorem",
+        "TooltipHint": "ut",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "itaque",
-    "StyleHint": "delectus",
+    "LinkHint": "ex",
+    "StyleHint": "assumenda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

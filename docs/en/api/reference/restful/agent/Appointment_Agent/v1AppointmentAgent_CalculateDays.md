@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 728,
-  "StartDate": "2005-02-28T14:13:39.1411603+01:00",
-  "EndDate": "2014-02-24T14:13:39.1411603+01:00",
-  "RecurrenceCounter": 455,
+  "RecurrenceId": 540,
+  "StartDate": "2020-07-16T02:38:20.7452374+02:00",
+  "EndDate": "1999-04-09T02:38:20.7452374+02:00",
+  "RecurrenceCounter": 299,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2005-08-01T14:13:39.1411603+02:00",
+      "Date": "2006-04-02T02:38:20.7452374+02:00",
       "IsConflict": false,
-      "Description": "Self-enabling high-level extranet",
-      "DescriptionStyleHint": "Customer-focused zero defect superstructure",
-      "Tooltip": "laboriosam"
+      "Description": "Self-enabling exuding interface",
+      "DescriptionStyleHint": "Grass-roots maximized Graphic Interface",
+      "Tooltip": "et"
     },
     {
-      "Date": "2005-08-01T14:13:39.1411603+02:00",
+      "Date": "2006-04-02T02:38:20.7452374+02:00",
       "IsConflict": false,
-      "Description": "Self-enabling high-level extranet",
-      "DescriptionStyleHint": "Customer-focused zero defect superstructure",
-      "Tooltip": "laboriosam"
+      "Description": "Self-enabling exuding interface",
+      "DescriptionStyleHint": "Grass-roots maximized Graphic Interface",
+      "Tooltip": "et"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

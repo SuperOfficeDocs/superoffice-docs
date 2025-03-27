@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Rodriguez LLC",
-  "StorageKey": "enim",
-  "Restrictions": "aperiam",
-  "StaticColumns": "quia"
+  "StorageType": "temporibus",
+  "ProviderName": "Sanford, Bode and Lehner",
+  "StorageKey": "commodi",
+  "Restrictions": "nemo",
+  "StaticColumns": "voluptas"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Anderson Group",
-      "Operator": "autem",
+      "Name": "Fadel Group",
+      "Operator": "ab",
       "Values": [
-        "at",
-        "sed"
+        "consequatur",
+        "rerum"
       ],
       "DisplayValues": [
-        "minima",
-        "eligendi"
+        "ad",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 644,
+      "InterParenthesis": 233,
       "InterOperator": "And",
-      "UniqueHash": 193
+      "UniqueHash": 230
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Skiles-Rath",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "ducimus",
+      "DisplayName": "Kuhlman Inc and Sons",
+      "DisplayTooltip": "tempore",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Ankunding-Grady",
-      "CanRestrictBy": true,
-      "RestrictionType": "vitae",
-      "RestrictionListName": "Greenfelder LLC",
+      "Name": "Huel, Senger and Cummerata",
+      "CanRestrictBy": false,
+      "RestrictionType": "repellendus",
+      "RestrictionListName": "Little LLC",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "deserunt",
-      "IconHint": "qui",
-      "HeadingIconHint": "velit"
+      "ExtraInfo": "sint",
+      "Width": "optio",
+      "IconHint": "sint",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Zboncak-Pagac",
-      "PrimaryKey": 370,
+      "EntityName": "Sipes Inc and Sons",
+      "PrimaryKey": 509,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "non",
-          "TooltipHint": "eveniet",
-          "LinkHint": "ea"
+          "DisplayValue": "beatae",
+          "TooltipHint": "quaerat",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "voluptate",
+      "LinkHint": "quia",
+      "StyleHint": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 163
+          "FieldLength": 811
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Pagac Group",
-      "Description": "User-friendly interactive project",
-      "Rank": 799,
+      "Name": "Ziemann, Yundt and Beier",
+      "Description": "Inverse regional capability",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Pagac Group",
-      "Description": "User-friendly interactive project",
-      "Rank": 799,
+      "Name": "Ziemann, Yundt and Beier",
+      "Description": "Inverse regional capability",
+      "Rank": 191,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldLength": 58
     }
   }
 }

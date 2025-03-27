@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Satterfield-Jacobi",
+  "ProviderName": "Halvorson LLC",
   "Columns": [
-    "soluta",
-    "recusandae"
+    "ea",
+    "assumenda"
   ],
   "SortOrder": [
     {
-      "Name": "Herzog Group",
+      "Name": "Koepp LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Herzog Group",
+      "Name": "Koepp LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Mertz-Schultz",
-      "Operator": "qui",
+      "Name": "Shields Inc and Sons",
+      "Operator": "dignissimos",
       "Values": [
-        "enim",
-        "dolor"
+        "sapiente",
+        "vel"
       ],
       "DisplayValues": [
-        "quia",
-        "vel"
+        "maxime",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,19 +140,19 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 457,
+      "InterParenthesis": 101,
       "InterOperator": "And",
-      "UniqueHash": 671
+      "UniqueHash": 739
     }
   ],
   "Entities": [
-    "reiciendis",
-    "laboriosam"
+    "consequuntur",
+    "sint"
   ],
-  "Page": 579,
-  "PageSize": 174,
-  "Options": "corporis",
-  "Context": "ipsam"
+  "Page": 606,
+  "PageSize": 327,
+  "Options": "minima",
+  "Context": "quis"
 }
 ```
 
@@ -163,26 +163,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 666,
+  "RowCount": 703,
   "Rows": [
     {
-      "EntityName": "Legros-Volkman",
-      "PrimaryKey": 316,
+      "EntityName": "Gusikowski-Lindgren",
+      "PrimaryKey": 943,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "at",
-          "TooltipHint": "rerum",
-          "LinkHint": "doloribus"
+          "DisplayValue": "dolore",
+          "TooltipHint": "recusandae",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "dignissimos",
-      "StyleHint": "et",
+      "LinkHint": "ea",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 314
+          "FieldLength": 580
         }
       }
     }
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 819
     }
   }
 }

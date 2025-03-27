@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 242,
-  "Name": "Haag Inc and Sons",
-  "Description": "Centralized high-level system engine",
-  "DefaultHeight": 585,
-  "DefaultWidth": 100,
+  "DashboardTileDefinitionId": 170,
+  "Name": "Hermann, Schamberger and Towne",
+  "Description": "Up-sized next generation open system",
+  "DefaultHeight": 193,
+  "DefaultWidth": 566,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Keefe, Fay and Haley",
-  "SelectionId": 203,
+  "EntityName": "Yundt, Bayer and Hirthe",
+  "SelectionId": 318,
   "CurrencyMode": "Base",
-  "CurrencyCode": "qui",
+  "CurrencyCode": "voluptas",
   "Measure": "Average",
-  "MeasureField": "officiis",
-  "SortBy": "amet",
-  "LayoutConfig": "esse",
-  "SecondarySelectionId": 328,
-  "MeasureByField": "dolorem",
+  "MeasureField": "ea",
+  "SortBy": "sapiente",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 467,
+  "MeasureByField": "ex",
   "Usage": "Dashboard",
-  "ProviderName": "Emard Inc and Sons"
+  "ProviderName": "Romaguera, Fadel and Mitchell"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 437,
-  "Name": "Hamill, Gerhold and Willms",
-  "Description": "Exclusive national groupware",
-  "DefaultHeight": 509,
-  "DefaultWidth": 464,
+  "DashboardTileDefinitionId": 159,
+  "Name": "Murphy LLC",
+  "Description": "Automated exuding firmware",
+  "DefaultHeight": 473,
+  "DefaultWidth": 742,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gleason-Dietrich",
-  "SelectionId": 425,
+  "EntityName": "Kerluke, Friesen and Emard",
+  "SelectionId": 90,
   "CurrencyMode": "Base",
-  "CurrencyCode": "pariatur",
+  "CurrencyCode": "velit",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "nostrum",
-  "LayoutConfig": "odio",
-  "SecondarySelectionId": 404,
-  "MeasureByField": "voluptates",
+  "MeasureField": "aut",
+  "SortBy": "ut",
+  "LayoutConfig": "non",
+  "SecondarySelectionId": 111,
+  "MeasureByField": "nihil",
   "Usage": "Dashboard",
-  "ProviderName": "Oberbrunner, Homenick and Koelpin",
+  "ProviderName": "Klocko LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 269
+      "FieldType": "System.Int32",
+      "FieldLength": 882
     }
   },
   "_Links": {

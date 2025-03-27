@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "expedita"
+  "Key": "ipsam"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "necessitatibus",
-  "AccessToken": "impedit",
-  "RefreshToken": "cumque",
+  "Provider": "quia",
+  "AccessToken": "voluptatem",
+  "RefreshToken": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldType": "System.String",
+      "FieldLength": 479
     }
   }
 }

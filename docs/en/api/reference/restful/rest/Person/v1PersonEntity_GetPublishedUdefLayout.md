@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 270,
-    "ColumnId": 857,
-    "FieldDefault": "provident",
-    "FieldHeight": 955,
-    "FieldLabel": "dolor",
-    "FieldLeft": 398,
-    "FieldTop": 272,
+    "UDefFieldId": 268,
+    "ColumnId": 832,
+    "FieldDefault": "eaque",
+    "FieldHeight": 530,
+    "FieldLabel": "delectus",
+    "FieldLeft": 814,
+    "FieldTop": 713,
     "FieldType": "Checkbox",
-    "FieldWidth": 470,
-    "FormatMask": "quod",
-    "HideLabel": true,
+    "FieldWidth": 889,
+    "FormatMask": "optio",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 502,
-    "LabelLeft": 526,
-    "LabelTop": 565,
-    "LabelWidth": 665,
-    "LastVersionId": 357,
-    "ListTableId": 279,
-    "IsMandatory": false,
+    "LabelHeight": 995,
+    "LabelLeft": 933,
+    "LabelTop": 26,
+    "LabelWidth": 136,
+    "LastVersionId": 703,
+    "ListTableId": 367,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 824,
-    "ProgId": "dolores",
-    "IsReadOnly": true,
-    "ShortLabel": "nihil",
-    "TabOrder": 982,
-    "TextLength": 242,
-    "Tooltip": "eligendi",
-    "UdefIdentity": 957,
-    "UDListDefinitionId": 567,
+    "Page1LineNo": 653,
+    "ProgId": "mollitia",
+    "IsReadOnly": false,
+    "ShortLabel": "voluptatem",
+    "TabOrder": 692,
+    "TextLength": 630,
+    "Tooltip": "commodi",
+    "UdefIdentity": 607,
+    "UDListDefinitionId": 653,
     "Justification": "Center",
-    "Version": 133,
-    "TemplateVariableName": "Emard, Rolfson and Marvin",
+    "Version": 678,
+    "TemplateVariableName": "Watsica, Jast and Cremin",
     "HasBeenPublished": false,
-    "MdoListName": "Balistreri Group",
+    "MdoListName": "Considine Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldType": "System.Int32",
+        "FieldLength": 158
       }
     }
   }

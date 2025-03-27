@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 186,
-    "Name": "Leannon, Koepp and Hirthe",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 619,
-    "UdListDefinitionId": 60
+    "HeadingId": 434,
+    "Name": "Kuhn, Lueilwitz and Murray",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 672,
+    "UdListDefinitionId": 12
   },
   {
-    "HeadingId": 186,
-    "Name": "Leannon, Koepp and Hirthe",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 619,
-    "UdListDefinitionId": 60
+    "HeadingId": 434,
+    "Name": "Kuhn, Lueilwitz and Murray",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 672,
+    "UdListDefinitionId": 12
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 282,
-    "Name": "Sipes, Rosenbaum and Tillman",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "Rank": 51,
-    "UdListDefinitionId": 363,
+    "HeadingId": 199,
+    "Name": "Will, O'Conner and Becker",
+    "Tooltip": "quibusdam",
+    "Deleted": false,
+    "Rank": 486,
+    "UdListDefinitionId": 789,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 122
+        "FieldLength": 177
       }
     }
   }

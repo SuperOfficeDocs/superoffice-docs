@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Gleason-Roob",
-    "Heller Group"
+    "Ankunding LLC",
+    "Kilback-Runolfsson"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 614,
-    "Id": 123,
-    "HistoryName": "Emard, Hirthe and Eichmann",
-    "HistoryId": 690,
-    "AssociateId": 490,
-    "Name": "Thiel-Schmeler",
-    "ItemInfo": "dolore",
+    "Rank": 333,
+    "Id": 458,
+    "HistoryName": "Lynch-Tremblay",
+    "HistoryId": 196,
+    "AssociateId": 994,
+    "Name": "Bins Inc and Sons",
+    "ItemInfo": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 534
+        "FieldType": "System.Int32",
+        "FieldLength": 814
       }
     }
   }

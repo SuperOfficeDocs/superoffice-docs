@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 484,
-  "Name": "Bergnaum, Farrell and Kshlerin",
-  "Tooltip": "nemo",
+  "Id": 216,
+  "Name": "Kozey-Bauch",
+  "Tooltip": "praesentium",
   "Deleted": true,
-  "UdListDefinitionId": 191,
-  "Rank": 17,
+  "UdListDefinitionId": 765,
+  "Rank": 719,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldType": "System.Int32",
+      "FieldLength": 277
     }
   }
 }

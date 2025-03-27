@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Smith-Kuvalis",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 527,
-  "IsCustomList": false,
+  "Id": 259,
+  "Name": "Labadie-Dibbert",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "Rank": 911,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "hic",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 667
     }
   }
 }

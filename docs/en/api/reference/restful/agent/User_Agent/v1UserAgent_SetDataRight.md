@@ -76,10 +76,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 309,
-  "TableName": "Rutherford, Smith and Moore",
+  "RoleId": 161,
+  "TableName": "White Group",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "ut"
+  "DataRightValue": "quia"
 }
 ```
 

@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "illum",
-  "Instance": "exercitationem"
+  "Application": "sit",
+  "Instance": "autem"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"libero"
+"dolorem"
 ```

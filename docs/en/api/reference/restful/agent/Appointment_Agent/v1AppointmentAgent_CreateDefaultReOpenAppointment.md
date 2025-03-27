@@ -131,11 +131,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 828
+  "SaleId": 921
 }
 ```
 
@@ -150,120 +150,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-11-21T14:13:39.2505105+01:00",
-  "AppointmentId": 140,
-  "Description": "Organic stable definition",
-  "Title": "est",
-  "Agenda": "voluptatibus",
-  "InternalNotes": "repudiandae",
-  "StartDate": "2020-10-04T14:13:39.2505105+02:00",
-  "EndDate": "2007-01-08T14:13:39.2505105+01:00",
+  "CreatedDate": "2018-04-07T02:38:20.8077217+02:00",
+  "AppointmentId": 411,
+  "Description": "Persistent empowering pricing structure",
+  "Title": "et",
+  "Agenda": "ex",
+  "InternalNotes": "dolores",
+  "StartDate": "2016-08-19T02:38:20.8077217+02:00",
+  "EndDate": "2009-09-27T02:38:20.8077217+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 359,
+  "MotherId": 479,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-09-03T14:13:39.2505105+02:00",
+  "UpdatedDate": "2014-05-14T02:38:20.8077217+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 507,
+  "ActiveLinks": 609,
   "Links": [
     {
-      "EntityName": "Hansen-Wuckert",
-      "Id": 138,
-      "Description": "Down-sized fault-tolerant application",
-      "ExtraInfo": "quo",
-      "LinkId": 689,
+      "EntityName": "Kohler LLC",
+      "Id": 987,
+      "Description": "Down-sized exuding hardware",
+      "ExtraInfo": "a",
+      "LinkId": 192,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 679
+          "FieldLength": 302
         }
       }
     }
   ],
-  "AlarmLeadTime": "corporis",
+  "AlarmLeadTime": "hic",
   "HasAlarm": true,
-  "ColorIndex": 721,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "minus",
-  "LeadTime": "error",
-  "Location": "consequatur",
-  "RejectCounter": 140,
+  "ColorIndex": 963,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "commodi",
+  "LeadTime": "soluta",
+  "Location": "maxime",
+  "RejectCounter": 860,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 917,
-      "PersonId": 699,
-      "ContactId": 919,
-      "EmailId": 661,
+      "AssociateId": 951,
+      "PersonId": 450,
+      "ContactId": 934,
+      "EmailId": 643,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "luz_nicolas@kautzer.info",
-      "Description": "Focused stable orchestration"
+      "EmailAddress": "oscar@mantetillman.uk",
+      "Description": "Extended zero defect pricing structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-03-30T14:13:39.2505105+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2023-12-07T02:38:20.8077217+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 193,
+  "PreferredTZLocation": 185,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 608,
+  "SuggestedAppointmentId": 448,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "magni",
+  "CentralserviceVideomeetId": "quis",
   "UserDefinedFields": {
-    "SuperOffice:1": "Christop Lebsack",
-    "SuperOffice:2": "Edison Winston Mosciski DVM"
+    "SuperOffice:1": "1687999627",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "accusamus"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "quos",
-    "CustomFields2": "recusandae"
+    "CustomFields1": "ut",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2016-07-31T14:13:39.2505105+02:00",
-  "PublishTo": "2005-03-18T14:13:39.2505105+01:00",
-  "PublishFrom": "2020-11-23T14:13:39.2505105+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-09-01T02:38:20.8077217+02:00",
+  "PublishTo": "2017-12-19T02:38:20.8077217+01:00",
+  "PublishFrom": "2005-10-31T02:38:20.8077217+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 589,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 182
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 589,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 182
         }
       }
     }
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 316
     }
   }
 }

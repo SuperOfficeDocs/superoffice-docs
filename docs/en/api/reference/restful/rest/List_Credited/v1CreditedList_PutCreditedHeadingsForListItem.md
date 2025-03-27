@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Schmeler, Altenwerth and Mertz",
-    "ToolTip": "Et nihil sapiente iure ratione.",
+    "Id": 271,
+    "Name": "Jakubowski, Abshire and Hahn",
+    "ToolTip": "Quam repellendus.",
     "Deleted": true,
-    "Rank": 995,
-    "Type": "ut",
-    "ColorBlock": 476,
+    "Rank": 30,
+    "Type": "cum",
+    "ColorBlock": 181,
     "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2001-08-04T14:13:49.8998259+02:00",
+    "Selected": true,
+    "LastChanged": "2024-10-10T02:38:26.7299042+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Wyman-Watsica",
-        "ToolTip": "Et sint nobis sunt.",
+        "Id": 673,
+        "Name": "Prosacco Inc and Sons",
+        "ToolTip": "Quasi nam placeat quia architecto ullam sit ad.",
         "Deleted": true,
-        "Rank": 437,
-        "Type": "aut",
-        "ColorBlock": 507,
-        "IconHint": "voluptatum",
+        "Rank": 980,
+        "Type": "voluptatem",
+        "ColorBlock": 928,
+        "IconHint": "esse",
         "Selected": true,
-        "LastChanged": "2010-06-20T14:13:49.8998259+02:00",
+        "LastChanged": "2012-02-29T02:38:26.7299042+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "est",
+        "StyleHint": "nihil",
         "Hidden": false,
-        "FullName": "David Autumn Grady II"
+        "FullName": "Mr. Vivian Dean Lockman PhD"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "vel",
+    "ExtraInfo": "delectus",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Ms. Collin Anjali Krajcik DVM"
+    "FullName": "Mrs. Reginald Deckow"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Barton-Beier",
-    "ToolTip": "Est temporibus ipsam.",
+    "Id": 683,
+    "Name": "Flatley LLC",
+    "ToolTip": "Laboriosam cupiditate.",
     "Deleted": false,
-    "Rank": 703,
-    "Type": "et",
-    "ColorBlock": 917,
-    "IconHint": "deleniti",
+    "Rank": 917,
+    "Type": "sed",
+    "ColorBlock": 151,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2014-04-25T14:13:49.8998259+02:00",
+    "LastChanged": "2006-04-14T02:38:26.7299042+02:00",
     "ChildItems": [
       {
-        "Id": 901,
-        "Name": "Cole Group",
-        "ToolTip": "Aut aperiam harum numquam.",
-        "Deleted": true,
-        "Rank": 37,
-        "Type": "vero",
-        "ColorBlock": 291,
-        "IconHint": "tempora",
+        "Id": 495,
+        "Name": "Predovic, Berge and Towne",
+        "ToolTip": "Dignissimos nesciunt dolorem consequuntur nemo perspiciatis.",
+        "Deleted": false,
+        "Rank": 81,
+        "Type": "eum",
+        "ColorBlock": 920,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2000-09-16T14:13:49.8998259+02:00",
+        "LastChanged": "2016-01-06T02:38:26.7299042+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Muhammad Marvin",
+        "FullName": "Prof. Werner Hane III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 57
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "reiciendis",
-    "Hidden": true,
-    "FullName": "Prof. Annabelle Quigley MD",
+    "ExtraInfo": "natus",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Gisselle Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldType": "System.Int32",
+        "FieldLength": 424
       }
     }
   }

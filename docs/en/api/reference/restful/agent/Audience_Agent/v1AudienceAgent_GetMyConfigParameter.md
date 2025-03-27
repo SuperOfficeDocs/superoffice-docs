@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Schowalter LLC"
+  "ParameterName": "Ward-Grimes"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 287,
-  "Name": "Abbott, Goyette and Murphy",
-  "Value": "et",
-  "CreatedDate": "2006-01-29T14:13:39.3754818+01:00",
-  "UpdatedDate": "2005-02-07T14:13:39.3754818+01:00",
-  "CreatedBy": "consequuntur",
-  "UpdatedBy": "itaque",
+  "AudienceLayoutId": 146,
+  "Name": "Kuvalis-Walsh",
+  "Value": "aut",
+  "CreatedDate": "2005-04-05T02:38:20.8702208+02:00",
+  "UpdatedDate": "2020-08-18T02:38:20.8702208+02:00",
+  "CreatedBy": "temporibus",
+  "UpdatedBy": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 995
     }
   }
 }

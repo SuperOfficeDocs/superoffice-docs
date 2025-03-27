@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ryan-Torphy",
-  "ForceFlatList": false,
-  "AdditionalInfo": "velit",
+  "Name": "Schinner-Hegmann",
+  "ForceFlatList": true,
+  "AdditionalInfo": "ex",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Johnson, Fahey and Baumbach",
-    "ToolTip": "Aut accusantium perspiciatis eveniet temporibus repellendus quia natus.",
-    "Deleted": true,
-    "Rank": 634,
-    "Type": "dolorem",
+    "Id": 835,
+    "Name": "Torphy, Wiegand and Fadel",
+    "ToolTip": "Et quidem.",
+    "Deleted": false,
+    "Rank": 346,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Buckridge LLC",
-        "ToolTip": "Quo culpa.",
+        "Id": 54,
+        "Name": "Weber-Prosacco",
+        "ToolTip": "Nihil unde.",
         "Deleted": false,
-        "Rank": 18,
-        "Type": "numquam",
+        "Rank": 151,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 613,
-        "ExtraInfo": "et",
-        "StyleHint": "ab",
-        "FullName": "Korey Parker",
+        "IconHint": "ea",
+        "ColorBlock": 791,
+        "ExtraInfo": "facere",
+        "StyleHint": "aut",
+        "FullName": "Elise Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 174
+            "FieldLength": 493
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 22,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "a",
-    "FullName": "Prof. Imogene Calista Wehner II",
+    "IconHint": "accusantium",
+    "ColorBlock": 546,
+    "ExtraInfo": "rerum",
+    "StyleHint": "maiores",
+    "FullName": "Jerod Tiara Herzog III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 28
+        "FieldType": "System.Int32",
+        "FieldLength": 660
       }
     }
   }

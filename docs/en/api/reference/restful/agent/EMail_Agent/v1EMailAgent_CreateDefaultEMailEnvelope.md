@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 992,
-  "MessageId": "nihil",
-  "Subject": "architecto",
+  "ServerId": 455,
+  "MessageId": "saepe",
+  "Subject": "corporis",
   "From": null,
   "To": [
     {
-      "ContactId": 245,
-      "ContactName": "West-O'Hara",
-      "PersonId": 653,
-      "PersonName": "Harber LLC",
-      "AssociateId": 40,
-      "Address": "sed",
-      "EmailId": 365,
+      "ContactId": 229,
+      "ContactName": "Buckridge, Pagac and Sporer",
+      "PersonId": 796,
+      "PersonName": "Cruickshank, Haley and Mills",
+      "AssociateId": 255,
+      "Address": "tempora",
+      "EmailId": 338,
       "DuplicatePersonIds": [
-        552,
-        325
+        170,
+        284
       ],
-      "Name": "Ortiz-Daniel",
+      "Name": "Feeney, Powlowski and Hamill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 187
         }
       }
     }
   ],
-  "Sent": "2019-02-23T14:13:40.2347688+01:00",
+  "Sent": "2007-07-14T02:38:21.3701735+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 106,
+  "Size": 185,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 727
     }
   }
 }

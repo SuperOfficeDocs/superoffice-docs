@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 139,
-  "UserInput": "quis",
-  "PriceListKey": "et"
+  "QuoteAlternativeId": 167,
+  "UserInput": "ipsam",
+  "PriceListKey": "officiis"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 694,
-    "ERPProductKey": "quia",
-    "ERPPriceListKey": "recusandae",
-    "Name": "Brekke Group",
-    "Description": "Compatible clear-thinking workforce",
-    "Code": "minima",
-    "PriceUnit": "aut",
-    "QuantityUnit": "sunt",
-    "IsSubscription": false,
-    "SubscriptionUnit": "neque",
-    "DefaultSubscriptionQuantity": 880.654,
-    "ItemNumber": "377419",
+    "ProductId": 469,
+    "ERPProductKey": "enim",
+    "ERPPriceListKey": "laudantium",
+    "Name": "West, Yundt and Ferry",
+    "Description": "Universal maximized policy",
+    "Code": "ut",
+    "PriceUnit": "molestiae",
+    "QuantityUnit": "perspiciatis",
+    "IsSubscription": true,
+    "SubscriptionUnit": "odit",
+    "DefaultSubscriptionQuantity": 21198.376,
+    "ItemNumber": "574582",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "non",
-    "ProductTypeKey": "cupiditate",
-    "VAT": 9834.492,
-    "VATInfo": "et",
-    "UnitCost": 16002.204,
-    "UnitMinimumPrice": 7740.98,
-    "UnitListPrice": 30622.314,
-    "InAssortment": true,
-    "Supplier": "officiis",
-    "SupplierCode": "commodi",
-    "Rights": "expedita",
-    "Rule": "quis",
+    "ProductFamilyKey": "distinctio",
+    "ProductTypeKey": "laudantium",
+    "VAT": 7468.322,
+    "VATInfo": "velit",
+    "UnitCost": 6242.928,
+    "UnitMinimumPrice": 23959.43,
+    "UnitListPrice": 1291.2079999999999,
+    "InAssortment": false,
+    "Supplier": "aut",
+    "SupplierCode": "minima",
+    "Rights": "voluptas",
+    "Rule": "rerum",
     "ExtraInfo": [
       {
-        "Name": "Hansen-Bruen",
-        "Value": "labore",
+        "Name": "Reichert, Jacobi and Daniel",
+        "Value": "voluptatem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 465
           }
         }
       },
       {
-        "Name": "Hansen-Bruen",
-        "Value": "labore",
+        "Name": "Reichert, Jacobi and Daniel",
+        "Value": "voluptatem",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 58
+            "FieldLength": 465
           }
         }
       }
     ],
-    "RawExtraInfo": "assumenda",
-    "ExtraField1": "quos",
-    "ExtraField2": "et",
-    "ExtraField3": "dolorem",
-    "ExtraField4": "dolorem",
-    "ExtraField5": "aut",
-    "InStock": 10868.712,
+    "RawExtraInfo": "alias",
+    "ExtraField1": "aut",
+    "ExtraField2": "in",
+    "ExtraField3": "ad",
+    "ExtraField4": "et",
+    "ExtraField5": "sint",
+    "InStock": 19935.374,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 833
+        "FieldLength": 521
       }
     }
   }

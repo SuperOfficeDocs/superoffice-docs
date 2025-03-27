@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 192,
-    "Name": "Ankunding-Satterfield",
-    "TZLocationCode": "unde",
-    "TZLocationCities": "consectetur",
-    "IsoNumber": 788,
+    "TZLocationID": 593,
+    "Name": "Harber-Shanahan",
+    "TZLocationCode": "et",
+    "TZLocationCities": "itaque",
+    "IsoNumber": 391,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 972,
-        "StartMonth": 559,
-        "EndDay": 871,
-        "EndMonth": 322,
-        "TZOffset": 139,
-        "StartRulePattern": "soluta",
-        "EndRulePattern": "exercitationem"
+        "StartDay": 959,
+        "StartMonth": 827,
+        "EndDay": 585,
+        "EndMonth": 148,
+        "TZOffset": 990,
+        "StartRulePattern": "possimus",
+        "EndRulePattern": "tempore"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 226,
-        "StartMonth": 141,
-        "EndDay": 56,
-        "EndMonth": 985,
-        "TZOffset": 651,
-        "StartRulePattern": "quo",
-        "EndRulePattern": "sint"
+        "StartDay": 210,
+        "StartMonth": 21,
+        "EndDay": 214,
+        "EndMonth": 243,
+        "TZOffset": 528,
+        "StartRulePattern": "dicta",
+        "EndRulePattern": "officia"
       }
     }
   }

@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 880,
-  "Name": "Johnson, Gorczany and Willms",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 234,
+  "Id": 939,
+  "Name": "Okuneva Group",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 257,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nemo",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 114
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "aut",
-    "qui"
+    "adipisci",
+    "sit"
   ],
-  "CurrentClientTime": "2023-10-13T14:13:40.9533555+02:00"
+  "CurrentClientTime": "2022-08-12T02:38:21.6826314+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "ipsa",
-    "itaque"
+    "dolorem",
+    "dolor"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 972,
-  "NotificationsCount": 840,
+  "OverdueSalesCount": 951,
+  "NotificationsCount": 292,
   "SystemWebPanels": [
     {
-      "WebPanelId": 286,
-      "Name": "Ankunding Inc and Sons",
-      "Tooltip": "perspiciatis",
+      "WebPanelId": 107,
+      "Name": "Christiansen LLC",
+      "Tooltip": "consequatur",
       "Deleted": true,
-      "Rank": 341,
+      "Rank": 755,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": false,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": true,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": true,
+      "ShowInMenuBar": false,
       "ShowInToolBar": false,
-      "ShowInAddressBar": true,
+      "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Dare, Will and Purdy",
+      "WindowName": "Mann-Champlin",
       "Url": "http://www.example.com/",
-      "ProgId": "rerum",
-      "Icon": 461,
-      "AlwaysReloadOnShow": false,
+      "ProgId": "autem",
+      "Icon": 620,
+      "AlwaysReloadOnShow": true,
       "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 495
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "repudiandae",
+      "RawValue": "accusamus",
       "Specification": null,
-      "DisplayValue": "quo",
-      "DisplayTooltip": "temporibus",
+      "DisplayValue": "at",
+      "DisplayTooltip": "consequatur",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 284,
-      "PrefDescId": 467,
-      "TableName": "Champlin Inc and Sons",
-      "UserPreferenceId": 624,
+      "TargetId": 300,
+      "PrefDescId": 116,
+      "TableName": "Kilback-Klein",
+      "UserPreferenceId": 673,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 330
+          "FieldLength": 757
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "quae",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 115
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   }
 }

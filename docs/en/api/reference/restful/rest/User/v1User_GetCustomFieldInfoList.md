@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Muller, Ward and DuBuque",
-    "DisplayName": "Abbott-Hermiston",
-    "Description": "Optional demand-driven analyzer",
-    "ShortLabel": "minima",
+    "FieldName": "Olson-Abbott",
+    "DisplayName": "Hauck Group",
+    "Description": "Inverse scalable initiative",
+    "ShortLabel": "ad",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 926,
-    "TemplateVariableName": "Ferry-Block"
+    "Rank": 761,
+    "TemplateVariableName": "O'Hara, Rowe and Runolfsson"
   }
 ]
 ```

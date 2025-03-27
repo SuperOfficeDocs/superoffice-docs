@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "labore",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "labore",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 513,
-  "Section": "at",
-  "Key": "molestiae",
-  "Name": "Hermiston, Kub and Christiansen",
+  "PrefDescId": 827,
+  "Section": "doloremque",
+  "Key": "eligendi",
+  "Name": "Brakus-Mills",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Configurable secondary groupware",
+  "Description": "Profit-focused clear-thinking groupware",
   "IsBuiltin": false,
-  "TableName": "Lesch LLC",
-  "UserDefinedListId": 208,
-  "Rank": 766,
-  "SubGroup": "possimus",
-  "MinLevel": 587,
-  "MaxValue": 322,
-  "MinValue": 712,
-  "RequiredLicense": "dolore",
+  "TableName": "Hilll, McDermott and Konopelski",
+  "UserDefinedListId": 929,
+  "Rank": 311,
+  "SubGroup": "eveniet",
+  "MinLevel": 789,
+  "MaxValue": 273,
+  "MinValue": 512,
+  "RequiredLicense": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 283
+      "FieldType": "System.String",
+      "FieldLength": 968
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

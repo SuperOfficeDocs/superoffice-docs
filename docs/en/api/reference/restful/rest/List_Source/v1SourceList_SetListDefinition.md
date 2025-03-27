@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 848,
-  "Name": "Breitenberg-Upton",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 901,
+  "Id": 718,
+  "Name": "Nader-Kuvalis",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 564,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "corporis",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "distinctio",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 876,
-  "Name": "Schiller, Gerhold and Gorczany",
-  "Tooltip": "itaque",
-  "Deleted": false,
-  "Rank": 728,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "Id": 863,
+  "Name": "Hauck-Douglas",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "Rank": 827,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 568
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

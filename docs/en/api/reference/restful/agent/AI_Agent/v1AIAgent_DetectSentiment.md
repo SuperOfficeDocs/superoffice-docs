@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "est"
+  "Text": "et"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 230,
-  "Confidence": 108,
+  "Score": 273,
+  "Confidence": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

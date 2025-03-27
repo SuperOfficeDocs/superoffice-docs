@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "reprehenderit",
+  "SaleText": "sed",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-02-20T14:13:41.1876773+01:00",
-  "Amount": 26137.559999999998,
-  "SaleId": 72,
-  "Earning": 9342.454,
-  "EarningPercent": 10470.694,
-  "Heading": "omnis",
-  "Number": "1078325",
-  "Probability": 468,
-  "CreatedDate": "2008-06-20T14:13:41.1876773+02:00",
-  "UpdatedDate": "2024-02-15T14:13:41.1876773+01:00",
+  "Saledate": "2002-08-04T02:38:21.8232503+02:00",
+  "Amount": 18804.0,
+  "SaleId": 545,
+  "Earning": 7483.992,
+  "EarningPercent": 27550.994,
+  "Heading": "numquam",
+  "Number": "1476468",
+  "Probability": 391,
+  "CreatedDate": "2022-10-21T02:38:21.8232503+02:00",
+  "UpdatedDate": "2006-11-23T02:38:21.8232503+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 744,
+  "ActiveLinks": 1000,
   "Links": [
     {
-      "EntityName": "Price-Kunze",
-      "Id": 843,
-      "Description": "Reactive attitude-oriented interface",
-      "ExtraInfo": "odit",
-      "LinkId": 484,
+      "EntityName": "Nader, Satterfield and Kemmer",
+      "Id": 507,
+      "Description": "Upgradable scalable capability",
+      "ExtraInfo": "soluta",
+      "LinkId": 16,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 726
         }
       }
     }
   ],
-  "NextDueDate": "2012-02-06T14:13:41.1876773+01:00",
-  "Postit": "natus",
+  "NextDueDate": "2014-07-20T02:38:21.8232503+02:00",
+  "Postit": "aliquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-12-15T14:13:41.1876773+01:00",
+  "ReopenDate": "2002-04-04T02:38:21.8232503+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schumm-Shields",
-      "Comment": "ad",
-      "StakeholderRoleId": 614,
-      "CountryId": 784,
-      "PersonId": 56,
-      "EmailDescription": "roosevelt@feil.info",
-      "EmailId": 884,
-      "EmailAddress": "elna@rolfson.info",
-      "PhoneId": 694,
-      "ContactName": "Jakubowski-Walsh",
-      "ContactId": 19,
-      "SaleId": 913,
-      "Mrmrs": "accusantium",
-      "Firstname": "Mona",
-      "MiddleName": "Williamson Group",
-      "Lastname": "Brakus",
-      "SaleStakeholderId": 248,
-      "Rank": 502,
-      "Phone": "495-783-1001",
+      "StakeholderRoleName": "Connelly-Parker",
+      "Comment": "voluptatibus",
+      "StakeholderRoleId": 447,
+      "CountryId": 418,
+      "PersonId": 632,
+      "EmailDescription": "stephen@altenwerth.us",
+      "EmailId": 880,
+      "EmailAddress": "ally.luettgen@medhurst.us",
+      "PhoneId": 308,
+      "ContactName": "Waelchi Group",
+      "ContactId": 123,
+      "SaleId": 608,
+      "Mrmrs": "quos",
+      "Firstname": "Kira",
+      "MiddleName": "Schoen, Bogan and Hackett",
+      "Lastname": "Wilkinson",
+      "SaleStakeholderId": 982,
+      "Rank": 901,
+      "Phone": "857-250-5671",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldType": "System.String",
+          "FieldLength": 145
         }
       }
     }
   ],
-  "ActiveErpLinks": 384,
+  "ActiveErpLinks": 131,
   "UserDefinedFields": {
-    "SuperOffice:1": "1962894252",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1624200257",
+    "SuperOffice:2": "Ms. Barbara Lind Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "neque",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "ullam"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "omnis"
+    "CustomFields1": "et",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2011-01-01T14:13:41.1876773+01:00",
-  "PublishTo": "2022-01-25T14:13:41.1876773+01:00",
-  "PublishFrom": "2018-04-09T14:13:41.1876773+02:00",
+  "PublishEventDate": "2005-03-18T02:38:21.8232503+01:00",
+  "PublishTo": "2023-09-08T02:38:21.8232503+02:00",
+  "PublishFrom": "2006-02-22T02:38:21.8232503+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 934,
+      "VisibleId": 170,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     },
     {
-      "VisibleId": 934,
+      "VisibleId": 170,
       "Visibility": "All",
-      "DisplayValue": "soluta",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 799
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 74
     }
   }
 }

@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 94,
-  "Name": "Smitham LLC",
-  "Rank": 423,
-  "Tooltip": "officiis",
+  "AssociateId": 657,
+  "Name": "Gutkowski, Hickle and Schamberger",
+  "Rank": 825,
+  "Tooltip": "nisi",
   "LicenseOwners": [
     {
-      "Name": "Cruickshank LLC",
-      "Description": "Advanced context-sensitive collaboration",
+      "Name": "Green, Streich and Stroman",
+      "Description": "Face to face directional focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 407
         }
       }
     },
     {
-      "Name": "Cruickshank LLC",
-      "Description": "Advanced context-sensitive collaboration",
+      "Name": "Green, Streich and Stroman",
+      "Description": "Face to face directional focus group",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldLength": 407
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "illum",
-      "Tooltip": "ut",
-      "Id": 856,
-      "Rank": 609,
-      "Deleted": true,
+      "Value": "voluptas",
+      "Tooltip": "molestiae",
+      "Id": 458,
+      "Rank": 455,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 121
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2023-08-14T14:13:49.5555275+02:00",
-  "Lastlogout": "2010-12-12T14:13:49.5555275+01:00",
-  "EjUserId": 261,
-  "RequestSignature": "nostrum",
+  "Deleted": true,
+  "Lastlogin": "2012-09-26T02:38:26.6047599+02:00",
+  "Lastlogout": "2009-03-26T02:38:26.6047599+01:00",
+  "EjUserId": 213,
+  "RequestSignature": "autem",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "alias",
-      "DisplayValue": "iure",
+      "Value": "tempore",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 866
+          "FieldLength": 872
         }
       }
     },
     {
       "Type": null,
-      "Value": "alias",
-      "DisplayValue": "iure",
+      "Value": "tempore",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 866
+          "FieldLength": 872
         }
       }
     }
   ],
-  "UserName": "Wisoky, Willms and Yost",
+  "UserName": "Grimes, Howe and Lebsack",
   "TicketCategories": [
     {
-      "Id": 181,
-      "Name": "Haley, Abbott and Kihn",
-      "ToolTip": "Neque praesentium temporibus nemo ex eius molestiae.",
+      "Id": 539,
+      "Name": "Turner-Sporer",
+      "ToolTip": "Voluptates eum ipsam.",
       "Deleted": false,
-      "Rank": 352,
-      "Type": "autem",
+      "Rank": 440,
+      "Type": "accusantium",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "iusto",
-      "ColorBlock": 864,
-      "ExtraInfo": "soluta",
-      "StyleHint": "consectetur",
-      "FullName": "Karen Carroll",
+      "IconHint": "expedita",
+      "ColorBlock": 852,
+      "ExtraInfo": "laudantium",
+      "StyleHint": "quae",
+      "FullName": "Evan Bernhard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldLength": 790
         }
       }
     }
   ],
-  "NickName": "Stoltenberg, Braun and Mayer",
+  "NickName": "Kshlerin-Reichert",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "hic",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "minima"
+    "CustomFields1": "qui",
+    "CustomFields2": "nulla"
   },
   "PostSaveCommands": [
     {
-      "Name": "Larkin-Konopelski",
-      "DisplayName": "Durgan, Sipes and Streich",
-      "Description": "Centralized holistic secured line",
-      "ToolTip": "Rerum veniam non.",
+      "Name": "Stamm, Muller and Ward",
+      "DisplayName": "Hermiston-Hoppe",
+      "Description": "Profound eco-centric Graphical User Interface",
+      "ToolTip": "Esse dolore vitae.",
       "Actions": "Implicit",
-      "ActionData": "voluptas",
+      "ActionData": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 672
+          "FieldType": "System.Int32",
+          "FieldLength": 895
         }
       }
     }
@@ -274,13 +274,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 13
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

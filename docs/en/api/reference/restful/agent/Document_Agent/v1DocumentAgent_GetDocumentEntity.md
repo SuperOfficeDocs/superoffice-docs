@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=417
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=100
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 2,
+  "DocumentId": 935,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quae",
-  "Header": "perferendis",
-  "Name": "Hoeger Inc and Sons",
-  "OurRef": "iure",
-  "YourRef": "soluta",
-  "CreatedDate": "2010-11-01T14:13:40.0629329+01:00",
-  "UpdatedDate": "2003-09-01T14:13:40.0629329+02:00",
-  "Description": "Fundamental background concept",
+  "Attention": "inventore",
+  "Header": "non",
+  "Name": "Deckow Group",
+  "OurRef": "ab",
+  "YourRef": "dolores",
+  "CreatedDate": "2012-09-22T02:38:21.2607667+02:00",
+  "UpdatedDate": "2004-04-04T02:38:21.2607667+02:00",
+  "Description": "Re-contextualized zero tolerance leverage",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2020-10-05T14:13:40.0629329+02:00",
-  "ExternalRef": "vero",
+  "Date": "2004-03-10T02:38:21.2607667+01:00",
+  "ExternalRef": "quasi",
   "Completed": "Completed",
-  "ActiveLinks": 715,
+  "ActiveLinks": 233,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Koch, Hermann and Ankunding",
-      "Id": 217,
-      "Description": "Object-based grid-enabled throughput",
-      "ExtraInfo": "molestiae",
-      "LinkId": 687,
+      "EntityName": "Williamson-Vandervort",
+      "Id": 843,
+      "Description": "Fundamental transitional superstructure",
+      "ExtraInfo": "dolorem",
+      "LinkId": 398,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldLength": 868
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 664,
-  "Snum": 870,
+  "SuggestedDocumentId": 421,
+  "Snum": 106,
   "UserDefinedFields": {
-    "SuperOffice:1": "1511912774",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1516331285",
+    "SuperOffice:2": "Margret Homenick"
   },
   "ExtraFields": {
-    "ExtraFields1": "deleniti",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "et",
+    "ExtraFields2": "a"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ut"
+    "CustomFields1": "neque",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "2006-01-26T14:13:40.0629329+01:00",
-  "PublishTo": "2015-03-19T14:13:40.0629329+01:00",
-  "PublishFrom": "2013-01-20T14:13:40.0629329+01:00",
+  "PublishEventDate": "2024-08-27T02:38:21.2607667+02:00",
+  "PublishTo": "2023-10-03T02:38:21.2607667+02:00",
+  "PublishFrom": "1999-12-03T02:38:21.2607667+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 846,
+      "VisibleId": 576,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldLength": 906
         }
       }
     },
     {
-      "VisibleId": 846,
+      "VisibleId": 576,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldLength": 906
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldLength": 488
     }
   }
 }

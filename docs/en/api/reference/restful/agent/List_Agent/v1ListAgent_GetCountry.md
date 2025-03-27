@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=153
+POST /api/v1/Agents/List/GetCountry?countryId=875
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 757,
-  "Name": "Ziemann, Davis and Schiller",
-  "CurrencyId": 4,
-  "EnglishName": "McDermott, Bednar and Shanahan",
+  "CountryId": 506,
+  "Name": "Brown Group",
+  "CurrencyId": 724,
+  "EnglishName": "Parker LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive attitude-oriented core",
-  "OrgNrText": "1378368",
-  "InterAreaPrefix": "eius",
-  "DialInPrefix": "ducimus",
-  "ZipPrefix": "dolores",
-  "DomainName": "Rohan, Hegmann and Kling",
-  "AddressLayoutId": 18,
-  "DomesticAddressLayoutId": 842,
-  "ForeignAddressLayoutId": 84,
-  "Rank": 50,
-  "Tooltip": "assumenda",
-  "Deleted": false,
+  "ImageDescription": "Triple-buffered 5th generation infrastructure",
+  "OrgNrText": "402427",
+  "InterAreaPrefix": "impedit",
+  "DialInPrefix": "sequi",
+  "ZipPrefix": "qui",
+  "DomainName": "Kuphal-Reilly",
+  "AddressLayoutId": 722,
+  "DomesticAddressLayoutId": 785,
+  "ForeignAddressLayoutId": 528,
+  "Rank": 705,
+  "Tooltip": "facilis",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 82
     }
   }
 }

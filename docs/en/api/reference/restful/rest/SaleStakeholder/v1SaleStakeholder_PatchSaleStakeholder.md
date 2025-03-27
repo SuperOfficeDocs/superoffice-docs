@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "deleniti",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Tillman, Johnston and Robel",
-  "Comment": "dolores",
-  "StakeholderRoleId": 707,
-  "CountryId": 520,
-  "PersonId": 910,
-  "EmailDescription": "ferne_veum@abernathy.com",
-  "EmailId": 724,
-  "EmailAddress": "ashly_konopelski@naderbrekke.uk",
-  "PhoneId": 290,
-  "ContactName": "Mertz-Yundt",
-  "ContactId": 396,
-  "SaleId": 211,
-  "Mrmrs": "harum",
-  "Firstname": "Kory",
-  "MiddleName": "Hamill Inc and Sons",
-  "Lastname": "Schmitt",
-  "SaleStakeholderId": 90,
-  "Rank": 551,
-  "Phone": "1-716-972-9983",
+  "StakeholderRoleName": "Zboncak, Murphy and Pollich",
+  "Comment": "est",
+  "StakeholderRoleId": 110,
+  "CountryId": 206,
+  "PersonId": 695,
+  "EmailDescription": "vickie@pricelebsack.us",
+  "EmailId": 562,
+  "EmailAddress": "landen@connelly.com",
+  "PhoneId": 660,
+  "ContactName": "Dicki Inc and Sons",
+  "ContactId": 774,
+  "SaleId": 993,
+  "Mrmrs": "porro",
+  "Firstname": "Hiram",
+  "MiddleName": "Boyer-Mitchell",
+  "Lastname": "Lehner",
+  "SaleStakeholderId": 800,
+  "Rank": 535,
+  "Phone": "1-909-387-7245 x4535",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 854
     }
   },
   "_Links": {

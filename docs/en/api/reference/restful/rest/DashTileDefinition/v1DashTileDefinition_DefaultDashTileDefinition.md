@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 96,
-  "Name": "Greenholt LLC",
-  "Description": "Optional neutral hierarchy",
-  "DefaultHeight": 628,
-  "DefaultWidth": 956,
+  "DashboardTileDefinitionId": 817,
+  "Name": "Gleason-Braun",
+  "Description": "Configurable foreground policy",
+  "DefaultHeight": 488,
+  "DefaultWidth": 917,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Boehm LLC",
-  "SelectionId": 755,
+  "EntityName": "Zemlak-Harvey",
+  "SelectionId": 980,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ad",
+  "CurrencyCode": "repellendus",
   "Measure": "Average",
-  "MeasureField": "porro",
-  "SortBy": "qui",
-  "LayoutConfig": "tempore",
-  "SecondarySelectionId": 339,
-  "MeasureByField": "et",
+  "MeasureField": "similique",
+  "SortBy": "temporibus",
+  "LayoutConfig": "dolorum",
+  "SecondarySelectionId": 639,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Torp LLC",
+  "ProviderName": "Sipes, Klein and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 979
     }
   }
 }

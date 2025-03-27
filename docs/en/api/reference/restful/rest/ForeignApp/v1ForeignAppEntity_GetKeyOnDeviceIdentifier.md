@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 09 Jul 2022 14:13:48 G7T
+Last-Modified: Thu, 05 Feb 2009 02:38:26 G2T
 
 {
-  "Key": "et",
-  "Value": "numquam",
-  "RecordId": 598,
-  "CreatedDate": "2007-11-02T14:13:48.8993207+01:00",
-  "UpdatedDate": "2022-07-09T14:13:48.8993207+02:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "enim",
-  "TableName": "Stamm, Quitzon and Runte",
+  "Key": "ratione",
+  "Value": "voluptatem",
+  "RecordId": 733,
+  "CreatedDate": "2018-07-16T02:38:26.1204323+02:00",
+  "UpdatedDate": "2009-02-05T02:38:26.1204323+01:00",
+  "UpdatedBy": "assumenda",
+  "CreatedBy": "reprehenderit",
+  "TableName": "Kuhic-Emmerich",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldLength": 259
     }
   }
 }

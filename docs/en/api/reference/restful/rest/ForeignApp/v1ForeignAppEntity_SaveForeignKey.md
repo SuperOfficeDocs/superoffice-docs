@@ -83,18 +83,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Key": "dolorem",
-  "Value": "ex",
-  "RecordId": 799,
-  "CreatedDate": "2019-12-18T14:13:48.8993207+01:00",
-  "UpdatedDate": "2024-07-07T14:13:48.8993207+02:00",
-  "UpdatedBy": "repellat",
-  "CreatedBy": "repudiandae",
-  "TableName": "Tillman LLC"
+  "Value": "dolor",
+  "RecordId": 662,
+  "CreatedDate": "2003-10-30T02:38:26.1204323+01:00",
+  "UpdatedDate": "2015-03-17T02:38:26.1204323+01:00",
+  "UpdatedBy": "veniam",
+  "CreatedBy": "rem",
+  "TableName": "Greenholt Inc and Sons"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellendus",
-  "Value": "doloremque",
-  "RecordId": 757,
-  "CreatedDate": "2015-01-05T14:13:48.8993207+01:00",
-  "UpdatedDate": "2001-01-01T14:13:48.8993207+01:00",
-  "UpdatedBy": "provident",
-  "CreatedBy": "quae",
-  "TableName": "Witting LLC",
+  "Key": "ipsum",
+  "Value": "laudantium",
+  "RecordId": 670,
+  "CreatedDate": "2002-06-23T02:38:26.1204323+02:00",
+  "UpdatedDate": "2012-02-16T02:38:26.1204323+01:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "est",
+  "TableName": "Terry, Kub and Collins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 404
+      "FieldType": "System.String",
+      "FieldLength": 194
     }
   }
 }

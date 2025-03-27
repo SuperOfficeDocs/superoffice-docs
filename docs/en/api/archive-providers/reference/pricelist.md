@@ -43,7 +43,7 @@ Lists all Pricelist in table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/PriceList?$select=description,validFrom
+GET /api/v1/archive/PriceList?$select=name,description,validFrom
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 371,
-  "Name": "Brakus, Bernier and Reynolds",
-  "Tooltip": "adipisci",
-  "Deleted": false,
-  "Rank": 319,
-  "IsCustomList": false,
+  "Id": 962,
+  "Name": "Greenfelder-Gerhold",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 648,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 989
+      "FieldType": "System.Int32",
+      "FieldLength": 298
     }
   }
 }

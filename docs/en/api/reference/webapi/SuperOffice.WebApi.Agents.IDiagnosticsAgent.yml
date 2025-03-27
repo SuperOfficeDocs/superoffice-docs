@@ -13,6 +13,7 @@ items:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.CollectWinUsageAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.FlushCachesByNameAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheNamesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForAllUsersAsync(SuperOffice.WebApi.RequestOptions)
@@ -179,6 +180,41 @@ items:
   nameWithType.vb: IDiagnosticsAgent.GetCacheStateAsync(String(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheStateAsync(System.String(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetCacheStateAsync(String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetCacheInvalidationGenerationsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCacheInvalidationGenerationsAsync(String[], RequestOptions)
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet generation for provided names\n"
+  syntax:
+    content: Task<CacheInvalidation[]> GetCacheInvalidationGenerationsAsync(string[] names, RequestOptions requestOptions = null)
+    parameters:
+    - id: names
+      type: System.String[]
+      description: Name of caches
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CacheInvalidation[]}
+      description: Array of caches with generation number
+    content.vb: Function GetCacheInvalidationGenerationsAsync(names As String(), requestOptions As RequestOptions = Nothing) As Task(Of CacheInvalidation())
+  overload: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync*
+  nameWithType.vb: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(String(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCacheInvalidationGenerationsAsync(String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
   id: GetEntityCountsForCurrentUserAsync(SuperOffice.WebApi.RequestOptions)
@@ -977,6 +1013,61 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
+  isExternal: true
+  name: GetCacheInvalidationGenerationsAsync
+  nameWithType: IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.GetCacheInvalidationGenerationsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CacheInvalidation[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CacheInvalidation[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CacheInvalidation[]>
+  nameWithType: Task<CacheInvalidation[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CacheInvalidation[]>
+  nameWithType.vb: Task(Of CacheInvalidation())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CacheInvalidation())
+  name.vb: Task(Of CacheInvalidation())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.WebApi.Data.CacheInvalidation
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CacheInvalidation
+    name: CacheInvalidation
+    nameWithType: CacheInvalidation
+    fullName: SuperOffice.WebApi.Data.CacheInvalidation
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
     nameWithType: )
     fullName: )

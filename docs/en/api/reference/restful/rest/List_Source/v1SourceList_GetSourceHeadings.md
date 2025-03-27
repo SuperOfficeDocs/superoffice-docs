@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 299,
-    "Name": "Sanford LLC",
-    "Tooltip": "dolorum",
+    "HeadingId": 825,
+    "Name": "Howe, Miller and Keebler",
+    "Tooltip": "voluptates",
     "Deleted": true,
-    "Rank": 438,
-    "UdListDefinitionId": 938,
+    "Rank": 32,
+    "UdListDefinitionId": 778,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 918
+        "FieldLength": 31
       }
     }
   }

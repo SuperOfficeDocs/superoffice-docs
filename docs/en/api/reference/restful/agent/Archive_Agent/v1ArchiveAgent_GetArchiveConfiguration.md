@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Altenwerth, Ernser and Crooks",
-  "ProviderName": "Sipes-Doyle"
+  "GuiName": "Feeney LLC",
+  "ProviderName": "Cruickshank-Hammes"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Keebler, Mann and Weissnat",
-      "DisplayTooltip": "quisquam",
-      "DisplayType": "consequuntur",
-      "CanOrderBy": false,
-      "Name": "Ernser LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "architecto",
-      "RestrictionListName": "Jewess, Collier and Gutmann",
+      "DisplayName": "Jaskolski, Willms and Cummerata",
+      "DisplayTooltip": "facilis",
+      "DisplayType": "totam",
+      "CanOrderBy": true,
+      "Name": "Bode, Dooley and Miller",
+      "CanRestrictBy": false,
+      "RestrictionType": "reiciendis",
+      "RestrictionListName": "Veum-Kshlerin",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
-      "Width": "qui",
-      "IconHint": "deserunt",
-      "HeadingIconHint": "illum"
+      "ExtraInfo": "perferendis",
+      "Width": "minus",
+      "IconHint": "facere",
+      "HeadingIconHint": "est"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 388,
-      "Name": "Stroman Inc and Sons",
-      "ToolTip": "Corporis quaerat amet omnis aut ipsam possimus pariatur.",
+      "Id": 198,
+      "Name": "Gaylord, Gusikowski and O'Hara",
+      "ToolTip": "Assumenda ipsa et omnis aliquid.",
       "Deleted": false,
-      "Rank": 454,
-      "Type": "corrupti",
-      "ColorBlock": 710,
-      "IconHint": "quidem",
+      "Rank": 258,
+      "Type": "maxime",
+      "ColorBlock": 897,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2023-05-05T14:13:39.3442417+02:00",
+      "LastChanged": "2016-03-08T02:38:20.8545926+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "hic",
+      "ExtraInfo": "sit",
+      "StyleHint": "natus",
       "Hidden": false,
-      "FullName": "Ms. Alvena Axel Beer Sr.",
+      "FullName": "Alejandrin Prosacco",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 298
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hane LLC",
+      "Name": "Wiza Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Hane LLC",
+      "Name": "Wiza Inc and Sons",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "excepturi",
+  "OwnerKeys": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 301
     }
   }
 }

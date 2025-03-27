@@ -73,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "lorena@moencollins.info",
+  "EmailAddress": "lavern@beerwest.biz",
   "IcsData": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 284,
-    "Name": "Beatty Inc and Sons",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 586,
-    "UdListDefinitionId": 996,
+    "HeadingId": 87,
+    "Name": "Friesen Inc and Sons",
+    "Tooltip": "ullam",
+    "Deleted": false,
+    "Rank": 364,
+    "UdListDefinitionId": 524,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldType": "System.String",
+        "FieldLength": 131
       }
     }
   }

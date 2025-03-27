@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 942,
-  "Name": "Hane Group",
-  "Tooltip": "et",
+  "Id": 275,
+  "Name": "Bruen-Bergstrom",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 382,
-  "IsCustomList": true,
+  "Rank": 832,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "natus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 738
+      "FieldType": "System.String",
+      "FieldLength": 797
     }
   },
   "_Links": {

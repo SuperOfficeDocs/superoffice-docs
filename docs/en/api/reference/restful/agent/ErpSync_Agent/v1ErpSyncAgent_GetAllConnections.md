@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 862,
-    "ErpConnectorId": 625,
-    "DisplayName": "Murazik-Reynolds",
-    "DisplayDescription": "Multi-channelled global matrices",
-    "Active": true,
-    "ConnectionId": "nobis",
-    "MostRecentTimestamp": "molestiae",
+    "ErpConnectionId": 1000,
+    "ErpConnectorId": 964,
+    "DisplayName": "Murphy-Miller",
+    "DisplayDescription": "Self-enabling holistic archive",
+    "Active": false,
+    "ConnectionId": "aspernatur",
+    "MostRecentTimestamp": "sunt",
     "ConfigFields": {
-      "ConfigFields1": "dolorum",
-      "ConfigFields2": "numquam"
+      "ConfigFields1": "dolores",
+      "ConfigFields2": "eum"
     },
-    "Deleted": false,
+    "Deleted": true,
     "AllAccess": true,
     "UserGroupAccessIds": [
-      217,
-      700
+      565,
+      530
     ],
     "AssociateAccessIds": [
-      330,
-      526
+      171,
+      113
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

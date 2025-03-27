@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Nienow, Morissette and Grady",
-    "ToolTip": "Ut explicabo odit et iusto eos sapiente.",
-    "Deleted": true,
-    "Rank": 293,
-    "Type": "perspiciatis",
-    "ColorBlock": 646,
-    "IconHint": "doloribus",
+    "Id": 110,
+    "Name": "Boehm LLC",
+    "ToolTip": "Eum aut ut accusamus nam.",
+    "Deleted": false,
+    "Rank": 803,
+    "Type": "qui",
+    "ColorBlock": 678,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2013-11-03T14:13:50.0875321+01:00",
+    "LastChanged": "2015-03-27T02:38:26.8392626+01:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Smitham, Weber and Lemke",
-        "ToolTip": "Ea rerum est suscipit distinctio aut.",
+        "Id": 538,
+        "Name": "Wunsch Group",
+        "ToolTip": "Expedita consequuntur ut ducimus.",
         "Deleted": false,
-        "Rank": 243,
-        "Type": "saepe",
-        "ColorBlock": 903,
-        "IconHint": "non",
-        "Selected": true,
-        "LastChanged": "2016-09-01T14:13:50.0875321+02:00",
+        "Rank": 870,
+        "Type": "nihil",
+        "ColorBlock": 617,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2011-07-26T02:38:26.8392626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "unde",
+        "ExtraInfo": "sit",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Kacie Douglas DDS",
+        "FullName": "Willis Green",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 624
+            "FieldType": "System.Int32",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Ottilie Nikolaus",
+    "ExtraInfo": "sit",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Lynn Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 221
       }
     }
   }

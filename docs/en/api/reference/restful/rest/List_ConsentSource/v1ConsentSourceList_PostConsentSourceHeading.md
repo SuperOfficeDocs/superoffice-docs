@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 378,
-  "Name": "Douglas LLC",
-  "Tooltip": "qui",
+  "HeadingId": 193,
+  "Name": "Crona-Upton",
+  "Tooltip": "id",
   "Deleted": true,
-  "Rank": 161,
-  "UdListDefinitionId": 762
+  "Rank": 313,
+  "UdListDefinitionId": 386
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 832,
-  "Name": "Schaden Group",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 150,
-  "UdListDefinitionId": 822,
+  "HeadingId": 544,
+  "Name": "Greenfelder, Volkman and Bahringer",
+  "Tooltip": "similique",
+  "Deleted": false,
+  "Rank": 799,
+  "UdListDefinitionId": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 616
     }
   }
 }

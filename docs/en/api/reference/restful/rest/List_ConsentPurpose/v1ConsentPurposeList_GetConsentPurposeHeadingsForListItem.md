@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Purdy Inc and Sons",
-    "ToolTip": "Nobis et similique iure quo fuga in illum.",
+    "Id": 792,
+    "Name": "King-Ortiz",
+    "ToolTip": "Veritatis blanditiis molestias architecto qui distinctio.",
     "Deleted": false,
-    "Rank": 864,
-    "Type": "ut",
-    "ColorBlock": 300,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2000-11-16T14:13:49.7117421+01:00",
+    "Rank": 213,
+    "Type": "quis",
+    "ColorBlock": 794,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2007-08-09T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 55,
-        "Name": "Luettgen-Rolfson",
-        "ToolTip": "Et incidunt et maxime dolorem nobis.",
+        "Id": 359,
+        "Name": "Baumbach Group",
+        "ToolTip": "Magnam excepturi non est optio cupiditate molestiae.",
         "Deleted": false,
-        "Rank": 605,
-        "Type": "recusandae",
-        "ColorBlock": 635,
-        "IconHint": "enim",
+        "Rank": 610,
+        "Type": "asperiores",
+        "ColorBlock": 550,
+        "IconHint": "eum",
         "Selected": true,
-        "LastChanged": "2020-09-30T14:13:49.7117421+02:00",
+        "LastChanged": "2017-07-08T02:38:26.6986493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "corrupti",
-        "Hidden": false,
-        "FullName": "Carrie McClure",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Garrett Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 461
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "aut",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Moshe Mertz",
+    "FullName": "Dr. Darion Grimes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 616
       }
     }
   }

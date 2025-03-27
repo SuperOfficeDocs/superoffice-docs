@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Stracke LLC",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "UdListDefinitionId": 86,
-  "Rank": 942
+  "Id": 420,
+  "Name": "Collins Inc and Sons",
+  "Tooltip": "veniam",
+  "Deleted": false,
+  "UdListDefinitionId": 301,
+  "Rank": 144
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "Name": "Deckow-Grant",
-  "Tooltip": "eum",
+  "Id": 191,
+  "Name": "Kuvalis Inc and Sons",
+  "Tooltip": "dolorem",
   "Deleted": true,
-  "UdListDefinitionId": 29,
-  "Rank": 799,
+  "UdListDefinitionId": 168,
+  "Rank": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

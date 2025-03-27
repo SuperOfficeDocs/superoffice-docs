@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,33 +99,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 08 Mar 2000 14:13:48 G3T
+Last-Modified: Tue, 02 Jan 2007 02:38:26 G1T
 
 {
-  "SourceContactId": 31,
-  "SourcePersonId": 98,
-  "DestinationContactId": 457,
-  "DestinationPersonId": 145,
-  "RelationId": 750,
-  "Comment": "est",
-  "RelationDefinitionId": 987,
-  "Reversed": 626,
-  "UpdatedDate": "2000-03-08T14:13:48.7430769+01:00",
-  "CreatedDate": "2016-10-17T14:13:48.7430769+02:00",
+  "SourceContactId": 290,
+  "SourcePersonId": 948,
+  "DestinationContactId": 544,
+  "DestinationPersonId": 716,
+  "RelationId": 607,
+  "Comment": "esse",
+  "RelationDefinitionId": 295,
+  "Reversed": 545,
+  "UpdatedDate": "2007-01-02T02:38:26.0266945+01:00",
+  "CreatedDate": "2014-12-16T02:38:26.0266945+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Botsford LLC",
-  "SourcePersonName": "Watsica, Hackett and Moen",
-  "DestinationContactName": "Torphy, Stoltenberg and Cummings",
-  "DestinationPersonName": "Hintz-Hirthe",
-  "ActiveText": "excepturi",
-  "PassiveText": "repellat",
+  "SourceContactName": "Reilly-Pfannerstill",
+  "SourcePersonName": "Mayer, Powlowski and Rowe",
+  "DestinationContactName": "Kuhlman Inc and Sons",
+  "DestinationPersonName": "Hayes, Becker and Christiansen",
+  "ActiveText": "incidunt",
+  "PassiveText": "assumenda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 674
     }
   },
   "_Links": {

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Schuster, Franecki and Cruickshank",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 965,
-    "Rank": 981
+    "Id": 769,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "UdListDefinitionId": 513,
+    "Rank": 144
   },
   {
-    "Id": 524,
-    "Name": "Schuster, Franecki and Cruickshank",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 965,
-    "Rank": 981
+    "Id": 769,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "placeat",
+    "Deleted": true,
+    "UdListDefinitionId": 513,
+    "Rank": 144
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Huels, Kiehn and King",
-    "Tooltip": "velit",
+    "Id": 901,
+    "Name": "Balistreri, Stehr and Orn",
+    "Tooltip": "facere",
     "Deleted": true,
-    "UdListDefinitionId": 126,
-    "Rank": 120,
+    "UdListDefinitionId": 509,
+    "Rank": 794,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 292
       }
     }
   }

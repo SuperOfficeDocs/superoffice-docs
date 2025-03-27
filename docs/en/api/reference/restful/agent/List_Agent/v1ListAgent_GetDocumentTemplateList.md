@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,23 +91,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 219,
-    "Name": "Fisher Group",
-    "Tooltip": "eligendi",
-    "SaveInDb": 109,
-    "Filename": "laboriosam",
-    "DefaultOref": "aut",
+    "DocumentTemplateId": 139,
+    "Name": "Schaefer-Little",
+    "Tooltip": "voluptas",
+    "SaveInDb": 518,
+    "Filename": "modi",
+    "DefaultOref": "est",
     "RecordType": "Appointment",
-    "Deleted": 232,
+    "Deleted": 684,
     "Direction": "Incoming",
-    "AutoeventId": 125,
+    "AutoeventId": 229,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 889
+        "FieldLength": 475
       }
     }
   }

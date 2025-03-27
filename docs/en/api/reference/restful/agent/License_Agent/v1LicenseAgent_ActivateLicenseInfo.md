@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/License/ActivateLicenseInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "",
+  "Reason": "disintermediate sexy models",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldLength": 932
     }
   }
 }

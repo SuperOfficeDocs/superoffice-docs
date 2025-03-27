@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=868
+POST /api/v1/Agents/Sale/GetSale?saleId=688
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Wisoky LLC",
-  "SaleDate": "2002-11-21T14:13:41.2032985+01:00",
-  "SaleId": 767,
-  "Probability": 644,
-  "Title": "repudiandae",
-  "Amount": 23442.32,
-  "Currency": "autem",
-  "ProjectName": "Gerlach LLC",
-  "AssociateFullName": "Karina Donnelly",
-  "Description": "Multi-tiered user-facing database",
+  "ContactName": "Bradtke Inc and Sons",
+  "SaleDate": "2006-07-14T02:38:21.8388638+02:00",
+  "SaleId": 989,
+  "Probability": 109,
+  "Title": "illum",
+  "Amount": 18995.174,
+  "Currency": "voluptatem",
+  "ProjectName": "Lowe LLC",
+  "AssociateFullName": "Miss Travon Kaleigh McDermott V",
+  "Description": "Integrated incremental instruction set",
   "Status": "Lost",
-  "WeightedAmount": 28619.688,
-  "ProjectId": 877,
-  "EarningPercent": 22734.036,
-  "Earning": 7643.826,
-  "ContactId": 788,
-  "AssociateId": 519,
-  "PersonId": 670,
-  "SaleTypeId": 196,
-  "SaleTypeName": "Smith, Stoltenberg and Aufderhar",
-  "PersonFullName": "Vidal Hettinger",
+  "WeightedAmount": 30540.829999999998,
+  "ProjectId": 19,
+  "EarningPercent": 29240.219999999998,
+  "Earning": 29218.282,
+  "ContactId": 448,
+  "AssociateId": 237,
+  "PersonId": 163,
+  "SaleTypeId": 180,
+  "SaleTypeName": "Gutmann-Rosenbaum",
+  "PersonFullName": "Miss Annette Morar",
   "Completed": "Completed",
-  "ActiveErpLinks": 823,
-  "NextDueDate": "2023-07-22T14:13:41.2032985+02:00",
-  "Number": "1013607",
+  "ActiveErpLinks": 46,
+  "NextDueDate": "2016-02-10T02:38:21.8388638+01:00",
+  "Number": "1380110",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 329
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   }
 }

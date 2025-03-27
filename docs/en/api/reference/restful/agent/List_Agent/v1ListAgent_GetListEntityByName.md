@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rolfson-Kerluke"
+  "Name": "McLaughlin LLC"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 821,
-  "Name": "Boehm, Herman and Rau",
-  "Tooltip": "nostrum",
+  "Id": 583,
+  "Name": "Flatley-Moen",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 303,
-  "IsCustomList": false,
+  "Rank": 242,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

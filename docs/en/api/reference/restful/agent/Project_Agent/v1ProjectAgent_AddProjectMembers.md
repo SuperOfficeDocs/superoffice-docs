@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 983,
+  "ProjectEntityId": 210,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 834,
-      "ContactId": 182,
-      "ProjectId": 743,
-      "ContactName": "Reynolds LLC",
+      "ProjectmemberId": 212,
+      "ContactId": 362,
+      "ProjectId": 350,
+      "ContactName": "Mayert Group",
       "ContactDepartment": "",
-      "ProjectName": "Herzog Group",
-      "EmailId": 718,
-      "EmailAddress": "gustave@altenwerth.name",
-      "CountryId": 173,
-      "Firstname": "Jordan",
-      "MiddleName": "Gleichner LLC",
-      "Lastname": "Strosin",
-      "PersonId": 813,
-      "Mrmrs": "suscipit",
-      "ProjectMemberTypeName": "Bosco Inc and Sons",
-      "Phone": "(711)550-2914 x991",
-      "PhoneId": 458,
-      "ProjectMemberTypeId": 881,
-      "EmailAddressName": "monserrate_roberts@keeblerhahn.info",
-      "Comment": "non",
-      "FullName": "Idella Mueller"
+      "ProjectName": "Buckridge, Ondricka and Bradtke",
+      "EmailId": 233,
+      "EmailAddress": "kailyn@schmitt.info",
+      "CountryId": 352,
+      "Firstname": "Lloyd",
+      "MiddleName": "Wiza, Trantow and Macejkovic",
+      "Lastname": "Nitzsche",
+      "PersonId": 625,
+      "Mrmrs": "et",
+      "ProjectMemberTypeName": "Johns Inc and Sons",
+      "Phone": "219.198.9637",
+      "PhoneId": 539,
+      "ProjectMemberTypeId": 567,
+      "EmailAddressName": "margaretta.morissette@gleason.us",
+      "Comment": "iusto",
+      "FullName": "Morton Mueller"
     }
   ]
 }

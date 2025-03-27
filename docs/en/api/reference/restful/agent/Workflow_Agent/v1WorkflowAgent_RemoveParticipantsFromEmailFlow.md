@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Workflow/RemoveParticipantsFromEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 324,
+  "EmailFlowId": 879,
   "WorkflowInstanceIds": [
-    921,
-    852
+    170,
+    806
   ]
 }
 ```

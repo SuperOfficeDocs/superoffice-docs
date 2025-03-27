@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Sawayn Inc and Sons",
-  "Tooltip": "molestias",
+  "Id": 467,
+  "Name": "Kozey, O'Reilly and Kassulke",
+  "Tooltip": "sequi",
   "Deleted": false,
-  "Rank": 455,
+  "Rank": 684,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "reiciendis",
-  "InUseByUserDefinedFields": true,
+  "ListType": "saepe",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldLength": 547
     }
   },
   "_Links": {

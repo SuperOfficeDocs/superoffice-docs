@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Weimann-Ruecker",
-    "ToolTip": "Dolor aliquid corporis quas fugiat modi assumenda.",
-    "Deleted": true,
-    "Rank": 552,
-    "Type": "id",
-    "ColorBlock": 148,
-    "IconHint": "minima",
+    "Id": 74,
+    "Name": "Terry, Hickle and Runolfsson",
+    "ToolTip": "Esse ad doloremque ut fugit voluptatum neque repudiandae.",
+    "Deleted": false,
+    "Rank": 58,
+    "Type": "earum",
+    "ColorBlock": 76,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2000-01-26T14:13:49.461799+01:00",
+    "LastChanged": "2015-08-09T02:38:26.5578869+02:00",
     "ChildItems": [
       {
-        "Id": 316,
-        "Name": "Schuster-Smith",
-        "ToolTip": "Id quia fugit consectetur.",
-        "Deleted": true,
-        "Rank": 657,
-        "Type": "ea",
-        "ColorBlock": 659,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2011-02-06T14:13:49.461799+01:00",
+        "Id": 671,
+        "Name": "Stehr-Gutmann",
+        "ToolTip": "Quidem natus quod adipisci veritatis voluptas a nobis.",
+        "Deleted": false,
+        "Rank": 949,
+        "Type": "asperiores",
+        "ColorBlock": 893,
+        "IconHint": "soluta",
+        "Selected": true,
+        "LastChanged": "2014-11-06T02:38:26.5578869+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Miss Jake Anya Wintheiser",
+        "ExtraInfo": "quidem",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Clotilde Wilkinson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "porro",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Shanny Lehner",
+    "FullName": "Alejandrin Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 153
       }
     }
   }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Thiel Inc and Sons",
-  "DeviceName": "Hauck-Paucek",
-  "DeviceIdentifier": "velit",
-  "TableName": "Cruickshank LLC"
+  "ApplicationName": "Thompson, Blick and Schuppe",
+  "DeviceName": "Bailey-Kutch",
+  "DeviceIdentifier": "est",
+  "TableName": "Satterfield LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "est",
-    "Value": "nemo",
-    "RecordId": 621,
-    "CreatedDate": "2014-10-19T14:13:40.4066046+02:00",
-    "UpdatedDate": "2002-09-18T14:13:40.4066046+02:00",
-    "UpdatedBy": "quia",
-    "CreatedBy": "neque",
-    "TableName": "Jenkins-Smith",
+    "Key": "sunt",
+    "Value": "quis",
+    "RecordId": 222,
+    "CreatedDate": "2020-02-17T02:38:21.4639053+01:00",
+    "UpdatedDate": "2008-07-27T02:38:21.4639053+02:00",
+    "UpdatedBy": "itaque",
+    "CreatedBy": "dolores",
+    "TableName": "Schamberger, Daniel and Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 83
+        "FieldLength": 84
       }
     }
   }

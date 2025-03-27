@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 510,
-    "Name": "Hermiston, Mante and Johns",
+    "TicketPriorityId": 418,
+    "Name": "Bartoletti-Gibson",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 244,
+    "SortOrder": 524,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 283,
-    "MonStart": "2012-09-23T14:13:50.3064464+02:00",
-    "MonStop": "2022-02-08T14:13:50.3064464+01:00",
-    "TueStart": "2000-06-26T14:13:50.3064464+02:00",
-    "TueStop": "2023-11-14T14:13:50.3064464+01:00",
-    "WedStart": "1998-01-13T14:13:50.3064464+01:00",
-    "WedStop": "2007-08-01T14:13:50.3064464+02:00",
-    "ThuStart": "2018-03-08T14:13:50.3064464+01:00",
-    "ThuStop": "2023-09-12T14:13:50.3064464+02:00",
-    "FriStart": "2010-11-12T14:13:50.3064464+01:00",
-    "FriStop": "2017-12-17T14:13:50.3064464+01:00",
-    "SatStart": "2005-10-30T14:13:50.3064464+01:00",
-    "SatStop": "1999-08-04T14:13:50.3064464+02:00",
-    "SunStart": "2010-10-27T14:13:50.3064464+02:00",
-    "SunStop": "2021-09-17T14:13:50.3064464+02:00",
+    "Deadline": 945,
+    "MonStart": "2007-12-17T02:38:27.0423674+01:00",
+    "MonStop": "1998-07-02T02:38:27.0423674+02:00",
+    "TueStart": "2014-09-08T02:38:27.0423674+02:00",
+    "TueStop": "2020-02-19T02:38:27.0423674+01:00",
+    "WedStart": "2020-05-20T02:38:27.0423674+02:00",
+    "WedStop": "1999-08-31T02:38:27.0423674+02:00",
+    "ThuStart": "2021-08-26T02:38:27.0423674+02:00",
+    "ThuStop": "2001-11-01T02:38:27.0423674+01:00",
+    "FriStart": "1999-01-18T02:38:27.0423674+01:00",
+    "FriStop": "2008-03-13T02:38:27.0423674+01:00",
+    "SatStart": "2012-09-08T02:38:27.0423674+02:00",
+    "SatStop": "2017-10-01T02:38:27.0423674+02:00",
+    "SunStart": "2012-04-15T02:38:27.0423674+02:00",
+    "SunStop": "2023-01-14T02:38:27.0423674+01:00",
     "NonDates": [
-      "quia",
-      "est"
+      "consequuntur",
+      "et"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 414,
-        "AlertLevel": 853,
-        "AlertTimeout": 570,
-        "Action": 298,
-        "DelegateTo": 292,
-        "ScriptId": 324,
-        "EmailTo": "elenor@bashirian.us",
-        "SmsTo": "iusto",
-        "ReplyTemplateIdCustomer": 31,
-        "ReplyTemplateIdUser": 513,
-        "ReplyTemplateIdCatmast": 172,
-        "ReplyTemplateIdEmail": 90,
-        "RtiCustomerSms": 921,
-        "ReplyTemplateIdUserSms": 579,
-        "ReplyTemplateIdCatmastSms": 370,
-        "ReplyTemplateIdSms": 155,
+        "TicketAlertId": 628,
+        "AlertLevel": 670,
+        "AlertTimeout": 526,
+        "Action": 839,
+        "DelegateTo": 958,
+        "ScriptId": 965,
+        "EmailTo": "daren.legros@armstrong.info",
+        "SmsTo": "earum",
+        "ReplyTemplateIdCustomer": 27,
+        "ReplyTemplateIdUser": 325,
+        "ReplyTemplateIdCatmast": 244,
+        "ReplyTemplateIdEmail": 285,
+        "RtiCustomerSms": 1000,
+        "ReplyTemplateIdUserSms": 433,
+        "ReplyTemplateIdCatmastSms": 630,
+        "ReplyTemplateIdSms": 87,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldType": "System.String",
+            "FieldLength": 610
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

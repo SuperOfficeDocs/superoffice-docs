@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 587,
-  "Name": "Nolan, Quitzon and Tremblay",
+  "SelectionId": 893,
+  "Name": "Hermann, Dickinson and Goyette",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-engineered zero tolerance website",
-  "Postit": "unde",
+  "Description": "Cross-platform well-modulated local area network",
+  "Postit": "quos",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 1000,
-  "IncludePerson": 491,
+  "GroupIdx": 590,
+  "IncludePerson": 274,
   "MemberCount": 99.99,
-  "Name": "Bernier-Sanford",
-  "PostitTextId": 876,
-  "CreatedDate": "2013-09-19T14:13:41.2821041+02:00",
-  "SelectionId": 887,
-  "SoundEx": "distinctio",
-  "Source": 798,
-  "TextId": 408,
-  "UpdatedDate": "2014-03-09T14:13:41.2821041+01:00",
-  "UpdatedCount": 955,
-  "Visibility": 268,
+  "Name": "Towne-Johnston",
+  "PostitTextId": 824,
+  "CreatedDate": "2000-02-11T02:38:21.9638511+01:00",
+  "SelectionId": 241,
+  "SoundEx": "tempore",
+  "Source": 925,
+  "TextId": 154,
+  "UpdatedDate": "2018-09-02T02:38:21.9638511+02:00",
+  "UpdatedCount": 523,
+  "Visibility": 538,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 960,
-  "TargetTableName": "Stiedemann Group",
-  "Completed": false,
-  "LeftSelectionId": 864,
-  "RightSelectionId": 381,
+  "TargetTableNumber": 585,
+  "TargetTableName": "Price-Pacocha",
+  "Completed": true,
+  "LeftSelectionId": 909,
+  "RightSelectionId": 591,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McGlynn-Walsh",
-  "ShadowProviderName": "Kertzmann-Schinner",
-  "ChartKey": "fugiat",
-  "LastLoaded": "2017-07-15T14:13:41.2821041+02:00",
-  "LastLoadedBy": 165,
+  "MainProviderName": "Graham LLC",
+  "ShadowProviderName": "O'Connell, Leannon and Hegmann",
+  "ChartKey": "porro",
+  "LastLoaded": "1998-07-25T02:38:21.9638511+02:00",
+  "LastLoadedBy": 27,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-12-22T14:13:41.2821041+01:00",
-  "LastMembershipChangeBy": 538,
+  "LastMembershipChange": "2017-05-16T02:38:21.9638511+02:00",
+  "LastMembershipChangeBy": 372,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "corporis",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "Schowalter-Graham",
-  "DashboardTileDefinitionId": 146,
+  "MainHeading": "aut",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Wiza LLC",
+  "DashboardTileDefinitionId": 515,
   "VisibleFor": [
     {
-      "VisibleId": 197,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     },
     {
-      "VisibleId": 197,
+      "VisibleId": 569,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 737
+          "FieldType": "System.Int32",
+          "FieldLength": 501
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 331
     }
   }
 }

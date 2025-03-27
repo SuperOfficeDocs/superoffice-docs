@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 319,
-  "Name": "Effertz Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 478,
+  "Id": 232,
+  "Name": "Schamberger, Marquardt and Ortiz",
+  "Tooltip": "error",
+  "Deleted": false,
+  "Rank": 927,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ad",
+  "ListType": "hic",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 789
     }
   },
   "_Links": {

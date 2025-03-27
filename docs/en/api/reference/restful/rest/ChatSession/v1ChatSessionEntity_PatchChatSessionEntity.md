@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "commodi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "commodi",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 817,
-  "TopicId": 473,
+  "ChatSessionId": 680,
+  "TopicId": 489,
   "User": null,
   "Person": null,
-  "CustomerAlias": "nesciunt",
-  "CustomerHost": "quia",
-  "CustomerName": "Gutmann LLC",
-  "CustomerEmail": "deja.moen@gorczanymiller.name",
-  "CustomerPhone": "127.070.6571",
+  "CustomerAlias": "iure",
+  "CustomerHost": "eligendi",
+  "CustomerName": "Moore, Hammes and Schaefer",
+  "CustomerEmail": "carolyn.barton@kub.ca",
+  "CustomerPhone": "1-252-756-2771",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Raynor Inc and Sons",
+  "CustomerCompanyName": "Stiedemann-Hahn",
   "Status": "Closed",
-  "FirstMessage": "incidunt",
-  "LastMessage": "voluptatum",
-  "WhenRequested": "2018-06-21T14:13:48.3664499+02:00",
-  "WhenStarted": "2003-06-03T14:13:48.3664499+02:00",
-  "WhenEnded": "2011-04-24T14:13:48.3664499+02:00",
-  "WhenIdle": "2017-01-15T14:13:48.3664499+01:00",
-  "WhenFetched": "2001-10-14T14:13:48.3664499+02:00",
-  "SessionKey": "rerum",
-  "InitialQueuePos": 408,
-  "AlertLevel": 129,
-  "Rank": 250,
+  "FirstMessage": "ducimus",
+  "LastMessage": "voluptas",
+  "WhenRequested": "2010-02-21T02:38:25.8704588+01:00",
+  "WhenStarted": "2007-06-16T02:38:25.8704588+02:00",
+  "WhenEnded": "2002-06-13T02:38:25.8704588+02:00",
+  "WhenIdle": "2025-02-14T02:38:25.8704588+01:00",
+  "WhenFetched": "2004-06-06T02:38:25.8704588+02:00",
+  "SessionKey": "possimus",
+  "InitialQueuePos": 762,
+  "AlertLevel": 414,
+  "Rank": 25,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 944,
+  "ChatbotIsActive": true,
+  "Rating": 823,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldLength": 551
     }
   },
   "_Links": {

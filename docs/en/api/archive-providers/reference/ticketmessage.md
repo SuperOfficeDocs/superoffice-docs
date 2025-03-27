@@ -43,6 +43,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
 |ticket/priorityName|listAny|Request - Priority: Service priority| x |
+|ticket/ownedBy|ejUser|Request - Owner: The owner of the request| x |
 |ticket/ticketId|int|Request - ID: Displays request ID| x |
 |ticket/title|string|Request - Title: Displays the request title| x |
 |ticket/createdAt|datetime|Request - Created: Displays when the request was created| x |
@@ -76,7 +77,6 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/deadline|datetime|Request - Deadline: Deadline| x |
 |ticket/has\_attachment|bool|Request - Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |ticket/tags|intArray|Request - Tags: Tags connected to a request| x |
-|ticket/ownedBy|ejUser|Request - Owner: The owner of the request| x |
 |ticket/createdBy|ejUser|Request - Created by: Created by| x |
 |ticket/content|string|Request - Content: Search for content in messages related to requests| x |
 |ticket/messageLanguage|listAny|Request - Language: Recognized language in messages|  |
@@ -821,7 +821,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/contact/contactAssociate/locationAddress,ticket/extra/x_ticket_timespan,ticket/sale/probPercent,ticket/project/hasInfoText,ticket/project/projectAssociate/otherGroups
+GET /api/v1/archive/TicketMessage?$select=ticket/person/ticketPriority,ticket/person/personAssociate/firstName,ticket/person/correspondingAssociate/firstName,ticket/person/correspondingAssociate/associateDbId,ticket/person/correspondingAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

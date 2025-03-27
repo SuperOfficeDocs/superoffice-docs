@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Little-Swift",
-    "Tooltip": "quae",
-    "Deleted": true,
-    "UdListDefinitionId": 326,
-    "Rank": 480,
+    "Id": 659,
+    "Name": "Medhurst Inc and Sons",
+    "Tooltip": "ex",
+    "Deleted": false,
+    "UdListDefinitionId": 352,
+    "Rank": 344,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 911
       }
     }
   }

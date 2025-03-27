@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "et",
-    "InputValues2": "facilis"
+    "InputValues1": "id",
+    "InputValues2": "totam"
   },
-  "BlockExecution": false,
-  "NavigateTo": "cupiditate",
-  "Message": "qui",
-  "ShowDialog": "explicabo",
+  "BlockExecution": true,
+  "NavigateTo": "quis",
+  "Message": "voluptatem",
+  "ShowDialog": "est",
   "OutputValues": {
-    "OutputValues1": "ipsa",
-    "OutputValues2": "earum"
+    "OutputValues1": "consequatur",
+    "OutputValues2": "velit"
   },
   "StateValues": {
-    "StateValues1": "quam",
-    "StateValues2": "ea"
+    "StateValues1": "quasi",
+    "StateValues2": "porro"
   },
-  "Exception": "sint",
+  "Exception": "consectetur",
   "ParserValues": {
-    "ParserValues1": "voluptas",
-    "ParserValues2": "reiciendis"
+    "ParserValues1": "id",
+    "ParserValues2": "sit"
   },
   "CgiVariables": {
-    "CgiVariables1": "sit",
-    "CgiVariables2": "nihil"
+    "CgiVariables1": "totam",
+    "CgiVariables2": "maiores"
   },
-  "CgiContent": "asperiores",
+  "CgiContent": "veniam",
   "Headers": {
-    "Headers1": "eaque",
-    "Headers2": "iusto"
+    "Headers1": "saepe",
+    "Headers2": "consequatur"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

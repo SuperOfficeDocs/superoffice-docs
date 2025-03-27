@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 686,
-  "Name": "Grimes, Sporer and Larson",
-  "Tooltip": "numquam",
+  "Id": 185,
+  "Name": "Kozey Inc and Sons",
+  "Tooltip": "officia",
   "Deleted": true,
-  "Rank": 276,
+  "Rank": 741,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

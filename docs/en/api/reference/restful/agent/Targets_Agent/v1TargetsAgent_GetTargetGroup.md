@@ -26,7 +26,7 @@ Gets a TargetGroup object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=292
+POST /api/v1/Agents/Targets/GetTargetGroup?targetGroupId=43
 POST /api/v1/Agents/Targets/GetTargetGroup?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,30 +82,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 859,
-  "Year": 193,
+  "TargetGroupId": 153,
+  "Year": 574,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 889,
+      "TargetAssignmentInfoId": 626,
       "Values": [
-        470,
-        821
+        9,
+        698
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 259,
-      "DimensionListItemDisplayName": "Hodkiewicz-Langworth",
+      "DimensionListItem": 965,
+      "DimensionListItemDisplayName": "Rice LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 265
+          "FieldLength": 116
         }
       }
     }
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 177
     }
   }
 }

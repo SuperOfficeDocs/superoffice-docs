@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Funk-Kozey",
-    "ToolTip": "Voluptatem voluptatum odio omnis id.",
+    "Id": 576,
+    "Name": "Jenkins, Larkin and Kub",
+    "ToolTip": "In dolore.",
     "Deleted": false,
-    "Rank": 238,
-    "Type": "aut",
-    "ColorBlock": 775,
-    "IconHint": "eum",
+    "Rank": 99,
+    "Type": "magni",
+    "ColorBlock": 259,
+    "IconHint": "harum",
     "Selected": true,
-    "LastChanged": "2010-08-22T14:13:49.696121+02:00",
+    "LastChanged": "2022-03-12T02:38:26.6986493+01:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Nicolas-Lind",
-        "ToolTip": "Commodi est aut sunt nam sed dolorem soluta.",
+        "Id": 376,
+        "Name": "Pfannerstill, Gerhold and Davis",
+        "ToolTip": "Ullam ut.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "sit",
-        "ColorBlock": 436,
-        "IconHint": "et",
+        "Rank": 80,
+        "Type": "distinctio",
+        "ColorBlock": 816,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2014-03-18T14:13:49.696121+01:00",
+        "LastChanged": "2019-12-29T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "sunt",
-        "Hidden": true,
-        "FullName": "Eloy Metz",
+        "ExtraInfo": "dicta",
+        "StyleHint": "explicabo",
+        "Hidden": false,
+        "FullName": "Isabel Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldLength": 840
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "ut",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Theodore Quinten Spencer I",
+    "FullName": "Rosalind Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldLength": 850
       }
     }
   }

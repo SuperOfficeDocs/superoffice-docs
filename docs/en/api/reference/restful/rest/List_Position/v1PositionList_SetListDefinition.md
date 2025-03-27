@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 453,
-  "Name": "Stamm, Connelly and Dickinson",
-  "Tooltip": "est",
+  "Id": 16,
+  "Name": "Larkin LLC",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 148,
-  "IsCustomList": false,
+  "Rank": 412,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 567,
-  "Name": "Adams-Schmeler",
-  "Tooltip": "necessitatibus",
+  "Id": 634,
+  "Name": "Orn-Wuckert",
+  "Tooltip": "id",
   "Deleted": true,
-  "Rank": 701,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 709,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "esse",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 786
     }
   }
 }

@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 835,
-  "Name": "Gislason-Rice",
-  "Description": "Seamless attitude-oriented project",
-  "DeltaJson": "cum",
+  "ConfigurableScreenDeltaId": 607,
+  "Name": "Rau Group",
+  "Description": "Re-contextualized exuding solution",
+  "DeltaJson": "minus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "sit",
-  "UpdatedDate": "2007-01-08T14:13:39.719154+01:00",
-  "CreatedDate": "2020-06-26T14:13:39.719154+02:00",
+  "RecipeId": "tempore",
+  "UpdatedDate": "2004-01-05T02:38:20.995206+01:00",
+  "CreatedDate": "2005-01-24T02:38:20.995206+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    883,
-    777
+    724,
+    774
   ],
-  "AppliesToKey": "architecto",
+  "AppliesToKey": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 922
     }
   }
 }

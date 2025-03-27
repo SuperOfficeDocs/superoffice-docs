@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 119,
-  "Name": "Upton-Treutel",
+  "WebhookId": 828,
+  "Name": "Gutmann-Mohr",
   "Events": [
-    "consequatur",
-    "cumque"
+    "unde",
+    "vero"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "illum",
+  "Secret": "voluptatum",
   "State": "Active",
-  "Type": "nostrum",
+  "Type": "aut",
   "Headers": {
-    "Headers1": "est",
-    "Headers2": "incidunt"
+    "Headers1": "veniam",
+    "Headers2": "quas"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2006-06-14T14:13:49.6023951+02:00",
+  "Registered": "2024-06-06T02:38:26.6517427+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-09-03T14:13:49.6023951+02:00",
+  "Updated": "2023-12-20T02:38:26.6517427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "rowan@gerlach.com"
+  "ErrorsEmail": "thad@schmeler.us"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 539,
-  "Name": "Prosacco Group",
+  "WebhookId": 823,
+  "Name": "Heathcote Group",
   "Events": [
-    "debitis",
-    "eum"
+    "et",
+    "saepe"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "cupiditate",
+  "Secret": "unde",
   "State": "Active",
-  "Type": "quis",
+  "Type": "a",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "ullam"
+    "Headers1": "aliquid",
+    "Headers2": "rerum"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2013-04-19T14:13:49.6180133+02:00",
+  "Registered": "2006-11-20T02:38:26.6517427+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-28T14:13:49.6180133+02:00",
+  "Updated": "2019-12-27T02:38:26.6517427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "geovanny_bahringer@schmeler.name",
+  "ErrorsEmail": "gaston_blick@roberts.name",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

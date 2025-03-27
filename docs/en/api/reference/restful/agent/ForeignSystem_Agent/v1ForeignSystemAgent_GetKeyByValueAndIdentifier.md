@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Glover, Hackett and Weber",
-  "DeviceName": "Wuckert Group",
-  "DeviceIdentifier": "omnis",
-  "KeyName": "Ratke LLC",
-  "KeyValue": "nemo",
-  "TableName": "DuBuque, Hyatt and Rosenbaum"
+  "ApplicationName": "Sipes LLC",
+  "DeviceName": "Willms, Pfeffer and Pfannerstill",
+  "DeviceIdentifier": "praesentium",
+  "KeyName": "Stark-Borer",
+  "KeyValue": "aut",
+  "TableName": "Pagac, Runolfsdottir and Gorczany"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "molestiae",
-  "Value": "quos",
-  "RecordId": 653,
-  "CreatedDate": "2007-04-02T14:13:40.3909833+02:00",
-  "UpdatedDate": "2014-12-24T14:13:40.3909833+01:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "temporibus",
-  "TableName": "Corkery Group",
+  "Key": "ea",
+  "Value": "est",
+  "RecordId": 505,
+  "CreatedDate": "2003-07-06T02:38:21.4639053+02:00",
+  "UpdatedDate": "2015-12-10T02:38:21.4639053+01:00",
+  "UpdatedBy": "impedit",
+  "CreatedBy": "vel",
+  "TableName": "Parker-Herzog",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 168
     }
   }
 }

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 128,
-  "ERPProductKey": "rem",
-  "ERPPriceListKey": "sequi",
-  "Name": "Effertz-Kuvalis",
-  "Description": "Persevering stable forecast",
-  "Code": "modi",
-  "PriceUnit": "quam",
-  "QuantityUnit": "est",
-  "IsSubscription": false,
-  "SubscriptionUnit": "quos",
-  "DefaultSubscriptionQuantity": 18634.764,
-  "ItemNumber": "1813423",
+  "ProductId": 694,
+  "ERPProductKey": "velit",
+  "ERPPriceListKey": "neque",
+  "Name": "Schmidt-Funk",
+  "Description": "Upgradable grid-enabled function",
+  "Code": "dolorem",
+  "PriceUnit": "voluptate",
+  "QuantityUnit": "libero",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 29296.631999999998,
+  "ItemNumber": "654113",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "soluta",
-  "VAT": 9417.67,
-  "VATInfo": "recusandae",
-  "UnitCost": 24235.221999999998,
-  "UnitMinimumPrice": 9828.224,
-  "UnitListPrice": 12865.07,
-  "InAssortment": false,
-  "Supplier": "reprehenderit",
-  "SupplierCode": "rerum",
-  "Rights": "perferendis",
-  "Rule": "odio",
+  "ProductFamilyKey": "consequatur",
+  "ProductTypeKey": "asperiores",
+  "VAT": 12319.753999999999,
+  "VATInfo": "quos",
+  "UnitCost": 17450.112,
+  "UnitMinimumPrice": 23956.296,
+  "UnitListPrice": 17252.67,
+  "InAssortment": true,
+  "Supplier": "nisi",
+  "SupplierCode": "amet",
+  "Rights": "fugiat",
+  "Rule": "nisi",
   "ExtraInfo": [
     {
-      "Name": "Waters Inc and Sons",
-      "Value": "sint",
+      "Name": "Parisian, Schneider and Rolfson",
+      "Value": "repudiandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 660
         }
       }
     },
     {
-      "Name": "Waters Inc and Sons",
-      "Value": "sint",
+      "Name": "Parisian, Schneider and Rolfson",
+      "Value": "repudiandae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 660
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorum",
-  "ExtraField1": "iusto",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "recusandae",
-  "ExtraField4": "et",
-  "ExtraField5": "quidem",
-  "InStock": 23536.34,
+  "RawExtraInfo": "quas",
+  "ExtraField1": "modi",
+  "ExtraField2": "reprehenderit",
+  "ExtraField3": "ab",
+  "ExtraField4": "nesciunt",
+  "ExtraField5": "excepturi",
+  "InStock": 23592.752,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 66
     }
   }
 }

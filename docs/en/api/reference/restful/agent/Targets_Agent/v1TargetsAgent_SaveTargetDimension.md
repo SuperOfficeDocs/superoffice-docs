@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 868,
+  "TargetDimensionId": 8,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "quas",
-  "DimensionListName": "Barton LLC",
-  "DimensionListId": 953,
-  "DimensionListLabel": "accusamus",
+  "DimensionListField": "vitae",
+  "DimensionListName": "Dooley Group",
+  "DimensionListId": 207,
+  "DimensionListLabel": "hic",
   "SelectedDimensions": [
-    61,
-    147
+    245,
+    40
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 966,
+  "TargetDimensionId": 330,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "sequi",
-  "DimensionListName": "Altenwerth Inc and Sons",
-  "DimensionListId": 875,
-  "DimensionListLabel": "aut",
+  "DimensionListField": "nobis",
+  "DimensionListName": "Reynolds-Collier",
+  "DimensionListId": 231,
+  "DimensionListLabel": "dolore",
   "SelectedDimensions": [
-    118,
-    6
+    769,
+    935
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 140
     }
   }
 }

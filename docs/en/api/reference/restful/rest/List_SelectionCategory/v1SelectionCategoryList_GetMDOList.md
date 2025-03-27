@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=dolores
+GET /api/v1/List/SelectionCategory/MDOItems?query=quam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Mitchell Group",
-    "ToolTip": "Excepturi ratione.",
-    "Deleted": true,
-    "Rank": 76,
-    "Type": "labore",
+    "Id": 530,
+    "Name": "Stark-Hermann",
+    "ToolTip": "Neque repudiandae id qui dignissimos.",
+    "Deleted": false,
+    "Rank": 687,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Goyette-Koepp",
-        "ToolTip": "Debitis optio et neque ut sed voluptatum.",
+        "Id": 723,
+        "Name": "Hoeger-Wunsch",
+        "ToolTip": "Doloremque quidem amet quis voluptatem dolores dolor ipsum.",
         "Deleted": false,
-        "Rank": 818,
-        "Type": "at",
+        "Rank": 50,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 538,
-        "ExtraInfo": "dolor",
-        "StyleHint": "nam",
-        "FullName": "Ms. Ana Hailey Watsica",
+        "IconHint": "consequatur",
+        "ColorBlock": 524,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "possimus",
+        "FullName": "Prof. Maiya Harold Yundt Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 857
+            "FieldType": "System.String",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 118,
+    "IconHint": "omnis",
+    "ColorBlock": 725,
     "ExtraInfo": "rerum",
-    "StyleHint": "veniam",
-    "FullName": "Ms. Christop Jewess",
+    "StyleHint": "impedit",
+    "FullName": "Brook Wiza",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 100
+        "FieldLength": 485
       }
     }
   }

@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 3,
-  "Name": "Vandervort LLC",
-  "ContentType": "est",
-  "AttSize": 324,
+  "AttachmentId": 435,
+  "Name": "Vandervort Inc and Sons",
+  "ContentType": "nobis",
+  "AttSize": 904,
   "InlineImage": false,
-  "ContentId": "modi",
-  "AuthKey": "voluptatem",
+  "ContentId": "omnis",
+  "AuthKey": "voluptatibus",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 582
+      "FieldLength": 537
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "fidel_emard@kuhlmandaugherty.com",
-  "Subject": "exercitationem",
-  "TemplateLanguage": "dolorem"
+  "EmailBody": "wyman.kilback@gorczanybergstrom.biz",
+  "Subject": "pariatur",
+  "TemplateLanguage": "et"
 }
 ```
 
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 840
     }
   }
 }

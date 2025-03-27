@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PrefDescLineIds": [
-    248,
-    995
+    987,
+    297
   ]
 }
 ```

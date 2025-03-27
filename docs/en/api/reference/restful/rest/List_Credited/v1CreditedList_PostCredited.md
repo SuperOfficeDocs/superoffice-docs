@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "Hansen-Sanford",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "UdListDefinitionId": 673,
-  "Rank": 707
+  "Id": 168,
+  "Name": "Smitham Group",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "UdListDefinitionId": 290,
+  "Rank": 763
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 351,
-  "Name": "Marvin, Beier and Romaguera",
-  "Tooltip": "dolorem",
-  "Deleted": false,
-  "UdListDefinitionId": 989,
-  "Rank": 207,
+  "Id": 823,
+  "Name": "Gerhold LLC",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 255,
+  "Rank": 634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 21
+      "FieldLength": 395
     }
   }
 }

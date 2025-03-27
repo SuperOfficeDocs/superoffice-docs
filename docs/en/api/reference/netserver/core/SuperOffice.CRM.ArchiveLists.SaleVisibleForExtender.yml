@@ -5,7 +5,7 @@ items:
   id: SaleVisibleForExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SetJoin
   - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.TableToExtend
   langs:
@@ -162,8 +162,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-  - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -171,16 +169,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender
   langs:
   - csharp
   - vb
-  name: SaleVisibleForExtender()
-  nameWithType: SaleVisibleForExtender.SaleVisibleForExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SaleVisibleForExtender()
+  name: SaleVisibleForExtender(String)
+  nameWithType: SaleVisibleForExtender.SaleVisibleForExtender(String)
+  fullName: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SaleVisibleForExtender(System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -189,8 +187,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public SaleVisibleForExtender()
-    content.vb: Public Sub New
+    content: public SaleVisibleForExtender(string iconHint = "Sale")
+    parameters:
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(iconHint As String = "Sale")
   overload: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.#ctor*
   modifiers.csharp:
   - public
@@ -5399,84 +5400,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<SaleVisibleForExtender>(SaleVisibleForExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<SaleVisibleForExtender>(SaleVisibleForExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender>(SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SaleVisibleForExtender)(SaleVisibleForExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)(SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-  name.vb: AssignByReflection(Of SaleVisibleForExtender)(SaleVisibleForExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<SaleVisibleForExtender>
-    nameWithType: ObjectExtensions.AssignByReflection<SaleVisibleForExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender
-    name: SaleVisibleForExtender
-    nameWithType: SaleVisibleForExtender
-    fullName: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of SaleVisibleForExtender)
-    nameWithType: ObjectExtensions.AssignByReflection(Of SaleVisibleForExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender
-    name: SaleVisibleForExtender
-    nameWithType: SaleVisibleForExtender
-    fullName: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<SaleVisibleForExtender>()
-  nameWithType: ObjectExtensions.GraphCopy<SaleVisibleForExtender>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SaleVisibleForExtender)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)()
-  name.vb: GraphCopy(Of SaleVisibleForExtender)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<SaleVisibleForExtender>
-    nameWithType: ObjectExtensions.GraphCopy<SaleVisibleForExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of SaleVisibleForExtender)
-    nameWithType: ObjectExtensions.GraphCopy(Of SaleVisibleForExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -5848,103 +5771,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -5991,12 +5817,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -6009,6 +5829,13 @@ references:
   name: SaleVisibleForExtender
   nameWithType: SaleVisibleForExtender.SaleVisibleForExtender
   fullName: SuperOffice.CRM.ArchiveLists.SaleVisibleForExtender.SaleVisibleForExtender
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.VisibleForTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.VisibleForTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.VisibleForTableInfo}

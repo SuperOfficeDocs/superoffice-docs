@@ -26,7 +26,7 @@ Gets a CustomerCenterConfig object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=757
+POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?customerCenterConfigId=401
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 732,
+  "CustConfigId": 336,
   "Type": "Options",
-  "Config": "illum",
-  "CustLangId": 326,
-  "Registered": "1999-03-26T14:13:39.9379614+01:00",
-  "RegisteredAssociateId": 874,
-  "Updated": "2022-02-06T14:13:39.9379614+01:00",
-  "UpdatedAssociateId": 119,
+  "Config": "harum",
+  "CustLangId": 545,
+  "Registered": "2001-04-24T02:38:21.182685+02:00",
+  "RegisteredAssociateId": 588,
+  "Updated": "2015-03-27T02:38:21.182685+01:00",
+  "UpdatedAssociateId": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldLength": 246
     }
   }
 }

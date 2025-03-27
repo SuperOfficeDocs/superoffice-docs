@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=566
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=549
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Quote/GetPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 100,
-  "ERPPriceListKey": "iste",
-  "QuoteConnectionId": 497,
-  "Name": "Welch-Weimann",
-  "Description": "Balanced upward-trending success",
-  "Currency": "ea",
-  "CurrencyName": "Parker-Ruecker",
-  "ValidFrom": "2001-07-01T14:13:41.0939485+02:00",
-  "ValidTo": "2020-03-08T14:13:41.0939485+01:00",
-  "IsActive": true,
+  "PriceListId": 135,
+  "ERPPriceListKey": "sit",
+  "QuoteConnectionId": 718,
+  "Name": "Kilback-Johnston",
+  "Description": "Open-source heuristic projection",
+  "Currency": "unde",
+  "CurrencyName": "Lowe, Schmidt and Franecki",
+  "ValidFrom": "2001-04-04T02:38:21.7607486+02:00",
+  "ValidTo": "2019-02-15T02:38:21.7607486+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 928
     }
   }
 }

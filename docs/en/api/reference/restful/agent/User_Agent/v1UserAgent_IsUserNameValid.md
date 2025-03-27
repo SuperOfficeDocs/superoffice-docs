@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 578,
+  "AssociateId": 143,
   "Type": "AnonymousAssociate",
-  "PersonId": 250,
-  "UserName": "Maggio-Moore"
+  "PersonId": 202,
+  "UserName": "Denesik, Swaniawski and O'Conner"
 }
 ```
 

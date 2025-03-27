@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 614,
-  "Name": "Friesen-Marks"
+  "SelectionId": 797,
+  "Name": "Rodriguez-Nader"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Streamlined homogeneous open architecture",
-  "Postit": "nostrum",
+  "Description": "Profound asynchronous focus group",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 509,
-  "IncludePerson": 899,
+  "GroupIdx": 893,
+  "IncludePerson": 217,
   "MemberCount": 99.99,
-  "Name": "Kub-Lubowitz",
-  "PostitTextId": 640,
-  "CreatedDate": "2024-07-01T14:13:41.3289686+02:00",
-  "SelectionId": 964,
-  "SoundEx": "et",
-  "Source": 209,
-  "TextId": 654,
-  "UpdatedDate": "2018-05-17T14:13:41.3289686+02:00",
-  "UpdatedCount": 883,
-  "Visibility": 856,
+  "Name": "Gibson, Gutkowski and Corkery",
+  "PostitTextId": 753,
+  "CreatedDate": "2014-08-09T02:38:21.9951006+02:00",
+  "SelectionId": 103,
+  "SoundEx": "sed",
+  "Source": 181,
+  "TextId": 842,
+  "UpdatedDate": "2012-07-09T02:38:21.9951006+02:00",
+  "UpdatedCount": 180,
+  "Visibility": 940,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 847,
-  "TargetTableName": "Thiel, Schaden and Zulauf",
-  "Completed": true,
-  "LeftSelectionId": 300,
-  "RightSelectionId": 349,
+  "CompanyUnique": true,
+  "TargetTableNumber": 55,
+  "TargetTableName": "Torphy Group",
+  "Completed": false,
+  "LeftSelectionId": 884,
+  "RightSelectionId": 151,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Hara Inc and Sons",
-  "ShadowProviderName": "Ledner-Haag",
-  "ChartKey": "nostrum",
-  "LastLoaded": "2006-11-14T14:13:41.3289686+01:00",
-  "LastLoadedBy": 847,
+  "MainProviderName": "Schaden Inc and Sons",
+  "ShadowProviderName": "Hamill Inc and Sons",
+  "ChartKey": "ipsum",
+  "LastLoaded": "2002-01-09T02:38:21.9951006+01:00",
+  "LastLoadedBy": 759,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-12-31T14:13:41.3289686+01:00",
-  "LastMembershipChangeBy": 364,
+  "LastMembershipChange": "2022-12-26T02:38:21.9951006+01:00",
+  "LastMembershipChangeBy": 588,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "laudantium",
-  "MemberTabHeading": "doloremque",
-  "MailingsProviderName": "Heller, Rutherford and Bruen",
-  "DashboardTileDefinitionId": 986,
+  "MainHeading": "veniam",
+  "MemberTabHeading": "voluptates",
+  "MailingsProviderName": "Reinger, Murray and Huel",
+  "DashboardTileDefinitionId": 514,
   "VisibleFor": [
     {
-      "VisibleId": 810,
+      "VisibleId": 635,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     },
     {
-      "VisibleId": 810,
+      "VisibleId": 635,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 734
     }
   }
 }

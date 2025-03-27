@@ -78,7 +78,7 @@ PreferenceDescriptionLine found.
 GET /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 860,
-  "PrefDescId": 915,
-  "PrefValue": "vel",
-  "PrefShowValue": "quaerat",
-  "Description": "Innovative intermediate adapter",
+  "PrefDescLineId": 820,
+  "PrefDescId": 538,
+  "PrefValue": "eaque",
+  "PrefShowValue": "eligendi",
+  "Description": "Seamless non-volatile groupware",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   },
   "_Links": {

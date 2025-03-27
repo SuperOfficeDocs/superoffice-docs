@@ -129,15 +129,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 959,
-  "GroupType": 980,
-  "StartTime": "2022-04-02T14:13:38.9849467+02:00",
-  "EndTime": "2020-07-24T14:13:38.9849467+02:00",
-  "Count": 178
+  "GroupId": 159,
+  "GroupType": 732,
+  "StartTime": "2011-08-09T02:38:20.5732257+02:00",
+  "EndTime": "2006-11-04T02:38:20.5732257+01:00",
+  "Count": 164
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 406,
-    "StartDate": "2002-10-28T14:13:38.9849467+01:00",
-    "EndDate": "2007-12-26T14:13:38.9849467+01:00",
+    "AppointmentId": 511,
+    "StartDate": "2014-08-26T02:38:20.5732257+02:00",
+    "EndDate": "2016-02-25T02:38:20.5732257+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sunt",
-    "AssociateFullName": "Madeline Lubowitz",
-    "ContactName": "Hilpert, Johnston and Walsh",
-    "Description": "Profound foreground portal",
-    "PersonFullName": "Alysha Medhurst",
-    "PersonId": 285,
-    "ContactId": 230,
-    "ProjectId": 656,
-    "ProjectName": "Schulist, Ullrich and Bradtke",
+    "Task": "non",
+    "AssociateFullName": "Sandrine Hansen",
+    "ContactName": "Lindgren-Braun",
+    "Description": "Public-key modular toolset",
+    "PersonFullName": "Prof. Birdie Sam Dickinson II",
+    "PersonId": 896,
+    "ContactId": 756,
+    "ProjectId": 83,
+    "ProjectName": "Little-Gulgowski",
     "IsPublished": false,
-    "AssociateId": 939,
-    "ColorIndex": 723,
-    "IsFree": true,
+    "AssociateId": 219,
+    "ColorIndex": 506,
+    "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 503,
-    "PriorityName": "Collins, Armstrong and Goldner",
+    "PriorityId": 196,
+    "PriorityName": "Kilback, Witting and Tromp",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2008-04-16T14:13:38.9849467+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2011-11-25T02:38:20.5732257+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-08-07T14:13:38.9849467+02:00",
-    "RecurringEndDate": "2015-10-04T14:13:38.9849467+02:00",
-    "MotherId": 60,
-    "AssignedBy": 97,
-    "AssignedByFullName": "Mrs. Elvera Jones DVM",
+    "RecurringStartDate": "2002-04-11T02:38:20.5732257+02:00",
+    "RecurringEndDate": "2013-01-12T02:38:20.5732257+01:00",
+    "MotherId": 548,
+    "AssignedBy": 22,
+    "AssignedByFullName": "Lulu Gerhold I",
     "RejectReason": "",
-    "Location": "in",
-    "AlarmLeadTime": "recusandae",
-    "SaleId": 588,
-    "SaleName": "Schmeler, Roberts and Bogan",
-    "AssociateName": "Mertz, Sipes and Harber",
-    "CreatedDate": "2019-08-06T14:13:38.9849467+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Ms. Leo Isabel Douglas",
-    "CreatedByAssociateId": 97,
+    "Location": "consequuntur",
+    "AlarmLeadTime": "sunt",
+    "SaleId": 695,
+    "SaleName": "Lind Group",
+    "AssociateName": "Sawayn-Reinger",
+    "CreatedDate": "2003-08-25T02:38:20.5732257+02:00",
+    "CreatedBy": "nobis",
+    "CreatedByFullName": "Ms. Derick Jovan Hermiston",
+    "CreatedByAssociateId": 817,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 423,
-    "Title": "magni",
-    "Agenda": "fuga",
-    "InternalNotes": "rerum",
+    "PreferredTZLocation": 702,
+    "Title": "et",
+    "Agenda": "odit",
+    "InternalNotes": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 683
+        "FieldType": "System.String",
+        "FieldLength": 56
       }
     }
   }

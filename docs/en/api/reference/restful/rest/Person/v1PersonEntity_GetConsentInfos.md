@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 988,
-    "Comment": "excepturi",
-    "Registered": "2015-10-25T14:13:48.9931539+01:00",
-    "RegisteredAssociateId": 52,
-    "Updated": "2019-09-03T14:13:48.9931539+02:00",
-    "UpdatedAssociateId": 877,
-    "LegalBaseId": 933,
-    "LegalBaseKey": "enim",
-    "LegalBaseName": "Renner-Okuneva",
-    "ConsentPurposeId": 168,
-    "ConsentPurposeKey": "aperiam",
-    "ConsentPurposeName": "Schuster, Harvey and Orn",
-    "ConsentSourceId": 729,
-    "ConsentSourceKey": "qui",
-    "ConsentSourceName": "Torp, Carter and Bode",
+    "ConsentPersonId": 945,
+    "Comment": "quisquam",
+    "Registered": "2000-01-03T02:38:26.1829353+01:00",
+    "RegisteredAssociateId": 152,
+    "Updated": "2017-07-18T02:38:26.1829353+02:00",
+    "UpdatedAssociateId": 306,
+    "LegalBaseId": 151,
+    "LegalBaseKey": "aut",
+    "LegalBaseName": "Harris Group",
+    "ConsentPurposeId": 443,
+    "ConsentPurposeKey": "ullam",
+    "ConsentPurposeName": "Auer-Schuster",
+    "ConsentSourceId": 246,
+    "ConsentSourceKey": "et",
+    "ConsentSourceName": "Jacobi Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermiston-Walker",
+  "Name": "Kihn-Kemmer",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Pouros LLC",
-    "AssociateId": 535,
-    "DetailsTable": 236,
-    "DetailsRecord": 918,
-    "IsSystemTask": true,
+    "Id": 616,
+    "Name": "Balistreri LLC",
+    "AssociateId": 122,
+    "DetailsTable": 258,
+    "DetailsRecord": 592,
+    "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sunt",
-      "ParameterObject2": "soluta"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "ad"
     },
-    "LastStarted": "2021-10-08T14:13:39.3911033+02:00",
-    "Created": "1999-07-22T14:13:39.3911033+02:00",
-    "StartCount": 333,
-    "DatabaseSerialNumber": "515068",
-    "Context": "non",
-    "Result": "quia",
+    "LastStarted": "2013-08-28T02:38:20.885843+02:00",
+    "Created": "2006-01-24T02:38:20.885843+01:00",
+    "StartCount": 753,
+    "DatabaseSerialNumber": "1136332",
+    "Context": "itaque",
+    "Result": "possimus",
     "State": "All",
-    "Description": "Centralized analyzing parallelism",
-    "Response": "sit",
-    "Request": "iusto",
-    "ProgressDescription": "Realigned secondary portal",
-    "ProgressPercent": 314,
-    "FileName": "Wyman, Runolfsson and McDermott",
+    "Description": "Automated heuristic moratorium",
+    "Response": "quam",
+    "Request": "et",
+    "ProgressDescription": "Organized solution-oriented time-frame",
+    "ProgressPercent": 303,
+    "FileName": "Boehm LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 832
+        "FieldType": "System.String",
+        "FieldLength": 33
       }
     }
   }

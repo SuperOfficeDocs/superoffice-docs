@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    811,
-    300
+    737,
+    24
   ],
-  "TargetTableNumber": 705
+  "TargetTableNumber": 935
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enterprise-wide holistic artificial intelligence",
-  "Postit": "illo",
+  "Description": "Quality-focused directional orchestration",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 45,
-  "IncludePerson": 405,
+  "GroupIdx": 561,
+  "IncludePerson": 908,
   "MemberCount": 99.99,
-  "Name": "Rosenbaum-Moore",
-  "PostitTextId": 794,
-  "CreatedDate": "2001-09-29T14:13:41.3133469+02:00",
-  "SelectionId": 281,
-  "SoundEx": "eaque",
-  "Source": 792,
-  "TextId": 148,
-  "UpdatedDate": "1998-03-13T14:13:41.3133469+01:00",
-  "UpdatedCount": 577,
-  "Visibility": 454,
+  "Name": "Reichel Group",
+  "PostitTextId": 750,
+  "CreatedDate": "2011-09-26T02:38:21.9794397+02:00",
+  "SelectionId": 151,
+  "SoundEx": "qui",
+  "Source": 16,
+  "TextId": 934,
+  "UpdatedDate": "2013-03-04T02:38:21.9794397+01:00",
+  "UpdatedCount": 470,
+  "Visibility": 913,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 446,
-  "TargetTableName": "Smith LLC",
-  "Completed": false,
-  "LeftSelectionId": 341,
-  "RightSelectionId": 760,
+  "TargetTableNumber": 852,
+  "TargetTableName": "Walsh, Roberts and Witting",
+  "Completed": true,
+  "LeftSelectionId": 191,
+  "RightSelectionId": 208,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leannon Inc and Sons",
-  "ShadowProviderName": "Kassulke LLC",
-  "ChartKey": "magnam",
-  "LastLoaded": "2014-04-20T14:13:41.3133469+02:00",
-  "LastLoadedBy": 64,
+  "MainProviderName": "Grant-Hauck",
+  "ShadowProviderName": "DuBuque Inc and Sons",
+  "ChartKey": "totam",
+  "LastLoaded": "2014-09-18T02:38:21.9794397+02:00",
+  "LastLoadedBy": 442,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-05-02T14:13:41.3133469+02:00",
-  "LastMembershipChangeBy": 660,
+  "LastMembershipChange": "2008-06-24T02:38:21.9794397+02:00",
+  "LastMembershipChangeBy": 562,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Veum Inc and Sons",
-  "DashboardTileDefinitionId": 800,
+  "MainHeading": "cupiditate",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Von-Klocko",
+  "DashboardTileDefinitionId": 618,
   "VisibleFor": [
     {
-      "VisibleId": 883,
+      "VisibleId": 58,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 478
         }
       }
     },
     {
-      "VisibleId": 883,
+      "VisibleId": 58,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldLength": 478
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 927
     }
   }
 }

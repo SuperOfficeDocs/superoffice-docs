@@ -66,7 +66,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/WebAppUsage?$select=associate/contactId,associate/usergroup
+GET /api/v1/archive/WebAppUsage?$select=webAppUsage_id,associate/contactId,associate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

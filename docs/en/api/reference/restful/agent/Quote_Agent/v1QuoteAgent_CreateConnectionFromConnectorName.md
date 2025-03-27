@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "White-Heathcote"
+  "ConnectorName": "Steuber, Champlin and Gutmann"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 309,
-  "ERPName": "Schmitt LLC",
-  "DisplayName": "Kiehn Group",
-  "DisplayDescription": "Vision-oriented fault-tolerant access",
-  "Rank": 958,
-  "ConnectorName": "Harris, Schroeder and Weber",
-  "ErpConnectionId": 391,
-  "ExtraData": "nisi",
-  "IsAvailable": false,
+  "QuoteConnectionId": 488,
+  "ERPName": "Fahey-Fisher",
+  "DisplayName": "Hoeger-Goodwin",
+  "DisplayDescription": "Stand-alone asynchronous info-mediaries",
+  "Rank": 518,
+  "ConnectorName": "Blick Inc and Sons",
+  "ErpConnectionId": 860,
+  "ExtraData": "dolorum",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 573,
-      "ERPPriceListKey": "accusamus",
-      "QuoteConnectionId": 827,
-      "Name": "Tromp LLC",
-      "Description": "Synergized scalable productivity",
-      "Currency": "illum",
-      "CurrencyName": "Cummerata-Gutmann",
-      "ValidFrom": "2020-04-09T14:13:41.1095702+02:00",
-      "ValidTo": "2021-03-01T14:13:41.1095702+01:00",
+      "PriceListId": 446,
+      "ERPPriceListKey": "inventore",
+      "QuoteConnectionId": 385,
+      "Name": "Cremin, Ritchie and Kautzer",
+      "Description": "Digitized stable encoding",
+      "Currency": "consequatur",
+      "CurrencyName": "Littel-Friesen",
+      "ValidFrom": "2000-02-06T02:38:21.7763357+01:00",
+      "ValidTo": "1998-07-02T02:38:21.7763357+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 568
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": true,
   "UserGroupAccessIds": [
-    846,
-    752
+    186,
+    914
   ],
   "AssociateAccessIds": [
-    728,
-    641
+    669,
+    503
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

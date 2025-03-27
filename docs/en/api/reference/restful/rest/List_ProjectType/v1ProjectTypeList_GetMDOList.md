@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=qui
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=cupiditate
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Koepp, Pollich and Luettgen",
-    "ToolTip": "Ducimus velit et sunt et aperiam ut.",
-    "Deleted": true,
-    "Rank": 253,
-    "Type": "libero",
+    "Id": 303,
+    "Name": "Nienow, Feil and Halvorson",
+    "ToolTip": "Consectetur nobis ut excepturi dolorum.",
+    "Deleted": false,
+    "Rank": 558,
+    "Type": "vero",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Mills Group",
-        "ToolTip": "Soluta aut deserunt commodi odio odit.",
-        "Deleted": false,
-        "Rank": 128,
-        "Type": "voluptatem",
+        "Id": 140,
+        "Name": "Gislason-Nader",
+        "ToolTip": "Minus provident eveniet iure rerum.",
+        "Deleted": true,
+        "Rank": 80,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quibusdam",
-        "ColorBlock": 601,
-        "ExtraInfo": "ut",
-        "StyleHint": "eum",
-        "FullName": "Otto Stracke I",
+        "IconHint": "deleniti",
+        "ColorBlock": 661,
+        "ExtraInfo": "vitae",
+        "StyleHint": "ut",
+        "FullName": "Magdalena Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 236
+            "FieldLength": 808
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 352,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "eius",
-    "FullName": "Cassandra O'Kon",
+    "IconHint": "velit",
+    "ColorBlock": 14,
+    "ExtraInfo": "deleniti",
+    "StyleHint": "soluta",
+    "FullName": "Arnaldo DuBuque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

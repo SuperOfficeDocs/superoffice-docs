@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 951,
-    "Name": "Ledner Group",
-    "Tooltip": "sunt",
-    "Deleted": false,
-    "Rank": 908,
+    "WebPanelId": 51,
+    "Name": "O'Kon, Botsford and Crooks",
+    "Tooltip": "iusto",
+    "Deleted": true,
+    "Rank": 395,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Kuhlman Group",
+    "WindowName": "Davis Group",
     "Url": "http://www.example.com/",
-    "ProgId": "voluptatem",
-    "Icon": 833,
+    "ProgId": "commodi",
+    "Icon": 806,
     "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldLength": 251
       }
     }
   }

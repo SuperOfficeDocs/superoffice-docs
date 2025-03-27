@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 341,
-  "TopicId": 992,
+  "ChatSessionId": 611,
+  "TopicId": 194,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aspernatur",
-  "CustomerHost": "omnis",
-  "CustomerName": "Conn, Ortiz and Murray",
-  "CustomerEmail": "providenci_becker@miller.uk",
-  "CustomerPhone": "1-834-945-9555",
+  "CustomerAlias": "id",
+  "CustomerHost": "debitis",
+  "CustomerName": "Gutkowski, Koss and Eichmann",
+  "CustomerEmail": "nathan@welchhowell.biz",
+  "CustomerPhone": "523-189-2694",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Nienow Inc and Sons",
+  "CustomerCompanyName": "Koelpin-Jacobs",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "illo",
-  "WhenRequested": "2022-10-30T14:13:48.3976928+01:00",
-  "WhenStarted": "2024-06-02T14:13:48.3976928+02:00",
-  "WhenEnded": "2009-03-18T14:13:48.3976928+01:00",
-  "WhenIdle": "2015-03-27T14:13:48.3976928+01:00",
-  "WhenFetched": "1998-06-01T14:13:48.3976928+02:00",
-  "SessionKey": "aut",
-  "InitialQueuePos": 574,
-  "AlertLevel": 975,
-  "Rank": 97,
+  "FirstMessage": "cupiditate",
+  "LastMessage": "rerum",
+  "WhenRequested": "2018-10-26T02:38:25.9017071+02:00",
+  "WhenStarted": "2014-09-24T02:38:25.9017071+02:00",
+  "WhenEnded": "2014-07-02T02:38:25.9017071+02:00",
+  "WhenIdle": "2014-05-03T02:38:25.9017071+02:00",
+  "WhenFetched": "2013-08-23T02:38:25.9017071+02:00",
+  "SessionKey": "error",
+  "InitialQueuePos": 867,
+  "AlertLevel": 164,
+  "Rank": 321,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 395,
+  "Rating": 33,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 739
     }
   }
 }

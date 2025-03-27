@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 03 Nov 2015 14:13:49 G11T
+Last-Modified: Mon, 05 Aug 2013 02:38:26 G8T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Tue, 03 Nov 2015 14:13:49 G11T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "nobis",
+  "SaleText": "consequuntur",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Tue, 03 Nov 2015 14:13:49 G11T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-09-26T14:13:49.1337532+02:00",
-  "Amount": 6258.598,
-  "SaleId": 447,
-  "Earning": 29368.714,
-  "EarningPercent": 30008.05,
-  "Heading": "ut",
-  "Number": "502632",
-  "Probability": 990,
-  "CreatedDate": "2004-01-31T14:13:49.1337532+01:00",
-  "UpdatedDate": "2015-11-03T14:13:49.1337532+01:00",
+  "Saledate": "2024-06-08T02:38:26.3547849+02:00",
+  "Amount": 1087.498,
+  "SaleId": 990,
+  "Earning": 22053.958,
+  "EarningPercent": 13563.952,
+  "Heading": "a",
+  "Number": "564833",
+  "Probability": 205,
+  "CreatedDate": "2010-04-23T02:38:26.3547849+02:00",
+  "UpdatedDate": "2013-08-05T02:38:26.3547849+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 770,
+  "ActiveLinks": 138,
   "Links": [
     {
-      "EntityName": "Little-Crona",
-      "Id": 21,
-      "Description": "Innovative dynamic focus group",
-      "ExtraInfo": "quo",
-      "LinkId": 979,
+      "EntityName": "Roob Group",
+      "Id": 161,
+      "Description": "Multi-channelled multi-tasking utilisation",
+      "ExtraInfo": "nobis",
+      "LinkId": 286,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 864
         }
       }
     }
   ],
-  "NextDueDate": "2017-10-20T14:13:49.1337532+02:00",
-  "Postit": "quia",
+  "NextDueDate": "2000-03-23T02:38:26.3547849+01:00",
+  "Postit": "fugit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2009-12-21T14:13:49.1337532+01:00",
+  "ReopenDate": "2003-06-30T02:38:26.3547849+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bauch Inc and Sons",
-      "Comment": "quaerat",
-      "StakeholderRoleId": 299,
-      "CountryId": 574,
-      "PersonId": 651,
-      "EmailDescription": "gilda@brekkecormier.biz",
-      "EmailId": 24,
-      "EmailAddress": "davin@kozeystiedemann.info",
-      "PhoneId": 709,
-      "ContactName": "Wiegand, Brakus and Pollich",
-      "ContactId": 26,
-      "SaleId": 562,
-      "Mrmrs": "et",
-      "Firstname": "Remington",
-      "MiddleName": "Cormier LLC",
-      "Lastname": "Krajcik",
-      "SaleStakeholderId": 661,
-      "Rank": 881,
-      "Phone": "(200)727-7193 x9000",
+      "StakeholderRoleName": "Emmerich, Terry and Jacobs",
+      "Comment": "quas",
+      "StakeholderRoleId": 744,
+      "CountryId": 802,
+      "PersonId": 477,
+      "EmailDescription": "terrance@friesen.co.uk",
+      "EmailId": 592,
+      "EmailAddress": "elaina.carroll@nienow.com",
+      "PhoneId": 592,
+      "ContactName": "Cummerata Inc and Sons",
+      "ContactId": 375,
+      "SaleId": 426,
+      "Mrmrs": "accusantium",
+      "Firstname": "Jamil",
+      "MiddleName": "Stanton, Schaden and Mertz",
+      "Lastname": "Oberbrunner",
+      "SaleStakeholderId": 183,
+      "Rank": 448,
+      "Phone": "750.106.1780",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 167
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 564,
+  "UserDefinedFields": {
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Desmond Davis"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "debitis",
+    "ExtraFields2": "est"
+  },
+  "CustomFields": {
+    "CustomFields1": "est",
+    "CustomFields2": "odit"
+  },
+  "PublishEventDate": "2012-09-07T02:38:26.3547849+02:00",
+  "PublishTo": "2009-09-12T02:38:26.3547849+02:00",
+  "PublishFrom": "2012-04-19T02:38:26.3547849+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 109,
+      "Visibility": "All",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 991
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 254,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Theron Nicolas",
-    "SuperOffice:2": "Ima Rohan"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "esse"
-  },
-  "CustomFields": {
-    "CustomFields1": "a",
-    "CustomFields2": "architecto"
-  },
-  "PublishEventDate": "2006-03-01T14:13:49.1337532+01:00",
-  "PublishTo": "2002-12-27T14:13:49.1337532+01:00",
-  "PublishFrom": "2005-08-26T14:13:49.1337532+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 159,
-      "Visibility": "All",
-      "DisplayValue": "fuga",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 46
         }
       }
     },
     {
-      "VisibleId": 159,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "fuga",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldType": "System.String",
+          "FieldLength": 46
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Tue, 03 Nov 2015 14:13:49 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 544
     }
   }
 }

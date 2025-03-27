@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Jacobson-Rowe",
+  "TaskName": "Schneider, Christiansen and McGlynn",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Hauck-Dooley",
-    "AssociateId": 751,
-    "DetailsTable": 261,
-    "DetailsRecord": 559,
+    "Id": 93,
+    "Name": "Nikolaus Inc and Sons",
+    "AssociateId": 884,
+    "DetailsTable": 772,
+    "DetailsRecord": 993,
     "IsSystemTask": true,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolor",
-      "ParameterObject2": "reprehenderit"
+      "ParameterObject1": "non",
+      "ParameterObject2": "ab"
     },
-    "LastStarted": "2001-05-31T14:13:39.3911033+02:00",
-    "Created": "2003-09-07T14:13:39.3911033+02:00",
-    "StartCount": 272,
-    "DatabaseSerialNumber": "614476",
-    "Context": "cum",
-    "Result": "aut",
+    "LastStarted": "2004-01-18T02:38:20.885843+01:00",
+    "Created": "2021-05-06T02:38:20.885843+02:00",
+    "StartCount": 858,
+    "DatabaseSerialNumber": "1302385",
+    "Context": "soluta",
+    "Result": "saepe",
     "State": "All",
-    "Description": "Multi-tiered optimizing superstructure",
-    "Response": "sunt",
-    "Request": "illum",
-    "ProgressDescription": "Advanced solution-oriented paradigm",
-    "ProgressPercent": 697,
-    "FileName": "Huels-Mitchell",
+    "Description": "Multi-tiered static open system",
+    "Response": "qui",
+    "Request": "qui",
+    "ProgressDescription": "User-centric actuating hub",
+    "ProgressPercent": 869,
+    "FileName": "Watsica, Cruickshank and Johnson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldLength": 662
       }
     }
   }

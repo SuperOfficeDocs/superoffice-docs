@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Will, Wintheiser and Kuphal",
-  "Tooltip": "nulla",
-  "Deleted": false,
-  "Rank": 655,
-  "IsCustomList": true,
+  "Id": 960,
+  "Name": "Gorczany, Ratke and Zulauf",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "Rank": 200,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": false
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Schowalter LLC",
-  "Tooltip": "maiores",
-  "Deleted": true,
-  "Rank": 662,
-  "IsCustomList": true,
+  "Id": 415,
+  "Name": "Gerlach-Olson",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 13,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "delectus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 681
+      "FieldLength": 601
     }
   }
 }

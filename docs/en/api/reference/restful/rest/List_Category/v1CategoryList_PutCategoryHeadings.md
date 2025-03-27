@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 77,
-    "Name": "Kerluke Inc and Sons",
-    "Tooltip": "libero",
+    "HeadingId": 468,
+    "Name": "Renner, Lynch and Wilderman",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 375
+    "Rank": 38,
+    "UdListDefinitionId": 993
   },
   {
-    "HeadingId": 77,
-    "Name": "Kerluke Inc and Sons",
-    "Tooltip": "libero",
+    "HeadingId": 468,
+    "Name": "Renner, Lynch and Wilderman",
+    "Tooltip": "incidunt",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 375
+    "Rank": 38,
+    "UdListDefinitionId": 993
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 944,
-    "Name": "Hudson-Kiehn",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "Rank": 522,
-    "UdListDefinitionId": 299,
+    "HeadingId": 547,
+    "Name": "Swift-Purdy",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "Rank": 637,
+    "UdListDefinitionId": 195,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 100
+        "FieldLength": 821
       }
     }
   }

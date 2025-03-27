@@ -124,6 +124,31 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonSelectionStaticProviderV2()
+  nameWithType: ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public ContactPersonSelectionStaticProviderV2()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.GetRows(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.GetRows(System.String)
   id: GetRows(System.String)
@@ -158,31 +183,6 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2
-  langs:
-  - csharp
-  - vb
-  name: ContactPersonSelectionStaticProviderV2()
-  nameWithType: ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2()
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2()
-  type: Constructor
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists.Archive
-  syntax:
-    content: public ContactPersonSelectionStaticProviderV2()
-    content.vb: Public Sub New
-  overload: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive
@@ -1547,6 +1547,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
+  isExternal: true
+  name: ContactPersonSelectionStaticProviderV2
+  nameWithType: ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2
 - uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetRows(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.GetRows(System.String)
   parent: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
@@ -1675,9 +1681,3 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.#ctor
-  isExternal: true
-  name: ContactPersonSelectionStaticProviderV2
-  nameWithType: ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionStaticProviderV2.ContactPersonSelectionStaticProviderV2

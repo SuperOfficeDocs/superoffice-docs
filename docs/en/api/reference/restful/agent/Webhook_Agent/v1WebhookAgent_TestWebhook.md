@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Webhook/TestWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "dolor",
+  "Message": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 151
+      "FieldLength": 72
     }
   }
 }

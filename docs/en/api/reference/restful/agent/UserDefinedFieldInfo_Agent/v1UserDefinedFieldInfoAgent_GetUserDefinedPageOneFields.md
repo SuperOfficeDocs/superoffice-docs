@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 663
+  "UserGroupId": 172
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 808,
-    "ColumnId": 721,
-    "FieldDefault": "reprehenderit",
-    "FieldHeight": 692,
-    "FieldLabel": "expedita",
-    "FieldLeft": 140,
-    "FieldTop": 251,
+    "UDefFieldId": 254,
+    "ColumnId": 90,
+    "FieldDefault": "sint",
+    "FieldHeight": 360,
+    "FieldLabel": "hic",
+    "FieldLeft": 717,
+    "FieldTop": 596,
     "FieldType": "Checkbox",
-    "FieldWidth": 667,
-    "FormatMask": "fugit",
+    "FieldWidth": 962,
+    "FormatMask": "in",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 710,
-    "LabelLeft": 172,
-    "LabelTop": 905,
-    "LabelWidth": 414,
-    "LastVersionId": 540,
-    "ListTableId": 812,
+    "LabelHeight": 919,
+    "LabelLeft": 786,
+    "LabelTop": 974,
+    "LabelWidth": 832,
+    "LastVersionId": 491,
+    "ListTableId": 148,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 470,
-    "ProgId": "cupiditate",
+    "Page1LineNo": 395,
+    "ProgId": "saepe",
     "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 450,
-    "TextLength": 872,
-    "Tooltip": "nam",
-    "UdefIdentity": 454,
-    "UDListDefinitionId": 412,
+    "ShortLabel": "vitae",
+    "TabOrder": 210,
+    "TextLength": 752,
+    "Tooltip": "eos",
+    "UdefIdentity": 885,
+    "UDListDefinitionId": 597,
     "Justification": "Center",
-    "Version": 311,
-    "TemplateVariableName": "Mills-Friesen",
+    "Version": 450,
+    "TemplateVariableName": "Stoltenberg LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Kohler-Larson",
+    "MdoListName": "Beatty-Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldLength": 335
       }
     }
   }

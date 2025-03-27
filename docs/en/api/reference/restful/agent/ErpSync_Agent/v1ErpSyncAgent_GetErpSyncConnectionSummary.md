@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 996
+  "ErpSyncConnectionId": 534
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Johnson-Braun",
-  "DisplayDescription": "Monitored impactful encryption",
+  "DisplayName": "Lynch, Littel and Murazik",
+  "DisplayDescription": "Implemented non-volatile project",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2003-11-27T14:13:40.3284976+01:00",
+  "LastSync": "2003-12-30T02:38:21.4170353+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "dolore",
-      "Mappings": "praesentium",
+      "Defaults": "earum",
+      "Mappings": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 858
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "dolore",
-      "Mappings": "praesentium",
+      "Defaults": "earum",
+      "Mappings": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 858
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 765
     }
   }
 }

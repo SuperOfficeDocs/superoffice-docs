@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 830
+  "TargetDimensionId": 240
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 478,
+    "TargetAssignmentInfoId": 777,
     "Values": [
-      321,
-      384
+      706,
+      386
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 309,
-    "DimensionListItemDisplayName": "Tromp LLC",
+    "DimensionListItem": 58,
+    "DimensionListItemDisplayName": "Boyer Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

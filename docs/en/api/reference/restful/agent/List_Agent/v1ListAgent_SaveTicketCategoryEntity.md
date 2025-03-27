@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 143,
-  "ParentId": 413,
-  "Name": "Nader-Welch",
-  "Fullname": "soluta",
-  "CategoryMaster": 304,
+  "TicketCategoryId": 944,
+  "ParentId": 670,
+  "Name": "Hyatt Group",
+  "Fullname": "aut",
+  "CategoryMaster": 345,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Hintz Inc and Sons",
+  "ExternalName": "Brekke, Friesen and Wyman",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 925,
-  "ReplyTemplate": 918,
-  "NotificationEmail": "dylan@streich.ca",
+  "AssignmentLag": 388,
+  "ReplyTemplate": 886,
+  "NotificationEmail": "aubree.connelly@kozeymills.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 659,
+  "EffectiveReplyTemplateId": 675,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "numquam",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "quo"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "quidem"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 619,
-  "ParentId": 549,
-  "Name": "White-Cassin",
-  "Fullname": "in",
-  "CategoryMaster": 966,
+  "TicketCategoryId": 507,
+  "ParentId": 130,
+  "Name": "Sporer Inc and Sons",
+  "Fullname": "voluptas",
+  "CategoryMaster": 261,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Satterfield Inc and Sons",
+  "ExternalName": "Zulauf-Connelly",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 92,
-  "ReplyTemplate": 112,
-  "NotificationEmail": "esmeralda@sporer.uk",
+  "AssignmentLag": 908,
+  "ReplyTemplate": 623,
+  "NotificationEmail": "heloise.cronin@abshire.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 557,
+  "EffectiveReplyTemplateId": 246,
   "ExtraFields": {
-    "ExtraFields1": "laboriosam",
-    "ExtraFields2": "ab"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "voluptatibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

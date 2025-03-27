@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Schuppe, Schulist and Jaskolski",
-    "ToolTip": "Aperiam eum saepe id dolor aut sed optio.",
-    "Deleted": true,
-    "Rank": 995,
-    "Type": "nihil",
-    "ColorBlock": 395,
-    "IconHint": "ea",
+    "Id": 733,
+    "Name": "Dibbert Inc and Sons",
+    "ToolTip": "Laudantium nemo delectus.",
+    "Deleted": false,
+    "Rank": 909,
+    "Type": "suscipit",
+    "ColorBlock": 107,
+    "IconHint": "veritatis",
     "Selected": true,
-    "LastChanged": "2002-12-17T14:13:50.2752013+01:00",
+    "LastChanged": "2020-12-19T02:38:27.0423674+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Macejkovic Inc and Sons",
-        "ToolTip": "Perferendis ut non impedit illum omnis.",
-        "Deleted": false,
-        "Rank": 184,
-        "Type": "soluta",
-        "ColorBlock": 695,
-        "IconHint": "repellendus",
+        "Id": 389,
+        "Name": "Dicki LLC",
+        "ToolTip": "Aperiam accusantium.",
+        "Deleted": true,
+        "Rank": 520,
+        "Type": "labore",
+        "ColorBlock": 879,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2019-07-26T14:13:50.2752013+02:00",
+        "LastChanged": "2021-10-25T02:38:27.0423674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "ut",
+        "ExtraInfo": "nemo",
+        "StyleHint": "officia",
         "Hidden": true,
-        "FullName": "Brice Crooks"
+        "FullName": "Prof. Deonte Kris"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "cumque",
+    "ExtraInfo": "ut",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Ruthie Labadie"
+    "FullName": "Tremayne Schoen"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 416,
-    "Name": "Cremin-Lowe",
-    "ToolTip": "Ratione quia corporis voluptatem.",
-    "Deleted": true,
-    "Rank": 75,
-    "Type": "blanditiis",
-    "ColorBlock": 695,
-    "IconHint": "itaque",
-    "Selected": true,
-    "LastChanged": "2022-10-14T14:13:50.2752013+02:00",
+    "Id": 758,
+    "Name": "Crona, Pouros and Parker",
+    "ToolTip": "Occaecati consequuntur aut nisi cum.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "est",
+    "ColorBlock": 268,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2002-03-01T02:38:27.0423674+01:00",
     "ChildItems": [
       {
-        "Id": 900,
-        "Name": "Bechtelar Group",
-        "ToolTip": "Ut sapiente assumenda illum.",
+        "Id": 915,
+        "Name": "Kshlerin-Gerhold",
+        "ToolTip": "Est dolor.",
         "Deleted": false,
-        "Rank": 602,
-        "Type": "ducimus",
-        "ColorBlock": 251,
-        "IconHint": "quidem",
-        "Selected": false,
-        "LastChanged": "2021-07-15T14:13:50.2752013+02:00",
+        "Rank": 364,
+        "Type": "unde",
+        "ColorBlock": 7,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2023-05-13T02:38:27.0423674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "dolor",
+        "ExtraInfo": "numquam",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Mrs. Duncan Laron Huel",
+        "FullName": "Ericka Doyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldType": "System.String",
+            "FieldLength": 289
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Raleigh Brown",
+    "FullName": "Giovani Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

@@ -77,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 597,
-  "Restrictions": "non"
+  "DashboardTileId": 127,
+  "Restrictions": "nemo"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hane Inc and Sons",
-        "DisplayTooltip": "quod",
-        "DisplayType": "rem",
-        "CanOrderBy": true,
-        "Name": "Larkin-Romaguera",
+        "DisplayName": "Pfeffer, McLaughlin and Rolfson",
+        "DisplayTooltip": "aut",
+        "DisplayType": "eum",
+        "CanOrderBy": false,
+        "Name": "Schaefer, Effertz and Pagac",
         "CanRestrictBy": false,
-        "RestrictionType": "culpa",
-        "RestrictionListName": "Eichmann Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "qui",
+        "RestrictionType": "accusantium",
+        "RestrictionListName": "Mills LLC",
+        "IsVisible": false,
+        "ExtraInfo": "quis",
         "Width": "sit",
-        "IconHint": "dolore",
-        "HeadingIconHint": "assumenda"
+        "IconHint": "ut",
+        "HeadingIconHint": "dolor"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Hane Inc and Sons",
-        "DisplayTooltip": "quod",
-        "DisplayType": "rem",
-        "CanOrderBy": true,
-        "Name": "Larkin-Romaguera",
+        "DisplayName": "Pfeffer, McLaughlin and Rolfson",
+        "DisplayTooltip": "aut",
+        "DisplayType": "eum",
+        "CanOrderBy": false,
+        "Name": "Schaefer, Effertz and Pagac",
         "CanRestrictBy": false,
-        "RestrictionType": "culpa",
-        "RestrictionListName": "Eichmann Inc and Sons",
-        "IsVisible": true,
-        "ExtraInfo": "qui",
+        "RestrictionType": "accusantium",
+        "RestrictionListName": "Mills LLC",
+        "IsVisible": false,
+        "ExtraInfo": "quis",
         "Width": "sit",
-        "IconHint": "dolore",
-        "HeadingIconHint": "assumenda"
+        "IconHint": "ut",
+        "HeadingIconHint": "dolor"
       }
     ],
     "Result": null

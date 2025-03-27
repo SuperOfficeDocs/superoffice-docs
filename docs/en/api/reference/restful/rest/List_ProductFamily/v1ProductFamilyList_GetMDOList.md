@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=consectetur
+GET /api/v1/List/ProductFamily/MDOItems?query=sequi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Kiehn LLC",
-    "ToolTip": "Velit accusantium nemo et quasi.",
+    "Id": 133,
+    "Name": "Ondricka, Roob and Ernser",
+    "ToolTip": "Commodi tempore tenetur enim.",
     "Deleted": true,
-    "Rank": 309,
-    "Type": "maxime",
+    "Rank": 940,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Crona-Skiles",
-        "ToolTip": "Vitae sed odio est.",
+        "Id": 877,
+        "Name": "Pollich-Reinger",
+        "ToolTip": "Nesciunt asperiores consequatur est repudiandae minus.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "placeat",
+        "Rank": 189,
+        "Type": "quidem",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "a",
-        "ColorBlock": 543,
-        "ExtraInfo": "omnis",
-        "StyleHint": "aspernatur",
-        "FullName": "Miss Urban Arlie Hansen",
+        "ColorBlock": 560,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "reprehenderit",
+        "FullName": "Wilber Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldLength": 630
           }
         }
       }
     ],
-    "IconHint": "soluta",
-    "ColorBlock": 324,
-    "ExtraInfo": "quam",
-    "StyleHint": "culpa",
-    "FullName": "Virginia Bartoletti",
+    "IconHint": "accusantium",
+    "ColorBlock": 420,
+    "ExtraInfo": "eum",
+    "StyleHint": "quae",
+    "FullName": "Marlin Kihn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 550
+        "FieldLength": 570
       }
     }
   }

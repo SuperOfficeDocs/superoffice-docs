@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Hagenes Inc and Sons",
-    "ToolTip": "Eligendi et dolorem.",
-    "Deleted": false,
-    "Rank": 457,
-    "Type": "explicabo",
-    "ColorBlock": 650,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "1997-11-30T14:13:49.1025081+01:00",
+    "Id": 836,
+    "Name": "Osinski Group",
+    "ToolTip": "Et reprehenderit possimus et ut.",
+    "Deleted": true,
+    "Rank": 282,
+    "Type": "ut",
+    "ColorBlock": 575,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2008-08-20T02:38:26.3391624+02:00",
     "ChildItems": [
       {
-        "Id": 789,
-        "Name": "Auer, Brakus and Bahringer",
-        "ToolTip": "Minima repudiandae ad a et consequatur voluptatibus possimus.",
-        "Deleted": true,
-        "Rank": 362,
-        "Type": "aliquid",
-        "ColorBlock": 756,
-        "IconHint": "esse",
-        "Selected": false,
-        "LastChanged": "2020-09-25T14:13:49.1025081+02:00",
+        "Id": 180,
+        "Name": "McKenzie Inc and Sons",
+        "ToolTip": "Itaque et quis et vitae.",
+        "Deleted": false,
+        "Rank": 970,
+        "Type": "iure",
+        "ColorBlock": 538,
+        "IconHint": "molestiae",
+        "Selected": true,
+        "LastChanged": "2023-10-21T02:38:26.3391624+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Miss Melany Cheyanne Dickinson III",
+        "ExtraInfo": "fugit",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Ms. Dustin Douglas Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Wilford Hayley Ankunding DDS",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "eius",
+    "Hidden": true,
+    "FullName": "Pascale Schuster DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 624
+        "FieldLength": 285
       }
     }
   }

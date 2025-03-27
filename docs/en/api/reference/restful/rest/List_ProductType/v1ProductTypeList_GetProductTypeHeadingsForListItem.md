@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Labadie-Feest",
-    "ToolTip": "Ut sunt est sit dolorem quasi.",
-    "Deleted": false,
-    "Rank": 738,
-    "Type": "voluptate",
-    "ColorBlock": 345,
-    "IconHint": "sit",
+    "Id": 817,
+    "Name": "Haag, Christiansen and Torp",
+    "ToolTip": "Temporibus id est esse error facilis optio.",
+    "Deleted": true,
+    "Rank": 465,
+    "Type": "quo",
+    "ColorBlock": 873,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2004-06-13T14:13:50.1031526+02:00",
+    "LastChanged": "2023-01-25T02:38:26.854892+01:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Gislason, Smitham and Dickens",
-        "ToolTip": "Quae velit recusandae necessitatibus.",
+        "Id": 915,
+        "Name": "O'Conner Group",
+        "ToolTip": "Vero ut.",
         "Deleted": true,
-        "Rank": 256,
-        "Type": "quae",
-        "ColorBlock": 805,
-        "IconHint": "quo",
+        "Rank": 580,
+        "Type": "error",
+        "ColorBlock": 27,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2024-11-11T14:13:50.1031526+01:00",
+        "LastChanged": "2002-08-07T02:38:26.854892+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "quis",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "sed",
         "Hidden": true,
-        "FullName": "Alessandra Wilkinson DDS",
+        "FullName": "Dr. Mathilde Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 361
+            "FieldType": "System.String",
+            "FieldLength": 263
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "voluptate",
-    "Hidden": false,
-    "FullName": "Mark Pascale Hessel IV",
+    "ExtraInfo": "qui",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Rodger Jewess",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 505
+        "FieldLength": 2
       }
     }
   }

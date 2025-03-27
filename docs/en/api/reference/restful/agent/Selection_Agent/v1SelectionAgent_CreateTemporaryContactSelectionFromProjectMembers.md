@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 115
+  "ProjectId": 49
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced 6th generation productivity",
-  "Postit": "dolor",
+  "Description": "Balanced solution-oriented Graphic Interface",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 244,
-  "IncludePerson": 544,
+  "GroupIdx": 411,
+  "IncludePerson": 584,
   "MemberCount": 99.99,
-  "Name": "Kerluke LLC",
-  "PostitTextId": 348,
-  "CreatedDate": "2012-10-17T14:13:41.2977255+02:00",
-  "SelectionId": 879,
-  "SoundEx": "vel",
-  "Source": 774,
-  "TextId": 455,
-  "UpdatedDate": "2006-11-17T14:13:41.2977255+01:00",
-  "UpdatedCount": 631,
-  "Visibility": 432,
+  "Name": "Walter LLC",
+  "PostitTextId": 283,
+  "CreatedDate": "2024-11-05T02:38:21.9794397+01:00",
+  "SelectionId": 799,
+  "SoundEx": "et",
+  "Source": 933,
+  "TextId": 204,
+  "UpdatedDate": "2003-05-27T02:38:21.9794397+02:00",
+  "UpdatedCount": 458,
+  "Visibility": 9,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 272,
-  "TargetTableName": "Rohan-Homenick",
+  "TargetTableNumber": 279,
+  "TargetTableName": "Bogan-Schneider",
   "Completed": true,
-  "LeftSelectionId": 506,
-  "RightSelectionId": 37,
+  "LeftSelectionId": 12,
+  "RightSelectionId": 680,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Legros-Luettgen",
-  "ShadowProviderName": "Gerlach Group",
-  "ChartKey": "facilis",
-  "LastLoaded": "2001-09-14T14:13:41.2977255+02:00",
-  "LastLoadedBy": 449,
+  "MainProviderName": "Frami-Price",
+  "ShadowProviderName": "Grimes, Funk and Muller",
+  "ChartKey": "ea",
+  "LastLoaded": "1999-08-28T02:38:21.9794397+02:00",
+  "LastLoadedBy": 98,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-14T14:13:41.2977255+01:00",
-  "LastMembershipChangeBy": 967,
+  "LastMembershipChange": "2022-07-20T02:38:21.9794397+02:00",
+  "LastMembershipChangeBy": 824,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "dolore",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Green Group",
-  "DashboardTileDefinitionId": 665,
+  "MainHeading": "doloribus",
+  "MemberTabHeading": "officiis",
+  "MailingsProviderName": "Baumbach, Wintheiser and Wiza",
+  "DashboardTileDefinitionId": 133,
   "VisibleFor": [
     {
-      "VisibleId": 995,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldType": "System.Int32",
+          "FieldLength": 276
         }
       }
     },
     {
-      "VisibleId": 995,
+      "VisibleId": 307,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 776
+          "FieldType": "System.Int32",
+          "FieldLength": 276
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 324
     }
   }
 }

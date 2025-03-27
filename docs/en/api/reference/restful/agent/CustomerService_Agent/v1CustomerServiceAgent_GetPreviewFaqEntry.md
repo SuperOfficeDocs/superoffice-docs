@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 928
+  "KbEntryId": 966
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "rerum",
-  "RegisteredByFullName": "Kris Collier",
-  "Updated": "2001-11-11T14:13:39.9379614+01:00",
-  "Question": "atque",
-  "Answer": "tempora",
+  "Title": "soluta",
+  "RegisteredByFullName": "Mercedes Mohr",
+  "Updated": "2023-02-22T02:38:21.182685+01:00",
+  "Question": "consequuntur",
+  "Answer": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldType": "System.String",
+      "FieldLength": 426
     }
   }
 }

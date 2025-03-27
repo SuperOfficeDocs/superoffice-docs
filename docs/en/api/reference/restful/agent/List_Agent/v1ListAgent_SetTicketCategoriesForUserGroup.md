@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/List/SetTicketCategoriesForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 562,
+  "UserGroupId": 734,
   "CategoryIds": [
-    684,
-    271
+    291,
+    58
   ]
 }
 ```

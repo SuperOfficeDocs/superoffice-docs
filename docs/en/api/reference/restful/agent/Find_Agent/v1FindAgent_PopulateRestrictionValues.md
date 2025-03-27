@@ -88,15 +88,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Romaguera-Sporer",
-      "Operator": "id",
+      "Name": "Buckridge, Block and Welch",
+      "Operator": "dignissimos",
       "Values": [
-        "sint",
-        "corrupti"
+        "commodi",
+        "repudiandae"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "dignissimos"
+        "voluptatem",
+        "minima"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 651,
+      "InterParenthesis": 21,
       "InterOperator": "And",
-      "UniqueHash": 478
+      "UniqueHash": 854
     }
   ]
 }
@@ -120,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gottlieb, Powlowski and Mills",
-    "Operator": "voluptas",
+    "Name": "Gulgowski, Bruen and Hoeger",
+    "Operator": "non",
     "Values": [
-      "provident",
-      "illum"
+      "ipsum",
+      "omnis"
     ],
     "DisplayValues": [
-      "inventore",
-      "at"
+      "consequatur",
+      "laboriosam"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Sipes-Boyer",
-        "Operator": "reprehenderit",
+        "Name": "Batz, Macejkovic and Bayer",
+        "Operator": "sit",
         "Values": [
-          "ut",
-          "fugiat"
+          "veritatis",
+          "quas"
         ],
         "DisplayValues": [
-          "sapiente",
-          "fugiat"
+          "aperiam",
+          "sunt"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 814,
+        "InterParenthesis": 581,
         "InterOperator": "And",
-        "UniqueHash": 460
+        "UniqueHash": 336
       }
     ],
-    "InterParenthesis": 552,
+    "InterParenthesis": 711,
     "InterOperator": "And",
-    "UniqueHash": 696
+    "UniqueHash": 966
   }
 ]
 ```

@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quisquam",
+  "SaleText": "aliquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-10-09T14:13:49.1649956+02:00",
-  "Amount": 22386.162,
-  "SaleId": 247,
-  "Earning": 12122.312,
-  "EarningPercent": 247.58599999999998,
-  "Heading": "aut",
-  "Number": "851652",
-  "Probability": 902,
-  "CreatedDate": "2016-04-19T14:13:49.1649956+02:00",
-  "UpdatedDate": "2015-12-26T14:13:49.1649956+01:00",
+  "Saledate": "2025-03-17T02:38:26.3704077+01:00",
+  "Amount": 3318.906,
+  "SaleId": 711,
+  "Earning": 2641.962,
+  "EarningPercent": 20916.316,
+  "Heading": "magni",
+  "Number": "1543353",
+  "Probability": 500,
+  "CreatedDate": "2022-08-05T02:38:26.3704077+02:00",
+  "UpdatedDate": "2012-11-12T02:38:26.3704077+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 144,
+  "ActiveLinks": 619,
   "Links": [
     {
-      "EntityName": "Lowe, Hodkiewicz and Reynolds",
-      "Id": 141,
-      "Description": "Mandatory directional help-desk",
-      "ExtraInfo": "est",
-      "LinkId": 248
+      "EntityName": "O'Conner Inc and Sons",
+      "Id": 750,
+      "Description": "Multi-tiered asynchronous approach",
+      "ExtraInfo": "quaerat",
+      "LinkId": 83
     },
     {
-      "EntityName": "Lowe, Hodkiewicz and Reynolds",
-      "Id": 141,
-      "Description": "Mandatory directional help-desk",
-      "ExtraInfo": "est",
-      "LinkId": 248
+      "EntityName": "O'Conner Inc and Sons",
+      "Id": 750,
+      "Description": "Multi-tiered asynchronous approach",
+      "ExtraInfo": "quaerat",
+      "LinkId": 83
     }
   ],
-  "NextDueDate": "2023-09-08T14:13:49.1649956+02:00",
-  "Postit": "itaque",
+  "NextDueDate": "2021-01-22T02:38:26.3704077+01:00",
+  "Postit": "ipsam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-01-29T14:13:49.1649956+01:00",
+  "ReopenDate": "2013-11-10T02:38:26.3704077+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bailey Group",
-      "Comment": "at",
-      "StakeholderRoleId": 503,
-      "CountryId": 267,
-      "PersonId": 758,
-      "EmailDescription": "emery@langosh.name",
-      "EmailId": 994,
-      "EmailAddress": "maia@cruickshankebert.biz",
-      "PhoneId": 152,
-      "ContactName": "Bechtelar LLC",
-      "ContactId": 743,
-      "SaleId": 820,
-      "Mrmrs": "quod",
-      "Firstname": "Marilie",
-      "MiddleName": "Pfannerstill, Ebert and Hills",
-      "Lastname": "Schoen",
-      "SaleStakeholderId": 131,
-      "Rank": 657,
-      "Phone": "1-805-032-1035 x7200"
+      "StakeholderRoleName": "Hand-Cormier",
+      "Comment": "optio",
+      "StakeholderRoleId": 975,
+      "CountryId": 968,
+      "PersonId": 211,
+      "EmailDescription": "estevan@cassindubuque.uk",
+      "EmailId": 348,
+      "EmailAddress": "buck@schillercrist.info",
+      "PhoneId": 213,
+      "ContactName": "Gerlach-O'Hara",
+      "ContactId": 810,
+      "SaleId": 215,
+      "Mrmrs": "voluptas",
+      "Firstname": "Waldo",
+      "MiddleName": "Stamm Inc and Sons",
+      "Lastname": "Jast",
+      "SaleStakeholderId": 699,
+      "Rank": 440,
+      "Phone": "(881)869-6508"
     }
   ],
-  "ActiveErpLinks": 972,
+  "ActiveErpLinks": 92,
   "UserDefinedFields": {
-    "SuperOffice:1": "366213691",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "1106444241",
+    "SuperOffice:2": "Robert Grant"
   },
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "accusamus"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "ea"
+    "CustomFields1": "nihil",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2001-01-22T14:13:49.1649956+01:00",
-  "PublishTo": "2009-05-02T14:13:49.1649956+02:00",
-  "PublishFrom": "2020-11-13T14:13:49.1649956+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-05-30T02:38:26.3704077+02:00",
+  "PublishTo": "2005-07-18T02:38:26.3704077+02:00",
+  "PublishFrom": "2025-02-10T02:38:26.3704077+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 817,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "quidem"
     },
     {
-      "VisibleId": 817,
+      "VisibleId": 8,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "quidem"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ullam",
+  "SaleText": "assumenda",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-02-02T14:13:49.1806132+01:00",
-  "Amount": 20822.296,
-  "SaleId": 286,
-  "Earning": 25799.088,
-  "EarningPercent": 13849.145999999999,
-  "Heading": "fuga",
-  "Number": "1708589",
-  "Probability": 701,
-  "CreatedDate": "2019-05-23T14:13:49.1806132+02:00",
-  "UpdatedDate": "2002-04-02T14:13:49.1806132+02:00",
+  "Saledate": "2018-07-19T02:38:26.3860344+02:00",
+  "Amount": 16857.786,
+  "SaleId": 215,
+  "Earning": 26842.71,
+  "EarningPercent": 15588.516,
+  "Heading": "quibusdam",
+  "Number": "1281607",
+  "Probability": 630,
+  "CreatedDate": "2021-05-15T02:38:26.3860344+02:00",
+  "UpdatedDate": "2004-10-19T02:38:26.3860344+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 712,
+  "ActiveLinks": 507,
   "Links": [
     {
-      "EntityName": "Beatty Inc and Sons",
-      "Id": 828,
-      "Description": "Optional incremental moratorium",
-      "ExtraInfo": "dolor",
-      "LinkId": 797,
+      "EntityName": "Runolfsdottir-Conroy",
+      "Id": 499,
+      "Description": "Advanced motivating analyzer",
+      "ExtraInfo": "in",
+      "LinkId": 110,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 392
+          "FieldLength": 137
         }
       }
     }
   ],
-  "NextDueDate": "2020-07-16T14:13:49.1806132+02:00",
-  "Postit": "nihil",
+  "NextDueDate": "2021-06-30T02:38:26.3860344+02:00",
+  "Postit": "laboriosam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-11-17T14:13:49.1806132+01:00",
+  "ReopenDate": "2005-08-02T02:38:26.3860344+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kuhlman-Heller",
-      "Comment": "laboriosam",
-      "StakeholderRoleId": 801,
-      "CountryId": 528,
-      "PersonId": 59,
-      "EmailDescription": "blake@mcclure.com",
-      "EmailId": 364,
-      "EmailAddress": "arnold@balistreri.uk",
-      "PhoneId": 780,
-      "ContactName": "Kozey, Will and Muller",
-      "ContactId": 714,
-      "SaleId": 206,
-      "Mrmrs": "veniam",
-      "Firstname": "Jennyfer",
-      "MiddleName": "Wilkinson Group",
-      "Lastname": "Gutmann",
-      "SaleStakeholderId": 921,
-      "Rank": 477,
-      "Phone": "788-521-3591",
+      "StakeholderRoleName": "Kovacek Group",
+      "Comment": "vel",
+      "StakeholderRoleId": 262,
+      "CountryId": 888,
+      "PersonId": 888,
+      "EmailDescription": "gennaro.flatley@auer.com",
+      "EmailId": 302,
+      "EmailAddress": "rodolfo@emard.uk",
+      "PhoneId": 565,
+      "ContactName": "Ruecker Inc and Sons",
+      "ContactId": 676,
+      "SaleId": 842,
+      "Mrmrs": "dolorem",
+      "Firstname": "Marcelle",
+      "MiddleName": "Borer, Bernier and Jakubowski",
+      "Lastname": "Rowe",
+      "SaleStakeholderId": 802,
+      "Rank": 505,
+      "Phone": "1-918-480-9668",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 614
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 985,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Ms. Rhianna Kertzmann IV",
+    "SuperOffice:2": "Nathanael Marquardt Sr."
+  },
+  "ExtraFields": {
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "nulla"
+  },
+  "CustomFields": {
+    "CustomFields1": "quaerat",
+    "CustomFields2": "dolorem"
+  },
+  "PublishEventDate": "2007-11-04T02:38:26.3860344+01:00",
+  "PublishTo": "2019-08-09T02:38:26.3860344+02:00",
+  "PublishFrom": "2011-07-26T02:38:26.3860344+02:00",
+  "IsPublished": true,
+  "VisibleFor": [
+    {
+      "VisibleId": 829,
+      "Visibility": "All",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 932
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 532,
-  "UserDefinedFields": {
-    "SuperOffice:1": "479202944",
-    "SuperOffice:2": "Tiana Ullrich"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "deserunt"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quibusdam"
-  },
-  "PublishEventDate": "2011-03-06T14:13:49.1806132+01:00",
-  "PublishTo": "2014-05-29T14:13:49.1806132+02:00",
-  "PublishFrom": "2020-12-14T14:13:49.1806132+01:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 375,
-      "Visibility": "All",
-      "DisplayValue": "quidem",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 255
         }
       }
     },
     {
-      "VisibleId": 375,
+      "VisibleId": 829,
       "Visibility": "All",
-      "DisplayValue": "quidem",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldType": "System.Int32",
+          "FieldLength": 255
         }
       }
     }
@@ -411,8 +411,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   },
   "_Links": {

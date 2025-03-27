@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 470
+  "DepartmentId": 605
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "050-534-8639 x013",
-    "PersonCellPhone": "258-571-5836 x920",
-    "PersonPrivatePhone": "060-583-8412",
-    "PersonFaxNumber": "1025403",
-    "PersonPagerNumber": "951895",
-    "PersonEmail": "brayan@terryschmeler.info",
-    "Id": 225,
-    "Name": "Champlin-Hessel",
-    "Tooltip": "maiores",
-    "UniqueId": "sunt",
+    "PersonDirectPhone": "(491)070-2773",
+    "PersonCellPhone": "1-262-551-4673 x664",
+    "PersonPrivatePhone": "242.726.0949",
+    "PersonFaxNumber": "1604248",
+    "PersonPagerNumber": "1471134",
+    "PersonEmail": "alda_lynch@fritsch.co.uk",
+    "Id": 382,
+    "Name": "Prohaska-Feil",
+    "Tooltip": "autem",
+    "UniqueId": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 173
       }
     }
   }

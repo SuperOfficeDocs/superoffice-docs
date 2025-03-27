@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "iure"
+  "Domain": "alias"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Armstrong, Cummerata and Smith",
-    "SoPrimaryKey": 139,
-    "EntryName": "Lockman LLC",
-    "EntryIdentifier": "ea",
-    "RuleDisplayName": "Blick LLC",
+    "RuleName": "Donnelly, Wyman and Kiehn",
+    "SoPrimaryKey": 396,
+    "EntryName": "Cronin-Padberg",
+    "EntryIdentifier": "et",
+    "RuleDisplayName": "Rau-Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 543
       }
     }
   }

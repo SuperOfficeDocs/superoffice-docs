@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 892,
-  "Name": "Turcotte, Cronin and Lehner",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 638,
-  "UdListDefinitionId": 342
+  "HeadingId": 600,
+  "Name": "Johnston-Homenick",
+  "Tooltip": "officiis",
+  "Deleted": false,
+  "Rank": 999,
+  "UdListDefinitionId": 80
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 810,
-  "Name": "Ritchie, Hansen and Smitham",
-  "Tooltip": "sit",
+  "HeadingId": 906,
+  "Name": "Effertz LLC",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 923,
-  "UdListDefinitionId": 738,
+  "Rank": 601,
+  "UdListDefinitionId": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 913
     }
   }
 }

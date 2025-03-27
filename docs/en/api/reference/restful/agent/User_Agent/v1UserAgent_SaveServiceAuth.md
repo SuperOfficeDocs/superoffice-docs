@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/User/SaveServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 418,
-  "Server": "delectus",
-  "Port": 942,
-  "AuthType": "minima",
-  "Username": "itaque",
-  "Password": "facilis"
+  "ServiceAuthId": 965,
+  "Server": "officiis",
+  "Port": 68,
+  "AuthType": "quaerat",
+  "Username": "quod",
+  "Password": "harum"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 629,
-  "Server": "illum",
-  "Port": 737,
-  "AuthType": "labore",
-  "Username": "id",
-  "Password": "pariatur",
+  "ServiceAuthId": 225,
+  "Server": "et",
+  "Port": 540,
+  "AuthType": "officia",
+  "Username": "tempore",
+  "Password": "itaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

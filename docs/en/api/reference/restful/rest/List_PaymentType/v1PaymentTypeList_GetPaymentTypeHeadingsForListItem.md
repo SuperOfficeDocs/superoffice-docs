@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 781,
-    "Name": "Luettgen, Hansen and Hintz",
-    "ToolTip": "Consectetur odit ullam qui doloribus velit qui nam.",
+    "Id": 190,
+    "Name": "Konopelski, Gutmann and Howell",
+    "ToolTip": "Numquam et quasi omnis ut ullam.",
     "Deleted": false,
-    "Rank": 818,
-    "Type": "repellat",
-    "ColorBlock": 337,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2004-01-27T14:13:50.0250456+01:00",
+    "Rank": 75,
+    "Type": "ut",
+    "ColorBlock": 866,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2003-03-03T02:38:26.8080217+01:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Kilback, Cummerata and Schowalter",
-        "ToolTip": "Praesentium rerum excepturi.",
+        "Id": 458,
+        "Name": "King-Bechtelar",
+        "ToolTip": "Velit dolorem ratione.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "ullam",
-        "ColorBlock": 586,
-        "IconHint": "saepe",
+        "Rank": 241,
+        "Type": "voluptatem",
+        "ColorBlock": 186,
+        "IconHint": "sint",
         "Selected": false,
-        "LastChanged": "2023-06-11T14:13:50.0250456+02:00",
+        "LastChanged": "2004-11-28T02:38:26.8080217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "quam",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "cumque",
         "Hidden": false,
-        "FullName": "Leopoldo Alexander Rippin DVM",
+        "FullName": "Annamae Howe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 528
+            "FieldType": "System.String",
+            "FieldLength": 477
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "corporis",
-    "Hidden": true,
-    "FullName": "Clark Rodriguez",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Ashly Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldLength": 629
       }
     }
   }

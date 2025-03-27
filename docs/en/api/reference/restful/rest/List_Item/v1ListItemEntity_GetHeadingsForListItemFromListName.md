@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Schuster Inc and Sons",
-    "ToolTip": "Dolor qui mollitia in possimus in voluptas.",
+    "Id": 680,
+    "Name": "Kassulke Inc and Sons",
+    "ToolTip": "Ducimus quia illo incidunt eos vitae voluptates dolorum.",
     "Deleted": false,
-    "Rank": 669,
-    "Type": "natus",
-    "ColorBlock": 887,
-    "IconHint": "sint",
+    "Rank": 241,
+    "Type": "aliquam",
+    "ColorBlock": 94,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2003-07-03T14:13:49.6336384+02:00",
+    "LastChanged": "1999-12-29T02:38:26.6674035+01:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Schultz-Marvin",
-        "ToolTip": "Dolorum est et veniam repudiandae deleniti iure.",
-        "Deleted": true,
-        "Rank": 735,
-        "Type": "enim",
-        "ColorBlock": 831,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2017-01-07T14:13:49.6336384+01:00",
+        "Id": 466,
+        "Name": "Gutkowski LLC",
+        "ToolTip": "Qui ipsum asperiores.",
+        "Deleted": false,
+        "Rank": 267,
+        "Type": "vel",
+        "ColorBlock": 275,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "2001-12-07T02:38:26.6674035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "nobis",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Keagan Hermann V",
+        "FullName": "Prof. Arlene Von Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 852
+            "FieldLength": 633
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "atque",
+    "ExtraInfo": "sunt",
+    "StyleHint": "dolorem",
     "Hidden": false,
-    "FullName": "Dr. Gina Wisoky",
+    "FullName": "Sonya Green",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldLength": 54
       }
     }
   }

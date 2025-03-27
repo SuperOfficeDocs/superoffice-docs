@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 41
+  "Id": 235
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "odio",
+  "RawValue": "vitae",
   "Specification": null,
-  "DisplayValue": "nisi",
-  "DisplayTooltip": "dolores",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "praesentium",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 444,
-  "PrefDescId": 395,
-  "TableName": "Pollich LLC",
-  "UserPreferenceId": 657,
+  "TargetId": 399,
+  "PrefDescId": 63,
+  "TableName": "O'Kon Group",
+  "UserPreferenceId": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 720
     }
   }
 }

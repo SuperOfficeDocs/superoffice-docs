@@ -118,24 +118,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 44,
-  "SourcePersonId": 883,
-  "DestinationContactId": 206,
-  "DestinationPersonId": 223,
-  "RelationId": 832,
-  "Comment": "doloremque",
-  "RelationDefinitionId": 911,
-  "Reversed": 604,
-  "UpdatedDate": "2005-01-01T14:13:48.7430769+01:00",
-  "CreatedDate": "2009-09-26T14:13:48.7430769+02:00",
+  "SourceContactId": 764,
+  "SourcePersonId": 370,
+  "DestinationContactId": 984,
+  "DestinationPersonId": 739,
+  "RelationId": 220,
+  "Comment": "ut",
+  "RelationDefinitionId": 77,
+  "Reversed": 836,
+  "UpdatedDate": "2004-11-27T02:38:26.0423248+01:00",
+  "CreatedDate": "2018-04-17T02:38:26.0423248+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schneider Group",
-  "SourcePersonName": "Wintheiser-Conn",
-  "DestinationContactName": "Lynch, Douglas and McGlynn",
-  "DestinationPersonName": "Paucek-Paucek",
-  "ActiveText": "in",
-  "PassiveText": "suscipit"
+  "SourceContactName": "Heidenreich Group",
+  "SourcePersonName": "Graham, Stark and Borer",
+  "DestinationContactName": "Parisian Inc and Sons",
+  "DestinationPersonName": "Rippin-Reichel",
+  "ActiveText": "pariatur",
+  "PassiveText": "error"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 990,
-  "SourcePersonId": 660,
-  "DestinationContactId": 53,
-  "DestinationPersonId": 285,
-  "RelationId": 182,
-  "Comment": "in",
-  "RelationDefinitionId": 672,
-  "Reversed": 621,
-  "UpdatedDate": "2003-06-13T14:13:48.7430769+02:00",
-  "CreatedDate": "2004-05-15T14:13:48.7430769+02:00",
+  "SourceContactId": 937,
+  "SourcePersonId": 641,
+  "DestinationContactId": 511,
+  "DestinationPersonId": 141,
+  "RelationId": 825,
+  "Comment": "quis",
+  "RelationDefinitionId": 42,
+  "Reversed": 472,
+  "UpdatedDate": "2004-01-11T02:38:26.0423248+01:00",
+  "CreatedDate": "2010-01-13T02:38:26.0423248+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Reinger, Hayes and Smith",
-  "SourcePersonName": "Sawayn, Medhurst and Morissette",
-  "DestinationContactName": "Thompson Inc and Sons",
-  "DestinationPersonName": "Greenfelder-Crist",
-  "ActiveText": "totam",
-  "PassiveText": "modi",
+  "SourceContactName": "Witting, Wiza and Pacocha",
+  "SourcePersonName": "Zieme, Nitzsche and Gutmann",
+  "DestinationContactName": "Watsica Group",
+  "DestinationPersonName": "Luettgen LLC",
+  "ActiveText": "error",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 247
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

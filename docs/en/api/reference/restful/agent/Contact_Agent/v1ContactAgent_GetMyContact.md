@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -118,157 +118,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 162,
-  "Name": "Ledner Group",
+  "ContactId": 888,
+  "Name": "Cassin, Yost and Fritsch",
   "Department": "",
-  "OrgNr": "977811",
-  "Number1": "1196112",
-  "Number2": "1268307",
-  "UpdatedDate": "2002-11-10T14:13:39.8286111+01:00",
-  "CreatedDate": "2021-06-11T14:13:39.8286111+02:00",
+  "OrgNr": "54384",
+  "Number1": "784454",
+  "Number2": "787551",
+  "UpdatedDate": "2003-10-16T02:38:21.0577061+02:00",
+  "CreatedDate": "2019-04-06T02:38:21.0577061+02:00",
   "Emails": [
     {
-      "Value": "qui",
-      "StrippedValue": "doloremque",
-      "Description": "Programmable interactive function",
+      "Value": "et",
+      "StrippedValue": "maiores",
+      "Description": "Persistent multimedia circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 388
+          "FieldLength": 798
         }
       }
     },
     {
-      "Value": "qui",
-      "StrippedValue": "doloremque",
-      "Description": "Programmable interactive function",
+      "Value": "et",
+      "StrippedValue": "maiores",
+      "Description": "Persistent multimedia circuit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 388
+          "FieldLength": 798
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 780,
-      "Name": "Okuneva LLC",
-      "ToolTip": "Nobis ut quia ratione provident accusantium.",
+      "Id": 25,
+      "Name": "Schulist Inc and Sons",
+      "ToolTip": "Sit voluptatem debitis minima et et est.",
       "Deleted": false,
-      "Rank": 887,
-      "Type": "illo",
-      "ColorBlock": 213,
-      "IconHint": "reprehenderit",
-      "Selected": false,
-      "LastChanged": "2020-04-16T14:13:39.8286111+02:00",
+      "Rank": 291,
+      "Type": "tempora",
+      "ColorBlock": 949,
+      "IconHint": "quia",
+      "Selected": true,
+      "LastChanged": "2023-09-22T02:38:21.0577061+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tempore",
-      "StyleHint": "iste",
-      "Hidden": false,
-      "FullName": "Karlee Schultz",
+      "ExtraInfo": "nesciunt",
+      "StyleHint": "corrupti",
+      "Hidden": true,
+      "FullName": "Mrs. Edmond Nona Morissette MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 116
+          "FieldLength": 249
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "aut",
-      "StrippedValue": "iure",
-      "Description": "Organic 6th generation framework",
+      "Value": "itaque",
+      "StrippedValue": "et",
+      "Description": "Polarised uniform contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 800
         }
       }
     },
     {
-      "Value": "aut",
-      "StrippedValue": "iure",
-      "Description": "Organic 6th generation framework",
+      "Value": "itaque",
+      "StrippedValue": "et",
+      "Description": "Polarised uniform contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldLength": 800
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "deserunt",
-      "StrippedValue": "repellat",
-      "Description": "Re-contextualized explicit internet solution",
+      "Value": "beatae",
+      "StrippedValue": "fugiat",
+      "Description": "Open-source non-volatile complexity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 269
         }
       }
     },
     {
-      "Value": "deserunt",
-      "StrippedValue": "repellat",
-      "Description": "Re-contextualized explicit internet solution",
+      "Value": "beatae",
+      "StrippedValue": "fugiat",
+      "Description": "Open-source non-volatile complexity",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 269
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "odit",
-      "StrippedValue": "ratione",
-      "Description": "Quality-focused solution-oriented productivity",
+      "Value": "ullam",
+      "StrippedValue": "eveniet",
+      "Description": "Virtual cohesive functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     },
     {
-      "Value": "odit",
-      "StrippedValue": "ratione",
-      "Description": "Quality-focused solution-oriented productivity",
+      "Value": "ullam",
+      "StrippedValue": "eveniet",
+      "Description": "Virtual cohesive functionalities",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 502
+          "FieldType": "System.Int32",
+          "FieldLength": 359
         }
       }
     }
   ],
-  "Description": "Cross-group object-oriented infrastructure",
+  "Description": "Front-line even-keeled portal",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -277,101 +277,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "omnis",
-      "PersonId": 206,
-      "Mrmrs": "sunt",
-      "Firstname": "Garfield",
-      "Lastname": "Weber",
-      "MiddleName": "Jenkins, Nitzsche and Larkin",
-      "Title": "et",
-      "Description": "Down-sized context-sensitive software",
-      "Email": "jacinto@roberts.biz",
-      "FullName": "Elwyn Schamberger",
-      "DirectPhone": "(517)991-6288",
-      "FormalName": "Friesen Inc and Sons",
-      "CountryId": 529,
-      "ContactId": 388,
-      "ContactName": "Bode, Bahringer and Feeney",
-      "Retired": 533,
-      "Rank": 753,
-      "ActiveInterests": 884,
+      "Position": "culpa",
+      "PersonId": 497,
+      "Mrmrs": "ut",
+      "Firstname": "Rigoberto",
+      "Lastname": "Kohler",
+      "MiddleName": "Pouros LLC",
+      "Title": "sunt",
+      "Description": "Switchable uniform customer loyalty",
+      "Email": "eddie.langworth@beahanfeeney.com",
+      "FullName": "Dr. Junior Boyer IV",
+      "DirectPhone": "790-213-1503 x07403",
+      "FormalName": "O'Connell Inc and Sons",
+      "CountryId": 967,
+      "ContactId": 691,
+      "ContactName": "Padberg-Leannon",
+      "Retired": 668,
+      "Rank": 580,
+      "ActiveInterests": 506,
       "ContactDepartment": "",
-      "ContactCountryId": 443,
-      "ContactOrgNr": "1480250",
-      "FaxPhone": "1-076-820-7113",
-      "MobilePhone": "185-886-2893 x200",
-      "ContactPhone": "652-517-6415 x79267",
-      "AssociateName": "McClure-Hayes",
-      "AssociateId": 969,
-      "UsePersonAddress": true,
-      "ContactFax": "numquam",
-      "Kanafname": "et",
-      "Kanalname": "sunt",
-      "Post1": "accusamus",
-      "Post2": "iste",
-      "Post3": "itaque",
-      "EmailName": "kyleigh_donnelly@dachmaggio.us",
-      "ContactFullName": "Augustus O'Keefe",
-      "ActiveErpLinks": 249,
-      "TicketPriorityId": 194,
-      "SupportLanguageId": 149,
-      "SupportAssociateId": 181,
+      "ContactCountryId": 179,
+      "ContactOrgNr": "573394",
+      "FaxPhone": "380-694-3904",
+      "MobilePhone": "1-718-334-3113 x4000",
+      "ContactPhone": "1-838-390-6041",
+      "AssociateName": "Schowalter, Bradtke and Stokes",
+      "AssociateId": 200,
+      "UsePersonAddress": false,
+      "ContactFax": "et",
+      "Kanafname": "quibusdam",
+      "Kanalname": "est",
+      "Post1": "ratione",
+      "Post2": "dolorem",
+      "Post3": "aut",
+      "EmailName": "kristoffer_bernier@carroll.co.uk",
+      "ContactFullName": "Emil Hyatt",
+      "ActiveErpLinks": 290,
+      "TicketPriorityId": 556,
+      "SupportLanguageId": 293,
+      "SupportAssociateId": 725,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "540374",
+      "PersonNumber": "1022249",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldType": "System.String",
+          "FieldLength": 679
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "at",
-  "Xstop": true,
-  "ActiveInterests": 830,
-  "GroupId": 532,
-  "ActiveStatusMonitorId": 161,
+  "Kananame": "ut",
+  "Xstop": false,
+  "ActiveInterests": 6,
+  "GroupId": 959,
+  "ActiveStatusMonitorId": 181,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 365,
-  "DbiAgentId": 601,
-  "DbiLastSyncronized": "2018-09-15T14:13:39.8286111+02:00",
-  "DbiKey": "dolor",
-  "DbiLastModified": "2004-01-03T14:13:39.8286111+01:00",
+  "Deleted": 239,
+  "DbiAgentId": 701,
+  "DbiLastSyncronized": "2019-09-01T02:38:21.0577061+02:00",
+  "DbiKey": "dolores",
+  "DbiLastModified": "1998-09-18T02:38:21.0577061+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 40,
-  "ActiveErpLinks": 546,
+  "Source": 763,
+  "ActiveErpLinks": 799,
   "BounceEmails": [
-    "genevieve@satterfieldkrajcik.ca",
-    "myriam@ryanrutherford.us"
+    "kay.barton@bergnaumwehner.com",
+    "larissa@heathcote.ca"
   ],
   "Domains": [
-    "sed",
-    "cumque"
+    "magni",
+    "maxime"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Nico Zieme",
-    "SuperOffice:2": "Brayan Powlowski"
+    "SuperOffice:1": "Fay Kunze",
+    "SuperOffice:2": "Mr. Leonora Nienow III"
   },
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "est"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 970
     }
   }
 }

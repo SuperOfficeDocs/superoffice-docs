@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 615
+  "PersonId": 314
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 839,
-    "Name": "Quigley, Moen and Wolff",
-    "Value": "omnis",
-    "CreatedDate": "2008-04-14T14:13:39.3754818+02:00",
-    "UpdatedDate": "2017-05-14T14:13:39.3754818+02:00",
-    "CreatedBy": "debitis",
-    "UpdatedBy": "impedit",
+    "AudienceLayoutId": 752,
+    "Name": "Cole, Lubowitz and Johns",
+    "Value": "maiores",
+    "CreatedDate": "2019-04-18T02:38:20.8702208+02:00",
+    "UpdatedDate": "2014-04-05T02:38:20.8702208+02:00",
+    "CreatedBy": "voluptatem",
+    "UpdatedBy": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 549
+        "FieldLength": 819
       }
     }
   }

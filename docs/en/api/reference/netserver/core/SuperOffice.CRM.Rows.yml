@@ -3610,6 +3610,8 @@ items:
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRow.IdxSearchCriteriaGroupId
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows
   - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaId
+  - SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
   - SuperOffice.CRM.Rows.SearchCriteriaRecordData
   - SuperOffice.CRM.Rows.SearchCriteriaRecordDataExtensions
   - SuperOffice.CRM.Rows.SearchCriteriaRow
@@ -3630,6 +3632,8 @@ items:
   - SuperOffice.CRM.Rows.SearchCriterionRow.IdxSearchCriterionId
   - SuperOffice.CRM.Rows.SearchCriterionRows
   - SuperOffice.CRM.Rows.SearchCriterionRows.CustomSearch
+  - SuperOffice.CRM.Rows.SearchCriterionRows.IdxColumnName
+  - SuperOffice.CRM.Rows.SearchCriterionRows.IdxSearchCriteriaGroupId
   - SuperOffice.CRM.Rows.SearchCriterionValueRecordData
   - SuperOffice.CRM.Rows.SearchCriterionValueRecordDataExtensions
   - SuperOffice.CRM.Rows.SearchCriterionValueRow
@@ -3637,6 +3641,7 @@ items:
   - SuperOffice.CRM.Rows.SearchCriterionValueRow.IdxSearchCriterionValueId
   - SuperOffice.CRM.Rows.SearchCriterionValueRows
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch
+  - SuperOffice.CRM.Rows.SearchCriterionValueRows.IdxSearchCriterionId
   - SuperOffice.CRM.Rows.SelectionMemberRecordData
   - SuperOffice.CRM.Rows.SelectionMemberRecordDataExtensions
   - SuperOffice.CRM.Rows.SelectionMemberRow
@@ -29065,6 +29070,18 @@ references:
   name: SearchCriteriaGroupRows
   nameWithType: SearchCriteriaGroupRows
   fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaId
+  commentId: T:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaId
+  isExternal: true
+  name: SearchCriteriaGroupRows.IdxSearchCriteriaId
+  nameWithType: SearchCriteriaGroupRows.IdxSearchCriteriaId
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaId
+- uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
+  commentId: T:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
+  isExternal: true
+  name: SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
+  nameWithType: SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
+  fullName: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.IdxSearchCriteriaIdRank
 - uid: SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.SearchCriteriaGroupRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -29113,6 +29130,18 @@ references:
   name: SearchCriterionRows
   nameWithType: SearchCriterionRows
   fullName: SuperOffice.CRM.Rows.SearchCriterionRows
+- uid: SuperOffice.CRM.Rows.SearchCriterionRows.IdxSearchCriteriaGroupId
+  commentId: T:SuperOffice.CRM.Rows.SearchCriterionRows.IdxSearchCriteriaGroupId
+  isExternal: true
+  name: SearchCriterionRows.IdxSearchCriteriaGroupId
+  nameWithType: SearchCriterionRows.IdxSearchCriteriaGroupId
+  fullName: SuperOffice.CRM.Rows.SearchCriterionRows.IdxSearchCriteriaGroupId
+- uid: SuperOffice.CRM.Rows.SearchCriterionRows.IdxColumnName
+  commentId: T:SuperOffice.CRM.Rows.SearchCriterionRows.IdxColumnName
+  isExternal: true
+  name: SearchCriterionRows.IdxColumnName
+  nameWithType: SearchCriterionRows.IdxColumnName
+  fullName: SuperOffice.CRM.Rows.SearchCriterionRows.IdxColumnName
 - uid: SuperOffice.CRM.Rows.SearchCriterionRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.SearchCriterionRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -29161,6 +29190,12 @@ references:
   name: SearchCriterionValueRows
   nameWithType: SearchCriterionValueRows
   fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows
+- uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.IdxSearchCriterionId
+  commentId: T:SuperOffice.CRM.Rows.SearchCriterionValueRows.IdxSearchCriterionId
+  isExternal: true
+  name: SearchCriterionValueRows.IdxSearchCriterionId
+  nameWithType: SearchCriterionValueRows.IdxSearchCriterionId
+  fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows.IdxSearchCriterionId
 - uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch
   parent: SuperOffice.CRM.Rows

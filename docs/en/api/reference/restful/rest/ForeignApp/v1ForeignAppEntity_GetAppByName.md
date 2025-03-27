@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 01 Jun 2017 14:13:48 G6T
+Last-Modified: Sat, 09 Jun 2007 02:38:26 G6T
 
 {
-  "ForeignAppId": 940,
-  "Name": "Bayer, Gibson and Kilback",
-  "CreatedDate": "2006-03-24T14:13:48.8836985+01:00",
-  "UpdatedDate": "2017-06-01T14:13:48.8836985+02:00",
+  "ForeignAppId": 327,
+  "Name": "Weimann, Nolan and Nicolas",
+  "CreatedDate": "2001-08-13T02:38:26.1204323+02:00",
+  "UpdatedDate": "2007-06-09T02:38:26.1204323+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 786,
-      "Name": "Denesik-Schroeder",
-      "CreatedDate": "2005-11-28T14:13:48.8836985+01:00",
-      "UpdatedDate": "2004-08-27T14:13:48.8836985+02:00",
-      "AssociateFullName": "Mr. Abbey Cecil Hoeger III",
-      "CreatedBy": "fuga",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "aliquid",
-      "ForeignAppId": 512,
+      "ForeignDeviceId": 670,
+      "Name": "Graham-Nitzsche",
+      "CreatedDate": "2011-07-09T02:38:26.1204323+02:00",
+      "UpdatedDate": "2017-05-22T02:38:26.1204323+02:00",
+      "AssociateFullName": "Bonnie Allene Thiel PhD",
+      "CreatedBy": "non",
+      "UpdatedBy": "illo",
+      "DeviceIdentifier": "fuga",
+      "ForeignAppId": 153,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 165
+          "FieldType": "System.String",
+          "FieldLength": 54
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Thu, 01 Jun 2017 14:13:48 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 614
     }
   }
 }

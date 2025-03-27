@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=sed
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=fugiat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Douglas-Veum",
-    "ToolTip": "Molestias doloribus optio at.",
+    "Id": 212,
+    "Name": "Schuppe Inc and Sons",
+    "ToolTip": "Ut similique.",
     "Deleted": false,
-    "Rank": 443,
-    "Type": "sequi",
+    "Rank": 824,
+    "Type": "tempora",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Bins, Zieme and Breitenberg",
-        "ToolTip": "Omnis quasi sapiente tempore.",
+        "Id": 54,
+        "Name": "Olson-Kreiger",
+        "ToolTip": "Iure dolore consequatur eligendi facere aut natus omnis.",
         "Deleted": false,
-        "Rank": 787,
-        "Type": "deleniti",
+        "Rank": 143,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 575,
-        "ExtraInfo": "quas",
-        "StyleHint": "inventore",
-        "FullName": "Miss Charley Jacobson",
+        "IconHint": "natus",
+        "ColorBlock": 520,
+        "ExtraInfo": "officiis",
+        "StyleHint": "ipsam",
+        "FullName": "Breana Jaden Stiedemann DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 36
+            "FieldLength": 3
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 222,
-    "ExtraInfo": "aut",
-    "StyleHint": "dolores",
-    "FullName": "Gretchen Torp",
+    "IconHint": "illum",
+    "ColorBlock": 666,
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "exercitationem",
+    "FullName": "Carolyn Dora Considine I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 289
+        "FieldLength": 848
       }
     }
   }

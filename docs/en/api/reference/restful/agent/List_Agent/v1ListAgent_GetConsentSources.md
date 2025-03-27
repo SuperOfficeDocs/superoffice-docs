@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 562,
-    "Name": "Deckow-Botsford",
-    "Tooltip": "et",
-    "Rank": 454,
-    "Key": "explicabo",
-    "MailTemplateId": 2,
+    "ConsentSourceId": 533,
+    "Name": "Daugherty, Weber and Langworth",
+    "Tooltip": "a",
+    "Rank": 499,
+    "Key": "quae",
+    "MailTemplateId": 911,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 882
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

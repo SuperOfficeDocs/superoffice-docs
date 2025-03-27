@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Koch Inc and Sons",
-  "StorageKey": "accusantium",
+  "StorageType": "maiores",
+  "ProviderName": "Hegmann-Ernser",
+  "StorageKey": "sit",
   "DesiredColumnNames": [
-    "Marquardt Inc and Sons",
-    "Schiller-Lockman"
+    "Glover LLC",
+    "Cartwright LLC"
   ],
   "StaticColumns": [
-    "architecto",
-    "dicta"
+    "veritatis",
+    "voluptates"
   ],
-  "Context": "in"
+  "Context": "blanditiis"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ankunding, Herman and Crona",
+      "Name": "Gottlieb, Collier and Corwin",
       "Operator": "non",
       "Values": [
-        "qui",
-        "expedita"
+        "tenetur",
+        "occaecati"
       ],
       "DisplayValues": [
-        "ullam",
-        "veritatis"
+        "et",
+        "molestiae"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 711,
+      "InterParenthesis": 850,
       "InterOperator": "And",
-      "UniqueHash": 906
+      "UniqueHash": 994
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kuphal Inc and Sons",
+      "DisplayName": "Reichert, Medhurst and Bergstrom",
       "DisplayTooltip": "quis",
-      "DisplayType": "quidem",
-      "CanOrderBy": true,
-      "Name": "O'Keefe-Mann",
-      "CanRestrictBy": true,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Greenholt Inc and Sons",
+      "DisplayType": "consectetur",
+      "CanOrderBy": false,
+      "Name": "Weimann, Waters and Schiller",
+      "CanRestrictBy": false,
+      "RestrictionType": "est",
+      "RestrictionListName": "Miller Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "vel",
-      "Width": "praesentium",
-      "IconHint": "id",
-      "HeadingIconHint": "at"
+      "ExtraInfo": "animi",
+      "Width": "ea",
+      "IconHint": "eum",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Weissnat, Quigley and Haley",
-      "PrimaryKey": 471,
+      "EntityName": "Schuster-Jast",
+      "PrimaryKey": 332,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dicta",
-          "TooltipHint": "vel",
-          "LinkHint": "non"
+          "DisplayValue": "expedita",
+          "TooltipHint": "necessitatibus",
+          "LinkHint": "nam"
         }
       },
-      "LinkHint": "placeat",
-      "StyleHint": "pariatur",
+      "LinkHint": "atque",
+      "StyleHint": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldLength": 228
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hettinger LLC",
-      "Description": "Virtual intangible groupware",
-      "Rank": 162,
+      "Name": "Mosciski, Mraz and Osinski",
+      "Description": "Secured didactic architecture",
+      "Rank": 258,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hettinger LLC",
-      "Description": "Virtual intangible groupware",
-      "Rank": 162,
+      "Name": "Mosciski, Mraz and Osinski",
+      "Description": "Secured didactic architecture",
+      "Rank": 258,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 119
     }
   }
 }

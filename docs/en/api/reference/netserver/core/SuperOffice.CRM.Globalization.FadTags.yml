@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Globalization.FadTags.#ctor(SuperOffice.CRM.IPersonInfo2,SuperOffice.CRM.IContactInfo2,SuperOffice.IO.TagContainer)
   - SuperOffice.CRM.Globalization.FadTags._contactInfo
   - SuperOffice.CRM.Globalization.FadTags._parentVariables
+  - SuperOffice.CRM.Globalization.FadTags._personInfo
   - SuperOffice.CRM.Globalization.FadTags.DetermineFormat
   - SuperOffice.CRM.Globalization.FadTags.Fad1
   - SuperOffice.CRM.Globalization.FadTags.Fad2
@@ -88,6 +89,32 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Globalization.FadTags._personInfo
+  commentId: F:SuperOffice.CRM.Globalization.FadTags._personInfo
+  id: _personInfo
+  parent: SuperOffice.CRM.Globalization.FadTags
+  langs:
+  - csharp
+  - vb
+  name: _personInfo
+  nameWithType: FadTags._personInfo
+  fullName: SuperOffice.CRM.Globalization.FadTags._personInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected IPersonInfo2 _personInfo
+    return:
+      type: SuperOffice.CRM.IPersonInfo2
+    content.vb: Protected _personInfo As IPersonInfo2
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Globalization.FadTags._contactInfo
   commentId: F:SuperOffice.CRM.Globalization.FadTags._contactInfo
   id: _contactInfo
@@ -2125,25 +2152,6 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-- uid: SuperOffice.CRM.IContactInfo2
-  commentId: T:SuperOffice.CRM.IContactInfo2
-  parent: SuperOffice.CRM
-  isExternal: true
-  name: IContactInfo2
-  nameWithType: IContactInfo2
-  fullName: SuperOffice.CRM.IContactInfo2
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-- uid: SuperOffice.CRM.Globalization.FadTags.#ctor*
-  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.#ctor
-  isExternal: true
-  name: FadTags
-  nameWithType: FadTags.FadTags
-  fullName: SuperOffice.CRM.Globalization.FadTags.FadTags
 - uid: SuperOffice.CRM.IPersonInfo2
   commentId: T:SuperOffice.CRM.IPersonInfo2
   parent: SuperOffice.CRM
@@ -2151,6 +2159,25 @@ references:
   name: IPersonInfo2
   nameWithType: IPersonInfo2
   fullName: SuperOffice.CRM.IPersonInfo2
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.IContactInfo2
+  commentId: T:SuperOffice.CRM.IContactInfo2
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IContactInfo2
+  nameWithType: IContactInfo2
+  fullName: SuperOffice.CRM.IContactInfo2
+- uid: SuperOffice.CRM.Globalization.FadTags.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.FadTags.#ctor
+  isExternal: true
+  name: FadTags
+  nameWithType: FadTags.FadTags
+  fullName: SuperOffice.CRM.Globalization.FadTags.FadTags
 - uid: SuperOffice.IO.TagContainer.Init
   commentId: M:SuperOffice.IO.TagContainer.Init
   parent: SuperOffice.IO.TagContainer

@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 680,
-  "Name": "Pacocha Inc and Sons",
-  "Tooltip": "qui",
-  "Rank": 691,
+  "SaleTypeId": 479,
+  "Name": "Ondricka-Bogan",
+  "Tooltip": "ipsum",
+  "Rank": 208,
   "DurationUnit": "Century",
-  "SaleDuration": 942,
-  "SaleTypeCatId": 394,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 367,
+  "SaleTypeCatId": 613,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 112,
-  "QuoteLinesTemplate": 746,
-  "ConfirmationLinesTemplate": 457,
+  "DefaultQuoteValidity": 984,
+  "QuoteLinesTemplate": 662,
+  "ConfirmationLinesTemplate": 954,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 7,
-  "MinEarningPercent": 434,
-  "GroupQuoteLinesBy": 474,
-  "SortGroupLinesBy": 167,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 713,
+  "MinEarningPercent": 896,
+  "GroupQuoteLinesBy": 34,
+  "SortGroupLinesBy": 127,
   "Stages": [
     {
-      "Id": 154,
-      "Name": "Kunde LLC",
-      "ToolTip": "Provident adipisci dolores nam aut maiores ratione.",
-      "Deleted": true,
-      "Rank": 715,
-      "Type": "consequatur",
-      "ColorBlock": 55,
-      "IconHint": "odio",
-      "Selected": false,
-      "LastChanged": "2016-10-17T14:13:50.2283063+02:00",
+      "Id": 447,
+      "Name": "Stoltenberg-West",
+      "ToolTip": "Sed natus quo sit dicta placeat itaque.",
+      "Deleted": false,
+      "Rank": 188,
+      "Type": "qui",
+      "ColorBlock": 808,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2009-08-26T02:38:26.9330101+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "corrupti",
-      "Hidden": false,
-      "FullName": "Marietta Lockman",
+      "ExtraInfo": "esse",
+      "StyleHint": "repellendus",
+      "Hidden": true,
+      "FullName": "Juliet Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldLength": 311
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 552
     }
   }
 }

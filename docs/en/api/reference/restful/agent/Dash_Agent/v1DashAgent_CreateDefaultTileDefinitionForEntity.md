@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Cremin, Harber and Bartell"
+  "EntityName": "Robel-Kertzmann"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 265,
-  "Name": "Dickens Inc and Sons",
-  "Description": "Future-proofed 4th generation challenge",
-  "DefaultHeight": 925,
-  "DefaultWidth": 817,
+  "DashboardTileDefinitionId": 91,
+  "Name": "Yost LLC",
+  "Description": "Pre-emptive intermediate secured line",
+  "DefaultHeight": 47,
+  "DefaultWidth": 254,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Zulauf, Anderson and Monahan",
-  "SelectionId": 280,
+  "EntityName": "White-Heller",
+  "SelectionId": 584,
   "CurrencyMode": "Base",
-  "CurrencyCode": "neque",
+  "CurrencyCode": "at",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "aliquam",
-  "LayoutConfig": "aliquam",
-  "SecondarySelectionId": 211,
-  "MeasureByField": "sint",
+  "MeasureField": "voluptatem",
+  "SortBy": "hic",
+  "LayoutConfig": "dolorem",
+  "SecondarySelectionId": 605,
+  "MeasureByField": "sapiente",
   "Usage": "Dashboard",
-  "ProviderName": "Hyatt-Homenick",
+  "ProviderName": "Keeling Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   }
 }

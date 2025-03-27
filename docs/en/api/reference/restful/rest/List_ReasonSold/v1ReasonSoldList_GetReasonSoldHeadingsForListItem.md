@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ReasonSold/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Bauch-Sipes",
-    "ToolTip": "Nobis ea dolorem corrupti qui nisi.",
-    "Deleted": true,
-    "Rank": 314,
-    "Type": "corporis",
-    "ColorBlock": 876,
-    "IconHint": "tempora",
+    "Id": 565,
+    "Name": "Skiles-Predovic",
+    "ToolTip": "Aut eveniet repellendus quae aliquam in odit voluptates.",
+    "Deleted": false,
+    "Rank": 776,
+    "Type": "totam",
+    "ColorBlock": 147,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-12-14T14:13:50.2125028+01:00",
+    "LastChanged": "2000-09-05T02:38:26.9173771+02:00",
     "ChildItems": [
       {
-        "Id": 637,
-        "Name": "Cruickshank, Runolfsdottir and Murazik",
-        "ToolTip": "Exercitationem sed ex voluptas quia eligendi dolorum sunt.",
+        "Id": 326,
+        "Name": "Stiedemann Group",
+        "ToolTip": "Itaque occaecati sint placeat.",
         "Deleted": false,
-        "Rank": 243,
-        "Type": "sit",
-        "ColorBlock": 467,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2002-04-10T14:13:50.2125028+02:00",
+        "Rank": 695,
+        "Type": "est",
+        "ColorBlock": 512,
+        "IconHint": "voluptate",
+        "Selected": false,
+        "LastChanged": "2015-11-28T02:38:26.9173771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "iure",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Ms. Maurice Smith",
+        "FullName": "Agustin Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 873
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Monte Seth Durgan DDS",
+    "ExtraInfo": "quia",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Lela Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

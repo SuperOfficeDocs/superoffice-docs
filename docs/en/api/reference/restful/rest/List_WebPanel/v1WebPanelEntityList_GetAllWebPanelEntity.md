@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 36,
-    "Name": "Sauer-Beier",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 501,
+    "WebPanelId": 601,
+    "Name": "Mills-Brekke",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 210,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": true,
-    "WindowName": "Schultz-McLaughlin",
+    "WindowName": "Monahan Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "et",
-    "Icon": 589,
+    "ProgId": "doloribus",
+    "Icon": 291,
     "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 270
       }
     }
   }

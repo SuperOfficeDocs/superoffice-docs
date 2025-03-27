@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Ledner Inc and Sons",
-  "ProviderName": "Ledner LLC",
-  "SortOrder": "optio",
-  "Restriction": "quam",
-  "Entities": "eligendi",
-  "Page": 218,
-  "PageSize": 414
+  "GuiName": "Jewess Group",
+  "ProviderName": "Powlowski-Walsh",
+  "SortOrder": "quia",
+  "Restriction": "necessitatibus",
+  "Entities": "quam",
+  "Page": 901,
+  "PageSize": 621
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Boehm-Roberts",
-    "PrimaryKey": 330,
+    "EntityName": "Halvorson, Halvorson and Huels",
+    "PrimaryKey": 801,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "occaecati",
-        "TooltipHint": "itaque",
-        "LinkHint": "unde"
+        "DisplayValue": "et",
+        "TooltipHint": "quisquam",
+        "LinkHint": "voluptas"
       }
     },
-    "LinkHint": "enim",
-    "StyleHint": "dolor",
+    "LinkHint": "optio",
+    "StyleHint": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 359
+        "FieldLength": 339
       }
     }
   }

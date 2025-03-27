@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Brekke, Hessel and Wisozk",
-    "Tooltip": "officiis",
+    "Id": 69,
+    "Name": "Ratke-Rosenbaum",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 331,
-    "Rank": 809
+    "UdListDefinitionId": 419,
+    "Rank": 229
   },
   {
-    "Id": 498,
-    "Name": "Brekke, Hessel and Wisozk",
-    "Tooltip": "officiis",
+    "Id": 69,
+    "Name": "Ratke-Rosenbaum",
+    "Tooltip": "quia",
     "Deleted": true,
-    "UdListDefinitionId": 331,
-    "Rank": 809
+    "UdListDefinitionId": 419,
+    "Rank": 229
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Lueilwitz Inc and Sons",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "UdListDefinitionId": 34,
-    "Rank": 65,
+    "Id": 694,
+    "Name": "Haley-Kutch",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "UdListDefinitionId": 151,
+    "Rank": 106,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

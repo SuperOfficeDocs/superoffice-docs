@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Conroy-Wisoky",
-  "Tooltip": "quis",
+  "Id": 320,
+  "Name": "Harber-Kertzmann",
+  "Tooltip": "et",
   "Deleted": true,
-  "UdListDefinitionId": 806,
-  "Rank": 40,
+  "UdListDefinitionId": 487,
+  "Rank": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   }
 }

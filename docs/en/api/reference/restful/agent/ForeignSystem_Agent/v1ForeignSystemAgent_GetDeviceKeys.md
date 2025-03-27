@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Marquardt Inc and Sons",
-  "DeviceName": "Hamill-Ondricka"
+  "ApplicationName": "Treutel, Balistreri and West",
+  "DeviceName": "Tremblay, O'Reilly and Kreiger"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "doloribus",
-    "Value": "temporibus",
-    "RecordId": 496,
-    "CreatedDate": "2014-06-26T14:13:40.3909833+02:00",
-    "UpdatedDate": "2024-03-16T14:13:40.3909833+01:00",
-    "UpdatedBy": "ex",
-    "CreatedBy": "autem",
-    "TableName": "Pfannerstill, Torp and Kessler",
+    "Key": "in",
+    "Value": "ipsum",
+    "RecordId": 211,
+    "CreatedDate": "2018-03-10T02:38:21.4639053+01:00",
+    "UpdatedDate": "2020-11-10T02:38:21.4639053+01:00",
+    "UpdatedBy": "neque",
+    "CreatedBy": "placeat",
+    "TableName": "Lind, Hirthe and Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 574
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 957,
-    "Name": "Huel, Stoltenberg and Johnson",
-    "Tooltip": "dolores",
+    "HeadingId": 435,
+    "Name": "Lang-Greenholt",
+    "Tooltip": "quibusdam",
     "Deleted": true,
-    "Rank": 322,
-    "UdListDefinitionId": 194
+    "Rank": 526,
+    "UdListDefinitionId": 107
   },
   {
-    "HeadingId": 957,
-    "Name": "Huel, Stoltenberg and Johnson",
-    "Tooltip": "dolores",
+    "HeadingId": 435,
+    "Name": "Lang-Greenholt",
+    "Tooltip": "quibusdam",
     "Deleted": true,
-    "Rank": 322,
-    "UdListDefinitionId": 194
+    "Rank": 526,
+    "UdListDefinitionId": 107
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 166,
-    "Name": "Wolff LLC",
-    "Tooltip": "minima",
+    "HeadingId": 976,
+    "Name": "Hagenes Inc and Sons",
+    "Tooltip": "cum",
     "Deleted": false,
-    "Rank": 212,
-    "UdListDefinitionId": 939,
+    "Rank": 918,
+    "UdListDefinitionId": 637,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 156
       }
     }
   }

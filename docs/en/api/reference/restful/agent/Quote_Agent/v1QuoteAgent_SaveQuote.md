@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 474,
-  "SaleId": 512,
-  "QuoteConnectionId": 312,
-  "ERPQuoteKey": "aperiam",
-  "ERPOrderKey": "iure",
-  "ActiveQuoteVersionId": 99,
-  "AcceptedQuoteAlternativeId": 130,
-  "UseValuesFromQuote": 166,
-  "DocumentId": 226,
-  "PoNumber": "510412",
-  "OrderComment": "sint",
-  "PreferredEmailCulture": "andre@gerholdhane.name",
+  "QuoteId": 657,
+  "SaleId": 376,
+  "QuoteConnectionId": 269,
+  "ERPQuoteKey": "aut",
+  "ERPOrderKey": "recusandae",
+  "ActiveQuoteVersionId": 964,
+  "AcceptedQuoteAlternativeId": 741,
+  "UseValuesFromQuote": 152,
+  "DocumentId": 524,
+  "PoNumber": "218041",
+  "OrderComment": "et",
+  "PreferredEmailCulture": "tatum_strosin@skilesshanahan.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldLength": 1000
     }
   }
 }

@@ -135,13 +135,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": true,
+  "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +158,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-06-07T14:13:39.1255388+02:00",
-  "AppointmentId": 244,
-  "Description": "Cross-group responsive conglomeration",
-  "Title": "perspiciatis",
-  "Agenda": "ducimus",
-  "InternalNotes": "magni",
-  "StartDate": "2024-09-06T14:13:39.1255388+02:00",
-  "EndDate": "2009-11-20T14:13:39.1255388+01:00",
+  "CreatedDate": "2003-04-22T02:38:20.7296081+02:00",
+  "AppointmentId": 694,
+  "Description": "Phased bandwidth-monitored customer loyalty",
+  "Title": "natus",
+  "Agenda": "dolor",
+  "InternalNotes": "eos",
+  "StartDate": "2016-11-18T02:38:20.7296081+01:00",
+  "EndDate": "2022-07-09T02:38:20.7296081+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 810,
+  "MotherId": 84,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-04-26T14:13:39.1411603+02:00",
+  "UpdatedDate": "2005-05-22T02:38:20.7296081+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 860,
+  "ActiveLinks": 923,
   "Links": [
     {
-      "EntityName": "Raynor, Gislason and Beahan",
-      "Id": 200,
-      "Description": "Devolved methodical policy",
-      "ExtraInfo": "sed",
-      "LinkId": 185,
+      "EntityName": "Dare, Schmeler and Hansen",
+      "Id": 259,
+      "Description": "Progressive cohesive superstructure",
+      "ExtraInfo": "vitae",
+      "LinkId": 603,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 859
+          "FieldLength": 449
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
+  "AlarmLeadTime": "asperiores",
   "HasAlarm": false,
-  "ColorIndex": 17,
-  "IsFree": false,
+  "ColorIndex": 625,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "temporibus",
-  "LeadTime": "voluptas",
-  "Location": "rerum",
-  "RejectCounter": 574,
+  "LagTime": "aliquam",
+  "LeadTime": "mollitia",
+  "Location": "quod",
+  "RejectCounter": 597,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 342,
-      "PersonId": 331,
-      "ContactId": 645,
-      "EmailId": 960,
-      "SendEmail": false,
+      "AssociateId": 76,
+      "PersonId": 769,
+      "ContactId": 152,
+      "EmailId": 1002,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kristina@bernierhermiston.com",
-      "Description": "Customizable maximized installation"
+      "EmailAddress": "brayan@pollich.ca",
+      "Description": "Digitized heuristic open architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2017-04-14T14:13:39.1411603+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2009-07-10T02:38:20.7296081+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 475,
+  "PreferredTZLocation": 68,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 927,
+  "SuggestedAppointmentId": 812,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "veniam",
+  "CentralserviceVideomeetId": "assumenda",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Vita Franco Predovic",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Mrs. Garrison Dylan Hirthe III",
+    "SuperOffice:2": "179649306"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quo"
+    "CustomFields1": "sed",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "1999-08-30T14:13:39.1411603+02:00",
-  "PublishTo": "1997-10-31T14:13:39.1411603+01:00",
-  "PublishFrom": "2011-03-15T14:13:39.1411603+01:00",
+  "PublishEventDate": "2009-04-25T02:38:20.7296081+02:00",
+  "PublishTo": "2002-03-04T02:38:20.7296081+01:00",
+  "PublishFrom": "2022-03-08T02:38:20.7296081+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 499,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 425
         }
       }
     },
     {
-      "VisibleId": 499,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 129
+          "FieldType": "System.Int32",
+          "FieldLength": 425
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 288
     }
   }
 }

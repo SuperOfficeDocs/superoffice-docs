@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Kuphal, Mayert and Roob",
-    "ToolTip": "Nulla maxime ab harum dolore accusamus laborum.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "repellendus",
-    "ColorBlock": 18,
-    "IconHint": "necessitatibus",
+    "Id": 277,
+    "Name": "Herman, Pouros and Beer",
+    "ToolTip": "Vel molestiae aut optio dignissimos non dolor.",
+    "Deleted": true,
+    "Rank": 9,
+    "Type": "qui",
+    "ColorBlock": 146,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2001-06-23T14:13:49.9167536+02:00",
+    "LastChanged": "2017-08-27T02:38:26.7299042+02:00",
     "ChildItems": [
       {
-        "Id": 653,
-        "Name": "Volkman-Haag",
-        "ToolTip": "Nihil aperiam temporibus velit blanditiis facere.",
-        "Deleted": false,
-        "Rank": 903,
-        "Type": "sit",
-        "ColorBlock": 636,
-        "IconHint": "deleniti",
+        "Id": 750,
+        "Name": "D'Amore-Schroeder",
+        "ToolTip": "Cumque mollitia consequatur quo placeat.",
+        "Deleted": true,
+        "Rank": 705,
+        "Type": "velit",
+        "ColorBlock": 837,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2003-02-25T14:13:49.9167536+01:00",
+        "LastChanged": "2018-07-19T02:38:26.7299042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsa",
-        "StyleHint": "voluptatibus",
+        "ExtraInfo": "soluta",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Anya Kirstin Franecki I"
+        "FullName": "Rhett Friesen"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "ut",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Edgar Effertz"
+    "FullName": "Mrs. Marilou Koepp III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Zieme-VonRueden",
-    "ToolTip": "Et qui.",
+    "Id": 536,
+    "Name": "Lynch LLC",
+    "ToolTip": "Quis et tenetur rerum a quo officia.",
     "Deleted": false,
-    "Rank": 395,
+    "Rank": 686,
     "Type": "sit",
     "ColorBlock": 218,
-    "IconHint": "sit",
+    "IconHint": "nisi",
     "Selected": false,
-    "LastChanged": "2012-05-08T14:13:49.9167536+02:00",
+    "LastChanged": "2022-03-11T02:38:26.7455241+01:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Toy-Bogisich",
-        "ToolTip": "Dicta voluptatibus nobis mollitia praesentium odit natus.",
+        "Id": 668,
+        "Name": "Morissette Group",
+        "ToolTip": "Libero quisquam vel dolor iure occaecati.",
         "Deleted": false,
-        "Rank": 282,
-        "Type": "animi",
-        "ColorBlock": 461,
-        "IconHint": "ut",
+        "Rank": 939,
+        "Type": "cupiditate",
+        "ColorBlock": 855,
+        "IconHint": "iusto",
         "Selected": false,
-        "LastChanged": "2016-07-19T14:13:49.9167536+02:00",
+        "LastChanged": "2006-11-09T02:38:26.7455241+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Janae Williamson",
+        "ExtraInfo": "ut",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Sydnee Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "et",
+    "ExtraInfo": "qui",
+    "StyleHint": "magni",
     "Hidden": true,
-    "FullName": "Wilmer Mann",
+    "FullName": "Cecelia Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldLength": 357
       }
     }
   }

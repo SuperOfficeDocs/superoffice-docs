@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Bogan, Anderson and Ward",
-    "ToolTip": "Et eveniet ab.",
+    "Id": 263,
+    "Name": "Goyette, Ritchie and Barton",
+    "ToolTip": "Excepturi debitis aut in vitae velit impedit.",
     "Deleted": false,
-    "Rank": 849,
-    "Type": "sapiente",
-    "ColorBlock": 246,
-    "IconHint": "dolore",
-    "Selected": false,
-    "LastChanged": "2023-03-21T14:13:49.6648827+01:00",
+    "Rank": 640,
+    "Type": "vel",
+    "ColorBlock": 583,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2016-10-11T02:38:26.6674035+02:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Rodriguez, Dare and O'Conner",
-        "ToolTip": "Voluptatem tenetur.",
+        "Id": 358,
+        "Name": "O'Hara-Aufderhar",
+        "ToolTip": "Deserunt ut doloremque praesentium dignissimos quasi.",
         "Deleted": false,
-        "Rank": 436,
-        "Type": "est",
-        "ColorBlock": 379,
-        "IconHint": "voluptas",
+        "Rank": 944,
+        "Type": "rerum",
+        "ColorBlock": 566,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2022-02-17T14:13:49.6648827+01:00",
+        "LastChanged": "2018-09-24T02:38:26.6674035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Aron Hauck"
+        "ExtraInfo": "eaque",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Cora Kihn"
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Derick McKenzie"
+    "ExtraInfo": "et",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Gregoria Macejkovic"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Torp Group",
-    "ToolTip": "Nemo atque.",
-    "Deleted": true,
-    "Rank": 323,
-    "Type": "praesentium",
-    "ColorBlock": 376,
-    "IconHint": "doloribus",
+    "Id": 660,
+    "Name": "Gibson, Lubowitz and Lockman",
+    "ToolTip": "Officiis qui.",
+    "Deleted": false,
+    "Rank": 965,
+    "Type": "sint",
+    "ColorBlock": 169,
+    "IconHint": "dolores",
     "Selected": false,
-    "LastChanged": "2024-05-19T14:13:49.6648827+02:00",
+    "LastChanged": "2010-03-25T02:38:26.6674035+01:00",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Robel, Rogahn and Douglas",
-        "ToolTip": "Ratione dolor vel quidem reprehenderit harum a iusto.",
+        "Id": 187,
+        "Name": "Franecki, Bartoletti and Adams",
+        "ToolTip": "Doloremque consequatur eum a sit assumenda voluptatem quia.",
         "Deleted": false,
-        "Rank": 646,
-        "Type": "rerum",
-        "ColorBlock": 42,
-        "IconHint": "voluptatum",
+        "Rank": 61,
+        "Type": "incidunt",
+        "ColorBlock": 975,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2014-04-30T14:13:49.6648827+02:00",
+        "LastChanged": "2011-07-22T02:38:26.6674035+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "veniam",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Roman Mohr I",
+        "FullName": "Mr. Tania Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 464
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "harum",
+    "ExtraInfo": "cumque",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Kieran Lowe",
+    "FullName": "Nona Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldType": "System.String",
+        "FieldLength": 171
       }
     }
   }

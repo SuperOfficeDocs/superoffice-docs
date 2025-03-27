@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Document/CheckinDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 140,
+  "DocumentId": 699,
   "AllowedReturnTypes": [
-    "consequatur",
-    "rerum"
+    "quasi",
+    "dolor"
   ],
-  "VersionDescription": "Optimized grid-enabled hub",
+  "VersionDescription": "Ameliorated neutral ability",
   "VersionExtraFields": [
-    "fuga",
-    "rerum"
+    "ea",
+    "aut"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "nesciunt",
-  "VersionId": "cum",
-  "Success": false,
+  "ExternalReference": "sequi",
+  "VersionId": "commodi",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "aut",
-  "AdditionalInfo": "commodi"
+  "Value": "dolores",
+  "AdditionalInfo": "quam"
 }
 ```

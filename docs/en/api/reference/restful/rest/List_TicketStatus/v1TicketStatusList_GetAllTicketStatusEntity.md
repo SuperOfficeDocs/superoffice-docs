@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +74,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 484,
-    "Name": "Kunde-Stokes",
+    "TicketStatusId": 806,
+    "Name": "Jacobson-McKenzie",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
     "IsDefault": false,
-    "UsedInQueue": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

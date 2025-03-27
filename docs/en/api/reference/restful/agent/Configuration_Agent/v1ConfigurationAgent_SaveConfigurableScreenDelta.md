@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 228,
-  "Name": "Stiedemann Inc and Sons",
-  "Description": "Triple-buffered logistical matrix",
-  "DeltaJson": "nam",
+  "ConfigurableScreenDeltaId": 920,
+  "Name": "Bruen Inc and Sons",
+  "Description": "Intuitive scalable success",
+  "DeltaJson": "ducimus",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "qui",
-  "UpdatedDate": "2018-06-16T14:13:39.719154+02:00",
-  "CreatedDate": "2023-05-21T14:13:39.719154+02:00",
+  "RecipeId": "doloribus",
+  "UpdatedDate": "2003-02-21T02:38:20.995206+01:00",
+  "CreatedDate": "2024-05-09T02:38:20.995206+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    520,
-    211
+    691,
+    710
   ],
-  "AppliesToKey": "ducimus"
+  "AppliesToKey": "eos"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 220,
-  "Name": "Miller-Greenholt",
-  "Description": "Function-based background extranet",
-  "DeltaJson": "omnis",
+  "ConfigurableScreenDeltaId": 436,
+  "Name": "Moen, Hoppe and Buckridge",
+  "Description": "Programmable object-oriented model",
+  "DeltaJson": "dolor",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "et",
-  "UpdatedDate": "2005-12-01T14:13:39.7347754+01:00",
-  "CreatedDate": "1999-08-30T14:13:39.7347754+02:00",
+  "RecipeId": "ut",
+  "UpdatedDate": "2010-07-25T02:38:20.995206+02:00",
+  "CreatedDate": "2002-01-03T02:38:20.995206+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    952,
-    241
+    771,
+    268
   ],
-  "AppliesToKey": "libero",
+  "AppliesToKey": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 906
+      "FieldLength": 265
     }
   }
 }

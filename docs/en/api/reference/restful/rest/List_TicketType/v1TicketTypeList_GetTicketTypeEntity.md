@@ -90,31 +90,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 288,
-  "Name": "Daniel Group",
-  "Rank": 724,
-  "Tooltip": "optio",
-  "Icon": "nisi",
-  "DefaultTicketStatus": 480,
+  "TicketTypeId": 759,
+  "Name": "Yost, Zulauf and Kulas",
+  "Rank": 823,
+  "Tooltip": "eveniet",
+  "Icon": "praesentium",
+  "DefaultTicketStatus": 90,
   "TicketStatuses": [
-    879,
-    258
+    391,
+    99
   ],
-  "DefaultTicketPriority": 445,
+  "DefaultTicketPriority": 476,
   "TicketPriorities": [
-    861,
-    500
+    944,
+    155
   ],
-  "ReplyTemplate": 597,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "ReplyTemplate": 963,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    387,
-    506
+    453,
+    989
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -122,8 +122,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 251
     }
   }
 }

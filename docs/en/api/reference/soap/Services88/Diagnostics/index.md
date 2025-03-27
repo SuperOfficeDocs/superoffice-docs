@@ -22,6 +22,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [CollectWinUsage](CollectWinUsage.md)
 * [FlushCaches](FlushCaches.md)
 * [FlushCachesByName](FlushCachesByName.md)
+* [GetCacheInvalidationGenerations](GetCacheInvalidationGenerations.md)
 * [GetCacheNames](GetCacheNames.md)
 * [GetCacheState](GetCacheState.md)
 * [GetEntityCountsForAllUsers](GetEntityCountsForAllUsers.md)

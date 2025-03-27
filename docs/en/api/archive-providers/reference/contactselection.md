@@ -877,6 +877,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
 |request/priorityName| *None* |Priority: Service priority| x |
+|request/ownedBy| *None* |Owner: The owner of the request| x |
 |request/ticketId| *None* |ID: Displays request ID| x |
 |request/title| *None* |Title: Displays the request title| x |
 |request/createdAt| *None* |Created: Displays when the request was created| x |
@@ -910,7 +911,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/deadline| *None* |Deadline: Deadline| x |
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags| *None* |Tags: Tags connected to a request| x |
-|request/ownedBy| *None* |Owner: The owner of the request| x |
 |request/createdBy| *None* |Created by: Created by| x |
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -1210,7 +1210,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelection?$select=contactAssociate/assocName,sale/personId,sale/associate/role,appointment/associate/middleName,request/createdBy/assocType
+GET /api/v1/archive/ContactSelection?$select=restrictionAddress/line2,LastDoByTicket,targetRelation/stop,appointment/contactId,document/keywords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

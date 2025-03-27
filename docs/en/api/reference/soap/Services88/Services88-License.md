@@ -445,6 +445,31 @@ title: Services88.LicenseAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetUserAndInstallationLicenceStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUserAndInstallationLicenceStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UserAndInstallationLicenceStatus" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="UserAndInstallationLicenceStatus">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AdminWarningDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ExpiryDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="GraceDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CompanyName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="SerialNr" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserLicenses" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="UserAndInstallationLicenceStatus" nillable="true" type="tns:UserAndInstallationLicenceStatus" />
       <xs:element name="ChangeSerialNumber">
         <xs:complexType>
           <xs:sequence>
@@ -669,7 +694,7 @@ title: Services88.LicenseAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
             <xs:element minOccurs="0" name="ModuleOwner" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ModuleLicenseNames" nillable="true" type="q2:ArrayOfstring" xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ModuleLicenseNames" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -685,7 +710,7 @@ title: Services88.LicenseAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
             <xs:element minOccurs="0" name="ModuleOwner" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="ModuleLicenseNames" nillable="true" type="q3:ArrayOfstring" xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <xs:element minOccurs="0" name="ModuleLicenseNames" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -881,6 +906,23 @@ title: Services88.LicenseAgent WSDL
     <wsdl:part name="parameters" element="tns:GetLicenseFromDBResponse" />
   </wsdl:message>
   <wsdl:message name="GetLicenseFromDBResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAndInstallationLicenceStatusRequest">
+    <wsdl:part name="parameters" element="tns:GetUserAndInstallationLicenceStatus" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAndInstallationLicenceStatusRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAndInstallationLicenceStatusResponse">
+    <wsdl:part name="parameters" element="tns:GetUserAndInstallationLicenceStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserAndInstallationLicenceStatusResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -1119,6 +1161,10 @@ title: Services88.LicenseAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetLicenseFromDB" name="GetLicenseFromDBRequest" message="tns:GetLicenseFromDBRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetLicenseFromDBResponse" name="GetLicenseFromDBResponse" message="tns:GetLicenseFromDBResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetUserAndInstallationLicenceStatus">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetUserAndInstallationLicenceStatus" name="GetUserAndInstallationLicenceStatusRequest" message="tns:GetUserAndInstallationLicenceStatusRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetUserAndInstallationLicenceStatusResponse" name="GetUserAndInstallationLicenceStatusResponse" message="tns:GetUserAndInstallationLicenceStatusResponse" />
+    </wsdl:operation>
     <wsdl:operation name="ChangeSerialNumber">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/ChangeSerialNumber" name="ChangeSerialNumberRequest" message="tns:ChangeSerialNumberRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/License/ChangeSerialNumberResponse" name="ChangeSerialNumberResponse" message="tns:ChangeSerialNumberResponse" />
@@ -1279,6 +1325,22 @@ title: Services88.LicenseAgent WSDL
         <soap:header message="tns:GetLicenseFromDBResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetLicenseFromDBResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetLicenseFromDBResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserAndInstallationLicenceStatus">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/License/GetUserAndInstallationLicenceStatus" style="document" />
+      <wsdl:input name="GetUserAndInstallationLicenceStatusRequest">
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUserAndInstallationLicenceStatusResponse">
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUserAndInstallationLicenceStatusResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

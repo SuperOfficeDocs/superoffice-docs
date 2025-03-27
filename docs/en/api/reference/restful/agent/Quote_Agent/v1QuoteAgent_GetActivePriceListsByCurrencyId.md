@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 614,
-  "CurrencyId": 518
+  "QuoteConnectionId": 805,
+  "CurrencyId": 792
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 732,
-    "ERPPriceListKey": "officia",
-    "QuoteConnectionId": 756,
-    "Name": "Swift Group",
-    "Description": "Universal assymetric budgetary management",
-    "Currency": "et",
-    "CurrencyName": "Rippin-Greenfelder",
-    "ValidFrom": "2004-08-13T14:13:41.1095702+02:00",
-    "ValidTo": "2018-06-29T14:13:41.1095702+02:00",
-    "IsActive": true,
+    "PriceListId": 392,
+    "ERPPriceListKey": "voluptas",
+    "QuoteConnectionId": 635,
+    "Name": "Abernathy LLC",
+    "Description": "Customizable web-enabled secured line",
+    "Currency": "sit",
+    "CurrencyName": "Harvey LLC",
+    "ValidFrom": "2008-07-12T02:38:21.7763357+02:00",
+    "ValidTo": "1998-05-03T02:38:21.7763357+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldLength": 323
       }
     }
   }

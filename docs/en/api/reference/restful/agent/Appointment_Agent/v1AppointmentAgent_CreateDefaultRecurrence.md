@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 405,
-  "StartDate": "2021-09-27T14:13:39.1411603+02:00",
-  "EndDate": "2013-08-17T14:13:39.1411603+02:00",
-  "RecurrenceCounter": 331,
+  "RecurrenceId": 742,
+  "StartDate": "2023-12-01T02:38:20.7452374+01:00",
+  "EndDate": "1998-09-07T02:38:20.7452374+02:00",
+  "RecurrenceCounter": 929,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-10-17T14:13:39.1411603+02:00",
+      "Date": "2011-02-15T02:38:20.7452374+01:00",
       "IsConflict": false,
-      "Description": "Synchronised dynamic archive",
-      "DescriptionStyleHint": "Monitored global workforce",
-      "Tooltip": "veritatis"
+      "Description": "Down-sized static installation",
+      "DescriptionStyleHint": "Versatile solution-oriented architecture",
+      "Tooltip": "odio"
     },
     {
-      "Date": "2004-10-17T14:13:39.1411603+02:00",
+      "Date": "2011-02-15T02:38:20.7452374+01:00",
       "IsConflict": false,
-      "Description": "Synchronised dynamic archive",
-      "DescriptionStyleHint": "Monitored global workforce",
-      "Tooltip": "veritatis"
+      "Description": "Down-sized static installation",
+      "DescriptionStyleHint": "Versatile solution-oriented architecture",
+      "Tooltip": "odio"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

@@ -167,19 +167,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McClure-Cassin",
-  "Columns": "numquam",
-  "SortOrder": "distinctio",
-  "Restriction": "optio",
-  "Entities": "consequatur",
-  "Page": 159,
-  "PageSize": 644,
-  "Options": "consequatur",
-  "Context": "cumque"
+  "ProviderName": "Labadie Inc and Sons",
+  "Columns": "et",
+  "SortOrder": "ut",
+  "Restriction": "est",
+  "Entities": "ex",
+  "Page": 395,
+  "PageSize": 653,
+  "Options": "dignissimos",
+  "Context": "dolorem"
 }
 ```
 
@@ -190,26 +190,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 992,
+  "RowCount": 821,
   "Rows": [
     {
-      "EntityName": "Hettinger Inc and Sons",
-      "PrimaryKey": 429,
+      "EntityName": "Koelpin-Rice",
+      "PrimaryKey": 568,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aspernatur",
-          "TooltipHint": "dolorem",
-          "LinkHint": "repudiandae"
+          "DisplayValue": "velit",
+          "TooltipHint": "rem",
+          "LinkHint": "aperiam"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "quae",
+      "LinkHint": "tempore",
+      "StyleHint": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 631
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   }
 }

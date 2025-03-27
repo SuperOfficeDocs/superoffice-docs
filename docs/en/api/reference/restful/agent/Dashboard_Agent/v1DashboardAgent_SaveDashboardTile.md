@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 981,
-  "Caption": "tempora",
-  "Description": "User-centric attitude-oriented service-desk",
-  "ChartName": "Deckow Inc and Sons",
-  "ChartId": "veniam",
+  "DashboardTileId": 223,
+  "Caption": "assumenda",
+  "Description": "Programmable secondary initiative",
+  "ChartName": "Hayes, Feil and Johnston",
+  "ChartId": "perferendis",
   "IsDefault": false,
-  "AssociateId": 196,
-  "GroupId": 205,
-  "SelectionId": 902,
-  "Config": "possimus",
+  "AssociateId": 556,
+  "GroupId": 424,
+  "SelectionId": 271,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Pagac Inc and Sons",
-      "Description": "Innovative static infrastructure",
+      "Name": "Corkery, Reynolds and Steuber",
+      "Description": "Down-sized multi-state structure",
       "Type": "Boolean",
-      "ListName": "Stamm-Cummings",
+      "ListName": "Johnston LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ut",
+      "Value": "et",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 221,
+      "VisibleId": 899,
       "Visibility": "All",
-      "DisplayValue": "consectetur"
+      "DisplayValue": "autem"
     },
     {
-      "VisibleId": 221,
+      "VisibleId": 899,
       "Visibility": "All",
-      "DisplayValue": "consectetur"
+      "DisplayValue": "autem"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 250,
-  "Caption": "dolorum",
-  "Description": "Right-sized stable attitude",
-  "ChartName": "Haley LLC",
-  "ChartId": "modi",
+  "DashboardTileId": 497,
+  "Caption": "placeat",
+  "Description": "Versatile solution-oriented artificial intelligence",
+  "ChartName": "Leannon, Quitzon and Will",
+  "ChartId": "autem",
   "IsDefault": false,
-  "AssociateId": 235,
-  "GroupId": 543,
-  "SelectionId": 331,
-  "Config": "voluptas",
+  "AssociateId": 403,
+  "GroupId": 345,
+  "SelectionId": 806,
+  "Config": "sed",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Farrell Group",
-      "Description": "Open-architected executive benchmark",
+      "Name": "Swift LLC",
+      "Description": "Virtual explicit challenge",
       "Type": "Boolean",
-      "ListName": "Goldner, Lang and Streich",
+      "ListName": "Lubowitz LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptate",
-      "DefaultDataOption": false,
+      "Value": "non",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 333
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 824,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldLength": 541
         }
       }
     },
     {
-      "VisibleId": 824,
+      "VisibleId": 186,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 245
+          "FieldLength": 541
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 715
     }
   }
 }

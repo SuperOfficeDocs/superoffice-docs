@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 90,
-  "Name": "Runolfsdottir-Blick",
-  "OrgNr": "839112",
+  "ContactId": 698,
+  "Name": "Hauck, Funk and Turcotte",
+  "OrgNr": "803212",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "eaque",
-  "DirectPhone": "608.990.3235",
-  "AssociateId": 652,
-  "CountryId": 689,
-  "EmailAddress": "hope_rodriguez@durgan.info",
-  "Kananame": "blanditiis",
-  "EmailAddressName": "whitney_leannon@bernhard.ca",
+  "City": "optio",
+  "DirectPhone": "827-832-4594 x843",
+  "AssociateId": 452,
+  "CountryId": 391,
+  "EmailAddress": "glen_farrell@bednar.com",
+  "Kananame": "rem",
+  "EmailAddressName": "vaughn@howe.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Mrs. Vance Haag II",
+  "AssociateFullName": "Dr. Linwood Jillian Block",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "eius",
-  "FullName": "Toy Kemmer",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 586,
-  "Number1": "889146",
-  "Number2": "911521",
+  "FormattedAddress": "quo",
+  "FullName": "Martina Smith",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 669,
+  "Number1": "1499485",
+  "Number2": "1052940",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

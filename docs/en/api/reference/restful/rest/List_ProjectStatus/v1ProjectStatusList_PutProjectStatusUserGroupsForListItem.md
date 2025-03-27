@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Wisoky-Reichel",
-    "ToolTip": "Est omnis.",
-    "Deleted": true,
-    "Rank": 29,
-    "Type": "molestiae",
-    "ColorBlock": 89,
-    "IconHint": "repellat",
-    "Selected": true,
-    "LastChanged": "1998-07-29T14:13:50.1187745+02:00",
+    "Id": 87,
+    "Name": "Little-Miller",
+    "ToolTip": "Quidem debitis est.",
+    "Deleted": false,
+    "Rank": 282,
+    "Type": "est",
+    "ColorBlock": 129,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2021-11-13T02:38:26.854892+01:00",
     "ChildItems": [
       {
-        "Id": 36,
-        "Name": "Luettgen-Upton",
-        "ToolTip": "Voluptates ut voluptatem.",
+        "Id": 820,
+        "Name": "Kessler-Quitzon",
+        "ToolTip": "Ducimus aperiam earum corporis voluptatem reprehenderit.",
         "Deleted": false,
-        "Rank": 149,
-        "Type": "inventore",
-        "ColorBlock": 886,
-        "IconHint": "quis",
+        "Rank": 742,
+        "Type": "est",
+        "ColorBlock": 159,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2016-05-24T14:13:50.1187745+02:00",
+        "LastChanged": "2023-02-26T02:38:26.8705112+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Maggie Lowe"
+        "ExtraInfo": "eos",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Mrs. Neha Balistreri Jr."
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Kamren Simonis"
+    "ExtraInfo": "sapiente",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Margaretta Lourdes Donnelly IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Abernathy Group",
-    "ToolTip": "Numquam nostrum atque similique mollitia dolorem sequi ut.",
-    "Deleted": true,
-    "Rank": 994,
-    "Type": "labore",
-    "ColorBlock": 539,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2009-10-03T14:13:50.1187745+02:00",
+    "Id": 503,
+    "Name": "Schumm Group",
+    "ToolTip": "Ipsam qui officia fugit ut repudiandae qui ipsam.",
+    "Deleted": false,
+    "Rank": 925,
+    "Type": "est",
+    "ColorBlock": 228,
+    "IconHint": "cupiditate",
+    "Selected": false,
+    "LastChanged": "2016-03-21T02:38:26.8705112+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Roberts-McLaughlin",
-        "ToolTip": "Quas eligendi ut consequatur.",
-        "Deleted": true,
-        "Rank": 635,
-        "Type": "voluptatem",
-        "ColorBlock": 937,
-        "IconHint": "sed",
-        "Selected": false,
-        "LastChanged": "2018-07-11T14:13:50.1187745+02:00",
+        "Id": 525,
+        "Name": "Sanford-Welch",
+        "ToolTip": "Consectetur sequi id qui enim.",
+        "Deleted": false,
+        "Rank": 681,
+        "Type": "aut",
+        "ColorBlock": 315,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2011-11-07T02:38:26.8705112+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Octavia Murray II",
+        "ExtraInfo": "sit",
+        "StyleHint": "architecto",
+        "Hidden": false,
+        "FullName": "Vernie Weissnat DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 833
+            "FieldLength": 482
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Rickie Bulah Roberts MD",
+    "ExtraInfo": "commodi",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Ms. Claire Cecil Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 498
+        "FieldLength": 287
       }
     }
   }

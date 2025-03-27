@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=671
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=670
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 970,
-  "Name": "Armstrong LLC",
-  "Tooltip": "consequuntur",
-  "Rank": 256,
+  "ProjTypeId": 502,
+  "Name": "Borer LLC",
+  "Tooltip": "voluptatem",
+  "Rank": 479,
   "DurationUnit": "Century",
-  "ProjectDuration": 550,
+  "ProjectDuration": 801,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 891,
-      "Name": "Rohan Group",
-      "ToolTip": "Fuga dolore qui dignissimos dicta ea veniam.",
+      "Id": 63,
+      "Name": "Larkin-Rippin",
+      "ToolTip": "Consectetur amet aut voluptatem fuga.",
       "Deleted": true,
-      "Rank": 891,
-      "Type": "vero",
-      "ColorBlock": 351,
-      "IconHint": "quibusdam",
+      "Rank": 810,
+      "Type": "iste",
+      "ColorBlock": 581,
+      "IconHint": "laudantium",
       "Selected": false,
-      "LastChanged": "2002-07-27T14:13:40.4378476+02:00",
+      "LastChanged": "2010-12-04T02:38:21.4951545+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "molestiae",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Kiley Emmerich",
+      "ExtraInfo": "animi",
+      "StyleHint": "architecto",
+      "Hidden": false,
+      "FullName": "Dr. Theo Hilll II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 661
+          "FieldLength": 87
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 175
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

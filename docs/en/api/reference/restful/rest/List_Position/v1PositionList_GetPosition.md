@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Rowe, Reinger and Dicki",
-  "Tooltip": "neque",
+  "Id": 771,
+  "Name": "Mraz Group",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "UdListDefinitionId": 857,
-  "Rank": 663,
+  "UdListDefinitionId": 739,
+  "Rank": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 587
+      "FieldType": "System.String",
+      "FieldLength": 509
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 972,
-    "Name": "Harber-Gutkowski",
-    "Tooltip": "rem",
+    "HeadingId": 896,
+    "Name": "Grimes Inc and Sons",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 849,
+    "Rank": 590,
+    "UdListDefinitionId": 57,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 730
+        "FieldType": "System.Int32",
+        "FieldLength": 764
       }
     }
   }

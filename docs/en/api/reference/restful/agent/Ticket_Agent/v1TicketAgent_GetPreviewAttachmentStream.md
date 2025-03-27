@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 80
+  "AttachmentId": 636
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Aufderhar-Reichel",
-  "Type": "voluptate",
-  "Size": 659,
+  "Name": "Yost-D'Amore",
+  "Type": "quo",
+  "Size": 739,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldType": "System.String",
+      "FieldLength": 231
     }
   }
 }

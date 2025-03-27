@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 486,
-  "Name": "Turner LLC",
-  "Tooltip": "excepturi",
-  "Rank": 338,
+  "SaleTypeId": 283,
+  "Name": "Lebsack Inc and Sons",
+  "Tooltip": "id",
+  "Rank": 164,
   "DurationUnit": "Century",
-  "SaleDuration": 541,
-  "SaleTypeCatId": 666,
+  "SaleDuration": 796,
+  "SaleTypeCatId": 29,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 491,
-  "QuoteLinesTemplate": 933,
-  "ConfirmationLinesTemplate": 95,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 503,
+  "QuoteLinesTemplate": 973,
+  "ConfirmationLinesTemplate": 157,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 544,
-  "MinEarningPercent": 47,
-  "GroupQuoteLinesBy": 136,
-  "SortGroupLinesBy": 916,
+  "MaxDiscountPercent": 126,
+  "MinEarningPercent": 809,
+  "GroupQuoteLinesBy": 820,
+  "SortGroupLinesBy": 634,
   "Stages": [
     {
-      "Id": 69,
-      "Name": "Prosacco, Baumbach and Kessler",
-      "ToolTip": "Quidem velit amet qui qui blanditiis.",
+      "Id": 968,
+      "Name": "Watsica Inc and Sons",
+      "ToolTip": "Harum doloremque est iure asperiores voluptate.",
       "Deleted": false,
-      "Rank": 947,
-      "Type": "quia",
-      "ColorBlock": 693,
-      "IconHint": "expedita",
+      "Rank": 17,
+      "Type": "amet",
+      "ColorBlock": 405,
+      "IconHint": "debitis",
       "Selected": false,
-      "LastChanged": "1999-10-14T14:13:40.5471977+02:00",
+      "LastChanged": "2023-07-09T02:38:21.5420262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "minus",
+      "ExtraInfo": "qui",
+      "StyleHint": "porro",
       "Hidden": false,
-      "FullName": "Alvena Davis",
+      "FullName": "Juanita Wehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 305
+          "FieldLength": 39
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 160
+      "FieldLength": 919
     }
   }
 }

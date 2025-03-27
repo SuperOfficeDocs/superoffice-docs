@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 540,
-    "Tooltip": "in",
+    "Unrestricted": false,
+    "Total": 616,
+    "Tooltip": "ab",
     "CanAssign": false,
-    "Free": 167,
-    "InUse": 793,
+    "Free": 701,
+    "InUse": 239,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 210,
-    "Name": "Hudson Inc and Sons",
-    "Description": "Total well-modulated customer loyalty",
-    "PrerequisiteModuleName": "Padberg, Rath and Ward",
-    "SortOrder": 463,
-    "ExtraFlags": 815,
+    "ModuleLicenseId": 121,
+    "Name": "Littel, Bartell and Kulas",
+    "Description": "Networked fresh-thinking migration",
+    "PrerequisiteModuleName": "Schowalter, Hansen and D'Amore",
+    "SortOrder": 423,
+    "ExtraFlags": 896,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldLength": 519
       }
     }
   }

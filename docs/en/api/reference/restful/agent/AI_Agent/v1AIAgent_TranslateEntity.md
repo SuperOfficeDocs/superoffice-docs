@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Jacobson, Ryan and Zieme",
-  "EntityId": 272,
-  "TargetLanguage": "a"
+  "EntityName": "Ondricka LLC",
+  "EntityId": 700,
+  "TargetLanguage": "occaecati"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"minima"
+"neque"
 ```

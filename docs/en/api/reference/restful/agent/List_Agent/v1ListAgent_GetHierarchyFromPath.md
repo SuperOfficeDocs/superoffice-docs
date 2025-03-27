@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "odio",
+  "Path": "ratione",
   "Children": true
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 669,
+  "HierarchyId": 278,
   "Domain": "Dashboards",
-  "Name": "Stracke, Schimmel and Schmitt",
-  "Fullname": "alias",
-  "ParentId": 395,
+  "Name": "Jerde-Nikolaus",
+  "Fullname": "dignissimos",
+  "ParentId": 1001,
   "Children": [
     {
-      "HierarchyId": 143,
+      "HierarchyId": 350,
       "Domain": "Dashboards",
-      "Name": "Frami, Baumbach and Kautzer",
-      "Fullname": "eos",
-      "ParentId": 887,
+      "Name": "Wiza, Considine and Yost",
+      "Fullname": "fuga",
+      "ParentId": 434,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-10-07T14:13:40.5159548+02:00",
-      "RegisteredAssociateId": 305,
-      "Updated": "2016-06-28T14:13:40.5159548+02:00",
-      "UpdatedAssociateId": 8,
+      "Registered": "1998-06-29T02:38:21.5264044+02:00",
+      "RegisteredAssociateId": 159,
+      "Updated": "2000-11-20T02:38:21.5264044+01:00",
+      "UpdatedAssociateId": 828,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 317
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }
   ],
-  "Registered": "2014-03-02T14:13:40.5159548+01:00",
-  "RegisteredAssociateId": 656,
-  "Updated": "2009-06-15T14:13:40.5159548+02:00",
-  "UpdatedAssociateId": 637,
+  "Registered": "2001-11-24T02:38:21.5264044+01:00",
+  "RegisteredAssociateId": 794,
+  "Updated": "2010-06-21T02:38:21.5264044+02:00",
+  "UpdatedAssociateId": 908,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   }
 }

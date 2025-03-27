@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=corrupti
-GET /api/v1/ForeignApp?$top=437
-GET /api/v1/ForeignApp?$skip=446
+GET /api/v1/ForeignApp?$entities=omnis
+GET /api/v1/ForeignApp?$top=480
+GET /api/v1/ForeignApp?$skip=306
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=et
+GET /api/v1/ForeignApp?$context=harum
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "aspernatur",
   "value": [
     {
-      "PrimaryKey": 2080,
-      "EntityName": "sale",
-      "saleId": 2080,
-      "contactId": 4438,
-      "name": "McKenzie Inc and Sons"
+      "PrimaryKey": 749,
+      "EntityName": "person",
+      "personId": 749,
+      "fullName": "Prof. Jaida Powlowski"
     },
     {
-      "PrimaryKey": 7621,
-      "EntityName": "sale",
-      "saleId": 7621,
-      "contactId": 1237,
-      "name": "Marks-Oberbrunner"
+      "PrimaryKey": 574,
+      "EntityName": "person",
+      "personId": 574,
+      "fullName": "Lavern Herman"
     }
   ]
 }

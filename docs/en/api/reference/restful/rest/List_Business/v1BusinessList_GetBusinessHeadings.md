@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 511,
-    "Name": "Casper LLC",
-    "Tooltip": "repudiandae",
+    "HeadingId": 537,
+    "Name": "Torphy Group",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 689,
-    "UdListDefinitionId": 303,
+    "Rank": 456,
+    "UdListDefinitionId": 81,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

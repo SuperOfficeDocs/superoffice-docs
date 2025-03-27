@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Jones Inc and Sons",
-  "Comment": "id",
-  "StakeholderRoleId": 489,
-  "CountryId": 276,
-  "PersonId": 165,
-  "EmailDescription": "kody@beer.biz",
-  "EmailId": 30,
-  "EmailAddress": "fernando@connelly.us",
-  "PhoneId": 986,
-  "ContactName": "Heaney, Hodkiewicz and McKenzie",
-  "ContactId": 377,
-  "SaleId": 73,
-  "Mrmrs": "sequi",
-  "Firstname": "Janis",
-  "MiddleName": "Nikolaus, DuBuque and Effertz",
-  "Lastname": "Konopelski",
-  "SaleStakeholderId": 247,
-  "Rank": 905,
-  "Phone": "947.305.4500",
+  "StakeholderRoleName": "Schamberger-Klocko",
+  "Comment": "aliquam",
+  "StakeholderRoleId": 305,
+  "CountryId": 627,
+  "PersonId": 182,
+  "EmailDescription": "mathilde.schiller@gutkowski.uk",
+  "EmailId": 699,
+  "EmailAddress": "dalton@bruen.ca",
+  "PhoneId": 6,
+  "ContactName": "Eichmann-Thompson",
+  "ContactId": 68,
+  "SaleId": 415,
+  "Mrmrs": "sed",
+  "Firstname": "Ruthe",
+  "MiddleName": "Wolff-Gleichner",
+  "Lastname": "Stanton",
+  "SaleStakeholderId": 759,
+  "Rank": 166,
+  "Phone": "1-242-864-3856",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 888
     }
   }
 }

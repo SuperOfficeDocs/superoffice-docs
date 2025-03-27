@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 23 Apr 2015 14:13:48 G4T
+Last-Modified: Mon, 04 May 2015 02:38:26 G5T
 
 {
-  "ForeignAppId": 958,
-  "Name": "Berge, Schimmel and Hane",
-  "CreatedDate": "2008-08-30T14:13:48.8680781+02:00",
-  "UpdatedDate": "2015-04-23T14:13:48.8680781+02:00",
+  "ForeignAppId": 181,
+  "Name": "Lubowitz, Dare and Runte",
+  "CreatedDate": "2005-06-10T02:38:26.1048073+02:00",
+  "UpdatedDate": "2015-05-04T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 342,
-      "Name": "Bartell LLC",
-      "CreatedDate": "2005-12-27T14:13:48.8680781+01:00",
-      "UpdatedDate": "2002-04-06T14:13:48.8680781+02:00",
-      "AssociateFullName": "Paula Crist",
-      "CreatedBy": "id",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "ex",
-      "ForeignAppId": 3,
+      "ForeignDeviceId": 898,
+      "Name": "Hackett, Fisher and Muller",
+      "CreatedDate": "2006-06-15T02:38:26.1048073+02:00",
+      "UpdatedDate": "1998-07-12T02:38:26.1048073+02:00",
+      "AssociateFullName": "Mrs. Ewald Norberto Labadie MD",
+      "CreatedBy": "doloremque",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "officiis",
+      "ForeignAppId": 719,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 161
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Thu, 23 Apr 2015 14:13:48 G4T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 683
+      "FieldType": "System.Int32",
+      "FieldLength": 128
     }
   }
 }

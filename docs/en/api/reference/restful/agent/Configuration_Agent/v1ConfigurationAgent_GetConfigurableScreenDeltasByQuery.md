@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByQuery
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 952,
-    "Name": "Ward LLC",
-    "Description": "Progressive 5th generation open architecture",
-    "DeltaJson": "vero",
+    "ConfigurableScreenDeltaId": 780,
+    "Name": "Harvey-Nienow",
+    "Description": "Optional needs-based moderator",
+    "DeltaJson": "exercitationem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "commodi",
-    "UpdatedDate": "2020-11-03T14:13:39.7347754+01:00",
-    "CreatedDate": "2010-03-16T14:13:39.7347754+01:00",
+    "RecipeId": "quo",
+    "UpdatedDate": "2001-10-12T02:38:20.995206+02:00",
+    "CreatedDate": "2021-11-17T02:38:20.995206+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      86,
-      446
+      476,
+      480
     ],
-    "AppliesToKey": "eius",
+    "AppliesToKey": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldType": "System.String",
+        "FieldLength": 64
       }
     }
   }

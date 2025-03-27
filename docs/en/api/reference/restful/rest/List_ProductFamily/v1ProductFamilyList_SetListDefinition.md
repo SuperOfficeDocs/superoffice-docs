@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Nader, Cormier and Vandervort",
-  "Tooltip": "dolorum",
-  "Deleted": false,
-  "Rank": 17,
+  "Id": 328,
+  "Name": "Hessel-Koss",
+  "Tooltip": "distinctio",
+  "Deleted": true,
+  "Rank": 350,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nemo",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Romaguera-Kub",
-  "Tooltip": "non",
-  "Deleted": true,
-  "Rank": 427,
+  "Id": 610,
+  "Name": "Dare-Herzog",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 136,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 865
     }
   }
 }

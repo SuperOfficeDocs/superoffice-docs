@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 823,
-    "Name": "Cremin-Frami",
-    "ToolTip": "Consequatur commodi vel sed quia dolores velit inventore.",
-    "Deleted": false,
-    "Rank": 29,
-    "Type": "aut",
-    "ColorBlock": 887,
-    "IconHint": "corrupti",
+    "Id": 96,
+    "Name": "Kirlin, Zboncak and Gerhold",
+    "ToolTip": "Voluptatum ut velit sit hic excepturi autem.",
+    "Deleted": true,
+    "Rank": 36,
+    "Type": "alias",
+    "ColorBlock": 477,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2007-02-06T14:13:49.6648827+01:00",
+    "LastChanged": "2023-09-30T02:38:26.6830285+02:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "McCullough, Jaskolski and Wintheiser",
-        "ToolTip": "Voluptatem repudiandae.",
+        "Id": 931,
+        "Name": "Schinner, Fay and Osinski",
+        "ToolTip": "Molestiae eveniet et et.",
         "Deleted": true,
-        "Rank": 880,
-        "Type": "quasi",
-        "ColorBlock": 194,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "1998-10-23T14:13:49.6648827+02:00",
+        "Rank": 587,
+        "Type": "eum",
+        "ColorBlock": 255,
+        "IconHint": "deleniti",
+        "Selected": true,
+        "LastChanged": "2015-12-09T02:38:26.6830285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "reprehenderit",
-        "Hidden": true,
-        "FullName": "Miss Emerald Jayson Okuneva"
+        "ExtraInfo": "quis",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Dr. Duncan Jazmyn Turcotte"
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Sophie Sanford Kreiger Sr."
+    "ExtraInfo": "dolore",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Earl Murazik III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Ziemann Group",
-    "ToolTip": "Totam sed.",
+    "Id": 797,
+    "Name": "Kozey, Smitham and Donnelly",
+    "ToolTip": "Explicabo quia rerum facilis laborum.",
     "Deleted": true,
-    "Rank": 782,
-    "Type": "dignissimos",
-    "ColorBlock": 59,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "1998-04-07T14:13:49.6648827+02:00",
+    "Rank": 147,
+    "Type": "natus",
+    "ColorBlock": 544,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2015-12-11T02:38:26.6830285+01:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Mueller-Hammes",
-        "ToolTip": "At ratione inventore ex dolor ea.",
-        "Deleted": false,
-        "Rank": 843,
-        "Type": "ipsam",
-        "ColorBlock": 639,
-        "IconHint": "omnis",
-        "Selected": true,
-        "LastChanged": "2006-10-24T14:13:49.6648827+02:00",
+        "Id": 523,
+        "Name": "Rice Group",
+        "ToolTip": "Tempore accusantium assumenda earum eos asperiores.",
+        "Deleted": true,
+        "Rank": 264,
+        "Type": "illo",
+        "ColorBlock": 170,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2004-07-31T02:38:26.6830285+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "ab",
+        "ExtraInfo": "a",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Ms. Dewitt O'Keefe Jr.",
+        "FullName": "Prof. Jacinthe Braun V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldType": "System.String",
+            "FieldLength": 617
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "sed",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Athena Breitenberg",
+    "FullName": "Bryon Schimmel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 902
       }
     }
   }

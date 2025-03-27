@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 207,
-  "Select": "qui"
+  "SelectionId": 902,
+  "Select": "ex"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Lindgren-Mante",
-    "PrimaryKey": 510,
+    "EntityName": "Schaden-Feeney",
+    "PrimaryKey": 218,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "non",
-        "TooltipHint": "accusantium",
-        "LinkHint": "a"
+        "DisplayValue": "libero",
+        "TooltipHint": "inventore",
+        "LinkHint": "consectetur"
       }
     },
-    "LinkHint": "dolores",
-    "StyleHint": "in",
+    "LinkHint": "hic",
+    "StyleHint": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 363
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

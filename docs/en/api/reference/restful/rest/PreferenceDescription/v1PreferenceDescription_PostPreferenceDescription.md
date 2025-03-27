@@ -110,28 +110,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 236,
+  "PrefDescId": 670,
   "Section": "quia",
-  "Key": "quisquam",
-  "Name": "Leannon-Sipes",
+  "Key": "veritatis",
+  "Name": "Runolfsson-Miller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended zero tolerance algorithm",
-  "IsBuiltin": false,
-  "TableName": "Wunsch, Wyman and Thiel",
-  "UserDefinedListId": 978,
-  "Rank": 827,
-  "SubGroup": "libero",
-  "MinLevel": 889,
-  "MaxValue": 265,
-  "MinValue": 249,
-  "RequiredLicense": "modi"
+  "Description": "Operative dedicated knowledge base",
+  "IsBuiltin": true,
+  "TableName": "Rempel-Ondricka",
+  "UserDefinedListId": 295,
+  "Rank": 930,
+  "SubGroup": "sed",
+  "MinLevel": 360,
+  "MaxValue": 107,
+  "MinValue": 529,
+  "RequiredLicense": "reprehenderit"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 836,
-  "Section": "adipisci",
-  "Key": "cumque",
-  "Name": "Heaney-Leuschke",
+  "PrefDescId": 64,
+  "Section": "ea",
+  "Key": "expedita",
+  "Name": "Runolfsdottir, Steuber and Emard",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered 6th generation contingency",
+  "Description": "Multi-layered homogeneous extranet",
   "IsBuiltin": false,
-  "TableName": "Kozey, Durgan and Bechtelar",
-  "UserDefinedListId": 567,
-  "Rank": 885,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 253,
-  "MaxValue": 861,
-  "MinValue": 789,
-  "RequiredLicense": "quam",
+  "TableName": "Altenwerth, Johnston and Schmidt",
+  "UserDefinedListId": 477,
+  "Rank": 223,
+  "SubGroup": "quo",
+  "MinLevel": 494,
+  "MaxValue": 967,
+  "MinValue": 979,
+  "RequiredLicense": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

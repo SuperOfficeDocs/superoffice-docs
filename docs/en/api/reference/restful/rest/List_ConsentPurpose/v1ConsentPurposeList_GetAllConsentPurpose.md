@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,25 +80,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 677,
-    "Name": "Reichert Inc and Sons",
-    "ConsentText": "maiores",
-    "FormText": "placeat",
-    "Key": "provident",
-    "Tooltip": "sit",
-    "Active": 98,
-    "UpdatedDate": "2013-02-09T14:13:49.696121+01:00",
+    "ConsentPurposeId": 789,
+    "Name": "King, Ledner and Friesen",
+    "ConsentText": "aspernatur",
+    "FormText": "saepe",
+    "Key": "qui",
+    "Tooltip": "quia",
+    "Active": 588,
+    "UpdatedDate": "2003-12-22T02:38:26.6986493+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 900,
-    "PrivacyStatementDesc": "omnis",
+    "Deleted": true,
+    "Rank": 72,
+    "PrivacyStatementDesc": "eum",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 421
       }
     }
   }

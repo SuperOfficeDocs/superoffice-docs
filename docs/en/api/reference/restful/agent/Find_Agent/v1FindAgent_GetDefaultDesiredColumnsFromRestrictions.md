@@ -90,28 +90,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Smith-Hackett",
+  "ProviderName": "Jones LLC",
   "Restrictions": [
     {
-      "Name": "Moen Group",
-      "Operator": "aperiam",
+      "Name": "Glover, McClure and Lebsack",
+      "Operator": "fugiat",
       "Values": [
-        "id",
-        "magnam"
+        "dolor",
+        "aliquid"
       ],
       "DisplayValues": [
-        "ullam",
-        "repellat"
+        "autem",
+        "quis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 454,
+      "InterParenthesis": 828,
       "InterOperator": "And",
-      "UniqueHash": 903
+      "UniqueHash": 194
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "O'Kon, Marvin and Towne",
-    "DisplayTooltip": "a",
-    "DisplayType": "adipisci",
-    "CanOrderBy": true,
-    "Name": "Schiller-Nitzsche",
-    "CanRestrictBy": false,
-    "RestrictionType": "quo",
-    "RestrictionListName": "Dibbert Group",
-    "IsVisible": true,
-    "ExtraInfo": "unde",
-    "Width": "sequi",
-    "IconHint": "nisi",
-    "HeadingIconHint": "rem"
+    "DisplayName": "Bahringer LLC",
+    "DisplayTooltip": "tenetur",
+    "DisplayType": "necessitatibus",
+    "CanOrderBy": false,
+    "Name": "Mosciski, Goldner and Shanahan",
+    "CanRestrictBy": true,
+    "RestrictionType": "consectetur",
+    "RestrictionListName": "Farrell, Bradtke and Towne",
+    "IsVisible": false,
+    "ExtraInfo": "recusandae",
+    "Width": "molestiae",
+    "IconHint": "saepe",
+    "HeadingIconHint": "ut"
   }
 ]
 ```

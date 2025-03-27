@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Ernser Group",
-    "Stracke-Smith"
+    "Kreiger, Zieme and Lehner",
+    "Spencer-Wolff"
   ],
-  "Culture": "corporis"
+  "Culture": "impedit"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Lowe-Macejkovic",
-    "ResourceValue": "tempora",
-    "Culture": "est",
-    "IsActive": false,
+    "ResourceName": "Crona, Treutel and Cartwright",
+    "ResourceValue": "tempore",
+    "Culture": "iste",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   },
   {
-    "ResourceName": "Lowe-Macejkovic",
-    "ResourceValue": "tempora",
-    "Culture": "est",
-    "IsActive": false,
+    "ResourceName": "Crona, Treutel and Cartwright",
+    "ResourceValue": "tempore",
+    "Culture": "iste",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 734,
-  "Name": "Spencer-Romaguera",
+  "TicketPriorityId": 622,
+  "Name": "Quitzon Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 977,
+  "SortOrder": 37,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 95,
-  "MonStart": "2011-01-05T14:13:50.3064464+01:00",
-  "MonStop": "2005-10-22T14:13:50.3064464+02:00",
-  "TueStart": "2001-06-29T14:13:50.3064464+02:00",
-  "TueStop": "2002-06-26T14:13:50.3064464+02:00",
-  "WedStart": "2021-09-06T14:13:50.3064464+02:00",
-  "WedStop": "2015-07-25T14:13:50.3064464+02:00",
-  "ThuStart": "2018-06-19T14:13:50.3064464+02:00",
-  "ThuStop": "2011-08-18T14:13:50.3064464+02:00",
-  "FriStart": "2003-11-19T14:13:50.3064464+01:00",
-  "FriStop": "2021-03-05T14:13:50.3064464+01:00",
-  "SatStart": "2000-09-08T14:13:50.3064464+02:00",
-  "SatStop": "2016-04-25T14:13:50.3064464+02:00",
-  "SunStart": "1998-05-27T14:13:50.3064464+02:00",
-  "SunStop": "2009-06-05T14:13:50.3064464+02:00",
+  "Deadline": 433,
+  "MonStart": "1997-11-15T02:38:27.0579944+01:00",
+  "MonStop": "2013-06-05T02:38:27.0579944+02:00",
+  "TueStart": "2015-04-03T02:38:27.0579944+02:00",
+  "TueStop": "2002-09-04T02:38:27.0579944+02:00",
+  "WedStart": "2021-10-03T02:38:27.0579944+02:00",
+  "WedStop": "2022-01-15T02:38:27.0579944+01:00",
+  "ThuStart": "2011-07-12T02:38:27.0579944+02:00",
+  "ThuStop": "2002-12-21T02:38:27.0579944+01:00",
+  "FriStart": "2013-07-18T02:38:27.0579944+02:00",
+  "FriStop": "1999-06-07T02:38:27.0579944+02:00",
+  "SatStart": "2001-01-29T02:38:27.0579944+01:00",
+  "SatStop": "2016-03-28T02:38:27.0579944+02:00",
+  "SunStart": "2023-01-01T02:38:27.0579944+01:00",
+  "SunStop": "1998-01-18T02:38:27.0579944+01:00",
   "NonDates": [
-    "sapiente",
-    "doloremque"
+    "placeat",
+    "aut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 319,
-      "AlertLevel": 482,
-      "AlertTimeout": 593,
-      "Action": 860,
-      "DelegateTo": 236,
-      "ScriptId": 79,
-      "EmailTo": "lisette@torphy.com",
-      "SmsTo": "veritatis",
-      "ReplyTemplateIdCustomer": 867,
-      "ReplyTemplateIdUser": 659,
-      "ReplyTemplateIdCatmast": 876,
-      "ReplyTemplateIdEmail": 521,
-      "RtiCustomerSms": 128,
-      "ReplyTemplateIdUserSms": 338,
-      "ReplyTemplateIdCatmastSms": 956,
-      "ReplyTemplateIdSms": 164,
+      "TicketAlertId": 931,
+      "AlertLevel": 39,
+      "AlertTimeout": 493,
+      "Action": 837,
+      "DelegateTo": 847,
+      "ScriptId": 741,
+      "EmailTo": "sabina.emmerich@kemmerwunsch.us",
+      "SmsTo": "veniam",
+      "ReplyTemplateIdCustomer": 713,
+      "ReplyTemplateIdUser": 810,
+      "ReplyTemplateIdCatmast": 214,
+      "ReplyTemplateIdEmail": 919,
+      "RtiCustomerSms": 439,
+      "ReplyTemplateIdUserSms": 816,
+      "ReplyTemplateIdCatmastSms": 132,
+      "ReplyTemplateIdSms": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 225
+          "FieldLength": 693
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 484
+      "FieldLength": 254
     }
   }
 }

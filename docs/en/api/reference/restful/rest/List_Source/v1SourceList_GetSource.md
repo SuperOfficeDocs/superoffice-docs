@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Miller Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 656,
-  "Rank": 407,
+  "Id": 248,
+  "Name": "Maggio, Kub and Schinner",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 344,
+  "Rank": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 157
     }
   }
 }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 970
+  "ChatSessionId": 549
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 262,
-  "TopicId": 203,
+  "ChatSessionId": 753,
+  "TopicId": 317,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "eius",
-  "CustomerName": "Paucek LLC",
-  "CustomerEmail": "justine@rogahn.us",
-  "CustomerPhone": "197.226.8256",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Abbott Inc and Sons",
+  "CustomerAlias": "quaerat",
+  "CustomerHost": "omnis",
+  "CustomerName": "Koss-Strosin",
+  "CustomerEmail": "florencio.hodkiewicz@wisozk.us",
+  "CustomerPhone": "(046)185-7518",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Kuhic, Breitenberg and Fritsch",
   "Status": "Closed",
-  "FirstMessage": "magnam",
-  "LastMessage": "accusamus",
-  "WhenRequested": "2012-08-20T14:13:39.6566681+02:00",
-  "WhenStarted": "2001-04-10T14:13:39.6566681+02:00",
-  "WhenEnded": "2012-01-23T14:13:39.6566681+01:00",
-  "WhenIdle": "2021-08-09T14:13:39.6566681+02:00",
-  "WhenFetched": "2015-01-26T14:13:39.6566681+01:00",
-  "SessionKey": "enim",
-  "InitialQueuePos": 451,
-  "AlertLevel": 374,
-  "Rank": 632,
+  "FirstMessage": "consectetur",
+  "LastMessage": "odit",
+  "WhenRequested": "2012-01-07T02:38:20.9483349+01:00",
+  "WhenStarted": "2018-01-31T02:38:20.9483349+01:00",
+  "WhenEnded": "2010-08-17T02:38:20.9483349+02:00",
+  "WhenIdle": "2020-07-18T02:38:20.9483349+02:00",
+  "WhenFetched": "2002-12-07T02:38:20.9483349+01:00",
+  "SessionKey": "sapiente",
+  "InitialQueuePos": 874,
+  "AlertLevel": 454,
+  "Rank": 192,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 902,
+  "Rating": 430,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   }
 }

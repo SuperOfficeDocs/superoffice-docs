@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "velit",
+  "ProgId": "eos",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 762,
-  "ColumnId": 547,
-  "FieldDefault": "qui",
-  "FieldHeight": 441,
-  "FieldLabel": "nemo",
-  "FieldLeft": 931,
-  "FieldTop": 929,
+  "UDefFieldId": 159,
+  "ColumnId": 835,
+  "FieldDefault": "nam",
+  "FieldHeight": 524,
+  "FieldLabel": "facere",
+  "FieldLeft": 392,
+  "FieldTop": 705,
   "FieldType": "Checkbox",
-  "FieldWidth": 102,
-  "FormatMask": "tempore",
-  "HideLabel": false,
+  "FieldWidth": 728,
+  "FormatMask": "nihil",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 192,
-  "LabelLeft": 769,
-  "LabelTop": 126,
-  "LabelWidth": 817,
-  "LastVersionId": 638,
-  "ListTableId": 496,
-  "IsMandatory": true,
+  "LabelHeight": 340,
+  "LabelLeft": 43,
+  "LabelTop": 526,
+  "LabelWidth": 16,
+  "LastVersionId": 257,
+  "ListTableId": 906,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 565,
-  "ProgId": "sunt",
+  "Page1LineNo": 631,
+  "ProgId": "dolores",
   "IsReadOnly": false,
-  "ShortLabel": "hic",
-  "TabOrder": 136,
-  "TextLength": 155,
-  "Tooltip": "esse",
-  "UdefIdentity": 481,
-  "UDListDefinitionId": 419,
+  "ShortLabel": "occaecati",
+  "TabOrder": 814,
+  "TextLength": 846,
+  "Tooltip": "animi",
+  "UdefIdentity": 253,
+  "UDListDefinitionId": 587,
   "Justification": "Center",
-  "Version": 226,
-  "TemplateVariableName": "Medhurst-Lockman",
-  "HasBeenPublished": false,
-  "MdoListName": "Johnson Group",
+  "Version": 215,
+  "TemplateVariableName": "Stanton-Tromp",
+  "HasBeenPublished": true,
+  "MdoListName": "DuBuque, Ratke and Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 442
+      "FieldLength": 680
     }
   }
 }

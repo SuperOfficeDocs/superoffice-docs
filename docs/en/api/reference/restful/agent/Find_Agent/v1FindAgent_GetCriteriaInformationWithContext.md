@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptates",
-  "ProviderName": "Schultz, Keebler and Hartmann",
-  "StorageKey": "in",
+  "StorageType": "corporis",
+  "ProviderName": "Fritsch Group",
+  "StorageKey": "tempore",
   "StaticColumns": [
-    "vero",
-    "nesciunt"
+    "eveniet",
+    "eos"
   ],
-  "Context": "quisquam"
+  "Context": "sint"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Anderson Inc and Sons",
-      "Operator": "aliquam",
+      "Name": "Renner LLC",
+      "Operator": "consectetur",
       "Values": [
-        "voluptates",
-        "illum"
+        "officiis",
+        "aut"
       ],
       "DisplayValues": [
-        "ad",
-        "tempora"
+        "eaque",
+        "consequatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 762,
+      "InterParenthesis": 4,
       "InterOperator": "And",
-      "UniqueHash": 457
+      "UniqueHash": 193
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Windler, Ratke and Pfeffer",
-      "DisplayTooltip": "et",
-      "DisplayType": "corporis",
-      "CanOrderBy": true,
-      "Name": "Bosco Inc and Sons",
+      "DisplayName": "Mills, Watsica and Kassulke",
+      "DisplayTooltip": "iure",
+      "DisplayType": "totam",
+      "CanOrderBy": false,
+      "Name": "Fritsch, Smitham and Rice",
       "CanRestrictBy": false,
-      "RestrictionType": "et",
-      "RestrictionListName": "Langworth, Jacobi and Parisian",
-      "IsVisible": true,
-      "ExtraInfo": "officiis",
-      "Width": "quae",
-      "IconHint": "voluptate",
-      "HeadingIconHint": "esse"
+      "RestrictionType": "natus",
+      "RestrictionListName": "Fahey-Schulist",
+      "IsVisible": false,
+      "ExtraInfo": "illum",
+      "Width": "voluptatem",
+      "IconHint": "architecto",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Huels Group",
-      "PrimaryKey": 100,
+      "EntityName": "Reynolds, Kerluke and Kihn",
+      "PrimaryKey": 175,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "veniam",
-          "LinkHint": "voluptates"
+          "DisplayValue": "ullam",
+          "TooltipHint": "eos",
+          "LinkHint": "non"
         }
       },
-      "LinkHint": "distinctio",
-      "StyleHint": "eius",
+      "LinkHint": "modi",
+      "StyleHint": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 763
+          "FieldType": "System.Int32",
+          "FieldLength": 5
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Jakubowski Group",
-      "Description": "Assimilated mission-critical algorithm",
-      "Rank": 195,
+      "Name": "Hamill, Green and Schroeder",
+      "Description": "Ergonomic content-based projection",
+      "Rank": 197,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jakubowski Group",
-      "Description": "Assimilated mission-critical algorithm",
-      "Rank": 195,
+      "Name": "Hamill, Green and Schroeder",
+      "Description": "Ergonomic content-based projection",
+      "Rank": 197,
       "Restrictions": [
         {},
         {}
@@ -191,8 +191,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   }
 }

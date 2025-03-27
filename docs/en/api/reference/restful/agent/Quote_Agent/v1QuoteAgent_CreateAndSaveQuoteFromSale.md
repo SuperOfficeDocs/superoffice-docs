@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CopyFromSaleId": 85,
-  "CopyToSaleId": 259
+  "CopyFromSaleId": 191,
+  "CopyToSaleId": 51
 }
 ```
 
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 623,
-  "SaleId": 356,
-  "QuoteConnectionId": 897,
-  "ERPQuoteKey": "et",
-  "ERPOrderKey": "aspernatur",
-  "ActiveQuoteVersionId": 256,
-  "AcceptedQuoteAlternativeId": 601,
-  "UseValuesFromQuote": 291,
-  "DocumentId": 597,
-  "PoNumber": "841845",
-  "OrderComment": "voluptatem",
-  "PreferredEmailCulture": "yolanda_leuschke@aufderharcassin.ca",
+  "QuoteId": 131,
+  "SaleId": 320,
+  "QuoteConnectionId": 169,
+  "ERPQuoteKey": "tenetur",
+  "ERPOrderKey": "incidunt",
+  "ActiveQuoteVersionId": 905,
+  "AcceptedQuoteAlternativeId": 251,
+  "UseValuesFromQuote": 324,
+  "DocumentId": 285,
+  "PoNumber": "78008",
+  "OrderComment": "molestiae",
+  "PreferredEmailCulture": "ramon_ondricka@jakubowski.us",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 375,
-      "ERPQuoteVersionKey": "sapiente",
-      "QuoteId": 67,
-      "Description": "Enterprise-wide transitional paradigm",
-      "Number": "1248398",
+      "QuoteVersionId": 361,
+      "ERPQuoteVersionKey": "et",
+      "QuoteId": 42,
+      "Description": "Fully-configurable client-driven groupware",
+      "Number": "546603",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 277,
-      "SentDate": "2012-12-29T14:13:41.1251915+01:00",
-      "FollowupId": 625,
-      "ExpirationDate": "2023-08-19T14:13:41.1251915+02:00",
-      "DeliveryCountryId": 44,
+      "LikelyQuoteAlternativeId": 219,
+      "SentDate": "2009-10-04T02:38:21.7919947+02:00",
+      "FollowupId": 370,
+      "ExpirationDate": "1999-03-26T02:38:21.7919947+01:00",
+      "DeliveryCountryId": 68,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 568,
+      "InvoiceCountryId": 972,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "voluptates",
-      "ERPPaymentTypeKey": "labore",
-      "ERPDeliveryTermsKey": "nihil",
-      "ERPDeliveryTypeKey": "animi",
-      "Rank": 904,
-      "ApprovedBy": 364,
-      "ApprovedText": "non",
-      "ApprovedRegisteredBy": 859,
-      "ApprovedRegisteredDate": "2004-11-11T14:13:41.1251915+01:00",
-      "ExtraField1": "repellat",
-      "ExtraField2": "illum",
-      "ExtraField3": "maiores",
-      "ExtraField4": "necessitatibus",
-      "ExtraField5": "excepturi",
-      "LastRecalculated": "2018-10-04T14:13:41.1251915+02:00",
-      "Updated": "2023-10-31T14:13:41.1251915+01:00",
-      "UpdatedAssociateId": 527,
-      "Registered": "2008-03-28T14:13:41.1251915+01:00",
-      "RegisteredAssociateId": 998,
-      "RequestAssociateId": 211,
-      "RequestComment": "saepe",
+      "ERPPaymentTermsKey": "est",
+      "ERPPaymentTypeKey": "qui",
+      "ERPDeliveryTermsKey": "vitae",
+      "ERPDeliveryTypeKey": "id",
+      "Rank": 119,
+      "ApprovedBy": 896,
+      "ApprovedText": "ducimus",
+      "ApprovedRegisteredBy": 734,
+      "ApprovedRegisteredDate": "2005-04-28T02:38:21.7919947+02:00",
+      "ExtraField1": "numquam",
+      "ExtraField2": "corporis",
+      "ExtraField3": "sed",
+      "ExtraField4": "corrupti",
+      "ExtraField5": "adipisci",
+      "LastRecalculated": "2006-08-12T02:38:21.7919947+02:00",
+      "Updated": "2016-01-02T02:38:21.7919947+01:00",
+      "UpdatedAssociateId": 150,
+      "Registered": "2023-10-18T02:38:21.7919947+02:00",
+      "RegisteredAssociateId": 791,
+      "RequestAssociateId": 513,
+      "RequestComment": "sequi",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 144
+          "FieldType": "System.Int32",
+          "FieldLength": 298
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldLength": 360
     }
   }
 }

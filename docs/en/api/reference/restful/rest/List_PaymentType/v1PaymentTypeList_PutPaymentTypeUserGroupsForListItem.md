@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
-    "Name": "Wehner-Cremin",
-    "ToolTip": "Natus ipsam nobis totam dolorem enim tempore.",
+    "Id": 524,
+    "Name": "Abshire, Kessler and Padberg",
+    "ToolTip": "Vitae dolorem vel sint ea aut.",
     "Deleted": false,
-    "Rank": 183,
-    "Type": "eum",
-    "ColorBlock": 982,
-    "IconHint": "voluptatibus",
+    "Rank": 913,
+    "Type": "reiciendis",
+    "ColorBlock": 552,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2008-05-03T14:13:50.0250456+02:00",
+    "LastChanged": "2023-06-24T02:38:26.8080217+02:00",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Powlowski Group",
-        "ToolTip": "Corporis voluptas quasi.",
+        "Id": 265,
+        "Name": "Reichert Inc and Sons",
+        "ToolTip": "Nostrum cumque sed.",
         "Deleted": false,
-        "Rank": 528,
-        "Type": "consectetur",
-        "ColorBlock": 714,
-        "IconHint": "molestiae",
+        "Rank": 604,
+        "Type": "iste",
+        "ColorBlock": 242,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2004-03-22T14:13:50.0250456+01:00",
+        "LastChanged": "2003-04-05T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sit",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "tempora",
         "Hidden": false,
-        "FullName": "Ursula Rath"
+        "FullName": "Emmalee Smith"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ducimus",
-    "Hidden": true,
-    "FullName": "Leanna Bins"
+    "ExtraInfo": "assumenda",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Albin Jakubowski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Bernhard-Rowe",
-    "ToolTip": "Enim qui et non a fugiat voluptatem et.",
-    "Deleted": false,
-    "Rank": 341,
-    "Type": "enim",
-    "ColorBlock": 935,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2018-08-09T14:13:50.0250456+02:00",
+    "Id": 76,
+    "Name": "Hansen Inc and Sons",
+    "ToolTip": "Repellendus enim facere qui.",
+    "Deleted": true,
+    "Rank": 332,
+    "Type": "qui",
+    "ColorBlock": 895,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2000-11-28T02:38:26.8080217+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Murphy, Wilkinson and Gusikowski",
-        "ToolTip": "Id totam in pariatur facere reprehenderit.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "labore",
-        "ColorBlock": 651,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2008-05-31T14:13:50.0250456+02:00",
+        "Id": 304,
+        "Name": "Lowe, Harris and Parker",
+        "ToolTip": "Fugiat tempore quisquam ullam aut.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "consequatur",
+        "ColorBlock": 232,
+        "IconHint": "animi",
+        "Selected": true,
+        "LastChanged": "2014-01-08T02:38:26.8080217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Dr. Chet Oma Schuppe II",
+        "ExtraInfo": "molestias",
+        "StyleHint": "sit",
+        "Hidden": true,
+        "FullName": "Brandyn Skiles",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 12
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "nihil",
+    "ExtraInfo": "id",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Stephon Prohaska",
+    "FullName": "Mrs. Dawn Meredith Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 448
+        "FieldType": "System.Int32",
+        "FieldLength": 799
       }
     }
   }

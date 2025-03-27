@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 148,
-  "Name": "Zieme, Johnston and Schoen",
-  "Description": "Pre-emptive multimedia conglomeration",
-  "WelcomeMessage": "libero",
+  "ChatTopicId": 259,
+  "Name": "Zulauf, Tremblay and Bailey",
+  "Description": "Customizable zero defect capability",
+  "WelcomeMessage": "delectus",
   "Language": null,
-  "LastAccept": "2020-10-18T14:13:48.4445574+02:00",
-  "SecondsPrAccept": 789,
-  "AlertRecipient": "eligendi",
+  "LastAccept": "2004-10-09T02:38:25.9329544+02:00",
+  "SecondsPrAccept": 684,
+  "AlertRecipient": "et",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "iure",
+  "BadgeHeader": "debitis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consequatur",
-  "WarnNewChatMinutes": 760,
-  "WarnManagerNewChatMinutes": 374,
+  "CustomQueueText": "itaque",
+  "WarnNewChatMinutes": 937,
+  "WarnManagerNewChatMinutes": 711,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -120,20 +120,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 197,
-  "WarnManagerChatMessageMinutes": 967,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 549,
-  "OfflineFormQueueLength": 456,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "ex",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 666,
+  "WarnManagerChatMessageMinutes": 754,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 42,
+  "OfflineFormQueueLength": 883,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldLength": 212
     }
   }
 }

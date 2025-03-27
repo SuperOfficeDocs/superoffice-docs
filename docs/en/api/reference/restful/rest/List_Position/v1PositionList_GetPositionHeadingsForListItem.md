@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Goyette-Brakus",
-    "ToolTip": "Consequatur asperiores possimus explicabo molestiae odio quas.",
+    "Id": 861,
+    "Name": "Monahan, Hagenes and Graham",
+    "ToolTip": "Et explicabo optio nisi.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "sunt",
-    "ColorBlock": 7,
-    "IconHint": "ipsam",
-    "Selected": true,
-    "LastChanged": "2009-10-28T14:13:50.0406714+01:00",
+    "Rank": 607,
+    "Type": "et",
+    "ColorBlock": 234,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2015-05-22T02:38:26.8236417+02:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Haag, Hagenes and Bartoletti",
-        "ToolTip": "Optio ipsum sit quia ut ipsa ipsa nisi.",
+        "Id": 182,
+        "Name": "Hane-Green",
+        "ToolTip": "Sint molestiae fugiat quia iusto quis.",
         "Deleted": false,
-        "Rank": 814,
-        "Type": "modi",
-        "ColorBlock": 773,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2015-01-13T14:13:50.0406714+01:00",
+        "Rank": 168,
+        "Type": "est",
+        "ColorBlock": 580,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2008-09-14T02:38:26.8236417+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Dr. Westley Jacobi Sr.",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Waldo Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 686
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "iste",
+    "ExtraInfo": "qui",
+    "StyleHint": "aliquid",
     "Hidden": false,
-    "FullName": "Rex Yundt",
+    "FullName": "Esteban Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 21
       }
     }
   }

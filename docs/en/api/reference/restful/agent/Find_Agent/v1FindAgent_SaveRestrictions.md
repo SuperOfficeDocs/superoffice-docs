@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Blanda Inc and Sons",
-  "StorageKey": "blanditiis",
+  "StorageType": "sunt",
+  "ProviderName": "Schmidt, Cremin and Hermiston",
+  "StorageKey": "quidem",
   "Restrictions": [
     {
-      "Name": "Rath Inc and Sons",
-      "Operator": "nihil",
+      "Name": "Zieme, Volkman and McCullough",
+      "Operator": "deleniti",
       "Values": [
-        "cupiditate",
-        "dolores"
+        "quia",
+        "optio"
       ],
       "DisplayValues": [
-        "et",
-        "et"
+        "sed",
+        "eveniet"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 912,
+      "InterParenthesis": 605,
       "InterOperator": "And",
-      "UniqueHash": 495
+      "UniqueHash": 554
     }
   ]
 }

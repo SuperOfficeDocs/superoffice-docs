@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 72,
-    "Name": "Bruen-Johns",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "Rank": 928,
-    "UdListDefinitionId": 442,
+    "HeadingId": 218,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 588,
+    "UdListDefinitionId": 554,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 236
       }
     }
   }

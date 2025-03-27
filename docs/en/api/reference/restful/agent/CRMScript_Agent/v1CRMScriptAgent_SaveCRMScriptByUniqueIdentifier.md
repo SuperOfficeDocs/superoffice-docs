@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "soluta",
+  "UniqueIdentifier": "in",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "ut",
-  "Name": "Runte, Kris and Bins",
-  "Description": "Fundamental uniform flexibility",
-  "IncludeId": "animi",
-  "Source": "hic",
-  "Registered": "2019-10-23T14:13:39.9067187+02:00",
-  "RegisteredBy": "non",
-  "Updated": "2010-02-26T14:13:39.9067187+01:00",
-  "UpdatedBy": "pariatur",
-  "Path": "rerum",
+  "UniqueIdentifier": "delectus",
+  "Name": "Berge-McCullough",
+  "Description": "Vision-oriented regional migration",
+  "IncludeId": "dolorem",
+  "Source": "cumque",
+  "Registered": "2015-01-17T02:38:21.1670651+01:00",
+  "RegisteredBy": "minus",
+  "Updated": "2015-05-09T02:38:21.1670651+02:00",
+  "UpdatedBy": "ut",
+  "Path": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

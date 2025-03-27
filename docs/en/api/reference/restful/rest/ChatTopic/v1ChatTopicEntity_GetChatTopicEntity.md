@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 974,
-  "Name": "Fahey, Waters and Hickle",
-  "Description": "Digitized composite matrix",
-  "WelcomeMessage": "rerum",
+  "ChatTopicId": 919,
+  "Name": "Hettinger, Bechtelar and Koch",
+  "Description": "Persevering discrete complexity",
+  "WelcomeMessage": "quaerat",
   "Language": null,
-  "LastAccept": "2022-06-17T14:13:48.4445574+02:00",
-  "SecondsPrAccept": 164,
-  "AlertRecipient": "tenetur",
+  "LastAccept": "1999-07-12T02:38:25.9329544+02:00",
+  "SecondsPrAccept": 532,
+  "AlertRecipient": "harum",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "sit",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "beatae",
-  "WarnNewChatMinutes": 324,
-  "WarnManagerNewChatMinutes": 142,
-  "TicketEnabled": false,
+  "CollectConsent": false,
+  "BadgeHeader": "ducimus",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "expedita",
+  "WarnNewChatMinutes": 525,
+  "WarnManagerNewChatMinutes": 801,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 516,
-  "WarnManagerChatMessageMinutes": 146,
+  "WarnChatMessageMinutes": 19,
+  "WarnManagerChatMessageMinutes": 493,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 99,
-  "OfflineFormQueueLength": 279,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "voluptatum",
+  "OfflineFormTimeLimit": 472,
+  "OfflineFormQueueLength": 729,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 119
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

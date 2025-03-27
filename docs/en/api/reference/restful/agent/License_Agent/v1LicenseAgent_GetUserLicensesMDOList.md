@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 480,
-    "Name": "Lemke-Konopelski",
-    "ToolTip": "Est voluptatibus aut blanditiis.",
+    "Id": 706,
+    "Name": "Kuhlman-Gusikowski",
+    "ToolTip": "Corporis magnam nam sit suscipit qui.",
     "Deleted": false,
-    "Rank": 203,
-    "Type": "numquam",
-    "ColorBlock": 263,
-    "IconHint": "nesciunt",
-    "Selected": true,
-    "LastChanged": "2012-08-29T14:13:40.4066046+02:00",
+    "Rank": 743,
+    "Type": "odio",
+    "ColorBlock": 371,
+    "IconHint": "doloribus",
+    "Selected": false,
+    "LastChanged": "2014-02-07T02:38:21.4639053+01:00",
     "ChildItems": [
       {
-        "Id": 35,
-        "Name": "Grant, O'Keefe and Kshlerin",
-        "ToolTip": "Quidem unde.",
-        "Deleted": true,
-        "Rank": 570,
-        "Type": "eaque",
-        "ColorBlock": 27,
-        "IconHint": "ipsum",
+        "Id": 859,
+        "Name": "Sipes-Berge",
+        "ToolTip": "Ut consequuntur quas eum est et.",
+        "Deleted": false,
+        "Rank": 352,
+        "Type": "doloremque",
+        "ColorBlock": 816,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2005-09-25T14:13:40.4066046+02:00",
+        "LastChanged": "2023-04-03T02:38:21.4639053+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "aut",
+        "ExtraInfo": "et",
+        "StyleHint": "exercitationem",
         "Hidden": false,
-        "FullName": "Marianna Swaniawski",
+        "FullName": "Crystal Abbott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 922
+            "FieldLength": 917
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "nihil",
+    "ExtraInfo": "alias",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Keyon Metz",
+    "FullName": "Miss Leann Luther Lakin Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 974
       }
     }
   }

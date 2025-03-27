@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=incidunt
-GET /api/v1/Product?$top=550
-GET /api/v1/Product?$skip=952
+GET /api/v1/Product?$entities=quis
+GET /api/v1/Product?$top=186
+GET /api/v1/Product?$skip=767
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=recusandae
+GET /api/v1/Product?$context=distinctio
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "natus",
+  "odata.nextLink": "enim",
   "value": [
     {
-      "PrimaryKey": 9630,
-      "EntityName": "sale",
-      "saleId": 9630,
-      "contactId": 6167,
-      "name": "Larkin Inc and Sons"
+      "PrimaryKey": 8156,
+      "EntityName": "person",
+      "personId": 8156,
+      "fullName": "Lon Botsford"
     },
     {
-      "PrimaryKey": 6444,
-      "EntityName": "sale",
-      "saleId": 6444,
-      "contactId": 828,
-      "name": "Zemlak-Kuhlman"
+      "PrimaryKey": 554,
+      "EntityName": "person",
+      "personId": 554,
+      "fullName": "Dr. Eva Fanny Stracke"
     }
   ]
 }

@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 133
+  "Count": 548
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "occaecati",
-    "PersonId": 296,
-    "Mrmrs": "harum",
-    "Firstname": "Melody",
-    "Lastname": "Lebsack",
-    "MiddleName": "Sipes-Hayes",
-    "Title": "repellendus",
-    "Description": "Profit-focused contextually-based customer loyalty",
-    "Email": "magdalena@hermistonnicolas.biz",
-    "FullName": "Mr. Katelyn Bruen Jr.",
-    "DirectPhone": "(050)273-0267",
-    "FormalName": "Bahringer Inc and Sons",
-    "CountryId": 704,
-    "ContactId": 703,
-    "ContactName": "Pouros Inc and Sons",
-    "Retired": 705,
-    "Rank": 240,
-    "ActiveInterests": 782,
+    "Position": "natus",
+    "PersonId": 417,
+    "Mrmrs": "recusandae",
+    "Firstname": "Breana",
+    "Lastname": "Mueller",
+    "MiddleName": "Bashirian, Upton and D'Amore",
+    "Title": "qui",
+    "Description": "Networked fresh-thinking structure",
+    "Email": "ismael@watsica.ca",
+    "FullName": "Yasmin Goodwin",
+    "DirectPhone": "653-475-3876 x23440",
+    "FormalName": "Tremblay-Schinner",
+    "CountryId": 370,
+    "ContactId": 118,
+    "ContactName": "Schneider, Carter and Ryan",
+    "Retired": 461,
+    "Rank": 523,
+    "ActiveInterests": 800,
     "ContactDepartment": "",
-    "ContactCountryId": 407,
-    "ContactOrgNr": "1844067",
-    "FaxPhone": "1-896-561-2719 x178",
-    "MobilePhone": "1-452-488-8025 x8028",
-    "ContactPhone": "(218)558-1242 x526",
-    "AssociateName": "Schumm Inc and Sons",
-    "AssociateId": 979,
+    "ContactCountryId": 524,
+    "ContactOrgNr": "876786",
+    "FaxPhone": "1-311-034-4477 x5514",
+    "MobilePhone": "337.760.4197",
+    "ContactPhone": "1-485-477-9163 x3768",
+    "AssociateName": "Walsh LLC",
+    "AssociateId": 790,
     "UsePersonAddress": false,
-    "ContactFax": "tempore",
-    "Kanafname": "et",
-    "Kanalname": "qui",
-    "Post1": "sed",
-    "Post2": "a",
-    "Post3": "autem",
-    "EmailName": "alfonso@swift.biz",
-    "ContactFullName": "Bryon Hamill",
-    "ActiveErpLinks": 377,
-    "TicketPriorityId": 29,
-    "SupportLanguageId": 947,
-    "SupportAssociateId": 272,
+    "ContactFax": "qui",
+    "Kanafname": "molestias",
+    "Kanalname": "quibusdam",
+    "Post1": "sunt",
+    "Post2": "omnis",
+    "Post3": "possimus",
+    "EmailName": "audrey.stehr@vonruedenborer.co.uk",
+    "ContactFullName": "Dr. Norval Schroeder",
+    "ActiveErpLinks": 82,
+    "TicketPriorityId": 589,
+    "SupportLanguageId": 626,
+    "SupportAssociateId": 187,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1382214",
+    "PersonNumber": "1665659",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 427
       }
     }
   }

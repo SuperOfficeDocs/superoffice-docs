@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 275,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "UdListDefinitionId": 341,
-  "Rank": 532,
+  "Id": 520,
+  "Name": "Padberg Inc and Sons",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 675,
+  "Rank": 317,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 646
     }
   }
 }

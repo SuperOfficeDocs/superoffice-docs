@@ -71,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AreaId": 131,
+  "AreaId": 942,
   "FreetextEnabled": true
 }
 ```

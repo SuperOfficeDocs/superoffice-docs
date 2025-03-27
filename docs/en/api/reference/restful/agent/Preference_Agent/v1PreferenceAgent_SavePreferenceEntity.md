@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "enim",
+  "RawValue": "perspiciatis",
   "Specification": null,
-  "DisplayValue": "omnis",
-  "DisplayTooltip": "unde",
+  "DisplayValue": "quibusdam",
+  "DisplayTooltip": "sunt",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 6,
-  "PrefDescId": 513,
-  "TableName": "Block LLC",
-  "UserPreferenceId": 448,
+  "TargetId": 421,
+  "PrefDescId": 600,
+  "TableName": "Beer, Kshlerin and McLaughlin",
+  "UserPreferenceId": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 115
     }
   }
 }

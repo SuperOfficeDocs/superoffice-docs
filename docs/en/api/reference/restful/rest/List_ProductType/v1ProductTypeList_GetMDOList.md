@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=True
-GET /api/v1/List/ProductType/MDOItems?query=aut
+GET /api/v1/List/ProductType/MDOItems?flat=False
+GET /api/v1/List/ProductType/MDOItems?query=autem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 882,
-    "Name": "Roberts-Jerde",
-    "ToolTip": "Reiciendis eos assumenda.",
-    "Deleted": true,
-    "Rank": 162,
-    "Type": "corporis",
+    "Id": 598,
+    "Name": "Kris, Carter and Balistreri",
+    "ToolTip": "Aut minus neque sed autem et neque maiores.",
+    "Deleted": false,
+    "Rank": 933,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Glover-Schulist",
-        "ToolTip": "Facilis consequatur voluptatem.",
-        "Deleted": true,
-        "Rank": 182,
-        "Type": "exercitationem",
+        "Id": 471,
+        "Name": "Nicolas Group",
+        "ToolTip": "Ipsam doloremque error ab iusto autem.",
+        "Deleted": false,
+        "Rank": 362,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nesciunt",
-        "ColorBlock": 682,
-        "ExtraInfo": "est",
-        "StyleHint": "ut",
-        "FullName": "Evelyn Runolfsson",
+        "IconHint": "fuga",
+        "ColorBlock": 508,
+        "ExtraInfo": "ullam",
+        "StyleHint": "adipisci",
+        "FullName": "Giovani Britney Feeney II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldLength": 242
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 763,
-    "ExtraInfo": "mollitia",
-    "StyleHint": "quo",
-    "FullName": "Caden Macie Doyle Jr.",
+    "IconHint": "sint",
+    "ColorBlock": 937,
+    "ExtraInfo": "amet",
+    "StyleHint": "voluptatem",
+    "FullName": "Fleta Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 347,
-  "AssociateId": 676,
-  "Caption": "eius",
+  "DashboardId": 429,
+  "AssociateId": 277,
+  "Caption": "illum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 451,
-      "Caption": "tempore",
-      "Description": "User-centric multimedia model",
-      "ChartName": "Barton, Brakus and Wisozk",
-      "ChartId": "fugiat",
-      "IsDefault": false,
-      "AssociateId": 210,
-      "GroupId": 134,
-      "SelectionId": 53,
-      "Config": "possimus",
+      "DashboardTileId": 549,
+      "Caption": "placeat",
+      "Description": "Enhanced motivating function",
+      "ChartName": "Schmeler Group",
+      "ChartId": "et",
+      "IsDefault": true,
+      "AssociateId": 449,
+      "GroupId": 778,
+      "SelectionId": 52,
+      "Config": "omnis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1002
+          "FieldLength": 511
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 368
     }
   }
 }

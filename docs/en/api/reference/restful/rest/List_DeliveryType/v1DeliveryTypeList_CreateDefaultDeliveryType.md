@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 690,
-  "Name": "Lindgren, Klocko and Kerluke",
-  "Tooltip": "voluptatem",
+  "Id": 429,
+  "Name": "Kiehn-Gleichner",
+  "Tooltip": "esse",
   "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 909,
+  "UdListDefinitionId": 962,
+  "Rank": 336,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 203
     }
   }
 }

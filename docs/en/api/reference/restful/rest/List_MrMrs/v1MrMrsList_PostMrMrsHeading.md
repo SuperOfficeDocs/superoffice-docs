@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 483,
-  "Name": "Rosenbaum Inc and Sons",
-  "Tooltip": "numquam",
+  "HeadingId": 745,
+  "Name": "Shanahan, Schamberger and Willms",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 702,
-  "UdListDefinitionId": 531
+  "Rank": 101,
+  "UdListDefinitionId": 963
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 247,
-  "Name": "Altenwerth Group",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 983,
-  "UdListDefinitionId": 170,
+  "HeadingId": 923,
+  "Name": "Klein LLC",
+  "Tooltip": "explicabo",
+  "Deleted": false,
+  "Rank": 205,
+  "UdListDefinitionId": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 915
     }
   }
 }

@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 512,
-    "Name": "Osinski Inc and Sons",
-    "Tooltip": "et",
-    "SaveInDb": 221,
-    "Filename": "veniam",
-    "DefaultOref": "dolore",
+    "DocumentTemplateId": 446,
+    "Name": "Kuhlman-Schuster",
+    "Tooltip": "vel",
+    "SaveInDb": 797,
+    "Filename": "numquam",
+    "DefaultOref": "voluptas",
     "RecordType": "Appointment",
-    "Deleted": true,
+    "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 567,
-    "IntentId": 233,
-    "IsDefaultPublished": false,
-    "Rank": 522,
-    "LoadTemplateFromPlugin": 687,
-    "MimeType": "iste",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 88,
+    "AutoeventId": 76,
+    "IntentId": 934,
+    "IsDefaultPublished": true,
+    "Rank": 405,
+    "LoadTemplateFromPlugin": 351,
+    "MimeType": "asperiores",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 22,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "floy_nader@stamm.ca",
-    "IncludeSignature": false,
+    "EmailSubject": "giovanna@bergnaum.uk",
+    "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "haskell@kozey.info",
+    "SenderEmailAddress": "caden.boyer@klocko.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldLength": 343
       }
     }
   }

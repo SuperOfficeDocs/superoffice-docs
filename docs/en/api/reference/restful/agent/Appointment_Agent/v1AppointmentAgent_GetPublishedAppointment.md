@@ -125,11 +125,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 717
+  "AppointmentId": 31
 }
 ```
 
@@ -140,65 +140,65 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 838,
-  "StartDate": "2007-01-18T14:13:38.9693251+01:00",
-  "EndDate": "2020-10-02T14:13:38.9693251+02:00",
+  "AppointmentId": 832,
+  "StartDate": "2002-05-19T02:38:20.557605+02:00",
+  "EndDate": "2011-02-21T02:38:20.557605+01:00",
   "Type": "BookingForChecklist",
-  "Task": "neque",
-  "AssociateFullName": "Prof. Amely Francesca Parker",
-  "ContactName": "Harvey Group",
-  "Description": "Re-engineered impactful approach",
-  "PersonFullName": "Dr. Chaya Lindsey Herman DDS",
-  "PersonId": 573,
-  "ContactId": 816,
-  "ProjectId": 632,
-  "ProjectName": "Hermiston Inc and Sons",
-  "IsPublished": false,
-  "AssociateId": 821,
-  "ColorIndex": 710,
+  "Task": "minus",
+  "AssociateFullName": "Ms. Rozella Freeman Casper MD",
+  "ContactName": "Ondricka-Hoppe",
+  "Description": "Future-proofed assymetric artificial intelligence",
+  "PersonFullName": "Russel Abshire",
+  "PersonId": 629,
+  "ContactId": 99,
+  "ProjectId": 665,
+  "ProjectName": "Erdman, Walker and Schoen",
+  "IsPublished": true,
+  "AssociateId": 844,
+  "ColorIndex": 509,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 139,
-  "PriorityName": "Wilderman-Grimes",
+  "PriorityId": 600,
+  "PriorityName": "Walter Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2006-04-21T14:13:38.9693251+02:00",
+  "ActiveDate": "2015-01-20T02:38:20.557605+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2009-04-16T14:13:38.9693251+02:00",
-  "RecurringEndDate": "2001-08-28T14:13:38.9693251+02:00",
-  "MotherId": 213,
-  "AssignedBy": 454,
-  "AssignedByFullName": "Chance Romaguera",
+  "RecurringStartDate": "2011-12-24T02:38:20.557605+01:00",
+  "RecurringEndDate": "2016-04-09T02:38:20.557605+02:00",
+  "MotherId": 266,
+  "AssignedBy": 204,
+  "AssignedByFullName": "Eden Strosin",
   "RejectReason": "",
-  "Location": "molestiae",
-  "AlarmLeadTime": "libero",
-  "SaleId": 269,
-  "SaleName": "Roob LLC",
-  "AssociateName": "Klein, Windler and Schamberger",
-  "CreatedDate": "2018-10-02T14:13:38.9693251+02:00",
-  "CreatedBy": "et",
-  "CreatedByFullName": "Brown Kautzer",
-  "CreatedByAssociateId": 245,
+  "Location": "porro",
+  "AlarmLeadTime": "expedita",
+  "SaleId": 430,
+  "SaleName": "Pfeffer, Kertzmann and Hayes",
+  "AssociateName": "O'Keefe LLC",
+  "CreatedDate": "2009-05-14T02:38:20.557605+02:00",
+  "CreatedBy": "quia",
+  "CreatedByFullName": "Thelma Bednar",
+  "CreatedByAssociateId": 372,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 609,
-  "Title": "eveniet",
-  "Agenda": "ex",
-  "InternalNotes": "est",
+  "PreferredTZLocation": 577,
+  "Title": "quia",
+  "Agenda": "dolorem",
+  "InternalNotes": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

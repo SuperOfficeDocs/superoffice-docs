@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,50 +83,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Schaefer-Hamill",
-    "ToolTip": "Voluptate vel magni enim ut.",
+    "Id": 677,
+    "Name": "Thompson LLC",
+    "ToolTip": "Sequi tenetur commodi magni eaque quia illum est.",
     "Deleted": false,
-    "Rank": 982,
-    "Type": "cum",
+    "Rank": 401,
+    "Type": "commodi",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Turner Inc and Sons",
-        "ToolTip": "Corrupti et sunt.",
+        "Id": 368,
+        "Name": "Welch-Kunde",
+        "ToolTip": "Quam iusto sint aperiam.",
         "Deleted": false,
-        "Rank": 419,
-        "Type": "dolorem",
+        "Rank": 629,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "unde",
-        "ColorBlock": 469,
-        "ExtraInfo": "quaerat",
-        "StyleHint": "minus",
-        "FullName": "Lula Davis",
+        "IconHint": "ullam",
+        "ColorBlock": 490,
+        "ExtraInfo": "beatae",
+        "StyleHint": "aut",
+        "FullName": "Eldon Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 772
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 222,
-    "ExtraInfo": "sint",
-    "StyleHint": "et",
-    "FullName": "Walter Schmitt",
+    "IconHint": "reiciendis",
+    "ColorBlock": 11,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "dolores",
+    "FullName": "Jaylin Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 448
       }
     }
   }

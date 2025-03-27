@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 236,
-  "Name": "Daugherty, Abshire and Kuphal",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "UdListDefinitionId": 779,
-  "Rank": 725
+  "Id": 426,
+  "Name": "Roberts-Klocko",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 415,
+  "Rank": 636
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452,
-  "Name": "Buckridge Group",
-  "Tooltip": "error",
+  "Id": 633,
+  "Name": "Krajcik-Wiegand",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 345,
-  "Rank": 478,
+  "UdListDefinitionId": 107,
+  "Rank": 452,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 755
+      "FieldType": "System.Int32",
+      "FieldLength": 377
     }
   }
 }

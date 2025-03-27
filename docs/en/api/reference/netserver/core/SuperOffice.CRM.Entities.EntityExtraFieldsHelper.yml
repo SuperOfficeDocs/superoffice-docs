@@ -248,7 +248,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static ValueTuple<string, string> GetExtraInfo(string fieldname, TableInfo table, object value)
+    content: public static ValueTuple<string, string, bool> GetExtraInfo(string fieldname, TableInfo table, object value)
     parameters:
     - id: fieldname
       type: System.String
@@ -257,8 +257,8 @@ items:
     - id: value
       type: System.Object
     return:
-      type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As ValueTuple(Of String, String)
+      type: System.ValueTuple{System.String,System.String,System.Boolean}
+    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As ValueTuple(Of String, String, Boolean)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
   modifiers.csharp:
   - public
@@ -284,13 +284,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public ValueTuple<string, string> GetExtraInfo(string fieldname)
+    content: public ValueTuple<string, string, bool> GetExtraInfo(string fieldname)
     parameters:
     - id: fieldname
       type: System.String
     return:
-      type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Function GetExtraInfo(fieldname As String) As ValueTuple(Of String, String)
+      type: System.ValueTuple{System.String,System.String,System.Boolean}
+    content.vb: Public Function GetExtraInfo(fieldname As String) As ValueTuple(Of String, String, Boolean)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
   modifiers.csharp:
   - public
@@ -724,17 +724,17 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
-- uid: System.ValueTuple{System.String,System.String}
-  commentId: '!:System.ValueTuple{System.String,System.String}'
-  definition: System.ValueTuple`2
-  name: ValueTuple<String, String>
-  nameWithType: ValueTuple<String, String>
-  fullName: System.ValueTuple<System.String, System.String>
-  nameWithType.vb: ValueTuple(Of String, String)
-  fullName.vb: System.ValueTuple(Of System.String, System.String)
-  name.vb: ValueTuple(Of String, String)
+- uid: System.ValueTuple{System.String,System.String,System.Boolean}
+  commentId: '!:System.ValueTuple{System.String,System.String,System.Boolean}'
+  definition: System.ValueTuple`3
+  name: ValueTuple<String, String, Boolean>
+  nameWithType: ValueTuple<String, String, Boolean>
+  fullName: System.ValueTuple<System.String, System.String, System.Boolean>
+  nameWithType.vb: ValueTuple(Of String, String, Boolean)
+  fullName.vb: System.ValueTuple(Of System.String, System.String, System.Boolean)
+  name.vb: ValueTuple(Of String, String, Boolean)
   spec.csharp:
-  - uid: System.ValueTuple`2
+  - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
     fullName: System.ValueTuple
@@ -755,11 +755,19 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.ValueTuple`2
+  - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
     fullName: System.ValueTuple
@@ -779,6 +787,14 @@ references:
     name: String
     nameWithType: String
     fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -789,16 +805,16 @@ references:
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-- uid: System.ValueTuple`2
+- uid: System.ValueTuple`3
   isExternal: true
-  name: ValueTuple<, >
-  nameWithType: ValueTuple<, >
-  fullName: System.ValueTuple<, >
-  nameWithType.vb: ValueTuple(Of , )
-  fullName.vb: System.ValueTuple(Of , )
-  name.vb: ValueTuple(Of , )
+  name: ValueTuple<, , >
+  nameWithType: ValueTuple<, , >
+  fullName: System.ValueTuple<, , >
+  nameWithType.vb: ValueTuple(Of , , )
+  fullName.vb: System.ValueTuple(Of , , )
+  name.vb: ValueTuple(Of , , )
   spec.csharp:
-  - uid: System.ValueTuple`2
+  - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
     fullName: System.ValueTuple
@@ -815,11 +831,17 @@ references:
   - name: ''
     nameWithType: ''
     fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.ValueTuple`2
+  - uid: System.ValueTuple`3
     name: ValueTuple
     nameWithType: ValueTuple
     fullName: System.ValueTuple
@@ -827,6 +849,12 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: ''
     nameWithType: ''
     fullName: ''

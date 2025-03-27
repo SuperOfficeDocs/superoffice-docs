@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 668,
-  "ERPPriceListKey": "ab",
-  "QuoteConnectionId": 461,
-  "Name": "Muller, Rippin and Harris",
-  "Description": "Multi-lateral 24 hour neural-net",
-  "Currency": "provident",
-  "CurrencyName": "Murazik Inc and Sons",
-  "ValidFrom": "2023-09-12T14:13:50.0562893+02:00",
-  "ValidTo": "1998-08-17T14:13:50.0562893+02:00",
-  "IsActive": true
+  "PriceListId": 799,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 337,
+  "Name": "Turner-Bogisich",
+  "Description": "Managed 24/7 project",
+  "Currency": "facilis",
+  "CurrencyName": "Stokes, Mueller and Goldner",
+  "ValidFrom": "2024-10-20T02:38:26.8236417+02:00",
+  "ValidTo": "2023-03-06T02:38:26.8236417+01:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 211,
-  "ERPPriceListKey": "qui",
-  "QuoteConnectionId": 139,
-  "Name": "Romaguera Inc and Sons",
-  "Description": "Compatible next generation collaboration",
-  "Currency": "illo",
-  "CurrencyName": "Wehner LLC",
-  "ValidFrom": "2023-06-19T14:13:50.0562893+02:00",
-  "ValidTo": "2021-02-06T14:13:50.0562893+01:00",
+  "PriceListId": 423,
+  "ERPPriceListKey": "nihil",
+  "QuoteConnectionId": 321,
+  "Name": "Dooley-Kuhn",
+  "Description": "Horizontal local approach",
+  "Currency": "doloremque",
+  "CurrencyName": "Dicki Inc and Sons",
+  "ValidFrom": "2020-01-17T02:38:26.8236417+01:00",
+  "ValidTo": "2003-07-04T02:38:26.8236417+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldType": "System.String",
+      "FieldLength": 411
     }
   },
   "_Links": {

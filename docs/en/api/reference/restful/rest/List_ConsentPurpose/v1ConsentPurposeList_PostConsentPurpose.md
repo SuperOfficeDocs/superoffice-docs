@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 332,
-  "Name": "Herzog, Mohr and Roob",
-  "ConsentText": "eum",
-  "FormText": "error",
-  "Key": "odio",
-  "Tooltip": "aut",
-  "Active": 475,
-  "UpdatedDate": "2022-01-19T14:13:49.696121+01:00",
+  "ConsentPurposeId": 936,
+  "Name": "Kling, Cremin and Blick",
+  "ConsentText": "ipsa",
+  "FormText": "provident",
+  "Key": "deserunt",
+  "Tooltip": "iusto",
+  "Active": 894,
+  "UpdatedDate": "2006-05-06T02:38:26.6986493+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 688,
-  "PrivacyStatementDesc": "ut",
+  "Deleted": false,
+  "Rank": 632,
+  "PrivacyStatementDesc": "eos",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 363,
-  "Name": "Krajcik, Cummings and Hand",
+  "ConsentPurposeId": 520,
+  "Name": "Barton-Rowe",
   "ConsentText": "dolores",
-  "FormText": "est",
-  "Key": "soluta",
-  "Tooltip": "quia",
-  "Active": 534,
-  "UpdatedDate": "2024-10-22T14:13:49.696121+02:00",
+  "FormText": "dicta",
+  "Key": "omnis",
+  "Tooltip": "modi",
+  "Active": 30,
+  "UpdatedDate": "2000-05-18T02:38:26.6986493+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 230,
-  "PrivacyStatementDesc": "cumque",
+  "Deleted": false,
+  "Rank": 591,
+  "PrivacyStatementDesc": "facilis",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 993
+      "FieldLength": 315
     }
   }
 }

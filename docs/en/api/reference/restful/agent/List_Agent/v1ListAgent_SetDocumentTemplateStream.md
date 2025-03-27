@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "et",
-  "PluginId": 811
+  "LanguageCode": "quasi",
+  "PluginId": 409
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 891,
-  "Name": "Steuber-Padberg",
-  "Tooltip": "excepturi",
-  "SaveInDb": 759,
-  "Filename": "voluptatem",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 331,
+  "Name": "Langosh Group",
+  "Tooltip": "necessitatibus",
+  "SaveInDb": 91,
+  "Filename": "et",
+  "DefaultOref": "nam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 984,
-  "IntentId": 358,
-  "IsDefaultPublished": true,
-  "Rank": 763,
-  "LoadTemplateFromPlugin": 45,
-  "MimeType": "consequatur",
+  "AutoeventId": 772,
+  "IntentId": 659,
+  "IsDefaultPublished": false,
+  "Rank": 862,
+  "LoadTemplateFromPlugin": 15,
+  "MimeType": "molestiae",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 17,
+  "DocumentTypeKey": 473,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "velda_deckow@grant.biz",
+  "EmailSubject": "tomasa@leschveum.name",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "mattie@mullerreichel.info",
+  "SenderEmailAddress": "michale.christiansen@little.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

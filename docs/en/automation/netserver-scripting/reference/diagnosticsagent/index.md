@@ -20,6 +20,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [CollectWinUsage](collectwinusage.md)
 * [FlushCaches](flushcaches.md)
 * [FlushCachesByName](flushcachesbyname.md)
+* [GetCacheInvalidationGenerations](getcacheinvalidationgenerations.md)
 * [GetCacheNames](getcachenames.md)
 * [GetCacheState](getcachestate.md)
 * [GetEntityCountsForAllUsers](getentitycountsforallusers.md)

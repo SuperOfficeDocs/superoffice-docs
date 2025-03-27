@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 565,
-  "Created": "2021-12-23T14:13:41.1408128+01:00",
+  "SatelliteId": 624,
+  "Created": "2004-12-10T02:38:21.7919947+01:00",
   "CreatedBy": null,
-  "Updated": "2023-01-05T14:13:41.1408128+01:00",
+  "Updated": "2018-07-24T02:38:21.7919947+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Sporer Inc and Sons",
-      "Description": "Team-oriented 6th generation instruction set",
+      "Name": "Hills-Ondricka",
+      "Description": "Expanded motivating implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     },
     {
-      "Name": "Sporer Inc and Sons",
-      "Description": "Team-oriented 6th generation instruction set",
+      "Name": "Hills-Ondricka",
+      "Description": "Expanded motivating implementation",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

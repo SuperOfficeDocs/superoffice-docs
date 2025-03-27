@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Connell-Jacobi",
-  "DeviceName": "Hoppe LLC",
-  "DeviceIdentifier": "adipisci",
-  "KeyName": "White-McClure",
-  "TableName": "Jones Inc and Sons",
-  "RecordId": 593
+  "ApplicationName": "Doyle, McLaughlin and Hagenes",
+  "DeviceName": "Lowe Group",
+  "DeviceIdentifier": "unde",
+  "KeyName": "Jewess, Quitzon and Wisoky",
+  "TableName": "Kozey-Berge",
+  "RecordId": 139
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "velit",
-  "Value": "et",
-  "RecordId": 634,
-  "CreatedDate": "2009-03-13T14:13:40.3909833+01:00",
-  "UpdatedDate": "2016-02-04T14:13:40.3909833+01:00",
-  "UpdatedBy": "ducimus",
-  "CreatedBy": "fuga",
-  "TableName": "Herman-Corwin",
+  "Key": "dolorem",
+  "Value": "ex",
+  "RecordId": 279,
+  "CreatedDate": "2004-12-25T02:38:21.4639053+01:00",
+  "UpdatedDate": "2015-03-31T02:38:21.4639053+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "commodi",
+  "TableName": "Wiegand, Braun and Hilll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

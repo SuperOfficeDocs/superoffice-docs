@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 991
+  "ProjectId": 322
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "rem",
-    "PersonId": 207,
-    "Mrmrs": "dolores",
-    "Firstname": "Claudine",
-    "Lastname": "Miller",
-    "MiddleName": "Batz Inc and Sons",
-    "Title": "nemo",
-    "Description": "Grass-roots needs-based data-warehouse",
-    "Email": "ashleigh_fay@kuhlman.biz",
-    "FullName": "Kiel Lehner",
-    "DirectPhone": "1-710-164-1115 x399",
-    "FormalName": "Bergnaum, Crist and Langworth",
-    "CountryId": 351,
-    "ContactId": 714,
-    "ContactName": "Senger, Ankunding and Crist",
-    "Retired": 940,
-    "Rank": 652,
-    "ActiveInterests": 478,
+    "Position": "est",
+    "PersonId": 736,
+    "Mrmrs": "cumque",
+    "Firstname": "Jennie",
+    "Lastname": "Ledner",
+    "MiddleName": "Muller, Baumbach and Skiles",
+    "Title": "blanditiis",
+    "Description": "Persevering next generation ability",
+    "Email": "florian_block@jerde.com",
+    "FullName": "Leola Simonis",
+    "DirectPhone": "059.745.0882",
+    "FormalName": "Emmerich-Durgan",
+    "CountryId": 290,
+    "ContactId": 46,
+    "ContactName": "Gusikowski, Ziemann and Aufderhar",
+    "Retired": 412,
+    "Rank": 371,
+    "ActiveInterests": 958,
     "ContactDepartment": "",
-    "ContactCountryId": 785,
-    "ContactOrgNr": "93403",
-    "FaxPhone": "(448)581-7316",
-    "MobilePhone": "1-080-539-9875",
-    "ContactPhone": "355-511-9464",
-    "AssociateName": "Sanford, Heaney and Hane",
-    "AssociateId": 612,
-    "UsePersonAddress": false,
-    "ContactFax": "nihil",
-    "Kanafname": "ipsa",
-    "Kanalname": "voluptatem",
-    "Post1": "accusamus",
-    "Post2": "omnis",
-    "Post3": "inventore",
-    "EmailName": "harold@schuster.name",
-    "ContactFullName": "Clara Wiza",
-    "ActiveErpLinks": 833,
-    "TicketPriorityId": 982,
-    "SupportLanguageId": 832,
-    "SupportAssociateId": 228,
+    "ContactCountryId": 995,
+    "ContactOrgNr": "772139",
+    "FaxPhone": "(482)909-0341 x06899",
+    "MobilePhone": "037.514.5455",
+    "ContactPhone": "1-755-336-1247 x79486",
+    "AssociateName": "Schultz, Feeney and Walker",
+    "AssociateId": 290,
+    "UsePersonAddress": true,
+    "ContactFax": "eum",
+    "Kanafname": "incidunt",
+    "Kanalname": "autem",
+    "Post1": "impedit",
+    "Post2": "atque",
+    "Post3": "et",
+    "EmailName": "jackie.bode@littlegrimes.name",
+    "ContactFullName": "Daija Aufderhar",
+    "ActiveErpLinks": 173,
+    "TicketPriorityId": 185,
+    "SupportLanguageId": 604,
+    "SupportAssociateId": 287,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "282504",
+    "PersonNumber": "1080336",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 964
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

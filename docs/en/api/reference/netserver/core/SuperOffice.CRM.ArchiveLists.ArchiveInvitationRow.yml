@@ -72,6 +72,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveActivityRow.VisibleFor
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddParent(System.String,System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  - SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn(System.String,System.Int32)
@@ -762,6 +763,63 @@ references:
     name: AddOverlappingColumn
     nameWithType: ArchiveRow.AddOverlappingColumn
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  isExternal: true
+  name: OverwriteColumn(String, ArchiveColumnData)
+  nameWithType: ArchiveRow.OverwriteColumn(String, ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: OverwriteColumn
+    nameWithType: ArchiveRow.OverwriteColumn
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: OverwriteColumn
+    nameWithType: ArchiveRow.OverwriteColumn
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn
     isExternal: true
   - name: (
     nameWithType: (

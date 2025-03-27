@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Price-Nader",
-    "ToolTip": "Sit mollitia unde officia dolor consectetur.",
+    "Id": 65,
+    "Name": "Murazik Inc and Sons",
+    "ToolTip": "Error asperiores.",
     "Deleted": false,
-    "Rank": 94,
-    "Type": "laborum",
-    "ColorBlock": 31,
-    "IconHint": "nihil",
+    "Rank": 8,
+    "Type": "sit",
+    "ColorBlock": 575,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2011-02-07T14:13:50.1812638+01:00",
+    "LastChanged": "2006-05-03T02:38:26.9017511+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Okuneva Group",
-        "ToolTip": "Fugit vero ratione aut alias voluptas labore.",
-        "Deleted": true,
-        "Rank": 699,
-        "Type": "sint",
-        "ColorBlock": 887,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2005-07-24T14:13:50.1812638+02:00",
+        "Id": 766,
+        "Name": "Funk-Hagenes",
+        "ToolTip": "Necessitatibus consectetur accusantium laudantium sapiente sunt id.",
+        "Deleted": false,
+        "Rank": 22,
+        "Type": "molestiae",
+        "ColorBlock": 409,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2017-11-10T02:38:26.9017511+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "et",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Dr. Ceasar Amely Schowalter V",
+        "FullName": "Willis Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldLength": 14
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "ad",
-    "Hidden": false,
-    "FullName": "Sandy Russel",
+    "ExtraInfo": "expedita",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Savannah Jenkins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 684
+        "FieldType": "System.Int32",
+        "FieldLength": 27
       }
     }
   }

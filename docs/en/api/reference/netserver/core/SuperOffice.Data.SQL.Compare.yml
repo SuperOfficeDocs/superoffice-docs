@@ -43,6 +43,7 @@ items:
   - SuperOffice.Data.SQL.Equal
   - SuperOffice.Data.SQL.GreaterThan
   - SuperOffice.Data.SQL.GreaterThanOrEqual
+  - SuperOffice.Data.SQL.HasFlag
   - SuperOffice.Data.SQL.LessThan
   - SuperOffice.Data.SQL.LessThanOrEqual
   - SuperOffice.Data.SQL.Like

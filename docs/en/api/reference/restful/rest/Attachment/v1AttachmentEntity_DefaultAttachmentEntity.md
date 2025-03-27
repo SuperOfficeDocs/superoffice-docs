@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 642,
-  "Name": "Raynor LLC",
-  "ContentType": "veniam",
-  "AttSize": 192,
-  "InlineImage": false,
-  "ContentId": "nisi",
-  "AuthKey": "quod",
+  "AttachmentId": 64,
+  "Name": "Kutch, Marks and Schroeder",
+  "ContentType": "et",
+  "AttSize": 580,
+  "InlineImage": true,
+  "ContentId": "animi",
+  "AuthKey": "inventore",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 79
     }
   }
 }

@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 832,
-    "FieldName": "Ziemann, Murphy and Mante",
-    "Label": "voluptas",
-    "Tooltip": "possimus",
+    "QuoteLineConfigurationId": 334,
+    "FieldName": "Jerde-Kozey",
+    "Label": "odio",
+    "Tooltip": "accusantium",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 20,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 246,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldType": "System.String",
+        "FieldLength": 420
       }
     }
   }

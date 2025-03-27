@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 978,
-  "Currency": "et"
+  "QuoteConnectionId": 35,
+  "Currency": "quibusdam"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 949,
-    "ERPPriceListKey": "eius",
-    "QuoteConnectionId": 618,
-    "Name": "Sanford-Ritchie",
-    "Description": "Polarised regional local area network",
-    "Currency": "quisquam",
-    "CurrencyName": "Treutel, Langosh and Collins",
-    "ValidFrom": "2014-10-18T14:13:41.1095702+02:00",
-    "ValidTo": "2009-11-01T14:13:41.1095702+01:00",
+    "PriceListId": 109,
+    "ERPPriceListKey": "eum",
+    "QuoteConnectionId": 889,
+    "Name": "Dietrich-Hermiston",
+    "Description": "Cloned system-worthy conglomeration",
+    "Currency": "quis",
+    "CurrencyName": "Bruen-Armstrong",
+    "ValidFrom": "2006-10-02T02:38:21.7763357+02:00",
+    "ValidTo": "2024-03-20T02:38:21.7763357+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 50
+        "FieldType": "System.Int32",
+        "FieldLength": 76
       }
     }
   }

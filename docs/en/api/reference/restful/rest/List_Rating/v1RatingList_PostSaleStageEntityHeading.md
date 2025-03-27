@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 925,
-  "Name": "Murray-Brown",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 823,
-  "UdListDefinitionId": 598
+  "HeadingId": 351,
+  "Name": "Rippin Group",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "Rank": 979,
+  "UdListDefinitionId": 354
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 16,
-  "Name": "Beatty-Buckridge",
-  "Tooltip": "id",
+  "HeadingId": 950,
+  "Name": "Franecki, Zulauf and Brown",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 524,
-  "UdListDefinitionId": 757,
+  "Rank": 966,
+  "UdListDefinitionId": 815,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 812
     }
   }
 }

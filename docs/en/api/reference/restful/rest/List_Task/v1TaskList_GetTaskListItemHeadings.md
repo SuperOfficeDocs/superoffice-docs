@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 704,
-    "Name": "Rempel-Lang",
-    "Tooltip": "omnis",
+    "HeadingId": 79,
+    "Name": "Thiel Inc and Sons",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 984,
+    "Rank": 751,
+    "UdListDefinitionId": 168,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 726
       }
     }
   }

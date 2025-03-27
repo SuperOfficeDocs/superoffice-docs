@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 167,
-  "Name": "Dibbert, Orn and Strosin",
-  "Tooltip": "asperiores",
-  "Rank": 519,
-  "Rate": 18133.324,
-  "Units": 28083.773999999998,
+  "CurrencyId": 630,
+  "Name": "Moore-Hagenes",
+  "Tooltip": "nulla",
+  "Rank": 300,
+  "Rate": 30293.244,
+  "Units": 1977.5539999999999,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldType": "System.String",
+      "FieldLength": 559
     }
   }
 }

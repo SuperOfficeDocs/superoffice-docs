@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2006-07-03T14:13:41.3445898+02:00",
+  "When": "2003-01-25T02:38:21.9951006+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "nemo",
-      "ValueChangeFrom": 9743.606,
-      "ValueChangeTo": 24166.273999999998,
+      "FieldIdentifier": "voluptas",
+      "ValueChangeFrom": 22436.306,
+      "ValueChangeTo": 15447.485999999999,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     },
     {
-      "FieldIdentifier": "nemo",
-      "ValueChangeFrom": 9743.606,
-      "ValueChangeTo": 24166.273999999998,
+      "FieldIdentifier": "voluptas",
+      "ValueChangeFrom": 22436.306,
+      "ValueChangeTo": 15447.485999999999,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldType": "System.String",
+          "FieldLength": 16
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

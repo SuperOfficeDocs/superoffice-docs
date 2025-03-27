@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 347,
-  "Name": "O'Conner Group",
-  "Description": "Enterprise-wide homogeneous middleware",
+  "ReportLabelLayoutId": 792,
+  "Name": "Lang, Bahringer and Heaney",
+  "Description": "Cloned well-modulated migration",
   "Orientation": "Landscape",
-  "PaperWidth": 520,
-  "PaperHeight": 451,
-  "LeftMargin": 895,
-  "RightMargin": 122,
-  "TopMargin": 591,
-  "BottomMargin": 617,
-  "CountColumns": 339,
-  "CountRows": 926,
+  "PaperWidth": 157,
+  "PaperHeight": 246,
+  "LeftMargin": 658,
+  "RightMargin": 107,
+  "TopMargin": 178,
+  "BottomMargin": 938,
+  "CountColumns": 625,
+  "CountRows": 444,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 447
     }
   }
 }

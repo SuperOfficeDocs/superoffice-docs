@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Rosenbaum-King",
-      "EntityOrParentId": 395,
+      "EntityName": "Swift Inc and Sons",
+      "EntityOrParentId": 168,
       "RequestForNewRecord": true
     },
     {
-      "EntityName": "Rosenbaum-King",
-      "EntityOrParentId": 395,
+      "EntityName": "Swift Inc and Sons",
+      "EntityOrParentId": 168,
       "RequestForNewRecord": true
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 953,
-    "Id": 910,
-    "HistoryName": "Heaney LLC",
-    "HistoryId": 5,
-    "AssociateId": 316,
-    "Name": "Rice-Nicolas",
-    "ItemInfo": "id",
+    "Rank": 310,
+    "Id": 649,
+    "HistoryName": "Parisian Inc and Sons",
+    "HistoryId": 421,
+    "AssociateId": 145,
+    "Name": "Haag-Keeling",
+    "ItemInfo": "explicabo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldType": "System.String",
+        "FieldLength": 828
       }
     }
   }

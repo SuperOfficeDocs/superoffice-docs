@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Quote/GetProductImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 981,
-  "ERPProductKey": "unde",
-  "Rank": 476
+  "QuoteConnectionId": 11,
+  "ERPProductKey": "et",
+  "Rank": 304
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"distinctio"
+"esse"
 ```

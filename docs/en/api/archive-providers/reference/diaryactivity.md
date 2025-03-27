@@ -758,7 +758,7 @@ Activity archive provider for the Diary (checklist)
 ## Sample
 
 ```http!
-GET /api/v1/archive/DiaryActivity?$select=updatedBy,contact/email/emailId,contact/contactAssociate/usergroup,contact/contactAssociate/assocName,contact/NumberOfSalesInPeriod
+GET /api/v1/archive/DiaryActivity?$select=keywords,documentPublish/publishedTo,person/personHasInterests,person/email/emailDescription,person/correspondingAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

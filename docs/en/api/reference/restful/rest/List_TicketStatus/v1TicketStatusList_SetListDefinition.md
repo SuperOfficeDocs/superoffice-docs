@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Carroll, Abbott and Schaefer",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "Rank": 883,
-  "IsCustomList": true,
+  "Id": 833,
+  "Name": "D'Amore Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 698,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "velit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "rem",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Koepp Inc and Sons",
-  "Tooltip": "labore",
+  "Id": 47,
+  "Name": "Larson, Effertz and Bradtke",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "Rank": 142,
-  "IsCustomList": true,
+  "Rank": 919,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laborum",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "itaque",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

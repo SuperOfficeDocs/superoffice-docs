@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Kirlin Inc and Sons",
-  "Tooltip": "totam",
-  "Deleted": true,
-  "Rank": 740,
+  "Id": 60,
+  "Name": "Kautzer LLC",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 975,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "labore",
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 323
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

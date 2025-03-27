@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 655
+  "SaleId": 861
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 953,
-  "SaleId": 413,
-  "QuoteConnectionId": 26,
-  "ERPQuoteKey": "possimus",
-  "ERPOrderKey": "sint",
-  "ActiveQuoteVersionId": 838,
-  "AcceptedQuoteAlternativeId": 93,
-  "UseValuesFromQuote": 505,
-  "DocumentId": 823,
-  "PoNumber": "1433310",
-  "OrderComment": "ducimus",
-  "PreferredEmailCulture": "vita@veum.uk",
+  "QuoteId": 325,
+  "SaleId": 373,
+  "QuoteConnectionId": 268,
+  "ERPQuoteKey": "tenetur",
+  "ERPOrderKey": "quis",
+  "ActiveQuoteVersionId": 491,
+  "AcceptedQuoteAlternativeId": 495,
+  "UseValuesFromQuote": 958,
+  "DocumentId": 276,
+  "PoNumber": "1099578",
+  "OrderComment": "quibusdam",
+  "PreferredEmailCulture": "regan@padberg.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 958
     }
   }
 }

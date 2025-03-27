@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 966,
-  "Name": "Lindgren, Wiza and Crooks",
-  "Tooltip": "totam",
-  "Rank": 978,
-  "Rate": 18819.67,
-  "Units": 23298.156,
+  "CurrencyId": 647,
+  "Name": "Heller-Dietrich",
+  "Tooltip": "aliquid",
+  "Rank": 829,
+  "Rate": 14764.274,
+  "Units": 7562.342,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldLength": 710
     }
   }
 }

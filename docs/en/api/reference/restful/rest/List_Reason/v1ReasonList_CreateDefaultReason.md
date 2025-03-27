@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 451,
-  "Name": "West-Hamill",
-  "Tooltip": "corrupti",
+  "Id": 873,
+  "Name": "White, Kozey and Johns",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "UdListDefinitionId": 135,
-  "Rank": 449,
+  "UdListDefinitionId": 174,
+  "Rank": 850,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 663
     }
   }
 }

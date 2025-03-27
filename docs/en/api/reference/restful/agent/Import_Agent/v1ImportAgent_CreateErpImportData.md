@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Jacobs-Satterfield",
-      "Operator": "corrupti",
+      "Name": "Treutel-Haag",
+      "Operator": "rerum",
       "Values": [
-        "eveniet",
-        "beatae"
+        "non",
+        "sunt"
       ],
       "DisplayValues": [
-        "qui",
-        "praesentium"
+        "quas",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 605,
+      "InterParenthesis": 834,
       "InterOperator": "And",
-      "UniqueHash": 526
+      "UniqueHash": 113
     }
   ],
   "Columns": [
-    "et",
-    "nostrum"
+    "nisi",
+    "qui"
   ],
-  "ConnectionId": 176,
+  "ConnectionId": 599,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "qui",
-        "et"
+        "et",
+        "quia"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "tempora",
+      "ExternalKey": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldType": "System.String",
+          "FieldLength": 101
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Abernathy, Kerluke and Torp",
-      "DisplayName": "Kris LLC",
-      "Locked": true,
+      "Name": "Kub-Dach",
+      "DisplayName": "Veum, Lehner and Predovic",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 673
+          "FieldType": "System.Int32",
+          "FieldLength": 665
         }
       }
     },
     {
-      "Name": "Abernathy, Kerluke and Torp",
-      "DisplayName": "Kris LLC",
-      "Locked": true,
+      "Name": "Kub-Dach",
+      "DisplayName": "Veum, Lehner and Predovic",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 673
+          "FieldType": "System.Int32",
+          "FieldLength": 665
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 412
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 218,
-    "Name": "Klocko-Morar",
-    "ToolTip": "Ullam dolor iste voluptatibus optio possimus ullam recusandae.",
-    "Deleted": false,
-    "Rank": 569,
-    "Type": "ut",
-    "ColorBlock": 367,
-    "IconHint": "officiis",
+    "Id": 679,
+    "Name": "West-Kling",
+    "ToolTip": "Numquam inventore aliquid quae deserunt voluptates repellendus.",
+    "Deleted": true,
+    "Rank": 803,
+    "Type": "ratione",
+    "ColorBlock": 588,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2010-09-10T14:13:50.1812638+02:00",
+    "LastChanged": "1998-08-31T02:38:26.886137+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Smith, Flatley and Bailey",
-        "ToolTip": "Quos possimus quo.",
+        "Id": 24,
+        "Name": "Rutherford Group",
+        "ToolTip": "Possimus ea quidem impedit perspiciatis doloribus eius ad.",
         "Deleted": false,
-        "Rank": 482,
-        "Type": "enim",
-        "ColorBlock": 4,
-        "IconHint": "ipsa",
+        "Rank": 223,
+        "Type": "autem",
+        "ColorBlock": 357,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2009-06-19T14:13:50.1812638+02:00",
+        "LastChanged": "2001-09-18T02:38:26.886137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "est",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Therese Ledner"
+        "FullName": "Elena Langosh"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Ms. Ellen Bernhard"
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "illum",
+    "Hidden": false,
+    "FullName": "Mazie Koelpin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 267,
-    "Name": "Ratke, Mitchell and Gerlach",
-    "ToolTip": "Accusantium aperiam deserunt eveniet.",
-    "Deleted": true,
-    "Rank": 137,
-    "Type": "id",
-    "ColorBlock": 692,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2009-08-05T14:13:50.1812638+02:00",
+    "Id": 938,
+    "Name": "Lehner, Ondricka and Connelly",
+    "ToolTip": "Laudantium ut dolor harum dolor.",
+    "Deleted": false,
+    "Rank": 858,
+    "Type": "delectus",
+    "ColorBlock": 2,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2022-11-14T02:38:26.9017511+01:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Ledner Group",
-        "ToolTip": "Dolorum voluptas ut ipsam.",
+        "Id": 422,
+        "Name": "Hahn LLC",
+        "ToolTip": "Accusamus et.",
         "Deleted": true,
-        "Rank": 632,
-        "Type": "sit",
-        "ColorBlock": 567,
-        "IconHint": "qui",
+        "Rank": 651,
+        "Type": "similique",
+        "ColorBlock": 164,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2022-03-14T14:13:50.1812638+01:00",
+        "LastChanged": "2000-02-13T02:38:26.9017511+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "officia",
         "Hidden": false,
-        "FullName": "Juvenal Santino Wolf III",
+        "FullName": "Dedrick Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 976
+            "FieldType": "System.String",
+            "FieldLength": 185
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "quidem",
-    "Hidden": false,
-    "FullName": "Wilfredo Olson",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Jesse Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldLength": 148
       }
     }
   }

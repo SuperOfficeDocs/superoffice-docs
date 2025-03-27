@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "D'Amore, Stiedemann and Harber",
-    "Tooltip": "vero",
-    "Deleted": false,
-    "UdListDefinitionId": 178,
-    "Rank": 256,
+    "Id": 209,
+    "Name": "Marvin Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 893,
+    "Rank": 828,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldLength": 247
       }
     }
   }

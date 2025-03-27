@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 224,
-    "Name": "Little Inc and Sons",
-    "Description": "Total modular middleware",
+    "ProjectId": 58,
+    "Name": "Kuvalis, Nitzsche and Fadel",
+    "Description": "Enterprise-wide clear-thinking database",
     "URL": "http://www.example.com/",
-    "Type": "nihil",
-    "AssociateId": 714,
-    "AssociateFullName": "Mrs. Jasper Dickinson",
-    "TypeId": 92,
-    "Updated": "2011-01-05T14:13:41.0314634+01:00",
-    "StatusId": 324,
-    "Status": "perspiciatis",
-    "TextId": 105,
-    "PublishTo": "2015-02-16T14:13:41.0314634+01:00",
-    "PublishFrom": "1999-03-22T14:13:41.0314634+01:00",
+    "Type": "impedit",
+    "AssociateId": 876,
+    "AssociateFullName": "Chadd O'Keefe",
+    "TypeId": 453,
+    "Updated": "2002-11-08T02:38:21.7295028+01:00",
+    "StatusId": 993,
+    "Status": "reiciendis",
+    "TextId": 330,
+    "PublishTo": "2004-06-16T02:38:21.7295028+02:00",
+    "PublishFrom": "2013-10-17T02:38:21.7295028+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1051046",
-    "ActiveErpLinks": 334,
+    "ProjectNumber": "894424",
+    "ActiveErpLinks": 906,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 951
+        "FieldLength": 605
       }
     }
   }
