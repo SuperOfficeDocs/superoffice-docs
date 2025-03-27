@@ -15,6 +15,32 @@ metadata:
 landingContent:
 
   # Card
+  - title: Getting started
+    linkLists:
+      - itemType: map
+        typeDesc: overview
+        links:
+        - text: Overview
+          url: getting-started/index.md
+        - text: Quickstart
+          url: getting-started/quickstart.md
+      - itemType: power_settings_new
+        typeDesc: get-started
+        links:
+        - text: Register as a developer
+          url: getting-started/get-access-to-sod.md
+        - text: Register an app
+          url: create-app/index.md
+        - text: Integration points
+          url: ../api/overview/index.md 
+        - text: What API to use?
+          url: getting-started/what-api-to-use.md
+        - text: Manage notifications
+          url: best-practices/tenant-status/get-notifications.md
+        - text: Get error emails
+          url: best-practices/error-emails.md
+  
+  # Card
   - title: Learn about apps and the Developer Portal
     linkLists:
       - itemType: map
@@ -94,30 +120,6 @@ landingContent:
             url: standard-app/certification/checklist.md
           - text: Best practices
             url: best-practices/index.md
-
-  # Card
-  - title: Getting started
-    linkLists:
-      - itemType: map
-        typeDesc: overview
-        links:
-        - text: Overview
-          url: getting-started/index.md
-      - itemType: power_settings_new
-        typeDesc: get-started
-        links:
-        - text: Register as a developer
-          url: getting-started/get-access-to-sod.md
-        - text: Register an app
-          url: create-app/index.md
-        - text: Integration points
-          url: ../api/overview/index.md 
-        - text: What API to use?
-          url: getting-started/what-api-to-use.md
-        - text: Manage notifications
-          url: best-practices/tenant-status/get-notifications.md
-        - text: Get error emails
-          url: best-practices/error-emails.md
 
   # Card
   - title: For administrators
