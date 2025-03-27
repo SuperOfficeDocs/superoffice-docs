@@ -54,6 +54,8 @@ items:
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  - SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
@@ -450,6 +452,20 @@ references:
   name: RawHistoryItems
   nameWithType: LiteralsOnlyBase.RawHistoryItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: HistoryIds
+  nameWithType: LiteralsOnlyBase.HistoryIds
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryIds
+- uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
+  parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
+  isExternal: true
+  name: OnlyReadHistory
+  nameWithType: LiteralsOnlyBase.OnlyReadHistory
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.OnlyReadHistory
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase

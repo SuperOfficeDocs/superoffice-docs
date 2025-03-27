@@ -66,6 +66,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.MinutePrecision
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Origin
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.PriorityName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.ReadStatus
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -642,6 +643,32 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colPriorityName As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
+  id: _colOwnedBy
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colOwnedBy
+  nameWithType: TicketExtenderBase._colOwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colOwnedBy
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colOwnedBy As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -1504,32 +1531,6 @@ items:
   - protected
   modifiers.vb:
   - Protected
-- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
-  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
-  id: _colOwnedBy
-  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
-  langs:
-  - csharp
-  - vb
-  name: _colOwnedBy
-  nameWithType: TicketExtenderBase._colOwnedBy
-  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
-  type: Field
-  source:
-    path: SoDataBase
-    isExternal: true
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: protected ArchiveColumnInfo _colOwnedBy
-    return:
-      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-    content.vb: Protected _colOwnedBy As ArchiveColumnInfo
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCreatedBy
   id: _colCreatedBy
@@ -1844,6 +1845,38 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Public Shared ReadOnly Property TicketType As ArchiveColumnInfo
   overload: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: TicketExtenderBase.OwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo OwnedBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared ReadOnly Property OwnedBy As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy*
   modifiers.csharp:
   - public
   - static
@@ -7933,6 +7966,12 @@ references:
   name: TicketType
   nameWithType: TicketExtenderBase.TicketType
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketType
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
+  isExternal: true
+  name: OwnedBy
+  nameWithType: TicketExtenderBase.OwnedBy
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.OwnedBy
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatusName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.TicketStatusName
   isExternal: true

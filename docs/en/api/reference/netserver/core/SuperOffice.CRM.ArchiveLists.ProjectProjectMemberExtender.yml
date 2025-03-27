@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor
-  - SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features)
+  - SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.SetJoin
   langs:
   - csharp
@@ -206,16 +206,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features)
-  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features)
-  id: '#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features)'
+- uid: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features,System.String)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender
   langs:
   - csharp
   - vb
-  name: ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features)
-  nameWithType: ProjectProjectMemberExtender.ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features)
-  fullName: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.ProjectProjectMemberExtender(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features)
+  name: ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features, String)
+  nameWithType: ProjectProjectMemberExtender.ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.ProjectProjectMemberExtender(SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features, System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -224,11 +224,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features features)
+    content: public ProjectProjectMemberExtender(ProjectMemberExtenderBase.Features features, string iconHint = "Project")
     parameters:
     - id: features
       type: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features
-    content.vb: Public Sub New(features As ProjectMemberExtenderBase.Features)
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(features As ProjectMemberExtenderBase.Features, iconHint As String = "Project")
   overload: SuperOffice.CRM.ArchiveLists.ProjectProjectMemberExtender.#ctor*
   modifiers.csharp:
   - public
@@ -6117,6 +6119,13 @@ references:
   name: ProjectMemberExtenderBase.Features
   nameWithType: ProjectMemberExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.Features
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}

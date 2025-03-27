@@ -9,6 +9,7 @@ items:
   - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  - SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
   langs:
   - csharp
   - vb
@@ -147,6 +148,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const AppiSqlQueryText As String = "AppiSqlQueryText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
+  id: SampleInCustomCrmScript
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: SampleInCustomCrmScript
+  nameWithType: VersionPropertyNames.SampleInCustomCrmScript
+  fullName: SuperOffice.Configuration.VersionPropertyNames.SampleInCustomCrmScript
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSet to false to disable the logic forcing that all custom CRMScripts are sampled in.  Default value is true.\n"
+  syntax:
+    content: public const string SampleInCustomCrmScript = "SampleInCustomCrmScript"
+    return:
+      type: System.String
+    content.vb: Public Const SampleInCustomCrmScript As String = "SampleInCustomCrmScript"
   modifiers.csharp:
   - public
   - const

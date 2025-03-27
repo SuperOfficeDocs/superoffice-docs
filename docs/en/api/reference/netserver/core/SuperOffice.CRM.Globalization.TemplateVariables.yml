@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Globalization.TemplateVariables.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Globalization.TemplateVariables._currentContact
+  - SuperOffice.CRM.Globalization.TemplateVariables._currentPerson
   - SuperOffice.CRM.Globalization.TemplateVariables.AssociateId
   - SuperOffice.CRM.Globalization.TemplateVariables.ContactId
   - SuperOffice.CRM.Globalization.TemplateVariables.CurrentContact
@@ -26,6 +27,7 @@ items:
   - SuperOffice.CRM.Globalization.TemplateVariables.QuoteVersionId
   - SuperOffice.CRM.Globalization.TemplateVariables.SetContactPersonId(System.Int32,System.Int32)
   - SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+  - SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson
   - SuperOffice.CRM.Globalization.TemplateVariables.SetInviteePersonId(System.Int32)
   - SuperOffice.CRM.Globalization.TemplateVariables.TicketId
   langs:
@@ -70,6 +72,32 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: SuperOffice.CRM.Globalization.TemplateVariables._currentPerson
+  commentId: F:SuperOffice.CRM.Globalization.TemplateVariables._currentPerson
+  id: _currentPerson
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: _currentPerson
+  nameWithType: TemplateVariables._currentPerson
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables._currentPerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected CurrentPersonVariables _currentPerson
+    return:
+      type: SuperOffice.CRM.Globalization.CurrentPersonVariables
+    content.vb: Protected _currentPerson As CurrentPersonVariables
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Globalization.TemplateVariables._currentContact
   commentId: F:SuperOffice.CRM.Globalization.TemplateVariables._currentContact
   id: _currentContact
@@ -450,6 +478,33 @@ items:
     content: protected virtual void SetCurrentContact()
     content.vb: Protected Overridable Sub SetCurrentContact
   overload: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson
+  commentId: M:SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson
+  id: SetCurrentPerson
+  parent: SuperOffice.CRM.Globalization.TemplateVariables
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentPerson()
+  nameWithType: TemplateVariables.SetCurrentPerson()
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: protected virtual void SetCurrentPerson()
+    content.vb: Protected Overridable Sub SetCurrentPerson
+  overload: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson*
   modifiers.csharp:
   - protected
   - virtual
@@ -1281,6 +1336,13 @@ references:
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables
+  commentId: T:SuperOffice.CRM.Globalization.CurrentPersonVariables
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: CurrentPersonVariables
+  nameWithType: CurrentPersonVariables
+  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables
 - uid: SuperOffice.CRM.Globalization.ContactTags
   commentId: T:SuperOffice.CRM.Globalization.ContactTags
   parent: SuperOffice.CRM.Globalization
@@ -1481,6 +1543,12 @@ references:
   name: SetCurrentContact
   nameWithType: TemplateVariables.SetCurrentContact
   fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentContact
+- uid: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson*
+  commentId: Overload:SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson
+  isExternal: true
+  name: SetCurrentPerson
+  nameWithType: TemplateVariables.SetCurrentPerson
+  fullName: SuperOffice.CRM.Globalization.TemplateVariables.SetCurrentPerson
 - uid: SuperOffice.IO.TagContainer.Init
   commentId: M:SuperOffice.IO.TagContainer.Init
   parent: SuperOffice.IO.TagContainer
@@ -1530,13 +1598,6 @@ references:
   name: CurrentPerson
   nameWithType: TemplateVariables.CurrentPerson
   fullName: SuperOffice.CRM.Globalization.TemplateVariables.CurrentPerson
-- uid: SuperOffice.CRM.Globalization.CurrentPersonVariables
-  commentId: T:SuperOffice.CRM.Globalization.CurrentPersonVariables
-  parent: SuperOffice.CRM.Globalization
-  isExternal: true
-  name: CurrentPersonVariables
-  nameWithType: CurrentPersonVariables
-  fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables
 - uid: SuperOffice.IO.TagContainer.Id
   commentId: P:SuperOffice.IO.TagContainer.Id
   parent: SuperOffice.IO.TagContainer

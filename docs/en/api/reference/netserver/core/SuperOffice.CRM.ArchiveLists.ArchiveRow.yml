@@ -65,6 +65,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Item(System.Int32)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Item(System.String)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.LinkHint
+  - SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.Parents
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.PopulateFromBase(SuperOffice.CRM.ArchiveLists.ArchiveRow,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.ArchiveRow.RemoveLinkHint(System.String)
@@ -182,6 +183,41 @@ items:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     content.vb: Public Function AddOverlappingColumn(name As String, data As ArchiveColumnData) As ArchiveColumnData
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  id: OverwriteColumn(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  langs:
+  - csharp
+  - vb
+  name: OverwriteColumn(String, ArchiveColumnData)
+  nameWithType: ArchiveRow.OverwriteColumn(String, ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd a column, overwriting an existing column of the same name with the new value.\n"
+  syntax:
+    content: public ArchiveColumnData OverwriteColumn(string name, ArchiveColumnData data)
+    parameters:
+    - id: name
+      type: System.String
+      description: Programmatic name
+    - id: data
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+      description: Data value
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Function OverwriteColumn(name As String, data As ArchiveColumnData) As ArchiveColumnData
+  overload: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3057,6 +3093,12 @@ references:
   name: ArchiveColumnData
   nameWithType: ArchiveColumnData
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn
+  isExternal: true
+  name: OverwriteColumn
+  nameWithType: ArchiveRow.OverwriteColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow.OverwriteColumn
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRow.AddOverlappingIntColumn
   isExternal: true

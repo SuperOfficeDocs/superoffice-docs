@@ -5,7 +5,7 @@ items:
   id: ContactAddressExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor
+  - SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.AddressTypes
   - SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.ParentCountryId
   - SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.SetJoin
@@ -187,16 +187,16 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase
   langs:
   - csharp
   - vb
-  name: ContactAddressExtenderBase()
-  nameWithType: ContactAddressExtenderBase.ContactAddressExtenderBase()
-  fullName: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.ContactAddressExtenderBase()
+  name: ContactAddressExtenderBase(String)
+  nameWithType: ContactAddressExtenderBase.ContactAddressExtenderBase(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.ContactAddressExtenderBase(System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -206,8 +206,11 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object\n"
   syntax:
-    content: public ContactAddressExtenderBase()
-    content.vb: Public Sub New
+    content: public ContactAddressExtenderBase(string iconHint = "Contact")
+    parameters:
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(iconHint As String = "Contact")
   overload: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.#ctor*
   modifiers.csharp:
   - public
@@ -5970,6 +5973,13 @@ references:
   name: ContactAddressExtenderBase
   nameWithType: ContactAddressExtenderBase.ContactAddressExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.ContactAddressExtenderBase.ContactAddressExtenderBase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AddressTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AddressTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.AddressTableInfo}

@@ -47,7 +47,9 @@ items:
   - SuperOffice.CRM.Cache.CurrencyCache
   - SuperOffice.CRM.Cache.ExtAppCache
   - SuperOffice.CRM.Cache.ExtraFieldsCache
+  - SuperOffice.CRM.Cache.FavoritesCache
   - SuperOffice.CRM.Cache.HierarchyTreeCache
+  - SuperOffice.CRM.Cache.HistoryCache
   - SuperOffice.CRM.Cache.MDOListTableCacheBase
   - SuperOffice.CRM.Cache.MDOPreferenceCache
   - SuperOffice.CRM.Cache.OnlineAppCache

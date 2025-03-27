@@ -5,7 +5,9 @@ items:
   id: PersonEmailExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor(System.Boolean,System.String)
+  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SetJoin
   langs:
   - csharp
@@ -51,8 +53,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase._colEmailBounceCount
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase._colEmailLastBounce
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase._colHasBounced
-  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}.ModifyQuery
@@ -172,8 +174,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-  - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -181,16 +181,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor(System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor(System.Boolean,System.String)
+  id: '#ctor(System.Boolean,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
   langs:
   - csharp
   - vb
-  name: PersonEmailExtender()
-  nameWithType: PersonEmailExtender.PersonEmailExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.PersonEmailExtender()
+  name: PersonEmailExtender(Boolean, String)
+  nameWithType: PersonEmailExtender.PersonEmailExtender(Boolean, String)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.PersonEmailExtender(System.Boolean, System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -200,8 +200,14 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object\n"
   syntax:
-    content: public PersonEmailExtender()
-    content.vb: Public Sub New
+    content: public PersonEmailExtender(bool showRankOneEmail = false, string iconHint = "Person")
+    parameters:
+    - id: showRankOneEmail
+      type: System.Boolean
+      description: Row data is replaced with data from the rank one email of the person. Use this when you want to query on any email linked, but only show rank 1 email data.
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(showRankOneEmail As Boolean = False, iconHint As String = "Person")
   overload: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.#ctor*
   modifiers.csharp:
   - public
@@ -233,6 +239,67 @@ items:
     content.vb: Protected Overrides Function SetJoin As EmailTableInfo
   overridden: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}.SetJoin
   overload: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SetJoin*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery
+  id: InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
+  langs:
+  - csharp
+  - vb
+  name: InnerModifyQuery()
+  nameWithType: PersonEmailExtender.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected override void InnerModifyQuery()
+    content.vb: Protected Overrides Sub InnerModifyQuery
+  overridden: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+  overload: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: PersonEmailExtender.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overridden: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader*
   modifiers.csharp:
   - protected
   - override
@@ -467,49 +534,18 @@ references:
   name: _colHasBounced
   nameWithType: EmailExtenderBase._colHasBounced
   fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase._colHasBounced
-- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
   parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
   isExternal: true
-  name: InnerModifyQuery()
-  nameWithType: EmailExtenderBase.InnerModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery()
+  name: SetEmailAddressColumn(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  nameWithType: EmailExtenderBase.SetEmailAddressColumn(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.Data.EmailTableInfo, System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    nameWithType: EmailExtenderBase.InnerModifyQuery
-    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    nameWithType: EmailExtenderBase.InnerModifyQuery
-    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
-  isExternal: true
-  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  nameWithType: EmailExtenderBase.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: EmailExtenderBase.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetEmailAddressColumn
+    nameWithType: EmailExtenderBase.SetEmailAddressColumn
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn
     isExternal: true
   - name: (
     nameWithType: (
@@ -527,14 +563,30 @@ references:
     nameWithType: ArchiveRow
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: EmailExtenderBase.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetEmailAddressColumn
+    nameWithType: EmailExtenderBase.SetEmailAddressColumn
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn
     isExternal: true
   - name: (
     nameWithType: (
@@ -551,6 +603,111 @@ references:
     name: ArchiveRow
     nameWithType: ArchiveRow
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  isExternal: true
+  name: SetHasBounced(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  nameWithType: EmailExtenderBase.SetHasBounced(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.Data.EmailTableInfo, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetHasBounced
+    nameWithType: EmailExtenderBase.SetHasBounced
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetHasBounced
+    nameWithType: EmailExtenderBase.SetHasBounced
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )
@@ -5453,84 +5610,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<PersonEmailExtender>(PersonEmailExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<PersonEmailExtender>(PersonEmailExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonEmailExtender>(SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonEmailExtender)(PersonEmailExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonEmailExtender)(SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-  name.vb: AssignByReflection(Of PersonEmailExtender)(PersonEmailExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<PersonEmailExtender>
-    nameWithType: ObjectExtensions.AssignByReflection<PersonEmailExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.PersonEmailExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
-    name: PersonEmailExtender
-    nameWithType: PersonEmailExtender
-    fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of PersonEmailExtender)
-    nameWithType: ObjectExtensions.AssignByReflection(Of PersonEmailExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
-    name: PersonEmailExtender
-    nameWithType: PersonEmailExtender
-    fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<PersonEmailExtender>()
-  nameWithType: ObjectExtensions.GraphCopy<PersonEmailExtender>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonEmailExtender>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonEmailExtender)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonEmailExtender)()
-  name.vb: GraphCopy(Of PersonEmailExtender)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<PersonEmailExtender>
-    nameWithType: ObjectExtensions.GraphCopy<PersonEmailExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.PersonEmailExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of PersonEmailExtender)
-    nameWithType: ObjectExtensions.GraphCopy(Of PersonEmailExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.PersonEmailExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -5868,103 +5947,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -6011,12 +5993,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -6029,6 +6005,20 @@ references:
   name: PersonEmailExtender
   nameWithType: PersonEmailExtender.PersonEmailExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.PersonEmailExtender
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}
@@ -6113,3 +6103,123 @@ references:
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  isExternal: true
+  name: InnerModifyQuery()
+  nameWithType: EmailExtenderBase.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    nameWithType: EmailExtenderBase.InnerModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    nameWithType: EmailExtenderBase.InnerModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery
+  isExternal: true
+  name: InnerModifyQuery
+  nameWithType: PersonEmailExtender.InnerModifyQuery
+  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerModifyQuery
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  isExternal: true
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: EmailExtenderBase.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: EmailExtenderBase.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: EmailExtenderBase.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader
+  isExternal: true
+  name: InnerPopulateRowFromReader
+  nameWithType: PersonEmailExtender.InnerPopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.PersonEmailExtender.InnerPopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

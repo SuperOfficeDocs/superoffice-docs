@@ -7,6 +7,7 @@ items:
   - SuperOffice.Data.Cache.BaseFlushCacheAndBroadcastPlugin
   - SuperOffice.Data.Cache.CacheBaseV2
   - SuperOffice.Data.Cache.CacheFlusher
+  - SuperOffice.Data.Cache.CacheInvalidationOperations
   - SuperOffice.Data.Cache.CacheManager
   - SuperOffice.Data.Cache.CacheManager.DisableAutoUpdateScope
   - SuperOffice.Data.Cache.CacheV2Attribute
@@ -39,6 +40,12 @@ references:
   name: CacheV2Attribute
   nameWithType: CacheV2Attribute
   fullName: SuperOffice.Data.Cache.CacheV2Attribute
+- uid: SuperOffice.Data.Cache.CacheInvalidationOperations
+  commentId: T:SuperOffice.Data.Cache.CacheInvalidationOperations
+  isExternal: true
+  name: CacheInvalidationOperations
+  nameWithType: CacheInvalidationOperations
+  fullName: SuperOffice.Data.Cache.CacheInvalidationOperations
 - uid: SuperOffice.Data.Cache.CacheManager
   commentId: T:SuperOffice.Data.Cache.CacheManager
   isExternal: true

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Configuration
   children:
   - SuperOffice.Configuration.VersionProperties.#ctor
+  - SuperOffice.Configuration.VersionProperties.GetAllSettings
   - SuperOffice.Configuration.VersionProperties.GetBoolSetting(System.String,System.Boolean)
   - SuperOffice.Configuration.VersionProperties.GetDoubleSetting(System.String,System.Double)
   - SuperOffice.Configuration.VersionProperties.GetIntSetting(System.String,System.Int32)
@@ -174,6 +175,36 @@ items:
       type: System.Double
     content.vb: Public Shared Function GetDoubleSetting(settingName As String, defaultValue As Double = 0) As Double
   overload: SuperOffice.Configuration.VersionProperties.GetDoubleSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.VersionProperties.GetAllSettings
+  commentId: M:SuperOffice.Configuration.VersionProperties.GetAllSettings
+  id: GetAllSettings
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: GetAllSettings()
+  nameWithType: VersionProperties.GetAllSettings()
+  fullName: SuperOffice.Configuration.VersionProperties.GetAllSettings()
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nGet all settings that have a value, prioritizing tenant-specific settings over global settings.\n"
+  syntax:
+    content: public static Dictionary<string, string> GetAllSettings()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    content.vb: Public Shared Function GetAllSettings As Dictionary(Of String, String)
+  overload: SuperOffice.Configuration.VersionProperties.GetAllSettings*
   modifiers.csharp:
   - public
   - static
@@ -656,6 +687,121 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
+- uid: SuperOffice.Configuration.VersionProperties.GetAllSettings*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.GetAllSettings
+  isExternal: true
+  name: GetAllSettings
+  nameWithType: VersionProperties.GetAllSettings
+  fullName: SuperOffice.Configuration.VersionProperties.GetAllSettings
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Configuration.VersionProperties.UpdateSettings*
   commentId: Overload:SuperOffice.Configuration.VersionProperties.UpdateSettings
   isExternal: true

@@ -15,6 +15,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentInfo.EndDate
   - SuperOffice.CRM.Services.AppointmentInfo.HasAlarm
   - SuperOffice.CRM.Services.AppointmentInfo.IsAllDay
+  - SuperOffice.CRM.Services.AppointmentInfo.IsBooking
   - SuperOffice.CRM.Services.AppointmentInfo.IsBookingMain
   - SuperOffice.CRM.Services.AppointmentInfo.IsBusy
   - SuperOffice.CRM.Services.AppointmentInfo.IsCompleted
@@ -23,6 +24,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   - SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
   - SuperOffice.CRM.Services.AppointmentInfo.MotherId
+  - SuperOffice.CRM.Services.AppointmentInfo.PersonName
   - SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   - SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
   - SuperOffice.CRM.Services.AppointmentInfo.SendEmail
@@ -912,6 +914,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentInfo.PersonName
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.PersonName
+  id: PersonName
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: AppointmentInfo.PersonName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.PersonName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the appointment person. \n"
+  syntax:
+    content: public virtual string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonName As String
+  overload: SuperOffice.CRM.Services.AppointmentInfo.PersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsBooking
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.IsBooking
+  id: IsBooking
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBooking
+  nameWithType: AppointmentInfo.IsBooking
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBooking
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the appointment is part of a booking \n"
+  syntax:
+    content: public virtual bool IsBooking { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBooking As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentInfo.IsBooking*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -1124,3 +1192,15 @@ references:
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo
   fullName: SuperOffice.CRM.Services.RecurrenceInfo
+- uid: SuperOffice.CRM.Services.AppointmentInfo.PersonName*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: AppointmentInfo.PersonName
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.PersonName
+- uid: SuperOffice.CRM.Services.AppointmentInfo.IsBooking*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.IsBooking
+  isExternal: true
+  name: IsBooking
+  nameWithType: AppointmentInfo.IsBooking
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBooking

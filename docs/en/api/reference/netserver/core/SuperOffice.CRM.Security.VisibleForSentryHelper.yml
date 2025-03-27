@@ -5,6 +5,7 @@ items:
   id: VisibleForSentryHelper
   parent: SuperOffice.CRM.Security
   children:
+  - SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
   - SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
   - SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
   langs:
@@ -105,6 +106,47 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
+  commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
+  id: AddVisibleForGroupsRestriction(System.Int32[],SuperOffice.Data.SQL.Or@,SuperOffice.Data.SQL.Int32ArrayFieldInfo)
+  parent: SuperOffice.CRM.Security.VisibleForSentryHelper
+  langs:
+  - csharp
+  - vb
+  name: AddVisibleForGroupsRestriction(Int32[], ref Or, Int32ArrayFieldInfo)
+  nameWithType: VisibleForSentryHelper.AddVisibleForGroupsRestriction(Int32[], ref Or, Int32ArrayFieldInfo)
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32[], ref SuperOffice.Data.SQL.Or, SuperOffice.Data.SQL.Int32ArrayFieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAdds a restriction to filter based on user group visibility.\nSince there is a nvarchar  have a limit on the number of elements (4000 characters) in an &apos;Or&apos; clause,\nthis method splits the user group IDs into smaller chunks to avoid exceeding that limit.\n"
+  syntax:
+    content: public static void AddVisibleForGroupsRestriction(int[] userGroupIds, ref Or restrictions, Int32ArrayFieldInfo visibleForGroups)
+    parameters:
+    - id: userGroupIds
+      type: System.Int32[]
+      description: Array of user group IDs to be used in the restriction.
+    - id: restrictions
+      type: SuperOffice.Data.SQL.Or
+      description: Existing OR restriction that will be modified.
+    - id: visibleForGroups
+      type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+      description: Field representing the visibility for groups.
+    content.vb: Public Shared Sub AddVisibleForGroupsRestriction(userGroupIds As Integer(), ByRef restrictions As  Or, visibleForGroups As Int32ArrayFieldInfo)
+  overload: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction*
+  nameWithType.vb: VisibleForSentryHelper.AddVisibleForGroupsRestriction(Int32(), ByRef Or, Int32ArrayFieldInfo)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction(System.Int32(), ByRef SuperOffice.Data.SQL.Or, SuperOffice.Data.SQL.Int32ArrayFieldInfo)
+  name.vb: AddVisibleForGroupsRestriction(Int32(), ByRef Or, Int32ArrayFieldInfo)
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
@@ -177,3 +219,49 @@ references:
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction*
+  commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction
+  isExternal: true
+  name: AddVisibleForGroupsRestriction
+  nameWithType: VisibleForSentryHelper.AddVisibleForGroupsRestriction
+  fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.AddVisibleForGroupsRestriction
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.Or
+  commentId: T:SuperOffice.Data.SQL.Or
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Or
+  nameWithType: Or
+  fullName: SuperOffice.Data.SQL.Or
+- uid: SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32ArrayFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Int32ArrayFieldInfo
+  nameWithType: Int32ArrayFieldInfo
+  fullName: SuperOffice.Data.SQL.Int32ArrayFieldInfo

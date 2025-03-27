@@ -16,6 +16,7 @@ items:
   - SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.Argument.HasFlag(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.SQL.Argument.IsNotNull
   - SuperOffice.Data.SQL.Argument.IsNull
@@ -784,6 +785,39 @@ items:
   - Public
   fullName.vb: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument())
   name.vb: NotIn(Argument())
+- uid: SuperOffice.Data.SQL.Argument.HasFlag(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.HasFlag(SuperOffice.Data.SQL.Argument)
+  id: HasFlag(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  langs:
+  - csharp
+  - vb
+  name: HasFlag(Argument)
+  nameWithType: Argument.HasFlag(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.HasFlag(SuperOffice.Data.SQL.Argument)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  summary: "\nreturns a new instance of the HasFlag operator, based on the argument provided.        \n"
+  syntax:
+    content: public HasFlag HasFlag(Argument arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.Argument
+      description: 'The argument '
+    return:
+      type: SuperOffice.Data.SQL.HasFlag
+      description: "\na new instance of the HasFlag operator, based on the argument provided.\n"
+    content.vb: Public Function HasFlag(arg As Argument) As HasFlag
+  overload: SuperOffice.Data.SQL.Argument.HasFlag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   id: ToArgumentArray``1(``0[])
@@ -1533,6 +1567,19 @@ references:
   name: NotIn
   nameWithType: NotIn
   fullName: SuperOffice.Data.SQL.NotIn
+- uid: SuperOffice.Data.SQL.Argument.HasFlag*
+  commentId: Overload:SuperOffice.Data.SQL.Argument.HasFlag
+  isExternal: true
+  name: HasFlag
+  nameWithType: Argument.HasFlag
+  fullName: SuperOffice.Data.SQL.Argument.HasFlag
+- uid: SuperOffice.Data.SQL.HasFlag
+  commentId: T:SuperOffice.Data.SQL.HasFlag
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasFlag
+  nameWithType: HasFlag
+  fullName: SuperOffice.Data.SQL.HasFlag
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray*
   commentId: Overload:SuperOffice.Data.SQL.Argument.ToArgumentArray
   isExternal: true

@@ -116,6 +116,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.GroupBy)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasAll)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasAny)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasFlag)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Hour)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.In)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.InnerJoin)
@@ -2110,6 +2111,38 @@ items:
     return:
       type: System.String
     content.vb: Protected Overridable Function ToSql(arg As Equal) As String
+  overload: SuperOffice.Data.Dialect.Dialect.ToSql*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasFlag)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasFlag)
+  id: ToSql(SuperOffice.Data.SQL.HasFlag)
+  parent: SuperOffice.Data.Dialect.Dialect
+  langs:
+  - csharp
+  - vb
+  name: ToSql(HasFlag)
+  nameWithType: Dialect.ToSql(HasFlag)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasFlag)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dialect
+  syntax:
+    content: protected virtual string ToSql(HasFlag arg)
+    parameters:
+    - id: arg
+      type: SuperOffice.Data.SQL.HasFlag
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function ToSql(arg As HasFlag) As String
   overload: SuperOffice.Data.Dialect.Dialect.ToSql*
   modifiers.csharp:
   - protected
@@ -6381,6 +6414,13 @@ references:
   name: Equal
   nameWithType: Equal
   fullName: SuperOffice.Data.SQL.Equal
+- uid: SuperOffice.Data.SQL.HasFlag
+  commentId: T:SuperOffice.Data.SQL.HasFlag
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasFlag
+  nameWithType: HasFlag
+  fullName: SuperOffice.Data.SQL.HasFlag
 - uid: SuperOffice.Data.SQL.UnEqual
   commentId: T:SuperOffice.Data.SQL.UnEqual
   parent: SuperOffice.Data.SQL

@@ -19,6 +19,7 @@ items:
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetSatelliteLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetShopUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetThirdPartyLicenseAssignmentsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesMDOListAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ILicenseAgent.RemoveLicenseFromDBAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -268,6 +269,38 @@ items:
       description: License, with usage, as it is stored in the database.
     content.vb: Function GetLicenseFromDBAsync(ownerName As String, requestOptions As RequestOptions = Nothing) As Task(Of ExtendedLicenseInfo)
   overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync*
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetUserAndInstallationLicenceStatusAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ILicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserAndInstallationLicenceStatusAsync(Int32, RequestOptions)
+  nameWithType: ILicenseAgent.GetUserAndInstallationLicenceStatusAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet status values for user licenses and installation license that can be used for feedback to the user.\n"
+  syntax:
+    content: Task<UserAndInstallationLicenceStatus> GetUserAndInstallationLicenceStatusAsync(int associateId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id to use when loading information about user licenses and installation license status.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus}
+      description: An object that holds information for producing license status feedback to the user.
+    content.vb: Function GetUserAndInstallationLicenceStatusAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UserAndInstallationLicenceStatus)
+  overload: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync*
 - uid: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: ChangeSerialNumberAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1028,6 +1061,62 @@ references:
   name: GetLicenseFromDBAsync
   nameWithType: ILicenseAgent.GetLicenseFromDBAsync
   fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetLicenseFromDBAsync
+- uid: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync
+  isExternal: true
+  name: GetUserAndInstallationLicenceStatusAsync
+  nameWithType: ILicenseAgent.GetUserAndInstallationLicenceStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserAndInstallationLicenceStatusAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<UserAndInstallationLicenceStatus>
+  nameWithType: Task<UserAndInstallationLicenceStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus>
+  nameWithType.vb: Task(Of UserAndInstallationLicenceStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus)
+  name.vb: Task(Of UserAndInstallationLicenceStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+    name: UserAndInstallationLicenceStatus
+    nameWithType: UserAndInstallationLicenceStatus
+    fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+    name: UserAndInstallationLicenceStatus
+    nameWithType: UserAndInstallationLicenceStatus
+    fullName: SuperOffice.WebApi.Data.UserAndInstallationLicenceStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ILicenseAgent.ChangeSerialNumberAsync
   isExternal: true
@@ -1040,13 +1129,6 @@ references:
   name: GetUserLicensesAsync
   nameWithType: ILicenseAgent.GetUserLicensesAsync
   fullName: SuperOffice.WebApi.Agents.ILicenseAgent.GetUserLicensesAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}
   commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LicenseOwner[]}'
   definition: System.Threading.Tasks.Task`1

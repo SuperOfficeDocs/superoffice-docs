@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.Direction
+  - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId(System.Int32)
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.LeftOuterJoin_SearchCriterion_SearchCriteriaGroupId
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.Name
   - SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.Rank
@@ -116,6 +117,37 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId(System.Int32)
+  id: IdxSearchCriteriaId(System.Int32)
+  parent: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxSearchCriteriaId(Int32)
+  nameWithType: SearchCriteriaGroupTableInfo.IdxSearchCriteriaId(Int32)
+  fullName: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nShortcut method for looking up using the database index SearchCriteriaId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>SearchCriteriaId</td><td>Owning model</td></tr></tbody></table>\n"
+  syntax:
+    content: public Restriction IdxSearchCriteriaId(int searchCriteriaId)
+    parameters:
+    - id: searchCriteriaId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxSearchCriteriaId(searchCriteriaId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -1279,12 +1311,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber*
-  commentId: Overload:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId*
+  commentId: Overload:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId
   isExternal: true
-  name: DictionaryTableNumber
-  nameWithType: SearchCriteriaGroupTableInfo.DictionaryTableNumber
-  fullName: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
+  name: IdxSearchCriteriaId
+  nameWithType: SearchCriteriaGroupTableInfo.IdxSearchCriteriaId
+  fullName: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.IdxSearchCriteriaId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1292,6 +1324,19 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
+  isExternal: true
+  name: DictionaryTableNumber
+  nameWithType: SearchCriteriaGroupTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.SearchCriteriaGroupTableInfo.RuntimeDefinition
   isExternal: true

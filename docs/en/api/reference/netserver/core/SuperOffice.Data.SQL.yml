@@ -91,6 +91,7 @@ items:
   - SuperOffice.Data.SQL.GroupBy
   - SuperOffice.Data.SQL.HasAll
   - SuperOffice.Data.SQL.HasAny
+  - SuperOffice.Data.SQL.HasFlag
   - SuperOffice.Data.SQL.Having
   - SuperOffice.Data.SQL.Hour
   - SuperOffice.Data.SQL.In
@@ -1494,6 +1495,13 @@ references:
   name: GroupBy
   nameWithType: GroupBy
   fullName: SuperOffice.Data.SQL.GroupBy
+- uid: SuperOffice.Data.SQL.HasFlag
+  commentId: T:SuperOffice.Data.SQL.HasFlag
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasFlag
+  nameWithType: HasFlag
+  fullName: SuperOffice.Data.SQL.HasFlag
 - uid: SuperOffice.Data.SQL.Having
   commentId: T:SuperOffice.Data.SQL.Having
   isExternal: true

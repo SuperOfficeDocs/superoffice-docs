@@ -16,6 +16,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentInfo.EndDate
   - SuperOffice.WebApi.Data.AppointmentInfo.HasAlarm
   - SuperOffice.WebApi.Data.AppointmentInfo.IsAllDay
+  - SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
   - SuperOffice.WebApi.Data.AppointmentInfo.IsBookingMain
   - SuperOffice.WebApi.Data.AppointmentInfo.IsBusy
   - SuperOffice.WebApi.Data.AppointmentInfo.IsCompleted
@@ -24,6 +25,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
   - SuperOffice.WebApi.Data.AppointmentInfo.IsVideoMeeting
   - SuperOffice.WebApi.Data.AppointmentInfo.MotherId
+  - SuperOffice.WebApi.Data.AppointmentInfo.PersonName
   - SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
   - SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
   - SuperOffice.WebApi.Data.AppointmentInfo.SendEmail
@@ -884,6 +886,72 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.PersonName
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.PersonName
+  id: PersonName
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonName
+  nameWithType: AppointmentInfo.PersonName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.PersonName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the appointment person.\n"
+  syntax:
+    content: public virtual string PersonName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PersonName As String
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.PersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
+  id: IsBooking
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: IsBooking
+  nameWithType: AppointmentInfo.IsBooking
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTrue if the appointment is part of a booking\n"
+  syntax:
+    content: public virtual bool IsBooking { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsBooking As Boolean
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -1201,3 +1269,15 @@ references:
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo
   fullName: SuperOffice.WebApi.Data.RecurrenceInfo
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.PersonName*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.PersonName
+  isExternal: true
+  name: PersonName
+  nameWithType: AppointmentInfo.PersonName
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.PersonName
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
+  isExternal: true
+  name: IsBooking
+  nameWithType: AppointmentInfo.IsBooking
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking

@@ -54,6 +54,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase._colHasBounced
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
   - SuperOffice.CRM.ArchiveLists.EmailExtenderBase.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.EmailTableInfo}.ModifyQuery
@@ -585,6 +587,184 @@ references:
     name: ArchiveRow
     nameWithType: ArchiveRow
     fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  isExternal: true
+  name: SetEmailAddressColumn(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  nameWithType: EmailExtenderBase.SetEmailAddressColumn(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.Data.EmailTableInfo, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetEmailAddressColumn
+    nameWithType: EmailExtenderBase.SetEmailAddressColumn
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetEmailAddressColumn
+    nameWithType: EmailExtenderBase.SetEmailAddressColumn
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetEmailAddressColumn
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  commentId: M:SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+  parent: SuperOffice.CRM.ArchiveLists.EmailExtenderBase
+  isExternal: true
+  name: SetHasBounced(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  nameWithType: EmailExtenderBase.SetHasBounced(SoDataReader, ArchiveRow, EmailTableInfo, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow, SuperOffice.CRM.Data.EmailTableInfo, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetHasBounced
+    nameWithType: EmailExtenderBase.SetHasBounced
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow,SuperOffice.CRM.Data.EmailTableInfo,System.Boolean)
+    name: SetHasBounced
+    nameWithType: EmailExtenderBase.SetHasBounced
+    fullName: SuperOffice.CRM.ArchiveLists.EmailExtenderBase.SetHasBounced
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Data.EmailTableInfo
+    name: EmailTableInfo
+    nameWithType: EmailTableInfo
+    fullName: SuperOffice.CRM.Data.EmailTableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
   - name: )
     nameWithType: )

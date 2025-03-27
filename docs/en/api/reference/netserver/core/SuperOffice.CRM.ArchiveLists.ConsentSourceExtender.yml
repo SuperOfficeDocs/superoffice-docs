@@ -5,7 +5,7 @@ items:
   id: ConsentSourceExtender
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor(System.String)
   - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName(System.String)
   - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -162,8 +162,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.DebugXML
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-  - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   modifiers.csharp:
   - public
@@ -171,16 +169,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor
-  id: '#ctor'
+- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor(System.String)
+  id: '#ctor(System.String)'
   parent: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender
   langs:
   - csharp
   - vb
-  name: ConsentSourceExtender()
-  nameWithType: ConsentSourceExtender.ConsentSourceExtender()
-  fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentSourceExtender()
+  name: ConsentSourceExtender(String)
+  nameWithType: ConsentSourceExtender.ConsentSourceExtender(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentSourceExtender(System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -189,8 +187,11 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public ConsentSourceExtender()
-    content.vb: Public Sub New
+    content: public ConsentSourceExtender(string iconHint = "Person")
+    parameters:
+    - id: iconHint
+      type: System.String
+    content.vb: Public Sub New(iconHint As String = "Person")
   overload: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.#ctor*
   modifiers.csharp:
   - public
@@ -5394,84 +5395,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  name: AssignByReflection<ConsentSourceExtender>(ConsentSourceExtender)
-  nameWithType: ObjectExtensions.AssignByReflection<ConsentSourceExtender>(ConsentSourceExtender)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ConsentSourceExtender>(SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ConsentSourceExtender)(ConsentSourceExtender)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)(SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-  name.vb: AssignByReflection(Of ConsentSourceExtender)(ConsentSourceExtender)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection<ConsentSourceExtender>
-    nameWithType: ObjectExtensions.AssignByReflection<ConsentSourceExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ConsentSourceExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender
-    name: ConsentSourceExtender
-    nameWithType: ConsentSourceExtender
-    fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
-    name: AssignByReflection(Of ConsentSourceExtender)
-    nameWithType: ObjectExtensions.AssignByReflection(Of ConsentSourceExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender
-    name: ConsentSourceExtender
-    nameWithType: ConsentSourceExtender
-    fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  name: GraphCopy<ConsentSourceExtender>()
-  nameWithType: ObjectExtensions.GraphCopy<ConsentSourceExtender>()
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ConsentSourceExtender>()
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ConsentSourceExtender)()
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)()
-  name.vb: GraphCopy(Of ConsentSourceExtender)()
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy<ConsentSourceExtender>
-    nameWithType: ObjectExtensions.GraphCopy<ConsentSourceExtender>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ConsentSourceExtender>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
-    name: GraphCopy(Of ConsentSourceExtender)
-    nameWithType: ObjectExtensions.GraphCopy(Of ConsentSourceExtender)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ConsentSourceExtender)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
@@ -5843,103 +5766,6 @@ references:
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection<T>
-    nameWithType: ObjectExtensions.AssignByReflection<T>
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection(Of T)
-    nameWithType: ObjectExtensions.AssignByReflection(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy<T>
-    nameWithType: ObjectExtensions.GraphCopy<T>
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy(Of T)
-    nameWithType: ObjectExtensions.GraphCopy(Of T)
-    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
@@ -5986,12 +5812,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -6004,12 +5824,6 @@ references:
   name: ConsentSourceExtender
   nameWithType: ConsentSourceExtender.ConsentSourceExtender
   fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentSourceExtender
-- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName
-  isExternal: true
-  name: ConsentKeyToColumnName
-  nameWithType: ConsentSourceExtender.ConsentKeyToColumnName
-  fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -6017,6 +5831,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName
+  isExternal: true
+  name: ConsentKeyToColumnName
+  nameWithType: ConsentSourceExtender.ConsentKeyToColumnName
+  fullName: SuperOffice.CRM.ArchiveLists.ConsentSourceExtender.ConsentKeyToColumnName
 - uid: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ConsentPersonTableInfo}.SetJoin
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ConsentPersonTableInfo}.SetJoin
   parent: SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ConsentPersonTableInfo}

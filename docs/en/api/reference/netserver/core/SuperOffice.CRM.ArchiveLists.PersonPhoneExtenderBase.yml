@@ -5,7 +5,7 @@ items:
   id: PersonPhoneExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
   children:
-  - SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType)
+  - SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType,System.String)
   - SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.ParentCountryId
   - SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.SetJoin
   langs:
@@ -180,16 +180,16 @@ items:
   - Public
   - MustInherit
   - Class
-- uid: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType)
-  commentId: M:SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType)
-  id: '#ctor(SuperOffice.Data.PhoneType)'
+- uid: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor(SuperOffice.Data.PhoneType,System.String)
+  id: '#ctor(SuperOffice.Data.PhoneType,System.String)'
   parent: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase
   langs:
   - csharp
   - vb
-  name: PersonPhoneExtenderBase(PhoneType)
-  nameWithType: PersonPhoneExtenderBase.PersonPhoneExtenderBase(PhoneType)
-  fullName: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.PersonPhoneExtenderBase(SuperOffice.Data.PhoneType)
+  name: PersonPhoneExtenderBase(PhoneType, String)
+  nameWithType: PersonPhoneExtenderBase.PersonPhoneExtenderBase(PhoneType, String)
+  fullName: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.PersonPhoneExtenderBase(SuperOffice.Data.PhoneType, System.String)
   type: Constructor
   source:
     path: SoDataBase
@@ -199,12 +199,14 @@ items:
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nConstruct the object and set the phone type\n"
   syntax:
-    content: protected PersonPhoneExtenderBase(PhoneType type)
+    content: protected PersonPhoneExtenderBase(PhoneType type, string iconHint = "Person")
     parameters:
     - id: type
       type: SuperOffice.Data.PhoneType
       description: Standard phone type
-    content.vb: Protected Sub New(type As PhoneType)
+    - id: iconHint
+      type: System.String
+    content.vb: Protected Sub New(type As PhoneType, iconHint As String = "Person")
   overload: SuperOffice.CRM.ArchiveLists.PersonPhoneExtenderBase.#ctor*
   modifiers.csharp:
   - protected
@@ -5920,6 +5922,13 @@ references:
   name: PhoneType
   nameWithType: PhoneType
   fullName: SuperOffice.Data.PhoneType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true

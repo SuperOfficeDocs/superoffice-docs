@@ -20,6 +20,7 @@ items:
   - SuperOffice.CRM.Services.LicenseAgent.GetSatelliteLicenses(System.Int32)
   - SuperOffice.CRM.Services.LicenseAgent.GetShopUrl(System.String)
   - SuperOffice.CRM.Services.LicenseAgent.GetThirdPartyLicenseAssignments(System.Int32,System.String)
+  - SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
   - SuperOffice.CRM.Services.LicenseAgent.GetUserLicenses(System.Int32)
   - SuperOffice.CRM.Services.LicenseAgent.GetUserLicensesMDOList
   - SuperOffice.CRM.Services.LicenseAgent.RemoveLicenseFromDB(System.String)
@@ -298,6 +299,41 @@ items:
   overload: SuperOffice.CRM.Services.LicenseAgent.GetLicenseFromDB*
   implements:
   - SuperOffice.CRM.Services.ILicenseAgent.GetLicenseFromDB(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  id: GetUserAndInstallationLicenceStatus(System.Int32)
+  parent: SuperOffice.CRM.Services.LicenseAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserAndInstallationLicenceStatus(Int32)
+  nameWithType: LicenseAgent.GetUserAndInstallationLicenceStatus(Int32)
+  fullName: SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet status values for user licenses and installation license that can be used for feedback to the user.\n"
+  syntax:
+    content: public UserAndInstallationLicenceStatus GetUserAndInstallationLicenceStatus(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Associate id to use when loading information about user licenses and installation license status.
+    return:
+      type: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+      description: An object that holds information for producing license status feedback to the user.
+    content.vb: Public Function GetUserAndInstallationLicenceStatus(associateId As Integer) As UserAndInstallationLicenceStatus
+  overload: SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus*
+  implements:
+  - SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1355,6 +1391,67 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus*
+  commentId: Overload:SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus
+  isExternal: true
+  name: GetUserAndInstallationLicenceStatus
+  nameWithType: LicenseAgent.GetUserAndInstallationLicenceStatus
+  fullName: SuperOffice.CRM.Services.LicenseAgent.GetUserAndInstallationLicenceStatus
+- uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  parent: SuperOffice.CRM.Services.ILicenseAgent
+  isExternal: true
+  name: GetUserAndInstallationLicenceStatus(Int32)
+  nameWithType: ILicenseAgent.GetUserAndInstallationLicenceStatus(Int32)
+  fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+    name: GetUserAndInstallationLicenceStatus
+    nameWithType: ILicenseAgent.GetUserAndInstallationLicenceStatus
+    fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus(System.Int32)
+    name: GetUserAndInstallationLicenceStatus
+    nameWithType: ILicenseAgent.GetUserAndInstallationLicenceStatus
+    fullName: SuperOffice.CRM.Services.ILicenseAgent.GetUserAndInstallationLicenceStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  commentId: T:SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: UserAndInstallationLicenceStatus
+  nameWithType: UserAndInstallationLicenceStatus
+  fullName: SuperOffice.CRM.Services.UserAndInstallationLicenceStatus
 - uid: SuperOffice.CRM.Services.LicenseAgent.ChangeSerialNumber*
   commentId: Overload:SuperOffice.CRM.Services.LicenseAgent.ChangeSerialNumber
   isExternal: true
@@ -1465,13 +1562,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.LicenseOwner[]
   isExternal: true
   name: LicenseOwner[]

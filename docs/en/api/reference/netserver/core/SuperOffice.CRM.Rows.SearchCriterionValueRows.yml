@@ -14,6 +14,7 @@ items:
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.SearchCriterionValueRow})
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.ForEach(System.Action{SuperOffice.CRM.Rows.SearchCriterionValueRow})
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromCustomSearch(SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch)
+  - SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId(System.Int32)
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.SearchCriterionValueTableInfo)
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.Item(System.Int32)
   - SuperOffice.CRM.Rows.SearchCriterionValueRows.Remove(SuperOffice.CRM.Rows.SearchCriterionValueRow)
@@ -295,6 +296,41 @@ items:
       description: A new instance of the SearchCriterionValueRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearch(query As SearchCriterionValueRows.CustomSearch) As SearchCriterionValueRows
   overload: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromCustomSearch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId(System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId(System.Int32)
+  id: GetFromIdxSearchCriterionId(System.Int32)
+  parent: SuperOffice.CRM.Rows.SearchCriterionValueRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxSearchCriterionId(Int32)
+  nameWithType: SearchCriterionValueRows.GetFromIdxSearchCriterionId(Int32)
+  fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCreate a new instance of the SearchCriterionValueRow object, by querying the database table via the index &apos;IDXSearchCriterionValueSearchCriterion_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the SearchCriterionValue table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.SearchCriterionValueRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static SearchCriterionValueRows GetFromIdxSearchCriterionId(int searchCriterionId)
+    parameters:
+    - id: searchCriterionId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Rows.SearchCriterionValueRows
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxSearchCriterionId(searchCriterionId As Integer) As SearchCriterionValueRows
+  overload: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId*
   modifiers.csharp:
   - public
   - static
@@ -2979,6 +3015,19 @@ references:
   name: SearchCriterionValueRows.CustomSearch
   nameWithType: SearchCriterionValueRows.CustomSearch
   fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows.CustomSearch
+- uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId*
+  commentId: Overload:SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId
+  isExternal: true
+  name: GetFromIdxSearchCriterionId
+  nameWithType: SearchCriterionValueRows.GetFromIdxSearchCriterionId
+  fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromIdxSearchCriterionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromReader*
   commentId: Overload:SuperOffice.CRM.Rows.SearchCriterionValueRows.GetFromReader
   isExternal: true
@@ -3011,13 +3060,6 @@ references:
   name: Add
   nameWithType: SearchCriterionValueRows.Add
   fullName: SuperOffice.CRM.Rows.SearchCriterionValueRows.Add
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.SearchCriterionValueRows.AddRange*
   commentId: Overload:SuperOffice.CRM.Rows.SearchCriterionValueRows.AddRange
   isExternal: true

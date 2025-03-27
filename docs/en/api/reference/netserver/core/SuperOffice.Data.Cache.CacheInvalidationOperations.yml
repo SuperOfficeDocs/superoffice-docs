@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Cache.CacheInvalidationOperations
+  commentId: T:SuperOffice.Data.Cache.CacheInvalidationOperations
+  id: CacheInvalidationOperations
+  parent: SuperOffice.Data.Cache
+  children:
+  - SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation(System.String)
+  langs:
+  - csharp
+  - vb
+  name: CacheInvalidationOperations
+  nameWithType: CacheInvalidationOperations
+  fullName: SuperOffice.Data.Cache.CacheInvalidationOperations
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  summary: "\nThis is an extract from the CacheManager class. It is used to updated the cacheinvalidation table.\n"
+  syntax:
+    content: 'public static class CacheInvalidationOperations : Object'
+    content.vb: >-
+      Public Module CacheInvalidationOperations
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation(System.String)
+  commentId: M:SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation(System.String)
+  id: UpsertCacheInvalidation(System.String)
+  parent: SuperOffice.Data.Cache.CacheInvalidationOperations
+  langs:
+  - csharp
+  - vb
+  name: UpsertCacheInvalidation(String)
+  nameWithType: CacheInvalidationOperations.UpsertCacheInvalidation(String)
+  fullName: SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: public static void UpsertCacheInvalidation(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Shared Sub UpsertCacheInvalidation(name As String)
+  overload: SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation*
+  commentId: Overload:SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation
+  isExternal: true
+  name: UpsertCacheInvalidation
+  nameWithType: CacheInvalidationOperations.UpsertCacheInvalidation
+  fullName: SuperOffice.Data.Cache.CacheInvalidationOperations.UpsertCacheInvalidation
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

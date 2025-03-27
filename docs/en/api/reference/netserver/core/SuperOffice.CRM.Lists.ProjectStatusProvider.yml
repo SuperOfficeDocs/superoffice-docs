@@ -31,7 +31,7 @@ items:
 
       [MDOAdditionalInfoSeparator("&")]
 
-      [MDOAdditionalInfo("ProjectTypeId", "Return all pricelists, not just the active ones", 123)]
+      [MDOAdditionalInfo("ProjectTypeId", "The project type id.", 123)]
 
       [MDOAdditionalInfo("GetDeleted", "Include deleted items", true)]
 
@@ -43,7 +43,7 @@ items:
 
       <MDOAdditionalInfoSeparator("&")>
 
-      <MDOAdditionalInfo("ProjectTypeId", "Return all pricelists, not just the active ones", 123)>
+      <MDOAdditionalInfo("ProjectTypeId", "The project type id.", 123)>
 
       <MDOAdditionalInfo("GetDeleted", "Include deleted items", True)>
 
@@ -134,7 +134,7 @@ items:
     - type: System.String
       value: ProjectTypeId
     - type: System.String
-      value: Return all pricelists, not just the active ones
+      value: The project type id.
     - type: System.Int32
       value: 123
   - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
