@@ -4,8 +4,8 @@ title: Angi datarettigheter for rolle
 description: Angi datarettigheter for rolle
 keywords: brukeradministrasjon, rolle, tilgang, rettigheter
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 03.27.2025
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -44,19 +44,20 @@ Du kan angi rettigheter for [dataobjekter][2] basert på hvem som eier objektet.
 
 ## Hva betyr de ulike kolonnene under Data eid av?
 
-| Data eid av | Forklaring|
-|---|---|
-| Min egen | Opprettet av deg |
-| Primærgruppe (A) | Opprettet av din primærgruppe (avdeling) |
-| Mitt firma (E) | Opprettet av ekstern brukers firma |
-| Andre grupper (A) | Opprettet av en brukergruppe du tilhører |
-| Samme prosjekt (E) | Opprettet i et prosjekt som en ekstern bruker tilhører |
-| Andre medarbeidere | Opprettet av andre medarbeidere i bedriften |
-| Ekstern bruker | Opprettet av eksterne brukere (Audience-brukere) |
-| Anonyme | Opprettet av anonyme brukere |
+| **Data eid av** | **Dashbord og dokumenter** | **Salg og oppfølginger** | **Prosjekter** | **Firma og person** |
+|---|---|---|---|---|
+| Min egen | Opprettet av deg | Eierfeltet brukes | Ansvarlig-feltet brukes | Du er "Vår kontakt" |
+| Primærgruppe (A) | Opprettet av din primærgruppe (avdeling) | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider i din primærgruppe |
+| Mitt firma (E)<br />Kun ONSITE | Opprettet av en ekstern brukers firma | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
+| Andre grupper (A) | Opprettet av en brukergruppe du tilhører | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider i en gruppe du tilhører |
+| Samme prosjekt (E)<br />Kun ONSITE | Opprettet i et prosjekt som en ekstern bruker tilhører | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
+| Andre medarbeidere | Opprettet av andre medarbeidere i bedriften | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" er en medarbeider du ikke deler gruppe med |
+| Ekstern bruker | Opprettet av eksterne brukere (Audience-brukere) | Eierfeltet brukes | Ansvarlig-feltet brukes | "Vår kontakt" gjelder |
+| Anonyme | Opprettet av anonyme brukere | Ikke relevant | Ikke relevant | Ikke relevant |
 
-* A = Medarbeidere
-* E = Eksterne
+**A** = medarbeidere, **E** = ekstern
+
+I personkortet hentes feltet **Vår kontakt** alltid fra firmakortet som personen tilhører.
 
 ## Hvordan viser jeg dataobjekter for eksterne brukere?
 

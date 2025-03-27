@@ -4,8 +4,8 @@ title: Ange databehörigheter för en roll
 description: Ange databehörigheter för en roll
 keywords: administrera användare, roll, åtkomst, behörigheter
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10
+date: 03.27.2025
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -44,19 +44,20 @@ Du kan ange behörigheter för [dataobjekt][2] baserat på vem som äger objekte
 
 ## Vad betyder de olika kolumnerna under Data ägs av?
 
-| Data ägs av | Förklaring|
-|---|---|
-| Min egen | Skapad av dig |
-| Primärgrupp (M) | Skapad av din primärgrupp (avdelning) |
-| Mitt företag (E) | Skapad av en extern användares företag |
-| Andra grupper (M) | Skapad av en användargrupp som du tillhör |
-| Samma projekt (E) | Skapad i ett projekt som en extern användare tillhör |
-| Andra medarbetare | Skapad av andra medarbetare på företaget |
-| Extern användare | Skapad av externa användare (Audience-användare) |
-| Anonym | Skapad av anonyma användare |
+| **Data ägs av** | **Dashboard och dokument** | **Försäljning och aktiviteter** | **Projekt** | **Företag och kontakt** |
+|---|---|---|---|---|
+| Min egen | Skapad av dig | Ägarfält används | Ansvarlig-fält används | Du är "Vår kontakt" |
+| Primärgrupp (M) | Skapad av din primärgrupp (avdelning) | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare i din primärgrupp |
+| Mitt företag (E)<br />Endast ONSITE | Skapad av en extern användares företag | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
+| Andra grupper (M) | Skapad av en användargrupp som du tillhör | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare i en grupp du tillhör |
+| Samma projekt (E)<br />Endast ONSITE | Skapad i ett projekt som en extern användare tillhör | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
+| Andra medarbetare | Skapad av andra medarbetare i företaget | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" är en medarbetare som inte tillhör samma grupp som du |
+| Extern användare | Skapad av externa användare (Audience-användare) | Ägarfält används | Ansvarlig-fält används | "Vår kontakt" används |
+| Anonym | Skapad av anonyma användare | Inte tillämpligt | Inte tillämpligt | Inte tillämpligt |
 
-* M = medarbetare
-* E = externa
+**M** = medarbetare, **E** = extern
+
+I kontaktkortet hämtas fältet **Vår kontakt** alltid från företagskortet som kontakten tillhör.
 
 ## Hur visar jag dataobjekt för externa användare?
 
